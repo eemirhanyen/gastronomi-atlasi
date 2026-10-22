@@ -417,7 +417,7 @@
       }).join("") + "</div></section>";
     }
     h += flav(c.spices, "spices", "🌶️") + flav(c.sauces, "sauces", "🥣");
-    h += '<section class="sec" id="msec"></section><section class="sec" id="gsec"></section>';
+    h += '<section class="sec" id="msec"></section>';
     h += '<section class="sec"><h3>' + esc(t("production")) + "</h3>" + bars(c.production, "prod") + "</section>";
     h += '<section class="sec"><h3>' + esc(t("exports")) + "</h3>" + bars(c.exports, "exp") + "</section>";
     h += '<section class="sec" id="rsec"><h3>' + esc(t("recipes")) + "<small>" + esc(t("recipesN", { n: (c.recipes || []).length })) + "</small></h3>";
@@ -444,7 +444,6 @@
     });
     renderList();
     renderMichelin(c.iso3);
-    renderGoogle(c.iso3);
   }
 
   function renderMichelin(iso) {
@@ -476,24 +475,6 @@
         });
       });
     });
-  }
-
-  var gCache = {};
-  function renderGoogle(iso) {
-    var box = document.getElementById("gsec");
-    if (!box) return;
-    var head = "<h3>" + esc(t("google")) + "</h3>";
-    function draw(d) {
-      if (!S.country || S.country.iso3 !== iso) return;
-      if (!d || !d.places || !d.places.length) { box.innerHTML = head + '<div class="nodata">' + esc(t("googleNone")) + "</div>"; return; }
-      box.innerHTML = head + '<div class="glist">' + d.places.map(function (p) {
-        return '<a class="grow" href="' + esc(p.url) + '" target="_blank" rel="noopener"><span class="gr">' + p.rating.toFixed(1) + " ★</span><span><b>" +
-          esc(p.name) + "</b>" + esc(p.address || "") + " · " + esc(t("reviews", { n: p.count.toLocaleString(lang) })) + "</span></a>";
-      }).join("") + '</div><div class="src">' + esc(t("googleNote", { n: d.minReviews })) + '</div><div class="gattr">Google Maps</div>';
-    }
-    if (gCache[iso]) { draw(gCache[iso]); return; }
-    box.innerHTML = head + '<div class="nodata">' + esc(t("loading")) + "</div>";
-    getJSON("api/places?iso=" + iso).then(function (d) { gCache[iso] = d; draw(d); }).catch(function () { draw(null); });
   }
 
   function renderList() {
