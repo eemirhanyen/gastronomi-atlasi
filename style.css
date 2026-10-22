@@ -75,6 +75,14 @@ button { font: inherit; color: inherit; }
 .lg-h:empty { padding-top: 4px; }
 .clabel.flav { color: #ffe0b0; font-size: 11.5px; }
 
+/* Şarap bölgesi işaretleri (düz, HTML) */
+.wmark { transform: translate(-7px, -7px); display: flex; align-items: center; gap: 5px; pointer-events: auto; cursor: pointer; white-space: nowrap; }
+.wmark i { width: 12px; height: 12px; border-radius: 50%; flex: none; background: radial-gradient(circle at 35% 35%, #ff9cbd, #b0124d 70%);
+  border: 1.5px solid rgba(255,255,255,.9); box-shadow: 0 0 0 3px rgba(224,69,123,.28), 0 1px 4px rgba(0,0,0,.6); transition: transform .15s; }
+.wmark:hover i, .wmark.on i { transform: scale(1.35); }
+.wmark span { display: none; font: 600 11px Inter, sans-serif; color: #ffe1ec; text-shadow: 0 1px 3px #000, 0 0 6px #000; }
+#globe.zoomed .wmark span, .wmark:hover span, .wmark.on span { display: inline; }
+
 /* Michelin kartı */
 .mcard { position: fixed; left: 50%; bottom: 70px; transform: translateX(-50%); z-index: 7; width: min(320px, calc(100vw - 32px)); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,.45); font-size: 13px; }
 .mcard[hidden] { display: none; }

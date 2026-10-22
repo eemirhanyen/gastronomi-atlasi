@@ -261,10 +261,61 @@
     if (want && !S.michelin) { loadMichelin().then(applyLayers); return; }
     if (LY.wr && !S.wineRegions) { loadWineRegions().then(applyLayers); return; }
     var pts = !S.michelin ? [] : S.michelin.filter(function (m) { return LY[MKEY[m[5]]]; });
-    if (LY.wr && S.wineRegions) pts = pts.concat(S.wineRegions);
+    globe.htmlElementsData(htmlData());
     S.points = pts;
     globe.pointsData(pts);
     if (!pts.length) hideMcard();
+  }
+  // Küredeki HTML öğeleri: ülke etiketleri + (açıksa) şarap bölgesi işaretleri
+  var labelFeats = null, wineObjs = null;
+  // Yakınlaşınca görünen ülkelerin sınırlarını ayrıntılı (1:50m) sürümle değiştir. Uzaktan bakışta hızlı sürüm kalır.
+  var hiGeo = null, hiLoading = null, upTimer = null;
+  function upgradeGeo(pov) {
+    if (!hiLoading) {
+      hiLoading = getJSON("data/countries_hi.geojson").then(function (g) {
+        hiGeo = {};
+        g.features.forEach(function (f) { hiGeo[f.properties.iso] = f; });
+      }).catch(function () { hiGeo = {}; });
+    }
+    hiLoading.then(function () {
+      clearTimeout(upTimer);
+      upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, 250);
+    });
+  }
+  function upgradeStep(pov) {
+    var reach = Math.max(12, pov.altitude * 45), cl = Math.cos(pov.lat * Math.PI / 180), done = 0, more = false;
+    var feats = S.geo.features;
+    for (var i = 0; i < feats.length; i++) {
+      var f = feats[i];
+      if (f.__hi) continue;
+      var h = hiGeo[f.properties.iso];
+      if (!h) { f.__hi = true; continue; }
+      var dy = (f.properties.ly || 0) - pov.lat, dx = ((((f.properties.lx || 0) - pov.lng) + 540) % 360 - 180) * Math.max(cl, 0.2);
+      if (Math.sqrt(dx * dx + dy * dy) > reach) continue;
+      if (done >= 8) { more = true; break; }
+      var nf = { type: "Feature", properties: f.properties, geometry: h.geometry, __hi: true, __el: f.__el };
+      feats[i] = nf;
+      if (S.selected === f) S.selected = nf;
+      if (S.hover === f) S.hover = nf;
+      done++;
+    }
+    if (done) globe.polygonsData(feats.slice());
+    if (more) upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, 120);
+  }
+  function htmlData() {
+    if (!labelFeats) labelFeats = S.geo.features.filter(function (f) { return S.index[f.properties.iso]; });
+    if (!(LY.wr && S.wineRegions)) return labelFeats;
+    if (!wineObjs) wineObjs = S.wineRegions.map(function (m) { return { w: m }; });
+    return labelFeats.concat(wineObjs);
+  }
+  function wineMark(m) {
+    var d = document.createElement("div");
+    d.className = "wmark";
+    d.innerHTML = "<i></i><span>" + esc(m[0]) + "</span>";
+    d.title = m[0];
+    d.addEventListener("click", function (e) { e.stopPropagation(); showMcard(m); });
+    m.__el = d;
+    return d;
   }
   function loadWineRegions() {
     if (S.wLoading) return S.wLoading;
@@ -308,8 +359,9 @@
         (L(m[6]) ? "<span>" + esc(L(m[6])) + "</span>" : "") + (m[7] && m[7].length ? "<span>🍇 " + esc(m[7].join(", ")) + "</span>" : "");
       c.hidden = false;
       c.querySelector(".close").addEventListener("click", hideMcard);
+      if (S.mSel && S.mSel.__el) S.mSel.__el.classList.remove("on");
       S.mSel = m;
-      globe.pointsData(S.points);
+      if (m.__el) m.__el.classList.add("on");
       return;
     }
     c.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button>' +
@@ -325,6 +377,7 @@
   function hideMcard() {
     var c = document.getElementById("mcard");
     if (c) c.hidden = true;
+    if (S.mSel && S.mSel.__el) S.mSel.__el.classList.remove("on");
     if (S.mSel) { S.mSel = null; if (globe && S.points) globe.pointsData(S.points); }
   }
   function clickAt(coords, f) {
@@ -416,20 +469,28 @@
       .pointsMerge(true)
       .pointsTransitionDuration(0)
       .polygonsTransitionDuration(200)
-      .htmlElementsData(S.geo.features.filter(function (f) { return S.index[f.properties.iso]; }))
-      .htmlLat(function (f) { return f.properties.ly; })
-      .htmlLng(function (f) { return f.properties.lx; })
-      .htmlAltitude(0.015)
+      .htmlElementsData(htmlData())
+      .htmlLat(function (f) { return f.w ? f.w[3] : f.properties.ly; })
+      .htmlLng(function (f) { return f.w ? f.w[4] : f.properties.lx; })
+      .htmlAltitude(function (f) { return f.w ? 0.006 : 0.015; })
       .htmlElement(function (f) {
+        if (f.__el) return f.__el;
+        if (f.w) return (f.__el = wineMark(f.w));
         var d = document.createElement("div");
+        f.__el = d;
         d.className = "clabel r" + Math.min(6, f.properties.rank || 6);
         d.textContent = labelText(f);
         d.dataset.rank = f.properties.rank || 9;
         labelEls.push([d, f]);
         return d;
       })
-      .htmlElementVisibilityModifier(function (d, v) { d.dataset.front = v ? "1" : "0"; applyLabel(d); })
+      .htmlElementVisibilityModifier(function (d, v) {
+        d.dataset.front = v ? "1" : "0";
+        if (d.classList.contains("wmark")) d.style.visibility = v ? "visible" : "hidden"; else applyLabel(d);
+      })
       .onZoom(function (pov) {
+        el.classList.toggle("zoomed", pov.altitude < 0.9);
+        if (pov.altitude < 1.4) upgradeGeo(pov);
         var r = pov.altitude > 2.2 ? 2 : pov.altitude > 1.5 ? 3 : pov.altitude > 1.0 ? 4 : pov.altitude > 0.6 ? 5 : 9;
         if (r !== labelRank) { labelRank = r; labelEls.forEach(function (x) { applyLabel(x[0]); }); }
       });

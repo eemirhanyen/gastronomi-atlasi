@@ -17,6 +17,10 @@ OUT = os.path.join(ROOT, "data", "countries.geojson")
 SRC = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
 FIX = {"KOS": "XKX", "SDS": "SSD", "PSX": "PSE"}
 TOL = float(os.environ.get("GEO_TOL", "0.02"))   # derece; ~2 km
+# GEO_HI=1: yakınlaşınca yüklenen tam ayrıntılı sürüm (data/countries_hi.geojson)
+HI = os.environ.get("GEO_HI") == "1"
+if HI:
+    OUT = os.path.join(ROOT, "data", "countries_hi.geojson")
 DIGITS = 3
 
 
@@ -104,7 +108,7 @@ def main():
         polys = [geom["coordinates"]] if geom["type"] == "Polygon" else geom["coordinates"]
         n_in += sum(len(r) for pl in polys for r in pl)
         polys = [q for q in (poly(pl) for pl in polys) if q]
-        if iso in base:
+        if iso in base and not HI:
             boxes = [bbox(pl[0]) for pl in base[iso]]
             extra = [pl for pl in polys if area(pl[0]) >= 0.01 and not near(bbox(pl[0]), boxes)]
             polys = [[[[round(x, DIGITS), round(y, DIGITS)] for x, y in r] for r in pl] for pl in base[iso]] + extra
