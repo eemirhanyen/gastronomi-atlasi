@@ -28,6 +28,7 @@
       native: "yerli", red: "kırmızı", white: "beyaz", rose: "roze", other: "", sources: "Kaynaklar", researched: "Web araştırmasıyla derlendi ({d}).",
       restTitle: "Mutfağı deneyimlemek için restoranlar", restNote: "Web araştırmasıyla derlendi ({d}); açılış durumunu gitmeden önce kontrol edin.",
       kind_traditional: "Geleneksel", kind_fine_dining: "Fine dining", kind_casual: "Lokanta", kind_street_food: "Sokak lezzeti", kind_market: "Çarşı / pazar",
+      rankScore: "En yüksek mutfak puanları", rankWine: "En çok şarap üreten ülkeler", showAll: "Tümü ({n})", showTop: "İlk 10",
       relTitle: "Akraba yemekler", relSub: "Başka ülkelerde neredeyse aynı yemek", simTitle: "Benzer yemekler", relMap: "Haritada gör",
       relNote: "Benzerlik oranı yapay zekânın malzeme, teknik ve servis biçimine bakarak verdiği bir değerlendirmedir.", relOf: "{d} yemeğinin akrabaları",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
@@ -58,6 +59,7 @@
       native: "native", red: "red", white: "white", rose: "rosé", other: "", sources: "Sources", researched: "Compiled with web research ({d}).",
       restTitle: "Restaurants to experience the cuisine", restNote: "Compiled with web research ({d}); check opening status before you go.",
       kind_traditional: "Traditional", kind_fine_dining: "Fine dining", kind_casual: "Casual", kind_street_food: "Street food", kind_market: "Market",
+      rankScore: "Top cuisine scores", rankWine: "Top wine producers", showAll: "All ({n})", showTop: "Top 10",
       relTitle: "Related dishes", relSub: "Almost the same dish in other countries", simTitle: "Similar dishes", relMap: "Show on the map",
       relNote: "Similarity is an AI assessment of ingredients, technique and how the dish is served.", relOf: "Relatives of {d}",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
@@ -171,6 +173,7 @@
     updateLabels();
     updateStats();
     legend();
+    renderRank();
     if (S.country) renderPanel();
     if (S.recipe) openRecipe(S.recipe[0], S.recipe[1], true);
     runSearch();
@@ -187,7 +190,7 @@
       return cb(k, esc(t(a === "b" ? "bib" : "star" + a)) + (cnt[a] ? ' <em>' + cnt[a].toLocaleString(lang) + "</em>" : ""), '<i class="mdot" style="background:' + MCOL[a] + '"></i>');
     }
     document.getElementById("legend").innerHTML =
-      '<details class="lg" open><summary>' + esc(t("layers")) + "</summary>" +
+      '<details class="lg"' + (S.lgOpen !== false && (S.lgOpen || window.innerWidth > 720) ? " open" : "") + "><summary>" + esc(t("layers")) + "</summary>" +
       [["score", "colScore"], ["wine", "colWine"], ["none", "colNone"]].map(function (o) {
         return '<label class="ly"><input type="radio" name="lycolor" data-col="' + o[0] + '"' + (LY.color === o[0] ? " checked" : "") + "><span>" +
           (o[0] === "wine" ? "🍷 " : "") + esc(t(o[1])) + "</span></label>";
@@ -210,11 +213,15 @@
         applyLayers();
       });
     });
+    var det = document.querySelector("#legend details");
+    det.addEventListener("toggle", function () { S.lgOpen = det.open; });
     Array.prototype.forEach.call(document.querySelectorAll("[data-col]"), function (x) {
       x.addEventListener("change", function () {
         LY.color = x.dataset.col;
         try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
+        S.rankAll = false;
         legend();
+        renderRank();
         refresh();
       });
     });
@@ -320,6 +327,42 @@
     hideMcard();
     if (f) selectCountry(f.properties.iso, true); else closePanel();
   }
+  // Sıralama kutusu: renk moduna göre ilk 10 (puan ya da şarap üretimi), istenirse tümü
+  function renderRank() {
+    var box = document.getElementById("rank");
+    if (!box) return;
+    var mode = LY.color === "wine" ? "wine" : "score";
+    var list = Object.keys(S.index).map(function (k) { return S.index[k]; })
+      .filter(function (c) { return mode === "wine" ? c.wine : c.score != null; })
+      .sort(function (a, b) { return mode === "wine" ? b.wine - a.wine : b.score - a.score || cname(a.iso3).localeCompare(cname(b.iso3), lang); });
+    if (!list.length || LY.color === "none") { box.hidden = true; return; }
+    box.hidden = false;
+    var all = !!S.rankAll, shown = all ? list : list.slice(0, 10), rank = 0, prev = null;
+    var open = S.rkOpen !== undefined ? S.rkOpen : window.innerWidth > 720;
+    var h = '<div class="rk-h"><b class="rk-title" role="button" tabindex="0">🏆 ' + esc(t(mode === "wine" ? "rankWine" : "rankScore")) + " " + (open ? "▾" : "▸") +
+      "</b>" + (open ? '<button class="rk-toggle">' + esc(all ? t("showTop") : t("showAll", { n: list.length })) + "</button>" : "") + "</div>";
+    if (!open) {
+      box.innerHTML = h;
+      box.querySelector(".rk-title").addEventListener("click", function () { S.rkOpen = true; renderRank(); });
+      return;
+    }
+    h += '<ol class="rk-list">';
+    shown.forEach(function (c, i) {
+      var v = mode === "wine" ? c.wine : c.score;
+      if (v !== prev) { rank = i + 1; prev = v; }        // eşit puanlar aynı sırayı paylaşır
+      var col = mode === "wine" ? wineColor(v) : scoreColor(v);
+      var val = mode === "wine" ? new Intl.NumberFormat(lang, { notation: "compact", maximumFractionDigits: 1 }).format(v) + " t" : v;
+      h += '<li><button data-iso="' + c.iso3 + '"' + (S.country && S.country.iso3 === c.iso3 ? ' class="on"' : "") + '><span class="rk-n">' + rank +
+        '</span><span class="rk-f">' + flag(c.iso2) + '</span><span class="rk-c">' + esc(cname(c.iso3)) +
+        '</span><span class="rk-v" style="--c:' + col + (mode === "wine" && v > 60000 ? ";color:#fff" : "") + '">' + val + "</span></button></li>";
+    });
+    box.innerHTML = h + "</ol>";
+    box.querySelector(".rk-toggle").addEventListener("click", function () { S.rankAll = !S.rankAll; renderRank(); });
+    box.querySelector(".rk-title").addEventListener("click", function () { S.rkOpen = false; renderRank(); });
+    Array.prototype.forEach.call(box.querySelectorAll("[data-iso]"), function (b) {
+      b.addEventListener("click", function () { selectCountry(b.dataset.iso, true); });
+    });
+  }
   function updateStats() {
     var c = 0, r = 0;
     Object.keys(S.index).forEach(function (k) { if (S.index[k].recipes) { c++; r += S.index[k].recipes; } });
@@ -417,6 +460,7 @@
     document.getElementById("hint").classList.add("gone");
     var p = document.getElementById("panel");
     p.classList.add("open"); p.setAttribute("aria-hidden", "false");
+    document.body.classList.add("panel-open");
     refresh();
     return loadCountry(iso).then(function (c) {
       S.country = c || { iso3: iso, missing: true };
@@ -436,7 +480,9 @@
     S.selected = null; S.country = null;
     var p = document.getElementById("panel");
     p.classList.remove("open"); p.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("panel-open");
     refresh();
+    renderRank();
     setHash();
   }
 
