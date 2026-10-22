@@ -151,14 +151,15 @@ def stage_judge():
                 "about": r["desc"]["en"][:220], "ingredients": r["ingredients"]["en"][:14],
                 "method": " ".join(r["steps"]["en"])[:500]}
     reqs, ids = [], {}
-    for k in range(0, len(todo), 20):
-        part = todo[k:k + 20]
+    # 20'li gruplar çıktı sınırına takıldı (ilk çalıştırmada 500 isteğin 322'si): 8'erli + geniş sınır
+    for k in range(0, len(todo), 8):
+        part = todo[k:k + 8]
         body = {}
         for n, (a, b) in enumerate(part):
             pid = f"p{k + n}"
             ids[pid] = f"{a}|{b}"
             body[pid] = {"A": brief(a), "B": brief(b)}
-        reqs.append(C.req(f"judge{k}", JUDGE_SYSTEM, json.dumps(body, ensure_ascii=False), 5000,
+        reqs.append(C.req(f"judge{k}", JUDGE_SYSTEM, json.dumps(body, ensure_ascii=False), 9000,
                           os.environ.get("AI_JUDGE_MODEL") or C.MODEL))
     for _, text in C.run_batch(reqs, "judge").items():
         try:
