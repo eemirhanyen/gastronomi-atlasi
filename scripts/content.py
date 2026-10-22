@@ -71,6 +71,8 @@ def targets():
 
 
 def slug(s):
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     s = re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
     return s[:60] or "x"
 
@@ -215,7 +217,7 @@ def stage_recipes():
                 continue
             reqs.append(req(f"{iso}_{d['id']}", RECIPE_SYSTEM,
                             f"Country: {REF[iso]['name']}\nDish: {d['en']} ({d.get('native') or ''}; Turkish: {d.get('tr') or ''})\nCategory: {d['category']}",
-                            3500))
+                            7000))
     log(f"recipes: {len(reqs)} tarif")
     if not reqs:
         return
@@ -267,7 +269,7 @@ def stage_review():
                 continue
             body = {k: r[k] for k in ("name", "native", "desc", "servings", "time_min", "difficulty", "ingredients", "steps", "tip") if k in r}
             reqs.append(req(f"{iso}_{d['id']}", REVIEW_SYSTEM,
-                            f"Country: {REF[iso]['name']}\nDish: {d['en']}\n\n{json.dumps(body, ensure_ascii=False)}", 4500, REVIEW_MODEL))
+                            f"Country: {REF[iso]['name']}\nDish: {d['en']}\n\n{json.dumps(body, ensure_ascii=False)}", 9000, REVIEW_MODEL))
     log(f"review: {len(reqs)} tarif")
     if not reqs:
         return
