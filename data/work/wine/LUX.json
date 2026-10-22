@@ -1,0 +1,221 @@
+{
+ "iso3": "LUX",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23772,
+  "out": 3855,
+  "searches": 2
+ },
+ "usd": 0.1061,
+ "summary": {
+  "tr": "Lüksemburg'un bağcılığı, Almanya sınırını oluşturan Moselle (Mosel) Nehri vadisinde yoğunlaşır. Bölgede bağcılığın Kelt ve Roma dönemine kadar uzandığı kabul edilir. 19. yüzyıl sonunda bağların yaklaşık %90'ı Elbling üzüm çeşidiyle dikilmişti. Birinci Dünya Savaşı sonrasında Almanya ile olan gümrük birliğinin bitmesi ve Belçika ile kurulan birliğin ardından Fransız çeşitler yaygınlaştı. Bugün kuru",
+  "en": "Luxembourg's viticulture is concentrated in the Moselle valley along the German border, where vines have been grown since Celtic and Roman times. By the late 19th century about 90% of the vineyards were planted to Elbling. After World War I, Luxembourg left its customs union with Germany and joined one with Belgium, and French varieties spread. Today the country is known for dry whites and Crémant"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Schengen / Remerschen",
+   "lat": 49.48,
+   "lng": 6.36,
+   "desc": {
+    "tr": "Moselle'in en güneyinde, açık vadide ve killi topraklarda yuvarlak, yumuşak şaraplar veren bağ bölgesidir.",
+    "en": "The southern tip of the Moselle, with an open valley and clay soils that give rounder, softer wines."
+   },
+   "grapes": [
+    "Rivaner",
+    "Auxerrois",
+    "Pinot Gris",
+    "Elbling"
+   ]
+  },
+  {
+   "name": "Remich",
+   "lat": 49.545,
+   "lng": 6.368,
+   "desc": {
+    "tr": "Devlet bağcılık enstitüsünün (IVV) 1925'te kurulduğu, kireçtaşı mahzenleri ve Crémant üreticileriyle tanınan bölgenin merkezidir.",
+    "en": "The hub of the Moselle, home to the state viticulture institute (IVV, founded 1925) and known for its limestone cellars and Crémant houses."
+   },
+   "grapes": [
+    "Auxerrois",
+    "Pinot Blanc",
+    "Pinot Gris",
+    "Riesling"
+   ]
+  },
+  {
+   "name": "Wormeldange",
+   "lat": 49.612,
+   "lng": 6.41,
+   "desc": {
+    "tr": "Kireçtaşı yamaçlarındaki dik bağları ve Koeppchen bağıyla ülkenin en iyi Riesling'lerinin kaynağı olarak bilinir.",
+    "en": "Known for steep limestone slopes, including the Koeppchen vineyard, and for some of the country's best Rieslings."
+   },
+   "grapes": [
+    "Riesling",
+    "Pinot Gris",
+    "Auxerrois"
+   ]
+  },
+  {
+   "name": "Grevenmacher",
+   "lat": 49.68,
+   "lng": 6.44,
+   "desc": {
+    "tr": "Kireçtaşı yamaçların daha dik ve vadinin daha dar olduğu, daha diri şaraplar veren kuzey bölgesidir. Aynı zamanda büyük şarap şirketlerine ve şarap festivaline ev sahipliği yapar.",
+    "en": "The northern part of the Moselle, with steeper limestone slopes and a narrower valley that give racier wines, and home to major wine houses and the largest wine festival."
+   },
+   "grapes": [
+    "Riesling",
+    "Pinot Gris",
+    "Pinot Blanc",
+    "Elbling"
+   ]
+  },
+  {
+   "name": "Wasserbillig / Mertert",
+   "lat": 49.712,
+   "lng": 6.5,
+   "desc": {
+    "tr": "Şarap yolunun kuzey ucunda, Sauer'in Moselle'e karıştığı yerde bulunan, Elbling ve Rivaner'in de yetiştirildiği bölgedir.",
+    "en": "The northern end of the Wine Road, where the Sauer meets the Moselle, with Elbling and Rivaner among the varieties grown."
+   },
+   "grapes": [
+    "Elbling",
+    "Rivaner",
+    "Pinot Blanc"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Elbling",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Roma dönemine uzandığı söylenen, düşük alkollü ve yüksek asitli yerel bir çeşittir. Köpüklü şarap bazı ve diri sessiz şaraplar için kullanılır.",
+    "en": "A local variety said to date back to Roman times, high in acidity and low in alcohol, used for sparkling bases and lively still wines."
+   }
+  },
+  {
+   "name": "Rivaner (Müller-Thurgau)",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Lüksemburg'da en çok tüketilen, hafif, meyvemsi ve misket notaları taşıyan gündelik beyaz şaraptır.",
+    "en": "The most widely drunk Luxembourg wine, a light, fruity, easy white with muscat-like notes."
+   }
+  },
+  {
+   "name": "Auxerrois",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Lüksemburg'un özel çeşidi sayılır ve ülkenin en başarılı çeşitlerinden biri olarak kabul edilir. Yuvarlak, aromatik şaraplar verir.",
+    "en": "Regarded as a Luxembourg speciality and often seen as its most successful variety, it makes round, aromatic wines."
+   }
+  },
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Büyük Dükalık'ın en ünlü şarabı sayılır. Mineral notalı, meyvemsi ve diri bir stil verir; geç olgunlaşır.",
+    "en": "Probably the Grand Duchy's most famous wine, fruity and lively with mineral notes, and late-ripening."
+   }
+  },
+  {
+   "name": "Pinot Gris",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Bağ alanında Auxerrois ile birlikte en yaygın çeşitlerden biridir ve dolgun, aromatik şaraplar verir.",
+    "en": "Among the most widely planted varieties alongside Auxerrois, giving fuller, more aromatic wines."
+   }
+  },
+  {
+   "name": "Pinot Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Elma ve armut aromalı, ferah ve hafif şaraplar verir; Crémant karışımlarında da kullanılır.",
+    "en": "Gives fresh, light wines with apple and pear notes and is also used in Crémant blends."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ülkenin başlıca kırmızı çeşididir ve aynı zamanda roze Crémant'ın da temelidir.",
+    "en": "The country's main red grape, also the basis of rosé Crémant."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Crémant de Luxembourg",
+   "desc": {
+    "tr": "Geleneksel (şampanya) yöntemle üretilen köpüklü şaraptır. Fransa dışında \"Crémant\" adını yasal olarak kullanabilen tek ülke Lüksemburg'dur.",
+    "en": "A traditional-method sparkling wine, and Luxembourg is the only country outside France legally allowed to use the name \"Crémant\"."
+   }
+  },
+  {
+   "name": "Moselle Luxembourgeoise AOP",
+   "desc": {
+    "tr": "Ülkenin tek ve ulusal menşe adıdır. Kökeni ve kaliteyi tescil eden Marque Nationale sistemine dayanır.",
+    "en": "The country's single national appellation, based on the Marque Nationale system that certifies origin and quality."
+   }
+  },
+  {
+   "name": "Vendanges Tardives, Vin de Glace and Vin de Paille",
+   "desc": {
+    "tr": "Geç hasat, buzlu bağ ve kurutulmuş üzümden yapılan Lüksemburg'a özgü tatlı şarap etiket ifadeleridir.",
+    "en": "Luxembourg's special label mentions for sweet wines: late harvest, ice wine and straw wine."
+   }
+  },
+  {
+   "name": "Elbling (still)",
+   "desc": {
+    "tr": "Düşük alkollü, narenciye ve yeşil elma aromalı, diri sessiz şaraptır. Geleneksel olarak köpüklü şarap bazı olarak görülür, ama bağımsız bir şarap olarak da değer kazanmıştır.",
+    "en": "A lively, low-alcohol still wine with citrus and green apple notes, historically seen as a sparkling base but now appreciated in its own right."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Luxembourg's vineyards - small but excellent - Luxembourg",
+   "url": "https://luxembourg.public.lu/en/visit/flavours/vintages-vineyard.html"
+  },
+  {
+   "title": "The Wines of Tiny Luxembourg Make a Big Impression",
+   "url": "https://www.wineenthusiast.com/basics/region-rundown/luxembourg-wine-guide/"
+  },
+  {
+   "title": "Luxembourg Wine - The Best European Wine You've Never Heard Of",
+   "url": "https://traveladdicts.net/moselle-luxembourg-wine-tasting/"
+  },
+  {
+   "title": "Wine Tasting in Luxembourg's Moselle Wine Region - Savored Journeys",
+   "url": "https://www.savoredjourneys.com/discover-wine-luxembourgs-moselle-wine-region/"
+  },
+  {
+   "title": "Learn All About Crémant Wine",
+   "url": "https://winefolly.com/deep-dive/cremant-wine/"
+  },
+  {
+   "title": "Moselle wine",
+   "url": "https://en.wikipedia.org/wiki/Moselle_wine"
+  },
+  {
+   "title": "Luxembourg Moselle Valley Wine Region Guide",
+   "url": "https://www.winetourism.com/wine-region/moselle-valley-luxembourg/"
+  },
+  {
+   "title": "Luxembourg’s Moselle vineyards: small and unique",
+   "url": "https://www.bourrasse.com/en/luxembourgs-moselle-vineyards-small-and-unique/"
+  }
+ ]
+}

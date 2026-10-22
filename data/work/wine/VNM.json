@@ -1,0 +1,184 @@
+{
+ "iso3": "VNM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 14354,
+  "out": 3023,
+  "searches": 1
+ },
+ "usd": 0.0689,
+ "summary": {
+  "tr": "Vietnam'da modern şarapçılık, Fransız sömürge döneminde getirilen Avrupa üzüm çeşitleri ve tekniklerle başlamıştır. Bugün üretim, kurak Ninh Thuận kıyı şeridinde yetişen üzümlerin Da Lat yaylasında şaraba işlenmesine dayanır. Ülkede şaraptan çok pirinç alkolü, bira ve meyve şarapları yaygındır. Tropikal iklim nedeniyle asmalar dinlenme dönemi geçirmez ve yılda üç kez hasat verebilir.",
+  "en": "Modern winemaking in Vietnam began under French colonial rule, which brought European grape varieties and techniques. Today production relies on grapes grown in the dry coastal province of Ninh Thuận and made into wine in the Da Lat highlands. Rice spirits, beer and fruit wines are far more common in Vietnamese drinking culture than grape wine. The tropical climate means vines have no dormancy and"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ninh Thuận (Phan Rang)",
+   "lat": 11.6,
+   "lng": 108.95,
+   "desc": {
+    "tr": "Vietnam'ın en kurak ilidir ve ülkenin başlıca üzüm yetiştirme bölgesidir. Üzümlerin çoğu, asmaların destek telleri üzerinde pergola usulüyle yetiştirildiği bağlardan gelir.",
+    "en": "Vietnam's driest province and its main grape-growing area, where vines are trained on pergolas."
+   },
+   "grapes": [
+    "Cardinal",
+    "Syrah",
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Da Lat (Lâm Đồng)",
+   "lat": 11.94,
+   "lng": 108.44,
+   "desc": {
+    "tr": "Yaklaşık 1.500 m rakımlı Orta Yaylalar kenti, ülkenin şarap yapım ve olgunlaştırma merkezidir. Serin iklimi üzümün tam olgunlaşması için fazla soğuktur, bu yüzden üzüm aşağıdaki bölgelerden getirilir.",
+    "en": "A Central Highlands city that is the centre of Vietnamese winemaking and ageing, too cool to ripen grapes fully, so fruit is trucked in from lower areas."
+   },
+   "grapes": [
+    "Cardinal",
+    "Syrah",
+    "Cabernet Sauvignon",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Bình Thuận",
+   "lat": 11.1,
+   "lng": 108.1,
+   "desc": {
+    "tr": "Ninh Thuận'ın komşusu olan bu kıyı ili, Vietnam üzümünün büyük bölümünü onunla birlikte sağlar. Üzümlerin çoğu sofralık olarak tüketilir.",
+    "en": "A coastal province next to Ninh Thuận that, together with it, supplies most of Vietnam's grapes, many of them eaten as table grapes."
+   },
+   "grapes": [
+    "Cardinal"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Cardinal",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "1939'da Kaliforniya'da geliştirilen bu sofralık çeşit, Vietnam'da en çok dikilen üzümdür. Kırmızı ve beyaz şarapta kullanılır.",
+    "en": "A table grape bred in California in 1939 and the most widely planted grape in Vietnam, used for both red and white wines."
+   }
+  },
+  {
+   "name": "NH02-90 (Syrah)",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ninh Thuận'daki araştırma enstitüsünün seçtiği bir Syrah seçilimidir. Ticari şarap üretimi için resmen onaylanmıştır ve sıcak, kurak iklime uyum sağlar.",
+    "en": "A Syrah selection from the Ninh Thuận research institute, officially approved for commercial wine production and adapted to hot, dry conditions."
+   }
+  },
+  {
+   "name": "NH02-37",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Ninh Thuận'daki enstitünün beyaz şarap için geliştirdiği yerel bir çeşittir.",
+    "en": "A locally developed white wine grape from the Ninh Thuận institute."
+   }
+  },
+  {
+   "name": "Chambourcin",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Hastalıklara dayanıklı bu melez çeşit, ülkede en çok dikilen çeşitler arasında anılır.",
+    "en": "A disease-resistant hybrid cited among the main varieties planted in the country."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Da Lat ve Ninh Thuận şaraphanelerinde kullanılan uluslararası bir kırmızı çeşittir.",
+    "en": "An international red grape used by Da Lat and Ninh Thuận wineries."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ninh Thuận'da yetiştirilen ve Da Lat'ta şaraba işlenen uluslararası bir kırmızı çeşittir.",
+    "en": "An international red grape grown in Ninh Thuận and vinified in Da Lat."
+   }
+  },
+  {
+   "name": "Sauvignon Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Vietnam'da yetiştirilen başlıca Avrupa kökenli beyaz çeşittir. Bazen Cardinal ile harmanlanır.",
+    "en": "The main European white grape grown in Vietnam, sometimes blended with Cardinal."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Vang Đà Lạt (Da Lat wine)",
+   "desc": {
+    "tr": "Da Lat şaraphanelerinde üretilen şarapların genel adıdır. Üzümü Ninh Thuận'dan gelir ve şaraplar hafif ile orta gövdelidir.",
+    "en": "The general name for wines made in Da Lat wineries from grapes grown in Ninh Thuận, typically light to medium in body."
+   }
+  },
+  {
+   "name": "Cardinal-based red wine",
+   "desc": {
+    "tr": "Cardinal üzümünün rengi açık olduğundan, bu kırmızı şaraba rengini vermek için genellikle dut suyu eklenir.",
+    "en": "Cardinal is pale in colour, so these red wines are often tinted with mulberry juice."
+   }
+  },
+  {
+   "name": "Fruit wines",
+   "desc": {
+    "tr": "Ülkenin bol yerel meyvelerinden yapılan şaraplar, şarap üretiminin önemli bir bölümünü oluşturur.",
+    "en": "Wines made from the country's abundant local fruits make up a significant share of wine production."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Ninh Thuận develops more grape varieties",
+   "url": "https://vietnamnews.vn/society/977060/ninh-thuan-develops-more-grape-varieties.html"
+  },
+  {
+   "title": "How to Explore the Unique Wine Culture of Central Vietnam - Miss Filatelista",
+   "url": "https://www.missfilatelista.com/how-to-explore-the-unique-wine-culture-of-central-vietnam/"
+  },
+  {
+   "title": "Discover the Ninh Thuận wine region of Vietnam",
+   "url": "https://www.vinerra.com/wine-region/vietnam-ninh-thuan"
+  },
+  {
+   "title": "Ladora Winery - Winery in Da Lat",
+   "url": "https://www.winetourism.com/winery/ladora-winery/"
+  },
+  {
+   "title": "Wine Tourism in Vietnam",
+   "url": "https://www.winetourism.com/wine-country/vietnam/"
+  },
+  {
+   "title": "Discover the Da Lat wine region of Vietnam",
+   "url": "https://www.vinerra.com/wine-region/vietnam-da-lat"
+  },
+  {
+   "title": "Wine tourism in Vietnam - Loire Wine Tours & Tastings",
+   "url": "https://www.loire-wine-tours.com/wine-tourism-in-vietnam/"
+  },
+  {
+   "title": "Vietnamese Wine A Growing Industry - Hbm Export",
+   "url": "https://hbmexport.com/vietnamese-wine-a-growing-industry/"
+  }
+ ]
+}
