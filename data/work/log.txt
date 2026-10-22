@@ -50,3 +50,6 @@ Traceback (most recent call last):
   File "/home/runner/work/gastronomi-atlasi/gastronomi-atlasi/scripts/content.py", line 98, in api
     raise RuntimeError(f"API {e.code}: {msg!r}")
 RuntimeError: API 400: b'{"type":"error","error":{"type":"invalid_request_error","message":"requests.0.custom_id: String should match pattern \'^[a-zA-Z0-9_-]{1,64}$\'"},"request_id":"req_011CgHk1x2qvU2ipP5ftYwME"}'
+=== score
+score: 0 ülke
+Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
