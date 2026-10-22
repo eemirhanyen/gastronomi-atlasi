@@ -56,7 +56,7 @@
    "Ispanağı bol suda yıkayın, süzün ve geniş bir tavada yalnızca suyuyla solana kadar 2-3 dakika pişirin.",
    "Solan ıspanağı süzgeçte soğutun, ellerinizle iyice sıkarak suyunu alın ve ince kıyın.",
    "Tavada zeytinyağını ısıtın, soğanı yumuşayana kadar yaklaşık 5 dakika kavurun ve ıspanağı ekleyip 2 dakika daha pişirin. Ocaktan alıp soğumaya bırakın.",
-   "Soğuyan ıspanağa ricottayı, parmesanı, 2 yumurtayı, muskadı, tuz ve karabiberi ekleyip homojen bir iç harç hazırlayın.",
+   "Soğuyan ıspanağa ricottayı, parmesanı, 2 yumurtayı, muskatı, tuz ve karabiberi ekleyip homojen bir iç harç hazırlayın.",
    "Fırını 190°C'ye ısıtın. Kalıbı (yaklaşık 24 cm çaplı) tereyağıyla yağlayın.",
    "Hamurun yaklaşık üçte ikisini ince bir yufka gibi açıp kalıbın tabanını ve kenarlarını kaplayın.",
    "İç harcı hamurun üzerine yayın ve yüzeyde 4 çukur açın. Her çukura bir yumurta kırın ve hafifçe tuzlayın.",
@@ -85,5 +85,13 @@
   "tr": "Ispanağı pişirdikten sonra ellerinizle iyice sıkın; suyu alınmazsa hamur ıslanır ve alt kısım pişmez.",
   "en": "Squeeze the spinach very well after cooking; excess water will make the base soggy and undercooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 uses \"muskadı\", which is not a valid Turkish word. The ingredient list says \"rendelenmiş muskat\", so the step should use \"muskatı\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

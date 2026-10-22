@@ -8,7 +8,7 @@
   "tr": "Tonga'da hindistan cevizi sütü ve rendelenmiş hindistan cevizi ile yapılan, nemli ve hafif tatlı bir kektir. Genellikle aile buluşmaları, kiliseden sonraki öğünler ve özel günlerde servis edilir.",
   "en": "A moist, lightly sweet cake made with coconut milk and desiccated coconut, typical of Tongan family gatherings, post-church meals and celebrations."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -61,5 +61,13 @@
   "tr": "Hamuru fazla karıştırmayın; katlama işlemi kekin yumuşak ve nemli kalmasını sağlar.",
   "en": "Use full-fat coconut milk and fold the batter gently; overmixing makes the cake dense and tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings is 4, but the batter (150 g flour, 120 g sugar, 2 eggs, 200 ml coconut milk, 60 g butter) fills a 20 cm round tin and yields roughly 8 slices. Servings changed to 8."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

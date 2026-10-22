@@ -52,8 +52,16 @@
   ]
  },
  "tip": {
-  "tr": "Unu suya dökerken hızlı karıştırmak ve pişirme sırasında hiç durmamak topaklanmayı önler.",
+  "tr": "Unu suya ince bir akım halinde, yavaşça dökmek ve pişirme sırasında hiç durmadan karıştırmak topaklanmayı önler.",
   "en": "Add the flour slowly and never stop stirring; this is the key to a smooth, lump-free asida."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip disagreement: the Turkish tip says to stir quickly while adding the flour, but the English tip says to add it slowly, and step 3 says to pour in a thin stream. The Turkish tip is corrected to matc"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

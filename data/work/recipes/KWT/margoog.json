@@ -19,9 +19,9 @@
    "3 diş sarımsak, ezilmiş",
    "300 g olgun domates, rendelenmiş",
    "30 g domates salçası",
-   "5 g baharat",
+   "5 g Arap baharat karışımı (baharat)",
    "2 g zerdeçal",
-   "4 kapsül hindistan cevizi değil, kakule tanesi, hafifçe ezilmiş",
+   "4 adet kakule, hafifçe ezilmiş",
    "1 adet tarçın çubuğu",
    "2 adet kurutulmuş limon (loomi), delinmiş",
    "2 adet defne yaprağı",
@@ -42,7 +42,7 @@
    "3 garlic cloves, crushed",
    "300 g ripe tomatoes, grated",
    "30 g tomato paste",
-   "5 g baharat",
+   "5 g Arabic spice blend (baharat)",
    "2 g ground turmeric",
    "4 cardamom pods, lightly crushed",
    "1 cinnamon stick",
@@ -89,5 +89,14 @@
   "tr": "Yufkayı servisten hemen önce ıslatın; uzun süre bekletirse dağılır. Kurutulmuş limonları delmek, suyuna daha güçlü ve dengeli bir aroma verir.",
   "en": "Soak the bread just before serving, as it breaks down if left too long. Piercing the dried loomi lets their sour, smoky flavour infuse the broth fully."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish cardamom line is garbled: \"4 kapsül hindistan cevizi değil, kakule tanesi\" mixes in a wrong 'not nutmeg' phrase and does not match the English 'cardamom pods'.",
+   "\"baharat\" is an unclear ingredient in both languages; English leaves it untranslated and gives no description of the spice blend."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

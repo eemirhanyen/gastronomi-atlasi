@@ -22,7 +22,7 @@
    "30 ml zeytinyağı",
    "1 tatlı kaşığı tatlı kırmızı biber",
    "1 tatlı kaşığı kimyon",
-   "1/2 tatlı kaşığı kekik veya kurutulmuş kekik",
+   "1/2 tatlı kaşığı kurutulmuş mercanköşk (orégano)",
    "Tuz ve karabiber",
    "2 yumurta",
    "10 adet yeşil zeytin, doğranmış",
@@ -53,7 +53,7 @@
   "tr": [
    "Un, tuz ve küp tereyağını parmak uçlarınızla kum gibi olana kadar ovalayın. Soğuk suyu azar azar ekleyip pürüzsüz bir hamur yoğurun, streç filmle sarıp buzdolabında 30 dakika dinlendirin.",
    "Geniş bir tavada zeytinyağını orta ateşte ısıtın, soğanı yumuşayana ve hafif renk alana kadar yaklaşık 6-7 dakika soteleyin.",
-   "Kıymayı ekleyip suyunu çekene ve iyice kızarana kadar pişirin. Kırmızı biber, kimyon, kekik, tuz ve karabiberi ekleyip 2 dakika daha karıştırın, ardından tamamen soğumaya bırakın.",
+   "Kıymayı ekleyip suyunu çekene ve iyice kızarana kadar pişirin. Kırmızı biber, kimyon, mercanköşk, tuz ve karabiberi ekleyip 2 dakika daha karıştırın, ardından tamamen soğumaya bırakın.",
    "Yumurtaları 9 dakika haşlayın, soğuk suda soyup küçük küpler halinde doğrayın. Kuru üzümü 10 dakika ılık suda bekletip süzün.",
    "Soğumuş kıymaya doğranmış haşlanmış yumurta, zeytin ve kuru üzümü ekleyin, iyice karıştırıp tadına bakarak tuzunu ayarlayın.",
    "Fırını 200°C'ye ısıtın. Hamuru 3 mm kalınlığında açın ve bir kase yardımıyla yaklaşık 12 cm çapında 12 daire kesin.",
@@ -75,5 +75,14 @@
   "tr": "Dolgu tamamen soğumadan hamura koymayın; sıcak iç hamuru yumuşatır ve kenarların kapanmasını zorlaştırır.",
   "en": "Let the filling cool completely before assembling; warm filling softens the dough and makes the edges hard to seal."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient and step 3 say 'kekik' (thyme), but the English ingredient says 'dried oregano'. Uruguayan empanadas use oregano, so the Turkish should name oregano (mercanköşk) ",
+   "Turkish ingredient wording 'kekik veya kurutulmuş kekik' is redundant and unclear."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

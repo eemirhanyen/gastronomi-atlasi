@@ -19,7 +19,7 @@
    "8 g tuz (yaklaşık 1,5 tatlı kaşığı)",
    "5 g toz şeker (1 tatlı kaşığı)",
    "20 ml sıvı yağ (zeytinyağı veya ayçiçek yağı)",
-   "Ocak için 30 g un"
+   "Açma için 30 g un"
   ],
   "en": [
    "500 g all-purpose white flour",
@@ -36,20 +36,20 @@
    "Büyük bir kapta unu, tuzu, şekeri ve mayayı iyice karıştırın.",
    "Ilık suyu ve yağı ekleyip 8-10 dakika boyunca pürüzsüz, elastik bir hamur oluncaya kadar yoğurun.",
    "Hamuru kaseye geri koyun, üzerini nemli bir bezle örtün ve oda sıcaklığında yaklaşık 30 dakika dinlendirerek mayalanmaya bırakın.",
-   "Hamuru 8 eşit parçaya (yaklaşık 90 g) bölün ve yuvarlayıp 10 dakika ara dinlendirin.",
-   "Fırını en üst rafta 260 °C'ye ısıtın. Kalın tabanlı bir tavayı veya fırın tepsisini içeride ön ısıtın.",
+   "Hamuru 8 eşit parçaya (yaklaşık 110 g) bölün ve yuvarlayıp 10 dakika ara dinlendirin.",
+   "Fırını en üst rafta 260 °C'ye ısıtın ve içine kalın tabanlı bir fırın tepsisi koyup ön ısıtın.",
    "Her bir hamur topunu unlu tezgâhta yaklaşık 20 cm çapında, 3 mm kalınlığında ince bir daire halinde açın.",
-   "Ekmeği ısıtılmış tavaya veya tepsiye alın. Tavada orta-yüksek ateşte 1 dakika pişirin, çevirip yaklaşık 30 saniye daha pişirin; fırında ise 3-4 dakika, ekmek şişip hafifçe kızarana kadar pişirin.",
+   "Ekmeği ısıtılmış tepsiye alın ve fırında 3-4 dakika, ekmek şişip hafifçe kızarana kadar pişirin. Ocakta pişirmek isterseniz, ayrı bir kalın tabanlı tavayı orta-yüksek ateşte çok iyi ısıtın, ekmeği 1 dakika pişirip çevirin ve yaklaşık 30 saniye daha pişirin.",
    "Pişen ekmekleri temiz bir bezin altında bekletin ki yumuşak kalsınlar, sonra sıcak servis yapın."
   ],
   "en": [
    "In a large bowl, thoroughly mix the flour, salt, sugar and yeast.",
    "Add the lukewarm water and oil, then knead for 8 to 10 minutes until you have a smooth, elastic dough.",
    "Return the dough to the bowl, cover with a damp cloth and leave it to rest at room temperature for about 30 minutes until it has risen slightly.",
-   "Divide the dough into 8 equal pieces (about 90 g each), shape them into balls and rest them for 10 minutes.",
-   "Preheat the oven to 260 °C on the top rack and heat a heavy-based pan or baking tray inside it.",
+   "Divide the dough into 8 equal pieces (about 110 g each), shape them into balls and rest them for 10 minutes.",
+   "Preheat the oven to 260 °C on the top rack and heat a heavy baking tray inside it.",
    "Roll each ball on a floured surface into a thin round about 20 cm across and 3 mm thick.",
-   "Place the bread on the hot pan or tray. On the stovetop, cook over medium-high heat for 1 minute, flip and cook for about 30 seconds more; in the oven, bake for 3 to 4 minutes until puffed and lightly golden.",
+   "Place the bread on the hot tray and bake in the oven for 3 to 4 minutes until puffed and lightly golden. For stovetop cooking, heat a separate heavy-based pan very hot over medium-high heat, cook the bread for 1 minute, then flip and cook for about 30 seconds more.",
    "Keep the cooked breads wrapped in a clean cloth so they stay soft, and serve warm."
   ]
  },
@@ -57,5 +57,16 @@
   "tr": "Ekmeğin şişmesi için tava veya tepsinin çok iyi ısındığından emin olun; ekmekleri pişirdikten sonra bezin altında saklamak yumuşaklığını korur.",
   "en": "Make sure the pan or tray is very hot so the bread puffs up quickly, and keep finished breads wrapped in a cloth to stay soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't match: the total dough is about 880 g (500 + 340 + 7 + 8 + 5 + 20), so 8 pieces are about 110 g each, not 90 g.",
+   "Turkish ingredient '30 g un' says 'Ocak için' (for the stove/hearth), which is wrong. It should be for rolling out (açma için).",
+   "Step 5 preheats a pan in the oven, but step 7 cooks on the stovetop in 'the pan' for 1 min per side. The pan's heating method is inconsistent, so the stovetop and oven methods need to be separated.",
+   "Turkish and English versions of steps 5 and 7 need to match after these fixes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

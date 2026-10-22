@@ -26,7 +26,7 @@
    "300 ml tavuk suyu (haşlamadan ayrılan)",
    "150 ml evaporé süt",
    "50 g rendelenmiş parmesan peyniri",
-   "Tuz ve karabiber",
+   "1 tatlı kaşığı tuz (haşlama için, ayrıca tatlandırmak için) ve karabiber",
    "4 orta boy patates (600 g)",
    "200 g pirinç (pilav için)",
    "2 adet haşlanmış yumurta",
@@ -46,7 +46,7 @@
    "300 ml chicken stock (from poaching the chicken)",
    "150 ml evaporated milk",
    "50 g grated parmesan cheese",
-   "Salt and black pepper",
+   "1 teaspoon salt (for poaching, plus more to taste) and black pepper",
    "4 medium potatoes (600 g)",
    "200 g long-grain rice (for serving)",
    "2 hard-boiled eggs",
@@ -62,7 +62,7 @@
    "Pirinci yıkayıp tuzlu suda, paketindeki talimata göre pişirin ve sıcak tutun.",
    "Yağı büyük bir tencerede orta ateşte ısıtın. Doğranmış soğanı ve ezilmiş sarımsağı ekleyip yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Aji amarillo ezmesi ve kimyonu ekleyip 2-3 dakika karıştırarak kavurun.",
-   "Cevizi, süzülmüş ekmeği ve 300 ml tavuk suyunu blendırda pürüzsüz bir krem olana kadar çekin. Karışımı tencereye ekleyip 5 dakika kaynatın.",
+   "Cevizi, süzülmüş ekmeği ve 300 ml tavuk suyunu blenderda pürüzsüz bir krem olana kadar çekin. Karışımı tencereye ekleyip 5 dakika kaynatın.",
    "Evaporé sütü ve parmesanı ekleyin, sosu kısık ateşte 3-4 dakika pişirerek kıvamlandırın. Didiklenmiş tavuğu sosa katın, tuz ve karabiber ile tatlandırın.",
    "Ayrı bir tabakta pilavı, dilimlenmiş patatesleri ve yarıya bölünmüş yumurtayı yanına koyun. Tavuklu sosu üzerine gezdirerek servis yapın, zeytinlerle süsleyin."
   ],
@@ -83,5 +83,14 @@
   "tr": "Sosun dokusunu ipeksi kılmak için ceviz ve ekmeği blenderda iyice çekin; kıvam fazla koyulaşırsa haşlama suyu ile seyreltin.",
   "en": "For a silky sauce, blend the walnuts and bread very thoroughly, and thin the sauce with a little poaching liquid if it becomes too thick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt has no quantity in the ingredient list, but step 1 specifies 1 teaspoon for the poaching water (Turkish and English).",
+   "Turkish step 8 has a typo: 'blendırda' should be 'blenderda'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

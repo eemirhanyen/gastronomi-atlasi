@@ -56,7 +56,7 @@
    "Kıymayı tavanın bir kenarına itin. Ateşi orta-yükseğe düşürün, doubanjiang ezmesini yağın içinde 1 dakika kavurun, kırmızı yağ çıkana kadar karıştırın.",
    "Sarımsak, zencefil, beyaz yeşil soğan kısımlarını ve fermente siyah fasulyeyi ekleyin, 30 saniye kavurun.",
    "Tavuk suyunu, Shaoxing şarabını, koyu soya sosunu, şekeri ve pul biberi ekleyin. Karıştırıp kaynatın.",
-   "Tofuyu nazikçe tavaya ekleyin. Kepçeyle yavaşça karıştırmadan, 4-5 dakika kısık ateşte pişirin. Tatmadan tuz ekleyin.",
+   "Tofuyu nazikçe tavaya kaydırın. Fazla karıştırmadan, kepçeyle küpleri yavaşça iterek 4-5 dakika kısık ateşte pişirin. Tadına göre tuz ekleyin.",
    "Mısır nişastası karışımını yavaş yavaş ekleyip sosu nazikçe karıştırın, sos hafif kıvam alana kadar bekleyin.",
    "Ocaktan alın, kavrulmuş Sichuan biberi tozunu ve yeşil soğanın yeşil kısmını serpin. Pilavla sıcak servis edin."
   ],
@@ -66,7 +66,7 @@
    "Push the pork to one side of the pan. Lower the heat to medium-high, fry the doubanjiang in the oil for 1 minute, stirring until the oil turns red.",
    "Add the garlic, ginger, the white parts of the spring onions and the fermented black beans. Stir-fry for 30 seconds.",
    "Add the chicken stock, Shaoxing wine, dark soy sauce, sugar and chili flakes. Stir and bring to a simmer.",
-   "Gently slide the tofu into the pan. Simmer on low heat for 4-5 minutes without stirring too much, using a spoon to move the cubes. Add salt to taste.",
+   "Gently slide the tofu into the pan. Simmer on low heat for 4-5 minutes, moving the cubes gently with a spoon rather than stirring. Add salt to taste.",
    "Slowly add the cornstarch mixture while gently stirring, and let the sauce thicken slightly.",
    "Remove from the heat, sprinkle with the ground Sichuan pepper and the green parts of the spring onions, and serve hot with steamed rice."
   ]
@@ -75,5 +75,14 @@
   "tr": "Tofuyu karıştırmak yerine tavayı hafifçe sallayın ya da kepçeyle itin; küpler dağılmaz. Sichuan biberini en sonda ekleyin ki aroması kaybolmasın.",
   "en": "Move the tofu with a spoon or by gently shaking the pan rather than stirring, so the cubes stay intact. Add the Sichuan pepper at the very end to keep its aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6: \"Tatmadan tuz ekleyin\" is unnatural; the usual phrasing is \"Tadına göre tuz ekleyin\".",
+   "Step 6 disagrees between languages: the Turkish says \"karıştırmadan\" (without stirring), while the English says \"without stirring too much, using a spoon to move the cubes\" and the tip recommends movi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

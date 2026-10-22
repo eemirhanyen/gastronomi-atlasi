@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Şivito",
+  "tr": "Çivito",
   "en": "Chivito"
  },
  "native": "Chivito",
  "desc": {
-  "tr": "Uruguay'ın en tanınmış sokak yiyeceği olan Şivito, ince dana bifteği, jambon, pastırma, mozzarella, yumurta ve sebzelerle hazırlanan doyurucu bir sandviçtir. Genellikle Montevideo'da gece geç saatlerde açık büfelerde ve parrilla lokantalarında servis edilir.",
+  "tr": "Uruguay'ın en tanınmış sokak yiyeceği olan Çivito, ince dana bifteği, jambon, pastırma, mozzarella, yumurta ve sebzelerle hazırlanan doyurucu bir sandviçtir. Genellikle Montevideo'da gece geç saatlerde açık büfelerde ve parrilla lokantalarında servis edilir.",
   "en": "The chivito is Uruguay's best-known street food: a generous sandwich of thin beef steak, ham, bacon, mozzarella, fried egg and vegetables. It is usually eaten late at night from kiosks and in parrilla restaurants in Montevideo."
  },
  "servings": 4,
@@ -69,5 +69,13 @@
   "tr": "Bifteği mutlaka çok ince açın ve yüksek ateşte kısa süre pişirin; böylece sandviç yumuşak kalır ve sert olmaz.",
   "en": "Pound the steak very thin and sear it quickly over high heat so the sandwich stays tender rather than tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name is misspelled: Spanish 'ch' is transliterated as 'Ç' in Turkish, so 'Şivito' should be 'Çivito' (in name.tr and in the Turkish description)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -44,6 +44,7 @@
  "steps": {
   "tr": [
    "Pirinci soğuk suda durulayın, ardından 20 dakika su içinde bekletip süzün.",
+   "Safranı 30 ml ılık suda en az 10 dakika bekletin.",
    "Geniş ve dipli bir tencerede pirinci, sütü, suyu ve ezilmiş kakuleyi orta ateşte kaynatın.",
    "Ateşi kısın ve karışım koyulaşıp pirinç çok yumuşayana kadar, yaklaşık 30 dakika, sık sık karıştırarak pişirin.",
    "Şekeri, hurma pekmezini ve tuzu ekleyip karıştırın; parlak bir kıvam alana kadar 10 dakika daha pişirin.",
@@ -54,6 +55,7 @@
   ],
   "en": [
    "Rinse the rice under cold water, then soak it in water for 20 minutes and drain.",
+   "Soak the saffron in the 30 ml warm water for at least 10 minutes.",
    "In a wide, heavy-based pot, bring the rice, milk, water and crushed cardamom to a simmer over medium heat.",
    "Reduce the heat to low and cook, stirring often, for about 30 minutes until the rice is very soft and the mixture has thickened.",
    "Stir in the sugar, date syrup and salt, then cook for 10 minutes more until the pudding looks glossy.",
@@ -67,5 +69,13 @@
   "tr": "Pirincin tencere dibine yapışmaması için kıvam koyulaşana kadar sık sık karıştırın; isterseniz servisten önce birkaç damla hurma pekmezi gezdirin.",
   "en": "Stir frequently near the end of cooking so the rice does not catch on the base of the pot; a drizzle of extra date syrup before serving adds a nice finish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Saffron is listed as soaked in 30 ml warm water, but no step tells the cook to soak it, and step 6 refers to 'safranlı su' as if it already exists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A rich Lima dessert of caramelised milk jam (manjar blanco) topped with port-scented meringue, traditionally served in the afternoon or evening in homes and cafés in Lima."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -37,7 +37,7 @@
   "tr": [
    "Geniş ve kalın tabanlı bir tencerede yoğunlaştırılmış sütü, tam yağlı sütü, vanilya özünü ve tuzu iyice karıştırın.",
    "Orta-kısık ateşte, sürekli karıştırarak yaklaşık 20-25 dakika pişirin. Karışım koyulaşıp kaşıkla kaldırıldığında iz bırakacak kıvama ve hafif kahverengi bir renge gelmelidir.",
-   "Manjar blanco'yu ocaktan alın, 4 küçük servis kabına paylaştırın ve oda sıcaklığında yaklaşık 15 dakika soğumaya bırakın.",
+   "Manjar blanco'yu ocaktan alın, 4 küçük servis kabına paylaştırın ve tamamen soğuyana kadar, yaklaşık 1 saat oda sıcaklığında bekletin.",
    "Yağsız ve temiz bir kapta yumurta aklarını orta hızda yumuşak tepeler oluşana kadar çırpın. Şekeri azar azar ekleyerek sert ve parlak bir beze elde edene kadar çırpmaya devam edin.",
    "Porto şarabını bezenin içine yavaşça katlayın; beze hafif yumuşasın ama sönmesin.",
    "Bezeyi kaşıkla veya sıkma torbasıyla manjar blanco'nun üzerine yerleştirin.",
@@ -47,7 +47,7 @@
   "en": [
    "In a wide, heavy-based saucepan, mix the sweetened condensed milk, whole milk, vanilla extract and salt until smooth.",
    "Cook over medium-low heat for about 20-25 minutes, stirring constantly. The mixture should thicken, turn light caramel brown, and leave a trail when a spoon is drawn through it.",
-   "Remove the manjar blanco from the heat, divide it among 4 small serving dishes and leave to cool at room temperature for about 15 minutes.",
+   "Remove the manjar blanco from the heat, divide it among 4 small serving dishes and leave to cool completely at room temperature, about 1 hour.",
    "In a clean, grease-free bowl, whisk the egg whites on medium speed until soft peaks form. Add the sugar gradually and keep whisking until the meringue is stiff and glossy.",
    "Gently fold the port wine into the meringue, taking care not to deflate it.",
    "Spoon or pipe the meringue over the cooled manjar blanco.",
@@ -59,5 +59,14 @@
   "tr": "Çırpma kabı ve çırpıcıda hiç yağ ya da sarısı kalmamalıdır; aksi halde akların köpürmesi zorlaşır. Bezeyi üzerine koymadan önce manjar'ın tamamen soğumasını bekleyin, böylece beze su salmaz.",
   "en": "Make sure the bowl and whisk are completely free of fat or yolk, or the whites will not whip properly. Let the manjar blanco cool fully before adding the meringue so it does not weep."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 says to cool the manjar blanco for only about 15 minutes, but the tip says it must be fully cooled before the meringue goes on, or it will weep. The two contradict each other.",
+   "time_min (60) does not cover a full cooling period, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

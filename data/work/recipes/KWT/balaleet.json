@@ -17,9 +17,9 @@
    "30 g tereyağı",
    "300 ml su",
    "80 g toz şeker",
-   "0,1 g safran (1 yemek kaşığı, 15 ml sıcak suda bekletilmiş)",
+   "0,1 g safran (15 ml sıcak suda bekletilmiş)",
    "5 ml gül suyu",
-   "2 g öğütülmüş kakule (yaklaşık 1/2 çay kaşığı)",
+   "2 g öğütülmüş kakule (yaklaşık 1 çay kaşığı)",
    "4 büyük yumurta",
    "30 g toz şeker (yumurtalar için)",
    "1 tutam tuz",
@@ -33,7 +33,7 @@
    "80 g granulated sugar",
    "0.1 g saffron, soaked in 15 ml hot water",
    "5 ml rosewater",
-   "2 g ground cardamom (about 1/2 teaspoon)",
+   "2 g ground cardamom (about 1 teaspoon)",
    "4 large eggs",
    "30 g granulated sugar (for the eggs)",
    "1 pinch salt",
@@ -44,7 +44,7 @@
  "steps": {
   "tr": [
    "Şehriyeyi tereyağında orta ateşte altın rengi alana kadar, yaklaşık 3-4 dakika karıştırarak kavurun.",
-   "Suyu, şekeri, kardakomu ve safranlı suyu ekleyip karıştırın. Kaynayınca ocağı kısın ve şehriye suyunu çekene kadar, yaklaşık 10 dakika, kapağı kapalı pişirin.",
+   "Suyu, şekeri, kakuleyi ve safranlı suyu ekleyip karıştırın. Kaynayınca ocağı kısın ve şehriye suyunu çekene kadar, yaklaşık 10 dakika, kapağı kapalı pişirin.",
    "Ocaktan alıp kapağını kapatarak 5 dakika dinlendirin, ardından gül suyunu ekleyip çatalla hafifçe kabartın.",
    "Yumurtaları, 30 g şekeri ve tuzu bir kapta köpük oluşana kadar çırpın.",
    "Geniş bir yapışmaz tavada yağı orta-kısık ateşte ısıtın. Yumurta karışımının yarısını tavaya dökün ve ince bir omlet gibi kıvamı alana kadar, yaklaşık 2-3 dakika pişirin.",
@@ -67,5 +67,15 @@
   "tr": "Şehriyeyi kavururken sık karıştırın; koyu renk almadan altın sarısına gelmesi, tatlıya hem tat hem de hoş bir aroma katar.",
   "en": "Stir the vermicelli often while toasting it; golden colour without darkening gives the best flavour and aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 misspells cardamom as \"kardakomu\"; the correct term used in the ingredient list is \"kakule\".",
+   "Cardamom amount is inconsistent: 2 g is about 1 teaspoon of ground cardamom, not 1/2 teaspoon as stated.",
+   "Saffron line is confusing in Turkish: \"0,1 g safran (1 yemek kaşığı, 15 ml sıcak suda...)\" mixes a volume of soaking water with a spoon measure. It should state only the 15 ml of hot water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

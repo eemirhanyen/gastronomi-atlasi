@@ -57,7 +57,7 @@
    "Karışımı kapalı bir kapta buzdolabında 30 dakika dinlendirin.",
    "Ellerinizi hafif ıslatıp karışımdan yaklaşık 45 gramlık parçalar koparın. Her birini oval şekilde biraz yassılaştırarak 12 köfte yapın.",
    "Geniş bir tavada yağı orta-yüksek ateşte ısıtın (yaklaşık 180°C). Köfteleri aralarında boşluk bırakarak yerleştirin ve her iki yüzünü 4-5 dakika, kenarları koyu kahverengi olana kadar kızartın.",
-   "Köftelerin iç sıcaklığı en az 71°C olunca ocaktan alıp kağıt havlu üzerine koyun. Bu sırada yağı fazla kızdırmadan parti parti çalışın.",
+   "Köftelerin iç sıcaklığı en az 71°C olunca ocaktan alıp kağıt havlu üzerine koyun. Bu sırada ısıyı orta seviyede tutarak dış kısmın iç kısım pişmeden yanmasını önleyin ve yağı fazla kızdırmadan parti parti çalışın.",
    "Servis tabağına köfteleri dizin, yanına ajvar, domates dilimleri, soğan halkaları ve maydanozu koyun. Somun ekmeğiyle sıcak servis yapın."
   ],
   "en": [
@@ -75,5 +75,13 @@
   "tr": "Köfte harcını yoğururken ellerinizi ve tezgâhı soğuk tutun; soğuk et daha iyi bağlanır ve kızartırken dağılmaz.",
   "en": "Keep the mixture cold while shaping and wet your hands first; cold meat binds better and holds its shape in the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 omits the English instruction to keep the heat moderate so the outside does not burn before the centre cooks, so the two versions disagree on technique."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

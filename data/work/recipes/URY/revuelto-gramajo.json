@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g orta boy patates (kabuklu, kibrit şeklinde doğranmış)",
+   "500 g orta boy patates (soyulmuş, kibrit şeklinde doğranmış)",
    "200 ml ayçiçek yağı (kızartmak için)",
    "8 adet yumurta",
    "150 g haşlanmış jambon (küp doğranmış)",
@@ -59,5 +59,13 @@
   "tr": "Patatesleri tam çıtır kızartıp hemen kağıt havluya alın; böylece yumurtaya karıştırdığınızda yumuşamazlar.",
   "en": "Fry the potatoes until very crisp and drain them right away, so they stay crunchy when folded into the eggs."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says \"kabuklu\" (unpeeled, with skin) while the English says \"peeled\". The Turkish should be \"soyulmuş\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

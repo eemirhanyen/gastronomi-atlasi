@@ -27,6 +27,7 @@
    "2 yumurta",
    "50 g ufalanmış taze peynir (queso fresco)",
    "2 dilim bayat ekmek, küp doğranmış (30 g)",
+   "45 ml bitkisel yağ, ekmek kızartmak için",
    "1 yemek kaşığı doğranmış maydanoz (5 g)"
   ],
   "en": [
@@ -44,6 +45,7 @@
    "2 eggs",
    "50 g crumbled fresh cheese (queso fresco)",
    "2 slices stale bread, cubed (30 g)",
+   "45 ml vegetable oil, for frying the bread",
    "1 tbsp chopped parsley (5 g)"
   ]
  },
@@ -58,7 +60,7 @@
    "Erişteleri ekleyin ve makarnanın dokusuna göre yaklaşık 4-5 dakika pişirin.",
    "Ateşi kısın, yumurtaları bir kasede çırpıp çorbaya yavaşça dökün ve tahta kaşıkla birkaç saniye karıştırarak ince ipler oluşmasını sağlayın.",
    "Buharlaştırılmış sütü ekleyin, çorbayı 2 dakika daha ısıtın ve tuz-karabiber ile ayarlayın.",
-   "Bu sırada ekmek küplerini sıcak yağda altın rengi olana kadar kızartın ve kağıt havlu üzerinde süzün.",
+   "Bu sırada ekmek küplerini ayrı bir tavada ısıtılmış 45 ml bitkisel yağda altın rengi olana kadar kızartın ve kağıt havlu üzerinde süzün.",
    "Çorbayı derin kaselere paylaştırın, üzerine ufalanmış peyniri, kızarmış ekmek küplerini ve maydanozu serpip hemen servis yapın."
   ],
   "en": [
@@ -71,7 +73,7 @@
    "Add the noodles and cook for 4-5 minutes, or until just tender.",
    "Lower the heat. Beat the eggs in a bowl, then pour them slowly into the soup while stirring gently with a wooden spoon so that fine strands form.",
    "Stir in the evaporated milk, heat for 2 more minutes and adjust the seasoning with salt and pepper.",
-   "Meanwhile, fry the bread cubes in hot oil until golden, then drain them on kitchen paper.",
+   "Meanwhile, heat the 45 ml vegetable oil in a separate pan and fry the bread cubes until golden, then drain them on kitchen paper.",
    "Ladle the soup into deep bowls, top with the crumbled cheese, fried bread cubes and chopped parsley, and serve immediately."
   ]
  },
@@ -79,5 +81,13 @@
   "tr": "Erişteleri servis öncesinde pişirin; bekleyince çorba koyulaşır ve erişteler şişip dokusunu kaybeder.",
   "en": "Cook the noodles just before serving, as they keep absorbing liquid and the soup will thicken and lose its texture if it sits."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 9 fries the bread in 'hot oil' (TR: 'sıcak yağ'; EN: 'hot oil'), but no oil is listed for frying. The 30 ml in the ingredient list is used for browning the beef, so the bread-frying oil is missin"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

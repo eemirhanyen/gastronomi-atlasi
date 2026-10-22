@@ -26,7 +26,7 @@
    "250 g balkabağı, soyulmuş ve küp doğranmış",
    "200 g yeşil lahana, kama kama doğranmış",
    "1 defne yaprağı",
-   "1 tatlı kaşığı kuru kekik",
+   "1 tatlı kaşığı kuru kekik (oregano)",
    "2 litre su",
    "Tuz ve karabiber",
    "Servis için hardal"
@@ -79,5 +79,13 @@
   "tr": "Pırasa ve kabağı son aşamalarda eklemek sebzelerin dağılmasını önler; hardal tabakta ayrıca servis edilerek her porsiyonda ayarlanabilir.",
   "en": "Add the leeks and pumpkin late so the vegetables hold their shape, and serve the mustard separately so everyone can adjust the amount."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish lists 'kuru kekik' (thyme) but the English lists 'dried oregano'; the herb is inconsistent between versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -24,6 +24,7 @@
    "1 çay kaşığı (2 g) kimyon",
    "1/2 çay kaşığı (1 g) karabiber",
    "1/4 çay kaşığı (0,5 g) tarçın",
+   "1/2 çay kaşığı (3 g) tuz (iç harç için)",
    "2 yemek kaşığı (10 g) doğranmış maydanoz",
    "1 yemek kaşığı (8 g) un (yapıştırıcı macun için)",
    "1 yemek kaşığı (15 ml) su (yapıştırıcı macun için)",
@@ -41,6 +42,7 @@
    "1 tsp (2 g) ground cumin",
    "1/2 tsp (1 g) black pepper",
    "1/4 tsp (0.5 g) ground cinnamon",
+   "1/2 tsp (3 g) salt (for the filling)",
    "2 tbsp (10 g) chopped parsley",
    "1 tbsp (8 g) flour (for the sealing paste)",
    "1 tbsp (15 ml) water (for the sealing paste)",
@@ -79,5 +81,13 @@
   "tr": "Hamuru çok ince açmak, sambusekleri hafif ve gevrek yapar; harcı mutlaka soğutmak hamurun yırtılmasını önler.",
   "en": "Roll the dough very thin for a light, crisp shell, and always cool the filling fully so it does not tear the pastry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is used in the filling (step 5 in both languages) but the filling ingredients do not list it. The only salt listed is the 1 tsp for the dough."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

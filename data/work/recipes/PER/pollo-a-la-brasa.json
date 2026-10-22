@@ -5,8 +5,8 @@
  },
  "native": "Pollo a la brasa",
  "desc": {
-  "tr": "Peru'nun en sevilen sokak ve aile yemeklerinden biri olan bu tavuk, aji panca ve kimyonlu bir marinasyonla hazırlanıp döner ateşte pişirilir. Lima'da öğle ve akşam yemeklerinde, hafta sonu aile sofralarında yaygın olarak yenir.",
-  "en": "One of Peru's most loved everyday dishes, this chicken is marinated in ají panca and cumin, then slow-roasted on a rotisserie. In Lima it is eaten at lunch and dinner and is a common weekend family meal."
+  "tr": "Peru'nun en sevilen sokak ve aile yemeklerinden biri olan bu tavuk, aji panca ve kimyonlu bir marinasyonla hazırlanır. Geleneksel olarak döner ateşte pişirilir; bu tarifte fırında uyarlanmıştır. Lima'da öğle ve akşam yemeklerinde, hafta sonu aile sofralarında yaygın olarak yenir.",
+  "en": "One of Peru's most loved everyday dishes, this chicken is marinated in ají panca and cumin. It is traditionally slow-roasted on a rotisserie; this recipe is adapted for the oven. In Lima it is eaten at lunch and dinner and is a common weekend family meal."
  },
  "servings": 4,
  "time_min": 60,
@@ -18,7 +18,7 @@
    "2 yemek kaşığı ají panca salçası (yaklaşık 30 g)",
    "1 yemek kaşığı öğütülmüş kimyon (yaklaşık 6 g)",
    "1 yemek kaşığı tatlı kırmızı biber (yaklaşık 6 g)",
-   "1 tatlı kaşığı kuru kekik ya da kekik benzeri kuru kekik (yaklaşık 2 g)",
+   "1 tatlı kaşığı kuru kekik (oregano) (yaklaşık 2 g)",
    "1 tatlı kaşığı taze çekilmiş karabiber (yaklaşık 2 g)",
    "10 g tuz",
    "60 ml beyaz sirke",
@@ -48,7 +48,7 @@
    "Marinasyonun yarısını tavuğun içine ve göğsün altındaki deriye sürün. Kalanını tavuğun her yerine ovalayın. Üzerini kapatıp buzdolabında en az 1 saat, mümkünse bir gece bekletin.",
    "Fırını 220 °C'ye ısıtın. Tavuğu sırt kısmı aşağı gelecek şekilde, altına az miktarda su konmuş bir fırın tepsisine yerleştirin ve göğsü yukarı bakacak şekilde ayarlayın.",
    "Tavuğu 220 °C'de 20 dakika kavurun. Ardından fırını 190 °C'ye düşürün ve 35 dakika daha pişirin. Her 15 dakikada bir tepsideki sosla tavuğun üzerini fırçalayın.",
-   "Pişmeyi kontrol etmek için butun en kalın yerine, kemiğe değmeden bir termometre batırın. İç sıcaklık 74 °C olmalı ve bu noktadan akan suyun rengi berrak olmalıdır.",
+   "Pişmeyi kontrol etmek için budun en kalın yerine, kemiğe değmeden bir termometre batırın. İç sıcaklık 74 °C olmalı ve bu noktadan akan sıvının rengi berrak olmalıdır.",
    "Tavuğu tepsiden alıp 10 dakika dinlendirin. Parçalara ayırın ve tepsideki sosla birlikte servis yapın."
   ],
   "en": [
@@ -65,5 +65,16 @@
   "tr": "Ají panca salçasını Latin Amerika market ya da online mağazalardan bulabilirsiniz; bulamazsanız 1 yemek kaşığı tatlı kırmızı biberi 1 tatlı kaşığı acı biberle karıştırarak yaklaşık bir benzerini elde edebilirsiniz.",
   "en": "Ají panca paste is sold in Latin American grocers and online; if you cannot find it, mix 1 tablespoon of sweet paprika with 1 teaspoon of hot chili powder for a closer flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient wording 'kuru kekik ya da kekik benzeri kuru kekik' is redundant and unclear, and the English 'dried oregano' should match it.",
+   "Turkish step 6 has a typo, 'butun' instead of 'but' (thigh).",
+   "Turkish step 6 says 'akan suyun rengi' (the color of the flowing water); it should be the juices ('sıvı'), as in the English version.",
+   "The description says the chicken is slow-roasted on a rotisserie, but the steps use an oven. The description should say the dish is traditionally rotisserie-cooked and that this recipe is adapted for "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

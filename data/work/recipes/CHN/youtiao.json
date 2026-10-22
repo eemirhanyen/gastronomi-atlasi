@@ -16,7 +16,7 @@
    "300 g çok amaçlı un",
    "170 ml ılık su",
    "5 g karbonat (sodyum bikarbonat)",
-   "4 g kabartma tozu",
+   "3 g şap (potasyum alüminyum sülfat, 明矾)",
    "5 g tuz",
    "15 g toz şeker",
    "10 ml sıvı yağ (hamur için)",
@@ -26,7 +26,7 @@
    "300 g all-purpose flour",
    "170 ml lukewarm water",
    "5 g baking soda (sodium bicarbonate)",
-   "4 g baking powder",
+   "3 g alum (potassium aluminium sulphate, 明矾)",
    "5 g salt",
    "15 g granulated sugar",
    "10 ml neutral oil (for the dough)",
@@ -35,8 +35,8 @@
  },
  "steps": {
   "tr": [
-   "Büyük bir kapta unu, karbonatı, kabartma tozunu, tuzu ve şekeri karıştırın.",
-   "Ilık suyu ayrı bir kapta tuz ve şekerle birlikte iyice çözün, ardından un karışımının ortasına dökün.",
+   "Büyük bir kapta unu ve karbonatı karıştırın.",
+   "Ilık suyu ayrı bir kapta tuz, toz şeker ve şapla birlikte iyice çözün, ardından un karışımının ortasına dökün.",
    "Hamur pürüzsüz ve sert olana kadar yaklaşık 5 dakika yoğurun.",
    "Hamurun üzerine 10 ml sıvı yağı ekleyin ve yağı hamura iyice yedirmek için birkaç dakika daha yoğurun.",
    "Hamuru nemli bir bezle örtüp oda sıcaklığında 30 dakika dinlendirin.",
@@ -48,8 +48,8 @@
    "Çubukları kağıt havluya alıp fazla yağlarını süzün ve sıcak servis yapın."
   ],
   "en": [
-   "In a large bowl, mix the flour, baking soda, baking powder, salt and sugar.",
-   "In a separate bowl, dissolve the salt and sugar in the lukewarm water, then pour it into the centre of the flour mixture.",
+   "In a large bowl, mix the flour and baking soda.",
+   "In a separate bowl, dissolve the salt, sugar and alum in the lukewarm water, then pour it into the centre of the flour mixture.",
    "Knead for about 5 minutes until the dough is smooth and firm.",
    "Add the 10 ml neutral oil and knead for a few more minutes until the oil is fully absorbed.",
    "Cover the dough with a damp cloth and rest it at room temperature for 30 minutes.",
@@ -65,5 +65,15 @@
   "tr": "Yağın sıcaklığını bir termometreyle kontrol edin; yağ çok soğuk olursa çubuklar yağlı ve sert olur, çok sıcak olursa dış kısmı hızla kararıp içi çiğ kalır.",
   "en": "Check the oil with a thermometer: if it is too cool the sticks turn greasy and dense, and if it is too hot they darken quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt and sugar appear in the dry mix (step 1) and again in the water (step 2), so it is unclear how the 5 g salt and 15 g sugar are split. Each should be added once.",
+   "Baking powder plus baking soda is a modern substitute. Traditional youtiao is leavened with alum (明矾/şap), which is the characteristic ingredient for its crispness and puff. Alum is missing.",
+   "5 g baking soda plus 4 g baking powder for 300 g flour is a high leavening load and can leave a soapy or bitter taste. The fix below replaces the baking powder with alum."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

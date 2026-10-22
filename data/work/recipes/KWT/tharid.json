@@ -9,7 +9,7 @@
   "en": "Tharid is a traditional Kuwaiti dish in which bread is soaked in a spiced broth of chicken and vegetables. It is often served on a large communal tray during Ramadan iftars and family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -58,8 +58,8 @@
    "Doğranmış domatesleri ekleyip yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Tavukları tencereye geri koyun. Suyu, delinmiş kurutulmuş limonları, tarçını, kakuleyi, karabiberi ve tuzu ekleyin. Kaynatın, üstteki köpüğü alın, kapağını kapatıp kısık ateşte 25 dakika pişirin.",
    "Havuç ve patatesleri ekleyip 15 dakika daha, sebzeler yumuşayana ve tavuk tamamen pişene kadar pişirin. Tavuğun iç sıcaklığı en az 74°C olmalıdır.",
-   "Bbu sırada Arap ekmeğini elle lokma büyüklüğünde parçalara ayırın ve geniş bir servis tepsisine yayın.",
-   "Tavukları, sebzeleri ve kurutulmuş limonları ocaktan alın. Tarçın çubuğunu çıkarın. Ekmeğin üzerine ısının yarısı kadar et suyunu gezdirin; ekmek suyu emsin ama lapa olmasın. Gerekirse kalan suyu ekleyin.",
+   "Bu sırada Arap ekmeğini elle lokma büyüklüğünde parçalara ayırın ve geniş bir servis tepsisine yayın.",
+   "Tavukları, sebzeleri ve kurutulmuş limonları ocaktan alın. Tarçın çubuğunu çıkarın. Ekmeğin üzerine et suyunun yarısı kadarını gezdirin; ekmek suyu emsin ama lapa olmasın. Gerekirse kalan suyu ekleyin.",
    "Ekmeğin üzerine tavuk ve sebzeleri dizin, kurutulmuş limonları yerleştirin. Üzerine doğranmış maydanozu serpip hemen servis yapın."
   ],
   "en": [
@@ -77,5 +77,15 @@
   "tr": "Kurutulmuş limonları (loomi) tencerede tamamen parçalamayın; ekşi aroması ve rengi için bütün ya da yarı bütün bırakın.",
   "en": "Pierce the dried limes but leave them whole or nearly whole so they release their sour aroma and colour slowly into the broth without turning it bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"ısının yarısı kadar et suyunu\" (\"half of its heat\"), which is wrong. The English says half of the broth, so the Turkish should read \"et suyunun yarısı kadar\".",
+   "Turkish step 6 has a typo, \"Bbu sırada\".",
+   "time_min is 60, but the steps add up to roughly 60-65 minutes of cooking plus prep, so it should be about 75."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

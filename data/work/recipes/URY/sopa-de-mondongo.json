@@ -22,8 +22,8 @@
    "2 havuç (200 g), küp doğranmış",
    "2 sap kereviz (100 g), küp doğranmış",
    "2 olgun domates (300 g), rendelenmiş",
-   "1 yemek kaşığı (15 g) tatlı kırmızı biber (paprika)",
-   "1 çay kaşığı (2 g) kurutulmuş kekik veya kekik yerine kekik-kimyon karışımı",
+   "1 yemek kaşığı (6 g) tatlı kırmızı biber (paprika)",
+   "1 çay kaşığı (2 g) kurutulmuş kekik (oregano)",
    "1 çay kaşığı (2 g) öğütülmüş kimyon",
    "2 defne yaprağı",
    "1,5 litre (1500 ml) su",
@@ -43,7 +43,7 @@
    "2 carrots (200 g), diced",
    "2 celery stalks (100 g), diced",
    "2 ripe tomatoes (300 g), grated",
-   "1 tbsp (15 g) sweet paprika",
+   "1 tbsp (6 g) sweet paprika",
    "1 tsp (2 g) dried oregano",
    "1 tsp (2 g) ground cumin",
    "2 bay leaves",
@@ -77,5 +77,14 @@
   "tr": "Işkembenin tamamen yumuşaması için kısık ateşte pişirin; patatesleri son 30 dakikada ekleyerek dağılmalarını önleyin.",
   "en": "Cook the tripe on a low simmer until fully tender, and add the potatoes only in the last 30 minutes so they keep their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Paprika weight is implausible: 1 tablespoon of ground paprika weighs about 6 g, not 15 g (Turkish and English both affected).",
+   "Turkish herb line offers an unclear alternative ('kekik veya kekik yerine kekik-kimyon karışımı') that the English version does not include. The English specifies dried oregano, so the Turkish should "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

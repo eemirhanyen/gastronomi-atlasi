@@ -22,7 +22,8 @@
    "1 kırmızı dolmalık biber, küp doğranmış",
    "2 diş sarımsak, ezilmiş",
    "1 çay kaşığı kimyon",
-   "1 yemek kaşığı tuz (hamur için ayrı 1 çay kaşığı)",
+   "1 çay kaşığı tuz (tavuk için)",
+   "1 çay kaşığı tuz (hamur için)",
    "1 yaprak defne yaprağı",
    "700 ml su (tavuk suyu için)",
    "100 g haşlanmış pirinç",
@@ -43,7 +44,8 @@
    "1 red bell pepper, finely diced",
    "2 garlic cloves, crushed",
    "1 tsp ground cumin",
-   "1 tbsp salt, plus 1 tsp for the masa",
+   "1 tsp salt for the chicken",
+   "1 tsp salt for the masa",
    "1 bay leaf",
    "700 ml water (for chicken stock)",
    "100 g cooked white rice",
@@ -58,11 +60,11 @@
  "steps": {
   "tr": [
    "Achiote tohumlarını 120 ml sıcak suda 10 dakika bekletin, süzün ve suyunu bir kenara alın. Tohumları atın.",
-   "Tavuğu 1 yemek kaşığı tuz, kimyon ve ezilmiş sarımsağın yarısıyla tatlandırın. 10 dakika bekletin.",
+   "Tavuğu 1 çay kaşığı tuz (tavuk için), kimyon ve ezilmiş sarımsağın yarısıyla tatlandırın. 10 dakika bekletin.",
    "Büyük bir tencerede sıvı yağı ısıtın, soğanı ve dolmalık biberi yumuşayana kadar 6-7 dakika kavurun. Kalan sarımsağı ekleyip 1 dakika daha pişirin.",
    "Tavuğu tencereye ekleyin, 2 yemek kaşığı achiote suyunu da katın ve hafifçe renk alana kadar kavurun.",
-   "Suyu ve defne yaprağını ekleyin, kısık ateşte kapağı kapalı 35-40 dakika pişirin. Tavuğu çıkarıp soğutun, etini ayırın ve doku suyunu süzerek saklayın.",
-   "Manteca'yı mikserle açık kıvama gelene kadar 3-4 dakika çırpın. Mısır hamurunu, 1 çay kaşığı tuzu ve 300 ml ılık tavuk suyunu ekleyerek 8-10 dakika çırpın; hamur kabarık ve yumuşak olmalı.",
+   "Suyu ve defne yaprağını ekleyin, kısık ateşte kapağı kapalı 35-40 dakika pişirin. Tavuğu çıkarıp soğutun, etini ayırın ve pişirme suyunu süzerek saklayın.",
+   "Manteca'yı mikserle açık kıvama gelene kadar 3-4 dakika çırpın. Mısır hamurunu, 1 çay kaşığı tuzu (hamur için) ve 300 ml ılık tavuk suyunu ekleyerek 8-10 dakika çırpın; hamur kabarık ve yumuşak olmalı.",
    "Hamurdan küçük bir parça alıp bir bardak suya bırakın. Yüzüyorsa hazırdır; batıyorsa biraz daha çırpın.",
    "Muz yapraklarını ısıtılmış halde 30 x 25 cm'lik dikdörtgenlere kesin. Her tamal için iki yaprağı üst üste koyun.",
    "Yaprağın ortasına yaklaşık 130 g hamuru yayın. Üzerine tavuk etini, pirinci, bezelyeyi, havucu, yumurta dilimlerini ve biraz sos olarak kalan achiote suyunu serpin; kişnişle süsleyin.",
@@ -72,11 +74,11 @@
   ],
   "en": [
    "Soak the annatto seeds in 120 ml hot water for 10 minutes, then strain and keep the liquid. Discard the seeds.",
-   "Season the chicken with 1 tbsp salt, the cumin and half of the crushed garlic. Leave for 10 minutes.",
+   "Season the chicken with 1 tsp salt (for the chicken), the cumin and half of the crushed garlic. Leave for 10 minutes.",
    "Heat the oil in a large pot and sauté the onion and red pepper for 6-7 minutes until soft. Add the remaining garlic and cook for 1 more minute.",
    "Add the chicken to the pot with 2 tbsp of the annatto water and brown lightly on all sides.",
    "Pour in the water, add the bay leaf, and simmer covered over low heat for 35-40 minutes. Remove the chicken, let it cool, shred the meat and strain the cooking broth, keeping it.",
-   "Beat the lard with an electric mixer for 3-4 minutes until fluffy. Add the corn masa, 1 tsp salt and 300 ml of the warm chicken broth, then beat for 8-10 minutes until the dough is light and soft.",
+   "Beat the lard with an electric mixer for 3-4 minutes until fluffy. Add the corn masa, 1 tsp salt (for the masa) and 300 ml of the warm chicken broth, then beat for 8-10 minutes until the dough is light and soft.",
    "Test the masa by dropping a small piece into a glass of water. If it floats, it is ready; if it sinks, beat for a few more minutes.",
    "Warm the banana leaves until pliable, then cut each into 30 x 25 cm rectangles. Layer two leaves on top of each other for each tamal.",
    "Spread about 130 g of masa in the centre of the leaves. Top with the shredded chicken, rice, peas, carrot, egg slices and a spoonful of the remaining annatto water, then sprinkle with coriander.",
@@ -89,5 +91,14 @@
   "tr": "Hamurun hazır olup olmadığını su testiyle kontrol edin; yüzen hamur kabarık ve tamalların dağılmadan pişeceği kıvamdadır.",
   "en": "Check the masa with the water test before filling; if it floats, it is light enough to give tender, well-risen tamales."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chicken seasoning uses 1 tbsp (about 18 g) salt for 400 g chicken, which is far too much for the amount of meat and broth. It should be 1 tsp, in both languages.",
+   "Turkish step 5 uses 'doku suyu', which is not a natural term for cooking broth. It should be 'pişirme suyu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

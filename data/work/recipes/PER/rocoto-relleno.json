@@ -61,7 +61,7 @@
    "Soğuyan kıymalı harca fıstıkları, kuru üzümü, zeytinleri, ezilmiş krakerleri ve 1 yumurtayı ekleyip iyice yoğurun. Ufalanmış peynirin yarısını da ekleyip karıştırın.",
    "Fırını 180°C'ye ısıtın. Biberlerin içini harçla sıkı sıkıya doldurun ve ağızlarını kapatmayın. Doldurulmuş biberleri yağlanmış bir fırın kabına dizin.",
    "Sütü ve 2 yumurtayı bir kapta çırpın, tuz ve karabiber ekleyin. Bu karışımı biberlerin etrafına dökün. Kalan peyniri biberlerin üzerine serpin.",
-   "Kabı fırının orta rafına koyun ve sos katılaşıp üstü hafif altın rengi alana kadar 35-40 dakika pişirin. Biber yumuşak olmalı ve sos tam olarak jelleşmiş olmalıdır.",
+   "Kabı fırının orta rafına koyun ve sos katılaşıp üstü hafif altın rengi alana kadar 35-40 dakika pişirin. Biber yumuşak olmalı ve sos tam olarak katılaşmış olmalıdır.",
    "Sıcak rokoto relleno'yu haşlanmış patateslerle birlikte servis edin."
   ],
   "en": [
@@ -81,5 +81,13 @@
   "tr": "Biberleri haşlamak acılığı yumuşatır; yine de acıya dayanıklı değilseniz harca bir miktar daha az aji panca koyun ve tohumları tamamen çıkarın.",
   "en": "Parboiling the peppers softens their heat; if you are sensitive to spice, use less aji panca and remove all seeds and membranes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 says the sauce should be 'jelleşmiş' (gelled). For a milk-and-egg custard, 'katılaşmış' (set) is the natural term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

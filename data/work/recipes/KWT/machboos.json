@@ -19,7 +19,7 @@
    "4 diş sarımsak, ezilmiş",
    "3 orta boy domates (400 g), rendelenmiş",
    "2 yemek kaşığı domates salçası (30 g)",
-   "60 ml sade yağ (ghee) ya da sıvı yağ",
+   "90 ml sade yağ (ghee) ya da sıvı yağ",
    "3 adet kuru limon (lomi), delinmiş",
    "1 çay kaşığı kimyon",
    "1 çay kaşığı kişniş tohumu, toz",
@@ -41,7 +41,7 @@
    "4 garlic cloves, crushed",
    "3 medium tomatoes (400 g), grated",
    "2 tbsp tomato paste (30 g)",
-   "60 ml ghee or neutral oil",
+   "90 ml ghee or neutral oil",
    "3 dried limes (loomi), pierced",
    "1 tsp ground cumin",
    "1 tsp ground coriander",
@@ -91,5 +91,13 @@
   "tr": "Kuru limonları pişirme sırasında delmek aromanın pilava iyi yayılmasını sağlar; servisten önce pilavdan çıkarıp atmayı unutmayın.",
   "en": "Pierce the dried limes so their sour, smoky flavour seeps into the rice; remove them before serving. Traditionally, daqoos (a tomato and chilli sauce) and a fresh salad are served alongside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fat quantity mismatch: the ingredient list specifies 60 ml of ghee/oil, but the steps use 30 ml for browning the chicken, the remaining oil for the onions, and a further 30 ml for frying the almonds ("
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

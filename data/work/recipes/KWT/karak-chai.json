@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Gerçek karak kıvamı için evaporasyon sütü kullanabilirsiniz; bu, çayı daha koyu ve kremsi yapar. Taşmayı önlemek için kaynama sırasında tencerenin kenarına yakın durun.",
+  "tr": "Gerçek karak kıvamı için yaklaşık 200 ml evaporasyon sütünü tam yağlı sütün bir kısmı yerine kullanabilirsiniz; bu, çayı daha koyu ve kremsi yapar. Taşmayı önlemek için kaynama sırasında tencerenin kenarına yakın durun.",
   "en": "For a richer, more traditional texture, you can use part evaporated milk (about 200 ml of it, replacing some whole milk). Stay near the pot while it simmers, as the milk can boil over quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip gives no amount for evaporated milk, but the English tip specifies about 200 ml replacing some whole milk. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

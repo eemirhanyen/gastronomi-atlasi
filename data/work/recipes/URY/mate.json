@@ -34,9 +34,9 @@
    "İsteğe bağlı olarak şekeri yerba mate'nin üstüne ekleyip karıştırın.",
    "Kabağı hafifçe eğip bombillayı yerba mate yığınının yanından, ucu kabın dibine değecek şekilde yerleştirin.",
    "Suyu bombillanın yanından, kuru yerbanın üzerine yavaşça dökün ve yaklaşık bir dakika bekleyin.",
-   "İlk demlemeyi (cebador) için; bombilla gurgulamaya başlayınca kabı bitirin.",
+   "Bombilla gurgulamaya başlayana kadar ilk demlemeyi (cebador) için; gurgulama kabın boşaldığını gösterir.",
    "Kabı sıradaki kişiye uzatın. Daha fazla istemiyorsanız 'gracias' diyerek kabı geri verin.",
-   "Kabı sıcak suyla tekrar doldurun; yerba mate birkaç kez, yaklaşık 8–10 kez kullanılabilir."
+   "Kabı sıcak suyla tekrar doldurun; yerba mate yaklaşık 8–10 kez kullanılabilir."
   ],
   "en": [
    "Make sure the inside of the mate gourd is dry and clean.",
@@ -53,5 +53,14 @@
   "tr": "Suyu asla kaynatmayın; kaynar su yerba mate'yi acılaştırır. Termos kullanarak suyu doğru sıcaklıkta tutabilirsiniz.",
   "en": "Never use boiling water, as it makes the yerba mate bitter. A thermos is an easy way to keep the water at the right temperature."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 is an incomplete, awkward sentence (\"İlk demlemeyi (cebador) için; ... kabı bitirin\") and does not match the English meaning cleanly.",
+   "Turkish step 8 says \"birkaç kez, yaklaşık 8–10 kez\", which is redundant and inconsistent with the English \"about 8–10 times\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

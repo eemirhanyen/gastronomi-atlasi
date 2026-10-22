@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "800 g matambre (sığır baldırı/karın eti, ince dilim), tek parça",
+   "800 g matambre (sığır karın eti/flank, tek parça, 2–3 cm kalınlığında)",
    "1 büyük soğan (150 g), ikiye bölünmüş",
    "1 küçük havuç (80 g), ikiye bölünmüş",
    "2 defne yaprağı",
@@ -23,7 +23,7 @@
    "1 küçük soğan (80 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "500 g olgun domates, rendelenmiş veya ince doğranmış",
-   "1 tatlı kaşığı kurutulmuş kekik veya kekik-kır kekiği (oregano)",
+   "1 tatlı kaşığı kurutulmuş kekik veya kır kekiği (oregano)",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
    "250 g mozzarella peyniri, dilimlenmiş",
@@ -76,8 +76,19 @@
   ]
  },
  "tip": {
-  "tr": "Eti haşlama suyunda soğutmadan önce bastırırsanız dilimlemesi kolaylaşır ve pişirme sırasında sos dengeli bir şekilde yayılır.",
+  "tr": "Eti haşlama suyundan çıkarıp hâlâ sıcakken bastırırsanız eşit şekilde düzleşir; soğumuş, sert matambre fırınlandıktan sonra düzgün dilimlenmesi çok daha zordur.",
   "en": "Press the meat while it is still warm so it flattens evenly; a cold, firm matambre is much harder to slice neatly after baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient calls matambre 'sığır baldırı/karın eti' (shank/belly), but the English says beef flank, which is the correct cut.",
+   "Turkish ingredient says 'ince dilim' (thin slice), but the English says one thick piece, 2–3 cm thick, and the poached, pressed meat needs that thickness.",
+   "Turkish tip says to press the meat while still in the poaching water, but the steps lift it out to a tray first, and the English tip says to press while warm.",
+   "Turkish 'kekik-kır kekiği (oregano)' is a muddled naming of the herb; English says oregano."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

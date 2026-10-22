@@ -9,7 +9,7 @@
   "en": "A traditional Samoan dessert of taro and coconut cream, wrapped in leaves and baked. It is served at family gatherings, village ceremonies and special occasions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Taro kalsiyum oksalat içerir; cilt ve boğazda tahrişe yol açabileceği için mutlaka iyice pişirin ve çiğ tüketmeyin.",
   "en": "Taro contains calcium oxalate, which can irritate the skin and throat, so always cook it thoroughly and never eat it raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: boiling (20-25 min) + cooking the mash (~10 min) + baking (40 + 10 min) totals about 85-90 minutes before cooling and assembly"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

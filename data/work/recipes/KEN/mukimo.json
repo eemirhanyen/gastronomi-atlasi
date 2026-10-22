@@ -20,6 +20,7 @@
    "30 g tereyağı",
    "5 g tuz, tadı için",
    "500 ml su",
+   "30 ml su (2 yemek kaşığı), yeşillikleri pişirmek için",
    "100 ml ayrılmış haşlama suyu"
   ],
   "en": [
@@ -30,6 +31,7 @@
    "30 g butter",
    "5 g salt, or to taste",
    "500 ml water",
+   "30 ml water (2 tablespoons), for cooking the greens",
    "100 ml reserved cooking liquid"
   ]
  },
@@ -38,8 +40,8 @@
    "Patates parçalarını ve mısır tanelerini 500 ml suyla birlikte geniş bir tencereye alın ve orta-yüksek ateşte kaynatın.",
    "Ateşi orta seviyeye indirin ve patatesler çatalla kolayca ezilecek kadar yumuşayana kadar, yaklaşık 20 dakika pişirin.",
    "Bu sırada geniş bir tavada tereyağını eritin, soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 5 dakika kavurun.",
-   "Ispanak, pazı veya kabak yapraklarını tavaya ekleyin, 2 yemek kaşığı kadar su ile birlikte soluncaya kadar 5-7 dakika pişirin, ardından ince ince doğrayın.",
-   "Patates ve mısırı süzün, tencerede yaklaşık 100 ml haşlama suyunu ayırın.",
+   "Ispanak, pazı veya kabak yapraklarını tavaya ekleyin, 30 ml (2 yemek kaşığı) su ile birlikte soluncaya kadar 5-7 dakika pişirin, ardından ince ince doğrayın.",
+   "Haşlama suyundan yaklaşık 100 ml ayırın, ardından patates ve mısırı süzün.",
    "Patates ve mısırı tencereye geri alın, ayırdığınız suyun bir kısmıyla birlikte kabaca ezin.",
    "Doğranmış yeşillikleri ve soğanlı tereyağını ekleyip iyice karıştırın. Gerekirse kalan haşlama suyunu ekleyerek kıvamını ayarlayın.",
    "Tuzla tatlandırın ve sıcak olarak servis edin."
@@ -48,8 +50,8 @@
    "Put the potato chunks and sweetcorn kernels in a large pan with the 500 ml water and bring to a boil over medium-high heat.",
    "Reduce the heat to medium and simmer for about 20 minutes, until the potatoes are soft enough to mash easily with a fork.",
    "While the potatoes cook, melt the butter in a wide frying pan, add the onion and fry for about 5 minutes, until soft and lightly golden.",
-   "Add the spinach, chard or pumpkin leaves to the pan with 2 tablespoons of water and cook for 5-7 minutes until wilted, then chop finely.",
-   "Drain the potatoes and sweetcorn, reserving about 100 ml of the cooking liquid.",
+   "Add the spinach, chard or pumpkin leaves to the pan with 30 ml (2 tablespoons) of water and cook for 5-7 minutes until wilted, then chop finely.",
+   "Set aside about 100 ml of the cooking liquid, then drain the potatoes and sweetcorn.",
    "Return the potatoes and sweetcorn to the pan and mash coarsely with some of the reserved liquid.",
    "Stir in the chopped greens and the onion butter until well combined, adding a little more of the reserved liquid if needed for a soft, moist texture.",
    "Season with salt to taste and serve hot."
@@ -59,5 +61,15 @@
   "tr": "Mukimo'nun kıvamı yumuşak ama dağılmayan olmalıdır; ezerken çok fazla su kullanmayın, gerekirse haşlama suyunu azar azar ekleyin.",
   "en": "Mukimo should be soft but hold its shape; mash with restraint and add the reserved cooking liquid gradually, a little at a time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 uses 2 tablespoons of water, but this water is missing from the ingredient list in both languages.",
+   "Turkish step 5 is unclear and contradicts itself: it says to drain the potatoes and corn but then reserve the liquid 'in the pot' (tencerede). The English version has a similar sequencing problem.",
+   "The 100 ml reserved cooking liquid is listed as a separate ingredient, though it is part of the 500 ml water. This is a minor clarity issue, so I left it as is."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

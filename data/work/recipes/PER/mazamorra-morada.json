@@ -1,15 +1,15 @@
 {
  "name": {
-  "tr": "Mazamora morada",
+  "tr": "Mazamorra morada",
   "en": "Mazamorra morada"
  },
  "native": "Mazamorra morada",
  "desc": {
-  "tr": "Mor mısır, kuru meyve, ayva ve ananasla hazırlanan, tarçınlı ve karanfilli Peru tatlısı. Özellikle Lima'da ve Kasım-Ocak aylarında ev yemeklerinde, ekmek ya da pirinç sütlacıyla birlikte servis edilir.",
+  "tr": "Mor mısır, kuru meyve, ayva ve ananasla hazırlanan, tarçınlı ve karanfilli Peru tatlısı. Özellikle Lima'da ve Ekim ayında (Señor de los Milagros kutlamaları sırasında) ev yemeklerinde, buñuelos ya da arroz zambito (pirinç sütlacı) ile birlikte servis edilir.",
   "en": "A Peruvian dessert of purple corn, dried fruit, quince and pineapple, spiced with cinnamon and cloves. It is eaten across Peru, especially in Lima, and is often served with arroz zambito (rice pudding) or buñuelos."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 210,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -56,14 +56,14 @@
    "Ayva küplerini ekleyin ve yumuşayana kadar yaklaşık 10 dakika daha pişirin.",
    "Ananas küplerini ekleyin ve 2 dakika daha kaynatın.",
    "Mısır nişastasını 60 ml soğuk suda tamamen çözün. Kaynayan karışıma yavaşça ekleyin ve sürekli karıştırarak 3 dakika pişirin; kıvam koyulaşacaktır.",
-   "Ocağı kapatın, limon suyunu ekleyip karıştırın. Karanfilleri çıkarın.",
+   "Ocağı kapatın, limon suyunu ekleyip karıştırın. Tarçını ve karanfilleri çıkarın.",
    "Mazamorrayı oda sıcaklığına (yaklaşık 20 °C) kadar soğutun ya da sıcak olarak kaselere koyun.",
    "Servis öncesi üzerine toz tarçın serpin."
   ],
   "en": [
    "Rinse the purple corn well in cold water, then soak it in enough water to cover for at least 2 hours.",
    "Put the soaked corn into a large pot with the 1.5 L water. Add the pineapple peel and the cinnamon stick, and bring to a boil.",
-   "Lower the heat and simmer for about 60 minutes, until the corn is soft and the water has turned a deep purple (about 20 °C is not needed here; simply keep it at a gentle simmer).",
+   "Lower the heat and simmer for about 60 minutes, until the corn is soft and the water has turned a deep purple.",
    "Strain the liquid into another pot. Discard the corn kernels and the pineapple peel, and keep the cinnamon stick in the liquid.",
    "Return the purple liquid to the heat. Add the sugar and cloves and stir until the sugar dissolves.",
    "Add the dried peaches, dried prunes and raisins, and simmer for about 10 minutes.",
@@ -79,5 +79,18 @@
   "tr": "Kıvam çok koyu olursa servisten önce biraz sıcak su ekleyerek inceltin; mazamorra soğudukça daha da kalınlaşır.",
   "en": "If the mazamorra becomes too thick as it cools, stir in a little warm water before serving, as it thickens further when chilled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name is misspelled: 'Mazamora morada' should be 'Mazamorra morada'.",
+   "English step 3 contains a stray, confusing parenthetical ('about 20 °C is not needed here...') that does not appear in the Turkish version.",
+   "Turkish step 10 removes only the cloves, but English step 10 removes the cinnamon stick and cloves.",
+   "Turkish description says it is served with 'ekmek' (bread), but the English says buñuelos. Buñuelos are the traditional accompaniment, so the Turkish should match.",
+   "Turkish description gives 'Kasım-Ocak' as the season. Mazamorra morada is traditionally associated with October (Señor de los Milagros festivities), so the season is inaccurate.",
+   "time_min of 120 does not account for the at least 2-hour soak plus about 60 minutes of simmering and further cooking, so total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A sweet, cheese-filled fried pastry from Ecuador's Andean highlands (the Sierra), eaten at breakfast or as an afternoon snack. It gets its name, meaning 'wind', from the way it puffs up dramatically in hot oil."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -71,5 +71,13 @@
   "tr": "Hamuru açarken kenarları incelttiğinizden emin olun; kenarlar kalınsa empanada yağda şişmez. Peynirin çok sulu olmamasına dikkat edin, yoksa kenarlar açılabilir.",
   "en": "Roll the edges thinner than the centre so the pastry puffs properly, and drain the cheese well to prevent the seams from bursting open in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is inconsistent with the steps: about 5 min proofing the yeast, 8-10 min kneading, 45 min rising, shaping and filling, and frying in several batches add up to roughly 90-100 minutes in t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

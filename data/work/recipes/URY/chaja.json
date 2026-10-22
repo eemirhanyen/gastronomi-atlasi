@@ -9,7 +9,7 @@
   "en": "Chajá is one of Uruguay's best-loved desserts: a soft sponge cake soaked in sweet wine syrup, layered with peaches and plenty of whipped cream. It is served at birthdays, family gatherings and summer afternoons."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -18,7 +18,7 @@
    "90 g toz şeker",
    "1 tatlı kaşığı kabartma tozu",
    "1 tatlı kaşığı vanilya özü",
-   "1 çay kaşığı tuz",
+   "1 tutam tuz",
    "100 ml tatlı beyaz şarap (ör. moskato)",
    "50 ml su",
    "40 g toz şeker (şurup için)",
@@ -54,7 +54,7 @@
    "Şurup için 50 ml suyu 40 g şekerle birlikte kaynatıp şeker eriyince ocaktan alın. Soğuduktan sonra şaraba ekleyin.",
    "Kek tamamen soğuyunca yatay olarak ikiye bölün. Alt kattaki yarımın üzerine şurubun yarısını gezdirin.",
    "Soğuk kremayı, pudra şekeri ve ½ tatlı kaşığı vanilya ile yumuşak zirve oluşana kadar çırpın. Kremanın yarısını ayırın.",
-   "Alt kat kekin üzerine ayrılan kremanın yarısını yayın, süzülmüş şeftali dilimlerini dizin ve üzerine diğer kek yarımını koyun.",
+   "Alt kat kekin üzerine ayrılan kremanın tamamını yayın, süzülmüş şeftali dilimlerini dizin ve üzerine diğer kek yarımını koyun.",
    "Üst kek yarımına kalan şurubu gezdirin. Geriye kalan kremanın tamamını kekin üzerine ve kenarlarına yayın.",
    "Üzerini kalan şeftali dilimleriyle süsleyin ve servisten önce en az 1 saat buzdolabında dinlendirin."
   ],
@@ -66,7 +66,7 @@
    "For the syrup, heat the 50 ml water with the 40 g sugar until dissolved, then let it cool. Stir in the wine.",
    "Once the cake is completely cool, slice it horizontally into two layers. Brush the bottom layer with half of the syrup.",
    "Whip the cold cream with the icing sugar and ½ tsp vanilla until soft peaks form. Set aside half for the filling.",
-   "Spread half of the reserved cream over the bottom layer, arrange the drained peach slices on top, then place the second cake layer over them.",
+   "Spread the reserved cream over the bottom layer, arrange the drained peach slices on top, then place the second cake layer over them.",
    "Brush the top layer with the remaining syrup. Spread the rest of the cream over the top and sides of the cake.",
    "Decorate with the remaining peach slices and chill for at least 1 hour before serving."
   ]
@@ -75,5 +75,15 @@
   "tr": "Kremayı servisten hemen önce çırpın ve kekin tamamen soğuduğundan emin olun; aksi halde krema erir ve kek fazla ıslanır.",
   "en": "Whip the cream just before assembling and make sure the cake is fully cool, otherwise the cream will loosen and the sponge will become soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity mismatch: Turkish says '1 çay kaşığı tuz' (1 teaspoon), English says '1 pinch salt'. A teaspoon would overpower the sponge, so the Turkish should read '1 tutam tuz'.",
+   "Cream steps are inconsistent: step 7 sets aside half the cream, step 8 spreads only half of that reserved portion, and step 9 spreads 'the remaining cream', which leaves cream unaccounted for. Step 8 ",
+   "time_min is 60, but the recipe includes baking, cooling, syrup preparation and at least 1 hour of chilling, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -47,7 +47,7 @@
    "Ayrı bir kapta yumurtayı, sütü ve eritilmiş tereyağını pürüzsüz olana kadar çırpın.",
    "Yaş karışımı kuru malzemelerin üzerine dökün ve tahta kaşıkla karıştırarak yumuşak bir hamur elde edin.",
    "Hamuru 2 dakika kadar hafifçe yoğurun, üzerini örtüp oda sıcaklığında 15 dakika dinlendirin.",
-   "Hamuru 16 eşit parçaya bölün, her birini yaklaşık 3 cm çapında top haline getirip hafifçe bastırarak yassılaştırın.",
+   "Hamuru 16 eşit parçaya bölün, her birini yaklaşık 4 cm çapında top haline getirip hafifçe bastırarak yassılaştırın.",
    "Derin bir tencerede sıvı yağı 170°C'ye kadar ısıtın. Yağı termometre ile kontrol edin.",
    "Hamur parçalarını 4-5'erli gruplar halinde yağa bırakın ve her iki yüzü 2-3 dakika, altın rengi olana kadar kızartın.",
    "Kızaran hamur tatlılarını kağıt havlu serili bir tabağa alıp fazla yağlarını süzün.",
@@ -59,7 +59,7 @@
    "In a separate jug, beat the egg, milk and melted butter until smooth.",
    "Pour the wet mixture into the dry ingredients and stir with a wooden spoon until a soft dough forms.",
    "Knead the dough gently for about 2 minutes, cover it, and let it rest at room temperature for 15 minutes.",
-   "Divide the dough into 16 equal pieces, roll each into a ball about 3 cm across and flatten it slightly.",
+   "Divide the dough into 16 equal pieces, roll each into a ball about 4 cm across and flatten it slightly.",
    "Heat the oil in a deep saucepan to 170°C. Check the temperature with a thermometer.",
    "Fry the dough pieces in batches of 4 to 5, turning once, for 2 to 3 minutes per side until golden brown.",
    "Lift the fritters out onto a plate lined with kitchen paper to drain off excess oil.",
@@ -71,5 +71,13 @@
   "tr": "Yağ sıcaklığını 170°C'de sabit tutun; yağ çok sıcak olursa dış yüzey hızla kararır, iç kısım çiğ kalır.",
   "en": "Keep the oil at a steady 170°C; if it gets too hot the outsides darken quickly while the centres stay raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough size mismatch: the batter weighs roughly 480 g, so 16 pieces are about 30 g each, which is closer to a 4 cm ball than the 3 cm ball stated in the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

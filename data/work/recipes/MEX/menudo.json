@@ -5,7 +5,7 @@
  },
  "native": "Menudo",
  "desc": {
-  "tr": "Dana işkembesi, dana incik eti ve hominy (nikstamal mısırı) ile hazırlanan, guajillo ve ancho biberli acı-ekşi bir Meksika çorbasıdır. Özellikle hafta sonları ve Meksika'daki yeni yıl ile kutlamalarda, kahvaltı ya da geç öğle yemeği olarak servis edilir.",
+  "tr": "Dana işkembesi, dana incik eti ve hominy (nikstamal mısırı) ile hazırlanan, guajillo ve ancho biberli acı-ekşi bir Meksika çorbasıdır. Özellikle hafta sonları ve kutlamalarda, kahvaltı ya da geç öğle yemeği olarak servis edilir.",
   "en": "A Mexican soup of beef tripe and beef shank with hominy, flavoured with guajillo and ancho chiles for a deep, mildly spicy broth. It is traditionally eaten on weekends and at holiday celebrations, often as a late breakfast or lunch."
  },
  "servings": 4,
@@ -70,8 +70,17 @@
   ]
  },
  "tip": {
-  "tr": "Işkembe ne kadar iyi temizlenir ve haşlanırsa koku o kadar az olur; pişirme süresini kısaltmak için yumuşak olduğunu kontrol ederek daha fazla zaman tanıyın.",
+  "tr": "İşkembeyi ne kadar iyi temizleyip haşlarsanız koku o kadar az olur. Zamanınız kısıysa önceden temizlenmiş işkembe alın ve hominy'yi eklemeden önce yumuşadığını kontrol edin.",
   "en": "Thorough cleaning and blanching are the key to good menudo; if you are short on time, buy pre-cleaned tripe and check that it is fully tender before adding the hominy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is self-contradictory: it says to shorten cooking time but then advises allowing more time. It also doesn't match the English tip, which recommends buying pre-cleaned tripe.",
+   "Turkish description mentions New Year celebrations (\"yeni yıl\"), which the English version does not say. It should say holiday celebrations to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

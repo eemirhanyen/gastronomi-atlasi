@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g domuz bonfile (yaklaşık 4 adet, 1 cm kalınlığında)",
+   "600 g domuz sırt eti (kemiksiz pirzola, yaklaşık 4 adet, 1 cm kalınlığında)",
    "1 tatlı kaşığı tuz",
    "1 tutam karabiber",
    "60 g un",
@@ -52,9 +52,9 @@
    "Pirinci iki kez yıkayıp süzün, üzerine 300 g pirinç için yaklaşık 330 ml su ekleyin. Kapaklı pirinç pişirme kabında ya da tencerede pişirin, bitince 10 dakika demlenmeye bırakın.",
    "Domuz etlerini tuz ve karabiberle iki yüzünden tatlandırın. Sırasıyla una, çırpılmış yumurtaya ve panoya bulayın; panoyu hafifçe bastırarak yapışmasını sağlayın.",
    "Büyük bir tavada 500 ml yağı 170 °C'ye kadar ısıtın. Etleri her iki yüzü altın rengi ve çıtır olana kadar yaklaşık 4-5 dakika kızartın, kağıt havluya alın.",
-   "Kızartma sırasında sos için geniş bir tavada dashi, soya sosu, mirin ve tozşekeri orta ateşte kaynatın. Soğan dilimlerini ekleyip yumuşayana kadar yaklaşık 5 dakika pişirin.",
+   "Kızartma sırasında sos için geniş bir tavada dashi, soya sosu, mirin ve toz şekeri orta ateşte kaynatın. Soğan dilimlerini ekleyip yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Kızarmış domuz etlerini 1,5 cm genişliğinde dilimleyin. Sosu hafifçe kaynatırken dilimleri sosa yerleştirin ve yanlarına çırpılmış yumurtanın yarısını dökün.",
-   "Kapağını kapatıp yaklaşık 1 dakika pişirin. Kalan yumurtanın yarısını ekleyip 30 saniye daha kapalı pişirin; yumurta henüz tam pişmemiş ve akışkan olmalı.",
+   "Kapağını kapatıp yaklaşık 1 dakika pişirin. Kalan yumurtanın tamamını ekleyip 30 saniye daha kapalı pişirin; yumurta henüz tam pişmemiş ve akışkan olmalı.",
    "Pirincin üstüne bir porsiyon sıcak pirinç koyun, hazırlanan karışımı üzerine kaydırarak yerleştirin. Taze soğanla süsleyip hemen servis edin. Diğer porsiyonları aynı şekilde hazırlayın."
   ],
   "en": [
@@ -71,5 +71,15 @@
   "tr": "Domuz etini dövmeden önce hafifçe tenderize etmek ve panoyu bastırmak, kızartırken çıtırlığın dağılmasını önler. Yumurtayı tamamen pişirmeyin; akışkan kıvamı yemeğin asıl lezzetidir.",
   "en": "Pound the pork lightly and press the panko firmly so the crust stays attached. Undercook the egg slightly; a soft, runny texture is what makes the dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says 'kalan yumurtanın yarısını' (half of the remaining egg), but the English says the remaining egg is poured in, and the Turkish step 5 already uses half. The Turkish should say the w",
+   "Turkish ingredient says 'domuz bonfile' (tenderloin), but the English says boneless pork loin, and the dish uses loin cutlets. The Turkish should match the English.",
+   "Turkish step 4 has a typo: 'tozşekeri' should be 'toz şeker'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

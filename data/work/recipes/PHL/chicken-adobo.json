@@ -23,6 +23,7 @@
    "1 çay kaşığı (yaklaşık 3 g) karabiber tanesi",
    "1 yemek kaşığı (12 g) toz şeker",
    "2 yemek kaşığı (30 ml) bitkisel yağ",
+   "Tuz, isteğe bağlı",
    "Servis için haşlanmış pirinç pilavı"
   ],
   "en": [
@@ -36,6 +37,7 @@
    "1 teaspoon (about 3 g) black peppercorns",
    "1 tablespoon (12 g) granulated sugar",
    "2 tablespoons (30 ml) cooking oil",
+   "Salt, optional",
    "Steamed white rice to serve"
   ]
  },
@@ -65,5 +67,13 @@
   "tr": "Tavukları sosa koymadan önce derisini altın rengi olana kadar kavurmak, hem tat hem doku açısından adobonun en önemli adımıdır.",
   "en": "Browning the chicken skin well before braising adds depth of flavour and texture, which is one of the most important steps in adobo."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is mentioned in the final step (Turkish and English) but is not listed in the ingredients. Added it as an optional ingredient in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

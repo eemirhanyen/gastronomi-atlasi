@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Aroz kon leçe",
+  "tr": "Arroz con leche",
   "en": "Arroz con leche"
  },
  "native": "Arroz con leche",
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Pirincin dibe yapışmaması için süt eklendikten sonra karıştırmayı aralıksız sürdürün; kıvamı koyulaştırmak için ocakta, soğuduktan sonra ise sertleşen kıvamı açmak için birkaç yemek kaşığı süt ekleyin.",
+  "tr": "Pirincin dibe yapışmaması için süt eklendikten sonra karıştırmayı aralıksız sürdürün. Soğuduktan sonra kıvam çok koyulaşırsa, servis öncesinde birkaç yemek kaşığı süt ekleyerek açın.",
   "en": "Keep stirring once the milk goes in so the rice does not stick. If it thickens too much as it cools, loosen it with a few spoonfuls of milk before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip adds a clause about thickening on the stove that the English version does not have, so the two versions disagree.",
+   "Turkish dish name 'Aroz kon leçe' is an unnatural transliteration; the Spanish name is normally kept as is."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

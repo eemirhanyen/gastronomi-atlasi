@@ -18,7 +18,7 @@
    "120 ml su",
    "1 tatlı kaşığı (5 ml) vanilya ekstresi",
    "½ tatlı kaşığı (1 g) öğütülmüş muskat",
-   "1 çay kaşığı (about 1 g) tuz",
+   "1 g tuz (yaklaşık ⅙ çay kaşığı)",
    "15 g tereyağı (kalıbı yağlamak için)"
   ],
   "en": [
@@ -57,5 +57,14 @@
   "tr": "Kıvamı kontrol etmek için küçük bir damla karışımı bir bardak soğuk suya bırakın; topak haline gelip elinizde şekil alıyorsa hazırdır.",
   "en": "To check doneness, drop a little of the mixture into a glass of cold water; if it forms a soft ball you can shape with your fingers, it is ready."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity disagrees between versions: Turkish says '1 çay kaşığı (about 1 g) tuz' (about 5-6 g, a full teaspoon), while English says '1 g fine salt (about ⅙ teaspoon)'.",
+   "Untranslated English word 'about' remains in the Turkish ingredient list."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

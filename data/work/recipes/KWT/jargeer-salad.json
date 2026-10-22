@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Circiyr salatası",
+  "tr": "Roka Salatası (Circiyr)",
   "en": "Jargeer Salad (Arugula Salad)"
  },
  "native": "سلطة جرجير",
@@ -61,5 +61,13 @@
   "tr": "Roka dressing eklenince hızla solar; yaprakları en son ekleyip hemen servis edin.",
   "en": "Arugula wilts quickly once dressed, so add it last and serve immediately."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name 'Circiyr salatası' is an unnatural transliteration; Turkish readers know the leafy green as 'roka', so the name should lead with 'Roka' and keep 'Circiyr' as the regional term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -42,7 +42,7 @@
    "Tereyağı ve pudra şekerini geniş bir kapta açık sarı ve kremamsı olana kadar 3-4 dakika çırpın.",
    "Yumurta sarılarını ve vanilya özünü ekleyip karışım pürüzsüz olana kadar çırpmaya devam edin.",
    "Buğday unu, mısır nişastası, kabartma tozu ve tuzu bir elekten geçirerek ekleyin.",
-   "Spatula ile karıştırıp homojen bir hamur elde edin. Hamur çok yumuşakça yapışıyorsa birkaç çay kaşığı un ekleyebilirsiniz.",
+   "Spatula ile karıştırıp homojen bir hamur elde edin. Hamur çok yumuşakça yapışıyorsa 1-2 yemek kaşığı un ekleyebilirsiniz.",
    "Hamuru streç filmle sarıp buzdolabında en az 30 dakika dinlendirin.",
    "Fırını 170°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
    "Hamuru unlu bir yüzeyde yaklaşık 5 mm kalınlığında açın ve 5-6 cm çapında bir bardakla 16 yuvarlak kesin.",
@@ -55,15 +55,15 @@
   "en": [
    "Beat the butter and powdered sugar in a large bowl for 3-4 minutes until pale and creamy.",
    "Add the egg yolks and vanilla extract and continue beating until smooth.",
-   "Sift in the flour, cornstarch, baking powder and salt, then fold them in with a spatula.",
-   "Mix until you have a uniform dough. If it feels too soft and sticky, add a tablespoon or two of flour.",
+   "Sift in the flour, cornstarch, baking powder and salt.",
+   "Mix with a spatula until you have a uniform dough. If it feels too soft and sticky, add a tablespoon or two of flour.",
    "Wrap the dough in cling film and refrigerate for at least 30 minutes.",
    "Preheat the oven to 170°C and line a baking tray with parchment paper.",
    "Roll the dough on a floured surface to about 5 mm thick and cut 16 rounds with a 5-6 cm cutter or glass.",
    "Arrange the rounds on the tray with space between them and bake for about 10-12 minutes, until the edges are lightly golden.",
    "Let the cookies cool on the tray for 5 minutes, then move them to a wire rack to cool completely.",
    "Spread dulce de leche on the flat side of half the cookies and top with the remaining cookies, pressing gently.",
-   "Spread the dulce de leche sandwiches' edges into the desiccated coconut on a shallow plate, pressing so the filling edge is coated.",
+   "Put the desiccated coconut on a shallow plate and roll the edges of each sandwich in it, where the dulce de leche has spread out, so the filling is coated.",
    "Let the alfajores rest for a few minutes before serving so the filling sets slightly."
   ]
  },
@@ -71,5 +71,13 @@
   "tr": "Bisküvileri tam soğumadan doldurmayın; sıcak bisküvi dulce de leche'yi eritir ve sandviçler dağılır.",
   "en": "Do not fill the cookies while they are still warm; the heat will melt the dulce de leche and the sandwiches will slide apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4: the Turkish says to add 'birkaç çay kaşığı un' (a few teaspoons of flour), but the English says 'a tablespoon or two'. The amounts disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

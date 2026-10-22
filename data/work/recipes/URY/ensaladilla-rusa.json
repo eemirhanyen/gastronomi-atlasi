@@ -9,7 +9,7 @@
   "en": "Potatoes, carrots and peas bound with mayonnaise, this salad is a staple at Uruguayan asado gatherings and family celebrations. It is usually served cold alongside grilled meats."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Patatesleri çok fazla pişirmeyin; sıcak patates mayonezi ayırır ve salata sulanır. Hazırlayıp bir gece önceden buzdolabında bekletmek lezzeti belirgin şekilde artırır.",
   "en": "Do not overcook the potatoes, as warm or mushy potatoes make the salad watery. Making it the night before lets the flavours meld noticeably."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps alone take about 100 minutes: about 9 min for eggs, 10-12 min for potatoes and carrots, 15 min cooling, plus at least 1 hour of chilling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

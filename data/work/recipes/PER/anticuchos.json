@@ -18,7 +18,7 @@
    "60 ml beyaz sirke",
    "4 diş sarımsak, ince doğranmış",
    "2 g (1 tatlı kaşığı) öğütülmüş kimyon",
-   "1 tatlı kaşığı kuru kekik veya kekik yerine kuru kekik ile aynı miktarda kekik",
+   "1 tatlı kaşığı kuru kekik (oregano)",
    "6 g (1 tatlı kaşığı) tuz",
    "1/2 tatlı kaşığı karabiber",
    "60 ml sıvı yağ",
@@ -69,5 +69,13 @@
   "tr": "Kalbi fazla pişirmeyin; dışı kömürleşmiş ama içi hafif pembe kaldığında en yumuşak sonucu verir.",
   "en": "Don't overcook the heart: it is most tender when charred outside but still slightly pink inside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for the herb is garbled (\"kuru kekik veya kekik yerine kuru kekik ile aynı miktarda kekik\"), and it names thyme while the English version and the marinade step specify oregano."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

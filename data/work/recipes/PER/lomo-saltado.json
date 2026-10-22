@@ -6,7 +6,7 @@
  "native": "Lomo saltado",
  "desc": {
   "tr": "Dana bonfilesinin soğan, domates ve acı sarı biberle hızlıca sote edilip patates kızartması ve pirinçle servis edildiği bu yemek, Lima'da Çin-Peru (chifa) mutfağının etkisiyle ortaya çıkmış ve günlük öğle ve akşam yemeklerinde sıkça yenmektedir.",
-  "en": "Strips of beef sirloin are quickly stir-fried with onion, tomato and aji amarillo and served with fried potatoes and rice. The dish grew out of Chinese-Peruvian (chifa) cooking in Lima and is a everyday lunch and dinner staple across Peru."
+  "en": "Strips of beef sirloin are quickly stir-fried with onion, tomato and aji amarillo and served with fried potatoes and rice. The dish grew out of Chinese-Peruvian (chifa) cooking in Lima and is an everyday lunch and dinner staple across Peru."
  },
  "servings": 4,
  "time_min": 60,
@@ -17,7 +17,7 @@
    "45 ml soya sosu",
    "30 ml kırmızı şarap sirkesi",
    "1 tatlı kaşığı öğütülmüş kimyon (3 g)",
-   "1 tatlı kaşığı tuz (6 g), ayrıca patatesler için 1 çay kaşığı tuz (3 g)",
+   "1 tatlı kaşığı tuz (6 g), ayrıca patatesler için 1/2 tatlı kaşığı tuz (3 g)",
    "1/2 tatlı kaşığı taze çekilmiş karabiber (1 g)",
    "500 g patates",
    "Kızartma için yaklaşık 500 ml bitkisel yağ",
@@ -73,5 +73,14 @@
   "tr": "Etleri tavaya tek kat ve kısımlar halinde koyun; tavaya fazla et doldurursanız buharda pişer ve sertleşir.",
   "en": "Sear the beef in small batches in a single layer; overcrowding the pan will steam the meat and make it tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list gives the potato salt as '1 çay kaşığı tuz (3 g)', but the English says 1/2 tsp and Turkish step 2 says '1/2 tatlı kaşığı'. Corrected to 1/2 tatlı kaşığı.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

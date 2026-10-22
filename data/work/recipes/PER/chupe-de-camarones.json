@@ -20,7 +20,7 @@
    "2 diş sarımsak, ezilmiş",
    "30 g aji panca salçası",
    "1 tatlı kaşığı kimyon (2 g)",
-   "1 tatlı kaşığı kurutulmuş kekik (1 g)",
+   "1 tatlı kaşığı kurutulmuş mercanköşk (1 g)",
    "300 g patates, küp doğranmış",
    "150 g mısır taneleri (taze veya dondurulmuş)",
    "80 g beyaz pirinç",
@@ -54,7 +54,7 @@
    "Karidesleri soyun ve kabukları ile baş kısımlarını ayırın. Et kısmını sırtından çizip damarını temizleyin, ardından buzdolabında bekletin.",
    "Kabukları ve başları 1,2 litre suda kaynatın, 20 dakika kısık ateşte pişirin. Süzün ve yaklaşık 1 litre karides suyunu ayırın.",
    "Geniş bir tencerede yağı orta ateşte ısıtın. Soğanı altın rengi alana kadar 6-8 dakika soteleyin.",
-   "Sarımsağı ekleyip 1 dakika daha pişirin. Aji panca salçasını, kimyonu ve kekiği ekleyin, 2 dakika karıştırarak kavurun.",
+   "Sarımsağı ekleyip 1 dakika daha pişirin. Aji panca salçasını, kimyonu ve mercanköşkü ekleyin, 2 dakika karıştırarak kavurun.",
    "Küp patatesleri ve ayırdığınız karides suyunu ekleyin. Patatesler yumuşayana kadar 12-15 dakika kaynatın.",
    "Pirinci ve mısır tanelerini ekleyip 10 dakika daha pişirin.",
    "Buharlaştırılmış sütü ekleyin, tuz ve karabiber ile tatlandırın. Çorbayı kaynamayacak şekilde kısık ateşte ısıtın.",
@@ -79,5 +79,13 @@
   "tr": "Karides suyunu kaynatırken kabukları ezmek suya daha yoğun bir tat verir; süt eklendikten sonra çorbanın kaynamamasına dikkat edin, aksi halde kremalılığı bozulur.",
   "en": "Crushing the shrimp shells while simmering the stock gives a deeper flavour; after adding the milk, do not let the soup boil or it may curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient list and step 4 say 'kekik' (thyme), but the English versions say 'dried oregano'. Oregano (mercanköşk) is the traditional herb in chupe, so the Turkish text is c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

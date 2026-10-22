@@ -36,11 +36,11 @@
    "Somonun iki yüzüne 3 g deniz tuzunu serpin ve 10 dakika bekletin. Kağıt havluyla kurulayın, orta ateşte yağsız tavada her iki tarafında 3-4 dakika, içi tam pişene kadar pişirin.",
    "Somonu soğumaya bırakın, kılçıklarını ayıklayıp çatalla ince ince ayırın.",
    "Umeboshi'lerin çekirdeklerini çıkarın (varsa) ve kabaca doğrayın.",
-   "Nori yapraklarını her birini 4 şerit olacak şekilde kesin, toplam 8 şerit elde edin.",
+   "Nori yapraklarının her birini 4 şerit olacak şekilde kesin, toplam 8 şerit elde edin.",
    "Küçük bir kaseye 2 g tuzu 150 ml su ile karıştırarak eller için tuzlu su hazırlayın.",
-   "Ellerinizi tuzlu suya batırın ve avuçlarınızdan suyu silkeleyin. Bir avuç dolusu (yaklaşık 100 g) sıcak pirinci alın, ortasına parmağınızla bir çukur açın.",
-   "Çukura bir umeboshi (4 kişilik porsiyon için 4 top) ya da yaklaşık 37 g somon ekleyin. Pirinci dolguyu kapatacak şekilde üstten toplayın.",
-   "Topu üçgen ya da yuvarlak şekle getirip avuç içinde hafifçe 3 kez bastırın. Alt kısmının etrafına bir nori şeridi sarın. Kalan 3 top için aynı işlemi tekrarlayın, toplam 8 onigiri elde edin."
+   "Ellerinizi tuzlu suya batırın ve avuçlarınızdan suyu silkeleyin. Bir avuç dolusu (yaklaşık 90 g) sıcak pirinci alın, ortasına parmağınızla bir çukur açın.",
+   "Dört topun ortasına bir umeboshi, diğer dört topun ortasına yaklaşık 37 g somon koyun. Pirinci dolguyu kapatacak şekilde üstten toplayın.",
+   "Topu üçgen ya da yuvarlak şekle getirip avuç içinde hafifçe 3 kez bastırın. Alt kısmının etrafına bir nori şeridi sarın. Kalan pirinç ve dolgularla aynı işlemi tekrarlayarak toplam 8 onigiri elde edin."
   ],
   "en": [
    "Rinse the rice in cold water 3-4 times until the water runs almost clear. Drain in a sieve and let it rest for 30 minutes.",
@@ -50,14 +50,25 @@
    "Remove the pits from the umeboshi if needed and chop them roughly.",
    "Cut each nori sheet into 4 strips, giving you 8 strips in total.",
    "Dissolve 2 g salt in 150 ml water in a small bowl to make salted water for your hands.",
-   "Wet your hands in the salted water and shake off the excess. Take about 100 g of warm rice in your palm and press a shallow well into the centre with your finger.",
-   "Add one umeboshi or about 37 g of flaked salmon to the well. Cover the filling with more rice and shape the ball.",
-   "Form the rice into a triangle or round shape, pressing gently 3 times in your palm. Wrap a strip of nori around the bottom. Repeat for the remaining rice until you have 8 onigiri."
+   "Wet your hands in the salted water and shake off the excess. Take about 90 g of warm rice in your palm and press a shallow well into the centre with your finger.",
+   "Add one umeboshi to four of the rice balls and about 37 g of flaked salmon to the other four. Cover the filling with more rice and shape each ball.",
+   "Form the rice into a triangle or round shape, pressing gently 3 times in your palm. Wrap a strip of nori around the bottom. Repeat with the remaining rice and fillings until you have 8 onigiri."
   ]
  },
  "tip": {
   "tr": "Pirinci sıcakken şekillendirin; soğuk pirinç dağılır. Nori'yi servisten hemen önce sarın ki gevrekliğini korusun.",
   "en": "Shape the rice while it is still warm, as cold rice falls apart. Wrap the nori just before serving so it stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 10 (TR and EN) says to repeat for 'the remaining 3 balls', which gives only 4 onigiri in total, not the 8 stated.",
+   "Step 9 (TR and EN) assigns fillings unclearly: the 4-person note on the umeboshi and the 37 g salmon amount don't say how the 8 balls are split. The intended split is 4 umeboshi and 4 salmon portions ",
+   "Step 8 gives about 100 g per handful, but 8 onigiri from roughly 740 g of cooked rice works out to about 90 g each. The amount is adjusted to match the 8-ball yield.",
+   "Turkish step 6 has awkward phrasing ('Nori yapraklarını her birini'), which is corrected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

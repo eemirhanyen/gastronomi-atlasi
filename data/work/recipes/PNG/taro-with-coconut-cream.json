@@ -31,7 +31,7 @@
    "Taroyu yaklaşık 3 cm'lik küpler halinde kesin.",
    "Büyük bir tencerede 1 L suyu kaynatın, tuzu ekleyin ve taro küplerini içine koyun.",
    "Orta ateşte, taro yumuşayıp bıçakla kolayca delinene kadar yaklaşık 20-25 dakika pişirin.",
-   "Taroyu süzün ve bir kısmını çatalla kabaca ezin; bir kısmını küp halinde bırakın.",
+   "Taroyu süzün ve yarısını çatalla kabaca ezin; kalan yarısını küp halinde bırakın.",
    "Ayrı bir tencerede hindistan cevizi sütünü kısık ateşte ısıtın. Kaynamasına izin vermeyin.",
    "Ezilmiş ve küp taroyu sütün içine ekleyin. Sürekli karıştırarak 5-8 dakika kısık ateşte pişirin; kıvam kremamsı olmalı.",
    "Gerekirse tuzla tadını ayarlayın ve sıcak olarak servis yapın."
@@ -51,5 +51,13 @@
   "tr": "Ham taro kalsiyum oksalat içerdiği için ağız ve cildi tahriş edebilir; mutlaka iyice pişirin ve pişirmeden önce ellerinizi koruyun.",
   "en": "Raw taro contains calcium oxalate, which can irritate the mouth and skin; always cook it thoroughly and protect your hands while peeling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says 'bir kısmını' (a portion) while the English says 'about half'. The amounts disagree, so the Turkish now specifies half."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

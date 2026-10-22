@@ -9,7 +9,7 @@
   "en": "A crisp cracker made from tapioca flour and shrimp, eaten across Indonesia as a snack and served alongside everyday meals and celebrations. Homemade kerupuk is often prepared for family gatherings and festive occasions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 2880,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -37,7 +37,7 @@
   "tr": [
    "Sarımsakları soyun ve karidesle birlikte mutfak robotunda ya da havanda ezerek pürüzsüz bir macun elde edin.",
    "Macunu tuz, şeker ve beyaz biberle karıştırın.",
-   "Tapyokaununu geniş bir kaseye koyun, ortasında bir çukur açın ve kaynar suyu azar azar ekleyerek ilk karışımı yapın.",
+   "Tapyoka ununu geniş bir kaseye koyun, ortasında bir çukur açın ve kaynar suyu azar azar ekleyerek ilk karışımı yapın.",
    "Karides-sarımsak macununu ekleyin ve yumuşak, pürüzsüz bir hamur oluncaya kadar yoğurun. Hamur yapışkan ama şekil verilebilir olmalıdır.",
    "Hamuru 4-5 cm çapında uzun bir silindir haline getirin ve streçle sıkıca sarın.",
    "Silindiri buharda 40-45 dakika pişirin. Hamur tamamen şeffaflaşmalı ve sertleşmelidir.",
@@ -65,5 +65,14 @@
   "tr": "Kerupuğun iyi kabarması için kurutma tamamen tamamlanmalıdır; nemli dilimler kızartmada şişmez ve kauçuk gibi kalır.",
   "en": "Make sure the slices are fully dry before frying; any moisture will stop them from puffing and leave them rubbery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the process takes about 2 days: 40-45 min steaming, an overnight chill, and 1-2 days of drying. The total time is misleading.",
+   "Turkish step 3 has a typo: 'Tapyokaununu' should be 'Tapyoka ununu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

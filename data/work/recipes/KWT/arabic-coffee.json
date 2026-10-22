@@ -29,10 +29,10 @@
  },
  "steps": {
   "tr": [
-   "Kakule kabuklarını bir havanda veya sapla hafifçe ezerek çatlatın; tohumların aromasını açığa çıkarmak için kabukları tamamen toz haline getirmeyin.",
+   "Kakule kabuklarını bir havanda hafifçe ezerek veya bıçağın yassı yüzüyle bastırarak çatlatın; tohumların aromasını açığa çıkarmak için kabukları tamamen toz haline getirmeyin.",
    "Suyu bir cezveye veya kahve demliğine (dallah) koyun ve kaynatın.",
    "Kaynayan suya kaba öğütülmüş kahveyi ekleyin, ateşi kısın ve karışım 5 dakika hafifçe kaynayana kadar pişirin.",
-   "Ocaktan almadan önce ezilmiş kakuleyi ve safranı ekleyin, bir kez kaynatın.",
+   "Ateşten almadan önce ezilmiş kakuleyi ve safranı ekleyin, bir kez kaynatın.",
    "Ateşi kapatın ve kahvenin tortusunun çökmesi için 5 dakika dinlendirin.",
    "Kahveyi küçük fincanlara ince bir süzgeçten geçirerek dökün. Hurmalarla birlikte, sağ elinizle fincanı tutup sunun."
   ],
@@ -40,14 +40,23 @@
    "Lightly crush the cardamom pods in a mortar or with the flat side of a knife to crack them open, without grinding them to powder so the aroma stays clean.",
    "Bring the water to a boil in a dallah (Arabic coffee pot) or a small pot.",
    "Add the coarsely ground coffee to the boiling water, reduce the heat and simmer gently for 5 minutes.",
-   "Off the heat, add the crushed cardamom and saffron, then bring it back to a single gentle boil.",
+   "While still on the heat, add the crushed cardamom and saffron, then bring it back to a single gentle boil.",
    "Remove from the heat and let it rest for 5 minutes so the grounds settle.",
-   "Pour into small cups through a fine strainer, and serve with dates."
+   "Pour into small cups through a fine strainer, and serve with dates held in the right hand."
   ]
  },
  "tip": {
   "tr": "Kahveyi servisten hemen önce kavurup çekin; taze öğütülmüş çekirdek kakuleyle birleşince çok daha canlı bir aroma verir.",
   "en": "Roast and grind the beans just before brewing; freshly ground coffee gives a much brighter aroma when combined with cardamom."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 contradicts between languages: the Turkish says to add cardamom and saffron before removing the pot from the heat, but the English says 'Off the heat'.",
+   "Step 1 Turkish uses 'sapla' (handle) for crushing, while the English specifies the flat side of a knife. The Turkish should match the English method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

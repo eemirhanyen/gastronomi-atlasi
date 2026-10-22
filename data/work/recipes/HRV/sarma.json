@@ -26,7 +26,8 @@
    "30 g domates salçası",
    "1 defne yaprağı",
    "500 ml sıcak su",
-   "Tuz ve karabiber",
+   "1 tatlı kaşığı (5 g) tuz (iç harç için)",
+   "Karabiber",
    "Polenta için: 200 g iri öğütülmüş mısır unu, 800 ml su, 1 tatlı kaşığı (5 g) tuz"
   ],
   "en": [
@@ -43,7 +44,8 @@
    "30 g tomato paste",
    "1 bay leaf",
    "500 ml hot water",
-   "Salt and black pepper",
+   "1 tsp (5 g) salt for the filling",
+   "Black pepper",
    "For the polenta: 200 g coarse cornmeal, 800 ml water, 1 tsp (5 g) salt"
   ]
  },
@@ -52,7 +54,7 @@
    "Pirinci kaynayan suda 8 dakika haşlayın, süzün ve soğumaya bırakın. Pirinç tam pişmemeli, yarı pişmiş olmalı.",
    "Turşu lahananın büyük yapraklarını ayırın, soğuk suyla hafifçe durulayın ve kağıt havluyla kurulayın. Kalan lahanayı kabaca doğrayıp bir kenara koyun.",
    "Yağı geniş bir tavada orta ateşte ısıtın, soğanı ekleyip 6-7 dakika yumuşayana kadar soteleyin. Sarımsağı ekleyip 1 dakika daha pişirin, ocaktan alın.",
-   "Büyük bir kapta kıymayı, haşlanmış pirinci, soteleyen soğan ve sarımsağı, yumurtayı, tatlı ve acı kırmızı biberi, 1 tatlı kaşığı tuz ve bir tutam karabiberle iyice yoğurun. Küp doğranmış pastırmanın yarısını da karışıma ekleyin.",
+   "Büyük bir kapta kıymayı, haşlanmış pirinci, soteleyen soğan ve sarımsağı, yumurtayı, tatlı ve acı kırmızı biberi, 1 tatlı kaşığı tuzu ve bir tutam karabiberi iyice yoğurun. Küp doğranmış pastırmanın yarısını da karışıma ekleyin.",
    "Lahana yapraklarının ortasındaki sert damarı kesin. Her yaprağın içine 2 yemek kaşığı kadar iç harcı koyun, kenarlarını içe doğru katlayıp sıkıca sarın. Toplam 12 sarma hazırlayın.",
    "Kalan doğranmış lahanayı ve kalan pastırmayı geniş ve kalın tabanlı bir tencerenin dibine yayın.",
    "Sarmaları dikişleri aşağı gelecek şekilde, sıkıca yan yana dizin. Üzerlerine kalan lahana yapraklarından varsa birkaç tane koyun.",
@@ -79,5 +81,13 @@
   "tr": "Turşu lahana çok ekşiyse yaprakları soğuk suda biraz daha uzun durulayın; sarmaları kısık ateşte pişirmek, yaprakların dağılmasını önler.",
   "en": "If the sauerkraut is very sour, rinse it for a little longer. Keeping the heat low prevents the rolls from breaking apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt for the filling has no quantity in the ingredient list (\"Tuz ve karabiber\"), but the steps call for 1 tsp salt in the filling. The quantity is added to both language versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

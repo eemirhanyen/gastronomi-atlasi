@@ -23,7 +23,7 @@
    "1 yemek kaşığı ají panca salçası",
    "1/2 çay kaşığı öğütülmüş kimyon",
    "2 yemek kaşığı sıvı yağ",
-   "2 adet haşlanmış yumurta",
+   "4 adet haşlanmış yumurta",
    "8 adet siyah zeytin",
    "4 büyük muz yaprağı",
    "Bağlamak için pamuk ip",
@@ -40,7 +40,7 @@
    "1 tbsp ají panca paste",
    "1/2 tsp ground cumin",
    "2 tbsp vegetable oil",
-   "2 hard-boiled eggs",
+   "4 hard-boiled eggs",
    "8 black olives",
    "4 large banana leaves",
    "Cotton string for tying",
@@ -58,7 +58,7 @@
    "Mısır hamurunu azar azar ekleyin ve her eklemeden sonra çırpın. Achiote'li sıcak suyu da yavaş yavaş dökerek, yumuşak ve yapışkan olmayan bir hamur elde edin. Bir tatlı kaşığı tuz ekleyip tadına bakın.",
    "Bir kase suya bir kaşık hamur atın. Yüzerse hamur hazırdır; batarsa biraz daha çırpın.",
    "Muz yapraklarını temizleyip 30 cm'lik karelere kesin. Yaprakları sıcak suda 1 dakika bekletip yumuşatın ve kurulayın.",
-   "Her yaprağın ortasına yaklaşık 4 yemek kaşığı hamuru yayın. Ortasına bir kaşık tavuk koyun, bir yumurtayı dilimleyip ekleyin ve iki zeytin yerleştirin.",
+   "Her yaprağın ortasına yaklaşık 12 yemek kaşığı (yaklaşık 200 g) hamuru yayın. Ortasına bir kaşık tavuk koyun, bir yumurtayı dilimleyip ekleyin ve iki zeytin yerleştirin.",
    "Yaprağın kenarlarını birbirine kapatın, ardından zarfı kapatır gibi katlayıp bağlayın. Tüm tamalları aynı şekilde hazırlayın.",
    "Buharlı pişirici veya büyük bir tencereye yerleştirilmiş tel kaplamaya su koyun. Tamalları dik şekilde dizin ve kapağını kapatın.",
    "Orta ateşte, su kaynayarak 60-70 dakika buharda pişirin. Gerekirse sıcak su ekleyin.",
@@ -74,7 +74,7 @@
    "Add the corn dough little by little, beating after each addition. Slowly pour in the warm achiote stock to make a soft, smooth dough that does not stick. Add 1 tsp salt and taste.",
    "Drop a spoonful of dough into a bowl of water. If it floats, the dough is ready; if it sinks, beat for a little longer.",
    "Clean the banana leaves and cut them into 30 cm squares. Soften them in hot water for 1 minute, then pat dry.",
-   "Spread about 4 tbsp of dough in the centre of each leaf. Place a spoon of chicken in the middle, add a sliced egg and two olives.",
+   "Spread about 12 tbsp (roughly 200 g) of dough in the centre of each leaf. Place a spoon of chicken in the middle, add a sliced egg and two olives.",
    "Fold the sides of the leaf over the filling, then fold the ends like an envelope and tie with cotton string. Prepare all the tamales the same way.",
    "Add water to a steamer or a large pot fitted with a rack. Stand the tamales upright and cover with a lid.",
    "Steam over medium heat with the water boiling gently for 60-70 minutes. Add hot water as needed.",
@@ -85,5 +85,14 @@
   "tr": "Hamurun hazır olup olmadığını su testiyle kontrol edin; hamur yüzmüyorsa tamal buharda pişince sert ve yoğun olur.",
   "en": "Always do the float test: if the dough sinks, the tamales will turn out dense and heavy after steaming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Egg count does not match the tamales: 2 eggs are listed for 4 tamales, but each tamal is told to get a sliced egg.",
+   "About 4 tbsp of dough per tamal (roughly 60 g) is far too little. The recipe uses about 870 g of dough in total, which is about 200 g per tamal, or roughly 12 tbsp."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -24,7 +24,7 @@
    "60 g soğan, çok ince doğranmış",
    "1 yeşil biber, ince doğranmış",
    "10 g taze kişniş yaprağı, doğranmış",
-   "2 g kara tuz (black salt)",
+   "3 g kara tuz (black salt)",
    "3 g kavrulmuş kimyon tozu",
    "2 g pul biber tozu",
    "40 g tamarind hamuru",
@@ -45,7 +45,7 @@
    "60 g onion, very finely chopped",
    "1 green chili, finely chopped",
    "10 g fresh coriander leaves, chopped",
-   "2 g black salt",
+   "3 g black salt",
    "3 g roasted cumin powder",
    "2 g red chili powder",
    "40 g tamarind pulp",
@@ -59,8 +59,8 @@
   "tr": [
    "İrmik, un, kabartma tozu ve 3 g tuzu bir kapta karıştırın. 90 ml suyu azar azar ekleyip sert ama pürüzsüz bir hamur yoğurun.",
    "Hamuru nemli bir bezle örtüp 30 dakika dinlendirin.",
-   "Tamarind hamurunu 200 ml sıcak suda 10 dakika bekletin, elekten süzün. Üzerine 500 ml soğuk su, jagri, 2 g kara tuz, 1 g kimyon tozu ve yarım tatlı kaşığı pul biber ekleyip karıştırın. Dilimlenmiş naneyi ekleyip buzdolabında soğutun.",
-   "Patatesleri kabuklu haşlayın, soyup ezin. Ezilmiş patatese soğan, yeşil biber, kişniş, kalan kimyon tozu, pul biber, kara tuz ve nohutu ekleyip karıştırın.",
+   "Tamarind hamurunu 200 ml sıcak suda 10 dakika bekletin, elekten süzün. Üzerine 500 ml soğuk su, jagri, 1 g kara tuz, 1 g kimyon tozu ve yarım tatlı kaşığı (yaklaşık 1 g) pul biber ekleyip karıştırın. Doğranmış naneyi ekleyip buzdolabında soğutun.",
+   "Patatesleri kabuklu haşlayın, soyup ezin. Ezilmiş patatese soğan, yeşil biber, kişniş, kalan 2 g kimyon tozu, kalan 1 g pul biber, kalan 2 g kara tuz ve nohutu ekleyip karıştırın.",
    "Dinlenen hamuru ceviz büyüklüğünde parçalara bölün, ince açın ve 5 cm'lik daireler kesin.",
    "Yağı orta-yüksek ateşte yaklaşık 180°C'ye getirin. Hamur dairelerini partiler halinde, şişip kabarana ve altın rengi olana kadar 1-2 dakika kızartın. Kağıt havlu üzerine alın.",
    "Kızarmış pûrileri soğumaya bırakın, üst kısmına küçük bir delik açın. İçine patates-nohut karışımından bir kaşık doldurun.",
@@ -69,8 +69,8 @@
   "en": [
    "In a bowl, mix the semolina, flour, baking soda and 3 g salt. Gradually add the 90 ml water and knead into a firm but smooth dough.",
    "Cover with a damp cloth and rest the dough for 30 minutes.",
-   "Soak the tamarind pulp in 200 ml hot water for 10 minutes, then strain. Add the 500 ml cold water, jaggery, 1 g of the cumin powder, half a teaspoon of red chili powder and 1 g of the black salt. Stir well, add the chopped mint and chill in the refrigerator.",
-   "Boil the potatoes in their skins until tender, then peel and mash. Mix in the onion, green chili, coriander, remaining cumin powder, remaining red chili powder, remaining black salt and the chickpeas.",
+   "Soak the tamarind pulp in 200 ml hot water for 10 minutes, then strain. Add the 500 ml cold water, jaggery, 1 g of the cumin powder, half a teaspoon (about 1 g) of red chili powder and 1 g of the black salt. Stir well, add the chopped mint and chill in the refrigerator.",
+   "Boil the potatoes in their skins until tender, then peel and mash. Mix in the onion, green chili, coriander, remaining 2 g cumin powder, remaining 1 g red chili powder, remaining 2 g black salt and the chickpeas.",
    "Divide the rested dough into walnut-sized pieces. Roll each piece very thin and cut into 5 cm rounds.",
    "Heat the oil to about 180°C over medium-high heat. Fry the dough rounds in batches for 1-2 minutes, until they puff up and turn golden. Drain on kitchen paper.",
    "Once the puris are cool enough to handle, make a small hole in the top of each. Spoon a little of the potato and chickpea filling inside.",
@@ -81,5 +81,16 @@
   "tr": "Puriler kızarır kızarmaz tamamen soğumadan önce içini dolduruyorsanız çıtır kalır; servisten hemen önce doldurup tamarind suyuna batırın ki ıslanıp dağılmasın.",
   "en": "Fill the puris only just before serving and dip them straight away, so they stay crisp and do not turn soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Black salt (kara tuz) totals 2 g, but the tamarind step uses 2 g in Turkish and 1 g in English, leaving none for the filling even though the filling step says 'remaining black salt'.",
+   "Red chili powder: the tamarind step uses half a teaspoon (about 1 g or more) and the filling says 'remaining', but the 2 g total does not leave a sensible remainder. Amounts need to be stated consiste",
+   "Turkish step 3 says 2 g black salt while English says 1 g black salt, so the two versions disagree.",
+   "Turkish step 4 says 'kalan kara tuz' after 2 g was already used, which is inconsistent with the ingredient quantities."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

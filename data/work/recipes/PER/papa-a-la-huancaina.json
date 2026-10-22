@@ -23,7 +23,7 @@
    "120 ml buharlaştırılmış süt (evaporé süt)",
    "60 ml bitkisel yağ",
    "1 diş sarımsak",
-   "1 çay kaşığı tuz, karabiber",
+   "1 çay kaşığı tuz ve bir tutam karabiber",
    "Yarım çay kaşığı tuz (patatesleri haşlamak için)"
   ],
   "en": [
@@ -48,7 +48,7 @@
    "Patatesler ılındığında kabuklarını soyun ve 1 cm kalınlığında dilimleyin.",
    "Sosu hazırlamak için blendere peyniri, ají ezmesini, krakerleri, buharlaştırılmış sütü, yağı, sarımsağı, tuzu ve karabiberi koyun. Pürüzsüz ve kremsi bir kıvam alana kadar çekin; çok koyu olursa birkaç damla süt veya su ekleyin.",
    "Servis tabağına marul yapraklarını yerleştirin, üzerine patates dilimlerini dizin.",
-   "Patateslerin üzerine sosu gezdirin ve yumurta yarımlarını ile siyah zeytinleri ekleyerek hemen servis yapın veya soğutup servis edin."
+   "Patateslerin üzerine sosu gezdirin ve yumurta yarımlarını ve siyah zeytinleri ekleyerek hemen servis yapın veya soğutup servis edin."
   ],
   "en": [
    "Wash the potatoes and boil them in their skins in salted water for about 20 minutes, until a knife slides in easily.",
@@ -63,5 +63,14 @@
   "tr": "Sosun kıvamını ayarlamak için krakerleri sütte kısa süre bekletmek ve sarımsağı çok ince doğramak, daha pürüzsüz ve dengeli bir sonuç verir.",
   "en": "Soak the crackers in the evaporated milk for a few minutes before blending; this helps the sauce emulsify into a smooth, stable cream."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line '1 çay kaşığı tuz, karabiber' gives no pepper quantity and implies 1 tsp of pepper, while the English says a pinch of black pepper.",
+   "Turkish step 6 has a grammar error: 'yumurta yarımlarını ile' should be 'yumurta yarımlarını ve'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

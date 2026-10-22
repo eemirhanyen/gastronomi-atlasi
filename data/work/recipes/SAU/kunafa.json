@@ -17,7 +17,7 @@
    "250 ml su",
    "15 ml limon suyu",
    "5 ml gül suyu",
-   "3 adet hafif ezilmiş karanfil tanesi",
+   "3 adet hafif ezilmiş kakule tanesi",
    "250 g kadayıf (ince tel hamur)",
    "150 g tereyağı, eritilmiş",
    "250 g mozzarella peyniri, rendelenmiş",
@@ -37,17 +37,17 @@
  },
  "steps": {
   "tr": [
-   "Şerbeti hazırlamak için şeker, su, limon suyu ve ezilmiş karanfili orta ateşte kaynatın. Kısık ateşte 8 dakika pişirip ocaktan alın, gül suyunu ekleyin ve soğumaya bırakın.",
-   "Fırını 180°C'ye ısıtın. 24 cm'lik sığ bir fırın kabını tereyağıyla hafifçe yağlayın.",
+   "Şerbeti hazırlamak için şeker, su, limon suyu ve ezilmiş kakuleyi orta ateşte kaynatın. Kısık ateşte 8 dakika pişirip ocaktan alın, gül suyunu ekleyin ve soğumaya bırakın.",
+   "24 cm'lik sığ bir tavayı eritilmiş tereyağıyla hafifçe yağlayın.",
    "Kadayıfı elinizle hafifçe açın, eritilmiş tereyağının yarısını ekleyip iyice karıştırın.",
-   "Kadayıfın yarısını kaba yayın ve hafifçe bastırın. Üzerine rendelenmiş mozzarellayı eşit şekilde serpin.",
+   "Kadayıfın yarısını tavaya yayın ve hafifçe bastırın. Üzerine rendelenmiş mozzarellayı eşit şekilde serpin.",
    "Kalan kadayıfı peynirin üzerine dağıtın, avuçlarınızla hafifçe bastırıp katmanları sıkıştırın.",
-   "Kalan tereyağını üstüne gezdirin. Orta-düşük ateşte 15 dakika pişirin, altı altın rengi olunca kabı çevirin ve kadayıfın üst yüzünü de altın rengi olana kadar 10 dakika daha pişirin. Üzerinde bir kapak veya tabak varsa kullanarak tabağa devirin.",
+   "Kalan tereyağını üstüne gezdirin. Orta-düşük ateşte altın rengi olana kadar 15 dakika pişirin. Bir kapak veya büyük bir tabak yardımıyla künefeyi ters çevirip tekrar tavaya kaydırın ve diğer yüzü altın rengi olana kadar 10 dakika daha pişirin. Ardından servis tabağına alın.",
    "Sıcak künefenin üzerine soğuk şerbeti dengeli bir şekilde dökün, kırılmış fıstıkları serpip hemen servis edin."
   ],
   "en": [
    "To make the syrup, boil the sugar, water, lemon juice and crushed cardamom over medium heat. Simmer for 8 minutes, remove from the heat, stir in the rose water and let it cool.",
-   "Preheat the oven to 180°C. Lightly grease a shallow 24 cm ovenproof pan with a little of the melted butter.",
+   "Lightly grease a shallow 24 cm pan with a little of the melted butter.",
    "Loosen the kataifi with your fingers, add half of the melted butter and toss well.",
    "Spread half of the kataifi in the pan and press lightly. Sprinkle the grated mozzarella evenly over it.",
    "Spread the remaining kataifi over the cheese and press gently with your palms to compact the layers.",
@@ -59,5 +59,15 @@
   "tr": "Şerbeti soğuk, künefeyi sıcak servis edin; bu sıcaklık farkı tatlının çıtır kalmasını sağlar.",
   "en": "Serve the syrup cold and the kunafa hot; this temperature contrast keeps the pastry crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish cardamom ingredient is written as 'karanfil' (clove) while the English says cardamom; should be 'kakule'.",
+   "The oven is preheated to 180°C and the pan is called 'ovenproof', but the method is entirely stovetop, so the oven is never used.",
+   "Turkish step 6 omits the flip-back into the pan and says 'kabı çevirin' (turn the pan) and 'tabağa devirin' (invert onto plate), which contradicts the English method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

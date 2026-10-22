@@ -61,14 +61,14 @@
  },
  "steps": {
   "tr": [
-   "Pirinci bol soğuk suyla 3-4 kez yıkayın, ardından üzerini kaplayacak kadar suyla 30 dakika bekletin. Süzün.",
+   "Pirinci bol soğuk suyla 3-4 kez yıkayın, ardından üzerini yaklaşık 2 cm kaplayacak kadar suyla 30 dakika bekletin. Süzün.",
    "Tavuğu büyük parçalar halinde kesin. Yoğurt, rendelenmiş zencefil, ezilmiş sarımsak (2 diş), zerdeçal, kimyon, karabiber ve 5 g tuzla karıştırıp tavuğa iyice bulaştırın. En az 30 dakika dinlendirin.",
    "Safranı 60 ml çok sıcak suda bekletip rengini açın.",
    "Soğanların yarısını ince doğrayıp 40 ml yağda altın rengi kavurun, kenara ayırın. Kalan soğanı ince kıyıp aynı tencerede yağda yumuşayana kadar soteleyin.",
    "Kalan 2 diş sarımsağı ekleyip 30 saniye kavurun. Marine tavuğu ekleyip orta-yüksek ateşte her tarafı mühürleyin.",
    "Rendelenmiş domatesleri, kakuleyi, tarçın çubuğunu, karanfili, defne yapraklarını ve lomileri (delinmiş halde) ekleyin. Kısık ateşte 15 dakika pişirin, yağ yüzeye çıkmaya başlayınca ateşi kapatın.",
-   "Ayrı bir tencerede 1000 ml suyu kaynatın, 7 g tuz ve tuzlu suya 1 tatlı kaşığı kadar ekleyerek pirinci ekleyin. Pirinç dışı pişmiş ama içi hâlâ hafif sert olunca (yaklaşık 6-7 dakika) süzün.",
-   "Pişmiş tavuğun üzerine pirincin yarısını yayın, üstüne 20 g sade yağın yarısını ve safran suyunun yarısını gezdirin. Kalan pirinci ekleyip safran suyunun ve sade yağın kalanını da dökün.",
+   "Ayrı bir tencerede 1000 ml suyu 7 g tuzla kaynatın, pirinci ekleyin. Pirinç dışı pişmiş ama içi hâlâ hafif sert olunca (yaklaşık 6-7 dakika) süzün.",
+   "Pişmiş tavuğun üzerine pirincin yarısını yayın, üstüne 40 g sade yağın yarısını ve safran suyunun yarısını gezdirin. Kalan pirinci ekleyip safran suyunun ve sade yağın kalanını da dökün.",
    "Kapağı sıkıca kapatın ve kısık ateşte 20-25 dakika demlendirin. Ateşi kapatıp 10 dakika bekletin.",
    "Servisten önce kızartılmış soğanların yarısını üzerine serpin. Tavuğu ve pirinci ayrı ayrı, kıyı kenarından alarak servis yapın. Kalan soğanla süsleyin."
   ],
@@ -89,5 +89,15 @@
   "tr": "Pirinç suyunu tamamen süzmek ve buharda pişirme aşamasında kapağı sıkıca kapatmak, pilavın tane tane ve dengeli olmasını sağlar.",
   "en": "Drain the rice thoroughly and keep the lid tightly sealed during steaming so the grains stay separate and fluffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says 20 g of ghee is split, but the ingredient list calls for 40 g. Only 20 g would be used, which contradicts the English step and the ingredient total.",
+   "Turkish step 7 contains an unclear addition, \"tuzlu suya 1 tatlı kaşığı kadar ekleyerek\" (adding a teaspoon of something to the salted water). It is not in the English version and not in the ingredien",
+   "Turkish step 1 omits the water depth (about 2 cm) given in the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }
