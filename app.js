@@ -49,7 +49,7 @@
   };
   var CAT_ICON = { soup: "🍲", main: "🍛", side: "🥔", salad: "🥗", bread: "🍞", pastry: "🥟", dessert: "🍰", drink: "🍵", snack: "🥨", breakfast: "🍳", sauce: "🫙", street_food: "🌯" };
   // Puan renkleri: düşük kırmızı, orta sarı, yüksek yeşil
-  var STOPS = [[30, [192, 57, 43]], [50, [226, 120, 50]], [68, [233, 196, 70]], [84, [130, 186, 80]], [97, [38, 150, 85]]];
+  var STOPS = [[15, [192, 57, 43]], [35, [226, 120, 50]], [55, [233, 196, 70]], [75, [130, 186, 80]], [95, [38, 150, 85]]];
   function scoreRGB(v) {
     if (v <= STOPS[0][0]) return STOPS[0][1];
     for (var i = 1; i < STOPS.length; i++) {
@@ -152,7 +152,7 @@
   }
   function legend() {
     var g = [];
-    for (var v = 20; v <= 100; v += 10) g.push(scoreColor(v) + " " + ((v - 20) / 80 * 100).toFixed(0) + "%");
+    for (var v = 15; v <= 100; v += 5) g.push(scoreColor(v) + " " + ((v - 15) / 85 * 100).toFixed(0) + "%");
     function cb(k, label, extra) {
       return '<label class="ly"><input type="checkbox" data-ly="' + k + '"' + (LY[k] ? " checked" : "") + ">" + (extra || "") + "<span>" + label + "</span></label>";
     }
@@ -165,7 +165,7 @@
       '<details class="lg" open><summary>' + esc(t("layers")) + "</summary>" +
       cb("score", esc(t("lyScore"))) +
       '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + g.join(",") + ')"></div>' +
-      '<div class="lg-ticks"><span>20</span><span>60</span><span>100</span></div><div class="lg-s">' + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</div></div>" +
+      '<div class="lg-ticks"><span>15</span><span>55</span><span>100</span></div><div class="lg-s">' + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</div></div>" +
       '<div class="lg-h">' + esc(t("michelin")) + "</div>" + mrow(3) + mrow(2) + mrow(1) + mrow("b") +
       '<div class="lg-h">' + esc(t("lyText")) + "</div>" +
       [["names", "txNames"], ["spice", "txSpice"], ["sauce", "txSauce"], ["off", "txOff"]].map(function (o) {
