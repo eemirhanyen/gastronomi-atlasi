@@ -58,3 +58,18 @@ plan: 1 ülke
   [plan] batch msgbatch_01NoxnLKFa38ucdZww6e2nXv: 1 istek
   [plan] tamam: 1 yanıt, başarısız 0
 Token: giriş 582, çıkış 4890 (model claude-haiku-5-5)
+=== recipes
+recipes: 47 tarif
+  [recipes] batch msgbatch_016f7NgEx1tKHjkF11cZAtYR: 47 istek
+    ITA_sfogliatella: max_tokens (3500)
+    ITA_arancini: max_tokens (3500)
+    ITA_suppl: max_tokens (3500)
+    TUR_stuffed-vegetables: max_tokens (3500)
+    TUR_i-skender-kebab: max_tokens (3500)
+    TUR_boza: max_tokens (3500)
+    ITA_osso-buco: max_tokens (3500)
+    ITA_panettone: max_tokens (3500)
+    TUR_turkish-breakfast-spread: max_tokens (3500)
+  [recipes] tamam: 38 yanıt, başarısız 9
+  tarif TUR_lentil-soup geçersiz: Expecting ',' delimiter: line 1 column 3519 (char 3518)
+Token: giriş 17450, çıkış 132567 (model claude-haiku-5-5)
