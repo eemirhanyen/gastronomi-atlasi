@@ -4,6 +4,7 @@ Gastronomi atlası içerik hattı. Aşamalar sırayla çalışır, her biri yar�
 kalırsa tekrar çalıştırıldığında yalnızca eksikleri tamamlar.
 
   score    Her ülkeye 0-100 mutfak puanı ve gerekçe (Claude, bölge bölge 20'şerli)
+  flavors  Her ülkenin sevilen baharatları ve sosları (baharat/sos haritası)
   plan     Her ülke için simge ürünler ve yemek listesi (Claude, toplu istek)
   recipes  Her yemek için Türkçe + İngilizce tarif (Claude, toplu istek)
   review   Her tarifi ikinci bir AI geçişi kontrol eder, hatalıysa düzeltir
@@ -430,12 +431,54 @@ def stage_score():
     log(f"  puanlanan: {len(done)}")
 
 
+# ------------------------------------------------------------------ 5c) flavors (baharat ve sos haritası)
+FLAVOR_SYSTEM = """For a fun world food atlas for gastronomy students, list for each given country:
+- "spices": the 3-5 spices, herbs or spice blends most loved and characteristic in its home cooking (e.g. Türkiye: pul biber, sumac, cumin, mint, isot).
+- "sauces": the 3-5 most characteristic sauces, condiments, dips or pastes (e.g. Türkiye: tomato paste/salça, garlic yoghurt, tahini sauce, pomegranate molasses).
+Order each list from most to least characteristic. For each item give "en" and "tr" (natural Turkish name; keep the original word if Turkish has none) and
+"desc_en"/"desc_tr": a very short phrase on how it is used (max 10 words).
+Reply with ONLY JSON: {"ISO3": {"spices": [...], "sauces": [...]}, ...} covering every country given."""
+
+
+def stage_flavors():
+    path = os.path.join(WORK, "flavors.json")
+    done = jload(path, {})
+    todo = sorted((t for t in targets() if t not in done),
+                  key=lambda k: (REF[k].get("region") or "", REF[k].get("sub") or "", REF[k]["name"]))
+    log(f"flavors: {len(todo)} ülke")
+    if not todo:
+        return
+    reqs = []
+    for k in range(0, len(todo), 10):
+        part = todo[k:k + 10]
+        reqs.append(req(f"flav{k}", FLAVOR_SYSTEM, "\n".join(f"{i} {REF[i]['name']}" for i in part), 8000))
+
+    def item(x):
+        if not isinstance(x, dict) or not x.get("en"):
+            return None
+        return {"name": {"tr": str(x.get("tr") or x["en"])[:60], "en": str(x["en"])[:60]},
+                "desc": {"tr": str(x.get("desc_tr", ""))[:120], "en": str(x.get("desc_en", ""))[:120]}}
+    for _, text in run_batch(reqs, "flavors").items():
+        try:
+            for iso, v in extract_json(text).items():
+                if iso in REF and isinstance(v, dict):
+                    sp = [y for y in map(item, v.get("spices") or []) if y][:5]
+                    sa = [y for y in map(item, v.get("sauces") or []) if y][:5]
+                    if sp or sa:
+                        done[iso] = {"spices": sp, "sauces": sa}
+        except Exception as e:
+            log(f"  flavors çözülemedi: {e}")
+    jsave(path, done, pretty=True)
+    log(f"  tamamlanan: {len(done)}")
+
+
 # ------------------------------------------------------------------ 6) build
 def stage_build():
     fao = jload(os.path.join(DATA, "fao.json"), {})
     items_tr = jload(os.path.join(WORK, "items_tr.json"), {})
     images = jload(os.path.join(WORK, "images.json"), {})
     scores = jload(os.path.join(WORK, "scores.json"), {})
+    flavors = jload(os.path.join(WORK, "flavors.json"), {})
     out_dir = os.path.join(DATA, "countries")
     os.makedirs(out_dir, exist_ok=True)
     index, search = [], []
@@ -454,7 +497,8 @@ def stage_build():
         if not plan and not prod and not sc:
             continue
         c = {"iso3": iso, "iso2": REF[iso]["iso2"], "name": REF[iso]["name"], "region": REF[iso].get("region"),
-             "score": sc, "signature": [], "production": None, "exports": None, "recipes": []}
+             "score": sc, "spices": (flavors.get(iso) or {}).get("spices", []),
+             "sauces": (flavors.get(iso) or {}).get("sauces", []), "signature": [], "production": None, "exports": None, "recipes": []}
         if prod:
             c["production"] = {"year": prod["year"], "unit": "t", "items": [{"name": item(k), "value": v} for k, v in prod["items"]]}
         if exp:
@@ -474,7 +518,8 @@ def stage_build():
                                      "image": img(d.get("wiki_en"))})
                 search.append([iso, d["id"], r["name"]["tr"], r["name"]["en"], r.get("native") or ""])
         jsave(os.path.join(out_dir, iso + ".json"), c)
-        index.append({"iso3": iso, "iso2": REF[iso]["iso2"], "region": REF[iso].get("region"), "score": sc["score"] if sc else None, "recipes": len(c["recipes"]), "signature": len(c["signature"]),
+        index.append({"iso3": iso, "iso2": REF[iso]["iso2"], "region": REF[iso].get("region"), "score": sc["score"] if sc else None,
+                      "spice": c["spices"][0]["name"] if c["spices"] else None, "sauce": c["sauces"][0]["name"] if c["sauces"] else None, "recipes": len(c["recipes"]), "signature": len(c["signature"]),
                       "top": c["signature"][0]["name"] if c["signature"] else None})
     jsave(os.path.join(DATA, "index.json"), {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                                             "model": MODEL, "fao": {k: fao.get(k + "_meta") for k in ("production", "exports")},
@@ -484,14 +529,14 @@ def stage_build():
 
 
 STAGES = {"plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
-          "items": stage_items, "images": stage_images, "score": stage_score, "build": stage_build}
+          "items": stage_items, "images": stage_images, "score": stage_score, "flavors": stage_flavors, "build": stage_build}
 
 
 def main():
     names = sys.argv[1:] or ["all"]
     if names == ["all"]:
-        names = ["score", "plan", "recipes", "review", "items", "images", "build"]
-    need_api = any(n in ("score", "plan", "recipes", "review", "items") for n in names)
+        names = ["score", "flavors", "plan", "recipes", "review", "items", "images", "build"]
+    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items") for n in names)
     if need_api and not os.environ.get("ANTHROPIC_API_KEY"):
         log("HATA: ANTHROPIC_API_KEY yok"); sys.exit(1)
     for n in names:

@@ -1,0 +1,23 @@
+name: Michelin verisi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 4 3 * *"   # ayda bir
+permissions:
+  contents: write
+concurrency: data-write
+jobs:
+  michelin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/fetch_michelin.py
+      - name: Kaydet
+        run: |
+          git config user.name "atlas-bot"; git config user.email "atlas-bot@users.noreply.github.com"
+          git add data/michelin.json
+          git diff --cached --quiet || git commit -m "Michelin verisi güncellendi"
+          git pull --rebase && git push

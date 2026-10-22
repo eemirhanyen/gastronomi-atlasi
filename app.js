@@ -14,6 +14,14 @@
       aiNoteUnrev: "Bu tarif yapay zekâ tarafından yazıldı, henüz kontrol edilmedi.",
       photo: "Fotoğraf", noPhoto: "Bu yemek için serbest lisanslı fotoğraf bulunamadı.", searchEmpty: "Sonuç yok.", country: "Ülke",
       loadErr: "Veri yüklenemedi.", scoreTitle: "Mutfağın dünyadaki etkisi ve tanınırlığı", scoreAI: "AI değerlendirmesi, 0–100", noScore: "Puan yok",
+      layers: "Katmanlar", lyScore: "Mutfak puanı renkleri", lyLabels: "Ülke adları", michelin: "Michelin Rehberi",
+      star3: "3 yıldız", star2: "2 yıldız", star1: "1 yıldız", bib: "Bib Gourmand", bibNote: "uygun fiyatlı, iyi yemek",
+      michelinSrc: "Kaynak: Michelin Rehberi verisinden derlenen açık veri seti (resmi değil)", openGuide: "Michelin Rehberi'nde gör",
+      michelinIn: "Michelin yıldızlı restoranlar", noMichelin: "Bu ülkede Michelin Rehberi'nde yıldızlı restoran yok ya da rehber bu ülkeyi kapsamıyor.",
+      more: "+{n} restoran daha (küredeki katmanda)", google: "Google'da yüksek puanlı restoranlar", googleNote: "En az {n} yorumu olanlar arasından, Google'ın bu ülke için döndürdüğü sonuçlara göre.",
+      googleNone: "Şu an gösterilemiyor.", reviews: "{n} yorum", loading: "Yükleniyor…",
+      lyText: "Küredeki yazılar", txNames: "Ülke adları", txSpice: "Baharat haritası", txSauce: "Sos haritası", txOff: "Kapalı",
+      spices: "Sevilen baharatlar", sauces: "Sevilen soslar",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
     },
     en: {
@@ -28,6 +36,14 @@
       aiNoteUnrev: "This recipe was written by AI and has not been checked yet.",
       photo: "Photo", noPhoto: "No freely licensed photo found for this dish.", searchEmpty: "No results.", country: "Country",
       loadErr: "Could not load data.", scoreTitle: "Global influence and recognition of the cuisine", scoreAI: "AI assessment, 0–100", noScore: "No score",
+      layers: "Layers", lyScore: "Cuisine score colours", lyLabels: "Country names", michelin: "Michelin Guide",
+      star3: "3 stars", star2: "2 stars", star1: "1 star", bib: "Bib Gourmand", bibNote: "good food, good value",
+      michelinSrc: "Source: open dataset compiled from the Michelin Guide (unofficial)", openGuide: "View in the Michelin Guide",
+      michelinIn: "Michelin-starred restaurants", noMichelin: "No Michelin-starred restaurants here, or the Guide does not cover this country.",
+      more: "+{n} more (see the globe layer)", google: "Highly rated on Google", googleNote: "Among places with at least {n} reviews, from Google's results for this country.",
+      googleNone: "Not available right now.", reviews: "{n} reviews", loading: "Loading…",
+      lyText: "Text on the globe", txNames: "Country names", txSpice: "Spice map", txSauce: "Sauce map", txOff: "Off",
+      spices: "Favourite spices", sauces: "Favourite sauces",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
     }
   };
@@ -50,6 +66,11 @@
   }
 
   var lang = "tr", globe, labelEls = [], labelRank = 2;
+  var LY = { score: true, text: "names", m3: false, m2: false, m1: false, mb: false };
+  try { Object.assign(LY, JSON.parse(localStorage.getItem("ga-layers") || "{}")); } catch (e) { /* yok */ }
+  // Puan renkleriyle (kırmızı-sarı-yeşil) karışmasın diye beyaz-mavi tonlar
+  var MCOL = { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff" };
+  var MKEY = { 3: "m3", 2: "m2", 1: "m1", b: "mb" };
   var S = { geo: null, index: {}, search: [], cache: {}, selected: null, hover: null, country: null, filter: "", cat: "" };
 
   // ------------------------------------------------------------ yardımcılar
@@ -122,7 +143,7 @@
     Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-ph]"), function (el) { el.placeholder = t(el.dataset.i18nPh); });
     Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-aria]"), function (el) { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
     Array.prototype.forEach.call(document.querySelectorAll(".lang button"), function (b) { b.classList.toggle("on", b.dataset.lang === l); });
-    labelEls.forEach(function (x) { x[0].textContent = cname(x[1].properties.iso); });
+    updateLabels();
     updateStats();
     legend();
     if (S.country) renderPanel();
@@ -132,9 +153,110 @@
   function legend() {
     var g = [];
     for (var v = 20; v <= 100; v += 10) g.push(scoreColor(v) + " " + ((v - 20) / 80 * 100).toFixed(0) + "%");
-    document.getElementById("legend").innerHTML = '<div class="lg-t">' + esc(t("scoreTitle")) + '</div><div class="lg-bar" style="background:linear-gradient(90deg,' +
-      g.join(",") + ')"></div><div class="lg-ticks"><span>20</span><span>60</span><span>100</span></div><div class="lg-s">' + esc(t("scoreAI")) +
-      '</div><div class="lg-none"><i></i>' + esc(t("noScore")) + "</div>";
+    function cb(k, label, extra) {
+      return '<label class="ly"><input type="checkbox" data-ly="' + k + '"' + (LY[k] ? " checked" : "") + ">" + (extra || "") + "<span>" + label + "</span></label>";
+    }
+    var cnt = S.michelinCount || {};
+    function mrow(a) {
+      var k = MKEY[a];
+      return cb(k, esc(t(a === "b" ? "bib" : "star" + a)) + (cnt[a] ? ' <em>' + cnt[a].toLocaleString(lang) + "</em>" : ""), '<i class="mdot" style="background:' + MCOL[a] + '"></i>');
+    }
+    document.getElementById("legend").innerHTML =
+      '<details class="lg" open><summary>' + esc(t("layers")) + "</summary>" +
+      cb("score", esc(t("lyScore"))) +
+      '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + g.join(",") + ')"></div>' +
+      '<div class="lg-ticks"><span>20</span><span>60</span><span>100</span></div><div class="lg-s">' + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</div></div>" +
+      '<div class="lg-h">' + esc(t("michelin")) + "</div>" + mrow(3) + mrow(2) + mrow(1) + mrow("b") +
+      '<div class="lg-h">' + esc(t("lyText")) + "</div>" +
+      [["names", "txNames"], ["spice", "txSpice"], ["sauce", "txSauce"], ["off", "txOff"]].map(function (o) {
+        return '<label class="ly"><input type="radio" name="lytext" data-tx="' + o[0] + '"' + (LY.text === o[0] ? " checked" : "") + "><span>" +
+          (o[0] === "spice" ? "🌶️ " : o[0] === "sauce" ? "🥣 " : "") + esc(t(o[1])) + "</span></label>";
+      }).join("") + "</details>";
+    Array.prototype.forEach.call(document.querySelectorAll("[data-ly]"), function (x) {
+      x.addEventListener("change", function () {
+        LY[x.dataset.ly] = x.checked;
+        try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
+        applyLayers();
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-tx]"), function (x) {
+      x.addEventListener("change", function () {
+        LY.text = x.dataset.tx;
+        try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
+        updateLabels();
+      });
+    });
+  }
+  function labelText(f) {
+    var c = S.index[f.properties.iso];
+    if (LY.text === "spice") return c && c.spice ? L(c.spice) : "";
+    if (LY.text === "sauce") return c && c.sauce ? L(c.sauce) : "";
+    return cname(f.properties.iso);
+  }
+  function updateLabels() {
+    labelEls.forEach(function (x) {
+      x[0].textContent = labelText(x[1]);
+      x[0].classList.toggle("flav", LY.text === "spice" || LY.text === "sauce");
+      applyLabel(x[0]);
+    });
+  }
+  function applyLayers() {
+    if (!globe) return;
+    labelEls.forEach(function (x) { applyLabel(x[0]); });
+    refresh();
+    var want = LY.m3 || LY.m2 || LY.m1 || LY.mb;
+    if (want && !S.michelin) { loadMichelin().then(applyLayers); return; }
+    var pts = !S.michelin ? [] : S.michelin.filter(function (m) { return LY[MKEY[m[5]]]; });
+    S.points = pts;
+    globe.pointsData(pts);
+    if (!pts.length) hideMcard();
+  }
+  function loadMichelin() {
+    if (S.mLoading) return S.mLoading;
+    S.mLoading = getJSON("data/michelin.json").then(function (d) {
+      S.michelin = d.items;
+      S.michelinCount = {};
+      d.items.forEach(function (m) { S.michelinCount[m[5]] = (S.michelinCount[m[5]] || 0) + 1; });
+      legend();
+      return d.items;
+    }).catch(function () { S.michelin = []; showError(t("loadErr")); return []; });
+    return S.mLoading;
+  }
+
+  // Michelin noktası: tıklanan konuma en yakın görünür nokta
+  function nearestPoint(lat, lng) {
+    if (!S.points || !S.points.length) return null;
+    var alt = globe.pointOfView().altitude, thr = Math.max(0.15, alt * 0.9), best = null, bd = thr * thr;
+    var cl = Math.cos(lat * Math.PI / 180);
+    S.points.forEach(function (m) {
+      var dy = m[3] - lat, dx = (((m[4] - lng) + 540) % 360 - 180) * cl, d = dx * dx + dy * dy;
+      if (d < bd) { bd = d; best = m; }
+    });
+    return best;
+  }
+  function stars(a) { return a === "b" ? "Bib" : new Array(a + 1).join("★"); }
+  function showMcard(m) {
+    var c = document.getElementById("mcard");
+    c.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button>' +
+      '<div class="mc-a" style="color:' + MCOL[m[5]] + '">' + (m[5] === "b" ? esc(t("bib")) : stars(m[5]) + " " + esc(t("star" + m[5]))) + "</div>" +
+      "<b>" + esc(m[0]) + "</b><span>" + esc([m[1], m[2] ? cname(m[2]) : ""].filter(Boolean).join(", ")) + "</span>" +
+      (m[6] ? "<span>" + esc(m[6]) + "</span>" : "") +
+      (m[7] ? '<a href="' + esc(m[7]) + '" target="_blank" rel="noopener">' + esc(t("openGuide")) + " ↗</a>" : "");
+    c.hidden = false;
+    c.querySelector(".close").addEventListener("click", hideMcard);
+    S.mSel = m;
+    globe.pointsData(S.points);
+  }
+  function hideMcard() {
+    var c = document.getElementById("mcard");
+    if (c) c.hidden = true;
+    if (S.mSel) { S.mSel = null; if (globe && S.points) globe.pointsData(S.points); }
+  }
+  function clickAt(coords, f) {
+    var m = coords && nearestPoint(coords.lat, coords.lng);
+    if (m) { showMcard(m); return; }
+    hideMcard();
+    if (f) selectCountry(f.properties.iso, true); else closePanel();
   }
   function updateStats() {
     var c = 0, r = 0;
@@ -146,11 +268,11 @@
   function has(f) { var c = S.index[f.properties.iso]; return !!(c && (c.recipes || c.signature || c.score != null)); }
   function capColor(f) {
     var c = S.index[f.properties.iso];
-    if (!c || c.score == null) return f === S.hover || f === S.selected ? "#4a3d33" : "#2b231d";
+    if (!c || c.score == null || !LY.score) return f === S.selected ? "#6a5442" : f === S.hover ? "#4a3d33" : LY.score ? "#2b231d" : "#3a2e25";
     return scoreColor(c.score, f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0);
   }
   function applyLabel(el) {
-    el.style.visibility = el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
+    el.style.visibility = LY.text !== "off" && el.textContent && el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
   }
   function initGlobe() {
     var el = document.getElementById("globe");
@@ -168,8 +290,17 @@
         return '<div class="tip">' + flag(iso2Of(f.properties.iso)) + " " + esc(cname(f.properties.iso)) + sub + "</div>";
       })
       .onPolygonHover(function (f) { S.hover = f; el.style.cursor = f ? "pointer" : "grab"; refresh(); })
-      .onPolygonClick(function (f) { selectCountry(f.properties.iso, true); })
-      .onGlobeClick(function () { closePanel(); })
+      .onPolygonClick(function (f, ev, coords) { clickAt(coords, f); })
+      .onGlobeClick(function (coords) { clickAt(coords, null); })
+      .pointsData([])
+      .pointLat(function (m) { return m[3]; })
+      .pointLng(function (m) { return m[4]; })
+      .pointColor(function (m) { return m === S.mSel ? "#ff2d55" : MCOL[m[5]]; })
+      .pointAltitude(function (m) { return m === S.mSel ? 0.03 : m[5] === "b" ? 0.004 : 0.004 + m[5] * 0.002; })
+      .pointRadius(function (m) { return m === S.mSel ? 0.14 : m[5] === "b" ? 0.06 : 0.06 + m[5] * 0.02; })
+      .pointResolution(6)
+      .pointsMerge(true)
+      .pointsTransitionDuration(0)
       .polygonsTransitionDuration(200)
       .htmlElementsData(S.geo.features)
       .htmlLat(function (f) { return f.properties.ly; })
@@ -178,7 +309,7 @@
       .htmlElement(function (f) {
         var d = document.createElement("div");
         d.className = "clabel r" + Math.min(6, f.properties.rank || 6);
-        d.textContent = cname(f.properties.iso);
+        d.textContent = labelText(f);
         d.dataset.rank = f.properties.rank || 9;
         labelEls.push([d, f]);
         return d;
@@ -274,6 +405,14 @@
           (s.native && s.native !== L(s.name) ? "<i>" + esc(s.native) + "</i>" : "") + "<p>" + esc(L(s.desc)) + "</p></div></div>";
       }).join("") + "</div></section>";
     }
+    function flav(list, key, icon) {
+      if (!list || !list.length) return "";
+      return '<section class="sec"><h3>' + esc(t(key)) + '</h3><div class="flv">' + list.map(function (x) {
+        return '<div class="flv-i"><span>' + icon + "</span><div><b>" + esc(L(x.name)) + "</b>" + (L(x.desc) ? "<p>" + esc(L(x.desc)) + "</p>" : "") + "</div></div>";
+      }).join("") + "</div></section>";
+    }
+    h += flav(c.spices, "spices", "🌶️") + flav(c.sauces, "sauces", "🥣");
+    h += '<section class="sec" id="msec"></section><section class="sec" id="gsec"></section>';
     h += '<section class="sec"><h3>' + esc(t("production")) + "</h3>" + bars(c.production, "prod") + "</section>";
     h += '<section class="sec"><h3>' + esc(t("exports")) + "</h3>" + bars(c.exports, "exp") + "</section>";
     h += '<section class="sec" id="rsec"><h3>' + esc(t("recipes")) + "<small>" + esc(t("recipesN", { n: (c.recipes || []).length })) + "</small></h3>";
@@ -299,6 +438,57 @@
       });
     });
     renderList();
+    renderMichelin(c.iso3);
+    renderGoogle(c.iso3);
+  }
+
+  function renderMichelin(iso) {
+    var box = document.getElementById("msec");
+    if (!box) return;
+    loadMichelin().then(function (all) {
+      if (!S.country || S.country.iso3 !== iso) return;
+      var list = all.filter(function (m) { return m[2] === iso && m[5] !== "b"; });
+      var h = "<h3>" + esc(t("michelinIn")) + "<small>" + esc(t("michelin")) + "</small></h3>";
+      if (!list.length) { box.innerHTML = h + '<div class="nodata">' + esc(t("noMichelin")) + "</div>"; return; }
+      var cnt = { 3: 0, 2: 0, 1: 0 };
+      list.forEach(function (m) { cnt[m[5]]++; });
+      h += '<div class="mcount">' + [3, 2, 1].filter(function (a) { return cnt[a]; }).map(function (a) {
+        return '<span style="--c:' + MCOL[a] + '">' + stars(a) + " <b>" + cnt[a] + "</b></span>";
+      }).join("") + "</div>";
+      h += '<div class="mlist">' + list.slice(0, 12).map(function (m, i) {
+        return '<button class="mrow" data-i="' + i + '"><i style="color:' + MCOL[m[5]] + '">' + stars(m[5]) + "</i><span><b>" + esc(m[0]) + "</b>" +
+          esc([m[1], m[6]].filter(Boolean).join(" · ")) + "</span></button>";
+      }).join("") + "</div>" + (list.length > 12 ? '<div class="src">' + esc(t("more", { n: list.length - 12 })) + "</div>" : "") +
+        '<div class="src">' + esc(t("michelinSrc")) + "</div>";
+      box.innerHTML = h;
+      Array.prototype.forEach.call(box.querySelectorAll(".mrow"), function (b) {
+        b.addEventListener("click", function () {
+          var m = list[+b.dataset.i];
+          var k = MKEY[m[5]];
+          if (!LY[k]) { LY[k] = true; legend(); applyLayers(); }
+          globe.pointOfView({ lat: m[3] - (window.innerWidth <= 720 ? 1.5 : 0), lng: m[4] + (window.innerWidth <= 720 ? 0 : 2.5), altitude: 0.35 }, 1200);
+          showMcard(m);
+        });
+      });
+    });
+  }
+
+  var gCache = {};
+  function renderGoogle(iso) {
+    var box = document.getElementById("gsec");
+    if (!box) return;
+    var head = "<h3>" + esc(t("google")) + "</h3>";
+    function draw(d) {
+      if (!S.country || S.country.iso3 !== iso) return;
+      if (!d || !d.places || !d.places.length) { box.innerHTML = head + '<div class="nodata">' + esc(t("googleNone")) + "</div>"; return; }
+      box.innerHTML = head + '<div class="glist">' + d.places.map(function (p) {
+        return '<a class="grow" href="' + esc(p.url) + '" target="_blank" rel="noopener"><span class="gr">' + p.rating.toFixed(1) + " ★</span><span><b>" +
+          esc(p.name) + "</b>" + esc(p.address || "") + " · " + esc(t("reviews", { n: p.count.toLocaleString(lang) })) + "</span></a>";
+      }).join("") + '</div><div class="src">' + esc(t("googleNote", { n: d.minReviews })) + '</div><div class="gattr">Google Maps</div>';
+    }
+    if (gCache[iso]) { draw(gCache[iso]); return; }
+    box.innerHTML = head + '<div class="nodata">' + esc(t("loading")) + "</div>";
+    getJSON("api/places?iso=" + iso).then(function (d) { gCache[iso] = d; draw(d); }).catch(function () { draw(null); });
   }
 
   function renderList() {
@@ -455,6 +645,7 @@
       bind();
       initGlobe();
       setLang(lang);
+      applyLayers();
       fromHash();
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
   }
