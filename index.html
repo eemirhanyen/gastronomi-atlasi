@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dünya Gastronomi Atlası</title>
+  <meta name="description" content="Ülkelerin simge lezzetleri, tarım ürünleri, ihracatı ve fotoğraflı yemek tarifleri, bir dünya küresi üzerinde.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="globe" aria-label="Dünya küresi"></div>
+
+  <header class="brand">
+    <h1 data-i18n="title">Dünya Gastronomi Atlası</h1>
+    <p data-i18n="subtitle">Ülkelerin mutfağı, tarlası ve sofrası</p>
+    <div class="brand-row">
+      <div class="lang" role="group" aria-label="Dil / Language">
+        <button type="button" data-lang="tr">TR</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <span class="stats" id="stats"></span>
+    </div>
+  </header>
+
+  <div class="search">
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="m21 21-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"/></svg>
+    <input id="q" type="search" autocomplete="off" data-i18n-ph="searchPh" placeholder="Yemek ya da ülke ara…">
+    <div class="results" id="results" hidden></div>
+  </div>
+
+  <div class="hint" id="hint" data-i18n="hint">Bir ülkeye tıkla</div>
+
+  <aside class="panel" id="panel" aria-hidden="true">
+    <button class="close" id="close" data-i18n-aria="close" aria-label="Kapat">×</button>
+    <div id="panel-body"></div>
+  </aside>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-back" data-close></div>
+    <article class="recipe" role="dialog" aria-modal="true" aria-labelledby="r-title">
+      <button class="close" data-close data-i18n-aria="close" aria-label="Kapat">×</button>
+      <div id="recipe-body"></div>
+    </article>
+  </div>
+
+  <div class="error" id="error" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
