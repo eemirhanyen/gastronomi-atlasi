@@ -19,11 +19,13 @@
    "1 çay kaşığı tuz (ete)",
    "1/2 çay kaşığı karabiber",
    "1/2 çay kaşığı kimyon",
-   "1 yemek kaşığı zeytinyağı",
+   "1 yemek kaşığı zeytinyağı (ete)",
    "600 g olgun domates, rendelenmiş",
    "1 yeşil sivri biber, ince doğranmış",
    "1 yemek kaşığı salça",
    "1/2 çay kaşığı tuz (sos için)",
+   "1/2 yemek kaşığı zeytinyağı (sos için)",
+   "1/2 yemek kaşığı zeytinyağı (sotelemek için)",
    "2 adet pide ekmeği (yaklaşık 400 g)",
    "300 g sade yoğurt",
    "100 g tereyağı",
@@ -37,11 +39,13 @@
    "1 tsp salt (for the meat)",
    "1/2 tsp ground black pepper",
    "1/2 tsp ground cumin",
-   "1 tbsp olive oil",
+   "1 tbsp olive oil (for the meat)",
    "600 g ripe tomatoes, grated",
    "1 green sweet pepper, finely chopped",
    "1 tbsp tomato paste",
    "1/2 tsp salt (for the sauce)",
+   "1/2 tbsp olive oil (for the sauce)",
+   "1/2 tbsp olive oil (for searing)",
    "2 pide breads (about 400 g)",
    "300 g plain yogurt",
    "100 g butter",
@@ -55,7 +59,7 @@
    "Pide ekmeklerini 2 cm'lik kareler halinde doğrayın ve bir tepsiye yayın. Fırını 180 °C'ye ısıtıp ekmekleri 5 dakika kızartın.",
    "Sosu hazırlamak için geniş bir tavada yarım yemek kaşığı zeytinyağını ısıtın, doğranmış yeşil biberi 3 dakika soteleyin.",
    "Rendelenmiş domatesi, salçayı ve yarım çay kaşığı tuzu ekleyin. Orta ateşte, arada karıştırarak, sos koyulaşana kadar yaklaşık 15 dakika pişirin, sıcak tutun.",
-   "Başka bir geniş tavayı yüksek ateşte iyice ısıtın. Dinlenen eti partiler halinde, sık sık çevirerek 2-3 dakikada kenarları kızarana ve pişene kadar tavada sotelemek.",
+   "Başka bir geniş tavayı yüksek ateşte iyice ısıtın ve yarım yemek kaşığı zeytinyağı ekleyin. Dinlenen eti partiler halinde ekleyip sık sık çevirerek, kenarları kızarıp pişene kadar 2-3 dakika sotelenin.",
    "Tereyağını küçük bir tencerede köpürene kadar eritin ve sıcak tutun.",
    "Yoğurdu bir kâseye alıp pürüzsüz hale gelene kadar çırpın.",
    "Servis için ekmek küplerini tabağa dizin, üzerine sıcak domates sosunu gezdirin, ardından sotelenmiş eti ekleyin.",
@@ -66,7 +70,7 @@
    "Cut the pide breads into 2 cm squares and spread them on a tray. Heat the oven to 180 °C and toast the bread for 5 minutes.",
    "For the sauce, heat half a tablespoon of olive oil in a wide pan and sauté the chopped green pepper for 3 minutes.",
    "Add the grated tomatoes, tomato paste and half a teaspoon of salt. Simmer over medium heat, stirring occasionally, for about 15 minutes until thickened. Keep warm.",
-   "Heat a second wide pan over high heat. Sear the marinated meat in batches, turning often, for 2-3 minutes until browned at the edges and cooked through.",
+   "Heat a second wide pan over high heat and add half a tablespoon of olive oil. Sear the marinated meat in batches, turning often, for 2-3 minutes until browned at the edges and cooked through.",
    "Melt the butter in a small saucepan until foaming, then keep it warm.",
    "Whisk the yogurt in a bowl until smooth.",
    "To serve, arrange the toasted bread cubes on plates, spoon over the hot tomato sauce, then top with the seared meat.",
@@ -77,5 +81,14 @@
   "tr": "Eti mümkün olduğunca ince dilimleyin ve tavayı çok sıcak tutun; et haşlanmak yerine hızla kızarmalıdır.",
   "en": "Slice the meat as thinly as possible and keep the pan very hot so the meat sears rather than stews."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Olive oil quantity is inconsistent: 1 tbsp is listed once, but the marinade uses it, the sauce step uses another half tbsp, and the searing step adds no fat. The ingredient list should account for eac",
+   "Turkish step 5 ends with the infinitive 'sotelemek' as an instruction, which is unnatural for a recipe step. The English version is correct."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

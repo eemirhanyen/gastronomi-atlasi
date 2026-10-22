@@ -9,7 +9,7 @@
   "en": "Supplì are a famous Roman street food: tomato-flavoured rice balls with a centre of melting mozzarella, breaded and deep-fried. They are eaten hot and crisp, often as a snack or aperitivo, at bakeries, rosticcerie and trattorias across Rome."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,13 @@
   "tr": "Pirinç tamamen soğumadan şekillendirmeyin; sıcak pirinç dağılır ve mozzarella sızıntı yapar.",
   "en": "Shape the rice only when it is fully cold; warm rice falls apart and lets the mozzarella leak out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is inconsistent with the steps: cooling the rice takes at least 1.5 hours (step 6), plus 20 minutes of chilling and about 25 minutes of cooking and frying. Realistic total is about 3 hou"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

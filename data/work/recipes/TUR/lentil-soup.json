@@ -5,7 +5,7 @@
  },
  "native": "Mercimek çorbası",
  "desc": {
-  "tr": "Türk mutfağının en yaygın çorbalarından biri olan kırmızı mercimek çorbası, her gün sofraya gelir ve özellikle kış aylarında, lokantalarda ve evlerde kahvaltı ya da akşam yemeğinin başlangıcı olarak tüketilir.",
+  "tr": "Türk mutfağının en yaygın çorbalarından biri olan kırmızı mercimek çorbası, her gün sofraya gelir ve özellikle kış aylarında, lokantalarda ve evlerde öğle ya da akşam yemeğinin başlangıcı olarak tüketilir.",
   "en": "One of the most common soups in Turkish cooking, red lentil soup appears on tables daily and is especially popular in winter, served in homes and restaurants as a starter to lunch or dinner."
  },
  "servings": 4,
@@ -49,7 +49,7 @@
    "Geniş bir tencerede zeytinyağını ısıtın, soğanı ekleyip orta ateşte yumuşayana ve hafif pembeleşene kadar yaklaşık 6-7 dakika kavurun.",
    "Havucu ve patatesi ekleyip 3 dakika daha soteleyin.",
    "Domates salçasını ekleyin ve yağında bir dakika kavurun.",
-   "Mercimekleri ve suyu ekleyip kaynatın. Ateşi kısın, kapağını kapatmadan 20-25 dakika, mercimekler ve sebzeler iyice yumuşayana kadar pişirin.",
+   "Mercimekleri ve suyu ekleyip kaynatın. Ateşi kısın, kapağını kısmen kapalı tutarak 20-25 dakika, mercimekler ve sebzeler iyice yumuşayana kadar pişirin.",
    "Çorba pişerken yüzeyinde biriken köpükleri alın.",
    "Çorbayı blenderdan geçirerek pürüzsüz hale getirin. Çok koyu olursa biraz sıcak su ekleyerek kıvamını ayarlayın.",
    "Tuz ve karabiberi ekleyip tadına bakarak düzeltin. Gerekirse tekrar kısa süre kaynatın.",
@@ -70,8 +70,18 @@
   ]
  },
  "tip": {
-  "tr": "Mercimek çorbasına limon sıkmadan önce kıvamını kontrol edin; limon, nane yağıyla birlikte servis edildiğinde en güzel tadını verir.",
+  "tr": "Mercimek çorbasına limon sıkmadan önce kıvamını kontrol edin; limonu tencerede değil masada ekleyin ki taze asiditesi korunsun ve çorba yeniden ısıtıldığında acılaşmasın. Limon, nane yağıyla birlikte servis edildiğinde en güzel tadını verir.",
   "en": "Add the lemon at the table rather than in the pot, so its fresh acidity stays bright and the soup does not turn bitter when reheated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Description mismatch: Turkish says the soup is served at breakfast or dinner (\"kahvaltı ya da akşam yemeği\"), but English says lunch or dinner. Aligned both to lunch or dinner.",
+   "Step 5 mismatch: Turkish \"kapağını kapatmadan\" means uncovered, while English says \"partly covered\". Aligned Turkish to partly covered.",
+   "Tip mismatch: English gives the reason the lemon goes at the table (the soup does not turn bitter when reheated), but the Turkish tip omits it. Added to Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

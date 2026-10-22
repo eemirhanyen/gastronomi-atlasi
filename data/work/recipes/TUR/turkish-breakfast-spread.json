@@ -58,7 +58,7 @@
    "Salatayı hazırlayın: 200 g domatesi ve 250 g salatalığı küçük küpler halinde doğrayın. Maydanozun yarısını ince kıyın, 1 yemek kaşığı zeytinyağı, bir tutam tuz ve doğranmış maydanozla karıştırın.",
    "Menemeni hazırlayın: Soğanı ve yeşil biberleri ince doğrayın. Tavada 30 g tereyağı ile 3 yemek kaşığı zeytinyağını ısıtın, soğan ve biberi yumuşayana kadar 5 dakika kavurun.",
    "Kalan 300 g domatesi rendeleyin veya küçük küp doğrayıp tavaya ekleyin, 8 dakika pişirin. Pul biber ve 1 tatlı kaşık tuzun yarısını ekleyin.",
-   "Yumurtaları tavaya kırın, spatulayla yavaşça karıştırarak yumurtalar kıvam alana kadar 3-4 dakika pişirin. Ocaktan almadan önce kalan tuzu ekleyin.",
+   "Yumurtaları tavaya kırın, spatulayla yavaşça karıştırarak yumurtalar kıvam alana kadar 3-4 dakika pişirin. Ocaktan almadan önce kalan tuzu ekleyin, kalan yarım maydanozu ince kıyıp menemenin üzerine serpin.",
    "Sofrayı kurun: Beyaz peyniri dilimleyip bir tabağa dizin, zeytinleri ve kuru naneyi üzerine serpin. Ayrı bir kâseye balı koyun.",
    "Sıcak ekmeği, menemeni, salatayı, peynir-zeytin tabağını ve balı sofraya alın. Demli çayı küçük bardaklarda servis edin."
   ],
@@ -68,7 +68,7 @@
    "Make the salad: dice 200 g tomatoes and 250 g cucumbers into small cubes. Finely chop half the parsley and toss it with the cubes, 1 tbsp olive oil and a pinch of salt.",
    "Start the menemen: finely chop the onion and green peppers. Heat 30 g butter and 3 tbsp olive oil in a pan and sauté the onion and peppers for 5 minutes until soft.",
    "Grate or finely dice the remaining 300 g tomatoes and add them to the pan. Cook for 8 minutes, then stir in the Aleppo pepper flakes and half of the 1 tsp salt.",
-   "Crack the eggs into the pan and stir gently with a spatula for 3-4 minutes until just set and creamy. Add the remaining salt off the heat.",
+   "Crack the eggs into the pan and stir gently with a spatula for 3-4 minutes until just set and creamy. Add the remaining salt off the heat, then finely chop the rest of the parsley and scatter it over the menemen.",
    "Set the table: slice the white cheese onto a plate, scatter the olives over it and sprinkle with the dried mint. Put the honey in a small bowl.",
    "Serve the warm bread, menemen, salad, cheese and olive plate and honey together, with the tea poured into small glasses."
   ]
@@ -77,5 +77,13 @@
   "tr": "Menemeni eklenen yumurtalar tavada hızla piştiği için, servis anına yakın hazırlayın ve hemen sıcak sofraya alın.",
   "en": "Cook the menemen just before serving, since the eggs keep firming in the hot pan; a slightly loose texture is traditional."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Half of the parsley is listed in the ingredients but never used in the steps (step 3 chops only half). Both the Turkish and English versions need the same fix."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

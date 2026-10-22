@@ -9,7 +9,7 @@
   "en": "A street food of Turkish origin made by wrapping seasoned lamb intestines around a skewer and roasting them over heat, then chopping and serving in bread. It is especially popular late at night on street corners in Istanbul and other big cities."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "hard",
  "ingredients": {
   "tr": [
@@ -45,22 +45,22 @@
  },
  "steps": {
   "tr": [
-   "Bağırsakları bir kapta limon suyu ve 1 çay kaşığı tuzla ovalayıp bol suyla iyice durulayın. Limonlu suda 1 saat bekletin, ardından tekrar yıkayıp süzün.",
+   "Bağırsakları bir kapta limon suyuyla ovalayıp bol suyla iyice durulayın. Limonlu suda 1 saat bekletin, ardından tekrar yıkayıp süzün.",
    "Kuzu bezlerini 2-3 cm'lik parçalara ayırın, yarısının üzerine 4 g tuz ve karabiberin yarısını serpin.",
    "Kalın bir kokoreç şişini veya uzun bir metal şişi bağırsakların ucundan başlayarak sararak doldurun; aralara bez parçalarını yerleştirin. Bağırsağın uçlarını ip veya ince şişle sabitleyin.",
-   "Sarılmış şişin üzerine kalan tuz, karabiber, kekik, pul biber, kimyon ve zeytinyağını sürüp 30 dakika dinlendirin.",
-   "Közü orta ateşe getirin ve şişi ateşin üzerinde, sürekli çevirerek 45-50 dakika pişirin. Fırın kullanacaksanız 190 °C'de aynı süre pişirin; dış yüzey kızarıp iç kısım tamamen pişince hazırdır.",
+   "Sarılmış şişin üzerine kalan 4 g tuz, karabiber, kekik, pul biber, kimyon ve zeytinyağını sürüp 30 dakika dinlendirin.",
+   "Közü orta ateşe getirin ve şişi ateşin üzerinde, sürekli çevirerek yaklaşık 60-75 dakika pişirin. Fırın kullanacaksanız 190 °C'de aynı süre pişirin. Dış yüzey kızarmalı ve et termometresiyle ölçülen iç sıcaklık en az 70 °C olmalıdır.",
    "Pişen kokoreci şişten çıkarıp 5 dakika dinlendirin. Ardından tahta üzerinde keskin bir satırla ince ince doğrayın.",
    "Doğranmış eti bir kapta kalan 4 g tuz, 1 yemek kaşığı kekik, 1 tatlı kaşığı pul biber ve kimyonla tekrar harmanlayın.",
    "Ekmekleri ızgarada hafifçe ısıtın ve ortadan yarın. Domatesi, soğanı ve yeşil biberi ince dilimleyin.",
    "Ekmeğin içine kokoreci, dilimlenmiş domates, soğan ve biberi koyup sıcak servis edin."
   ],
   "en": [
-   "Rub the intestines in a bowl with lemon juice and 1 tsp salt, then rinse thoroughly with plenty of water. Soak in lemon water for 1 hour, then rinse again and drain.",
+   "Rub the intestines in a bowl with lemon juice, then rinse thoroughly with plenty of water. Soak in lemon water for 1 hour, then rinse again and drain.",
    "Cut the sweetbreads into 2-3 cm pieces and season half of them with 4 g salt and half of the black pepper.",
    "Starting from one end, wind the intestines tightly around a thick kokoreç skewer or long metal skewer, placing the seasoned sweetbread pieces between the layers. Secure both ends with string or a thin skewer.",
-   "Brush the wrapped skewer with the remaining salt, black pepper, oregano, red pepper flakes, cumin and olive oil, then rest it for 30 minutes.",
-   "Set up medium charcoal heat and roast the skewer over it, turning constantly, for 45-50 minutes. In an oven, roast at 190 °C for the same time. It is ready when the outside is browned and the inside is fully cooked.",
+   "Brush the wrapped skewer with the remaining 4 g salt, black pepper, oregano, red pepper flakes, cumin and olive oil, then rest it for 30 minutes.",
+   "Set up medium charcoal heat and roast the skewer over it, turning constantly, for about 60-75 minutes. In an oven, roast at 190 °C for the same time. The outside should be browned and the internal temperature, measured with a meat thermometer, should be at least 70 °C.",
    "Remove the kokoreç from the skewer and rest it for 5 minutes. Then chop it finely on a board with a sharp cleaver.",
    "Toss the chopped meat in a bowl with the remaining 4 g salt, 1 tbsp oregano, 1 tsp red pepper flakes and cumin.",
    "Warm the bread rolls lightly on a grill and split them open. Thinly slice the tomatoes, onion and green peppers.",
@@ -71,5 +71,15 @@
   "tr": "Bağırsakları pişirmeden önce iyice temizleyin ve limonlu suda bekletin; koku giderme ve yumuşaklık açısından bu adım çok önemlidir.",
   "en": "Clean the intestines thoroughly and soak them in lemon water before cooking; this step is essential for removing odour and keeping the texture tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt total does not add up: step 1 uses 1 tsp salt in addition to the 12 g listed, and the later steps (4 g + remaining + 4 g) already account for 12 g, so the salt is over-counted.",
+   "Cooking time of 45-50 min is too short for a thick, wrapped 1 kg intestine and sweetbread roll. No doneness check is given beyond appearance; an internal temperature of at least 70 °C should be specif",
+   "Total time_min (90) is too short for the 1-hour soak, 30-minute rest, and 45-75 minutes of cooking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

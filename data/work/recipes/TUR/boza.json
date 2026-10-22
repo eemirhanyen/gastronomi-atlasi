@@ -47,7 +47,7 @@
    "Mısır nişastasını 50 ml soğuk suda eritin, tencereye ilave edin ve karıştırmaya devam ederek 3-5 dakika daha pişirin. Kıvamı hafif akışkan bir puding gibi olmalıdır.",
    "Ocaktan alın ve ince elekten süzün. Kıvamı istediğiniz gibi değilse biraz daha ılık su ile seyreltebilirsiniz.",
    "Boza soğuyana kadar bekletin, ardından buzdolabında en az 3 saat soğutun.",
-   "Servis yapmadan önce bozayı bardaklara paylaştırın. Üzerine tarçın serpin ve kavrulmuş leblebiyi ekleyin."
+   "Servis yapmadan önce bozayı buzun üzerine konmuş bardaklara paylaştırın. Üzerine tarçın serpin ve kavrulmuş leblebiyi ekleyin."
   ],
   "en": [
    "Put the millet flour in a bowl. Add the lukewarm water and dry yeast and mix well.",
@@ -65,5 +65,13 @@
   "tr": "Fermentasyon sırasında mutfağın çok soğuk olmamasına dikkat edin; soğuk ortamda maya yavaş çalışır ve boza yeterince ekşimez.",
   "en": "Keep the batter somewhere warm, not cold. A chilly kitchen slows the yeast, and the boza will taste flat instead of gently sour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 omits the ice that the English step 9 specifies (\"over ice\"), so the two versions disagree on serving"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

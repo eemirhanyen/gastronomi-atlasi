@@ -17,7 +17,7 @@
    "100 ml su",
    "2 g tuz",
    "20 g oda sıcaklığında tereyağı",
-   "40 g eritilmiş tereyağı (katlar için)",
+   "60 g eritilmiş tereyağı (katlar için)",
    "200 ml tam yağlı süt",
    "40 g irmik",
    "40 g toz şeker",
@@ -35,7 +35,7 @@
    "100 ml water",
    "2 g salt",
    "20 g butter at room temperature",
-   "40 g melted butter (for layering)",
+   "60 g melted butter (for layering)",
    "200 ml whole milk",
    "40 g fine semolina",
    "40 g caster sugar",
@@ -56,10 +56,10 @@
    "Süzülmüş ricotta peynirini bir kasede yumurta sarısıyla pürüzsüz olana kadar çırpın, ardından soğumuş irmikli karışıma ekleyin.",
    "Doğranmış kristalize portakal kabuğunu ekleyip karıştırın ve dolguyu en az 1 saat buzdolabında dinlendirin.",
    "Hamuru yoğurun: Unu, tuzu, suyu ve 20 g oda sıcaklığındaki tereyağını bir kapta toplayın. 8-10 dakika pürüzsüz ve elastik bir hamur elde edene kadar yoğurun, streç filmle sarıp 30 dakika dinlendirin.",
-   "Hamuru iki eşit parçaya bölün, her birini ince bir dikdörtgen olacak şekilde açın. Yüzeyine eritilmiş tereyağının yarısını sürün ve sıkıca bir kütük şeklinde sarın. Diğer parça için de aynısını yapın.",
+   "Hamuru iki eşit parçaya bölün, her birini ince bir dikdörtgen olacak şekilde açın. Her hamur tabakasının yüzeyine 15 g eritilmiş tereyağı sürün ve sıkıca bir kütük şeklinde sarın. Diğer parça için de aynısını yapın.",
    "Kütükleri 15 dakika buzdolabında dinlendirin, ardından her birini 4 eşit parçaya kesin.",
    "Her parçayı avuç içinde hafifçe bastırıp yuvarlayın, kenarlarını parmaklarınızla çekerek koni şekli verin. Koninin içine bir kaşık dolgu koyun, kenarları kapatıp hafifçe bastırın.",
-   "Hazırlanan sfogliatelleri fırın tepsisine, kapalı kısmı aşağı gelecek şekilde dizin. Kalan eritilmiş tereyağını üzerlerine sürün.",
+   "Hazırlanan sfogliatelleri fırın tepsisine, kapalı kısmı aşağı gelecek şekilde dizin. Kalan 30 g eritilmiş tereyağını üzerlerine sürün.",
    "Fırını 200°C'ye ısıtın ve sfogliatelleri altın rengi olana kadar 20-25 dakika pişirin.",
    "Fırından çıkardıktan sonra kısaca soğumaya bırakın, üzerlerine pudra şekeri serpip ılık ya da oda sıcaklığında servis yapın."
   ],
@@ -69,10 +69,10 @@
    "Beat the well-drained ricotta with the egg yolk in a bowl until smooth, then fold it into the cooled semolina.",
    "Stir in the chopped candied orange peel and chill the filling for at least 1 hour.",
    "Make the dough: Combine the flour, 2 g salt, water and 20 g room-temperature butter in a bowl. Knead for 8-10 minutes until smooth and elastic, wrap in cling film and rest for 30 minutes.",
-   "Divide the dough into two equal pieces and roll each into a very thin rectangle. Brush half the melted butter over each sheet and roll tightly into a log.",
+   "Divide the dough into two equal pieces and roll each into a very thin rectangle. Brush 15 g of the melted butter over each sheet and roll tightly into a log.",
    "Chill the logs for 15 minutes, then cut each into 4 equal pieces.",
    "Flatten each piece slightly in your palm, then stretch the edges with your fingers to form a cone. Spoon a tablespoon of filling into the cone, bring the edges together and press to seal.",
-   "Arrange the sfogliatelle on a baking tray with the sealed side facing down and brush with the remaining melted butter.",
+   "Arrange the sfogliatelle on a baking tray with the sealed side facing down and brush with the remaining 30 g melted butter.",
    "Preheat the oven to 200°C and bake for 20-25 minutes until golden brown.",
    "Let them cool briefly, dust with icing sugar and serve warm or at room temperature."
   ]
@@ -81,5 +81,14 @@
   "tr": "Hamuru olabildiğince ince açın; katmanların gevrekliği bundan gelir. Dolguyu iyice soğutmak, şekillendirirken sızmasını önler.",
   "en": "Roll the dough as thin as you can, since the crispness depends on the layers. Chilling the filling well stops it leaking while you shape the pastries."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Melted butter quantity doesn't add up: 40 g is listed, half is brushed on each sheet (40 g used in total), yet step 9 asks to brush 'the remaining' butter, which doesn't exist. Turkish and English bot",
+   "Fixed by raising the layering butter to 60 g, using 15 g per sheet (30 g total) and leaving 30 g for the final brushing, in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

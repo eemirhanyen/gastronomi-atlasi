@@ -55,7 +55,7 @@
  },
  "steps": {
   "tr": [
-   "Kuru üzümleri 20 ml romda (ya da ılık suda) 20 dakika bekletin, süzün ve kağıt havlu ile kurulayın. Yarım doğranmış portakal kabuğunu bir kaşık undan alıp üzüm ve kabukla karıştırın.",
+   "Kuru üzümleri 20 ml romda (ya da ılık suda) 20 dakika bekletin, süzün ve kağıt havlu ile kurulayın. 2. hamur için ayrılacak 150 g unun 1 yemek kaşığını alıp üzüm ve doğranmış kandırılmış portakal kabuğu ile karıştırın.",
    "1. hamur için 100 g unu, 40 ml ılık suyu, 5 g mayayı ve 15 g şekeri bir kasede pürüzsüz olana kadar yoğurun. Üzerini örtüp ılık bir yerde 1 saat dinlendirin, hacmi belirgin şekilde artmalıdır.",
    "2. hamur için kabarmış karışıma 150 g unu, yumurtaları, yumurta sarılarını, 50 g şekeri, sütü, balı, tuzu, portakal rendesini ve vanilyayı ekleyip 5 dakika yoğurun. Hamur yapışkan olacaktır.",
    "Oda sıcaklığındaki 80 g tereyağını parça parça ekleyip her parçayı tamamen emmesini bekleyerek yaklaşık 15 dakika yoğurun. Hamur ipeksi ve esnek olmalı, parmaklar arasında ince bir zar gerebilmelidir.",
@@ -68,7 +68,7 @@
    "Soğuyunca dilimlemeden önce üzerine pudra şekeri serpin."
   ],
   "en": [
-   "Soak the raisins in the rum (or lukewarm water) for 20 minutes, then drain and pat dry. Toss them with the diced candied peel and the orange zest reserved from the dough, dusted with 1 tablespoon of the flour, so they do not sink.",
+   "Soak the raisins in the rum (or lukewarm water) for 20 minutes, then drain and pat dry. Toss them with the diced candied peel and 1 tablespoon of the 150 g flour set aside for the second dough, so they do not sink.",
    "For the first dough, mix 100 g flour, 40 ml lukewarm water, 5 g yeast and 15 g sugar in a bowl until smooth. Cover and leave in a warm place for 1 hour until it has clearly risen.",
    "Add 150 g flour, the eggs, egg yolks, 50 g sugar, the milk, honey, salt, orange zest and vanilla to the risen mixture. Knead for 5 minutes; the dough will be sticky.",
    "Add the 80 g softened butter a little at a time, letting each addition absorb before the next. Knead for about 15 minutes until silky and elastic, able to stretch into a thin membrane between your fingers.",
@@ -85,5 +85,14 @@
   "tr": "Mayalanma sürelerini oda sıcaklığına göre ayarlayın; hamur 24–26°C'de olmalıdır, soğuk bir mutfakta süreler iki katına çıkabilir.",
   "en": "Rise times depend heavily on temperature. Aim for 24–26°C; in a cold kitchen, allow up to twice as long and judge by the dough's size, not the clock."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 (TR and EN) tells the cook to toss the raisins and peel with 'orange zest reserved from the dough', but the zest is only added to the dough in step 3. The zest is used in two places with contra",
+   "Step 1 (TR) says 'bir kaşık undan alıp', which is unclear about where the flour comes from. The English says '1 tablespoon of the flour' without specifying which flour, and the flour is not separately"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }
