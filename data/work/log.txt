@@ -53,3 +53,8 @@ RuntimeError: API 400: b'{"type":"error","error":{"type":"invalid_request_error"
 === score
 score: 0 ülke
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== plan
+plan: 1 ülke
+  [plan] batch msgbatch_01NoxnLKFa38ucdZww6e2nXv: 1 istek
+  [plan] tamam: 1 yanıt, başarısız 0
+Token: giriş 582, çıkış 4890 (model claude-haiku-5-5)

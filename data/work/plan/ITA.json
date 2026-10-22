@@ -1,0 +1,246 @@
+{
+ "signature": [
+  {
+   "en": "Pizza",
+   "tr": "Pizza",
+   "native": "Pizza",
+   "wiki_en": "Pizza",
+   "desc_en": "Naples gave the world this flatbread topped with tomato and mozzarella, baked blistering hot in a wood-fired oven.",
+   "desc_tr": "Napoli'nin dünyaya kazandırdığı bu yassı ekmek, domates ve mozzarellayla kaplanıp odun ateşli fırında kavrulur."
+  },
+  {
+   "en": "Pasta",
+   "tr": "Makarna",
+   "native": "Pasta",
+   "wiki_en": "Pasta",
+   "desc_en": "Hundreds of shapes, from spaghetti to ravioli, are the backbone of everyday Italian eating.",
+   "desc_tr": "Spagettiden raviolilere yüzlerce şekliyle makarna, İtalyan günlük yemek kültürünün temelidir."
+  },
+  {
+   "en": "Espresso",
+   "tr": "Espresso",
+   "native": "Espresso",
+   "wiki_en": "Espresso",
+   "desc_en": "A small, intensely concentrated coffee pulled under pressure, usually drunk standing at the bar in a few sips.",
+   "desc_tr": "Basınç altında çekilen, genellikle barda ayakta birkaç yudumda içilen küçük ve yoğun bir kahvedir."
+  },
+  {
+   "en": "Gelato",
+   "tr": "Jelato",
+   "native": "Gelato",
+   "wiki_en": "Gelato",
+   "desc_en": "Denser and silkier than ice cream, this Italian frozen treat is churned with less air and more flavour.",
+   "desc_tr": "Dondurmadan daha yoğun ve kadifemsi olan bu İtalyan donmuş tatlısı, daha az havayla ama daha fazla lezzetle çırpılır."
+  },
+  {
+   "en": "Tiramisu",
+   "tr": "Tiramisu",
+   "native": "Tiramisù",
+   "wiki_en": "Tiramisu",
+   "desc_en": "Layers of espresso-soaked ladyfingers and mascarpone cream dusted with cocoa make this Venetian-born dessert a global favourite.",
+   "desc_tr": "Espresso ile ıslatılmış kadın parmağı bisküvileri ve kakao serpilmiş mascarpone kreminden oluşan bu Venedik doğumlu tatlı dünyanın favorisidir."
+  },
+  {
+   "en": "Prosciutto di Parma",
+   "tr": "Parma jambonu",
+   "native": "Prosciutto di Parma",
+   "wiki_en": "Prosciutto di Parma",
+   "desc_en": "Air-cured ham from Parma, sliced paper-thin and draped over melon or bread, is a celebrated Italian delicacy.",
+   "desc_tr": "Parma'da kurutulan ve ince dilimlenip kavun veya ekmeğin üzerine serilen jambon, ünlü bir İtalyan lezzetidir."
+  },
+  {
+   "en": "Parmigiano-Reggiano",
+   "tr": "Parmigiano-Reggiano peyniri",
+   "native": "Parmigiano-Reggiano",
+   "wiki_en": "Parmigiano-Reggiano",
+   "desc_en": "Aged for years in northern Italy, this hard cheese is grated over pasta, risotto and soups for its nutty depth.",
+   "desc_tr": "Kuzey İtalya'da yıllarca olgunlaştırılan bu sert peynir, fındık benzeri derin aromasıyla makarna, risotto ve çorbaların üzerine rendelenir."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Minestrone",
+   "tr": "Minestrone",
+   "native": "Minestrone",
+   "wiki_en": "Minestrone",
+   "category": "soup",
+   "id": "minestrone"
+  },
+  {
+   "en": "Ribollita",
+   "tr": "Ribollita",
+   "native": "Ribollita",
+   "wiki_en": "Ribollita",
+   "category": "soup",
+   "id": "ribollita"
+  },
+  {
+   "en": "Pasta e fagioli",
+   "tr": "Pasta e fagioli",
+   "native": "Pasta e fagioli",
+   "wiki_en": "Pasta e fagioli",
+   "category": "soup",
+   "id": "pasta-e-fagioli"
+  },
+  {
+   "en": "Spaghetti alla carbonara",
+   "tr": "Spagetti karbonara",
+   "native": "Spaghetti alla carbonara",
+   "wiki_en": "Carbonara",
+   "category": "main",
+   "id": "spaghetti-alla-carbonara"
+  },
+  {
+   "en": "Cacio e pepe",
+   "tr": "Cacio e pepe",
+   "native": "Cacio e pepe",
+   "wiki_en": "Cacio e pepe",
+   "category": "main",
+   "id": "cacio-e-pepe"
+  },
+  {
+   "en": "Osso buco",
+   "tr": "Osso buko",
+   "native": "Ossobuco",
+   "wiki_en": "Osso buco",
+   "category": "main",
+   "id": "osso-buco"
+  },
+  {
+   "en": "Saltimbocca alla romana",
+   "tr": "Saltimbocca alla romana",
+   "native": "Saltimbocca alla romana",
+   "wiki_en": "Saltimbocca",
+   "category": "main",
+   "id": "saltimbocca-alla-romana"
+  },
+  {
+   "en": "Cotoletta alla milanese",
+   "tr": "Milano usulü kotlet",
+   "native": "Cotoletta alla milanese",
+   "wiki_en": null,
+   "category": "main",
+   "id": "cotoletta-alla-milanese"
+  },
+  {
+   "en": "Chicken cacciatore",
+   "tr": "Tavuk cacciatore",
+   "native": "Pollo alla cacciatora",
+   "wiki_en": "Chicken cacciatore",
+   "category": "main",
+   "id": "chicken-cacciatore"
+  },
+  {
+   "en": "Polenta",
+   "tr": "Polenta",
+   "native": "Polenta",
+   "wiki_en": "Polenta",
+   "category": "side",
+   "id": "polenta"
+  },
+  {
+   "en": "Caprese salad",
+   "tr": "Caprese salatası",
+   "native": "Insalata caprese",
+   "wiki_en": "Caprese salad",
+   "category": "salad",
+   "id": "caprese-salad"
+  },
+  {
+   "en": "Focaccia",
+   "tr": "Fokaçya",
+   "native": "Focaccia",
+   "wiki_en": "Focaccia",
+   "category": "bread",
+   "id": "focaccia"
+  },
+  {
+   "en": "Ciabatta",
+   "tr": "Ciabatta",
+   "native": "Ciabatta",
+   "wiki_en": "Ciabatta",
+   "category": "bread",
+   "id": "ciabatta"
+  },
+  {
+   "en": "Sfogliatella",
+   "tr": "Sfogliatella",
+   "native": "Sfogliatella",
+   "wiki_en": "Sfogliatella",
+   "category": "pastry",
+   "id": "sfogliatella"
+  },
+  {
+   "en": "Cannolo",
+   "tr": "Kannoli",
+   "native": "Cannolo",
+   "wiki_en": "Cannolo",
+   "category": "pastry",
+   "id": "cannolo"
+  },
+  {
+   "en": "Panettone",
+   "tr": "Panettone",
+   "native": "Panettone",
+   "wiki_en": "Panettone",
+   "category": "pastry",
+   "id": "panettone"
+  },
+  {
+   "en": "Panna cotta",
+   "tr": "Panna kotta",
+   "native": "Panna cotta",
+   "wiki_en": "Panna cotta",
+   "category": "dessert",
+   "id": "panna-cotta"
+  },
+  {
+   "en": "Zabaglione",
+   "tr": "Zabaglione",
+   "native": "Zabaglione",
+   "wiki_en": "Zabaglione",
+   "category": "dessert",
+   "id": "zabaglione"
+  },
+  {
+   "en": "Granita",
+   "tr": "Granita",
+   "native": "Granita",
+   "wiki_en": "Granita",
+   "category": "dessert",
+   "id": "granita"
+  },
+  {
+   "en": "Limoncello",
+   "tr": "Limoncello",
+   "native": "Limoncello",
+   "wiki_en": "Limoncello",
+   "category": "drink",
+   "id": "limoncello"
+  },
+  {
+   "en": "Supplì",
+   "tr": "Supplì",
+   "native": "Supplì",
+   "wiki_en": "Supplì",
+   "category": "street_food",
+   "id": "suppl"
+  },
+  {
+   "en": "Arancini",
+   "tr": "Arancini",
+   "native": "Arancini",
+   "wiki_en": "Arancini",
+   "category": "street_food",
+   "id": "arancini"
+  },
+  {
+   "en": "Pesto alla genovese",
+   "tr": "Cenova usulü pesto",
+   "native": "Pesto alla genovese",
+   "wiki_en": "Pesto",
+   "category": "sauce",
+   "id": "pesto-alla-genovese"
+  }
+ ]
+}
