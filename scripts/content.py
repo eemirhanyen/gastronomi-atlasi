@@ -551,7 +551,16 @@ def stage_build():
             if _d.get("wiki_en"):
                 title_use[_d["wiki_en"]] += 1
 
-    def dish_img(d, r):
+    photos = jload(os.path.join(WORK, "photos.json"), {})
+
+    def ph(key):
+        v = photos[key]
+        return v and {k: v.get(k) for k in ("url", "credit", "license", "source", "page")}
+
+    def dish_img(d, r, iso):
+        k = f"{iso}_{d['id']}"
+        if k in photos:                     # AI ile doğrulanmış fotoğraf (ya da bilinçli olarak fotoğrafsız)
+            return ph(k)
         t = d.get("wiki_en")
         if not t:
             return None
@@ -576,7 +585,8 @@ def stage_build():
         if plan:
             for s in plan["signature"]:
                 c["signature"].append({"name": tname({"tr": s.get("tr") or s["en"], "en": s["en"]}), "native": s.get("native"),
-                                       "desc": {"tr": s.get("desc_tr", ""), "en": s.get("desc_en", "")}, "image": img(s.get("wiki_en"))})
+                                       "desc": {"tr": s.get("desc_tr", ""), "en": s.get("desc_en", "")},
+                                       "image": ph(f"{iso}~sig~{slug(s['en'])}") if f"{iso}~sig~{slug(s['en'])}" in photos else img(s.get("wiki_en"))})
             for d in plan["dishes"]:
                 r = jload(recipe_path(iso, d["id"]))
                 if not r:
@@ -585,7 +595,7 @@ def stage_build():
                                      "name": tname(r["name"]), "desc": r["desc"], "servings": r["servings"], "time_min": r["time_min"],
                                      "difficulty": r["difficulty"], "ingredients": r["ingredients"], "steps": r["steps"],
                                      "tip": r.get("tip"), "reviewed": r.get("reviewed", False),
-                                     "image": dish_img(d, r), "relatives": rel.get(f"{iso}_{d['id']}", [])})
+                                     "image": dish_img(d, r, iso), "relatives": rel.get(f"{iso}_{d['id']}", [])})
                 search.append([iso, d["id"], tcase(r["name"]["tr"], "tr"), tcase(r["name"]["en"], "en"), r.get("native") or ""])
         wr = jload(os.path.join(WORK, "wine", iso + ".json"))
         if wine_fao.get(iso) or wr:
@@ -617,7 +627,15 @@ def _rel(name):
     return run
 
 
-STAGES = {"features": _rel("features"), "pairs": _rel("pairs"), "judge": _rel("judge"), "plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
+def _ph(name):
+    def run():
+        import photos
+        photos.STAGES[name]()
+    return run
+
+
+STAGES = {"pcands": _ph("cands"), "pverify": _ph("verify"), "pcredits": _ph("credits"),
+          "features": _rel("features"), "pairs": _rel("pairs"), "judge": _rel("judge"), "plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
           "items": stage_items, "images": stage_images, "score": stage_score, "flavors": stage_flavors, "build": stage_build}
 
 
@@ -625,7 +643,7 @@ def main():
     names = sys.argv[1:] or ["all"]
     if names == ["all"]:
         names = ["score", "flavors", "plan", "recipes", "review", "items", "images", "build"]
-    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items", "features", "judge") for n in names)
+    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items", "features", "judge", "pverify") for n in names)
     if need_api and not os.environ.get("ANTHROPIC_API_KEY"):
         log("HATA: ANTHROPIC_API_KEY yok"); sys.exit(1)
     for n in names:
