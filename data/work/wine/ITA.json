@@ -1,0 +1,270 @@
+{
+ "iso3": "ITA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24430,
+  "out": 4110,
+  "searches": 2
+ },
+ "usd": 0.11,
+ "summary": {
+  "tr": "İtalya'da şarapçılık, Etrüsk ve Yunan kolonistler döneminden beri sürüyor; ülke bugün dünyanın en büyük şarap üreticilerinden biri ve 20 bölgenin tamamında bağcılık yapılıyor. Şarap burada günlük sofranın ve bölgesel kimliğin ayrılmaz parçası. Ülke, yüzlerce yerli üzüm çeşidi ile DOC ve DOCG gibi menşe adı sistemiyle tanınıyor. Hacim bakımından OIV verilerine göre en büyük üreticiler arasında; 202",
+  "en": "Winemaking in Italy goes back to the Etruscan and Greek colonist era. Today the country is one of the world's largest wine producers, and vines are grown in all 20 regions. Wine is part of everyday meals and of regional identity. Italy is known for hundreds of native grape varieties and for its DOC and DOCG appellation system. By volume it ranks among the top producers in OIV data, although its 20"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Piedmont",
+   "lat": 44.65,
+   "lng": 8.1,
+   "desc": {
+    "tr": "Langhe ve Monferrato tepeleriyle Nebbiolo'dan yapılan Barolo ve Barbaresco ile Barbera ve Moscato şaraplarıyla ünlüdür.",
+    "en": "Known for the Langhe and Monferrato hills, with Nebbiolo-based Barolo and Barbaresco plus Barbera and Moscato wines."
+   },
+   "grapes": [
+    "Nebbiolo",
+    "Barbera",
+    "Dolcetto",
+    "Moscato Bianco",
+    "Cortese"
+   ]
+  },
+  {
+   "name": "Tuscany",
+   "lat": 43.35,
+   "lng": 11.2,
+   "desc": {
+    "tr": "Sangiovese'den yapılan Chianti, Brunello di Montalcino ve Vino Nobile di Montepulciano ile Bolgheri'nin Süper Toskana şaraplarıyla bilinir.",
+    "en": "Known for Sangiovese-based Chianti, Brunello di Montalcino and Vino Nobile di Montepulciano, and for the Super Tuscan wines of Bolgheri."
+   },
+   "grapes": [
+    "Sangiovese",
+    "Vernaccia",
+    "Cabernet Sauvignon",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Veneto",
+   "lat": 45.55,
+   "lng": 11.3,
+   "desc": {
+    "tr": "Prosecco, Amarone della Valpolicella ve Soave ile ülkenin hacim bakımından en büyük şarap bölgesidir.",
+    "en": "Italy's largest wine region by volume, home to Prosecco, Amarone della Valpolicella and Soave."
+   },
+   "grapes": [
+    "Glera",
+    "Corvina",
+    "Garganega",
+    "Rondinella"
+   ]
+  },
+  {
+   "name": "Sicily",
+   "lat": 37.6,
+   "lng": 14.0,
+   "desc": {
+    "tr": "Akdeniz'in en büyük adası olup Nero d'Avola, Etna'nın volkanik şarapları ve Marsala ile öne çıkar.",
+    "en": "The Mediterranean's largest island, notable for Nero d'Avola, the volcanic wines of Etna and Marsala."
+   },
+   "grapes": [
+    "Nero d'Avola",
+    "Nerello Mascalese",
+    "Carricante",
+    "Grillo",
+    "Catarratto"
+   ]
+  },
+  {
+   "name": "Apulia (Puglia)",
+   "lat": 40.85,
+   "lng": 16.6,
+   "desc": {
+    "tr": "Sıcak güney iklimi ve Salento'daki Primitivo ile Negroamaro'dan yapılan dolgun kırmızılarla tanınır.",
+    "en": "Known for its hot southern climate and full-bodied reds from Primitivo and Negroamaro in Salento."
+   },
+   "grapes": [
+    "Primitivo",
+    "Negroamaro",
+    "Nero di Troia"
+   ]
+  },
+  {
+   "name": "Trentino-Alto Adige",
+   "lat": 46.4,
+   "lng": 11.3,
+   "desc": {
+    "tr": "Alp yamaçlarındaki bağlarında ferah beyaz şaraplar, Pinot Grigio ve aromatik çeşitler üretir.",
+    "en": "Produces crisp white wines, Pinot Grigio and aromatic varieties from vineyards on Alpine slopes."
+   },
+   "grapes": [
+    "Pinot Grigio",
+    "Gewürztraminer",
+    "Lagrein",
+    "Teroldego"
+   ]
+  },
+  {
+   "name": "Friuli-Venezia Giulia",
+   "lat": 46.05,
+   "lng": 13.2,
+   "desc": {
+    "tr": "Collio ve Colli Orientali'de yüksek kaliteli beyaz şaraplar ve turuncu şaraplar üretir.",
+    "en": "Makes high-quality white wines and orange wines in Collio and Colli Orientali."
+   },
+   "grapes": [
+    "Friulano",
+    "Ribolla Gialla",
+    "Refosco",
+    "Pinot Grigio"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Sangiovese",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "İtalya'nın en çok dikilen çeşidi olup Chianti ve Brunello'nun temelini oluşturur.",
+    "en": "Italy's most planted grape and the backbone of Chianti and Brunello."
+   }
+  },
+  {
+   "name": "Nebbiolo",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Piedmont'ta Barolo ve Barbaresco'yu veren, tanenli ve uzun ömürlü şaraplar üreten çeşittir.",
+    "en": "The Piedmont grape behind Barolo and Barbaresco, making tannic, long-lived wines."
+   }
+  },
+  {
+   "name": "Nero d'Avola",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Sicilya'nın simgesel kırmızı çeşidi olup koyu meyveli, dolgun şaraplar verir.",
+    "en": "Sicily's signature red grape, giving dark-fruited, full-bodied wines."
+   }
+  },
+  {
+   "name": "Corvina",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Valpolicella ve Amarone karışımlarının ana çeşidi olup kiraz aromalıdır.",
+    "en": "The main grape in Valpolicella and Amarone blends, with cherry aromas."
+   }
+  },
+  {
+   "name": "Aglianico",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Campania ve Basilicata'da Taurasi ile Aglianico del Vulture'yi veren, güçlü ve asidik bir çeşittir.",
+    "en": "A powerful, high-acid grape that makes Taurasi and Aglianico del Vulture in Campania and Basilicata."
+   }
+  },
+  {
+   "name": "Glera",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Prosecco'nun yapıldığı, taze ve aromatik köpüklü şaraplar veren beyaz çeşittir.",
+    "en": "The white grape used for Prosecco, giving fresh, aromatic sparkling wines."
+   }
+  },
+  {
+   "name": "Garganega",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Soave'nin ana çeşidi olup badem ve narenciye notaları taşır.",
+    "en": "The main grape of Soave, with almond and citrus notes."
+   }
+  },
+  {
+   "name": "Pinot Grigio",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Fransız kökenli olup kuzeydoğu İtalya'da yaygın dikilen ve ihracatı yüksek bir beyaz çeşittir.",
+    "en": "A French-origin white grape widely planted in northeast Italy and a major export wine."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Barolo DOCG",
+   "desc": {
+    "tr": "Piedmont'ta Langhe'de Nebbiolo'dan yapılan, \"şarapların kralı\" olarak anılan uzun ömürlü kırmızı şaraptır.",
+    "en": "A long-lived red made from Nebbiolo in Piedmont's Langhe, often called the \"king of wines\"."
+   }
+  },
+  {
+   "name": "Chianti Classico DOCG",
+   "desc": {
+    "tr": "Toskana'nın tarihî çekirdek bölgesinde Sangiovese ağırlıklı üretilen ve kara horoz amblemiyle tanınan kırmızı şaraptır.",
+    "en": "A Sangiovese-based red from Tuscany's historic heartland, identified by the black rooster emblem."
+   }
+  },
+  {
+   "name": "Prosecco DOC/DOCG",
+   "desc": {
+    "tr": "Glera üzücünden yapılan, İtalya'nın en popüler köpüklü şarabıdır; DOCG alanı Conegliano-Valdobbiadene ve Asolo tepeleriyle sınırlıdır.",
+    "en": "Italy's most popular sparkling wine, made from Glera; the DOCG zone is limited to the hills of Conegliano-Valdobbiadene and Asolo."
+   }
+  },
+  {
+   "name": "Amarone della Valpolicella DOCG",
+   "desc": {
+    "tr": "Kısmen kurutulmuş Corvina, Rondinella ve Molinara üzümlerinden yapılan yoğun ve güçlü bir kırmızı şaraptır.",
+    "en": "An intense, powerful red made from partially dried Corvina, Rondinella and Molinara grapes."
+   }
+  },
+  {
+   "name": "Etna DOC",
+   "desc": {
+    "tr": "Etna Yanardağı'nın volkanik topraklarında Nerello Mascalese ve Carricante ile yapılan zarif, mineral karakterli şaraplardır.",
+    "en": "Elegant, mineral wines made from Nerello Mascalese and Carricante on the volcanic soils of Mount Etna."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Italian Wine Regions: A Guide to Italy's Wine Country",
+   "url": "https://www.wineenthusiast.com/region/italy/"
+  },
+  {
+   "title": "Wine Regions of Italy: The Complete Guide to Italian Viticulture",
+   "url": "https://www.thethinkingtraveller.com/blog/sample-the-local-wines-of-italy-from-the-comfort-of-your-villa"
+  },
+  {
+   "title": "Cerasuolo di Vittoria",
+   "url": "https://en.wikipedia.org/wiki/Cerasuolo_di_Vittoria"
+  },
+  {
+   "title": "Tuscan wine",
+   "url": "https://en.wikipedia.org/wiki/Tuscan_wine"
+  },
+  {
+   "title": "Ultimate Guide to Italian Wine Region Maps, Grapes and Climate",
+   "url": "https://www.wineandchampagnegifts.com/blog/ultimate-guide-to-italian-wine-regions/"
+  },
+  {
+   "title": "A Guide to Italy's Wine Regions, by an Expert",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/italian-wine-regions"
+  },
+  {
+   "title": "Italian Wine Regions & Map: Best Picks ⭐ Full Guide 2026",
+   "url": "https://www.winalist.com/blog/italy/italian-wine-regions"
+  },
+  {
+   "title": "Italian Wine Regions: A Guide to All 20 Regions & Their Wines",
+   "url": "https://harvestwineshopsd.com/blogs/wine-101/the-20-regions-of-italy-and-their-wines"
+  }
+ ]
+}

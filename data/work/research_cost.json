@@ -1,0 +1,29 @@
+{
+ "runs": [
+  {
+   "date": "2026-10-22T20:03:21+00:00",
+   "stage": "wine",
+   "model": "claude-sonnet-5-5",
+   "ok": 5,
+   "failed": 0,
+   "in": 109152,
+   "out": 21603,
+   "searches": 9,
+   "usd": 0.5243,
+   "calls": 5
+  },
+  {
+   "date": "2026-10-22T20:04:06+00:00",
+   "stage": "restaurants",
+   "model": "claude-haiku-5-5",
+   "ok": 5,
+   "failed": 0,
+   "in": 173853,
+   "out": 21813,
+   "searches": 17,
+   "usd": 0.1983,
+   "calls": 5
+  }
+ ],
+ "total_usd": 0.7226
+}

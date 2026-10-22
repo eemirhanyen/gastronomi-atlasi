@@ -1,0 +1,239 @@
+{
+ "iso3": "ARG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22656,
+  "out": 4272,
+  "searches": 2
+ },
+ "usd": 0.108,
+ "summary": {
+  "tr": "Arjantin'de bağcılık, 1550'lerde İspanyol misyonerlerin Criolla üzümlerini getirmesiyle başladı. 19. yüzyılda gelen Fransız ve İtalyan göçmenler yeni çeşitler ve teknikler taşıdı; Malbec ise 1853'te Mendoza'ya Fransa'dan getirildi. Ülke bugün üretimin büyük bölümünü Mendoza ve San Juan'da yapıyor ve 1990'lardan itibaren bol miktarda sofra şarabı üretmekten yüksek rakımlı, ihracata dönük kaliteli ş",
+  "en": "Winemaking in Argentina began in the 1550s, when Spanish missionaries brought Criolla vines. French and Italian immigrants arrived in the 19th century with new varieties and techniques, and Malbec was brought to Mendoza from France in 1853. Most production is concentrated in Mendoza and San Juan, and since the 1990s the country has moved from bulk table wine toward high-altitude, export-oriented q"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Luján de Cuyo & Maipú (Mendoza)",
+   "lat": -33.0,
+   "lng": -68.85,
+   "desc": {
+    "tr": "Mendoza'nın tarihî kalbidir. Luján de Cuyo, Arjantin'in ilk tescilli üretim bölgesi (1993) ve Malbec'in anavatanı sayılır.",
+    "en": "The historic heart of Mendoza. Luján de Cuyo was Argentina's first delineated appellation (1993) and is regarded as the home of Malbec."
+   },
+   "grapes": [
+    "Malbec",
+    "Cabernet Sauvignon",
+    "Bonarda",
+    "Tempranillo"
+   ]
+  },
+  {
+   "name": "Uco Valley (Mendoza)",
+   "lat": -33.65,
+   "lng": -69.2,
+   "desc": {
+    "tr": "And Dağları eteğindeki yüksek rakımlı yeni bağlarıyla bilinir. Gualtallary ve Altamira gibi alt bölgelerde ince yapılı Malbec ve beyaz şaraplar üretir.",
+    "en": "Known for newer vineyards at high altitude in the Andean foothills, with subzones such as Gualtallary and Altamira producing fine Malbec and white wines."
+   },
+   "grapes": [
+    "Malbec",
+    "Chardonnay",
+    "Cabernet Franc",
+    "Semillón",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "San Juan",
+   "lat": -31.55,
+   "lng": -68.5,
+   "desc": {
+    "tr": "Mendoza'nın kuzeyinde yer alan, ülkenin ikinci büyük şarap üretim bölgesidir. Daha sıcak vadilerinde Syrah öne çıkar.",
+    "en": "Argentina's second-largest wine-producing region, just north of Mendoza, where Syrah stands out in the warmer valleys."
+   },
+   "grapes": [
+    "Syrah",
+    "Bonarda",
+    "Malbec",
+    "Torrontés Sanjuanino"
+   ]
+  },
+  {
+   "name": "Salta (Cafayate & Calchaquí Valleys)",
+   "lat": -26.07,
+   "lng": -66.0,
+   "desc": {
+    "tr": "Dünyanın en yüksek ticari bağlarından bazılarına sahiptir. Çiçeksi Torrontés'i ve baharatlı Malbec'iyle tanınır.",
+    "en": "Home to some of the world's highest commercial vineyards, known for floral Torrontés and spicy Malbec."
+   },
+   "grapes": [
+    "Torrontés Riojano",
+    "Malbec",
+    "Tannat",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "La Rioja",
+   "lat": -29.1,
+   "lng": -67.6,
+   "desc": {
+    "tr": "Arjantin'in en eski şarap üreten bölgelerinden biridir (İspanya'daki Rioja ile karıştırılmamalı). Torrontés Riojano ile öne çıkar.",
+    "en": "One of Argentina's oldest wine-producing areas (not to be confused with Spain's Rioja), notable for Torrontés Riojano."
+   },
+   "grapes": [
+    "Torrontés Riojano",
+    "Malbec",
+    "Syrah",
+    "Bonarda"
+   ]
+  },
+  {
+   "name": "Patagonia (Río Negro & Neuquén)",
+   "lat": -39.0,
+   "lng": -67.9,
+   "desc": {
+    "tr": "Ülkenin güneyindeki serin iklimli bölgedir. Taze asiditeli Pinot Noir, Merlot, Malbec ve köpüklü şaraplarıyla bilinir.",
+    "en": "The cool-climate south, known for fresh, high-acid Pinot Noir, Merlot, Malbec and sparkling wines."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Malbec",
+    "Merlot",
+    "Semillón"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Torrontés Riojano",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Arjantin'e özgü aromatik beyaz üzümdür. Gül ve yasemin kokulu, taze şaraplar verir; Cafayate'de en iyi sonucu alır.",
+    "en": "Argentina's own aromatic white grape, giving fresh wines with rose and jasmine aromas, and at its best in Cafayate."
+   }
+  },
+  {
+   "name": "Criolla Grande",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Pembe kabuklu, bol verimli bir Criolla çeşididir. Tarihte sofra şarabının omurgasını oluşturmuş, bugün daha çok basit şaraplarda ve üzüm şırası konsantresinde kullanılır.",
+    "en": "A high-yielding pink-skinned Criolla variety that was the backbone of table wine, now used mostly for simple wines and grape concentrate."
+   }
+  },
+  {
+   "name": "Cereza",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Açık renkli, pembe kabuklu bir yerel çeşittir. Mendoza'da hâlâ yaygın biçimde dikilir ve çoğunlukla basit, hafif şaraplara ve konsantreye gider.",
+    "en": "A pale, pink-skinned local variety still widely planted in Mendoza, mostly for simple, light wines and concentrate."
+   }
+  },
+  {
+   "name": "Malbec",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Güneybatı Fransa kökenlidir; Arjantin'in simge kırmızı üzümüdür ve yüksek rakımda koyu meyveli, yumuşak şaraplar verir.",
+    "en": "Of southwest French origin, it is Argentina's signature red, giving dark-fruited, velvety wines at altitude."
+   }
+  },
+  {
+   "name": "Bonarda",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Arjantin'de en çok dikilen ikinci kırmızı çeşit olarak anılır; meyveli, günlük içimli şaraplar verir.",
+    "en": "Often cited as Argentina's second most planted red, it gives fruity, everyday drinking wines."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Malbec'in ardından en çok dikilen kırmızılardandır; Mendoza'da hem tek çeşit hem de harmanlarda kullanılır.",
+    "en": "One of the most widely planted reds after Malbec, used in Mendoza both as a single variety and in blends."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle sıcak San Juan vadilerinde başarılıdır; dolgun ve baharatlı şaraplar verir.",
+    "en": "Especially associated with the warm valleys of San Juan, where it gives full-bodied, spicy wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Luján de Cuyo DOC",
+   "desc": {
+    "tr": "1993'te kurulan, Arjantin'in ilk tescilli menşe bölgesidir ve Malbec'iyle tanınır.",
+    "en": "Argentina's first delineated appellation, established in 1993 and known for its Malbec."
+   }
+  },
+  {
+   "name": "High-altitude Malbec",
+   "desc": {
+    "tr": "And Dağları eteklerinde yaklaşık 850–1.500 m rakımda yetişen, koyu meyveli ve ince tanenli Malbec şarapları ülkenin en bilinen stilidir.",
+    "en": "Malbec from Andean foothill vineyards, roughly 850–1,500 m up, with dark fruit and fine tannins, is the country's best-known style."
+   }
+  },
+  {
+   "name": "Cafayate Torrontés",
+   "desc": {
+    "tr": "Salta'nın yüksek rakımlı vadilerinde üretilen, çiçeksi aromalı ve canlı asiditeli beyaz şaraplardır.",
+    "en": "White wines from Salta's high-altitude valleys, with floral aromas and lively acidity."
+   }
+  },
+  {
+   "name": "Patagonian Pinot Noir and sparkling wine",
+   "desc": {
+    "tr": "Patagonya'nın serin iklimi, taze asiditeli Pinot Noir'lara ve geleneksel veya Charmat yöntemiyle yapılan köpüklü şaraplara uygundur.",
+    "en": "Patagonia's cool climate suits fresh, high-acid Pinot Noir and sparkling wines made by the traditional or Charmat method."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Argentina Wine Guide",
+   "url": "https://napavalleywineacademy.com/pages/wine-regions-argentina"
+  },
+  {
+   "title": "Argentina Wine Guide: Discover the Best Wines & Regions",
+   "url": "https://www.coravin.com/blogs/community/argentina-wine-guide"
+  },
+  {
+   "title": "Beyond Malbec: A Sommelier’s Guide to Argentine Wine",
+   "url": "https://www.plansouthamerica.com/wine-tasting-in-argentina-where-to-go-and-what-to-try/"
+  },
+  {
+   "title": "A Sommelier’s Guide to Argentina’s Wines & Regions - Gaucho",
+   "url": "https://gauchorestaurants.com/restaurants/argentina-wines-regions-guide/"
+  },
+  {
+   "title": "Wine Tasting in Argentina: 7 Fantastic Regions",
+   "url": "https://www.getyourguide.com/explorer/argentina-ttd168992/wine-regions-in-argentina/?visitor-id=86KEPA0TMEL13SN2PQ60USO7ONV4TGNI&locale_autoredirect_optout=true"
+  },
+  {
+   "title": "Argentina Wine Regions: The Ultimate Guide to the top 5 region",
+   "url": "https://www.bookmundi.com/ng/argentina-wine-regions-the-ultimate-guide-to-the-top-5-region"
+  },
+  {
+   "title": "Visiting Argentina's Wine Country - Horizon Guides",
+   "url": "https://horizonguides.com/guides/a-guide-to-argentinas-wine-regions"
+  },
+  {
+   "title": "Argentinian Wine Guide: Regions, Varieties & Producers",
+   "url": "https://ourglass.wine/blog/the-complete-guide-to-argentinian-wine-regions"
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "iso3": "FRA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 14883,
+  "out": 3982,
+  "searches": 1
+ },
+ "usd": 0.0796,
+ "summary": {
+  "tr": "Fransa'da bağcılık, Galyalılardan önce Yunan ve Roma dönemlerinde başlamış, Orta Çağ'da özellikle Sistersiyen keşişlerin Burgonya'daki 'clos' bağlarıyla kurumsallaşmıştır. Ülke, terroir kavramının ve AOC/AOP adlandırma sisteminin doğduğu yerdir. Bordeaux, Burgonya ve Champagne gibi bölgeler dünya çapında ölçüt kabul edilir. Şarap, Fransız sofra kültürünün ve yemek-şarap uyumunun merkezindedir.",
+  "en": "Viticulture in France began under the Greeks and Romans, and in the Middle Ages it was institutionalised by Cistercian monks, notably in the walled 'clos' vineyards of Burgundy. The country is the birthplace of the terroir concept and the AOC/AOP appellation system. Regions such as Bordeaux, Burgundy and Champagne are global benchmarks. Wine is central to French table culture and to the art of foo"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Bordeaux",
+   "lat": 44.85,
+   "lng": -0.45,
+   "desc": {
+    "tr": "Garonne ve Dordogne nehirleri boyunca uzanan, Médoc, Saint-Émilion, Pomerol ve Sauternes gibi appellation'larıyla ünlü, Cabernet Sauvignon ve Merlot ağırlıklı kırmızı harmanların anavatanıdır.",
+    "en": "Straddling the Garonne and Dordogne rivers, it is famed for Cabernet Sauvignon- and Merlot-based red blends from Médoc, Saint-Émilion and Pomerol, plus sweet Sauternes."
+   },
+   "grapes": [
+    "Merlot",
+    "Cabernet Sauvignon",
+    "Cabernet Franc",
+    "Sémillon",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Bourgogne (Burgundy)",
+   "lat": 47.05,
+   "lng": 4.85,
+   "desc": {
+    "tr": "Chablis'den Mâconnais'ya uzanan, terroir ve tek bağ (climat) anlayışıyla tanınan; Pinot Noir ve Chardonnay'nın dünya ölçütü sayıldığı bölgedir.",
+    "en": "Stretching from Chablis to the Mâconnais, it is known for its terroir- and climat-driven approach and is the benchmark for Pinot Noir and Chardonnay."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Chardonnay",
+    "Gamay",
+    "Aligoté"
+   ]
+  },
+  {
+   "name": "Champagne",
+   "lat": 49.05,
+   "lng": 3.95,
+   "desc": {
+    "tr": "Kireçli toprakları ve serin iklimiyle geleneksel yöntemle üretilen dünyaca ünlü köpüklü şaraba adını veren kuzey bölgesidir.",
+    "en": "A cool, chalky northern region that gave its name to the world's most famous traditional-method sparkling wine."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Pinot Meunier"
+   ]
+  },
+  {
+   "name": "Vallée du Rhône",
+   "lat": 44.5,
+   "lng": 4.8,
+   "desc": {
+    "tr": "Kuzeyde Syrah ile Côte-Rôtie ve Hermitage, güneyde Grenache harmanlarıyla Châteauneuf-du-Pape gibi güçlü kırmızılarıyla bilinir.",
+    "en": "Known for Syrah-based Côte-Rôtie and Hermitage in the north and Grenache-based blends such as Châteauneuf-du-Pape in the south."
+   },
+   "grapes": [
+    "Syrah",
+    "Grenache",
+    "Mourvèdre",
+    "Viognier"
+   ]
+  },
+  {
+   "name": "Vallée de la Loire",
+   "lat": 47.3,
+   "lng": 0.5,
+   "desc": {
+    "tr": "Nehir boyunca Muscadet'ten Sancerre'e, Vouvray'dan Chinon'a uzanan; taze beyazları, köpüklüleri ve hafif kırmızılarıyla çeşitlilik sunar.",
+    "en": "Running along the river from Muscadet to Sancerre, Vouvray and Chinon, it offers a diverse range of fresh whites, sparkling wines and light reds."
+   },
+   "grapes": [
+    "Chenin Blanc",
+    "Sauvignon Blanc",
+    "Melon de Bourgogne",
+    "Cabernet Franc"
+   ]
+  },
+  {
+   "name": "Alsace",
+   "lat": 48.2,
+   "lng": 7.35,
+   "desc": {
+    "tr": "Vosges Dağları'nın yağmur gölgesinde, Riesling ve Gewürztraminer gibi aromatik çeşitlerin adıyla şişelendiği Alman etkili bir bölgedir.",
+    "en": "Sheltered in the rain shadow of the Vosges, it is a Germanic-influenced region that labels its wines by aromatic varieties such as Riesling and Gewürztraminer."
+   },
+   "grapes": [
+    "Riesling",
+    "Gewürztraminer",
+    "Pinot Gris",
+    "Pinot Blanc"
+   ]
+  },
+  {
+   "name": "Languedoc-Roussillon",
+   "lat": 43.4,
+   "lng": 3.0,
+   "desc": {
+    "tr": "Fransa'nın en geniş bağ alanına sahip Akdeniz bölgesidir; bol miktarda Vin de Pays/IGP ile gelişen kaliteli AOP şarapları üretir.",
+    "en": "France's largest vineyard area, a Mediterranean region producing large volumes of IGP wine alongside a growing number of quality AOP wines."
+   },
+   "grapes": [
+    "Grenache",
+    "Carignan",
+    "Syrah",
+    "Mourvèdre"
+   ]
+  },
+  {
+   "name": "Provence",
+   "lat": 43.5,
+   "lng": 6.2,
+   "desc": {
+    "tr": "Dünyanın en ünlü roze şaraplarının üretildiği güneydoğu Akdeniz kıyı bölgesidir.",
+    "en": "A south-eastern Mediterranean coastal region renowned for some of the world's most famous rosé wines."
+   },
+   "grapes": [
+    "Grenache",
+    "Cinsault",
+    "Mourvèdre",
+    "Rolle"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Cabernet Franc",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Loire'da Chinon ve Saumur'ün, Bordeaux'da ise Saint-Émilion harmanlarının önemli bir bileşenidir.",
+    "en": "A key component of Chinon and Saumur in the Loire and of Saint-Émilion blends in Bordeaux."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Burgonya'nın büyük kırmızılarının ve Champagne harmanlarının ince yapılı ana çeşididir.",
+    "en": "The elegant grape behind Burgundy's great reds and a pillar of Champagne blends."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Chablis, Meursault ve Champagne'ın temel beyaz çeşididir.",
+    "en": "The principal white grape of Chablis, Meursault and Champagne."
+   }
+  },
+  {
+   "name": "Chenin Blanc",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Loire'da kuru, yarı kuru, tatlı ve köpüklü pek çok stile dönüşebilen yüksek asitli bir çeşittir.",
+    "en": "A high-acid Loire variety made in dry, off-dry, sweet and sparkling styles."
+   }
+  },
+  {
+   "name": "Sauvignon Blanc",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Sancerre ve Pouilly-Fumé'nin canlı beyazlarını ve Bordeaux'nun beyaz harmanlarını verir.",
+    "en": "Gives the zesty whites of Sancerre and Pouilly-Fumé and features in white Bordeaux blends."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Médoc ve Graves'ın sol yaka kırmızı harmanlarına yapı ve tanen kazandırır.",
+    "en": "Provides structure and tannin to the Left Bank red blends of Médoc and Graves."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Bordeaux'nun en çok dikilen çeşidi olup Saint-Émilion ve Pomerol'ün yumuşak kırmızılarının temelidir.",
+    "en": "Bordeaux's most planted grape and the base of the soft reds of Saint-Émilion and Pomerol."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kuzey Rhône'un Côte-Rôtie ve Hermitage gibi baharatlı, uzun ömürlü kırmızılarının çeşididir.",
+    "en": "The grape of the spicy, age-worthy reds of the northern Rhône, such as Côte-Rôtie and Hermitage."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Champagne",
+   "desc": {
+    "tr": "İkinci fermantasyonun şişede yapıldığı geleneksel yöntemle üretilen, korunan adlı köpüklü şaraptır.",
+    "en": "A protected-name sparkling wine made by the traditional method, with second fermentation in the bottle."
+   }
+  },
+  {
+   "name": "Bordeaux 1855 Sınıflandırması",
+   "desc": {
+    "tr": "1855'te Médoc ve Sauternes şaraplarını 'growth' sıralamasına dizen ve bugün de geçerliliğini koruyan tarihî sınıflandırmadır.",
+    "en": "The 1855 classification ranked Médoc and Sauternes châteaux into 'growths' and remains influential today."
+   }
+  },
+  {
+   "name": "Grand Cru Bourgogne",
+   "desc": {
+    "tr": "Burgonya'da en seçkin tek bağ (climat) parsellerinden elde edilen en üst kalite düzeyindeki şaraplardır.",
+    "en": "Burgundy's top tier, made from its most distinguished individual vineyard sites (climats)."
+   }
+  },
+  {
+   "name": "Châteauneuf-du-Pape",
+   "desc": {
+    "tr": "Güney Rhône'da, Grenache öncülüğünde ve en fazla on üç çeşide izin veren harmanlarla yapılan güçlü kırmızı appellation'dır.",
+    "en": "A powerful southern Rhône appellation whose red blends are led by Grenache and permit up to thirteen varieties."
+   }
+  },
+  {
+   "name": "Provence Rosé",
+   "desc": {
+    "tr": "Soluk renkli, kuru ve taze roze şaraplarıyla dünya roze üretiminin referansı sayılır.",
+    "en": "Pale, dry and fresh rosé that is a global reference point for the style."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bordeaux wine regions",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux_wine_regions"
+  },
+  {
+   "title": "Everything You Need to Know About French Wine Regions in Under 5 Minutes",
+   "url": "https://www.tastefrance.com/us/magazine/wine/everything-you-need-know-about-french-wine-regions-under-5-minutes"
+  },
+  {
+   "title": "France Wine Region",
+   "url": "https://winefolly.com/wine-regions/france/"
+  },
+  {
+   "title": "Map of France Wine Regions",
+   "url": "https://www.winepaths.com/articles/editorial/france/explore-wine-in-france-from-champagne-to-languedoc"
+  },
+  {
+   "title": "A guide to France’s wine regions and vineyards",
+   "url": "https://www.atelierduvin.com/en/a-quick-guide-to-frances-wine-regions-and-vineyards/"
+  },
+  {
+   "title": "Bordeaux wine",
+   "url": "https://en.wikipedia.org/wiki/Bordeaux_wine"
+  },
+  {
+   "title": "Map of French vineyards - wine growing areas of France",
+   "url": "https://about-france.com/wine-map"
+  },
+  {
+   "title": "Wine Regions of France Map: Bordeaux, Burgundy & More",
+   "url": "https://viavinumwinetours.com/en/wine-regions-of-france/"
+  }
+ ]
+}

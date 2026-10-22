@@ -1,0 +1,125 @@
+{
+ "iso3": "ITA",
+ "model": "claude-haiku-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 39027,
+  "out": 4185,
+  "searches": 4
+ },
+ "usd": 0.046,
+ "restaurants": [
+  {
+   "name": "Da Enzo al 29",
+   "city": "Rome",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Trastevere'de aile işletmesi olarak çalışan, cucina romana'yı doğru malzemelerle sunan ve Time Out'un 2025 listesinde Roma'nın en iyi restoranı seçilen klasik bir trattoria.",
+    "en": "A family-run Trastevere trattoria, named Rome's top restaurant in Time Out's 2025 ranking, known for classic Roman dishes like carbonara and amatriciana."
+   },
+   "price": 2,
+   "url": "https://www.timeout.com/news/this-is-officially-the-best-restaurant-in-rome-for-2025-031425"
+  },
+  {
+   "name": "Armando al Pantheon",
+   "city": "Rome",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "1961'den beri Pantheon yakınında hizmet veren, amatriciana ve saltimbocca alla romana gibi yemeklerle Roma mutfağının ölçü noktası kabul edilen efsanevi trattoria.",
+    "en": "A legendary trattoria open since 1961 near the Pantheon, serving benchmark Roman dishes such as amatriciana and saltimbocca alla romana."
+   },
+   "price": 2,
+   "url": "https://www.romesomuch.com/post/best-20-restaurants-in-rome-in-2025"
+  },
+  {
+   "name": "Enoteca Pinchiorri",
+   "city": "Florence",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Üç Michelin yıldızı olan, Toskana mutfağını dünyaca ünlü şarap koleksiyonu ve ustalıklı servisle sunan Floransa'nın en prestijli fine dining adresi.",
+    "en": "A three-Michelin-star Florentine restaurant combining refined Tuscan cuisine with a renowned wine cellar and impeccable service."
+   },
+   "price": 4,
+   "url": "https://www.firenzemadeintuscany.com/en/article/guide-michelin-all-starred-restaurants-florence-toscana/"
+  },
+  {
+   "name": "Trattoria Sostanza",
+   "city": "Florence",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Yalnızca sekiz ortak masası bulunan, otantik Toskana yemekleri ve kızarmış bistecca alla fiorentina ile bilinen küçük ve geleneksel bir trattoria.",
+    "en": "A tiny trattoria with just eight communal tables, known for its butter chicken, artichoke pie and bistecca alla fiorentina."
+   },
+   "price": 2,
+   "url": "https://www.corner.inc/guides/florence/florence/molto-autentico-best-traditional-trattorias-in-florence"
+  },
+  {
+   "name": "Antica Trattoria da Burde",
+   "city": "Florence",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "1901'de kurulan ve hâlâ aile işletmesi olarak devam eden, ribollita, peposo ve ızgara Floransa bistecca'sıyla tanınan tarihi bir Floransa lokantası.",
+    "en": "A family-run historic trattoria founded in 1901, known for ribollita, peposo and grilled Florentine steak."
+   },
+   "price": 2,
+   "url": "https://www.sichef.cooking/en/luoghi-storici-della-cucina-toscana-da-visitare/"
+  },
+  {
+   "name": "All'Osteria Bottega",
+   "city": "Bologna",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Bologna'nın arka sokaklarında yer alan, sade Emilia mutfağını; salumi, taze makarna ve geleneksel tarifleriyle sunan, Michelin Selected olarak listelenen bir trattoria.",
+    "en": "A traditional trattoria on a quiet Bologna side street serving unadulterated Emilian cooking such as cured meats and fresh pasta, listed as Michelin Selected."
+   },
+   "price": 2,
+   "url": "https://www.bolognawelcome.com/en/blog/michelin-selected-restaurants-in-bologna"
+  },
+  {
+   "name": "Osteria Francescana",
+   "city": "Modena",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Massimo Bottura'nın üç Michelin yıldızlı restoranı; İtalyan mutfağını yenilikçi biçimde yorumlayan ve iki kez dünyanın en iyi restoranı seçilen küresel bir İtalyan simgesi.",
+    "en": "Massimo Bottura's three-Michelin-star restaurant, a global icon of reinterpreted Italian cuisine that has twice been named the world's best restaurant."
+   },
+   "price": 4,
+   "url": "https://www.tastebologna.net/blog/michelin-restaurant-bologna"
+  }
+ ],
+ "dropped": [],
+ "sources": [
+  {
+   "title": "this is officially the best restaurant in rome for 2025 031425",
+   "url": "https://www.timeout.com/news/this-is-officially-the-best-restaurant-in-rome-for-2025-031425"
+  },
+  {
+   "title": "🍝 BEST 20 RESTAURANTS IN ROME in 2025",
+   "url": "https://www.romesomuch.com/post/best-20-restaurants-in-rome-in-2025"
+  },
+  {
+   "title": "Michelin Guide 2026: all starred restaurants in Tuscany",
+   "url": "https://www.firenzemadeintuscany.com/en/article/guide-michelin-all-starred-restaurants-florence-toscana/"
+  },
+  {
+   "title": "Molto Autentico: Best Traditional Trattorias in Florence",
+   "url": "https://www.corner.inc/guides/florence/florence/molto-autentico-best-traditional-trattorias-in-florence"
+  },
+  {
+   "title": "Historic Tuscan Cuisine Spots to Visit: A Journey Through Authentic Flavors and Tradition - Sichef.cooking",
+   "url": "https://www.sichef.cooking/en/luoghi-storici-della-cucina-toscana-da-visitare/"
+  },
+  {
+   "title": "2026 Bologna best restaurants by the Michelin Guide - Bologna Welcome",
+   "url": "https://www.bolognawelcome.com/en/blog/michelin-selected-restaurants-in-bologna"
+  },
+  {
+   "title": "11 Best Michelin Restaurants in Bologna & Nearby (2026 Update)",
+   "url": "https://www.tastebologna.net/blog/michelin-restaurant-bologna"
+  },
+  {
+   "title": "Roma a Tavola: The Best Restaurants in Rome - Italy Segreta - Travel",
+   "url": "https://italysegreta.com/roma-a-tavola-best-restaurants/"
+  }
+ ]
+}

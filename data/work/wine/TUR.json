@@ -1,0 +1,250 @@
+{
+ "iso3": "TUR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23207,
+  "out": 4977,
+  "searches": 2
+ },
+ "usd": 0.1162,
+ "summary": {
+  "tr": "Anadolu, asmanın ilk evcilleştirildiği bölgelerden biri sayılır. Hitit tabletleri şarap üretimini M.Ö. 2000'lerde düzenlemiştir ve Osmanlı döneminde şarapçılığı büyük ölçüde gayrimüslim topluluklar sürdürmüştür. Cumhuriyet'ten sonra 1925'te Tekirdağ'da devlet şaraphanesi kurulmuş, 20. yüzyılın büyük bölümünde Tekel sektöre egemen olmuştur. Günümüzde üzümün yalnızca küçük bir bölümü şaraba işlenir ",
+  "en": "Anatolia is regarded as one of the places where the grapevine was first domesticated, and Hittite tablets regulated wine production as early as around 2000 BCE. Under the Ottomans, winemaking was kept alive largely by non-Muslim communities. After the Republic was founded, a state winery opened in Tekirdağ in 1925, and the Tekel monopoly dominated the trade for much of the 20th century. Only a sma"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Trakya ve Marmara (Tekirdağ, Şarköy)",
+   "lat": 40.95,
+   "lng": 27.3,
+   "desc": {
+    "tr": "Ülke şarabının önemli bir bölümünü veren, Doluca gibi köklü şaraphanelere ev sahipliği yapan ve Papazkarası ile uluslararası çeşitlerin yetiştirildiği denizel iklimli bölgedir.",
+    "en": "A maritime-climate region producing a large share of the country's wine, home to long-established wineries such as Doluca, and growing Papazkarası alongside international varieties."
+   },
+   "grapes": [
+    "Papazkarası",
+    "Kalecik Karası",
+    "Cabernet Sauvignon",
+    "Chardonnay",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Ege (Urla, Manisa, Denizli)",
+   "lat": 38.3,
+   "lng": 27.5,
+   "desc": {
+    "tr": "Antik çağlardan beri şarap ticaretiyle bilinen, Urla Bağ Yolu ile şarap turizminin öne çıktığı Akdeniz iklimli kıyı ve iç kesimlerdir.",
+    "en": "Mediterranean-climate coast and inland areas with wine trade dating back to antiquity, now known for wine tourism along the Urla Vineyard Route."
+   },
+   "grapes": [
+    "Sultaniye",
+    "Bornova Misketi",
+    "Çalkarası",
+    "Syrah",
+    "Kalecik Karası"
+   ]
+  },
+  {
+   "name": "Bozcaada",
+   "lat": 39.83,
+   "lng": 26.07,
+   "desc": {
+    "tr": "Çanakkale açıklarındaki, asmacılık geleneği güçlü olan ve Kuntra (Karasakız) gibi yerel çeşitleriyle tanınan adadır.",
+    "en": "An island off Çanakkale with a strong grape-growing tradition, known for local varieties such as Karasakız (Kuntra)."
+   },
+   "grapes": [
+    "Karasakız",
+    "Vasilaki",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Kapadokya",
+   "lat": 38.63,
+   "lng": 34.91,
+   "desc": {
+    "tr": "Volkanik tüf topraklı, yüksek rakımlı bağlarıyla beyaz Emir üzümünün ana yurdudur.",
+    "en": "High-altitude vineyards on volcanic tuff soils, the home of the white Emir grape."
+   },
+   "grapes": [
+    "Emir",
+    "Öküzgözü",
+    "Kalecik Karası",
+    "Dimrit"
+   ]
+  },
+  {
+   "name": "Ankara – Kalecik",
+   "lat": 40.1,
+   "lng": 33.41,
+   "desc": {
+    "tr": "Kalecik Karası üzümünün anavatanıdır ve Kavaklıdere gibi ilk özel şaraphanelerin kurulduğu çevredir.",
+    "en": "The homeland of the Kalecik Karası grape, and the area around Ankara where early private wineries such as Kavaklıdere were founded."
+   },
+   "grapes": [
+    "Kalecik Karası",
+    "Emir",
+    "Öküzgözü",
+    "Boğazkere"
+   ]
+  },
+  {
+   "name": "Tokat",
+   "lat": 40.31,
+   "lng": 36.55,
+   "desc": {
+    "tr": "Narince üzümünün yerel yurdu olan, kumlu topraklı İç Karadeniz bölgesidir.",
+    "en": "A sandy-soiled inland Black Sea area that is the native home of the Narince grape."
+   },
+   "grapes": [
+    "Narince",
+    "Kalecik Karası"
+   ]
+  },
+  {
+   "name": "Elazığ ve Diyarbakır",
+   "lat": 38.2,
+   "lng": 39.8,
+   "desc": {
+    "tr": "Öküzgözü ve Boğazkere gibi Türkiye'nin en karakteristik yerli kırmızı üzümlerinin yetiştiği Doğu ve Güneydoğu Anadolu bağlarıdır.",
+    "en": "Eastern and Southeastern Anatolian vineyards where Türkiye's most characteristic native red grapes, Öküzgözü and Boğazkere, are grown."
+   },
+   "grapes": [
+    "Öküzgözü",
+    "Boğazkere"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Öküzgözü",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Elazığ kökenli, adı \"öküz gözü\" anlamına gelen; yumuşak tanenli, meyveli ve canlı asitli kırmızı şaraplar verir.",
+    "en": "Native to Elazığ and named for the 'ox eye'; gives fruity, juicy reds with soft tannins and lively acidity."
+   }
+  },
+  {
+   "name": "Boğazkere",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Diyarbakır kökenli, yüksek tanenli, gövdeli ve yaşlandırmaya uygun bir üzümdür; geleneksel olarak Öküzgözü ile harmanlanır.",
+    "en": "Native to Diyarbakır, a high-tannin, full-bodied and age-worthy grape traditionally blended with Öküzgözü."
+   }
+  },
+  {
+   "name": "Kalecik Karası",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Ankara'nın Kalecik ilçesinden gelen, yeniden keşfedilmiş, kırmızı meyve aromalı orta gövdeli şaraplar veren zarif bir üzümdür.",
+    "en": "From the Kalecik district near Ankara; a rediscovered, elegant grape making medium-bodied reds with red-fruit aromas."
+   }
+  },
+  {
+   "name": "Papazkarası",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Trakya'nın başlıca yerli kırmızısı olup düşük tanenli, aromatik ve baharatlı şaraplar verir.",
+    "en": "Thrace's flagship native red, making low-tannin, aromatic wines with spicy, earthy character."
+   }
+  },
+  {
+   "name": "Narince",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Tokat kökenli, ülkenin önde gelen yerli beyaz üzümüdür; dengeli asitli, meyveli ve köpüklü şaraba da uygundur.",
+    "en": "Native to Tokat and the country's leading indigenous white; balanced in acidity, fruity, and also suited to sparkling wine."
+   }
+  },
+  {
+   "name": "Emir",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kapadokya'nın volkanik topraklarında yetişen, hafif çiçeksi ve mineral notalı, ferah beyaz şaraplar veren bir üzümdür.",
+    "en": "Grown on Cappadocia's volcanic soils, it gives fresh whites with subtle floral and mineral notes."
+   }
+  },
+  {
+   "name": "Çalkarası",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Ege'nin iç kesimlerinde, özellikle Denizli çevresinde yetiştirilen, hafif gövdeli ve meyveli kırmızı ve roze şaraplarda kullanılan yerli bir çeşittir.",
+    "en": "A native variety of the inland Aegean, especially around Denizli, used for light, fruity reds and rosés."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Öküzgözü–Boğazkere blend",
+   "desc": {
+    "tr": "Öküzgözü'nün meyveli yumuşaklığı ile Boğazkere'nin tanen ve yapısını birleştiren, Doğu Anadolu'nun klasik kırmızı harmanıdır.",
+    "en": "The classic eastern Anatolian red blend, combining Öküzgözü's fruity softness with Boğazkere's tannin and structure."
+   }
+  },
+  {
+   "name": "Kapadokya Emir",
+   "desc": {
+    "tr": "Volkanik topraklı yüksek bağlardan gelen, ferah ve mineral yapılı kuru beyaz şaraptır; köpüklü de yapılır.",
+    "en": "A fresh, mineral dry white from high volcanic vineyards, also made as a sparkling wine."
+   }
+  },
+  {
+   "name": "Kalecik Karası (kırmızı, roze, köpüklü)",
+   "desc": {
+    "tr": "Kalecik Karası; kırmızı ve roze olmanın yanında geleneksel yöntemle köpüklü şarap olarak da üretilir.",
+    "en": "Kalecik Karası is made as red and rosé and also as traditional-method sparkling wine."
+   }
+  },
+  {
+   "name": "Tokat Narince",
+   "desc": {
+    "tr": "Kayısı, armut ve ayva aromalı, bazen meşe görmüş, balık ve zeytinyağlı sebze yemeklerine uygun beyaz şaraptır.",
+    "en": "A white wine with apricot, pear and quince notes, sometimes oaked, that pairs well with fish and olive-oil vegetable dishes."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Know what you drink: popular grape varieties in Turkey",
+   "url": "https://www.theguideistanbul.com/grape-varieties-turkey/"
+  },
+  {
+   "title": "Wines of Turkey: A journey through Turkish wines",
+   "url": "https://www.wsetglobal.com/knowledge-centre/blog/2023/june/13/exploring-the-wines-of-tuerkiye-turkey"
+  },
+  {
+   "title": "Indigenous Wine Grapes of Turkey - Istanbul Insider -",
+   "url": "https://theistanbulinsider.com/indigenous-wine-grapes-of-turkey/"
+  },
+  {
+   "title": "List of Turkish wine regions",
+   "url": "https://en.wikipedia.org/wiki/List_of_Turkish_wine_regions"
+  },
+  {
+   "title": "Bo%C4%9Fazkere",
+   "url": "https://en.wikipedia.org/wiki/Bo%C4%9Fazkere"
+  },
+  {
+   "title": "Turkish Wine Regions: 4 Wineries for Native Grapes",
+   "url": "https://www.enprimeurclub.com/guide/turkish-wine-regions-4-wineries-for-indigenous-grapes"
+  },
+  {
+   "title": "%C3%96k%C3%BCzg%C3%B6z%C3%BC",
+   "url": "https://en.wikipedia.org/wiki/%C3%96k%C3%BCzg%C3%B6z%C3%BC"
+  },
+  {
+   "title": "Kavakl%C4%B1dere (winery)",
+   "url": "https://en.wikipedia.org/wiki/Kavakl%C4%B1dere_(winery)"
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "iso3": "GEO",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23976,
+  "out": 4262,
+  "searches": 2
+ },
+ "usd": 0.1106,
+ "summary": {
+  "tr": "Gürcistan, yaklaşık 8.000 yıllık üzüm yetiştiriciliği ve şarapçılık geleneğiyle sıkça \"şarabın beşiği\" olarak anılır. Toprağa gömülü kil küplerde (kvevri) şarap yapma yöntemi 2013'te UNESCO Somut Olmayan Kültürel Miras Listesi'ne alınmıştır. Ülkede 500'den fazla yerli üzüm çeşidi vardır. Sovyet dönemindeki kitlesel üretimin ardından 1991 sonrasında aile işletmeleri ve kvevri şarapları, özellikle d",
+  "en": "Georgia, often called the \"cradle of wine\", has a winemaking and viticultural tradition of about 8,000 years. In 2013 UNESCO inscribed its method of making wine in buried clay vessels (qvevri) on the Intangible Cultural Heritage list. The country has more than 500 indigenous grape varieties. After the mass production of the Soviet era, family wineries and qvevri wines, above all amber wines, regai"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kakheti",
+   "lat": 41.92,
+   "lng": 45.5,
+   "desc": {
+    "tr": "Ülke bağlarının ve şarap üretiminin çoğunu barındıran, Alazani Vadisi'ndeki doğu bölgesidir; Saperavi kırmızıları ve kehribar şarapları ile tanınır.",
+    "en": "The eastern heartland in the Alazani Valley, home to most of the country's vineyards and wine output, known for Saperavi reds and amber wines."
+   },
+   "grapes": [
+    "Saperavi",
+    "Rkatsiteli",
+    "Mtsvane Kakhuri",
+    "Kisi"
+   ]
+  },
+  {
+   "name": "Kartli",
+   "lat": 41.95,
+   "lng": 44.2,
+   "desc": {
+    "tr": "Tiflis çevresindeki merkezî bölgedir; eski krallara şarap sağladığı söylenir, bugün ferah beyazları ve köpüklü şarapları ile bilinir.",
+    "en": "The central region around Tbilisi, said to have supplied wine to Georgia's kings, and known today for crisp whites and sparkling wines."
+   },
+   "grapes": [
+    "Chinuri",
+    "Goruli Mtsvane",
+    "Tavkveri",
+    "Shavkapito"
+   ]
+  },
+  {
+   "name": "Imereti",
+   "lat": 42.25,
+   "lng": 42.8,
+   "desc": {
+    "tr": "Daha ılıman iklimiyle, daha taze ve asiditesi yüksek, kabuk temasının daha az olduğu şaraplarıyla tanınan batı bölgesidir.",
+    "en": "A western region with a milder climate, known for fresher, higher-acid wines made with less skin contact."
+   },
+   "grapes": [
+    "Tsolikouri",
+    "Tsitska",
+    "Krakhuna"
+   ]
+  },
+  {
+   "name": "Racha-Lechkhumi",
+   "lat": 42.55,
+   "lng": 43.3,
+   "desc": {
+    "tr": "Kafkas eteklerindeki küçük ve dağlık bölgedir; Khvanchkara gibi yarı tatlı kırmızılarıyla ünlüdür.",
+    "en": "A small mountainous region in the Caucasus foothills, famous for semi-sweet reds such as Khvanchkara."
+   },
+   "grapes": [
+    "Aleksandrouli",
+    "Mujuretuli",
+    "Usakhelouri"
+   ]
+  },
+  {
+   "name": "Samegrelo",
+   "lat": 42.5,
+   "lng": 42.2,
+   "desc": {
+    "tr": "Batı Gürcistan'ın nemli, subtropikal bölgesidir; meyve ağırlıklı Ojaleshi kırmızısı ile bilinir.",
+    "en": "A humid, subtropical region of western Georgia known for the fruit-forward red Ojaleshi."
+   },
+   "grapes": [
+    "Ojaleshi"
+   ]
+  },
+  {
+   "name": "Guria",
+   "lat": 41.95,
+   "lng": 42.05,
+   "desc": {
+    "tr": "Karadeniz kıyısına yakın, Adjara ile birlikte açık pembe veya hafif kırmızı Chkhaveri şarabıyla bilinen bölgedir.",
+    "en": "A Black Sea coastal region which, together with Adjara, is known for the pink to light-red Chkhaveri wine."
+   },
+   "grapes": [
+    "Chkhaveri",
+    "Tsolikouri"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Saperavi",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Etinin de renkli olduğu (teinturier) bu çeşit, koyu renkli ve uzun ömürlü şaraplar verir; ülkenin en önemli kırmızı üzümüdür.",
+    "en": "A teinturier grape with red-fleshed berries, it gives deeply coloured, age-worthy wines and is Georgia's flagship red."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Gürcistan'ın en çok ekilen beyaz çeşididir ve kuru beyaz, kehribar ve beyaz sek şarapların temelini oluşturur.",
+    "en": "Georgia's most widely planted white grape, the base of dry white, amber and fortified wines."
+   }
+  },
+  {
+   "name": "Mtsvane Kakhuri",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Şeftali, çiçek ve narenciye aromalı bu Kakheti çeşidi, Tsinandali karışımında Rkatsiteli ile birleşir.",
+    "en": "This Kakheti grape has white peach, floral and citrus aromas and is blended with Rkatsiteli in Tsinandali."
+   }
+  },
+  {
+   "name": "Kisi",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Aromatik bir Kakheti çeşididir ve özellikle kvevri'de yapılan dokulu kehribar şaraplarıyla öne çıkar.",
+    "en": "An aromatic Kakheti grape, prized especially for its textured amber wines made in qvevri."
+   }
+  },
+  {
+   "name": "Chinuri",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kartli'de yetişen yüksek asiditeli bu çeşit, köpüklü ve ferah beyaz şaraplarda kullanılır.",
+    "en": "A high-acid grape of Kartli used for sparkling and crisp still white wines."
+   }
+  },
+  {
+   "name": "Tsolikouri",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Batı Gürcistan'ın, özellikle Imereti'nin, canlı ve taze beyaz şaraplarını veren çeşididir.",
+    "en": "A western Georgian grape, especially in Imereti, that gives lively, fresh white wines."
+   }
+  },
+  {
+   "name": "Aleksandrouli",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Racha'nın ünlü yarı tatlı Khvanchkara şarabında Mujuretuli ile harmanlanan nadir bir kırmızı çeşittir.",
+    "en": "A rare red grape blended with Mujuretuli in Racha's famed semi-sweet Khvanchkara."
+   }
+  },
+  {
+   "name": "Ojaleshi",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Samegrelo'ya özgü bu kırmızı çeşit, meyve ağırlıklı ve canlı şaraplar verir.",
+    "en": "A red grape native to Samegrelo that makes fruit-forward, lively wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Qvevri / Amber wine",
+   "desc": {
+    "tr": "Beyaz üzümlerin kabuk ve saplarıyla birlikte toprağa gömülü kil küplerde mayalandığı, UNESCO tarafından tescilli geleneksel yöntemle yapılan kehribar renkli şaraplardır.",
+    "en": "Amber-coloured wines made by fermenting white grapes with skins in buried clay qvevri, a method recognised by UNESCO."
+   }
+  },
+  {
+   "name": "Tsinandali PDO",
+   "desc": {
+    "tr": "Kakheti'de Rkatsiteli ile sınırlı oranda Mtsvane Kakhuri'den yapılan, ülkenin en tarihî kuru beyaz şarabıdır.",
+    "en": "A dry white from Kakheti, made from Rkatsiteli with a limited share of Kakhuri Mtsvane, and Georgia's most historic white appellation."
+   }
+  },
+  {
+   "name": "Mukuzani PDO",
+   "desc": {
+    "tr": "Saperavi'den yapılan, geleneksel olarak meşede olgunlaştırılan, yapılı ve uzun ömürlü kuru kırmızı şaraptır.",
+    "en": "A dry red from Saperavi, traditionally oak-aged, structured and age-worthy."
+   }
+  },
+  {
+   "name": "Kindzmarauli PDO",
+   "desc": {
+    "tr": "Kvareli yöresinde Saperavi'den yapılan, fermantasyonu doğal olarak durduğu için yarı tatlı kalan kırmızı şaraptır.",
+    "en": "A naturally semi-sweet red made from Saperavi in the Kvareli area, where fermentation stops naturally and leaves residual sugar."
+   }
+  },
+  {
+   "name": "Khvanchkara PDO",
+   "desc": {
+    "tr": "Racha-Lechkhumi'de Aleksandrouli ve Mujuretuli'den yapılan, ünlü yarı tatlı kırmızı şaraptır.",
+    "en": "A famous semi-sweet red from Racha-Lechkhumi made from Aleksandrouli and Mujuretuli."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "schiller-wine: Georgia Wine Tour 2019: Discovering the Birthplace of Wine",
+   "url": "http://schiller-wine.blogspot.com/2019/10/georgia-wine-tour-2019-discovering.html"
+  },
+  {
+   "title": "Tracing the Wine Road: Georgia’s 8,000-Year Winemaking Legacy",
+   "url": "https://www.iwsc.net/news/wine/georgias-winemaking-heritage-a-story-of-tradition-and-innovation"
+  },
+  {
+   "title": "Georgian Wine: Exploring the World's Oldest Winemaking Tradition",
+   "url": "https://georgia.travel/georgia-the-cradle-of-wine"
+  },
+  {
+   "title": "The Cradle of Wine - Georgia",
+   "url": "https://georgia.travel/georgian-wine"
+  },
+  {
+   "title": "Georgian wine",
+   "url": "https://en.wikipedia.org/wiki/Georgian_wine"
+  },
+  {
+   "title": "Georgian Wine: 8000 Years and a Modern Revival",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/georgia-wines-8-000-years-of-tradition-a-modern-renaissance"
+  },
+  {
+   "title": "Saperavi",
+   "url": "https://en.wikipedia.org/wiki/Saperavi"
+  },
+  {
+   "title": "georgian wine history",
+   "url": "https://zenishi.ge/georgian-wine-history.html"
+  }
+ ]
+}

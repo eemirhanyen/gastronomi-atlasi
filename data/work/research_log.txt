@@ -1,0 +1,14 @@
+wine: 5 ülke, model claude-sonnet-5-5
+  ARG: 6 bölge, 7 üzüm, 2 arama, $0.108
+  FRA: 8 bölge, 8 üzüm, 1 arama, $0.080
+  GEO: 6 bölge, 8 üzüm, 2 arama, $0.111
+  ITA: 7 bölge, 8 üzüm, 2 arama, $0.110
+  TUR: 7 bölge, 7 üzüm, 2 arama, $0.116
+wine: 5 tamam, 0 hata; bu çalıştırma $0.524 (9 arama, 109152 giriş / 21603 çıkış token); araştırma toplamı $0.52
+restaurants: 5 ülke, model claude-haiku-5-5
+  ARG: 8 restoran, 0 elendi, 3 arama, $0.035
+  FRA: 8 restoran, 0 elendi, 4 arama, $0.046
+  GEO: 7 restoran, 0 elendi, 3 arama, $0.035
+  ITA: 7 restoran, 0 elendi, 4 arama, $0.046
+  TUR: 8 restoran, 0 elendi, 3 arama, $0.036
+restaurants: 5 tamam, 0 hata; bu çalıştırma $0.198 (17 arama, 173853 giriş / 21813 çıkış token); araştırma toplamı $0.72
