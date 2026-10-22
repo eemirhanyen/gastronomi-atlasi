@@ -307,7 +307,7 @@
       .pointsMerge(true)
       .pointsTransitionDuration(0)
       .polygonsTransitionDuration(200)
-      .htmlElementsData(S.geo.features)
+      .htmlElementsData(S.geo.features.filter(function (f) { return S.index[f.properties.iso]; }))
       .htmlLat(function (f) { return f.properties.ly; })
       .htmlLng(function (f) { return f.properties.lx; })
       .htmlAltitude(0.015)
@@ -695,7 +695,7 @@
   function start() {
     try { var saved = localStorage.getItem("ga-lang"); if (saved && T[saved]) lang = saved; } catch (e) { /* yok */ }
     Promise.all([
-      getJSON("data/ne_110m_countries.geojson"),
+      getJSON("data/countries.geojson"),
       getJSON("data/index.json").catch(function () { return { countries: [] }; }),
       getJSON("data/search.json").catch(function () { return []; })
     ]).then(function (r) {
@@ -711,6 +711,6 @@
       fromHash();
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
   }
-  window.GA = { state: S, selectCountry: selectCountry, openRecipe: openRecipe };
+  window.GA = { state: S, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };
   start();
 })();
