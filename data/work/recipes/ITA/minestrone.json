@@ -65,7 +65,7 @@
    "Süzülmüş kuru fasulyeyi ekleyip 5 dakika daha pişirin.",
    "Makarnayı ekleyin ve paket talimatına göre al dente olana kadar, genellikle 8-10 dakika pişirin. Makarna çorbayı emer, bu yüzden tencerede hemen servis edin.",
    "Defne yaprağını ve parmesan kabuğunu çıkarın, tuz ve karabiberle tadını ayarlayın.",
-   "Çorbayı kaselere paylaştırın, üzerine rendelenmiş parmesanı ve ince kıyılmış fesleğen yapraklarını serpip sıcak servis yapın."
+   "Çorbayı kaselere paylaştırın, üzerine rendelenmiş parmesanı ve elle yırtılmış fesleğen yapraklarını serpip sıcak servis yapın."
   ],
   "en": [
    "Heat the olive oil in a large pot over medium-high heat, add the pancetta and fry for about 3 minutes until the fat renders.",
@@ -80,8 +80,17 @@
   ]
  },
  "tip": {
-  "tr": "Parmesan kabuğunu çorbaya atmadan saklayın; pişerken çorbaya derin bir umami tadı verir. Makarnayı servisten önce ekleyin, bekletirseniz çorba koyulaşır.",
+  "tr": "Parmesan kabuklarını dondurucuda saklayın; çorba kaynarken bunlardan birini tencereye ekleyin, derin ve lezzetli bir umami tadı verir. Makarnayı servisten hemen önce pişirin, bekletirseniz şişip çorbayı koyulaştırır.",
   "en": "Save Parmesan rinds in the freezer and add one to the pot while the soup simmers for a deep, savoury flavour. Cook the pasta just before serving, as it swells and thickens the soup if left to stand."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to keep the Parmesan rind without putting it in the soup, but the English tip says to add one to the pot while it simmers. The Turkish also omits the freezer storage detail.",
+   "Turkish final step says 'ince kıyılmış' (finely chopped) basil, but the English says 'torn' basil leaves."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

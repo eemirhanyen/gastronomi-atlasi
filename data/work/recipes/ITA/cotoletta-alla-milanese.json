@@ -18,7 +18,7 @@
    "2 büyük yumurta",
    "15 ml tam yağlı süt",
    "150 g ince kıvamlı kuru galeta unu",
-   "80 g tuzsuz tereyağı",
+   "120 g tuzsuz tereyağı",
    "İnce deniz tuzu",
    "Taze çekilmiş karabiber",
    "1 limon, dilimlenmiş"
@@ -29,7 +29,7 @@
    "2 large eggs",
    "15 ml whole milk",
    "150 g fine dried breadcrumbs",
-   "80 g unsalted butter",
+   "120 g unsalted butter",
    "Fine sea salt",
    "Freshly ground black pepper",
    "1 lemon, cut into wedges"
@@ -43,7 +43,7 @@
    "Her kotleti sırasıyla una bulayın, fazlasını silkeleyin; çırpılmış yumurtaya batırın ve galeta ununda iki yüzünü de bastırarak iyice kaplayın.",
    "Kaplanmış kotletleri bir tele dizin ve oda sıcaklığında 15 dakika dinlendirin. Bu, kaplamanın kızartma sırasında dökülmesini önler.",
    "Geniş bir tavada tereyağını orta ateşte eritin, köpüğü azaldığında kotletleri ekleyin.",
-   "Her iki yüzünü 4-5 dakikada altın rengi olana kadar kızartın. Kotletlerin iç sıcaklığı 63°C'ye ulaşmalıdır. Gerekirse ateşi biraz düşürün.",
+   "Her bir yüzünü 4-5 dakika, altın rengi olana kadar kızartın. Kotletlerin iç sıcaklığı 63°C'ye ulaşmalıdır. Gerekirse ateşi biraz düşürün.",
    "Pişen kotletleri kağıt havlu üzerine alın, sıcak tutmak için 80°C'lik fırında bekletin.",
    "Sıcak servis yapın, yanına limon dilimlerini koyun ve sıkarak yiyin."
   ],
@@ -63,5 +63,14 @@
   "tr": "Kotleti tereyağında, bol yağda kızartın ve galeta unu kaplamasını iyice bastırın; böylece kabarık, altın rengi bir kabuk oluşur.",
   "en": "Fry in plenty of butter rather than oil and press the breadcrumbs firmly into the meat; this creates the puffy, golden crust the dish is known for."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says both sides together take 4-5 minutes ('Her iki yüzünü 4-5 dakikada'), but the English says 4-5 minutes per side. The Turkish timing needs to match the English.",
+   "80 g butter is small for shallow-frying four bone-in chops in butter, and it conflicts with the tip's advice to use plenty of butter. Raised to 120 g in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

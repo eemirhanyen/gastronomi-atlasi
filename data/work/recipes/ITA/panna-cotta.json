@@ -35,7 +35,7 @@
   "tr": [
    "Jelatini 30 ml soğuk suyun üzerine serpin ve 5 dakika bekleyerek şişmesini sağlayın.",
    "Vanilya çubuğunu uzunlamasına ikiye kesin ve tohumlarını bir bıçakla kazıyıp çubuğla birlikte bir tencereye koyun.",
-   "Tencereye ağır kremayı, sütü ve şekeri ekleyin. Orta ateşte, sürekli karıştırarak şeker eriyene ve karışım kaynamaya yakın ılınana kadar ısıtın; kaynatmayın.",
+   "Tencereye ağır kremayı, sütü ve şekeri ekleyin. Orta ateşte, sürekli karıştırarak şeker eriyene ve karışım kaynamaya yakın ısınana kadar ısıtın; kaynatmayın.",
    "Tencereyi ocaktan alın, vanilya çubuğunu çıkarın. Şişmiş jelatini ekleyip tamamen eriyene kadar karıştırın.",
    "Karışımı ince süzgeçten geçirerek bir sürahiye alın ve dört kaseye veya bardağa eşit paylaştırın.",
    "Oda sıcaklığında soğumaya bırakın, sonra üzerlerini örtüp en az 4 saat buzdolabında donmadan kıvam alana kadar bekletin.",
@@ -55,5 +55,13 @@
   "tr": "Kremayı asla kaynatmayın; kaynama, jelatinin gücünü azaltır ve tatlı sert değil lastik kıvamlı olabilir. Kalıptan çıkarmak isterseniz kalıbı 10 saniye ılık suya batırın.",
   "en": "Never let the cream boil, as it weakens the gelatin and can make the texture rubbery. To unmold, dip the mould in warm water for 10 seconds before turning it out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says the cream should be heated until it is 'ılınana' (lukewarm), but the English says 'warm and just under a simmer'. The Turkish should say 'ısınana' (heated) to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

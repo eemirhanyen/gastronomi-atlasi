@@ -17,7 +17,7 @@
    "350 ml ılık su",
    "7 g kuru maya (instant)",
    "10 g tuz",
-   "100 ml zeytinyağı (40 ml hamur, 60 ml fırın tepsisi ve üst için)",
+   "140 ml zeytinyağı (40 ml hamur, 40 ml fırın tepsisi, 60 ml üst için)",
    "3 g iri pul tuz",
    "2 dal taze biberiye"
   ],
@@ -26,7 +26,7 @@
    "350 ml lukewarm water",
    "7 g instant dry yeast",
    "10 g salt",
-   "100 ml olive oil (40 ml for the dough, 60 ml for the tray and topping)",
+   "140 ml olive oil (40 ml for the dough, 40 ml for the tray, 60 ml for the topping)",
    "3 g coarse flaky salt",
    "2 sprigs fresh rosemary"
   ]
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamur çok yapışkan gelirse hemen un eklemeyin; yoğururken elinize biraz yağ sürmek ve birkaç dakika dinlendirmek hamuru daha kolay yönetilebilir kılar.",
+  "tr": "Hamur çok yapışkan gelirse hemen un eklemeyin; yoğururken elinize biraz yağ sürmek ve birkaç dakika dinlendirmek hamuru daha kolay yönetilebilir kılar ve daha hafif bir iç doku sağlar.",
   "en": "If the dough feels too sticky, resist adding flour; oil your hands and rest the dough for a few minutes to make it easier to handle and yields a lighter crumb."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Olive oil total is inconsistent: the ingredient is 100 ml (40 ml dough + 60 ml tray and topping), but the steps use 40 ml for the dough, 40 ml for the tray, and the remaining oil for topping, which ad",
+   "Turkish tip omits the English claim that the technique yields a lighter crumb (minor disagreement between versions)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

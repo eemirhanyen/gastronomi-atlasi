@@ -52,8 +52,16 @@
   ]
  },
  "tip": {
-  "tr": "Beyaz kabuk acılık yapar; soyarken sadece sarı kısmı alın ve limonu hafifçe ıslatılmış bir bezle kurulayıp bulaşık yüzeyi temizleyin.",
+  "tr": "Beyaz kabuk acılık yapar; soyarken yalnızca sarı kısmı alın ve likörü dondurucuda saklayarak şuruplu ve soğuk kalmasını sağlayın.",
   "en": "Pith makes limoncello bitter, so peel only the yellow zest and keep the bottle in the freezer so it stays syrupy and cold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is garbled: it tells the reader to wipe the lemon with a damp cloth and clean a 'bulaşık yüzeyi' (dish surface), which makes no sense for limoncello. It also doesn't match the English tip,"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

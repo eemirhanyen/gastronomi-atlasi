@@ -17,7 +17,7 @@
    "1 tatlı kaşığı tuz",
    "1/2 tatlı kaşığı taze çekilmiş karabiber",
    "3 yemek kaşığı zeytinyağı (45 ml)",
-   "80 g pastırma veya pancetta, küp doğranmış",
+   "80 g pancetta (İtalyan domuz pastırması), küp doğranmış",
    "1 orta boy soğan, ince doğranmış (150 g)",
    "1 küçük havuç, küp doğranmış (80 g)",
    "1 sap kereviz, küp doğranmış (60 g)",
@@ -28,7 +28,7 @@
    "150 ml tavuk suyu",
    "1 dal biberiye",
    "2 defne yaprağı",
-   "1 tatlı kaşığı kuru kekik veya kekik",
+   "1 tatlı kaşığı kuru kekik (oregano)",
    "50 g çekirdeksiz siyah zeytin",
    "2 yemek kaşığı doğranmış taze maydanoz"
   ],
@@ -57,7 +57,7 @@
   "tr": [
    "Tavuk parçalarını kağıt havlu ile kurulayın, tuz ve karabiberle her iki yüzünü tatlandırın.",
    "Geniş ve dipli bir tencerede zeytinyağını orta-yüksek ateşte ısıtın. Tavuk parçalarını partiler halinde, derisi aşağı gelecek şekilde 8-10 dakika kızartın, altın rengi olunca çevirin ve 3-4 dakika daha pişirin. Tavuğu bir tabağa alın.",
-   "Aynı tencereye pastırmayı ekleyin ve yağını salıncaya kadar yaklaşık 3 dakika kavurun.",
+   "Aynı tencereye pancettayı ekleyin ve yağı eriyene kadar yaklaşık 3 dakika kavurun.",
    "Soğan, havuç ve kerevizi ekleyin. Ara sıra karıştırarak sebzeler yumuşayana ve hafif karamelize olana kadar yaklaşık 8 dakika pişirin.",
    "Sarımsağı ekleyip 1 dakika kadar, kokusu çıkana kadar kavurun.",
    "Mantarları ekleyip suyunu salıp çekilene kadar yaklaşık 5 dakika pişirin.",
@@ -85,5 +85,15 @@
   "tr": "Tavuğu acele etmeden, derisi iyice kızararak kavurun; bu renk ve lezzetin çoğunu sosa katar. Eşlik için polenta veya ekmek sosu iyi emer.",
   "en": "Take your time browning the chicken skin well, as this builds most of the colour and flavour in the sauce. Polenta or crusty bread is ideal for soaking up the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'kuru kekik veya kekik' (thyme or oregano), but the English version specifies dried oregano. The Turkish needs to name one herb to match.",
+   "Turkish uses 'pastırma' (air-dried cured beef) as an alternative to pancetta, which is pork. The English says pancetta, so the Turkish is a wrong substitution and misdescribes the ingredient.",
+   "Turkish step 3 says 'pastırmayı' (pastırma) where the English says pancetta, which follows from the same ingredient error."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

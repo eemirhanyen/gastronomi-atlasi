@@ -9,7 +9,7 @@
   "en": "A Turkish dessert of fine shredded pastry baked with butter and walnuts, then soaked in cold syrup. It is served across Türkiye, especially at Ramadan iftar and celebrations, and is best known in Gaziantep and the southeast."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Şerbeti soğuk, kadayıfı sıcak dökmek, tatlının çıtır kalmasını ve şerbeti iyice emmesini sağlar.",
   "en": "Pour cold syrup over the hot kadayif so it soaks in while the pastry stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe includes about 35 minutes of baking and a mandatory rest of at least 1 hour, plus preparation and syrup cooling. The total is well over 60 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

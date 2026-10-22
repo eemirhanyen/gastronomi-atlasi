@@ -57,7 +57,7 @@
  },
  "steps": {
   "tr": [
-   "Ilik suya şekeri ve mayayı ekleyip 5 dakika bekletin, köpürünce un, tuzu ve zeytinyağını ekleyin.",
+   "Ilık suya şekeri ve mayayı ekleyip 5 dakika bekletin, köpürünce un, tuzu ve zeytinyağını ekleyin.",
    "Hamuru 8 dakika yoğurun, yumuşak ve elastik olunca üzerini örtüp 45 dakika dinlendirin.",
    "Bu sırada kıymayı geniş bir kaseye alın; rendelenmiş soğan, domates, yeşil biber, salça, biber salçası, maydanoz, kimyon, pul biber, karabiber ve tuzla iyice yoğurun, 10 dakika dinlendirin.",
    "Fırınınızı en yüksek dereceye, yaklaşık 250 °C'ye ısıtın; pişirme tepsisini ya da taşı içinde ısıtın.",
@@ -83,5 +83,13 @@
   "tr": "Hamuru mümkün olduğunca ince açın; harç ne kadar ince yayılırsa, lahmacun o kadar çıtır olur.",
   "en": "Roll the dough as thin as you can; the thinner it is, the crisper the lahmacun will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a spelling error: \"Ilik\" should be \"Ilık\" (dotless ı). Nothing else in the recipe is wrong: amounts, temperatures, times, and ingredient/step usage are consistent across both langua"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

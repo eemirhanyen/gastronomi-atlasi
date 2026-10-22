@@ -9,7 +9,7 @@
   "en": "A classic Ottoman-rooted Turkish dessert made from semolina and flour and soaked in syrup. It is especially common in winter, when guests are received, and during religious holidays."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,7 +53,7 @@
   "en": [
    "Preheat the oven to 180°C. Grease a round cake tin of about 22 cm diameter and set it aside.",
    "To make the syrup, boil 250 g sugar with 250 ml water over medium heat for about 5 minutes, stirring occasionally. Add 1 tablespoon lemon juice, remove from the heat and leave to cool.",
-   "Whisk the eggs with 150 g caster sugar for about 5 minutes, until pale and thick and fluffy.",
+   "Whisk the eggs with 150 g caster sugar for about 5 minutes, until pale, thick and fluffy.",
    "Add the yogurt, sunflower oil and lemon zest to the whisked eggs and mix until smooth.",
    "Sift the semolina, flour and baking powder together in a separate bowl. Gradually fold this into the egg mixture with a spatula until just combined.",
    "Pour the batter into the greased tin and level the top. Bake on the middle shelf for 35-40 minutes, until golden on top and a skewer inserted in the centre comes out clean.",
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Kek sıcakken soğuk şerbeti pour etmek için dökün; böylece şerbet hamura iyi emilir ve kek ıslanıp dağılmaz.",
+  "tr": "Kek sıcakken soğuk şerbeti dökün; böylece şerbet hamura iyi emilir ve kek ıslanıp dağılmaz.",
   "en": "Pour the cold syrup over the hot cake so it soaks in evenly without making the sponge soggy or falling apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is understated: the recipe needs about 35-40 min baking plus at least 1 hour of resting after syrup, so the total is well over 60 minutes",
+   "Turkish tip contains the English word 'pour' ('pour etmek için dökün'), which is unnatural Turkish"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

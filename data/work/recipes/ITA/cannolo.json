@@ -5,11 +5,11 @@
  },
  "native": "Cannolo siciliano",
  "desc": {
-  "tr": "Sicilya'ya özgü bu kızarmış hamur tatlısı, kabartılmış ince bir hamurun içine taze koyun sütü ricotta'sından yapılan tatlı krema doldurularak hazırlanır. Geleneksel olarak karnaval döneminde ve bayramlarda, özellikle Palermo ve Catania çevresinde yenir.",
+  "tr": "Sicilya'ya özgü bu kızarmış hamur tatlısı, ince açılmış bir hamurun metal borular etrafına sarılıp kızartılmasıyla elde edilen kabuğun içine, şekerlenmiş taze koyun sütü ricotta'sından yapılan tatlı krema doldurularak hazırlanır. Geleneksel olarak karnaval döneminde ve bayramlarda, özellikle Palermo ve Catania çevresinde yenir.",
   "en": "A Sicilian fried pastry made of thin dough wrapped around metal tubes, then filled with sweetened sheep's milk ricotta. Traditionally eaten during Carnival and festive occasions, especially around Palermo and Catania."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 330,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -85,5 +85,14 @@
   "tr": "Kabukları yalnızca servis anında doldurun; aksi halde kırılgan hamur kremadan nem alıp yumuşar.",
   "en": "Fill the shells just before serving, otherwise the crisp pastry will absorb moisture from the cream and go soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) ignores the required 4-hour ricotta draining and 1-hour dough rest, so the stated total time is badly understated",
+   "Turkish description says 'kabartılmış' (leavened/puffed) for the dough, which is wrong: cannoli shells are unleavened and the intended meaning is a rolled-out thin dough ('ince açılmış')"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

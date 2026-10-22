@@ -56,7 +56,7 @@
    "Yoğurma bittiğinde taze soğanı ve maydanozu ekleyip yeniden birkaç dakika yoğurarak homojen bir karışım elde edin. Tadına bakıp gerekirse tuz ayarlayın.",
    "Karışımı kapalı bir kapta 15 dakika dinlendirin. Bu sürede bulgur ve salça tatları iyice birleşir.",
    "Dinlenen hamuru tekrar kısa süre yoğurun, ardından avuç içinde ceviz büyüklüğünde, oval parçalar halinde şekillendirin. Yüzeyini düzgün ve pürüzsüz hale getirin.",
-   "Şekillendirilmiş köfteleri servis tabağına dizin, kenarlarına marul yapraklarını yerleştirin ve limon dilimleriyle birlikte servis yapın. Marul yaprağına bir köfte koyup sarararak yiyebilirsiniz."
+   "Şekillendirilmiş köfteleri servis tabağına dizin, kenarlarına marul yapraklarını yerleştirin ve limon dilimleriyle birlikte servis yapın. Marul yaprağına bir köfte koyup sararak yiyebilirsiniz."
   ],
   "en": [
    "Put the fine bulgur in a large bowl, pour the boiling water over it, cover and leave to rest for 15 minutes until it has absorbed the water and softened.",
@@ -73,5 +73,13 @@
   "tr": "Yoğurma sırasında ellerinizi hafifçe ıslatın; bu, hamurun yapışmasını önler ve daha pürüzsüz bir doku sağlar.",
   "en": "Keep your hands lightly wet while kneading; this stops the dough from sticking and gives a smoother texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 contains a non-word, \"sarararak\"; it should be \"sararak\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

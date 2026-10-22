@@ -18,7 +18,7 @@
    "15 ml limon suyu",
    "250 g tel kadayıf",
    "150 g tereyağı, eritilmiş",
-   "250 g tuzsuz çekilebilir peynir (mozzarella veya ezine peyniri), ince dilimlenmiş",
+   "250 g tuzsuz çekilebilir peynir (taze mozzarella veya künefelik tuzsuz peynir), ince dilimlenmiş",
    "40 g Antep fıstığı, iri kıyılmış"
   ],
   "en": [
@@ -27,7 +27,7 @@
    "15 ml lemon juice",
    "250 g shredded kadayıf dough (tel kadayıf)",
    "150 g butter, melted",
-   "250 g unsalted stretchy cheese (mozzarella or ezine cheese), thinly sliced",
+   "250 g unsalted stretchy cheese (fresh mozzarella or unsalted künefe cheese), thinly sliced",
    "40 g unsalted pistachios, coarsely chopped"
   ]
  },
@@ -61,5 +61,13 @@
   "tr": "Peynirin çekilebilir olması çok önemlidir; tuzlu veya kuru peynir kullanmayın. Şerbet soğuk, künefe sıcak olmalı ki dokusu gevrek kalsın.",
   "en": "The cheese must be stretchy and unsalted; avoid salty or dry cheeses. The syrup should be cold and the künefe hot so the crust stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ezine peyniri geleneksel olarak tuzlu bir peynirdir; 'tuzsuz' ile çelişiyor ve tip bölümündeki 'tuzlu peynir kullanmayın' uyarısıyla da çelişiyor. Tr ve en içerik satırlarından çıkarıldı."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

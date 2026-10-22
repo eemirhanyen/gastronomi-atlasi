@@ -24,7 +24,7 @@
    "200 g domates püresi (passata)",
    "1,2 litre sebze veya tavuk suyu",
    "1 adet parmesan kabuğu (yaklaşık 30 g)",
-   "2 konserve (400 g'lık) kuru fasulye (cannellini), süzülüp yıkanmış",
+   "2 konserve (400 g'lık) beyaz fasulye (cannellini), süzülüp yıkanmış",
    "120 g ditalini veya başka kısa makarna",
    "Tuz ve taze çekilmiş karabiber",
    "40 g Parmigiano Reggiano, servis için rendelenmiş"
@@ -54,7 +54,7 @@
    "Sarımsağı, biberiyeyi ve defne yaprağını ekleyip bir dakika daha pişirin.",
    "Domates püresini ekleyin ve 3 dakika karıştırarak pişirin.",
    "Sebze suyunu, parmesan kabuğunu ve fasulyelerin yarısını ekleyin. Kaynamaya bırakın, ardından ateşi kısıp 15 dakika hafif kaynatın.",
-   "Ocaktan alın, kalan fasulyelerin yarısını bir kepçe sıvıyla birlikte blender ile pürüzsüz olana kadar çekin ve tencereye geri dökün. Bu, çorbanın kıvam kazanmasını sağlar.",
+   "Ocaktan alın, kalan fasulyelerin tümünü bir kepçe sıvıyla birlikte blender ile pürüzsüz olana kadar çekin ve tencereye geri dökün. Bu, çorbanın kıvam kazanmasını sağlar.",
    "Tencereyi tekrar ocağa koyun, makarnayı ekleyip paket talimatına göre al dente olana kadar pişirin. Pişerken arada karıştırın, çorba koyulaşırsa biraz sıcak su ekleyin.",
    "Ocağı kapatın, parmesan kabuğunu, biberiye dalını ve defne yaprağını çıkarın. Tuz ve karabiberle tatlandırın.",
    "Çorbayı 5 dakika dinlendirin, ardından kaseye alın. Üzerine bir tur zeytinyağı, rendelenmiş parmesan ve bol karabiber ekleyip sıcak servis yapın."
@@ -75,5 +75,14 @@
   "tr": "Makarnayı çorbada uzun süre bekletmeyin; sıcak kalan makarna şişer ve çorba hızla koyulaşır. Servis sırasında gerekirse sıcak su ekleyerek kıvamı ayarlayın.",
   "en": "Do not leave the pasta sitting in the soup for long, as it swells and thickens the broth quickly. Add a little hot water when serving if needed to loosen it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to blend 'kalan fasulyelerin yarısını' (half of the remaining beans), but the English says to blend 'the remaining beans'. The versions disagree.",
+   "Turkish ingredient 'kuru fasulye' means dried beans, but the recipe uses canned cannellini beans. It should say 'konserve beyaz fasulye (cannellini)'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

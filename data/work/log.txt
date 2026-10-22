@@ -73,3 +73,11 @@ recipes: 47 tarif
   [recipes] tamam: 38 yanıt, başarısız 9
   tarif TUR_lentil-soup geçersiz: Expecting ',' delimiter: line 1 column 3519 (char 3518)
 Token: giriş 17450, çıkış 132567 (model claude-haiku-5-5)
+=== review
+review: 37 tarif
+  [review] batch msgbatch_01J2PpDwH5rvLjPrZKieDMSj: 37 istek
+    TUR_kokore: max_tokens (4500)
+    TUR_manti: max_tokens (4500)
+  [review] tamam: 35 yanıt, başarısız 2
+  kontrol: 14 sorunsuz, 21 düzeltildi
+Token: giriş 73821, çıkış 91216 (model claude-haiku-5-5)

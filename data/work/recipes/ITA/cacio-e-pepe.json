@@ -34,9 +34,9 @@
    "Büyük bir tencerede 4 litre suyu kaynatın ve 20 g kaba tuzu ekleyin.",
    "Karabiberi kuru ve sıcak bir tavada 1-2 dakika, kokusu çıkana kadar hafifçe kavurun.",
    "Ince rendelenmiş Pecorino Romano'yu bir kasede 40 ml soğuk suyla birlikte pürüzsüz bir macun oluşana kadar yavaşça karıştırın.",
-   "Makarnayı paket süresinden 1 dakika kısa haşlayın. Pişmeden önce 250 ml makarna suyunu bir kaseye ayırın.",
+   "Makarnayı paket süresinden 1 dakika kısa haşlayın. Süzmeden önce 250 ml makarna suyunu bir kaseye ayırın.",
    "Makarnayı kavrulmuş karabiberli tavaya alın, yaklaşık 120 ml makarna suyu ekleyip orta-düşük ateşte 1 dakika karıştırın.",
-   "Ocağı kapatın, peynir macununu ekleyip hızlıca karıştırın. Sos kremalı ve pürüzsüz olana kadar kalan makarna suyundan azar azar ekleyin.",
+   "Ocağı kapatın, peynir macunu ekleyip hızlıca karıştırın. Sos kremalı ve pürüzsüz olana kadar kalan makarna suyundan azar azar ekleyin.",
    "Hemen, sıcak olarak servis yapın."
   ],
   "en": [
@@ -53,5 +53,13 @@
   "tr": "Peyniri ocak tamamen kapalıyken ekleyin; ısı fazla olursa peynir topaklanır ve sos ipliklenir.",
   "en": "Add the cheese off the heat; if the pan is too hot, the cheese will clump and the sauce will turn stringy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"Pişmeden önce\" (before cooking), but the English says \"Before draining\" and the instruction means reserving water before straining. Changed to \"Süzmeden önce\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

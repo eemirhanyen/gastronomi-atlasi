@@ -14,6 +14,7 @@
  "ingredients": {
   "tr": [
    "800 g kuzu kıyması (omuz, yaklaşık %20 yağlı, iki kez çekilmiş)",
+   "100 g kuzu kuyruk yağı, ince kıyılmış",
    "1 büyük soğan (yaklaşık 200 g), rendelenmiş ve sıkılmış",
    "2 yemek kaşığı Maraş veya Urfa pul biberi (yaklaşık 15 g)",
    "8 g tuz (yaklaşık 1,5 tatlı kaşığı)",
@@ -31,6 +32,7 @@
   ],
   "en": [
    "800 g minced lamb (shoulder, about 20% fat, minced twice)",
+   "100 g lamb tail fat, finely minced",
    "1 large onion (about 200 g), grated and squeezed dry",
    "2 tbsp Maraş or Urfa pepper flakes (about 15 g)",
    "8 g salt (about 1.5 tsp)",
@@ -49,18 +51,18 @@
  },
  "steps": {
   "tr": [
-   "Rendelenmiş soğanı elinizle iyice sıkıp suyunu alın. Kıymayı, soğanı, pul biberi, tuzu, kimyonu ve karabiberi geniş bir kasede 5 dakika boyunca yoğurun, yapışkan bir hamur kıvamına gelene kadar devam edin.",
+   "Rendelenmiş soğanı elinizle iyice sıkıp suyunu alın. Kıymayı, kuyruk yağını, soğanı, pul biberi, tuzu, kimyonu ve karabiberi geniş bir kasede 5 dakika boyunca yoğurun, yapışkan bir hamur kıvamına gelene kadar devam edin.",
    "Karışımı buzdolabında 30 dakika dinlendirin.",
    "Kırmızı soğanı soğuk suda 10 dakika bekletin, süzün ve kurulayın. Bir kaseye alıp sumak, bir tutam tuz, zeytinyağı ve kıyılmış maydanozla karıştırın.",
    "Izgarayı ya da kömür ocağını orta-yüksek ateşe (yaklaşık 200 °C) getirin.",
    "Kıymayı 4 eşit parçaya bölün. Ellerinizi suya batırarak her parçayı uzun bir şiş etrafına 20-25 cm uzunluğunda, yassı olacak şekilde yayın.",
-   "Köftelerı ızgarada 8-10 dakika, sık sık çevirerek pişirin. İç sıcaklığı 70 °C'ye ulaşınca hazır olur.",
+   "Kebapları ızgarada 8-10 dakika, sık sık çevirerek pişirin. İç sıcaklığı 70 °C'ye ulaşınca hazır olur.",
    "Kıymalar pişerken domates ve yeşil biberleri kesik yüzleri aşağı gelecek şekilde 5 dakika ızgarada kömürleşene kadar pişirin. Sıcakken tereyağıyla fırçalayın.",
-   "Lavaşları ızgarada her iki yüzünü 30'arz saniye ısıtın.",
+   "Lavaşları ızgarada her iki yüzünü 30'ar saniye ısıtın.",
    "Kebapları lavaşların üzerine alıp közlenmiş domates, biber ve sumaklı soğan salatasıyla, üzerine kıyılmış maydanoz serpilerek servis edin."
   ],
   "en": [
-   "Squeeze the grated onion firmly to remove its juice. Knead the mince, onion, pepper flakes, salt, cumin and black pepper together in a large bowl for 5 minutes until it forms a sticky paste.",
+   "Squeeze the grated onion firmly to remove its juice. Knead the mince, lamb tail fat, onion, pepper flakes, salt, cumin and black pepper together in a large bowl for 5 minutes until it forms a sticky paste.",
    "Refrigerate the mixture for 30 minutes to rest.",
    "Soak the red onion slices in cold water for 10 minutes, then drain and pat dry. Toss them in a bowl with the sumac, a pinch of salt, olive oil and the chopped parsley.",
    "Heat the grill or charcoal to medium-high (about 200 °C).",
@@ -75,5 +77,15 @@
   "tr": "Kıymayı mümkün olduğunca soğuk tutun ve yoğururken çok uzun tutmayın; böylece kebap şişte dağılmaz ve daha yumuşak olur.",
   "en": "Keep the mince cold and avoid overworking it; this helps the kebab hold its shape on the skewer and stay juicy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"Köftelerı\" (meatballs, with a typo) where it should say \"Kebapları\" (kebabs).",
+   "Turkish step 8 has a typo: \"30'arz saniye\" should be \"30'ar saniye\".",
+   "Lamb tail fat (kuyruk yağı), the traditional fat in Adana kebab, is missing. Shoulder mince alone is a substitute, not the classic technique."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

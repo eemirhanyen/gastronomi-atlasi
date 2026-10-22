@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g olgun domates (tercihen etli, yeşil fesleğen gibi kokulu çeşit)",
+   "500 g olgun domates (tercihen etli, kokulu çeşit)",
    "250 g manda mozzarellası",
    "20 yaprak taze fesleğen",
    "40 ml sızma zeytinyağı",
@@ -51,5 +51,13 @@
   "tr": "Domatesleri buzdolabında soğutmayın; soğuk domates aromasını kaybeder, oda sıcaklığında servis edin.",
   "en": "Do not chill the tomatoes in the fridge; cold tomatoes lose much of their flavour, so serve at room temperature."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tomato ingredient line mentions \"yeşil fesleğen gibi kokulu çeşit\" (a green basil variety), which makes no sense for tomatoes and does not match the English \"well-scented varieties\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

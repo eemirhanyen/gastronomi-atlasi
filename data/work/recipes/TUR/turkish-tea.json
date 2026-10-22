@@ -9,7 +9,7 @@
   "en": "A strong black tea brewed in a stacked double teapot and served in tulip-shaped glasses. It is drunk throughout the day in Türkiye, from breakfast to evening conversations, and is offered to every guest."
  },
  "servings": 4,
- "time_min": 25,
+ "time_min": 35,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Demliği alt testin üzerine tam oturtun ve çayı kaynatmak yerine buharda demleyin; böylece tanenler acılaşmadan aroma açığa çıkar.",
   "en": "Seat the top pot firmly on the bottom pot and steep over steam rather than boiling; this releases aroma without making the tea bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (25) is shorter than the steps add up to: boiling 1 litre of water (about 10 min), 15 min steeping, and 5 min resting total roughly 30-35 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

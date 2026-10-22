@@ -16,6 +16,7 @@
    "600 g dana eti escalopu (yaklaşık 8 ince dilim, her biri 75 g)",
    "8 ince dilim çiğ jambon (yaklaşık 100 g)",
    "8 taze adaçayı yaprağı",
+   "8 kürdan",
    "30 g düz un",
    "40 g tuzsuz tereyağı",
    "15 ml zeytinyağı",
@@ -26,6 +27,7 @@
    "600 g veal escalopes (about 8 thin slices, 75 g each)",
    "8 thin slices prosciutto crudo (about 100 g)",
    "8 fresh sage leaves",
+   "8 toothpicks",
    "30 g plain flour",
    "40 g unsalted butter",
    "15 ml olive oil",
@@ -41,7 +43,7 @@
    "Etleri çevirip et tarafını hafifçe una bulayın ve fazla unu silkeleyin.",
    "Geniş bir tavada zeytinyağı ve 20 g tereyağını orta-yüksek ateşte ısıtın.",
    "Etleri jambon tarafı aşağı gelecek şekilde tavaya dizin ve jambon çıtır olana kadar yaklaşık 1 dakika pişirin.",
-   "Etleri çevirip et tarafını 1–2 dakika daha pişirin. Tavaya çok sık koymamak için gerekirse iki parti halinde pişirin.",
+   "Etleri çevirip et tarafını 1–2 dakika daha pişirin. Tavayı aşırı doldurmamak için gerekirse iki parti halinde pişirin.",
    "Pişen etleri sıcak bir servis tabağına alın ve gevşekçe folyo ile örtün.",
    "Tavaya beyaz şarabı dökün, tavanın dibindeki lezzetli kalıntıları kazıyın ve şarabı yarıya inene kadar 2 dakika kaynatın.",
    "Ocağı kapatın, kalan 20 g tereyağını ekleyip tavayı çevirerek eriterek hafif bir sos elde edin.",
@@ -65,5 +67,13 @@
   "tr": "Dana etini ne kadar ince döverseniz, o kadar kısa sürede ve yumuşak pişer; etleri tavaya çok sık koymamak, çıtır jambonun ve sosun düzgün oluşmasını sağlar.",
   "en": "The thinner you pound the veal, the more tender and quick-cooking it will be; avoid overcrowding the pan so the prosciutto crisps properly and the sauce reduces well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Toothpicks (kürdan) are used in the steps to secure the rolls but are missing from the ingredient lists in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

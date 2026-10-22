@@ -38,7 +38,7 @@
    "Geniş bir tencerede 4 litre suyu kaynatın ve 10 g tuz ekleyin.",
    "Yumurtaları ve yumurta sarısını bir kaseye alıp iyice çırpın. Rendelenmiş Pecorino Romano ve karabiberi ekleyip karıştırın.",
    "Guanciale parçalarını soğuk bir tavaya alın ve orta-düşük ateşte yaklaşık 8-10 dakika, yağı salıp kenarları çıtır olana kadar kavurun.",
-   "Ocağı kapatın ve makarnayı tencereye atın. Spagettiyi al dente olana kadar pişirin.",
+   "Makarnayı kaynayan suya atın ve al dente olana kadar pişirin.",
    "Makarnayı süzmeden önce 150 ml pişirme suyunu ayırın.",
    "Makarnayı süzüp tavadaki guanciale ve yağına ekleyin. Tavayı ocağın dışında tutun.",
    "Yumurtalı karışımı makarnanın üzerine dökün ve hızlıca karıştırın. Sıcaklık yumurtayı pişirmeye yetecektir ancak karışım kıvamlanmadan önce ayırmadan çabuk karıştırın.",
@@ -49,7 +49,7 @@
    "Bring 4 litres of water to the boil in a large pot and add 10 g salt.",
    "Put the whole eggs and yolks in a bowl and whisk well. Stir in the finely grated Pecorino Romano and black pepper.",
    "Place the guanciale strips in a cold pan and cook over medium-low heat for 8-10 minutes, until the fat renders and the edges are crisp.",
-   "Remove the pan from the heat, then drop the spaghetti into the boiling water and cook until al dente.",
+   "Drop the spaghetti into the boiling water and cook until al dente.",
    "Before draining, reserve 150 ml of the pasta cooking water.",
    "Drain the spaghetti and add it to the pan with the guanciale and its fat. Keep the pan off the heat.",
    "Pour the egg and cheese mixture over the pasta and toss quickly. The residual heat cooks the eggs into a sauce, so keep stirring to avoid scrambling.",
@@ -61,5 +61,13 @@
   "tr": "Yumurtayı eklemeden önce tavayı mutlaka ocaktan alın; aksi halde yumurta pişip lor gibi olur.",
   "en": "Always take the pan off the heat before adding the eggs, or they will scramble instead of forming a creamy sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 (both languages) tells the cook to turn off the heat or remove the pan before adding the spaghetti. Pasta must cook in boiling water, so the heat must stay on. The Turkish step ('Ocağı kapatın'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

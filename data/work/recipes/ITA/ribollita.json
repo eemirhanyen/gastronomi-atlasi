@@ -74,8 +74,17 @@
   ]
  },
  "tip": {
-  "tr": "Ekmek çorbaya tamamen karışana kadar kaynatılırsa, ribollita kıvamını alır; bu yüzden eğer pişirirken ekmeği kullanıyorsanız, ekmeği son anda ekleyip hızla karıştırın.",
+  "tr": "Dayanıklı, bayat ekmek kullanın; böylece şeklini koruyarak çorbayı emer ve dağılmaz. Ribollita ertesi gün yeniden ısıtıldığında daha da lezzetli olur.",
   "en": "Use stale, sturdy bread so it holds its shape and soaks up the broth without falling apart. Ribollita tastes even better reheated the next day."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contradicts the English tip. The Turkish version says bread should be fully dissolved into the soup, while the English says to use sturdy bread that holds its shape. The Turkish also descr",
+   "Turkish tip has garbled, unnatural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }
