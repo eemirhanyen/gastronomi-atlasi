@@ -5,7 +5,7 @@ on:
     - cron: "41 4 3 * *"   # ayda bir
 permissions:
   contents: write
-concurrency: data-write
+concurrency: michelin
 jobs:
   michelin:
     runs-on: ubuntu-latest

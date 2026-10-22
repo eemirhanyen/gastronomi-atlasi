@@ -13,7 +13,9 @@ on:
         default: "claude-haiku-5-5"
 permissions:
   contents: write
-concurrency: data-write
+concurrency:
+  group: content
+  cancel-in-progress: false
 jobs:
   content:
     runs-on: ubuntu-latest
