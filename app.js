@@ -30,6 +30,8 @@
       kind_traditional: "Geleneksel", kind_fine_dining: "Fine dining", kind_casual: "Lokanta", kind_street_food: "Sokak lezzeti", kind_market: "Çarşı / pazar",
       credit: "Doç. Dr. Emirhan Yenişehirlioğlu tarafından hazırlanmıştır",
       rankScore: "En yüksek mutfak puanları", rankWine: "En çok şarap üreten ülkeler", showAll: "Tümü ({n})", showTop: "İlk 10",
+      scoreKicker: "Mutfak puanı", worldRank: "Dünya sıralaması", of: "{n} ülke içinde",
+      tier1: "Dünya mutfağının zirvesinde", tier2: "Güçlü ve etkili bir mutfak", tier3: "Bölgesinde tanınan bir mutfak", tier4: "Keşfedilmeyi bekleyen bir mutfak",
       relTitle: "Akraba yemekler", relSub: "Başka ülkelerde neredeyse aynı yemek", simTitle: "Benzer yemekler", relMap: "Haritada gör",
       relNote: "Benzerlik oranı yapay zekânın malzeme, teknik ve servis biçimine bakarak verdiği bir değerlendirmedir.", relOf: "{d} yemeğinin akrabaları",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
@@ -62,6 +64,8 @@
       kind_traditional: "Traditional", kind_fine_dining: "Fine dining", kind_casual: "Casual", kind_street_food: "Street food", kind_market: "Market",
       credit: "Created by Assoc. Prof. Dr. Emirhan Yenişehirlioğlu",
       rankScore: "Top cuisine scores", rankWine: "Top wine producers", showAll: "All ({n})", showTop: "Top 10",
+      scoreKicker: "Cuisine score", worldRank: "World rank", of: "among {n} countries",
+      tier1: "At the top of world cuisine", tier2: "A strong, influential cuisine", tier3: "Well known in its region", tier4: "A cuisine waiting to be discovered",
       relTitle: "Related dishes", relSub: "Almost the same dish in other countries", simTitle: "Similar dishes", relMap: "Show on the map",
       relNote: "Similarity is an AI assessment of ingredients, technique and how the dish is served.", relOf: "Relatives of {d}",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
@@ -113,9 +117,10 @@
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; });
   }
   function L(o) { return o ? (o[lang] || o.en || o.tr || "") : ""; }
+  // Bayraklar resim olarak (Windows bayrak emojisi göstermiyor). Kaynak: flag-icons (MIT)
   function flag(iso2) {
-    if (!iso2 || iso2.length !== 2) return "🏳️";
-    return String.fromCodePoint.apply(null, iso2.toUpperCase().split("").map(function (c) { return 127397 + c.charCodeAt(0); }));
+    if (!iso2 || !/^[A-Za-z]{2}$/.test(iso2)) return '<span class="flg flg-x"></span>';
+    return '<img class="flg" src="flags/' + iso2.toLowerCase() + '.svg" alt="" loading="lazy" onerror="this.style.visibility=\'hidden\'">';
   }
   function iso2Of(iso3) {
     var c = S.index[iso3]; if (c && c.iso2) return c.iso2;
@@ -498,21 +503,47 @@
     }).join("") + '</div><div class="src">' + esc(t("faoSrc", { y: block.year })) + "</div>";
   }
 
+  function worldRank(iso) {
+    var mine = S.index[iso] && S.index[iso].score, n = 0, better = 0;
+    Object.keys(S.index).forEach(function (k) {
+      var v = S.index[k].score;
+      if (v == null) return;
+      n++;
+      if (v > mine) better++;
+    });
+    return { rank: better + 1, n: n };
+  }
+  function scoreCard(c) {
+    var v = c.score.score, col = scoreColor(v), wr = worldRank(c.iso3);
+    var R = 42, C = 2 * Math.PI * R, off = C * (1 - v / 100);
+    var tier = v >= 90 ? "tier1" : v >= 75 ? "tier2" : v >= 55 ? "tier3" : "tier4";
+    var medal = wr.rank === 1 ? "🥇 " : wr.rank === 2 ? "🥈 " : wr.rank === 3 ? "🥉 " : "";
+    return '<div class="sc" style="--sc:' + col + '">' +
+      '<div class="sc-ring"><svg viewBox="0 0 100 100" aria-hidden="true">' +
+      '<circle cx="50" cy="50" r="' + R + '" class="sc-track"/>' +
+      '<circle cx="50" cy="50" r="' + R + '" class="sc-arc" stroke-dasharray="' + C.toFixed(1) + '" stroke-dashoffset="' + C.toFixed(1) + '" data-off="' + off.toFixed(1) + '"/></svg>' +
+      '<div class="sc-num"><b>' + v + "</b><span>/100</span></div></div>" +
+      '<div class="sc-body"><div class="sc-kick">' + esc(t("scoreKicker")) + '</div><div class="sc-tier">' + esc(t(tier)) + "</div>" +
+      '<div class="sc-rank">' + medal + esc(t("worldRank")) + ": <b>" + wr.rank + ".</b> <span>" + esc(t("of", { n: wr.n })) + "</span></div>" +
+      '<p>' + esc(L(c.score.why)) + "</p><small>" + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</small></div></div>";
+  }
+  function animateScore() {
+    var a = document.querySelector("#panel-body .sc-arc");
+    if (!a) return;
+    requestAnimationFrame(function () { requestAnimationFrame(function () { a.style.strokeDashoffset = a.dataset.off; }); });
+  }
   function renderPanel() {
     var c = S.country, body = document.getElementById("panel-body");
     if (!c) return;
     var h = '<div class="c-head"><div class="c-flag">' + flag(iso2Of(c.iso3)) + '</div><div><h2>' + esc(cname(c.iso3)) + "</h2>" +
       (c.recipes && c.recipes.length ? "<p>" + esc(t("recipesN", { n: c.recipes.length })) + "</p>" : "") + "</div></div>";
-    if (c.score) {
-      h += '<div class="score"><div class="score-n" style="background:' + scoreColor(c.score.score) + '">' + c.score.score +
-        '</div><div><b>' + esc(t("scoreTitle")) + "</b><p>" + esc(L(c.score.why)) + "</p><small>" + esc(t("scoreAI")) + "</small></div></div>";
-    }
+    if (c.score) h += scoreCard(c);
     if (c.missing) {
       body.innerHTML = h + '<div class="sec"><div class="nodata">' + esc(t("noData")) + "</div></div>";
       return;
     }
     if (c.signature && c.signature.length) {
-      h += '<section class="sec"><h3>' + esc(t("signature")) + '</h3><div class="sig">' + c.signature.map(function (s) {
+      h += '<section class="sec"><h3>' + esc(t("signature")) + '</h3><div class="sig">' + c.signature.slice(0, 6).map(function (s) {
         return '<div class="sig-card">' + photo(s.image, "", "") + '<div class="t"><b>' + esc(L(s.name)) + "</b>" +
           (s.native && s.native !== L(s.name) ? "<i>" + esc(s.native) + "</i>" : "") + "<p>" + esc(L(s.desc)) + "</p></div></div>";
       }).join("") + "</div></section>";
@@ -552,6 +583,7 @@
     });
     renderList();
     renderMichelin(c.iso3);
+    animateScore();
     Array.prototype.forEach.call(body.querySelectorAll(".wreg"), function (b) {
       b.addEventListener("click", function () {
         var r = c.wine.regions[+b.dataset.i];
