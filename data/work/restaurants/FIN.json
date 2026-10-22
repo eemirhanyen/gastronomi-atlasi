@@ -1,0 +1,136 @@
+{
+ "iso3": "FIN",
+ "model": "claude-haiku-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 32121,
+  "out": 5742,
+  "searches": 3
+ },
+ "usd": 0.0361,
+ "restaurants": [
+  {
+   "name": "Savoy",
+   "city": "Helsinki",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Alvar Aalto'nun tasarladığı tarihi salonda, Fin klasiklerini Fransız esintili rafine bir mutfakla buluşturan ve Mannerheim'ın sevdiği vorschmack'ı hâlâ menüde tutan bir adres.",
+    "en": "A historic Aalto-designed dining room where Finnish classics meet refined French-inspired cooking, and the dish Mannerheim favored remains on the menu."
+   },
+   "price": 4,
+   "url": "https://falstaff.com/nordics/news/helsinkis-best-restaurants-for-a-traditional-finnish-feast"
+  },
+  {
+   "name": "Sea Horse",
+   "city": "Helsinki",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "1930'lardan beri Ullanlinna'da hizmet veren, ünlü duvar resminin altında onion steak ve vorschmack gibi samimi Fin yemekleri sunan nostaljik bir mekân.",
+    "en": "A nostalgic Ullanlinna dining room, serving hearty Finnish comfort food like onion steak and vorschmack since the 1930s."
+   },
+   "price": 2,
+   "url": "https://falstaff.com/nordics/news/helsinkis-best-restaurants-for-a-traditional-finnish-feast"
+  },
+  {
+   "name": "Kolme Kruunua",
+   "city": "Helsinki",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "1952'den beri Kruununhaka'da, 1950'lerden kalma dekorunu koruyarak kızarmış ringa balığı ve köfte gibi geleneksel Fin tabaklarını sunan bir semt klasiği.",
+    "en": "A Kruununhaka neighborhood classic that keeps its 1950s decor and serves traditional Finnish dishes such as fried herring and meatballs."
+   },
+   "price": 2,
+   "url": "https://falstaff.com/nordics/news/helsinkis-best-restaurants-for-a-traditional-finnish-feast"
+  },
+  {
+   "name": "Skörd",
+   "city": "Helsinki",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Mutfağında yalnızca Finlandiya'da doğal olarak yetişen ve mümkün olduğunca yakın yerden temin edilen malzemeler kullanılan, otlarla tatlandırılmış mevsimsel bir restoran.",
+    "en": "A seasonal restaurant that cooks only with ingredients native to Finland, sourced as locally as possible and seasoned with herbs rather than pepper."
+   },
+   "price": 3,
+   "url": "https://www.timeout.com/helsinki/restaurants/finnish-restaurants"
+  },
+  {
+   "name": "Kaskis",
+   "city": "Turku",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Malzemelerini yerel çiftçi, balıkçı ve avcılardan ya da ormandan toplanan ürünlerden temin eden, sürpriz tadım menüsüyle bilinen bir Michelin yıldızlı restoran.",
+    "en": "A Michelin-starred restaurant known for a surprise tasting menu built on foraged ingredients and produce from local farmers, fishers and hunters."
+   },
+   "price": 4,
+   "url": "https://guide.michelin.com/fi/en/southwest-finland/abo/restaurant/kaskis"
+  },
+  {
+   "name": "Näsinneula",
+   "city": "Tampere",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Tampere'deki Näsinneula Kulesi'nin 124 metre yüksekliğindeki dönen salonunda, mevsimsel ve yerel Fin malzemelerle hazırlanan menüler sunar.",
+    "en": "A rotating restaurant atop Tampere's Näsinneula tower, serving seasonal menus built on local Finnish ingredients."
+   },
+   "price": 3,
+   "url": "https://www.visitfinland.com/en/product/fa965136-8ff7-409b-a843-86fc06f0d7c4/restaurant-nasinneula/"
+  },
+  {
+   "name": "Aanaar",
+   "city": "Inari",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Juutua Nehri kıyısında, liken, yabani otlar, ren geyiği ve Inari Gölü balıklarıyla Laponya'nın kutup mutfağını yorumlayan ödüllü bir restoran.",
+    "en": "An award-winning restaurant on the Juutua River that interprets Lapland's Arctic cuisine with lichen, wild herbs, reindeer and Lake Inari fish."
+   },
+   "price": 3,
+   "url": "https://www.timeout.com/finland/restaurants/finland-best-restaurants"
+  },
+  {
+   "name": "Deatnu",
+   "city": "Utsjoki",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Teno nehrinin Sámi adını taşıyan, taze nehir balıkları ve tuzlanıp füme edilen ren geyiği filetosu gibi geleneksel Sámi yemekleriyle öne çıkan bir restoran.",
+    "en": "Named after the Teno river in Sámi, it is known for fresh river fish and traditional Sámi dishes such as salted and smoked reindeer fillet."
+   },
+   "price": 2,
+   "url": "https://jetsettimes.com/countries/finland/lapland/lapland-foodie/10-restaurants-in-lapland-for-traditional-finnish-food-dishes/"
+  }
+ ],
+ "dropped": [],
+ "sources": [
+  {
+   "title": "Finland on a plate: Helsinki’s best restaurants for Finnish food",
+   "url": "https://www.timeout.com/helsinki/restaurants/finnish-restaurants"
+  },
+  {
+   "title": "guide.michelin.com",
+   "url": "https://guide.michelin.com/fi/en/southwest-finland/abo/restaurant/kaskis"
+  },
+  {
+   "title": "Restaurant Näsinneula",
+   "url": "https://www.visitfinland.com/en/product/fa965136-8ff7-409b-a843-86fc06f0d7c4/restaurant-nasinneula/"
+  },
+  {
+   "title": "Hieno annoskuva ravintolasta Aanaar",
+   "url": "https://www.timeout.com/finland/restaurants/finland-best-restaurants"
+  },
+  {
+   "title": "10 Restaurants In Lapland For Traditional Finnish Food & Dishes - Jetset Times",
+   "url": "https://jetsettimes.com/countries/finland/lapland/lapland-foodie/10-restaurants-in-lapland-for-traditional-finnish-food-dishes/"
+  },
+  {
+   "title": "Helsinki's Best Restaurants for a Traditional Finnish feast - Falstaff",
+   "url": "https://www.falstaff.com/nordics/news/helsinkis-best-restaurants-for-a-traditional-finnish-feast"
+  },
+  {
+   "title": "20 Best Restaurants in Helsinki, Finland - Bon Traveler",
+   "url": "https://www.bontraveler.com/20-best-restaurants-in-helsinki-finland/"
+  },
+  {
+   "title": "Helsinki Restaurant Suggestions",
+   "url": "https://fiftydegreesnorth.com/eu/article/restaurants-in-helsinki-finland"
+  }
+ ]
+}

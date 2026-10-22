@@ -1,0 +1,136 @@
+{
+ "iso3": "JPN",
+ "model": "claude-haiku-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 42339,
+  "out": 5188,
+  "searches": 4
+ },
+ "usd": 0.0468,
+ "restaurants": [
+  {
+   "name": "Den",
+   "city": "Tokyo",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Satoyama esinli, şakacı ve yaratıcı modern Japon mutfağını sunan; 2024 World's 50 Best listesinde 32. ve Asia's 50 Best 2025'te 22. sırada yer alan bir Tokyo restoranı.",
+    "en": "A Tokyo restaurant serving playful, Satoyama-inspired modern Japanese cuisine, ranked 32nd on The World's 50 Best Restaurants 2024 and 22nd on Asia's 50 Best 2025."
+   },
+   "price": 4,
+   "url": "https://www.theworlds50best.com/asia/en/the-list/Den.html"
+  },
+  {
+   "name": "Narisawa",
+   "city": "Tokyo",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Satoyama çiftçilik geleneğinden ilham alan, mevsimsel ve doğa temelli Japon mutfağıyla The World's 50 Best Restaurants 2025 listesinde 21. sırada yer alıyor.",
+    "en": "Chef Yoshihiro Narisawa's Satoyama-inspired omakase draws on traditional Japanese farming, foraging and hunting, and ranked 21st on The World's 50 Best Restaurants 2025."
+   },
+   "price": 4,
+   "url": "https://www.the50.com/stories/News/the-worlds-50-best-restaurants-2025-1-50-list.html"
+  },
+  {
+   "name": "Akasaka Ogino",
+   "city": "Tokyo",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Akasaka'da yalnızca tezgâh oturma düzeni sunan küçük bir restoran; çağdaş kaiseki deneyimiyle Michelin düzeyinde olduğu belirtiliyor.",
+    "en": "A small counter-only kaiseki restaurant in Akasaka that offers a contemporary kaiseki experience often described as Michelin-level."
+   },
+   "price": 4,
+   "url": "https://www.worldofmouth.app/articles/best-traditional-restaurants-in-tokyo"
+  },
+  {
+   "name": "Kyokaiseki Kichisen",
+   "city": "Kyoto",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Shimogamo'daki Tadasu no Mori ormanında cha-kaiseki geleneğini sürdüren, 2026 Michelin Rehberi'nde iki yıldızlı bir Kyoto ryotei'si.",
+    "en": "A Kyoto ryotei in the Tadasu no Mori forest serving seasonal kaiseki in the cha-kaiseki tradition, listed with two stars in the 2026 MICHELIN Guide Japan."
+   },
+   "price": 4,
+   "url": "https://guide.michelin.com/us/en/kyoto-region/kyoto/restaurant/kyokaiseki-kichisen"
+  },
+  {
+   "name": "Hyotei",
+   "city": "Kyoto",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Yaklaşık 400-450 yıllık geçmişiyle Nanzenji Tapınağı yakınında kaiseki sunan, imza lezzeti asagayu (kahvaltılık pirinç lapası) olan üç yıldızlı tarihi bir restoran.",
+    "en": "A centuries-old Kyoto kaiseki restaurant on the Nanzenji Temple grounds, known for its signature asagayu breakfast rice porridge and three Michelin stars."
+   },
+   "price": 4,
+   "url": "https://www.magical-trip.com/media/the-best-restaurants-in-kyoto-2024/"
+  },
+  {
+   "name": "Sushi Gion Matsudaya",
+   "city": "Kyoto",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Gion'da geishaların yaşadığı tarihi bölgede, Edo tarzı suşi hazırlığını gösteren omakase sunan bir Michelin bir yıldızlı restoran.",
+    "en": "A one-star Michelin omakase restaurant in Gion that showcases Edo-style sushi preparation across thirteen pieces of nigiri."
+   },
+   "price": 4,
+   "url": "https://www.wanderlog.com/list/geoCategory/102/best-japanese-food-and-restaurants-in-kyoto"
+  },
+  {
+   "name": "Mizuno",
+   "city": "Osaka",
+   "kind": "street_food",
+   "known_for": {
+    "tr": "Dotonbori'de okonomiyaki'yi teppan üzerinde pişiren, Michelin Bib Gourmand ile anılan ve yerel halk ile turistlere hitap eden Osaka klasiği.",
+    "en": "A Dotonbori okonomiyaki institution, cited as a Michelin Bib Gourmand restaurant, popular with both locals and visitors."
+   },
+   "price": 2,
+   "url": "https://www.japan.travel/en/my/story/osaka-street-food/"
+  },
+  {
+   "name": "Kushikatsu Daruma Dotonbori",
+   "city": "Osaka",
+   "kind": "casual",
+   "known_for": {
+    "tr": "Şişe geçirilmiş et ve sebzelerin panelenip kızartıldığı kushikatsu'nun en tanınmış zincirlerinden biri; Dotonbori şubesi Osaka'nın simgesel sokak yemeği deneyimi.",
+    "en": "One of the best-known chains for kushikatsu, deep-fried skewers of meat and vegetables, and its Dotonbori branch is a classic Osaka street food stop."
+   },
+   "price": 2,
+   "url": "https://www.japanesefoodguide.com/dotonbori-osaka-food-street/"
+  }
+ ],
+ "dropped": [],
+ "sources": [
+  {
+   "title": "Den - Tokyo - Restaurant - The 50 Discovery",
+   "url": "https://www.theworlds50best.com/asia/en/the-list/Den.html"
+  },
+  {
+   "title": "The World's 50 Best Restaurants 2025: the list revealed",
+   "url": "https://www.the50.com/stories/News/the-worlds-50-best-restaurants-2025-1-50-list.html"
+  },
+  {
+   "title": "The 19 Best Traditional Restaurants in Tokyo",
+   "url": "https://www.worldofmouth.app/articles/best-traditional-restaurants-in-tokyo"
+  },
+  {
+   "title": "Kyokaiseki Kichisen",
+   "url": "https://guide.michelin.com/us/en/kyoto-region/kyoto/restaurant/kyokaiseki-kichisen"
+  },
+  {
+   "title": "The Best Restaurants in Kyoto 2026",
+   "url": "https://www.magical-trip.com/media/the-best-restaurants-in-kyoto-2024/"
+  },
+  {
+   "title": "Must-Eat Street Food in Osaka",
+   "url": "https://www.japan.travel/en/my/story/osaka-street-food/"
+  },
+  {
+   "title": "12 Highly-rated Places to Eat on Dotonbori, Osaka's Iconic Food Street",
+   "url": "https://www.japanesefoodguide.com/dotonbori-osaka-food-street/"
+  },
+  {
+   "title": "The 10 Must-Try Restaurants In Kyoto In 2026",
+   "url": "https://asianwanderlust.com/en/kyoto-restaurant/"
+  }
+ ]
+}

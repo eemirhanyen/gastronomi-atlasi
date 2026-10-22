@@ -1,0 +1,125 @@
+{
+ "iso3": "CHN",
+ "model": "claude-haiku-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 73119,
+  "out": 5435,
+  "searches": 4
+ },
+ "usd": 0.05,
+ "restaurants": [
+  {
+   "name": "Quanjude (全聚德)",
+   "city": "Beijing",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "1864'te kurulan bu köklü Pekin restoranı, Qianmen şubesiyle klasik odun ateşinde kavrulmuş Pekin ördeğinin en bilinen adreslerinden biridir.",
+    "en": "A 19th-century Beijing institution whose Qianmen branch is among the oldest places to taste classic fruitwood-roasted Peking duck."
+   },
+   "price": 2,
+   "url": "https://www.chinaxiantour.com/beijing-restaurants"
+  },
+  {
+   "name": "Da Dong (大董)",
+   "city": "Beijing",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Pekin ördeğini yenilikçi küresel fırın tekniği ve zarif sunumuyla yorumlayan, Michelin yıldızlı üst segment bir restoran.",
+    "en": "A Michelin-starred Beijing restaurant that reinterprets Peking duck with an innovative spherical oven and refined presentation."
+   },
+   "price": 4,
+   "url": "https://www.chinahighlights.com/beijing/best-roast-duck.htm"
+  },
+  {
+   "name": "Chen Mapo Tofu (陈麻婆豆腐)",
+   "city": "Chengdu",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Mapo tofusunun doğduğu yer olduğu iddia edilen bu restoran, 1862'den beri klasik tarifin en bilinen sürümünü sunuyor.",
+    "en": "The house that claims to have invented mapo tofu in 1862 still serves what is considered the definitive version of the dish."
+   },
+   "price": 1,
+   "url": "https://www.best-of-chengdu.com/food/sichuan-restaurants/"
+  },
+  {
+   "name": "Yu Zhi Lan (遇见兰)",
+   "city": "Chengdu",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Yalnızca on sekiz koltuğu olan bu iki Michelin yıldızlı restoran, Sichuan mutfağının katmanlı tatlarını rafine bir tadım menüsüyle sunuyor.",
+    "en": "A two-Michelin-star restaurant with only 18 seats that presents the layered flavours of Sichuan cooking in a refined tasting setting."
+   },
+   "price": 4,
+   "url": "https://chengdutravels.com/best-restaurants-in-chengdu-sichuan-china/"
+  },
+  {
+   "name": "Tao Tao Ju (陶陶居)",
+   "city": "Guangzhou",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "1880'de kurulan bu tarihi Guangzhou lokantasında klasik dim sum ve sabah çayı (yum cha) geleneğini yaşayabilir, özellikle dana eti hamur işlerini deneyebilirsiniz.",
+    "en": "A historic Guangzhou teahouse dating to 1880, known for classic dim sum and morning yum cha, with its beef dishes especially praised."
+   },
+   "price": 2,
+   "url": "https://www.malaymail.com/news/eat-drink/2024/12/12/yum-cha-like-a-pro-in-guangzhou-at-these-three-essential-dim-sum-parlours/159607"
+  },
+  {
+   "name": "Hongtu Hall (宏图府)",
+   "city": "Guangzhou",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Beyaz Kuğu Oteli'nde nehir manzaralı bir salonda sunulan, karides hamur işleriyle öne çıkan bir Michelin yıldızlı dim sum restoranı.",
+    "en": "A one-star Michelin dim sum restaurant in Guangzhou's White Swan Hotel, prized for its shrimp dumplings and river views."
+   },
+   "price": 3,
+   "url": "https://guide.michelin.com/us/en/guangdong-province/guangzhou/restaurant/hongtu-hall"
+  },
+  {
+   "name": "Lao Ji Shi (老吉士)",
+   "city": "Shanghai",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Eski Şehir şubesinde aile usulü servis edilen hong shao rou gibi klasik benbang yemekleriyle, Şanghay yerel mutfağını otantik bir ortamda sunan bir restoran.",
+    "en": "A classic Shanghainese (benbang) restaurant whose Old City branch serves family-style dishes such as red-braised pork belly in an atmospheric setting."
+   },
+   "price": 2,
+   "url": "https://www.shanghaitourism.org/shanghai-food-guide/best-restaurants-shanghai/"
+  }
+ ],
+ "dropped": [],
+ "sources": [
+  {
+   "title": "Where to Eat in Beijing: The 15 Best Beijing Restaurants",
+   "url": "https://www.chinaxiantour.com/beijing-restaurants"
+  },
+  {
+   "title": "Where to Eat Peking Duck in Beijing: Picks from a Local Guide",
+   "url": "https://www.chinahighlights.com/beijing/best-roast-duck.htm"
+  },
+  {
+   "title": "8 Best Sichuan Restaurants in Chengdu",
+   "url": "https://www.best-of-chengdu.com/food/sichuan-restaurants/"
+  },
+  {
+   "title": "Best Restaurants in Chengdu Sichuan China: From Street Gems to Michelin Stars - Chengdu Travels",
+   "url": "https://chengdutravels.com/best-restaurants-in-chengdu-sichuan-china/"
+  },
+  {
+   "title": "‘Yum cha’ like a pro in Guangzhou at these three essential ‘dim sum’ parlours",
+   "url": "https://www.malaymail.com/news/eat-drink/2024/12/12/yum-cha-like-a-pro-in-guangzhou-at-these-three-essential-dim-sum-parlours/159607"
+  },
+  {
+   "title": "Hongtu Hall",
+   "url": "https://guide.michelin.com/us/en/guangdong-province/guangzhou/restaurant/hongtu-hall"
+  },
+  {
+   "title": "Best Restaurants in Shanghai: 2026 Guide for Every Budget",
+   "url": "https://www.shanghaitourism.org/shanghai-food-guide/best-restaurants-shanghai/"
+  },
+  {
+   "title": "THE BEST Peking Duck in Beijing (Updated October 2026) - Tripadvisor",
+   "url": "https://www.tripadvisor.com/Restaurants-g294212-zfd10925-Beijing-Peking_Duck.html"
+  }
+ ]
+}

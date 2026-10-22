@@ -1,0 +1,136 @@
+{
+ "iso3": "MEX",
+ "model": "claude-haiku-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 69095,
+  "out": 3669,
+  "searches": 4
+ },
+ "usd": 0.0487,
+ "restaurants": [
+  {
+   "name": "Pujol",
+   "city": "Ciudad de México",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Şef Enrique Olvera'nın klasik Meksika yemeklerini yeniden yorumladığı, Michelin'de iki yıldızlı Polanco restoranı.",
+    "en": "Chef Enrique Olvera's reinterpretation of classic Mexican dishes in Polanco, holding two Michelin stars."
+   },
+   "price": 4,
+   "url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-mexico-2025-selection"
+  },
+  {
+   "name": "Quintonil",
+   "city": "Ciudad de México",
+   "kind": "fine_dining",
+   "known_for": {
+    "tr": "Mevsimsel ürünleri ve dokuz kursluk tadım menüsüyle öne çıkan, 2024'te iki Michelin yıldızı alan Polanco restoranı.",
+    "en": "A Polanco restaurant known for seasonal Mexican produce and a nine-course tasting menu, awarded two Michelin stars in 2024."
+   },
+   "price": 4,
+   "url": "https://en.wikipedia.org/wiki/Quintonil"
+  },
+  {
+   "name": "El Cardenal",
+   "city": "Ciudad de México",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "1969'dan beri hizmet veren, Centro Histórico'daki Porfirya dönemi konağında escamoles ve chile en nogada gibi geleneksel yemekler sunan tarihi bir mekan.",
+    "en": "A historic institution since 1969 serving traditional dishes such as escamoles and chile en nogada in a Porfirian-era mansion in the historic centre."
+   },
+   "price": 3,
+   "url": "https://roadbook.com/mexico-city/city-guide/best-restaurants-mexico-city/"
+  },
+  {
+   "name": "Contramar",
+   "city": "Ciudad de México",
+   "kind": "casual",
+   "known_for": {
+    "tr": "1998'den beri açık olan, balık ve deniz ürünlerinde Meksika tatlarını sunan ve 2025 Michelin Bib Gourmand ödüllü Roma Norte mekanı.",
+    "en": "Open since 1998 in Roma Norte, serving seafood with Mexican flavours such as whole grilled fish, and listed as a 2025 Michelin Bib Gourmand."
+   },
+   "price": 3,
+   "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-mexico-bib-gourmand-2025"
+  },
+  {
+   "name": "Levadura de Olla",
+   "city": "Oaxaca",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Sierra Sur mutfağını ve Oaxaca geleneklerini yansıtan, 2024'te Michelin yıldızı kazanan geleneksel bir restoran.",
+    "en": "A traditional Oaxacan restaurant showcasing Sierra Sur cooking, which earned a Michelin star in 2024."
+   },
+   "price": 2,
+   "url": "https://en.wikipedia.org/wiki/Levadura_de_Olla"
+  },
+  {
+   "name": "Tacos del Carmen",
+   "city": "Oaxaca",
+   "kind": "street_food",
+   "known_for": {
+    "tr": "Sokak köşesinde kurulan mütevazı tezgâhta, chile relleno tacosu ve yeşil mısır tortillasıyla yapılan empanada amarilla gibi Oaxaca lezzetleri sunuyor.",
+    "en": "A street-corner stall in Oaxaca serving affordable Oaxacan classics such as chile relleno tacos and the yellow empanada amarilla."
+   },
+   "price": 1,
+   "url": "https://oaxaca.substack.com/p/our-favorite-restaurants-in-oaxaca-september-2025"
+  },
+  {
+   "name": "Manjar Blanco",
+   "city": "Mérida",
+   "kind": "traditional",
+   "known_for": {
+    "tr": "Netflix'in Taco Chronicles dizisinde yer alan, Yucatán usulü cochinita pibil'iyle bilinen geleneksel Yukatan restoranı.",
+    "en": "A traditional Yucatecan restaurant known for its cochinita pibil, featured in the Netflix series Taco Chronicles."
+   },
+   "price": 2,
+   "url": "https://www.willflyforfood.net/merida-restaurants/"
+  },
+  {
+   "name": "Taquería La Lupita",
+   "city": "Mérida",
+   "kind": "market",
+   "known_for": {
+    "tr": "Mercado de Santiago içinde, sabahın erken saatlerinde kalabalık çeken, cochinita pibil tacoları ve panuchos sunan pazar tezgâhı.",
+    "en": "A market counter inside Mercado de Santiago serving cochinita pibil tacos and panuchos, popular with locals from early morning."
+   },
+   "price": 1,
+   "url": "https://travelyucatan.com/merida-restaurants/"
+  }
+ ],
+ "dropped": [],
+ "sources": [
+  {
+   "title": "the MICHELIN Guide Mexico 2025 selection",
+   "url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-mexico-2025-selection"
+  },
+  {
+   "title": "Quintonil",
+   "url": "https://en.wikipedia.org/wiki/Quintonil"
+  },
+  {
+   "title": "The best restaurants in Mexico City 2026",
+   "url": "https://roadbook.com/mexico-city/city-guide/best-restaurants-mexico-city/"
+  },
+  {
+   "title": "All the 2025 Mexico MICHELIN Bib Gourmands",
+   "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-mexico-bib-gourmand-2025"
+  },
+  {
+   "title": "Levadura de Olla",
+   "url": "https://en.wikipedia.org/wiki/Levadura_de_Olla"
+  },
+  {
+   "title": "Our Favorite Restaurants in Oaxaca - by Jacob Dean",
+   "url": "https://oaxaca.substack.com/p/our-favorite-restaurants-in-oaxaca-september-2025"
+  },
+  {
+   "title": "18 Merida Restaurants You’ll Want to Fly For",
+   "url": "https://www.willflyforfood.net/merida-restaurants/"
+  },
+  {
+   "title": "15 Best Restaurants in Merida",
+   "url": "https://travelyucatan.com/merida-restaurants/"
+  }
+ ]
+}
