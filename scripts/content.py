@@ -475,6 +475,44 @@ def stage_flavors():
     log(f"  tamamlanan: {len(done)}")
 
 
+# ------------------------------------------------------------------ yazım: başlık düzeni
+SMALL = {"tr": {"ve", "ile", "veya", "ya", "da", "de"},
+         "en": {"and", "or", "of", "with", "in", "on", "the", "a", "an", "to", "de", "la", "le", "du", "des", "di", "del", "della", "alla", "al", "con", "da", "e", "y", "au", "aux", "et", "en", "à"}}
+
+
+def _up(ch, lang):
+    if lang == "tr":
+        return {"i": "İ", "ı": "I"}.get(ch, ch.upper())
+    return ch.upper()
+
+
+def tcase(text, lang="tr"):
+    """Her kelimenin ilk harfi büyük (Türkçe i->İ), bağlaçlar küçük; kelimenin geri kalanına dokunulmaz (TURK, PDO, McDonald)."""
+    if not text:
+        return text
+    out, first = [], True
+    for tok in re.split(r"(\s+|-|/|\(|\)|\")", text):
+        if not tok or re.fullmatch(r"\s+|-|/|\(|\)|\"", tok):
+            out.append(tok)
+            continue
+        low = tok.lower()
+        if not first and low in SMALL.get(lang, set()):
+            out.append(tok if tok != tok.capitalize() else low)
+        elif tok[0].isalpha() and tok[0].islower():
+            out.append(_up(tok[0], lang) + tok[1:])
+        else:
+            out.append(tok)
+        first = False
+    return "".join(out)
+
+
+def tname(d):
+    """{tr, en} ad sözlüğünü başlık düzenine çevirir."""
+    if not isinstance(d, dict):
+        return d
+    return {k: tcase(v, k) if k in ("tr", "en") and isinstance(v, str) else v for k, v in d.items()}
+
+
 # ------------------------------------------------------------------ 6) build
 def stage_build():
     fao = jload(os.path.join(DATA, "fao.json"), {})
@@ -493,7 +531,7 @@ def stage_build():
 
     def item(code):
         en = fao.get("items", {}).get(str(code), str(code))
-        return {"en": en, "tr": items_tr.get(str(code), en)}
+        return {"en": en, "tr": tcase(items_tr.get(str(code), en), "tr")}
 
     def img(title):
         return images.get(title) if title else None
@@ -505,26 +543,27 @@ def stage_build():
         if not plan and not prod and not sc:
             continue
         c = {"iso3": iso, "iso2": REF[iso]["iso2"], "name": REF[iso]["name"], "region": REF[iso].get("region"),
-             "score": sc, "spices": (flavors.get(iso) or {}).get("spices", []),
-             "sauces": (flavors.get(iso) or {}).get("sauces", []), "signature": [], "production": None, "exports": None, "recipes": []}
+             "score": sc,
+             "spices": [{**x, "name": tname(x["name"])} for x in (flavors.get(iso) or {}).get("spices", [])],
+             "sauces": [{**x, "name": tname(x["name"])} for x in (flavors.get(iso) or {}).get("sauces", [])], "signature": [], "production": None, "exports": None, "recipes": []}
         if prod:
             c["production"] = {"year": prod["year"], "unit": "t", "items": [{"name": item(k), "value": v} for k, v in prod["items"]]}
         if exp:
             c["exports"] = {"year": exp["year"], "unit": "1000 USD", "items": [{"name": item(k), "value": v} for k, v in exp["items"]]}
         if plan:
             for s in plan["signature"]:
-                c["signature"].append({"name": {"tr": s.get("tr") or s["en"], "en": s["en"]}, "native": s.get("native"),
+                c["signature"].append({"name": tname({"tr": s.get("tr") or s["en"], "en": s["en"]}), "native": s.get("native"),
                                        "desc": {"tr": s.get("desc_tr", ""), "en": s.get("desc_en", "")}, "image": img(s.get("wiki_en"))})
             for d in plan["dishes"]:
                 r = jload(recipe_path(iso, d["id"]))
                 if not r:
                     continue
                 c["recipes"].append({"id": d["id"], "category": d["category"], "native": r.get("native") or d.get("native"),
-                                     "name": r["name"], "desc": r["desc"], "servings": r["servings"], "time_min": r["time_min"],
+                                     "name": tname(r["name"]), "desc": r["desc"], "servings": r["servings"], "time_min": r["time_min"],
                                      "difficulty": r["difficulty"], "ingredients": r["ingredients"], "steps": r["steps"],
                                      "tip": r.get("tip"), "reviewed": r.get("reviewed", False),
                                      "image": img(d.get("wiki_en")), "relatives": rel.get(f"{iso}_{d['id']}", [])})
-                search.append([iso, d["id"], r["name"]["tr"], r["name"]["en"], r.get("native") or ""])
+                search.append([iso, d["id"], tcase(r["name"]["tr"], "tr"), tcase(r["name"]["en"], "en"), r.get("native") or ""])
         wr = jload(os.path.join(WORK, "wine", iso + ".json"))
         if wine_fao.get(iso) or wr:
             c["wine"] = {"production": wine_fao.get(iso), "exports": wine_exp.get(iso), "n": len(wine_fao)}
