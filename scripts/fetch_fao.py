@@ -43,6 +43,8 @@ CANDIDATES = {
     ],
 }
 ELEMENT = {"QCL": "5510", "TCL": "5922"}
+# Ayrıca saklanan kalemler (tüm ülkeler, en son yıl): şarap ve üzüm
+SPECIAL = {564: "wine", 560: "grapes"}
 
 
 def log(m):
@@ -125,6 +127,17 @@ def collect(code):
                         data[iso][int(k[1:])][item_code] = v
         n += 1
     log(f"  {code}: {n} satır, {len(data)} ülke")
+    special = {}
+    for code, key in SPECIAL.items():
+        per = {}
+        for iso, years in data.items():
+            ys = [y for y in sorted(years, reverse=True) if code in years[y]]
+            if ys and years[ys[0]][code] > 0:
+                per[iso] = {"year": ys[0], "value": round(years[ys[0]][code])}
+        ranked = sorted(per, key=lambda i: -per[i]["value"])
+        for n, iso in enumerate(ranked, 1):
+            per[iso]["rank"] = n
+        special[key] = {"countries": per, "n": len(per)}
     out = {}
     for iso, years in data.items():
         # en az 5 kalemi olan en son yıl
@@ -134,14 +147,15 @@ def collect(code):
         y = ys[0]
         top = sorted(years[y].items(), key=lambda kv: -kv[1])[:TOP]
         out[iso] = {"year": y, "items": [[c, round(v)] for c, v in top if v > 0]}
-    return url, out, names
+    return url, out, names, special
 
 
 def main():
     result = {"generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "items": {}}
     for code, key, unit in (("QCL", "production", "t"), ("TCL", "exports", "1000 USD")):
         log(f"{code} ({key})")
-        url, per, names = collect(code)
+        url, per, names, special = collect(code)
+        result[key + "_special"] = special
         result[key] = per
         result[key + "_meta"] = {"source": url, "unit": unit, "element": ELEMENT[code]}
         for c, nme in names.items():
