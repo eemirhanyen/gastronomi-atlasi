@@ -1,0 +1,190 @@
+{
+ "signature": [
+  {
+   "en": "Osh (Plov)",
+   "tr": "Pilav (Tacik pilavı)",
+   "native": "Ош (ошии палав)",
+   "wiki_en": "Plov",
+   "desc_en": "Tajikistan's national dish: rice, carrots, onions and tender lamb or beef, slow-cooked in a large kazan until the grains are golden and fragrant.",
+   "desc_tr": "Tacikistan'ın ulusal yemeği: pirinç, havuç, soğan ve yumuşak kuzu ya da sığır eti, büyük bir kazanda altın renginde ve aromatik olana kadar ağır ağır pişirilir."
+  },
+  {
+   "en": "Somsa",
+   "tr": "Samsa",
+   "native": "Сомса",
+   "wiki_en": "Samsa",
+   "desc_en": "Golden, flaky pastries stuffed with spiced lamb and onion, baked against the walls of a tandoor oven until they blister and crackle.",
+   "desc_tr": "Baharatlı kuzu eti ve soğanla doldurulmuş, tandır fırının duvarlarına yapıştırılarak kabarıp çıtırlaşan altın renkli katmerli hamur işi."
+  },
+  {
+   "en": "Shirchoy",
+   "tr": "Şirçay",
+   "native": "Шир чой",
+   "wiki_en": null,
+   "desc_en": "A rich, pinkish tea brewed with milk, salt, and sometimes butter, served hot in the morning and at every celebration.",
+   "desc_tr": "Süt, tuz ve bazen tereyağıyla demlenen, pembemsi renkli zengin bir çay; sabahları ve her kutlamada sıcak servis edilir."
+  },
+  {
+   "en": "Qurut",
+   "tr": "Kurut",
+   "native": "Қурут",
+   "wiki_en": "Kurt (food)",
+   "desc_en": "Hard, sun-dried balls of salted yogurt that are a beloved snack and the base of the famous kurutob dish.",
+   "desc_tr": "Tuzlu yoğurttan yapılan, güneşte kurutulmuş sert toplar; sevilen bir atıştırmalık ve ünlü kurutob yemeğinin temelidir."
+  },
+  {
+   "en": "Non",
+   "tr": "Nan",
+   "native": "Нон",
+   "wiki_en": "Non (bread)",
+   "desc_en": "Round, stamped flatbread baked in a tandoor, with a crisp edge and soft center, sold fresh at every bazaar.",
+   "desc_tr": "Tandırda pişen, üzeri damgalı, kenarı çıtır ortası yumuşak yuvarlak yassı ekmek; her pazarda taze satılır."
+  },
+  {
+   "en": "Kurutob",
+   "tr": "Kurutob",
+   "native": "Курутоб",
+   "wiki_en": null,
+   "desc_en": "A hearty bread dish in which torn flatbread is soaked in broth, topped with crumbled qurut, tomatoes, onions and fresh herbs.",
+   "desc_tr": "Parçalanmış yassı ekmeğin suyunda ıslatılıp üzerine ufalanmış kurut, domates, soğan ve taze otlarla servis edilen doyurucu bir ekmek yemeği."
+  },
+  {
+   "en": "Shashlik",
+   "tr": "Şaşlık",
+   "native": "Шашлик",
+   "wiki_en": "Shashlik",
+   "desc_en": "Chunks of marinated lamb threaded on skewers and grilled over glowing coals, often served with onion and fresh bread.",
+   "desc_tr": "Marine edilmiş kuzu parçalarının şişe dizilip közde pişirilmesiyle hazırlanan, genellikle soğan ve taze ekmekle servis edilen lezzet."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Mastava",
+   "tr": "Mastava",
+   "native": "Мастова",
+   "wiki_en": "Mastava",
+   "category": "soup",
+   "id": "mastava"
+  },
+  {
+   "en": "Lagman",
+   "tr": "Lagman",
+   "native": "Лағмон",
+   "wiki_en": "Lagman",
+   "category": "main",
+   "id": "lagman"
+  },
+  {
+   "en": "Gushtaba",
+   "tr": "Guştaba",
+   "native": "Гуштоба",
+   "wiki_en": null,
+   "category": "main",
+   "id": "gushtaba"
+  },
+  {
+   "en": "Chuchvara",
+   "tr": "Çuçvara",
+   "native": "Чучвара",
+   "wiki_en": "Chuchvara",
+   "category": "main",
+   "id": "chuchvara"
+  },
+  {
+   "en": "Shashlik",
+   "tr": "Şaşlık",
+   "native": "Шашлик",
+   "wiki_en": "Shashlik",
+   "category": "street_food",
+   "id": "shashlik"
+  },
+  {
+   "en": "Kurutob",
+   "tr": "Kurutob",
+   "native": "Курутоб",
+   "wiki_en": null,
+   "category": "main",
+   "id": "kurutob"
+  },
+  {
+   "en": "Non",
+   "tr": "Nan",
+   "native": "Нон",
+   "wiki_en": "Non (bread)",
+   "category": "bread",
+   "id": "non"
+  },
+  {
+   "en": "Qatlama",
+   "tr": "Katlama",
+   "native": "Қатлама",
+   "wiki_en": null,
+   "category": "bread",
+   "id": "qatlama"
+  },
+  {
+   "en": "Somsa",
+   "tr": "Samsa",
+   "native": "Сомса",
+   "wiki_en": "Samsa",
+   "category": "pastry",
+   "id": "somsa"
+  },
+  {
+   "en": "Pakhlava",
+   "tr": "Baklava",
+   "native": "Пахлава",
+   "wiki_en": "Baklava",
+   "category": "dessert",
+   "id": "pakhlava"
+  },
+  {
+   "en": "Sumalak",
+   "tr": "Sumalak",
+   "native": "Сумалак",
+   "wiki_en": "Sumalak",
+   "category": "dessert",
+   "id": "sumalak"
+  },
+  {
+   "en": "Halim",
+   "tr": "Halim",
+   "native": "Ҳалим",
+   "wiki_en": null,
+   "category": "breakfast",
+   "id": "halim"
+  },
+  {
+   "en": "Shirchoy",
+   "tr": "Şirçay",
+   "native": "Шир чой",
+   "wiki_en": null,
+   "category": "drink",
+   "id": "shirchoy"
+  },
+  {
+   "en": "Doogh",
+   "tr": "Doğ",
+   "native": "Дуғ",
+   "wiki_en": "Doogh",
+   "category": "drink",
+   "id": "doogh"
+  },
+  {
+   "en": "Qurut",
+   "tr": "Kurut",
+   "native": "Қурут",
+   "wiki_en": "Kurt (food)",
+   "category": "snack",
+   "id": "qurut"
+  },
+  {
+   "en": "Chakka",
+   "tr": "Çakka",
+   "native": "Чакка",
+   "wiki_en": null,
+   "category": "side",
+   "id": "chakka"
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "signature": [
+  {
+   "en": "Tacos",
+   "tr": "Tako",
+   "native": "Tacos",
+   "wiki_en": "Taco",
+   "desc_en": "Warm corn tortillas folded around fillings from slow-cooked meats to fresh cilantro and onion, sold on nearly every Mexican street corner.",
+   "desc_tr": "Sıcak mısır tortillalarına yavaş pişmiş etlerden taze kişnişe kadar çeşitli iç harçlar sarılır ve neredeyse her Meksika sokak köşesinde satılır."
+  },
+  {
+   "en": "Mole poblano",
+   "tr": "Mole poblano",
+   "native": "Mole poblano",
+   "wiki_en": "Mole poblano",
+   "desc_en": "A dark, complex sauce of chilies, chocolate, nuts and spices, traditionally poured over turkey or chicken for celebrations.",
+   "desc_tr": "Acı biberler, çikolata, kuruyemiş ve baharatlardan yapılan koyu ve karmaşık bir sostur; geleneksel olarak kutlamalarda hindi ya da tavuğun üzerine dökülür."
+  },
+  {
+   "en": "Chiles en nogada",
+   "tr": "Chiles en nogada",
+   "native": "Chiles en nogada",
+   "wiki_en": "Chiles en nogada",
+   "desc_en": "Poblano chilies stuffed with a sweet-savory meat filling, topped with creamy walnut sauce and pomegranate seeds, reflecting the green, white and red of the national flag.",
+   "desc_tr": "Tatlı-tuzlu etli harçla doldurulmuş poblano biberleri; üzerinde kremalı ceviz sosu ve nar taneleriyle, ulusal bayrağın yeşil, beyaz ve kırmızı renklerini yansıtır."
+  },
+  {
+   "en": "Guacamole",
+   "tr": "Guakamole",
+   "native": "Guacamole",
+   "wiki_en": "Guacamole",
+   "desc_en": "Mashed ripe avocado seasoned with lime, chili, onion and cilantro, an ancient Mesoamerican recipe that the world now adores.",
+   "desc_tr": "Olgun avokadonun limon, acı biber, soğan ve kişnişle ezilip tatlandırılmasıyla yapılan, dünyanın bugün çok sevdiği eski bir Mezoamerika tarifidir."
+  },
+  {
+   "en": "Tequila",
+   "tr": "Tekila",
+   "native": "Tequila",
+   "wiki_en": "Tequila",
+   "desc_en": "A spirit distilled from blue agave in designated regions around the town of Tequila, Jalisco, and protected by appellation rules.",
+   "desc_tr": "Jalisco'daki Tequila kasabası çevresindeki belirlenmiş bölgelerde mavi agave bitkisinden damıtılan ve coğrafi işaret kurallarıyla korunan bir içkidir."
+  },
+  {
+   "en": "Tamale",
+   "tr": "Tamale",
+   "native": "Tamal",
+   "wiki_en": "Tamale",
+   "desc_en": "Masa dough spread on corn husks or banana leaves, filled with meat, cheese or chilies and steamed until tender.",
+   "desc_tr": "Mısır koçanı yaprağı ya da muz yaprağına yayılan mısır hamurunun içine et, peynir ya da biber konup buharda pişirilen lezzettir."
+  },
+  {
+   "en": "Corn tortilla",
+   "tr": "Mısır tortillası",
+   "native": "Tortilla de maíz",
+   "wiki_en": "Tortilla",
+   "desc_en": "Thin, unleavened flatbread made from nixtamalized corn, the everyday foundation of Mexican meals since pre-Hispanic times.",
+   "desc_tr": "Nikstamalize mısırdan yapılan, mayasız ve ince bir yassı ekmektir; Meksika yemeklerinin Hispanik öncesi dönemden beri gündelik temelidir."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Pozole",
+   "tr": "Pozole",
+   "native": "Pozole",
+   "wiki_en": "Pozole",
+   "category": "soup",
+   "id": "pozole"
+  },
+  {
+   "en": "Tortilla soup",
+   "tr": "Tortilla çorbası",
+   "native": "Sopa de tortilla",
+   "wiki_en": "Tortilla soup",
+   "category": "soup",
+   "id": "tortilla-soup"
+  },
+  {
+   "en": "Menudo",
+   "tr": "Menudo",
+   "native": "Menudo",
+   "wiki_en": "Menudo (soup)",
+   "category": "soup",
+   "id": "menudo"
+  },
+  {
+   "en": "Mole poblano",
+   "tr": "Mole poblano",
+   "native": "Mole poblano",
+   "wiki_en": "Mole poblano",
+   "category": "main",
+   "id": "mole-poblano"
+  },
+  {
+   "en": "Cochinita pibil",
+   "tr": "Kochinita pibil",
+   "native": "Cochinita pibil",
+   "wiki_en": "Cochinita pibil",
+   "category": "main",
+   "id": "cochinita-pibil"
+  },
+  {
+   "en": "Carne asada",
+   "tr": "Carne asada",
+   "native": "Carne asada",
+   "wiki_en": "Carne asada",
+   "category": "main",
+   "id": "carne-asada"
+  },
+  {
+   "en": "Enchiladas",
+   "tr": "Enchiladas",
+   "native": "Enchiladas",
+   "wiki_en": "Enchilada",
+   "category": "main",
+   "id": "enchiladas"
+  },
+  {
+   "en": "Chilaquiles",
+   "tr": "Chilaquiles",
+   "native": "Chilaquiles",
+   "wiki_en": "Chilaquiles",
+   "category": "breakfast",
+   "id": "chilaquiles"
+  },
+  {
+   "en": "Huevos rancheros",
+   "tr": "Huevos rancheros",
+   "native": "Huevos rancheros",
+   "wiki_en": null,
+   "category": "breakfast",
+   "id": "huevos-rancheros"
+  },
+  {
+   "en": "Quesadilla",
+   "tr": "Kesadilya",
+   "native": "Quesadilla",
+   "wiki_en": "Quesadilla",
+   "category": "snack",
+   "id": "quesadilla"
+  },
+  {
+   "en": "Tlacoyo",
+   "tr": "Tlakoyo",
+   "native": "Tlacoyo",
+   "wiki_en": "Tlacoyo",
+   "category": "street_food",
+   "id": "tlacoyo"
+  },
+  {
+   "en": "Elote",
+   "tr": "Elote (ızgara mısır)",
+   "native": "Elote",
+   "wiki_en": "Elote",
+   "category": "street_food",
+   "id": "elote"
+  },
+  {
+   "en": "Tostada",
+   "tr": "Tostada",
+   "native": "Tostada",
+   "wiki_en": "Tostada",
+   "category": "street_food",
+   "id": "tostada"
+  },
+  {
+   "en": "Tamale",
+   "tr": "Tamale",
+   "native": "Tamal",
+   "wiki_en": "Tamale",
+   "category": "street_food",
+   "id": "tamale"
+  },
+  {
+   "en": "Pico de gallo",
+   "tr": "Pico de gallo",
+   "native": "Pico de gallo",
+   "wiki_en": "Pico de gallo",
+   "category": "sauce",
+   "id": "pico-de-gallo"
+  },
+  {
+   "en": "Guacamole",
+   "tr": "Guakamole",
+   "native": "Guacamole",
+   "wiki_en": "Guacamole",
+   "category": "sauce",
+   "id": "guacamole"
+  },
+  {
+   "en": "Refried beans",
+   "tr": "Kavrulmuş fasulye püresi",
+   "native": "Frijoles refritos",
+   "wiki_en": "Refried beans",
+   "category": "side",
+   "id": "refried-beans"
+  },
+  {
+   "en": "Aguachile",
+   "tr": "Aguachile",
+   "native": "Aguachile",
+   "wiki_en": null,
+   "category": "salad",
+   "id": "aguachile"
+  },
+  {
+   "en": "Conchas",
+   "tr": "Konças ekmeği",
+   "native": "Concha",
+   "wiki_en": "Concha (bread)",
+   "category": "pastry",
+   "id": "conchas"
+  },
+  {
+   "en": "Churros",
+   "tr": "Churros",
+   "native": "Churros",
+   "wiki_en": "Churro",
+   "category": "pastry",
+   "id": "churros"
+  },
+  {
+   "en": "Tres leches cake",
+   "tr": "Tres leches pastası",
+   "native": "Pastel de tres leches",
+   "wiki_en": "Tres leches cake",
+   "category": "dessert",
+   "id": "tres-leches-cake"
+  },
+  {
+   "en": "Champurrado",
+   "tr": "Champurrado",
+   "native": "Champurrado",
+   "wiki_en": null,
+   "category": "drink",
+   "id": "champurrado"
+  },
+  {
+   "en": "Horchata",
+   "tr": "Horçata",
+   "native": "Horchata",
+   "wiki_en": "Horchata",
+   "category": "drink",
+   "id": "horchata"
+  },
+  {
+   "en": "Agua de jamaica",
+   "tr": "Jamaica suyu",
+   "native": "Agua de jamaica",
+   "wiki_en": null,
+   "category": "drink",
+   "id": "agua-de-jamaica"
+  },
+  {
+   "en": "Michelada",
+   "tr": "Michelada",
+   "native": "Michelada",
+   "wiki_en": "Michelada",
+   "category": "drink",
+   "id": "michelada"
+  }
+ ]
+}

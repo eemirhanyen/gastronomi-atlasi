@@ -1,0 +1,206 @@
+{
+ "signature": [
+  {
+   "en": "Kisra",
+   "tr": "Kisra (ince mayalı darı ekmeği)",
+   "native": "كسرة",
+   "wiki_en": "Kisra",
+   "desc_en": "A thin, spongy, sorghum or wheat flatbread that is the everyday staple, torn and dipped into stews.",
+   "desc_tr": "İnce, süngerimsi, sorgum veya buğdaydan yapılan yassı bir ekmek; günlük sofranın vazgeçilmezidir ve yemeklere batırılarak yenir."
+  },
+  {
+   "en": "Asida",
+   "tr": "Asida (darı lapası)",
+   "native": "عصيدة",
+   "wiki_en": "Asida",
+   "desc_en": "A smooth, thick porridge of sorghum or maize flour, eaten by hand with rich sauces and stews.",
+   "desc_tr": "Sorgum veya mısır unundan yapılan pürüzsüz, koyu bir lapa; zengin soslarla elle yenir."
+  },
+  {
+   "en": "Mulah bamia",
+   "tr": "Bamya yahnisi",
+   "native": "ملاح بامية",
+   "wiki_en": null,
+   "desc_en": "An okra stew simmered with tomatoes, onions and meat or fish, often served over asida.",
+   "desc_tr": "Domates, soğan ve et veya balıkla pişirilen bamya yemeği; genellikle asidanın üzerinde servis edilir."
+  },
+  {
+   "en": "Merissa",
+   "tr": "Merisa (darıdan fermente içecek)",
+   "native": "مريسة",
+   "wiki_en": "Merissa",
+   "desc_en": "A mildly alcoholic, fermented drink made from sorghum, with a thick, tangy character.",
+   "desc_tr": "Darıdan fermente edilen, hafif alkollü ve ekşimsi kıvamlı geleneksel bir içecek."
+  },
+  {
+   "en": "Sudanese milk tea",
+   "tr": "Sütlü şay (çay)",
+   "native": "شاي بالحليب",
+   "wiki_en": "Tea",
+   "desc_en": "Strong black tea brewed with milk and generous sugar, served throughout the day in small glasses.",
+   "desc_tr": "Güçlü siyah çayın süt ve bol şekerle demlenip küçük bardaklarda gün boyu içilmesi."
+  },
+  {
+   "en": "Peanut stew",
+   "tr": "Yer fıstıklı yahni",
+   "native": "مرق الفول السوداني",
+   "wiki_en": "Groundnut stew",
+   "desc_en": "A rich, velvety stew of ground peanuts, tomatoes and meat that shows the region's love of groundnuts.",
+   "desc_tr": "Öğütülmüş yer fıstığı, domates ve etle yapılan kadifemsi, zengin bir yahni."
+  },
+  {
+   "en": "Roasted goat",
+   "tr": "Fırınlanmış keçi eti",
+   "native": "مشوي",
+   "wiki_en": null,
+   "desc_en": "Goat meat seasoned simply with salt and cumin and roasted over coals, a centerpiece at celebrations.",
+   "desc_tr": "Tuz ve kimyonla basitçe tatlandırılıp kömür ateşinde pişirilen keçi eti; kutlamaların başköşesidir."
+  },
+  {
+   "en": "Sambusa",
+   "tr": "Samosa (sambusa)",
+   "native": "سمبوسة",
+   "wiki_en": "Sambusa",
+   "desc_en": "Crisp triangular pastries filled with spiced meat or lentils, a popular street snack in Juba.",
+   "desc_tr": "Baharatlı etle veya mercimekle doldurulmuş, çıtır üçgen hamur işi; Cuba'da popüler bir sokak atıştırmalığıdır."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Kisra",
+   "tr": "Kisra",
+   "native": "كسرة",
+   "wiki_en": "Kisra",
+   "category": "bread",
+   "id": "kisra"
+  },
+  {
+   "en": "Asida",
+   "tr": "Asida",
+   "native": "عصيدة",
+   "wiki_en": "Asida",
+   "category": "main",
+   "id": "asida"
+  },
+  {
+   "en": "Okra stew",
+   "tr": "Bamya yahnisi",
+   "native": "ملاح بامية",
+   "wiki_en": null,
+   "category": "main",
+   "id": "okra-stew"
+  },
+  {
+   "en": "Molokhia stew",
+   "tr": "Molohiya çorbası",
+   "native": "ملوخية",
+   "wiki_en": "Molokhia",
+   "category": "soup",
+   "id": "molokhia-stew"
+  },
+  {
+   "en": "Peanut stew",
+   "tr": "Yer fıstıklı yahni",
+   "native": "مرق الفول السوداني",
+   "wiki_en": "Groundnut stew",
+   "category": "main",
+   "id": "peanut-stew"
+  },
+  {
+   "en": "Lubia stew",
+   "tr": "Barbunya yahnisi",
+   "native": "لوبيا",
+   "wiki_en": null,
+   "category": "main",
+   "id": "lubia-stew"
+  },
+  {
+   "en": "Grilled Nile fish",
+   "tr": "Izgara Nil balığı",
+   "native": "سمك مشوي",
+   "wiki_en": null,
+   "category": "main",
+   "id": "grilled-nile-fish"
+  },
+  {
+   "en": "Roasted goat",
+   "tr": "Fırınlanmış keçi eti",
+   "native": "مشوي",
+   "wiki_en": null,
+   "category": "main",
+   "id": "roasted-goat"
+  },
+  {
+   "en": "Tomato and onion salad",
+   "tr": "Domates soğan salatası",
+   "native": "سلطة طماطم",
+   "wiki_en": null,
+   "category": "salad",
+   "id": "tomato-and-onion-salad"
+  },
+  {
+   "en": "Ful medames",
+   "tr": "Ful (fava fasulyesi)",
+   "native": "فول مدمس",
+   "wiki_en": "Ful medames",
+   "category": "breakfast",
+   "id": "ful-medames"
+  },
+  {
+   "en": "Falafel",
+   "tr": "Taamiye",
+   "native": "طعمية",
+   "wiki_en": "Falafel",
+   "category": "street_food",
+   "id": "falafel"
+  },
+  {
+   "en": "Sambusa",
+   "tr": "Samosa",
+   "native": "سمبوسة",
+   "wiki_en": "Sambusa",
+   "category": "snack",
+   "id": "sambusa"
+  },
+  {
+   "en": "Mandazi",
+   "tr": "Mandazi",
+   "native": "ماندازي",
+   "wiki_en": "Mandazi",
+   "category": "pastry",
+   "id": "mandazi"
+  },
+  {
+   "en": "Halawa",
+   "tr": "Halva",
+   "native": "حلاوة",
+   "wiki_en": null,
+   "category": "dessert",
+   "id": "halawa"
+  },
+  {
+   "en": "Merissa",
+   "tr": "Merisa",
+   "native": "مريسة",
+   "wiki_en": "Merissa",
+   "category": "drink",
+   "id": "merissa"
+  },
+  {
+   "en": "Karkade",
+   "tr": "Karkade (kurutulmuş ebegümeci çayı)",
+   "native": "كركدية",
+   "wiki_en": "Karkade",
+   "category": "drink",
+   "id": "karkade"
+  },
+  {
+   "en": "Sudanese milk tea",
+   "tr": "Sütlü şay",
+   "native": "شاي بالحليب",
+   "wiki_en": "Tea",
+   "category": "drink",
+   "id": "sudanese-milk-tea"
+  }
+ ]
+}

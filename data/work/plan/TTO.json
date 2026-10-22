@@ -1,0 +1,230 @@
+{
+ "signature": [
+  {
+   "en": "Doubles",
+   "tr": "Doubles (iki katlı kızarmış ekmek sandviçi)",
+   "native": "Doubles",
+   "wiki_en": "Doubles (food)",
+   "desc_en": "Two soft, golden bara flatbreads sandwich spiced chickpea curry, topped with tamarind sauce and pepper for Trinidad's favorite street breakfast.",
+   "desc_tr": "İki yumuşak, altın renkli bara ekmeği arasına baharatlı nohut körisi ve tamarind sosu konur; Trinidad'ın en sevilen sokak kahvaltısıdır."
+  },
+  {
+   "en": "Roti",
+   "tr": "Roti (yassı ekmek)",
+   "native": "Roti",
+   "wiki_en": null,
+   "desc_en": "Trinidadian roti wraps curried meat or vegetables in a soft, flaky flatbread, reflecting the island's Indo-Trinidadian heritage.",
+   "desc_tr": "Trinidad roti'si, köri eti veya sebzeleri yumuşak ve katmanlı bir yassı ekmeğin içine sarar; adanın Hint-Trinidad mirasını yansıtır."
+  },
+  {
+   "en": "Pelau",
+   "tr": "Pelau (baharatlı pilav)",
+   "native": "Pelau",
+   "wiki_en": "Pelau",
+   "desc_en": "A one-pot rice dish cooked with caramelized sugar, chicken or pigeon peas, and fragrant herbs, often served at festive gatherings.",
+   "desc_tr": "Karamelize şeker, tavuk veya güvercin bezelyesi ve aromatik otlarla tek tencerede pişirilen bir pilavdır; şenliklerde sık servis edilir."
+  },
+  {
+   "en": "Callaloo",
+   "tr": "Callaloo (yeşil yapraklı sebze yemeği)",
+   "native": "Callaloo",
+   "wiki_en": "Callaloo",
+   "desc_en": "A rich, creamy stew of dasheen leaves, okra and coconut milk, often enriched with crab, that is the nation's beloved national dish.",
+   "desc_tr": "Dasheen yaprakları, bamya ve hindistan cevizi sütünden yapılan kremalı bir yahni; bazen yengeçle zenginleştirilir ve ülkenin sevilen yemeğidir."
+  },
+  {
+   "en": "Bake and shark",
+   "tr": "Bake and shark (ekmekli köpekbalığı sandviçi)",
+   "native": "Bake and shark",
+   "wiki_en": "Bake and shark",
+   "desc_en": "Deep-fried shark fillets tucked into fluffy fried bake bread with pepper sauce, slaw and chutney, a legendary beach-side treat.",
+   "desc_tr": "Kızartılmış köpekbalığı filetosu, kabarık kızarmış ekmeğin arasına biber sosu, lahana salatası ve chutney ile konur; efsanevi bir sahil lezzetidir."
+  },
+  {
+   "en": "Angostura bitters",
+   "tr": "Angostura acı aroması",
+   "native": "Angostura bitters",
+   "wiki_en": "Angostura bitters",
+   "desc_en": "A concentrated aromatic bitters created in Venezuela but made famous in Trinidad, where it is a staple in cocktails and cooking.",
+   "desc_tr": "Venezuela'da üretilmiş ama Trinidad'da ünlenen yoğun aromatik bir acı esans; kokteyllerde ve yemeklerde vazgeçilmezdir."
+  },
+  {
+   "en": "Mauby",
+   "tr": "Mauby (acı baharatlı içecek)",
+   "native": "Mauby",
+   "wiki_en": "Mauby",
+   "desc_en": "A bittersweet drink brewed from tree bark and spices, with a distinctive taste that Trinidadians either adore or avoid.",
+   "desc_tr": "Ağaç kabuğu ve baharatlardan demlenen, tatlı-acı bir içecektir; Trinidadlılar ya bayılır ya da uzak durur."
+  },
+  {
+   "en": "Black cake",
+   "tr": "Black cake (koyu renkli Noel keki)",
+   "native": "Black cake",
+   "wiki_en": "Black cake",
+   "desc_en": "A dark, dense fruitcake soaked in rum and wine, traditionally baked for Christmas and aged for weeks.",
+   "desc_tr": "Rom ve şarapta bekletilen koyu renkli, yoğun meyveli bir kektir; geleneksel olarak Noel için pişirilir ve haftalarca olgunlaştırılır."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Doubles",
+   "tr": "Doubles",
+   "native": "Doubles",
+   "wiki_en": "Doubles (food)",
+   "category": "street_food",
+   "id": "doubles"
+  },
+  {
+   "en": "Buss up shut",
+   "tr": "Buss up shut (parçalanmış roti)",
+   "native": "Buss up shut",
+   "wiki_en": null,
+   "category": "bread",
+   "id": "buss-up-shut"
+  },
+  {
+   "en": "Pholourie",
+   "tr": "Pholourie (nohut unlu kızartma)",
+   "native": "Pholourie",
+   "wiki_en": null,
+   "category": "snack",
+   "id": "pholourie"
+  },
+  {
+   "en": "Aloo pie",
+   "tr": "Aloo pie (patatesli hamur böreği)",
+   "native": "Aloo pie",
+   "wiki_en": null,
+   "category": "snack",
+   "id": "aloo-pie"
+  },
+  {
+   "en": "Curry chicken",
+   "tr": "Köri tavuk",
+   "native": "Curry chicken",
+   "wiki_en": null,
+   "category": "main",
+   "id": "curry-chicken"
+  },
+  {
+   "en": "Stew chicken",
+   "tr": "Yahni tavuk",
+   "native": "Stew chicken",
+   "wiki_en": null,
+   "category": "main",
+   "id": "stew-chicken"
+  },
+  {
+   "en": "Pelau",
+   "tr": "Pelau",
+   "native": "Pelau",
+   "wiki_en": "Pelau",
+   "category": "main",
+   "id": "pelau"
+  },
+  {
+   "en": "Callaloo",
+   "tr": "Callaloo",
+   "native": "Callaloo",
+   "wiki_en": "Callaloo",
+   "category": "soup",
+   "id": "callaloo"
+  },
+  {
+   "en": "Pepperpot",
+   "tr": "Pepperpot (acılı et yahnisi)",
+   "native": "Pepperpot",
+   "wiki_en": "Pepperpot",
+   "category": "main",
+   "id": "pepperpot"
+  },
+  {
+   "en": "Crab and dumplings",
+   "tr": "Yengeç ve hamur topları",
+   "native": "Crab and dumplings",
+   "wiki_en": null,
+   "category": "main",
+   "id": "crab-and-dumplings"
+  },
+  {
+   "en": "Corn soup",
+   "tr": "Mısır çorbası",
+   "native": "Corn soup",
+   "wiki_en": null,
+   "category": "soup",
+   "id": "corn-soup"
+  },
+  {
+   "en": "Macaroni pie",
+   "tr": "Makarnalı börek",
+   "native": "Macaroni pie",
+   "wiki_en": "Macaroni pie",
+   "category": "side",
+   "id": "macaroni-pie"
+  },
+  {
+   "en": "Bake",
+   "tr": "Bake (kızarmış ekmek)",
+   "native": "Bake",
+   "wiki_en": null,
+   "category": "bread",
+   "id": "bake"
+  },
+  {
+   "en": "Pastelle",
+   "tr": "Pastelle (mısır hamurlu yaprak sarması)",
+   "native": "Pastelle",
+   "wiki_en": null,
+   "category": "snack",
+   "id": "pastelle"
+  },
+  {
+   "en": "Sorrel drink",
+   "tr": "Kuşkonmaz çiçeği içeceği (Sorrel)",
+   "native": "Sorrel",
+   "wiki_en": "Sorrel drink",
+   "category": "drink",
+   "id": "sorrel-drink"
+  },
+  {
+   "en": "Ginger beer",
+   "tr": "Zencefilli bira",
+   "native": "Ginger beer",
+   "wiki_en": "Ginger beer",
+   "category": "drink",
+   "id": "ginger-beer"
+  },
+  {
+   "en": "Cocoa tea",
+   "tr": "Kakao çayı",
+   "native": "Cocoa tea",
+   "wiki_en": null,
+   "category": "breakfast",
+   "id": "cocoa-tea"
+  },
+  {
+   "en": "Coconut drops",
+   "tr": "Hindistan cevizli şekerleme",
+   "native": "Coconut drops",
+   "wiki_en": null,
+   "category": "dessert",
+   "id": "coconut-drops"
+  },
+  {
+   "en": "Tamarind balls",
+   "tr": "Tamarind topları",
+   "native": "Tamarind balls",
+   "wiki_en": null,
+   "category": "dessert",
+   "id": "tamarind-balls"
+  },
+  {
+   "en": "Kurma",
+   "tr": "Kurma (tatlı şekerli hamur)",
+   "native": "Kurma",
+   "wiki_en": null,
+   "category": "dessert",
+   "id": "kurma"
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "signature": [
+  {
+   "en": "Brown cheese",
+   "tr": "Kahverengi peynir (brunost)",
+   "native": "brunost",
+   "wiki_en": "Brown cheese",
+   "desc_en": "This sweet, caramel-tasting whey cheese is sliced thin onto crispbread and is a Norwegian breakfast staple.",
+   "desc_tr": "Karamel tadında, tatlımsı bir peynir olup ince dilimlenip gevrek ekmeğin üzerine sürülür ve Norveç kahvaltısının vazgeçilmezidir."
+  },
+  {
+   "en": "Cured salmon",
+   "tr": "Tuzlanmış somon (gravlaks)",
+   "native": "gravlaks",
+   "wiki_en": "Gravlax",
+   "desc_en": "Raw salmon cured with salt, sugar and dill, then thinly sliced and served with mustard-dill sauce.",
+   "desc_tr": "Tuz, şeker ve dereotuyla tuzlanıp ince dilimlenerek hardal-dereotu sosuyla servis edilen çiğ somondur."
+  },
+  {
+   "en": "Fårikål",
+   "tr": "Fårikål (koyun eti ve lahana yemeği)",
+   "native": "fårikål",
+   "wiki_en": "Fårikål",
+   "desc_en": "Norway's national dish: lamb and cabbage slow-cooked with whole black peppercorns, traditionally eaten in autumn.",
+   "desc_tr": "Norveç'in ulusal yemeği: bütün karabiberle yavaş pişirilen kuzu eti ve lahanadır, geleneksel olarak sonbaharda yenir."
+  },
+  {
+   "en": "Akvavit",
+   "tr": "Akvavit",
+   "native": "akevitt",
+   "wiki_en": "Aquavit",
+   "desc_en": "A potato or grain spirit flavoured with caraway and dill, often sipped alongside rich holiday meals.",
+   "desc_tr": "Kimyon ve dereotuyla aromalandırılmış patates veya tahıl bazlı bir içkidir ve genellikle zengin bayram yemeklerinin yanında yudumlanır."
+  },
+  {
+   "en": "Kransekake",
+   "tr": "Kransekake (badem halkalı pasta)",
+   "native": "kransekake",
+   "wiki_en": "Kransekake",
+   "desc_en": "A tower of almond-and-sugar rings stacked into a cone, traditionally served at weddings and New Year.",
+   "desc_tr": "Badem ve şekerden yapılmış halkaların koni şeklinde üst üste dizilmesiyle oluşan bir kuleyi andırır; geleneksel olarak düğünlerde ve yılbaşında servis edilir."
+  },
+  {
+   "en": "Lefse",
+   "tr": "Lefse (patatesli yassı ekmek)",
+   "native": "lefse",
+   "wiki_en": "Lefse",
+   "desc_en": "Thin, soft potato flatbread rolled out and griddled, often spread with butter and sugar or filled with cured meats.",
+   "desc_tr": "Patatesten yapılan, ince açılıp sacda pişirilen yumuşak bir yassı ekmektir; genellikle tereyağı ve şekerle ya da tuzlu etlerle servis edilir."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Fårikål",
+   "tr": "Fårikål",
+   "native": "fårikål",
+   "wiki_en": "Fårikål",
+   "category": "main",
+   "id": "farikal"
+  },
+  {
+   "en": "Meatballs in brown sauce (meat cakes)",
+   "tr": "Köfte (Norveç usulü etli köfte)",
+   "native": "kjøttkaker",
+   "wiki_en": null,
+   "category": "main",
+   "id": "meatballs-in-brown-sauce-meat-cakes"
+  },
+  {
+   "en": "Potato and pork dumplings",
+   "tr": "Patates köftesi",
+   "native": "raspeballer",
+   "wiki_en": null,
+   "category": "main",
+   "id": "potato-and-pork-dumplings"
+  },
+  {
+   "en": "Dried and steamed lamb ribs",
+   "tr": "Kurutulmuş kuzu pirzolası",
+   "native": "pinnekjøtt",
+   "wiki_en": "Pinnekjøtt",
+   "category": "main",
+   "id": "dried-and-steamed-lamb-ribs"
+  },
+  {
+   "en": "Lutefisk",
+   "tr": "Lutefisk (soda ile işlenmiş balık)",
+   "native": "lutefisk",
+   "wiki_en": "Lutefisk",
+   "category": "main",
+   "id": "lutefisk"
+  },
+  {
+   "en": "Gravlax",
+   "tr": "Gravlaks",
+   "native": "gravlaks",
+   "wiki_en": "Gravlax",
+   "category": "side",
+   "id": "gravlax"
+  },
+  {
+   "en": "Norwegian fish soup",
+   "tr": "Norveç balık çorbası",
+   "native": "fiskesuppe",
+   "wiki_en": null,
+   "category": "soup",
+   "id": "norwegian-fish-soup"
+  },
+  {
+   "en": "Norwegian split pea soup",
+   "tr": "Norveç bezelye çorbası",
+   "native": "ertesuppe",
+   "wiki_en": null,
+   "category": "soup",
+   "id": "norwegian-split-pea-soup"
+  },
+  {
+   "en": "Sour cream porridge",
+   "tr": "Ekşi kremalı lapa",
+   "native": "rømmegrøt",
+   "wiki_en": null,
+   "category": "breakfast",
+   "id": "sour-cream-porridge"
+  },
+  {
+   "en": "Potato flatbread",
+   "tr": "Patatesli yassı ekmek",
+   "native": "lefse",
+   "wiki_en": "Lefse",
+   "category": "bread",
+   "id": "potato-flatbread"
+  },
+  {
+   "en": "Crispbread",
+   "tr": "Gevrek ekmek",
+   "native": "flatbrød",
+   "wiki_en": null,
+   "category": "bread",
+   "id": "crispbread"
+  },
+  {
+   "en": "Open sandwiches",
+   "tr": "Açık sandviç",
+   "native": "smørbrød",
+   "wiki_en": "Smørbrød",
+   "category": "snack",
+   "id": "open-sandwiches"
+  },
+  {
+   "en": "Cinnamon bun",
+   "tr": "Tarçınlı çörek",
+   "native": "kanelbolle",
+   "wiki_en": "Cinnamon bun",
+   "category": "pastry",
+   "id": "cinnamon-bun"
+  },
+  {
+   "en": "Krumkake",
+   "tr": "Krumkake (ince vafl)",
+   "native": "krumkake",
+   "wiki_en": "Krumkake",
+   "category": "pastry",
+   "id": "krumkake"
+  },
+  {
+   "en": "Kransekake",
+   "tr": "Kransekake (badem halkalı pasta)",
+   "native": "kransekake",
+   "wiki_en": "Kransekake",
+   "category": "dessert",
+   "id": "kransekake"
+  },
+  {
+   "en": "Norwegian waffles",
+   "tr": "Vaffle",
+   "native": "vaffel",
+   "wiki_en": "Waffle",
+   "category": "street_food",
+   "id": "norwegian-waffles"
+  }
+ ]
+}

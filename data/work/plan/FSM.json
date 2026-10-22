@@ -1,0 +1,166 @@
+{
+ "signature": [
+  {
+   "en": "Sakau (kava drink)",
+   "tr": "Sakau (kava içeceği)",
+   "native": "Sakau",
+   "wiki_en": "Kava",
+   "desc_en": "A mildly numbing, earthy drink made by pounding and steeping kava root, traditionally shared at ceremonies and gatherings on Pohnpei.",
+   "desc_tr": "Kava kökünün dövülüp suda demlenmesiyle yapılan, hafif uyuşturucu etkili ve toprak kokulu bir içecek; Pohnpei'de tören ve toplantılarda paylaşılır."
+  },
+  {
+   "en": "Breadfruit",
+   "tr": "Ekmek ağacı meyvesi",
+   "native": "Mei (Chuukese)",
+   "wiki_en": "Breadfruit",
+   "desc_en": "This starchy staple tastes like a cross between potato and fresh bread and is baked, boiled, or fermented into preserved paste across the islands.",
+   "desc_tr": "Nişastalı bu ana besin, patates ile taze ekmek arası bir tada sahiptir; adalarda fırınlanır, haşlanır ya da fermente edilip saklanabilir bir hamura dönüştürülür."
+  },
+  {
+   "en": "Coconut",
+   "tr": "Hindistan cevizi",
+   "native": "Niu",
+   "wiki_en": "Coconut",
+   "desc_en": "Coconut meat, milk and oil flavor almost every traditional dish, and the palm is central to daily life across Micronesia's atolls.",
+   "desc_tr": "Hindistan cevizi eti, sütü ve yağı neredeyse her geleneksel yemeğe tat verir; hindistan cevizi palmiyesi Mikronezya atollerinin günlük yaşamının merkezindedir."
+  },
+  {
+   "en": "Taro",
+   "tr": "Taro (kolokasya)",
+   "native": "Taro",
+   "wiki_en": "Taro",
+   "desc_en": "This root vegetable with large heart-shaped leaves is a cornerstone crop, often cooked in coconut cream or baked in an earth oven.",
+   "desc_tr": "Büyük kalp biçimli yaprakları olan bu kök sebze temel bir üründür; çoğunlukla hindistan cevizi kremasında pişirilir ya da toprak fırında kavrulur."
+  },
+  {
+   "en": "Tuba (coconut toddy)",
+   "tr": "Tuba (hindistan cevizi şarabı)",
+   "native": "Tuba",
+   "wiki_en": "Palm wine",
+   "desc_en": "Fermented sap tapped from coconut palm flowers gives this lightly alcoholic drink its tangy, slightly sweet character.",
+   "desc_tr": "Hindistan cevizi palmiyesinin çiçeklerinden toplanan özsuyun fermente edilmesiyle elde edilen, hafif alkollü, ekşimsi ve tatlımsı bir içecektir."
+  },
+  {
+   "en": "Spam musubi",
+   "tr": "Spam musubi",
+   "native": "Spam musubi",
+   "wiki_en": "Spam musubi",
+   "desc_en": "Grilled Spam pressed onto rice and wrapped in nori is a beloved snack, reflecting the canned-meat tradition that became part of island life.",
+   "desc_tr": "Izgara Spam'in pirinç üzerine konup nori yapraklarına sarılmasıyla yapılan bu atıştırmalık, ada yaşamının bir parçası haline gelen konserve et geleneğini yansıtır."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Sakau (kava drink)",
+   "tr": "Sakau (kava içeceği)",
+   "native": "Sakau",
+   "wiki_en": "Kava",
+   "category": "drink",
+   "id": "sakau-kava-drink"
+  },
+  {
+   "en": "Umu-baked breadfruit",
+   "tr": "Toprak fırında ekmek ağacı meyvesi",
+   "native": "Mei",
+   "wiki_en": "Breadfruit",
+   "category": "side",
+   "id": "umu-baked-breadfruit"
+  },
+  {
+   "en": "Taro in coconut cream",
+   "tr": "Hindistan cevizi kremalı taro",
+   "native": "Taro",
+   "wiki_en": "Taro",
+   "category": "side",
+   "id": "taro-in-coconut-cream"
+  },
+  {
+   "en": "Coconut fish soup",
+   "tr": "Hindistan cevizli balık çorbası",
+   "native": "Niu fish soup",
+   "wiki_en": null,
+   "category": "soup",
+   "id": "coconut-fish-soup"
+  },
+  {
+   "en": "Grilled reef fish",
+   "tr": "Izgara resif balığı",
+   "native": "Grilled reef fish",
+   "wiki_en": null,
+   "category": "main",
+   "id": "grilled-reef-fish"
+  },
+  {
+   "en": "Coconut crab in coconut milk",
+   "tr": "Hindistan cevizi sütünde hindistan cevizi yengeci",
+   "native": "Coconut crab",
+   "wiki_en": "Coconut crab",
+   "category": "main",
+   "id": "coconut-crab-in-coconut-milk"
+  },
+  {
+   "en": "Spam fried rice",
+   "tr": "Spam'li kızarmış pilav",
+   "native": "Spam fried rice",
+   "wiki_en": null,
+   "category": "main",
+   "id": "spam-fried-rice"
+  },
+  {
+   "en": "Spam musubi",
+   "tr": "Spam musubi",
+   "native": "Spam musubi",
+   "wiki_en": "Spam musubi",
+   "category": "street_food",
+   "id": "spam-musubi"
+  },
+  {
+   "en": "Fried breadfruit slices",
+   "tr": "Kızarmış ekmek ağacı dilimleri",
+   "native": "Mei",
+   "wiki_en": "Breadfruit",
+   "category": "breakfast",
+   "id": "fried-breadfruit-slices"
+  },
+  {
+   "en": "Coconut pancakes",
+   "tr": "Hindistan cevizli pankek",
+   "native": "Coconut pancakes",
+   "wiki_en": null,
+   "category": "breakfast",
+   "id": "coconut-pancakes"
+  },
+  {
+   "en": "Breadfruit chips",
+   "tr": "Ekmek ağacı cipsi",
+   "native": "Mei chips",
+   "wiki_en": null,
+   "category": "snack",
+   "id": "breadfruit-chips"
+  },
+  {
+   "en": "Tuba (coconut toddy)",
+   "tr": "Tuba (hindistan cevizi şarabı)",
+   "native": "Tuba",
+   "wiki_en": "Palm wine",
+   "category": "drink",
+   "id": "tuba-coconut-toddy"
+  },
+  {
+   "en": "Coconut-banana pudding",
+   "tr": "Hindistan cevizli muz muhallebisi",
+   "native": "Coconut-banana pudding",
+   "wiki_en": null,
+   "category": "dessert",
+   "id": "coconut-banana-pudding"
+  },
+  {
+   "en": "Taro and coconut pudding",
+   "tr": "Taro ve hindistan cevizi muhallebisi",
+   "native": "Taro pudding",
+   "wiki_en": null,
+   "category": "dessert",
+   "id": "taro-and-coconut-pudding"
+  }
+ ]
+}

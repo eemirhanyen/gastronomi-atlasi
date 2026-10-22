@@ -1,0 +1,254 @@
+{
+ "signature": [
+  {
+   "en": "Masala chai",
+   "tr": "Masala çay",
+   "native": "मसाला चाय",
+   "wiki_en": "Masala chai",
+   "desc_en": "A milky, spiced black tea simmered with cardamom, ginger, cinnamon and cloves, sold from roadside stalls across the country.",
+   "desc_tr": "Kardamon, zencefil, tarçın ve karanfille kaynatılan, sütlü ve baharatlı bir siyah çay; ülkenin her yerinde yol kenarı tezgâhlarında satılır."
+  },
+  {
+   "en": "Biryani",
+   "tr": "Biryani",
+   "native": "बिरयानी",
+   "wiki_en": "Biryani",
+   "desc_en": "Fragrant layered rice cooked with spiced meat or vegetables, saffron and fried onions, with regional versions from Hyderabad to Kolkata.",
+   "desc_tr": "Baharatlı et veya sebzeyle, safran ve kızarmış soğanla katmanlı pişirilen aromatik pilav; Hyderabad'dan Kalküta'ya her bölgenin kendi versiyonu vardır."
+  },
+  {
+   "en": "Samosa",
+   "tr": "Samosa",
+   "native": "समोसा",
+   "wiki_en": "Samosa",
+   "desc_en": "A crisp, triangular fried pastry filled with spiced potatoes and peas, a beloved snack served with tangy chutneys.",
+   "desc_tr": "Baharatlı patates ve bezelyeyle doldurulmuş, çıtır çıtır kızartılmış üçgen bir hamur işi; ekşi chutney'lerle servis edilen çok sevilen bir atıştırmalıktır."
+  },
+  {
+   "en": "Butter chicken",
+   "tr": "Tereyağlı tavuk",
+   "native": "मक्खन चिकन",
+   "wiki_en": "Butter chicken",
+   "desc_en": "Tender tandoori chicken simmered in a silky, creamy tomato and butter sauce, a global ambassador of North Indian cooking.",
+   "desc_tr": "Tandır tavuğunun ipeksi, kremalı domates ve tereyağı sosunda pişirilmiş hali; Kuzey Hint mutfağının dünyadaki en tanınmış elçisidir."
+  },
+  {
+   "en": "Dosa",
+   "tr": "Dosa",
+   "native": "डोसा",
+   "wiki_en": "Dosa",
+   "desc_en": "A paper-thin, crispy fermented crepe made from rice and lentil batter, often rolled around spiced potato filling.",
+   "desc_tr": "Pirinç ve mercimek hamurundan yapılan, mayalı ve kâğıt kadar ince çıtır bir krep; genellikle baharatlı patates dolgusuyla servis edilir."
+  },
+  {
+   "en": "Gulab jamun",
+   "tr": "Gulab jamun",
+   "native": "गुलाब जामुन",
+   "wiki_en": "Gulab jamun",
+   "desc_en": "Soft, deep-fried milk-solid dumplings soaked in rose and cardamom-scented sugar syrup, a festive favourite.",
+   "desc_tr": "Gül ve kardamon aromalı şerbete batırılmış, yumuşak ve kızartılmış süt tozu topakları; bayram ve kutlamaların vazgeçilmezidir."
+  },
+  {
+   "en": "Lassi",
+   "tr": "Lassi",
+   "native": "लस्सी",
+   "wiki_en": "Lassi",
+   "desc_en": "A chilled, thick yogurt drink, sweet or salty, often blended with sugar, rose water or mango pulp.",
+   "desc_tr": "Soğuk, kıvamlı bir yoğurt içeceği; tatlı ya da tuzlu olarak hazırlanır, bazen şeker, gül suyu veya mango püresiyle karıştırılır."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Dal",
+   "tr": "Dal",
+   "native": "दाल",
+   "wiki_en": "Dal",
+   "category": "main",
+   "id": "dal"
+  },
+  {
+   "en": "Chana masala",
+   "tr": "Chana masala",
+   "native": "छोले मसाला",
+   "wiki_en": "Chana masala",
+   "category": "main",
+   "id": "chana-masala"
+  },
+  {
+   "en": "Palak paneer",
+   "tr": "Palak paneer",
+   "native": "पालक पनीर",
+   "wiki_en": "Palak paneer",
+   "category": "main",
+   "id": "palak-paneer"
+  },
+  {
+   "en": "Rajma",
+   "tr": "Rajma",
+   "native": "राजमा",
+   "wiki_en": "Rajma",
+   "category": "main",
+   "id": "rajma"
+  },
+  {
+   "en": "Chicken tikka masala",
+   "tr": "Chicken tikka masala",
+   "native": "चिकन टिक्का मसाला",
+   "wiki_en": "Chicken tikka masala",
+   "category": "main",
+   "id": "chicken-tikka-masala"
+  },
+  {
+   "en": "Tandoori chicken",
+   "tr": "Tandoori tavuk",
+   "native": "तंदूरी चिकन",
+   "wiki_en": "Tandoori chicken",
+   "category": "main",
+   "id": "tandoori-chicken"
+  },
+  {
+   "en": "Rogan josh",
+   "tr": "Rogan josh",
+   "native": "रोगन जोश",
+   "wiki_en": "Rogan josh",
+   "category": "main",
+   "id": "rogan-josh"
+  },
+  {
+   "en": "Biryani",
+   "tr": "Biryani",
+   "native": "बिरयानी",
+   "wiki_en": "Biryani",
+   "category": "main",
+   "id": "biryani"
+  },
+  {
+   "en": "Naan",
+   "tr": "Naan",
+   "native": "नान",
+   "wiki_en": "Naan",
+   "category": "bread",
+   "id": "naan"
+  },
+  {
+   "en": "Roti",
+   "tr": "Roti",
+   "native": "रोटी",
+   "wiki_en": "Roti",
+   "category": "bread",
+   "id": "roti"
+  },
+  {
+   "en": "Paratha",
+   "tr": "Paratha",
+   "native": "पराठा",
+   "wiki_en": "Paratha",
+   "category": "bread",
+   "id": "paratha"
+  },
+  {
+   "en": "Pakora",
+   "tr": "Pakora",
+   "native": "पकौड़ा",
+   "wiki_en": "Pakora",
+   "category": "snack",
+   "id": "pakora"
+  },
+  {
+   "en": "Pav bhaji",
+   "tr": "Pav bhaji",
+   "native": "पाव भाजी",
+   "wiki_en": "Pav bhaji",
+   "category": "street_food",
+   "id": "pav-bhaji"
+  },
+  {
+   "en": "Idli",
+   "tr": "İdli",
+   "native": "इडली",
+   "wiki_en": "Idli",
+   "category": "breakfast",
+   "id": "idli"
+  },
+  {
+   "en": "Sambar",
+   "tr": "Sambar",
+   "native": "सांबर",
+   "wiki_en": "Sambar (food)",
+   "category": "soup",
+   "id": "sambar"
+  },
+  {
+   "en": "Rasam",
+   "tr": "Rasam",
+   "native": "रसम",
+   "wiki_en": "Rasam",
+   "category": "soup",
+   "id": "rasam"
+  },
+  {
+   "en": "Upma",
+   "tr": "Upma",
+   "native": "उपमा",
+   "wiki_en": "Upma",
+   "category": "breakfast",
+   "id": "upma"
+  },
+  {
+   "en": "Poha",
+   "tr": "Poha",
+   "native": "पोहा",
+   "wiki_en": "Poha",
+   "category": "breakfast",
+   "id": "poha"
+  },
+  {
+   "en": "Chole bhature",
+   "tr": "Chole bhature",
+   "native": "छोले भटूरे",
+   "wiki_en": "Chole bhature",
+   "category": "street_food",
+   "id": "chole-bhature"
+  },
+  {
+   "en": "Pani puri",
+   "tr": "Pani puri",
+   "native": "पानी पूरी",
+   "wiki_en": "Pani puri",
+   "category": "street_food",
+   "id": "pani-puri"
+  },
+  {
+   "en": "Raita",
+   "tr": "Raita",
+   "native": "रायता",
+   "wiki_en": "Raita",
+   "category": "side",
+   "id": "raita"
+  },
+  {
+   "en": "Kachumber",
+   "tr": "Kachumber salatası",
+   "native": "कचूमर",
+   "wiki_en": null,
+   "category": "salad",
+   "id": "kachumber"
+  },
+  {
+   "en": "Kheer",
+   "tr": "Kheer",
+   "native": "खीर",
+   "wiki_en": "Kheer",
+   "category": "dessert",
+   "id": "kheer"
+  },
+  {
+   "en": "Jalebi",
+   "tr": "Jalebi",
+   "native": "जलेबी",
+   "wiki_en": "Jalebi",
+   "category": "dessert",
+   "id": "jalebi"
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "signature": [
+  {
+   "en": "Sushi",
+   "tr": "Suşi",
+   "native": "寿司",
+   "wiki_en": "Sushi",
+   "desc_en": "Vinegared rice paired with raw fish, seafood or vegetables, from humble street snacks to refined counter-side artistry.",
+   "desc_tr": "Sirkeli pirinç ile çiğ balık, deniz ürünleri veya sebzelerin buluştuğu, sokak atıştırmalığından şef masasına uzanan efsanevi lezzet."
+  },
+  {
+   "en": "Ramen",
+   "tr": "Ramen",
+   "native": "ラーメン",
+   "wiki_en": "Ramen",
+   "desc_en": "Wheat noodles swimming in a rich broth of pork, chicken or soy, topped with chashu, egg and green onion.",
+   "desc_tr": "Domuz, tavuk ya da soya bazlı zengin suyun içinde yüzen buğday eriştesi; üzerinde chashu, yumurta ve yeşil soğanla servis edilir."
+  },
+  {
+   "en": "Tempura",
+   "tr": "Tempura",
+   "native": "天ぷら",
+   "wiki_en": "Tempura",
+   "desc_en": "Seafood and vegetables dipped in a feather-light batter and fried until crisp, a legacy of Portuguese influence.",
+   "desc_tr": "Deniz ürünleri ve sebzelerin tüy gibi hafif bir hamura bandırılıp çıtır kızartılmasıyla elde edilen, Portekiz etkisi taşıyan lezzet."
+  },
+  {
+   "en": "Matcha",
+   "tr": "Matcha",
+   "native": "抹茶",
+   "wiki_en": "Matcha",
+   "desc_en": "Finely ground powdered green tea whisked into a vivid, slightly bitter brew central to the tea ceremony.",
+   "desc_tr": "Çay töreninin merkezinde yer alan, ince öğütülmüş yeşil çay tozunun canlı renkli ve hafif acımtırak bir içeceğe dönüşümü."
+  },
+  {
+   "en": "Sake",
+   "tr": "Sake",
+   "native": "日本酒",
+   "wiki_en": "Sake",
+   "desc_en": "A brewed rice wine with a clean, fragrant character that ranges from crisp and dry to lush and fruity.",
+   "desc_tr": "Pirinçten fermente edilen, taze ve aromatik karakterli; kuru ve ferahtan meyveli ve yumuşağa uzanan geniş bir yelpazeye sahip pirinç şarabı."
+  },
+  {
+   "en": "Mochi",
+   "tr": "Mochi",
+   "native": "餅",
+   "wiki_en": "Mochi",
+   "desc_en": "Pounded glutinous rice cakes with a soft, chewy texture, enjoyed fresh, filled, or grilled.",
+   "desc_tr": "Dövülerek hazırlanan, yumuşak ve esnek yapışkan pirinç keklerinin taze, dolgulu ya da ızgara hâlde tüketilen hali."
+  },
+  {
+   "en": "Wagyu beef",
+   "tr": "Vagyu sığır eti",
+   "native": "和牛",
+   "wiki_en": "Wagyu",
+   "desc_en": "Prized Japanese cattle breeds whose heavy marbling gives the beef an exceptionally tender, buttery richness.",
+   "desc_tr": "Yoğun mermerleşmesi sayesinde son derece yumuşak ve tereyağlı bir zenginlik sunan, Japonya'nın değerli sığır ırkları."
+  }
+ ],
+ "dishes": [
+  {
+   "en": "Miso soup",
+   "tr": "Miso çorbası",
+   "native": "味噌汁",
+   "wiki_en": "Miso soup",
+   "category": "soup",
+   "id": "miso-soup"
+  },
+  {
+   "en": "Dashi",
+   "tr": "Dashi",
+   "native": "出汁",
+   "wiki_en": "Dashi",
+   "category": "sauce",
+   "id": "dashi"
+  },
+  {
+   "en": "Chawanmushi",
+   "tr": "Çavanmuşi",
+   "native": "茶碗蒸し",
+   "wiki_en": "Chawanmushi",
+   "category": "side",
+   "id": "chawanmushi"
+  },
+  {
+   "en": "Tonkatsu",
+   "tr": "Tonkatsu",
+   "native": "とんかつ",
+   "wiki_en": "Tonkatsu",
+   "category": "main",
+   "id": "tonkatsu"
+  },
+  {
+   "en": "Katsudon",
+   "tr": "Katsudon",
+   "native": "カツ丼",
+   "wiki_en": "Katsudon",
+   "category": "main",
+   "id": "katsudon"
+  },
+  {
+   "en": "Oyakodon",
+   "tr": "Oyakodon",
+   "native": "親子丼",
+   "wiki_en": "Oyakodon",
+   "category": "main",
+   "id": "oyakodon"
+  },
+  {
+   "en": "Sukiyaki",
+   "tr": "Sukiyaki",
+   "native": "すき焼き",
+   "wiki_en": "Sukiyaki",
+   "category": "main",
+   "id": "sukiyaki"
+  },
+  {
+   "en": "Shabu-shabu",
+   "tr": "Shabu-shabu",
+   "native": "しゃぶしゃぶ",
+   "wiki_en": "Shabu-shabu",
+   "category": "main",
+   "id": "shabu-shabu"
+  },
+  {
+   "en": "Nikujaga",
+   "tr": "Nikujaga",
+   "native": "肉じゃが",
+   "wiki_en": "Nikujaga",
+   "category": "main",
+   "id": "nikujaga"
+  },
+  {
+   "en": "Karaage",
+   "tr": "Karaage",
+   "native": "唐揚げ",
+   "wiki_en": "Karaage",
+   "category": "main",
+   "id": "karaage"
+  },
+  {
+   "en": "Tempura",
+   "tr": "Tempura",
+   "native": "天ぷら",
+   "wiki_en": "Tempura",
+   "category": "main",
+   "id": "tempura"
+  },
+  {
+   "en": "Udon",
+   "tr": "Udon",
+   "native": "うどん",
+   "wiki_en": "Udon",
+   "category": "main",
+   "id": "udon"
+  },
+  {
+   "en": "Soba",
+   "tr": "Soba",
+   "native": "そば",
+   "wiki_en": "Soba",
+   "category": "main",
+   "id": "soba"
+  },
+  {
+   "en": "Ramen",
+   "tr": "Ramen",
+   "native": "ラーメン",
+   "wiki_en": "Ramen",
+   "category": "main",
+   "id": "ramen"
+  },
+  {
+   "en": "Sushi",
+   "tr": "Suşi",
+   "native": "寿司",
+   "wiki_en": "Sushi",
+   "category": "main",
+   "id": "sushi"
+  },
+  {
+   "en": "Tamagoyaki",
+   "tr": "Tamagoyaki",
+   "native": "卵焼き",
+   "wiki_en": "Tamagoyaki",
+   "category": "breakfast",
+   "id": "tamagoyaki"
+  },
+  {
+   "en": "Ochazuke",
+   "tr": "Ochazuke",
+   "native": "お茶漬け",
+   "wiki_en": "Ochazuke",
+   "category": "breakfast",
+   "id": "ochazuke"
+  },
+  {
+   "en": "Onigiri",
+   "tr": "Onigiri",
+   "native": "おにぎり",
+   "wiki_en": "Onigiri",
+   "category": "snack",
+   "id": "onigiri"
+  },
+  {
+   "en": "Okonomiyaki",
+   "tr": "Okonomiyaki",
+   "native": "お好み焼き",
+   "wiki_en": "Okonomiyaki",
+   "category": "street_food",
+   "id": "okonomiyaki"
+  },
+  {
+   "en": "Takoyaki",
+   "tr": "Takoyaki",
+   "native": "たこ焼き",
+   "wiki_en": "Takoyaki",
+   "category": "street_food",
+   "id": "takoyaki"
+  },
+  {
+   "en": "Yakitori",
+   "tr": "Yakitori",
+   "native": "焼き鳥",
+   "wiki_en": "Yakitori",
+   "category": "street_food",
+   "id": "yakitori"
+  },
+  {
+   "en": "Sunomono",
+   "tr": "Sunomono",
+   "native": "酢の物",
+   "wiki_en": "Sunomono",
+   "category": "salad",
+   "id": "sunomono"
+  },
+  {
+   "en": "Mochi",
+   "tr": "Mochi",
+   "native": "餅",
+   "wiki_en": "Mochi",
+   "category": "dessert",
+   "id": "mochi"
+  },
+  {
+   "en": "Dorayaki",
+   "tr": "Dorayaki",
+   "native": "どら焼き",
+   "wiki_en": "Dorayaki",
+   "category": "pastry",
+   "id": "dorayaki"
+  },
+  {
+   "en": "Amazake",
+   "tr": "Amazake",
+   "native": "甘酒",
+   "wiki_en": "Amazake",
+   "category": "drink",
+   "id": "amazake"
+  }
+ ]
+}
