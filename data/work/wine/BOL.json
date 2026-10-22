@@ -1,0 +1,208 @@
+{
+ "iso3": "BOL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22275,
+  "out": 3763,
+  "searches": 2
+ },
+ "usd": 0.1022,
+ "summary": {
+  "tr": "Bolivya'da asmaya 16. yüzyılda İspanyol misyonerler öncülük etti. Bugün bağcılık, 1.600 ile yaklaşık 3.000 metre arasında değişen rakımlarla dünyanın en yüksek bağlarını barındıran güneydeki vadilerde yoğunlaşıyor. Üretimin büyük kısmı Tarija'dan geliyor. Ülkenin ulusal içkisi singani ise Muscat of Alexandria üzümünden damıtılan, menşe adı korumalı bir üzüm damıtığı. Son yıllarda Tannat, yüksek ra",
+  "en": "Viticulture in Bolivia began in the 16th century with Spanish missionaries. Today it is concentrated in the southern valleys, where vineyards sit between about 1,600 and 3,000 metres, among the highest in the world. Most production comes from Tarija. The national spirit, singani, is a grape distillate made from Muscat of Alexandria and protected by a denomination of origin. In recent years Tannat "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Tarija (Central Valley)",
+   "lat": -21.6,
+   "lng": -64.7,
+   "desc": {
+    "tr": "Ülke şarap üretiminin yaklaşık %80-93'ünü sağlayan, 1.600-2.150 m rakımlı ana bölge; Kohlberg, Campos de Solana ve Aranjuez gibi büyük üreticilere ve singani damıtımına ev sahipliği yapar.",
+    "en": "The main region, supplying roughly 80-93% of national production from vineyards at 1,600-2,150 m, and home to major producers such as Kohlberg, Campos de Solana and Aranjuez as well as singani distilling."
+   },
+   "grapes": [
+    "Tannat",
+    "Muscat of Alexandria",
+    "Cabernet Sauvignon",
+    "Malbec",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Cinti Valley",
+   "lat": -20.8,
+   "lng": -65.2,
+   "desc": {
+    "tr": "Chuquisaca'da, Camargo, Villa Abecia ve Las Carreras çevresinde yer alan; çok eski asmaların ağaçlara tırmandırıldığı (arbolito) küçük ölçekli ve yüksek rakımlı tarihî bağ bölgesidir.",
+    "en": "A historic, small-scale high-altitude district in Chuquisaca around Camargo, Villa Abecia and Las Carreras, known for very old vines trained up trees (arbolito)."
+   },
+   "grapes": [
+    "Negra Criolla",
+    "Muscat of Alexandria",
+    "Tannat",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Samaipata",
+   "lat": -18.18,
+   "lng": -63.87,
+   "desc": {
+    "tr": "Santa Cruz vadilerinde yaklaşık 1.750 m rakımda yer alan, aromatik Torrontés ve Syrah ile tanınan küçük ama yenilikçi bir bölgedir.",
+    "en": "A small, innovative area in the Santa Cruz valleys at about 1,750 m, known for aromatic Torrontés and for Syrah."
+   },
+   "grapes": [
+    "Torrontés",
+    "Syrah",
+    "Tannat",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Cochabamba Valleys",
+   "lat": -17.4,
+   "lng": -66.16,
+   "desc": {
+    "tr": "Ülkenin kültürel ve gastronomik merkezlerinden biri olan Cochabamba çevresinde, üretimdeki payı çok düşük, dağınık birkaç bağcılık alanı bulunur.",
+    "en": "Around Cochabamba, a cultural and gastronomic hub, there are a few scattered wineries whose share of national output is very small."
+   },
+   "grapes": [
+    "Muscat of Alexandria",
+    "Cabernet Sauvignon",
+    "Syrah"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Negra Criolla",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "İspanyol sömürge döneminden kalma Criolla asmaları, özellikle Cinti Vadisi'ndeki yüzyıllık bağlarda yaşamaya devam eder.",
+    "en": "Criolla vines from the Spanish colonial era survive today, especially in the centuries-old vineyards of the Cinti Valley."
+   }
+  },
+  {
+   "name": "Muscat of Alexandria",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Ülkede en yaygın dikilen üzümlerden biridir ve singaninin tek hammaddesidir.",
+    "en": "One of the most widely planted grapes in the country, and the base of singani."
+   }
+  },
+  {
+   "name": "Tannat",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "1999'da Aranjuez tarafından getirilen Tannat, yüksek rakımda iyi sonuç verir ve Bolivya'nın simge kırmızısı olmuştur.",
+    "en": "Introduced by Aranjuez in 1999, Tannat does well at altitude and has become Bolivia's signature red."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Tarija'da yaygın olarak yetiştirilen, tek çeşit ve harmanlarda kullanılan kırmızı çeşittir.",
+    "en": "A widely grown red in Tarija, used for varietal wines and blends."
+   }
+  },
+  {
+   "name": "Malbec",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Güney Amerika'nın yüksek rakımlı bağlarına uyum sağlayan ve Bolivya'da da yetiştirilen kırmızı çeşittir.",
+    "en": "A red variety adapted to South America's high-altitude vineyards, also grown in Bolivia."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kalın kabuklu yapısı sayesinde yüksek rakımdaki güneşe dayanır; özellikle Samaipata'da öne çıkar.",
+    "en": "Its thick skins cope with strong altitude sunlight, and it stands out especially in Samaipata."
+   }
+  },
+  {
+   "name": "Torrontés",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Samaipata ve Tarija gibi yüksek rakımlarda asiditesini koruyarak ferah ve aromatik şaraplar verir.",
+    "en": "At altitude in places like Samaipata and Tarija it keeps its acidity, giving fresh, aromatic wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Singani",
+   "desc": {
+    "tr": "Bolivya'nın ulusal içkisi olan singani, 1.600 m'nin üzerinde yetişen Muscat of Alexandria üzümünden damıtılır ve menşe adıyla korunur.",
+    "en": "Bolivia's national spirit, singani is distilled from Muscat of Alexandria grown above 1,600 m and protected by a denomination of origin."
+   }
+  },
+  {
+   "name": "Tarija high-altitude Tannat",
+   "desc": {
+    "tr": "Tarija'nın yüksek rakımlı Tannat şarapları, koyu meyveli ve canlı asiditeli yapılarıyla ülkenin en iyi bilinen kırmızı şarap stilidir.",
+    "en": "Tarija's high-altitude Tannats, with dark fruit and lively acidity, are the country's best-known red wine style."
+   }
+  },
+  {
+   "name": "Cinti Valley arbolito wines",
+   "desc": {
+    "tr": "Cinti Vadisi'nde ağaçlara tırmanan yüz yıllık Criolla asmalarından, az miktarda ve geleneksel yöntemlerle şarap yapılır.",
+    "en": "Small quantities of traditionally made wine come from century-old Criolla vines climbing trees in the Cinti Valley."
+   }
+  },
+  {
+   "name": "Samaipata Torrontés",
+   "desc": {
+    "tr": "Samaipata'nın serin gecelerinde olgunlaşan Torrontés, çiçeksi aromalı ve ferah beyaz şaraplar verir.",
+    "en": "Torrontés ripened in Samaipata's cool nights gives floral, fresh white wines."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Elevated Elegance: The High Altitude Wine Regions of Bolivia",
+   "url": "https://www.sommwine.com/bolivia/"
+  },
+  {
+   "title": "Grown At High Altitudes, Bolivia's Wines Are Rising Stars - AZPM",
+   "url": "https://news.azpm.org/p/news-npr/2019/10/15/160116-grown-at-high-altitudes-bolivias-wines-are-rising-stars/"
+  },
+  {
+   "title": "Tuscany with a side of magic: Savoring Bolivia’s wine country",
+   "url": "https://www.spokesman.com/stories/2025/mar/13/tuscany-with-a-side-of-magic-savoring-bolivias-win/"
+  },
+  {
+   "title": "Bolivian wine",
+   "url": "https://en.wikipedia.org/wiki/Bolivian_wine"
+  },
+  {
+   "title": "Tarija Wine Region",
+   "url": "https://www.winewithseth.com/winewiki/tarija/"
+  },
+  {
+   "title": "Bolivia Wine Region",
+   "url": "https://www.winewithseth.com/winewiki/bolivia/"
+  },
+  {
+   "title": "Discover the best wines and producers of Bolivia",
+   "url": "https://www.vinerra.com/country/bolivia"
+  },
+  {
+   "title": "Tarija Travel Guide",
+   "url": "https://www.yapabolivia.com/bolivia-travel-guide/tarija-travel-guide/"
+  }
+ ]
+}

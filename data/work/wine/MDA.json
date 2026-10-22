@@ -1,0 +1,205 @@
+{
+ "iso3": "MDA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 21645,
+  "out": 4288,
+  "searches": 2
+ },
+ "usd": 0.1062,
+ "summary": {
+  "tr": "Moldova'da bağcılık binlerce yıl öncesine uzanır ve ülke kültürünün ayrılmaz bir parçasıdır. Sovyet döneminde Moldova büyük bir şarap üreticisiydi ve ihracatının büyük bölümü Rusya pazarına gidiyordu. 2014 AB Ortaklık Anlaşması'ndan sonra ihracat AB'ye yöneldi ve AB modeline uygun Korunan Coğrafi İşaret (KCİ) sistemi kuruldu. Ülkede Fetească Neagră ve Rară Neagră gibi yerli üzümlerin yanında Caber",
+  "en": "Viticulture in Moldova goes back thousands of years and is an integral part of national culture. In the Soviet era the country was a major wine producer, with most of its exports going to Russia. After the 2014 EU Association Agreement, exports shifted toward the EU, and an EU-style system of Protected Geographical Indications (PGIs) was set up. Native grapes such as Fetească Neagră and Rară Neagr"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Codru",
+   "lat": 47.1,
+   "lng": 28.6,
+   "desc": {
+    "tr": "Ülkenin merkezindeki en büyük KCİ bölgesidir. Ormanlarla çevrili, ülkenin en serin iklimine sahiptir ve beyaz ile köpüklü şaraplarıyla tanınır; Cricova ve Mileștii Mici mahzenleri buradadır.",
+    "en": "The largest PGI region, in the centre of the country, with the coolest climate in Moldova and forests covering about a quarter of its area. It is known for white and sparkling wines, and Cricova and Mileștii Mici are located here."
+   },
+   "grapes": [
+    "Fetească Albă",
+    "Fetească Regală",
+    "Chardonnay",
+    "Pinot Noir",
+    "Rară Neagră"
+   ]
+  },
+  {
+   "name": "Ștefan Vodă",
+   "lat": 46.5,
+   "lng": 29.7,
+   "desc": {
+    "tr": "Güneydoğuda, Karadeniz'in serinletici etkisi altındadır. Rară Neagră ve karakterli kırmızı şaraplarıyla ünlüdür; tarihî Negru de Purcari de buradan gelir.",
+    "en": "A south-eastern region cooled by Black Sea winds, famed for red wines and especially Rară Neagră, and home to the historic Negru de Purcari."
+   },
+   "grapes": [
+    "Rară Neagră",
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Fetească Neagră",
+    "Saperavi"
+   ]
+  },
+  {
+   "name": "Valul lui Traian",
+   "lat": 46.0,
+   "lng": 28.6,
+   "desc": {
+    "tr": "Güneybatıdaki daha sıcak ve kurak bozkır bölgesidir. Dolgun gövdeli kırmızı şaraplarıyla bilinir.",
+    "en": "A warmer, drier steppe-influenced region in the south, known for full-bodied red wines."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Fetească Neagră",
+    "Fetească Albă",
+    "Muscat Ottonel"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Fetească Neagră",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Koyu renkli, baharatlı ve yaşlandırmaya elverişli kırmızı şaraplar veren, Moldova ve Romanya'ya özgü eski bir çeşittir.",
+    "en": "An old red variety of Moldova and Romania that gives deep, spicy wines with good ageing potential."
+   }
+  },
+  {
+   "name": "Rară Neagră",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Daha hafif gövdeli, meyvemsi ve yumuşak tanenli kırmızı şaraplar verir ve Negru de Purcari'nin bileşenlerinden biridir.",
+    "en": "A red grape giving lighter, fruity wines with soft tannins, and a component of the famous Negru de Purcari."
+   }
+  },
+  {
+   "name": "Fetească Albă",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Yerli çeşitler arasında en geniş alana sahip beyaz üzümdür; ince çiçeksi ve elma-şeftali aromalı kuru şaraplar ve köpüklü şaraplar için kullanılır.",
+    "en": "The most widely planted native white, used for delicate floral, apple-and-peach dry wines and for sparkling wines."
+   }
+  },
+  {
+   "name": "Fetească Regală",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Fetească Albă ile Furmint'in doğal melezi olan, ferah ve aromatik şaraplar veren beyaz bir çeşittir.",
+    "en": "A white cross of Fetească Albă and Furmint that makes crisp, aromatic wines."
+   }
+  },
+  {
+   "name": "Viorica",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Moldova'da geliştirilen, egzotik ve üzümsü aromaları canlı asitliğiyle dengeleyen bir beyaz çeşittir.",
+    "en": "A white variety bred in Moldova, with exotic, grapey aromas and lively acidity."
+   }
+  },
+  {
+   "name": "Plavai",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Meyvemsi ve aromatik beyaz şaraplar veren, yerli olarak kabul edilen bir çeşittir.",
+    "en": "A white variety regarded as native to Moldova, known for fruity, aromatic wines."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle güneydeki bölgelerde yetişen, Moldova'nın yapılı kırmızı şaraplarının ve karışımlarının temel uluslararası çeşididir.",
+    "en": "A key international red grown especially in the southern regions, used for structured Moldovan reds and blends."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Sessiz beyaz şaraplarda ve geleneksel yöntem köpüklü şaraplarda kullanılan yaygın bir uluslararası çeşittir.",
+    "en": "A widely planted international white used in still wines and in traditional-method sparkling wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Negru de Purcari",
+   "desc": {
+    "tr": "Ștefan Vodă'daki Purcari bağlarının tarihî kırmızı karışımıdır; Rară Neagră'nın yanı sıra Cabernet Sauvignon ve Saperavi gibi çeşitler içerir.",
+    "en": "The historic red blend of the Purcari estate in Ștefan Vodă, built around Rară Neagră and typically including Cabernet Sauvignon and Saperavi."
+   }
+  },
+  {
+   "name": "Divin",
+   "desc": {
+    "tr": "Şaraptan iki kez damıtılan ve meşede en az üç yıl yaşlandırılan Moldova konyağıdır; tüm ülke sınırları için KCİ ile korunur.",
+    "en": "Moldova's grape brandy, distilled twice from wine and aged at least three years in oak, protected as a PGI across the whole country."
+   }
+  },
+  {
+   "name": "Codru geleneksel yöntem köpüklü şaraplar",
+   "desc": {
+    "tr": "Codru'nun serin iklimi ve yeraltı mahzenleri, Chardonnay ve Pinot Noir bazlı geleneksel yöntem köpüklü şaraplara uygun ortam sağlar.",
+    "en": "Codru's cool climate and underground cellars suit traditional-method sparkling wines, typically based on Chardonnay and Pinot Noir."
+   }
+  },
+  {
+   "name": "PGI Codru / Ștefan Vodă / Valul lui Traian",
+   "desc": {
+    "tr": "Üç bölgesel şarap KCİ'si hem Moldova'da hem AB'de korunur ve ülkenin kalite sisteminin temelini oluşturur.",
+    "en": "The three regional wine PGIs are protected in both Moldova and the EU and form the backbone of the country's quality system."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Wine Regions - Wine of Moldova",
+   "url": "https://wineofmoldova.com/en/wine-regions/"
+  },
+  {
+   "title": "Divin intervention: Moldova - The Spirits Business",
+   "url": "https://www.thespiritsbusiness.com/2026/08/divin-intervention-moldova/"
+  },
+  {
+   "title": "Tourism in Moldova",
+   "url": "https://en.wikipedia.org/wiki/Tourism_in_Moldova"
+  },
+  {
+   "title": "Wine of Moldova: Unexpectedly Great - Dutch Wine Apprentice",
+   "url": "https://dutchwineapprentice.com/wine-of-moldova-unexpectedly-great/"
+  },
+  {
+   "title": "Moldovan wine",
+   "url": "https://en.wikipedia.org/wiki/Moldovan_wine"
+  },
+  {
+   "title": "Moldova: Terroir of Central and Southern Wine Regions",
+   "url": "https://www.winewithseth.com/winewiki/moldova-geography-terroir-of-three-distinct-regions/"
+  },
+  {
+   "title": "Moldova Wine Region Wine Region",
+   "url": "https://www.winewithseth.com/winewiki/geopolitics-of-moldovan-wine-from-russian-embargo-to-eu-renaissance/"
+  },
+  {
+   "title": "Moldovan Wine Law: PGI Classification System & EU Alignment",
+   "url": "https://www.winewithseth.com/winewiki/moldovan-wine-law-dop-igp-classification-system/"
+  }
+ ]
+}

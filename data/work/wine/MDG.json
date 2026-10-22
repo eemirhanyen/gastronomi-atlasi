@@ -1,0 +1,198 @@
+{
+ "iso3": "MDG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 15121,
+  "out": 3027,
+  "searches": 1
+ },
+ "usd": 0.0705,
+ "summary": {
+  "tr": "Madagaskar'da bağcılık, Fransız sömürge döneminde (Cizvit rahiplerin getirdiği asmalarla) başladı. Asıl atılımını 1970'lerde İsviçre kalkınma yardımıyla yaptı. Üzümlerin neredeyse tamamı güneydeki merkezî yaylalarda, Betsileo halkının yaşadığı Fianarantsoa çevresinde yetişir. Şaraplar çoğunlukla Fransız-Amerikan melez üzümlerden yapılır, yıllıksızdır ve yerel pazar için üretilir. Yağışlı yaz mevsi",
+  "en": "Winegrowing in Madagascar began under French colonial rule, with vines first planted by French Jesuit priests. It expanded in the 1970s with Swiss development aid. Almost all vineyards lie in the southern central highlands around Fianarantsoa, home of the Betsileo people. Most wine is made from French-American hybrid grapes, is non-vintage, and is sold on the local market. The hot, wet summer ripe"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Fianarantsoa",
+   "lat": -21.45,
+   "lng": 47.08,
+   "desc": {
+    "tr": "Madagaskar'ın şarap başkenti kabul edilir; Lazan'i Betsileo kooperatifi, Clos Malaza ve Maromby manastırı gibi üreticilere ev sahipliği yapar.",
+    "en": "Regarded as the wine capital of Madagascar, it is home to producers such as the Lazan'i Betsileo cooperative, Clos Malaza and the Maromby monastery."
+   },
+   "grapes": [
+    "Villard Noir",
+    "Couderc Blanc",
+    "Chambourcin"
+   ]
+  },
+  {
+   "name": "Ambalavao",
+   "lat": -21.83,
+   "lng": 46.94,
+   "desc": {
+    "tr": "Fianarantsoa'nın güneyinde, RN7 karayolu üzerinde yer alır; Coteaux d'Ambalavao gibi markaların ve Clos Nomena'nın vinifera denemelerinin bölgesidir.",
+    "en": "South of Fianarantsoa on the RN7 highway, it is the home of brands such as Coteaux d'Ambalavao and of Clos Nomena's vinifera experiments."
+   },
+   "grapes": [
+    "Villard Noir",
+    "Couderc Blanc",
+    "Petit Bouchet"
+   ]
+  },
+  {
+   "name": "Isandra",
+   "lat": -21.35,
+   "lng": 47.0,
+   "desc": {
+    "tr": "Fianarantsoa yakınlarındaki vadi, Haute Matsiatra bölgesinin üzüm yetiştirilen ilçelerinden biridir.",
+    "en": "A valley near Fianarantsoa and one of the grape-growing districts of the Haute Matsiatra region."
+   },
+   "grapes": [
+    "Villard Noir",
+    "Chambourcin",
+    "Couderc Blanc"
+   ]
+  },
+  {
+   "name": "Soavita",
+   "lat": -21.55,
+   "lng": 47.0,
+   "desc": {
+    "tr": "Fianarantsoa'nın güneyindeki bu köy, Soavita ve Domaine de Manamisoa gibi şaraplarıyla bilinir.",
+    "en": "A village south of Fianarantsoa, known for wines such as Soavita and Domaine de Manamisoa."
+   },
+   "grapes": [
+    "Villard Noir",
+    "Couderc Blanc"
+   ]
+  },
+  {
+   "name": "Antsirabe",
+   "lat": -19.87,
+   "lng": 47.03,
+   "desc": {
+    "tr": "Bağcılık kuşağının kuzey ucudur; Grand Cru d'Antsirabe şarabıyla tanınır.",
+    "en": "The northern edge of the wine-growing belt, known for the Grand Cru d'Antsirabe wines."
+   },
+   "grapes": [
+    "Couderc Blanc",
+    "Villard Noir"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Couderc Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Beyaz şaralarda başlıca kullanılan Fransız melez üzümüdür.",
+    "en": "A French hybrid grape that is the main variety used in Madagascar's white wines."
+   }
+  },
+  {
+   "name": "Villard Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Pinot Noir'a benzetilen, kırmızı şaraplarda kullanılan melez bir çeşittir.",
+    "en": "A hybrid red variety, often likened to Pinot Noir, used in red wines."
+   }
+  },
+  {
+   "name": "Chambourcin",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı şaraplarda kullanılan, hastalıklara dayanıklı bir melez üzümdür.",
+    "en": "A disease-resistant hybrid grape used for red wines."
+   }
+  },
+  {
+   "name": "Petit Bouchet",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Yerel kırmızı karışımlarda kullanılan melez bir üzümdür.",
+    "en": "A hybrid grape used in local red blends."
+   }
+  },
+  {
+   "name": "Varousset",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Madagaskar'ın melez üzüm çeşitleri arasında sayılan bir kırmızı çeşittir.",
+    "en": "A red variety listed among the hybrids grown in Madagascar."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Vin gris",
+   "desc": {
+    "tr": "Kırmızı üzümlerden yapılan, soluk renkli ve hafif bir şaraptır; Madagaskar'da yaygın bir tarzdır.",
+    "en": "A pale, light wine made from red grapes and a common style in Madagascar."
+   }
+  },
+  {
+   "name": "Lazan'i Betsileo",
+   "desc": {
+    "tr": "Fianarantsoa'da 1971'de kurulan ve İsviçre yardımıyla ülkenin en iyi şaraplarını üreten büyük bir kooperatiftir.",
+    "en": "A large cooperative founded in Fianarantsoa in 1971 that, with Swiss aid, once made the country's best wines."
+   }
+  },
+  {
+   "name": "Clos Nomena",
+   "desc": {
+    "tr": "Ambalavao'da 2001'den beri asil Fransız çeşitleriyle çalışan ve ülkenin ilk yıllık (vintage) şaraplarını üreten bir bağdır.",
+    "en": "An Ambalavao estate working with noble French varieties since 2001 and producing Madagascar's first vintage-dated wines."
+   }
+  },
+  {
+   "name": "Vin blanc moelleux",
+   "desc": {
+    "tr": "Belirgin şeker kalıntısı olan yarı tatlı beyaz şaraptır; Blanc Doux de Maroparasy bunun bir örneğidir.",
+    "en": "A white wine with noticeable residual sweetness, for example Blanc Doux de Maroparasy."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Central Madagascar Travel Guide",
+   "url": "https://www.roughguides.com/madagascar/central-madagascar/"
+  },
+  {
+   "title": "schiller-wine: The Wines of Madagascar - Good and Interesting Table Wines (2010)",
+   "url": "http://schiller-wine.blogspot.com/2010/10/wines-of-madagascar.html"
+  },
+  {
+   "title": "schiller-wine: The Wines of Madagascar",
+   "url": "http://schiller-wine.blogspot.com/2012/05/wines-of-madagascar.html"
+  },
+  {
+   "title": "Ambalavao - Guide Madagascar - Détours Madagascar",
+   "url": "https://www.madagascartravel.com/guide-madagascar/destination/ambalavao"
+  },
+  {
+   "title": "Haute Matsiatra",
+   "url": "https://en.wikipedia.org/wiki/Haute_Matsiatra"
+  },
+  {
+   "title": "Fianarantsoa, closer to the Betsileo culture",
+   "url": "https://www.urlaub-auf-madagaskar.com/en/fianarantsoa-close-to-betsileo-culture/"
+  },
+  {
+   "title": "Viticulture in Madagascar - MadaMagazine",
+   "url": "https://www.madamagazine.com/en/weinbau-auf-madagaskar/"
+  },
+  {
+   "title": "schiller-wine: Schiller's Favorite Wines of Madagascar",
+   "url": "http://schiller-wine.blogspot.com/2014/10/schillers-favorite-wines-of-madagascar.html"
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "iso3": "NZL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22909,
+  "out": 4053,
+  "searches": 2
+ },
+ "usd": 0.1063,
+ "summary": {
+  "tr": "Yeni Zelanda'da bağcılık, 1819'da Samuel Marsden'in Kuzey Adası'na asma dikmesiyle başladı. Ülke, 1970'lerde Marlborough'da ticari ölçekte üretime geçti ve 1980'lerin ortasından itibaren keskin aromalı Sauvignon Blanc'ıyla dünya çapında ün kazandı. Bugün yaklaşık 44.000 hektarlık bağ alanı vardır. Bunun yaklaşık %73'ü Marlborough'dadır. Üretimin büyük bölümü ihraç edilir, bağların çok büyük kısmı ",
+  "en": "Viticulture in New Zealand began in 1819, when Samuel Marsden planted vines on the North Island. Commercial production took off in Marlborough in the 1970s, and from the mid-1980s its pungent Sauvignon Blanc made the country famous worldwide. Vineyards now cover about 44,000 hectares, roughly 73% of them in Marlborough. Most of the wine is exported, and nearly all vineyard area is certified under "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Marlborough",
+   "lat": -41.55,
+   "lng": 173.85,
+   "desc": {
+    "tr": "Güney Adası'nın kuzeydoğusundaki bu bölge, ülkenin en büyük bağ alanına sahiptir ve dünyaca ünlü Sauvignon Blanc'ın ana yurdudur.",
+    "en": "Located at the northeastern tip of the South Island, it is the country's largest wine region and the home of its world-famous Sauvignon Blanc."
+   },
+   "grapes": [
+    "Sauvignon Blanc",
+    "Pinot Noir",
+    "Chardonnay",
+    "Pinot Gris"
+   ]
+  },
+  {
+   "name": "Central Otago",
+   "lat": -45.05,
+   "lng": 169.2,
+   "desc": {
+    "tr": "Güney Alpler'in yağmur gölgesinde yer alan, dünyanın en güneydeki ticari bağ bölgelerinden biridir. Pinot Noir ile tanınır.",
+    "en": "Lying in the rain shadow of the Southern Alps, it is one of the world's southernmost commercial wine regions and is known for Pinot Noir."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Pinot Gris",
+    "Riesling",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Hawke's Bay",
+   "lat": -39.65,
+   "lng": 176.85,
+   "desc": {
+    "tr": "Ülkenin en eski ve ikinci büyük bağ bölgesidir. Gimblett Gravels bölgesindeki Bordeaux tarzı karışımları, Syrah'ı ve Chardonnay'sıyla bilinir.",
+    "en": "The country's oldest and second-largest wine region, known for Bordeaux-style blends and Syrah from the Gimblett Gravels, and for Chardonnay."
+   },
+   "grapes": [
+    "Merlot",
+    "Cabernet Sauvignon",
+    "Syrah",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Wairarapa (Martinborough)",
+   "lat": -41.25,
+   "lng": 175.5,
+   "desc": {
+    "tr": "Wellington'ın yakınındaki küçük ve serin bölge, özellikle Martinborough çevresindeki Pinot Noir'ları ile öne çıkar.",
+    "en": "A small, cool region near Wellington, best known for Pinot Noir from around Martinborough."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Sauvignon Blanc",
+    "Pinot Gris",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "North Canterbury (Waipara)",
+   "lat": -43.05,
+   "lng": 172.75,
+   "desc": {
+    "tr": "Güney Adası'nın doğusunda yer alan bu bölge, Waipara Vadisi'nin kireçtaşlı yamaçlarında Pinot Noir ve Riesling üretir.",
+    "en": "On the east side of the South Island, it makes Pinot Noir and Riesling, notably on the limestone slopes of the Waipara Valley."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Riesling",
+    "Sauvignon Blanc",
+    "Pinot Gris"
+   ]
+  },
+  {
+   "name": "Gisborne",
+   "lat": -38.65,
+   "lng": 177.95,
+   "desc": {
+    "tr": "Dünyada güneş ışığını ilk gören bağ bölgelerinden biri olan Gisborne, Chardonnay ve aromatik beyazlarıyla tanınır.",
+    "en": "One of the first wine regions in the world to see the sun each day, Gisborne is known for Chardonnay and aromatic whites."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Gris",
+    "Gewürztraminer",
+    "Viognier"
+   ]
+  },
+  {
+   "name": "Waiheke Island",
+   "lat": -36.8,
+   "lng": 175.1,
+   "desc": {
+    "tr": "Auckland açıklarındaki sıcak ve kurak ada, küçük ölçekli, yüksek fiyatlı kırmızı şarapları (Syrah ve Bordeaux karışımları) ile bilinir.",
+    "en": "A warm, dry island off Auckland, known for small-production, premium reds such as Syrah and Bordeaux blends."
+   },
+   "grapes": [
+    "Syrah",
+    "Merlot",
+    "Cabernet Sauvignon",
+    "Chardonnay"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Sauvignon Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Bağ alanının yaklaşık %82'sini beyaz çeşitler içinde oluşturur ve Marlborough'ya dünya çapında ün kazandırmıştır; tropik meyve ve taze ot aromaları taşır.",
+    "en": "It makes up about 82% of white plantings and made Marlborough famous worldwide; it shows tropical fruit and fresh-cut grass notes."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı çeşitlerin yaklaşık dörtte üçünü oluşturur ve en iyi sonucu Central Otago, Marlborough ve Martinborough'da verir.",
+    "en": "It accounts for about three quarters of red plantings and does best in Central Otago, Marlborough and Martinborough."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hawke's Bay ve Gisborne'da doku ve saflık odaklı, meyvesi öne çıkan şarapların yapıldığı ikinci önemli beyaz çeşittir.",
+    "en": "The second major white grape, made in Hawke's Bay and Gisborne in a pure, textured, fruit-driven style."
+   }
+  },
+  {
+   "name": "Pinot Gris",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Son yirmi yılda hızla yayılan, yuvarlak gövdeli ve hafif baharatlı bir beyaz şaraplık üzümdür.",
+    "en": "A white grape whose plantings grew rapidly over the last two decades, giving round, lightly spicy wines."
+   }
+  },
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Serin iklimli Waipara, Central Otago ve Marlborough'da kuru ile yarı kuru arasında değişen stillerde yetiştirilir.",
+    "en": "Grown in cool-climate Waipara, Central Otago and Marlborough, in styles from dry to off-dry."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Hawke's Bay ve Waiheke'de Bordeaux tarzı karışımların temelidir.",
+    "en": "The backbone of Bordeaux-style blends in Hawke's Bay and on Waiheke."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gimblett Gravels gibi sıcak, çakıllı alanlarda biberli ve baharatlı şaraplar verir.",
+    "en": "Gives peppery, spicy wines in warm, gravelly sites such as the Gimblett Gravels."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Marlborough Sauvignon Blanc",
+   "desc": {
+    "tr": "Yoğun aromalı, canlı asiditeli bu şarap, ülkenin dünyadaki imzası haline gelmiştir.",
+    "en": "An intensely aromatic, high-acid white that has become the country's global signature."
+   }
+  },
+  {
+   "name": "Central Otago Pinot Noir",
+   "desc": {
+    "tr": "Yoğun meyveli ve ince yapılı kırmızı şarap; Bannockburn, Gibbston ve Bendigo gibi alt bölgelere göre farklılık gösterir.",
+    "en": "A red with concentrated fruit and fine structure, varying by subregion such as Bannockburn, Gibbston and Bendigo."
+   }
+  },
+  {
+   "name": "Gimblett Gravels Bordeaux blends and Syrah",
+   "desc": {
+    "tr": "Hawke's Bay'deki çakıllı, sıcak bölgede üretilen Merlot ağırlıklı karışımlar ve Syrah.",
+    "en": "Merlot-led blends and Syrah from the warm, gravelly Gimblett Gravels district in Hawke's Bay."
+   }
+  },
+  {
+   "name": "Méthode traditionnelle sparkling (Marlborough)",
+   "desc": {
+    "tr": "Marlborough'nun serin iklimi, Şampanya üreticilerinin yatırım yaptığı geleneksel yöntemle köpüklü şaraplar için uygundur.",
+    "en": "Marlborough's cool climate suits traditional-method sparkling wines, which have attracted investment from Champagne producers."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Marlborough wine region",
+   "url": "https://en.wikipedia.org/wiki/Marlborough_wine_region"
+  },
+  {
+   "title": "New Zealand Wine Regions Guide: Styles, Grapes & Top Areas",
+   "url": "https://www.coravin.com/blogs/community/new-zealand-wine-regions"
+  },
+  {
+   "title": "New Zealand wine",
+   "url": "https://en.wikipedia.org/wiki/New_Zealand_wine"
+  },
+  {
+   "title": "Beyond Sauvignon Blanc: A Regional Guide to the Wonderful World of New Zealand Wines",
+   "url": "https://www.wineenthusiast.com/basics/new-zealand-wine-basics-guide/"
+  },
+  {
+   "title": "Classic New Zealand Wine Trail",
+   "url": "https://en.wikipedia.org/wiki/Classic_New_Zealand_Wine_Trail"
+  },
+  {
+   "title": "A quick guide to New Zealand wine",
+   "url": "https://wineanorak.com/2025/10/05/a-quick-guide-to-new-zealand-wine/"
+  },
+  {
+   "title": "Cloudy Bay Vineyards",
+   "url": "https://en.wikipedia.org/wiki/Cloudy_Bay_Vineyards"
+  },
+  {
+   "title": "Wine Regions - New Zealand",
+   "url": "https://vineyards.com/wine-region/new-zealand"
+  }
+ ]
+}

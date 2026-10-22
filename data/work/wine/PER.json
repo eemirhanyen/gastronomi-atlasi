@@ -1,0 +1,236 @@
+{
+ "iso3": "PER",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23972,
+  "out": 4698,
+  "searches": 2
+ },
+ "usd": 0.1149,
+ "summary": {
+  "tr": "Peru, Güney Amerika'da bağcılığın en eski merkezlerinden biridir. Ica Vadisi'ne 1540'larda İspanyol Francisco de Carabantes Kanarya Adaları'ndan asma getirmiştir. 18. yüzyılın sonlarında İspanya'nın Peru şaraplarının ithalatını yasaklamasıyla üretim damıtmaya kaymış ve Peru'nun ulusal içkisi pisko ortaya çıkmıştır. Bugün üzüm üretimi piskoyla iç içedir; sahil çölünde Ica merkezli yeni nesil şarap ",
+  "en": "Peru is one of the oldest centres of viticulture in South America. Francisco de Carabantes brought vine stock from the Canary Islands to the Ica Valley in the 1540s. In the late 18th century Spain banned imports of Peruvian wine, which pushed producers towards distillation and gave rise to pisco, the national spirit. Today grape growing is closely tied to pisco, while a newer generation of wine pr"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ica",
+   "lat": -14.07,
+   "lng": -75.73,
+   "desc": {
+    "tr": "Peru'nun şarap ve pisko üretiminin kalbi olan, Humboldt Akıntısı'nın serinlettiği sahil çölü vadisidir; Tacama, Intipalka, Tabernero ve Vista Alegre gibi başlıca üreticilere ev sahipliği yapar.",
+    "en": "The heart of Peruvian wine and pisco, a coastal desert valley moderated by the Humboldt Current and home to leading producers such as Tacama, Intipalka, Tabernero and Vista Alegre."
+   },
+   "grapes": [
+    "Quebranta",
+    "Italia",
+    "Tannat",
+    "Petit Verdot",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Ocucaje",
+   "lat": -14.35,
+   "lng": -75.68,
+   "desc": {
+    "tr": "Ica'nın güneyindeki çöl kuşağında yer alan, Ocucaje markasıyla bilinen tarihi bir şarap ve pisko yöresidir.",
+    "en": "A historic wine and pisco zone in the desert south of Ica city, known through the Ocucaje winery."
+   },
+   "grapes": [
+    "Quebranta",
+    "Negra Criolla",
+    "Italia"
+   ]
+  },
+  {
+   "name": "Lima (Cañete / Lunahuaná)",
+   "lat": -12.96,
+   "lng": -76.14,
+   "desc": {
+    "tr": "Lima bölgesinin bağcılığı büyük ölçüde Cañete ve Lunahuaná çevresinde toplanır; Uvina üzümü bu vadiye özgü olarak korunur.",
+    "en": "Lima department's viticulture is concentrated around Cañete and Lunahuaná, where Uvina grapes are protected for pisco."
+   },
+   "grapes": [
+    "Uvina",
+    "Quebranta",
+    "Moscatel"
+   ]
+  },
+  {
+   "name": "Arequipa",
+   "lat": -16.4,
+   "lng": -72.0,
+   "desc": {
+    "tr": "Vítor ve Majes gibi vadilerde bağların bulunduğu, pisko denetim bölgesine dahil güney Peru yöresidir.",
+    "en": "A southern Peruvian department with vineyards in valleys such as Vítor and Majes, and part of the pisco denomination area."
+   },
+   "grapes": [
+    "Negra Criolla",
+    "Mollar",
+    "Moscatel"
+   ]
+  },
+  {
+   "name": "Moquegua",
+   "lat": -17.19,
+   "lng": -70.93,
+   "desc": {
+    "tr": "Kil küplerde yapılan geleneksel üretimiyle, eski Criolla bağlarından pisko, mistela ve meyve suyu elde edilen küçük bir yöredir.",
+    "en": "A small region known for traditional clay-jar production, with old Criolla vineyards yielding pisco, mistela and grape juice."
+   },
+   "grapes": [
+    "Negra Criolla",
+    "Quebranta",
+    "Mollar"
+   ]
+  },
+  {
+   "name": "Tacna",
+   "lat": -18.0,
+   "lng": -70.25,
+   "desc": {
+    "tr": "Şili sınırına yakın, piskoyla köklü bir geçmişi olan çöl kenarı bağcılık bölgesidir.",
+    "en": "A desert-edge viticultural region near the Chilean border with a long history tied to pisco."
+   },
+   "grapes": [
+    "Negra Criolla",
+    "Quebranta",
+    "Moscatel"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Quebranta",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Mollar ile Negra Criolla'nın melezi olan ve Perulular'ın kendi yerli çeşitleri saydığı Quebranta, piskoda en çok kullanılan üzümdür.",
+    "en": "A cross of Mollar and Negra Criolla that Peruvians claim as their one indigenous variety, and the grape most used for pisco."
+   }
+  },
+  {
+   "name": "Negra Criolla",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kanarya Adaları'ndaki Listán Prieto ile aynı olan bu kırmızı çeşit, sömürge döneminden beri Peru'da yetiştirilir ve Quebranta'nın ebeveynlerinden biridir.",
+    "en": "Identical to the Canary Islands' Listán Prieto, this red variety has been grown in Peru since colonial times and is a parent of Quebranta."
+   }
+  },
+  {
+   "name": "Torontel",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Çiçeksi ve meyvemsi aromalarıyla öne çıkan, pisko ve beyaz şaraplarda kullanılan aromatik beyaz çeşittir.",
+    "en": "An aromatic white variety with floral, fruity character, used for pisco and white wines."
+   }
+  },
+  {
+   "name": "Italia",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "1911'de İtalya'da geliştirilmiş, yoğun çiçeksi aromalı beyaz bir sofralık-muscat tipi çeşittir; Peru'da pisko ve kuru beyaz şarapta kullanılır.",
+    "en": "A white Muscat-type cross created in Italy in 1911, used in Peru for pisco and dry white wines."
+   }
+  },
+  {
+   "name": "Tannat",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ica'nın sıcak güneşinde kalın kabuğuyla iyi sonuç veren, yapılı kırmızı şaraplar sunan uluslararası çeşittir.",
+    "en": "A thick-skinned international red that copes well with Ica's hot sun and gives structured wines."
+   }
+  },
+  {
+   "name": "Petit Verdot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ica'da Tannat ile birlikte en başarılı kırmızı çeşitler arasında sayılan, koyu renkli ve güçlü şaraplar veren bir çeşittir.",
+    "en": "Among the best-performing reds in Ica alongside Tannat, giving deeply coloured, powerful wines."
+   }
+  },
+  {
+   "name": "Malbec",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ica'daki modern sofra şarabı üretiminde öne çıkan çeşitlerden biridir.",
+    "en": "One of the key varieties in Ica's modern table wine production."
+   }
+  },
+  {
+   "name": "Sauvignon Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Ica'da umut verici sonuçlar veren, serin gecelerden yararlanan uluslararası bir beyaz çeşittir.",
+    "en": "An international white that shows promising results in Ica, helped by the cool nights."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Pisco (Denominación de Origen Pisco)",
+   "desc": {
+    "tr": "1991'den beri menşe adıyla korunan pisko, Lima, Ica, Arequipa, Moquegua ve Tacna'da sekiz onaylı üzümden yapılan, ahşapta dinlendirilmeyen üzüm damıtığıdır; Puro, Acholado ve Mosto Verde stilleri vardır.",
+    "en": "Protected by a denomination of origin since 1991, pisco is an unaged grape brandy made in Lima, Ica, Arequipa, Moquegua and Tacna from eight approved grapes, in Puro, Acholado and Mosto Verde styles."
+   }
+  },
+  {
+   "name": "Tacama Gran Tinto",
+   "desc": {
+    "tr": "Tacama'nın Bordo tarzı kırmızısı, Ica Vadisi'ndeki bu tarihi bağın en bilinen şarapları arasındadır.",
+    "en": "Tacama's Bordeaux-style red, among the best-known wines from this historic Ica Valley estate."
+   }
+  },
+  {
+   "name": "Tacama Blanco de Blancos",
+   "desc": {
+    "tr": "Italia ile Sauvignon Blanc'ı harmanlayan, Peru'nun yerel ve uluslararası üzümlerini bir araya getiren kuru bir beyazdır.",
+    "en": "A dry white blending Italia with Sauvignon Blanc, combining a local and an international grape."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tacama winery, you’ve come a long way, baby",
+   "url": "https://perudelights.com/tacama-winery/"
+  },
+  {
+   "title": "The ultimate guide to wine in Ica Peru - South America Wine Guide",
+   "url": "https://southamericawineguide.com/the-ultimate-guide-to-wine-in-ica-peru/"
+  },
+  {
+   "title": "A Trip to Ica, Peru, to taste Wine and Pisco - Texas Wine Lover®",
+   "url": "https://txwinelover.com/2015/05/a-trip-to-ica-peru-to-taste-wine-and-pisco/"
+  },
+  {
+   "title": "Tacama in Ica Province, Peru, Perhaps South America’s Oldest Winery｜Shoko Yamamoto｜KnowLedge World Network｜Activities｜KNOWLEDGE CAPITAL",
+   "url": "https://kc-i.jp/en/activity/kwn/shoko_y/20250220/"
+  },
+  {
+   "title": "Tacama - Upper Ica Valley - Peru - Wine Estates : Winetraders (UK) Ltd, Importer and Distributor of high quality estate wines.",
+   "url": "https://www.winetradersuk.co.uk/single-estate-wine-producers/peru/upper-ica-valley/tacama/"
+  },
+  {
+   "title": "Ica Wine Region",
+   "url": "https://www.winewithseth.com/winewiki/ica/"
+  },
+  {
+   "title": "Tacama Winery",
+   "url": "https://www.winewithseth.com/winewiki/tacama/"
+  },
+  {
+   "title": "Peru Wine Region Ica: The Wine Story That Pisco Overshadowed",
+   "url": "https://letseattheworld.com/peru-wine-region-ica/"
+  }
+ ]
+}

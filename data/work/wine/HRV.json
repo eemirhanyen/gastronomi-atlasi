@@ -1,0 +1,273 @@
+{
+ "iso3": "HRV",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23172,
+  "out": 5509,
+  "searches": 2
+ },
+ "usd": 0.1214,
+ "summary": {
+  "tr": "Hırvatistan'da bağcılık, MÖ 5.–4. yüzyılda Dalmaçya adalarına yerleşen Yunanlılara dayanır. Hvar'daki UNESCO korumalı Stari Grad Ovası, MÖ 400'den beri kesintisiz işlenen bağlarıyla bunun canlı kanıtıdır. Ülke, 2001'de Zinfandel'in aslında yerli Tribidrag (Crljenak Kaštelanski) üzümü olduğunun DNA analiziyle kanıtlanmasıyla dünya çapında ilgi gördü. Bugün üretim ağırlıklı olarak küçük aile işletme",
+  "en": "Viticulture in Croatia goes back to Greek settlers on the Dalmatian islands in the 5th–4th centuries BC. The UNESCO-protected Stari Grad Plain on Hvar, farmed continuously since about 400 BC, is living evidence of this. The country gained global attention in 2001, when DNA analysis showed that Zinfandel is the native Croatian grape Tribidrag (Crljenak Kaštelanski). Production today rests largely o"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Istria",
+   "lat": 45.2,
+   "lng": 13.85,
+   "desc": {
+    "tr": "Malvazija Istarska beyazları ve toprağın demir zenginliğini yansıtan Teran kırmızılarıyla tanınan, Toskana'yı andıran bir yarımadadır.",
+    "en": "A Tuscany-like peninsula known for its Malvazija Istarska whites and for Teran reds that reflect its iron-rich soils."
+   },
+   "grapes": [
+    "Malvazija Istarska",
+    "Teran",
+    "Muscat"
+   ]
+  },
+  {
+   "name": "Kvarner",
+   "lat": 45.07,
+   "lng": 14.6,
+   "desc": {
+    "tr": "Krk Adası'nın yerel beyaz üzümü Žlahtina ile bilinen, serin iklimli kuzey Adriyatik kıyısıdır.",
+    "en": "A cool-climate stretch of the northern Adriatic coast, known for Žlahtina, the local white grape of the island of Krk."
+   },
+   "grapes": [
+    "Žlahtina"
+   ]
+  },
+  {
+   "name": "Slavonia",
+   "lat": 45.43,
+   "lng": 17.88,
+   "desc": {
+    "tr": "Kutjevo çevresinde Graševina beyazlarının ve geleneksel Slavon meşesinde olgunlaştırılan şarapların ana bölgesidir.",
+    "en": "The heartland of Graševina whites around Kutjevo, and of wines matured in traditional Slavonian oak."
+   },
+   "grapes": [
+    "Graševina",
+    "Chardonnay",
+    "Pinot Gris"
+   ]
+  },
+  {
+   "name": "Croatian Danube (Ilok)",
+   "lat": 45.22,
+   "lng": 19.37,
+   "desc": {
+    "tr": "Ülkenin en doğusunda, Tuna kıyısındaki Ilok çevresinde, dolgun gövdeli Graševina ve aromatik beyazlarla bilinir.",
+    "en": "On the Danube in the far east of the country, around Ilok, it is known for fuller-bodied Graševina and aromatic whites."
+   },
+   "grapes": [
+    "Graševina",
+    "Traminer",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Plešivica (Zagreb Uplands)",
+   "lat": 45.77,
+   "lng": 15.71,
+   "desc": {
+    "tr": "Zagreb yakınındaki serin yamaçlarda, geleneksel yöntemle üretilen köpüklü şaraplar ve aromatik beyazlarla öne çıkar.",
+    "en": "On cool slopes near Zagreb, it stands out for traditional-method sparkling wines and aromatic whites."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Sauvignon Blanc",
+    "Graševina"
+   ]
+  },
+  {
+   "name": "Pelješac",
+   "lat": 42.95,
+   "lng": 17.3,
+   "desc": {
+    "tr": "Dingač ve Postup'un bulunduğu, dik ve güneye bakan yamaçlardaki Plavac Mali kırmızılarıyla ünlü yarımadadır.",
+    "en": "A peninsula famous for Plavac Mali reds from steep, sun-drenched slopes, home to Dingač and Postup."
+   },
+   "grapes": [
+    "Plavac Mali"
+   ]
+  },
+  {
+   "name": "Korčula",
+   "lat": 42.96,
+   "lng": 17.0,
+   "desc": {
+    "tr": "Pošip ve yalnızca bu adaya özgü Grk gibi yerli beyaz üzümlerin yetiştiği Dalmaçya adasıdır.",
+    "en": "A Dalmatian island where indigenous whites are grown, such as Pošip and Grk, the latter found only here."
+   },
+   "grapes": [
+    "Pošip",
+    "Grk",
+    "Plavac Mali"
+   ]
+  },
+  {
+   "name": "Central Dalmatia (Kaštela, Hvar, Primošten)",
+   "lat": 43.5,
+   "lng": 16.4,
+   "desc": {
+    "tr": "Zinfandel'in atası Tribidrag'ın bulunduğu Kaštela'yı ve Babić ile Plavac Mali kırmızılarını kapsayan, tarihi zengin kıyı bölgesidir.",
+    "en": "A historic coastal zone that includes Kaštela, where Zinfandel's ancestor Tribidrag was found, and reds made from Babić and Plavac Mali."
+   },
+   "grapes": [
+    "Tribidrag",
+    "Babić",
+    "Plavac Mali"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Plavac Mali",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Tribidrag ile Dobričić'in doğal melezi olan Plavac Mali, Dalmaçya'nın başlıca kırmızı üzümüdür ve dolgun, tanenli, yüksek alkollü şaraplar verir.",
+    "en": "A natural cross of Tribidrag and Dobričić, Plavac Mali is Dalmatia's flagship red and gives full-bodied, tannic, high-alcohol wines."
+   }
+  },
+  {
+   "name": "Tribidrag (Crljenak Kaštelanski)",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Zinfandel ve Primitivo ile genetik olarak aynıdır; ilk yazılı kaydı 1444'e dayanır ve Kaštela'da küçük bir bağda yeniden keşfedilmiştir.",
+    "en": "Genetically identical to Zinfandel and Primitivo, it was first recorded in 1444 and was rediscovered in a small vineyard in Kaštela."
+   }
+  },
+  {
+   "name": "Malvazija Istarska",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Istria'nın simgesi olan bu üzüm, bal çiçeği ve taş meyve aromalı, ferah ve mineral yapılı beyaz şaraplar verir.",
+    "en": "The symbol of Istria, it gives fresh, mineral white wines with notes of blossom and stone fruit."
+   }
+  },
+  {
+   "name": "Pošip",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Korčula ve Hvar'da yetişen Pošip, kayısı ve incir tonlu, dolgun gövdeli ve deniz ürünleriyle uyumlu beyaz şaraplar verir.",
+    "en": "Grown on Korčula and Hvar, Pošip gives full-bodied whites with apricot and fig notes that pair well with seafood."
+   }
+  },
+  {
+   "name": "Teran",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Istria'nın kırmızı toprağında yetişen Teran, canlı asiditesi, koyu meyve ve topraksı tonlarıyla bilinir.",
+    "en": "Grown in Istria's red soils, Teran is known for its lively acidity and its dark-fruit and earthy notes."
+   }
+  },
+  {
+   "name": "Žlahtina",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kvarner'de, özellikle Krk Adası'nda yetişen hafif ve ferah bir yerli beyaz üzümdür.",
+    "en": "A light, fresh native white grape grown in Kvarner, especially on the island of Krk."
+   }
+  },
+  {
+   "name": "Babić",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Primošten çevresindeki taşlı yamaklarda yetişen Babić, yoğun ve baharatlı kırmızı şaraplar verir.",
+    "en": "Grown on the rocky slopes around Primošten, Babić makes intense, spicy red wines."
+   }
+  },
+  {
+   "name": "Graševina",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Uluslararası adı Welschriesling olan Graševina, Hırvatistan'ın en çok dikilen çeşididir ve kuru, köpüklü ve tatlı geç hasat şaraplar verir.",
+    "en": "Known internationally as Welschriesling, Graševina is Croatia's most planted grape and is made into dry, sparkling and sweet late-harvest wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Dingač",
+   "desc": {
+    "tr": "Pelješac'ta yalnızca Plavac Mali'den üretilen, 1961'de korumaya alınan ve Hırvatistan'ın ilk menşe adı kabul edilen kırmızı şaraptır.",
+    "en": "A red wine made only from Plavac Mali on the Pelješac peninsula, protected in 1961 as Croatia's first protected appellation."
+   }
+  },
+  {
+   "name": "Postup",
+   "desc": {
+    "tr": "Pelješac'ın güney yamaçlarından gelen, Dingač ile birlikte anılan diğer prestijli Plavac Mali menşe adıdır.",
+    "en": "A second prestigious Plavac Mali appellation from the Pelješac slopes, often mentioned alongside Dingač."
+   }
+  },
+  {
+   "name": "Prošek",
+   "desc": {
+    "tr": "Dalmaçya'da kurutulmuş üzümlerden yapılan geleneksel tatlı şaraptır ve adı İtalyan Prosecco'ya benzediği için AB'de tartışma konusu olmuştur.",
+    "en": "A traditional Dalmatian sweet wine made from dried grapes, whose name has caused a dispute in the EU because it resembles Italian Prosecco."
+   }
+  },
+  {
+   "name": "Plešivica geleneksel yöntem köpüklüleri",
+   "desc": {
+    "tr": "Zagreb yakınındaki Plešivica'da, çoğunlukla Chardonnay ve Pinot Noir ile şişede ikinci fermantasyon yöntemiyle üretilen köpüklü şaraplardır.",
+    "en": "Sparkling wines made near Zagreb in Plešivica by the traditional bottle-fermentation method, mostly from Chardonnay and Pinot Noir."
+   }
+  },
+  {
+   "name": "Istrian Malvazija",
+   "desc": {
+    "tr": "Taze ve aromatik tarzlardan fıçıda olgunlaştırılmış ve kabuk teması görmüş versiyonlara uzanan Istria'nın en tanınmış beyaz şarabıdır.",
+    "en": "Istria's best-known white wine, made in styles from fresh and aromatic to barrel-aged and skin-contact."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Croatia Wine Regions Guide",
+   "url": "https://www.cellartours.com/croatia/wine-regions"
+  },
+  {
+   "title": "Insiders Guide to Award Winning Croatian Wines - Sail Croatia",
+   "url": "https://www.sail-croatia.com/set-sail/insiders-guide-to-award-winning-croatian-wines"
+  },
+  {
+   "title": "Croatian Wines: Grapes, Regions & What to Try",
+   "url": "https://www.absolute-croatia.com/delicious-croatia/croatian-wines"
+  },
+  {
+   "title": "Croatian Wine Regions - Wine & More",
+   "url": "https://wineandmore.com/stories/croatian-wine-regions"
+  },
+  {
+   "title": "Croatian Wine 101: Regions and Best Varieties",
+   "url": "https://www.coravin.com/blogs/community/croatian-wine-regions-best-varietals"
+  },
+  {
+   "title": "Croatian Wines: Plavac Mali, Pošip & Dalmatian Coast Terroir",
+   "url": "https://hic.wine/collections/croatian-wine"
+  },
+  {
+   "title": "Croatian Wine Regions: Continental and Coastal Excellence",
+   "url": "https://www.winewithseth.com/winewiki/croatian-wine-regions-continental-and-coastal-macro-zones/"
+  },
+  {
+   "title": "Croatian Wines Guide",
+   "url": "https://thebalkanpour.com/balkan-wines/croatian-wines/"
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "iso3": "VEN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 15236,
+  "out": 3632,
+  "searches": 1
+ },
+ "usd": 0.0768,
+ "summary": {
+  "tr": "Venezuela'da şarapçılık Avrupa kökenli köklü bir gelenekten çok, 1980'lerde başlayan deneysel bir girişime dayanır. Tropik iklimine rağmen ülkenin yarı kurak batısında, özellikle Lara eyaletinde Carora çevresinde, yılda iki hasat veren şaraplık üzüm yetiştirilir. Ticari üretimin büyük bölümünü Empresas Polar'a bağlı Bodegas Pomar yapar. Ülkede ayrıca ithal konsantre üzüm şırasından yapılan şarap v",
+  "en": "Winemaking in Venezuela rests less on a long European-style tradition than on an experimental venture that began in the 1980s. Despite the tropical climate, wine grapes are grown in the semi-arid west, mainly around Carora in Lara state, where two harvests a year are possible. Most commercial production comes from Bodegas Pomar, part of Empresas Polar. Wine and sangría made from imported concentra"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Lara (Carora – Altagracia)",
+   "lat": 10.1,
+   "lng": -70.07,
+   "desc": {
+    "tr": "Ülkenin fiilen şarap başkenti olan bu yarı kurak bölgede Bodegas Pomar'ın Altagracia bağları bulunur ve yılda iki hasat yapılır.",
+    "en": "The country's de facto wine capital, this semi-arid area holds Bodegas Pomar's Altagracia vineyards and gives two harvests a year."
+   },
+   "grapes": [
+    "Tempranillo",
+    "Syrah",
+    "Petit Verdot",
+    "Chenin Blanc"
+   ]
+  },
+  {
+   "name": "El Tocuyo (Lara)",
+   "lat": 9.79,
+   "lng": -69.79,
+   "desc": {
+    "tr": "Lara'nın yarı kurak kuşağında, Carora ile birlikte üzüm yetiştiriciliği için en uygun bölge olarak belirlenen alanın parçasıdır.",
+    "en": "Part of Lara's semi-arid belt, identified together with Carora as the most suitable zone for wine grape growing, with mostly small vineyards."
+   },
+   "grapes": [
+    "Tempranillo",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Zulia",
+   "lat": 10.6,
+   "lng": -71.6,
+   "desc": {
+    "tr": "Maracaibo çevresindeki kurak bölgelerde deneysel bağcılık 1980'lerde başladı. Zulia, Venezuela'nın bağ alanının büyük kısmını barındırır.",
+    "en": "Experimental viticulture began in the arid zones around Maracaibo in the 1980s, and Zulia holds much of Venezuela's vineyard area."
+   },
+   "grapes": [
+    "Tempranillo",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Mérida",
+   "lat": 8.6,
+   "lng": -71.15,
+   "desc": {
+    "tr": "And Dağları'ndaki bu yöre, küçük ölçekli el yapımı şaraplarıyla bilinir.",
+    "en": "This Andean area is known for small-scale, handcrafted wines."
+   },
+   "grapes": []
+  },
+  {
+   "name": "Galipán (Ávila Dağı)",
+   "lat": 10.55,
+   "lng": -66.88,
+   "desc": {
+    "tr": "Caracas yakınındaki dağlık bölgede el yapımı şarap geleneği vardır.",
+    "en": "A mountain community near Caracas with a tradition of handcrafted wine."
+   },
+   "grapes": []
+  },
+  {
+   "name": "Colonia Tovar",
+   "lat": 10.41,
+   "lng": -67.29,
+   "desc": {
+    "tr": "Alman göçmen kökenli bu dağ kasabası, küçük ölçekli şarap üretimiyle de anılır.",
+    "en": "This mountain town of German immigrant origin is also mentioned for its small-scale wine production."
+   },
+   "grapes": []
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Tempranillo",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Sıcak Lara bağlarında yetişen ve ülkenin öne çıkan kırmızı şaraplarında kullanılan bir Avrupa çeşidi.",
+    "en": "A European variety grown in the warm Lara vineyards and used in some of the country's leading red wines."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Tropik sıcağa iyi uyum sağlayan, Venezuela kırmızılarında başı çeken çeşitlerden biridir.",
+    "en": "Adapts well to the tropical heat and is among the leading varieties in Venezuelan reds."
+   }
+  },
+  {
+   "name": "Petit Verdot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Venezuela'da Tempranillo ve Syrah ile birlikte öne çıkan kırmızı çeşitlerden biridir.",
+    "en": "Ranks alongside Tempranillo and Syrah among Venezuela's prominent red varieties."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Uluslararası bir kırmızı çeşit olup Venezuela'da da şarap yapımında kullanılır.",
+    "en": "An international red variety also used in Venezuelan winemaking."
+   }
+  },
+  {
+   "name": "Chenin Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Beyaz ve köpüklü şaraplarda kullanılan, sıcak iklimde de asidini koruyabilen bir çeşittir.",
+    "en": "A white variety used for still and sparkling wines that can keep its acidity in a warm climate."
+   }
+  },
+  {
+   "name": "Sauvignon Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Venezuela'nın beyaz şarap yelpazesinde yer alan uluslararası bir çeşittir.",
+    "en": "An international variety that features in Venezuela's range of white wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bodegas Pomar still wines",
+   "desc": {
+    "tr": "Carora'da taze üzümden üretilen beyaz, rosé ve kırmızı sofra şarapları, ülkedeki taze üzüme dayalı üretimin çoğunu oluşturur.",
+    "en": "White, rosé and red table wines made from fresh grapes in Carora, making up most of the country's fresh-grape production."
+   }
+  },
+  {
+   "name": "Espumoso (sparkling wine)",
+   "desc": {
+    "tr": "Bodegas Pomar'ın portföyünde yer alan köpüklü şaraplar, vendimia (hasat) şenliklerinde de tanıtılır.",
+    "en": "Sparkling wines in the Bodegas Pomar range, also showcased at the winery's vendimia (harvest) festivals."
+   }
+  },
+  {
+   "name": "Sangría",
+   "desc": {
+    "tr": "Ülkede şarap benzeri ürünlerin önemli bir bölümünü oluşturan, çoğu kez ithal konsantre şıradan yapılan sangría pazarda büyük yer tutar.",
+    "en": "Often made from imported concentrated must, sangría is a significant part of the country's wine-type market."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bodegas Pomar, C.A.",
+   "url": "https://en.wikipedia.org/wiki/Bodegas_Pomar,_C.A."
+  },
+  {
+   "title": "Coup in a Cup: a Tale of Venezuelan Tipple",
+   "url": "https://www.perceptivetravel.com/issues/1106/duford.html"
+  },
+  {
+   "title": "CHARACTERISTICS OF WINE PRODUCTION IN VENEZUELA",
+   "url": "https://www.actahort.org/books/910/910_7.htm"
+  },
+  {
+   "title": "Pomar cosecha uvas, produce vino y hace historia como la única bodega vitivinicultora de Venezuela",
+   "url": "https://www.elnacional.com/2024/02/pomar-cosecha-uvas-produce-vino-y-hace-historia-como-la-unica-bodega-vitivinicultora-de-venezuela/"
+  },
+  {
+   "title": "Torres Municipality",
+   "url": "https://en.wikipedia.org/wiki/Torres_Municipality"
+  },
+  {
+   "title": "ViÃ±as de Altagracia",
+   "url": "https://www.venezuelatuya.com/occidente/altagracia.htm"
+  },
+  {
+   "title": "Bodegas Pomar invita a “cosechar orgullo” en Carora - Empresas Polar",
+   "url": "https://empresaspolar.com/bodegas-pomar-invita-a-cosechar-orgullo-en-carora/"
+  },
+  {
+   "title": "Historia inicial de Bodegas Pomar - Gastronomía en Venezuela",
+   "url": "https://gastronomiaenvenezuela.com/historia-inicial-de-bodegas-pomar/"
+  }
+ ]
+}

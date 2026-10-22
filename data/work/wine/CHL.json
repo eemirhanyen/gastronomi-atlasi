@@ -1,0 +1,259 @@
+{
+ "iso3": "CHL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23377,
+  "out": 4303,
+  "searches": 2
+ },
+ "usd": 0.1098,
+ "summary": {
+  "tr": "Şili'de bağcılık, 1550'li yıllarda İspanyol fatihler ve misyonerlerin Vitis vinifera asmalarını getirmesiyle başladı. Uzun süre bu dönemden kalma País üzümü egemen oldu. 19. yüzyılın ortasında Fransız çeşitleri (Cabernet Sauvignon, Merlot, Carmenère) ülkeye girdi. And Dağları, Pasifik Okyanusu ve Atacama Çölü'nün oluşturduğu doğal yalıtım sayesinde ülke filokseradan korunmuştur. Bu yüzden birçok b",
+  "en": "Viticulture in Chile began in the 1550s, when Spanish conquistadors and missionaries brought Vitis vinifera vines, and the País grape from that era dominated for centuries. French varieties such as Cabernet Sauvignon, Merlot and Carmenère arrived in the mid-19th century. The Andes, the Pacific Ocean and the Atacama Desert have kept the country free of phylloxera, so many vineyards grow on their ow"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Maipo Valley",
+   "lat": -33.75,
+   "lng": -70.75,
+   "desc": {
+    "tr": "Santiago çevresindeki, Şili şaraplarının doğduğu yer sayılan tarihî bölge; özellikle Cabernet Sauvignon ile tanınır.",
+    "en": "The historic region around Santiago, regarded as the birthplace of Chilean wine and known above all for Cabernet Sauvignon."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Carmenère",
+    "Merlot",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Colchagua Valley",
+   "lat": -34.65,
+   "lng": -71.4,
+   "desc": {
+    "tr": "Apalta gibi yamaçlarıyla ünlü, Carmenère ve gövdeli kırmızı şarapların başkenti sayılan sıcak vadi.",
+    "en": "A warm valley, famed for slopes such as Apalta, regarded as the heartland of Carmenère and full-bodied reds."
+   },
+   "grapes": [
+    "Carmenère",
+    "Cabernet Sauvignon",
+    "Syrah",
+    "Malbec"
+   ]
+  },
+  {
+   "name": "Casablanca Valley",
+   "lat": -33.32,
+   "lng": -71.4,
+   "desc": {
+    "tr": "Santiago ile Valparaíso arasındaki, 1980'lerde bağlandırılan ve serin kıyı iklimiyle beyaz şarapların ölçütü sayılan vadi.",
+    "en": "A cool coastal valley between Santiago and Valparaíso, planted from the 1980s and regarded as the benchmark for Chilean white wines."
+   },
+   "grapes": [
+    "Sauvignon Blanc",
+    "Chardonnay",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "Aconcagua Valley",
+   "lat": -32.85,
+   "lng": -70.65,
+   "desc": {
+    "tr": "Santiago'nun kuzeyinde, Andlara yakın sıcak iklimiyle yoğun kırmızı şaraplar veren bölge.",
+    "en": "A warm region north of Santiago, close to the Andes, producing concentrated reds."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Syrah",
+    "Carmenère"
+   ]
+  },
+  {
+   "name": "Limarí Valley",
+   "lat": -30.6,
+   "lng": -71.2,
+   "desc": {
+    "tr": "Kireçtaşlı topraklarıyla ve serin, kurak iklimiyle gergin yapılı Chardonnay'ları öne çıkan kuzey vadisi.",
+    "en": "A cool, arid northern valley with limestone soils, noted for its tense, mineral Chardonnay."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Syrah",
+    "Pinot Noir",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Maule Valley",
+   "lat": -35.5,
+   "lng": -71.6,
+   "desc": {
+    "tr": "Şili'nin en geniş bağ alanlarından birine sahip olup eski, kuru tarım País ve Carignan asmalarıyla öne çıkan güney bölgesi.",
+    "en": "A large southern region known for old dry-farmed País and Carignan vines."
+   },
+   "grapes": [
+    "País",
+    "Carignan",
+    "Cabernet Sauvignon",
+    "Carmenère"
+   ]
+  },
+  {
+   "name": "Itata Valley",
+   "lat": -36.6,
+   "lng": -72.2,
+   "desc": {
+    "tr": "Asırlık País, Cinsault ve Moscatel asmalarıyla geleneksel yöntemlerin sürdüğü, Şili'nin en eski bağ bölgelerinden biri.",
+    "en": "One of Chile's oldest wine areas, where centenarian País, Cinsault and Moscatel vines and traditional methods persist."
+   },
+   "grapes": [
+    "País",
+    "Cinsault",
+    "Moscatel de Alejandría"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "País",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "İspanyol fatihlerle gelen Listán Prieto'nun Şili'deki adı olup yüzyıllarca ülkenin başlıca çeşidiydi, bugün yeniden değer kazanıyor.",
+    "en": "Chile's name for Listán Prieto, brought by the Spanish; it was the country's main variety for centuries and is now being rediscovered."
+   }
+  },
+  {
+   "name": "Carmenère",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Aslen Bordeaux çeşidi olup Şili'de Merlot sanılarak yetiştirildi, 1994'te tanındı ve ülkenin simge çeşidi oldu.",
+    "en": "Originally from Bordeaux, it was grown in Chile as Merlot until it was identified in 1994, and it has become the country's signature grape."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Şili'de en çok dikilen çeşittir ve özellikle Maipo'da ünlü, yapılı kırmızılar verir.",
+    "en": "The most planted grape in Chile, making structured reds, especially famous in Maipo."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Fransa'dan 19. yüzyılda gelen, Şili'de geniş alanda yetiştirilen yumuşak içimli bir kırmızı çeşittir.",
+    "en": "A soft red variety brought from France in the 19th century and widely planted in Chile."
+   }
+  },
+  {
+   "name": "Carignan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Maule'nin eski, kuru tarım bağlarında yetişen ve canlı asitli şaraplar veren çeşittir.",
+    "en": "Grown in Maule's old dry-farmed vineyards, giving lively, high-acid wines."
+   }
+  },
+  {
+   "name": "Sauvignon Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Casablanca ve Leyda gibi serin kıyı bölgelerinde taze, keskin şaraplar verir.",
+    "en": "Makes fresh, crisp wines in cool coastal areas such as Casablanca and Leyda."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Casablanca ve Limarí'de, serin iklim ve kireçtaşı topraklarda öne çıkan başlıca beyaz çeşittir.",
+    "en": "A leading white grape, excelling in the cool climate of Casablanca and the limestone soils of Limarí."
+   }
+  },
+  {
+   "name": "Moscatel de Alejandría",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Sömürge döneminden kalan, güneyde eski bağlarda yetişen ve geleneksel şaraplarda kullanılan aromatik beyaz çeşittir.",
+    "en": "An aromatic white inherited from the colonial era, found in old southern vineyards and used in traditional wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Carmenère",
+   "desc": {
+    "tr": "Siyah erik, karabiber ve baharat notalarıyla Şili'nin simge kırmızısıdır; en iyi örnekleri Colchagua'daki Apalta gibi sıcak yamaçlardan gelir.",
+    "en": "Chile's signature red, with black plum, pepper and spice notes; the best come from warm sites such as Apalta in Colchagua."
+   }
+  },
+  {
+   "name": "Maipo Cabernet Sauvignon",
+   "desc": {
+    "tr": "Özellikle Alto Maipo'nun Andlara bakan teraslarından gelen, kuş üzümü ve nane tonlu klasik Şili Cabernet'sidir.",
+    "en": "The classic Chilean Cabernet, especially from the Andean terraces of Alto Maipo, with cassis and mint tones."
+   }
+  },
+  {
+   "name": "Pipeño",
+   "desc": {
+    "tr": "Güney Şili'de çoğunlukla País üzümünden, geleneksel pipa fıçılarında yapılan genç, kolay içimli köy şarabıdır.",
+    "en": "A young, easy-drinking country wine of southern Chile, usually made from País and traditionally aged in pipa barrels."
+   }
+  },
+  {
+   "name": "Casablanca Sauvignon Blanc",
+   "desc": {
+    "tr": "Serin kıyı iklimin verdiği canlı asitli, aromatik beyaz şaraplar Şili beyazlarının ölçütü sayılır.",
+    "en": "Aromatic, high-acid whites from the cool coastal climate, regarded as a benchmark for Chilean white wine."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Chile wine regions travel guide",
+   "url": "https://www.latinroutes.co.uk/inspiration/chile-wine-regions-travel-guide"
+  },
+  {
+   "title": "Top Wine Regions in Chile: From Colchagua Valley to Casablanca",
+   "url": "https://www.kuodatravel.com/blog/chilean-wine-regions/"
+  },
+  {
+   "title": "Wine Tourism in Chile: 5 Unique Valleys to Discover Chilean Wine",
+   "url": "https://chile.travel/en/blog/wine-tourism-in-chile-5-unmissable-valleys-to-discover-national-wine/"
+  },
+  {
+   "title": "Chile Wine Guide: The ultimate guide to Chilean wine, travel & food",
+   "url": "https://southamericawineguide.com/chile-guide/"
+  },
+  {
+   "title": "Chilean Wine Guide - Carmenere & Cabernet",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/chilean-wine-the-longest-vineyard-on-earth"
+  },
+  {
+   "title": "Chilean Wine Regions",
+   "url": "https://www.greatvaluevacations.com/travel-inspiration/chilean-wine-regions"
+  },
+  {
+   "title": "Explore Chile's Wine Regions",
+   "url": "https://www.winetourism.com/wine-country/chile/"
+  },
+  {
+   "title": "Aconcagua (wine region)",
+   "url": "https://en.wikipedia.org/wiki/Aconcagua_(wine_region)"
+  }
+ ]
+}

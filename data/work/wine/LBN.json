@@ -1,0 +1,245 @@
+{
+ "iso3": "LBN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23260,
+  "out": 4112,
+  "searches": 2
+ },
+ "usd": 0.1076,
+ "summary": {
+  "tr": "Lübnan'ın şarap geçmişi Fenikelilere uzanır. Fenikeliler Akdeniz'de şarap ticareti yaptı ve bağcılığı yaydı. Modern şarapçılık, 1857'de Fransız Cizvit rahiplerinin Bekaa Vadisi'nde Ksara'yı kurmasıyla başladı. Fransız manda dönemi bu kültürü pekiştirdi. 1975-1990 iç savaşında üretim sürdü; Château Musar bu direncin simgesi oldu. Bugün üretimin yüzde 90'ından fazlası yüksek rakımlı Bekaa Vadisi'nde",
+  "en": "Lebanon's wine history goes back to the Phoenicians, who traded wine across the Mediterranean and spread viticulture. The modern industry began in 1857, when French Jesuit priests founded Ksara in the Bekaa Valley, and the French Mandate period cemented the wine culture. Production continued through the 1975–1990 civil war, and Château Musar became a symbol of that perseverance. Today over 90% of "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Central Bekaa (Zahlé)",
+   "lat": 33.85,
+   "lng": 35.9,
+   "desc": {
+    "tr": "Ksara ve Domaine des Tourelles gibi köklü şaraphanelerin bulunduğu, Lübnan şarapçılığının tarihî merkezidir.",
+    "en": "The historic heart of Lebanese winemaking, home to long-established wineries such as Ksara and Domaine des Tourelles."
+   },
+   "grapes": [
+    "Cinsault",
+    "Cabernet Sauvignon",
+    "Carignan",
+    "Obaideh",
+    "Merwah"
+   ]
+  },
+  {
+   "name": "West Bekaa (Kefraya)",
+   "lat": 33.62,
+   "lng": 35.7,
+   "desc": {
+    "tr": "Château Kefraya'nın bulunduğu, kireçtaşlı ve killi topraklarda Bordeaux ve Rhône tarzı şaraplar veren yüksek rakımlı bölgedir.",
+    "en": "A high-altitude area on limestone and clay soils, home to Château Kefraya and known for Bordeaux- and Rhône-style wines."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Syrah",
+    "Mourvèdre",
+    "Viognier"
+   ]
+  },
+  {
+   "name": "Baalbek",
+   "lat": 34.0,
+   "lng": 36.2,
+   "desc": {
+    "tr": "Bekaa Vadisi'nin kuzeyinde, Roma dönemi Bacchus Tapınağı'yla anılan, şarabın antik kültürel önemini simgeleyen bölgedir.",
+    "en": "The northern Bekaa, known for its Roman Temple of Bacchus, which reflects wine's ancient cultural importance."
+   },
+   "grapes": [
+    "Syrah",
+    "Cabernet Sauvignon",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Batroun",
+   "lat": 34.25,
+   "lng": 35.66,
+   "desc": {
+    "tr": "Kuzeyde yer alan Batroun, son yıllarda zanaatkâr ve biyodinamik üreticilerle öne çıkan yeni bir bölgedir.",
+    "en": "In the north, Batroun has recently emerged as a focus for artisan and biodynamic producers."
+   },
+   "grapes": [
+    "Syrah",
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Mount Lebanon (Metn and Aley)",
+   "lat": 33.92,
+   "lng": 35.75,
+   "desc": {
+    "tr": "Dağlık Metn ve Aley yörelerinde, özellikle beyaz ve roze şaraplarda küçük hacimli üretim yapılır.",
+    "en": "The Metn and Aley highlands contribute smaller volumes, particularly whites and rosés."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Jezzine",
+   "lat": 33.54,
+   "lng": 35.58,
+   "desc": {
+    "tr": "Güneydeki Jezzine, kendine özgü mikroklimaya sahip dağlık bir bölgedir ve az miktarda şarap üretir.",
+    "en": "Jezzine in the south is a hilly area with its own microclimates and produces small volumes of wine."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Syrah"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Obaideh",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Geleneksel olarak arak yapımında kullanılan yerli bir beyaz üzümdür; bugün kremsi, ballı şaraplar da verir.",
+    "en": "A native white grape traditionally used for arak, now also made into creamy, honeyed wines."
+   }
+  },
+  {
+   "name": "Merwah",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Yerli bir beyaz üzümdür; zengin, kuruyemişsi ve canlı asiditeli şaraplar verir.",
+    "en": "A native white grape that makes rich, nutty wines with lively acidity."
+   }
+  },
+  {
+   "name": "Sabbaghieh",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Bekaa Vadisi'nde varlığını sürdüren yerli kırmızı üzümlerden biridir.",
+    "en": "One of the native red varieties that survive in the Bekaa Valley."
+   }
+  },
+  {
+   "name": "Aswad Karech",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Küçük ölçekte yeniden değerlendirilen yerli bir kırmızı üzümdür.",
+    "en": "A native red grape now being revived on a small scale."
+   }
+  },
+  {
+   "name": "Cinsault",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "1857'de Cizvitler tarafından Ksara'da dikilen ilk çeşittir ve bugün de Lübnan bağlarında geniş yer tutar.",
+    "en": "The variety the Jesuits planted at Ksara in 1857, and it still covers a large share of Lebanese vineyards."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Lübnan'ın Bordeaux tarzı kırmızı şaraplarının ana çeşididir.",
+    "en": "The backbone of Lebanon's Bordeaux-style red wines."
+   }
+  },
+  {
+   "name": "Carignan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Rhône kökenli bu çeşit, Bekaa kırmızı karışımlarına baharat ve yapı katar.",
+    "en": "A Rhône-origin variety that adds spice and structure to Bekaa red blends."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Yüksek rakımlı bağlarda öne çıkan ve giderek önem kazanan bir kırmızı çeşittir.",
+    "en": "A red variety of growing importance, notably in high-altitude vineyards."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Château Musar Rouge",
+   "desc": {
+    "tr": "1930'da Gaston Hochar'ın kurduğu Musar'ın ünlü kırmızısı, hasattan yaklaşık yedi yıl sonra piyasaya çıkar ve Lübnan şarabını dünyaya tanıtmıştır.",
+    "en": "The flagship red of Musar, founded by Gaston Hochar in 1930, is released about seven years after harvest and put Lebanese wine on the world map."
+   }
+  },
+  {
+   "name": "Musar White (Obaideh–Merwah blend)",
+   "desc": {
+    "tr": "Yerli Obaideh ve Merwah üzümlerinden yapılan, uzun ömürlü ve dokulu bir Bekaa beyazıdır.",
+    "en": "A long-lived, textural Bekaa white made from the native Obaideh and Merwah grapes."
+   }
+  },
+  {
+   "name": "Bekaa Bordeaux–Rhône style blends",
+   "desc": {
+    "tr": "Cabernet, Cinsault, Syrah ve Carignan gibi Fransız çeşitlerinden yapılan, yüksek rakımın tazeliğini taşıyan baharatlı kırmızı karışımlardır.",
+    "en": "Spiced red blends of French varieties such as Cabernet, Cinsault, Syrah and Carignan, kept fresh by high altitude."
+   }
+  },
+  {
+   "name": "Arak (grape-based anise spirit)",
+   "desc": {
+    "tr": "Şarap olmasa da Lübnan'ın en sevilen anasonlu içkisidir ve geleneksel olarak Obaideh ile Merwah üzümlerinden damıtılır.",
+    "en": "Not a wine, but Lebanon's best-loved anise spirit, traditionally distilled from Obaideh and Merwah grapes."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Lebanese Wine: A Guide to One of the World's Oldest Wine Cultures",
+   "url": "https://wanderlustwine.co.uk/a-simple-guide-to-lebanese-wine/"
+  },
+  {
+   "title": "Bekaa Valley Wine Region: Wines & Wineries",
+   "url": "https://www.winetourism.com/wine-region/bekaa-valley/"
+  },
+  {
+   "title": "Discover the best wines and producers of Lebanon",
+   "url": "https://www.vinerra.com/country/lebanon"
+  },
+  {
+   "title": "List of Lebanese wineries",
+   "url": "https://en.wikipedia.org/wiki/List_of_Lebanese_wineries"
+  },
+  {
+   "title": "Obaideh & Merwah: Lebanon's Ancient White Grapes",
+   "url": "https://www.winewithseth.com/winewiki/obeidi-merwah-lebanons-ancient-white-grapes/"
+  },
+  {
+   "title": "Bekaa Valley: Lebanon's Wine Powerhouse",
+   "url": "https://www.winewithseth.com/winewiki/bekaa-valley-dominance-lebanons-wine-powerhouse/"
+  },
+  {
+   "title": "Lebanese Wine Guide - Bekaa Valley & Musar",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/lebanese-wine-7-000-vintages-of-defiance"
+  },
+  {
+   "title": "Lebanese Grape Varieties Grape Variety",
+   "url": "https://www.winewithseth.com/winewiki/key-lebanese-varieties-main-cultivars/"
+  }
+ ]
+}

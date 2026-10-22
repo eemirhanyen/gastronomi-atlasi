@@ -1,0 +1,265 @@
+{
+ "iso3": "HUN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22393,
+  "out": 4326,
+  "searches": 2
+ },
+ "usd": 0.108,
+ "summary": {
+  "tr": "Macaristan'da bağcılık, Roma dönemi Pannonia'ya kadar uzanır. Ülke, Tokaj'ın tatlı Aszú şaraplarıyla ve 18. yüzyılda yapılan dünyanın ilk bağ sınıflandırmalarından biriyle ünlüdür. Filoksera salgını ve komünist dönemin kitlesel üretim anlayışı kaliteyi geriletmiştir. 1990'dan sonra ise yerli üzümlere ve bölgesel kimliğe dayalı bir kalite atılımı yaşanmıştır. Bugün 22 şarap bölgesinde Furmint, Kékf",
+  "en": "Winegrowing in Hungary goes back to Roman Pannonia. The country is famed for Tokaj's sweet Aszú wines and for one of the world's first vineyard classifications, made in the 18th century. Phylloxera and the Communist-era focus on bulk production damaged quality. After 1990 a quality revival followed, built on native grapes and regional identity. Today 22 wine regions make both white and red wines f"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Tokaj",
+   "lat": 48.12,
+   "lng": 21.4,
+   "desc": {
+    "tr": "UNESCO Dünya Mirası olan bu kuzeydoğu bölgesi, soylu çürüklükle yapılan Tokaji Aszú'su ve giderek yükselen kuru Furmint şaraplarıyla tanınır.",
+    "en": "This UNESCO World Heritage region in the northeast is known for botrytised Tokaji Aszú and increasingly acclaimed dry Furmint."
+   },
+   "grapes": [
+    "Furmint",
+    "Hárslevelű",
+    "Sárgamuskotály"
+   ]
+  },
+  {
+   "name": "Eger",
+   "lat": 47.9,
+   "lng": 20.37,
+   "desc": {
+    "tr": "Bükk ve Mátra dağları arasındaki volkanik bölge, \"Boğa Kanı\" olarak bilinen Egri Bikavér kırmızı karışımıyla ünlüdür.",
+    "en": "This volcanic region between the Bükk and Mátra mountains is famous for the Egri Bikavér ('Bull's Blood') red blend."
+   },
+   "grapes": [
+    "Kékfrankos",
+    "Kadarka",
+    "Cabernet Franc",
+    "Leányka"
+   ]
+  },
+  {
+   "name": "Villány",
+   "lat": 45.87,
+   "lng": 18.45,
+   "desc": {
+    "tr": "Güneydeki en sıcak bölgelerden biridir ve özellikle Cabernet Franc ile Bordeaux tarzı gövdeli kırmızılarıyla bilinir.",
+    "en": "One of the warmest regions, in the far south, known for full-bodied Bordeaux-style reds and especially Cabernet Franc."
+   },
+   "grapes": [
+    "Cabernet Franc",
+    "Merlot",
+    "Cabernet Sauvignon",
+    "Kékfrankos",
+    "Portugieser"
+   ]
+  },
+  {
+   "name": "Szekszárd",
+   "lat": 46.35,
+   "lng": 18.7,
+   "desc": {
+    "tr": "Lös toprakları ve güneşli iklimiyle zarif kırmızılar ve kendi Szekszárdi Bikavér karışımıyla öne çıkar.",
+    "en": "Its loess soils and sunny climate yield elegant reds and its own Szekszárdi Bikavér blend."
+   },
+   "grapes": [
+    "Kadarka",
+    "Kékfrankos",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Somló",
+   "lat": 47.15,
+   "lng": 17.35,
+   "desc": {
+    "tr": "Sönmüş bir yanardağın üzerindeki bu küçük bölge, dumanlı ve mineral yapılı beyaz şaraplarıyla, özellikle Juhfark ile tanınır.",
+    "en": "A tiny region on an extinct volcano, known for smoky, mineral white wines, above all from Juhfark."
+   },
+   "grapes": [
+    "Juhfark",
+    "Furmint",
+    "Hárslevelű",
+    "Olaszrizling"
+   ]
+  },
+  {
+   "name": "Balaton (Badacsony)",
+   "lat": 46.85,
+   "lng": 17.5,
+   "desc": {
+    "tr": "Balaton Gölü çevresindeki volkanik tepelerde Olaszrizling ve Kéknyelű gibi üzümlerden mineralli beyazlar yapılır.",
+    "en": "On the volcanic hills around Lake Balaton, the region makes mineral-driven whites from grapes such as Olaszrizling and Kéknyelű."
+   },
+   "grapes": [
+    "Olaszrizling",
+    "Kéknyelű",
+    "Szürkebarát"
+   ]
+  },
+  {
+   "name": "Sopron",
+   "lat": 47.68,
+   "lng": 16.59,
+   "desc": {
+    "tr": "Avusturya sınırında, Neusiedl Gölü'nün yakınında yer alır ve Kékfrankos'tan yapılan baharatlı kırmızılarıyla bilinir.",
+    "en": "Located on the Austrian border near Lake Neusiedl, it is known for spicy reds made from Kékfrankos."
+   },
+   "grapes": [
+    "Kékfrankos",
+    "Zweigelt"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Furmint",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Tokaj'ın başlıca üzümüdür. Yüksek asiditesi sayesinde hem tatlı Aszú'da hem de kuru şaraplarda başarılıdır.",
+    "en": "Tokaj's leading grape, whose high acidity and susceptibility to noble rot suit both sweet Aszú and dry wines."
+   }
+  },
+  {
+   "name": "Hárslevelű",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Adı \"ıhlamur yaprağı\" anlamına gelir. Furmint'e aromatik bir yapı ve zenginlik katar.",
+    "en": "Its name means 'linden leaf'; it adds aroma and richness to Furmint and also makes aromatic varietal wines."
+   }
+  },
+  {
+   "name": "Juhfark",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Somló'nun nadir üzümüdür. Dumanlı, mineral yapılı ve uzun ömürlü beyazlar verir.",
+    "en": "A rare Somló grape that gives smoky, mineral and long-lived whites."
+   }
+  },
+  {
+   "name": "Kéknyelű",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Badacsony'a özgü, yetiştirilmesi zor bir üzümdür. Zarif ve mineral yapılı beyazlar verir.",
+    "en": "A demanding variety native to Badacsony that yields elegant, mineral whites."
+   }
+  },
+  {
+   "name": "Kadarka",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Bir zamanlar Macaristan'ın simge kırmızı üzümüydü. Hafif gövdeli, düşük tanenli ve baharatlı şaraplar verir.",
+    "en": "Once Hungary's signature red grape, it makes light-bodied, low-tannin, spicy wines."
+   }
+  },
+  {
+   "name": "Kékfrankos",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Blaufränkisch'in Macar adıdır. Macaristan'ın en çok dikilen kırmızı üzümlerinden biridir ve Bikavér karışımlarının temelini oluşturur.",
+    "en": "The Hungarian name for Blaufränkisch, one of the country's most planted reds and the backbone of Bikavér blends."
+   }
+  },
+  {
+   "name": "Olaszrizling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Welschriesling'in Macar adıdır. Macaristan'ın en çok dikilen beyaz üzümüdür ve Balaton çevresinde öne çıkar.",
+    "en": "The Hungarian name for Welschriesling, the country's most planted white grape and a staple around Balaton."
+   }
+  },
+  {
+   "name": "Cabernet Franc",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Villány'ın imza üzümü olarak kabul edilir. Biberli, zarif ve yapılı kırmızılar verir.",
+    "en": "Regarded as Villány's signature grape, it gives peppery, elegant, structured reds."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Tokaji Aszú",
+   "desc": {
+    "tr": "Soylu çürüklükten etkilenmiş aszú tanelerinin taban şaraba veya mayşeye katılmasıyla yapılan, \"puttonyos\" ölçeğiyle anılan ünlü tatlı şaraptır.",
+    "en": "The famous sweet wine made by adding botrytised aszú berries to base wine or must, traditionally described on the 'puttonyos' scale."
+   }
+  },
+  {
+   "name": "Egri Bikavér",
+   "desc": {
+    "tr": "Eger'de en az üç çeşitten yapılan, Kékfrankos'un genellikle ağırlık taşıdığı ve \"Boğa Kanı\" adıyla bilinen kırmızı karışımdır.",
+    "en": "Eger's 'Bull's Blood' red blend, made from at least three varieties, usually with Kékfrankos as the backbone."
+   }
+  },
+  {
+   "name": "Tokaji Szamorodni",
+   "desc": {
+    "tr": "Salkımların budanmadan, olduğu gibi toplanmasıyla yapılan Tokaj şarabıdır. Kuru ya da tatlı olabilir.",
+    "en": "A Tokaj wine made from bunches harvested as they come, with and without noble rot. It can be dry or sweet."
+   }
+  },
+  {
+   "name": "Villányi Franc",
+   "desc": {
+    "tr": "Villány'da Cabernet Franc'tan yapılan, bölgenin kalite öncülüğünü simgeleyen kırmızı şaraptır.",
+    "en": "A Cabernet Franc–based red from Villány that symbolises the region's quality ambitions."
+   }
+  },
+  {
+   "name": "Somlói Juhfark",
+   "desc": {
+    "tr": "Somló volkanik topraklarında Juhfark üzümünden yapılan, mineral ve dumanlı karakterli beyaz şaraptır.",
+    "en": "A mineral, smoky white made from Juhfark on Somló's volcanic soils."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Hungary Wine Region",
+   "url": "https://winefolly.com/wine-regions/hungary/"
+  },
+  {
+   "title": "Discover the Wine In Hungary: Hungary's Best Wine Regions",
+   "url": "https://mrhudsonexplores.com/mr-hudson-on/discover-the-wine-in-hungary-the-best-kept-secret-of-the-old-wine-world/"
+  },
+  {
+   "title": "A Guide to Hungarian Wines - Offbeat Budapest & Vienna",
+   "url": "https://www.offbeatbudapest.com/hungarian-wines/beginners-guide/"
+  },
+  {
+   "title": "Hungarian Wine Regions Guide: From Tokaj to Villány (2026) - Hungary Unlocked",
+   "url": "https://hungaryunlocked.com/hungarian-wine-regions-guide/"
+  },
+  {
+   "title": "Hungary's Wine Regions: Map & Guide to Tokaj, Eger, Villány",
+   "url": "https://thewinekey.com.sg/blogs/into-the-worlds-beyond/hungary-s-wine-regions-a-comprehensive-guide"
+  },
+  {
+   "title": "Tokaj wine region",
+   "url": "https://en.wikipedia.org/wiki/Tokaj_wine_region"
+  },
+  {
+   "title": "Explore Hungary Wine: Regions & Grapes",
+   "url": "https://oldtownexplorer.com/destinations/hungary/hungary-wine/"
+  },
+  {
+   "title": "Wine regions in Hungary - Hungarian Citizenship",
+   "url": "https://hungariancitizenship.eu/wine-regions-in-hungary/"
+  }
+ ]
+}

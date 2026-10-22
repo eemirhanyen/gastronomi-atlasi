@@ -1,0 +1,222 @@
+{
+ "iso3": "EGY",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 25295,
+  "out": 3904,
+  "searches": 2
+ },
+ "usd": 0.1096,
+ "summary": {
+  "tr": "Mısır'da şarapçılık Firavunlar dönemine, özellikle Nil Deltası'ndaki bağlara uzanır. Ortaçağda İslam'ın etkisiyle büyük ölçüde geriledi. Modern şarap sanayii 1882'de Yunan kökenli girişimci Nestor Gianaclis'in İskenderiye'nin güneyinde kurduğu bağla başladı. Bu sanayi 1960'larda kamulaştırıldı, sonra yeniden canlandı. Bugün üretim, Heineken'e bağlı Al Ahram Beverages (Gianaclis) ile Kouroum of the",
+  "en": "Winemaking in Egypt goes back to the pharaohs, especially the vineyards of the Nile Delta, and it largely lapsed after the arrival of Islam. The modern industry began in 1882, when the Greek-Egyptian entrepreneur Nestor Gianaclis planted a vineyard south of Alexandria. It was nationalised in the 1960s and later revived. Today production is limited to a few producers, mainly Heineken-owned Al Ahram"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Nil Deltası (Beheira)",
+   "lat": 30.75,
+   "lng": 30.4,
+   "desc": {
+    "tr": "Gianaclis'in tarihi bağlarının ve Mısır şarapçılığının merkezinin bulunduğu, Akdeniz esintisiyle serinleyen verimli delta bölgesidir.",
+    "en": "The fertile delta, cooled by Mediterranean breezes, is home to the historic Gianaclis vineyards and is the heartland of Egyptian winemaking."
+   },
+   "grapes": [
+    "Viognier",
+    "Chardonnay",
+    "Syrah",
+    "Grenache",
+    "Tempranillo"
+   ]
+  },
+  {
+   "name": "İskenderiye",
+   "lat": 31.0,
+   "lng": 29.9,
+   "desc": {
+    "tr": "Gianaclis'in 1882'deki ilk modern bağının ve şarap üretim tesisinin yakınında yer alır, Muscat of Alexandria üzüm adıyla da anılır.",
+    "en": "Near Gianaclis's first modern vineyard of 1882 and its winery, and a city that gives its name to the Muscat of Alexandria grape."
+   },
+   "grapes": [
+    "Muscat of Alexandria",
+    "Viognier",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Kahire–İskenderiye Çöl Yolu",
+   "lat": 30.4,
+   "lng": 30.4,
+   "desc": {
+    "tr": "Kahire'nin kuzeyindeki çöl bağlarında sulamayla yetiştirilen Akdeniz tipi üzümlerden, Kouroum of the Nile gibi üreticilerin şarapları yapılır.",
+    "en": "Irrigated desert vineyards north of Cairo, where Mediterranean-type grapes go into wines from producers such as Kouroum of the Nile."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Syrah",
+    "Vermentino",
+    "Viognier",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Minya",
+   "lat": 28.1,
+   "lng": 30.75,
+   "desc": {
+    "tr": "Yerel beyaz üzüm Bannati'nin bulunduğu Yukarı Mısır bölgesidir ve burada yeni bağlar kurulmuştur.",
+    "en": "An Upper Egyptian area where the local white grape Bannati was found and where newer vineyards have been planted."
+   },
+   "grapes": [
+    "Bannati"
+   ]
+  },
+  {
+   "name": "Luksor",
+   "lat": 25.7,
+   "lng": 32.65,
+   "desc": {
+    "tr": "Güneydeki sıcak ve kurak bölgede, Gianaclis için üzüm yetiştiren geniş deneme bağları vardır.",
+    "en": "A hot, arid southern area with large experimental vineyards that supply grapes to Gianaclis."
+   },
+   "grapes": [
+    "Syrah",
+    "Viognier",
+    "Chenin Blanc"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Bannati",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Minya'da bulunan yerel bir beyaz üzümdür ve Mısır'ın en özgün çeşidi olarak öne çıkar.",
+    "en": "A local white grape found in Minya, and the most distinctive Egyptian variety."
+   }
+  },
+  {
+   "name": "Muscat of Alexandria",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Adını İskenderiye'den alan, kökeni Mısır ve Kuzey Afrika'ya bağlanan çok eski bir Muscat çeşididir.",
+    "en": "An ancient Muscat variety named after Alexandria, with origins traced to Egypt and North Africa."
+   }
+  },
+  {
+   "name": "Viognier",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Gianaclis'in Ayam beyaz şarabında kullanılan, sıcağa dayanıklı aromatik bir çeşittir.",
+    "en": "A heat-tolerant aromatic variety used in Gianaclis's Ayam white."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hem sofra şarabı hem de köpüklü şarap yapımında kullanılan, uluslararası bir beyaz çeşittir.",
+    "en": "An international white grape used for both still and sparkling wines."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Mısır'ın sıcak iklimine uyum sağlayan, kırmızı şaraplarda sık kullanılan çeşittir.",
+    "en": "A red variety that suits Egypt's hot climate and is widely used in its red wines."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Çöl bağlarında ve Gianaclis'in orta segment şaraplarında kullanılan kırmızı çeşittir.",
+    "en": "A red grape grown in desert vineyards and used in mid-range wines."
+   }
+  },
+  {
+   "name": "Grenache",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı ve roze şaraplarda kullanılan, sıcağa dayanıklı bir çeşittir.",
+    "en": "A heat-tolerant variety used in red and rosé wines."
+   }
+  },
+  {
+   "name": "Tempranillo",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gianaclis'in Zaman şarabında Grenache ile harmanlanan İspanyol kökenli çeşittir.",
+    "en": "A Spanish variety blended with Grenache in Gianaclis's Zaman."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Domaine de Gianaclis (Ayam, Zaman, Leila)",
+   "desc": {
+    "tr": "Gianaclis'in 2009'da piyasaya sürdüğü, yüzde yüz Mısır üzümünden yapılan üst segment serisidir: Ayam beyaz ve kırmızı, Zaman kırmızı, Leila roze.",
+    "en": "Gianaclis's premium range, launched in 2009 and made from 100% Egyptian grapes: Ayam white and red, Zaman red and Leila rosé."
+   }
+  },
+  {
+   "name": "Obelisk ve Omar Khayyam",
+   "desc": {
+    "tr": "Gianaclis'in standart segmentinde yer alan, Mısır'da en çok bilinen ve uygun fiyatlı şarap markalarıdır.",
+    "en": "Gianaclis's standard-tier labels, among the best-known and most affordable wines in Egypt."
+   }
+  },
+  {
+   "name": "Jardin du Nil (Kouroum of the Nile)",
+   "desc": {
+    "tr": "Kahire yakınlarındaki çöl bağlarından çıkan, Vermentino ve Viognier gibi çeşitlerle yapılan modern bir butik şarap serisidir.",
+    "en": "A modern boutique range from desert vineyards near Cairo, made from varieties such as Vermentino and Viognier."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Gianaclis Winery Tour: A Walk through the History and Heritage of Gianaclis Vineyards",
+   "url": "https://www.cairo360.com/article/sights-travel/gianaclis-winery-tour-a-walk-through-the-history-and-heritage-of-gianaclis-vineyards/"
+  },
+  {
+   "title": "Egyptian wine",
+   "url": "https://en.wikipedia.org/wiki/Egyptian_wine"
+  },
+  {
+   "title": "Wine-making in the Middle East: Egypt - Egypt Independent",
+   "url": "https://www.egyptindependent.com/wine-making-middle-east-egypt/"
+  },
+  {
+   "title": "A New Red in an Ancient Land",
+   "url": "https://www.winespectator.com/articles/a-new-red-in-an-ancient-land-44204"
+  },
+  {
+   "title": "Historic comeback? Progress in Egyptian viticulture",
+   "url": "https://trinkreif.de/en/historic-comeback-progress-in-egyptian-viticulture/"
+  },
+  {
+   "title": "Wine in Egypt",
+   "url": "https://www.jancisrobinson.com/articles/wine-in-egypt"
+  },
+  {
+   "title": "Gianaclis",
+   "url": "https://en.wikipedia.org/wiki/Gianaclis"
+  },
+  {
+   "title": "Discovering Wine in Egypt: What’s Made, What’s Available, and What’s Recommended - Ancient Navigator Small Group Luxury Travel",
+   "url": "https://ancientnavigator.com/discovering-wine-in-egypt-whats-made-whats-available-and-whats-recommended/"
+  }
+ ]
+}

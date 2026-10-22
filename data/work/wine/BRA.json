@@ -1,0 +1,270 @@
+{
+ "iso3": "BRA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22834,
+  "out": 5213,
+  "searches": 2
+ },
+ "usd": 0.1178,
+ "summary": {
+  "tr": "Brezilya'da bağcılık, Portekizli sömürgecilerle başlamış olsa da asıl atılım 1875'ten itibaren Veneto ve Trentino'dan gelen İtalyan göçmenlerle Rio Grande do Sul'daki Serra Gaúcha'da yaşanmıştır. Uzun süre Isabel gibi Amerikan melezi üzümlerden yapılan basit sofra şarapları ağırlıkta olmuş; 1970'ler ve 80'lerden sonra vinifera çeşitleriyle kalite atılımı gelmiştir. Ülke bugün özellikle köpüklü şar",
+  "en": "Viticulture in Brazil began with Portuguese colonists, but the real breakthrough came from Italian immigrants from Veneto and Trentino, who settled in Rio Grande do Sul's Serra Gaúcha from 1875. For a long time simple table wines from American and hybrid grapes such as Isabel dominated. A shift to quality with Vitis vinifera followed from the 1970s and 80s. Today Brazil is best known for its spark"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Serra Gaúcha",
+   "lat": -29.1,
+   "lng": -51.5,
+   "desc": {
+    "tr": "Rio Grande do Sul'un 600-900 metre yüksekliğindeki dağlık bölgesi, Brezilya şarapçılığının tarihî ve ticarî merkezi ve köpüklü şarapların ana yurdudur.",
+    "en": "The hilly highlands of Rio Grande do Sul at 600-900 m are the historic and commercial heart of Brazilian wine and the home of its sparkling wines."
+   },
+   "grapes": [
+    "Merlot",
+    "Chardonnay",
+    "Pinot Noir",
+    "Moscato",
+    "Glera"
+   ]
+  },
+  {
+   "name": "Vale dos Vinhedos",
+   "lat": -29.18,
+   "lng": -51.55,
+   "desc": {
+    "tr": "Bento Gonçalves, Garibaldi ve Monte Belo do Sul arasındaki bu vadi Brezilya'nın ilk coğrafi işareti (2002) ve ilk menşe adıdır (2012); Merlot ve köpüklü şaraplarıyla ünlüdür.",
+    "en": "This valley between Bento Gonçalves, Garibaldi and Monte Belo do Sul holds Brazil's first geographical indication (2002) and first Denomination of Origin (2012), and is known for Merlot and sparkling wine."
+   },
+   "grapes": [
+    "Merlot",
+    "Cabernet Franc",
+    "Chardonnay",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Pinto Bandeira",
+   "lat": -29.1,
+   "lng": -51.45,
+   "desc": {
+    "tr": "700-900 metre rakımlı bu alt bölge, özellikle geleneksel yöntemle yapılan köpüklü şaraplarıyla öne çıkar.",
+    "en": "A sub-zone at 700-900 m altitude, valued above all for its traditional-method sparkling wines."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Glera"
+   ]
+  },
+  {
+   "name": "Campanha Gaúcha",
+   "lat": -31.1,
+   "lng": -54.9,
+   "desc": {
+    "tr": "Uruguay ve Arjantin sınırındaki kuru, güneşli pampa bölgesi; Cabernet ve Tannat gibi güçlü kırmızılarıyla bilinir ve ulusal hacmin önemli bir bölümünü sağlar.",
+    "en": "A dry, sunny pampas region on the Uruguayan and Argentine border, known for powerful reds from Cabernet and Tannat, and a major share of national volume."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Tannat",
+    "Merlot",
+    "Touriga Nacional",
+    "Tempranillo"
+   ]
+  },
+  {
+   "name": "Serra do Sudeste",
+   "lat": -31.0,
+   "lng": -53.0,
+   "desc": {
+    "tr": "Granit toprakları olan, yapılı şaraplar için umut vadeden yükselen bir bölgedir.",
+    "en": "An up-and-coming zone with poor granite soils and potential for structured wines."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Tannat"
+   ]
+  },
+  {
+   "name": "Planalto Catarinense",
+   "lat": -28.29,
+   "lng": -49.93,
+   "desc": {
+    "tr": "Santa Catarina'da 900-1.400 metre yükseklikteki bu bölge, Brezilya'nın en yüksek ticarî bağcılık alanıdır ve serin iklim Pinot Noir, Chardonnay ve Sauvignon Blanc üretir.",
+    "en": "Santa Catarina's plateau, at 900-1,400 m, is Brazil's highest commercial viticulture and yields cool-climate Pinot Noir, Chardonnay and Sauvignon Blanc."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Vale do São Francisco",
+   "lat": -9.3,
+   "lng": -40.6,
+   "desc": {
+    "tr": "Ekvatora yakın bu yarı kurak, sulamalı bölge tropikal bağcılığıyla tanınır ve yılda iki hasat yapılabilir.",
+    "en": "A semi-arid, irrigated region near the equator, known for tropical viticulture and the ability to harvest twice a year."
+   },
+   "grapes": [
+    "Syrah",
+    "Moscato",
+    "Tempranillo",
+    "Touriga Nacional",
+    "Chenin Blanc"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Isabel",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Amerikan kökenli melez çeşit Isabel, Brezilya'da en çok dikilen üzümdür ve sofra şarabı ile üzüm suyunda kullanılır.",
+    "en": "This American-origin hybrid is Brazil's most planted grape, used for table wine and grape juice."
+   }
+  },
+  {
+   "name": "Moscato (Moscato Giallo, Moscato Bianco)",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Moscato ailesi, tatlı ve köpüklü şaraplarda kullanılır ve son 20 yılda dikim alanı en çok artan üzümdür.",
+    "en": "The Moscato family goes into sweet and sparkling wines and has grown fastest in planted area over the past 20 years."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Merlot, özellikle Vale dos Vinhedos'ta ifade gücü yüksek olan, Brezilya kırmızılarının amiral gemisi çeşididir.",
+    "en": "Merlot is the flagship of Brazilian reds and is especially expressive in Vale dos Vinhedos."
+   }
+  },
+  {
+   "name": "Tannat",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Fransız kökenli Tannat, özellikle Campanha'da yoğun ve tanenli kırmızılar verir.",
+    "en": "Of French origin, Tannat yields dense, tannic reds, especially in the Campanha."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Brezilya'da en çok dikilen vinifera çeşididir.",
+    "en": "It is the most planted vinifera variety in Brazil."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Köpüklü şarapların temel üzümlerinden biridir ve sessiz şaraplarda da kullanılır.",
+    "en": "A core grape for sparkling wines, also used for still whites."
+   }
+  },
+  {
+   "name": "Glera",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "İtalyan göçmenlerle gelen Prosecco üzümü, Charmat yöntemli köpüklü şaraplarda yaygın olarak kullanılır.",
+    "en": "The Prosecco grape, brought by Italian immigrants, is widely used for tank-method sparkling wines."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Çoğunlukla köpüklü şarap için kullanılır, sessiz şarap olarak da bulunur ancak sıcak ve nemli iklimde yetiştirmesi zordur.",
+    "en": "Mainly used for sparkling wine, also made as a still wine, but hard to grow in the hot, humid climate."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Espumante",
+   "desc": {
+    "tr": "Brezilya'nın en tanınmış stili olan köpüklü şarap, hem geleneksel hem de Charmat yöntemiyle yapılır; Chardonnay, Pinot Noir, Glera ve Moscato kullanılır.",
+    "en": "Brazil's best-known style, sparkling wine is made by both the traditional and tank methods, from Chardonnay, Pinot Noir, Glera and Moscato."
+   }
+  },
+  {
+   "name": "Vale dos Vinhedos DO",
+   "desc": {
+    "tr": "Brezilya'nın ilk menşe adı olan bu DO'da kırmızı şaraplar Merlot'ya dayanır ve karışımlarda en az %60 Merlot bulunur.",
+    "en": "Brazil's first Denomination of Origin, where reds are based on Merlot, which makes up at least 60% of blends."
+   }
+  },
+  {
+   "name": "Pinto Bandeira",
+   "desc": {
+    "tr": "Yüksek rakımlı bu coğrafi işaret, geleneksel yöntemli köpüklü şaraplarıyla tanınır.",
+    "en": "This high-altitude appellation is known for its traditional-method sparkling wines."
+   }
+  },
+  {
+   "name": "Moscatel espumante",
+   "desc": {
+    "tr": "Moscato üzümlerinden yapılan tatlı, aromatik ve hafif köpüklü bu stil, Brezilya'da çok sevilir.",
+    "en": "A sweet, aromatic, lightly sparkling style made from Moscato grapes, popular in Brazil."
+   }
+  },
+  {
+   "name": "Tropikal şaraplar (Vale do São Francisco)",
+   "desc": {
+    "tr": "Sulama ile yılda iki hasat alınan bu tropikal bağlarda genellikle ferah beyazlar, köpüklüler ve Syrah gibi kırmızılar üretilir.",
+    "en": "Irrigated tropical vineyards allow two harvests a year and produce mostly fresh whites, sparklers and reds such as Syrah."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Brazilian Wine: Exploring the Vibrant Wines of Brazil",
+   "url": "https://www.coravin.com/blogs/community/brazilian-wine"
+  },
+  {
+   "title": "Brazilian wine producing regions: (a) Rio Grande do Sul state and (b)...",
+   "url": "https://www.researchgate.net/figure/Brazilian-wine-producing-regions-a-Rio-Grande-do-Sul-state-and-b-Vale-do-Sao_fig1_291009952"
+  },
+  {
+   "title": "Brazil Wine Guide - South America Wine Guide",
+   "url": "https://southamericawineguide.com/brazil-guide/"
+  },
+  {
+   "title": "What You Need to Know About Brazilian Wine",
+   "url": "https://daily.sevenfifty.com/what-you-need-to-know-about-brazilian-wine/"
+  },
+  {
+   "title": "Brazilian wine",
+   "url": "https://en.wikipedia.org/wiki/Brazilian_wine"
+  },
+  {
+   "title": "Brazil Wine Region - Serra Gaúcha, Espumante & Vale dos Vinhedos",
+   "url": "https://www.grapeguru.de/en/knowledge/wine-regions/brasilien"
+  },
+  {
+   "title": "Brazil Wine Region",
+   "url": "https://www.winewithseth.com/winewiki/brazil/"
+  },
+  {
+   "title": "Brazil Wine Regions: Serra Gaúcha, Vale dos Vinhedos and More",
+   "url": "https://southamericanwineauthority.com/brazil-wine-regions/"
+  }
+ ]
+}

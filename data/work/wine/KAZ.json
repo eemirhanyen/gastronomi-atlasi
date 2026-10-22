@@ -1,0 +1,224 @@
+{
+ "iso3": "KAZ",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24023,
+  "out": 4471,
+  "searches": 2
+ },
+ "usd": 0.1128,
+ "summary": {
+  "tr": "Kazakistan'da asmacılığın izleri, Çin'in Sincan bölgesi ile Özbekistan'ın Fergana ve Semerkant yörelerinden gelen tüccarlarla yedinci yüzyıla kadar uzanır. Sovyet döneminde Alma-Ata ve Şımkent çevresinde yaklaşık 27.000 hektara varan, Gürcistan kökenli Saperavi ve Rkatsiteli ağırlıklı geniş bağlar kuruldu. 1985 alkol karşıtı kampanya ve Sovyetler'in dağılmasının ardından sektör çöktü. 2000'lerin o",
+  "en": "Vines reached what is now Kazakhstan by the 7th century AD, brought by traders from Xinjiang in China and from the Fergana and Samarkand areas of Uzbekistan. In the Soviet era, vineyards around Almaty and Shymkent grew to about 27,000 hectares, planted mostly with Georgian Saperavi and Rkatsiteli. The 1985 anti-alcohol campaign and the Soviet collapse wrecked the industry. Since the mid-2000s, pro"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Almaty Region",
+   "lat": 43.45,
+   "lng": 77.3,
+   "desc": {
+    "tr": "Ülke üretiminin ve bağlarının en büyük payını barındıran, Ili Alatau eteklerindeki ana şarap bölgesidir.",
+    "en": "The country's main wine region, on the Ili Alatau (Tian Shan) piedmont, with the largest share of its vineyards and wine output."
+   },
+   "grapes": [
+    "Riesling",
+    "Pinot Noir",
+    "Saperavi",
+    "Rkatsiteli",
+    "Cabernet Franc"
+   ]
+  },
+  {
+   "name": "Assa Valley",
+   "lat": 43.35,
+   "lng": 77.8,
+   "desc": {
+    "tr": "Almatı'nın doğusunda, yaklaşık 1.000 m rakımda, gece-gündüz sıcaklık farkı yüksek olan ve eski Sovyet bağlarının yeniden işlendiği vadidir.",
+    "en": "A valley east of Almaty at about 1,000 m, with big day–night temperature swings, where old Soviet-era vineyards have been restored."
+   },
+   "grapes": [
+    "Riesling",
+    "Pinot Noir",
+    "Saperavi",
+    "Rkatsiteli",
+    "Cabernet Franc"
+   ]
+  },
+  {
+   "name": "Turkistan Region (Saryagash)",
+   "lat": 41.45,
+   "lng": 69.2,
+   "desc": {
+    "tr": "Şımkent çevresindeki sıcak güney bölgesi; tarihsel olarak tatlı ve meze şarapları ile sofra üzümüyle bilinir.",
+    "en": "The warm far south around Shymkent, historically known for dessert and sweet wines as well as table grapes."
+   },
+   "grapes": [
+    "Saperavi",
+    "Rkatsiteli",
+    "Muscat Ottonel",
+    "Bayan Shirey"
+   ]
+  },
+  {
+   "name": "Zhambyl Region (Taraz)",
+   "lat": 42.9,
+   "lng": 71.4,
+   "desc": {
+    "tr": "Taraz çevresinde erken 20. yüzyılda devlet bağlarının en büyük üreticiler arasında yer aldığı güney bölgesidir.",
+    "en": "A southern area around Taraz, where state-run vineyards were among the largest producers in the early 20th century."
+   },
+   "grapes": [
+    "Rkatsiteli",
+    "Saperavi",
+    "Aligoté"
+   ]
+  },
+  {
+   "name": "Panfilov District (Zharkent)",
+   "lat": 44.15,
+   "lng": 79.95,
+   "desc": {
+    "tr": "Çin ve Kırgızistan sınırına yakın, Cungar Alatau'nun gölgesinde bulunan ve ülkenin en eski şarapçılık kalıntılarının bulunduğu yöredir.",
+    "en": "A district in the shadow of the Dzungarian Alatau near the Chinese border, where Kazakhstan's oldest winemaking artefacts were found."
+   },
+   "grapes": [
+    "Kuldzhinskii",
+    "Bayan Shirey"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Bayan Shirey",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Bölgede yetişen eski yerel bir beyaz üzümdür ve Kazak şaraplarında sıkça anılır.",
+    "en": "An old local white grape of the region, often cited among Kazakh wine varieties."
+   }
+  },
+  {
+   "name": "Kuldzhinskii",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kazakistan'ın güneydoğusunda yetişen, eski yerel çeşitler arasında sayılan bir üzümdür.",
+    "en": "A local variety of the south-east, counted among the country's ancient indigenous grapes."
+   }
+  },
+  {
+   "name": "Saperavi",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli, Sovyet döneminde getirilen ve sert iklime dayanıklılığıyla öne çıkan, koyu renkli ve tanenli kırmızı üzümdür.",
+    "en": "A Georgian red grape brought in during the Soviet era, valued for its hardiness and its deep colour and tannin."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli, yüksek verimli ve dayanıklı olduğu için Kazakistan'da çok yaygınlaşan beyaz üzümdür.",
+    "en": "A Georgian white grape that became widespread in Kazakhstan because it is high-yielding and resilient."
+   }
+  },
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Almatı çevresindeki yüksek rakımlı bağlarda yetişen ve Arba'nın en bilinen şarabını veren beyaz üzümdür.",
+    "en": "A white grape grown in the high-altitude vineyards near Almaty, and the source of Arba's best-known wine."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Serin dağ gecelerinden yararlanan, hem sakin hem köpüklü ve roze şaraplarda kullanılan uluslararası kırmızı üzümdür.",
+    "en": "An international red grape that benefits from cool mountain nights and is used for still, sparkling and rosé wines."
+   }
+  },
+  {
+   "name": "Cabernet Franc",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Almatı bölgesindeki yeni bağlarda yetiştirilen Fransız kökenli kırmızı üzümdür.",
+    "en": "A French red grape planted in newer vineyards in the Almaty region."
+   }
+  },
+  {
+   "name": "Muscat Ottonel",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Kazakistan'da yetiştirilen yaygın çeşitlerden biri olan aromatik bir beyaz üzümdür.",
+    "en": "An aromatic white grape listed among the common varieties grown in Kazakhstan."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Arba Riesling",
+   "desc": {
+    "tr": "Assa Vadisi'nde kendi köklerinde yetişen asmalardan yapılan ve meşe yerine akasya fıçıda olgunlaştırılan, Kazakistan'ın en tanınmış şaraplarından biridir.",
+    "en": "One of Kazakhstan's best-known wines, made in the Assa Valley and aged in acacia rather than oak."
+   }
+  },
+  {
+   "name": "Saperavi and Saperavi blends",
+   "desc": {
+    "tr": "Saperavi, Kazakistan'ın karakteristik kırmızısıdır. Arba'nın Pinot Noir ile yaptığı 'Pino Sape' harmanı ise ülkeye özgü bir örnektir.",
+    "en": "Saperavi is Kazakhstan's signature red, and Arba's Pinot Noir–Saperavi blend, 'Pino Sape', is a distinctive local example."
+   }
+  },
+  {
+   "name": "Sweet and dessert wines",
+   "desc": {
+    "tr": "Sovyet döneminde Şımkent çevresi tatlı ve meze şarapları, Almatı Bölgesi ise köpüklü ve sofra şarapları üretimi için uzmanlaşmıştı. Bu tatlı şaraplar bugün de yerel damak zevkinde yer tutar.",
+    "en": "In the Soviet era the Shymkent area specialised in dessert and sweet wines, and the Almaty region in sparkling and table wines. Sweet styles still suit local tastes."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Kazakhstan's Wine Geography and History",
+   "url": "https://www.scribd.com/document/499860039/Kazakhstan-Wine-Seidanova-Laura"
+  },
+  {
+   "title": "Almaty Wine Region - Buy Wines From Kazakhstan",
+   "url": "https://vinovoss.com/regions/almaty-kazakhstan/"
+  },
+  {
+   "title": "Kazakhstan: Vodka & Wines",
+   "url": "https://www.wine-searcher.com/regions-kazakhstan"
+  },
+  {
+   "title": "Kazakh wine",
+   "url": "https://en.wikipedia.org/wiki/Kazakh_wine"
+  },
+  {
+   "title": "Exploring the Rich Heritage of Kazakhstan Wine: From Ancient Vineyards to Modern Wineries - Urban Bliss Life",
+   "url": "https://urbanblisslife.com/kazakhstan-wine/"
+  },
+  {
+   "title": "Committee of Tourism Industry of the Ministry of Tourism and Sport of the R of K :: Kazakh Wine",
+   "url": "http://www.kazakhstan-tourist.isd.kz/page.php?page_id=552&lang=2"
+  },
+  {
+   "title": "A Guide To Kazakh Wine - AZ Cuisines",
+   "url": "https://azcuisines.com/beverages/kazakh-wine/"
+  },
+  {
+   "title": "Kazakh Wine Producers Given Permission By European Commission to Access European Markets - The Astana Times",
+   "url": "https://astanatimes.com/2021/10/kazakh-wine-producers-given-permission-by-european-commission-to-access-european-markets/"
+  }
+ ]
+}

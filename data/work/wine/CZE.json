@@ -1,0 +1,239 @@
+{
+ "iso3": "CZE",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24871,
+  "out": 4384,
+  "searches": 2
+ },
+ "usd": 0.1136,
+ "summary": {
+  "tr": "Çekya'da bağcılık, Büyük Moravya döneminden (9. yüzyıl) ve Roma etkisinden beri bilinir. 14. yüzyılda İmparator IV. Karl'ın Burgonya'dan asma getirtmesi ve 1358 tarihli bağ fermanıyla büyük gelişme göstermiştir. Otuz Yıl Savaşları, filoksera ve komünist dönem sektörü zayıflatsa da, 1989 sonrası aile işletmelerinin yeniden kurulması ve 2004'te AB üyeliği ile ülke aromatik beyazlarıyla tanınan, Avru",
+  "en": "Viticulture in the Czech lands goes back to Roman influence and the Great Moravian period (9th century). It flourished in the 14th century when Emperor Charles IV brought in Burgundian vines and issued his 1358 vineyard decree. The Thirty Years' War, phylloxera and the communist era all set the industry back. Since 1989 the return of family estates and EU accession in 2004 have made the country on"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Znojemská",
+   "lat": 48.86,
+   "lng": 16.05,
+   "desc": {
+    "tr": "Moravya'nın batısında, kireçtaşı ve lös topraklarında yetişen ferah, aromatik beyazlarıyla (Veltlínské zelené, Sauvignon, Ryzlink vlašský) tanınır.",
+    "en": "Western Moravian sub-region known for fresh, aromatic whites such as Grüner Veltliner, Sauvignon Blanc and Welschriesling from limestone and loess soils."
+   },
+   "grapes": [
+    "Veltlínské zelené",
+    "Ryzlink vlašský",
+    "Sauvignon",
+    "Svatovavřinecké"
+   ]
+  },
+  {
+   "name": "Mikulovská",
+   "lat": 48.81,
+   "lng": 16.64,
+   "desc": {
+    "tr": "Avusturya sınırında, Pálava Tepeleri çevresinde yer alır ve zarif beyazlarıyla ünlüdür.",
+    "en": "Sub-region on the Austrian border around the Pálava hills, known for elegant white wines."
+   },
+   "grapes": [
+    "Veltlínské zelené",
+    "Pálava",
+    "Müller-Thurgau",
+    "Ryzlink rýnský"
+   ]
+  },
+  {
+   "name": "Velkopavlovická",
+   "lat": 48.91,
+   "lng": 16.83,
+   "desc": {
+    "tr": "Moravya'nın en büyük alt bölgesidir ve kırmızı şarap üretiminin yoğun olduğu merkezdir.",
+    "en": "The largest Moravian sub-region by vineyard area, with the highest share of red grapes."
+   },
+   "grapes": [
+    "Frankovka",
+    "Svatovavřinecké",
+    "Zweigeltrebe",
+    "Modrý Portugal"
+   ]
+  },
+  {
+   "name": "Slovácká",
+   "lat": 48.98,
+   "lng": 17.25,
+   "desc": {
+    "tr": "Moravya'nın doğusunda, çeşitli topraklarıyla beyaz ve kırmızı çeşitleri dengeli biçimde barındırır; geleneksel bağ ve mahzen kültürüyle bilinir.",
+    "en": "Eastern Moravian sub-region with varied soils, a balanced mix of white and red grapes and a strong traditional cellar culture."
+   },
+   "grapes": [
+    "Veltlínské zelené",
+    "Ryzlink rýnský",
+    "Rulandské modré",
+    "Frankovka"
+   ]
+  },
+  {
+   "name": "Mělnická",
+   "lat": 50.35,
+   "lng": 14.47,
+   "desc": {
+    "tr": "Prag'ın kuzeyinde, Vltava ve Elbe'nin kavuştuğu yerde bulunan tarihî Bohemya bölgesidir; IV. Karl döneminde getirilen Pinot Noir'ıyla bilinir.",
+    "en": "Historic Bohemian sub-region north of Prague at the Vltava–Elbe confluence, known for Pinot Noir traced to Charles IV's Burgundian vines."
+   },
+   "grapes": [
+    "Rulandské modré",
+    "Ryzlink rýnský",
+    "Müller-Thurgau"
+   ]
+  },
+  {
+   "name": "Litoměřická",
+   "lat": 50.53,
+   "lng": 14.13,
+   "desc": {
+    "tr": "Bohemya'nın kuzeyinde, Česke Středohoří'nin bazaltik güney yamaçlarında yer alan, Avrupa'nın en kuzeydeki bağ bölgelerindendir.",
+    "en": "A northern Bohemian sub-region on the basalt-influenced southern slopes of the České středohoří, among Europe's most northerly vineyards."
+   },
+   "grapes": [
+    "Ryzlink rýnský",
+    "Müller-Thurgau",
+    "Rulandské modré",
+    "Rulandské šedé"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Pálava",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Tramín červený ile Müller-Thurgau'nun Çekçe melezidir; gül, liçi ve bal notalarıyla çok aromatik ve dolgun şaraplar verir.",
+    "en": "A Czech cross of Traminer and Müller-Thurgau, making highly aromatic, full-bodied wines with rose, lychee and honey notes."
+   }
+  },
+  {
+   "name": "Muškát moravský",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Çekya'da geliştirilmiş, yoğun misket aromalı bir melezdir; burčák ve hafif aromatik şaraplarda kullanılır.",
+    "en": "A Czech-bred muscat cross with intense floral aromas, used for light aromatic wines and burčák."
+   }
+  },
+  {
+   "name": "Cabernet Moravia",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Zweigelt ile Cabernet Franc'ın Çekçe melezidir; frenk üzümü notalı kırmızı şaraplar verir.",
+    "en": "A Czech cross of Zweigelt and Cabernet Franc that gives blackcurrant-toned reds."
+   }
+  },
+  {
+   "name": "Veltlínské zelené",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Grüner Veltliner'in Çekçe adıdır ve ülkede en çok dikilen çeşittir; biberimsi, ferah şaraplar verir.",
+    "en": "The Czech name for Grüner Veltliner, the most widely planted grape in the country, giving peppery, fresh wines."
+   }
+  },
+  {
+   "name": "Ryzlink vlašský",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Welschriesling'dir; özellikle Znojmo çevresinde hafif, asidik beyaz şaraplar verir.",
+    "en": "Welschriesling, producing light, crisp white wines, especially around Znojmo."
+   }
+  },
+  {
+   "name": "Svatovavřinecké",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Saint Laurent'in Çekçe adıdır; ülkenin en yaygın kırmızı çeşitlerindendir ve koyu meyveli, kadifemsi şaraplar verir.",
+    "en": "The Czech name for Saint Laurent, one of the most planted reds, giving dark-fruited, velvety wines."
+   }
+  },
+  {
+   "name": "Frankovka",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Blaufränkisch'tir; kiraz aromalı, baharatlı ve tanen yapısı güçlü kırmızı şaraplar verir.",
+    "en": "Blaufränkisch, giving cherry-toned, spicy reds with a firm tannic backbone."
+   }
+  },
+  {
+   "name": "Ryzlink rýnský",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Riesling'dir; hem Moravya'da hem de Bohemya'nın serin bağlarında asiditesi yüksek, karmaşık beyazlar verir.",
+    "en": "Riesling, making high-acid, complex whites in both Moravia and the cooler Bohemian vineyards."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Burčák",
+   "desc": {
+    "tr": "Sonbaharda tüketilen, kısmen fermente olmuş genç üzüm şırasıdır; çoğunlukla Muškát moravský, Müller-Thurgau gibi aromatik beyaz çeşitlerden yapılır.",
+    "en": "A young, partially fermented grape must drunk in early autumn, usually made from aromatic whites such as Moravian Muscat and Müller-Thurgau."
+   }
+  },
+  {
+   "name": "VOC (Vína originální certifikace)",
+   "desc": {
+    "tr": "Çekya'nın, belirli bir bağ bölgesine özgü çeşitleri ve üslubu güvence altına alan, uzman kurul onaylı bölgesel köken sistemidir.",
+    "en": "The Czech regional-origin appellation system, which certifies wines typical of a specific area and its permitted grapes, with panel approval."
+   }
+  },
+  {
+   "name": "Ledové víno ve slámové víno",
+   "desc": {
+    "tr": "Dondurulmuş üzümlerden yapılan buz şarabı ile kurutulmuş üzümlerden yapılan saman şarabı, Moravya'nın öne çıkan tatlı şaraplarıdır.",
+    "en": "Ice wine from frozen grapes and straw wine from dried grapes, two notable sweet styles from Moravia."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Devastated by Communism, Czech Wine Is Making a Comeback",
+   "url": "https://www.wineenthusiast.com/basics/region-rundown/czech-wine-guide/"
+  },
+  {
+   "title": "Essential Czech Wines - The Top Wines from the Czech Republic",
+   "url": "https://www.vinology.com/czech-republic/"
+  },
+  {
+   "title": "Czech wine",
+   "url": "https://en.wikipedia.org/wiki/Czech_wine"
+  },
+  {
+   "title": "Moravian Wines: Czech Wine Guide",
+   "url": "https://www.fjordsandbeaches.com/moravian-wines/"
+  },
+  {
+   "title": "Malverina",
+   "url": "https://en.wikipedia.org/wiki/Malverina"
+  },
+  {
+   "title": "Bohemia Wine - Czech Republic Wine Region",
+   "url": "https://www.wine-searcher.com/regions-bohemia"
+  },
+  {
+   "title": "Bohutice",
+   "url": "https://en.wikipedia.org/wiki/Bohutice"
+  },
+  {
+   "title": "Czech Republic Wine Regions",
+   "url": "https://www.winewithseth.com/winewiki/czech-republic-wine-overview/"
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "iso3": "USA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22434,
+  "out": 4951,
+  "searches": 2
+ },
+ "usd": 0.1144,
+ "summary": {
+  "tr": "Amerika Birleşik Devletleri'nde şarapçılık 1700'lerde Fransisken misyonerlerin Kaliforniya'ya Vitis vinifera asmaları getirmesiyle başladı. Altın Çağı ve 19. yüzyıl göçmenleriyle gelişti, 1920–1933 arasındaki Yasak (Prohibition) döneminde ağır darbe aldı, 1976'daki Paris Yargısı tadımıyla yeniden dünya sahnesine çıktı. Bugün ülkenin üretiminin yaklaşık %80-90'ı Kaliforniya'dan gelir. Oregon, Washi",
+  "en": "American winemaking began in the 1700s, when Franciscan missionaries brought Vitis vinifera vines to California. It grew with the Gold Rush and 19th-century immigrants, was hit hard by Prohibition (1920–1933), and returned to the world stage after the 1976 Judgment of Paris tasting. Today roughly 80–90% of US wine comes from California, with Oregon, Washington, New York and Virginia as other signi"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Napa Valley",
+   "lat": 38.5,
+   "lng": -122.3,
+   "desc": {
+    "tr": "Dünyaca ünlü, yoğun yapılı Cabernet Sauvignon şaraplarıyla tanınan Kaliforniya'nın prestij bölgesidir.",
+    "en": "California's prestige region, famed worldwide for its rich, powerful Cabernet Sauvignon."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Sonoma County",
+   "lat": 38.5,
+   "lng": -122.9,
+   "desc": {
+    "tr": "Russian River Valley ve Dry Creek Valley gibi alt bölgeleriyle zarif Pinot Noir, Chardonnay ve Zinfandel şaraplarıyla bilinir.",
+    "en": "Known for elegant Pinot Noir, Chardonnay and Zinfandel from sub-regions such as Russian River Valley and Dry Creek Valley."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Chardonnay",
+    "Zinfandel"
+   ]
+  },
+  {
+   "name": "Paso Robles",
+   "lat": 35.63,
+   "lng": -120.69,
+   "desc": {
+    "tr": "Orta Sahil'in sıcak ve güneşli bölgesidir; Zinfandel, Cabernet ve Rhône çeşitleriyle öne çıkar.",
+    "en": "A warm, sunny Central Coast region noted for Zinfandel, Cabernet and Rhône varieties."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Zinfandel",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Lodi",
+   "lat": 38.13,
+   "lng": -121.27,
+   "desc": {
+    "tr": "Kaliforniya'nın Central Valley'inde yer alır; yaşlı asma Zinfandel'iyle tanınan büyük bir üzüm yetiştirme bölgesidir.",
+    "en": "A large grape-growing area in California's Central Valley, known for its old-vine Zinfandel."
+   },
+   "grapes": [
+    "Zinfandel",
+    "Cabernet Sauvignon",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Willamette Valley",
+   "lat": 45.1,
+   "lng": -123.1,
+   "desc": {
+    "tr": "Oregon'da serin iklimli, ABD'nin önde gelen Pinot Noir bölgesidir.",
+    "en": "Oregon's cool-climate valley and the leading US region for Pinot Noir."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Chardonnay",
+    "Pinot Gris"
+   ]
+  },
+  {
+   "name": "Columbia Valley",
+   "lat": 46.3,
+   "lng": -119.6,
+   "desc": {
+    "tr": "Washington'ın kurak, güneşli iç kesimidir; fiyatına göre kaliteli güçlü kırmızıları ve Riesling'iyle bilinir.",
+    "en": "Washington's dry, sunny interior, known for good-value bold reds and for Riesling."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Riesling",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Finger Lakes",
+   "lat": 42.7,
+   "lng": -76.95,
+   "desc": {
+    "tr": "New York'ta derin göllerin çevresindeki serin bölgedir; Riesling şaraplarıyla ünlüdür.",
+    "en": "A cool region around deep lakes in New York, famous for its Riesling."
+   },
+   "grapes": [
+    "Riesling",
+    "Cabernet Franc",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "Virginia (Monticello)",
+   "lat": 38.0,
+   "lng": -78.5,
+   "desc": {
+    "tr": "Doğu Kıyısı'nın en köklü şarap bölgelerinden biridir; Thomas Jefferson mirası, Viognier, Cabernet Franc ve Norton ile tanınır.",
+    "en": "One of the East Coast's most established wine regions, associated with Thomas Jefferson's legacy and known for Viognier, Cabernet Franc and Norton."
+   },
+   "grapes": [
+    "Viognier",
+    "Cabernet Franc",
+    "Norton"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Norton",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Virginia'da 1820'lerde geliştirilen, Amerikan asma türlerinden gelen ve koyu renkli şaraplar veren bir melez çeşittir.",
+    "en": "A dark-hued hybrid of American vine species developed in Virginia in the 1820s."
+   }
+  },
+  {
+   "name": "Concord",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Massachusetts'te 19. yüzyılda geliştirilen Vitis labrusca çeşididir; çoğunlukla üzüm suyu ve reçelde, bir miktar da şarapta kullanılır.",
+    "en": "A 19th-century Vitis labrusca variety from Massachusetts, used mainly for juice and jelly and in some wine."
+   }
+  },
+  {
+   "name": "Muscadine",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Güneydoğu ABD'ye özgü Vitis rotundifolia türünden, yoğun aromalı ve genellikle tatlı şaraplar veren üzümlerdir.",
+    "en": "Grapes of the Vitis rotundifolia species native to the southeastern US, giving intensely aromatic, often sweet wines."
+   }
+  },
+  {
+   "name": "Zinfandel",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Aslen Hırvat Crljenak Kaštelanski ile aynı çeşit olsa da Kaliforniya'nın simge kırmızı üzümü sayılır.",
+    "en": "Genetically identical to Croatia's Crljenak Kaštelanski, yet regarded as California's signature red grape."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Napa Valley ve Washington'ın Columbia Valley'inde ülkenin en prestijli kırmızı şaraplarını verir.",
+    "en": "Makes some of the country's most prestigious reds in Napa Valley and Washington's Columbia Valley."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "ABD'nin en çok yetiştirilen beyaz çeşitlerindendir; Kaliforniya'da bol meşeli, Oregon'da daha ferah tarzlarda üretilir.",
+    "en": "One of the most widely planted US whites, made in rich, oaky styles in California and crisper ones in Oregon."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Oregon'un Willamette Valley'inde ve Sonoma'nın serin kesimlerinde en iyi sonuçlarını verir.",
+    "en": "Does best in Oregon's Willamette Valley and the cooler parts of Sonoma."
+   }
+  },
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Finger Lakes ve Washington'da serin iklimde canlı asiditeli şaraplar verir.",
+    "en": "Gives lively, high-acid wines in the cool climates of the Finger Lakes and Washington."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Napa Valley Cabernet Sauvignon",
+   "desc": {
+    "tr": "Yoğun meyveli, güçlü yapılı ve uzun ömürlü olabilen bu şaraplar Amerikan şarabının prestij simgesidir.",
+    "en": "Concentrated, full-bodied and often age-worthy, these wines are the prestige benchmark of American wine."
+   }
+  },
+  {
+   "name": "Willamette Valley Pinot Noir",
+   "desc": {
+    "tr": "Hafif gövdeli, ekşi kırmızı meyveli ve zarif Oregon Pinot Noir'ları, tek çeşit şarapta en az %90 üzüm şartı aranan bir sistemde üretilir.",
+    "en": "Light-bodied, tart-fruited and elegant Oregon Pinot Noirs, made under a rule requiring at least 90% of the named grape in varietal wines."
+   }
+  },
+  {
+   "name": "Old-vine Zinfandel",
+   "desc": {
+    "tr": "Dry Creek Valley, Lodi ve Sierra Foothills gibi yerlerde yaşlı asmalardan üretilen, yüksek alkollü ve yoğun meyveli kırmızı şaraplardır.",
+    "en": "Bold, high-alcohol, jammy reds from old vines in places like Dry Creek Valley, Lodi and the Sierra Foothills."
+   }
+  },
+  {
+   "name": "White Zinfandel",
+   "desc": {
+    "tr": "Zinfandel'den yapılan tatlımsı roze şarap, milyonlarca Amerikalıyı şaraba alıştıran popüler bir stil oldu.",
+    "en": "A slightly sweet rosé made from Zinfandel that introduced millions of Americans to wine."
+   }
+  },
+  {
+   "name": "Finger Lakes Riesling",
+   "desc": {
+    "tr": "New York'un serin göl bölgesinde üretilen, kuru ile tatlı arasında değişen canlı Riesling şaraplarıdır.",
+    "en": "Vibrant Rieslings, from dry to sweet, made in New York's cool lake region."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "A Comprehensive Guide to American Wine",
+   "url": "https://www.virginwines.co.uk/hub/wine-guide/wine-regions/usa-wine-regions/"
+  },
+  {
+   "title": "Washington wine",
+   "url": "https://en.wikipedia.org/wiki/Washington_wine"
+  },
+  {
+   "title": "United States Wine Region",
+   "url": "https://winefolly.com/wine-regions/united-states/"
+  },
+  {
+   "title": "American Wine Overview",
+   "url": "https://www.wineandbarrels.co.uk/american-wine-regions/"
+  },
+  {
+   "title": "The Ultimate Guide To USA Wine",
+   "url": "https://www.thewinesociety.com/discover/explore/regional-guides/american-wine-ultimate-guide/"
+  },
+  {
+   "title": "American Viticultural Areas (AVAs)",
+   "url": "https://www.winewithseth.com/winewiki/american-viticultural-areas/"
+  },
+  {
+   "title": "USA Wine Tourism: Regions & Wineries",
+   "url": "https://www.winetourism.com/wine-country/usa/"
+  },
+  {
+   "title": "U.S. Pacific Northwest Wine Region Overview — The Wine CEO",
+   "url": "https://www.thewineceo.com/blog/overview-pacific-northwest-wine-regions"
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "iso3": "GRC",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22070,
+  "out": 4475,
+  "searches": 2
+ },
+ "usd": 0.1089,
+ "summary": {
+  "tr": "Yunanistan, Akrotiri'deki Minos yerleşimine kadar uzanan en az 3.500 yıllık bağcılık geleneğiyle dünyanın en eski şarap ülkelerinden biridir. Şarap, antik çağdan beri sofra kültürünün, dinî ritüellerin ve çam reçineli retsina geleneğinin parçası olmuştur. 1971'de ilk adlandırma (OPAP) bölgeleri onaylandı; bugün yüzlerce yerli üzüm çeşidi, özellikle Santorini Assyrtiko'su ve kuzeyin Xinomavro'su sa",
+  "en": "Greece is one of the world's oldest wine countries, with evidence of viticulture at the Minoan settlement of Akrotiri going back at least 3,500 years. Wine has long been part of Greek table culture, religious ritual and the pine-resin retsina tradition. The first appellations (OPAP) were ratified in 1971, and today hundreds of native grape varieties, led by Santorini Assyrtiko and northern Xinomav"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Naoussa",
+   "lat": 40.63,
+   "lng": 22.07,
+   "desc": {
+    "tr": "Vermio Dağı yamaçlarındaki bu bölge, Yunanistan'ın 'Barolo'su sayılan, uzun yıllanabilen Xinomavro kırmızılarıyla bilinir.",
+    "en": "On the slopes of Mount Vermio, it is known for age-worthy Xinomavro reds often likened to Barolo."
+   },
+   "grapes": [
+    "Xinomavro"
+   ]
+  },
+  {
+   "name": "Amyndeon",
+   "lat": 40.69,
+   "lng": 21.68,
+   "desc": {
+    "tr": "Batı Makedonya'nın yüksek ve serin bölgesidir; Xinomavro'dan canlı kırmızılar, roze ve köpüklü şaraplar üretir.",
+    "en": "A high, cool part of western Macedonia producing vibrant Xinomavro reds, rosés and sparkling wines."
+   },
+   "grapes": [
+    "Xinomavro",
+    "Malagousia"
+   ]
+  },
+  {
+   "name": "Nemea",
+   "lat": 37.82,
+   "lng": 22.66,
+   "desc": {
+    "tr": "Peloponez'in en büyük adlandırma bölgesidir; Agiorgitiko'dan yumuşak tanenli, meyvemsi kırmızılar ve rozeler yapılır.",
+    "en": "The Peloponnese's largest appellation, celebrated for fruity, soft-tannin Agiorgitiko reds and rosés."
+   },
+   "grapes": [
+    "Agiorgitiko"
+   ]
+  },
+  {
+   "name": "Mantinia",
+   "lat": 37.62,
+   "lng": 22.38,
+   "desc": {
+    "tr": "Arkadya platosunun serin yaylalarında yetişen, çiçeksi ve aromatik Moschofilero beyazlarıyla tanınır.",
+    "en": "Known for floral, aromatic Moschofilero whites from the cool uplands of the Arcadian plateau."
+   },
+   "grapes": [
+    "Moschofilero"
+   ]
+  },
+  {
+   "name": "Attica (Mesogeia)",
+   "lat": 37.9,
+   "lng": 23.9,
+   "desc": {
+    "tr": "Atina çevresindeki bu bölge, Savatiano üzerine kurulu beyaz şaraplar ve retsina geleneğiyle öne çıkar.",
+    "en": "The area around Athens, known for Savatiano-based whites and the retsina tradition."
+   },
+   "grapes": [
+    "Savatiano",
+    "Assyrtiko",
+    "Roditis"
+   ]
+  },
+  {
+   "name": "Crete",
+   "lat": 35.25,
+   "lng": 24.9,
+   "desc": {
+    "tr": "Adanın çok sayıda yerel çeşidi ve Akdeniz iklimi, Giritli şarap geleneğini çeşitli kılar.",
+    "en": "A large island whose Mediterranean climate and many local varieties give Cretan wine considerable diversity."
+   },
+   "grapes": [
+    "Vidiano",
+    "Kotsifali",
+    "Mandilari",
+    "Liatiko"
+   ]
+  }
+ ],
+ "dropped_regions": [
+  "Santorini",
+  "Samos"
+ ],
+ "grapes": [
+  {
+   "name": "Assyrtiko",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Santorini kökenli, sıcak iklimde bile yüksek asiditesini koruyan, Yunanistan'ın en önemli beyaz üzümüdür.",
+    "en": "A Santorini native that keeps high acidity even in hot climates and is Greece's most important white grape."
+   }
+  },
+  {
+   "name": "Xinomavro",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Adı 'ekşi siyah' anlamına gelen, asiditesi ve tanenleri yüksek, Nebbiolo ile kıyaslanan kuzey Yunanistan üzümüdür.",
+    "en": "Its name means 'acid black'; a high-acid, tannic northern grape often compared with Nebbiolo."
+   }
+  },
+  {
+   "name": "Agiorgitiko",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Nemea'nın simge üzümü ve Yunanistan'da en çok dikilen yerel kırmızı çeşittir; roze, hafif ve yıllanabilir kırmızılar verir.",
+    "en": "Nemea's signature grape and Greece's most widely planted native red, making rosé, light and age-worthy reds."
+   }
+  },
+  {
+   "name": "Moschofilero",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Arkadya'da yetişen, gül ve baharat aromalı, pembemsi kabuklu aromatik bir çeşittir.",
+    "en": "An aromatic pink-skinned variety from Arcadia with rose and spice notes."
+   }
+  },
+  {
+   "name": "Malagousia",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Özellikle Makedonya'da yetişen, şeftali ve beyaz çiçek aromalı, Viognier'yi andıran bir beyaz üzümdür.",
+    "en": "A white grape grown especially in Macedonia, with peach and white-flower aromas reminiscent of Viognier."
+   }
+  },
+  {
+   "name": "Savatiano",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Orta Yunanistan ve Attika'nın en yaygın beyaz üzümüdür; geleneksel olarak retsinada kullanılır.",
+    "en": "The most widely planted white of central Greece and Attica, traditionally used for retsina."
+   }
+  },
+  {
+   "name": "Roditis",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Pembe kabuklu, Patras ve ülkenin birçok yerinde yetişen, narenciye ve mineral notalı bir çeşittir.",
+    "en": "A pink-skinned variety grown around Patras and across the country, with citrus and mineral notes."
+   }
+  },
+  {
+   "name": "Limnio",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Limnos adasıyla özdeşleşen, kuzey Yunanistan'da da yetişen eski bir kırmızı çeşittir.",
+    "en": "An old red variety associated with the island of Limnos and also grown in northern Greece."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Santorini PDO",
+   "desc": {
+    "tr": "Assyrtiko ağırlıklı, keskin asiditeli, tuzlu ve mineralli kuru beyazlar ve Vinsanto'yu kapsayan, 1971'de onaylanan ilk adlandırmalardan biridir.",
+    "en": "One of the first appellations, ratified in 1971, covering saline, mineral, high-acid Assyrtiko-based dry whites and Vinsanto."
+   }
+  },
+  {
+   "name": "Naoussa PDO",
+   "desc": {
+    "tr": "Yalnızca Xinomavro'dan yapılan kırmızı şaraplara ayrılmış, Yunanistan'ın en ünlü adlandırmalarından biridir.",
+    "en": "One of Greece's best-known appellations, reserved for red wines made solely from Xinomavro."
+   }
+  },
+  {
+   "name": "Nemea PDO",
+   "desc": {
+    "tr": "Agiorgitiko'dan yapılan, yumuşak ve meyvemsi kırmızılarıyla bilinen Peloponez adlandırmasıdır.",
+    "en": "The Peloponnese appellation known for soft, fruity reds made from Agiorgitiko."
+   }
+  },
+  {
+   "name": "Vinsanto",
+   "desc": {
+    "tr": "Santorini'de güneşte kurutulmuş üzümlerden yapılan, en az %51 Assyrtiko içeren ve fıçıda yıllandırılan tatlı şaraptır.",
+    "en": "A sweet Santorini wine from sun-dried grapes, with at least 51% Assyrtiko, aged in barrel."
+   }
+  },
+  {
+   "name": "Retsina",
+   "desc": {
+    "tr": "Antik çağlardan gelen, çam reçinesiyle aromalandırılmış, Yunan meyhane kültürünün simgesi olan beyaz şaraptır.",
+    "en": "An ancient white wine flavoured with pine resin, emblematic of Greek taverna culture."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Amathus Drinks - An Introduction To Greek Wines With Five Native Grapes",
+   "url": "https://www.amathusdrinks.com/an-introduction-to-greek-wines-with-five-native-grapes"
+  },
+  {
+   "title": "Greek Wine Guide: Regions, Grapes & Best Bottles (2026)",
+   "url": "https://greektriplanner.me/blog/greek-wine-guide"
+  },
+  {
+   "title": "The Wine Regions of Greece (Maps)",
+   "url": "https://winefolly.com/deep-dive/the-wine-regions-of-greece-map/"
+  },
+  {
+   "title": "5 Greek Wine Varieties to Try on Your Next Trip",
+   "url": "https://insightsgreece.com/5-greek-wine-varieties/"
+  },
+  {
+   "title": "Greek Wine Guide - Assyrtiko & Xinomavro",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/greek-wine-4-000-years-old-and-suddenly-new-again"
+  },
+  {
+   "title": "Assyrtiko, Xinomavro, Agiorgitiko: The Ultimate Guide to Greece’s Most Iconic Wine Grapes",
+   "url": "https://amazinggreekwines.com/assyrtiko-xinomavro-agiorgitiko-the-ultimate-guide-to-greeces-most-iconic-wine-grapes/"
+  },
+  {
+   "title": "Greek wine: buy wines from Greece, Assyrtiko and Xinomavro",
+   "url": "https://www.lebaroudeurduvin.com/en-us/collections/greek-wine"
+  },
+  {
+   "title": "Greek Grape Varieties: Assyrtiko, Xinomavro & Native Wines",
+   "url": "https://www.altcellars.com/en/blogs/infos/greek-indigenous-grape"
+  }
+ ]
+}

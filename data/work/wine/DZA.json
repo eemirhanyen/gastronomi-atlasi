@@ -1,0 +1,259 @@
+{
+ "iso3": "DZA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23847,
+  "out": 4161,
+  "searches": 2
+ },
+ "usd": 0.1093,
+ "summary": {
+  "tr": "Cezayir'de bağcılığın izi Fenike ve Roma dönemine kadar gider. Müslümanların fethinden sonra geriledi, 1830'dan sonra Fransız yönetiminde yeniden yaygınlaştı. Fransız sömürge döneminde ülke dünyanın en büyük şarap ihracatçılarından biri oldu ve şarapların çoğu Fransa'da harmanlarda kullanıldı. 1962'deki bağımsızlıktan sonra bağ alanları ve üretim keskin biçimde azaldı. Bugün Batı Cezayir merkezli,",
+  "en": "Viticulture in Algeria goes back to the Phoenicians and Romans. It declined after the Muslim conquests and was revived at scale under French rule from 1830. In the colonial era the country became one of the world's largest wine exporters, and much of its wine went into French blends. After independence in 1962, vineyard area and output fell sharply. Today a small industry survives, centred on west"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Coteaux de Mascara",
+   "lat": 35.4,
+   "lng": 0.3,
+   "desc": {
+    "tr": "Mascara'nın kuzeyindeki dağlık yamaçlarda, ülkenin en ünlü bağ bölgesi ve en tanınmış kırmızı şaraplarının kaynağıdır.",
+    "en": "Hillside vineyards in the mountains north of Mascara, the best-known Algerian wine area and source of its most recognised reds."
+   },
+   "grapes": [
+    "Cinsault",
+    "Carignan",
+    "Grenache",
+    "Alicante Bouschet"
+   ]
+  },
+  {
+   "name": "Coteaux de Tlemcen",
+   "lat": 34.9,
+   "lng": -1.3,
+   "desc": {
+    "tr": "Fas sınırına yakın batı yüksekliklerinde, sağlam yapılı kırmızı, rosé ve beyaz şaraplarıyla bilinir.",
+    "en": "In the western highlands near the Moroccan border, known for robust reds, rosés and whites."
+   },
+   "grapes": [
+    "Grenache",
+    "Carignan",
+    "Cinsault",
+    "Alicante Bouschet"
+   ]
+  },
+  {
+   "name": "Monts du Tessala",
+   "lat": 35.2,
+   "lng": -0.95,
+   "desc": {
+    "tr": "Wahran'ın (Oran) güneyinde, yaklaşık 600 m yükseklikte yer alır ve çoğunlukla kırmızı ve rosé şarap üretir.",
+    "en": "South of Oran at roughly 600 m altitude, producing mainly red and rosé wines."
+   },
+   "grapes": [
+    "Cinsault",
+    "Carignan",
+    "Grenache"
+   ]
+  },
+  {
+   "name": "Dahra",
+   "lat": 36.1,
+   "lng": 0.9,
+   "desc": {
+    "tr": "Akdeniz kıyısına yakın yamaçlardaki bağlarından yüksek alkollü kırmızı ve rosé şaraplar çıkar.",
+    "en": "Coastal hillside vineyards close to the Mediterranean, producing reds and rosés."
+   },
+   "grapes": [
+    "Grenache",
+    "Cinsault",
+    "Carignan",
+    "Alicante Bouschet"
+   ]
+  },
+  {
+   "name": "Médéa",
+   "lat": 36.26,
+   "lng": 2.75,
+   "desc": {
+    "tr": "Cezayir'in güneyinde 1.000 m'nin üzerindeki yüksek rakımlı bağlarıyla daha serin bir iklim sunar ve kırmızı, beyaz ve rosé şarap yapar.",
+    "en": "A high-altitude zone above 1,000 m south of Algiers, with a cooler climate and reds, whites and rosés."
+   },
+   "grapes": [
+    "Cinsault",
+    "Carignan",
+    "Grenache",
+    "Clairette"
+   ]
+  },
+  {
+   "name": "Coteaux du Zaccar",
+   "lat": 36.3,
+   "lng": 2.23,
+   "desc": {
+    "tr": "Miliana yakınındaki Zaccar Dağı yamaçlarında, ağırlıklı olarak kırmızı ve rosé şarap üretilir.",
+    "en": "Slopes of Mount Zaccar near Miliana, producing mainly reds and rosés."
+   },
+   "grapes": [
+    "Cinsault",
+    "Carignan",
+    "Grenache"
+   ]
+  },
+  {
+   "name": "Aïn Bessem-Bouira",
+   "lat": 36.3,
+   "lng": 3.7,
+   "desc": {
+    "tr": "Cezayir'in doğusunda yer alan bu bölge, güçlü kırmızı ve rosé şaraplarıyla tanınır.",
+    "en": "An area east of Algiers known for powerful reds and rosés."
+   },
+   "grapes": [
+    "Cinsault",
+    "Carignan",
+    "Grenache"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Farana",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Cezayir kökenli, tarihsel olarak beyaz şarap harmanlarında kullanılan nadir bir üzümdür.",
+    "en": "A rare Algerian-origin white grape historically used in white blends."
+   }
+  },
+  {
+   "name": "Carignan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Bağımsızlık öncesinden beri ülkenin en yaygın kırmızı üzümlerinden biridir ve koyu, sert yapılı şaraplar verir.",
+    "en": "One of the most widely planted reds since before independence, giving dark, sturdy wines."
+   }
+  },
+  {
+   "name": "Cinsault",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Sıcağa dayanıklı bu üzüm, meyvemsi kırmızı ve rosé şaraplarının temelini oluşturur.",
+    "en": "Heat-tolerant and the backbone of fruity reds and rosés."
+   }
+  },
+  {
+   "name": "Grenache",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı ve rosé harmanlara gövde ve alkol katar.",
+    "en": "Adds body and alcohol to red and rosé blends."
+   }
+  },
+  {
+   "name": "Alicante Bouschet",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Rengi koyu bir boyar üzümdür ve harmanlara derin renk kazandırır.",
+    "en": "A teinturier grape that gives blends deep colour."
+   }
+  },
+  {
+   "name": "Morastel",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Mourastel adıyla da bilinir ve yerel kırmızı harmanlarda yardımcı üzüm olarak kullanılır.",
+    "en": "Also called Mourastel, used as a supporting grape in local red blends."
+   }
+  },
+  {
+   "name": "Clairette",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Ülkenin beyaz şaraplarında kullanılan başlıca üzümlerden biridir.",
+    "en": "One of the main grapes used for the country's white wines."
+   }
+  },
+  {
+   "name": "Ugni Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hafif ve asiditesi yüksek beyaz şaraplarda Clairette ile birlikte kullanılır.",
+    "en": "Used with Clairette for light, high-acid white wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Coteaux de Mascara (VAOG)",
+   "desc": {
+    "tr": "1970'te tanımlanan yedi garantili menşe adından biridir ve baharatlı, kuru meyve aromalı, dolgun kırmızılarıyla bilinir.",
+    "en": "One of the seven guaranteed-origin appellations defined in 1970, known for full-bodied reds with spice and dried-fruit notes."
+   }
+  },
+  {
+   "name": "Coteaux de Tlemcen (VAOG)",
+   "desc": {
+    "tr": "Batıdaki bu adlandırma kırmızı, rosé ve beyaz şaraplarda sağlam yapılı üslubuyla öne çıkar.",
+    "en": "A western appellation noted for robust wines in all three colours."
+   }
+  },
+  {
+   "name": "Médéa (VAOG)",
+   "desc": {
+    "tr": "Yüksek rakımlı bu adlandırma, Cezayir'in kuzey-merkezinde daha yumuşak yapılı kırmızı, beyaz ve rosé şaraplar sunar.",
+    "en": "A high-altitude appellation in north-central Algeria with softer reds, whites and rosés."
+   }
+  },
+  {
+   "name": "Cinsault bazlı rosé ve gris şaraplar",
+   "desc": {
+    "tr": "Sıcak iklimde yetişen Cinsault ve Grenache'tan yapılan rosé ve gris şaraplar, ülkenin ihracata uygun şaraplarındandır.",
+    "en": "Rosé and gris wines from sun-ripened Cinsault and Grenache, among the country's more export-friendly styles."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "The History of Wine in Algeria",
+   "url": "https://www.wine-searcher.com/regions-algeria"
+  },
+  {
+   "title": "Encyclopedia of Wine > Algeria - Cavesa.ch",
+   "url": "https://www.cavesa.ch/en/definition/algeria"
+  },
+  {
+   "title": "Wines of Algeria",
+   "url": "https://wineauctioneer.com/learn/explore-wine/geography/algeria"
+  },
+  {
+   "title": "Algeria Wine Regions, Viticulture and Grape Growing Areas",
+   "url": "https://www.wineandvinesearch.com/algeria.php"
+  },
+  {
+   "title": "Algerian wine",
+   "url": "https://en.wikipedia.org/wiki/Algerian_wine"
+  },
+  {
+   "title": "Algeria Wine History At its height, Algerian wine production was 550 million gallons (2,000 million l) from almost 1 million...",
+   "url": "https://www.tumblr.com/winetumbler/22331366980/algeria-wine-history-at-its-height-algerian-wine"
+  },
+  {
+   "title": "algeria - wine tumbler",
+   "url": "https://www.tumblr.com/winetumbler/tagged/algeria"
+  },
+  {
+   "title": "Wines of Algeria",
+   "url": "https://winography.net/countries/algeria/"
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "iso3": "BEL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22718,
+  "out": 4053,
+  "searches": 2
+ },
+ "usd": 0.106,
+ "summary": {
+  "tr": "Belçika'da bağcılık, Meuse (Maas) vadisinde 7.–9. yüzyıllarda manastırlar eliyle başladı. 1960'lı yıllardan sonra yeniden canlandı ve 1997'den itibaren Hageland ile başlayan korumalı menşe adlandırmaları kuruldu. Üretim hâlâ küçük ama hızla büyüyor: 2025'te yaklaşık 4,3 milyon litre şarap, 1.040 hektar bağ alanı ve yaklaşık 350 üretici var. Üretimde köpüklü ve beyaz şaraplar öne çıkıyor.",
+  "en": "Viticulture in Belgium began in the Meuse valley in the 7th–9th centuries under monastic influence. It was revived from the 1960s, and protected appellations began with Hageland in 1997. Production is still small but growing fast: in 2025 Belgium made about 4.3 million litres from 1,040 hectares, with around 350 growers. Sparkling and white wines lead output."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Hageland",
+   "lat": 50.93,
+   "lng": 4.88,
+   "desc": {
+    "tr": "Flaman Brabant'ta, demirli kumlu tepelerde yer alan Belçika'nın ilk resmî şarap bölgesidir (1997); taze beyazlar ve geleneksel yöntem köpüklüleriyle bilinir.",
+    "en": "Belgium's first officially recognised wine appellation (1997), set on ironstone-rich sandy hills in Flemish Brabant and known for fresh whites and traditional-method sparkling wines."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Auxerrois",
+    "Pinot Blanc",
+    "Dornfelder"
+   ]
+  },
+  {
+   "name": "Haspengouw",
+   "lat": 50.8,
+   "lng": 5.34,
+   "desc": {
+    "tr": "Limburg'da, Hollanda sınırına yakın, derin lös topraklı meyve bahçeleri bölgesidir; Belçika'nın en tanınmış şarap şatosu Genoels-Elderen de burada yer alır.",
+    "en": "A loess-soil fruit-growing area in Limburg near the Dutch border, home to Wijnkasteel Genoels-Elderen, Belgium's best-known wine château."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Auxerrois",
+    "Johanniter"
+   ]
+  },
+  {
+   "name": "Heuvelland",
+   "lat": 50.78,
+   "lng": 2.8,
+   "desc": {
+    "tr": "Batı Flandre'da Kemmelberg ve Monteberg gibi tepelerde yer alan, Fransa sınırına yakın ve serin iklimli bir Flaman adlandırmasıdır.",
+    "en": "A Flemish appellation in West Flanders on hills such as the Kemmelberg and Monteberg, close to the French border."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Pinot Gris",
+    "Auxerrois"
+   ]
+  },
+  {
+   "name": "Côtes de Sambre et Meuse",
+   "lat": 50.4,
+   "lng": 4.75,
+   "desc": {
+    "tr": "Sambre ve Meuse vadilerini kapsayan, kireçtaşı, şist ve kil topraklı Valon adlandırmasıdır.",
+    "en": "A Walloon appellation covering the Sambre and Meuse valleys, on limestone, shale and clay soils."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Auxerrois",
+    "Pinot Gris"
+   ]
+  },
+  {
+   "name": "Wallonia (Crémant de Wallonie)",
+   "lat": 50.35,
+   "lng": 4.95,
+   "desc": {
+    "tr": "Valonya, yoğun dikimle geleneksel yöntem köpüklü şaraba odaklanır ve Belçika'nın en büyük şarap üretimini yapar.",
+    "en": "Wallonia focuses on densely planted vineyards for traditional-method sparkling wine and produces the larger share of Belgian wine."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Pinot Noir",
+    "Pinot Meunier"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Belçika'da en çok dikilen çeşittir ve köpüklü ile durgun şarapların temelini oluşturur.",
+    "en": "The most widely planted grape in Belgium, the backbone of both sparkling and still wines."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Hafif gövdeli kırmızılar ve köpüklü şarap bazları için kullanılan başlıca kırmızı üzümdür.",
+    "en": "The main red grape, used for light-bodied reds and as a base for sparkling wine."
+   }
+  },
+  {
+   "name": "Auxerrois",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Flandre'da yaygın, yumuşak ve meyvemsi beyaz şaraplar veren bir çeşittir.",
+    "en": "A widely grown variety in Flanders that gives soft, fruity white wines."
+   }
+  },
+  {
+   "name": "Johanniter",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hastalıklara dayanıklı melez (PIWI) bir çeşittir ve Belçika'da giderek daha çok tercih edilmektedir.",
+    "en": "A disease-resistant interspecific (PIWI) variety increasingly favoured by Belgian growers."
+   }
+  },
+  {
+   "name": "Souvignier Gris",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı-gri kabuklu, hastalığa dayanıklı melez bir çeşittir ve yeni dikimlerde öne çıkmaktadır.",
+    "en": "A disease-resistant interspecific grape with grey-pink skins, gaining ground in new plantings."
+   }
+  },
+  {
+   "name": "Rivaner (Müller-Thurgau)",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "1960'lardaki bağcılık canlanmasında kullanılan Alman kökenli çeşitlerden biridir.",
+    "en": "One of the German-bred varieties used in the 1960s revival of Belgian viticulture."
+   }
+  },
+  {
+   "name": "Dornfelder",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Hageland'da hafif, meyvemsi ve yumuşak tanenli kırmızılar için kullanılan Alman kökenli bir çeşittir.",
+    "en": "A German-bred red grape used in Hageland for light, fruity reds with soft tannins."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Crémant de Wallonie",
+   "desc": {
+    "tr": "Valonya'nın geleneksel yöntemle üretilen köpüklü şarabıdır ve ülkenin en hızlı büyüyen kategorisini temsil eder.",
+    "en": "Wallonia's traditional-method sparkling wine, representing the country's fastest-growing category."
+   }
+  },
+  {
+   "name": "Vlaamse mousserende kwaliteitswijn",
+   "desc": {
+    "tr": "2005'te oluşturulmuş, Flandre'a özgü kaliteli köpüklü şarap adlandırmasıdır.",
+    "en": "The Flemish quality sparkling wine appellation, created in 2005."
+   }
+  },
+  {
+   "name": "Hagelandse Wijn",
+   "desc": {
+    "tr": "Belçika'nın ilk korumalı menşe adlandırmasıdır (1997); taze beyaz, hafif kırmızı ve köpüklü şaraplar kapsar.",
+    "en": "Belgium's first protected appellation (1997), covering fresh whites, light reds and sparkling wines."
+   }
+  },
+  {
+   "name": "Côtes de Sambre et Meuse",
+   "desc": {
+    "tr": "Sambre ve Meuse vadilerinde üretilen şaraplar için kullanılan Valon korumalı menşe adlandırmasıdır.",
+    "en": "The Walloon protected designation for wines from the Sambre and Meuse valleys."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "coins and more: 2355) Viticulture in Belgium: bpost (Belgian Post) has issued a set of five stamps celebrating the five major wine regions o",
+   "url": "https://exclusivecoins.blogspot.com/2022/05/2355-viticulture-in-belgium-bpost.html"
+  },
+  {
+   "title": "Belgium",
+   "url": "https://wineguide.wein.plus/wine-regions/belgium"
+  },
+  {
+   "title": "Belgian wine",
+   "url": "https://en.wikipedia.org/wiki/Belgian_wine"
+  },
+  {
+   "title": "The appellations",
+   "url": "https://www.vindeliege.be/en/vines-in-belgium/the-appellations/"
+  },
+  {
+   "title": "History",
+   "url": "https://www.vindeliege.be/en/vines-in-belgium/history/"
+  },
+  {
+   "title": "Belgian Wine",
+   "url": "https://eno.news/appellations/belgian-wine"
+  },
+  {
+   "title": "Roving Somm: Belgian wine: controlled designations of origin and protected geographical indications",
+   "url": "https://www.rovingsomm.com/2017/01/controlled-designations-of-origin-and.html"
+  },
+  {
+   "title": "Belgium Wine: A Guide To Terroir, Regions , And Grapes",
+   "url": "https://winetoursearcher.com/wine-guide/europe/western-europe/belgium/"
+  }
+ ]
+}

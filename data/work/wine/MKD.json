@@ -1,0 +1,248 @@
+{
+ "iso3": "MKD",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 14902,
+  "out": 4242,
+  "searches": 1
+ },
+ "usd": 0.0822,
+ "summary": {
+  "tr": "Kuzey Makedonya'da Vardar Nehri vadisinde, özellikle Tikveş çevresinde, 2.500 yılı aşkın süredir şarap üretilmektedir. Ülkenin en büyük ve en eski şaraphanesi 1885'te kurulan Tikveş'tir. Bugün üretimde Vranec ağırlıklı kırmızılar ile Smederevka gibi bol üretilen beyaz üzümler öne çıkar. Ülke Balkanlar'ın önemli şarap ihracatçılarından biridir.",
+  "en": "Wine has been made in North Macedonia's Vardar River valley, above all around Tikveš, for more than 2,500 years. The country's oldest and largest winery, Tikveš, was founded in 1885. Today production is led by Vranec-based reds and widely planted whites such as Smederevka. The country is one of the Balkans' notable wine exporters."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Tikveš",
+   "lat": 41.43,
+   "lng": 22.01,
+   "desc": {
+    "tr": "Kavadarci ve Negotino çevresindeki Tikveş, ülkenin üretim merkezidir; Vranec ve Kratošija ile tanınır.",
+    "en": "Centred on Kavadarci and Negotino, Tikveš is the country's production heartland, known for Vranec and Kratošija."
+   },
+   "grapes": [
+    "Vranec",
+    "Kratošija",
+    "Smederevka",
+    "Temjanika"
+   ]
+  },
+  {
+   "name": "Barovo",
+   "lat": 41.3,
+   "lng": 21.95,
+   "desc": {
+    "tr": "Kozuf Dağı eteklerindeki Barovo, Tikveş'in en prestijli bağ alt bölgelerinden biridir.",
+    "en": "Barovo, at the foot of Mount Kozuf, is one of Tikveš's most prestigious vineyard sub-areas."
+   },
+   "grapes": [
+    "Vranec",
+    "Kratošija",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Gevgelija-Valandovo",
+   "lat": 41.2,
+   "lng": 22.5,
+   "desc": {
+    "tr": "Güneydeki sıcak, Akdeniz etkili bu bağ bölgesi olgun kırmızı şaraplara elverişlidir.",
+    "en": "This warm, Mediterranean-influenced southern district suits ripe red wines."
+   },
+   "grapes": [
+    "Vranec",
+    "Merlot",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Strumica-Radoviš",
+   "lat": 41.5,
+   "lng": 22.65,
+   "desc": {
+    "tr": "Güneydoğudaki Strumica-Radoviş, Vardar vadisi dışındaki daha küçük ama gelişen bir bağ bölgesidir.",
+    "en": "Strumica-Radoviš in the southeast is a smaller but growing district beyond the main Vardar corridor."
+   },
+   "grapes": [
+    "Vranec",
+    "Smederevka",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Veles",
+   "lat": 41.72,
+   "lng": 21.77,
+   "desc": {
+    "tr": "Vardar vadisinin ortasındaki Veles, Povardarie'nin kuzey kesimindeki bağ alanlarını kapsar.",
+    "en": "Veles, in the middle of the Vardar valley, covers vineyards in the northern part of Povardarie."
+   },
+   "grapes": [
+    "Vranec",
+    "Smederevka",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Kočani-Vinica",
+   "lat": 41.9,
+   "lng": 22.4,
+   "desc": {
+    "tr": "Doğudaki Kočani-Vinica, ülkenin başlıca bağ alt bölgelerinden biridir.",
+    "en": "Kočani-Vinica in the east is one of the country's recognised wine sub-regions."
+   },
+   "grapes": [
+    "Vranec",
+    "Smederevka"
+   ]
+  },
+  {
+   "name": "Skopje-Ovče Pole",
+   "lat": 41.95,
+   "lng": 21.7,
+   "desc": {
+    "tr": "Başkent çevresindeki Skopje ve Ovče Pole bağları, kuzeydeki serin bağ alanlarını oluşturur.",
+    "en": "The vineyards around the capital, in Skopje and Ovče Pole, form the cooler northern part of the Vardar wine area."
+   },
+   "grapes": [
+    "Vranec",
+    "Chardonnay",
+    "Merlot"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Stanušina",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Makedonya'ya özgü, az yetiştirilen yerli bir kırmızı üzümdür.",
+    "en": "A rare red grape considered indigenous to Macedonia."
+   }
+  },
+  {
+   "name": "Vranec",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Karadağ kökenli olan Vranec, ülkenin en önemli üzümüdür ve koyu renkli, tanenli, gövdeli şaraplar verir.",
+    "en": "Of Montenegrin origin, Vranec is the country's most important grape, giving dark, tannic, full-bodied wines."
+   }
+  },
+  {
+   "name": "Kratošija",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Tribidrag (Zinfandel) ile özdeş olan Kratošija, Vranec ile sık harmanlanır.",
+    "en": "Identical to Tribidrag (Zinfandel), Kratošija is often blended with Vranec."
+   }
+  },
+  {
+   "name": "Smederevka",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Ülkede çok geniş alanda yetiştirilen bu beyaz üzüm, taze ve ferah şaraplar verir.",
+    "en": "This widely planted white grape yields fresh, crisp wines."
+   }
+  },
+  {
+   "name": "Temjanika",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Muscat Blanc à Petits Grains'in yerel adıdır; aromatik, çiçeksi beyaz şaraplar verir.",
+    "en": "The local name for Muscat Blanc à Petits Grains, it gives aromatic, floral white wines."
+   }
+  },
+  {
+   "name": "Žilavka",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hersek kökenli bu beyaz üzüm, Vardar vadisinde ferah beyaz şaraplar için kullanılır.",
+    "en": "A white grape of Herzegovinian origin, used in the Vardar valley for crisp whites."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Vranec'in yanında en yaygın uluslararası kırmızı çeşitlerden biridir.",
+    "en": "One of the most common international red varieties alongside Vranec."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ülkede geniş alanda yetiştirilen yumuşak içimli uluslararası bir kırmızı çeşittir.",
+    "en": "A widely planted, soft international red variety in the country."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Vranec",
+   "desc": {
+    "tr": "Tek çeşit Vranec şarapları, koyu meyve ve baharat aromalı, gövdeli kırmızılardır ve ülkenin imza şarabı sayılır.",
+    "en": "Varietal Vranec wines are full-bodied reds with dark fruit and spice, and they serve as the country's signature wine."
+   }
+  },
+  {
+   "name": "Vranec-Kratošija blend",
+   "desc": {
+    "tr": "Tikveş'in Barovo bağlarından gelen Vranec ve Kratošija harmanı, üreticinin en üst düzey kırmızılarından biridir.",
+    "en": "A Vranec and Kratošija blend from Tikveš's Barovo vineyards, which is among the top reds of the leading producer."
+   }
+  },
+  {
+   "name": "Smederevka and Temjanika whites",
+   "desc": {
+    "tr": "Smederevka ve Temjanika'dan yapılan beyazlar taze, aromatik ve genellikle gündelik içimlik şaraplardır.",
+    "en": "Whites from Smederevka and Temjanika are fresh, aromatic and usually everyday drinking wines."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "All You Need To Know About North Macedonian Wine",
+   "url": "https://www.chasingthedonkey.com/macedonian-wine-from-macedonia-travel-blog/"
+  },
+  {
+   "title": "Tikves Wine Region",
+   "url": "https://www.wine-searcher.com/regions-tikves"
+  },
+  {
+   "title": "Vardar River Valley Wine Region - Buy Wines From North Macedonia",
+   "url": "https://vinovoss.com/regions/vardar-river-valley-north-macedonia/"
+  },
+  {
+   "title": "North Macedonia",
+   "url": "https://wineguide.wein.plus/wine-regions/north-macedonia"
+  },
+  {
+   "title": "Tikve%C5%A1 plain",
+   "url": "https://en.wikipedia.org/wiki/Tikve%C5%A1_plain"
+  },
+  {
+   "title": "Tikveš - winery in Macedonian Republic",
+   "url": "https://www.wine-searcher.com/merchant/51927-tikves"
+  },
+  {
+   "title": "Tikves Wine District 2026",
+   "url": "https://www.winetourism.com/wine-appellation/tikves-wine-district/"
+  },
+  {
+   "title": "Vranac",
+   "url": "https://en.wikipedia.org/wiki/Vranac"
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "iso3": "COL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 14557,
+  "out": 3467,
+  "searches": 1
+ },
+ "usd": 0.0738,
+ "summary": {
+  "tr": "Kolombiya'da şarapçılık küçük ama büyüyen bir sektördür. Tropikal iklim ve And Dağları'nın yüksek rakımlı vadilerine uyum sağlamış üzüm çeşitleriyle üretim yapılır. Ana üretim alanları Valle del Cauca, Boyacá ve Antioquia'dır; Casa Grajales gibi köklü şirketler ile Villa de Leyva çevresindeki butik bağlar sektörün öne çıkan örnekleridir.",
+  "en": "Colombia has a small but growing wine industry. Producers rely on grape varieties adapted to the tropical climate and to high-altitude Andean valleys. The main areas are Valle del Cauca, Boyacá and Antioquia. Established firms such as Casa Grajales and boutique vineyards around Villa de Leyva are the best-known examples."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "La Unión (Valle del Cauca)",
+   "lat": 4.53,
+   "lng": -76.1,
+   "desc": {
+    "tr": "'Kolombiya'nın şarap başkenti' sayılan La Unión, tropik iklime uyumlu çeşitlerle şarap üreten Casa Grajales'e ev sahipliği yapar.",
+    "en": "Called the wine capital of Colombia, La Unión is home to Casa Grajales, which makes wine from varieties adapted to the tropical climate."
+   },
+   "grapes": [
+    "Isabella",
+    "Cabernet Sauvignon",
+    "Malbec"
+   ]
+  },
+  {
+   "name": "Villa de Leyva (Boyacá)",
+   "lat": 5.63,
+   "lng": -73.53,
+   "desc": {
+    "tr": "Daha serin ve kurak iklimi sayesinde, Ain Karim ve Marqués de Villa de Leyva gibi bağlarıyla Kolombiya'nın en tanınmış yüksek rakımlı şarap yöresidir.",
+    "en": "Its cooler, drier climate makes it Colombia's best-known high-altitude wine area, with vineyards such as Ain Karim and Marqués de Villa de Leyva."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Nobsa – Sutamarchán (Boyacá)",
+   "lat": 5.77,
+   "lng": -72.94,
+   "desc": {
+    "tr": "Boyacá'nın bu kesimi, Marqués de Puntalarga gibi yüksek rakımlı bağlarda Pinot Noir ve Riesling gibi serin iklim çeşitleriyle bilinir.",
+    "en": "This part of Boyacá is known for high-altitude vineyards such as Marqués de Puntalarga, which grow cool-climate varieties like Pinot Noir and Riesling."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Riesling"
+   ]
+  },
+  {
+   "name": "Olaya (Antioquia)",
+   "lat": 6.63,
+   "lng": -75.82,
+   "desc": {
+    "tr": "Medellín yakınındaki Olaya, Viña Sicilia gibi küçük üreticilerin kırmızı şaraplarıyla öne çıkan yeni bir şarap yöresidir.",
+    "en": "Olaya, near Medellín, is an emerging wine area where small producers such as Viña Sicilia make mainly red wines."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Syrah"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Isabella",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Amerikan kökenli bu melez çeşit tropik nemli iklimlere dayanıklıdır ve Valle del Cauca'da yaygın olarak yetiştirilir.",
+    "en": "This American-origin hybrid tolerates humid tropical climates and is widely grown in Valle del Cauca."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Boyacá, Antioquia ve Valle del Cauca'da yetiştirilen, Kolombiya'nın en yaygın kırmızı çeşitlerinden biridir.",
+    "en": "One of Colombia's most widely planted red varieties, grown in Boyacá, Antioquia and Valle del Cauca."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Villa de Leyva ve Antioquia'daki bağlarda kırmızı şaraplarda kullanılır.",
+    "en": "Used for red wines in the vineyards of Villa de Leyva and Antioquia."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Antioquia'daki bağlarda yetiştirilen kırmızı bir çeşittir.",
+    "en": "A red variety grown in Antioquia's vineyards."
+   }
+  },
+  {
+   "name": "Malbec",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Valle del Cauca'daki küçük projelerde Cabernet Sauvignon ile birlikte yetiştirilir.",
+    "en": "Grown alongside Cabernet Sauvignon in small projects in Valle del Cauca."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Boyacá'nın yüksek rakımlı bağlarında yetiştirilen serin iklim çeşididir.",
+    "en": "A cool-climate variety grown in Boyacá's high-altitude vineyards."
+   }
+  },
+  {
+   "name": "Sauvignon Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Villa de Leyva çevresinde üretilen başlıca beyaz çeşittir.",
+    "en": "The main white variety made around Villa de Leyva."
+   }
+  },
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Boyacá'nın serin ve yüksek bağlarında yetiştirilen beyaz bir çeşittir.",
+    "en": "A white variety grown in Boyacá's cool, high vineyards."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Marqués de Villa de Leyva",
+   "desc": {
+    "tr": "Ain Karim bağlarının markasıdır ve özellikle Cabernet Sauvignon ile Merlot şarapları uluslararası alanda tanınmıştır.",
+    "en": "The brand of the Ain Karim vineyard, with Cabernet Sauvignon and Merlot wines that have gained international recognition."
+   }
+  },
+  {
+   "name": "Tropik iklim şarapları (La Unión) / Tropical-climate wines (La Unión)",
+   "desc": {
+    "tr": "Valle del Cauca'da tropik koşullara uyumlu çeşitlerle, büyük ölçekte üretilen şaraplardır.",
+    "en": "Wines made at large scale in Valle del Cauca from varieties adapted to tropical conditions."
+   }
+  },
+  {
+   "name": "Yüksek rakımlı And şarapları / High-altitude Andean wines",
+   "desc": {
+    "tr": "Boyacá'nın serin ve kurak yaylalarında yetişen, Cabernet, Merlot, Pinot Noir ve Riesling gibi çeşitlerden yapılan şaraplardır.",
+    "en": "Wines from Boyacá's cool, dry highlands, made from varieties such as Cabernet, Merlot, Pinot Noir and Riesling."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Explore 9 Must-Visit Vineyards in Colombia",
+   "url": "https://pelecanus.com.co/en/vineyards-colombia/"
+  },
+  {
+   "title": "Marqués de Villa de Leyva Winery",
+   "url": "https://www.vivino.com/en/wineries/marques-de-villa-de-leyva"
+  },
+  {
+   "title": "Colombian Wine: The Vineyards of Villa de Leyva",
+   "url": "https://nomadicniko.com/colombia/villa-de-leyva/colombian-wine/"
+  },
+  {
+   "title": "Grape National Park: An Agricultural Experience in La Unión",
+   "url": "https://nomadicniko.com/colombia/la-union/grape-national-park/"
+  },
+  {
+   "title": "Colombia Wine Market Size, Share, Growth",
+   "url": "https://www.expertmarketresearch.com/reports/colombia-wine-market"
+  },
+  {
+   "title": "Colombian Wine: A Visit to the Gorgeous Marqués de Villa de Leyva Vineyards & Winery - wareontheglobe",
+   "url": "https://wareontheglobe.com/2016/05/18/colombian-wine-a-visit-to-the-gorgous-marques-de-villa-de-levya-vineyards-winery/"
+  },
+  {
+   "title": "Colombia Between Wines and Mountains",
+   "url": "https://www.eco-rolling.com/en/experiences/colombia-vinos"
+  },
+  {
+   "title": "Encantadores viñedos para visitar en Villa de Leyva",
+   "url": "https://www.alcestre.com/en/vi%C3%B1edos-villa-de-leyva"
+  }
+ ]
+}

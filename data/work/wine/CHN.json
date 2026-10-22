@@ -1,0 +1,262 @@
+{
+ "iso3": "CHN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24354,
+  "out": 4741,
+  "searches": 2
+ },
+ "usd": 0.1161,
+ "summary": {
+  "tr": "Çin'de üzüm yetiştiriciliği ve şarapçılık yaklaşık iki bin yıllık bir geçmişe sahiptir. Modern sektör ise Changyu'nun 1892'de Yantai'da kurulmasıyla başlamış ve 1980'lerden itibaren hızla büyümüştür. Bugün Ningxia, Shandong, Hebei, Xinjiang ve Yunnan öne çıkan bölgelerdir. Üretim ağırlıkla Cabernet Sauvignon gibi Bordeaux üzüm çeşitlerine dayanır. Ningxia'daki Helan Dağı eteklerinde ise uluslarara",
+  "en": "Grape growing and winemaking in China go back roughly two thousand years. The modern industry began with the founding of Changyu in Yantai in 1892 and has grown rapidly since the 1980s. Ningxia, Shandong, Hebei, Xinjiang and Yunnan are the leading regions. Production leans heavily on Bordeaux varieties, above all Cabernet Sauvignon. The foothills of the Helan Mountains in Ningxia produce prestigio"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ningxia (Helan Mountain East)",
+   "lat": 38.3,
+   "lng": 106.0,
+   "desc": {
+    "tr": "Helan Dağı'nın doğu eteklerinde, Sarı Nehir'le sulanan, yüksek rakımlı ve güneşli bu bölge Çin'in en çok ödül alan ve en prestijli şarap bölgesidir.",
+    "en": "On the eastern foothills of the Helan Mountains, irrigated by the Yellow River, this high-altitude, sunny region is China's most acclaimed and prestigious wine area."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Marselan",
+    "Cabernet Gernischt",
+    "Merlot",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Shandong (Yantai–Penglai)",
+   "lat": 37.6,
+   "lng": 120.8,
+   "desc": {
+    "tr": "Çin şarapçılığının en eski merkezidir. Changyu'nun bulunduğu Yantai–Penglai kıyı şeridi nemli ve muson etkili bir iklime sahiptir.",
+    "en": "The historic heart of Chinese winemaking, where the Yantai–Penglai coast, home to Changyu, has a humid, monsoon-influenced climate."
+   },
+   "grapes": [
+    "Cabernet Gernischt",
+    "Cabernet Sauvignon",
+    "Marselan",
+    "Chardonnay",
+    "Riesling"
+   ]
+  },
+  {
+   "name": "Hebei (Huailai)",
+   "lat": 40.4,
+   "lng": 115.5,
+   "desc": {
+    "tr": "Pekin'in çevresindeki bu bölge, Great Wall gibi büyük üreticilere ve Huailai vadisine ev sahipliği yapar. Kıtasal iklimi sıcak yazlar ve soğuk kışlarla belirlenir.",
+    "en": "Surrounding Beijing, this region hosts major producers such as Great Wall and the Huailai valley, with a continental climate of hot summers and cold winters."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay",
+    "Longyan"
+   ]
+  },
+  {
+   "name": "Xinjiang",
+   "lat": 43.9,
+   "lng": 86.0,
+   "desc": {
+    "tr": "Kuzeybatıdaki geniş bölge, Çin'in en büyük bağ alanlarından birine sahiptir. Turpan ve Manas çevresindeki bağlar, kuru ve güneşli bir iklimden yararlanır.",
+    "en": "A vast northwestern region with one of China's largest vineyard areas, with vines around Turpan and Manas benefiting from a dry, sunny climate."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Marselan",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Yunnan (Shangri-La)",
+   "lat": 28.1,
+   "lng": 99.2,
+   "desc": {
+    "tr": "Tibet sınırı yakınındaki Himalaya eteklerinde, 2.000 metrenin üzerindeki bağlarda ince ve ferah şaraplar üretilir.",
+    "en": "In the Himalayan foothills near the Tibetan border, vineyards above 2,000 metres produce fresh, finely structured wines."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Cabernet Franc",
+    "Chardonnay",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "Shanxi",
+   "lat": 37.5,
+   "lng": 112.4,
+   "desc": {
+    "tr": "İç kesimdeki Shanxi, yüksek rakımı ve kıtasal iklimiyle kaliteli şarap üretimiyle anılan yükselen bir bölgedir.",
+    "en": "Inland Shanxi is a rising region associated with quality wine, thanks to its altitude and continental climate."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Liaoning (Huanren)",
+   "lat": 41.3,
+   "lng": 125.4,
+   "desc": {
+    "tr": "Kuzeydoğunun soğuk kışları, özellikle Altın Vadi (Golden Valley) çevresinde buzlu şarap (icewine) üretimiyle tanınır.",
+    "en": "The cold winters of the northeast make Liaoning known for icewine, especially around Golden Valley."
+   },
+   "grapes": [
+    "Vidal",
+    "Beibinghong",
+    "Cabernet Sauvignon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Longyan (Ejderha Gözü)",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kuzey Çin'de, özellikle Hebei'de yetiştirilen geleneksel bir sofralık ve şaraplık beyaz üzümdür.",
+    "en": "A traditional white grape of northern China, especially Hebei, used both as a table grape and for wine."
+   }
+  },
+  {
+   "name": "Beibinghong",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kuzeydoğu Çin'in dondurucu kışlarına dayanıklıdır. Vitis amurensis melezi olan bu kırmızı üzüm, buzlu şarap yapımında kullanılır.",
+    "en": "A cold-hardy red hybrid involving Vitis amurensis, bred in northeast China and used for icewine."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Çin'de \"kral\" kabul edilen, ülke genelinde en yaygın ve en önemli kırmızı çeşittir.",
+    "en": "Regarded as the king of Chinese grapes, it is the most widely planted and important red variety nationwide."
+   }
+  },
+  {
+   "name": "Cabernet Gernischt",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Aslında Carménère olduğu anlaşılan bu çeşit, 19. yüzyıldan beri Çin'de yetiştirilir ve ülkenin imza kırmızılarından biri sayılır. Otsu ve baharatlı, orta gövdeli şaraplar verir.",
+    "en": "Identified as Carménère, it has long been grown in China and is a signature red, giving herbal, spicy, medium-bodied wines."
+   }
+  },
+  {
+   "name": "Marselan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Cabernet Sauvignon ile Grenache'ın melezi olan bu çeşit, özellikle Ningxia'da başarılı sonuçlar verir.",
+    "en": "A Cabernet Sauvignon × Grenache cross that has found a comfortable home in Ningxia in particular."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Cabernet Sauvignon ile sıkça harmanlanan, yumuşak yapılı şaraplar veren yaygın bir çeşittir.",
+    "en": "A widely planted variety, often blended with Cabernet Sauvignon to give softer, rounder wines."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Ningxia ve Yunnan başta olmak üzere birçok bölgede yetiştirilen, Çin'in en önemli beyaz çeşitlerinden biridir.",
+    "en": "One of China's main white varieties, grown in many regions and especially promising in Ningxia and Yunnan."
+   }
+  },
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Shandong ve Ningxia'da yetiştirilen, ferah asiditeli beyaz şaraplar üreten bir çeşittir.",
+    "en": "Grown in Shandong and Ningxia, it makes white wines with crisp acidity."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Helan Mountain East (Helan Shan Dong Lu)",
+   "desc": {
+    "tr": "Ningxia'daki bu coğrafi işaret, 2013'te Bordeaux'nun 1855 sınıflandırmasından esinlenen bir şato derecelendirme sistemi kurmuştur. Bu sistem Çin'de benzersizdir.",
+    "en": "This Ningxia geographical indication introduced a château classification modelled on Bordeaux's 1855 system in 2013, which is unique in China."
+   }
+  },
+  {
+   "name": "Cabernet Gernischt ve Cabernet Sauvignon harmanları",
+   "desc": {
+    "tr": "Shandong ve Ningxia'da yapılan bu kırmızı şaraplar, Çin şarabının en tanınmış tarzlarındandır.",
+    "en": "These red blends from Shandong and Ningxia are among the best-known styles of Chinese wine."
+   }
+  },
+  {
+   "name": "Buzlu şarap (Icewine)",
+   "desc": {
+    "tr": "Liaoning gibi kuzeydoğu bölgelerinde Vidal ve Beibinghong ile yapılan tatlı şaraplardır.",
+    "en": "Sweet wines made in northeastern regions such as Liaoning from Vidal and Beibinghong."
+   }
+  },
+  {
+   "name": "Yunnan yüksek rakım şarapları",
+   "desc": {
+    "tr": "Shangri-La çevresinde, çoğu 2.000 metrenin üzerindeki bağlardan elde edilen, Ao Yun gibi prestijli üreticileri barındıran şaraplardır.",
+    "en": "Wines from vineyards around Shangri-La, mostly above 2,000 metres, home to prestigious producers such as Ao Yun."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "China - Regional Wine, Beer & Spirits",
+   "url": "https://www.wine-searcher.com/regions-china"
+  },
+  {
+   "title": "Chinese Wine Explained: guide to China’s regions, vineyards & winemakers",
+   "url": "https://cluboenologique.com/story/chinese-wine-explained/"
+  },
+  {
+   "title": "A Primer to Chinese Wine (Regional Guide with Maps)",
+   "url": "https://winefolly.com/deep-dive/a-primer-to-chinese-wine-regional-guide-with-maps/"
+  },
+  {
+   "title": "Chinese wine regions",
+   "url": "https://www.decanterchina.com/en/regions/china/"
+  },
+  {
+   "title": "China - Wine Regions",
+   "url": "https://vineyards.com/wine-region/china"
+  },
+  {
+   "title": "China Wine Regions Explained",
+   "url": "https://londonwinecompetition.com/en/blog/insights-1/china-wine-regions-explained-398.htm"
+  },
+  {
+   "title": "Ningxia wine",
+   "url": "https://en.wikipedia.org/wiki/Ningxia_wine"
+  },
+  {
+   "title": "Guide to Wine Growing Regions in China",
+   "url": "https://www.bloomandsong.com/hong-kong-wedding-flowers/guide-to-wine-growing-regions-in-china"
+  }
+ ]
+}

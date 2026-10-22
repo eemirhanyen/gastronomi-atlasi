@@ -1,0 +1,246 @@
+{
+ "iso3": "MAR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24547,
+  "out": 4766,
+  "searches": 2
+ },
+ "usd": 0.1168,
+ "summary": {
+  "tr": "Fas'ta bağcılığın izi Fenike dönemine kadar gider; asıl büyük genişleme 1912-1956 Fransız Himayesi döneminde yaşanmış, 1950'lerde üretim zirveye çıkmıştır. Bağcılık bağımsızlık sonrasında geriledi, ardından 1960'lardan itibaren Brahim Zniber'in Celliers de Meknès'i ve 1990'lardaki yabancı yatırımlarla yeniden canlandı. Bugün üretim büyük ölçüde Fas Atlas dağlarının eteklerinde ve Atlantik kıyısınd",
+  "en": "Vines reached Morocco with the Phoenicians, but viticulture expanded massively under the French Protectorate (1912-1956), and production peaked in the 1950s. The industry declined after independence. It was rebuilt from the 1960s by Brahim Zniber's Celliers de Meknès and by foreign investment in the 1990s. Today vineyards lie mainly in the Atlas foothills and along the Atlantic coast, about three "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Meknès-Saïss",
+   "lat": 33.85,
+   "lng": -5.5,
+   "desc": {
+    "tr": "Orta Atlas eteklerindeki yüksek rakımlı bu bölge Fas şarabının merkezidir; Guerrouane ve Beni M'Tir AOG'leri ile Coteaux de l'Atlas AOC'sine ev sahipliği yapar.",
+    "en": "This high-altitude area in the Middle Atlas foothills is the heartland of Moroccan wine, home to the Guerrouane and Beni M'Tir AOGs and the Coteaux de l'Atlas AOC."
+   },
+   "grapes": [
+    "Cinsault",
+    "Grenache",
+    "Syrah",
+    "Cabernet Sauvignon",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Berkane (Oriental)",
+   "lat": 34.92,
+   "lng": -2.32,
+   "desc": {
+    "tr": "Cezayir sınırına yakın doğu bölgesi, sıcak ve kurak iklimi sayesinde dolgun kırmızılar ve roze şaraplarla bilinir.",
+    "en": "The eastern zone near the Algerian border has a hot, dry climate and is known for robust reds and rosés."
+   },
+   "grapes": [
+    "Cinsault",
+    "Carignan",
+    "Grenache",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Benslimane-Zenata",
+   "lat": 33.62,
+   "lng": -7.12,
+   "desc": {
+    "tr": "Kazablanka çevresindeki Atlantik etkili bu bölge, Maghreb'in en eski faal şarap evlerinden Domaine Ouled Thaleb'e ve Zenata AOG'ye ev sahipliği yapar.",
+    "en": "This Atlantic-influenced area around Casablanca is home to the Zenata AOG and Domaine Ouled Thaleb, one of the oldest active estates in the Maghreb."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Cinsault",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Zaër-Zemmour (Rabat hinterland)",
+   "lat": 33.6,
+   "lng": -6.4,
+   "desc": {
+    "tr": "Rabat'ın iç kesimindeki Zaër ve Zemmour AOG'leri, okyanus ikliminin yumuşattığı kırmızılar üretir.",
+    "en": "The Zaër and Zemmour AOGs inland from Rabat produce reds softened by the Atlantic climate."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Cinsault",
+    "Grenache"
+   ]
+  },
+  {
+   "name": "Doukkala (El Jadida)",
+   "lat": 33.2,
+   "lng": -8.5,
+   "desc": {
+    "tr": "El Jadida çevresindeki Atlantik kıyısı bölgesi, Doukkala AOG'yi barındırır.",
+    "en": "The Atlantic coastal zone around El Jadida holds the Doukkala AOG."
+   },
+   "grapes": [
+    "Cinsault",
+    "Grenache",
+    "Carignan"
+   ]
+  },
+  {
+   "name": "Essaouira",
+   "lat": 31.5,
+   "lng": -9.5,
+   "desc": {
+    "tr": "Batı kıyısındaki Essaouira, kuzeydeki geleneksel bağ alanlarının dışında kalan, rüzgârlı ve okyanus etkili yeni bir bağcılık bölgesidir.",
+    "en": "On the western coast, Essaouira is a windswept, ocean-influenced area that sits outside the traditional northern vineyard belt."
+   },
+   "grapes": [
+    "Syrah",
+    "Grenache",
+    "Cabernet Sauvignon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Cinsault",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ülkenin en yaygın üzümlerinden biridir ve ünlü gri şarap (vin gris) ile roze şarapların temelini oluşturur.",
+    "en": "One of the most widely planted grapes, it is the backbone of Morocco's famous vin gris and rosés."
+   }
+  },
+  {
+   "name": "Carignan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Sıcağa ve kuraklığa dayanıklılığı nedeniyle tarihsel olarak Fas bağcılığının omurgası olmuştur.",
+    "en": "Prized for its heat and drought resistance, it has historically been the backbone of Moroccan viticulture."
+   }
+  },
+  {
+   "name": "Grenache",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı karışımlarda ve gri şaraplarda kullanılan, sıcak iklime uyumlu bir Akdeniz üzümüdür.",
+    "en": "A Mediterranean variety suited to the heat, used in red blends and in vin gris."
+   }
+  },
+  {
+   "name": "Alicante Bouschet",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Koyu renkli etiyle bilinen bu Fransız melezi, 1990'lardaki yeniden ekimlerde yer almış ve kırmızı karışımlara renk ile yapı katar.",
+    "en": "This French cross with dark-fleshed berries was part of the 1990s replanting and adds colour and structure to red blends."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Meknès, Benslimane ve Berkane'de öne çıkan, son yıllarda ivme kazanan kalite üzümüdür.",
+    "en": "A quality grape that has gained momentum in recent years, notably in Meknès, Benslimane and Berkane."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Merlot ve Syrah ile birlikte, Fas'ta yaygınlaşan uluslararası kalite çeşitlerindendir.",
+    "en": "With Merlot and Syrah, it is one of the international quality varieties that have spread across Morocco."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Cabernet Sauvignon ile harmanlanarak Fas'ın üst segment kırmızılarında kullanılır.",
+    "en": "Blended with Cabernet Sauvignon, it is used in Morocco's premium reds."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Beyaz şarap üretiminin küçük payı içinde, Meknès'in daha serin yüksek rakımlı bağlarında öne çıkar.",
+    "en": "Within Morocco's small white wine output, it stands out in the cooler, higher-elevation vineyards of Meknès."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Vin gris",
+   "desc": {
+    "tr": "Kırmızı üzümlerin kabuklarıyla çok kısa süre temas ettirilmesiyle elde edilen, açık pembemsi gri renkli, ferah ve Fas'a özgü bir şaraptır.",
+    "en": "A pale pinkish-grey, refreshing wine made from red grapes with only brief skin contact, and a Moroccan speciality."
+   }
+  },
+  {
+   "name": "Coteaux de l'Atlas (Premier Cru AOC)",
+   "desc": {
+    "tr": "Orta Atlas'ın ilk yamaçlarından gelen, Fas'ın ve Kuzey Afrika'nın tek 'Premier Cru' AOC'sidir; Château Roslane ile özdeşleşmiştir.",
+    "en": "Morocco's only Premier Cru AOC, from the first slopes of the Middle Atlas and closely associated with Château Roslane."
+   }
+  },
+  {
+   "name": "Guerrouane AOG",
+   "desc": {
+    "tr": "Meknès çevresindeki bu appellation, Cinsault, Carignan ve Grenache ağırlıklı günlük kırmızıların, gri şarapların ve roze şarapların kaynağıdır.",
+    "en": "This appellation around Meknès is the source of everyday reds, vins gris and rosés built mainly on Cinsault, Carignan and Grenache."
+   }
+  },
+  {
+   "name": "Château Roslane",
+   "desc": {
+    "tr": "Celliers de Meknès'in amiral gemisi şarap evidir; Fas'ın ilk 'château' adlı mülkü olarak onaylanmıştır.",
+    "en": "The flagship estate of Celliers de Meknès, it was approved as Morocco's first estate with a château name."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "YALLA MOROCCO! - Adam S. Montefiore",
+   "url": "https://adammontefiore.com/yalla-morocco"
+  },
+  {
+   "title": "Moroccan Wine",
+   "url": "https://glassofbubbly.com/moroccan-wine/"
+  },
+  {
+   "title": "Wine/ Beer",
+   "url": "https://www.travel-exploration.com/subpage.cfm/Wine_Beer"
+  },
+  {
+   "title": "Moroccan wine",
+   "url": "https://en.wikipedia.org/wiki/Moroccan_wine"
+  },
+  {
+   "title": "Discover Morocco Wine: 5 Remarkable Journeys Awaiting You",
+   "url": "https://desert-merzouga-tours.com/morocco-wine/"
+  },
+  {
+   "title": "Morocco Wine Guide 2026",
+   "url": "https://citytoursmorocco.com/morocco-wine-guide"
+  },
+  {
+   "title": "Morocco",
+   "url": "https://www.caracterwines.de/en/content/93-wine-culture-of-morocco"
+  },
+  {
+   "title": "Wine & Drinks in Morocco — What to Try & Where",
+   "url": "https://spinyourdestination.com/guides/morocco/wine-drinks/"
+  }
+ ]
+}

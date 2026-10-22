@@ -1,0 +1,247 @@
+{
+ "iso3": "URY",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22955,
+  "out": 4189,
+  "searches": 2
+ },
+ "usd": 0.1078,
+ "summary": {
+  "tr": "Uruguay'da bağcılık 1870'lerde Basklı göçmen Pascual Harriague'nin Fransa'nın güneybatısından getirdiği Tannat çubuklarını Salto'da dikmesiyle başladı. Daha sonra İtalyan, İspanyol ve Fransız göçmen aileler, bağcılığı başkent Montevideo çevresinde küçük aile işletmeleri olarak yaygınlaştırdı. Bugün ülkenin imza üzümü Tannat'tır. Albariño ve Marselan gibi çeşitler ile Atlantik kıyısındaki yeni bağl",
+  "en": "Uruguayan viticulture began in the 1870s, when the Basque immigrant Pascual Harriague planted Tannat cuttings from southwest France in Salto. Italian, Spanish and French immigrant families later spread small family-run vineyards around Montevideo. Tannat is now the national signature grape. Albariño, Marselan and new Atlantic-coast vineyards give Uruguay its export profile. The national viticultur"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Canelones",
+   "lat": -34.6,
+   "lng": -56.15,
+   "desc": {
+    "tr": "Ülkenin en büyük bağ alanına ve çoğu bodegaya sahip tarihî şarap kalbidir. Killi topraklarda yetişen Tannat ile tanınır.",
+    "en": "The historic heartland of Uruguayan wine, with the largest vineyard area and most wineries. It is best known for Tannat grown on heavy clay soils."
+   },
+   "grapes": [
+    "Tannat",
+    "Merlot",
+    "Albariño",
+    "Cabernet Franc"
+   ]
+  },
+  {
+   "name": "Montevideo",
+   "lat": -34.82,
+   "lng": -56.25,
+   "desc": {
+    "tr": "Başkentin kırsal kesimindeki bağlar, Canelones ile birlikte güney bölgesini oluşturur. Köklü aile bodegaları buradadır.",
+    "en": "Vineyards on the rural edge of the capital form the southern zone together with Canelones, and are home to long-established family bodegas."
+   },
+   "grapes": [
+    "Tannat",
+    "Merlot",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Maldonado",
+   "lat": -34.7,
+   "lng": -54.8,
+   "desc": {
+    "tr": "Atlantik'e yakın, granitli topraklara sahip yeni ve iddialı bir bölgedir. Serin okyanus esintisiyle Albariño ve ince yapılı Tannat öne çıkar.",
+    "en": "A newer, ambitious Atlantic-influenced region on granite soils, known for ocean-cooled Albariño and finely structured Tannat."
+   },
+   "grapes": [
+    "Tannat",
+    "Albariño",
+    "Merlot",
+    "Marselan"
+   ]
+  },
+  {
+   "name": "Colonia",
+   "lat": -34.2,
+   "lng": -57.8,
+   "desc": {
+    "tr": "Río de la Plata kıyısındaki bu bölge, Carmelo çevresindeki butik bodegalarıyla bilinir.",
+    "en": "A Río de la Plata coastal region known for boutique wineries around Carmelo."
+   },
+   "grapes": [
+    "Tannat",
+    "Cabernet Sauvignon",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "San José",
+   "lat": -34.35,
+   "lng": -56.7,
+   "desc": {
+    "tr": "Canelones ile Colonia arasında yer alan, güney bağcılık kuşağının önemli bir parçasıdır.",
+    "en": "Lying between Canelones and Colonia, it is an important part of the southern wine belt."
+   },
+   "grapes": [
+    "Tannat",
+    "Merlot",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Salto",
+   "lat": -31.4,
+   "lng": -57.9,
+   "desc": {
+    "tr": "Tannat'ın ülkeye ilk kez dikildiği yer olarak kabul edilir. Güneye göre daha sıcak ve kuraktır.",
+    "en": "Widely regarded as the birthplace of Uruguayan Tannat, with a warmer, drier climate than the south."
+   },
+   "grapes": [
+    "Tannat",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Rivera",
+   "lat": -31.0,
+   "lng": -55.6,
+   "desc": {
+    "tr": "Brezilya sınırındaki kumlu topraklı kuzey bölgesidir. Cerro Chapeu çevresinde yoğun yapılı kırmızılarıyla tanınır.",
+    "en": "A northern region on the Brazilian border with sandy soils, known for structured reds around Cerro Chapeu."
+   },
+   "grapes": [
+    "Tannat",
+    "Merlot",
+    "Cabernet Sauvignon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Tannat",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "1870'te Fransa'nın güneybatısından getirilen ve Uruguay'ın ulusal simgesi olan, tanenli ve yapılı kırmızı üzümdür.",
+    "en": "A tannic, structured red brought from southwest France in 1870, now Uruguay's national emblem."
+   }
+  },
+  {
+   "name": "Arinarnoa",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Fransa'da Tannat ile Cabernet Sauvignon'un melezlenmesiyle elde edilen bu çeşit, Uruguay'da iklime uyumu nedeniyle ilgi görüyor.",
+    "en": "A Tannat × Cabernet Sauvignon crossing bred in France, now attracting interest in Uruguay for its climatic suitability."
+   }
+  },
+  {
+   "name": "Marselan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Cabernet Sauvignon ile Grenache melezi olan Marselan, nemli iklime dayanıklı, aromatik ve dengeli şaraplar verir.",
+    "en": "A Cabernet Sauvignon × Grenache cross that copes well with humidity and yields aromatic, balanced wines."
+   }
+  },
+  {
+   "name": "Albariño",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Galiçya kökenli olan bu çeşit, 2002'de Bouza ile Uruguay'a yerleşti. Ülkenin öne çıkan beyaz üzümü haline geldi.",
+    "en": "A Galician variety introduced by Bouza in 2002 that has become Uruguay's leading white grape."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Tannat'tan sonra en yaygın kırmızı çeşitlerden biridir. Yumuşak ve meyvemsi şaraplar verir.",
+    "en": "One of the most widely planted reds after Tannat, giving softer, fruit-driven wines."
+   }
+  },
+  {
+   "name": "Cabernet Franc",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Uruguay'ın nemli iklimine iyi uyum sağlayan, otsu ve baharatlı tonlu bir kırmızı çeşittir.",
+    "en": "A red grape that suits Uruguay's humid climate, with herbal and spicy notes."
+   }
+  },
+  {
+   "name": "Moscatel de Hamburgo",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Muscat Hamburg olarak da bilinir. Geleneksel olarak sofra şarabı ve roze üretiminde kullanılan, yaygın olarak dikilmiş bir çeşittir.",
+    "en": "Also known as Muscat Hamburg, it is widely planted and traditionally used for table wines and rosé."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Tannat",
+   "desc": {
+    "tr": "Uruguay'ın imza şarabıdır. Koyu renkli, tanenli ve yapılı olup bol meyve ve baharat tonları taşır. Çoğunlukla Merlot veya Cabernet ile harmanlanır.",
+    "en": "Uruguay's signature wine: dark, tannic and structured, with plenty of fruit and spice. It is often blended with Merlot or Cabernet."
+   }
+  },
+  {
+   "name": "Atlantik Albariño",
+   "desc": {
+    "tr": "Maldonado ve Canelones'in okyanus etkili bağlarından gelen, taze ve tuzlu mineralli beyaz şaraplardır.",
+    "en": "Fresh white wines with a salty, mineral edge from the ocean-influenced vineyards of Maldonado and Canelones."
+   }
+  },
+  {
+   "name": "Marselan",
+   "desc": {
+    "tr": "Daha yumuşak ve yemekle uyumlu bir tek çeşit kırmızıdır. Tannat'a alternatif olarak giderek daha çok üretiliyor.",
+    "en": "A softer, food-friendly single-variety red, increasingly made as an alternative to Tannat."
+   }
+  },
+  {
+   "name": "Vino de Calidad Preferente (VCP)",
+   "desc": {
+    "tr": "INAVI'nin tanımladığı, belirli kalite ölçütlerini karşılayan şaraplar için kullanılan resmî kalite kategorisidir.",
+    "en": "INAVI's official quality category for wines that meet defined quality criteria."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Maldonado - Uruguay Wine Region",
+   "url": "https://www.wine-searcher.com/regions-maldonado"
+  },
+  {
+   "title": "A guide to Uruguay’s wine regions - South America Wine Guide",
+   "url": "https://southamericawineguide.com/uruguay-wine-regions-guide/"
+  },
+  {
+   "title": "Uruguayan wine",
+   "url": "https://en.wikipedia.org/wiki/Uruguayan_wine"
+  },
+  {
+   "title": "Explore Uruguay's Wine Regions",
+   "url": "https://www.winetourism.com/wine-country/uruguay/"
+  },
+  {
+   "title": "A guide to the wine regions of Central & Northern Uruguay - South America Wine Guide",
+   "url": "https://southamericawineguide.com/a-guide-to-the-wine-regions-of-central-northern-uruguay/"
+  },
+  {
+   "title": "Uruguay's Wine Regions: Exploring the Country's Vineyard - Blog - Real Estate in Uruguay",
+   "url": "https://www.realestate-in-uruguay.com/blog/uruguays-wine-regions-exploring-the-countrys-vineyard/"
+  },
+  {
+   "title": "Uruguay Wine Guide 2026: Tannat, Regions & Best Wineries",
+   "url": "https://www.uruguaytourism.org/uruguay-wine/"
+  },
+  {
+   "title": "Discovering Uruguay Tannat: A Guide to Its Unique Character and Flavor",
+   "url": "https://www.winedeals.com/blog/post/uruguay-tannat-wine"
+  }
+ ]
+}

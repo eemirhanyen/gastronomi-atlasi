@@ -1,0 +1,216 @@
+{
+ "iso3": "CYP",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23551,
+  "out": 4011,
+  "searches": 2
+ },
+ "usd": 0.1072,
+ "summary": {
+  "tr": "Kıbrıs'ta şarap yapımı, arkeolojik bulgulara göre yaklaşık 5.500 yıl öncesine uzanır. Adanın güneş altında kurutulmuş üzümlerden yapılan tatlı şarabı Commandaria, dünyada hâlâ üretilen en eski adlandırılmış şarap sayılır. Yirminci yüzyılda ada, ağırlıklı olarak dökme şarap ve “Cyprus sherry” ihraç etti. Sovyet pazarının kaybı ve sherry adının İspanya için korunmasından sonra sektör kaliteye yöneld",
+  "en": "Winemaking in Cyprus goes back about 5,500 years according to archaeological evidence. The island's sweet wine Commandaria, made from sun-dried grapes, is considered the oldest named wine still in production. In the 20th century Cyprus exported mostly bulk wine and \"Cyprus sherry\". After losing the Soviet market and the sherry name (now reserved for Spain), the industry turned to quality. Today sm"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Commandaria",
+   "lat": 34.79,
+   "lng": 32.95,
+   "desc": {
+    "tr": "Troodos'un güney eteklerinde, Commandaria'nın üretilebildiği 14 köyden oluşan tarihî bölgedir.",
+    "en": "A historic zone of 14 villages on the southern foothills of the Troodos, the only area where Commandaria may be made."
+   },
+   "grapes": [
+    "Xynisteri",
+    "Mavro"
+   ]
+  },
+  {
+   "name": "Krasochoria Lemesou",
+   "lat": 34.84,
+   "lng": 32.8,
+   "desc": {
+    "tr": "Limasol'un “şarap köyleri” olarak bilinir ve adadaki şaraphanelerin en yoğun olduğu bölgedir (Omodos, Vouni, Koilani).",
+    "en": "Known as the Limassol \"wine villages\", it has the island's highest concentration of wineries (Omodos, Vouni, Koilani)."
+   },
+   "grapes": [
+    "Mavro",
+    "Xynisteri",
+    "Maratheftiko"
+   ]
+  },
+  {
+   "name": "Pitsilia",
+   "lat": 34.93,
+   "lng": 33.02,
+   "desc": {
+    "tr": "Troodos'un 800-1.400 m rakımlı bağlarıyla taze beyazları ve yapılı kırmızılarıyla yükselen butik şarap bölgesidir.",
+    "en": "A rising boutique zone whose vineyards at 800–1,400 m make crisp whites and structured reds."
+   },
+   "grapes": [
+    "Xynisteri",
+    "Maratheftiko",
+    "Mavro"
+   ]
+  },
+  {
+   "name": "Laona-Akama",
+   "lat": 34.91,
+   "lng": 32.53,
+   "desc": {
+    "tr": "Baf'ın batısında, Akamas yarımadası çevresinde yer alır; mineral yapılı beyazlar ve zarif kırmızılarla tanınır.",
+    "en": "Found in western Paphos around the Akamas peninsula, it is known for mineral whites and elegant reds."
+   },
+   "grapes": [
+    "Xynisteri",
+    "Maratheftiko"
+   ]
+  },
+  {
+   "name": "Vouni Panayias-Ampelitis",
+   "lat": 34.93,
+   "lng": 32.66,
+   "desc": {
+    "tr": "Baf'ın yüksek rakımlı iç kesimlerinde, yerli ve uluslararası üzümlerle çeşitli şaraplar üreten bir bölgedir.",
+    "en": "A high-altitude inland Paphos zone producing varied wines from native and international grapes."
+   },
+   "grapes": [
+    "Xynisteri",
+    "Mavro",
+    "Maratheftiko"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Xynisteri",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Adanın en yaygın beyaz üzümüdür. Taze, narenciye ve çiçek aromalı şaraplar verir ve Commandaria'da da kullanılır.",
+    "en": "The island's most widely planted white grape, it gives fresh, citrusy, floral wines and is also used in Commandaria."
+   }
+  },
+  {
+   "name": "Maratheftiko",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Yetiştirmesi zor olsa da koyu renkli, baharatlı ve yıllanmaya elverişli şaraplar veren, adanın amiral gemisi kırmızı üzümü sayılır.",
+    "en": "Difficult to grow, it is regarded as the flagship red grape, giving deeply coloured, spicy, age-worthy wines."
+   }
+  },
+  {
+   "name": "Mavro",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Adanın en yaygın kırmızı üzümüdür. Commandaria'nın temel bileşenidir ve hafif, yumuşak kırmızılar da verir.",
+    "en": "The most widespread red grape, it is a key component of Commandaria and also gives light, soft reds."
+   }
+  },
+  {
+   "name": "Ofthalmo",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Yakın zamanda kurtarılan, açık renkli nadir bir yerli kırmızı üzümdür.",
+    "en": "A rare light-red native grape that was rescued only in recent years."
+   }
+  },
+  {
+   "name": "Spourtiko",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Yakın zamanda yeniden keşfedilen nadir bir yerli beyaz üzümdür.",
+    "en": "A rare native white grape that has only recently been rediscovered."
+   }
+  },
+  {
+   "name": "Promara",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Aromatik ve steril meyve karakterli şaraplar veren yerli bir beyaz üzümdür.",
+    "en": "A native white grape that gives aromatic wines with stone-fruit character."
+   }
+  },
+  {
+   "name": "Shiraz",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kalite hamlesi sırasında teşvikle yaygınlaşan, adada iyi uyum sağlamış uluslararası bir kırmızı üzümdür.",
+    "en": "An international red introduced during the quality drive that has adapted well to the island."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Commandaria (PDO)",
+   "desc": {
+    "tr": "Güneşte kurutulmuş Xynisteri ve Mavro üzümlerinden yapılan, meşede en az iki yıl yıllandırılan, kuru meyve ve bal aromalı kehribar renkli tatlı şaraptır.",
+    "en": "An amber sweet wine from sun-dried Xynisteri and Mavro, aged at least two years in oak, with dried-fruit and honey notes."
+   }
+  },
+  {
+   "name": "Xynisteri dry white",
+   "desc": {
+    "tr": "Yüksek rakımlı bağlardan gelen, hafif, ferah ve narenciye aromalı kuru beyaz şaraptır; deniz ürünleriyle iyi gider.",
+    "en": "A light, crisp, citrusy dry white from higher-altitude vineyards that pairs well with seafood."
+   }
+  },
+  {
+   "name": "Maratheftiko varietal red",
+   "desc": {
+    "tr": "Yapılı, baharatlı ve yıllanabilen, yeni kuşak Kıbrıs kırmızı şarabının simgesi olan tek çeşit şaraptır.",
+    "en": "A structured, spicy, ageworthy varietal red that has become the emblem of modern Cypriot red wine."
+   }
+  },
+  {
+   "name": "Cyprus Sherry",
+   "desc": {
+    "tr": "Commandaria'nın yükseltgen tarzından doğan ve 1927'den itibaren güçlendirilen, 1980'lere dek yaygın biçimde ihraç edilen tarihsel üründür.",
+    "en": "A historic export style that grew out of Commandaria's oxidative tradition, fortified from 1927 and widely exported until the 1980s."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cyprus - Mediterranean Wine Region - Grape Varieties",
+   "url": "https://www.wine-searcher.com/regions-cyprus"
+  },
+  {
+   "title": "Wineries in Cyprus: A guide to Cyprus wine regions, history, and indigenous varieties",
+   "url": "https://cyprus-mail.com/2026/05/17/wineries-in-cyprus-a-guide-to-cyprus-wine-regions-history-and-indigenous-varieties"
+  },
+  {
+   "title": "Xynisteri",
+   "url": "https://en.wikipedia.org/wiki/Xynisteri"
+  },
+  {
+   "title": "11+ Best Wineries in Cyprus and Must-Try Regional Wines [2026]",
+   "url": "https://inspiredtoexplore.com/cyprus-wineries/"
+  },
+  {
+   "title": "A GUIDE TO CYPRUS WINE - Cyprus Traveller Guide",
+   "url": "https://cyprustravellerguide.com/a-guide-to-cyprus-wine/"
+  },
+  {
+   "title": "Cyprus Wine Culture: Practical Guide for Entrepreneurs and Expats",
+   "url": "https://steuernaufzypern.com/en/articles/cyprus-wine-culture.html"
+  },
+  {
+   "title": "Beginner's Guide to Cyprus Wine - Cyprus Wineries",
+   "url": "https://wineriesofcyprus.com/beginners-guide-to-cyprus-wine/"
+  },
+  {
+   "title": "Cyprus Wineries FAQ - Cyprus Wineries",
+   "url": "https://wineriesofcyprus.com/cyprus-wineries-faq/"
+  }
+ ]
+}

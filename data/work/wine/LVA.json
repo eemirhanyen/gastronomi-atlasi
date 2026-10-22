@@ -1,0 +1,209 @@
+{
+ "iso3": "LVA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 15480,
+  "out": 3706,
+  "searches": 1
+ },
+ "usd": 0.078,
+ "summary": {
+  "tr": "Letonya'nın soğuk iklimi nedeniyle üzüm şarapçılığı çok küçük ölçeklidir. Ülkenin şarap geleneği, Kurzeme Dükü Jacob döneminde (17. yüzyıl) Sabile'de kurulan ve dünyanın en kuzeydeki açık hava bağı olarak Guinness Rekorlar Kitabı'na giren Şarap Tepesi'ne dayanır. Bugün ağırlıklı olarak soğuğa dayanıklı melez üzümlerle çalışan butik şarap evleri vardır. Ülkedeki şarap üretiminin büyük bölümünü ise ",
+  "en": "Latvia's cool climate keeps grape winegrowing very small in scale. Its wine heritage centres on Sabile Wine Hill, a vineyard that dates back to the court of Duke Jacob of Courland in the 17th century and entered the Guinness Book of Records as the world's northernmost open-air vineyard. Today a few boutique wineries work mainly with cold-hardy hybrid grapes. Most of the country's wine output is fr"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Sabile (Kurzeme)",
+   "lat": 57.05,
+   "lng": 22.57,
+   "desc": {
+    "tr": "57. paralelde yer alan Sabile Şarap Tepesi ve Abavas gibi şarap evleriyle dünyanın en kuzeydeki bağ bölgelerinden biridir.",
+    "en": "Home to Sabile Wine Hill and wineries such as Abavas, it is one of the northernmost vineyard areas in the world, at about 57°N."
+   },
+   "grapes": [
+    "Solaris",
+    "Rondo",
+    "Muscaris",
+    "Zilga"
+   ]
+  },
+  {
+   "name": "Aizpute (Kurzeme)",
+   "lat": 56.72,
+   "lng": 21.6,
+   "desc": {
+    "tr": "Batı Letonya'da, Kurzeme'nin kıyıya yakın bölümünde yer alan, küçük ölçekli şarap üretimiyle bilinen bir yöredir.",
+    "en": "A small-scale winemaking area in coastal western Latvia, in the Kurzeme region."
+   },
+   "grapes": [
+    "Solaris",
+    "Rondo"
+   ]
+  },
+  {
+   "name": "Cēsis–Līgatne (Vidzeme)",
+   "lat": 57.23,
+   "lng": 25.04,
+   "desc": {
+    "tr": "Göl ve orman mikro iklimlerinden yararlanan, Solaris ağırlıklı ferah beyaz şaraplarıyla tanınan Vidzeme bölgesidir.",
+    "en": "A Vidzeme area with lake and forest microclimates, known for crisp white wines mostly from Solaris."
+   },
+   "grapes": [
+    "Solaris",
+    "Zilga",
+    "Rondo"
+   ]
+  },
+  {
+   "name": "Sigulda–Krimulda (Vidzeme)",
+   "lat": 57.15,
+   "lng": 24.85,
+   "desc": {
+    "tr": "Gauja Vadisi çevresinde turizm ağırlıklı küçük şarap evlerine ev sahipliği yapar.",
+    "en": "Small, tourism-oriented wineries around the Gauja valley."
+   },
+   "grapes": [
+    "Solaris",
+    "Muscaris",
+    "Rondo"
+   ]
+  },
+  {
+   "name": "Tērvete (Zemgale)",
+   "lat": 56.47,
+   "lng": 23.37,
+   "desc": {
+    "tr": "Güneydeki verimli Zemgale ovasında, görece ılıman koşullarda küçük bağları ve şarap evleri olan bir yöredir.",
+    "en": "A small winegrowing area on the fertile Zemgale plain in the south, where conditions are relatively mild."
+   },
+   "grapes": [
+    "Solaris",
+    "Regent",
+    "Rondo"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Zilga",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Letonyalı yetiştiriciler tarafından geliştirilen, soğuğa dayanıklı ve erken olgunlaşan koyu renkli bir üzümdür.",
+    "en": "A dark-skinned, frost-hardy, early-ripening grape bred by Latvian breeders."
+   }
+  },
+  {
+   "name": "Solaris",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Erken olgunlaşan Alman melezi olan Solaris, Letonya'da en yaygın beyaz çeşittir ve çiçeksi, narenciye notalı şaraplar verir.",
+    "en": "An early-ripening German hybrid, it is Latvia's best-known white and gives floral, citrusy wines."
+   }
+  },
+  {
+   "name": "Muscaris",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Aromatik, misket karakterli bir melez beyaz üzümdür ve Sabile'deki bağlarda yetiştirilir.",
+    "en": "An aromatic, muscat-like hybrid white grown in the Sabile vineyards."
+   }
+  },
+  {
+   "name": "Seyval Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Soğuk ve nemli iklimlere uyum sağlayan Fransız-Amerikan melezi beyaz bir üzümdür.",
+    "en": "A French-American hybrid white suited to cool, damp climates."
+   }
+  },
+  {
+   "name": "Rondo",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Soğuğa dayanıklı, koyu renkli bir melez olan Rondo, Letonya'nın başlıca kırmızı şarap çeşitlerinden biridir.",
+    "en": "A cold-hardy, dark-skinned hybrid that is one of Latvia's main red wine grapes."
+   }
+  },
+  {
+   "name": "Regent",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Hastalıklara dayanıklı bir Alman melezidir ve Letonya'da kırmızı şaraplarda kullanılır.",
+    "en": "A disease-resistant German hybrid used for red wines in Latvia."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Sabile Wine Hill wines",
+   "desc": {
+    "tr": "Sabile'deki tarihî tepenin üzümlerinden yapılan şaraplar çok az miktarda üretilir ve genellikle yalnızca yerel festivallerde tadılır.",
+    "en": "Wines from the historic Sabile hill are made in tiny quantities and are usually tasted only at local festivals."
+   }
+  },
+  {
+   "name": "Cool-climate hybrid whites (Solaris, Muscaris)",
+   "desc": {
+    "tr": "Taze asitli, çiçeksi ve narenciye aromalı kuru beyaz şaraplar Letonya'nın en tanınan üzüm şarabı stilini oluşturur.",
+    "en": "Fresh, floral and citrusy dry whites are Latvia's best-known style of grape wine."
+   }
+  },
+  {
+   "name": "Fruit and berry wines (rhubarb, currant, apple)",
+   "desc": {
+    "tr": "Ravent, frenk üzümü ve elma gibi meyvelerden yapılan şaraplar, ülkenin şarap üretiminin büyük bölümünü oluşturur ve yerel mutfak kültürünün parçasıdır.",
+    "en": "Wines made from rhubarb, currants, apples and other fruit account for much of the country's wine output and are part of local food culture."
+   }
+  },
+  {
+   "name": "Birch sap wine",
+   "desc": {
+    "tr": "İlkbaharda toplanan huş ağacı özsuyundan yapılan bu geleneksel içki Letonya'ya özgü bir yerel şarap türüdür.",
+    "en": "A traditional local wine made from birch sap tapped in spring."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Abavas 57 N Sabile Vineyard Solaris",
+   "url": "https://www.vivino.com/en/abavas-fiftyseven-n-sabile-vineyard-solaris/w/5839883"
+  },
+  {
+   "title": "Abavas Winery",
+   "url": "https://www.vivino.com/en/wineries/abavas/wines"
+  },
+  {
+   "title": "Meeting the mad professor of far-north winemaking • Sustainable Wine Magazine",
+   "url": "https://sustainablewine.co.uk/meeting-the-mad-professor-of-far-north-winemaking/"
+  },
+  {
+   "title": "Latvia",
+   "url": "https://wineguide.wein.plus/wine-regions/latvia"
+  },
+  {
+   "title": "Europe’s under-the-radar wine regions - Wanderlust",
+   "url": "https://www.wanderlustmagazine.com/inspiration/europes-under-the-radar-wine-regions/"
+  },
+  {
+   "title": "Latvia's got personality: Winemaker Smaida Dzērve / Article",
+   "url": "https://eng.lsm.lv/article/features/features/latvias-got-personality-winemaker-smaida-dzerve.a425764/"
+  },
+  {
+   "title": "ABAVAS VINADARITAVA - visit us and enjoy the taste of Latvian wines",
+   "url": "https://www.abavas.lv/en/pages/vindaritava"
+  },
+  {
+   "title": "Sabile Wine Hill - Mapeirons",
+   "url": "https://mapeirons.eu/en/object/sabile-wine-hill/"
+  }
+ ]
+}

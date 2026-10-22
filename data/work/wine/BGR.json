@@ -1,0 +1,247 @@
+{
+ "iso3": "BGR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24311,
+  "out": 4125,
+  "searches": 2
+ },
+ "usd": 0.1099,
+ "summary": {
+  "tr": "Bulgaristan'da şarapçılık, MÖ 4000 civarına kadar uzanan izlerle Trakyalılara dayanır. Trakyalılar şarabı Dionysos kültüyle birlikte kutsal bir içki olarak görürdü. 1990'lardan sonra gerçekleşen özelleştirme ve 2007'deki AB üyeliğinin ardından bağlar yenilendi. Bugün ülke, Mavrud ve Melnik gibi yerli üzümlerle öne çıkıyor ve Sovyet döneminin ucuz toplu ihracatından kaliteli, butik üretime yöneliyo",
+  "en": "Winemaking in Bulgaria goes back to the Thracians, with traces reaching as far as about 4000 BCE. They treated wine as a sacred drink tied to the cult of Dionysus. Vineyards were renovated after the 1990s privatisation and EU accession in 2007. Today the country is known for native grapes such as Mavrud and Melnik, and has shifted from cheap Soviet-era bulk exports to quality, smaller-scale produc"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Thracian Lowlands",
+   "lat": 42.15,
+   "lng": 24.9,
+   "desc": {
+    "tr": "Plovdiv ve Asenovgrad çevresinde, Bulgaristan'ın en önemli kırmızı şarap bölgesi ve Mavrud'un anavatanıdır.",
+    "en": "Centred on Plovdiv and Asenovgrad, this is Bulgaria's most important red-wine zone and the heartland of Mavrud."
+   },
+   "grapes": [
+    "Mavrud",
+    "Rubin",
+    "Pamid",
+    "Merlot",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Struma Valley (Melnik)",
+   "lat": 41.52,
+   "lng": 23.4,
+   "desc": {
+    "tr": "Yunanistan sınırına yakın, sıcak ve Akdeniz etkili bu vadi, Melnik kasabası ve yerli Shiroka Melnishka üzümüyle tanınır.",
+    "en": "A hot, Mediterranean-influenced valley near the Greek border, known for the town of Melnik and its native Shiroka Melnishka grape."
+   },
+   "grapes": [
+    "Shiroka Melnishka Loza",
+    "Melnik 55",
+    "Cabernet Sauvignon",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Danubian Plain",
+   "lat": 43.6,
+   "lng": 25.0,
+   "desc": {
+    "tr": "Tuna boyunca uzanan kuzey bölgesi, daha serin iklimi nedeniyle ferah beyazlar ve hafif kırmızılar üretir.",
+    "en": "The northern region along the Danube, whose cooler climate yields fresh whites and lighter reds."
+   },
+   "grapes": [
+    "Gamza",
+    "Pamid",
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Muscat Ottonel",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Northwest Bulgaria (Vidin)",
+   "lat": 43.8,
+   "lng": 22.9,
+   "desc": {
+    "tr": "Vidin çevresindeki kuzeybatı, hafif gövdeli kırmızılar veren Gamza üzümünün geleneksel yurdudur.",
+    "en": "The northwest around Vidin is the traditional home of Gamza, which makes light-bodied reds."
+   },
+   "grapes": [
+    "Gamza"
+   ]
+  },
+  {
+   "name": "Black Sea Coast",
+   "lat": 43.2,
+   "lng": 27.9,
+   "desc": {
+    "tr": "Deniz etkisindeki doğu kıyı bölgesi, Dimyat ve Chardonnay gibi taze, ferah beyaz şaraplarıyla bilinir.",
+    "en": "The maritime east coast, known for fresh, crisp white wines from grapes such as Dimyat and Chardonnay."
+   },
+   "grapes": [
+    "Dimyat",
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Muscat Ottonel"
+   ]
+  },
+  {
+   "name": "Rose Valley (Sub-Balkan)",
+   "lat": 42.65,
+   "lng": 25.0,
+   "desc": {
+    "tr": "Balkan Dağları ile Sredna Gora arasındaki bu vadi, Kırmızı Misket gibi aromatik beyazlarıyla ünlüdür.",
+    "en": "Lying between the Balkan Mountains and Sredna Gora, this valley is known for aromatic whites such as Red Misket."
+   },
+   "grapes": [
+    "Red Misket",
+    "Riesling",
+    "Merlot",
+    "Cabernet Sauvignon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Mavrud",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kalın kabuklu, geç olgunlaşan bu üzüm, koyu renkli, tanenli ve yaşlanmaya elverişli şaraplar verir; Asenovgrad çevresinde ünlüdür.",
+    "en": "A thick-skinned, late-ripening grape that makes dark, tannic, age-worthy wines, famed around Asenovgrad."
+   }
+  },
+  {
+   "name": "Shiroka Melnishka Loza (Broad-leaved Melnik)",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Neredeyse yalnızca Struma Vadisi'nde yetişen, kiraz, biber ve toprak notaları taşıyan geç olgunlaşan bir üzümdür.",
+    "en": "A late-ripening grape grown almost only in the Struma Valley, with cherry, pepper and earthy notes."
+   }
+  },
+  {
+   "name": "Melnik 55",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Valdiguié ile Shiroka Melnishka'nın melezi olan bu erken olgunlaşan Bulgar çeşidi, tanen yapısı güçlü şaraplar verir.",
+    "en": "A Bulgarian cross of Valdiguié and Broad-leaved Melnik that ripens early and gives wines with firm tannins."
+   }
+  },
+  {
+   "name": "Gamza",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kadarka olarak da bilinen, özellikle kuzeybatıda yetişen ve hafif gövdeli, baharatlı kırmızılar veren bir üzümdür.",
+    "en": "Also known as Kadarka, it is grown mainly in the northwest and makes light-bodied, spicy reds."
+   }
+  },
+  {
+   "name": "Rubin",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "1944'te Nebbiolo ile Syrah'ın melezlenmesiyle Bulgaristan'da geliştirilmiş, koyu renkli ve baharatlı şaraplar veren bir çeşittir.",
+    "en": "Developed in Bulgaria in 1944 by crossing Nebbiolo and Syrah, it gives deeply coloured, spicy wines."
+   }
+  },
+  {
+   "name": "Pamid",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "İnce kabuklu ve meyvemsi bu eski üzüm, günlük içimlik hafif kırmızılar için kullanılır.",
+    "en": "An old, thin-skinned, fruity grape used for light everyday reds."
+   }
+  },
+  {
+   "name": "Dimyat",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Karadeniz kıyısı ve Trakya'da yetişen, elma ve armut aromalı hafif gövdeli beyaz şaraplar veren yerli bir üzümdür.",
+    "en": "A native white grape of the Black Sea coast and Thrace, making light-bodied wines with apple and pear aromas."
+   }
+  },
+  {
+   "name": "Red Misket (Cherven Misket)",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Pembe kabuklu bu beyaz üzüm, Gül Vadisi'nde bal ve narenciye notaları taşıyan aromatik şaraplar verir.",
+    "en": "A pink-skinned white grape from the Rose Valley that gives aromatic wines with honeyed citrus notes."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Mavrud",
+   "desc": {
+    "tr": "Trakya Ovası'nın amiral gemisi kırmızı şarabı olan Mavrud; koyu meyve, baharat ve sağlam tanen taşır, yıllarca yaşlanabilir.",
+    "en": "The flagship red of the Thracian Lowlands, Mavrud offers dark fruit, spice and firm tannins and can age for years."
+   }
+  },
+  {
+   "name": "Melnik şarapları (Shiroka Melnishka)",
+   "desc": {
+    "tr": "Struma Vadisi'nin yapılı kırmızıları; kiraz, baharat ve deri notaları gösterir ve yıllarla gelişir.",
+    "en": "Structured reds of the Struma Valley, showing cherry, spice and leather notes that develop with age."
+   }
+  },
+  {
+   "name": "Thracian Lowlands PGI ve Danube Plain PGI",
+   "desc": {
+    "tr": "Ülkenin iki geniş AB korumalı coğrafi işaretidir ve şarap üretiminin büyük bölümünü kapsar.",
+    "en": "The country's two broad EU-protected geographical indications (PGIs), together covering much of its wine."
+   }
+  },
+  {
+   "name": "Kırmızı Misket şarapları",
+   "desc": {
+    "tr": "Gül Vadisi kökenli, aromatik ve ferah beyaz şaraplardır.",
+    "en": "Aromatic, fresh white wines originating in the Rose Valley."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bulgarian Wineries Guide: 5 Wine Regions And Top Wineries You Should Visit",
+   "url": "https://authenticfoodquest.com/bulgarian-wineries-guide/"
+  },
+  {
+   "title": "Bulgarian Wine: Guide to Winemaking & Wine Regions in Bulgaria",
+   "url": "https://privateguidebulgaria.com/blog/bulgarian-winemaking-wine-regions/"
+  },
+  {
+   "title": "Bulgarian Wine: An Introduction to the Wines of Bulgaria - Traveling with MJ",
+   "url": "https://www.travelingwithmj.com/bulgarian-wine-an-introduction-to-the-wines-of-bulgaria/"
+  },
+  {
+   "title": "Bulgarian Wine Guide",
+   "url": "https://vaskovino.co.uk/bulgarian-wine-guide/"
+  },
+  {
+   "title": "Bulgaria’s Wine Regions & Grapes",
+   "url": "https://taylorswineshop.com/blogs/learn-with-us/bulgaria-s-wine-regions-grapes"
+  },
+  {
+   "title": "Bulgarian Wine Guide - Mavrud & Thracian Reds",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/wine-in-bulgaria-flying-under-the-radar"
+  },
+  {
+   "title": "Bulgaria Wine Region - Mavrud, Melnik, Thrace",
+   "url": "https://www.grapeguru.de/en/knowledge/wine-regions/bulgarien"
+  },
+  {
+   "title": "Bulgarian wine guide for travelers — regions, varieties, and tastings in Sofia",
+   "url": "https://www.sofia-escape.com/guides/bulgarian-wine-guide/"
+  }
+ ]
+}

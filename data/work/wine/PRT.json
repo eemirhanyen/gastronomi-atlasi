@@ -1,0 +1,259 @@
+{
+ "iso3": "PRT",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22507,
+  "out": 4497,
+  "searches": 2
+ },
+ "usd": 0.11,
+ "summary": {
+  "tr": "Portekiz'de bağcılık çok eskiye uzanır. Douro Vadisi, 1756'da kraliyet fermanıyla sınırları çizilen ve bu yönüyle dünyanın ilk resmi olarak sınırlandırılmış şarap bölgesi sayılır. İngiltere ile yapılan 1703 Methuen Antlaşması gibi ticaret anlaşmaları Porto şarabının yükselişini hızlandırdı. Ülkede 250'yi aşkın yerli üzüm çeşidi bulunur ve bu çeşitlilik, parsellerde karışık bağ geleneğiyle birlikte",
+  "en": "Viticulture in Portugal goes back a very long way. In 1756 a royal charter defined the Douro, which is generally regarded as the world's first formally demarcated wine region. Trade agreements with England, such as the Methuen Treaty of 1703, helped drive the rise of Port. The country has more than 250 native grape varieties. Many old vineyards were traditionally field blends, and single-variety b"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Douro",
+   "lat": 41.17,
+   "lng": -7.55,
+   "desc": {
+    "tr": "Şist teraslı bağlarıyla ünlü, UNESCO Dünya Mirası olan bu vadi Porto şarabının yurdudur ve güçlü kuru kırmızılar da üretir.",
+    "en": "A UNESCO-listed valley of schist terraces, it is the home of Port and also makes powerful dry reds."
+   },
+   "grapes": [
+    "Touriga Nacional",
+    "Touriga Franca",
+    "Tinta Roriz",
+    "Tinta Barroca"
+   ]
+  },
+  {
+   "name": "Vinho Verde",
+   "lat": 41.6,
+   "lng": -8.4,
+   "desc": {
+    "tr": "Atlantik etkisindeki yeşil kuzeybatıda, hafif ve ferah, hafif köpüklü beyazlarıyla bilinir.",
+    "en": "In the green, Atlantic-influenced northwest, it is known for light, fresh whites, often with a slight spritz."
+   },
+   "grapes": [
+    "Alvarinho",
+    "Loureiro",
+    "Arinto",
+    "Trajadura"
+   ]
+  },
+  {
+   "name": "Dão",
+   "lat": 40.55,
+   "lng": -7.9,
+   "desc": {
+    "tr": "Granitli dağ bağlarında zarif, uzun ömürlü kırmızılar ve dokulu Encruzado beyazları üretir.",
+    "en": "Its granite upland vineyards yield elegant, age-worthy reds and textured Encruzado whites."
+   },
+   "grapes": [
+    "Touriga Nacional",
+    "Alfrocheiro",
+    "Tinta Roriz",
+    "Encruzado"
+   ]
+  },
+  {
+   "name": "Bairrada",
+   "lat": 40.4,
+   "lng": -8.45,
+   "desc": {
+    "tr": "Atlantik kıyısına yakın killi-kireçli topraklarda yetişen Baga üzümü ve geleneksel yöntemle üretilen köpüklü şaraplarıyla tanınır.",
+    "en": "Near the Atlantic coast on clay-limestone soils, it is known for the Baga grape and traditional-method sparkling wines."
+   },
+   "grapes": [
+    "Baga",
+    "Bical",
+    "Maria Gomes"
+   ]
+  },
+  {
+   "name": "Alentejo",
+   "lat": 38.4,
+   "lng": -7.9,
+   "desc": {
+    "tr": "Güneşli geniş ovalarıyla Portekiz'in en geniş şarap alanıdır ve yumuşak, meyvemsi, dolgun kırmızılarıyla bilinir.",
+    "en": "Portugal's largest wine-producing area, with sunny plains and soft, fruit-forward, full-bodied reds."
+   },
+   "grapes": [
+    "Aragonez",
+    "Trincadeira",
+    "Alicante Bouschet",
+    "Antão Vaz"
+   ]
+  },
+  {
+   "name": "Setúbal Peninsula",
+   "lat": 38.55,
+   "lng": -8.9,
+   "desc": {
+    "tr": "Lizbon'un güneyindeki bu yarımada, tatlı Moscatel de Setúbal şarabıyla ve Castelão kırmızılarıyla öne çıkar.",
+    "en": "Just south of Lisbon, this peninsula is noted for sweet Moscatel de Setúbal and Castelão-based reds."
+   },
+   "grapes": [
+    "Moscatel de Setúbal",
+    "Castelão",
+    "Fernão Pires"
+   ]
+  },
+  {
+   "name": "Madeira",
+   "lat": 32.75,
+   "lng": -16.95,
+   "desc": {
+    "tr": "Volkanik Atlantik adası, yüksek asitli ve olağanüstü uzun ömürlü kuvvetlendirilmiş Madeira şarabının kaynağıdır.",
+    "en": "A volcanic Atlantic island, it is the source of high-acid, exceptionally long-lived fortified Madeira wine."
+   },
+   "grapes": [
+    "Sercial",
+    "Verdelho",
+    "Boal",
+    "Malvasia",
+    "Tinta Negra"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Touriga Nacional",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Büyük olasılıkla Dão kökenli olan, Portekiz'in en seçkin kırmızı üzümü sayılır; koyu renkli, çiçeksi ve tanenli şaraplar verir.",
+    "en": "Most likely from the Dão, it is widely seen as Portugal's finest red grape, giving dark, floral, tannic wines."
+   }
+  },
+  {
+   "name": "Touriga Franca",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Douro'da en yaygın dikilen çeşittir; aromatik zarafeti ve düzenli verimiyle Porto asemblajlarının temel taşıdır.",
+    "en": "The most widely planted variety in the Douro, it is prized for aromatic elegance and steady yields in Port blends."
+   }
+  },
+  {
+   "name": "Baga",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Bairrada'nın simge üzümüdür; yüksek asit ve tanen taşır, şişede yıllar içinde olgunlaşır.",
+    "en": "The signature grape of Bairrada, high in acid and tannin, which rewards years of bottle age."
+   }
+  },
+  {
+   "name": "Alvarinho",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "İspanya'da Albariño adıyla bilinir; Monção e Melgaço'da şeftali ve greyfurt aromalı, mineral yapılı beyazlar verir.",
+    "en": "Known as Albariño in Spain, it gives aromatic, mineral whites with peach and grapefruit notes in Monção e Melgaço."
+   }
+  },
+  {
+   "name": "Arinto",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Yüksek asidiyle ülkenin birçok bölgesinde beyaz şarap karışımlarının ve tek çeşit şarapların omurgasını oluşturur.",
+    "en": "Its high acidity underpins both single-variety wines and white blends across many Portuguese regions."
+   }
+  },
+  {
+   "name": "Encruzado",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Dão'un en seçkin beyaz üzümüdür; dokulu, mineral ve fıçıda yaşlanmaya uygun şaraplar verir.",
+    "en": "The Dão's leading white grape, giving textured, mineral wines that age well."
+   }
+  },
+  {
+   "name": "Tinta Roriz (Aragonez)",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "İspanya'daki Tempranillo ile aynı çeşittir; Douro ve Dão'da Porto ve kuru kırmızı şaraplarda kullanılır, Alentejo'da Aragonez adını alır.",
+    "en": "The same variety as Spain's Tempranillo, it is used in Port and dry reds in the Douro and Dão and is called Aragonez in the Alentejo."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Port (Porto)",
+   "desc": {
+    "tr": "Douro'da üretilen, fermantasyon sırasında üzüm distilatı eklenerek kuvvetlendirilen tatlı şaraptır; Ruby, Tawny, LBV ve Vintage gibi türleri vardır.",
+    "en": "A sweet fortified wine from the Douro, made by adding grape spirit during fermentation, in styles such as Ruby, Tawny, LBV and Vintage."
+   }
+  },
+  {
+   "name": "Douro DOC",
+   "desc": {
+    "tr": "Porto'nun üretildiği vadide yapılan kuru kırmızı ve beyaz sofra şaraplarını kapsayan, giderek prestij kazanan appellation'dır.",
+    "en": "The appellation for dry red and white table wines from the Port valley, with a steadily rising reputation."
+   }
+  },
+  {
+   "name": "Vinho Verde DOC",
+   "desc": {
+    "tr": "Bir üzüm değil bir bölge ve stil ailesidir; düşük alkollü, ferah, hafif köpüklü beyazlar öne çıkar ve Alvarinho'dan daha dolgun örnekler de yapılır.",
+    "en": "A region and style family rather than a grape, best known for low-alcohol, fresh, lightly spritzy whites, with fuller Alvarinho versions too."
+   }
+  },
+  {
+   "name": "Madeira",
+   "desc": {
+    "tr": "Isıtma ve oksidasyonla olgunlaştırılan kuvvetlendirilmiş şaraptır; Sercial'dan Boal'a kuru ile tatlı arasında değişen tarzları vardır.",
+    "en": "A fortified wine matured through heat and oxidation, ranging from dry (Sercial) to sweet (Boal) styles."
+   }
+  },
+  {
+   "name": "Bairrada Espumante",
+   "desc": {
+    "tr": "Bairrada'da geleneksel yöntemle yapılan köpüklü şaraplar, bölgenin Baga kırmızılarıyla birlikte öne çıkan ikinci kimliğidir.",
+    "en": "Traditional-method sparkling wines are Bairrada's other hallmark, alongside its Baga reds."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Portugal Wine Regions: Map & Travel Guide",
+   "url": "https://www.cellartours.com/portugal/portuguese-wine-regions"
+  },
+  {
+   "title": "Guide to Portuguese wine regions",
+   "url": "http://www.wineanorak.com/portugals_wineregions.htm"
+  },
+  {
+   "title": "List of Portuguese wine regions",
+   "url": "https://en.wikipedia.org/wiki/List_of_Portuguese_wine_regions"
+  },
+  {
+   "title": "Portugal's Wine Regions: Vinho Verde, Douro Valley & More",
+   "url": "https://www.odynovotours.com/portugal/wine-regions.html"
+  },
+  {
+   "title": "Portugal Wine Regions: Douro, Alentejo & Vinho Verde",
+   "url": "https://yellowcabtttours.pt/blog/portugal-wine-guide/"
+  },
+  {
+   "title": "Portuguese Wines: Understanding Regions and Styles — Vines Play",
+   "url": "https://vinesplay.squarespace.com/magazine/2025/12/13/-portuguese-wines"
+  },
+  {
+   "title": "Wine Regions of Portugal: Douro, Alentejo & Co. explained",
+   "url": "https://valldoaido.ch/en/blogs/blog-valldo-aido/weinregionen-portugal-douro-bairrada-alentejo"
+  },
+  {
+   "title": "Portugal Wine Regions Map and Travel Guide",
+   "url": "https://travel-luck.com/blog/portugal-wine-regions"
+  }
+ ]
+}

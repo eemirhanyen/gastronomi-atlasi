@@ -1,0 +1,237 @@
+{
+ "iso3": "UKR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22055,
+  "out": 4834,
+  "searches": 2
+ },
+ "usd": 0.1125,
+ "summary": {
+  "tr": "Ukrayna'da bağcılık, Kırım'daki Yunan kolonileri döneminden, yani yaklaşık M.Ö. 4. yüzyıldan beri sürmektedir. Sovyet döneminde ve özellikle 1980'lerin ortasındaki alkol karşıtı kampanyada bağların büyük bölümü sökülmüş, 2014'te Kırım'ın ilhakıyla ülke ana bağ bölgesini kaybetmiştir. Bugün üretimin merkezi Odesa çevresindeki Karadeniz kıyısıdır. Sektör, 2022'de başlayan savaşa rağmen Odesa Black v",
+  "en": "Viticulture in Ukraine goes back to Greek colonies in Crimea around the 4th century BC. Soviet policy, and especially the anti-alcohol campaign of the mid-1980s, uprooted much of the vineyard area, and Russia's 2014 annexation of Crimea cost the country its main wine region. Production is now centred on the Black Sea coast around Odesa. Despite the war that began in 2022, the industry is turning t"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Odesa (Black Sea coast)",
+   "lat": 46.5,
+   "lng": 30.7,
+   "desc": {
+    "tr": "Ukrayna'nın en büyük ve en önemli şarap bölgesidir; Şabo ve Tairove gibi köklü şaraphanelere ve Tairov Enstitüsü'ne ev sahipliği yapar.",
+    "en": "Ukraine's largest and most important wine region, home to historic wineries such as Shabo and Tairove and the Tairov wine institute."
+   },
+   "grapes": [
+    "Odesa Black",
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay",
+    "Telti Kuruk"
+   ]
+  },
+  {
+   "name": "Danube Bessarabia",
+   "lat": 45.75,
+   "lng": 29.2,
+   "desc": {
+    "tr": "Moldova ve Romanya sınırındaki, Karadeniz'in ılımanlaştırdığı kıtasal iklimiyle bilinen güneybatı Odesa bölgesidir; Bolhrad çevresinde büyük ölçekli üreticiler ve butik şaraphaneler vardır.",
+    "en": "The south-western part of Odesa oblast on the Moldovan and Romanian borders, with a continental climate moderated by the Black Sea and both large estates and craft wineries around Bolhrad."
+   },
+   "grapes": [
+    "Odesa Black",
+    "Sukholimansky White",
+    "Rkatsiteli",
+    "Aligoté",
+    "Saperavi"
+   ]
+  },
+  {
+   "name": "Mykolaiv",
+   "lat": 47.0,
+   "lng": 31.8,
+   "desc": {
+    "tr": "Odesa'nın doğusunda yer alan, Karadeniz kıyı kuşağının önemli bir parçası olan geniş bağ alanlarına sahip bölgedir.",
+    "en": "A large vineyard area east of Odesa and an important part of the Black Sea coastal wine belt."
+   },
+   "grapes": [
+    "Odesa Black",
+    "Cabernet Sauvignon",
+    "Chardonnay",
+    "Saperavi"
+   ]
+  },
+  {
+   "name": "Kherson",
+   "lat": 46.6,
+   "lng": 32.6,
+   "desc": {
+    "tr": "Dnipro Nehri'nin aşağı kesimindeki kumlu topraklarıyla Ukrayna'nın en geniş bağ alanlarından birine sahiptir; savaştan ağır etkilenmiştir.",
+    "en": "A major vineyard area on the sandy soils of the lower Dnipro, severely affected by the war."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Telti Kuruk",
+    "Muscat",
+    "Rkatsiteli"
+   ]
+  },
+  {
+   "name": "Zakarpattia (Transcarpathia)",
+   "lat": 48.2,
+   "lng": 22.65,
+   "desc": {
+    "tr": "Berehove çevresindeki Macar ve Orta Avrupa etkili, zarif beyaz şaraplarıyla ve 'Tokaj-2' olarak anılan tepeleriyle tanınan batı bölgesidir.",
+    "en": "A western region around Berehove, known for elegant white wines with Hungarian and Central European influence and sometimes nicknamed 'Tokaj-2'."
+   },
+   "grapes": [
+    "Riesling",
+    "Traminer",
+    "Chardonnay",
+    "Cabernet Sauvignon",
+    "Merlot"
+   ]
+  }
+ ],
+ "dropped_regions": [
+  "Crimea (Southern Coast)"
+ ],
+ "grapes": [
+  {
+   "name": "Odesa Black",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "1948'de Tairov Enstitüsü'nde Alicante Bouschet ile Cabernet Sauvignon'un melezlenmesiyle elde edilen, koyu renkli ve tanenli ülke sembolü kırmızı üzümdür.",
+    "en": "A dark, tannic national flagship red bred in 1948 at the Tairov Institute by crossing Alicante Bouschet and Cabernet Sauvignon."
+   }
+  },
+  {
+   "name": "Sukholimansky White",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Chardonnay ile Moldova üzümü Plavai'nin melezi olan, Odesa Beyazı olarak da bilinen Ukrayna doğumlu beyaz üzümdür.",
+    "en": "A Ukrainian-bred white, also called Odesa White, crossed from Chardonnay and the Moldovan variety Plavai."
+   }
+  },
+  {
+   "name": "Telti Kuruk",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Güney Ukrayna'da yeniden keşfedilen, aromatik ve taze beyaz şaraplar veren yerel beyaz üzümdür.",
+    "en": "A local white grape revived in southern Ukraine, giving aromatic, fresh wines."
+   }
+  },
+  {
+   "name": "Bastardo Magarach",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kırım'daki Magaraç enstitüsünde geliştirilen, tatlı ve sıkma kırmızı şaraplarda kullanılan yerli bir kırmızı üzümdür.",
+    "en": "A red variety bred at the Magarach institute in Crimea, used for sweet and fortified-style red wines."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Odesa ve güney bölgelerinde en yaygın uluslararası kırmızı üzümlerden biridir.",
+    "en": "One of the most widely planted international reds in Odesa and the southern regions."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hem durgun şaraplarda hem de köpüklü şarap bazında kullanılan başlıca uluslararası beyaz üzümdür.",
+    "en": "A leading international white used for both still wines and sparkling bases."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Sovyet döneminde Gürcistan'dan getirilen ve Bessarabya'da yaygın olarak yetiştirilen beyaz üzümdür.",
+    "en": "A white grape of Georgian origin brought in during the Soviet era and widely grown in Bessarabia."
+   }
+  },
+  {
+   "name": "Saperavi",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli, güneydeki bölgelerde derin renkli kırmızı şaraplar veren bir üzümdür.",
+    "en": "A Georgian-origin grape giving deeply coloured reds in the southern regions."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Odesa Black varietal reds",
+   "desc": {
+    "tr": "Bir zamanlar yalnızca renk vermek için harmanlara katılan Odesa Black, bugün koyu, tanenli ve uzun ömürlü tek çeşit kırmızı şaraplara dönüşmektedir.",
+    "en": "Once used only to add colour to blends, Odesa Black now makes deep, tannic single-variety reds."
+   }
+  },
+  {
+   "name": "Sparkling wine (Shabo, Artwinery)",
+   "desc": {
+    "tr": "Köpüklü şarap, Sovyet döneminden gelen güçlü bir gelenektir ve Odesa, Kiev ve diğer şehirlerdeki büyük mahzenlerde üretilir.",
+    "en": "Sparkling wine is a strong tradition from the Soviet period, made in large cellars in Odesa, Kyiv and other cities."
+   }
+  },
+  {
+   "name": "Crimean dessert and fortified wines (Massandra)",
+   "desc": {
+    "tr": "Kırım'ın Masandra gibi tarihi şaraphanelerinden gelen tatlı ve sert şaraplar, ülkenin klasik tarzıdır ve 2014'ten beri Ukrayna'nın erişimi dışındadır.",
+    "en": "Sweet and fortified wines from historic Crimean cellars such as Massandra are a classic Ukrainian style, now outside Ukraine's control since 2014."
+   }
+  },
+  {
+   "name": "Zakarpattia whites and ice wines",
+   "desc": {
+    "tr": "Batı Ukrayna'nın Macar ve Avusturya etkili kuru beyazları, buz şarapları ve tatlı şarapları ayrı bir üsluba sahiptir.",
+    "en": "Western Ukraine's whites, ice wines and sweet wines show Hungarian and Austrian influence in a distinct style."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Wine production in Odesa Oblast",
+   "url": "https://en.wikipedia.org/wiki/Wine_production_in_Odesa_Oblast"
+  },
+  {
+   "title": "Wines of Ukraine",
+   "url": "https://www.shecodes.io/challenge_submissions/939699/embed"
+  },
+  {
+   "title": "Harvest time in a country at war",
+   "url": "https://www.internationalwinechallenge.com/Canopy-Articles/harvest-time-in-a-country-at-war.html"
+  },
+  {
+   "title": "Ukrainian wine: exploring country through tastes and flavors",
+   "url": "https://rubryka.com/en/article/ukrainian-wine/"
+  },
+  {
+   "title": "The Buyer",
+   "url": "https://www.the-buyer.net/insight/ukraine-wine-surviving-wartime-keay"
+  },
+  {
+   "title": "How the Russian Empire and the USSR affected winemaking and horticulture in Ukraine • Ukraїner",
+   "url": "https://www.ukrainer.net/en/how-the-russian-empire-and-the-ussr-affected-winemaking-and-horticulture-in-ukraine/"
+  },
+  {
+   "title": "Where are the wine regions in Ukraine? — Spirits — The Three Drinkers",
+   "url": "https://www.thethreedrinkers.com/magazine-content/tag/Where+are+the+wine+regions+in+Ukraine%3F"
+  },
+  {
+   "title": "Wine Tourism in Ukraine",
+   "url": "https://www.winetourism.com/wine-country/ukraine/"
+  }
+ ]
+}

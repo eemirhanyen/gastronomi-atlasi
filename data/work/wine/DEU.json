@@ -1,0 +1,263 @@
+{
+ "iso3": "DEU",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 14508,
+  "out": 3621,
+  "searches": 1
+ },
+ "usd": 0.0752,
+ "summary": {
+  "tr": "Almanya'da bağcılık Roma döneminde Mosel ve Ren vadilerinde başladı. Ortaçağda manastırlar bu geleneği geliştirdi. Bugün 13 resmî bölgede yaklaşık 103.000 hektar bağ var. Ülke, serin iklimin ürettiği Riesling'iyle, dik yamaç bağlarıyla ve şarapları şeker olgunluğuna göre sınıflandıran Prädikat sistemiyle tanınıyor.",
+  "en": "Viticulture in Germany began in Roman times in the Mosel and Rhine valleys, and medieval monasteries later developed it. Today the country has 13 official regions and about 103,000 hectares of vineyards. It is known for cool-climate Riesling, steep-slope vineyards and the Prädikat system, which classifies wines by grape ripeness."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Mosel",
+   "lat": 49.92,
+   "lng": 7.0,
+   "desc": {
+    "tr": "Dünyanın en büyük dik yamaç bağ alanına sahip, hafif ve asiditesi yüksek Riesling'leriyle ünlü bölge.",
+    "en": "Famed for light, high-acid Riesling from what is the world's largest steep-slope vineyard area."
+   },
+   "grapes": [
+    "Riesling",
+    "Elbling",
+    "Spätburgunder"
+   ]
+  },
+  {
+   "name": "Rheingau",
+   "lat": 50.0,
+   "lng": 8.0,
+   "desc": {
+    "tr": "Tarihî Riesling bağları ve Schloss Johannisberg gibi köklü üreticileriyle Almanya'nın en prestijli bölgelerinden biri.",
+    "en": "One of Germany's most prestigious regions, with historic Riesling vineyards and long-established estates such as Schloss Johannisberg."
+   },
+   "grapes": [
+    "Riesling",
+    "Spätburgunder"
+   ]
+  },
+  {
+   "name": "Rheinhessen",
+   "lat": 49.85,
+   "lng": 8.2,
+   "desc": {
+    "tr": "Almanya'nın en büyük bağ bölgesi. Çeşitliliğiyle ve geniş Silvaner ile Riesling plantasyonlarıyla bilinir.",
+    "en": "Germany's largest wine region, known for its diversity and large plantings of Silvaner and Riesling."
+   },
+   "grapes": [
+    "Riesling",
+    "Silvaner",
+    "Müller-Thurgau",
+    "Grauburgunder"
+   ]
+  },
+  {
+   "name": "Pfalz",
+   "lat": 49.3,
+   "lng": 8.1,
+   "desc": {
+    "tr": "Alman Şarap Yolu'na ev sahipliği yapan sıcak bölge. Riesling'in yanında Pinot çeşitleri ve kırmızı şaraplarıyla da öne çıkar.",
+    "en": "A warm region that hosts the German Wine Route, known for Riesling alongside Pinot varieties and red wines."
+   },
+   "grapes": [
+    "Riesling",
+    "Spätburgunder",
+    "Dornfelder",
+    "Grauburgunder"
+   ]
+  },
+  {
+   "name": "Franken",
+   "lat": 49.8,
+   "lng": 10.0,
+   "desc": {
+    "tr": "Main Nehri çevresinde Silvaner'i ve kendine özgü yassı şişesi Bocksbeutel ile tanınan bölge.",
+    "en": "Known for Silvaner along the Main river and for its distinctive flat bottle, the Bocksbeutel."
+   },
+   "grapes": [
+    "Silvaner",
+    "Müller-Thurgau",
+    "Riesling"
+   ]
+  },
+  {
+   "name": "Baden",
+   "lat": 48.4,
+   "lng": 8.0,
+   "desc": {
+    "tr": "Almanya'nın en güneyindeki, en sıcak ve güneşli bölge. Spätburgunder ve Pinot çeşitleriyle öne çıkar.",
+    "en": "Germany's southernmost, warmest and sunniest region, noted for Spätburgunder and other Pinot varieties."
+   },
+   "grapes": [
+    "Spätburgunder",
+    "Grauburgunder",
+    "Müller-Thurgau",
+    "Gutedel"
+   ]
+  },
+  {
+   "name": "Nahe",
+   "lat": 49.8,
+   "lng": 7.6,
+   "desc": {
+    "tr": "Çeşitli toprak yapılarından beliren mineral yapılı Riesling'leriyle tanınan bölge.",
+    "en": "Known for mineral-driven Riesling grown on very varied soils."
+   },
+   "grapes": [
+    "Riesling",
+    "Spätburgunder",
+    "Grauburgunder"
+   ]
+  },
+  {
+   "name": "Württemberg",
+   "lat": 49.1,
+   "lng": 9.2,
+   "desc": {
+    "tr": "Almanya'nın başlıca kırmızı şarap bölgesi. Trollinger ve Lemberger gibi yerel kırmızılarıyla bilinir.",
+    "en": "Germany's leading red wine region, known for local reds such as Trollinger and Lemberger."
+   },
+   "grapes": [
+    "Trollinger",
+    "Lemberger",
+    "Riesling",
+    "Spätburgunder"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Almanya'nın en önemli çeşidi. 24.000 hektardan fazla alanda yetişir ve kuru ile tatlı arasında çok geniş bir üslup yelpazesi sunar.",
+    "en": "Germany's flagship grape, planted on over 24,000 hectares and made in styles from bone-dry to lusciously sweet."
+   }
+  },
+  {
+   "name": "Silvaner",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Franken ve Rheinhessen'de öne çıkan, toprağı yansıtan, orta gövdeli eski bir beyaz çeşit.",
+    "en": "An old white variety, prominent in Franken and Rheinhessen, that gives earthy, medium-bodied wines."
+   }
+  },
+  {
+   "name": "Müller-Thurgau",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Riesling ile Madeleine Royale'in melezi olan, hafif ve düşük asiditeli, yaygın ekilen bir çeşit.",
+    "en": "A widely planted Riesling × Madeleine Royale crossing that gives mild, low-acid, easy-drinking wines."
+   }
+  },
+  {
+   "name": "Elbling",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Yüksek asiditeli, çok eski bir çeşit. Özellikle Yukarı Mosel'de yetişir ve genellikle Sekt yapımında kullanılır.",
+    "en": "A very old, high-acid variety grown mainly on the Upper Mosel and often used for Sekt."
+   }
+  },
+  {
+   "name": "Dornfelder",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Almanya'da geliştirilmiş, koyu renkli ve meyvemsi şaraplar veren modern bir kırmızı melez.",
+    "en": "A modern German-bred red crossing that gives deeply coloured, fruity wines."
+   }
+  },
+  {
+   "name": "Spätburgunder",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Pinot Noir'ın Almanca adı. Almanya'nın en yaygın kırmızı çeşididir ve Ahr ile Baden'de öne çıkar.",
+    "en": "The German name for Pinot Noir, the country's most planted red grape, excelling in Ahr and Baden."
+   }
+  },
+  {
+   "name": "Grauburgunder",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Pinot Gris'nin Almanca adı. Baden ve Pfalz'da dolgun gövdeli, kuru şaraplar verir.",
+    "en": "The German name for Pinot Gris, which makes full-bodied dry wines in Baden and Pfalz."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Prädikatswein (Kabinett–Trockenbeerenauslese)",
+   "desc": {
+    "tr": "Üzümün hasat anındaki olgunluk derecesine göre Kabinett'ten Trockenbeerenauslese'ye uzanan kademeli kalite sınıflandırması.",
+    "en": "A quality tier system ranging from Kabinett to Trockenbeerenauslese, based on grape ripeness at harvest."
+   }
+  },
+  {
+   "name": "Eiswein",
+   "desc": {
+    "tr": "Üzümlerin bağda donmuş hâlde hasat edilmesiyle yapılan, yoğun ve asiditesi yüksek tatlı şarap.",
+    "en": "A concentrated, high-acid sweet wine made from grapes harvested while frozen on the vine."
+   }
+  },
+  {
+   "name": "VDP Grosses Gewächs",
+   "desc": {
+    "tr": "VDP üreticilerinin en iyi bağ parsellerinden (Grosse Lage) ürettiği, kuru üslupta üst sınıf şaraplar.",
+    "en": "Top dry wines made by VDP members from their best vineyard sites (Grosse Lage)."
+   }
+  },
+  {
+   "name": "Sekt",
+   "desc": {
+    "tr": "Almanya'nın köpüklü şarabı. Riesling gibi çeşitlerden yapılan yüksek kaliteli Winzersekt örnekleri de vardır.",
+    "en": "Germany's sparkling wine, with high-quality Winzersekt examples made from varieties such as Riesling."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "A Simple Guide to the 13 German Wine Regions - SOMM TV Magazine",
+   "url": "https://mag.sommtv.com/2023/09/german-wine-regions/"
+  },
+  {
+   "title": "A profile of the 13 German winegrowing regions - Wines of Germany",
+   "url": "https://winesofgermany.co.uk/a-profile-of-the-13-german-wine-growing-regions/"
+  },
+  {
+   "title": "A profile of the 13 German wine-growing regions",
+   "url": "https://www.winesofgermany.com/news-media/news/news/783/die-13-deutschen-weinbaugebiete-im-profil"
+  },
+  {
+   "title": "A Beginner's Guide to German Wine: Regions, Varieties & More",
+   "url": "https://www.celebritycruises.com/blog/german-wine-regions"
+  },
+  {
+   "title": "Wine region germany",
+   "url": "https://www.prowein.com/en/Media_News/Academy/Knowledge_Skills/Wine_regions/Wine_region_Germany"
+  },
+  {
+   "title": "Mosel (wine region)",
+   "url": "https://en.wikipedia.org/wiki/Mosel_(wine_region)"
+  },
+  {
+   "title": "Baden (wine region)",
+   "url": "https://en.wikipedia.org/wiki/Baden_(wine_region)"
+  },
+  {
+   "title": "Rheingau (wine region)",
+   "url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)"
+  }
+ ]
+}

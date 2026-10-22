@@ -1,0 +1,250 @@
+{
+ "iso3": "RUS",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22696,
+  "out": 4633,
+  "searches": 2
+ },
+ "usd": 0.1117,
+ "summary": {
+  "tr": "Rusya'da bağcılık Karadeniz kıyıları, Don Nehri havzası ve Hazar'a komşu Dağıstan gibi güneydeki birkaç sıcak bölgede yoğunlaşır; Yunan kolonilerinden beri üzüm yetiştirilir, Çarlık döneminde Abrau-Dyurso'da Fransız uzmanlarla köpüklü şarap üretimi kuruldu. Sovyet döneminde \"Sovetskoye Shampanskoye\" markası ve tatlı, yarı tatlı şaraplar öne çıktı; 2000'lerden sonra Avrupa tekniklerinin benimsenmes",
+  "en": "Russian viticulture is concentrated in a few warm southern areas: the Black Sea coast, the Don River basin and Dagestan on the Caspian. Vines have been grown since the Greek colonies, and sparkling wine was made at Abrau-Dyurso with French specialists in the Tsarist era. The Soviet period brought \"Sovetskoye Shampanskoye\" and a taste for sweet and semi-sweet wines. Since the 2000s, European techni"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Taman Peninsula",
+   "lat": 45.25,
+   "lng": 37.35,
+   "desc": {
+    "tr": "Karadeniz ile Azak Denizi arasındaki, Rusya'nın hacim bakımından en büyük şarap üretim alanıdır; Cabernet Sauvignon, Merlot ve Chardonnay ile bilinir.",
+    "en": "Lying between the Black Sea and the Sea of Azov, it is Russia's largest wine-producing zone by volume, known for Cabernet Sauvignon, Merlot and Chardonnay."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay",
+    "Saperavi",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Abrau-Dyurso / Gelendzhik",
+   "lat": 44.7,
+   "lng": 37.6,
+   "desc": {
+    "tr": "Novorossiysk yakınındaki Abrau-Dyurso, 19. yüzyıldan beri Rusya'nın en ünlü köpüklü şarap merkezidir; Gelendzhik'in kireçtaşı yamaçları ise iddialı sakin şaraplar verir.",
+    "en": "Abrau-Dyurso near Novorossiysk has been Russia's best-known sparkling wine centre since the 19th century, while Gelendzhik's limestone slopes yield increasingly ambitious still wines."
+   },
+   "grapes": [
+    "Chardonnay",
+    "Riesling",
+    "Pinot Noir",
+    "Aligoté",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Kuban Valley (Krasnodar)",
+   "lat": 45.0,
+   "lng": 39.0,
+   "desc": {
+    "tr": "Krasnodar Krayı, ülkenin en geniş bağ alanına sahip ve hem sakin hem köpüklü şarapta en büyük üretici bölgesidir.",
+    "en": "Krasnodar Krai has the largest vineyard area in the country and is the biggest producer of both still and sparkling wine."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Chardonnay",
+    "Rkatsiteli",
+    "Saperavi",
+    "Krasnostop Zolotovsky"
+   ]
+  },
+  {
+   "name": "Don Valley (Rostov)",
+   "lat": 47.4,
+   "lng": 41.9,
+   "desc": {
+    "tr": "Vedernikov köyü ve Tsimlyansk çevresindeki bu bölge, yerli üzümleri ve kışın toprakla örtülen köklü asmalarıyla Rusya'nın en eski şarap geleneklerinden birine sahiptir.",
+    "en": "Around Vedernikov village and Tsimlyansk, this region holds one of Russia's oldest wine traditions, built on native grapes and own-rooted vines buried for winter."
+   },
+   "grapes": [
+    "Krasnostop Zolotovsky",
+    "Tsimlyansky Cherny",
+    "Sibirkovy",
+    "Pukhlyakovsky"
+   ]
+  },
+  {
+   "name": "Stavropol",
+   "lat": 45.0,
+   "lng": 41.9,
+   "desc": {
+    "tr": "Kuzey Kafkasya eteklerindeki Stavropol, Rusya şarap üretiminin yaklaşık yüzde 13'ünü sağlayan, uzun vejetasyon dönemli bir bölgedir.",
+    "en": "At the foot of the North Caucasus, Stavropol supplies roughly 13 percent of Russian wine and enjoys a long growing season."
+   },
+   "grapes": [
+    "Rkatsiteli",
+    "Cabernet Sauvignon",
+    "Aligoté",
+    "Riesling"
+   ]
+  },
+  {
+   "name": "Dagestan",
+   "lat": 43.6,
+   "lng": 46.9,
+   "desc": {
+    "tr": "Hazar Denizi kıyısındaki Dağıstan, Rusya'nın ikinci büyük bağ alanına sahiptir ve Derbent ile Kızlar çevresinde yerli üzümlerle bilinir.",
+    "en": "On the Caspian coast, Dagestan has Russia's second-largest vineyard area and is known for native grapes around Derbent and Kizlyar."
+   },
+   "grapes": [
+    "Rkatsiteli",
+    "Saperavi",
+    "Gülyabi Dagestanski",
+    "Bayan Shirey"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Krasnostop Zolotovsky",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Don havzasına özgü, yerli kırmızı üzümlerin en iyi potansiyelli sayılan çeşididir; tanenli ve yapılı şaraplar verir.",
+    "en": "A Don-basin native regarded as Russia's best local red grape, giving deeply coloured, tannic, structured wines."
+   }
+  },
+  {
+   "name": "Tsimlyansky Cherny",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Don bölgesinin köklü yerli çeşididir; geleneksel olarak köpüklü ve roze şaraplarda kullanılır.",
+    "en": "A historic Don native, traditionally used for the region's sparkling and rosé wines."
+   }
+  },
+  {
+   "name": "Sibirkovy",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Don bölgesinin başlıca yerli beyaz üzümüdür; ferah ve aromatik şaraplar verir.",
+    "en": "The main native white of the Don, producing fresh, aromatic wines."
+   }
+  },
+  {
+   "name": "Pukhlyakovsky",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Don Vadisi'ne özgü, genetik çalışmalarla yabani asmalara dayandığı gösterilen eski bir beyaz çeşittir.",
+    "en": "An ancient white native to the Don Valley, whose genetics trace back to local wild vines."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli bu çeşit, Rusya'da en geniş alanda yetiştirilen beyaz üzümlerden biridir.",
+    "en": "A Georgian-origin white that is among the most widely planted grapes in Russia."
+   }
+  },
+  {
+   "name": "Saperavi",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gürcü kökenli, koyu renkli bu kırmızı üzüm Kuban ve Taman'da yaygın olarak yetiştirilir.",
+    "en": "A dark-skinned red of Georgian origin, widely grown in Kuban and Taman."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Taman ve Gelendzhik'te en çok başvurulan uluslararası kırmızı çeşittir.",
+    "en": "The leading international red in Taman and Gelendzhik."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hem sakin hem de köpüklü şaraplarda Karadeniz kıyısında yaygın olarak kullanılan beyaz çeşittir.",
+    "en": "A white used widely on the Black Sea coast for both still and sparkling wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Sovetskoye Shampanskoye",
+   "desc": {
+    "tr": "Sovyet döneminde Abrau-Dyurso ile özdeşleşen, genellikle tank yöntemiyle yapılan ve hâlâ kullanılan ucuz köpüklü şarap markası/stilidir.",
+    "en": "The Soviet-era sparkling wine label, associated with Abrau-Dyurso, usually made by the tank method and still in use today."
+   }
+  },
+  {
+   "name": "Abrau-Durso geleneksel yöntem köpüklü şarapları",
+   "desc": {
+    "tr": "Chardonnay, Riesling ve Pinot Noir gibi çeşitlerle yapılan Brut d'Or ve Imperial serileri, Rusya'nın köpüklü şarap referansıdır.",
+    "en": "The Brut d'Or and Imperial lines, made from varieties such as Chardonnay, Riesling and Pinot Noir, are Russia's sparkling reference point."
+   }
+  },
+  {
+   "name": "Tsimlyanskoye / Tsimlyansky Black Brut",
+   "desc": {
+    "tr": "Don'un yerli Tsimlyansky Cherny üzümünden yapılan, bölgenin tarihsel köpüklü şarap geleneğini sürdüren kırmızı üzümden köpüklü şaraplardır.",
+    "en": "Sparkling wines from the native Tsimlyansky Cherny grape, continuing the Don's historic sparkling tradition."
+   }
+  },
+  {
+   "name": "Yarı tatlı ve tatlı şaraplar",
+   "desc": {
+    "tr": "Rus pazarının büyük bölümünü oluşturan, özellikle ekonomik segmentte ağır basan şarap stilidir.",
+    "en": "The style that makes up most of the Russian market, especially in the economy segment."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Don Valley Wine Region - Buy Wines From Russia",
+   "url": "https://vinovoss.com/regions/don-valley-russia/"
+  },
+  {
+   "title": "Russian wine",
+   "url": "https://en.wikipedia.org/wiki/Russian_wine"
+  },
+  {
+   "title": "Krasnostop",
+   "url": "https://en.wikipedia.org/wiki/Krasnostop"
+  },
+  {
+   "title": "Winemaking in Russia",
+   "url": "https://en.wikipedia.org/wiki/Winemaking_in_Russia"
+  },
+  {
+   "title": "Best Russian wine: 8 award-winning bottles to try",
+   "url": "https://cluboenologique.com/review/best-russian-wine/"
+  },
+  {
+   "title": "Russia — EverWonderWine?",
+   "url": "https://www.everwonderwine.com/russia"
+  },
+  {
+   "title": "Купить Российское вино в Москве - цены на вино из России",
+   "url": "https://amelia.com.ru/en/wines/russian-wines/"
+  },
+  {
+   "title": "The Russian Wine Industry from A to Z (2020)",
+   "url": "https://vineandwine.vin/en/articles/russian-wine-industry-2020/"
+  }
+ ]
+}

@@ -1,0 +1,269 @@
+{
+ "iso3": "CAN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22811,
+  "out": 4759,
+  "searches": 2
+ },
+ "usd": 0.1132,
+ "summary": {
+  "tr": "Kanada'da şarapçılık 19. yüzyılda başladı. İlk tarihî mülk şaraphanesi Vin Villa, 1871'de Ontario'daki Pelee Adası'nda kuruldu ve erken dönem şaraplar Concord ve Catawba gibi sofralık üzümlerden yapıldı. Üretim bugün ağırlıklı olarak Ontario (Niagara Yarımadası) ve British Columbia'da (Okanagan Vadisi) yoğunlaşmıştır. Ontario'da 1989'da, British Columbia'da 1990'da kurulan VQA sistemi bölgenin ilk",
+  "en": "Canadian winemaking began in the 19th century. The first estate winery, Vin Villa, was founded on Pelee Island, Ontario, in 1871, and early wines were made from table grapes such as Concord and Catawba. Production is now concentrated mainly in Ontario (the Niagara Peninsula) and British Columbia (the Okanagan Valley). The VQA system, set up in Ontario in 1989 and in British Columbia in 1990, was t"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Niagara Peninsula",
+   "lat": 43.15,
+   "lng": -79.4,
+   "desc": {
+    "tr": "Ontario'nun en önemli bağcılık bölgesidir. Göl etkili serin iklimi sayesinde Riesling, Chardonnay, Cabernet Franc ve dünyaca ünlü Icewine ile tanınır.",
+    "en": "Ontario's most important viticultural area, where the lake-moderated cool climate yields Riesling, Chardonnay, Cabernet Franc and world-famous Icewine."
+   },
+   "grapes": [
+    "Riesling",
+    "Chardonnay",
+    "Cabernet Franc",
+    "Vidal",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Okanagan Valley",
+   "lat": 49.6,
+   "lng": -119.6,
+   "desc": {
+    "tr": "British Columbia'nın en büyük şarap bölgesidir. Yarı kurak ikliminde kuzeyde serin iklim beyazları, güneyde Merlot, Syrah ve Cabernet Sauvignon yetişir.",
+    "en": "British Columbia's largest wine region, where the semi-arid valley gives cooler-climate whites in the north and Merlot, Syrah and Cabernet Sauvignon in the south."
+   },
+   "grapes": [
+    "Merlot",
+    "Pinot Noir",
+    "Chardonnay",
+    "Syrah",
+    "Pinot Gris"
+   ]
+  },
+  {
+   "name": "Prince Edward County",
+   "lat": 44.0,
+   "lng": -77.2,
+   "desc": {
+    "tr": "Ontario Gölü kıyısındaki kireçtaşı topraklı bu bölge, özellikle Pinot Noir ve Chardonnay gibi Burgundy tarzı şaraplarıyla tanınır.",
+    "en": "A limestone-based region on Lake Ontario, known for Burgundy-style Pinot Noir and Chardonnay."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Lake Erie North Shore",
+   "lat": 42.05,
+   "lng": -82.7,
+   "desc": {
+    "tr": "Kanada'nın en güneydeki şarap bölgesidir. Pelee Adası'nı da içerir ve ülkenin en sıcak bağcılık koşullarına sahiptir.",
+    "en": "Canada's southernmost wine region, including Pelee Island, with some of the country's warmest growing conditions."
+   },
+   "grapes": [
+    "Cabernet Franc",
+    "Merlot",
+    "Chardonnay",
+    "Pinot Gris"
+   ]
+  },
+  {
+   "name": "Similkameen Valley",
+   "lat": 49.2,
+   "lng": -119.85,
+   "desc": {
+    "tr": "Okanagan'ın batısındaki, rüzgârlı ve kurak bu dağ vadisi, yoğun kırmızı şarapları ve organik bağcılıkla tanınır.",
+    "en": "A dry, windy mountain valley west of the Okanagan, known for concentrated reds and a strong organic viticulture tradition."
+   },
+   "grapes": [
+    "Merlot",
+    "Cabernet Franc",
+    "Syrah",
+    "Gewürztraminer"
+   ]
+  },
+  {
+   "name": "Cowichan Valley (Vancouver Island)",
+   "lat": 48.8,
+   "lng": -123.7,
+   "desc": {
+    "tr": "Vancouver Adası'nın serin ve nemli kıyı iklimi, aromatik beyaz şaraplar ve hibrit üzümler için uygundur.",
+    "en": "Vancouver Island's cool, damp maritime climate suits aromatic whites and hybrid grapes."
+   },
+   "grapes": [
+    "Pinot Gris",
+    "Ortega",
+    "Pinot Noir",
+    "Marechal Foch"
+   ]
+  },
+  {
+   "name": "Nova Scotia (Annapolis Valley)",
+   "lat": 45.05,
+   "lng": -64.5,
+   "desc": {
+    "tr": "Doğu Kanada'nın serin iklimli şarap bölgesidir. Ferah beyazlar, köpüklü şaraplar ve Tidal Bay appellation'ı ile bilinir.",
+    "en": "Eastern Canada's cool-climate wine area, known for crisp whites, sparkling wines and the Tidal Bay appellation."
+   },
+   "grapes": [
+    "L'Acadie Blanc",
+    "Seyval Blanc",
+    "Chardonnay",
+    "Pinot Noir"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "L'Acadie Blanc",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kanada'da geliştirilmiş bir hibrit çeşittir. Nova Scotia'da ferah beyaz ve köpüklü şaraplarda kullanılır.",
+    "en": "A Canadian-bred hybrid used in Nova Scotia for crisp white and sparkling wines."
+   }
+  },
+  {
+   "name": "Vidal",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Kışa dayanıklı bir hibrit çeşit olup Kanada Icewine'ının geleneksel temel üzümüdür.",
+    "en": "A winter-hardy hybrid that is the traditional backbone of Canadian Icewine."
+   }
+  },
+  {
+   "name": "Riesling",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Niagara'nın en başarılı beyaz çeşitlerinden biridir. Kuru, sek-üstü ve Icewine olarak üretilir.",
+    "en": "One of Niagara's most successful whites, made dry, off-dry and as Icewine."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Hem Ontario'da hem British Columbia'da yaygındır. Taze, az meşeli ya da daha dolgun tarzlarda yapılır.",
+    "en": "Widely planted in both Ontario and British Columbia, from fresh and lightly oaked to fuller styles."
+   }
+  },
+  {
+   "name": "Cabernet Franc",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ontario'nun öne çıkan kırmızı çeşididir. Kırmızı şaraplarda ve Icewine'da da kullanılır.",
+    "en": "Ontario's signature red grape, used for table wines and also for red Icewine."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Okanagan'ın en yaygın çeşidi olup sıcak güney bölgelerinde tam olgunlaşır.",
+    "en": "The most planted variety in the Okanagan, ripening fully in the warmer southern sites."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Okanagan, Niagara ve Prince Edward County'de yetişir. Serin iklimin zarif kırmızı şaraplarını verir.",
+    "en": "Grown in the Okanagan, Niagara and Prince Edward County, giving elegant cool-climate reds."
+   }
+  },
+  {
+   "name": "Baco Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Fransız kökenli bir hibrit olup Ontario'da koyu renkli, asidi yüksek kırmızı şaraplar verir.",
+    "en": "A French-bred hybrid that gives deeply coloured, high-acid reds in Ontario."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Icewine",
+   "desc": {
+    "tr": "Üzümlerin bağda donmasıyla elde edilen tatlı şaraptır. VQA kurallarına göre hasat için en az -8°C gerekir ve Niagara'da genellikle Vidal, Riesling ve Cabernet Franc ile yapılır.",
+    "en": "A sweet wine made from grapes frozen on the vine. VQA rules require at least -8°C to harvest, and in Niagara it is typically made from Vidal, Riesling and Cabernet Franc."
+   }
+  },
+  {
+   "name": "VQA (Vintners Quality Alliance)",
+   "desc": {
+    "tr": "Kanada'nın appellation ve kalite güvence sistemidir. Yalnızca Ontario ve British Columbia'da uygulanır ve şarapların kimyasal analiz ile duyusal değerlendirmeden geçmesini gerektirir.",
+    "en": "Canada's appellation and quality-assurance system, applied only in Ontario and British Columbia, requiring wines to pass chemical analysis and sensory evaluation."
+   }
+  },
+  {
+   "name": "Niagara Peninsula sub-appellations",
+   "desc": {
+    "tr": "Ontario VQA, 2005'te Niagara'da on alt appellation belirledi. Bunlar, bölgedeki farklı mikro iklim ve toprak koşullarını yansıtır.",
+    "en": "In 2005 Ontario VQA established ten sub-appellations in Niagara to reflect the area's varied microclimates and soils."
+   }
+  },
+  {
+   "name": "Golden Mile Bench",
+   "desc": {
+    "tr": "Okanagan'daki bu alt bölge, 2015'te British Columbia VQA'nın tanıdığı ilk alt appellation oldu.",
+    "en": "This Okanagan sub-region became the first sub-appellation recognised by BC VQA in 2015."
+   }
+  },
+  {
+   "name": "Tidal Bay",
+   "desc": {
+    "tr": "Nova Scotia'ya özgü, ferah ve düşük alkollü bir beyaz şarap appellation'ıdır. Okyanus ürünleriyle uyumlu olması amaçlanır.",
+    "en": "A Nova Scotia appellation for crisp, lower-alcohol white wines intended to pair with seafood."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "VQA Origin Quality Authenticity",
+   "url": "https://grapeandwineryboard.nebraska.gov/vqa_overview_nebraska2010.pdf"
+  },
+  {
+   "title": "The Fine Vintage Canadian Wine Scholar Study Guide",
+   "url": "https://www.finevintageltd.com/wp-content/uploads/2019/12/Fine-Vintage-Canadian-Wine-Scholar-Study-Guide.pdf"
+  },
+  {
+   "title": "Inniskillin",
+   "url": "https://en.wikipedia.org/wiki/Inniskillin"
+  },
+  {
+   "title": "Okanagan Valley Wines - Wine Regions of Canada",
+   "url": "https://www.wine-searcher.com/regions-okanagan+valley"
+  },
+  {
+   "title": "Wine Tourism in Canada: Regions & Wineries",
+   "url": "https://www.winetourism.com/wine-country/canada/"
+  },
+  {
+   "title": "Canada's wine region - Watt Wines",
+   "url": "https://wattwines.com/country/canadian-wineries/"
+  },
+  {
+   "title": "🇨🇦 the World of Canada Wines: A Compact Comprehensive Guide - International Premium Niche Sommelier Job Portal",
+   "url": "https://www.sommelier-jobs.com/2023/12/10/exploring-the-world-of-canada-wines-a-compact-comprehensive-guide/"
+  },
+  {
+   "title": "The Wines of Canada Explained",
+   "url": "https://www.somm.site/articles/wines-of-canada-explained"
+  }
+ ]
+}

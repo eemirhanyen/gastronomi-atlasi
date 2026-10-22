@@ -1,0 +1,245 @@
+{
+ "iso3": "ISR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24293,
+  "out": 4376,
+  "searches": 2
+ },
+ "usd": 0.1123,
+ "summary": {
+  "tr": "İsrail toprakları, Galilee ve Yahuda Tepeleri'nde bulunan antik şarap baskılarının gösterdiği gibi çok eski bir şarapçılık geçmişine sahiptir. Osmanlı döneminde şarap üretimi geriledi. Modern şarapçılık 19. yüzyıl sonunda yeniden başladı. Kaliteye yönelik dönüşüm 1970'lerin sonu ile 1980'lerde yükseksemt bölgelerdeki yeni bağlarla ivme kazandı. Bugün yaklaşık 5.500 hektar bağ ve çoğu butik ölçekte",
+  "en": "The land of Israel has a very old winemaking past, shown by ancient wine presses found across the Galilee and the Judean Hills. Production declined under Ottoman rule, and modern winemaking restarted in the late 19th century. A quality revolution gathered pace from the late 1970s and 1980s with new vineyards in cooler, higher-altitude areas. Today there are about 5,500 hectares of vines and severa"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Upper Galilee",
+   "lat": 33.0,
+   "lng": 35.4,
+   "desc": {
+    "tr": "Yüksek rakımlı, volkanik, çakıllı ve terra rossa topraklı dağlık bölgedir. Ülkenin en kaliteli ve en güzel bağ alanlarından biri sayılır.",
+    "en": "A mountainous high-altitude area of volcanic, gravel and terra rossa soils. It is regarded as one of Israel's finest and most beautiful vineyard regions."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Syrah",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Lower Galilee",
+   "lat": 32.7,
+   "lng": 35.4,
+   "desc": {
+    "tr": "Tabor Dağı çevresinde, volkanik ve kireçtaşı karışımı topraklara sahip, Galilee'nin daha küçük ve daha alçak kesimidir.",
+    "en": "The lower, smaller part of the Galilee around Mount Tabor, with mixed volcanic and limestone soils."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Judean Hills",
+   "lat": 31.75,
+   "lng": 35.05,
+   "desc": {
+    "tr": "Kudüs çevresindeki kireçtaşlı, yüksek tepelerde yer alır. Butik şaraphanelerin yoğunluğu ve zarif Syrah ile Bordeaux tarzı karışımlarıyla tanınır.",
+    "en": "Located in the high limestone hills around Jerusalem, it is known for its dense cluster of boutique wineries and for elegant Syrah and Bordeaux-style blends."
+   },
+   "grapes": [
+    "Syrah",
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Judean Foothills (Shimshon)",
+   "lat": 31.69,
+   "lng": 34.9,
+   "desc": {
+    "tr": "Ülkenin en geniş bağ alanını barındıran, Ella Vadisi gibi sıcak ve geçiş niteliğindeki yamaçlardan oluşan bölgedir.",
+    "en": "A warmer transitional area of foothills such as the Ella Valley, and the country's largest share of vineyard area."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Syrah",
+    "Carignan"
+   ]
+  },
+  {
+   "name": "Shomron (Mount Carmel)",
+   "lat": 32.57,
+   "lng": 34.95,
+   "desc": {
+    "tr": "Karmel Dağı ve Zikhron Yaakov çevresindeki, modern İsrail şarapçılığının doğduğu ve kıyı esintilerinden etkilenen tarihi bölgedir.",
+    "en": "The historic coastal area around Mount Carmel and Zichron Yaakov, where modern Israeli winemaking began, shaped by sea breezes."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Carignan",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Negev Highlands",
+   "lat": 30.85,
+   "lng": 34.78,
+   "desc": {
+    "tr": "Çölde damla sulamayla yetiştirilen bağlarıyla ülkenin en şaşırtıcı bölgesidir. Gündüz ile gece arasındaki sıcaklık farkı büyüktür.",
+    "en": "The country's most surprising region, with desert vineyards grown under drip irrigation and a large gap between day and night temperatures."
+   },
+   "grapes": [
+    "Syrah",
+    "Colombard",
+    "Cabernet Sauvignon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Argaman",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Carignan ile Portekiz üzümü Souzão'nun çaprazlanmasıyla İsrail'de geliştirilmiş, koyu renkli ve meyvemsi şaraplar veren kırmızı çeşittir.",
+    "en": "A red grape bred in Israel from Carignan and the Portuguese Souzão, giving deeply coloured, fruity wines."
+   }
+  },
+  {
+   "name": "Marawi (Hamdani)",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Levant'a özgü, ilk kez 2014'te ticari şarap olarak yeniden üretilen, mineral ve narenciye tonlu beyaz çeşittir.",
+    "en": "A white grape native to the Levant, first revived as a commercial wine in 2014, with crisp minerality and citrus notes."
+   }
+  },
+  {
+   "name": "Dabouki",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kalın kabuklu, aromatik ve hafif oksidatif karakterli, geleneksel olarak sofralık ve damıtmalık kullanılan beyaz çeşittir.",
+    "en": "A traditional white grape with thick skins and a perfumed, slightly oxidative character, long used as a table grape and for distillation."
+   }
+  },
+  {
+   "name": "Bittuni",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Hafif, meyvemsi ve baharatlı şaraplar veren, Pinot Noir ile Grenache arası bir tarzda anılan yerel kırmızı çeşittir.",
+    "en": "A local red grape making light, fruity, spicy wines often compared to a cross between Pinot Noir and Grenache."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Modern İsrail şarap endüstrisinin temel çeşidi olup Galilee ve Yahuda Tepeleri'nde yapılı, koyu meyveli şaraplar verir.",
+    "en": "A cornerstone of the modern Israeli wine industry, giving structured, dark-fruited wines in the Galilee and Judean Hills."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Yahuda Tepeleri ve Negev'de başarılı olan, baharatlı ve dolgun gövdeli şaraplar veren bir çeşittir.",
+    "en": "A variety that thrives in the Judean Hills and the Negev, making spicy, full-bodied wines."
+   }
+  },
+  {
+   "name": "Carignan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Eski bağlardan gelen ve Akdeniz tarzı şaraplarda yeniden değer kazanan kırmızı çeşittir.",
+    "en": "A red grape from old vines that is regaining value in Mediterranean-style wines."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Daha serin ve yüksek bağlarda tazelik veren, ülkenin önde gelen beyaz çeşitlerinden biridir.",
+    "en": "One of the leading white grapes, giving freshness in cooler, higher-altitude vineyards."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bordeaux-style blends",
+   "desc": {
+    "tr": "Cabernet Sauvignon ve Merlot esaslı, Akdeniz'e özgü otsu ve garrigue notaları taşıyan yapılı kırmızı karışımlardır.",
+    "en": "Structured reds based on Cabernet Sauvignon and Merlot, with a savoury, garrigue-like Mediterranean character."
+   }
+  },
+  {
+   "name": "Kosher wine",
+   "desc": {
+    "tr": "İhracata giden İsrail şaraplarının çoğu koşerdir. Mevushal sertifikası ise şarabın pişirilmiş (ısıl işlem görmüş) olduğunu gösterir.",
+    "en": "Most Israeli export wine is kosher, and a Mevushal certificate means the wine has been flash-heated."
+   }
+  },
+  {
+   "name": "Galil appellation",
+   "desc": {
+    "tr": "Kuzeydeki Galilee, ülkenin en iyi kabul edilen şarap bölgesi olarak öne çıkar.",
+    "en": "The Galilee in the north is widely regarded as the country's best wine appellation."
+   }
+  },
+  {
+   "name": "Native-grape wines",
+   "desc": {
+    "tr": "Marawi, Dabouki ve Bittuni gibi yeniden keşfedilen yerel çeşitlerden yapılan, az üretilen ama ilgi gören şaraplardır.",
+    "en": "Small-volume wines from rediscovered local grapes such as Marawi, Dabouki and Bittuni, which attract growing interest."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Wine Regions of Israel: Travel Guide",
+   "url": "https://www.winetraveler.com/destinations/israel/"
+  },
+  {
+   "title": "Kosher Israeli Wines",
+   "url": "https://www.kosherwine.com/discover/israeli-kosher-wines.html"
+  },
+  {
+   "title": "ISRAEL WINE MAP - REGIONS - Israeli Wines - Pride of IsraelIsraeli Wines",
+   "url": "https://winesisrael.com/en/5218/israel-wine-map-regions/"
+  },
+  {
+   "title": "Discover the Rich Legacy of Israeli Wine Production",
+   "url": "https://www.vinology.com/israeli-wine/"
+  },
+  {
+   "title": "ISRAEL?S WINE REGIONS - Israeli Wines - Pride of IsraelIsraeli Wines",
+   "url": "https://winesisrael.com/en/153/israels-wine-regions/"
+  },
+  {
+   "title": "Israeli Wine Guide - Galilee & Kosher Wines",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/israeli-wine-the-ancient-land-making-thoroughly-modern-wine"
+  },
+  {
+   "title": "The Ultimate Guide to Israeli Wine Regions: Terroir, Grapes, and Top Vineyards",
+   "url": "https://www.israel-catalog.com/buying-guides/food-wine/ultimate-guide-israeli-wine-regions-terroir-grapes-and-top-vineyards"
+  },
+  {
+   "title": "Israel Wine Regions Guide: Golan, Galilee, Judean Hills, Negev",
+   "url": "https://exclusiveisraeltours.com/israel-wine-tour-experience-the-elegance-of-the-wine-country/"
+  }
+ ]
+}

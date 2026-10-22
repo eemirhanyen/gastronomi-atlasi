@@ -1,0 +1,213 @@
+{
+ "iso3": "MNE",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23501,
+  "out": 3879,
+  "searches": 2
+ },
+ "usd": 0.1058,
+ "summary": {
+  "tr": "Karadağ'da bağcılığın 2.000 yılı aşkın bir geçmişi vardır. Üretim, Skadar Gölü çevresindeki Podgorica ovasında ve Adriyatik kıyısında yoğunlaşır. 1963'te kurulan devlet şirketi 13. Jul Plantaže, yaklaşık 2.300 hektarlık tek parça bağıyla Avrupa'nın en büyük bağlarından birini işletir ve ülke şarabının büyük bölümünü üretir. Ülkenin simge üzümleri kırmızı Vranac ve beyaz Krstač'tır. Küçük aile imal",
+  "en": "Viticulture in Montenegro goes back more than 2,000 years. Production is concentrated on the Podgorica plain around Lake Skadar and along the Adriatic coast. The state-owned 13. Jul Plantaže, founded in 1963, farms about 2,300 hectares in a single vineyard, one of Europe's largest, and makes most of the country's wine. The signature grapes are the red Vranac and the white Krstač. Small family wine"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Podgorica (Ćemovsko polje)",
+   "lat": 42.35,
+   "lng": 19.22,
+   "desc": {
+    "tr": "Plantaže'nin geniş bağlarına ev sahipliği yapan, Vranac ve Krstač üretiminin merkezi olan sıcak ve kireçtaşı ağırlıklı ova.",
+    "en": "A warm, limestone-rich plain that holds Plantaže's vast vineyards and is the centre of Vranac and Krstač production."
+   },
+   "grapes": [
+    "Vranac",
+    "Krstač",
+    "Kratošija",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Crmnica",
+   "lat": 42.25,
+   "lng": 19.08,
+   "desc": {
+    "tr": "Virpazar çevresinde, Vranac'ın beşiği sayılan ve küçük aile üreticileriyle tanınan alt bölge.",
+    "en": "A subregion around Virpazar, regarded as the cradle of Vranac and known for small family producers."
+   },
+   "grapes": [
+    "Vranac",
+    "Kratošija",
+    "Krstač",
+    "Malvazija"
+   ]
+  },
+  {
+   "name": "Skadar Gölü",
+   "lat": 42.2,
+   "lng": 19.28,
+   "desc": {
+    "tr": "Balkanların en büyük gölünün iklimi yumuşattığı, ülkenin en önemli ve en çok ziyaret edilen şarap bölgesi.",
+    "en": "The country's most important and most visited wine region, where the Balkans' largest lake moderates the climate."
+   },
+   "grapes": [
+    "Vranac",
+    "Krstač",
+    "Kratošija",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Bjelopavlići",
+   "lat": 42.55,
+   "lng": 19.12,
+   "desc": {
+    "tr": "Danilovgrad çevresinde, Skadar Gölü şarap bölgesi içinde yer alan ve Podgorica'nın kuzeyine uzanan bağ alanı.",
+    "en": "A vineyard area around Danilovgrad, part of the Lake Skadar wine region, stretching north of Podgorica."
+   },
+   "grapes": [
+    "Vranac",
+    "Krstač",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Primorje (Kıyı Bölgesi)",
+   "lat": 42.09,
+   "lng": 19.1,
+   "desc": {
+    "tr": "Bar, Ulcinj ve Herceg Novi çevresinde, Akdeniz etkisiyle beyaz şaraplarda güçlü olan kıyı bağları.",
+    "en": "Coastal vineyards around Bar, Ulcinj and Herceg Novi, where the Mediterranean climate favours white wines."
+   },
+   "grapes": [
+    "Malvazija",
+    "Kratošija",
+    "Grenache",
+    "Cabernet Sauvignon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Vranac",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Adı \"kara at\" anlamına gelen, koyu renkli, yüksek tanenli ve güçlü yapılı ulusal kırmızı üzüm.",
+    "en": "The national red grape, whose name means \"black horse\", making dark, tannic and powerful wines."
+   }
+  },
+  {
+   "name": "Kratošija",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Zinfandel ve Primitivo ile aynı olduğu genetik olarak kanıtlanan, Vranac'tan daha hafif ve meyvemsi tarihî kırmızı üzüm.",
+    "en": "A historic red grape genetically identical to Zinfandel and Primitivo, lighter and fruitier than Vranac."
+   }
+  },
+  {
+   "name": "Krstač",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Podgorica çevresiyle özdeşleşen, taze asiditeli ve aromatik kuru beyazlar veren yerli beyaz üzüm.",
+    "en": "A native white grape tied to the Podgorica area, giving dry, aromatic whites with fresh acidity."
+   }
+  },
+  {
+   "name": "Malvazija",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle kıyı bölgesinde yetiştirilen, narenciye notalı ferah bir beyaz üzüm.",
+    "en": "A refreshing white grape with citrus notes, grown especially in the coastal region."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Skadar Gölü ve kıyı bölgelerinde yaygın yetiştirilen, Vranac'tan sonra en çok dikilen ikinci çeşit.",
+    "en": "Widely planted around Lake Skadar and on the coast, and the second most planted variety there after Vranac."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Podgorica bağlarında yetiştirilen, yumuşak ve dengeli şaraplar veren uluslararası kırmızı üzüm.",
+    "en": "An international red grape grown in the Podgorica vineyards, giving soft, balanced wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Vranac Pro Corde",
+   "desc": {
+    "tr": "Plantaže'nin amiral gemisi sayılan, 2023 Decanter World Wine Awards'ta gümüş madalya kazanan Vranac şarabı.",
+    "en": "Plantaže's flagship Vranac, which won a Silver medal at the 2023 Decanter World Wine Awards."
+   }
+  },
+  {
+   "name": "Vranac (coğrafi işaret)",
+   "desc": {
+    "tr": "1977'den beri Karadağ'da coğrafi menşe işaretiyle korunan, dolgun gövdeli ve tanenli kırmızı şarap.",
+    "en": "A full-bodied, tannic red protected as a Montenegrin geographical indication since 1977."
+   }
+  },
+  {
+   "name": "Krstač",
+   "desc": {
+    "tr": "Taze ve aromatik yapısıyla ülkenin kırmızılarına ferah bir karşıtlık oluşturan kuru beyaz şarap.",
+    "en": "A fresh, aromatic dry white that offers a lighter contrast to the country's heavier reds."
+   }
+  },
+  {
+   "name": "Kratošija (Primitivo di Montenegro)",
+   "desc": {
+    "tr": "Vranac'tan daha hafif ve meyvemsi olan, tek başına ya da Vranac ile karışım olarak içilen kırmızı şarap.",
+    "en": "A red wine lighter and fruitier than Vranac, bottled on its own or blended with Vranac."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Montenegro for wine lovers",
+   "url": "https://www.decanter.com/wine/montenegro-for-wine-lovers-508899/"
+  },
+  {
+   "title": "Wine Flight: Montenegro - Wine between the Adriatic Sea and the Black Mountains",
+   "url": "https://magazine.wein.plus/wine-between-the-adriatic-and-the-black-mountains-wine-flight-montenegro"
+  },
+  {
+   "title": "Vranac",
+   "url": "https://en.wikipedia.org/wiki/Vranac"
+  },
+  {
+   "title": "Plantaže Vineyards and the most famous Montenegrin wines",
+   "url": "https://www.livetheworld.com/post/plantaze-vineyards-and-the-most-famous-montenegrin-wines-86fl"
+  },
+  {
+   "title": "Montenegro's Wine Region: Tastings & Traditional Vineyards",
+   "url": "https://www.thoroughlytravel.com/montenegro-wine-region/"
+  },
+  {
+   "title": "Montenegrin wine",
+   "url": "https://en.wikipedia.org/wiki/Montenegrin_wine"
+  },
+  {
+   "title": "Discover the best wines and producers of Montenegro",
+   "url": "https://www.vinerra.com/country/montenegro"
+  },
+  {
+   "title": "Wines of Montenegro",
+   "url": "https://sunraf.com/wine-in-montenegro"
+  }
+ ]
+}

@@ -1,0 +1,226 @@
+{
+ "iso3": "AZE",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 21022,
+  "out": 4045,
+  "searches": 2
+ },
+ "usd": 0.1025,
+ "summary": {
+  "tr": "Azerbaycan'da şarap yapımının izleri arkeolojik bulgularla M.Ö. 2. bin yıla kadar uzanır. Ülkede Şamahı, Gence-Gazah ve Göygöl gibi bölgelerde köklü bir bağcılık geleneği gelişmiştir. 1980'lerdeki Sovyet içki karşıtı kampanya bağların büyük bölümünü yok etmiştir. Bağcılık 2000'lerden beri yeniden canlandırılmaktadır ve Mədrəsə ile Bayan Şirə gibi yerli üzümler yeniden öne çıkmaktadır.",
+  "en": "Archaeological finds trace winemaking in the territory of Azerbaijan back to the second millennium BC. Regions such as Shamakhi, Ganja-Gazakh and Goygol built a long viticultural tradition. The Soviet anti-alcohol campaign of the 1980s uprooted most of the vineyards. The sector has been rebuilt since the 2000s, and native grapes such as Madrasa and Bayan Shira are returning to the spotlight."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Shamakhi (Shirvan)",
+   "lat": 40.63,
+   "lng": 48.64,
+   "desc": {
+    "tr": "Eski Şirvan devletinin başkenti olan bölge, Mədrəsə köyünün de bulunduğu yerdir. Organik bağcılığıyla ve yeniden canlanan şarapçılığıyla tanınır.",
+    "en": "The former capital of the Shirvan state, and home to Madrasa village, it is known for organic viticulture and a revived wine industry."
+   },
+   "grapes": [
+    "Madrasa",
+    "Bayan Shira",
+    "Saperavi",
+    "Rkatsiteli"
+   ]
+  },
+  {
+   "name": "Ismayilli",
+   "lat": 40.79,
+   "lng": 48.15,
+   "desc": {
+    "tr": "Büyük Kafkasya'nın güney yamaçlarındaki bu bölge, yerli üzümlere odaklanan köklü şaraphanelere ev sahipliği yapar.",
+    "en": "On the southern slopes of the Greater Caucasus, this district hosts established wineries that focus on native grapes."
+   },
+   "grapes": [
+    "Madrasa",
+    "Bayan Shira",
+    "Saperavi",
+    "Rkatsiteli"
+   ]
+  },
+  {
+   "name": "Gabala",
+   "lat": 40.98,
+   "lng": 47.85,
+   "desc": {
+    "tr": "Büyük Kafkasya eteklerindeki serin ve yeşil bölge, şarap turizmiyle öne çıkar.",
+    "en": "A cooler, greener Greater Caucasus foothill district that has become a hub of wine tourism."
+   },
+   "grapes": [
+    "Madrasa",
+    "Bayan Shira",
+    "Saperavi"
+   ]
+  },
+  {
+   "name": "Ganja-Gazakh",
+   "lat": 41.0,
+   "lng": 45.9,
+   "desc": {
+    "tr": "Ülkenin batısındaki bu bölge, tarihî ve modern şarapçılığın ana merkezlerinden biridir.",
+    "en": "In the west of the country, this is one of the main centres of both historic and modern winemaking."
+   },
+   "grapes": [
+    "Madrasa",
+    "Rkatsiteli",
+    "Saperavi",
+    "Shirvanshahi"
+   ]
+  },
+  {
+   "name": "Goygol",
+   "lat": 40.59,
+   "lng": 46.32,
+   "desc": {
+    "tr": "Göygöl, Alman göçmenlerin bağcılık mirasıyla ve ülkenin en eski şarap tesislerinden biriyle anılır.",
+    "en": "Goygol is known for the viticultural legacy of German settlers and for one of the country's oldest wine plants."
+   },
+   "grapes": [
+    "Madrasa",
+    "Rkatsiteli",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "Absheron",
+   "lat": 40.45,
+   "lng": 49.85,
+   "desc": {
+    "tr": "Bakü yakınındaki sıcak ve kuru yarımada, ülkenin köklü şarap ve üzüm işleme tesislerine yakındır.",
+    "en": "The warm, dry peninsula near Baku, close to the capital's wine-processing facilities, is one of the country's main winery areas."
+   },
+   "grapes": [
+    "Bayan Shira",
+    "Rkatsiteli",
+    "Saperavi"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Madrasa",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Şamahı'daki Mədrəsə köyüyle özdeşleşen yerli kırmızı üzüm, koyu meyveli ve tanenli şaraplar verir.",
+    "en": "A native red grape tied to Madrasa village in Shamakhi, it gives dark-fruited, tannic wines."
+   }
+  },
+  {
+   "name": "Bayan Shira",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Kuraklığa dayanıklı yerli beyaz üzüm, sofra şarabı ile köpüklü şarap yapımında kullanılır.",
+    "en": "A drought-resilient native white grape used for still and sparkling wines."
+   }
+  },
+  {
+   "name": "Shirvanshahi",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Yerli bir kırmızı üzümdür ve günümüzde bazı karışımlarda Madrasa ile birlikte kullanılır.",
+    "en": "A native red grape that is now used in some blends alongside Madrasa."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli bu beyaz üzüm, asiditesi sayesinde hem şarapta hem de Azerbaycan brendisinde ana üzümlerden biridir.",
+    "en": "A white grape of Georgian origin that is a mainstay for both wine and Azerbaijani brandy thanks to its acidity."
+   }
+  },
+  {
+   "name": "Saperavi",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli bu koyu renkli kırmızı üzüm, Azerbaycan'da yaygın olarak yetiştirilir.",
+    "en": "A dark-skinned red grape of Georgian origin that is widely planted in Azerbaijan."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Azerbaycan şarapçılığında kullanılan uluslararası üzümlerden biridir.",
+    "en": "One of the international varieties used in Azerbaijani winemaking."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Madrasa",
+   "desc": {
+    "tr": "Madrasa üzümünden yapılan kuru kırmızı şarap, bu üzümün adını taşır ve ülkenin en tanınmış yerli şarabıdır.",
+    "en": "The dry red wine made from the Madrasa grape bears its name and is the country's best-known native wine."
+   }
+  },
+  {
+   "name": "Bayan Shira whites and sparkling wines",
+   "desc": {
+    "tr": "Bayan Şirə üzümünden yapılan beyaz ve köpüklü şaraplar, ülkenin yerli beyaz üzümünü öne çıkarır.",
+    "en": "Whites and sparkling wines made from Bayan Shira showcase the country's native white grape."
+   }
+  },
+  {
+   "name": "Pomegranate wine (nar şərabı)",
+   "desc": {
+    "tr": "Nardan yapılan meyve şarabı, Azerbaycan'da ayrı ve tanınan bir üretim kategorisidir.",
+    "en": "Fruit wine made from pomegranate is a distinct and recognised production category in Azerbaijan."
+   }
+  },
+  {
+   "name": "Azerbaijani brandy (konyak)",
+   "desc": {
+    "tr": "Başta Rkatsiteli olmak üzere şaraplık üzümlerden damıtılan konyak tarzı distilat, şarap sektörüyle iç içedir.",
+    "en": "A cognac-style spirit distilled from wine grapes, chiefly Rkatsiteli, closely tied to the wine industry."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Azerbaijani wine",
+   "url": "https://en.wikipedia.org/wiki/Azerbaijani_wine"
+  },
+  {
+   "title": "Madrasa (grape)",
+   "url": "https://en.wikipedia.org/wiki/Madrasa_(grape)"
+  },
+  {
+   "title": "Azerbaijan: A vinous reboot in the Caucasus",
+   "url": "https://worldoffinewine.com/travel/azerbaijani-wine-guide-best-wines"
+  },
+  {
+   "title": "Heard it on the grapevine: 5 of Azerbaijan’s best contemporary vineyards",
+   "url": "https://www.nationalgeographic.com/travel/article/paid-content-best-vineyards-in-azerbaijan"
+  },
+  {
+   "title": "Research proves long history of Azerbaijani winemaking",
+   "url": "https://www.azernews.az/nation/50913.html"
+  },
+  {
+   "title": "Azerbaijani Wine: Indigenous Caucasus Heritage",
+   "url": "https://www.winewithseth.com/winewiki/azerbaijani-wine-varieties-indigenous-caucasus-heritage/"
+  },
+  {
+   "title": "THE BRIEF HISTORY OF AZERBAIJANI WINE",
+   "url": "http://www.codafair.org/uploadfile/2018/0909/20180909041319924.pdf"
+  },
+  {
+   "title": "Shamakhi/Shirvan — WineWiki by Wine with Seth",
+   "url": "https://www.winewithseth.com/winewiki/shamakhi-shirvan/"
+  }
+ ]
+}

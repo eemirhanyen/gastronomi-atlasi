@@ -1,0 +1,240 @@
+{
+ "iso3": "MEX",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 25427,
+  "out": 3884,
+  "searches": 2
+ },
+ "usd": 0.1097,
+ "summary": {
+  "tr": "Meksika, Amerika'nın en eski şarap ülkesidir. İspanyol misyonerler ve fatihler 16. yüzyılda asma getirmiş, Coahuila'daki Parras Vadisi'nde Casa Madero 1597'de kurulmuştur. İspanya Tacı'nın 1699'da ticari şarap üretimini yasaklaması sektörü yüzyıllarca baskılamış, modern şarapçılık 20. yüzyılda yeniden kurulmuştur. Bugün şarabın büyük bölümü Baja California'da, özellikle Valle de Guadalupe'de üreti",
+  "en": "Mexico is the oldest wine country in the Americas. Spanish missionaries and conquistadors brought vines in the 16th century, and Casa Madero was founded in 1597 in the Parras Valley of Coahuila. The Spanish Crown banned commercial wine production in 1699, which held the industry back for centuries, and the modern industry was rebuilt mostly in the 20th century. Most wine is now made in Baja Califo"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Valle de Guadalupe",
+   "lat": 32.08,
+   "lng": -116.58,
+   "desc": {
+    "tr": "Ensenada yakınındaki, Akdeniz iklimine sahip bu vadi Meksika şarabının merkezidir; yüzlerce butik şaraphane ve yoğun şarap turizmi barındırır.",
+    "en": "This Mediterranean-climate valley near Ensenada is the heart of Mexican wine, with well over a hundred wineries and a booming wine-tourism scene."
+   },
+   "grapes": [
+    "Nebbiolo",
+    "Tempranillo",
+    "Cabernet Sauvignon",
+    "Grenache",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Valle de Santo Tomás",
+   "lat": 31.55,
+   "lng": -116.4,
+   "desc": {
+    "tr": "Baja California'nın güneyindeki bu vadi, Dominikan misyonlarından miras kalan eski üzüm yetiştiriciliği geleneğiyle bilinir.",
+    "en": "A southern Baja California valley known for its old viticultural tradition inherited from the Dominican missions."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Tempranillo",
+    "Chardonnay",
+    "Mission"
+   ]
+  },
+  {
+   "name": "Valle de Parras (Coahuila)",
+   "lat": 25.44,
+   "lng": -102.18,
+   "desc": {
+    "tr": "Çöl içindeki bu vaha, 1597'den beri faaliyet gösteren Amerika'nın en eski şaraphanesi Casa Madero'ya ev sahipliği yapar.",
+    "en": "This desert oasis is home to Casa Madero, the oldest winery in the Americas, active since 1597."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Tempranillo",
+    "Chenin Blanc",
+    "Chardonnay",
+    "Shiraz"
+   ]
+  },
+  {
+   "name": "Querétaro",
+   "lat": 20.7,
+   "lng": -99.9,
+   "desc": {
+    "tr": "Yüksek rakımlı bu bölge, Freixenet'nin öncülüğüyle gelişen köpüklü şarapları ve şarap-peynir rotasıyla tanınır.",
+    "en": "A high-altitude region known for sparkling wines, developed with the pioneering role of Freixenet, and for its wine-and-cheese route."
+   },
+   "grapes": [
+    "Macabeo",
+    "Xarel-lo",
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Guanajuato",
+   "lat": 21.0,
+   "lng": -100.9,
+   "desc": {
+    "tr": "Orta yaylalardaki bu eyalet, tarihî şarap geleneği ve gelişen butik üreticileriyle öne çıkar.",
+    "en": "A central-highland state with a historic wine tradition and a growing number of quality boutique producers."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chardonnay",
+    "Tempranillo"
+   ]
+  },
+  {
+   "name": "Aguascalientes",
+   "lat": 21.9,
+   "lng": -102.3,
+   "desc": {
+    "tr": "Orta Meksika'nın yüksek platosundaki bu eyalet, Meksika'nın önemli üzüm yetiştirme bölgeleri arasında sayılır.",
+    "en": "A state on the central Mexican high plateau, counted among the country's notable grape-growing areas."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Merlot",
+    "Chenin Blanc"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Mission (Listán Prieto)",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "İspanyol misyonerlerle gelen bu tarihî üzüm, Meksika'da yüzyıllardır yetiştirilir ve doğal şarap üreticileri tarafından yeniden keşfedilmektedir.",
+    "en": "Brought by Spanish missionaries, this historic grape has been grown in Mexico for centuries and is being revived by natural winemakers."
+   }
+  },
+  {
+   "name": "Nebbiolo",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "İkinci Dünya Savaşı sonrasında Baja California'ya gelen Nebbiolo, kırmızı killi topraklarda dolgun ve koyu renkli şaraplar verir; bölgenin simge üzümü sayılır.",
+    "en": "Arriving in Baja California after World War II, Nebbiolo gives rounder, deeply coloured wines on red clay soils and is the region's signature red."
+   }
+  },
+  {
+   "name": "Tempranillo",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Hem Baja California'da hem Parras'ta yetiştirilen, İspanyol kökenli ve sıcak iklime uyum sağlayan bir kırmızı üzümdür.",
+    "en": "A Spanish red grape that adapts well to Mexico's warm climate and is grown in both Baja California and Parras."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Birçok bölgede yetiştirilen ve çoğunlukla Merlot ile harmanlanan temel kırmızı üzümlerden biridir.",
+    "en": "One of the main reds planted across many regions, often blended with Merlot and other varieties."
+   }
+  },
+  {
+   "name": "Chenin Blanc",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Parras'ın serin gecelerinde asidite koruyan, ülkenin dikkat çeken beyaz üzümlerinden biridir.",
+    "en": "One of the country's notable whites, retaining acidity in the cool nights of Parras."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Baja California, Parras ve Querétaro'da yaygın olan, hem sakin hem köpüklü şaraplarda kullanılan beyaz üzümdür.",
+    "en": "A widely planted white in Baja California, Parras and Querétaro, used for both still and sparkling wines."
+   }
+  },
+  {
+   "name": "Macabeo",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Freixenet'nin etkisiyle Querétaro'da Cava tarzı köpüklü şaraplar için dikilen Katalan beyaz üzümüdür.",
+    "en": "A Catalan white planted in Querétaro for Cava-style sparkling wines, a legacy of Freixenet's influence."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Baja Nebbiolo",
+   "desc": {
+    "tr": "Valle de Guadalupe'nin simgesi olan, İtalya'daki Barolo ve Barbaresco'dan farklı olarak daha yuvarlak ve dolgun gövdeli kırmızı şaraplardır.",
+    "en": "Valle de Guadalupe's signature red, rounder and fuller-bodied than the Nebbiolo of Barolo and Barbaresco."
+   }
+  },
+  {
+   "name": "Querétaro köpüklü şarapları",
+   "desc": {
+    "tr": "Yüksek rakımda geleneksel yöntemle üretilen, genellikle yerel peynirlerle sunulan köpüklü şaraplardır.",
+    "en": "Traditional-method sparkling wines made at high altitude, typically served with local artisanal cheeses."
+   }
+  },
+  {
+   "name": "Casa Madero 3V",
+   "desc": {
+    "tr": "Parras Vadisi'nden Cabernet, Merlot ve Tempranillo'yu bir araya getiren, ülkenin en tanınmış şaraphanelerinden birinin kırmızı harmanıdır.",
+    "en": "A red blend of Cabernet, Merlot and Tempranillo from the Parras Valley, made by one of the country's best-known wineries."
+   }
+  },
+  {
+   "name": "Mission doğal şarapları",
+   "desc": {
+    "tr": "Eski Mission asmalarından, genç üreticilerin düşük müdahaleli olarak yaptığı hafif gövdeli, meyvemsi kırmızılardır.",
+    "en": "Light, fruity reds from old Mission vines, made with minimal intervention by a younger generation of winemakers."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Mexican Winemaking Is Reaching New Heights in These High-Altitude Regions",
+   "url": "https://www.wineenthusiast.com/culture/travel/high-altitude-mexican-winemaking/"
+  },
+  {
+   "title": "Discover Mexico Wine Country",
+   "url": "https://www.totalwine.com/discover/learn/mexico-wine-regions"
+  },
+  {
+   "title": "Mexico Wine Tourism: Regions & Wineries",
+   "url": "https://www.winetourism.com/wine-country/mexico/"
+  },
+  {
+   "title": "The Best Wines of Mexico: Baja California, Coahuila, and Queretaro",
+   "url": "https://luxurylatinamerica.com/blog/2021/11/28/best-wines-of-mexico/"
+  },
+  {
+   "title": "Mexican Wine Regions: The Complete 2026 Travel Guide - Eating With Carmen Food Tours",
+   "url": "https://www.eatingwithcarmen.com/mexican-wine-regions-guide/"
+  },
+  {
+   "title": "Your travel guide to Mexico’s wine region",
+   "url": "https://uvasdemexico.de/en/blogs/stories-blogs/your-travel-guide-to-mexico-s-wine-region-wine-list-attractions-winery"
+  },
+  {
+   "title": "Wine Regions of Mexico",
+   "url": "https://www.vinasdelaerre.com/post/mexico-wine-regions"
+  },
+  {
+   "title": "Mexican Wine: The Americas' Oldest Wine Country Is Its Newest Discovery",
+   "url": "https://www.bighammerwines.com/blogs/adventures-in-wine/mexican-wine-the-americas-oldest-wine-country-is-its-newest-discovery"
+  }
+ ]
+}

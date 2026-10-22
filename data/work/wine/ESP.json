@@ -1,0 +1,277 @@
+{
+ "iso3": "ESP",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24925,
+  "out": 4506,
+  "searches": 2
+ },
+ "usd": 0.1149,
+ "summary": {
+  "tr": "İspanya'da üzümcülük, Fenikelilerin yaklaşık 3.000 yıl önce Cádiz–Jerez çevresine asma getirmesine dayanır. Roma döneminde sürdü, ardından Reconquista sonrası ticaretle yeniden güçlendi. 19. yüzyıl sonundaki filoksera salgınını aşılama yöntemiyle atlattı. Bugün dünyanın en geniş bağ alanına sahip ülkesidir. Çoğu bölge DO ve DOCa/DOQ sistemiyle korunur. Şarap, tapas ve sofra kültürünün ayrılmaz bir",
+  "en": "Spanish viticulture dates back some 3,000 years, to when the Phoenicians planted vines around Cádiz and Jerez. It continued under the Romans and recovered through trade after the Reconquista. It survived the late-19th-century phylloxera epidemic by grafting onto American rootstock. Spain now has the largest vineyard area in the world, and most regions are protected under the DO and DOCa/DOQ system"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Rioja",
+   "lat": 42.45,
+   "lng": -2.6,
+   "desc": {
+    "tr": "İspanya'nın ilk DOCa bölgesidir; meşede yaşlandırılan Tempranillo bazlı kırmızı şaraplarıyla ve Crianza, Reserva, Gran Reserva sınıflandırmasıyla tanınır.",
+    "en": "Spain's first DOCa, known for oak-aged Tempranillo-based reds and the Crianza, Reserva and Gran Reserva ageing categories."
+   },
+   "grapes": [
+    "Tempranillo",
+    "Garnacha",
+    "Graciano",
+    "Mazuelo",
+    "Viura"
+   ]
+  },
+  {
+   "name": "Ribera del Duero",
+   "lat": 41.65,
+   "lng": -3.7,
+   "desc": {
+    "tr": "Kuzey mesetasının yüksek rakımlı bağlarından, koyu renkli, yapılı ve uzun ömürlü Tempranillo (Tinto Fino) şarapları verir.",
+    "en": "High-altitude vineyards on the northern meseta produce dark, structured, age-worthy Tempranillo (Tinto Fino) reds."
+   },
+   "grapes": [
+    "Tempranillo"
+   ]
+  },
+  {
+   "name": "Rías Baixas",
+   "lat": 42.45,
+   "lng": -8.75,
+   "desc": {
+    "tr": "Galiçya'nın Atlantik kıyısında, deniz ürünleriyle uyumlu taze ve aromatik Albariño beyazlarıyla ünlüdür.",
+    "en": "On Galicia's Atlantic coast, famous for fresh, aromatic Albariño whites that pair with seafood."
+   },
+   "grapes": [
+    "Albariño",
+    "Loureiro",
+    "Treixadura"
+   ]
+  },
+  {
+   "name": "Priorat",
+   "lat": 41.2,
+   "lng": 0.77,
+   "desc": {
+    "tr": "Llicorella adı verilen arduvaz toprakta, dik teraslarda yetişen Garnacha ve Cariñena ile güçlü, mineralli kırmızılar üretir.",
+    "en": "Steep terraces on llicorella slate yield powerful, mineral reds from Garnacha and Cariñena."
+   },
+   "grapes": [
+    "Garnacha",
+    "Cariñena",
+    "Syrah",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Penedès",
+   "lat": 41.4,
+   "lng": 1.7,
+   "desc": {
+    "tr": "Geleneksel yöntemle üretilen Cava köpüklüsünün ana bölgesidir; sakin şarapları da önemlidir.",
+    "en": "The heartland of traditional-method Cava sparkling wine, which also makes notable still wines."
+   },
+   "grapes": [
+    "Xarel·lo",
+    "Macabeo",
+    "Parellada"
+   ]
+  },
+  {
+   "name": "Jerez",
+   "lat": 36.68,
+   "lng": -6.14,
+   "desc": {
+    "tr": "Endülüs'te Sherry'nin doğum yeridir; kuru Fino ve Manzanilla'dan tatlı Pedro Ximénez'e uzanan sek ve tatlı şaraplar üretir.",
+    "en": "The birthplace of Sherry in Andalusia, with styles from bone-dry Fino and Manzanilla to sweet Pedro Ximénez."
+   },
+   "grapes": [
+    "Palomino",
+    "Pedro Ximénez",
+    "Moscatel"
+   ]
+  },
+  {
+   "name": "Rueda",
+   "lat": 41.4,
+   "lng": -4.95,
+   "desc": {
+    "tr": "Kastilya platosunda, otsu notalı ve ferah Verdejo beyazlarının ana bölgesidir.",
+    "en": "On the Castilian plateau, the home of fresh, herbal Verdejo whites."
+   },
+   "grapes": [
+    "Verdejo",
+    "Sauvignon Blanc",
+    "Viura"
+   ]
+  },
+  {
+   "name": "La Mancha",
+   "lat": 39.2,
+   "lng": -3.0,
+   "desc": {
+    "tr": "Dünyanın en geniş bağ alanlarından birini barındıran iç bölgedir; Airén ve Tempranillo (Cencibel) ile bol miktarda, uygun fiyatlı şarap üretir.",
+    "en": "A vast inland region, one of the world's largest vineyard areas, making large volumes of affordable wine from Airén and Tempranillo (Cencibel)."
+   },
+   "grapes": [
+    "Airén",
+    "Tempranillo",
+    "Garnacha"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Tempranillo",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "İspanya'nın en ünlü kırmızı üzümüdür; Rioja ve Ribera del Duero'nun temelini oluşturur ve bölgeye göre Tinto Fino, Tinta de Toro, Cencibel gibi adlarla anılır.",
+    "en": "Spain's flagship red grape, the backbone of Rioja and Ribera del Duero, known locally as Tinto Fino, Tinta de Toro or Cencibel."
+   }
+  },
+  {
+   "name": "Garnacha",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Ülke genelinde yaygın olarak yetiştirilen, meyvemsi ve yüksek alkollü kırmızılar veren bir üzümdür; Priorat ve Gredos'ta öne çıkar.",
+    "en": "Widely planted across Spain, giving fruity, high-alcohol reds, and a star in Priorat and Sierra de Gredos."
+   }
+  },
+  {
+   "name": "Monastrell",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Sıcak güneydoğuda, Jumilla ve Yecla gibi bölgelerde yetişen koyu ve güçlü kırmızıların üzümüdür.",
+    "en": "The grape behind the dark, powerful reds of the hot southeast, such as Jumilla and Yecla."
+   }
+  },
+  {
+   "name": "Albariño",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Rías Baixas'ın önde gelen beyaz üzümüdür; canlı asiditeli, aromatik ve deniz ürünleriyle uyumlu şaraplar verir.",
+    "en": "The leading white grape of Rías Baixas, giving aromatic, high-acid wines that suit seafood."
+   }
+  },
+  {
+   "name": "Verdejo",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Rueda'nın simge üzümüdür; taze meyve, otsu aromalar ve hafif acımsı bir bitişle bilinir.",
+    "en": "Rueda's signature grape, known for fresh fruit, herbal aromas and a gently bitter finish."
+   }
+  },
+  {
+   "name": "Palomino",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Sherry'nin ana üzümüdür; nötr yapısı sayesinde flor ve oksidatif yaşlandırmayı yansıtır.",
+    "en": "The main Sherry grape, whose neutral character lets flor and oxidative ageing show through."
+   }
+  },
+  {
+   "name": "Airén",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "La Mancha'da geniş alanlarda yetişen, kuraklığa dayanıklı bir beyaz üzümdür.",
+    "en": "A drought-tolerant white grape planted over huge areas of La Mancha."
+   }
+  },
+  {
+   "name": "Xarel·lo",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Katalonya kökenli bir üzümdür; Macabeo ve Parellada ile birlikte Cava'nın temel üzümlerinden biridir.",
+    "en": "A Catalan grape that, with Macabeo and Parellada, is one of the three core Cava varieties."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Rioja Crianza / Reserva / Gran Reserva",
+   "desc": {
+    "tr": "Rioja'da şaraplar varil ve şişede geçirdikleri yaşlandırma süresine göre sınıflandırılır; vanilya, baharat ve deri notaları geleneksel stilin özelliğidir.",
+    "en": "Rioja wines are classified by time spent ageing in barrel and bottle, and the traditional style shows vanilla, spice and leather notes."
+   }
+  },
+  {
+   "name": "Sherry (Jerez-Xérès-Sherry)",
+   "desc": {
+    "tr": "Jerez'de üretilen güçlendirilmiş şarap ailesidir; Fino ve Manzanilla'dan Amontillado, Oloroso ve Pedro Ximénez'e uzanır.",
+    "en": "The fortified wine family of Jerez, ranging from Fino and Manzanilla to Amontillado, Oloroso and Pedro Ximénez."
+   }
+  },
+  {
+   "name": "Cava",
+   "desc": {
+    "tr": "Çoğunlukla Penedès'te, geleneksel yöntemle şişede ikinci fermantasyon yapılarak üretilen İspanyol köpüklüsüdür.",
+    "en": "Spain's traditional-method sparkling wine, made mostly in Penedès with a second fermentation in the bottle."
+   }
+  },
+  {
+   "name": "Priorat DOQ",
+   "desc": {
+    "tr": "Rioja ile birlikte ülkedeki en üst düzey nitelikli menşe adı statüsüne sahip iki bölgeden biridir; yoğun, mineralli kırmızılarıyla bilinir.",
+    "en": "With Rioja, one of only two Spanish appellations holding the top qualified status, known for concentrated, mineral reds."
+   }
+  },
+  {
+   "name": "Vino de Pago",
+   "desc": {
+    "tr": "Kendine özgü toprak ve iklimi olan tek bir bağ mülkü için tanınan ayrı bir korumalı menşe kategorisidir.",
+    "en": "A separate protected designation for a single estate with distinctive soil, climate and winemaking."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Best Wine Regions in Spain",
+   "url": "https://www.cellartours.com/spain/spanish-wine-regions"
+  },
+  {
+   "title": "Spanish wine",
+   "url": "https://en.wikipedia.org/wiki/Spanish_wine"
+  },
+  {
+   "title": "Top 6 best wine regions of Spain - Your Complete Guide",
+   "url": "https://www.winalist.com/blog/spain/wine-regions-of-spain"
+  },
+  {
+   "title": "Spanish Wine Regions",
+   "url": "https://viavinumwinetours.com/en/spanish-wine-regions/"
+  },
+  {
+   "title": "The best Spanish wine regions outside Rioja · Spanish Terroir",
+   "url": "https://spanishterroir.nl/en/blog/best-spanish-wine-regions"
+  },
+  {
+   "title": "Spanish Wines: The Ultimate Guide to Regions & Wine Tourism",
+   "url": "https://www.winera.com/blog/raise-your-glass-to-the-unexpected-1/spanish-wines-5"
+  },
+  {
+   "title": "Spanish Wine Guide: Regions, Grapes and the Wines Worth Knowing",
+   "url": "https://londonwineacademy.com/2025/08/13/our-spanish-wine-guide/"
+  },
+  {
+   "title": "Spanish Wine Regions: Complete Guide for Visitors",
+   "url": "https://www.winera.com/blog/raise-your-glass-to-the-unexpected-1/spanish-wine-regions-5"
+  }
+ ]
+}

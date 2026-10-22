@@ -1,0 +1,191 @@
+{
+ "iso3": "TKM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22517,
+  "out": 3415,
+  "searches": 2
+ },
+ "usd": 0.0992,
+ "summary": {
+  "tr": "Türkmenistan'da bağcılık, Kopetdağ eteklerindeki vahalarda ve Murgab ile Tecen vadilerinde İÖ 3.–2. yüzyıla kadar uzanır. Ülke bugün yaklaşık 100 üzüm çeşidinden 200'e yakın şarap ve konyak üretir. Üretim büyük ölçüde devlete bağlı işletmelerde yapılır ve üzümlerin çoğu sulamayla yetiştirilir. Şarap, ülkede votka ve biradan sonra gelir. Tatlı ve sert şaraplar öne çıkar, ayrıca konyak da yapılır.",
+  "en": "Viticulture in Turkmenistan goes back to the 3rd–2nd centuries BCE, in the oases of the Kopet Dag foothills and in the Murghab and Tejen valleys. Today the country makes nearly 200 wines and brandies from about 100 grape varieties. Production is largely in state-linked wineries, and the vines are mostly irrigated. Wine ranks behind vodka and beer in consumption, and sweet and fortified styles are "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ahal (Kopetdağ foothills)",
+   "lat": 38.0,
+   "lng": 58.3,
+   "desc": {
+    "tr": "Aşkabat'ın güneyinde, İran sınırındaki Kopetdağ eteklerinde yer alır; ülkedeki bağların yaklaşık %70'i buradadır ve Geoktepe ile Anau'daki şaraphaneleri barındırır.",
+    "en": "South of Ashgabat along the Iranian border in the Kopet Dag foothills, it holds roughly 70% of the country's vineyards and wineries such as those at Geoktepe and Anau."
+   },
+   "grapes": [
+    "Bayan Shirey",
+    "Terbash",
+    "Gara Yzyum",
+    "Saperavi"
+   ]
+  },
+  {
+   "name": "Mary",
+   "lat": 37.3,
+   "lng": 62.0,
+   "desc": {
+    "tr": "Murgab vadisindeki bu vaha bölgesi, antik çağdan beri bağcılığıyla bilinir ve Tahtabazar'daki bir şarap işletmesine ev sahipliği yapar.",
+    "en": "An oasis province in the Murghab valley with a viticulture tradition reaching back to antiquity, and home to the Takhtabazar winery."
+   },
+   "grapes": [
+    "Terbash",
+    "Rkatsiteli",
+    "Bayan Shirey"
+   ]
+  },
+  {
+   "name": "Lebap",
+   "lat": 38.9,
+   "lng": 63.8,
+   "desc": {
+    "tr": "Amuderya boyundaki bu doğu vilayetinde, Türkmenabat çevresinde bağcılık yapılır ve Karabekavul'da bir şarap işletmesi bulunur.",
+    "en": "An eastern province on the Amu Darya where vines are grown around Turkmenabat, with a winery at Karabekaul."
+   },
+   "grapes": [
+    "Rkatsiteli",
+    "Cabernet Sauvignon",
+    "Gara Yzyum"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Terbash",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Yerel bir çeşittir; \"Başkan\" konyağında Gara Yzyum ile birlikte kullanılır.",
+    "en": "A local variety, used together with Gara Yzyum in the \"President\" brandy."
+   }
+  },
+  {
+   "name": "Gara Yzyum",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Adı \"kara üzüm\" demektir; yerel bir çeşittir ve konyak yapımında kullanılır.",
+    "en": "Its name means \"black grape\"; it is a local variety used for brandy."
+   }
+  },
+  {
+   "name": "Kyzyl Sapak",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kopetdağ vadilerindeki yabani asmalardan türediği düşünülen yerel çeşitlerden biridir.",
+    "en": "One of the local varieties thought to descend from the wild vines of the Kopet Dag gorges."
+   }
+  },
+  {
+   "name": "Bayan Shirey",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Türkmenistan'da kuru şarap yapımında kullanılır; kaynaklar bu çeşidi Kafkasya'ya da bağlar, bu yüzden kökeni tartışmalıdır.",
+    "en": "Used for dry wines in Turkmenistan; some sources link it to the Caucasus, so its origin is disputed."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli bu çeşit, Türkmenistan'da kuru beyaz şarapların temelini oluşturur.",
+    "en": "This Georgian variety is a basis of Turkmenistan's dry white wines."
+   }
+  },
+  {
+   "name": "Saperavi",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli bu kırmızı çeşit, Türkmenistan'da kuru kırmızı şaraplarda kullanılır.",
+    "en": "This Georgian red variety is used for dry reds in Turkmenistan."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Kuru şaraplar için ülkede yetiştirilen uluslararası bir kırmızı çeşittir.",
+    "en": "An international red variety grown in the country for dry wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Yasman-Salyk",
+   "desc": {
+    "tr": "Gökteppe şaraphanesinin tatlı beyaz \"çöl şarabı\"; Yalta'daki bir yarışmada ödül almıştır.",
+    "en": "A sweet white \"desert wine\" from the Geoktepe winery, awarded at a competition in Yalta."
+   }
+  },
+  {
+   "name": "Kopetdag",
+   "desc": {
+    "tr": "Ülkenin en yaygın şaraplarından biri olan, adını dağ silsilesinden alan bir kuvvetlendirilmiş şaraptır.",
+    "en": "A fortified wine named after the mountain range and one of the country's most common wines."
+   }
+  },
+  {
+   "name": "Dashgala",
+   "desc": {
+    "tr": "Türkmen şaraplarının en yaygınları arasında sayılan bir yerel şaraptır.",
+    "en": "A local wine counted among the most common Turkmen wines."
+   }
+  },
+  {
+   "name": "Türkmen konyağı",
+   "desc": {
+    "tr": "Terbash ve Gara Yzyum gibi yerel üzümlerle yapılan, uzun süre yaşlandırılan konyaktır; \"Başkan\" konyağı sekiz yıl yaşlandırılmıştır.",
+    "en": "Brandy made from local grapes such as Terbash and Gara Yzyum and aged for a long time; the \"President\" brandy is aged eight years."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Turkmen wine-growers started harvest processing of «sunny berry»",
+   "url": "https://malaysia.tmembassy.gov.tm/en/news/6763"
+  },
+  {
+   "title": "Wine - Turkmenistan",
+   "url": "https://www.statista.com/outlook/cmo/alcoholic-drinks/wine/turkmenistan"
+  },
+  {
+   "title": "Kazakh wine",
+   "url": "https://en.wikipedia.org/wiki/Kazakh_wine"
+  },
+  {
+   "title": "Turkmenistan",
+   "url": "https://glossary.wein.plus/turkmenistan"
+  },
+  {
+   "title": "Turkmen cuisine",
+   "url": "https://en.wikipedia.org/wiki/Turkmen_cuisine"
+  },
+  {
+   "title": "Azerbaijani wine",
+   "url": "https://en.wikipedia.org/wiki/Azerbaijani_wine"
+  },
+  {
+   "title": "Production of Turkmen winemakers was awarded with high prizes at International contest «Yalta. Golden Griffin",
+   "url": "https://turkmenistan.gov.tm/en/post/6132/production-of-turkmen-winemakers-was-awarded-with-high-prizes-at-international-contest-yalta-golden-griffin-%E2%80%93-2016"
+  },
+  {
+   "title": "Vinagro",
+   "url": "https://en.wikipedia.org/wiki/Vinagro"
+  }
+ ]
+}

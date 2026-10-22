@@ -1,0 +1,213 @@
+{
+ "iso3": "BIH",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 14174,
+  "out": 3035,
+  "searches": 1
+ },
+ "usd": 0.0687,
+ "summary": {
+  "tr": "Bosna-Hersek'te bağcılık, İliri ve Roma dönemlerine kadar uzanan uzun bir geçmişe sahiptir. Osmanlı yönetimi ve Yugoslavya yıllarında da sürmüş, günümüzde esas olarak Akdeniz iklimli Hersek bölgesinde, Mostar çevresinde yoğunlaşmıştır. Ülkenin kimliğini yerli Žilavka (beyaz) ve Blatina (kırmızı) üzüm çeşitleri belirler. Üretim küçük ölçekli ve aile işletmeleri ağırlıklıdır; kuzeyde Banja Luka çevr",
+  "en": "Viticulture in Bosnia and Herzegovina goes back to Illyrian and Roman times and continued under Ottoman rule and in Yugoslavia. Today it is concentrated in the Mediterranean-climate region of Herzegovina around Mostar. The native Žilavka (white) and Blatina (red) define the country's wine identity. Production is small-scale and largely family-run, with a few wineries in the north near Banja Luka."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Mostar",
+   "lat": 43.34,
+   "lng": 17.81,
+   "desc": {
+    "tr": "Hersek şarapçılığının merkezidir ve Žilavka ile Blatina'nın ana üretim bölgesidir.",
+    "en": "The heart of Herzegovinian winemaking and the main production area for Žilavka and Blatina."
+   },
+   "grapes": [
+    "Žilavka",
+    "Blatina",
+    "Vranac"
+   ]
+  },
+  {
+   "name": "Čitluk",
+   "lat": 43.22,
+   "lng": 17.7,
+   "desc": {
+    "tr": "Ülkenin en büyük şaraphanesine ve Međugorje çevresindeki yoğun bağ alanlarına ev sahipliği yapar.",
+    "en": "Home to the country's largest winery and the dense vineyard area around Međugorje."
+   },
+   "grapes": [
+    "Žilavka",
+    "Blatina",
+    "Trnjak"
+   ]
+  },
+  {
+   "name": "Ljubuški",
+   "lat": 43.19,
+   "lng": 17.54,
+   "desc": {
+    "tr": "Hersek şarap güzergâhının batı ucunda, Hırvatistan sınırına yakın bir bağ bölgesidir.",
+    "en": "A vineyard area at the western end of the Herzegovina wine route, close to the Croatian border."
+   },
+   "grapes": [
+    "Žilavka",
+    "Blatina"
+   ]
+  },
+  {
+   "name": "Čapljina–Stolac",
+   "lat": 43.1,
+   "lng": 17.8,
+   "desc": {
+    "tr": "Neretva vadisi ve çevresindeki sıcak, kireçtaşlı yamaçlarda Žilavka ve Blatina yetiştirilir.",
+    "en": "Warm, limestone slopes in and around the Neretva valley, planted with Žilavka and Blatina."
+   },
+   "grapes": [
+    "Žilavka",
+    "Blatina",
+    "Vranac"
+   ]
+  },
+  {
+   "name": "Trebinje",
+   "lat": 42.71,
+   "lng": 18.34,
+   "desc": {
+    "tr": "Güney Hersek'te, Tvrdoš Manastırı gibi şaraphanelerle ve Vranac ile bilinen bir bölgedir.",
+    "en": "A southern Herzegovina area known for wineries such as Tvrdoš Monastery and for Vranac."
+   },
+   "grapes": [
+    "Vranac",
+    "Žilavka"
+   ]
+  },
+  {
+   "name": "Banja Luka çevresi",
+   "lat": 44.78,
+   "lng": 17.19,
+   "desc": {
+    "tr": "Kuzey Bosna'da, ödüllü birkaç küçük şaraphanenin bulunduğu daha serin iklimli bir alandır.",
+    "en": "A cooler-climate area in northern Bosnia with a few small, award-winning wineries."
+   },
+   "grapes": [
+    "Merlot",
+    "Chardonnay"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Žilavka",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Hersek'in başlıca beyaz üzümüdür; mineral yapılı, aromatik ve genellikle kuru şaraplar verir.",
+    "en": "Herzegovina's flagship white grape, giving mineral, aromatic and usually dry wines."
+   }
+  },
+  {
+   "name": "Blatina",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Mostar çevresinin yerli kırmızı üzümüdür; yumuşak tanenli, meyvemsi, orta gövdeli şaraplar verir.",
+    "en": "The native red of the Mostar area, making soft, fruity, medium-bodied wines with gentle tannins."
+   }
+  },
+  {
+   "name": "Trnjak",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Hersek'e özgü, daha koyu ve dolgun kırmızılar veren yerli bir çeşittir.",
+    "en": "A native Herzegovinian red that gives deeper, fuller wines."
+   }
+  },
+  {
+   "name": "Vranac",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Balkanlar'da yaygın, Hersek'te de yetiştirilen koyu renkli ve dolgun bir kırmızı üzümdür.",
+    "en": "A dark, full-bodied Balkan red grown widely in Herzegovina, though not native to Bosnia."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Yeni dikimlerde yer alan uluslararası bir kırmızı çeşittir.",
+    "en": "An international red variety found in newer plantings."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Yerli çeşitlerin yanında yeni bağlarda yetiştirilen uluslararası bir beyaz üzümdür.",
+    "en": "An international white grown in newer vineyards alongside the native varieties."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Žilavka (Mostar)",
+   "desc": {
+    "tr": "Taze ve kuru stilden yıllandırılmış, meşe veya maya etkili tiplere uzanan, ülkenin en tanınmış beyaz şarabıdır.",
+    "en": "The country's best-known white wine, ranging from fresh and dry to fuller styles shaped by lees or oak."
+   }
+  },
+  {
+   "name": "Blatina",
+   "desc": {
+    "tr": "Orta gövdeli, meyvemsi bir kırmızıdır ve ızgara etlerle iyi gider.",
+    "en": "A fruity, medium-bodied red that pairs well with grilled meats."
+   }
+  },
+  {
+   "name": "Hersek Şarap Yolu",
+   "desc": {
+    "tr": "Mostar ve Čitluk çevresindeki aile işletmesi şaraphaneleri birbirine bağlayan resmî bir şarap rotasıdır.",
+    "en": "An official wine route linking family-run wineries around Mostar and Čitluk."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "%C5%BDilavka",
+   "url": "https://en.wikipedia.org/wiki/%C5%BDilavka"
+  },
+  {
+   "title": "Bosnia and Herzegovina wine",
+   "url": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_wine"
+  },
+  {
+   "title": "Vinarija Čitluk",
+   "url": "https://www.kozelj.si/en/brand/vinarija-citluk"
+  },
+  {
+   "title": "Bosnia Wine: Blatina, Vranac & Zilavka",
+   "url": "https://oldtownexplorer.com/destinations/bosnia/bosnia-wine/"
+  },
+  {
+   "title": "Vinarija Čitluk",
+   "url": "https://www.vinskacesta.ba/index.php/en/wine-cellars-wine-route/item/515-vinarija-citluk"
+  },
+  {
+   "title": "Herzegovina Wine Country Road Trip: From Mostar to Čitluk - Car Hire Bosnia",
+   "url": "https://carhirebosnia.com/2026/03/12/herzegovina-wine-country-road-trip/"
+  },
+  {
+   "title": "Bosnian Wines Guide",
+   "url": "https://thebalkanpour.com/balkan-wines/bosnian-wines/"
+  },
+  {
+   "title": "Explore Mostar Wine: Wine Bars & More",
+   "url": "https://oldtownexplorer.com/destinations/bosnia/mostar/mostar-wine/"
+  }
+ ]
+}

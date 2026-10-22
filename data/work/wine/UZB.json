@@ -1,0 +1,236 @@
+{
+ "iso3": "UZB",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24993,
+  "out": 4310,
+  "searches": 2
+ },
+ "usd": 0.1131,
+ "summary": {
+  "tr": "Özbekistan'da asmacılık, Avesta'da anılan Zerdüşt dönemine ve İpek Yolu'na kadar uzanır. Bölgenin sıcak ve kurak iklimi üzüm yetiştirmeye çok uygundur. Yedinci yüzyılda İslam'ın gelişiyle şarap yerini sofralık üzüm, kuru üzüm ve üzüm suyuna bıraktı. Endüstriyel şarapçılık 1860'larda Rus tüccarlar Taşkent'te ve Semerkant'ta (Filatov, 1868) başlattı. Sovyet döneminde Profesör Mihail Hovrenko, Semerk",
+  "en": "Grape growing in Uzbekistan goes back to the Zoroastrian era mentioned in the Avesta and to the Silk Road. The region's hot, dry climate suits vines well. After Islam arrived in the 7th century, wine gave way to table grapes, raisins and juice. Russian merchants began industrial winemaking in Tashkent and Samarkand in the 1860s (Filatov, 1868). In the Soviet era Professor Mikhail Khovrenko develop"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Samarkand",
+   "lat": 39.65,
+   "lng": 66.96,
+   "desc": {
+    "tr": "Zerafşan Vadisi'ndeki bu bölge, ülkenin tarihî şarap merkezidir. Filatov ve Hovrenko'nun şaraphaneleri burada bulunur ve tatlı şaraplarıyla tanınır.",
+    "en": "This area in the Zarafshan Valley is the historic heart of Uzbek wine, home to the Filatov and Khovrenko winery, and is known for its dessert wines."
+   },
+   "grapes": [
+    "Aleatico",
+    "Muscat",
+    "Bayan Shirey",
+    "Saperavi"
+   ]
+  },
+  {
+   "name": "Taşkent",
+   "lat": 41.4,
+   "lng": 69.5,
+   "desc": {
+    "tr": "Çatkal dağlarının eteklerindeki bu bölge, ilk şaraphanelerin kurulduğu yerlerden biridir ve Chateau Hamkor gibi özel üreticilerin kuru şaraplarıyla öne çıkar.",
+    "en": "Foothills of the Chatkal range where one of the first wineries was founded, now known for dry wines from private producers such as Chateau Hamkor."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Riesling",
+    "Bayan Shirey",
+    "Saperavi"
+   ]
+  },
+  {
+   "name": "Fergana Vadisi",
+   "lat": 40.4,
+   "lng": 71.8,
+   "desc": {
+    "tr": "İpek Yolu'nun eski üzüm yetiştirme merkezlerinden olan bu verimli havzada çok sayıda üzüm çeşidi yetişir.",
+    "en": "A fertile basin on the old Silk Road with a long grape-growing tradition and a wide range of varieties."
+   },
+   "grapes": [
+    "Rkatsiteli",
+    "Bayan Shirey",
+    "Muscat"
+   ]
+  },
+  {
+   "name": "Buhara",
+   "lat": 39.77,
+   "lng": 64.42,
+   "desc": {
+    "tr": "Rkatsiteli, Bişti, Macar Misketi ve pembe Aleatico çeşitleriyle tanınan, sulamayla tarımın yapıldığı bir vaha bölgesidir.",
+    "en": "An irrigated oasis region known for Rkatsiteli, Bishti, Hungarian Muscat and pink Aleatico."
+   },
+   "grapes": [
+    "Rkatsiteli",
+    "Muscat",
+    "Aleatico"
+   ]
+  },
+  {
+   "name": "Surhandarya",
+   "lat": 37.9,
+   "lng": 67.6,
+   "desc": {
+    "tr": "Ülkenin güneyindeki bu vilayet, Semerkant ve Taşkent ile birlikte en geniş bağ alanlarına sahip üç vilayetten biridir.",
+    "en": "This southern province is one of the three provinces, with Samarkand and Tashkent, that hold most of the country's vineyards."
+   },
+   "grapes": [
+    "Bakhtiori",
+    "Soyaki",
+    "Muscat"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Soyaki",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Tien Şan eteklerinde yetişen yerli bir çeşittir. Hafif asitli, baldan notalar taşıyan hafif beyaz şaraplar verir.",
+    "en": "A local grape of the Tien Shan foothills that makes light white wines with slight acidity and honeyed aromas."
+   }
+  },
+  {
+   "name": "Bakhtiori",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Orta Asya'da çok eski zamanlardan beri yetiştirilen yerli bir beyaz üzümdür.",
+    "en": "A white grape grown in Central Asia since ancient times."
+   }
+  },
+  {
+   "name": "Bayan Shirey",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Azerbaycan kökenli bu çeşit, altın renkli ve narenciye tatlı kuru beyaz şaraplar verir.",
+    "en": "A grape of Azerbaijani origin that gives golden dry whites with a citrus finish."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli bu çeşit, Buhara başta olmak üzere ülkenin birçok yerinde yetişir.",
+    "en": "A Georgian grape widely planted in Uzbekistan, notably around Bukhara."
+   }
+  },
+  {
+   "name": "Aleatico",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "İtalya kökenli bu aromatik çeşit, Semerkant'ın ödüllü tatlı kırmızı şarabı Aleatiko'nun hammaddesidir.",
+    "en": "An aromatic Italian variety, the base of Samarkand's award-winning sweet red Aleatiko."
+   }
+  },
+  {
+   "name": "Saperavi",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli bu koyu renkli çeşit, Özbekistan'da dolgun kırmızı şaraplar vermesi için yetiştirilir.",
+    "en": "A dark Georgian variety grown in Uzbekistan for full-bodied reds."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Chateau Hamkor ve Tashkentvino gibi üreticilerin hafif, kuru kırmızı şaraplarında kullanılır.",
+    "en": "Used for light, dry reds by producers such as Chateau Hamkor and Tashkentvino."
+   }
+  },
+  {
+   "name": "Muscat (Macar Misketi)",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Semerkant ve Buhara'da yetiştirilir. Özbekistan Misketi ve Gulyakandoz gibi tatlı şaraplarda kullanılır.",
+    "en": "Grown in Samarkand and Bukhara and used in sweet wines such as Uzbekistan Muscat and Gulyakandoz."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Gulyakandoz",
+   "desc": {
+    "tr": "Altın renkli, dolgun, hafif misket aromalı bu kuvvetlendirilmiş tatlı şarap yalnızca Semerkant'taki Hovrenko şaraphanesinde üretilir.",
+    "en": "A golden, full-bodied sweet fortified wine with subtle muscat notes, produced only at the Khovrenko winery in Samarkand."
+   }
+  },
+  {
+   "name": "Aleatiko",
+   "desc": {
+    "tr": "Aleatico üzümünden yapılan bu tatlı kırmızı şarabın tekniğinin 1939'da Semerkant şaraphanesine getirildiğine inanılır. Şarap uluslararası yarışmalarda madalya kazanmıştır.",
+    "en": "A sweet red wine from Aleatico, whose method is thought to have been introduced at the Samarkand winery in 1939, and which has won international medals."
+   }
+  },
+  {
+   "name": "Shirin",
+   "desc": {
+    "tr": "Semerkant şaraphanesinin yerel üzümlerden yaptığı tatlı şaraplardan biridir.",
+    "en": "One of the dessert wines the Samarkand winery makes from local grape varieties."
+   }
+  },
+  {
+   "name": "Bayan Shirey kuru beyaz",
+   "desc": {
+    "tr": "Altın renkli ve narenciye tadında bir kuru beyaz şaraptır. Başlıca üreticileri Tashkentvino ve Uzumfermer'dir.",
+    "en": "A golden dry white with a citrus finish, made mainly by Tashkentvino and Uzumfermer."
+   }
+  },
+  {
+   "name": "Özbek Pinot Noir",
+   "desc": {
+    "tr": "Kuru, hafif gövdeli, böğürtlen ve reçel notaları taşıyan kırmızı şarap. Yeni kuru şarap akımının bir örneğidir.",
+    "en": "A dry, light red with berry and jam notes, typical of the newer dry-wine movement."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Uzbek grapes. Grape growing and winemaking in Uzbekistan",
+   "url": "https://www.centralasia-travel.com/en/countries/uzbekistan/natural_blessings/vinegrapes"
+  },
+  {
+   "title": "Winemaking",
+   "url": "https://eurasia.travel/uzbekistan/winemaking/"
+  },
+  {
+   "title": "Uzbek Wines and Winemaking: Try Full Flavor Entwisted with Rich History",
+   "url": "https://www.advantour.com/uzbekistan/wine.htm"
+  },
+  {
+   "title": "Wine tasting in Samarkand. House-Museum named after Filatov (Professor Khovrenko Plant)",
+   "url": "https://www.centralasia-travel.com/en/countries/uzbekistan/places/samarkand/khovrenko"
+  },
+  {
+   "title": "Wine Tasting in Uzbekistan",
+   "url": "https://www.advantour.com/uzbekistan/wine/wine-tasting.htm"
+  },
+  {
+   "title": "Exploring Uzbekistan's winemaking tradition - Travel Tomorrow",
+   "url": "https://traveltomorrow.com/exploring-uzbekistans-winemaking-tradition/"
+  },
+  {
+   "title": "Culture of Uzbekistan",
+   "url": "https://en.wikipedia.org/wiki/Culture_of_Uzbekistan"
+  },
+  {
+   "title": "KARAKALPAKSTAN BLOG: UZBEK WINES",
+   "url": "https://karakalpak-karakalpakstan.blogspot.com/2010/04/uzbek-wines.html"
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "iso3": "JPN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22772,
+  "out": 4331,
+  "searches": 2
+ },
+ "usd": 0.1089,
+ "summary": {
+  "tr": "Japonya'da asmanın efsaneye göre 718'e uzanan bir geçmişi vardır, ancak modern şarapçılık 1870'lerde Yamanashi'de başlamıştır. Ülkenin simge üzümü, Yamanashi'de yetişen yerel beyaz Koshu'dur. Şarapçılık 1964 Tokyo Olimpiyatları'ndan sonra kuru şaraba artan talepten ve 2010'lardan itibaren gelen yasal düzenlemelerden güç almıştır. Bu düzenlemeler arasında 2013'ten beri Ulusal Vergi Dairesi'nin (NTA",
+  "en": "Legend dates grapegrowing in Japan to 718, but modern winemaking began in Yamanashi in the 1870s. The country's signature grape is Koshu, a native white grown mainly in Yamanashi. The industry gained momentum from rising demand for dry wine after the 1964 Tokyo Olympics and from regulatory reforms in the 2010s. These include National Tax Agency (NTA) Geographical Indications (GI), which began in 2"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Yamanashi",
+   "lat": 35.68,
+   "lng": 138.65,
+   "desc": {
+    "tr": "Japon şarapçılığının tarihî merkezi olan Yamanashi, Kofu Havzası ve Katsunuma çevresinde Koshu ve Muscat Bailey A ile bilinir ve ülkenin ilk şarap GI'sına (2013) sahiptir.",
+    "en": "Japan's historic wine heartland, centred on the Kofu Basin and Katsunuma, known for Koshu and Muscat Bailey A and holding the country's first wine GI (2013)."
+   },
+   "grapes": [
+    "Koshu",
+    "Muscat Bailey A",
+    "Chardonnay",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Nagano",
+   "lat": 36.1,
+   "lng": 137.95,
+   "desc": {
+    "tr": "Nagano, yüksek rakımlı vadi bağlarında (Kikyogahara, Chikumagawa, Hokushin) Merlot, Chardonnay ve diğer Avrupa çeşitleriyle öne çıkar; 2021'de GI aldı.",
+    "en": "Nagano is known for high-altitude valley vineyards (Kikyogahara, Chikumagawa, Hokushin) making Merlot, Chardonnay and other European varieties, and it received a GI in 2021."
+   },
+   "grapes": [
+    "Merlot",
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "Hokkaido",
+   "lat": 43.2,
+   "lng": 141.0,
+   "desc": {
+    "tr": "Hokkaido, Yoichi ve çevresindeki serin iklim bağlarıyla Pinot Noir ve aromatik beyazlarıyla bilinen, hızla büyüyen bir bölgedir; 2018'de GI aldı.",
+    "en": "Hokkaido is a fast-growing cool-climate region, centred on Yoichi, known for Pinot Noir and aromatic whites, and it received a GI in 2018."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Chardonnay",
+    "Kerner",
+    "Zweigelt"
+   ]
+  },
+  {
+   "name": "Yamagata",
+   "lat": 38.3,
+   "lng": 140.3,
+   "desc": {
+    "tr": "Yamagata, köklü meyvecilik geleneğine sahip iç havzalarda, ferah asiditeli şaraplarıyla tanınır; 2021'de GI aldı.",
+    "en": "Yamagata is a long-established fruit-growing area of inland basins, known for refreshing, acidic wines, and it received a GI in 2021."
+   },
+   "grapes": [
+    "Delaware",
+    "Muscat Bailey A",
+    "Chardonnay",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Osaka",
+   "lat": 34.55,
+   "lng": 135.62,
+   "desc": {
+    "tr": "Osaka, Kawachi eteklerindeki sofralık üzüm ve şarap geleneğiyle bilinir; 2021'de GI aldı.",
+    "en": "Osaka is known for its historic table-grape and wine tradition in the Kawachi foothills, and it received a GI in 2021."
+   },
+   "grapes": [
+    "Delaware",
+    "Koshu",
+    "Muscat Bailey A"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Koshu",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Japonya'nın simge beyaz üzümü olan pembe kabuklu Koshu, narenciye aromalı, hafif ve ferah şaraplar verir.",
+    "en": "Japan's signature pink-skinned white grape, making light, fresh, citrus-toned wines."
+   }
+  },
+  {
+   "name": "Muscat Bailey A",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Zenbei Kawakami'nin 1920'lerde ürettiği yerel melez kırmızı üzüm, kiraz şekeri aromalı hafif şaraplar verir.",
+    "en": "A Japanese red hybrid bred by Zenbei Kawakami in the 1920s, giving light wines with cherry-candy aromas."
+   }
+  },
+  {
+   "name": "Black Queen",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kawakami'nin geliştirdiği Japon melezi, koyu renkli ve tanenli şaraplar verir ve çoğunlukla harmanlarda kullanılır.",
+    "en": "A Japanese-bred hybrid developed by Kawakami, making deeply coloured, tannic wines often used in blends."
+   }
+  },
+  {
+   "name": "Yama Sauvignon",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Yabani Yamabudo ile Cabernet Sauvignon'un melezi olan Yama Sauvignon, koyu renkli ve tanenli kırmızı şaraplar verir.",
+    "en": "A cross of wild Yamabudo and Cabernet Sauvignon, giving deeply coloured, structured reds."
+   }
+  },
+  {
+   "name": "Delaware",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Amerikan kökenli bir melez olan Delaware, Yamagata ve Osaka'da yaygındır ve hem sofralık hem şaraplık olarak kullanılır.",
+    "en": "An American-origin hybrid widely grown in Yamagata and Osaka for both table use and wine."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Chardonnay, Nagano ve Yamanashi başta olmak üzere pek çok bölgede yetişen önemli bir uluslararası beyaz çeşittir.",
+    "en": "A major international white grown in many regions, notably Nagano and Yamanashi."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Merlot, özellikle Nagano'da (Kikyogahara) ülkenin en tanınmış uluslararası kırmızı çeşidi olarak öne çıkar.",
+    "en": "The best-known international red, especially in Nagano's Kikyogahara."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Pinot Noir, Hokkaido'nun serin iklimine çok uygundur ve bölgenin başlıca kırmızı çeşidi olarak öne çıkar.",
+    "en": "Pinot Noir suits Hokkaido's cool climate and is the region's leading red."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Koshu",
+   "desc": {
+    "tr": "Koshu'dan yapılan kuru, hafif gövdeli şaraplar, yuzu ve greyfurt tonları taşır ve suşi ile beyaz etli balıkla iyi gider.",
+    "en": "Dry, light-bodied wines from Koshu with yuzu and grapefruit notes, a natural partner for sushi and white fish."
+   }
+  },
+  {
+   "name": "GI Yamanashi",
+   "desc": {
+    "tr": "2013'te Ulusal Vergi Dairesi'nin verdiği Japonya'nın ilk şarap coğrafi işareti, bölgede yetişen üzümlerden yapılan, kalite ve duyusal testlerden geçen şarapları belirtir.",
+    "en": "Japan's first wine GI, granted by the National Tax Agency in 2013, for wines from Yamanashi-grown grapes that pass quality and sensory tests."
+   }
+  },
+  {
+   "name": "Muscat Bailey A",
+   "desc": {
+    "tr": "Yerel melez Muscat Bailey A'dan yapılan hafif, aromatik kırmızılar; meşede bekletilenlerde daha fazla derinlik görülür.",
+    "en": "Light, aromatic reds from the native hybrid Muscat Bailey A, with more depth when aged in oak."
+   }
+  },
+  {
+   "name": "Nihon Wine (Japan Wine)",
+   "desc": {
+    "tr": "2015'ten itibaren yürürlükte olan etiket kuralları, yalnızca Japonya'da yetişen üzümlerden Japonya'da yapılan şarapları \"Japan Wine\" olarak tanımlar ve ithal şaraptan ayırır.",
+    "en": "Since 2015, labelling rules define \"Japan Wine\" as wine made in Japan from Japan-grown grapes, setting it apart from wine made with imported grapes or must."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Exploring Japan’s Vineyards: A Guide To Fall Wine Tasting",
+   "url": "https://travel.rakuten.com/contents/usa/en-us/guide/vineyards-japan/"
+  },
+  {
+   "title": "Yamanashi regional profile: Six star wines to try.",
+   "url": "https://www.decanter.com/wine/japan/yamanashi-regional-profile-six-star-wines-to-try/"
+  },
+  {
+   "title": "Three of Japan's Wine Regions You Need to Visit",
+   "url": "https://allabout-japan.com/en/article/11238/"
+  },
+  {
+   "title": "The main wine regions in Japan : A Quick Guide - Diane Wine Voyage",
+   "url": "https://dianewinevoyage.com/wine-regions-in-japan/"
+  },
+  {
+   "title": "Japanese Wine Guide: Producers, Regions and Grapes",
+   "url": "https://www.d-i.wine/japan"
+  },
+  {
+   "title": "Japanese Wine Regions: Yamanashi, Nagano, Hokkaido & Beyond",
+   "url": "https://winerytoursjapan.com/japanese-wine-regions-explained/"
+  },
+  {
+   "title": "Introduction to Japanese Wine",
+   "url": "https://www.3grapes.co/japanese-wine"
+  },
+  {
+   "title": "Japanese Wine Regions: Three Places, Three Grapes, One Problem",
+   "url": "https://www.nipponstays.com/japanese-wine-regions-where-to-go/"
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "iso3": "EST",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22125,
+  "out": 4073,
+  "searches": 2
+ },
+ "usd": 0.105,
+ "summary": {
+  "tr": "Estonya'da şarapçılık, üzümden çok meyve ve yaban mersini türü böğürtlengillerden yapılan şaraplara dayanır. Põltsamaa'da 1921'de başlayan üretim bu geleneğin simgesi olmuştur. Soğuk iklime dayanıklı melez üzümlerle yapılan şarapçılık ise yeni ve küçük ölçeklidir. Ülke Aralık 2021'den beri AB haritasında resmen şarap üreten bölge olarak yer almaktadır ve üretim, ağırlıklı olarak küçük aile işletme",
+  "en": "Estonian winemaking rests mainly on fruit and berry wines rather than grapes, and the Põltsamaa cellar, where production began in 1921, symbolises that tradition. Grape growing, based on cold-hardy hybrid varieties, is recent and small in scale. Estonia has been listed as a wine-producing region on the EU map since December 2021, and production is mostly in small family-run wineries."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Güney Estonya (Otepää / Võru)",
+   "lat": 58.06,
+   "lng": 26.5,
+   "desc": {
+    "tr": "Murimäe ve Uue-Saaluse gibi ülkenin en güneydeki ve en yüksekteki bağlarına ev sahipliği yapan, teraslı bağlarıyla bilinen bölgedir.",
+    "en": "Home to Murimäe and Uue-Saaluse, among the country's southernmost and highest vineyards, known for its terraced vineyard slopes."
+   },
+   "grapes": [
+    "Solaris",
+    "Regent",
+    "Rondo",
+    "Cabernet Cortis"
+   ]
+  },
+  {
+   "name": "Tartu İli",
+   "lat": 58.38,
+   "lng": 26.72,
+   "desc": {
+    "tr": "Järiste gibi kendi bağındaki üzümden şarap yapan az sayıdaki işletmeye ve meyve şarapçılığına ev sahipliği yapar.",
+    "en": "Home to Järiste and a few other wineries that make wine from grapes grown in their own vineyards, alongside fruit winemaking."
+   },
+   "grapes": [
+    "Rondo",
+    "Solaris"
+   ]
+  },
+  {
+   "name": "Saaremaa ve Muhu",
+   "lat": 58.5,
+   "lng": 22.9,
+   "desc": {
+    "tr": "Deniz etkisiyle biraz daha ılıman olan adalar, Muhu'daki Matiesen gibi öncü bağlara ve her şeyden şarap yapan küçük işletmelere ev sahipliği yapar.",
+    "en": "The islands, slightly milder thanks to the sea, host pioneering vineyards such as Matiesen on Muhu and small wineries that make wine from almost anything."
+   },
+   "grapes": [
+    "Rondo",
+    "Solaris",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "Pärnu İli",
+   "lat": 58.4,
+   "lng": 24.5,
+   "desc": {
+    "tr": "Batı kıyısındaki bu il, Estonya üzüm şarabının öncülerinden Mullapera ve köpüklü meyve şarabı üreten Valgeranna ile bilinir.",
+    "en": "This west-coast county is known for Mullapera, a pioneer of Estonian grape wine, and for Valgeranna's sparkling fruit wines."
+   },
+   "grapes": [
+    "Rondo",
+    "Zilga"
+   ]
+  },
+  {
+   "name": "Viljandi İli",
+   "lat": 58.36,
+   "lng": 25.59,
+   "desc": {
+    "tr": "Organik meyve şaraplarıyla tanınan Allikukivi'ye ve yeni üzüm bağlarına ev sahipliği yapar.",
+    "en": "Home to Allikukivi, known for organic fruit wines, as well as newer grape vineyards."
+   },
+   "grapes": [
+    "Solaris",
+    "Rondo"
+   ]
+  },
+  {
+   "name": "Lahemaa / Harjumaa (Kuzey Estonya)",
+   "lat": 59.5,
+   "lng": 25.8,
+   "desc": {
+    "tr": "Valgejõe Veinivilla ile ülkenin en kuzeydeki şaraphanesine ev sahipliği yapar ve meyve ile böğürtlengil şaraplarıyla öne çıkar.",
+    "en": "Home to Valgejõe Veinivilla, the country's northernmost winery, known for fruit and berry wines."
+   },
+   "grapes": [
+    "Rondo",
+    "Solaris"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Solaris",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Estonya'da en yaygın yetiştirilen, soğuğa dayanıklı melez beyaz üzümdür ve taze, aromatik şaraplar ile köpüklü şaraplar verir.",
+    "en": "A cold-hardy hybrid white and Estonia's most widely planted variety, used for fresh, aromatic still and sparkling wines."
+   }
+  },
+  {
+   "name": "Rondo",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Estonya'da yaygın olarak yetiştirilen, erken olgunlaşan koyu renkli melez bir üzümdür ve kırmızı ile roze şaraplarda kullanılır.",
+    "en": "A widely grown, early-ripening dark hybrid used for red and rosé wines."
+   }
+  },
+  {
+   "name": "Zilga",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Letonya'da geliştirilmiş, soğuğa dayanıklı bir melez olup hafif ve meyvemsi kırmızı şaraplar verir.",
+    "en": "A cold-resistant hybrid bred in Latvia that gives light, fruity red wines."
+   }
+  },
+  {
+   "name": "Hasansky Sladky",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Don dayanımı yüksek, çok erken olgunlaşan bir melez olup yüksek asiditeye sahiptir.",
+    "en": "A very frost-hardy, early-ripening hybrid with high acidity."
+   }
+  },
+  {
+   "name": "Regent",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Orta gövdeli, baharatlı ve koyu meyveli kırmızı şaraplar için umut vadeden bir melezdir.",
+    "en": "A hybrid with promise for medium-bodied reds with spice and dark-fruit notes."
+   }
+  },
+  {
+   "name": "Cabernet Cortis",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Hastalıklara dayanıklı bir melez olup Estonya'daki bağlarda daha az yaygın olarak yetiştirilir.",
+    "en": "A disease-resistant hybrid grown in smaller amounts in Estonian vineyards."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Klasik Burgundy üzümü olup Estonya'da ancak korunaklı bağlarda ve az miktarda yetiştirilir.",
+    "en": "The classic Burgundian grape, grown in Estonia only in small amounts and in sheltered sites."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Meyve ve böğürtlengil şarapları",
+   "desc": {
+    "tr": "Elma, frenk üzümü, aronya, ravent ve ahududu gibi yerel meyvelerden yapılan bu şaraplar, Estonya şarapçılığının en yaygın ve en özgün ürünüdür.",
+    "en": "Made from local apples, currants, chokeberries, rhubarb and raspberries, these are the most common and most distinctive wines of Estonia."
+   }
+  },
+  {
+   "name": "Yeşil frenk üzümü köpüklü şarabı (Allikukivi)",
+   "desc": {
+    "tr": "Allikukivi'nin bu köpüklü şarabı, Estonya İçki Festivali'nde 2022 ve 2023'te En İyi Köpüklü Şarap seçilmiştir.",
+    "en": "Allikukivi's sparkling wine was named Best Sparkling Wine at the Estonian Drink Festival in 2022 and 2023."
+   }
+  },
+  {
+   "name": "Solaris köpüklü şarabı (Murimäe)",
+   "desc": {
+    "tr": "Murimäe'nin Muri d'Or Solaris köpüklü şarabı, 2021 Baltık Kupası'nda köpüklü şaraplar kategorisinde birinci olmuştur.",
+    "en": "Murimäe's Muri d'Or Solaris sparkling wine took first place in the sparkling category at the 2021 Baltic Cup."
+   }
+  },
+  {
+   "name": "Estonya melez üzüm şarapları",
+   "desc": {
+    "tr": "Rondo, Zilga veya Solaris ile yapılan kırmızı, roze ve beyaz şaraplar, soğuk iklim nedeniyle yüksek asiditeli ve düşük alkollüdür.",
+    "en": "Reds, rosés and whites from Rondo, Zilga or Solaris, which are high in acidity and low in alcohol because of the cold climate."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Wineries in Estonia worth visiting",
+   "url": "https://visitestonia.com/en/what-to-do/visit-the-best-wineries-in-estonia"
+  },
+  {
+   "title": "Discover Estonia's NEW Wine Trails",
+   "url": "https://travellingforbusiness.co.uk/destinations/discover-estonias-new-wine-trails/"
+  },
+  {
+   "title": "Estonian fruit and berry wine farm Valgejõe Veinivilla",
+   "url": "https://veinivilla.ee/en/"
+  },
+  {
+   "title": "Murimäe Veinikelder - Winery in Southern Estonia",
+   "url": "https://www.winetourism.com/winery/murimae-veinikelder/"
+  },
+  {
+   "title": "Discover the wines regions, subregions and grape varietals and wines of Estonia",
+   "url": "https://www.vinerra.com/country/estonia"
+  },
+  {
+   "title": "Discover new terroir on Estonian wine trail",
+   "url": "https://vana.veinitee.ee/en/home/"
+  },
+  {
+   "title": "Estonia has officially been recognized as a wine-producing country for five years now",
+   "url": "https://veinivilla.ee/en/media/estonia-has-officially-been-recognized-as-a-wine-producing-country-for-five-years-now/"
+  },
+  {
+   "title": "ENG",
+   "url": "https://jaristeveinitalu.com/en"
+  }
+ ]
+}

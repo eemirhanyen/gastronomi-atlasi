@@ -1,0 +1,242 @@
+{
+ "iso3": "ALB",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24716,
+  "out": 4127,
+  "searches": 2
+ },
+ "usd": 0.1107,
+ "summary": {
+  "tr": "Arnavutluk'ta bağcılık, İlirya dönemine ve hatta Bronz Çağı'na kadar uzanır; Dıraç (Dyrrhachium) ve Apollonia çevresinde Roma döneminde de şarap ticareti yapılmıştır. Osmanlı döneminde şarapçılık daha çok Hristiyan topluluklarda sürdü. Komünist dönemde miktar kaliteden daha önemliydi ve 1990'lara gelindiğinde bağ alanı yaklaşık 20.000 hektara ulaşmıştı. 1990'lardan sonra, özellikle Berat çevresind",
+  "en": "Viticulture in Albania goes back to Illyrian times and possibly the Bronze Age, and in Roman times wine was traded from Dyrrhachium (Durrës) and Apollonia. Under Ottoman rule, winemaking survived mainly in Christian communities. In the communist era quantity mattered more than quality, and vineyard area peaked at nearly 20,000 ha by 1990. Since the 1990s, small family wineries, especially around B"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Berat",
+   "lat": 40.7,
+   "lng": 19.95,
+   "desc": {
+    "tr": "Kireçtaşı bir toprağa sahip tepelerde yer alan Berat, savaş sonrası yeniden doğan Arnavut şarabının merkezi sayılır ve Shesh i Zi ile Pulës'iyle tanınır.",
+    "en": "Set on limestone hillsides, Berat is regarded as the centre of Albania's wine revival and is known for Shesh i Zi and Pulës."
+   },
+   "grapes": [
+    "Shesh i Zi",
+    "Shesh i Bardhë",
+    "Pulës",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Tirana–Durrës",
+   "lat": 41.35,
+   "lng": 19.6,
+   "desc": {
+    "tr": "Shesh köyünün çevresindeki bu kıyı ovası ülkenin en büyük üretim alanıdır ve Shesh i Zi ile Shesh i Bardhë'nin anavatanıdır.",
+    "en": "This coastal plain around the village of Shesh is the country's largest production area and the home of Shesh i Zi and Shesh i Bardhë."
+   },
+   "grapes": [
+    "Shesh i Zi",
+    "Shesh i Bardhë",
+    "Merlot",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Shkodër–Lezhë (Zadrima)",
+   "lat": 41.85,
+   "lng": 19.65,
+   "desc": {
+    "tr": "Kuzeyin bu bölgesi, Arnavutluk'un en iyi kırmızı üzümü sayılan Kallmet'in yetiştiği yerdir.",
+    "en": "This northern area is the heartland of Kallmet, regarded as Albania's premier red grape."
+   },
+   "grapes": [
+    "Kallmet",
+    "Shesh i Zi"
+   ]
+  },
+  {
+   "name": "Vlorë",
+   "lat": 40.45,
+   "lng": 19.49,
+   "desc": {
+    "tr": "Güney kıyısındaki Vlorë, Adriyatik ve İyon Denizi'nin etkisindeki iklimi ve Vlosh kırmızı üzümüyle bilinir.",
+    "en": "On the southern coast, Vlorë is known for its sea-influenced climate and the red Vlosh grape."
+   },
+   "grapes": [
+    "Vlosh",
+    "Shesh i Zi",
+    "Shesh i Bardhë"
+   ]
+  },
+  {
+   "name": "Përmet",
+   "lat": 40.23,
+   "lng": 20.35,
+   "desc": {
+    "tr": "Güneydeki dağlık Përmet, Debinë ve Çeruja gibi beyaz üzümleri ve Epir'e özgü şarap geleneğiyle tanınır.",
+    "en": "Mountainous Përmet in the south is known for white grapes such as Debinë and Çeruja and for its Epirus-style wine tradition."
+   },
+   "grapes": [
+    "Debinë",
+    "Çeruja",
+    "Shesh i Zi"
+   ]
+  },
+  {
+   "name": "Korçë",
+   "lat": 40.62,
+   "lng": 20.78,
+   "desc": {
+    "tr": "Yüksek rakımlı ve serin iklimli Korçë, gelişmekte olan beyaz şarapları ve yükselen kalitesiyle öne çıkar.",
+    "en": "High-altitude, cool-climate Korçë is known for its emerging white wines and rising quality."
+   },
+   "grapes": [
+    "Shesh i Bardhë",
+    "Debinë",
+    "Merlot"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Shesh i Zi",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Tiran çevresindeki Shesh'ten adını alan, en yaygın yerli kırmızı üzümdür; orta gövdeli, erik ve böğürtlen aromalı şaraplar verir.",
+    "en": "Named after Shesh near Tirana, this is the most widely planted native red, making medium-bodied wines with plum and blackberry notes."
+   }
+  },
+  {
+   "name": "Kallmet",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Shkodër ve Lezhë çevresinde yetişen, yapılı, derin renkli ve yıllandırmaya uygun şaraplar veren kuzey kırmızısıdır.",
+    "en": "The red of the north, grown around Shkodër and Lezhë, it gives structured, deeply coloured wines that can age."
+   }
+  },
+  {
+   "name": "Vlosh",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Esas olarak Vlorë çevresinde yetişen bir güney kıyısı kırmızı üzümüdür.",
+    "en": "A red grape grown mainly around Vlorë on the southern coast."
+   }
+  },
+  {
+   "name": "Shesh i Bardhë",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "En yaygın yerli beyaz üzümdür; turunçgil, elma ve otsu notalı ferah şaraplar verir.",
+    "en": "The most widely planted native white, it makes fresh wines with citrus, apple and herbal notes."
+   }
+  },
+  {
+   "name": "Pulës",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Berat'ın nadir beyaz üzümüdür; aromatik, orta gövdeli şaraplar verir ve köpüklü şarapta da kullanılır.",
+    "en": "A rare white from the Berat area, it gives aromatic, medium-bodied wines and is also used for sparkling wine."
+   }
+  },
+  {
+   "name": "Debinë",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Himara ve Përmet çevresiyle anılan, Yunanistan'ın Epir bölgesiyle de paylaşılan, canlı ve tuzlu dokunuşlu bir beyaz üzümdür.",
+    "en": "A white grape associated with Himara and Përmet and shared with Greek Epirus, giving crisp wines with a saline edge."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Genellikle Shesh i Zi ile harmanlanarak renk ve yapı katan uluslararası bir çeşittir.",
+    "en": "An international variety often blended with Shesh i Zi to add colour and structure."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Yerli kırmızılarla harmanlarda yumuşaklık sağlayan, yaygın olarak ekilen uluslararası bir çeşittir.",
+    "en": "A widely planted international variety used to soften blends with native reds."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Shesh i Zi reds",
+   "desc": {
+    "tr": "Orta gövdeli, yumuşak tanenli ve koyu meyve aromalı bu kırmızılar, Arnavutluk'un en tipik kırmızı şarap stilidir.",
+    "en": "Medium-bodied reds with soft tannins and dark-fruit character, these are Albania's most typical red wine style."
+   }
+  },
+  {
+   "name": "Kallmet",
+   "desc": {
+    "tr": "Kuzeyin yapılı kırmızısı olan Kallmet, tanenli ve yıllandırılabilir bir karaktere sahiptir.",
+    "en": "The structured red of the north, Kallmet is tannic and capable of ageing."
+   }
+  },
+  {
+   "name": "Shesh i Bardhë and Pulës whites",
+   "desc": {
+    "tr": "Kuru, ferah ve turunçgil ya da beyaz çiçek aromalı bu beyazlar genç içilir ve deniz ürünleriyle iyi gider.",
+    "en": "Dry, fresh whites with citrus or white-flower notes, best drunk young and well suited to seafood."
+   }
+  },
+  {
+   "name": "Traditional-method Pulës sparkling",
+   "desc": {
+    "tr": "Çobo gibi bazı üreticiler, yerli Pulës üzümünden geleneksel yöntemle köpüklü şarap yapma geleneğini yeniden canlandırmıştır.",
+    "en": "Producers such as Çobo have revived traditional-method sparkling wine made from the native Pulës grape."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Albanian Wine Producers Revive Native Grapes Near Tirana",
+   "url": "https://www.enprimeurclub.com/guide/albanian-wine-producers-revive-native-grapes-near-tirana"
+  },
+  {
+   "title": "Shesh i Zi",
+   "url": "https://en.wikipedia.org/wiki/Shesh_i_Zi"
+  },
+  {
+   "title": "Albania: A New Wine Frontier - The Quirky Cork",
+   "url": "https://thequirkycork.com/albania-a-new-wine-frontier/"
+  },
+  {
+   "title": "Explore Albania Wine: Regions & Grapes",
+   "url": "https://oldtownexplorer.com/destinations/albania/albania-wine/"
+  },
+  {
+   "title": "Albanian Drinks: Coffee, Raki, Wine, Beer, Tea Guide",
+   "url": "https://albanianregistry.org/blog/albania-drink"
+  },
+  {
+   "title": "Discover the Southern Region wine region of Albania",
+   "url": "https://www.vinerra.com/wine-region/albania-southern-region"
+  },
+  {
+   "title": "Discover the best wines and producers of Albania",
+   "url": "https://www.vinerra.com/country/albania"
+  },
+  {
+   "title": "Discover the Western Lowland wine region of Albania",
+   "url": "https://www.vinerra.com/wine-region/albania-western-lowland"
+  }
+ ]
+}

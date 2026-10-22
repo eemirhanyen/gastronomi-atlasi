@@ -1,0 +1,199 @@
+{
+ "iso3": "MLT",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 14795,
+  "out": 3065,
+  "searches": 1
+ },
+ "usd": 0.0702,
+ "summary": {
+  "tr": "Malta'da şarap yapımı yaklaşık MÖ 700'lerde Fenikelilere kadar uzanır. Fenike dönemine ait bir gemi enkazından çıkan yerel amforalar bunu gösterir. Adalar Romalıların, Arapların, Şövalyelerin ve İngilizlerin yönetiminden geçti. 2004'te AB'ye girişten sonra, 2007'de DOK sistemi getirildi. Bugün üretim butik ölçektedir ve iki yerli üzüm olan Ġellewża ile Girgentina ön plandadır.",
+  "en": "Winemaking in Malta goes back to the Phoenicians around 700 BCE. Locally made amphorae from a Phoenician shipwreck off Gozo show this. The islands later passed through Roman, Arab, Knights and British rule. After EU accession in 2004, the DOK appellation system was introduced in 2007. Production today is boutique in scale and centres on two native grapes, Ġellewża and Girgentina."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Gozo (DOK Gozo)",
+   "lat": 36.045,
+   "lng": 14.26,
+   "desc": {
+    "tr": "Daha küçük ve denizden serinleyen Gozo adası, sulanmayan geleneksel goble (bush vine) bağları ve agroturizm şaraphaneleriyle bilinir.",
+    "en": "The smaller, sea-cooled island of Gozo is known for traditional un-irrigated goblet-trained vineyards and agritourism wineries."
+   },
+   "grapes": [
+    "Ġellewża",
+    "Girgentina",
+    "Syrah",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Central Malta (Mdina–Rabat–Ta' Qali)",
+   "lat": 35.886,
+   "lng": 14.4,
+   "desc": {
+    "tr": "Mdina çevresindeki bu iç bölge, ana adadaki birçok önemli şarap üreticisine ve ziyaret edilebilir bağa ev sahipliği yapar.",
+    "en": "This inland area around Mdina is home to several of the main island's leading producers and many visitable estates."
+   },
+   "grapes": [
+    "Ġellewża",
+    "Girgentina",
+    "Merlot",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Northwest Malta (Mġarr–Bidnija–Wardija)",
+   "lat": 35.93,
+   "lng": 14.37,
+   "desc": {
+    "tr": "Kireçtaşı yamaçlarındaki bu kuzeybatı bölgesinde, uluslararası ve yerli çeşitler yetiştirilen küçük, kaliteye odaklı bağlar bulunur.",
+    "en": "This northwestern area of limestone slopes has small, quality-focused vineyards growing both international and native varieties."
+   },
+   "grapes": [
+    "Syrah",
+    "Cabernet Sauvignon",
+    "Chardonnay",
+    "Girgentina"
+   ]
+  },
+  {
+   "name": "Southern Malta (Żurrieq–Siġġiewi)",
+   "lat": 35.835,
+   "lng": 14.45,
+   "desc": {
+    "tr": "Ana adanın güneyi, terra rossa denen kırmızımsı kireçtaşı topraklarıyla ve sıcak, kuru iklimiyle tanınır.",
+    "en": "The south of the main island is known for its red terra rossa limestone soils and hot, dry climate."
+   },
+   "grapes": [
+    "Ġellewża",
+    "Merlot",
+    "Syrah",
+    "Vermentino"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Ġellewża",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Malta'nın yerli kırmızı üzümü; yumuşak, aromatik kırmızı ve rosé şaraplar verir.",
+    "en": "Malta's native red grape, making soft, fragrant reds and rosés."
+   }
+  },
+  {
+   "name": "Girgentina",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Malta'nın yerli beyaz üzümü; taze, hafif ve düşük alkollü beyaz şaraplar verir.",
+    "en": "Malta's native white grape, making fresh, light, fairly low-alcohol whites."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Sıcak Malta iklimine iyi uyum sağlayan, dolgun ve baharatlı kırmızılar üretir.",
+    "en": "Adapts well to Malta's warm climate, giving full-bodied, spicy reds."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Adalarda yaygın yetiştirilen, yumuşak içimli kırmızı şaraplar için kullanılan uluslararası bir çeşittir.",
+    "en": "A widely planted international variety used for soft, approachable reds."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Maltalı üreticilerin başarılı bulduğu, yapılı ve fıçıda dinlendirilen kırmızıların temelidir.",
+    "en": "A successful variety for Maltese producers, used for structured, often barrel-aged reds."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Maltalı beyaz şarapların çoğunda öne çıkar; bazen Girgentina ile harmanlanır.",
+    "en": "Leads many Maltese white wines and is sometimes blended with Girgentina."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "DOK Malta",
+   "desc": {
+    "tr": "Ana adanın şaraplarını kapsayan, AB'nin korumalı menşe adı (PDO) düzeyindeki Maltalı appellation'dır.",
+    "en": "The appellation for wines from the main island, equivalent to the EU PDO level."
+   }
+  },
+  {
+   "name": "DOK Gozo",
+   "desc": {
+    "tr": "Gozo adasında yetiştirilen üzümlerden yapılan şaraplara ayrılmış, 2007'de getirilen DOK sisteminin parçası olan appellation'dır.",
+    "en": "The appellation for wines made from grapes grown on Gozo, part of the DOK system introduced in 2007."
+   }
+  },
+  {
+   "name": "IĠT Maltese Islands",
+   "desc": {
+    "tr": "Tüm Malta adalarını kapsayan, DOK'tan daha esnek kurallara sahip coğrafi işaretli (IGT) kategoridir.",
+    "en": "The broader geographical-indication category covering all the Maltese Islands, with looser rules than DOK."
+   }
+  },
+  {
+   "name": "Cassar de Malte",
+   "desc": {
+    "tr": "Marsovin'in şampanya yöntemiyle (méthode traditionnelle) ürettiği, Malta'nın geleneksel köpüklü şarabıdır.",
+    "en": "Marsovin's sparkling wine made by the traditional method, regarded as Malta's traditional sparkler."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Wine Regions of Malta: Travel Guide",
+   "url": "https://www.winetraveler.com/destinations/malta/"
+  },
+  {
+   "title": "Maltese wine",
+   "url": "https://en.wikipedia.org/wiki/Maltese_wine"
+  },
+  {
+   "title": "Malta & Gozo: a wine story shaped by the Mediterranean",
+   "url": "https://www.wsetglobal.com/knowledge-centre/blog/2026/malta-gozo-a-wine-story-shaped-by-the-mediterranean"
+  },
+  {
+   "title": "Girgentina",
+   "url": "https://en.wikipedia.org/wiki/Girgentina"
+  },
+  {
+   "title": "Maltese Wine: A Guide to its History, Terroir, and Varietals",
+   "url": "https://www.welcome-center-malta.com/post/maltese-wine-a-guide-to-its-history-terroir-and-varietals"
+  },
+  {
+   "title": "Wine Regions of Europe",
+   "url": "https://www.buywine.com/wine-regions-of-europe-malta/"
+  },
+  {
+   "title": "The Best Wines in Malta: A Practical Guide to Maltese Grapes, Wineries, Festivals and Wine Travel",
+   "url": "https://manicmalta.com/the-best-wines-in-malta-a-journey-through-maltese-vines/"
+  },
+  {
+   "title": "Malta Wines: Tiny Vineyards, Big Act - THE RESTAURANT INSIDER - By Churrasco Phuket Steakhouse",
+   "url": "https://insider.churrascophuket.com/2025/10/10/malta-wines-tiny-vineyards-big-act/"
+  }
+ ]
+}

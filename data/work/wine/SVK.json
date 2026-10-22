@@ -1,0 +1,238 @@
+{
+ "iso3": "SVK",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22464,
+  "out": 5064,
+  "searches": 2
+ },
+ "usd": 0.1156,
+ "summary": {
+  "tr": "Slovakya'da bağcılık, Küçük Karpatlar çevresinde Kelt dönemine kadar uzanan iki bin yılı aşkın bir geçmişe sahiptir. Avusturya-Macaristan döneminde Bratislava çevresinin beyaz şarapları ve Tokaj'ın tatlı şarapları çok değer görmüştür. Komünizm döneminde kalite yerine miktar öne çıkmış, 1989'dan sonra özel üreticilerle yeniden kalite odaklı bir canlanma yaşanmıştır. Bugün şaraplar çoğunlukla kuru b",
+  "en": "Viticulture in Slovakia goes back more than two thousand years, to the Celtic period around the Small Carpathians. Under Austro-Hungary, the white wines around Bratislava and the sweet wines of Tokaj were highly prized. The communist era favoured quantity over quality, and after 1989 private growers brought a quality-focused revival. Today the wines are mostly dry whites, and the country is gainin"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Malokarpatská (Small Carpathians)",
+   "lat": 48.29,
+   "lng": 17.27,
+   "desc": {
+    "tr": "Bratislava'nın kuzeydoğusunda yer alan, ülkenin en eski ve en büyük bağ bölgesidir. Pezinok, Modra ve Svätý Jur çevresindeki Şarap Yolu ile bilinir.",
+    "en": "The oldest and largest wine region, lying northeast of Bratislava. It is known for its Wine Route through Pezinok, Modra and Svätý Jur."
+   },
+   "grapes": [
+    "Veltlínske zelené",
+    "Rizling vlašský",
+    "Frankovka modrá",
+    "Svätovavrinecké",
+    "Devín"
+   ]
+  },
+  {
+   "name": "Tokaj",
+   "lat": 48.38,
+   "lng": 21.66,
+   "desc": {
+    "tr": "Macaristan'daki Tokaj bölgesiyle sınırı paylaşan, ülkenin en küçük ve en ünlü bölgesidir. Volkanik topraklarında asilküf etkisiyle yapılan tatlı şaraplarıyla tanınır.",
+    "en": "The smallest and best-known Slovak region, adjoining Hungarian Tokaj. It is famed for sweet wines from noble-rot grapes grown on volcanic soils."
+   },
+   "grapes": [
+    "Furmint",
+    "Lipovina",
+    "Muškát žltý"
+   ]
+  },
+  {
+   "name": "Južnoslovenská (Southern Slovakia)",
+   "lat": 47.9,
+   "lng": 18.4,
+   "desc": {
+    "tr": "Macaristan sınırı boyunca uzanan, ülkenin en sıcak ve en güneşli bölgesidir. Lös ve kumlu topraklarında dolgun şaraplar üretilir.",
+    "en": "The warmest, sunniest region, running along the Hungarian border on loess and sandy soils. It makes fuller-bodied wines."
+   },
+   "grapes": [
+    "Frankovka modrá",
+    "Rizling vlašský",
+    "Veltlínske zelené",
+    "Cabernet Sauvignon"
+   ]
+  },
+  {
+   "name": "Nitrianska (Nitra)",
+   "lat": 48.3,
+   "lng": 18.2,
+   "desc": {
+    "tr": "Nehirler, alçak tepeler ve killi topraklardan granite uzanan çeşitli topraklarıyla bilinen bağ bölgesidir. Nitra Şarap Yolu bu bölgededir.",
+    "en": "A mosaic of rivers, low hills and soils from clay to granite. It is home to the Nitra Wine Route."
+   },
+   "grapes": [
+    "Veltlínske zelené",
+    "Rizling vlašský",
+    "Frankovka modrá",
+    "Pinot gris"
+   ]
+  },
+  {
+   "name": "Stredoslovenská (Central Slovakia)",
+   "lat": 48.2,
+   "lng": 19.2,
+   "desc": {
+    "tr": "Volkanik ve tınlı topraklarda, ülkenin en yüksek rakımlı (yaklaşık 200-400 m) bağlarını barındıran serin iklimli bölgedir.",
+    "en": "A cooler region on volcanic and loamy soils, with the country's highest vineyards at roughly 200 to 400 metres."
+   },
+   "grapes": [
+    "Veltlínske zelené",
+    "Rizling vlašský",
+    "Frankovka modrá"
+   ]
+  },
+  {
+   "name": "Východoslovenská (Eastern Slovakia)",
+   "lat": 48.7,
+   "lng": 21.8,
+   "desc": {
+    "tr": "Doğuda, dağınık ve volkanik karakterli bağlardan oluşan, hafif beyaz şaraplarıyla bilinen küçük bir bölgedir.",
+    "en": "A small eastern region of fragmented, volcanic vineyards, known mainly for light white wines."
+   },
+   "grapes": [
+    "Veltlínske zelené",
+    "Rizling vlašský",
+    "Pinot gris"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Devín",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Gewürztraminer ile Roter Veltliner'in Slovakya'da yetiştirilmiş melezidir. Baharatlı aromalı, saman sarısı şaraplar verir.",
+    "en": "A Slovak-bred cross of Gewürztraminer and Roter Veltliner, giving straw-yellow, gently spicy wines."
+   }
+  },
+  {
+   "name": "Alibernet",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Slovakya'da geliştirilmiş, koyu renkli ve yoğun yapılı bir kırmızı melez çeşittir.",
+    "en": "A Slovak-bred red crossing that gives deeply coloured, full-bodied wines."
+   }
+  },
+  {
+   "name": "Veltlínske zelené (Grüner Veltliner)",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Ülkenin en çok dikilen çeşididir. Taze, hafif meyvemsi ve asiditesi yüksek, uzun yaşlandırmaya uygun şaraplar verir.",
+    "en": "The most planted variety in the country, giving fresh, lightly fruity wines with good acidity and ageing potential."
+   }
+  },
+  {
+   "name": "Rizling vlašský (Welschriesling)",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Veltlínske zelené'den sonra gelen, yaygın olarak yetiştirilen ve hafif, canlı beyaz şaraplar veren bir çeşittir.",
+    "en": "A widely grown variety, second to Grüner Veltliner, making light, lively white wines."
+   }
+  },
+  {
+   "name": "Frankovka modrá (Blaufränkisch)",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Böğürtlen, vişne ve baharat notalı, gövdeli kırmızı şaraplar veren, önemli bir kırmızı çeşittir.",
+    "en": "A leading red grape, making full-bodied wines with blackberry, cherry and spice notes."
+   }
+  },
+  {
+   "name": "Svätovavrinecké (St. Laurent)",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Küçük Karpatlar'da önemli bir yeri olan, zarif yapılı kırmızı bir çeşittir.",
+    "en": "An important red variety in the Small Carpathians, making elegant red wines."
+   }
+  },
+  {
+   "name": "Furmint",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Tokaj'ın başlıca çeşidi olup yüksek asiditeli tatlı ve kuru şaraplar verir.",
+    "en": "Tokaj's main grape, giving high-acid sweet and dry wines."
+   }
+  },
+  {
+   "name": "Lipovina (Hárslevelű)",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Tokaj harmanlarında tanınan, ancak kuru tek çeşit şarap olarak da başarılı olabilen bir çeşittir.",
+    "en": "Best known as a Tokaj blending grape, but also capable of fine dry varietal wines."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Slovak Tokaj sweet wines (Tokajský výber, Tokajský samorodník)",
+   "desc": {
+    "tr": "Furmint, Lipovina ve Muškát žltý'den, asilküflü üzümlerle yapılan tatlı şaraplardır. Bölge 'kapalı' olup şarapların yerel üzümden yapılması ve yedi köyde şişelenmesi gerekir.",
+    "en": "Sweet wines made from Furmint, Lipovina and Muškát žltý, often with noble-rot grapes. The region is 'closed': wines must come from local grapes and be bottled in seven villages."
+   }
+  },
+  {
+   "name": "DSC (Districtus Slovakia Controllatus)",
+   "desc": {
+    "tr": "2009'da kurulan menşe adı sisteminin en üst kalite kademesidir. Şaraplar belirli bağ yerlerine bağlanır.",
+    "en": "The top quality tier of the appellation system set up in 2009, tying wines to specific areas."
+   }
+  },
+  {
+   "name": "Malokarpatské Veltlínske zelené",
+   "desc": {
+    "tr": "Küçük Karpatlar'ın tipik şarabıdır. Taze, kuru ve baharat notalı, Avusturya'nın Weinviertel şaraplarına benzeyen beyazdır.",
+    "en": "The signature Small Carpathian dry white: fresh and peppery, comparable to Austrian Weinviertel wines."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Slovakia’s wine regions and routes - The Slovak Spectator",
+   "url": "https://spectator.sme.sk/business/c/slovakias-wine-regions-and-routes"
+  },
+  {
+   "title": "Tokaj wine region",
+   "url": "https://en.wikipedia.org/wiki/Tokaj_wine_region"
+  },
+  {
+   "title": "Tokaj (Slovakia)",
+   "url": "https://en.wikipedia.org/wiki/Tokaj_(Slovakia)"
+  },
+  {
+   "title": "Explore Slovakia Wine: Regions & Grapes",
+   "url": "https://oldtownexplorer.com/destinations/slovakia/slovakia-wine/"
+  },
+  {
+   "title": "Slovak Wine Regions Wine Region",
+   "url": "https://www.winewithseth.com/winewiki/slovakia-wine-regions/"
+  },
+  {
+   "title": "Slovak Wine: A Beginner's Guide to What You'll Actually Taste in Bratislava - Bratislava City Tours",
+   "url": "https://bratislavacitytours.sk/slovak-wine-beginners-guide/"
+  },
+  {
+   "title": "Wines regions of Slovakia",
+   "url": "https://discoveringslovakia.com/wine-regions-of-slovakia/"
+  },
+  {
+   "title": "Wine in Slovakia - Regions, Grape Varieties, and Styles",
+   "url": "https://www.wineandvinesearch.com/slovakia/"
+  }
+ ]
+}

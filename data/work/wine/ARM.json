@@ -1,0 +1,229 @@
+{
+ "iso3": "ARM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 23862,
+  "out": 3683,
+  "searches": 2
+ },
+ "usd": 0.1046,
+ "summary": {
+  "tr": "Ermenistan'ın şarap geçmişi çok eskidir. Vayots Dzor'daki Areni-1 Mağarası'nda yaklaşık MÖ 4100'e tarihlenen, bilinen en eski tam donanımlı şarap üretim tesisi bulunmuştur. Ülkede yüzden fazla yerli üzüm çeşidi vardır ve bunların bir kısmı kuzeydeki komşusu Gürcistan gibi kil kaplarda (karas) işlenir. Sovyet döneminde üretim ağırlıklı olarak konyak ve sofra şarabına yönelmiştir. Bağcılık 2000'den ",
+  "en": "Armenia has one of the oldest wine histories in the world: the Areni-1 cave in Vayots Dzor holds the oldest known complete winery, dated to about 4100 BC. The country has hundreds of indigenous grape varieties, and some wines are still made in clay vessels (karas), as in neighbouring Georgia. Soviet-era production leaned towards brandy and bulk table wine. Since the 2000s there has been a revival "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Vayots Dzor",
+   "lat": 39.73,
+   "lng": 45.25,
+   "desc": {
+    "tr": "Areni köyü ve Areni-1 Mağarası'nın bulunduğu, 1.700 metreyi aşan rakımlı volkanik topraklarıyla Ermenistan'ın en prestijli şarap bölgesidir.",
+    "en": "Home to the village of Areni and the Areni-1 cave, this is Armenia's most prestigious wine region, with volcanic soils and vineyards above 1,700 metres."
+   },
+   "grapes": [
+    "Areni Noir",
+    "Voskehat",
+    "Khndoghni"
+   ]
+  },
+  {
+   "name": "Aragatsotn",
+   "lat": 40.33,
+   "lng": 44.3,
+   "desc": {
+    "tr": "Aragats Dağı'nın volkanik yamaçlarında yer alan, Voskehat beyazlarıyla ve yeni butik şaraphanelerle tanınan bölgedir.",
+    "en": "On the volcanic slopes of Mount Aragats, it is known for Voskehat whites and a wave of new boutique wineries."
+   },
+   "grapes": [
+    "Voskehat",
+    "Kangun",
+    "Haghtanak",
+    "Areni Noir"
+   ]
+  },
+  {
+   "name": "Armavir",
+   "lat": 40.15,
+   "lng": 43.9,
+   "desc": {
+    "tr": "Ermenistan'ın dikili alan bakımından en büyük bağcılık ili olup büyük şarap ve konyak üreticilerine ev sahipliği yapar.",
+    "en": "Armenia's largest wine-growing province by vineyard area, it hosts the biggest wine and brandy producers."
+   },
+   "grapes": [
+    "Voskehat",
+    "Kangun",
+    "Garan Dmak",
+    "Haghtanak"
+   ]
+  },
+  {
+   "name": "Ararat",
+   "lat": 39.95,
+   "lng": 44.7,
+   "desc": {
+    "tr": "Ararat Vadisi'nin güneşli ve sıcak ovasında, daha kolay içimli şaraplar ve konyak üzümleriyle bilinir.",
+    "en": "On the sunny, warm Ararat plain, it is known for more approachable wines and for grapes used in brandy."
+   },
+   "grapes": [
+    "Areni Noir",
+    "Voskehat",
+    "Garan Dmak"
+   ]
+  },
+  {
+   "name": "Tavush",
+   "lat": 40.95,
+   "lng": 45.2,
+   "desc": {
+    "tr": "Ülkenin en düşük rakımlı, daha nemli ve ormanlık kuzeydoğu bölgesidir; yerel şarap üretimi küçük ölçeklidir.",
+    "en": "A lower, more humid and wooded north-eastern region of the country, with small-scale local winemaking."
+   },
+   "grapes": [
+    "Areni Noir",
+    "Rkatsiteli",
+    "Kangun"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Areni Noir",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Vayots Dzor kökenli, Ermenistan'ın en önemli kırmızı çeşididir; kiraz ve karabiber aromalı, ince tanenli, Pinot Noir'ı andıran hafif gövdeli şaraplar verir.",
+    "en": "Armenia's flagship red from Vayots Dzor, making pale, silky, high-acid wines with cherry and pepper notes, often compared to Pinot Noir."
+   }
+  },
+  {
+   "name": "Voskehat",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "\"Altın tane\" anlamına gelen, Ermenistan'ın önde gelen yerli beyaz çeşididir; çiçeksi, dokulu ve yaşlanmaya yatkın şaraplar verir.",
+    "en": "The leading native white, its name meaning \"golden berry\"; it gives floral, textured wines that can age."
+   }
+  },
+  {
+   "name": "Khndoghni",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Sireni adıyla da bilinen, koyu meyve aromalı ve yaşlandırmaya uygun yerli kırmızı çeşittir.",
+    "en": "Also called Sireni, a native red with dark-berry character and good ageing potential."
+   }
+  },
+  {
+   "name": "Haghtanak",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "\"Zafer\" anlamına gelen, koyu renkli ve dolgun bir kırmızı çeşittir; çoğu zaman karışımlara renk ve güç katar.",
+    "en": "A deeply coloured, full-bodied red whose name means \"victory\"; often used to add colour and weight to blends."
+   }
+  },
+  {
+   "name": "Kangun",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Ermenistan'da ıslah edilmiş, taze ve kolay içimli beyaz şaraplar ile köpüklü şaraplarda kullanılan bir çeşittir.",
+    "en": "A variety bred in Armenia, used for fresh, easy-drinking whites and sparkling wines."
+   }
+  },
+  {
+   "name": "Garan Dmak",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Sofra şarabı ve özellikle konyak üretiminde kullanılan yerli beyaz çeşittir.",
+    "en": "A native white used for table wine and especially as a brandy base."
+   }
+  },
+  {
+   "name": "Kakhet",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Milagh adıyla da bilinen, ülkede yaygın olarak yetiştirilen yerli bir kırmızı çeşittir.",
+    "en": "A native red, also known as Milagh, widely grown across the country."
+   }
+  },
+  {
+   "name": "Rkatsiteli",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Gürcistan kökenli olup Ermenistan'da yaygın yetiştirilen, şarap ve konyakta kullanılan beyaz çeşittir.",
+    "en": "A Georgian-origin white widely grown in Armenia for both wine and brandy."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Areni Noir (Vayots Dzor)",
+   "desc": {
+    "tr": "Yüksek rakımlı volkanik bağlardan gelen, ince yapılı, baharatlı ve kırmızı meyveli kuru kırmızı şaraplardır.",
+    "en": "Dry reds from high-altitude volcanic vineyards: fine-boned, spicy and red-fruited."
+   }
+  },
+  {
+   "name": "Voskehat whites and orange wines",
+   "desc": {
+    "tr": "Voskehat'tan yapılan, hafif ve çiçeksi olandan zengin dokulu olana ve ten temaslı (turuncu) şaraba kadar uzanan beyaz şaraplardır.",
+    "en": "White wines from Voskehat, ranging from light and floral to rich and textured, including skin-contact (orange) wines."
+   }
+  },
+  {
+   "name": "Karasi (kil küp) şarapları",
+   "desc": {
+    "tr": "Karas adı verilen toprağa gömülü kil küplerde fermente edilen geleneksel şaraplardır; Areni-1 mirasının canlı bir devamıdır.",
+    "en": "Traditional wines fermented in buried clay vessels called karas, a living continuation of the Areni-1 heritage."
+   }
+  },
+  {
+   "name": "Kangun köpüklü şarapları",
+   "desc": {
+    "tr": "Kangun üzümünden üretilen, ülkede yapılan köpüklü şarapların başlıca örneklerindendir.",
+    "en": "Sparkling wines made from Kangun, one of the country's main sparkling wine styles."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Armenia",
+   "url": "https://armenia.travel/things-to-do/armenian-wine/"
+  },
+  {
+   "title": "Kingdom of Wine: Drinking the Past, Present, and Future in Armenia : Vinography",
+   "url": "https://www.vinography.com/2025/04/kingdom-of-wine-drinking-the-past-present-and-future-in-armenia"
+  },
+  {
+   "title": "Armenian wine",
+   "url": "https://en.wikipedia.org/wiki/Armenian_wine"
+  },
+  {
+   "title": "A Guide to Armenia, One of the World's Oldest Wine Regions",
+   "url": "https://www.wineenthusiast.com/basics/region-rundown/armenia-wine-guide-grapes-regions/"
+  },
+  {
+   "title": "A guide to Armenian wines",
+   "url": "https://www.wsetglobal.com/knowledge-centre/blog/2026/a-guide-to-armenian-wines"
+  },
+  {
+   "title": "Armenian Wine: Everything You Need to Know Before You Go",
+   "url": "https://eatthistours.com/armenian-wine-everything-you-need-to-know-before-you-go/"
+  },
+  {
+   "title": "Armenian Wine Law: PDO/PGI System & Appellation Framework",
+   "url": "https://www.winewithseth.com/winewiki/armenia-wine-law/"
+  },
+  {
+   "title": "Armenian Wine and Spirits Regions",
+   "url": "https://drinkgini.com/pages/page"
+  }
+ ]
+}

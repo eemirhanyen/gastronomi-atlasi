@@ -1,0 +1,255 @@
+{
+ "iso3": "CHE",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 24771,
+  "out": 4390,
+  "searches": 2
+ },
+ "usd": 0.1134,
+ "summary": {
+  "tr": "İsviçre'de bağcılık, Roma dönemine ve hatta daha öncesine uzanan bin yılı aşkın bir geleneğe sahiptir. Bugün 2.500'den fazla üretici yaklaşık 14.500 hektarlık bağ işler. Üretim Valais, Vaud, Cenevre, Ticino, Üç Göl ve Almanca konuşulan bölgeler olmak üzere altı bölgede toplanır. Şarapların büyük bölümü ülke içinde tüketilir. Chasselas, Pinot Noir ve Gamay yaygındır. Valais'nin nadir yerli üzümleri",
+  "en": "Switzerland has a winegrowing tradition that goes back more than a thousand years, to Roman times and possibly earlier. Today over 2,500 growers farm about 14,500 hectares in six regions: Valais, Vaud, Geneva, Ticino, Three Lakes and German-speaking Switzerland. Most of the wine is drunk at home. Chasselas, Pinot Noir and Gamay are widely planted, and the rare native grapes of Valais give the coun"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Valais",
+   "lat": 46.2,
+   "lng": 7.35,
+   "desc": {
+    "tr": "Rhône boyunca 100 km'den uzun, ülkenin en büyük bağ bölgesidir ve toplam şarap üretiminin yaklaşık üçte birini verir. Fendant, Petite Arvine, Cornalin ve Humagne Rouge ile tanınır.",
+    "en": "Switzerland's largest wine region, with vineyards running over 100 km along the Rhône and about a third of national output. It is known for Fendant, Petite Arvine, Cornalin and Humagne Rouge."
+   },
+   "grapes": [
+    "Chasselas",
+    "Pinot Noir",
+    "Gamay",
+    "Petite Arvine",
+    "Cornalin",
+    "Humagne Rouge"
+   ]
+  },
+  {
+   "name": "Vaud",
+   "lat": 46.49,
+   "lng": 6.75,
+   "desc": {
+    "tr": "Cenevre Gölü'nün kuzey kıyısındaki ikinci büyük bölgedir. Lavaux teraslarında yetişen taze Chasselas beyazlarıyla ünlüdür.",
+    "en": "The second-largest region, on the north shore of Lake Geneva, famous for fresh Chasselas whites from terraces such as Lavaux."
+   },
+   "grapes": [
+    "Chasselas",
+    "Pinot Noir",
+    "Gamay",
+    "Gamaret",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Geneva",
+   "lat": 46.2,
+   "lng": 6.05,
+   "desc": {
+    "tr": "Fransa sınırında yer alan, üçüncü büyük bölgedir. Gamay ve Chasselas'ın yanı sıra çok sayıda uluslararası çeşit yetiştirilir.",
+    "en": "The third-largest region, on the French border, growing Gamay and Chasselas alongside many international varieties."
+   },
+   "grapes": [
+    "Gamay",
+    "Chasselas",
+    "Pinot Noir",
+    "Chardonnay",
+    "Sauvignon Blanc"
+   ]
+  },
+  {
+   "name": "Ticino",
+   "lat": 46.05,
+   "lng": 8.95,
+   "desc": {
+    "tr": "Akdeniz'e yakın bir iklime sahip İtalyanca konuşulan bölgedir. Yüz yılı aşkın süredir Merlot ile kaliteli kırmızı şaraplar üretir.",
+    "en": "The Italian-speaking region with a near-Mediterranean climate, making quality red wines from Merlot for over a century."
+   },
+   "grapes": [
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Three Lakes (Trois-Lacs)",
+   "lat": 46.99,
+   "lng": 7.0,
+   "desc": {
+    "tr": "Neuchâtel, Biel ve Murten gölleri çevresinde yer alır. Hafif, zarif Chasselas ve Pinot Noir şarapları üretir.",
+    "en": "Set around Lakes Neuchâtel, Biel and Murten, it produces light, elegant Chasselas and Pinot Noir wines."
+   },
+   "grapes": [
+    "Chasselas",
+    "Pinot Noir",
+    "Chardonnay",
+    "Gamaret"
+   ]
+  },
+  {
+   "name": "German-speaking Switzerland",
+   "lat": 47.4,
+   "lng": 8.7,
+   "desc": {
+    "tr": "Zürih, Schaffhausen, Thurgau, Graubünden ve diğer kantonlardan oluşan, parçalı ve serin iklimli bir bölgedir. Pinot Noir (Blauburgunder) ve Müller-Thurgau ile bilinir; Graubünden'in Pinot Noir'ları özellikle saygın sayılır.",
+    "en": "A fragmented, cool-climate region covering Zurich, Schaffhausen, Thurgau, Graubünden and other cantons, known for Pinot Noir (Blauburgunder) and Müller-Thurgau. Graubünden's Pinot Noirs are especially well regarded."
+   },
+   "grapes": [
+    "Pinot Noir",
+    "Müller-Thurgau",
+    "Completer",
+    "Räuschling"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Chasselas",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Ülkenin en yaygın beyaz üzümüdür ve Cenevre Gölü bölgesinden gelir. Valais'de Fendant adıyla bilinir.",
+    "en": "Switzerland's most widely planted white grape, rooted in the Lake Geneva region and known as Fendant in Valais."
+   }
+  },
+  {
+   "name": "Petite Arvine",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Valais'nin yıldız beyaz üzümüdür. Şaraplarında greyfurt, misket limonu ve tuzlu bir bitiş öne çıkar.",
+    "en": "The star white grape of Valais, giving grapefruit and lime notes with a saline finish."
+   }
+  },
+  {
+   "name": "Amigne",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Valais kökenli, özellikle Vétroz köyüyle özdeşleşmiş nadir bir beyaz üzümdür.",
+    "en": "A rare white grape of Valais origin, closely tied to the village of Vétroz."
+   }
+  },
+  {
+   "name": "Humagne Rouge",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Valais'de yetişen, rustik karakterli ve geç olgunlaşan kırmızı bir çeşittir. Aosta Vadisi'ndeki Cornalin d'Aoste ile aynıdır.",
+    "en": "A late-ripening, rustic red of Valais, identical to the Aosta Valley's Cornalin d'Aoste."
+   }
+  },
+  {
+   "name": "Cornalin",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Eski adı Rouge du Pays olan, biberli ve koyu kiraz aromalı Valais kırmızısıdır. Yetiştirilmesi zordur.",
+    "en": "A Valais red once called Rouge du Pays, peppery with dark cherry notes, and difficult to grow."
+   }
+  },
+  {
+   "name": "Pinot Noir",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "İsviçre'de en çok yetiştirilen kırmızı üzümdür ve neredeyse her bölgede bulunur.",
+    "en": "The most widely grown red grape in Switzerland, found in nearly every region."
+   }
+  },
+  {
+   "name": "Gamay",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Vaud, Cenevre ve Valais'de meyvemsi kırmızılar ve karışımlar için kullanılır.",
+    "en": "Used in Vaud, Geneva and Valais for fruity reds and blends."
+   }
+  },
+  {
+   "name": "Merlot",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Ticino'nun başlıca üzümüdür. Bölge, yüz yılı aşkın süredir Merlot ile tanınır.",
+    "en": "Ticino's signature grape, which the region has been known for over a century."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Fendant (Valais)",
+   "desc": {
+    "tr": "Valais'de yetişen Chasselas'tan yapılan, 1966'dan beri korunan bir ad olan hafif ve taze beyaz şaraptır. Geleneksel olarak fondü ve raclette ile içilir.",
+    "en": "A light, fresh white made from Valais-grown Chasselas, a protected name since 1966, traditionally served with fondue and raclette."
+   }
+  },
+  {
+   "name": "Lavaux AOC",
+   "desc": {
+    "tr": "Cenevre Gölü kıyısındaki UNESCO Dünya Mirası teraslı bağlardır. Mineral Chasselas şaraplarıyla ünlüdür.",
+    "en": "The UNESCO World Heritage terraced vineyards on Lake Geneva, famous for mineral Chasselas wines."
+   }
+  },
+  {
+   "name": "Dôle (Valais)",
+   "desc": {
+    "tr": "Valais'te Pinot Noir ve Gamay karışımından yapılan geleneksel kırmızı şaraptır.",
+    "en": "A traditional Valais red blended from Pinot Noir and Gamay."
+   }
+  },
+  {
+   "name": "Merlot del Ticino",
+   "desc": {
+    "tr": "Ticino'nun Merlot'dan yapılan ve en tanınmış kırmızı şarabıdır.",
+    "en": "Ticino's best-known red, made from Merlot."
+   }
+  },
+  {
+   "name": "Œil-de-Perdrix (Neuchâtel)",
+   "desc": {
+    "tr": "Neuchâtel'de Pinot Noir'dan yapılan, açık renkli bir roze şaraptır.",
+    "en": "A pale rosé made from Pinot Noir in Neuchâtel."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Learn about Wine: Switzerland",
+   "url": "https://www.bbr.com/region-5433-switzerland"
+  },
+  {
+   "title": "Swiss Wines - France Today",
+   "url": "https://francetoday.com/food-drink/wine_and_spirits/swiss_wines/"
+  },
+  {
+   "title": "6 Best Wine Regions in Switzerland",
+   "url": "https://www.zicasso.com/a/switzerland/ac/wine/most-popular-wine-regions"
+  },
+  {
+   "title": "Three Lakes Wine Region",
+   "url": "https://www.swisswine.com/en/swiss-wine-regions/three-lakes-wine-region"
+  },
+  {
+   "title": "Chasselas",
+   "url": "https://www.swisswine.com/en/swiss-vineyards/wine-grapes/chasselas-en"
+  },
+  {
+   "title": "Swiss wine",
+   "url": "https://www.myswitzerland.com/en-us/experiences/summer-autumn/oenotourism/swiss-wine/"
+  },
+  {
+   "title": "Swiss wines: Chasselas, Fendant and Europe's most confidential vineyard",
+   "url": "https://www.lebaroudeurduvin.com/en-us/blogs/wine-blog/swiss-wines-chasselas-fendant"
+  },
+  {
+   "title": "Ultimate Guide To Switzerland Wine Country",
+   "url": "https://www.exoticwinetravel.com/switzerland-wine-country/"
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+{
+ "iso3": "TUN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22774,
+  "out": 3978,
+  "searches": 2
+ },
+ "usd": 0.1053,
+ "summary": {
+  "tr": "Tunus'ta bağcılık, Fenikelilerin Kartaca'yı kurduğu dönemden beri 2.000 yılı aşkın süredir yapılıyor. Kartacalı Mago'nun yazdığı tarım ve bağcılık risalesi antik dünyada çok değerliydi. Osmanlı döneminde üretim yasaklandı. Fransız himayesi altında şarapçılık yeniden canlandı, 1936-1947 filoksera salgınından sonra kooperatifler (özellikle Les Vignerons de Carthage) öne çıktı. Bugün yaklaşık 14.000 ",
+  "en": "Viticulture in Tunisia goes back more than 2,000 years, to the Phoenicians who founded Carthage. Mago of Carthage wrote an agronomy and viticulture treatise that was highly valued in the ancient world. Production was banned under the Ottomans and revived under the French protectorate. After the 1936–1947 phylloxera epidemic, cooperatives rose to prominence, above all Les Vignerons de Carthage. Tod"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Cap Bon",
+   "lat": 36.8,
+   "lng": 10.85,
+   "desc": {
+    "tr": "Ülkedeki bağların yaklaşık %80'ine ev sahipliği yapan, Tunus şarabının kalbi sayılan yarımadadır.",
+    "en": "This peninsula is the heartland of Tunisian wine and holds roughly 80% of the country's vineyards."
+   },
+   "grapes": [
+    "Muscat of Alexandria",
+    "Carignan",
+    "Cinsault",
+    "Grenache",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Mornag",
+   "lat": 36.65,
+   "lng": 10.29,
+   "desc": {
+    "tr": "Tunus'un güneyinde, ülkenin en büyük AOC'si olan ve en iyi kırmızılarının geldiği tarihî bağ bölgesidir.",
+    "en": "South of Tunis, this is the country's largest AOC and the source of its best-known reds."
+   },
+   "grapes": [
+    "Cabernet Sauvignon",
+    "Syrah",
+    "Carignan",
+    "Mourvèdre",
+    "Chardonnay"
+   ]
+  },
+  {
+   "name": "Kélibia",
+   "lat": 36.85,
+   "lng": 11.09,
+   "desc": {
+    "tr": "Cap Bon'un kuzeydoğu ucunda yer alır ve Muscat de Kélibia ile tanınır.",
+    "en": "On the northeastern tip of Cap Bon, it is known for Muscat de Kélibia."
+   },
+   "grapes": [
+    "Muscat of Alexandria"
+   ]
+  },
+  {
+   "name": "Coteaux d'Utique (Bizerte)",
+   "lat": 37.1,
+   "lng": 9.95,
+   "desc": {
+    "tr": "Kuzeydeki serin kıyı kuşağında, tatlı Muscat'larıyla ve Akdeniz tipi şarap çeşitleriyle bilinir.",
+    "en": "On the cooler northern coast, it is known for sweet Muscats and Mediterranean-style wines."
+   },
+   "grapes": [
+    "Muscat of Alexandria",
+    "Carignan",
+    "Grenache",
+    "Syrah"
+   ]
+  },
+  {
+   "name": "Coteaux de Tébourba",
+   "lat": 36.83,
+   "lng": 9.84,
+   "desc": {
+    "tr": "Mejerda (Medjerda) vadisinde yer alan, Tunus'un yedi AOC'sinden biri olan küçük bir bağ bölgesidir.",
+    "en": "A small vineyard area in the Medjerda valley and one of Tunisia's seven AOCs."
+   },
+   "grapes": [
+    "Carignan",
+    "Cinsault",
+    "Grenache"
+   ]
+  },
+  {
+   "name": "Thibar",
+   "lat": 36.52,
+   "lng": 9.0,
+   "desc": {
+    "tr": "Béja yöresinin iç kesimlerinde, ülkenin yedi AOC'sinden biri olan küçük ve özel bir bağ bölgesidir.",
+    "en": "A small, specialised inland AOC in the Béja area, one of the country's seven appellations."
+   },
+   "grapes": [
+    "Muscat of Alexandria",
+    "Carignan",
+    "Cabernet Sauvignon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Muscat of Alexandria",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Eski bir Akdeniz üzümü olan bu çeşit, Tunus'un özellikle Kélibia'daki beyaz şarap geleneğinin simgesidir.",
+    "en": "An ancient Mediterranean grape, it is the emblem of Tunisia's white wine tradition, especially around Kélibia."
+   }
+  },
+  {
+   "name": "Carignan",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Mornag ve çevresinde yaygın olan, koyu renkli ve baharatlı kırmızılar veren Akdeniz çeşididir.",
+    "en": "A widely planted Mediterranean red grape around Mornag, giving dark, spicy wines."
+   }
+  },
+  {
+   "name": "Syrah",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Tunus sıcağında iyi olgunlaşır ve yapılı, baharatlı kırmızılar ile karışımlar verir.",
+    "en": "It ripens well in Tunisia's heat and gives structured, spicy reds and blends."
+   }
+  },
+  {
+   "name": "Cabernet Sauvignon",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Grand Cru Mornag kırmızılarında sıkça kullanılan, güçlü ve yapılı bir uluslararası çeşittir.",
+    "en": "An international variety often used in the full-bodied reds of Grand Cru Mornag."
+   }
+  },
+  {
+   "name": "Grenache",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Roze ve bol meyveli kırmızı karışımlarda öne çıkan, sıcak iklime uyumlu bir çeşittir.",
+    "en": "A heat-loving variety used in rosés and fruity red blends."
+   }
+  },
+  {
+   "name": "Cinsault",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Tunus'un ünlü rozelerinde kullanılan, hafif ve meyvemsi bir kırmızı üzümdür.",
+    "en": "A light, fruity red grape used in Tunisia's well-known rosés."
+   }
+  },
+  {
+   "name": "Mourvèdre",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Mornag'daki kırmızı karışımlara renk ve yapı katan Akdeniz çeşididir.",
+    "en": "A Mediterranean variety that adds colour and structure to red blends in Mornag."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Mornag Grand Cru etiketli bazı beyazlarda ve köpüklü şaraplarda kullanılan uluslararası bir çeşittir.",
+    "en": "An international variety used in some Grand Cru Mornag whites and in sparkling wine."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Grand Cru Mornag",
+   "desc": {
+    "tr": "Tunus'un en üst düzey AOC'si olan bu bölge, Tunus'un güneyinde kalkerli killi yamaçlardan yapılı kırmızılar verir.",
+    "en": "Tunisia's top AOC, it yields structured reds from calcareous-clay slopes south of Tunis."
+   }
+  },
+  {
+   "name": "Mornag AOC",
+   "desc": {
+    "tr": "Ülkenin en büyük AOC'sidir ve Magon gibi yaygın şişelerin çoğu bu adla satılır.",
+    "en": "The country's largest AOC, under which many widely available bottles such as Magon are sold."
+   }
+  },
+  {
+   "name": "Muscat de Kélibia",
+   "desc": {
+    "tr": "Kélibia'da üretilen, gül ve şeftali aromalı, genellikle kuru bir Muscat şarabıdır ve deniz ürünleriyle sunulur.",
+    "en": "A usually dry Muscat from Kélibia with rose and peach aromas, often served with seafood."
+   }
+  },
+  {
+   "name": "Tunus rozesi",
+   "desc": {
+    "tr": "Roze, ülke üretiminin yarıdan fazlasını oluşturur ve sıcak iklime uygun, ferah bir şaraptır.",
+    "en": "Rosé makes up well over half of national output and is a fresh style suited to the warm climate."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Encyclopedia of Wine > Tunisia - Cavesa.ch",
+   "url": "https://www.cavesa.ch/en/definition/tunisia"
+  },
+  {
+   "title": "Tunisian Wines: Regions, Grapes & Styles",
+   "url": "https://vino.sg/collections/tunisian-wines"
+  },
+  {
+   "title": "Region Tunis - Wine Wines, History and Appellations",
+   "url": "https://www.viniou.com/wines/countries/tunisia/516_tunis"
+  },
+  {
+   "title": "Tunisian Wine: An Ancient Mediterranean Story Waiting to Be Rediscover",
+   "url": "https://vino.sg/blogs/sommeliers-notebook/tunisian-wine-ancient-mediterranean-history"
+  },
+  {
+   "title": "Tunisia Wine Region Grape Variety",
+   "url": "https://www.winewithseth.com/winewiki/tunisia-key-varieties-the-heart-of-north-african-winemaking/"
+  },
+  {
+   "title": "Tunisian Wine: A Guide to the World's Most Overlooked Wine Country — Carthage Magazine",
+   "url": "https://carthagemagazine.com/tunisian-wine-guide/"
+  },
+  {
+   "title": "Mornag Wine Region",
+   "url": "https://www.winewithseth.com/winewiki/mornag/"
+  },
+  {
+   "title": "Tunsia",
+   "url": "http://www.wineandvinesearch.com/tunisia.php"
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "iso3": "SRB",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-22",
+ "usage": {
+  "in": 22600,
+  "out": 4105,
+  "searches": 2
+ },
+ "usd": 0.1062,
+ "summary": {
+  "tr": "Sırbistan'da bağcılığın başlangıcı, Sirmium'da doğan Roma İmparatoru Probus'un MS 3. yüzyılda Fruška Gora yamaçlarına bağ diktirmesine bağlanır. Orta Çağ'da Nemanjić hanedanı döneminde bağcılık ülke geneline yayılmıştır. 1990'lardan bu yana aile işletmesi şaraphaneler, Prokupac ve Tamjanika gibi yerel üzümlerle ülkeyi uluslararası alanda tanıtmaktadır. Bugün yaklaşık 20.000 hektarlık bağ alanı var",
+  "en": "Serbian viticulture is traditionally traced to the Roman emperor Probus, born in Sirmium, who had vines planted on the slopes of Fruška Gora in the 3rd century AD. Winegrowing spread across the country under the medieval Nemanjić dynasty. Since the 1990s, family wineries working with local grapes such as Prokupac and Tamjanika have put Serbia back on the international wine map. The country has rou"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Fruška Gora",
+   "lat": 45.15,
+   "lng": 19.75,
+   "desc": {
+    "tr": "Tuna kıyısındaki bu tarihî bağ bölgesi, Sremski Karlovci'nin bermet'i, aromatik beyazları ve yeni nesil az müdahaleli üreticileriyle tanınır.",
+    "en": "This historic Danube-side hill region is known for Sremski Karlovci's bermet, aromatic whites and a new generation of low-intervention producers."
+   },
+   "grapes": [
+    "Grašac (Welschriesling)",
+    "Probus",
+    "Chardonnay",
+    "Frankovka",
+    "Tamjanika"
+   ]
+  },
+  {
+   "name": "Župa (Aleksandrovac)",
+   "lat": 43.46,
+   "lng": 21.05,
+   "desc": {
+    "tr": "Güney Sırbistan'daki Aleksandrovac çevresi, Prokupac ve Tamjanika'nın ruhani yurdu sayılır.",
+    "en": "The area around Aleksandrovac in southern Serbia is regarded as the spiritual home of Prokupac and Tamjanika."
+   },
+   "grapes": [
+    "Prokupac",
+    "Tamjanika",
+    "Župljanka"
+   ]
+  },
+  {
+   "name": "Šumadija (Oplenac)",
+   "lat": 44.25,
+   "lng": 20.68,
+   "desc": {
+    "tr": "Ülkenin merkezindeki bu bölge, Oplenac'taki Kraliyet Bağları ve Prokupac ile Bordeaux tarzı harmanlarıyla bilinir.",
+    "en": "Serbia's central heartland is known for the Royal Vineyards at Oplenac, with Prokupac and Bordeaux-style blends."
+   },
+   "grapes": [
+    "Prokupac",
+    "Smederevka",
+    "Cabernet Sauvignon",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Vršac",
+   "lat": 45.12,
+   "lng": 21.3,
+   "desc": {
+    "tr": "Romanya sınırına uzanan Güney Banat'taki geniş bağlarıyla, Avrupa yarışmalarında ödül alan şarapları üretir.",
+    "en": "Its vast vineyards in South Banat stretch toward the Romanian border, and its wines have won awards at European competitions."
+   },
+   "grapes": [
+    "Riesling",
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "Negotinska Krajina",
+   "lat": 44.22,
+   "lng": 22.53,
+   "desc": {
+    "tr": "Doğu Sırbistan'daki taş mahzenleriyle ve Bagrina, Začinak, Crna Tamjanika gibi az bilinen yerel üzümleriyle öne çıkar.",
+    "en": "In eastern Serbia, it is known for its stone cellars and rare local grapes such as Bagrina, Začinak and Crna Tamjanika."
+   },
+   "grapes": [
+    "Prokupac",
+    "Bagrina",
+    "Začinak",
+    "Crna Tamjanika",
+    "Vranac"
+   ]
+  },
+  {
+   "name": "Subotica–Palić",
+   "lat": 46.05,
+   "lng": 19.7,
+   "desc": {
+    "tr": "Macaristan sınırına yakın, kumlu topraklarda yetişen hafif ve ferah beyaz şaraplarıyla bilinen kuzeydeki bağ rotasıdır.",
+    "en": "This northern wine route near the Hungarian border grows grapes on sandy soils and is known for light, fresh white wines."
+   },
+   "grapes": [
+    "Riesling",
+    "Chardonnay",
+    "Pinot Noir"
+   ]
+  },
+  {
+   "name": "Knjaževac (Timok)",
+   "lat": 43.57,
+   "lng": 22.26,
+   "desc": {
+    "tr": "Timok Nehri havzasında, ılıman karasal iklimde Pinot Noir, Prokupac ve Smederevka ile tanınır.",
+    "en": "In the Timok river basin with a moderate continental climate, it is known for Pinot Noir, Prokupac and Smederevka."
+   },
+   "grapes": [
+    "Prokupac",
+    "Pinot Noir",
+    "Smederevka"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "grapes": [
+  {
+   "name": "Prokupac",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Sırbistan'ın en önemli yerel kırmızı üzümüdür; baharatlı, kırmızı meyveli kırmızı ve roze şaraplar verir.",
+    "en": "Serbia's flagship native red grape, making spicy, red-fruited reds and rosés."
+   }
+  },
+  {
+   "name": "Smederevka",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Geleneksel olarak ekilen, ferah ve hafif beyaz şaraplar veren yerel bir üzümdür.",
+    "en": "A traditional local variety that makes fresh, light white wines."
+   }
+  },
+  {
+   "name": "Probus",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Kadarka ile Cabernet Sauvignon'un Sırbistan'da geliştirilen melezidir ve imparator Probus'un anısına adlandırılmıştır.",
+    "en": "A Serbian-bred cross of Kadarka and Cabernet Sauvignon, named in honour of Emperor Probus."
+   }
+  },
+  {
+   "name": "Začinak",
+   "type": "red",
+   "native": true,
+   "desc": {
+    "tr": "Doğu Sırbistan'a özgü, nadir ve koyu renkli bir üzümdür; çoğunlukla Prokupac ile harmanlanır.",
+    "en": "A rare, deeply coloured grape from eastern Serbia, often blended with Prokupac."
+   }
+  },
+  {
+   "name": "Bagrina",
+   "type": "white",
+   "native": true,
+   "desc": {
+    "tr": "Negotin çevresiyle özdeşleşen, az bilinen yerel bir beyaz üzümdür.",
+    "en": "A little-known native white grape associated with the Negotin area."
+   }
+  },
+  {
+   "name": "Tamjanika",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Beyaz Muscat'nın yerel bir klonudur; yüzyıllardır yetiştirilir ve kuru ya da tatlı yapılır.",
+    "en": "A local clone of white Muscat, grown for centuries and made in both dry and sweet styles."
+   }
+  },
+  {
+   "name": "Vranac",
+   "type": "red",
+   "native": false,
+   "desc": {
+    "tr": "Balkanlar'da yaygın olan, dolgun gövdeli kırmızı şaraplar veren bir üzümdür.",
+    "en": "A widely grown Balkan variety that gives full-bodied red wines."
+   }
+  },
+  {
+   "name": "Chardonnay",
+   "type": "white",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle Fruška Gora'da başarılı olan uluslararası bir beyaz üzümdür.",
+    "en": "An international white grape that does particularly well in Fruška Gora."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bermet",
+   "desc": {
+    "tr": "Sremski Karlovci'ye özgü, baharat ve otlarla aromalandırılmış tatlı bir şaraptır.",
+    "en": "A sweet wine flavoured with herbs and spices, traditional to Sremski Karlovci."
+   }
+  },
+  {
+   "name": "Prokupac (red and rosé)",
+   "desc": {
+    "tr": "Prokupac, hafif ve meyveli roze şaraplardan olgunlaşmaya elverişli, dolgun kırmızılara kadar geniş bir yelpazede şarap verir.",
+    "en": "Prokupac makes everything from light, fruity rosés to full-bodied reds that can age."
+   }
+  },
+  {
+   "name": "Tamjanika (dry to sweet)",
+   "desc": {
+    "tr": "Yasemin ve mürver çiçeği kokulu Tamjanika, kuru, yarı tatlı ve tatlı şaraplar olarak üretilir.",
+    "en": "Tamjanika, with jasmine and elderflower aromas, is made as dry, off-dry and sweet wines."
+   }
+  },
+  {
+   "name": "Župa wines",
+   "desc": {
+    "tr": "Aleksandrovac çevresindeki Župa, Prokupac ve Tamjanika'yla ülkenin en eski bağ merkezlerinden biri sayılır.",
+    "en": "Župa, around Aleksandrovac, is considered one of Serbia's oldest wine centres, built on Prokupac and Tamjanika."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Your Ultimate Guide to Serbian Wine - Sofia Adventures",
+   "url": "https://sofiaadventures.com/serbian-wine/"
+  },
+  {
+   "title": "Explore Serbia Wine: Regions & Grapes",
+   "url": "https://oldtownexplorer.com/destinations/serbia/serbia-wine/"
+  },
+  {
+   "title": "Top 5 Wine Regions to Discover in Serbia",
+   "url": "https://www.serbianprivatetours.com/serbia-top-5-wine-regions-guide/"
+  },
+  {
+   "title": "Serbische Weine",
+   "url": "https://www.vinello.eu/serbischer-wein"
+  },
+  {
+   "title": "Wines of Serbia: Local Guide to Regions, Wineries & Pairings",
+   "url": "https://www.winera.com/blog/raise-your-glass-to-the-unexpected-1/wines-of-serbia-4"
+  },
+  {
+   "title": "Serbian Wine Guide: History, Regions & Indigenous Grapes",
+   "url": "https://thegrapereset.com/serbia-wine-guide"
+  },
+  {
+   "title": "Serbia Wine Tours",
+   "url": "https://serbiatourguide.com/tours/wine-tours/"
+  },
+  {
+   "title": "Back to Serbia... four years later - Julia Scavo",
+   "url": "https://juliascavo.com/en/back-to-serbia-four-years-latter/"
+  }
+ ]
+}
