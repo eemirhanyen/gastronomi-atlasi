@@ -451,9 +451,10 @@ def stage_flavors():
     if not todo:
         return
     reqs = []
-    for k in range(0, len(todo), 10):
-        part = todo[k:k + 10]
-        reqs.append(req(f"flav{k}", FLAVOR_SYSTEM, "\n".join(f"{i} {REF[i]['name']}" for i in part), 8000))
+    # Ülke başına yaklaşık 1.500 çıkış tokenı: 4'erli gruplar sınırın rahatça altında kalır
+    for k in range(0, len(todo), 4):
+        part = todo[k:k + 4]
+        reqs.append(req(f"flav{k}", FLAVOR_SYSTEM, "\n".join(f"{i} {REF[i]['name']}" for i in part), 12000))
 
     def item(x):
         if not isinstance(x, dict) or not x.get("en"):
