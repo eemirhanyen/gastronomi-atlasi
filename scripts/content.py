@@ -128,12 +128,16 @@ def run_batch(requests, label):
             r = json.loads(line)
             res = r["result"]
             if res["type"] != "succeeded":
-                bad += 1; continue
+                bad += 1
+                log(f"    {r['custom_id']}: {res['type']} {json.dumps(res.get('error'))[:300]}")
+                continue
             msg = res["message"]
             u = msg.get("usage", {})
             USAGE["in"] += u.get("input_tokens", 0); USAGE["out"] += u.get("output_tokens", 0)
             if msg.get("stop_reason") == "max_tokens":
-                bad += 1; continue
+                bad += 1
+                log(f"    {r['custom_id']}: max_tokens ({u.get('output_tokens')})")
+                continue
             out[r["custom_id"]] = "".join(c.get("text", "") for c in msg["content"] if c.get("type") == "text")
         log(f"  [{label}] tamam: {len(out)} yanıt, başarısız {bad}")
     return out
@@ -161,7 +165,7 @@ def stage_plan():
     for iso in targets():
         if jload(os.path.join(WORK, "plan", iso + ".json")):
             continue
-        reqs.append(req(iso, PLAN_SYSTEM, f"Country: {REF[iso]['name']} (ISO {iso})", 6000))
+        reqs.append(req(iso, PLAN_SYSTEM, f"Country: {REF[iso]['name']} (ISO {iso})", 12000))
     log(f"plan: {len(reqs)} ülke")
     if not reqs:
         return
@@ -208,14 +212,14 @@ def stage_recipes():
         for d in plan["dishes"]:
             if jload(recipe_path(iso, d["id"])):
                 continue
-            reqs.append(req(f"{iso}|{d['id']}", RECIPE_SYSTEM,
+            reqs.append(req(f"{iso}_{d['id']}", RECIPE_SYSTEM,
                             f"Country: {REF[iso]['name']}\nDish: {d['en']} ({d.get('native') or ''}; Turkish: {d.get('tr') or ''})\nCategory: {d['category']}",
                             3500))
     log(f"recipes: {len(reqs)} tarif")
     if not reqs:
         return
     for cid, text in run_batch(reqs, "recipes").items():
-        iso, did = cid.split("|", 1)
+        iso, did = cid.split("_", 1)
         try:
             r = validate_recipe(extract_json(text))
             r["reviewed"] = False
@@ -261,14 +265,14 @@ def stage_review():
             if not r or r.get("reviewed"):
                 continue
             body = {k: r[k] for k in ("name", "native", "desc", "servings", "time_min", "difficulty", "ingredients", "steps", "tip") if k in r}
-            reqs.append(req(f"{iso}|{d['id']}", REVIEW_SYSTEM,
+            reqs.append(req(f"{iso}_{d['id']}", REVIEW_SYSTEM,
                             f"Country: {REF[iso]['name']}\nDish: {d['en']}\n\n{json.dumps(body, ensure_ascii=False)}", 4500, REVIEW_MODEL))
     log(f"review: {len(reqs)} tarif")
     if not reqs:
         return
     fixed = ok = 0
     for cid, text in run_batch(reqs, "review").items():
-        iso, did = cid.split("|", 1)
+        iso, did = cid.split("_", 1)
         path = recipe_path(iso, did)
         r = jload(path)
         try:
