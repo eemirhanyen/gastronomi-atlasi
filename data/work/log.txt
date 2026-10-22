@@ -163,3 +163,43 @@ plan: 197 ülke
   [plan] tamam: 197 yanıt, başarısız 0
   plan URY çözülemedi: Expecting ':' delimiter: line 1 column 1604 (char 1603)
 Token: giriş 114999, çıkış 868196 (model claude-haiku-5-5)
+=== recipes
+recipes: 3443 tarif
+  [recipes] batch msgbatch_01ACiTy4XnxwTmQSe51Mzr2T: 3443 istek
+    300s {'processing': 3443, 'succeeded': 0, 'errored': 0, 'canceled': 0, 'expired': 0}
+    CRI_casado: max_tokens (7000)
+  [recipes] tamam: 3442 yanıt, başarısız 1
+  tarif IRQ_chicken-biryani geçersiz: Expecting ':' delimiter: line 1 column 1690 (char 1689)
+  tarif JAM_coco-bread geçersiz: Expecting ',' delimiter: line 1 column 3469 (char 3468)
+  tarif MRT_asida geçersiz: Expecting ',' delimiter: line 1 column 2597 (char 2596)
+  tarif XKX_qofte geçersiz: Expecting ',' delimiter: line 1 column 3770 (char 3769)
+  tarif AND_cargols-a-la-llauna geçersiz: Expecting ',' delimiter: line 1 column 3922 (char 3921)
+  tarif IRN_lavash geçersiz: Expecting ',' delimiter: line 1 column 3235 (char 3234)
+  tarif GUY_coconut-drops geçersiz: Expecting ',' delimiter: line 1 column 3210 (char 3209)
+  tarif CHN_youtiao geçersiz: Expecting ',' delimiter: line 1 column 3471 (char 3470)
+  tarif JPN_onigiri geçersiz: Expecting ',' delimiter: line 1 column 3780 (char 3779)
+  tarif MEX_menudo geçersiz: Expecting ',' delimiter: line 1 column 327 (char 326)
+  tarif MUS_achard-de-legumes geçersiz: Expecting ',' delimiter: line 1 column 4069 (char 4068)
+  tarif TKM_paklawa geçersiz: Expecting ',' delimiter: line 1 column 3257 (char 3256)
+  tarif SRB_corba geçersiz: Expecting ',' delimiter: line 1 column 3886 (char 3885)
+  tarif BGD_fuchka geçersiz: Expecting ',' delimiter: line 1 column 5123 (char 5122)
+  tarif ETH_buna geçersiz: Expecting ',' delimiter: line 1 column 2711 (char 2710)
+  tarif CHN_mapo-tofu geçersiz: Expecting ',' delimiter: line 1 column 4345 (char 4344)
+  tarif WSM_fa-ausi geçersiz: Expecting ',' delimiter: line 1 column 2816 (char 2815)
+  tarif JOR_shawarma geçersiz: Expecting ',' delimiter: line 1 column 4399 (char 4398)
+  tarif KEN_mukimo geçersiz: Expecting ',' delimiter: line 1 column 3136 (char 3135)
+  tarif MYS_keropok-lekor geçersiz: eksik steps.tr
+  tarif EGY_basbousa geçersiz: Expecting ',' delimiter: line 1 column 3763 (char 3762)
+  tarif SGP_kaya-toast geçersiz: Expecting ',' delimiter: line 1 column 4011 (char 4010)
+  tarif EST_pea-soup-with-smoked-pork geçersiz: Expecting ',' delimiter: line 1 column 4064 (char 4063)
+  tarif HRV_sarma geçersiz: Expecting ',' delimiter: line 1 column 4979 (char 4978)
+  tarif ECU_empanadas-de-viento geçersiz: Expecting ',' delimiter: line 1 column 3885 (char 3884)
+  tarif GNQ_fried-dough-fritters geçersiz: Expecting ',' delimiter: line 1 column 3368 (char 3367)
+  tarif SAU_kunafa geçersiz: Expecting ',' delimiter: line 1 column 3564 (char 3563)
+  tarif IDN_kerupuk geçersiz: Expecting ',' delimiter: line 1 column 3790 (char 3789)
+  tarif JPN_katsudon geçersiz: Expecting ',' delimiter: line 1 column 4351 (char 4350)
+  tarif COL_tolima-tamale geçersiz: Expecting ',' delimiter: line 1 column 5966 (char 5965)
+  tarif PNG_taro-with-coconut-cream geçersiz: Expecting ',' delimiter: line 1 column 3072 (char 3071)
+  tarif PHL_chicken-adobo geçersiz: Expecting ',' delimiter: line 1 column 3614 (char 3613)
+  tarif TON_tongan-coconut-cake geçersiz: Expecting ',' delimiter: line 1 column 3630 (char 3629)
+Token: giriş 1293516, çıkış 10213035 (model claude-haiku-5-5)
