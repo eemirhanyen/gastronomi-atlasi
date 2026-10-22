@@ -447,7 +447,8 @@
       .backgroundColor("#120d0a")
       .showAtmosphere(true).atmosphereColor("#f0a23b").atmosphereAltitude(0.16)
       .polygonsData(S.geo.features)
-      .polygonAltitude(function (f) { return f === S.selected ? 0.04 : f === S.hover && has(f) ? 0.022 : has(f) ? 0.01 : 0.005; })
+      // Düşük kabartma: yakınlaşınca adaların yan duvarları gölge şeridi gibi görünmesin
+      .polygonAltitude(function (f) { return f === S.selected ? 0.02 : f === S.hover && has(f) ? 0.012 : has(f) ? 0.004 : 0.002; })
       .polygonCapColor(capColor)
       .polygonSideColor(function () { return "rgba(20,12,6,0.55)"; })
       .polygonStrokeColor(function () { return "rgba(18,13,10,0.9)"; })
@@ -463,9 +464,10 @@
       .pointLat(function (m) { return m[3]; })
       .pointLng(function (m) { return m[4]; })
       .pointColor(function (m) { return m === S.mSel ? "#ff2d55" : MCOL[m[5]]; })
-      .pointAltitude(function (m) { return m === S.mSel ? 0.03 : m[5] === "w" ? 0.008 : m[5] === "b" ? 0.004 : 0.004 + m[5] * 0.002; })
-      .pointRadius(function (m) { return m === S.mSel ? 0.14 : m[5] === "w" ? 0.32 : m[5] === "b" ? 0.06 : 0.06 + m[5] * 0.02; })
-      .pointResolution(6)
+      // Düz diskler: yakından bakınca kule gibi görünmesinler
+      .pointAltitude(function (m) { return m === S.mSel ? 0.012 : 0.0012; })
+      .pointRadius(function (m) { return m === S.mSel ? 0.12 : m[5] === "b" ? 0.05 : 0.05 + m[5] * 0.015; })
+      .pointResolution(10)
       .pointsMerge(true)
       .pointsTransitionDuration(0)
       .polygonsTransitionDuration(200)
