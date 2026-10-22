@@ -22,6 +22,12 @@
       googleNone: "Şu an gösterilemiyor.", reviews: "{n} yorum", loading: "Yükleniyor…",
       lyText: "Küredeki yazılar", txNames: "Ülke adları", txSpice: "Baharat haritası", txSauce: "Sos haritası", txOff: "Kapalı",
       spices: "Sevilen baharatlar", sauces: "Sevilen soslar",
+      lyColor: "Küre rengi", colScore: "Mutfak puanı", colWine: "Şarap üretimi", colNone: "Renksiz", wineScale: "Yıllık şarap üretimi (ton) · FAOSTAT",
+      noWine: "Kayda değer üretim yok", wineRegions: "Şarap bölgeleri", wineTitle: "Şarap", wineProd: "Yıllık üretim: {v} ton ({y}), dünyada {r}. sırada",
+      wineExp: "Şarap ihracatı: {v} ({y})", grapes: "Öne çıkan üzümler", wineStyles: "Tanınmış şaraplar ve tarzlar", regionsT: "Bölgeler",
+      native: "yerli", red: "kırmızı", white: "beyaz", rose: "roze", other: "", sources: "Kaynaklar", researched: "Web araştırmasıyla derlendi ({d}).",
+      restTitle: "Mutfağı deneyimlemek için restoranlar", restNote: "Web araştırmasıyla derlendi ({d}); açılış durumunu gitmeden önce kontrol edin.",
+      kind_traditional: "Geleneksel", kind_fine_dining: "Fine dining", kind_casual: "Lokanta", kind_street_food: "Sokak lezzeti", kind_market: "Çarşı / pazar",
       relTitle: "Akraba yemekler", relSub: "Başka ülkelerde neredeyse aynı yemek", simTitle: "Benzer yemekler", relMap: "Haritada gör",
       relNote: "Benzerlik oranı yapay zekânın malzeme, teknik ve servis biçimine bakarak verdiği bir değerlendirmedir.", relOf: "{d} yemeğinin akrabaları",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
@@ -46,6 +52,12 @@
       googleNone: "Not available right now.", reviews: "{n} reviews", loading: "Loading…",
       lyText: "Text on the globe", txNames: "Country names", txSpice: "Spice map", txSauce: "Sauce map", txOff: "Off",
       spices: "Favourite spices", sauces: "Favourite sauces",
+      lyColor: "Globe colour", colScore: "Cuisine score", colWine: "Wine production", colNone: "No colour", wineScale: "Annual wine production (t) · FAOSTAT",
+      noWine: "No significant production", wineRegions: "Wine regions", wineTitle: "Wine", wineProd: "Annual production: {v} t ({y}), world rank #{r}",
+      wineExp: "Wine exports: {v} ({y})", grapes: "Signature grapes", wineStyles: "Notable wines and styles", regionsT: "Regions",
+      native: "native", red: "red", white: "white", rose: "rosé", other: "", sources: "Sources", researched: "Compiled with web research ({d}).",
+      restTitle: "Restaurants to experience the cuisine", restNote: "Compiled with web research ({d}); check opening status before you go.",
+      kind_traditional: "Traditional", kind_fine_dining: "Fine dining", kind_casual: "Casual", kind_street_food: "Street food", kind_market: "Market",
       relTitle: "Related dishes", relSub: "Almost the same dish in other countries", simTitle: "Similar dishes", relMap: "Show on the map",
       relNote: "Similarity is an AI assessment of ingredients, technique and how the dish is served.", relOf: "Relatives of {d}",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
@@ -70,11 +82,20 @@
   }
 
   var lang = "tr", globe, labelEls = [], labelRank = 2;
-  var LY = { score: true, text: "names", m3: false, m2: false, m1: false, mb: false };
+  var LY = { color: "score", wr: false, text: "names", m3: false, m2: false, m1: false, mb: false };
   try { Object.assign(LY, JSON.parse(localStorage.getItem("ga-layers") || "{}")); } catch (e) { /* yok */ }
   // Puan renkleriyle (kırmızı-sarı-yeşil) karışmasın diye beyaz-mavi tonlar
-  var MCOL = { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff" };
-  var MKEY = { 3: "m3", 2: "m2", 1: "m1", b: "mb" };
+  if (LY.score === false && LY.color === "score") LY.color = "none";
+  delete LY.score;
+  var MCOL = { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff", w: "#e0457b" };
+  var MKEY = { 3: "m3", 2: "m2", 1: "m1", b: "mb", w: "wr" };
+  // Şarap üretimi: log ölçek, 1 bin t -> 5 milyon t
+  function wineColor(v, lift) {
+    var k = Math.max(0, Math.min(1, (Math.log10(Math.max(v, 1)) - 3) / 3.7));
+    var a = [246, 214, 224], b = [96, 12, 45];
+    var c = [0, 1, 2].map(function (j) { var x = a[j] + (b[j] - a[j]) * k; return Math.round(x + (255 - x) * (lift || 0)); });
+    return "rgb(" + c.join(",") + ")";
+  }
   var S = { geo: null, index: {}, search: [], cache: {}, selected: null, hover: null, country: null, filter: "", cat: "" };
 
   // ------------------------------------------------------------ yardımcılar
@@ -167,10 +188,16 @@
     }
     document.getElementById("legend").innerHTML =
       '<details class="lg" open><summary>' + esc(t("layers")) + "</summary>" +
-      cb("score", esc(t("lyScore"))) +
-      '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + g.join(",") + ')"></div>' +
-      '<div class="lg-ticks"><span>15</span><span>55</span><span>100</span></div><div class="lg-s">' + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</div></div>" +
+      [["score", "colScore"], ["wine", "colWine"], ["none", "colNone"]].map(function (o) {
+        return '<label class="ly"><input type="radio" name="lycolor" data-col="' + o[0] + '"' + (LY.color === o[0] ? " checked" : "") + "><span>" +
+          (o[0] === "wine" ? "🍷 " : "") + esc(t(o[1])) + "</span></label>";
+      }).join("") +
+      (LY.color === "score" ? '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + g.join(",") + ')"></div>' +
+        '<div class="lg-ticks"><span>15</span><span>55</span><span>100</span></div><div class="lg-s">' + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</div></div>" : "") +
+      (LY.color === "wine" ? '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + wineColor(1000) + "," + wineColor(30000) + "," + wineColor(1e6) + "," + wineColor(5e6) + ')"></div>' +
+        '<div class="lg-ticks"><span>1K</span><span>100K</span><span>5M</span></div><div class="lg-s">' + esc(t("wineScale")) + '</div><div class="lg-none"><i></i>' + esc(t("noWine")) + "</div></div>" : "") +
       '<div class="lg-h">' + esc(t("michelin")) + "</div>" + mrow(3) + mrow(2) + mrow(1) + mrow("b") +
+      '<div class="lg-h"></div>' + cb("wr", esc(t("wineRegions")) + (S.wineRegions ? " <em>" + S.wineRegions.length + "</em>" : ""), '<i class="mdot" style="background:' + MCOL.w + '"></i>') +
       '<div class="lg-h">' + esc(t("lyText")) + "</div>" +
       [["names", "txNames"], ["spice", "txSpice"], ["sauce", "txSauce"], ["off", "txOff"]].map(function (o) {
         return '<label class="ly"><input type="radio" name="lytext" data-tx="' + o[0] + '"' + (LY.text === o[0] ? " checked" : "") + "><span>" +
@@ -181,6 +208,14 @@
         LY[x.dataset.ly] = x.checked;
         try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
         applyLayers();
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-col]"), function (x) {
+      x.addEventListener("change", function () {
+        LY.color = x.dataset.col;
+        try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
+        legend();
+        refresh();
       });
     });
     Array.prototype.forEach.call(document.querySelectorAll("[data-tx]"), function (x) {
@@ -210,10 +245,22 @@
     refresh();
     var want = LY.m3 || LY.m2 || LY.m1 || LY.mb;
     if (want && !S.michelin) { loadMichelin().then(applyLayers); return; }
+    if (LY.wr && !S.wineRegions) { loadWineRegions().then(applyLayers); return; }
     var pts = !S.michelin ? [] : S.michelin.filter(function (m) { return LY[MKEY[m[5]]]; });
+    if (LY.wr && S.wineRegions) pts = pts.concat(S.wineRegions);
     S.points = pts;
     globe.pointsData(pts);
     if (!pts.length) hideMcard();
+  }
+  function loadWineRegions() {
+    if (S.wLoading) return S.wLoading;
+    // [ad, "", ülke, enlem, boylam, "w", açıklama, üzümler]: Michelin noktalarıyla aynı biçim
+    S.wLoading = getJSON("data/wine_regions.json").then(function (d) {
+      S.wineRegions = d.map(function (r) { return [r[0], "", r[1], r[2], r[3], "w", r[4], r[5]]; });
+      legend();
+      return S.wineRegions;
+    }).catch(function () { S.wineRegions = []; return []; });
+    return S.wLoading;
   }
   function loadMichelin() {
     if (S.mLoading) return S.mLoading;
@@ -241,6 +288,16 @@
   function stars(a) { return a === "b" ? "Bib" : new Array(a + 1).join("★"); }
   function showMcard(m) {
     var c = document.getElementById("mcard");
+    if (m[5] === "w") {
+      c.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button>' +
+        '<div class="mc-a" style="color:' + MCOL.w + '">🍷 ' + esc(t("wineRegions")) + "</div><b>" + esc(m[0]) + "</b><span>" + esc(cname(m[2])) + "</span>" +
+        (L(m[6]) ? "<span>" + esc(L(m[6])) + "</span>" : "") + (m[7] && m[7].length ? "<span>🍇 " + esc(m[7].join(", ")) + "</span>" : "");
+      c.hidden = false;
+      c.querySelector(".close").addEventListener("click", hideMcard);
+      S.mSel = m;
+      globe.pointsData(S.points);
+      return;
+    }
     c.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button>' +
       '<div class="mc-a" style="color:' + MCOL[m[5]] + '">' + (m[5] === "b" ? esc(t("bib")) : stars(m[5]) + " " + esc(t("star" + m[5]))) + "</div>" +
       "<b>" + esc(m[0]) + "</b><span>" + esc([m[1], m[2] ? cname(m[2]) : ""].filter(Boolean).join(", ")) + "</span>" +
@@ -272,9 +329,11 @@
   // ------------------------------------------------------------ küre
   function has(f) { var c = S.index[f.properties.iso]; return !!(c && (c.recipes || c.signature || c.score != null)); }
   function capColor(f) {
-    var c = S.index[f.properties.iso];
-    if (!c || c.score == null || !LY.score) return f === S.selected ? "#6a5442" : f === S.hover ? "#4a3d33" : LY.score ? "#2b231d" : "#3a2e25";
-    return scoreColor(c.score, f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0);
+    var c = S.index[f.properties.iso], lift = f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0;
+    var blank = f === S.selected ? "#6a5442" : f === S.hover ? "#4a3d33" : LY.color === "none" ? "#3a2e25" : "#2b231d";
+    if (LY.color === "wine") return c && c.wine ? wineColor(c.wine, lift) : blank;
+    if (LY.color !== "score" || !c || c.score == null) return blank;
+    return scoreColor(c.score, lift);
   }
   function applyLabel(el) {
     el.style.visibility = LY.text !== "off" && el.textContent && el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
@@ -301,8 +360,8 @@
       .pointLat(function (m) { return m[3]; })
       .pointLng(function (m) { return m[4]; })
       .pointColor(function (m) { return m === S.mSel ? "#ff2d55" : MCOL[m[5]]; })
-      .pointAltitude(function (m) { return m === S.mSel ? 0.03 : m[5] === "b" ? 0.004 : 0.004 + m[5] * 0.002; })
-      .pointRadius(function (m) { return m === S.mSel ? 0.14 : m[5] === "b" ? 0.06 : 0.06 + m[5] * 0.02; })
+      .pointAltitude(function (m) { return m === S.mSel ? 0.03 : m[5] === "w" ? 0.008 : m[5] === "b" ? 0.004 : 0.004 + m[5] * 0.002; })
+      .pointRadius(function (m) { return m === S.mSel ? 0.14 : m[5] === "w" ? 0.32 : m[5] === "b" ? 0.06 : 0.06 + m[5] * 0.02; })
       .pointResolution(6)
       .pointsMerge(true)
       .pointsTransitionDuration(0)
@@ -417,6 +476,7 @@
       }).join("") + "</div></section>";
     }
     h += flav(c.spices, "spices", "🌶️") + flav(c.sauces, "sauces", "🥣");
+    h += wineSec(c) + restSec(c);
     h += '<section class="sec" id="msec"></section>';
     h += '<section class="sec"><h3>' + esc(t("production")) + "</h3>" + bars(c.production, "prod") + "</section>";
     h += '<section class="sec"><h3>' + esc(t("exports")) + "</h3>" + bars(c.exports, "exp") + "</section>";
@@ -444,6 +504,53 @@
     });
     renderList();
     renderMichelin(c.iso3);
+    Array.prototype.forEach.call(body.querySelectorAll(".wreg"), function (b) {
+      b.addEventListener("click", function () {
+        var r = c.wine.regions[+b.dataset.i];
+        if (!LY.wr) { LY.wr = true; legend(); }
+        loadWineRegions().then(function () {
+          applyLayers();
+          var m = (S.wineRegions || []).find(function (x) { return x[2] === c.iso3 && x[0] === r.name; });
+          globe.pointOfView({ lat: r.lat - (window.innerWidth <= 720 ? 2 : 0), lng: r.lng + (window.innerWidth <= 720 ? 0 : 3), altitude: 0.5 }, 1200);
+          if (m) showMcard(m);
+        });
+      });
+    });
+  }
+
+  function srcList(src) {
+    if (!src || !src.length) return "";
+    return '<details class="srcs"><summary>' + esc(t("sources")) + " (" + src.length + ")</summary>" + src.map(function (x) {
+      return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + "</a>";
+    }).join("") + "</details>";
+  }
+  function fmtN(v) { return new Intl.NumberFormat(lang).format(Math.round(v)); }
+  function wineSec(c) {
+    var w = c.wine;
+    if (!w) return "";
+    var h = '<section class="sec wine"><h3>🍷 ' + esc(t("wineTitle")) + "</h3>";
+    if (w.production) h += '<div class="w-prod">' + esc(t("wineProd", { v: fmtN(w.production.value), y: w.production.year, r: w.production.rank })) +
+      (w.exports ? "<br>" + esc(t("wineExp", { v: fmtUSD(w.exports.value), y: w.exports.year })) : "") + "</div>";
+    if (w.summary && L(w.summary)) h += '<p class="w-sum">' + esc(L(w.summary)) + "</p>";
+    if (w.grapes && w.grapes.length) h += "<h4>" + esc(t("grapes")) + '</h4><div class="grapes">' + w.grapes.map(function (g) {
+      return '<span class="grape ' + g.type + '" title="' + esc(L(g.desc)) + '">' + esc(g.name) + (g.native ? " <em>" + esc(t("native")) + "</em>" : "") + "</span>";
+    }).join("") + "</div>";
+    if (w.regions && w.regions.length) h += "<h4>" + esc(t("regionsT")) + '</h4><div class="wregs">' + w.regions.map(function (r, i) {
+      return '<button class="wreg" data-i="' + i + '"><b>' + esc(r.name) + "</b>" + esc(L(r.desc)) + "</button>";
+    }).join("") + "</div>";
+    if (w.styles && w.styles.length) h += "<h4>" + esc(t("wineStyles")) + "</h4>" + w.styles.map(function (x) {
+      return '<div class="wsty"><b>' + esc(x.name) + "</b> " + esc(L(x.desc)) + "</div>";
+    }).join("");
+    if (w.date) h += '<div class="src">' + esc(t("researched", { d: w.date })) + "</div>" + srcList(w.sources);
+    return h + "</section>";
+  }
+  function restSec(c) {
+    var r = c.restaurants;
+    if (!r || !r.restaurants || !r.restaurants.length) return "";
+    return '<section class="sec"><h3>🍽️ ' + esc(t("restTitle")) + '</h3><div class="glist">' + r.restaurants.map(function (x) {
+      return '<a class="grow" href="' + esc(x.url) + '" target="_blank" rel="noopener"><span class="gr">' + new Array(x.price + 1).join("$") +
+        "</span><span><b>" + esc(x.name) + "</b>" + esc([x.city, t("kind_" + x.kind)].filter(Boolean).join(" · ")) + "<br>" + esc(L(x.known_for)) + "</span></a>";
+    }).join("") + '</div><div class="src">' + esc(t("restNote", { d: r.date })) + "</div>" + srcList(r.sources) + "</section>";
   }
 
   function renderMichelin(iso) {
