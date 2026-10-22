@@ -1,0 +1,43 @@
+name: Araştırma (şarap, restoran)
+on:
+  workflow_dispatch:
+    inputs:
+      stages:
+        description: "Aşamalar: wine restaurants"
+        default: "wine restaurants"
+      only:
+        description: "Yalnızca bu ülkeler (ör. FRA,TUR; boş = hepsi)"
+        default: ""
+      limit:
+        description: "En fazla kaç ülke (0 = sınırsız)"
+        default: "0"
+permissions:
+  contents: write
+concurrency:
+  group: research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ONLY: ${{ inputs.only }}
+      LIMIT: ${{ inputs.limit }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - name: Çalıştır
+        run: |
+          save() {
+            git config user.name "atlas-bot"; git config user.email "atlas-bot@users.noreply.github.com"
+            git add data/work/wine data/work/restaurants data/work/research_cost.json data/work/research_log.txt 2>/dev/null || true
+            git diff --cached --quiet || git commit -q -m "Araştırma: $1"
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          }
+          set -o pipefail
+          for s in ${{ inputs.stages }}; do
+            python scripts/research.py "$s" 2>&1 | tee -a data/work/research_log.txt || { save "$s (hata)"; exit 1; }
+            save "$s"
+          done

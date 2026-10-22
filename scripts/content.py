@@ -484,6 +484,9 @@ def stage_build():
     flavors = jload(os.path.join(WORK, "flavors.json"), {})
     import relatives
     rel = relatives.relatives_map()
+    wine_fao = ((fao.get("production_special") or {}).get("wine") or {}).get("countries") or {}
+    wine_exp = ((fao.get("exports_special") or {}).get("wine") or {}).get("countries") or {}
+    regions_all = []
     out_dir = os.path.join(DATA, "countries")
     os.makedirs(out_dir, exist_ok=True)
     index, search = [], []
@@ -522,14 +525,26 @@ def stage_build():
                                      "tip": r.get("tip"), "reviewed": r.get("reviewed", False),
                                      "image": img(d.get("wiki_en")), "relatives": rel.get(f"{iso}_{d['id']}", [])})
                 search.append([iso, d["id"], r["name"]["tr"], r["name"]["en"], r.get("native") or ""])
+        wr = jload(os.path.join(WORK, "wine", iso + ".json"))
+        if wine_fao.get(iso) or wr:
+            c["wine"] = {"production": wine_fao.get(iso), "exports": wine_exp.get(iso), "n": len(wine_fao)}
+            if wr:
+                c["wine"].update({k: wr.get(k) for k in ("summary", "none", "regions", "grapes", "styles", "sources", "date")})
+                for r in wr.get("regions") or []:
+                    regions_all.append([r["name"], iso, r["lat"], r["lng"], r["desc"], r.get("grapes", [])])
+        rr = jload(os.path.join(WORK, "restaurants", iso + ".json"))
+        if rr:
+            c["restaurants"] = {k: rr.get(k) for k in ("restaurants", "sources", "date")}
         jsave(os.path.join(out_dir, iso + ".json"), c)
         index.append({"iso3": iso, "iso2": REF[iso]["iso2"], "region": REF[iso].get("region"), "score": sc["score"] if sc else None,
                       "spice": c["spices"][0]["name"] if c["spices"] else None, "sauce": c["sauces"][0]["name"] if c["sauces"] else None, "recipes": len(c["recipes"]), "signature": len(c["signature"]),
+                      "wine": (wine_fao.get(iso) or {}).get("value"),
                       "top": c["signature"][0]["name"] if c["signature"] else None})
     jsave(os.path.join(DATA, "index.json"), {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                                             "model": MODEL, "fao": {k: fao.get(k + "_meta") for k in ("production", "exports")},
                                             "countries": index})
     jsave(os.path.join(DATA, "search.json"), search)
+    jsave(os.path.join(DATA, "wine_regions.json"), regions_all)
     log(f"build: {len(index)} ülke, {len(search)} tarif")
 
 
