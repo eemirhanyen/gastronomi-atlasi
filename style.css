@@ -102,6 +102,11 @@ button { font: inherit; color: inherit; }
 .gr { flex: none; width: 52px; color: #ffd166 !important; font-weight: 700; padding-top: 2px; }
 .gattr { margin-top: 6px; font: 500 11px Roboto, Arial, sans-serif; color: #c9c9c9; }
 
+/* İmza */
+.credit { position: fixed; right: 20px; bottom: 18px; z-index: 4; pointer-events: none;
+  font: 500 12px/1.3 var(--serif); letter-spacing: .02em; color: rgba(244,235,224,.72); text-shadow: 0 1px 6px #000; }
+.credit span::before { content: ""; display: inline-block; width: 18px; height: 1px; background: var(--accent); vertical-align: middle; margin-right: 8px; opacity: .8; }
+
 /* Sıralama kutusu */
 .rank { position: fixed; top: 80px; right: 20px; z-index: 5; width: 260px; max-height: calc(100vh - 110px); display: flex; flex-direction: column;
   background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 10px 8px; backdrop-filter: blur(8px); font-size: 12.5px; }
@@ -271,6 +276,9 @@ body.panel-open .rank { display: none; }
   .brand h1 { font-size: 19px; }
   .brand p { display: none; }
   .search { top: 14px; }
+  .credit { right: auto; left: 50%; transform: translateX(-50%); bottom: 62px; white-space: nowrap; font-size: 10.5px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px; text-shadow: none; }
+  .credit span::before { display: none; }
   .rank { top: auto; bottom: 12px; right: 12px; width: calc(100vw - 206px); max-width: 200px; max-height: 38vh; padding: 8px 6px 4px; }
   .rk-h b { font-size: 11.5px; }
   .relcard { top: auto; bottom: 12px; right: 12px; left: 12px; width: auto; max-height: 45vh; }
