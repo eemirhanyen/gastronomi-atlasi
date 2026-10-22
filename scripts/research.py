@@ -151,7 +151,10 @@ def in_country(iso, lat, lng, pad=0.6):
         for dy in (0, pad, -pad):
             if any(inside(lng + dx, lat + dy, p[0]) for p in polys):
                 return True
-    return False
+    # Haritada eksik küçük adalar (Santorini, Phú Quốc) ve sınır bölgeleri için: ülke kutusunun 0,5° içi kabul
+    xs = [x for p in polys for x, _ in p[0]]
+    ys = [y for p in polys for _, y in p[0]]
+    return min(xs) - 0.5 <= lng <= max(xs) + 0.5 and min(ys) - 0.5 <= lat <= max(ys) + 0.5
 
 
 def L(v, n=400):
