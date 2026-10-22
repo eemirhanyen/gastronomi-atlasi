@@ -89,7 +89,9 @@
     return "rgb(" + c.join(",") + ")";
   }
 
-  var GROUND = 0.0015;   // ülke yüzeyinin küreden yüksekliği; noktalar ve işaretler bunun hemen üstünde
+  // Ülke yüzeyinin küreden yüksekliği; noktalar ve işaretler bunun hemen üstünde.
+  // 0.003 altına inme: büyük ülkelerin düz üçgenleri küre yüzeyine gömülür, siyah titreşimli alanlar oluşur (z-fighting).
+  var GROUND = 0.005;
   var lang = "tr", globe, labelEls = [], labelRank = 2;
   var LY = { color: "score", wr: false, text: "names", m3: false, m2: false, m1: false, mb: false };
   try { Object.assign(LY, JSON.parse(localStorage.getItem("ga-layers") || "{}")); } catch (e) { /* yok */ }
