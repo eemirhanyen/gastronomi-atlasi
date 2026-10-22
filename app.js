@@ -89,6 +89,7 @@
     return "rgb(" + c.join(",") + ")";
   }
 
+  var GROUND = 0.0015;   // ülke yüzeyinin küreden yüksekliği; noktalar ve işaretler bunun hemen üstünde
   var lang = "tr", globe, labelEls = [], labelRank = 2;
   var LY = { color: "score", wr: false, text: "names", m3: false, m2: false, m1: false, mb: false };
   try { Object.assign(LY, JSON.parse(localStorage.getItem("ga-layers") || "{}")); } catch (e) { /* yok */ }
@@ -448,7 +449,9 @@
       .showAtmosphere(true).atmosphereColor("#f0a23b").atmosphereAltitude(0.16)
       .polygonsData(S.geo.features)
       // Düşük kabartma: yakınlaşınca adaların yan duvarları gölge şeridi gibi görünmesin
-      .polygonAltitude(function (f) { return f === S.selected ? 0.02 : f === S.hover && has(f) ? 0.012 : has(f) ? 0.004 : 0.002; })
+      // Tüm katmanlar aynı yükseklikte: ülke yüzeyi ile noktalar/işaretler arasında açıyla bakınca kayma (paralaks) olmasın.
+      // Seçim ve üzerine gelme yükseklikle değil renkle gösterilir.
+      .polygonAltitude(GROUND)
       .polygonCapColor(capColor)
       .polygonSideColor(function () { return "rgba(20,12,6,0.55)"; })
       .polygonStrokeColor(function () { return "rgba(18,13,10,0.9)"; })
@@ -465,7 +468,7 @@
       .pointLng(function (m) { return m[4]; })
       .pointColor(function (m) { return m === S.mSel ? "#ff2d55" : MCOL[m[5]]; })
       // Düz diskler: yakından bakınca kule gibi görünmesinler
-      .pointAltitude(function (m) { return m === S.mSel ? 0.012 : 0.0012; })
+      .pointAltitude(function (m) { return m === S.mSel ? GROUND + 0.004 : GROUND + 0.0002; })
       .pointRadius(function (m) { return m === S.mSel ? 0.12 : m[5] === "b" ? 0.05 : 0.05 + m[5] * 0.015; })
       .pointResolution(10)
       .pointsMerge(true)
@@ -474,7 +477,7 @@
       .htmlElementsData(htmlData())
       .htmlLat(function (f) { return f.w ? f.w[3] : f.properties.ly; })
       .htmlLng(function (f) { return f.w ? f.w[4] : f.properties.lx; })
-      .htmlAltitude(function (f) { return f.w ? 0.006 : 0.015; })
+      .htmlAltitude(function () { return GROUND + 0.0004; })
       .htmlElement(function (f) {
         if (f.__el) return f.__el;
         if (f.w) return (f.__el = wineMark(f.w));
