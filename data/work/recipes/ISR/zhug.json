@@ -9,7 +9,7 @@
   "en": "A fiery green herb sauce brought to Israel by Yemeni Jewish communities, made from cilantro and green chilies. It is served daily on the table with pita, grilled meats, falafel and salads."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 50,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -67,5 +67,13 @@
   "tr": "Geleneksel zhug'da kişniş ve maydanozun ince kıyılması, sosun rengini ve tazeliğini korur; aşırı çekmeyin, yoksa acı bir püre olur.",
   "en": "Pulse the herbs briefly rather than blending continuously; over-processing turns the sauce bitter and dull green."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 20, but step 8 requires a 30-minute room-temperature rest before serving, so the total time is about 50 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

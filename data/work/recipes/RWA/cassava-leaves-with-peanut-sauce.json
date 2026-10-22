@@ -6,10 +6,10 @@
  "native": "Isombe",
  "desc": {
   "tr": "Rwanda'da günlük yemeklerin vazgeçilmez garnitürüdür; öğle ve akşam sofralarında pilav, muz veya ugali ile servis edilir. Dövülerek hazırlanan manyok yaprakları, kavrulmuş fıstık ve soğanla pişirilerek kremsi, doyurucu bir yan yemek elde edilir.",
-  "en": "A everyday side dish across Rwanda, served at lunch and dinner with rice, plantains or ugali. Pounded cassava leaves are slowly simmered with peanuts and onion until they become creamy and hearty."
+  "en": "An everyday side dish across Rwanda, served at lunch and dinner with rice, plantains or ugali. Pounded cassava leaves are slowly simmered with peanuts and onion until they become creamy and hearty."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -52,7 +52,7 @@
    "Rinse the cassava leaves twice in plenty of water, drain, and remove the stems and thick veins.",
    "Pound the leaves in a mortar or pulse in a food processor until coarse, or chop them very finely.",
    "Bring 1 litre of water to a boil in a large pot, add the pounded leaves, and wait until it boils again.",
-   "Lower the heat and simmer uncovered (partly covered) for about 45 minutes, until the leaves are soft and darkened, adding small amounts of water as needed.",
+   "Lower the heat and simmer partly covered for about 45 minutes, until the leaves are soft and darkened, adding small amounts of water as needed.",
    "Drain the cooked leaves and set aside; reserve about 100 ml of the cooking liquid.",
    "Heat the palm oil in a separate pan, then fry the onion and garlic for about 5 minutes until soft.",
    "Add the tomato and chili and cook for about 5 minutes until the tomato breaks down.",
@@ -65,5 +65,15 @@
   "tr": "Manyok yapraklarında doğal zehirli bileşikler bulunduğu için yaprakları en az 45 dakika iyice pişirmeden asla servis etmeyin.",
   "en": "Cassava leaves contain natural toxins, so always cook them thoroughly for at least 45 minutes before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the steps add up to about 65 minutes of cooking alone, plus prep time",
+   "English step 4 says \"uncovered (partly covered)\", which contradicts itself and does not match the Turkish \"kapağı yarım açık\" (lid partly open)",
+   "English description has a grammar error: \"A everyday\" should be \"An everyday\""
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

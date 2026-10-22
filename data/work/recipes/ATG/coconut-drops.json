@@ -9,7 +9,7 @@
   "en": "A traditional sweet from Antigua and Barbuda, made by cooking grated coconut with sugar into a thick mixture and dropping it by spoonfuls to set. It is especially made in homes at Christmas and during local celebrations, and sold at markets and by street vendors."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Hindistancevizi taze değilse kurutulmuş rendeyi kullanabilirsiniz, ancak suyu 100 ml'ye indirin, çünkü kuru rende daha az nem tutar.",
+  "tr": "Hindistancevizi taze değilse şekersiz kurutulmuş rendeyi kullanabilirsiniz, ancak suyu 100 ml'ye indirin, çünkü kuru rende daha az nem tutar.",
   "en": "If fresh coconut is unavailable, use unsweetened desiccated coconut, but reduce the water to 100 ml since it holds less moisture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English tip specifies unsweetened desiccated coconut, but the Turkish tip just says 'kurutulmuş rende', so the versions disagree.",
+   "time_min is 60, but the steps add up to roughly 65-85 minutes (20-25 min cooking plus 30-40 min setting, plus prep and cooling)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

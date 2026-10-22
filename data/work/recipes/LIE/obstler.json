@@ -8,7 +8,7 @@
   "tr": "Liechtenstein, Avusturya, İsviçre ve Güney Almanya'nın Alp bölgelerinde yaygın, armut ve elma gibi meyvelerden yapılan sert bir meyve rakısıdır. Genellikle yemekten sonra, soğuk ve küçük kadehlerde ikram edilir.",
   "en": "A firm fruit brandy common in the Alpine regions of Liechtenstein, Austria, Switzerland and southern Germany, made from pears and apples. It is usually served cold in small glasses after a meal. This home version macerates fruit in spirit for about 4 to 6 weeks rather than distilling it."
  },
- "servings": 4,
+ "servings": 18,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -29,9 +29,9 @@
  },
  "steps": {
   "tr": [
-   "Armut ve elmaları yıkayın, kurulayın, kabuklarını soyun ve çekirdek yuvalarını çıkarın. Meyveleri küçük küp doğrayın.",
+   "Armut ve elmaları yıkayın, kurulayın, kabuklarını soyun ve çekirdek yuvalarını çıkarın. Meyveleri küçük küpler halinde doğrayın.",
    "Suyu ve şekeri küçük bir tencerede kaynatın, şeker tamamen eriyince ocaktan alıp soğumaya bırakın.",
-   "Doğranmış meyveleri temiz, kapaklı 1,5 litrelik bir cam kavanoza koyun.",
+   "Doğranmış meyveleri temiz, kapaklı 2 litrelik bir cam kavanoza koyun.",
    "Soğumuş şekerli suyu ve rakıyı meyvelerin üzerine dökün. Meyveler tamamen sıvının altında kalmalı.",
    "Kavanozu sıkıca kapatın ve 15-20 °C serin, karanlık bir yerde 4-6 hafta bekletin. Haftada bir kez çalkalayın.",
    "Dinlendirme süresi sonunda meyveleri sıvıdan ayırın ve sıvıyı ince bir tülbent ya da kahve filtresinden süzün.",
@@ -41,7 +41,7 @@
   "en": [
    "Wash the pears and apples, dry them, peel them and remove the core. Cut the fruit into small cubes.",
    "Bring the water and sugar to the boil in a small saucepan, then remove from the heat and let cool once the sugar has fully dissolved.",
-   "Put the chopped fruit into a clean 1.5 litre glass jar with a lid.",
+   "Put the chopped fruit into a clean 2 litre glass jar with a lid.",
    "Pour the cooled sugar syrup and the spirit over the fruit. The fruit must stay fully submerged.",
    "Seal the jar tightly and leave it in a cool, dark place at 15-20 °C for 4 to 6 weeks. Shake it gently once a week.",
    "At the end of the resting period, strain the liquid through a fine cloth or coffee filter, discarding the fruit.",
@@ -53,5 +53,15 @@
   "tr": "Gerçek Obstler damıtılarak üretilir ve evde damıtma çoğu ülkede yasaktır; bu tarif, meyve aromasını yasal olarak evde elde etmenin güvenli yoludur.",
   "en": "Traditional Obstler is distilled, and home distillation is illegal in many countries; this macerated version is a legal way to capture the fruit aroma at home."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Yield does not match servings: about 750 ml of liquid at 40 ml per glass gives roughly 18 servings, not 4.",
+   "The 1.5 litre jar is too small. About 800 g of fruit plus 750 ml of liquid is roughly 1.5 to 1.6 litres of contents before the fruit is packed, so it risks overflowing and leaving fruit above the liqu",
+   "Turkish step 1 says \"küçük küp doğrayın\", which is awkward; \"küçük küpler halinde doğrayın\" is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

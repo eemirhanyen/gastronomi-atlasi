@@ -67,10 +67,10 @@
   "tr": [
    "Tavuğu büyük bir tencereye koyun, 1,5 L suyla kaplayın ve kaynamaya bırakın. Yüzeyde biriken köpüğü alın, ardından ateşi kısıp yaklaşık 25 dakika pişirin. Tavuğu çıkarıp soğumaya bırakın, suyu da sonra kullanmak üzere ayırın.",
    "Eti soğuyunca kemiklerinden ayırın ve lifler halinde parçalayın. Kemik ve derileri kaynayan suya geri koyup 10 dakika daha pişirerek daha lezzetli bir et suyu elde edin, sonra süzün.",
-   "Kuru soğan, sarımsak, kişniş tohumu, kimyon, zerdeçal, galangal ve zencefili blenderda birkaç yemek kaşığı su ile pürüzsüz bir macun haline getirin.",
+   "Kuru soğan, sarımsak, kişniş tohumu, kimyon, zerdeçal, galangal ve zencefili blenderde birkaç yemek kaşığı su ile pürüzsüz bir macun haline getirin.",
    "Geniş bir tavada yağı orta ateşte ısıtın. Hazırladığınız macunu, ezilmiş limon otu, bahar yaprağı, tarçın ve karanfille birlikte 5 dakika kavurun; baharatlar kokusunu verene kadar karıştırın.",
    "Kavrulmuş karışımı süzülmüş et suyuna ekleyin. Tuz ve beyaz biberi ekleyip kısık ateşte 15 dakika pişirin, ardından limon otu sapını çıkarın.",
-   "Cam şehriyeyi sıcak suda 5 dakika bekletin, süzün ve kısa makasla kesin. Yumurtaları ayrı bir tencerede haşlayıp kabuklarını soyun ve ikiye bölün.",
+   "Cam şehriyeyi sıcak suda 5 dakika bekletin, süzün ve kısa makasla kesin. Yumurtaları ayrı bir tencerede kaynayan suda 6-7 dakika haşlayıp soğuk suyla soğutun, kabuklarını soyun ve ikiye bölün.",
    "Filizlenmiş fasulyeyi kaynayan suda 30 saniye haşlayıp süzün.",
    "Servis kaselerine şehriye, filizlenmiş fasulye ve parçalanmış tavuğu yerleştirin. Üzerine yumurta yarımlarını koyun.",
    "Kaseleri sıcak çorbayla doldurun. Taze soğan, kızarmış kuru soğan ve lime dilimleriyle süsleyip, isteyen sambal ile servis yapın."
@@ -81,7 +81,7 @@
    "Blend the shallots, garlic, coriander seeds, cumin, turmeric, galangal and ginger with a few tablespoons of water into a smooth paste.",
    "Heat the oil in a wide pan over medium heat. Fry the paste with the bruised lemongrass, bay leaves, cinnamon stick and cloves for about 5 minutes, stirring until fragrant.",
    "Add the fried paste to the strained broth. Season with the salt and white pepper, simmer gently for 15 minutes, then remove the lemongrass stalks.",
-   "Soak the glass noodles in hot water for 5 minutes, drain and cut them short with scissors. Boil the eggs in a separate pot, peel and halve them.",
+   "Soak the glass noodles in hot water for 5 minutes, drain and cut them short with scissors. Boil the eggs in a separate pot of boiling water for 6-7 minutes, then cool them in cold water, peel and halve them.",
    "Blanch the bean sprouts in boiling water for 30 seconds and drain.",
    "Divide the noodles, bean sprouts and shredded chicken among four serving bowls. Place the egg halves on top.",
    "Ladle the hot broth over the bowls. Garnish with spring onions and fried shallots, add lime wedges, and serve with sambal on the side if desired."
@@ -91,5 +91,14 @@
   "tr": "Zerdeçalı taze kullanırsanız çorba daha canlı bir renk ve aroma kazanır; ayrıca çorbayı servisten hemen önce ısıtıp bitirmek, şehriyenin dağılmasını önler.",
   "en": "Fresh turmeric gives a brighter colour and aroma than powdered; keep the noodles separate until serving so they do not turn soggy in the broth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 (TR and EN) gives no boiling time for the eggs, so the yolks could end up undercooked or overcooked.",
+   "Turkish step 3 has a vowel-harmony error: \"blenderda\" should be \"blenderde\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Palmiye şarabı çabuk ekşir; mayalanmayı sıcak havada takip edin ve en geç 24 saat içinde tüketin.",
-  "en": "Palm wine turns sour quickly, so watch the fermentation in warm weather and drink it within 24 hours."
+  "tr": "Palmiye şarabı çabuk ekşir; mayalanmayı sıcak havada takip edin ve süzdükten sonra aynı gün içinde tüketin.",
+  "en": "Palm wine turns sour quickly, so watch the fermentation in warm weather and drink it the same day it is strained."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Timing conflict: the fermentation takes 24-36 h, but the tip says to drink within 24 h, and step 8 says to drink the same day. Both Turkish and English tips should match the step 8 instruction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

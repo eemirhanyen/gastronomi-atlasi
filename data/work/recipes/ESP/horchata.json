@@ -46,8 +46,16 @@
   ]
  },
  "tip": {
-  "tr": "Süzerken ince gözlü süzgeç kullanın; daha pürüzsüz bir içecek için süzme işlemini iki kez tekrarlayın.",
+  "tr": "Süzerken ince gözlü süzgeç kullanın; daha pürüzsüz bir içecek için süzme işlemini iki kez tekrarlayın ve fartons ile birlikte servis edin.",
   "en": "Strain twice through a fine sieve or muslin for a smoother drink, and serve with fartons for dipping."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the serving suggestion with fartons that appears in the English tip, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

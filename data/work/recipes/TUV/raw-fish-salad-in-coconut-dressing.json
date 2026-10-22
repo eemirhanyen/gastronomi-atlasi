@@ -13,8 +13,8 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g sashimi kalitesinde taze ton balığı veya lüfer fileto, derisi ve kılçıkları alınmış",
-   "150 ml taze misket limonu suyu (yaklaşık 5-6 misket limonu)",
+   "500 g sashimi kalitesinde taze ton balığı veya mercan (snapper) fileto, derisi ve kılçıkları alınmış",
+   "180 ml taze misket limonu suyu (yaklaşık 6-7 misket limonu)",
    "1 tatlı kaşığı tuz",
    "1 küçük kırmızı soğan (yaklaşık 80 g), ince doğranmış",
    "2 orta boy domates (yaklaşık 300 g), küp küp doğranmış",
@@ -25,7 +25,7 @@
   ],
   "en": [
    "500 g sashimi-grade fresh tuna or snapper fillet, skinned and boned",
-   "150 ml fresh lime juice (about 5-6 limes)",
+   "180 ml fresh lime juice (about 6-7 limes)",
    "1 teaspoon salt",
    "1 small red onion (about 80 g), thinly sliced",
    "2 medium tomatoes (about 300 g), diced",
@@ -38,9 +38,9 @@
  "steps": {
   "tr": [
    "Balık filetosunu soğuk tutun ve 1,5 cm küplere doğrayın.",
-   "Balık küplerini geniş bir cam kaba alın, üzerine misket limonu suyunu ve tuzu ekleyip iyice karıştırın.",
+   "Balık küplerini geniş bir cam kaba alın, üzerine 150 ml misket limonu suyunu ve tuzu ekleyip iyice karıştırın.",
    "Kabı örtüp buzdolabında 20 dakika bekletin; balığın dış yüzeyi beyazlaşıp opak hale gelmelidir.",
-   "Bu sırada ince doğranmış kırmızı soğanı bir kaseye alın ve üzerine 2 yemek kaşığı limon suyu sıkıp 5 dakika dinlendirin, böylece acılığı azalır.",
+   "Bu sırada ince doğranmış kırmızı soğanı bir kaseye alın ve üzerine kalan 2 yemek kaşığı misket limonu suyunu sıkıp 5 dakika dinlendirin, böylece acılığı azalır.",
    "Marine edilmiş balığın fazla sıvısını süzün ve balığı büyük bir servis kasesine aktarın.",
    "Soğanı, domates küplerini, salatalık küplerini ve kırmızı biberi balığın üzerine ekleyip nazikçe karıştırın.",
    "Hindistan cevizi kremasını ekleyip tüm malzemeler eşit şekilde kaplanana kadar yavaşça karıştırın.",
@@ -48,9 +48,9 @@
   ],
   "en": [
    "Keep the fish cold and cut the fillet into 1.5 cm cubes.",
-   "Place the fish cubes in a wide glass bowl, add the lime juice and salt, and stir well.",
+   "Place the fish cubes in a wide glass bowl, add 150 ml of the lime juice and the salt, and stir well.",
    "Cover and refrigerate for 20 minutes, until the outside of the fish turns opaque white.",
-   "Meanwhile, put the thinly sliced red onion in a small bowl, add 2 tablespoons of the lime juice and leave for 5 minutes to mellow its sharpness.",
+   "Meanwhile, put the thinly sliced red onion in a small bowl, add the remaining 2 tablespoons of lime juice and leave for 5 minutes to mellow its sharpness.",
    "Drain the excess liquid from the cured fish and transfer the fish to a large serving bowl.",
    "Add the drained onion, tomato, cucumber and red chilli to the fish and toss gently.",
    "Pour in the coconut cream and fold slowly until everything is evenly coated.",
@@ -61,5 +61,14 @@
   "tr": "Balığı mutlaka sashimi kalitesinde ve çok taze alın; hindistan cevizi kremasını servisten hemen önce ekleyin ki kıvamı ve tazeliği korunsun.",
   "en": "Buy sashimi-grade fish from a trusted fishmonger and add the coconut cream just before serving so the texture stays fresh and creamy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Lime juice quantity is inconsistent: all 150 ml goes into the fish in step 2, but step 4 requires an extra 2 tablespoons for the onion, which is not in the ingredient list.",
+   "Turkish fish options (ton balığı veya lüfer) do not match the English (tuna or snapper). Lüfer is bluefish, not snapper; the Turkish should name snapper as mercan."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,8 +5,8 @@
  },
  "native": "Fried Rice",
  "desc": {
-  "tr": "Nijerya'da düğün, doğum günü ve aile toplantılarında sıkça servis edilen, sebzeli ve baharatlı bir pilavdır. Genellikle kızarmış tavuk ve salata ile birlikte sunulur.",
-  "en": "A spiced, vegetable-studded rice dish served at weddings, birthdays and family gatherings across Nigeria. It is usually accompanied by fried chicken and salad."
+  "tr": "Nijerya'da düğün, doğum günü ve aile toplantılarında sıkça servis edilen, domates bazlı, sebzeli ve baharatlı bir pilavdır. Genellikle kızarmış tavuk ve salata ile birlikte sunulur.",
+  "en": "A spiced, tomato-based, vegetable-studded rice dish served at weddings, birthdays and family gatherings across Nigeria. It is usually accompanied by fried chicken and salad."
  },
  "servings": 4,
  "time_min": 60,
@@ -15,12 +15,14 @@
   "tr": [
    "400 g uzun taneli parboiled pirinç",
    "1 litre su",
-   "5 g tuz (rice için 1 tatlı kaşığı)",
+   "5 g tuz (haşlama suyu için)",
    "1 defne yaprağı",
    "60 ml sıvı yağ",
    "200 g tavuk göğsü, küp doğranmış",
    "1 çay kaşığı karabiber (2 g)",
    "1 soğan, ince doğranmış (150 g)",
+   "2 yemek kaşığı domates salçası (30 g)",
+   "2 olgun domates, rendelenmiş (300 g)",
    "2 havuç, küp doğranmış (200 g)",
    "100 g taze fasulye, doğranmış",
    "100 g bezelye (dondurulmuş olabilir)",
@@ -36,12 +38,14 @@
   "en": [
    "400 g long-grain parboiled rice",
    "1 litre water",
-   "5 g salt (plus 1 tsp for the rice)",
+   "5 g salt (for the parboiling water)",
    "1 bay leaf",
    "60 ml vegetable oil",
    "200 g chicken breast, diced",
    "1 tsp black pepper (2 g)",
    "1 onion, finely chopped (150 g)",
+   "2 tbsp tomato paste (30 g)",
+   "2 ripe tomatoes, grated (300 g)",
    "2 carrots, diced (200 g)",
    "100 g fresh green beans, chopped",
    "100 g green peas (frozen is fine)",
@@ -61,7 +65,7 @@
    "1 litre suyu tuz ve defne yaprağıyla kaynatın. Pirinci ekleyip 8–10 dakika, dışı yumuşak ama içi hafifçe dişli olana kadar haşlayın. Süzün, defne yaprağını atın ve pirinci geniş bir tepsiye yayarak kurumaya bırakın.",
    "Tavuk küplerini tuz ve karabiberle tatlandırın.",
    "Geniş bir tavada 30 ml yağı orta-yüksek ateşte ısıtın. Tavukları 6–8 dakika, altın rengi olup iyice pişene kadar kavurun ve bir kenara alın.",
-   "Aynı tavaya kalan 30 ml yağı ekleyin. Soğanı yumuşayana ve şeffaflaşana kadar yaklaşık 3 dakika soteleyin.",
+   "Aynı tavaya kalan 30 ml yağı ekleyin. Soğanı yumuşayana ve şeffaflaşana kadar yaklaşık 3 dakika soteleyin. Domates salçasını ekleyip 2 dakika kavurun, ardından rendelenmiş domatesi ekleyip suyunu çekene kadar orta ateşte yaklaşık 5 dakika pişirin.",
    "Havuç, fasulye, bezelye, dolmalık biber ve acı biberi ekleyip orta ateşte 4 dakika sote edin. Sebzeler dişli kalmalı.",
    "Köri tozu ve kekiği ekleyip 30 saniye karıştırın. Kavrulan tavukları tavaya geri koyun.",
    "Tavuk suyu küpünü 300 ml sıcak suda eritin.",
@@ -75,7 +79,7 @@
    "Bring 1 litre of water to the boil with the salt and bay leaf. Add the rice and parboil for 8–10 minutes, until the outside is soft but the centre still has a bite. Drain, discard the bay leaf and spread the rice on a wide tray to dry.",
    "Season the diced chicken with salt and black pepper.",
    "Heat 30 ml of oil in a large pan over medium-high heat. Fry the chicken for 6–8 minutes until golden and cooked through, then set aside.",
-   "Add the remaining 30 ml of oil to the same pan. Soften the chopped onion for about 3 minutes until translucent.",
+   "Add the remaining 30 ml of oil to the same pan. Soften the chopped onion for about 3 minutes until translucent. Stir in the tomato paste and fry for 2 minutes, then add the grated tomatoes and cook over medium heat for about 5 minutes until the liquid has evaporated and the sauce is thick.",
    "Add the carrots, green beans, peas, bell pepper and hot pepper. Stir-fry over medium heat for 4 minutes, keeping the vegetables slightly crisp.",
    "Stir in the curry powder and thyme for 30 seconds, then return the fried chicken to the pan.",
    "Dissolve the stock cube in the 300 ml of hot water.",
@@ -89,5 +93,14 @@
   "tr": "Pirinci haşladıktan sonra iyice kurutun; ıslak pirinç kızarmaz, yapışır. Tavayı aşırı doldurmayın ki pirinç buharda kalmadan kızarsın.",
   "en": "Dry the parboiled rice well before frying; wet rice steams and sticks instead of frying. Avoid overcrowding the pan so the grains toast rather than steam."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Nigerian fried rice is characteristically cooked on a tomato-and-pepper base that gives it its red-orange colour and savoury depth. The recipe has no tomato or tomato paste at all.",
+   "The salt note '5 g tuz (rice için 1 tatlı kaşığı)' / '5 g salt (plus 1 tsp for the rice)' is confusing, because 5 g is already about 1 tsp, so the 'plus 1 tsp' wording implies a different total than i"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

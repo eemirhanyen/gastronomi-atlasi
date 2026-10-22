@@ -47,7 +47,7 @@
    "Geniş bir tavada yağı orta ateşte ısıtın. Soğan ve biberi 5-6 dakika, yumuşayıp hafifçe renk alana kadar kavurun.",
    "Sarımsağı ekleyip 1 dakika daha kavurun.",
    "Süzülmüş fasulyeleri ve ayırdığınız 100 ml fasulye suyunu tavaya ekleyin. Fasulyelerin bir kısmını kaşık sırtıyla hafifçe ezin ve 5 dakika kısık ateşte pişirerek sıvıyı biraz azaltın.",
-   "Lizano sosunu, tuzu ve karabiberi ekleyip karıştırın. Fasulyeler koyulaşıp sosu iyice emene kadar 2-3 dakika pişirin.",
+   "Lizano sosunu, kalan 1/2 tatlı kaşığı tuzu ve karabiberi ekleyip karıştırın. Fasulyeler koyulaşıp sosu iyice emene kadar 2-3 dakika pişirin.",
    "Soğuyan pirinci tavaya ekleyin. Pirinç taneleri ayrılana ve fasulye karışımıyla eşit şekilde kaplanana kadar orta ateşte 5-6 dakika nazikçe karıştırarak kavurun.",
    "Ocaktan almadan önce kişnişin yarısını karıştırın. Kalan kişnişle süsleyip sıcak servis yapın."
   ],
@@ -58,7 +58,7 @@
    "Heat the oil in a wide skillet over medium heat. Cook the onion and pepper for 5-6 minutes until soft and lightly golden.",
    "Add the garlic and cook for 1 more minute.",
    "Add the drained beans and the 100 ml reserved bean liquid. Mash some of the beans lightly with the back of a spoon, then simmer on low for 5 minutes until the liquid reduces slightly.",
-   "Stir in the Lizano sauce, salt and black pepper. Cook for 2-3 minutes until the beans thicken and absorb the sauce.",
+   "Stir in the Lizano sauce, the remaining 1/2 tsp salt and the black pepper. Cook for 2-3 minutes until the beans thicken and absorb the sauce.",
    "Add the cooled rice to the skillet. Gently stir-fry over medium heat for 5-6 minutes, folding it through the beans until the grains separate and are evenly coated.",
    "Stir in half the cilantro before removing from the heat. Garnish with the remaining cilantro and serve hot."
   ]
@@ -67,5 +67,13 @@
   "tr": "Pirinç bir gün önce pişirilip soğutulursa taneleri ayrı kalır ve kavrulurken yapışmaz; servis ederken kızarmış yumurta, queso fresco peyniri ve ekşi krema ile ikram edin.",
   "en": "Day-old rice keeps its grains separate and won't turn mushy in the pan; serve with fried eggs, queso fresco and sour cream for the traditional breakfast."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is inconsistent: the ingredient list calls for 1 tsp total, but step 1 uses 1/2 tsp for the rice and step 7 adds 'tuz' / 'salt' with no amount, so the total is unclear. Step 7 is clarified to use"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

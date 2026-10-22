@@ -57,25 +57,36 @@
    "Kısık ateşte yaklaşık 1,5 saat, et yumuşayana kadar pişirin. Eti çıkarıp soğutun, ardından ince dilimleyin.",
    "Et suyunu süzün ve soğumaya bırakın. Armudun yaklaşık 50 g'ını rendeleyin, suyunu sıkıp süzülmüş et suyuna ekleyin. Kalan 1 çay kaşığı tuz, 1 çay kaşığı şeker ve 2 yemek kaşığı sirkeyle tatlandırın, ardından iyice buzdolabında soğutun.",
    "Daikon turpunu ve 1 yemek kaşığı şekeri, 1 yemek kaşığı sirkeyle karıştırıp 15 dakika bekletin. Süzün, ardından kalan armudu ve salatalığı çubuk şeklinde doğrayın.",
+   "Yumurtaları yaklaşık 10 dakika haşlayın, soğuk suda soğutup soyun ve ikiye bölün. Hardalı suyu hazırlamak için 1 çay kaşığı hardalı 1 yemek kaşığı suyla karıştırın.",
    "Büyük bir tencerede bol suyu kaynatın. Naengmyeon erişteyi paketteki süre kadar, genellikle 2-3 dakika haşlayın. Haşlandıktan sonra hemen soğuk su altında iyice durulayın ve ovalayarak nişastasını alın.",
    "Erişteyi süzün, avuçlarınızla sıkarak fazla suyunu alın. Servis kaselerine bölün.",
    "Soğuk et suyunu erişteler üzerine dökün, buz küpleri ekleyin. Üzerine dilimlenmiş dana eti, turp, armut, salatalık ve yumurta ekleyin.",
-   "Hardalı suyu ve susamı ekleyip hemen servis yapın."
+   "Hazırladığınız hardalı suyu ve susamı ekleyip hemen servis yapın."
   ],
   "en": [
    "Place the beef in a pot, cover with 2.5 L water and bring to a boil. Skim off the foam, then add the onion, garlic, ginger and 1 tsp salt.",
    "Simmer gently for about 1.5 hours until the meat is tender. Remove the meat, let it cool, then slice it thinly.",
    "Strain the broth and let it cool. Grate about 50 g of the pear, squeeze out its juice and add it to the strained broth. Season with the remaining 1 tsp salt, 1 tsp sugar and 2 tbsp vinegar, then chill thoroughly in the refrigerator.",
    "Toss the daikon with 1 tbsp sugar and 1 tbsp vinegar and let it rest for 15 minutes. Drain it, then cut the remaining pear and the cucumber into matchsticks.",
+   "Boil the eggs for about 10 minutes, cool them in cold water, peel and halve them. Prepare the mustard water by mixing 1 tsp mustard with 1 tbsp water.",
    "Bring a large pot of water to a boil. Cook the naengmyeon noodles for the time on the package, usually 2 to 3 minutes. Immediately rinse them under cold water, rubbing them well to remove the starch.",
    "Drain the noodles and squeeze out excess water with your hands. Divide them among serving bowls.",
    "Pour the chilled broth over the noodles and add ice cubes. Top with the sliced beef, marinated daikon, pear, cucumber and boiled egg halves.",
-   "Add the mustard water and sesame seeds, then serve immediately."
+   "Add the prepared mustard water and sesame seeds, then serve immediately."
   ]
  },
  "tip": {
   "tr": "Erişteyi haşladıktan sonra iyice durulayıp ovalayın; nişasta kalırsa erişteler yapışır ve yemeğin dokusu bozulur.",
   "en": "Rinse the noodles thoroughly and rub them well after boiling; leftover starch makes them clump and spoils the texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Hard-boiled eggs are listed and used in the final assembly, but no step tells the cook to boil, peel and halve them.",
+   "The mustard water is listed as 1 tsp mustard mixed with 1 tbsp water, but no step says to prepare it; step 8 only refers to it as existing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

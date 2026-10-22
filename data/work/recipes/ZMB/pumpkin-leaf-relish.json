@@ -6,7 +6,7 @@
  "native": "Chibwabwa",
  "desc": {
   "tr": "Zambiya'nın her yerinde, özellikle günlük öğünlerde nshima mısır lapasının yanında servis edilen, fıstık ezmeli ve domatesli bir balkabağı yaprağı yemeğidir. Ailelerin evlerinde ve pazarlarda sık sık hazırlanır.",
-  "en": "A everyday relish from across Zambia, made with pumpkin leaves cooked in a tomato and groundnut base. It is traditionally served with nshima (maize porridge) at family meals and sold in local markets."
+  "en": "An everyday relish from across Zambia, made with pumpkin leaves cooked in a tomato and groundnut base. It is traditionally served with nshima (maize porridge) at family meals and sold in local markets."
  },
  "servings": 4,
  "time_min": 60,
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Fıstık ezmesini doğrudan tencereye koymayın; önce suyla inceltmek topaklanmasını önler. Ezme yerine öğütülmüş fıstık tozu da kullanabilirsiniz.",
-  "en": "Thin the peanut butter with warm water before adding it to the pot to prevent lumps. If pumpkin leaves are unavailable, spinach or kale makes a good substitute."
+  "tr": "Fıstık ezmesini doğrudan tencereye koymayın; önce suyla inceltmek topaklanmasını önler. Ezme yerine öğütülmüş fıstık tozu da kullanabilirsiniz. Balkabağı yaprağı bulunamazsa ıspanak veya kıvırcık lahana (kale) iyi bir alternatiftir.",
+  "en": "Thin the peanut butter with warm water before adding it to the pot to prevent lumps. Ground groundnut powder can be used instead of peanut butter. If pumpkin leaves are unavailable, spinach or kale makes a good substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip disagreement: the English tip mentions spinach or kale as a substitute, but the Turkish tip does not. The Turkish tip mentions ground groundnut powder, but the English tip does not.",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

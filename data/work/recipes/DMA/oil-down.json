@@ -9,7 +9,7 @@
   "en": "Oil Down is Dominica's national dish, a one-pot stew of salted meat, breadfruit, yam and leafy greens simmered in coconut milk. It is traditionally served at family gatherings, weekend lunches and celebrations."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -59,7 +59,7 @@
    "Hamur için unu, kabartma tozunu ve tuzu karıştırın. Yavaş yavaş suyu ekleyip yumuşak bir hamur yoğurun. Küçük parçalar koparıp parmak uzunluğunda şekil verin.",
    "Doğranmış callaloo'yu tencerenin üzerine yayın, hafifçe bastırın. Hamur parçalarını üzerine ekleyin, kapağı kapatıp 10 dakika pişirin.",
    "Malzemeleri yavaşça karıştırın. Kapağı açık şekilde 10-15 dakika daha pişirin; sos koyulaşıp yağ yüzeye çıkana kadar bekleyin. Kekik dallarını ve biberi çıkarın, tuzunu ayarlayıp sıcak servis yapın.",
-   "Hazırlık sırasında ekmek meyvesini soyarken eldiven kullanın; sütsü özü elleri yapıştırabilir."
+   "Ekmek meyvesini soyarken eldiven kullanın; süt gibi özsuyu ellere yapışabilir."
   ],
   "en": [
    "Soak the salt meat in cold water for 30 minutes, changing the water once. Drain, cut into pieces, boil in fresh water for 15 minutes and drain again.",
@@ -77,5 +77,14 @@
   "tr": "Oil Down'ın tamamlandığını yağın yüzeye çıkması ve sosun parlak, koyu bir kıvam alması gösterir; ekmek meyvesi parçalarının dağılmaması için karıştırmayı az ve nazik yapın.",
   "en": "Oil Down is ready when the oil separates and rises to the surface and the sauce becomes glossy and thick; stir gently so the breadfruit pieces stay whole."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too low for the steps listed: soaking 30 min, boiling 15 min, and about 75-85 min of cooking add up to roughly 120 min",
+   "Turkish step 9 wording 'sütsü özü' is unnatural; it should read 'süt gibi özsuyu'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

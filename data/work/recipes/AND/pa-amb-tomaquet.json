@@ -44,8 +44,16 @@
   ]
  },
  "tip": {
-  "tr": "Domatesi yüzeye sürmeden önce yağı ekmeğe gezdirin; böylece dilim daha lezzetli olur ve sulanmaz.",
+  "tr": "Kesinlikle sağlam, hafif bayat bir köy ekmeği seçin; çünkü domates posasını ve yağı tutar, ama lapa lapa olmaz.",
   "en": "Choose a sturdy, slightly stale country loaf, since it holds the tomato pulp and oil without becoming soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip describes a different tip than the English one: it advises drizzling oil on the bread before rubbing the tomato, while the English tip advises choosing a sturdy, slightly stale country"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

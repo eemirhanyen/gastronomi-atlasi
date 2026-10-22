@@ -9,7 +9,7 @@
   "en": "A deep red drink made by steeping dried sorrel calyces with cinnamon, cloves and ginger. In Antigua and Barbuda it is traditionally served at Christmas and New Year gatherings, and often offered to guests in the home."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Daha koyu renk ve yoğun tat için karışımı tercihen bir gece boyunca buzdolabında demlendirin; servis öncesi şekeri tadınıza göre ayarlayın.",
   "en": "For a deeper colour and stronger flavour, let the mixture steep overnight in the fridge before straining, and adjust the sugar to taste just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps alone take longer: the 1-hour steep, roughly 15 minutes to heat the water, the 10-minute simmer, and straining. The total should be about 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

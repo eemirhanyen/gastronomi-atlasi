@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Hanîz (Hanith) - Yemen usulü fırında kuzu",
+  "tr": "Hanîz (Haneeth) - Yemen usulü fırında kuzu",
   "en": "Haneeth - Yemeni slow-roasted spiced lamb"
  },
  "native": "هنيذ",
@@ -9,7 +9,7 @@
   "en": "A festive and guest-table dish from the highlands of Yemen, where lamb is rubbed with warm spices and cooked very slowly until it falls off the bone. Traditionally it is cooked in a pit oven; this home version reproduces the result in a regular oven."
  },
  "servings": 4,
- "time_min": 200,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -73,5 +73,14 @@
   "tr": "Kemikli omuz eti kullanın; kemik ve yağ pişerken etin suyunu koruyup haneeth'e karakteristik yumuşaklığı verir.",
   "en": "Use bone-in shoulder rather than boneless meat; the bone and marrow keep the meat moist and give the cooking juices their rich body."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (200) is too short for the steps: about 1 hour of resting, roughly 2.5-3 hours of oven cooking, plus searing and prep add up to about 4 hours.",
+   "The Turkish title's transliteration ('Hanîz (Hanith)') does not match the English title ('Haneeth'). Aligned it to the English spelling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

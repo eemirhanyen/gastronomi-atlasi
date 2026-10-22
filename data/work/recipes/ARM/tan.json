@@ -9,7 +9,7 @@
   "en": "A salted, herb-scented yogurt drink served across Armenia and the wider Caucasus, usually alongside meals and especially in hot weather for its refreshing quality."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 45,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -33,16 +33,18 @@
   "tr": [
    "Yoğurdu geniş bir kaseye alın ve pürüzsüz, kıvamlı bir hale gelene kadar çırpın.",
    "Soğuk suyu azar azar ekleyerek çırpmaya devam edin; karışım süt kıvamına gelmelidir.",
-   "Tuzu ekleyip iyice karıştırın ve tadına bakın.",
+   "Tuzu ekleyip iyice karıştırın.",
    "Kaseyi kapatıp 30 dakika buzdolabında soğutun.",
+   "Soğuyan tanın tadına bakın ve gerekirse tuzu ayarlayın.",
    "Servis öncesinde doğranmış taze nane ve dereotunu karışıma ekleyip hafifçe karıştırın.",
    "Bardaklara buz küplerini koyun, üzerine tanı dökerek hemen servis edin."
   ],
   "en": [
    "Put the yogurt in a large bowl and whisk until smooth and creamy.",
    "Gradually add the cold water while continuing to whisk; the mixture should reach a thin, milky consistency.",
-   "Add the salt, stir well and taste.",
+   "Add the salt and stir well.",
    "Cover the bowl and chill in the refrigerator for 30 minutes.",
+   "Taste the chilled tan and adjust the salt if needed.",
    "Just before serving, stir in the finely chopped fresh mint and dill.",
    "Place the ice cubes in glasses, pour the tan over them and serve immediately."
   ]
@@ -51,5 +53,15 @@
   "tr": "Tanın tadı dengeli olsun diye tuzu soğuk halde ayarlayın; yoğurt soğukken tuz daha az hissedilir.",
   "en": "Adjust the salt when the drink is cold, since chilled yogurt tastes less salty and you will avoid over-seasoning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Total time_min (15) does not match the steps, which include a 30-minute chilling step (total about 45 minutes), in both languages.",
+   "The tip says to adjust salt when the drink is cold, but the steps taste and adjust salt before chilling, so the instruction contradicts the method. Tasting should move to after chilling.",
+   "Turkish and English versions are otherwise consistent in amounts, ingredients and steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

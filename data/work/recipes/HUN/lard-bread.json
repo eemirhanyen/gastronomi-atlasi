@@ -18,7 +18,7 @@
    "2 diş sarımsak",
    "1/2 çay kaşığı tuz",
    "1 çay kaşığı tatlı kırmızı biber",
-   "50 g töpörtyű (kavrulmuş domuz yağı kıtırı), ufalanmış",
+   "50 g töpörtyü (kavrulmuş domuz yağı kıtırı), ufalanmış",
    "1 küçük kırmızı soğan, ince dilimlenmiş",
    "1 domates, dilimlenmiş",
    "1 yeşil dolmalık biber, dilimlenmiş"
@@ -42,7 +42,7 @@
    "Sarımsakları soyun, tuzla birlikte bıçakla ezerek macun kıvamına getirin.",
    "Yumuşatılmış domuz yağını sarımsak macunuyla iyice karıştırın.",
    "Ekmek dilimlerinin bir yüzüne sarımsaklı domuz yağını cömertçe yayın.",
-   "Yağlı yüzeylerin üzerine tatlı kırmızı biberi serpin ve ufalanmış töpörtyűyü dağıtın.",
+   "Yağlı yüzeylerin üzerine tatlı kırmızı biberi serpin ve ufalanmış töpörtyüyü dağıtın.",
    "Dilimleri fırın tepsisine dizin ve yağ hafifçe eriyene ve ekmek ısınana kadar yaklaşık 5 dakika fırınlayın.",
    "Kırmızı soğan, domates ve yeşil biber dilimleriyle sıcak sıcak servis yapın."
   ],
@@ -61,5 +61,13 @@
   "tr": "Domuz yağını buzdolabından çıkarıp birkaç saat oda sıcaklığında bekletirseniz kolayca yayılır ve ekmeğe daha eşit dağılır.",
   "en": "Leave the lard out for a few hours before using so it spreads easily and coats the bread evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish text uses the Hungarian letter 'ű' in 'töpörtyű' and 'töpörtyűyü'. Turkish has no 'ű', so the word should be adapted as 'töpörtyü' and 'töpörtyüyü' in the Turkish version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

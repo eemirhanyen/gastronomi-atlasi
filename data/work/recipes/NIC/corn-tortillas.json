@@ -29,12 +29,12 @@
  },
  "steps": {
   "tr": [
-   "Mısırı soğuk suyla iki üç kez durulayıp kirli taneleri ayıklayın.",
+   "Mısırı soğuk suyla iki üç kez durulayıp kirli veya zedelenmiş taneleri ayıklayın.",
    "Büyük bir tencerede 1,5 L suyu kaynatın, ateşi kısın ve cal'i ekleyip tamamen eriyene kadar karıştırın.",
    "Mısırı tencereye ekleyin ve orta-düşük ateşte, ara sıra karıştırarak yaklaşık 45 dakika, kabuklar gevşeyene kadar pişirin.",
    "Ocağı kapatın, tencereyi kapatıp mısırı oda sıcaklığında gece boyunca (yaklaşık 12 saat) bekletin.",
    "Ertesi gün mısırı süzün. Elinizle ovuşturarak kabukları çıkarın ve su berraklaşana kadar en az üç kez durulayın.",
-   "Mısırı öğütücüde ya da mutfak robotunda, gerektiği kadar az az ılık su ekleyerek pürüzsüz ve dağılmayan bir hamur haline gelene kadar çekin. Tuzu ekleyip iyice yoğurun.",
+   "Mısırı öğütücüde ya da mutfak robotunda, gerektiği kadar azar azar ılık su ekleyerek pürüzsüz ve dağılmayan bir hamur haline gelene kadar çekin. Tuzu ekleyip iyice yoğurun.",
    "Hamuru örtüp 15 dakika dinlendirin. Gerekirse birkaç damla daha su ekleyerek kıvamı ayarlayın; çatlamamalı ama yapışmamalıdır.",
    "Hamuru 12 eşit topa (yaklaşık 40 g) bölün. Her topu iki plastik poşet arasında tortilla presiyle ya da düz bir tabanla yaklaşık 12 cm çapında, 2-3 mm kalınlığında açın.",
    "Yapışmaz bir sacı ya da dökme demir tavayı orta-yüksek ateşte, yaklaşık 200-230 °C'ye ısıtın. Tortillaları kuru sacda her yüzü yaklaşık 1 dakika pişirin, ardından hafifçe kabarıp kenarları kıvrılana kadar 30 saniye daha pişirin.",
@@ -57,5 +57,14 @@
   "tr": "Kireç yerine pratiklik için masa harina (nikstamal edilmiş mısır unu) kullanabilirsiniz; bu durumda 250 g unu 200 ml ılık suyla yoğurup hamuru doğrudan açabilirsiniz.",
   "en": "For a quicker version, use masa harina (nixtamal corn flour): knead 250 g with about 200 ml warm water and shape directly, skipping the lime and overnight soaking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"kirli taneleri ayıklayın\" (remove dirty kernels), but English says \"remove any damaged kernels\". The two versions disagree.",
+   "Turkish step 6 uses \"gerektiği kadar az az ılık su\", which is unnatural. \"Azar azar\" is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

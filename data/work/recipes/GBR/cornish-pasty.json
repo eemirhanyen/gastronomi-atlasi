@@ -42,10 +42,10 @@
  "steps": {
   "tr": [
    "Unu ve tuzu geniş bir kaseye alın. Soğuk tereyağını parmak uçlarınızla un karışımına ovalayarak galeta unu kıvamına getirin.",
-   "Soğuk suyu azar azar ekleyip yumuşak ama dağılmayan bir hamur yoğurun. Streç film ile sarıp buzdolabında 30 dakika dinlendirin.",
+   "Soğuk suyu azar azar ekleyip yumuşak ama yapışmayan bir hamur yoğurun. Streç film ile sarıp buzdolabında 30 dakika dinlendirin.",
    "Dana eti, patates, şalgam ve soğanı hazırlayıp büyük bir kasede karıştırın. Dolguya 1 çay kaşığı tuz ve karabiberi ekleyip iyice harmanlayın.",
    "Fırını 190°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
-   "Hamuru 4 eşit parçaya bölün. Her birini unlu tezgâhta yaklaşık 3 mm kalınlığında, 20 cm çapında bir daire halinde açın.",
+   "Hamuru 4 eşit parçaya bölün. Her birini unlu tezgâhta yaklaşık 3 mm kalınlığında, 25 cm çapında bir daire halinde açın.",
    "Her hamur dairesinin bir yarısının ortasına dolgudan 1/4 oranında koyun. Kenarlarında 1-2 cm boşluk bırakın.",
    "Hamurun kenarlarını hafifçe suyla nemlendirin, diğer yarısını üzerine katlayıp kenarları sıkıca birleştirin. Üst kenarı kıvırarak, yani her 1 cm'de bir parmaklarınızla kıvırarak kapatın.",
    "Pastiyleri pişirme kağıdı serili tepsiye yerleştirin. Üzerlerine çırpılmış yumurtayı sürün ve üst kısma küçük bir havalandırma deliği açın.",
@@ -57,7 +57,7 @@
    "Gradually add the cold water and mix to a soft but not sticky dough. Wrap in cling film and chill for 30 minutes.",
    "Prepare the beef, potato, swede and onion, then combine them in a large bowl. Season the filling with 1 tsp salt and the black pepper and mix well.",
    "Preheat the oven to 190°C and line a baking tray with baking paper.",
-   "Divide the pastry into 4 equal pieces. On a floured surface, roll each into a 20 cm circle about 3 mm thick.",
+   "Divide the pastry into 4 equal pieces. On a floured surface, roll each into a 25 cm circle about 3 mm thick.",
    "Spoon a quarter of the filling onto one half of each circle, leaving a 1-2 cm border.",
    "Brush the edges lightly with water, fold the empty half over the filling and press the edges firmly together. Crimp the top edge by pinching it into a rope pattern.",
    "Place the pasties on the lined tray, brush them with beaten egg and cut a small vent in the top.",
@@ -69,5 +69,14 @@
   "tr": "Hamuru kenardan kıvırırken kenarları iyice bastırın; pişerken dolgunun dışarı sızmasını önler. Geleneksel olarak pasti sıcak servis edilir ama soğuk da çok lezzetlidir.",
   "en": "Press the edges firmly and crimp them in a thick rope pattern so the filling does not leak during baking. Traditionally the pasty is eaten warm, but it is also excellent cold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the dough should be 'dağılmayan' (not crumbling), but the English says 'not sticky'. The correct Turkish is 'yapışmayan'.",
+   "Dough quantity doesn't match the rolled size. 750 g of dough divided into 4 is about 185 g per pasty, but a 20 cm circle at 3 mm uses only about 100 g. A 25 cm circle is closer to the dough weight and"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

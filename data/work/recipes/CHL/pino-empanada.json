@@ -22,11 +22,11 @@
    "15 ml sıvı yağ",
    "1 tatlı kaşığı (2 g) tatlı kırmızı biber",
    "1 tatlı kaşığı (2 g) kimyon",
-   "1/2 tatlı kaşığı (1 g) kurutulmuş kekik veya kekik benzeri kurutulmuş kekik",
+   "1/2 tatlı kaşığı (1 g) kurutulmuş mercanköşk (oregano)",
    "100 ml dana suyu",
    "50 g kuru üzüm",
    "50 g çekirdeksiz siyah zeytin",
-   "1 haşlanmış yumurta, dilimlenmiş",
+   "2 haşlanmış yumurta, dilimlenmiş",
    "1 yumurta, çırpılmış (üzeri için)",
    "Tuz ve karabiber"
   ],
@@ -44,7 +44,7 @@
    "100 ml beef broth",
    "50 g raisins",
    "50 g pitted black olives",
-   "1 hard-boiled egg, sliced",
+   "2 hard-boiled eggs, sliced",
    "1 egg, beaten (for glazing)",
    "Salt and black pepper"
   ]
@@ -53,9 +53,9 @@
   "tr": [
    "Büyük bir kapta unu ve tuzu karıştırın. Soğuk tereyağı veya domuz yağını parmak uçlarınızla unun içine ufalayarak karışana kadar yedirin.",
    "Ilık suyu azar azar ekleyip yumuşak, pürüzsüz bir hamur yoğurun. Üzerini örtüp buzdolabında 30 dakika dinlendirin.",
-   "Kuru üzümleri ılık suda 10 dakika bekletip süzün. Zeytinleri ikiye bölün ve yumurtayı dilimleyin.",
+   "Kuru üzümleri ılık suda 10 dakika bekletip süzün. Zeytinleri ikiye bölün ve yumurtaları dilimleyin.",
    "Geniş bir tavada sıvı yağı orta ateşte ısıtın. Soğanı yumuşayana ve şeffaflaşana kadar yaklaşık 6 dakika kavurun.",
-   "Kıymayı ekleyip rengi değişene kadar, kaşık yardımıyla parçalayarak pişirin. Tatlı kırmızı biber, kimyon, kekik, tuz ve karabiberi ekleyin.",
+   "Kıymayı ekleyip rengi değişene kadar, kaşık yardımıyla parçalayarak pişirin. Tatlı kırmızı biber, kimyon, mercanköşk, tuz ve karabiberi ekleyin.",
    "Dana suyunu dökün ve sıvı neredeyse çekilene kadar kısık ateşte yaklaşık 10 dakika pişirin. Karışımı tamamen soğumaya bırakın.",
    "Hamuru hafif unlanmış yüzeyde yaklaşık 3 mm kalınlığında açın. 14 cm çapında 8 daire kesin.",
    "Her dairenin bir yarısına 1 kaşık dolgu koyun. Üzerine kuru üzüm, zeytin ve yumurta dilimi yerleştirin.",
@@ -66,7 +66,7 @@
   "en": [
    "In a large bowl, mix the flour and salt. Rub in the cold butter or lard with your fingertips until the mixture looks like coarse crumbs.",
    "Gradually add the warm water and knead into a smooth, soft dough. Cover and refrigerate for 30 minutes.",
-   "Soak the raisins in warm water for 10 minutes, then drain. Halve the olives and slice the hard-boiled egg.",
+   "Soak the raisins in warm water for 10 minutes, then drain. Halve the olives and slice the hard-boiled eggs.",
    "Heat the vegetable oil in a wide pan over medium heat. Sauté the onion for about 6 minutes until soft and translucent.",
    "Add the ground beef and cook, breaking it up with a spoon, until no pink remains. Stir in the sweet paprika, cumin, oregano, salt and black pepper.",
    "Pour in the beef broth and simmer gently for about 10 minutes until most of the liquid has evaporated. Let the filling cool completely.",
@@ -80,5 +80,15 @@
   "tr": "Dolgunun iyi soğumuş olması, hamurun yırtılmadan kapanmasını sağlar. Hamur yumuşak kalırsa 10 dakika buzdolabında dinlendirin.",
   "en": "Make sure the filling is completely cool before assembling, or the dough will tear and may leak. If the dough becomes sticky while shaping, chill it for 10 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English disagree on the herb: Turkish says 'kekik' (thyme) while English says 'dried oregano'. Traditional pino uses oregano, so the Turkish should name oregano (mercanköşk) and the awkwar",
+   "Only 1 hard-boiled egg is listed for 8 empanadas, but each one gets an egg slice, which one egg cannot supply.",
+   "Turkish step 3 says 'yumurtayı dilimleyin' (singular), which should match the corrected quantity."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

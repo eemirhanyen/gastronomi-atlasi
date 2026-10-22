@@ -9,7 +9,7 @@
   "en": "A olive oil and tomato based dried white bean soup, eaten year round in Greek homes and especially during Lent, traditionally served with bread."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,13 @@
   "tr": "Çorbanın kıvamını artırmak için pişmiş fasulyelerin birkaçını kepçenin arkasıyla ezip tencereye geri karıştırın.",
   "en": "For a thicker broth, mash a few cooked beans against the side of the pot with a ladle and stir them back in."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is lower than the steps add up to: 30 min simmer + ~10 min sauté + ~5 min tomato cooking + 60-75 min final simmer is about 105-120 min before counting heat-up and resting time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

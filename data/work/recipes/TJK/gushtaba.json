@@ -9,7 +9,7 @@
   "en": "A traditional Tajik dish of spiced minced-meat and rice meatballs simmered in a vegetable broth, finished with garlic yogurt and fresh herbs. It is served hot, especially at family gatherings, holidays and when hosting guests."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -59,7 +59,7 @@
    "Ellerinizi hafifçe ıslatın ve karışımdan cevizden biraz büyük, yaklaşık 20 gramlık yaklaşık 24 köfte yuvarlayın.",
    "Geniş ve kalın tabanlı bir tencerede yağı orta ateşte ısıtın. Dilimlenmiş soğanı altın rengi alana kadar yaklaşık 6-7 dakika kavurun.",
    "Domates salçasını ekleyip 1 dakika karıştırarak kavurun. Suyu ilave edin, defne yaprağını atın ve kaynamaya bırakın.",
-   "Köfteleri dikkatlice suyun içine yerleştirin, tekrar kaynamaya başlayınca köSt üstünde oluşan köpüğü alın. Ateşi kısın, kapağını kapatıp 15 dakika pişirin.",
+   "Köfteleri dikkatlice suyun içine yerleştirin, tekrar kaynamaya başlayınca suyun üstünde oluşan köpüğü alın. Ateşi kısın, kapağını kapatıp 15 dakika pişirin.",
    "Havuç ve patatesleri ekleyin, kapağı kapalı şekilde 20-25 dakika daha pişirin. Sebzeler ve pirinç yumuşayınca tuzunu kontrol edip gerekirse tamamlayın.",
    "Bu sırada sarımsakları bir tutam tuzla ezin, yoğurtla iyice karıştırarak servis kabına alın. Dereotu ve kişnişi ayrıca doğrayın.",
    "Çorbayı derin kaselere paylaştırın, her porsiyonun üzerine sarımsaklı yoğurdu ve doğranmış otları ekleyerek sıcak servis yapın."
@@ -69,7 +69,7 @@
    "Wet your hands lightly and roll the mixture into about 24 balls, each roughly 20 g, slightly larger than a walnut.",
    "Heat the oil in a large, heavy-bottomed pot over medium heat. Fry the sliced onion for 6-7 minutes until golden.",
    "Stir in the tomato paste and fry for 1 minute. Pour in the water, add the bay leaf and bring to a boil.",
-   "Carefully lower the meatballs into the boiling water. When it returns to a boil, skim off the foam, reduce the heat, cover and simmer for 15 minutes.",
+   "Carefully lower the meatballs into the boiling water. When the water returns to a boil, skim off the foam, reduce the heat, cover and simmer for 15 minutes.",
    "Add the carrots and potatoes, cover and simmer for another 20-25 minutes until the vegetables are tender and the rice is cooked. Taste and adjust the salt.",
    "Meanwhile, crush the garlic with a pinch of salt and stir it into the yogurt in a serving bowl. Chop the dill and cilantro separately.",
    "Divide the soup among deep bowls. Top each portion with a spoonful of garlic yogurt and the chopped dill and cilantro, then serve hot."
@@ -79,5 +79,14 @@
   "tr": "Köfteleri pişirmeden önce 15 dakika dinlendirmek pirincin ve etin birbirine daha iyi bağlanmasını sağlar; tencereyi kaynarken karıştırmayın ki köfteler dağılmasın.",
   "en": "Letting the meat mixture rest for 15 minutes helps the rice and meat bind together, and avoid stirring once the meatballs are in so they stay intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 contains a garbled word \"köSt\" (should be \"suyun\"), which makes the sentence unclear.",
+   "time_min is 60, but the recipe includes a 15-minute rest, about 7 minutes of onion frying, about 15 minutes of simmering, and 20-25 minutes more of cooking, so the realistic total is closer to 75 minu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

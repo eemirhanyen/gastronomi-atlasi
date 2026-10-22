@@ -32,6 +32,7 @@
    "1 yemek kaşığı limon suyu",
    "2 yemek kaşığı doğranmış kişniş",
    "2 yemek kaşığı sıvı yağ (iç harç için)",
+   "2 yemek kaşığı su (iç harç için)",
    "Servis için mango chutney"
   ],
   "en": [
@@ -54,6 +55,7 @@
    "1 tbsp lemon juice",
    "2 tbsp chopped fresh coriander",
    "2 tbsp vegetable oil (for the filling)",
+   "2 tbsp water (for the filling)",
    "mango chutney to serve"
   ]
  },
@@ -89,5 +91,13 @@
   "tr": "Hamuru ince açarken üzerini nemli bir bezle örtük tutun ki kurumasın; iç harcın tamamen soğuk olması, hamurun yırtılmasını önler.",
   "en": "Keep the dough covered with a damp cloth while you work so it does not dry out, and make sure the filling is completely cool before you fill the pastry so it does not tear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (both Turkish and English) adds 2 tablespoons of water to the filling, but water is missing from the ingredient list in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

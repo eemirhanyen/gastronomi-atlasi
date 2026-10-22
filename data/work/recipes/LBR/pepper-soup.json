@@ -19,7 +19,7 @@
    "20 g taze zencefil, dilimlenmiş",
    "2 adet scotch bonnet biber (acılığa göre ayarlayın)",
    "2 olgun domates (yaklaşık 300 g)",
-   "1 tatlı kaşığı öğütülmüş grains of paradise (Afrika cenneti biberi)",
+   "1 tatlı kaşığı öğütülmüş cennet biberi (grains of paradise)",
    "1/2 tatlı kaşığı öğütülmüş hindistan cevizi (kalabaş cevizi yerine)",
    "1 adet tavuk suyu küpü",
    "1,2 l su",
@@ -48,7 +48,7 @@
    "Tavuk parçalarını soğuk suyla yıkayıp kurulayın. Yarım soğan, 2 diş sarımsak, 10 g zencefil ve 1 tatlı kaşığı tuzla birlikte 1 litre suda orta ateşte kaynatın.",
    "Kaynayan suyun üstündeki köpüğü alın ve tavuk yumuşayana kadar yaklaşık 20 dakika pişirin.",
    "Diğer soğanı, kalan 2 diş sarımsağı, kalan 10 g zencefili, biberleri ve domatesleri blender'da pürüzsüz bir karışım elde edene kadar çekin.",
-   "Blender karışımını tencereye ekleyin. Öğütülmüş grains of paradise ve hindistan cevizini de ilave edip karıştırın.",
+   "Blender karışımını tencereye ekleyin. Öğütülmüş cennet biberi ve hindistan cevizini de ilave edip karıştırın.",
    "Kalan 200 ml suda tavuk suyu küpünü eritip tencereye dökün.",
    "Kısık ateşte 15 dakika daha pişirin. Çorbanın kıvamı hafifçe yoğunlaşmalı ve aroması iyice oturmalıdır.",
    "Tuzunu kontrol edin, gerekirse ekleyin. Ocaktan almadan önce limon suyunu ekleyip karıştırın.",
@@ -69,5 +69,13 @@
   "tr": "Grains of paradise, Liberya pepper soup'una özgü aromayı veren baharattır; bulamazsanız karabiberle yetinmek yerine küçük miktarda kişniş tohumu ve kara biber karışımı kullanabilirsiniz, ama tat farklı olacaktır.",
   "en": "Grains of paradise give this soup its characteristic aroma; look for them in African or specialty spice shops. If you cannot find them, use a little black pepper with crushed coriander seed, though the flavour will differ."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step text contains untranslated English (\"grains of paradise\"), which is unnatural Turkish. Turkish should use \"cennet biberi\" with the English name in parentheses."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

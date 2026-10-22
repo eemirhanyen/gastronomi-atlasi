@@ -41,8 +41,8 @@
    "Süzülmüş pirinci tencereye alın ve taneler yağla kaplanıp parlayana kadar 2 dakika karıştırarak kavurun.",
    "Hindistan cevizi sütünü, suyu, defne yaprağını ve tuzu ekleyin. Karışımı karıştırıp kaynatın.",
    "Ateşi en kısık seviyeye indirin, kapağı tam kapatın ve yaklaşık 18 dakika pişirin. Pişirme sırasında karıştırmayın.",
-   "Ocağı kapatın ve kapağı kapalı halde pirinç suyunu tamamen çekene kadar yaklaşık 10 dakika dinlendirin.",
-   "Defne yaprağını çıkarın, pirinci bir çatalla kabartıp servis yapın."
+   "Ocağı kapatın ve kapağı kapalı halde tüm sıvı emilene kadar yaklaşık 10 dakika dinlendirin.",
+   "Defne yaprağını çıkarın, pirinci bir çatalla hafifçe gevşetip servis yapın."
   ],
   "en": [
    "Rinse the rice in cold water 3 or 4 times until the water runs fairly clear, then drain.",
@@ -59,5 +59,14 @@
   "tr": "Kapağın sıkı oturduğundan emin olun; buhar kaçarsa pirinç kuru kalır ve altı yanabilir. Hindistan cevizi sütü ayrıca kalın olduğu için sıvıyı tam bu oranda tutmak önemlidir.",
   "en": "Use a lid that fits tightly; escaping steam leaves the rice dry on top and can scorch the base. Keep the lid on throughout cooking and avoid stirring, which breaks the grains and makes them sticky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"pirinç suyunu\" (rice water, meaning the starchy cooking water), which is misleading here. The English means the liquid in the pot, so it should be \"sıvıyı\".",
+   "Turkish step 8 uses \"kabartıp\" (to make rise or puff) for fluffing rice, which is unnatural. \"Gevşetip\" (loosen) is the usual term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

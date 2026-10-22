@@ -9,7 +9,7 @@
   "en": "A bright red drink made by steeping dried hibiscus calyces with ginger and spices, traditionally prepared in homes across Trinidad and Tobago during the Christmas and Easter seasons. It is served chilled over ice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 570,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -18,7 +18,7 @@
    "2 adet tarçın çubuğu",
    "6 adet karanfil",
    "1 adet portakalın kabuğu (sadece turuncu kısım)",
-   "1,5 L kaynamış su",
+   "1,5 L kaynar su",
    "150 g toz şeker (tadına göre ayarlayın)",
    "60 ml rom (isteğe bağlı)",
    "Servis için buz"
@@ -39,7 +39,7 @@
   "tr": [
    "Kurutulmuş sorrel'i soğuk suyla çalkalayıp süzgeçte iyice süzün.",
    "Sorrel, zencefil dilimleri, tarçın çubukları, karanfiller ve portakal kabuğunu ısıya dayanıklı büyük bir kaseye veya kavanoza koyun.",
-   "Kaynamış 1,5 L suyu üzerine dökün, ağzını örtün ve oda sıcaklığında (yaklaşık 20-25 °C) en az 8 saat, tercihen bir gece boyunca demlenmeye bırakın.",
+   "Kaynar 1,5 L suyu üzerine dökün, ağzını örtün ve oda sıcaklığında (yaklaşık 20-25 °C) en az 8 saat, tercihen bir gece boyunca demlenmeye bırakın.",
    "Demlenen karışımı ince bir süzgeçten veya bez elekten geçirerek katıları ayırın.",
    "Şekeri ekleyip karıştırarak tamamen eriyene kadar bekleyin. Tadına bakıp gerekirse daha fazla şeker ekleyin.",
    "İsteğe bağlı olarak romu ekleyip karıştırın.",
@@ -61,5 +61,14 @@
   "tr": "Demlenme süresi uzadıkça renk ve aroma yoğunlaşır; ancak şekeri süzdükten sonra ekleyin, böylece tadı daha dengeli olur.",
   "en": "The longer it steeps, the deeper the colour and flavour; add the sugar after straining so you can balance the sweetness properly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not reflect the process: the recipe requires at least 8 hours of steeping plus at least 1 hour of chilling, so the total is roughly 9.5 hours.",
+   "Turkish 'kaynamış su' is awkward; 'kaynar su' is the natural term for boiling water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

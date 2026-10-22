@@ -34,7 +34,7 @@
  "steps": {
   "tr": [
    "Geniş ve kalın tabanlı bir tencereye suyu ve tuzu koyun, orta-yüksek ateşte kaynatın.",
-   "Ateşi kısın ve mısırununu azar azar, sürekli karıştırarak kaynayan suya serpin. Topaklanmayı önlemek için ahşap kaşık kullanın.",
+   "Ateşi kısın ve mısır unu azar azar, sürekli karıştırarak kaynayan suya serpin. Topaklanmayı önlemek için ahşap kaşık kullanın.",
    "Ateşi orta-düşük seviyeye getirin ve karışımı arada karıştırarak yaklaşık 15 dakika pişirin. Kıvam kalın ama yumuşak olmalı; gerekirse biraz sıcak su ekleyin.",
    "Ocağı kapatın ve tereyağını ekleyip iyice karıştırarak eritin.",
    "Pişirme için ayrılan 200 ml ekşi kremayı ekleyin ve hızlıca karıştırın. Krema kaynamasın diye ateşi kapalı ya da çok düşük tutun.",
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Mısır unu tencereye yavaş yavaş serpilmezse topaklanır; kaynayan suya ağır ağır eklemek ve sürekli karıştırmak en iyi sonucu verir.",
+  "tr": "Mısır unu tencereye yavaş yavaş serpilmezse topaklanır; kaynayan suya ağır ağır eklemek ve sürekli karıştırmak en iyi sonucu verir. Yine de topaklar oluşursa ocaktan alıp lapayı bir çırpıcıyla hızlıca çırparak pürüzsüzleştirin.",
   "en": "Add the cornmeal slowly and keep stirring; if lumps form, beat the porridge briskly with a whisk off the heat until smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the English tip's remedy for lumps (whisk briskly off the heat until smooth), so the two versions disagree",
+   "Turkish step 2 has a typo: 'mısırununu' should be 'mısır ununu'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -29,9 +29,8 @@
   "tr": [
    "Demlik olarak kullanacağınız bir çaydanlığı ve dört bardağı sıcak suyla çalkalayın.",
    "Yeşil çayı çaydanlığa koyun, yarım bardak kaynar suyla hızlıca çalkalayıp bu suyu dökün. Bu, çayın acılığını alır.",
-   "Kalan 750 ml suyu kaynatın, üzerine şekeri ekleyip karıştırarak eritin.",
-   "Taze naneyi yıkayıp kabaca doğrayın ve çaydanlığa ekleyin.",
-   "Çaydanlığa kaynayan şekerli suyu dökün ve kapağını kapatıp yaklaşık 5 dakika demlenmeye bırakın.",
+   "750 ml suyu kaynatın, üzerine şekeri ekleyip karıştırarak eritin.",
+   "Çaydanlığa kaynayan şekerli suyu dökün, taze naneyi yıkayıp kabaca doğrayarak ekleyin, kapağını kapatıp yaklaşık 5 dakika demlenmeye bırakın.",
    "Bardakları doldurmak için çayı yüksekten, bardaklara köpük oluşana kadar dökün. Bunun için çaydanlığı bardağın üzerinden kaldırın.",
    "Çayı tekrar çaydanlığa boşaltıp karıştırın ve tadına bakın; gerekirse biraz daha şeker ekleyin.",
    "Köpüklü çayı küçük bardaklarda, nane yapraklarıyla birlikte sıcak olarak servis edin."
@@ -39,9 +38,8 @@
   "en": [
    "Rinse a teapot and four glasses with hot water.",
    "Place the green tea in the teapot, add a half glass of boiling water, swirl quickly and pour that water away. This removes the bitterness.",
-   "Boil the remaining 750 ml of water, add the sugar and stir until dissolved.",
-   "Rinse the fresh mint, roughly chop it and add it to the teapot.",
-   "Pour the boiling sugar water over the tea and mint, cover and let it steep for about 5 minutes.",
+   "Boil 750 ml of water, add the sugar and stir until dissolved.",
+   "Pour the boiling sugar water over the tea, rinse the fresh mint, roughly chop it and add it to the teapot, then cover and let it steep for about 5 minutes.",
    "To fill the glasses, pour the tea from a height so a foam forms, lifting the pot well above the glass.",
    "Pour the tea back into the pot and stir, then taste it and add a little more sugar if needed.",
    "Serve the foamy tea hot in small glasses, with the mint leaves."
@@ -51,5 +49,14 @@
   "tr": "Naneyi demlemeye en başta değil, suyu döktükten sonra ekleyin; böylece tazeliğini korur ve çayın acı tat yapmasını önlersiniz.",
   "en": "Add the mint after pouring the water, not at the start, to keep it fresh and avoid a bitter taste from over-steeping."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Mint is added to the teapot in step 4, before the boiling sugar water is poured in step 5. This contradicts the tip, which says to add the mint after pouring the water. The Turkish and English steps h",
+   "Step 2 uses about half a glass of boiling water to rinse the tea, but step 3 says to boil the 'remaining' 750 ml. The word 'kalan' implies the rinse water came out of the 750 ml, which the ingredient "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

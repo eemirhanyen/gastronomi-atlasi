@@ -45,9 +45,9 @@
   "tr": [
    "Büyük bir kapta domuz kıymasını, rendelenmiş havucu, ince doğranmış soğanı, ezilmiş sarımsağı, yumurtayı, soya sosunu, tuzu ve karabiberi iyice yoğurun.",
    "Un ve suyu karıştırarak yapıştırıcı hamuru hazırlayın.",
-   "Bir spring roll hamurunu tezgâha köşesi size bakacak şekilde koyun. Ortasına yaklaşık 2 yemek kaşığı iç harcı yerleştirin ve kenarlara kadar sıkıca bir kalas gibi yuvarlayın.",
+   "Bir spring roll hamurunu tezgâha köşesi size bakacak şekilde koyun. Ortasına yaklaşık 2 yemek kaşığı iç harcı yerleştirin ve kenarlara kadar sıkıca bir kütük gibi yuvarlayın.",
    "Sağ ve sol kenarları içe doğru katlayın, sonra alt kenardan başlayarak sıkıca sarın. Üst köşeye yapıştırıcı sürerek kapatın. Kalan hamur ve iç harçla aynı işlemi tekrarlayın.",
-   "Derin bir tavada yağı 170°C'ye kadar ısıtın. Ruloları partiler halinde 3-4 dakika, altın sarısı ve çıtır olana kadar kızartın.",
+   "Derin bir tavada yağı 170°C'ye kadar ısıtın. Ruloları partiler halinde 4-5 dakika, altın sarısı ve çıtır olana ve iç harç tamamen pişene kadar kızartın.",
    "Ruloları kağıt havlu serili bir tabağa alıp fazla yağlarını süzün.",
    "Tatlı chili sosunu küçük kaselerde servis edin ve ruloları sıcak sıcak sunun."
   ],
@@ -56,7 +56,7 @@
    "Stir the flour and water together to make the sealing paste.",
    "Place one spring roll wrapper with a corner facing you. Spoon about 2 tbsp of filling near the centre and roll it up firmly, tucking in the sides as you go, like a log.",
    "Fold the left and right edges inward, then roll tightly from the bottom. Brush the top corner with the sealing paste to close. Repeat with the remaining wrappers and filling.",
-   "Heat the oil in a deep pan to 170°C. Fry the rolls in batches for 3-4 minutes, until golden brown and crisp.",
+   "Heat the oil in a deep pan to 170°C. Fry the rolls in batches for 4-5 minutes, until golden brown, crisp and the filling is cooked through.",
    "Transfer the rolls to a plate lined with kitchen paper to drain excess oil.",
    "Serve the rolls hot with sweet chili sauce in small bowls for dipping."
   ]
@@ -65,5 +65,14 @@
   "tr": "Kızartmadan önce ruloları kısa süre buzdolabında dinlendirirseniz hamur daha az yağ çeker ve daha çıtır olur.",
   "en": "Refrigerate the rolled wrappers for 10 minutes before frying so they hold their shape and absorb less oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 3-4 minutes at 170°C may not cook the raw pork filling through in the centre of the rolls, which is a food safety risk. The fix is to fry for 4-5 minutes and until the filling is cooked",
+   "Turkish step 3 phrase 'bir kalas gibi' is an unnatural image for a spring roll; 'kütük gibi' is the natural equivalent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

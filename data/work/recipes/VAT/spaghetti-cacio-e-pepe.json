@@ -18,7 +18,7 @@
    "8 g iri çekilmiş taze karabiber (yaklaşık 1 yemek kaşığı)",
    "10 g tuz (makarna suyu için)",
    "4 l su",
-   "250 ml makarna suyu, pişirme sırasında ayrılmış"
+   "250 ml makarna suyu, pişirme sırasında ayrılmış (bunun 60 ml'si peynir macunu için kullanılır)"
   ],
   "en": [
    "400 g spaghetti",
@@ -26,28 +26,28 @@
    "8 g coarsely cracked fresh black pepper (about 1 tablespoon)",
    "10 g salt (for the pasta water)",
    "4 l water",
-   "250 ml pasta cooking water, reserved while cooking"
+   "250 ml pasta cooking water, reserved while cooking (60 ml of it is used for the cheese paste)"
   ]
  },
  "steps": {
   "tr": [
    "Büyük bir tencerede 4 litre suyu kaynatın ve 10 g tuzu ekleyin.",
-   "Çekilmiş karabiberi kuru bir tavada orta ateşte yaklaşık 1 dakika kavurun; aroması çıkınca ocaktan kısık ateşe alın.",
-   "Pecorino Romano peynirini kaseye alın. Üzerine 60 ml sıcak makarna suyu ekleyip pürüzsüz bir macun elde edene kadar çırpın.",
+   "Çekilmiş karabiberi kuru bir tavada orta ateşte yaklaşık 1 dakika, aroması çıkana kadar kavurun; ardından ateşi kısın.",
    "Spagettiyi kaynayan suya atın ve paket üzerindeki süreden 1 dakika kısa haşlayın.",
    "Makarnayı süzmeden önce 250 ml makarna suyunu ayırın.",
-   "Makarnayı süzün ve kavrulmuş karabiberin olduğu tavaya alın. Kalan makarna suyundan birkaç kepçe ekleyip makarnayı sürekli çevirerek 1 dakika sotelemeyi sürdürün.",
-   "Ocağı tamamen kapatın. Peynir macununu azar azar ekleyin ve hızla karıştırın; kremsi bir sos oluşması için gerekirse ayrılan makarna suyuyla kıvamını ayarlayın.",
+   "Pecorino Romano peynirini kaseye alın. Üzerine ayrılan makarna suyundan 60 ml ekleyip pürüzsüz bir macun elde edene kadar çırpın.",
+   "Makarnayı süzün ve kavrulmuş karabiberin olduğu tavaya alın. Ayrılan makarna suyundan birkaç kepçe ekleyip makarnayı sürekli çevirerek 1 dakika sotelemeyi sürdürün.",
+   "Ocağı tamamen kapatın. Peynir macununu azar azar ekleyin ve hızla karıştırın; kremsi bir sos için gerekirse kalan makarna suyuyla kıvamını ayarlayın.",
    "Hemen servis yapın ve üzerine biraz taze karabiber serpin."
   ],
   "en": [
    "Bring 4 litres of water to a boil in a large pot and add 10 g of salt.",
-   "Toast the cracked black pepper in a dry pan over medium heat for about 1 minute until fragrant, then move the pan to low heat.",
-   "Put the Pecorino Romano cheese in a bowl. Add 60 ml of hot pasta water and whisk until you have a smooth paste.",
+   "Toast the cracked black pepper in a dry pan over medium heat for about 1 minute until fragrant, then reduce the heat to low.",
    "Add the spaghetti to the boiling water and cook it for 1 minute less than the package instructions.",
    "Before draining, reserve 250 ml of the pasta cooking water.",
+   "Put the Pecorino Romano cheese in a bowl. Add 60 ml of the reserved pasta water and whisk until you have a smooth paste.",
    "Drain the pasta and transfer it to the pan with the toasted pepper. Add a few ladles of the reserved pasta water and toss the spaghetti constantly for 1 minute.",
-   "Turn off the heat completely. Add the cheese paste little by little and stir quickly; if needed, adjust the consistency with more of the reserved pasta water until the sauce is creamy.",
+   "Turn off the heat completely. Add the cheese paste little by little and stir quickly; if needed, adjust the consistency with the remaining reserved pasta water until the sauce is creamy.",
    "Serve immediately and sprinkle with a little more fresh black pepper."
   ]
  },
@@ -55,5 +55,14 @@
   "tr": "Peyniri sıcak makarnaya doğrudan eklemeyin; önce sıcak makarna suyuyla macun yapın ve ocağı kapatarak ekleyin, böylece topaklanmaz.",
   "en": "Do not add the cheese directly to hot pasta; make a paste with hot pasta water first and add it off the heat so it does not clump."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 (EN and TR) makes the cheese paste with 60 ml of hot water before any pasta has cooked, so it is plain salted boiling water, not pasta water. The 60 ml is also not accounted for in the ingredie",
+   "Turkish step 2 'ocaktan kısık ateşe alın' is an unnatural way to say 'reduce the heat' and does not match the English wording exactly. Rephrased to 'ateşi kısın'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

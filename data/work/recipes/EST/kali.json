@@ -37,7 +37,7 @@
    "Şekeri ekleyip karıştırarak tamamen eritin. Sıvı yaklaşık 25 °C'ye soğuyunca kuru mayayı serpin ve iyice karıştırın.",
    "Kuru üzümleri ekleyin. Ağzını bezle örtüp, oda sıcaklığında (20–22 °C) 24 saat mayalanmaya bırakın.",
    "Ertesi gün içeceğin köpüklenip hafif ekşidiğini kontrol edin. Dibindeki çökeltiyi karıştırmadan, üstten ya da süzerek şişelere aktarın.",
-   "Şişeleri kapaklarını gevşek kapatıp buzdolabında en az 2 saat soğutun. Servis öncesi nane yapraklarını ekleyin."
+   "Şişeleri kapaklarını sıkıca kapatıp oda sıcaklığında 1 gün bekletin, böylece içecek gazlanır. Ardından buzdolabında en az 2 saat soğutun. Servis öncesi nane yapraklarını ekleyin."
   ],
   "en": [
    "Preheat the oven to 180 °C. Spread the rye bread cubes on a tray and toast for 10 minutes, until the edges darken.",
@@ -46,12 +46,21 @@
    "Add the sugar and stir until fully dissolved. When the liquid cools to about 25 °C, sprinkle over the dry yeast and stir well.",
    "Add the raisins. Cover the container with a cloth and leave to ferment at room temperature (20–22 °C) for 24 hours.",
    "The next day, check that the drink is foamy and lightly sour. Pour it into bottles from the top or through a sieve, leaving the sediment at the bottom undisturbed.",
-   "Close the bottles loosely and chill in the fridge for at least 2 hours. Add the mint leaves before serving."
+   "Seal the bottles tightly and leave at room temperature for 1 day so the drink carbonates. Then chill in the fridge for at least 2 hours. Add the mint leaves before serving."
   ]
  },
  "tip": {
-  "tr": "Şişeleri kapatırken gazın birikmemesi için kapakları gevşek tutun; aksi halde şişeler patlayabilir.",
-  "en": "Keep bottle caps loose during fermentation so gas can escape; tightly sealed bottles may burst."
+  "tr": "Şişeleri sıkıca kapatıp gazlandırırken gaz birikebileceği için sağlam, kalın cidarlı şişeler kullanın ve oda sıcaklığında bekletin; servis öncesi şişeleri buzdolabında soğutup kapağı dikkatle, yavaşça açın.",
+  "en": "Use sturdy, thick-walled bottles because gas builds up during the sealed carbonation day; keep them at room temperature, then chill and open the caps slowly and carefully before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Carbonation is lost: the bottles are closed loosely and only chilled, so the gas that gives kali its fizz escapes. The description and the Turkish/English text both call the drink fizzy, so the bottli",
+   "The tip says to keep caps loose so gas can escape. That advice is wrong for the bottling stage, where a short sealed secondary fermentation is needed for carbonation. Safety advice must be added for s"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

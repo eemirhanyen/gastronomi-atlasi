@@ -14,7 +14,8 @@
  "ingredients": {
   "tr": [
    "400 g uzun taneli pirinç",
-   "800 g sert etli beyaz balık (tilapia veya lüfer), temizlenmiş ve 4 dilim kesilmiş",
+   "800 ml su (pirinç için)",
+   "800 g sert etli beyaz balık (tilapia veya çupra), temizlenmiş ve 4 dilim kesilmiş",
    "1 limonun suyu",
    "80 ml palm yağı (yoksa mısır yağı)",
    "2 orta boy soğan (300 g), ikiye bölünmüş",
@@ -32,6 +33,7 @@
   ],
   "en": [
    "400 g long-grain rice",
+   "800 ml water (for the rice)",
    "800 g firm white fish (tilapia or snapper), cleaned and cut into 4 steaks",
    "Juice of 1 lime",
    "80 ml palm oil (or vegetable oil)",
@@ -58,7 +60,7 @@
    "Aynı yağda kalan soğanı ince doğrayıp yumuşayana kadar, yaklaşık 5 dakika kavurun.",
    "Domates salçasını ekleyip 2 dakika kavurun, ardından blenderdan geçirdiğiniz sosu dökün ve 10 dakika kısık ateşte pişirin.",
    "Karidesi, kekiği, defne yapraklarını ve suyu ekleyin; tuz ve karabiberle tatlandırıp 10 dakika kaynatın.",
-   "Balık dilimlerini sosun içine yerleştirin, tencereyi sallayarak karıştırın ve kapağı kapalı olarak 10-12 dakika, balık pişene kadar kısık ateşte bırakın.",
+   "Balık dilimlerini sosun içine yerleştirin, tencereyi nazikçe sallayarak sosla kaplayın ve kapağı kapalı olarak 10-12 dakika, balık pişene kadar kısık ateşte bırakın.",
    "Defne yapraklarını çıkarın, pilavı tabaklara alın ve üzerine balıklı yahniyi servis edin."
   ],
   "en": [
@@ -74,8 +76,18 @@
   ]
  },
  "tip": {
-  "tr": "Balığı sosa koyduktan sonra karıştırmayın; kalın bir kaşıkla tencereyi sallamak dilimlerin dağılmasını önler.",
+  "tr": "Balığı sosa koyduktan sonra kaşıkla karıştırmayın; tencereyi nazikçe sallayarak dilimlerin dağılmasını önleyin.",
   "en": "Once the fish is in the sauce, avoid stirring with a spoon; gently shaking the pot keeps the steaks intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 uses 800 ml water for the rice, but the ingredient list only includes 500 ml water (for the stew). The rice water is missing from the list in both languages.",
+   "Turkish ingredient says 'tilapia veya lüfer', but English says 'tilapia or snapper'. Lüfer is bluefish, not snapper, so the languages disagree and the Turkish fish name is wrong. Changed to 'çupra' (s",
+   "Turkish tip tells the cook to use a thick spoon to shake the pot, which contradicts the English tip (avoid spoon stirring, gently shake the pot). Rewritten to match the English meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

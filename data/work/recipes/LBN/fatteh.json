@@ -48,7 +48,7 @@
  "steps": {
   "tr": [
    "Fırını 200°C'ye ısıtın.",
-   "Pide ekmeğini ikiye ayırıp küçük kareler halinde doğrayın. Yarım çay kaşığı zeytinyağı ile harmanlayıp fırın tepsisinde 8-10 dakika, altın rengi ve gevrek olana kadar kızartın.",
+   "Pide ekmeğini ikiye ayırıp küçük kareler halinde doğrayın. Zeytinyağının yarısı (yaklaşık 22 ml) ile harmanlayıp fırın tepsisinde 8-10 dakika, altın rengi ve gevrek olana kadar kızartın.",
    "Küçük bir tavada tereyağını eritin, çam fıstıklarını ekleyip orta ateşte 2-3 dakika, hafif kızarana kadar kavurun. Fıstıkları çıkarıp tereyağını tavada bırakın.",
    "Tahin sosunu hazırlamak için tahini, 20 ml limon suyunu, 1 tutam tuz ve 60 ml suyu bir kasede pürüzsüz olana kadar çırpın.",
    "Yoğurdu bir kaseye alın. Sarımsakları ezip tuzun yarısıyla birlikte yoğurda karıştırın.",
@@ -73,5 +73,13 @@
   "tr": "Ekmeği servisten hemen önce ekleyin; aksi halde yoğurt ve tahin sosunun altında yumuşar.",
   "en": "Add the bread at the last moment, otherwise it softens under the yogurt and tahini sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says 'yarım çay kaşığı zeytinyağı' (about 2.5 ml) for the bread, but the English says 'half the olive oil' (about 22.5 ml). That amount is too small to crisp 2 pita breads, so the Turki"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -49,7 +49,7 @@
    "Geniş bir tencerede pastırmayı orta ateşte, yağını salıverip hafifçe kızarana kadar yaklaşık 5 dakika kavurun.",
    "Tereyağını ekleyin, ardından soğanı ve pırasayı ekleyip yumuşayana kadar yaklaşık 5 dakika soteleyin.",
    "Havuç ve kereviz kökünü ekleyip 3 dakika daha pişirin.",
-   "Arpayı tencereye aktarıp birkaç dakika karıştırarak kavurun.",
+   "Arpayı tencereye aktarıp bir iki dakika karıştırarak kavurun.",
    "Et suyunu ve defne yaprağını ekleyin, kaynatın. Ateşi kısın ve kapağı yarı açık şekilde yaklaşık 35 dakika hafif kaynayan halde pişirin.",
    "Patates küplerini ekleyip yaklaşık 15 dakika daha pişirin; arpa ve patates yumuşamalıdır.",
    "Defne yaprağını çıkarın, krema ekleyip tuz ve karabiberle tatlandırın. Kaynamadan ısıtın.",
@@ -71,5 +71,13 @@
   "tr": "İnci arpayı pişirmeden önce bir gece suda bekletirseniz pişme süresi kısalır ve çorba daha kremsi olur.",
   "en": "Soaking the pearl barley overnight shortens the cooking time and gives the soup a creamier texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to toast the barley for \"birkaç dakika\" (a few minutes), but the English says \"a minute or two\". The durations disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

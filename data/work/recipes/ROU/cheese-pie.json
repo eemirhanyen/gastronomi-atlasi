@@ -24,7 +24,7 @@
    "1 yumurta",
    "2 yemek kaşığı doğranmış taze dereotu",
    "1 tutam karabiber",
-   "1 yemek kaşığı ekşi krema ya da 1/4 tatlı kaşığı tuz (peynire tatmak için)",
+   "1/4 tatlı kaşığı tuz (isteğe göre)",
    "1 yumurta sarısı",
    "30 ml süt",
    "20 g eritilmiş tereyağı"
@@ -51,8 +51,8 @@
   "tr": [
    "Hamur için unu geniş bir kaba alın, ortasında bir çukur açın.",
    "Çukura ılık suyu, ayçiçek yağını, yumurtayı ve tuzu ekleyip ellerinizle yaklaşık 5 dakika yoğurun; hamur yumuşak ama yapışmayan bir kıvama gelmelidir.",
-   "Hamuru kaba örtüp oda sıcaklığında 30 dakika dinlendirin.",
-   "Dinlenme sürecinde iç harcı hazırlayın: lor peynirini, ufalanmış telemeyi, ekşi kremayı, 1 yumurtayı, doğranmış dereotunu, karabiberi ve gerekiyorsa tuzu bir kasede iyice karıştırın.",
+   "Hamuru üzerini örtüp oda sıcaklığında 30 dakika dinlendirin.",
+   "Dinlenme sürecinde iç harcı hazırlayın: lor peynirini bir süzgeçte süzüp fazla suyunu alın. Ardından lor peynirini, ufalanmış telemeyi, ekşi kremayı, 1 yumurtayı, doğranmış dereotunu, karabiberi ve gerekiyorsa tuzu bir kasede iyice karıştırın.",
    "Fırını 200°C'ye ısıtın ve fırın tepsisine yağlı kağıt serin.",
    "Hamuru 4 eşit parçaya bölün, her birini top haline getirin ve unlu tezgâhta yaklaşık 24 cm çapında, çok ince birer daire açın.",
    "Her hamur dairesinin yarısına harcın dörtte birini yayın, kenarları bırakarak kenarlarından kapatın ve yarım ay şeklinde kıvırarak katlayın. Kenarları parmaklarınızla sıkıca bastırın.",
@@ -65,7 +65,7 @@
    "For the dough, put the flour in a large bowl and make a well in the centre.",
    "Add the lukewarm water, sunflower oil, egg and salt to the well and knead with your hands for about 5 minutes until the dough is soft but not sticky.",
    "Cover the dough and let it rest at room temperature for 30 minutes.",
-   "While the dough rests, make the filling: in a bowl, mix the cottage cheese, crumbled telemea, sour cream, 1 egg, chopped dill and black pepper, adding salt only if needed to taste.",
+   "While the dough rests, make the filling: drain the cottage cheese in a sieve to remove excess liquid. Then, in a bowl, mix the cottage cheese, crumbled telemea, sour cream, 1 egg, chopped dill and black pepper, adding salt only if needed to taste.",
    "Preheat the oven to 200°C and line a baking tray with baking paper.",
    "Divide the dough into 4 equal pieces, shape each into a ball and roll out on a floured surface into a very thin round about 24 cm in diameter.",
    "Spread a quarter of the filling over one half of each round, leaving a border. Fold the other half over the filling to make a half-moon and press the edges firmly together with your fingers.",
@@ -79,5 +79,14 @@
   "tr": "Hamuru çok ince açın; ince hamur plăcintanın çıtır ve hafif olmasını sağlar. Lor peynirini önceden bir süzgeçten geçirip fazla suyunu almak harcın dağılmasını önler.",
   "en": "Roll the dough very thinly, as a thin sheet keeps the pie light and crisp. Draining the cottage cheese through a sieve beforehand removes excess moisture and prevents the filling from leaking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English ingredient lists both contain a confusing salt line, '1 yemek kaşığı ekşi krema ya da 1/4 tatlı kaşığı tuz', which mixes sour cream and salt as alternatives. Sour cream is already ",
+   "The tip says to drain the cottage cheese beforehand, but no step in either language tells the cook to do it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

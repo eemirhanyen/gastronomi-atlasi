@@ -16,7 +16,7 @@
    "300 g çekirdeksiz yumuşak hurma (Medjool veya Sukkari)",
    "150 g tuzsuz kavrulmuş yer fıstığı",
    "40 g susam",
-   "30 g desiccated (rendelenmiş kurutulmuş) hindistan cevizi",
+   "30 g rendelenmiş kurutulmuş hindistan cevizi",
    "30 g sade yağ (ghee) veya tereyağı",
    "60 ml ılık su (hurma kuruysa)",
    "1 g öğütülmüş zencefil",
@@ -44,7 +44,7 @@
    "Hurmaları mutfak robotunda veya havanda yapışkan bir macun kıvamına gelene kadar ezin. Eğer çok kuruysa birkaç damla ılık su ekleyin.",
    "Ezilmiş hurmaya sade yağı, zencefili, kakuleyi ve tuzu ekleyip iyice karıştırın.",
    "Fıstık tozunu ve kavrulmuş susamın yarısını ekleyip elinizle homojen bir hamur elde edene kadar yoğurun.",
-   "Hamurdan 20'şer gramlık parçalar koparıp avuçlarınızda yuvarlak toplar şekline getirin. Toplam yaklaşık 16 top çıkmalı.",
+   "Hamurdan 30'ar gramlık parçalar koparıp avuçlarınızda yuvarlak toplar şekline getirin. Toplam yaklaşık 16 top çıkmalı.",
    "Rendelenmiş hindistan cevizini ve kalan susamı geniş bir tabağa alın, topları bu karışımda hafifçe yuvarlayın.",
    "Topları servise almadan önce buzdolabında 20 dakika dinlendirin ve kıvam kazanmasını sağlayın."
   ],
@@ -56,7 +56,7 @@
    "Mash the dates in a food processor or mortar into a sticky paste. Add a few drops of warm water if they are too dry.",
    "Add the ghee, ground ginger, ground cardamom and salt to the mashed dates and mix well.",
    "Add the ground peanuts and half of the toasted sesame, then knead by hand into a uniform dough.",
-   "Pinch off 20 g pieces and roll them between your palms into round balls. You should get about 16.",
+   "Pinch off 30 g pieces and roll them between your palms into round balls. You should get about 16.",
    "Spread the desiccated coconut and the remaining sesame on a wide plate and roll each ball gently in the mixture.",
    "Chill the balls in the refrigerator for 20 minutes so they firm up before serving."
   ]
@@ -65,5 +65,14 @@
   "tr": "Hurma hamuru yapışkan olduğunda avuçlarınızı az miktarda sade yağla nemlendirirseniz toplar daha kolay şekillenir.",
   "en": "If the date paste sticks to your hands, lightly oil your palms with a little ghee so the balls shape more easily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 says 20 g pieces yield about 16 balls, but the dough weighs roughly 500 g (about 25 balls at 20 g). Changed the piece size to 30 g in both languages so the count matches.",
+   "Turkish ingredient line contains the English word 'desiccated' in parentheses. Removed it for natural Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

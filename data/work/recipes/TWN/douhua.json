@@ -34,9 +34,9 @@
  "steps": {
   "tr": [
    "Soya sütünü geniş bir tencerede orta ateşte 80°C'ye kadar ısıtın; yanmaması için sık sık karıştırın.",
-   "Kalsiyum sülfatı 60 ml ılık suda tamamen eriyene kadar karıştırın.",
+   "Kalsiyum sülfatı 60 ml ılık suda iyice karıştırarak homojen bir bulamaç hazırlayın (tamamen erimez, bu normaldir).",
    "Soya sütünü ocaktan alın ve yaklaşık 75°C'ye soğumasını bekleyin.",
-   "Eritilmiş kalsiyum sülfat karışımını soya sütüne ince bir akışla ekleyin ve yalnızca 10 saniye kadar nazikçe karıştırın.",
+   "Hazırladığınız kalsiyum sülfat bulamacını soya sütüne ince bir akışla ekleyin ve yalnızca 10 saniye kadar nazikçe karıştırın.",
    "Tencerenin kapağını kapatın ve yaklaşık 15-20 dakika dinlendirerek muhallebi kıvamında yumuşak bir yapı oluşmasını sağlayın.",
    "Şurup için 400 ml suyu, esmer şekeri ve zencefil dilimlerini küçük bir tencerede karıştırın.",
    "Şurubu orta-kısık ateşte 15 dakika kaynatın, ardından süzün ve sıcak tutun.",
@@ -45,9 +45,9 @@
   ],
   "en": [
    "Heat the soy milk in a wide pot over medium heat to 80°C, stirring often so it does not scorch.",
-   "Stir the calcium sulfate into the 60 ml warm water until fully dissolved.",
+   "Stir the calcium sulfate into the 60 ml warm water to form a smooth slurry (it will not fully dissolve, which is normal).",
    "Remove the soy milk from the heat and let it cool to about 75°C.",
-   "Pour the dissolved calcium sulfate into the soy milk in a thin stream and stir gently for only 10 seconds.",
+   "Pour the calcium sulfate slurry into the soy milk in a thin stream and stir gently for only 10 seconds.",
    "Cover the pot and let it rest for 15-20 minutes until it sets into a soft, custard-like texture.",
    "To make the syrup, combine the 400 ml water, brown sugar and sliced ginger in a small pot.",
    "Simmer the syrup over medium-low heat for 15 minutes, then strain and keep it warm.",
@@ -59,5 +59,13 @@
   "tr": "Kalsiyum sülfat miktarı soya sütünün markasına göre değişir; ilk denemede küçük bir porsiyonla test edip kıvamı ayarlayın ve pütürlü olmaması için karıştırmayı en aza indirin.",
   "en": "Coagulant strength varies by brand of soy milk, so test a small batch first and adjust, and stir as little as possible to keep the curd smooth rather than grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 (tr/en) says calcium sulfate must be 'fully dissolved' in 60 ml water. Calcium sulfate is only sparingly soluble (about 2 g/L), so 2 g cannot dissolve in 60 ml. It should be mixed into a slurry"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

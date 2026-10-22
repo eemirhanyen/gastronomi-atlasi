@@ -6,10 +6,10 @@
  "native": "Sauce gombo",
  "desc": {
   "tr": "Fildişi Sahili'nde günlük yemeklerin vazgeçilmez sosudur. Palmiye yağı, tütsülenmiş balık ve etle pişirilen bu koyu bamya sosu, genellikle attiéké, pirinç veya foutou ile ana öğünde servis edilir.",
-  "en": "A everyday staple in Côte d'Ivoire, this thick okra sauce is cooked with palm oil, smoked fish and meat. It is usually served at the main meal with attiéké, rice or foutou."
+  "en": "An everyday staple in Côte d'Ivoire, this thick okra sauce is cooked with palm oil, smoked fish and meat. It is usually served at the main meal with attiéké, rice or foutou."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 105,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Dana etini bir tencereye alın, 1 litre su ve yarım çay kaşığı tuz ile birlikte orta-düşük ateşte yaklaşık 40 dakika, et yumuşayana kadar pişirin. Pişirme suyundan yaklaşık 700 ml ayırın.",
+   "Dana etini bir tencereye alın, 1 litre su ve yarım çay kaşığı tuz ile birlikte orta-düşük ateşte yaklaşık 75 dakika, et iyice yumuşayana kadar pişirin. Pişirme suyundan yaklaşık 700 ml ayırın.",
    "Tütsülenmiş balığı sıcak suda 10 dakika bekletin, sonra kılçıklarını temizleyip parçalayın.",
    "Bamyanın uçlarını kesin, yıkayın ve ince ince doğrayın.",
    "Soğanı, sarımsağı ve domatesi hazırlayın.",
@@ -54,7 +54,7 @@
    "Biberi çıkarın, tuzu tadına bakarak ayarlayın ve sıcak servis yapın."
   ],
   "en": [
-   "Put the beef in a pot with 1 litre of water and half a teaspoon of salt. Simmer over medium-low heat for about 40 minutes until tender. Reserve about 700 ml of the cooking broth.",
+   "Put the beef in a pot with 1 litre of water and half a teaspoon of salt. Simmer over medium-low heat for about 75 minutes until very tender. Reserve about 700 ml of the cooking broth.",
    "Soak the smoked fish in hot water for 10 minutes, then remove the bones and flake the flesh.",
    "Trim the ends of the okra, wash it and chop it finely.",
    "Prepare the onion, garlic and tomatoes.",
@@ -69,5 +69,15 @@
   "tr": "Bamyayı pişirmeden önce ince doğrarsanız sos daha iyi koyulaşır ve doğal bir kıvam elde edersiniz; bamyanın sümüksü dokusu uzun pişirmede azalır.",
   "en": "Chop the okra finely before cooking to help the sauce thicken naturally; the slippery texture becomes less pronounced with longer cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef shoulder/topside cubes simmered for only about 40 minutes will likely stay tough, so the meat is not tender when it goes into the sauce (TR and EN).",
+   "time_min of 60 is too short for the actual steps (about 40 min of beef cooking plus 25+ min of frying and simmering, plus prep).",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "20 adet kuru mısır kabuğu (yaklaşık 30 dk ıslatılmış)",
+   "30 adet kuru mısır kabuğu (yaklaşık 30 dk ıslatılmış)",
    "600 g mısır unu (masa harina)",
    "200 g domuz yağı veya tereyağı, oda sıcaklığında",
    "350 ml sıcak tavuk suyu veya sebze suyu",
@@ -24,10 +24,11 @@
    "1 yemek kaşığı sıvı yağ (15 ml)",
    "1/2 çay kaşığı tuz",
    "150 g rendelenmiş Oaxaca veya Monterey Jack peyniri",
+   "Servis için taze acı salsa",
    "Buhar için yaklaşık 2 litre su"
   ],
   "en": [
-   "20 dried corn husks (soaked for about 30 min)",
+   "30 dried corn husks (soaked for about 30 min)",
    "600 g masa harina (corn masa flour)",
    "200 g lard or butter, at room temperature",
    "350 ml warm chicken or vegetable broth",
@@ -38,12 +39,13 @@
    "1 tbsp neutral oil (15 ml)",
    "1/2 tsp salt",
    "150 g shredded Oaxaca or Monterey Jack cheese",
+   "Fresh salsa to serve",
    "About 2 litres water for steaming"
   ]
  },
  "steps": {
   "tr": [
-   "Mısır kabuklarını ılık suda yaklaşık 30 dakika ıslatın, ardından süzüp kurulayın. En az 12 sağlam kabuk ayırın.",
+   "Mısır kabuklarını ılık suda yaklaşık 30 dakika ıslatın, ardından süzüp kurulayın. Üstünü örtmek için en az 6 sağlam kabuk ayırın.",
    "Poblano biberlerini açık ateşte ya da ızgarada her tarafı kararana kadar kavurun. Kapalı bir kapta 10 dakika bekletin, ardından kabuklarını soyun, çekirdeklerini çıkarıp şerit şerit kesin.",
    "Geniş bir tavada yağı ısıtın, soğanı yumuşayana kadar yaklaşık 4 dakika soteleyin. Biber şeritlerini ve 1/2 çay kaşığı tuzu ekleyip 5 dakika daha pişirin, ocaktan alıp soğutun.",
    "Bir karıştırma kabında domuz yağını veya tereyağını, kabartma tozu ve tuzla birlikte 3-4 dakika, açık renkli ve kabarık olana kadar çırpın.",
@@ -52,10 +54,10 @@
    "Hamurun ortasına bir yemek kaşığı biber şeridi ve bir yemek kaşığı rendelenmiş peynir koyun. Kabuğun yan kenarlarını hamurun üzerine kapatın, alt kısmı yukarı katlayın.",
    "Büyük bir tencerenin dibine buharlık yerleştirin, yaklaşık 5 cm su ekleyin. Tamalleri açık tarafı yukarı bakacak şekilde dik dizin. Kalan kabuklarla üstünü örtüp kapağı kapatın.",
    "Orta-yüksek ateşte yaklaşık 1 saat 15 dakika buharda pişirin. Su azalırsa sıcak su ekleyin. Tamal hazır olduğunda kabuk hamurdan kolayca ayrılmalıdır.",
-   "Tamalleri ocaktan alıp 10 dakika dinlendirin, ardından sıcak servis yapın. Yanında acı salsa ile birlikte sunabilirsiniz."
+   "Tamalleri ocaktan alıp 10 dakika dinlendirin, ardından sıcak servis yapın. Yanında taze acı salsa ile birlikte sunabilirsiniz."
   ],
   "en": [
-   "Soak the corn husks in warm water for about 30 minutes, then drain and pat dry. Set aside at least 12 sturdy husks.",
+   "Soak the corn husks in warm water for about 30 minutes, then drain and pat dry. Set aside at least 6 sturdy husks for covering.",
    "Char the poblano peppers over an open flame or under a grill until blackened on all sides. Rest them covered for 10 minutes, then peel, remove the seeds and cut into strips.",
    "Heat the oil in a wide pan and soften the onion for about 4 minutes. Add the pepper strips and 1/2 tsp salt, cook for 5 more minutes, then take off the heat and let cool.",
    "In a mixing bowl, beat the lard or butter with the baking powder and salt for 3 to 4 minutes until pale and fluffy.",
@@ -71,5 +73,14 @@
   "tr": "Hamurun iyi kabarması için yağı ve kabartma tozunu iyice çırpın; hamuru yayarken kabuğun kenarlarını kuru tutmak tamalin açılmasını önler.",
   "en": "Whip the lard well until very light, as this is what makes the masa tender; keep the husk edges dry so the tamales seal properly while steaming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Husk count does not match the dough: 600 g masa plus 200 g fat and 350 ml broth gives about 1150 g, or roughly 23 tamales at 50 g each. The recipe lists only 20 husks, and step 1 sets aside at least 1",
+   "Step 10 serves the tamales with a fresh or acid salsa, but no salsa appears in the ingredient list (in either language)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

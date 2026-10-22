@@ -5,7 +5,7 @@
  },
  "native": "galette des rois",
  "desc": {
-  "tr": "Fransa'da Epifani (Trinity Bayramı'nın 6 Ocak'taki karşılığı) döneminde yenen, badem kreması dolgulu katlı hamur tatlısıdır. Pastanın içine saklanan küçük bir figürin (fève) bulan kişi o günün 'kralı' ilan edilir.",
+  "tr": "Fransa'da Epifani (Üç Kral Bayramı, 6 Ocak) döneminde yenen, badem kreması dolgulu katlı hamur tatlısıdır. Pastanın içine saklanan küçük bir figürin (fève) bulan kişi o günün 'kralı' ilan edilir.",
   "en": "A French pastry filled with almond frangipane, traditionally eaten around Epiphany (6 January) and through January. Whoever finds the hidden figurine (fève) in their slice is crowned king or queen for the day."
  },
  "servings": 4,
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Fève'yi servis sırasında misafirlere uyarın, özellikle çocuklar için küçük bir parça yutma riskine karşı dikkatli olun. Kenarları sürmek hamurun iyi yükselmesini sağlar.",
+  "tr": "Fève'yi servis sırasında misafirlere uyarın, özellikle çocuklar için küçük bir parça yutma riskine karşı dikkatli olun. Kenarları yumurta sarısıyla sürmemek, katların eşit yükselmesini sağlar.",
   "en": "Warn guests before serving that a figurine is inside, especially if children are present. Keep the egg wash off the cut edges so the layers rise evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description wrongly equates Epiphany with 'Trinity Bayramı' (Trinity/Pentecost is a different feast); Epiphany is 'Üç Kral Bayramı' (6 January).",
+   "Turkish and English tips contradict each other: the Turkish tip says brushing the edges helps the dough rise, while the English tip and step 8 say to keep egg wash off the edges so the layers rise eve"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

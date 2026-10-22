@@ -48,7 +48,7 @@
    "Tavuk parçalarını kağıt havluyla kurulayın ve her birinin etine iki-üç derin çizik atın.",
    "Tavukları büyük bir kaseye alın, marinasyonun yarısını ekleyip ellerinizle her parçaya iyice yedirin. Kaseyi örtüp buzdolabında en az 30 dakika bekletin.",
    "Izgarayı veya ızgara tavasını orta-yüksek ateşte ısıtın. Kömürle pişiriyorsanız iyice kızgın bir ateş hazırlayın; fırın kullanacaksanız fırını 200 °C'ye ayarlayın.",
-   "Tavuğu deri tarafı aşağıya gelecek şekilde ızgaraya dizin. Her iki yüzünü de yaklaşık 6-8 dakika, altın rengi ve kenarları karamelize olana kadar pişirin. Pişerken kalan marinasyonla arada fırçalayın.",
+   "Tavuğu deri tarafı aşağıya gelecek şekilde ızgaraya dizin. Her iki yüzünü de yaklaşık 10-12 dakika, altın rengi ve kenarları karamelize olana kadar pişirin; şeker yanmaya başlarsa ateşi düşürün ve sık çevirin. Pişerken kalan marinasyonla arada fırçalayın.",
    "Tavuğun iç sıcaklığı 74 °C'ye ulaşınca ocaktan alın ve 5 dakika dinlendirin. Sıcak olarak yapışkan pirinç ve acı sosla servis edin."
   ],
   "en": [
@@ -57,7 +57,7 @@
    "Pat the chicken pieces dry with kitchen paper and make two or three deep cuts in the flesh of each piece.",
    "Place the chicken in a large bowl, add half of the marinade and rub it well into every piece. Cover and refrigerate for at least 30 minutes.",
    "Heat a grill or grill pan over medium-high heat. For charcoal, wait until the coals are glowing well; for an oven, set it to 200 °C.",
-   "Lay the chicken skin side down on the grill and cook for 6 to 8 minutes per side, until golden and charred at the edges. Brush with the reserved marinade during cooking.",
+   "Lay the chicken skin side down on the grill and cook for 10 to 12 minutes per side, turning often and lowering the heat if the sugar starts to burn, until golden and charred at the edges. Brush with the reserved marinade during cooking.",
    "When the thickest part reaches 74 °C, remove the chicken from the heat and rest it for 5 minutes. Serve hot with sticky rice and a spicy dipping sauce."
   ]
  },
@@ -65,5 +65,13 @@
   "tr": "Kemikli but parçaları kuru göğüs etinden çok daha sulu kalır; ızgarada yanmasını önlemek için marinasyondaki şekeri dengeli tutun ve tavuğu sık sık çevirin.",
   "en": "Bone-in thigh pieces stay far juicier than breast meat; keep the sugar modest in the marinade and turn the chicken often so the sugar does not burn before the centre is cooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cooking time is far too short for bone-in thighs and drumsticks: 6-8 minutes per side over medium-high heat will leave the centre undercooked. The 74 °C check in step 7 cannot be reached in that time,"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

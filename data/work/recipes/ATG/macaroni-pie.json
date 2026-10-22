@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Makarna Böreği (Macaroni Pie)",
+  "tr": "Makarna Turtası (Macaroni Pie)",
   "en": "Macaroni Pie"
  },
  "native": "Macaroni Pie",
@@ -9,7 +9,7 @@
   "en": "A beloved side dish in Antigua and Barbuda, this baked pasta is set with cheddar and egg custard. It is typically served at Sunday family meals, gatherings, and alongside fried or grilled meats."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -48,7 +48,7 @@
    "Büyük bir tencerede 3 litre suyu tuzla kaynatın. Makarnayı ekleyin ve dişe hafif gelene kadar yaklaşık 7 dakika pişirin. Süzün ve bir kenara alın.",
    "Fırını 180 °C'ye ısıtın. 20 x 20 cm'lik bir fırın kabını tereyağıyla yağlayın.",
    "Geniş bir tavada 30 g tereyağını orta ateşte eritin. Soğan ve yeşil biberi ekleyip 5 dakika yumuşayana kadar kavurun. Sarımsağı ekleyip 1 dakika daha pişirin.",
-   "Bir kapta yumurtaları, evaporé sütü, kekiği, karabiberi, tatlı kırmızı biberi ve 1/2 tatlı kaşığı tuzu iyice çırpın.",
+   "Bir kapta yumurtaları, buharlaştırılmış sütü, kekiği, karabiberi, tatlı kırmızı biberi ve 1/2 tatlı kaşığı tuzu iyice çırpın.",
    "Sıcak makarnayı tavadaki sebzelerle karıştırın. Ocağı kapatın ve 200 g rendelenmiş peyniri ekleyip eriyene kadar harmanlayın.",
    "Karışımı yağlanmış kaba yayın. Yumurtalı sütü üzerine dökün, makarnanın arasına yayılmasını sağlamak için hafifçe bastırın.",
    "Kalan 50 g peyniri üzerine serpin. İsterseniz tatlı kırmızı biberden de biraz ekleyin.",
@@ -68,8 +68,19 @@
   ]
  },
  "tip": {
-  "tr": "Makarnayı tam pişmeden süzün; fırınında pişerken kalan yumuşaklığını kazanır ve kremayla daha iyi birleşir.",
+  "tr": "Makarnayı tam pişmeden süzün; fırında pişerken kalan yumuşaklığını kazanır ve kremayla daha iyi birleşir.",
   "en": "Drain the pasta slightly undercooked, as it will soften further in the oven and absorb the custard more evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 uses the French loanword 'evaporé sütü' instead of the term used in the ingredient list, 'buharlaştırılmış süt'.",
+   "time_min (60) is low for the listed work: about 7 min boiling, 5+ min sautéing, 10 min mixing, 35–40 min baking, and 10 min resting comes to roughly 70 min.",
+   "Turkish title 'Makarna Böreği' suggests a pastry börek, but this dish is a baked pasta custard; 'Makarna Turtası' describes it better.",
+   "Turkish tip 'fırınında pişerken' is awkward; 'fırında pişerken' is more natural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

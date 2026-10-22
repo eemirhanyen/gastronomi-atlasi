@@ -5,7 +5,7 @@
  },
  "native": "Bacalaítos",
  "desc": {
-  "tr": "Porto Riko'nun en sevilen sokak atıştırmalıklarından biri olan bu çıtır hamur topları, tuzlu bakalaonun kişniş ve baharatlı sebzelerle yoğrulup kızartılmasıyla yapılır. Adaların her yerinde, özellikle pazar günlerinde ve kermeslerde, genellikle limonla servis edilerek yenir.",
+  "tr": "Porto Riko'nun en sevilen sokak atıştırmalıklarından biri olan bu çıtır hamur topları, tuzlu bakalaonun kişniş ve tatlı biberli sebzelerle yoğrulup kızartılmasıyla yapılır. Adaların her yerinde, özellikle pazar günlerinde ve kermeslerde, genellikle limonla servis edilerek yenir.",
   "en": "A favourite street snack across Puerto Rico, these crisp fritters combine salt cod with cilantro and sweet peppers in a light batter. They are fried to order and served hot with lime, most often at markets, fairs and weekend gatherings."
  },
  "servings": 4,
@@ -76,8 +76,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamurun kıvamı önemlidir: çok sulu olursa dağılır, çok koyu olursa içi çiğ kalır. Yağ sıcaklığını termometreyle kontrol edin, çünkü düşük ısıda bacalaitos yağ çeker ve yumuşar.",
-  "en": "Test the batter by dropping a spoonful into the oil; it should hold its shape and float up golden within a few seconds. If the fritters darken too fast, lower the heat slightly so the centres cook through."
+  "tr": "Hamurun kıvamını test etmek için bir kaşık hamuru yağa bırakın; şekli korumalı ve birkaç saniye içinde yüzeye çıkıp altın rengi almalıdır. Hamurun kıvamı önemlidir: çok sulu olursa dağılır, çok koyu olursa içi çiğ kalır. Kızarma çok hızlı gerçekleşiyorsa ısıyı biraz düşürün ki içleri de pişsin. Yağ sıcaklığını termometreyle kontrol edin, çünkü düşük ısıda bacalaitos yağ çeker ve yumuşar.",
+  "en": "Test the batter by dropping a spoonful into the oil; it should hold its shape and float up golden within a few seconds. The batter should be neither too thin, which makes the fritters fall apart, nor too thick, which leaves the centres raw. If the fritters darken too fast, lower the heat slightly so the centres cook through. Check the oil temperature with a thermometer, since at low heat the fritters absorb oil and turn soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips differ: the English tip explains the batter test (drop a spoonful in the oil) and the browning-speed adjustment, but the Turkish tip omits these; the English tip also lacks th",
+   "Turkish description calls the vegetables 'baharatlı' (spicy), but the English says 'sweet peppers' and the recipe uses green bell pepper or ají dulce, which are not spicy."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

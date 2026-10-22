@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200°C'ye ısıtın. Pürüzsüz nehir taşlarını fırın tepsisine koyup 30 dakika ısıtın; bunlar geleneksel mumu'daki sıcak taşların yerini tutar.",
+   "Fırını 200°C'ye ısıtın. Pürüzsüz nehir taşlarını fırın tepsisine koyup 30 dakika ısıtın; bunlar geleneksel mumu'daki sıcak taşların yerini tutar. Taşların tamamen kuru olduğundan emin olun, ıslak taşlar ısıtıldığında çatlayabilir veya patlayabilir.",
    "Muz yapraklarını su altında yıkayıp kurulayın. Sert damarlarını ayırın ve yaprakları kısa süre sıcak bir tavada veya ocak alevinde geçirerek yumuşatın.",
    "Domuz etini tuz, karabiber, ezilmiş sarımsak ve soğanın yarısıyla iyice karıştırın. Oda sıcaklığında 20 dakika dinlendirin.",
    "Taro, tatlı patates ve manyokları bir kasede birleştirip bir tutam tuzla hafifçe harmanlayın.",
@@ -54,10 +54,10 @@
    "Hindistancevizi sütünü yemeğin üzerine dökün.",
    "Yaprakları üstten kapatarak bir paket oluşturun, ardından ikinci bir yaprak katmanıyla sarıp alüminyum folyo ile sıkıca kapatın.",
    "Paketi ısıtılmış taşların üzerine veya fırın tepsisine yerleştirin. Fırın ısısını 180°C'ye düşürün ve 2 saat 30 dakika pişirin; domuz eti yumuşayınca ve taro lapa kıvamına gelince hazırdır.",
-   "Fırından çıkarıp 10 dakika dinlendirin. Paketi dikkatle açın, buharın yanmamasına dikkat edin ve sıcak servis yapın."
+   "Fırından çıkarıp 10 dakika dinlendirin. Paketi dikkatle açın; buharın yüzünüze gelmemesi için paketi kendinizden uzağa doğru açın, buharın yanmamasına dikkat edin ve sıcak servis yapın."
   ],
   "en": [
-   "Preheat the oven to 200°C. Place the smooth river stones on a baking tray and heat them for 30 minutes; they stand in for the hot stones of a traditional mumu.",
+   "Preheat the oven to 200°C. Place the smooth river stones on a baking tray and heat them for 30 minutes; they stand in for the hot stones of a traditional mumu. Make sure the stones are completely dry, as damp stones can crack or burst when heated.",
    "Rinse the banana leaves and pat them dry. Cut away the tough central ribs and soften the leaves by passing them briefly over a gas flame or through a hot dry pan.",
    "Mix the pork with the salt, black pepper, crushed garlic and half of the sliced onion. Leave to marinate at room temperature for 20 minutes.",
    "Combine the taro, sweet potato and cassava in a bowl and toss with a pinch of salt.",
@@ -73,5 +73,14 @@
   "tr": "Paketi açmadan önce buharın yanmasını önlemek için en az 10 dakika bekleyin; yaprakların aroması yemeğe geçer ve sosu zenginleştirir.",
   "en": "Let the parcel rest before opening it so the steam settles; the banana leaves perfume the food and the coconut sauce thickens slightly as it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 omits the English instruction to open the parcel away from the face to avoid the steam, so the safety warning is missing from the Turkish version.",
+   "Step 1 uses river stones in the oven without warning that damp or porous stones can crack or burst when heated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

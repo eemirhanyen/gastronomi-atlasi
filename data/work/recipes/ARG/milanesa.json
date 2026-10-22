@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Etleri kızartmadan önce dinlendirmek panenin tavada dökülmesini önler; yağa atmadan önce ilk parçayı deneyerek yağın yeterince sıcak olduğundan emin olun.",
+  "tr": "Etleri kızartmadan önce dinlendirmek panenin tavada dağılmasını önler; yağa koymadan önce birkaç galeta ununu yağa atarak yağın yeterince sıcak olduğunu kontrol edin: hemen cızırdamalı.",
   "en": "Resting the breaded cutlets before frying keeps the coating from falling off in the pan. Test the oil with a few breadcrumbs first; they should sizzle immediately."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to test the oil by frying the first piece of meat before putting it in the oil, which is contradictory. The English tip tests with breadcrumbs. The Turkish version should match the En",
+   "Turkish tip wording 'panenin tavada dökülmesini' is unnatural; 'panenin tavada dağılmasını' is the correct phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

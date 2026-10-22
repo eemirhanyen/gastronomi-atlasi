@@ -42,7 +42,7 @@
    "Geniş bir tavayı orta ateşte ısıtın ve yağla hafifçe yağlayın. Tavayı kağıt havluyla silerek fazla yağı alın.",
    "Roti jala kalıbını (delikli huni ya da ince delikli bir kap) hamurla doldurun. Tavanın üzerinde dairesel hareketlerle hamuru ağ şeklinde dökün.",
    "Kenarları altın rengi olana ve alt kısmı sertleşene kadar yaklaşık 40-60 saniye pişirin.",
-   "Spatula yardımıyla ağı dikkatlice kaldırıp tabağa alın, katlayın ve kalan hamurla aynı işlemi tekrarlayın.",
+   "Spatula yardımıyla ağı dikkatlice kaldırıp tabağa alın, katlayın ve kalan hamurla aynı işlemi tekrarlayın; gerektiğinde tavayı yeniden yağlayın.",
    "Sıcak servis edin; tavuk köri ile birlikte ikram edin."
   ],
   "en": [
@@ -61,5 +61,13 @@
   "tr": "Hamur çok kalınsa delikler tıkanır; sütle su oranını ayarlayarak akıcı bir kıvam elde edin.",
   "en": "If the batter is too thick the holes will clog, so adjust the water until it flows freely like thin cream."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 omits the instruction to grease the pan again when needed, which the English version includes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

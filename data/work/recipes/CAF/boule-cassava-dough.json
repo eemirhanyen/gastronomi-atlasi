@@ -5,7 +5,7 @@
  },
  "native": "Boule",
  "desc": {
-  "tr": "Orta Afrika Cumhuriyeti'nin temel yiyeceklerinden olan, kasava unundan yapılan yoğun bir hamurdur. Genellikle öğle ve akşam yemeklerinde, yaprak ve bamya gibi sebze soslarıyla ya da yer fıstığı sosuyla servis edilir.",
+  "tr": "Orta Afrika Cumhuriyeti'nin temel yiyeceklerinden olan, kasava unundan yapılan yoğun bir hamurdur. Genellikle öğle ve akşam yemeklerinde, yaprak ve bamya gibi sebze soslarıyla ya da yer fıstığı sosuyla servis edilir ve elle yenir.",
   "en": "A stiff dough made from cassava flour and water, and a staple of Central African Republic. It is usually eaten at lunch or dinner, served with vegetable, okra or groundnut sauces, and eaten by hand."
  },
  "servings": 4,
@@ -28,7 +28,7 @@
  "steps": {
   "tr": [
    "Geniş bir tencerede 750 ml suyu ve 5 g tuzu kaynatın.",
-   "Ateşi orta seviyeye indirin ve kasavaununun yaklaşık üçte birini suyun içine serpin.",
+   "Ateşi orta seviyeye indirin ve kasava ununun yaklaşık üçte birini suyun içine serpin.",
    "Tahta bir kaşıkla hızlıca karıştırarak topaklanmasını önleyin.",
    "Kalan unu azar azar ekleyip sürekli karıştırmaya devam edin. Hamur pürüzsüz ve kıvamlı hale gelip tencerenin kenarlarından ayrılana kadar yaklaşık 8-10 dakika pişirin.",
    "Tencerenin ocağını kapatın, kapağını örtün ve hamuru 5 dakika dinlendirin.",
@@ -49,5 +49,14 @@
   "tr": "Unu tek seferde değil azar azar ekleyin ve hamuru sürekli karıştırın; böylece topaksız, yumuşak bir kıvam elde edersiniz. Ellerinizi her şekil vermeden önce ıslatmak hamurun yapışmasını engeller.",
   "en": "Add the flour gradually and keep stirring to get a lump-free, smooth texture. Wetting your hands before shaping each portion stops the dough from sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 contains a typo, 'kasavaununun'; it should be 'kasava ununun'.",
+   "The English description says the boule is eaten by hand, but the Turkish description omits this, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

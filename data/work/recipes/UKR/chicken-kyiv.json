@@ -45,10 +45,10 @@
    "Karışımı 4 eşit parçaya bölün ve her birini yaklaşık 8 cm uzunluğunda, kalın bir silindir şeklinde yuvarlayın. Plastik sargıya sarıp 30 dakika dondurucuda sertleşmesini bekleyin.",
    "Her tavuk göğsünü iki parça plastik sargı arasına koyun ve yaklaşık 5 mm kalınlığa gelene kadar tokmakla dikkatlice yassılaştırın.",
    "Yassılaştırılmış her göğsün ortasına bir tereyağı silindiri koyun. Kenarları üzerine katlayarak tereyağını tamamen sarın, sıkıca yuvarlayıp kürdan ile sabitleyin.",
-   "Üç derin tabak hazırlayın: birincisinde unu, kalan 1/2 tatlı kaşık tuzla karıştırın; ikincisinde yumurta, suyu ve kalan tuzu çırpın; üçüncüsüne galeta unu koyun.",
+   "Üç derin tabak hazırlayın: birincisinde unu 1/2 tatlı kaşık tuzla karıştırın; ikincisinde yumurta ve suyu çırpın; üçüncüsüne galeta unu koyun.",
    "Tavuk parçalarını önce una, sonra çırpılmış yumurtaya, ardından galeta ununa bulayın. Yumurta ve galeta unu kaplamasını bir kez daha tekrarlayın.",
    "Kaplanmış parçaları en az 15 dakika buzdolabında dinlendirin. Bu süre kaplamanın kızartma sırasında dökülmesini önler.",
-   "Derin bir tencerede ayçiçek yağını 175°C'ye kadar ısıtın. Tavukları yağa dikkatlice bırakın ve her iki tarafı altın rengi olana kadar yaklaşık 5-6 dakika kızartın.",
+   "Derin bir tencerede ayçiçek yağını 175°C'ye kadar ısıtın. Tavukları yağa dikkatlice bırakın ve her iki tarafı altın rengi olana kadar yaklaşık 7-8 dakika kızartın; iç sıcaklığı 74°C'ye ulaşmalıdır.",
    "Kızarmış parçaları kağıt havluya alın. Servis yapmadan önce kürdanları çıkarın, çünkü içinden sıcak tereyağı akabilir. Patates püresi ile hemen servis yapın."
   ],
   "en": [
@@ -56,10 +56,10 @@
    "Divide the mixture into 4 equal portions and shape each into a firm cylinder about 8 cm long. Wrap in cling film and freeze for 30 minutes until firm.",
    "Place each chicken breast between two sheets of cling film and gently pound with a meat mallet to about 5 mm thick.",
    "Put a butter cylinder in the centre of each flattened breast. Fold the edges over the butter to enclose it completely, roll tightly and secure with a toothpick.",
-   "Set up three deep plates: in the first, mix the flour with the remaining 1/2 tsp salt; in the second, whisk the eggs, water and remaining salt; put the breadcrumbs in the third.",
+   "Set up three deep plates: in the first, mix the flour with 1/2 tsp of the salt; in the second, whisk the eggs with the water; put the breadcrumbs in the third.",
    "Coat each chicken roll first in flour, then in the beaten egg, then in breadcrumbs. Repeat the egg and breadcrumb coating once more.",
    "Chill the coated rolls in the fridge for at least 15 minutes. This helps the coating stay in place during frying.",
-   "Heat the sunflower oil in a deep pan to 175°C. Carefully lower the rolls into the oil and fry for about 5-6 minutes, turning once, until golden on all sides and cooked through.",
+   "Heat the sunflower oil in a deep pan to 175°C. Carefully lower the rolls into the oil and fry for about 7-8 minutes, turning once, until golden on all sides and the internal temperature reaches 74°C.",
    "Drain the fried rolls on kitchen paper. Remove the toothpicks before serving, as hot butter can run out. Serve immediately with mashed potatoes."
   ]
  },
@@ -67,5 +67,14 @@
   "tr": "Tereyağı rulosunu sıkıca sarın ve kızartmadan önce mutlaka soğutun; aksi halde yağ kızartma sırasında dışarı sızar.",
   "en": "Roll the butter tightly and chill the coated pieces well before frying; otherwise the butter will leak out in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is inconsistent: the list has 1 tsp total, and step 1 uses 1/2 tsp for the butter. Step 5 then gives 1/2 tsp to the flour and 'the remaining salt' to the egg, but nothing remains, so the egg mix ",
+   "Frying time of 5-6 minutes at 175°C is too short for a rolled, butter-filled chicken breast. The centre may stay undercooked, so the recipe needs a longer time and an internal-temperature check of 74°"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

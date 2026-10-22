@@ -21,7 +21,7 @@
    "8 g tuz (yaklaşık 1,5 tatlı kaşığı)",
    "2 g karabiber",
    "1 tatlı kaşığı (2 g) kuru kekik",
-   "1 tatlı kaşığı (1 g) kuru kekik değil, kuru kekik yerine kuru kekik kullanılmaz; 1 tatlı kaşığı (1 g) kuru kekik değil, kuru kekik",
+   "1 tatlı kaşığı (1 g) kuru origano",
    "60 ml sıvı yağ",
    "4 adet lepinja ekmeği",
    "1 küçük soğan, ince dilimlenmiş",
@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Domuz etini 3 cm küpler halinde kesin ve geniş bir kapta bekletin.",
-   "Rendelenmiş soğan, ezilmiş sarımsak, tatlı ve acı kırmızı biber, tuz, karabiber, kuru kekik, kuru kekik ve sıvı yağı etin üzerine ekleyip iyice karıştırın.",
+   "Rendelenmiş soğan, ezilmiş sarımsak, tatlı ve acı kırmızı biber, tuz, karabiber, kuru kekik, kuru origano ve sıvı yağı etin üzerine ekleyip iyice karıştırın.",
    "Kabı örtüp buzdolabında en az 30 dakika dinlendirin.",
    "Bambu şişleri kullanıyorsanız 15 dakika suda bekletin ki yanmasınlar.",
    "Marine edilmiş etleri şişlere 4-5 parça olacak şekilde dizin, her şişi hafifçe bastırarak sıkıştırın.",
@@ -75,5 +75,14 @@
   "tr": "Marinasyona rendelenmiş soğanı mutlaka ekleyin; soğanın enzimleri eti yumuşatır ve tatlı bir aroma verir.",
   "en": "Grate the onion rather than chopping it: its juice tenderises the pork and gives the marinade its characteristic sweetness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list has a garbled, self-contradictory entry for the herb (\"kuru kekik değil, kuru kekik yerine kuru kekik kullanılmaz...\"). The English lists dried oregano as a separate herb, so t",
+   "Turkish marinade step lists \"kuru kekik\" twice and omits oregano, so it does not match the English step, which lists thyme and oregano."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

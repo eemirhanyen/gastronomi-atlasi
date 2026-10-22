@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Panko'yu kaplamadan önce pirzolayı bastırmadan dökün; kaplamanın kabarık ve çıtır kalması için yağın sıcaklığını 170°C'de sabit tutun.",
+  "tr": "Panko'yu pirzolaya bastırarak kaplayın ama sıkıştırmayın; kaplamanın kabarık ve çıtır kalması için yağın sıcaklığını 170°C'de sabit tutun.",
   "en": "Press the panko on firmly but do not pack it down; keep the oil steady at 170°C so the crust stays crisp rather than greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips disagree on how to apply the panko: the Turkish tip says to pour the panko without pressing, while the English tip and step 5 say to press it on firmly without packing it down"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

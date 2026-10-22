@@ -9,7 +9,7 @@
   "en": "A slightly sour, sweetened, fermented sorghum or maize porridge drink eaten warm at breakfast across Burundi, both in rural homes and in towns."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Mayalanma süresini sıcak bir ortamda ayarlayın; daha kısa beklerseniz içecek daha az ekşi ve daha yumuşak olur.",
   "en": "Ferment in a warm spot; a shorter fermentation gives a milder, less sour drink."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires a 12–18 hour fermentation step, so the total time is misleading. Active work is about 30 minutes plus the fermentation."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

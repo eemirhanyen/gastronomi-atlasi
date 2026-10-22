@@ -15,7 +15,7 @@
   "tr": [
    "500 g tam yağlı lor peyniri (quark)",
    "200 ml kremşanti (%35 yağlı süt kreması)",
-   "80 g toz şeker",
+   "80 g pudra şekeri",
    "1 tatlı kaşığı vanilya özü",
    "1 tutam tuz",
    "150 g taze çilek"
@@ -33,7 +33,7 @@
   "tr": [
    "Lor peynirini ince elekli süzgece koyup 15 dakika süzülmesi için bekletin; fazla suyu gitsin ki kıvamı yoğun kalsın.",
    "Kremayı soğuk bir kaseye alın ve yumuşak zirve oluşana kadar, yaklaşık 3-4 dakika çırpın.",
-   "Süzülmüş lor peynirini başka bir kaseye alın, toz şekeri, vanilya özünü ve tuzu ekleyip pürüzsüz bir kıvam alana kadar spatulayla karıştırın.",
+   "Süzülmüş lor peynirini başka bir kaseye alın, pudra şekerini, vanilya özünü ve tuzu ekleyip pürüzsüz bir kıvam alana kadar spatulayla karıştırın.",
    "Çırpılmış kremayı lorlu karışıma üç parti halinde ekleyin ve hava kabarcıklarını kaybetmemek için yavaşça, alttan üste doğru katlayın.",
    "Karışımı servis kaselerine paylaştırın ve buzdolabında 30 dakika dinlendirin.",
    "Çilekleri yıkayıp saplarını alın, ikiye ya da dörde bölün ve şekerli karışımın üzerine dağıtarak servis yapın."
@@ -51,5 +51,13 @@
   "tr": "Lorun suyunu iyi süzmek, tatlının sulanmasını önler; kremayı çırpmadan önce kase ve çırpıcıyı buzdolabında soğutmak daha sağlam bir köpük verir.",
   "en": "Draining the quark well prevents a watery texture, and chilling the bowl and cream beforehand helps the whipped cream hold its shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'toz şeker' (ingredient list and step 3) does not match the English 'icing sugar'. In Turkish, 'toz şeker' usually means granulated sugar, while icing sugar is 'pudra şekeri'. Corrected to 'pu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

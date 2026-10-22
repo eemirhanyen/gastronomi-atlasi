@@ -23,7 +23,7 @@
    "2 yeşil soğan (30 g), ince doğranmış"
   ],
   "en": [
-   "500 g sashimi-grade tuna or snapper, skinned and boneless",
+   "500 g sashimi-grade tuna or bluefish, skinned and boneless",
    "60 ml fresh lime juice (about 2 limes)",
    "5 g salt",
    "1 small red onion (60 g), thinly sliced",
@@ -37,23 +37,34 @@
   "tr": [
    "Ton balığını veya lüfer filetolarını 1,5 cm'lik küpler halinde kesin ve cam bir kaseye alıp buzdolabında soğuk tutun.",
    "Limon suyunu ve tuzu bir kâsede karıştırın, balığın üzerine dökerek nazikçe karıştırın.",
-   "Balığı oda sıcaklığında 10 dakika bekletin; kenarları beyazlaşıp opak hale gelene kadar limon suyunda 'pişmesini' bekleyin.",
-   "Kırmızı soğanı, kırmızı biberi ve domatesi ekleyip karışımı 10 dakika daha dinlendirin.",
+   "Kabı buzdolabında tutarak balığı 10 dakika bekletin; kenarları beyazlaşıp opak hale gelene kadar limon suyunda 'pişmesini' bekleyin.",
+   "Kırmızı soğanı, kırmızı biberi ve domatesi ekleyip karışımı buzdolabında 10 dakika daha dinlendirin.",
    "Hindistan cevizi sütünü ekleyin, balığı ezmeden hafifçe karıştırın ve servisten önce 20 dakika buzdolabında soğutun.",
    "Servis öncesi yeşil soğanları serpin, tadını kontrol edip gerekirse biraz tuz ekleyin ve soğuk olarak servis yapın."
   ],
   "en": [
-   "Cut the tuna or snapper into 1.5 cm cubes, place them in a glass bowl and keep chilled in the refrigerator.",
+   "Cut the tuna or bluefish into 1.5 cm cubes, place them in a glass bowl and keep chilled in the refrigerator.",
    "Whisk the lime juice and salt together in a small bowl, then pour over the fish and stir gently.",
-   "Leave the fish at room temperature for 10 minutes, until the edges turn white and opaque as the lime juice 'cooks' it.",
-   "Add the red onion, red chili and tomato, then let the mixture rest for another 10 minutes.",
+   "Keep the bowl refrigerated and let the fish rest for 10 minutes, until the edges turn white and opaque as the lime juice 'cooks' it.",
+   "Add the red onion, red chili and tomato, then let the mixture rest in the refrigerator for another 10 minutes.",
    "Pour in the coconut milk, fold gently without breaking up the fish, and chill for 20 minutes before serving.",
    "Just before serving, scatter over the spring onions, taste and add a little more salt if needed, then serve cold."
   ]
  },
  "tip": {
-  "tr": "Balığı kullanmadan önce en az 24 saat boyunca -20°C'de dondurun; bu, parazit riskini azaltır ve yalnızca ev mutfağında güvenle çiğ tüketilebilecek bir balık kullanmanızı sağlar.",
-  "en": "Freeze the fish at -20°C for at least 24 hours before use to reduce parasite risk, and use only fish you trust for raw consumption at home."
+  "tr": "Balığı kullanmadan önce en az 7 gün boyunca -20°C'de veya en az 15 saat boyunca -35°C'de dondurun; bu, parazit riskini azaltır ve yalnızca ev mutfağında güvenle çiğ tüketilebilecek bir balık kullanmanızı sağlar.",
+  "en": "Freeze the fish for at least 7 days at -20°C or at least 15 hours at -35°C before use to reduce parasite risk, and use only fish you trust for raw consumption at home."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Steps 3 and 4 hold raw fish at room temperature for about 20 minutes, which is a food safety risk. The marinating should be refrigerated (EN and TR).",
+   "The tip's freezing guidance (-20°C for 24 hours) is not sufficient to kill parasites. FDA guidance is 7 days at -20°C or 15 hours at -35°C.",
+   "Turkish says 'lüfer' (bluefish) but English says 'snapper', which is a different fish. English should say bluefish.",
+   "Turkish step 3 says 'oda sıcaklığında' but English says 'at room temperature'. Both need to change together with the safety fix."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

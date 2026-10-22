@@ -46,7 +46,7 @@
    "Geniş bir kapta un ve tuzu karıştırın. Ortasını açıp yumurtayı, eritilmiş tereyağını ve ekşi kremayı ekleyin.",
    "Malzemeler birleşince suyu azar azar ekleyerek yumuşak, elde yapışmayan bir hamur yoğurun. Üzerini örtüp 20 dakika dinlendirin.",
    "Hamuru 2 mm kalınlığında açın ve 8 cm çapında daireler kesin.",
-   "Her dairenin ortasına 1 tatlı kaşığı iç harç koyun. Kenarlarını ıslatıp daireyi yarım ay şeklinde katlayın.",
+   "Her dairenin ortasına 1 çay kaşığı iç harç koyun. Kenarlarını ıslatıp daireyi yarım ay şeklinde katlayın.",
    "Kenarları çatal ucuyla bastırarak kapatın, isterseniz geleneksel desen için kıvrımlı biçim verin.",
    "Derin bir tencerede yağı 170°C'ye kadar ısıtın. Şekerburaları partiler halinde her iki yüzü altın rengi olana kadar 1-2 dakika kızartın.",
    "Kağıt havlu üzerinde süzün ve tamamen soğumasını bekleyin.",
@@ -69,5 +69,13 @@
   "tr": "Hamuru fazla yoğurmayın; yumuşak kalması ve dinlenmesi kabarcık oluşmadan düzgün kızarmasını sağlar.",
   "en": "Do not overwork the dough; a soft, rested dough fries evenly and stays flaky rather than tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says '1 tatlı kaşığı' (a dessert spoon, about 10 ml) for the filling, but the English says '1 teaspoon'. The amounts disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

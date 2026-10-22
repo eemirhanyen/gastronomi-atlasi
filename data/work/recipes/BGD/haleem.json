@@ -26,7 +26,7 @@
    "1 çay kaşığı garam masala",
    "4 yeşil biber, ikiye bölünmüş",
    "2 çay kaşığı tuz",
-   "150 ml sade yağ (ghee)",
+   "50 ml sade yağ (ghee)",
    "2 yemek kaşığı sıvı yağ",
    "2 litre su",
    "1 çay kaşığı bütün kimyon",
@@ -48,7 +48,7 @@
    "1 tsp garam masala",
    "4 green chillies, split in half",
    "2 tsp salt",
-   "150 ml ghee",
+   "50 ml ghee",
    "2 tbsp neutral oil",
    "2 litres water",
    "1 tsp whole cumin seeds",
@@ -65,7 +65,7 @@
    "Eti tenceredeki sudan çıkarıp bir tabağa alın. Kemikleri ayıklayın, etleri elinizle veya iki çatalla lifleri ayırarak parçalayın ve bir kenara koyun.",
    "Islatılmış buğday, arpa, mercimek ve nohutu tencereye geri ekleyin. Kalan 0,5 litre suyu da ilave edip orta-kısık ateşte, sık sık karıştırarak 1,5 saat kadar pişirin.",
    "Karışım kremsi bir kıvama gelene ve tahıllar tamamen dağılana kadar tahta kaşıkla sürekli karıştırın; gerekirse biraz daha su ekleyin.",
-   "Ayrı bir tavada 2 yemek kaşığı sıvı yağı ızgara halinde ateşe koyup 1 tatlı kaşık ghee ile birlikte ince dilimlenmiş soğanları altın rengi olana kadar kızartın. Yarısını süzgeçle ayırıp kenara alın.",
+   "Ayrı bir tavada 2 yemek kaşığı sıvı yağı orta ateşte ısıtıp 1 tatlı kaşık ghee ile birlikte ince dilimlenmiş soğanları altın rengi olana kadar kızartın. Yarısını süzgeçle ayırıp kenara alın.",
    "Kalan soğanlı yağa bütün kimyonu ekleyin, birkaç saniye kavurun, parçalanmış eti, garam masalayı ve kalan tuzu ilave edip 5 dakika kadar sotelayın.",
    "Pişmiş et karışımını halime ekleyip iyice karıştırın, ardından kalan ghee'yi üzerine gezdirerek 5 dakika daha kısık ateşte pişirin.",
    "Sıcak servis tabaklarına alın; üzerine kızarmış soğanları, yeşil biberleri, zencefil çubuklarını ve kişnişi serpin, yanında limon dilimleriyle servis yapın."
@@ -87,5 +87,14 @@
   "tr": "Halimin kıvamı servisten sonra koyulaşır; servis öncesi sıcak su ekleyerek ayarlayın ve tahıl ve mercimeklerin tamamen dağılmasına dikkat edin.",
   "en": "Haleem thickens as it stands, so loosen it with hot water before serving and stir well until the grains and lentils have fully broken down."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ghee quantity is implausible: 150 ml for 4 servings, while the steps use only about 1 tsp to fry onions and drizzle the rest over the dish. Reduced to 50 ml in both languages.",
+   "Turkish step 7 contains an unnatural phrase, \"ızgara halinde ateşe koyup\" (\"placed on the flame grill-style\"). Rewritten as \"orta ateşte ısıtıp\" (heated over medium heat)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

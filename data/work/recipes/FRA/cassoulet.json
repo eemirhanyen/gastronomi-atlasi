@@ -24,7 +24,7 @@
    "2 orta boy domates (200 g), rendelenmiş",
    "800 ml tavuk suyu",
    "Demet: 3 dal kekik, 2 defne yaprağı, birkaç maydanoz sapı",
-   "60 g ördek yağı (ya da 4 yemek kaşığı sıvı yağ)",
+   "80 g ördek yağı (ya da 5-6 yemek kaşığı sıvı yağ)",
    "50 g taze galeta unu",
    "Tuz ve karabiber"
   ],
@@ -40,7 +40,7 @@
    "2 medium tomatoes (200 g), grated",
    "800 ml chicken stock",
    "Bouquet garni: 3 thyme sprigs, 2 bay leaves, a few parsley stalks",
-   "60 g duck fat (or 4 tbsp neutral oil)",
+   "80 g duck fat (or 5-6 tbsp neutral oil)",
    "50 g fresh breadcrumbs",
    "Salt and black pepper"
   ]
@@ -57,7 +57,7 @@
    "Fasulyeleri tencereye ekleyin, nazikçe karıştırın. Ayırdığınız pişirme suyunu ve tavuk suyunu ekleyin, sıvı fasulyelerin üzerini geçecek kadar olsun. Tuz ve karabiber ekleyin.",
    "Kızartılmış domuz göbeğini ve sosisleri (kalınca dilimleyerek) fasulyelerin arasına gömün. Ördek confit budlarını derisi yukarı bakacak şekilde üstüne yerleştirin.",
    "Tencerenin kapağını kapatıp fırının orta rafında 2 saat pişirin. Her 30-40 dakikada bir yüzeydeki kabuğu kaşıkla hafifçe bastırıp fasulyelerin içine itin, kabuk oluşursa yeniden sıvıyla ıslatın.",
-   "Galeta unu ile kalan 20 g ördek yağını (ya da birkaç kaşık yağı) karıştırın. Yüzeye serpin ve kapağı açık şekilde 30 dakika daha, kabuk altın rengi olana kadar pişirin.",
+   "Galeta unu ile 20 g ördek yağını (ya da birkaç kaşık yağı) karıştırın. Yüzeye serpin ve kapağı açık şekilde 30 dakika daha, kabuk altın rengi olana kadar pişirin.",
    "Pişirme bitince 10 dakika dinlendirip servis yapın."
   ],
   "en": [
@@ -79,5 +79,14 @@
   "tr": "Fasulyelerin dağılmaması için kaynatırken suyu asla hızlı kaynatmayın; ayrıca hazır ördek confit yerine bir kavanoz kullanıyorsanız fazla yağını sıyırıp yalnızca gerektiği kadarını ekleyin.",
   "en": "Keep the beans at a bare simmer so they stay whole, and if using jarred duck confit, scrape off some of the surplus fat before adding it to the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Duck fat budget doesn't add up: 60 g is listed, but step 3 uses 2 tbsp (about 30 g), step 5 uses the remainder (about 30 g), and step 10 needs another 20 g. The total should be 80 g.",
+   "Turkish step 10 says 'kalan 20 g ördek yağı' (the remaining 20 g), which contradicts the English 'duck fat' and the ingredient total. It should read as a separate 20 g portion."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

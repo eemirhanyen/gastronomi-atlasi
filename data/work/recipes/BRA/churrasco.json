@@ -5,11 +5,11 @@
  },
  "native": "Churrasco",
  "desc": {
-  "tr": "Brezilya'nın güney bölgelerindeki gaúcho gaucho geleneğinden gelen, iri parça etin açık ateşte kömürde pişirildiği bir et şöleni. Hafta sonu aile ve arkadaş buluşmalarında, özellikle barbekü günlerinde yenir.",
+  "tr": "Brezilya'nın güney bölgelerindeki gaúcho geleneğinden gelen, iri parça etin açık ateşte kömürde pişirildiği bir et şöleni. Hafta sonu aile ve arkadaş buluşmalarında, özellikle barbekü günlerinde yenir.",
   "en": "A Brazilian barbecue tradition rooted in the gaucho culture of the south, where large cuts of beef are grilled over open coals. It is eaten at weekend family and friend gatherings, especially on barbecue days."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -29,9 +29,9 @@
   "tr": [
    "Picanhayı pişirmeden 30 dakika önce buzdolabından çıkarın. Yağ tabakasını yaklaşık 5 mm kalınlığa kadar düzeltin ve et kısmına zarar vermeden yüzeyine çapraz kesikler atın.",
    "Tuzu et ve yağ tabakasının tüm yüzeyine eşit şekilde serpin, avuçla hafifçe bastırarak tuzun ete tutunmasını sağlayın. Eti oda sıcaklığında 30 dakika dinlendirin.",
-   "Kömürü iyice yakın ve ızgara ateşinin yüksek olduğundan emin olun, yaklaşık 250 °C. Izgara ızgarasını yağlı bir kağıt havluyla 10 ml sıvı yağla hafifçe silin.",
+   "Kömürü iyice yakın ve ızgara ateşinin yüksek olduğundan emin olun, yaklaşık 250 °C. Izgara rafını yağlı bir kağıt havluyla 10 ml sıvı yağla hafifçe silin.",
    "Picanhayı yağ tarafı aşağı gelecek şekilde ızgaraya yerleştirin ve yağ kısmı çıtır ve altın rengi olana kadar yaklaşık 8 dakika pişirin. Alevlenirse ateşi biraz uzaklaştırın.",
-   "Eti çevirin ve iç sıcaklığı yaklaşık 54 °C olana kadar, orta pişmiş olacak şekilde 20 ila 25 dakika daha pişirin. Bu sırada ortada kalan kısmın kenarlarını da hafifçe kızartın.",
+   "Eti çevirin ve iç sıcaklığı yaklaşık 54 °C olana kadar, orta pişmiş olacak şekilde 20 ila 25 dakika daha pişirin. Bu sırada etin kenarlarını da hafifçe kızartın.",
    "Eti ızgaradan alın, folyo ile örtüp 10 dakika dinlendirin. Dinlenme sırasında sularının etin içinde kalmasını sağlayın.",
    "Eti et kesme tahtasına alın, lifine karşı ve yağ tabakasıyla birlikte yaklaşık 1 cm kalınlığında dilimleyin. Limon dilimleriyle servis yapın."
   ],
@@ -49,5 +49,16 @@
   "tr": "Picanhayı pişirmeden önce tuzlayıp dinlendirmek, tuzun etin içine işlemesini sağlar ve yağ tabakasının çıtır olmasına yardımcı olur.",
   "en": "Salting the picanha and letting it rest beforehand helps the salt penetrate the meat and lets the fat cap crisp up beautifully on the grill."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a duplicated, incorrect name spelling 'gaúcho gaucho'",
+   "Turkish step 3 has awkward wording 'Izgara ızgarasını' (redundant), which reads unnaturally",
+   "Turkish step 5 phrasing 'ortada kalan kısmın kenarlarını' is unnatural and does not clearly match the English 'lightly char the sides'",
+   "time_min (60) underestimates the total time: 30 min pre-rest, 30 min salt rest, about 30 min cooking, and 10 min resting exceed 60 min"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

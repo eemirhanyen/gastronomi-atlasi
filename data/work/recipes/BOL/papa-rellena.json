@@ -60,7 +60,7 @@
    "Kuru üzüm ve doğranmış zeytini ekleyip 2 dakika daha pişirin. Ocaktan alın, doğranmış sert haşlanmış yumurta ve maydanozu karıştırın. İç harcı tamamen soğutun.",
    "Patates hamurunu 8 eşit parçaya bölün. Her parçayı avuç içinizde yassılaştırın, ortasına 2 yemek kaşığı iç harç koyun. Kenarlarını kapatıp oval bir şekil verin.",
    "Kaplama için un ve çırpılmış yumurtayı ayrı kaplara alın. Hazırladığınız köfteleri önce una, sonra yumurtaya bulayın.",
-   "Geniş bir tencerede 500 ml yağı 170-180°C'ye kadar ısıtın. Köfteleri gruplar halinde, altın rengi alana kadar yaklaşık 3-4 dakika kızartın.",
+   "Geniş bir tencerede 500 ml yağı 170-180°C'ye kadar ısıtın. Köfteleri gruplar halinde, altın rengi alana kadar yaklaşık 5-6 dakika kızartın.",
    "Kızarmış köfteleri kağıt havlu üzerine alıp yağını süzdürün. Maydanozla süsleyip sıcak servis yapın."
   ],
   "en": [
@@ -71,7 +71,7 @@
    "Add the raisins and chopped olives and cook for 2 minutes more. Take the pan off the heat and stir in the chopped hard-boiled egg and parsley. Let the filling cool completely.",
    "Divide the potato dough into 8 equal pieces. Flatten each piece in your palm, place 2 tablespoons of filling in the centre, then close the edges and shape into an oval.",
    "Put the 50 g flour and the beaten egg into separate shallow dishes. Coat each potato ball first in flour, then dip it in the beaten egg.",
-   "Heat the 500 ml frying oil in a deep pan to 170-180°C. Fry the potatoes in batches for 3-4 minutes, until golden brown all over.",
+   "Heat the 500 ml frying oil in a deep pan to 170-180°C. Fry the potatoes in batches for 5-6 minutes, until golden brown all over.",
    "Drain the fried potatoes on kitchen paper. Garnish with parsley and serve hot."
   ]
  },
@@ -79,5 +79,13 @@
   "tr": "Patatesleri iyice kurutup püre yapın; hamur daha az yapışır ve kızartırken dağılmaz. Ellerinizi hafifçe yağlarsanız şekillendirmek kolaylaşır.",
   "en": "Mash the potatoes well and let them steam dry before adding the egg; a drier mash is less sticky and holds its shape in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 3-4 minutes is too short for 150 g potato balls with a raw-egg dough. The centre may stay undercooked and the crust may brown before the potato is heated through. Changed to 5-6 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

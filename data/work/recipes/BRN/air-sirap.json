@@ -9,7 +9,7 @@
   "en": "A sweet, refreshing drink served throughout the day in Brunei's hot climate, especially at iftar during Ramadan. It is made from a fragrant rose-and-lime syrup poured over ice and water."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Şurubu bir hafta boyunca buzdolabında saklayabilirsiniz; servis öncesi soğuk suyu ve şurubu ölçerek karıştırmak tatlılık dengesini korur.",
   "en": "Store the syrup in the fridge for up to a week; adjust sweetness by adding a little more sugar to the syrup while it is still warm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (30) leaves out the cooling of the syrup and the at-least-1-hour chill, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

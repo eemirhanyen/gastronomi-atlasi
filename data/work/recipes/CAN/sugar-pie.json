@@ -8,8 +8,8 @@
   "tr": "Kanada'nın Quebec eyaletinden gelen, esmer şekerli, kıvamlı bir hamur işi tatlısıdır. Geleneksel olarak kış sonu ve ilkbahar şeker şenliklerinde, aileler bir araya geldiğinde servis edilir.",
   "en": "A Quebec classic of brown sugar, butter and cream baked in a flaky crust, with a soft, custardy centre. It is traditionally served during the winter-to-spring sugaring season and at family gatherings across Quebec."
  },
- "servings": 4,
- "time_min": 90,
+ "servings": 8,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -65,5 +65,14 @@
   "tr": "Dolgu tamamen pişmeden önce ortası hafifçe titremelidir; fırında fazla bekletirseniz tart sertleşir. Esmer şekeri koyu olanından seçmek daha belirgin bir karamel tadı verir.",
   "en": "Take the tart out while the centre still wobbles slightly, as it will set as it cools; overbaking makes the filling grainy. Dark brown sugar gives the deeper caramel flavour typical of Quebec versions."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "servings: 4 is too few for a 20 cm tart built on 160 g sugar and 120 ml cream; a 20 cm tart usually yields 8 slices, so the portion count is implausible",
+   "time_min: 90 does not cover the steps as written (30 min dough rest, 15 min chill, 25-30 min bake, at least 1 hour cooling), so the total is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

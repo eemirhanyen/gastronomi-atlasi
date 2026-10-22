@@ -22,7 +22,7 @@
    "60 g tereyağı, eritilmiş",
    "1 tatlı kaşığı vanilya özü",
    "1 tatlı kaşığı öğütülmüş tarçın",
-   "1/2 tatlı kaşığı rendelenmiş hindistancevizi (küçük) veya öğütülmüş hindistancevizi",
+   "1/2 tatlı kaşığı taze rendelenmiş muskat",
    "1/2 tatlı kaşığı tuz",
    "8 adet 25 x 30 cm muz yaprağı (veya çift kat alüminyum folyo)",
    "Mutfak ipi"
@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "Muz yapraklarını yıkayıp kurulayın. Sert damarlarını çıkarın ve yaprakları birkaç saniye alev üzerinde ya da sıcak suda bekleterek yumuşatın. Yoksa folyoyu hazır tutun.",
-   "Büyük bir kapta mısır unu, esmer şeker, tarçın, hindistancevizi, tuz ve kuru üzümü karıştırın.",
+   "Büyük bir kapta mısır unu, esmer şeker, tarçın, muskat, hindistancevizi, tuz ve kuru üzümü karıştırın.",
    "Rendelenmiş balkabağını ve rendelenmiş hindistancevizini ekleyip elinizle iyice yedirin.",
    "Eritilmiş tereyağı, hindistancevizi sütü ve vanilyayı ekleyin. Yumuşak ama kaşıkla alınabilecek kıvamda, ağır bir hamur elde edin. Çok kuruysa birkaç yemek kaşığı su ekleyin.",
    "Hamuru 10 dakika dinlendirin. Bu sırada mısır unu sıvıyı emerek kıvamı toparlar.",
@@ -57,7 +57,7 @@
   ],
   "en": [
    "Wash and dry the banana leaves. Remove the tough central rib and soften the leaves by passing them quickly over a flame or dipping them in hot water. If using foil, have it ready.",
-   "In a large bowl, mix the cornmeal, brown sugar, cinnamon, grated coconut, salt and raisins.",
+   "In a large bowl, mix the cornmeal, brown sugar, cinnamon, nutmeg, grated coconut, salt and raisins.",
    "Add the grated pumpkin and mix it in thoroughly with your hands.",
    "Add the melted butter, coconut milk and vanilla. Mix to a thick, soft batter that can still be spooned. If it is too dry, add a few tablespoons of water.",
    "Rest the batter for 10 minutes so the cornmeal can absorb the liquid and firm up slightly.",
@@ -71,5 +71,14 @@
   "tr": "Muz yaprağı bulamazsanız çift kat alüminyum folyo kullanın; yaprağın hafif aromasını kaybedersiniz ama sonuç yine de çok iyi olur.",
   "en": "If you cannot find banana leaves, use double-layered foil; you will lose the subtle leaf aroma, but the result is still very good."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Nutmeg mismatch: the English ingredient is freshly grated nutmeg, but the Turkish ingredient reads 'rendelenmiş hindistancevizi (küçük) veya öğütülmüş hindistancevizi', which means coconut. This dupli",
+   "Nutmeg is listed as an ingredient in both languages but never used in the steps. Turkish and English steps both need to add it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

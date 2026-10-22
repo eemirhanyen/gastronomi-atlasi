@@ -3,7 +3,7 @@
   "tr": "Tahin sosu",
   "en": "Tahini sauce"
  },
- "native": "طحينة",
+ "native": "طرطور",
  "desc": {
   "tr": "Susam ezmesi, limon ve sarımsaktan yapılan, kremamsı kıvamda bir sostur. Lübnan mutfağında mezelerin, kebapların ve sebze tabaklarının yanında, günlük sofralarda ve kahvaltıda servis edilir.",
   "en": "A creamy sauce made from sesame paste, lemon and garlic. In Lebanese cooking it is served alongside mezze, grilled meats and vegetable dishes, at everyday meals and breakfast."
@@ -55,5 +55,13 @@
   "tr": "Suyu bir seferde değil, azar azar ekleyin; tahinin cinsine göre gereken miktar değişir ve sos fazla su alırsa ince kalır.",
   "en": "Add the water gradually, as the amount needed varies with the brand of tahini, and too much water at once will make the sauce thin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The native name 'طحينة' means 'tahini' (the sesame paste itself), not the sauce. In Lebanon the sauce is commonly called 'طرطور' (tarator)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

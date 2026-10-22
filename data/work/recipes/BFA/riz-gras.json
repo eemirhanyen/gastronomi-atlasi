@@ -9,7 +9,7 @@
   "en": "A tomato-based rice dish cooked with beef and vegetables. Of Senegalese origin, it is a popular lunch and celebration meal in Burkina Faso."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -58,7 +58,7 @@
    "Dana etini tuz ve karabiberle tatlandırın. 40 ml yağı geniş bir tencerede ısıtın ve eti partiler halinde, her iki yüzü de altın rengi olana kadar yaklaşık 8 dakika kavurun. Etleri bir kenara alın.",
    "Kalan yağla soğanları yumuşayıp hafif kızarana kadar yaklaşık 5 dakika kavurun. Sarımsağı ve bütün acı biberi ekleyip 1 dakika daha pişirin.",
    "Domates salçasını ekleyip 2 dakika kavurun. Rendelenmiş domatesleri ilave edip sos koyulaşana kadar yaklaşık 8 dakika pişirin.",
-   "Etleri tencereye geri koyun. Et suyu küpünü, kekiği, defne yapraklarını ve 1 litre suyu ekleyin. Kapağını kapatıp kısık ateşte 45 dakika pişirin.",
+   "Etleri tencereye geri koyun. Et suyu küpünü, kekiği, defne yapraklarını ve 1 litre suyu ekleyin. Kapağını kapatıp kısık ateşte et yumuşayana kadar yaklaşık 90 dakika pişirin.",
    "Havuç, patlıcan ve lahanayı ekleyip 15 dakika daha pişirin. Sebzeler yumuşayınca sebzeleri ve acı biberi bir tabağa alın.",
    "Sosun miktarını kontrol edin; yaklaşık 900 ml sıvı kalmalıdır. Azsa kalan 200 ml suyu ekleyip kaynatın.",
    "Pirinci sosun içine eşit bir tabaka halinde serpin. Pirinci fazla karıştırmadan, sıvıya gömülecek şekilde bastırın. Kapağını kapatıp kısık ateşte 25 dakika pişirin.",
@@ -69,7 +69,7 @@
    "Season the beef with salt and black pepper. Heat 40 ml of oil in a large heavy pot and brown the beef in batches for about 8 minutes, until golden on all sides. Set the meat aside.",
    "Add the remaining oil and fry the onions for about 5 minutes, until soft and lightly coloured. Add the garlic and the whole Scotch bonnet and cook for 1 more minute.",
    "Stir in the tomato paste and fry for 2 minutes. Add the grated tomatoes and cook for about 8 minutes, until the sauce thickens.",
-   "Return the beef to the pot. Add the stock cube, thyme, bay leaves and 1 litre of water. Cover and simmer gently for 45 minutes.",
+   "Return the beef to the pot. Add the stock cube, thyme, bay leaves and 1 litre of water. Cover and simmer gently for about 90 minutes, until the beef is tender.",
    "Add the carrots, eggplant and cabbage and simmer for 15 more minutes, until tender. Lift the vegetables and the whole chilli out onto a plate.",
    "Check the liquid; you need about 900 ml in the pot. If it is short, add the remaining 200 ml of water and bring to a boil.",
    "Spread the rinsed rice evenly over the sauce. Do not stir it; gently press it down so it is submerged. Cover and cook on low heat for 25 minutes.",
@@ -81,5 +81,14 @@
   "tr": "Pirinç tencerenin dibinde altın renkli bir tabaka oluşturur; bu kısım en değerli kısımdır. Ocağı çok kısık tutun ve pirinci pişerken karıştırmayın.",
   "en": "The rice forms a golden crust on the bottom of the pot, which is the most prized part. Keep the heat very low and do not stir the rice while it cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef chuck (4 cm cubes) is simmered for only 45 minutes before the vegetables go in. That is not enough for chuck to become tender, so the beef would be tough. A longer simmer is needed (about 90 minu",
+   "time_min (90) does not reflect the actual cooking time of the steps (about 2.5 hours in total), so it is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

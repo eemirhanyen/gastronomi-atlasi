@@ -5,7 +5,7 @@
  },
  "native": "Gromperesalot",
  "desc": {
-  "tr": "Lüksemburg'un geleneksel patates salatası olup genellikle sıcak servis edilir. Füme domuz pastırması, soğan ve sirkeli sıcak sosuyla hazırlanır; özellikle sonbahar ve kış aylarında et yemeklerinin yanında tercih edilir.",
+  "tr": "Lüksemburg'un geleneksel patates salatası olup genellikle sıcak servis edilir. Füme domuz bacon'ı, soğan ve sirkeli sıcak sosuyla hazırlanır; özellikle sonbahar ve kış aylarında et yemeklerinin yanında tercih edilir.",
   "en": "A traditional Luxembourgish potato salad served warm. Smoked bacon, onion and a sharp vinegar dressing are combined with waxy potatoes, and it is especially popular in autumn and winter alongside meat dishes."
  },
  "servings": 4,
@@ -14,14 +14,14 @@
  "ingredients": {
   "tr": [
    "1 kg mumsu patates (ör. Charlotte veya Nicola)",
-   "150 g füme domuz pastırması (bacon), küp doğranmış",
+   "150 g füme domuz bacon'ı, küp doğranmış",
    "1 orta boy soğan, ince doğranmış",
    "60 ml beyaz şarap sirkesi",
    "150 ml sebze suyu veya tavuk suyu",
    "1 tatlı kaşığı Dijon hardalı",
    "Tuz ve taze çekilmiş karabiber",
    "2 yemek kaşığı taze maydanoz, ince kıyılmış",
-   "1 yemek kaşığı taze frenk soğanı (dereotu yerine), ince kıyılmış"
+   "1 yemek kaşığı taze frenk soğanı, ince kıyılmış"
   ],
   "en": [
    "1 kg waxy potatoes (e.g. Charlotte or Nicola)",
@@ -39,12 +39,12 @@
   "tr": [
    "Patatesleri kabuklarıyla birlikte tuzlu kaynar suda 20-25 dakika, iğne rahat girene kadar haşlayın. Süzün.",
    "Patatesler ılıyana kadar bekleyin, ardından kabuklarını soyup 5 mm kalınlığında dilimleyin ve büyük bir kaseye alın.",
-   "Pastırmayı geniş bir tavada orta ateşte gevrek olana kadar kızartın. Pastırmaları kağıt havluya alın ve tavada yaklaşık 3 yemek kaşığı yağ bırakın.",
+   "Bacon'ı geniş bir tavada orta ateşte gevrek olana kadar kızartın. Bacon parçalarını kağıt havluya alın ve tavada yaklaşık 3 yemek kaşığı yağ bırakın.",
    "Soğanı tavadaki yağa ekleyip 4-5 dakika, yumuşayıp hafifçe renk alana kadar soteleyin.",
    "Sirkeyi, sebze suyunu, Dijon hardalını, bir tutam tuz ve karabiberi ekleyin. Karışımı kaynatın ve 2 dakika kısık ateşte pişirin.",
-   "Sıcak sosu patateslerin üzerine dökün, kızarmış pastırmanın yarısını ekleyin ve patatesler dağılmadan nazikçe karıştırın.",
+   "Sıcak sosu patateslerin üzerine dökün, kızarmış bacon'ın yarısını ekleyin ve patatesler dağılmadan nazikçe karıştırın.",
    "Tadına bakıp gerekirse tuz ekleyin. Karışımı 10 dakika dinlendirin ki sosu emsin.",
-   "Maydanoz ve frenk soğanını serpin, kalan pastırmalarla süsleyip ılık servis yapın."
+   "Maydanoz ve frenk soğanını serpin, kalan bacon ile süsleyip ılık servis yapın."
   ],
   "en": [
    "Boil the potatoes in their skins in salted water for 20-25 minutes, until a knife slides in easily. Drain.",
@@ -61,5 +61,14 @@
   "tr": "Patatesleri sıcakken dilimlerseniz sosu daha iyi emerler; mumsu çeşitler dilim halini korur.",
   "en": "Slice the potatoes while they are still warm so they absorb the dressing better, and choose a waxy variety so the slices hold their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'pastırma' for bacon, but pastırma in Turkish usually means spiced cured beef or pork pastrami, not bacon. The term 'füme domuz bacon'ı' is clearer and matches the English.",
+   "Turkish ingredient line for chives contains the stray parenthetical '(dereotu yerine)' ('instead of dill'). Dill is not in the recipe, so the note is confusing and should be removed."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

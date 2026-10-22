@@ -9,7 +9,7 @@
   "en": "Crisp-edged, soft-centred fried batter balls made with salt cod. Across Dominica they are sold by street vendors and eaten as a snack, especially on weekends and at family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1500,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Acı biberi tadına göre ayarlayın; hamuru kızartmadan önce küçük bir parçayı deneyerek tuzluluğunu kontrol edin, çünkü morina zaten tuzludur.",
   "en": "Fry a test fritter first to check the salt and heat level, since the cod is already salty; adjust the Scotch bonnet to taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not include the 24-hour salt cod soak in step 1, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

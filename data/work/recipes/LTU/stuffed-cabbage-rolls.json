@@ -29,7 +29,8 @@
    "30 g domates salçası",
    "10 g un",
    "1 defne yaprağı",
-   "2 litre su"
+   "2 litre su",
+   "250 ml su (pirinç için)"
   ],
   "en": [
    "1 head green cabbage (about 1.2 kg)",
@@ -48,7 +49,8 @@
    "30 g tomato paste",
    "10 g flour",
    "1 bay leaf",
-   "2 litres water"
+   "2 litres water",
+   "250 ml water (for the rice)"
   ]
  },
  "steps": {
@@ -59,7 +61,7 @@
    "Büyük bir kapta kıymayı, yarı pişmiş pirinci, ince doğranmış soğanı, yumurtayı, tuzu, karabiberi, mercanköşk ve dereotunun yarısını iyice yoğurun.",
    "Her lahana yaprağının alt kısmına yaklaşık 2 yemek kaşığı dolgu koyun. Yanlarını içe katlayıp sıkıca sarın ve sarmaları birleşim yeri altta kalacak şekilde bir kenara dizin.",
    "Büyük bir tencerede yağı ısıtın, pastırmayı ekleyip hafifçe kızarana kadar kavurun. Dilimlenmiş soğanı ekleyip yumuşayana ve altın rengi alana kadar 8-10 dakika pişirin.",
-   "Domates salçasını ekleyip 1 dakika kavurun. Unu serpip karıştırın, sonra sıcak suyu ekleyin ve defne yaprağını atın. Ekşi kremayı bir kapta biraz sosla yumuşatıp tencereye ekleyin, kaynamaya bırakmadan karıştırın.",
+   "Domates salçasını ekleyip 1 dakika kavurun. Unu serpip karıştırın, sonra sıcak stoku ekleyin ve defne yaprağını atın. Ekşi kremayı bir kapta biraz sosla yumuşatıp tencereye ekleyin, kaynamaya bırakmadan karıştırın.",
    "Sarmaları sosun içine birleşim yeri altta kalacak şekilde sıkıca yerleştirin. Kalan dereotunu serpin, kapağını kapatıp kısık ateşte yaklaşık 60 dakika pişirin.",
    "Ocaktan alıp 5 dakika dinlendirin. Sosuyla birlikte servis yapın."
   ],
@@ -79,5 +81,14 @@
   "tr": "Sosun kaynamasını önlemek için ekşi kremayı mutlaka ocaktan almadan önce ekleyin ve sürekli karıştırın; aksi halde krema ayrışabilir.",
   "en": "Stir the sour cream into the sauce off the boil or on very low heat to prevent it from curdling, and keep the sauce at a gentle simmer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 uses 250 ml water to cook the rice, but this amount is missing from the ingredient list (only the 2 litres used for blanching is listed).",
+   "Turkish step 7 says 'sıcak suyu' (hot water), while the ingredient list and English step specify stock (400 ml chicken or vegetable stock). The Turkish version should say 'sıcak stoku'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

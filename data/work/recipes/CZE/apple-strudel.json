@@ -9,7 +9,7 @@
   "en": "A traditional Czech pastry of thin dough wrapped around a filling of apples, raisins and walnuts, usually served with coffee or tea. It is especially popular in autumn and winter, at family gatherings and Sunday coffee visits."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -83,5 +83,13 @@
   "tr": "Hamuru gerçekten ince açmak için hamuru 30 dakika dinlendirin ve bezin üzerinde, elinizin üstünden yavaşça çekerek yayın; yapışmasını önlemek için çalışma yüzeyine az un serpin.",
   "en": "For truly paper-thin dough, let it rest fully and stretch it over the backs of your hands on a floured cloth; a thin, even layer gives the flakiest result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps include a 30-minute dough rest, 35-40 minutes of baking, a 15-minute rest, and preparation time. The realistic total is about 110 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

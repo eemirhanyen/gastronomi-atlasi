@@ -19,7 +19,7 @@
    "200 g shirataki erişte",
    "250 g pırasa (yalnızca beyaz ve açık yeşil kısım), eğik dilimlenmiş",
    "150 g shiitake mantarı, saplarıyla birlikte ikiye bölünmüş",
-   "150 g shungiku (kulaklı çiçekli hindiba) veya ıspanak",
+   "150 g shungiku (yenilebilir kasımpatı yaprağı) veya ıspanak",
    "120 ml koyu soya sosu",
    "120 ml mirin",
    "60 ml sake",
@@ -73,5 +73,13 @@
   "tr": "Etleri tavaya tek tek yerleştirip fazla kalabalık yapmayın; her seferinde az miktarda et pişirmek etin yumuşak ve suyunu koruyan bir sonuç verir.",
   "en": "Cook the beef in small batches and avoid overcrowding the pan. This keeps the meat tender and the sauce from becoming watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient name for shungiku, 'kulaklı çiçekli hindiba', is wrong: hindiba is chicory, and shungiku is an edible chrysanthemum green. The English 'chrysanthemum greens' is correct."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -66,7 +66,7 @@
    "Ocaktan alıp doğranmış zeytini, kuru üzümü ve kişnişi karıştırın. Harcı tamamen soğuması için 15 dakika bekletin.",
    "Hamuru 8 eşit topa (yaklaşık 38 g) bölün. Her topu iki naylon arasında 12 cm çapında daire olacak şekilde bastırın ve üzerini örtün.",
    "Her hamur dairesinin yarısına 1 dolu yemek kaşığı iç harç koyun. Diğer yarısıyla katlayın, kenarlarını bastırıp çatalla kapatın. Hazırlanan empanadaları örtülü tutun.",
-   "Derin bir tencerede 500 ml kızartma yağını 175°C'ye kadar ısıtın. Empanadaları 3-4'erli partiler halinde, çevirerek 3-4 dakika altın rengi olana kadar kızartın. Kağıt havluya alıp sıcak servis yapın.."
+   "Derin bir tencerede 500 ml kızartma yağını 175°C'ye kadar ısıtın. Empanadaları 3-4'erli partiler halinde, çevirerek 3-4 dakika altın rengi olana kadar kızartın. Kağıt havluya alıp sıcak servis yapın."
   ],
   "en": [
    "In a small pan, warm 60 ml vegetable oil with the ground annatto over low heat for 3 minutes until the oil turns orange. Strain it and let it cool until just warm.",
@@ -83,5 +83,13 @@
   "tr": "Hamur çatlarsa birkaç damla ılık su ekleyip tekrar yoğurun; kenarları kapatırken hamurun kurumaması için her zaman örtülü tutun.",
   "en": "If the dough cracks, knead in a few drops of warm water; keep the dough and empanadas covered so they do not dry out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish final step has a doubled period (\"yapın..\"), a typo that should be corrected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

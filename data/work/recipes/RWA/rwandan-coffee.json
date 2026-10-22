@@ -29,7 +29,7 @@
   "tr": [
    "Bir tencereye 1 litre suyu koyun ve orta-yüksek ateşte kaynatın.",
    "Su kaynayınca ateşi kısın, 50 g kahveyi ve 30 g toz şekeri ekleyin.",
-   "Karışımı hafifçe kaynayacak şekilde yaklaşık 3 dakika pişirin ve sık sık karıştırın.",
+   "Karışımı hafifçe kaynayacak şekilde yaklaşık 3 dakika pişirin ve ara sıra karıştırın.",
    "Ocağı kapatın ve telveler dibe çökene kadar yaklaşık 3 dakika bekleyin.",
    "Süt kullanacaksanız, 100 ml sütü ayrı bir küçük tencerede ılıtın; kaynatmayın.",
    "Kahveyi ince elekten veya temiz bir bezden geçirerek fincanlara süzün.",
@@ -46,8 +46,17 @@
   ]
  },
  "tip": {
-  "tr": "Telvenin dibe çökmesi için kahveyi servis öncesi birkaç dakika dinlendirin; böylece fincanda tortu kalmaz.",
+  "tr": "Süzmeden önce kahveyi birkaç dakika dinlendirin; böylece telve dibe çöker ve fincanda tortu kalmaz.",
   "en": "Let the coffee rest for a few minutes before straining so the grounds settle and the cup stays clear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says 'sık sık karıştırın' (stir frequently) but the English says 'stirring occasionally'. The two versions disagree on how often to stir.",
+   "Tip mismatch: the Turkish tip says to rest the coffee 'servis öncesi' (before serving), but the English says 'before straining'. The Turkish should match the English timing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

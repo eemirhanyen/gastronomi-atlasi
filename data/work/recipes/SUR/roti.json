@@ -9,7 +9,7 @@
   "en": "A flatbread wrapped around a spiced potato and chicken curry, brought to Suriname by Hindustani settlers. It is eaten at lunch, on weekends, and from street vendors across the country."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -64,7 +64,7 @@
    "Ocaktan alıp taze kişnişi serpin, tuzunu kontrol edin ve tamamen soğumaya bırakın.",
    "Hamuru 4 eşit parçaya bölün. Her parçayı yağlı ellerle top haline getirip 10 dakika dinlendirin.",
    "Her topu ince bir yuvarlak açın. Yüzeyine yağ sürün, ortasına dört bir yana açılacak şekilde köriden yaklaşık dörtte bir parça koyun.",
-   "Kenarlarından başlayarak içe doğru katlayın, ardından hafifçe bastırıp yassılaştırın. Bu işlemi kalan hamur parçalarıyla da tekrarlayın.",
+   "Kenarlarından başlayarak içe doğru katlayın, ardından hafifçe bastırıp yassılaştırın ve köriyi saracak şekilde yeniden ince bir yuvarlak açın. Bu işlemi kalan hamur parçalarıyla da tekrarlayın.",
    "Ağır tabanlı bir tavayı orta-yüksek ateşte iyice ısıtın. Rotiyi tavaya koyup her iki yüzünü de 2-3 dakika, üzerinde altın renkli lekeler oluşana kadar pişirin.",
    "Sıcak servis yapın. Kalan köriyi yanında ikram edebilirsiniz."
   ],
@@ -85,5 +85,14 @@
   "tr": "Hamuru pişirmeden önce mutlaka dinlendirin; gluten gevşer, roti kolay açılır ve sert olmaz.",
   "en": "Let the dough rest before rolling; the relaxed gluten makes the roti easier to stretch and keeps it tender rather than tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 omits the re-rolling step that the English version includes. Without it, the stuffed dough is not rolled into the thin round that a roti needs.",
+   "time_min of 60 is too low. The recipe includes a 20-minute dough rest, a 25-minute simmer, a 10-minute rest and cooking four rotis, so the total is closer to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

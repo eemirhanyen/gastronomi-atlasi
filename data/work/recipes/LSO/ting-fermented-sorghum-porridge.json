@@ -15,7 +15,7 @@
   "tr": [
    "400 g ince darı unu",
    "1 l ılık su",
-   "250 ml başlangıç maya sıvısı (önceki partiden ayrılmış ekşi sıvı)",
+   "250 ml başlangıç sıvısı (önceki partiden ayrılmış ince ekşi sıvı)",
    "1 l kaynar su",
    "Tatlandırmak için şeker",
    "250 ml soğuk süt, servis için"
@@ -35,7 +35,7 @@
    "Kapağı bir bezle örtün ve oda sıcaklığında (yaklaşık 20-25 °C) 2 gün bekletin. Her gün bir kez karıştırın.",
    "Karışımın yüzeyinde kabarcıklar oluşup ekşi bir koku aldığında fermantasyon tamamlanmıştır.",
    "Üstte biriken ince sıvıyı dikkatlice bir kavanoza süzün ve bunun 250 ml'sini sonraki parti için başlangıç olarak saklayın.",
-   "Kalan koyu fermente hamuru iyice karıştırın; yaklaşık 1 l olmalıdır.",
+   "Kalan koyu fermente hamuru iyice karıştırın; yaklaşık 1,4 l olmalıdır.",
    "Bir tencerede 1 l suyu kaynatın.",
    "Ocağı orta ateşe alın. Fermente hamuru kaynayan suya ince bir akış halinde ekleyin ve topaklanmayı önlemek için sürekli çırpın.",
    "Karışımı ahşap kaşıkla sürekli karıştırarak 15-20 dakika pişirin. Lapa koyulaşıp parlak bir kıvam alınca ocaktan alın.",
@@ -46,7 +46,7 @@
    "Cover the bowl with a cloth and leave it at room temperature (about 20-25°C) for 2 days. Stir once a day.",
    "Ferment is ready when bubbles form on the surface and the batter smells distinctly sour.",
    "Carefully pour off the thin liquid that has risen to the top into a jar. Keep 250 ml of it as the starter for the next batch.",
-   "Stir the thick fermented batter underneath thoroughly; you should have about 1 l.",
+   "Stir the thick fermented batter underneath thoroughly; you should have about 1.4 l.",
    "Bring 1 l of water to the boil in a pot.",
    "Reduce the heat to medium. Pour the fermented batter into the water in a thin stream, whisking constantly to prevent lumps.",
    "Cook for 15-20 minutes, stirring continuously with a wooden spoon, until the porridge thickens and turns glossy. Remove from the heat.",
@@ -57,5 +57,14 @@
   "tr": "Ekşilik fermantasyon süresine bağlıdır: 1 gün kısa, 3 gün belirgin ekşilik verir. Saklanan başlangıç sıvısını buzdolabında kapalı bir kavanozda tutarak bir sonraki partide kullanın.",
   "en": "Sourness depends on fermentation time: one day is mild, three days is much tangier. Keep the reserved starter covered in the fridge and use it for the next batch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Volume mismatch: 400 g flour + 1 l water + 250 ml starter gives about 1.65 l of batter, and removing 250 ml leaves about 1.4 l, not the stated 'about 1 l' (tr and en).",
+   "Turkish ingredient 'başlangıç maya sıvısı' is ambiguous because 'maya' usually means yeast; 'başlangıç sıvısı' is clearer and matches the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

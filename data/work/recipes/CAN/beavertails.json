@@ -9,7 +9,7 @@
   "en": "A flat, oval fried dough pastry served hot at winter festivals and ski resorts across Canada, dusted with cinnamon sugar and a squeeze of lemon. It takes its name from its shape, which resembles a beaver's tail."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -43,9 +43,9 @@
    "Unu ve tuzu büyük bir kaba eleyin. Maya karışımını ve sıvı yağı ekleyip yumuşak, pürüzsüz bir hamur elde edene kadar yaklaşık 8 dakika yoğurun.",
    "Hamuru üzeri örtülü halde sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalanmaya bırakın.",
    "Hamuru 8 eşit parçaya bölün, yuvarlayıp örtün ve 10 dakika dinlendirin.",
-   "Toz şekeri tarçınla iyice karıştırın ve geniş bir tabağa yayın. Limon suyunu küçük bir kaseye koyun.",
+   "60 g toz şekeri tarçınla iyice karıştırın ve geniş bir tabağa yayın. Limon suyunu küçük bir kaseye koyun.",
    "Yağı 190°C'ye kadar ısıtın. Her hamur parçasını unlu tezgâhta yaklaşık 1 cm kalınlığında, 15 cm uzunluğunda oval bir şekle getirin, kenarlarını ince tutun.",
-   "Hamuru sıcak yağa dikkatlice bırakın ve her iki tarafı altın rengi olana kadar, toplam yaklaşık 1 dakika kızartın.",
+   "Hamuru sıcak yağa dikkatlice bırakın ve her yüzünü altın rengi olana kadar, yaklaşık 1,5-2 dakika kızartarak bir kez çevirin.",
    "Kızaran hamuru kağıt havluya alıp fazla yağını süzdürün. Hemen üzerine limon suyunu gezdirin, ardından tarçınlı şekerle bolca serpin.",
    "Sıcak sıcak servis yapın."
   ],
@@ -56,7 +56,7 @@
    "Divide the dough into 8 equal pieces, shape into balls, cover and rest for 10 minutes.",
    "Mix the 60 g caster sugar with the cinnamon thoroughly and spread it on a wide plate. Pour the lemon juice into a small bowl.",
    "Heat the oil to 190°C. Stretch each piece of dough on a floured surface into an oval about 1 cm thick and 15 cm long, keeping the edges slightly thinner.",
-   "Carefully lower the dough into the hot oil and fry for about 1 minute in total, turning once, until golden on both sides.",
+   "Carefully lower the dough into the hot oil and fry for about 1.5-2 minutes per side, turning once, until golden and cooked through.",
    "Transfer the fried dough to paper towel to drain excess oil. Immediately drizzle with lemon juice, then sprinkle generously with the cinnamon sugar.",
    "Serve warm."
   ]
@@ -65,5 +65,15 @@
   "tr": "Hamuru kızartırken yağ sıcaklığını 190°C civarında tutun; çok düşük olursa yağ çeker, çok yüksek olursa dış kısmı yanarken içi pişmez.",
   "en": "Keep the oil near 190°C while frying. If it is too cool the dough absorbs grease, and if too hot the outside burns before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of about 1 minute total is far too short for a 1 cm thick dough piece. The centre would stay raw, and the same step has the dough turned once, which doesn't fit a 1-minute fry.",
+   "time_min is 60, but the recipe includes a roughly 1-hour rise plus kneading, resting and frying, so the total is closer to 100 minutes.",
+   "Turkish step 5 omits the 60 g quantity of sugar given in the ingredient list and the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

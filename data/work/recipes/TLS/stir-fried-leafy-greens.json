@@ -16,7 +16,7 @@
    "500 g su ıspanağı (kangkung) veya yapraklı lahana",
    "30 ml bitkisel yağ",
    "3 diş sarımsak",
-   "1 kuru soğan (ya da 1 küçük kuru soğan)",
+   "1 küçük arpacık soğanı",
    "1 adet kırmızı acı biber",
    "1 orta boy domates (yaklaşık 120 g)",
    "80 ml hindistan cevizi sütü",
@@ -61,5 +61,13 @@
   "tr": "Yeşillikleri aşırı pişirmeyin; parlak yeşil rengini ve hafif çıtırlığını korumaları için ateşi yüksek tutup kısa sürede çevirin.",
   "en": "Do not overcook the greens; keep the heat high and stir quickly so they stay bright green with a slight crunch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'kuru soğan' (dry onion) while the English says 'shallot'. These are different ingredients. Turkish should say 'arpacık soğanı' (shallot), and the redundant '(ya da ...)' claus"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -29,7 +29,7 @@
  },
  "steps": {
   "tr": [
-   "Soyulmuş taroyu 4-5 cm'lik parçalara kesin ve soğuk suyun altında iyice durulayın; böylece yüzeydeki nişastalı kaymağı giderin.",
+   "Soyulmuş taroyu 4-5 cm'lik parçalara kesin ve soğuk suyun altında iyice durulayın; böylece yüzeydeki nişastalı kalıntıyı giderin.",
    "Taroyu geniş bir tencereye alın, 150 ml su ve tuzun yarısını ekleyin. Orta ateşte kapağı kapalı olarak 20-25 dakika, çatalla kolayca ezilene kadar pişirin.",
    "Pişen taroyu süzün ve tencerede birkaç dakika buharının uçmasını bekleyin.",
    "Bu sırada ayrı bir tencerede hindistan cevizi sütünü, doğranmış soğanı ve kalan tuzu birleştirin. Orta-düşük ateşte, karıştırarak 8-10 dakika ısıtın; kaynamasına izin vermeyin, soğan yumuşayana kadar bekleyin.",
@@ -49,5 +49,13 @@
   "tr": "Taroyu sıcak suya değil soğuk suyla başlayan pişirmeye koyun; hindistan cevizi sütünün ayrışmaması için sosu hiçbir zaman sert kaynatmayın.",
   "en": "Always start taro in cold or gently heated water, and never boil the coconut sauce hard, or it may separate and become grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"nişastalı kaymağı\" (\"starchy cream\"). \"Kaymak\" means cream, so the term is wrong. The English says \"starchy surface residue\", so the Turkish should say the same."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

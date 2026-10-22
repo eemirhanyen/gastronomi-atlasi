@@ -5,8 +5,8 @@
  },
  "native": "Festival",
  "desc": {
-  "tr": "Jamaika'da kahvaltıda, jerk tavuğu ve balık yemeklerinin yanında servis edilen, hafif tatlı mısır unlu kızarmış hamur çöreğidir. Adını, Kingston'daki sokak satıcılarının sattığı ve adeta bir festival havası taşıyan bu hamurdan almıştır.",
-  "en": "A lightly sweet, cornmeal-enriched fried dough eaten across Jamaica, most often at breakfast or alongside jerk chicken and fish. It is sold by street vendors and home cooks alike, and its name reflects its popularity as a celebratory treat."
+  "tr": "Jamaika'da kahvaltıda, jerk tavuğu ve balık yemeklerinin yanında servis edilen, hafif tatlı mısır unlu kızarmış hamur çöreğidir. Sokak satıcıları ve evlerde sık yapılan, hafif tatlı bir atıştırmalıktır.",
+  "en": "A lightly sweet, cornmeal-enriched fried dough eaten across Jamaica, most often at breakfast or alongside jerk chicken and fish. It is sold by street vendors and made at home alike."
  },
  "servings": 4,
  "time_min": 60,
@@ -61,5 +61,13 @@
   "tr": "Hamuru çok uzun yoğurmayın; fazla yoğrulan festival sertleşir. Yağ sıcaklığını termometreyle kontrol edin, çünkü çok düşük sıcaklıkta yağ emerler.",
   "en": "Do not overwork the dough, or the festivals will turn tough. Check the oil temperature with a thermometer, as oil that is too cool will make them greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description claims the name comes from Kingston street vendors and reflects its celebratory popularity. The origin of the name 'festival' is not documented in this way, so the claim is unsupported"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -23,7 +23,8 @@
    "40 g kırmızı soğan, ince dilimlenmiş",
    "120 ml beyaz sirke",
    "120 ml su (curtido için)",
-   "1 çay kaşığı kuru kekik veya kekik (oregano), kuru",
+   "1/2 çay kaşığı tuz (curtido için)",
+   "1 çay kaşığı kuru kekik (oregano)",
    "2 olgun domates (300 g), doğranmış",
    "1 diş sarımsak",
    "1/4 çay kaşığı tuz (sos için)"
@@ -39,6 +40,7 @@
    "40 g red onion, thinly sliced",
    "120 ml white vinegar",
    "120 ml water (for the curtido)",
+   "1/2 teaspoon salt (for the curtido)",
    "1 teaspoon dried oregano",
    "2 ripe tomatoes (300 g), chopped",
    "1 garlic clove",
@@ -48,7 +50,7 @@
  "steps": {
   "tr": [
    "Büyük bir kapta masa harinini ve tuzu karıştırın. Ilık suyu azar azar ekleyip yumuşak, yapışmayan ama çatlamayan bir hamur elde edene kadar yoğurun. Hamuru örtüp 10 dakika dinlendirin.",
-   "Curtido hazırlayın: lahana, havuç ve kırmızı soğanı bir kaseye alın. Sirke, 120 ml su ve kekiği ekleyip karıştırın, tuzla tatlandırın ve en az 30 dakika bekletin.",
+   "Curtido hazırlayın: lahana, havuç ve kırmızı soğanı bir kaseye alın. Sirke, 120 ml su, kekiği ve 1/2 çay kaşığı tuzu ekleyip karıştırın ve en az 30 dakika bekletin.",
    "Sos için domates, sarımsak ve 1/4 çay kaşığı tuzu küçük bir tencerede 120 ml su ile birlikte 8-10 dakika pişirin. Blenderdan geçirip sıcak tutun.",
    "Peyniri rendeleyin. Dinlenen hamuru 12 eşit parçaya bölün ve her birini avuç içinde yuvarlayın.",
    "Her topu ıslattığınız ellerinizle yassı bir disk haline getirin. Ortasına bir kaşık peynir koyun, kenarlarını ortaya doğru kapatıp tekrar yuvarlayın ve hafifçe bastırarak yassı pupusa yapın. Peynir dışarı sızmamalı.",
@@ -57,7 +59,7 @@
   ],
   "en": [
    "In a large bowl, mix the masa harina and salt. Gradually add the warm water and knead until you have a soft dough that is not sticky but does not crack. Cover and rest for 10 minutes.",
-   "Make the curtido: put the cabbage, carrot and red onion in a bowl. Add the vinegar, 120 ml water and oregano, season with salt, and let it sit for at least 30 minutes.",
+   "Make the curtido: put the cabbage, carrot and red onion in a bowl. Add the vinegar, 120 ml water, oregano and 1/2 teaspoon salt, mix, and let it sit for at least 30 minutes.",
    "For the sauce, simmer the tomatoes, garlic and 1/4 teaspoon salt with 120 ml water in a small pan for 8-10 minutes. Blend until smooth and keep warm.",
    "Grate the cheese. Divide the rested dough into 12 equal pieces and roll each into a ball between your palms.",
    "Wet your hands, flatten a ball into a disc, place a spoonful of grated cheese in the centre, fold the edges toward the middle, reshape into a ball and gently flatten into a thick round. Make sure no cheese leaks out.",
@@ -66,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Hamur çatlıyorsa su ekleyin, yapışıyorsa biraz masa harini ekleyin; ıslak ellerle şekillendirmek yapışmayı önler.",
+  "tr": "Hamur çatlıyorsa su ekleyin, yapışıyorsa biraz masa harinini ekleyin; ıslak ellerle şekillendirmek yapışmayı önler.",
   "en": "If the dough cracks, add a little water; if it sticks, add a little masa harina. Wetting your hands keeps the dough from sticking while you shape the pupusas."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish herb ingredient reads 'kuru kekik veya kekik (oregano)', which is ambiguous and inconsistent with the English 'dried oregano'.",
+   "Curtido step says to season with salt, but no salt amount for the curtido is listed in either language.",
+   "Turkish tip has a typo: 'masa harini' should be 'masa harinini'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

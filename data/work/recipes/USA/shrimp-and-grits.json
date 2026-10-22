@@ -20,6 +20,7 @@
    "40 g tereyağı",
    "80 g Cheddar peyniri, rendelenmiş",
    "4 dilim bacon (yaklaşık 100 g), küp doğranmış",
+   "1 yemek kaşığı bitkisel yağ",
    "500 g büyük boy karides, soyulmuş ve damarı temizlenmiş",
    "1 küçük soğan (100 g), ince doğranmış",
    "1/2 yeşil dolmalık biber (60 g), küp doğranmış",
@@ -43,6 +44,7 @@
    "40 g unsalted butter",
    "80 g sharp Cheddar, grated",
    "4 slices bacon (about 100 g), diced",
+   "1 tbsp neutral oil",
    "500 g large shrimp, peeled and deveined",
    "1 small onion (100 g), finely diced",
    "1/2 green bell pepper (60 g), diced",
@@ -69,7 +71,7 @@
    "Tavadaki bacon yağında soğanı ve yeşil biberi orta ateşte 4 dakika yumuşayana kadar soteleyin. Sarımsağı ekleyip 1 dakika daha pişirin.",
    "Unu serpin ve 1 dakika karıştırın. Tavuk suyunu yavaş yavaş ekleyip çırpın, kaynatın ve 3 dakika kısık ateşte pişirin.",
    "Worcestershire sosu, acı sos ve limon suyunu ekleyin, sosu 2 dakika daha kısık ateşte pişirin.",
-   "Ayrı bir tavada kalan 1 yemek kaşığı yağı kızdırın. Karidesleri tek kat halinde ekleyip her iki tarafını 1-2 dakika, pembeleşene kadar pişirin.",
+   "Ayrı bir tavada 1 yemek kaşığı bitkisel yağı kızdırın. Karidesleri tek kat halinde ekleyip her iki tarafını 1-2 dakika, pembeleşene kadar pişirin.",
    "Karidesleri sosa ekleyin, bir dakika birlikte karıştırın ve ocaktan alın.",
    "Grits'i derin tabaklara paylaştırın. Üzerine karides ve sosu kaşıkla dökün.",
    "Kavrulmuş bacon'i ufalayarak, taze soğan ve maydanozla süsleyip hemen servis edin."
@@ -83,7 +85,7 @@
    "In the bacon fat, sauté the onion and green pepper over medium heat for 4 minutes until soft. Add the garlic and cook for 1 minute more.",
    "Sprinkle in the flour and stir for 1 minute. Gradually whisk in the chicken stock, bring to a simmer and cook for 3 minutes over low heat.",
    "Stir in the Worcestershire sauce, hot sauce and lemon juice, then simmer the sauce gently for 2 minutes.",
-   "In a separate skillet, heat the remaining 1 tbsp of oil. Add the shrimp in a single layer and cook for 1-2 minutes per side until pink.",
+   "In a separate skillet, heat 1 tbsp of neutral oil. Add the shrimp in a single layer and cook for 1-2 minutes per side until pink.",
    "Add the shrimp to the sauce, toss together for 1 minute and remove from the heat.",
    "Divide the grits among four bowls. Spoon the shrimp and sauce over the top.",
    "Crumble the reserved bacon over the top, garnish with spring onions and parsley, and serve immediately."
@@ -93,5 +95,14 @@
   "tr": "Karidesleri en son ekleyin ve fazla pişirmeyin; aşırı pişen karides lastik gibi sertleşir. Grits'i bekletirseniz sıvı ekleyerek kıvamını koruyun.",
   "en": "Cook the shrimp just until pink and add them to the sauce at the end, as overcooked shrimp turn rubbery. If the grits sit for a while, loosen them with a little hot water or milk before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 9 calls for 1 tbsp of oil left over in a separate skillet, but the bacon fat was used up in step 6 and no oil is listed in the ingredients.",
+   "Oil is used in the steps but missing from the ingredient list in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

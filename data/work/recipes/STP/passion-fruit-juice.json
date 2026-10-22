@@ -5,11 +5,11 @@
  },
  "native": "Sumo de maracujá",
  "desc": {
-  "tr": "São Tomé ve Príncipe'de maracuja, bol güneşli öğle saatlerinde ve akşamüstü serinlemek için içilen, ev yapımı taze bir içecektir. Adalardaki pazarlarda ve sokak kenarı kafelerinde sık sık servis edilir.",
+  "tr": "São Tomé ve Príncipe'de maracuya, bol güneşli öğle saatlerinde ve akşamüstü serinlemek için içilen, ev yapımı taze bir içecektir. Adalardaki pazarlarda ve sokak kenarı kafelerinde sık sık servis edilir.",
   "en": "A refreshing homemade drink served on São Tomé and Príncipe, especially during hot midday and late afternoon. It is sold at local markets and in roadside cafés, where the juice is often made fresh to order."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 45,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,5 +49,14 @@
   "tr": "En iyi aroma için sadece kırışık kabuklu, ağırlığına göre dolgun çarkıfelekleri seçin; ekşilik çok fazla gelirse içmeden önce şeker ilavesini ayarlayın.",
   "en": "Choose fruits with wrinkled skins that feel heavy for their size, as they have the most aroma. Adjust the sugar to taste before chilling, since the sourness varies between fruits."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (15) omits the 30-minute chilling step, so the total time is understated",
+   "Turkish description misspells 'maracuja'; the standard Turkish form is 'maracuya'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A main dish from Guinea-Bissau, a Portuguese-influenced version of the wider Senegambian yassa tradition: chicken marinated in lemon and mustard, then braised slowly with plenty of onions. It is usually served with white rice for family meals and guests alike."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -18,7 +18,7 @@
    "3 limon (yaklaşık 150 ml suyu)",
    "2 yemek kaşığı hardal (30 g)",
    "4 diş sarımsak, ezilmiş",
-   "1 küçük acı biber, bütün ve çatallanmış",
+   "1 küçük acı biber, bütün ve delinmiş",
    "1 tatlı kaşığı kuru kekik",
    "1 defne yaprağı",
    "1 tatlı kaşığı tuz",
@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Tavukları büyük bir kaba alın. Limonların yarısının suyunu (yaklaşık 75 ml), 1 yemek kaşığı hardalı, sarımsağın yarısını, kekiği, yarım tatlı kaşığı tuzu ve karabiberi ekleyip iyice karıştırın. Üzerini örtüp oda sıcaklığında 30 dakika bekletin.",
+   "Tavukları büyük bir kaba alın. Limonların yarısının suyunu (yaklaşık 75 ml), 1 yemek kaşığı hardalı, sarımsağın yarısını, kekiği, yarım tatlı kaşığı tuzu ve karabiberi ekleyip iyice karıştırın. Üzerini örtüp buzdolabında 30 dakika ile 2 saat arasında bekletin.",
    "Geniş ve kalın tabanlı bir tencerede 40 ml yağı orta-yüksek ateşte ısıtın. Tavukları marinasından süzerek partiler halinde her yüzü yaklaşık 4-5 dakika kızarana kadar kavurun. Tavukları bir tabağa alın.",
    "Aynı tencereye kalan yağı ekleyin. Soğanları ekleyip kısık ateşte, ara ara karıştırarak, 15-20 dakika yumuşayıp hafifçe karamelize olana kadar pişirin.",
    "Kalan sarımsağı, kalan hardalı, defne yaprağını ve bütün biberi ekleyip bir dakika kadar karıştırın.",
@@ -51,7 +51,7 @@
    "Kalan limon suyunu ekleyip kapağı açık olarak 5 dakika daha kaynatın. Tadına bakıp gerekirse tuz ekleyin. Defne yaprağı ve biberi çıkarıp sıcak pilavla servis edin."
   ],
   "en": [
-   "Put the chicken in a large bowl. Add half of the lemon juice (about 75 ml), 1 tablespoon of the mustard, half of the garlic, the thyme, 1/2 teaspoon of the salt and the black pepper. Mix well, cover and leave at room temperature for 30 minutes.",
+   "Put the chicken in a large bowl. Add half of the lemon juice (about 75 ml), 1 tablespoon of the mustard, half of the garlic, the thyme, 1/2 teaspoon of the salt and the black pepper. Mix well, cover and refrigerate for 30 minutes to 2 hours.",
    "Heat 40 ml of the oil in a wide, heavy-based pot over medium-high heat. Lift the chicken out of the marinade, shake off the excess, and brown it in batches for about 4-5 minutes per side. Transfer the chicken to a plate.",
    "Add the remaining oil to the same pot. Add the onions and cook over low heat, stirring occasionally, for 15-20 minutes until soft and lightly caramelised.",
    "Add the remaining garlic, the remaining mustard, the bay leaf and the whole chili. Stir for about one minute.",
@@ -63,5 +63,15 @@
   "tr": "Soğanları acele etmeden kısık ateşte pişirin; yassanın sosunu tatlı ve yoğun yapan şey bu sabırdır.",
   "en": "Cook the onions slowly over low heat; their gentle caramelisation is what gives the sauce its sweetness and body."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Marinating raw chicken for 30 minutes at room temperature is a food-safety risk; it should be refrigerated (EN and TR).",
+   "time_min of 60 does not match the steps: about 30 min marinating plus roughly 75-80 min of cooking and browning, so about 110 min.",
+   "The chili is described as 'pierced' in English, but the Turkish 'çatallanmış' (forked) is wrong. The intended meaning is 'delinmiş' (pierced)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -60,14 +60,14 @@
  "steps": {
   "tr": [
    "Kara mantarları ve lilyum tomurcuklarını ılık suda 20 dakika bekletin, süzün, sapları ayıklayıp ince doğrayın.",
-   "Domuz etini 1 ml'lik soya sosu ve bir tutam tuzla karıştırın, 10 dakika dinlendirin. Bu adımda soya sosunun tamamını kullanmayın; kalan kısım çorbaya eklenecek.",
+   "Domuz etini 5 ml soya sosu ve bir tutam tuzla karıştırın, 10 dakika dinlendirin. Bu adımda soya sosunun tamamını kullanmayın; kalan kısım çorbaya eklenecek.",
    "Büyük bir tencerede sıvı yağı orta ateşte ısıtın, sarımsak ve zencefili 30 saniye kavurun.",
    "Tavuk suyunu ekleyip kaynatın, ardından hazırladığınız kara mantarı, lilyum tomurcuğunu ve bambu filizini ekleyin. Kısık ateşte 5 dakika pişirin.",
    "Domuz etini yavaşça tencereye ekleyip birbirinden ayrılması için karıştırın, 3 dakika pişirin.",
    "Tofu çubuklarını ekleyip nazikçe karıştırın ve 2 dakika daha kaynatın.",
    "Kalan soya sosunu, şekeri, tuzu ve beyaz biberi ekleyip tadına bakın.",
    "Mısır nişastasını suyla pürüzsüz bir karışım haline getirin, çorba karıştırılırken ince bir akışla ekleyip hafifçe koyulaşana kadar pişirin.",
-   "Ocağı kapatın. Çırpılmış yumurtayı çorba karıştırılırken ince bir ince bir akışla dökerek ipliksi parçalar oluşmasını sağlayın.",
+   "Ocağı kapatın. Çırpılmış yumurtayı çorba karıştırılırken ince bir akışla dökerek ipliksi parçalar oluşmasını sağlayın.",
    "Sirkeyi, acı biber yağını ve susam yağını ekleyip karıştırın. Aromayı korumak için bu malzemeleri ocak kapalıyken ekleyin.",
    "Çorbayı kaselere paylaştırın ve doğranmış taze soğanla servis edin."
   ],
@@ -88,5 +88,14 @@
   "tr": "Sirkeyi ve acı yağı asla uzun süre kaynatmayın; aromaları ocak kapalıyken eklemek çorbanın keskin ve taze tadını korur.",
   "en": "Add the vinegar and chili oil off the heat and never boil them for long, so the sour and spicy aromas stay bright."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 uses 1 ml soy sauce for the pork marinade, but the English step and the ingredient list use 5 ml",
+   "Turkish step 9 has a duplicated phrase, 'ince bir ince bir akışla'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

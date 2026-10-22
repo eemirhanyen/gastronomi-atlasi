@@ -18,7 +18,7 @@
    "400 ml hindistancevizi sütü",
    "1 orta boy soğan (100 g), ince dilim",
    "1 küçük kırmızı biber, ince doğranmış",
-   "2 limon suyu (yaklaşık 80 ml)",
+   "2 limonun suyu (yaklaşık 80 ml)",
    "1 yemek kaşığı hindistancevizi yağı",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber"
@@ -39,10 +39,10 @@
   "tr": [
    "Taro parçalarını büyük bir tencereye alın, üzerini su ile kaplayacak kadar su ekleyin ve yarım çay kaşığı tuz ekleyerek kaynatın.",
    "Taro yumuşayana ve bıçak rahatça geçene kadar yaklaşık 25-30 dakika pişirin, ardından süzün ve sıcak tutun.",
-   "Balık filetolarını bir kasede tuz, karabiber ve limon suyunun yarısıyla (yaklaşık 40 ml) birlikte 5 dakika marine edin.",
+   "Balık filetolarını bir kasede kalan yarım çay kaşığı tuz, karabiber ve limon suyunun yarısıyla (yaklaşık 40 ml) birlikte 5 dakika marine edin.",
    "Geniş bir tavada hindistancevizi yağını orta ateşte ısıtın, soğanı ekleyip yumuşayana ve hafifçe şeffaflaşana kadar yaklaşık 3-4 dakika soteleyin.",
    "Kırmızı biberi ekleyin, ardından hindistancevizi sütünü ve kalan limon suyunu ilave edin. Karışımı hafif kaynatın ve 2 dakika daha pişirin.",
-   "Marine edilmiş balık parçalarını sosun içine yerleştirin, ocağı kısın ve tavayı kapakla kapatıp 6-8 dakika pişirin. Balık pulsuz hale gelince ve kolayca ayrılınca hazırdır.",
+   "Marine edilmiş balık parçalarını sosun içine yerleştirin, ocağı kısın ve tavayı kapakla kapatıp 6-8 dakika pişirin. Balık beyazlaşıp kolayca ayrılabilir hale gelince hazırdır.",
    "Sıcak taro parçalarını tabaklara alın, yanına balığı ve bolca soslu soğanı ekleyerek servis yapın."
   ],
   "en": [
@@ -59,5 +59,15 @@
   "tr": "Taro, kalsiyum oksalat içerdiği için mutlaka tamamen pişirilmelidir; çiğ taro ağız ve boğazda yanmaya neden olur. Soyarken eldiven takmak cildin kaşınmasını önler.",
   "en": "Taro contains calcium oxalate, so it must be cooked through; raw taro irritates the mouth and throat. Wear gloves when peeling to avoid skin itching."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the fish is \"pulsuz\" (scale-free) when it should say the fish has turned opaque and flakes easily; the Turkish is wrong here.",
+   "Turkish ingredient \"2 limon suyu (yaklaşık 80 ml)\" is unnatural; it should read \"2 limonun suyu\".",
+   "Turkish step 3 gives no salt amount (just \"tuz\"), while the English specifies the remaining 1/2 tsp, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

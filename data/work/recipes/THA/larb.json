@@ -18,10 +18,11 @@
    "45 ml balık sosu",
    "1 tatlı kaşığı toz şeker",
    "3 adet taze acı biber (ya da 1 tatlı kaşığı pul biber)",
-   "4 adet kuru soğan veya arjantin soğanı (yaklaşık 100 g), ince dilimlenmiş",
+   "4 adet arpacık soğanı veya arjantin soğanı (yaklaşık 100 g), ince dilimlenmiş",
    "2 dal yeşil soğan, ince doğranmış",
    "1 küçük demet taze nane yaprağı (yaklaşık 20 g)",
    "1 küçük demet kişniş (yaklaşık 15 g), kabaca doğranmış",
+   "2 yemek kaşığı pirinç (yaklaşık 30 g, çiğ haliyle)",
    "2 yemek kaşığı kavrulmuş pirinç unu (khao kua, yaklaşık 20 g)",
    "1 yemek kaşığı sıvı yağ",
    "100 ml su",
@@ -37,6 +38,7 @@
    "2 spring onions, finely sliced",
    "1 small bunch fresh mint leaves (about 20 g)",
    "1 small bunch fresh coriander (about 15 g), roughly chopped",
+   "2 tbsp uncooked rice (about 30 g)",
    "2 tbsp toasted rice powder (khao kua, about 20 g)",
    "1 tbsp neutral oil",
    "100 ml water",
@@ -49,7 +51,7 @@
    "Yağı geniş bir tavada orta-yüksek ateşte ısıtın. Domuz etini ekleyip tahta kaşıkla ufalayarak 3-4 dakika kavurun.",
    "Suyu ekleyip karışımı kaynatın ve et tamamen pişene, sıvı neredeyse buharlaşana kadar yaklaşık 5-7 dakika pişirin. Ocaktan alıp hafifçe soğumaya bırakın.",
    "Büyük bir kaseye limon suyu, balık sosu, şekeri ve doğranmış acı biberi koyup karıştırın; şeker eriyene kadar bekleyin.",
-   "Soğuyan eti sosla birlikte kaseye alın. Dilimlenmiş kuru soğanı, yeşil soğanı, kişnişi ve nane yapraklarını ekleyip iyice karıştırın.",
+   "Soğuyan eti sosla birlikte kaseye alın. Dilimlenmiş arpacık soğanını, yeşil soğanı, kişnişi ve nane yapraklarını ekleyip iyice karıştırın.",
    "Son olarak kavrulmuş pirinç tozunu serpip tekrar karıştırın. Tadına bakıp gerekirse daha fazla limon suyu, balık sosu veya acı biber ekleyerek dengeyi ayarlayın.",
    "Salatayı marul veya lahana yapraklarının üzerine koyup sıcak yapışkan pirinçle servis edin."
   ],
@@ -67,5 +69,14 @@
   "tr": "Eti çok ince öğütülmüş kıyma yerine orta-ince kıyma olarak seçin; daha iyi bir doku ve sosu tutma sağlar. Pirinç tozunu servisten hemen önce ekleyin ki çıtırlığını korusun.",
   "en": "Choose a medium-fine grind rather than a very smooth mince for better texture and sauce absorption. Add the rice powder just before serving so it stays crunchy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Raw rice is used in step 1 (\"pirinçleri kavurun\") but is missing from the ingredient list in both languages; only the toasted powder is listed.",
+   "Turkish \"kuru soğan\" is an inaccurate name for shallots; the Turkish term is \"arpacık soğanı\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

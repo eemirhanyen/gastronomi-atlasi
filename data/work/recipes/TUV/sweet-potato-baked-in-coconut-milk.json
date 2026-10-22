@@ -9,7 +9,7 @@
   "en": "In Tuvalu, sweet potato is slowly baked in coconut milk until tender and creamy, then served as a side with fish and other coconut-based dishes. It is common at family meals and celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Dilimleri eşit kalınlıkta kesin; böylece hepsi aynı anda pişer. Yumuşaklığı kontrol etmek için bir bıçak ucu batırın.",
+  "tr": "Dilimleri eşit kalınlıkta kesin; böylece hepsi aynı anda pişer. Yumuşaklığı kontrol etmek için en kalın dilime bir bıçak ucu batırın.",
   "en": "Cut the slices to an even thickness so they cook at the same rate. Test for doneness by inserting a knife tip into the thickest slice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the steps add up to roughly 80-90 minutes including heating, baking (55-60 min), and resting",
+   "Tip mismatch: the English tip says to test the thickest slice, but the Turkish tip does not mention it"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

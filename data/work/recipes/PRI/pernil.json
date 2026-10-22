@@ -5,7 +5,7 @@
  },
  "native": "Pernil asado",
  "desc": {
-  "tr": "Sarımsak, kekik (oregano), kimyon ve sirkeden oluşan bir ıslatma harcıyla marine edilen, derisi çıtır kızarana kadar yavaşça pişirilen kemikli domuz omuzu yemeğidir. Porto Riko'da Noel, Aşkın Günü ve aile toplantılarında, genellikle pirinç ve gandules ile servis edilir.",
+  "tr": "Sarımsak, kekik (oregano), kimyon ve sirkeden oluşan bir ıslatma harcıyla marine edilen, derisi çıtır kızarana kadar yavaşça pişirilen kemikli domuz omuzu yemeğidir. Porto Riko'da Noel, Yılbaşı ve aile toplantılarında, genellikle pirinç ve gandules ile servis edilir.",
   "en": "Bone-in pork shoulder marinated in a paste of garlic, oregano, cumin and vinegar, then slow-roasted until the meat is tender and the skin crisps. It is a centerpiece of Puerto Rican holidays and family gatherings, usually served with rice and pigeon peas."
  },
  "servings": 4,
@@ -41,7 +41,7 @@
   "tr": [
    "Domuz omuzunun derisini 1 cm aralıklarla çapraz olarak çizin. Eti kağıt havluyla kurulayın.",
    "Sarımsakları soyun, tuz ile birlikte havanda ezerek macun haline getirin. Kekik (oregano), kimyon, karabiber, zeytinyağı ve sirkeyi ekleyip iyice karıştırın.",
-   "Harcın yarısını çizikleri de içine girecek şekilde etin her yerine sürün. Kalan yarısını eti bir gece önceden kapatılmış bir kaba koyup üzerine yayarak kaplayın ve buzdolabında bir gece bekletin.",
+   "Harcın yarısını çizikleri de içine girecek şekilde etin her yerine sürün. Eti kapaklı bir kaba koyun, kalan yarısını üzerine yayarak sürün ve bir gece buzdolabında bekletin.",
    "Pişirmeden 1 saat önce pernili buzdolabından çıkarıp oda sıcaklığına getirin. Fırını 160°C'ye ısıtın.",
    "Soğanı dilimleyin ve fırın tepsisine yayın. Pernili derisi yukarı gelecek şekilde soğanların üzerine yerleştirin. Suyu tepsinin kenarından ekleyin.",
    "Tepsiyi folyo ile sıkıca kapatıp 2 saat pişirin. Bu sürede etin suyunu ve soğanı yumuşatın.",
@@ -61,7 +61,17 @@
  },
  "tip": {
   "tr": "Derinin çıtır olması için pişirmenin son aşamasında fırının üst ısısını yükseltebilirsiniz; ancak etin yanmaması için sık sık kontrol edin.",
-  "en": "For extra crisp skin, dry the scored surface thoroughly before marinating and keep the pork uncovered in the fridge overnight so the skin dries out a little."
+  "en": "For extra crisp skin, dry the scored surface thoroughly before marinating and pat it dry again before roasting. Watch the skin closely during the final high-heat stage so it crisps without burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description mentions \"Aşkın Günü\", which is not a recognized holiday and is unnatural. The English says Puerto Rican holidays, so the Turkish should name the actual holidays, e.g. Noel and Yıl",
+   "Tip contradicts step 3: the tip says to keep the pork uncovered in the fridge overnight, but step 3 says to place it in a covered container.",
+   "Turkish step 3 is garbled: \"bir gece önceden kapatılmış bir kaba\" does not clearly say the meat goes into a covered container, and it does not match the English step."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

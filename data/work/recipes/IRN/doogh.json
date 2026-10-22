@@ -38,7 +38,7 @@
    "Soğuk suyu yavaş yavaş ekleyip çırpmaya devam edin; yoğurt çok koyu kalırsa biraz daha su ekleyin.",
    "Tuz, karabiber ve ezilmiş kuru naneyi karıştırın.",
    "Kaseyi 30 dakika boyunca buzdolabında soğutun.",
-   "Servisten hemen önce maden suyunu ekleyip nazikçe karıştırın ki içecek köpüksün.",
+   "Servisten hemen önce maden suyunu ekleyip nazikçe karıştırın ki içecek köpüklü kalsın.",
    "Bardakları buz küpleriyle doldurun, duğu üzerine dökün ve birkaç yaprak kuru nane serpip hemen servis yapın."
   ],
   "en": [
@@ -55,5 +55,13 @@
   "tr": "Maden suyunu yalnızca servisten hemen önce ekleyin; aksi halde içecek köpüğünü kaybeder.",
   "en": "Add the sparkling water only just before serving, otherwise the drink will lose its fizz."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6: \"ki içecek köpüksün\" is ungrammatical and unnatural. It should be \"köpüklü kalsın\" to match the English \"to keep it fizzy\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A traditional Azerbaijani breakfast of thick, velvety clotted cream served with honey and fresh bread, often enjoyed on festive mornings and at family breakfasts. The cream forms on the surface of gently heated milk as it cools and is then skimmed off."
  },
  "servings": 4,
- "time_min": 40,
+ "time_min": 840,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -31,7 +31,7 @@
   "tr": [
    "Sütü ve ağır kremayı geniş tabanlı, kalın dipli bir tencereye alın.",
    "Karışımı orta-kısık ateşte yavaşça ısıtın. Yüzeyde küçük kabarcıklar ve kenarlarda ince bir halka oluşana kadar, yaklaşık 85°C'ye gelene kadar bekleyin. Kesinlikle kaynatmayın, süt tencerenin dibine yapışabilir.",
-   "Isıyı kapatın ve sütü geniş, sığ bir kaba aktarın. Üzerini temiz bir bezle örtün.",
+   "Isıyı kapatın ve sütü geniş, sığ bir kaba aktarın. Üzerini temiz bir bezle gevşekçe örtün.",
    "Oda sıcaklığında yaklaşık 2 saat bekletin, ardından buzdolabına kaldırıp 8-12 saat soğutun.",
    "Soğuyan sütün yüzeyinde oluşan kalın kaymak tabakasını bir spatula ile dikkatlice kenarından kaldırıp ayrı bir kaseye alın.",
    "Kaymağı servis tabağına alın, üzerine balı gezdirin. Dilerseniz 1 yemek kaşığı tereyağını ılık bir tavada eritip kaymağın üzerine ekleyin.",
@@ -40,7 +40,7 @@
   "en": [
    "Pour the milk and heavy cream into a wide, heavy-based saucepan.",
    "Heat the mixture over medium-low heat until small bubbles appear on the surface and a thin ring forms at the edges, about 85°C. Do not boil, as the milk may scorch on the bottom.",
-   "Remove from the heat and transfer the milk to a wide, shallow dish. Cover with a clean cloth.",
+   "Remove from the heat and transfer the milk to a wide, shallow dish. Cover loosely with a clean cloth.",
    "Leave to stand at room temperature for about 2 hours, then refrigerate for 8 to 12 hours to cool completely.",
    "Using a spatula, carefully lift the thick layer of cream that has formed on the surface and place it in a separate bowl.",
    "Spoon the kaymak onto a serving plate and drizzle with honey. If you like, melt the butter in a warm pan and pour it over the kaymak.",
@@ -48,8 +48,17 @@
   ]
  },
  "tip": {
-  "tr": "Kaymağın kalın bir tabaka oluşması için sütü kaynatmayın ve soğurken kapağını kapatmayın; buharın düşmesi kremanın yüzeyde kalmasını sağlar.",
+  "tr": "Kaymağın kalın bir tabaka oluşması için sütü kaynatmayın ve soğurken üzerini gevşekçe örtün; buharın düşmesi kremanın yüzeyde kalmasını sağlar.",
   "en": "For a thicker layer, never let the milk boil and cover it loosely while it cools so the steam does not thin the cream on top."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts itself across languages: the Turkish tip says not to cover the milk while it cools (\"kapağını kapatmayın\"), but the English tip says to cover it loosely, and step 3 says to cover it wi",
+   "time_min is 40, but the recipe requires about 2 hours at room temperature plus 8-12 hours of chilling, so total time is roughly 10-14 hours. The figure is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A popular Guyanese breakfast of salt cod cooked with onion, tomato and scotch bonnet pepper, served with soft, lightly sweet fried-or-baked dough called bake. It is eaten across the country, from coastal villages to Georgetown's street-side cafés."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 200,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -53,15 +53,15 @@
  },
  "steps": {
   "tr": [
-   "Tuzlu balığı soğuk suda 2 saat bekletin; bu sürede suyu en az 2 kez değiştirin. Ardından balığı süzün, kılçıklarını ayıklayın ve lifleri ayırarak parçalayın.",
+   "Tuzlu balığı soğuk suda 2 saat bekletin; bu sürede suyu en az 2 kez değiştirin. Ardından balığı süzün, kılçıklarını ve derisini ayıklayın, lifleri ayırarak parçalayın.",
    "Parçalanmış balığı temiz suda 15 dakika kaynatın, süzün ve bir kenara koyun.",
    "Büyük bir kapta unu, kabartma tozunu, tuzu ve toz şekeri karıştırın. Tereyağını parmaklarınızla una karışana kadar ovalayın.",
    "Ilık suyu azar azar ekleyerek yumuşak bir hamur yoğurun; yaklaşık 5 dakika yoğurun, üzerini örtüp 15 dakika dinlendirin.",
-   "Fırını 200 °C'ye ısıtın. Hamuru 4 eşit parçaya bölün, her birini yaklaşık 1,5 cm kalınlığında yuvarlak bir ekmek haline getirin ve yağlı fırın kağıdı serili tepsiye dizin.",
+   "Fırını 200 °C'ye ısıtın. Hamuru 4 eşit parçaya bölün, her birini yaklaşık 1,5 cm kalınlığında yuvarlak bir ekmek haline getirin ve fırın kağıdı serili tepsiye dizin.",
    "Ekmekleri üzerleri altın rengi olana ve alta vurunca içi boş bir ses gelene kadar yaklaşık 25 dakika pişirin, sonra tel ızgarada soğumaya bırakın.",
    "Geniş bir tavada bitkisel yağı orta-yüksek ateşte ısıtın. Soğanı, sarımsağı, scotch bonnet biberini ve yeşil biberi yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Domatesi ve kekiği ekleyip domates suyunu salana kadar 5 dakika pişirin, ardından karabiberi serpin.",
-   "Haşlanmış balığı tavaya ekleyin ve karıştırarak 8 dakika daha pişirin; balık sosu iyice emip kıvam aldığında ocaktan alın.",
+   "Haşlanmış balığı tavaya ekleyin ve karıştırarak 8 dakika daha pişirin; sos koyulaşıp balığı iyice kapladığında ocaktan alın.",
    "Limon suyunu ve taze soğanı ekleyip karıştırın. Sıcak bake ekmeklerini ikiye ayırın ve yanında balıklı sos ile servis edin."
   ],
   "en": [
@@ -78,8 +78,20 @@
   ]
  },
  "tip": {
-  "tr": "Tuzlu balığı pişirmeden önce ne kadar çok suda beklettiğinizi tadına göre ayarlayın; ince parçalar daha kısa, kalın parçalar daha uzun bekletilmelidir.",
+  "tr": "Tuzlu balığı pişirmeden önce tadına bakın ve bekletme süresini ayarlayın: ince parçalar yaklaşık 1 saat, kalın filetolar ise buzdolabında bir gece bekletilmelidir.",
   "en": "Taste the fish after soaking and adjust the soaking time: thin pieces need about 1 hour, while thick fillets may need overnight soaking in the fridge."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is inconsistent with the steps: the fish soaks for 2 hours, plus dough resting and about 25 minutes of baking.",
+   "Turkish step 1 omits removing the skin, which the English version includes.",
+   "Turkish step 5 says 'yağlı fırın kağıdı' (greasy baking paper), which is unnatural. The intended meaning is baking paper.",
+   "Turkish step 9 'balık sosu iyice emip kıvam aldığında' is unnatural. The sauce should thicken, not absorb.",
+   "Turkish tip is vaguer than the English one: the English gives about 1 hour for thin pieces and overnight in the fridge for thick fillets, but the Turkish omits both specifics."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -55,9 +55,9 @@
    "Rendelenmiş domatesi ve domates salçasını ekleyip karıştırarak 5 dakika, yağ yüzeye ayrılana kadar pişirin.",
    "Tavukları tencereye geri koyun, bütün acı biberi ve tavuk suyu küpünü ekleyin. Üzerine 700 ml su dökün ve kısık ateşte kapağı aralık bırakarak yaklaşık 20 dakika pişirin.",
    "Yer fıstığı ezmesini 300 ml ılık suyla bir kasede pürüzsüz bir kıvam alana kadar çırpın. Tencereye yavaş yavaş ekleyip sürekli karıştırın.",
-   "Sosu kısık ateşte, dibi tutmaması için sık sık karıştırarak 20 dakika daha pişirin. Çok koyu olursa kalan suyu ekleyip kıvamını ayarlayın, gerekirse tuzla tadını düzeltin.",
+   "Sosu kısık ateşte, dibi tutmaması için sık sık karıştırarak 20 dakika daha pişirin. Çok koyu olursa biraz sıcak su ekleyip kıvamını ayarlayın, gerekirse tuzla tadını düzeltin.",
    "Pirinci soğuk suda 2-3 kez yıkayıp süzün. 600 ml suyu bir tutam tuzla kaynatın, pirinci ekleyin, kapağını kapatıp kısık ateşte 15-18 dakika pişirin ve 5 dakika demlenmeye bırakın.",
-   "Pirinci derin servis tabaklarına koyun, üzerine fıstık sosunu ve tavuk parçalarını gezdirerek servis yapın. Acı biberi servisten önce çıkarın veya sosun içinde bırakıp tadı kontrol edin."
+   "Pirinci derin servis tabaklarına koyun, üzerine fıstık sosunu ve tavuk parçalarını gezdirerek servis yapın. Servisten önce acı biberi çıkarın ve sofradakilere sosun acı olduğunu belirtin."
   ],
   "en": [
    "Season the chicken pieces with salt and black pepper.",
@@ -66,14 +66,23 @@
    "Add the grated tomatoes and tomato paste, stir, and cook for about 5 minutes until the oil starts to separate at the edges.",
    "Return the chicken to the pot, add the whole scotch bonnet pepper and the stock cube. Pour in 700 ml water and simmer gently, partly covered, for about 20 minutes.",
    "Whisk the peanut paste with 300 ml warm water in a bowl until smooth. Gradually stir it into the pot.",
-   "Simmer the sauce on low heat for another 20 minutes, stirring often so it does not stick. If it becomes too thick, add the remaining water, then adjust the consistency and taste with salt.",
+   "Simmer the sauce on low heat for another 20 minutes, stirring often so it does not stick. If it becomes too thick, add a splash of warm water, then adjust the consistency and taste with salt.",
    "Rinse the rice in cold water 2-3 times and drain. Bring 600 ml water with a pinch of salt to a boil, add the rice, cover, and cook on low heat for 15-18 minutes. Let it rest for 5 minutes.",
-   "Spoon the rice into deep serving plates and top with the peanut sauce and chicken pieces. Remove the whole pepper before serving, or warn diners that it is hot."
+   "Spoon the rice into deep serving plates and top with the peanut sauce and chicken pieces. Remove the whole pepper before serving and warn diners that the sauce is hot."
   ]
  },
  "tip": {
   "tr": "Fıstık ezmesi sosun dibinde kolay tutunur; sürekli karıştırın ve ezmeyi mutlaka ılık suyla inceltip ekleyin ki topaklanmasın.",
   "en": "Peanut paste scorches easily on the bottom of the pot, so stir often and always dilute it with warm water before adding it to avoid lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (TR and EN) tells the cook to add the 'remaining' water, but the recipe has already used all ~1 L (700 ml + 300 ml), so no water is left over.",
+   "Step 9: the English says to remove the whole pepper or warn diners, while the Turkish says to leave it in the sauce and check the taste. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -46,7 +46,7 @@
    "Balıkların her iki yanına 2-3 adet çapraz kesik atın. İç kısmını soğuk suyla yıkayıp kağıt havluyla kurulayın.",
    "Limon suyu, tuz, kırmızı biber, sarımsak ve karabiberi bir kasede karıştırın. Bu karışımın yarısını balıkların içine ve üstüne sürün, kalanını bir kenara koyun. Balıkları oda sıcaklığında 20 dakika dinlendirin.",
    "Geniş bir tavada yağı orta-yüksek ateşte yaklaşık 180 °C'ye kadar ısıtın.",
-   "Balıkları her iki yüzü altın rengi olana ve iç kısmı tamamen pişene kadar, yan başına yaklaşık 4-5 dakika kızartın. Çekip kağıt havlu üzerinde süzün.",
+   "Balıkları her iki yüzü altın rengi olana ve iç kısmı tamamen pişene kadar, her yüzünü yaklaşık 4-5 dakika kızartın. Çekip kağıt havlu üzerinde süzün.",
    "Tavadaki yağdan 2 yemek kaşığı bırakıp fazlasını boşaltın. Soğanı orta ateşte 5 dakika, yumuşayıp hafif kızarana kadar soteleyin.",
    "Domatesleri ve yeşil biberi ekleyip 6-8 dakika, domatesler dağılıp sos kıvamını alana kadar pişirin.",
    "Ayırdığınız limonlu marinasyonu ve suyu sosa ekleyin, tuzunu kontrol edip 2 dakika kaynatın.",
@@ -67,5 +67,13 @@
   "tr": "Balığı ızgarada pişirmek istiyorsanız, marine ettikten sonra kömür veya ızgara tavada her iki yanını 4-5 dakika pişirin; sosu aynı şekilde hazırlayıp üzerine ekleyin.",
   "en": "To grill instead, cook the marinated fish over hot charcoal or on a ridged grill pan for 4-5 minutes per side, then finish it in the same tomato sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 uses the unnatural phrase \"yan başına\" for \"per side\"; \"her yüzünü\" is the natural wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

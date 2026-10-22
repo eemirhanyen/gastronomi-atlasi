@@ -21,7 +21,7 @@
    "100 g esmer şeker (tadına göre ayarlayın)",
    "1 tatlı kaşığı vanilya özü",
    "1 tarçın çubuğu",
-   "1/4 çay kaşığı rendelenmiş hindistan cevizi",
+   "1/4 çay kaşığı rendelenmiş muskat",
    "1/2 çay kaşığı tuz"
   ],
   "en": [
@@ -45,7 +45,7 @@
    "Hindistan cevizi sütünü, esmer şekeri ve tuzu tencereye ekleyin. Şeker eriyene kadar karıştırın.",
    "Kısık ateşte 5 dakika daha pişirin. Sütün kaynayıp yağlanmasına izin vermeyin.",
    "Muz halkalarını tencereye ekleyin. Kısık ateşte, arada bir nazikçe karıştırarak 15-20 dakika pişirin; muzlar yumuşayıp kıvam koyulaşana kadar bekleyin.",
-   "Vanilya özünü ve rendelenmiş hindistan cevizini ekleyip karıştırın. Tarçın çubuğunu çıkarın.",
+   "Vanilya özünü ve rendelenmiş muskatı ekleyip karıştırın. Tarçın çubuğunu çıkarın.",
    "Ocaktan alın, 5 dakika dinlendirin ve ılık servis yapın."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Muzların olgun ama hâlâ dik duran türden olmasına dikkat edin; çok yumuşak muzlar kıvamı bozar, çok sert olanlar ise tatlanmaz.",
   "en": "Choose bananas that are ripe and sweet but still firm; overly soft ones break down the texture, while unripe ones stay starchy and bland."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish text uses \"rendelenmiş hindistan cevizi\" for nutmeg. In Turkish, \"hindistan cevizi\" means coconut, so this is misleading. The spice should be called \"muskat\" (rendelenmiş muskat). The English "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

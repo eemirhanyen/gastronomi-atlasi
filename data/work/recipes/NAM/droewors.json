@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Droëwors (Kurutulmuş Biltong Sucuğu)",
+  "tr": "Droëwors (Kurutulmuş Sosis)",
   "en": "Droëwors (Dried Sausage)"
  },
  "native": "Afrikaans",
@@ -9,7 +9,7 @@
   "en": "A firm, air-dried sausage flavoured with ground coriander and vinegar, hugely popular in Namibia and South Africa. It is eaten as a snack, on road trips and at braais (barbecues)."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 720,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -29,7 +29,7 @@
    "8 g ground coriander",
    "2 g freshly ground black pepper",
    "60 ml red wine vinegar",
-   "2 m natural beef casing (22-24 mm diameter)",
+   "2 m beef casing, salted or natural (22-24 mm diameter)",
    "500 ml lukewarm water for soaking the casing"
   ]
  },
@@ -63,5 +63,15 @@
   "tr": "Kurutma sırasında sosislerin sarkmaması için aralarında boşluk bırakın. Bu yöntemde et kuru kalmalı, yağ fazla olmamalıdır; yağlı parçalar kötü kokuya ve bozulmaya yol açabilir.",
   "en": "Hang the sausages with space between them so they dry evenly. Keep the fat content low, since greasy droëwors spoil more quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name calls the product 'Biltong Sucuğu', but biltong is a separate dried-meat strip product, not a sausage. Renamed to 'Kurutulmuş Sosis'.",
+   "time_min (60) does not match the steps, which include 12 hours of resting and 5-7 days of drying. Set to 720 minutes (12 h) for the active and resting time, excluding drying.",
+   "Casing wording differs: Turkish says 'tuzlu veya doğal' (salted or natural), English says only 'natural'. English now matches Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

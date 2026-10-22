@@ -48,13 +48,13 @@
  "steps": {
   "tr": [
    "Balık filetolarını parça parça doğrayın, tuz ve karabiberle hafifçe tatlandırıp bir kenara koyun.",
-   "Büyük bir tencerede zeytinyağını orta-yüksek ateşte ısıtın. Soğanı ekleyip yumuşayana ve hafif pembeleşene kadar yaklaşık 5 dakika kavurun.",
+   "Büyük bir tencerede zeytinyağını orta-yüksek ateşte ısıtın. Soğanı ekleyip yumuşayana ve hafif altınlaşana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsağı ve yeşil biberi ekleyip 2 dakika daha karıştırarak kavurun.",
    "Domatesi ekleyin ve suyunu çekip yağ yüzeye çıkana kadar yaklaşık 5 dakika pişirin.",
    "Kırmızı biber tozunu ve defne yaprağını ekleyip bir dakika karıştırın, ardından sıcak suyu dökün.",
    "Patatesleri ekleyip kaynamaya bırakın. Ateşi orta seviyeye indirin ve patatesler neredeyse yumuşayana kadar yaklaşık 15 dakika pişirin.",
    "Lahanayı ekleyip 5 dakika daha pişirin.",
-   "Balık parçalarını çorbaya nazikçe yerleştirin ve ateşi kısın. Balık pamuk gibi olup dağılmadan pişene kadar yaklaşık 5 ila 7 dakika kaynatmadan pişirin.",
+   "Balık parçalarını çorbaya nazikçe yerleştirin ve ateşi kısın. Balık beyazlaşıp kolayca ayrılana ve dağılmadan pişene kadar yaklaşık 5 ila 7 dakika kaynatmadan pişirin.",
    "Defne yaprağını çıkarın, tuz ve karabiberle tadını ayarlayın. Limon suyunu ve yarısı kadar maydanozu ekleyip ocaktan alın.",
    "Sıcak servis yapın, kalan maydanozu üzerine serpin."
   ],
@@ -75,5 +75,14 @@
   "tr": "Balığı en son ekleyip kaynatmayın; hafifçe pişirirseniz etler yumuşak ve dağılmadan kalır.",
   "en": "Add the fish last and only poach it gently; a rolling boil will make it tough and break it apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 uses the unnatural phrase \"pamuk gibi olup\" (\"becoming like cotton\"), which does not match the English \"opaque and flakes easily\".",
+   "Turkish step 2 says \"hafif pembeleşene\" (turning pinkish), but the English says \"lightly golden\"; the Turkish should say golden (altınlaşana)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

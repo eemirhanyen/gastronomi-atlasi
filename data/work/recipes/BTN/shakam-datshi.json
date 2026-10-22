@@ -9,15 +9,15 @@
   "en": "One of Bhutan's national dishes, this recipe cooks dried beef with chilies and melted datshi cheese. It is usually served hot with red rice at lunch or dinner across the country."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 200,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "250 g kurutulmuş sığır eti (şakam)",
    "1 litre su (etin haşlanması için)",
-   "1 orta boy soğan (about 120 g)",
+   "1 orta boy soğan (yaklaşık 120 g)",
    "4 diş sarımsak",
-   "2 orta boy domates (about 300 g)",
+   "2 orta boy domates (yaklaşık 300 g)",
    "6 adet yeşil acı biber",
    "2 yemek kaşığı sıvı yağ",
    "1 çay kaşığı tuz",
@@ -67,5 +67,14 @@
   "tr": "Datşi peyniri kolay erimezse ocağı çok kısın ve sürekli karıştırın; aşırı ısı peyniri yağlandırır.",
   "en": "If the datshi does not melt easily, keep the heat very low and stir constantly, as high heat makes the cheese oily and grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains English text: \"(about 120 g)\" and \"(about 300 g)\" should be \"(yaklaşık 120 g)\" and \"(yaklaşık 300 g)\".",
+   "time_min (90) is inconsistent with the steps: the 2-hour soak alone exceeds it, and the full process takes roughly 3+ hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

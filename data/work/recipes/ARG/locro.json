@@ -9,7 +9,7 @@
   "en": "A thick, hearty stew from northern Argentina made with white corn, beans, squash, pork and smoked sausages. It is traditionally eaten on national holidays such as May 25 and July 9, and on cold days."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -63,9 +63,9 @@
    "Chorizo ve morcillayı tavaya ekleyin, 3-4 dakika daha kızartın. Etleri süzgece alın ve yağı tavada bırakın.",
    "Aynı tavada soğanları yumuşayana kadar, yaklaşık 6 dakika, kavurun. Sarımsak, tatlı kırmızı biber, kimyon, oregano ve pul biberi ekleyip 1 dakika karıştırarak kokusunu çıkarın.",
    "Balkabağı küplerini tavaya ekleyin, birkaç dakika çevirin. Yarım bardak kadar pişen mısır suyu ekleyip kapağını kapatarak balkabağı yumuşayana kadar, yaklaşık 15 dakika, pişirin.",
-   "Balkabağı karışımını mısır ve fasulyenin olduğu tencereye aktarın. Kızartılmış etleri ve sosisleri de ekleyin, karıştırın.",
+   "Balkabağı karışımını mısır ve fasulyenin olduğu tencereye aktarın. Kızartılmış etleri ve sosisleri de ekleyin, kalan defne yaprağını ekleyip karıştırın.",
    "Locroyu kısık ateşte, ara sıra karıştırarak, 30 dakika daha pişirin. Kıvamı koyulaşınca tuzunu ayarlayın. Gerekirse biraz daha su ekleyerek kıvamı ayarlayın.",
-   "Servis etmeden önce yeşil soğan ve maydanozla süsleyip sıcak servis yapın."
+   "Servis etmeden önce defne yapraklarını çıkarın, yeşil soğan ve maydanozla süsleyip sıcak servis yapın."
   ],
   "en": [
    "Drain the overnight-soaked corn and beans and place them in a large pot. Add 2 L of water and half of the bay leaves.",
@@ -74,14 +74,23 @@
    "Add the chorizo and morcilla to the pan and cook for 3 to 4 more minutes. Remove all the meats with a slotted spoon and leave the fat in the pan.",
    "In the same pan, sauté the onions until soft, about 6 minutes. Add the garlic, paprika, cumin, oregano, and chili flakes, stirring for 1 minute until fragrant.",
    "Add the squash cubes to the pan and stir for a few minutes. Pour in about half a cup of the cooking liquid from the corn, cover, and simmer until the squash is tender, about 15 minutes.",
-   "Transfer the squash mixture into the pot with the corn and beans. Return the browned meats and sausages to the pot and stir well.",
+   "Transfer the squash mixture into the pot with the corn and beans. Return the browned meats and sausages to the pot, add the remaining bay leaf, and stir well.",
    "Simmer the locro over low heat for 30 more minutes, stirring occasionally, until thick. Season with salt to taste and add a little water if it becomes too dense.",
-   "Garnish with green onions and parsley and serve hot."
+   "Remove the bay leaves, garnish with green onions and parsley, and serve hot."
   ]
  },
  "tip": {
   "tr": "Mısır ve fasulyeyi en az 12 saat önceden suya koyun; yeterince yumuşamazlarsa pişirme süresi uzar. Locro, ertesi gün daha da lezzetlidir.",
   "en": "Soak the corn and beans for at least 12 hours; if they are not soft enough, cooking takes much longer. Locro tastes even better the next day."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Only one of the two bay leaves is ever used: step 1 adds half, and no later step adds the rest or removes the leaves before serving.",
+   "time_min is 120, but the steps alone take about 2 hours 20 minutes of cooking (1 h 15 min + 8 + 4 + 6 + 15 + 30 min), before prep and soaking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

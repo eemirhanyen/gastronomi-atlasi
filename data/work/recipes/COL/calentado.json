@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "150 g domuz göbeği, derisi alınmış",
-   "400 g haşlanmış kırmızı fasulye, süzülmüş (yaklaşık 1 konserve)",
+   "400 g haşlanmış kırmızı fasulye, süzülmüş (yaklaşık 1,5 konserve)",
    "150 ml fasulye haşlama suyu veya su",
    "1 soğan, ince doğranmış",
    "1 domates, ince doğranmış",
@@ -31,7 +31,7 @@
   ],
   "en": [
    "150 g pork belly, skin removed",
-   "400 g cooked red beans, drained (about 1 can)",
+   "400 g cooked red beans, drained (about 1.5 cans)",
    "150 ml bean cooking liquid or water",
    "1 onion, finely chopped",
    "1 tomato, finely chopped",
@@ -49,7 +49,7 @@
  },
  "steps": {
   "tr": [
-   "Domuz göbeğini 1 cm'lik küpler halinde kesin. Yapışmaz bir tavada orta ateşte, ara sıra karıştırarak 10-12 dakika kızartın, yağı salınıp çıtır olana kadar pişirin. Domuz etini süzgečli kaşıkla alın ve tavada kalan yağı saklayın.",
+   "Domuz göbeğini 1 cm'lik küpler halinde kesin. Yapışmaz bir tavada orta ateşte, ara sıra karıştırarak 10-12 dakika kızartın, yağı salınıp çıtır olana kadar pişirin. Domuz etini süzgeçli kaşıkla alın ve tavada kalan yağı saklayın.",
    "Tavadaki yağa soğanı ekleyip orta ateşte 6 dakika, yumuşayıp hafif altın rengi alana kadar soteleyin. Sarımsağı ve domatesi ekleyip 8 dakika, domates suyu çekilip sos kıvamı alana kadar pişirin. Kimyonu ve bir tutam tuzu ekleyin.",
    "Süzülmüş fasulyeyi, haşlama suyunu ve defne yaprağını ekleyin. Karıştırıp kısık ateşte 10 dakika pişirin. Kaşıkla fasulyelerin bir kısmını hafifçe ezerek sosu koyulaştırın, tuzunu kontrol edin. Defne yaprağını çıkarın.",
    "Ayrı bir tavaya 1 yemek kaşığı yağ koyup yüksek ateşte ısıtın. Pirinci ekleyin, ara ara karıştırarak 5 dakika kızartın. Tuzla tatlandırıp pirinç tanelerini ayırın.",
@@ -71,5 +71,14 @@
   "tr": "Pirinç ve fasulyeyi bir gün önceden pişirip buzdolabında saklarsanız, sabah tavada kızartıldığında hem daha lezzetli olur hem de dokusu gerçek calentado'ya daha yakın çıkar.",
   "en": "Cooking the rice and beans the day before and refrigerating them gives better flavour and a texture closer to traditional calentado when fried the next morning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a typo: 'süzgečli' should be 'süzgeçli'.",
+   "Bean quantity mismatch: 400 g drained beans is about 1.5 standard ccans, not 1 can (a 400 g can yields roughly 240 g drained). Both language versions need the same correction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

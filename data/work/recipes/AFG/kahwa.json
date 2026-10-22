@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kahve (Safranlı Afgan Çayı)",
+  "tr": "Kahwa (Safranlı Afgan Yeşil Çayı)",
   "en": "Kahwa (Saffron Afghan Green Tea)"
  },
  "native": "کهوه",
@@ -39,7 +39,7 @@
    "Kaynayan suya tarçın çubuğunu ve ezilmiş kakuleyi ekleyin, ocağı kısın ve 3 dakika hafifçe kaynatın.",
    "Ocağı kapatın, yeşil çayı ekleyin ve 3 dakika demlenmeye bırakın. Çayın fazla acılaşmaması için uzun süre kaynatmayın.",
    "Safranı küçük bir kâseye alın, 2 yemek kaşığı sıcak çay suyu ekleyerek rengini ve aromasını açması için 5 dakika bekletin.",
-   "Çayı süzgeçten geçirerek başka bir tencereye alın, şekeri ve demlenmiş safranı ekleyip karıştırın. Şeker eriyene kadar ılık ocakta birkaç dakika bekletin.",
+   "Çayı süzgeçten geçirerek başka bir tencereye alın, şekeri ve demlenmiş safranı ekleyip karıştırın. Şeker eriyene kadar çok kısık ateşte birkaç dakika bekletin.",
    "Çayı bardaklara paylaştırın, üzerine badem dilimlerini ve isteğe bağlı gül yapraklarını serpin.",
    "Sıcak servis yapın."
   ],
@@ -57,5 +57,14 @@
   "tr": "Safranı çaya doğrudan atmak yerine önce sıcak sıvıda bekletmek hem rengini hem aromasını çok daha iyi çıkarır.",
   "en": "Steeping the saffron in a little hot liquid before adding it releases far more colour and aroma than adding the threads directly to the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name \"Kahve\" means coffee in Turkish, which misdescribes this green tea drink; the English name uses \"Kahwa\".",
+   "Turkish step 5 says \"ılık ocakta\" (on a lukewarm stove), which is unnatural and does not match the English \"very low heat\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

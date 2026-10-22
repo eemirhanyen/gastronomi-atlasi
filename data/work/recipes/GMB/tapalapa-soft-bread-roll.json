@@ -9,7 +9,7 @@
   "en": "A slightly sweet, very soft bread roll eaten in Gambia, especially at breakfast and with afternoon tea. It is usually served warm from the oven, often with butter or peanut paste."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 130,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Hamurun sıcaklığı önemlidir; süt ve su çok sıcak olursa maya ölür, bu yüzden parmağınızla dokunabileceğiniz kadar ılık kullanın.",
   "en": "Keep the milk and water lukewarm, not hot; overly hot liquid will kill the yeast and stop the rolls from rising."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short: the steps include about 15 minutes of kneading, a 1-hour first rise, and a 30-minute second proof, plus baking, so the total is about 2 hours 10 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

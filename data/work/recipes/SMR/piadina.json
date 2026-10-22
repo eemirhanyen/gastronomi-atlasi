@@ -35,7 +35,7 @@
    "Hamuru 4 eşit parçaya bölün, toplar haline getirin, üzerini örtüp oda sıcaklığında 30 dakika dinlendirin.",
    "Her topu un serpilmiş bir tezgahta, yaklaşık 25 cm çapında ve 3 mm kalınlığında ince bir yufka haline gelene kadar açın.",
    "Kalın tabanlı bir tavayı orta-yüksek ateşte, yağsız olarak iyice ısıtın.",
-   "Açtığınız hamuru tavaya yerleştirin. Yüzeyinde kabarcıklar ve kahverengi lekeler oluşana kadar her iki tarafta yaklaşık 1-2 dakika pişirin. Kabarcıkları çatalla hafifçe delin.",
+   "Açtığınız hamuru tavaya yerleştirin. Yüzeyinde kabarcıklar ve kahverengi lekeler oluşana kadar her iki tarafta yaklaşık 1-2 dakika pişirin. Büyük kabarcıkları çatalla hafifçe delin.",
    "Pişen piadinaları temiz bir bezin içinde üst üste koyup sararak yumuşak kalmalarını sağlayın. Sıcakken, tercihen peynir ve jambon ile servis edin."
   ],
   "en": [
@@ -53,5 +53,13 @@
   "tr": "Hamuru mutlaka dinlendirin; dinlenmiş hamur büzülmeden çok daha ince açılır ve pişince yumuşak kalır.",
   "en": "Always let the dough rest; rested dough rolls out thinner without shrinking back and stays soft after cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says to prick all bubbles with a fork, but the English version says only large bubbles. The Turkish should match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,7 +6,7 @@
  "native": "Rougaille poisson",
  "desc": {
   "tr": "Mauritius'ta günlük yemeklerin vazgeçilmez parçası olan, domates, sarımsak, zencefil ve taze kekik ile hazırlanan acılı bir balık yemeğidir. Genellikle öğle yemeğinde pirinçle servis edilir.",
-  "en": "A everyday staple of Mauritius, this spicy fish dish cooks firm white fish in a tomato sauce flavoured with garlic, ginger and fresh thyme. It is usually served at lunch with steamed rice."
+  "en": "An everyday staple of Mauritius, this spicy fish dish cooks firm white fish in a tomato sauce flavoured with garlic, ginger and fresh thyme. It is usually served at lunch with steamed rice."
  },
  "servings": 4,
  "time_min": 60,
@@ -57,14 +57,7 @@
    "Doğranmış domatesleri ve domates salçasını ekleyin. Domatesler dağılıp sos kıvamı alana kadar, arada ezerek, yaklaşık 10 dakika pişirin.",
    "Suyu ekleyin, kısık ateşte 5 dakika kaynatın. Tuz ve taze çekilmiş karabiberle tatlandırın.",
    "Marine edilmiş balık parçalarını sosun içine yerleştirin, üzerine sos kaşıkla gezdirin. Tavayı kapatın ve kısık ateşte 6-8 dakika, balık kolayca ayrılana kadar pişirin.",
-   "Taze soğanı ekleyip balığı bozmadan hafifçe karıştırın. Ocaktan alıp 2 dakika dinlendirin, kişniş yapraklarıyla süsleyip pirinç pilavı veya ekmekle servis edin.",
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Taze soğanı ekleyip balığı bozmadan hafifçe karıştırın. Ocaktan alıp 2 dakika dinlendirin, kişniş yapraklarıyla süsleyip pirinç pilavı veya ekmekle servis edin."
   ],
   "en": [
    "Toss the fish chunks with the lime juice and 1/2 tsp salt in a bowl and leave to marinate for 10 minutes.",
@@ -73,19 +66,22 @@
    "Stir in the diced tomatoes and tomato paste. Cook for about 10 minutes, mashing the tomatoes with a spoon, until they break down into a thick sauce.",
    "Pour in the water and simmer gently for 5 minutes. Season with salt and black pepper.",
    "Lay the marinated fish pieces in the sauce and spoon the sauce over them. Cover the pan and simmer gently for 6-8 minutes, until the fish flakes easily.",
-   "Scatter over the spring onions and gently fold them in without breaking up the fish. Remove from the heat, rest for 2 minutes, then garnish with coriander and serve with steamed rice or bread.",
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Scatter over the spring onions and gently fold them in without breaking up the fish. Remove from the heat, rest for 2 minutes, then garnish with coriander and serve with steamed rice or bread."
   ]
  },
  "tip": {
-  "tr": "Sosun dağılmaması için firik ve sert etli balık seçin; balığı pişirirken karıştırmak yerine tavayı sallayarak hareket ettirin.",
+  "tr": "Parçaların dağılmaması için sert etli bir balık seçin; balık sosa eklendikten sonra karıştırmak yerine tavayı yavaşça sallayarak hareket ettirin.",
   "en": "Choose a firm fish so the pieces hold their shape, and shake the pan gently instead of stirring once the fish is in the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Both steps arrays contain 7 empty trailing strings that should be removed",
+   "Turkish tip contains the nonsensical word 'firik' and an awkward phrasing; should say 'sert etli bir balık seçin'",
+   "English description has the article error 'A everyday' (should be 'An everyday')"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

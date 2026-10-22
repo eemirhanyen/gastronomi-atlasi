@@ -5,11 +5,11 @@
  },
  "native": "dègè",
  "desc": {
-  "tr": "Burkina Faso'da, özellikle Mossi topluluğunun yaşadığı bölgelerde yaygın, buğday unu ve sütlü yoğurtla hazırlanan serin bir atıştırmalıktır. Sıcak günlerde öğle sonrası veya kahvaltı yanında tüketilir.",
+  "tr": "Burkina Faso'da, özellikle Mossi topluluğunun yaşadığı bölgelerde yaygın, darı unu ve sütlü yoğurtla hazırlanan serin bir atıştırmalıktır. Sıcak günlerde öğle sonrası veya kahvaltı yanında tüketilir.",
   "en": "A cool millet and yogurt snack popular across Burkina Faso, especially among the Mossi people. It is eaten on hot afternoons or as a light breakfast."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -35,12 +35,12 @@
  },
  "steps": {
   "tr": [
-   "Dari ununu bir kapta alın ve üzerine 200 ml suyu yavaş yavaş serpin. Avuç içlerinizle ovalayarak küçük, tane tane taneciklerin oluşmasını sağlayın.",
+   "Darı ununu bir kapta alın ve üzerine 200 ml suyu yavaş yavaş serpin. Avuç içlerinizle ovalayarak küçük, tane tane taneciklerin oluşmasını sağlayın.",
    "Taneleri elekten geçirin, iri topakları tekrar ovalayın. Bezle kaplı bir kuskus kabında, kaynayan suyun üzerinde 20 dakika buharda pişirin.",
    "Pişen daneleri geniş bir tepsiye yayın, üzerine 50 ml soğuk su serpin ve 15 dakika soğumaya bırakın. Parmaklarınızla topakları dağıtın.",
    "Büyük bir kapta yoğurdu, sütü, şekeri, vanilya özünü ve tuzu çırpın. Şeker tamamen eriyene kadar karıştırın.",
    "Yoğurt karışımını buzdolabında 30 dakika soğutun.",
-   "Soğuyan dari tanelerini yoğurt karışımına ekleyip nazikçe karıştırın. Tekrar buzdolabında 20 dakika bekletin.",
+   "Soğuyan darı tanelerini yoğurt karışımına ekleyip nazikçe karıştırın. Tekrar buzdolabında 20 dakika bekletin.",
    "Degue'yi soğuk olarak küçük kaselerde servis edin."
   ],
   "en": [
@@ -54,8 +54,18 @@
   ]
  },
  "tip": {
-  "tr": "Dari tanelerini sıcakken yoğurtla karıştırmayın; kıvamı bozulur ve taneler yumuşayarak dağılır. Tam soğumalarını bekleyin.",
+  "tr": "Darı tanelerini sıcakken yoğurtla karıştırmayın; kıvamı bozulur ve taneler yumuşayarak dağılır. Tam soğumalarını bekleyin.",
   "en": "Do not mix the millet while it is still warm, or the granules will soften and the texture will turn mushy. Let them cool completely first."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dish is made with \"buğday unu\" (wheat flour), but the ingredients and steps in both languages use millet (darı).",
+   "Turkish steps and tip write \"dari\" instead of the Turkish word \"darı\".",
+   "time_min is 60, but the steps include about 20 min steaming, 15 min cooling, and 30 + 20 min chilling, plus preparation. The total is closer to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

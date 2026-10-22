@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "500 g haşlanmış patates (ya da taze patates)",
-   "300 g haşlanmış yeşil lahana, ince doğranmış",
+   "300 g yeşil lahana, ince doğranmış",
    "150 g soğan, ince doğranmış",
    "40 g tereyağı",
    "30 ml sıvı yağ",
@@ -23,7 +23,7 @@
   ],
   "en": [
    "500 g cooked potatoes (or fresh potatoes)",
-   "300 g cooked green cabbage, finely chopped",
+   "300 g green cabbage, finely chopped",
    "150 g onion, finely chopped",
    "40 g butter",
    "30 ml vegetable oil",
@@ -53,5 +53,14 @@
   "tr": "Lahanayı haşladıktan sonra iyice sıkıp kurutun; böylece kek daha çıtır olur ve tavaya yapışmaz.",
   "en": "Squeeze the cabbage very dry after boiling; this gives a crisper crust and helps the cake hold together in the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cabbage is listed as already cooked ('haşlanmış' / 'cooked green cabbage') but the steps tell you to boil it for 5 minutes. The ingredient should be raw.",
+   "Cooked and raw potato are both listed, with a step for boiling fresh potatoes. This is acceptable as written."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -54,8 +54,8 @@
    "Keki fırından çıkarıp kalıpta 10 dakika dinlendirin. Yüzeyine çatal veya kürdanla birçok delik açın.",
    "Yoğunlaştırılmış süt, evaporated süt, tam yağlı süt ve 60 ml kremayı bir kapta iyice karıştırın. Bu süt karışımını keki ılıkken yavaş yavaş, kenarlardan başlayarak dökün.",
    "Keki oda sıcaklığında yaklaşık 1 saat bekleterek sütün emilmesini sağlayın, ardından buzdolabında en az 3 saat, tercihen bir gece soğutun.",
-   "Soğuk çırpmalık kremayı 1 yemek kaşığı toz şekerle ve kalan vanilya ile sert köpük olana kadar çırpın. Krema kıvamını bozmadan kekin üzerine yayın.",
-   "Servisten hemen önce üzerine bir tutam tarçın serpip dilimleyerek servis yapın."
+   "Soğuk çırpmalık kremayı 1 yemek kaşığı toz şekerle sert köpük olana kadar çırpın. Krema kıvamını bozmadan kekin üzerine yayın.",
+   "Servisten hemen önce üzerine bir tutam tarçın serpip kareler halinde kesin ve soğuk servis yapın."
   ],
   "en": [
    "Preheat the oven to 180°C. Grease a 20x20 cm square tin with butter and line the base with baking paper.",
@@ -65,7 +65,7 @@
    "Remove the cake from the oven and rest it in the tin for 10 minutes. Prick the surface all over with a fork or skewer.",
    "In a bowl, stir together the condensed milk, evaporated milk, whole milk and 60 ml cream. Pour this milk mixture slowly over the warm cake, starting from the edges.",
    "Leave the cake at room temperature for about 1 hour so the milk is absorbed, then refrigerate for at least 3 hours, preferably overnight.",
-   "Whip the cold cream with 1 tablespoon caster sugar and the remaining vanilla until stiff peaks form. Spread it over the cake without deflating it.",
+   "Whip the cold cream with 1 tablespoon caster sugar until stiff peaks form. Spread it over the cake without deflating it.",
    "Just before serving, dust with a pinch of ground cinnamon, then cut into squares and serve cold."
   ]
  },
@@ -73,5 +73,14 @@
   "tr": "Kekin sütü iyi emmesi için sünger kekin ılık olması ve yüzeyinin iyice delinmesi önemlidir; sütü bir seferde değil, yavaş yavaş dökün.",
   "en": "Pour the milk slowly over a warm, well-pricked cake so it soaks in evenly; overnight chilling gives the best texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 refers to 'remaining vanilla' (kalan vanilya) in both languages, but no leftover amount is listed. The full 5 ml is already used in the batter.",
+   "Step 9 English says 'cut into squares and serve cold', but the Turkish omits the square cut and the cold serving."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

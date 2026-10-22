@@ -6,10 +6,10 @@
  "native": "Suqaar",
  "desc": {
   "tr": "Küp doğranmış et, soğan, domates ve baharatlarla pişirilen Somali'nin günlük yemeklerinden biridir. Özellikle Mogadişu ve diğer kıyı kentlerinde öğle ve akşam sofralarında pilav ya da canjeero ile servis edilir.",
-  "en": "A everyday Somali dish of diced meat cooked with onions, tomatoes and spices. It is especially common in Mogadishu and other coastal towns, served at lunch and dinner with rice or canjeero flatbread."
+  "en": "An everyday Somali dish of diced meat cooked with onions, tomatoes and spices. It is especially common in Mogadishu and other coastal towns, served at lunch and dinner with rice or canjeero flatbread."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -60,7 +60,7 @@
    "Kimyon, kişniş tohumu ve kakuleyi ekleyip 30 saniye karıştırarak kokusu çıkana kadar pişirin.",
    "Domates salçasını ekleyip 1 dakika kavurun, ardından rendelenmiş domatesleri ekleyin ve yağ yüzeye ayrılana kadar yaklaşık 8 dakika pişirin.",
    "Kavrulmuş etleri ve küp doğranmış kırmızı dolmalık biberi tencereye geri koyun, suyu ekleyip karıştırın.",
-   "Kapağını kapatın ve kısık ateşte et yumuşayana kadar, yaklaşık 35-40 dakika pişirin. Gerekirse az su ekleyin ancak sos kıvamlı kalsın.",
+   "Kapağını kapatın ve kısık ateşte et yumuşayana kadar, yaklaşık 60-75 dakika pişirin. Gerekirse az su ekleyin ancak sos kıvamlı kalsın.",
    "Son olarak taze kişniş yapraklarını ekleyip 1 dakika daha karıştırın, tadını kontrol edip gerekirse tuz ekleyin.",
    "Sıcak pilav veya canjeero ile servis edin."
   ],
@@ -72,7 +72,7 @@
    "Add the ground cumin, ground coriander and ground cardamom. Stir for 30 seconds until fragrant.",
    "Stir in the tomato paste and cook for 1 minute, then add the grated tomatoes and cook for about 8 minutes until the oil separates at the edges.",
    "Return the browned meat and the diced red bell pepper to the pot and pour in the water. Stir well.",
-   "Cover and simmer gently for 35-40 minutes until the meat is tender. Add a little water if needed, but keep the sauce thick.",
+   "Cover and simmer gently for 60-75 minutes until the meat is tender. Add a little water if needed, but keep the sauce thick.",
    "Stir in the fresh coriander leaves and cook for 1 more minute. Taste and adjust the salt if needed.",
    "Serve hot with rice or canjeero."
   ]
@@ -81,5 +81,14 @@
   "tr": "Eti kavururken tencereyi aşırı doldurmayın; aksi halde et buharda pişer ve renk almaz.",
   "en": "Brown the meat in small batches so the pot is not overcrowded; otherwise it steams instead of browning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Simmer time of 35-40 minutes is too short for 2 cm beef or goat cubes to become tender; typically 60-75 minutes is needed. Total time updated to match.",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1 kg patates (mumsu, nişastalı olmayan değil; orta irilikte)",
+   "1 kg patates (nişastalı, orta irilikte)",
    "1 küçük soğan (yaklaşık 80 g)",
    "1 büyük yumurta (yaklaşık 55 g)",
    "40 g un",
@@ -42,7 +42,7 @@
    "Yumurtayı, unu, tuzu, karabiberi ve mercankoşunu karışıma ekleyip iyice karıştırın. Hamur kıvamlı ve yapışkan olmalı.",
    "Geniş bir tavada yağı orta-yüksek ateşte yaklaşık 180°C'ye kadar ısıtın.",
    "Bir kaşık dolusu hamuru yağa bırakın, kaşığın arkasıyla yaklaşık 1 cm kalınlığında ve 10 cm çapında olacak şekilde düzleştirin.",
-   "Her iki tarafı da altın rengi ve çıtır olana kadar 3-4 dakika kızartın. Tavaya çok plak koymayın; kalabalık olursa çıtırlık kaybolur.",
+   "Her tarafı altın rengi ve çıtır olana kadar 3-4 dakika kızartın. Tavaya çok plak koymayın; kalabalık olursa çıtırlık kaybolur.",
    "Kızarmış plakları kağıt havluya alıp yağını süzün, fırında 90°C'de sıcak tutun. Kalan hamurla aynı işlemi tekrarlayın.",
    "Sıcak plakları ekşi kremayla birlikte servis edin."
   ],
@@ -61,5 +61,14 @@
   "tr": "Hamuru bekletmeyin; rendelenmiş patates kararmadan ve su salmadan hemen kızartın, böylece plaklar daha çıtır olur.",
   "en": "Fry the batter as soon as it is mixed; grated potato darkens and releases water if left standing, which makes the pancakes soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says the potatoes are 'mumsu' (waxy), but the English says 'starchy'. Starchy potatoes are the correct choice for placki, so the Turkish is wrong.",
+   "Turkish step 6 says 'Her iki tarafı da ... 3-4 dakika', which can read as a total time. The English says 3-4 minutes per side."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

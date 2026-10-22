@@ -9,7 +9,7 @@
   "en": "A spiced soup of lamb, chickpeas and tomato, finished with lemon. In Libya it is especially common at Ramadan iftar and is served hot as the opening course of the evening meal."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -59,7 +59,7 @@
    "Sarımsağı ekleyip 30 saniye kavurun, ardından kuzu etini ekleyip her tarafı kahverengileşene kadar yaklaşık 6 dakika pişirin.",
    "Salçayı, kimyonu, tatlı kırmızı biberi ve pul biberi ekleyip 1 dakika karıştırarak kavurun.",
    "Rendelenmiş domatesi ve kerevizi ekleyin, karışım koyulaşana ve yağ yüzeye ayrılana kadar 5 dakika pişirin.",
-   "Suyu ve tuzu ekleyip kaynatın. Ateşi kısın, kapağını kapatarak et yumuşayana kadar yaklaşık 40 dakika hafif kaynatın.",
+   "Suyu ve tuzu ekleyip kaynatın. Ateşi kısın, kapağını kapatarak et yumuşayana kadar yaklaşık 60 dakika hafif kaynatın.",
    "Süzülmüş nohudu ekleyip 10 dakika daha pişirin.",
    "Şehriyeyi ekleyin ve makarna yumuşayana kadar 6-8 dakika pişirin. Gerekirse biraz sıcak su ekleyerek kıvamı ayarlayın.",
    "Ocağı kapatın, maydanoz, kişniş ve limon suyunu ekleyin. Tuzunu tadın ve sıcak servis yapın. Yanında limon dilimleri ve ekmekle sunun."
@@ -69,7 +69,7 @@
    "Add the garlic and stir for 30 seconds, then add the lamb cubes and brown on all sides for about 6 minutes.",
    "Stir in the tomato paste, cumin, sweet paprika and chili flakes and fry for 1 minute.",
    "Add the grated tomatoes and celery and cook for 5 minutes, until the mixture thickens and the oil begins to separate.",
-   "Pour in the water, add the salt and bring to a boil. Reduce the heat, cover and simmer gently for about 40 minutes, until the lamb is tender.",
+   "Pour in the water, add the salt and bring to a boil. Reduce the heat, cover and simmer gently for about 60 minutes, until the lamb is tender.",
    "Add the drained chickpeas and simmer for another 10 minutes.",
    "Add the vermicelli and cook for 6-8 minutes until tender. Add a splash of hot water if the soup has thickened too much.",
    "Turn off the heat, stir in the parsley, coriander and lemon juice. Taste and adjust the salt, then serve hot with lemon wedges and bread."
@@ -79,5 +79,13 @@
   "tr": "Şehriyeyi servisten hemen önce ekleyin; bekletilirse çorba koyulaşır ve makarnalar şişer.",
   "en": "Add the vermicelli just before serving; if it sits, the soup thickens and the noodles swell."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Lamb shoulder cubes simmered for only about 40 minutes will likely not become tender. Shoulder usually needs about 60 minutes or more of gentle simmering, so the step and the total time are inconsiste"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

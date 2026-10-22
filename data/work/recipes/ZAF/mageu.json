@@ -9,7 +9,7 @@
   "en": "A light, cloudy, cooling drink made by naturally fermenting maize porridge. It is found across South Africa, especially among Tswana and Sotho communities, and is drunk chilled in warm months, often at breakfast or with bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1500,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Kapağı sıkı kapatmayın; fermentasyon gazı çıkabilmelidir. En iyi tat ve kıvam için mageuyu 2 gün içinde tüketin.",
   "en": "Do not seal the container airtight, as fermentation gases need to escape. Drink within two days for the best flavour and texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps require 3-4 hours of resting plus 12-24 hours of fermentation, so the stated total time is misleading"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

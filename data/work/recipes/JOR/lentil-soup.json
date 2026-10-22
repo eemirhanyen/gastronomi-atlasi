@@ -20,10 +20,10 @@
    "3 diş sarımsak, ezilmiş",
    "45 ml zeytinyağı",
    "1 tatlı kaşığı öğütülmüş kimyon (3 g)",
-   "8 g tuz",
+   "5 g tuz",
    "1,2 litre sıcak su",
    "1 limon (suyu ve 4 dilim)",
-   "1 pide ekmeği (60 g), küçük küp doğranmış",
+   "1 pita ekmeği (60 g), küçük küp doğranmış",
    "30 ml zeytinyağı (ekmek kızartmak için)"
   ],
   "en": [
@@ -34,7 +34,7 @@
    "3 garlic cloves, crushed",
    "45 ml olive oil",
    "1 teaspoon ground cumin (3 g)",
-   "8 g salt",
+   "5 g salt",
    "1.2 litres hot water",
    "1 lemon (juice and 4 wedges)",
    "1 pita bread (60 g), cut into small cubes",
@@ -50,7 +50,7 @@
    "Mercimekleri, sıcak suyu ve tuzu ekleyin. Kaynayınca üstte biriken köpüğü alın, ateşi kısın ve kapağı yarı açık şekilde mercimekler dağılıp sebzeler yumuşayana kadar 25-30 dakika pişirin.",
    "Ocaktan alıp çorbayı el blenderiyle pürüzsüz hale gelene kadar çekin. Kıvam çok koyuysa sıcak su ekleyerek ayarlayın.",
    "Limonun suyunu ekleyin, tadına bakıp gerekirse tuz ekleyin ve tekrar ısıtın.",
-   "Ayrı bir tavada 30 ml zeytinyağını kızdırın, pide küplerini ekleyip gevrek ve altın rengi olana kadar 3-4 dakika kızartın, süzgece alın.",
+   "Ayrı bir tavada 30 ml zeytinyağını kızdırın, pita küplerini ekleyip gevrek ve altın rengi olana kadar 3-4 dakika kızartın, süzgece alın.",
    "Çorbayı kaseye alın, üzerine kızarmış ekmek küplerini serpin ve limon dilimleriyle servis yapın."
   ],
   "en": [
@@ -69,5 +69,14 @@
   "tr": "Çorbayı blenderla çekmeden önce kısa bir süre kıvamını kontrol edin; sonradan sıcak su eklemek, çok koyu bir çorbayı kolayca gevşetir.",
   "en": "Add the lemon juice after blending and off the heat; cooking the acid with the lentils can make them slower to soften."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'pide ekmeği' is the wrong term: pide is a Turkish boat-shaped bread, while the English 'pita' is a flatbread. Should be 'pita ekmeği'.",
+   "8 g salt for 4 servings (about 2 g per portion, roughly a full day's sodium allowance in one soup) is implausibly high. Reduced to 5 g in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

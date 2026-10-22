@@ -42,7 +42,7 @@
    "Karışım biraz soğuyunca yumurtayı ve rendelenmiş peyniri ekleyin. Yağlanmış ellerle 3-4 dakika yoğurarak pürüzsüz, yapışkan ama şekil verilebilir bir hamur elde edin.",
    "Hamuru 12 eşit parçaya bölün ve her birini avuçlarınızda yuvarlayıp hafifçe bastırarak tepsiye yerleştirin, aralarında boşluk bırakın.",
    "Önceden ısıtılmış fırında 20-25 dakika, üstleri altın sarısı olup kabarana kadar pişirin.",
-   "Sıcak servis yapın; dışı çıtır, içi ise lastiksi ve yumuşak olmalıdır."
+   "Sıcak servis yapın; dışı çıtır, içi ise yumuşak ve çiğnemeli olmalıdır."
   ],
   "en": [
    "Preheat the oven to 200°C and line a baking tray with parchment paper.",
@@ -59,5 +59,13 @@
   "tr": "Yuca nişastası bulamazsanız, Latin market ürünü olarak bulunan tapioka nişastasını kullanabilirsiniz; peynir yerine rendelenmiş mozzarella ile az miktarda parmesan karışımı da iyi sonuç verir.",
   "en": "If you cannot find queso costeño or queso fresco, a mix of grated mozzarella and a little Parmesan works well; the dough should be sticky, so oil your hands rather than adding more starch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 describes the inside as \"lastiksi\" (rubbery), which is an unnatural and unappealing way to describe the intended texture. The English says \"chewy\", so the Turkish should be \"çiğnemeli\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

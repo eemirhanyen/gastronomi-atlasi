@@ -13,11 +13,11 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "3 kg olgun erik (Italian Prune ya da benzeri şekerli, sert etli çeşit)",
+   "3 kg olgun erik (İtalyan eriği ya da benzeri şekerli, sert etli bir çeşit)",
    "300 ml su",
    "100 g toz şeker",
    "5 g şarap mayası (isteğe bağlı)",
-   "Rakı için 1 büyük cam balon veya fermantasyon kabı",
+   "1 büyük cam fermentasyon kabı",
    "Tülbent veya ince bez"
   ],
   "en": [
@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Erikleri soğuk suyla iyice yıkayın, sapları ve çürük kısımları ayıklayın. Çekirdeklerini çıkarıp kabaca ezin ya da elle parçalayarak püre haline getirin.",
+   "Erikleri soğuk suyla iyice yıkayın, sapları ve çürük kısımları ayıklayın. Ikiye ayırıp çekirdeklerini çıkarın ve kabaca ezerek püre haline getirin.",
    "Ezilmiş erikleri fermantasyon kabına alın. Üzerine suyu ve şekeri ekleyip spatulayla karıştırın.",
    "Mayayı kullanacaksanız, küçük bir kâse ılık suda 5 dakika bekletip karışıma ekleyin. Kullanmayacaksanız vahşi mayaya güvenin ve bu adımı atlayın.",
    "Kabın ağzını tülbentle örtüp lastikle sabitleyin. Kabı 18-22°C'de, güneş almayan serin bir yere koyun.",
@@ -55,5 +55,16 @@
   "tr": "Sadece tam olgunlaşmış, şekerli eriklerle yapılan maya, daha yumuşak ve aromatik bir țuică verir; çürük meyve kullanmaktan kaçının.",
   "en": "Use only fully ripe, sugary plums for the best aroma; bruised or unripe fruit produces harsh, sour spirit."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains untranslated English ('Italian Prune'), which reads unnaturally in Turkish.",
+   "Turkish ingredient '1 büyük cam balon' is labeled 'Rakı için', which is an odd and misleading phrase for a fermentation vessel.",
+   "Turkish step 1 omits the halving step that the English version includes ('Halve them'), so the two versions disagree on preparation.",
+   "time_min is 60, but the process takes several weeks of fermentation plus 1-2 months of resting. The time field should be clarified as active time or the total should be corrected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

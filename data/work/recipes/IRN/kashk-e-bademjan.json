@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "3 orta boy patlıcan (yaklaşık 900 g)",
-   "1 tuz",
+   "1 tatlı kaşığı tuz",
    "180 ml sıvı yağ (kızartma için)",
    "2 büyük soğan (yaklaşık 400 g), ince dilim",
    "4 diş sarımsak, ince doğranmış",
@@ -29,7 +29,7 @@
   ],
   "en": [
    "3 medium eggplants (about 900 g)",
-   "1 tsp salt, plus more for the eggplant",
+   "1 tsp salt",
    "180 ml neutral oil, for frying",
    "2 large onions (about 400 g), thinly sliced",
    "4 garlic cloves, finely chopped",
@@ -69,5 +69,14 @@
   "tr": "Kashk bulunmazsa, aynı tuzlu-ekşi tadı vermek için süzme yoğurt ile birkaç damla limon suyu karıştırabilirsiniz; ancak asıl lezzet için kashk'ı Orta Doğu marketlerinden temin etmeye çalışın.",
   "en": "If you cannot find kashk, use thick strained yogurt with a squeeze of lemon juice for a similar tang, though the authentic flavor comes from kashk, sold in Middle Eastern shops."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient \"1 tuz\" is missing a unit (should be a teaspoon measure).",
+   "English ingredient \"1 tsp salt, plus more for the eggplant\" implies extra salt that does not appear in the Turkish list or the steps, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

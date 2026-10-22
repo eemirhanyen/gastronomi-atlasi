@@ -38,9 +38,9 @@
    "Ilık suyu ve zeytinyağını ekleyip yumuşak bir hamur elde edene kadar yoğurun.",
    "Hamuru pürüzsüz ve esnek olana kadar yaklaşık 8-10 dakika yoğurun.",
    "Hamuru üzerini örtüp sıcak bir yerde yaklaşık 30 dakika, iki katına çıkana kadar dinlendirin.",
-   "Hamuru 8 eşit parçaya bölün, her birini 75 g civarında yuvarlayın ve üzerini örterek 10 dakika dinlendirin.",
+   "Hamuru 8 eşit parçaya bölün, her birini yaklaşık 105 g olacak şekilde yuvarlayın ve üzerini örterek 10 dakika dinlendirin.",
    "Dinlenen topları açma için unlanmış bir yüzeyde 18 cm çapında, yaklaşık 5 mm kalınlığında daire şeklinde açın.",
-   "Açtığınız hamurları ısıtılmış tepsiye veya taşa alın ve 3-5 dakika, hamur şişip kabarana kadar pişirin.",
+   "Açtığınız hamurları ısıtılmış tepsiye veya taşa alın ve 3-5 dakika, hamur şişip hafif kızarana kadar pişirin.",
    "Pitaları fırından çıkarıp bir bez ile örterek soğumaya bırakın; böylece yumuşak kalırlar."
   ],
   "en": [
@@ -49,7 +49,7 @@
    "Add the lukewarm water and olive oil and mix until a soft dough forms.",
    "Knead the dough for about 8-10 minutes until smooth and elastic.",
    "Cover the dough and let it rest in a warm place for about 30 minutes, until doubled in size.",
-   "Divide the dough into 8 equal pieces, shape each into a ball of about 75 g, cover and rest for 10 minutes.",
+   "Divide the dough into 8 equal pieces, shape each into a ball of about 105 g, cover and rest for 10 minutes.",
    "On a surface lightly dusted with flour, roll each ball into a round about 18 cm across and 5 mm thick.",
    "Transfer the rounds to the hot tray or stone and bake for 3-5 minutes, until they puff up and brown lightly.",
    "Take the pitas out of the oven and cover them with a clean cloth as they cool, so they stay soft."
@@ -59,5 +59,14 @@
   "tr": "Pitaların cebi oluşması için hamuru çok kalın açmayın ve fırın tepsisi iyice ısınmış olsun.",
   "en": "Roll the dough evenly and keep the tray very hot; an even thickness and a hot surface are what make the pocket form."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight does not add up: the ingredients total about 857 g, so 8 pieces should be about 105 g each, not 75 g (8 × 75 g = 600 g).",
+   "Turkish step 8 omits the light browning ('hafif kızarana kadar') that the English step includes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

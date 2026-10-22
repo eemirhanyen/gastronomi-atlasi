@@ -17,7 +17,7 @@
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
    "1/2 çay kaşığı kimyon",
-   "1/2 çay kaşığı kuru kekik",
+   "1/2 çay kaşığı kuru origan",
    "60 ml turunç suyu (yoksa 2 yemek kaşığı limon suyu ve 2 yemek kaşığı portakal suyu)",
    "4 diş sarımsak, ezilmiş",
    "2 yemek kaşığı zeytinyağı",
@@ -53,25 +53,25 @@
  },
  "steps": {
   "tr": [
-   "Tavuk budlarını tuz, karabiber, kimyon, kekik, turunç suyu ve ezilmiş sarımsağın yarısı ile bir kapta karıştırın. Üzerini örtüp oda sıcaklığında 30 dakika bekletin.",
+   "Tavuk budlarını tuz, karabiber, kimyon, origan, turunç suyu ve ezilmiş sarımsağın yarısı ile bir kapta karıştırın. Üzerini örtüp buzdolabında 30 dakika bekletin.",
    "Safranı 3 yemek kaşığı sıcak tavuk suyunda ıslatın.",
    "Geniş, kalın tabanlı bir tencere veya tavada zeytinyağını orta-yüksek ateşte ısıtın. Tavuk budlarını derisi aşağı gelecek şekilde ekleyip altın rengi olana kadar yaklaşık 6 dakika kızartın, çevirip 3 dakika daha pişirin. Tavuğu bir tabağa alın.",
    "Aynı tencerede soğanı ve yeşil biberi yumuşayana kadar yaklaşık 6 dakika soteleyin. Kalan sarımsağı ekleyip 1 dakika kokusu çıkana kadar pişirin.",
    "Rendelenmiş domatesi ekleyip suyu çekilene kadar 3 dakika pişirin. Pirinci ekleyip sürekli karıştırarak 2 dakika kavurun.",
    "Safranlı suyu, kalan tavuk suyunu ve defne yaprağını ekleyin. Tavuk budlarını derisi üste gelecek şekilde pirincin üzerine yerleştirin.",
    "Kapağı kapatıp ateşi en düşük seviyeye alın ve yaklaşık 20 dakika pişirin. Bu sırada karıştırmayın.",
-   "Bezelyeyi ve kırmızı biber şeritlerini pilavın üzerine serpin, kapağı kapatıp 5 dakika daha pişirin.",
+   "Bezelyeyi ve kırmızı biber şeritlerini pilavın üzerine serpin, kapağı kapatıp 5 dakika daha pişirin. Tavuğun iç sıcaklığı 74°C'ye ulaşmış ve et kemikten kolayca ayrılıyor olmalı.",
    "Ocaktan alıp kapağı kapalı halde 5 dakika dinlendirin. Defne yaprağını çıkarın, pilavı çatalla kabartın ve sıcak servis yapın."
   ],
   "en": [
-   "In a bowl, mix the chicken thighs with the salt, black pepper, cumin, dried oregano, sour orange juice and half of the crushed garlic. Cover and leave at room temperature for 30 minutes.",
+   "In a bowl, mix the chicken thighs with the salt, black pepper, cumin, dried oregano, sour orange juice and half of the crushed garlic. Cover and refrigerate for 30 minutes.",
    "Soak the saffron threads in 3 tablespoons of the hot chicken stock.",
    "Heat the olive oil in a wide, heavy-bottomed pot over medium-high heat. Add the chicken thighs skin side down and brown for about 6 minutes, then turn and cook for 3 minutes more. Transfer the chicken to a plate.",
    "In the same pot, sauté the onion and green pepper for about 6 minutes until soft. Add the remaining garlic and cook for 1 minute until fragrant.",
    "Add the grated tomato and cook for 3 minutes until the juices have reduced. Stir in the rice and toast for 2 minutes, stirring constantly.",
    "Pour in the saffron water, the remaining chicken stock and add the bay leaf. Arrange the chicken thighs skin side up on top of the rice.",
    "Cover with a lid, reduce the heat to low and simmer for about 20 minutes without stirring.",
-   "Scatter the peas and pimiento strips over the rice, cover again and cook for 5 minutes more.",
+   "Scatter the peas and pimiento strips over the rice, cover again and cook for 5 minutes more. The chicken should reach an internal temperature of 74°C (165°F) and the meat should pull easily from the bone.",
    "Remove from the heat and let it rest, covered, for 5 minutes. Discard the bay leaf, fluff the rice with a fork and serve hot."
   ]
  },
@@ -79,5 +79,15 @@
   "tr": "Pirincin altı yanmasın diye kapağı açmadan ve karıştırmadan pişirin; pilav hâlâ sert ama sular çekilmişse birkaç yemek kaşığı sıcak su ekleyip kapağı kapatarak kısa süre daha bekletin.",
   "en": "Keep the lid on and avoid stirring while the rice cooks so the bottom does not scorch; if the rice is still firm but the liquid is absorbed, add a few spoonfuls of hot water, cover and rest for a few minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Spice mismatch: Turkish lists 'kuru kekik' (thyme) but English lists 'dried oregano'. Arroz con pollo is normally seasoned with oregano, so the Turkish should say origan.",
+   "Raw chicken is marinated at room temperature for 30 minutes, which is a food-safety concern. It should be refrigerated.",
+   "No doneness check for the bone-in chicken before serving. A safe internal temperature should be stated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

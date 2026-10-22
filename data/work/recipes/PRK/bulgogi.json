@@ -9,7 +9,7 @@
   "en": "Bulgogi is a classic Korean dish of thinly sliced beef marinated in soy sauce, sugar and grated pear, then cooked quickly over high heat. In North Korea it is served on holidays, at family celebrations and to guests as a main dish."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -25,7 +25,7 @@
    "1 orta boy soğan, ince dilimlenmiş (150 g)",
    "2 yeşil soğan, 4 cm'lik parçalar halinde (30 g)",
    "15 ml bitkisel yağ",
-   "3 g susam, kavrulmuş"
+   "3 g susam"
   ],
   "en": [
    "600 g beef sirloin or ribeye, thinly sliced",
@@ -50,7 +50,7 @@
    "Dilimlenmiş eti sosun içine ekleyip elinizle iyice yoğurun, kapağını kapatın ve en az 30 dakika, tercihen bir gece buzdolabında marine edin.",
    "Kuru bir tavada susamı orta ateşte 1-2 dakika, kokusu çıkana kadar kavurun. Hafifçe ezip kenara alın.",
    "Büyük ve kalın tabanlı bir tavada ya da wokta bitkisel yağı yüksek ateşte, yüzeyi parlayana kadar ısıtın.",
-   "Ince dilimlenmiş soğanı ekleyip 2 dakika, yumuşayana kadar karıştırarak sote edin.",
+   "İnce dilimlenmiş soğanı ekleyip 2 dakika, yumuşayana kadar karıştırarak sote edin.",
    "Marine edilmiş eti birkaç partide ekleyin; her partiyi 2-3 dakika, hafifçe kızarıp sos biraz koyulaşana kadar karıştırarak pişirin. Tavayı aşırı doldurmayın, et haşlanmak yerine kavrulmalıdır.",
    "Son bir dakikada yeşil soğanları ekleyip hızlıca çevirin.",
    "Susamı serpin ve sıcak olarak buharda pişmiş pilavla servis edin."
@@ -71,5 +71,15 @@
   "tr": "Eti dondurucuda bekletmek ince dilimlemeyi kolaylaştırır; eti partiler halinde pişirmek ise etin haşlanmadan kavrulmasını sağlar.",
   "en": "Partially freezing the beef makes it much easier to slice thinly, and cooking in batches keeps the meat seared rather than steamed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'susam, kavrulmuş' (already toasted), but the English list says 'sesame seeds' and step 4 toasts raw seeds. The Turkish ingredient should not say toasted.",
+   "time_min of 60 is too short: the recipe requires 20-30 min of freezing and at least 30 min of marinating, plus cooking, so about 75 min is more realistic.",
+   "Turkish step 6 starts with 'Ince' instead of the correct capitalized 'İnce'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

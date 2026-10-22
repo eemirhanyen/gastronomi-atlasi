@@ -5,15 +5,15 @@
  },
  "native": "kremšnita",
  "desc": {
-  "tr": "Slovenya'nın Bled gölü kıyısından yayılmış, iki kat gevrek milföy arasına vanilyalı krema konularak yapılan klasik bir pastadır. Özellikle yaz aylarında ve kahve saatinde tüketilir.",
+  "tr": "Slovenya'nın Bled gölü kıyısında ortaya çıkmış, iki kat gevrek milföy arasına vanilyalı krema konularak yapılan klasik bir pastadır. Özellikle yaz aylarında ve kahve saatinde tüketilir.",
   "en": "A classic Slovenian dessert from the Lake Bled area, made of two layers of crisp puff pastry sandwiching a vanilla custard cream. It is especially popular in summer and at afternoon coffee time."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 220,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "280 g hazır milföy hamuru (2 yuvarlak yaprak)",
+   "280 g hazır milföy hamuru (2 dikdörtgen yaprak)",
    "500 ml tam yağlı süt",
    "1 adet vanilya çubuğu (veya 1 tatlı kaşığı vanilya özü)",
    "4 adet yumurta sarısı (yaklaşık 70 g)",
@@ -38,6 +38,7 @@
  "steps": {
   "tr": [
    "Fırını 200°C'ye ısıtın. Milföy yapraklarını fırın kağıdı serili bir tepsiye yerleştirin, üzerlerini çatalla birkaç yerden delin ve ikinci bir fırın kağıdı ile ters bir tepsi bastırarak 18-20 dakika altın rengi alana kadar pişirin. Tamamen soğumaya bırakın.",
+   "Soğumuş milföy yapraklarından birbirinin aynı büyüklüğünde iki adet 20x20 cm kare kesin (kenar artıklarını başka bir amaçla kullanabilirsiniz).",
    "Vanilya çubuğunu boylamasına ikiye bölün, içindeki tohumları kazıyın. Sütü tohumları ve çubuğuyla birlikte orta ateşte kaynamaya yakın ısıtın, ardından ocaktan alıp 5 dakika demlendirin ve çubukları çıkarın.",
    "Yumurta sarılarını, toz şekeri ve mısır nişastasını bir kasede pürüzsüz olana kadar çırpın. Sıcak sütün yarısını yavaş yavaş ilave ederek karışmayı sağlayın, sonra karışımı tekrar tencereye dökün.",
    "Tencereyi kısık ateşte sürekli karıştırarak 2-3 dakika, karışım kıvamlanıp hafifçe kaynayana kadar pişirin. Kreması bir kaba alın, yüzeyine streç film bastırarak tamamen soğutun (yaklaşık 1 saat).",
@@ -48,6 +49,7 @@
   ],
   "en": [
    "Preheat the oven to 200°C. Place the puff pastry sheets on a tray lined with baking paper, prick them all over with a fork, cover with a second sheet of baking paper and another tray on top to keep them flat, then bake for 18-20 minutes until golden. Let cool completely.",
+   "Cut two squares of equal size, 20x20 cm each, from the cooled puff pastry sheets (use the trimmings for another purpose).",
    "Split the vanilla pod lengthwise and scrape out the seeds. Heat the milk with the seeds and pod over medium heat until just below boiling, then remove from the heat, let infuse for 5 minutes and discard the pod.",
    "Whisk the egg yolks, granulated sugar and cornstarch in a bowl until smooth. Slowly pour in half the hot milk while whisking, then return the mixture to the pan.",
    "Cook over low heat, stirring constantly, for 2-3 minutes until thick and just bubbling. Transfer to a bowl, press cling film onto the surface and cool completely (about 1 hour).",
@@ -61,5 +63,16 @@
   "tr": "Kremanın yumuşak kalması için mutlaka tamamen soğutun; sıcak krema milföyü ıslatır ve hamuru yumuşatır.",
   "en": "Let the custard cool completely before folding in the cream; warm custard will soften the pastry and make the layers soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says the puff pastry is 'yuvarlak yaprak' (round sheets), but ready-rolled sheets are rectangular, and the English says 'sheets'.",
+   "The sheets are rectangular, but the recipe calls for a 20x20 cm square and never says to trim them, so the pastry won't fit as written.",
+   "time_min (90) doesn't cover the ~1 hour cooling of the custard and at least 2 hours of chilling, so the total time is understated.",
+   "Turkish description 'Bled gölü kıyısından yayılmış' is unnatural; the dish originated on the shore of Lake Bled."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

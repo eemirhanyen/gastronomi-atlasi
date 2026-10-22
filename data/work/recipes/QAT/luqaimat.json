@@ -44,7 +44,7 @@
    "Şerbet için 200 g şekeri ve 150 ml suyu küçük bir tencerede kaynatın. Ateşi kısıp 5 dakika kadar hafif koyulaşana dek pişirin ve sıcak tutun.",
    "Derin bir tencerede sıvı yağı 170-180 °C'ye kadar ısıtın.",
    "Bir kaşığı yağa batırıp hamurdan bir yemek kaşığı kadar alın ve yağa bırakın. Aynı anda 4-5 adet atabilirsiniz.",
-   "Topları 2-3 dakika kızartın, çevirip diğer yüzünü de altın rengi olana ve içi pişene kadar yaklaşık 4 dakika daha kızartın.",
+   "Topları 2-3 dakika kızartın, çevirip diğer yüzünü de toplamda yaklaşık 4 dakika olacak şekilde altın rengi olana ve içi pişene kadar kızartın.",
    "Luqaimatları çıkarıp kağıt havluya alarak yağını süzün.",
    "Sıcak topları sıcak şerbete 10-20 saniye batırıp çıkarın, üzerine susam serpin ve ılık servis yapın."
   ],
@@ -63,5 +63,13 @@
   "tr": "Yağ sıcaklığını termometreyle kontrol edin; yağ çok sıcaksa dış kısım hızla koyulaşır, içi çiğ kalır.",
   "en": "Check the oil with a thermometer; if it is too hot the outside browns quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to fry the other side for about 4 more minutes (about 6-7 minutes total), while the English says about 4 minutes in total. The timings disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

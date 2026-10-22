@@ -9,7 +9,7 @@
   "en": "A traditional bread from northern and mountainous Albania, served with cheese, yogurt and cured meats, especially in winter and at everyday family meals."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 125,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Mısır unu buğday ununa göre daha az gluten içerdiği için hamuru fazla yoğurmayın; dokusu kurursa su yerine biraz daha ılık su ekleyin.",
   "en": "Cornmeal has no gluten, so avoid over-kneading; if the dough feels dry, add a splash more lukewarm water rather than more flour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) does not match the steps: about 8 min kneading, 60 min rising, 20 min resting and 35-40 min baking add up to roughly 125-130 min before prep and cooling"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

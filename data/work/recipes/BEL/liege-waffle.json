@@ -45,7 +45,7 @@
    "Yumuşatılmış tereyağını parça parça ekleyip hamur parlak, pürüzsüz ve elastik olana kadar 10 dakika daha yoğurun.",
    "Hamuru örtüp sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalanmaya bırakın.",
    "Hamuru hafifçe bastırıp gazını alın. İnci şekeri hamura nazikçe yayın; şekerler kırılmasın diye fazla yoğurmayın.",
-   "Hamuru 8 eşit parçaya (yaklaşık 80 g) bölün, yuvarlayıp örtün ve 15 dakika dinlendirin.",
+   "Hamuru 8 eşit parçaya (yaklaşık 120 g) bölün, yuvarlayıp örtün ve 15 dakika dinlendirin.",
    "Waffle makinesini orta-yüksek ateşte ısıtın. Her hamur topunu elinizle hafifçe oval bir şekle getirip makineye yerleştirin.",
    "Kapağı kapatıp 3-4 dakika, kenarları altın rengi ve karamelize olana kadar pişirin.",
    "Waffle'ları sıcak servis edin; isterseniz kahve veya çay ile birlikte sunun."
@@ -57,7 +57,7 @@
    "Add the softened butter a little at a time and knead for 10 more minutes until the dough is glossy, smooth and elastic.",
    "Cover the dough and leave it in a warm place for about 1 hour, until doubled in size.",
    "Gently press the dough to release the air. Scatter the pearl sugar over it and fold it in gently, without overworking, so the sugar grains stay intact.",
-   "Divide the dough into 8 equal pieces (about 80 g each), shape into balls, cover and rest for 15 minutes.",
+   "Divide the dough into 8 equal pieces (about 120 g each), shape into balls, cover and rest for 15 minutes.",
    "Heat the waffle iron on medium-high. Flatten each dough ball slightly into an oval and place it on the iron.",
    "Close the lid and bake for 3-4 minutes, until golden and caramelized at the edges.",
    "Serve the waffles warm, on their own or with coffee or tea."
@@ -67,5 +67,13 @@
   "tr": "İnci şeker ızgara ile temas ettiğinde erir ve karamelleşir; bu yüzden waffle makinesi iyi ısınmış olmalı ve hamur topları yağlanmadan yerleştirilmelidir.",
   "en": "Pearl sugar melts and caramelizes against the hot iron, so make sure the waffle iron is fully preheated and avoid overworking the dough, which can crush the sugar grains."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough portion weight is inconsistent: total dough (about 400 + 120 + 100 + 100 + 60 + 7 + small amounts, plus 180 g pearl sugar) is roughly 980 g, so 8 pieces come to about 120 g each, not 80 g (Turki"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

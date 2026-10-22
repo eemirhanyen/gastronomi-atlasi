@@ -15,7 +15,7 @@
   "tr": [
    "400 g kısa taneli pirinç (kuru)",
    "480 ml su (pirinç için)",
-   "30 ml susam yağı, bölünmüş",
+   "35 ml susam yağı, bölünmüş",
    "5 g tuz (pirinç için, yaklaşık 1 çay kaşığı)",
    "12 g toz şeker (pirinç için, yaklaşık 1 yemek kaşığı)",
    "8 g kavrulmuş susam",
@@ -35,7 +35,7 @@
   "en": [
    "400 g short-grain rice (dry)",
    "480 ml water (for the rice)",
-   "30 ml sesame oil, divided",
+   "35 ml sesame oil, divided",
    "5 g salt (for the rice, about 1 teaspoon)",
    "12 g granulated sugar (for the rice, about 1 tablespoon)",
    "8 g toasted sesame seeds",
@@ -58,13 +58,13 @@
    "Pirinci iyice yıkayıp süzün, 480 ml suyla birlikte bir tencerede kaynatın. Kısık ateşte kapağı kapalı olarak yaklaşık 15 dakika pişirin, ardından 10 dakika demlenmeye bırakın.",
    "Pişen pirinci geniş bir kaba alıp 20 ml susam yağı, tuz ve şekerle karıştırın. Kesici bir spatula ile pirinci ayırarak oda sıcaklığında soğutun ve susamı ekleyin.",
    "Havucu ince çubuklar halinde doğrayın. Tavada 10 ml bitkisel yağla 1 dakika kadar sote edin, bir tutam tuz ekleyip 2 dakika daha pişirin ve kenara alın.",
-   "Yumurtaları tuz ve bir tutam karışımla çırpın. Tavaya az yağ yayıp ince bir omlet pişirin, soğuyunca şerit şeklinde kesin.",
+   "Yumurtaları bir tutam tuzla çırpın. Tavaya az yağ yayıp ince bir omlet pişirin, soğuyunca şerit şeklinde kesin.",
    "Ispanağı kaynayan suda 30 saniye haşlayıp soğuk suya alın. İyice sıkın, avuçlarınızda biraz tuz ve 5 ml susam yağıyla harmanlayın.",
    "Dana etini soya sosu, şeker, sarımsak ve 5 ml susam yağıyla 10 dakika marine edin. Kalan yağda orta-yüksek ateşte suyu çekilene kadar 3 ila 4 dakika pişirin.",
    "Yengeç çubuklarını ve danmuji turşusunu uzunlamasına şeritler halinde kesin.",
-   "Bambu hasırı üzerine bir yaprak yosun koyun. Pirinçten yaklaşık 100 g alıp yosunun alt kenarından 2 cm boşluk bırakarak ince bir tabaka yayın.",
-   "Pirincin orta kısmına havuç, ıspanak, yumurta, et, yengeç çubuğu ve danmuji şeritlerinden küçük bir miktar yerleştirin. Bambu hasırı kullanarak sıkıca sarın.",
-   "Rulonun üzerine kalan susam yağından ince bir tabaka sürün, susam serpin. Bıçağı suya batırıp kenarlarını atın, ardından 2 cm kalınlığında dilimleyin. Diğer yaprakları aynı şekilde hazırlayın."
+   "Bambu hasırı üzerine bir yaprak yosunu parlak yüzü aşağı gelecek şekilde koyun. Pirinçten yaklaşık 100 g alıp yosunun üst kenarından 2 cm boşluk bırakarak ince bir tabaka yayın.",
+   "Pirincin alt kenarına yakın kısmına havuç, ıspanak, yumurta, et, yengeç çubuğu ve danmuji şeritlerinden küçük bir miktar yerleştirin. Bambu hasırı kullanarak sıkıca sarın.",
+   "Rulonun üzerine kalan 5 ml susam yağından ince bir tabaka sürün, susam serpin. Bıçağı suya batırıp kenarlarını atın, ardından 2 cm kalınlığında dilimleyin. Diğer yaprakları aynı şekilde hazırlayın."
   ],
   "en": [
    "Rinse the rice well and drain it. Put it in a pot with 480 ml water and bring to a boil. Cook on low with the lid on for about 15 minutes, then rest it for 10 minutes off the heat.",
@@ -76,12 +76,23 @@
    "Cut the crab sticks and danmuji into long strips.",
    "Place a sheet of seaweed, shiny side down, on a bamboo mat. Spread about 100 g of rice evenly over it, leaving a 2 cm border along the far edge.",
    "Arrange small amounts of carrot, spinach, egg, beef, crab stick, and danmuji along the lower edge of the rice. Roll tightly using the bamboo mat.",
-   "Brush the outside of the roll with the remaining sesame oil and sprinkle with sesame seeds. Dip a knife in water, trim the ends, and slice into 2 cm pieces. Repeat with the remaining sheets."
+   "Brush the outside of the roll with the remaining 5 ml sesame oil and sprinkle with sesame seeds. Dip a knife in water, trim the ends, and slice into 2 cm pieces. Repeat with the remaining sheets."
   ]
  },
  "tip": {
-  "tr": "Pirinci sıcakken değil, oda sıcaklığında soğutup sirke yerine sadece susam yağı ile tatlandırın; yosun dağılmasın diye ince bir tabaka yayın ve her dilimden önce bıçağı suya batırın.",
+  "tr": "Pirinci sıcakken değil, oda sıcaklığında soğutup yalnızca susam yağı, tuz ve şekerle tatlandırın; yosun dağılmasın diye ince bir tabaka yayın ve her dilimden önce bıçağı suya batırın.",
   "en": "Let the rice cool to room temperature before rolling, and spread it in a thin layer so the seaweed does not tear; dip the knife in water before every cut for clean slices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sesame oil is over-allocated: 20 ml (rice) + 5 ml (spinach) + 5 ml (beef) uses all 30 ml, so the 'remaining sesame oil' for brushing the roll in step 10 does not exist. Raised the total to 35 ml in bo",
+   "Turkish step 4 says 'tuz ve bir tutam karışımla' ('salt and a pinch of a mixture'), which is unclear and does not match the English 'pinch of salt'.",
+   "Rolling layout disagrees between languages. Turkish step 8 leaves the border at the bottom edge, while English leaves it at the far edge. Turkish step 9 puts the filling in the 'middle' of the rice, w",
+   "Turkish tip mentions replacing vinegar ('sirke yerine'), but no vinegar appears anywhere in the recipe, and the English tip does not mention it. Removed the vinegar reference and aligned the Turkish t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

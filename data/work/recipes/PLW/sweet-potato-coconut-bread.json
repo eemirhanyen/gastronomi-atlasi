@@ -38,7 +38,7 @@
  "steps": {
   "tr": [
    "Tatlı patatesleri soyun ve 2 cm'lik küpler halinde doğrayın.",
-   "Patatesleri kaynayan suda yaklaşık 15 dakika, çatala yumuşak gelene kadar haşlayın, süzün.",
+   "Patatesleri tuzlu kaynayan suda yaklaşık 15 dakika, çatala yumuşak gelene kadar haşlayın, süzün.",
    "Patatesleri sıcakken pürüzsüz olana kadar ezin ve tamamen soğumasını bekleyin.",
    "Fırını 180°C'ye ısıtın. Fırın tepsisini hafifçe yağlayın.",
    "Büyük bir kapta unu, kabartma tozunu, şekeri ve tuzu karıştırın.",
@@ -67,5 +67,13 @@
   "tr": "Patatesin tamamen soğumasını bekleyin; sıcak püre hamuru yapışkan yapar ve kabarmayı zayıflatır.",
   "en": "Let the mash cool completely before mixing; warm mash makes the dough sticky and weakens the rise."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says to boil the potatoes in boiling water without mentioning salt, but the English version says 'salted water'. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

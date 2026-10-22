@@ -9,12 +9,12 @@
   "en": "A seasoned, garlicky pork sausage from Ukraine, traditionally served at holidays, Sunday breakfasts and family tables with rye bread, pickles and mustard. This home version replaces the traditional multi-day curing and smoking with a quicker poach-and-fry method."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g domuz omuzu (yağı yarı yarıya olan)",
-   "200 g domuz sırt yağı",
+   "600 g domuz omuzu (yağı yaklaşık %30)",
+   "100 g domuz sırt yağı",
    "12 g tuz",
    "4 diş sarımsak",
    "3 g taze çekilmiş karabiber",
@@ -26,8 +26,8 @@
    "15 ml bitkisel yağ"
   ],
   "en": [
-   "600 g pork shoulder (about half fat)",
-   "200 g pork back fat",
+   "600 g pork shoulder (about 30% fat)",
+   "100 g pork back fat",
    "12 g salt",
    "4 garlic cloves",
    "3 g freshly ground black pepper",
@@ -55,7 +55,7 @@
   ],
   "en": [
    "Soak the sausage casing in lukewarm water for 20 minutes, then rinse it through inside and out.",
-   "Cut the pork shoulder and back fat into 1 cm cubes, then pass them through an 8 mm plate of a grinder, or chop finely, to get a coarse minced texture.",
+   "Cut the pork shoulder and back fat into 1 cm cubes, then pass them through an 8 mm plate of a grinder to get a coarse minced texture.",
    "Put the meat in a cold bowl. Add the salt, black pepper, paprika, marjoram and coriander.",
    "Crush the garlic and add it to the meat along with the ice water.",
    "Knead the mixture vigorously for 3 minutes until sticky and uniform. Cover and refrigerate for 30 minutes.",
@@ -71,5 +71,15 @@
   "tr": "Bu sosis taze tüketime yöneliktir; kürleme tuzu kullanılmadığı için pişirdikten sonra buzdolabında saklayın ve iki gün içinde tüketin.",
   "en": "This is a fresh, cook-and-eat sausage with no curing salt, so refrigerate it after cooking and eat within two days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fat content is implausible: 200 g back fat plus about half of 600 g shoulder gives roughly 60% fat. Sausages like this are typically around 30-40% fat. Reduced back fat to 100 g and specified the shou",
+   "time_min is 60, but the steps total roughly 2.5 to 3 hours including soaking, resting, poaching, cooling, air-drying and frying. Changed to 180.",
+   "English step 2 adds 'or chop finely', which is not in the Turkish version. Removed it to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

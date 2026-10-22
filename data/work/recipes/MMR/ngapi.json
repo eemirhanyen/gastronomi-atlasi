@@ -48,7 +48,7 @@
    "Palmiye şekerini ekleyip eriyene kadar karıştırın.",
    "Kızarmış soğan, sarımsak ve kırmızı biberleri havanda ya da bıçakla hafifçe ezerek sosa ekleyin, 2 dakika daha pişirin.",
    "Ocaktan alın, limon suyunu ekleyip karıştırın. Tadına bakıp gerekirse az şeker veya limon ile dengeleyin.",
-   "Sosu küçük bir kaseye alın ve soğuk veya ılık olarak çiğ sebzelerle birlikte servis yapın."
+   "Sosu küçük bir kaseye alın ve oda sıcaklığında veya ılık olarak çiğ sebzelerle birlikte servis yapın."
   ],
   "en": [
    "Wash and slice or break the vegetables into pieces, then set them aside on a plate.",
@@ -67,5 +67,13 @@
   "tr": "Ngapi çok kokulu ve tuzludur; kavurma sırasında pencereyi açın ve sosu kapalı kavanozda buzdolabında bir hafta kadar saklayabilirsiniz.",
   "en": "Ngapi is very pungent and salty, so ventilate the kitchen while frying. Store leftover sauce in a sealed jar in the fridge for up to a week."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 says the sauce is served 'soğuk veya ılık' (cold or warm), while the English says 'warm or at room temperature'. The serving temperature should match in both versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A soft, deep-fried wheat flour dough bread eaten at breakfast, lunch, or alongside fish dishes across Saint Vincent and the Grenadines. It is an everyday staple of island cooking."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 95,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
    "Hamuru 5 dakika kadar pürüzsüz olana dek yoğurun, üzerini örtüp 15 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün, her birini avuç içinde yuvarlayıp 1 cm kalınlığında yuvarlak diskler haline getirin.",
    "Kızartma yağını geniş bir tavada 180°C'ye kadar ısıtın.",
-   "Diskleri sıcak yağa birer birer koyun ve her iki yüzü 4-5 dakika, altın rengi olana kadar kızartın.",
+   "Diskleri sıcak yağa birer birer koyun ve her iki yüzü 3-4 dakika, altın rengi olana kadar kızartın.",
    "Kızarmış ekmekleri kağıt havlu serili bir tabağa alıp fazla yağlarını süzün ve sıcak servis yapın."
   ],
   "en": [
@@ -49,7 +49,7 @@
    "Knead the dough for about 5 minutes until smooth, then cover and rest it for 15 minutes.",
    "Divide the dough into 8 equal pieces and roll each in your palms into round discs about 1 cm thick.",
    "Heat the frying oil in a wide pan to 180°C.",
-   "Fry the discs one at a time in the hot oil for 4-5 minutes per side, until golden brown on both faces.",
+   "Fry the discs one at a time in the hot oil for 3-4 minutes per side, until golden brown on both faces.",
    "Transfer the johnny cakes to a plate lined with paper towels to drain excess oil, then serve warm."
   ]
  },
@@ -57,5 +57,14 @@
   "tr": "Johnny cake'ler geleneksel olarak mısır unuyla değil buğday unuyla yapılır; yağın 180°C'de kalması, içlerinin pişip dışlarının yağlı olmamasını sağlar.",
   "en": "Traditional johnny cakes use wheat flour, not cornmeal; keeping the oil at 180°C ensures the centres cook through without the outsides turning greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't match the steps: about 25 min of prep plus 15 min of rest, then frying 8 discs one at a time at 4-5 min per side, is roughly 90-110 min total",
+   "Frying time of 4-5 min per side for 1 cm discs at 180°C is long and risks scorching the outside before the centre is reliably cooked; 3-4 min per side is more realistic"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

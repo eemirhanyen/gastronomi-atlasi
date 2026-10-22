@@ -35,16 +35,16 @@
    "Taro yapraklarının kalın orta damarlarını çıkarın. Yaprakları kaynar suda 5 dakika haşlayın, süzün ve kağıt havlu ile kurulayın. Taro yaprakları çiğ tüketilmemelidir, bu nedenle iyice pişirilmesi önemlidir.",
    "Dana etini tuz ve karabiberle tatlandırın.",
    "Büyük bir alüminyum folyo üzerine 2-3 yaprağı birbirini kısmen örtecek şekilde yerleştirin. Ortasına yaklaşık 200 g dana eti ve soğan dilimlerini koyun, üzerine 100 ml hindistancevizi kreması gezdirin.",
-   "Yaprakları etin üzerine katlayın ve folyoyu sıkıca sararak kapalı bir paket oluşturun. Aynı işlemi kalan malzemelerle dört kez tekrarlayın.",
+   "Yaprakları etin üzerine katlayın ve folyoyu sıkıca sararak kapalı bir paket oluşturun. Aynı işlemi kalan malzemelerle üç kez tekrarlayın.",
    "Paketleri fırın tepsisine dizin ve yaklaşık 90 dakika, et yumuşayana kadar pişirin.",
-   "Paketleri fırından çıkarıp 5 dakika dinlendirin. Buharın yanmamak için dikkatle açın ve sıcak servis yapın. Yanında pirinç pilavı ile servis edilebilir."
+   "Paketleri fırından çıkarıp 5 dakika dinlendirin. Buharın sıcaklığından korunmak için paketleri yüzünüzden uzaklaştırarak dikkatle açın ve sıcak servis yapın. Yanında pirinç pilavı ile servis edilebilir."
   ],
   "en": [
    "Preheat the oven to 160°C (140°C fan).",
    "Remove the thick central stems from the taro leaves. Boil the leaves in water for 5 minutes, drain and pat dry with kitchen paper. Taro leaves must never be eaten raw, so thorough cooking is essential.",
    "Season the beef with the salt and black pepper.",
    "Lay 2-3 leaves on a large sheet of foil, overlapping slightly. Place about 200 g of beef and a portion of the onion slices in the centre, then drizzle with 100 ml of coconut cream.",
-   "Fold the leaves over the beef and wrap the foil tightly into a sealed parcel. Repeat the process four times with the remaining ingredients.",
+   "Fold the leaves over the beef and wrap the foil tightly into a sealed parcel. Repeat the process three times with the remaining ingredients.",
    "Arrange the parcels on a baking tray and bake for about 90 minutes, until the beef is tender.",
    "Remove the parcels from the oven and rest for 5 minutes. Open them carefully, away from your face, as the steam is hot. Serve warm, ideally with steamed rice."
   ]
@@ -53,5 +53,14 @@
   "tr": "Yaprakları iyice haşlamak hem tadı yumuşatır hem de doğal olarak bulunan kalsiyum oksalatı azaltır; ıspanak kullanırsanız haşlama süresini 2 dakikaya indirebilirsiniz.",
   "en": "Blanching the leaves well softens their texture and reduces the natural calcium oxalate; if using spinach, you can shorten the blanching time to about 2 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 says to repeat the packet process four more times (5 packets total), but 200 g of beef per packet and 100 ml of cream per packet give 1000 g of beef and 500 ml of cream. The listed amounts are ",
+   "Turkish step 7 'Buharın yanmamak için dikkatle açın' is an awkward rendering of the English 'away from your face'. It should be phrased as natural Turkish cooking language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A thick, strained yogurt side dish flavored with garlic and dill and finished with cumin-scented onion oil. In Tajikistan and neighboring Uzbekistan it is served with bread, plov, and meat dishes as a light, tangy accompaniment, especially at family meals and celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Bir eleği temiz bir peynir bezi ile kaplayın ve bir kasenin üzerine yerleştirin.",
-   "Yoğurdu bezin içine dökün, bağlayıp eleğin üzerine asın ve buzdolabında yaklaşık 1 saat süzülmeye bırakın; süzülen suyu (zerdeçayı) atın.",
+   "Yoğurdu bezin içine dökün, bağlayıp eleğin üzerine asın ve buzdolabında yaklaşık 1 saat süzülmeye bırakın; süzülen suyu (peynir suyunu) atın.",
    "Süzülen yoğurdu (çakkayı) geniş bir kaseye alın. Sarımsağı, tuzu ve dereotunu ekleyip pürüzsüz ve kremsi olana kadar karıştırın.",
    "Karıştırılmış çakkayı servis tabağına yayın, ortasında bir çukur açın.",
    "Ayçiçek yağını orta ateşte bir tavada ısıtın. Kimyonu ekleyip 30 saniye kadar kavurun, ardından soğan dilimlerini ekleyip altın rengi alana kadar 8-10 dakika kavurun.",
@@ -55,5 +55,14 @@
   "tr": "Çakkayı daha koyu kıvamda isterseniz süzme işlemini 2-3 saate uzatın; soğanın tatlı bir lezzet alması için yavaş kavurun.",
   "en": "For a firmer texture, drain the yogurt for 2-3 hours or overnight, and fry the onions slowly so they turn sweet rather than bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 calls the whey \"zerdeçay\", which means turmeric in Turkish. It should be \"peynir suyu\" (whey), matching the English.",
+   "time_min is 60, but the recipe requires about 1 hour of draining plus prep and 8-10 minutes of frying, so the total is closer to 80 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

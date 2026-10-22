@@ -9,7 +9,7 @@
   "en": "A traditional, lightly sour fermented milk drink of the Lozi people of Western Zambia. It is served daily with meals and at ceremonies."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1200,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,5 +49,13 @@
   "tr": "Bir sonraki partinin starteri için her seferinde 150 ml ayırın; böylece lezzet ve kültür nesiller boyu korunur.",
   "en": "Set aside 150 ml from each batch as the starter for the next one; this keeps the flavour and cultures going batch after batch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe needs 12-18 hours of fermentation plus at least 2 hours of chilling, so the total time is misleading"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

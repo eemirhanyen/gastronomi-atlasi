@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "1000 ml şekersiz, katkısız soya sütü (tercihen evde yapılmış veya tam soya içeren)",
+   "1000 ml şekersiz, katkısız soya sütü (tercihen evde yapılmış veya tam yağlı)",
    "1,5 g gıda sınıfı kalsiyum sülfat (alçı taşı, jips)",
    "60 ml soğuk su",
    "100 g esmer şeker",
@@ -38,7 +38,7 @@
    "Soya sütünü geniş bir tencereye alın ve kısık-orta ateşte 90°C'ye kadar ısıtın. Kaynatmayın; kenarlarında köpük oluşmaya başlayınca ocağı kısın ve süt sıcaklığını 80-85°C civarında tutun.",
    "Kalsiyum sülfatı 60 ml soğuk suda tamamen eriyene kadar karıştırın.",
    "Ocağı kapatın. Sütü hafifçe karıştırarak eriyiğin tamamını ince bir sızıntı halinde dökün. Bu noktadan sonra kaşıkla karıştırmayı bırakın.",
-   "Tencerenin kapağını kapatın ve sütü sıcak bir yerde 15-20 dakika bekletin. Süt, yüzeyi düzgün ve titrek bir jöle kıvamına gelene kadar donacaktır.",
+   "Tencerenin kapağını kapatın ve sütü sıcak bir yerde 15-20 dakika bekletin. Süt, yüzeyi düzgün ve titrek bir jöle kıvamına gelene kadar jelleşecektir.",
    "Şeker ve suyu bir tencereye alıp orta ateşte kaynatın. Zencefil dilimlerini ekleyin ve 10 dakika kaynatıp şerbeti süzün.",
    "Fıstıkları kabaca ezin ve isteğe bağlı olarak kırmızı fasulyeyi hazır bulundurun.",
    "Douhuayı kaşıkla büyük parçalar halinde kesip servis kaselerine alın. Üzerine sıcak zencefilli şerbetten gezdirin, fıstık ve fasulye ile süsleyerek hemen servis edin."
@@ -57,5 +57,14 @@
   "tr": "Kalsiyum sülfatın oranı ve sütün sıcaklığı kıvamı belirler; sütü çok sıcak tutmak ya da eriyiği hızlı eklemek tofu yerine sert, lastik bir doku verebilir.",
   "en": "The coagulant ratio and milk temperature control the texture; overheating the milk or adding the coagulant too quickly can make the curd firm and rubbery instead of silky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the milk 'donacaktır' (will freeze), which is wrong for a coagulation step. It should say it will set into a jelly-like curd (jelleşecektir).",
+   "Turkish ingredient 'tam soya içeren' means 'containing whole soybeans', which does not match the English 'full-fat'. It should be 'tam yağlı'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

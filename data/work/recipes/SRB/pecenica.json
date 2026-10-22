@@ -1,15 +1,15 @@
 {
  "name": {
-  "tr": "Pecenitsa (Sırp usulü fırın domuz eti)",
+  "tr": "Pečenica (Sırp usulü fırın eti)",
   "en": "Pečenica (Serbian Roast Pork)"
  },
  "native": "Печеница",
  "desc": {
-  "tr": "Sırbistan'da özellikle kış ve bayram sofralarında, kimyonlu ve sarımsaklı baharatla kızartılan dana, domuz ya da kuzu eti yemeğidir. Genellikle kaymak ve turşuyla birlikte servis edilir.",
-  "en": "A traditional Serbian roast of pork or lamb seasoned with garlic, paprika and caraway, eaten especially at winter gatherings and festive family meals. It is typically served with kajmak (a creamy dairy spread) and pickles."
+  "tr": "Sırbistan'da özellikle kış ve bayram sofralarında, kimyonlu ve sarımsaklı baharatla fırınlanan domuz, dana ya da kuzu eti yemeğidir. Genellikle kaymak ve turşuyla birlikte servis edilir.",
+  "en": "A traditional Serbian roast of pork, beef or lamb seasoned with garlic, paprika and caraway, eaten especially at winter gatherings and festive family meals. It is typically served with kajmak (a creamy dairy spread) and pickles."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 170,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,7 +47,7 @@
    "Tuz, tatlı kırmızı biber, kimyon, karabiber ve ezilmiş sarımsağı küçük bir kasede ayçiçek yağıyla karıştırarak macun haline getirin.",
    "Eti yüzeyi kurulayın, baharat macununu her yerine ve et lifleri arasına iyice sürün. Yapışması için 20 dakika beklemesine izin verin.",
    "Fırın tepsisine soğanı ve defne yapraklarını yayın, üzerine eti yağlı tarafı yukarı gelecek şekilde yerleştirin.",
-   "Tepsiye bira ya da suyu dökün, folyo ile örtün ve yaklaşık 1 saat kavurun.",
+   "Tepsiye bira ya da suyu dökün, folyo ile örtün ve yaklaşık 1 saat fırınlayın.",
    "Folyoyu kaldırın, eti yaklaşık 45 dakika daha pişirin. Bu sırada 20 dakikada bir tencere sularıyla etin üzerini gezdirin.",
    "Et iç sıcaklığı yaklaşık 70°C'ye ulaşınca fırından çıkarın, 10 dakika dinlendirip ince dilimleyin.",
    "Dilimleri tencerede kalan soğanlı suyla birlikte servis edin, yanına kaymak ve turşu koyun."
@@ -67,5 +67,16 @@
   "tr": "Etin iç sıcaklığını bir mutfak termometresiyle kontrol edin; 70°C'de et hem suyunu korur hem de tamamen pişmiş olur.",
   "en": "Check the internal temperature with a kitchen thermometer; at 70°C the meat stays juicy and is fully cooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dish is made with beef, pork or lamb (\"dana, domuz ya da kuzu\"), but the English says pork or lamb only.",
+   "Turkish description uses \"kızartılan\" (fried), which doesn't fit an oven roast. Turkish step 5 uses \"kavurun\" (sauté/brown) for the covered oven cooking, where \"fırınlayın\" (roast/bake) is correct.",
+   "time_min is 150, but the steps total about 165 minutes of rest and cooking plus preheating.",
+   "Turkish name uses \"Pecenitsa\", which doesn't match the Latin spelling \"Pečenica\" used in the native name and English name."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

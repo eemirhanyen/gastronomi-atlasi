@@ -9,7 +9,7 @@
   "en": "Kurt is a traditional Kazakh snack of salted, sun- or air-dried strained yogurt balls, rooted in nomadic herding life. It is eaten as a hard, sour snack with tea, especially on the road and in the warmer months."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 4320,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,5 +49,13 @@
   "tr": "Kurdun küflenmesini önlemek için kurutma sırasında topları birbirine değdirmeyin; küf görürseniz tuzlu suya batırılmış bezle silin ve kurutmaya devam edin.",
   "en": "Keep the balls apart while drying and make sure the air moves freely; if mould appears, wipe it off with a cloth dipped in salt water and continue drying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is misleading: straining takes 8-12 hours and air-drying takes 3-5 days, so the total time is far longer than one hour"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

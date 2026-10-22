@@ -20,7 +20,8 @@
    "250 g Emmental peyniri, rendelenmiş",
    "200 ml krema",
    "200 ml tam yağlı süt",
-   "1 tatlı kaşığı tuz",
+   "1 tatlı kaşığı tuz, makarna suyu için",
+   "1/2 tatlı kaşığı tuz, sos için",
    "1/2 tatlı kaşığı karabiber",
    "1/4 tatlı kaşığı rendelenmiş hindistancevizi",
    "200 g elma püresi, servis için"
@@ -33,7 +34,8 @@
    "250 g Emmental cheese, grated",
    "200 ml double cream",
    "200 ml whole milk",
-   "1 tsp salt",
+   "1 tsp salt, for the pasta water",
+   "1/2 tsp salt, for the sauce",
    "1/2 tsp black pepper",
    "1/4 tsp grated nutmeg",
    "200 g apple sauce, for serving"
@@ -49,7 +51,7 @@
    "Fırını 180°C'ye ısıtın ve bir fırın kabının iç yüzeyini biraz tereyağıyla yağlayın.",
    "Makarna ve patateslerin yarısını kaba yayın, üzerine soğanların yarısını ve peynirin üçte birini serpin.",
    "Kalan makarna-patatesi, soğanı ve peynirin bir kısmını katman katman ekleyin, en üste peynirin kalanını koyun.",
-   "Kremayı, sütü, karabiberi ve hindistancevizini bir kapta karıştırın, sonra tuzu ekleyip makarnanın üzerine dökün.",
+   "Kremayı, sütü, karabiberi ve hindistancevizini bir kapta karıştırın, sonra 1/2 tatlı kaşığı tuzu ekleyip makarnanın üzerine dökün.",
    "Kabı fırının orta rafına koyun ve 20 dakika, üstü altın rengi ve kenarları kabarana kadar pişirin.",
    "Sıcak servis yapın, yanında elma püresi ile sunun."
   ],
@@ -62,14 +64,23 @@
    "Preheat the oven to 180°C and grease an ovenproof dish with a little butter.",
    "Spread half of the macaroni and potatoes in the dish, then sprinkle over half of the onions and one third of the cheese.",
    "Add the remaining macaroni, potatoes, onions and some of the cheese in layers, finishing with the rest of the cheese on top.",
-   "In a bowl, mix the cream, milk, pepper and nutmeg, then stir in the salt and pour over the macaroni.",
+   "In a bowl, mix the cream, milk, pepper and nutmeg, then stir in 1/2 tsp salt and pour over the macaroni.",
    "Place the dish on the middle rack and bake for 20 minutes, until the top is golden and the edges are bubbling.",
    "Serve hot with apple sauce on the side."
   ]
  },
  "tip": {
-  "tr": "Patatesi makarnayla birlikte pişirmek, nişastasının kremayı ve peyniri daha iyi bağlamasını sağlar; kızarmış soğanı ise kalın dilimler halinde değil ince dilimlenmiş halde kullanın.",
+  "tr": "Patatesi makarnayla birlikte pişirmek, nişastasının kremayı ve peyniri daha iyi bağlamasını sağlar. Soğanları ince dilimleyin ki eşit şekilde karamelize olsunlar.",
   "en": "Cooking the potatoes with the macaroni lets their starch help bind the cream and cheese; keep the onions thinly sliced so they caramelise evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed once (1 tsp) but used twice: in the pasta water (step 1) and again in the cream mixture (step 9). The amount is ambiguous, so the salt is now split between the two uses in both language",
+   "Turkish tip sentence about the onions is unnatural and muddled. It is rewritten to match the English meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

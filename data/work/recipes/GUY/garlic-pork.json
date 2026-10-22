@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g kemikсиз domuz omuzu, 3 cm küp doğranmış",
+   "800 g kemiksiz domuz omuzu, 3 cm küp doğranmış",
    "10 diş sarımsak, ince kıyılmış (yaklaşık 40 g)",
    "1 orta boy soğan, ince doğranmış (150 g)",
    "1 adet bütün acı biber (scotch bonnet), üzeri çatalla delinmiş",
@@ -47,7 +47,7 @@
   "tr": [
    "Büyük bir kapta domuz etini, sarımsağı, soğanı, beyaz sirkeyi, tuzu, karabiberi, kekiği, yenibaharı ve delinmiş acı biberi iyice karıştırın. Üzerini örtüp buzdolabında en az 2 saat, tercihen bir gece bekletin.",
    "Ağır tabanlı bir tencerede sıvı yağı orta ateşte ısıtın. Esmer şekeri ekleyip sürekli karıştırarak 1-2 dakika eritin; şeker koyu kahverengiye dönene kadar bekleyin ama yanmasına izin vermeyin.",
-   "Marine edilmiş domuz etini sarımsak ve soğanla birlikte tencereye alın. Ara sıra karıştırarak 5-6 dakika, et yüzeyi hafifçe renk alana kadar kavurun.",
+   "Marine edilmiş domuz etini, sarımsak ve soğanıyla birlikte tencereye alın. Ara sıra karıştırarak 5-6 dakika, et yüzeyi hafifçe renk alana kadar kavurun.",
    "Suyu ekleyip karıştırın ve kaynatın. Ateşi kısın, tencerenin kapağını kapatın ve et yumuşayana kadar 60-70 dakika kısık ateşte pişirin. Gerekirse birkaç kez kontrol edip biraz su ekleyin.",
    "Kapağı açın, ateşi biraz artırın ve sos koyulaşıp parlak bir kıvam alana kadar yaklaşık 10 dakika karıştırarak pişirin.",
    "Acı biberi zarar görmeden çıkarın (içi patlarsa yemek çok acı olur). Tadına bakıp gerekirse tuz ekleyin.",
@@ -56,7 +56,7 @@
   "en": [
    "In a large bowl, mix the pork, garlic, onion, white vinegar, salt, black pepper, thyme, allspice and pricked scotch bonnet until well combined. Cover and refrigerate for at least 2 hours, or preferably overnight.",
    "Heat the vegetable oil in a heavy-based pot over medium heat. Add the brown sugar and stir constantly for 1–2 minutes until it melts and turns a deep amber, taking care not to let it burn.",
-   "Add the marinated pork, garlic and onion to the pot. Brown for 5–6 minutes, stirring occasionally, until the surface of the meat is lightly coloured.",
+   "Transfer the marinated pork, together with its garlic and onion, to the pot. Brown for 5–6 minutes, stirring occasionally, until the surface of the meat is lightly coloured.",
    "Pour in the water and bring to the boil. Reduce the heat, cover the pot and simmer gently for 60–70 minutes until the pork is very tender, adding a splash more water if it looks dry.",
    "Remove the lid, raise the heat slightly and cook for about 10 minutes, stirring, until the sauce thickens and becomes glossy.",
    "Carefully lift out the scotch bonnet without bursting it (a burst pepper makes the dish far too hot). Taste and add more salt if needed.",
@@ -67,5 +67,14 @@
   "tr": "Acı biberi bütün ve delinmiş halde pişirin; sadece aroma verir, kesilirse yemek aşırı acılaşır.",
   "en": "Keep the scotch bonnet whole and pricked: it adds fruity aroma and gentle heat, but cutting it will make the dish fiercely hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kemikсиз' contains Cyrillic characters; corrected to 'kemiksiz'.",
+   "Steps 1 and 3 (both languages) list garlic and onion as ingredients added to the pot, but they were already mixed into the marinade in step 1. The quantities are not clearly split, so the step should "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

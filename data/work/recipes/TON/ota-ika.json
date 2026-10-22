@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığı en son günün en taze hâlinde kullanın ve lime suyunu kaseye dökmeden önce ortalamasına süzmeyi unutmayın; bu, salatanın fazla ekşi ve sulu olmasını önler.",
+  "tr": "Balığı en son günün en taze hâlinde kullanın ve hindistancevizi kremasını eklemeden önce kaseden fazla lime suyunu süzün; bu, salatanın fazla ekşi ve sulu olmasını önler.",
   "en": "Use the freshest fish you can find, and drain off some of the lime juice before adding the coconut cream so the salad stays creamy rather than watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to drain the lime juice before pouring it into the bowl, which contradicts the steps (draining happens after marinating) and the English tip (drain before adding coconut cream).",
+   "Turkish tip uses unnatural phrasing ('ortalamasına süzmeyi')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

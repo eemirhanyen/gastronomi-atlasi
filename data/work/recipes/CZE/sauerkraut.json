@@ -5,7 +5,7 @@
  },
  "native": "Kysané zelí",
  "desc": {
-  "tr": "Çek mutfağının vazgeçilmez garnitürlerinden olan bu yemek, kızarmış domuz eti, sosisli veya knedlík ile kış aylarında ve özellikle Noel sofralarında servis edilir. Ekşi lahananın kekre tadı kimyon ve ardıç ile yumuşatılır.",
+  "tr": "Çek mutfağının vazgeçilmez garnitürlerinden olan bu yemek, kızarmış domuz eti, sosisli veya knedlík ile kış aylarında ve özellikle Noel sofralarında servis edilir. Ekşi lahananın keskin ekşiliği kimyon ve ardıçla yumuşatılır.",
   "en": "One of the essential side dishes of Czech cooking, this is served with roast pork, sausages or knedlíky (dumplings), especially in winter and on Christmas tables. The sharp sourness of the cabbage is softened with caraway and juniper."
  },
  "servings": 4,
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Kimyon ve ardıç tatlarını dengelemek için kavurma aşamasında bu baharatları yağda birkaç saniye bekletmek aromayı belirgin şekilde artırır.",
+  "tr": "Kimyon ve ardıç tatlarını dengelemek için kavurma aşamasında bu baharatları yağda yaklaşık yarım dakika bekletmek aromayı belirgin şekilde artırır.",
   "en": "Frying the caraway and juniper briefly in the fat before adding the cabbage releases their aroma and gives a much deeper flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls the sauerkraut's taste \"kekre\" (bitter/astringent), but the English says \"sharp sourness\". The Turkish should say \"ekşilik\".",
+   "Turkish tip says frying the spices for \"birkaç saniye\" (a few seconds), but the step says about half a minute. The English tip just says \"briefly\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

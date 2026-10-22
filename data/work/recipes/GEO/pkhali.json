@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Pkhali (Ispanaklı)",
+  "tr": "Pkhali (ıspanaklı)",
   "en": "Pkhali (Spinach)"
  },
  "native": "ფხალი",
@@ -65,5 +65,13 @@
   "tr": "Ispanağı ne kadar iyi sıkarsanız, macun o kadar yoğun ve lezzetli olur; sulu bir karışım pkhali'nin şekil almasını zorlaştırır.",
   "en": "The drier you squeeze the spinach, the firmer and more flavourful the paste will be; excess water makes the mixture hard to shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish spelling: 'Ispanak' and its forms are written without the dotless ı (ı) in the title, an ingredient, steps and the tip. The correct form is 'ıspanak'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

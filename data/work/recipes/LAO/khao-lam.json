@@ -17,7 +17,7 @@
    "400 ml hindistancevizi sütü",
    "100 ml su",
    "100 g palmiye şekeri veya esmer şeker, rendelenmiş",
-   "2 g tuz (yaklaşık bir tutam)",
+   "2 g tuz (yaklaşık yarım çay kaşığı)",
    "2 pandan yaprağı, düğümlenmiş",
    "4 adet taze bambu tüpü (yaklaşık 20 cm uzunluğunda, 5 cm çapında)",
    "1 parça muz yaprağı (tüpleri kapatmak için)"
@@ -27,7 +27,7 @@
    "400 ml coconut milk",
    "100 ml water",
    "100 g palm sugar or brown sugar, grated",
-   "2 g salt (about a pinch)",
+   "2 g salt (about half a teaspoon)",
    "2 pandan leaves, tied in a knot",
    "4 fresh bamboo tubes (about 20 cm long, 5 cm diameter)",
    "1 piece banana leaf (to plug the tubes)"
@@ -59,5 +59,13 @@
   "tr": "Bambu bulamazsanız, pirinci yağlanmış alüminyum folyo paketlerinde de pişirebilirsiniz; kokuyu korumak için pandan yaprağını yine ekleyin.",
   "en": "If you cannot find bamboo, wrap the rice in greased foil parcels instead and keep the pandan for aroma; the texture will be slightly less smoky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity (2 g) is described as 'about a pinch' in Turkish and English. A pinch is roughly 0.3-0.5 g, so the description contradicts the amount. Changed to about half a teaspoon."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

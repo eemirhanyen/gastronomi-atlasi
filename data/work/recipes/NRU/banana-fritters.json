@@ -42,12 +42,12 @@
    "Muzları soyun ve çatalla ezerek yumuşak bir püre haline getirin.",
    "Büyük bir kapta un, kabartma tozu, şeker ve tuzu karıştırın.",
    "Başka bir kapta yumurtayı, hindistan cevizi sütünü ve vanilya özünü çırpın.",
-   "Sıvı karışımı kuru malzemelerin üzerine ekleyip spatula ile karıştırın; yarı pişmiş yumurtalı bir hamur elde edin.",
+   "Sıvı karışımı kuru malzemelerin üzerine dökün ve spatula ile yalnızca karışana kadar hafifçe karıştırın.",
    "Muz püresi ve rendelenmiş hindistan cevizini ekleyip hamur yapışkan ama dökülebilir kıvama gelene kadar karıştırın. Gerekirse 1-2 yemek kaşığı su ekleyin.",
-   "Derin bir tencerede yağı 170-175°C'ye kadar ısıtın. Yağ yoksa hamurdan bir parça atıp yüzeye çıkıp köpürdüğünden emin olun.",
+   "Derin bir tencerede yağı 170-175°C'ye kadar ısıtın. Yağın hazır olup olmadığını anlamak için hamurdan küçük bir parça atın; hemen cızırdayıp yüzeye çıkmalıdır.",
    "Hamurdan yemek kaşığı ile alıp kızgın yağa bırakın; her seferinde 4-5 parça kızartın.",
    "Hamurlar altın rengi olana ve içleri pişene kadar yaklaşık 3-4 dakika kızartın, ara sıra çevirin.",
-   "Süzgečli kaşıkla alıp kağıt havlu üzerinde yağını süzün ve sıcak servis yapın."
+   "Süzgeçli kaşıkla alıp kağıt havlu üzerinde yağını süzün ve sıcak servis yapın."
   ],
   "en": [
    "Peel the bananas and mash them with a fork to a smooth purée.",
@@ -62,8 +62,19 @@
   ]
  },
  "tip": {
-  "tr": "Muz ne kadar olgunsa fritürlerin tatlılığı ve kokusu o kadar güçlü olur; kabuğunda kahverengi lekeler olan muzlar idealdir.",
+  "tr": "Muz ne kadar olgunsa fritürlerin tatlılığı ve kokusu o kadar güçlü olur; kabuğunda kahverengi lekeler olan muzlar idealdir. Çok olgun muzlarda ekstra şeker eklemekten kaçının.",
   "en": "The riper the banana (brown-speckled skin), the sweeter and more fragrant the fritters will be; avoid adding extra sugar if the bananas are very ripe."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the batter should be 'yarı pişmiş' (half-cooked), which is wrong. The English says 'until just combined', meaning the mixture should only be lightly stirred.",
+   "Turkish step 6 begins 'Yağ yoksa' ('if there is no oil'), which mistranslates the English 'Test by dropping in a small piece of batter'. The intended meaning is checking that the oil is hot enough.",
+   "Turkish step 9 contains a typo ('Süzgečli' with a non-Turkish letter); it should be 'Süzgeçli'.",
+   "The English tip advises avoiding extra sugar when bananas are very ripe, but the Turkish tip omits this, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

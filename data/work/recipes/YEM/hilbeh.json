@@ -5,7 +5,7 @@
  },
  "native": "حلبة",
  "desc": {
-  "tr": "Yemen'in her sofrasında yer alan, çemen (kimyonlu hilbe tohumu) ezmesinden yapılan acımsı ve köpüklü bir sos. Genellikle sabah kahvaltısında, sıcak ekmekle ve domates, sarımsak, acı biber ile birlikte servis edilir.",
+  "tr": "Yemen'in her sofrasında yer alan, çemen (hilbe tohumu) ezmesinden yapılan acımsı ve köpüklü bir sos. Genellikle sabah kahvaltısında, sıcak ekmekle ve domates, sarımsak, acı biber ile birlikte servis edilir.",
   "en": "A frothy, slightly bitter fenugreek sauce from Yemen, made from ground fenugreek seeds and served mainly at breakfast. It is eaten with warm flatbread alongside tomato, garlic and chili."
  },
  "servings": 4,
@@ -15,7 +15,8 @@
   "tr": [
    "120 g hilbe tohumu (çemen)",
    "1,2 litre su (ıslatmak ve yıkamak için)",
-   "200 ml soğuk su (çırpmak için)",
+   "100 ml soğuk su (macunu çekmek için)",
+   "100 ml soğuk su (çırpmak için)",
    "2 orta boy domates (yaklaşık 300 g)",
    "4 diş sarımsak",
    "1 yeşil acı biber",
@@ -30,7 +31,8 @@
   "en": [
    "120 g fenugreek seeds (hilbeh)",
    "1.2 litres water (for soaking and rinsing)",
-   "200 ml cold water (for whipping)",
+   "100 ml cold water (for blending)",
+   "100 ml cold water (for whipping)",
    "2 medium tomatoes (about 300 g)",
    "4 garlic cloves",
    "1 green chili",
@@ -66,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Acılığı azaltmak için tohumları iyice durulayın; sosu ekmekle birlikte, sıcak çay eşliğinde servis edin.",
+  "tr": "Acılığı azaltmak için tohumları iyice durulayın; sosu ekmekle birlikte, şekerli sıcak çay eşliğinde servis edin.",
   "en": "Rinse the seeds thoroughly to reduce bitterness, and serve it with warm bread and sweet tea as in a typical Yemeni breakfast."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantities disagree: the ingredient list gives 200 ml cold water for whipping, but the steps use 100 ml for blending and 100 ml for whipping.",
+   "Turkish description wrongly calls çemen 'kimyonlu' (cumin-flavoured). Fenugreek seeds are not cumin.",
+   "Tip disagrees across languages: Turkish says 'sıcak çay' (warm tea) while English says 'sweet tea'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

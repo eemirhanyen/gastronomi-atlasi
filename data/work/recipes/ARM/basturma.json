@@ -41,7 +41,7 @@
  },
  "steps": {
   "tr": [
-   "Eti kâğıt havluyla kurulayın, yüzeyindeki sinir ve yağ parçalarını ayıklayın. Yaklaşık 25 x 10 cm boyutunda, 4-5 cm kalınlığında tek bir parça olacak şekilde kesin.",
+   "Eti kâğıt havluyla kurulayın, yüzeyindeki sinir ve yağ parçalarını ayıklayın. Yaklaşık 25 x 10 cm boyutunda, 3 cm kalınlığında tek bir parça olacak şekilde kesin.",
    "Tuz, kür tuzu, şeker, sarımsak, karabiber, tatlı kırmızı biber ve pul biberi bir kasede iyice karıştırın.",
    "Karışımı etin her yüzüne eşit şekilde ovalayın. Eti derin bir kaba ya da kapalı bir poşete koyup buzdolabında (2-4°C) 3 gün bekletin. Her gün çevirin ve biriken suyu dökün.",
    "Üçüncü günün sonunda eti çıkarın, soğuk suyun altında hızlıca çalkalayın ve kâğıt havluyla iyice kurulayın.",
@@ -51,7 +51,7 @@
    "Servis öncesi çemen kabuğunu bıçağın sırtıyla kazıyıp çıkarın ve pastırmayı ince dilimleyin."
   ],
   "en": [
-   "Pat the beef dry with kitchen paper and trim off any surface sinew and fat. Cut it into one piece about 25 x 10 cm and 4-5 cm thick.",
+   "Pat the beef dry with kitchen paper and trim off any surface sinew and fat. Cut it into one piece about 25 x 10 cm and 3 cm thick.",
    "Mix the salt, curing salt, sugar, garlic, black pepper, sweet paprika and red pepper flakes in a bowl until evenly combined.",
    "Rub the mixture evenly over all sides of the beef. Place the meat in a deep container or sealed bag and refrigerate at 2-4°C for 3 days. Turn it daily and pour off the liquid that collects.",
    "At the end of day three, remove the meat, rinse it quickly under cold water and dry it thoroughly with kitchen paper.",
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Kurutma sırasında etin ağırlığını düzenli olarak tartın; başlangıç ağırlığının yaklaşık %35'ini kaybettiğinde pastırma hazırdır.",
+  "tr": "Kurutma sırasında etin ağırlığını düzenli olarak tartın; başlangıç ağırlığının yaklaşık %35'ini kaybettiğinde pastırma hazırdır. Mümkün olduğunca ince dilimleyin, tercihen liflere dik kesin.",
   "en": "Weigh the meat regularly during drying; it is ready once it has lost about 35% of its starting weight. Slice it as thinly as possible, ideally against the grain."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 (tr and en): a 25 x 10 x 4-5 cm piece would weigh well over 800 g, so the thickness does not match the stated weight.",
+   "Tip: the English version says to slice as thinly as possible, ideally against the grain, but the Turkish version omits this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

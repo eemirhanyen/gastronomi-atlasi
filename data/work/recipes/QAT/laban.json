@@ -9,7 +9,7 @@
   "en": "A lightly salted, mint-scented yogurt drink served across Qatar and the Gulf, often with meals, during the midday heat, and at iftar tables during Ramadan."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 35,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,5 +49,13 @@
   "tr": "Yoğurdu suyla iyice çırparak pürüzsüz bir kıvam elde edin; topaklanmayı önlemek için suyu oda sıcaklığında değil, soğuk kullanın.",
   "en": "Whisk the yogurt thoroughly before adding water to get a smooth texture, and use cold water so the drink stays fresh and does not separate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (15) does not include the mandatory 20-minute chilling step, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

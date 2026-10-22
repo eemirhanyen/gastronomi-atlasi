@@ -9,7 +9,7 @@
   "en": "A flaky, layered flatbread from Tajik and Uzbek kitchens, made by coiling thin dough with fat and salt and then pan-cooking it. It is eaten at breakfast and family gatherings with tea, and often served alongside plov."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -18,7 +18,7 @@
    "260 ml ılık su",
    "60 ml bitkisel yağ",
    "120 g eritilmiş tereyağı",
-   "Hamurun üzerine sürmek için ek 1 yemek kaşığı (15 ml) bitkisel yağ"
+   "Elleri ve tezgâhı yağlamak için ek 1 yemek kaşığı (15 ml) bitkisel yağ"
   ],
   "en": [
    "500 g all-purpose flour",
@@ -34,22 +34,22 @@
    "Unu geniş bir kaba alın, tuzu ekleyip karıştırın. Ilık suyu ve 60 ml bitkisel yağı ekleyerek yumuşak, elastik bir hamur yoğurun; yaklaşık 8-10 dakika yoğurun.",
    "Hamuru nemli bir bezle örtün ve oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru 4 eşit parçaya bölün. Ellerinize ve tezgâha biraz bitkisel yağ sürüp her parçayı yuvarlayın.",
-   "Her topu hafif yağlı tezgâhta mümkün olduğunca ince, yaklaşık 30 cm çapında bir yuvarlak açın. Üzerine eritilmiş tereyağının dörtte birini sürün ve hafifçe tuz serpin.",
+   "Her topu hafif yağlı tezgâhta mümkün olduğunca ince, yaklaşık 30 cm çapında bir yuvarlak açın. Üzerine yaklaşık 20 g eritilmiş tereyağı sürün ve hafifçe tuz serpin.",
    "Yuvarlağı sıkıca bir ip gibi rulo haline getirin, ardından bu ipi spiral şeklinde sarın. Spirali hafifçe bastırıp 10 dakika dinlendirin.",
    "Dinlenen spirali avuçlarınızla hafifçe bastırıp yaklaşık 18-20 cm çapında, yaklaşık 1 cm kalınlığında bir disk haline getirin.",
    "Kalın tabanlı bir tavayı orta-düşük ateşte ısıtın. Hamuru tavaya yerleştirin, kapağını kapatıp 3-4 dakika pişirin.",
-   "Çevirin, üzerine biraz daha eritilmiş tereyağı sürün. Kapağı açık bırakıp yüzeyinde altın rengi lekeler oluşana kadar 3-4 dakika daha pişirin.",
+   "Çevirin, üzerine yaklaşık 10 g daha eritilmiş tereyağı sürün. Kapağı açık bırakıp yüzeyinde altın rengi lekeler oluşana kadar 3-4 dakika daha pişirin.",
    "Kalan hamur parçalarını aynı şekilde pişirin. Sıcak servis yapın ve katlarını elle ayırarak çayla ikram edin."
   ],
   "en": [
    "Put the flour in a large bowl and add the salt, stirring to combine. Add the lukewarm water and 60 ml vegetable oil, then knead into a soft, elastic dough for about 8-10 minutes.",
    "Cover the dough with a damp cloth and rest it at room temperature for 30 minutes.",
    "Divide the dough into 4 equal pieces. Lightly oil your hands and the work surface, then shape each piece into a ball.",
-   "Roll each ball into a very thin round about 30 cm in diameter. Brush with a quarter of the melted butter and sprinkle lightly with salt.",
+   "Roll each ball into a very thin round about 30 cm in diameter. Brush with about 20 g of the melted butter and sprinkle lightly with salt.",
    "Roll the round tightly into a rope, then coil the rope into a spiral. Press gently and rest for 10 minutes.",
    "Flatten the resting spiral with your palms and roll it out into a disc about 18-20 cm in diameter and about 1 cm thick.",
    "Heat a heavy-based pan over medium-low heat. Place the dough in the pan, cover, and cook for 3-4 minutes.",
-   "Turn it over and brush with more melted butter. Cook uncovered for another 3-4 minutes, until golden spots appear on the surface.",
+   "Turn it over and brush with about 10 g more melted butter. Cook uncovered for another 3-4 minutes, until golden spots appear on the surface.",
    "Cook the remaining pieces the same way. Serve warm, pulling the layers apart by hand, with tea."
   ]
  },
@@ -57,5 +57,15 @@
   "tr": "Hamuru spiral şeklinde sarmak katmanları oluşturan en önemli adımdır; tavayı orta-düşük ateşte tutun ki tereyağı yanmadan hamur iyice pişsin.",
   "en": "Coiling the dough is what creates the layers, so don't skip it. Keep the heat at medium-low so the butter doesn't burn before the dough cooks through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English disagree on the purpose of the extra 15 ml oil: TR says it is for brushing onto the dough, EN says for greasing hands and work surface (the steps match EN).",
+   "Butter amounts don't add up: a quarter of 120 g per piece uses all the butter before the extra brushing on the flip, so the total used exceeds the listed 120 g. Per-piece amounts are now given explici",
+   "Total time of 60 min is too low: the recipe includes 30 min + 10 min of rest, about 10 min of kneading, shaping of four pieces, and about 7 min of cooking per piece."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

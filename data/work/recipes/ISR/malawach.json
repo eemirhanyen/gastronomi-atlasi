@@ -33,7 +33,7 @@
    "Hamuru kaseye geri koyun, üzerini örtün ve oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru 4 eşit parçaya bölün ve her birini yuvarlayın. Tezgâhınıza ve ellerinize biraz sıvı yağ sürün.",
    "Bir hamur topunu tezgâhta, mümkün olduğunca ince, yaklaşık 20 x 30 cm'lik bir dikdörtgen olacak şekilde açın. Üzerine yağ sürün, uzun kenardan sıkıca sarın ve bir tomar oluşturun.",
-   "Tomarı uzunlamasına ikiye bölmeden önce yine yağlayın ve gerekirse hafifçe uzatın. Her tomarı spiral şeklinde sarın, uçlarını altına kıvırarak bir top gibi kapatın. Tüm hamurları bu şekilde hazırlayın.",
+   "Tomarı yine yağlayın ve gerekirse hafifçe uzatın. Her tomarı spiral şeklinde sarın, uçlarını altına kıvırarak bir top gibi kapatın. Tüm hamurları bu şekilde hazırlayın.",
    "Hazırladığınız topları üzerini örtüp 30 dakika daha dinlendirin.",
    "Dinlenen her topu avuç içinizle hafifçe bastırıp yassılaştırın, ardından oklava ile yaklaşık 2 mm kalınlığında, 18-20 cm çapında bir daire açın.",
    "Geniş bir tavaya 150 ml sıvı yağın yarısını koyun ve orta ateşte ısıtın (yaklaşık 180°C). Açtığınız hamurlardan birini tavaya alın ve 3-4 dakika, altı altın rengi ve kabarcıklı olana kadar pişirin.",
@@ -57,5 +57,13 @@
   "tr": "Hamuru ne kadar ince açarsanız ve sarmadan önce ne kadar çok yağ sürerseniz, pişince o kadar çok katman oluşur.",
   "en": "The thinner you roll the dough and the more oil you brush between layers, the more flaky and separated the layers will be when fried."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to brush the log 'before cutting it lengthwise in two' (uzunlamasına ikiye bölmeden önce), but the English step has no cutting step. The Turkish and English versions disagree on th"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

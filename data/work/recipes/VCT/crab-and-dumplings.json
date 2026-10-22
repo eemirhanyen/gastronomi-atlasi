@@ -21,7 +21,7 @@
    "4 diş sarımsak, ezilmiş",
    "2 adet yeşil soğan, doğranmış",
    "100 g domates, küp doğranmış",
-   "5 ml kuru kekik",
+   "2 g kuru kekik",
    "3 g karabiber",
    "1 adet Scotch bonnet biber (bütün, çatalla delinmiş)",
    "400 ml hindistancevizi sütü",
@@ -42,7 +42,7 @@
    "4 garlic cloves, crushed",
    "2 spring onions, chopped",
    "100 g tomato, diced",
-   "5 g dried thyme",
+   "2 g dried thyme",
    "3 g ground black pepper",
    "1 Scotch bonnet pepper (whole, pricked with a fork)",
    "400 ml coconut milk",
@@ -85,5 +85,14 @@
   "tr": "Scotch bonnet biberini bütün bırakmak aromayı verir ancak ezilmesi acılığı çok artırır; baharatı kontrol etmek için sadece delik açın.",
   "en": "Leave the Scotch bonnet whole and only pierce it; crushing it will make the stew far hotter than traditional versions."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dried thyme unit mismatch: Turkish lists 5 ml, English lists 5 g.",
+   "5 g dried thyme is implausibly heavy for 4 servings (roughly 2.5 tablespoons), so it is reduced to 2 g in both versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

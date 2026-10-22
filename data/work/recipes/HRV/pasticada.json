@@ -61,10 +61,10 @@
  },
  "steps": {
   "tr": [
-   "Dana butunun yüzeyine küçük yarıklar açın. Yarıklara sarımsak dilimlerini ve pancetta şeritlerini yerleştirin.",
+   "Dana bütününün yüzeyine küçük yarıklar açın. Yarıklara sarımsak dilimlerini ve pancetta şeritlerini yerleştirin.",
    "Eti geniş bir kaba koyun. Üzerine şarap, sirke, yarısı kadar soğan ve havuç, defne yaprakları, karanfil ve karabiberi ekleyin. Örtüp buzdolabında 12-24 saat marine edin, ara ara çevirin.",
    "Eti marinasyondan çıkarıp kağıt havluyla kurulayın. Marinasyonu süzün, sıvıyı ayırın; sebzeleri de ayrı bir kenara alın.",
-   "Eti tuz ve taze karabiberle tatlandırın. Geniş ve kalın tabanlı bir tencerede zeytinyağını ısıtın ve eti her tarafı 10 dakika kadar kavurun. Eti tencereden alın.",
+   "Eti tuz ve taze karabiberle tatlandırın. Geniş ve kalın tabanlı bir tencerede zeytinyağını ısıtın ve eti tüm yüzeylerini toplam yaklaşık 10 dakika kavurun. Eti tencereden alın.",
    "Aynı tencerede marinasyondan ayırdığınız sebzeleri 5 dakika soteleyin. Salçayı ekleyip 2 dakika pişirin, üzerine unu serpip 1 dakika karıştırın.",
    "Süzdüğünüz marinasyon sıvısını ve dana suyunu ekleyip karıştırın. Eti tencereye geri koyun, erikleri, şekeri ve muskadı ilave edin. Kaynayınca kısık ateşte, kapağı kapalı olarak 2,5-3 saat, yaklaşık 30 dakikada bir çevirerek yumuşayana kadar pişirin.",
    "Eti tencereden alıp 10 dakika dinlendirin. Sosu elekten geçirin, sebzeleri iyice ezerek sosa katın. Sosu tencereye alın, erikleri de ekleyip 10 dakika kısık ateşte koyulaştırın; gerekirse tuz ve şekerle ayarlayın.",
@@ -85,5 +85,14 @@
   "tr": "Eti mümkünse bir gece önceden marine edin; sos daha derin bir tat kazanır ve et daha yumuşak olur.",
   "en": "Marinate the beef overnight if possible. The sauce develops much more depth, and the meat becomes softer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a typo: \"butun\" should be \"bütün\" (\"bütününün\").",
+   "Turkish step 4 says to sear each side for about 10 minutes (\"her tarafı 10 dakika\"), but the English says about 10 minutes on all sides in total. The Turkish version would over-brown the beef, so it n"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

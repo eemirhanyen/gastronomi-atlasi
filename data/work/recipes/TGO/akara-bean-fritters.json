@@ -54,8 +54,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamur kalın bir krep kıvamında olmalı; çok akışkan olursa dağılır, yapışkan olursa birkaç kaşık ıslak bezelye ekleyerek ayarlayın.",
+  "tr": "Hamur kalın bir pankek kıvamında olmalı; çok akışkan olursa köfteler dağılır, bu durumda biraz daha ıslak bezelye püresi ekleyerek kıvamı koyulaştırın.",
   "en": "The batter should be thick, like a pancake batter; if it is too runny the fritters will fall apart, so add a little more soaked pea paste to thicken it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contradicts the English: it says a sticky batter should be thickened by adding soaked peas, which is illogical. The English says a runny batter should be thickened with more pea paste. The"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

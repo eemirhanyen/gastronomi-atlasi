@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Yulaf ezmesini sıcak suyla kaplayıp 15 dakika bekletin, suyunu çok fazla sıkmadan kenara alın.",
-   "Büyük bir tavada rendelenmiş yağı orta-düşük ateşte 5 dakika eritin, soğanı ekleyip 8 dakika, soğan yumuşayana kadar pişirin. Biraz soğutun.",
+   "Büyük bir tavada ince doğranmış yağı orta-düşük ateşte 5 dakika eritin, soğanı ekleyip 8 dakika, soğan yumuşayana kadar pişirin. Biraz soğutun.",
    "Kanı bir elekten geçirerek büyük bir kaseye alın. Yulaf, yağlı soğan karışımı, tuz ve karabiberi ekleyip iyice karıştırın.",
    "1,5 litrelik bir kek kalıbını 10 g tereyağıyla yağlayın, karışımı dökün ve havasını çıkarmak için hafifçe vurun. Üzerini yağlı alüminyum folyoyla sıkıca kapatın.",
    "Kalıbı geniş bir tencereye yerleştirin, su kalıbın yarısına gelecek kadar dökün. Suyu 85-90°C'de, yalnızca küçük kabarcıklar çıkacak şekilde 1 saat pişirin; gerektikçe sıcak su ekleyin.",
@@ -63,5 +63,13 @@
   "tr": "Su asla kaynamamalıdır; hafif bir sıcaklık, kan sosisinin gözenekli olmasını önler.",
   "en": "Never let the water reach a rolling boil; a gentle heat keeps the pudding smooth and prevents it from becoming porous."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the suet is \"rendelenmiş\" (grated), but the ingredient list and English version say finely chopped (doğranmış)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

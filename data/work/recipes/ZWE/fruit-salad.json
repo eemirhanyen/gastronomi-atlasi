@@ -9,7 +9,7 @@
   "en": "A sweet fruit salad of bananas, apples, oranges and papaya bound in vanilla custard, served at holidays, weddings and family gatherings across Zimbabwe."
  },
  "servings": 4,
- "time_min": 40,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -42,7 +42,7 @@
    "Küçük bir kapta muhallebi tozunu ve şekeri 100 ml sütle pürüzsüz bir karışım olacak şekilde karıştırın.",
    "Kalan 400 ml sütü orta ateşte kaynamadan, sadece buharlanana kadar ısıtın.",
    "Sıcak sütü muhallebi karışımının üzerine yavaş yavaş dökerek sürekli çırpın, ardından karışımı tekrar tencereye alın.",
-   "Muhallebiyi orta ateşte, sürekli karıştırarak 2-3 dakika, kıvam alana kadar pişirin. Ocaktan alın, vanilya özünü ekleyin.",
+   "Muhallebiyi orta ateşte, sürekli karıştırarak hafifçe kaynayana ve kıvam alana kadar, yaklaşık 2-3 dakika pişirin. Ocaktan alın, vanilya özünü ekleyin.",
    "Muhallebinin yüzeyine streç film bastırarak oda sıcaklığına gelene kadar soğutun, sonra en az 30 dakika buzdolabında bekletin.",
    "Muzları soyup dilimleyin, elmayı küp küp doğrayın ve ikisini de 15 ml limon suyuyla hafifçe karıştırın; kararmalarını önler.",
    "Portakalları soyup beyaz kabuklarını çıkarın, dilimleri parçalara ayırın. Üzümleri ikiye bölün.",
@@ -54,7 +54,7 @@
    "In a small bowl, mix the custard powder and sugar with 100 ml of the milk until smooth.",
    "Heat the remaining 400 ml of milk in a saucepan over medium heat until steaming, without letting it boil.",
    "Pour the hot milk onto the custard mixture in a thin stream, whisking constantly, then return everything to the pan.",
-   "Cook over medium heat, stirring constantly, for 2-3 minutes until thickened. Remove from the heat and stir in the vanilla extract.",
+   "Cook over medium heat, stirring constantly, until it comes to a gentle boil and thickens, about 2-3 minutes. Remove from the heat and stir in the vanilla extract.",
    "Press cling film onto the surface of the custard to prevent a skin forming, let it cool to room temperature, then refrigerate for at least 30 minutes.",
    "Peel and slice the bananas, dice the apples, and toss both with 15 ml of lemon juice to stop them browning.",
    "Peel the oranges, remove the white pith and separate into segments, cutting each segment into pieces. Halve the grapes.",
@@ -67,5 +67,14 @@
   "tr": "Muzları ve elmaları en son doğrayıp hemen limon suyuyla karıştırın; bu, salatanın renginin uzun süre taze kalmasını sağlar.",
   "en": "Cut the bananas and apples just before assembling and toss them in lemon juice straight away so the salad keeps its fresh colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Total time (40 min) is inconsistent with the steps: the custard must cool and then chill for at least 30 minutes, and the salad is chilled again for about 30 minutes before serving.",
+   "Cornflour-based custard must come to a gentle boil to fully thicken and lose its raw starch taste. Step 4 (tr and en) only says to cook until thickened, without boiling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

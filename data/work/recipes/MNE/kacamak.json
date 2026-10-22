@@ -36,10 +36,10 @@
    "Patatesleri ve 700 ml suyu geniş bir tencereye alın, tuzu ekleyin ve orta-yüksek ateşte kaynatın.",
    "Patatesler yumuşayana kadar, yaklaşık 15-20 dakika haşlayın.",
    "Ateşi kısın, patatesleri tencerede suyuyla birlikte çatalla ya da patates ezici ile kabaca ezin.",
-   "Mısırununu azar azar ekleyip sürekli karıştırarak topaklanmasını önleyin.",
+   "Mısır unu azar azar ekleyip sürekli karıştırarak topaklanmasını önleyin.",
    "Ateşi düşük tutup 15 dakika kadar, sık sık karıştırarak pişirin. Kıvamı koyulaşıp tencerenin kenarından ayrılmaya başlayınca hazırdır.",
    "Ocaktan alın, 30 g tereyağını ekleyip iyice karıştırın.",
-   "Ayrı bir tavada kalan 30 g tereyağını orta ateşte köpürene kadar eritin.",
+   "Ayrı bir tavada kalan 30 g tereyağını orta ateşte köpürüp hafif altın rengi alana kadar eritin.",
    "Kaçamağı derin bir servis kasesine alın, üzerine kajmağı yayın, ufalanmış beyaz peyniri serpin ve sıcak tereyağını gezdirerek hemen servis edin."
   ],
   "en": [
@@ -57,5 +57,13 @@
   "tr": "Kaçamak soğuduğunda çok çabuk katılaşır; servis etmeden önce birkaç kaşık sıcak su ile gevşetebilirsiniz.",
   "en": "Kačamak sets quickly as it cools, so loosen it with a few spoonfuls of hot water if it becomes too stiff before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says to melt the butter until it foams, but the English step 7 also says it should turn lightly golden. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

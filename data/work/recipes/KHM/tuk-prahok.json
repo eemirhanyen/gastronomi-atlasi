@@ -23,7 +23,7 @@
    "500 ml su",
    "1 tatlı kaşığı palmiye şekeri",
    "1 yemek kaşığı limon suyu",
-   "200 g taze sebze (salatalık, kuru fasulye veya uzun fasulye, patlıcan)",
+   "200 g taze sebze (salatalık, uzun fasulye, patlıcan)",
    "400 g buharda pişmiş pirinç (servis için)"
   ],
   "en": [
@@ -67,5 +67,13 @@
   "tr": "Prahok çok tuzlu ve kokulu olduğundan sosu tatmadan tuz eklemeyin; kokuyu sevmeyenler için prahok'u önce biraz suyla yumuşatabilirsiniz.",
   "en": "Prahok is already very salty and pungent, so taste before adding any salt; soaking it briefly in a little water first makes its aroma milder."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list says \"kuru fasulye\" (dried beans), which mistranslates the English \"long beans\" (uzun fasulye, which is the vegetable used in the steps)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

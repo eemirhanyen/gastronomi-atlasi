@@ -51,7 +51,7 @@
  },
  "steps": {
   "tr": [
-   "Gallinayı soğuk su altında yıkayın, kağıt havluyla iyice kurulayın ve bütün parçalar halinde ayırın.",
+   "Gallinayı soğuk su altında yıkayın, kağıt havluyla iyice kurulayın ve parçalara ayırın.",
    "Geniş bir tencerede sıvı yağı orta-yüksek ateşte ısıtın. Tavuk parçalarını partiler halinde 3-4 dakika, hafifçe renk alana kadar kızartın ve bir kenara alın.",
    "Aynı tencerede soğanı, sarımsağı ve ají dulce'yi yumuşayana kadar 5 dakika kavurun.",
    "Kızarmış tavuğu tencereye geri koyun, 2,5 L suyu ekleyin ve kaynamaya bırakın.",
@@ -79,5 +79,13 @@
   "tr": "Gallina yerine tavuk kullanacaksanız pişirme süresini 30-40 dakikaya indirin; aksi halde et lifli ve sert kalır.",
   "en": "If using a regular chicken instead of an older hen, cut the simmering time to 30-40 minutes, or the meat will be stringy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"bütün parçalar halinde ayırın\", which literally means \"separate into whole pieces\". This contradicts the English \"cut into serving pieces\" and is unnatural Turkish. It should read"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

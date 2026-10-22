@@ -9,7 +9,7 @@
   "en": "A Syrian layered dish of spiced rice, fried eggplant, potato, cauliflower and chicken, cooked in a pot and then inverted onto a platter before serving. It is a favourite family and guest-day meal, especially in Damascus and Aleppo, and is often served on Fridays."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -25,7 +25,7 @@
    "1/2 küçük karnabahar (300 g), çiçeklerine ayrılmış",
    "3 olgun domates (yaklaşık 450 g), dilim dilim",
    "1 yemek kaşığı salça",
-   "180 ml ayçiçek yağı (kızartmak için)",
+   "250 ml ayçiçek yağı (kızartmak için)",
    "40 g çam fıstığı",
    "40 g dilimlenmiş badem",
    "1 tatlı kaşığı öğütülmüş yenibahar",
@@ -41,13 +41,13 @@
    "6 black peppercorns",
    "1.5 l water",
    "Salt",
-   "400 g basmati or short-grain rice",
+   "400 g baldo or basmati rice",
    "2 medium eggplants (about 500 g), sliced lengthwise into 1 cm slices",
    "2 medium potatoes (300 g), sliced 0.5 cm thick",
    "1/2 small cauliflower (300 g), cut into florets",
    "3 ripe tomatoes (about 450 g), sliced",
    "1 tbsp tomato paste",
-   "180 ml sunflower oil (for frying)",
+   "250 ml sunflower oil (for frying)",
    "40 g pine nuts",
    "40 g slivered almonds",
    "1 tsp ground allspice",
@@ -59,10 +59,10 @@
  },
  "steps": {
   "tr": [
-   "Tavuğu, soğanı, defne yapraklarını, karabiberi ve 1 tatlı kaşık tuzu 1,5 litre suda orta ateşte yaklaşık 35 dakika haşlayın. Tavuğu süzgece alın, suyu ayırın ve yaklaşık 1 litre suyu saklayın. Salçayı bu sıcak suda eritin.",
+   "Tavuğu, soğanı, defne yapraklarını, karabiberi ve 1 tatlı kaşık tuzu 1,5 litre suda orta ateşte yaklaşık 35 dakika haşlayın. Tavuğu süzgece alın, suyu ayırın ve yaklaşık 1 litre suyu saklayın. Salçayı ayırdığınız sıcak suyun birkaç yemek kaşığında eritin.",
    "Pirinci bol soğuk suda 2–3 kez yıkayın, ardından 30 dakika kadar suda bekletip süzün.",
    "Patlıcan dilimlerine tuz serpip 15 dakika dinlendirin, sonra kağıt havluyla kurulayın.",
-   "Ocakta geniş bir tavada yaklaşık 120 ml yağı ısıtın. Patlıcan dilimlerini iki yüzü altın rengi olana kadar kızartıp süzgece alın.",
+   "Ocakta geniş bir tavada yaklaşık 150 ml yağı ısıtın. Patlıcan dilimlerini iki yüzü altın rengi olana kadar kızartıp süzgece alın.",
    "Kalan yağda patates dilimlerini ve karnabahar çiçeklerini ayrı ayrı kızartın. Her birini kağıt havluya alın.",
    "Tavuk parçalarını kalan yağda 3–4 dakika, üzeri hafif kızarana kadar çevirerek kızartın.",
    "Çam fıstığı ile bademi ayrı bir tavada, yağ almadan ya da çok az yağla, altın rengi olana kadar kavurun.",
@@ -78,7 +78,7 @@
    "Simmer the chicken, onion, bay leaves, peppercorns and 1 tsp salt in 1.5 litres of water over medium heat for about 35 minutes. Remove the chicken and strain the broth, keeping about 1 litre. Dissolve the tomato paste in 2 tablespoons of the hot broth.",
    "Rinse the rice in cold water 2–3 times, then soak it in water for 30 minutes and drain.",
    "Sprinkle the eggplant slices with salt and rest them for 15 minutes, then pat dry with kitchen paper.",
-   "Heat about 120 ml of the oil in a wide pan over medium-high heat. Fry the eggplant slices until golden on both sides, then drain on a rack.",
+   "Heat about 150 ml of the oil in a wide pan over medium-high heat. Fry the eggplant slices until golden on both sides, then drain on a rack.",
    "In the remaining oil, fry the potato slices and cauliflower florets separately until golden. Drain each on kitchen paper.",
    "Fry the chicken pieces in the remaining oil for 3–4 minutes, turning until lightly browned.",
    "Toast the pine nuts and almonds in a dry pan over medium heat, stirring, until golden. Set aside.",
@@ -95,5 +95,16 @@
   "tr": "Pirinci tencerenin dibine yapışmadan ters çevirmek için tencerenin altında 2–3 dakika orta ateşte hafifçe kavurarak 'tahdik' (altın rengi tabaka) oluşturun ve tepsiyi bastırmadan çevirin.",
   "en": "For a neat turn-out, lightly brown the bottom layer for 2–3 minutes before reducing the heat, and invert onto a platter that is larger than the pot rather than pressing down."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity is too low: 180 ml total, with 120 ml used for the eggplant and only about 60 ml left to fry the potatoes, cauliflower and chicken in separate batches. Increased the total to 250 ml.",
+   "Tomato paste step disagrees between languages: Turkish says to dissolve it in the hot water, English says 2 tablespoons of the broth. Aligned both to dissolving it in a few tablespoons of the reserved",
+   "Rice description differs: Turkish 'baldo veya basmati' vs English 'basmati or short-grain'. Aligned English to 'Baldo or basmati'.",
+   "time_min of 90 is too short for the steps listed (30 min soak, 35 min boil, frying, 35-40 min cooking, 10 min rest). Updated to 150."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

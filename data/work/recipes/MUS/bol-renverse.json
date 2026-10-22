@@ -28,7 +28,7 @@
    "3 g öğütülmüş kimyon",
    "5 g tuz, ayrıca tuz",
    "1 g karabiber",
-   "120 ml sıvı yağ",
+   "95 ml sıvı yağ",
    "300 ml sıcak su",
    "550 ml su (pirinç için)",
    "2 dal kekik",
@@ -50,7 +50,7 @@
    "3 g ground cumin",
    "5 g salt, plus extra",
    "1 g black pepper",
-   "120 ml vegetable oil",
+   "95 ml vegetable oil",
    "300 ml hot water",
    "550 ml water (for the rice)",
    "2 sprigs thyme",
@@ -62,7 +62,7 @@
    "Tavuğu bir kaseye alın. Köri tozu, 1 g zerdeçal, kimyon, zencefil, sarımsağın yarısı, 5 g tuz, karabiber ve 15 ml yağ ile karıştırıp 30 dakika marine edin.",
    "Patlıcan dilimlerini bir tabağa dizin, üzerine 3 g tuz serpin ve 15 dakika dinlendirin. Ardından kağıt havluyla kurulayın.",
    "Pirinci soğuk suda suyu berrak akana kadar yıkayın ve süzün.",
-   "Geniş bir tavada 40 ml yağı ısıtın. Patlıcan, patates ve havuç dilimlerini partiler halinde her iki yüzü altın rengi olana kadar kızartın. Kağıt havlu üzerine alın.",
+   "Geniş bir tavada 40 ml yağı ısıtın. Patlıcan, patates ve havuç dilimlerini partiler halinde her iki yüzü yaklaşık 3-4 dakika, altın rengi olana kadar kızartın. Kağıt havlu üzerine alın.",
    "Kalın tabanlı bir tencerede kalan 40 ml yağı ısıtın ve tavuk parçalarını yüzeyleri kızarana kadar kavurun. Tavuğu bir kenara alın.",
    "Aynı tencereye soğanı ekleyip yumuşayıp altın rengi alana kadar yaklaşık 8 dakika kavurun. Kalan sarımsak, yeşil biber ve domatesi ekleyip domates posası kıvamına gelene kadar 8 dakika pişirin.",
    "Tavuğu geri koyun, 300 ml sıcak su ve kekiği ekleyin. Kapağı kapalı olarak tavuk pişene ve sos kıvamlanana kadar yaklaşık 20 dakika kısık ateşte pişirin. Kekikleri çıkarıp tuzunu ayarlayın.",
@@ -95,5 +95,14 @@
   "tr": "Kaseyi çevirmeden önce pirinci iyice bastırın; bu sayede dilimler dökülmeden kalıp düzgün bir kubbe oluşur.",
   "en": "Press the rice firmly before steaming so the layers hold their shape when the bowl is turned out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity mismatch: 120 ml is listed, but the steps use 15 ml (marinade) + 40 ml (vegetables) + 40 ml (chicken) = 95 ml.",
+   "Turkish step 4 omits the frying time per side that the English version gives (about 3 to 4 minutes), so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

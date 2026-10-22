@@ -9,7 +9,7 @@
   "en": "A spicy, lemongrass-scented beef noodle soup from Hue, the former imperial capital in central Vietnam. It is eaten for breakfast and lunch and is a staple of street stalls across the city."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -83,5 +83,13 @@
   "tr": "Çorbayı kaynatmadan kısık ateşte pişirin; böylece berrak kalır. Karides ezmesi çok kokar, bu yüzden mutfak havalandırmasını açık tutun.",
   "en": "Keep the broth at a gentle simmer so it stays clear. Shrimp paste is very pungent, so ventilate the kitchen well when frying it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is shorter than the steps require: 5 min blanching + 1.5 h simmer + 1 h more simmer is about 155 min before preparation, cooling and assembly. Corrected to 180."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

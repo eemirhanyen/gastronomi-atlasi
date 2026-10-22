@@ -9,7 +9,7 @@
   "en": "A street-side and family favourite along the Niger River in Mali, eaten especially on warm evenings and market days. Whole fish are marinated with onion, garlic, lemon and chili, grilled over charcoal, and served with rice and a sharp onion-tomato salad."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,20 +49,20 @@
  },
  "steps": {
   "tr": [
-   "Balıkların karnını temizleyin, pullarını ayıklayın ve her iki yüzüne yaklaşık 1 cm derinliğinde çapraz kesikler atın. Balıkları durulayıp kağıt havluyla kurulayın.",
-   "Marinasyon için iri doğranmış soğanı, sarımsakları, acı biberi, limon suyunu, 40 ml yağı, ufalanmış et suyu küpünü, tuzu, karabiberi ve tatlı kırmızı biberi blenderdan geçirip pürüzsüz bir macun elde edin.",
-   "Macunu balıkların hem içine hem de kesiklerin arasına iyice yedirin. Balıkları kapalı bir kapta oda sıcaklığında 20 dakika, ardından buzdolabında en az 30 dakika bekletin.",
+   "Balıkların karnını temizleyin, pullarını ayıklayın ve her iki yüzüne yaklaşık 1 cm derinliğinde 3 adet çapraz kesik atın. Balıkları durulayıp kağıt havluyla kurulayın.",
+   "Marinasyon için iri doğranmış soğanı, sarımsakları, acı biberi, limon suyunu, 40 ml yağı, ufalanmış et suyu küpünü, tuzu, karabiberi ve tatlı kırmızı biberi blenderdan geçirip pürüzsüz bir macun elde edin. Macunun yaklaşık 2 yemek kaşığını pişirme sırasında kullanmak üzere ayrı bir kaseye alın.",
+   "Kalan macunu balıkların hem içine hem de kesiklerin arasına iyice yedirin. Balıkları kapalı bir kapta oda sıcaklığında 20 dakika, ardından buzdolabında en az 30 dakika bekletin.",
    "Yaklaşık 45 dakika kala kömür ocağını ya da ızgarayı orta-yüksek ateşe getirin. Izgara ızgarasını kalan yağla yağlayın.",
-   "Balıkları ızgaraya dizin ve her yüzünü yaklaşık 8-10 dakika, et kolayca ayrılana kadar pişirin. Pişirirken bir kez çevirin ve üzerine marinasyondan sürün.",
+   "Balıkları ızgaraya dizin ve her yüzünü yaklaşık 8-10 dakika, et kolayca ayrılana kadar pişirin. Pişirirken bir kez çevirin ve ayırdığınız macunu üzerine sürün.",
    "Servis için ince doğranmış soğanı, domatesi ve maydanozu bir kasede karıştırın. Üzerine kalan yağdan 1 yemek kaşığı ekleyip tuzla tatlandırın.",
    "Pirinci tabaklara koyun, ızgara balıkları yanına yerleştirin ve soğan-domates salatasını üzerine kaşıklayın. Limon dilimleriyle servis yapın."
   ],
   "en": [
    "Clean the fish, remove the scales and gut them. Make 3 diagonal cuts about 1 cm deep on each side. Rinse and pat dry with kitchen paper.",
-   "Blend the marinade onion, garlic, scotch bonnet, lemon juice, 40 ml of the oil, the crumbled stock cube, salt, black pepper and paprika into a smooth paste.",
-   "Rub the paste inside the cavities and into the cuts. Leave the fish covered at room temperature for 20 minutes, then refrigerate for at least 30 minutes.",
+   "Blend the marinade onion, garlic, scotch bonnet, lemon juice, 40 ml of the oil, the crumbled stock cube, salt, black pepper and paprika into a smooth paste. Set aside about 2 tablespoons of the paste in a separate bowl for basting during grilling.",
+   "Rub the remaining paste inside the cavities and into the cuts. Leave the fish covered at room temperature for 20 minutes, then refrigerate for at least 30 minutes.",
    "About 45 minutes before serving, get the charcoal or grill to medium-high heat. Brush the grill grate with the remaining oil.",
-   "Place the fish on the grill and cook for 8 to 10 minutes per side, until the flesh flakes easily. Turn once and brush with leftover marinade during cooking.",
+   "Place the fish on the grill and cook for 8 to 10 minutes per side, until the flesh flakes easily. Turn once and brush with the reserved paste during cooking.",
    "For the salad, mix the finely diced onion, tomatoes and parsley in a bowl. Add 1 tablespoon of the remaining oil and season with salt.",
    "Spoon the rice onto plates, place the grilled fish alongside and top with the onion-tomato salad. Serve with lemon wedges."
   ]
@@ -71,5 +71,15 @@
   "tr": "Balığı ızgarada çevirmeden önce ızgaranın iyice ısındığından ve yağlandığından emin olun; aksi halde et ızgaraya yapışır.",
   "en": "Make sure the grill is hot and well oiled before placing the fish on it, otherwise the skin will stick and tear when you turn it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Food safety: the step says to brush the fish with 'leftover marinade' during grilling, but that marinade has been in contact with raw fish and is not boiled. The marinade used for basting should be se",
+   "Turkish step 1 gives no number of cuts ('çapraz kesikler'), while the English step says 3 diagonal cuts. The two versions should match.",
+   "time_min is 60, but the recipe includes about 20 minutes of room-temperature marinating, at least 30 minutes of refrigerated marinating, and about 20 minutes of grilling, plus prep. The total is close"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

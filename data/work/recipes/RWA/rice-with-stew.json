@@ -9,7 +9,7 @@
   "en": "A staple in Rwanda, where tender beef simmered with tomato and onion is served over plain rice. It is eaten at lunch, in local restaurants and at family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -45,11 +45,11 @@
  },
  "steps": {
   "tr": [
-   "Pirinci soğuk suyla su berrak akana kadar yıkayın ve süzün.",
+   "Pirinci soğuk suyla, suyu berrak akana kadar yıkayın ve süzün.",
    "Geniş bir tencerede 1 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Eti partiler halinde 5 dakika kavurun, 1/2 tatlı kaşığı tuzla tatlandırın ve bir kenara alın.",
    "Ateşi orta seviyeye indirin, kalan yağı ekleyin. Soğan ve sarımsağı yumuşayana kadar yaklaşık 5 dakika soteleyin.",
    "Domates, yeşil biber, köri tozu ve karabiberi ekleyin. Domatesler dağılana kadar yaklaşık 5 dakika pişirin.",
-   "Eti tencereye geri koyun, 250 ml su ekleyin, kapağını kapatıp kısık ateşte 35-40 dakika, et yumuşayıp sos koyulaşana kadar pişirin. Çok kururса biraz daha su ekleyin.",
+   "Eti tencereye geri koyun, 250 ml su ekleyin, kapağını kapatıp kısık ateşte 60-75 dakika, et yumuşayıp sos koyulaşana kadar pişirin. Çok kuruyursa biraz daha su ekleyin.",
    "Bu sırada başka bir tencerede 600 ml suyu kalan 1/2 tatlı kaşık tuzla kaynatın. Pirinci ekleyin, bir kez karıştırın, kapağını kapatın ve ateşi kısarak suyu çekene kadar 12-15 dakika pişirin.",
    "Pirinç tencereyi ocaktan alın, kapağı kapalı olarak 5 dakika dinlendirin, ardından çatalla kabartın.",
    "Kişnişi yahniye karıştırın ve sıcak sıcak pirinçle birlikte servis yapın."
@@ -59,7 +59,7 @@
    "Heat 1 tbsp of oil in a heavy pan over medium-high heat. Brown the beef in batches for 5 minutes, season with 1/2 tsp salt, then set aside.",
    "Reduce the heat to medium and add the remaining oil. Cook the onion and garlic for about 5 minutes until soft.",
    "Add the tomatoes, green pepper, curry powder and black pepper. Cook for about 5 minutes until the tomatoes break down.",
-   "Return the beef to the pan, add 250 ml water, cover and simmer on low for 35-40 minutes until the meat is tender and the sauce has thickened. Add a little more water if it becomes too dry.",
+   "Return the beef to the pan, add 250 ml water, cover and simmer on low for 60-75 minutes until the meat is tender and the sauce has thickened. Add a little more water if it becomes too dry.",
    "While the stew cooks, bring 600 ml water and the remaining 1/2 tsp salt to the boil in a saucepan. Add the rice, stir once, cover, reduce to low and cook for 12-15 minutes until the water is absorbed.",
    "Remove the rice from the heat, keep covered and rest for 5 minutes, then fluff with a fork.",
    "Stir the coriander into the stew and serve hot with the rice."
@@ -69,5 +69,15 @@
   "tr": "Eti kavururken tencereyi aşırı doldurmayın; aksi halde et haşlanır ve tat olarak zayıf kalır.",
   "en": "Brown the beef in small batches so it sears rather than steams; crowded meat turns grey and tastes bland."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 contains a Cyrillic character typo ('kururса'), which should read 'kuruyursa'.",
+   "Turkish step 1 wording 'su berrak akana kadar' is unnatural; it should be 'suyu berrak akana kadar' or 'akan su berraklaşana kadar'.",
+   "Stewing beef cut into 2 cm cubes is unlikely to become tender in 35-40 minutes of simmering, so the stated time does not match the 'tender meat' outcome. Extended to 60-75 minutes in both languages an"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

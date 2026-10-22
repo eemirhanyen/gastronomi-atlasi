@@ -9,7 +9,7 @@
   "en": "A street snack from Hausa cooking in Niger, made from a paste of black-eyed peas. Fritters are eaten at breakfast or throughout the day, often with a hot pepper sauce."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 540,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Kabuk soymak zor geliyorsa, börülceleri ıslatmadan önce hafifçe kaynatıp soğutun; kabuklar çok daha kolay ayrılır. Karbonat, köftelerin içini kabarık ve yumuşak tutar.",
   "en": "If peeling is tedious, briefly boil the soaked beans and cool them before rubbing; the skins come off far more easily. The baking soda keeps the centres light and fluffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) leaves out the required overnight soak of at least 8 hours, so the total time is misleading for both language versions"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

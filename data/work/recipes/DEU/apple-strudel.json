@@ -5,7 +5,7 @@
  },
  "native": "Apfelstrudel",
  "desc": {
-  "tr": "Almanya'nın güneyinde, Bavyera ve Avusturya'da kahvaltı sonrası ve kahve saatlerinde servis edilen, ince hamurun içinde tarçınlı elma ve kuru üzümle hazırlanan klasik bir pastadır.",
+  "tr": "Almanya'nın güneyinde, Bavyera ve Avusturya'da pazar öğle yemeğinden sonra ve kahve saatlerinde servis edilen, ince hamurun içinde tarçınlı elma ve kuru üzümle hazırlanan klasik bir pastadır.",
   "en": "A classic pastry from southern Germany and Austria, served at coffee time and after Sunday lunch. Thinly stretched dough is wrapped around a filling of spiced apples, raisins and buttered breadcrumbs."
  },
  "servings": 4,
@@ -54,10 +54,10 @@
    "Elmaları soyup çekirdeklerini çıkarın, ince dilimler halinde kesin. Elmaları şeker, tarçın, limon kabuğu rendesi, süzülmüş kuru üzüm ve romla karıştırın.",
    "Fırını 190°C'ye ısıtın ve fırın tepsisine kağıt serin.",
    "Temiz bir mutfak bezinin üzerine un serpin, hamuru ortaya alıp önce oklava ile inceltin. Ardından elinizin üst kısmıyla, ortası neredeyse şeffaf olana kadar yavaşça gerin.",
-   "Hamurun üzerine 20 g erimiş tereyağının yarısını sürün. Galeta ununu serpin, kenarlardan 3 cm boş bırakarak elma karışımını yayın.",
+   "Hamurun üzerine 40 g erimiş tereyağının yarısını (20 g) sürün. Galeta ununu serpin, kenarlardan 3 cm boş bırakarak elma karışımını yayın.",
    "Kenarları içeri katlayın, bezi yardımıyla hamuru sıkıca sarıp dikiş kısmı altta kalacak şekilde tepsiye alın ve hilal şekli verin.",
-   "Kalan erimiş tereyağının yarısını strudelin üzerine fırçalayın.",
-   "35-40 dakika, altın rengi olana kadar pişirin. Yarı pişmede kalan tereyağı ile tekrar fırçalayın.",
+   "Kalan erimiş tereyağının yarısını (10 g) strudelin üzerine fırçalayın.",
+   "35-40 dakika, altın rengi olana kadar pişirin. Yarı pişmede kalan 10 g tereyağı ile tekrar fırçalayın.",
    "Strudeli fırından çıkarıp 10 dakika dinlendirin, pudra şekeri serpip dilimleyerek sıcak veya ılık servis yapın."
   ],
   "en": [
@@ -68,10 +68,10 @@
    "Peel and core the apples and cut them into thin slices. Toss them with the sugar, cinnamon, lemon zest, drained raisins and the reserved rum.",
    "Preheat the oven to 190°C and line a baking tray with parchment paper.",
    "Dust a clean tea towel with flour and place the dough on it. Roll it out thinly with a rolling pin, then gently stretch it by hand from underneath until it is almost translucent.",
-   "Brush the dough with half of the remaining 40 g of melted butter. Sprinkle over the breadcrumbs and spread the apple filling evenly, leaving a 3 cm border.",
+   "Brush the dough with half of the 40 g of melted butter (20 g). Sprinkle over the breadcrumbs and spread the apple filling evenly, leaving a 3 cm border.",
    "Fold in the side edges, then use the towel to roll the dough up tightly, seam side down. Shape into a gentle crescent and transfer to the tray.",
-   "Brush the strudel with the remaining butter.",
-   "Bake for 35-40 minutes until golden brown, brushing once more with the butter halfway through.",
+   "Brush the strudel with half of the remaining butter (10 g).",
+   "Bake for 35-40 minutes until golden brown, brushing once more with the last 10 g of butter halfway through.",
    "Take the strudel out and rest it for 10 minutes. Dust with icing sugar, slice and serve warm or at room temperature."
   ]
  },
@@ -79,5 +79,16 @@
   "tr": "Hamuru ne kadar ince açarsanız, tabakalar o kadar hafif ve gevrek olur; ayrıca elmalar suyunu fazla salmasın diye dilimleri yakın zamanda hazırlayın.",
   "en": "The thinner you stretch the dough, the lighter and flakier the strudel. Slice the apples just before filling so they do not release too much juice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 brushes only 10 g of butter (half of 20 g), but the English says half of the remaining 40 g (20 g). The Turkish and English disagree.",
+   "Butter allocation is inconsistent: the English step 10 brushes 'the remaining butter' and step 11 brushes again 'with the butter', but no butter is left. The 40 g should be split as 20 g (dough), 10 g",
+   "Turkish step 10 says 'half of the remaining butter', while the English says 'the remaining butter'. Fixed alongside the allocation above.",
+   "Turkish description says the strudel is served 'after breakfast' (kahvaltı sonrası), but the English says after Sunday lunch. Changed to 'pazar öğle yemeğinden sonra' to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

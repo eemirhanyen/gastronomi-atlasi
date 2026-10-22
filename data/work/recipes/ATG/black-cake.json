@@ -8,7 +8,7 @@
   "tr": "Antigua ve Barbuda'nın geleneksel meyveli kekidir. Kuru meyveler romda ve şarapta haftalarca bekletilir, yanık şekerle koyu renk alır. Özellikle Noel ve yılbaşı kutlamalarında, aile toplantılarında ikram edilir.",
   "en": "A traditional fruit cake from Antigua and Barbuda, made with dried fruit soaked in rum and wine and darkened with burnt sugar. It is traditionally served at Christmas, New Year and family celebrations."
  },
- "servings": 4,
+ "servings": 10,
  "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
@@ -59,7 +59,7 @@
   "tr": [
    "Kuru üzüm, erik, kiraz ve kuş üzümünü bir kaseye alın. Üzerine romu, kırmızı şarabı ve portakal kabuğu rendesini ekleyin. Üzeri kapalı şekilde en az 4 saat, tercihen bir gece oda sıcaklığında bekletin.",
    "Yanık şekeri hazırlayın: Kuru bir tencereye toz şekeri koyun ve orta ateşte, karıştırmadan koyu kehribar rengi alana kadar eritin. Ocaktan almadan önce dikkatli olun, ardından 60 ml sıcak suyu yavaşça ekleyin (sıçrayabilir). Karıştırarak 3 dakika kaynatın, soğumaya bırakın.",
-   "Fırını 170°C'ye ısıtın. 20 cm'lik bir kek kalıbını yağlayıp kağıt kağıtla kaplayın.",
+   "Fırını 170°C'ye ısıtın. 20 cm'lik bir kek kalıbını yağlayıp pişirme kağıdıyla kaplayın.",
    "Oda sıcaklığındaki tereyağı ile esmer şekeri elektrikli mikserle 3-4 dakika kremalı hale gelene kadar çırpın.",
    "Yumurtaları birer birer ekleyip her birini iyice karıştırın. Vanilya özünü ve soğumuş yanık şekerden 30 ml ekleyin.",
    "Unu, kabartma tozunu, tarçını, yenibaharı, rendelenmiş hindistan cevizini ve tuzu bir elekten geçirin. Kremaya iki partide ekleyip spatulayla hafifçe katlayın.",
@@ -85,5 +85,14 @@
   "tr": "Kuru meyveleri ne kadar uzun süre romda bekletirseniz kek o kadar aromatik olur; yanık şekeri ise tam koyu kehribar renginde, yanmadan çekin.",
   "en": "The longer the fruit soaks, the richer the flavour; take the burnt sugar off the heat as soon as it is deep amber, before it turns bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "servings: 4 is too few for this full cake (about 700 g of ingredients in a 20 cm tin); corrected to 10",
+   "Turkish step 3: 'kağıt kağıtla' is a typo and unnatural; corrected to 'pişirme kağıdıyla' to match the English 'baking paper'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

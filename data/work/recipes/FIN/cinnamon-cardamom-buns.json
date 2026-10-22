@@ -44,7 +44,7 @@
  "steps": {
   "tr": [
    "Ilık sütü büyük bir kaseye alın ve mayayı üzerine serpip 5 dakika dinlendirin.",
-   "Un, 30 g toz şeker, kakule ve tuzu ayrı bir kapta karıştırın, ardından maya karışan sütle birlikte ekleyin.",
+   "Un, 30 g toz şeker, kakule ve tuzu ayrı bir kapta karıştırın, ardından mayalı sütle birlikte ekleyin.",
    "40 g yumuşak tereyağını ekleyip hamur pürüzsüz ve elastik olana kadar 8-10 dakika yoğurun.",
    "Hamuru yağlanmış bir kaseye alın, streç film veya temiz bir bezle örtün ve sıcak bir yerde iki katına çıkana kadar yaklaşık 1 saat mayalandırın.",
    "İç harcı hazırlamak için 50 g yumuşak tereyağını, 50 g toz şekeri ve tarçını bir kapta homojen bir macun haline gelene kadar karıştırın.",
@@ -52,7 +52,7 @@
    "Tarçınlı tereyağı karışımını hamurun üzerine eşit şekilde yayın.",
    "Uzun kenardan başlayarak sıkıca sarın ve 8 eşit parçaya kesin. Kesik yüzleri yukarı bakacak şekilde, hafifçe bastırarak fırın tepsisine yerleştirin.",
    "Örtüp 30 dakika daha mayalandırın.",
-   "Fırını 220°C'ye ısıtın. Buns'ların üzerini çırpılmış yumurtayla fırçalayın, inci şekerini serpin.",
+   "Fırını 220°C'ye ısıtın. Çörekleri çırpılmış yumurtayla fırçalayın ve üzerlerine inci şekeri serpin.",
    "Önceden ısıtılmış fırında 12-15 dakika, altın rengi olana kadar pişirin. Tel ızgarada tamamen soğumadan önce biraz bekletin."
   ],
   "en": [
@@ -73,5 +73,13 @@
   "tr": "Kakuleyi kullanmadan hemen önce çekirdeklerini ezip taze öğütün; aroması kat kat daha canlı olur.",
   "en": "Crush cardamom seeds fresh just before use for a much more vivid aroma than pre-ground spice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 uses the English loanword \"Buns'ların\" with an apostrophe, which is unnatural Turkish; it should be \"çörekler\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

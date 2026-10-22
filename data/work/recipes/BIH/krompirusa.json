@@ -49,8 +49,8 @@
    "Soğanı çok ince rendeleyin. Rendelenmiş patates, soğan, 1 tatlı kaşığı tuz ve karabiberi bir kapta iyice karıştırarak dolguyu hazırlayın.",
    "Fırını 200°C'ye ısıtın. Bir fırın tepsisini (yaklaşık 24x34 cm) 1 yemek kaşığı tereyağıyla yağlayın.",
    "Hamuru 6 eşit parçaya bölün. Her parçayı, neredeyse şeffaf olana kadar, yaklaşık 30 cm çapında ince bir yufka gibi açın.",
-   "İlk yufkanın üzerine eritilmiş tereyağının üçte birini sürün ve tepsiye yerleştirin. Üzerine dolgunun dörtte birini yayın.",
-   "Bu işlemi beş yufka için tekrarlayın; son yufkanın üzerine kalan tereyağını gezdirin ve dolgu koymayın.",
+   "İlk yufkanın üzerine eritilmiş tereyağının altıda birini sürün ve tepsiye yerleştirin. Üzerine dolgunun beşte birini yayın.",
+   "Bu işlemi sonraki dört yufka için tekrarlayın; her birine altıda bir tereyağı sürüp dolgunun beşte birini yayın. Son yufkanın üzerine kalan altıda bir tereyağını gezdirin ve dolgu koymayın.",
    "Yumurtaları yoğurtla çırpın ve bu karışımı pastanın üzerine eşit biçimde dökün.",
    "Fırının orta rafında 35-40 dakika, üstü altın sarısı olana kadar pişirin.",
    "Fırından çıkardıktan sonra 5 dakika dinlendirin, ardından dilimleyerek sıcak servis yapın."
@@ -62,8 +62,8 @@
    "Grate the onion very finely. Mix the potato, onion, 1 tsp salt and black pepper in a bowl to make the filling.",
    "Preheat the oven to 200°C. Grease a baking tray (about 24 x 34 cm) with 1 tbsp butter.",
    "Divide the dough into 6 equal pieces. Roll each piece into a very thin sheet about 30 cm in diameter, until almost translucent.",
-   "Brush the first sheet with about a third of the melted butter and place it in the tray. Spread a quarter of the filling over it.",
-   "Repeat with the next four sheets, brushing each with butter and spreading filling between layers. Finish with the last sheet, brushed with the remaining butter and without filling.",
+   "Brush the first sheet with a sixth of the melted butter and place it in the tray. Spread a fifth of the filling over it.",
+   "Repeat with the next four sheets, brushing each with a sixth of the butter and spreading a fifth of the filling over each. Brush the last sheet with the remaining sixth of the butter and do not add filling.",
    "Whisk the eggs with the yogurt and pour evenly over the top of the pie.",
    "Bake on the middle rack for 35-40 minutes, until golden brown on top.",
    "Let it rest for 5 minutes after removing from the oven, then cut into pieces and serve warm."
@@ -73,5 +73,15 @@
   "tr": "Patatesi iyice sıkmak çok önemlidir; fazla su, krompiruşanın hamurunun ıslanıp dağılmasına neden olur.",
   "en": "Squeeze the grated potato thoroughly, since excess liquid will make the layers soggy and cause the pastry to tear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling is divided into quarters in step 7, but step 8 adds filling to five sheets, so the filling amounts don't match the layering.",
+   "Butter is given as one third on the first sheet, then 'the remaining' on the last sheet, which leaves the butter distribution across the middle sheets unclear.",
+   "Turkish and English step 7-8 wording must match the corrected logic."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -82,8 +82,16 @@
   ]
  },
  "tip": {
-  "tr": "Kurutulmuş limonları delmek, suya aromasını daha iyi vermesini sağlar; pişirme sırasında acı olmaması için pirinç pişmeden fazla kaynatmayın.",
-  "en": "Piercing the dried limes lets their sour, smoky flavour infuse the broth; serve with a simple tomato and cucumber salad and a chilli sauce for an authentic table."
+  "tr": "Kurutulmuş limonları delmek, suyun ekşi ve dumanımsı aromasını daha iyi almasını sağlar; pirinç eklendikten sonra fazla kaynatmayın, aksi halde acılaşabilir. Yanında basit bir domates-salatalık salatası ve acı sos ile servis edin.",
+  "en": "Piercing the dried limes lets their sour, smoky flavour infuse the broth; do not over-boil once the rice is in, or it may turn bitter. Serve with a simple tomato and cucumber salad and a chilli sauce for an authentic table."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish and English tips differ: the Turkish tip omits the serving suggestion (tomato-cucumber salad and chilli sauce) and the English tip omits the advice not to over-boil the rice to avoid bitte"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "فلافل",
  "desc": {
-  "tr": "Kuru nohutun ıslatılıp çiğ olarak öğütülmesiyle yapılan, dışı çıtır içi yeşil ve yumuşak bir sokak lezzetidir. Ürdün'de genellikle öğle ve akşam saatlerinde pide ekmeğine sarılarak, taze sebzeler ve tahin ile servis edilir.",
+  "tr": "Kuru nohutun ıslatılıp çiğ olarak öğütülmesiyle yapılan, dışı çıtır içi yeşil ve yumuşak bir sokak lezzetidir. Ürdün'de genellikle öğle ve akşam saatlerinde pita ekmeğine sarılarak, taze sebzeler ve tahin ile servis edilir.",
   "en": "A street food made from soaked dried chickpeas ground raw with herbs and spices, giving a crisp golden crust and a bright green, tender interior. In Jordan it is usually eaten at lunch or in the evening, wrapped in pita bread with fresh vegetables and tahini."
  },
  "servings": 4,
@@ -25,7 +25,10 @@
    "3 g kabartma tozu",
    "15 g un",
    "600 ml sıvı yağ (kızartma için)",
-   "4 adet pide ekmeği"
+   "4 adet pita ekmeği",
+   "2 domates (yaklaşık 300 g)",
+   "1 salatalık (yaklaşık 150 g)",
+   "4 yemek kaşığı tahin (yaklaşık 60 g)"
   ],
   "en": [
    "250 g dried chickpeas (soaked 12-18 hours)",
@@ -40,7 +43,10 @@
    "3 g baking powder",
    "15 g plain flour",
    "600 ml neutral oil (for frying)",
-   "4 pita breads"
+   "4 pita breads",
+   "2 tomatoes (about 300 g)",
+   "1 cucumber (about 150 g)",
+   "4 tablespoons tahini (about 60 g)"
   ]
  },
  "steps": {
@@ -52,7 +58,7 @@
    "Hamurdan yaklaşık 25 g'lık parçalar alıp avuç içinde yuvarlayın ya da hafifçe yassılaştırın.",
    "Derin bir tencerede yağı 180°C'ye kadar ısıtın.",
    "Falafelleri partiler halinde, 3-4 dakika altın rengi olana kadar kızartın. Kağıt havlu üzerine alıp yağını süzdürün.",
-   "Pide ekmeklerini kısaca ısıtın, falafelleri ve sebzeleri içine yerleştirerek sıcak servis yapın."
+   "Domatesleri ve salatalığı küp küp doğrayın. Pita ekmeklerini kısaca ısıtın, falafelleri, doğranmış domates ve salatalığı içine yerleştirip tahin ile birlikte sıcak servis yapın."
   ],
   "en": [
    "Soak the chickpeas in plenty of cold water for 12-18 hours, then drain and pat very dry with kitchen paper.",
@@ -62,12 +68,22 @@
    "Scoop out portions of about 25 g, roll them into balls or flatten them slightly into patties.",
    "Heat the oil in a deep pan to 180°C.",
    "Fry the falafel in batches for 3-4 minutes until deep golden brown. Lift out and drain on kitchen paper.",
-   "Warm the pita breads briefly, then fill them with the falafel and fresh vegetables and serve hot."
+   "Dice the tomatoes and cucumber. Warm the pita breads briefly, then fill them with the falafel, diced tomato and cucumber, drizzle with tahini and serve hot."
   ]
  },
  "tip": {
   "tr": "Nohutu asla haşlamayın; pişmemiş nohut falafelin yeşil rengini ve yumuşak içini korur. Yağ sıcaklığını ölçün, çok düşük olursa falafel yağı çeker.",
   "en": "Never cook the chickpeas; raw soaked chickpeas keep the falafel green and fluffy inside. Check the oil temperature, as oil that is too cool makes the falafel greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'pide' is the Turkish flatbread, not the Jordanian pita; the Turkish text should say 'pita ekmeği'.",
+   "Tomatoes, cucumber and tahini appear in the description and in step 8 ('sebzeler', 'tahin'), but they are not in either ingredient list, and the step does not name the vegetables.",
+   "Turkish step 8 says 'sebzeleri' without naming them, while the English step says 'fresh vegetables', so the two versions are only loosely aligned."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

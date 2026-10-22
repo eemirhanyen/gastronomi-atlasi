@@ -35,7 +35,7 @@
    "Hamuru örtüp oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru 4 eşit parçaya bölün ve her birini top haline getirin.",
    "Her topu yağlı bir yüzeyde 25 x 20 cm ebadında, çok ince bir dikdörtgen açın.",
-   "Yüzeye eritilmiş tereyağının üçte birini sürün. Uzun kenardan sıkıca rulo yapın.",
+   "Her parçanın yüzeyine eritilmiş tereyağının dörtte birini (yaklaşık 25 g) sürün. Uzun kenardan sıkıca rulo yapın.",
    "Ruloyu bir salyangoz gibi sarıp kenarlarından bastırarak 12-13 cm çapında bir disk haline getirin. Diğer parçalar için de aynı işlemi tekrarlayın ve 15 dakika dinlendirin.",
    "Dinlenen diskleri 18-20 cm çapında, yaklaşık yarım santim kalınlığında açın.",
    "Yumurta sarısını süt ile çırpın. Hamurun üstüne ince bir tabaka sürün, çatal ya da damgayla desen verin.",
@@ -47,7 +47,7 @@
    "Cover the dough and rest it at room temperature for 30 minutes.",
    "Divide the dough into 4 equal pieces and shape each into a ball.",
    "On a lightly oiled surface, roll each ball into a very thin rectangle about 25 x 20 cm.",
-   "Brush about a third of the melted butter over the surface. Roll it up tightly from the long edge.",
+   "Brush about a quarter of the melted butter (about 25 g) over each piece. Roll it up tightly from the long edge.",
    "Coil the roll like a snail and press the edges to flatten it into a disc about 12-13 cm across. Repeat for the other pieces and rest them for 15 minutes.",
    "Roll the rested discs into rounds about 18-20 cm across and about 0.5 cm thick.",
    "Whisk the egg yolk with the milk. Brush a thin layer over each bread and press a pattern into the surface with a fork or a stamp.",
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru açarken kalan unu değil yağı kullanın; bu, katmanların birbirinden ayrılmasını sağlar ve ekmeğe Özbek katlama dokusunu verir.",
+  "tr": "Hamuru açarken fazla un yerine yağ kullanın; bu, katmanların birbirinden ayrılmasını sağlar ve ekmeğe Özbek katlama dokusunu verir.",
   "en": "Roll the dough with oil rather than extra flour; this keeps the layers separate and gives the flaky texture typical of qatlama."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter quantity doesn't add up: step 5 brushes about a third of the 100 g melted butter onto each of the 4 pieces, which would use about 133 g in total. The per-piece amount should be a quarter (about",
+   "Turkish tip says 'kalan unu' (leftover flour), which is unnatural. 'Fazla un' is the normal phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

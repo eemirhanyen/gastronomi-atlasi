@@ -65,7 +65,7 @@
    "Tapyoka unu ekleyin ve buz gibi suyu azar azar dökerek karışım pürüzsüz ve yapışkan bir hamur olana kadar yoğurmaya devam edin.",
    "Hamuru 15 dakika buzdolabında dinlendirin. Bu dinlenme, köftelerin sert değil yumuşak ve sünger gibi olmasını sağlar.",
    "Dana suyunu büyük bir tencereye alıp kaynatın. Ezilmiş sarımsak, arpacık, zencefil, limon otu, defne yaprağı ve 1/2 tatlı kaşığı tuzu ekleyin. Kısık ateşte 20 dakika pişirerek aromaların iyice çıkmasını sağlayın.",
-   "Bu sırada ıslak ellerle cevizden biraz küçük toplar yapın. Hafifçe kaynayan suda, köfteler yüzeye çıkana kadar yaklaşık 5 dakika haşlayın ve süzgeçle çıkarın.",
+   "Bu sırada ıslak ellerle cevizden biraz küçük toplar yapın. Hafifçe kaynayan suda, köfteler yüzeye çıkana ve tamamen pişene kadar yaklaşık 8-10 dakika haşlayın, ardından süzgeçle çıkarın.",
    "Erişteyi veya pirinç şehriyesini ayrı bir tencerede paket üzerindeki süreye göre haşlayın, süzün ve dört kaseye bölün.",
    "Fasulye filizlerini kısa süre sıcak suda bekletin, süzün ve erişteyle birlikte kaselere koyun.",
    "Köfteleri kaselere yerleştirin. Et suyunu süzerek üzerine dökün, ardından yeşil soğan ve kızarmış arpacık ile süsleyin.",
@@ -76,7 +76,7 @@
    "Add the tapioca flour and gradually work in the ice-cold water until the mixture becomes a smooth, sticky dough.",
    "Refrigerate the dough for 15 minutes. This rest helps the meatballs stay tender and springy rather than dense.",
    "Bring the beef stock to the boil in a large pot. Add the crushed garlic, shallots, ginger, lemongrass, bay leaf and 1/2 tsp salt. Simmer gently for 20 minutes to build flavour.",
-   "Meanwhile, shape the dough into walnut-sized balls with wet hands. Poach them in barely simmering water for about 5 minutes, until they float, then lift out with a slotted spoon.",
+   "Meanwhile, shape the dough into walnut-sized balls with wet hands. Poach them in barely simmering water for about 8-10 minutes, until they float and are cooked through, then lift out with a slotted spoon.",
    "Cook the wheat noodles or rice vermicelli in a separate pot according to the packet instructions, drain, and divide among four bowls.",
    "Briefly blanch the bean sprouts in hot water, drain, and add them to the bowls with the noodles.",
    "Place the meatballs in the bowls. Strain the broth, pour it over the noodles and meatballs, then top with spring onions and fried shallots.",
@@ -87,5 +87,13 @@
   "tr": "Köftelerin dokusu için kıymayı iyice soğuk tutun ve tapyoka unu yerine nişasta kullanmayın; tapyoka köftelere esnek bir yapı verir.",
   "en": "Keep the meat very cold and use tapioca flour rather than cornflour; it gives the meatballs their characteristic springy bite."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Meatball poaching time of about 5 minutes at barely simmering temperature may not bring the centre of walnut-sized beef meatballs fully to a safe temperature; extended to 8-10 minutes in both language"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

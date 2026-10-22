@@ -9,7 +9,7 @@
   "en": "A sweet, coconut-milk bread with a coconut filling, eaten in Honduras especially along the Caribbean coast and at breakfast. It is usually served warm with coffee or milk."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Hindistan cevizi dolgusu tamamen soğumadan hamura koymayın; sıcak dolgu hamuru yumuşatır ve ekmekler pişerken dağılabilir.",
   "en": "Let the coconut filling cool completely before using it; a warm filling softens the dough and can leak out during baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short: the steps alone take about 60 min rising, 30 min proofing, 8-14 min kneading, 5 min filling, and 18-22 min baking, plus cooling time for the filling. The total is closer to"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -51,11 +51,12 @@
  },
  "steps": {
   "tr": [
+   "200 g patatesi soyup haşlayın, pürüzsüz bir püre haline getirin ve soğumaya bırakın.",
    "Rendelenmiş patatesi bir bezin içine koyup suyunu iyice sıkın. Sıkılan suyu bir kaba alın, dinlendirip dibe çöken patates nişastasını süzgeçle ayırın.",
    "Rendelenmiş patatesi, püre edilmiş patatesi, çöken nişastayı, 40 g patates nişastasını, yumurtayı ve 10 g tuzu bir kapta yoğurarak pürüzsüz, yapışkan olmayan bir hamur elde edin.",
    "Orta ateşte yağı bir tavada ısıtın ve soğanı yumuşayıp hafif altın rengi alana kadar 5-6 dakika kavurun. Soğanı tamamen soğumaya bırakın.",
    "Dana ve domuz kıymasını soğumuş soğanla, 5 g tuz ve karabiberle iyice karıştırıp 16 eşit parça (yaklaşık 30 g) yapın. Her parçayı küçük, sıkı toplar haline getirin.",
-   "Hamurdan yaklaşık 90 g'lık parçalar koparın. Avuçlarınızda yassılatıp ortasına bir top iç harç koyun, hamuru sarıp kapatın ve uzunca bir oval (zeplin) şekli verin.",
+   "Hamurdan yaklaşık 70 g'lık parçalar koparın. Avuçlarınızda yassılatıp ortasına bir top iç harç koyun, hamuru sarıp kapatın ve uzunca bir oval (zeplin) şekli verin.",
    "Büyük bir tencerede 4 litre suyu 30 g tuzla kaynatın. Ateşi kısıp suyun hafifçe kaynadığı bir seviyeye getirin.",
    "Cepelinai'leri kaynayan suya nazikçe bırakın ve kapağını yarı açık bırakarak yaklaşık 25-30 dakika pişirin. Yüzeye çıkıp iç harcın tamamen pişmesi için bu süreyi tanıyın.",
    "Pişmekte olan cepelinai'ler kaynarken, küp doğranmış füme domuz pastırmasını orta-düşük ateşte, gevrek ve altın rengi olana kadar 6-8 dakika kızartın. Yağını bir kenara ayırın.",
@@ -63,11 +64,12 @@
    "Her porsiyonun yanına ekşi kremayı koyun, üzerine dereotunu serpip sıcak servis yapın."
   ],
   "en": [
+   "Peel and boil the 200 g potatoes until tender, then mash until smooth and let cool.",
    "Place the grated potato in a cloth and squeeze out as much liquid as possible. Let the liquid stand, then pour off the water and keep the potato starch that settles at the bottom.",
    "In a bowl, combine the grated potato, mashed potato, the reserved starch, 40 g potato starch, the egg and 10 g salt. Knead into a smooth, non-sticky dough.",
    "Heat the oil in a pan over medium heat and fry the onion for 5-6 minutes until soft and lightly golden. Let it cool completely.",
    "Mix the beef and pork mince with the cooled onion, 5 g salt and the black pepper. Divide into 16 equal pieces (about 30 g each) and shape into small, firm balls.",
-   "Pinch off portions of about 90 g dough. Flatten each in your palm, place a meat ball in the centre, wrap the dough around it and shape into a long oval.",
+   "Pinch off portions of about 70 g dough. Flatten each in your palm, place a meat ball in the centre, wrap the dough around it and shape into a long oval.",
    "Bring 4 litres of water with 30 g salt to the boil in a large pot. Reduce the heat so the water simmers gently.",
    "Lower the cepelinai carefully into the simmering water and cook for 25-30 minutes with the lid partly open, until they float and the filling is fully cooked through.",
    "While the dumplings cook, fry the diced smoked bacon over medium-low heat for 6-8 minutes until crisp and golden. Set aside the fat.",
@@ -79,5 +81,15 @@
   "tr": "Rendelenmiş patatesin suyunu iyice sıkın; dibe çöken nişastayı geri ekleyin, böylece hamur dağılmadan sıkı kalır.",
   "en": "Squeeze the grated potato very well and add back the settled starch so the dough holds together without falling apart in the water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough portion size doesn't match the totals: about 1100 g of dough divided into 16 pieces gives about 70 g each, not 90 g (16 x 90 g = 1440 g, more than the dough available). Corrected in both languag",
+   "The 200 g of boiled, mashed potato is listed as an ingredient but no step says to boil or mash it. Added a preparation step in both languages.",
+   "Turkish and English versions were otherwise consistent in amounts and steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

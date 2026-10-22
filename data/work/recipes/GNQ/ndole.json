@@ -16,13 +16,13 @@
    "300 g taze ndolé yaprağı (acı yaprak) veya 150 g kurutulmuş ndolé",
    "250 g çiğ, kabuksuz yer fıstığı",
    "300 g dana eti, küp doğranmış",
-   "200 g tütsülenmiş balık (ör. tütsülenmiş sazan veya uskumru)",
+   "200 g tütsülenmiş balık (ör. tütsülenmiş uskumru veya yayın balığı)",
    "100 g kurutulmuş karides",
    "1 büyük soğan, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
-   "80 ml palm yağı (veya mısır özü/ayçiçek yağı)",
+   "80 ml palm yağı (veya yer fıstığı yağı)",
    "1 adet sebzeli veya etli et suyu küpü",
-   "1 litre su",
+   "650 ml su",
    "1 adet acı biber (isteğe bağlı)",
    "Tuz",
    "4 adet olgun muz (servis için)"
@@ -37,7 +37,7 @@
    "2 garlic cloves, crushed",
    "80 ml palm oil (or groundnut oil)",
    "1 beef stock cube",
-   "1 litre water",
+   "650 ml water",
    "1 scotch bonnet chilli (optional)",
    "Salt",
    "4 ripe plantains (to serve)"
@@ -47,7 +47,7 @@
   "tr": [
    "Ndolé yapraklarını bol suyla yıkayın. Taze yaprakları 2-3 kez değiştirerek 10 dakika kaynatın, süzün ve acılığını azaltmak için soğuk suda durulayın. Kurutulmuşsa önceden bir gece suda bekletin, sonra aynı şekilde kaynatın.",
    "Yer fıstıklarını sıcak suda 5 dakika bekletip kabuk ince zarlarını ovarak çıkarın. Ardından 150 ml suyla birlikte pürüzsüz bir macun olana kadar blenderdan geçirin.",
-   "Dana etini tuz, yarım soğan ve bir diş sarımsakla birlikte 500 ml suda, yumuşayana kadar yaklaşık 45 dakika haşlayın. Et suyunu ayırarak saklayın.",
+   "Dana etini tuz, yarım soğan, bir diş sarımsak ve et suyu küpüyle birlikte 500 ml suda, yumuşayana kadar yaklaşık 45 dakika haşlayın. Et suyunu ayırarak saklayın.",
    "Tütsülenmiş balığın derisini ve kılçıklarını ayıklayıp parçalara ayırın. Kurutulmuş karidesleri sıcak suda 10 dakika bekletip süzün.",
    "Geniş bir tencerede palm yağını ısıtın, kalan soğanı ve sarımsağı kısık ateşte yumuşayana kadar kavurun. Balık ve karidesi ekleyip 3-4 dakika birlikte kavurun.",
    "Fıstık macununu ve et suyunu (ayırdığınız 500 ml dahil) ekleyip karıştırın. Çok ince kıvam için biraz daha su ekleyin, sosu 10 dakika kaynatın.",
@@ -57,10 +57,10 @@
   "en": [
    "Wash the ndolé leaves thoroughly. For fresh leaves, boil for 10 minutes, changing the water 2-3 times, then drain and rinse in cold water to reduce the bitterness. If dried, soak overnight first, then boil in the same way.",
    "Soak the raw peanuts in hot water for 5 minutes, then rub off the thin skins. Blend with 150 ml water until you have a smooth paste.",
-   "Simmer the beef in 500 ml water with salt, half the onion and one garlic clove for about 45 minutes, until tender. Keep the broth aside.",
+   "Simmer the beef in 500 ml water with salt, half the onion, one garlic clove and the beef stock cube for about 45 minutes, until tender. Keep the broth aside.",
    "Remove the skin and bones from the smoked fish and flake it into pieces. Soak the dried shrimp in hot water for 10 minutes, then drain.",
    "Heat the palm oil in a large pot and gently fry the remaining onion and garlic until soft. Add the smoked fish and dried shrimp and fry together for 3-4 minutes.",
-   "Stir in the peanut paste and the reserved broth, adding a little more water if you want a looser sauce. Simmer for 10 minutes.",
+   "Stir in the peanut paste and the reserved broth (including the 500 ml), adding a little more water if you want a looser sauce. Simmer for 10 minutes.",
    "Add the cooked beef and the bitterleaf to the sauce. Cook over low heat, stirring occasionally, for about 30 minutes until the sauce thickens and the leaves are very tender. Season with salt, and add the whole scotch bonnet if using.",
    "Grill or pan-fry the plantains in their skins until the skins are black and the flesh is soft. Serve the ndolé hot with the plantains on the side."
   ]
@@ -69,5 +69,16 @@
   "tr": "Yaprakların acılığını tam olarak gidermek için kaynatma suyunu birkaç kez değiştirmek önemlidir; yetersiz durulanan yapraklar sosa keskin bir tat verir.",
   "en": "Change the boiling water several times to remove most of the bitterness from the leaves; under-rinsed leaves will make the sauce taste sharp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Stock cube is listed but never used in the steps (Turkish and English)",
+   "Water total is unclear: 1 litre is listed, but the steps use 150 ml + 500 ml = 650 ml",
+   "Turkish smoked fish example says 'sazan' (carp), but English says 'smoked catfish', so the two versions disagree",
+   "Turkish cooking oil says 'mısır özü/ayçiçek yağı' (corn/sunflower oil), but English says 'groundnut oil'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

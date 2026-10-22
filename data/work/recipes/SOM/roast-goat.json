@@ -18,7 +18,7 @@
    "6 diş sarımsak, ezilmiş",
    "2 cm taze zencefil, rendelenmiş",
    "2 g öğütülmüş kimyon (1 tatlı kaşığı)",
-   "2 g öğütülmüş kakule (½ tatlı kaşığı)",
+   "1 g öğütülmüş kakule (½ tatlı kaşığı)",
    "2 g karabiber (1 tatlı kaşığı)",
    "9 g tuz (1½ tatlı kaşığı)",
    "30 ml sıvı yağ",
@@ -32,7 +32,7 @@
    "6 garlic cloves, crushed",
    "2 cm fresh ginger, grated",
    "2 g ground cumin (1 tsp)",
-   "2 g ground cardamom (½ tsp)",
+   "1 g ground cardamom (½ tsp)",
    "2 g black pepper (1 tsp)",
    "9 g salt (1½ tsp)",
    "30 ml vegetable oil",
@@ -65,5 +65,13 @@
   "tr": "Eti marine ettikten sonra buzdolabında bekletmek lezzetin iyice işlemesini sağlar; servisten önce üzerine pan sosu dökmek etin suyunu korur.",
   "en": "Marinating overnight lets the spices penetrate deeply; spooning the pan juices over the meat during roasting keeps it moist."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cardamom quantity mismatch: 2 g is labeled as ½ tsp, but ½ tsp ground cardamom weighs about 1 g. The same error appears in the Turkish version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

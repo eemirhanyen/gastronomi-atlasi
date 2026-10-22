@@ -31,7 +31,7 @@
    "Patatesleri süzün ve tencerede birkaç dakika bekleterek fazla suyunun buharlaşmasını sağlayın.",
    "Patatesleri püre haline getirin. Tereyağını ekleyip iyice karıştırın ve hafifçe soğumaya bırakın.",
    "Un ekleyip hamuru hafifçe yoğurun. Hamur yumuşak olmalı ama yapışkan olmamalı; fazla yoğurmayın.",
-   "Hamuru ikiye bölün. Her parçayı unlu tezgâhta yaklaşık 20 cm çapında, 5 mm kalınlığında yuvarlak bir disk haline getirin.",
+   "Hamuru ikiye bölün. Her parçayı unlu tezgâhta yaklaşık 20 cm çapında, 1 cm kalınlığında yuvarlak bir disk haline getirin.",
    "Her diski bıçakla 4 eşit üçgen parçaya (farl) bölün.",
    "Kalın tabanlı tavayı ya da sacı orta-yüksek ateşte iyice ısıtın. Yağ kullanmadan farlları yerleştirin.",
    "Her yüzünü yaklaşık 5-7 dakika, üzeri altın rengi lekeler alana kadar pişirin.",
@@ -42,7 +42,7 @@
    "Drain the potatoes and return them to the pan for a few minutes to let the excess steam off.",
    "Mash the potatoes until smooth. Beat in the butter and let the mash cool slightly.",
    "Add the flour and bring the mixture together gently. The dough should be soft but not sticky, so do not overwork it.",
-   "Divide the dough in two. On a floured surface, roll each piece into a round about 20 cm across and 5 mm thick.",
+   "Divide the dough in two. On a floured surface, roll each piece into a round about 20 cm across and 1 cm thick.",
    "Cut each round into 4 equal triangles, called farls, using a knife.",
    "Heat a heavy pan or griddle over medium-high heat until hot. Place the farls on it without oil.",
    "Cook each side for about 5-7 minutes, until golden brown spots appear.",
@@ -53,5 +53,13 @@
   "tr": "Patatesi fazla yoğurmayın ve sudan iyice süzün; aksi halde farllar sert ve yapışkan olur.",
   "en": "Drain and steam the potatoes well and handle the dough lightly; overworked or wet potatoes make the farls heavy and gummy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 dough thickness is inconsistent with the quantities: about 575 g of mash divided into two discs gives roughly 290 cm³ per disc, which would be about 9 mm thick at 20 cm across, not 5 mm. Change"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

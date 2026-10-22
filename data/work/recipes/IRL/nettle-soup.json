@@ -40,7 +40,7 @@
    "Büyük bir tencerede tereyağını orta ateşte eritin. Soğanı ekleyip yaklaşık 5 dakika, renk almadan yumuşayana kadar soteleyin.",
    "Patates küplerini ve sebze suyunu ekleyin. Kaynatın, ardından kısık ateşte patatesler çok yumuşayana kadar yaklaşık 15 dakika pişirin.",
    "İsırgan yapraklarını tencereye ekleyin ve 3 dakika kadar, yapraklar solana kadar pişirin. Pişirme sırasında isırganın batıcılığı kaybolur.",
-   "Ocağı kapatın. Çorbayı daldırma blenderla veya mutfak robotuyla pürüzsüz olana kadar blendırdan geçirin.",
+   "Ocağı kapatın. Çorbayı daldırma blenderla veya mutfak robotuyla pürüzsüz olana kadar blenderdan geçirin.",
    "Çorbayı tekrar tencereye alın, kremayı ekleyip karıştırın. Tuz ve karabiberle tatlandırın. Kaynatmadan, sıcak olana kadar hafifçe ısıtın.",
    "Sıcak sıcak servis yapın ve yanında kahverengi ekmek dilimleriyle ikram edin."
   ],
@@ -59,5 +59,13 @@
   "tr": "Isırgan yapraklarını mutlaka eldivenle toplayın ve tencereye koymadan önce yıkayın; pişirme sırasındaki ısı batıcılığı tamamen giderir.",
   "en": "Always handle nettles with gloves and pick only the young tops in spring; cooking fully neutralises the sting, so do not skip the 3-minute simmer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 has a misspelling: \"blendırdan\" should be \"blenderdan\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

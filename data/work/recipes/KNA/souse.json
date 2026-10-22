@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Sous",
+  "tr": "Souse",
   "en": "Souse"
  },
  "native": "Souse",
  "desc": {
-  "tr": "Saint Kitts ve Nevis'te domuz etinin limon suyu ve sirkeyle marine edilip salatalık, soğan ve acı biberle servis edildiği soğuk bir yemektir. Özellikle Noel ve hafta sonu öğünlerinde, ayrıca bayram gibi kutlamalarda sofralarda yer alır.",
+  "tr": "Saint Kitts ve Nevis'te domuz etinin limon suyu ve sirkeyle marine edilip salatalık, soğan ve acı biberle servis edildiği soğuk bir yemektir. Özellikle Noel ve hafta sonu öğünlerinde, ayrıca çeşitli kutlamalarda sofralarda yer alır.",
   "en": "A cold dish of pork cooked until tender, then marinated in lime juice and vinegar with cucumber, onion and hot pepper. It is served on St. Kitts & Nevis especially at Christmas, on weekends and at festive gatherings."
  },
  "servings": 4,
@@ -50,8 +50,8 @@
  "steps": {
   "tr": [
    "Domuz etini, su, dörde bölünmüş soğan, ezilmiş sarımsak, bütün Scotch bonnet biberi ve 1 çay kaşığı tuzu büyük bir tencereye koyun.",
-   "Karışımı kaynatın, yüzeye çıkan köpükleri alın, ardından ısıyı kısıp kapağı yarım kapalı şekilde yaklaşık 45 dakika pişirin. Et çatalla kolayca dağılana kadar pişmelidir.",
-   "Eti süzün, bütün biberi ve soğan parçalarını atın. Etin üzerini örtüp oda sıcaklığına gelmesini bekleyin.",
+   "Karışımı kaynatın, yüzeye çıkan köpükleri alın, ardından ısıyı kısıp kapağı yarım kapalı şekilde yaklaşık 60-75 dakika pişirin. Et çatalla kolayca dağılana kadar pişmelidir.",
+   "Eti süzün, bütün biberi ve soğan parçalarını atın. Eti oda sıcaklığına gelene kadar soğumaya bırakın.",
    "Etleri ısırık boyutunda parçalara ayırın ve geniş bir kaseye alın.",
    "Ayrı bir kapta limon suyu, sirke, ince doğranmış Scotch bonnet biberi, marinasyon için ayrılan 1 çay kaşığı tuz ve karabiberi karıştırın.",
    "Marinasyon sosunu etin üzerine dökün, ardından ince dilimlenmiş kırmızı soğan, yeşil biber ve maydanozu ekleyip iyice karıştırın.",
@@ -60,7 +60,7 @@
   ],
   "en": [
    "Place the pork, water, quartered onion, crushed garlic, whole Scotch bonnet pepper and 1 tsp salt in a large pot.",
-   "Bring to a boil, skim off any foam, then reduce the heat and simmer partially covered for about 45 minutes until the meat is very tender and falls apart when pierced with a fork.",
+   "Bring to a boil, skim off any foam, then reduce the heat and simmer partially covered for about 60-75 minutes until the meat is very tender and falls apart when pierced with a fork.",
    "Drain the pork, discarding the whole pepper and onion pieces. Let the meat cool to room temperature.",
    "Cut the pork into bite-sized pieces and transfer to a large bowl.",
    "In a separate bowl, whisk together the lime juice, vinegar, finely chopped Scotch bonnet pepper, the 1 tsp salt for the marinade and the black pepper.",
@@ -70,8 +70,20 @@
   ]
  },
  "tip": {
-  "tr": "Eti pişirirken suyu tamamen kaynatmayın; hafif kaynama etin yumuşamasını sağlar. Scotch bonnet biberi çok acıdır, tadını kontrol ederek daha az ya da daha çok kullanabilirsiniz.",
+  "tr": "Eti pişirirken suyu sert şekilde kaynatmayın; hafif kaynama etin yumuşak kalmasını sağlar. Scotch bonnet biberi çok acıdır, tadını kontrol ederek daha az ya da daha çok kullanabilirsiniz.",
   "en": "Simmer the pork gently rather than boiling hard so it stays tender and does not toughen. Scotch bonnet is very hot, so add more or less to suit your taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description mentions 'bayram' (a Turkish/Islamic holiday), which does not match the English 'festive gatherings' and is culturally wrong for St. Kitts & Nevis.",
+   "Turkish step 3 says 'Etin üzerini örtüp' (cover the meat) but the English step only says to let it cool to room temperature, so the two versions disagree.",
+   "Turkish name 'Sous' means 'sauce' in Turkish and is misleading for this dish; the native name 'Souse' should be used.",
+   "Simmering time of about 45 minutes is likely too short for boneless pork shoulder cubes to become fork-tender as the steps claim; 60-75 minutes is more realistic.",
+   "Tip says not to boil the pork hard, but step 1 says to bring the pot to a boil. This is a minor inconsistency, though the tip is about avoiding a hard boil."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

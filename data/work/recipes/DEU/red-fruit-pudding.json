@@ -9,7 +9,7 @@
   "en": "A thick fruit compote from northern Germany, made with summer red berries and usually served with cream or vanilla sauce. It is traditionally eaten in summer, often as an afternoon dessert with coffee."
  },
  "servings": 4,
- "time_min": 45,
+ "time_min": 165,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -46,7 +46,7 @@
    "Nişasta karışımını kaynayan meyvelerin içine yavaşça dökün ve sürekli karıştırarak 1 dakika daha pişirin; kıvam alması gerekir.",
    "Ocaktan alın, limon suyunu ekleyin ve limon rendesini çıkarın.",
    "Karışımı servis kaplarına veya bir kaseye aktarın, oda sıcaklığında kısa süre bekletin ve ardından en az 2 saat buzdolabında soğutarak dinlendirin.",
-   "Servis öncesi krem şantiyi 1 yemek kaşığı toz şekerle sert köpük olana kadar çırpın.",
+   "Servis öncesi krem şantiyi 1 yemek kaşığı toz şekerle hafif yumuşak zirveli köpük oluşana kadar çırpın.",
    "Soğuyan Rote Grütze'nin üzerine veya yanına krem şanti ekleyerek servis yapın."
   ],
   "en": [
@@ -65,5 +65,14 @@
   "tr": "Kıvamı ayarlamak için nişasta miktarını azaltabilir ya da artırabilirsiniz; soğudukça biraz daha koyulaşacağını unutmayın.",
   "en": "Adjust the thickness by changing the cornstarch slightly; the pudding will set further as it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to whip the cream to 'sert köpük' (stiff peaks), but the English says 'soft peaks'. The two versions disagree.",
+   "time_min is 45, but the recipe requires at least 2 hours of chilling, so the stated total time is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

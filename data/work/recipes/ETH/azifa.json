@@ -5,7 +5,7 @@
  },
  "native": "አዚፋ",
  "desc": {
-  "tr": "Yeşil mercimek, soğan, acı biber ve hardalla hazırlanan, soğuk ya da oda sıcaklığında servis edilen Etiyopya salatası. Özellikle oruç günlerinde ve günlük öğünlerde injera ile birlikte sunulur.",
+  "tr": "Yeşil mercimek, soğan, acı biber, hardal ve limonla hazırlanan, soğuk ya da oda sıcaklığında servis edilen Etiyopya salatası. Özellikle oruç günlerinde ve günlük öğünlerde injera ile birlikte sunulur.",
   "en": "A cold or room-temperature Ethiopian salad of green lentils with onion, hot chili, mustard and lemon. It is served with injera, often on fasting days and at everyday meals."
  },
  "servings": 4,
@@ -17,7 +17,7 @@
    "750 ml su",
    "1 çay kaşığı (5 g) tuz",
    "1 orta boy kırmızı soğan (100 g)",
-   "2 yeşil acı biber (sivri veya jalapeño), ince doğranmış (20 g)",
+   "2 yeşil acı biber (serrano veya jalapeño), ince doğranmış (20 g)",
    "1 yemek kaşığı (15 g) hardal",
    "2 yemek kaşığı (30 ml) limon suyu",
    "3 yemek kaşığı (45 ml) zeytinyağı",
@@ -61,5 +61,14 @@
   "tr": "Mercimeği ılıkken sosla karıştırın; sıcak mercimek sosu daha iyi emer ve salata daha lezzetli olur.",
   "en": "Dress the lentils while they are still warm; they absorb the dressing better and the salad tastes more balanced."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description omits lemon, which the English description and the recipe include",
+   "Chili variety differs between versions: Turkish says \"sivri\" (a generic pointed pepper) while English says serrano"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

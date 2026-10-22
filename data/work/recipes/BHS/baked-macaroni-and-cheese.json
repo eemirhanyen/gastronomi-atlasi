@@ -15,7 +15,7 @@
   "tr": [
    "250 g dirsek makarna",
    "1 yemek kaşığı tuz (makarna suyu için)",
-   "40 g tereyağı (30 g soğan için, 10 g kabı yağlamak ve üstü için)",
+   "50 g tereyağı (30 g soğan için, 10 g kabı yağlamak ve 10 g üstü için)",
    "1 küçük soğan (100 g), ince doğranmış",
    "300 g keskin çedar peyniri, rendelenmiş",
    "2 yumurta",
@@ -29,7 +29,7 @@
   "en": [
    "250 g elbow macaroni",
    "1 tbsp salt (for the pasta water)",
-   "40 g butter (30 g for the onion, 10 g for greasing the dish and dotting the top)",
+   "50 g butter (30 g for the onion, 10 g for greasing the dish, 10 g for dotting the top)",
    "1 small onion (100 g), finely diced",
    "300 g sharp cheddar, grated",
    "2 eggs",
@@ -58,7 +58,7 @@
    "Melt 30 g of butter in a medium pan over medium heat, add the diced onion and fry for 5 minutes until soft.",
    "In a large bowl, beat the eggs. Add the evaporated milk, whole milk, dry mustard, 1/2 tsp salt and black pepper, and whisk until smooth.",
    "Spread half the macaroni in the greased dish. Sprinkle half the onion and a third of the cheese over it. Add the remaining macaroni, the rest of the onion and half the remaining cheese, and level the surface.",
-   "Slowly pour the egg and milk mixture around the edges of the dish. Scatter the rest of the cheese on top, dot with the remaining butter and dust with paprika.",
+   "Slowly pour the egg and milk mixture around the edges of the dish. Scatter the rest of the cheese on top, dot with the remaining 10 g of butter and dust with paprika.",
    "Bake on the middle shelf for 35-40 minutes, until the top is golden and the centre is just set. Remove from the oven.",
    "Rest for 10 minutes before slicing so the squares hold together neatly."
   ]
@@ -67,5 +67,14 @@
   "tr": "Sütlü karışımı makarnanın üzerine hemen dökmek yerine kabın kenarlarından yavaşça ilave edin; böylece her katman eşit ıslanır.",
   "en": "Pour the custard slowly around the edges rather than over the middle, so every layer soaks up the mixture evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter total is inconsistent: the ingredient line says 40 g (30 g onion + 10 g for greasing and topping), but the steps use 10 g to grease the dish and another 10 g to dot the top, plus 30 g for the o",
+   "The same butter mismatch appears in the Turkish ingredient line."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

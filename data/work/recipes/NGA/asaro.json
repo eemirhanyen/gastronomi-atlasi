@@ -1,19 +1,19 @@
 {
  "name": {
-  "tr": "Asaro (tatlı yam püresi)",
+  "tr": "Asaro (tatlı yam yemeği)",
   "en": "Asaro (sweet yam porridge)"
  },
  "native": "Asaro",
  "desc": {
-  "tr": "Batı Nigerya'da, özellikle Yoruba mutfağında yaygın olan, yer elması, palmiye yağı ve kırmızı biberle hazırlanan yoğun bir yemektir. Genellikle öğle ya da akşam yemeğinde, sıcak olarak servis edilir.",
-  "en": "A thick, comforting one-pot dish of yam cooked with palm oil, roasted-style pepper, and smoked fish, common in Yoruba kitchens of western Nigeria. It is usually served warm as a main meal, especially for lunch or dinner."
+  "tr": "Batı Nigerya'da, özellikle Yoruba mutfağında yaygın olan, yam, palmiye yağı, blenderda çekilmiş kırmızı biber ve tütsülenmiş balıkla hazırlanan yoğun bir yemektir. Genellikle öğle ya da akşam yemeğinde, sıcak olarak servis edilir.",
+  "en": "A thick, comforting one-pot dish of yam cooked with palm oil, blended pepper, and smoked fish, common in Yoruba kitchens of western Nigeria. It is usually served warm as a main meal, especially for lunch or dinner."
  },
  "servings": 4,
  "time_min": 60,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "800 g yer elması (sarı yam), soyulmuş ve küp doğranmış",
+   "800 g yam (sarı yam), soyulmuş ve küp doğranmış",
    "80 ml palmiye yağı",
    "150 g kırmızı dolmalık biber",
    "2 orta boy domates (yaklaşık 300 g)",
@@ -43,12 +43,12 @@
  },
  "steps": {
   "tr": [
-   "Yer elmasını soyun, küp doğrayın ve soğuk suda yıkayıp süzün.",
+   "Yamı soyun, küp doğrayın ve soğuk suda yıkayıp süzün.",
    "Kırmızı biberi, domatesleri, acı biberi (kullanıyorsanız) ve soğanın yarısını blenderda pürüzsüz olana kadar çekin.",
    "Geniş bir tencerede palmiye yağını orta ateşte 2 dakika ısıtın. Kalan yarım soğanı ince doğrayıp yağda 3 dakika soteleyin.",
    "Blenderdan çıkan karışımı tencereye ekleyin ve yağ yüzeye ayrılana kadar, ara sıra karıştırarak yaklaşık 12 dakika pişirin.",
    "Öğütülmüş kerevit, toz et suyu küpü ve tütsülenmiş balığı ekleyip 2 dakika daha karıştırın.",
-   "Suyu ekleyip kaynatın. Yer elması küplerini ve tuzu ilave edin, kapağını kapatarak kısık ateşte 20-25 dakika, yam yumuşayana kadar pişirin.",
+   "Suyu ekleyip kaynatın. Yam küplerini ve tuzu ilave edin, kapağını kapatarak kısık ateşte 20-25 dakika, yam yumuşayana kadar pişirin.",
    "Kepçenin arkasıyla ya da bir tahta kaşıkla yamların bir kısmını ezerek yemeğin kıvamını koyulaştırın. Tadına bakıp gerekirse tuz ekleyin.",
    "Ocaktan alın, doğranmış yeşil soğanı serpip sıcak servis yapın."
   ],
@@ -64,8 +64,18 @@
   ]
  },
  "tip": {
-  "tr": "Yer elmasını çok ezmeyin; asaro, kıvamı yoğun ama içinde yam parçaları hissedilen bir yemektir.",
+  "tr": "Yamı çok ezmeyin; asaro, kıvamı yoğun ama içinde yam parçaları hissedilen bir yemektir.",
   "en": "Do not mash the yam completely; asaro should be thick but still have visible pieces of yam throughout."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish text translates 'yam' as 'yer elması' (Jerusalem artichoke), which is a different plant. It appears in the name, description, ingredients and steps. Turkish should use 'yam' (sarı yam).",
+   "Turkish name 'tatlı yam püresi' (sweet yam purée) conflicts with the tip and the English name, which describe a thick stew with visible yam pieces.",
+   "English description says 'roasted-style pepper', but the steps blend the pepper raw. The description should say 'blended pepper'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

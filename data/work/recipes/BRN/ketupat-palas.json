@@ -9,19 +9,19 @@
   "en": "A firm, sliceable rice cake cooked by boiling rice tightly wrapped in palas leaves. In Brunei it is served at festive meals such as Hari Raya and family gatherings, usually alongside rendang or sambal."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 330,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "400 g kısa taneli beyaz pirinç",
-   "8 adet taze palas yaprağı (yaklaşık 20 cm)",
+   "400 g kısa taneli yapışkan (pulut) pirinç",
+   "16 adet taze palas yaprağı (yaklaşık 20 cm, her kese için iki yaprak)",
    "8 adet ahşap lidi",
    "1 tatlı kaşığı (5 g) tuz",
    "2 litre su"
   ],
   "en": [
-   "400 g short-grain white rice",
-   "8 fresh palas leaves (about 20 cm each)",
+   "400 g short-grain glutinous rice (pulut)",
+   "16 fresh palas leaves (about 20 cm each, two per pouch)",
    "8 wooden skewers",
    "1 teaspoon (5 g) salt",
    "2 litres water"
@@ -29,23 +29,23 @@
  },
  "steps": {
   "tr": [
-   "Pirinci bol suda 2-3 kez yıkayın, ardından üzerini kapatacak kadar suyla 30 dakika bekletin ve süzün.",
+   "Pirinci bol suda 2-3 kez yıkayın, ardından üzerini kapatacak kadar suyla en az 2 saat bekletin ve süzün.",
    "Palas yapraklarını temizleyin, kurumuş kenarlarını kesin ve yumuşaması için kısa süre ılık suda bekletip kurulayın.",
-   "Her yapraktan iki kat olacak şekilde yaprağı üst üste koyun ve koni biçiminde bir kese oluşturup kenarlarını lidiyle sabitleyin.",
+   "Her keseye iki yaprak gelecek şekilde yaprakları üst üste koyun ve koni biçiminde bir kese oluşturup kenarlarını lidiyle sabitleyin.",
    "Her keseye yaklaşık 50 g süzülmüş pirinç doldurun, ağzını sıkıca kapatıp lidiyle tutturun. Pirinç sıkıştırılmalı ama yapraklar yırtılmayacak kadar dikkatli olun.",
    "Büyük bir tencerede 2 litre suyu tuzla birlikte kaynatın.",
    "Hazırladığınız palas keselerini kaynayan suya yerleştirin ve tamamen suyun altında kalacak şekilde hafif bastırın.",
-   "Ateşi orta seviyeye ayarlayıp yaklaşık 1,5-2 saat kadar haşlayın. Su azalırsa sıcak su ekleyerek keseleri daima suya gömülü tutun.",
+   "Ateşi orta seviyeye ayarlayıp yaklaşık 2-3 saat kadar haşlayın. Su azalırsa sıcak su ekleyerek keseleri daima suya gömülü tutun.",
    "Keseleri sudan çıkarıp tamamen soğumaya bırakın. Pirinç sıkılaşınca yapraktan çıkarıp dilimleyin ve rendang veya sambal ile servis edin."
   ],
   "en": [
-   "Wash the rice in cold water 2-3 times, then soak it in enough water to cover for 30 minutes and drain.",
+   "Wash the glutinous rice in cold water 2-3 times, then soak it in enough water to cover for at least 2 hours and drain.",
    "Clean the palas leaves, trim any dry edges, and soften them briefly in lukewarm water, then pat dry.",
-   "Layer two leaves together and fold them into a cone-shaped pouch, fastening the edges with a wooden skewer.",
+   "Layer two leaves together for each pouch and fold them into a cone-shaped pouch, fastening the edges with a wooden skewer.",
    "Fill each pouch with about 50 g of drained rice, pressing gently so it is compact, then close the top and secure it with a skewer without tearing the leaves.",
    "In a large pot, bring the 2 litres of water to a boil with the salt.",
    "Lower the rice pouches into the boiling water and press lightly so they stay fully submerged.",
-   "Reduce to a medium simmer and boil for about 1.5-2 hours, adding hot water if the level drops so the pouches stay covered.",
+   "Reduce to a medium simmer and boil for about 2-3 hours, adding hot water if the level drops so the pouches stay covered.",
    "Lift the pouches out and let them cool completely. Once the rice has firmed, unwrap the leaves, slice the rice cake, and serve with rendang or sambal."
   ]
  },
@@ -53,5 +53,16 @@
   "tr": "Palas yaprağı bulunamazsa taze muz yaprağı kullanılabilir; yaprakların suda tamamen gömülü kalması pirincin eşit pişmesini sağlar.",
   "en": "If palas leaves are unavailable, fresh banana leaves make a good substitute; keeping the pouches fully submerged ensures the rice cooks evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Rice type is wrong for this dish: ketupat palas is made with short-grain glutinous rice (pulut), which gives the firm, sliceable, slightly sticky texture. Regular white rice will not set the same way.",
+   "Leaf count is inconsistent: each pouch uses two leaves (step 3), so 8 pouches need 16 leaves, not 8.",
+   "Glutinous rice needs a longer soak (at least 2 hours) than the 30 minutes given, and the boiling time is too short for a properly firm cake; it should be about 2-3 hours.",
+   "Total time (150 min) no longer reflects the soaking and longer boiling, so it is updated to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

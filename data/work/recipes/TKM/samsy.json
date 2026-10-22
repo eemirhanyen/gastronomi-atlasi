@@ -47,7 +47,7 @@
    "Rendelenmiş soğanı elinizle sıkarak fazla suyunu alın. Kuzu eti, kuyruk yağı, tuz, karabiber ve kimyonla birlikte iyice yoğurun.",
    "Fırını 220°C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı yaklaşık 14 cm kenarlı, çok ince bir kare olacak şekilde açın.",
-   "Her hamur yaprağının ortasına 2 tatlı kaşığı dolusu iç harcı koyun.",
+   "Her hamur yaprağının ortasına 2 yemek kaşığı dolusu iç harç koyun.",
    "Hamurun kenarlarını birleştirerek üçgen şeklinde kapatın ve kenarları bastırarak sıkıca yapıştırın.",
    "Şekillendirdiğiniz samsıları tepsiye dizin ve yumurta sarısı-süt karışımıyla üzerlerini fırçayla sürün.",
    "25–30 dakika, üstü altın sarısı olana ve iç harç pişene kadar fırınlayın. Sıcak servis yapın."
@@ -57,7 +57,7 @@
    "Squeeze the grated onion with your hands to remove excess juice. Mix it well with the lamb, tail fat, salt, black pepper and cumin.",
    "Preheat the oven to 220°C and line a baking tray with parchment paper.",
    "Divide the dough into 8 equal pieces. Roll each into a very thin square of about 14 cm per side.",
-   "Place about 2 heaped teaspoons... more precisely, 2 heaped tablespoons of filling in the centre of each dough square.",
+   "Place 2 heaped tablespoons of filling in the centre of each dough square.",
    "Bring the corners together to form a triangle, pressing the edges firmly so they seal.",
    "Arrange the samsy on the tray and brush their tops with the egg yolk and milk mixture.",
    "Bake for 25–30 minutes until golden on top and the filling is cooked through. Serve hot."
@@ -67,5 +67,14 @@
   "tr": "Kenarları iyice kapatın ki iç harç pişerken sızmasın; kuyruk yağı, etin suyunu tutarak samsıyı lezzetli ve yumuşak yapar.",
   "en": "Seal the edges firmly so the juices stay inside while baking; the fat keeps the filling moist and flavourful."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 5 contains a garbled self-correction (\"about 2 heaped teaspoons... more precisely, 2 heaped tablespoons\") that should be a clean instruction",
+   "Turkish step 5 says \"2 tatlı kaşığı dolusu\" (dessert spoons), but the English says 2 tablespoons. The amount should be 2 yemek kaşığı to match the English and the filling quantity"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -29,10 +29,12 @@
    "2 yemek kaşığı galeta unu",
    "1 çay kaşığı köri tozu",
    "1/2 çay kaşığı karabiber",
+   "1/2 çay kaşığı tuz (köfte için)",
    "3 yemek kaşığı sıvı yağ",
    "300 g kemiksiz tavuk but, küçük parçalar halinde",
    "1 yemek kaşığı köri tozu",
    "1/2 çay kaşığı zerdeçal",
+   "1/2 çay kaşığı tuz (tavuk körisi için)",
    "1 küçük soğan, doğranmış",
    "1 diş sarımsak, ezilmiş",
    "150 ml hindistancevizi sütü",
@@ -42,7 +44,7 @@
    "1 yemek kaşığı şeker",
    "1 yemek kaşığı acı pul biber",
    "1 küçük parça tarçın (seeni sambol için)",
-   "1 yemek kaşığı tamarind püresi",
+   "1 yemek kaşığı demirhindi püresi",
    "2 yemek kaşığı sıvı yağ (seeni sambol için)",
    "1 küçük patlıcan (yaklaşık 200 g), küp doğranmış",
    "2 yemek kaşığı sirke",
@@ -69,10 +71,12 @@
    "2 tbsp breadcrumbs",
    "1 tsp curry powder",
    "1/2 tsp ground black pepper",
+   "1/2 tsp salt (for meatballs)",
    "3 tbsp vegetable oil",
    "300 g boneless chicken thigh, cut into pieces",
    "1 tbsp curry powder",
    "1/2 tsp turmeric",
+   "1/2 tsp salt (for chicken curry)",
    "1 small onion, chopped",
    "1 garlic clove, crushed",
    "150 ml coconut milk",
@@ -95,7 +99,7 @@
  },
  "steps": {
   "tr": [
-   "Seeni sambol için bir tavada 2 yemek kaşığı yağı orta ateşte ısıtın, tarçını ve dilimlenmiş kuru soğanı ekleyip soğanlar kızarana kadar yaklaşık 15 dakika karıştırarak pişirin. Şekeri, acı pul biberi ve tamarind püresini ekleyin, kısık ateşte koyulaşana kadar 5 dakika daha pişirin, sonra kenara alın.",
+   "Seeni sambol için bir tavada 2 yemek kaşığı yağı orta ateşte ısıtın, tarçını ve dilimlenmiş kuru soğanı ekleyip soğanlar kızarana kadar yaklaşık 15 dakika karıştırarak pişirin. Şekeri, acı pul biberi ve demirhindi püresini ekleyin, kısık ateşte koyulaşana kadar 5 dakika daha pişirin, sonra kenara alın.",
    "Patlıcan turşusu için küp doğranmış patlıcanı tuzla karıştırıp 10 dakika bekletin, sonra suyunu sıkın. Bir tavada 2 yemek kaşığı yağı ısıtın, hardalı ekleyip taneleri çıtırdayınca patlıcanı ilave edin ve 5 dakika kavurun. Sirke ve şekeri ekleyip sıvı azalana kadar 3 dakika pişirin, soğutun.",
    "Pirinci bir tencerede 1 yemek kaşığı ghee ile 2 dakika kavurun. Tavuk suyu, tarçın, karanfil, karabiber, tuz ve ince dilimlenmiş soğanı ekleyip kaynatın, kapağını kapatıp kısık ateşte 15 dakika pişirin, ocaktan alıp 10 dakika demlenmeye bırakın. Kalan ghee'yi pirincin üzerine gezdirip çatalla kabartın.",
    "Köfte için kıymayı büyük bir kaseye alın. Rendelenmiş soğan, sarımsak, yeşil biber, çırpılmış yumurta, galeta unu, köri tozu, karabiber ve 1/2 çay kaşığı tuzu ekleyip iyice yoğurun. Küçük köfteler şekillendirin ve 3 yemek kaşığı yağda orta ateşte her yüzü kızarana kadar yaklaşık 10 dakika pişirin.",
@@ -119,5 +123,14 @@
   "tr": "Muz yapraklarını alev üzerinde hafifçe ısıtmak yırtılmasını önler ve pakete aroma verir; yaprakları önce sıcak suda yumuşatmak da yeterlidir.",
   "en": "Warming the banana leaves briefly over a flame stops them tearing and adds a subtle aroma; soaking them in hot water also works if you have no open flame."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt for the meatballs (1/2 tsp, step 4) and for the chicken curry (1/2 tsp, step 5) is used in the steps but never listed in the ingredients, in either language. Only the rice (1 tsp) and brinjal moj",
+   "Turkish ingredient name 'tamarind püresi' uses the English word; the natural Turkish term is 'demirhindi püresi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -15,6 +15,7 @@
   "tr": [
    "8 orta boy enginar (yaklaşık 1,2 kg)",
    "1 limon",
+   "1 litre soğuk su (asitli su için)",
    "3 diş sarımsak",
    "20 g taze maydanoz",
    "5 g taze nane",
@@ -23,11 +24,12 @@
    "5 g tuz",
    "1 g karabiber",
    "120 ml zeytinyağı",
-   "300 ml su"
+   "300 ml su (pişirme için)"
   ],
   "en": [
    "8 medium artichokes (about 1.2 kg)",
    "1 lemon",
+   "1 litre cold water (for acidulated water)",
    "3 garlic cloves",
    "20 g fresh parsley",
    "5 g fresh mint",
@@ -36,13 +38,13 @@
    "5 g salt",
    "1 g black pepper",
    "120 ml extra virgin olive oil",
-   "300 ml water"
+   "300 ml water (for cooking)"
   ]
  },
  "steps": {
   "tr": [
-   "Bir kasede 1 litre soğuk suya limonun suyunu sıkıp kalan limon kabuklarını da atarak asitli su hazırlayın.",
-   "Enginarların dış sert yapraklarını koparın, sapın üst kısmından yaklaşık 2 cm kesin ve sapını soyup asitli suya atın. Enginarları karararak kararmaması için suda bekletin.",
+   "Bir kasede 1 litre soğuk suya limonun suyunu sıkıp, kalan limon kabuklarını da suya atarak asitli su hazırlayın.",
+   "Enginarların dış sert yapraklarını koparın, sapın üst kısmından yaklaşık 2 cm kesin ve sapını soyup asitli suya atın. Enginarların kararmasını önlemek için hemen asitli suda bekletin.",
    "Sarımsakları ince kıyın. Maydanoz ve naneyi ince doğrayın.",
    "Bir kapta galeta unu, pecorino, kıyılmış sarımsak, maydanoz, nane, tuz, karabiber ve 40 ml zeytinyağını karıştırarak dolgu hazırlayın.",
    "Enginarları asitli sudan çıkarıp kağıt havluyla kurulayın. Yaprakları hafifçe açarak ortadaki sakallı kısmı bir kaşıkla temizleyin.",
@@ -69,5 +71,15 @@
   "tr": "Enginarları kararmasını önlemek için kesilir kesilmez limonlu suya atın ve pişirmeden önce sıvının tencerede yeterli olduğundan emin olun; sıvı azalırsa enginarlar yanabilir.",
   "en": "Drop artichokes into the acidulated water as soon as you cut them to prevent browning, and check the liquid level during cooking, since the pan can scorch if it runs dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Acidulated water requires 1 litre of cold water, but the ingredient list only includes 300 ml water (used for cooking).",
+   "Step 1 disagrees between languages: Turkish says to discard the lemon halves, while English says to add them to the water.",
+   "Turkish step 2 has an unnatural phrase, 'karararak kararmaması için', which reads as contradictory."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -27,7 +27,7 @@
    "1/2 tatlı kaşığı acı toz biber",
    "1 yemek kaşığı limon suyu (15 ml)",
    "1 yemek kaşığı bitkisel yağ",
-   "30 g çıtır kızarmış pirinç patlağı (chanachur veya muri)",
+   "30 g çıtır kızarmış patlamış pirinç (muri) veya chanachur (kuruyemiş ve baharatlı çıtır karışım)",
    "150 ml sıcak su (tamarind için)"
   ],
   "en": [
@@ -45,7 +45,7 @@
    "1/2 tsp chili powder",
    "1 tbsp lemon juice (15 ml)",
    "1 tbsp vegetable oil",
-   "30 g crispy fried puffed rice (chanachur or muri)",
+   "30 g crispy fried puffed rice (muri) or chanachur (crunchy spiced snack mix)",
    "150 ml warm water (for the tamarind)"
   ]
  },
@@ -57,10 +57,10 @@
    "Tamarind özünü 150 ml sıcak suda 10 dakika bekletin, elinizle ezip süzün. Süzülmüş tamarind suyunu küçük bir tencereye alın, jaggery, kimyon tozu, acı toz biber ve bir tutam tuzla birlikte orta ateşte 5-7 dakika, sos koyulaşana kadar kaynatın, ocaktan alıp soğumaya bırakın.",
    "Büyük bir kasede haşlanmış bezelyeleri, patates küplerini, soğanı, domatesi, yeşil biberleri ve kişnişin yarısını bir araya getirin.",
    "Limon suyunu, bitkisel yağı ve ayırdığınız bezelye suyunun bir kısmını ekleyip nazikçe karıştırın. Tamarind sosundan tadınıza göre ekleyin ve tuzunu kontrol edin.",
-   "Servis tabaklarına paylaştırın, üzerine yumurta dörtlüklerini, çıtır pirinç patlağını ve kalan kişnişi serpin. Hemen servis yapın."
+   "Servis tabaklarına paylaştırın, üzerine yumurta dörtlüklerini, çıtır patlamış pirinci ve kalan kişnişi serpin. Hemen servis yapın."
   ],
   "en": [
-   "Drain and rinse the dried white peas, then place them in a large pot with 1 litre of water and half a teaspoon of salt. Bring to a boil, then simmer gently for 40-50 minutes until soft but still holding their shape. Drain, reserving 100 ml of the cooking liquid.",
+   "Drain and rinse the dried white peas, then place them in a large pot with 1 litre of water and half a teaspoon of salt. Bring to a boil, then simmer gently for 40-50 minutes until soft but still holding their shape. Add water if needed to keep the peas from breaking. Drain, reserving 100 ml of the cooking liquid.",
    "Boil the potatoes in their skins in salted water for about 20 minutes. Once cool enough to handle, peel and cut into 1.5 cm cubes.",
    "Boil the eggs for 10 minutes, transfer immediately to cold water, then peel and cut each into quarters.",
    "Soak the tamarind pulp in 150 ml warm water for 10 minutes, squeeze and strain. Pour the strained tamarind liquid into a small saucepan with the jaggery, cumin, chili powder and a pinch of salt. Simmer over medium heat for 5-7 minutes until slightly thickened, then remove from the heat and let cool.",
@@ -70,8 +70,18 @@
   ]
  },
  "tip": {
-  "tr": "Çotpoti'nin çıtırlığı için puf pirinci servis anında ekleyin; önceden karıştırılırsa ıslanıp yumuşar.",
+  "tr": "Çotpoti'nin çıtırlığı için patlamış pirinci servis anında ekleyin; önceden karıştırılırsa ıslanıp yumuşar.",
   "en": "Add the puffed rice just before serving; if mixed in early, it softens and loses its crunch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to add water if needed to keep the peas from breaking, but the English step omits this.",
+   "'Chanachur' is a mixed snack (puffed rice with lentils, peanuts and spices), not plain puffed rice, so 'chanachur veya muri' is mistranslated as a single item in both languages.",
+   "Turkish 'pirinç patlağı' is unnatural; 'patlamış pirinç' is the standard term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

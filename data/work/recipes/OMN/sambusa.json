@@ -58,7 +58,7 @@
    "Domatesi ekleyip suyu çekilene ve karışım kuru bir iç harç haline gelene kadar yaklaşık 8 dakika pişirin.",
    "Ocağı kapatın, kişniş yapraklarını ve limon suyunu karıştırın, iç harcı tamamen soğumaya bırakın.",
    "Spring roll yapraklarını ikiye kesin, her yarım yaprağın bir ucuna bir çay kaşığı kadar iç harç koyun.",
-   "Yaprağın köşelerini üçgen oluşturacak şekilde katlayın, kenarları çırpılmış yumurtayla yapıştırın ve sıkıca kapatın.",
+   "Yaprağın köşesini iç harcın üzerine katlayarak üçgen oluşturun, ardından şerit boyunca katlamaya devam edin. Kenarları çırpılmış yumurtayla yapıştırın ve sıkıca kapatın.",
    "Kızartma yağını derin bir tencerede 180°C'ye ısıtın. Sambusaları partiler halinde, altın rengi ve gevrek olana kadar her iki tarafta 2-3 dakika kızartın.",
    "Kağıt havlu serili bir tabağa alın, fazla yağını süzdürün ve sıcak servis yapın."
   ],
@@ -79,5 +79,13 @@
   "tr": "Sambusaları kızartmadan önce iç harcın tamamen soğumasını bekleyin; sıcak iç harç hamuru yırtabilir ve yağda açılmasına neden olabilir.",
   "en": "Let the filling cool completely before assembling; warm filling can tear the pastry and cause the sambusas to open in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 omits the English instruction to keep folding along the strip after the first triangle fold, so the two versions disagree on the folding method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

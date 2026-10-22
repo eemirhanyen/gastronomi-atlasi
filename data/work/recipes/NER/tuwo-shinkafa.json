@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Tuvo şinkafa",
+  "tr": "Tuwo şinkafa",
   "en": "Tuwo shinkafa"
  },
  "native": "Tuwon shinkafa",
@@ -34,7 +34,7 @@
    "Pirinç pişince ocaktan alın. Pirinci havanda ezerek ya da blenderda kısa aralıklarla çekerek pürüzsüz, koyu bir macun haline getirin.",
    "Macunu tekrar tencereye alın ve kısık ateşte ısıtın. Sıcak suyu azar azar ekleyerek tahta kaşıkla güçlü şekilde karıştırın. Hamur kenarlardan ayrılıp sertleşene ve esnek bir kıvam alana kadar devam edin.",
    "Kapağını kapatıp kısık ateşte 5 dakika daha pişirin. Hamur yapışmasın diye tahta kaşığı ara ara ıslatın.",
-   "Ellerinizi soğuk suyla ıslatın, hamurdan parçalar koparıp yaklaşık 8 cm çapında yuvarlak toplar yapın. Servis tabağına alıp çorbayla birlikte sıcak servis yapın."
+   "Ellerinizi soğuk suyla ıslatın, hamurdan parçalar koparıp yaklaşık 8 cm çapında yuvarlak toplar yapın. Servis tabağına alıp çorbayla birlikte sıcak sıcak servis edin."
   ],
   "en": [
    "Rinse the rice in three changes of water until the water runs clear, then drain.",
@@ -49,5 +49,13 @@
   "tr": "Hamurun pürüzsüz çıkması için pirinci tamamen yumuşatın; sıcak suyu yavaş ekleyerek kıvamı kendiniz ayarlayın.",
   "en": "Cook the rice until fully soft so the dough is smooth, and add the hot water slowly so you can control the final texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name is misspelled as \"Tuvo şinkafa\"; it should be \"Tuwo şinkafa\" to match the English name and the native form \"Tuwon shinkafa\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

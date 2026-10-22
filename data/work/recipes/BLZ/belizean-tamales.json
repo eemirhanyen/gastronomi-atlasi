@@ -5,7 +5,7 @@
  },
  "native": "Belize",
  "desc": {
-  "tr": "Belize'de özellikle Noel ve Yeni Yıl sofralarında yapılan, achiote ile renklendirilmiş mısır hamurunun tavuklu, zeytinli ve kapamalı içle doldurulup muz yaprağına sarılarak pişirildiği geleneksel bir yemektir.",
+  "tr": "Belize'de özellikle Noel ve Yeni Yıl sofralarında yapılan, achiote ile renklendirilmiş mısır hamurunun tavuklu, zeytinli ve kaparili içle doldurulup muz yaprağına sarılarak buharda pişirildiği geleneksel bir yemektir.",
   "en": "A traditional Belizean dish, especially made for Christmas and New Year gatherings: achiote-coloured corn masa is spread over banana leaves, filled with a chicken, olive and caper stew, wrapped, and steamed."
  },
  "servings": 4,
@@ -22,7 +22,7 @@
    "15 g kapari",
    "40 g yeşil zeytin, çekirdeksiz",
    "30 g kuru üzüm",
-   "500 mg tuz (yaklaşık 1 çay kaşığı, tadına göre)",
+   "5 g tuz (yaklaşık 1 çay kaşığı, tadına göre)",
    "2 tatlı kaşığı achiote (annatto) macunu",
    "500 g mısır unu (masa harina)",
    "150 g domuz yağı veya bitkisel shortening",
@@ -60,7 +60,7 @@
    "Muz yapraklarını sıcak suda 1 dakika bekleterek yumuşatın, kurulayın ve kenarlarını kesip düzleştirin.",
    "Her yaprağın ortasına yaklaşık 60 g hamuru ince bir tabaka halinde yayın. Ortasına 2 yemek kaşığı iç koyun.",
    "Yaprağı ikiye katlayıp hamuru iç ortada kapatın, ardından yaprağı zarf gibi sarıp mutfak ipiyle veya yaprak şeritleriyle bağlayın.",
-   "Büyük bir tencereye tamalelerin yarısını dik şekilde yerleştirin, üzerlerini geçecek kadar sıcak su ekleyin. Kapağı kapatıp orta-kısık ateşte 60-70 dakika kaynatın, gerekirse su ekleyin.",
+   "Büyük bir tencerenin dibine sıcak su koyun (buharlama sehpasının altında kalacak kadar, yaklaşık 3-4 cm). Tencerenin içine buharlama sehpası yerleştirin, tamalelerin yarısını dik şekilde sehpanın üzerine dizin. Kapağı kapatıp orta-kısık ateşte 60-70 dakika buharda pişirin, su biterse gerektikçe sıcak su ekleyin. Kalan tamaleleri de aynı şekilde partiler halinde pişirin.",
    "Tamaleleri çıkarıp 10 dakika dinlendirin. Muz yaprağını açarak sıcak servis yapın."
   ],
   "en": [
@@ -73,7 +73,7 @@
    "Soften the banana leaves by passing them over a flame or dipping them in hot water for 1 minute. Pat dry and trim the edges into neat rectangles.",
    "Spread about 60 g of masa in a thin layer in the centre of each leaf, leaving a border. Place 2 tablespoons of filling in the middle.",
    "Fold the leaf over the filling, then fold the sides in and roll it up into a parcel. Tie with kitchen twine or strips of banana leaf.",
-   "Place half the tamales upright in a large pot, add enough hot water to cover them, and simmer over medium-low heat for 60-70 minutes, topping up with water as needed. Repeat with the remaining tamales if you cook them in batches.",
+   "Pour hot water into a large pot to a depth of about 3-4 cm, below the level of a steamer rack. Set the rack in the pot and stand half the tamales upright on it. Cover and steam over medium-low heat for 60-70 minutes, topping up with boiling water as needed so the pot does not boil dry. Steam the remaining tamales in batches the same way.",
    "Remove the tamales and rest them for 10 minutes. Open the leaves and serve warm."
   ]
  },
@@ -81,5 +81,16 @@
   "tr": "Hamurun doğru kıvamda olup olmadığını su testiyle kontrol edin; hamur yüzüyorsa tamaleler pişerken dağılmaz.",
   "en": "Check the masa with the water test: if a small piece floats, the tamales will hold their shape and stay moist while steaming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish salt amount '500 mg' is wrong (a 1 tsp/1 çay kaşığı measure is about 5 g) and contradicts the English '1 tsp (about 5 g)'.",
+   "Turkish description uses 'kapamalı' for the caper ingredient; the correct Turkish word is 'kapari'.",
+   "Cooking method is inconsistent: the description says the tamales are steamed, but the steps submerge them in water and boil/simmer them, which makes the masa soggy and does not match the dish's steame",
+   "Turkish step 10 wording ('kaynatın') reflects the boiling method and needs to match the corrected steaming method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

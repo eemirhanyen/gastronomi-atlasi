@@ -68,8 +68,16 @@
   ]
  },
  "tip": {
-  "tr": "Scotch bonnet biberini delmeden ekleyin ve bütün halde pişirin; aroma verir ama yakmaz. Lalo bulunamazsa ıspanak ya da pazı kullanılabilir, ancak pişirme süresi kısalır.",
+  "tr": "Scotch bonnet biberini bütün halde, yalnızca bir kez delerek ekleyin ve pişirin; aroma verir ama yakmaz. Lalo bulunamazsa ıspanak ya da pazı kullanılabilir, ancak pişirme süresi kısalır.",
   "en": "Add the scotch bonnet whole and pierce it only once so it gives aroma without overwhelming heat. If lalo is unavailable, spinach or chard works, but reduce the simmering time to about 10 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to add the scotch bonnet without piercing it (\"delmeden ekleyin\"), but the Turkish ingredient list says it is pricked with a fork (\"çatalla delinmiş\") and the English tip says to pier"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

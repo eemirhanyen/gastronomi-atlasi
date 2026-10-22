@@ -5,7 +5,7 @@
  },
  "native": "فول مدمس",
  "desc": {
-  "tr": "Mısır'ın en yaygın kahvaltılarından biri olan, kuru baklanın yavaşça pişirilip kimyon, limon, sarımsak ve zeytinyağıyla tatlandırılmasıyla hazırlanan kıvamlı bir baklа ezmesidir. Sabah erken saatlerde sokak lokantalarında ve evlerde, ekmek ve taze sebzelerle birlikte servis edilir.",
+  "tr": "Mısır'ın en yaygın kahvaltılarından biri olan, kuru baklanın yavaşça pişirilip kimyon, limon, sarımsak ve zeytinyağıyla tatlandırılmasıyla hazırlanan kıvamlı bir bakla ezmesidir. Sabah erken saatlerde sokak lokantalarında ve evlerde, ekmek ve taze sebzelerle birlikte servis edilir.",
   "en": "A staple Egyptian breakfast of slow-cooked dried fava beans seasoned with cumin, lemon, garlic and olive oil. It is eaten early in the morning in street cafés and at home, served with bread and fresh vegetables."
  },
  "servings": 4,
@@ -47,7 +47,7 @@
    "Soğanı çıkarın, baklaları süzün ve pişirme suyundan yaklaşık 100 ml ayırın.",
    "Baklaları bir kaşık veya patates ezgisiyle hafifçe ezin; bazı baklaların bütün kalmasına izin verin. Kıvam için ayırdığınız pişirme suyundan ekleyin.",
    "Yarım limon suyu, yarım zeytinyağı, tatlı kaşığı kimyon ve tuzun yarısını ekleyin. Kısık ateşte 5 dakika karıştırarak ısıtın.",
-   "Kalan sarımsağı, kalan tuzu ve kalan limon suyuyla bir kasede karıştırın ve 5 dakika dinlendirin.",
+   "Sarımsağı, kalan tuzu ve kalan limon suyuyla bir kasede karıştırın ve 5 dakika dinlendirin.",
    "Baklaları derin bir servis kasesine alın, üzerine sarımsaklı limonlu karışımı gezdirin. Domates, taze soğan ve maydanozla süsleyip kalan zeytinyağını üzerine dökün. Sıcak servis yapın."
   ],
   "en": [
@@ -65,5 +65,15 @@
   "tr": "Kıvamı ayarlamak için pişirme suyunu kademeli ekleyin; çok sulu olursa birkaç dakika daha kısık ateşte karıştırarak koyulaştırın.",
   "en": "Add the cooking liquid gradually to adjust the texture; if it turns too loose, simmer a few more minutes while stirring to thicken it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description contains a Cyrillic character in 'baklа' (should be Latin 'bakla').",
+   "Turkish and English step 7 say 'remaining garlic', but no earlier step uses any garlic, so the step implies garlic was already split off and used.",
+   "Turkish tomato is 'küçük küpler' (small cubes) while English says 'finely diced'. Minor, but aligned here for consistency."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

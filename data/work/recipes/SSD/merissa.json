@@ -9,7 +9,7 @@
   "en": "A thick, lightly alcoholic traditional drink made from sorghum malt and sorghum flour. In South Sudan and Sudan it is served to guests and during Ramadan evenings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 880,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Mayalanma süresi lezzetin ana belirleyicisidir; sıcak bir mutfakta süreyi kısaltın, serin bir yerde ise uzatın ve kabı mutlaka örtülü tutun.",
   "en": "Fermentation time shapes the flavour: shorten it in a warm kitchen and extend it in a cool one, and always keep the bowl covered."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not match the process: the recipe includes a 12-16 hour fermentation step, so the total time is far longer than 60 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

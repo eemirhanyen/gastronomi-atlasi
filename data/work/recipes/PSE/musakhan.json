@@ -44,9 +44,9 @@
  "steps": {
   "tr": [
    "Fırını 200°C'ye ısıtın. Bütün tavuğu parçalara ayırın (veya but parçalarını kullanın) ve kağıt havluyla iyice kurulayın.",
-   "Tavuğu büyük bir kapta 1 tatlı kaşık tuz, karabiber, yenibahar, tarçın, 2 yemek kaşığı sumak ve 3 yemek kaşığı zeytinyağıyla iyice yoğurun. Yağlanmış bir fırın tepsisine derin ve dağınık olmayacak şekilde dizin.",
+   "Tavuğu büyük bir kapta 1 tatlı kaşık tuz, karabiber, yenibahar, tarçın, 2 yemek kaşığı sumak ve 3 yemek kaşığı zeytinyağıyla iyice ovalayın. Yağlanmış bir fırın tepsisine derisi üstte kalacak şekilde, birbirine değmeyecek biçimde dizin.",
    "Tavuğu fırında 40-45 dakika, üst yüzü altın rengi olana ve iç sıcaklığı 74°C'ye ulaşana kadar pişirin. Pişerken çıkan suyu bir kaba alın.",
-   "Bu sırada soğanları yaklaşık 2 yemek kaşığı zeytinyağında, orta-düşük ateşte 25-30 dakika, yumuşayıp altın rengi olana kadar kavurun. Yarısını kurulayıp 1/2 tatlı kaşık tuzla tatlandırın.",
+   "Bu sırada soğanları yaklaşık 2 yemek kaşığı zeytinyağında, orta-düşük ateşte 25-30 dakika, yumuşayıp altın rengi olana kadar kavurun. Soğanların tamamını 1/2 tatlı kaşık tuzla tatlandırın.",
    "Soğanlara kalan 2 yemek kaşığı sumağı ekleyip 2-3 dakika daha karıştırın. Sumak soğanlara kaşıkla rengini ve ekşiliğini verecek şekilde iyice karıştırılmalı.",
    "Çam fıstıklarını kuru bir tavada orta ateşte 2-3 dakika, hafif kızarana kadar kavurun ve ocaktan alın.",
    "Ekmekleri fırın tepsisine dizin, üzerlerine kalan zeytinyağını ve tavuk suyunun bir kısmını gezdirin. 3-5 dakika fırında ısıtıp yumuşatın.",
@@ -69,5 +69,14 @@
   "tr": "Soğanları acele etmeden, yavaş kavurun; tatlanıp koyulaşmaları musakhanın asıl lezzetini verir. Ekmeği tavuk suyuyla ıslatmak onu yumuşatır ve sosun tamamını emmesini sağlar.",
   "en": "Cook the onions slowly so they turn sweet and deeply golden, which gives musakhan its characteristic flavor. Soaking the bread in the chicken juices keeps it soft and lets it absorb the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says to arrange the chicken in a 'derin ve dağınık olmayacak' way, which is unclear and unnatural. The English says 'skin side up, not overcrowded', and the Turkish omits the skin-side-",
+   "Turkish step 4 says 'Yarısını kurulayıp' ('dry half of it'), which is wrong and makes no sense for onions. The English instead seasons all the onions with 1/2 tsp salt, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

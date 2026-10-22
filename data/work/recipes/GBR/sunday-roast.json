@@ -14,10 +14,11 @@
  "ingredients": {
   "tr": [
    "1,2 kg kemiksiz dana rosto eti (topside veya rib)",
-   "2 çay kaşığı deniz tuzu (bölünmüş)",
+   "1 çay kaşığı deniz tuzu, et için",
    "1 çay kaşığı çekilmiş karabiber",
    "2 yemek kaşığı (30 ml) sıvı yağ",
    "1 kg unlu patates (Maris Piper gibi), soyulmuş ve büyük parçalara kesilmiş",
+   "1 çay kaşığı tuz, patates haşlama suyu için",
    "60 g sığır yağı (dripping), patatesler için",
    "1 orta boy soğan, kama kama doğranmış",
    "2 havuç, kalın dilimlenmiş",
@@ -32,10 +33,11 @@
   ],
   "en": [
    "1.2 kg boneless beef topside or rib joint",
-   "2 tsp sea salt (divided)",
+   "1 tsp sea salt, for the beef",
    "1 tsp freshly ground black pepper",
    "2 tbsp (30 ml) vegetable oil",
    "1 kg floury potatoes (such as Maris Piper), peeled and cut into large chunks",
+   "1 tsp salt, for the potato boiling water",
    "60 g beef dripping, for the potatoes",
    "1 medium onion, cut into wedges",
    "2 carrots, cut into thick chunks",
@@ -54,11 +56,11 @@
    "Fırını 220°C'ye (fanlı ise 200°C) ısıtın. Dana eti, pişirmeden 30 dakika önce buzdolabından çıkarın.",
    "Eti 1 çay kaşığı tuz, karabiber ve 1 yemek kaşığı sıvı yağla iyice ovalayın. Kenarları kızarması için büyük bir fırın tepsisine yerleştirin.",
    "Eti 220°C'de 20 dakika kavurun, ardından fırın ısısını 180°C'ye düşürün. İç ısısı termometreyle 55°C'yi gösterene kadar (orta-az pişmiş için) yaklaşık 35-40 dakika daha pişirin.",
-   "Bu sırada patatesleri tuzlu kaynar suda 5 dakika haşlayın, süzün ve kenarları pürüzlenene kadar kevgirde sallayın.",
+   "Bu sırada patatesleri 1 çay kaşığı tuzlu kaynar suda 5 dakika haşlayın, süzün ve kenarları pürüzlenene kadar kevgirde sallayın.",
    "Kalan sıvı yağı ve sığır yağını ayrı bir fırın tepsisine koyup fırında 10 dakika ısıtın. Patatesleri ekleyip yağla kaplayın ve 200°C'de, ara ara çevirerek 45 dakika kızarana kadar pişirin.",
    "Eti fırından çıkarıp folyo ile örtün ve en az 30 dakika dinlendirin. Dinlenme sırasında kesilen et suyunu saklayın.",
    "Dana etini kavurduğunuz tepsiye soğanı ve havucu ekleyip 10 dakika fırında kızartın, sonra tepsiyi ocağın üzerine alın.",
-   "Yorkshire pudingi için unu, tuzu, yumurtaları, sütü ve suyu çırpıcıyla pürüzsüz bir hamur olacak şekilde karıştırın. 20 dakika dinlendirin.",
+   "Yorkshire pudingi için unu, bir tutam tuzu, yumurtaları, sütü ve suyu çırpıcıyla pürüzsüz bir hamur olacak şekilde karıştırın. 20 dakika dinlendirin.",
    "Yorkshire puding kalıplarına 45 g sığır yağını dağıtın, fırının en üst rafında 220°C'de 5 dakika ısıtın. Hamuru kalıplara dökün ve fırın kapağını açmadan 20 dakika, kabarıp altın rengi olana kadar pişirin.",
    "Sos için tepsideki fazla yağı süzün, yaklaşık 1 yemek kaşığı bırakın. Ocakta orta ateşte unu ekleyip 1 dakika karıştırın. Sığır suyunu yavaş yavaş ekleyip tepsinin dibindeki lezzetli kısımları kazıyarak 5 dakika kaynatın.",
    "Sosu süzgeçten geçirin, biriken et suyunu da ekleyip tuzunu ve karabiberini ayarlayın. Eti dilimleyip patates, Yorkshire puding, havuç ve sosla servis edin."
@@ -67,7 +69,7 @@
    "Preheat the oven to 220°C (200°C fan). Take the beef out of the fridge 30 minutes before cooking.",
    "Rub the beef all over with 1 tsp salt, the black pepper and 1 tbsp of the oil. Place it in a large roasting tin.",
    "Roast the beef at 220°C for 20 minutes, then lower the oven to 180°C. Continue roasting for about 35–40 minutes more, until a thermometer inserted into the centre reads 55°C for medium-rare.",
-   "Meanwhile, boil the potatoes in salted water for 5 minutes, drain well, then shake them in the colander to roughen the edges.",
+   "Meanwhile, boil the potatoes in 1 tsp salted water for 5 minutes, drain well, then shake them in the colander to roughen the edges.",
    "Put the remaining oil and the beef dripping in a separate roasting tin and heat in the oven for 10 minutes. Add the potatoes, turn to coat in fat, and roast at 200°C for about 45 minutes, turning occasionally, until golden and crisp.",
    "Transfer the beef to a board, cover loosely with foil and rest for at least 30 minutes. Save any juices that run out while resting.",
    "Add the onion wedges and carrot chunks to the beef tin and roast for 10 minutes at 180°C, then move the tin to the hob.",
@@ -81,5 +83,15 @@
   "tr": "Yorkshire puddingin kabarması için fırını çok iyi ısıtın ve hamuru pişirirken fırın kapağını hiç açmayın.",
   "en": "For tall, crisp Yorkshire puddings, make sure the dripping is smoking hot before the batter goes in, and never open the oven door during baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient lists 2 tsp sea salt (divided), but the steps use only 1 tsp on the beef and never say where the other teaspoon goes.",
+   "Step 4 salts the potato boiling water, but no salt quantity for the potatoes is listed in either language.",
+   "The Turkish and English versions share the same salt problem, so they agree with each other but are both wrong against the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

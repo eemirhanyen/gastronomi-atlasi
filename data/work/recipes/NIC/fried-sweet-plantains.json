@@ -5,7 +5,7 @@
  },
  "native": "Maduros fritos",
  "desc": {
-  "tr": "Olgunlaşmış muzun dilimlenip yağda kızartılmasıyla yapılan, tatlımsı ve yumuşak bir yan yemektir. Nikaragua'da öğle ve kahvaltı sofralarında, özellikle gallo pinto ve kızarmış peynirle birlikte servis edilir.",
+  "tr": "Olgunlaşmış muzun dilimlenip yağda kızartılmasıyla yapılan, tatlımsı ve yumuşak bir yan yemektir. Nikaragua'da öğle ve kahvaltı sofralarında, özellikle gallo pinto ve taze peynirle birlikte servis edilir.",
   "en": "Ripe plantains sliced and fried until caramelized, giving a soft, lightly sweet side dish. In Nicaragua they are served at lunch and breakfast, often alongside gallo pinto (rice and beans) and fresh cheese."
  },
  "servings": 4,
@@ -49,5 +49,13 @@
   "tr": "Muzlar ne kadar çok kararmışsa o kadar tatlı ve karamelize olur; yeşilimsi veya sert muzlar nişastalı kalır ve iyi kızarmaz.",
   "en": "The blacker the skin, the sweeter and more caramelized the result; greenish or firm plantains stay starchy and do not fry well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the plantains are served with \"kızarmış peynir\" (fried cheese), but the English description says \"fresh cheese\". The Turkish text should match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

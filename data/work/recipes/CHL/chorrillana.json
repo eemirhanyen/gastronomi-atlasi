@@ -5,7 +5,7 @@
  },
  "native": "Chorrillana",
  "desc": {
-  "tr": "Şili'nin Santiago başta olmak üzere her yerinde sokak lokantalarında ve Hafta Sonu öğünlerinde yenen, kızarmış patatesin üzerine baharatlı dana eti, soğan, sosis ve spor bir sokak yemeğidir. Genellikle paylaşmak için büyük bir tabakta servis edilir.",
+  "tr": "Şili'nin Santiago başta olmak üzere her yerinde sokak lokantalarında ve hafta sonu öğünlerinde yenen, kızarmış patatesin üzerine baharatlı dana eti, soğan, sosis ve spor bir sokak yemeğidir. Genellikle paylaşmak için büyük bir tabakta servis edilir.",
   "en": "A generous street-food platter from Chile, especially popular in Santiago, made of crisp fries topped with spiced beef, caramelised onions, sausages and fried eggs. It is usually served on one large plate to share, often at casual weekend meals and late-night eateries."
  },
  "servings": 4,
@@ -17,7 +17,7 @@
    "1 l sıvı yağ (kızartma için)",
    "500 g ince dilimlenmiş dana bonfile veya but",
    "2 büyük soğan, ince dilimlenmiş",
-   "2 yemek kaşığı sıvı yağ",
+   "3 yemek kaşığı sıvı yağ (soğan ve yumurta için)",
    "1 tatlı kaşığı öğütülmüş kimyon",
    "1 tatlı kaşığı tatlı kırmızı biber",
    "1 tatlı kaşığı tuz, gerektiğinde daha fazla",
@@ -30,7 +30,7 @@
    "1 l vegetable oil (for frying)",
    "500 g beef sirloin or flank, thinly sliced",
    "2 large onions, thinly sliced",
-   "2 tbsp vegetable oil",
+   "3 tbsp vegetable oil (for the onions and eggs)",
    "1 tsp ground cumin",
    "1 tsp sweet paprika",
    "1 tsp salt, plus more to taste",
@@ -67,5 +67,14 @@
   "tr": "Patatesleri iki kez kızartmak, dışının çıtır kalmasını sağlar; ikinci kızartmadan hemen önce tuzlamayı unutmayın.",
   "en": "Frying the potatoes twice keeps them crisp even under the toppings; salt them right after the second fry, while still hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity doesn't match the steps: the ingredient list gives 2 tbsp (2 yemek kaşığı) of vegetable oil, but the steps use 2 tbsp for the onions and another 1 tbsp for the eggs, so 3 tbsp are needed.",
+   "Turkish description capitalises 'Hafta Sonu' unnecessarily (minor)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

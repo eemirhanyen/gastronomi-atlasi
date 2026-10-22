@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Salona",
+  "tr": "Saloona",
   "en": "Saloona"
  },
  "native": "صالونة",
@@ -9,7 +9,7 @@
   "en": "A slow-simmered meat and vegetable stew flavored with bezar spice mix and dried lime, common at family meals and weekends across Oman. It is usually served with rice or bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -83,5 +83,14 @@
   "tr": "Kuru limonları iğnelemek, içlerine suyun işlemesini ve aromanın sosa yayılmasını sağlar; acılaşmaması için pişirme sonunda mutlaka çıkarın.",
   "en": "Pricking the dried limes lets the liquid penetrate and release their sour, smoky flavor into the sauce; remove them before serving so they do not turn bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low for the listed steps: browning (about 10 min), onions (10-12 min), spices and tomatoes (about 10 min), then 25 + 10 + 10 min of simmering come to roughly 75-80 min of cooking ",
+   "The Turkish name is \"Salona\" while the English name and the Arabic native name are \"Saloona\"/\"صالونة\"; the Turkish name should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

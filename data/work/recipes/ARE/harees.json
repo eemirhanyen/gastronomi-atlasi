@@ -9,11 +9,11 @@
   "en": "A traditional Emirati dish of wheat berries and meat, slow-cooked for hours and beaten into a thick, smooth porridge. It is especially served at Ramadan iftar, Eid and weddings across the Gulf, topped with hot ghee."
  },
  "servings": 4,
- "time_min": 180,
+ "time_min": 225,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "300 g bütün buğday (kabuklu buğday), en az 8 saat ıslatılmış",
+   "300 g bütün buğday taneleri, en az 8 saat ıslatılmış",
    "600 g kemikli kuzu omuz eti",
    "2,5 L su",
    "6 g tuz",
@@ -22,7 +22,7 @@
    "80 g sade yağ (ghee)"
   ],
   "en": [
-   "300 g whole wheat berries (kabuklu buğday), soaked at least 8 hours",
+   "300 g whole wheat berries, soaked at least 8 hours",
    "600 g bone-in lamb shoulder",
    "2.5 L water",
    "6 g salt",
@@ -53,5 +53,15 @@
   "tr": "Buğdayı önceden iyice ıslatmak ve pişirme sırasında sık sık karıştırmak, yapışmadan kremsi bir kıvam elde etmenin en kolay yoludur.",
   "en": "Soak the wheat thoroughly beforehand and stir often during cooking to get a creamy texture without it sticking to the bottom of the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (180) is too short: the steps add up to about 3.5 hours of active cooking and beating (45 min + 2–2.5 h + 10–15 min), plus prep, excluding the 8-hour soak.",
+   "English ingredient line contains Turkish text '(kabuklu buğday)', which should not appear in the English version.",
+   "The Turkish term 'kabuklu buğday' (husked/in-hull wheat) does not match the whole hulled wheat berries that harees normally uses. The English 'whole wheat berries' is the correct description, so the T"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

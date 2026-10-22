@@ -9,7 +9,7 @@
   "en": "A lightly fizzy, lightly fermented ginger drink made with fresh ginger and lime. It is sold by street vendors and market stalls in Freetown and served chilled on hot afternoons and at celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 500,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Şişeleri gevşek kapatıp bir gün bekletin ve buzdolabına koyduktan sonra kapakları açarak gazı tahliye edin. Sıkı kapalı şişeler basınçla patlayabilir.",
   "en": "Keep the bottles loosely capped for the first day, then refrigerate and open them carefully to release gas. Tightly sealed bottles can burst from pressure."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't reflect the process: cooling takes about 30 minutes and fermentation takes 6-8 hours before bottling, plus a further day at room temperature. The total should be stated as roughl"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

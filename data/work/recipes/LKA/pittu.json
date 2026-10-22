@@ -18,7 +18,8 @@
    "200 ml ılık su",
    "180 g taze rendelenmiş hindistancevizi",
    "250 ml kalın hindistancevizi sütü",
-   "60 g hurma şekeri veya jaggery"
+   "60 g hurma şekeri veya jaggery",
+   "50 ml su (şerbet için)"
   ],
   "en": [
    "400 g rice flour (pittu flour, coarsely ground raw rice flour)",
@@ -26,7 +27,8 @@
    "200 ml warm water",
    "180 g freshly grated coconut",
    "250 ml thick coconut milk",
-   "60 g palm sugar or jaggery"
+   "60 g palm sugar or jaggery",
+   "50 ml water (for the syrup)"
   ]
  },
  "steps": {
@@ -54,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Un doğru kıvamda olmalı: fazla su pittu'yu sert, az su ise dağılgan yapar. Kalıp yoksa kapaklı delikli bir konserve kutusu da kullanılabilir.",
+  "tr": "Un doğru kıvamda olmalı: fazla su pittu'yu sert, az su ise dağılgan yapar. Kalıp yoksa iki ucu açılmış delikli bir konserve kutusu da kullanılabilir.",
   "en": "The flour must be moist but not wet: too much water makes the pittu tough, too little makes it crumble. A perforated tin can with both ends removed also works if you have no pittu mould."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The syrup step uses 50 ml water, but water for the syrup is missing from the ingredient lists in both Turkish and English.",
+   "The Turkish tip describes the improvised mould as 'kapaklı' (with a lid), while the English says 'with both ends removed'. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,7 +21,8 @@
    "4 adet kuru kırmızı biber, 15 dakika ılık suda bekletilmiş",
    "1 adet kaffir lime kabuğu rendesi (veya 2 yaprak)",
    "1 çay kaşığı tuz",
-   "1 yemek kaşığı bitkisel yağ"
+   "1 yemek kaşığı bitkisel yağ (kavurma için)",
+   "Saklamak için yaklaşık 2 yemek kaşığı ek bitkisel yağ"
   ],
   "en": [
    "120 g lemongrass (tender part only, about 4 stalks)",
@@ -32,7 +33,8 @@
    "4 dried red chillies, soaked in warm water for 15 minutes",
    "Zest of 1 kaffir lime (or 2 leaves)",
    "1 tsp salt",
-   "1 tbsp vegetable oil"
+   "1 tbsp vegetable oil (for frying)",
+   "About 2 tbsp extra vegetable oil (for storing)"
   ]
  },
  "steps": {
@@ -40,7 +42,7 @@
    "Limon otunun dış sert kabuklarını ayırın, yumuşak beyaz kısmını ince halkalar halinde doğrayın.",
    "Kuru kırmızı biberleri ılık suda 15 dakika bekletin, süzün ve isterseniz tohumlarını çıkarın.",
    "Galangal, zerdeçal, sarımsak, arpacık, biber ve limon otunu küçük parçalar halinde doğrayın.",
-   "Havanda ya da mutfak robotunda limon otu, galangal, zerdeçal, sarımsak, arpacık, biber, kaffir lime kabuğu ve tuzu, gerekirse birkaç damla yağla birlikte ezerek pürüzsüz bir macun elde edin.",
+   "Havanda ya da mutfak robotunda limon otu, galangal, zerdeçal, sarımsak, arpacık, biber, kaffir lime kabuğu ve tuzu birlikte ezerek pürüzsüz bir macun elde edin.",
    "Geniş bir tavada 1 yemek kaşığı yağı orta-düşük ateşte ısıtın, macunu ekleyin.",
    "Karışımı 5-8 dakika sürekli karıştırarak kavurun; rengi koyulaşıp kokusu iyice yoğunlaşınca ocaktan alın.",
    "Soğuduktan sonra temiz bir kavanoza koyun, üzerine ince bir tabaka yağ ekleyerek buzdolabında 1 haftaya kadar saklayın."
@@ -49,8 +51,8 @@
    "Remove the tough outer layers of the lemongrass and thinly slice the tender white part into rings.",
    "Soak the dried red chillies in warm water for 15 minutes, drain, and remove the seeds if you prefer milder heat.",
    "Roughly chop the galangal, turmeric, garlic, shallots, chillies and lemongrass into small pieces.",
-   "Pound or blend the lemongrass, galangal, turmeric, garlic, shallots, chillies, kaffir lime zest and salt, adding a few drops of oil if needed, until you have a smooth paste.",
-   "Heat the remaining 1 tbsp oil in a wide pan over medium-low heat and add the paste.",
+   "Pound or blend the lemongrass, galangal, turmeric, garlic, shallots, chillies, kaffir lime zest and salt until you have a smooth paste.",
+   "Heat the 1 tbsp oil in a wide pan over medium-low heat and add the paste.",
    "Fry the paste for 5 to 8 minutes, stirring constantly, until it darkens slightly and becomes very fragrant.",
    "Let it cool, then transfer to a clean jar, cover with a thin layer of oil and refrigerate for up to 1 week."
   ]
@@ -59,5 +61,14 @@
   "tr": "Limon otunu ve galangalı sert liflerinden iyice ayırarak ezin; lif kalırsa macun pürüzlü olur. Kavurma adımı aromayı yoğunlaştırır, bu yüzden atlamayın.",
   "en": "Pound or blend the lemongrass and galangal very finely, since fibrous pieces leave the paste gritty. Frying the paste is what deepens its aroma, so do not skip it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities are inconsistent: the ingredients list gives 1 tbsp oil, step 4 may add extra oil, and step 5 calls the oil 'remaining', which implies some was already used.",
+   "Step 7 asks for a layer of oil for storage, but no oil for that purpose is listed in the ingredients."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

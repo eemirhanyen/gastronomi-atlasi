@@ -28,7 +28,7 @@
  "steps": {
   "tr": [
    "Ekmek ağacının yapışkan özsuyu ciltte tahrişe yol açabileceği için ellerinizi ve bıçağınızı birkaç damla yağla ovalayın.",
-   "Meyvenin sap ve çiçek uçlarını kesin, ince bir bıçakla yeşil kabuğunu soyun. Dört parçaya bölün ve ortadaki çekirdek kısmını ile lifli merkezini çıkarın.",
+   "Meyvenin sap ve çiçek uçlarını kesin, ince bir bıçakla yeşil kabuğunu soyun. Dört parçaya bölün ve ortadaki sert çekirdek kısmını ve lifli merkezini çıkarın.",
    "Parçaları mandolin veya keskin bir bıçakla yaklaşık 2 mm kalınlığında, ince dilimler halinde kesin.",
    "Dilimleri 10 dakika soğuk suda bekletin. Bu işlem özsuyu ve yüzeydeki nişastayı uzaklaştırır. Süzün ve temiz bezlerle iyice kurulayın.",
    "Hindistancevizi yağını derin, kalın tabanlı bir tencerede 170°C'ye kadar ısıtın.",
@@ -51,5 +51,13 @@
   "tr": "Dilimler kuru olmalı; ıslak dilimler yağda sıçrar ve gevrekliğini kaybeder. Yağ sıcaklığını ölçmek için mutfak termometresi kullanın.",
   "en": "The slices must be completely dry, as wet ones spatter and turn soft. Use a kitchen thermometer to keep the oil steady at 170°C."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 contains a garbled sentence: \"ortadaki çekirdek kısmını ile lifli merkezini\" (misplaced \"ile\"), which should read \"çekirdek kısmını ve lifli merkezini\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

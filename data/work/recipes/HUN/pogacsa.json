@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Pogaça (Macar usulü peynirli kimyonlu pogaça)",
+  "tr": "Pogaça (Macar usulü peynirli kâşotlu pogaça)",
   "en": "Pogácsa (Hungarian cheese and caraway scones)"
  },
  "native": "pogácsa",
  "desc": {
-  "tr": "Macaristan'da kahvaltının, çayın ve şarabın eşlikçisi olan, tuzlu, tereyağlı ve kimyonlu küçük bir hamur çöreğidir. Evlerde pazar sabahları ve bayram hazırlıklarında sıklıkla yapılır.",
+  "tr": "Macaristan'da kahvaltının, kahvenin ve şarabın eşlikçisi olan, tuzlu, tereyağlı ve kâşotlu küçük bir hamur çöreğidir. Evlerde pazar sabahları ve bayram hazırlıklarında sıklıkla yapılır.",
   "en": "A small, savory, buttery scone from Hungary, eaten with breakfast, coffee, or wine. Home cooks often bake it on weekend mornings and for holidays."
  },
  "servings": 4,
@@ -65,5 +65,14 @@
   "tr": "Tereyağı ve ekşi krema ne kadar soğuk olursa pogaça o kadar kabarık ve gevrek çıkar; hamuru ne kadar az yoğurursanız dokusu o kadar yumuşak olur.",
   "en": "The colder the butter and sour cream, the flakier the scones; handle the dough as little as possible for a tender crumb."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name and description say 'kimyon' (cumin), but the ingredient is caraway (kâşot), as in the English version and the ingredient list.",
+   "Turkish description says Hungarians eat pogácsa with 'çay' (tea), but the English says 'coffee'. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

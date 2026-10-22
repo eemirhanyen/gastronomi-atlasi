@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Palmiye yağlı çorba",
+  "tr": "Palmiye ezmeli çorba",
   "en": "Palm butter soup"
  },
  "native": "Palm butter soup",
@@ -9,15 +9,15 @@
   "en": "A rich, thick soup from Liberia, thickened with palm nut paste and enriched with meat and leafy greens. It is commonly served at lunch or dinner with rice or fufu."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "400 g dana eti (paça veya omuz), küp doğranmış",
-   "1 orta boy soğan (150 g), 1'i yarım, 1'i ince doğranmış",
+   "1 orta boy soğan (150 g), 1'i yarım (et için), 1'i rendelenmiş veya blenderdan geçirilmiş",
    "1 litre su, et için ayrıca 500 ml sıcak su",
    "1 çay kaşığı tuz, tadı için ek tuz",
-   "250 g palmiye yağı ezmesi (palm butter)",
+   "250 g palmiye ezmesi (palm butter)",
    "2 adet domates (300 g), rendelenmiş veya püre",
    "1 adet Scotch bonnet biberi, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -30,7 +30,7 @@
   ],
   "en": [
    "400 g beef (shank or chuck), cut into cubes",
-   "1 medium onion (150 g), half for the broth, half finely chopped",
+   "1 medium onion (150 g), half for the broth, half grated or blended",
    "1 litre water for the beef, plus 500 ml warm water for the palm butter",
    "1 tsp salt, plus extra to taste",
    "250 g palm butter (palm nut paste)",
@@ -49,11 +49,11 @@
   "tr": [
    "Dana etini, yarım soğan, 1 litre su ve 1 çay kaşığı tuzla büyük bir tencerede kaynatın. Kısık ateşte 45 dakika, et yumuşayana kadar pişirin.",
    "Bu sırada domatesleri, kalan yarım soğanı, Scotch bonnet biberini ve sarımsağı rendeleyin ya da blenderdan geçirerek pürüzsüz bir karışım hazırlayın.",
-   "Palmiye yağı ezmesini 500 ml sıcak suda eritin ve çırpıp bir elekten süzün. Pürüzsüz, kremamsı bir sıvı elde edin.",
+   "Palmiye ezmesini 500 ml sıcak suda eritin ve çırpıp bir elekten süzün. Pürüzsüz, kremamsı bir sıvı elde edin.",
    "Geniş bir tencerede bitkisel yağı orta-yüksek ateşte ısıtın. Domates karışımını ekleyip yağ yüzeyine çıkana kadar yaklaşık 8 dakika kavurun.",
-   "Palmiye yağı sıvısını yavaşça ekleyin ve sürekli karıştırarak 5 dakika kaynatın.",
+   "Palmiye ezmesi sıvısını yavaşça ekleyin ve sürekli karıştırarak 5 dakika kaynatın.",
    "Pişmiş eti suyuyla birlikte palmiye çorbasına aktarın. Et suyu küpünü ve öğütülmüş karidesi ekleyip 15 dakika kısık ateşte pişirin.",
-   "Bamyayı ekleyin ve 3 dakika pişirin. Ardından ıspanak veya kasava yapraklarını ekleyip 5 dakika daha pişirerek yumuşatın.",
+   "İsteğe bağlı olarak bamyayı ekleyin ve 3 dakika pişirin. Ardından ıspanak veya kasava yapraklarını ekleyip 5 dakika daha pişirerek yumuşatın.",
    "Tadını kontrol edin, gerekirse tuz ekleyin. Sıcak sıcak, pirinçle birlikte servis yapın."
   ],
   "en": [
@@ -63,7 +63,7 @@
    "Heat the vegetable oil in a wide pot over medium-high heat. Add the tomato mixture and fry for about 8 minutes, until the oil rises to the surface.",
    "Slowly pour in the palm butter liquid, stirring constantly, and simmer for 5 minutes.",
    "Transfer the cooked beef and its broth into the palm butter soup. Add the stock cube and ground crayfish and simmer gently for 15 minutes.",
-   "Add the okra and cook for 3 minutes. Then stir in the spinach or cassava leaves and cook for 5 more minutes until tender.",
+   "Optionally add the okra and cook for 3 minutes. Then stir in the spinach or cassava leaves and cook for 5 more minutes until tender.",
    "Taste and adjust with salt if needed. Serve hot with rice."
   ]
  },
@@ -71,5 +71,16 @@
   "tr": "Palmiye ezmesini sıcak suda iyice çözüp süzmek, çorbanın pürüzsüz ve kremamsı kalmasını sağlar; yağ yüzeye çıkmadan yeşillikleri eklemeyin.",
   "en": "Dissolve the palm butter well in warm water and strain it so the soup stays smooth and creamy; wait until the oil rises before adding the greens."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the steps add up to about 80 minutes of cooking plus prep time.",
+   "The onion half described as 'finely chopped' in the ingredients is grated or blended in step 2, so the ingredient description and the method disagree (TR and EN).",
+   "'Palmiye yağı' in Turkish means palm oil, not palm nut paste, so the palm butter ingredient and name are misleading (the English 'palm butter' is correct).",
+   "Okra is marked optional in the ingredients, but the steps add it unconditionally. The step should say 'isteğe bağlı' / 'optional'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

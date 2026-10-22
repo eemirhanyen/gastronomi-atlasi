@@ -55,7 +55,7 @@
    "In the same pot, fry the onion for about 5 minutes until soft and lightly golden. Add the garlic and stir for 1 more minute.",
    "Add the tomatoes and cook for about 5 minutes, until they break down and the oil starts to separate at the edges.",
    "Return the meat to the pot, add 1 tsp salt, the black pepper and 300 ml water. Bring to a boil, reduce the heat, cover and simmer for 50 to 60 minutes until the meat is very tender. Add a splash of water if the stew becomes too dry.",
-   "For the porridge, bring 1 litre of water with 1/2 tsp salt to a boil in a separate pot. Mix the maize meal with 2 tbsp of the dry meal set aside, then sprinkle the rest into the boiling water little by little while stirring constantly to avoid lumps.",
+   "For the porridge, bring 1 litre of water with 1/2 tsp salt to a boil in a separate pot. Set aside 2 tbsp of the maize meal, then sprinkle the rest into the boiling water little by little while stirring constantly to avoid lumps until smooth.",
    "Reduce the heat to low, cover and cook for 15 to 20 minutes, stirring occasionally. Sprinkle in the reserved meal and stir vigorously with a sturdy wooden spoon. When the porridge is stiff enough to pull away from the sides of the pot, remove it from the heat.",
    "Wet a bowl and press the papa into it firmly, then turn it out onto a plate to form a mound.",
    "Serve the papa hot alongside the stew. Tear off pieces with your hand, dip them into the stew and eat."
@@ -65,5 +65,13 @@
   "tr": "Papayı karıştırırken tahta kaşığı tencerenin dibine dik tutun ve sık sık hareket ettirin; topaklanmayı önlemenin ve dokuyu pürüzsüz tutmanın en iyi yolu budur.",
   "en": "Keep the spoon upright against the bottom of the pot and stir often while the papa thickens; this prevents lumps and keeps the texture smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 5 is garbled: 'Mix the maize meal with 2 tbsp of the dry meal set aside' contradicts the Turkish, which says to set aside 2 tbsp of the flour and add the rest to the boiling water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

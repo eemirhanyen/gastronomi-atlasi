@@ -6,7 +6,7 @@
  "native": "Arroz con pescado",
  "desc": {
   "tr": "Ekvatorial Gine'de sık yapılan, İspanyol mutfağından etkilenmiş domates ve biberli bir pilav. Balık, pirincin üzerinde pişirilerek günlük öğle ve akşam yemeklerinde servis edilir.",
-  "en": "A everyday main dish of Equatorial Guinea, influenced by Spanish cooking, in which fish is fried and then cooked over tomato-pepper rice. It is served at family lunches and dinners, especially on weekends."
+  "en": "An everyday main dish of Equatorial Guinea, influenced by Spanish cooking, in which fish is fried and then cooked over tomato-pepper rice. It is served at family lunches and dinners, especially on weekends."
  },
  "servings": 4,
  "time_min": 60,
@@ -15,7 +15,7 @@
   "tr": [
    "400 g uzun taneli pirinç",
    "600 g beyaz etli balık fileto (hake ya da levrek)",
-   "1 limon",
+   "1 misket limonu",
    "1 orta boy soğan (150 g)",
    "3 diş sarımsak",
    "1 yeşil dolmalık biber",
@@ -49,9 +49,9 @@
  },
  "steps": {
   "tr": [
-   "Balığı 4 parça halinde kesin. Limonun suyunu sıkıp balığın üzerine gezdirin, tuz ve karabiber ekleyip 15 dakika dinlendirin.",
+   "Balığı 4 parça halinde kesin. Misket limonunun suyunu sıkıp balığın üzerine gezdirin, tuz ve karabiber ekleyip 15 dakika dinlendirin.",
    "Geniş bir tencerede 60 ml yağı orta-yüksek ateşte ısıtın. Balıkları iki yüzü altın rengi olana kadar kızartın, süzgece alın.",
-   "Aynı yağda kalan 20 ml yağı ekleyin. İnce doğranmış soğanı, sarımsağı, küp doğranmış yeşil biberi ve isteğe bağlı kırmızı biberi 5 dakika yumuşayana kadar soteleyin.",
+   "Aynı tencereye 20 ml yağ ekleyin. İnce doğranmış soğanı, sarımsağı, küp doğranmış yeşil biberi ve isteğe bağlı kırmızı biberi 5 dakika yumuşayana kadar soteleyin.",
    "Rendelenmiş ya da küçük küp doğranmış domatesleri, salçayı ve tatlı kırmızı biberi ekleyin. Domatesler dağılıp sosu koyulaşana kadar 8 dakika pişirin.",
    "Pirinci ekleyip 2 dakika sos ile karıştırın. Sıcak balık suyunu ya da sebze suyunu dökün, defne yaprağını ve tuzu ekleyin.",
    "Karışımı kaynatın, ardından kısık ateşe alın. Kızartılmış balıkları pirincin üzerine yerleştirin ve kapağını kapatarak suyu çekene kadar yaklaşık 20 dakika pişirin.",
@@ -61,7 +61,7 @@
   "en": [
    "Cut the fish into 4 pieces. Squeeze the lime juice over them, season with salt and black pepper, and let them rest for 15 minutes.",
    "Heat 60 ml of the oil in a large, wide pot over medium-high heat. Fry the fish pieces until golden on both sides, then transfer them to a plate.",
-   "Add the remaining 20 ml of oil to the same pot. Sauté the finely chopped onion, the garlic, the diced green bell pepper and the optional red chili for 5 minutes until soft.",
+   "Add 20 ml of oil to the same pot. Sauté the finely chopped onion, the garlic, the diced green bell pepper and the optional red chili for 5 minutes until soft.",
    "Add the grated or finely diced tomatoes, the tomato paste and the sweet paprika. Cook for 8 minutes, until the tomatoes break down into a thick sauce.",
    "Stir in the rice and cook for 2 minutes so it is coated in the sauce. Pour in the hot stock, add the bay leaf and season with salt.",
    "Bring to a boil, then reduce the heat to low. Place the fried fish pieces on top of the rice, cover with a lid and cook for about 20 minutes until the liquid is absorbed.",
@@ -73,5 +73,15 @@
   "tr": "Pirinç tenceredeyken karıştırmayın; kapağı açmadan pişirmek pirincin altta yapışmasını önler ve balığın dağılmadan kalmasını sağlar.",
   "en": "Do not stir the rice once the fish is on top; keeping the lid closed prevents the bottom from sticking and keeps the fish pieces intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Citrus mismatch: the Turkish ingredient and step say \"limon\" (lemon), but the English says \"1 lime\" / \"lime juice\".",
+   "English description has a grammar error: \"A everyday main dish\".",
+   "Step 3 (both languages) says the 20 ml of oil is the \"remaining\" oil in the pot, but the 60 ml used for frying is not all left over. The instruction should simply be to add 20 ml of oil to the same po"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

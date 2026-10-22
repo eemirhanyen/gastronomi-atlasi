@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Biberi bütün bırakıp delmek, sosun aromasını verirken yakıcılığını kontrol altında tutar; çok acı istemiyorsanız biber tencerede kalırken dilimleyip ekleyin.",
+  "tr": "Biberi bütün bırakıp delmek, sosun aromasını verirken yakıcılığını kontrol altında tutar; daha acı bir sos istiyorsanız biberi kaynamaya bırakmadan önce yarıp (dilimleyerek) ekleyin.",
   "en": "Keep the pepper whole and pricked: it gives aroma without overwhelming heat. For a hotter sauce, slice it open before simmering."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips contradict each other: the English says slicing the pepper before simmering makes the sauce hotter, but the Turkish says slicing it makes it less spicy for those who don't wan"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

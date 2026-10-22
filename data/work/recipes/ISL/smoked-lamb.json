@@ -5,7 +5,7 @@
  },
  "native": "Hangikjöt",
  "desc": {
-  "tr": "İzlanda'da Noel ve yılbaşı sofralarının vazgeçilmez ana yemeğidir. Tuzlanıp kurutulmuş kuzu, geleneksel olarak kuzu ya da koyun eti kokulu bir ateşte füme edilir ve genellikle haşlanarak servis edilir.",
+  "tr": "İzlanda'da Noel ve yılbaşı sofralarının vazgeçilmez ana yemeğidir. Tuzlanıp kurutulmuş kuzu, geleneksel olarak kuru koyun tezeği ya da huş ağacı talaşı ateşinde füme edilir ve genellikle haşlanarak servis edilir.",
   "en": "A staple of Icelandic Christmas and New Year tables, this lamb is salted, smoked and then gently simmered. Traditionally it is served cold or warm, with boiled potatoes, green peas and red cabbage."
  },
  "servings": 4,
@@ -22,7 +22,10 @@
    "200 g ıslatılmış huş ağacı talaşı veya kıyılmış meşe talaşı (füme için)",
    "1 küçük soğan, dörde bölünmüş",
    "1 tatlı kaşığı tuz (haşlama suyu için)",
-   "2 litre su"
+   "2 litre su",
+   "1 kg patates",
+   "200 g yeşil bezelye",
+   "400 g kırmızı lahana"
   ],
   "en": [
    "1.5 kg bone-in lamb leg (or shoulder)",
@@ -34,7 +37,10 @@
    "200 g soaked birch or oak wood chips (for smoking)",
    "1 small onion, quartered",
    "1 teaspoon salt (for the cooking water)",
-   "2 litres water"
+   "2 litres water",
+   "1 kg potatoes",
+   "200 g green peas",
+   "400 g red cabbage"
   ]
  },
  "steps": {
@@ -67,5 +73,14 @@
   "tr": "Eti pişirmeden önce mutlaka iç ısısını bir et termometresiyle kontrol edin; haşlama suyunu kaynatmadan, hafif sıcak tutmak eti yumuşak ve nemli bırakır.",
   "en": "Check the thickest part with a meat thermometer before serving, and keep the cooking water just below a simmer so the meat stays tender and moist. Leftovers keep well in the fridge and are excellent in sandwiches."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Boiled potatoes, green peas and red cabbage are used in the serving step (and mentioned in the description) but are missing from the ingredient lists in both languages.",
+   "Turkish description says the lamb is smoked over a fire that gives a 'kuzu ya da koyun eti kokulu' aroma, which is inaccurate and unnatural. The traditional smoke comes from burning dried sheep dung o"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

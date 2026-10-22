@@ -9,7 +9,7 @@
   "en": "A traditional coconut-milk soup of Belize's Creole and Garifuna communities, built on root vegetables and salted pork. It is usually served as a weekend lunch and at family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -25,7 +25,7 @@
    "300 g manyok (kasava), soyulmuş ve küp doğranmış",
    "200 g tatlı patates, küp doğranmış",
    "200 g yeşil muz (plantain), halka halka kesilmiş",
-   "400 ml hindistancevizi sürü",
+   "400 ml hindistancevizi sütü",
    "150 g un",
    "1 çay kaşığı kabartma tozu",
    "80 ml su (hamur için)",
@@ -59,9 +59,8 @@
    "Büyük bir tencerede yağı orta-yüksek ateşte ısıtın ve domuz etini 5 dakika kadar kızartın.",
    "Soğanı, sarımsağı ve taze soğanı ekleyip 3 dakika karıştırarak soteleyin.",
    "Suyu ekleyip kaynatın, ardından ateşi kısın. Bütün Scotch bonnet biberini, kekiği ve karabiberi ekleyip 30 dakika kısık ateşte pişirin.",
-   "Manyoku, tatlı patatesi ve yeşil muzu ekleyin, yaklaşık 15 dakika daha pişirin.",
+   "Manyoku, tatlı patatesi ve yeşil muzu ekleyin, hindistancevizi sütünü dökün ve kısık ateşte yaklaşık 20 dakika pişirin.",
    "Bu sırada hamuru hazırlayın: unu, kabartma tozunu ve bir tutam tuzu karıştırın, suyu ekleyip 1 dakika yoğurarak yumuşak bir hamur elde edin. Hamuru küçük toplar haline getirin.",
-   "Hindistancevizi sütünü dökün ve çorbayı tekrar hafif kaynatın.",
    "Hamur toplarını çorbanın üzerine yerleştirin, kapağını kapatıp 12-15 dakika pişirin; hamurlar ve kökler yumuşayana kadar bekleyin.",
    "Scotch bonnet biberini zarar vermeden çıkarın, tuzla tadını ayarlayın, kişnişi serpip sıcak servis yapın."
   ],
@@ -70,9 +69,8 @@
    "Heat the oil in a large pot over medium-high heat and brown the pork for about 5 minutes.",
    "Add the onion, garlic and scallions and sauté for 3 minutes, stirring.",
    "Pour in the water and bring to a boil, then lower the heat. Add the whole Scotch bonnet, thyme and black pepper and simmer gently for 30 minutes.",
-   "Add the cassava, sweet potato and green plantain and cook for another 15 minutes.",
+   "Add the cassava, sweet potato and green plantain, pour in the coconut milk, and simmer gently for about 20 minutes.",
    "While the vegetables cook, make the dumplings: mix the flour, baking powder and a pinch of salt, add the water and knead for 1 minute into a soft dough. Roll into small balls.",
-   "Pour in the coconut milk and bring the soup back to a gentle simmer.",
    "Drop the dumplings onto the surface of the soup, cover and cook for 12-15 minutes, until the dumplings and root vegetables are fully tender.",
    "Remove the Scotch bonnet without bursting it, adjust the seasoning with salt, sprinkle with cilantro and serve hot."
   ]
@@ -81,5 +79,16 @@
   "tr": "Scotch bonnet biberini bütün bırakın; içindeki kapsaisin salıverilirse çorba aşırı acı olur.",
   "en": "Keep the Scotch bonnet whole: if it bursts, the soup becomes far too hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient typo: \"hindistancevizi sürü\" should be \"hindistancevizi sütü\" (coconut milk).",
+   "Coconut milk is added only at the end and just brought back to a simmer. In boil up, coconut milk is cooked into the broth with the root vegetables, so it should go in with them.",
+   "time_min (60) does not cover the 1-hour soak of the salt pork plus about an hour of cooking, so total time is understated.",
+   "Cassava cubes cooked for only about 15 minutes before the dumplings may not be fully tender. Cooking time is extended to about 20 minutes with the coconut milk."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

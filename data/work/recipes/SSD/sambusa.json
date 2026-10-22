@@ -5,11 +5,11 @@
  },
  "native": "سمبوسة",
  "desc": {
-  "tr": "Baharatlı kıymalı, üçgen şeklinde kızartılmış hamur tatlısı bir atıştırmalıktır. South Sudan'da ve Sudan'da çay saatinde, misafir ağırlarken ve iftar sofralarında sık sık servis edilir.",
+  "tr": "Baharatlı kıymalı, üçgen şeklinde kızartılmış hamur işi bir atıştırmalıktır. South Sudan'da ve Sudan'da çay saatinde, misafir ağırlarken ve iftar sofralarında sık sık servis edilir.",
   "en": "A crisp, triangular fried pastry filled with spiced minced meat. In South Sudan it is a popular snack served with tea, at gatherings, and at iftar tables."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -55,7 +55,7 @@
    "Sarımsağı ekleyip 1 dakika daha kavurun. Kıymayı ekleyip tahta kaşıkla parçalayarak kahverengi olana kadar yaklaşık 8 dakika pişirin.",
    "Kimyon, kişniş, karabiber, acı toz biber ve 1/2 çay kaşığı tuzu ekleyin, 2 dakika daha karıştırın. Ocaktan alıp tamamen soğumaya bırakın, sonra doğranmış maydanozu karıştırın.",
    "Hamuru 16 eşit parçaya bölün, her birini yuvarlayıp unlu tezgâhta yaklaşık 15 cm çapında ince bir daire açın.",
-   "Daireyi ikiye bölün. Yarım daireyi koni şekline getirip 1 yemek kaşığı kadar iç harcı koyun.",
+   "Daireyi ikiye bölün. Yarım daireyi koni şekline getirip 2 çay kaşığı kadar iç harcı koyun.",
    "Kenarlarını suyla ıslatıp kapatın ve üçgen şekline getirip sıkıca bastırın. Tüm hamurları aynı şekilde hazırlayın.",
    "Kızartma yağını 170-180 °C'ye kadar ısıtın. Sambusaları partiler halinde, her iki yüzü altın rengi olana kadar yaklaşık 3-4 dakika kızartın.",
    "Kağıt havlu serili bir tabağa alıp fazla yağını süzün. Sıcak veya ılık servis edin."
@@ -67,7 +67,7 @@
    "Add the garlic and cook for 1 more minute. Add the minced beef and break it up with a wooden spoon, cooking until browned, about 8 minutes.",
    "Add the cumin, coriander, black pepper, chilli powder and 1/2 tsp salt, and stir for 2 minutes. Remove from heat, let cool completely, then stir in the chopped parsley.",
    "Divide the dough into 16 equal pieces. Roll each into a ball, then roll out on a floured surface into a thin circle about 15 cm across.",
-   "Cut each circle in half. Shape one half into a cone and add 1 tablespoon of filling.",
+   "Cut each circle in half. Shape one half into a cone and add 2 teaspoons of filling.",
    "Brush the edges with water, fold into a triangle and press firmly to seal. Repeat with the remaining dough and filling.",
    "Heat the frying oil to 170-180 °C. Fry the sambusas in batches for 3-4 minutes, turning once, until both sides are golden.",
    "Drain on a plate lined with kitchen paper. Serve warm or at room temperature."
@@ -77,5 +77,15 @@
   "tr": "İç harcı tamamen soğutmadan kullanmayın; sıcak harç hamuru yırtar ve kızartırken açılmasına neden olur.",
   "en": "Always cool the filling completely before assembling; warm filling tears the dough and can open the sambusas while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls the sambusa a \"hamur tatlısı\" (sweet pastry), but it is a savoury snack; should be \"hamur işi\".",
+   "Filling amount is inconsistent: each 250 g dough piece is cut into two half-circles, giving 32 sambusas, but 1 tablespoon of filling each would need about 400 g of filling, while the recipe makes roug",
+   "time_min of 60 is too short for the listed steps: 28 min of dough resting and kneading, about 20 min of cooking and cooling, plus shaping 32 sambusas and frying in batches."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

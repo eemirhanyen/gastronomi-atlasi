@@ -47,7 +47,7 @@
    "Büyük bir tavayı (yaklaşık 26 cm) orta ateşte ısıtın ve tereyağının bir kısmıyla yağlayın.",
    "Tavaya yaklaşık 100 ml hamur dökün ve tüm yüzeye yayılması için tavayı hızlıca döndürün.",
    "Elma dilimlerini ve domuz şeritlerinden birkaçını hamurun üzerine dizin. Alt yüzey pişip yüzey hafif kuruyana kadar yaklaşık 2 dakika pişirin.",
-   "Pankeki ustasıyla çevirip diğer yüzünü yaklaşık 1 dakika daha pişirin. Kalan hamurla aynı işlemi tekrarlayın, gerektikçe tavaya biraz tereyağı ekleyin.",
+   "Pankeki spatulasıyla çevirip diğer yüzünü yaklaşık 1 dakika daha pişirin. Kalan hamurla aynı işlemi tekrarlayın, gerektikçe tavaya biraz tereyağı ekleyin.",
    "Pankekleri sıcak servis edin ve üzerine ılık stroop gezdirin."
   ],
   "en": [
@@ -67,5 +67,13 @@
   "tr": "Hamuru dinlendirmek glutenin gevşemesini sağlar ve pankeklerin daha ince, esnek ve kolay çevrilebilir olmasını sağlar.",
   "en": "Resting the batter lets the gluten relax, so the pancakes stay thin, supple and easy to flip."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 uses \"Pankeki ustasıyla\", which is an unnatural mistranslation of \"spatula\". The English says \"with a spatula\", so the Turkish should say \"spatula ile\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

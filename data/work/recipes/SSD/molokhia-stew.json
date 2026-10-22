@@ -9,7 +9,7 @@
   "en": "A rich meat-based molokhia stew common among Arab-Sudanese families in Juba, South Sudan. It is usually served at lunch or dinner with rice, bread or kisra."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Etleri bir tencereye alın, suyu, yarım soğanı, tuzu ve karabiberi ekleyin. Kaynamaya bırakın, yüzeyde biriken köpüğü alın ve kısık ateşte yaklaşık 45 dakika, et yumuşayana kadar pişirin.",
+   "Etleri bir tencereye alın, suyu, yarım soğanı, tuzu ve karabiberi ekleyin. Kaynamaya bırakın, yüzeyde biriken köpüğü alın ve kısık ateşte et yumuşayana kadar pişirin: dana inciği için yaklaşık 1,5 saat, tavuk butu için yaklaşık 45 dakika.",
    "Etleri süzgece alın. Suyu bir kapta ayırın, yaklaşık 1 litre ayrılmış suyun kalması için gerekirse tamamlayın. Etlerin kemiklerini çıkarıp kabaca parçalayın.",
    "Ayrı bir tencerede yağı ısıtın, kalan soğanları altın rengi alana kadar 8 dakika kavurun.",
    "Sarımsak ve öğütülmüş kişnişi ekleyip 30 saniye kadar karıştırın, sarımsağın kokusu çıkınca domatesi ve domates salçasını ilave edin. Domatesler suyunu çekene kadar 5 dakika pişirin.",
@@ -54,7 +54,7 @@
    "Ocaktan almadan önce limon suyu ve taze kişnişi ekleyin, tadına bakıp gerekirse tuzunu ayarlayın. Sıcak olarak servis edin."
   ],
   "en": [
-   "Put the meat in a pot, add water, half the onion, salt and pepper. Bring to a boil, skim off the foam, then simmer gently for about 45 minutes until the meat is tender.",
+   "Put the meat in a pot, add water, half the onion, salt and pepper. Bring to a boil, skim off the foam, then simmer gently until the meat is tender: about 1.5 hours for beef shank, or about 45 minutes for chicken thigh.",
    "Strain the meat and reserve the broth. Make sure you have about 1 litre of broth, topping up with water if needed. Remove the bones and roughly shred the meat.",
    "In a separate pot, heat the oil and fry the remaining onion for about 8 minutes until golden.",
    "Add the garlic and ground coriander and stir for 30 seconds. When the garlic smells fragrant, add the tomatoes and tomato paste and cook for 5 minutes until the tomatoes release their liquid.",
@@ -67,5 +67,14 @@
   "tr": "Molohiyayı uzun süre kaynatmayın; kısa pişirmek yaprağın yeşil rengini ve kıvamını korur. Yanına pirinç veya ekmek servis edin.",
   "en": "Do not overcook the molokhia; a short simmer keeps its bright green colour and smooth texture. Serve with rice or bread."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef shank (dana incik) needs about 1.5 to 2 hours of simmering to become tender. The recipe gives 45 minutes, which is too short for beef and would leave the meat tough. The 45-minute time only suits",
+   "The Turkish and English step 1 both state the 45-minute timing, so both need correcting together."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

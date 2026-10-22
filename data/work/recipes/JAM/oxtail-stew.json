@@ -69,7 +69,7 @@
   ],
   "en": [
    "Put the oxtail pieces in a large bowl. Rub them well with the salt, black pepper, crushed allspice, thyme, chopped scallions and garlic. Cover and marinate in the fridge for at least 1 hour, or preferably overnight.",
-   "Scrape off the excess marinade, pat the meat dry with kitchen paper, then lightly coat the pieces in flour.",
+   "Without scraping off the marinade, pat the meat dry with kitchen paper, then lightly coat the pieces in flour.",
    "Heat the oil in a wide, heavy-based pot over medium-high heat. Add the brown sugar and let it melt and darken to a deep brown caramel, about 2 minutes, stirring to avoid burning.",
    "Add the oxtail in batches and brown on all sides for 4-5 minutes per batch. Transfer the browned pieces to a plate.",
    "Add the diced onion to the pot and cook until soft, about 4 minutes. Stir in the grated tomato and tomato paste and cook for 3 minutes more.",
@@ -83,5 +83,13 @@
   "tr": "Scotch bonnet biberini bütün bırakın ve kırmadan pişirin; sadece tat ve aroma verir, ateşli olmaz. Ateşli bir tat isterseniz biberi hafifçe çizin.",
   "en": "Keep the Scotch bonnet whole and do not let it burst; it adds fragrance with little heat. For more heat, slit the pepper before adding it to the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 2 says to scrape off the excess marinade, but the Turkish step 2 says not to scrape it off (\"Marineyi sıyırmadan\"). Step 6 in both versions uses the leftover marinade, so the Turkish vers"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

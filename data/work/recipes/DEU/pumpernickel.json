@@ -9,7 +9,7 @@
   "en": "A dark, dense rye bread long baked at low heat, traditional in northern and western Germany, especially Westphalia. It is usually eaten at breakfast or with cheese, sausage and butter."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1800,
  "difficulty": "hard",
  "ingredients": {
   "tr": [
@@ -59,5 +59,13 @@
   "tr": "Pumpernikel ekmeği en az bir gün bekletildiğinde daha lezzetli olur ve dilimlemesi kolaylaşır; ince dilimler halinde tereyağı ve peynirle servis edin.",
   "en": "Pumpernickel improves after resting a day or more and slices more cleanly; serve thin slices with butter and cheese."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe needs 12 to 16 h of soaking, 2 to 3 h of proving, 4 to 5 h of baking and at least 12 h of resting. The total is roughly 30 h (1800 min), so the field is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

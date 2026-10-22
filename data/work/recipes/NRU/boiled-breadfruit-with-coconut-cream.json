@@ -26,7 +26,7 @@
    "1 teaspoon salt (about 6 g)",
    "400 ml coconut cream",
    "1 pinch salt (about 1 g)",
-   "1 tablespoon vegetable oil (for rubbing on hands)"
+   "1 tablespoon olive oil (for rubbing on hands)"
   ]
  },
  "steps": {
@@ -41,7 +41,7 @@
    "Sıcak servis yapın."
   ],
   "en": [
-   "Rub your hands with the vegetable oil, then peel the breadfruit and remove the core, as the latex can stick to skin and cause irritation.",
+   "Rub your hands with the olive oil, then peel the breadfruit and remove the core, as the latex can stick to skin and cause irritation.",
    "Cut the breadfruit into pieces about 5 cm in size and place them in a pot.",
    "Add 1.5 L water and 1 teaspoon salt to the pot.",
    "Bring to a boil over medium-high heat with the lid on, then reduce the heat and simmer for 20-25 minutes until the pieces are easily pierced with a fork.",
@@ -55,5 +55,13 @@
   "tr": "Ekmek ağacı meyvesi tam yumuşadığında hafif tatlı bir tat alır; kremayı kaynatmamak, yağın ayrışmasını ve kremanın kesilmesini önler.",
   "en": "Breadfruit tastes sweeter and softer when fully cooked; warming the coconut cream gently rather than boiling it prevents it from separating."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The oil is olive oil (zeytinyağı) in the Turkish version but vegetable oil in the English ingredients and steps, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

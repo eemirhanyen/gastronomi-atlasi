@@ -9,7 +9,7 @@
   "en": "A traditional Nicaraguan sweet made by cooking grated coconut with sugar until thick. It is eaten as a snack or dessert, especially in the Pacific regions and during festivals."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Hindistancevizinin şekerle karışmasını önlemek için pişirme sırasında ateşi düşük tutun ve sık karıştırın; kıvam, tencere dibinden kolayca ayrılmalıdır.",
+  "tr": "Hindistancevizinin tencere dibinde yanmasını önlemek için pişirme sırasında ateşi düşük tutun ve sık karıştırın; kıvam, tencere dibinden kolayca ayrılmalıdır.",
   "en": "Keep the heat low and stir frequently to prevent the coconut from scorching; the mixture is ready when it pulls cleanly away from the pan base."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says the goal is to prevent the coconut from mixing with the sugar (\"şekerle karışmasını önlemek\"), but the English tip says it is to prevent scorching. The Turkish should say burning/stic",
+   "time_min is 90, but the steps add up to about 100 minutes (about 10 min prep, 25-30 min cooking, about 1 hour cooling, plus cutting)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

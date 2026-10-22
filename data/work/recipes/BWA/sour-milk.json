@@ -9,7 +9,7 @@
   "en": "A mildly sour, thick fermented milk made at room temperature, widely eaten across Botswana and among Setswana communities in neighbouring South Africa. It is served with bogobe (maize porridge) or chilled as a refreshing drink, especially in the hot months."
  },
  "servings": 4,
- "time_min": 720,
+ "time_min": 900,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -41,5 +41,13 @@
   "tr": "Bir sonraki parti için 120 ml madila ayırın ve buzdolabında en fazla 3 gün içinde kullanın; ortam çok sıcaksa mayalanma daha hızlı olur, bu yüzden kontrolü sık yapın.",
   "en": "Save 120 ml from this batch as the starter for your next one and use it within 3 days in the fridge. In a very hot room fermentation speeds up, so check it earlier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (720) is shorter than the steps require: 12–16 h of fermentation plus about 1 h of cooling, 2 h of chilling and heating time comes to at least about 15 h (900 min)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

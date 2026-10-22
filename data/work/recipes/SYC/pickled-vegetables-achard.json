@@ -9,14 +9,14 @@
   "en": "A crisp, tangy pickle of Creole and Indian origin served alongside almost every meal in the Seychelles, especially with rice and fish curry. It is a daily condiment across the islands."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "300 g yeşil (olgunlaşmamış) papaya",
    "200 g havuç",
    "200 g lahana",
-   "1 orta boy soğan (about 150 g)",
+   "1 orta boy soğan (yaklaşık 150 g)",
    "4 diş sarımsak",
    "10 g zencefil",
    "1 adet acı kırmızı biber",
@@ -72,8 +72,18 @@
   ]
  },
  "tip": {
-  "tr": "Sebzeleri tuzla bekletip iyice sıktığınızdan emin olun; bu adım turşunun çıtır kalmasını ve sirkeyle fazla su yapmamasını sağlar.",
+  "tr": "Sebzeleri tuzla bekletip iyice sıktığınızdan emin olun; bu adım turşunun çıtır kalmasını ve sirkeyi seyreltmemesini sağlar.",
   "en": "Squeeze the salted vegetables thoroughly; this keeps the pickle crisp and stops it from diluting the vinegar."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for onion contains English 'about' instead of 'yaklaşık'",
+   "Turkish tip has unnatural phrasing ('sirkeyle fazla su yapmamasını'); 'sirkeyi seyreltmemesini' is the natural wording",
+   "time_min (60) does not include the 1-hour salting step, so the stated time is understated (the 24-hour rest cannot be captured in this field, so it is noted in the description only if needed)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

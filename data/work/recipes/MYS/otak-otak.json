@@ -24,7 +24,7 @@
    "1 cm taze zerdeçal kökü (veya 3 g toz zerdeçal)",
    "1 sap limon otu (yaklaşık 20 g)",
    "5 g belacan (kurutulmuş karides macunu)",
-   "4 yaprak limon otu yaprağı (kaffir lime)",
+   "4 yaprak kaffir limon yaprağı",
    "15 ml bitkisel yağ",
    "4 büyük muz yaprağı (yaklaşık 30x30 cm)",
    "4-6 ahşap kürdan"
@@ -50,9 +50,9 @@
  "steps": {
   "tr": [
    "Muz yapraklarını sıcak suda 1 dakika bekleterek yumuşatın, kurulayın ve kenarlarını makasla düzeltin. Üzerlerine yağdan birkaç damla sürün.",
-   "Soğanları, biberleri, zerdeçalı, limon otunun beyaz kısmını ve belacanı doğrayıp blendırda pürüzsüz bir macun haline getirin.",
+   "Soğanları, biberleri, zerdeçalı, limon otunun beyaz kısmını ve belacanı doğrayıp blenderda pürüzsüz bir macun haline getirin.",
    "Balığı kıyma makinesinden geçirin veya mutfak robotunda kısaca çekin, ardından baharat macunu ile iyice yoğurun.",
-   "Yumurtaları, hindistan cevizi sütünü, tapyoka unu, şekeri, tuzu ve ince doğranmış limon otu yapraklarını ekleyip 5 dakika yoğurarak kıvamlı bir hamur elde edin.",
+   "Yumurtaları, hindistan cevizi sütünü, tapyoka unu, şekeri, tuzu ve ince doğranmış kaffir limon yapraklarını ekleyip 5 dakika yoğurarak kıvamlı bir hamur elde edin.",
    "Her muz yaprağının ortasına 3-4 yemek kaşığı hamuru koyun, yaprağı üçgen ya da dikdörtgen zarf şeklinde katlayın ve kürdanla sabitleyin.",
    "Izgarayı orta ateşte ısıtın ya da fırını 200°C'ye getirin. Paketleri her iki yüzü 8-10 dakika olacak şekilde kızartın veya fırında 20 dakika pişirin. Hamur yerleşip sertleşince hazırdır.",
    "Sıcak veya ılık servis edin; yanında acı sos ile birlikte sunun."
@@ -71,5 +71,14 @@
   "tr": "Balığın tamamen kılçıksız olduğundan emin olun; tapyoka unu ne kadar taze olursa otak-otak o kadar yumuşak ve dokulu çıkar.",
   "en": "Check the fish carefully for bones, and use fresh tapioca flour for a softer, more springy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'limon otu yaprağı' means lemongrass leaf, which conflicts with the English 'kaffir lime leaves' and with the lemongrass stalk listed separately. Turkish step 4 has the same ambigui",
+   "Turkish step 2 has a spelling error: 'blendırda' should be 'blenderda'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

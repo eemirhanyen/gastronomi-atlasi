@@ -9,7 +9,7 @@
   "en": "Lightly sweet, cinnamon-scented fried dough pieces served at breakfast and tea time across Mauritania, especially during Ramadan evenings. They are typically eaten with mint tea."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Yağ sıcaklığını termometreyle kontrol edin; 170°C'nin altında lokmalar yağ çeker, üstünde ise dışı yanarken içi pişmeden kalır.",
   "en": "Check the oil with a thermometer: below 170°C the beignets will soak up oil, while above it the outside burns before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: 8 min kneading + 45 min rising + 10 min resting + frying 20 pieces in batches is about 80 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

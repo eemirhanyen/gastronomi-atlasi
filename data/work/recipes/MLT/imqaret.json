@@ -9,7 +9,7 @@
   "en": "A traditional Maltese deep-fried pastry filled with spiced date paste. It is sold by street vendors and cafés across Malta and Gozo, especially in the evenings and during festa celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Hurma macununu tamamen soğutmadan hamura koymayın; sıcak dolgu hamuru yapıştırıp yırtabilir.",
   "en": "Let the date paste cool completely before filling; warm filling makes the dough sticky and more likely to tear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the recipe requires the date filling to cool completely, a 30-minute dough rest, about 8 minutes of kneading, shaping and frying, so the realistic total is closer to 1 h 45"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

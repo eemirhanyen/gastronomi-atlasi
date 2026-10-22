@@ -19,7 +19,7 @@
    "20 g kurutulmuş karides, ılık suda 15 dakika bekletilip doğranmış",
    "3 diş sarımsak, ince doğranmış",
    "3 adet arpacık soğanı, ince dilimlenmiş",
-   "100 ml sıvı yağ",
+   "60 ml sıvı yağ",
    "60 ml açık soya sosu",
    "30 ml Shaoxing şarabı",
    "5 g şeker",
@@ -38,7 +38,7 @@
    "20 g dried shrimp, soaked in warm water for 15 minutes and chopped",
    "3 garlic cloves, finely minced",
    "3 shallots, thinly sliced",
-   "100 ml neutral oil",
+   "60 ml neutral oil",
    "60 ml light soy sauce",
    "30 ml Shaoxing wine",
    "5 g sugar",
@@ -56,9 +56,9 @@
    "Tavayı orta-yüksek ateşte 60 ml yağla ısıtın. Arpacık soğanlarını altın rengi alana kadar, yaklaşık 5 dakika kızartın, süzgeçle çıkarıp kenara alın. Yağı tavada bırakın.",
    "Aynı yağda sarımsak ve doğranmış kurutulmuş karidesleri 1 dakika kavurun. Kıymayı ekleyin ve dağılıp kızarana kadar, yaklaşık 5 dakika pişirin.",
    "Soya sosu, Shaoxing şarabı, şeker, beyaz biber ve 100 ml suyu ekleyin. Karışımı kısık ateşte 10 dakika koyulaşana kadar pişirin.",
-   "Karidesleri kabuklarıyla birlikte 1 L suda 15 dakika kaynatın. Kabukları süzün, suyu tuzla tatlandırın ve sıcak tutun. Karidesleri kenara alın.",
+   "Karides kabuklarını 1 L suda 15 dakika kaynatın. Kabukları süzün, suyu tuzla tatlandırın ve sıcak tutun. Karidesleri kenara alın.",
    "Büyük bir tencere suyu kaynatın. Fasulye filizlerini 30 saniye haşlayın, süzüp kenara alın.",
-   "Aynı suda eriştelerı 2-3 dakika pişirin (kuru erişte için paket süresine göre), süzün ve birkaç kez durulayın.",
+   "Aynı suda erişteleri 2-3 dakika pişirin (kuru erişte için paket süresine göre), süzün ve birkaç kez durulayın.",
    "Karidesleri sıcak et suyunda 1 dakika, pembeleşene kadar haşlayın ve süzün.",
    "Servis için her kaseye erişteleri koyun. Üzerine bir kaşık kıymalı sos, filizler, karidesler, kızartılmış arpacık soğanları ve kişniş ekleyin. Birkaç kaşık ayrılmış yağı gezdirin.",
    "Her porsiyonun yanına sıcak et suyundan küçük bir kase koyun. Sirke ve acı sosu ayrıca servis edin."
@@ -79,5 +79,15 @@
   "tr": "Kıymalı sosu bir gün önceden hazırlayıp buzdolabında saklayabilirsiniz; servis etmeden önce ısıtmanız yeterlidir.",
   "en": "The pork sauce can be made a day ahead and refrigerated; just reheat it before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity mismatch: 100 ml is listed in the ingredients, but the steps use only 60 ml (and the drizzle uses part of that same reserved oil).",
+   "Turkish step 4 says to simmer the shrimp themselves with their shells, then remove them and set them aside. The English step and the ingredient list say only the shells go into the broth. The Turkish ",
+   "Typo in Turkish step 6: 'eriştelerı' should be 'erişteleri'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

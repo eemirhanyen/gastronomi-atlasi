@@ -52,8 +52,16 @@
   ]
  },
  "tip": {
-  "tr": "Muzları ikinci kızartmadan önce ezmek için kağıt havlu yerine bir tahta kesme tahtası ve düz tabanlı bir bardak kullanın; parçaları fazla yassılaştırmayın, yoksa yağ çeker ve dağılırlar.",
-  "en": "Use a board and the flat base of a glass rather than a plate to flatten the pieces; press only until about 5 mm thick, or they will absorb oil and fall apart."
+  "tr": "Muzları ikinci kızartmadan önce yassılaştırmak için bir tahta kesme tahtası ve düz tabanlı bir bardak kullanın; parçaları fazla yassılaştırmayın, yoksa yağ çeker ve dağılırlar.",
+  "en": "Use a board and the flat base of a glass to flatten the pieces before the second fry; press only until about 5 mm thick, or they will absorb oil and fall apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish and English tips disagree: the Turkish says to use a cutting board instead of kitchen paper, while the English says to use a board instead of a plate. Both now match the flattening method "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

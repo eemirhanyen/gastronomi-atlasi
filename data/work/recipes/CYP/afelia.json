@@ -37,7 +37,7 @@
  },
  "steps": {
   "tr": [
-   "Kişniş tohumlarını havanda veya tahta bir şekilde kabaca ezin.",
+   "Kişniş tohumlarını havanda veya tahta üzerinde kabaca ezin.",
    "Ezilmiş kişnişi, kırmızı şarabı, tuzu ve karabiberi geniş bir kaba koyun. Domuz etini ekleyip iyice karıştırın, kapalı şekilde buzdolabında en az 8 saat, tercihen bir gece bekletin.",
    "Eti marinasyondan süzün ve marinasyonu bir kenara ayırın. Etleri kağıt havluyla kurulayın.",
    "Ağır tabanlı bir tencerede zeytinyağını orta-yüksek ateşte ısıtın. Etleri partiler halinde, kenarları hafif kızarana kadar yaklaşık 3-4 dakika kavurun ve tabağa alın.",
@@ -63,5 +63,13 @@
   "tr": "Kişniş tohumlarını bütün bırakmayın; hafifçe ezmek aromanın etin içine daha iyi işlemesini sağlar. Şarabı bol tutmak sosun koyu ve lezzetli olmasını sağlar.",
   "en": "Crush the coriander seeds lightly rather than leaving them whole so their flavour penetrates the meat. Using a generous amount of wine gives a rich, dark sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 wording 'havanda veya tahta bir şekilde' is unnatural; 'tahta üzerinde' is the idiomatic phrase and matches the English 'on a board'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

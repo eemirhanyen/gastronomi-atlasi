@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Karideslerin sırtını makasla boyuna kesin, damar kılını çıkarın, soğuk suyla yıkayıp kağıt havluyla iyice kurulayın. Kabuklarını üzerlerinde bırakın.",
+   "Karideslerin sırtını makasla boyuna kesin, sırttaki koyu renkli bağırsak damarını çıkarın, soğuk suyla yıkayıp kağıt havluyla iyice kurulayın. Kabuklarını üzerlerinde bırakın.",
    "Büyük bir kasede doğranmış sarımsağı, kırmızı cüce biberi (ya da pul biberi), paprikayı, deniz tuzunu, zeytinyağını ve limon suyunu karıştırın.",
    "Karidesleri marinenin içine ekleyip iyice bulaştırın. Kaseyi örtün ve buzdolabında 20-30 dakika bekletin.",
    "Izgarayı ya da ızgara tavasını orta-yüksek ateşte iyice ısıtın.",
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Karidesleri fazla pişirmeyin; eti sertleşmesin diye kabuğu çıktığında hemen ocaktan alın. Piri-piri yoksa cüce biberin yerine acılığı dengeli bir kırmızı biber salçası da kullanabilirsiniz.",
+  "tr": "Karidesleri fazla pişirmeyin; eti pembeleşip opak olur olmaz ocaktan alın, aksi halde et sertleşir. Cüce biber bulamazsanız, biberin yerine daha yumuşak acılı bir kırmızı biber salçası da kullanabilirsiniz.",
   "en": "Do not overcook the prawns; they are done as soon as the flesh turns opaque, otherwise it toughens. If you cannot find bird's-eye chillies, use a milder red chilli paste for a gentler heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says 'damar kılını çıkarın', which is unnatural. The dark vein is the intestinal vein on the back of the prawn.",
+   "Turkish tip says 'kabuğu çıktığında', which is unclear and does not match the English. The meaning is that the flesh turns pink and opaque."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

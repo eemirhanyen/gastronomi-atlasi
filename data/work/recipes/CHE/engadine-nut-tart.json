@@ -22,7 +22,7 @@
    "60 g tereyağı",
    "70 g esmer şeker",
    "90 g bal",
-   "30 ml krema (%30 yağlı)",
+   "30 ml krema (%35 yağlı)",
    "150 g ceviz içi, kabaca doğranmış"
   ],
   "en": [
@@ -35,7 +35,7 @@
    "60 g butter",
    "70 g soft brown sugar",
    "90 g honey",
-   "30 ml double cream",
+   "30 ml heavy cream (about 35% fat)",
    "150 g walnut halves, roughly chopped"
   ]
  },
@@ -65,5 +65,13 @@
   "tr": "Dolgu oda sıcaklığında hâlâ yumuşaktır; tartı tamamen soğutmadan kesmeye çalışmayın, aksi halde dilimler dağılır.",
   "en": "The filling is still soft when warm, so let the tart cool completely before slicing or it will crumble."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cream is labelled inconsistently: the Turkish says \"%30 yağlı\" but the English says \"double cream\", which is typically around 48% fat. Both versions now say about 35% fat."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

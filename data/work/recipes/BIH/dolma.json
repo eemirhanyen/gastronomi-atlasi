@@ -47,7 +47,7 @@
   "tr": [
    "Biberlerin üst kısımlarını kesip kapak gibi ayırın, içini ve çekirdeklerini temizleyin. Kapakları bir kenara koyun.",
    "Yağı bir tencerede orta ateşte ısıtın, soğanı ekleyip 5 dakika, yumuşayıp hafifçe pembeleşene kadar soteleyin. Ocaktan alıp soğumaya bırakın.",
-   "Büyük bir kapta kıymayı, pirinci, soteledğiniz soğanı, maydanozu, tatlı kırmızı biberi, karabiberi ve 1 çay kaşığı tuzu iyice yoğurun.",
+   "Büyük bir kapta kıymayı, pirinci, sotelediğiniz soğanı, maydanozu, tatlı kırmızı biberi, karabiberi ve 1 çay kaşığı tuzu iyice yoğurun.",
    "Hazırladığınız harçla biberleri yaklaşık üçte üçüne kadar doldurun, pirinç genleşeceği için fazla doldurmayın. Kapaklarını yerine kapatın.",
    "Doldurulmuş biberleri, kapakları yukarı bakacak şekilde, kenarları yan yana gelecek biçimde geniş bir tencereye dizin.",
    "Domates, salça, sıcak su ve bir tutam tuzu karıştırıp sosu biberlerin aralarına ve yanlarına dökün. Sos biberlerin yarısına kadar gelmeli.",
@@ -69,5 +69,13 @@
   "tr": "Biberleri doldururken pirincin şişeceğini unutmayın; dolguyu fazla sıkıştırmak biberlerin yırtılmasına ve pirincin tam pişmemesine yol açar.",
   "en": "Leave room in each pepper, since the rice swells as it cooks. Packing the filling too tightly can split the peppers and leave the rice undercooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a typo: \"soteledğiniz\" should be \"sotelediğiniz\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

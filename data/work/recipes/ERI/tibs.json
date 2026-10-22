@@ -6,7 +6,7 @@
  "native": "ጥብስ",
  "desc": {
   "tr": "Eritre'de ve Etiyopya'da günlük ve misafir sofralarında yaygın olan, baharatlı tereyağı ile soğan, domates ve acı biberle sotelenmiş bir et yemeğidir. Genellikle injera ile servis edilir.",
-  "en": "A everyday and festive dish in Eritrea and Ethiopia, where beef is sautéed with onions, tomatoes and chilies in spiced clarified butter. It is usually served on injera for sharing."
+  "en": "An everyday and festive dish in Eritrea and Ethiopia, where beef is sautéed with onions, tomatoes and chilies in spiced clarified butter. It is usually served on injera for sharing."
  },
  "servings": 4,
  "time_min": 60,
@@ -48,7 +48,7 @@
  "steps": {
   "tr": [
    "Geniş bir tavada niter kibbeh'i orta ateşte eritin.",
-   "Doğranmış soğanları ekleyin ve 10-12 dakika, altın rengi alana kadar kavurun.",
+   "İnce dilimlenmiş soğanları ekleyin ve 10-12 dakika, altın rengi alana kadar kavurun.",
    "Sarımsak, zencefil, berbere, kakule ve kuru biberiyeyi ekleyip 1 dakika karıştırarak kokusunu çıkarın.",
    "Et küplerini tavaya ekleyin, ateşi yükseltin ve 5 dakika, yüzeyleri kapanana kadar sotelemeye devam edin.",
    "Domatesleri, dilimlenmiş acı biberleri, tuzu ve suyu ekleyin. Karıştırıp kapağını kapatın ve kısık ateşte 15 dakika pişirin.",
@@ -57,7 +57,7 @@
   ],
   "en": [
    "Melt the niter kibbeh in a large pan over medium heat.",
-   "Add the chopped onions and cook for 10-12 minutes until golden brown.",
+   "Add the thinly sliced onions and cook for 10-12 minutes until golden brown.",
    "Stir in the garlic, ginger, berbere, cardamom and rosemary, and cook for 1 minute until fragrant.",
    "Add the beef cubes, raise the heat and sear for 5 minutes, stirring until the outside is no longer pink.",
    "Add the tomatoes, sliced chilies, salt and water. Stir, cover and simmer over low heat for 15 minutes.",
@@ -69,5 +69,14 @@
   "tr": "Eti sotelerken tavayı çok doldurmayın; aksi halde et buharda pişer ve renk almaz. Gerekirse iki partide pişirin.",
   "en": "Do not overcrowd the pan when searing the beef, or it will steam instead of browning. Cook in two batches if needed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description has a grammar error: 'A everyday' should be 'An everyday'.",
+   "Onions are listed as thinly sliced but the steps say 'chopped' (Turkish 'doğranmış', English 'chopped'). The preparation should be consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

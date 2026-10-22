@@ -24,7 +24,7 @@
    "200 ml kıvamlı hindistancevizi kreması"
   ],
   "en": [
-   "500 g fresh white-fleshed fish fillet (snapper, mahi-mahi or tuna), skinless and boneless",
+   "500 g fresh white-fleshed fish fillet (sea bass, mahi-mahi or tuna), skinless and boneless",
    "180 ml fresh lime juice (about 6 limes)",
    "1 teaspoon salt",
    "1 small red onion (about 80 g)",
@@ -61,5 +61,13 @@
   "tr": "Balığı mutlaka çok taze ve sashimi kalitesinde alın; limon suyunda bekletme süresini 20 dakikayı geçirmeyin, aksi halde et sertleşir.",
   "en": "Use very fresh, sashimi-grade fish and do not marinate it in lime juice for more than 20 minutes, or the flesh will turn tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English ingredient list says 'snapper' for the fish, but the Turkish version says 'levrek' (sea bass). The two versions name different fish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

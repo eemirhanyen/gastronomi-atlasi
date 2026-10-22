@@ -5,7 +5,7 @@
  },
  "native": "فول مدمس",
  "desc": {
-  "tr": "Kuru bakla fasulyesinin yavaşça pişirilip kımyon, sarımsak ve limonla tatlandırılmasıyla hazırlanan, Katar'da ve Körfez'de özellikle sabah kahvaltısında yenen geleneksel bir yemektir.",
+  "tr": "Kuru baklanın yavaşça pişirilip kimyon, sarımsak ve limonla tatlandırılmasıyla hazırlanan, Katar'da ve Körfez'de özellikle sabah kahvaltısında yenen geleneksel bir yemektir.",
   "en": "A traditional Qatari and Gulf breakfast of slow-cooked dried fava beans, lightly mashed and seasoned with cumin, garlic and lemon. It is eaten warm, usually in the morning, with fresh bread."
  },
  "servings": 4,
@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "400 g kuru bakla, en az 8 saat suda bekletilmiş",
-   "1 tatlı kaşığı karbonat",
+   "1/2 tatlı kaşığı karbonat",
    "1 tatlı kaşığı tuz, tadına göre fazlası",
    "1 tatlı kaşığı öğütülmüş kimyon",
    "3 diş sarımsak, ezilmiş",
@@ -23,11 +23,11 @@
    "2 orta boy domates, küçük küp doğranmış",
    "1 yeşil acı biber, ince doğranmış",
    "30 g taze maydanoz, ince kıyılmış",
-   "4 adet pide ekmeği, servis için"
+   "4 adet pita ekmeği, servis için"
   ],
   "en": [
    "400 g dried fava beans, soaked in water for at least 8 hours",
-   "1 tsp baking soda",
+   "1/2 tsp baking soda",
    "1 tsp salt, plus more to taste",
    "1 tsp ground cumin",
    "3 garlic cloves, crushed",
@@ -48,7 +48,7 @@
    "Baklayı süzün ve yaklaşık 100 ml pişirme suyunu ayırın.",
    "Baklaların yarısını çatal veya patates ezici ile hafifçe ezin, diğer yarısını bütün bırakın.",
    "Ezilmiş baklaların içine sarımsak, kimyon, limon suyu, yarım miktarda zeytinyağı ve ayırdığınız pişirme suyunu ekleyerek iyice karıştırın. Kıvamı ayarlayın ve tuzunu kontrol edin.",
-   "Sıcak servis kabına alın. Üzerine domates, yeşil biber ve maydanozu serpin, kalan zeytinyağını gezdirin ve pideyle birlikte servis yapın."
+   "Sıcak servis kabına alın. Üzerine domates, yeşil biber ve maydanozu serpin, kalan zeytinyağını gezdirin ve pita ekmeğiyle birlikte servis yapın."
   ],
   "en": [
    "Drain the soaked beans and rinse them. Place them in a pot with 1.5 litres of water and the baking soda.",
@@ -65,5 +65,16 @@
   "tr": "Baklayı mutlaka bir gece önceden ıslatın; karbonat ekleyip pişirmek hem süreyi kısaltır hem de dokuyu yumuşatır.",
   "en": "Soak the beans overnight; adding baking soda shortens cooking time and softens the texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a spelling error: \"kımyon\" should be \"kimyon\".",
+   "1 tsp baking soda for 400 g dried beans is roughly double the usual amount and can leave a soapy taste and mushy texture. Reduced to 1/2 tsp in both languages.",
+   "Turkish description says \"kuru bakla fasulyesi\", which mixes two names for the same bean. Simplified to \"kuru bakla\".",
+   "Turkish \"pide ekmeği\" refers to Turkish pide, while the English says pita. Changed to \"pita ekmeği\" for consistency."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

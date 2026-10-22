@@ -9,7 +9,7 @@
   "en": "A light, slightly sour and fizzy alcoholic drink enjoyed in Brazzaville's markets, rural homes and village gatherings, especially during the day. Traditionally it is made by naturally fermenting sweet sap tapped from the crown of a palm tree."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 1440,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,5 +51,13 @@
   "tr": "Mayalanma çok hızlı ilerler; tadına her birkaç saatte bir bakın ve ekşiliğin aşırıya kaçmadan önce soğutun.",
   "en": "Fermentation moves quickly; taste every few hours and chill it before the sourness becomes too sharp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, which contradicts the 12–24 hour fermentation in step 6; the total time should reflect the fermentation period"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

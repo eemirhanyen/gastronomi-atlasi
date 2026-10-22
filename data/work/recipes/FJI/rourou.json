@@ -38,9 +38,9 @@
  "steps": {
   "tr": [
    "Taro yapraklarını bol suyla iyice yıkayın. Kalın saplarını ve orta damarlarını çıkarın, yaprakları üst üste dizip sıkıca rulo yapın ve ince şeritler halinde doğrayın.",
-   "Büyük bir tencerede 1 litre suyu kaynatın, doğranmış yaprakları ekleyin ve yumuşayana kadar yaklaşık 25 dakika pişirin. Taro yaprakları tam pişmeden yenmemelidir.",
+   "Büyük bir tencerede 1 litre suyu kaynatın, doğranmış yaprakları ekleyin ve yumuşayana kadar yaklaşık 25 dakika pişirin. Ispanak kullanıyorsanız yalnızca 3-4 dakika pişirin. Taro yaprakları tam pişmeden yenmemelidir.",
    "Yaprakları süzgece alın ve elinizle fazla suyunu iyice sıkın.",
-   "Geniş bir tavada bitkisel yağı orta ateşte ısıtın. Soğanı ekleyip yumuşayana ve hafif pembeleşene kadar yaklaşık 5 dakika kavurun.",
+   "Geniş bir tavada bitkisel yağı orta ateşte ısıtın. Soğanı ekleyip yumuşayana ve hafifçe altın rengi alana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak ve acı biberi ekleyip 1 dakika daha kavurun.",
    "Domatesi ekleyip suyunu salıverip dağılana kadar yaklaşık 4 dakika pişirin.",
    "Sıktığınız taro yapraklarını tavaya ekleyip 2 dakika karıştırarak domatesle iyice harmanlayın.",
@@ -49,7 +49,7 @@
   ],
   "en": [
    "Wash the taro leaves thoroughly in plenty of water. Remove the thick stalks and central veins, stack the leaves, roll them tightly and slice them into fine strips.",
-   "Bring 1 litre of water to the boil in a large pot, add the sliced leaves and cook for about 25 minutes until very soft. Taro leaves must be fully cooked before eating.",
+   "Bring 1 litre of water to the boil in a large pot, add the sliced leaves and cook for about 25 minutes until very soft. If using spinach, cook for only 3-4 minutes. Taro leaves must be fully cooked before eating.",
    "Drain the leaves in a sieve and squeeze out as much water as possible with your hands.",
    "Heat the vegetable oil in a wide pan over medium heat. Add the onion and fry for about 5 minutes until soft and lightly golden.",
    "Add the garlic and chilli and fry for 1 more minute.",
@@ -60,8 +60,18 @@
   ]
  },
  "tip": {
-  "tr": "Taro yapraklari çiğ haldeyken dile ve boğaza zarar verebilen kalsiyum oksalat içerir; bu yüzden yaprakları mutlaka uzun süre haşlayın. Taro bulunamazsa ıspanak kullanabilirsiniz, ancak ıspanağı yalnızca 3-4 dakika pişirin.",
+  "tr": "Taro yaprakları çiğ haldeyken dile ve boğaza zarar verebilen kalsiyum oksalat içerir; bu yüzden yaprakları mutlaka uzun süre haşlayın. Taro bulunamazsa ıspanak kullanabilirsiniz, ancak ıspanağı yalnızca 3-4 dakika pişirin.",
   "en": "Raw taro leaves contain calcium oxalate, which irritates the mouth and throat, so always boil them thoroughly. If taro leaves are unavailable, spinach works as a substitute, but cook it only 3-4 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the onion should become 'pembeleşene' (pinkish), but the English says 'lightly golden'. The Turkish should say golden-brown.",
+   "Step 2 cooks all leaves for 25 minutes, but the tip says spinach needs only 3-4 minutes. The steps give no spinach alternative, so following them with spinach would overcook it.",
+   "Turkish tip has a typo: 'yapraklari' should be 'yaprakları'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

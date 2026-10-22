@@ -43,7 +43,7 @@
    "Yumurtayı ve vanilya özünü ekleyip pürüzsüz olana kadar çırpmaya devam edin.",
    "Unu, kabartma tozunu ve tuzu ayrı bir kapta karıştırıp hamura ekleyin; spatula ile yavaşça katlayın.",
    "Sütü ve kavrulmuş susamın yarısını ekleyip homojen bir hamur elde edin. Kalan susamı kenara ayırın.",
-   "Hamurdan çay kaşığı büyüklüğünde parçalar alıp tepsiye, birbirinden en az 5 cm uzakta yuvarlayarak yerleştirin. Üzerlerine kalan susamdan serpin.",
+   "Hamurdan çay kaşığı büyüklüğünde parçalar alıp tepsiye, birbirinden en az 5 cm uzakta yuvarlayarak yerleştirin ve hafifçe bastırarak yassılaştırın. Üzerlerine kalan susamdan serpin.",
    "Önceden ısıtılmış fırında 8-10 dakika, kenarları altın rengi olana kadar pişirin.",
    "Tepsiyi fırından çıkarıp kurabiyeleri 1 dakika tepside dinlendirin, ardından spatula ile dikkatlice bir tel ızgaraya alıp tamamen soğutun.",
    "Tamamen soğuduktan sonra hava almayan bir kavanozda oda sıcaklığında saklayın."
@@ -65,5 +65,13 @@
   "tr": "Gevrekliği korumak için kurabiyeleri nemli bir ortamda değil, tamamen soğuduktan sonra hava almayan bir kavanozda saklayın.",
   "en": "Keep the wafers crisp by storing them in an airtight jar only after they have cooled completely, since any residual warmth creates condensation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 omits the instruction to flatten the dough portions slightly, which the English step 7 includes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

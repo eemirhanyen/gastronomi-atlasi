@@ -9,7 +9,7 @@
   "en": "A yeast dough bread deep-fried until golden, popular across Botswana through South African influence. It is eaten warm, often split and filled with minced meat or jam, at breakfast, lunch, and at street stalls and braais."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -19,7 +19,7 @@
    "8 g tuz",
    "300 ml ılık su",
    "30 g eritilmiş tereyağı",
-   "500 ml ayçiçek yağı (kızartma için)"
+   "1000 ml ayçiçek yağı (kızartma için)"
   ],
   "en": [
    "500 g bread flour",
@@ -28,14 +28,14 @@
    "8 g salt",
    "300 ml lukewarm water",
    "30 g melted butter",
-   "500 ml sunflower oil (for frying)"
+   "1000 ml sunflower oil (for frying)"
   ]
  },
  "steps": {
   "tr": [
    "Geniş bir kapta unu, mayayı, şekeri ve tuzu iyice karıştırın.",
    "Ilık suyu ve eritilmiş tereyağını ekleyerek yumuşak, hafif yapışkan bir hamur elde edin.",
-   "Hamuru tezgâh üzerinde 8-10 dakika, pürüzsüz ve elastik olana kadar yoğurun.",
+   "Hamuru hafifçe unlanmış bir tezgâh üzerinde 8-10 dakika, pürüzsüz ve elastik olana kadar yoğurun.",
    "Hamuru kapatıp sıcak bir yerde 45 dakika, iki katına çıkana kadar mayalanmaya bırakın.",
    "Hamuru hafifçe bastırarak gazını alın ve 8 eşit parçaya bölün.",
    "Her parçayı yuvarlayıp hafifçe yassılaştırın, bir tepsiye alıp üzerini örtün ve 15 dakika dinlendirin.",
@@ -61,5 +61,15 @@
   "tr": "Yağ sıcaklığını 170-180 °C'de sabit tutun; çok sıcak yağ dışını yakar, içini ise pişmeden bırakır. Parçaları küçük gruplar halinde kızartın ki yağın ısısı düşmesin.",
   "en": "Keep the oil steady at 170-180 °C; too hot and the outside burns before the centre cooks. Fry in small batches so the oil temperature does not drop."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is too low: 10 min kneading + 45 min proving + 15 min resting + about 25-30 min frying in batches comes to roughly 100 minutes.",
+   "500 ml oil is marginal for deep-frying 8 dough pieces in a deep pan; the recipe and tip call for deep frying with a steady oil temperature, so the quantity should be increased to about 1 litre.",
+   "The English step 3 says to knead on a lightly floured surface, but the Turkish version omits the flour, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

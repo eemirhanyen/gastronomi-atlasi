@@ -20,7 +20,8 @@
    "1,5 tatlı kaşığı öğütülmüş kimyon",
    "1,5 tatlı kaşığı tuz",
    "0,5 tatlı kaşığı karabiber",
-   "1 litre su"
+   "1 litre su",
+   "500 ml sıcak su"
   ],
   "en": [
    "250 g brown lentils",
@@ -30,14 +31,15 @@
    "1½ tsp ground cumin",
    "1½ tsp salt",
    "½ tsp black pepper",
-   "1 litre water"
+   "1 litre water",
+   "500 ml hot water"
   ]
  },
  "steps": {
   "tr": [
    "Mercimeği soğuk suyla iyice yıkayıp süzün. Pirinci de ayrı bir kasede yıkayıp suyunu süzün.",
    "Mercimeği 1 litre suyla birlikte geniş bir tencereye alın ve kaynamaya bırakın. Kısık ateşte yaklaşık 15 dakika pişirin.",
-   "Yıkanmış pirinci tencereye ekleyin, üzerine kimyon, tuz ve karabiberi serpin. Karıştırın, kapağını kapatıp kısık ateşte 15-20 dakika, su çekilene kadar pişirin.",
+   "Yıkanmış pirinci, 500 ml sıcak su, kimyon, tuz ve karabiberle birlikte tencereye ekleyin. Karıştırın, kapağını kapatıp kısık ateşte 15-20 dakika, su çekilene kadar pişirin.",
    "Bu sırada soğanları ince halka halka doğrayın. Geniş bir tavada zeytinyağını orta ateşte ısıtın ve soğanları ekleyin.",
    "Soğanları ara ara karıştırarak 25-30 dakika, koyu altın rengi ve iyice karamelize olana kadar kavurun. Yanmaması için ateşi gerekirse biraz düşürün.",
    "Kızarmış soğanın yaklaşık üçte birini ayırarak süsleme için kenara alın.",
@@ -47,7 +49,7 @@
   "en": [
    "Rinse the lentils well under cold water and drain. Rinse the rice separately and drain it too.",
    "Put the lentils in a wide pot with 1 litre of water and bring to the boil. Simmer gently for about 15 minutes.",
-   "Add the rinsed rice to the pot, then sprinkle over the cumin, salt and black pepper. Stir, cover and cook over low heat for 15–20 minutes until the water has been absorbed.",
+   "Add the rinsed rice, 500 ml hot water, the cumin, salt and black pepper to the pot. Stir, cover and cook over low heat for 15–20 minutes until the water has been absorbed.",
    "Meanwhile, thinly slice the onions into rings. Heat the olive oil in a wide frying pan over medium heat and add the onions.",
    "Fry the onions, stirring occasionally, for 25–30 minutes until they are deep golden brown and well caramelised. Lower the heat if they start to burn.",
    "Set aside about one third of the fried onions in a small bowl for garnish.",
@@ -59,5 +61,14 @@
   "tr": "Mercimeğin suyla kaynama süresini çok uzatmayın; kabuklu kahverengi mercimek formunu korur. Soğanları yarı karamelize bırakmayın, koyu kahverengi olmaları lezzetin esas kaynağıdır.",
   "en": "Do not overcook the lentils at the start; brown lentils should keep their shape. Take the onions to a deep brown, as that caramelised flavour is the heart of the dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water is insufficient for the rice: 1 litre total for 250 g lentils plus 200 g rice leaves too little liquid, risking undercooked or scorched rice. Add 500 ml hot water when the rice goes in, and list",
+   "Step 3 said to 'sprinkle' the spices over the rice, which doesn't fit the added liquid. Reworded so the rice, water and spices are added together."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -17,7 +17,7 @@
    "160 ml ılık su (yaklaşık 40 °C)",
    "7 g instant maya (1 paket)",
    "15 g toz şeker",
-   "1 tatlı kaşığı tuz (yaklaşık 3 g)",
+   "1 tatlı kaşığı tuz (yaklaşık 5 g)",
    "30 ml ayçiçek yağı (hamur için)",
    "90 g esmer şeker",
    "40 g kıyılmış ceviz",
@@ -30,7 +30,7 @@
    "160 ml lukewarm water (about 40 °C)",
    "7 g instant yeast (1 packet)",
    "15 g granulated sugar",
-   "1 tsp salt (about 3 g)",
+   "1 tsp salt (about 5 g)",
    "30 ml sunflower oil (for the dough)",
    "90 g brown sugar",
    "40 g chopped walnuts",
@@ -48,7 +48,7 @@
    "Hamuru 8 eşit parçaya bölün. Her parçayı yağlı ellerinizle avucunuzda yuvarlayıp orta kalınlıkta bir disk haline getirin.",
    "Her diskin ortasına bir kaşık dolgu koyun. Kenarlarını ortaya doğru toplayıp sıkıca kapatın, ardından avucunuzla hafifçe yassılaştırın.",
    "Geniş bir tavayı orta-düşük ateşte ısıtın ve 60 ml ayçiçek yağını ekleyin. Hamur toplarını dikişleri aşağı gelecek şekilde tavaya dizin.",
-   "Spatula ile hafifçe bastırarak yassılaştırın. Her iki yüzü altın rengi olana kadar, toplam yaklaşık 4-5 dakika kızartın.",
+   "Spatula ile hafifçe bastırarak yassılaştırın. Her iki yüzü altın rengi olana kadar, orta-düşük ateşte toplam yaklaşık 8-10 dakika, bir kez çevirerek kızartın.",
    "Sıcak sıcak servis yapın. İçindeki şeker çok sıcak olduğu için birkaç dakika soğumasını bekleyin."
   ],
   "en": [
@@ -59,7 +59,7 @@
    "Divide the dough into 8 equal pieces. With oiled hands, roll each piece into a ball and flatten it into a disc of medium thickness.",
    "Place a spoonful of filling in the centre of each disc. Gather the edges toward the middle, pinch them firmly closed, then flatten the ball gently in your palm.",
    "Heat a wide frying pan over medium-low heat and add 60 ml sunflower oil. Place the dough balls seam-side down in the pan.",
-   "Press each one lightly with a spatula to flatten it. Fry for about 4-5 minutes in total, turning once, until both sides are golden brown.",
+   "Press each one lightly with a spatula to flatten it. Fry over medium-low heat for about 8-10 minutes in total, turning once, until both sides are golden brown.",
    "Serve hot. Let them cool for a few minutes first, as the sugar filling is extremely hot."
   ]
  },
@@ -67,5 +67,15 @@
   "tr": "Hotteok'u kızartırken spatulayla hafifçe bastırıp yassılaştırın; bu, dolgunun eşit pişmesini ve hamurun iyice çıtır olmasını sağlar.",
   "en": "Press each hotteok gently with a spatula while frying. This flattens it so the filling cooks through evenly and the outside becomes crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed as 1 tsp (about 3 g). One teaspoon of table salt weighs about 5 g, so the stated weight is too low for the stated volume.",
+   "Frying time of 4-5 minutes total is too short for the sugar filling to melt through. Hotteok typically needs about 8-10 minutes over medium-low heat, turned once, so the filling is fully molten and th",
+   "Turkish and English versions must be updated together for the salt weight and frying time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

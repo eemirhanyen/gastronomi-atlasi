@@ -23,7 +23,7 @@
    "400 g domates, doğranmış",
    "30 g domates salçası",
    "150 g tuzsuz, pürüzsüz fıstık ezmesi",
-   "1 litre tavuk suyu (yaklaşık 750 ml sıcak)",
+   "1 litre tavuk suyu (250 ml sıcak, kalanı pişirmek için)",
    "1 çay kaşığı kurutulmuş kekik",
    "1 defne yaprağı",
    "1 adet küçük Scotch bonnet biberi (bütün)",
@@ -41,7 +41,7 @@
    "400 g tomatoes, chopped",
    "30 g tomato paste",
    "150 g smooth unsalted peanut butter",
-   "1 litre chicken stock (about 750 ml hot)",
+   "1 litre chicken stock (250 ml hot, rest for cooking)",
    "1 tsp dried thyme",
    "1 bay leaf",
    "1 small Scotch bonnet pepper, left whole",
@@ -79,5 +79,13 @@
   "tr": "Fıstık ezmesini sıcak sıvıyla önceden karıştırmak topaklanmayı önler; ayrıca biberi bütün bırakıp pişirmek aşırı acılık olmadan aroma sağlar.",
   "en": "Mixing the peanut butter with hot stock before adding it prevents lumps, and simmering the pepper whole gives flavour without excessive heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Stock quantity is contradictory: the ingredient line says 1 litre but adds '(about 750 ml hot)', while the steps use 250 ml hot stock for the peanut butter plus the remainder for cooking. The Turkish "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A hearty Afghan soup of beans, lentils, spinach and yogurt with flat noodles, served on cold winter evenings and at Ramadan iftars across Afghanistan."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -52,13 +52,13 @@
    "Kuru fasulye ve nohutu servisten bir gece önce suda bekletin, ertesi gün süzün.",
    "Fasulye ve nohutu 1,5 l suyla büyük bir tencereye koyun, kaynatın ve yüzeydeki köpüğü alın. Kısık ateşte yaklaşık 40 dakika, neredeyse yumuşayana kadar pişirin.",
    "Mercimeği ve 1 tatlı kaşığı tuzu ekleyip 20 dakika daha pişirin.",
-   "Bu sırada geniş bir tavada 2 yemek kaşığı yağı ızgara edin, dilimlenmiş soğanı altın rengi ve gevrek olana kadar kavurun. Süzgeçli bir kaseye alın.",
+   "Bu sırada geniş bir tavada 2 yemek kaşığı yağı ısıtın, dilimlenmiş soğanı altın rengi ve gevrek olana kadar kavurun. Süzgeçli bir kaseye alın.",
    "Aynı tavada kalan 1 yemek kaşığı yağla doğranmış soğanı yumuşayana kadar yaklaşık 5 dakika kavurun, karabiberi ve 1 tatlı kaşığı kuru naneyi ekleyip tencereye aktarın.",
    "Taze soğanı, ıspanağı ve kişnişi tencereye ekleyin, 5 dakika birlikte pişirin.",
    "Kırılmış eriştesi tencereye ekleyin ve erişte yumuşayana kadar, 8 ila 10 dakika, ara sıra karıştırarak pişirin. Gerekirse biraz sıcak su ekleyin; çorba koyu kıvamlı olmalı.",
    "Yoğurdu ezilmiş sarımsak, kalan 1 tatlı kaşık kuru nane ve bir tutam tuzla bir kaseye alıp iyice çırpın.",
-   "Ocaktan almadan önce çorbadan 2 kepçe alıp yoğurda yavaş yavaş ekleyerek karıştırın, ardından karışımı tencereye dökün ve ocağı çok kısarak 1-2 dakika ısıtın; kaynatmayın.",
-   "Tuzunu kontrol edip çorbayı kaselere paylaştırın, üzerine kavrulmuş soğan ve kalan naneyi serpin."
+   "Ocağı çok kısın. Çorbadan 2 kepçe alıp yoğurda yavaş yavaş ekleyerek sürekli çırpın, ardından karışımı tencereye dökün ve ocakta çok kısık ateşte 1-2 dakika ısıtın; kaynatmayın.",
+   "Tuzunu kontrol edip çorbayı kaselere paylaştırın, üzerine kavrulmuş soğanı serpin."
   ],
   "en": [
    "Soak the kidney beans and chickpeas in water the night before, then drain them.",
@@ -69,13 +69,25 @@
    "Add the spring onions, spinach and coriander to the pot and cook together for 5 minutes.",
    "Break the noodles into the pot and simmer, stirring occasionally, for 8 to 10 minutes until tender. Add a little hot water if needed; the soup should be thick.",
    "In a bowl, mix the yogurt with the crushed garlic, the remaining 1 tsp dried mint and a pinch of salt. Whisk until smooth.",
-   "Turn off the heat. Ladle 2 scoops of hot soup into the yogurt, a little at a time, whisking constantly. Then stir the yogurt mixture into the pot and reheat very gently for 1 to 2 minutes without boiling.",
-   "Taste and adjust the salt. Serve in bowls topped with the fried onions.."
+   "Reduce the heat to very low. Ladle 2 scoops of hot soup into the yogurt, a little at a time, whisking constantly. Then stir the yogurt mixture into the pot and reheat very gently for 1 to 2 minutes without boiling.",
+   "Taste and adjust the salt. Serve in bowls topped with the fried onions."
   ]
  },
  "tip": {
   "tr": "Yoğurdu doğrudan kaynayan çorbaya eklemeyin; önce sıcak çorbayla yumuşatın, yoksa kesilir.",
   "en": "Never add yogurt straight to boiling soup; temper it with hot broth first or it will curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Mint garnish in the final step calls for 'the remaining' mint, but both teaspoons of dried mint were already used (one in the onions, one in the yogurt).",
+   "Turkish step 4 says 'ızgara edin' (grill), which is wrong for frying onions in oil; it should be 'ısıtın'.",
+   "Step 9 is contradictory: the English says to turn off the heat, then reheat gently, while the Turkish says to temper 'before taking it off the heat' and then reheat on very low heat. It should be a re",
+   "Total time of 60 minutes is too short for the steps listed (about 40 + 20 + 5 + 5 + 10 minutes of cooking, plus frying and assembly).",
+   "English final step has a double period ('topped with the fried onions..')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

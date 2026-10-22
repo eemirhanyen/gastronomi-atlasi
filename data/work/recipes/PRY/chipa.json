@@ -40,7 +40,7 @@
    "Sütü ve ayçiçek yağını birlikte kaynayana kadar (yaklaşık 2 dakika) ısıtın ve nişastanın üzerine dökün.",
    "Tahta kaşıkla karıştırarak hamuru topaklı ama sıcak kalmış halde birleştirin, yaklaşık 5 dakika soğumaya bırakın.",
    "Yumurtaları tek tek ekleyip yoğurun. Ufalanmış taze peyniri ve rendelenmiş sert peyniri de ekleyerek pürüzsüz, esnek bir hamur elde edene kadar yaklaşık 5 dakika yoğurun.",
-   "Hamuru 12 eşit parçaya bölün, her birini (yaklaşık 70 g) yağlı ellerinizle top haline getirip halka ya da kısa çubuk şekline sokun.",
+   "Hamuru 12 eşit parçaya bölün, her birini (yaklaşık 100 g) yağlı ellerinizle top haline getirip halka ya da kısa çubuk şekline sokun.",
    "Şekillendirdiğiniz chipaları tepsiye aralıklı dizin, üzerlerine çırpılmış yumurta sarısını sürün.",
    "Önceden ısıtılmış fırında 25-30 dakika, üstleri altın sarısı olup şişene kadar pişirin.",
    "Fırından çıkarınca birkaç dakika bekleyin ve sıcak servis yapın."
@@ -51,7 +51,7 @@
    "Heat the milk and sunflower oil together until they just boil (about 2 minutes), then pour over the starch.",
    "Mix with a wooden spoon until the dough comes together, lumpy but still warm, then let it cool for about 5 minutes.",
    "Add the eggs one at a time, then the crumbled fresh cheese and grated hard cheese. Knead for about 5 minutes until smooth and elastic.",
-   "Divide the dough into 12 equal pieces (about 70 g each). With oiled hands, roll each into a ball and shape into a ring or short rope.",
+   "Divide the dough into 12 equal pieces (about 100 g each). With oiled hands, roll each into a ball and shape into a ring or short rope.",
    "Place the chipa on the tray with space between them and brush the tops with beaten egg yolk.",
    "Bake in the preheated oven for 25-30 minutes, until golden brown and puffed.",
    "Let them rest for a few minutes after removing from the oven and serve warm."
@@ -61,5 +61,13 @@
   "tr": "Chipa en iyi sıcakken yenir; soğuduğunda hava almayan bir kapta saklayıp, servis etmeden önce kısa süre ısıtın.",
   "en": "Chipa is best eaten warm. Store cooled leftovers in an airtight container and reheat briefly before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't match the piece size: the ingredients total about 1.2 kg, but 12 pieces of about 70 g only account for about 840 g. Each piece should be about 100 g (both Turkish and English)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

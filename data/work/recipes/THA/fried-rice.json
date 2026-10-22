@@ -55,7 +55,7 @@
    "Geniş bir wok ya da tavayı yüksek ateşte iyice ısıtın, 30 ml bitkisel yağı ekleyin.",
    "Sarımsak ve arpacık soğanını ekleyip 30 saniye kadar, hafif altın rengi alana dek kavurun.",
    "Doğranmış tavuk butunu ekleyip 3-4 dakika, içi pişip kenarları kızarana kadar kavurun.",
-   "Tavuğu wok'un bir kenarına itin, kalan 15 ml yağı diğer tarafa dökün ve yumurtaları kırın. Hızlıca karıştırarak yarı pişmiş bir omlet gibi kıvamlaştırın.",
+   "Tavuğu wok'un bir kenarına itin, kalan 15 ml yağı diğer tarafa dökün ve yumurtaları kırın. Hızlıca karıştırarak yumuşak kıvamlı, yarı pişmiş karıştırılmış yumurta gibi olana dek pişirin.",
    "Yumurtaları tavuğla karıştırın, ardından pirinci ekleyip spatulayla sık sık karıştırarak 3 dakika kadar kızartın.",
    "Balık sosunu, istiridye sosunu, soya sosunu, şekeri ve karabiberi ekleyip pirinç eşit şekilde renklenene kadar hızlıca karıştırın.",
    "Kıyılmış taze soğanı ekleyin, ocaktan alıp bir kez daha karıştırın.",
@@ -77,5 +77,13 @@
   "tr": "Taze pişmiş pirinç yapışkan olur; bir gün önce pişirip buzdolabında soğutulmuş pirinç, tanelerin ayrı kalmasını ve iyi kızarmasını sağlar.",
   "en": "Freshly cooked rice turns sticky and mushy in the wok. Use rice cooked the day before and chilled, so the grains stay separate and fry well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says the eggs should set like a 'yarı pişmiş bir omlet' (half-cooked omelette), but the English says 'soft scrambled eggs'. The two versions describe different textures."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

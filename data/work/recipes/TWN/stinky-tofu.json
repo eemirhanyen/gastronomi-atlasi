@@ -9,7 +9,7 @@
   "en": "One of Taiwan's best-known night market snacks, made by fermenting tofu in a savory vegetable brine, then deep-frying it and serving it with pickled cabbage and chili sauce."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 4380,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Tofu kızartılırken yağın çok sıcak olması, dış kısmın sert ve çıtır kalmasını sağlar; fermente tofuyu kızartmadan önce mutlaka iyice kurulayın.",
+  "tr": "Tofu kızartılırken yağın çok sıcak olması, dış kısmının sert ve çıtır kalmasını sağlar; fermente tofuyu kızartmadan önce mutlaka iyice kurulayın.",
   "en": "Keep the oil at a steady 180 °C and dry the tofu well before frying, so the outside turns crisp rather than greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not account for the 2-3 day fermentation in step 4, so the total time is understated",
+   "Turkish tip has a grammar error: \"dış kısmın\" should be \"dış kısmının\""
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

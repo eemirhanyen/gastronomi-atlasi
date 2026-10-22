@@ -9,7 +9,7 @@
   "en": "A traditional drink of Kiribati, made from the sweet sap of coconut palms and enjoyed throughout the day, especially in the heat of midday and at communal gatherings. This home version uses fresh young coconut water with a little sweetener to approximate the lightly sweet sap."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,5 +47,13 @@
   "tr": "Geleneksel şıra doğal olarak birkaç saat içinde hafifçe ekşir; bu tadı denemek için karışımı oda sıcaklığında 2-3 saat bekletebilirsiniz.",
   "en": "Traditional toddy ferments naturally within a few hours and turns mildly tangy; to try this flavour, leave the mixture at room temperature for 2-3 hours before chilling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 15, but step 5 requires chilling for at least 1 hour, so the total time is understated (about 75 minutes minimum)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

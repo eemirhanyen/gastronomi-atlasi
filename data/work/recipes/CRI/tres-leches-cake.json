@@ -9,7 +9,7 @@
   "en": "A light sponge cake soaked in a mixture of three milks, served chilled at birthdays, family gatherings and celebrations across Costa Rica and much of Latin America."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Süt karışımını keke birkaç partide dökün; tek seferde dökerseniz hamur ıslanır ama alt kısım sulu kalabilir.",
   "en": "Pour the milk mixture in several batches rather than all at once so the sponge absorbs it evenly without the base turning soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) leaves out the mandatory 2-hour refrigeration and the baking and cooling time; the realistic total is about 3 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

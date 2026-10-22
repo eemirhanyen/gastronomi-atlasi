@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kaymak (Kıymak)",
+  "tr": "Kaymak (Irak Usulü)",
   "en": "Qeymar (Iraqi Clotted Cream)"
  },
  "native": "قيمر",
@@ -9,7 +9,7 @@
   "en": "A thick, rich clotted cream that forms on the surface of gently simmered milk. In Iraq, especially in Baghdad and the south, it is a traditional breakfast food, usually served with warm flatbread and date syrup."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -49,5 +49,14 @@
   "tr": "Kaymağın kalın ve kremsi çıkması için sütü mutlaka çok kısık ateşte ve karıştırmadan ısıtın; geniş tencere sütün daha ince bir tabaka oluşturmasını sağlar.",
   "en": "Use a wide pan and keep the heat very low without stirring; a shallow layer of milk gives a thicker, creamier skin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name \"Kaymak (Kıymak)\" is misleading: \"kıymak\" in Turkish means minced meat, not clotted cream.",
+   "time_min of 60 understates the actual process: heating to 80-85°C, 35 minutes of gentle heating, 20 minutes of cooling, and about 1 hour of refrigeration total well over 2 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

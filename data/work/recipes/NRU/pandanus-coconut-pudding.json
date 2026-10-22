@@ -9,7 +9,7 @@
   "en": "A soft, lightly sweet pudding made with pandanus fruit and coconut milk, traditionally served at the end of family meals and on special occasions in the coastal villages of Nauru."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -59,5 +59,13 @@
   "tr": "Muhallebinin altta yanmaması için sürekli karıştırın ve nişastalı karışımı kaynayan sıvıya yavaşça dökün; topaklanmayı önlemenin en kolay yolu budur.",
   "en": "Keep stirring constantly once the cornstarch goes in, and pour it slowly into the simmering liquid to prevent lumps and scorching on the base of the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not include the 30-minute cooling and at-least-1-hour refrigeration in the steps, so the total time is understated; corrected to about 110 minutes (about 20 min active plus 30 min c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

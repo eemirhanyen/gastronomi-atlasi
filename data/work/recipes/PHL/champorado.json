@@ -15,6 +15,7 @@
   "tr": [
    "200 g yapışkan pirinç (malagkit)",
    "1 litre su",
+   "100 ml sıcak su",
    "80 g tablea (Filipin kakao tableti) veya 60 g bitter çikolata",
    "2 yemek kaşığı kakao tozu",
    "100 g esmer şeker",
@@ -25,6 +26,7 @@
   "en": [
    "200 g glutinous rice (malagkit)",
    "1 litre water",
+   "100 ml hot water",
    "80 g tablea (Filipino cacao tablets) or 60 g dark chocolate",
    "2 tablespoons cocoa powder",
    "100 g brown sugar",
@@ -59,5 +61,13 @@
   "tr": "Yapışkan pirinç tencere dibine kolay yapıştığı için kalın tabanlı bir tencere kullanın ve pişirme sırasında sık sık karıştırın.",
   "en": "Glutinous rice sticks easily to the bottom of the pot, so use a heavy-based pan and stir frequently."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 (both languages) uses 100 ml hot water to dissolve the tablea/chocolate, but this water is not listed in the ingredients."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -19,7 +19,7 @@
    "4 diş sarımsak, ezilmiş",
    "15 g öğütülmüş ají panca (yoksa tatlı kırmızı toz biber)",
    "1 tatlı kaşığı öğütülmüş kimyon",
-   "1 tatlı kaşığı kurutulmuş kekik (ya da kekik yerine kekik otu)",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1 defne yaprağı",
    "1 litre su",
    "1 çay kaşığı tuz",
@@ -79,5 +79,13 @@
   "tr": "Sosu koyulaştırmak ve tadı derinleştirmek için ají panca'yı yağda kavururken yanmamasına dikkat edin; yanarsa acı bir tat verir.",
   "en": "Fry the ají panca briefly in the oil and do not let it burn, as scorched paprika turns bitter and spoils the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for the dried herb is confused: 'kekik (ya da kekik yerine kekik otu)' is circular and doesn't clearly name the herb, while the English says dried oregano. Clarified the Turkis"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

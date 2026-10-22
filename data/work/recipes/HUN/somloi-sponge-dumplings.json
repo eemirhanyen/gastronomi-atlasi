@@ -21,11 +21,12 @@
    "1 tutam tuz",
    "15 g tereyağı (kalıbı yağlamak için)",
    "40 g çekirdeksiz kuru üzüm",
-   "30 ml rom (üzüm ve sos için)",
+   "30 ml rom (kuru üzüm için)",
    "40 g ceviz içi, kabaca doğranmış",
    "100 g bitter çikolata",
    "100 ml %35 yağlı krema (sos için)",
    "15 g tereyağı (sos için)",
+   "15 ml rom (sos için)",
    "2 yumurta sarısı (krema için)",
    "250 ml süt",
    "40 g toz şeker (krema için)",
@@ -43,11 +44,12 @@
    "1 pinch salt",
    "15 g butter (for greasing the tin)",
    "40 g seedless raisins",
-   "30 ml rum (for the raisins and sauce)",
+   "30 ml rum (for the raisins)",
    "40 g walnut halves, roughly chopped",
    "100 g dark chocolate",
    "100 ml 35% fat cream (for the sauce)",
    "15 g butter (for the sauce)",
+   "15 ml rum (for the sauce)",
    "2 egg yolks (for the custard)",
    "250 ml milk",
    "40 g caster sugar (for the custard)",
@@ -70,7 +72,7 @@
    "Kremayı hazırlamak için 2 yumurta sarısını, 40 g şekeri ve 15 g mısır nişastasını bir kapta pürüzsüz olana kadar çırpın.",
    "Sütü vanilyayla birlikte kısık ateşte ısıtın, kaynamadan önce yumurta karışımının üzerine yavaşça dökerek sürekli çırpın.",
    "Karışımı tencereye geri alın ve sürekli karıştırarak orta ateşte kıvam alana kadar, yaklaşık 2 dakika pişirin. Ocaktan alıp kaplayacak şekilde bekletin.",
-   "Çikolatalı sos için bitter çikolatayı doğrayın. Krema ve tereyağını kısık ateşte ısıtın, kaynamaya yaklaşınca çikolatanın üzerine dökün, 1 dakika bekletip pürüzsüz olana kadar karıştırın. Romu ekleyin.",
+   "Çikolatalı sos için bitter çikolatayı doğrayın. Krema ve tereyağını kısık ateşte ısıtın, kaynamaya yaklaşınca çikolatanın üzerine dökün, 1 dakika bekletip pürüzsüz olana kadar karıştırın. 15 ml romu ekleyin.",
    "Çırpılmış krema için 150 ml kremayı 15 g toz şekerle yumuşak tepeler oluşana kadar çırpın ve buzdolabına kaldırın.",
    "Servis için sünger küplerinin yarısını derin tabaklara dizin, üzerine yarım miktar çikolatalı sosu gezdirin.",
    "Kremanın yarısını küplerin üzerine yayın, kalan küpleri ekleyin ve ardından kalan sosu gezdirin.",
@@ -88,7 +90,7 @@
    "For the custard, whisk the 2 egg yolks, 40 g sugar and 15 g cornflour in a bowl until smooth.",
    "Warm the milk with the vanilla over low heat. Pour it slowly onto the yolk mixture while whisking constantly, just before it boils.",
    "Return the mixture to the pan and cook over medium heat, stirring constantly, for about 2 minutes until thickened. Take off the heat and let it cool.",
-   "For the chocolate sauce, chop the dark chocolate. Warm the cream and butter over low heat until just below boiling, pour over the chocolate, leave for 1 minute, then stir until smooth. Stir in the rum.",
+   "For the chocolate sauce, chop the dark chocolate. Warm the cream and butter over low heat until just below boiling, pour over the chocolate, leave for 1 minute, then stir until smooth. Stir in the 15 ml rum.",
    "For the whipped cream, whisk the 150 ml cream with the 15 g icing sugar until soft peaks form, then chill.",
    "To assemble, place half the sponge cubes in deep bowls and spoon over half the chocolate sauce.",
    "Spread half the custard over the cubes, add the remaining sponge cubes and drizzle with the rest of the chocolate sauce.",
@@ -96,8 +98,17 @@
   ]
  },
  "tip": {
-  "tr": "Süngeri servisten bir gün önce yapıp kuru tutun; küpleri sosa sadece servis anında bulamanız, böylece dağılmazlar.",
+  "tr": "Süngeri servisten bir gün önce yapıp hava almayacak şekilde saklayın; küpleri sosla ancak servis anında buluşturun, böylece dağılmazlar ve sulanmazlar.",
   "en": "Bake the sponge a day ahead and keep it airtight, then cut and assemble just before serving so the cubes stay firm and do not turn soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Rum quantity is ambiguous: the ingredient list gives 30 ml for both the raisins and the sauce, but the steps use the full 30 ml on the raisins and then add rum to the sauce with no amount given.",
+   "Turkish tip is ungrammatical and unnatural: 'küpleri sosa sadece servis anında bulamanız' does not read correctly."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -31,8 +31,8 @@
    "Şekeri suyla geniş bir tencereye koyun. Orta ateşte karıştırarak şeker eriyene kadar ısıtın, sonra kaynatın.",
    "Ateşi kısın ve şurup hafifçe koyulaşana kadar, yaklaşık 8-10 dakika hafif kaynatın. Yasemin suyunu ekleyip ocakta kısık ateşte tutun.",
    "Hunileyi ya da sıkma torbasını şurubun üzerinde tutup sarıları dairesel hareketlerle ince bir iplik halinde 1 dakika kadar dökün. Sarılar şurupta anında katılaşıp ipliklere dönüşür.",
-   "Ipliklerin üzerinden 1-2 dakika daha geçmesini bekleyin, sonra delikli kaşıkla ya da yemek çubuklarıyla çıkarıp süzgeçte süzün.",
-   "Ipliklerin sıcakken küçük yuvalar ya da kaseler halinde şekil verin ve tabağa ya da pişirme kağıdına alıp soğumaya bırakın.",
+   "İpliklerin üzerinden 1-2 dakika daha geçmesini bekleyin, sonra delikli kaşıkla ya da yemek çubuklarıyla çıkarıp süzgeçte süzün.",
+   "İpliklerin sıcakken küçük yuvalar ya da kaseler halinde şekil verin ve tabağa ya da pişirme kağıdına alıp soğumaya bırakın.",
    "Oda sıcaklığında servis yapın."
   ],
   "en": [
@@ -49,5 +49,13 @@
   "tr": "Şurubun sürekli hafif kaynamasını sağlayın; sarılar çok sıcak şurupta dağılır, çok soğukta ise iplik olmaz.",
   "en": "Keep the syrup at a gentle simmer. If it boils hard the yolks break up, and if it is too cool they will not form threads."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 and step 6 spell \"İpliklerin\" as \"Ipliklerin\" (dotless I instead of dotted İ), which is a Turkish orthography error."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

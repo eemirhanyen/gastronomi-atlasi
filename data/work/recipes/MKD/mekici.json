@@ -41,10 +41,10 @@
    "Yoğurdu ve ılık suyu ekleyerek yumuşak, biraz yapışkan bir hamur yoğurun. Gerekirse birkaç damla su ekleyin.",
    "Hamuru 8-10 dakika, yüzeyi pürüzsüz ve elastik olana kadar yoğurun.",
    "Kabı temiz bir bezle örtün ve sıcak bir yerde yaklaşık 40 dakika, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
-   "Hamuru 12 eşit parçaya bölün. Her parçayı avuçlarınızla yuvarlayın ve 8 cm çapında, yaklaşık 1 cm kalınlığında yassı daireler haline getirin.",
+   "Hamuru 12 eşit parçaya bölün. Her parçayı avuçlarınızla yuvarlayın ve 6-7 cm çapında, yaklaşık 1 cm kalınlığında yassı daireler haline getirin.",
    "Şekillendirdiğiniz mekiçileri bir tepsiye dizin ve 10 dakika dinlendirin.",
    "Derin bir tencerede yağı 170-180°C'ye kadar ısıtın.",
-   "Mekiçileri partiler halinde yağa koyun ve her iki yüzü 1-2 dakika, altın rengi olana kadar kızartın.",
+   "Mekiçileri partiler halinde yağa koyun ve her iki yüzü 2-3 dakika, altın rengi olana kadar kızartın.",
    "Kızaran mekiçileri kağıt havluya alıp fazla yağlarını süzün.",
    "Sıcak mekiçileri yoğurt ile servis edin ve üzerine pudra şekeri serpin."
   ],
@@ -53,10 +53,10 @@
    "Add the yogurt and lukewarm water and knead into a soft, slightly sticky dough. Add a few drops of water if needed.",
    "Knead for 8-10 minutes until the dough is smooth and elastic.",
    "Cover the bowl with a clean cloth and let the dough rise in a warm place for about 40 minutes, until doubled in size.",
-   "Divide the dough into 12 equal pieces. Roll each piece into a ball, then flatten into rounds about 8 cm across and roughly 1 cm thick.",
+   "Divide the dough into 12 equal pieces. Roll each piece into a ball, then flatten into rounds about 6-7 cm across and roughly 1 cm thick.",
    "Arrange the shaped mekici on a tray and let them rest for 10 minutes.",
    "Heat the oil in a deep pot to 170-180°C.",
-   "Fry the mekici in batches for 1-2 minutes per side, until golden brown.",
+   "Fry the mekici in batches for 2-3 minutes per side, until golden brown.",
    "Transfer the fried mekici to paper towels to drain off excess oil.",
    "Serve warm with yogurt and a dusting of powdered sugar."
   ]
@@ -65,5 +65,14 @@
   "tr": "Yağ sıcaklığını termometreyle kontrol edin; çok düşükse mekiçiler yağlı, çok yüksekse dışı yanıp içi çiğ kalır.",
   "en": "Check the oil temperature with a thermometer. If it is too low the mekici turn greasy, and if too high the outside burns before the inside cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough piece size is inconsistent: 400 g divided into 12 pieces gives about 33 g each, which flattens to roughly 6-7 cm across at 1 cm thick, not 8 cm.",
+   "Frying time of 1-2 minutes per side is too short for a ~1 cm thick yeast dough at 170-180°C and risks a raw centre. Increased to 2-3 minutes per side in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

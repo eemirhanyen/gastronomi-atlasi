@@ -76,8 +76,17 @@
   ]
  },
  "tip": {
-  "tr": "Yaprakları ince açıp hemen pişirmek, sert ve kuru olmalarını önler; kremayı tamamen soğutmadan eklemeyin, aksi halde krema sulanır.",
-  "en": "Roll the sheets very thin and bake them until evenly golden so they stay crisp; never add butter-sour cream to warm custard, or the cream will separate."
+  "tr": "Yaprakları ince açıp hemen pişirmek, gevrek kalmalarını ve eşit altın rengi almalarını sağlar; kremayı tamamen soğutmadan eklemeyin, aksi halde krema sulanır ve ayrılır.",
+  "en": "Roll the sheets very thin and bake them promptly until evenly golden so they stay crisp; never mix the butter and sour cream into warm custard, or the cream will separate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says rolling thin and baking promptly prevents the sheets from becoming hard and dry, while the English tip says it keeps them crisp. The two versions should say the same thing.",
+   "English tip contains garbled wording: 'never add butter-sour cream to warm custard'. It should refer to the cream mixture being added to cooled custard, not to warm custard."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Saint Lucia",
  "desc": {
-  "tr": "Saint Lucia'nın ulusal yemeği olan bu tabak, kahvaltıda ve pazar öğünlerinde yenir. Haşlanmış yeşil muz (adadaki adıyla yeşil incir) ile tuzlu bakalyaronun domates, soğan ve scotch bonnet biberiyle soteelenmesinden oluşur.",
+  "tr": "Saint Lucia'nın ulusal yemeği olan bu tabak, kahvaltıda ve pazar öğünlerinde yenir. Haşlanmış yeşil muz (adadaki adıyla yeşil incir) ile tuzlu bakalyaronun domates, soğan ve scotch bonnet biberiyle sote edilmesinden oluşur.",
   "en": "The national dish of Saint Lucia, eaten at breakfast and Sunday meals. Boiled green bananas (known locally as green figs) are served with saltfish sautéed with tomato, onion and scotch bonnet pepper."
  },
  "servings": 4,
@@ -50,7 +50,7 @@
    "Geniş bir tavada bitkisel yağı orta ateşte ısıtın. Soğanı ve yeşil soğanın beyaz kısımlarını yumuşayana kadar yaklaşık 5 dakika soteleyin.",
    "Sarımsak ve scotch bonnet biberini ekleyip 1 dakika daha kavurun.",
    "Domatesleri ve kekik yapraklarını ekleyin, domatesler suyunu salana kadar 5 dakika pişirin.",
-   "Ayıklanmış bakalyaroyu tavaya ekleyin, karıştırarak 6-8 dakika daha pişirin. Tatmin ederek tuz ve karabiberi ayarlayın (bakalyaro zaten tuzlu olduğu için dikkatli olun).",
+   "Ayıklanmış bakalyaroyu tavaya ekleyin, karıştırarak 6-8 dakika daha pişirin. Tadına bakın ve yalnızca gerekirse karabiber ile az miktarda tuz ekleyin, çünkü bakalyaro zaten tuzludur.",
    "Yeşil muzları ve bakalyaroyu servis tabağında yan yana koyun, üzerine yeşil soğanın kalan kısmını serpin."
   ],
   "en": [
@@ -69,5 +69,15 @@
   "tr": "Bakalyaronun tuzunu iyice almak için suyu sık sık değiştirin; tatmadan tuz eklemeyin.",
   "en": "Change the soaking water often so the cod loses enough salt; always taste before adding any extra salt."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses the non-existent word \"soteelenmesinden\"; the correct term is \"sote edilmesinden\".",
+   "Turkish step 8 \"Tatmin ederek\" is unnatural. The English says to add salt only if needed, and the Turkish omits that condition.",
+   "time_min (60) does not account for the overnight soaking of the cod, which the recipe requires."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

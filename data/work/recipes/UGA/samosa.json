@@ -17,7 +17,7 @@
    "5 g tuz",
    "30 ml sıvı yağ (hamur için)",
    "120 ml ılık su (yaklaşık, gerekirse fazlası)",
-   "350 g dana kıyma",
+   "250 g dana kıyma",
    "1 orta boy soğan (100 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "1 adet yeşil biber, ince doğranmış",
@@ -39,7 +39,7 @@
    "5 g salt",
    "30 ml cooking oil (for the dough)",
    "120 ml lukewarm water (approx., add more if needed)",
-   "350 g minced beef",
+   "250 g minced beef",
    "1 medium onion (100 g), finely chopped",
    "2 cloves garlic, crushed",
    "1 green chili, finely chopped",
@@ -67,7 +67,7 @@
    "Bezelyeleri ve 30 ml suyu ekleyin. Sıvısı neredeyse tamamen çekilene kadar 4-5 dakika pişirin, ardından ocaktan alın.",
    "Harcı tamamen soğutun, taze kişniş ve limon suyunu karıştırın, tadını kontrol edin.",
    "Hamuru 8 eşit topa bölün. Her topu ince bir daire haline getirip (yaklaşık 15 cm çapında) ikiye kesin.",
-   "Yarım daireyi bir koni şekline getirin, 1 yemek kaşığı harcı içine koyun. Kenarlarına kapatma macununu sürüp sıkıca kapatarak üçgen şeklini verin. Aynı işlemi tüm hamur ve harç için tekrarlayın.",
+   "Yarım daireyi bir koni şekline getirin, 2 yemek kaşığı harcı içine koyun. Kenarlarına kapatma macununu sürüp sıkıca kapatarak üçgen şeklini verin. Aynı işlemi tüm hamur ve harç için tekrarlayın.",
    "Kızartma yağını derin bir tencerede 170-180 °C'ye kadar ısıtın. Samosaları partiler halinde 4-5 dakika, altın rengi olana kadar kızartın.",
    "Samosaları süzgeç kaşığıyla alıp mutfak kağıdı serili bir tabağa koyarak yağını süzdürün. Sıcak servis yapın."
   ],
@@ -80,7 +80,7 @@
    "Add the peas and 30 ml water. Cook for 4-5 minutes until the liquid has almost completely evaporated, then remove from the heat.",
    "Let the filling cool completely, then stir in the fresh coriander and lemon juice. Taste and adjust the seasoning.",
    "Divide the dough into 8 equal balls. Roll each into a thin circle about 15 cm across and cut each circle in half.",
-   "Shape each half-circle into a cone, spoon in 1 tablespoon of filling, then brush the edges with the flour paste and press them firmly closed to form a triangle. Repeat with the remaining dough and filling.",
+   "Shape each half-circle into a cone, spoon in 2 tablespoons of filling, then brush the edges with the flour paste and press them firmly closed to form a triangle. Repeat with the remaining dough and filling.",
    "Heat the frying oil in a deep pan to 170-180 °C. Fry the samosas in batches for 4-5 minutes until golden brown.",
    "Lift the samosas out with a slotted spoon and drain on kitchen paper. Serve hot."
   ]
@@ -89,5 +89,13 @@
   "tr": "Harç tamamen soğumadan hamura koymayın; sıcak iç harç hamuru yırtar ve samosalar kızartırken açılır.",
   "en": "Never fill the pastry with warm filling; hot filling tears the dough and causes samosas to open while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling quantity does not match the number of samosas: 350 g beef plus peas and onion makes roughly 400 g of cooked filling, but 8 samosas at 1 tablespoon each use only about 120 g, so about two-third"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

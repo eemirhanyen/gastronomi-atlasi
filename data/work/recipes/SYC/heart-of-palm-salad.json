@@ -60,8 +60,17 @@
   ]
  },
  "tip": {
-  "tr": "Palmiye kalbini çok sert doğramamaya dikkat edin; sert dokusu kolay ufalanır. Kıtıklık için biberin çekirdeğini çıkarmak yeterlidir.",
+  "tr": "Palmiye kalbini çok sert doğramamaya dikkat edin; narin dokusu kolayca ufalanır. Acılığı ölçülü tutmak için biberin çekirdeğini çıkarmak yeterlidir.",
   "en": "Cut the palm heart gently, as its texture breaks apart easily. Removing the chilli seeds keeps the heat mild and balanced."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses 'kıtıklık', which is not a natural or correct Turkish word for the intended meaning (mildness of heat).",
+   "Turkish tip describes palm heart as 'sert' (firm) yet says it 'ufalanır' (crumbles easily); the English says it is delicate, so the Turkish wording contradicts itself and the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

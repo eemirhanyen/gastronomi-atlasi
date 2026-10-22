@@ -29,6 +29,7 @@
    "1 tatlı kaşığı karabiber",
    "1,5 l sıcak su veya et suyu",
    "2 tatlı kaşığı tuz (yemek için)",
+   "1 tatlı kaşığı tuz (erişte haşlama suyu için)",
    "1 küçük demet kişniş, doğranmış"
   ],
   "en": [
@@ -48,6 +49,7 @@
    "1 tsp black pepper",
    "1.5 l hot water or beef stock",
    "2 tsp salt (for the stew)",
+   "1 tsp salt (for boiling the noodles)",
    "1 small bunch coriander, chopped"
   ]
  },
@@ -79,5 +81,13 @@
   "tr": "Hamuru dinlendirmek erişteleri kolay gerdirmenizi sağlar; ellerinize ve hamura az yağ sürerek yapışmayı önleyin.",
   "en": "Resting the dough makes it much easier to stretch, and a little oil on your hands and the dough stops it from sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 adds 1 tsp salt to the water for boiling the noodles, but the ingredient list has no entry for it (only the 2 tsp for the stew). The Turkish and English versions both have this gap."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

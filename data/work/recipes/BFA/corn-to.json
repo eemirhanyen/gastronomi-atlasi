@@ -9,12 +9,12 @@
   "en": "A firm porridge made from corn flour that forms the daily staple in Burkina Faso. It is usually eaten at lunch or dinner with an okra or leafy sauce, torn off by hand and dipped into the sauce."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "400 g ince sarı mısır unu",
-   "1,4 L su (1 L kaynamak için, 400 ml unu karıştırmak için)",
+   "1,7 L su (1 L tô için, 400 ml unu karıştırmak için, 300 ml sos için)",
    "1 tatlı kaşığı tuz (tô için)",
    "3 yemek kaşığı (45 ml) bitkisel yağ",
    "200 g dana eti, küp doğranmış",
@@ -27,7 +27,7 @@
   ],
   "en": [
    "400 g fine yellow corn flour",
-   "1.4 L water (1 L for boiling, 400 ml for mixing the flour)",
+   "1.7 L water (1 L for the tô, 400 ml for mixing the flour, 300 ml for the sauce)",
    "1 tsp salt (for the tô)",
    "3 tbsp (45 ml) vegetable oil",
    "200 g beef, cut into small cubes",
@@ -42,7 +42,7 @@
  "steps": {
   "tr": [
    "Sos için büyük bir tencerede yağı ısıtın, küp doğranmış dana etini ve soğanı ekleyip orta ateşte 8-10 dakika, et kenarları kızarana kadar kavurun.",
-   "Domatesi, acı biberi ve et suyu küpünü ekleyin, 300 ml suyu dökün ve kısık ateşte 15 dakika pişirin.",
+   "Domatesi, acı biberi ve et suyu küpünü ekleyin, 300 ml suyu dökün ve kısık ateşte 30 dakika, et yumuşayana kadar pişirin.",
    "Bamyayı ekleyip 10 dakika daha pişirin, bamya yumuşayınca tuzla tatlandırın. Sosu ocakta sıcak tutun.",
    "Tô için 1 litre suyu tuzla birlikte kalın tabanlı bir tencerede kaynatın.",
    "Mısır unu ile 400 ml soğuk suyu topaklanma kalmayacak şekilde pürüzsüz bir karışım haline gelene kadar karıştırın.",
@@ -52,7 +52,7 @@
   ],
   "en": [
    "For the sauce, heat the oil in a large pot, add the beef cubes and onion, and fry over medium heat for 8-10 minutes until the meat is browned at the edges.",
-   "Add the tomatoes, chili and stock cube, pour in 300 ml water, and simmer gently for 15 minutes.",
+   "Add the tomatoes, chili and stock cube, pour in 300 ml water, and simmer gently for 30 minutes until the beef is tender.",
    "Add the okra, cook for another 10 minutes until tender, then season with salt. Keep the sauce warm on the stove.",
    "For the tô, bring 1 litre of water with the salt to a boil in a heavy-bottomed pot.",
    "Mix the corn flour with 400 ml cold water until smooth and free of lumps.",
@@ -65,5 +65,15 @@
   "tr": "Tô'yu karıştırırken topak oluşmaması için un karışımını suyu kaynatırken yavaşça ve sürekli karıştırarak ekleyin; kıvamı ayarlamak için son anda az su ekleyebilirsiniz.",
   "en": "Pour the flour mixture slowly while stirring constantly to prevent lumps; if the tô is too stiff at the end, add a splash of hot water and stir it in."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sauce water (300 ml, used in the sauce step) is not counted in the ingredient list, which only accounts for 1.4 L (1 L + 400 ml). The water amount is inconsistent with the steps.",
+   "Small beef cubes simmered for only 15 minutes with the tomatoes will likely stay tough. Sauce simmer time should be longer, and total time adjusted accordingly.",
+   "Turkish and English versions must be updated together for the water and simmer-time changes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

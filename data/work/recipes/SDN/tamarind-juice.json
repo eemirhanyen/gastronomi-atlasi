@@ -9,7 +9,7 @@
   "en": "A cooling, sweet-sour drink made from tamarind pulp, widely served in Sudan during hot weather, often after lunch and at iftar tables."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,5 +49,13 @@
   "tr": "Demirhindi pulpunun ekşiliği markaya göre değişir; şekeri son aşamada tadına bakarak ayarlayın.",
   "en": "Tamarind pulp sourness varies by brand, so adjust the sugar at the end after tasting."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, but the steps require about 20 minutes of soaking plus at least 1 hour of chilling, so the total is roughly 90 minutes or more."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

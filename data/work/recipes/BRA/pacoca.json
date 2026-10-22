@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Pasoka (Paçoca)",
+  "tr": "Paçoka (Paçoca)",
   "en": "Paçoca (Peanut Paçoca)"
  },
  "native": "Paçoca",
@@ -53,5 +53,13 @@
   "tr": "Geleneksel yöntemde paçoka pilonda dövülür; fıstıkları fazla ezmemek, kıvamlı ama ufalanan bir doku elde etmenin anahtarıdır.",
   "en": "Traditionally the mixture is pounded in a pilão; avoid over-grinding the peanuts, as a slightly coarse texture gives the authentic crumbly bite."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish dish name is spelled \"Pasoka\", but the Turkish tip uses \"paçoka\". The name should be spelled consistently with the tip and the Turkish transliteration of paçoca."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

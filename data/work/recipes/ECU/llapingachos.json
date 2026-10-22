@@ -48,7 +48,7 @@
    "Patatesleri bir tutam tuzlu suda yumuşayana kadar, yaklaşık 20 dakika haşlayın. Süzün ve 2 dakika buharda kurumaya bırakın.",
    "Bu sırada yağı annatto tohumlarıyla birlikte kısık ateşte 5 dakika ısıtın, yağ turuncu renge dönünce tohumları süzüp atın.",
    "Küçük bir tavada 1 yemek kaşığı aromalı yağla doğranmış soğanı yumuşayana kadar, yaklaşık 5 dakika kavurun ve soğumaya bırakın.",
-   "Patatesleri pürüzsüz bir püre haline getirin. Tereyağı, 1 tatlı kaşığı aromalı yağ, kavrulmuş soğan, yeşil soğan, kimyon ve unu ekleyip homojen bir hamur elde edin. Tadını kontrol edip gerekirse tuz ekleyin.",
+   "Patatesleri pürüzsüz bir püre haline getirin. Tereyağı, 1 yemek kaşığı aromalı yağ, kavrulmuş soğan, yeşil soğan, kimyon ve unu ekleyip homojen bir hamur elde edin. Tadını kontrol edip gerekirse tuz ekleyin.",
    "Hamurdan 8 eşit parça ayırın. Her birini avuçta yuvarlayıp ortasına bir kaşık ufalanmış peyniri yerleştirin, kapatın ve yaklaşık 1 cm kalınlığında yassı köfteler haline getirin.",
    "Kalan aromalı yağı orta ateşte geniş bir tavada ısıtın. Köfteleri her iki yüzü altın rengi olana kadar, her yüzü yaklaşık 3-4 dakika kızartın. Kağıt havluya alın.",
    "Fıstık sosu için kavrulmuş fıstıkları, domatesi, suyu ve bir tutam tuzu blenderdan geçirip pürüzsüz bir kıvam alana kadar çekin. Küçük bir tencerede kısık ateşte 5 dakika kaynatın.",
@@ -69,5 +69,13 @@
   "tr": "Patatesleri iyice kurutun ve püre yaparken fazla karıştırmayın; aksi halde hamur yapışkanlaşır ve köfteler kızartırken dağılabilir.",
   "en": "Dry the potatoes well and avoid overmixing the mash, or the dough becomes gluey and the patties may break apart when frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"1 tatlı kaşığı aromalı yağ\" (1 teaspoon), but the English step says \"another tablespoon of annatto oil\". Turkish has been corrected to \"1 yemek kaşığı\" to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

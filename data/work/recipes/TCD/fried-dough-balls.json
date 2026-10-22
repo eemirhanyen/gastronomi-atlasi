@@ -9,7 +9,7 @@
   "en": "A sweet, soft-centred fried dough ball sold by street vendors in N'Djamena, especially in the morning and evening. It is usually eaten at breakfast or as an afternoon snack, often with sweet tea or milky coffee."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "5 g instant maya",
    "30 g toz şeker",
    "3 g tuz",
-   "150 ml ılık su",
+   "180 ml ılık su",
    "20 ml sıvı yağ (hamur için)",
    "600 ml kızartma yağı",
    "30 g pudra şekeri (servis için)"
@@ -27,7 +27,7 @@
    "5 g instant yeast",
    "30 g granulated sugar",
    "3 g salt",
-   "150 ml lukewarm water",
+   "180 ml lukewarm water",
    "20 ml vegetable oil (for the dough)",
    "600 ml frying oil",
    "30 g icing sugar (for serving)"
@@ -61,5 +61,14 @@
   "tr": "Yağın sıcaklığını bir termometreyle kontrol edin; yağ çok sıcak olursa dış kısım hızla kararır, içi çiğ kalır. Hamur topları 170°C civarında yavaş yavaş kızarmalıdır.",
   "en": "Check the oil with a thermometer. If it is too hot, the outside browns quickly while the centre stays raw. Aim for a steady 170°C so the balls cook through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to about 75 minutes: 8 min kneading, 40 min rising, 10 min resting, plus frying.",
+   "150 ml water for 300 g flour (about 50% hydration) is too dry for a yeasted dough that the steps describe as soft and smooth. The amount should be raised to about 180 ml, in both the Turkish and Engli"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -17,7 +17,7 @@
    "5 g instant maya",
    "4 g toz şeker",
    "5 g tuz",
-   "120 ml ılık su",
+   "160 ml ılık su",
    "30 ml zeytinyağı",
    "300 g kuzu kıyma",
    "1 orta boy soğan (120 g)",
@@ -35,7 +35,7 @@
    "5 g instant yeast",
    "4 g sugar",
    "5 g salt",
-   "120 ml lukewarm water",
+   "160 ml lukewarm water",
    "30 ml olive oil",
    "300 g ground lamb",
    "1 medium onion (120 g)",
@@ -79,5 +79,13 @@
   "tr": "Harcı çok ıslak yapmayın; fazla sıvı hamuru ıslatıp kenarların kıvrılmasını zorlaştırır.",
   "en": "Keep the filling fairly dry, since excess juice soaks the dough and makes the edges hard to fold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough hydration is too low: 120 ml water for 250 g flour (about 48%, before the 30 ml oil) gives a stiff dough that will not reach a soft, non-sticky texture or roll to a thin 15 cm round. Raised to 1"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

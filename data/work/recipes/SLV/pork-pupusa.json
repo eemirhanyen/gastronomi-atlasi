@@ -17,6 +17,7 @@
    "370 ml ılık su",
    "5 g ince tuz (hamur için)",
    "200 g domuz omzu, küp doğranmış",
+   "300 ml su (et için)",
    "3 g tuz (et için)",
    "2 diş sarımsak",
    "15 ml sıvı yağ",
@@ -26,7 +27,7 @@
    "1 havuç (60 g), rendelenmiş",
    "40 g soğan, ince dilimlenmiş (curtido için)",
    "3 g tuz (curtido için)",
-   "2 g kuru kekik ya da kekik yerine kuru oregano",
+   "2 g kuru oregano",
    "120 ml beyaz sirke",
    "60 ml su (curtido için)",
    "2 olgun domates (300 g)",
@@ -37,6 +38,7 @@
    "370 ml warm water",
    "5 g fine salt (for dough)",
    "200 g pork shoulder, cut into cubes",
+   "300 ml water (for pork)",
    "3 g salt (for pork)",
    "2 garlic cloves",
    "15 ml vegetable oil",
@@ -57,7 +59,7 @@
   "tr": [
    "Domuz etini, 3 g tuzu, 1 diş sarımsağı ve 300 ml suyu geniş bir tencereye koyun. Kaynayınca ısıyı kısın ve et çok yumuşayana kadar, yaklaşık 35-40 dakika pişirin. Suyunu süzün ve et biraz soğuyunca çok ince kıyın.",
    "Yağı orta-yüksek ateşte bir tavada ısıtın. 40 g kıyılmış soğanı yumuşayana kadar yaklaşık 3 dakika soteleyin. Kıyılmış eti ekleyip kenarları hafif kızarana kadar 5 dakika kavurun, ardından bir kaseye alıp soğumaya bırakın.",
-   "Curtido için 150 g lahanayı, 60 g havucu ve 40 g dilimlenmiş soğanı büyük bir kaseye alın. 3 g tuzu ekleyip 2 dakika ovalayın. 120 ml sirke, 60 ml su ve 2 g kekiği ekleyip karıştırın, en az 20 dakika dinlendirin.",
+   "Curtido için 150 g lahanayı, 60 g havucu ve 40 g dilimlenmiş soğanı büyük bir kaseye alın. 3 g tuzu ekleyip 2 dakika ovalayın. 120 ml sirke, 60 ml su ve 2 g oreganoyu ekleyip karıştırın, en az 20 dakika dinlendirin.",
    "Sos için 2 domatesi, 1 diş sarımsağı ve 60 ml suyu blenderdan geçirin. Küçük bir tencerede orta ateşte 5 dakika kaynatın, tuzla tatlandırıp sıcak tutun.",
    "Hamur için 320 g masa harinasını ve 5 g tuzu karıştırın. Ilık suyu azar azar ekleyerek yumuşak, yapışmayan bir hamur elde edene kadar 3 dakika yoğurun. Üzerini örtüp 10 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün, her birini yaklaşık 80 g olacak şekilde yuvarlayın. Bir parçayı avuçta bastırıp bardak şekli verin. Ortasına yaklaşık 25 g et harcı ve 15 g rendelenmiş mozzarella koyun.",
@@ -81,5 +83,15 @@
   "tr": "Hamur çatlıyorsa biraz daha ılık su ekleyin; yapışıyorsa biraz masa harinası serpin. Pupusaları yapmadan önce ellerinizi suya batırırsanız daha kolay şekil verirsiniz.",
   "en": "If the dough cracks at the edges, add a little more warm water; if it sticks to your hands, dust them with a pinch of masa harina. Wetting your palms before shaping makes the pupusas much easier to form."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list omits the 300 ml water used to boil the pork (step 1 in both languages), so the quantities are incomplete.",
+   "Turkish ingredient says \"2 g kuru kekik ya da kekik yerine kuru oregano\" and Turkish step 3 uses \"kekik\", but the English ingredient and step say dried oregano. The herb must match across languages. O",
+   "The Turkish ingredient wording \"kekik yerine kuru oregano\" is an unnatural alternative phrasing and is resolved by using only oregano."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

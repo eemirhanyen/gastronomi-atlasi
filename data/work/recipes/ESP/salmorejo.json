@@ -39,7 +39,7 @@
   "tr": [
    "Ekmeği parçalara ayırın, soğuk suya ekleyip 5 dakika bekletin, ardından iyice sıkarak fazla suyunu alın.",
    "Domatesleri 1 dakika kaynar suda bekletin, soğuk suya alıp kabuklarını soyun. Dörde bölüp sapını çıkarın ve kabaca doğrayın.",
-   "Blenderın kasesine domatesleri, sıkılmış ekmeği, sarımsağı, şeri sirkesini ve tuzu koyup pürüzsüz bir kıvam alana kadar çekin.",
+   "Blenderin kasesine domatesleri, sıkılmış ekmeği, sarımsağı, şeri sirkesini ve tuzu koyup pürüzsüz bir kıvam alana kadar çekin.",
    "Blender çalışırken zeytinyağını ince bir sızma halinde ekleyin. Sos koyulaşıp kremamsı bir kıvam alana kadar karıştırmaya devam edin.",
    "Daha ipeksi bir doku istiyorsanız çorbayı ince elekten geçirin. Tadına bakıp gerekirse tuz ya da sirke ekleyin.",
    "Çorbayı kapaklı bir kaba alıp buzdolabında en az 1 saat soğutun.",
@@ -61,5 +61,13 @@
   "tr": "Domatesler ne kadar olgunsa çorba o kadar tatlı ve renkli olur; bayat ekmek kullanmak kıvamın kremamsı çıkmasını sağlar.",
   "en": "The riper the tomatoes, the sweeter and more vibrant the soup; stale bread helps give it a smooth, creamy body."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 has a spelling error: \"Blenderın\" should be \"Blenderin\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

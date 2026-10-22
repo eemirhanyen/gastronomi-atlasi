@@ -25,7 +25,7 @@
    "1 yemek kaşığı soğuk su",
    "1 yemek kaşığı tuz (haşlama suyu için, yaklaşık 3 litre suya)",
    "200 g ekşi krema",
-   "100 g füme domuz pastırması, küp doğranmış",
+   "100 g füme domuz bacon'ı, küp doğranmış",
    "1 küçük soğan, ince doğranmış (yaklaşık 75 g)",
    "1 yemek kaşığı tereyağı",
    "Taze dereotu, servis için"
@@ -56,8 +56,8 @@
    "Unlu bir yüzeyde hamuru çok ince (yaklaşık 1-2 mm) açın. 6 cm çapında daireler kesin ve artan hamuru tekrar açarak kullanın.",
    "Her dairenin ortasına bir çay kaşığı kadar iç harç koyun, daireyi ikiye katlayıp kenarlarını parmaklarınızla iyice bastırarak kapatın.",
    "Büyük bir tencerede 3 litre suyu tuzla kaynatın. Koldūnai'leri partiler halinde ekleyip nazikçe karıştırın ve 8-10 dakika, hamur yüzeye çıkana ve iç harç pişene kadar haşlayın.",
-   "Bu sırada geniş bir tavada füme domuz pastırmasını gevrek olana kadar kavurun. Tereyağı ve ince doğranmış soğanı ekleyip altın rengi olana kadar 6-8 dakika kavurun.",
-   "Koldūnai'leri süzgeçte süzün ve sıcak servis tabaklarına alın. Üzerine ekşi krema, kavrulmuş pastırma-soğan karışımı ve taze dereotu ekleyip hemen servis yapın."
+   "Bu sırada geniş bir tavada füme domuz bacon'ını gevrek olana kadar kavurun. Tereyağı ve ince doğranmış soğanı ekleyip altın rengi olana kadar 6-8 dakika kavurun.",
+   "Koldūnai'leri süzgeçte süzün ve sıcak servis tabaklarına alın. Üzerine ekşi krema, kavrulmuş bacon-soğan karışımı ve taze dereotu ekleyip hemen servis yapın."
   ],
   "en": [
    "For the dough, mix the flour, 1/2 tsp salt, egg and lukewarm water in a large bowl. Knead for 5-8 minutes until smooth and elastic, cover with cling film and rest for 30 minutes.",
@@ -73,5 +73,13 @@
   "tr": "Kenarları iyice kapatın; aksi halde pişirme sırasında iç harç suya çıkar. Fazla koldūnai'yi çiğ halde tepsiye dizip dondurun ve gerektiğinde doğrudan haşlayın.",
   "en": "Seal the edges well, or the filling may leak during boiling. Freeze extra uncooked koldūnai in a single layer on a tray, then boil them straight from frozen."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'pastırma' for air-dried cured beef, not smoked pork bacon. The Turkish ingredient and steps should say 'bacon' to match the English 'smoked bacon'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

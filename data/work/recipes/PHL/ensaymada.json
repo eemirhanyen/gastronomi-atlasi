@@ -16,11 +16,11 @@
    "250 g ekmek unu",
    "7 g instant maya (1 paket)",
    "40 g toz şeker (hamur için)",
-   "2 g tuz (yaklaşık yarım çay kaşığı)",
+   "2 g tuz (yaklaşık üçte bir çay kaşığı)",
    "100 ml ılık tam yağlı süt (yaklaşık 40 °C)",
    "1 büyük yumurta (yaklaşık 50 g), oda sıcaklığında",
-   "35 g oda sıcaklığında yumuşamış tereyağı (hamur için)",
-   "40 g oda sıcaklığında yumuşamış tereyağı (üstü için)",
+   "35 g oda sıcaklığında yumuşamış tuzsuz tereyağı (hamur için)",
+   "40 g oda sıcaklığında yumuşamış tuzsuz tereyağı (üstü için)",
    "50 g toz şeker (üstü için)",
    "60 g rendelenmiş cheddar peyniri (ya da queso de bola)"
   ],
@@ -28,7 +28,7 @@
    "250 g bread flour",
    "7 g instant yeast (1 packet)",
    "40 g sugar (for the dough)",
-   "2 g salt (about half a teaspoon)",
+   "2 g salt (about one-third of a teaspoon)",
    "100 ml warm whole milk (about 40 °C)",
    "1 large egg (about 50 g), at room temperature",
    "35 g unsalted butter, softened (for the dough)",
@@ -43,7 +43,7 @@
    "Ilık sütü ve çırpılmış yumurtayı ekleyip pürüzsüz bir hamur oluşana kadar yaklaşık 8 dakika yoğurun.",
    "35 g yumuşamış tereyağını parça parça ekleyin ve hamur elastik, parlak ve elde yapışmayana kadar yaklaşık 10 dakika daha yoğurun.",
    "Hamuru hafifçe yağlanmış bir kaseye alın, üzerini örtün ve sıcak bir yerde 1 saat, iki katına çıkana kadar mayalanmaya bırakın.",
-   "Hamuru hafifçe bastırıp havasını alın, 8 eşit parçaya bölün (her biri yaklaşık 50 g). Her parçayı yaklaşık 20 cm uzunluğunda bir çubuk haline getirin.",
+   "Hamuru hafifçe bastırıp havasını alın, 8 eşit parçaya bölün (her biri yaklaşık 60 g). Her parçayı yaklaşık 20 cm uzunluğunda bir çubuk haline getirin.",
    "Çubukları sıkıca bir salyangoz gibi sarın ve kağıt kalıplara ya da yağlanmış muffin kalıplarına yerleştirin. Üzerlerini örtüp 30–40 dakika, hacimleri belirgin şekilde artana kadar ikinci kez mayalanmaya bırakın.",
    "Fırınınızı 180 °C'ye ısıtın. Çörekların üzerine 40 g yumuşamış tereyağının yarısını sürün, 50 g şekerin yarısını ve rendelenmiş peynirin yarısını serpin.",
    "Önceden ısıtılmış fırında 12–15 dakika, üstleri altın sarısı olana kadar pişirin.",
@@ -54,7 +54,7 @@
    "Add the warm milk and beaten egg and knead for about 8 minutes until you have a smooth dough.",
    "Add the 35 g softened butter bit by bit and knead for another 10 minutes, until the dough is elastic, glossy and no longer sticky.",
    "Place the dough in a lightly oiled bowl, cover, and leave in a warm place for about 1 hour, until doubled in size.",
-   "Gently press the dough to release the air and divide it into 8 equal pieces (about 50 g each). Roll each piece into a rope about 20 cm long.",
+   "Gently press the dough to release the air and divide it into 8 equal pieces (about 60 g each). Roll each piece into a rope about 20 cm long.",
    "Coil each rope tightly into a spiral and place in paper cases or greased muffin tins. Cover and proof for 30–40 minutes, until visibly puffy.",
    "Preheat the oven to 180 °C. Spread half of the 40 g softened butter over the buns, then sprinkle with half of the 50 g sugar and half of the grated cheese.",
    "Bake for 12–15 minutes, until the tops are golden brown.",
@@ -65,5 +65,15 @@
   "tr": "Hamurun iyi yoğrulup yoğrulmadığını anlamak için küçük bir parçayı gererek test edin; ince bir zar oluşuyorsa yeterince gelişmiş demektir.",
   "en": "To check the dough is ready, stretch a small piece thinly; if it forms a translucent sheet without tearing, the gluten is developed enough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight is about 484 g (250 + 100 + 50 + 40 + 35 + 7 + 2), so 8 pieces would be about 60 g each, not 50 g.",
+   "2 g of salt is about one-third of a teaspoon, not half a teaspoon.",
+   "English specifies unsalted butter, but the Turkish ingredient list does not."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

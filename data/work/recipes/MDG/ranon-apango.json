@@ -34,7 +34,7 @@
    "Kapağı açın, ateşi düşük yapın ve pirincin tabanında altın sarısı, sert bir kabuk oluşana kadar yaklaşık 10-15 dakika bekleyin. Yanmasını önlemek için kontrol edin.",
    "Tencerenin içine 1 litre sıcak suyu dikkatlice dökün; kabuklar suda ayrılsın diye tahta kaşıkla tabanı kazıyın.",
    "Karışımı orta-yüksek ateşte 10 dakika kaynatın.",
-   "Sıvıyı ince süzgeçten geçirerek pirinç tanelerini ve kabuk parçalarını ayırın; kabuk parçalarını suda bırakın ve sıvıyı berrak ve açık kahverengi olana dek tekrar süzün.",
+   "Sıvıyı ince süzgeçten geçirerek pirinç tanelerini ve kabuk parçalarını ayırın, ardından sıvı berrak ve açık kahverengi olana dek tekrar süzün.",
    "Şekeri ve tuzu ekleyin, karıştırarak eriyene kadar ılıtın.",
    "Sıcak servis edebilir ya da soğutup buzlu olarak sunabilirsiniz."
   ],
@@ -53,5 +53,13 @@
   "tr": "Kabuğun koyu kahverengiye dönüp acılaşmaması için pirinci sürekli kontrol edin; hafif kavrulmuş bir kabuk daha yumuşak ve dengeli bir tat verir.",
   "en": "Watch the rice crust closely: golden brown gives a smooth, balanced flavour, while dark brown tastes bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the crust pieces are separated and then left in the water, but the English step says they are removed by straining. The two versions give different instructions for the crust."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

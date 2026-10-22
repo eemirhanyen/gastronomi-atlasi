@@ -18,7 +18,7 @@
    "120 g toz şeker",
    "150 ml hindistancevizi sütü",
    "1 tatlı kaşığı öğütülmüş zencefil",
-   "1/2 tatlı kaşığı öğütülmüş hindistan cevizi (muskat)",
+   "1/2 tatlı kaşığı öğütülmüş muskat",
    "1 tatlı kaşığı tuz",
    "1 tatlı kaşığı kabartma tozu",
    "2 yemek kaşığı bitkisel yağ (kalıbı yağlamak için)"
@@ -59,5 +59,13 @@
   "tr": "Manyoku ne kadar iyi sıkarsanız ekmek o kadar iyi kabarır ve ıslak bir iç kısmı olmaz.",
   "en": "The drier you squeeze the grated cassava, the better the crumb; wet cassava leads to a gummy centre."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line uses 'öğütülmüş hindistan cevizi (muskat)'. In Turkish 'hindistancevizi' means coconut, so this reads as ground coconut, not nutmeg. It should say 'öğütülmüş muskat'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

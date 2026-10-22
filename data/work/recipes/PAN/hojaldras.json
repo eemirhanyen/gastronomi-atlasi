@@ -20,6 +20,7 @@
    "40 g soğuk tereyağı, küp doğranmış",
    "1 büyük yumurta",
    "150 ml süt",
+   "Gerekirse birkaç damla su",
    "500 ml kızartma yağı (ayçiçek veya mısırözü)"
   ],
   "en": [
@@ -30,6 +31,7 @@
    "40 g cold butter, cut into cubes",
    "1 large egg",
    "150 ml milk",
+   "A few drops of water, if needed",
    "500 ml frying oil (sunflower or corn)"
   ]
  },
@@ -41,7 +43,7 @@
    "Hamuru örtüp oda sıcaklığında 20 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün ve her birini unlu tezgâhta yaklaşık 3-4 mm kalınlığında, yuvarlak veya oval olacak şekilde açın.",
    "Kızartma yağını geniş bir tencerede 170-180°C'ye ısıtın.",
-   "Hamur parçalarını birer birer yağa koyun. Yüzeyi kabarıp altın sarısı renk alana kadar yaklaşık 1-2 dakika kızartın, sonra çevirip diğer tarafını da kızartın.",
+   "Hamur parçalarını birer birer yağa koyun. Yüzeyi kabarıp altın sarısı renk alana kadar her iki tarafını ayrı ayrı yaklaşık 1-2 dakika kızartın.",
    "Kızarmış hamurları kağıt havlu serili bir tabağa alıp fazla yağlarını süzün.",
    "Sıcak sıcak, kahve veya sütle servis yapın."
   ],
@@ -52,7 +54,7 @@
    "Cover the dough and rest it at room temperature for 20 minutes.",
    "Divide the dough into 8 equal pieces and roll each on a floured surface into a round or oval about 3-4 mm thick.",
    "Heat the frying oil in a wide pan to 170-180°C.",
-   "Slide the dough pieces into the oil one at a time. Fry for about 1-2 minutes until they puff and turn golden, then flip and fry the other side.",
+   "Slide the dough pieces into the oil one at a time. Fry each side for about 1-2 minutes, until they puff and turn golden.",
    "Transfer the hojaldras to a plate lined with kitchen paper to drain excess oil.",
    "Serve warm with coffee or milk."
   ]
@@ -61,5 +63,14 @@
   "tr": "Hamuru fazla yoğurmayın ve yağın sıcaklığını sabit tutun; yağ çok sıcak olursa dış kısım hemen koyulaşır, içi çiğ kalır.",
   "en": "Do not overwork the dough and keep the oil steady at temperature; if it is too hot the outside browns quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 says to add a few drops of water if needed, but water is not in the ingredient lists (tr and en).",
+   "Frying step is ambiguous: '1-2 minutes' could be read as total time rather than per side. Clarified as per side in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

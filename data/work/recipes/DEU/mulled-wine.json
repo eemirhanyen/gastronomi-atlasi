@@ -41,7 +41,7 @@
   "tr": [
    "Büyük bir tencereye kırmızı şarabı, toz şekeri, portakal dilimlerini, tarçını, karanfili, yıldız anasonu, kakuleyi ve zencefil dilimlerini ekleyin.",
    "Karışımı orta-düşük ateşte, yavaşça 70-75 °C'ye kadar ısıtın ve şekerin tamamen eridiğinden emin olun.",
-   "Şarabın kaynamasına izin vermeyin; kaynama alkolü uçurur ve tadı acılaştırır. Sıcaklığı 75-80 °C'nin altında tutarak yaklaşık 10 dakika demlenmesini sağlayın.",
+   "Şarabın kaynamasına izin vermeyin; kaynama alkolü uçurur ve tadı acılaştırır. Sıcaklığı 70-80 °C arasında tutarak yaklaşık 10 dakika demlenmesini sağlayın.",
    "Portakal suyunu ve isteğe bağlı romu ekleyin, ardından 2-3 dakika daha çok sıcak tutun.",
    "Ocağı kapatın, karışımı süzgeçten geçirerek baharat ve meyve parçalarını ayırın.",
    "Sıcak sıcak, ısıya dayanıklı bardaklarda servis edin; isterseniz her bardağa bir portakal dilimi ekleyin."
@@ -59,5 +59,13 @@
   "tr": "Şarabı asla kaynatmayın; düşük ısıda demlemek hem alkolü korur hem de baharatların aromasını yumuşak ve dengeli çıkarır.",
   "en": "Never let the wine boil; gentle infusion at low heat keeps the alcohol and gives a smooth, balanced spice flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says to keep the temperature 'below 75-80 °C' (75-80 °C'nin altında), but the English step says 'between 70-80 °C'. The ranges disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

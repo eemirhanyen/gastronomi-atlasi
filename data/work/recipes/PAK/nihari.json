@@ -14,6 +14,7 @@
  "ingredients": {
   "tr": [
    "1 kg kemikli dana incik, 6 parça halinde",
+   "2 L su (haşlama için)",
    "80 g sadeyağ (ghee)",
    "300 g iri doğranmış soğan, ince dilimlenmiş",
    "40 g taze zencefil rendesi",
@@ -23,7 +24,7 @@
    "3 g zerdeçal",
    "4 g karabiber",
    "15 g buğday unu",
-   "2 adet karakiş",
+   "2 adet karakakule",
    "4 adet yeşil kakule",
    "4 adet karanfil",
    "1 adet 5 cm tarçın çubuğu",
@@ -39,6 +40,7 @@
   ],
   "en": [
    "1 kg bone-in beef shank, cut into 6 pieces",
+   "2 L water (for blanching)",
    "80 g ghee",
    "300 g onions, finely sliced",
    "40 g fresh ginger, grated",
@@ -68,9 +70,9 @@
    "Dana inciklerini büyük bir tencereye alın, 2 L su ile kaplayın ve kaynatın. Yüzeydeki köpüğü alın, ardından etleri süzüp ılık suyla yıkayın.",
    "Başka bir geniş tencerede sadeyağı orta-yüksek ateşte ısıtın. Soğanları altın rengi alana ve kenarları kahverengileşene kadar yaklaşık 20 dakika kavurun.",
    "Ateşi biraz kısın, zencefil ve sarımsak rendelerini ekleyip 3 dakika daha kavurun.",
-   "Kişniş tozu, kırmızı biber, zerdeçal, karabiber, öğütülmüş hindistancevizi, karakiş, kakule, karanfil, tarçın ve defne yapraklarını ekleyin. Baharatlar yağda kokusu çıkana kadar 1 dakika kavurun.",
+   "Kişniş tozu, kırmızı biber, zerdeçal, karabiber, öğütülmüş hindistancevizi, karakakule, kakule, karanfil, tarçın ve defne yapraklarını ekleyin. Baharatlar yağda kokusu çıkana kadar 1 dakika kavurun.",
    "Haşlanmış inciklerin ve 1,5 L suyun yarısını ekleyin. Tuzu ilave edip kaynatın, ardından ateşi en düşük seviyeye alın ve kapağını kapatarak yaklaşık 4 saat, et kemikten kolayca ayrılana kadar pişirin.",
-   "Buğday ununu az miktarda soğuk suyla pürüzsüz bir karışım haline getirin ve son 1 saatte kalan suyla birlikte tencereye yavaşça ekleyerek sürekli karıştırın. Sosu koyulaştırmak için 20 dakika daha kısık ateşte pişirin.",
+   "Buğday ununu az miktarda soğuk suyla pürüzsüz bir karışım haline getirin ve son 1 saatte kalan suyla birlikte tencereye yavaşça ekleyerek sürekli karıştırın. Kapağı açık tutarak sosu koyulaştırmak için 20 dakika daha kısık ateşte pişirin.",
    "Yağın sosun üzerinde parlak bir tabaka oluşturduğunu kontrol edin, gerekirse tadına göre tuz ayarlayın.",
    "Servis etmeden önce zencefil julyen, yeşil biber ve kişnişi serpin. Limon dilimleri ve sıcak naan ile birlikte servis yapın."
   ],
@@ -89,5 +91,15 @@
   "tr": "Nihariyi gerçek lezetine ulaştırmak için kapağı açmadan yavaş pişirin; ertesi gün ısıtıldığında tat daha da derinleşir.",
   "en": "Cook it low and slow with the lid on; nihari tastes even better the next day after reheating, once the flavours have deepened."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 uses 2 L of water to blanch the shanks, but the ingredient lists only include 1.5 L water. The 2 L is missing from both languages.",
+   "Turkish 'karakiş' is not the standard term for black cardamom; 'karakakule' is the correct name, matching the English 'black cardamom'.",
+   "The English step 6 says to simmer uncovered, but the Turkish version does not state this, so the two versions disagree on the lid."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

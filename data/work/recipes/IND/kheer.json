@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Sütün tabanın yanmaması için kalın tabanlı bir tencere kullanın ve pirinç pişerken sık sık karıştırın.",
+  "tr": "Sütün tabanının yanmaması için kalın tabanlı bir tencere kullanın ve pirinç pişerken sık sık karıştırın.",
   "en": "Use a heavy-bottomed pan and stir often while the rice cooks, so the milk does not scorch on the base."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip has a grammar error: \"Sütün tabanın yanmaması\" needs the possessive suffix \"tabanının\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

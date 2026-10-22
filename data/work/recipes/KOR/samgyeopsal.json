@@ -23,9 +23,9 @@
    "1 küçük baş marul (yaklaşık 250 g), yapraklarına ayrılmış",
    "12 adet perilla (egerek) yaprağı, isteğe bağlı",
    "4 yemek kaşığı ssamjang (acı-tatlı soya ezmesi)",
-   "200 g mevsim kimchisi (kimçi), kesilmiş",
+   "200 g olgunlaşmış kimçi, kesilmiş",
    "2 dal yeşil soğan, ince doğranmış",
-   "400 g pişmiş haşlanmış pirinç"
+   "400 g pişmiş pirinç"
   ],
   "en": [
    "800 g pork belly, sliced 1 cm thick",
@@ -69,5 +69,14 @@
   "tr": "Ete yağ eklemeyin; domuz göbeğinin kendi yağı tavada eriyerek et gevrek olsun. Tavayı arada kağıt havluyla silmek yağlı duman ve aşırı yanmayı önler.",
   "en": "Do not add any oil; the pork's own fat renders out and makes the slices crisp. Wiping the pan with kitchen paper now and then prevents smoke and burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'mevsim kimchisi' is not a standard term and does not match the English 'kimchi'; it should be 'olgunlaşmış kimçi' or simply 'kimçi'.",
+   "Turkish rice entry 'pişmiş haşlanmış pirinç' is redundant; 'pişmiş pirinç' is the natural term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

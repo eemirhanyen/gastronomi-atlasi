@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Konserve balığı tavaya eklemeden önce fazla sıvasını süzmeyin; domates soslu sos pilavla birlikte yenince en lezzetli halini alır.",
+  "tr": "Konserve balığı tavaya eklemeden önce sıvısını süzmeyin; domates soslu sos pilavla birlikte yenince en lezzetli halini alır.",
   "en": "Do not drain the tinned fish before adding it; the tomato sauce is what flavours the rice, so keep it all in the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses 'sıvasını' (plaster/render) where 'sıvısını' (its liquid) is meant, which makes the sentence wrong."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

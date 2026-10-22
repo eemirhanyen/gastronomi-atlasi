@@ -19,7 +19,8 @@
    "2 adet yeşil biber",
    "150 g rendelenmiş taze hindistan cevizi",
    "1 yemek kaşığı limon suyu",
-   "1/2 çay kaşığı tuz"
+   "1/2 çay kaşığı tuz",
+   "Servis için roşi veya ekmek"
   ],
   "en": [
    "400 g fresh tuna fillet",
@@ -28,7 +29,8 @@
    "2 green chillies",
    "150 g freshly grated coconut",
    "1 tablespoon lime juice",
-   "1/2 teaspoon salt"
+   "1/2 teaspoon salt",
+   "Roshi or bread, to serve"
   ]
  },
  "steps": {
@@ -36,7 +38,7 @@
    "Ton balığı filetosunu derin bir tencereye koyun, üzerine 500 ml su ekleyin ve orta ateşte kaynatın.",
    "Ateşi kısın ve balık tamamen pişip ufalanabilecek hale gelene kadar yaklaşık 10 dakika haşlayın.",
    "Balığı süzün, biraz soğutun ve kılçıklarını ve derisini ayıklayarak çatalla ince ince ufalayın.",
-   "Kuru soğanı çok ince doğrayın. Yeşil bibere de çekirdeklerini çıkarmadan önce ince kıyım yapın, isterseniz çekirdeklerini ayıklayarak daha yumuşak bir tat elde edebilirsiniz.",
+   "Kuru soğanı ve yeşil biberleri ince ince doğrayın. Daha yumuşak bir tat isterseniz biberlerin çekirdeklerini ayıklayın.",
    "Ufalanmış balığı geniş bir kasede soğan ve biberle birlikte karıştırın.",
    "Rendelenmiş hindistan cevizini, limon suyunu ve tuzu ekleyin. Eşit dağılana kadar elinizle veya bir çatalla iyice karıştırın.",
    "Tadına bakıp gerekirse tuz veya limon suyu ile ayarlayın.",
@@ -57,5 +59,14 @@
   "tr": "Hindistan cevizi ne kadar taze olursa mas huni o kadar aromatik olur; kuru hindistan cevizi kullanıyorsanız önce ılık suda birkaç dakika bekletip süzün.",
   "en": "The fresher the coconut, the more fragrant the mas huni; if using dried coconut, soak it in warm water for a few minutes and drain before mixing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Roşi (or bread) is used in the serving step but is not listed in the ingredients in either language.",
+   "Turkish step 4 is unnatural and awkwardly ordered: 'çekirdeklerini çıkarmadan önce ince kıyım yapın' reads poorly, and the seed-removal option is phrased confusingly."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

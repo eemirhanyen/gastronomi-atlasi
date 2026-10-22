@@ -36,10 +36,10 @@
  "steps": {
   "tr": [
    "Balkabağı küplerini bir tencerede, üzerini kapatacak kadar suyla orta ateşte 12-15 dakika, çatal girecek kadar yumuşayana dek haşlayın.",
-   "Balkabağını süzün ve bir kapta çatal yardımıyla iyice ezin. Pürüzsüz olması için birkaç dakika soğumaya bırakın.",
+   "Balkabağını süzün ve bir kapta çatal yardımıyla iyice ezin. Kolay işlenmesi için birkaç dakika soğumaya bırakın.",
    "Ezilmiş balkabağının içine yumurtayı ekleyip karıştırın, ardından sütü ilave edin.",
    "Ayrı bir kapta unu, kabartma tozunu, şekeri ve tuzu karıştırın. Kuru karışımı balkabağı karışımına yavaş yavaş ekleyin ve dökülebilen kıvamda, yoğun bir hamur elde edene kadar karıştırın.",
-   "Kızartma yağını geniş bir tavada 170°C'ye kadar ısıtın. Yağı ölçmek için bir tahta kaşık sokup etrafında kabarcık oluşmasını bekleyebilirsiniz.",
+   "Kızartma yağını geniş bir tavada 170°C'ye kadar ısıtın. Termometreniz yoksa yağa küçük bir parça hamur atın; sürekli cızırdayarak yüzeye çıkmalıdır.",
    "Bir yemek kaşığıyla hamurdan alıp kızgın yağa bırakın. Tavada birkaç mücveri birbirinden ayrı olacak şekilde kızartın.",
    "Her bir tarafı 3-4 dakika, altın rengi alana kadar kızartın, sonra kağıt havlu serili bir tabağa alıp yağını süzdürün.",
    "Sıcak sıcak servis edin."
@@ -56,8 +56,18 @@
   ]
  },
  "tip": {
-  "tr": "Balkabağını iyice süzüp ezin; fazla su hamuru gevşetir ve fritözde dağılmasına neden olur.",
+  "tr": "Balkabağını iyice süzüp ezin; fazla su hamuru gevşetir ve tavada kızartırken mücverilerin dağılmasına neden olur.",
   "en": "Drain and mash the pumpkin very thoroughly, since excess moisture will loosen the batter and make the fritters fall apart in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil temperature test differs between versions: Turkish step 5 uses a wooden spoon, English uses a drop of batter.",
+   "Turkish tip says 'fritöz' (deep fryer), but the recipe fries in a wide pan.",
+   "Turkish step 2 gives a different reason for cooling the pumpkin ('pürüzsüz olması için') than the English ('easier to handle')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

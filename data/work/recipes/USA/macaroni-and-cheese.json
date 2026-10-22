@@ -47,7 +47,7 @@
   "tr": [
    "Fırını 190°C'ye ısıtın. 20 x 20 cm'lik bir fırın kabını hafifçe yağlayın.",
    "Büyük bir tencerede 3 litre suyu kaynatın, 1 yemek kaşığı tuz ekleyin ve makarnayı paket süresinden 2 dakika kısa haşlayın. Süzün ve bir kenara alın.",
-   "Orta boy bir tencerede 40 g tereyağını orta ateşte eritin. Unu ekleyip sürekli karıştırarak 1 dakika pişirin; kokusu çıkmamalı, renk almamalı.",
+   "Orta boy bir tencerede 40 g tereyağını orta ateşte eritin. Unu ekleyip sürekli karıştırarak 1 dakika pişirin; fındık gibi hafif bir koku almalı ama renk almamalı.",
    "Ilık sütü azar azar ilave ederek sürekli çırpın. Karışım pürüzsüzleşince ara ateşte 5 dakika, kıvam alana kadar kaynatmadan pişirin.",
    "Ocağı kapatın. Kuru hardal, acı biber, bir tutam tuz ve karabiberi ekleyin.",
    "Çedar peynirini avuç avuç ekleyip her seferinde eriyene kadar karıştırın. Son olarak parmesanı ilave edip sosu pürüzsüz hale getirin.",
@@ -75,5 +75,13 @@
   "tr": "Peyniri pakette hazır rendelenmiş olarak değil, bloktan kendiniz rendeleyin; hazır peynirdeki kalıplaşmayı önleyici maddeler sosun pürüzsüzlüğünü bozar.",
   "en": "Grate the cheese yourself from a block. Pre-shredded cheese contains anti-caking agents that can make the sauce grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says the roux 'kokusu çıkmamalı' (should not smell), but the English says it should smell nutty without coloring. The Turkish should say it smells nutty but does not brown."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

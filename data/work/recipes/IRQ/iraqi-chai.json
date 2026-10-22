@@ -5,7 +5,7 @@
  },
  "native": "چای",
  "desc": {
-  "tr": "Kardeş ve cardamom aromalı, şekerli koyu siyah çay; Irak'ta evlerde, çarşılarda ve misafir ağırlamada günün her saatinde küçük bardaklarda içilir.",
+  "tr": "Kakule aromalı ve şekerli koyu siyah çay; Irak'ta evlerde, çarşılarda ve misafir ağırlamada günün her saatinde küçük bardaklarda içilir.",
   "en": "A strong black tea scented with cardamom and sweetened, served in small glasses at home, in markets and to guests at any time of day across Iraq."
  },
  "servings": 4,
@@ -49,5 +49,13 @@
   "tr": "Çayı küçük bardaklarda, yüksekten dökerek servis edin; hem köpük oluşur hem de tat dengelenir.",
   "en": "Serve in small glasses, pouring from a height to create a light froth and even out the flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses \"Kardeş\" (meaning \"sibling\") where \"kakule\" (cardamom) is intended, so the description is wrong and contains an untranslated English word."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

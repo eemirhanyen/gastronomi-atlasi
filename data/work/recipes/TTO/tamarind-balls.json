@@ -9,7 +9,7 @@
   "en": "Tamarind balls are a sweet, sour and lightly spicy snack sold and shared across Trinidad and Tobago, especially at school gates, markets and festive gatherings. They balance the fruit's tartness with brown sugar and a touch of heat."
  },
  "servings": 4,
- "time_min": 45,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Macunu sıcakken yuvarlamaya çalışmayın; ellerinizi hafif nemlendirmek ve macunun iyice soğumasını beklemek topların yapışmasını önler.",
   "en": "Do not try to roll the paste while it is hot. Lightly dampening your hands and letting the mixture cool fully stops the balls from sticking and keeps their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 45, but the steps add up to well over an hour: 15 min soaking, 10-15 min cooking, about 20-30 min cooling, then 1 hour setting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

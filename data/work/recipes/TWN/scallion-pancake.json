@@ -44,8 +44,8 @@
    "Bir hamur parçasını unlu tezgahta yaklaşık 20 x 15 cm'lik ince bir dikdörtgen olacak şekilde açın. Üzerine yeşil soğanlı yağlı harcın dörtte birini serpin.",
    "Dikdörtgeni sıkıca kendi üzerine sarıp uzun bir silindir yapın. Silindiri bir salyangoz gibi spiral şeklinde sarın, uçlarını içe doğru bastırın ve yassılaştırın.",
    "Hazırladığınız topu tekrar 15 cm çapında ince bir daire olacak şekilde açın. Diğer üç parça için de aynı işlemleri tekrarlayın. Hamurları 10 dakika dinlendirin.",
-   "Geniş bir tavada 15 ml sıvı yağı orta-düşük ateşte ısıtın. Hamuru tavaya yerleştirip 3-4 dakika, altın rengi alana kadar pişirin.",
-   "Gözlemeyi ters çevirin, kenarlarından da 3-4 dakika daha kızartın. Kalan 60 ml kızartma yağını parçalar arasında kullanarak diğer gözlemeleri de aynı şekilde pişirin.",
+   "Geniş bir tavada 15 ml kızartma yağını orta-düşük ateşte ısıtın. Hamuru tavaya yerleştirip 3-4 dakika, altın rengi alana kadar pişirin.",
+   "Gözlemeyi ters çevirin, kenarlarından da 3-4 dakika daha kızartın. Kalan 45 ml kızartma yağını parçalar arasında kullanarak diğer gözlemeleri de aynı şekilde pişirin.",
    "Pişen gözlemeleri tahtaya alın, bıçakla dilimleyin ve sıcak servis yapın."
   ],
   "en": [
@@ -57,7 +57,7 @@
    "Roll the rectangle up tightly into a long log, then coil the log into a snail-like spiral. Tuck the end underneath and gently flatten.",
    "Roll the coil again into a flat circle about 15 cm across. Repeat with the other three pieces and rest them for 10 minutes.",
    "Heat 15 ml of the frying oil in a wide pan over medium-low heat. Place a pancake in the pan and cook for 3-4 minutes until golden underneath.",
-   "Flip the pancake and cook the other side for another 3-4 minutes. Use the remaining 60 ml frying oil in portions to cook the other pancakes the same way.",
+   "Flip the pancake and cook the other side for another 3-4 minutes. Use the remaining 45 ml of frying oil in portions to cook the other pancakes the same way.",
    "Transfer the cooked pancakes to a board, slice them with a knife and serve hot."
   ]
  },
@@ -65,5 +65,13 @@
   "tr": "Gözlemeleri pişirmeden önce kısa süre dinlendirmek, hamurun gevrek ve katmanlı çıkmasını sağlar; tavayı orta-düşük ateşte tutarak içinin pişmesine zaman tanıyın.",
   "en": "Resting the shaped pancakes before frying keeps the dough flaky; keep the heat medium-low so the centre cooks through before the outside burns."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying oil quantities don't add up: step 8 uses 15 ml of the 60 ml frying oil, but step 9 says to use the 'remaining 60 ml' for the other pancakes (should be 45 ml). The same error appears in the Turk"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

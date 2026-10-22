@@ -5,8 +5,8 @@
  },
  "native": "Будаатай хуурга",
  "desc": {
-  "tr": "Moğolistan'da et, patates ve sebzelerin tencerede birlikte pişirildiği, kışın ve büyük aile yemeklerinde sıkça sofraya gelen doyurucu bir yan yemektir.",
-  "en": "A hearty Mongolian stew-style dish of meat, potatoes and vegetables cooked together in one pot, often served in winter and at family gatherings across the country."
+  "tr": "Moğolistan'da et, pirinç ve soğanın birlikte kavrulup pişirildiği, doyurucu ve sık tüketilen geleneksel bir yemektir.",
+  "en": "A traditional Mongolian dish of meat, rice and onion fried and cooked together in one pot, a hearty everyday meal across the country."
  },
  "servings": 4,
  "time_min": 60,
@@ -14,23 +14,23 @@
  "ingredients": {
   "tr": [
    "400 g dana eti (omuz veya but), 3 cm küp doğranmış",
-   "500 g patates, soyulup 3 cm parçalara ayrılmış",
-   "2 havuç, yarım ay dilimlenmiş",
+   "250 g uzun taneli pirinç, yıkanmış",
+   "2 havuç, ince yarım ay dilimlenmiş",
    "1 soğan, ince dilimlenmiş",
    "2 diş sarımsak, ince doğranmış",
    "45 ml bitkisel yağ",
-   "300 ml su",
+   "500 ml su",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber"
   ],
   "en": [
    "400 g beef (shoulder or leg), cut into 3 cm cubes",
-   "500 g potatoes, peeled and cut into 3 cm chunks",
-   "2 carrots, sliced into half-moons",
+   "250 g long-grain rice, rinsed",
+   "2 carrots, thinly sliced into half-moons",
    "1 onion, thinly sliced",
    "2 garlic cloves, finely chopped",
    "45 ml vegetable oil",
-   "300 ml water",
+   "500 ml water",
    "1 tsp salt",
    "1/2 tsp black pepper"
   ]
@@ -41,27 +41,37 @@
    "Kalın tabanlı bir tencerede bitkisel yağı orta-yüksek ateşte ısıtın.",
    "Eti parti parti 8-10 dakika, her yüzü kahverengileşene kadar kavurun.",
    "Soğanı ekleyip yumuşayana ve hafif renk alana kadar yaklaşık 5 dakika pişirin.",
-   "Sarımsağı ekleyin ve 1 dakika daha karıştırarak kavurun.",
-   "Havuç ve patatesleri tencereye ekleyip 2 dakika birlikte karıştırın.",
+   "Sarımsak ve havucu ekleyip 2 dakika karıştırarak kavurun.",
+   "Yıkanmış pirinci tencereye ekleyip 1 dakika birlikte karıştırın.",
    "Suyu, kalan tuz ve karabiberi ekleyip karışımı kaynatın.",
-   "Tencerenin kapağını kapatın, ateşi kısın ve arada karıştırarak 30-35 dakika, et ve patatesler yumuşayana ve sos kıvamlanana kadar pişirin.",
-   "Tadına bakıp gerekirse tuzunu ayarlayın ve sıcak servis yapın."
+   "Tencerenin kapağını kapatın, ateşi en düşük seviyeye indirin ve yaklaşık 15-20 dakika, pirinç yumuşayıp su çekilene kadar pişirin.",
+   "Ocaktan alın, kapağı kapalı halde 5 dakika dinlendirin, tadına bakıp gerekirse tuzunu ayarlayın ve sıcak servis yapın."
   ],
   "en": [
    "Pat the beef cubes dry with paper towel and sprinkle with half the salt and half the black pepper.",
    "Heat the vegetable oil in a heavy-bottomed pot over medium-high heat.",
    "Brown the beef in batches for 8-10 minutes, turning until all sides are golden.",
    "Add the onion and cook for about 5 minutes until soft and lightly coloured.",
-   "Add the garlic and fry for 1 more minute, stirring.",
-   "Add the carrots and potatoes and stir together for 2 minutes.",
+   "Add the garlic and carrots and fry together for 2 minutes, stirring.",
+   "Add the rinsed rice to the pot and stir for 1 minute.",
    "Pour in the water with the remaining salt and pepper and bring to a boil.",
-   "Cover the pot, lower the heat and simmer for 30-35 minutes, stirring occasionally, until the meat and potatoes are tender and the liquid has thickened.",
-   "Taste, adjust the salt if needed, and serve hot."
+   "Cover the pot, lower the heat to the lowest setting and simmer for 15-20 minutes, until the rice is tender and the water has been absorbed.",
+   "Remove from the heat, leave covered to rest for 5 minutes, taste, adjust the salt if needed, and serve hot."
   ]
  },
  "tip": {
-  "tr": "Eti tencereye koymadan önce iyice kurulayın; kuru yüzey iyi bir kahverengi kabuk oluşturur ve yemeğe derin bir tat katar.",
-  "en": "Pat the meat fully dry before browning; a dry surface develops a deeper crust and gives the dish much richer flavour."
+  "tr": "Eti tencereye koymadan önce iyice kurulayın; kuru yüzey iyi bir kahverengi kabuk oluşturur ve yemeğe derin bir tat katar. Pirinci pişirmeden önce soğuk suda yıkamak tanelerin birbirine yapışmasını önler.",
+  "en": "Pat the meat fully dry before browning; a dry surface develops a deeper crust and gives the dish much richer flavour. Rinsing the rice in cold water before cooking keeps the grains from sticking together."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The name 'Budaatai khuurga' means 'khuurga with rice' (budaa = rice/grain in Mongolian), but the recipe contains no rice and uses potatoes instead. The dish is misidentified and its characteristic ing",
+   "The Turkish and English descriptions also describe a potato-meat stew, which does not match the traditional dish.",
+   "The steps for a potato stew do not produce a budaatai (rice) khuurga, so the technique is wrong for this dish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

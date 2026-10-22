@@ -9,7 +9,7 @@
   "en": "A classic bean soup found across Costa Rica, eaten daily, especially at lunch and breakfast, and usually served hot with rice and tortillas."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Fasulyeleri bir gece önceden ıslatmak pişme süresini kısaltır; tuzu fasulyeler yumuşamadan eklemeyin, aksi halde kabukları sert kalır.",
   "en": "Soaking the beans overnight shortens cooking time; add salt only after they are tender, since early salt keeps the skins firm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is shorter than the steps add up to: 50-60 min simmering beans + 8 min sautéing + 1 min garlic/cumin + 15 min simmering + 5 min after seasoning is about 80-90 min, excluding prep. Change"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

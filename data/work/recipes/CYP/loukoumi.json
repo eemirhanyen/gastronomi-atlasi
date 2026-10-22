@@ -43,7 +43,7 @@
    "Bir kasede 75 g mısır nişastasını 100 ml soğuk suyla pürüzsüz olana kadar çırpın ve kenara alın.",
    "Geniş bir tencerede 250 g toz şekeri, 250 ml suyu ve 5 ml limon suyunu orta ateşte kaynatın; şeker tamamen eriyene kadar karıştırın.",
    "Ateşi kısın, nişastalı karışımı ince bir akışla şuruba ekleyip sürekli karıştırın.",
-   "Ocakta, ara sıra tahta kaşıkla karıştırarak yaklaşık 40-45 dakika kısık ateşte pişirin; karışım koyulaşıp şeffaflaşmalı ve kaşıkla çizilen iz birkaç saniye kalmalıdır.",
+   "Ocakta, sürekli tahta kaşıkla karıştırarak yaklaşık 40-45 dakika kısık ateşte pişirin; karışım koyulaşıp şeffaflaşmalı ve kaşıkla çizilen iz birkaç saniye kalmalıdır.",
    "Ocaktan alıp gül suyunu ve varsa kırmızı gıda boyasını hızla karıştırın.",
    "Karışımı hazırladığınız kalıba dökün, spatulayla düzeltin ve oda sıcaklığında (yaklaşık 20 °C) üstü açık halde en az 3 saat ya da bir gece dinlendirin.",
    "Pudra şekerini 20 g mısır nişastasıyla karıştırıp bir tabağa yayın.",
@@ -55,7 +55,7 @@
    "In a bowl, whisk the 75 g cornflour with the 100 ml cold water until completely smooth, then set aside.",
    "In a wide saucepan, bring the 250 g granulated sugar, 250 ml water and 5 ml lemon juice to the boil over medium heat, stirring until the sugar fully dissolves.",
    "Lower the heat and slowly pour in the cornflour mixture in a thin stream, stirring constantly.",
-   "Cook gently over low heat for about 40-45 minutes, stirring often with a wooden spoon, until the mixture is thick and translucent and a line drawn through it with the spoon holds for a few seconds.",
+   "Cook gently over low heat for about 40-45 minutes, stirring constantly with a wooden spoon, until the mixture is thick and translucent and a line drawn through it with the spoon holds for a few seconds.",
    "Remove from the heat and quickly stir in the 5 ml rosewater and the food colouring, if using.",
    "Pour into the prepared tin, smooth the top with a spatula and leave uncovered at room temperature (about 20 °C) for at least 3 hours or overnight to set.",
    "Mix the 40 g icing sugar with the 20 g cornflour and spread the mixture on a plate.",
@@ -67,5 +67,13 @@
   "tr": "Karışım pişerken sürekli karıştırın; dibi tutarsa kıvam bozulur ve tat yanık olur. Kesmeden önce bıçağı her kesimde yağlayın ki parçalar yapışmasın.",
   "en": "Stir the mixture constantly while it cooks, as it catches easily on the base and turns bitter. Oil the knife before every cut so the pieces do not stick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Stirring instruction conflicts with the tip: step 5 says to stir 'occasionally' (Turkish 'ara sıra', English 'often'), but the tip says to stir constantly. For a starch-thickened mixture that can catc"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -36,7 +36,7 @@
    "Derin bir kabın üzerine iki kat tülbent veya bez yerleştirin ve süzgeci üzerine yerleştirin.",
    "Yoğurdu bir kapta tuzla iyice karıştırın.",
    "Yoğurdu bezin içine dökün, bezin kenarlarını bağlayıp kapatın ve kabın üzerine ağırlık koyarak bir gece (10-12 saat) 4°C'de buzdolabında süzülmeye bırakın.",
-   "Süzülme bitince kıvamını kontrol edin; yoğurt koyulaşmış, kaşığa tutunur ve yayılabilir olmalıdır. Kabın altındaki peyniri altı bozulmayacak şekilde tabağa alın.",
+   "Süzülme bitince kıvamını kontrol edin; yoğurt koyulaşmış, kaşığa tutunur ve yayılabilir olmalıdır. Kabın altında biriken sarımsı suyu (peynir altı suyu) atın veya başka kullanım için saklayın.",
    "Labneyi bir tabağa yayın ya da küçük toplar halinde şekillendirin.",
    "Ortasını hafifçe çukurlaştırıp zeytinyağını gezdirin.",
    "Üzerine zahter, sumak ve kuru naneyi serpin.",
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Kıvamı ve tuzluluğu ayarlamak için yoğurdun tam yağlı ve katkısız olmasına dikkat edin; süzülen peynirin suyunu hamur veya çorbalarda kullanabilirsiniz.",
+  "tr": "Kıvamı ve tuzluluğu ayarlamak için yoğurdun tam yağlı ve katkısız olmasına dikkat edin; süzülen suyu (peynir altı suyu) hamur veya çorbalarda kullanabilirsiniz.",
   "en": "Use full-fat yogurt without thickeners for the best texture; the drained whey can be used in doughs or soups."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says to move the 'peynir' (cheese) from the bowl bottom, but the liquid collecting there is whey. The English version correctly says to discard the whey or save it.",
+   "Turkish tip refers to 'peynirin suyu' (the cheese's water), which is unclear. The correct term is süzülen su / peynir altı suyu."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "One of Iceland's most popular soft drinks, this mix combines malt soda and orange soda in equal parts. It is served at Christmas and other holiday tables and is also enjoyed throughout the year."
  },
  "servings": 4,
- "time_min": 5,
+ "time_min": 125,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -27,7 +27,7 @@
  },
  "steps": {
   "tr": [
-   "Malt içeceği ile portakal gazozunu kullanmadan en az 2 saat önce buzdolabında soğutun.",
+   "Malt içeceği ile portakal gazozunu servis yapmadan en az 2 saat önce buzdolabında soğutun.",
    "Buz küplerini dört bardağa eşit olarak paylaştırın, yaklaşık 50 g her bardağa düşecek şekilde.",
    "Her bardağa 125 ml malt içeceğini yavaşça dökün.",
    "Aynı bardaklara 125 ml portakal gazozunu ekleyin; köpüğün taşmaması için gazozu bardağın kenarından dökün.",
@@ -45,5 +45,14 @@
   "tr": "Malt içeceği bulunmazsa, 40 g malt ekstraktını 500 ml soğuk maden suyunda eritip kullanabilirsiniz; karışım yerel tada yakın olur.",
   "en": "If malt beverage is unavailable, dissolve 40 g malt extract in 500 ml cold sparkling water to get a flavour close to the original."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 is unnatural: 'kullanmadan en az 2 saat önce' should read 'servis yapmadan en az 2 saat önce' (the English says 'before serving').",
+   "time_min is 5, but the recipe requires at least 2 hours of chilling, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

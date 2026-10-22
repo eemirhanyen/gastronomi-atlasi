@@ -5,11 +5,11 @@
  },
  "native": "Sajta de pollo",
  "desc": {
-  "tr": "Bolivya'nın La Paz ve Cochabamba bölgelerinde öğle yemeklerinde sık yenen, kurutulmuş aji biberli acı-baharatlı bir tavuk yemeğidir. Genellikle pilav, patates ve taze salsa ile servis edilir.",
-  "en": "A spicy chicken dish from the La Paz and Cochabamba regions of Bolivia, often served at lunch. The chicken is simmered in a sauce of dried chilies, onion, garlic and tomato, and is usually served with rice, potatoes and fresh salsa."
+  "tr": "Bolivya'nın La Paz ve Cochabamba bölgelerinde öğle yemeklerinde sık yenen, kurutulmuş aji biberli acı-baharatlı bir tavuk yemeğidir. Genellikle pilav ve patates ile servis edilir.",
+  "en": "A spicy chicken dish from the La Paz and Cochabamba regions of Bolivia, often served at lunch. The chicken is simmered in a sauce of dried chilies, onion, garlic and tomato, and is usually served with rice and potatoes."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -62,8 +62,8 @@
    "Tavuğu tencereye geri koyun, tavuk suyunu ekleyip kaynatın. Kapağını kapatın ve kısık ateşte 25 dakika pişirin.",
    "Patatesleri soyup ikiye kesin, tencereye ekleyin ve kapağı kapalı olarak patatesler yumuşayana ve tavuk tamamen pişene kadar 15-20 dakika daha pişirin. Tavuğun iç sıcaklığı 74 °C'ye ulaşmalıdır.",
    "Pirinci soğuk suda yıkayın, 400 ml su ve 1/2 tatlı kaşığı tuzla birlikte bir tencerede kaynatın. Kapağını kapatıp kısık ateşte 12-15 dakika pişirin, ardından 5 dakika dinlendirin.",
-   "Sosun tuzunu kontrol edin, gerekirse tamamlayın. Tavuğu, patatesleri ve sosu pilavla birlikte servis edin, üzerine doğranmış maydanozu serpin.",
-   "Hazırlanmış tavuk suyu ile sosun kıvamını gerektiğinde su ekleyerek ayarlayın."
+   "Gerekirse sosun kıvamını sıcak su ekleyerek ayarlayın. Sosun tuzunu kontrol edin, gerekirse tamamlayın.",
+   "Tavuğu, patatesleri ve sosu pilavla birlikte servis edin, üzerine doğranmış maydanozu serpin."
   ],
   "en": [
    "Soak the chilies in the hot water for 15 minutes, then drain them. Reserve 100 ml of the soaking water.",
@@ -75,13 +75,24 @@
    "Return the chicken to the pot, add the chicken stock and bring to a simmer. Cover and cook on low heat for 25 minutes.",
    "Peel the potatoes and cut them in half, add them to the pot, and cook covered for another 15-20 minutes until the potatoes are tender and the chicken is fully cooked. The chicken should reach an internal temperature of 74 °C.",
    "Rinse the rice in cold water and boil it in a pot with 400 ml water and 1/2 tsp salt. Cover and simmer on low heat for 12-15 minutes, then rest for 5 minutes.",
-   "Check the sauce and adjust the salt if needed. Serve the chicken, potatoes and sauce with the rice, and sprinkle with the chopped parsley.",
-   "If the sauce is too thick, loosen it with a little extra water before serving."
+   "If the sauce is too thick, loosen it with a little hot water. Check the sauce and adjust the salt if needed.",
+   "Serve the chicken, potatoes and sauce with the rice, and sprinkle with the chopped parsley."
   ]
  },
  "tip": {
   "tr": "Biberleri ıslatırken suyu atmayın; sosun rengini ve aromasını korumak için sosa ekleyin.",
   "en": "Keep the chili soaking water and add it to the sauce; it carries much of the chili's colour and flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Description (TR and EN) says the dish is served with fresh salsa, but no salsa is listed in the ingredients or made in the steps.",
+   "Total time of 60 min is too short. Soaking (15 min), browning, sauce, 25 min simmer, 15-20 min potatoes and rice (about 20 min) add up to roughly 100 min.",
+   "The sauce-adjustment step is placed after the serving step in both languages, so it reads out of order.",
+   "Turkish adjustment step says to thin the sauce with 'tavuk suyu' (chicken stock), but the English says 'a little extra water'. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

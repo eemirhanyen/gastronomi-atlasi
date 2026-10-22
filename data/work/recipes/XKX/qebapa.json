@@ -5,7 +5,7 @@
  },
  "native": "Qebapa",
  "desc": {
-  "tr": "Kosova'nın başkent Priştine başta olmak üzere her yerde sokak lezzeti olarak yenen, baharatlı kıymadan şekil verilip ızgarada pişirilen parmak şeklinde köfteler. Genellikle lepinja ekmeği, kajmak, rendelenmiş soğan ve ajvarla servis edilir.",
+  "tr": "Kosova'nın başkenti Priştine başta olmak üzere her yerde sokak lezzeti olarak yenen, baharatlı kıymadan şekil verilip ızgarada pişirilen parmak şeklinde köfteler. Genellikle lepinja ekmeği, kajmak, rendelenmiş soğan ve ajvarla servis edilir.",
   "en": "A street food found throughout Kosovo, especially in Pristina, made from seasoned minced meat shaped into small finger-like pieces and grilled. It is usually served in lepinja bread with kajmak, raw onion and ajvar."
  },
  "servings": 4,
@@ -19,7 +19,7 @@
    "2 diş sarımsak, ezilmiş",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
-   "1/2 çay kaşığı kabartma tozu (karbonat)",
+   "1/2 çay kaşığı karbonat (sodyum bikarbonat)",
    "1 tatlı kaşığı tatlı kırmızı biber",
    "1 yemek kaşığı sıvı yağ",
    "4 adet lepinja ekmeği (ya da pide)",
@@ -45,8 +45,8 @@
  },
  "steps": {
   "tr": [
-   "Rendelenmiş soğanı bir elekten geçirip suyunu süzün; lapayı ve suyu ayrı tutun.",
-   "Büyük bir kapta dana ve sığır kıymasını, süzülmüş soğan lapasını, ezilmiş sarımsağı, tuzu, karabiberi, kabartma tozunu ve tatlı kırmızı biberi iyice karışana kadar 5 dakika yoğurun.",
+   "Rendelenmiş soğanı bir elekten geçirip suyunu süzün; lapayı ayırın ve süzülen suyu atın.",
+   "Büyük bir kapta dana ve sığır kıymasını, süzülmüş soğan lapasını, ezilmiş sarımsağı, tuzu, karabiberi, karbonatı ve tatlı kırmızı biberi iyice karışana kadar 5 dakika yoğurun.",
    "Karışımı kapağı kapalı şekilde buzdolabında 30 dakika dinlendirin. Bu süre kıymanın lezzetini ve dokusunu geliştirir.",
    "Ellerinizi hafif ıslatın, kıymadan parmak genişliğinde ve yaklaşık 10 cm uzunluğunda sosisler şekillendirin.",
    "Izgarayı ya da ızgara tavasını orta-yüksek ateşte ısıtın ve yağ sürün. Ya da fırını 220°C'ye ısıtıp tepsiye dizebilirsiniz.",
@@ -55,7 +55,7 @@
    "Ekmeğin ortasını açın, kajmağı yayın, pişen qebapaları yerleştirin, üzerine ince doğranmış soğanı ve ajvarı ekleyip hemen servis edin."
   ],
   "en": [
-   "Press the grated onion through a sieve to drain its juice; keep the pulp and the juice separate.",
+   "Press the grated onion through a sieve to drain its juice; keep the pulp and discard the juice.",
    "In a large bowl, knead the veal, beef, drained onion pulp, crushed garlic, salt, black pepper, baking soda and sweet paprika together for about 5 minutes until fully combined.",
    "Cover and refrigerate the mixture for 30 minutes to let the flavours develop and the texture firm up.",
    "Wet your hands lightly and shape the meat into finger-width sausages about 10 cm long.",
@@ -66,8 +66,18 @@
   ]
  },
  "tip": {
-  "tr": "Kıymaya kabartma tozu eklemek dokuyu yumuşatır; yoğururken fazla çalıştırmayın, aksi halde kebaplar sert olur.",
+  "tr": "Kıymaya karbonat eklemek dokuyu yumuşatır; yoğururken fazla çalıştırmayın, aksi halde kebaplar sert olur.",
   "en": "Baking soda keeps the meat tender, so knead just until combined; overworking the mince will make the qebapa tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kabartma tozu (karbonat)' mislabels the ingredient. Kabartma tozu is baking powder, but the English version says baking soda, so the Turkish should say karbonat (sodyum bikarbonat)",
+   "The onion juice is drained and said to be kept separate in step 1, but it is never used or discarded later, so the instruction is left hanging.",
+   "Turkish description wording 'başkent Priştine' is unnatural; 'Kosova'nın başkenti Priştine' is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "فول مدمس",
  "desc": {
-  "tr": "Kimyon, limon ve zeytinyağıyla tatlandırılmış, püreleşmiş bakladan yapılan bir kahvaltılıktır. Filistin'de sabahları, ekmekle birlikte ve çoğunlukla ev kahvaltılarında yenir.",
+  "tr": "Kimyon, limon ve zeytinyağıyla tatlandırılmış, püreleşmiş bakladan yapılan bir kahvaltılıktır. Filistin'de sabahları, ekmekle birlikte ve çoğunlukla ev kahvaltılarında ve kafelerde yenir.",
   "en": "A breakfast of mashed fava beans seasoned with cumin, lemon and olive oil. In Palestine it is eaten in the morning, usually with bread, at home and in cafés."
  },
  "servings": 4,
@@ -17,7 +17,7 @@
    "2 diş sarımsak, ince doğranmış (10 g)",
    "2 g öğütülmüş kimyon (1 tatlı kaşığı)",
    "45 ml limon suyu (yaklaşık 1 limon)",
-   "60 ml sızma zeytinyağı, servis için ayrıca 15 ml",
+   "60 ml sızma zeytinyağı (45 ml püreye, 15 ml servis için)",
    "3 g tuz (yarım tatlı kaşığı), tadına göre",
    "15 g tahin",
    "1 orta boy domates (150 g), küp doğranmış",
@@ -30,7 +30,7 @@
    "2 garlic cloves, finely minced (10 g)",
    "2 g ground cumin (1 tsp)",
    "45 ml lemon juice (about 1 lemon)",
-   "60 ml extra virgin olive oil, plus 15 ml for serving",
+   "60 ml extra virgin olive oil (45 ml for the ful, 15 ml for serving)",
    "3 g salt (1/2 tsp), to taste",
    "15 g tahini",
    "1 medium tomato (150 g), diced",
@@ -61,5 +61,14 @@
   "tr": "Kuru bakla kullanıyorsanız gece boyunca suda bekletin ve yumuşayana kadar yaklaşık 1,5 saat haşlayın; sonra bu tarifteki adımları izleyin.",
   "en": "If using dried fava beans, soak them overnight and simmer until tender, about 1.5 hours, then follow the steps above."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Olive oil quantities disagree: the ingredient list says 60 ml plus 15 ml for serving (75 ml total), but the steps use 45 ml on the ful and 15 ml on the salad (60 ml total).",
+   "Turkish description omits 'cafés', which the English description includes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

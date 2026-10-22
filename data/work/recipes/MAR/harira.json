@@ -86,8 +86,16 @@
   ]
  },
  "tip": {
-  "tr": "Un karışımını çorbaya yavaş ekleyip sürekli karıştırın; yumurta-limonu da ocağın altındayken eklemek çorbanın kesilmesini önler.",
+  "tr": "Un karışımını çorbaya yavaş yavaş ekleyip sürekli karıştırın; yumurta-limon karışımını ise ocağı kapattıktan sonra ekleyin, böylece çorba kesilmeden pürüzsüz kalır.",
   "en": "Add the flour mixture slowly while stirring, and always add the egg and lemon mixture off the heat so the soup stays smooth rather than curdling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses an unnatural and misleading phrase, 'ocağın altındayken' (literally 'while under the stove'), which could be read as adding the egg mixture while the pot is still on the heat. The Eng"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

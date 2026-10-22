@@ -31,10 +31,10 @@
  },
  "steps": {
   "tr": [
-   "Yıkanmış darıyı 1 litre suyla birlikte geniş bir tencerede orta ateşte 25-30 dakika, darılar çok yumuşayana kadar pişirin.",
+   "Yıkanmış darıyı 1 litre suyla birlikte geniş bir tencerede orta ateşte 25-30 dakika, darı taneleri çok yumuşayana kadar pişirin.",
    "Ocaktan alıp 500 ml soğuk suyu ekleyin, karışımı blenderdan geçirin veya elekten süzerek pürüzsüz bir hamur elde edin.",
    "Karışımı yaklaşık 35°C'ye kadar soğutun.",
-   "Kuru mayayı 100 ml ılık suda 50 g şekerle birlikte eritin ve 10 dakika bekleyin, köpürmesini sağlayın.",
+   "Kuru mayayı 100 ml ılık suda 150 g şekerle birlikte eritin ve 10 dakika bekleyin, köpürmesini sağlayın.",
    "Köpüren mayayı darı karışımına ekleyip iyice karıştırın, üzerini örterek ılık bir yerde 12 saat kadar mayalanmaya bırakın.",
    "Mayalanan karışıma kalan 100 g şekeri ve 100 ml suyu ekleyip şeker eriyene kadar karıştırın.",
    "Boza kıvamını kontrol edin; çok kalınsa biraz su ekleyin. Elekten süzüp soğuk servis için buzdolabında soğutun.",
@@ -44,7 +44,7 @@
    "Put the rinsed millet in a wide pot with 1 litre of water and cook over medium heat for 25-30 minutes, until the grains are very soft.",
    "Remove from the heat, add 500 ml of cold water, and blend or pass the mixture through a sieve to get a smooth mash.",
    "Let the mixture cool to about 35°C.",
-   "Dissolve the dry yeast with 50 g of sugar in 100 ml of lukewarm water and leave for 10 minutes until it foams.",
+   "Dissolve the dry yeast with 150 g of sugar in 100 ml of lukewarm water and leave for 10 minutes until it foams.",
    "Stir the foamy yeast into the millet mixture, cover, and leave in a warm place to ferment for about 12 hours.",
    "Add the remaining 100 g of sugar and 100 ml of water to the fermented mixture and stir until the sugar dissolves.",
    "Check the consistency; if it is too thick, add a little more water. Strain through a sieve and chill in the refrigerator before serving.",
@@ -55,5 +55,13 @@
   "tr": "Mayalanma süresi arttıkça boza daha ekşi olur; daha yumuşak bir tat için 8-10 saat yeterlidir.",
   "en": "The longer it ferments, the more sour it becomes; for a milder taste, 8-10 hours is enough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sugar totals disagree: the ingredients list 250 g split as 150 g + 100 g, but the yeast step dissolves only 50 g sugar, so the 150 g portion is never used. The 'remaining 100 g' step then fits the 150"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

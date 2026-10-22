@@ -5,11 +5,11 @@
  },
  "native": "لحم حلو",
  "desc": {
-  "tr": "Cezayir'in batısında ve başkent çevresinde, bayramlarda ve özel misafirlikler için hazırlanan, kuru meyve ve baldan gelen tatlılıkla hafif ekşimsi bir kuzu yemeğidir. Genellikle pilav veya ekmekle servis edilir.",
+  "tr": "Cezayir'in batısında ve başkent çevresinde, bayramlarda ve özel misafirlikler için hazırlanan, kuru meyve ve baldan gelen tatlılıkla hafif ekşimsi bir kuzu yemeğidir. Genellikle ekmek veya düz kuskusla servis edilir.",
   "en": "A festive lamb stew from Algeria, especially common at holidays and special family meals, where dried fruit and honey give a gentle sweetness balanced by a slight tartness. It is usually served with bread or plain couscous."
  },
  "servings": 4,
- "time_min": 100,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -18,8 +18,9 @@
    "30 ml zeytinyağı",
    "1 çay kaşığı öğütülmüş zencefil",
    "1 çay kaşığı öğütülmüş tarçın",
-   "1 tatlı çubuk tarçın",
+   "1 adet tarçın çubuğu",
    "1/2 çay kaşığı safran telleri",
+   "30 ml sıcak su (safran için)",
    "1/2 çay kaşığı tuz",
    "1/4 çay kaşığı karabiber",
    "500 ml su",
@@ -41,6 +42,7 @@
    "1 tsp ground cinnamon",
    "1 cinnamon stick",
    "1/2 tsp saffron threads",
+   "30 ml hot water (for the saffron)",
    "1/2 tsp salt",
    "1/4 tsp black pepper",
    "500 ml water",
@@ -57,10 +59,10 @@
  },
  "steps": {
   "tr": [
-   "Safranı 2 yemek kaşığı sıcak suda yaklaşık 10 dakika bekletin.",
+   "Safranı 30 ml (2 yemek kaşığı) sıcak suda yaklaşık 10 dakika bekletin.",
    "Geniş bir tencerede zeytinyağını orta-yüksek ateşte ısıtın. Kuzu parçalarını partiler halinde, her yüzü hafifçe kızarana kadar yaklaşık 6-8 dakika kavurun.",
-   "Rendelenmiş soğanı ekleyin ve sıvısı çekilip yumuşayana kadar, yaklaşık 10 dakika karıştırarak pişirin.",
-   "Zencefil, öğütülmüş tarçın, tuz, karabiber ve tatlı çubuk tarçını ekleyin, 1 dakika kavurun. Safranlı suyu ve 500 ml suyu ilave edip kaynatın.",
+   "Rendelenmiş soğanı ekleyin ve suyunu salıp yumuşayana kadar, yaklaşık 10 dakika karıştırarak pişirin.",
+   "Zencefil, öğütülmüş tarçın, tuz, karabiber ve tarçın çubuğunu ekleyin, 1 dakika kavurun. Safranlı suyu ve 500 ml suyu ilave edip kaynatın.",
    "Ateşi kısın, kapağı kapatın ve et neredeyse yumuşayana kadar yaklaşık 60 dakika hafif kaynatın.",
    "Kuru erik, kuru kayısı ve kuru üzümü tencereye ekleyin. Bal ve toz şekeri karıştırın, kapağı kapatmadan 20-25 dakika daha pişirin; sos koyulaşırken arada bir karıştırın.",
    "Tereyağını ekleyip eriyene kadar karıştırın. Et ve kuru meyveler yumuşak, sos kıvamlı olmalı.",
@@ -69,7 +71,7 @@
    "Sıcak servis yapın; üzerine badem ve kişniş serpin."
   ],
   "en": [
-   "Soak the saffron threads in 2 tbsp of hot water for about 10 minutes.",
+   "Soak the saffron threads in 30 ml (2 tbsp) of hot water for about 10 minutes.",
    "Heat the olive oil in a wide pot over medium-high heat. Brown the lamb pieces in batches for 6-8 minutes until lightly coloured on all sides.",
    "Add the grated onions and cook, stirring, for about 10 minutes until they soften and release their liquid.",
    "Add the ground ginger, ground cinnamon, salt, black pepper and the cinnamon stick. Fry for 1 minute, then pour in the saffron water and the 500 ml of water and bring to a boil.",
@@ -85,5 +87,17 @@
   "tr": "Kuru erikleri ve kayısıları pişirmeden önce ılık suda 15 dakika bekletirseniz daha yumuşak olur ve sosun tadı daha dengeli çıkar.",
   "en": "Soak the prunes and apricots in warm water for 15 minutes before adding them; they cook more evenly and the sauce tastes more balanced."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says it is served with 'pilav' (rice), but the English says bread or plain couscous. The two versions disagree.",
+   "Turkish ingredient 'tatlı çubuk tarçın' is unnatural; the usual term is 'tarçın çubuğu'.",
+   "Step 1 uses 2 tablespoons of hot water for the saffron, but no saffron water appears in either ingredient list.",
+   "time_min is 100, but the steps add up to roughly 115-125 minutes (about 60 min simmer, 25 min fruit simmer, plus browning and onion cooking).",
+   "Turkish step 3 'sıvısı çekilip' is a literal rendering; 'suyunu salıp' is more natural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

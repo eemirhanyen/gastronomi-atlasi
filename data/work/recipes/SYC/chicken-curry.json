@@ -9,7 +9,7 @@
   "en": "One of the best-loved dishes of Seychellois Creole cooking, this curry reflects Indian, Chinese and French influences. It is usually served at lunch and family gatherings with rice or bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -58,13 +58,13 @@
    "Tavuk parçalarını lime suyu, tuz ve karabiberle karıştırıp en az 20 dakika dinlendirin.",
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın ve soğanları altın rengi alana kadar yaklaşık 8 dakika kavurun.",
    "Sarımsak ve zencefili ekleyip 1 dakika daha kavurun.",
-   "Köri tozunu, kurkumayı ve acı pul biberi ekleyip yağ baharatların kokusunu verene kadar, yaklaşık 1 dakika karıştırın.",
+   "Köri tozunu, kurkumayı ve acı pul biberi ekleyip baharatlar kokusunu verene kadar, yaklaşık 1 dakika karıştırın.",
    "Tavuk parçalarını tencereye alın ve yüzeyi mühürlenene kadar her tarafını birkaç dakika kavurun.",
    "Domatesleri, köri yapraklarını ve kekiği ekleyip domatesler dağılana kadar 5 dakika pişirin.",
    "Suyu ilave edin, kapağı kapatıp kısık ateşte 20 dakika pişirin.",
    "Patates küplerini ve hindistan cevizi sütünü ekleyin, gerekirse biraz su ilave edip karıştırın.",
    "Kapağı kapatıp kısık ateşte patatesler yumuşayana ve sos kıvamlanana kadar yaklaşık 20 dakika daha pişirin.",
-   "Tadına bakıp gerekirse tuz ve karabiber ekleyin, son olarak kalan limon suyunu katın.",
+   "Tadına bakıp gerekirse tuz ve karabiber ekleyin.",
    "Ocaktan alın, kişniş dallarıyla süsleyip pirinç ya da ekmekle sıcak servis yapın."
   ],
   "en": [
@@ -77,7 +77,7 @@
    "Pour in the water, cover and simmer gently for 20 minutes.",
    "Add the cubed potatoes and coconut milk, adding a little more water if needed, and stir.",
    "Cover and simmer gently for about 20 more minutes until the potatoes are tender and the sauce has thickened.",
-   "Taste and adjust with more salt and pepper if needed, then stir in any remaining lime juice.",
+   "Taste and adjust with more salt and pepper if needed.",
    "Remove from the heat, garnish with coriander sprigs and serve hot with rice or bread."
   ]
  },
@@ -85,5 +85,15 @@
   "tr": "Kemikli parçalar sosa daha fazla tat verir; kurumasını önlemek için pişirme sırasında tencerenin kapağını kapalı tutun.",
   "en": "Bone-in pieces add more flavour to the sauce; keep the lid on during simmering so the chicken stays moist."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 10 (tr and en) says to add the 'remaining' lime juice, but the full 1 lime (about 30 ml) is already used in the marinade in step 1, so no lime juice is left.",
+   "time_min is 60, but the recipe includes a marinade of at least 20 minutes plus about 60 minutes of active cooking and simmering, so the total is about 80 minutes.",
+   "Turkish step 4 'yağ baharatların kokusunu verene kadar' is unnatural; 'baharatlar kokusunu verene kadar' is the idiomatic phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

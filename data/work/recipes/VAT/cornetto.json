@@ -46,7 +46,7 @@
    "Maya karışımını, yumurtayı ve un karışımını birleştirip yaklaşık 8 dakika yoğurun.",
    "Yumuşatılmış tereyağını parça parça ekleyin ve hamur pürüzsüz, esnek ve yapışmayan bir kıvama gelene kadar yaklaşık 10 dakika daha yoğurun.",
    "Hamuru kapalı bir kaseye alın ve oda sıcaklığında iki katına çıkana kadar yaklaşık 1 saat mayalandırın.",
-   "Hamuru 8 eşit parçaya bölün (yaklaşık 74 g). Her parçayı un serpilmiş tezgâhta, uçları inceleyerek yaklaşık 25 cm uzunluğunda bir hamur çubuğuna dönüştürün.",
+   "Hamuru 8 eşit parçaya bölün (yaklaşık 74 g). Her parçayı un serpilmiş tezgâhta yaklaşık 25 cm uzunluğunda bir hamur çubuğuna dönüştürün ve uçlarını inceltin.",
    "Çubukları hilal şekline getirin ve fırın tepsisine kâğıt serili olarak aralarında boşluk bırakarak dizin.",
    "Örtüp 26 °C civarında yaklaşık 1 saat, hamur belirgin şekilde kabarana kadar ikinci mayalanmaya bırakın.",
    "Fırını 180 °C'ye ısıtın. Yumurta sarısını 1 yemek kaşığı sütle çırpıp hilallerin üzerine sürün.",
@@ -73,5 +73,13 @@
   "tr": "Hamurun iyi mayalanıp mayalanmadığını anlamak için küçük bir parça hamuru suya atın; yüzerse ikinci mayalanmaya geçebilirsiniz.",
   "en": "To check the dough is ready for shaping, drop a small piece into water; if it floats, it has risen enough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6: \"uçları inceleyerek\" (\"examining the ends\") does not match the English \"tapering the ends\" and is unnatural. It should be \"uçlarını inceltin\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Tofuyu ocakta kaynatmayın; soğuk ya da oda sıcaklığında servis edilmesi dokusunu korur. Şurubu sıcak dökmek yeterlidir.",
-  "en": "Do not boil the tofu; serving it cool or at room temperature keeps its silky texture. Pour the syrup warm, not boiling, so the tofu stays soft."
+  "tr": "Tofuyu ocakta kaynatmayın; ılık ya da sıcak servis edildiğinde yumuşak dokusu korunur. Şurubu kaynar değil ılık-sıcak dökmek yeterlidir.",
+  "en": "Do not boil the tofu; serve it warm, as traditionally eaten, so the silky texture is kept. Pour the syrup warm, not boiling, so the tofu stays soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts the description and traditional preparation: the description calls taho a warm snack and taho is traditionally served warm, but the tip says to serve the tofu cold or at room temperatu",
+   "Tip's English and Turkish versions also say cold/room temperature, so both language versions need the correction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

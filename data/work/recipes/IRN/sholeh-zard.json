@@ -41,7 +41,7 @@
   "tr": [
    "Pirinci soğuk suyla 3 kez yıkayıp süzün.",
    "Pirinci 1000 ml suyla birlikte geniş bir tencereye alın. Kaynayınca ateşi kısın, kapağını hafif aralık bırakarak yaklaşık 25 dakika, pirinç çok yumuşayana kadar ara ara karıştırarak pişirin.",
-   "Bu sırada kuru bir tavada bademleri orta ateşte 2-3 dakika, hafifçe kızarana kadar kavurun. Fıstıkları ayrı bir kaseye alın.",
+   "Bu sırada kuru bir tavada bademleri orta ateşte 2-3 dakika, hafifçe kızarana kadar kavurun. Antep fıstıklarını kabaca doğrayıp ayrı bir kaseye alın.",
    "Safranı bir havanda birkaç tutam şekerle ezin, üzerine 45 ml sıcak suyu ekleyip 10 dakika demlenmeye bırakın.",
    "Pirinç yumuşayınca şekeri ekleyip eriyene kadar karıştırın. Ardından 10-15 dakika daha, sık karıştırarak, kıvam almaya başlayana kadar pişirin.",
    "Safran suyunu ve tereyağını ekleyin, tereyağı eriyene kadar karıştırın. Muhallebi koyulaşıp parlak bir kıvam alana kadar 5 dakika daha pişirin.",
@@ -51,7 +51,7 @@
   "en": [
    "Rinse the rice in cold water three times and drain it.",
    "Put the rice and 1000 ml water in a wide saucepan. When it boils, reduce the heat and simmer partly covered for about 25 minutes, stirring now and then, until the rice is very soft.",
-   "Meanwhile, toast the almonds in a dry pan over medium heat for 2-3 minutes until lightly golden. Transfer the pistachios to a separate bowl.",
+   "Meanwhile, toast the almonds in a dry pan over medium heat for 2-3 minutes until lightly golden. Roughly chop the pistachios and transfer them to a separate bowl.",
    "Crush the saffron in a mortar with a few pinches of sugar, add 45 ml hot water and let it steep for 10 minutes.",
    "When the rice is soft, stir in the sugar until dissolved. Cook for another 10-15 minutes, stirring often, until the mixture starts to thicken.",
    "Add the saffron liquid and the butter and stir until the butter melts. Cook for 5 more minutes until the pudding is thick and glossy.",
@@ -63,5 +63,13 @@
   "tr": "Pirinç tam yumuşamadan şekeri eklemeyin; aksi halde tanelerin sertliği kalır. Gül suyunu ocaktan aldıktan sonra ekleyin ki aroması uçmasın.",
   "en": "Do not add the sugar until the rice is fully soft, or the grains will stay firm. Add the rosewater off the heat so its aroma does not cook away."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 (tr and en) tells the cook to move the pistachios to a bowl right after toasting the almonds, but the pistachios are never prepared or toasted. The ingredient is listed as 'roughly chopped', an"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

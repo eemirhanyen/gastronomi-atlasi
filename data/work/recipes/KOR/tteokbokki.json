@@ -49,7 +49,7 @@
   "tr": [
    "Garaetteok kuru ise, ılık suda 20 dakika bekletip süzün. Taze ise doğrudan kullanın.",
    "Geniş bir tencereye 600 ml su ve dashimayı koyun. Orta ateşte kaynatın, ardından ateşi kısıp 8 dakika demlendirin ve dashimayı çıkarıp atın.",
-   "Suya gochujang, gochugaru, soya sosu, şeker, bal ve ezilmiş sarımsağı ekleyin. Karışım pürüzsüz olana kadar iyice karıştırın.",
+   "Suya gochujang, gochugaru, soya sosu, şeker, bal ve ince doğranmış sarımsağı ekleyin. Karışım pürüzsüz olana kadar iyice karıştırın.",
    "Soğanı ve eomukları ekleyin, sosun kaynamasını bekleyin.",
    "Garaetteokları ekleyip orta ateşte, sık sık karıştırarak 12-15 dakika pişirin. Sos koyulaşıp kekler yumuşayınca ocaktan alın.",
    "Son bir dakika için doğranmış yeşil soğanı ekleyip karıştırın.",
@@ -69,5 +69,13 @@
   "tr": "Sosun kıvamını ayarlamak için pişirme sonunda 2-3 yemek kaşığı su ekleyin; sos çabuk koyulaşıyorsa ateşi biraz düşürün, yapışıp tencerede kalmasın.",
   "en": "To adjust the sauce consistency, add 2 to 3 tablespoons of water near the end of cooking. If the sauce thickens too quickly, lower the heat so it does not stick to the bottom of the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Garlic preparation differs between languages: the Turkish ingredient says \"ince doğranmış\" (finely minced) and the English says \"finely minced\", but the Turkish step says \"ezilmiş\" (crushed)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

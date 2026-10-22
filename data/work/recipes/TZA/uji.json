@@ -34,12 +34,12 @@
  "steps": {
   "tr": [
    "Zencefili soyup rendeleyin.",
-   "Mısırununu bir kaseye alın, soğuk suyla karıştırarak pürüzsüz, topaksız bir hamur elde edin.",
+   "Mısır unu bir kaseye alın, soğuk suyla karıştırarak pürüzsüz, topaksız bir hamur elde edin.",
    "Geniş bir tencerede 750 ml suyu rendelenmiş zencefil ve tuzla birlikte kaynatın.",
    "Ateşi kısın ve hazırladığınız mısır unu hamurunu ince bir akışla kaynayan suya ekleyerek sürekli karıştırın.",
    "Ara sıra tahta kaşıkla tencerenin dibini sıyırarak 15 dakika kadar pişirin; lapa koyulaşıp pürüzsüz hale gelmeli ve çiğ un kokusu kalmamalı.",
    "Sütü ve şekeri ekleyip karıştırın, 5 dakika daha kısık ateşte pişirin. Çok koyu olursa biraz sıcak su ekleyerek kıvamını ayarlayın.",
-   "Sıcak sıcak kaselere alıp servis yapın."
+   "Sıcak sıcak kaselere alıp servis edin."
   ],
   "en": [
    "Peel and finely grate the ginger.",
@@ -55,5 +55,14 @@
   "tr": "Un hamurunu suya yavaş yavaş ekleyip sürekli karıştırmak topaklanmayı önler; ateşin kısık olması da lapanın yanmasını engeller.",
   "en": "Add the flour paste to the water slowly while stirring constantly to prevent lumps, and keep the heat low so the porridge does not scorch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a misspelling: 'Mısırununu' should be 'mısır unu'.",
+   "Turkish step 7 'servis yapın' is unnatural; 'servis edin' is the usual phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

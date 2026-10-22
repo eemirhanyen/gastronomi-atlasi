@@ -39,7 +39,7 @@
    "Şeker tamamen eriyene kadar kısık ateşte karıştırın, ardından hafif kaynamaya bırakıp 3 dakika pişirin.",
    "Ocaktan alın, limon suyunu ekleyin ve oda sıcaklığına gelmesini bekleyin.",
    "Şerbeti kapaklı bir kaba aktarın ve en az 2 saat buzdolabında soğutun.",
-   "Servis öncesi gül suyunu karıştırın. Her bardağa 2 ya da 3 parça buz koyun, şerbetin üzerine yaklaşık 1 kısım şerbete 2 kısım soğuk su ekleyerek bardakları doldurun.",
+   "Servis öncesi gül suyunu karıştırın. Her bardağa 2 ya da 3 parça buz koyun, ardından bardakları 1 kısım şerbet ve 2 kısım soğuk suyla doldurun.",
    "Taze nane yapraklarıyla süsleyip hemen servis edin."
   ],
   "en": [
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Vişnelerin ekşiliği mevsime göre değiştiği için şekeri son aşamada tadarak ayarlayın; şerbet konsantre olarak hazırlanır, servis ederken mutlaka soğuk suyla seyreltin.",
+  "tr": "Vişnelerin ekşiliği mevsime göre değiştiği için şerbeti soğutmadan önce tadarak şekerini ayarlayın; şerbet konsantre olarak hazırlanır, servis ederken mutlaka soğuk suyla seyreltin.",
   "en": "Sour cherries vary in tartness, so taste the sherbet before chilling and adjust the sugar; it is a concentrate, so always dilute it with cold water when serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to adjust the sugar at the 'final stage' (\"son aşamada\"), but the English tip says to taste and adjust before chilling. The two versions disagree on when to adjust.",
+   "Turkish step 7 uses the awkward phrase \"şerbetin üzerine ... ekleyerek\" (\"adding on top of the sherbet\"), which is unnatural for describing dilution."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

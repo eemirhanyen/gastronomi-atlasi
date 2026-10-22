@@ -9,7 +9,7 @@
   "en": "A traditional snack of strained, salted yogurt shaped into balls and dried until hard. In Tajikistan and the mountainous regions of Central Asia it is made in summer, preserved for year-round use, and eaten with tea or carried on journeys."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1440,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -45,5 +45,13 @@
   "tr": "Yoğurdu ne kadar iyi süzerseniz kurutma o kadar kısa sürer ve toplar daha az çatlar; fırın kapağını aralık tutmak nemin çıkmasını sağlar.",
   "en": "The drier the strained yogurt, the faster the balls dry and the less they crack; leaving the oven door ajar lets moisture escape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe includes 12 hours of straining, a 2-hour rest, and 8-10 hours of oven drying (or 3-5 days in the sun), so the total time is far longer than stated. Set to 1440 minutes ("
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

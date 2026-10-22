@@ -9,7 +9,7 @@
   "en": "Atassi is a one-pot rice and bean dish from Benin, cooked with red palm oil, tomato and dried fish or shrimp. It is eaten as an everyday lunch or dinner, often served with fried ripe plantain or a fresh pepper sauce."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Pirinç yapışmasın diye karıştırmayın; alt kısmın hafifçe tutunması (kabuk) geleneksel olarak lezzetli kabul edilir, ancak yanmaması için ateşi çok kısık tutun.",
   "en": "Avoid stirring once the rice is covered, and keep the heat very low so the bottom forms a light crust without burning, which is considered a prized part of the dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is shorter than the cooking steps alone: about 30 min for the beans, 15 for the sauce, 25 for the rice and 5 rest, plus preparation, so about 80 min of active time"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

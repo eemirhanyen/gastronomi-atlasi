@@ -9,12 +9,12 @@
   "en": "A lightly alcoholic drink made from sweet palm sap that ferments quickly after tapping. Traditionally collected in the morning and drunk the same day, it is served at village gatherings, celebrations and everyday social life in Equatorial Guinea."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 1080,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "1 l taze palmiye özsuyu (yoksa aşağıdaki ikame)",
-   "Ikame için: 1 l su ve 150 g palmiye şekeri veya esmer şeker",
+   "İkame için: 1 l su ve 150 g palmiye şekeri veya esmer şeker",
    "2 g kuru maya (ikame kullanılırsa)",
    "1 temiz cam veya paslanmaz çelik kap (yaklaşık 2 l)",
    "1 temiz bez veya kağıt havlu (kabı örtmek için)"
@@ -31,7 +31,7 @@
   "tr": [
    "Özsuyu kullanıyorsanız kabı ve bezi temizleyin, sonra özsuyu doğrudan kaba alın.",
    "İkame kullanıyorsanız suyu ılık hale getirin, şekeri tamamen eriyene kadar karıştırın ve karışımı 30°C'ye kadar soğumaya bırakın.",
-   "Ikame karışıma mayayı ekleyin ve yüzeye yayılması için 5 dakika bekleyin, ardından nazikçe karıştırın.",
+   "İkame karışıma mayayı ekleyin ve çözünmesi için 5 dakika bekleyin, ardından nazikçe karıştırın.",
    "Kabın ağzını temiz bezle örtün ve sineklerden korumak için üzerini sıkıca bağlayın.",
    "Kabı 25–30°C'de, doğrudan güneş almayan bir yerde 18–24 saat bekletin. Köpürmeye ve hafif ekşi-tatlı bir koku almaya başlaması mayalanmanın gerçekleştiğini gösterir.",
    "Sıvıyı ince bir süzgeçten veya bezden süzerek tortusundan ayırın.",
@@ -51,5 +51,15 @@
   "tr": "Mayalanma sıcaklığı 30°C'yi geçerse sıvı çabuk ekşir; sıcak mevsimde kabı serin bir yere alıp süreyi kısaltın.",
   "en": "If the temperature rises above 30°C the drink turns sour quickly; in hot weather, move the container to a cooler spot and shorten the fermentation time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, but the recipe requires 18–24 hours of fermentation, so the total time is misleading.",
+   "Turkish step 3 says the yeast should rest 5 minutes to spread over the surface, while the English says it should rest so it can dissolve. The purpose does not match.",
+   "Turkish uses 'Ikame' without the dotted capital İ, which is a spelling error in Turkish text."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

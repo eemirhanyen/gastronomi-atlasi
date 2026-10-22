@@ -31,7 +31,7 @@
   "tr": [
    "Muzların uçlarını kesin. Kabuğu boyuna bir kez çizin, ardından bıçağın ucuyla veya başparmağınızla kabuğu soyun.",
    "Muzları 3-4 cm'lik parçalara bölün.",
-   "Ağır tabanlı bir tavada yağı 2 cm yüksekliğinde dökün ve 180°C'ye kadar ısıtın.",
+   "Yaklaşık 18 cm çapında, ağır tabanlı bir tavada yağı 2 cm yüksekliğinde dökün ve 180°C'ye kadar ısıtın.",
    "Muz parçalarını yağa ekleyip 3-4 dakika, hafif sarı olana kadar kızartın; kahverengileşmesine izin vermeyin.",
    "Parçaları süzgeç kaşığıyla alıp kağıt havlu serili bir tabağa koyun.",
    "Sarımsakları ezin, 5 g tuzla birlikte havanda veya bıçağın yassı yüzüyle püre haline getirin. Suyu ekleyip karıştırarak tuzlu sarımsak suyu hazırlayın.",
@@ -43,7 +43,7 @@
   "en": [
    "Trim the ends of the plantains. Score the peel lengthwise once, then remove it with the tip of a knife or your thumb.",
    "Cut the plantains into 3-4 cm pieces.",
-   "Pour the oil into a heavy-bottomed pan to a depth of 2 cm and heat to 180°C.",
+   "Pour the oil into a heavy-bottomed pan about 18 cm in diameter to a depth of 2 cm and heat to 180°C.",
    "Fry the plantain pieces for 3-4 minutes, until pale golden. Do not let them brown.",
    "Lift the pieces out with a slotted spoon and place them on a plate lined with paper towels.",
    "Crush the garlic with 5 g salt in a mortar or with the flat side of a knife to make a paste. Stir in the water to make a garlic brine.",
@@ -57,5 +57,13 @@
   "tr": "Muzlar tamamen yeşil ve sert olmalı; sarıya dönmüş olgun muzlar tatlı ve yumuşak olur, bu da tostonları bozar.",
   "en": "Choose plantains that are fully green and firm; yellow, ripe ones turn sweet and soft, which ruins the texture of tostones."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil volume and pan depth do not match: 500 ml poured to 2 cm needs a pan about 18 cm in diameter, and no pan size is given. Added the pan size in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

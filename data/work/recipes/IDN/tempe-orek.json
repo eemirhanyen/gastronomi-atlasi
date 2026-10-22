@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Tempeyi kızartmadan önce hafif bir ara ısıda haşlamak tadındaki acılığı azaltır; sosu kızartılmış tempeye eklemeden önce tam koyulaşmasını bekleyin ki tempeler gevrekliğini korusun.",
-  "en": "Keep the fried tempeh crisp by adding it to the sauce only after the sauce has thickened, and toss it briefly so it stays crunchy."
+  "tr": "Sos koyulaşıp kremsi bir kıvam aldıktan sonra tempeyi ekleyin ve kısa süre karıştırın; böylece tempeler gevrekliğini bir ölçüde korur.",
+  "en": "Add the tempeh only once the sauce has thickened to a creamy consistency, and toss it briefly so it keeps some of its crunch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip recommends blanching the tempeh to reduce bitterness, but the steps don't include blanching and the English tip doesn't mention it. The two versions disagree.",
+   "The tip says to keep the tempeh crisp, but step 6 cooks it until it absorbs the sauce and turns sticky. The advice conflicts with the method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

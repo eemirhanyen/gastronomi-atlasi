@@ -18,7 +18,7 @@
    "800 ml su",
    "5 g tuz",
    "120 g fıstık ezmesi (pürüzsüz)",
-   "200 ml hot su",
+   "200 ml sıcak su",
    "40 g şeker",
    "200 ml süt (isteğe bağlı)"
   ],
@@ -59,5 +59,13 @@
   "tr": "Fıstık ezmesini sıcak suyla önceden inceltmek, lapaya topak yapmadan karışmasını sağlar.",
   "en": "Thinning the peanut butter with hot water before adding it prevents clumps and gives the porridge an even, silky texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains the English word \"hot su\"; should be \"sıcak su\""
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

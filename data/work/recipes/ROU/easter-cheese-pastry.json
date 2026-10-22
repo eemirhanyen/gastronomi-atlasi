@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Pască (Paskalya peynirli böreği)",
+  "tr": "Pască (Paskalya peynirli çöreği)",
   "en": "Pască with sweet cheese (Easter cheese pastry)"
  },
  "native": "Pască cu brânză",
@@ -23,6 +23,7 @@
    "1 limonun rendelenmiş kabuğu",
    "1 çay kaşığı vanilya",
    "400 g taze lor peyniri (brânză de vaci)",
+   "60 g toz şeker (iç harç için)",
    "2 yumurta sarısı",
    "30 g ekşi krema",
    "40 g kuru üzüm",
@@ -40,6 +41,7 @@
    "zest of 1 lemon",
    "1 tsp vanilla extract",
    "400 g fresh curd cheese (brânză de vaci)",
+   "60 g caster sugar (for filling)",
    "2 egg yolks",
    "30 g sour cream",
    "40 g raisins",
@@ -55,7 +57,7 @@
    "Oda sıcaklığındaki tereyağını parça parça ekleyin ve hamur pürüzsüz, yapışmayan bir hal alana kadar yaklaşık 10 dakika yoğurun.",
    "Hamuru hafif yağlanmış bir kaseye alın, üzerini örtüp sıcak bir yerde iki katına çıkana kadar yaklaşık 1 saat mayalanmaya bırakın.",
    "Kuru üzümleri 10 dakika ılık suda bekletin, süzüp kurulayın.",
-   "Lor peynirini bir elekten geçirin ya da çatalla ezin. Şeker, 2 yumurta sarısı, ekşi krema ve kuru üzümü ekleyip homojen bir iç harcı elde edin.",
+   "Lor peynirini bir elekten geçirin ya da çatalla ezin. İç harç için şekeri, 2 yumurta sarısı, ekşi krema ve kuru üzümü ekleyip homojen bir iç harcı elde edin.",
    "Mayalanan hamuru hafifçe bastırıp havasını alın. Yaklaşık 40 x 25 cm boyutunda bir dikdörtgen açın.",
    "İç harcı hamurun üzerine, kenarlardan 2 cm boşluk bırakarak yayın. Uzun kenardan sıkıca sararak bir rulo haline getirin.",
    "Ruloyu yağlanmış 22 cm çaplı yuvarlak bir kalıba spiral şeklinde yerleştirin. Üzerini örtüp 30-40 dakika ikinci kez mayalanmaya bırakın.",
@@ -70,7 +72,7 @@
    "Add the softened butter a little at a time and knead for about 10 minutes until the dough is smooth and no longer sticky.",
    "Place the dough in a lightly greased bowl, cover and leave in a warm place for about 1 hour, until doubled in size.",
    "Soak the raisins in warm water for 10 minutes, then drain and pat dry.",
-   "Press the curd cheese through a sieve or mash it well with a fork. Add the sugar, 2 egg yolks, sour cream and raisins and mix to a smooth filling.",
+   "Press the curd cheese through a sieve or mash it well with a fork. Add the filling sugar, 2 egg yolks, sour cream and raisins and mix to a smooth filling.",
    "Gently press down the risen dough to release the air. Roll it out into a rectangle about 40 x 25 cm.",
    "Spread the filling over the dough, leaving a 2 cm border around the edges. Roll it up tightly from the long side.",
    "Coil the roll into a greased 22 cm round cake tin. Cover and let rise for another 30-40 minutes.",
@@ -83,5 +85,14 @@
   "tr": "Pasta soğumadan kesmeyin; iç harcın kıvamı oturmadan dilimlemek dağılmasına neden olur. Lor peyniri çok sulu ise bir gece süzgeçte bekletin.",
   "en": "Drain the curd cheese well beforehand; a wet filling makes the pască soggy in the centre. Let it cool fully before slicing so the filling sets."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling uses sugar (step 7, 'Şeker' / 'Add the sugar') but no sugar amount for the filling is listed in the ingredients, in either language.",
+   "Turkish name uses 'böreği' (a savory pastry term); a yeasted sweet bread like this is a 'çörek'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -22,7 +22,7 @@
    "120 ml süt",
    "45 g tereyağı",
    "1 küçük soğan (60 g), ince doğranmış",
-   "1 tatlı kaşığı tuz (yaklaşık 3 g)",
+   "1 tatlı kaşığı tuz (yaklaşık 5 g)",
    "Bir tutam karabiber",
    "1 yemek kaşığı un (açma için)"
   ],
@@ -36,7 +36,7 @@
    "120 ml milk",
    "45 g butter",
    "1 small onion (60 g), finely chopped",
-   "3 g salt (about 1 teaspoon)",
+   "5 g salt (about 1 teaspoon)",
    "A pinch of black pepper",
    "1 tablespoon flour for dusting"
   ]
@@ -71,5 +71,14 @@
   "tr": "Hamuru çok ince açın; kalın hamur pişince sert kalır. Geleneksel sunumda ortadaki açık kısmı sıcak tereyağıyla doldurmak lezzeti artırır.",
   "en": "Roll the dough very thin, as thick dough turns tough in the oven. Brushing the hot pastries with melted butter just after baking is the traditional finish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed twice (3 g for the dough and 1 teaspoon for the filling), and the filling salt is given as 3 g in both languages. 1 teaspoon of salt weighs about 5 g, not 3 g, so the amount and its gra",
+   "The 'Bir tutam karabiber' and other ingredients are fine; the salt line is the only quantity error."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

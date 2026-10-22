@@ -19,7 +19,8 @@
    "5 g taze zencefil",
    "6 g tuz (1 tatlı kaşığı)",
    "2 g kabartma tozu (yarım tatlı kaşığı)",
-   "100 ml su",
+   "250 ml su",
+   "30 ml acı biber sosu (servis için)",
    "600 ml kızartma için sıvı yağ"
   ],
   "en": [
@@ -29,7 +30,8 @@
    "5 g fresh ginger",
    "6 g salt (1 teaspoon)",
    "2 g baking powder (1/2 teaspoon)",
-   "100 ml water",
+   "250 ml water",
+   "30 ml hot pepper sauce (for serving)",
    "600 ml vegetable oil for frying"
   ]
  },
@@ -37,29 +39,39 @@
   "tr": [
    "Börülceleri gece boyunca soğuk suda bekletin, ardından süzün.",
    "Börülceleri ellerinizin arasında suyla ovalayarak kabuklarını çıkarın; kabuklar yüzeye çıkınca özenle süzün.",
-   "Temizlenmiş börülceleri 100 ml su ile birlikte blenderda pürüzsüz, kıvamlı bir hamur haline gelene kadar çekin.",
+   "Temizlenmiş börülceleri 250 ml su ile birlikte blender'da pürüzsüz, kıvamlı bir hamur haline gelene kadar çekin.",
    "Soğanı, kırmızı biberi ve zencefili çok ince rendeleyin veya doğrayıp hamura ekleyin, tuzu da ilave edin.",
    "Hamuru 3-4 dakika güçlü bir şekilde çırpın; hafifleyip havalanması gerekir. Kabartma tozunu servisten hemen önce karıştırın.",
    "Derin bir tencerede yağı 180°C'ye kadar ısıtın.",
    "Bir kaşıkla hamurdan ceviz büyüklüğünde parçalar alıp yağa bırakın.",
    "Köftelerin altın rengi alana ve her yanı kızarana kadar yaklaşık 3-4 dakika çevirerek kızartın.",
-   "Kağıt havlu üzerinde yağını süzün ve sıcak sıcak, acı bir biber sosuyla servis edin."
+   "Kağıt havlu üzerinde yağını süzün ve sıcak sıcak, 30 ml acı biber sosuyla birlikte servis edin."
   ],
   "en": [
    "Soak the black-eyed peas overnight in cold water, then drain.",
    "Rub the peas between your palms under water to loosen and remove the skins; the skins will float, so skim them off and drain.",
-   "Blend the cleaned peas with 100 ml water until you have a smooth, thick batter.",
+   "Blend the cleaned peas with 250 ml water until you have a smooth, thick batter.",
    "Finely grate or chop the onion, red chili and ginger, then add them to the batter along with the salt.",
    "Whisk the batter vigorously for 3-4 minutes until it becomes lighter and airy. Stir in the baking powder just before frying.",
    "Heat the vegetable oil in a deep pan to 180°C.",
    "Scoop walnut-sized portions of batter with a spoon and drop them into the oil.",
    "Fry for about 3-4 minutes, turning occasionally, until golden brown all over.",
-   "Drain on paper towels and serve hot with a hot pepper sauce."
+   "Drain on paper towels and serve hot with 30 ml hot pepper sauce."
   ]
  },
  "tip": {
-  "tr": "Hamuru bol miktarda su ile sulandırmayın; kıvam kalın olmalı, yoksa fritözde dağılır ve yağı fazla içer.",
-  "en": "Keep the batter thick and do not thin it with extra water; a loose batter falls apart in the oil and absorbs too much fat."
+  "tr": "Blenderdan sonra hamuru daha fazla su ile sulandırmayın; kıvam kalın olmalı, yoksa fritözde dağılır ve yağı fazla içer.",
+  "en": "After blending, do not thin the batter with extra water; it should stay thick, otherwise it falls apart in the oil and absorbs too much fat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Hot pepper sauce is served in the steps and description but is not listed in the ingredients (TR and EN).",
+   "Only 100 ml water for about 900 g of soaked peas (400 g dried roughly doubles on soaking) is too little to blend into a smooth batter. The water amount needs raising, and the tip must match.",
+   "Turkish step 3 writes 'blenderda' where the standard form is 'blender'da' (minor, fixed)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

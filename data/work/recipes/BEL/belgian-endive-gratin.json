@@ -22,7 +22,8 @@
    "40 g un",
    "500 ml süt",
    "1 g rendelenmiş hindistan cevizi",
-   "Karabiber",
+   "Karabiber, tadında",
+   "Tuz, sos için tadında",
    "120 g gruyer peyniri, rendelenmiş"
   ],
   "en": [
@@ -35,7 +36,8 @@
    "40 g plain flour",
    "500 ml milk",
    "1 g grated nutmeg",
-   "Black pepper",
+   "Black pepper, to taste",
+   "Salt, to taste for the sauce",
    "120 g Gruyère, grated"
   ]
  },
@@ -67,5 +69,14 @@
   "tr": "Hindibaları haşladıktan sonra iyice sıkın; fazla su fırında sosu sulandırır ve gratenin tadını bozar.",
   "en": "Squeeze the endives well after blanching; excess water will thin the sauce and spoil the texture of the gratin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Black pepper (Karabiber) has no quantity or unit in either language.",
+   "Salt is used to season the béchamel (step 7) but has no quantity for the sauce; the only listed salt is the 2 g for the blanching water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

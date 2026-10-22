@@ -74,8 +74,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru mayalandırırken fırının kapalı ama hafif ısıtılmış olduğu, ya da üzerine sıcak su dolu bir kap konulan kapalı bir dolap kullanılması, mayanın daha dengeli çalışmasını sağlar.",
+  "tr": "Hamuru mayalandırırken fırının kapalı ve ısıtılmamış olduğu, yanında sıcak su dolu bir kabın bulunduğu bir fırın ya da herhangi bir çekintisiz, sıcak bir yer kullanın; bu mayanın daha dengeli çalışmasını sağlar. Sütü aşırı ısıtmaktan kaçının, çünkü yüksek sıcaklık mayayı öldürebilir.",
   "en": "For a steady rise, let the dough prove in a turned-off oven with a dish of hot water beside it, or in any draught-free warm spot, and avoid overheating the milk, which can kill the yeast."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says the oven should be 'closed but lightly heated' and mentions a closed cabinet, while the English tip says a 'turned-off oven' or any draught-free warm spot. The two versions disagree o"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "Tutmanik is a traditional Bulgarian yeast pastry: a rolled dough spiral filled with brined white cheese (sirene) and shaped into a ring. It is usually eaten warm or at room temperature for breakfast, often with yogurt or ayran."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -71,5 +71,13 @@
   "tr": "Sirene yerine feta kullanacaksanız, peynirin tuzluluğu değişebileceği için iç harcı tatmadan tuz eklemeyin.",
   "en": "If using feta instead of sirene, taste the filling before adding any salt, as feta can vary a lot in saltiness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too low: the steps alone add up to about 2 hours (about 1 hour first rise, 10 minutes kneading, 20 minutes second rise, 30-35 minutes baking, plus shaping and prep)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

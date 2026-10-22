@@ -39,10 +39,10 @@
  },
  "steps": {
   "tr": [
-   "Scotch bonnet biberlerinin saplarını çıkarın. Biberleri kesmeden önce ellerinizi ve kesme tahtasını iyice yıkayın; mümkünse eldiven kullanın.",
+   "Scotch bonnet biberlerinin saplarını çıkarın. Biberleri kesmeden önce ve sonra ellerinizi ve kesme tahtasını iyice yıkayın; mümkünse eldiven kullanın.",
    "Biberleri, soğanı, sarımsakları, havucu, kekiği ve suyu orta boy bir tencereye koyun.",
    "Karışımı kısık ateşte yaklaşık 10 dakika pişirin, havuç ve soğan yumuşayana kadar devam edin. Ocaktan alın ve kekik dallarını çıkarın.",
-   "Pişmiş karışımı, sirke, limon suyu, tuz ve şekerle birlikte blenderda pürüzsüz olana kadar çekin.",
+   "Pişmiş karışımı, sirke, limon suyu, tuz ve şekerle birlikte blender ile pürüzsüz olana kadar çekin.",
    "Sosu tencereye geri alıp 3 dakika kaynatın. Bu, tadın oturmasını ve sosun daha uzun süre dayanmasını sağlar.",
    "Sosu ılımaya bırakın, ardından temiz ve kuru bir cam şişeye aktarın.",
    "Buzdolabında en az 24 saat dinlendirin, ardından servis yapın. Açıldıktan sonra buzdolabında saklayın."
@@ -61,5 +61,14 @@
   "tr": "Scotch bonnet biberleri çok acıdır; sosu tatmadan önce bir kaşık yağ ya da biraz daha limon suyu ekleyerek acılığı dengeleyebilirsiniz.",
   "en": "Scotch bonnets are very hot; if the sauce is too fiery, stir in a spoonful of oil or a little more lime juice to balance the heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to wash hands and the cutting board only before cutting the peppers, while the English also requires washing after handling. The Turkish should match, since this is a food-safety p",
+   "Turkish step 4 uses 'blenderda', which is colloquial. 'blender ile' is the more natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -17,7 +17,7 @@
    "150 ml ılık su",
    "30 ml sıvı yağ (2 yemek kaşığı)",
    "5 g tuz (1 çay kaşığı)",
-   "250 g kremalı taze peynir (crème fraîche)",
+   "250 g ekşi krema (crème fraîche)",
    "2 g tuz (hamur dışındaki kısım için, çok az)",
    "2 orta boy soğan (yaklaşık 300 g)",
    "150 g küp doğranmış füme domuz pastırması (bacon)",
@@ -30,7 +30,7 @@
    "30 ml neutral oil (2 tablespoons)",
    "5 g salt (1 teaspoon)",
    "250 g crème fraîche",
-   "2 g salt (for the topping, a small pinch)",
+   "2 g salt (for the topping)",
    "2 medium onions (about 300 g)",
    "150 g smoked bacon, diced",
    "1 g ground black pepper",
@@ -42,10 +42,10 @@
    "Fırını en yüksek ısıya, yaklaşık 250 °C'ye ayarlayın ve içine pizza taşı ya da ters çevrilmiş büyük bir fırın tepsisi koyup ısıtın.",
    "Un, 5 g tuz, su ve 1 yemek kaşığı yağı bir kasede karıştırın. Yapışkanlığı azalana kadar yaklaşık 5 dakika yoğurun, sonra streçle örtüp 30 dakika dinlendirin.",
    "Soğanları çok ince halkalar halinde doğrayın. Domuz pastırmasını orta ateşte kendi yağında gevrekleşene kadar kızartın, kağıt havluya alın.",
-   "Krem fraîche'i 2 g tuz, karabiber ve hindistan cevizi ile tatlandırın.",
+   "Ekşi kremayı 2 g tuz, karabiber ve hindistan cevizi ile tatlandırın.",
    "Hamuru iki eşit parçaya bölün. Her parçayı unlu tezgahta çok ince, yaklaşık 30 cm çapında ya da dikdörtgen olacak şekilde açın.",
    "Açılmış hamurları fırın kağıdına ya da unlanmış pizza kürekine alın. Yüzeyine ince bir tabaka krema sürün, kenarlardan 1-2 cm boş bırakın.",
-   "Üzerine soğan halkalarını ve pastırma parçalarını serpin.",
+   "Üzerine soğan halkalarını ve pastırma parçalarını serpin. Kenarlara kalan yağın yarısını sürün.",
    "Hamuru ısıtılmış taşa ya da tepsiye kaydırıp 8-10 dakika, kenarları altın rengi ve hafif kararmış olana kadar pişirin.",
    "Sıcak sıcak dilimleyip servis yapın."
   ],
@@ -65,5 +65,15 @@
   "tr": "Hamuru mümkün olduğunca ince açın ve fırın ne kadar sıcaksa o kadar iyi sonuç alırsınız; ev fırınlarında pizza taşı ya da ters tepsi ile kısa sürede gevrek bir taban elde edilir.",
   "en": "Roll the dough as thin as you can and preheat the stone or tray thoroughly; a very hot surface gives the crisp, blistered base that makes a good Flammkuchen."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kremalı taze peynir' is wrong: crème fraîche is a cream (ekşi krema), not a cheese, and the description itself says 'ekşi krema'.",
+   "Turkish step 7 omits brushing the dough borders with the remaining oil, which the English step 7 includes. The Turkish and English versions disagree.",
+   "English ingredient '2 g salt (for the topping, a small pinch)' is inconsistent: 2 g is about half a teaspoon, not a pinch."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

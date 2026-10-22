@@ -21,7 +21,7 @@
    "1 küçük limonun suyu (yaklaşık 15 ml)",
    "1 küçük demet taze dereotu (yaklaşık 10 g), ince kıyılmış",
    "Tuz ve taze çekilmiş karabiber",
-   "4 yaprak marul",
+   "8 yaprak marul",
    "1/2 limon, dilimler halinde kesilmiş"
   ],
   "en": [
@@ -33,7 +33,7 @@
    "Juice of 1 small lemon (about 15 ml)",
    "1 small bunch fresh dill (about 10 g), finely chopped",
    "Salt and freshly ground black pepper",
-   "4 lettuce leaves",
+   "8 lettuce leaves",
    "1/2 lemon, cut into wedges"
   ]
  },
@@ -44,7 +44,7 @@
    "Çavdar ekmeği dilimlerinin bir yüzüne tereyağını ince bir tabaka halinde yayın.",
    "Her dilimin üzerine bir yaprak marul yerleştirin.",
    "Marulun üzerine yumurta dilimlerini dizin, ardından karidesleri ekleyin.",
-   "Her sandviçin üzerine bir kaşık dereotlu sos koyun ve kalan dereotuyla süsleyin.",
+   "Her dilimin üzerine bir kaşık dereotlu sos koyun ve kalan dereotuyla süsleyin.",
    "Limon dilimleriyle birlikte servis yapın."
   ],
   "en": [
@@ -53,13 +53,24 @@
    "Spread a thin layer of butter on one side of each slice of rye bread.",
    "Place a lettuce leaf on each slice.",
    "Arrange the egg pieces on the lettuce, then add the shrimp.",
-   "Spoon a little dill sauce onto each sandwich and garnish with the remaining dill.",
+   "Spoon a little dill sauce onto each slice and garnish with the remaining dill.",
    "Serve with the lemon wedges."
   ]
  },
  "tip": {
-  "tr": "Rugbrød'ü tereyağlarken kaba kesilmiş, tuzlu tereyağı tercih edin; böylece karides ve yumurtanın tadı daha iyi öne çıkar.",
+  "tr": "Rugbrød'e tereyağı sürerken hafif tuzlu tereyağı tercih edin; böylece karides ve yumurtanın tadı daha iyi öne çıkar.",
   "en": "Use lightly salted butter on the rye bread so the flavour of the shrimp and egg stands out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Lettuce quantity mismatch: 8 bread slices need 8 lettuce leaves (one per slice, per step 4), but only 4 are listed in both languages",
+   "Turkish tip is unnatural: 'kaba kesilmiş, tuzlu tereyağı' (coarse-cut, salted butter) is nonsensical for butter; the English says 'lightly salted butter' and the Turkish should match",
+   "Turkish tip sentence is awkwardly phrased ('Rugbrød'ü tereyağlarken')",
+   "Step 6 says 'sandviç' while steps 4-5 work per slice; made the wording consistent as per slice"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

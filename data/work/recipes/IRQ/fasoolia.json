@@ -9,7 +9,7 @@
   "en": "A green bean and meat stew from Iraq, cooked in a tomato sauce brightened with dried lime and served over rice. It is a common family lunch, especially on weekends and at gatherings."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -20,13 +20,14 @@
    "2 yemek kaşığı (30 g) domates salçası",
    "3 adet olgun domates (450 g), rendelenmiş",
    "60 ml sıvı yağ",
-   "1 litre su",
+   "1 litre su (yahni için)",
    "2 adet kuru limon (lomi)",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
    "1/2 çay kaşığı zerdeçal",
    "1/2 çay kaşığı kimyon",
-   "300 g baldo pirinç (basmati)",
+   "300 g basmati pirinci",
+   "1 litre su (pirinç için)",
    "1 tatlı kaşığı tuz (pirinç suyu için)"
   ],
   "en": [
@@ -37,13 +38,14 @@
    "2 tbsp (30 g) tomato paste",
    "3 ripe tomatoes (450 g), grated",
    "60 ml neutral oil",
-   "1 litre water",
+   "1 litre water (for the stew)",
    "2 dried limes (loomi), pricked",
    "1 tsp salt",
    "1/2 tsp black pepper",
    "1/2 tsp ground turmeric",
    "1/2 tsp ground cumin",
    "300 g basmati rice",
+   "1 litre water (for the rice)",
    "1 tsp salt (for the rice water)"
   ]
  },
@@ -53,7 +55,7 @@
    "Geniş bir tencerede 30 ml yağı orta-yüksek ateşte ısıtın. Kuzu etlerini partiler halinde 8-10 dakika, her yüzü kızarana kadar kavurun ve bir kenara alın.",
    "Kalan yağı ekleyin, soğanı altın rengi alana kadar 8 dakika kavurun. Sarımsakları ekleyip 1 dakika daha pişirin.",
    "Domates salçasını ekleyip 2 dakika kavurun. Rendelenmiş domatesleri ekleyip 5 dakika pişirin.",
-   "Eti tencereye geri koyun. Zerdeçal, kimyon, karabiber, tuz, delinmiş kuru limonlar ve 1 litre suyu ekleyin. Kaynatın, ateşi kısın ve kapağı kapalı olarak 45 dakika kısık ateşte pişirin.",
+   "Eti tencereye geri koyun. Zerdeçal, kimyon, karabiber, tuz, delinmiş kuru limonlar ve 1 litre suyu ekleyin. Kaynatın, ateşi kısın ve kapağı kapalı olarak 60 dakika kısık ateşte pişirin.",
    "Fasulyelerin uçlarını koparıp yaklaşık 5 cm'lik parçalara bölün. Tencereye ekleyip 25 dakika daha pişirin; sos çok koyulaşırsa biraz sıcak su ilave edin.",
    "Bu sırada 1 litre suyu 1 tatlı kaşık tuzla kaynatın, pirinci ekleyip 10-12 dakika haşlayın, süzün ve üzerine kısa süre sıcak bir bez örtün.",
    "Fasulyeler yumuşayınca kuru limonları çıkarın, tuzunu ve baharatını tadın. Pirinçle birlikte sıcak servis yapın."
@@ -63,7 +65,7 @@
    "Heat 30 ml of oil in a wide pot over medium-high heat. Brown the lamb in batches for 8-10 minutes, until every side is browned, then set aside.",
    "Add the remaining oil and fry the onion for about 8 minutes, until golden. Add the garlic and cook for 1 more minute.",
    "Stir in the tomato paste and fry for 2 minutes. Add the grated tomatoes and cook for 5 minutes.",
-   "Return the lamb to the pot. Add the turmeric, cumin, black pepper, salt, pricked dried limes and 1 litre of water. Bring to a boil, reduce the heat and simmer covered for 45 minutes.",
+   "Return the lamb to the pot. Add the turmeric, cumin, black pepper, salt, pricked dried limes and 1 litre of water. Bring to a boil, reduce the heat and simmer covered for 60 minutes.",
    "Trim the ends of the green beans and cut them into pieces about 5 cm long. Add them to the pot and simmer for 25 more minutes, adding a little hot water if the sauce gets too thick.",
    "Meanwhile, bring 1 litre of water with 1 tsp salt to a boil. Add the rice and boil for 10-12 minutes, then drain and cover with a towel for a few minutes.",
    "When the beans are tender, remove the dried limes and taste for salt and spices. Serve hot with the rice."
@@ -73,5 +75,16 @@
   "tr": "Kuru limonu hafifçe delerek ekleyin; sosa ekşi aroma verir ama acı yapmaması için pişirme sonunda çıkarın.",
   "en": "Prick the dried limes before adding them so they release their sour flavour, and remove them before serving to avoid any bitterness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'baldo pirinç' is a short-grain pudding rice, not basmati; the English says basmati",
+   "Rice boiling water (1 litre) appears in the steps but is missing from the ingredient lists in both languages",
+   "Lamb shoulder/shank simmered only 45 minutes before the beans were added, likely not tender enough; total time of 90 min is also too short for the steps listed",
+   "Simmer time changed to 60 min and total time to 120 min, so the lamb has time to become tender"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

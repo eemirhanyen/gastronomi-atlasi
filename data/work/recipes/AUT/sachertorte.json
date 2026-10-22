@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "3 adet yumurta, sarısı ve beyazı ayrılmış",
-   "75 g tereyağı, oda sıcaklığında",
+   "75 g tuzsuz tereyağı, oda sıcaklığında",
    "75 g toz şeker, kek için",
    "40 g toz şeker, beyaz için",
    "75 g bitter çikolata (%70 kakao), doğranmış",
@@ -81,5 +81,13 @@
   "tr": "Kaplamayı sıcak ama kaynamayan bir kıvamda dökün; çok sıcak olursa kenarlardan akar, çok soğursa pürüzlü görünür.",
   "en": "Pour the glaze when it is warm but no longer bubbling; if too hot it will run off the sides, and if too cool it will look dull and streaky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish butter ingredient omits 'tuzsuz' (unsalted), but the English version specifies 'unsalted butter'. The versions disagree on an ingredient detail."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

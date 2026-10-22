@@ -38,7 +38,7 @@
    "Hamura suyu ekleyin; kıvamı ince bir krema gibi olmalıdır. Hamuru oda sıcaklığında 15 dakika dinlendirin.",
    "Derin bir tencerede yağı 170-180°C'ye kadar ısıtın.",
    "Kokis kalıbını yaklaşık 1 dakika kızgın yağın içinde bekleterek iyice ısıtın.",
-   "Isınmış kalıbı hamura daldırın; hamur kalıbın yaklaşık üçte üçünü kaplayacak, ancak üst kısmını geçmeyecek şekilde ince bir tabaka oluşmalıdır.",
+   "Isınmış kalıbı hamura daldırın; hamur kalıbın yaklaşık üçte ikisini kaplayacak, ancak üst kısmını geçmeyecek şekilde ince bir tabaka oluşmalıdır.",
    "Kalıbı hemen kızgın yağa daldırın. Hamur kalıptan ayrılana kadar 1-2 dakika kızartın.",
    "Kokisin altın sarısı olduğunda tahta bir çubukla kalıptan çıkarıp sıcak yağdan süzgeçli kepçeyle alın ve kağıt havlu üzerine koyun.",
    "Kalan hamurla aynı işlemi tekrarlayın. Kalıbı her seferinde yağda yeniden ısıtmayı unutmayın.",
@@ -61,5 +61,13 @@
   "tr": "Kalıbı her daldırmadan önce kızgın yağda ısıtın; soğuk kalıp hamurun tutunmasını engeller ve kokislerin kalıptan ayrılmasını zorlaştırır.",
   "en": "Reheat the mold in the hot oil before every dip; a cold mold stops the batter from sticking and makes the kokis hard to release."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the batter should coat 'üçte üçünü' (three-thirds) of the mold but must not pass the top. That is self-contradictory and disagrees with the English 'about two-thirds of the way up'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Papanași",
  "desc": {
-  "tr": "Romanya'nın taze lor peynirli, halka şeklinde kızartılmış tatlısıdır. Genellikle kahvaltı sonrası ya da kış akşamlarında, üzerine ekşi krema ve vişne reçeli konularak sıcak servis edilir.",
+  "tr": "Romanya'nın taze lor peynirli, halka şeklinde kızartılmış tatlısıdır. Genellikle kahvaltıda, hafta sonları ya da kış aylarında ekşi krema ve vişne reçeli eklenerek sıcak servis edilir.",
   "en": "A Romanian dessert of fried, ring-shaped doughnuts made with fresh cheese. Traditionally served warm with sour cream and sour cherry jam, often for breakfast, on weekends, or as a winter treat."
  },
  "servings": 4,
@@ -67,5 +67,13 @@
   "tr": "Lor peynirini iyice süzmek hamuru yumuşak tutar; hamur çok yapışkan kalırsa unu azar azar ekleyin, fazla un ise papanaşileri sert yapar.",
   "en": "Draining the cheese well is key: if the dough is still sticky, add flour a spoonful at a time, but too much flour will make the papanași dense and dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English descriptions disagree: the Turkish says 'kahvaltı sonrası' (after breakfast) and omits weekends, while the English says 'for breakfast, on weekends'. The Turkish description was al"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

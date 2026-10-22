@@ -20,7 +20,7 @@
    "2 diş sarımsak, ezilmiş",
    "10 g ají panca salçası (yoksa 1 tatlı kaşığı tatlı kırmızı biber)",
    "2 g öğütülmüş kimyon",
-   "1 g kuru kekik veya kekik yerine kuru kekik",
+   "1 g kuru kekik (oregano)",
    "2 orta boy patates (300 g), küp doğranmış",
    "1 orta boy havuç (100 g), küp doğranmış",
    "100 g hazır haşlanmış mısır (mote)",
@@ -79,5 +79,14 @@
   "tr": "Chuño'yu daha uzun süre (gece boyunca) ıslatırsanız dokusu daha yumuşak olur; bulamazsanız aynı miktarda patatesi ekleyebilirsiniz ama çorbanın kendine özgü kıvamı biraz değişir.",
   "en": "Soak the chuño overnight for a softer texture; if you can't find it, use the same weight of potato, though the soup will lose some of its traditional character."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line 'kuru kekik veya kekik yerine kuru kekik' is garbled and circular; it should be a single clear herb entry.",
+   "Herb mismatch: the Turkish ingredient is kekik (thyme) while the English ingredient is dried oregano. Turkish 'kekik' commonly means oregano, so the Turkish line should specify oregano to match the En"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

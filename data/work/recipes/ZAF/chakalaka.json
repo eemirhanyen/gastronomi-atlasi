@@ -5,7 +5,7 @@
  },
  "native": "Chakalaka",
  "desc": {
-  "tr": "Güney Afrika'nın Johannesburg kasabalarında doğmuş, soğan, biber, domates ve köri baharatıyla yapılan acılı bir sebze garnitürüdür. Genellikle kaşarlı ekmek, pap (mısır lapası) ve mangal etiyle birlikte, günlük öğünlerde ve barbekü (braai) sofralarında servis edilir.",
+  "tr": "Güney Afrika'nın Johannesburg kasabalarında doğmuş, soğan, biber, domates ve köri baharatıyla yapılan acılı bir sebze garnitürüdür. Genellikle ekmek, pap (mısır lapası) ve mangal etiyle birlikte, günlük öğünlerde ve barbekü (braai) sofralarında servis edilir.",
   "en": "A spiced vegetable relish that originated in the townships of Johannesburg, built on onion, peppers, tomato and curry powder. It is usually served alongside pap (maize porridge), bread and grilled meats at everyday meals and braai (barbecue) gatherings."
  },
  "servings": 4,
@@ -57,7 +57,7 @@
    "Dolmalık biberi, havucu, yeşil biberi ve sarımsağı ekleyin. Sebzeler yumuşayana kadar karıştırarak yaklaşık 5 dakika pişirin.",
    "Köri tozunu, kişnişi, tatlı kırmızı biberi, kimyonu ve domates salçasını ekleyip 1 dakika sürekli karıştırın; baharatların kokusu çıkınca bir sonraki adıma geçin.",
    "Rendelenmiş domatesi, şekeri ve tuzu ekleyin. Ara ateşte, suyunu büyük ölçüde çekene ve kıvam koyulaşana kadar yaklaşık 10 dakika pişirin.",
-   "Fasulyeleri konservesinin suyuyla birlikte tencereye ekleyin, suyu ve ardından karışımı ara ateşte 10 dakika daha kaynatın. Gerekirse tuzunu ayarlayın.",
+   "Fasulyeleri konservesinin suyuyla birlikte tencereye ekleyin. 100 ml su veya sebze suyunu da ekleyip karışımı ara ateşte 10 dakika daha pişirin. Gerekirse tuzunu ayarlayın.",
    "Ocaktan alın, doğranmış taze kişnişle süsleyip sıcak servis yapın."
   ],
   "en": [
@@ -73,5 +73,14 @@
   "tr": "Kıvamı ayarlamak için pişirme süresini uzatın; daha kuru bir chakalaka istiyorsanız suyu tamamen buharlaştırın, daha yumuşak bir sos için ise biraz daha su ekleyin.",
   "en": "For a drier, relish-like texture, simmer longer until the liquid is fully reduced; for a looser sauce to serve with pap, add a splash more water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says \"kaşarlı ekmek\" (cheese bread), but the English says \"bread\" and no cheese appears anywhere in the recipe.",
+   "Turkish step 5 is ambiguous: \"suyu\" is unclear, and it does not explicitly say to add the 100 ml water or stock as the English does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

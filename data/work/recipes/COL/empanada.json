@@ -17,7 +17,7 @@
    "375 ml ılık su",
    "1 tatlı kaşığı tuz",
    "1/2 tatlı kaşığı toz zerdeçal",
-   "1 yemek kaşığı sıvı yağ",
+   "1 yemek kaşığı sıvı yağ (hamur için)",
    "250 g dana kıyma",
    "1 orta boy patates (yaklaşık 150 g), küp doğranmış",
    "1/2 soğan, ince doğranmış",
@@ -25,7 +25,7 @@
    "1 küçük domates, ince doğranmış",
    "1 tatlı kaşığı öğütülmüş kimyon",
    "1/2 tatlı kaşığı tatlı kırmızı biber",
-   "2 yemek kaşığı sıvı yağ (iç harcı için)",
+   "2 yemek kaşığı sıvı yağ (iç harç için)",
    "Tuz ve taze çekilmiş karabiber",
    "500 ml kızartma yağı"
   ],
@@ -53,10 +53,10 @@
    "Büyük bir tavada 2 yemek kaşığı sıvı yağı orta ateşte ısıtın. Soğanı ve sarımsağı 4-5 dakika, soğan yumuşayana kadar kavurun.",
    "Kıymayı ekleyip suyunu çekene ve kızarmaya başlayana kadar 6-7 dakika pişirin. Domates, kimyon, kırmızı biber, 1/2 tatlı kaşığı tuz ve karabiberi ekleyip 5 dakika daha kısık ateşte pişirin.",
    "Ezilmiş patatesi kıymalı harca karıştırın, tadına bakıp tuzunu ayarlayın ve tamamen soğumaya bırakın.",
-   "Büyük bir kapta tuzu ve zerdeçalı ılık suda eritin. Mısırununu azar azar ekleyip karıştırın.",
+   "Büyük bir kapta tuzu ve zerdeçalı ılık suda eritin. Mısır unu azar azar ekleyip karıştırın.",
    "Yağlanmış ellerle 3-5 dakika yoğurun. Hamur pürüzsüz ve elden yapışmayan bir kıvam alınca üzerini örtüp 10 dakika dinlendirin.",
    "Hamuru 12 eşit parçaya bölüp her birini (yaklaşık 50 g) top haline getirin. Yağlanmış plastik folyo arasına koyup elinizle veya hafif bir tabakla yaklaşık 10 cm çapında, ince bir daire açın.",
-   "Dairenin bir yarısına bir yemek kaşığı kadar iç harç koyun. Diğer yarısını üzerine katlayarak yarım ay şekli verin ve kenarlarını çatalla bastırıp kapatın.",
+   "Dairenin bir yarısına yaklaşık 2 yemek kaşığı iç harç koyun. Diğer yarısını üzerine katlayarak yarım ay şekli verin ve kenarlarını çatalla bastırıp kapatın.",
    "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın. Empanadaları partiler halinde, her iki yüzü altın rengi olana kadar, toplam 6-8 dakika kızartın.",
    "Kağıt havluya alıp fazla yağını süzdürün ve sıcak servis yapın."
   ],
@@ -68,14 +68,25 @@
    "In a large bowl, dissolve the salt and turmeric in the warm water. Gradually add the cornmeal, stirring constantly.",
    "Knead with lightly oiled hands for 3-5 minutes until the dough is smooth and no longer sticky. Cover and rest for 10 minutes.",
    "Divide the dough into 12 equal pieces (about 50 g each) and roll each into a ball. Place a ball between two sheets of oiled plastic and flatten with your hand or a flat plate into a circle about 10 cm across.",
-   "Place 1 tablespoon of filling on one half of the circle. Fold the other half over to make a half-moon and press the edges firmly together with a fork.",
+   "Place about 2 tablespoons of filling on one half of the circle. Fold the other half over to make a half-moon and press the edges firmly together with a fork.",
    "Heat the frying oil in a deep pot to 180°C. Fry the empanadas in batches for a total of 6-8 minutes, turning once, until golden on both sides.",
    "Drain on kitchen paper to remove excess oil and serve hot."
   ]
  },
  "tip": {
-  "tr": "Hamur çatlarsa biraz ılık su ekleyip yeniden yoğurun; iç harç kesinlikle soğumadan konulmamalıdır, aksi halde hamur yırtılır.",
+  "tr": "Hamur çatlarsa biraz ılık su ekleyip yeniden yoğurun; iç harç kesinlikle soğumadan konulmamalıdır, aksi halde hamur yırtılır. Taze bir ají sosu ile servis edin: doğranmış domates, soğan, kişniş ve limon suyu.",
   "en": "If the dough cracks, knead in a little more warm water; always make sure the filling is completely cool, or the dough may tear while frying. Serve with a fresh ají sauce of chopped tomato, onion, cilantro and lime juice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 has a typo: 'Mısırununu' should be 'mısır unu'.",
+   "Turkish dough oil ingredient lacks the '(hamur için)' label that the English version has, so the two lists differ.",
+   "Turkish tip omits the ají sauce serving suggestion that appears in the English tip.",
+   "Filling quantity doesn't match the batch: about 400 g of meat and potato plus aromatics fills far more than 12 x 1 tbsp, so the filling would be left over."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

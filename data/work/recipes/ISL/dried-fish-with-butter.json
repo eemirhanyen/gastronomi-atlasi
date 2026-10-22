@@ -9,7 +9,7 @@
   "en": "A traditional Icelandic snack of wind-dried haddock or cod, served with butter. It is eaten year-round but is especially popular in the cold winter months, often with coffee or during long conversations."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 40,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -41,7 +41,16 @@
  },
  "tip": {
   "tr": "Balığı dövmeden önce kısa süreliğine ılık suya tutmak dokusunu yumuşatır, ancak tadı ve çıtırlığı azalır; geleneksel olan kuru haliyle servis etmektir.",
-  "en": "Pound the fish gently and avoid over-soaking it; traditionally it is served dry and crisp, with the butter doing the work of flavour."
+  "en": "Briefly soaking the fish in lukewarm water before pounding softens its texture, but it reduces the flavour and crispness; traditionally it is served dry, with the butter doing the work of flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (20) does not match the steps: pounding takes 5-10 minutes and the butter needs about 30 minutes to soften, so the total is about 40 minutes",
+   "The English tip does not match the Turkish tip. The Turkish tip describes briefly soaking the fish in lukewarm water and its effect on texture and flavour, but the English tip only says to avoid over-"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

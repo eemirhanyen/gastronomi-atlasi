@@ -9,7 +9,7 @@
   "en": "A sweet of Portuguese origin made from coconut and sugar. In São Tomé and Príncipe it is eaten as an everyday snack and dessert, and sold at markets and festivals."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -33,7 +33,7 @@
  },
  "steps": {
   "tr": [
-   "Hindistan cevizini kabuğundan ayırıp ince rendeleyin ya da hazır rendelenmiş olanı kullanın.",
+   "Hindistan cevizini kabuğundan ayırıp kahverengi ince zarını soyun, ardından ince rendeleyin ya da hazır rendelenmiş olanı kullanın.",
    "Bir fırın tepsisine parşömen kağıdı serin ve tereyağı ile hafifçe yağlayın, kenara alın.",
    "Geniş bir tencereye şekeri ve suyu koyun, orta ateşte karıştırarak şeker tamamen eriyene kadar ısıtın.",
    "Şurup kaynamaya başlayınca rendelenmiş hindistan cevizini, limon kabuk rendesini ve tuzu ekleyin.",
@@ -57,5 +57,14 @@
   "tr": "Karışımı pişirirken sık karıştırın; tencerenin dibi tutarsa tatlı acılaşır. Cocada soğudukça sertleştiği için kıvamını çok koyulaştırmayın.",
   "en": "Stir often while cooking, as a scorched base will make the sweet bitter. Cocada firms up as it cools, so do not overcook it to a very stiff texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: about 10 min prep, 15-20 min cooking and about 1 hour of cooling add up to roughly 90 minutes",
+   "English step 1 says to remove the brown skin from the coconut, but the Turkish version omits this step"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Sarmale (Romen Lahana Sarması)",
+  "tr": "Sarmale (Romanya Usulü Turşu Lahana Sarması)",
   "en": "Sarmale (Romanian Sour Cabbage Rolls)"
  },
  "native": "Sarmale",
@@ -14,8 +14,8 @@
  "ingredients": {
   "tr": [
    "12 büyük yaprak turşu lahana (yaklaşık 600 g)",
-   "300 g dana/domuz karışımı kıyma (300 g domuz, 200 g sığır da olabilir)",
-   "200 g dana kıyma",
+   "300 g domuz kıyması",
+   "200 g dana kıyması",
    "80 g kısa taneli pirinç, yıkanmış",
    "1 orta boy soğan (120 g), ince doğranmış",
    "15 ml ayçiçek yağı",
@@ -56,8 +56,8 @@
  "steps": {
   "tr": [
    "Turşu lahana yapraklarını akan soğuk suyla iyice yıkayın, ardından ılık suda 10 dakika bekletin ki tuzu azalsın. Kalın orta damarları bıçakla hafifçe inceltin.",
-   "Ayçiçek yağını geniş bir tencerede ısıtın, doğranmış soğanı yumuşayana ve hafifçe pembeleşene kadar yaklaşık 5 dakika kavurun. Tamamen soğumaya bırakın.",
-   "Büyük bir kapta domuz ve dana kıymayı, rendelenmiş ya da ince doğranmış soğan kavurmasını, yıkanmış pirinci, tatlı kırmızı biberi, kuru çaydanotunu, tuzu ve karabiberi iyice yoğurun.",
+   "Ayçiçek yağını geniş bir tencerede ısıtın, doğranmış soğanı yumuşayana ve hafifçe altın rengi alana kadar yaklaşık 5 dakika kavurun. Tamamen soğumaya bırakın.",
+   "Büyük bir kapta domuz ve dana kıymayı, soğan kavurmasını, yıkanmış pirinci, tatlı kırmızı biberi, kuru çaydanotunu, tuzu ve karabiberi iyice yoğurun.",
    "Her lahana yaprağının dibine bir yemek kaşığı kadar iç harcı koyun, yanlarını içe katlayıp sıkıca sarın. Sarma kıvamına gelene kadar tüm yaprakları bu şekilde hazırlayın.",
    "Tencerenin tabanına kırık lahana parçalarını dizin. Füme pirzolaları ve defne yapraklarını ekleyin, ardından sarmaları dikiş yerleri aşağı bakacak şekilde sıkı sıkıya yan yana dizin.",
    "Domates salçasını 500 ml suda eritip sarmaların üzerine dökün. Gerekirse su ekleyerek sarmaların yüzeyden hafifçe yukarı çıkmasına izin verecek kadar sıvı olsun.",
@@ -81,5 +81,16 @@
   "tr": "Turşu lahanayı çok tuzlu bulursanız yaprakları yıkamayı ve suda bekletmeyi uzatın; pişirirken tencereye ekstra tuz eklemeyin.",
   "en": "If the cabbage tastes too salty, soak it for longer and rinse again; do not add extra salt to the pot, as the smoked meat and pickled leaves already season the dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish meat ingredients are ambiguous and duplicated: the first line reads '300 g dana/domuz karışımı kıyma (300 g domuz, 200 g sığır da olabilir)' and a second line lists '200 g dana kıyma'. The Eng",
+   "The Turkish name 'Romen Lahana Sarması' is an unnatural and misleading translation of 'Romanian'; 'Romen' in Turkish usually refers to the Roma people.",
+   "Turkish step 2 says the onion should turn 'pembeleşene' (pinkish), which is unnatural for onion. The English says 'lightly golden', so the Turkish should say 'hafifçe altın rengi alana kadar'.",
+   "Turkish step 3 says 'rendelenmiş ya da ince doğranmış soğan', but the ingredient is listed only as finely chopped, so 'rendelenmiş' is inconsistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

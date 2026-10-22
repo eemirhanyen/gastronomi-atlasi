@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "1,2 kg tavuk budu, parçalanmış",
+   "1,2 kg tavuk parçaları (but, baget ve kanat), parçalanmış",
    "2 yemek kaşığı (30 ml) palm yağı veya ayçiçek yağı",
    "2 büyük soğan (300 g), ince halka doğranmış",
    "4 diş sarımsak, ezilmiş",
@@ -75,5 +75,13 @@
   "tr": "Kedjenou'nun özü, sıvı eklemeden sıkı kapalı kapta pişirmektedir; kapağı çok sık açmak buharı kaçırır ve sosun yoğunlaşmasını engeller.",
   "en": "The essence of kedjenou is cooking in a tightly sealed pot without adding much liquid; lifting the lid too often lets steam escape and stops the sauce from concentrating."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists only 'tavuk budu' (thighs), but the English version lists thighs, drumsticks and wings. The chicken description must match in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

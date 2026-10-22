@@ -44,8 +44,8 @@
    "Unu azar azar ekleyin, ılık suyu da ilave ederek yumuşak, biraz yapışkan bir hamur elde edin.",
    "Hamuru örtün ve yaklaşık 20 dakika dinlendirin.",
    "Derin bir tencerede yağı 170-180 °C'ye kadar ısıtın.",
-   "Iki kaşığı yağa batırıp hamurdan cevizden biraz büyük parçalar alın ve kızgın yağa bırakın.",
-   "Priganiceleri orta ateşte, kabarıp altın sarısı olana kadar her iki tarafta yaklaşık 3-4 dakika kızartın.",
+   "İki kaşığı yağa batırıp hamurdan cevizden biraz büyük parçalar alın ve kızgın yağa bırakın.",
+   "Priganiceleri orta ateşte, ara ara çevirerek, kabarıp altın sarısı olana kadar toplamda yaklaşık 3-4 dakika kızartın.",
    "Kağıt havlu serili bir tabağa alıp yağını süzdürün.",
    "Sıcakken toz şekerle serpin ve ufalanmış beyaz peynirle birlikte servis yapın."
   ],
@@ -65,5 +65,14 @@
   "tr": "Yağın sıcaklığını bir termometreyle kontrol edin; yağ çok sıcak olursa dış kısmı hızla kararır, iç kısmı hamurlu kalır.",
   "en": "Check the oil with a thermometer; if it is too hot the outside browns quickly while the centre stays doughy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time disagrees between versions: the Turkish step says 3-4 minutes on each side (about 6-8 in total), while the English says 3-4 minutes in total.",
+   "Minor typo: 'Iki' should be 'İki' in Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -52,9 +52,9 @@
    "Ekşi turunç suyu, ezilmiş sarımsak, doğranmış taze soğan, kekik, maydanoz, tuz ve karabiberi büyük bir kasede karıştırın.",
    "Tavukları ekleyip marinenin her yerini kaplayacak şekilde iyice ovalayın. Kapağını örterek en az 30 dakika, tercihen bir gece buzdolabında bekletin.",
    "Bütün Scotch bonnet biberini bıçakla birkaç yerinden çizin ve marineye ekleyin. Tavukları marinasından ayırmadan önce biberin acısının yemeğe geçmemesi için dikkatli olun.",
-   "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Tavukları marinasından süzüp derisi altın rengi olana kadar, parti parti, her yüzü yaklaşık 4-5 dakika kızartın. Bir tabağa alın.",
+   "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Tavukları marinasından süzün, marinayı ayrı bir kaba saklayın. Tavukları derisi altın rengi olana kadar, parti parti, her yüzü yaklaşık 4-5 dakika kızartın. Bir tabağa alın.",
    "Aynı tencerede soğanı ve dolmalık biberi yumuşayana kadar yaklaşık 5 dakika sote edin.",
-   "Domates salçasını ekleyip 1 dakika kavurun, ardından kalan marinayı ve tavuk suyunu dökün.",
+   "Domates salçasını ekleyip 1 dakika kavurun, ardından saklanan marinayı ve tavuk suyunu dökün.",
    "Tavukları tencereye geri koyun, çizilmiş Scotch bonnet biberini de ekleyin. Kapağını kapatıp kısık ateşte 35-40 dakika, tavuklar çok yumuşayana kadar pişirin.",
    "Kapağı açın, sosu orta ateşte 5-10 dakika daha kısın. Biberi çıkarıp atın, tadını kontrol edin ve gerekirse tuz ekleyin. Limon dilimleriyle pilav ve fasulye eşliğinde sıcak servis yapın."
   ],
@@ -73,5 +73,13 @@
   "tr": "Biberi bütün ve çizik halde pişirmek yemeğe aroma verir ama acıyı fazla yaymaz; sosu daha acılı isterseniz biberi kesip ekleyin, ama ellerinizi yıkamayı unutmayın.",
   "en": "Cooking the scotch bonnet whole gives aroma without much heat; for a spicier sauce, slice it before adding and wash your hands well afterwards."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 does not say to reserve the marinade when draining the chicken, but the English step does and step 6 relies on it (\"kalan marinayı\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

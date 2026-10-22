@@ -9,7 +9,7 @@
   "en": "A green rice dish of spinach and fresh herbs, served in Afghanistan at festive meals, for guests, and on Friday evenings. It usually accompanies lamb or chicken dishes."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -87,5 +87,13 @@
   "tr": "Pilavın altındaki kıtır tabakanın yanmaması için ısıyı mutlaka kısın ve tencere kapağını bezle sararak buharın damlamasını önleyin.",
   "en": "Keep the heat low and wrap the lid in a towel so steam does not drip back, which keeps the rice fluffy and the bottom crisp rather than burnt."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to roughly 2 hours: a 30-minute soak, about 6 minutes parboiling, 8 minutes frying onion, 5 minutes for herbs, and 45 minutes of steaming and resting, plus prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

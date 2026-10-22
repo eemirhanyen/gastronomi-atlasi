@@ -50,12 +50,12 @@
  "steps": {
   "tr": [
    "Hamuru hazırlamak için unu tuzla birlikte geniş bir kaseye alın, ortasında bir çukur açın. Yumurtayı, sirkeyi, yağı ve ılık suyu ekleyip yumuşak ve elastik bir hamur elde edene kadar 8-10 dakika yoğurun.",
-   "Hamuru yağlanmış bir kâseye yerleştirin, üzerini örtün ve oda sıcaklığında 30 dakika dinlendirin.",
+   "Hamuru yağlanmış bir kaseye yerleştirin, üzerini örtün ve oda sıcaklığında 30 dakika dinlendirin.",
    "İç harcı için tereyağını orta ateşte bir tavada eritin, galeta unu veya ekmek kırıntısını ekleyip altın rengi olana kadar 4-5 dakika kavurun. Ocaktan alıp soğumaya bırakın.",
    "Elmaları soyun, çekirdek yuvasını çıkarıp ince dilimler halinde doğrayın. Bir kaseye alıp toz şeker, tarçın, kuru üzüm, ceviz, limon kabuğu ve limon suyu ile karıştırın.",
    "Fırını 190°C'ye ısıtın. Fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Temiz bir mutfak bezinin üzerine un serperek hamuru ortadan başlayarak uzatın. Ardından hamuru tezgâhın üzerinde, elinizin sırtını kullanarak, neredeyse şeffaf olana kadar çok ince açın. Kenarlarındaki kalın kısımları kesip atın.",
-   "İnce açılan hamurun yüzeyini eritilmiş tereyağıyla fırçalayın, kenarlardan yaklaşık 3 cm boşluk bırakarak kıvamlanmış kırıntıları serpin.",
+   "İnce açılan hamurun yüzeyini eritilmiş tereyağıyla fırçalayın, kenarlardan yaklaşık 3 cm boşluk bırakarak kavrulmuş kırıntıları serpin.",
    "Elma harcını kırıntıların üzerine dağıtın. Yan kenarları içe doğru katlayın, bezin yardımıyla uzun kenardan sıkıca sarın.",
    "Strüdeli dikişi aşağı gelecek şekilde pişirme kağıdına alın, üzerini kalan tereyağıyla fırçalayın.",
    "35-40 dakika, yüzeyi altın rengi olana kadar pişirin.",
@@ -79,5 +79,13 @@
   "tr": "Hamuru açarken kenarlarda delik oluşursa kenarları kesip atın; yine de ortadaki ince kısım harca yeterince dayanır.",
   "en": "If the dough tears while stretching, trim the thin spots off; the centre will still hold the filling well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"kıvamlanmış kırıntıları\" (thickened crumbs), which is a mistranslation. The English says \"toasted breadcrumbs\", so the Turkish should be \"kavrulmuş kırıntıları\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -30,7 +30,7 @@
   ],
   "en": [
    "8 wooden skewers (soaked in water for 30 minutes)",
-   "600 g beef sirloin or ribeye",
+   "600 g beef tenderloin or ribeye",
    "150 g onion (1 medium, grated)",
    "60 ml vegetable oil (groundnut oil preferred)",
    "120 g roasted unsalted peanuts",
@@ -48,7 +48,7 @@
  "steps": {
   "tr": [
    "Yer fıstıklarını blenderda kaba toz olana kadar çekin; tam pudra kıvamına getirmeyin.",
-   "Fıstık tozunu acı kırmızı biber, tatlı kırmızı biber, zencefil, sarımsak tozu, soğan tozu, karabiber ve tuzla iyice karıştırarak yaji baharatını hazırlayın.",
+   "Fıstık tozunu acı kırmızı biber, tatlı kırmızı biber, zencefil, sarımsak tozu, soğan tozu, karabiber ve tuzla iyice karıştırarak yaji baharatını hazırlayın. Servis için 2 yemek kaşığı yajiyi ayırın.",
    "Dana etini tane yönüne dik olarak yaklaşık 15 cm uzunluğunda, 0,5 cm kalınlığında ince şeritler halinde kesin.",
    "Et şeritlerini şişlere S şekli verecek biçimde dizin.",
    "Rendelenmiş soğanı ve 60 ml yağı bir kasede karıştırın. 30 g yaji baharatını ekleyip macun kıvamına getirin.",
@@ -76,5 +76,14 @@
   "tr": "Etleri kesmeden önce kısmen dondurursanız, tane yönüne dik ince dilimler çok daha kolay ve eşit kesilir.",
   "en": "Partially freeze the beef for 20 minutes before slicing; it makes thin, even strips across the grain much easier to cut."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'bonfile' (tenderloin) does not match English 'beef sirloin'. English now says 'beef tenderloin'.",
+   "English step 2 says to set aside 2 tablespoons of yaji for finishing, but the Turkish step 2 omits this. Turkish step 2 now includes the reserve."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

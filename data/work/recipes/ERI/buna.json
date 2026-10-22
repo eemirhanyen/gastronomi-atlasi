@@ -27,7 +27,7 @@
   "tr": [
    "Yeşil kahve çekirdeklerini temiz ve kuru bir tavaya koyun. Orta ateşte, sürekli karıştırarak 10-15 dakika kavurun; çekirdekler koyu kahverengi olup çıtırdayıp kokusu yayılana kadar devam edin.",
    "Kavrulmuş çekirdekleri tamamen soğutun, ardından havan veya değirmende orta-ince bir toz haline getirin.",
-   "Kil cezve (jebena) ya da küçük bir tencereye 700 ml suyu koyup orta-yüksek ateşte kaynatın.",
+   "Kil kahve potu (jebena) ya da küçük bir tencereye 700 ml suyu koyup orta-yüksek ateşte kaynatın.",
    "Kaynayan suya kahve tozunu ekleyip karıştırın ve yeniden kaynamaya bırakın. Yaklaşık 3-4 dakika kaynatın.",
    "Ocaktan alın ve telvenin dibe çökmesi için yaklaşık 2 dakika bekleyin.",
    "İsteğe bağlı şekeri ekleyip hafifçe karıştırın.",
@@ -49,5 +49,13 @@
   "tr": "Çekirdekleri kavururken kahve yanmamalı; koyu kahverengi ve hafif yağlı görünümde olmalı, aksi halde demleme acı çıkar.",
   "en": "Roast the beans until dark brown but not burnt; scorched beans make the coffee bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 calls the jebena a 'cezve', but a cezve is a different, Turkish-style pot. The English text correctly says 'clay coffee pot (jebena)', so the Turkish term should be 'kil kahve potu (jeb"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

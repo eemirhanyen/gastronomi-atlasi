@@ -19,11 +19,11 @@
    "2 cm taze zencefil, rendelenmiş",
    "2 yeşil biber, boylamasına çizilmiş",
    "15 adet kari yaprağı",
-   "2 tatlı kaşığı (2 g) zerdeçal",
+   "2 tatlı kaşığı (5 g) zerdeçal",
    "1 tatlı kaşığı (3 g) kırmızı pul biber",
    "1,5 tatlı kaşığı (9 g) tuz",
    "2 yemek kaşığı (30 ml) bitkisel yağ",
-   "1 yemek kaşığı (15 ml) rihaakuru (isteğe bağlı)",
+   "1 yemek kaşığı (15 ml) rihaakuru",
    "100 ml su",
    "200 ml kıvamlı hindistan cevizi sütü",
    "1 yemek kaşığı (15 ml) limon suyu"
@@ -35,11 +35,11 @@
    "2 cm fresh ginger, grated",
    "2 green chilies, slit lengthwise",
    "15 curry leaves",
-   "2 tsp (2 g) ground turmeric",
+   "2 tsp (5 g) ground turmeric",
    "1 tsp (3 g) chili powder",
    "1.5 tsp (9 g) salt",
    "2 tbsp (30 ml) vegetable oil",
-   "1 tbsp (15 ml) rihaakuru (optional)",
+   "1 tbsp (15 ml) rihaakuru",
    "100 ml water",
    "200 ml thick coconut milk",
    "1 tbsp (15 ml) lime juice"
@@ -52,8 +52,8 @@
    "Kırmızı pul biberi ekleyip 30 saniye karıştırın.",
    "Marine edilmiş ton balıklarını tencereye ekleyin ve yüzeyleri hafifçe renk alana kadar 3 dakika nazikçe karıştırarak kavurun.",
    "Suyu ekleyin, kapağı kapatıp kısık ateşte 10 dakika pişirin.",
-   "Rihaakuru kullanıyorsanız, bir kaşık sıcak pişirme suyuyla eritip tencereye ekleyin. Hindistan cevizi sütünü ve kalan tuzu ilave edin.",
-   "Kapağı açık bırakarak kısık ateşte 5 dakika, sos kıvamlanana kadar pişirin. Sos kaynamamalı, sadece hafifçe kıvırcık kabarcık vermelidir.",
+   "Rihaakuru'yu bir kaşık sıcak pişirme suyuyla eritip tencereye ekleyin. Hindistan cevizi sütünü ve kalan tuzu ilave edin.",
+   "Kapağı açık bırakarak kısık ateşte, sos kıvamlanana kadar yaklaşık 5 dakika pişirin. Sos kuvvetli kaynamamalı; yüzeyde yalnızca hafif kabarcıklar oluşmalıdır.",
    "Ocaktan alıp limon suyunu ekleyin, tadına bakıp gerekirse tuz ayarlayın. Sıcak pirinç pilavıyla servis yapın."
   ],
   "en": [
@@ -62,14 +62,25 @@
    "Stir in the chili powder and cook for 30 seconds.",
    "Add the marinated tuna and stir gently for 3 minutes until the pieces lightly colour on the outside.",
    "Pour in the water, cover and simmer on low heat for 10 minutes.",
-   "If using rihaakuru, dissolve it in a spoonful of the hot cooking liquid and add it to the pot. Stir in the coconut milk and the remaining salt.",
+   "Dissolve the rihaakuru in a spoonful of the hot cooking liquid and add it to the pot. Stir in the coconut milk and the remaining salt.",
    "Simmer uncovered on low heat for about 5 minutes until the sauce thickens. Do not let it boil hard.",
    "Remove from the heat, stir in the lime juice and taste, adjusting salt if needed. Serve hot with plain rice."
   ]
  },
  "tip": {
-  "tr": "Ton balığı kuru ve et gibi dağılmayan parçalar halinde kalması için sosu kaynatmayın; kısık ateşte pişirin.",
+  "tr": "Hindistan cevizi sütü eklendikten sonra ateşi kısık tutun; ton balığı yumuşak kalsın ve sos ayrışmasın diye sosu kaynatmayın.",
   "en": "Keep the heat low once the coconut milk goes in so the tuna stays tender and the sauce does not split."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turmeric amount is implausible: 2 tsp of ground turmeric weighs about 4-6 g, not 2 g (TR and EN).",
+   "Rihaakuru is labelled optional, but it is a defining ingredient of mas riha; the steps also treat it as conditional. Made it required in both languages.",
+   "Turkish step 7 is unnatural: 'kıvırcık kabarcık' is not a real cooking term and 'kaynamamalı' is vague. Rewritten to match the English ('do not let it boil hard').",
+   "Turkish tip says the tuna should not be 'kuru' (dry), which is an awkward and misleading phrasing of the English 'tender'. Reworded."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -46,22 +46,22 @@
  "steps": {
   "tr": [
    "Tomatillo'ları, serrano biberlerini, sarımsağı ve iri doğranmış soğanı 150 ml suyla birlikte küçük bir tencerede orta ateşte 8 dakika haşlayın; tomatillolar rengini zeytin yeşiline çevirip yumuşayınca ocaktan alın.",
-   "Haşlanmış sebzeleri, pişme suyuyla birlikte, kişniş yapraklarının yarısı ve tuzla blenderdan geçirerek pürüzsüz bir salsa verde hazırlayın.",
+   "Haşlanmış sebzeleri, pişme suyuyla birlikte, kişniş yapraklarının yarısı ve 1/2 tatlı kaşık tuzla blenderdan geçirerek pürüzsüz bir salsa verde hazırlayın.",
    "Kızartma yağını geniş bir tavada orta-yüksek ateşte yaklaşık 175°C'ye kadar ısıtın. Tortilla parçalarını partiler halinde 1-2 dakika, hafif altın rengi alana kadar kızartın.",
    "Kızarmış tortillaları kağıt havluya alıp yağını süzdürün. Tavadaki yağı dökün, sadece 1 tatlı kaşık yağ bırakın ve bu yağı yumurtalar için ayırın.",
-   "Tavaya salsa verde ekleyin ve orta ateşte 4 dakika, ara sıra karıştırarak kaynatın. Doğranmış 1/4 soğanın yarısını ve 1/2 tatlı kaşık tuzu ekleyin.",
+   "Tavaya salsa verde ekleyin ve orta ateşte 4 dakika, ara sıra karıştırarak kaynatın. Doğranmış 1/4 soğanın yarısını ve 1/4 tatlı kaşık tuzu ekleyin.",
    "Kızarmış tortilla parçalarını salsaya ekleyip 1 dakika karıştırın. Tortillalar sosu emip yumuşasın ama tamamen dağılmasın; biraz çıtırlık kalmalıdır.",
-   "Ayırdığınız yağda başka bir tavada yumurtaları göz yumurtası şeklinde pişirin; yumurta beyazı tam olarak piştiğinde tuz serpin.",
+   "Ayırdığınız yağda başka bir tavada yumurtaları göz yumurtası şeklinde pişirin; yumurta beyazı tam olarak piştiğinde kalan 1/4 tatlı kaşık tuzu serpin.",
    "Chilaquiles'i tabaklara paylaştırın. Üzerine krema, ufalanmış peynir, kalan soğan ve kişniş yapraklarını serpin. Her porsiyonun üstüne bir yumurta koyup hemen servis yapın."
   ],
   "en": [
    "Put the tomatillos, serrano chiles, garlic and roughly chopped onion in a small saucepan with 150 ml water. Simmer over medium heat for 8 minutes, until the tomatillos turn olive green and soft, then remove from the heat.",
-   "Blend the softened vegetables with their cooking liquid, half of the cilantro leaves and the salt until you have a smooth salsa verde.",
+   "Blend the softened vegetables with their cooking liquid, half of the cilantro leaves and 1/2 tsp of the salt until you have a smooth salsa verde.",
    "Heat the frying oil in a wide skillet over medium-high heat to about 175°C. Fry the tortilla quarters in batches for 1 to 2 minutes, until light golden.",
    "Drain the fried tortillas on paper towels. Pour off the oil from the skillet, leaving only 1 tsp, and set that aside for the eggs.",
-   "Add the salsa verde to the skillet and simmer over medium heat for 4 minutes, stirring now and then. Stir in half of the chopped onion and 1/2 tsp of the salt.",
+   "Add the salsa verde to the skillet and simmer over medium heat for 4 minutes, stirring now and then. Stir in half of the chopped onion and 1/4 tsp of the salt.",
    "Add the fried tortilla pieces to the sauce and toss for 1 minute. They should soften and absorb the sauce but still keep some crunch.",
-   "Fry the eggs in the reserved oil in a separate pan until the whites are set, then season with the remaining salt.",
+   "Fry the eggs in the reserved oil in a separate pan until the whites are set, then season with the remaining 1/4 tsp of salt.",
    "Divide the chilaquiles among plates. Top with crema, crumbled cheese, the remaining onion and cilantro. Place an egg on each portion and serve immediately."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Tortillaları bir gün önceden alıp hafifçe kurutursanız kızartma sırasında daha az yağ çeker ve sosta dağılmadan daha iyi kalır.",
   "en": "Use tortillas that are a day old and slightly dry. They absorb less oil when fried and hold their shape better in the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is double-counted: step 2 adds salt with no amount, step 5 adds 1/2 tsp, and step 7 uses 'the remaining salt'. Together these exceed the 1 tsp (6 g) listed, and nothing is left for the eggs. The ",
+   "Turkish step 2 says 'tuzla' with no quantity, so the amount is unclear."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

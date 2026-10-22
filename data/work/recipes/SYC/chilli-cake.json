@@ -60,8 +60,16 @@
   ]
  },
  "tip": {
-  "tr": "Biberin acılığını ayarlamak için çekirdeklerini çıkarın; daha yumuşak bir tat için biberi azaltın.",
+  "tr": "Daha ılımlı bir versiyon için biberlerin çekirdeklerini çıkarın; ateşli bir tat istiyorsanız biber ekleyin. Kekler yağlı olmasın diye yağ sıcaklığını sabit tutun.",
   "en": "Remove the seeds from the chillies for a milder version, or add more for a fiery one, and keep the oil temperature steady so the cakes do not turn greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip does not match the English tip: it omits the option to add more chilli for a fiery version and the advice to keep the oil temperature steady so the cakes do not turn greasy."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

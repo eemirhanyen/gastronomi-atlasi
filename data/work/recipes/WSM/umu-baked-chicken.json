@@ -5,15 +5,15 @@
  },
  "native": "Moa umu",
  "desc": {
-  "tr": "Samoa'da umu adı verilen toprak fırında, hindistancevizi kreması ve soğanla hazırlanan, yaprağa sarılarak pişirilen geleneksel bir tavuk yemeğidir. Aile toplantılarında, düğünlerde ve özel günlerde servis edilir.",
-  "en": "A traditional Samoan dish of chicken braised in coconut cream and onion, wrapped in leaves and cooked in an earth oven called an umu. It is served at family gatherings, weddings and special occasions."
+  "tr": "Samoa'da umu adı verilen toprak fırında, hindistancevizi kreması ve soğanla hazırlanan, yaprağa sarılarak pişirilen geleneksel bir tavuk yemeğidir. Bu tarif, geleneksel toprak fırın yerine ev fırınında pişirmeye uyarlanmıştır. Aile toplantılarında, düğünlerde ve özel günlerde servis edilir.",
+  "en": "A traditional Samoan dish of chicken braised in coconut cream and onion, wrapped in leaves and traditionally cooked in an earth oven called an umu. This recipe adapts it for a home oven. It is served at family gatherings, weddings and special occasions."
  },
  "servings": 4,
  "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1,2 kg kemikli tavuk parçası (but ve baget)",
+   "1,2 kg kemikli tavuk parçası (4 adet but ve 4 adet baget)",
    "400 ml hindistancevizi kreması",
    "250 g orta boy soğan (2 adet)",
    "1 limonun suyu (yaklaşık 30 ml)",
@@ -22,7 +22,7 @@
    "4 adet büyük muz yaprağı (yaklaşık 40 cm) ya da 4 kat pişirme kağıdı ve 4 kat alüminyum folyo"
   ],
   "en": [
-   "1.2 kg bone-in chicken pieces (thighs and drumsticks)",
+   "1.2 kg bone-in chicken pieces (4 thighs and 4 drumsticks)",
    "400 ml coconut cream",
    "250 g medium onions (2 pieces)",
    "Juice of 1 lemon (about 30 ml)",
@@ -38,7 +38,7 @@
    "Büyük bir kapta hindistancevizi kreması, limon suyu, tuz ve karabiberi iyice karıştırın.",
    "Tavuk parçalarını kağıt havluyla kurulayın ve tuz ile karabiberle hafifçe tatlandırın.",
    "Muz yapraklarını (ya da pişirme kağıdı ve folyo katlarını) üst üste sererek her biri için ayrı bir paket hazırlayın.",
-   "Her paketin ortasına bir parça tavuk ve bir kısım soğan koyun, üzerine hindistancevizi karışımından bir kepçe dökün.",
+   "Her paketin ortasına bir but ve bir baget koyun, bir kısım soğan ekleyin, üzerine hindistancevizi karışımından bir kepçe dökün.",
    "Yaprakları veya katları zarf gibi kapatıp kenarlarını sıkıca kıvırarak mühürleyin ve bir fırın tepsisine dizin.",
    "Paketleri 60 dakika fırında pişirin. Tavuğun kemiğe en yakın kısmının iç sıcaklığı 74°C'ye ulaşmalı ve suyu berrak akmalıdır.",
    "Paketleri fırından çıkarıp 5 dakika dinlendirin, sonra dikkatli açarak buharın dışarı çıkmasını sağlayın ve sıcak servis yapın."
@@ -49,7 +49,7 @@
    "In a large bowl, whisk together the coconut cream, lemon juice, salt and black pepper.",
    "Pat the chicken pieces dry with kitchen paper and season lightly with salt and black pepper.",
    "Overlap the banana leaves (or the baking paper and foil sheets) to make a separate parcel for each serving.",
-   "Place one piece of chicken and a portion of onion in the centre of each parcel, then spoon over some of the coconut mixture.",
+   "Place one thigh and one drumstick in the centre of each parcel, add a portion of onion, then spoon over some of the coconut mixture.",
    "Fold the leaves or sheets over like an envelope, fold the edges tightly to seal, and arrange the parcels on a baking tray.",
    "Bake for 60 minutes. The thickest part of the chicken near the bone should reach 74°C internally, and the juices should run clear.",
    "Remove from the oven, rest for 5 minutes, then open the parcels carefully so the steam escapes, and serve hot."
@@ -59,5 +59,15 @@
   "tr": "Muz yapraklarını kullanmadan önce yumuşatmak için birkaç saniye alevin üzerinden geçirin; böylece kırılmadan katlanır ve tavuğa hoş bir aroma verir.",
   "en": "Pass banana leaves briefly over a gas flame or hot hob to soften them so they fold without cracking, and they will add a subtle smoky aroma to the chicken."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says the dish is cooked in an earth oven (umu), but the method uses a conventional oven at 200°C, so the defining technique is missing and the text contradicts itself. The Turkish and ",
+   "Step 6 says 'one piece of chicken' per parcel, but the ingredient list is 1.2 kg of thighs and drumsticks for 4 servings. One piece per parcel is ambiguous and would not match the quantity. It should ",
+   "Minor: the description and the tip about banana leaves are fine, but the recipe would be clearer if the tip noted that the leaves are optional when foil is used."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A street-food snack from Eswatini, sold at markets and roadside stalls. These are deep-fried dough balls with a crisp golden outside and a soft, airy inside, usually eaten hot for breakfast, at midday, or on weekends."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Topları kızartmadan önce 15 dakika dinlendirmek, yağda şişip çatlamalarını önler; yağ sıcaklığını korumak için her partiden sonra bekleyin.",
   "en": "Resting the shaped balls for 15 minutes before frying helps them puff evenly without cracking, and letting the oil return to temperature between batches keeps them from absorbing too much grease."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too low: the steps alone take about 10 min kneading, about 60 min rising, 15 min resting, and roughly 15-20 min of frying in batches, so about 110 min total"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

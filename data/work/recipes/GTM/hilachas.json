@@ -25,7 +25,7 @@
    "2 yemek kaşığı sıvı yağ",
    "1 çay kaşığı öğütülmüş kimyon",
    "1/2 çay kaşığı karabiber",
-   "1 çay kaşığı kuru kekik ya da kekik benzeri kuru oregano",
+   "1 çay kaşığı kuru oregano",
    "2 patates (300 g)",
    "2 havuç (150 g)",
    "Servis için haşlanmış beyaz pilav ve mısır tortillası"
@@ -83,5 +83,13 @@
   "tr": "Eti lif lif ayırırken hâlâ ılık olması sosu daha iyi emdirir; pişirme suyundan ayırdığınız sıvıyı, sos çok koyulaşırsa ekleyin.",
   "en": "Shred the beef while it is still warm so it absorbs the sauce better, and keep some reserved broth on hand in case the sauce thickens too much."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'kuru kekik ya da kekik benzeri kuru oregano' (thyme or oregano), but English says 'dried oregano' and the Turkish steps use 'oregano'. Turkish should specify oregano."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

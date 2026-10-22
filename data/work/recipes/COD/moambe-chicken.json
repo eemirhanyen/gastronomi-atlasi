@@ -5,7 +5,7 @@
  },
  "native": "Moambe (Lingala)",
  "desc": {
-  "tr": "Kongo Demokratik Cumhuriyeti'nin başkenti Kinşasa'da ve ülkenin geneli Kinşasa'da ve ülkenin geneli sık sık pişirilen, palmiye cevizi ezmesiyle yapılan koyu kırmızımsı turuncu bir tavuk yemeğidir. Genellikle haftasonu öğle yemeklerinde, fufu, pirinç veya chikwangue ile servis edilir.",
+  "tr": "Kongo Demokratik Cumhuriyeti'nde, özellikle başkent Kinşasa'da yaygın olarak pişirilen, palmiye cevizi ezmesiyle yapılan koyu kırmızımsı turuncu bir tavuk yemeğidir. Genellikle hafta sonu öğle yemeklerinde fufu, pirinç veya chikwangue ile servis edilir.",
   "en": "A rich, reddish-orange chicken stew made with palm nut paste, cooked widely across the Democratic Republic of the Congo, especially in Kinshasa. It is often served at weekend lunches with fufu, rice, or chikwangue."
  },
  "servings": 4,
@@ -63,5 +63,13 @@
   "tr": "Palmiye cevizi ezmesini sosa eklemeden önce sıcak suda iyice eritip süzmek, sosun pürüzsüz ve kadifemsi olmasını sağlar.",
   "en": "Dissolve the palm nut paste fully in warm water and strain it before adding; this keeps the sauce smooth and velvety instead of grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description contains a duplicated, garbled phrase (\"Kinşasa'da ve ülkenin geneli\" repeated) and an awkward sentence. The English version is clear, so the Turkish needs correcting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

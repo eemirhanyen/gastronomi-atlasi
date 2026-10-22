@@ -53,7 +53,7 @@
   "tr": [
    "Büyük bir kapta kuzu küplerini, kıyılmış soğanı, sarımsağı, kimyonu, karabiberi, tatlı kırmızı biberi, 1 tatlı kaşık tuzu, biberin yarısını ve limon suyunu iyice karıştırın. Yağı ekleyip tekrar karıştırın.",
    "Kabı örtün ve oda sıcaklığında 30 dakika ya da buzdolabında en fazla 4 saat bekletin.",
-   "Sos için ince dilimlenmiş soğanı, sirkeyi, hardalı, ılık suyu, 1/2 tatlı kaşık tuzu ve ayırdığınız biberin yarısını bir kasede karıştırıp 15 dakika dinlendirin.",
+   "Sos için ince dilimlenmiş soğanı, sirkeyi, hardalı, ılık suyu, 1/2 tatlı kaşık tuzu ve biberin kalan yarısını bir kasede karıştırıp 15 dakika dinlendirin.",
    "Izgarayı orta-yüksek ateşte (yaklaşık 200 °C eşdeğeri) ısıtın. Marine edilmiş kuzu parçalarını şişlere dizin.",
    "Şişleri 8-10 dakika, sık sık çevirerek, dış yüzeyleri kömürleşip iç kısmı yumuşak ve hafif pembe kalana kadar pişirin (iç sıcaklık yaklaşık 63 °C).",
    "Bagetleri ızgarada hafifçe ısıtıp ikiye bölün, kuzu şişlerini içine yerleştirip soğan sosuyla birlikte servis edin."
@@ -61,7 +61,7 @@
   "en": [
    "In a large bowl, mix the lamb cubes, chopped onion, garlic, cumin, black pepper, paprika, 1 tsp of the salt, half of the chili and the lime juice. Add the oil and stir again.",
    "Cover and marinate for 30 minutes at room temperature, or up to 4 hours in the fridge.",
-   "For the sauce, mix the sliced onion, vinegar, mustard, warm water, 1/2 tsp salt and the remaining chili in a small bowl. Rest for 15 minutes.",
+   "For the sauce, mix the sliced onion, vinegar, mustard, warm water, 1/2 tsp salt and the remaining half of the chili in a small bowl. Rest for 15 minutes.",
    "Heat a grill to medium-high (about 200 °C). Thread the marinated lamb onto skewers.",
    "Grill the skewers for 8 to 10 minutes, turning often, until the outside is charred and the inside is tender and slightly pink (internal temperature about 63 °C).",
    "Warm the baguettes on the grill for a minute, split them open, fill with the lamb and serve with the onion sauce."
@@ -71,5 +71,13 @@
   "tr": "Kuzuyu marine etmeden önce kıyılmış soğanı ezerek ekleyin; sulu çıkan soğan suyu etin dışını daha iyi kızartır ve lezzeti derinleştirir.",
   "en": "Squeeze the chopped onion with your hands before adding it to the marinade; the extra juice helps the lamb char better and deepens the flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sauce step (Turkish): 'ayırdığınız biberin yarısını' is ambiguous and reads as if half the chili is used, but the marinade already used half. The English says 'the remaining chili', so the two version"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

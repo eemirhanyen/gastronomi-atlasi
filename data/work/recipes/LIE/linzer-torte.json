@@ -8,7 +8,7 @@
   "tr": "Avusturya'nın Linz kentinden gelen, fındıklı kısa hamurdan yapılan, üzeri kafes örgülü ve ahududu reçelli bir tart. Özellikle Noel döneminde ve öğleden sonra kahve saatlerinde Liechtenstein dahil Almanca konuşan ülkelerde yaygın olarak yenir.",
   "en": "A hazelnut shortcrust tart with a lattice top and a layer of raspberry jam, originating in the city of Linz in Austria. It is especially popular at Christmas and at afternoon coffee time across German-speaking Europe, including Liechtenstein."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
@@ -57,7 +57,7 @@
    "Şeritleri reçelin üzerine kafes şeklinde yerleştirin, kenarları hafifçe bastırarak tabanla birleştirin.",
    "Bir yumurtayı 1 tatlı kaşık sütle çırpın ve kafesin üzerine ince bir tabaka sürün.",
    "Tartı fırının orta rafına koyun ve 30-35 dakika, üstü altın sarısı olana kadar pişirin.",
-   "Tartı kalıbında tamamen soğuması için 15 dakika bekleyin, sonra kalıptan çıkarıp servis yapın."
+   "Tartı kalıbında 15 dakika soğumaya bırakın, sonra kalıptan çıkarıp servis yapın."
   ],
   "en": [
    "Preheat the oven to 180°C. Grease a 20 cm round tart tin with butter and set aside.",
@@ -77,5 +77,14 @@
   "tr": "Reçeli kullanmadan önce kıvamını kontrol edin; çok akışkan reçel pişerken hamurun altını ıslatır. Gerekirse bir kaşık nişastayla hafifçe koyulaştırın.",
   "en": "Check the jam's consistency before using; a runny jam will make the base soggy. If needed, thicken it with a spoonful of cornflour first."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) is implausible for a 20 cm torte made with about 525 g of total ingredients (roughly 130 g per serving). It should be about 8.",
+   "Turkish final step says the tart should cool 'tamamen' (completely) in 15 minutes, which does not match the English 'cool in the tin for 15 minutes' and is not realistic. It should say 'soğumaya bırak"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

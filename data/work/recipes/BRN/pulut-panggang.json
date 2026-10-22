@@ -9,7 +9,7 @@
   "en": "A Bruneian snack of glutinous rice cooked in coconut milk, layered with a spiced chicken filling, wrapped in banana leaf and grilled. It is commonly eaten at breakfast, with afternoon tea and during Ramadan iftar gatherings."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,7 +61,7 @@
    "Kıyılmış tavuğu tavaya ekleyip rengi değişene kadar, yaklaşık 5 dakika pişirin.",
    "Kişniş, palmiye şekeri ve 100 ml hindistan cevizi sütünü ekleyip kısık ateşte harç koyulaşıp neredeyse kuruyana kadar, yaklaşık 15 dakika karıştırarak pişirin. Tuzunu kontrol edip ocaktan alın.",
    "Muz yapraklarını ateşin üzerinde ya da sıcak suda birkaç saniye hafifçe yumuşatıp silin, 30x25 cm kare veya dikdörtgen parçalara kesin.",
-   "Her yaprağın ortasına pirincin yaklaşık yarısını (60-70 g) yayın, üzerine tavuklu harcın dörtte birini (yaklaşık 60 g) koyun ve kalan pirinçle örtün.",
+   "Her yaprağın ortasına pirincin yaklaşık yarısını (35-40 g) yayın, üzerine tavuklu harcın dörtte birini (yaklaşık 60 g) koyun ve kalan pirinçle örtün.",
    "Yaprağı dikdörtgen paketler halinde katlayın, kenarlarını kürdan ya da iple sabitleyin.",
    "Paketleri ızgara tavada ya da mangalda orta-yüksek ateşte her iki yüzünü 5-6 dakika çevirerek kızartın; fırında kullanacaksanız 200°C'de 20 dakika pişirin.",
    "Sıcak servis edin, muz yaprağı ile birlikte ya da açılıp paylaşılabilir."
@@ -75,7 +75,7 @@
    "Add the minced chicken and cook for about 5 minutes until no longer pink.",
    "Stir in the ground coriander, palm sugar and 100 ml coconut milk. Simmer gently for about 15 minutes, stirring often, until the filling is thick and nearly dry. Taste and adjust the salt.",
    "Soften the banana leaves over a flame or in hot water for a few seconds, wipe them clean and cut into 30 x 25 cm pieces.",
-   "On the centre of each leaf, spread about half of the rice (60-70 g), place about a quarter of the chicken filling (about 60 g) on top and cover with the remaining rice.",
+   "On the centre of each leaf, spread about half of the rice (35-40 g), place about a quarter of the chicken filling (about 60 g) on top and cover with the remaining rice.",
    "Fold the leaf into a neat rectangular parcel and secure the edges with toothpicks or string.",
    "Grill the parcels over medium-high heat on a grill pan or charcoal grill for 5-6 minutes per side, or bake at 200°C for 20 minutes.",
    "Serve warm, either in the leaf or unwrapped and shared."
@@ -85,5 +85,14 @@
   "tr": "Muz yaprağını ateşte hafifçe ısıtmak yaprağın yırtılmadan katlanmasını sağlar ve pişirme sırasında pirinca güzel bir aroma verir.",
   "en": "Lightly warming the banana leaf over a flame makes it pliable so it folds without tearing and gives the rice a subtle aroma while it grills."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 9 rice portions don't add up: 300 g rice across 4 parcels is about 75 g per parcel, but the step asks for half the rice (60-70 g) on the bottom alone, which would need about 120-140 g per parcel.",
+   "time_min (90) is too short: the recipe requires at least 1 hour of soaking plus about 20 minutes of rice cooking, about 25 minutes for the filling, assembly and grilling, so the total is closer to 2.5"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

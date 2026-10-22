@@ -9,7 +9,7 @@
   "en": "Sishwala is a stiff porridge made from maize meal and the staple starch of Eswatini. It is eaten across the country, especially at everyday meals and celebrations, served with meat stew or wild greens called morogo."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 85,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -60,8 +60,16 @@
   ]
  },
  "tip": {
-  "tr": "Mısırununu suya azar azar ve sürekli karıştırarak ekleyin; topaklanmayı önlemenin en iyi yolu budur. Lapa sertleştikçe ıslak elle şekillendirmek daha kolay olur.",
+  "tr": "Mısır ununu suya azar azar ve sürekli karıştırarak ekleyin; topaklanmayı önlemenin en iyi yolu budur. Lapa sertleştikçe ıslak elle şekillendirmek daha kolay olur.",
   "en": "Add the maize meal gradually and keep stirring to prevent lumps. The porridge firms up as it rests, so shape it with wet hands while it is still hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is inconsistent with the steps: the stated cooking steps add up to roughly 80-85 minutes (8 + 5 + 5 + 35-40 + ~10 + 8-10 + 5), plus prep time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

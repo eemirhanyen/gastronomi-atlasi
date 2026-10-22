@@ -9,7 +9,7 @@
   "en": "A refreshing ginger drink made with fresh ginger and pineapple peel, popular on the streets and in markets of Abidjan in Côte d'Ivoire. It is served cold and drunk throughout the day, especially during the hot midday hours."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Zencefilin aromasını artırmak için karışımı demlenmeye bırakmadan önce 10 dakika daha kapalı tutun; limon suyunu servisten hemen önce ekleyerek tazeliğini koruyun.",
+  "tr": "Zencefilin aromasını artırmak için süzülmüş sıvıyı şeker eklemeden önce 10 dakika kapalı olarak dinlendirin; limon suyunu servisten hemen önce ekleyerek tazeliğini koruyun.",
   "en": "For a stronger ginger flavour, let the strained liquid rest covered for 10 minutes before adding sugar, and add the lemon juice just before serving to keep it fresh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is unclear and does not match the English tip: the English says to let the strained liquid rest covered for 10 minutes before adding sugar, but the Turkish says to keep the mixture covered",
+   "time_min is 60, but the recipe includes about 25 minutes of simmering, cooling time, and at least 2 hours of chilling, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,10 +5,10 @@
  },
  "native": "Sodabi",
  "desc": {
-  "tr": "Sodabi, Benin'in güneyinde palmiye şırasının damıtılmasıyla elde edilen geleneksel bir ruhtur; doğum, evlilik ve atasözlerle anılan törenlerde sunulur. Bu ev tarifi, sodabinin tatlı ve baharatlı karakterini nötr bir alkolle taklit eden bir infüzyondur.",
+  "tr": "Sodabi, Benin'in güneyinde palmiye şırasının damıtılmasıyla elde edilen geleneksel bir ruhtur; doğum, evlilik ve diğer törenlerde sunulur ve çoğu zaman atalara sunu olarak yere dökülür. Bu ev tarifi, sodabinin tatlı ve baharatlı karakterini nötr bir alkolle taklit eden bir infüzyondur.",
   "en": "Sodabi is a traditional spirit distilled from palm wine in southern Benin, served at births, weddings and ceremonies, often poured as a libation. This home recipe is an infusion that imitates its sweet, spiced character using neutral spirit."
  },
- "servings": 4,
+ "servings": 12,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -55,5 +55,14 @@
   "tr": "Gerçek sodabi damıtılarak üretilir; evde damıtma hem tehlikelidir hem de birçok ülkede yasaktır, bu yüzden bu tarifi yalnızca infüzyon olarak uygulayın.",
   "en": "Real sodabi is distilled, which is dangerous and illegal in many places to attempt at home, so treat this as an infused liqueur and never try to distil it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) don't match the yield: about 600 ml of liquid, strained, at 50 ml per glass gives roughly 12 servings.",
+   "Turkish description says the spirit is shared at ceremonies \"atasözlerle\" (\"with proverbs\"), which is a mistranslation. The English says it is poured as a libation, and the Turkish omits this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

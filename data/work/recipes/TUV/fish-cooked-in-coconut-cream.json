@@ -6,7 +6,7 @@
  "native": "Ika lolo",
  "desc": {
   "tr": "Tuvalu'nun mercan adalarında günlük yemeklerin ve özel günlerin vazgeçilmez lezzeti olan bu yemek, taze resif balığının hindistan cevizi kreması ve domatesle yumuşacık pişirilmesiyle hazırlanır. Genellikle pirinç veya ekmek ağacı ile servis edilir.",
-  "en": "A everyday and festive dish across the coral atolls of Tuvalu, where fresh reef fish is gently simmered in rich coconut cream with tomato. It is usually served with rice or breadfruit."
+  "en": "An everyday and festive dish across the coral atolls of Tuvalu, where fresh reef fish is gently simmered in rich coconut cream with tomato. It is usually served with rice or breadfruit."
  },
  "servings": 4,
  "time_min": 40,
@@ -63,5 +63,13 @@
   "tr": "Hindistan cevizi kremasını kaynatmayın; yağ ayrılıp sos kesilir. Balığı ateşte fazla bırakmamak, etin yumuşak ve nemli kalmasını sağlar.",
   "en": "Never let the coconut cream boil, or the sauce will split and turn oily. Keeping the fish on a gentle heat ensures it stays moist and tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description has an article error: \"A everyday\" should be \"An everyday\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

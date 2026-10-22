@@ -16,7 +16,7 @@
    "500 g beyaz lahana, ince doğranmış veya rendelenmiş",
    "2 orta boy havuç (yaklaşık 150 g), rendelenmiş",
    "40 g kırmızı soğan, çok ince doğranmış",
-   "3 g tuz (yaklaşık 3/4 çay kaşığı), lahana için",
+   "3 g tuz (yaklaşık 1/2 çay kaşığı), lahana için",
    "150 g mayonez",
    "30 ml elma sirkesi",
    "15 g toz şeker",
@@ -29,7 +29,7 @@
    "500 g green cabbage, finely shredded",
    "2 medium carrots (about 150 g), grated",
    "40 g red onion, very finely diced",
-   "3 g salt (about 3/4 tsp), for the cabbage",
+   "3 g salt (about 1/2 tsp), for the cabbage",
    "150 g mayonnaise",
    "30 ml apple cider vinegar",
    "15 g granulated sugar",
@@ -42,7 +42,7 @@
  "steps": {
   "tr": [
    "Lahanayı çok ince şeritler halinde doğrayın veya mandolin/rende ile ince rendeleyin. Büyük bir kaseye alın.",
-   "Lahanenin üzerine 3 g tuzu serpin, ellerinizle 1-2 dakika ovalayın ve 15 dakika dinlendirin. Böylece lahana yumuşar ve fazla suyunu salar.",
+   "Lahananın üzerine 3 g tuzu serpin, ellerinizle 1-2 dakika ovalayın ve 15 dakika dinlendirin. Böylece lahana yumuşar ve fazla suyunu salar.",
    "Rendelenmiş havucu ve ince doğranmış kırmızı soğanı lahanaya ekleyin.",
    "Ayrı bir kapta mayonez, elma sirkesi, toz şeker, dijon hardalı, sütü, kereviz tohumunu ve karabiberi çırpın. Sosun pürüzsüz ve homojen olduğundan emin olun.",
    "Lahanayı elinizle sıkarak fazla suyunu süzün ve sebzeleri kaseye geri koyun.",
@@ -63,5 +63,14 @@
   "tr": "Lahanayı tuzlayıp sıktıktan sonra servis etmek, salatanın sulanmasını önler ve daha dolgun bir doku sağlar.",
   "en": "Salting and squeezing the cabbage before dressing it keeps the salad crisp and stops it from becoming watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a grammar error: 'Lahanenin' should be 'Lahananın' (genitive).",
+   "3 g of fine salt is about 1/2 tsp, not 3/4 tsp, in both the Turkish and English ingredient lines."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

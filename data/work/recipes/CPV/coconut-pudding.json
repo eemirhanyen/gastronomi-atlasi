@@ -38,7 +38,7 @@
  "steps": {
   "tr": [
    "Fırını 170°C'ye ısıtın. Yaklaşık 20 cm çapında, ısıya dayanıklı bir kalıbı hazır bulundurun.",
-   "Küçük bir tencerede şekeri ve suyu orta-yüksek ateşte, karıştırmadan kehribar rengi alana kadar pişirin. Karamelı hemen kalıbın dibine dökün ve kalıbı çevirerek yayın.",
+   "Küçük bir tencerede şekeri ve suyu orta-yüksek ateşte, karıştırmadan kehribar rengi alana kadar pişirin. Karamel hemen kalıbın dibine dökün ve kalıbı çevirerek yayın.",
    "Büyük bir kasede yumurtaları, yoğunlaştırılmış sütü, hindistan cevizi sütünü, tam yağlı sütü, vanilya özünü ve tuzu pürüzsüz olana kadar çırpın.",
    "Rendelenmiş hindistancevizini karışıma ekleyip karıştırın. Karışımı süzgeçten geçirerek karamelli kalıba dökün.",
    "Kalıbı fırın tepsisine yerleştirin. Tepsiye kalıbın yarısına gelecek kadar sıcak su ekleyin (su banyosu).",
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Kalıbı ters çevirmeden önce bıçakla kenarları iyice gezdirin; böylece tatlı yırtılmadan çıkar. Karamel koyulaşırsa hafifçe ılık su ekleyip eritin.",
+  "tr": "Kalıbı ters çevirmeden önce bıçakla kenarları iyice gezdirin; böylece tatlı yırtılmadan çıkar. Karamel koyulaşırsa hafifçe sıcak su ekleyip eritin.",
   "en": "Loosen the edges thoroughly with a knife before inverting so the pudding releases cleanly; if the caramel hardens in the mould, warm it gently with a splash of hot water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says 'ılık su' (lukewarm) but the English says 'hot water'; the two versions disagree.",
+   "Turkish step 2 has a typo: 'Karamelı' should be 'Karamel'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

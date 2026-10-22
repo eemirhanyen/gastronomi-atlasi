@@ -5,7 +5,7 @@
  },
  "native": "Kulajda",
  "desc": {
-  "tr": "Mantar, patates ve taze dereotuyla yapılan, ekşi krema ve yumurta sarısıyla kıvamlandırılmış Çek çorbasıdır. Genellikle Çek Cumhuriyeti'nde sonbahar ve kış aylarında, üzerinde poşe yumurtayla servis edilir.",
+  "tr": "Mantar, patates ve taze dereotuyla yapılan, ekşi krema ve yumurta sarısıyla kıvamlandırılmış, az miktarda sirkeyle ekşitilmiş Çek çorbasıdır. Genellikle Çek Cumhuriyeti'nde sonbahar ve kış aylarında, üzerinde poşe yumurtayla servis edilir.",
   "en": "A Czech soup of mushrooms, potatoes and fresh dill, thickened with sour cream and egg yolks and sharpened with a little vinegar. It is most often eaten in autumn and winter in the Czech Republic, topped with a poached egg."
  },
  "servings": 4,
@@ -26,6 +26,8 @@
    "1 yemek kaşığı (15 ml) beyaz sirke",
    "30 g taze dereotu, ince doğranmış (süsleme için biraz ayırın)",
    "4 yumurta (poşe için)",
+   "1 tatlı kaşığı beyaz sirke (poşe suyu için)",
+   "1 tutam tuz (poşe suyu için)",
    "1 çay kaşığı tuz, yarım çay kaşığı karabiber, 1 tatlı kaşığı şeker"
   ],
   "en": [
@@ -42,6 +44,8 @@
    "1 tablespoon (15 ml) white vinegar",
    "30 g fresh dill, finely chopped (reserve a little for garnish)",
    "4 eggs (for poaching)",
+   "1 teaspoon white vinegar (for poaching water)",
+   "a pinch of salt (for poaching water)",
    "1 teaspoon salt, half a teaspoon black pepper, 1 teaspoon sugar"
   ]
  },
@@ -73,5 +77,14 @@
   "tr": "Kremayı çorbaya eklemeden önce mutlaka sıcak sıvıyla ısıtın ve ardından yavaş yavaş karıştırın; aksi halde yumurta ve krema kesilebilir.",
   "en": "Always warm the sour cream mixture with hot soup before adding it to the pot, and never let the soup boil afterwards, or the cream and egg yolks may curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 uses a teaspoon of vinegar and a pinch of salt for the poaching water, but neither appears in the ingredient lists (TR and EN).",
+   "The Turkish description omits the vinegar that the English description mentions as a flavour element."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,11 +5,11 @@
  },
  "native": "Bissap",
  "desc": {
-  "tr": "Gine ve Batı Afrika'nın geneli için karakteristik, kırmızı renkli serinletici bir içecektir. Sıcak günlerde, aile toplantılarında ve kutlamalarda ikram edilir.",
+  "tr": "Gine'ye ve Batı Afrika'nın geneline özgü, kırmızı renkli serinletici bir içecektir. Sıcak günlerde, aile toplantılarında ve kutlamalarda ikram edilir.",
   "en": "A ruby-red, refreshing drink typical of Guinea and across West Africa. It is served on hot days, at family gatherings and at celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,5 +57,14 @@
   "tr": "Soğutmadan önce tadına bakın; geleneksel olarak çok tatlı içilir, fazla yoğunsa biraz daha soğuk su ekleyerek seyreltin.",
   "en": "Taste before chilling and adjust the sugar; it is traditionally quite sweet. If it is too concentrated, dilute it with a little more cold water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the steps include about 45 minutes of boiling and steeping, plus cooling to room temperature and at least 1 hour in the refrigerator, so the total is roughly 2 hours.",
+   "Turkish description wording 'Gine ve Batı Afrika'nın geneli için karakteristik' is awkward; 'Gine'ye ve Batı Afrika'nın geneline özgü' reads more naturally."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

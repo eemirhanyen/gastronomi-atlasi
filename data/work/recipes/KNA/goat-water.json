@@ -5,7 +5,7 @@
  },
  "native": "Goat water",
  "desc": {
-  "tr": "Saint Kitts ve Nevis'in ulusal yemeklerinden biri olan keçi suyu, kemikli keçi etinin baharatlı, domatesli ve patatesli bir çorbada yavaşça pişirilmesiyle yapılır. Genellikle hafta sonu öğle yemeklerinde, aile toplantılarında ve kutlamalarda ada genelinde servis edilir.",
+  "tr": "Saint Kitts ve Nevis'in ulusal yemeklerinden biri olan keçi suyu, kemikli keçi etinin baharatlı, domatesli, patatesli ve havuçlu bir çorbada yavaşça pişirilmesiyle yapılır. Genellikle hafta sonu öğle yemeklerinde, aile toplantılarında ve kutlamalarda ada genelinde servis edilir.",
   "en": "A national dish of Saint Kitts and Nevis, goat water is bone-in goat meat slowly simmered in a spiced tomato broth with potatoes and carrots. It is traditionally served at Sunday lunches, family gatherings and celebrations across the islands."
  },
  "servings": 4,
@@ -54,7 +54,7 @@
    "Keçi etini büyük bir kaseye alın. Limon suyu, tuz, karabiber, yenibahar ve ezilmiş sarımsağın yarısı ile iyice karıştırın. Örtüp en az 30 dakika, tercihen buzdolabında bir gece bekletin.",
    "Marine edilmiş eti süzün ve kağıt havlu ile hafifçe kurulayın. Geniş bir tencerede yağı orta-yüksek ateşte ısıtın.",
    "Et parçalarını partiler halinde, her yüzü altın rengi olana kadar yaklaşık 8 dakika kavurun. Tüm eti kaldırıp bir kenara koyun.",
-   "Aynı tencerede soğanı, keresteyi ve dolmalık biberi ekleyip 5 dakika yumuşayana kadar soteleyin. Kalan sarımsağı ve bütün Scotch bonnet biberini ekleyip 1 dakika daha pişirin.",
+   "Aynı tencerede soğanı, kerevizi ve dolmalık biberi ekleyip 5 dakika yumuşayana kadar soteleyin. Kalan sarımsağı ve bütün Scotch bonnet biberini ekleyip 1 dakika daha pişirin.",
    "Rendelenmiş domatesi ve taze kekiği ekleyin, karışım koyulaşıncaya kadar yaklaşık 5 dakika pişirin.",
    "Keçi etini tencereye geri koyun, üzerine suyu ekleyin. Kaynayınca ateşi kısın, kapağını kapatıp et çok yumuşayana kadar yaklaşık 1 saat ağır ağır pişirin.",
    "Patates ve havucu ekleyip tekrar kaynatın, kapağı kapalı olarak 20 dakika daha pişirin. Sebzeler yumuşayınca Scotch bonnet biberini ve kekik dallarını çıkarın.",
@@ -75,5 +75,14 @@
   "tr": "Eti bir gece önceden limonla marine etmek, kemiğin çevresindeki lezzeti ve yumuşaklığı belirgin şekilde artırır.",
   "en": "Marinating the goat overnight in lime and seasoning gives deeper flavour and more tender meat around the bone."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 uses \"keresteyi\" (lumber/timber) where \"kerevizi\" (celery) is meant; the English step says celery.",
+   "Turkish description says \"patatesli\" but omits the carrots that appear in the ingredients and English description."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

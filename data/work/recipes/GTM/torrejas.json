@@ -45,9 +45,9 @@
   "tr": [
    "Şurup için panela, su, tarçın çubuğu, karanfil ve portakal kabuğunu orta boy bir tencereye alın. Karıştırarak eriyene kadar ısıtın, ardından kısık ateşte yaklaşık 20 dakika kaynatın. Şurup 350 ml kadar azalıp hafif koyulaşınca süzün ve sıcak tutun.",
    "Süt, bir tabağa dökülüp ekmek dilimlerini her iki yüzünden kısaca ıslatın. Ekmeğin dağılmaması için fazla bekletmeyin, sonra süzgeçte fazla sütü akıtın.",
-   "Yumurta aklarını tuz ile birlikte sert kar haline gelene kadar çırpın. Şekeri ekleyip bir dakika daha çırpın, ardından yumurta sarılarını yavaşça katlayın.",
+   "Yumurta aklarını tuz ile birlikte sert köpük haline gelene kadar çırpın. Şekeri ekleyip bir dakika daha çırpın, ardından yumurta sarılarını yavaşça katlayın.",
    "Kızartma yağını derin bir tavada 175 °C'ye kadar ısıtın.",
-   "Her süt emdirilmiş ekmek dilimini yumurta karışımına batırıp her iki yüzünü de kaplayın. Dilimleri sıcak yağa yerleştirin ve her iki yüzü altın rengi olana kadar yaklaşık 1-2 dakika kızartın.",
+   "Her süt emdirilmiş ekmek dilimini yumurta karışımına batırıp her iki yüzünü de kaplayın. Dilimleri sıcak yağa yerleştirin ve her iki yüzü altın rengi olana ve içi tamamen pişene kadar yaklaşık 2-3 dakika kızartın.",
    "Kızarmış torrejaları kağıt havluya alıp fazla yağını çekmesini bekleyin.",
    "Torrejaları servis tabağına dizin, sıcak şurubu üzerine gezdirin ve öğütülmüş tarçınla serpip hemen servis yapın."
   ],
@@ -56,7 +56,7 @@
    "Pour the milk into a shallow dish and briefly dip the bread slices on both sides. Do not leave them soaking or they will fall apart. Let excess milk drain off over a sieve.",
    "Whisk the egg whites with the salt until they form stiff peaks. Add the sugar and whisk for another minute, then gently fold in the egg yolks.",
    "Heat the frying oil in a deep pan to 175 °C.",
-   "Dip each milk-soaked bread slice into the egg mixture, coating both sides. Place the slices carefully in the hot oil and fry for about 1-2 minutes per side until golden brown.",
+   "Dip each milk-soaked bread slice into the egg mixture, coating both sides. Place the slices carefully in the hot oil and fry for about 2-3 minutes per side until golden brown and cooked through.",
    "Transfer the fried torrejas to kitchen paper to drain off excess oil.",
    "Arrange the torrejas on a serving plate, pour the warm syrup over them, dust with ground cinnamon and serve immediately."
   ]
@@ -65,5 +65,14 @@
   "tr": "Ekmek dilimlerinin dağılmaması için bayat ekmek kullanın ve sütte yalnızca birkaç saniye bekletin; yağ sıcaklığını 175 °C'de sabit tutmak, dışının yanmadan içinin de pişmesini sağlar.",
   "en": "Use stale bread and dip it in milk for only a few seconds so the slices hold their shape. Keeping the oil steady at 175 °C ensures the outside browns without burning before the inside is cooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 1-2 minutes per side is likely too short for 2 cm thick, milk-soaked and egg-coated bread. The centre may stay wet and the egg may not set fully. Both language versions need the change.",
+   "Turkish 'sert kar haline' is a literal calque. 'Sert köpük haline' is the more natural term for stiff-beaten egg whites."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

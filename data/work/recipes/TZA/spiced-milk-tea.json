@@ -50,8 +50,16 @@
   ]
  },
  "tip": {
-  "tr": "Geleneksel servis için çayı bardaklar arasında birkaç kez yukarıdan döküp köpürtün; tatlandırmayı en sonda, damakinize göre ayarlayın.",
+  "tr": "Geleneksel servis için çayı bardaklar arasında birkaç kez yukarıdan döküp köpürtün; tatlandırmayı en sonda, damak zevkinize göre ayarlayın.",
   "en": "For a traditional frothy finish, pour the tea back and forth between the pot and the cups a few times, and adjust the sweetness to taste at the end."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contains a typo/unnatural form: \"damakinize\" should be \"damak zevkinize\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -44,7 +44,7 @@
    "Derin bir tencerede ayçiçek yağını yaklaşık 170 °C'ye kadar ısıtın. Hamur parçalarını partiler halinde, altın rengi olana kadar 2-3 dakika kızartın.",
    "Kızarmış parçaları kağıt havluya alıp yağını süzdürün.",
    "Başka bir tencerede şekeri, balı ve suyu orta ateşte karıştırarak şeker eriyene ve şurup kabarcıklanıp koyulaşana kadar pişirin (yaklaşık 120 °C).",
-   "Şurup hazırken kızarmış hamur parçalarını ekleyin ve ateşten almadan hızlıca karıştırarak her parçayı şurupla kaplayın.",
+   "Şurup hazırken kızarmış hamur parçalarını ekleyin ve ateşten alarak hızlıca karıştırın, böylece her parça şurupla kaplansın.",
    "Karışımı yağlanmış bir servis kasesine ya da tepsiye dökün, ıslak ellerle veya bir kaşıkla bir kubbe şeklinde bastırın. Tamamen soğuyup oturması için bekleyin, ardından dilimleyerek servis edin."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Hamur parçalarını kızartmadan önce tamamen kurumuş olmalarına dikkat edin; nemli hamur yağı sıçratır ve şurupla iyi yapışmaz.",
   "en": "Make sure the dough pieces are dry before frying; damp pieces spatter the oil and do not coat well in the syrup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 contradicts between languages: the Turkish says to stir 'ateşten almadan' (without removing from the heat), but the English says 'off the heat'. The Turkish is corrected to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

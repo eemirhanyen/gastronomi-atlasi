@@ -5,7 +5,7 @@
  },
  "native": "पाव भाजी",
  "desc": {
-  "tr": "Mumbai'de sokak satıcılarının ve işçilerin favorisi olan, tereyağında pişmiş sebzeli bir köri ile yumuşak pav ekmeğinin birlikte servis edildiği bir yemektir. Akşam atıştırmalığı olarak öğle ve akşam saatlerinde yenir.",
+  "tr": "Mumbai'de sokak satıcılarının ve işçilerin favorisi olan, tereyağında pişmiş sebzeli bir köri ile yumuşak pav ekmeğinin birlikte servis edildiği bir yemektir. Genellikle öğle ve akşam yemeği olarak ya da hızlı bir atıştırmalık olarak yenir.",
   "en": "A Mumbai street food favourite in which a buttery, spiced mashed vegetable curry is served with soft, toasted pav bread. It is eaten as a snack or quick evening meal, especially at lunch and dinner time."
  },
  "servings": 4,
@@ -22,7 +22,7 @@
    "400 g olgun domates, doğranmış",
    "60 g tereyağı",
    "30 ml sıvı yağ",
-   "1 tatlı kaşığı (yaklaşık 20 g) zencefil-sarımsak ezmesi",
+   "1 yemek kaşığı (yaklaşık 20 g) zencefil-sarımsak ezmesi",
    "2 yemek kaşığı (yaklaşık 20 g) pav bhaji baharatı",
    "1 tatlı kaşığı kırmızı toz biber",
    "1/2 tatlı kaşığı zerdeçal",
@@ -43,7 +43,7 @@
    "400 g ripe tomatoes, chopped",
    "60 g butter",
    "30 ml vegetable oil",
-   "1 tsp (about 20 g) ginger-garlic paste",
+   "1 tbsp (about 20 g) ginger-garlic paste",
    "2 tbsp (about 20 g) pav bhaji masala",
    "1 tsp red chilli powder",
    "1/2 tsp turmeric",
@@ -61,7 +61,7 @@
    "Geniş bir tavada 30 ml sıvı yağ ve 20 g tereyağını ısıtın. İnce doğranmış soğanı orta ateşte altın rengi olana kadar, yaklaşık 6-8 dakika kavurun.",
    "Zencefil-sarımsak ezmesini ekleyin ve kokusu çıkana kadar yaklaşık 1 dakika karıştırın.",
    "Dolmalık biberi ekleyip 3-4 dakika yumuşatın, ardından doğranmış domatesleri ekleyin ve domatesler tamamen dağılıp yağ ayrılana kadar yaklaşık 8-10 dakika pişirin.",
-   "Pav bhaji baharatı, kırmızı toz biber ve zerdeçalı ekleyip 1 dakika kavurun.",
+   "Pav bhaji baharatı, kırmızı toz biber ve zerdeçal ekleyip 1 dakika kavurun.",
    "Ezilmiş sebzeleri tavaya ekleyin, 300 ml suyu katın ve iyice karıştırın. Kısık ateşte 10-15 dakika kaynatın, kıvam koyulaşana kadar ara ara ezerek karıştırın. Tuzunu kontrol edin.",
    "Kalan 40 g tereyağının yarısını bhaji'nin üstüne ekleyip karıştırın.",
    "Pav ekmeklerini ikiye kesin. Yassı bir tavada veya ızgara tavada kalan tereyağıyla ikisini de orta ateşte, kenarları kızarana kadar yaklaşık 1-2 dakika kızartın.",
@@ -83,5 +83,15 @@
   "tr": "Pav bhaji'nin asıl lezzeti bol tereyağı ve iyi ezilmiş bir kıvamdan gelir; sebzeleri çatalla değil patates ezici ile ezerek pürüzsüz bir doku elde edin.",
   "en": "The authentic flavour comes from plenty of butter and a well-mashed texture, so mash the vegetables with a potato masher rather than leaving them chunky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ginger-garlic paste is listed as 1 tsp (about 20 g), which is far too heavy for a teaspoon (about 5-6 g). Changed to 1 tbsp (about 20 g) in both languages.",
+   "Turkish step 5 uses 'zerdeçalı', an awkward form of the noun. Changed to 'zerdeçal'.",
+   "Turkish description says the dish is eaten 'as an evening snack' and 'at lunch and dinner' in the same sentence, which contradicts itself. Reworded to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

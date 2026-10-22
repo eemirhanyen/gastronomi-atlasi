@@ -42,9 +42,9 @@
    "Büyük bir tencerede palm yağını orta-yüksek ateşte ısıtın. Tavuk parçalarını ekleyip her tarafı altın rengi olana kadar yaklaşık 8 dakika kavurun, ardından tavuğu bir tabağa alın.",
    "Aynı yağda soğanı ekleyip yumuşayana ve hafif renk alana kadar yaklaşık 5 dakika pişirin. Sarımsağı ekleyip 1 dakika daha karıştırın.",
    "Doğranmış domatesleri ve bütün acı biberi ekleyin. Domatesler suyunu salıp yumuşayana kadar yaklaşık 8 dakika pişirin.",
-   "Kavrulan tavuğu tencereye geri koyun ve 500 ml suyu ekleyin. Tavuk suyunu çekene ve yaklaşık yarısı pişene kadar 15 dakika kaynatın.",
-   "Yer fıstığı ezmesini kalan 500 ml suyla bir kasede pürüzsüz bir karışım elde edinceye kadar iyice karıştırın. Bir bütün halinde topaklanmaması için çırpın.",
-   "Fıstık karışımını yavaş yavaş tencereye dökerken sürekli karıştırın. Tavuk suyu ve tuz küpünü ekleyip karışıma iyice yedirin.",
+   "Kavrulan tavuğu tencereye geri koyun ve 500 ml suyu ekleyin. Tavuğun yaklaşık yarısı pişip sıvı biraz azalana kadar 15 dakika kaynatın.",
+   "Yer fıstığı ezmesini kalan 500 ml suyla bir kasede topak kalmayana kadar iyice çırpın.",
+   "Fıstık karışımını yavaş yavaş tencereye dökerken sürekli karıştırın. Tavuk suyu küpünü ufalayarak ekleyin, tuzu da ekleyip karışıma iyice yedirin.",
    "Ateşi düşürüp kısık ateşte, arada bir karıştırarak, sos koyulaşana ve yağ yüzeye çıkana kadar yaklaşık 25 dakika pişirin. Gerekirse biraz daha su ekleyerek kıvamı ayarlayın.",
    "Tuzunu kontrol edin, tavuk ve sosun pişmiş olduğundan emin olun. Acı biberi çıkarıp atın ya da dilediğiniz kadar ezerek sosa karıştırın, ardından pirinç veya muzla sıcak servis yapın."
   ],
@@ -63,5 +63,15 @@
   "tr": "Fıstık ezmesini sıcak suyla değil, oda sıcaklığındaki suyla karıştırıp sürekli karıştırarak ekleyin; böylece sos topaklanmaz ve tencerenin dibi yanmaz.",
   "en": "Whisk the peanut paste with room-temperature water before adding it, and stir constantly as it goes in; this prevents lumps and stops the base from scorching."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"tuz küpü\" (salt cube), but the ingredient is a chicken stock cube and the English step adds the stock cube and salt separately.",
+   "Turkish step 4 says the liquid is absorbed (\"suyunu çekene\"), while the English says it reduces slightly.",
+   "Turkish step 5 contains an unnatural phrase (\"Bir bütün halinde topaklanmaması için çırpın\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

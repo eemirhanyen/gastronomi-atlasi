@@ -42,8 +42,8 @@
    "Hamuru nemli bir bezle örtüp 15 dakika dinlendirin.",
    "Dolguyu hazırlamak için siyah susamı kuru bir tavada orta ateşte hafifçe kavurun, soğutun ve havanda kaba toz haline gelene kadar dövün.",
    "Susam tozunu 60 g toz şeker ve eritilmiş tereyağı ile iyice karıştırın. Dolgu nemli ama dağılmayacak kıvamda olmalıdır.",
-   "Hamuru 16 eşit parçaya bölün (yaklaşık 35 g) ve her birini avucunuzda yuvarlayın. Dolgu için her parçadan küçük bir top ayırın ya da dolguyu 16 parçaya bölün (yaklaşık 15 g).",
-   "Her hamur topunu avuç içinde yassılaştırarak yaklaşık 8 cm çapında bir disk yapın. Ortasına bir kaşık dolgu koyun.",
+   "Hamuru 16 eşit parçaya bölün (yaklaşık 30 g) ve her birini avucunuzda yuvarlayın. Dolguyu 16 parçaya bölün (yaklaşık 12 g).",
+   "Her hamur topunu avuç içinde yassılaştırarak yaklaşık 8 cm çapında bir disk yapın. Ortasına bir porsiyon dolgu koyun.",
    "Diski ikiye katlayıp kenarlarını sıkıca birleştirerek yarım ay şekli verin. Kenarlarını parmaklarınızla kıvrımlı bir desenle kapatın.",
    "Pişirme kağıdını veya çam iğne yapraklarını buhar sepetine yerleştirin ve şekillendirdiğiniz songpyeon'ları aralarında boşluk bırakarak dizin.",
    "Kaynayan suyun üzerine yerleştirdiğiniz buhar sepetini kapatıp 15-20 dakika buharda pişirin.",
@@ -55,7 +55,7 @@
    "Cover the dough with a damp cloth and rest it for 15 minutes.",
    "For the filling, toast the black sesame seeds in a dry pan over medium heat until fragrant, let them cool, then pound them in a mortar to a coarse powder.",
    "Mix the sesame powder thoroughly with 60 g caster sugar and the melted butter. The filling should be moist but hold together.",
-   "Divide the dough into 16 equal pieces (about 35 g each) and roll each into a ball. Divide the filling into 16 portions (about 15 g each).",
+   "Divide the dough into 16 equal pieces (about 30 g each) and roll each into a ball. Divide the filling into 16 portions (about 12 g each).",
    "Flatten each dough ball in your palm into a disc about 8 cm across. Place a portion of filling in the centre.",
    "Fold the disc in half over the filling to form a half-moon shape, then pinch the edges firmly closed, pressing a small pattern into the seam.",
    "Line the steamer basket with oiled parchment or clean pine needles and arrange the songpyeon with space between them.",
@@ -67,5 +67,15 @@
   "tr": "Hamur çok kuru olursa çatlar, çok ıslak olursa yapışır; kenarlar açılmasın diye şekil verirken hamuru hafif nemli tutun.",
   "en": "If the dough cracks, it is too dry; if it sticks, it is too wet. Keep it lightly moist while shaping and press the seams firmly so the filling does not leak."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough piece weight (about 35 g x 16 = 560 g) doesn't match the dough mass (about 470 g from 300 g flour, 165 ml water, sugar and salt).",
+   "Filling portion weight (about 15 g x 16 = 240 g) doesn't match the filling mass (about 190 g from 100 g sesame, 60 g sugar and 30 g butter).",
+   "Turkish step 6 offers an unclear 'or' choice for the filling division that the English version does not have; it should match the English (divide the filling into 16 portions)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

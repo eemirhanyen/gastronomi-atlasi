@@ -41,7 +41,7 @@
    "Salatalıkları ince ince dilimleyin, tuzla serpip 10 dakika bekletin. Ardından ellerinizle avuç avuç sıkarak fazla suyunu alın.",
    "Pirinç sirkesi, şeker, soya sosu ve dashi'yi küçük bir kapta şeker tamamen eriyene kadar karıştırarak sosu hazırlayın.",
    "Kanikamayı ince şeritler halinde ayırın.",
-   "Salatalık, wakame ve kanikamayı geniş bir kasede birleştirin. Hazırladığınız sosun yarısını üzerine dökün ve karıştırın.",
+   "Salatalık, wakame ve kanikamayı geniş bir kasede birleştirin. Hazırladığınız sosun tamamını üzerine dökün ve karıştırın.",
    "Karışımı buzdolabında 10 dakika dinlendirin. Servis tabağına alırken fazla sosu sıkıp süzün, üzerine susamı serpip hemen servis yapın."
   ],
   "en": [
@@ -49,7 +49,7 @@
    "Thinly slice the cucumbers, sprinkle with the salt and leave for 10 minutes. Squeeze handfuls firmly to remove excess liquid.",
    "Make the dressing by stirring the rice vinegar, sugar, soy sauce and dashi in a small bowl until the sugar has fully dissolved.",
    "Pull the kanikama apart into thin shreds.",
-   "Combine the cucumber, wakame and kanikama in a large bowl. Pour half of the dressing over and toss.",
+   "Combine the cucumber, wakame and kanikama in a large bowl. Pour all of the dressing over and toss.",
    "Chill the mixture in the fridge for 10 minutes. When plating, squeeze out any excess dressing, sprinkle with sesame seeds and serve immediately."
   ]
  },
@@ -57,5 +57,13 @@
   "tr": "Salatalığı tuzladıktan sonra iyice sıkmak, sosun fazla seyreltmesini önler ve salatanın çıtır kalmasını sağlar.",
   "en": "Squeezing the cucumber thoroughly after salting prevents the dressing from being diluted and keeps the salad crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 uses only half of the dressing, but the full sauce amounts are listed, so the other half is never used (ingredient listed but not used in the steps). Turkish and English versions both have this"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

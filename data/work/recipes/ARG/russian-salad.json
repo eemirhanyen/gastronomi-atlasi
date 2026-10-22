@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "400 g patates (mumsu olmayan tip)",
+   "400 g patates (mumsu tip)",
    "200 g havuç",
    "150 g dondurulmuş bezelye",
    "3 yumurta",
@@ -25,7 +25,7 @@
    "Karabiber"
   ],
   "en": [
-   "400 g potatoes (waxy-medium variety)",
+   "400 g potatoes (waxy variety)",
    "200 g carrots",
    "150 g frozen peas",
    "3 eggs",
@@ -63,5 +63,13 @@
   "tr": "Patates ve havuç küplerini mayonezle karıştırmadan önce tamamen soğutup kurulayın; aksi halde salata sulanır.",
   "en": "Let the potato and carrot cubes cool and dry completely before adding the mayonnaise, or the salad will turn watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says \"mumsu olmayan tip\" (non-waxy potato), but the English says \"waxy-medium variety\". The two versions contradict each other. Waxy potatoes are the better choice here because they"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

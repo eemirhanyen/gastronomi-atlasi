@@ -47,9 +47,9 @@
    "Mısır koçanlarından daneleri ayırın. Danelerin yarısını bıçakla kabaca doğrayın, kalan yarısını ise iri rende kısmında rendeleyin. Toplam 600 g civarında olmalıdır.",
    "Geniş bir tencerede tereyağını orta ateşte eritin. Soğanı ekleyip 8 dakika, yumuşayıp şeffaflaşana kadar kavurun.",
    "Rendelenmiş ve doğranmış mısırı tencereye ekleyin. Sütü, şekeri, tuzu, tatlı kırmızı biberi ve karabiberi ilave edip karıştırın. 5 dakika kadar pişirin.",
-   "Mısır unu(polenta)yı serperek sürekli karıştırın. Karışım koyulaşıp kaşıkta kıvam tutana kadar yaklaşık 3 dakika daha pişirin. Ocaktan alıp 10 dakika soğumaya bırakın.",
+   "Mısır unu (polenta) serperek sürekli karıştırın. Karışım koyulaşıp kaşıkta kıvam tutana kadar yaklaşık 3 dakika daha pişirin. Ocaktan alıp 10 dakika soğumaya bırakın.",
    "Soğuyan karışıma ufalanmış taze peyniri ekleyip yavaşça karıştırın.",
-   "Her koçan yaprağının ortasına 3 yemek kaşığı kadar karışım koyun. Yaprağın kenarlarını içe doğru katlayıp paket yapın, sonra mutfak ipiyle sıkıca bağlayın.",
+   "Her koçan yaprağının ortasına yaklaşık 6 yemek kaşığı karışım koyun. Yaprağın kenarlarını içe doğru katlayıp paket yapın, sonra mutfak ipiyle sıkıca bağlayın.",
    "Büyük bir tencerenin dibine yarıya kadar su koyup kaynatın. Tencerenin içine buharda pişirme ızgarası veya kısa bir kap yerleştirin, paketleri üst üste dizin.",
    "Kapağı kapatıp orta-düşük ateşte, buharı sürekli tutarak 35-40 dakika pişirin. Suyun azalırsa sıcak su ekleyin.",
    "Paketleri ocaktan alıp 5 dakika dinlendirin. Sıcak olarak, paketi açarak veya içinden kaşıkla alarak servis yapın."
@@ -61,7 +61,7 @@
    "Add the grated and chopped corn to the pot. Stir in the milk, sugar, salt, sweet paprika and black pepper. Cook for about 5 minutes.",
    "Sprinkle in the cornmeal (polenta) and stir constantly. Cook for about 3 more minutes until the mixture thickens and holds its shape on a spoon. Remove from the heat and let it cool for 10 minutes.",
    "Gently fold the crumbled fresh cheese into the cooled mixture.",
-   "Place about 3 tablespoons of the filling in the centre of each husk. Fold the sides of the husk inward to form a parcel and tie it firmly with kitchen string.",
+   "Place about 6 tablespoons of the filling in the centre of each husk. Fold the sides of the husk inward to form a parcel and tie it firmly with kitchen string.",
    "Pour water into a large pot to about halfway and bring it to a boil. Set a steamer basket or a heatproof rack inside and arrange the parcels on top.",
    "Cover and steam over medium-low heat for 35 to 40 minutes, keeping the steam going. Add hot water if the level drops.",
    "Lift the parcels out of the pot and rest them for 5 minutes. Serve warm, either in the husk or unwrapped and spooned onto plates."
@@ -71,5 +71,13 @@
   "tr": "Hamur çok sulu kalırsa mısır unu miktarını birer kaşık artırın; pişirme sonrası hamur kaşıktan dökülmeyecek kıvamda olmalıdır.",
   "en": "If the filling is too runny, add an extra spoonful of cornmeal; once cooked it should hold its shape and not spill from the husk."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling quantity doesn't match the batch: about 950 g of filling (corn, onion, butter, milk, cornmeal, cheese) is divided among 8 husks at 3 tablespoons each, which is only about 300 g. Most of the fi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

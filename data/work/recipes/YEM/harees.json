@@ -9,7 +9,7 @@
   "en": "A thick porridge of wheat and lamb, cooked for hours until the grain breaks down and is beaten smooth, then finished with ghee. In Yemen it is a staple of Ramadan iftar tables and festive gatherings such as weddings and Eid."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -43,7 +43,7 @@
    "Eti ve soğanı tencereden çıkarın, soğanı atın. Eti bir tabağa alıp soğumaya bırakın. Süzülmüş buğdayı suyun içine ekleyin.",
    "Kapağı yarı açık bırakarak buğdayı kısık ateşte 1,5 ila 2 saat pişirin. Her 10 dakikada bir karıştırın; kıvam çok koyulaşırsa sıcak su ekleyin.",
    "Bu sırada eti kemiklerinden ayırın ve lif lif didikleyin. Kemikleri atın.",
-   "Buğday iyice yumuşayıp dağılmaya başladığında, tahta kaşıkla veya el blenderıyla 5 ila 10 dakika güçlü bir şekilde dövün. Didiklenmiş eti ekleyip karıştırmaya devam edin; harise pürüzsüz ve kıvamlı bir lapa olmalıdır.",
+   "Buğday iyice yumuşayıp dağılmaya başladığında, tahta kaşıkla veya el blenderiyle 5 ila 10 dakika güçlü bir şekilde dövün. Didiklenmiş eti ekleyip karıştırmaya devam edin; harise pürüzsüz ve kıvamlı bir lapa olmalıdır.",
    "Kakule ve tarçını ekleyin, gerekirse tuz ile tadını ayarlayın.",
    "Sıcak servis tabaklarına alın, ortasını hafifçe çukurlaştırıp kalan 30 g eritilmiş sade yağı üzerine gezdirerek servis yapın."
   ],
@@ -63,5 +63,14 @@
   "tr": "Buğdayı bol suda uzun süre bekletmek, pişme süresini kısaltır ve lapanın daha pürüzsüz olmasını sağlar.",
   "en": "Soaking the wheat for a long time shortens cooking and gives a smoother texture; keep stirring near the end so it does not stick to the bottom."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) underestimates the active cooking time: about 1 hour of meat simmering is followed by 1.5 to 2 hours of wheat cooking, plus beating, so the total is roughly 160 to 190 minutes. Set to 1",
+   "Turkish step 7 has a vowel-harmony error: \"blenderıyla\" should be \"blenderiyle\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

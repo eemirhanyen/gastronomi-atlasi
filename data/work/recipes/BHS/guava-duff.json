@@ -9,7 +9,7 @@
   "en": "A traditional Bahamian steamed pudding made by rolling dough spread with guava jam and steaming it until soft and fragrant. It is served warm with a buttery rum sauce, especially on Sundays and holidays."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -50,7 +50,7 @@
    "Hamuru yaklaşık 30 x 20 cm boyutunda, 5 mm kalınlığında bir dikdörtgen halinde açın.",
    "Guava reçelini hamurun üzerine, kenarlarda 2 cm boşluk bırakarak eşit şekilde yayın. Uzun kenardan başlayarak sıkıca sarın.",
    "Alüminyum folyonun ortasına 10 g tereyağı sürün. Hamur rulosunu folyoya yerleştirin, folyoyu sıkıca sarın ve uçlarını iple bağlayın. Pudingin şişmesi için sargıda biraz boşluk bırakın.",
-   "Geniş bir tencerenin dibine buhar sepeti yerleştirin ve tencereye pudingin yarısına gelecek kadar su koyun. Pudingi sepete yerleştirip kapağı kapatın ve kaynamış suda kısık ateşte 40 dakika buharda pişirin. Su azalırsa sıcak su ekleyin.",
+   "Geniş bir tencerenin dibine buhar sepeti yerleştirin ve tencereye pudingin yarısına gelecek kadar su koyun. Pudingi sepete yerleştirip kapağı kapatın ve kaynamış suda kısık ateşte 60 dakika buharda pişirin. Su azalırsa sıcak su ekleyin.",
    "Sos için küçük bir tencerede 80 g tereyağını eritin. Esmer şekeri, suyu ve öğütülmüş hindistancevizini ekleyip kısık ateşte 5 dakika, hafifçe koyulaşana kadar karıştırarak pişirin.",
    "Sos ocaktan alındıktan sonra romu ekleyip karıştırın.",
    "Pudingi tencereden çıkarıp 5 dakika dinlendirin. Folyoyu açın, rulonun 2,5 cm kalınlığında dilimlerini kesin ve sosla birlikte ılık olarak servis yapın."
@@ -61,15 +61,25 @@
    "Roll the dough out into a rectangle about 30 x 20 cm and 5 mm thick.",
    "Spread the guava jam evenly over the dough, leaving a 2 cm border around the edges. Starting from a long side, roll it up tightly.",
    "Grease the centre of a sheet of aluminium foil with the 10 g butter. Place the roll on the foil, wrap it securely and tie the ends with string, leaving a little room for the pudding to expand.",
-   "Place a steamer rack in a large pot and add water to reach about halfway up the pudding. Set the pudding on the rack, cover and steam over a gentle simmer for 40 minutes. Top up with hot water if the level drops.",
+   "Place a steamer rack in a large pot and add water to reach about halfway up the pudding. Set the pudding on the rack, cover and steam over a gentle simmer for 60 minutes. Top up with hot water if the level drops.",
    "For the sauce, melt the 80 g butter in a small saucepan. Add the brown sugar, water and ground nutmeg, then simmer gently for 5 minutes, stirring, until slightly thickened.",
    "Remove the sauce from the heat and stir in the dark rum.",
    "Lift the pudding out of the pot and rest it for 5 minutes. Open the foil, slice the roll into pieces about 2.5 cm thick and serve warm with the sauce."
   ]
  },
  "tip": {
-  "tr": "Rulo sararken guava reçelini fazla ıslak sürmeyin; aksi halde sarma sırasında hamur yırtılabilir ve reçel dışarı taşabilir.",
+  "tr": "Reçeli çok kalın veya fazla miktarda sürmeyin; aksi halde sarma sırasında hamur yırtılabilir ve reçel dışarı taşabilir. Rulo sıkı olsun ama hamurun kabarması için biraz boşluk bırakın.",
   "en": "Do not spread the jam too thickly or add too much, or the roll may split and leak during steaming. Keep the roll tight but leave room for the dough to rise."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Steaming time of 40 minutes is likely too short for a dense baking-powder dough roll of this size. Traditional duff is steamed or boiled for roughly an hour or more, so the dough may stay gummy in the",
+   "Tip mismatch: the Turkish tip says not to spread the jam 'too wet' (fazla ıslak), while the English tip says not to spread it 'too thickly'. The Turkish tip also lacks the English advice about leaving",
+   "time_min (60) does not cover the prep, steaming, and sauce steps once the longer steaming time is accounted for."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

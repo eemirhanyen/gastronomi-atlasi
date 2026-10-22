@@ -8,7 +8,7 @@
   "tr": "Portekiz etkisindeki São Tomé ve Príncipe mutfağının yumuşak, nemli bir tatlısıdır. Genellikle öğleden sonra kahvesiyle ya da kutlamalarda servis edilir.",
   "en": "A soft, moist cake from São Tomé and Príncipe's Portuguese-influenced kitchen, usually served with coffee in the afternoon or at celebrations."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -67,7 +67,16 @@
  },
  "tip": {
   "tr": "Hindistan cevizi kekin üstünü hızlı kızartır; 25. dakikada üstü koyulaşıyorsa kekin üzerine alüminyum folyo örtün.",
-  "en": "Desiccated coconut browns quickly; if the top darkens before 25 minutes, loosely cover the cake with foil."
+  "en": "Desiccated coconut browns quickly; if the top is already darkening at the 25-minute mark, loosely cover the cake with foil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) don't fit the amounts: 180 g flour, 3 eggs and about 690 g total batter make a 20 cm cake for roughly 8 portions.",
+   "Tip timing differs between versions: the Turkish says \"at minute 25\" but the English says \"before 25 minutes\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

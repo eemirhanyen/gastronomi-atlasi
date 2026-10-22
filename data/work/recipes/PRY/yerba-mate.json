@@ -17,7 +17,7 @@
    "80 g yerba mate (kurutulmuş mate yaprağı)",
    "Yaklaşık 50 ml soğuk su",
    "1 adet mate kabağı",
-   "1 adet bombilya (metal içme pipeti)",
+   "1 adet bombilla (metal içme pipeti)",
    "İsteğe bağlı: 1-2 yemek kaşığı şeker"
   ],
   "en": [
@@ -33,11 +33,11 @@
   "tr": [
    "Suyu kaynatıp yaklaşık 75-80 °C'ye gelmesi için birkaç dakika bekletin; kaynar su yerba matenin tadını acılaştırır.",
    "Mate kabağının yaklaşık üçte ikisini 80 g yerba mate ile doldurun ve kabağı bir yana eğerek yaprakların yamaç oluşturmasını sağlayın.",
-   "Bombilyayı, yapraklar yığınının boş olan yanına, kabağın dibine değecek şekilde yerleştirin.",
+   "Bombillayı, yapraklar yığınının boş olan yanına, kabağın dibine değecek şekilde yerleştirin.",
    "Boş tarafa yaklaşık 50 ml soğuk su dökün ve yaprakların birkaç dakika ıslanmasını bekleyin.",
-   "Sıcak suyu yavaşça, bombilyanın yanından kabağın içine dökün; kabağı dik tutmadan önce suyun yapraklara emilmesini bekleyin.",
-   "İsterseniz şekeri su ile birlikte ekleyin, sonra bombilyadan ilk yudumu alın.",
-   "Kabak ağzına kadar yaprak tuttuğu sürece her seferinde sıcak su ekleyip yudumlayın ve kabağı sırayla kişilere uzatın."
+   "Sıcak suyu yavaşça, bombillanın yanından kabağın içine dökün; kabağı dik tutmadan önce suyun yapraklara emilmesini bekleyin.",
+   "İsterseniz şekeri su ile birlikte ekleyin, sonra bombilladan ilk yudumu alın.",
+   "Kabağı her boşaldığında yeniden sıcak su ekleyip yudumlayın ve kabağı sırayla kişilere uzatın."
   ],
   "en": [
    "Bring the water to a boil, then let it cool to about 75-80 °C; boiling water makes yerba mate taste bitter.",
@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Mate kabağını hiçbir zaman karıştırmayın; bombilyayı yapraklara zarar vermeden yerleştirmek, lezzetin uzun süre dengeli kalmasını sağlar.",
+  "tr": "Mate kabağını hiçbir zaman karıştırmayın; bombillayı yapraklara zarar vermeden yerleştirmek, lezzetin uzun süre dengeli kalmasını sağlar.",
   "en": "Never stir the gourd; placing the bombilla carefully keeps the flavour balanced through several refills."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says to keep adding hot water as long as the gourd holds leaves, while the English says to add water each time the gourd is emptied. The two versions describe different conditions.",
+   "Turkish uses 'bombilya' (also the word for 'light bulb') while the English uses 'bombilla'. The Turkish should use the same term to avoid confusion."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

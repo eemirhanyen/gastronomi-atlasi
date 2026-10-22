@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "800 g dana rost veya bonfile, 3 cm'lik küpler halinde",
+   "800 g dana omuz (chuck) veya bel eti, 3 cm'lik küpler halinde",
    "45 ml sıvı yağ",
    "2 orta boy soğan, ince doğranmış (300 g)",
    "3 diş sarımsak, ezilmiş",
@@ -52,7 +52,7 @@
    "Kazanı kömür ateşinin üzerine veya orta-yüksek ocakta yerleştirin ve yağı ekleyin.",
    "Et küplerini partiler halinde, her yüzü kahverengileşene kadar yaklaşık 5 dakika kavurun ve bir tabağa alın.",
    "Aynı kazanda soğanları ekleyip yumuşayıncaya ve hafif altın rengi alıncaya kadar yaklaşık 8 dakika pişirin.",
-   "Sarımsağı ekleyip 1 dakika daha kavurun, ardından domates salçasını ekleyip 2 dakika karıştırmadan pişirin.",
+   "Sarımsağı ekleyip 1 dakika daha kavurun, ardından domates salçasını ekleyip 2 dakika sık sık karıştırarak pişirin.",
    "Unu serpin ve bir dakika kadar karıştırarak kavurun.",
    "Eti kazana geri koyun, kırmızı şarabı ekleyin ve dibindeki lezzetli kısımları kazıyarak 3 dakika kaynatın.",
    "Sığır suyu, Worcestershire sosu, kekik, defne yaprağı, tuz ve karabiberi ekleyin, ardından karıştırıp kaynamaya bırakın.",
@@ -64,7 +64,7 @@
    "Place the pot over medium-high heat or on hot coals and add the oil.",
    "Brown the beef cubes in batches for about 5 minutes, until all sides are browned, then set aside on a plate.",
    "In the same pot, cook the onions for about 8 minutes until soft and lightly golden.",
-   "Add the garlic and cook for 1 more minute, then stir in the tomato paste and cook for 2 minutes without stirring too much.",
+   "Add the garlic and cook for 1 more minute, then stir in the tomato paste and cook for 2 minutes, stirring frequently.",
    "Sprinkle over the flour and stir-fry for about 1 minute.",
    "Return the beef to the pot, add the red wine and scrape up the browned bits from the base, simmering for 3 minutes.",
    "Add the beef stock, Worcestershire sauce, thyme, bay leaves, salt and black pepper, then stir once and bring to a gentle simmer.",
@@ -77,5 +77,14 @@
   "tr": "Potjiekos karıştırılmaz; her katman kendi suyunda pişer. Kapağı sık sık açmak buharı kaçırır, bu yüzden kapağı sadece gerektiğinde kaldırın.",
   "en": "Never stir potjiekos once the layers are in; each layer cooks in its own steam. Lift the lid only when you need to check liquid, as frequent peeking lets heat escape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish meat cut 'bonfile' (tenderloin) does not match the English 'chuck or sirloin', and tenderloin is unsuitable for a 1.5-hour braise. The Turkish version should name a braising cut such as omuz (",
+   "Step 4 disagrees between versions: Turkish says 'karıştırmadan' (without stirring) while English says 'without stirring too much'. Tomato paste needs to be stirred, so both should say stirring frequen"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

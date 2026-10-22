@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kır",
+  "tr": "Kheer",
   "en": "Kheer"
  },
  "native": "کھیر",
@@ -61,5 +61,13 @@
   "tr": "Sütün tencerenin dibine yapışmaması için pişirme sırasında sık karıştırın; kıvamı kalınlaştırmak isterseniz kısık ateşte biraz daha bekletin.",
   "en": "Stir frequently and keep the heat low so the milk does not scorch on the base; the pudding thickens further as it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Kır' is a Turkish word meaning 'countryside/rural' and does not transliterate 'Kheer'; it should match the English name."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -14,7 +14,8 @@
  "ingredients": {
   "tr": [
    "700 g İsveç şalgamı (lanttu), soyulmuş ve küp doğranmış",
-   "1 yemek kaşığı tuz (kaynatma suyu için)",
+   "1 litre su, haşlamak için",
+   "1 yemek kaşığı tuz (haşlama suyu için)",
    "40 g galeta unu (korppujauho)",
    "1 büyük yumurta (yaklaşık 50 g)",
    "150 ml sıvı krema",
@@ -31,6 +32,7 @@
   ],
   "en": [
    "700 g rutabaga (swede), peeled and diced",
+   "1 litre water, for boiling",
    "1 tbsp salt (for the cooking water)",
    "40 g dried breadcrumbs (korppujauho)",
    "1 large egg (about 50 g)",
@@ -50,7 +52,7 @@
  "steps": {
   "tr": [
    "Fırını 200°C'ye ısıtın ve 1,5 litrelik fırına dayanıklı bir kabı tereyağı ile yağlayın.",
-   "Küp doğranmış lanttuyu 1 yemek kaşığı tuzlu suda, yumuşayana kadar yaklaşık 25–30 dakika haşlayın.",
+   "Küp doğranmış lanttuyu 1 litre suyu ve 1 yemek kaşığı tuzu içeren bir tencerede, yumuşayana kadar yaklaşık 25–30 dakika haşlayın.",
    "Lanttuyu süzün, sıcakken 30 g tereyağı ile birlikte ezerek pürüzsüz bir püre elde edin ve biraz soğumaya bırakın.",
    "Ayrı bir kapta yumurtayı çırpın, kremayı, sütü, şekeri, tuzu, karabiberi, yenibahar ve hindistancevizini ekleyip karıştırın.",
    "Galeta ununu lanttu püresine serpin, ardından yumurtalı karışımı ekleyip homojen olana kadar iyice karıştırın.",
@@ -61,7 +63,7 @@
   ],
   "en": [
    "Preheat the oven to 200°C and grease a 1.5-litre ovenproof dish with the 10 g of butter.",
-   "Boil the diced rutabaga in the 1 tbsp of salted water for 25–30 minutes, until very soft.",
+   "Boil the diced rutabaga in 1 litre of water with 1 tbsp of salt for 25–30 minutes, until very soft.",
    "Drain the rutabaga and mash it while hot with the 30 g of butter until smooth. Let it cool slightly.",
    "In a separate bowl, beat the egg, then stir in the cream, milk, sugar, salt, black pepper, allspice and nutmeg.",
    "Sprinkle the breadcrumbs over the mashed rutabaga, then add the egg mixture and stir until evenly combined.",
@@ -75,5 +77,14 @@
   "tr": "Lanttuyu iyice kurutarak ezin; fazla su püreyi sulandırır ve güveç kıvamını bozar.",
   "en": "Mash the rutabaga well and drain it thoroughly; excess water will make the casserole loose and soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 (both languages) says to boil about 700 g of rutabaga in '1 tbsp of salted water', which cannot cover the vegetable. The water quantity is missing from the ingredient list, and the 1 tbsp refer",
+   "Turkish step 2 has the same problem: '1 yemek kaşığı tuzlu suda' is ambiguous and implies too little water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

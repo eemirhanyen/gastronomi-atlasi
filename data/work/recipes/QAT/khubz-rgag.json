@@ -32,9 +32,9 @@
    "Geniş bir kapta unu ve tuzu karıştırın. 15 ml sıvı yağı ekleyip un ile ovarak dağıtın.",
    "Ilık suyu yavaş yavaş ekleyerek 8–10 dakika yoğurun; yumuşak, pürüzsüz ve çok yapışkan olmayan bir hamur elde edin.",
    "Hamuru üzerini örtüp oda sıcaklığında 30 dakika dinlendirin.",
-   "Hamuru 8 eşit parçaya bölün (her biri yaklaşık 35–40 g), avuçlarınızda küçük toplar haline getirin ve nemli bir bezle örtün.",
+   "Hamuru 8 eşit parçaya bölün (her biri yaklaşık 50–55 g), avuçlarınızda küçük toplar haline getirin ve nemli bir bezle örtün.",
    "Ağır tabanlı kuru bir tavayı ya da varsa saç (dökme demir) üzerinde orta-yüksek ateşte, yüzey yaklaşık 200–230 °C olana kadar ısıtın.",
-   "Çalışma yüzeyini ve ellerinizi çok az yağla hafifçe yağlayın. Bir topu yassılaştırın, kenarlarından çekerek yaklaşık 30 cm çapında, ışığı geçirecek kadar ince bir daire açın.",
+   "Çalışma yüzeyine ek unun bir kısmını serpin ve ellerinizi çok az yağla hafifçe yağlayın. Bir topu yassılaştırın, kenarlarından çekerek yaklaşık 30 cm çapında, ışığı geçirecek kadar ince bir daire açın.",
    "Açtığınız ekmeği sıcak tavaya alın. Kabarcıklar ve açık kahverengi noktalar oluşana kadar 20–30 saniye pişirin.",
    "Ekmeği çevirip 15–20 saniye daha pişirin; çok renklenmesine izin vermeyin, yumuşak kalması gerekir.",
    "Pişen ekmeği temiz bir mutfak bezine sarın ve diğerlerini de aynı şekilde açıp pişirin. Servisten önce sıcak tutmak için üzerini örtün."
@@ -43,9 +43,9 @@
    "In a large bowl, mix the flour and salt. Add 15 ml oil and rub it into the flour.",
    "Gradually add the lukewarm water and knead for 8–10 minutes until you have a smooth, soft dough that is not too sticky.",
    "Cover the dough and rest it at room temperature for 30 minutes.",
-   "Divide the dough into 8 equal pieces (about 35–40 g each), roll them into small balls and cover with a damp cloth.",
+   "Divide the dough into 8 equal pieces (about 50–55 g each), roll them into small balls and cover with a damp cloth.",
    "Heat a heavy, dry pan or a traditional saj over medium-high heat until the surface reaches about 200–230 °C.",
-   "Lightly grease your work surface and hands with a little oil. Flatten one ball and stretch it from the edges into a round about 30 cm across, thin enough to let light through.",
+   "Dust the work surface lightly with some of the extra flour and rub your hands with a little oil. Flatten one ball and stretch it from the edges into a round about 30 cm across, thin enough to let light through.",
    "Transfer the stretched bread to the hot pan and cook for 20–30 seconds, until bubbles form and light brown spots appear.",
    "Flip the bread and cook for another 15–20 seconds; do not let it brown heavily, as it should stay soft and pliable.",
    "Wrap the cooked bread in a clean kitchen towel, then stretch and cook the remaining balls the same way. Keep covered until serving."
@@ -55,5 +55,14 @@
   "tr": "Hamuru açarken kenarlardan çekin ve merkezi çok incelttirmeyin; yağlı yüzey ve kısa dinlenme, yırtılmadan ince açmanızı kolaylaştırır.",
   "en": "Stretch from the edges inward and keep the centre slightly thicker than the rim to avoid tears; an oiled surface and a proper rest make very thin stretching much easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't match the portion size: 250 g flour + 5 g salt + 15 ml oil + 160–170 ml water is about 435 g, so 8 pieces weigh about 50–55 g each, not 35–40 g (Turkish and English both affected)",
+   "The 20 g of extra flour for dusting is listed as an ingredient but never used in the steps. Step 6 should tell the cook to dust the work surface with it (Turkish and English)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

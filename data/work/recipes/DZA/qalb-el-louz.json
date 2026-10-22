@@ -48,7 +48,7 @@
    "Fırını 170°C'ye ısıtın. 20 cm çaplı yuvarlak kalıbın içini tereyağıyla yağlayın ve tabanını pişirme kağıdıyla kaplayın.",
    "Yumurtaları ve toz şekeri elektrikli çırpıcıyla 4-5 dakika, karışım açık renk ve kıvamlı olana kadar çırpın.",
    "Portakal çiçek suyu, sütü ve eritilmiş tereyağını ekleyip yavaşça karıştırın.",
-   "Öğütülmüş bademi, irmiği ve kabartma tozunu ekleyip spatulayla hamuru kabarmayacak şekilde nazikçe katlayın.",
+   "Öğütülmüş bademi, irmiği ve kabartma tozunu ekleyip spatulayla hamurun havasını kaybetmeyecek şekilde nazikçe katlayın.",
    "Hamuru kalıba yayın, üzerine kabuğu soyulmuş bademleri daire şeklinde yerleştirin. 25-30 dakika, üstü altın rengi olana ve çubuk batırıldığında hamur bulaşmayana kadar pişirin.",
    "Şerbeti hazırlamak için şekeri, suyu ve limon suyunu orta ateşte 5 dakika kaynatın. Ocaktan alıp portakal çiçek suyunu ekleyin.",
    "Kek fırından çıkınca hâlâ sıcakken üzerine ılıtılmış şerbetin yarısını yavaşça dökün. Kalan şerbeti 30 dakika içinde kademeli olarak ekleyip kekin şerbeti iyice emmesini sağlayın.",
@@ -61,7 +61,7 @@
    "Fold in the ground almonds, semolina and baking powder with a spatula, taking care not to deflate the batter.",
    "Spread the batter into the tin and arrange the blanched almonds in a circle on top. Bake for 25-30 minutes, until golden and a skewer comes out clean.",
    "To make the syrup, simmer the sugar, water and lemon juice over medium heat for 5 minutes. Remove from the heat and stir in the orange blossom water.",
-   "While the cake is still warm from the oven, slowly pour half the warm syrup over it. Add the rest gradually over 30 minutes so the cake absorbs it fully.",
+   "While the cake is still warm from the oven, slowly pour half the lukewarm syrup over it. Add the rest gradually over 30 minutes so the cake absorbs it fully.",
    "Once the cake has cooled completely, remove it from the tin, cut into diamond shapes and serve."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Şerbeti ılık dökün ve keki sıcak bırakın; soğuk şerbet ile sıcak kek birbirini daha iyi emer ve dilimler dağılmaz.",
   "en": "Pour lukewarm syrup over the warm cake so it soaks in evenly. Hot syrup on a cold cake makes it soggy, while cold syrup on a hot cake can make it lose its texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the batter should not 'rise' (\"kabarmayacak\"), which reverses the intended meaning. The English says not to deflate it, so the Turkish should say the batter's air should not be los",
+   "Step 7 is inconsistent between languages: the Turkish says 'ılıtılmış' (lukewarm) syrup, which matches the tip, but the English says 'warm syrup'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

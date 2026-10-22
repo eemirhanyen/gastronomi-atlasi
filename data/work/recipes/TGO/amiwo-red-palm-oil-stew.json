@@ -5,11 +5,11 @@
  },
  "native": "Amiwo",
  "desc": {
-  "tr": "Togo'nun güneyinde, özellikle Ewe toplulukları arasında öğle ve akşam yemeklerinde sık yapılan, kırmızı palmiye yağı, domates ve acı biberle tatlandırılmış koyu renkli bir yahnidir. Genellikle akoumé ya da fufu ile servis edilir.",
+  "tr": "Togo'nun güneyinde, özellikle Ewe toplulukları arasında öğle ve akşam yemeklerinde sık yapılan, kırmızı palmiye yağı, domates ve acı biberle lezzetlendirilmiş koyu renkli bir yahnidir. Genellikle akoumé ya da fufu ile servis edilir.",
   "en": "A deep red stew from southern Togo, especially among the Ewe communities, flavoured with red palm oil, tomato and hot pepper. It is eaten at lunch or dinner and usually served with akoumé or fufu."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 95,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -71,5 +71,14 @@
   "tr": "Kırmızı palmiye yağını domatesten önce iyice ısıtın; yağın ayrılması ve rengin parlaması, sosun gerçek amiwo tadını verir.",
   "en": "Heat the red palm oil well before adding the tomato; the oil separating from the sauce and turning glossy is what gives amiwo its authentic flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is too short for the listed steps: about 40 min simmering the beef, plus roughly 50 min of frying, simmering and reducing, so about 95 min",
+   "Turkish description uses 'tatlandırılmış' (sweetened), which is wrong for a savoury stew; 'lezzetlendirilmiş' is the correct term"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

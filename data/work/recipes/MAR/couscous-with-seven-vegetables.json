@@ -9,7 +9,7 @@
   "en": "A traditional Moroccan main dish, especially served at Friday lunch to share with family and guests. Steamed semolina grains are served over a spiced meat and vegetable broth."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -31,8 +31,10 @@
    "300 g balkabağı",
    "250 g lahana",
    "200 g haşlanmış nohut (konserve, süzülmüş)",
+   "1,5 litre sıcak su (et suyu için)",
    "500 g kuskus (orta taneli)",
-   "300 ml sıcak su (kuskus için)",
+   "300 ml ılık su (kuskus için)",
+   "1 yemek kaşığı (15 ml) zeytinyağı (kuskus için)",
    "10 g tuz",
    "2 g karabiber",
    "15 g taze kişniş",
@@ -58,8 +60,10 @@
    "300 g pumpkin",
    "250 g cabbage",
    "200 g cooked chickpeas (canned, drained)",
+   "1.5 litres hot water (for the broth)",
    "500 g medium-grain couscous",
    "300 ml warm water (for the couscous)",
+   "1 tablespoon (15 ml) olive oil (for the couscous)",
    "10 g salt",
    "2 g black pepper",
    "15 g fresh coriander",
@@ -95,5 +99,16 @@
   "tr": "Kuskusu iki kez buharda pişirip her seferinde elinizle ufalamak taneleri yumuşak ve birbirinden ayrık tutar; sebze suyunu ayrı bir kasede servis edin ki herkes kendi kıvamını ayarlayabilsin.",
   "en": "Steaming the couscous twice and breaking it up by hand between steamings keeps the grains light and separate; serve extra broth in a bowl so each person can adjust the moisture to taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 uses 1.5 litres of hot water for the broth, but the ingredient list has no entry for it (both TR and EN).",
+   "Step 7 uses 1 tablespoon of olive oil for the couscous, but the ingredient list only has the 3 tablespoons used for browning (both TR and EN).",
+   "Turkish ingredient list says 'sıcak su' (hot water) for the couscous, but step 7 and the English version say warm/ılık water.",
+   "time_min is 75, but the steps total roughly 100 minutes (about 10 min prep, 8 min browning, 5 min onion, 23 min tomato and broth, 10 min vegetables, 15 min final simmer, 10 min rest, 25 min steaming)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A light, tart, low-alcohol blend of red and white wine from the Dolenjska region of Slovenia. It has been drunk for centuries as an everyday wine, usually with local meals in taverns and at home."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -43,5 +43,13 @@
   "tr": "Cviček genellikle buz konulmadan, serin olarak içilir; buz, karışımın tadını ve aromasını zayıflatır.",
   "en": "Cviček is traditionally served cool, not iced, because ice dilutes its flavour and the fresh acidity that defines it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 15, but the steps include about 1 hour of chilling, so the total time is roughly 75 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

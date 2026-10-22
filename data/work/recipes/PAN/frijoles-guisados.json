@@ -16,16 +16,16 @@
    "300 g kuru kırmızı fasulye (bir gece önceden ıslatılmış)",
    "1 l su",
    "1 defne yaprağı",
-   "150 g domuz omuzu veya bonfile, 1,5 cm küp doğranmış",
+   "150 g domuz omuzu veya bel eti, 1,5 cm küp doğranmış",
    "30 ml sıvı yağ",
    "2 g öğütülmüş annatto (achiote)",
    "120 g soğan, ince doğranmış",
    "150 g yeşil dolmalık biber, doğranmış",
    "3 diş sarımsak, ezilmiş",
    "200 g olgun domates, rendelenmiş",
-   "20 g culantro yaprağı, ince doğranmış",
+   "20 g culantro yaprağı (kişniş benzeri, aromatik bir ot), ince doğranmış",
    "10 g kişniş yaprağı, ince doğranmış",
-   "1 g kurutulmuş kekik veya kekik benzeri kurutulmuş kekik yerine kekik otu",
+   "1 g kurutulmuş kekik otu (oregano)",
    "6 g tuz (tadına göre)",
    "2 g karabiber"
   ],
@@ -52,7 +52,7 @@
    "Islatılmış fasulyeyi süzün ve iyice durulayın.",
    "Fasulyeyi, 1 litre su ve defne yaprağı ile birlikte büyük bir tencereye alın. Kaynatın, ateşi kısın ve fasulyeler yumuşayana kadar, yaklaşık 60-75 dakika pişirin. Gerekirse sıcak su ekleyin.",
    "Fasulyeler pişerken domuz etini küçük parçalara ayırın. Geniş bir tavada yağı ısıtın, annatto'yu ekleyip 1 dakika kadar yağa rengini vermesi için bekleyin, ardından süzüp yağı bir kenara alın.",
-   "Annatto'lu yağda domuz etlerini her tarafı kızarana kadar, yaklaşık 6-8 dakika kavurun. Yarıya kadar tuz ve karabiber serpin.",
+   "Annatto'lu yağda domuz etlerini her tarafı kızarana kadar, yaklaşık 6-8 dakika kavurun. Kavurma sırasında yarısında tuz ve karabiber serpin.",
    "Soğanı, dolmalık biberi ve sarımsağı ekleyip yumuşayana ve soğanlar şeffaflaşana kadar, yaklaşık 5 dakika kavurun.",
    "Rendelenmiş domatesi ekleyin ve suyu çekilene kadar, yaklaşık 5 dakika pişirin.",
    "Domuz etini tavaya geri koyun, kekik otunu ve culantro yaprağını ekleyip 2 dakika daha karıştırın.",
@@ -63,7 +63,7 @@
    "Drain the soaked beans and rinse them well.",
    "Put the beans in a large pot with 1 litre of water and the bay leaf. Bring to a boil, reduce the heat and simmer for 60-75 minutes, until the beans are tender. Add hot water if needed.",
    "While the beans cook, cut the pork into small pieces. Heat the oil in a wide skillet, add the annatto and let it color the oil for about 1 minute, then strain out the seeds and set the oil aside.",
-   "In the annatto oil, brown the pork on all sides for 6-8 minutes. Season halfway with salt and black pepper.",
+   "In the annatto oil, brown the pork on all sides for 6-8 minutes. Season halfway through browning with salt and black pepper.",
    "Add the onion, bell pepper and garlic and cook until soft and the onion is translucent, about 5 minutes.",
    "Stir in the grated tomato and cook until it has thickened and most of the liquid has evaporated, about 5 minutes.",
    "Return the pork to the skillet, add the oregano and culantro leaves, and stir for 2 more minutes.",
@@ -75,5 +75,16 @@
   "tr": "Fasulyeleri tamamen yumuşamadan tuz eklemeyin; tuz, kabuğun sertleşmesine yol açabilir.",
   "en": "Do not add salt until the beans are fully tender, since salt added too early can keep the skins tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for the dried herb is garbled (\"kekik veya kekik benzeri... yerine kekik otu\") and says thyme (kekik), while the English says dried oregano.",
+   "Pork cut mismatch: Turkish says \"bonfile\" (tenderloin), English says \"shoulder or loin\". Turkish should match the English cut.",
+   "Turkish \"Yarıya kadar tuz ve karabiber serpin\" is ambiguous; it should say the seasoning is added halfway through browning, matching the English.",
+   "Turkish ingredient \"culantro yaprağı\" is left untranslated without explanation; a short gloss helps readers."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

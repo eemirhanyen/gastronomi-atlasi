@@ -5,7 +5,7 @@
  },
  "native": "Corn soup",
  "desc": {
-  "tr": "Trinidad ve Tobago'da hindi (pumpkin), hindistan cevizi sütü ve hamur topları ile yapılan, kremamsı ve doyurucu bir çorbadır. Genellikle hafta sonu öğle yemeklerinde ve soğuk akşamlarda, taze mısır mevsiminde servis edilir.",
+  "tr": "Trinidad ve Tobago'da balkabağı, hindistan cevizi sütü ve hamur topları ile yapılan, kremamsı ve doyurucu bir çorbadır. Genellikle hafta sonu öğle yemeklerinde ve soğuk akşamlarda, taze mısır mevsiminde servis edilir.",
   "en": "A creamy, filling soup from Trinidad and Tobago made with fresh corn, pumpkin, coconut milk and small flour dumplings. It is often served at weekend lunches and on cool evenings, especially when fresh corn is in season."
  },
  "servings": 4,
@@ -52,8 +52,8 @@
    "Balkabağını, mısır halkalarını, bütün Scotch bonnet biberini ve 1,5 litre suyu ekleyin. Karabiberi de ilave edin.",
    "Kaynamaya bırakın, ateşi kısın ve kapağı yarı açık olarak balkabağı ve mısır tamamen yumuşayana kadar, yaklaşık 25 dakika pişirin.",
    "Bu sırada hamur için unu, kabartma tozunu ve 1/2 tatlı kaşık tuzu bir kasede karıştırın. Yavaş yavaş suyu ekleyerek yumuşak, elde yapışmayan bir hamur yoğurun. Ardından 10 dakika dinlendirin.",
-   "Hamurdan cevizden biraz büyük, küçük toplar koparın ve ya da ince uzun parçalar halinde kesin.",
-   "Kekik dallarını ve bütün biberi çıkarın. Biberi kırmadan çıkarmaya dikkat edin, isteğe bağlı olarak tekrar bir kez çorbaya bırakabilirsiniz.",
+   "Hamurdan cevizden biraz büyük, küçük toplar koparın veya ince uzun parçalar halinde kesin.",
+   "Kekik dallarını ve bütün biberi çıkarın. Biberi ezmeden çıkarmaya dikkat edin.",
    "Hamur parçalarını kaynayan çorbaya tek tek ekleyin ve ateşi orta seviyeye getirip 10 dakika pişirin. Hamurlar yüzeye çıkıp pişmiş olmalı.",
    "Hindistan cevizi sütünü ekleyin, 5 dakika daha kısık ateşte ısıtın ve tuzunu kontrol edin.",
    "Ocaktan alın, isteğe bağlı olarak doğranmış chadon beni'yi serpin ve sıcak servis yapın."
@@ -72,8 +72,19 @@
   ]
  },
  "tip": {
-  "tr": "Taze mısır, soğuk konserve mısırdan çok daha tatlı bir çorba verir; koçanları kesmeden önce tencerede 5 dakika kaynatıp suyunu çorbaya eklemek lezzeti artırır.",
-  "en": "Fresh corn gives a far sweeter soup than canned; simmering the cobs and any cooking liquid is fine, and adding the cob-based stock enhances flavour. Handle the Scotch bonnet carefully and remove it whole to keep the heat mild."
+  "tr": "Taze mısır, konserve mısırdan çok daha tatlı bir çorba verir. Scotch bonnet biberini dikkatli kullanın ve bütün halde çıkararak acılığı hafif tutun.",
+  "en": "Fresh corn gives a far sweeter soup than canned. Handle the Scotch bonnet carefully and remove it whole to keep the heat mild."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses 'hindi' (turkey) for pumpkin; the correct term is 'balkabağı'.",
+   "Turkish step 7 suggests optionally returning the pepper to the soup, which the English version does not say.",
+   "Tip mismatch: the Turkish tip says to simmer cobs for stock before cutting them, but the steps never do this, and the English tip describes it differently and vaguely.",
+   "Turkish step 6 uses the informal conjunction 'ya da' where 'veya' is more natural in a recipe."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

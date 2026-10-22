@@ -9,7 +9,7 @@
   "en": "A dish of Portuguese origin that has become a home and festive favourite in Bissau. Chicken pieces simmer in a spiced onion and tomato sauce, which is thickened with blood and vinegar and served over rice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -25,7 +25,8 @@
    "1 acı biber, ince doğranmış (isteğe bağlı)",
    "2 defne yaprağı",
    "300 g baldo pirinç veya uzun taneli pirinç",
-   "600 ml sıcak tavuk suyu",
+   "700 ml sıcak tavuk suyu",
+   "50 ml sıcak su",
    "Tuz ve karabiber",
    "Birkaç dal maydanoz, doğranmış"
   ],
@@ -42,7 +43,8 @@
    "1 hot chilli, finely chopped (optional)",
    "2 bay leaves",
    "300 g parboiled or medium-grain rice",
-   "600 ml hot chicken stock",
+   "700 ml hot chicken stock",
+   "50 ml warm water",
    "Salt and black pepper",
    "A few sprigs of parsley, chopped"
   ]
@@ -55,7 +57,7 @@
    "Rendelenmiş domatesi, doğranmış biberi, tatlı kırmızı biberi ve isteğe bağlı acı biberi ekleyin. Sos koyulaşana kadar 8 dakika pişirin.",
    "Tavukları tencereye geri koyun, defne yapraklarını ve 200 ml sıcak tavuk suyunu ekleyin. Kapağını kapatıp kısık ateşte tavuk iyice yumuşayana kadar yaklaşık 25 dakika pişirin.",
    "Kanı kalan 15 ml sirke ve 50 ml sıcak su ile kıvamlı bir karışım olacak şekilde bir kapta iyice çırpın. Kanın pıhtılaşmaması için bu karışımı hazır tutun.",
-   "Tavuklar pişince tencereden tavukları çıkarıp sıcak tutun. Tencerede kalan sosa kalan 400 ml tavuk suyunu ekleyin ve kaynatın.",
+   "Tavuklar pişince tencereden tavukları çıkarıp sıcak tutun. Tencerede kalan sosa kalan 500 ml tavuk suyunu ekleyin ve kaynatın.",
    "Pirinci iyice yıkayıp süzün, kaynayan sıvıya ekleyin. Tuzunu ayarlayıp kapağını kapatın ve kısık ateşte suyunu çekene kadar yaklaşık 18 dakika pişirin.",
    "Ocağı kapatın. Kan karışımını yavaş yavaş pirinçli sosa ekleyip sürekli karıştırın. Kesinlikle kaynatmayın, aksi halde kan pıhtılaşır. Koyu, kadifemsi bir kıvam elde edilene kadar karıştırmaya devam edin.",
    "Pirinci bir servis tabağına alın, tavuk parçalarını üzerine yerleştirin ve maydanozla süsleyip sıcak servis yapın."
@@ -67,7 +69,7 @@
    "Add the grated tomatoes, chopped bell pepper, sweet paprika and the chilli if using. Cook for 8 minutes until the sauce thickens.",
    "Return the chicken to the pan, add the bay leaves and 200 ml of the hot stock. Cover and simmer gently for about 25 minutes until the chicken is tender.",
    "In a bowl, whisk the blood with the remaining 15 ml of vinegar and 50 ml of warm water until smooth. Keep this mixture ready so it does not clot.",
-   "When the chicken is cooked, lift the pieces out and keep them warm. Add the remaining 400 ml of stock to the sauce in the pan and bring it to the boil.",
+   "When the chicken is cooked, lift the pieces out and keep them warm. Add the remaining 500 ml of stock to the sauce in the pan and bring it to the boil.",
    "Rinse the rice well, drain it and stir it into the boiling liquid. Season to taste with salt, cover and cook over low heat for about 18 minutes until the liquid is absorbed.",
    "Turn off the heat. Slowly stir the blood mixture into the rice, a little at a time. Never let it boil, or the blood will curdle. Keep stirring until the rice is dark, glossy and creamy.",
    "Spoon the rice onto a serving dish, arrange the chicken pieces on top, scatter with chopped parsley and serve hot."
@@ -77,5 +79,15 @@
   "tr": "Kanı kullanmadan önce kasaptan taze alın, buzdolabında tutun ve sosu asla kaynatmayın; kanı sirkeyle ve sıcak suyla önceden inceltmek pürüzsüz bir kıvam sağlar.",
   "en": "Buy the blood fresh from a butcher, keep it chilled until use, and never let the sauce boil once it is added. Thinning it with vinegar and warm water first gives a smooth, glossy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Rice liquid is too low: 300 g of rice gets only 400 ml of stock in step 7, which is less than the usual ratio for this amount, so the rice may stay firm.",
+   "The 50 ml of warm water used in the blood mixture (step 6) is not listed in the ingredients.",
+   "time_min (60) is too short for the steps listed: 20 min marinating, browning, 25 min simmering, 18 min rice, plus the sauce steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

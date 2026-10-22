@@ -18,7 +18,9 @@
    "7 g kuru maya (1 paket)",
    "5 g toz şeker (1 çay kaşığı)",
    "10 g tuz",
-   "30 ml zeytinyağı, servis için ayrıca biraz"
+   "30 ml zeytinyağı, servis için ayrıca biraz",
+   "zatar, servis için",
+   "peynir, servis için"
   ],
   "en": [
    "500 g strong bread flour, plus 30 g for dusting",
@@ -26,7 +28,9 @@
    "7 g dried yeast (1 packet)",
    "5 g sugar (1 teaspoon)",
    "10 g salt",
-   "30 ml olive oil, plus a little extra for serving"
+   "30 ml olive oil, plus a little extra for serving",
+   "za'atar, for serving",
+   "cheese, for serving"
   ]
  },
  "steps": {
@@ -37,9 +41,9 @@
    "Üzerini nemli bir bezle örtüp sıcak bir yerde yaklaşık 1 saat, hacmi iki katına çıkana kadar mayalandırın.",
    "Hamuru 8 eşit parçaya bölün, her birini yuvarlayıp 10 dakika dinlendirin.",
    "Her parçayı unlanmış tezgâhta 2-3 mm kalınlığında, yaklaşık 25 cm çapında yuvarlak bir yassı ekmek olacak şekilde açın.",
-   "Fırını en yüksek ısıya, yaklaşık 260 °C'ye ayarlayın. Içine ağır bir tava ya da pizza taşı koyup 30 dakika ısıtın.",
+   "Fırını en yüksek ısıya, yaklaşık 260 °C'ye ayarlayın. İçine ağır bir tava ya da pizza taşı koyup 30 dakika ısıtın.",
    "Açtığınız hamuru ısıtılmış yüzeye yerleştirin ve 1-2 dakika pişirin; kabarıp üzerinde kahverengi lekeler oluşunca çevirin ve 30 saniye daha pişirin.",
-   "Pişen ekmekleri temiz bir bezin altında üst üste dizerek yumuşak kalmalarını sağlayın. Servis öncesi üzerlerine zeytinyağı gezdirin."
+   "Pişen ekmekleri temiz bir bezin altında üst üste dizerek yumuşak kalmalarını sağlayın. Servis öncesi üzerlerine zeytinyağı gezdirin ve zatar ile peynirle servis edin."
   ],
   "en": [
    "Mix the yeast and sugar with a portion of the lukewarm water in a small bowl and leave for 5 minutes until foamy.",
@@ -50,12 +54,23 @@
    "On a floured surface, roll each piece into a round about 25 cm wide and 2-3 mm thick.",
    "Set the oven to its highest temperature, about 260 °C. Place a heavy inverted pan or pizza stone inside and heat for 30 minutes.",
    "Transfer a rolled dough round onto the hot surface and bake for 1-2 minutes, until it puffs and brown spots form. Flip and bake for 30 seconds more.",
-   "Stack the baked breads under a clean cloth so they stay soft. Brush with olive oil before serving."
+   "Stack the baked breads under a clean cloth so they stay soft. Brush with olive oil and serve with za'atar and cheese."
   ]
  },
  "tip": {
-  "tr": "Fırın ne kadar sıcak olursa ekmek o kadar iyi kabarır; ısıtılmış tavayı fırın kapağını açmadan önce tam olarak ısındığından emin olun.",
+  "tr": "Fırın ne kadar sıcak olursa ekmek o kadar iyi kabarır; hamuru yerleştirmeden önce tavanın ya da taşın tam olarak ısındığından emin olun ve gruplar arasında fırın kapağını kapalı tutun.",
   "en": "The hotter the surface, the better the puff; make sure the pan or stone is fully heated before placing the dough, and keep the oven door closed between batches."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to make sure the surface is heated 'before opening the oven door', which contradicts the English tip ('before placing the dough'). The Turkish tip is also missing the 'keep the oven d",
+   "Turkish step 7 has 'Içine' instead of the correct 'İçine'.",
+   "Description says the bread is served with za'atar and cheese, but neither appears in the ingredients or steps.",
+   "English tip and Turkish tip differ in content, not just wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

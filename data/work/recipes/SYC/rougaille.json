@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g sert beyaz balık fileto (kırmızı levrek ya da ton), 4 cm'lik parçalara ayrılmış",
+   "600 g sert beyaz balık fileto (kırmızı levrek ya da kılıç balığı), 4 cm'lik parçalara ayrılmış",
    "1 limonun suyu (yaklaşık 2 yemek kaşığı)",
    "1,5 çay kaşığı tuz (balığa 1/2, sosa 1 çay kaşığı)",
    "3 yemek kaşığı sıvı yağ",
@@ -24,7 +24,7 @@
    "1 çay kaşığı taze kekik yaprağı ya da 1/2 çay kaşığı kuru kekik",
    "1/2 çay kaşığı zerdeçal",
    "4 olgun domates (yaklaşık 600 g), küp küp doğranmış",
-   "1 yemek kaşığı domates salçası (30 g)",
+   "2 yemek kaşığı domates salçası (30 g)",
    "1/2 çay kaşığı şeker",
    "1/2 çay kaşığı taze çekilmiş karabiber",
    "150 ml su",
@@ -32,7 +32,7 @@
    "250 g uzun taneli pirinç (servis için)"
   ],
   "en": [
-   "600 g firm white fish fillet (red snapper or tuna), cut into 4 cm pieces",
+   "600 g firm white fish fillet (red snapper or swordfish), cut into 4 cm pieces",
    "1 lemon, juiced (about 2 tbsp)",
    "1.5 tsp salt (1/2 tsp for the fish, 1 tsp for the sauce)",
    "3 tbsp vegetable oil",
@@ -43,7 +43,7 @@
    "1 tsp fresh thyme leaves or 1/2 tsp dried thyme",
    "1/2 tsp ground turmeric",
    "4 ripe tomatoes (about 600 g), diced",
-   "1 tbsp tomato paste (30 g)",
+   "2 tbsp tomato paste (30 g)",
    "1/2 tsp sugar",
    "1/2 tsp freshly ground black pepper",
    "150 ml water",
@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "Balık parçalarını bir kaseye alın, limon suyu ve 1/2 çay kaşığı tuzla karıştırın. Oda sıcaklığında 15 dakika dinlendirin.",
+   "Balık parçalarını bir kaseye alın, limon suyu ve 1/2 çay kaşığı tuzla karıştırın. Buzdolabında 15 dakika dinlendirin.",
    "Pirinci paket talimatına göre pişirin ve sıcak tutun.",
    "Geniş bir tavada 1 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Balıkları kağıt havluyla kurulayın, her iki yüzünü 1-2 dakika hafifçe kızartın. Hafifçe altın rengi almaları yeterli; bir tabağa alın.",
    "Ateşi orta seviyeye indirin, kalan 2 yemek kaşığı yağı ekleyin ve soğanı 6-8 dakika, yumuşayıp hafif altın rengi alana kadar pişirin.",
@@ -64,7 +64,7 @@
    "Kişniş ekleyin, tadına bakıp gerekirse tuz ayarlayın. Sıcak sıcak pirinçle servis yapın."
   ],
   "en": [
-   "Put the fish in a bowl, toss with the lemon juice and 1/2 tsp of the salt, and rest at room temperature for 15 minutes.",
+   "Put the fish in a bowl, toss with the lemon juice and 1/2 tsp of the salt, and refrigerate for 15 minutes.",
    "Cook the rice according to the packet instructions and keep it warm.",
    "Heat 1 tbsp of the oil in a wide pan over medium-high heat. Pat the fish dry with kitchen paper and sear for 1-2 minutes per side until lightly golden. It does not need to cook through. Transfer to a plate.",
    "Reduce the heat to medium, add the remaining 2 tbsp oil and the onion, and cook for 6-8 minutes until soft and lightly golden.",
@@ -79,5 +79,16 @@
   "tr": "Balığın dağılmaması için sert etli bir balık seçin ve sosa koyduktan sonra karıştırmak yerine kaşıkla üzerine sos gezdirin.",
   "en": "Choose a firm fish so it holds its shape, and spoon the sauce over the pieces rather than stirring them, so they stay whole."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tomato paste: 1 tbsp is listed with a 30 g weight, but 1 tbsp is about 15-18 g; 30 g is about 2 tbsp.",
+   "Fish: the ingredient says 'sert beyaz balık' (firm white fish) but gives tuna as an option. Tuna is a red-fleshed fish, so the example is inconsistent. Swordfish is a firm, mild fish that fits the des",
+   "Food safety: raw fish is marinated at room temperature for 15 minutes. It should rest in the refrigerator instead.",
+   "Turkish and English versions were updated together so they still match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

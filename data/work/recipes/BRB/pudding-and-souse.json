@@ -75,7 +75,7 @@
    "Paçaları süzün, biraz soğumaya bırakın. Etleri kemiklerinden ayırın ve ısırık boyutunda parçalara kesin. Pişirme suyundan 2 yemek kaşığı ayırın.",
    "Büyük bir kapta limon suyu, sirke, 1/2 tatlı kaşığı tuz ve ayırdığınız pişirme suyunu karıştırın. Salatalık, kırmızı soğan, ince doğranmış scotch bonnet, taze soğan ve maydanozu ekleyin.",
    "Et parçalarını marinade ekleyin, iyice karıştırın ve en az 4 saat, tercihen bir gece buzdolabında bekletin.",
-   "Pudingi hazırlamak için fırını 180°C'ye ısıtın. Bir somun kalıbını tereyağıyla yağlayın ve tabanına pişirme kâğıdı serin.",
+   "Pudingi hazırlamak için fırını 180°C'ye ısıtın. Bir somun kalıbını tereyağıyla yağlayın ve tabanına pişirme kâğıdı yerleştirin.",
    "Rendelenmiş tatlı patates, balkabağı, rendelenmiş soğan, taze soğan, kekik ve doğranmış yarım scotch bonnet biberini büyük bir kapta karıştırın. 1 tatlı kaşığı tuz ve karabiberi ekleyin.",
    "Ayrı bir kapta çırpılmış yumurtaları, hindistancevizi sütünü ve unu iyice çırpın. Bu karışımı sebzelerin üzerine dökün ve homojen olana kadar karıştırın.",
    "Karışımı kalıba dökün, üzerini alüminyum folyo ile örtün. Kalıbı daha büyük bir fırın tepsisine koyun ve tepsiye kalıbın yarısına gelecek kadar sıcak su ekleyin.",
@@ -99,5 +99,13 @@
   "tr": "Souse'u en az bir gece önceden hazırlayın; limon ve biber tatlarının etin içine iyice işlemesi, Barbados'taki geleneksel lezzeti yakalamanın anahtarıdır.",
   "en": "Make the souse a day ahead so the lime and pepper flavours soak fully into the meat, which is the key to the traditional Bajan taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5: \"serin\" means \"cool/chill\", not \"place\"; the baking-paper instruction is unnatural and incorrect. The English says \"line the base with baking paper\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

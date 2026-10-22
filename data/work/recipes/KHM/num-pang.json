@@ -65,7 +65,7 @@
   "tr": [
    "Turşu için havucu ve turpu ince çubuklar halinde doğrayın. Pirinç sirkesi, 50 g şeker, 1/2 çay kaşığı tuz ve 120 ml suyu karıştırıp sebzelerin üzerine dökün. Oda sıcaklığında en az 20 dakika bekletin, sonra süzün.",
    "Pâté için tavuk ciğerini kurulayıp küçük parçalara ayırın. Tereyağının 20 g'ını tavada orta ateşte eritin, arpacık soğanını ve ezilmiş 1 diş sarımsağı yumuşayana kadar yaklaşık 3 dakika kavurun.",
-   "Ciğerleri ekleyip 4-5 dakika pişirin; ortası hafif pembe kalmalı. Ocaktan alıp kalan tereyağı, 1 tatlı kaşığı balık sosu ve karabiberle birlikte blenderda pürüzsüz bir kıvam alana kadar çekin. Küçük bir kaseye alıp soğuması için bekletin.",
+   "Ciğerleri ekleyip tamamen pişene kadar 4-5 dakika pişirin; içlerinde pembelik kalmamalı ve iç sıcaklığı en az 74°C'ye ulaşmalı. Ocaktan alıp kalan tereyağı, 1 tatlı kaşığı balık sosu ve karabiberle birlikte blender'da pürüzsüz bir kıvam alana kadar çekin. Küçük bir kaseye alıp soğuması için bekletin.",
    "Köfte için kıymayı büyük bir kasede 1 diş ezilmiş sarımsak, soya sosu, 1 tatlı kaşığı şeker ve kalan karabiberle iyice yoğurun. 4 yassı köfte şekli verin.",
    "Yağı geniş bir tavada orta-yüksek ateşte ısıtın. Köfteleri her yüzünde 3-4 dakika kızartın; iç sıcaklığı 70°C'ye ulaşmalı.",
    "Salatalığı ince dilimleyin, kişnişi kıyın ve acı biberleri halka halka kesin.",
@@ -75,7 +75,7 @@
   "en": [
    "For the pickles, cut the carrot and daikon into thin matchsticks. Mix the rice vinegar, 50 g sugar, 1/2 tsp salt and 120 ml water, pour over the vegetables and leave at room temperature for at least 20 minutes, then drain.",
    "For the pâté, pat the chicken liver dry and cut into small pieces. Melt 20 g of the butter in a pan over medium heat, then soften the shallot and crushed garlic clove for about 3 minutes.",
-   "Add the liver and cook for 4-5 minutes, keeping the centre slightly pink. Take off the heat and blend with the remaining butter, 1 tsp fish sauce and the black pepper until smooth. Transfer to a small bowl and let it cool.",
+   "Add the liver and cook for 4-5 minutes until fully cooked through, with no pink remaining and an internal temperature of at least 74°C. Take off the heat and blend with the remaining butter, 1 tsp fish sauce and the black pepper until smooth. Transfer to a small bowl and let it cool.",
    "For the patties, mix the pork in a large bowl with the second crushed garlic clove, soy sauce, 1 tsp sugar and the remaining pepper until well combined. Shape into 4 flat patties.",
    "Heat the oil in a wide pan over medium-high heat. Fry the patties for 3-4 minutes per side until the centre reaches 70°C.",
    "Slice the cucumber thinly, chop the cilantro and slice the chilies into rings.",
@@ -87,5 +87,14 @@
   "tr": "Turşuyu servisten en az 20 dakika önce hazırlayın; sirke ekmeğin yağlı tadını dengeler ve sandviç dağılmadan yenmesini sağlar.",
   "en": "Pickle the vegetables at least 20 minutes ahead; the vinegar balances the rich pâté and pork and keeps the sandwich from tasting heavy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chicken liver is cooked only 4-5 minutes with a 'slightly pink' centre, which is a food-safety risk. Liver should be cooked through (about 74°C).",
+   "Turkish 'blenderda' is incorrect; the locative after a foreign word takes an apostrophe and correct vowel harmony: \"blender'da\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

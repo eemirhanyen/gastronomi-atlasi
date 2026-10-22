@@ -26,10 +26,10 @@
  "steps": {
   "tr": [
    "Hindistan cevizlerini soğuk suyla yıkayıp kurulayın. Ağır olanları ve içinde su sesi duyulanları seçin.",
-   "Cevizin sap ucundaki yeşil kabuğu bıçakla veya kılıçla kesip kahverengi göz noktalarından birini görünür hale getirin. Göz noktasının çevresini keserek küçük bir delik açın.",
+   "Cevizin sap ucundaki yeşil kabuğu bıçakla veya makete ile kesip kahverengi göz noktalarından birini görünür hale getirin. Göz noktasının çevresini keserek küçük bir delik açın.",
    "Delik açıldıktan sonra cevizi dik tutup suyu süzgeçten geçirerek bir kaseye veya sürahiye dökün.",
    "İsteğe bağlı olarak cevizi ikiye bölün, içindeki yumuşak beyaz eti kaşıkla kazıyın ve 100 g kadarını suya ekleyin.",
-   "Su soğuksa hemen servis edin; daha serin içmek isterseniz buzu sürahiye koyup bardaklara bölüşün."
+   "Düz olarak içmek isterseniz hemen servis edin; daha serin içmek isterseniz buzu sürahiye koyup bardaklara bölüşün."
   ],
   "en": [
    "Rinse the coconuts in cold water and dry them. Choose heavy ones and those that slosh when shaken.",
@@ -43,5 +43,14 @@
   "tr": "Kabuğu açmadan önce kahverengi gözlerin tam olarak hangisinin delinebilir olduğunu kontrol edin; yanlış göze delik açmak suyun akmasını zorlaştırır.",
   "en": "Before piercing, check which of the three brown eyes is softest, since a hard eye makes it difficult to open and pour the water cleanly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says 'Su soğuksa hemen servis edin' (serve immediately if the water is cold), but the English says 'Serve immediately if you like it plain.' The two versions give different instructions",
+   "Turkish step 2 uses 'kılıç' for machete, which is an unnatural term in this context; 'makete' is the usual Turkish word."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

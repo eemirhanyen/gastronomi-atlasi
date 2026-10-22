@@ -32,7 +32,7 @@
    "Şarabı servis öncesine kadar buzdolabında iyice soğutun.",
    "Her bardağın dibine bir top ananaslı dondurmayı yerleştirin.",
    "Soğuk beyaz şarabı dondurmanın üzerine yavaşça, her bardak için yaklaşık 150 ml olacak şekilde dökün.",
-   "İsteğe bağlı olarak her bardağa birer tatlı kaşık grenadin şurubu gezdirin.",
+   "İsteğe bağlı olarak her bardağa birer çay kaşığı grenadin şurubu gezdirin.",
    "Hemen servis yapın ve uzun kaşıkla karıştırarak için."
   ],
   "en": [
@@ -49,5 +49,13 @@
   "tr": "Şarabı dökerken bardağı eğip yavaş dökerseniz köpük az olur ve dondurma erimeden lezzet dengelenir.",
   "en": "Pour the wine slowly down the side of the glass to limit foaming and keep the ice cream from melting too quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says 'bir tatlı kaşık' grenadin per glass (about 10 ml each, roughly 40 ml total), which contradicts the 20 ml total in the ingredients and the English 'one teaspoon' per glass. The Tur"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

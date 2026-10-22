@@ -9,7 +9,7 @@
   "en": "A fried dough snack sold by street vendors in Brazzaville, Republic of the Congo, with a crisp golden exterior and soft interior. It is usually eaten during the day with coffee or tea, often as a between-meal snack."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -35,7 +35,7 @@
   "tr": [
    "Büyük bir kapta unu, şekeri, instant mayayı ve tuzu iyice karıştırın.",
    "Ilık suyu ve 30 ml sıvı yağı ekleyip yumuşak, yapışkan olmayan bir hamur elde edene kadar 8 dakika yoğurun.",
-   "Hamuru kapatın ve 25-30°C sıcaklıkta, hacmi iki katına çıkana kadar yaklaşık 1 saat dinlendirin.",
+   "Hamuru örtün ve 25-30°C sıcaklıkta, hacmi iki katına çıkana kadar yaklaşık 1 saat dinlendirin.",
    "Hamuru hafifçe bastırarak havasını alın ve 24 eşit parçaya bölün.",
    "Her parçayı yaklaşık 10 cm uzunluğunda ince bir sosis gibi yuvarlayın, ardından uçlarını birleştirerek halka veya kıvrık şekil verin.",
    "Şekillendirilmiş hamurları temiz bir tabakta, kapalı olarak 15 dakika dinlendirin.",
@@ -61,5 +61,13 @@
   "tr": "Yağın sıcaklığını bir termometreyle kontrol edin; yağ çok soğukken hamur yağlı, çok sıcakken ise dışı kararıp içi çiğ kalır.",
   "en": "Check the oil temperature with a thermometer: if it is too cool the dough absorbs grease, and if too hot the outside burns before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short: the steps add up to about 105 minutes (8 min kneading, about 60 min rising, 15 min resting, roughly 25 min frying in batches, plus preparation)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

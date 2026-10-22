@@ -9,7 +9,7 @@
   "en": "Lukanec is a paprika- and garlic-spiced pork sausage from North Macedonia. Traditionally made in winter after the pig slaughter, it is eaten as a snack with rakija."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -22,7 +22,9 @@
    "3 g karabiber",
    "60 ml kuru kırmızı şarap",
    "1 m doğal domuz bağırsağı (kılıf)",
-   "15 ml sıvı yağ"
+   "15 ml sıvı yağ",
+   "3 L su (bağırsağı bekletmek ve haşlamak için)",
+   "500 g buz (soğutma banyosu için)"
   ],
   "en": [
    "600 g pork shoulder, minced, about 25% fat",
@@ -34,7 +36,9 @@
    "3 g black pepper",
    "60 ml dry red wine",
    "1 m natural hog casing",
-   "15 ml neutral oil"
+   "15 ml neutral oil",
+   "3 L water (for soaking the casing and poaching)",
+   "500 g ice (for the cooling bath)"
   ]
  },
  "steps": {
@@ -46,7 +50,7 @@
    "Hamuru sosis sıkma aparatına veya büyük bir sıkma torbasına alın, bağırsağa yerleştirin. Hava kabarcıklarını iğneyle delin ve 12 cm'lik parçalar halinde bağlayın.",
    "Geniş bir tencerede suyu 75-80°C'ye getirin. Sosisleri ekleyip su sıcaklığını korumak için yaklaşık 35 dakika kadar, iç sıcaklık 70°C'ye ulaşana kadar pişirin. Kaynatmayın.",
    "Sosisleri çıkarıp buz gibi suda yaklaşık 10 dakika soğutun, kâğıt havluyla kurulayın.",
-   "Sıvı yağı tavada ısıtın. Sosisleri dilimleyin ve her iki yüzünü 2 dakikadar hafif kızartarak servis yapın."
+   "Sıvı yağı tavada ısıtın. Sosisleri dilimleyin ve her iki yüzünü 2'şer dakika hafif kızartarak servis yapın."
   ],
   "en": [
    "Chill the pork thoroughly in the fridge before you start.",
@@ -63,5 +67,15 @@
   "tr": "Geleneksel lukanec haftalarca havada kurutulur; bu ev versiyonu daha hızlı olması için pişirilir. Kürleme tuzunu tam ölçüde kullanın ve pişmiş sosisleri buzdolabında en fazla 1 hafta saklayın.",
   "en": "Traditional lukanec is air-dried for weeks; this home version is cooked for speed. Measure the curing salt exactly and keep the cooked sausages in the fridge for up to 1 week."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 has a malformed time expression, \"2 dakikadar\". It should read \"2'şer dakika\".",
+   "Water (for soaking the casing and poaching) and ice (for the ice-water bath) are used in the steps but missing from the ingredient lists in both languages.",
+   "time_min of 60 underestimates the total. The recipe includes a 30-minute casing soak and a 35-minute poach, plus stuffing, chilling and frying, so about 90 minutes is more realistic."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

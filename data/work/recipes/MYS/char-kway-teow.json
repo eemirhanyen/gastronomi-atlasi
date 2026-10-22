@@ -27,7 +27,7 @@
    "2 yemek kaşığı su",
    "30 g taze yeşil soğan veya kucai, kesilmiş",
    "1 yemek kaşığı sambal",
-   "1 limon dilimi",
+   "1 dilim misket limonu",
    "Bir tutam beyaz biber",
    "Bir tutam tuz"
   ],
@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "Eriştelerin birbirine yapışmaması için kaynar suda kısaca bekletin, süzün ve birbirinden ayırın.",
+   "Eriştelerin birbirine yapışmaması için kaynar suda kısaca haşlayın, süzün ve birbirinden ayırın.",
    "Küçük bir kapta koyu soya sosu, açık soya sosu, istiridye sosu, şekeri, 2 yemek kaşığı su ve bir tutam tuzu karıştırın.",
    "Wokunuzu yüksek ateşte iyice ısıtın, yağı ekleyin ve sarımsağı yaklaşık 20 saniye kavurun.",
    "Karidesleri ekleyip pembeleşene kadar, yaklaşık 1 dakika çevirin. Bir kenara itin.",
@@ -62,7 +62,7 @@
    "Eriştesi ayrılmış erişteleri ekleyin ve yüksek ateşte 2 dakika karıştırarak yağla kaplayın.",
    "Hazırladığınız sosu gezdirin, eriştelerin sosu emmesi için 1-2 dakika daha karıştırın.",
    "Fasulye filizini ve yeşil soğanı ekleyip 30 saniye çevirin; fasulye filizi hafif gevrek kalmalı.",
-   "Beyaz biberi serpin, sıcak servis yapın ve yanında sambal ile limon dilimi sunun."
+   "Beyaz biberi serpin, sıcak servis yapın ve yanında sambal ile misket limonu dilimi sunun."
   ],
   "en": [
    "Separate the noodles so they do not stick together: blanch them briefly in boiling water, drain well and loosen them by hand.",
@@ -81,5 +81,14 @@
   "tr": "Wok hei için tavayı çok iyi ısıtın ve porsiyonları gerekiyorsa iki kez pişirin; tavayı doldurmak lezzeti düşürür.",
   "en": "For wok hei, get the wok very hot and cook in two batches if needed, since an overcrowded wok steams the noodles instead of frying them."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish translation says 'limon' (lemon) where the English says 'lime'; the Turkish should be 'misket limonu'",
+   "Turkish step 1 'kısaca bekletin' does not describe blanching; 'kısaca haşlayın' is the natural term"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

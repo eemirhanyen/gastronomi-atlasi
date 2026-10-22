@@ -30,7 +30,7 @@
  "steps": {
   "tr": [
    "Kar veya buzu geniş bir tepsiye yayın ve en az 15 dakika dondurucuda soğutun; kar temiz ve sıkı olmalıdır.",
-   "Pişirme kağıdını başka bir tepsiye serin ve soğuk karın yanına koyun.",
+   "Pişirme kağıdını ikinci bir tepsiye yerleştirin ve soğuk karın yanına koyun.",
    "Akçaağaç şurubunu kalın tabanlı bir tencereye dökün ve orta-yüksek ateşte, karıştırmadan, şeker termometresi 112 °C'yi gösterene kadar yaklaşık 8-10 dakika kaynatın.",
    "Ocaktan alın ve yaklaşık 1 dakika dinlendirin, böylece biraz kıvamlanır.",
    "Şurubu bir kaşıkla ince şeritler halinde soğuk karın üzerine dökün; her şeridi bir çubuk veya çatalla hızlıca sarın.",
@@ -51,5 +51,13 @@
   "tr": "Şurubu karıştırmayın; karıştırmak şekerin kristalleşmesine neden olur ve ürün kumlu olur.",
   "en": "Do not stir the syrup while it boils, as stirring can cause sugar crystals and a grainy taffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 is garbled: 'serin' (an adjective meaning 'cool') is used as a verb, and 'serin ve soğuk' is redundant. The English meaning is that the baking paper goes on a second tray next to the sn"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

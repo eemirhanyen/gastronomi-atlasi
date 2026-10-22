@@ -9,7 +9,7 @@
   "en": "A traditional Caribbean snack from Antigua and Barbuda made from grated sweet potato, coconut and warm spices, wrapped in banana leaves and boiled. It is usually served as a side or snack at markets, family gatherings and festive occasions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -44,11 +44,11 @@
  "steps": {
   "tr": [
    "Muz yapraklarını temizleyip 30x30 cm'lik parçalara kesin. Yaprakları bir ocak alevinde saniyeler boyunca hafifçe ısıtın ya da sıcak suda bekletip yumuşatın, sonra nemli bezle silin.",
-   "Büyük bir kapta rendelenmiş tatlı patatesi, hindistancevizini, esmer şekeri, kuru üzümü, tarçını, muskadı, tuzu ve unu iyice karıştırın.",
+   "Büyük bir kapta rendelenmiş tatlı patatesi, hindistancevizini, esmer şekeri, kuru üzümü, tarçını, muskatı, tuzu ve unu iyice karıştırın.",
    "Vanilya özü ve hindistancevizi sütünü ekleyip karışım kıvamlı ama nemli bir hamur olana kadar yoğurun.",
    "Hamuru 4 eşit parçaya bölün. Her parçayı bir muz yaprağının ortasına yerleştirin, yaprağı kapatıp dikdörtgen bir paket oluşturun ve iple sıkıca bağlayın.",
    "Geniş bir tencerede su kaynatın. Paketleri suya yerleştirin, ateşi kısın ve kapağı açık şekilde yaklaşık 45-50 dakika hafif kaynar halde pişirin.",
-   "Paketleri süzgece alın, yaklaşık 10 dakika dinlendirin. İpleri çıkarıp sıcak ya da oda sıcaklığında, yaprakla birlikte servis edin."
+   "Paketleri delikli kepçeyle çıkarıp yaklaşık 10 dakika dinlendirin. İpleri çıkarıp sıcak ya da oda sıcaklığında, yaprakla birlikte servis edin."
   ],
   "en": [
    "Clean the banana leaves and cut them into 30 x 30 cm pieces. Soften them by passing them briefly over a flame or soaking them in hot water, then wipe with a damp cloth.",
@@ -63,5 +63,15 @@
   "tr": "Muz yapraklarını ocak alevinde hafifçe ısıtmak, yaprakların yırtılmadan katlanmasını sağlar ve pişerken güzel bir aroma verir.",
   "en": "Lightly warming the banana leaves over a flame makes them pliable so they fold without tearing, and they release a lovely aroma during cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is shorter than the steps add up to: about 20 min prep, 45-50 min simmering and 10 min resting is roughly 80 min",
+   "Turkish step 6 says 'süzgece' (strainer), but the English step specifies a slotted spoon, so the tools disagree",
+   "Turkish uses 'muskadı' in step 2, which is not the standard term; the ingredient list correctly uses 'muskat'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

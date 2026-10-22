@@ -6,7 +6,7 @@
  "native": "Damper",
  "desc": {
   "tr": "Avustralya'nın kırsal bölgelerinde, özellikle geçmişte çobanlar ve sürücüler tarafından kamp ateşinde pişirilen, mayasız ve hızlı hazırlanan yassı bir ekmektir. Bugün de kamp alanlarında ve evlerde tereyağı, şurup veya reçelle sıcak servis edilir.",
-  "en": "A flat, unleavened-style bread traditionally baked in campfire ashes by stockmen and drovers in rural Australia. Quick to make with no yeast, it is still eaten today at campsites and at home, served warm with butter, golden syrup or jam."
+  "en": "A flat, yeast-free bread traditionally baked in campfire ashes by stockmen and drovers in rural Australia. Quick to make with no yeast, it is still eaten today at campsites and at home, served warm with butter, golden syrup or jam."
  },
  "servings": 4,
  "time_min": 60,
@@ -18,7 +18,7 @@
    "15 g toz şeker (isteğe bağlı)",
    "60 g soğuk tereyağı, küp küp doğranmış",
    "300 ml su",
-   "Ocak için 1 yemek kaşığı un"
+   "Unlamak için 1 yemek kaşığı un"
   ],
   "en": [
    "500 g self-raising flour",
@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
+   "Fırını 200°C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Büyük bir kapta kendiliğinden kabaran unu, tuzu ve şekeri karıştırın.",
    "Soğuk tereyağı küplerini parmak uçlarınızla una karıştırarak kum kıvamı alana kadar ovalayın.",
    "Ortasına bir çukur açıp suyu azar azar ekleyin ve yumuşak, hafif yapışkan bir hamur elde edecek kadar yoğurun. Fazla yoğurmayın.",
@@ -55,5 +55,15 @@
   "tr": "Hamuru ne kadar az yoğurursanız ekmek o kadar yumuşak ve kabarık olur; geleneksel tatlı versiyon için şurup veya reçelle servis edin.",
   "en": "The less you handle the dough, the lighter the crumb; serve with golden syrup or jam for the traditional sweet style."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'Ocak için 1 yemek kaşığı un' mistranslates 'for dusting' (ocak means hearth/stove); should be 'Unlamak için'.",
+   "English description calls the bread 'unleavened-style', which is misleading because the recipe uses self-raising flour (a chemically leavened dough). It should say 'yeast-free'.",
+   "Turkish step 1 'pişirme kağıdı serin' is unnatural; 'kaplayın' is the correct culinary verb."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

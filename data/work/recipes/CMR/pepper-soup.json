@@ -5,7 +5,7 @@
  },
  "native": "Pepe soup",
  "desc": {
-  "tr": "Kamerun'da özellikle akşamları, maç izlerken ve sosyal buluşmalarda servis edilen, ehuru ve uziza gibi aromatik baharatlarla hazırlanan acılı bir et çorbasıdır. Sokak yemeği ve gece kulübü kültüründe çok yaygındır.",
+  "tr": "Kamerun'da özellikle akşamları, maç izlerken ve sosyal buluşmalarda servis edilen, ehuru ve uziza gibi aromatik bitki ve baharatlarla hazırlanan acılı bir et çorbasıdır. Sokak yemeği ve gece kulübü kültüründe çok yaygındır.",
   "en": "A spicy meat broth flavoured with ehuru and uziza, often served in the evening, at social gatherings and at bars and street stalls across Cameroon. It is valued for its warming, aromatic heat."
  },
  "servings": 4,
@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Ehuru ve uziza yerine ulaşamıyorsanız, çorbanın kendine özgü aromasını korumak için az miktarda öğütülmüş muskat ve taze fesleğen kullanabilirsiniz; yine de ehuru tercih edilmelidir.",
-  "en": "Add the scent leaves only at the very end; prolonged cooking makes them bitter and dulls their fresh aroma."
+  "tr": "Scent leaves yapraklarını yalnızca en sonda ekleyin; uzun pişirme acılaştırır ve taze aromasını söndürür. Ehuru ve uziza yerine ulaşamıyorsanız, az miktarda öğütülmüş muskat ve taze fesleğen kullanabilirsiniz; yine de ehuru tercih edilmelidir.",
+  "en": "Add the scent leaves only at the very end; prolonged cooking makes them bitter and dulls their fresh aroma. If you cannot get ehuru and uziza, a small amount of ground nutmeg and fresh basil can be used instead, though ehuru is preferred."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish and English tips differ. The Turkish tip gives substitutes for ehuru and uziza (nutmeg and basil) and says ehuru is preferred, but the English tip only covers adding scent leaves at the en"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

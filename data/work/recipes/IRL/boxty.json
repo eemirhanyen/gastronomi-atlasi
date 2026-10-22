@@ -17,7 +17,7 @@
    "200 g soyulmuş patates (haşlanmış ve ezilmiş)",
    "120 g çok amaçlı un",
    "250 ml buttermilk (ekşitilmiş süt)",
-   "5 g karbonat (1 tatlı kaşığı)",
+   "5 g sodyum bikarbonat (karbonat, 1 tatlı kaşığı)",
    "6 g tuz (1 tatlı kaşığı)",
    "40 g tereyağı, kızartmak için"
   ],
@@ -36,12 +36,12 @@
    "Haşlanmış patates için 200 g soyulmuş patatesi tuzlu suda yumuşayana kadar, yaklaşık 20 dakika haşlayın, süzün ve iyice ezin.",
    "Çiğ patatesleri 300 g olacak şekilde ince rendeleyin. Rendelenmiş patatesi temiz bir bez içine koyup mümkün olduğunca sıkarak fazla suyunu alın.",
    "Büyük bir kapta sıkılmış çiğ patatesi ezilmiş patatesle karıştırın.",
-   "Buttermilk'in içine karbonatı ekleyip köpürmesini bekleyin, ardından patates karışımına dökün.",
+   "Buttermilk'in içine sodyum bikarbonatı ekleyip köpürmesini bekleyin, ardından patates karışımına dökün.",
    "Unu ve 6 g tuzu ekleyip elle yumuşak, yapışkan ama dökülmeyen bir hamur elde edene kadar yoğurun. Gerekirse birkaç damla buttermilk ekleyin.",
    "Geniş bir tavayı veya sacı orta ateşte ısıtın ve 10 g tereyağı ile yağlayın.",
    "Hamurdan parçalar alıp avuçlarınızla yaklaşık 1 cm kalınlığında, 15 cm çapında yuvarlak gözlemeler şekillendirin.",
    "Gözlemeleri tavaya yerleştirin ve her yüzünü 4-5 dakika, altın rengi ve çıtır olana kadar pişirin. Gerekirse tereyağı ekleyerek kalan hamuru aynı şekilde pişirin.",
-   "Sıcak servis yapın; tereyağı ile birlikte sunabilir, isterseniz kızarmış pastırma veya yumurta ile tamamlayabilirsiniz."
+   "Sıcak servis yapın; tereyağı ile birlikte sunabilir, isterseniz kızarmış domuz pastırması veya yumurta ile tamamlayabilirsiniz."
   ],
   "en": [
    "For the mashed potato, boil the 200 g peeled potatoes in salted water for about 20 minutes until soft, drain and mash thoroughly.",
@@ -59,5 +59,14 @@
   "tr": "Patatesi iyice sıkarak suyunu alın; fazla su hamuru yumuşatır ve gözlemelerin tavada dağılmasına neden olur.",
   "en": "Squeeze the grated potato well; excess water makes the dough soggy and the pancakes likely to fall apart in the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 says 'pastırma', which in Turkish normally means cured beef pastrami. The English 'bacon' refers to pork, so the Turkish should be 'domuz pastırması'.",
+   "Turkish 'karbonat' alone can be read as carbonate. The ingredient is sodium bicarbonate (kabartma karbonatı), so the Turkish should name it more precisely."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

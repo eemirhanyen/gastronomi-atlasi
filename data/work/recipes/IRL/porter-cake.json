@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Kuru üzüm, altın kuru üzüm ve kuş üzümünü bir tencereye koyun. Üzerine koyu biraı ekleyin, kaynamaya yakın ısıya getirin, ocaktan alıp üzerini kapatın ve en az 8 saat ya da bir gece boyunca bekletin.",
+   "Kuru üzüm, altın kuru üzüm ve kuş üzümünü bir tencereye koyun. Üzerine koyu bira ekleyin, kaynamaya yakın ısıya getirin, ocaktan alıp üzerini kapatın ve en az 8 saat ya da bir gece boyunca bekletin.",
    "Fırını 150°C'ye ısıtın. 20 cm çaplı yuvarlak bir kek kalıbını tereyağı ile yağlayıp tabanını pişirme kağıdıyla kaplayın.",
    "Oda sıcaklığındaki tereyağı ile esmer şekeri açık renk ve kabarık bir krema elde edene kadar yaklaşık 3 dakika çırpın.",
    "Çırpılmış yumurtaları azar azar ekleyin ve her eklemeden sonra iyice karıştırın.",
@@ -73,5 +73,13 @@
   "tr": "Kekin nemli kalması için bekletilmiş meyveyi süzmeden, sıvısıyla birlikte hamura ekleyin ve kesmeden önce en az iki gün sarılı bekletin.",
   "en": "Add the soaked fruit with its liquid to keep the cake moist, and wrap it well and rest it for at least two days before cutting for the best flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a typo: \"koyu biraı\" should be \"koyu bira\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

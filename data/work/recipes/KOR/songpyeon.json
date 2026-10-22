@@ -37,10 +37,10 @@
   "tr": [
    "Siyah susamı kuru bir tavada orta-düşük ateşte 3-4 dakika, kokusu çıkana kadar kavurun. Soğumaya bırakın.",
    "Soğuyan susamı şeker ve bir tutam tuzla birlikte havanda veya öğütücüde kaba toz haline getirin.",
-   "Susam tozunu eritilmiş tereyağı ile yoğurarak macunumsu, dağılmayan bir iç harcı hazırlayın. 20 eşit küçük top yapın (yaklaşık 10'ar g).",
+   "Susam tozunu eritilmiş tereyağı ile yoğurarak macunumsu, dağılmayan bir iç harcı hazırlayın. 20 eşit küçük top yapın (yaklaşık 7-8 g).",
    "Yapışkan pirinç unu ve tuzu geniş bir kaba alın. Kaynar suyu azar azar ekleyip kaşık veya spatulayla karıştırın; ilk başta kuru, ufalanır bir kıvam oluşacaktır.",
    "Ellerinizle 3-4 dakika yoğurarak pürüzsüz bir hamur elde edin. Nemli bir bezle örtüp 10 dakika dinlendirin.",
-   "Hamuru 20 eşit parçaya bölün (yaklaşık 20'şer g). Her parçayı avuç içinde yassı bir disk haline getirin, ortasına bir top iç harcı koyun.",
+   "Hamuru 20 eşit parçaya bölün (yaklaşık 15 g). Her parçayı avuç içinde yassı bir disk haline getirin, ortasına bir top iç harcı koyun.",
    "Diski kapatıp kenarlarını sıkıca kapatın, ardından yarım ay şekli verin. Parmaklarınıza hafifçe susam yağı sürerek yapışmayı önleyin.",
    "Buharda pişirme tepsisini çam iğnesi yapraklarıyla veya pişirme kağıdıyla kaplayın. Songpyeon'ları aralarında boşluk bırakarak dizin.",
    "Kaynayan suyun üzerine yerleştirilmiş buharda orta ateşte 15-20 dakika pişirin.",
@@ -49,10 +49,10 @@
   "en": [
    "Toast the black sesame seeds in a dry pan over medium-low heat for 3-4 minutes, until fragrant. Let them cool.",
    "Grind the cooled sesame with the sugar and a pinch of salt in a mortar or spice grinder to a coarse powder.",
-   "Work the sesame powder with the melted butter into a paste that holds its shape. Roll it into 20 equal small balls, about 10 g each.",
+   "Work the sesame powder with the melted butter into a paste that holds its shape. Roll it into 20 equal small balls, about 7-8 g each.",
    "Put the glutinous rice flour and salt in a large bowl. Add the boiling water little by little, stirring with a spoon or spatula; the mixture will look crumbly at first.",
    "Knead with your hands for 3-4 minutes until smooth. Cover with a damp cloth and rest for 10 minutes.",
-   "Divide the dough into 20 equal pieces, about 20 g each. Flatten each piece into a disc in your palm and place one sesame ball in the centre.",
+   "Divide the dough into 20 equal pieces, about 15 g each. Flatten each piece into a disc in your palm and place one sesame ball in the centre.",
    "Fold the disc over the filling, seal the edges firmly, and shape it into a half-moon. Lightly oil your fingers with sesame oil to prevent sticking.",
    "Line the steamer tray with pine needles or baking paper. Arrange the songpyeon on it, leaving space between them.",
    "Steam over simmering water over medium heat for 15-20 minutes.",
@@ -63,5 +63,14 @@
   "tr": "Hamur kuru ve çatlıyorsa su ekleyin; yapışkansa biraz yapışkan pirinç unu ekleyerek dengeleyin. Pişirmeden önce çam iğnelerini mutlaka iyice yıkayın.",
   "en": "If the dough cracks, add a little more hot water; if it sticks, add a little more rice flour. Always wash pine needles thoroughly before steaming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling weight mismatch: the filling ingredients total 155 g (80 g sesame + 50 g sugar + 25 g butter), but 20 balls of about 10 g each would need 200 g.",
+   "Dough portion mismatch: 300 g of flour divided into 20 pieces gives about 15 g each, not 20 g."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

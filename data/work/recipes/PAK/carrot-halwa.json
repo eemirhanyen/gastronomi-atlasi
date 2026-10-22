@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Havuçları soyun, ucunu kesin ve ince rendeleyin.",
-   "Kakule taneleri havanda hafifçe ezin ya da bıçağın yassı yüzüyle bastırarak kabuklarını açın; içindeki tohumları ayırın.",
+   "Kakule taneleri havanda hafifçe ezin ya da bıçağın yassı yüzüyle bastırarak kabuklarını açın; içindeki tohumları ayırın ve kabukları atın.",
    "Badem ve antep fıstığını ayrı bir tavada 2 dakika kuru kavurun, kabaca doğrayın ve bir kenara ayırın.",
    "Geniş bir tencerede havucu sütle birlikte orta ateşte kaynatın. Ara ara karıştırarak yaklaşık 30 dakika, süt neredeyse tamamen çekilene kadar pişirin.",
    "Şekeri, kakule tohumlarını ve kuru üzümü ekleyin. Karıştırarak 10 dakika daha pişirin.",
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Havucu sütte pişirirken tencere dibinin yanmaması için sık karıştırın; daha yoğun bir tat için sütü azar azar ekleyerek ya da kısa bir süre kıvam kazandırarak son aşamada biraz daha uzun pişirin.",
+  "tr": "Havucu sütte pişirirken tencere dibinin yanmaması için sık karıştırın; daha yoğun bir tat ve kıvam için son aşamada birkaç dakika daha pişirerek karışımın iyice koyulaşmasını sağlayın.",
   "en": "Stir frequently while the carrots cook in milk so they do not scorch on the base; for a richer, denser halwa, cook the final stage a few minutes longer until the mixture is very thick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to add milk gradually for a richer, denser halwa, but the English tip does not, and adding milk in portions would make the halwa looser, not denser. The two versions disagree.",
+   "Turkish step 2 says to separate the cardamom seeds but does not say to discard the husks, while the English step does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

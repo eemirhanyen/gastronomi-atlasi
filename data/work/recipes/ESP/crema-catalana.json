@@ -9,7 +9,7 @@
   "en": "A traditional dessert from Catalonia: a silky custard flavoured with lemon zest and cinnamon, topped with a thin layer of caramelised sugar. It is especially popular around Saint Joseph's Day (19 March) and throughout the winter in Catalonia."
  },
  "servings": 4,
- "time_min": 240,
+ "time_min": 330,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Muhallebiyi yumurtaların pişmemesi ve kabarcıklanmaması için sürekli karıştırın; karamelize etmeden hemen önce şekeri serpin ki kaplama gevrek kalsın.",
   "en": "Keep stirring the custard so the eggs cook gently without scrambling, and sprinkle the sugar just before caramelising so the top stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (240) is shorter than the steps require: about 20 min preparation, 30 min cooling, and at least 4 hours of chilling, so roughly 330 minutes total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

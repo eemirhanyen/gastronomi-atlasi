@@ -9,7 +9,7 @@
   "en": "A traditional dessert from Saint Vincent and the Grenadines, made by baking grated sweet potato with coconut milk, warm spices and raisins. It is often served at weekend family meals and gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Tatlı patatesi rendelemeden önce kısa süre haşlarsanız daha yumuşak bir doku elde edersiniz; yine de sert olmamasına dikkat edin.",
+  "tr": "Tatlı patatesi ince rendeleyin; çok sulu görünüyorsa karıştırmadan önce biraz suyunu sıkın, böylece puding sağlam bir kıvam alır.",
   "en": "Grate the sweet potato finely, and if it seems very watery, squeeze out a little liquid before mixing so the pudding sets firmly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips disagree: the Turkish tip recommends briefly boiling the sweet potato before grating, while the English tip says nothing about boiling and instead advises squeezing out excess",
+   "time_min is 60, but the steps add up to about 80 minutes (about 15 min preparation, 45-50 min baking, at least 15 min cooling)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

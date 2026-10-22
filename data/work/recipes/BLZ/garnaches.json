@@ -5,7 +5,7 @@
  },
  "native": "Garnaches",
  "desc": {
-  "tr": "Belize'de sık yenen bir atıştırmalık olan garnaches, kızartılmış küçük mısır tortillalarının üzerine kırmızı fasulye püresi, peynir, lahana ve turşu soğan konularak hazırlanır. Genellikle öğleden sonra, pazar yerlerinde ve sokak tezgâhlarında servis edilir.",
+  "tr": "Belize'de sık yenen bir atıştırmalık olan garnaches, kızartılmış küçük mısır tortillalarının üzerine siyah fasulye püresi, peynir, lahana ve turşu soğan konularak hazırlanır. Genellikle öğleden sonra, pazar yerlerinde ve sokak tezgâhlarında servis edilir.",
   "en": "Garnaches are a popular snack in Belize, made from small fried corn tortillas topped with refried beans, cheese, shredded cabbage and quick-pickled onion. They are most often eaten in the afternoon, from market stalls and street vendors."
  },
  "servings": 4,
@@ -67,5 +67,13 @@
   "tr": "Tortillaları servisten hemen önce kızartın ki gevrekliğini korusun; fasulye püresi önceden hazırlanabilir.",
   "en": "Fry the tortillas just before serving so they stay crisp; the bean paste can be made ahead and reheated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says \"kırmızı fasulye püresi\" (red bean purée), but the ingredients and steps use 400 g black beans. Changed to \"siyah fasulye püresi\" to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Sarit",
+  "tr": "Serid",
   "en": "Thareed"
  },
  "native": "ثريد",
  "desc": {
-  "tr": "Körfez'in Bahreyn yöresinde, özellikle Ramazan akşamlarında ve büyük aile yemeklerinde servis edilen, kuzu eti ve sebzeli sulu bir ekmek yemeğidir. Ekmek parçaları, kuru limonla tatlandırılmış sıcak suyla yumuşatılarak hazırlanır.",
+  "tr": "Körfez'in Bahreyn yöresinde, özellikle Ramazan akşamlarında ve büyük aile yemeklerinde servis edilen, kuzu eti ve sebzeli sulu bir ekmek yemeğidir. Ekmek parçaları, kuru limonla aromalandırılmış sıcak suyla yumuşatılarak hazırlanır.",
   "en": "A traditional Bahraini dish served at family gatherings and especially during Ramadan evenings. Pieces of flatbread are soaked in a fragrant lamb broth flavoured with dried black lime and warm spices."
  },
  "servings": 4,
@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "Kuzu etini kurularak yıkayın ve kağıt havlu ile kurulayın.",
+   "Kuzu etini yıkayıp kağıt havlu ile kurulayın.",
    "Geniş bir tencerede ghee veya yağı orta-yüksek ateşte ısıtın. Etleri partiler halinde her yüzü altın rengi olana kadar kavurup bir kenara alın.",
    "Aynı tencerede soğanı 8-10 dakika, yumuşayıp hafif renk alana kadar soteleyin. Sarımsağı ekleyip 1 dakika daha kavurun.",
    "Kimyon, kakule, zerdeçal ve karabiberi ekleyip yağda 30 saniye karıştırın. Doğranmış domatesi ekleyin ve suyunu salıp kıvam alana kadar 5 dakika pişirin.",
@@ -76,8 +76,19 @@
   ]
  },
  "tip": {
-  "tr": "Kuru limonları delmek, et suyunun içine tatlı ve ekşimsi bir aroma vermesini sağlar; sadece kısa süre pişirmek ekşi tat çıkarabilir, bu yüzden kapağı yarı açık tutarak 45 dakika kısık ateşte pişirin.",
-  "en": "Piercing the dried black limes lets their sour, earthy flavour infuse the broth gradually. Do not boil them hard, as this can make the broth bitter."
+  "tr": "Kuru limonları delmek, et suyuna ekşimsi ve toprağımsı bir aroma yavaşça yayılmasını sağlar. Suyu sert kaynatmak acılaşmasına yol açabileceği için kapağı yarı açık tutarak kısık ateşte pişirin.",
+  "en": "Piercing the dried black limes lets their sour, earthy flavour infuse the broth gradually. Do not boil them hard, as this can make the broth bitter, so keep it at a gentle simmer with the lid partly covered."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Sarit' does not match the English name 'Thareed' and is not a standard Turkish transliteration of ثريد (use 'Serid').",
+   "Turkish description says the dish is 'tatlandırılmış' (sweetened) by dried black lime, but black lime is sour, and the English text says 'sour'.",
+   "Turkish step 1 'kurularak yıkayın' is wrong: 'kurularak' means 'becoming dry', so it should be 'yıkayıp kurulayın'.",
+   "The tip contradicts itself across languages: the Turkish version says short cooking can make the broth sour, while the English version says hard boiling makes it bitter."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

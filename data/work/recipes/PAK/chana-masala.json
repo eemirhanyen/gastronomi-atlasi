@@ -82,8 +82,16 @@
   ]
  },
  "tip": {
-  "tr": "Kuru nohut kullanıyorsanız 250 g nohutu bir gece önceden suda bekletin, ardından pişirme süresini 1 saat civarına uzatın.",
+  "tr": "Kuru nohut kullanıyorsanız 250 g nohutu bir gece önceden suda bekletin, ardından yumuşayana kadar haşlayın ve pişirme süresini 1 saat civarına uzatın.",
   "en": "If using dried chickpeas, soak 250 g overnight, then boil until tender before starting, and extend the simmering time to about 1 hour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the step of boiling soaked dried chickpeas until tender before starting. The English tip includes it, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

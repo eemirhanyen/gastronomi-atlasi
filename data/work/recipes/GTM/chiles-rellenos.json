@@ -25,7 +25,7 @@
    "1 tatlı kaşığı öğütülmüş kimyon",
    "1 tatlı kaşığı tuz",
    "1/2 tatlı kaşığı karabiber",
-   "1 yemek kaşığı sıvı yağ",
+   "2 yemek kaşığı sıvı yağ",
    "4 adet yumurta, sarısı ve akı ayrılmış",
    "50 g un",
    "30 g un (kaplamak için)",
@@ -48,7 +48,7 @@
    "1 teaspoon ground cumin",
    "1 teaspoon salt",
    "1/2 teaspoon black pepper",
-   "1 tablespoon vegetable oil",
+   "2 tablespoons vegetable oil",
    "4 eggs, yolks and whites separated",
    "50 g flour",
    "30 g flour (for dredging)",
@@ -69,7 +69,7 @@
    "Ilıyan harçla biberleri doldurun. Kesik kenarları birbirine yaklaştırın ve gerekirse kürdan ile tutturun. Biberleri hafifçe unlayın.",
    "Yumurta aklarını tuzlu bir kapta sert köpük olana kadar çırpın. Yumurta sarılarını ve 50 g unu ekleyip yavaşça hamur gibi karıştırın.",
    "Ayçiçek yağını derin bir tavada 170 °C'ye kadar ısıtın. Doldurulmuş biberleri yumurta hamuruna batırıp her iki yüzü altın rengi olana kadar, yaklaşık 2-3 dakika kızartın. Kağıt havlu üzerinde süzün.",
-   "Sos için domatesleri, sarımsağı ve bir tutam tuzu blenderdan geçirin. Yemek kaşığı sıvı yağı bir tencerede ısıtıp püreyi ekleyin, 5 dakika kaynatın.",
+   "Sos için domatesleri, sarımsağı ve bir tutam tuzu blenderdan geçirin. Kalan 1 yemek kaşığı sıvı yağı bir tencerede ısıtıp püreyi ekleyin, 5 dakika kaynatın.",
    "Tavuk suyunu ekleyip sosu kısık ateşte 10 dakika daha pişirin, tadını kontrol edip tuzunu ayarlayın.",
    "Kızarmış biberleri sıcak sosun içine alıp birkaç dakika bekletin, sıcak olarak servis edin."
   ],
@@ -91,5 +91,14 @@
   "tr": "Biberleri soymadan önce bir poşet veya kapalı kapta iyice terletmek, kabuğun temiz ve kolay soyulmasını sağlar; yumurta akını son anda karıştırmak hamurun kabarık kalmasına yardımcı olur.",
   "en": "Steaming the roasted peppers in a covered bowl makes the skins slip off cleanly, and folding the egg whites in at the last moment keeps the batter light and airy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cooking oil is listed as 1 tablespoon only, but the sauce step uses another tablespoon ('remaining tablespoon' in English, 'Yemek kaşığı sıvı yağı' in Turkish) without a second amount in the ingredien",
+   "Turkish sauce step does not say 'kalan' (remaining), so it reads as a new quantity rather than the rest of the oil."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

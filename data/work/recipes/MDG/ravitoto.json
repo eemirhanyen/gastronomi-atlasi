@@ -9,7 +9,7 @@
   "en": "Ravitoto is one of Madagascar's national dishes, made by slowly cooking pounded cassava leaves with pork until very soft and rich. It is usually served with rice, especially at family gatherings and midday meals."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -41,7 +41,7 @@
   "tr": [
    "Manyok yapraklarını saplarından ayırın, iyice yıkayın ve süzün. Havanda veya mutfak robotunda ince bir macun kıvamına gelene kadar dövün ya da çekin. Ham manyok yaprağında zararlı bileşikler bulunduğu için uzun pişirme şarttır.",
    "Geniş ve kalın tabanlı bir tencerede yağı orta ateşte ısıtın. Domuz etini ekleyin ve yağı eriyene kadar 8-10 dakika kavurun.",
-   "Doğranmış soğanı ekleyip 5 dakika pembeleşene kadar soteleyin. Sarımsak, zencefil ve isteğe bağlı acı biberi ekleyip 1 dakika daha pişirin.",
+   "Doğranmış soğanı ekleyip 5 dakika yumuşayıp altın rengi alana kadar soteleyin. Sarımsak, zencefil ve isteğe bağlı acı biberi ekleyip 1 dakika daha pişirin.",
    "300 ml sıcak suyu ekleyin, kaynatın, kapağını kapatıp kısık ateşte 40 dakika pişirin. Et neredeyse yumuşayana kadar bekleyin.",
    "Dövülmüş yaprakları parti parti tencereye ekleyip karıştırın. Kalan 200 ml sıcak suyu ilave edin, kapağını kapatın ve kısık ateşte 60-70 dakika pişirin. Her 10 dakikada bir karıştırın, tencere yapışırsa az az su ekleyin.",
    "Tuz ve karabiberi ekleyip kapağı açık olarak 10 dakika daha pişirin. Karışım koyulaşmalı ve yapraklar çok yumuşamalıdır. Pirinçle sıcak servis yapın."
@@ -59,5 +59,14 @@
   "tr": "Yaprakları ne kadar ince dövseniz, ravitoto o kadar pürüzsüz ve kremsi olur; pişirme süresini kısaltmamaya dikkat edin.",
   "en": "The finer you pound the leaves, the smoother and creamier the ravitoto will be; do not shorten the cooking time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (120) is less than the sum of the cooking steps (about 10 + 5 + 1 + 40 + 60-70 + 10 minutes, plus preparation)",
+   "Turkish step 3 says the onion should turn 'pembeleşene' (pinkish), but the English says 'soft and golden'; the Turkish should match the English"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

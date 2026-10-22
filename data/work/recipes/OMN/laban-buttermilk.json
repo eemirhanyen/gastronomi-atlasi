@@ -9,7 +9,7 @@
   "en": "A lightly sour, salted, refreshing yogurt drink served alongside meals across Oman. It is especially common with lunch and on hot days, in homes and restaurants alike."
  },
  "servings": 4,
- "time_min": 10,
+ "time_min": 25,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Yoğurdu suyla çırparken kıvamı hafifletmek için su sıcaklığına dikkat edin; soğuk su hem tadı taze tutar hem de köpüğün daha uzun süre kalmasını sağlar.",
   "en": "Whisk the yogurt with cold water rather than warm, which keeps the flavour fresh and helps the froth last longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (10) is shorter than the steps require: about 5-10 minutes of prep plus at least 15 minutes of chilling, so the total is at least 25 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

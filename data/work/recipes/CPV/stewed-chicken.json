@@ -1,12 +1,12 @@
 {
  "name": {
-  "tr": "Güveç Tavuk (Galinha Guisada)",
+  "tr": "Galinha Guisada (Sebzeli Tavuk Yahnisi)",
   "en": "Stewed Chicken (Galinha Guisada)"
  },
  "native": "Galinha guisada",
  "desc": {
   "tr": "Yavaşça pişen, limon ve sarımsakla marine edilmiş tavuğun domates ve biberli sosta yumuşatıldığı Yeşil Burun Adaları'nın günlük yemeğidir. Genellikle öğle yemeğinde ve aile buluşmalarında pilav veya haşlanmış patatesle servis edilir.",
-  "en": "A slow-simmered dish from the Cape Verde islands, where lime and garlic-marinated chicken is braised in a tomato and pepper sauce. It is a everyday family lunch and is often served with rice or boiled potatoes at gatherings."
+  "en": "A slow-simmered dish from the Cape Verde islands, where lime and garlic-marinated chicken is braised in a tomato and pepper sauce. It is an everyday family lunch and is often served with rice or boiled potatoes at gatherings."
  },
  "servings": 4,
  "time_min": 60,
@@ -17,7 +17,7 @@
    "1/2 limonun suyu (yaklaşık 25 ml)",
    "3 diş sarımsak",
    "1 tatlı kaşığı tatlı kırmızı biber",
-   "Tuz ve karabiber",
+   "1 1/2 çay kaşığı tuz ve 1/2 çay kaşığı karabiber",
    "3 yemek kaşığı zeytinyağı (45 ml)",
    "1 büyük soğan (150 g), ince doğranmış",
    "1 yeşil dolmalık biber (150 g), dilimlenmiş",
@@ -33,7 +33,7 @@
    "Juice of 1/2 lime (about 25 ml)",
    "3 garlic cloves",
    "1 teaspoon sweet paprika",
-   "Salt and black pepper",
+   "1 1/2 teaspoons salt and 1/2 teaspoon black pepper",
    "3 tablespoons olive oil (45 ml)",
    "1 large onion (150 g), finely chopped",
    "1 green bell pepper (150 g), sliced",
@@ -50,7 +50,7 @@
    "Tavuk parçalarını bir kaseye alın. Limon suyunu, ezilmiş 2 diş sarımsağı, tatlı kırmızı biberi, 1 çay kaşığı tuz ve 1/2 çay kaşığı karabiberi ekleyip iyice karıştırın. Üzerini örtüp en az 30 dakika buzdolabında bekletin.",
    "Geniş ve dipli bir tencerede 2 yemek kaşığı zeytinyağını orta-yüksek ateşte ısıtın. Tavuk parçalarını derisi aşağı gelecek şekilde partiler halinde 3–4 dakika, her yüzü altın rengi olana kadar kavurun. Tavukları tabağa alın.",
    "Aynı tencereye kalan 1 yemek kaşığı yağı ekleyin. Soğanı ve yeşil biberi yumuşayıp hafifçe renk alana kadar yaklaşık 6–7 dakika soteleyin. Kalan 1 diş sarımsağı ekleyip 30 saniye kokusu çıkana kadar karıştırın.",
-   "Domates salçasını ekleyip 1 dakika kavurun. Rendelenmiş domatesleri, defne yaprağını ve 1/2 çay kaşığı tuz ekleyip 3–4 dakika pişirin.",
+   "Domates salçasını ekleyip 1 dakika kavurun. Rendelenmiş domatesleri, defne yaprağını ve 1/2 çay kaşığı tuzu ekleyip 3–4 dakika pişirin.",
    "Tavukları ve biriken suyunu tencereye geri koyun. Sıcak suyu veya tavuk suyunu ekleyin, kapağı kapatıp kısık ateşte 20 dakika pişirin.",
    "Patates küplerini ekleyip tekrar kapatın ve 20 dakika daha, patatesler ve tavuk yumuşayana kadar pişirin. Sos koyulaşmadıysa kapağı açıp birkaç dakika daha kaynatın. Tadını kontrol edip gerekirse tuz ve karabiber ekleyin.",
    "Pirinci bol suyla yıkayın, süzün ve 400 ml suyla birlikte bir tencerede kapağı kapalı şekilde suyunu çekene kadar yaklaşık 15 dakika pişirin. Güveç tavuğu pilavla sıcak servis edin."
@@ -69,5 +69,15 @@
   "tr": "Tavukları kavururken tencereyi aşırı doldurmayın; partiler halinde pişirmek derinin çıtır olmasını ve sosa güzel bir tat katmasını sağlar.",
   "en": "Brown the chicken in batches so the pot is not overcrowded; the caramelised skin adds depth to the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'Tuz ve karabiber' has no quantities, although the steps use 1 tsp + 1/2 tsp salt and 1/2 tsp pepper (English has the same gap).",
+   "Turkish dish name 'Güveç Tavuk' is not a natural name for this dish (güveç refers to a clay-pot cooking method, not the dish).",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "Zucchini, peppers and tomatoes are filled with a spiced minced meat and rice mixture and simmered in a tomato sauce. It is a common family lunch and gathering dish in Libya."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -53,17 +53,17 @@
  },
  "steps": {
   "tr": [
-   "Kabakların uçlarını kesin, bir kaşık yardımıyla içlerini oyup yaklaşık 1 cm kalınlığında cidar bırakın. Oyduğunuz kabak içlerini kenara ayırın.",
+   "Kabakların uçlarını kesin, bir kaşık yardımıyla içlerini oyup yaklaşık 1 cm kalınlığında cidar bırakın.",
    "Biberlerin sapını ve çekirdeklerini çıkarıp ikiye bölün. Domateslerin üst kısmını kesip içlerini kaşıkla boşaltın; domates içini bir kaseye alın.",
    "Büyük bir tencerede 2 yemek kaşığı zeytinyağını ısıtın, ince doğranmış soğanı 5 dakika kavurun. Ezilmiş sarımsağı ekleyip 1 dakika daha pişirin.",
    "Kıymayı ekleyip suyunu çekene ve rengi kızarana kadar 6-8 dakika pişirin. Ardından yıkanmış pirinci, kimyonu, tarçını, karabiberi, 1 çay kaşığı tuzu ve maydanozu ekleyip 2 dakika karıştırın.",
-   "Harcı kabak, biber ve domateslerin içine yarısından biraz fazla dolduracak şekilde yerleştirin; pirinç genişleyeceği için tamamen doldurmayın.",
-   "Kenarları kalın bir tencereye sıkıca dizin. Domates içinden ayırdığınız pulpu 2 yemek kaşığı salça ve 1 çay kaşığı zeytinyağı ile karıştırıp üzerine ekleyin, 500 ml su, kuru nane ve 1/2 çay kaşığı tuzu ilave edin.",
+   "Harcı kabak, biber ve domateslerin içine üçte ikisini dolduracak şekilde yerleştirin; pirinç genişleyeceği için tamamen doldurmayın.",
+   "Kenarları kalın bir tencereye sıkıca dizin. Domates içinden ayırdığınız pulpu 2 yemek kaşığı salça ve kalan 1 yemek kaşığı zeytinyağı ile karıştırıp üzerine ekleyin, 500 ml su, kuru nane ve 1/2 çay kaşığı tuzu ilave edin.",
    "Kapağını kapatıp kısık ateşte yaklaşık 40-45 dakika pişirin. Pirincin ve sebzelerin yumuşadığını kontrol edin.",
    "Ocaktan alıp 10 dakika dinlendirin, sosuyla birlikte sıcak servis yapın."
   ],
   "en": [
-   "Trim the ends of the zucchini and use a spoon to hollow them out, leaving walls about 1 cm thick. Set the scooped-out zucchini flesh aside.",
+   "Trim the ends of the zucchini and use a spoon to hollow them out, leaving walls about 1 cm thick.",
    "Remove the stems and seeds from the peppers and halve them. Cut the tops off the tomatoes and scoop out the pulp with a spoon; put the pulp in a bowl.",
    "Heat 2 tbsp of the olive oil in a large pot and sauté the finely chopped onion for 5 minutes. Add the crushed garlic and cook for 1 more minute.",
    "Add the minced meat and cook for 6-8 minutes until the liquid evaporates and it browns. Then add the rinsed rice, cumin, cinnamon, black pepper, 1 tsp salt and parsley, and stir for 2 minutes.",
@@ -77,5 +77,16 @@
   "tr": "Kabakların ve biberlerin çok dolu olmamasına dikkat edin; pirinç pişerken genişler ve sebzeler yarılabilir.",
   "en": "Fill the vegetables only about two-thirds full, because the rice swells as it cooks and can split the skins."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says '1 çay kaşığı zeytinyağı' (1 tsp) but English says the remaining 1 tbsp, and the 3 tbsp total only works with 1 tbsp.",
+   "Turkish step 5 says to fill 'yarısından biraz fazla' (a bit over half), but English and the tip say two-thirds full.",
+   "Scooped-out zucchini flesh is set aside in steps 1 (both languages) but never used again.",
+   "time_min of 60 is too short for about 20 min prep, 15 min sautéing and browning, 40-45 min simmering and 10 min rest."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

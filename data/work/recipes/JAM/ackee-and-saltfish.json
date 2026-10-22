@@ -45,7 +45,7 @@
    "Morinayı bir tencerede taze su ile kaynama noktasına getirin ve 10 dakika hafif kaynatın. Süzün, soğumasını bekleyin, derisini ve kılçıklarını ayıklayarak elinizle ince ince ayırın.",
    "Geniş bir tavada bitkisel yağı orta-yüksek ateşte ısıtın. Soğanı, dilimlenmiş taze soğanın beyaz kısmını, sarımsağı ve Scotch bonnet biberini ekleyip 4-5 dakika soğan yumuşayana kadar kavurun.",
    "Domatesi, kekiği ve karabiberi ekleyin. Domates suyunu bırakıp yumuşayana kadar yaklaşık 5 dakika pişirin.",
-   "Ayırdığınız morinayı tavaya ekleyip karıştırarak 5 dakika kadar ısıtın ve tadını birlikte oturtmasına izin verin.",
+   "Ayırdığınız morinayı tavaya ekleyip karıştırarak 5 dakika kadar ısıtın ve tatların birbirine karışmasına izin verin.",
    "Süzülmüş ackee'yi ekleyin. Tanelerin ezilmemesi için spatula ile nazikçe karıştırıp 3-4 dakika daha pişirin.",
    "Tuzu son olarak tadına bakarak ayarlayın; morina zaten tuzlu olduğu için dikkatli olun. Dilimlenmiş taze soğanın yeşil kısmını serpin.",
    "Sıcak servis yapın. Kızarmış hamur topları veya haşlanmış yeşil muz ile birlikte sunun."
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Ackee'yi çok karıştırmayın; olgunlaşmamış ackee zehirlidir, bu yüzden yalnızca kutulu ve olgun hali kullanın ve tanelerin bütün kalması için son aşamada nazikçe ekleyin.",
+  "tr": "Ackee'yi çok karıştırmayın; olgunlaşmamış ackee zehirlidir, bu yüzden yalnızca kutulu ve olgun hali kullanın ve tanelerin bütün kalması için son aşamada nazikçe ekleyin. Morinayı iyice tuzdan arındırın, çünkü yemekteki tuzun ana kaynağı budur.",
   "en": "Use only canned ackee, which is safe to eat, and fold it in gently at the end so the arils stay whole. Desalt the cod thoroughly, as it is the main source of salt in the dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the English tip's advice to desalt the cod thoroughly, so the two versions disagree",
+   "Turkish step 5 'tadını birlikte oturtmasına izin verin' is unnatural; 'tatların birbirine karışmasına izin verin' is the idiomatic phrasing"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

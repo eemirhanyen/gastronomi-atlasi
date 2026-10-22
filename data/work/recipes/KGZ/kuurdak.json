@@ -39,8 +39,8 @@
   "tr": [
    "Kuzu etini 3 cm'lik parçalar halinde doğrayın. Soğanı yarım ay şeklinde dilimleyin, patatesleri ve havuçları büyük küp veya kalın halka şeklinde doğrayın.",
    "Geniş ve kalın tabanlı bir tencere veya kazanı yüksek ateşte ısıtın. Yağı ekleyin ve iyice kızdırın.",
-   "Etleri birkaç partide ekleyip her iki yüzü de 8-10 dakika kavurun, et suyunu salıp sularını çekene ve yüzeyi kızarana kadar karıştırın.",
-   "Ateşi orta dereceye indirin, doğranmış soğanları ekleyip 8-10 dakika, soğanlar altın rengi olana kadar kavurun.",
+   "Etleri birkaç partide ekleyip her iki yüzü de 8-10 dakika kavurun; et suyunu salıp suyu çekilene ve yüzeyi kızarana kadar karıştırın.",
+   "Ateşi orta dereceye indirin, dilimlenmiş soğanları ekleyip 8-10 dakika, soğanlar altın rengi olana kadar kavurun.",
    "Patates ve havucu ekleyip tuz ve karabiberle tatlandırın. İyice karıştırın.",
    "Sıcak suyu ekleyin, kapağını kapatıp kısık ateşte 25-30 dakika pişirin. Patatesler yumuşayana ve sıvı büyük ölçüde çekilene kadar ara ara karıştırın.",
    "Ocaktan alın, ince kıyılmış dereotuyla süsleyip sıcak servis yapın."
@@ -59,5 +59,14 @@
   "tr": "Eti acele etmeden, tencerenin dibi kızarana kadar partiler halinde kavurun; bu, kavurdağa karakteristik lezzetini verir.",
   "en": "Do not rush the meat: sear it in batches until the pot bottom browns well, which gives kuurdak its characteristic flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"doğranmış soğanları\" (chopped onions), but Turkish step 1 and the English version specify sliced half-moons.",
+   "Turkish step 3 has awkward, repetitive phrasing (\"et suyunu salıp sularını çekene\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

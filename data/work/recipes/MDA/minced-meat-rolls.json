@@ -9,7 +9,7 @@
   "en": "Mici are among Moldova's most popular street foods: spiced minced meat shaped into finger-sized rolls and grilled over charcoal. They are typically served in summer, at picnics and festivals, with mustard, fresh bread and pickles."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -50,7 +50,7 @@
    "Ellerinize biraz yağ sürün. Karışımdan yaklaşık 60 g'lık parçalar koparıp 8-10 cm uzunluğunda, 2 cm kalınlığında sosisimsi çubuklar şekillendirin.",
    "Şekillendirdiğiniz mici'leri tabakta 30 dakika dinlendirin.",
    "Izgarayı orta-yüksek ateşte ısıtın (yaklaşık 200 °C). Izgara yüzeyine kalan yağla hafifçe yağlayın.",
-   "Mici'leri ızgaraya dizin ve her yüzünü çevirerek 8-10 dakika pişirin. İç sıcaklık en az 70 °C olmalıdır.",
+   "Mici'leri ızgaraya dizin ve her yüzünü çevirerek 8-10 dakika pişirin. İç sıcaklık en az 75 °C olmalıdır.",
    "Sıcak servis yapın; hardal, taze ekmek ve turşu ile sunun."
   ],
   "en": [
@@ -61,7 +61,7 @@
    "Lightly oil your hands. Pinch off pieces of about 60 g and shape them into sausage-like rolls 8-10 cm long and about 2 cm thick.",
    "Rest the shaped mici on a tray for 30 minutes.",
    "Heat the grill to medium-high (about 200 °C). Brush the grate lightly with the oil.",
-   "Place the mici on the grill and cook for 8-10 minutes, turning until browned on all sides. The centre should reach at least 70 °C.",
+   "Place the mici on the grill and cook for 8-10 minutes, turning until browned on all sides. The centre should reach at least 75 °C.",
    "Serve hot with mustard, fresh bread and pickles."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Karbonat ve gazlı su, mici'leri yumuşak ve kabarık tutar; karışımı fazla yoğurmayın, aksi halde sert olur.",
   "en": "Baking soda and sparkling water keep mici tender and airy; do not overwork the mixture or it will become tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Internal temperature of 70 °C is slightly below the commonly recommended 71 °C minimum for ground meat (safety margin missing).",
+   "time_min (75) does not match the steps: at least 1 hour of chilling, 30 minutes of resting, plus kneading, shaping and grilling total well over 75 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -19,7 +19,7 @@
    "40 g kültantro (recao) yaprağı ve yumuşak sapları",
    "50 g taze kişniş, yaprakları ve yumuşak sapları",
    "8 diş sarımsak, soyulmuş",
-   "2 g kurutulmuş kekik ya da kekik benzeri kuru kekik (yaklaşık 1 çay kaşığı)",
+   "2 g kurutulmuş kekik (oregano) (yaklaşık 1 çay kaşığı)",
    "5 g ince deniz tuzu",
    "1 g taze çekilmiş karabiber",
    "60 ml zeytinyağı",
@@ -45,7 +45,7 @@
    "60 ml suyu ekleyip pürüzsüz, hafif taneli bir macun elde edene kadar 1-2 dakika çekin; kenarlarını bir kez sıyırın.",
    "Kısık-orta ateşte geniş bir tencerede zeytinyağını 1 dakika ısıtın; yağ tam kızmamalı, yalnızca akışkanlaşmalıdır.",
    "Hazırladığınız macunu yağa ekleyin ve 8-10 dakika, ara ara karıştırarak, rengi koyulaşıp sebzelerin kokusu yumuşayana kadar pişirin.",
-   "Kekik, tuz ve karabiberi ekleyip 1 dakika daha karıştırın, ardından ocaktan alın.",
+   "Kekik (oregano), tuz ve karabiberi ekleyip 1 dakika daha karıştırın, ardından ocaktan alın.",
    "Soğumaya bırakın, temiz cam bir kavanoza koyup üzerine ince bir tabaka yağ gezdirerek buzdolabında en fazla 1 hafta saklayın."
   ],
   "en": [
@@ -61,5 +61,14 @@
   "tr": "Sofritoyu buz kalıplarına koyup dondurursanız, her porsiyonu fasulye veya pilav yapmak istediğinizde kolayca kullanabilirsiniz.",
   "en": "Freeze sofrito in ice cube trays so you can add a single portion to beans or rice whenever you need it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient list and step 5 call for kekik (thyme), but the English version says dried oregano. Traditional Puerto Rican sofrito uses oregano, so the Turkish text was correct",
+   "Turkish ingredient wording 'kurutulmuş kekik ya da kekik benzeri kuru kekik' is redundant and unnatural; it was simplified."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

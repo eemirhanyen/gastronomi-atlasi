@@ -5,7 +5,7 @@
  },
  "native": "Liboké de poisson",
  "desc": {
-  "tr": "Kongo Cumhuriyeti'nin (Brazzaville) kıyı ve nehir kesimlerinde yaygın, muz yaprağına sarılıp buharda pişirilen baharatlı balık yemeğidir. Genellikle öğle ve akşam yemeklerinde, kökten ya da pirinçle servis edilir.",
+  "tr": "Kongo Cumhuriyeti'nin (Brazzaville) kıyı ve nehir kesimlerinde yaygın, muz yaprağına sarılıp buharda pişirilen baharatlı balık yemeğidir. Genellikle öğle ve akşam yemeklerinde, manyokla ya da pirinçle servis edilir.",
   "en": "A spiced fish dish from Congo-Brazzaville, popular in coastal and river areas, where fish is seasoned with tomato, onion and chili, wrapped in banana leaves and steamed. It is usually served at lunch or dinner with cassava or rice."
  },
  "servings": 4,
@@ -53,7 +53,7 @@
    "Karışımın üçte birini ayırın ve balıkların her iki yüzünü bu karışımla iyice ovalayın.",
    "Her muz yaprağının ortasına bir parça balık yerleştirin, üzerine kalan sosun yarısını kaşıkla dökün.",
    "Yaprağın kenarlarını içeri doğru katlayarak sıkı bir paket yapın ve iple bağlayın; kalan sosu paketlerin üzerine ekleyin.",
-   "Buharlı pişirme sepetini veya kıvamında bir kevgiri geniş bir tencerenin içine yerleştirin, altına su koyun ve suyun paketlere değmediğinden emin olun.",
+   "Buharlı pişirme sepetini veya ayağı olan bir ızgarayı geniş bir tencerenin içine yerleştirin, altına su koyun ve suyun paketlere değmediğinden emin olun.",
    "Tencereyi kapatıp orta-yüksek ateşte buharda yaklaşık 35-40 dakika pişirin. Su gerekirse ara ara ilave edin.",
    "Balığın iç sıcaklığının 63°C'ye ulaştığını ve et kolayca ayrıldığını kontrol edin. Paketleri açmadan birkaç dakika dinlendirin.",
    "Sıcak servis yapın; paketi açarak yanında haşlanmış manyok, kasava hamuru (fufu) veya pirinçle sunun."
@@ -65,7 +65,7 @@
    "Set aside one third of the mixture and rub it all over both sides of the fish.",
    "Place a piece of fish in the centre of each banana leaf and spoon half of the remaining sauce over it.",
    "Fold the edges of the leaf inwards to make a tight parcel and tie with string; spoon the rest of the sauce over the parcels.",
-   "Place a steamer basket or rack inside a large pot, add water underneath and make sure it does not touch the parcels.",
+   "Place a steamer basket or a rack inside a large pot, add water underneath and make sure it does not touch the parcels.",
    "Cover the pot and steam over medium-high heat for about 35-40 minutes, adding water if needed.",
    "Check that the fish reaches an internal temperature of 63°C and flakes easily. Let the parcels rest for a few minutes before opening.",
    "Serve hot, opening the parcels at the table, with boiled cassava, cassava fufu or rice."
@@ -75,5 +75,14 @@
   "tr": "Muz yaprağı yoksa folyo kullanabilirsiniz, ancak yaprağın aroması ve nemi yemeğe özel bir tat katar.",
   "en": "If banana leaves are unavailable, use foil, but the leaves add a distinctive aroma and keep the fish moister."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses the unnatural word 'kökten' for the starch side dish; it should name cassava (manyok) directly.",
+   "Turkish step 7 'kıvamında bir kevgir' is unnatural; a steamer basket or a rack suited to the pot is clearer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

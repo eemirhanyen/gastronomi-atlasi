@@ -52,7 +52,7 @@
  "steps": {
   "tr": [
    "Büyük bir tencerede 40 ml sade yağı orta-yüksek ateşte ısıtın. Dilimlenmiş soğanı altın rengi olana kadar kavurun, süzgece alın ve bir kenara koyun.",
-   "Aynı tencerede kalan yağla tavukları her iki tarafı da renklenene kadar kızartın, sonra tabağa alın.",
+   "Aynı tencerede kalan 30 ml sade yağla tavukları her iki tarafı da renklenene kadar kızartın, sonra tabağa alın.",
    "Ateşi orta seviyeye indirip ince doğranmış soğanı ekleyin ve yumuşayana kadar yaklaşık 5 dakika pişirin. Sarımsağı ekleyip 1 dakika daha kavurun.",
    "Rendelenmiş domatesi ekleyin ve suyu çekilene, karışım koyulaşana kadar 5 dakika pişirin.",
    "Kimyon, zerdeçal, karabiber, tarçın, karabiber tanesi, kakule ve delinmiş kurutulmuş limonları ekleyip kokusu çıkana kadar 1 dakika karıştırın.",
@@ -60,11 +60,11 @@
    "Tavukları çıkarıp biraz soğumaya bırakın. Kemiklerini ayırın ve etleri lifler halinde parçalayın. Tarçını, kurutulmuş limonları ve bütün baharatları tencereden çıkarın.",
    "Yıkanmış pirinci suyun içine ekleyin. Kapağını kapatıp kısık ateşte yaklaşık 25 dakika, pirinç çok yumuşayana ve sıvıyı çekene kadar pişirin.",
    "Parçalanmış tavuğu pirincin içine ekleyip karıştırın. Tahta kaşıkla veya tokmakla, karışım yapışkan ve kıvamlı bir hamur haline gelene kadar birkaç dakika ezin.",
-   "Kalan 60 ml sade yağı ekleyip iyice karıştırın. Üzerine kızarmış soğanları, kavrulmuş bademleri ve kişnişi serpip sıcak servis yapın."
+   "Kalan 30 ml sade yağı ekleyip iyice karıştırın. Üzerine kızarmış soğanları, kavrulmuş bademleri ve kişnişi serpip sıcak servis yapın."
   ],
   "en": [
    "In a large pot, heat 40 ml of the ghee over medium-high heat. Fry the sliced onion until golden, then lift it out with a slotted spoon and set aside.",
-   "In the same pot with the remaining ghee, brown the chicken pieces on all sides, then transfer them to a plate.",
+   "In the same pot with the remaining 30 ml of ghee, brown the chicken pieces on all sides, then transfer them to a plate.",
    "Lower the heat to medium, add the finely chopped onion and cook for about 5 minutes until soft. Add the garlic and fry for 1 more minute.",
    "Stir in the grated tomato and cook for 5 minutes until the juices have reduced and the mixture thickens.",
    "Add the cumin, turmeric, black pepper, cinnamon stick, peppercorns, cardamom and pierced dried limes. Stir for 1 minute until fragrant.",
@@ -72,12 +72,21 @@
    "Remove the chicken and let it cool slightly. Pull the meat off the bones and shred it finely, discarding the bones. Remove the cinnamon, dried limes and whole spices from the broth.",
    "Add the rinsed rice to the broth. Cover and simmer gently for about 25 minutes until the rice is very soft and the liquid has been absorbed.",
    "Stir the shredded chicken into the rice. Using a wooden spoon or pestle, beat the mixture for several minutes until it becomes thick, sticky and cohesive.",
-   "Stir in the remaining 60 ml of ghee. Top with the fried onions, toasted almonds and coriander, and serve hot."
+   "Stir in the remaining 30 ml of ghee. Top with the fried onions, toasted almonds and coriander, and serve hot."
   ]
  },
  "tip": {
   "tr": "Pirinç tamamen yumuşayınca ezme işlemi kolaylaşır; ezerken kıvam fazla koyulaşırsa azar azar sıcak su ekleyin.",
   "en": "Beat the rice while it is still hot, adding a little hot water if it stiffens too much, so it stays smooth and sticky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ghee quantities don't add up: 40 ml is used for the onions, then the 'remaining 60 ml' is used for browning the chicken, leaving nothing for the final step, which again calls for 60 ml (120 ml total a",
+   "Turkish step 2 says 'kalan yağla' (with the remaining fat) without an amount, so the reader can't tell how much to use."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

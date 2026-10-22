@@ -39,7 +39,7 @@
    "Hamuru yoğurun: Geniş bir kapta mısır unu ve 3 g tuzu karıştırın. Ilık suyu yavaş yavaş ekleyip 3-5 dakika yoğurun. Hamur yumuşak ve elinize yapışmayan bir kıvam almalıdır; çatlarsa su, çok yapışkansa un ekleyin.",
    "Hamuru nemli bir bezle örtüp 10 dakika dinlendirin.",
    "Hamuru 10 eşit topa bölün (her biri yaklaşık 55 g). Peyniri de 10 eşit porsiyona ayırın (her biri yaklaşık 12 g).",
-   "Bir hamur topunu avuç içinizde bir kâse şekline getirin. İçine 1 tatlı kaşığı kadar fasulye harcı ve bir porsiyon peynir koyun.",
+   "Bir hamur topunu avuç içinizde bir kâse şekline getirin. İçine yaklaşık 1,5 yemek kaşığı (20 g) fasulye harcı ve bir porsiyon peynir koyun.",
    "Kenarlarını kapatıp topu avuçlarınız arasında yuvarlayın, sonra hafifçe bastırarak yaklaşık 1 cm kalınlığında ve 12 cm çapında bir daire elde edin. Kenarlarda çatlak kalmamasına dikkat edin, yoksa iç harç dışarı sızar.",
    "Tavayı orta ateşte ısıtın ve hafifçe yağlayın. Pupusaları tavaya yerleştirip her iki yüzünde 3-4 dakika, üzerinde açık kahverengi lekeler oluşana kadar pişirin.",
    "Sıcak sıcak servis yapın."
@@ -49,7 +49,7 @@
    "Make the dough: In a large bowl, mix the masa flour and 3 g salt. Add the warm water gradually and knead for 3 to 5 minutes. The dough should be soft and not stick to your hands; add water if it cracks or flour if it is too sticky.",
    "Cover the dough with a damp cloth and rest it for 10 minutes.",
    "Divide the dough into 10 equal balls of about 55 g each. Divide the grated cheese into 10 equal portions of about 12 g each.",
-   "Flatten one dough ball in your palm to form a cup. Place about 1 teaspoon of bean filling and one portion of cheese inside.",
+   "Flatten one dough ball in your palm to form a cup. Place about 1.5 tablespoons (20 g) of bean filling and one portion of cheese inside.",
    "Close the edges over the filling, roll the ball between your palms, then gently pat it into a disc about 1 cm thick and 12 cm across. Make sure there are no cracks at the edges, or the filling will leak out.",
    "Heat a pan over medium heat and lightly oil it. Cook the pupusas for 3 to 4 minutes per side, until light brown spots appear on both sides.",
    "Serve hot."
@@ -59,5 +59,13 @@
   "tr": "Hamur kenarlarında çatlak oluşuyorsa, ellerinizi biraz ıslatıp hamuru tekrar yuvarlayın; bu, pişirirken dağılmasını önler.",
   "en": "If the dough cracks at the edges, wet your hands slightly and re-roll the ball; this keeps the pupusa from falling apart while cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount is inconsistent: 200 g of beans shared across 10 pupusas is about 20 g each, but the steps say only '1 teaspoon' (about 5 g) per pupusa, which would leave most of the filling unused. Bo"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

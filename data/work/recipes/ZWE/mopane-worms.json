@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Kurtları haşladıktan sonra sıkı bir yapıda istiyorsanız sosu biraz daha kısık ateşte koyulaştırın; kurtlar yumuşak ve dokusu tatlı olmalıdır.",
-  "en": "If you buy fresh worms, they are usually sold already cleaned and salted; reduce the added salt accordingly and skip the soaking step."
+  "tr": "Sosu daha koyu istiyorsanız kapağı açık tutarak birkaç dakika daha kısık ateşte pişirin; kurtlar yumuşak ve dokusu tatlı olmalıdır.",
+  "en": "For a thicker sauce, cook for a few more minutes over low heat with the lid off; the worms should be soft and tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish and English tips disagree: the Turkish tip is about thickening the sauce, while the English tip is about buying fresh worms and reducing salt.",
+   "The English tip's claim that fresh mopane worms are usually sold pre-cleaned and salted is doubtful, and it is inconsistent with the recipe's dried-worm ingredient."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

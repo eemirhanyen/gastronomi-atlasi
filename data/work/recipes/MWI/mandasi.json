@@ -5,7 +5,7 @@
  },
  "native": "Mandasi",
  "desc": {
-  "tr": "Malavi'de sabah kahvaltısı ve çay saatinde yenen, hafif tatlı, kakuleli ve hindistan cevizi sütlü, kızartılmış bir hamur tatlısıdır. Doğu Afrika'daki mandazi'nin yerel bir çeşididir ve sokak satıcılarından ile evlerde sıkça yapılır.",
+  "tr": "Malavi'de sabah kahvaltısı ve çay saatinde yenen, hafif tatlı, kakuleli ve hindistan cevizi sütlü, kızartılmış bir hamur tatlısıdır. Doğu Afrika'daki mandazi'nin yerel bir çeşididir; sokak satıcıları tarafından satılır ve evlerde de sıkça yapılır.",
   "en": "A slightly sweet, fried dough pastry eaten at breakfast and tea time across Malawi, flavoured with cardamom and coconut milk. It is a local version of the East African mandazi and is sold by street vendors as well as made at home."
  },
  "servings": 4,
@@ -63,5 +63,13 @@
   "tr": "Yağın sıcaklığını bir termometreyle kontrol edin; 170 °C'nin altında mandasi yağlı, üstünde ise dışı çabuk kararıp içi çiğ kalır.",
   "en": "Check the oil with a thermometer: below 170 °C the mandasi turn greasy, while above it the outside darkens before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a broken sentence: \"sokak satıcılarından ile evlerde sıkça yapılır\" is ungrammatical. It should say the pastry is sold by street vendors and also often made at home."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

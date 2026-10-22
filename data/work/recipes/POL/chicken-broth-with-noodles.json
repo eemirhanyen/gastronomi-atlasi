@@ -56,7 +56,7 @@
    "Tavuk etinin pişip ayrıldığını kontrol edin. Tavuğu dikkatlice çıkarıp hafifçe soğumaya bırakın, sonra etini kemiklerinden ayırıp küçük parçalar halinde doğrayın.",
    "Havuç ve kök maydanozunu tencereden çıkarıp dilimleyin; bunları servis için ayırın. Kalan sebzeleri, soğanı ve baharatları süzgeçten geçirerek suyu temiz bir tencereye alın.",
    "Süzülen suyu tekrar kaynatın, tadına bakıp gerekirse tuz ekleyin.",
-   "Erişteyi kaynayan suya atın ve paket üzerindeki süreye göre 4-5 dakika pişirin. Fazla pişmemesi için süzüp ayrı kaseye alabilirsiniz.",
+   "Erişteyi ayrı bir tencerede kaynayan tuzlu suda paket üzerindeki süreye göre 4-5 dakika pişirin, süzüp bir kenara ayırın. Bu, çorbanın berrak kalmasını ve erişteyin yumuşamasını önler.",
    "Servis kaselerine erişteyi koyun, üzerine tavuk etini, dilimlenmiş havucu ve kök maydanozu ekleyin. Sıcak çorbayı üzerine dökün.",
    "Son olarak ince doğranmış dereotu ve maydanozu serpip hemen servis yapın."
   ],
@@ -70,14 +70,23 @@
    "Check that the chicken is cooked and falling off the bone. Lift it out carefully, let it cool slightly, then remove the meat from the bones and shred it into bite-sized pieces.",
    "Remove the carrots and parsley root from the pot, slice them, and set aside for serving. Strain the remaining broth, onion, vegetables, and spices through a sieve into a clean pot.",
    "Bring the strained broth back to a boil and taste it, adding more salt if needed.",
-   "Add the noodles to the boiling broth and cook for 4-5 minutes according to the packet instructions. For clearer soup, cook them separately and add to the bowls.",
+   "Cook the noodles separately in a pot of boiling salted water for 4-5 minutes according to the packet instructions, then drain and set aside. This keeps the soup clear and prevents the noodles from getting soggy.",
    "Divide the noodles among serving bowls, top with shredded chicken and the sliced carrot and parsley root, then ladle the hot broth over them.",
    "Finish by sprinkling with finely chopped dill and parsley and serve immediately."
   ]
  },
  "tip": {
-  "tr": "Çorbanın berrak kalması için kaynatmayı mutlaka çok hafif tutun; sert kaynayan su tavuk suyunu bulanıklaştırır.",
+  "tr": "Çorbanın berrak kalması için kaynatmayı mutlaka çok hafif tutun; sert kaynayan su tavuk suyunu bulanıklaştırır. Erişteyi ayrı pişirmek de çorbayı berrak tutar ve erişte şişip yumuşamasını engeller.",
   "en": "Keep the broth at a barely perceptible simmer; a hard boil clouds the liquid. Cooking the noodles separately also keeps the soup clear and prevents them from getting soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Noodle cooking method contradicts itself in the English step (added to the boiling broth, then 'for clearer soup, cook separately') and differs from the Turkish step (cooked in the broth, then drained",
+   "The English tip has a second sentence about cooking noodles separately and avoiding sogginess that is missing from the Turkish tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -39,7 +39,7 @@
   "tr": [
    "Acı biberleri, soğanı, sarımsakları ve domatesi bir mutfak robotuna koyun. Pürüzsüz olana kadar değil, hafif dokulu kalacak şekilde 20-30 saniye çekin.",
    "Küçük bir tencerede yağı orta-yüksek ateşte 1 dakika ısıtın.",
-   "Çekilmiş karışımı tencereye ekleyin ve ara sıra karıştırarak 6-7 dakika pişirin. Karışım koyulaşıp kokusu yumuşayınca ocaktan alın.",
+   "Çekilmiş karışımı tencereye ekleyin ve ara sıra karıştırarak 6-7 dakika pişirin. Karışım koyulaşıp çiğ kokusu kaybolunca ocaktan alın.",
    "Limon suyunu, sirkeyi, tuzu ve şekeri ekleyin. Tadına bakıp gerekirse tuzunu ayarlayın.",
    "Sosu oda sıcaklığına gelene kadar bekletin, sonra temiz bir kavanoza aktarın. Servis etmeden önce en az 15 dakika dinlendirin."
   ],
@@ -55,5 +55,13 @@
   "tr": "Biberlerle çalışırken eldiven takın ve gözlerinize dokunmayın; sosun ateşliliğini azaltmak için tohumlarını çıkarabilirsiniz.",
   "en": "Wear gloves when handling the chilies and avoid touching your eyes; remove the seeds to reduce the heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says the mixture should be cooked until its 'kokusu yumuşayınca' (smell softens), which is unnatural and doesn't match the English 'raw smell fades'. The Turkish should say the raw smel"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

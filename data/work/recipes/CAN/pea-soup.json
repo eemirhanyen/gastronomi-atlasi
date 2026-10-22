@@ -5,8 +5,8 @@
  },
  "native": "Soupe aux pois",
  "desc": {
-  "tr": "Kanada'nın Quebec bölgesinde kışın sık sık yenen, sarı bezelye ve tütsülenmiş domuz jambonuyla yapılan koyu bir çorbadır. Geleneksel olarak haftanın perhiz gününe, perşembeye denk gelen öğünlerde servis edilir.",
-  "en": "A thick winter soup from Québec, Canada, made with yellow split peas and smoked pork. Traditionally it was served on Thursdays, the meatless fast day of the Catholic calendar, and it remains a staple of family kitchens."
+  "tr": "Kanada'nın Quebec bölgesinde kışın sık sık yenen, sarı bezelye ve tütsülenmiş domuz jambonuyla yapılan koyu bir çorbadır. Geleneksel olarak perşembe günleri, Katolik takvimindeki etsiz Cuma orucundan önce servis edilirdi ve bugün de aile mutfaklarının vazgeçilmez yemeklerinden biri olmaya devam eder.",
+  "en": "A thick winter soup from Québec, Canada, made with yellow split peas and smoked pork. Traditionally it was served on Thursdays, ahead of the meatless Friday fast of the Catholic calendar, and it remains a staple of family kitchens."
  },
  "servings": 4,
  "time_min": 90,
@@ -69,5 +69,14 @@
   "tr": "Bezelyeler tencere dibine yapıştığı için sık sık karıştırın; kıvam fazla koyulaşırsa sıcak su ekleyin.",
   "en": "Stir often, especially near the end, because split peas scorch easily on the bottom; add hot water if the soup gets too thick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Description says Thursday is the meatless fast day, but in the Catholic calendar the meatless fast day is Friday. Thursday is the day the soup was traditionally served, ahead of Friday's fast.",
+   "Turkish description uses 'perhiz gününe', which is an unnatural rendering of 'meatless fast day', and it does not match the English text. Both versions are corrected to say the same thing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

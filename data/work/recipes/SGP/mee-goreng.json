@@ -86,8 +86,16 @@
   ]
  },
  "tip": {
-  "tr": "Sosu emdirmek için erişteyi küçük partiler halinde pişirin; tavayı aşırı doldurmazsanız noktalar ıslanmadan kızarır.",
+  "tr": "Sosu emdirmek için erişteyi küçük partiler halinde pişirin; tavayı aşırı doldurmazsanız erişteler ıslanmadan kızarır.",
   "en": "Cook in batches if your pan is small; overcrowding makes the noodles steam instead of fry, giving a soggy result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses 'noktalar' ('noodle strands' mistranslated as 'points'), which is wrong for the context. The English says 'noodles'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

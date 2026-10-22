@@ -52,7 +52,7 @@
    "İç harcı için oda sıcaklığındaki tereyağını, toz şekeri ve tarçını iyice kremalı hale gelene kadar karıştırın.",
    "Hamuru hafif unlu tezgâhta yaklaşık 30x40 cm'lik dikdörtgen şeklinde açın. Tarçınlı tereyağı karışımını yüzeyine eşit şekilde yayın.",
    "Hamuru uzun kenarından başlayarak sıkıca sarın. 8 eşit parçaya kesin.",
-   "Her parçayı elinizle yaklaşık 20 cm uzunluğunda bir çubuk haline getirip düğüm atın ya da spiral şeklinde yerleştirin. Fırın tepsisine kağıt serin ve dilimleri aralarında boşluk bırakarak dizin.",
+   "Her dilimi kesik yüzü yukarı gelecek şekilde, kağıt serilmiş fırın tepsisine aralarında boşluk bırakarak dizin ve avuç içinizle hafifçe bastırarak yassılaştırın.",
    "Dilimleri örtüp yaklaşık 30 dakika daha dinlendirin.",
    "Fırını 225 °C'ye önceden ısıtın. Dilimlerin üzerine çırpılmış yumurtayı sürün ve inci şekerini serpin.",
    "Önceden ısıtılmış fırında 8-10 dakika, altın sarısı olana kadar pişirin. Tel raf üzerinde ılımaya bırakın."
@@ -65,7 +65,7 @@
    "For the filling, beat the softened butter, caster sugar and cinnamon together until creamy.",
    "On a lightly floured surface, roll the dough into a rectangle about 30 x 40 cm. Spread the cinnamon butter evenly over the surface.",
    "Roll the dough tightly from a long side, then cut it into 8 equal pieces.",
-   "Place each piece cut side up, stretch it into a rope about 20 cm long and tie a knot, or coil it into a spiral. Arrange on a baking tray lined with baking paper, leaving space between them.",
+   "Place each slice cut side up on a baking tray lined with baking paper, leaving space between them, and gently press down with your palm to flatten slightly.",
    "Cover the buns and let them rise for a further 30 minutes.",
    "Preheat the oven to 225 °C. Brush the buns with beaten egg and sprinkle with pearl sugar.",
    "Bake in the preheated oven for 8-10 minutes until golden brown. Transfer to a wire rack to cool slightly."
@@ -75,5 +75,13 @@
   "tr": "Hamuru tam mayalandırmak için sütü 40 °C'yi geçirmeyin; daha sıcak süt mayayı öldürür.",
   "en": "Keep the milk below 40 °C; hotter milk will kill the yeast and stop the dough from rising properly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 (both languages) describes stretching each piece into a rope and tying it in a knot or coiling it. That is not how Swedish kanelbulle is shaped. The standard method is to place the cut slices c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

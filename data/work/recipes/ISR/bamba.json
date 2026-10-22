@@ -36,9 +36,9 @@
    "Büyük ve kapaklı bir tencerede yağı orta-yüksek ateşte ısıtın, mısır çekirdeklerini tek kat olacak şekilde ekleyin ve kapağı kapatın.",
    "Tencereyi sık sık sallayarak çekirdekler patlayana ve patlama sesi yavaşlayana kadar pişirin (yaklaşık 4-5 dakika).",
    "Patlamış mısırı büyük bir fırın tepsisine yayın, patlamamış çekirdekleri ayıklayın ve tepsiyi bir kenara alın.",
-   "Fırını 150 °C'ye ısıtın ve fırın kağıdı serin.",
+   "Fırını 150 °C'ye ısıtın.",
    "Küçük bir tencerede tereyağı, fıstık ezmesi, esmer şeker ve tuzu orta-düşük ateşte, sürekli karıştırarak şeker eriyene ve karışım pürüzsüzleşene kadar 2 dakika ısıtın.",
-   "Ocaktan alın, vanilya özütünü ekleyip karıştırın.",
+   "Ocaktan alın, vanilya özütünü (isteğe bağlı) ekleyip karıştırın.",
    "Sıcak fıstık karışımını patlamış mısırın üzerine dökün ve mısırlar eşit kaplanana kadar spatulayla dikkatlice karıştırın.",
    "Tepsiyi fırında 10 dakika kurutun; ardından tamamen soğumaya bırakın.",
    "Soğuyunca parçaları birbirinden ayırarak servis yapın veya kapalı bir kapta saklayın."
@@ -56,8 +56,18 @@
   ]
  },
  "tip": {
-  "tr": "Kaplamayı sıcakken dökün; soğuyunca fıstık karışımı sertleşir ve mısırlar birbirine yapışır. Gerçek Bamba'nın kıvamı için daha yumuşak bir karışım isterseniz tereyağını biraz artırabilirsiniz.",
+  "tr": "Kaplamayı sıcakken dökün; soğuyunca fıstık karışımı sertleşir ve mısırlar birbirine yapışır. Daha hafif ve gevrek bir doku için biraz daha az fıstık ezmesi kullanabilirsiniz.",
   "en": "Pour the coating while it is warm; once it cools it hardens and binds the pieces together. For a lighter, crisper texture, use slightly less peanut butter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 contains a stray, unclear phrase 'fırın kağıdı serin' that has no English counterpart.",
+   "Turkish tip says to increase butter for a softer texture, but the English tip says to use slightly less peanut butter for a lighter, crisper texture. The two versions disagree.",
+   "Turkish step 6 does not mention that the vanilla is optional, while the ingredient list and English step do."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

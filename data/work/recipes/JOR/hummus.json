@@ -6,7 +6,7 @@
  "native": "حمص",
  "desc": {
   "tr": "Haşlanmış nohutun tahin, limon ve sarımsakla ezilmesiyle hazırlanan, Ürdün'de kahvaltı, öğle yemeği ve akşam sofralarında mezelerin başında servis edilen kremamsı bir ezmedir. Sıcak ekmekle yenir ve genellikle zeytinyağı ile paprika serpilerek sunulur.",
-  "en": "A creamy paste of cooked chickpeas blended with tahini, lemon and garlic. In Jordan it is served at breakfast, lunch and dinner as a starter, usually warm or at room temperature, with fresh bread."
+  "en": "A creamy paste of cooked chickpeas blended with tahini, lemon and garlic. In Jordan it is served at breakfast, lunch and dinner as a starter, usually warm or at room temperature, with warm bread."
  },
  "servings": 4,
  "time_min": 90,
@@ -69,5 +69,13 @@
   "tr": "Ice-cold water ile uzun süre blendleyin; bu, humusun Ürdün usulü kadifemsi ve hafif dokusunu sağlar.",
   "en": "Blend for longer with ice-cold water to achieve the light, silky texture typical of Jordanian hummus."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description says 'with fresh bread' while the Turkish says 'sıcak ekmekle' (with warm bread). The two versions should agree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

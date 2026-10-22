@@ -18,7 +18,7 @@
    "2 diş sarımsak, ezilmiş (nitir kibbe için)",
    "1 cm zencefil, rendelenmiş (nitir kibbe için)",
    "1/2 çay kaşığı çemen tohumu (nitir kibbe için)",
-   "3 karabiber... kakule (3 adet yeşil kakule kapsülü, ezilmiş)",
+   "3 adet yeşil kakule kapsülü, ezilmiş (nitir kibbe için)",
    "2 adet korarima kapsülü (Etiyopya kakulesi), ezilmiş",
    "1 küçük tarçın çubuğu",
    "2 karanfil",
@@ -28,6 +28,7 @@
    "1 yemek kaşığı (yaklaşık 10 g) mitmita (Etiyopya acı baharat karışımı)",
    "1/2 çay kaşığı tuz",
    "1/4 çay kaşığı öğütülmüş korarima (isteğe bağlı)",
+   "1 tutam tuz (ayib için)",
    "150 g ayib (taze lor veya beyaz taze peynir)",
    "400 g karalahana (gomen için)",
    "1 küçük soğan, doğranmış (gomen için)",
@@ -52,6 +53,7 @@
    "1 tbsp (about 10 g) mitmita (Ethiopian chili spice blend)",
    "1/2 tsp salt",
    "1/4 tsp ground korerima (optional)",
+   "1 pinch salt (for ayib)",
    "150 g ayib (fresh cottage cheese or fresh curd cheese)",
    "400 g collard greens (gomen)",
    "1 small onion, chopped (gomen)",
@@ -95,5 +97,14 @@
   "tr": "Yalnızca taze, güvenilir bir kasaptan alınmış yağsız dana eti kullanın; çiğ et olduğu için etin soğuk kalması ve hijyenik işlenmesi önemlidir.",
   "en": "Use only fresh lean beef from a trusted butcher and keep it cold throughout; since kitfo is served raw or barely warmed, hygiene and temperature matter most."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line '3 karabiber... kakule (3 adet yeşil kakule kapsülü, ezilmiş)' is garbled: a stray 'karabiber...' fragment remains in the quantity/name.",
+   "Step 6 (both languages) adds 'a pinch of salt' to the ayib, but no salt for the ayib appears in the ingredient lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

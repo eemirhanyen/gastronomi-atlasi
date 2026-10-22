@@ -19,7 +19,7 @@
    "80 g toz şeker",
    "40 g tapyoka nişastası",
    "1 tutam tuz",
-   "40 g kurutulmuş rendelenmiş hindistan cevizi"
+   "40 g şekersiz kurutulmuş rendelenmiş hindistan cevizi"
   ],
   "en": [
    "600 g ripe bananas (about 4 large bananas)",
@@ -37,10 +37,10 @@
    "Muzları soyun ve çatal yardımıyla pürüzsüz bir püre haline getirin.",
    "Tapyoka nişastasını soğuk suyla bir kapta iyice karıştırarak pürüzsüz bir bulamaç hazırlayın.",
    "Orta boy bir tencerede hindistan cevizi sütünü, şekeri ve tuzu orta ateşte karıştırarak ısıtın. Şeker eridiğinde ateşi biraz kısın.",
-   "Muz püresini tencereye ekleyip iyice karıştırın ve birkaç dakika kaynatın.",
+   "Muz püresini tencereye ekleyip iyice karıştırın ve birkaç dakika kısık ateşte pişirin.",
    "Nişasta bulamacını ince bir akışla tencereye dökerken sürekli karıştırın. Karışım koyulaşıp şeffaflaşana kadar, yaklaşık 3-4 dakika pişirin.",
    "Ocağı kapatın ve muhallebiyi servis kaplarına paylaştırın. Üzerine kavrulmuş hindistan cevizini serpin.",
-   "Muhallebinin tamamen soğuması için yaklaşık 30 dakika bekleyin, ardından servis yapın."
+   "Muhallebinin soğuması için yaklaşık 30 dakika bekleyin, ardından servis yapın."
   ],
   "en": [
    "Preheat the oven to 170 °C. Spread the desiccated coconut on a wide tray and toast it for about 5-7 minutes until golden. Set aside.",
@@ -57,5 +57,15 @@
   "tr": "Muzların çok olgun ve tatlı olması, şekerin miktarını azaltmanıza imkân verir. Nişastayı mutlaka soğuk suda çözün, yoksa topaklanır.",
   "en": "Very ripe, sweet bananas let you reduce the sugar. Always dissolve the starch in cold water first, or it will form lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient omits 'unsweetened' (English says 'desiccated unsweetened coconut'), so the two versions disagree.",
+   "Turkish step 5 says 'kaynatın' (boil), but the English says 'simmer'. Simmering is a gentler technique and matters for a starch-thickened pudding.",
+   "Turkish step 8 says 'tamamen soğuması' (cool completely), but the English says 'cool for about 30 minutes', which is not full cooling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

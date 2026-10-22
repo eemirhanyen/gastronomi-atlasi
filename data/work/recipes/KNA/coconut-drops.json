@@ -18,7 +18,7 @@
    "150 ml su",
    "30 g tereyağı",
    "1 tatlı kaşığı vanilya özü",
-   "1/4 çay kaşığı öğütülmüş hindistan cevizi (muskat) tozu",
+   "1/4 çay kaşığı öğütülmüş muskat tozu",
    "1 tutam tuz"
   ],
   "en": [
@@ -37,7 +37,7 @@
    "Rendelenmiş hindistan cevizini ve tuzu ekleyip karıştırın.",
    "Ateşi orta-düşük seviyeye indirin ve karışımı ara ara karıştırarak yaklaşık 15-20 dakika pişirin; karışım koyulaşıp tencerenin kenarlarından ayrılmaya başlayınca ocaktan alın.",
    "Tereyağını, vanilya özünü ve muskat tozunu ekleyip homojen hale gelene kadar iyice karıştırın.",
-   "Karışımın biraz soğumasını bekleyin (yaklaşık 5 dakika), ardından bir baklava kağıdına ya da yağlanmış pişirme kağıdına çay kaşığı yardımıyla küçük yığınlar halinde damlatın.",
+   "Karışımın biraz soğumasını bekleyin (yaklaşık 5 dakika), ardından yağlanmış pişirme kağıdına çay kaşığı yardımıyla küçük yığınlar halinde damlatın.",
    "Topları oda sıcaklığında tamamen soğuyup sertleşene kadar, yaklaşık 30 dakika bekletin, sonra servis yapın."
   ],
   "en": [
@@ -53,5 +53,14 @@
   "tr": "Karışımı pişirirken sık sık karıştırın; tencerenin dibi tutarsa kıvam bozulur ve toplar sert çıkar.",
   "en": "Stir the mixture often while cooking; if it sticks to the bottom of the pan, the texture will be uneven and the drops may turn out hard."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says \"baklava kağıdına\" (phyllo dough sheet), which does not match the English \"parchment paper\" and is the wrong item for dropping candy. Changed to pişirme kağıdı only.",
+   "Turkish ingredient \"öğütülmüş hindistan cevizi (muskat) tozu\" is confusing because \"hindistan cevizi\" means coconut, which is already a separate ingredient. Changed to \"öğütülmüş muskat\" to match the "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

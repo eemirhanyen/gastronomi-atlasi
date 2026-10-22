@@ -9,7 +9,7 @@
   "en": "A traditional flatbread of Suriname's Hindustani community, stuffed with spiced mashed yellow split peas. It is cooked on a hot griddle and usually served with curry dishes, at breakfast or lunch."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -25,7 +25,7 @@
    "5 g tuz (hamur için)",
    "180 ml ılık su",
    "15 ml sıvı yağ (hamur için)",
-   "30 ml sıvı yağ (pişirmek için)"
+   "30 ml sıvı yağ (yüzeye sürmek için)"
   ],
   "en": [
    "120 g yellow split peas",
@@ -40,7 +40,7 @@
    "5 g salt (for the dough)",
    "180 ml lukewarm water",
    "15 ml cooking oil (for the dough)",
-   "30 ml cooking oil (for cooking)"
+   "30 ml cooking oil (for brushing)"
   ]
  },
  "steps": {
@@ -71,5 +71,14 @@
   "tr": "Dolgu ne kadar kuru ve sıkı olursa, dalpuri açarken yırtılmadan o kadar kolay şekillenir; dolguyu soğutmadan kullanmayın.",
   "en": "The filling should be stiff and cool; a wet filling will tear the dough when you roll it out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the recipe requires at least 1 hour of soaking, about 20 minutes of simmering and 20 minutes of resting, plus shaping and cooking, so the total is closer to 2 hours.",
+   "The 30 ml oil is labelled 'for cooking' (tr: pişirmek için / en: for cooking), but the steps use it only to brush the finished breads. The label should say brushing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

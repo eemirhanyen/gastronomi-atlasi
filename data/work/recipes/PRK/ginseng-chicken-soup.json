@@ -9,14 +9,14 @@
   "en": "A whole young chicken stuffed with glutinous rice, ginseng and jujubes, then simmered into a restorative broth. It is eaten across the Korean peninsula, especially on the hottest summer days of chobok, when people seek to replenish their strength."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "4 adet genç tavuk (her biri yaklaşık 500 g, iç organları çıkarılmış)",
    "240 g yapışkan (glutinli) pirinç",
    "4 adet taze ya da kurutulmuş genç Kore ginsengi (yaklaşık 40 g toplam)",
-   "8 adet kuru jujube (Kore hurması)",
+   "8 adet kuru hünnap (jujube)",
    "8 diş sarımsak, soyulmuş",
    "8 adet kestane, soyulmuş (isteğe bağlı)",
    "15 g taze zencefil, dilim dilim",
@@ -44,8 +44,8 @@
  "steps": {
   "tr": [
    "Yapışkan pirinci bol suda yaklaşık 1 saat ıslatın, ardından süzün.",
-   "Tavukları soğuk suyla iyice yıkayıp kağıt havlu ile kurulayın. Kuru jujubeleri ve ginsengi hafifçe yıkayın.",
-   "Her tavuğun karnına ve göğsüne pirincin dörtte birini, bir kök ginsengi, iki jujube, iki diş sarımsağı ve varsa iki kestaneyi yerleştirin.",
+   "Tavukları soğuk suyla iyice yıkayıp kağıt havlu ile kurulayın. Kuru hünnapları ve ginsengi hafifçe yıkayın.",
+   "Her tavuğun karnına ve göğsüne pirincin dörtte birini, bir kök ginsengi, iki kuru hünnap, iki diş sarımsağı ve varsa iki kestaneyi yerleştirin.",
    "Tavuğun açık kısmını kürdanla kapatın veya mutfak ipiyle bağlayın, bacakları gövdeye hafifçe bağlayarak doldurmanın dışarı çıkmasını önleyin.",
    "Geniş bir tencereye tavukları yerleştirin, üzerine 2,5 litre su, zencefil dilimleri ve yeşil soğan parçalarını ekleyin.",
    "Kaynamaya bırakın, yüzeyde biriken köpüğü alın.",
@@ -69,5 +69,14 @@
   "tr": "Tavukları kaynar suya değil, soğuk suya koyup yavaş yavaş ısıtın; böylece et yumuşak kalır ve çorba berrak olur.",
   "en": "Start the chickens in cold water and heat gradually; this keeps the meat tender and the broth clear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list calls jujube 'Kore hurması', which in Turkish means persimmon; jujube is 'hünnap' (kuru hünnap).",
+   "time_min is 90, but the recipe requires about 1 hour of rice soaking plus 50 to 60 minutes of simmering, so the total is at least about 2 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -34,14 +34,14 @@
    "150 g onion (1 medium)",
    "2 cloves garlic",
    "60 ml olive oil (4 tbsp)",
-   "1 tsp ground caraway",
+   "1 tsp ground cumin",
    "1/2 tsp ground coriander",
    "1 tsp harissa",
    "1 tbsp tomato paste (15 g)",
    "250 ml water",
    "6 eggs",
    "1 bunch parsley (60 g)",
-   "50 g grated Emmental or Gruyère",
+   "50 g grated Emmental or kashar",
    "Salt and black pepper"
   ]
  },
@@ -61,7 +61,7 @@
    "Preheat the oven to 190°C. Peel the potatoes and slice them 5 mm thick.",
    "Heat 2 tbsp of the olive oil in a wide pan and fry the potato slices until golden on both sides. Transfer to a sieve to drain off the excess oil.",
    "Finely chop the onion and garlic. Add 1 tbsp of olive oil to the pan and cook the onion until soft, about 5 minutes, then add the garlic and cook 1 minute more.",
-   "Add the minced meat and cook for about 8 minutes until the liquid evaporates and it starts to brown. Add the ground caraway, ground coriander, harissa, salt and pepper.",
+   "Add the minced meat and cook for about 8 minutes until the liquid evaporates and it starts to brown. Add the ground cumin, ground coriander, harissa, salt and pepper.",
    "Stir in the tomato paste and fry for 1 minute, then add the water. Simmer on low heat for about 10 minutes until the sauce thickens. Remove from the heat and let cool slightly.",
    "Finely chop the parsley. Beat the eggs in a bowl and mix in the parsley, grated cheese, a pinch of salt and pepper.",
    "Grease an ovenproof 26 cm pan with the remaining 1 tbsp of olive oil. Spread the potato slices over the base and spoon the meat mixture on top.",
@@ -73,5 +73,14 @@
   "tr": "Patatesleri tam altın rengi olana kadar kızartın; bu, tacinin tadını ve dokusunu belirler. Kıymalı harcın suyunu iyice çektirmek, yumurtanın sulanmasını önler.",
   "en": "Fry the potatoes until fully golden, as this sets the flavour and texture of the tajine. Reducing the meat sauce until thick prevents the eggs from becoming watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient says 'ground caraway' but the Turkish says 'öğütülmüş kimyon' (cumin), so the spice differs between versions",
+   "English cheese is 'Emmental or Gruyère' but the Turkish says 'Emmental veya kaşar'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

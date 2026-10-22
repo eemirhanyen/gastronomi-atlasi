@@ -44,8 +44,8 @@
    "Bezelyeleri bir gece önceden suda bekletin. Süzüp taze suyla bir tencereye alın, kısık ateşte yaklaşık 1 saat, yumuşayıp ezilebilir hale gelene kadar pişirin.",
    "Pişen bezelyeyi süzün, tuz ve karabiberle tatlandırıp pürüzsüz bir püre elde edene kadar ezin. Sıcak tutun.",
    "Pastırmayı geniş bir tavada gevrekleşene kadar kızartın ve kağıt havlu üzerine alın.",
-   "Patatesleri kabuklu haline göre tuzlu kaynar suda 20 dakika, batırıldığında yumuşayana kadar haşlayın, süzün.",
-   "Lutefiski buharda pişirmek için bir kevgir ya da buharlı pişirici üzerine yerleştirin. Kapağını kapatıp yaklaşık 20–25 dakika, balık pulları kolayca ayrılana kadar buharda pişirin. Kaynamasına izin vermeyin.",
+   "Patatesleri kabuklarıyla birlikte tuzlu kaynar suda yaklaşık 20 dakika, bıçak kolayca girene kadar haşlayın, süzün.",
+   "Lutefisk'i buharda pişirmek için bir kevgir ya da buharlı pişirici üzerine yerleştirin. Kapağını kapatıp yaklaşık 20–25 dakika, balık pulları kolayca ayrılana kadar buharda pişirin. Kaynamasına izin vermeyin.",
    "Tereyağını küçük bir tencerede eritin.",
    "Balığı, patatesleri, bezelye püresini ve pastırmayı sıcak olarak servis tabaklarına alın. Üzerine eritilmiş tereyağını gezdirin, isteğe bağlı olarak hardal ile servis edin."
   ],
@@ -67,5 +67,15 @@
   "tr": "Kostik soda ile işlem tehlikelidir; zaman ve güvenlik açısından Norveç'ten ya da iyi bir balıkçıdan hazır, işlenmiş lutefisk satın almak daha pratiktir.",
   "en": "Lye curing is hazardous and slow; for safety and convenience, buy ready-treated lutefisk from a Norwegian grocer or good fishmonger."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) covers only active cooking. The recipe needs about 6–7 days of soaking, curing and rinsing, so the total time is misleading.",
+   "Turkish step 8 'kabuklu haline göre' is unnatural. It should say the potatoes are boiled with their skins on.",
+   "Turkish step 9 spells the dish 'Lutefiski', which is inconsistent with the 'Lutefisk' name used elsewhere."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

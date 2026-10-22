@@ -9,7 +9,7 @@
   "en": "A rustic pork stew of onion and paprika, traditionally made in winter after the pig slaughter in rural Romania. It is typically served with mămăligă (cornmeal polenta), fried eggs and pickles."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,10 +55,10 @@
    "Geniş bir tencerede domuz yağını orta-yüksek ateşte eritin. Etleri partiler halinde 8-10 dakika, her yüzü kızarana kadar kavurun ve bir kenara alın.",
    "Ateşi orta seviyeye indirin, soğanları ekleyip altın rengi alana kadar yaklaşık 8 dakika pişirin.",
    "Tencereyi ocaktan alın, tatlı ve acı kırmızı biberi ekleyip 30 saniye karıştırın; biberin yanmaması için hızlı hareket edin.",
-   "Etleri tencereye geri koyun, sarımsak, defne yaprağı ve suyu ekleyin. Kapağını kapatıp kısık ateşte 35-40 dakika, et yumuşayana ve sos koyulaşana kadar pişirin.",
+   "Etleri tencereye geri koyun, sarımsak, defne yaprağı ve suyu ekleyin. Kapağını kapatıp kısık ateşte 60-75 dakika, et yumuşayana ve sos koyulaşana kadar pişirin.",
    "Bu sırada mămăligă için 1 litre suyu tuzla kaynatın. Mısır ununu ince bir akışla ekleyip sürekli karıştırın.",
    "Ateşi kısın ve kapağı açık olarak, kenarlardan ayrılmaya başlayana kadar 20-25 dakika karıştırarak pişirin.",
-   "Yumurtaları, kalan 1 yemek kaşığı ayçiçek yağında, akları pişip sarıları hafifçe katılaşana kadar, yaklaşık 3 dakika kızartın.",
+   "Yumurtaları 1 yemek kaşığı ayçiçek yağında, akları pişip sarıları hafifçe katılaşana kadar, yaklaşık 3 dakika kızartın.",
    "Mămăligayı bir tabağa yayın veya kesin, yanına tochitura ve kızarmış yumurtayı koyun. Turşu ile servis edin."
   ],
   "en": [
@@ -66,7 +66,7 @@
    "Melt the lard in a large heavy pot over medium-high heat. Brown the pork in batches for 8-10 minutes, until golden on all sides, then set aside.",
    "Lower the heat to medium, add the onions and cook for about 8 minutes, until golden.",
    "Remove the pot from the heat, add the sweet and hot paprika and stir for 30 seconds, working quickly so the paprika does not burn.",
-   "Return the pork to the pot, add the garlic, bay leaves and water. Cover and simmer gently for 35-40 minutes, until the meat is tender and the sauce has thickened.",
+   "Return the pork to the pot, add the garlic, bay leaves and water. Cover and simmer gently for 60-75 minutes, until the meat is tender and the sauce has thickened.",
    "Meanwhile, for the mămăligă, bring 1 litre of water with 1 tsp salt to the boil. Slowly add the cornmeal in a thin stream, stirring constantly.",
    "Reduce the heat to low and cook uncovered for 20-25 minutes, stirring often, until the mixture is thick and begins to pull away from the sides of the pot.",
    "Fry the eggs in the tablespoon of sunflower oil for about 3 minutes, until the whites are set and the yolks are slightly firm.",
@@ -77,5 +77,15 @@
   "tr": "Mısır lapasını pişirirken sürekli karıştırın; topaklanmaması için unu suyun kaynamasıyla birlikte yavaşça ekleyin.",
   "en": "Add the cornmeal to the boiling water slowly while stirring constantly to prevent lumps in the mămăligă."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Simmer time of 35-40 minutes is too short for 800 g of pork shoulder or shank cubes to become tender; the stew needs about 60-75 minutes.",
+   "The stated total time of 60 minutes does not match the steps once the simmering and mămăligă are included; time_min should be about 120.",
+   "Turkish step 8 says 'kalan' (remaining) oil, but no oil is reserved earlier in the recipe; the English version correctly says 'the tablespoon of sunflower oil'. The two versions disagree in wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

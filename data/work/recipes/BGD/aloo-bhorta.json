@@ -54,8 +54,16 @@
   ]
  },
  "tip": {
-  "tr": "Hardal yağını dumanlandırmak, yağın sert ve acımsı tadını yumuşatır; yağı biraz soğutup kullanmak ise aromayı dengeler.",
-  "en": "Heating the mustard oil until it smokes mellows its sharp raw taste; let it cool slightly before pouring for a more balanced flavour."
+  "tr": "Hardal yağını dumanlandırmak, yağın sert ve acımsı tadını yumuşatır ve aromasını derinleştirir.",
+  "en": "Heating the mustard oil until it smokes mellows its sharp raw taste and deepens its flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says to let the mustard oil cool slightly before pouring, but step 7 (both languages) pours it over the potatoes straight from the pan, so the tip contradicts the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

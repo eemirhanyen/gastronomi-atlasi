@@ -17,7 +17,7 @@
    "120 ml ılık su",
    "1 tutam tuz",
    "400 g pırasa",
-   "1 yemek kaşığı + 2 yemek kaşığı sıvı yağ",
+   "4 yemek kaşığı sıvı yağ",
    "1/2 çay kaşığı karabiber",
    "1 büyük soğan, ince doğranmış",
    "250 g dana veya kuzu kıyma",
@@ -34,7 +34,7 @@
    "120 ml lukewarm water",
    "1 pinch salt",
    "400 g leeks, finely chopped",
-   "1 tbsp + 2 tbsp neutral oil",
+   "4 tbsp neutral oil",
    "1/2 tsp black pepper",
    "1 large onion, finely diced",
    "250 g ground beef or lamb",
@@ -51,7 +51,7 @@
   "tr": [
    "Un, tuz ve ılık suyu yoğurarak yumuşak bir hamur elde edin. Üzerini örtüp 30 dakika dinlendirin.",
    "Pırasaları ince ince doğrayıp 1 yemek kaşığı yağ ile orta ateşte 5 dakika, yumuşayana kadar soteleyin. Karabiber ekleyip soğumaya bırakın.",
-   "Hamuru 20 küçük parçaya bölün. Her parçayı ince bir yuvarlak açın, ortasına 1 tatlı kaşığı kadar pırasa koyun ve kenarları birleştirerek hilal şeklinde kapatın.",
+   "Hamuru 20 küçük parçaya bölün. Her parçayı ince bir yuvarlak açın, ortasına 1 yemek kaşığı kadar pırasa koyun ve kenarları birleştirerek hilal şeklinde kapatın.",
    "Büyük bir tencerede bol tuzlu su kaynatın ve aşakları 8-10 dakika, hamur yumuşayana kadar pişirin. Süzün.",
    "Sos için 2 yemek kaşığı yağı geniş bir tavada ısıtın, soğanı 5 dakika kavurun. Kıymayı ekleyip suyunu çekene kadar 8 dakika kavurun.",
    "Zerdeçal, tuz ve domatesleri ekleyin, 3 dakika karıştırın. Suyu ilave edip kısık ateşte 15 dakika pişirin.",
@@ -61,7 +61,7 @@
   "en": [
    "Mix the flour, salt and lukewarm water into a soft dough. Cover and rest for 30 minutes.",
    "Heat 1 tbsp oil in a pan over medium heat and soften the finely chopped leeks for 5 minutes. Add the black pepper and let cool.",
-   "Divide the dough into 20 small pieces. Roll each into a thin round, place about 1 tsp of leek filling in the centre, then fold into a crescent and pinch the edges firmly closed.",
+   "Divide the dough into 20 small pieces. Roll each into a thin round, place about 1 tbsp of leek filling in the centre, then fold into a crescent and pinch the edges firmly closed.",
    "Bring a large pot of well-salted water to the boil and cook the ashak for 8–10 minutes until the dough is tender. Drain.",
    "For the sauce, heat 2 tbsp oil in a wide pan and fry the onion for 5 minutes. Add the mince and brown for 8 minutes until the liquid has evaporated.",
    "Stir in the turmeric, salt and grated tomatoes and cook for 3 minutes. Add the water and simmer gently for 15 minutes.",
@@ -73,5 +73,14 @@
   "tr": "Hamuru çok ince açın ve pırasa dolgusunu fazla doldurmayın; böylece aşaklar pişerken dağılmaz.",
   "en": "Roll the dough very thin and do not overfill, so the dumplings hold their shape while boiling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity mismatch: the ingredient list says 1 tbsp + 2 tbsp (3 total), but the steps use 1 tbsp for the leeks, 2 tbsp for the sauce, and the 'remaining 1 tbsp' for the mint oil (4 total). Correcte",
+   "Filling quantity is implausible: 1 tsp of leek filling per dumpling for 20 dumplings uses about 100 g of leek, not the 400 g listed. Changed the filling to 1 tbsp per dumpling in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

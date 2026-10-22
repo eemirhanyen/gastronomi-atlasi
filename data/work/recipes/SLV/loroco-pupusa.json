@@ -15,7 +15,7 @@
   "tr": [
    "500 g masa harina (mısır unu, nixtamal unu)",
    "5 g tuz (1 tatlı kaşığı)",
-   "375 ml ılık su",
+   "500 ml ılık su",
    "200 g taze veya kavanozda loroko çiçeği",
    "200 g eriyen peynir (quesillo veya mozzarella)",
    "5 ml sıvı yağ"
@@ -23,7 +23,7 @@
   "en": [
    "500 g masa harina (instant corn masa flour)",
    "5 g salt (1 teaspoon)",
-   "375 ml warm water",
+   "500 ml warm water",
    "200 g fresh or jarred loroco flower buds",
    "200 g melting cheese (quesillo or mozzarella)",
    "5 ml neutral oil"
@@ -36,11 +36,11 @@
    "Hamuru nemli bir bezle örtüp 10 dakika dinlendirin.",
    "Taze loroko çiçeklerini soğuk suda yıkayıp kabaca doğrayın. Kavanozdaysa suyunu süzün ve iyice kurulayın.",
    "Peyniri küçük küpler halinde doğrayın ve loroko ile karıştırarak dolguyu hazırlayın.",
-   "Hamuru 12 eşit topa bölün. Topları nemli bir bezle örtük tutun, kurumalarını önleyin.",
+   "Hamuru 12 eşit topa bölün. Topları nemli bir bezle örtülü tutun, kurumalarını önleyin.",
    "Bir top hamuru avuç içinde yuvarlayın, ortasını parmaklarınızla çukurlaştırın ve yaklaşık 33 g dolguyu yerleştirin.",
-   "Kenarları yavaşça ortaya doğru kapatıp kapatın, sonra hamuru avuçlarınızla hafifçe bastırarak yaklaşık 10 cm çapında, 1 cm kalınlığında bir disk haline getirin. Dolgu dışarı sızmamalıdır.",
-   "Tavayı veya komalı orta ateşte ısıtın. Yağı kağıt havluyla çok az sürün.",
-   "Pupusaları tavada 3-4 dakika pişirin, altı altın rengi lekeler alana kadar. Çevirin ve diğer tarafını da 3-4 dakika pişirin.",
+   "Kenarları yavaşça ortaya doğru kapatın, sonra hamuru avuçlarınızla hafifçe bastırarak yaklaşık 10 cm çapında, 1 cm kalınlığında bir disk haline getirin. Dolgu dışarı sızmamalıdır.",
+   "Komal (mısır tavası) veya kalın tabanlı tavayı orta ateşte ısıtın. Yağı kağıt havluyla çok az sürün.",
+   "Pupusaları tavada 3-4 dakika pişirin, yüzeyi altın rengi lekeler alana kadar. Çevirin ve diğer tarafını da 3-4 dakika pişirin.",
    "Sıcak sıcak, curtido ve domates salçasıyla servis yapın."
   ],
   "en": [
@@ -61,5 +61,17 @@
   "tr": "Hamuru çok yumuşak bulursanız üzerine bir miktar mısır unu serpin; çatlarsa ıslak elle kenarlarını birleştirin. Pupusayı pişirirken kenarlarından çok sıcak ateş kullanmayın ki içi pişmeden dışı yanmasın.",
   "en": "If the dough feels too soft, add a pinch of masa flour; if it cracks, smooth the edges with wet fingers. Keep the heat moderate so the centre cooks through before the outside browns too much."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity (375 ml for 500 g masa harina) is low; masa typically needs roughly 1.2 to 1.5 times its weight in water, so the dough would likely be dry. Adjusted to 500 ml, still added gradually.",
+   "Turkish step 6: 'örtük tutun' is incorrect; should be 'örtülü tutun'.",
+   "Turkish step 8: 'kapatıp kapatın' is a garbled repetition.",
+   "Turkish step 9: 'komalı orta ateşte' is unnatural; clarified as 'komal (mısır tavası)'.",
+   "Turkish step 10: 'altı altın rengi lekeler' is ambiguous (reads as 'six'); rephrased to 'yüzeyi altın rengi lekeler alana kadar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

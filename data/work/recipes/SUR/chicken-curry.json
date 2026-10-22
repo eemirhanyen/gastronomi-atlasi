@@ -9,7 +9,7 @@
   "en": "A Surinamese curry shaped by Hindustani and Javanese migrant kitchens, known locally as kerrie. It is most often served at lunch or dinner with rice or roti."
  },
  "servings": 4,
- "time_min": 70,
+ "time_min": 95,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -81,5 +81,13 @@
   "tr": "Biberi bütün ve bir kez delinmiş halde pişirin; kesilir veya ezilirse köri çok acılaşır.",
   "en": "Keep the Scotch bonnet whole and pierced only once; cutting or crushing it will make the curry much hotter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (70) is too short for the listed steps: the 20-minute marinade, about 50 minutes of frying and sautéing, and the 25-minute simmer plus 15-20 minutes with potatoes add up to roughly 95 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

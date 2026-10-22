@@ -9,7 +9,7 @@
   "en": "A staple main dish of Sudan: thin, slightly sour, porous sorghum flatbread (kisra) served under a rich beef and okra stew. It is eaten as a family meal at lunch or dinner, especially in Khartoum and northern Sudan."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 840,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -81,5 +81,13 @@
   "tr": "Hamur ne kadar uzun mayalanırsa kisra o kadar ekşi ve gözenekli olur; yapışmayı önlemek için tavayı çok az yağla değil, iyice ısıtarak kullanın.",
   "en": "The longer the batter ferments, the more sour and porous the kisra; heat the pan well rather than oiling it heavily so the bread releases cleanly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (120) omits the mandatory fermentation of at least 12 hours in steps 1-2, so the total time is understated by about 12 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

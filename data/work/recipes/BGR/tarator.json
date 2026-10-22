@@ -54,8 +54,16 @@
   ]
  },
  "tip": {
-  "tr": "Yoğurdu ve suyu iyice soğuk kullanın; böylece tarator daha ferah olur. Kıvamı suyla ayarlamak için son anda kalan suyu ekleyin.",
-  "en": "Use very cold yogurt and water so the soup stays refreshing. Keep a little water back and add it at the end to adjust the consistency."
+  "tr": "Yoğurdu ve suyu iyice soğuk kullanın; böylece tarator daha ferah olur. Kıvamı ayarlamak için suyu azar azar ekleyin ve gerekirse son anda biraz daha su ilave edin.",
+  "en": "Use very cold yogurt and water so the soup stays refreshing. Add the water gradually to reach the right consistency, and add a little more at the end if needed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says to keep some water back and add it at the end, but step 5 has all 400 ml of water added before the cucumber. The tip and steps contradict each other in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

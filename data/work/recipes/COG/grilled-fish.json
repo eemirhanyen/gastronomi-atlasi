@@ -40,21 +40,21 @@
  "steps": {
   "tr": [
    "Balıkların her iki yüzüne, kemiğe kadar uzanan 2-3 derin diagonal kesik atın.",
-   "Balıkları büyük bir kaseye alın. Rendelenmiş soğan, ezilmiş sarımsak, doğranmış acı biber, 30 ml limon suyu, 5 g tuz, karabiber ve 15 ml yağı ekleyin. Balıkların içine ve kesiklerine iyice yedirin. Oda sıcaklığında 30 dakika bekletin.",
+   "Balıkları büyük bir kaseye alın. Rendelenmiş soğan, ezilmiş sarımsak, doğranmış acı biber, 30 ml limon suyu, 4 g tuz, karabiber ve 15 ml yağı ekleyin. Balıkların içine ve kesiklerine iyice yedirin. Oda sıcaklığında 30 dakika bekletin.",
    "Izgarayı orta-yüksek ısıya getirin (odun kömürü veya ızgara tavası). Izgara ızgarasını kalan 15 ml yağla hafifçe yağlayın.",
-   "Balıkları her iki tarafta 6-8 dakika, et kolayca ayrılana ve yüzeyi hafif kömürleşene kadar pişirin. Pişirme sırasında bir iki kez marinasından sürün.",
+   "Balıkları her iki tarafta 6-8 dakika, et kolayca ayrılana ve yüzeyi hafif kömürleşene kadar pişirin.",
    "Sos için 30 ml yağı bir tavada orta ateşte ısıtın. İnce doğranmış soğanı 5 dakika, yumuşayana kadar soteleyin.",
-   "Domates küplerini ekleyip 8 dakika, sos koyulaşana kadar pişirin. Kalan tuzla tatlandırın ve sıcak tutun.",
+   "Domates küplerini ekleyip 8 dakika, sos koyulaşana kadar pişirin. Kalan 1 g tuzla tatlandırın ve sıcak tutun.",
    "Balıkları sıcak olarak servis tabağına alın. Üzerine soğanlı domates sosunu gezdirin, kalan limon suyunu sıkın.",
    "Chikwangue dilimlerini yanında servis edin."
   ],
   "en": [
    "Make 2-3 deep diagonal cuts on each side of every fish, down to the bone.",
-   "Place the fish in a large bowl. Add the grated onion, crushed garlic, chopped hot pepper, 30 ml lime juice, 5 g salt, black pepper and 15 ml oil. Rub the mixture into the cuts and inside the cavity. Leave to marinate at room temperature for 30 minutes.",
+   "Place the fish in a large bowl. Add the grated onion, crushed garlic, chopped hot pepper, 30 ml lime juice, 4 g salt, black pepper and 15 ml oil. Rub the mixture into the cuts and inside the cavity. Leave to marinate at room temperature for 30 minutes.",
    "Heat the grill to medium-high (charcoal or a ridged grill pan). Lightly oil the grill grate with 15 ml of the oil.",
-   "Grill the fish for 6-8 minutes per side, until the flesh flakes easily and the skin is lightly charred. Brush with a little of the marinade during cooking.",
+   "Grill the fish for 6-8 minutes per side, until the flesh flakes easily and the skin is lightly charred.",
    "For the sauce, heat 30 ml oil in a pan over medium heat. Soften the sliced onion for about 5 minutes.",
-   "Add the diced tomatoes and cook for 8 minutes, until the sauce thickens. Season with the remaining salt and keep warm.",
+   "Add the diced tomatoes and cook for 8 minutes, until the sauce thickens. Season with the remaining 1 g salt and keep warm.",
    "Transfer the fish to a serving plate. Spoon the onion-tomato sauce over it and squeeze over the remaining lime juice.",
    "Serve with slices of chikwangue on the side."
   ]
@@ -63,5 +63,14 @@
   "tr": "Balığı pişirmeden önce kesikleri derin açın ki baharat içine girsin ve pişerken et daha suyunu korusun; odun kömürü üzerinde pişirmek en otantik lezzeti verir.",
   "en": "Cut the slashes deep so the marinade penetrates and the flesh stays moist; grilling over charcoal gives the most authentic smoky flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is inconsistent: all 5 g is used in the marinade (step 2), but step 6 says to season the sauce with 'the remaining salt', which does not exist (EN: 'remaining salt').",
+   "Basting the cooking fish with the marinade (step 4, TR and EN) reuses a liquid that has been in contact with raw fish without boiling, which is a food-safety concern."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

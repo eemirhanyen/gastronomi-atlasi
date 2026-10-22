@@ -5,7 +5,7 @@
  },
  "native": "Flan con dulce de leche",
  "desc": {
-  "tr": "Arjantin'de öğle ve akşam yemeklerinin ardından, özellikle aile buluşmalarında ve pazar günleri servis edilen klasik bir tatlıdır. Karamel kaplı yumuşak muhallebi kıvamındaki flanın üzerine, sütten kıvamına getirilmiş dulce de leche gezdirilir.",
+  "tr": "Arjantin'de öğle ve akşam yemeklerinin ardından, özellikle aile buluşmalarında ve pazar günleri servis edilen klasik bir tatlıdır. Karamel kaplı yumuşak muhallebi kıvamındaki flanın üzerine, hafifçe ısıtılarak gevşetilmiş dulce de leche gezdirilir.",
   "en": "A classic Argentine dessert served after lunch and dinner, especially at family gatherings and on Sundays. A silky caramel custard is finished with warm dulce de leche spooned over the top."
  },
  "servings": 4,
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Karamelin kehribar rengine geldiği anda ocaktan alın; koyu renk acı tat verir. Flanın kıvamı için kaynar suyu kalıplara yavaşça ekleyin.",
+  "tr": "Karamelin kehribar rengine geldiği anda ocaktan alın; koyu renk acı tat verir. Flanın kıvamı için kaynar suyu kalıplara yavaşça ekleyin. Bir gece buzdolabında bekletmek en temiz dilimleri verir.",
   "en": "Take the caramel off the heat as soon as it turns amber; a darker colour will taste bitter. Chilling overnight gives the cleanest slices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the English sentence about chilling overnight for the cleanest slices",
+   "Turkish description says the dulce de leche is thinned 'with milk' (sütten kıvamına getirilmiş), but the steps and English version only warm it to loosen it"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

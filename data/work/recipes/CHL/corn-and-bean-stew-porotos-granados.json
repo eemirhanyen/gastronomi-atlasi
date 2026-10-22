@@ -14,14 +14,14 @@
  "ingredients": {
   "tr": [
    "300 g taze çizgili fasulye (cranberry bean), taneleri ayrılmış",
-   "3 koç mısır başağı, tanelerini kesilmiş (yaklaşık 400 g)",
+   "3 adet mısır koçanı, taneleri kesilmiş (yaklaşık 400 g)",
    "250 g balkabağı (kabak), soyulmuş ve 2 cm küp doğranmış",
    "1 büyük soğan, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "2 domates (yaklaşık 300 g), rendelenmiş",
    "2 yemek kaşığı ayçiçek yağı",
    "1 tatlı kaşığı tatlı kırmızı biber",
-   "1 tatlı kaşığı kurutulmuş oregano",
+   "1 tatlı kaşığı kurutulmuş kekik yerine kurutulmuş oregano",
    "1 litre su",
    "1 tatlı kaşığı tuz",
    "½ tatlı kaşığı karabiber",
@@ -49,7 +49,7 @@
    "Sarımsağı ve tatlı kırmızı biberi ekleyip 30 saniye karıştırın.",
    "Rendelenmiş domatesleri ekleyin ve yaklaşık 5 dakika, sos kıvamı alana kadar pişirin.",
    "Fasulyeleri ve suyu ekleyin, kaynatın, ardından ateşi kısıp 20 dakika hafif kaynayacak şekilde pişirin.",
-   "Balkabağını ve kurutulmuş orega­noyu ekleyin, 10 dakika daha pişirin.",
+   "Balkabağını ve kurutulmuş oregano­yu ekleyin, 10 dakika daha pişirin.",
    "Mısır tanelerini, tuzu ve karabiberi ekleyin; mısır ve balkabağı yumuşayıp yemek koyulaşana kadar 10-12 dakika kısık ateşte pişirin.",
    "Ocaktan alın, doğranmış feslegeni karıştırın, tatlandırmayı kontrol edin ve servisten önce 5 dakika dinlendirin."
   ],
@@ -64,8 +64,19 @@
   ]
  },
  "tip": {
-  "tr": "Taze fasulye yoksa, önceden ıslatılmış kuru çizgili fasulyeyi kullanabilirsiniz; bu durumda fasulyeleri ilk aşamada en az 1-1,5 saat yumuşayana kadar ayrıca haşlamanız gerekir.",
+  "tr": "Taze fasulye yoksa, bir gece önceden ıslatılmış kuru çizgili fasulyeyi kullanabilirsiniz; bu durumda fasulyeleri 4. adımda eklemeden önce ayrı bir tencerede, yumuşayana kadar (yaklaşık 1-1,5 saat) haşlamanız gerekir.",
   "en": "If fresh beans are unavailable, use dried cranberry beans soaked overnight and boil them separately until tender (about 1-1.5 hours) before adding them to step 4."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient \"koç mısır başağı\" is unnatural; \"koç\" is wrong here and the Turkish word for a corn cob is \"koçan\".",
+   "Turkish ingredient \"tanelerini kesilmiş\" is ungrammatical; it should read \"taneleri kesilmiş\" to match the English.",
+   "Turkish tip says the beans should be boiled \"ilk aşamada\" (in the first stage), which is vague and does not match the English reference to step 4.",
+   "Turkish step 5 contains a stray soft hyphen in \"orega­noyu\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

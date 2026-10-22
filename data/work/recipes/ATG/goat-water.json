@@ -56,7 +56,7 @@
  "steps": {
   "tr": [
    "Keçi etini soğuk suyla yıkayın, limon suyunun yarısıyla ovalayın, ardından tekrar durulayıp süzün.",
-   "Eti bir kaseye alın; tuz, karabiber, öğütülmüş yenibahar, ezilmiş sarımsağın yarısı ve kalan limon suyuyla karıştırın. Oda sıcaklığında 30 dakika dinlendirin.",
+   "Eti bir kaseye alın; tuz, karabiber, öğütülmüş yenibahar, ezilmiş sarımsağın yarısı ve kalan limon suyuyla karıştırın. Kapağını kapatıp buzdolabında 30 dakika dinlendirin.",
    "Geniş ve dipli bir tencerede sıvı yağı orta-yüksek ateşte ısıtın. Etleri partiler halinde, her tarafı kızarana kadar yaklaşık 5 dakika kavurun, bir tabağa alın.",
    "Aynı tencerede ateşi orta seviyeye indirin. Soğanı ve yeşil biberi yumuşayana kadar yaklaşık 5 dakika soteleyin. Kalan sarımsağı ekleyip 1 dakika daha pişirin.",
    "Domates salçasını ekleyip 1 dakika karıştırarak kavurun. Doğranmış domatesleri ekleyin ve suları çekilene kadar 5 dakika pişirin.",
@@ -67,7 +67,7 @@
   ],
   "en": [
    "Rinse the goat meat in cold water, rub it with half of the lime juice, then rinse again and drain.",
-   "Place the meat in a bowl and toss with the salt, black pepper, ground allspice, half of the crushed garlic and the remaining lime juice. Leave to marinate at room temperature for 30 minutes.",
+   "Place the meat in a bowl and toss with the salt, black pepper, ground allspice, half of the crushed garlic and the remaining lime juice. Cover and refrigerate to marinate for 30 minutes.",
    "Heat the vegetable oil in a wide, heavy-bottomed pot over medium-high heat. Brown the meat in batches for about 5 minutes, turning until all sides are browned, then transfer to a plate.",
    "Lower the heat to medium. In the same pot, soften the onion and green bell pepper for about 5 minutes. Add the remaining garlic and cook for 1 more minute.",
    "Stir in the tomato paste and fry for 1 minute. Add the chopped tomatoes and cook for 5 minutes until they break down and release their juices.",
@@ -81,5 +81,13 @@
   "tr": "Biberi bütün bırakmak tadı verir ama acılığı yavaş yavaş salar; ne kadar acı isterseniz o kadar uzun süre suda bekletin veya kesin.",
   "en": "Keep the scotch bonnet whole so it flavours the broth without overwhelming it; slice it open only if you want more heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 has raw goat meat marinating at room temperature for 30 minutes. This is a food safety problem, so the meat should be refrigerated during marination. The same error appears in the Turkish versi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

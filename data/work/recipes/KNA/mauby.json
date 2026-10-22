@@ -20,7 +20,7 @@
    "1 adet yıldız anason",
    "1 portakalın kabuğu (şeritler halinde soyulmuş)",
    "150 g toz şeker",
-   "1 çimdik öğütülmüş hindistan cevizi",
+   "1 çimdik öğütülmüş muskat",
    "30 ml taze limon suyu",
    "Servis için buz"
   ],
@@ -44,7 +44,7 @@
    "Orta-yüksek ateşte kaynatın, ardından ateşi kısın ve kapağı yarı açık tutarak 30 dakika hafif kaynayacak şekilde pişirin.",
    "Tencereyi ocaktan alın ve karışımı 10 dakika dinlendirin.",
    "Sıvıyı ince süzgeçten geçirerek temiz bir kaba süzün ve katı kısımları atın.",
-   "Sıcak sıvıya toz şekeri ve hindistan cevizini ekleyip şeker tamamen eriyene kadar karıştırın.",
+   "Sıcak sıvıya toz şekeri ve muskatı ekleyip şeker tamamen eriyene kadar karıştırın.",
    "Karışımı oda sıcaklığına gelene kadar soğutun, ardından taze limon suyunu ekleyin.",
    "Kapağını kapatıp en az 2 saat buzdolabında (4°C) soğutun.",
    "Buzla dolu bardaklara dökerek soğuk servis yapın."
@@ -65,5 +65,13 @@
   "tr": "Mauby doğal olarak acıdır; şekeri son aşamada tadına bakarak ayarlayın ve limon suyunu yavaş ekleyin.",
   "en": "Mauby is naturally bitter, so taste and adjust the sugar at the end, and add the lime juice gradually."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step say \"öğütülmüş hindistan cevizi\", which means coconut in Turkish. The English says ground nutmeg, so the Turkish should be \"öğütülmüş muskat\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

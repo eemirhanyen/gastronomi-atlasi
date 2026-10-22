@@ -6,17 +6,17 @@
  "native": "מג'דרה",
  "desc": {
   "tr": "Mercimek, pirinç ve uzun süre karamelize edilmiş soğanla hazırlanan, Orta Doğu mutfağının sade ama doyurucu bir ana yemeğidir. İsrail'de ev yemeklerinde ve aile sofralarında, genellikle yoğurtla birlikte servis edilir.",
-  "en": "A simple, filling main dish of lentils, rice and slow-caramelized onions, central to Middle Eastern home cooking. In Israel it is a everyday family meal, typically served with plain yogurt."
+  "en": "A simple, filling main dish of lentils, rice and slow-caramelized onions, central to Middle Eastern home cooking. In Israel it is an everyday family meal, typically served with plain yogurt."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "200 g yeşil veya kahverengi mercimek, yıkanmış",
    "150 g uzun taneli pirinç, yıkanmış",
    "450 g soğan, ince dilimlenmiş",
-   "80 ml zeytinyağı (60 ml soteleme, 20 ml servis için)",
+   "80 ml zeytinyağı (60 ml soteleme, 20 ml kızartma ve servis için)",
    "2 g öğütülmüş kimyon",
    "6 g tuz",
    "1 g karabiber",
@@ -27,7 +27,7 @@
    "200 g green or brown lentils, rinsed",
    "150 g long-grain rice, rinsed",
    "450 g onions, thinly sliced",
-   "80 ml olive oil (60 ml for frying, 20 ml for finishing)",
+   "80 ml olive oil (60 ml for frying, 20 ml for frying the topping and finishing)",
    "2 g ground cumin",
    "6 g salt",
    "1 g black pepper",
@@ -65,5 +65,15 @@
   "tr": "Soğanları acele etmeden, en az 25 dakika karamelize edin; mujadaranın tadını ve rengini belirleyen en önemli adım budur.",
   "en": "Do not rush the onions; slow caramelization for at least 25 minutes gives mujadara its flavor and color."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Olive oil labelled '20 ml for finishing' in the ingredients, but step 4 uses it to fry the reserved onions (English and Turkish).",
+   "Total time of 60 min is short: onions 25-30 min, lentils ~10 min, rice 15-18 min, and 10 min rest add up to about 70 min before prep.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

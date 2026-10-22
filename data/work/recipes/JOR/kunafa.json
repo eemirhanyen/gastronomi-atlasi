@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Şerbet soğuk, künefe ise sıcak olmalıdır; bu sayede tatlı çıtır kalır ve şerbeti hemen emer.",
+  "tr": "Şerbet soğuk, künefe ise sıcak olmalıdır; bu sayede tatlı çıtır kalır ve şerbeti hemen emer. Tuzlamadan önce peynirin tadına bakın, çünkü akkawi doğal olarak tuzludur.",
   "en": "Keep the syrup cool and the kunafa hot so the pastry stays crisp and absorbs the syrup quickly. Taste the cheese before salting the dish, since akkawi is naturally salty."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is missing the second sentence present in the English tip about tasting the cheese before salting the dish, because akkawi is naturally salty."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

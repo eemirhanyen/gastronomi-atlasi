@@ -43,7 +43,7 @@
    "Hamuru temiz bir bezle örtüp sıcak bir yerde yaklaşık 45 dakika, iki katı hacme ulaşana kadar mayalanmaya bırakın.",
    "Hamuru hafifçe bastırarak gazını alın ve 16 eşit parçaya bölün.",
    "Her parçayı yuvarlayıp avuçlarınızla yaklaşık 1 cm kalınlığında, 8 cm çapında yassı disk haline getirin; ortasına kısa bir yarık açarak mahamri şeklini verin.",
-   "Kızartma yağını 170°C'ye kadar ısıtın. Hamur parçalarını partiler halinde yağa koyun ve 2-3 dakika, bir kez çevirerek altın rengi olana kadar kızartın.",
+   "Kızartma yağını 170°C'ye kadar ısıtın. Hamur parçalarını partiler halinde yağa koyun ve 4-5 dakika, bir kez çevirerek altın rengi olana kadar kızartın.",
    "Kızarmış mahamri'leri kağıt havlu serili bir tabağa alıp fazla yağlarını süzdürün.",
    "Sıcak olarak çay veya kahveyle servis yapın."
   ],
@@ -54,7 +54,7 @@
    "Cover the dough with a clean cloth and leave it in a warm place for about 45 minutes, until doubled in size.",
    "Gently press the dough to release the gas and divide it into 16 equal pieces.",
    "Roll each piece into a ball, then flatten it with your palms into a disc about 1 cm thick and 8 cm across; cut a short slit in the centre to shape the mahamri.",
-   "Heat the frying oil to 170°C. Fry the pieces in batches for 2-3 minutes, turning once, until golden brown.",
+   "Heat the frying oil to 170°C. Fry the pieces in batches for 4-5 minutes, turning once, until golden brown.",
    "Transfer the fried mahamri to a plate lined with kitchen paper to drain off excess oil.",
    "Serve warm with tea or coffee."
   ]
@@ -63,5 +63,13 @@
   "tr": "Yağın sıcaklığını bir termometreyle kontrol edin; yağ çok sıcak olursa dış kısım hemen koyulaşır, iç kısım hamur gibi kalır.",
   "en": "Check the oil with a thermometer: if it is too hot, the outside browns quickly while the centre stays doughy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 2-3 minutes is too short for a 1 cm thick raw yeast dough disc. The centre would likely stay doughy, which the recipe's own tip describes as a failure. Extended to 4-5 minutes in both l"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

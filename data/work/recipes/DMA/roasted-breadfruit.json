@@ -28,7 +28,7 @@
  "steps": {
   "tr": [
    "Fırını 220 °C'ye ısıtın ve fırın tepsisini alt rafa yerleştirin.",
-   "Ekmek ağacı meyvesini yıkayıp kurulayın, sonra doğrudan fırın rafına koyun ve 50-60 dakika közleyin.",
+   "Ekmek ağacı meyvesini yıkayıp kurulayın, sonra fırın tepsisinin üstündeki rafa koyun ve 50-60 dakika közleyin.",
    "Her 15 dakikada bir meyveyi çevirerek kabuğun her yanının siyahlaşıp kabarcıklanmasını sağlayın.",
    "Bıçakla ortasına batırıp kontrol edin; et yumuşak ve kolayca batıyorsa közleme tamamdır.",
    "Meyveyi fırından çıkarıp 10 dakika kadar soğumaya bırakın.",
@@ -39,7 +39,7 @@
   ],
   "en": [
    "Preheat the oven to 220 °C and place a baking tray on the lower rack.",
-   "Wash and dry the breadfruit, then place it directly on the oven rack and roast for 50-60 minutes.",
+   "Wash and dry the breadfruit, then place it on the rack above the baking tray and roast for 50-60 minutes.",
    "Turn the breadfruit every 15 minutes so the skin blackens and blisters evenly on all sides.",
    "Pierce the centre with a knife to test it; when the flesh is soft and the knife slides in easily, the breadfruit is done.",
    "Remove it from the oven and let it cool for about 10 minutes.",
@@ -53,5 +53,13 @@
   "tr": "Ekmek ağacının kabuğundaki süt özü yapışkandır; soyarken eldiven kullanın ve bıçağı yağlayarak temizlemeyi kolaylaştırın.",
   "en": "The sap in the skin is very sticky; wear gloves and oil your knife to make peeling easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 places a baking tray on the lower rack, but step 2 says to put the breadfruit directly on the oven rack, so the tray is never used. Turkish and English versions are both affected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

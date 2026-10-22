@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Kuru limonları delmek, suyun tadını ve ekşiliğini daha iyi ortaya çıkarır; acılığı azaltmak için pişirme sonunda birkaç kez çatalla bastırın.",
-  "en": "Pricking the dried limes lets their sourness infuse the broth; press them with a spoon during cooking for a more intense, tangy sauce."
+  "tr": "Kuru limonları delmek, suyun tadını ve ekşiliğini daha iyi ortaya çıkarır; pişirme sırasında birkaç kez çatalla bastırmak ekşiliği artırır ve acılığı azaltır.",
+  "en": "Pricking the dried limes lets their sourness infuse the broth; press them with a fork during cooking to release more sourness and reduce bitterness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish and English tips disagree: the Turkish says to press the limes with a fork, the English says a spoon, and they give different reasons (reducing bitterness vs. a more intense sauce). The ti"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

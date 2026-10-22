@@ -9,11 +9,11 @@
   "en": "This hearty squash soup is Haiti's national dish, eaten every year on 1 January for Independence Day. Under colonial rule enslaved people were forbidden to eat it, and after independence it became a symbol of freedom."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "400 g dana kaburga eti (ya da bonfile yerine dana biftek), 3 cm küp doğranmış",
+   "400 g dana omuz eti (chuck), 3 cm küp doğranmış",
    "1 adet misket limonu, ikiye kesilmiş",
    "2 diş sarımsak, ezilmiş",
    "1 çay kaşığı tuz",
@@ -32,7 +32,7 @@
    "1 adet Scotch bonnet biberi (ya da habanero), bütün",
    "1 adet et suyu küpü",
    "1,5 l su",
-   "100 g makarna (küçük boy, örneğin kıymık veya kısa makarna)",
+   "100 g küçük boy makarna (örneğin dirsek makarna)",
    "1 küçük demet maydanoz (15 g), yapraklar ayrılmış ve doğranmış"
   ],
   "en": [
@@ -61,7 +61,7 @@
  },
  "steps": {
   "tr": [
-   "Dana eti bir kasede limon suyuyla (limonların yarısını sıkarak), sarımsak, tuz, karabiber ve kekik yapraklarıyla karıştırın. Örtüp 20 dakika bekletin.",
+   "Dana eti bir kasede limonun iki yarısını da sıkarak elde ettiğiniz suyla, sarımsak, tuz, karabiber ve kekik yapraklarıyla karıştırın. Örtüp 20 dakika bekletin.",
    "Büyük bir tencerede tereyağını orta-yüksek ateşte eritin. Marine edilmiş eti ekleyip her tarafı 6-8 dakika kızartın.",
    "Soğan, pırasa ve kerevizi ekleyip 4 dakika daha, yumuşayana kadar kavurun.",
    "Suyu ve et suyu küpünü ekleyip karıştırın. Kaynatın, ardından ısıyı kısın, kapağı yarım açık bırakarak 45 dakika pişirin.",
@@ -87,5 +87,16 @@
   "tr": "Biberi bütün bırakıp en sonda çıkarmak, çorbaya aroma verirken aşırı acılaşmasını önler.",
   "en": "Keep the pepper whole and remove it at the end; this adds fragrance without making the soup overly fiery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to squeeze 'limonların yarısını' (half of the limes), but the English says to squeeze both halves of the single lime.",
+   "Turkish beef ingredient 'dana kaburga eti (ya da bonfile yerine dana biftek)' doesn't match the English 'beef chuck'. Tenderloin (bonfile) is also unsuitable for a slow-simmered stew.",
+   "Turkish pasta name 'kıymık' is not a pasta type (it means 'splinter'). Use 'dirsek makarna' or 'kısa makarna'.",
+   "time_min of 90 is too low: the recipe has a 20-minute marinade plus about 85 minutes of cooking and heating, plus prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

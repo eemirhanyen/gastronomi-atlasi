@@ -24,7 +24,8 @@
    "6 g tuz",
    "1 g karabiber",
    "2 adet defne yaprağı",
-   "30 ml marinasyondan ayrılmış sos (servis için)"
+   "30 ml marinasyondan ayrılmış sos (servis için)",
+   "15 ml zeytinyağı (fırçalama için)"
   ],
   "en": [
    "1600 g bone-in chicken pieces (thighs, drumsticks and breast halves)",
@@ -34,11 +35,12 @@
    "60 ml lemon juice (about 2 lemons)",
    "30 ml white vinegar",
    "5 g sweet paprika",
-   "2 g dried thyme or oregano",
+   "2 g dried thyme",
    "6 g salt",
    "1 g black pepper",
    "2 bay leaves",
-   "30 ml marinade set aside for serving"
+   "30 ml marinade set aside for serving",
+   "15 ml olive oil (for brushing)"
   ]
  },
  "steps": {
@@ -50,7 +52,7 @@
    "Kalan marinasyonun tamamını tavuğa iyice yedirin, bir kaseye ya da torbaya koyup kapatın ve 2 ile 12 saat buzdolabında bekletin.",
    "Servisten yaklaşık 30 dakika önce tavuğu buzdolabından çıkarıp oda sıcaklığına getirin. Fırını 220 °C'ye ısıtın.",
    "Tavuğu cilt tarafı yukarı gelecek şekilde fırın tepsisine kızartma ızgarası üzerine dizin.",
-   "Tavukları 35 ile 40 dakika pişirin. Her 10 dakikada bir üzerlerine marinasyon sosundan gezdirin. Kalın kısma dokunan etin iç sıcaklığı 74 °C'ye ulaşmalıdır.",
+   "Tavukları 35 ile 40 dakika pişirin. Her 10 dakikada bir üzerlerine az miktarda zeytinyağı fırçalayın. Kalın kısma dokunan etin iç sıcaklığı 74 °C'ye ulaşmalıdır.",
    "Son 5 dakikada fırının ızgara modunu açıp tavuğun yüzeyinin kızarmasını sağlayın. Fırından çıkarıp 5 dakika dinlendirin.",
    "Ayırdığınız 30 ml marinasyon sosunu tavukların üzerine gezdirip limon dilimleriyle pilav, kızarmış patates ya da salatayla sıcak servis edin."
   ],
@@ -62,7 +64,7 @@
    "Rub the remaining marinade thoroughly over the chicken, place it in a bowl or bag, cover, and refrigerate for 2 to 12 hours.",
    "About 30 minutes before cooking, take the chicken out of the fridge to come to room temperature. Preheat the oven to 220 °C.",
    "Arrange the chicken pieces skin side up on a rack set over a baking tray.",
-   "Roast for 35 to 40 minutes, brushing with the marinade every 10 minutes. The thickest part should reach an internal temperature of 74 °C.",
+   "Roast for 35 to 40 minutes, brushing with a little olive oil every 10 minutes. The thickest part should reach an internal temperature of 74 °C.",
    "For the final 5 minutes, switch the oven to grill mode to char the skin. Remove and rest for 5 minutes.",
    "Drizzle the reserved 30 ml marinade over the chicken and serve hot with lemon wedges, rice, fried potatoes or salad."
   ]
@@ -71,5 +73,14 @@
   "tr": "Biberin ısısını ayarlamak için çekirdeklerini çıkarın ve biberi doğrarken eldiven kullanın; gözlerinize ve dudaklarınıza temas etmekten kaçının.",
   "en": "Control the heat by removing the seeds, and wear gloves when handling the chillies to avoid burning your eyes and lips."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 says to baste with the marinade, but the marinade in the bowl has been in contact with raw chicken. Basting with it is a food-safety risk. The reserved 30 ml is set aside for serving, so it sho",
+   "English ingredient says 'thyme or oregano' while Turkish says 'kekik' (thyme). Aligned English to 'dried thyme' to match the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

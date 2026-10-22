@@ -20,7 +20,7 @@
    "6 diş sarımsak",
    "6 g tuz",
    "2 g öğütülmüş kimyon",
-   "2 g kuru kekik veya kekik (Meksika kekiği tercih edilir)",
+   "2 g kuru Meksika kekiği (orégano)",
    "2 g karabiber",
    "2 adet muz yaprağı (yaklaşık 60 cm), yoksa kalın alüminyum folyo",
    "1 adet kırmızı soğan, ince dilimlenmiş",
@@ -56,7 +56,7 @@
    "Fırın tepsisine bir muz yaprağını çapraz şekilde yerleştirin, ortasına marine edilmiş domuz etini ve kalan marinasyonu koyun. Yaprakların kenarlarını kapatarak sıkıca sarın, sonra ikinci yaprakla yeniden sarın (folyo kullanıyorsanız çift kat sarın).",
    "Paketi kapalı bir fırın kabına veya tepsiye alın ve 3,5-4 saat, et çatalla kolayca dağılana kadar pişirin.",
    "Turşu için kırmızı soğanı limon suyu ve tuzla karıştırın, acı biberi ekleyin ve oda sıcaklığında en az 30 dakika dinlendirin.",
-   "Pişen eti paketten çıkarın, çatalla lifler halinde parçalayın ve tencereye alınan suyla karıştırın; gerekirse tuzunu ayarlayın.",
+   "Pişen eti paketten çıkarın, çatalla lifler halinde parçalayın ve paketten çıkan suyla karıştırın; gerekirse tuzunu ayarlayın.",
    "Tortillaları kuru bir tavada her iki yüzünü de hafifçe ısıtın.",
    "Kochinita pibil'i sıcak tortillaların içinde, turşu soğanla birlikte servis edin."
   ],
@@ -77,5 +77,14 @@
   "tr": "Muz yaprakları yoksa folyo kullanabilirsiniz, ancak yaprakların verdiği hafif tütsülü aroma gerçek lezzetin önemli bir parçasıdır; achiote macununu Meksika marketlerinden veya online olarak bulabilirsiniz.",
   "en": "If you cannot find banana leaves, foil works, but the faint smoky, herbal aroma from the leaves is a key part of the authentic flavour; achiote paste is sold in Mexican grocery shops and online."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says \"kuru kekik veya kekik\" (thyme), but the English says dried oregano (Mexican oregano). Cochinita pibil uses Mexican oregano, so the Turkish version is wrong.",
+   "Turkish step 8 says to mix the shredded meat with the juices \"tencereye alınan suyla\" (the pot), but the juices come from the banana-leaf parcel in the baking dish, as the English says."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

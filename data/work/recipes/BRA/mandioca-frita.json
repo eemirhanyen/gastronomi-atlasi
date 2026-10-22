@@ -14,6 +14,7 @@
  "ingredients": {
   "tr": [
    "1 kg taze manyok (acı olmayan tür)",
+   "3 l su (haşlamak için)",
    "10 g tuz",
    "1,5 l ayçiçek yağı (kızartmak için)",
    "3 diş sarımsak",
@@ -21,6 +22,7 @@
   ],
   "en": [
    "1 kg fresh cassava (sweet variety)",
+   "3 l water (for boiling)",
    "10 g salt",
    "1.5 l sunflower oil (for frying)",
    "3 garlic cloves",
@@ -53,5 +55,13 @@
   "tr": "Manyokları kızartmadan önce mutlaka iyice kurulayın ve yağı 180°C'de tutun; bu, dışın çıtır, için yumuşak kalmasını sağlar.",
   "en": "Dry the cassava thoroughly before frying and keep the oil at 180°C; this keeps the outside crisp and the inside soft, and prevents dangerous splattering."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water (3 litres, used for boiling in step 3) is missing from the ingredients list in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

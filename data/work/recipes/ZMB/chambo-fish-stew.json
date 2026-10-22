@@ -55,7 +55,7 @@
    "Sarımsak, yeşil biberi ve tatlı kırmızı biberi ekleyip 2 dakika daha pişirin.",
    "Rendelenmiş domatesleri ve domates salçasını ekleyin. Karışım koyulaşıp yağını ayırana kadar, yaklaşık 8-10 dakika kısık ateşte pişirin.",
    "Suyu, kalan 4 g tuzu ve acı kırmızı biberi (kullanıyorsanız) ekleyin. Kaynatıp 5 dakika kaynamaya bırakın.",
-   "Kızartılmış balıkları sosun içine nazikçe yerleştirin, üzerlerine sos kaşıklayın. Tavayı kapatın ve kısık ateşte 8-10 dakika pişirin. Balığın iç sıcaklığı 60 °C'ye ulaşmalı ve et kolayca ayrılmalıdır.",
+   "Kızartılmış balıkları sosun içine nazikçe yerleştirin, üzerlerine sos kaşıklayın. Tavayı kapatın ve kısık ateşte 8-10 dakika pişirin. Balığın iç sıcaklığı 63 °C'ye ulaşmalı ve et kolayca ayrılmalıdır.",
    "Balıkları karıştırmadan kıyılmış kişnişi serpin. Sıcak sosla birlikte, nshima veya pirinçle servis edin."
   ],
   "en": [
@@ -65,7 +65,7 @@
    "Add the garlic, green bell pepper and sweet paprika and cook for 2 more minutes.",
    "Stir in the grated tomatoes and tomato paste. Simmer gently for 8-10 minutes, until the sauce thickens and the oil begins to separate.",
    "Add the water, the remaining 4 g of salt and the hot chili if using. Bring to a boil, then simmer for 5 minutes.",
-   "Lay the fried fish gently into the sauce and spoon some sauce over the top. Cover and simmer over low heat for 8-10 minutes, until the fish reaches 60 °C inside and the flesh flakes easily.",
+   "Lay the fried fish gently into the sauce and spoon some sauce over the top. Cover and simmer over low heat for 8-10 minutes, until the fish reaches 63 °C inside and the flesh flakes easily.",
    "Scatter the chopped coriander over the fish without stirring. Serve hot with the sauce, accompanied by nshima or rice."
   ]
  },
@@ -73,5 +73,13 @@
   "tr": "Balığı sosa koyduktan sonra karıştırmayın; parçalar bozulmadan kalır ve daha temiz bir sunum elde edersiniz.",
   "en": "Once the fish is in the sauce, do not stir; spooning the sauce over it keeps the pieces intact and gives a cleaner presentation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (tr and en) sets the fish's internal temperature at 60 °C. Food-safety guidance for fish is 63 °C, so the target is too low for a safe finish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

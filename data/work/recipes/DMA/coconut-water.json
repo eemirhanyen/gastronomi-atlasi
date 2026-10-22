@@ -5,7 +5,7 @@
  },
  "native": "Dlo kokoye",
  "desc": {
-  "tr": "Dominika'da genç yeşil hindistan cevizinin içindeki suyun limon, şeker ve hindistan cevizi küfesiyle hafifçe tatlandırılmış serinletici bir içeceğidir. Özellikle sıcak öğleden sonralarda sokak satıcılarından ve pazarlardan alınarak içilir.",
+  "tr": "Dominika'da genç yeşil hindistan cevizinin içindeki suyun limon, şeker ve muskatla hafifçe tatlandırılmış serinletici bir içeceğidir. Özellikle sıcak öğleden sonralarda sokak satıcılarından ve pazarlardan alınarak içilir.",
   "en": "A refreshing drink from Dominica made from the water inside young green coconuts, lightly sweetened and brightened with lime, sugar and a little nutmeg. It is sold by roadside vendors and at markets and is most often enjoyed on hot afternoons."
  },
  "servings": 4,
@@ -16,14 +16,14 @@
    "1000 ml taze genç yeşil hindistan cevizi suyu (yaklaşık 3-4 adet)",
    "30 ml taze sıkılmış limon suyu (yaklaşık 1 limon)",
    "30 g toz şeker",
-   "1 g taze rendelenmiş hindistan cevizi küfesi (yaklaşık bir tutam)",
+   "1/4 çay kaşığı taze rendelenmiş muskat (yaklaşık 1 g)",
    "200 g buz"
   ],
   "en": [
    "1000 ml fresh young green coconut water (about 3-4 coconuts)",
    "30 ml freshly squeezed lime juice (about 1 lime)",
    "30 g caster sugar",
-   "1 g freshly grated nutmeg (about a pinch)",
+   "1/4 teaspoon freshly grated nutmeg (about 1 g)",
    "200 g ice"
   ]
  },
@@ -33,7 +33,7 @@
    "Suyu bir kez daha tadın; ekşiyse ya da çok az tatlıysa şekeri ekleyeceğiniz için ayarlamaya hazır olun.",
    "Toz şekeri 2 yemek kaşığı kadar ılık su ile karıştırıp tamamen eriyene kadar bekleyin, ardından hindistan cevizi suyuna ekleyin.",
    "Limon suyunu ekleyip iyice karıştırın.",
-   "Taze rendelenmiş hindistan cevizi küfesini ekleyin ve kısa süre dinlendirin ki aroması suya yayılsın.",
+   "Taze rendelenmiş muskatı ekleyin ve kısa süre dinlendirin ki aroması suya yayılsın.",
    "Sürahiyi buzdolabında en az 15 dakika soğutun.",
    "Servis bardaklarına buzu koyun, içeceği üzerine dökün ve hemen servis yapın."
   ],
@@ -48,8 +48,18 @@
   ]
  },
  "tip": {
-  "tr": "Kabuğu açık yeşil ve ağırlığı yüksek, içinde suyun sesi duyulan genç hindistan cevizlerini seçin; olgun kahverengi cevizlerin suyu daha az ve tatı daha ağırdır.",
+  "tr": "Kabuğu açık yeşil ve ağırlığı yüksek, içinde suyun sesi duyulan genç hindistan cevizlerini seçin; olgun kahverengi cevizlerin suyu daha az ve tadı daha ağırdır.",
   "en": "Choose young green coconuts that feel heavy and slosh audibly when shaken; mature brown coconuts have less water that is more cloying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'hindistan cevizi küfesi' refers to mace, not nutmeg (English says nutmeg). Turkish should use 'muskat'.",
+   "'1 g' of nutmeg is more than 'about a pinch' (a pinch is well under 1 g). Changed to about 1/4 teaspoon in both languages.",
+   "Typo in Turkish tip: 'tatı' should be 'tadı'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

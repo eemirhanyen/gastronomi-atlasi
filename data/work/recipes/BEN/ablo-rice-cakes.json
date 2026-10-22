@@ -46,7 +46,7 @@
   ],
   "en": [
    "In a large bowl, mix the rice flour, sugar, instant yeast, salt and grated ginger.",
-   "Gradually add the lukewarm water while whisking until you have a smooth, thick batter with the consistency of a loose crêpe batter.",
+   "Gradually add the lukewarm water while whisking until you have a smooth, thick batter with the consistency of a thick crêpe batter.",
    "Cover the bowl with a clean cloth and leave it in a warm place for about 2 hours, until the batter has risen and is bubbly.",
    "Dissolve the baking soda in 1 tablespoon of water, then gently stir it into the batter.",
    "Heat the frying oil over medium-high heat to 170 °C.",
@@ -59,5 +59,13 @@
   "tr": "Hamur ne kadar iyi kabarırsa ablo o kadar hafif ve gözenekli olur; yağ sıcaklığını 170 °C civarında tutmak içini pişirirken dışının yanmasını önler.",
   "en": "The better the batter ferments and rises, the lighter and more open-textured the ablo will be; keeping the oil near 170 °C cooks the centres through without scorching the outside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batter consistency disagrees between versions: Turkish says 'koyu krep kıvamında' (thick crêpe-like), but English says 'the consistency of a loose crêpe batter'. Aligned English to the thicker descrip"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

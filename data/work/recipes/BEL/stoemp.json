@@ -5,7 +5,7 @@
  },
  "native": "Stoemp",
  "desc": {
-  "tr": "Belçika'nın Flaman bölgesinde sık yenen, patatesin havuç ve pırasayla birlikte kaba bir püre hâline getirildiği geleneksel bir garnitürdür. Genellikle kış aylarında, kızartılmış sosisli veya etli yemeklerin yanında servis edilir.",
+  "tr": "Belçika'nın Flaman bölgesinde sık yenen, patatesin havuç ve pırasayla birlikte kaba bir püre hâline getirildiği geleneksel bir garnitürdür. Genellikle kış aylarında, ızgara sosisli veya etli yemeklerin yanında servis edilir.",
   "en": "A traditional Belgian side dish, especially common in Flanders, in which potatoes are mashed coarsely with carrots and leeks. It is usually served in winter alongside grilled sausage or meat dishes."
  },
  "servings": 4,
@@ -41,7 +41,7 @@
    "Geniş bir tavada 20 g tereyağını eritin. Pırasayı ekleyip kısık ateşte 8 dakika, kızarmadan yumuşayana kadar soteleyin.",
    "Sütü ılık hâle gelene kadar ayrı bir kapta ısıtın.",
    "Patates ve havucu süzün, tencereye geri koyup kısık ateşte 1 dakika kurumaları için bekletin.",
-   "Tereyağının kalan 40 g'ını ekleyin. Patates ve havucu patates ezgisi veya çatalla ezin. Ilık sütü azar azar ekleyerek kaba bir doku elde edene kadar karıştırın.",
+   "Tereyağının kalan 40 g'ını ekleyin. Patates ve havucu patates ezici veya çatalla ezin. Ilık sütü azar azar ekleyerek kaba bir doku elde edene kadar karıştırın.",
    "Pırasayı ekleyip karıştırın. Tuz, karabiber ve rendelenmiş hindistancevizi ile tatlandırın.",
    "Sıcak servis yapın."
   ],
@@ -61,5 +61,14 @@
   "tr": "Patatesi elle ezmek, püreyi pürüzsüz yapan mikserden daha iyi bir doku verir; stoemp'un karakteristik kaba dokusu bu sayede korunur.",
   "en": "Mash by hand rather than using a blender; this keeps the coarse, rustic texture that defines stoemp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 uses \"patates ezgisi\", which is not a real kitchen term (\"ezgi\" means melody). The correct term is \"patates ezici\", matching the English \"potato masher\".",
+   "Turkish description says \"kızartılmış sosisli\" (fried sausage), but the English says \"grilled sausage\". The Turkish should say \"ızgara sosisli\" to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

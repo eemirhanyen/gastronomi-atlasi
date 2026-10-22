@@ -18,7 +18,7 @@
    "80 g kırmızı soğan (1 küçük), küçük küp doğranmış",
    "30 g taze nane yaprağı, ince kıyılmış",
    "20 g maydanoz yaprağı, ince kıyılmış",
-   "40 ml taze limon suyu",
+   "40 ml taze misket limonu suyu",
    "45 ml sızma zeytinyağı",
    "3 g tuz (yaklaşık 1/2 çay kaşığı)",
    "1 g karabiber (yaklaşık 1/4 çay kaşığı)"
@@ -42,9 +42,9 @@
    "Soğanı küçük küp doğrayın ve soğuk suda 5 dakika bekletin, ardından süzün. Bu işlem sert tadını azaltır.",
    "Nane ve maydanozu ince ince kıyın.",
    "Süzülmüş salatalık ve domatesi, soğanı ve kıyılmış otları geniş bir kasede birleştirin.",
-   "Ayrı bir kapta limon suyu, zeytinyağı, tuz ve karabiberi çırpın.",
+   "Ayrı bir kapta misket limonu suyu, zeytinyağı, tuz ve karabiberi çırpın.",
    "Sosu salataya dökün ve nazikçe karıştırın.",
-   "Servisten önce 10 dakika dinlendirin ki tatlar birbirine karışsın, soğuk servis yapın."
+   "Hemen soğuk olarak servis yapın."
   ],
   "en": [
    "Wash the cucumber, tomatoes and herbs, then pat them dry with kitchen paper.",
@@ -54,12 +54,21 @@
    "In a large bowl, combine the drained cucumber and tomato, the onion and the chopped herbs.",
    "In a small jug, whisk together the lime juice, olive oil, salt and black pepper.",
    "Pour the dressing over the salad and toss gently.",
-   "Let the salad rest for 10 minutes so the flavours meld, then serve chilled."
+   "Serve chilled straight away."
   ]
  },
  "tip": {
-  "tr": "Domates ve salatalığı iyice süzmek salatanın sulanmasını önler; limon suyunu ve tuzu servisten hemen önce ekleyin.",
-  "en": "Draining the tomato and cucumber well keeps the salad from becoming watery; add the lime juice and salt just before serving."
+  "tr": "Domates ve salatalığı iyice süzmek salatanın sulanmasını önler; sosu (limon suyu ve tuz dahil) en son, servisten hemen önce ekleyin.",
+  "en": "Draining the tomato and cucumber well keeps the salad from becoming watery; add the dressing (lime juice and salt included) last, just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish says 'limon suyu' (lemon juice) while English says 'lime juice'. Shirazi salad uses lime, so the Turkish should say 'misket limonu suyu'.",
+   "Step 8 rests the salad for 10 minutes after the dressing (which contains salt) is added, but the tip says to add the lime juice and salt just before serving. The two conflict, and the rest would make "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

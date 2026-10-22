@@ -9,7 +9,7 @@
   "en": "A deep red drink made from dried hibiscus calyces, widely served across Nigeria during hot months and at weddings, parties and celebrations. It is flavoured with ginger and spices and served chilled."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Hibiskus demlendikçe rengi ve ekşiliği artar; şekeri son tatlandırmada ayarlamak için en son ekleyin.",
   "en": "Hibiscus gets stronger as it steeps, so taste before adding the final sugar and lime juice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not include the required 1-hour chill or the cooling time, so the total is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

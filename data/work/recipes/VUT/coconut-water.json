@@ -28,17 +28,17 @@
  "steps": {
   "tr": [
    "Hindistancevizlerini soğuk su altında iyice yıkayın ve kurulayın.",
-   "Büyük bir bıçakla her hindistancevizinin üst kabuğunu kesip, içindeki çekirdeği ortaya çıkarın.",
-   "Hindistancevizlerinden birinin üç yumuşak gözünden birini bir tornavida veya bıçağın ucuyla delin ve suyu ince elekten geçirerek bir sürahiye boşaltın.",
+   "Büyük bir bıçakla her hindistancevizinin üst kabuğunu kesip, içini (beyaz etini) ortaya çıkarın.",
+   "Her hindistancevizinin üç yumuşak gözünden birini bir tornavida veya bıçağın ucuyla delin ve suyunu ince elekten geçirerek bir sürahiye boşaltın.",
    "Limonu ikiye kesip suyunu sıkın ve hindistancevizi suyuna ekleyin.",
    "Esmer şekeri ekleyip karışım tamamen eriyene kadar karıştırın.",
    "Sürahiyi buzdolabında yaklaşık 20 dakika soğutun.",
-   "Buz küplerini bardaklara koyun, soğuk hindistancevizi suyunu üzerine dökerek servis yapın. Dilerseniz içini kırarak hindistancevizinden doğrudan pipetle için."
+   "Buz küplerini bardaklara koyun, soğuk hindistancevizi suyunu üzerine dökerek servis yapın. Dilerseniz hindistancevizinin üst kısmını tamamen açıp pipetle doğrudan için."
   ],
   "en": [
    "Wash the young green coconuts thoroughly under cold water and dry them.",
    "Using a heavy knife, cut off the top husk of each coconut to expose the nut.",
-   "Pierce one of the three soft eyes on one coconut with a screwdriver or knife tip, then pour the water through a fine sieve into a jug.",
+   "Pierce one of the three soft eyes on each coconut with a screwdriver or knife tip, then pour the water from all four coconuts through a fine sieve into a jug.",
    "Halve the lime, squeeze out its juice and add it to the coconut water.",
    "Add the brown sugar and stir until it has completely dissolved.",
    "Chill the jug in the fridge for about 20 minutes.",
@@ -49,5 +49,14 @@
   "tr": "Ağırlığı hissedilir ve içinden su sesi gelen, yeşil renkli genç hindistancevizlerini seçin; suyun tazeliği için aynı gün tüketin.",
   "en": "Choose young green coconuts that feel heavy and slosh when shaken, and drink the water the same day for the freshest flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Quantity mismatch: the ingredients say 4 coconuts yield about 1.2 L, but step 3 drains water from only one coconut (EN and TR).",
+   "Turkish step 2 says \"çekirdeği\" (kernel/seed), which is unnatural for coconut. The usual term is the içi (flesh/inside)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -28,10 +28,10 @@
  "steps": {
   "tr": [
    "Fırını 200 °C'ye ısıtın ve ızgara rafını ortaya yerleştirin.",
-   "Büyük bir kasede mısırununu ve tuzu karıştırın.",
+   "Büyük bir kasede mısır unu ve tuzu karıştırın.",
    "Ilık suyu azar azar ekleyip yoğurun. Hamur yumuşak, ama elinize yapışmayacak kıvamda olmalı; kuru ve çatlıyorsa birer kaşık daha su ekleyin.",
    "Hamuru 5 dakika dinlendirin ki un suyu iyice çeksin.",
-   "Hamuru 8 eşit parçaya bölün (yaklaşık 110 g). Her parçayı avuçlarınızda yuvarlayıp 1 cm kalınlığında, 10 cm çapında yassı disklere şekillendirin.",
+   "Hamuru 8 eşit parçaya bölün (yaklaşık 110 g). Her parçayı avuçlarınızda yuvarlayıp 1,3 cm kalınlığında, 10 cm çapında yassı disklere şekillendirin.",
    "Orta-yüksek ateşte bir tavayı ya da sacı ısıtın ve 20 ml yağla hafifçe yağlayın.",
    "Arepaları tavaya dizin ve her iki yüzünü 5-6 dakika, altın rengi kabuk oluşana kadar pişirin.",
    "Arepaları fırın tepsisine alıp 10 dakika fırınlayın. Altına vurduğunuzda içi boş bir ses vermelidir.",
@@ -42,7 +42,7 @@
    "In a large bowl, mix the corn flour and salt.",
    "Gradually add the warm water and knead until the dough is soft but no longer sticky to the touch. If it feels dry and cracks, add a spoonful more water at a time.",
    "Rest the dough for 5 minutes so the flour fully absorbs the water.",
-   "Divide the dough into 8 equal pieces (about 110 g each). Roll each into a ball and flatten it into a disc about 1 cm thick and 10 cm across.",
+   "Divide the dough into 8 equal pieces (about 110 g each). Roll each into a ball and flatten it into a disc about 1.3 cm thick and 10 cm across.",
    "Heat a griddle or heavy pan over medium-high heat and lightly grease it with the 20 ml oil.",
    "Place the arepas on the griddle and cook for 5–6 minutes per side, until a golden crust forms on both faces.",
    "Transfer the arepas to a baking tray and bake for 10 minutes. They are ready when they sound hollow when tapped on the bottom.",
@@ -53,5 +53,13 @@
   "tr": "Hamurun kıvamı en önemli detaydır: elinizde hafifçe nemli kalmalı ama çatlamamalı. Avuçlarınızı su ile ıslatarak şekillendirirseniz yüzeyde çatlak oluşmaz.",
   "en": "Dough consistency matters most: it should feel slightly moist but not crack at the edges. Wet your palms before shaping to get smooth, crack-free discs."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Arepa dimensions don't match the weight: a 10 cm diameter disc 1 cm thick weighs about 85 g of dough, not the stated 110 g. Thickness corrected to about 1.3 cm in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

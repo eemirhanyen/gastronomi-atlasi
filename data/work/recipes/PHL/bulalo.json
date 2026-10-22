@@ -5,8 +5,8 @@
  },
  "native": "Bulalo",
  "desc": {
-  "tr": "Filipinler'in Batangas bölgesinden yayılan, dana baldırının kemiğinden çıkan iliği ve yumuşak etiyle hazırlanan berrak bir çorbadır. Genellikle soğuk akşamlarda ve aile yemeklerinde, pirinç ve kalamansi sosuyla birlikte servis edilir.",
-  "en": "A clear soup from Batangas province in the Philippines, made with beef shank that is simmered until the meat is tender and the marrow softens inside the bone. It is usually eaten on cool evenings and at family meals, served with steamed rice and a calamansi and fish sauce dip."
+  "tr": "Filipinler'in Batangas bölgesinden yayılan, dana baldırının kemiğinden çıkan iliği ve yumuşak etiyle hazırlanan berrak bir çorbadır. Genellikle soğuk akşamlarda ve aile yemeklerinde, pirinç ile birlikte, kalamansi ve balık sosuyla servis edilir.",
+  "en": "A clear soup from Batangas province in the Philippines, made with beef shank that is simmered until the meat is tender and the marrow softens inside the bone. It is usually eaten on cool evenings and at family meals, served with steamed rice, calamansi and fish sauce on the side."
  },
  "servings": 4,
  "time_min": 150,
@@ -15,7 +15,7 @@
   "tr": [
    "1 kg kemikli dana baldır (kemik iliği olan, enine kesilmiş)",
    "2,5 l su",
-   "1 orta boy soğan, ikiye kesilmiş",
+   "½ orta boy soğan, ikiye kesilmiş",
    "6 diş sarımsak, hafifçe ezilmiş",
    "1 tatlı kaşığı karabiber tanesi",
    "3 yemek kaşığı balık sosu (patis)",
@@ -29,7 +29,7 @@
   "en": [
    "1 kg beef shank with bone marrow (bone-in, cross-cut)",
    "2.5 l water",
-   "1 medium onion, halved",
+   "½ medium onion, halved",
    "6 garlic cloves, lightly crushed",
    "1 teaspoon black peppercorns",
    "3 tablespoons fish sauce (patis)",
@@ -69,5 +69,14 @@
   "tr": "Kemik iliğini kaşıkla çıkarıp ekmek ya da pirinçle yiyin; çorbayı tuzlamadan önce mutlaka tadın, çünkü balık sosu tuzluluğu hızla artırır.",
   "en": "Scoop the marrow out with a spoon and spread it on rice or bread; taste the broth before adding too much salt, since fish sauce adds saltiness quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Onion: the ingredient list says 1 whole onion, but the steps use only half and nothing uses the other half. Listed quantity should match usage.",
+   "Description mismatch: the Turkish description says the dish is served with a 'kalamansi sosu' (calamansi sauce), while the English says 'calamansi and fish sauce dip' and the steps serve calamansi hal"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

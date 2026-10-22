@@ -43,19 +43,19 @@
   "tr": [
    "Börüceleri yıkayın ve üzerini su ile kaplayarak 4-6 saat, tercihen bir gece boyunca bekletin.",
    "Börüceleri ellerinizle ovalayarak kabuklarını soyun, yüzen kabukları ayırıp kenara alın. Ardından temiz suyla iyice durulayın.",
-   "Börücelerin bir kısmını blenderda az suyla yaklaşık 1 dakika çekerek pürüzsüz, kalın bir hamur elde edin.",
+   "Börücelerin tamamını blenderda az suyla yaklaşık 1 dakika çekerek pürüzsüz, kalın bir hamur elde edin.",
    "Kırmızı biberi, acı biberi ve soğanı az suyla blenderda ezerek pürüzsüz bir biber harcı hazırlayın.",
    "Hamurun üzerine biber harcını, palm yağını, sıcak sebze suyunu, ufalanmış sebze suyu küpünü, tuzu ve kerevit tozunu ekleyin.",
    "Tüm malzemeleri bir kaşıkla veya elektrikli çırpıcıyla yaklaşık 2 dakika karıştırıp kabartın. Hamur kıvamlı ama dökülebilir olmalıdır.",
    "Muz yapraklarını ocak üzerinde hafifçe ısıtarak yumuşatın ve silin. Yaprak ya da folyo karelerinin yüzeyine az yağ sürün.",
    "Hamurdan dört eşit porsiyonu yapraklara veya folyolara dökün, kenarlarını kapatıp zarf gibi sarın ve sicimle bağlayın.",
    "Büyük bir tencerenin dibine bir kat su koyup kaynatın, paketleri buhar sepetine dizin ve kapağı kapatarak yaklaşık 45-50 dakika buharda pişirin. Gerektiğinde kaynar su ekleyin.",
-   "Paketleri çıkarıp hafif soğumaya bırakın. Ortası parmakla bastırıldığında geri gelip sertleşmişse hazırdır, sıcak olarak servis edin."
+   "Paketleri çıkarıp hafif soğumaya bırakın. Ortasına parmakla bastırdığınızda hemen geri kalkıyorsa hazırdır; sıcak olarak servis edin."
   ],
   "en": [
    "Rinse the black-eyed beans and cover them with water. Soak for 4 to 6 hours, or preferably overnight.",
    "Rub the beans between your palms to loosen and remove the skins. Skim off the floating skins and rinse the beans well under clean water.",
-   "Blend a portion of the beans with a little water for about 1 minute until smooth and thick to make a batter.",
+   "Blend all of the beans with a little water for about 1 minute until smooth and thick to make a batter.",
    "Blend the red bell pepper, hot pepper and onion with a little water until smooth to make a pepper paste.",
    "Add the pepper paste, palm oil, warm vegetable stock, crumbled stock cube, salt and ground crayfish to the bean batter.",
    "Mix or whisk everything together for about 2 minutes to aerate it. The batter should be thick but still pourable.",
@@ -69,5 +69,14 @@
   "tr": "Börücelerin kabuklarını tamamen soymak pürüzsüz bir doku sağlar; hamur yoğun kalırsa biraz sıcak su ekleyerek kıvamını ayarlayın.",
   "en": "Peeling the beans thoroughly gives a smooth texture; if the batter is too thick, add a splash of warm water to loosen it before pouring."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says 'bir kısmını' (a portion) of the beans is blended, but the remaining beans are never used, and the English says 'a portion' too. The full 250 g should be blended for the batter.",
+   "Turkish step 10 says the moi moi is ready when the centre springs back and 'sertleşmişse' (has hardened). This is wrong: the Turkish describes the opposite of springing back, and the English says 'spr"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

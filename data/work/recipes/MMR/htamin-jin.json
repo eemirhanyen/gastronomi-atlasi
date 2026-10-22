@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "20 g pirinç (ekşitme başlangıcı için)",
+   "20 g pirinç, tercihen kısa taneli ya da beyaz pirinç (ekşitme başlangıcı için)",
    "300 ml su (ekşitme başlangıcı için)",
    "200 g jasmine pirinç",
    "800 ml su (pirinç pişirmek için)",
@@ -53,7 +53,7 @@
    "Fıstık yağını orta ateşte bir tavada ısıtın. Sarımsakları altın rengi alana kadar kızartın ve süzgece alın. Aynı yağda arpacık soğanlarını kızartıp onları da alın.",
    "Aynı yağa kuru karidesleri ekleyip 1 dakika kadar kavurun, ardından kuru biberleri ekleyip 30 saniye daha kızartın. Hepsini süzgece alın, yağı kaseye ayırın.",
    "Ekşi pirinci ellerinizle hafifçe dağıtarak fazla suyunu süzün. Bir servis kabına alın, tuz, balık sosu ve ayırdığınız yağın yarısını ekleyip nazikçe karıştırın.",
-   "Kızartılmış sarımsak, arpacık, karides ve biberi pirinçle harmanlayın. Üzerine ezilmiş kavrulmuş yer fıstığı ve kişniş serpin. Limon dilimleriyle servis edin."
+   "Kızartılmış sarımsak, arpacık, karides ve biberi, ayırdığınız kalan yağla birlikte pirinçle harmanlayın. Üzerine ezilmiş kavrulmuş yer fıstığı ve kişniş serpin. Limon dilimleriyle servis edin."
   ],
   "en": [
    "Start the souring starter 2 days ahead: rinse 20 g rice in 300 ml water, place it in a bowl, cover and leave at room temperature. When bubbles form on the surface and it smells slightly sour, strain it and keep the liquid.",
@@ -62,12 +62,21 @@
    "Heat the peanut oil in a pan over medium heat. Fry the garlic slices until golden, then transfer them to a sieve. Fry the sliced shallots in the same oil until golden and remove them as well.",
    "In the same oil, fry the dried shrimp for about 1 minute, then add the dried chilies and fry for 30 seconds more. Drain everything through the sieve and set the oil aside in a bowl.",
    "Drain the fermented rice gently, pressing lightly to remove excess liquid. Transfer it to a serving bowl, add the salt, fish sauce and half of the reserved oil, and toss gently.",
-   "Mix in the fried garlic, shallots, shrimp and chilies. Sprinkle the crushed roasted peanuts and chopped coriander on top, and serve with lime wedges."
+   "Mix in the fried garlic, shallots, shrimp and chilies along with the remaining reserved oil. Sprinkle the crushed roasted peanuts and chopped coriander on top, and serve with lime wedges."
   ]
  },
  "tip": {
   "tr": "Ekşilik ortamın sıcaklığına göre değişir; sıcak mutfaklarda 12 saatte, serin ortamlarda 24 saatte hazır olabilir. Tatmayı her saat kontrol edin ve kokusu fazla keskinleşirse hemen buzdolabına koyun.",
   "en": "Souring speed depends on room temperature: it can be ready in 12 hours in a warm kitchen or take up to 24 hours in a cool one. Taste every few hours and refrigerate once the sourness becomes too sharp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Half of the 80 ml peanut oil is reserved in step 6, but the remaining oil is never used in the steps.",
+   "The Turkish starter rice ('pirinç') is less specific than the English ('short-grain or any white rice')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

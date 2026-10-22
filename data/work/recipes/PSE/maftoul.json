@@ -17,6 +17,7 @@
    "50 g çok amaçlı un",
    "2 tatlı kaşığı tuz (1'i hamur, 1'i sos için)",
    "170 ml ılık su",
+   "50 ml sıcak su (buharlamadan sonra ıslatmak için)",
    "4 yemek kaşığı zeytinyağı (1 yemek kaşığı hamur, 3 yemek kaşığı sos için)",
    "2 orta boy soğan (yaklaşık 300 g), ince doğranmış",
    "2 domates (yaklaşık 300 g), rendelenmiş",
@@ -33,6 +34,7 @@
    "50 g all-purpose flour",
    "2 tsp salt (1 for the dough, 1 for the sauce)",
    "170 ml lukewarm water",
+   "50 ml hot water (for dampening after steaming)",
    "4 tbsp olive oil (1 tbsp for the dough, 3 tbsp for the sauce)",
    "2 medium onions (about 300 g), finely diced",
    "2 tomatoes (about 300 g), grated",
@@ -71,5 +73,13 @@
   "tr": "Maftulu hazırlarken hamuru fazla ıslatmayın; taneler dağılmadan ve kuru kalmadan elek ile ayrılmalıdır. Pişirmeden önce mutlaka dinlendirilmelidir.",
   "en": "Do not over-wet the dough: the grains should stay dry and separate, so rub gently and let them rest before steaming. Steam twice for a light, fluffy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 (both TR and EN) uses 50 ml hot water to moisten the maftoul, but this amount is missing from the ingredient lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

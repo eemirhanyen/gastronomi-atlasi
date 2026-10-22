@@ -6,7 +6,7 @@
  "native": "Cuba libre",
  "desc": {
   "tr": "Ron, limon ve kolanın basit bir karışımı olan bu içki, 1900'lerin başında Havana'da \"Özgür Küba\" kadehi olarak ortaya çıktı. Bugün Küba'da ve dünyada öğle sonrası buluşmalarda ve gündelik sohbetlerde sık içilir.",
-  "en": "A simple highball of rum, lime and cola, named after the \"Free Cuba\" toast that emerged in Havana in the early 1900s. Today it is a everyday favourite in Cuba and around the world, often served in the afternoon or at casual gatherings."
+  "en": "A simple highball of rum, lime and cola, named after the \"Free Cuba\" toast that emerged in Havana in the early 1900s. Today it is an everyday favourite in Cuba and around the world, often served in the afternoon or at casual gatherings."
  },
  "servings": 4,
  "time_min": 5,
@@ -46,8 +46,17 @@
   ]
  },
  "tip": {
-  "tr": "Kolayı en son ekleyip hafifçe karıştırın; aşırı karıştırmak gazını kaçırır.",
+  "tr": "Kola'yı en son ekleyip hafifçe karıştırın; aşırı karıştırmak gazını kaçırır.",
   "en": "Add the cola last and stir only gently, since over-stirring releases the carbonation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip: \"Kolayı\" is a different word (\"the easy one\"). It should be \"Kola'yı\" (the cola), which changes the meaning of the sentence.",
+   "English description: \"a everyday favourite\" should be \"an everyday favourite\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

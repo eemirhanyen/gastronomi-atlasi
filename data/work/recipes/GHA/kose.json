@@ -5,7 +5,7 @@
  },
  "native": "Koose",
  "desc": {
-  "tr": "Gana'da, özellikle kuzeyde ve sokak satıcılarında sık görülen, öğle ve akşam atıştırmalığı olarak yenen, ezilmiş börülce hamurundan derin yağda kızartılan çıtır bir köftedir.",
+  "tr": "Gana'da, özellikle kuzeyde ve sokak satıcılarında sık görülen, sabah ve akşam atıştırmalığı olarak yenen, ezilmiş börülce hamurundan derin yağda kızartılan çıtır bir köftedir.",
   "en": "A crispy deep-fried fritter made from ground black-eyed peas, sold by street vendors across Ghana and eaten as a snack, especially in the north and in the morning or evening."
  },
  "servings": 4,
@@ -34,9 +34,9 @@
  "steps": {
   "tr": [
    "Börülceleri bol suda en az 8 saat ıslatın.",
-   " Islatılmış börülcelerin kabuklarını ellerinizle ovarak ayırın, yüzen kabukları süzerek atın ve börülceleri iyice yıkayıp süzün.",
+   "Islatılmış börülcelerin kabuklarını ellerinizle ovarak ayırın, yüzen kabukları süzerek atın ve börülceleri iyice yıkayıp süzün.",
    "Soğanı, zencefili ve kırmızı biberi kabaca doğrayın.",
-   "Börülceleri, soğanı, zencefili, kırmızı biberi ve 120 ml suyu blendırdan geçirerek pürüzsüz, koyu bir hamur elde edin.",
+   "Börülceleri, soğanı, zencefili, kırmızı biberi ve 120 ml suyu blenderdan geçirerek pürüzsüz, koyu bir hamur elde edin.",
    "Hamura 5 g tuzu ekleyip iyice karıştırın ve 5 dakika dinlendirin.",
    "Derin bir tencerede 700 ml bitkisel yağı 180 °C'ye kadar ısıtın.",
    "Bir kaşık yardımıyla hamurdan küçük parçalar alıp kızgın yağa bırakın.",
@@ -56,8 +56,19 @@
   ]
  },
  "tip": {
-  "tr": "Hamur çok sulu olursa köftelerin dağılmaması için birkaç yemek kaşığı börülce unu ekleyin; kabukları iyice ayırmak daha hafif ve kabarık bir kıvam sağlar.",
+  "tr": "Kabukları mümkün olduğunca ayırın; bu, hamurun daha hafif ve kabarık olmasını sağlar ve köftelerin yoğun değil çıtır kalmasına yardımcı olur.",
   "en": "Remove as many skins as possible; the peas blend into a lighter, fluffier batter and the fritters stay crisp rather than dense."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 has a typo: 'blendırdan' should be 'blenderdan'.",
+   "Turkish tip suggests adding black-eyed pea flour for thin batter, but no flour is in the ingredient list and the English tip doesn't mention it. Removed the flour advice so both versions match.",
+   "Description disagrees: Turkish says the snack is eaten at noon and evening, English says morning or evening. Changed Turkish to 'sabah ve akşam' to match English.",
+   "Minor: time_min (60) excludes the 8-hour soak in step 1, which may mislead cooks about total time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

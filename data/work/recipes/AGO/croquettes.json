@@ -22,7 +22,7 @@
    "1 yemek kaşığı doğranmış taze maydanoz",
    "Tuz ve taze çekilmiş karabiber",
    "50 g tereyağı",
-   "60 g un",
+   "100 g un",
    "500 ml tam yağlı süt",
    "1 tutam rendelenmiş muskat",
    "2 yumurta, çırpılmış",
@@ -39,7 +39,7 @@
    "1 tbsp chopped fresh parsley",
    "Salt and freshly ground black pepper",
    "50 g butter",
-   "60 g plain flour",
+   "100 g plain flour",
    "500 ml whole milk",
    "1 pinch grated nutmeg",
    "2 eggs, beaten",
@@ -56,7 +56,7 @@
    "Soğuyan kıymayı kremalı hamura ekleyip iyice karıştırın. Hamuru streç film serili bir kaba yayın, üzerini kapatıp oda sıcaklığında soğutun, ardından 30 dakika buzdolabında sertleşmeye bırakın.",
    "Soğuyan hamurdan ıslak ellerinizle yaklaşık 6 cm uzunluğunda, 20 parça silindir şekli verin.",
    "Her parçayı önce çırpılmış yumurtaya, sonra galeta ununa bulayın. Bu işlemi bir kez daha tekrarlayıp 10 dakika buzdolabında dinlendirin.",
-   "Kızartma yağını 175°C'ye ısıtın. Kroketleri partiler halinde 2-3 dakika, altın rengi alana kadar kızartın. Kağıt havluya alıp yağını süzdürün ve sıcak servis yapın."
+   "Kızartma yağını 175°C'ye ısıtın. Kroketleri partiler halinde 3-4 dakika, altın rengi alana kadar kızartın. Kağıt havluya alıp yağını süzdürün ve sıcak servis yapın."
   ],
   "en": [
    "Heat 2 tbsp vegetable oil in a wide pan over medium heat. Soften the onion for 5 minutes, then add the garlic and cook for 1 more minute.",
@@ -66,12 +66,21 @@
    "Stir the cooled beef filling into the thick dough. Spread the mixture in a dish lined with cling film, cover, let it cool to room temperature, then chill for 30 minutes until firm.",
    "With wet hands, shape the firm dough into 20 cylinders, each about 6 cm long.",
    "Dip each croquette in the beaten eggs, then coat with breadcrumbs. Repeat the egg and breadcrumb coating once more, then chill the croquettes for 10 minutes.",
-   "Heat the frying oil to 175°C. Fry the croquettes in batches for 2 to 3 minutes until golden brown. Drain on paper towels and serve hot."
+   "Heat the frying oil to 175°C. Fry the croquettes in batches for 3 to 4 minutes until golden brown. Drain on paper towels and serve hot."
   ]
  },
  "tip": {
   "tr": "Hamurun ve kıymanın iyice soğuduğundan emin olun; aksi halde kroketler kızartırken çatlar ve iç harç dışarı taşar.",
   "en": "Chill the dough thoroughly before shaping. A firm, cold centre keeps the croquettes from cracking and the filling from leaking in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough ratio is too thin: 60 g flour to 500 ml milk will not thicken into a dough firm enough to shape into cylinders after chilling. Raised flour to 100 g in both languages.",
+   "Frying time of 2-3 minutes is too short to heat the centre of a 6 cm cold croquette through. Changed to 3-4 minutes in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

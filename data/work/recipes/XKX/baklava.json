@@ -8,7 +8,7 @@
   "tr": "Cevizli, şerbetli ve ince katmanlı bu tatlı, Kosova'da bayramlarda, düğünlerde ve misafir ağırlamada sıkça ikram edilir. Yerel usulde genellikle yalnızca ceviz kullanılır ve şerbete limon eklenir.",
   "en": "This layered, walnut-filled pastry soaked in syrup is served across Kosovo at holidays, weddings and when guests visit. The local version uses only walnuts and adds lemon to the syrup."
  },
- "servings": 4,
+ "servings": 12,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
@@ -65,5 +65,13 @@
   "tr": "Şerbet soğuk, baklava sıcak olmalı; bu sayede tatlı çıtır kalır ve şerbeti daha iyi emer.",
   "en": "The syrup should be cold and the baklava hot, so the pastry stays crisp and absorbs the syrup better."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings is 4, but the recipe uses 12 filo sheets, 200 g walnuts, 150 g butter and 300 g sugar in a 20x30 cm tin. That yields roughly 20 to 30 diamond pieces, so 4 servings is implausible. Changed to "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

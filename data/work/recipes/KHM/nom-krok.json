@@ -19,7 +19,7 @@
    "2 g tuz",
    "400 ml hindistancevizi sütü",
    "150 ml su",
-   "30 ml nötr yağ (kızartma için)",
+   "30 ml nötr yağ (yağlamak için)",
    "60 g tatlı mısır taneleri (konserve, süzülmüş)",
    "2 dal taze soğan, ince doğranmış",
    "30 g rendelenmiş taze hindistancevizi"
@@ -42,20 +42,20 @@
    "Büyük bir kapta pirinç unu, tapyoka nişastası, toz şeker ve tuzu karıştırın.",
    "Hindistancevizi sütünü ve suyu yavaş yavaş ekleyip pürüzsüz, topaksız bir hamur elde edene kadar çırpın.",
    "Hamuru oda sıcaklığında 30 dakika dinlendirin.",
-   "Takoyaki ya da aebleskiver tavasını orta ateşte ısıtın. Her gözeğe 5 ml yağ sürün.",
+   "Takoyaki ya da aebleskiver tavasını orta ateşte ısıtın. Her gözeğe yaklaşık 2 ml yağ sürün.",
    "Hamuru her gözeğin yaklaşık üçte ikisine kadar dökün.",
    "Her gözeğin üzerine mısır, doğranmış taze soğan ve rendelenmiş hindistancevizi serpin.",
-   "Tavayı kapatın ve orta ateşte yaklaşık 5-6 dakika, yüzeyi kuruyup kekler kolayca ayrılana kadar pişirin. Alt yüzey yaklaşık 180°C'lik ocak yüzeyinde kıvamlaşmalıdır.",
+   "Tavayı kapatın ve orta ateşte yaklaşık 5-6 dakika, yüzeyi kuruyup kekler kolayca ayrılana kadar pişirin. Alt yüzey altın rengi alıp kıvamlaşmalıdır.",
    "Kekleri bir çubukla çıkarın ve sıcak olarak servis edin."
   ],
   "en": [
    "In a large bowl, mix the rice flour, tapioca starch, sugar and salt.",
    "Gradually add the coconut milk and water, whisking until you have a smooth batter with no lumps.",
    "Let the batter rest at room temperature for 30 minutes.",
-   "Heat a takoyaki or aebleskiver pan over medium heat. Brush each cavity with about 5 ml of the oil.",
+   "Heat a takoyaki or aebleskiver pan over medium heat. Brush each cavity with about 2 ml of the oil.",
    "Pour the batter into each cavity, filling it about two-thirds full.",
    "Sprinkle the corn, chopped spring onion and grated coconut over each cake.",
-   "Cover the pan and cook over medium heat for about 5-6 minutes, until the surface is set and the cakes release easily. The base should firm up on a surface of about 180°C.",
+   "Cover the pan and cook over medium heat for about 5-6 minutes, until the surface is set and the cakes release easily. The base should turn golden and firm up.",
    "Lift out the cakes with a skewer or chopstick and serve warm."
   ]
  },
@@ -63,5 +63,15 @@
   "tr": "Tavayı yağlarken fazla yağ kullanmayın; kekler kenarlardan kolayca ayrılacak kadar yağ yeterlidir. Hamuru dökmeden önce karıştırmak, unun çökmesini önler.",
   "en": "Oil the pan lightly; too much oil makes the cakes greasy. Stir the batter once more just before pouring so the flour does not settle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: 5 ml per cavity (step 4) would use the whole 30 ml for only 6 cavities, but a takoyaki pan has 12 or more.",
+   "Turkish ingredient label says 'kızartma için' (for frying) while the English says 'for greasing' and the oil is only used to grease the pan.",
+   "The 180°C 'ocak yüzeyi' claim in step 7 is an unverifiable and unnatural temperature statement, and the Turkish phrasing is awkward. Replaced with a visual doneness cue in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

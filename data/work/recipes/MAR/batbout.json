@@ -9,7 +9,7 @@
   "en": "A soft, puffy flatbread eaten across Morocco at breakfast, with afternoon tea, and on iftar tables during Ramadan. It is usually served warm with butter, honey, jam or cheese."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Ekmekleri pişirdikten sonra mutlaka bezle örtün; buhar sayesinde kabarır ve yumuşak kalır.",
   "en": "Keep the cooked breads covered with a cloth right after cooking; the trapped steam keeps them soft and puffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: 8-10 min kneading, 30-40 min rising, 10 min resting, plus cooking 12 breads in batches comes to roughly 75-90 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

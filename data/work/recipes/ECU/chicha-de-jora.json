@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Çiça de hora",
+  "tr": "Chicha de jora",
   "en": "Chicha de jora"
  },
  "native": "Aswa",
@@ -51,5 +51,13 @@
   "tr": "Jora bulunamazsa, filizlendirilmiş arpa ya da kurutulmuş malt kullanılabilir, ancak tat ve aroma farklı olacaktır. Fermantasyon kabının temiz olmasına dikkat edin.",
   "en": "If jora is unavailable, malted barley flour can be used as a substitute, though the flavour will differ. Keep your fermentation vessel scrupulously clean to avoid unwanted spoilage."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name 'Çiça de hora' is misspelled and does not match the English name 'Chicha de jora'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

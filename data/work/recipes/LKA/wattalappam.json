@@ -17,8 +17,8 @@
    "120 ml su",
    "300 ml koyu hindistan cevizi sütü",
    "4 büyük yumurta",
-   "2 g öğütülmüş karabiber değil, öğütülmüş kakule",
-   "1 g öğütülmüş hindistan cevizi… (muskat)",
+   "2 g öğütülmüş kakule",
+   "1 g öğütülmüş muskat",
    "1 g öğütülmüş tarçın",
    "5 ml gül suyu",
    "60 g kaju",
@@ -40,11 +40,11 @@
  "steps": {
   "tr": [
    "Palmiye şekerini suyla birlikte kısık ateşte, sürekli karıştırarak eritin. Tamamen çözününce süzgeçten geçirip bir kenara alın ve ılımasını bekleyin.",
-   "Kajuları kuru bir tavada orta ateşte 2-3 dakika, altın rengi alana kadar kavurun. Yaklaşık yarısını ince doğrayın, geri kalanını bütün bırakın.",
+   "Kajuları kuru bir tavada orta ateşte 2-3 dakika, altın rengi alana kadar kavurun. Yaklaşık yarısını kabaca doğrayın, geri kalanını bütün bırakın.",
    "Yumurtaları bir kapta hafifçe çırpın. Ilık şeker şurubunu azar azar ekleyip sürekli çırpın.",
    "Hindistan cevizi sütünü, kakuleyi, muskatı, tarçını ve gül suyunu ekleyip iyice karıştırın. Karışımı ince bir elekten geçirerek pürüzsüz hale getirin.",
    "Doğranmış kajuların yarısını karışıma ekleyin.",
-   "20 cm çapında bir fırın kabını tereyağıyla yağlayın. Karışımı kaba dökün ve üzerine bütün kajuların yarısını serpin.",
+   "20 cm çapında bir fırın kabını tereyağıyla yağlayın. Karışımı kaba dökün ve üzerine bütün kajuların tamamını serpin.",
    "Büyük bir tencereye su koyup kaynatın. Kabı buharda pişirme sepetine yerleştirin, kapağını kapatıp kısık ateşte 25-30 dakika buharda pişirin. Ortasına şiş batırdığınızda temiz çıkmalı.",
    "Kabı tencereden çıkarıp soğumaya bırakın. Ardından dilimleyip oda sıcaklığında ya da hafif soğuk servis edin."
   ],
@@ -60,8 +60,20 @@
   ]
  },
  "tip": {
-  "tr": "Pişirmeden önce karışımı mutlaka eleyin; bu, buharda pişen Vatalappam'ın pürüzsüz ve tek tip bir dokuya sahip olmasını sağlar.",
+  "tr": "Pişirmeden önce karışımı mutlaka eleyin; bu, buharda pişen Vatalappam'ın pürüzsüz ve tek tip bir dokuya sahip olmasını sağlar ve yüzeyinde çukurcuklar oluşmasını önler.",
   "en": "Always strain the custard before steaming; this gives Wattalappam its smooth, uniform texture and prevents a pockmarked surface."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'karabiber değil, öğütülmüş kakule' is a garbled self-correction; it should simply be 'öğütülmüş kakule'.",
+   "Turkish ingredient 'öğütülmüş hindistan cevizi… (muskat)' is wrong: 'hindistan cevizi' means coconut, so it should be 'öğütülmüş muskat'.",
+   "Turkish step 6 says to scatter 'bütün kajuların yarısını' (half of the whole cashews), but the English says all the whole cashews, and step 2 leaves the rest whole. The Turkish should say all whole ca",
+   "Turkish step 2 says 'ince doğrayın' (finely chop) while the English says 'coarsely chop'. The Turkish should match.",
+   "The tip's English version adds a claim about preventing a pockmarked surface that the Turkish tip lacks. The two should agree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

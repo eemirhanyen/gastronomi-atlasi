@@ -46,8 +46,16 @@
   ]
  },
  "tip": {
-  "tr": "Yoğurdun ekşiliği kıvam kadar önemlidir; daha ekşi bir içecek için birkaç gün oda sıcaklığında bekletilmiş katık kullanın.",
-  "en": "Sourness matters as much as texture; for a tangier drink, use katyk or yogurt that has been left to ferment a few hours longer at room temperature."
+  "tr": "Yoğurdun ekşiliği kıvam kadar önemlidir; daha ekşi bir içecek için yoğurdu birkaç saat daha uzun süre oda sıcaklığında bekletin.",
+  "en": "Sourness matters as much as texture; for a tangier drink, leave the yogurt a few hours longer at room temperature before using it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips disagree: the Turkish tip says to leave the yogurt at room temperature for \"birkaç gün\" (several days), while the English says \"a few hours longer\". Several days at room tempe"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

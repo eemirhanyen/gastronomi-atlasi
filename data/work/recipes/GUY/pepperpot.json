@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Pepperpot, bir gün bekletilip yeniden ısıtıldığında daha yoğun bir tat kazanır; geleneksel olarak kaynatılarak günlerce tazelenir.",
-  "en": "Pepperpot tastes even better the next day. Refrigerate it overnight, then reheat gently, as the traditional version is kept and reboiled over several days."
+  "tr": "Pepperpot, bir gün bekletilip yeniden ısıtıldığında daha yoğun bir tat kazanır; geleneksel olarak günlerce tazelenerek saklanır. Buzdolabında bekletin ve servis öncesi iyice kaynayana kadar ısıtın.",
+  "en": "Pepperpot tastes even better the next day. Refrigerate it overnight, then reheat thoroughly until bubbling hot before serving, as the traditional version is kept and reboiled over several days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip section disagrees between languages: the English says to reheat gently, but the Turkish says to boil (kaynatılarak). For a dish kept refrigerated and reheated, the safer instruction is to reheat t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

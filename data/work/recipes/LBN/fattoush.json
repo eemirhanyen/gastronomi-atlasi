@@ -5,7 +5,7 @@
  },
  "native": "فتّوش",
  "desc": {
-  "tr": "Lübnan mutfağının en bilinen salatalarından biri olan Fattuş, kızarmış pide parçalarını taze sebzeler, nane ve sumakla birleştirir. Genellikle öğle ve akşam yemeklerinde meze sofrasının bir parçası olarak, özellikle yaz aylarında servis edilir.",
+  "tr": "Lübnan mutfağının en bilinen salatalarından biri olan Fattuş, kızarmış pita parçalarını taze sebzeler, nane ve sumakla birleştirir. Genellikle öğle ve akşam yemeklerinde meze sofrasının bir parçası olarak, özellikle yaz aylarında servis edilir.",
   "en": "One of the best-known salads of Lebanese cuisine, fattoush combines crisp toasted pita pieces with fresh vegetables, herbs and sumac. It is usually served as part of a mezze spread at lunch or dinner, especially in summer."
  },
  "servings": 4,
@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "2 adet büyük pide ekmeği (yaklaşık 150 g)",
+   "2 adet büyük pita ekmeği (yaklaşık 150 g)",
    "60 ml sızma zeytinyağı",
    "1 orta boy marul (yaklaşık 250 g)",
    "3 adet olgun domates (yaklaşık 400 g)",
@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Fırını 200°C'ye ısıtın.",
-   "Pide ekmeklerini 3-4 cm'lik parçalara kesin, bir kasede 20 ml zeytinyağı ile karıştırın ve tuzla hafifçe tatlandırın.",
+   "Pita ekmeklerini 3-4 cm'lik parçalara kesin, bir kasede 20 ml zeytinyağı ile karıştırın ve bir tutam tuzla hafifçe tuzlayın.",
    "Ekmek parçalarını fırın tepsisine yayın ve 8-10 dakika, altın rengi ve gevrek olana kadar pişirin. Soğumaya bırakın.",
    "Marulu yıkayıp kurulayın, orta boy parçalar halinde doğrayın. Domatesleri ve salatalıkları ısırık boyutunda küp doğrayın.",
    "Turpları ince dilimleyin, taze soğanları ince halka halka kesin. Maydanoz ve nane yapraklarını ayırıp iri iri doğrayın.",
@@ -75,5 +75,15 @@
   "tr": "Ekmeği servisten hemen önce salataya ekleyin; aksi halde sosu emip yumuşar.",
   "en": "Add the bread just before serving, otherwise it soaks up the dressing and turns soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 uses 'tatlandırın' (sweeten) for seasoning with salt, which is unnatural. It should be 'tuzlayın' or 'hafifçe tuzlayın'.",
+   "Turkish uses 'pide' for the Arabic-style pita bread. 'Pita' is the accurate term here, and the English says 'pita'.",
+   "Turkish step 6 says to crush the garlic with salt, but the English says 'the remaining salt'. The Turkish is not wrong, but the English wording implies a split of the 3 g salt that the Turkish does no"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

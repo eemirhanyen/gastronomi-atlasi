@@ -40,7 +40,7 @@
    "Kavrulmuş belacanı, tuzu ve şekeri ekleyip ezmeye devam edin.",
    "Geniş bir tavada yağı orta-yüksek ateşte ısıtın, ezmeyi ekleyin ve yaklaşık 10 dakika karıştırarak pişirin. Yağ ayrılıp macun koyulaşınca pişmiş demektir.",
    "Tadına bakıp gerekirse şeker veya tuz ekleyin, 2 dakika daha karıştırarak pişirin.",
-   "Ocaktan alın, limon suyunu karıştırın ve tamamen soğutun. Kavanoza koyup üzerine ince bir tabaka yağ dökerek servis edin."
+   "Ocaktan alın, limon suyunu karıştırın ve tamamen soğutun. Kavanoza koyup üzerine ince bir tabaka yağ dökerek saklayın."
   ],
   "en": [
    "Wrap the belacan in foil and toast it in a dry pan over medium heat for 1-2 minutes per side, until it smells strongly fragrant.",
@@ -55,5 +55,13 @@
   "tr": "Biberlerle çalışırken eldiven takın ve belacanı havalandırmalı bir yerde kavurun; kokusu çok güçlüdür.",
   "en": "Wear gloves when handling chillies and toast the belacan with good ventilation, as its smell is very strong."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 ends with \"servis edin\" (serve), but the English step 6 says \"Store in a jar\". The two versions disagree on the final action; the Turkish should say saklayın (store)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

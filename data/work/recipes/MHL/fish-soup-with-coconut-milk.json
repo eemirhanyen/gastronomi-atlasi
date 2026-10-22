@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g beyaz etli taze balık filetosu (ör. kırmızı lüfer veya levrek)",
+   "600 g beyaz etli taze balık filetosu (ör. mercan balığı veya levrek)",
    "400 ml hindistancevizi sütü",
    "800 ml su",
    "1 yemek kaşığı hindistancevizi yağı veya sıvı yağ",
@@ -69,5 +69,14 @@
   "tr": "Hindistancevizi sütü kaynarsa yağlanıp ayrışır; bu yüzden ocağı kısık tutun ve sütü balıktan önce sadece ısıtın.",
   "en": "Coconut milk can split and turn oily if it boils hard, so keep the heat low and add the lime juice only after removing the pot from the stove."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list names 'kırmızı lüfer' as a white-fleshed option. Lüfer (bluefish) is neither red-fleshed nor white-fleshed in the sense the recipe needs, and it is not a suitable substitute fo",
+   "The native name 'Niir' is the Marshallese word for coconut, not for this fish soup. This should be checked against a reliable Marshallese source."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

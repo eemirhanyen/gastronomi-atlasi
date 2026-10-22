@@ -5,8 +5,8 @@
  },
  "native": "Español",
  "desc": {
-  "tr": "Dominik Cumhuriyeti'nde sıcak günlerde evlerde ve sokak satıcılarında en çok tüketilen, portakal suyu, süt, şeker ve vanilyadan yapılan köpüklü bir içecektir. Özellikle öğle sonrası ve yaz aylarında servis edilir.",
-  "en": "A frothy drink made from orange juice, milk, sugar and vanilla, and one of the most popular refreshments in the Dominican Republic. It is served at homes and by street vendors, especially in the afternoon and during the hot summer months."
+  "tr": "Dominik Cumhuriyeti'nde sıcak günlerde evlerde ve sokak satıcılarında en çok tüketilen, portakal suyu, buharlaştırılmış süt, şeker ve vanilyadan yapılan köpüklü bir içecektir. Özellikle öğle sonrası ve yaz aylarında servis edilir.",
+  "en": "A frothy drink made from orange juice, evaporated milk, sugar and vanilla, and one of the most popular refreshments in the Dominican Republic. It is served at homes and by street vendors, especially in the afternoon and during the hot summer months."
  },
  "servings": 4,
  "time_min": 10,
@@ -14,14 +14,14 @@
  "ingredients": {
   "tr": [
    "250 ml taze sıkılmış portakal suyu (yaklaşık 3 büyük portakal)",
-   "250 ml soğuk tam yağlı süt",
+   "250 ml soğuk buharlaştırılmış süt (evaporé süt)",
    "60 g toz şeker",
    "5 ml vanilya özütü",
    "150 g buz küpü (yaklaşık 8-10 küp)"
   ],
   "en": [
    "250 ml freshly squeezed orange juice (about 3 large oranges)",
-   "250 ml cold whole milk",
+   "250 ml cold evaporated milk",
    "60 g powdered sugar",
    "5 ml vanilla extract",
    "150 g ice cubes (about 8-10 cubes)"
@@ -30,7 +30,7 @@
  "steps": {
   "tr": [
    "Portakalları ikiye kesip narenciye sıkacağıyla sıkın, suyu bir ölçü kabına alın ve 250 ml'ye tamamlayın.",
-   "Portakal suyunu, soğuk sütü, toz şekeri ve vanilya özütünü blendere koyun.",
+   "Portakal suyunu, soğuk buharlaştırılmış sütü, toz şekeri ve vanilya özütünü blendere koyun.",
    "Buz küplerini ekleyip kapağını kapatın.",
    "Yüksek hızda yaklaşık 30-40 saniye karıştırın, içecek köpüklenip buzlar tamamen ezilene kadar devam edin.",
    "Tadına bakın; daha tatlı isterseniz 10-15 g daha şeker ekleyip kısa süre tekrar karıştırın.",
@@ -38,7 +38,7 @@
   ],
   "en": [
    "Cut the oranges in half and squeeze them with a citrus juicer. Pour the juice into a measuring jug and top up to 250 ml.",
-   "Add the orange juice, cold milk, powdered sugar and vanilla extract to a blender.",
+   "Add the orange juice, cold evaporated milk, powdered sugar and vanilla extract to a blender.",
    "Add the ice cubes and close the lid.",
    "Blend on high speed for about 30-40 seconds, until the drink is frothy and the ice is fully crushed.",
    "Taste the drink. If you prefer it sweeter, add 10-15 g more sugar and blend briefly again.",
@@ -49,5 +49,14 @@
   "tr": "Portakalları servisten hemen önce sıkın; taze suyun aroması ve köpüğü, önceden hazırlanmış meyve suyundan çok daha iyi olur.",
   "en": "Squeeze the oranges just before serving; fresh juice gives far better aroma and froth than juice prepared in advance."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Morir Soñando is traditionally made with evaporated milk (leche evaporada), which gives it its characteristic creamy body. The recipe uses plain whole milk, so the dish's key ingredient is missing. Th",
+   "Turkish step 2 and the English ingredient and step lists need the same change so they stay consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -24,8 +24,8 @@
    "1 defne yaprağı",
    "2 g kuru kekik",
    "3 g tuz",
-   "Karabiber",
-   "12 adet yağda hamsi fileto (yaklaşık 50 g)",
+   "Karabiber, tadına göre",
+   "12 adet yağında hamsi filetosu (yaklaşık 50 g)",
    "15 adet çekirdeksiz siyah zeytin"
   ],
   "en": [
@@ -40,7 +40,7 @@
    "1 bay leaf",
    "2 g dried thyme",
    "3 g salt",
-   "Black pepper",
+   "Black pepper, to taste",
    "12 anchovy fillets in oil (about 50 g)",
    "15 pitted black olives"
   ]
@@ -75,5 +75,14 @@
   "tr": "Soğanları acele etmeden, tatlanıp koyulaşana kadar pişirin; bu tadın en önemli kısmıdır. Soğanlar yanarsa acı olur, bu yüzden birkaç yemek kaşığı su ekleyerek kavurmayı kontrol edin.",
   "en": "Cook the onions slowly until they turn sweet and deep golden; this step defines the flavour. If they start to catch, add a splash of water and keep stirring."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Black pepper has no quantity in either language (\"Karabiber\" / \"Black pepper\"), so the amount is missing.",
+   "Turkish anchovy line \"yağda hamsi fileto\" is unnatural phrasing; \"yağında hamsi filetosu\" is the usual term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

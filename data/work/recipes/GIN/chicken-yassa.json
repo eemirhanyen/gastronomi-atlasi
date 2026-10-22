@@ -9,7 +9,7 @@
   "en": "A tangy, savoury chicken dish from Guinea and across West Africa, marinated in lemon, mustard and plenty of onions and then slowly braised. It is usually served with white rice at family meals and when guests are received."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -50,7 +50,7 @@
    "Tavukları ve ayırdığınız marinasyonu tencereye geri koyun. Defne yapraklarını ve tavuk suyunu ekleyin, kaynamaya bırakın.",
    "Ateşi kısın, kapağını kapatıp 30-40 dakika, tavuk tamamen pişene kadar (iç sıcaklık en az 74 °C) yavaş yavaş pişirin. Sosu gerekirse son bir kez tuz ile tatlandırın.",
    "Bu sırada 300 g pirinci yıkayıp üzerini geçecek kadar su ile birlikte pişirin ve pilavı hazırlayın.",
-   "Tavukları sos ve soğanlarla birlikte, yanında pilav ile servis edin. Acı biberi sosu ezmeden servis edebilirsiniz."
+   "Tavukları sos ve soğanlarla birlikte, yanında pilav ile servis edin. Servisten önce acı biberi çıkarabilir ya da daha fazla acılık isteyenler için bütün bırakabilirsiniz."
   ],
   "en": [
    "In a bowl, mix the lemon juice, mustard, crushed garlic, thyme, 1 tsp salt, black pepper and 300 g of the onions. Add the chicken and coat well, then cover and leave to marinate for at least 2 hours, preferably overnight in the fridge.",
@@ -67,5 +67,14 @@
   "tr": "Marinasyonu bir gece önceden hazırlamak tavuğun daha lezzetli olmasını sağlar; soğanları yavaş karamelize etmek yemeğin tatlı derinliğini belirler.",
   "en": "Marinating overnight gives the deepest flavour, and slowly caramelising the onions is what gives yassa its sweet, rich base."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Serving-step mismatch: the English offers removing the hot pepper before serving or serving it whole, but the Turkish only says it can be served without crushing and omits removal. The Turkish sentenc",
+   "time_min (60) is too low: the active steps alone (browning, onion cooking, 30-40 min simmer, rice) total about 90 minutes, excluding the marinating time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

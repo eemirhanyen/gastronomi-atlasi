@@ -53,7 +53,7 @@
    "Kıymayı ekleyip kahverengileşene kadar yaklaşık 8 dakika pişirin, bu sırada kaşıkla parçalayın.",
    "Havucu, balkabağını ve patatesleri ekleyip 2 dakika çevirin. Sıcak et suyunu, bir tutam tuz ve karabiberi ilave edin.",
    "Kaynatın, ateşi kısın, kapağını kapatıp sebzeler yumuşayana kadar yaklaşık 20-25 dakika pişirin.",
-   "Ocaktan alıp fazla suyun bir kısmını ayırın. Patatesleri bir patates ezgisiyle kabaca ezin, biraz parça bırakın. Gerekirse ayırdığınız suyu ekleyerek kıvamı ayarlayın ve tuzunu kontrol edin.",
+   "Ocaktan alıp fazla suyun bir kısmını ayırın. Patatesleri ve balkabağını bir patates ezgisiyle kabaca ezin, biraz parça bırakın. Gerekirse ayırdığınız suyu ekleyerek kıvamı ayarlayın ve tuzunu kontrol edin.",
    "Kalan 15 ml yağı küçük bir tavada ısıtın. Yumurtaları tek tek kırarak göz bozulmayacak şekilde yaklaşık 2-3 dakika pişirin, tuz ve karabiber serpin.",
    "Charquicán'ı kaselere alın, her birinin üzerine bir yumurta koyun ve doğranmış maydanozla süsleyerek sıcak servis edin."
   ],
@@ -73,5 +73,13 @@
   "tr": "Patatesleri tamamen püre yapmayın; hafif parçalı kalması geleneksel dokuyu verir. Kıvam çok koyu olursa ayırdığınız sıcak suyu azar azar ekleyin.",
   "en": "Do not mash everything smooth; leaving some chunks gives the traditional rustic texture. If it becomes too thick, add the reserved liquid a little at a time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says to mash only the potatoes, but the English step 7 says to mash the potatoes and squash. The Turkish version should be corrected to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

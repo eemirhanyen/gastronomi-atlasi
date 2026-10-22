@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "300 g uzun taneli beyaz pirinç (tercihen bir gün önceden pişirilip soğutulmuş)",
+   "300 g uzun taneli beyaz pirinç",
    "500 g haşlanmış kırmızı fasulye (yaklaşık 2 konserve, süzülmüş)",
    "250 ml fasulye suyu (konservenin sıvısı)",
    "2 yemek kaşığı (30 ml) bitkisel yağ",
@@ -30,7 +30,7 @@
    "4 yemek kaşığı (60 g) ekşi krema"
   ],
   "en": [
-   "300 g long-grain white rice (preferably cooked a day ahead and chilled)",
+   "300 g long-grain white rice",
    "500 g cooked red beans (about 2 cans, drained)",
    "250 ml bean liquid (from the cans)",
    "2 tbsp (30 ml) vegetable oil",
@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Dünden kalmış soğuk pirinç kullanın; taneler dağılmaz ve gallo pinto daha dokulu olur.",
-  "en": "Use day-old cold rice so the grains stay separate and the gallo pinto has a better texture."
+  "tr": "Pirinci pişirmeden önce iyice durulamak taneleri ayrı tutar ve gallo pinto daha dokulu olur.",
+  "en": "Rinsing the rice well before cooking keeps the grains separate and gives the gallo pinto a better texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient note says the rice should be cooked a day ahead and chilled, but the steps cook raw rice in the pot with water. The tip also recommends day-old cold rice, which the method does not use. Tur"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

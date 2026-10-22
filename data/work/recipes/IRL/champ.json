@@ -17,25 +17,23 @@
    "1 tatlı kaşığı (6 g) tuz, kaynayan su için",
    "250 ml tam yağlı süt",
    "6 adet taze soğan (yaklaşık 150 g), beyaz ve yeşil kısımları ince doğranmış",
-   "80 g tereyağı (50 g karıştırmak, 30 g servis için eritmek üzere)",
-   "1 tutam beyaz biber",
-   "Servis için 30 g eritilmiş tereyağı"
+   "110 g tereyağı (30 g sütle birlikte ısıtmak, 50 g karıştırmak, 30 g servis için eritmek üzere)",
+   "1 tutam beyaz biber"
   ],
   "en": [
    "1 kg floury potatoes (e.g. Maris Piper), peeled and roughly chopped",
    "1 tsp (6 g) salt, for the boiling water",
    "250 ml whole milk",
    "6 spring onions (about 150 g), white and green parts finely sliced",
-   "80 g butter (50 g for mashing, 30 g melted for serving)",
-   "1 pinch white pepper",
-   "30 g melted butter, for serving"
+   "110 g butter (30 g to warm with the milk, 50 g for mashing, 30 g melted for serving)",
+   "1 pinch white pepper"
   ]
  },
  "steps": {
   "tr": [
    "Patatesleri büyük bir tencereye alın, üzerini geçecek kadar soğuk su ile örtün ve 1 tatlı kaşığı tuz ekleyin.",
    "Tencereyi orta-yüksek ateşte kaynatın, ardından ateşi biraz kısarak patatesler bıçak ucu girecek kadar yumuşayana kadar yaklaşık 20 dakika pişirin.",
-   "Bu sırada küçük bir tencerede sütü, doğranmış taze soğanı ve 30 g tereyağını birlikte orta-düşük ateşte ısıtın. Kaynamaya bırakmadan yaklaşık 5 dakika sıcak tutun ki soğanın aroması sütə geçsin.",
+   "Bu sırada küçük bir tencerede sütü, doğranmış taze soğanı ve 30 g tereyağını birlikte orta-düşük ateşte ısıtın. Kaynamaya bırakmadan yaklaşık 5 dakika sıcak tutun ki soğanın aroması süte geçsin.",
    "Patatesleri süzün, tencereye geri alıp birkaç dakika kısık ateşte bekletin ki fazla su buharlaşsın.",
    "Patatesleri püre yapıcı ile iyice ezin. Ezme işlemi bitince sıcak süt karışımını yavaş yavaş ekleyerek pürüzsüz bir kıvam elde edin.",
    "Kalan 50 g tereyağını ve bir tutam beyaz biberi ekleyin, tadına bakıp gerekirse tuz ayarlayın. Tahta kaşıkla karıştırarak tereyağının tamamen erimesini sağlayın.",
@@ -55,5 +53,16 @@
   "tr": "Patatesleri iyice kurutmak püreyi hafif ve kremsi yapar; sütü ve tereyağını sıcak eklemek de sulanmasını önler.",
   "en": "Drying the potatoes thoroughly after draining and adding the milk hot both help keep the champ light and fluffy rather than watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter totals don't add up: steps use 30 g (milk) + 50 g (mashing) + 30 g (serving) = 110 g, but the list says 80 g.",
+   "The 30 g butter used to warm the milk (step 3) is not clearly listed in the ingredients.",
+   "The serving butter is listed twice in both languages (inside the 80 g line and as a separate line).",
+   "Turkish step 3 contains a typo: 'sütə' should be 'süte'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

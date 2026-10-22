@@ -22,7 +22,7 @@
    "80 g oda sıcaklığında tereyağı",
    "40 ml rom",
    "1 limonun rendesi",
-   "200 g çekirdeksiz ahududu reçeli",
+   "280 g çekirdeksiz ahududu reçeli",
    "1,5 l kızartma yağı",
    "150 g pudra şekeri",
    "30 ml ılık su"
@@ -37,7 +37,7 @@
    "80 g softened unsalted butter",
    "40 ml rum",
    "Grated zest of 1 lemon",
-   "200 g seedless raspberry jam",
+   "280 g seedless raspberry jam",
    "1.5 l neutral frying oil",
    "150 g icing sugar",
    "30 ml warm water"
@@ -71,5 +71,13 @@
   "tr": "Yağ sıcaklığını 170°C'de sabit tutun; çok sıcak olursa dış kısım hızla kararır, iç kısım çiğ kalır.",
   "en": "Keep the oil steady at 170°C; if it is too hot the outside browns quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 200 g of jam covers only about 13 doughnuts at 15 g each, but 500 g of flour yields roughly 18 pieces of 7-8 cm. Raise the jam to about 280 g in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

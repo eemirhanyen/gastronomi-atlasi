@@ -43,7 +43,7 @@
    "Patlıcanların kabuklarını soyun, etini bir süzgeçte birkaç dakika süzün ve elle lif lif ayırın.",
    "Soğanların kömürleşmiş dış katmanlarını soyun ve ince şeritler halinde doğrayın.",
    "Sarımsağı çok ince doğrayın veya rendeleyin. Zeytinyağı, şeri sirkesi, tuz, karabiber ve sarımsağı küçük bir kapta çırpın.",
-   "Sebzeleri servis tabağında katlar halinde dizin, her katın üzerine sosdan gezdirin.",
+   "Sebzeleri servis tabağında katlar halinde dizin, her katın üzerine sostan gezdirin.",
    "Servisten önce 15 dakika oda sıcaklığında bekletin ve ekmekle birlikte sunun."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Sebzeleri kabuklarıyla kavurmak, kendine özgü dumanlı tadı verir; kabuklar ne kadar çok kararırsa lezzet o kadar derin olur.",
   "en": "Roasting the vegetables with their skins on gives the characteristic smoky flavour; the more the skins blacken, the deeper the taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 uses \"sosdan\", which is incorrect Turkish; the ablative form of \"sos\" is \"sostan\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,7 +21,7 @@
    "180 ml ılık su",
    "15 ml sıvı yağ, ayrıca el ve kase için biraz",
    "600 ml kızartma yağı",
-   "60 g bal (4 yemek kaşığı)"
+   "80 g bal (4 yemek kaşığı)"
   ],
   "en": [
    "250 g plain flour",
@@ -32,7 +32,7 @@
    "180 ml lukewarm water",
    "15 ml vegetable oil, plus a little extra for hands and bowl",
    "600 ml frying oil",
-   "60 g honey (4 tbsp)"
+   "80 g honey (4 tbsp)"
   ]
  },
  "steps": {
@@ -65,5 +65,13 @@
   "tr": "Yağ sıcaklığını 170 °C civarında tutun; yağ çok sıcak olursa dış yüzey hızla kararır ve iç kısım pişmeden kalır.",
   "en": "Keep the oil around 170 °C. If it is too hot, the outside browns quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Honey amount is inconsistent: 60 g is labelled as 4 tablespoons, but 4 tablespoons of honey weighs about 80 g (roughly 20 g per tablespoon). Corrected to 80 g in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

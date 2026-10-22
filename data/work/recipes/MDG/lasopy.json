@@ -9,7 +9,7 @@
   "en": "Lasopy is a traditional Malagasy beef soup, a simple, aromatic broth with vegetables that is usually served with rice as part of a main meal across the highlands and coast."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -52,16 +52,16 @@
  "steps": {
   "tr": [
    "Dana eti parçalarını soğuk suyla bir tencereye koyun, ocağı orta-yüksek ateşe alın ve kaynamaya başlayınca yüzeye çıkan köpükleri kepçeyle alın.",
-   "Yarım soğanı, ezilmiş sarımsağı ve zencefili ekleyin. Tencereyi kapatıp kısık ateşte yaklaşık 25 dakika pişirin, et yumuşayana kadar bekleyin.",
+   "Yarım soğanı, ezilmiş sarımsağı ve zencefili ekleyin. Tencereyi kapatıp kısık ateşte yaklaşık 60 dakika pişirin, et yumuşayana kadar bekleyin.",
    "Bu sırada küçük bir tavada yağı ısıtın, kalan soğanı ince doğrayıp domatesle birlikte 3-4 dakika soteleyin.",
-   "Soteledğiniz domatesli karışımı, havuçları ve patates küplerini et suyuna ekleyin. Orta ateşte, sebzeler yumuşayana kadar yaklaşık 15 dakika daha pişirin.",
+   "Sotelediğiniz domatesli karışımı, havuçları ve patates küplerini et suyuna ekleyin. Orta ateşte, sebzeler yumuşayana kadar yaklaşık 15 dakika daha pişirin.",
    "Lahanayı ekleyip 5 dakika kadar pişirin. Tuz ve karabiberi ekleyerek tadına bakın.",
    "Ocağı kapatmadan önce yeşil soğan, kişniş ve isteğe bağlı kırmızı biberi ekleyin, bir dakika daha bekletin.",
    "Pirinci ayrıca pişirin ve çorbayı sıcak sıcak, yanında pirinçle servis edin."
   ],
   "en": [
    "Put the beef pieces in a pot with cold water, bring to a medium-high heat, and skim off the foam that rises to the surface as it comes to a boil.",
-   "Add half the onion, the crushed garlic and the ginger. Cover and simmer gently for about 25 minutes until the meat is tender.",
+   "Add half the onion, the crushed garlic and the ginger. Cover and simmer gently for about 60 minutes until the meat is tender.",
    "Meanwhile, heat the oil in a small pan, finely chop the remaining onion and fry it with the diced tomatoes for 3 to 4 minutes until soft.",
    "Add the tomato mixture, carrots and potato cubes to the broth. Simmer over medium heat for about 15 minutes more, until the vegetables are tender.",
    "Add the cabbage and cook for about 5 minutes. Season with salt and black pepper and taste.",
@@ -73,5 +73,14 @@
   "tr": "Etin suyu berraklaşması için ilk kaynamada çıkan köpüğü dikkatle alın ve pişirme sırasında suyun hafifçe kaynamasını, sert kaynatmamayı tercih edin.",
   "en": "For a clearer broth, skim the foam carefully at the start and keep the soup at a gentle simmer rather than a hard boil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef simmer time of about 25 minutes is too short for bone-in shank or chuck to become tender; the step should allow about 60 minutes, and the total time was adjusted to match.",
+   "Turkish step 4 contains a typo: 'Soteledğiniz' should be 'Sotelediğiniz'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

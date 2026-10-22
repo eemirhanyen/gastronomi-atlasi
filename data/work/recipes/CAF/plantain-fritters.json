@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "600 g olgun plantain muzu (yaklaşık 3 adet, soyulmuş ağırlık)",
-   "120 g un",
+   "200 g un",
    "1 yumurta",
    "30 g toz şeker",
    "2 g tuz",
@@ -25,7 +25,7 @@
   ],
   "en": [
    "600 g very ripe plantain (about 3, peeled weight)",
-   "120 g wheat flour",
+   "200 g wheat flour",
    "1 egg",
    "30 g caster sugar",
    "2 g salt",
@@ -39,7 +39,7 @@
   "tr": [
    "Plantain muzlarını soyun ve bir kaseye alıp çatalla iyice ezin; küçük parçacıklar kalabilir.",
    "Ezilmiş muza yumurtayı, toz şekeri, tuzu ve öğütülmüş zencefili ekleyip karıştırın.",
-   "Unu ve kabartma tozunu birlikte eleyerek kaseye ekleyin, süt ilave edip pürüzsüz, kalın bir hamur elde edene kadar karıştırın.",
+   "Unu ve kabartma tozunu birlikte eleyerek kaseye ekleyin, süt ilave edip homojen, kalın bir hamur elde edene kadar karıştırın.",
    "Hamuru yaklaşık 10 dakika dinlendirin.",
    "Kızartma yağını derin bir tencerede 170-180°C'ye kadar ısıtın.",
    "Hamurdan bir yemek kaşığı ile parçalar alıp sıcak yağa kaydırın; her seferinde birkaç parça koymaya dikkat edin.",
@@ -49,7 +49,7 @@
   "en": [
    "Peel the plantains, put them in a bowl and mash thoroughly with a fork; a few small pieces can remain.",
    "Add the egg, caster sugar, salt and ground ginger to the mashed plantain and mix well.",
-   "Sift the flour and baking powder together into the bowl, then add the milk and stir until you have a smooth, thick batter.",
+   "Sift the flour and baking powder together into the bowl, then add the milk and stir until you have a uniform, thick batter.",
    "Rest the batter for about 10 minutes.",
    "Heat the vegetable oil in a deep pan to 170-180°C.",
    "Scoop spoonfuls of batter and slide them into the hot oil, frying only a few pieces at a time.",
@@ -61,5 +61,14 @@
   "tr": "Muzlar ne kadar olgun ve kabuğu siyaha yakın olursa beignetler o kadar tatlı ve yumuşak çıkar; yağ sıcaklığını termometreyle kontrol edin.",
   "en": "The riper the plantains (skins nearly black), the sweeter and softer the fritters; check the oil temperature with a thermometer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batter ratio is too wet: 600 g mashed plantain with only 120 g flour and 80 ml milk will not form the thick batter the steps describe, and it will likely fall apart when scooped into the oil.",
+   "Step 3 says the batter should be 'smooth' (pürüzsüz / smooth), but step 1 says small pieces of plantain can remain. The texture description contradicts itself."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

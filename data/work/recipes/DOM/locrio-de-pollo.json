@@ -17,7 +17,7 @@
    "30 ml taze limon suyu",
    "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "4 diş sarımsak, ikiye ayrılmış",
-   "1 çay kaşığı tuz, ayrıca tavuk için ek tuz",
+   "1 çay kaşığı tuz",
    "60 ml sıvı yağ",
    "1 tatlı kaşığı annatto tohumu (achiote)",
    "1 orta boy soğan, ince doğranmış",
@@ -35,7 +35,7 @@
    "30 ml fresh lime juice",
    "1 tsp dried oregano",
    "4 garlic cloves, halved",
-   "1 tsp salt, plus extra for the chicken",
+   "1 tsp salt",
    "60 ml vegetable oil",
    "1 tsp annatto seeds (achiote)",
    "1 medium onion, finely chopped",
@@ -75,5 +75,13 @@
   "tr": "Pirinç yapışmasın diye kapağı pişirme sırasında açmayın; altta hafif bir çıtırlık oluşması locrionun en sevilen kısmıdır.",
   "en": "Do not lift the lid while the rice cooks; a light crispy layer on the bottom of the pot is prized in locrio."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed as \"plus extra for the chicken\" (TR: \"ayrıca tavuk için ek tuz\") with no quantity, and the steps never use any extra salt beyond the 1 tsp in the marinade. Both language versions have t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

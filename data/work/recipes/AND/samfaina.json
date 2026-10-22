@@ -9,7 +9,7 @@
   "en": "A slow-cooked vegetable sauce of Catalan tradition, common in Andorra and Catalonia, made with eggplant, zucchini, peppers and tomato. It is usually served in summer and autumn alongside grilled meat, fish or pasta."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 85,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Domatesin asitliği değişkendir; sosu tatlandırmak için şekeri son dakikada azar azar ekleyip tadına bakarak ayarlayın. Buzdolabında üç güne kadar saklanır ve ertesi gün daha lezzetli olur.",
   "en": "Tomato acidity varies, so add the sugar gradually at the end and taste as you go. It keeps in the fridge for up to three days and tastes even better the next day."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short. The steps add up to about 80-90 minutes: 15-minute salting rest, frying the eggplant, 10 min softening onion, 10 min peppers, 5 min zucchini and garlic, then 30-40 min simm"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

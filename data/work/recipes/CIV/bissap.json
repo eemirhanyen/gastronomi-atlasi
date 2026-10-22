@@ -9,7 +9,7 @@
   "en": "A tart-sweet West African drink made from dried hibiscus calyces, served chilled. In Côte d'Ivoire it is a common refreshment on hot days, with meals and when entertaining guests."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Şekeri sıcak sıvıya eklemek daha hızlı erir; sıcaklığı azaltmak için servisten önce buzu bardağa bolca koyun, sulandırmadan kıvamı korur.",
+  "tr": "Şekeri sıcak sıvıya eklemek daha hızlı erir ve tamamen çözünmesini sağlar; daha güçlü ve ekşi bir içecek için hibiskusun süzmeden önce birkaç dakika daha demlenmesine izin verin.",
   "en": "Add the sugar while the liquid is still warm so it dissolves fully; for a stronger, more tart drink, let the hibiscus steep a few minutes longer before straining."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips do not match: the Turkish tip is about adding plenty of ice to dilute less, while the English tip is about sugar dissolving and steeping longer for a stronger drink.",
+   "time_min is 60, but the recipe includes a 10-minute simmer, a 15-minute steep, cooling, and at least 1 hour of refrigeration, so the total is well over 60 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

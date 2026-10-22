@@ -1,12 +1,12 @@
 {
  "name": {
-  "tr": "Çıtır Hindistan Cevizli Krep (Khanom Bueang)",
-  "en": "Crispy Coconut Crepe (Khanom Bueang)"
+  "tr": "Çıtır Hindistan Cevizli Krep (Khanom Bueang Tarzı)",
+  "en": "Crispy Coconut Crepe (Khanom Bueang Style)"
  },
  "native": "ขนมเบื้อง",
  "desc": {
-  "tr": "Pirinç unu ve hindistan cevizi sütünden yapılan, ince ve çıtır bir krep içine tatlı hindistan cevizi dolgusu konarak servis edilen Tayland atıştırmalığıdır. Genellikle pazar sokaklarında ve öğleden sonra ikram edilir.",
-  "en": "A Thai snack made from a thin, crisp rice flour and coconut milk crepe folded around a sweet coconut filling. It is typically sold at markets and served in the afternoon."
+  "tr": "Pirinç unu ve hindistan cevizi sütünden yapılan, ince ve çıtır bir krep içine tatlı hindistan cevizi dolgusu konarak servis edilen Tayland atıştırmalığıdır. Geleneksel versiyonunda hamur özel bir kalıpta kase şeklinde pişirilir; bu tarif ise kolay ulaşılabilir bir tavada katlanmış krep olarak uyarlanmıştır. Genellikle pazar sokaklarında ve öğleden sonra ikram edilir.",
+  "en": "A Thai snack made from a thin, crisp rice flour and coconut milk crepe folded around a sweet coconut filling. Traditionally the batter is cooked in a special cup-shaped mould; this recipe adapts it into a folded crepe made in an ordinary pan. It is typically sold at markets and served in the afternoon."
  },
  "servings": 4,
  "time_min": 60,
@@ -48,7 +48,7 @@
    "Hamuru hazırlamak için geniş bir kapta pirinç unu, tapyoka nişastası, toz şeker ve 1/4 çay kaşığı tuzu karıştırın.",
    "Yumurtayı ekleyip çırpın. Hindistan cevizi sütü ve 100 ml suyu yavaş yavaş ekleyerek pürüzsüz, akıcı bir hamur elde edin.",
    "Hamuru 15 dakika dinlendirin.",
-   "Yapışmaz bir tavayı orta-yüksek ateşte ısıtın ve 1 yemek kaşığı yağ ile hafifçe yağlayın.",
+   "Yapışmaz bir tavayı orta-yüksek ateşte ısıtın ve 1 yemek kaşığı yağı tavaya sürün.",
    "Bir kepçe hamuru tavaya dökün ve tavayı hızlıca döndürerek yaklaşık 12-14 cm çapında çok ince bir tabaka oluşturun.",
    "Kenarları kalkıp çıtır hale gelene ve alt yüzey altın rengine dönene kadar yaklaşık 2-3 dakika pişirin. Hamuru çevirmeyin.",
    "Kreplerin ortasına yaklaşık 1 tatlı kaşığı soğumuş dolguyu yerleştirin ve krepi ikiye katlayın. Sıcakken kıvrımını kapatın.",
@@ -61,7 +61,7 @@
    "For the batter, whisk the rice flour, tapioca starch, caster sugar and 1/4 tsp salt together in a large bowl.",
    "Add the egg and whisk. Gradually stir in the coconut milk and 100 ml water to make a smooth, pourable batter.",
    "Rest the batter for 15 minutes.",
-   "Heat a non-stick pan over medium-high heat and lightly grease it with 1 tablespoon of the oil.",
+   "Heat a non-stick pan over medium-high heat and grease it with 1 tablespoon of the oil.",
    "Pour a ladleful of batter into the pan and quickly swirl it to form a very thin layer about 12-14 cm across.",
    "Cook for about 2-3 minutes, without flipping, until the edges lift and turn crisp and the base is golden.",
    "Place about 1 teaspoon of the cooled filling in the centre of the crepe and fold it in half. Press the edges together while still warm.",
@@ -73,5 +73,14 @@
   "tr": "Hamur ne kadar ince olursa krep o kadar çıtır olur; tavayı çok sıcak tutarken hızlı döndürün ve kreplerin üst yüzeyine dokunmadan pişirin.",
   "en": "The thinner the batter, the crisper the crepe: swirl quickly and keep the heat steady so the edges crisp without burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Khanom bueang is traditionally made in a special cast-iron cup-shaped pan, which forms a bowl-shaped crisp shell. The recipe describes a folded flat crepe without mentioning this, so the traditional t",
+   "The Turkish step 6 says 'hafifçe yağlayın' (lightly grease) with 1 tablespoon of oil, which is a slightly inconsistent amount for 'light' greasing. Minor."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

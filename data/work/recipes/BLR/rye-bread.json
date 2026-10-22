@@ -13,29 +13,31 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "400 g çavdar unu (koyu veya tam tahıllı)",
+   "350 g çavdar unu (koyu veya tam tahıllı)",
    "150 g buğday unu",
+   "100 g çavdar ekşi mayası (zakvaska)",
    "7 g kuru maya (1 paket)",
    "10 g tuz",
    "20 g koyu pekmez veya sıvı bal",
    "5 g karaman kimyonu (kimyon tohumu)",
-   "350 ml ılık su (yaklaşık 35 °C)",
+   "320 ml ılık su (yaklaşık 35 °C)",
    "15 ml sıvı yağ (kalıp için)"
   ],
   "en": [
-   "400 g rye flour (dark or wholegrain)",
+   "350 g rye flour (dark or wholegrain)",
    "150 g wheat flour",
+   "100 g rye sourdough starter (zakvaska)",
    "7 g dry yeast (1 sachet)",
    "10 g salt",
    "20 g dark molasses or liquid honey",
    "5 g caraway seeds",
-   "350 ml warm water (about 35 °C)",
+   "320 ml warm water (about 35 °C)",
    "15 ml vegetable oil (for the tin)"
   ]
  },
  "steps": {
   "tr": [
-   "Ilık suyun içinde pekmezi veya balı ve kuru mayayı eritin, 10 dakika köpürmesini bekleyin.",
+   "Ilık suyun içinde pekmezi veya balı, kuru mayayı ve ekşi mayayı eritin, 10 dakika köpürmesini bekleyin.",
    "Büyük bir kapta çavdar unu, buğday unu, tuz ve kimyon tohumunu karıştırın.",
    "Maya karışımını un karışımının üzerine dökün ve kaşıkla yapışkan bir hamur elde edene kadar karıştırın.",
    "Islak ellerle hamuru 8-10 dakika yoğurun; çavdar hamuru buğdaydan daha yapışkandır, bu normaldir.",
@@ -46,7 +48,7 @@
    "Ekmeğin altından tıklatınca içi boş ses veriyorsa pişmiştir. Fırından çıkarıp tamamen soğuyana kadar, yaklaşık 2 saat, bekletin."
   ],
   "en": [
-   "Dissolve the molasses or honey and the dry yeast in the warm water, then leave for 10 minutes until frothy.",
+   "Dissolve the molasses or honey, the dry yeast and the sourdough starter in the warm water, then leave for 10 minutes until frothy.",
    "In a large bowl, mix the rye flour, wheat flour, salt and caraway seeds.",
    "Pour the yeast mixture over the flour and stir with a spoon until a sticky dough forms.",
    "With wet hands, knead the dough for 8–10 minutes; rye dough is stickier than wheat dough, which is normal.",
@@ -61,5 +63,13 @@
   "tr": "Çavdar hamuru kesmeyi sevmediğinden, dilimlemeden önce ekmeğin tamamen soğumasını bekleyin; sıcak ekmek hamurlu kalır.",
   "en": "Rye crumb sets as it cools, so wait until the loaf is completely cold before slicing; a warm loaf will be gummy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says the bread is slightly sour, but the recipe uses only commercial yeast and no sour starter, so the characteristic sourness (Belarusian zakvaska/sourdough) is missing. The flour and"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

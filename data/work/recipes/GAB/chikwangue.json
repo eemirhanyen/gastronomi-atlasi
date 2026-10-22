@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kişvanga (Manyok Ekmeği)",
+  "tr": "Chikwangue (Manyok Ekmeği)",
   "en": "Chikwangue (Cassava Bread)"
  },
  "native": "Lingala: chikwangue",
@@ -9,7 +9,7 @@
   "en": "A fermented cassava paste, wrapped in leaves and steamed, that is a staple starch across Gabon and the wider Congo Basin. It is usually served at lunch and dinner with fish, stews, or hot pepper sauce."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 5850,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -56,8 +56,18 @@
   ]
  },
  "tip": {
-  "tr": "Fermantasyon sırasında suyu her gün değiştirin; kokuyu ve yumuşaklığı kontrol ederek hamurun hazır olup olmadığını anlayın.",
+  "tr": "Fermantasyon sırasında suyu her gün değiştirin; kokuyu ve yumuşaklığı kontrol ederek hamurun hazır olup olmadığını anlayın. Fermentasyon, chikwangue'nin karakteristik tadını ve dokusunu veren şeydir.",
   "en": "Change the soaking water daily and check for softness and a mild sour smell; fermentation is what gives chikwangue its characteristic flavour and texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe takes 3 to 4 days of fermentation plus about 1.5 hours of steaming, so the total time is badly understated",
+   "Turkish tip omits the English sentence that fermentation gives chikwangue its characteristic flavour and texture, so the versions disagree",
+   "Turkish name 'Kişvanga' is not an established name for this dish; 'Chikwangue' is the name used in Turkish"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

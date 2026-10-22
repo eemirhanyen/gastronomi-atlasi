@@ -49,29 +49,37 @@
    "Baklayı bir tencereye alın, üzerini 5 cm su geçecek kadar su ile örtün ve kabartma tozunu ekleyin.",
    "Kaynamaya bırakın, yüzeyde biriken köpükleri alın ve ısıyı kısın.",
    "Kapağı yarım açık bırakarak baklalar çok yumuşayana kadar, yaklaşık 1,5 - 2 saat kısık ateşte pişirin; gerekirse sıcak su ekleyin.",
-   "Yumurtaları ayrı bir tencerede kaynayan suda 9 dakika haşlayın, soğuk suya alıp kabuklarını soyun ve dörde bölün.",
+   "Yumurtaları ayrı bir tencerede kaynayan suda 9 dakika haşlayın, soğuk suya alıp kabuklarını soyun ve ikiye bölün.",
    "Pişen baklanın yaklaşık üçte birini bir kepçeyle alıp ayrı bir kaba koyun ve çatalla kabaca ezin.",
    "Kalan baklayı pişirme suyuyla birlikte tencerede tutun, ezilmiş kısmı geri ekleyip tuz, ezilmiş sarımsak ve kimyonla karıştırın.",
    "Limon suyu ve 60 ml zeytinyağını ekleyin, kıvam fazla koyu olursa biraz sıcak su ilave edin.",
    "Servis kasesine alın, üzerine küp doğranmış domates, soğan, yeşil biber ve maydanozu serpin.",
-   "Dört parça yumurtayı üzerine yerleştirin, bol zeytinyağı gezdirin ve sıcak yassı ekmekle servis yapın."
+   "Dört parça yumurtayı (iki yumurtanın yarımlarını) üzerine yerleştirin, bol zeytinyağı gezdirin ve sıcak yassı ekmekle servis yapın."
   ],
   "en": [
    "Drain the soaked fava beans and rinse them well.",
    "Put the beans in a pot, cover with water by about 5 cm, and add the baking soda.",
    "Bring to a boil, skim off any foam from the surface, then reduce the heat.",
    "Keep the lid partly open and simmer gently for about 1.5 to 2 hours, until the beans are very soft; add hot water if needed.",
-   "Boil the eggs in a separate pot of water for 9 minutes, then cool them in cold water, peel and cut each into quarters.",
+   "Boil the eggs in a separate pot of water for 9 minutes, then cool them in cold water, peel and cut each into halves.",
    "Scoop out about a third of the cooked beans into a bowl and mash them roughly with a fork.",
    "Return the mashed beans to the pot with the remaining beans and cooking liquid, then stir in the salt, crushed garlic and cumin.",
    "Add the lemon juice and 60 ml olive oil; if the mixture is too thick, loosen it with a little hot water.",
    "Transfer to a serving bowl and top with the diced tomato, onion, green chili and parsley.",
-   "Arrange the egg quarters on top, drizzle generously with olive oil, and serve warm with flatbread."
+   "Arrange the four egg halves on top, drizzle generously with olive oil, and serve warm with flatbread."
   ]
  },
  "tip": {
   "tr": "Baklayı pişirmeden önce karbonat eklemek kabuklarını yumuşatır ve daha kremsi bir kıvam sağlar.",
   "en": "Adding baking soda before cooking softens the skins of the beans and gives a creamier texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Egg count mismatch: 2 eggs are cut into quarters (8 pieces), but the serving step says to arrange 'four pieces' (dört parça). Halving the eggs gives the 4 pieces the step describes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

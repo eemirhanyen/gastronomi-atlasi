@@ -23,7 +23,7 @@
    "1 adet limon"
   ],
   "en": [
-   "600 g pork loin or leg meat",
+   "600 g pork tenderloin or leg meat",
    "60 g plain flour",
    "2 eggs (about 100 g)",
    "150 g breadcrumbs",
@@ -63,5 +63,13 @@
   "tr": "Eti dövmeden önce hafif ıslatılmış oklava kullanın; bu, etin yapışmasını önler ve kaplamanın daha düzgün kalmasını sağlar.",
   "en": "Dampen the rolling pin before pounding: this stops the meat sticking and helps the coating stay even."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient 'pork loin' does not match Turkish 'domuz bonfile' (bonfile is tenderloin, a different cut)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,15 +16,17 @@
    "200 g ince mısır unu (mealie meal)",
    "50 g sorgum malt unu (yoksa 50 g sorgum unu)",
    "1,5 L su (500 ml soğuk, 750 ml sıcak, 250 ml ılık)",
-   "250 ml önceki partiden kalan motoho (ilk seferde 5 g kuru maya, 250 ml ılık suda çözülmüş)",
-   "50 g toz şeker (isteğe bağlı)"
+   "250 ml önceki partiden kalan motoho (ilk seferde 5 g kuru maya, 250 ml ılık suda çözülmüş; bu 250 ml ılık su ayrıca eklenir)",
+   "50 g toz şeker (isteğe bağlı)",
+   "1 L soğuk su (servis öncesi seyreltmek için)"
   ],
   "en": [
    "200 g fine maize meal (mealie meal)",
    "50 g sorghum malt flour (or 50 g sorghum flour)",
    "1.5 L water (500 ml cold, 750 ml hot, 250 ml lukewarm)",
-   "250 ml motoho from the previous batch (for the first batch, 5 g dry yeast dissolved in 250 ml lukewarm water)",
-   "50 g caster sugar (optional)"
+   "250 ml motoho from the previous batch (for the first batch, 5 g dry yeast dissolved in 250 ml lukewarm water, which is additional to the 1.5 L)",
+   "50 g caster sugar (optional)",
+   "1 L cold water (for diluting before serving)"
   ]
  },
  "steps": {
@@ -37,7 +39,7 @@
    "Önceki partiden kalan motohoyu (ya da hazırladığınız maya karışımını) lapaya ekleyin ve tahta kaşıkla iyice karıştırın.",
    "Kabı temiz bir bezle veya kapakla örtün ve 25–30 °C'lik sıcak bir yerde 12–24 saat fermente olması için bekletin. Yüzeyde köpük oluşmalı ve hafif ekşi bir koku almalıdır.",
    "Fermentasyon tamamlanınca içeceği ince bir süzgeçten ya da temiz bir bezden süzün. Yoğun kısmı kenara ayırıp bir sonraki parti için saklayın.",
-   "Süzülen sıvıyı 1 L su ile seyreltin, buzdolabında soğutup servis yapın."
+   "Süzülen sıvıyı 1 L soğuk suyla seyreltin, buzdolabında soğutup servis yapın."
   ],
   "en": [
    "Mix the maize meal with 500 ml cold water until it forms a smooth, lump-free paste.",
@@ -48,12 +50,21 @@
    "Add the motoho from the previous batch (or the activated yeast mixture) to the porridge and stir well with a wooden spoon.",
    "Cover the container with a clean cloth or lid and leave it at 25–30 °C for 12–24 hours to ferment. A foam should form on the surface and the drink should smell slightly sour.",
    "When fermentation is complete, strain the drink through a fine sieve or clean cloth. Set aside the thick residue to use as the starter for the next batch.",
-   "Dilute the strained liquid with about 1 L water, chill it in the refrigerator, and serve."
+   "Dilute the strained liquid with 1 L cold water, chill it in the refrigerator, and serve."
   ]
  },
  "tip": {
   "tr": "Fermentasyon sıcaklığı ne kadar sabit olursa, içecek o kadar dengeli ekşilik kazanır; soğuk bir mutfakta süreyi 24 saate kadar uzatın.",
   "en": "Keep the fermentation temperature steady: a cold kitchen slows fermentation, so extend the time up to 24 hours rather than adding more starter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 9 adds 1 L of water for dilution, but no water for dilution appears in the ingredient list (tr and en).",
+   "The first-batch yeast is dissolved in 250 ml lukewarm water, but that water is not counted in the ingredient quantities. The 1.5 L breakdown already uses its 250 ml for the sorghum malt in step 4."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

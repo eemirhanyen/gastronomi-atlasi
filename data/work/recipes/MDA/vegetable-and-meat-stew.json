@@ -6,10 +6,10 @@
  "native": "Ghiveci",
  "desc": {
   "tr": "Moldova'da et, patates, havuç ve biberin yavaşça pişirildiği, sıcak servis edilen geleneksel bir yahni. Genellikle ev yemeklerinde, özellikle hafta sonu öğle sofralarında ve misafir ağırlanan günlerde yenir.",
-  "en": "A slow-cooked stew of meat and seasonal vegetables, served hot. In Moldova it is a everyday family dish, often prepared for weekend lunches and when guests visit."
+  "en": "A slow-cooked stew of meat and seasonal vegetables, served hot. In Moldova it is an everyday family dish, often prepared for weekend lunches and when guests visit."
  },
  "servings": 4,
- "time_min": 100,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -74,8 +74,20 @@
   ]
  },
  "tip": {
-  "tr": "Sosun kıvamı için patatesleri tencereye eklemeden önce bir miktar pişirme suyuyla birlikte ezerek karıştırabilirsiniz; geleneksel tarifte ciğerli kıvam tercih edilir ama tavuk ya da domuz eti de iyi bir alternatiftir.",
+  "tr": "Sosun kıvamı için servisten önce birkaç patates küpünü tencere kenarında ezip sosa karıştırabilirsiniz. Dana eti yerine tavuk budu veya domuz omuzu da iyi bir alternatiftir; tavuk kullanılırsa pişirme süresini yaklaşık 35 dakikaya indirin.",
   "en": "For a thicker sauce, mash a few potato cubes against the pot side before serving. Chicken thighs or pork shoulder work well instead of beef, reducing the simmering time to about 35 minutes for chicken."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contains the nonsensical phrase 'ciğerli kıvam' (liver-like consistency), which is wrong for describing sauce thickness.",
+   "Turkish and English tips disagree on method: English says to mash potato cubes against the pot side before serving, while Turkish says to do it before adding the potatoes to the pot.",
+   "Turkish tip omits the English note that chicken reduces simmering time to about 35 minutes.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'.",
+   "time_min (100) is lower than the sum of the listed steps (roughly 110 minutes including prep, browning, simmering and resting)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

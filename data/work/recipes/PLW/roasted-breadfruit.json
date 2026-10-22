@@ -9,7 +9,7 @@
   "en": "In Palau, breadfruit (kemai) has traditionally been roasted over embers or fire and served as a starchy side alongside family meals and local seafood dishes. It is eaten warm, with a mildly sweet, floury texture."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -25,25 +25,35 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200 °C'ye ısıtın ve fırın rafını ortaya yerleştirin. Alternatif olarak közde pişirmek isterseniz kömürleri iyice közleşmiş hale getirin.",
+   "Fırını 200 °C'ye ısıtın ve fırın rafını ortaya yerleştirin. Fırın tepsisine alüminyum folyo serin. Alternatif olarak közde pişirmek isterseniz kömürleri iyice közleşmiş hale getirin.",
    "Ekmek ağacı meyvelerini yıkayıp kurulayın. Sap kısmını bir bıçakla hafifçe kesip kenarlarını temizleyin.",
-   "Meyveleri doğrudan fırın rafına veya kor üzerine yerleştirin. Kabuk her yerinde kararıp yumuşayana ve bir çubukla delindiğinde kolayca girene kadar, yaklaşık 50-60 dakika boyunca her 15 dakikada bir çevirerek pişirin.",
+   "Meyveleri fırın tepsisine veya kor üzerine yerleştirin. Kabuk her yerinde kararıp yumuşayana ve bir çubukla delindiğinde kolayca girene kadar, yaklaşık 50-60 dakika boyunca her 15 dakikada bir çevirerek pişirin.",
    "Pişen meyveleri sıcakken tutarak kabuğunu soyun ve ortasındaki sert çekirdek kısmını çıkarın. Eller yapışkan olabileceği için bu işlemi yaparken elinizi hindistancevizi yağıyla hafifçe yağlayın.",
    "Meyve etini kalın dilimler veya kama şeklinde parçalar halinde kesin. Parçaları bir kaseye alın, kalan hindistancevizi yağını ve tuzu ekleyip nazikçe karıştırın.",
    "Sıcak servis yapın."
   ],
   "en": [
-   "Preheat the oven to 200 °C and place a rack in the middle. If you prefer to cook over charcoal, build a bed of embers until they are fully glowing.",
+   "Preheat the oven to 200 °C and place a rack in the middle. Line a baking tray with foil. If you prefer to cook over charcoal, build a bed of embers until they are fully glowing.",
    "Wash the breadfruits and pat them dry. Lightly trim the stem end with a knife.",
-   "Place the breadfruits directly on the oven rack or on the embers. Roast for about 50-60 minutes, turning every 15 minutes, until the skin is charred all over and a skewer slides in easily.",
+   "Place the breadfruits on the baking tray or on the embers. Roast for about 50-60 minutes, turning every 15 minutes, until the skin is charred all over and a skewer slides in easily.",
    "While still warm, peel off the charred skin and cut out the tough central core. Lightly oil your hands with coconut oil first, as the sap is sticky.",
    "Slice the flesh into thick slices or wedges. Place them in a bowl, add the remaining coconut oil and the salt, and toss gently.",
    "Serve warm."
   ]
  },
  "tip": {
-  "tr": "Ekmek ağacının sütlü özü ellere ve bıçağa yapışır; bıçağı ve ellerinizi her kullanımdan önce bitkisel yağla yağlamak işinizi kolaylaştırır.",
-  "en": "Breadfruit sap is very sticky. Oil your knife and hands before handling the fruit, and wipe them with a little oil whenever they become tacky."
+  "tr": "Ekmek ağacının sütlü özü ellere ve bıçağa yapışır; bıçağı ve ellerinizi her kullanımdan önce hindistancevizi yağıyla yağlamak işinizi kolaylaştırır.",
+  "en": "Breadfruit sap is very sticky. Oil your knife and hands with coconut oil before handling the fruit, and wipe them with a little oil whenever they become tacky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Whole breadfruit placed directly on the oven rack would drip and mess the oven; a tray is needed (EN and TR).",
+   "time_min of 60 is too short: about 15 min prep plus 50-60 min roasting plus cooling and peeling comes to roughly 75 min.",
+   "The tip says to oil the knife and hands with 'vegetable oil' (bitkisel yağ), but the recipe only uses coconut oil."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

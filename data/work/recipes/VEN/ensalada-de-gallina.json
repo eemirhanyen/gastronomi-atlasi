@@ -49,8 +49,8 @@
   "tr": [
    "Tavuğu, yarım soğanı, sarımsağı, defne yaprağını ve tuzu bir tencereye koyun. Üzerine suyu ekleyip kaynatın, yüzeyde oluşan köpüğü alın.",
    "Ateşi kısın ve tavuk tamamen pişene kadar, yaklaşık 20-25 dakika kaynatın. İç kısmı 74°C'ye ulaşmalıdır.",
-   "Tavuğu sıcak suyundan çıkarıp soğumaya bırakın. Soğuyunca çatal yardımıyla lif lif ayırın. Soğan, sarımsak ve defne yaprağını suyla birlikte atın.",
-   "Patatesleri ve havuçları küçük küp doğrayın. Tavuk suyunun bir kısmını ya da tuzlu suyu kaynatıp patates ve havucu 10-12 dakika, hafif dişi kalana kadar pişirin.",
+   "Tavuğu sıcak suyundan çıkarıp soğumaya bırakın. Soğuyunca çatal yardımıyla lif lif ayırın. Soğan, sarımsak ve defne yaprağını çıkarıp atın; suyu kenara alın.",
+   "Patatesleri ve havuçları küçük küp doğrayın. Ayırdığınız tavuk suyunun bir kısmını ya da tuzlu suyu kaynatıp patates ve havucu 10-12 dakika, hafif dişi kalana kadar pişirin.",
    "Bezelyeyi son 2 dakika kala ekleyin. Sebzeleri süzün ve tamamen soğumaları için bekletin.",
    "Mayonezi, limon suyu ve karabiberle bir kasede iyice karıştırın.",
    "Büyük bir kapta tavuğu, sebzeleri, zeytinleri ve turşuyu birleştirin. Üzerine mayonezli karışımı ekleyip yavaşça karıştırın. Tadına bakıp gerekirse tuz ekleyin.",
@@ -59,8 +59,8 @@
   "en": [
    "Put the chicken, half the onion, the garlic clove, bay leaf and salt into a pot. Add the water, bring to the boil and skim off any foam.",
    "Lower the heat and simmer for about 20-25 minutes until the chicken is fully cooked; the thickest part should reach 74°C.",
-   "Lift the chicken out of the broth and let it cool. Once cool enough to handle, shred it into strands with two forks. Discard the onion, garlic and bay leaf.",
-   "Dice the potatoes and carrots into small cubes. In the strained broth or lightly salted water, simmer them for 10-12 minutes until just tender but still firm.",
+   "Lift the chicken out of the broth and let it cool. Once cool enough to handle, shred it into strands with two forks. Discard the onion, garlic and bay leaf, and keep the broth.",
+   "Dice the potatoes and carrots into small cubes. In a portion of the strained chicken broth or lightly salted water, simmer them for 10-12 minutes until just tender but still firm.",
    "Add the peas for the last 2 minutes of cooking. Drain the vegetables and leave them to cool completely.",
    "In a bowl, mix the mayonnaise with the lemon juice and black pepper until smooth.",
    "In a large bowl, combine the shredded chicken, cooled vegetables, sliced olives and diced gherkins. Add the mayonnaise mixture and fold gently. Taste and add salt if needed.",
@@ -71,5 +71,14 @@
   "tr": "Patatesleri ve havucu tavuk suyunda pişirirseniz salata daha lezzetli olur; mayonezi servisten hemen önce karıştırmak kıvamını korur.",
   "en": "Cooking the potatoes and carrots in the strained chicken broth adds flavour; fold in the mayonnaise just before serving to keep the texture creamy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says to discard the onion, garlic and bay leaf 'along with the water' (suyla birlikte atın), which would throw out the broth that step 4 uses for the potatoes and carrots. The English s",
+   "The English step 4 refers to 'the strained broth', but no step tells the cook to strain the broth. Step 3 should say to keep the broth."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

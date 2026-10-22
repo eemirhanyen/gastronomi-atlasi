@@ -9,7 +9,7 @@
   "en": "A traditional Monegasque fish stew of air-dried stockfish (stoccafisso) cooked slowly with potatoes, onions, tomatoes, pine nuts and olives. It is eaten mainly in winter and at festive family tables."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Morinayı bekletirken suyunu düzenli değiştirin ve asla kaynatmayın; aksi halde et sertleşir ve tatlı acılaşır.",
+  "tr": "Morinayı bekletirken suyunu düzenli değiştirin ve asla kaynatmayın; aksi halde et sertleşir ve acı bir tat alabilir.",
   "en": "Change the soaking water daily and never let the stockfish boil; boiling makes the flesh tough and can make the dish taste bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the active cooking steps add up to about 80 minutes (10 + 15 + 2 + 10 + 15 + 20 + 10), not counting soaking.",
+   "Turkish tip wording 'tatlı acılaşır' is unnatural; 'acı bir tat alabilir' matches the English meaning better."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

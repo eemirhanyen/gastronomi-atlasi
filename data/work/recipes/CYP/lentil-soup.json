@@ -24,7 +24,7 @@
    "1 defne yaprağı",
    "1500 ml su",
    "1 yemek kaşığı limon suyu",
-   "Tuz ve karabiber",
+   "Tuz ve karabiber (tadına göre)",
    "Servis için 1 yemek kaşığı kırmızı şarap sirkesi",
    "Servis için sızma zeytinyağı"
   ],
@@ -40,7 +40,7 @@
    "1 bay leaf",
    "1500 ml water",
    "1 tbsp lemon juice",
-   "Salt and black pepper",
+   "Salt and black pepper (to taste)",
    "1 tbsp red wine vinegar, for serving",
    "Extra virgin olive oil, for serving"
   ]
@@ -68,8 +68,17 @@
   ]
  },
  "tip": {
-  "tr": "Mercimeğin tuzu geç eklenmesi daha hızlı yumuşamasını sağlar; tuzu pişirmenin sonunda ekleyin. Sirkeyi kaseye koyarken az miktarda kullanın, tadı baskın olmamalıdır.",
-  "en": "Add the salt near the end of cooking, not at the start, so the lentils soften evenly. Use the vinegar sparingly at the table, as it should accent the soup rather than dominate it."
+  "tr": "Tuzu pişirmenin sonunda ekleyin; böylece tadı kontrol edip ayarlamak kolaylaşır. Sirkeyi kaseye koyarken az miktarda kullanın, tadı baskın olmamalıdır.",
+  "en": "Add the salt near the end of cooking so you can taste and adjust it. Use the vinegar sparingly at the table, as it should accent the soup rather than dominate it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt and black pepper have no quantity in either language (\"to taste\" is needed).",
+   "The tip claims that adding salt late makes lentils soften faster. That is not well supported for lentils, so the tip should give only the practical reason for adding salt near the end."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

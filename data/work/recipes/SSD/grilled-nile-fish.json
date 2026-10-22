@@ -49,8 +49,8 @@
    "Bir kasede 40 ml limon suyu, ezilmiş sarımsak, acı biber, kimyon, tatlı kırmızı biber, karabiber, 6 g tuz ve 30 ml yağı karıştırın.",
    "Marinatı balıkların her iki yüzüne ve çiziklerin içine sürün. Oda sıcaklığında 30 dakika ya da buzdolabında 1 saat bekletin.",
    "Salatayı hazırlamak için soğan, domates ve kişnişi bir kasede toplayın. Kalan 20 ml limon suyu ve 2 g tuzla tatlandırıp karıştırın.",
-   "Izgarayı ya da tavayı orta-yüksek ısıda kızdırın. Izgara ızgarasını 15 ml yağla iyice yağlayın.",
-   "Balıkları her iki tarafında 5-6 dakika, et ayrılmaya başlayıncaya ve iç sıcaklığı 60 °C'ye ulaşıncaya kadar pişirin. Pişirme sırasında kalan yağı üzerlerine gezdirin.",
+   "Izgarayı ya da tavayı orta-yüksek ısıda kızdırın. Izgara rafını 15 ml yağla iyice yağlayın.",
+   "Balıkları her iki tarafında 5-6 dakika, et ayrılmaya başlayıncaya ve iç sıcaklığı 63 °C'ye ulaşıncaya kadar pişirin. Pişirme sırasında kalan yağı üzerlerine gezdirin.",
    "Balıkları sıcak servis tabağına alın, yanında salata ve yassı ekmekle servis edin."
   ],
   "en": [
@@ -59,7 +59,7 @@
    "Rub the marinade over both sides of the fish and into the cuts. Leave for 30 minutes at room temperature or 1 hour in the fridge.",
    "For the salad, combine the onion, tomato and coriander in a bowl. Season with the remaining 20 ml lemon juice and 2 g salt, and toss.",
    "Heat the grill or grill pan over medium-high heat. Brush the grate with 15 ml of the oil.",
-   "Grill the fish for 5-6 minutes per side, brushing with the remaining oil as it cooks, until the flesh flakes easily and the centre reaches 60°C.",
+   "Grill the fish for 5-6 minutes per side, brushing with the remaining oil as it cooks, until the flesh flakes easily and the centre reaches 63°C.",
    "Transfer the fish to a warm serving plate and serve immediately with the salad and flatbread."
   ]
  },
@@ -67,5 +67,14 @@
   "tr": "Balığı ızgaraya koymadan önce ızgarayı çok iyi ısıtın ve yağlayın; böylece et yapışmaz ve dilimler bozulmadan çevrilebilir.",
   "en": "Heat the grill well and oil the grate before adding the fish; this stops the flesh sticking so the pieces turn without breaking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Final internal temperature of 60 °C is below the commonly recommended 63 °C (145 °F) for fish, a food-safety concern. Raised to 63 °C in both languages.",
+   "Turkish step 5 says 'Izgara ızgarasını', a clumsy repetition. Changed to 'Izgara rafını', the natural term for the grill grate."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

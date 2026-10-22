@@ -21,7 +21,7 @@
    "1 tatlı kaşığı öğütülmüş tarçın",
    "1/2 tatlı kaşığı öğütülmüş muskat",
    "1 tatlı kaşığı vanilya özü",
-   "1 tatlı kaşığı tuz (yarım çay kaşığı)",
+   "1/2 tatlı kaşığı tuz",
    "Tepsiyi yağlamak için 1 yemek kaşığı tereyağı"
   ],
   "en": [
@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 180°C'ye ısıtın. 20 x 20 cm'lik bir fırın tepsisinin tabanını ve kenarlarını tereyağıyla yağlayıp pişirme kağıdıyla kaplayın.",
+   "Fırını 180°C'ye ısıtın. 20 x 20 cm'lik bir fırın tepsisinin tabanını ve kenarlarını tereyağıyla yağlayıp tabanını pişirme kağıdıyla kaplayın.",
    "Manyoğu soyun, ince rendeleyin ve temiz bir bez içinde iyice sıkarak fazla suyunu alın.",
    "Sıktığınız rendelenmiş manyoğu geniş bir kaseye alın. Şeker, tarçın, muskat ve tuzu ekleyip karıştırın.",
    "Eritilmiş tereyağı, hindistancevizi sütü ve vanilya özünü ekleyerek pürüzsüz bir hamur elde edin.",
@@ -63,5 +63,14 @@
   "tr": "Manyoğu ne kadar iyi sıkarsanız pone o kadar yoğun ve kesilebilir olur; sıkılmamış rendeli manyok hamuru ıslak ve dağılgan yapar.",
   "en": "The drier the grated cassava, the firmer and cleaner the slices; squeeze it thoroughly, and let the pone cool fully before cutting."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish salt amount is \"1 tatlı kaşığı tuz (yarım çay kaşığı)\", which is self-contradictory and differs from the English \"1/2 tsp salt\". Corrected to 1/2 tatlı kaşığı.",
+   "Turkish step 1 says to grease the base and sides and then cover with baking paper, while the English says to grease and line the base only. Aligned the Turkish with the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

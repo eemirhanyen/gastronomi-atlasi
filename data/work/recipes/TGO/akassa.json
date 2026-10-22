@@ -5,11 +5,11 @@
  },
  "native": "akassa",
  "desc": {
-  "tr": "Togo'da, özellikle sabah kahvaltısında yenen, mısır unundan doğal yolla mayalanmış, muz yapraklarına sarılarak buharda pişirilen yumuşak bir hamur. Tatlı sütle ya da hafif tatlandırılmış fıstık sosuyla servis edilir.",
-  "en": "A breakfast staple in Togo, made from naturally fermented maize flour cooked into a soft, sticky paste, shaped and steamed in banana leaves. It is commonly served with warm sweetened milk or a light peanut sauce."
+  "tr": "Togo'da, özellikle sabah kahvaltısında yenen, mısır unundan doğal yolla mayalanmış, muz yapraklarına sarılarak buharda pişirilen yumuşak bir hamur. Tatlı sütle servis edilir.",
+  "en": "A breakfast staple in Togo, made from naturally fermented maize flour cooked into a soft, sticky paste, shaped and steamed in banana leaves. It is commonly served with warm sweetened milk."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 3000,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -33,7 +33,7 @@
  },
  "steps": {
   "tr": [
-   "Mısırununu büyük bir kapta 1,2 l suyla iyice karıştırın, üzerini örtüp oda sıcaklığında (25–30 °C) 48 saat mayalanmaya bırakın.",
+   "Mısır unu büyük bir kapta 1,2 l suyla iyice karıştırın, üzerini örtüp oda sıcaklığında (25–30 °C) 48 saat mayalanmaya bırakın.",
    "Mayalanan karışımın üstünde biriken sıvıyı dikkatlice dökün; dipte çöken nişastalı kısmı kaseye alın.",
    "Muz yapraklarını kuru bir bezle silin, yaklaşık 20 cm'lik parçalara kesin ve sıcak suyla kısa süre haşlayarak yumuşatın.",
    "Nişastalı kısmı 500 ml taze suyla ve tuzla bir tencereye alın, sürekli karıştırarak orta ateşte yaklaşık 10 dakika pişirin; karışım koyulaşıp topaklı bir hamur kıvamına gelince ocaktan alın.",
@@ -57,5 +57,15 @@
   "tr": "Mayalanma sırasında odanın çok soğuk olmamasına dikkat edin; hamur ekşi kokuyorsa fermantasyon iyi gitmiştir. Muz yaprağı bulamazsanız alüminyum folyo kullanabilirsiniz.",
   "en": "Keep the fermenting bowl somewhere warm; a faint sour smell means fermentation is working well. If banana leaves are unavailable, aluminium foil works as a substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not reflect the 48-hour fermentation step, so the total time is misleading",
+   "The description mentions a peanut sauce service, but no peanut sauce appears in the ingredients or steps (EN and TR)",
+   "Typo in Turkish step 1: 'Mısırununu' should be 'Mısır unu'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

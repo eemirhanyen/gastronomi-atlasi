@@ -9,7 +9,7 @@
   "en": "Shubat is a traditional Kazakh drink of fermented camel milk, long associated with nomadic life. It is served chilled and sour, lightly fizzy, especially in summer and to guests."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1080,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -45,5 +45,13 @@
   "tr": "Kültür gaz çıkardığı için şişeyi günde bir-iki kez hafifçe açıp gazı alın; sıkı kapalı şişe patlayabilir.",
   "en": "The culture releases gas, so open the bottle briefly once or twice a day to vent it; a tightly sealed bottle can burst."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't match the steps: fermentation alone takes 12–16 hours, plus at least 2 hours of chilling, so total time is about 14–18 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

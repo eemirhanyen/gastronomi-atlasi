@@ -9,7 +9,7 @@
   "en": "A slow-simmered chicken dish made with coconut milk and toasted spices, eaten at lunch and dinner across Sri Lanka. It is usually served with boiled rice and other curries."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -32,7 +32,7 @@
    "2 yeşil biber, boyuna yarılmış",
    "250 ml ince hindistan cevizi sütü",
    "150 ml kalın hindistan cevizi sütü",
-   "200 ml su"
+   "200 ml su (ayrıca macun için 1 yemek kaşığı su)"
   ],
   "en": [
    "900 g bone-in chicken (thighs and drumsticks, cut into pieces)",
@@ -54,7 +54,7 @@
    "2 green chillies, slit lengthways",
    "250 ml thin coconut milk",
    "150 ml thick coconut milk",
-   "200 ml water"
+   "200 ml water (plus 1 tbsp for the spice paste)"
   ]
  },
  "steps": {
@@ -91,5 +91,14 @@
   "tr": "Baharatları kavurmak aromayı belirgin şekilde artırır; hindistan cevizi sütünü ise kaynatmadan pişirin, aksi halde yağlanıp ayrışır.",
   "en": "Toasting the spices brings out far more aroma, and keeping the coconut milk below a boil prevents the sauce from splitting."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 uses 1 tbsp (1 yemek kaşığı) of water for the spice paste, but the ingredient list only has 200 ml water, which is used later in step 9. The paste water is not listed separately.",
+   "time_min of 60 is too short. Marinating (15 min), toasting, frying the aromatics and onions (8-10 min), simmering (25 min plus 8-10 min), and resting (10 min) add up to roughly 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

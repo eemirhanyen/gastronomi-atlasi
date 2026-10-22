@@ -6,10 +6,10 @@
  "native": "Qassatat",
  "desc": {
   "tr": "Malta'da kahvaltıda, öğüntü arasında ve kutlamalarda yenen, ricotta peynirli ve kıvrım şeklinde kapatılmış küçük bir hamur işidir. Sokak fırınlarından ve pastanelerden de sıcak olarak alınır.",
-  "en": "A small, folded pastry filled with sweetened-savoury ricotta, eaten in Malta at breakfast, as a snack, and at celebrations. It is sold hot from village bakeries and pastizzerias across the islands."
+  "en": "A small, folded pastry filled with savoury ricotta, eaten in Malta at breakfast, as a snack, and at celebrations. It is sold hot from village bakeries and pastizzerias across the islands."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -43,7 +43,7 @@
   "tr": [
    "Hamur için unu ve tuzu geniş bir kasede karıştırın. Ortasında bir çukur açıp ılık suyu, zeytinyağını ve yumuşak tereyağını ekleyin.",
    "Malzemeleri elinizle 5-7 dakika yoğurun, hamur pürüzsüz ve elastik olana kadar devam edin. Kaseyi örtüp 30 dakika dinlendirin.",
-   "Dinlenen hamur yoğrulurken dolguyu hazırlayın. Ricotta, 1 yumurta, rendelenmiş pecorino, tuz ve karabiberi bir kapta çatalla iyice karıştırın. Dolguyu bir kenara alın.",
+   "Hamur dinlenirken dolguyu hazırlayın. Ricotta peynirini bir süzgeçte 15 dakika süzün, ardından bir kapta 1 yumurta, rendelenmiş pecorino, tuz ve karabiberle çatalla iyice karıştırın. Dolguyu bir kenara alın.",
    "Fırını 200°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı yuvarlayıp elinizle ya da oklava ile yaklaşık 12 cm çapında, ince bir yuvarlak açın.",
    "Her yuvarlağın bir yarısına bir yemek kaşığı dolgu koyun, kenarlarını ıslatıp diğer yarısıyla kapatarak yarım ay şekli verin. Kenarlarını çatalla sıkıca bastırarak kapatın.",
@@ -54,7 +54,7 @@
   "en": [
    "For the dough, mix the flour and salt in a large bowl. Make a well in the centre and add the lukewarm water, olive oil and softened butter.",
    "Knead everything by hand for 5 to 7 minutes until the dough is smooth and elastic. Cover the bowl and rest the dough for 30 minutes.",
-   "While the dough rests, prepare the filling. In a small bowl, mix the ricotta, 1 egg, grated pecorino, salt and black pepper with a fork until evenly combined. Set aside.",
+   "While the dough rests, prepare the filling. Drain the ricotta in a sieve for 15 minutes, then in a small bowl mix it with 1 egg, grated pecorino, salt and black pepper using a fork until evenly combined. Set aside.",
    "Preheat the oven to 200°C and line a baking tray with baking paper.",
    "Divide the dough into 8 equal pieces. Roll each piece into a ball, then flatten and roll out into a thin round about 12 cm across.",
    "Spoon about 1 tablespoon of filling onto one half of each round, brush the edges lightly with water, fold over the other half to make a half-moon, and press the edges firmly together with a fork.",
@@ -67,5 +67,16 @@
   "tr": "Dolgunun sızmaması için kenarları çatalla sıkıca kapatın ve ricotta suyunu önlemek için peyniri pişirmeden önce bir süzgeçte 15 dakika süzün.",
   "en": "Drain the ricotta in a sieve for 15 minutes before mixing so the filling stays thick and does not leak during baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says \"Dinlenen hamur yoğrulurken\" (while the resting dough is being kneaded), which contradicts the resting step and the English version.",
+   "The tip says to drain the ricotta for 15 minutes, but no step includes draining.",
+   "The English description says \"sweetened-savoury\" ricotta, but the recipe contains no sugar and the Turkish description does not mention sweetness.",
+   "time_min of 60 is too low: 7 min kneading, 30 min rest, filling and shaping, and 25 min baking add up to roughly 80 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

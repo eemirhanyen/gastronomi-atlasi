@@ -5,16 +5,16 @@
  },
  "native": "боза",
  "desc": {
-  "tr": "Darıdan veya tahıldan yapılan, hafif ekşi ve yoğun kıvamlı, mayalı bir içecek. Bulgaristan ve Türkiye'de özellikle kış aylarında, kalabalık mahalle pazarlarında ve kahvehanelerde soğuk olarak servis edilir.",
+  "tr": "Darıdan yapılan, hafif ekşi ve yoğun kıvamlı, mayalı bir içecek. Bulgaristan ve Türkiye'de özellikle kış aylarında, kalabalık mahalle pazarlarında ve kahvehanelerde soğuk olarak servis edilir.",
   "en": "A thick, lightly sour fermented drink made from millet. In Bulgaria and Turkey it is served cold, especially in winter, from street stalls and neighbourhood tea houses."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1200,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "200 g bütün darı, yıkanmış",
-   "1,3 l su",
+   "1,5 l su",
    "120 g toz şeker",
    "5 g kuru maya (ya da önceki partiden 100 ml boza)",
    "30 g mısır nişastası",
@@ -24,7 +24,7 @@
   ],
   "en": [
    "200 g whole millet, rinsed",
-   "1.3 l water",
+   "1.5 l water",
    "120 g caster sugar",
    "5 g dried yeast (or 100 ml boza from a previous batch)",
    "30 g cornstarch",
@@ -35,7 +35,7 @@
  },
  "steps": {
   "tr": [
-   "Yıkanmış darıyı 1 litre suyla birlikte orta ateşte, kısık ateşte yaklaşık 45 dakika yumuşayana kadar pişirin.",
+   "Yıkanmış darıyı 1 litre suyla birlikte orta-kısık ateşte yaklaşık 45 dakika yumuşayana kadar pişirin.",
    "Ocağı kapatın, karışımı biraz soğutun ve hâlâ ılıkken blenderdan geçirerek pürüzsüz bir püre elde edin.",
    "Püreyi ince elekten süzün, kalan 300 ml suyla seyreltin ve şekeri ekleyip karıştırarak eritin.",
    "Karışımı yaklaşık 35-40 °C'ye kadar soğutun. Mayayı 100 ml ılık suda çözün ve karışıma ekleyin (önceki partiden boza kullanıyorsanız onu ekleyin).",
@@ -56,8 +56,19 @@
   ]
  },
  "tip": {
-  "tr": "Mayalanma süresi serinlik ve sıcaklığa göre değişir; ekşiliği tatlandırmadan önce tadın ve gerekirse birkaç saat daha bekletin.",
+  "tr": "Mayalanma süresi serinlik ve sıcaklığa göre değişir; ekşiliği tatlandırmadan önce tadın ve gerekirse birkaç saat daha bekletin. Toplam sürenin çoğu gece boyunca mayalanmaya gider.",
   "en": "Fermentation time depends on room temperature, so taste before cooking and leave it a few hours longer if it is not yet pleasantly sour. Most of the total time is fermenting overnight."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water total is inconsistent: the ingredient list says 1.3 l, but the steps use 1 l (cooking) + 300 ml (thinning) + 100 ml (yeast) + 100 ml (cornstarch) = 1.5 l.",
+   "time_min of 60 is far too low. The recipe requires about 45 min of cooking plus 12-18 hours of fermentation and chilling.",
+   "Turkish description says 'darıdan veya tahıldan' (from millet or grain), but the English says only millet, and the recipe uses only millet.",
+   "The English tip has an extra sentence ('Most of the total time is fermenting overnight.') that is missing from the Turkish tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

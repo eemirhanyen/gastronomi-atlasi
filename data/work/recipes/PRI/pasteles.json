@@ -20,7 +20,7 @@
    "1 tatlı kaşığı tuz (hamur için)",
    "60 ml soğuk su",
    "400 g domuz omzu eti, küp doğranmış",
-   "1 tatlı kaşığı kekik veya kurutulmuş kekik",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1 tatlı kaşığı tuz (dolgu için)",
    "1/2 tatlı kaşığı karabiber",
    "1 soğan, ince doğranmış (yaklaşık 100 g)",
@@ -31,7 +31,7 @@
    "12 adet yeşil zeytin, ikiye bölünmüş",
    "2 yemek kaşığı kuru üzüm",
    "100 ml su",
-   "2 yemek kaşığı kıyılmış kişniş",
+   "2 yemek kaşığı kıyılmış recao (culantro)",
    "8 adet muz yaprağı (yaklaşık 30x30 cm), temizlenmiş",
    "Mutfak ipi"
   ],
@@ -54,7 +54,7 @@
    "12 green olives, halved",
    "2 tbsp raisins",
    "100 ml water",
-   "2 tbsp chopped cilantro (culantro)",
+   "2 tbsp chopped recao (culantro)",
    "8 banana leaf squares (about 30x30 cm), cleaned",
    "Kitchen twine"
   ]
@@ -64,7 +64,7 @@
    "Kızılkök yağını hazırlayın: Bitkisel yağı ve kızılkök tohumlarını küçük bir tencerede kısık ateşte 5 dakika ısıtın, yağ turuncu-kırmızıya dönünce süzün. Yağın 2 yemek kaşığını dolgu için ayırın, kalanını (yaklaşık 70 ml) hamur için kenara alın.",
    "Dolguyu pişirin: Domuz etini tuz, kekik ve karabiberle tatlandırın. Ayırdığınız 2 yemek kaşığı kızılkök yağında etleri orta ateşte her tarafı kızarana kadar yaklaşık 8 dakika kavurun.",
    "Soğan, yeşil biber ve sarımsağı ekleyip 5 dakika yumuşayana kadar pişirin. Domates sosunu, kaparileri, zeytinleri, kuru üzümü ve 100 ml suyu ekleyin. Kapağı kapalı olarak kısık ateşte yaklaşık 40 dakika, et çok yumuşayana ve sos koyulaşana kadar pişirin.",
-   "Ocaktan alıp kişnişi karıştırın, dolguyu tamamen soğutun. Etleri çatalla kabaca ezerek lapa kıvamı verin.",
+   "Ocaktan alıp recao'yu karıştırın, dolguyu tamamen soğutun. Etleri çatalla kabaca ezerek lapa kıvamı verin.",
    "Hamuru hazırlayın: Muzları ve yautíayı soyun (elleriniz kaşınabileceği için eldiven kullanın). Mutfak robotunda veya rendede çok ince rendeleyin. Pürüzsüz bir karışım elde edin.",
    "Rendelenmiş muz ve yautíaya kalan kızılkök yağını, tuzu ve soğuk suyu ekleyin. Yumuşak, kolay yayılabilen bir hamur elde edene kadar iyice yoğurun. Kıvam çok sertse az su, çok gevşekse biraz daha rendelenmiş muz ekleyin.",
    "Muz yapraklarını sıcak su ile yıkayıp kurulayın, ortalarından ve kenarlarından sert damarlarını çıkarıp ısıtmak için hafifçe ateş üzerinde geçirin ya da sıcak suda bekletin.",
@@ -76,7 +76,7 @@
    "Make the annatto oil: Heat the vegetable oil and annatto seeds in a small pan over low heat for 5 minutes until the oil turns deep orange-red. Strain. Set aside 2 tbsp for the filling and keep the remaining oil (about 70 ml) for the dough.",
    "Cook the filling: Season the pork cubes with salt, oregano and black pepper. Brown them in the 2 tbsp of annatto oil over medium heat for about 8 minutes, until browned on all sides.",
    "Add the onion, green pepper and garlic and cook for 5 minutes until softened. Add the tomato sauce, capers, olives, raisins and 100 ml water. Cover and simmer over low heat for about 40 minutes, until the pork is very tender and the sauce has thickened.",
-   "Remove from the heat, stir in the cilantro and let the filling cool completely. Roughly shred the meat with a fork so the mixture is thick and spreadable.",
+   "Remove from the heat, stir in the recao and let the filling cool completely. Roughly shred the meat with a fork so the mixture is thick and spreadable.",
    "Make the dough: Peel the green bananas and yautía (wear gloves, as the sap can irritate the skin). Grate them very finely using a food processor or fine grater until smooth.",
    "Mix the grated banana and yautía with the reserved annatto oil, salt and cold water. Knead well until you have a soft, spreadable dough. If too stiff, add a little water; if too loose, add a bit more grated banana.",
    "Wipe the banana leaves clean, cut out the tough central ribs and warm the leaves briefly over a flame or in hot water so they become pliable.",
@@ -86,8 +86,18 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru yoğururken elleriniz ve yağlanmış yaprakları kullanın; hamurun ele yapışmasını önler ve daha pürüzsüz bir doku sağlar.",
+  "tr": "Muzları ve yautíayı mümkün olduğunca ince rendeleyin ve soyarken eldiven kullanın; ham öz cildi tahriş edebilir. Bu, hamurun pürüzsüz kalmasını sağlar.",
   "en": "Keep the dough smooth by grating the bananas and yautía as finely as possible and wearing gloves while peeling, since the raw sap can irritate the skin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: Turkish lists 'kekik' (thyme) but English says dried oregano, which is the traditional herb here.",
+   "Culantro/cilantro mismatch: English says 'cilantro (culantro)', which conflates two different herbs. Puerto Rican pasteles use recao (culantro), and the Turkish says 'kişniş' (cilantro).",
+   "Tip mismatch: the Turkish tip says to use 'yağlanmış yaprakları' (oiled leaves), which the English tip doesn't mention, and the Turkish tip doesn't clearly match the English gloves advice."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

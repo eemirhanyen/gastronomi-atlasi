@@ -46,8 +46,8 @@
    "Tepsileri fırına verin ve 60-70 dakika kurutun. Bezeler kolayca kalkmalı ancak içi nemli kalmamalıdır. Fırını kapatın ve kapağını aralık bırakarak bezeleri fırında tamamen soğumaya bırakın.",
    "Krema için tereyağını pürüzsüz ve kabarık hale gelene kadar çırpın. Yoğunlaştırılmış sütü azar azar ekleyerek çırpmaya devam edin, sonunda vanilya özünü ilave edin. Kremayı buzdolabında 15 dakika dinlendirin.",
    "Bezelerden birini servis tabağına koyun ve üzerine kremanın üçte birini yayın. İkinci beze katını yerleştirin, yine krema sürün ve üçüncü beze ile kapatın.",
-   "Kalan kremayla pastanın kenarlarını ve üstünü ince bir tabaka halinde kaplayın. Kenarlara iri doğranmış fındıkları bastırarak yapıştırın.",
-   "Krema için çikolatayı doğrayın. Kremayı kaynamaya yakın ısıtın, sıcak kremayı çikolatanın üzerine dökün ve bir dakika bekleyip pürüzsüz olana kadar karıştırın.",
+   "Kalan kremayla pastanın kenarlarını ince bir tabaka halinde kaplayın. Kenarlara iri doğranmış fındıkları bastırarak yapıştırın.",
+   "Ganaj için çikolatayı doğrayın. 60 ml kremayı kaynamaya yakın ısıtın, sıcak kremayı çikolatanın üzerine dökün ve bir dakika bekleyip pürüzsüz olana kadar karıştırın.",
    "Ganaj hafif ılındığında pastanın üstüne yayın ve 15 dakika buzdolabında dinlendirerek sertleşmesini bekleyin. Servis etmeden önce birkaç saat soğukta bekletmek kremanın bezelere işlemesini sağlar."
   ],
   "en": [
@@ -58,8 +58,8 @@
    "Bake for 60 to 70 minutes until the layers lift easily from the paper and feel dry. Turn the oven off, prop the door slightly open and let the meringues cool completely inside the oven.",
    "For the cream, beat the butter until smooth and fluffy. Add the sweetened condensed milk a little at a time, beating continuously, then mix in the vanilla extract. Chill the cream for 15 minutes.",
    "Place one meringue layer on a serving plate and spread a third of the cream over it. Add the second layer, spread more cream, and top with the third meringue.",
-   "Use the remaining cream to coat the sides and top of the cake in a thin layer. Press the coarsely chopped toasted hazelnuts onto the sides.",
-   "Chop the chocolate. Heat the cream until just below boiling, pour it over the chocolate, wait one minute, then stir until smooth.",
+   "Use the remaining buttercream to coat the sides and top of the cake in a thin layer. Press the coarsely chopped toasted hazelnuts onto the sides.",
+   "For the ganache, chop the chocolate. Heat the 60 ml double cream until just below boiling, pour it over the chocolate, wait one minute, then stir until smooth.",
    "Spread the warm ganache over the top of the cake and chill for 15 minutes to set. Refrigerate for a few hours before serving so the cream softens the meringue layers slightly."
   ]
  },
@@ -67,5 +67,14 @@
   "tr": "Bezeleri tamamen kurutun ve soğutun; nemli bezeler kremayı emip yumuşar. Kenarları kaplarken kalan bez parçalarını ufalayıp üzerine serperek daha geleneksel bir görünüm elde edebilirsiniz.",
   "en": "Dry the meringues completely and let them cool; damp layers soften unevenly. Crumble any meringue offcuts over the sides for a more traditional finish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 9 (Turkish) says \"Krema için\" (for the cream), but the chocolate and double cream make a ganache. This clashes with step 6, where \"krema\" means the buttercream. The English step 9 has no label.",
+   "Step 8 coats the cake in buttercream and step 10 then spreads ganache over the top, so the top is covered twice without explanation. The English step 9 also doesn't say which cream is meant."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

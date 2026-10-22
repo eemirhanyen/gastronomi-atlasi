@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "500 g masa harina (mısır unu)",
+   "500 g masa harinası (mısır unu)",
    "600 ml sıcak tavuk suyu, gerekirse biraz daha",
    "80 g domuz yağı veya oda sıcaklığında tereyağı",
    "1 tatlı kaşığı tuz",
@@ -61,8 +61,8 @@
    "Tavuk harcını hazırlayın: Geniş bir tavada 2 yemek kaşığı achiote yağını ısıtın. Soğan ve biberi 5 dakika yumuşayana kadar soteleyin, sarımsak ve domatesi ekleyip 2 dakika daha pişirin.",
    "Tavuk parçalarını ekleyin, kimyon, kekik, 1/2 tatlı kaşığı tuz ve karabiber ile tatlandırın. 150 ml tavuk suyu ekleyip kapağı kapalı olarak 20 dakika, tavuk tamamen pişene kadar kısık ateşte pişirin.",
    "Tavuğu tavadan çıkarıp soğumaya bırakın. Suyu kısıp kıvamlı bir sos elde edin, tavuğu bu sosla karıştırın. Soğuyunca zeytin, kapari ve kuru üzümü ekleyip karıştırın.",
-   "Masayı hazırlayın: Büyük bir kasede domuz yağını ve 1 tatlı kaşık tuzu kabarana kadar 3 dakika çırpın. Kalan achiote yağını ekleyip karıştırın.",
-   "Masa harinayı ve sıcak tavuk suyunu dönüşümlü olarak ekleyerek yoğurun. Hamur oyun hamuru kıvamına gelmeli, elinize yapışmamalı ve kolay yayılabilmelidir. Gerekirse biraz daha su ekleyin, 10 dakika dinlendirin.",
+   "Hamuru hazırlayın: Büyük bir kasede domuz yağını ve 1 tatlı kaşık tuzu kabarana kadar 3 dakika çırpın. Kalan achiote yağını ekleyip karıştırın.",
+   "Masa harinasını ve sıcak tavuk suyunu dönüşümlü olarak ekleyerek yoğurun. Hamur oyun hamuru kıvamına gelmeli, elinize yapışmamalı ve kolay yayılabilmelidir. Gerekirse biraz daha su ekleyin, 10 dakika dinlendirin.",
    "Muz yapraklarını temizleyip alev üzerinde ya da sıcak suda birkaç saniye tutarak yumuşatın, kurulayın.",
    "Her yaprağın ortasına yaklaşık 80 g hamuru yayın. Üzerine 3 yemek kaşığı tavuk harcı, bir çeyrek haşlanmış yumurta yerleştirin.",
    "Yaprağın kenarlarını kapatarak paket şeklini verin ve mutfak ipiyle sıkıca bağlayın. Paketleri dik şekilde büyük bir tencereye yerleştirin.",
@@ -89,5 +89,14 @@
   "tr": "Hamurun hazır olup olmadığını anlamak için küçük bir top hamuru su dolu bir kaseye atın; yüzerse kabarmış ve pişmeye hazırdır.",
   "en": "To check the dough, drop a small piece into a bowl of water; if it floats, it is light enough and ready to use."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and steps use 'masa' (a Turkish word meaning 'table') for the corn dough. 'Masa harina' should be 'masa harinası'; the step title 'Masayı hazırlayın' ('prepare the table') does not ",
+   "Turkish step 6 has the typo 'Masa harinayı' (should be 'masa harinasını')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -68,8 +68,16 @@
   ]
  },
  "tip": {
-  "tr": "Yerfıstığı ezmesi yapışabileceği için eklerken ocağı kısın ve sürekli karıştırın; biberi bütün bırakırsanız aroma verir ama tencerede patlatmadan önce ısırmaktan kaçının.",
+  "tr": "Yerfıstığı ezmesi kolayca tabana yapışıp yanabileceği için eklerken ocağı kısın ve sürekli karıştırın. Biberi bütün bırakırsanız hafif acılık verir; ince doğrarsanız yahni çok daha acılı olur.",
   "en": "Stir the peanut paste constantly once it goes in, since it scorches easily on the base. Leave the scotch bonnet whole for mild heat, or chop it finely for a fierier stew."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is garbled and unnatural: 'tencerede patlatmadan önce ısırmaktan kaçının' does not clearly convey the warning about a whole pepper bursting in the pot. Rewritten to match the English tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

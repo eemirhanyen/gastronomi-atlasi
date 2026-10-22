@@ -15,7 +15,7 @@
   "tr": [
    "500 g attiéké (taze veya kuru)",
    "400 g taze ton balığı, 4 cm'lik parçalar halinde kesilmiş",
-   "30 ml limon suyu",
+   "30 ml misket limonu suyu",
    "1 tatlı kaşığı ince tuz, ikiye bölünmüş",
    "1/2 tatlı kaşığı öğütülmüş karabiber",
    "250 ml bitkisel yağ (kızartma için)",
@@ -63,5 +63,13 @@
   "tr": "Attiéké'yi servisten hemen önce buharda ısıtın; soğuk olduğunda taneleri yapışır ve tadı zayıflar. Acıyı ayarlamak için biberi sosa eklemeden önce çekirdeklerinden ayırın.",
   "en": "Steam the attiéké just before serving; when cold, the grains clump and lose flavour. To control the heat, remove the chili seeds before adding them to the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'limon suyu' (lemon juice) but the English says 'lime juice'. The two versions disagree on the citrus used; Turkish is changed to 'misket limonu suyu' (lime juice) to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

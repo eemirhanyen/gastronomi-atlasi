@@ -8,7 +8,7 @@
   "tr": "Dominika'nın Noel dönemine özgü, rom ve şarapta bekletilmiş kuru meyvelerle ve rengini veren yanmış şekerle yapılan koyu renkli, yoğun bir kek. Geleneksel olarak Noel öncesi haftalarda pişirilir ve bayram buluşmalarında ikram edilir.",
   "en": "Dominica's rich, dark Christmas cake, made with dried fruit soaked in rum and wine and coloured with burnt sugar. It is traditionally baked in the weeks before Christmas and shared at festive gatherings."
  },
- "servings": 4,
+ "servings": 10,
  "time_min": 60,
  "difficulty": "medium",
  "ingredients": {
@@ -83,5 +83,13 @@
   "tr": "Meyveleri ne kadar uzun bekletirseniz lezzet o kadar derinleşir; kek tamamen soğuduktan sonra birkaç gün folyo ile sarılı bekletmek tadını daha da olgunlaştırır.",
   "en": "The longer the fruit soaks, the deeper the flavour; wrapping the cooled cake in foil and resting it for a few days lets the flavours mature."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings is 4, but the batter (200 g flour, 150 g butter, 3 eggs, 20 cm tin, 55-65 min bake) yields roughly 10 slices. Servings corrected to 10 in both languages' context."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

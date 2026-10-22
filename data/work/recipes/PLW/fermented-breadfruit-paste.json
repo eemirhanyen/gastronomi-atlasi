@@ -32,9 +32,9 @@
    "Pişen parçaları sıcakken geniş bir kaseye alın ve çatalla ya da tahta kaşıkla iyice ezerek pürüzsüz bir hamur elde edin.",
    "Deniz tuzunu ekleyip homojen olana kadar karıştırın. Hamur hâlâ ılıkken tadına bakın; belirgin bir tuzluluk olmalı.",
    "Muz yapraklarını gaz alevinde ya da sıcak suda birkaç saniye hafifçe ısıtarak yumuşatın ve kurulayın. Sert orta damarlarını çıkarın.",
-   "Hamurun yarısını bir muz yaprağının ortasına yayın, kenarları içe katlayıp sıkıca sarın. Diğer yaprakla aynı işlemi ikinci bir paket için tekrarlayın. Kalan hamuru da hava almayacak şekilde kapaklı bir cam kavanoza sıkıştırın.",
-   "Paketleri serin, gölgeli bir yerde 3–5 gün bekletin; isterseniz kavanozdaki hamurun üstünü de muz yaprağıyla örtüp kapatın. Her gün kokusunu kontrol edin: hafif ekşi, peynirimsi bir koku almalı, ağır çürük kokusu olmamalı.",
-   "Fermentasyon tamamlandığında paketi açın, hamuru bir kaseye alıp tahta kaşıkla yeniden ezin. Servis tabağına koyun, üzerine hindistan cevizi sütünü gezdirerek ikram edin."
+   "Hamurun yarısını bir muz yaprağının ortasına yayın, kenarları içe katlayıp sıkıca sarın. Kalan yarıyı diğer muz yaprağıyla aynı şekilde sarın.",
+   "Paketleri serin, gölgeli bir yerde 3–5 gün bekletin. Her gün kokusunu kontrol edin: hafif ekşi, peynirimsi bir koku almalı, ağır çürük kokusu olmamalı.",
+   "Fermentasyon tamamlandığında paketleri açın, hamuru bir kaseye alıp tahta kaşıkla yeniden ezin. Servis tabağına koyun, üzerine hindistan cevizi sütünü gezdirerek ikram edin."
   ],
   "en": [
    "Wash the breadfruit, peel it, and remove the stem and any hard core. Cut the flesh into 5 cm pieces.",
@@ -42,14 +42,23 @@
    "While still hot, transfer the pieces to a wide bowl and mash thoroughly with a fork or wooden spoon until you have a smooth paste.",
    "Add the sea salt and mix until evenly combined. Taste while still warm; it should be clearly salty.",
    "Soften the banana leaves by passing them briefly over a gas flame or dipping them in hot water for a few seconds. Pat dry and cut away the tough central ribs.",
-   "Spread half the paste in the centre of one banana leaf, fold the edges inward and wrap tightly. Repeat with the second leaf for a second parcel. Press any remaining paste into a lidded glass jar to keep out air.",
+   "Spread half the paste in the centre of one banana leaf, fold the edges inward and wrap tightly. Wrap the other half in the second banana leaf in the same way.",
    "Keep the parcels in a cool, shaded place for 3–5 days. Check the smell daily: it should turn mildly sour and cheesy, not rotten or foul.",
-   "When fermentation is complete, open the parcel, transfer the paste to a bowl and mash again with a wooden spoon. Serve on a plate, drizzled with coconut milk."
+   "When fermentation is complete, open the parcels, transfer the paste to a bowl and mash again with a wooden spoon. Serve on a plate, drizzled with coconut milk."
   ]
  },
  "tip": {
   "tr": "Ekmek ağacı meyvesi ne kadar nişastalıysa ezme o kadar iyi fermente olur; çok olgun ve yumuşak meyveler yerine sert ve yeşilimsi tonlu olanları seçin.",
   "en": "Choose firm, starchy breadfruit rather than soft, overripe fruit; it ferments into a cleaner-tasting paste and is less likely to spoil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 splits all the paste into two halves for two parcels, but then tells the cook to press 'remaining paste' into a jar. No paste is left over, so the instructions contradict each other (Turkish an",
+   "Step 8 says 'open the parcel' (singular) although there are two parcels. Turkish and English are otherwise consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

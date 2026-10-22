@@ -9,7 +9,7 @@
   "en": "Karkade is one of Sudan's most loved drinks, made from deep red dried hibiscus calyces. It is served chilled at weddings, festivals and everyday meals, and drunk warm on winter evenings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Hibiskus çiçeklerini kaynatmayın; demlenme süresi kısa tutulursa içecek daha canlı kırmızı ve daha dengeli ekşi olur.",
   "en": "Do not boil the hibiscus; a short steep keeps the drink a brighter red and gives a more balanced tartness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't cover the process: the steps include a 10-minute steep, cooling to room temperature, and at least 1 hour of chilling, so the total is well over 60 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

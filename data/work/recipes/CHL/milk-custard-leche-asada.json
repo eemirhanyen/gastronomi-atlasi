@@ -9,7 +9,7 @@
   "en": "A baked milk custard with caramel, flavoured with cinnamon and lemon peel. It is a common family dessert in Chile, often served after Sunday lunch."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 330,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Fırını 160°C'ye ısıtın ve büyük bir fırın tepsisinin içine derin bir tepsi koyarak su banyosu için hazırlık yapın.",
-   "Karamel için 100 g toz şekeri 2 yemek kaşığı su ile orta ateşte kavanoza koyup şeker eriyene ve altın sarısı olana kadar pişirin. Karamelı 4 küçük kalıbın (ramekin) dibine eşit şekilde dökün ve hafifçe döndürerek yayın.",
+   "Karamel için 100 g toz şekeri 2 yemek kaşığı su ile orta ateşte küçük bir tencereye koyup şeker eriyene ve altın sarısı olana kadar pişirin. Karameli 4 küçük kalıbın (ramekin) dibine eşit şekilde dökün ve hafifçe döndürerek yayın.",
    "Bir tencerede sütü, tarçını ve limon kabuğunu orta ateşte kaynamaya yakın ısıtın; kaynatmayın. Ocaktan alıp 10 dakika demlenmeye bırakın, ardından tarçını ve limon kabuğunu çıkarın.",
    "Ayrı bir kapta 150 g toz şekeri, 3 yumurtayı, 2 yumurta sarısını, vanilya özünü ve bir tutam tuzu pürüzsüz olana kadar çırpın.",
    "Sıcak sütü çok yavaş bir ince akış halinde yumurtalı karışıma ekleyin, sürekli çırparak karışsın. Karışımı süzgeçten geçirerek karamelli kalıplara eşit şekilde doldurun.",
@@ -63,5 +63,15 @@
   "tr": "Muhallebinin kabarcıklı ya da gözenekli olmaması için karışımı mutlaka süzün ve fırında çok yüksek ısıda pişirmeyin.",
   "en": "Strain the custard mixture and keep the oven at a gentle 160°C; high heat makes the custard puff and form holes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says to cook the caramel in a 'kavanoz' (jar). A jar cannot go on the stove. It should be a small saucepan (küçük tencere).",
+   "Turkish step 2 has a spelling error: 'Karamelı' should be 'karameli'.",
+   "time_min is 90, but the recipe includes at least 4 hours of chilling, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

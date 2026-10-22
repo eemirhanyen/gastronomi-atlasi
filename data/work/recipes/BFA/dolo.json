@@ -9,7 +9,7 @@
   "en": "A traditional sorghum beer from Burkina Faso, lightly sour and mildly alcoholic. It is served in large communal vessels at weddings, ceremonies and everyday gatherings, especially in villages."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 1530,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -51,5 +51,13 @@
   "tr": "Mayalanma sıcaklığını sabit tutun; sıcak havada 18 saatte, serin havada 24 saate kadar bekleyebilirsiniz. Dolo alkollüdür, çocuklara ve araç kullanacaklara sunmayın.",
   "en": "Keep the fermentation temperature steady; it may be ready in 18 hours in warm weather or take up to 24 in cool conditions. Dolo is alcoholic, so do not serve it to children or to anyone who will drive."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) covers only the active cooking and hold steps and ignores the 18-24 hour fermentation, so the total time is misleading"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -49,7 +49,7 @@
    "Suyu tepsinin kenarından ekleyin, ardından tepsiyi pişirme kağıdı ve alüminyum folyo ile sıkıca kapatın.",
    "Fırında 2,5 ile 3 saat pişirin, etin kemikten kolayca ayrılmasını bekleyin.",
    "Folyoyu ve kağıdı açın, fırın ısısını 200 °C'ye yükseltin ve üstü kızarana kadar yaklaşık 20 dakika daha pişirin.",
-   "İsteğe bağlı olarak feta peynirini ufalayıp üzerine serpin ve sıcak servis yapın."
+   "İsteğe bağlı olarak feta peynirini ufalayıp üzerine serpin, kalan limon kabuğunu da ekleyin ve sıcak servis yapın."
   ],
   "en": [
    "Preheat the oven to 160 °C.",
@@ -67,5 +67,13 @@
   "tr": "Patatesleri etin altına yerleştirin ki yağ ve suyla birlikte lezzetini sağlasın; son aşamada kızartma için fırın ısısını yükseltmeyi unutmayın.",
   "en": "Place the potatoes under the lamb so they soak up the fat and juices; the final blast of heat is what gives the meat its golden crust."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 omits the remaining lemon zest that the English step 9 sprinkles over the lamb, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

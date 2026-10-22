@@ -9,7 +9,7 @@
   "en": "A traditional dish of torn bread soaked in spiced meat broth and topped with tender lamb or goat. In Djibouti it is eaten at breakfast, during Ramadan evenings and on festival mornings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Ekmeğin tam ıslanıp yumuşaması için et suyunu sıcak servis edin; bayat ekmek suyu daha iyi emer ve yapıyı korur.",
   "en": "Use day-old bread and serve the broth very hot so the bread soaks up flavour without turning mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is lower than the sum of the listed steps (about 8 + 8 + 1 + 0.5 + 5 + 45 minutes of cooking, plus prep and assembly), so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

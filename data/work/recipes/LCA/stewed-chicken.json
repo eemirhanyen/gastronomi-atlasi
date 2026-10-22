@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Sankt Lucia Usulü Güveçte Tavuk",
+  "tr": "Saint Lucia Usulü Güveçte Tavuk",
   "en": "Saint Lucian Stewed Chicken"
  },
  "native": "Stew chicken",
  "desc": {
-  "tr": "Sankt Lucia'da öğle ve akşam yemeklerinde en sık yenen klasik Karayip yemeklerinden biridir. Lime, sarımsak ve taze kekik ile marine edilen tavuk, kahverengileşmiş şekerle renklenen sosta yavaşça pişirilir ve genellikle pilav veya patates eşliğinde servis edilir.",
+  "tr": "Saint Lucia'da öğle ve akşam yemeklerinde en sık yenen klasik Karayip yemeklerinden biridir. Lime, sarımsak ve taze kekik ile marine edilen tavuk, kahverengileşmiş şekerle renklenen sosta yavaşça pişirilir ve genellikle pirinç pilavı (bezelyeli ya da sade) eşliğinde servis edilir.",
   "en": "A staple of everyday lunches and dinners across Saint Lucia, this dish is chicken marinated in lime, garlic and thyme, then browned with caramelised sugar and simmered slowly in a rich, mildly spiced tomato sauce. It is usually served with rice and peas or plain rice."
  },
  "servings": 4,
@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "Tavuk parçalarını geniş bir kaba alın. Limon suyu, ezilmiş sarımsak, kekik yaprakları, yeşil soğanın yarısı, tuz ve karabiberle iyice karıştırın. Örtüp en az 30 dakika buzdolabında marine edin.",
-   "Büyük, kalın tabanlı bir tencerede 2 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Şekeri ekleyip karıştırmadan eritin ve koyu kahverengi karamel rengi alana kadar bekleyin.",
+   "Büyük, kalın tabanlı bir tencerede 2 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Şekeri ekleyip fazla karıştırmadan eritin ve koyu kahverengi karamel rengi alana kadar bekleyin.",
    "Marine tavukları süzün, marinasını bir kenara ayırın. Tavuk parçalarını karamelize şekerin üzerine partiler halinde ekleyip her tarafı 3-4 dakika kızartarak kahverengileştirin, ardından bir tabağa alın.",
    "Tencereye kalan yağı ekleyin. Soğanı ve kalan yeşil soğanı ekleyip yumuşayana kadar, yaklaşık 5 dakika soteleyin. Domates salçasını ekleyip 1 dakika kavurun.",
    "Tavukları, ayırdığınız marinayı, tavuk suyunu ve bütün Scotch bonnet biberi tencereye geri koyun. Kaynayınca ateşi kısın, kapağı kapatıp 35 dakika yavaşça pişirin.",
@@ -67,5 +67,14 @@
   "tr": "Biberi bütün ve çatlatılmış halde pişirin; aroma verir ama sosu aşırı acı yapmaz. Servisten önce mutlaka çıkarın.",
   "en": "Keep the Scotch bonnet whole and pierced so it flavours the sauce without making it painfully hot; remove it before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dish is served with rice or potatoes, but the English description and step 7 say rice (and peas), so the sides don't match.",
+   "Turkish name and description use \"Sankt Lucia\", which is the German form. The standard Turkish form is \"Saint Lucia\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

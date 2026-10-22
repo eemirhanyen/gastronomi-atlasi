@@ -9,7 +9,7 @@
   "en": "A no-bake dessert from Nanaimo in British Columbia, layering a biscuit-and-coconut base, a sweet custard buttercream and a chocolate topping. It is popular across Canada, especially at holidays, parties and with coffee."
  },
  "servings": 8,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -20,7 +20,7 @@
    "200 g graham kraker kırıntısı",
    "40 g rendelenmiş hindistan cevizi",
    "40 g doğranmış ceviz",
-   "50 g tereyağı, oda sıcaklığında (kreması için)",
+   "115 g tereyağı, oda sıcaklığında (kreması için)",
    "15 g vanilyalı puding tozu (krem patisiyer tozu)",
    "30 ml ağır krema",
    "200 g pudra şekeri",
@@ -35,7 +35,7 @@
    "200 g graham cracker crumbs",
    "40 g desiccated coconut",
    "40 g chopped walnuts",
-   "50 g unsalted butter, softened (for the filling)",
+   "115 g unsalted butter, softened (for the filling)",
    "15 g instant custard powder",
    "30 ml heavy cream",
    "200 g icing sugar",
@@ -50,7 +50,7 @@
    "Çırpılmış yumurtayı ekleyip sürekli karıştırarak yaklaşık 2-3 dakika pişirin; karışım koyulaşmalı ama yumurta pişip kabarcık yapmamalı.",
    "Ocaktan alın, graham kraker kırıntısını, hindistan cevizini ve cevizi ekleyip iyice karıştırın.",
    "Karışımı kalıba eşit şekilde bastırın ve buzdolabında yaklaşık 20 dakika soğumaya bırakın.",
-   "Kremasi için 50 g oda sıcaklığındaki tereyağını, puding tozunu, kremayı ve pudra şekerini kabarana kadar çırpın.",
+   "Kremasi için 115 g oda sıcaklığındaki tereyağını, puding tozunu, kremayı ve pudra şekerini kabarana kadar çırpın.",
    "Kremayı soğumuş tabanın üzerine eşit yayın ve kalıbı 30 dakika daha buzdolabına koyun.",
    "Kaplaması için çikolata ve 15 g tereyağını su banyosunda, yaklaşık 45°C'yi geçmeyecek şekilde eritip kremanın üzerine yayın.",
    "Kaplama sertleşene kadar en az 1 saat buzdolabında bekletin.",
@@ -62,16 +62,27 @@
    "Add the beaten egg and cook, stirring constantly, for 2-3 minutes until thickened; do not let it bubble or scramble.",
    "Remove from the heat and stir in the graham cracker crumbs, coconut and walnuts until evenly combined.",
    "Press the mixture firmly and evenly into the pan, then chill for about 20 minutes.",
-   "For the filling, beat the 50 g softened butter, custard powder, cream and icing sugar until light and fluffy.",
+   "For the filling, beat the 115 g softened butter, custard powder, cream and icing sugar until light and fluffy.",
    "Spread the filling evenly over the chilled base and chill for another 30 minutes.",
    "For the topping, melt the chocolate and 15 g butter in a bowl over simmering water, keeping it below 45°C, then spread over the filling.",
    "Refrigerate for at least 1 hour until the topping is firm.",
-   "Lift out using the paper, cut into 16 squares and serve; cut into 16 squares and serve 2 per person."
+   "Lift out using the paper, cut into 16 squares and serve 2 per person."
   ]
  },
  "tip": {
-  "tr": "Kaplamayı tamamen sertleştirmek için bloğu kesmeden önce ısıtılmamış bıçakla, her kesimden sonra bıçağı temizleyerek kesin.",
+  "tr": "Düzgün kareler için her kesimden sonra bıçağı temizleyin ve bloğu servis öncesi oda sıcaklığında 5 dakika bekletin; lezzeti daha iyi olur.",
   "en": "Wipe a sharp knife clean between each cut for crisp, neat squares, and let the bars sit at room temperature for 5 minutes before serving for better flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 10 is duplicated and garbled; the Turkish step 10 has no such duplication.",
+   "Filling uses only 50 g butter for 200 g icing sugar, which is too little to give a creamy buttercream; the classic ratio is about 115 g.",
+   "Turkish tip ('ısıtılmamış bıçakla... kesin') is unclear and does not match the English tip, which mentions wiping the knife and resting the bars at room temperature for 5 minutes.",
+   "time_min is 60, but the recipe requires at least 20 + 30 + 60 minutes of chilling, so total time is about 2.5 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

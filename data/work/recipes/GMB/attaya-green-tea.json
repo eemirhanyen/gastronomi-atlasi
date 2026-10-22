@@ -28,15 +28,15 @@
  "steps": {
   "tr": [
    "Küçük bir demlik veya çaydanlığa yeşil çayı koyun, üzerine 100 ml kaynar su dökün, 10 saniye çalkalayıp suyu dökerek yaprakları yıkayın.",
-   "Demliğe kalan 500 ml suyu ve 40 g şekeri ekleyin, orta ateşte kaynayana kadar (yaklaşık 100°C) ısıtın.",
+   "Yaprakların bulunduğu demliğe kalan 500 ml suyu ve 40 g şekeri ekleyin, orta ateşte kaynayana kadar (yaklaşık 100°C) ısıtın.",
    "Naneden yaklaşık 5 g'ı ekleyin ve karışımı 2 dakika kaynatın.",
-   "Çayı tatmak için küçük bir bardağa, yaklaşık 30 cm yükseklikten dökerek köpük oluşmasını sağlayın, sonra tekrar demliğe geri dökün. Bu işlemi üç kez tekrarlayın.",
+   "Çayı küçük bir bardağa, yaklaşık 30 cm yükseklikten dökerek köpük oluşmasını sağlayın, sonra tekrar demliğe geri dökün. Bu işlemi üç kez tekrarlayın.",
    "Birinci turu, yani en koyu ve acı olanını bardaklara dökün ve ikram edin.",
    "Demliğe 20 g şeker ekleyip tekrar kaynatın, ikinci turu bardaklara dökün. Sonra kalan 20 g şekeri ve kalan naneyi ekleyip üçüncü turu hazırlayın ve servis yapın."
   ],
   "en": [
    "Put the green tea into a small teapot, pour over 100 ml of boiling water, swirl for 10 seconds and pour it away to rinse the leaves.",
-   "Add the remaining 500 ml of water and 40 g of sugar to the teapot and heat over medium heat until it boils (about 100°C).",
+   "Add the remaining 500 ml of water and 40 g of sugar to the teapot with the tea leaves and heat over medium heat until it boils (about 100°C).",
    "Add about 5 g of the mint and boil the mixture for 2 minutes.",
    "Pour the tea into a small glass from about 30 cm high to create foam, then pour it back into the teapot. Repeat this three times.",
    "Serve the first round, the strongest and most bitter, in small glasses.",
@@ -47,5 +47,14 @@
   "tr": "Çayı yüksek yerden dökmek köpük oluşturur; yeşil çay yapraklarının aşırı demlenmemesi için kaynatma süresini kısa tutun.",
   "en": "Pouring from a height creates the characteristic foam; keep the boiling time short so the gunpowder tea does not become overly bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tea leaves are rinsed in the pot (step 1) but the steps never say to add them to the water when boiling, so the green tea is not clearly used.",
+   "Turkish step 4 says 'Çayı tatmak için' ('to taste the tea'), which does not match the English 'pour the tea into a glass' and reads unnaturally."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

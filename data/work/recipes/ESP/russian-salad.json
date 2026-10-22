@@ -5,7 +5,7 @@
  },
  "native": "Ensaladilla rusa",
  "desc": {
-  "tr": "İspanya'da tapas barlarının ve öğle sofralarının vazgeçilmez soğuk meze salatasıdır. Patates, havuç ve bezelyenin mayonezle buluşmasıyla hazırlanır; genellikle yaz aylarında, aperitif olarak ya da piknik ve aile yemeklerinde servis edilir.",
+  "tr": "İspanya'da tapas barlarının ve öğle sofralarının vazgeçilmez soğuk meze salatasıdır. Patates, havuç ve bezelyenin mayonezle buluşmasıyla hazırlanır; genellikle ton balığı ve yumurtayla süslenir ve yaz aylarında, aperitif olarak ya da piknik ve aile yemeklerinde servis edilir.",
   "en": "A cold tapas-bar staple across Spain, served as an appetizer or light lunch dish. Diced potatoes, carrots and peas are bound with mayonnaise and often topped with tuna and egg, and it is especially popular in summer, at family gatherings and picnics."
  },
  "servings": 4,
@@ -69,5 +69,13 @@
   "tr": "Patatesi tam kıvamında pişirin ve sıcakken değil ılıkken doğrayın; böylece küpler dağılmaz ve salata daha dengeli görünür.",
   "en": "Cook the potatoes until just tender and dice them while still warm but not hot, so the cubes hold their shape and the salad stays neat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish description omits the tuna and egg topping that the English description mentions, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

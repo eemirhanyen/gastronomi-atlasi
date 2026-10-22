@@ -9,7 +9,7 @@
   "en": "Lben is a staple drink of Mauritanian daily life: fermented milk thinned with water and sweetened. It is served cold between meals, in the afternoon and on hot days."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 780,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Bir sonraki partiyi başlatmak için bir kaşık ekşitilmiş lbeni saklayın; bu, yoğurt yerine kullanılabilir.",
   "en": "Save a spoonful of the fermented lben to use as the starter for your next batch instead of yogurt."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires 8-12 hours of fermentation plus at least 2 hours of chilling, so the stated time is badly understated. Total time is roughly 13 hours (about 1 hour of active wo"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

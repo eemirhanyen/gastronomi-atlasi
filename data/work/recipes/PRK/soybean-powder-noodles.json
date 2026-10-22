@@ -9,7 +9,7 @@
   "en": "Chilled wheat noodles served in cold, lightly salted, nutty-tasting soy milk. It is a traditional summer dish eaten across Korea, including the north, during the hottest months."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 840,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Soya sütünü iyice soğutun ve eriştenin nişastasını iyice yıkayın; böylece erişte dağılmaz, çorba da serin kalır.",
   "en": "Chill the soy milk thoroughly and rinse the noodles well so they stay firm and the broth stays cold; serve right away before the ice melts."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires a 12-hour soak, about 40 minutes of simmering, and at least 1 hour of chilling, so the total is roughly 14 hours. The time should reflect this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

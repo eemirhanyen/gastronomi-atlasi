@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Şteta (Şteta)",
+  "tr": "Şteta",
   "en": "Chtitha"
  },
  "native": "شتيطة",
@@ -9,7 +9,7 @@
   "en": "A festive Algerian stew of lamb, chickpeas and tomato, traditionally served on bread at family gatherings and holidays. The broth is ladled over torn bread so that the bread soaks up the sauce."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -73,5 +73,14 @@
   "tr": "Ekmeği servisten hemen önce sosla buluşturun ki yumuşasın ama dağılmasın; bayat ekmek bunun için idealdir.",
   "en": "Add the bread only at the last moment so it soaks up the sauce without turning to mush; day-old bread holds its shape best."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name is redundant: \"Şteta (Şteta)\" repeats the same word.",
+   "time_min is 120, but the listed steps total about 140 minutes of cooking (8+10+2+8+90+20) before prep, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

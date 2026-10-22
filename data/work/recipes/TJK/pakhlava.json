@@ -5,11 +5,11 @@
  },
  "native": "пахлава",
  "desc": {
-  "tr": "Tacikistan'da bayramlarda, düğünlerde ve misafir sofralarında servis edilen, ince hamur katları arasına ceviz ve kardeş konulup şerbetle tatlandırılan geleneksel bir tatlıdır.",
+  "tr": "Tacikistan'da bayramlarda, düğünlerde ve misafir sofralarında servis edilen, ince hamur katları arasına ceviz ve kakule konulup şerbetle tatlandırılan geleneksel bir tatlıdır.",
   "en": "A traditional Tajik dessert of thin pastry layers filled with walnuts and cardamom and soaked in syrup, served at holidays, weddings and when guests visit."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -67,5 +67,14 @@
   "tr": "Hamuru mümkün olduğunca ince açın; katlar ne kadar ince olursa pahlava o kadar kabarcıklı ve gevrek çıkar.",
   "en": "Roll the dough as thinly as you can; the thinner the layers, the flakier and crisper the pakhlava will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says \"ceviz ve kardeş\"; \"kardeş\" means sibling, not cardamom. The correct word is \"kakule\", as used in the ingredients and steps and in the English version.",
+   "time_min is 90, but the recipe includes 30 min dough rest, about 40 min baking and at least 1 hour soaking, so the total is closer to 150 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

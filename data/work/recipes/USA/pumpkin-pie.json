@@ -9,7 +9,7 @@
   "en": "A smooth, custard-like tart flavored with pumpkin and warm spices such as cinnamon and cloves. In the United States it is especially associated with Thanksgiving dinner, when it is served as the traditional dessert in autumn."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,8 +57,8 @@
    "Büyük bir kapta balkabağı püresi, esmer şeker ve yumurtaları pürüzsüz olana kadar çırpın.",
    "Süt kremasını, tarçını, zencefil tozunu, karanfil tozunu, hindistan cevizi tozunu, tuzu ve vanilya özünü ekleyip iyice karıştırın.",
    "Karışımı ön pişirilmiş hamurun içine dökün ve düzgün dağıtın.",
-   "Fırının alt rafına yerleştirin ve 175°C'de 45-55 dakika pişirin. Ortası hafif sallanır ama kenarları sabitleşmiş olmalıdır.",
-   "Tartı fırından çıkarın, tamamen soğumaya bırakın, ardından en az 2 saat buzdolabında dinlendirip soğuk servis yapın."
+   "Fırın ısısını 175°C'ye düşürün, tartı fırının alt rafına yerleştirin ve 45-55 dakika pişirin. Ortası hafif sallanır ama kenarları sabitleşmiş olmalıdır.",
+   "Tart'ı fırından çıkarın, tamamen soğumaya bırakın, ardından en az 2 saat buzdolabında dinlendirip soğuk servis yapın."
   ],
   "en": [
    "In a large bowl, combine the flour, granulated sugar and a pinch of salt.",
@@ -69,13 +69,24 @@
    "In a large bowl, whisk the pumpkin purée, brown sugar and eggs until smooth.",
    "Stir in the heavy cream, cinnamon, ground ginger, ground cloves, nutmeg, 1/2 tsp salt and vanilla extract until fully combined.",
    "Pour the filling into the pre-baked crust and spread it evenly.",
-   "Place the tart on the lower shelf and bake at 175°C for 45 to 55 minutes. The centre should still wobble slightly, but the edges should be set.",
+   "Reduce the oven temperature to 175°C. Place the tart on the lower shelf and bake for 45 to 55 minutes. The centre should still wobble slightly, but the edges should be set.",
    "Remove from the oven and let it cool completely. Refrigerate for at least 2 hours and serve chilled."
   ]
  },
  "tip": {
-  "tr": "Dolgu tamamen donmadan önce fırından çıkarırsanız çatlamayı önlersiniz; ortası hâlâ hafif titriyorsa doğru pişmiş demektir.",
+  "tr": "Dolgu tamamen katılaşmadan önce fırından çıkarırsanız çatlamayı önlersiniz; ortası hâlâ hafif titriyorsa doğru pişmiş demektir.",
   "en": "Take the tart out while the centre still wobbles; it will firm up as it cools, and this helps prevent cracks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is too short: the 30-minute dough rest, 20-minute blind bake, 45-55-minute filling bake and at least 2 hours of chilling add up to roughly 4 hours.",
+   "Oven temperature is never reset: the method heats to 190°C for the blind bake, then says to bake at 175°C without telling the cook to lower the oven. This is in both languages.",
+   "Turkish step 10 uses 'Tartı' (scale/weighing), which is the wrong word. It should be 'Tart'ı' (the tart).",
+   "Turkish tip says 'donmadan' (before freezing), which is the wrong meaning. The intended sense is 'before it has firmed up' ('katılaşmadan')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

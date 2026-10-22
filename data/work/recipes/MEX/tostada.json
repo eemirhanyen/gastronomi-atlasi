@@ -6,7 +6,7 @@
  "native": "Tostada",
  "desc": {
   "tr": "Kızartılmış mısır tortillası üzerine fasulye, baharatlı tavuk, marul, domates salatası, krema ve taze peynir konularak yapılan, Meksika sokaklarında ve pazarlarda sık yenen hafif bir atıştırmalıktır.",
-  "en": "A crisp fried corn tortilla topped with refried beans, seasoned shredded chicken, lettuce, tomato salad, crema and fresh cheese. It is a everyday street food and market snack across Mexico, eaten at any time of day."
+  "en": "A crisp fried corn tortilla topped with refried beans, seasoned shredded chicken, lettuce, tomato salad, crema and fresh cheese. It is an everyday street food and market snack across Mexico, eaten at any time of day."
  },
  "servings": 4,
  "time_min": 60,
@@ -53,12 +53,12 @@
   "tr": [
    "Tavuk butları, soğanın yarısı, sarımsaklar ve 1 çay kaşığı tuzu bir tencereye alın. Tavukun üzerini geçecek kadar su ekleyin ve kaynamaya bırakın. Ateşi kısın ve tavuk tamamen pişene kadar, yaklaşık 20 dakika pişirin.",
    "Tavuğu ocaktan alın ve suyundan çıkarıp soğumaya bırakın. Soğuyunca çatal yardımıyla lifler halinde parçalayın. Parçalanmış tavuğa kimyon, bir çimdik tuz ve bir kaşık pişirme suyu ekleyin, karıştırın.",
-   "Tortillaları dörde bölmeden önce tek tek 180°C sıcaklıktaki kızartma yağında, her iki yüzü de altın rengi ve gevrek olana kadar yaklaşık 1 dakika kızartın. Kağıt havlu üzerine alıp yağını süzün.",
-   "Soğanın kalan yarısını ince doğrayın. Domatesleri, doğranmış soğanı, jalapeño biberini ve kişnişi bir kasede karıştırın. Üzerine misket limonunun suyunu sıkın ve bir çimdik tuz ekleyin.",
+   "Tortillaları tek tek 180°C sıcaklıktaki kızartma yağında, her iki yüzü de altın rengi ve gevrek olana kadar yaklaşık 1 dakika kızartın. Kağıt havlu üzerine alıp yağını süzün.",
+   "Soğanın kalan yarısını ince doğrayın. Domatesleri, doğranmış soğanı, jalapeño biberini ve kişnişi bir kasede karıştırın. Üzerine limonun yarısının suyunu sıkın ve bir çimdik tuz ekleyin.",
    "Bir tavada 1 yemek kaşığı sıvı yağı ısıtın. Süzülmüş pinto fasulyelerini ekleyin ve yaklaşık 5 dakika orta ateşte ısıtırken bir patates ezici ile ezerek kıvamlı bir püre elde edin. Gerekirse birkaç kaşık su ekleyip tuzunu ayarlayın.",
    "Her tostada kızarmış tortillanın üzerine kalın bir tabaka fasulye püresi sürün. Üzerine baharatlı tavuğu yayın, ardından ince doğranmış marulu serpin.",
    "Domates salatasından bir kaşık dolusu alıp marulun üzerine koyun. Üzerine krema gezdirin ve ufalanmış taze beyaz peyniri serpin.",
-   "Tostadaları hemen servis yapın ve yanında limon dilimleri koyun."
+   "Tostadaları hemen servis yapın ve yanında kalan limonu dilimleri halinde koyun."
   ],
   "en": [
    "Put the chicken thighs, half the onion, the garlic cloves and 1 tsp salt in a pot. Add enough water to cover the chicken and bring to a boil. Lower the heat and simmer for about 20 minutes, until the chicken is fully cooked.",
@@ -75,5 +75,15 @@
   "tr": "Tortillaları kızartmadan önce yağ ısısını 180°C'de tutun; yağ çok düşük olursa gevrek olmak yerine yağlı olur. Tavuğu pişirdiğiniz suyu saklayıp fasulyeye ve tavuğa birkaç kaşık ekleyerek daha lezzetli bir doku elde edebilirsiniz.",
   "en": "Keep the frying oil at 180°C so the tortillas turn crisp rather than greasy. Save the chicken cooking liquid and add a few spoonfuls to the beans and chicken for more flavour and a softer texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "TR step 3 says to cut the tortillas into quarters before frying, but the EN step does not and the tostada is served whole. The Turkish version should be corrected to match.",
+   "Lime use disagrees: EN step 4 uses the juice of half the lime, but TR step 4 uses the juice of the whole lime, leaving no lime for the wedges in step 8.",
+   "EN description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

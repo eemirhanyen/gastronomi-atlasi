@@ -9,7 +9,7 @@
   "en": "A Ghanaian staple of black-eyed peas simmered in a red palm oil and tomato sauce. It is usually served with fried ripe plantain (dodo) and eaten as a main meal at lunch or dinner."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "Bir gece önceden ıslatılmış börülceyi süzün, 1 L suda yumuşayana ve tanesi bozulmayana kadar 30-40 dakika orta ateşte haşlayın. Pişirme suyundan 150 ml ayırın, börülceyi süzün.",
-   "Domatesleri, Scotch bonnet biberini ve rendelenmiş zencefili blendırdan geçirip pürüzsüz bir sos elde edin.",
+   "Domatesleri, Scotch bonnet biberini ve rendelenmiş zencefili blenderdan geçirip pürüzsüz bir sos elde edin.",
    "Büyük bir tavada kırmızı palm yağını orta ateşte 3 dakika ısıtın, rengi hafifçe parlayana kadar bekleyin.",
    "Doğranmış soğanı ekleyip altın rengi alana kadar 6-8 dakika kavurun. Ezilmiş sarımsağı ekleyip 1 dakika daha pişirin.",
    "Domates salçasını ekleyip sürekli karıştırarak 3 dakika kavurun.",
@@ -71,5 +71,14 @@
   "tr": "Börülcenin tanelerinin dağılmaması için haşlamayı kısık ateşte yapın ve sosa eklemeden önce iyice süzün.",
   "en": "Simmer the peas gently so the beans keep their shape, and drain them well before adding them to the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a typo: 'blendırdan' should be 'blenderdan'.",
+   "time_min is 60, but the steps alone (30-40 min boiling, 15-20 min simmering, 10 more min, plus frying and prep) take about 85-90 minutes, excluding overnight soaking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

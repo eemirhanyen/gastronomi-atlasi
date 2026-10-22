@@ -18,7 +18,7 @@
    "400 ml hindistancevizi sütü (1 kutu)",
    "150 g koyu kahverengi şeker (muscovado tercih edilir)",
    "1 tutam tuz",
-   "150 ml kalın hindistancevizi kreması (latik için, kutunun üst kısmından ayrılmış)",
+   "150 ml kalın hindistancevizi kreması (latik için, ikinci bir kutunun üst kısmından ayrılmış)",
    "Yağlı kağıt veya muz yaprağı (kalıp için)"
   ],
   "en": [
@@ -27,7 +27,7 @@
    "400 ml coconut milk (1 can)",
    "150 g dark brown sugar (muscovado preferred)",
    "1 pinch salt",
-   "150 ml thick coconut cream (for latik, skimmed from the top of the can)",
+   "150 ml thick coconut cream (for latik, skimmed from the top of a second can)",
    "Baking paper or banana leaf (for lining the pan)"
   ]
  },
@@ -35,7 +35,7 @@
   "tr": [
    "Yapışkan pirinci bir kapta soğuk suyla 3 kez durulayın, ardından 30 dakika suda bekletin ve süzün.",
    "Süzülmüş pirinci 500 ml su ile geniş bir tencereye alın, kaynayınca ısıyı orta-düşük yapın ve su çekilene kadar, ara ara karıştırarak yaklaşık 20 dakika pişirin.",
-   "Pirinç pişerken hindistancevizi sütünün kalın kısmını (150 ml) ayrı bir tencereye ayırın; geri kalan sütü ve kalan kremayı şimdilik bir kenara koyun.",
+   "Pirinç pişerken ikinci kutu hindistancevizi sütünün kalın kısmını (150 ml) ayrı bir tencereye ayırın.",
    "Pişmiş pirince 400 ml hindistancevizi sütü, şekeri ve bir tutam tuzu ekleyin. Orta-düşük ısıda, sık karıştırarak yaklaşık 25 dakika, karışım koyulaşıp tencerenin kenarından ayrılana kadar pişirin.",
    "Yağlı kağıt veya muz yaprağıyla kaplanmış 20x20 cm'lik bir kalıba karışımı dökün ve spatulayla yüzeyini düzgünce bastırarak yayın.",
    "Ayırdığınız 150 ml kalın hindistancevizi kremasını orta ısıda, sürekli karıştırarak yaklaşık 15 dakika pişirin. Yağ ayrılacak ve kremanın kısımları altın rengi, çıtır latik haline gelecek.",
@@ -45,7 +45,7 @@
   "en": [
    "Rinse the glutinous rice in cold water 3 times, then soak it in water for 30 minutes and drain.",
    "Put the drained rice in a wide pot with 500 ml water. Once boiling, lower the heat to medium-low and cook for about 20 minutes, stirring occasionally, until the water is absorbed.",
-   "While the rice cooks, skim the thick part of the coconut milk (150 ml) into a separate pot. Set the remaining coconut milk and cream aside for now.",
+   "While the rice cooks, skim the thick part of the coconut milk from the second can (150 ml) into a separate pot.",
    "Add 400 ml coconut milk, the brown sugar and a pinch of salt to the cooked rice. Cook over medium-low heat, stirring often, for about 25 minutes, until the mixture thickens and pulls away from the sides of the pot.",
    "Pour the mixture into a 20x20 cm pan lined with baking paper or banana leaf, then press the surface flat and even with a spatula.",
    "Cook the reserved 150 ml thick coconut cream over medium heat, stirring constantly, for about 15 minutes. The oil will separate and the milk solids will turn golden brown and crisp into latik.",
@@ -57,5 +57,14 @@
   "tr": "Biko tencereye yapışmasın diye son aşamada karışımı sürekli karıştırın; latiği ise koyu kahverengiye dönmeden ocaktan alın, yoksa acı olur.",
   "en": "Stir the mixture constantly at the end so it does not scorch on the bottom, and take the latik off the heat once it is golden brown, before it turns bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Coconut milk quantities don't add up: the recipe uses 400 ml milk for the rice plus 150 ml cream skimmed from the same can, but a 400 ml can cannot supply both. The cream for the latik needs its own c",
+   "Step 3 (TR and EN) refers to the 'remaining' milk from the single can, which conflicts with the fix. It should specify the cream comes from a second can."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

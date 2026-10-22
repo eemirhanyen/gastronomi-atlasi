@@ -9,7 +9,7 @@
   "en": "A layered, oily flatbread eaten in Rwanda at breakfast, lunch and dinner alongside bean stews, rice or vegetable dishes. It reached East Africa through Indian culinary influence and has become a local staple."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Hamuru yoğururken yağı en az bir kez kullanın ve her topu iyice yağlayın; bu sayede katmanlar ayrışır ve şapati yumuşak ama gevrek olur.",
   "en": "Oil the dough and each ball well, and roll gently; this separates the layers so the chapati turns out soft yet flaky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min of 60 is too low: 8 min kneading, 4 min more kneading, 30 min rest, rolling 8 balls, and cooking 8 chapatis (about 4-6 min each) add up to roughly 90 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

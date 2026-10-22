@@ -9,7 +9,7 @@
   "en": "A tart-sweet, refreshing drink made from dried hibiscus flowers flavoured with ginger and cinnamon. In Equatorial Guinea it is served daily, often with lunch and on hot afternoons."
  },
  "servings": 4,
- "time_min": 45,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Çiçekleri uzun süre kaynatmayın; aşırı kaynatma içeceği acılaştırabilir. Daha yoğun bir tat için demlenme süresini 30 dakikaya çıkarabilirsiniz.",
   "en": "Do not boil the flowers for too long, as overcooking can make the drink bitter. For a stronger flavour, extend the steeping time to 30 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 45, but the steps add up to more than that: about 5 min simmering, 20 min steeping, cooling to room temperature, then at least 1 hour of chilling. Total time is closer to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

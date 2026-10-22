@@ -9,7 +9,7 @@
   "en": "A lightly sweet, starch-thickened soup made from dried fruit and served chilled. It is eaten in Latvia mostly in summer, as a midday dish or before dessert, often topped with sour cream."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -67,5 +67,13 @@
   "tr": "Çorba soğudukça kıvamı biraz daha artar; servis öncesi kıvamı çok kalın bulursanız biraz soğuk su ekleyerek açabilirsiniz.",
   "en": "The soup thickens as it cools, so if it seems too thick before serving, thin it with a little cold water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps require about 20 minutes of simmering, cooling to room temperature, and at least 2 hours of chilling, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

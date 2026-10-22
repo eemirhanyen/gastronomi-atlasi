@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kore usulü baharatlı ıspanak (Sigeumchi namul)",
+  "tr": "Kore usulü tatlandırılmış ıspanak (Sigeumchi namul)",
   "en": "Korean Seasoned Spinach (Sigeumchi namul)"
  },
  "native": "시금치나물",
@@ -61,5 +61,13 @@
   "tr": "Ispanağı haşladıktan sonra suyunu ne kadar iyi sıkarsanız, salata o kadar lezzetli olur ve tadı sosu daha iyi emer. Tuzu en son tadarak ayarlayın, çünkü soya sosu da tuzludur.",
   "en": "The drier you squeeze the spinach after blanching, the better it will absorb the seasoning. Add the final salt last and taste first, since the soy sauce is already salty."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish title says \"baharatlı\", which means spicy in Turkish. This dish is seasoned, not spicy, and the English title \"Seasoned Spinach\" does not suggest heat. Changed to \"tatlandırılmış\" (seasone"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

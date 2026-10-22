@@ -24,7 +24,7 @@
   "en": [
    "800 ml whole milk",
    "10 g salep powder",
-   "40 g powdered sugar",
+   "40 g granulated sugar",
    "2.5 ml orange blossom water",
    "20 g desiccated coconut",
    "20 g chopped pistachios",
@@ -53,5 +53,13 @@
   "tr": "Salep tozunu sütün içine topaklanmadan eklemek için önce soğuk sütle iyice karıştırın; salep bulunamazsa 20 g mısır nişastası kullanılabilir, ancak tadı farklı olur.",
   "en": "Mix the salep fully into the cold milk first to avoid lumps; if salep is unavailable, 20 g cornflour can replace it, though the flavour will differ."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient 'powdered sugar' usually means icing sugar, but the Turkish 'toz şeker' is ordinary granulated sugar. The two versions disagree on the ingredient."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

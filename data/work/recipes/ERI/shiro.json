@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Nohut unu topaklanmadan eklenmesi için karışımı önceden soğuk suyla iyice pürüzsüzleştirin ve kaynayan suya yavaşça dökerken sürekli karıştırın.",
-  "en": "Mix the flour with cold water first and add it slowly to the boiling liquid while stirring constantly to avoid lumps."
+  "tr": "Nohut unu topaklanmadan eklenmesi için karışımı önceden soğuk suyla iyice pürüzsüzleştirin ve hafifçe kaynayan suya yavaşça dökerken sürekli karıştırın.",
+  "en": "Mix the flour with cold water first and add it slowly to the gently simmering liquid while stirring constantly to avoid lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to add the flour to boiling liquid, but steps 6–7 bring the water to a boil, then lower the heat before adding the flour. The tip should describe the simmering liquid the steps actually use."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A Moroccan salad of roasted peppers and tomatoes slowly simmered with garlic, cumin and paprika until thick and jammy. It is served warm or cold, often at lunch with bread, alongside tagines or couscous."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Biberleri közlerken kabuğunu iyice karartın; kabuk kolay soyulur ve salataya dumanlı bir tat verir.",
   "en": "Char the peppers thoroughly; the blistered skins peel off easily and give the salad its smoky flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: roasting takes 20-25 min, resting 10 min, peeling and chopping about 10 min, and the two simmering stages about 30 min, which totals roughly 75-85 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

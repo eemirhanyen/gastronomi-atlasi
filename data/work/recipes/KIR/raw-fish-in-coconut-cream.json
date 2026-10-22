@@ -31,10 +31,10 @@
  },
  "steps": {
   "tr": [
-   "Balık filetolarını temizleyin, kılcal kemiklerini ayıklayın ve 2 cm'lik küpler halinde kesin.",
+   "Balık filetolarını temizleyin, kılçıklarını ayıklayın ve 2 cm'lik küpler halinde kesin.",
    "Balık küplerini geniş bir kaseye alın, üzerine lime suyunu dökün ve iyice karıştırın.",
    "Balığı buzdolabında 10 dakika kadar marine edin; dış yüzeyi opak ve beyazımsı hale gelene kadar bekleyin.",
-   "Marine suyunun büyük kısmını süzün, balığın yarısını ise kasede bırakın.",
+   "Marine suyunun büyük kısmını süzün, balığın tamamını kasede bırakın.",
    "Kırmızı soğanı ve acı biberi balık kasesine ekleyin, tuzu serpin ve hafifçe karıştırın.",
    "Hindistan cevizi kremasını yavaşça ekleyin ve tüm malzemeleri nazikçe harmanlayın.",
    "Karışımı 10 dakika soğutun, ardından soğuk olarak servis yapın."
@@ -43,7 +43,7 @@
    "Clean the fish fillets, remove any pin bones, and cut them into 2 cm cubes.",
    "Place the fish cubes in a wide bowl, pour over the lime juice and stir well.",
    "Marinate in the refrigerator for about 10 minutes, until the outside turns opaque and whitish.",
-   "Drain off most of the lime juice, leaving about half of the fish in the bowl.",
+   "Drain off most of the lime juice, keeping all of the fish in the bowl.",
    "Add the red onion and chili to the fish, sprinkle over the salt and mix gently.",
    "Pour in the coconut cream slowly and fold everything together gently.",
    "Chill for 10 minutes, then serve cold."
@@ -53,5 +53,14 @@
   "tr": "Balığın en taze olduğundan emin olun; hindistan cevizi kremasını servisten hemen önce ekleyin ki kıvamı bozulmasın.",
   "en": "Use the freshest fish you can find and add the coconut cream just before serving so it stays rich and does not thin out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 (tr and en) tells the cook to keep only half the fish in the bowl, but the other half is never used again, so the recipe loses part of its fish. The step should drain the marinade and keep all ",
+   "Turkish step 1 uses \"kılcal kemik\" for pin bones. \"Kılcal\" means capillary. The correct term is \"kılçık\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

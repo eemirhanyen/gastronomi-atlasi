@@ -5,7 +5,7 @@
  },
  "native": "Rice an' peas",
  "desc": {
-  "tr": "Barbados'un ulusal yemeklerinden olan bu pilav, hindistancevizi sütü ve güveçotu ile pişirilir. Ülke genelinde Pazar öğle yemeklerinde ve kutlamalarda, etli ana yemeklerin yanında servis edilir.",
+  "tr": "Barbados'un ulusal yemeklerinden olan bu pilav, hindistancevizi sütü ve kekik ile pişirilir. Ülke genelinde Pazar öğle yemeklerinde ve kutlamalarda, etli ana yemeklerin yanında servis edilir.",
   "en": "A national staple of Barbados, this rice is cooked in coconut milk with thyme and a whole Scotch bonnet pepper. It is served across the island at Sunday lunches and celebrations, alongside meat and fish dishes."
  },
  "servings": 4,
@@ -20,7 +20,7 @@
    "80 g tuzlu domuz yağı veya pastırma, küp doğranmış",
    "15 ml sıvı yağ",
    "1 orta boy soğan (100 g), ince doğranmış",
-   "3 dal taze yaprak (kekik), ayrıca sapları",
+   "3 dal taze kekik",
    "3 dal yeşil soğan, doğranmış",
    "3 diş sarımsak, ezilmiş",
    "1 adet Scotch bonnet biberi (bütün, çatalla delinmiş)",
@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "Pirinci bol soğuk suda, su berrak kalana kadar 2-3 kez yıkayıp süzün.",
-   "Kalın tabanlı bir tencerede yağı ısıtın, tuzlu domuz yağını ekleyip gevrek ve yağı salana kadar 4-5 dakika kavurun.",
+   "Kalın tabanlı bir tencerede yağı ısıtın, tuzlu domuz yağını ekleyip gevrek hale gelip yağını salıncaya kadar 4-5 dakika kavurun.",
    "Soğan, yeşil soğan ve sarımsağı ekleyip yumuşayana kadar yaklaşık 4 dakika pişirin.",
    "Süzülmüş bezelyeyi ve ayırdığınız 100 ml suyu ekleyin, 3 dakika birlikte pişirin.",
    "Hindistancevizi sütü, suyu, kekik dallarını, delinmiş Scotch bonnet biberini, tuzu ve karabiberi ekleyip kaynatın.",
@@ -71,5 +71,15 @@
   "tr": "Biberi bütün ve delinmiş halde pişirin; kesilirse yemek çok acı olur. Pirinci pişerken karıştırmak, yapışkan bir doku oluşturur.",
   "en": "Keep the Scotch bonnet whole and pricked so it flavours the rice without making it fiery; cutting it releases much more heat. Stirring while the rice cooks will make it sticky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish thyme ingredient wording is awkward and unclear ('3 dal taze yaprak (kekik), ayrıca sapları'); the English says '3 sprigs fresh thyme'.",
+   "Turkish description uses 'güveçotu' for thyme, which is not the standard term; 'kekik' is used elsewhere in the recipe.",
+   "Turkish step 2 phrasing 'yağı salana kadar' is unnatural; 'yağını salıncaya kadar' is the idiomatic form."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

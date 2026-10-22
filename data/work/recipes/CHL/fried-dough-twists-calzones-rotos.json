@@ -5,7 +5,7 @@
  },
  "native": "Calzones rotos",
  "desc": {
-  "tr": "Şili'de her yıl özellikle kış aylarında, aile kahvaltılarında ve Ulusal Bayram haftasında yaygın olarak yenen, ince kesilmiş, ortasından yarılıp bir ucu içinden geçirilen tatlı kızarmış hamur şekeridir. Sıcakken pudra şekeri ve tarçınla servis edilir.",
+  "tr": "Şili'de her yıl özellikle kış aylarında, aile kahvaltılarında ve Ulusal Bayram haftasında yaygın olarak yenen, ince kesilmiş, ortasından yarılıp bir ucu içinden geçirilen tatlı, kızarmış bir hamur tatlısıdır. Sıcakken pudra şekeri ve tarçınla servis edilir.",
   "en": "A sweet, fried dough pastry from Chile, eaten widely in winter, at family breakfasts and during the National Holiday week. The thin strips are slit in the middle, one end is pulled through, and they are served warm, dusted with powdered sugar and cinnamon."
  },
  "servings": 4,
@@ -71,5 +71,13 @@
   "tr": "Hamuru çok fazla yoğurmayın; gevrek ve kabarık bir doku için yağın sıcaklığını 170°C’de sabit tutun.",
   "en": "Do not overwork the dough, and keep the oil steady at 170°C so the twists stay crisp and light rather than greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls the dish a \"hamur şekeri\", which is not a natural term for a fried dough dessert; \"hamur tatlısı\" is the usual phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

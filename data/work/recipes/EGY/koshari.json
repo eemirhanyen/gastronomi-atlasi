@@ -15,7 +15,7 @@
   "tr": [
    "200 g uzun taneli pirinç",
    "100 g kahverengi mercimek",
-   "400 g konserve nohut (süzülmüş, yaklaşık 250 g)",
+   "250 g süzülmüş konserve nohut (yaklaşık 400 g kutu)",
    "100 g dirsek makarna",
    "3 orta boy soğan (yaklaşık 450 g), soyulmuş",
    "75 ml sıvı yağ (bölünmüş)",
@@ -24,7 +24,7 @@
    "30 ml beyaz sirke",
    "1 tatlı kaşığı öğütülmüş kimyon",
    "1/2 tatlı kaşığı pul biber",
-   "1 tatlı kaşığı tuz, ayrıca tencere suyu için tuz",
+   "1 1/2 tatlı kaşığı tuz, ayrıca tencere suyu için tuz",
    "1/2 tatlı kaşığı karabiber",
    "400 ml su (pirinç için)",
    "600 ml su (mercimek için)"
@@ -32,7 +32,7 @@
   "en": [
    "200 g long-grain rice",
    "100 g brown lentils",
-   "400 g canned chickpeas, drained (about 250 g)",
+   "250 g drained canned chickpeas (from a 400 g can)",
    "100 g elbow macaroni",
    "3 medium onions (about 450 g), peeled",
    "75 ml vegetable oil (divided)",
@@ -41,7 +41,7 @@
    "30 ml white vinegar",
    "1 tsp ground cumin",
    "1/2 tsp dried chili flakes",
-   "1 tsp fine salt, plus salt for the pasta water",
+   "1 1/2 tsp fine salt, plus salt for the pasta water",
    "1/2 tsp black pepper",
    "400 ml water (for the rice)",
    "600 ml water (for the lentils)"
@@ -73,5 +73,14 @@
   "tr": "Soğanları kızartırken tavayı kalabalık yapmayın ve sık karıştırın; soğanlar tavada değil, soğuduktan sonra çıtırlaşır, bu yüzden kağıt havlu üzerinde bekletin.",
   "en": "Fry the onions in batches and stir often. They crisp up as they cool on paper towels, so do not worry if they seem soft in the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt totals don't match: the steps use 1/2 tsp for the lentils, 1/2 tsp for the rice and 1/2 tsp for the sauce (1.5 tsp plus a pinch for the chickpeas), but the ingredient list says 1 tsp.",
+   "Chickpea quantity is ambiguous: the list says 400 g, but the steps use the drained weight (about 250 g)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

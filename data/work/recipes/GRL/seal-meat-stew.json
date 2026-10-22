@@ -9,7 +9,7 @@
   "en": "A simple, hearty stew of seal meat, onion and potatoes, eaten across Greenland, especially in winter and after a hunting trip."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -59,5 +59,13 @@
   "tr": "Fok eti koyu renkli ve güçlü aromalıdır; bulamazsanız kuzu omuzu kullanabilirsiniz, pişirme süresi hemen hemen aynı kalır.",
   "en": "Seal meat is dark and strongly flavoured; if you cannot find it, lamb shoulder works with nearly the same cooking time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 90, but the steps add up to roughly 115-120 minutes (about 10 min searing, 5 min onion, 60 min simmer, 20-25 min potatoes, plus preparation)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

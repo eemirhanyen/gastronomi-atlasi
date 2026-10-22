@@ -9,11 +9,11 @@
   "en": "A hearty main course from the lowland regions of Bolivia, especially Santa Cruz and Beni, where it is commonly eaten at lunch. Rice is cooked with tender beef in a tomato and pepper sofrito and served with golden fried plantains, often on weekends and family occasions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "300 g dana bonfile veya but, ince şeritler halinde kesilmiş",
+   "300 g dana bonfile, antrikot veya but, ince şeritler halinde kesilmiş",
    "1 tatlı kaşığı öğütülmüş kimyon",
    "1 tatlı kaşığı tatlı kırmızı biber",
    "1 tatlı kaşığı tuz, tadına göre ek",
@@ -30,7 +30,7 @@
    "2 yemek kaşığı doğranmış taze maydanoz"
   ],
   "en": [
-   "300 g beef (sirloin or chuck), cut into thin strips",
+   "300 g beef (tenderloin, sirloin or round), cut into thin strips",
    "1 tsp ground cumin",
    "1 tsp sweet paprika",
    "1 tsp salt, plus more to taste",
@@ -75,5 +75,14 @@
   "tr": "Pirinç tencereye yapıştığında, en kısık ateşte pişirirken tencereyi bir kez hafifçe sallayın; dibini koruyan ince bir tabaka oluşması için birkaç dakika da kapağı açmadan bekleyin.",
   "en": "Use a heavy-bottomed pot with a tight lid so the rice steams evenly; for the best flavour, let a thin golden layer form on the base (the bottom of the pot) in the final minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef cut is inconsistent between languages: Turkish 'bonfile' (tenderloin) and 'but' (round) versus English 'sirloin or chuck'.",
+   "time_min of 60 is understated. The steps add up to roughly 70-75 minutes including the marinating, simmering, cooking and resting times."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

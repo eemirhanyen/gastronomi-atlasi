@@ -9,7 +9,7 @@
   "en": "A yeasted bread that is deep-fried until golden, popular in South Africa, especially in Afrikaner cooking and at weekend breakfasts and street markets. It is usually split open and filled with spiced mince curry, though jam is also common."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -46,14 +46,14 @@
  "steps": {
   "tr": [
    "Büyük bir kapta unu, kuru mayayı, tuzu ve şekeri karıştırın.",
-   "Ilık suyu ve tereyağını ekleyip pürüzsüz, yapışkan olmayan bir hamur elde edene kadar 8-10 dakika yoğurun.",
+   "Ilık suyu ve tereyağını ekleyip pürüzsüz, hafif yapışkan bir hamur elde edene kadar 8-10 dakika yoğurun.",
    "Hamuru üzerini örtün ve iki katına çıkana kadar sıcak bir yerde 45-60 dakika mayalanmaya bırakın.",
    "Bu arada dolguyu hazırlayın. Soğanı ince doğrayıp sıvı yağda orta ateşte 5 dakika kavurun.",
    "Kari tozunu ekleyip 1 dakika daha kavurun, ardından kıymayı ekleyip dağılana ve rengi değişene kadar 7 dakika pişirin.",
    "Domatesi küp küp doğrayıp kıymaya ekleyin, 5 dakika daha pişirin ve tuz ile karabiberle tatlandırın. Ocaktan alıp soğumaya bırakın.",
    "Mayalanan hamuru 8 eşit parçaya bölün, her birini avuçlarınızla yuvarlayıp 10 dakika dinlendirin.",
    "Her topu elinizle yaklaşık 10 cm çapında, 1 cm kalınlığında yassı bir daireye açın.",
-   "Kızartma yağını 180°C'ye kadar ısıtın. Hamur parçalarını partiler halinde ekleyip her iki yüzü altın rengi olana kadar 2-3 dakika kızartın.",
+   "Kızartma yağını 180°C'ye kadar ısıtın. Hamur parçalarını partiler halinde ekleyip her iki yüzü altın rengi olana kadar 3-4 dakika kızartın.",
    "Kızarmış vetkoekleri kağıt havlu üzerine alın, yağını süzdürün. Sıcakken ikiye kesip içini kıymalı dolguyla doldurun."
   ],
   "en": [
@@ -65,7 +65,7 @@
    "Dice the tomato, add it to the mince and cook for 5 more minutes. Season with salt and black pepper, then remove from the heat and let it cool.",
    "Divide the risen dough into 8 equal pieces, shape each into a ball and rest them for 10 minutes.",
    "Flatten each ball by hand into a disc about 10 cm across and 1 cm thick.",
-   "Heat the frying oil to 180°C. Fry the dough discs in batches for 2-3 minutes per side, until golden on both sides.",
+   "Heat the frying oil to 180°C. Fry the dough discs in batches for 3-4 minutes per side, until golden on both sides.",
    "Drain the vetkoek on kitchen paper. While still warm, split them open and fill with the mince mixture."
   ]
  },
@@ -73,5 +73,15 @@
   "tr": "Yağ sıcaklığını termometreyle kontrol edin; 180°C'nin altında vetkoek yağ çeker ve ağır olur, üstünde ise dış kısmı yanarken iç kısmı pişmez.",
   "en": "Check the oil with a thermometer. Below 180°C the vetkoek will absorb too much oil and turn heavy, while hotter oil will burn the outside before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the dough should be 'yapışkan olmayan' (non-sticky), but the English says 'slightly tacky'. The Turkish should match.",
+   "Frying time of 2-3 minutes per side at 180°C is likely too short for a 1 cm thick disc, so the centre may stay raw. Extended to 3-4 minutes per side in both languages.",
+   "time_min is 60, but the recipe includes a 45-60 minute proof, a 10 minute rest and frying, so the total is closer to 2 hours. Corrected to 120."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

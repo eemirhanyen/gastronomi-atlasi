@@ -17,7 +17,7 @@
    "1 tatlı kaşığı tuz",
    "1 tatlı kaşığı şeker",
    "180 ml ılık su",
-   "4 yemek kaşığı sıvı yağ",
+   "3 yemek kaşığı sıvı yağ",
    "300 g dana kıyma",
    "1 orta boy soğan (yaklaşık 100 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -37,7 +37,7 @@
    "1 teaspoon salt",
    "1 teaspoon sugar",
    "180 ml lukewarm water",
-   "4 tablespoons vegetable oil",
+   "3 tablespoons vegetable oil",
    "300 g beef mince",
    "1 medium onion (about 100 g), finely chopped",
    "2 garlic cloves, crushed",
@@ -59,30 +59,41 @@
    "Hamuru kapatıp oda sıcaklığında 30 dakika dinlendirin.",
    "Geniş bir tavada 2 yemek kaşığı sıvı yağı orta ateşte ısıtın. Soğan, sarımsak ve yeşil biberi yumuşayana kadar yaklaşık 5 dakika soteleyin.",
    "Kişniş, kimyon, zerdeçal, köri tozu ve garam masalayı ekleyip 1 dakika kavurun. Kıymayı ekleyin ve suyunu çekip kahverengileşene kadar yaklaşık 8-10 dakika pişirin.",
-   "Ocaktan alın, yeşil soğan, taze kişniş ve 1/2 tatlı kaşığı tuzu (tarifte belirtilen tuz hamurdadır, harca ayrıca tuz eklemeye gerek yoktur, dilediğiniz kadar tadın) karıştırıp harcı soğumaya bırakın.",
+   "Ocaktan alın, yeşil soğan ve taze kişnişi karıştırıp harcı soğumaya bırakın. (Hamurda tuz olduğu için harca ayrıca tuz eklemeyin.)",
    "Hamuru 4 eşit topa bölün. Ellerinize ve tezgâhınıza az yağ sürün, her topu çok ince, yaklaşık 30 cm çapında bir yufka gibi açın.",
    "Her hamurun ortasına harcın dörtte birini yayın, üzerine çırpılmış yumurtanın dörtte birini dökün.",
    "Hamurun kenarlarını ortaya doğru katlayarak harcı kapatın ve kare bir paket oluşturun.",
-   "Tavayı orta-yüksek ateşte ısıtın, 1/2 yemek kaşığı sade yağ ekleyin. Paketi dikiş tarafı aşağı gelecek şekilde koyun ve 3-4 dakika, altı altın rengi olana kadar pişirin.",
-   "Çevirip diğer tarafını da 3-4 dakika pişirin. Spatula ile hafifçe bastırarak hamurun iyice pişmesini sağlayın. Kalan hamur ve harçla aynı işlemi tekrarlayın.",
-   "Sıcak sıcak parçalara kesip servis yapın."
+   "Tavayı orta-yüksek ateşte ısıtın, her parça için 1/2 yemek kaşığı sade yağ ekleyin. Paketi dikiş tarafı aşağı gelecek şekilde koyun ve 3-4 dakika, altı altın rengi olana kadar pişirin.",
+   "Çevirip diğer tarafını da 3-4 dakika pişirin. Spatula ile hafifçe bastırarak yumurtanın ve hamurun iyice pişmesini sağlayın. Kalan hamur ve harçla aynı işlemi tekrarlayın.",
+   "Sıcak sıcak parçalara kesip köri sosuyla birlikte servis edin."
   ],
   "en": [
    "In a large bowl, mix the flour, salt and sugar. Add the lukewarm water and 1 tablespoon of the oil, then knead for 8-10 minutes until smooth and elastic.",
    "Cover the dough and rest it at room temperature for 30 minutes.",
    "Heat 2 tablespoons of oil in a wide pan over medium heat. Fry the onion, garlic and green chilli for about 5 minutes until soft.",
    "Add the ground coriander, cumin, turmeric, curry powder and garam masala and stir for 1 minute. Add the beef mince and cook for 8-10 minutes, until browned and the liquid has evaporated.",
-   "Remove from the heat and stir in the spring onion and fresh coriander. Season with the 1 teaspoon of salt if needed (the dough also contains salt, so taste first). Let the filling cool.",
+   "Remove from the heat, stir in the spring onion and fresh coriander, and let the filling cool. (The dough already contains salt, so do not add more to the filling.)",
    "Divide the dough into 4 equal balls. Lightly oil your hands and work surface, then stretch each ball into a very thin sheet about 30 cm across.",
    "Spread a quarter of the filling in the centre of each sheet and pour a quarter of the beaten egg over it.",
    "Fold the edges of the dough over the filling towards the centre to make a neat square parcel.",
-   "Heat 1/2 tablespoon of ghee in a pan over medium-high heat. Place a parcel seam-side down and cook for 3-4 minutes until the base is golden.",
-   "Flip and cook the other side for another 3-4 minutes, pressing gently with a spatula so the egg sets. Repeat with the remaining dough and filling. Cut into pieces and serve hot."
+   "Heat a pan over medium-high heat and add 1/2 tablespoon of ghee for each parcel. Place a parcel seam-side down and cook for 3-4 minutes until the base is golden.",
+   "Flip and cook the other side for another 3-4 minutes, pressing gently with a spatula so the egg and dough cook through. Repeat with the remaining dough and filling. Cut into pieces and serve hot with curry sauce."
   ]
  },
  "tip": {
   "tr": "Hamuru çok ince açmak, kıvrımlı ve katmanlı bir doku için önemlidir; yağlı ellerle çalışmak yapışmayı önler.",
   "en": "Stretch the dough as thinly as you can and keep your hands oiled, as this gives the flaky layers and stops it sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt in the filling step contradicts itself in Turkish: it says 1/2 tsp salt, then says no extra salt is needed. English says 1 tsp. The ingredient list has only 1 tsp salt, for the dough.",
+   "Oil quantity mismatch: 4 tbsp vegetable oil is listed, but the steps use 1 tbsp (dough) + 2 tbsp (sauté) = 3 tbsp.",
+   "Description says the dish is served with curry sauce, but the steps never mention it.",
+   "Ghee instruction in the Turkish step is ambiguous about amount per parcel (1/2 tbsp is used four times, totalling the listed 2 tbsp)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

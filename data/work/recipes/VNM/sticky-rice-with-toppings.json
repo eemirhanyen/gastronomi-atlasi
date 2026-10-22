@@ -9,7 +9,7 @@
   "en": "A popular Vietnamese breakfast eaten on the street and at home, especially in the morning. Glutinous rice is topped with mashed mung beans and crisp fried shallots."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,5 +51,13 @@
   "tr": "Pirincin buharda pişmeden önce kaynayan suyla birkaç kez ıslatılması, daha ayrı ve parlak taneler elde etmenizi sağlar.",
   "en": "Dampen the rice lightly with hot water once or twice during steaming to keep the grains separate and glossy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is less than the active cooking time in the steps (about 75 min: 25 min bean steaming, 8 min frying, 30 min rice steaming, 10 min rest), and it leaves out the 4-hour rice and 2-hour bean"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,7 +16,7 @@
    "2 l taze palmiye özsuyu (nira)",
    "50 g palmiye şekeri, ufalanmış",
    "20 g taze zencefil, ince dilimlenmiş",
-   "1 g kuru şarap mayası (isteğe bağlı, nira yoksa)"
+   "1 g kuru şarap mayası (isteğe bağlı, özsu taze değilse)"
   ],
   "en": [
    "2 l fresh palm sap (nira)",
@@ -32,7 +32,7 @@
    "Dilimlenmiş zencefili ekleyin.",
    "Eğer özsu taze değilse ya da çabuk mayalanmasını istiyorsanız kuru şarap mayasını ekleyip iyice karıştırın.",
    "Ağzını temiz bir bezle örtüp hava almasını sağlayın ve 25-30 °C sıcaklıkta, gölgede bekletin.",
-   "Her gün bir kez karıştırın ve tadına bakın; 2-3 gün içinde hafif ekşiyip köpürmeye başlayınca fermentasyon tamamlanmış demektir.",
+   "Birkaç saatte bir kontrol edip tadına bakın; yaklaşık 12-24 saat içinde köpürmeye ve hafif ekşimsi tatlı bir lezzet almaya başlayınca fermentasyon büyük ölçüde tamamlanmış demektir. Bundan sonra bekletmeyin, aksi halde sirkeleşir.",
    "Sıvıyı temiz bir bezden süzün, temiz şişelere koyun ve ağzını gevşek kapatarak buzdolabında soğutun.",
    "Soğuk olarak küçük bardaklarda servis edin ve birkaç gün içinde tüketin."
   ],
@@ -42,14 +42,25 @@
    "Add the sliced ginger.",
    "If the sap is not fresh or you want faster fermentation, stir in the dried wine yeast.",
    "Cover the opening with a clean cloth to let air in and leave it in a shaded spot at 25-30 °C.",
-   "Stir once a day and taste; after 2-3 days, when it turns slightly sour and begins to bubble, fermentation is complete.",
+   "Check and taste every few hours; after about 12-24 hours, when it begins to bubble and has a mildly tangy-sweet taste, fermentation is largely complete. Do not leave it longer, or it will turn vinegary.",
    "Strain the liquid through a clean cloth, pour into clean bottles, loosely cap them and chill in the refrigerator.",
    "Serve cold in small cups and drink within a few days."
   ]
  },
  "tip": {
-  "tr": "Fermentasyon sırasında kabı tamamen kapatmayın; gaz birikirse şişe patlayabilir. Sıvı ekşi kokmaya başlarsa veya küf görülürse tamamen atın.",
+  "tr": "Fermentasyon sırasında kabı tamamen kapatmayın; gaz birikirse şişe patlayabilir. Sıvı sirke gibi kokmaya başlarsa veya küf görülürse tamamen atın.",
   "en": "Never seal the container airtight during fermentation, as built-up gas can burst it. If the liquid smells vinegary or shows any mould, discard it completely."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fermentation timing is wrong: fresh palm sap (tuak) ferments within about 12-24 hours. A 2-3 day wait with daily stirring lets the sap turn vinegary, which is a spoilage risk.",
+   "Judging completion by 'slightly sour' is misleading because sourness signals acetification. Completion should be judged by bubbling and a mildly tangy-sweet taste.",
+   "Turkish optional-yeast ingredient says 'nira yoksa' (if there is no sap), but the English says 'if palm sap is not fresh' and the Turkish step 4 says 'özsu taze değilse'. The Turkish ingredient note m",
+   "Ginger is not a traditional tuak ingredient in Timor-Leste. It is kept here as the recipe's own choice, not flagged as an error."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

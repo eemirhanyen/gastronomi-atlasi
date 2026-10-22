@@ -9,7 +9,7 @@
   "en": "A classic New Zealand vanilla ice cream studded with crunchy pieces of honeycomb toffee, known locally as hokey pokey. It is eaten throughout the summer, at family picnics, beach outings and summer fairs."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 420,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -43,12 +43,12 @@
    "Geniş ve kalın tabanlı bir tencerede 200 g toz şekeri, altın şurubu ve 60 ml suyu orta ateşte eritin. Karıştırmadan kaynatın ve karışım koyu kehribar renge dönene kadar (yaklaşık 150-160°C) bekleyin.",
    "Ocaktan alın, bikarbonatı ekleyip hızla karıştırın. Karışım kabarır, bu yüzden tencereyi büyük tutun.",
    "Hemen tepsiye dökün ve karıştırmadan tamamen soğumaya bırakın (en az 1 saat).",
-   "Soğuyan bal peteğinin yarısını (yaklaşık 80 g) elinizle veya bir torbanın içinde oklava ile kırın. Kalan kısmı başka bir dondurma için saklayabilirsiniz.",
+   "Soğuyan bal peteğini parçalara ayırın, ardından 80 g'ını elinizle veya bir torbanın içinde oklava ile kırın. Kalan kısmı başka bir dondurma için saklayabilirsiniz.",
    "Dondurma için bir tencerede süt, kremayı ve vanilyayı (çubuğu ikiye ayırıp tohumlarıyla birlikte) orta ateşte ısıtın, kaynamaya yakın sıcaklığa getirin.",
    "Ayrı bir kapta yumurta sarılarını 100 g toz şekerle pürüzsüz bir karışım olana kadar çırpın.",
    "Sıcak süt karışımından yavaş yavaş yumurta karışımının üzerine dökün, sürekli çırparak sarıları ısıtın.",
    "Tüm karışımı tencereye geri alın ve kısık ateşte, sürekli karıştırarak 80-82°C'ye ulaşana kadar pişirin. Kaşığın arkasını kaplayınca ocaktan alın.",
-   "Kreması bir elekten süzün ve üzerini örtüp buz banyosunda soğutun, ardından en az 2 saat buzdolabında dinlendirin.",
+   "Karışımı bir elekten süzün ve üzerini örtüp buz banyosunda soğutun, ardından en az 2 saat buzdolabında dinlendirin.",
    "Soğuyan karışımı dondurma makinesine dökün ve 20-25 dakika çevirin.",
    "Kıvamlanan dondurmaya kırılmış bal peteğinin 80 g'ını ekleyip hızlıca karıştırın.",
    "Kaba aktarıp üzeri kapalı şekilde en az 4 saat dondurucuda bekletin. Servisten önce 5 dakika dinlendirin."
@@ -58,7 +58,7 @@
    "In a wide, heavy-based saucepan, dissolve 200 g caster sugar, the golden syrup and 60 ml water over medium heat. Bring to the boil without stirring and cook until it turns a deep amber colour (around 150-160°C).",
    "Remove from the heat and quickly stir in the bicarbonate of soda. The mixture will foam up dramatically, so use a large pan.",
    "Pour immediately onto the lined tray and leave to cool completely without touching it, for at least 1 hour.",
-   "Break the cooled honeycomb in half, then crush 80 g of it by hand or with a rolling pin inside a bag. Keep the rest for another use.",
+   "Break the cooled honeycomb into pieces, then crush 80 g of it by hand or with a rolling pin inside a bag. Keep the rest for another use.",
    "For the custard, warm the milk, cream and vanilla (split pod with seeds scraped in) in a saucepan over medium heat until steaming just below the boil.",
    "In a separate bowl, whisk the egg yolks with 100 g caster sugar until smooth and pale.",
    "Slowly pour the hot milk mixture onto the yolks while whisking constantly to temper them.",
@@ -73,5 +73,15 @@
   "tr": "Bal peteğini dondurmaya en son ekleyin; uzun süre bekletirseniz nem çekip yumuşar ve gevrekliğini kaybeder.",
   "en": "Fold in the honeycomb as late as possible; left standing, it absorbs moisture and loses its crunch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe needs at least 1 hour to cool the honeycomb, 2 hours to chill the custard, 20-25 minutes to churn and 4 hours to freeze. Total time is far longer.",
+   "Turkish step 5 says half the honeycomb is about 80 g, but English says to break it in half and crush 80 g of it. These disagree. A full batch of about 255 g would make half roughly 125 g, so the Turki",
+   "Turkish step 9 says \"Kreması\" (\"its cream\") for the strained custard. Krema also means cream, so this is ambiguous. \"Karışımı\" is the correct term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

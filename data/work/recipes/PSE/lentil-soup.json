@@ -22,7 +22,8 @@
    "1,5 L su",
    "1 tatlı kaşığı (6 g) tuz",
    "1/2 tatlı kaşığı karabiber",
-   "1 limon, yarısının suyu sıkılmış, yarısı dilim halinde"
+   "1 limon, yarısının suyu sıkılmış, yarısı dilim halinde",
+   "Servis için 1 tatlı kaşığı (5 ml) zeytinyağı"
   ],
   "en": [
    "250 g red lentils",
@@ -34,7 +35,8 @@
    "1.5 L water",
    "1 tsp (6 g) salt",
    "1/2 tsp black pepper",
-   "1 lemon, half juiced, half cut into wedges"
+   "1 lemon, half juiced, half cut into wedges",
+   "1 tsp (5 ml) olive oil for serving"
   ]
  },
  "steps": {
@@ -47,7 +49,7 @@
    "Mercimekleri ve suyu ekleyin, tuzu katın. Kaynamaya başlayınca ateşi kısın, kapağı yarı açık şekilde mercimek ve sebzeler iyice yumuşayana kadar yaklaşık 25 dakika pişirin.",
    "Ocaktan alıp çorbayı blenderdan geçirerek pürüzsüz hale getirin. Kıvam çok koyu gelirse sıcak su ekleyin.",
    "Çorbayı tekrar ocağa alın, 2-3 dakika ısıtın ve limonun yarısının suyunu ekleyerek karıştırın. Tadını kontrol edip gerekirse tuz ekleyin.",
-   "Kaselere alın, üzerine kızartılmış soğanları ve bir tutam zeytinyağı gezdirin. Limon dilimleriyle birlikte sıcak servis yapın."
+   "Kaselere alın, üzerine kızartılmış soğanları ve servis için ayrılan zeytinyağını gezdirin. Limon dilimleriyle birlikte sıcak servis yapın."
   ],
   "en": [
    "Rinse the lentils in cold water 2-3 times and drain.",
@@ -58,12 +60,20 @@
    "Add the lentils and water, then season with salt. Once it starts to boil, reduce the heat and simmer, partly covered, for about 25 minutes until the lentils and vegetables are very soft.",
    "Remove from the heat and blend until smooth. If it is too thick, add a little hot water.",
    "Return the soup to the heat, warm for 2-3 minutes, and stir in the juice of half the lemon. Taste and add salt if needed.",
-   "Ladle into bowls, top with the fried onions and a drizzle of olive oil, and serve hot with the lemon wedges."
+   "Ladle into bowls, top with the fried onions and the reserved olive oil, and serve hot with the lemon wedges."
   ]
  },
  "tip": {
   "tr": "Limon suyunu çorbayı ocaktan almadan hemen önce ekleyin; uzun kaynatmak aromasını ve tazeliğini kaybettirir.",
   "en": "Add the lemon juice just before serving rather than during cooking, since boiling dulls its fresh, bright flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 (both languages) asks for a drizzle of olive oil over the finished soup, but no olive oil for garnish is listed in the ingredients."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

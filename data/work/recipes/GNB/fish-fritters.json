@@ -28,8 +28,8 @@
    "500 ml kızartma yağı (ayçiçek veya mısır)"
   ],
   "en": [
-   "500 g white fish fillets (sea bream, croaker or cod)",
-   "1 tbsp salt (about 6 g), plus 1 tsp for the fish",
+   "500 g white fish fillets (sea bass, scorpionfish or cod)",
+   "1 tsp salt (about 6 g), plus 1 tsp for the fish",
    "300 ml water",
    "150 g plain flour",
    "1 tsp baking powder (4 g)",
@@ -55,7 +55,7 @@
   ],
   "en": [
    "Put the fish in a pan with 300 ml water and 1 tsp salt, bring to the boil, then reduce the heat and simmer for 8 minutes. Drain, leave to cool, then flake with a fork and remove any bones.",
-   "In a bowl, mix the flour, baking powder, 1 tbsp salt and black pepper. Add the egg and whisk into a smooth batter about the thickness of thick cream; add 1-2 tbsp water if needed.",
+   "In a bowl, mix the flour, baking powder, 1 tsp salt and black pepper. Add the egg and whisk into a smooth batter about the thickness of thick cream; add 1-2 tbsp water if needed.",
    "Add the onion, garlic, chilli and parsley to the flaked fish, then pour in the lime juice and mix well.",
    "Fold the fish mixture into the batter and rest for 10 minutes.",
    "Wet your hands with water, take walnut-sized portions of the mixture and shape them into slightly flattened patties.",
@@ -67,5 +67,14 @@
   "tr": "Kızartma yağı 170°C'de olmalı; daha düşük sıcaklıkta köfteler yağ içer ve dağılır.",
   "en": "Keep the oil at 170°C; if it is cooler, the fritters absorb too much oil and may fall apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English salt amount says '1 tbsp (about 6 g)' and step 2 says '1 tbsp salt', but 6 g is a teaspoon. The Turkish 'tatlı kaşığı' is a teaspoon, so the English should read 1 tsp.",
+   "English fish list says 'sea bream, croaker or cod', but the Turkish says 'levrek, iskorpit veya morina' (sea bass, scorpionfish, cod). Sea bream and croaker do not match these, so the English should m"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

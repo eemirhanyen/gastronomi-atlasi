@@ -21,7 +21,7 @@
    "10 g kişniş tohumu",
    "10 g tuz",
    "15 ml sıvı yağ",
-   "1 yemek kaşığı çavdar unu (kalıp için)"
+   "1 yemek kaşığı çavdar unu (üstü için)"
   ],
   "en": [
    "250 g wheat flour (strong bread flour)",
@@ -45,7 +45,7 @@
    "Hamuru hafifçe bastırıp gaz alın ve oval bir somun şekli verin. Fırın tepsisine yağ sürüp hamuru yerleştirin, üstüne çavdar unu serpip örtün ve 45 dakika dinlendirin.",
    "Fırını 230°C'ye ısıtın. Somunun üstünü hafifçe yağlayıp keskin bir bıçakla birkaç çizik atın.",
    "Somunu fırının alt rafına koyup 10 dakika 230°C'de pişirin, ardından ısıyı 200°C'ye düşürüp 35 dakika daha pişirin.",
-   "Ekmeğin altına vurduğunuzda içi boş bir ses gelmesi pişmiş olduğunu gösterir. Fırından çıkarıp tel ızgara üzerinde tamamen soğumaya bırakın."
+   "Ekmeğin altına vurduğunuzda içi boş bir ses gelmesi ve iç sıcaklığının yaklaşık 96-98°C'ye ulaşması pişmiş olduğunu gösterir. Fırından çıkarıp tel ızgara üzerinde tamamen soğumaya bırakın."
   ],
   "en": [
    "Toast the coriander seeds in a dry pan over medium heat for 2 minutes, until fragrant. Crush them roughly in a mortar or with the flat of a knife.",
@@ -56,12 +56,21 @@
    "Press the dough gently to release the gas and shape it into an oval loaf. Oil a baking tray, place the loaf on it, dust the top with rye flour, cover and prove for 45 minutes.",
    "Preheat the oven to 230°C. Lightly brush the loaf with oil and make a few shallow diagonal cuts across the top with a sharp knife.",
    "Bake on the lower rack for 10 minutes at 230°C, then reduce the heat to 200°C and bake for 35 minutes more.",
-   "The loaf is done when it sounds hollow when tapped on the base. Remove from the oven and cool completely on a wire rack."
+   "The loaf is done when it sounds hollow when tapped on the base and the internal temperature reaches about 96-98°C. Remove from the oven and cool completely on a wire rack."
   ]
  },
  "tip": {
   "tr": "Çavdar ekmeği sıcakken kesilirse içi yapışır; tamamen soğuduktan sonra kesin ve birkaç gün bezde saklayın, lezzeti daha da olgunlaşır.",
   "en": "Rye bread gets gummy if cut warm, so wait until it has fully cooled before slicing; wrapped in a cloth it keeps well and the flavour deepens over a day or two."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kalıp için' (for the pan) conflicts with the English 'for dusting' and with step 6, where the rye flour is sprinkled on top of the loaf.",
+   "Doneness relies only on the hollow tap test. Dense rye loaves can look done and still be gummy inside, so an internal temperature check should be added."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

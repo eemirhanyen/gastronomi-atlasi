@@ -5,7 +5,7 @@
  },
  "native": "Сбитень",
  "desc": {
-  "tr": "Balla, baharatla ve bazen narla tatlandırılan, sıcak servis edilen geleneksel bir Rus içeceğidir. Eskiden kışın sokak satıcılarının semaverlerden sattığı, soğuk havalarda ısınmak için içilen bir kış içeceği olmuştur.",
+  "tr": "Balla, baharatla ve bazen naneyle ya da limonla tatlandırılan, sıcak servis edilen geleneksel bir Rus içeceğidir. Eskiden kışın sokak satıcılarının semaverlerden sattığı, soğuk havalarda ısınmak için içilen bir kış içeceği olmuştur.",
   "en": "A traditional Russian hot drink sweetened with honey and flavoured with spices, sometimes with mint or lemon. Historically sold from samovars by street vendors, it was drunk in winter to warm up in cold weather."
  },
  "servings": 4,
@@ -57,5 +57,13 @@
   "tr": "Balı kaynayan sıvıya eklemeyin; kokusunu korumak için ocaktan aldıktan sonra karıştırın ve sıcaklığı 80 °C'nin altında tutun.",
   "en": "Add the honey off the heat and keep the drink below 80 °C, since boiling dulls honey's aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the drink is sometimes flavoured with \"nar\" (pomegranate), but the English description says \"mint or lemon\" and the recipe uses mint and lemon. The Turkish text should say \"na"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

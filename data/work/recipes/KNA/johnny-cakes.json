@@ -39,7 +39,7 @@
    "Hamuru örtüp oda sıcaklığında 15 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün, her birini top haline getirip avuç içiyle yaklaşık 1 cm kalınlığında yuvarlak disk şeklinde yassılaştırın.",
    "Geniş bir tavaya bitkisel yağı yaklaşık 1 cm yükseklikte dökün ve yağı 170-180°C'ye kadar ısıtın.",
-   "Yağ ısınınca hamur disklerini partiler halinde ekleyin ve her iki yüzü de altın rengi olana kadar yaklaşık 4-5 dakika kızartın.",
+   "Yağ ısınınca hamur disklerini partiler halinde ekleyin ve bir kez çevirerek her iki yüzü de altın rengi ve iyice pişmiş olana kadar, her yüzü yaklaşık 3-4 dakika kızartın.",
    "Kızaran johnny keklerini kağıt havlu serili bir tabağa alarak fazla yağını süzdürün ve sıcak servis yapın."
   ],
   "en": [
@@ -49,7 +49,7 @@
    "Cover the dough and rest it at room temperature for 15 minutes.",
    "Divide the dough into 8 equal pieces, shape each into a ball, then flatten with your palm into rounds about 1 cm thick.",
    "Pour vegetable oil into a wide pan to a depth of about 1 cm and heat the oil to 170-180°C.",
-   "When the oil is hot, add the dough rounds in batches and fry for about 4-5 minutes, turning once, until both sides are golden brown.",
+   "When the oil is hot, add the dough rounds in batches and fry for about 3-4 minutes per side, turning once, until both sides are golden brown and cooked through.",
    "Transfer the cooked johnny cakes to a plate lined with paper towels to drain excess oil, then serve hot."
   ]
  },
@@ -57,5 +57,13 @@
   "tr": "Hamuru yağa koymadan önce diskleri çok ince açmayın; kalın kalan johnny kekleri içinde yumuşak kalır, dışı da daha az yağ çeker.",
   "en": "Keep the discs about 1 cm thick rather than rolling them thin; thicker johnny cakes stay soft inside and absorb less oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time (about 4-5 minutes total for 1 cm thick discs) may leave the centres of the dough raw. The English says 'turning once' but the Turkish step omits the turn. Turkish and English should match"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

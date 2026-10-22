@@ -39,10 +39,10 @@
   "tr": [
    "Büyük bir kapta un, şeker, kabartma tozu, öğütülmüş kakule ve tuzu karıştırın.",
    "Ortaya yumurtayı ve eritilmiş tereyağını ekleyip elinizle karıştırın.",
-   "Hindistan cevizi sütünü azar azar ekleyerek yumuşak ama yapışkan olmayan bir hamur yoğurun; gerekirse 1-2 yemek kaşığı daha un kullanın.",
+   "Hindistan cevizi sütünü azar azar ekleyerek yumuşak, hafifçe yapışkan bir hamur yoğurun; gerekirse 1-2 yemek kaşığı daha un kullanın.",
    "Hamuru 5-7 dakika pürüzsüz olana kadar yoğurun, ardından kapatıp oda sıcaklığında 20 dakika dinlendirin.",
    "Hamuru 1 cm kalınlığında bir yufka gibi açın ve bıçakla üçgen ya da şerit şeklinde kesin.",
-   "Yağı orta-yüksek ateşte 170 °C'ye kadar ısıtın. Yağ yoksa bir parça hamuru atıp hemen yukarı çıkıp çıkmadığını kontrol edin.",
+   "Yağı orta-yüksek ateşte 170 °C'ye kadar ısıtın. Termometreniz yoksa bir parça hamuru atıp hemen yukarı çıkıp çıkmadığını kontrol edin.",
    "Hamur parçalarını partiler halinde yağa atın ve 2-3 dakika, altın rengi olana kadar bir kez çevirerek kızartın.",
    "Mandazileri süzgeç kaşığıyla alıp kağıt havlu serili tabağa koyun ve fazla yağı akıtın.",
    "Ilık servis edin; sıcak çayla birlikte ikram edin."
@@ -63,5 +63,14 @@
   "tr": "Hamuru fazla un ekleyerek sertleştirmeyin; yumuşak hamur, kızartıldığında daha kabarık ve hafif bir iç doku verir.",
   "en": "Keep the dough soft and avoid adding too much flour; a tender dough gives a fluffier, lighter interior when fried."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"Yağ yoksa\" (\"if there is no oil\"), but the English means \"without a thermometer\". The Turkish should say \"Termometreniz yoksa\".",
+   "Turkish step 3 describes the dough as \"yapışkan olmayan\" (not sticky), while the English says \"slightly tacky\". The Turkish should say \"hafifçe yapışkan\" to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

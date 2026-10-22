@@ -17,7 +17,7 @@
    "60 ml taze limon suyu",
    "40 ml taze portakal suyu (ekşi portakal yerine)",
    "6 diş sarımsak (yaklaşık 18 g), ezilmiş",
-   "1 çay kaşığı kuru kekik (2 g)",
+   "1 çay kaşığı kuru kekik (oregano) (2 g)",
    "1 çay kaşığı öğütülmüş kimyon (2 g)",
    "1 yemek kaşığı Dominik adobo baharatı (15 g)",
    "1 çay kaşığı tuz (6 g)",
@@ -67,5 +67,13 @@
   "tr": "Kızartmadan önce tavuğu iyice kurulayın; nemli parçalar yağı sıçratır ve çıtır bir kabuk oluşmaz.",
   "en": "Pat the chicken dry before frying: wet pieces spatter the oil and won't develop a crisp crust."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient says 'kuru kekik' (thyme), but the English says 'dried oregano'. Oregano is the traditional herb in Dominican chicharrón, so the Turkish label should make that ex"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

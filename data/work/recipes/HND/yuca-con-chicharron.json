@@ -16,6 +16,7 @@
    "1 kg yuka (manyok), soyulmuş ve 8 cm'lik parçalara ayrılmış",
    "1 tatlı kaşığı tuz (yuka suyu için)",
    "500 g domuz göbeği, derisi üzerinde, 3 cm'lik küpler halinde",
+   "1 litre su (domuz eti için)",
    "2 diş sarımsak, ezilmiş",
    "1 tatlı kaşığı kurutulmuş kekik ya da Meksika kekiği (oregano)",
    "1 tatlı kaşığı tuz (domuz eti için)",
@@ -36,6 +37,7 @@
    "1 kg cassava (yuca), peeled and cut into 8 cm pieces",
    "1 tsp salt (for the cassava water)",
    "500 g pork belly, skin on, cut into 3 cm cubes",
+   "1 litre water (for the pork)",
    "2 garlic cloves, crushed",
    "1 tsp dried oregano",
    "1 tsp salt (for the pork)",
@@ -77,5 +79,13 @@
   "tr": "Yukayı pişirdikten sonra ortasındaki sert, odunsu damarı çıkarın; bu kısım çiğnemeyi zorlaştırır. Domuz etini kızartmadan önce iyice kurulamak, çıtır bir yüzey için en önemli adımdır.",
   "en": "After cooking, remove the tough, fibrous core running through the middle of each cassava piece, as it is hard to chew. Drying the pork thoroughly before frying is the key to a truly crisp chicharrón."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Pork step uses 1 litre of water (Turkish and English steps), but neither ingredient list includes it. Added '1 litre water (for the pork)' to both lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

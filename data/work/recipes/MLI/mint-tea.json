@@ -27,27 +27,37 @@
  },
  "steps": {
   "tr": [
-   "Demlik veya küçük bir tencereye çayı koyun, üzerine 100 ml kaynar su dökün, 10 saniye çalkalayıp suyu süzerek atın. Bu işlem çayın ilk acılığını alır.",
+   "Demlik veya küçük bir tencereye çayı koyun, üzerine 100 ml kaynar su dökün, 10 saniye çalkalayıp suyu süzerek atın. Bu işlem çayın sert acılığını azaltır.",
    "Çayın üzerine 650 ml kaynar su ve şekeri ekleyin. Orta ateşte şeker tamamen eriyene kadar karıştırın.",
    "Naneyi iyice yıkayın ve demetin yarısını demliğe ekleyin. Karışımı 5 dakika kısık ateşte demlenmeye bırakın.",
-   "Yüksek bir bardakta çayı bir kaba dökün, sonra tekrar demliğe geri alın. Bu işlemi 2 veya 3 kez tekrarlayarak köpük oluşturun.",
-   "Kalan naneyi küçük bir tencereye ekleyin ya da çayın son dakikalarında demliğe katın, aromanın daha belirgin olmasını sağlayın.",
-   "Çayı küçük bardaklara, bardaklardan yüksekten dökerek servis edin. Köpüğün bardakta kalmasına dikkat edin.",
-   "Aynı demlikte 2. ve 3. tur için su ekleyerek çayı servis edin; ilk tur acı, ikinci tur daha tatlı, üçüncü tur ise en tatlı olarak sunulur."
+   "Çayı yüksekten bir kaba dökün, sonra tekrar demliğe alın. Bu işlemi 2 veya 3 kez tekrarlayarak köpük oluşturun.",
+   "Kalan naneyi küçük bir tencereye ekleyin ya da çayın son dakikalarında demliğe katın; aromanın daha belirgin olmasını sağlayın.",
+   "Çayı küçük bardaklara, yüksekten dökerek servis edin. Köpüğün bardakta kalmasına dikkat edin.",
+   "Aynı demlikte yapraklara su ekleyerek 2. ve 3. turu hazırlayın; ilk tur acı, ikinci tur daha tatlı, üçüncü tur ise en tatlı olarak sunulur."
   ],
   "en": [
-   "Rinse the tea: put the tea in a teapot or small pot, pour 100 ml boiling water over it, swirl for 10 seconds and discard the water. This removes the first bitterness.",
+   "Rinse the tea: put the tea in a teapot or small pot, pour 100 ml boiling water over it, swirl for 10 seconds and discard the water. This reduces the harsh bitterness.",
    "Add 650 ml boiling water and the sugar to the tea. Stir over medium heat until the sugar has fully dissolved.",
    "Rinse the mint well and add half the bunch to the pot. Let it steep on low heat for 5 minutes.",
-   "Pour the tea from a height into a bowl and back into the pot. Repeat 2 or 3 times to create foam.",
-   "Add the remaining mint to the pot in the last minutes of brewing, or to the glasses, to intensify the aroma.",
-   "Serve in small glasses, pouring from a height so the foam rises on top.",
-   "For the second and third rounds, add fresh water to the same leaves and sugar as needed; the first round is strongest and bitter, the second is sweeter, and the third is the sweetest."
+   "Pour the tea from a height into a bowl, then back into the pot. Repeat 2 or 3 times to create foam.",
+   "Add the remaining mint to a small pan or to the pot in the last minutes of brewing to intensify the aroma.",
+   "Serve in small glasses, pouring from a height so the foam rises on top. Take care that the foam stays in the glass.",
+   "For the second and third rounds, add fresh water to the same leaves in the same pot; the first round is strongest and bitter, the second is sweeter, and the third is the sweetest."
   ]
  },
  "tip": {
   "tr": "Çayı yüksekten dökmek hem köpük oluşturur hem de aromayı karıştırır; ilk turu tatlı, son turu ise en tatlı yapmak için şekeri her turda kademeli olarak ayarlayın.",
   "en": "Pouring from height creates the foam and mixes the flavour; adjust the sugar gradually across the three rounds, keeping the final round the sweetest."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English step 5 disagree: the English says the remaining mint goes into the pot or the glasses, but the Turkish only mentions a small pot or the teapot.",
+   "Step 1 says rinsing removes the first bitterness, but step 7 says the first round is bitter. The two claims contradict each other.",
+   "English step 7 says 'as needed' for adding sugar, which the Turkish omits. The Turkish step 4 'Yüksek bir bardakta ... bir kaba dökün' is also awkward and unclear."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A Libyan dish of hand-rolled thin noodles (rishta) cooked in a tomato-spiced chicken broth. It is served at family meals, especially during Ramadan evenings and festive days."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -24,7 +24,7 @@
    "2 yemek kaşığı domates salçası",
    "2 orta boy domates (300 g), rendelenmiş",
    "1 tatlı kaşığı kimyon",
-   "1/2 tatlı kaşığı kimyon tohumu (kişniş değil, kimyon tohumu)",
+   "1/2 tatlı kaşığı karaviya tohumu",
    "1 tatlı kaşığı tatlı kırmızı biber",
    "1/2 tatlı kaşığı karabiber",
    "1,5 litre sıcak su veya tavuk suyu",
@@ -57,10 +57,10 @@
   "tr": [
    "Hamur için un ve 1 tatlı kaşık tuzu karıştırın. Ortasına 1 yemek kaşığı yağ ve ılık suyu ekleyip yumuşak, sert olmayan bir hamur yoğurun.",
    "Hamuru streç film ya da nemli bir bezle örtüp 20 dakika dinlendirin.",
-   "Hamuru ince bir oklava ile çok ince açın, yaklaşık 2 mm kalınlığında olmalı. Yuvarlanmış hamuru 5 mm genişliğinde şeritler halinde kesin ve elinizle hafifçe gererek uzatın. Un serperek kenara bırakın.",
+   "Hamuru ince bir oklava ile çok ince açın, yaklaşık 2 mm kalınlığında olmalı. Hamuru 5 mm genişliğinde şeritler halinde kesin ve elinizle hafifçe gererek uzatın. Un serperek kenara bırakın.",
    "Büyük ve kalın tabanlı bir tencerede 60 ml yağı orta ateşte ısıtın. Soğanı ekleyip altın rengi alana kadar yaklaşık 10 dakika kavurun.",
    "Tavuk parçalarını tuz ile tatlandırıp tencereye ekleyin ve her yüzü hafifçe renk alana kadar 8 dakika kavurun.",
-   "Ezilmiş sarımsağı, domates salçasını, rendelenmiş domatesi, kimyonu, kimyon tohumunu, tatlı kırmızı biberi ve karabiberi ekleyin. Karışım koyulaşıp yağını bırakana kadar 5 dakika pişirin.",
+   "Ezilmiş sarımsağı, domates salçasını, rendelenmiş domatesi, kimyonu, karaviya tohumunu, tatlı kırmızı biberi ve karabiberi ekleyin. Karışım koyulaşıp yağını bırakana kadar 5 dakika pişirin.",
    "Sıcak suyu ya da tavuk suyunu ekleyin, kaynamaya bırakın. Ateşi kısın ve kapağı yarım açık şekilde tavuklar yumuşayana kadar yaklaşık 35 dakika pişirin. Yüzeyde oluşan köpüğü alın.",
    "Suyun kaynadığından emin olun, rişta şeritlerini tencereye azar azar ekleyin ve karıştırın. Erişteler yumuşayana kadar 8 ila 10 dakika pişirin. Gerekirse biraz daha sıcak su ekleyerek kıvamını ayarlayın.",
    "Tuzunu kontrol edin, kıyılmış maydanozu ekleyip ocaktan alın. Dinlendirmeden önce 5 dakika bekletin.",
@@ -83,5 +83,15 @@
   "tr": "Hamur sert değil yumuşak olmalı; erişteler pişerken dağılmasın diye şeritleri hafifçe unlayıp tabağa dizin.",
   "en": "The dough should be soft, not stiff; dust the strips lightly with flour so they do not stick together while you prepare them."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kimyon tohumu (kişniş değil, kimyon tohumu)' is confusing and tautological. Cumin (kimyon) and caraway are different spices, and the English says caraway seeds. Turkish should name",
+   "Turkish step 3 says 'Yuvarlanmış hamuru' (the rolled dough), which is awkward. It should be 'Hamuru'.",
+   "time_min is 75, but the steps add up to roughly 90 to 100 minutes including the 20-minute rest, the 35-minute simmer and the 10-minute noodle cooking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

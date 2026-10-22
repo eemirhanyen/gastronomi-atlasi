@@ -9,7 +9,7 @@
   "en": "This is Latvia's everyday staple, served at almost every meal with cheese, butter or pickled herring. It is a dense, slightly sour loaf made with rye sourdough and dark rye flour."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Çavdar ekmeği sıcakken kesilirse içi yapışkan kalır; en az 12 saat bekletmek lezzeti ve dokusunu belirgin biçimde iyileştirir.",
   "en": "Rye bread cut while warm will be gummy inside; resting it for at least 12 hours greatly improves its texture and flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps include about 2 hours of bulk fermentation, 45-60 minutes of proofing and 60 minutes of baking, so the active-plus-proofing-plus-baking time is about 4 hours. The 12-hour"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

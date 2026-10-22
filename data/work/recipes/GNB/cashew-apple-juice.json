@@ -5,8 +5,8 @@
  },
  "native": "Sumo de caju",
  "desc": {
-  "tr": "Gine-Bissau'da kaju ağacının meyvesinden yapılan, tatlı ve hafif buruk bir içecektir. Kavrulmuş kaju fıstığının yanında, özellikle kaju hasadı dönemi olan yaz sonu ve sonbaharda sokak satıcılarından ve evlerde sıkça içilir.",
-  "en": "A sweet, lightly astringent drink made from the fruit of the cashew tree, popular in Guinea-Bissau at home and from street vendors during the cashew harvest, from late spring into the early autumn months."
+  "tr": "Gine-Bissau'da kaju ağacının meyvesinden yapılan, tatlı ve hafif buruk bir içecektir. Kavrulmuş kaju fıstığının yanında, özellikle kuru mevsimde, kabaca mart–haziran arasındaki kaju hasadı döneminde evlerde sıkça içilir ve sokak satıcılarından alınır.",
+  "en": "A sweet, lightly astringent drink made from the fruit of the cashew tree, popular in Guinea-Bissau at home and from street vendors during the cashew harvest, roughly March to June in the dry season."
  },
  "servings": 4,
  "time_min": 60,
@@ -53,5 +53,13 @@
   "tr": "Elmanın doğal tanen içeriği ağız kuruluğu yapabilir; şekeri iyice karıştırın ve servisten önce mutlaka soğutun.",
   "en": "Cashew apples are naturally astringent; sweeten to taste and chill well to balance the dryness on the palate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Harvest season disagrees between versions: Turkish says late summer and autumn (yaz sonu ve sonbahar), English says late spring into early autumn. Both also appear inaccurate, since the cashew harvest"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

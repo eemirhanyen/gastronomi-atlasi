@@ -37,7 +37,7 @@
    "Muz yaprağını veya folyoyu kurtların ağırlığını kaldıracak şekilde açın ve kurtları ortasına yayın.",
    "Yaprağı ya da folyoyu kapatıp paket haline getirin ve bir fırın tepsisine koyun.",
    "Paketi 12-15 dakika pişirin; kurtlar dışarıdan hafifçe kızarınca çıkarın.",
-   "Dilerseniz kurtları yağlı bir tavada orta ateşte 5 dakika daha kavurarak gevrekleştirin.",
+   "Dilerseniz kurtları kuru ve sıcak bir tavada orta ateşte 5 dakika daha kavurarak gevrekleştirin.",
    "Sıcak servis yapın."
   ],
   "en": [
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Kurtlar tuzlu suda çok kısa bekletilmeli; uzun bekletmek gevrekliği ve tadını bozar. Pişirmeden önce mutlaka iyice kurulayın.",
+  "tr": "Kurtlar suda çok kısa bekletilmeli; uzun bekletmek gevrekliği ve tadını bozar. Pişirmeden önce mutlaka iyice kurulayın.",
   "en": "Soak the grubs only briefly; longer soaking makes them soggy and dilutes their flavour. Dry them thoroughly before cooking for better browning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 says to use an oily pan (\"yağlı bir tavada\"), but the English says a dry pan. The Turkish is also a poor fit because the grubs are already oiled.",
+   "Turkish tip says the grubs should soak in \"tuzlu su\" (salted water), but the steps use plain cold water and salt is added later. The English tip has no salt, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

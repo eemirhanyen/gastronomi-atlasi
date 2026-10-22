@@ -5,7 +5,7 @@
  },
  "native": "Suugo",
  "desc": {
-  "tr": "Somali mutfağının temel sosudur. Makarna (pasta) ve pirinç pilavı (bariis) ile servis edilir, özellikle günlük öğünlerde ve aile yemeklerinde sık yapılır.",
+  "tr": "Somali mutfağının temel sosudur. Makarna (basta) ve pirinç pilavı (bariis) ile servis edilir, özellikle günlük öğünlerde ve aile yemeklerinde sık yapılır.",
   "en": "A staple sauce of Somali cuisine, served over pasta (basta) and rice (bariis). It is made often for everyday family meals across the country."
  },
  "servings": 4,
@@ -65,5 +65,13 @@
   "tr": "Domatesleri rendelemek kabukları kolayca ayırmanın en pratik yoludur; sos daha pürüzsüz olur ve daha kısa sürede koyulaşır.",
   "en": "Grating the tomatoes is the easiest way to remove the skins, giving a smoother sauce that thickens faster."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses \"Makarna (pasta)\"; in Turkish \"pasta\" means cake, so the parenthetical is misleading. The English uses \"basta\", the Somali word for pasta, and the Turkish should match it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

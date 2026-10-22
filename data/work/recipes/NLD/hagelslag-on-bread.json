@@ -5,7 +5,7 @@
  },
  "native": "Boterham met hagelslag",
  "desc": {
-  "tr": "Hollanda'nın en bilinen kahvaltılarından biridir; tereyağlı ekmeğin üzerine çikolata serpintisi (hagelslag) serpilerek hazırlanır. Özellikle okul öncesi ve ilkokul çağındaki çocuklar için sabah kahvaltısında, Hollanda'da evlerde ve okullarda yaygın olarak yenir.",
+  "tr": "Hollanda'nın en bilinen kahvaltılarından biridir; tereyağlı ekmeğin üzerine çikolata serpintisi (hagelslag) serpilerek hazırlanır. Özellikle okul öncesi ve ilkokul çağındaki çocuklar için sabah kahvaltısında ve öğle yemeğinde, Hollanda'da evlerde ve okullarda yaygın olarak yenir.",
   "en": "One of the best-known Dutch breakfasts, made by spreading butter on bread and topping it with chocolate sprinkles called hagelslag. It is eaten throughout the Netherlands, especially at breakfast and lunch by children at home and at school."
  },
  "servings": 4,
@@ -43,5 +43,13 @@
   "tr": "Tereyağını ekmeğe yaymadan önce yumuşatın; sert tereyağı ekmeği yırtar, erimiş tereyağı ise serpintileri akıtır.",
   "en": "Soften the butter first: cold butter tears the bread, while melted butter makes the sprinkles slide off."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says it is eaten at breakfast only, but the English description says breakfast and lunch. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

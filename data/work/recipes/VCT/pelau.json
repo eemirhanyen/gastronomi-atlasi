@@ -55,8 +55,8 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını garip bir kapta sarımsak, kekik, yarım tatlı kaşığı tuz, karabiber ve doğranmış taze soğanın yarısıyla karıştırın. Oda sıcaklığında 20 dakika bekletin.",
-   "Geniş bir tencerede şekeri 2 yemek kaşığı suyla orta ateşte karamel rengi alana kadar eritin. Renk koyulaşınca hemen tavuğu ekleyip her tarafı kızarana kadar kavurun. Tavuğu tencereden çıkarmadan bir kenara alın.",
+   "Tavuk parçalarını bir kapta sarımsak, kekik, yarım tatlı kaşığı tuz, karabiber ve doğranmış taze soğanın yarısıyla karıştırın. Oda sıcaklığında 20 dakika bekletin.",
+   "Geniş bir tencerede şekeri 2 yemek kaşığı suyla orta ateşte karamel rengi alana kadar eritin. Renk koyulaşınca hemen tavuğu ekleyip her tarafı kızarana kadar kavurun. Tavuğu tencerede bir kenara alın.",
    "Aynı tencerede yağı ısıtın. Soğan, dolmalık biber ve kerevizi ekleyip 4-5 dakika yumuşayana kadar soteleyin. Salçayı ekleyip 1 dakika kavurun.",
    "Pirinci ekleyip yağ ve sebzelerle 1 dakika karıştırın. Güvercin bezelyesi, hindistancevizi sütü, suyu, kalan tuzu ve bütün Scotch bonnet biberi ekleyin. Kaynamaya bırakın.",
    "Ateşi çok kısın, tencereyi kapatın ve suyu çekene kadar yaklaşık 25 dakika pişirin. Pirinç suyunu çekince ateşten alın.",
@@ -72,8 +72,18 @@
   ]
  },
  "tip": {
-  "tr": "Biberi delmeden ekleyin; aromayı verir ama açığa çıkarsa yemek çok acı olur. Karamel koyu kahverengiye dönerse yanmış demektir, baştan başlayın.",
+  "tr": "Biberi çatalla delerek bütün halde ekleyin; aromayı verir ama açığa çıkarsa yemek çok acı olur. Karamel koyu kahverengiye dönerse yanmış demektir, baştan başlayın.",
   "en": "Add the Scotch bonnet whole and pricked; it gives aroma without overwhelming heat. If the caramel smells bitter or turns black, it has burned, so start again with fresh sugar."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"garip bir kapta\" (\"in a strange bowl\"), which is wrong. The English says \"In a bowl\".",
+   "Turkish step 2 \"Tavuğu tencereden çıkarmadan bir kenara alın\" is awkward and contradicts the intended meaning. The English says to leave the chicken in the pot.",
+   "Turkish tip says \"Biberi delmeden ekleyin\" (add the pepper without piercing it), but the ingredient list and steps say the Scotch bonnet is pricked with a fork. The Turkish and English versions disagr"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

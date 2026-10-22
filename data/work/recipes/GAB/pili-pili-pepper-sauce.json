@@ -53,7 +53,7 @@
    "Wear gloves when handling the chilies, as capsaicin can irritate eyes and skin.",
    "Blend the chilies, bell pepper, onion, garlic, ginger and tomatoes until smooth.",
    "Heat the palm oil in a wide pan over medium-high heat.",
-   "Pour in the blended mixture and cook for about 15 minutes, stirring now and then, until thickened and most of the liquid has evaporated.",
+   "Pour in the blended mixture and cook for about 15 minutes, stirring now and then, then reduce to low heat and continue cooking until thickened and most of the liquid has evaporated.",
    "Stir in the salt and powdered stock, then cook for 5 minutes more.",
    "Turn off the heat and stir in the lime juice and parsley.",
    "Let the sauce cool completely, transfer to a clean jar, seal, and refrigerate for up to 2 weeks."
@@ -63,5 +63,13 @@
   "tr": "Daha az acı için biberlerin çekirdeklerini çıkarın; daha yoğun bir tat için sosu pişirirken yarısını kısa süre tavada kavurarak sonra ekleyin.",
   "en": "For less heat, remove the seeds from the chilies; for a deeper flavour, fry half the blended sauce until darkened before adding the rest."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 4 omits the low-heat reduction stated in the Turkish version (Turkish: cook about 15 min, then continue on low heat until thickened)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

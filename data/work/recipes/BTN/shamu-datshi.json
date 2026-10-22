@@ -44,7 +44,7 @@
    "Sarımsak ve yeşil biberi ekleyip 1 dakika daha kavurun.",
    "Domatesleri ekleyin ve suyunu büyük ölçüde salıp yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Mantarları ve tuzu ekleyin. Mantarlar suyunu salıp bu su büyük ölçüde buharlaşana kadar, yaklaşık 8 dakika karıştırarak pişirin.",
-   "Suyu ekleyin, kaynamaya bırakın, ardından ateşi kısıp kapağı kapatarak 10 dakika kaynatın.",
+   "Suyu ekleyin, kaynamaya bırakın, ardından ateşi kısıp kapağı kapatarak kısık ateşte 10 dakika pişirin.",
    "Ateşi çok düşük yapın. Peyniri azar azar ekleyip sürekli karıştırarak eriyene kadar pişirin.",
    "Sütü yavaş yavaş ekleyip kremamsı bir kıvam alana kadar karıştırın. Gerekirse tuzunu ayarlayıp sıcak servis yapın."
   ],
@@ -60,8 +60,17 @@
   ]
  },
  "tip": {
-  "tr": "Peyniri ateşten alıp eklemek ve sütü yavaş yavaş katmak, peynirin topaklanmasını önler; bunun yerine kremamsı bir doku elde edersiniz.",
+  "tr": "Peyniri çok düşük ateşte eritmek ve sütü yavaş yavaş katmak, sosun ipliksi ya da topaklı olmasını önler; bunun yerine kremamsı, pürüzsüz bir doku elde edersiniz.",
   "en": "Melt the cheese over very low heat and add the milk gradually to keep the sauce smooth rather than stringy or grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to take the cheese off the heat before adding it, but the English tip and step 7 say to melt it over very low heat. The Turkish tip is corrected to match.",
+   "Turkish step 6 says 'kaynatın' (boil) after lowering the heat, while the English says 'cook gently'. Changed to 'kısık ateşte pişirin' to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,26 +6,26 @@
  "native": "Kari pwason",
  "desc": {
   "tr": "Seyşeller'in günlük yemeğidir; taze balığın hindistancevizi sütlü, baharatlı bir soslu pişirilmesiyle hazırlanır ve genellikle öğle yemeğinde pirinçle servis edilir.",
-  "en": "A everyday Seychellois dish of fresh fish simmered in a spiced coconut milk sauce, usually served at lunch with rice."
+  "en": "An everyday Seychellois dish of fresh fish simmered in a spiced coconut milk sauce, usually served at lunch with rice."
  },
  "servings": 4,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "700 g beyaz etli taze balık filetosu (kırmızı lüfer veya kılıçbalığı)",
+   "700 g beyaz etli taze balık filetosu (kırmızı lüfer veya levrek)",
    "1 limonun suyu",
-   "1 tsp tuz (1/2 tsp'si balık için, 1/2 tsp'si sos için)",
+   "1 çay kaşığı tuz (1/2 çay kaşığı balık için, 1/2 çay kaşığı sos için)",
    "3 yemek kaşığı sıvı yağ",
    "1 orta boy soğan, ince doğranmış",
    "3 diş sarımsak, ezilmiş",
    "2 cm zencefil, rendelenmiş",
-   "2 yeşil kırmızı biber, dilimlenmiş",
+   "2 adet yeşil veya kırmızı acı biber, dilimlenmiş",
    "10 yaprak kari yaprağı",
    "2 yemek kaşığı köri tozu",
-   "1/2 tsp öğütülmüş tarçın",
-   "1/2 tsp öğütülmüş çemen otu",
-   "1/2 tsp zerdeçal",
+   "1/2 çay kaşığı öğütülmüş tarçın",
+   "1/2 çay kaşığı öğütülmüş çemen otu",
+   "1/2 çay kaşığı zerdeçal",
    "2 orta boy domates, küp doğranmış",
    "3 dal kekik",
    "400 ml hindistancevizi sütü",
@@ -34,14 +34,14 @@
    "600 ml su (pirinç için)"
   ],
   "en": [
-   "700 g firm white fish fillets (red snapper or kingfish)",
+   "700 g firm white fish fillets (red snapper or sea bass)",
    "Juice of 1 lime",
    "1 tsp salt (1/2 tsp for the fish, 1/2 tsp for the sauce)",
    "3 tbsp vegetable oil",
    "1 medium onion, finely chopped",
    "3 garlic cloves, crushed",
    "2 cm ginger, grated",
-   "2 green chilies, sliced",
+   "2 green or red chilies, sliced",
    "10 curry leaves",
    "2 tbsp curry powder",
    "1/2 tsp ground cinnamon",
@@ -57,13 +57,13 @@
  },
  "steps": {
   "tr": [
-   "Balığı 5 cm'lik parçalara ayırın. Bir kaseye alın, limon suyu ve 1/2 tsp tuzla karıştırın ve 15 dakika dinlendirin.",
+   "Balığı 5 cm'lik parçalara ayırın. Bir kaseye alın, limon suyu ve 1/2 çay kaşığı tuzla karıştırın ve 15 dakika dinlendirin.",
    "Pirinci akan su berraklaşana kadar yıkayın. 600 ml suyla birlikte bir tencereye alın, kaynatın, kapağını kapatıp kısık ateşte 12-15 dakika pişirin. Ocaktan alıp 5 dakika kapalı bekletin.",
    "Geniş ve kalın tabanlı bir tencerede yağı orta ateşte ısıtın. Soğanı altın rengi alana kadar 6-8 dakika kavurun.",
-   "Sarımsak, zencefil, kırmızı biber ve kari yapraklarını ekleyin, 1 dakika karıştırarak kavurun.",
+   "Sarımsak, zencefil, acı biber ve kari yapraklarını ekleyin, 1 dakika karıştırarak kavurun.",
    "Köri tozu, tarçın, çemen otu ve zerdeçalı ekleyin. Kokusu çıkana kadar yaklaşık 30 saniye karıştırın.",
    "Domatesleri ve kekik dallarını ekleyip domatesler yumuşayana kadar 5 dakika pişirin.",
-   "150 ml su, 400 ml hindistancevizi sütü ve kalan 1/2 tsp tuzu ekleyin. Kısık ateşte 10 dakika kaynatın.",
+   "150 ml su, 400 ml hindistancevizi sütü ve kalan 1/2 çay kaşığı tuzu ekleyin. Kısık ateşte 10 dakika kaynatın.",
    "Balık parçalarını dikkatlice sosun içine yerleştirin, üzerine sos kaşıkla gezdirin. Kapağını kapatıp balık çatalla kolayca ayrılana kadar 8-10 dakika pişirin. Balığı karıştırmadan çalkalayın.",
    "Tadına bakıp gerekirse tuz ve limon suyu ekleyin. Kekik dallarını çıkarın ve pirinçle birlikte sıcak servis yapın."
   ],
@@ -83,5 +83,16 @@
   "tr": "Balığı sosa koyduktan sonra karıştırmayın; etli balık parçaları dağılmadan pişer ve sos daha temiz kalır.",
   "en": "Do not stir once the fish is in the sauce; gently shaking the pan keeps the pieces intact and the sauce clear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish options are wrong: 'kılıçbalığı' is swordfish, and kingfish is oily, not white-fleshed, so it contradicts 'beyaz etli' (white-fleshed) and the English 'firm white fish'. Replaced with sea",
+   "Chili mismatch: Turkish says '2 yeşil kırmızı biber' (unclear, reads as green and red), while English says '2 green chilies'. Made both read 'green or red chilies'.",
+   "Turkish text uses the English unit abbreviation 'tsp' instead of the Turkish 'çay kaşığı'/'yemek kaşığı'.",
+   "English description has a typo: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

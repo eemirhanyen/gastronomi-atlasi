@@ -13,14 +13,14 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "8 g hazır kahve (instant kahve)",
+   "16 g hazır kahve (instant kahve)",
    "16 g toz şeker (sade veya orta şekerli tercihe göre)",
    "60 ml soğuk su",
    "400 ml soğuk süt (isteğe bağlı, servis için)",
    "400 g buz küpü"
   ],
   "en": [
-   "8 g instant coffee",
+   "16 g instant coffee",
    "16 g sugar (plain or medium, to taste)",
    "60 ml cold water",
    "400 ml cold milk (optional, for serving)",
@@ -47,7 +47,16 @@
  },
  "tip": {
   "tr": "Köpüğün kalın kalması için kahve, şeker ve suyu iyice soğuk kullanın ve çırpmayı atlamayın; köpük ne kadar kalınsa frappe o kadar lezzetli olur.",
-  "en": "Use very cold water and whisk until the foam is thick; the stiffer the foam, the more authentic the frappé."
+  "en": "Use very cold coffee, sugar and water, and do not skip the whisking; the thicker the foam, the better the frappé."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Instant coffee is too low for 4 servings: 8 g is about 2 g per glass, roughly half a teaspoon, which would give a weak, barely flavored frappé. Traditional recipes use about 2 teaspoons (roughly 4 g) ",
+   "The Turkish and English tips differ. The Turkish tip says to use cold coffee, sugar and water and not skip the whisking; the English tip omits the coffee and sugar part."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,7 +6,7 @@
  "native": "Sallatë shqiptare",
  "desc": {
   "tr": "Domates, salatalık, biber ve beyaz peynirden oluşan, Arnavutluk'ta yaz aylarında ana yemeklerin yanında servis edilen taze bir salatadır. Bulgar şopska salatasına benzer ama Arnavut sofrasında daha çok zeytinyağı ve kekik kokusuyla bilinir.",
-  "en": "A fresh summer salad of tomatoes, cucumber, pepper and white cheese, served alongside main dishes across Albania, especially in the warmer months. It resembles the Bulgarian shopska salad but is typically seasoned more simply, with olive oil and oregano."
+  "en": "A fresh summer salad of tomatoes, cucumber, pepper and white cheese, served alongside main dishes across Albania, especially in the warmer months. It resembles the Bulgarian shopska salad but is typically seasoned more simply, with olive oil and thyme."
  },
  "servings": 4,
  "time_min": 20,
@@ -22,7 +22,7 @@
    "45 ml zeytinyağı",
    "15 ml kırmızı şarap sirkesi",
    "3 g tuz",
-   "1 g kuru kekik veya kurutulmuş kekik",
+   "1 g kuru kekik",
    "Birkaç tane çekilmiş karabiber"
   ],
   "en": [
@@ -35,7 +35,7 @@
    "45 ml olive oil",
    "15 ml red wine vinegar",
    "3 g salt",
-   "1 g dried oregano or thyme",
+   "1 g dried thyme",
    "A few twists of freshly ground black pepper"
   ]
  },
@@ -56,7 +56,7 @@
    "Slice the red onion into thin half-moons. Soak them in cold water for 5 minutes to mellow the sharpness, then drain.",
    "Strip the parsley leaves from the stems and chop them finely.",
    "In a large bowl, combine the tomatoes, cucumber, pepper, onion and parsley.",
-   "In a small bowl, whisk the olive oil, vinegar, salt, oregano or thyme and black pepper. Pour over the salad and toss gently.",
+   "In a small bowl, whisk the olive oil, vinegar, salt, thyme and black pepper. Pour over the salad and toss gently.",
    "Crumble the white cheese by hand and scatter it over the top. Fold in only lightly so the cheese keeps its shape.",
    "Serve immediately, with bread on the side to soak up the tomato juices."
   ]
@@ -65,5 +65,14 @@
   "tr": "Domatesleri mümkünse yaz aylarında, olgunlaştıkça tatlanan yerel domateslerle hazırlayın; tuzu servisten hemen önce ekleyin ki salata sulanmasın.",
   "en": "Use ripe, in-season tomatoes for the best flavour, and add the salt just before serving so the salad does not release too much liquid."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient and steps say kekik (thyme), but the English ingredient, steps and description say oregano or thyme, and the English description says oregano.",
+   "Turkish ingredient line is redundant: 'kuru kekik veya kurutulmuş kekik' repeats the same item."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -39,9 +39,9 @@
    "Fırını 250°C'ye ısıtın. Fırın tepsisini çakıl taşlarıyla kaplayıp fırının alt rafına yerleştirin ve en az 45 dakika ısıtın.",
    "Hamuru iki eşit parçaya bölün. Her parçayı unlanmış tezgâhta, yaklaşık 50 cm uzunluğunda ve 25 cm genişliğinde uzun bir oval olacak şekilde açın.",
    "Hamurları 10 dakika dinlendirin, ardından parmak uçlarınızla yüzeyi, bastırarak çukurcuklar oluşturacak şekilde yayın.",
-   "Pizza küreğini ya da ters çevrilmiş bir tepsiyi unlayıp hamuru üzerine alın; hızlıca fırına, çakıl taşlarının üzerine kaydırın.",
+   "Pizza küreğini ya da ters çevrilmiş bir tepsiyi unlayıp hamuru üzerine alın; hızlıca fırına, çakıl taşlarının üzerine kaydırın. İkinci ekmeği de aynı şekilde fırına kaydırın.",
    "Ekmekleri 4-6 dakika, üzerinde kahverengi lekeler oluşup altları sarı-kızarana kadar pişirin.",
-   "Fırından çıkarıp tel ızgarada tamamen soğumaya bırakın; sıcak servis edilebilir."
+   "Fırından çıkarıp tel ızgarada soğumaya bırakın; en iyisi sıcakken servis edilmesidir."
   ],
   "en": [
    "In a large bowl, mix the flour, yeast, sugar and salt.",
@@ -59,5 +59,14 @@
   "tr": "Çakıl taşları yoksa, ters çevrilmiş ağır bir tepsiyi fırında en az 45 dakika ısıtarak benzer sonuç alabilirsiniz; taşların ısısı ekmeğin alt kısmını kabarcıklı ve çıtır yapar.",
   "en": "No pebbles? Preheat a heavy inverted baking tray for at least 45 minutes to get a similar base; the retained heat is what gives sangak its blistered, crisp underside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 omits the instruction to repeat the slide for the second loaf, which the English version includes.",
+   "Step 9 is contradictory in both languages: it says to cool completely, then says the bread is best served warm. The Turkish 'tamamen soğumaya bırakın; sıcak servis edilebilir' is the clearest mismatch"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

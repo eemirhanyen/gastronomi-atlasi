@@ -9,7 +9,7 @@
   "en": "A traditional Armenian main dish of bulgur and minced meat kneaded together, shaped into small meatballs and simmered in a tomato-onion sauce. It is served at family tables and festive gatherings, usually with rice or lavash."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -83,5 +83,13 @@
   "tr": "Bulgur ve kıymayı yoğururken elinizi bir kase soğuk suya batırarak ıslatın; hamur yapışmaz ve köftelere daha kolay şekil verirsiniz.",
   "en": "Dip your hands in cold water while kneading and shaping; the mixture will not stick and the kyufta will hold their shape better during simmering."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to roughly 75 minutes: 15 min soaking, 5+ min kneading, shaping, about 9 min sautéing, and 35 min simmering, plus time to bring the sauce to a simmer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

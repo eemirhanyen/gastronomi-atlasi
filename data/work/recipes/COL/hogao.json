@@ -9,7 +9,7 @@
   "en": "A tomato and onion sauce from the Andean region of Colombia, especially Bogotá and Antioquia, made by slowly cooking the vegetables together. It is served daily with or inside dishes such as ajiaco, arepas and bandeja paisa."
  },
  "servings": 4,
- "time_min": 35,
+ "time_min": 45,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Hogao'nun asıl lezzeti yavaş pişirmekten gelir; domatesin suyu tamamen çekilmeden ocaktan almayın. Buzdolabında 3-4 gün saklanabilir.",
   "en": "Hogao's flavour comes from slow cooking, so don't rush it; the sauce should be thick, not watery. It keeps refrigerated for 3-4 days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (35) is lower than the steps add up to: about 10 min prep, 8-10 min onion softening, 1 min garlic, and 20-25 min simmering, for roughly 40-50 min total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

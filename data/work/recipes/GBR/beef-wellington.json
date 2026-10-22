@@ -15,7 +15,7 @@
   "tr": [
    "600 g dana bonfile (orta kısım), temizlenmiş",
    "2 yemek kaşığı sıvı yağ",
-   "Tuz ve karabiber",
+   "1 çay kaşığı tuz ve 1/2 çay kaşığı karabiber",
    "2 yemek kaşığı Dijon hardalı",
    "8 ince dilim prosciutto (yaklaşık 120 g)",
    "250 g kestane mantarı, çok ince doğranmış",
@@ -31,7 +31,7 @@
   "en": [
    "600 g centre-cut beef fillet (tenderloin), trimmed",
    "2 tbsp vegetable oil",
-   "Salt and black pepper",
+   "1 tsp salt and 1/2 tsp black pepper",
    "2 tbsp Dijon mustard",
    "8 thin slices prosciutto (about 120 g)",
    "250 g chestnut mushrooms, finely chopped",
@@ -51,8 +51,8 @@
    "Kavrulmuş bonfilenin üzerini ılık iken Dijon hardalı ile ince bir tabaka halinde sürün. Tamamen soğuması için yaklaşık 20 dakika bekleyin, ardından buzdolabında 15 dakika dinlendirin.",
    "Mantar harcını hazırlamak için kestane mantarlarını mutfak robotunda ya da çok ince doğrayarak hazırlayın. Tereyağını orta ateşte bir tavada eritin, arpacık soğanını 3 dakika yumuşatın, sarımsak ve kekik ekleyip 1 dakika daha pişirin.",
    "Doğranmış mantarları tavaya ekleyip suyunu tamamen çekene ve kuruyana kadar 10-12 dakika pişirin. Kuru şeriyi ekleyip sıvısı buharlaşana kadar kısın, tuz ve karabiber ile tatlandırın. Harcı tamamen soğutun.",
-   "Fırını 200°C'ye ısıtın. Streç filmi tezgâha serin, prosciutto dilimlerini hafifçe üst üste gelecek şekilde dikdörtgen biçiminde dizin. Soğumuş mantar harcını prosciutto'nun üzerine yayın.",
-   "Mühürlenmiş ve soğumuş bonfileyi harcın ortasına yerleştirin. Prosciutto ve streç film yardımıyla etı sıkıca sarıp 20 dakika buzdolabında dinlendirin.",
+   "Fırını 200°C'ye ısıtın. Tezgâha bir parça streç film serin, prosciutto dilimlerini hafifçe üst üste gelecek şekilde dikdörtgen biçiminde dizin. Soğumuş mantar harcını prosciutto'nun üzerine yayın.",
+   "Mühürlenmiş ve soğumuş bonfileyi harcın ortasına yerleştirin. Prosciutto ve streç film yardımıyla eti sıkıca sarıp 20 dakika buzdolabında dinlendirin.",
    "Un serpilmiş tezgâhta milföy hamurunu yaklaşık 35 x 30 cm'lik bir dikdörtgen halinde açın. Sarılmış bonfileyi streçten çıkarıp hamurun ortasına koyun, hamuru etrafına sarıp kenarlarını çırpılmış yumurta ile yapıştırın ve fazlalıklarını kesin.",
    "Hamurun üzerini çırpılmış yumurta ile fırçalayın ve hafifçe çizgiler açın. Yeniden 20 dakika buzdolabında dinlendirin.",
    "Önceden ısıtılmış fırında 25-30 dakika pişirin; hamur altın rengi olduğunda ve et termometresinde iç sıcaklık 48°C'yi gösterdiğinde fırından çıkarın. Dilimlemeden önce 10 dakika dinlendirip servis edin."
@@ -73,5 +73,15 @@
   "tr": "Mantar harcını ve etı tamamen soğutmak, milföy hamurunun ıslanıp çiğ kalmasını önler; sarmadan önce bu adımları acele etmeyin.",
   "en": "Let the duxelles and beef cool completely before wrapping; warm filling is the main cause of a soggy pastry base."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt and black pepper are listed without quantities in both the Turkish and English ingredient lists.",
+   "Turkish step 5: 'Streç filmi tezgâha serin' is awkward phrasing; it should say a sheet of cling film is laid on the counter.",
+   "Turkish steps 6 and 8 contain the typo 'etı' instead of 'eti'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

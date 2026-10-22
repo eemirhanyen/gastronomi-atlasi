@@ -9,7 +9,7 @@
   "en": "A Portuguese snack of thin pastry half-moons filled with creamy shrimp and fried until golden. It is served across the country, especially in cafés and bars, as a mid-morning bite or an aperitif, and is most common in coastal towns."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "30 g tereyağı (dolgu için)",
    "60 g soğan, ince doğranmış (1 küçük soğan)",
    "1 diş sarımsak, ezilmiş",
-   "35 g un",
+   "50 g un",
    "350 ml süt",
    "15 g domates salçası",
    "1 tatlı kaşığı limon suyu",
@@ -39,7 +39,7 @@
    "30 g butter (for the filling)",
    "60 g onion, finely chopped (1 small onion)",
    "1 garlic clove, minced",
-   "35 g plain flour",
+   "50 g plain flour",
    "350 ml milk",
    "15 g tomato paste",
    "1 teaspoon lemon juice",
@@ -68,7 +68,7 @@
    "Hamuru unlu bir yüzeyde yaklaşık 2 mm kalınlığında açın. Bir tabak yardımıyla yaklaşık 10 cm çapında daireler kesin.",
    "Her dairenin bir yarısına bir yemek kaşığı dolusu soğuk dolguyu koyun. Hamurun kenarlarını ıslatın, diğer yarısını katlayarak yarım ay şekli verin ve kenarları çatal veya parmaklarınızla iyice bastırarak kapatın.",
    "Hazırladığınız rissóis'leri çırpılmış yumurtaya batırın, ardından galeta unu içinde iyice kaplayın.",
-   "Tavada yağı 170-180°C'ye getirin. Rissóis'leri gruplar halinde, her iki yüzü altın rengi olana kadar yaklaşık 2-3 dakika kızartın.",
+   "Derin bir tencerede yağı 170-180°C'ye getirin. Rissóis'leri gruplar halinde, her iki yüzü altın rengi olana kadar yaklaşık 2-3 dakika kızartın.",
    "Kağıt havlu üzerinde yağını süzün ve sıcak olarak servis edin."
   ],
   "en": [
@@ -89,5 +89,15 @@
   "tr": "Dolgunun iyice soğuk ve sert olması, kızartma sırasında açılmalarını önler; dolguyu mutlaka buzdolabında bekletin.",
   "en": "Chill the filling until firm before assembling. Cold filling holds its shape and keeps the pastry from splitting in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling uses only 35 g flour for 350 ml milk, a sauce too thin to set firm enough to hold its shape after 45 minutes of chilling, which the recipe and tip depend on. Raised to 50 g in both languages.",
+   "time_min 60 is unrealistic: the steps include a 45-minute chill and a 20-minute dough rest plus filling, assembly and frying. Changed to 120.",
+   "Turkish step 10 says 'tavada' (in a pan) for deep frying, while the English says 'deep pan'. Changed the Turkish to 'derin bir tencerede' to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -44,8 +44,8 @@
    "Kuru karışımı yavaş yavaş ekleyin ve spatula ile sadece un kaybolana kadar hafifçe karıştırın; fazla yoğurmayın.",
    "Çikolata damlalarını hamura katın.",
    "Hamuru 30 dakika buzdolabında dinlendirin; bu, kurabiyelerin fazla yayılmasını önler.",
-   "Hamurdan ceviz büyüklüğünde, yaklaşık 20 g'lık toplar yapıp tepsiye 5 cm aralıklarla yerleştirin. Toplam 12 ile 16 adet çıkmalıdır.",
-   "Kenarları altın rengi olana ve ortası hafif yumuşak görünene kadar 9-11 dakika pişirin.",
+   "Hamurdan büyük ceviz büyüklüğünde, yaklaşık 40 g'lık toplar yapıp tepsiye 5 cm aralıklarla yerleştirin. Toplam 12 ile 14 adet çıkmalıdır.",
+   "Kenarları altın rengi olana ve ortası hafif yumuşak görünene kadar 10-12 dakika pişirin.",
    "Kurabiyeleri tepsinde 5 dakika soğutun, sonra tel rafa alıp tamamen soğumaya bırakın."
   ],
   "en": [
@@ -56,8 +56,8 @@
    "Gradually add the dry mixture to the wet mixture and stir gently with a spatula until just combined; do not overmix.",
    "Fold the chocolate chips into the dough.",
    "Chill the dough in the fridge for 30 minutes to reduce spreading.",
-   "Scoop walnut-sized balls of dough, about 20 g each, and place them on the tray 5 cm apart. You should get 12 to 16 cookies.",
-   "Bake for 9-11 minutes, until the edges are golden and the centres look slightly soft.",
+   "Scoop large walnut-sized balls of dough, about 40 g each, and place them on the tray 5 cm apart. You should get 12 to 14 cookies.",
+   "Bake for 10-12 minutes, until the edges are golden and the centres look slightly soft.",
    "Let the cookies cool on the tray for 5 minutes, then transfer them to a wire rack to cool completely."
   ]
  },
@@ -65,5 +65,15 @@
   "tr": "Kurabiyelerin ortası tepsiden çıkınca yumuşak görünmelidir; tamamen soğuyunca kıvamı sertleşir, bu yüzden fırından çok kurumuş halde almayın.",
   "en": "Pull the cookies out when the centres still look slightly underdone; they will firm up as they cool, so over-baking leads to dry, hard cookies."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Yield does not match the dough weight: total dough is about 548 g, so 20 g balls give about 27 cookies, not the stated 12-16.",
+   "The step 8 ball size (about 20 g, 'walnut-sized') conflicts with the 12-16 yield.",
+   "Bake time was adjusted to suit the larger 40 g cookies (10-12 minutes)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

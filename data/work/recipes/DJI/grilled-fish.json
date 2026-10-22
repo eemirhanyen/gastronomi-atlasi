@@ -54,18 +54,18 @@
    "Balıkları hem dış yüzeylerine hem de kesiklerinin içine marinayı yedirerek sürün. Üzerini örtüp oda sıcaklığında 30 dakika bekletin.",
    "Bu sırada pirinci soğuk suyla 2 kez durulayın, 600 ml suyla birlikte orta boy bir tencereye alın ve kapağı kapalı, kısık ateşte yaklaşık 15-18 dakika, su çekilene kadar pişirin. Ocaktan alıp 5 dakika dinlendirin.",
    "Pilav pişerken bir kasede soğanı, domatesi, taze kişnişi ve kalan tuzu karıştırıp salata hazırlayın.",
-   "Izgarayı orta-yüksek ateşte ısıtın. Izgara ızgarasını 1 yemek kaşığı yağla yağlayın.",
-   "Balıkları ızgaraya yerleştirin ve her yüzünü 6-8 dakika pişirin. Et kısmı çatala kolayca dağılmalı ve iç sıcaklığı yaklaşık 60°C olmalıdır. Ağır ağır çevirin ki deriden ayrılmasın.",
+   "Izgarayı orta-yüksek ateşte ısıtın. Izgara rafını 1 yemek kaşığı yağla yağlayın.",
+   "Balıkları ızgaraya yerleştirin ve her yüzünü 6-8 dakika pişirin. Et kısmı çatala kolayca dağılmalı ve iç sıcaklığı en az 63°C olmalıdır. Ağır ağır çevirin ki deriden ayrılmasın.",
    "Izgaradan alıp 2 dakika dinlendirin. Pilavın yanında, salata ve limon dilimleriyle sıcak olarak servis edin."
   ],
   "en": [
-   "Rinse the fish under cold water and pat dry with kitchen paper. Make diagonal cuts about 1 cm apart on both sides, down to the bone.",
+   "Rinse the fish under cold water and pat dry with kitchen paper. Make diagonal cuts about 1 cm apart on both sides, going halfway through the body.",
    "In a large bowl, mix the lemon juice, garlic, ginger, green chili, cumin, ground coriander, paprika, turmeric, half of the salt and 60 ml oil.",
    "Rub the marinade all over the fish, inside the cuts too. Cover and leave at room temperature for 30 minutes.",
    "Meanwhile, rinse the rice twice in cold water. Put it in a medium pan with 600 ml water and cook covered over low heat for 15-18 minutes until the water is absorbed. Remove from heat and rest for 5 minutes.",
    "While the rice cooks, combine the onion, tomatoes, fresh coriander and the remaining salt in a bowl to make the salad.",
    "Heat the grill to medium-high. Oil the grill grate with 1 tablespoon of oil.",
-   "Place the fish on the grill and cook 6-8 minutes per side. The flesh should flake easily and the internal temperature should reach about 60°C. Turn gently so the skin does not tear.",
+   "Place the fish on the grill and cook 6-8 minutes per side. The flesh should flake easily and the internal temperature should reach at least 63°C. Turn gently so the skin does not tear.",
    "Transfer to a plate, rest for 2 minutes, and serve hot with the rice, the salad and lemon wedges."
   ]
  },
@@ -73,5 +73,15 @@
   "tr": "Balığın derisini ızgarada yapışmadan çıkarmak için ızgarayı iyice ısıtın ve balığı çevirmeden önce kendiliğinden ayrılana kadar bekleyin.",
   "en": "To keep the skin from sticking, heat the grill thoroughly and wait until the fish releases on its own before turning it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cut depth differs between versions: Turkish says cuts go to half the body, English says 'down to the bone'.",
+   "Turkish 'Izgara ızgarasını' is awkward; 'ızgara rafı' is the natural term.",
+   "Target internal temperature of 60°C is below the commonly recommended 63°C for fish, so it risks undercooking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

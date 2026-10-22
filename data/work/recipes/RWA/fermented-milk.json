@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Ikivuguto (Ruanda fermente sütü)",
+  "tr": "İkivuguto (Ruanda fermente sütü)",
   "en": "Ikivuguto (Rwandan fermented milk)"
  },
  "native": "Ikivuguto",
@@ -9,7 +9,7 @@
   "en": "A traditional Rwandan fermented milk drink with a mild sour taste and a thick, creamy body. It is commonly drunk at breakfast or between meals, especially in rural areas."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1080,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -46,8 +46,17 @@
   ]
  },
  "tip": {
-  "tr": "Bir sonraki parti için her seferinde 100 ml ayırıp saklayın; bu, starter kültür görevi görür. Sütün ekşi ve tatlı kokması için sıcaklığı 25–30 °C aralığında tutmak önemlidir.",
+  "tr": "Bir sonraki parti için her seferinde 100 ml ayırıp saklayın; bu, starter kültür görevi görür. Sütün hafif ekşi bir aroma kazanması için sıcaklığı 25–30 °C aralığında tutmak önemlidir.",
   "en": "Save 100 ml from each batch to use as the starter for the next one. Keeping the temperature steady at 25–30 °C gives the most consistent sour flavor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says the milk should smell 'ekşi ve tatlı' (sour and sweet), which contradicts the English 'sour flavor' and the step that calls for a lightly sour smell.",
+   "time_min is 60, but the recipe requires 12–18 hours of fermentation plus at least 2 hours of chilling, so the total time is misstated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

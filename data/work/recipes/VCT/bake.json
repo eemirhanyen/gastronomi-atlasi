@@ -38,10 +38,10 @@
    "Ilık suyu azar azar ekleyip yumuşak, hafif yapışkan bir hamur elde edene kadar yoğurun. Gerekirse su miktarını ayarlayın.",
    "Hamuru 5-7 dakika, pürüzsüz ve elastik olana kadar yoğurun.",
    "Hamuru kapatıp oda sıcaklığında 20 dakika dinlendirin.",
-   "Hamuru 8 eşit parçaya bölün, her birini top haline getirip 1 cm kalınlığında yuvarlak disk şeklinde açın.",
+   "Hamuru 8 eşit parçaya bölün, her birini top haline getirip yaklaşık 0,5 cm kalınlığında yuvarlak disk şeklinde açın.",
    "Diskleri temiz bir bezle örtüp 10 dakika dinlendirin.",
-   "Geniş bir tencerede sıvı yağı 180°C'ye kadar ısıtın.",
-   "Diskleri sıcak yağa birer birer bırakın ve her iki yüzü 3-4 dakika, altın rengi olana kadar kızartın.",
+   "Geniş ve derin bir tencerede sıvı yağı 180°C'ye kadar ısıtın.",
+   "Diskleri sıcak yağa birer ya da ikişer bırakın ve her iki yüzünü 3-4 dakika, altın rengi olana kadar kızartın.",
    "Kızarmış bake'leri kağıt havlu serili bir tabağa alıp yağını süzdürün ve sıcak servis edin."
   ],
   "en": [
@@ -50,7 +50,7 @@
    "Gradually add the lukewarm water and mix until you have a soft, slightly sticky dough. Adjust the amount of water if needed.",
    "Knead the dough for 5–7 minutes until smooth and elastic.",
    "Cover the bowl and let the dough rest at room temperature for 20 minutes.",
-   "Divide the dough into 8 equal pieces, shape each into a ball, then flatten into rounds about 1 cm thick.",
+   "Divide the dough into 8 equal pieces, shape each into a ball, then flatten into rounds about 0.5 cm thick.",
    "Cover the rounds with a clean cloth and rest them for 10 minutes.",
    "Heat the vegetable oil in a deep, wide pan to 180°C.",
    "Carefully lower the dough rounds into the hot oil, one or two at a time, and fry for 3–4 minutes per side until golden brown.",
@@ -61,5 +61,14 @@
   "tr": "Yağın sıcaklığını termometreyle kontrol edin; 180°C'nin altında bake yağ emer ve ağır olur, üstünde ise dış kısmı hızla kararır ama içi çiğ kalır.",
   "en": "Check the oil with a thermometer. Below 180°C the bakes soak up oil and turn heavy, while hotter oil browns the outside before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 flattens the dough to about 1 cm, which is too thick for bakes fried at 180°C for only 3-4 minutes per side. The centre would stay raw, which the recipe's own tip warns against. Bakes are norma",
+   "Turkish step 9 says 'birer birer' (one at a time), but the English says 'one or two at a time'. The two versions should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

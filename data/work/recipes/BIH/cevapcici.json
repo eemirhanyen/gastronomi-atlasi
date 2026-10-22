@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Karbonat, etin dokusunu yumuşatıp ćevapların sünger gibi kabarmasını sağlar; ölçüyü aşmayın, aksi halde tadı acı olabilir.",
+  "tr": "Karbonat, etin dokusunu yumuşatıp ćevapların sünger gibi kabarmasını sağlar; ölçüyü aşmayın, aksi halde tadı sabunsu olabilir.",
   "en": "Baking soda softens the meat and helps the ćevapčići stay tender and plump; do not exceed the amount or they can taste soapy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says excess baking soda makes the taste \"acı\" (bitter), while the English tip says it tastes \"soapy\". The two versions disagree; the Turkish should match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

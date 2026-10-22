@@ -5,7 +5,7 @@
  },
  "native": "Porridge",
  "desc": {
-  "tr": "Hindistan cevizi sütü, tarçın ve hindistancevizi aromasıyla tatlandırılmış, sıcak servis edilen geleneksel bir kahvaltı lapasıdır. Jamaika'da özellikle sabahları ve soğuk günlerde evlerde yaygın olarak tüketilir.",
+  "tr": "Hindistan cevizi sütü, tarçın ve muskat aromasıyla tatlandırılmış, sıcak servis edilen geleneksel bir kahvaltı lapasıdır. Jamaika'da özellikle sabahları ve soğuk günlerde evlerde yaygın olarak tüketilir.",
   "en": "A warm, sweet breakfast porridge flavoured with coconut milk, cinnamon and nutmeg, served hot. It is eaten across Jamaica, especially at home for breakfast and on cool mornings."
  },
  "servings": 4,
@@ -17,7 +17,7 @@
    "120 ml soğuk su",
    "600 ml su",
    "1 adet tarçın çubuğu",
-   "2 g öğütülmüş hindistancevizi (muskat) tozu",
+   "2 g öğütülmüş muskat tozu",
    "1 tutam tuz (yaklaşık 1 g)",
    "400 ml hindistan cevizi sütü (konserve)",
    "60 g esmer şeker",
@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Mısırununu soğuk suyla bir kasede, topaklanma kalmayacak şekilde pürüzsüz bir macun haline gelene kadar karıştırın.",
+   "Mısır unu ile soğuk suyu bir kasede, topaklanma kalmayacak şekilde pürüzsüz bir macun haline gelene kadar karıştırın.",
    "Büyük bir tencerede 600 ml suyu tarçın çubuğu, muskat tozu ve tuzla birlikte orta-yüksek ateşte kaynatın.",
    "Ateşi kısın ve mısır unu macununu ince bir akışla, sürekli karıştırarak suya ekleyin.",
    "Hindistan cevizi sütünü ve esmer şekeri ekleyip karışımı ara sıra karıştırarak 15 dakika kadar kısık ateşte pişirin; lapa koyulaşıp pürüzsüz bir kıvam alana kadar devam edin.",
@@ -59,5 +59,14 @@
   "tr": "Lapanın topaklanmasını önlemek için mısır unu macununu suya yavaş yavaş ekleyin ve pişirme sırasında sık sık karıştırın.",
   "en": "Add the cornmeal paste to the water slowly and stir often while cooking to prevent lumps from forming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list and description call nutmeg 'hindistancevizi' (the Turkish word for coconut), which contradicts the English version and the '(muskat)' label. The Turkish description also says ",
+   "Typo in Turkish step 1: 'Mısırununu' should be 'Mısır unu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

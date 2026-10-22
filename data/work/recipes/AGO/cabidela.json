@@ -15,7 +15,7 @@
   "tr": [
    "1200 g tavuk, parçalanmış",
    "1 limonun suyu",
-   "2 çay kaşığı tuz (chicken için)",
+   "2 çay kaşığı tuz",
    "4 yemek kaşığı (60 ml) palmiye yağı",
    "2 büyük soğan (300 g), ince doğranmış",
    "4 diş sarımsak, ezilmiş",
@@ -83,5 +83,13 @@
   "tr": "Kanı sirkeyle hemen karıştırmak pıhtılaşmayı önler; sosun asla kaynamadığından emin olun.",
   "en": "Mix the blood with vinegar right before use and never let the sauce boil after adding it, or it will curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line '2 çay kaşığı tuz (chicken için)' contains a leftover English phrase and is unnatural Turkish; corrected to '2 çay kaşığı tuz'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

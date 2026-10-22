@@ -17,7 +17,7 @@
    "800 ml sıcak yeşil çay (sencha, yaklaşık 80 °C)",
    "12 g sencha yaprağı",
    "200 g tuzlu somon fileto (shiozake)",
-   "2 adet umeboshi (tuzlu erik)",
+   "4 adet umeboshi (tuzlu erik)",
    "2 yaprak nori",
    "2 yemek kaşığı kavrulmuş susam",
    "1 dal yeşil soğan",
@@ -28,7 +28,7 @@
    "800 ml hot green tea (sencha, about 80 °C)",
    "12 g sencha leaves",
    "200 g salted salmon fillet (shiozake)",
-   "2 umeboshi (pickled plums)",
+   "4 umeboshi (pickled plums)",
    "2 sheets nori",
    "2 tbsp toasted sesame seeds",
    "1 spring onion",
@@ -61,5 +61,13 @@
   "tr": "Pirinci sıcak tutun ama çayı en fazla 80 °C'de demleyin; daha sıcak su yeşil çayı acılaştırır ve pirincin tadını bozar.",
   "en": "Keep the rice hot but brew the tea at no more than 80 °C; hotter water makes green tea bitter and masks the delicate flavor of the rice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Umeboshi count mismatch: the ingredient lists call for 2, but the steps place 1 umeboshi in each of the 4 bowls, so 4 are needed (Turkish and English both affected)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

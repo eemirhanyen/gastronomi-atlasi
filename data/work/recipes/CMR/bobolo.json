@@ -15,7 +15,7 @@
   "tr": [
    "1200 g taze manyok (soyulmadan)",
    "2 L su (ıslatma için)",
-   "1 L su (yıkamak için)",
+   "1 L su (hamuru karıştırmak için)",
    "5 g tuz",
    "8 parça muz yaprağı (yaklaşık 20 x 25 cm)",
    "Mutfak ipi"
@@ -23,7 +23,7 @@
   "en": [
    "1200 g fresh cassava (unpeeled weight)",
    "2 L water (for soaking)",
-   "1 L water (for rinsing)",
+   "1 L water (for mixing the dough)",
    "5 g salt",
    "8 pieces banana leaf (about 20 x 25 cm)",
    "Kitchen string"
@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Manyokların kabuğunu soyun, yaklaşık 10 cm uzunluğunda parçalara bölün ve her parçanın içindeki sert, lifli özeği çıkarın.",
+   "Yalnızca tatlı (acı olmayan, düşük siyanürlü) bir manyok çeşidi kullanın. Manyokların kabuğunu soyun, yaklaşık 10 cm uzunluğunda parçalara bölün ve her parçanın içindeki sert, lifli özeği çıkarın.",
    "Manyok parçalarını geniş bir kaseye koyun, 2 L suyla kaplayın ve oda sıcaklığında 3-4 gün fermente olmaya bırakın. Her gün suyu değiştirin; parçalar çok yumuşayıp ekşi bir koku verene kadar bekleyin.",
    "Fermente manyokları süzün ve durulayın. Bir havanda ezin ya da mutfak robotunda kısa kısa çekerek pürüzsüz, yapışkan bir hamur elde edin.",
    "Hamuru 1 L temiz suyla karıştırıp bir bezin içinde sıkarak fazla suyunu alın. Tuzu ekleyip hamuru iyice yoğurun.",
@@ -41,7 +41,7 @@
    "Paketleri ocaktan alıp tamamen soğumaya bırakın. Servis öncesi yaprakları açın ve çubukları fıstık sosu veya balıklı bir yemekle birlikte sunun."
   ],
   "en": [
-   "Peel the cassava and cut it into pieces about 10 cm long, removing the hard, fibrous core from each piece.",
+   "Use only a sweet (non-bitter, low-cyanide) cassava variety. Peel the cassava and cut it into pieces about 10 cm long, removing the hard, fibrous core from each piece.",
    "Place the cassava pieces in a large bowl, cover with 2 L water and leave at room temperature to ferment for 3 to 4 days. Change the water every day until the pieces are very soft and smell sour.",
    "Drain and rinse the fermented cassava. Pound it in a mortar or pulse it in a food processor until you have a smooth, sticky dough.",
    "Mix the dough with 1 L clean water, then squeeze it through a cloth to remove excess liquid. Add the salt and knead the dough well.",
@@ -55,5 +55,14 @@
   "tr": "Fermantasyon süresi tadı belirler: hamur ne kadar ekşi kokarsa bobolo o kadar karakteristik olur, ancak daha az ekşi bir tat isterseniz 2 güne kadar kısaltabilirsiniz.",
   "en": "Fermentation time sets the flavour: the longer the cassava ferments, the more characteristically sour the bobolo will be, so shorten it to 2 days if you prefer a milder taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 1 L water is labelled 'for rinsing' in the ingredients, but step 4 uses it to mix the dough. The label does not match the use (Turkish and English).",
+   "The recipe does not specify a sweet (low-cyanide) cassava variety. The description says 'acı olmayan' (not bitter), but the steps do not require it. Bitter cassava carries cyanide risk that fermentati"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

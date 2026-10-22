@@ -5,7 +5,7 @@
  },
  "native": "Pastel de nata",
  "desc": {
-  "tr": "Katmanlı ince hamurun içine yumurta sarısı ve sütle hazırlanan muhallebi dolgusu konup yüksek ısıda kızartılan bu tart, Portekiz'de özellikle Lizbon'da kahvaltıda ve öğleden sonra kahveyle birlikte yenir.",
+  "tr": "Katmanlı ince hamurun içine yumurta sarısı ve sütle hazırlanan muhallebi dolgusu konup yüksek ısıda fırınlanan bu tart, Portekiz'de özellikle Lizbon'da kahvaltıda ve öğleden sonra kahveyle birlikte yenir.",
   "en": "A flaky, layered pastry shell filled with a silky egg-yolk custard and baked hot until the top is blistered and caramelised. It is Portugal's signature pastry, especially associated with Lisbon, and is eaten warm with coffee at breakfast or in the afternoon."
  },
  "servings": 4,
@@ -75,5 +75,13 @@
   "tr": "Hamur kenarlarını kalıba sıkı bastırın ama ince tutun; fırın yeterince sıcak değilse hamur yumuşak kalır, bu yüzden fırını tam ısıtmak önemlidir.",
   "en": "Press the pastry thinly and evenly up the sides, and make sure the oven is fully preheated; a very hot oven is what creates the blistered, caramelised tops and crisp layers."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the tart is \"kızartılan\" (fried), but it is baked in the oven; should be \"fırınlanan\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

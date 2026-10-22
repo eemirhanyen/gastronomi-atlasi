@@ -36,7 +36,7 @@
    "Kakuleleri tencereden çıkarın. Isıtılmış sütü sürekli karıştırarak nişastalı karışımı ince bir akışla ekleyin.",
    "Ocakta orta ateşte, sürekli karıştırarak 8-10 dakika pişirin. Kıvam kaşığın arkasını kaplayacak kadar koyulaşınca ocaktan alın.",
    "Gül suyunu ekleyip iyice karıştırın.",
-   "Muhallebiyi 4 küçük kaseye ya da bardağa paylaştırın. Üstü kurumaması için yüzeyine hafifçe bastırılmış bir kat streç film ya da bir parça tereyağı kağıdı yerleştirin.",
+   "Muhallebiyi 4 küçük kaseye ya da bardağa paylaştırın. Üstü kurumaması için yüzeyine hafifçe bastırılmış bir kat streç film ya da bir parça pişirme kağıdı yerleştirin.",
    "Oda sıcaklığında soğumaya bırakın, ardından en az 2 saat buzdolabında soğutun.",
    "Servis öncesi üzerine doğranmış Antep fıstığını serpip soğuk servis yapın."
   ],
@@ -55,5 +55,13 @@
   "tr": "Nişastalı karışımı sıcak sütün içine yavaş yavaş dökmek ve sürekli çırpmak topaklanmayı önler.",
   "en": "Pour the cornflour mixture into the hot milk slowly while whisking constantly to prevent lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"tereyağı kağıdı\" (butter paper), which is wrong. The English says baking paper, so the Turkish term should be \"pişirme kağıdı\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

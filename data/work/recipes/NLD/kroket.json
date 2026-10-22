@@ -9,7 +9,7 @@
   "en": "The kroket is one of the Netherlands' most loved snacks: a thick, creamy beef ragout rolled in breadcrumbs and deep-fried. It is eaten in bars, cafés and at fairs, often with beer, especially in the evening."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -47,27 +47,27 @@
   "tr": [
    "Tereyağının yarısını orta ateşte kalın tabanlı bir tencerede eritin. Soğanı ekleyip 5 dakika yumuşayana kadar soteleyin.",
    "Dana etini ekleyin, tuz ve karabiber serpin, pembeliği geçene kadar yaklaşık 5 dakika karıştırarak pişirin.",
-   "300 ml dana suyunu ekleyip kaynatın. Kapağını örterek kısık ateşte, et çok yumuşayana kadar yaklaşık 40 dakika pişirin.",
-   "Et ve soğanı bir süzgekte süzün, pişirme suyunu bir kaba alın. 200 ml'ye ulaşması için suyu kaynatarak azaltın ya da gerekirse biraz su ekleyin.",
+   "300 ml dana suyunu ekleyip kaynatın. Kapağını örterek kısık ateşte, et çok yumuşayana kadar yaklaşık 1,5 saat pişirin.",
+   "Et ve soğanı bir süzgekte süzün, pişirme suyunu bir kaba alın. Eti ve soğanı ince kıyın. Pişirme suyunu 200 ml'ye ulaşması için kaynatarak azaltın ya da gerekirse biraz su ekleyin.",
    "Kalan tereyağını temiz bir tencerede eritin, 40 g unu ekleyip 1 dakika pişirin. Sıcak 200 ml suyu yavaş yavaş ekleyerek pürüzsüz ve kıvamlı bir sos elde edene kadar, yaklaşık 3 dakika çırpın.",
-   "Dana etini, soğanı, Worcestershire sosunu, muskadı ve maydanozu ekleyin. Tuz ve karabiber ile tatlandırıp 2 dakika daha karıştırarak pişirin.",
+   "Kıyılmış dana etini, soğanı, Worcestershire sosunu, muskadı ve maydanozu ekleyin. Tuz ve karabiber ile tatlandırıp 2 dakika daha karıştırarak pişirin.",
    "Harcı, fırın kağıdı serili bir tepsiye yaklaşık 2 cm kalınlığında yayın. Oda sıcaklığında soğutun, üzerini örtüp en az 2 saat buzdolabında sertleşene kadar bekletin.",
    "Harcı 12 eşit parçaya bölün, her birini yaklaşık 7 cm uzunluğunda silindir şeklinde yuvarlayın.",
    "Üç sığ kaba sırasıyla 60 g un, çırpılmış yumurta ve galeta unu koyun. Her krokete önce unu bulaştırıp fazlasını silkeleyin, sonra yumurtaya batırın ve galeta ununa yuvarlayın. 15 dakika buzdolabında dinlendirin.",
-   "Derin bir tencerede ayçiçek yağını 180°C'ye kadar ısıtın. Krokетleri 4'er 4'er 2-3 dakika, altın rengi alana kadar kızartın.",
+   "Derin bir tencerede ayçiçek yağını 180°C'ye kadar ısıtın. Kroketleri 4'er 4'er 3-4 dakika, altın rengi alana kadar kızartın.",
    "Kızarmış kroketleri kağıt havlu üzerinde süzün, hafifçe tuzlayıp sıcak servis yapın."
   ],
   "en": [
    "Melt half of the butter in a heavy-based saucepan over medium heat. Add the onion and soften for 5 minutes.",
    "Add the beef, season with salt and pepper, and cook for about 5 minutes, stirring, until no longer pink.",
-   "Pour in the 300 ml beef stock and bring to the boil. Cover and simmer gently for about 40 minutes until the beef is very tender.",
-   "Drain the beef and onion through a sieve, reserving the liquid in a jug. Boil the liquid down or top up with a little water until you have 200 ml.",
+   "Pour in the 300 ml beef stock and bring to the boil. Cover and simmer gently for about 1.5 hours until the beef is very tender.",
+   "Drain the beef and onion through a sieve, reserving the liquid in a jug. Finely chop the beef and onion. Boil the liquid down or top up with a little water until you have 200 ml.",
    "Melt the remaining butter in a clean pan, stir in the 40 g flour and cook for 1 minute. Gradually whisk in the hot 200 ml liquid for about 3 minutes until smooth and thick.",
-   "Stir in the beef, onion, Worcestershire sauce, nutmeg and parsley. Season with salt and pepper and cook for 2 more minutes.",
+   "Stir in the chopped beef, onion, Worcestershire sauce, nutmeg and parsley. Season with salt and pepper and cook for 2 more minutes.",
    "Spread the ragout about 2 cm thick on a baking-paper-lined tray. Cool at room temperature, cover and chill for at least 2 hours until firm.",
    "Divide the chilled ragout into 12 equal pieces and roll each into a log about 7 cm long.",
    "Set out three shallow dishes with the 60 g flour, beaten egg and breadcrumbs. Dust each kroket in flour, shake off the excess, dip in egg and roll in breadcrumbs. Chill for 15 minutes.",
-   "Heat the sunflower oil in a deep pan to 180°C. Fry the kroketten in batches of four for 2-3 minutes until golden brown.",
+   "Heat the sunflower oil in a deep pan to 180°C. Fry the kroketten in batches of four for 3-4 minutes until golden brown.",
    "Drain the kroketten on kitchen paper, sprinkle lightly with salt and serve hot."
   ]
  },
@@ -75,5 +75,18 @@
   "tr": "Harcın tam soğuyup sertleşmesi çok önemlidir; yeterince soğumamış harç kızartırken dağılır.",
   "en": "Chill the ragout fully until firm; if it is still soft, the kroketten will burst open in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 contains Cyrillic characters ('Krokетleri'), a typo that should be 'Kroketleri'.",
+   "Turkish step 6 uses 'muskadı' instead of the correct culinary term 'muskat' (nutmeg).",
+   "Beef chuck simmered only about 40 minutes will not reach the 'very tender' state the step describes; it needs roughly 1.5 hours.",
+   "The ragout is meant to be a smooth, fine filling, but the recipe never says to finely chop the cooked beef and onion, so the texture would be chunky.",
+   "Frying for 2-3 minutes may not heat the chilled ragout through; 3-4 minutes is more reliable.",
+   "time_min (60) does not reflect the actual total: cooking, chilling of at least 2 hours, and frying."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

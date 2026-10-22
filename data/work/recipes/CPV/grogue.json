@@ -5,11 +5,11 @@
  },
  "native": "Ponche de grogue",
  "desc": {
-  "tr": "Kabuvedi adasında şeker kamışından damıtılan grogue ile limon ve balı karıştırılarak yapılan, genellikle öğleden sonra ve akşamları sofra başında ikram edilen tatlı bir içkidir.",
+  "tr": "Yeşil Burun Adaları'nda (Kabuvedi) şeker kamışından damıtılan grogue ile limon ve balı karıştırılarak yapılan, genellikle öğleden sonra ve akşamları sofra başında ikram edilen tatlı bir içkidir.",
   "en": "A sweetened punch of grogue, the sugarcane spirit of Cape Verde, mixed with lime and honey. It is traditionally served chilled in the afternoon and evening, often at family gatherings and on the islands' festival days."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,14 @@
   "tr": "Grogue bulunmazsa aynı miktarda beyaz rom kullanabilirsiniz, ancak gerçek tadı için kamıştan yapılmış bir grogue tercih edin.",
   "en": "If grogue is unavailable, white rum in the same quantity makes a close substitute, though an authentic sugarcane grogue gives the truest flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'Kabuvedi adasında' (on the island of Cape Verde), but Cape Verde is an archipelago, not a single island. The English text does not make this claim.",
+   "time_min is 60, but the recipe includes cooling the syrup and at least 1 hour of refrigeration, so the total time is longer than stated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

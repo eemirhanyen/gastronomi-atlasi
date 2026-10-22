@@ -9,7 +9,7 @@
   "en": "A traditional Omani dish of torn bread soaked in spiced lamb broth and topped with tender meat and vegetables. It is traditionally served on large platters at family gatherings, festivals and when guests are welcomed."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -73,5 +73,13 @@
   "tr": "Ekmeği kullanmadan önce biraz bayatlatın; taze ekmek suyu hızla emip lapaya dönebilir. Et suyunu azar azar ekleyerek kıvamı kontrol edin.",
   "en": "Use day-old bread, or dry fresh bread briefly in a low oven, so it absorbs the broth without turning mushy. Add the broth gradually and keep the remainder for serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short for the listed steps: browning the lamb, frying the onion, the 60-minute simmer, the 15-minute vegetable cook and assembly add up to roughly 110 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

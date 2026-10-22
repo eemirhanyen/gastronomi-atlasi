@@ -39,8 +39,8 @@
  },
  "steps": {
   "tr": [
-   "Büyük bir tencerede 2 litre suyu 5 gram tuzla kaynatın. Eriştelerı kaynayan suya atın ve al dente olana kadar yaklaşık 5 dakika pişirin. Süzün ve bir kenara alın.",
-   "Haşhaş tohumu taze değilse kahve öğütücüsünde öğütün, zaten öğütülmüşse doğrudan kullanın.",
+   "Büyük bir tencerede 2 litre suyu 5 gram tuzla kaynatın. Erişteleri kaynayan suya atın ve al dente olana kadar yaklaşık 5 dakika pişirin. Süzün ve bir kenara alın.",
+   "Haşhaş tohumu bütünse kahve öğütücüsünde öğütün, zaten öğütülmüşse doğrudan kullanın.",
    "Orta boy bir tencerede sütü, 60 gram toz şekeri, vanilya özünü ve limon kabuğu rendesini ısıtın. Kaynamaya başlayınca ocağı kısın.",
    "Öğütülmüş haşhaş tohumunu ekleyin ve sürekli karıştırarak 5 dakika kadar, kıvamı yoğunlaşıp macunumsu olana kadar pişirin. Limon kabuğunu ayıklayın.",
    "Geniş bir tavada tereyağını orta ateşte eritin. Süzülmüş eriştleri ekleyip 1 dakika kadar tereyağıyla çevirin.",
@@ -61,5 +61,14 @@
   "tr": "Haşhaş tohumu kolayca acılaşır; küçük paketler halinde alıp serin ve karanlık bir yerde ya da buzdolabında saklayın.",
   "en": "Poppy seeds turn rancid quickly, so buy small quantities, store them airtight in a cool dark place or the fridge, and grind them just before use for the best flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says to grind the seeds if they are not fresh, but the English says to grind them if they are whole. The condition in the Turkish is wrong.",
+   "Turkish step 1 has a typo: \"Eriştelerı\" should be \"eriştelerı\" with a dotted i (\"eriştelerı\" → \"eriştelerİ\" is not right; the correct form is \"erişteleri\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -15,7 +15,7 @@
   "tr": [
    "250 g çok amaçlı un",
    "3 g tuz",
-   "30 ml sıvı yağ, ayrıca kızartma için 500 ml",
+   "45 ml sıvı yağ (30 ml hamur, 15 ml soteleme için), ayrıca kızartma için 500 ml",
    "110 ml su (gerekirse biraz daha)",
    "250 g dana kıyma",
    "1 soğan (yaklaşık 120 g), ince doğranmış",
@@ -31,7 +31,7 @@
   "en": [
    "250 g all-purpose flour",
    "3 g salt",
-   "30 ml vegetable oil, plus 500 ml for frying",
+   "45 ml vegetable oil (30 ml for the dough, 15 ml for sautéing), plus 500 ml for frying",
    "110 ml water (add a little more if needed)",
    "250 g minced beef",
    "1 onion (about 120 g), finely chopped",
@@ -49,7 +49,7 @@
   "tr": [
    "Unu 3 g tuz ile karıştırın, 30 ml yağı ekleyin ve yavaş yavaş suyu katarak yumuşak, elastik bir hamur yoğurun.",
    "Hamuru streç film ile örtüp oda sıcaklığında 20 dakika dinlendirin.",
-   "Geniş bir tavada 15 ml yağı orta ateşte ısıtın, soğanı ve yeşil biberi 5 dakika pembeleşene kadar soteleyin.",
+   "Geniş bir tavada 15 ml yağı orta ateşte ısıtın, soğanı ve yeşil biberi yaklaşık 5 dakika, soğan yumuşayıp hafif altın rengi alana kadar soteleyin.",
    "Sarımsağı, kimyonu ve köriyi ekleyip 30 saniye kavurun, ardından kıymayı ekleyip suyunu çekene ve kahverengileşene kadar 8-10 dakika pişirin.",
    "Ocaktan alın, 4 g tuz, karabiber ve kişnişi ekleyin, iyice karıştırıp tamamen soğumaya bırakın.",
    "Hamuru 8 eşit topa bölün, her topu ince bir daire olacak şekilde yaklaşık 20 cm çapında açın ve ikiye kesin.",
@@ -73,5 +73,14 @@
   "tr": "İç harcın tamamen soğumasını bekleyin; sıcak kıyma hamuru yırtar ve yağda açılmasına neden olur.",
   "en": "Let the filling cool completely before assembling, as warm meat tears the dough and can cause the samosas to burst open in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The sautéing oil (15 ml, step 3) is not accounted for in the ingredient list. The 30 ml oil listed is used for the dough in step 1, so the total oil needed is 45 ml plus frying oil.",
+   "Turkish step 3 says the onion should be cooked 'pembeleşene kadar' (until it turns pink), which is unnatural and does not match the English 'pale golden'. It should describe softening to light golden."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

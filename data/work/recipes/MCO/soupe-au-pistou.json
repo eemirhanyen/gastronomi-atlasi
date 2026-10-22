@@ -21,7 +21,7 @@
    "1 pırasanın beyaz kısmı (100 g), ince dilimlenmiş",
    "1 sap kereviz (60 g), küp doğranmış",
    "2 domates (300 g), küp doğranmış",
-   "45 ml zeytinyağı",
+   "30 ml zeytinyağı",
    "80 g küçük boru makarna veya kısa kesilmiş spagetti",
    "1,5 l su veya sebze suyu",
    "Tuz ve karabiber",
@@ -40,7 +40,7 @@
    "1 leek, white part only (100 g), thinly sliced",
    "1 celery stalk (60 g), diced",
    "2 tomatoes (300 g), diced",
-   "45 ml olive oil",
+   "30 ml olive oil",
    "80 g small tube pasta or broken spaghetti",
    "1.5 l water or vegetable stock",
    "Salt and black pepper",
@@ -75,5 +75,13 @@
   "tr": "Pistuyu sıcak çorbaya eklemeden önce oda sıcaklığına getirin; fesleğenin rengi ve aroması daha iyi korunur. Pistuyu havanda ezmek, mutfak robotuna göre daha dokulu ve kuvvetli bir tat verir.",
   "en": "Let the pistou come to room temperature before adding it to the hot soup, and never blend it with heat, as this keeps the basil bright. Pounding it by hand in a mortar gives a more textured, aromatic result than a food processor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list gives 45 ml olive oil for the soup, but step 1 uses only 30 ml and no other step uses the remaining 15 ml. The Turkish and English lists both have this mismatch."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

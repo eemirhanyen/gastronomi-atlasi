@@ -31,9 +31,9 @@
   "tr": [
    "Bir tencerede suyu ve şekeri orta-yüksek ateşte, şeker tamamen eriyene kadar kaynatın, yaklaşık 4 dakika.",
    "Dökme siyah çayı ve ezilmiş kakuleyi ekleyin, ateşi kısın ve çayı 3 dakika hafifçe kaynatın.",
-   "Sütü ekleyip karıştırarak yeniden kaynamaya bırakın; süt taşmasın diye tencereyi bir an ocaktan alıp tekrar koyun.",
-   "Ateşi kısın ve karışım köpürüp kıvam alana kadar 2 dakika daha hafifçe kaynatın.",
-   "İnce süzgeçten süzerek fincanlara alın; köpük oluşması için çayı yüksekten dökerek servis yapın."
+   "Sütü ekleyip karıştırarak yeniden kaynamaya bırakın; süt yükselirse taşmasın diye tencereyi bir an ocaktan alıp tekrar koyun.",
+   "Ateşi kısın ve karışım köpürüp koyu bir renk alana kadar 2 dakika daha hafifçe kaynatın.",
+   "İnce süzgeçten süzerek fincanlara alın; köpük oluşması için çayı yüksekten dökerek sıcak servis yapın."
   ],
   "en": [
    "In a saucepan over medium-high heat, boil the water and sugar until the sugar fully dissolves, about 4 minutes.",
@@ -44,8 +44,18 @@
   ]
  },
  "tip": {
-  "tr": "Çayı uzun süre kaynatmak Sudan usulünün önemli bir parçasıdır; sütü en sona bırakmak, süt kaynarken taşmasını önlemeye yardımcı olur.",
+  "tr": "Çayı uzun süre kaynatmak Sudan usulünün geleneksel, güçlü aromasını verir; daha zengin ve otantik bir tat için taze sütün yarısını evaporated (buharlaştırılmış) süt ile değiştirebilirsiniz. Sütü en sona bırakmak, süt kaynarken taşmasını önlemeye yardımcı olur.",
   "en": "Boiling the tea for longer gives the traditional strong flavour; for a richer, more authentic taste, you can replace half the fresh milk with evaporated milk."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the evaporated-milk suggestion given in the English tip, so the two versions disagree.",
+   "English step 4 says 'well coloured', but Turkish step 4 says 'kıvam alana kadar' (until it thickens), which is a different outcome.",
+   "Turkish step 3 tells the cook to lift the pan unconditionally, while the English says to do so only if the milk rises. Minor, but the versions should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

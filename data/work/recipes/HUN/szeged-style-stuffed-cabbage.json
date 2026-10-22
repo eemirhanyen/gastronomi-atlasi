@@ -22,7 +22,7 @@
    "2 diş sarımsak, ezilmiş",
    "80 g füme domuz pastırması, küçük küp doğranmış",
    "1 yumurta",
-   "5 g tatlı Macar kırmızı biberi",
+   "10 g tatlı Macar kırmızı biberi",
    "3 g tuz",
    "1 g karabiber",
    "30 g domuz yağı",
@@ -42,7 +42,7 @@
    "2 garlic cloves, crushed",
    "80 g smoked bacon, diced small",
    "1 egg",
-   "5 g sweet Hungarian paprika",
+   "10 g sweet Hungarian paprika",
    "3 g salt",
    "1 g black pepper",
    "30 g lard",
@@ -58,10 +58,10 @@
    "Turşu lahana yapraklarını soğuk suda hafifçe yıkayın, tuzunu almak için 10 dakika bekletin, sonra süzün. Kalın damarlarını bıçakla hafifçe inceltin.",
    "Pirinci 200 ml suda 8 dakika haşlayın, süzün ve soğumaya bırakın.",
    "Bir tavada füme pastırmayı gevrek olana kadar kavurun ve yarısını ayırın. Tavadaki yağa 10 g domuz yağı ekleyip soğanı yumuşayana kadar yaklaşık 6 dakika soteleyin, sarımsağı ekleyip 1 dakika daha pişirin ve soğumaya bırakın.",
-   "Büyük bir kapta kıymaları, pirinci, soğan karışımını, pastırmanın yarısını, yumurtayı, 3 g biberin yarısını, tuzu ve karabiberi iyice yoğurun.",
+   "Büyük bir kapta kıymaları, pirinci, soğan karışımını, pastırmanın yarısını, yumurtayı, biberin yarısını, tuzu ve karabiberi iyice yoğurun.",
    "Her lahana yaprağının üzerine 2 yemek kaşığı iç harcı koyun, kenarlarını içe doğru katlayıp sıkıca sarın.",
    "Ağır tabanlı bir tencerenin dibine ince kıyılmış turşu lahananın yarısını yayın. Sarılmış sarmaları dikişi aşağı gelecek şekilde dizin, aralarını kalan lahanayla doldurun ve defne yaprağını ekleyin.",
-   "Kalan 5 g biberi, unu ve 100 ml suyu bir kapta pürüzsüz olacak şekilde karıştırın. Tencereye dökün, üzerine kalan 400 ml suyu ekleyin ki sarmalar tamamen kaplansın.",
+   "Kalan biberi, unu ve 100 ml suyu bir kapta pürüzsüz olacak şekilde karıştırın. Tencereye dökün, üzerine kalan 400 ml suyu ekleyin ki sarmalar tamamen kaplansın.",
    "Tencereyi kapatıp kısık ateşte, hafifçe kaynayan halde (yaklaşık 90 °C) 1,5 saat pişirin. Son yarım saatte tencereyi açarak sosun biraz koyulaşmasını sağlayın.",
    "Tejfölü bir kepçe sıcak sosla yavaşça yumuşatın, sonra tencereye ekleyip karıştırın ve ocaktan alın. Kalan 20 g domuz yağını eritip sarmaların üzerine gezdirin.",
    "Sarmaları sosuyla birlikte servis edin, üzerine ayrılmış pastırmayı ve bir kaşık tejföl ekleyin."
@@ -80,8 +80,17 @@
   ]
  },
  "tip": {
-  "tr": "Turşu lahananın tuzluluğu markaya göre değişir; sarmaları tatmadan önce tuz eklemeyin.",
+  "tr": "Turşu lahananın tuzluluğu markaya göre değişir; iç harcını tatmadan önce tuz eklemeyin.",
   "en": "Sauerkraut salt levels vary a lot by brand, so taste the filling before adding more salt."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Paprika quantities don't add up: the ingredient list says 5 g, but step 4 uses half of 3 g in the filling and step 7 uses 'the remaining 5 g' for the sauce, so 8 g or more is needed in total. The Turk",
+   "Turkish tip says 'sarmaları tatmadan' (taste the rolls) while the English says 'taste the filling'. The Turkish should match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

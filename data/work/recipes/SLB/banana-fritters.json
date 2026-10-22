@@ -39,7 +39,7 @@
    "Başka bir kapta unu, şekeri, kabartma tozunu ve tuzu karıştırın.",
    "Ayrı bir kapta yumurtayı ve hindistancevizi sütünü çırpın.",
    "Yumurta karışımını kuru malzemelerin üzerine ekleyip topaklar kalmayana kadar karıştırın.",
-   "Ezilmiş muzu hamura ekleyin ve kaşıkla yavaşça katlayarak homojen, hafif koyu bir hamur elde edin.",
+   "Ezilmiş muzu hamura ekleyin ve kaşıkla yavaşça katlayarak homojen, hafif sarımtırak kıvamlı bir hamur elde edin.",
    "Geniş bir tencerede kızartma yağını 170°C'ye kadar ısıtın. Yağ kızgınsa, bir damla hamur yağa atıldığında hemen kabarmalıdır.",
    "Hamurdan kaşıkla küçük parçalar alıp yağa bırakın. Her seferinde birkaç parça koyarak yağın sıcaklığını koruyun.",
    "Parçaları ara sıra çevirerek 3-4 dakika, altın rengi alana kadar kızartın.",
@@ -63,5 +63,13 @@
   "tr": "Muzlar ne kadar olgunsa fritalar o kadar tatlı ve yumuşak olur; kabuğunda siyah lekeler oluşmuş muzları tercih edin.",
   "en": "The riper the bananas, the sweeter and softer the fritters; use bananas with black spots on the skin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5: the Turkish says the batter should be 'hafif koyu' (slightly dark), but the English says 'slightly golden'. The two versions disagree on the batter's colour."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

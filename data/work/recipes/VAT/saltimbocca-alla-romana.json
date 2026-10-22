@@ -41,7 +41,7 @@
   "tr": [
    "Dana escalopları iki parça streç film arasına koyup oklavayla yaklaşık 3 mm kalınlığa inceltin.",
    "Etleri iki yüzünden 2 g tuz ve karabiberle hafifçe tatlandırın. Prosciutto tuzlu olduğu için tuzu az tutun.",
-   "Her escaloprn üzerine bir dilim prosciutto ve bir yaprak adaçayı yerleştirin, kürdanla sabitleyin.",
+   "Her escalopun üzerine bir dilim prosciutto ve bir yaprak adaçayı yerleştirin, kürdanla sabitleyin.",
    "Escalopları unla hafifçe kaplayın ve fazla unu silkeleyin.",
    "Geniş bir tavada 15 g tereyağı ile zeytinyağını orta-yüksek ateşte ısıtın.",
    "Saltimbocca'ları prosciutto tarafı aşağı gelecek şekilde tavaya dizin, 2 dakika pişirin. Çevirip 1-2 dakika daha pişirin. Tavaya sığmazsa parti parti pişirin.",
@@ -63,7 +63,16 @@
  },
  "tip": {
   "tr": "Adaçayı yapraklarını prosciutto ile etin arasına sıkıştırmak yerine üstüne yerleştirin; böylece pişerken yapışıp kalmaz ve tavanın dibindeki yağda hafifçe kızarır.",
-  "en": "Press the sage leaves firmly onto the veal before adding the prosciutto so they stay in place during cooking, and avoid overcooking the veal, which should remain tender and just cooked through."
+  "en": "Place the sage leaves on top of the prosciutto rather than sandwiching them between the prosciutto and the veal, so they stay in place during cooking and lightly crisp in the butter. Also avoid overcooking the veal, which should remain tender and just cooked through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English tip says to press the sage onto the veal before adding the prosciutto, but the steps (in both languages) place the prosciutto on the veal and the sage on top of it. The Turkish tip correctly s",
+   "Turkish step 3 has a typo: \"escaloprn\" should be \"escalopun\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

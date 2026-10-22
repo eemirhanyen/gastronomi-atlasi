@@ -26,7 +26,7 @@
    "1 tatlı kaşığı kişniş tozu",
    "2 yeşil biber, ikiye bölünmüş",
    "1,2 litre su",
-   "Tuz",
+   "1 çay kaşığı tuz",
    "Bir avuç taze kişniş yaprağı, doğranmış"
   ],
   "en": [
@@ -43,7 +43,7 @@
    "1 teaspoon ground coriander",
    "2 green chilies, halved",
    "1.2 litres water",
-   "Salt",
+   "1 teaspoon salt",
    "A handful of fresh coriander leaves, chopped"
   ]
  },
@@ -77,5 +77,13 @@
   "tr": "Fermente bambu filizi çok keskin kokar; kaynatıp süzmek hem kokuyu hem ekşiliği azaltır. Acılığı ayarlamak için yeşil biberleri çorba kıvamına göre çıkarabilirsiniz.",
   "en": "Fermented bamboo shoots have a strong smell; boiling and draining them reduces both odour and sourness. Remove the green chilies at any point if you want less heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed without a quantity or unit in both the Turkish and English ingredient lists, so the amount is unclear for 4 servings."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

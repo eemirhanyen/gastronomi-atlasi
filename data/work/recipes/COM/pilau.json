@@ -9,7 +9,7 @@
   "en": "A spiced rice dish served at lunch and dinner in the Comoros, especially at weddings, festivals and family gatherings. Flavoured with cinnamon, cloves and cardamom, it reflects the Swahili cuisine of the East African and Indian Ocean coasts."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,7 +57,7 @@
    "Geniş tencerede 30 ml yağı ısıtın. Et küplerini partiler halinde her yüzü kızarana kadar kavurun ve bir kenara alın.",
    "Kalan yağı ekleyin. Soğanları altın rengi alana kadar yaklaşık 8 dakika kavurun. Sarımsak ve zencefili ekleyip 1 dakika daha pişirin.",
    "Rendelenmiş domatesleri ekleyip sulu kıvamı gidene kadar yaklaşık 5 dakika pişirin. Tarçın, karanfil, kakule, kimyon, karabiber ve 1 çay kaşığı tuzu ekleyip 1 dakika karıştırın.",
-   "Eti tencereye geri koyun, 300 ml sıcak suyu ekleyin. Kapağı kapalı olarak et yumuşayana kadar yaklaşık 35 dakika kısık ateşte pişirin.",
+   "Eti tencereye geri koyun, 300 ml sıcak suyu ekleyin. Kapağı kapalı olarak et yumuşayana kadar yaklaşık 75 dakika kısık ateşte pişirin.",
    "Süzülmüş pirinci tencereye ekleyip hafifçe karıştırın. 450 ml sıcak suyu ve hindistancevizi sütünü ekleyin, tatmaya göre tuz ayarlayın.",
    "Karışımı kaynatın, ateşi en düşük seviyeye indirip kapağını kapatın. Su çekilene kadar yaklaşık 15-18 dakika pişirin.",
    "Ocaktan alıp kapağı kapalı halde 10 dakika dinlendirin. Çatalla kabartın, tarçın çubuğunu ve karanfilleri ayıklayın, doğranmış kişnişle servis edin."
@@ -67,7 +67,7 @@
    "Heat 30 ml of oil in a heavy pot. Brown the beef cubes in batches on all sides, then set them aside.",
    "Add the remaining oil. Fry the onions until golden, about 8 minutes. Add the garlic and ginger and cook for 1 more minute.",
    "Add the grated tomatoes and cook for about 5 minutes until the sauce thickens. Stir in the cinnamon, cloves, cardamom, cumin, black pepper and 1 tsp salt and cook for 1 minute.",
-   "Return the beef to the pot and add the 300 ml hot water. Cover and simmer gently for about 35 minutes until the meat is tender.",
+   "Return the beef to the pot and add the 300 ml hot water. Cover and simmer gently for about 75 minutes until the meat is tender.",
    "Add the drained rice and stir gently. Pour in the 450 ml hot water and the coconut milk, then adjust the salt to taste.",
    "Bring to the boil, then reduce the heat to the lowest setting and cover the pot. Cook for about 15-18 minutes until the liquid is absorbed.",
    "Remove from the heat and rest, covered, for 10 minutes. Fluff with a fork, remove the cinnamon stick and cloves, and serve sprinkled with chopped coriander."
@@ -77,5 +77,14 @@
   "tr": "Pirinç tencerenin dibine yapışmasın diye kısık ateşte ve kapağı kapalı pişirin; kapağı açmamak pilavın kabarmasını sağlar.",
   "en": "Cook the rice on the lowest heat with the lid on and avoid lifting it, so the grains steam evenly and do not stick to the base."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef chuck (3 cm cubes) simmered only 35 minutes will not become tender; it needs roughly 75 minutes or more. The time_min of 60 is also too short for the full process.",
+   "Turkish and English step 5 were both changed to match the longer simmer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

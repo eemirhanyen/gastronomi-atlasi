@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Domatesleri en son tuza bulayın ve soğanı suda bekletmek yerine az miktarda limon suyuyla ovalayarak da yumuşatabilirsiniz; salata hazırlandıktan hemen sonra servis edilirse en taze halini alır.",
+  "tr": "Domatesleri servisten kısa bir süre önce tuzlayıp suyunu süzerek salatanın gevrek kalmasını sağlayabilirsiniz. Soğanı suda bekletmek yerine az miktarda limon suyuyla ovalayarak da yumuşatabilirsiniz; salata hazırlandıktan hemen sonra servis edilirse en taze halini alır.",
   "en": "Salt the tomatoes only shortly before serving and drain their juice so the salad stays crisp; it tastes best within an hour of dressing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses unnatural phrasing 'Domatesleri en son tuza bulayın' (should be 'tuzlayın'), and it does not mention draining the tomato juice as the English tip does.",
+   "Tip says to salt tomatoes shortly before serving, but step 5 salts them early in preparation. Tip wording is aligned with the English version and the Turkish tip is reworded to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A Puerto Rican custard dessert made with condensed milk and coconut milk, served with its own caramel sauce. It is especially common on Christmas and New Year's tables and at family celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 390,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
   "tr": [
    "Fırını 160°C'ye ısıtın. Hindistancevizini kuru bir tavada orta ateşte, hafif altın rengi alana kadar 3-4 dakika kavurun, bir kenara alın.",
    "Karamel için şekeri ve suyu orta boy bir tencereye koyun. Orta ateşte, karışmaması için yalnızca tencereyi sallayarak, koyu kehribar renk alana kadar yaklaşık 8-10 dakika pişirin.",
-   "Karamelı hemen 20 cm'lik yuvarlak bir kalıba dökün ve kalıbın tabanına ve yanlarına yayılması için kalıbı çevirin. Karamelın sertleşmesi için bir kenara koyun.",
+   "Karameli hemen 20 cm'lik yuvarlak bir kalıba dökün ve kalıbın tabanına ve yanlarına yayılması için kalıbı çevirin. Karamelin sertleşmesi için bir kenara koyun.",
    "Yumurtaları bir kapta hafifçe çırpın. Yoğunlaştırılmış süt, buharlaştırılmış süt, hindistancevizi sütü, vanilya özü ve tuzu ekleyip karıştırın. Köpük oluşmaması için aşırı çırpmayın.",
    "Karışımı ince bir süzgeçten geçirerek karamelli kalıba dökün.",
    "Kalıbı büyük bir fırın tepsisine yerleştirin ve tepsiye kalıp yüksekliğinin yarısına gelecek kadar sıcak su ekleyin (su banyosu).",
@@ -65,5 +65,14 @@
   "tr": "Karamel koyu renge gelince hemen ocaktan alın; aksi halde acılaşır. Flanın soğuması için bekleyin, sıcakken kalıptan çıkarırsanız dağılabilir.",
   "en": "Take the caramel off the heat as soon as it reaches deep amber, or it will turn bitter. Chill the flan fully before unmolding, as a warm flan may collapse."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps require about 60-70 min baking, 1 hour cooling, and at least 4 hours chilling (roughly 6.5 hours total).",
+   "Turkish step 3 has spelling errors: 'Karamelı' and 'Karamelın' should be 'karamel' and 'karamelin'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

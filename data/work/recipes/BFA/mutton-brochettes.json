@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Et küplerini eşit boyutta kesin ki hepsi aynı sürede pişsin; sert kalmaması için koyun etini çok ince kesmeyin.",
+  "tr": "Et küplerini eşit boyutta kesin ki hepsi aynı sürede pişsin; sert kalmaması için koyun etini çok ince kesmeyin ve aşırı pişirmeyin.",
   "en": "Cut the cubes to an even size so they cook at the same rate, and avoid overcooking, which makes mutton tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the English point about avoiding overcooking, which makes mutton tough; the two versions disagree in content"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A baked dish from Suriname's Creole and Hindustani-Creole kitchens, made with grated tayer root, chicken and citrus. It is served at family gatherings and community feasts, especially at Christmas, Winti celebrations and Keti Koti."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 125,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Tayer rendelerken eller ve kollarınızı korumak için eldiven kullanın; rendelenen tayer kararmasın diye hemen karıştırmaya başlayın.",
   "en": "Wear gloves when grating tayer, as it can irritate the skin, and mix it with the liquids straight away to keep the texture smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short for the steps: 20 min marinating, about 10-15 min browning, 75-80 min baking, 10 min resting, plus preparation and grating of 800 g tayer. A realistic total is about 2 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A traditional fermented sour-milk drink of northern Namibia, especially among the Herero people. It is usually drunk as a cooling refreshment on hot days."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 900,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -30,7 +30,7 @@
    "Sütü geniş bir tencereye koyun ve orta ateşte 85 °C'ye kadar ısıtın; kaynatmanıza gerek yok, sadece yüzeyde ince köpükler oluşmaya başlayınca ocağı kapatın.",
    "Sütü oda sıcaklığına yakın, yaklaşık 40–45 °C'ye kadar soğumaya bırakın. Bu aşamada parmağınızla dokunduğunuzda sıcak ama yakmayan bir his olmalıdır.",
    "Yoğurdu bir kapta pürüzsüzleşene kadar çırpın, ardından bir kaşık sütle inceltin ve kalan sütle birlikte tencereye ekleyip iyice karıştırın.",
-   "Tencerenin ağzını temiz bir bezle veya kapakla örtün ve oda sıcaklığında (22–25 °C) 12–18 saat bekletin. Süt koyulaşıp hafif ekşi kokuya ulaşınca fermentasyon tamamdır.",
+   "Tencerenin ağzını temiz bir bezle veya kapakla örtün ve oda sıcaklığında (22–25 °C) 12–18 saat bekletin. Süt koyulaşıp hafif ekşi bir koku aldığında fermentasyon tamamdır.",
    "Fermente sütü bir çırpıcıyla pürüzsüz hale gelene kadar çırpın. İsterseniz şekeri ekleyip eşit şekilde karıştırın.",
    "Karışımı en az 2 saat buzdolabında soğutun.",
    "Soğuk içeceği bardaklara bölüşün, dilerseniz birkaç buz küpü ekleyerek servis yapın."
@@ -46,8 +46,18 @@
   ]
  },
  "tip": {
-  "tr": "Fermantasyon sırasında sütü hareket ettirmeyin ve ortamı serin tutun; sıcak ortamda çok hızlı ekşiyebilir, soğukta ise yeterince kalınlaşmaz.",
+  "tr": "Fermentasyon sırasında sütü hareket ettirmeyin ve ortamı serin tutun; sıcak ortamda çok hızlı ekşiyebilir, soğukta ise yeterince kalınlaşmaz.",
   "en": "Keep the milk undisturbed and in a cool room during fermentation; a warm kitchen can make it sour too quickly, while a cold one will leave it thin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish spelling: 'fermantasyon' should be 'fermentasyon' (in step 4 and in the tip).",
+   "time_min (20) covers only active work, but the recipe also needs 12–18 hours of fermentation and at least 2 hours of chilling, so the total time is misleading.",
+   "Turkish step 4 'hafif ekşi kokuya ulaşınca' is unnatural phrasing; it should say a mildly sour smell is detected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

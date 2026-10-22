@@ -41,9 +41,9 @@
    "Geniş bir kaseye unu, kalan şekeri ve tuzu koyun. Ortasında bir çukur açıp yumurtayı, maya karışımını ve yumuşak tereyağını ekleyin.",
    "Malzemeleri 8-10 dakika boyunca yumuşak, elastik ve yapışmayan bir hamur olana kadar yoğurun. Gerekirse birkaç damla su ya da un ekleyerek kıvamını ayarlayın.",
    "Hamuru kaseye geri koyun, üzerini temiz bir bezle örtün ve sıcak bir yerde yaklaşık 30-40 dakika, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
-   "Hamuru hafifçe bastırıp gazını alın ve yaklaşık 1 cm kalınlığında bir yufka gibi açın. Keskin bir bıçakla 4-5 cm'lik kareler veya eşkenar dörtgenler kesin.",
+   "Hamuru hafifçe bastırıp gazını alın ve yaklaşık 1 cm kalınlığında bir hamur tabakası halinde açın. Keskin bir bıçakla 4-5 cm'lik kareler veya eşkenar dörtgenler kesin.",
    "Kesilen parçaları bir tepsiye dizip bez ile örtün ve 10 dakika dinlendirin.",
-   "Derin bir tencerede ayçiçek yağını 170°C'ye kadar ısıtın. Parçaları gruplar halinde, birkaç dakikada bir çevirerek her iki yüzü altın rengi olana kadar 2-3 dakika kızartın.",
+   "Derin bir tencerede ayçiçek yağını 170°C'ye kadar ısıtın. Parçaları gruplar halinde, bir kez çevirerek her iki yüzü altın rengi olana kadar 3-4 dakika kızartın.",
    "Kızarmış boorsokları kağıt havlu serili bir tabağa alarak fazla yağını süzdürün. Sıcak sıcak, bal ile birlikte servis edin."
   ],
   "en": [
@@ -53,7 +53,7 @@
    "Return the dough to the bowl, cover with a clean cloth and leave in a warm place for about 30-40 minutes, until it has doubled in size.",
    "Gently press the dough to release the air, then roll it out to a sheet about 1 cm thick. Cut it into 4-5 cm squares or diamonds with a sharp knife.",
    "Arrange the pieces on a tray, cover with a cloth and rest for 10 minutes.",
-   "Heat the sunflower oil in a deep pan to 170°C. Fry the pieces in batches for 2-3 minutes, turning once, until both sides are golden brown.",
+   "Heat the sunflower oil in a deep pan to 170°C. Fry the pieces in batches for 3-4 minutes, turning once, until both sides are golden brown.",
    "Drain the boorsok on a plate lined with kitchen paper. Serve warm with the honey."
   ]
  },
@@ -61,5 +61,15 @@
   "tr": "Yağın sıcaklığını bir termometreyle takip edin; 170°C'nin altında boorsoklar yağ çeker, üzerinde ise dışı hızla kararıp içi pişmeden kalır.",
   "en": "Check the oil with a thermometer: below 170°C the boorsok will absorb grease, while above it the outside darkens before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says to turn the pieces every few minutes, but the English says to turn once. The two versions disagree on the technique.",
+   "Frying 2-3 minutes total for pieces cut from 1 cm thick dough at 170°C risks a raw, doughy centre. The time needs to be longer.",
+   "Turkish step 5 says to roll the dough 'like a yufka', but yufka is a very thin sheet and the step specifies 1 cm thickness. The comparison is contradictory."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -54,7 +54,7 @@
    "Büyük bir tencere ya da derin tavada yağı 170-175 °C'ye kadar ısıtın. Islak ellerinizle hamurdan ceviz büyüklüğünde parçalar alıp avuç içinde hafifçe bastırarak 1 cm kalınlığında, ortası delikli halkalar şeklinde yassılaştırın.",
    "Vadeleri dikkatle yağa bırakın ve 4-5 dakika, bir kez çevirerek altın rengi ve çıtır olana kadar kızartın. Karides tamamen pişmiş olmalı.",
    "Vadeleri süzgeçli kaşıkla alıp kağıt havlu üzerine koyun ve fazla yağını süzülmesini bekleyin.",
-   "Sıcak sıcak, kişniş ve kırmızı biberli soğan salatası ya da hindistancevizli sambol ile servis yapın."
+   "Sıcak sıcak, kişniş ve kırmızı soğan salatası ya da hindistancevizli sambol ile servis yapın."
   ],
   "en": [
    "Drain the split black gram (urad dal) and grind it in a blender or food processor with a small amount of water until it forms a coarse paste. It should not be perfectly smooth.",
@@ -71,5 +71,13 @@
   "tr": "Vadeleri kızartmadan önce küçük bir parçayı yağa atıp test edin; dağılıyorsa hamura biraz pirinç unu ekleyin.",
   "en": "Test one fritter before frying the whole batch: if it breaks apart, add a little more rice flour to the mixture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says \"kırmızı biberli soğan salatası\" (onion salad with red pepper), but the English says \"red onion and coriander salad\". Corrected to \"kırmızı soğan salatası\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

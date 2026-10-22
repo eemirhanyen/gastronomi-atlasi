@@ -39,13 +39,13 @@
  },
  "steps": {
   "tr": [
-   "Fırını 120°C'ye ısıtın. Fırın tepsisine pişirme kağıdı serin ve kağıdın üzerine 20 cm çapında bir daire çizin.",
+   "Fırını 120°C'ye ısıtın. Fırın tepsisine pişirme kağıdı yerleştirin ve kağıdın üzerine 20 cm çapında bir daire çizin.",
    "Yumurta aklarını yağsız ve temiz bir kaseye alın, yumuşak zirve oluşana kadar çırpın.",
-   "Çırpmaya devam ederek toz şekeri bir kaşık bir kaşık ekleyin. Parmaklar arasında ovulduğunda kum hissi kalmayan, parlak ve sert bir bez elde edene kadar çırpın.",
+   "Çırpmaya devam ederek toz şekeri birer kaşık ekleyin. Parmaklar arasında ovulduğunda kum hissi kalmayan, parlak ve sert bir bez elde edene kadar çırpın.",
    "Bezenin üzerine beyaz sirke, mısır nişastası ve vanilya özünü ekleyip spatulayla nazikçe karıştırın.",
    "Bezeyi çizdiğiniz dairenin içine yayın, kenarları yükselterek ortası hafif çukur bir yuva şekli verin.",
-   "Bezeyi 60 dakika pişirin. Fırını kapatın ve kapağı kapalı halde bezenin fırında 1 saat soğumasını bekleyin.",
-   "Pavlova soğurken ağır kremayı ve pudra şekerini soft zirve oluşana kadar çırpın.",
+   "Bezeyi 60 dakika pişirin. Fırını kapatın ve kapısı kapalı halde bezenin fırında 1 saat soğumasını bekleyin.",
+   "Pavlova soğurken ağır kremayı ve pudra şekerini yumuşak zirve oluşana kadar çırpın.",
    "Çilekleri sapından ayırıp dilimleyin. Kivileri soyup dilimleyin. Çarkıfelekleri ikiye kesip posasını kaşıkla çıkarın.",
    "Servisten hemen önce kremayı bezenin ortasına yayın, üzerine meyveleri dizin ve hemen servis edin."
   ],
@@ -65,5 +65,16 @@
   "tr": "Pavlovayı servisten hemen önce süsleyin; krema ve meyve suyu bezeyi uzun süre bekletirse çıtırlığını kaybeder.",
   "en": "Assemble the pavlova just before serving, because cream and fruit juices will soften the crisp meringue if it sits too long."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1: 'serin' (chill) is the wrong verb for placing baking paper on the tray; should be 'yerleştirin'.",
+   "Turkish step 3: 'bir kaşık bir kaşık' is unnatural; 'birer kaşık' is the correct phrasing.",
+   "Turkish step 6: 'kapağı kapalı halde' refers to a lid, but the oven has a door; should be 'kapısı kapalı halde'.",
+   "Turkish step 7: 'soft zirve' leaves an English term in the Turkish text; should be 'yumuşak zirve', as used in step 2."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -36,7 +36,7 @@
    "Mısır ununu geniş bir kaseye koyun, 250 ml soğuk suyla ekleyin ve topaksız, pürüzsüz bir hamur elde edene kadar çırpın.",
    "Geniş bir tencerede 750 ml suyu tarçın çubuğu ve tuzla birlikte kaynatın.",
    "Ocağı orta ateşe alın ve mısır hamurunu kaynayan suya ince bir akış halinde dökerek sürekli karıştırarak ekleyin.",
-   "Ateşi kısın ve yaklaşık 15 dakika, sık sık karıştırarak pişirin; lapa koyulaşıp hamsi tadı kalmayana kadar bekleyin.",
+   "Ateşi kısın ve yaklaşık 15 dakika, sık sık karıştırarak pişirin; lapa koyulaşana ve çiğ un tadı kalmayana kadar bekleyin.",
    "Tarçın çubuğunu çıkarın. Şekeri ekleyip eriyene kadar karıştırın, ardından sütü ve vanilya özünü ilave edin.",
    "Lapayı 3-5 dakika daha kısık ateşte karıştırarak pişirin. Çok koyu olursa biraz sıcak su ekleyerek kıvamını ayarlayın.",
    "Sıcak sıcak kaselere alıp servis yapın."
@@ -55,5 +55,13 @@
   "tr": "Mısır ununu suyla önceden iyice karıştırıp kaynayan suya ekleyerek topak oluşumunu önleyin; lapayı sürekli karıştırmak en önemli kuraldır.",
   "en": "Whisk the flour into cold water first and add it slowly to the boiling water, then keep stirring; this is the best way to prevent lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"hamsi tadı kalmayana kadar\". \"Hamsi\" means anchovy, which is wrong here. The English says \"no raw cornmeal taste remains\", so the Turkish should say something like \"çiğ un tadı ka"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -17,7 +17,7 @@
    "4 g kabartma tozu",
    "50 g toz şeker",
    "2 g tuz",
-   "1/2 çay kaşığı rendelenmiş hindistancevizi çekirdeği (küçük ağızlı bir rende ile rendelenmiş)",
+   "1/2 çay kaşığı rendelenmiş muskat (taze rendelenmiş)",
    "40 g tereyağı, eritilmiş ve biraz soğutulmuş",
    "2 büyük yumurta (yaklaşık 100 g)",
    "80 ml süt",
@@ -41,7 +41,7 @@
  },
  "steps": {
   "tr": [
-   "Büyük bir kapta unu, kabartma tozunu, toz şekeri, tuzu ve hindistancevizi çekirdeğini iyice karıştırın.",
+   "Büyük bir kapta unu, kabartma tozunu, toz şekeri, tuzu ve rendelenmiş muskatı iyice karıştırın.",
    "Başka bir kapta yumurtaları çırpın, sütü, eritilmiş tereyağını ve vanilya özütünü ekleyip homojen hale gelene kadar karıştırın.",
    "Islak karışımı kuru malzemelerin üzerine dökün ve bir spatula ile yumuşak bir hamur elde edene kadar karıştırın. Hamur yapışkan olmamalı; gerekirse 1 yemek kaşığı daha un ekleyin.",
    "Hamuru örtün ve oda sıcaklığında 20 dakika dinlendirin.",
@@ -67,5 +67,13 @@
   "tr": "Topları küçük partiler halinde kızartın; yağ sıcaklığı düşerse toplar yağlı ve ağır olur.",
   "en": "Fry in small batches; if the oil temperature drops the balls become greasy and heavy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish translates 'nutmeg' as 'hindistancevizi çekirdeği', which means coconut kernel. The correct Turkish term for nutmeg is 'muskat' (ingredient list and step 1)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

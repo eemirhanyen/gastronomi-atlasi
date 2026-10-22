@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci servisten hemen önce ekleyip fazla pişirmeyin; aksi halde çorba koyulaşır ve pirinç dağılır. Dilerseniz servis sırasında birer dilim limon ya da sumak ekleyerek ekşi bir tat verin.",
-  "en": "Add the rice shortly before serving, as overcooking makes the soup thick and the grains break down. For a traditional tang, offer lemon wedges or sumac on the side."
+  "tr": "Pirinci etler yumuşadıktan sonra ekleyin ve yalnızca pişene kadar pişirin; fazla pişirilirse çorba koyulaşır ve pirinç dağılır. Dilerseniz servis sırasında birer dilim limon ya da sumak ekleyerek ekşi bir tat verin.",
+  "en": "Add the rice once the meat is tender and cook only until it is done; overcooking makes the soup thick and the grains break down. For a traditional tang, offer lemon wedges or sumac on the side."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts the steps: it says to add the rice shortly before serving, but step 6 adds it about 25 minutes before the soup is finished. The tip in both languages is rewritten to match the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

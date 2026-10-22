@@ -5,7 +5,7 @@
  },
  "native": "sopa paraguaya",
  "desc": {
-  "tr": "Adının aksine bir çorba değil, mısır unu, peynir, soğan ve yumurtayla yapılan yoğun, sulu bir mısır ekmeği. Paraguay'da öğle yemeklerinin ve aile toplantılarının vazgeçilmez eşlikçisi olarak, genellikle fırından sıcak servis edilir.",
+  "tr": "Adının aksine bir çorba değil, mısır unu, peynir, soğan ve yumurtayla yapılan yoğun, sulu bir mısır ekmeği. Paraguay'da öğle yemeklerinin ve aile toplantılarının vazgeçilmez eşlikçisi olarak, çoğunlukla ızgara etlerle birlikte, fırından sıcak servis edilir.",
   "en": "Despite its name, this is not a soup but a dense, moist cornbread made with cornmeal, cheese, onion and eggs. In Paraguay it is served warm at family lunches and gatherings, often alongside grilled meats."
  },
  "servings": 4,
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Mısır unu sulu hamurdan zamanla kalınlaşır; hamur çok kıvamlı görünürse servis öncesi sıcakken bile yumuşak kalması için 1-2 kaşık süt ekleyebilirsiniz.",
+  "tr": "Mısır unu, hamur dinlenirken kalınlaşır; pişirmeden önce hamur çok kıvamlı görünürse 1-2 kaşık süt ekleyin. Sonuç nemli ve yumuşak olmalı, kuru olmamalıdır.",
   "en": "Cornmeal thickens the batter as it rests, so if it looks too stiff before baking, add a spoonful of milk; the result should be moist and tender, not dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is muddled and contradicts the English: it suggests adding milk 'for serving' while the English says to add milk before baking if the batter looks stiff.",
+   "Turkish description omits the English detail that the dish is often served alongside grilled meats, so the two descriptions differ."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

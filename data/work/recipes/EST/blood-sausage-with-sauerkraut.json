@@ -5,7 +5,7 @@
  },
  "native": "Verivorst hapukapsaga",
  "desc": {
-  "tr": "Estonya'nın geleneksel kış yemeklerinden biri olan bu tabak, tütsülü domuz yağı ve kimyonla pişirilmiş turşu lahanayla servis edilen kan sosisinden oluşur. Genellikle domalma ve Noel dönemlerinde, haşlanmış patatesle birlikte sofraya gelir.",
+  "tr": "Estonya'nın geleneksel kış yemeklerinden biri olan bu tabak, tütsülü domuz yağı ve kimyonla pişirilmiş turşu lahanayla servis edilen kan sosisinden oluşur. Genellikle Noel ve kış aylarında, haşlanmış patatesle birlikte sofraya gelir.",
   "en": "A traditional Estonian winter dish of blood sausage served over sauerkraut braised with smoked bacon and caraway. It is often eaten during the Christmas season and the colder months, usually with boiled potatoes."
  },
  "servings": 4,
@@ -69,5 +69,13 @@
   "tr": "Kan sosisini çok yüksek ateşte kızartmayın; deri çatlayıp dolgu dağılabilir. Düşük ateşte yavaş ısıtmak hem daha yumuşak bir doku hem de düzgün bir kabuk sağlar.",
   "en": "Do not fry blood sausage over high heat, or the casing may split and the filling can burst out. Gentle heating gives a softer texture and an even, golden crust."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses \"domalma\", which is not a correct term here (it is an unrelated slang word). It should refer to the Christmas and winter season, as the English version does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

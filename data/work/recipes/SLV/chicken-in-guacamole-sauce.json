@@ -6,10 +6,10 @@
  "native": "Pollo en guacamole",
  "desc": {
   "tr": "El Salvador'da ev yemeklerinin ve günlük öğünlerin vazgeçilmez parçası olan, avokadolu ve kabak çekirdeğli yeşil bir sosla pişirilmiş tavuk yemeğidir. Genellikle pilav, tortilla ya da sıcak mısır ekmeğiyle öğle ve akşam sofralarında servis edilir.",
-  "en": "A everyday home dish of El Salvador, where chicken is simmered in a green sauce built on avocado and toasted pumpkin seeds. It is usually served at lunch or dinner with rice, tortillas or warm corn bread."
+  "en": "An everyday home dish of El Salvador, where chicken is simmered in a green sauce built on avocado and toasted pumpkin seeds. It is usually served at lunch or dinner with rice, tortillas or warm corn bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Tavuğu, yarım soğanı, 1 diş sarımsağı ve 1 çay kaşığı tuzu 1,5 litre suyla geniş bir tencereye alın. Kaynayınca ateşi kısın ve yüzeyde biriken köpüğü alarak tavuk yumuşayana kadar, yaklaşık 35 dakika pişirin.",
-   "Tavuğu bir tabağa alın, suyunu süzüp 800 ml'sini ayırın. Tavuk sulanmasın diye üzerini örtün.",
+   "Tavuğu bir tabağa alın, suyunu süzüp 800 ml'sini ayırın. Tavuk kurumasın diye üzerini örtün.",
    "Kabak çekirdeklerini kuru bir tavada orta ateşte, sık karıştırarak 2-3 dakika kızartın. Kenara alıp soğuduktan sonra blenderde ince bir toz haline getirin.",
    "Kalan yarım soğanı, 3 sarımsağı, domatesleri ve jalapeño biberlerini kuru tavada, arada çevirerek 6-8 dakika, kabukları kararana kadar közleyin. Domates ve biberlerin kabuğunu soyun.",
    "Közlenmiş sebzeleri, kişnişi, öğütülmüş kabak çekirdeğini ve 300 ml ayırdığınız tavuk suyunu blenderde pürüzsüz bir karışım olana kadar çekin.",
@@ -77,5 +77,15 @@
   "tr": "Avokadoyu mutlaka en sonda, ocak kapalıyken ekleyin; uzun süre ısıtılırsa sos kararır ve tadı bozulur.",
   "en": "Add the avocado only at the end, off the heat; prolonged cooking darkens it and dulls its fresh flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says \"Tavuk sulanmasın diye\" (so the chicken doesn't get watery), which is wrong for the purpose. Covering is meant to keep it from drying out (\"kurumasın\").",
+   "The stated total time of 60 minutes is too short. Simmering the chicken takes about 35 minutes, plus charring, blending, thickening and final cooking, so the realistic total is about 75 minutes.",
+   "English description has a grammar error: \"A everyday home dish\" should be \"An everyday home dish\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

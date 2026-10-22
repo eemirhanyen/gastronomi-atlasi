@@ -42,7 +42,7 @@
    "Yeşil soğanları temizleyip 10 cm uzunluğunda kesin. Kırmızı biberi ince ince doğrayın. Karidesleri soyup kabaca doğrayın.",
    "Büyük bir kasede unu, pirinç unu ve tuzu karıştırın.",
    "Ayrı bir kapta yumurtayı soğuk suyla çırpın, ardından unlu karışıma dökün ve pürüzsüz, akıcı bir hamur elde edene kadar karıştırın.",
-   "Hamura karidesleri ve kırmızı biberin yarısını ekleyin.",
+   "Hamura karidesleri ve kırmızı biberin tamamını ekleyin.",
    "Sos için soya sosu, pirinç sirkesi, şeker ve kore pul biberini küçük bir kapta karıştırın. Şeker eriyene kadar bekletin.",
    "Hamuru ikiye bölün. Orta ateşte 28 cm'lik yapışmaz bir tavayı ısıtın ve 15 ml yağ ekleyin.",
    "Yeşil soğanların yarısını tavaya tek kat olacak şekilde yayın. Hamurun yarısını soğanların üzerine eşit olarak dökün ve hamuru spatulayla hafifçe yayın.",
@@ -54,7 +54,7 @@
    "Trim the green onions and cut them into 10 cm lengths. Finely slice the red chili. Peel the shrimp and roughly chop them.",
    "In a large bowl, whisk together the all-purpose flour, rice flour and salt.",
    "In a separate bowl, beat the egg with the cold water, then pour it into the flour mixture and stir until you have a smooth, thin batter.",
-   "Add the shrimp and half of the sliced chili to the batter.",
+   "Add the shrimp and all of the sliced chili to the batter.",
    "For the sauce, mix the soy sauce, rice vinegar, sugar and gochugaru in a small bowl. Let it stand until the sugar dissolves.",
    "Divide the batter in half. Heat a 28 cm nonstick pan over medium heat and add 15 ml of the oil.",
    "Spread half of the green onions in a single layer in the pan. Pour half of the batter evenly over the onions and gently spread it with a spatula.",
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru mümkün olduğunca soğuk tutun ve ince kıvamda bırakın; bu, pancake'in daha çıtır olmasını sağlar.",
-  "en": "Keep the batter cold and thin, as this makes the pancake crispier. Do not overmix, and avoid lumps only if you prefer a smoother texture."
+  "tr": "Hamuru mümkün olduğunca soğuk tutun, ince kıvamda bırakın ve fazla karıştırmayın; bu, pancake'in daha çıtır olmasını sağlar.",
+  "en": "Keep the batter cold and thin, and do not overmix, as this makes the pancake crispier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 adds only half of the red chili to the batter, and the other half is never used anywhere in the steps.",
+   "The English tip contains an extra sentence about avoiding lumps that the Turkish tip does not have, and the two versions contradict each other."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

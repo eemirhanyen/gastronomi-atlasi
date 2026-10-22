@@ -9,7 +9,7 @@
   "en": "Tsipouro is a grape-marc spirit distilled in Greece and eaten with small plates of meze in tavernas and family homes. This version, scented with aniseed, is a home-style favourite in northern Greece and is served before lunch and dinner."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 4320,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,5 +51,13 @@
   "tr": "Anason tohumunu çok ince öğütmeyin; ezilmiş tohum daha temiz bir süzme ve dengeli bir aroma verir.",
   "en": "Crush the aniseed coarsely rather than grinding it to powder; this gives a cleaner strain and a more balanced aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, but the recipe requires a 3-day (up to 4-day) infusion. The total time is misleading; it should reflect the full process."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

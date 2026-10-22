@@ -6,10 +6,10 @@
  "native": "Mafé",
  "desc": {
   "tr": "Kinşasa'da ve Kongo'nun geneli boyunca pirinç, chikwangue (kassava ekmeği) veya fufu ile servis edilen, yer fıstığı ezmesi ve domatesle koyulaştırılmış tavuklu bir yemektir. Genellikle hafta sonu öğle yemeklerinde ve aile toplantılarında pişirilir.",
-  "en": "A rich stew of chicken simmered in tomato and thickened with peanut paste, served with rice, chikwangue (cassava bread) or fufu. It is a everyday family dish in Kinshasa and across the country, often cooked for weekend lunches and gatherings."
+  "en": "A rich stew of chicken simmered in tomato and thickened with peanut paste, served with rice, chikwangue (cassava bread) or fufu. It is an everyday family dish in Kinshasa and across the country, often cooked for weekend lunches and gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -50,7 +50,7 @@
    "Tavukları tencereye geri koyun. Sıcak suyu, tavuk suyu küpünü ve bir tutam karabiberi ekleyin. Kaynayınca ateşi kısın ve kapağı kapalı olarak 20 dakika pişirin.",
    "Ayrı bir kapta yer fıstığı ezmesini ılık suyla yavaş yavaş karıştırarak pürüzsüz, akışkan bir krema elde edin.",
    "Fıstık karışımını tencereye azar azar ekleyin ve sürekli karıştırın. Ateşi çok düşük tutarak 20-25 dakika kadar pişirin. Sos koyulaşınca ve yağ yüzeye çıkınca hazırdır.",
-   "Acı biberi ekleyin, tuzu ve karabiberi tadına göre ayarlayın. Sıcak sosu pirinç veya chikwangue ile servis edin."
+   "İsteğe bağlı olarak acı biberi ekleyin, tuzu ve karabiberi tadına göre ayarlayın. Sıcak sosu pirinç veya chikwangue ile servis edin."
   ],
   "en": [
    "Season the chicken with salt and black pepper.",
@@ -65,7 +65,18 @@
  },
  "tip": {
   "tr": "Fıstık ezmesinin yağı ayrılmışsa iyice karıştırın; sos çok koyulaşırsa az az sıcak su ekleyerek kıvamını ayarlayın.",
-  "en": "Use natural peanut butter and stir it well before using; if the sauce becomes too thick, add hot water a little at a time to adjust the consistency."
+  "en": "Use unsalted, unsweetened peanut butter and stir it well before using; if the sauce becomes too thick, add hot water a little at a time to adjust the consistency."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the listed steps alone take about 65-75 minutes (browning 6-8, onion 5, tomato 8, simmer 20, peanut sauce 20-25, plus prep)",
+   "Chili is optional in the ingredients list and in the English step ('if using'), but the Turkish step 8 presents it as a required addition",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'",
+   "English tip says 'natural peanut butter' while the ingredient list specifies unsalted, unsweetened smooth peanut butter; the tip should match"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

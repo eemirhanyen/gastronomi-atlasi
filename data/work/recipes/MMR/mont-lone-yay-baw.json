@@ -6,7 +6,7 @@
  "native": "မုန့်လုံးရေပေါင်း",
  "desc": {
   "tr": "Glutinous pirinç unundan yapılan, içi palmiye şekeri ve susamla doldurulmuş küçük topların kaynar suda pişirilip hindistancevizi ve susamla kaplanmasıyla hazırlanan geleneksel bir Myanmar tatlısıdır. Genellikle festivallerde, düğünlerde ve günün herhangi bir saatinde atıştırmalık olarak servis edilir.",
-  "en": "A traditional Burmese dessert of small glutinous rice flour dumplings filled with palm jaggery and sesame, boiled until they float, then rolled in grated coconut and sesame. It is served at festivals, weddings and as a everyday snack, often warm."
+  "en": "A traditional Burmese dessert of small glutinous rice flour dumplings filled with palm jaggery and sesame, boiled until they float, then rolled in grated coconut and sesame. It is served at festivals, weddings and as an everyday snack, often warm."
  },
  "servings": 4,
  "time_min": 60,
@@ -37,7 +37,7 @@
   "tr": [
    "Glutinous pirinç unu, tuz ve ılık suyu bir kasede karıştırın, ardından elinizle yumuşak, çatlamayan bir hamur elde edene kadar 5 dakika yoğurun. Hamuru streçle örtüp 20 dakika dinlendirin.",
    "Susamı kuru bir tavada orta ateşte, sürekli karıştırarak hafif altın rengi alana kadar yaklaşık 3 dakika kavurun. Bir kenara alın.",
-   "Palmiye şekerini küçük parçalar halinde rendeleyin ya da doğrayın. Kavrulmuş susam ve 20 g rendelenmiş hindistancevizi ile karıştırarak dolguyu hazırlayın.",
+   "Palmiye şekerini küçük parçalar halinde rendeleyin ya da doğrayın. Kavrulmuş susamın yarısı ve 20 g rendelenmiş hindistancevizi ile karıştırarak dolguyu hazırlayın.",
    "Hamuru 24 eşit parçaya bölün. Her parçayı avucunuzda yuvarlayıp ortasını parmaklarınızla hafifçe çukurlaştırın.",
    "Çukura yaklaşık bir çay kaşığı dolgu koyun, kenarları kapatıp sıkıca yuvarlayarak fındık büyüklüğünde, dolgusu içeride kalmış topları şekillendirin.",
    "Büyük bir tencerede 2 L suyu tuzla birlikte kaynatın.",
@@ -49,13 +49,13 @@
   "en": [
    "Mix the glutinous rice flour, salt and warm water in a bowl, then knead by hand for about 5 minutes until you have a smooth, crack-free dough. Cover with cling film and rest for 20 minutes.",
    "Toast the sesame seeds in a dry pan over medium heat, stirring constantly, for about 3 minutes until lightly golden. Set aside.",
-   "Grate or finely chop the palm jaggery. Mix it with the toasted sesame and 20 g of the grated coconut to make the filling.",
+   "Grate or finely chop the palm jaggery. Mix it with half of the toasted sesame and 20 g of the grated coconut to make the filling.",
    "Divide the dough into 24 equal pieces. Roll each piece into a ball and press a small hollow into the centre with your thumb.",
    "Place about a teaspoon of filling in the hollow, pinch the edges closed and roll firmly into a smooth hazelnut-sized ball with the filling sealed inside.",
    "Bring 2 L of water with the salt to a rolling boil in a large pot.",
    "Carefully drop the balls into the boiling water. Cook for 2-3 minutes until they float, then simmer for about 3 minutes more to make sure they are cooked through.",
    "Lift the balls out with a slotted spoon and drain well. Pat them lightly dry while still warm.",
-   "Spread half of the remaining grated coconut and toasted sesame on a wide plate. Roll the warm balls in the mixture until well coated.",
+   "Spread half of the remaining grated coconut and the other half of the toasted sesame on a wide plate. Roll the warm balls in the mixture until well coated.",
    "Coat the balls again with the remaining sesame and coconut just before serving, and serve warm."
   ]
  },
@@ -63,5 +63,14 @@
   "tr": "Hamuru yoğururken ellerinizi hafifçe ıslatın; böylece toplar çatlamaz ve dolgu sızmaz.",
   "en": "Dampen your hands lightly while shaping the dough so the balls stay crack-free and the filling does not leak during boiling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sesame is inconsistent: step 3 uses all the toasted sesame in the filling, but steps 9 and 10 use leftover sesame for coating, which would be none. The filling should use half the sesame, leaving the ",
+   "English description has a grammar error: 'as a everyday snack' should be 'as an everyday snack'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

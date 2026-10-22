@@ -13,10 +13,10 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "250 g un",
-   "3 g tuz",
-   "15 ml sıvı yağ (hamur için)",
-   "150 ml ılık su",
+   "500 g un",
+   "6 g tuz",
+   "30 ml sıvı yağ (hamur için)",
+   "300 ml ılık su",
    "15 ml sıvı yağ (iç harç için)",
    "1 orta boy soğan (yaklaşık 120 g), ince doğranmış",
    "300 g kıyma (kuzu veya dana)",
@@ -29,10 +29,10 @@
    "30 ml sade yağ (kızartmak için)"
   ],
   "en": [
-   "250 g plain flour",
-   "3 g salt",
-   "15 ml vegetable oil (for the dough)",
-   "150 ml lukewarm water",
+   "500 g plain flour",
+   "6 g salt",
+   "30 ml vegetable oil (for the dough)",
+   "300 ml lukewarm water",
    "15 ml vegetable oil (for the filling)",
    "1 medium onion (about 120 g), finely chopped",
    "300 g minced lamb or beef",
@@ -47,7 +47,7 @@
  },
  "steps": {
   "tr": [
-   "Geniş bir kapta unu ve 3 g tuzu karıştırın. Üzerine 15 ml sıvı yağ ve ılık suyu ekleyip yumuşak, elastik bir hamur elde edene kadar yaklaşık 8 dakika yoğurun.",
+   "Geniş bir kapta unu ve 6 g tuzu karıştırın. Üzerine 30 ml sıvı yağ ve ılık suyu ekleyip yumuşak, elastik bir hamur elde edene kadar yaklaşık 8 dakika yoğurun.",
    "Hamuru streç film veya nemli bir bezle örtüp oda sıcaklığında 30 dakika dinlendirin.",
    "Bu sırada iç harcı hazırlayın. Geniş bir tavada 15 ml sıvı yağı orta ateşte ısıtın, soğanı yumuşayıp hafif renk alana kadar yaklaşık 6 dakika kavurun.",
    "Kıymayı ekleyip suyunu çekene ve rengi değişene kadar yaklaşık 8 dakika pişirin. Kimyon, karabiber, kakuleyi ve 3 g tuzu ekleyip iyice karıştırın.",
@@ -58,7 +58,7 @@
    "Kalan sade yağı kullanarak diğer mutabbakları da aynı şekilde pişirin. Sıcak servis yapın."
   ],
   "en": [
-   "In a large bowl, mix the flour and 3 g salt. Add the 15 ml vegetable oil and lukewarm water, then knead for about 8 minutes until you have a soft, elastic dough.",
+   "In a large bowl, mix the flour and 6 g salt. Add the 30 ml vegetable oil and lukewarm water, then knead for about 8 minutes until you have a soft, elastic dough.",
    "Cover the dough with cling film or a damp cloth and rest it at room temperature for 30 minutes.",
    "While the dough rests, make the filling. Heat the 15 ml vegetable oil in a wide pan over medium heat, then fry the onion for about 6 minutes until soft and lightly golden.",
    "Add the minced meat and cook for about 8 minutes until the liquid has evaporated and the meat has changed colour. Stir in the cumin, black pepper, cardamom and 3 g salt.",
@@ -73,5 +73,13 @@
   "tr": "Hamuru mümkün olduğunca ince açın; kenarları iyi kapatmazsanız iç harç tavaya dökülebilir.",
   "en": "Roll the dough as thin as you can and seal the edges well, or the filling may leak out during frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough-to-filling ratio is unbalanced: 250 g flour gives about 62 g of dough per piece, but each piece receives about 135 g of filling (540 g total filling / 4). The filling would overwhelm the dough a"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

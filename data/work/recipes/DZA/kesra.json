@@ -5,11 +5,11 @@
  },
  "native": "كسرة",
  "desc": {
-  "tr": "Cezayir'de her gün sofraya gelen, irmik ve undan yapılan yassı ve kalın bir ekmektir. Genellikle tencerede pişirilir, sıcak sıcak elle parçalanarak çorba, sos ve tajinlerle birlikte servis edilir.",
+  "tr": "Cezayir'de her gün sofraya gelen, irmik ve undan yapılan yassı ve kalın bir ekmektir. Geleneksel olarak kuru bir sac veya killi tabunada pişirilir; sıcak sıcak elle parçalanarak çorba, sos ve tajinlerle birlikte servis edilir.",
   "en": "A thick, round flatbread made from semolina and flour, eaten daily across Algeria, especially with soups, stews and tagines. It is traditionally cooked on a dry griddle or in a clay tabouna and torn by hand while warm."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,14 @@
   "tr": "Kesrayı tencerede pişirirken ateşi düşük tutun; yüzeyi kapalı kapakla pişirmek ekmeğin içinin tam kabarmasını sağlar.",
   "en": "Keep the heat low and cover the pan while cooking so the centre sets fully and the bread stays soft inside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps total roughly 100-105 minutes: about 15 min of mixing and kneading, 30 min rest, 10 min rest, and 4 breads cooking 5-7 min per side in one pan.",
+   "Turkish description says kesra is cooked 'tencerede' (in a pot), while the English says a dry griddle or clay tabouna. The two versions disagree on the cooking method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

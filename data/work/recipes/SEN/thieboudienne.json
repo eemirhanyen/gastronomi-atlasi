@@ -6,14 +6,14 @@
  "native": "Ceebu jën",
  "desc": {
   "tr": "Senegal'in milli yemeği olan bu balıklı pirinç, öğle yemeklerinde ve aile toplantılarında Dakar başta olmak üzere ülke genelinde servis edilir. Domates ve baharatlı otlu bir karışımla pişirilen balık, sebzeler ve pirinç tek bir tencerede buluşur.",
-  "en": "Senegal's national dish, a fish and rice meal served at lunch and family gatherings throughout the country, especially in Dakar. Fish stuffed with a parsley-garlic paste is cooked with tomato, vegetables and rice in a single pot."
+  "en": "Senegal's national dish, a fish and rice meal served at lunch and family gatherings throughout the country, especially in Dakar. Fish pieces rubbed with a parsley-garlic paste are cooked with tomato, vegetables and rice in a single pot."
  },
  "servings": 4,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "800 g sert beyaz balık (levrek, lüfer ya da çupra), 4 parçaya bölünmüş",
+   "800 g sert beyaz balık (levrek ya da çupra), 4 parçaya bölünmüş",
    "500 g kırık pirinç ya da uzun taneli pirinç",
    "1 demet maydanoz (yaklaşık 40 g)",
    "4 diş sarımsak",
@@ -32,7 +32,7 @@
    "1/2 çay kaşığı karabiber"
   ],
   "en": [
-   "800 g firm white fish (grouper, sea bream or similar), cut into 4 pieces",
+   "800 g firm white fish (sea bass or sea bream), cut into 4 pieces",
    "500 g broken rice or long-grain rice",
    "1 bunch parsley (about 40 g)",
    "4 garlic cloves",
@@ -58,7 +58,7 @@
    "Geniş bir tencerede 90 ml yağı orta-yüksek ateşte ısıtın. Balıkları her iki yüzü 3-4 dakika altın renk alana kadar kızartın, sonra bir tabağa alın.",
    "Manyoku soyup büyük parçalara, havuçları kalın dilimlere, lahanayı büyük parçalara, patlıcanı ikiye bölüp dilimlere ayırın. Bamyaların saplarını alın.",
    "Aynı tencerede kalan 30 ml yağla ince doğranmış soğanı 5 dakika kavurun. Domates salçasını ekleyip 3 dakika karıştırarak kavurun.",
-   "Kalan pasta karışımını, 1,5 litre suyu, defne yaprağını ve karabiberi ekleyip kaynatın. Manyok, havuç, lahana ve patlıcanı ekleyip yaklaşık 20 dakika pişirin, sonra bamyaları ekleyip 5 dakika daha pişirin.",
+   "Kalan pasta karışımını, 1,5 litre suyu, defne yaprağını, 1 çay kaşığı tuzu ve karabiberi ekleyip kaynatın. Manyok, havuç, lahana ve patlıcanı ekleyip yaklaşık 20 dakika pişirin, sonra bamyaları ekleyip 5 dakika daha pişirin.",
    "Sebzeleri süzgeçle çıkarıp bir kenara alın. Sosun yaklaşık 1 litreye inmesini bekleyin. Defne yaprağını çıkarın.",
    "Pirinci sosun içine ekleyip karıştırın ve kaynatın. Kısık ateşte, pirinç suyunu çekene kadar yaklaşık 15-20 dakika pişirin.",
    "Kızarttığınız balıkları pirincin üzerine yerleştirin, tencereyi kapatın ve kısık ateşte 15 dakika daha dinlendirerek pişirin.",
@@ -70,7 +70,7 @@
    "Heat 90 ml oil in a wide pot over medium-high heat. Fry the fish 3-4 minutes per side until golden, then transfer to a plate.",
    "Peel the cassava and cut into large chunks. Cut the carrots into thick slices, the cabbage into large wedges, and halve the eggplant lengthwise, then slice. Trim the stems from the okra.",
    "In the same pot, with the remaining 30 ml oil, fry the sliced onion for 5 minutes. Add the tomato paste and stir-fry for 3 minutes.",
-   "Add the remaining paste, 1.5 litres water, the bay leaf and black pepper, then bring to a boil. Add the cassava, carrots, cabbage and eggplant and simmer for about 20 minutes. Add the okra and cook for 5 minutes more.",
+   "Add the remaining paste, 1.5 litres water, the bay leaf, 1 tsp salt and black pepper, then bring to a boil. Add the cassava, carrots, cabbage and eggplant and simmer for about 20 minutes. Add the okra and cook for 5 minutes more.",
    "Lift the vegetables out with a slotted spoon and set aside. Simmer the sauce until it reduces to about 1 litre, then remove the bay leaf.",
    "Stir the rice into the sauce, bring back to a simmer, and cook on low heat for 15-20 minutes until the rice has absorbed the liquid.",
    "Nestle the fried fish on top of the rice, cover the pot and cook on low heat for 15 minutes more.",
@@ -81,5 +81,15 @@
   "tr": "Pirincin tencere dibinde hafifçe tutuşmuş, çıtır kısmına (xoon) ulaşmak için son aşamada ateşi çok kısın ve tencereyi kapalı tutun.",
   "en": "For the traditional crust (xoon) at the bottom of the pot, keep the heat very low during the final resting stage and do not stir the rice once the fish is added."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fish species mismatch: Turkish lists 'lüfer' (bluefish, oily, not firm white fish) while English lists 'grouper'. Both versions should name the same firm white fish.",
+   "Salt: 2 tsp is listed, but only 1 tsp is used (in the paste). The second tsp never appears in the steps.",
+   "English description says the fish is 'stuffed' with the paste, but the steps say the paste is rubbed into shallow cuts."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

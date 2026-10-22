@@ -50,7 +50,7 @@
    "Marine olmuş konç etinin üzerine soğanı, yeşil biberi, domatesi, salatalığı ve Scotch bonnet biberini ekleyin.",
    "Ketçap, zeytinyağı, tuz ve karabiberi ekleyip nazikçe karıştırın.",
    "Son olarak taze maydanozu ekleyin ve salatayı tadına bakarak gerekirse tuz veya limon suyu ile dengeleyin.",
-   "Salatayı soğuk olarak, buzdolabında en fazla 1 saat dinlendirdikten sonra servis edin."
+   "Salatayı soğuk olarak servis edin ve hazırlandıktan sonra yaklaşık 1 saat içinde tüketin; servis edilene kadar buzdolabında saklayın."
   ],
   "en": [
    "Rinse the conch meat well under cold water and trim away the dark outer skin and any tough parts. Keep the meat cold throughout.",
@@ -67,5 +67,13 @@
   "tr": "Konç etini mutlaka güvenilir bir kaynaktan, tercihen önceden dondurulmuş ve çözdürülmüş olarak alın; çiğ deniz ürünlerinde hijyen en önemli unsurdur.",
   "en": "Buy conch from a trusted supplier, preferably previously frozen and thawed, since hygiene is critical when serving raw seafood."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish final step (tr step 8) says to rest the salad in the fridge for at most 1 hour and then serve it, while the English says to eat it within about 1 hour of making it. The timing guidance disagre"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

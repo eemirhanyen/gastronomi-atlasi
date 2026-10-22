@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Humusun en pürüzsüz ve kremsi hali için nohutu pişirirken karbonat kullanın ve kabuklarını ayırmak için pişmiş nohutları ellerinizle ovalayarak soyun.",
-  "en": "For the silkiest texture, cook the chickpeas with baking soda until very soft and blend while still warm, adding the cooking water a spoonful at a time."
+  "tr": "Humusun en pürüzsüz ve kremsi hali için nohutu pişirirken karbonat kullanın, pişmiş nohutları ellerinizle ovalayarak kabuklarını ayırın ve sıcakken karıştırın; pişirme suyunu bir kaşık seferinde ekleyin.",
+  "en": "For the silkiest texture, cook the chickpeas with baking soda until very soft, rub them between your hands to slip off the skins, and blend while still warm, adding the cooking water a spoonful at a time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish and English tips disagree. The Turkish tip recommends rubbing cooked chickpeas to remove their skins but does not mention blending warm or adding water gradually. The English tip has the w"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -56,7 +56,7 @@
    "Tavuk küplerini bir kasede 15 ml hafif soya sosu, 15 ml Shaoxing şarabı, 8 g mısır nişastası ve bir tutam tuzla karıştırın. Üzeri kapalı olarak 15 dakika dinlendirin.",
    "Sos için küçük bir kapta 30 ml hafif soya sosu, 15 ml siyah Çin sirkesi, 12 g şeker, 8 g mısır nişastası ve 80 ml suyu iyice karıştırıp kenara koyun.",
    "Kuru bir wok ya da geniş tavada Sichuan karabiberini orta ateşte 1 dakika kadar kavurun, tabağa alın ve hafifçe ezin.",
-   "Wok'u yüksek ateşe alın, 30 ml yağı ekleyin. Tavukları tek kat halinde, partiler halinde 2 ila 3 dakika altın rengi olana kadar kavurun, sonra süzgece alın.",
+   "Wok'u yüksek ateşe alın, 30 ml yağı ekleyin. Tavukları tek kat halinde, partiler halinde altın rengi alana ve tamamen pişene kadar 3 ila 4 dakika kavurun, sonra süzgece alın.",
    "Ateşi orta seviyeye indirin, kalan 15 ml yağı ekleyin. Kuru kırmızı biberleri 30 saniye kavurun, koyu renk alınca ezilmiş Sichuan karabiberini, sarımsağı, zencefili ve taze soğanın beyaz kısımlarını ekleyip 30 saniye daha karıştırın.",
    "Tavukları wok'a geri koyun. Sosu tekrar karıştırıp wok'a dökün ve ateşi yükselterek 1 dakika kadar, sos parlak ve koyulaşana kadar pişirin.",
    "Fıstıkları ve taze soğanın yeşil kısımlarını ekleyip hızlıca karıştırın, ardından pilavla sıcak servis yapın."
@@ -65,15 +65,24 @@
    "In a bowl, mix the chicken cubes with 15 ml light soy sauce, 15 ml Shaoxing wine, 8 g cornstarch and a pinch of salt. Cover and marinate for 15 minutes.",
    "In a small bowl, whisk together 30 ml light soy sauce, 15 ml Chinese black vinegar, 12 g sugar, 8 g cornstarch and 80 ml water. Set aside.",
    "Toast the Sichuan peppercorns in a dry wok or large skillet over medium heat for about 1 minute, transfer to a plate and lightly crush them.",
-   "Heat the wok over high heat and add 30 ml of the oil. Sear the chicken in batches for 2 to 3 minutes until golden, then drain on a sieve.",
+   "Heat the wok over high heat and add 30 ml of the oil. Sear the chicken in batches for 3 to 4 minutes until golden and cooked through, then drain on a sieve.",
    "Reduce the heat to medium and add the remaining 15 ml oil. Fry the dried chilies for 30 seconds until darkened, then add the crushed peppercorns, garlic, ginger and scallion whites and stir for another 30 seconds.",
    "Return the chicken to the wok. Stir the sauce again and pour it in, then raise the heat and cook for about 1 minute until the sauce is glossy and thickened.",
    "Add the peanuts and scallion greens, toss quickly, and serve hot with steamed rice."
   ]
  },
  "tip": {
-  "tr": "Sosu pişirmeden hemen önce tekrar karıştırın, çünkü mısır nişastası dibe çöker; ayrıca kavurma sırasında biberler yanarsa acılık artar, bu yüzden ateşi orta tutun.",
-  "en": "Re-stir the sauce just before adding it, as the cornstarch settles quickly, and keep the heat moderate when frying the chilies, since scorched chilies turn bitter."
+  "tr": "Sosu pişirmeden hemen önce tekrar karıştırın, çünkü mısır nişastası dibe çöker; ayrıca biberler kavurma sırasında yanarsa tadı acı ve keskin bir hal alır, bu yüzden ateşi orta tutun.",
+  "en": "Re-stir the sauce just before adding it, as the cornstarch settles quickly, and keep the heat moderate when frying the chilies, since scorched chilies turn bitter and harsh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chicken is seared for only 2 to 3 minutes and then cooked only briefly in the sauce, so it may not reach a safe internal temperature. Cook until cooked through.",
+   "The Turkish tip says scorched chilies increase 'acılık' (heat), but the English says they turn bitter. The two versions disagree, and the Turkish wording is ambiguous."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

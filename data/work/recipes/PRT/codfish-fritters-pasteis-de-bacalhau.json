@@ -38,13 +38,13 @@
  "steps": {
   "tr": [
    "Bakalyaoyu soğuk suda 24 saat ıslatın; bu süre içinde suyunu en az 3 kez değiştirin.",
-   "Bakalyaoyu yeni bir tencerede soğuk suyla kaynatın, ardından ateşi kısıp 10 dakika kadar pişirin. Süzün, soğumaya bırakın ve kılçıklarını ile derisini ayıklayarak lifler halinde ayırın.",
+   "Bakalyaoyu yeni bir tencerede soğuk suyla kaynatın, ardından ateşi kısıp 10 dakika kadar pişirin. Süzün, soğumaya bırakın ve kılçıklarını ve derisini ayıklayarak lifler halinde ayırın.",
    "Patatesleri kabuklarıyla haşlayın, yumuşayınca süzüp kabuklarını soyun. Sıcakken püre haline getirin ve bir tabakta biraz soğumaya bırakın.",
    "Geniş bir tavada zeytinyağını ısıtın, soğanı ekleyip yumuşayana ve hafifçe altın rengi alana kadar yaklaşık 8 dakika kavurun. Sarımsağı ekleyip 1 dakika daha pişirin.",
    "Büyük bir kapta bakalyao lifleri, patates püresi, kavrulmuş soğan-sarımsak karışımı, maydanoz ve karabiberi birleştirin.",
    "Yumurtaları tek tek ekleyip iyice yoğurun. Karışım yumuşak ama şekil verilebilecek kıvamda olmalıdır. Gerekirse 20 dakika buzdolabında dinlendirin.",
    "Kızartma yağını derin bir tencerede 170-180°C'ye kadar ısıtın.",
-   "Iki kaşık yardımıyla karışımdan oval köfteler alıp sıcak yağa bırakın. Her seferinde 4-5 kişilik partiler halinde, köfteler altın rengi olana kadar yaklaşık 4-5 dakika kızartın.",
+   "İki kaşık yardımıyla karışımdan oval köfteler alıp sıcak yağa bırakın. Her seferinde 4-5 kişilik partiler halinde, köfteler altın rengi olana kadar yaklaşık 4-5 dakika kızartın.",
    "Köfteleri kağıt havlu serili bir tabağa alıp fazla yağını süzdürün. Sıcak servis yapın."
   ],
   "en": [
@@ -63,5 +63,14 @@
   "tr": "Bakalyaonun tuzluluğu tatlara göre değiştiğinden karışımı tatmadan tuz eklemeyin; kızartmadan önce küçük bir parça kızartıp tadına bakmak en güvenli yoldur.",
   "en": "Salt cod varies in saltiness, so do not add salt until you have tasted a small test fritter fried in the same oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a grammar error: \"kılçıklarını ile derisini\" should be \"kılçıklarını ve derisini\".",
+   "Turkish step 8 has a capitalization error: \"Iki\" should be \"İki\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

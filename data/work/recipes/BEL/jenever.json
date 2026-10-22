@@ -9,7 +9,7 @@
   "en": "A traditional juniper-flavoured spirit from Flanders and the Netherlands, drunk for centuries. It is served chilled in small tulip glasses filled to the brim, often in cafés or before a meal, with a beer as a chaser."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 24480,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -38,7 +38,7 @@
    "Kavanozu sıkıca kapatın, iyice çalkalayın ve serin, karanlık bir yerde oda sıcaklığında 14 gün bekletin.",
    "Bu süre boyunca her gün kavanozu bir kez çalkalayın ve tadına bakın; istediğiniz aroma yoğunluğuna ulaşınca infüzyonu durdurun.",
    "Süzmek için kahve filtresi veya temiz bir bez yerleştirilmiş bir süzgeci, başka bir temiz kabın üzerine koyun ve sıvıyı yavaşça süzün.",
-   "Şeker kullanıyorsanız şekeri suda eriterek şurup hazırlayın, soğutun ve içkiye ekleyip karıştırın. Tatlı bir içki isteniyorsa su eklemeyin, tatlılık ve yumuşaklık için suyu şuruba ekleyerek kullanın.",
+   "Şeker kullanıyorsanız, 100 ml suda şekeri eriterek şurup hazırlayın, soğutun ve içkiye azar azar ekleyin; her eklemeden sonra tadına bakın.",
    "Süzülmüş içkiyi temiz bir şişeye koyun, kapağını kapatın ve servisten önce en az 3 gün dinlendirin.",
    "Servis etmeden önce şişeyi buzdolabında soğutun, küçük kadehleri ağzına kadar doldurun ve yanına bira koyarak servis yapın."
   ],
@@ -48,7 +48,7 @@
    "Seal the jar tightly, shake well and leave it at room temperature in a cool, dark place for 14 days.",
    "Shake the jar once a day and taste it; stop the infusion when the flavour reaches the strength you like.",
    "Strain the liquid through a coffee filter or a cloth set in a sieve over another clean container.",
-   "If using sugar, dissolve it in the water to make a syrup, cool it, then stir it into the spirit. Add the syrup gradually and taste as you go.",
+   "If using sugar, dissolve it in the 100 ml water to make a syrup, cool it, then stir it into the spirit. Add the syrup gradually and taste as you go.",
    "Pour the strained spirit into a clean bottle, close the cap and rest it for at least 3 days before serving.",
    "Chill the bottle in the fridge, fill the small glasses to the brim, and serve with a beer on the side."
   ]
@@ -57,5 +57,14 @@
   "tr": "Gerçek jenever malt bazlıdır; bu ev yapımı versiyon sadece ardıç aromalı bir ruh infüzyonudur, bu yüzden ardıcı fazla ezmeyin ki içki acılaşmasın.",
   "en": "Authentic jenever is malt-based; this home version is a simple juniper infusion, so crush the berries only lightly to avoid bitterness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 contradicts itself: it says not to add water for a sweet drink, then says to use the water in the syrup. The English step says to dissolve the sugar in the water, so the two versions di",
+   "time_min is 20, which only covers hands-on work. The recipe needs 14 days of infusion and at least 3 days of resting, so the total time is about 17 days (24,480 minutes)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

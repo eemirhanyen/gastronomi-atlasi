@@ -9,7 +9,7 @@
   "en": "A one-pot rice dish from Guyana, cooked with coconut milk, pigeon peas and chicken. It is a favourite for Sunday lunches and family gatherings, and takes its name from everything cooking together in a single pot."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "400 g konserve güvercin bezelyesi, süzülmüş",
    "500 g kemikli tavuk budu",
    "400 ml hindistan cevizi sütü",
-   "400 ml su",
+   "500 ml su",
    "1 büyük soğan (yaklaşık 150 g), doğranmış",
    "4 diş sarımsak, ezilmiş",
    "3 dal taze soğan, kıyılmış",
@@ -33,7 +33,7 @@
    "400 g canned pigeon peas, drained",
    "500 g bone-in chicken thighs",
    "400 ml coconut milk",
-   "400 ml water",
+   "500 ml water",
    "1 large onion (about 150 g), chopped",
    "4 cloves garlic, crushed",
    "3 spring onions, chopped",
@@ -51,8 +51,8 @@
    "Geniş ve kalın tabanlı bir tencerede yağı orta-yüksek ateşte ısıtın. Tavukları her yüzü altın rengi olacak şekilde 5-6 dakika kavurun.",
    "Doğranmış soğanı ve kıyılmış taze soğanı ekleyip 3 dakika, soğanlar yumuşayana kadar soteleyin.",
    "Güvercin bezelyesini ve cassareep'i ekleyip 2 dakika karıştırarak pişirin.",
-   "Hindistan cevizi sütünü, suyu, bütün Scotch bonnet biberi ve kalan kekiği ekleyin. Karışımı kaynatın.",
-   "Yıkanmış pirinci tencereye ekleyin, bir kez karıştırın. Ateşi kısın, kapağını kapatın ve suyu çekene kadar yaklaşık 25 dakika pişirin.",
+   "Hindistan cevizi sütünü, suyu, bütün Scotch bonnet biberi ve kalan kekiği ekleyin. Karışımı kaynatın, ateşi kısın, kapağını kapatıp tavuk tamamen pişene kadar (iç sıcaklık 74°C) yaklaşık 20 dakika pişirin.",
+   "Yıkanmış pirinci ve kalan 100 ml sıcak suyu tencereye ekleyip bir kez karıştırın. Kapağını kapatın ve suyu çekene kadar yaklaşık 25 dakika kısık ateşte pişirin.",
    "Ocağı kapatın, kapağı açmadan 10 dakika dinlendirin. Biberi çıkarıp atın, pilavı çatalla karıştırıp servis yapın."
   ],
   "en": [
@@ -60,8 +60,8 @@
    "Heat the oil in a wide, heavy-bottomed pot over medium-high heat. Brown the chicken for 5-6 minutes, turning until golden on all sides.",
    "Add the chopped onion and spring onions and cook for about 3 minutes until softened.",
    "Stir in the pigeon peas and cassareep and cook for 2 minutes.",
-   "Add the coconut milk, water, whole Scotch bonnet pepper and the remaining thyme. Bring to the boil.",
-   "Stir in the rinsed rice and give it one stir. Reduce the heat to low, cover and cook for about 25 minutes until the liquid is absorbed.",
+   "Add the coconut milk, 400 ml of the water, whole Scotch bonnet pepper and the remaining thyme. Bring to the boil, then reduce the heat to low, cover and simmer for about 20 minutes until the chicken is cooked through (internal temperature 74°C).",
+   "Stir in the rinsed rice and the remaining 100 ml of hot water and give it one stir. Cover and cook on low for about 25 minutes until the liquid is absorbed.",
    "Turn off the heat and leave covered for 10 minutes without lifting the lid. Remove and discard the Scotch bonnet, fluff the rice with a fork and serve."
   ]
  },
@@ -69,5 +69,15 @@
   "tr": "Scotch bonnet biberini bütün bırakın; kaynarken aromasını verir ama delinmezse acılık çok az olur. Pirinç pişerken kapağı açmayın, buhar pilavın yumuşak kalmasını sağlar.",
   "en": "Keep the Scotch bonnet whole so it flavours the rice without much heat, and piercing it will make it hotter. Do not lift the lid while the rice cooks, as the trapped steam keeps the grains tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Bone-in chicken thighs are only browned and then cooked with the rice for about 25 minutes on low heat, which may not bring them to a safe internal temperature (74°C). Undercooked poultry is a food sa",
+   "The 400 ml of water may be too little once the chicken simmers and the rice is added, since liquid is lost to evaporation during the longer cooking time.",
+   "The total cooking time (time_min) no longer matches the revised method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

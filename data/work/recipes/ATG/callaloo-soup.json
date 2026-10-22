@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "500 g callaloo yaprağı (ıspanak veya kırmızı kökü yaprağı olabilir), sapları çıkarılmış ve kabaca doğranmış",
+   "500 g callaloo yaprağı (ıspanak veya kolokas yaprağı olabilir), sapları çıkarılmış ve kabaca doğranmış",
    "150 g tuzlanmış domuz eti veya füme jambon, küp doğranmış",
    "1 yemek kaşığı sıvı yağ",
    "1 soğan (120 g), ince doğranmış",
@@ -53,7 +53,7 @@
    "Ateşi kısın ve kapağı yarı açık tutarak 15 dakika kaynatın. Balkabağı yumuşamalıdır.",
    "Callaloo yapraklarını tencereye ekleyip solana kadar karıştırın. Kapağını kapatıp 10 dakika daha pişirin.",
    "Kekik dallarını ve scotch bonnet biberini çıkarın. Biberi patlatmamaya dikkat edin.",
-   "Çorbanın yarısını veya tamamını blender ile pürüzsüz hale getirin. Tamamen pürüzsüz istiyorsanız tüm çorbayı blendırdan geçirin, daha dokulu istiyorsanız sadece bir kısmını ezin.",
+   "Çorbanın yarısını veya tamamını blender ile pürüzsüz hale getirin. Tamamen pürüzsüz istiyorsanız tüm çorbayı blenderdan geçirin, daha dokulu istiyorsanız sadece bir kısmını ezin.",
    "Çorbayı tekrar tencereye alın, hindistan cevizi sütünü ekleyin ve kısık ateşte 5 dakika ısıtın. Tuz ve karabiberle tatlandırıp sıcak servis yapın."
   ],
   "en": [
@@ -72,5 +72,14 @@
   "tr": "Scotch bonnet biberini bütün olarak pişirip sonunda çıkarmak, çorbanın çok acı olmasını önler. Kesmeniz gerekirse eldiven kullanın.",
   "en": "Cook the scotch bonnet whole and remove it before blending to keep the soup mild. If you cut it, wear gloves."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish typo in step 7: 'blendırdan' should be 'blenderdan'.",
+   "Turkish ingredient 'kırmızı kökü yaprağı' (red-root/amaranth) does not match the English 'dasheen leaves'. Dasheen is taro, which is 'kolokas' in Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -52,8 +52,16 @@
   ]
  },
  "tip": {
-  "tr": "Zencefili dilediğiniz kadar artırıp azaltabilirsiniz; ilk denemede azdan başlayıp tadına göre ayarlamak en iyisidir.",
+  "tr": "Zencefili tadınıza göre ayarlayın, azdan başlayın; baobab posasının ekşiliği değişebileceğinden, daha fazla şeker eklemeden önce tatlılığını kontrol edin.",
   "en": "Adjust the ginger to taste, starting small; baobab pulp varies in tartness, so check the sweetness before adding more sugar."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip omits the EN point that baobab pulp's tartness varies, so the sweetness should be checked before adding more sugar. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

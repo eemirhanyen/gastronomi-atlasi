@@ -18,9 +18,9 @@
    "150 g gula Jawa (palm şekeri), doğranmış",
    "6 adet arpacık soğanı",
    "4 diş sarımsak",
-   "5 adet kemiri (bütün fındık yerine geçer)",
+   "5 adet kemiri (Endonezya'ya özgü, macadamia cevizine benzer bir kuruyemiş)",
    "1 tatlı kaşığı kişniş tohumu",
-   "2 adet defne yaprağı (daun salam)",
+   "2 adet salam yaprağı (daun salam)",
    "1 cm lengkuas (galangal), dilimlenmiş",
    "600 ml su",
    "2 çay kaşığı tuz",
@@ -37,14 +37,14 @@
    "4 garlic cloves",
    "5 candlenuts (kemiri)",
    "1 tsp coriander seeds",
-   "2 salam leaves (Indonesian bay leaves)",
+   "2 salam leaves (daun salam, not true bay leaves)",
    "1 cm galangal, sliced",
    "600 ml water",
    "2 tsp salt",
    "2 tbsp vegetable oil",
    "4 eggs",
    "200 g firm tofu, cubed",
-   "400 g uncooked rice, cooked (for serving)"
+   "400 g cooked rice (for serving)"
   ]
  },
  "steps": {
@@ -52,7 +52,7 @@
    "Taze nangka kullanıyorsanız elleriniz ve bıçağınız için yağ sürün, kabuğunu soyup iri parçalara ayırın ve 15 dakika haşlayıp süzün. Konserve nangkayı iyice durulayıp süzün ve elle sıkarak fazla suyunu alın.",
    "Arpacık soğanı, sarımsağı, kemiri ve kişniş tohumunu 2 yemek kaşığı suyla birlikte pürüzsüz bir macun haline gelene kadar çekin.",
    "Geniş bir tencerede yağı orta ateşte ısıtın, macunu ekleyip kokusu çıkana kadar yaklaşık 3 dakika kavurun.",
-   "Defne yapraklarını ve lengkuas dilimlerini ekleyin, ardından nangkayı tencereye koyup iyice karıştırın.",
+   "Salam yapraklarını ve lengkuas dilimlerini ekleyin, ardından nangkayı tencereye koyup iyice karıştırın.",
    "Gula Jawa ile 600 ml suyu ekleyin, karışımı kaynatın ve kapağı kapatmadan kısık ateşte yaklaşık 30 dakika pişirin.",
    "Hindistan cevizi sütünü ve tuzu ekleyin. Ara sıra karıştırarak, sos koyulaşıp nangka kahverengi renk alana kadar 30-40 dakika daha kısık ateşte pişirin.",
    "Bu sırada yumurtaları 8 dakika haşlayın, soğuk suda soyun. Tofu küplerini sıcak yağda altın rengi olana kadar kızartın.",
@@ -75,5 +75,16 @@
   "tr": "Gudeg'in rengi, uzun süreli kısık ateş pişirmesinden gelir; sosun tencere dibine yapışmaması için ara sıra karıştırın ve gerekirse biraz sıcak su ekleyin.",
   "en": "The deep brown colour comes from long, slow simmering; stir occasionally to prevent sticking and add a little hot water if the sauce reduces too much."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English rice ingredient says \"400 g uncooked rice, cooked\", which is self-contradictory and does not match the Turkish \"400 g pirinç, pişmiş\".",
+   "Turkish ingredient and step 4 call salam leaves \"defne yaprağı\" (bay laurel). Daun salam (Syzygium polyanthum) is a different plant, so the name is wrong.",
+   "Turkish says kemiri can be replaced by \"bütün fındık\" (whole hazelnut). Candlenut is closer to macadamia and is not a reliable hazelnut substitute, so the substitution note is misleading.",
+   "English calls salam leaves \"Indonesian bay leaves\", which repeats the same botanical error."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -39,7 +39,7 @@
   "tr": [
    "Fırını 170 °C'ye ısıtın ve bir fırın kabının (yaklaşık 25 x 20 cm) içini tereyağı ile yağlayın.",
    "Yağlanmış kabın içini sarımsakların kesilmiş yüzleriyle hafifçe ovalayın, ardından sarımsakları atın.",
-   "Patatesleri soyun, yıkayın ve kurulayın. Mandalina kalınlığında, yaklaşık 3 mm kalınlığında ince dilimler halinde kesin.",
+   "Patatesleri soyun, yıkayın ve kurulayın. Bozuk para kalınlığında, yaklaşık 3 mm kalınlığında ince dilimler halinde kesin.",
    "Süt, krema, tuz, karabiber ve isteğe bağlı hindistan cevizini geniş bir tencerede karıştırın ve orta ateşte kaynamaya yakın ısıya getirin; kaynatmayın.",
    "Patates dilimlerini sıcak süt-krema karışımına ekleyin ve 5 dakika hafifçe pişirin, ara sıra karıştırarak dilimlerin birbirine yapışmasını önleyin.",
    "Patates dilimlerini süzgeçle ayırıp hazırladığınız kaba katman katman yerleştirin; her katmanın üzerine biraz peyniri serpin.",
@@ -62,9 +62,18 @@
   ]
  },
  "tip": {
-  "tr": "Patatesleri pişirmeden önce nişastasını almak için kısa süre bekletmek, gratenin kesildiğinde daha düzgün durmasını sağlar; ayrıca dilimleri mandolin ile kesmek kalınlığı eşit tutar.",
+  "tr": "Dilimleri eşit kalınlıkta kesmek için mandolin kullanın; gratini servis etmeden önce 10 dakika dinlendirmek, kesildiğinde düzgün durmasını sağlar.",
   "en": "Use a mandoline for even 3 mm slices, and let the gratin rest for 10 minutes so it sets and cuts cleanly."
  },
  "}": null,
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip describes soaking potatoes to remove starch, which is not in the steps and contradicts the English tip (mandoline slicing and resting 10 minutes).",
+   "Turkish step 3 uses 'mandalina kalınlığında' (tangerine thickness), which is unnatural for slice thickness; the English says 'as you would a coin'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

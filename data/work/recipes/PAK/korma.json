@@ -9,7 +9,7 @@
   "en": "A mildly rich, creamy chicken stew thickened with browned onions, yogurt and ground almonds. In Pakistan it is a staple at weddings, Eid gatherings and Sunday lunches, usually served with naan or pulao."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -32,6 +32,7 @@
    "1 adet 5 cm tarçın çubuğu",
    "30 g badem",
    "60 ml sıcak su (bademi ıslatmak için)",
+   "30 ml su (baharat karışımı için)",
    "60 ml krema",
    "250 ml sıcak su (pişirme için)",
    "2 adet yeşil biber, ince dilimlenmiş",
@@ -57,6 +58,7 @@
    "1 cinnamon stick, about 5 cm",
    "30 g almonds",
    "60 ml hot water (for soaking the almonds)",
+   "30 ml water (for the spice mixture)",
    "60 ml cream",
    "250 ml hot water (for cooking)",
    "2 green chillies, thinly sliced",
@@ -97,5 +99,14 @@
   "tr": "Soğanları tam altın kahverengi olana kadar kavurun; korma'nın rengi ve derinliği bu aşamadan gelir. Yoğurdu sıcak tencereye yavaş eklemek kesilmesini önler.",
   "en": "Brown the onions fully; the colour and depth of the korma come from this stage. Add the yogurt slowly and keep stirring to prevent it from splitting."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 (both languages) uses 30 ml water for the spice mixture, but no water of that amount is listed in the ingredients.",
+   "time_min is 60, but the listed steps add up to roughly 75-80 minutes (18 min onions, 8 min tomatoes, 10 min yogurt, 25 min simmer, 5 min almonds, 5 min sear, 5 min rest, plus prep)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

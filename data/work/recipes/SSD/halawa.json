@@ -8,8 +8,8 @@
   "tr": "Kavrulmuş undan, şeker şurubundan ve yağdan yapılan, kakuleyle kokulandırılmış yoğun ve kıvamlı bir tatlıdır. Güney Sudan'da düğünlerde, bayramlarda ve misafirlikte çay ya da kahveyle birlikte ikram edilir.",
   "en": "A dense, fudge-like sweet made from toasted flour, sugar syrup and oil, scented with cardamom. In South Sudan it is served at weddings, Eid celebrations and when guests visit, usually with tea or coffee."
  },
- "servings": 4,
- "time_min": 60,
+ "servings": 8,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,5 +57,14 @@
   "tr": "Şerbeti sıcak eklemek topakların oluşmasını önler; şerbet soğuksa karışım dağılabilir, bu yüzden her iki sıvının da sıcak olmasına dikkat edin.",
   "en": "Add the syrup hot, not cold, to prevent lumps and keep the mixture smooth. Cutting the halawa with a wet knife gives cleaner squares."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "servings (4) is implausibly low for about 600 g of finished sweet cut into squares from a 20 x 20 cm tin; 8 is more realistic",
+   "time_min (60) omits the 45-60 minute cooling step; total time is about 90 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

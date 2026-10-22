@@ -9,7 +9,7 @@
   "en": "A thick spread of roasted eggplant and red peppers, eaten in Moldova and Romania, especially in winter, usually on bread. Every family has its own version and way of preserving it."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Patlıcanı tam olarak kararana kadar közlemek, ezmeye dumanlı bir tat kazandırır; kabukları soyarken suyla durulamaktan kaçının ki tat kaybolmasın.",
   "en": "Roast the eggplant until the skin is fully charred for a smoky flavour, and avoid rinsing the peeled flesh under water so the taste stays concentrated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is too low: roasting alone takes 35-40 min, followed by cooling, peeling, chopping, about 12 min of onion and tomato cooking, a 30-min simmer and 5 min more for garlic. A realistic total"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

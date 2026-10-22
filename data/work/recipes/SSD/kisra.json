@@ -5,11 +5,11 @@
  },
  "native": "كسرة",
  "desc": {
-  "tr": "Kisra, Sudan ve Güney Sudan'da her öğünün yanında servis edilen, ekşi mayalı darı (sorgum) unundan yapılan ince ve gözenekli bir yassı ekmektir. Genellikle et, bamya ya da mercimek gibi sulu yemeklerle birlikte yenir.",
+  "tr": "Kisra, Sudan ve Güney Sudan'da her öğünün yanında servis edilen, ekşi mayalı sorgum unundan yapılan ince ve gözenekli bir yassı ekmektir. Genellikle et, bamya ya da mercimek gibi sulu yemeklerle birlikte yenir.",
   "en": "Kisra is a thin, porous flatbread made from fermented sorghum flour, eaten daily across Sudan and South Sudan. It is traditionally served with saucy stews of meat, okra or lentils, and is used to scoop up the food."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 900,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
    "Hamuru örtüp oda sıcaklığında 2 ila 3 saat daha dinlendirin. Hamur kabarmalı ve yüzeyinde köpükler belirmelidir.",
    "Dinlenen hamura 1 çay kaşığı tuzu ekleyip iyice karıştırın. Hamur ince bir krep hamurundan biraz daha sulu olmalıdır; gerekirse birkaç yemek kaşığı su ekleyin.",
    "Geniş, tabanı kalın bir tavayı veya sac tavasını orta-yüksek ateşte (yaklaşık 200 °C) ısıtın. Yağı kağıt havluyla tavanın yüzeyine ince bir tabaka halinde sürün.",
-   "Bir kepçe hamuru tavanın kenarından başlayarak merkeze doğru dairesel hareketle, yüzeyi tamamen kaplayacak şekilde dökün. Hamur kendiliğinden yayılacaktır.",
+   "Bir kepçe hamuru tavanın ortasına dökün ve dairesel hareketle dışa doğru yayarak yüzeyi eşit şekilde kaplayın. Hamur kendiliğinden yayılmalıdır.",
    "Kisra'nın üst yüzeyinde gözenekler oluşup kenarları kalkana kadar, yaklaşık 1-2 dakika kapağı kapalı pişirin. Alt yüzey kızarmamalı, sadece pişmelidir; çevirmeyin.",
    "Kisra'yı bir tabağa dikkatle alın. Kalan hamurla aynı işlemi tekrarlayın, her kisra'yı diğerlerinin üzerine koyarak üst üste yığın oluşturun.",
    "Sıcak servis yapın. Kisra'yı kullanılan sulu yemeğin yanında, parça parça koparıp yemek kaplarına batırarak yiyin."
@@ -61,5 +61,15 @@
   "tr": "Kisra'nın gözenekli ve esnek olması için hamurun iyi mayalandığından ve tavanın tam ısındığından emin olun; hamur çok koyu olursa birkaç yemek kaşığı su ekleyerek inceltin.",
   "en": "For a porous, pliable kisra, make sure the batter is well fermented and the pan is fully hot; if the batter is too thick, thin it with a few tablespoons of water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not match the process: the batter ferments about 12 hours, then rests 2-3 hours more, so total time is roughly 15 hours.",
+   "Turkish step 7 says to start pouring at the edge and move toward the centre, but the English says to pour into the centre and spread outward. The two versions disagree.",
+   "Turkish desc and ingredient names say 'darı (sorgum)'. 'Darı' means millet, while sorghum is 'sorgum', so the Turkish mixes up two different grains."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "Afghanistan's national dish, Kabuli pulao combines spiced lamb, caramelised carrots, raisins and nuts over fragrant steamed basmati rice. It is served at weddings, festivals and when guests are welcomed, usually as the centrepiece of a shared platter."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -23,7 +23,7 @@
    "4 kakule",
    "1 çubuk tarçın",
    "6 karabiber tanesi",
-   "150 ml sıvı yağ",
+   "165 ml sıvı yağ",
    "2 büyük havuç (400 g), uzun ince şeritler halinde",
    "40 g toz şeker",
    "60 g kuru üzüm",
@@ -42,7 +42,7 @@
    "4 green cardamom pods",
    "1 cinnamon stick",
    "6 black peppercorns",
-   "150 ml vegetable oil",
+   "165 ml vegetable oil",
    "2 large carrots (400 g), cut into long thin strips",
    "40 g caster sugar",
    "60 g raisins",
@@ -58,7 +58,7 @@
    "Yarısını ayırdığınız soğanı, kimyon, karanfil, kakule, tarçın ve karabiberle birlikte tencereye ekleyip 1 dakika kavurun. Suyu ve 2 tatlı kaşığı tuzu ekleyin, kaynatın, kısık ateşte örtülü olarak kuzu yumuşayana kadar yaklaşık 60 dakika pişirin.",
    "Kuzu pişerken havucu hazırlayın: Geniş bir tavada 3 yemek kaşığı yağı ısıtın, havucu ekleyip 5 dakika orta ateşte soteleyin. Şekeri serpip karamelize olana kadar 8-10 dakika daha karıştırarak pişirin. Kuru üzümü ekleyip 1 dakika çevirin, ocaktan alın.",
    "Bademleri ve fıstıkları 160°C fırında 5 dakika, ya da kuru tavada hafifçe kızarana kadar kavurun. Kalan soğanı 4 yemek kaşığı yağda altın rengi olana kadar kızartıp süzgeçten geçirin.",
-   "Kuzu pişince et parçalarını bir tabağa alın. Tencerede yaklaşık 700 ml suyu ayırın; geri kalan suyu ise ocakta tutun. Kuzu suyunu ince süzgeçten geçirin ve yağ kalan kısmını alın.",
+   "Kuzu pişince et parçalarını bir tabağa alın. Tencerede yaklaşık 700 ml suyu ayırın; geri kalan suyu ise ocakta tutun. Kuzu suyunu ince süzgeçten geçirin ve yüzeydeki yağı alın.",
    "Temiz bir tencerenin dibine kalan 2 yemek kaşığı yağı yayın, üzerine kuzu parçalarını dizin. Pirincin yarısını bunun üzerine yayıp kalan yarısını ekleyin. Ortasına birkaç delik açın ve kızarmış soğanın yarısını serpin.",
    "Safranlı suyun yarısını ve yaklaşık 300 ml kuzu suyunu pirincin üzerine dökün. Havucu, kuru üzümü ve kuzunun geri kalanını üste yayın, tencerenin kenarından yavaşça sıcak suyu ekleyin ki pirinç kabarsın.",
    "Kapağı sıkıca kapatın, tencereyi tam kısık ateşe alıp 40 dakika buharda pişirin. Alt kısmın yanmaması için gerekirse tencereyi ısı dağıtıcı üzerine koyun.",
@@ -81,5 +81,14 @@
   "tr": "Pirinci haşlarken tam pişirmeyin; buharda pişerken kalan sıvıyla yumuşayacak ve tencerenin dibinde tabaka oluşturacak 'tahdig' için alt kısmı biraz yağlı tutun.",
   "en": "Undercook the rice slightly during parboiling, as it finishes in the steam; a thin layer of oil on the base helps form the crisp golden crust called tahdig."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity mismatch: the ingredient list says 150 ml, but the steps use 2 + 3 + 4 + 2 = 11 tablespoons (about 165 ml).",
+   "Total time of 90 minutes is too short. Soaking (30 min), lamb simmering (about 60 min) and steaming (40 min) alone add up to roughly 2 hours 10 minutes, even with some overlap."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

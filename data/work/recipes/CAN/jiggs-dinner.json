@@ -9,7 +9,7 @@
   "en": "A traditional Sunday midday meal and celebration dish from Newfoundland and Labrador. Salt beef is boiled with root vegetables and cabbage, then served with pease pudding and a boiled suet-style pudding called duff."
  },
  "servings": 4,
- "time_min": 210,
+ "time_min": 270,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -28,7 +28,7 @@
    "30 g tereyağı",
    "Tuz ve taze çekilmiş karabiber",
    "250 g çok amaçlı un",
-   "125 g sebze yağı (suet) ya da soğuk tereyağı, küp doğranmış",
+   "125 g rendelenmiş sığır böbrek yağı (suet) ya da soğuk tereyağı, küp doğranmış",
    "1 tatlı kaşığı kabartma tozu",
    "1 tutam tuz",
    "100 g kuru üzüm",
@@ -66,12 +66,12 @@
    "Büyük bir tencereye sığır etini koyun ve üzerini 3 L soğuk suyla örtün. Soğan, defne yaprağı ve karabiber tanelerini ekleyin.",
    "Kaynamaya bırakın, yüzeyde biriken köpüğü alın. Ateşi kısın, kapağını kapatıp et çok yumuşayana kadar yaklaşık 2 saat 30 dakika ağır ağır pişirin.",
    "Bu sırada bezelyeleri 1 L suda yumuşayana kadar yaklaşık 45 dakika haşlayın. Süzüp çatalla ezin, ince doğranmış soğan, yumurta, tereyağı, tuz ve karabiberle iyice karıştırın.",
-   "Pudingi temiz bir bezle sarın, ağzını sıkıca bağlayın ve bağlama yerini kaynar suda hafifçe ıslatılmış bir bezle sarın. Bezi iyice unlayın, pudingi içine koyup bağlayın.",
+   "Pudingi temiz bir bezin içine koyun, bezin iç yüzeyini unlayın, ağzını sıkıca bağlayarak şeklini koruyacak şekilde sabitleyin.",
    "Duff için un, kabartma tozu ve tuzu bir kapta karıştırın. Soğuk tereyağı ya da suet ekleyip parmak uçlarınızla un kıvamına gelene kadar ovalayın. Kuru üzümü ekleyin, soğuk suyu azar azar dökerek yumuşak bir hamur yoğurun.",
    "Hamuru temiz bir bezin üzerine alın, sıkıca yuvarlayıp bağlayın. Ağzı kapalı şekilde ayrı bir tencerede kaynar suda yaklaşık 1 saat haşlayın.",
    "Sığır eti yumuşadığında etleri tencereden çıkarıp dinlendirin. Suyu süzmeden tencerede tutun ve patates, havuç ile şalgamı ekleyip 20 dakika pişirin.",
-   "Lahanayı tencereye ekleyin ve yaklaşık 15 dakika daha pişirin. Sebzeler yumuşayınca, pudingi bezinden çıkarmadan tencereye alıp 1 saat kadar pişmeye bırakın; istenirse duff da aynı şekilde pişirilebilir.",
-   "Eti dilimleyin, sebzeleri ve pudingleri büyük bir servis tabağına alın. Sıcakken tereyağı ve hardal turşusuyla servis yapın."
+   "Lahanayı tencereye ekleyin ve yaklaşık 15 dakika daha pişirin. Sebzeler yumuşayınca, pudingi bezinden çıkarmadan tencereye alıp 1 saat kadar pişmeye bırakın.",
+   "Eti dilimleyin, sebzeleri, pease pudingi ve dilimlenmiş duff'u büyük bir servis tabağına alın. Sıcakken tereyağı ve hardal turşusuyla servis yapın."
   ],
   "en": [
    "Soak the salt beef in cold water for 12 hours, changing the water once. Drain and rinse.",
@@ -91,5 +91,17 @@
   "tr": "Tuzlanmış etin tuzluluğunu ayarlamak için suyu bekletme süresi boyunca birkaç kez değiştirin; pişirme suyunu tuzlamadan önce tadına bakın.",
   "en": "Taste the cooking broth before adding any salt, as the beef is already salty. Soaking the meat longer or changing the water more often will make the final dish milder."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'suet' ingredient is translated as 'sebze yağı' (vegetable oil), but suet is animal fat. The English is correct.",
+   "Turkish step 6 describes wrapping the pudding in a wet cloth and dusting the outside with flour. The English says to dust the inside with flour and does not mention a wet cloth.",
+   "Turkish step 10 says the duff can also be cooked in the main pot, which contradicts step 8 (boiled in a separate pot) and is absent from the English.",
+   "Turkish step 11 omits the sliced duff that the English serving step includes.",
+   "time_min (210) is too low for the listed steps: about 2.5 h of beef cooking, plus 20 min, 15 min and 1 h of simmering, comes to roughly 4.5 h (excluding overnight soaking)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

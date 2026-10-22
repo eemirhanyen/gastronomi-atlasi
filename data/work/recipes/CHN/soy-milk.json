@@ -14,23 +14,23 @@
  "ingredients": {
   "tr": [
    "100 g kuru soya fasulyesi",
-   "1200 ml su (ıslatma ve öğütme için)",
+   "1200 ml su (1000 ml öğütme, 200 ml kıvam ayarı için; ıslatma suyu dökülür)",
    "30 g kaya şekeri (isteğe bağlı)"
   ],
   "en": [
    "100 g dried soybeans",
-   "1200 ml water (for soaking and grinding)",
+   "1200 ml water (1000 ml for grinding, 200 ml for adjusting consistency; discard soaking water)",
    "30 g rock sugar (optional)"
   ]
  },
  "steps": {
   "tr": [
    "Soya fasulyelerini bir kapta bol suyla yıkayın, üzerini su ile kaplayacak şekilde 8-12 saat ya da bir gece boyunca ıslatın.",
-   " Islanan fasulyeleri süzün ve iyice durulayın.",
-   "Blenderda 1000 ml su ile fasulyeleri gerektiği kadar parçalara bölünerek kısa sürede pürüzsüz hale gelene kadar çekin.",
+   "Islanan fasulyeleri süzün ve iyice durulayın.",
+   "Blenderde 1000 ml su ile fasulyeleri gerektiği kadar parçalara bölünerek kısa sürede pürüzsüz hale gelene kadar çekin.",
    "Elde edilen karışımı ince bir süzgeçten ya da temiz bir mutfak bezinden geçirerek posasından ayırın.",
    "Süzülen sıvıyı geniş bir tencereye alın ve kalan 200 ml suyla kıvamını ayarlayın.",
-   "Orta-yüksek ateşte, sürekli karıştırarak kaynamaya başlatın; köpürmeye başlayınca ateşi düşürüp 8-10 dakika hafifçe kaynatın.",
+   "Orta-yüksek ateşte, sürekli karıştırarak kaynamaya başlatın; köpürmeye başlayınca ateşi düşürüp en az 10 dakika hafifçe kaynatın.",
    "Kaya şekerini ekleyip eriyene kadar karıştırın, dilerseniz tatlandırmayı ayarlayın.",
    "Yüzeyde biriken köpüğü kepçeyle alın ve sıcak ya da soğutulmuş olarak servis yapın."
   ],
@@ -40,14 +40,25 @@
    "Blend the beans with 1000 ml of water in batches until completely smooth.",
    "Strain the mixture through a fine sieve or clean cheesecloth to separate the liquid from the pulp.",
    "Pour the strained liquid into a large pot and adjust the consistency with the remaining 200 ml of water.",
-   "Heat over medium-high heat, stirring constantly, until it begins to foam; then lower the heat and simmer gently for 8-10 minutes.",
+   "Heat over medium-high heat, stirring constantly, until it begins to foam; then lower the heat and simmer gently for at least 10 minutes.",
    "Stir in the rock sugar until dissolved and adjust the sweetness to taste if desired.",
    "Skim off the foam from the surface and serve hot or chilled."
   ]
  },
  "tip": {
-  "tr": "Soya fasulyesi çiğ halde zehirli maddeler içerdiğinden, sütü mutlaka en az 8-10 dakika iyice kaynatın; tencerenin taşmasını önlemek için kaynarken sık sık karıştırın.",
-  "en": "Raw soybeans contain anti-nutritional compounds, so always boil the milk for at least 8-10 minutes; stir often and watch closely to prevent it from boiling over."
+  "tr": "Soya fasulyesi çiğ halde zehirli maddeler içerdiğinden, sütü mutlaka en az 10 dakika iyice kaynatın; tencerenin taşmasını önlemek için kaynarken sık sık karıştırın.",
+  "en": "Raw soybeans contain anti-nutritional compounds, so always boil the milk for at least 10 minutes; stir often and watch closely to prevent it from boiling over."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Simmer time is 8-10 minutes in the steps and 'at least 8-10 minutes' in the tip. Raw soybeans need a full 10 minutes of boiling to inactivate anti-nutritional compounds, so the minimum should be 10 mi",
+   "Turkish step 3 uses 'Blenderda', which is not the correct locative form. The correct form is 'Blenderde'.",
+   "Turkish step 2 has a stray leading space.",
+   "The 1200 ml water is described as 'for soaking and grinding', but the soaking water is discarded and only the 1000 ml plus 200 ml is used. The label should be clarified."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

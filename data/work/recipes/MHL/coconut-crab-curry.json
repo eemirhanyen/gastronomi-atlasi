@@ -47,14 +47,14 @@
  },
  "steps": {
   "tr": [
-   "Yengeci temizlemek için eldiven takın. Karnındaki kabuğu açın, solungaçları ve iç organları çıkarın, ardından gövdeyi ve bacakları parçalara ayırın. Kıskaçları kırarak et kısımlarının suyla temas etmesini sağlayın.",
+   "Yengeci temizlemek için eldiven takın. Karnındaki kabuğu açın, solungaçları ve iç organları çıkarın, ardından gövdeyi ve bacakları parçalara ayırın. Kıskaçları kırarak et kısımlarının sosla temas etmesini sağlayın.",
    "Geniş bir tencerede yağı orta ateşte ısıtın. Soğanı ekleyip yumuşayana ve hafifçe şeffaflaşana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak, zencefil ve yeşil biberi ekleyip bir dakika daha karıştırın. Köri tozunu ekleyin ve baharat kokusu çıkana kadar yaklaşık 1 dakika kavurun.",
    "Doğranmış domatesi ekleyin ve yumuşayıp suyunu bırakana kadar 3 dakika pişirin.",
    "Yengeç parçalarını tencereye ekleyin ve kabuk rengi almaya başlayana kadar yaklaşık 3 dakika karıştırarak çevirin.",
    "Hindistan cevizi sütünü ve suyu ekleyip kaynatın. Ateşi kısın, kapağını kapatın ve etler yumuşayana kadar yaklaşık 25-30 dakika ağır ağır pişirin.",
    "Tuz, şeker ve limon suyunu ekleyip tadına bakarak ayarlayın. Sos kıvam almamışsa açık kapağla birkaç dakika daha kaynatın.",
-   "Taze soğanla süsleyip pirinç veya ekmek kırığı ile sıcak servis yapın."
+   "Taze soğanla süsleyip pirinç veya ekmek ağacı meyvesi ile sıcak servis yapın."
   ],
   "en": [
    "Wear gloves to clean the crab. Open the underside shell, remove the gills and internal organs, then cut the body and legs into pieces. Crack the claws so the meat is exposed to the sauce.",
@@ -71,5 +71,14 @@
   "tr": "Hindistan cevizi yengeci yoksa büyük ölçekli mavi yengeç veya çamur yengeci ile benzer sonuç alınabilir; etlerin pişme süresini ağırlığa göre ayarlayın.",
   "en": "If coconut crab is unavailable, large blue or mud crabs make a good substitute; adjust the simmering time according to their weight."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says the meat should contact 'suyla' (water), but the English says 'exposed to the sauce'. Turkish should say 'sosla'.",
+   "Turkish step 8 translates 'breadfruit' as 'ekmek kırığı' (breadcrumbs). It should be 'ekmek ağacı meyvesi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

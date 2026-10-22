@@ -6,7 +6,7 @@
  "native": "Quesitos",
  "desc": {
   "tr": "Porto Riko'da kahvaltıda, öğleden sonra kahve saatinde ve bayram kutlamalarında yenen, tatlandırılmış krem peynirli hafif milföy hamurlu tatlılar. Adaları ve Latin Amerika mutfağının günlük atıştırmalıklarından biridir.",
-  "en": "Light puff pastry turnovers filled with sweetened cream cheese, eaten in Puerto Rico at breakfast, with afternoon coffee, and at holiday celebrations. They are a everyday snack staple of Puerto Rican bakeries and home kitchens."
+  "en": "Light puff pastry turnovers filled with sweetened cream cheese, eaten in Puerto Rico at breakfast, with afternoon coffee, and at holiday celebrations. They are an everyday snack staple of Puerto Rican bakeries and home kitchens."
  },
  "servings": 4,
  "time_min": 60,
@@ -41,7 +41,7 @@
    "Krem peyniri, 50 g şekeri, yumurta sarısını, vanilya özünü ve limon kabuğunu pürüzsüz bir krema oluşana kadar çırpın.",
    "Milföy hamurunu unlanmış tezgâhta yaklaşık 30 x 32 cm'lik bir dikdörtgen olacak şekilde açın.",
    "Hamuru 8 eşit dikdörtgene (yaklaşık 10 x 12 cm) kesin.",
-   "Her dikdörtgenin bir yarısının ortasına yaklaşık 20 g krem peynirli iç harcı koyun, kenarları bırakarak yayın.",
+   "Her dikdörtgenin bir yarısının ortasına yaklaşık 25 g krem peynirli iç harcı koyun, kenarları bırakarak yayın.",
    "Hamuru ikiye katlayın ve kenarları çatal yardımıyla sıkıca kapatın. Üstüne birkaç kısa çizik atın.",
    "Hazırladığınız quesitoları pişirme kağıdı serili tepsiye dizin.",
    "Yumurta ve sütü çırparak sürme karışımını hazırlayın ve quesitoların üzerine ince bir tabaka halinde sürün.",
@@ -54,7 +54,7 @@
    "Beat the cream cheese, 50 g sugar, egg yolk, vanilla extract and lemon zest until smooth and creamy.",
    "On a lightly floured surface, roll the puff pastry into a rectangle about 30 x 32 cm.",
    "Cut the pastry into 8 equal rectangles, roughly 10 x 12 cm each.",
-   "Spoon about 20 g of the filling onto one half of each rectangle, leaving a border around the edges.",
+   "Spoon about 25 g of the filling onto one half of each rectangle, leaving a border around the edges.",
    "Fold each rectangle over the filling and press the edges firmly closed with a fork. Make a few small slits on top.",
    "Arrange the quesitos on the prepared tray.",
    "Whisk the egg with the milk and brush the tops of the quesitos with a thin layer of the egg wash.",
@@ -67,5 +67,14 @@
   "tr": "Krem peynirin tam oda sıcaklığında olması, iç harcın topaklanmadan pürüzsüz kalmasını sağlar; hamuru çok ısıtmamak da kabarmasını korur.",
   "en": "Let the cream cheese reach room temperature so the filling stays smooth, and keep the pastry cold until it goes into the oven so it puffs well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling portion does not match the ingredients: 200 g cream cheese (plus sugar, yolk, zest) is divided into 8 quesitos at about 20 g each, which uses only about 160 g, leaving filling unused.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

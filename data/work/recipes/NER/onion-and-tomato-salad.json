@@ -18,7 +18,7 @@
    "1 adet yeşil acı biber (yaklaşık 15 g)",
    "30 ml bitkisel yağ",
    "30 ml limon suyu (yaklaşık 1 limon)",
-   "2 g tuz (yaklaşık 1/2 çay kaşığı)",
+   "2 g tuz (yaklaşık 1/3 çay kaşığı)",
    "3 g yaji (öğütülmüş kuru acı biber karışımı, yaklaşık 1 çay kaşığı)",
    "500 ml soğuk su"
   ],
@@ -28,7 +28,7 @@
    "1 green chili pepper (about 15 g)",
    "30 ml vegetable oil",
    "30 ml lime juice (about 1 lime)",
-   "2 g salt (about 1/2 teaspoon)",
+   "2 g salt (about 1/3 teaspoon)",
    "3 g yaji (ground dried chili spice blend, about 1 teaspoon)",
    "500 ml cold water"
   ]
@@ -57,5 +57,13 @@
   "tr": "Yajinin tadı ve ısısı markaya göre değişir; önce az miktarla başlayıp tadarak ekleyin.",
   "en": "Yaji strength varies by brand, so start with less and adjust to taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt conversion is wrong: 2 g is about 1/3 teaspoon, not 1/2 teaspoon (1/2 teaspoon of table salt is about 3 g). Corrected in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

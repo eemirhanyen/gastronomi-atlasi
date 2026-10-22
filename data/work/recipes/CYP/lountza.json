@@ -49,10 +49,10 @@
    "Kişniş tohumu ve karabiberi havanda ya da baharat öğütücüde kabaca ezin. Sarımsakları ezerek ekleyin.",
    "Ezilmiş baharatları, tuzu ve tarçını kırmızı şarap sirkesiyle karıştırıp macun kıvamına getirin.",
    "Macunu etin her yüzeyine iyice sürün. Defne yapraklarını etin üstüne yerleştirin.",
-   "Eti kapalı bir kaba alın ve buzdolabında 3 gün bekletin. Her gün çevirin ve birikен sıvıyı üzerine gezdirin.",
+   "Eti kapalı bir kaba alın ve buzdolabında 3 gün bekletin. Her gün çevirin ve biriken sıvıyı üzerine gezdirin.",
    "3. günün sonunda eti kaptan çıkarın, sıvıyı silin ve kuru bir bezle kurulayın.",
    "Eti tülbente sıkıca sarın, iple bağlayın ve bir tabağa koyun. Üzerine 1 kg ağırlık koyup buzdolabında 2 gün bastırın.",
-   "Ağırlığı kaldırın, tülbenti açmadan eti serin (10–15 °C), havalanan ve kuru bir yerde, ya da üst rafta havalandırmalı bir dolapta 2–3 hafta asarak kurutun.",
+   "Ağırlığı kaldırın, tülbenti açmadan eti serin (10–15 °C) ve havalandırılan kuru bir yerde 2–3 hafta asarak kurutun.",
    "Et sertleşip ağırlığının yaklaşık üçte biri kadar kaybedince hazırdır. Tülbenti açın, bıçakla çok ince dilimleyin.",
    "Dilimleri köy ekmeği ve yeşil zeytinle birlikte servis edin."
   ],
@@ -73,5 +73,14 @@
   "tr": "Kurutma sırasında etin yüzeyinde beyaz küf görülebilir; sirkeyle silin. Oda çok sıcaksa ya da nem düşük değilse et ekşiyebilir, bu durumda kurutmayı buzdolabında yapın.",
   "en": "White mould may appear on the surface during drying; wipe it off with a cloth dampened with vinegar. If the room is too warm or humid, dry the meat in the refrigerator instead to avoid spoilage."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 contains a non-Turkish character typo: \"birikен\" should be \"biriken\"",
+   "Turkish step 8 wording is awkward: \"havalanan ve kuru bir yerde, ya da üst rafta havalandırmalı bir dolapta\" mixes two alternatives. Reworded to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

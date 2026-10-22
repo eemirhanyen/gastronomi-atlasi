@@ -9,7 +9,7 @@
   "en": "A hearty sauerkraut stew from the interior and northern regions of Montenegro, traditionally cooked in winter with pork and smoked meat. It is usually served with bread and a spoonful of sour cream on top."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -52,9 +52,9 @@
    "Unu serpin ve 1 dakika karıştırarak kavurun.",
    "Ateşi kısın, sarımsağı, salçayı, tatlı kırmızı biberi ve karabiberi ekleyip 1 dakika karıştırın. Biberin yanmaması için ateşi düşük tutun.",
    "Süzülmüş lahanayı ekleyip 3 dakika birlikte karıştırarak pişirin.",
-   "Sıcak suyu, defne yapraklarını ve bir tutam tuzu ekleyin. Kaynamaya bırakın, ardından ateşi kısıp kapağını örterek yaklaşık 40 dakika pişirin.",
-   "Patatesleri ekleyin ve kapağı kapalı olarak yaklaşık 20 dakika, patatesler ve et yumuşayana kadar pişirmeye devam edin.",
-   "Defne yapraklarını çıkarın, tuzunu tadın ve gerekirse ayarlayın. Birkaç dakika dinlendirip sıcak servis yapın."
+   "Sıcak suyu, defne yapraklarını ve bir tutam tuzu ekleyin. Kaynamaya bırakın, ardından ateşi kısıp kapağını örterek yaklaşık 60 dakika, et iyice yumuşayana kadar pişirin.",
+   "Patatesleri ekleyin ve kapağı kapalı olarak yaklaşık 20 dakika, patatesler yumuşayana kadar pişirmeye devam edin.",
+   "Defne yapraklarını çıkarın, tuzunu tadın ve gerekirse ayarlayın. Birkaç dakika dinlendirip ekmek ve üzerine birer kaşık ekşi krema ya da kaymakla sıcak servis yapın."
   ],
   "en": [
    "Heat the oil in a wide, heavy-based pot over medium-high heat. Add the pork and smoked pork and brown them for about 8 minutes.",
@@ -62,14 +62,25 @@
    "Sprinkle in the flour and stir for 1 minute to cook it slightly.",
    "Lower the heat, then add the garlic, tomato paste, sweet paprika and black pepper. Stir for 1 minute, keeping the heat low so the paprika does not burn.",
    "Add the drained sauerkraut and cook, stirring, for 3 minutes.",
-   "Pour in the hot water, add the bay leaves and a pinch of salt. Bring to a boil, then reduce the heat, cover and simmer for about 40 minutes.",
-   "Add the potatoes and continue simmering, covered, for about 20 minutes until the potatoes and meat are tender.",
-   "Remove the bay leaves, taste and adjust the salt. Rest for a few minutes and serve hot."
+   "Pour in the hot water, add the bay leaves and a pinch of salt. Bring to a boil, then reduce the heat, cover and simmer for about 60 minutes until the meat is very tender.",
+   "Add the potatoes and continue simmering, covered, for about 20 minutes until the potatoes are tender.",
+   "Remove the bay leaves, taste and adjust the salt. Rest for a few minutes and serve hot with bread and a spoonful of sour cream or kaymak on top."
   ]
  },
  "tip": {
-  "tr": "Kiseli lahananın tuzluluğu ürüne göre değiştiği için tuzu en sonda tadarak ayarlayın; fazla ekşi bir lahanayı önce kısa süre durulamak tatı dengeler.",
+  "tr": "Kiseli lahananın tuzluluğu ürüne göre değiştiği için tuzu en sonda tadarak ayarlayın; fazla ekşi bir lahanayı önce kısa süre durulamak tadı dengeler.",
   "en": "Sauerkraut salt levels vary, so season only at the end; rinsing very sour kraut briefly before cooking will balance the flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not match the steps, which add up to roughly 90 to 110 minutes of cooking and prep",
+   "Pork shoulder is simmered only about 40 minutes before the potatoes go in, which is likely too short for it to become tender; the simmer was extended to 60 minutes",
+   "Turkish typo 'tatı' should be 'tadı' in the tip",
+   "The description says the stew is served with bread and sour cream, but the steps never mention it; the serving step was updated to include both"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

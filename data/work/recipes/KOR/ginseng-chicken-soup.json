@@ -5,7 +5,7 @@
  },
  "native": "삼계탕",
  "desc": {
-  "tr": "Kavrulmuş yapışkan pirinç, kore ginsengi ve hünnapla doldurulmuş bütün genç bir tavuğun hafif baharatlı, şifalı bir çorbadır. Güney Kore'de özellikle yaz sıcaklarında, 'Chobok' döneminde yenir.",
+  "tr": "Kavrulmuş yapışkan pirinç, Kore ginsengi ve hünnapla doldurulmuş bütün genç bir tavuğun hafif baharatlı, şifalı bir çorbadır. Güney Kore'de özellikle yaz sıcaklarında, 'Chobok' döneminde yenir.",
   "en": "A whole young chicken stuffed with glutinous rice, Korean ginseng and jujube, then simmered into a light, restorative broth. It is eaten across South Korea, especially during the hottest days of summer in the Chobok period."
  },
  "servings": 4,
@@ -15,7 +15,7 @@
   "tr": [
    "4 adet genç bütün tavuk (her biri yaklaşık 500 g, iç organları çıkarılmış)",
    "160 g yapışkan pirinç",
-   "4 adet kurutulmuş kore ginsengi (yaklaşık 8 g toplam)",
+   "4 adet kurutulmuş Kore ginsengi (yaklaşık 8 g toplam)",
    "12 adet kuru hünnap",
    "12 diş sarımsak, soyulmuş",
    "20 g zencefil, dilim dilim",
@@ -40,17 +40,17 @@
  "steps": {
   "tr": [
    "Yapışkan pirinci bol soğuk suda 2 saat bekletin, ardından süzün ve iyice suyunu alın.",
-   "Tavukları soğuk suyla yıkayın ve kağıt havlu ile kurulayın. Tavukların içine ve dışına 1/2 çay kaşığı tuz serpin.",
+   "Tavukları soğuk suyla yıkayın ve kağıt havlu ile kurulayın. Toplam 1/2 çay kaşığı tuzu tavukların hepsinin içine ve dışına eşit paylaştırarak serpin.",
    "Her tavuğun içini süzülmüş pirinçle yarıya kadar doldurun, ardından 1 adet ginseng, 3 adet hünnap ve 3 diş sarımsak yerleştirin. Kalan pirinçle doldurup but ve kanatları iple bağlayın.",
    "Büyük bir tencereye 2,5 L su ve zencefil dilimlerini koyup kaynatın.",
    "Doldurulmuş tavukları yavaşça suya yerleştirin. Tekrar kaynayınca köpüğü alın, ısıyı kısın ve kapağı yarı açık şekilde yaklaşık 50-60 dakika kaynatın.",
    "Tavukların iç kısmı 74 °C'ye ulaşmış ve pirinç yumuşamış olmalı. Tavukları dikkatlice çıkarın, ipleri çözün.",
    "Çorbayı süzün ve kalan 1 1/2 çay kaşığı tuz ile karabiberi ekleyerek tatlandırın.",
-   "Her servise bir tavuk koyun, üzerine sıcak çorbayı dökün ve yeşil soğanla süsleyin. Dilenirse ekstra tuzla birlikte servis edin."
+   "Her servise bir tavuk koyun, üzerine sıcak çorbayı dökün ve yeşil soğanla süsleyin. İsterseniz ekstra tuzla birlikte servis edin."
   ],
   "en": [
    "Soak the glutinous rice in plenty of cold water for 2 hours, then drain well.",
-   "Rinse the chickens in cold water and pat dry with paper towels. Rub 1/2 tsp of the salt over the inside and outside of each bird.",
+   "Rinse the chickens in cold water and pat dry with paper towels. Rub 1/2 tsp of salt in total, divided evenly, over the inside and outside of all the birds.",
    "Fill each chicken halfway with the drained rice, then add 1 ginseng root, 3 jujubes and 3 garlic cloves. Fill the rest of the cavity with rice and tie the legs and wings with kitchen string.",
    "Put 2.5 L of water and the sliced ginger into a large pot and bring to a boil.",
    "Carefully lower the stuffed chickens into the water. When it returns to a boil, skim off the foam, reduce the heat and simmer, partly covered, for 50 to 60 minutes.",
@@ -60,8 +60,19 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci önceden ıslatmak, tavuğun içinde hem daha hızlı pişmesini hem de çorbaya daha güzel bir kıvam vermesini sağlar.",
+  "tr": "Pirinci önceden ıslatmak, tavuğun içinde tavukla aynı sürede pişmesini sağlar ve çorbaya daha dolgun bir kıvam verir.",
   "en": "Soaking the rice beforehand lets it cook through inside the chicken in the same time as the meat and gives the broth a fuller body."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt amounts are ambiguous and the English step 2 contradicts the totals: 'each bird' with 1/2 tsp would use 2 tsp before the remaining 1 1/2 tsp, for 3.5 tsp total instead of 2 tsp. The Turkish step ",
+   "Turkish step 8 uses 'Dilenirse', which is incorrect; the natural phrasing is 'İsterseniz'.",
+   "The tip disagrees between languages: English says the rice cooks in the same time as the meat, but Turkish says it cooks faster.",
+   "Minor: 'kore ginsengi' should be capitalized as 'Kore ginsengi' in Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

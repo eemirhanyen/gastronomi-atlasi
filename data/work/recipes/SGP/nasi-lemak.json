@@ -23,7 +23,8 @@
    "5 arpacık soğanı",
    "3 diş sarımsak",
    "1 çay kaşığı belacan (karides macunu)",
-   "3 yemek kaşığı bitkisel yağ",
+   "3 yemek kaşığı bitkisel yağ (sambal için)",
+   "4 yemek kaşığı bitkisel yağ (hamsi ve yumurta için)",
    "1 yemek kaşığı palmiye şekeri",
    "40 ml tamarind suyu",
    "60 g küçük hamsi (ikan bilis)",
@@ -42,7 +43,8 @@
    "5 shallots",
    "3 garlic cloves",
    "1 tsp belacan (shrimp paste)",
-   "3 tbsp neutral oil",
+   "3 tbsp neutral oil (for the sambal)",
+   "4 tbsp neutral oil (for the anchovies and eggs)",
    "1 tbsp palm sugar",
    "40 ml tamarind water",
    "60 g small dried anchovies (ikan bilis)",
@@ -71,7 +73,7 @@
    "Blend the softened chillies, shallots, garlic and belacan with a few spoons of water to a smooth sambal paste.",
    "Heat the oil in a pan, add the paste and fry over medium-low heat for 10-12 minutes, until fragrant and the oil separates.",
    "Stir in the palm sugar and tamarind water and cook for 5 more minutes. Taste and adjust with salt if needed, then set the sambal aside.",
-   "In a separate pan, fry the anchovies in 2 tbsp of oil until crisp, then drain on kitchen paper.",
+   "In a separate pan, fry the anchovies in 2 tbsp of the oil until crisp, then drain on kitchen paper.",
    "Dry-roast the peanuts in a pan for 3 minutes and set aside.",
    "Fry the eggs in the remaining oil, sunny-side up or medium-fried, keeping the yolks runny.",
    "Remove the pandan leaves and ginger from the rice. Serve the rice with sambal, anchovies, peanuts, cucumber slices and an egg on each plate, while still warm."
@@ -81,5 +83,14 @@
   "tr": "Pirinci pişirdikten sonra kapağı açmadan dinlendirmek, tanelerin ayrı ve kremalı kalmasını sağlar. Sambalı iyi kavurmak tadını belirler.",
   "en": "Resting the rice covered after cooking keeps the grains separate and creamy. Frying the sambal paste until the oil separates is the key to its flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: the ingredient list gives only 3 tbsp, but the steps use 3 tbsp for the sambal, 2 tbsp for the anchovies, and 'the remaining oil' for the eggs, which has no defined amount",
+   "The ingredient list is missing the oil needed for the anchovies and eggs (Turkish and English both affected)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

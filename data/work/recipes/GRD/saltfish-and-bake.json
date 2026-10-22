@@ -22,13 +22,14 @@
    "180-200 ml soğuk su",
    "500 ml kızartma yağı (sıvı yağ)",
    "45 ml sıvı yağ (sote için)",
+   "60 ml sıcak su (balığı pişirmek için)",
    "120 g soğan, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "150 g domates, küçük küp doğranmış",
    "100 g yeşil biber, küçük küp doğranmış",
    "1 dal yeşil soğan, ince kıyılmış",
    "1/2 adet scotch bonnet biberi, çekirdekleri alınmış ve ince kıyılmış",
-   "5 g kuru kekik (1 tatlı kaşığı)",
+   "1 g kuru kekik (1 tatlı kaşığı)",
    "15 ml limon suyu (1 yemek kaşığı)",
    "Taze çekilmiş karabiber, damak tadına göre"
   ],
@@ -42,13 +43,14 @@
    "180-200 ml cold water",
    "500 ml vegetable oil, for frying",
    "45 ml vegetable oil, for sautéing",
+   "60 ml hot water, for simmering the fish",
    "120 g onion, finely chopped",
    "2 garlic cloves, minced",
    "150 g tomato, finely diced",
    "100 g green bell pepper, finely diced",
    "1 green onion (scallion), thinly sliced",
    "1/2 scotch bonnet pepper, seeded and finely minced",
-   "5 g dried thyme (1 tsp)",
+   "1 g dried thyme (1 tsp)",
    "15 ml lime juice (1 tbsp)",
    "Freshly ground black pepper, to taste"
   ]
@@ -83,5 +85,14 @@
   "tr": "Balığın tuzunu iyice almak için suyunu sık sık değiştirin; tadını pişirme sırasında kontrol edin, çünkü tuzluluğu ürüne göre değişir. Scotch bonnet'i çok acı istemiyorsanız çekirdeklerini tamamen ayıklayın.",
   "en": "Change the soaking water often and taste the fish before adding any salt, as salt levels vary between brands. For a milder dish, remove all seeds and membranes from the scotch bonnet."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dried thyme is listed as 5 g (1 tsp), but 1 tsp of dried thyme weighs about 1 g. The amount is about five times too high in both languages.",
+   "Step 8 adds 60 ml hot water to the fish, but this water is not in the ingredient list in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

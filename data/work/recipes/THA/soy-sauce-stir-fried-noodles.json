@@ -46,7 +46,7 @@
    "Tavuğu kenara itin, boş alana sarımsağı koyun ve 30 saniye kokusu çıkana kadar kavurun. Sonra tavuğla karıştırın.",
    "Eriştesi ekleyip spatula ile yavaşça karıştırın. Eriştelerin wok'un dibinde hafifçe kavrulmasına izin verin, bu işlem yaklaşık 1 dakika sürer.",
    "Hazırladığınız sosu ekleyin ve eriştelerin eşit biçimde renklenmesi için hızlıca karıştırın. Eriştelerin yumuşamasını ve sosu emmesini bekleyin.",
-   "Wok'un boş bir kısmına kalan yağı ekleyin, yumurtaları kırıp hafifçe karıştırarak yarı pişmiş hale getirin. Eriştelerle birleştirin.",
+   "Wok'un boş bir kısmına kalan yağı ekleyin, yumurtaları kırıp hafifçe karıştırarak hafifçe pişip oturana kadar pişirin. Eriştelerle birleştirin.",
    "Brokoliyi ekleyip 1-2 dakika, sapları yumuşayana ama hâlâ gevrek kalana kadar sote edin. Hemen sıcak servis yapın."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Kuru geniş eriştesi kullanıyorsanız önce ılık suda yumuşayana kadar bekletin ve iyice süzün, aksi halde wok'ta parçalanır.",
   "en": "If using dried wide rice noodles, soak them in warm water until pliable and drain well first, or they will break apart in the wok."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the eggs should be cooked \"yarı pişmiş\" (half-cooked), but the English says \"until just set\". The Turkish wording could leave eggs underdone and does not match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

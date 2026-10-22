@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Bir tencereye gula melaka, suyu ve düğümlenmiş pandan yaprağını koyun. Orta ateşte şeker tamamen eriyene kadar karıştırın, ardından 10 dakika kısık ateşte kaynatın.",
+   "Bir tencereye gula melaka, suyu ve düğümlenmiş pandan yaprağını koyun. Orta ateşte şeker tamamen eriyene kadar karıştırın, ardından 10 dakika kısık ateşte hafifçe kaynatın.",
    "Pandan yaprağını çıkarın, şurubu süzün ve tamamen soğumaya bırakın.",
    "Kırmızı fasulye, mısır, cincau ve attap chee'yi ayrı ayrı süzün. Cincau'yu küp şeklinde doğrayın.",
    "Buz küplerini bir buz kırıcı ile ya da blenderde kısa kısa çalıştırarak ince, kar gibi bir kıvama getirin. Blenderde aşırı çekmeyin, buz su olmamalı.",
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Buz erimeden servis edilmesi için bardakları önceden buzdolabında soğutun ve şurupları servisten hemen önce ekleyin.",
+  "tr": "Buz erimeden servis edilmesi için servis bardaklarını önceden dondurucuda soğutun ve şurupları servisten hemen önce ekleyin.",
   "en": "Chill the serving glasses in the freezer beforehand and add the syrups just before serving so the ice stays fluffy rather than melting into a watery slush."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to chill glasses in the refrigerator (buzdolabı), but the English tip says the freezer. The freezer is correct for keeping the shaved ice fluffy, so the Turkish version was changed to",
+   "Turkish step 1 'kısık ateşte kaynatın' is contradictory (simmer vs. boil). Changed to 'kısık ateşte hafifçe kaynatın' to match the English 'simmer gently'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

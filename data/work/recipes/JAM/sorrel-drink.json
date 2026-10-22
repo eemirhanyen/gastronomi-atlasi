@@ -60,8 +60,16 @@
   ]
  },
  "tip": {
-  "tr": "Demlenme süresi uzadıkça renk ve aroma yoğunlaşır; bu yüzden sıcak su ile demlendikten sonra şekeri, servisten hemen önce ayarlamak en iyi sonucu verir.",
-  "en": "The longer the steep, the deeper the colour and flavour, so taste before adding sugar and sweeten just before serving for the best balance."
+  "tr": "Demlenme süresi uzadıkça renk ve aroma yoğunlaşır. Şekeri süzdükten sonra ekleyip tadına bakın; servisten hemen önce tatlılığı son kez ayarlamak en iyi dengeyi verir.",
+  "en": "The longer the steep, the deeper the colour and flavour. Sweeten after straining, then taste and adjust the sugar just before serving for the best balance."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says to sweeten just before serving, but step 6 has the sugar added right after straining, before chilling. The tip and steps contradict each other in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

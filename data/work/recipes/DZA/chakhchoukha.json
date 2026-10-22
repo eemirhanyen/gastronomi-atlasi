@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Çakçuka (Cezayir usulü)",
+  "tr": "Şahşuha (Cezayir usulü)",
   "en": "Chakhchoukha"
  },
  "native": "شخشوخة",
@@ -87,5 +87,13 @@
   "tr": "Ekmeğin dağılmaması için bayat ekmek kullanın ve sosu kepçeyle yavaş yavaş ekleyin; ekmek yumuşak ama lapa olmamalı.",
   "en": "Use day-old bread and add the sauce gradually so the bread softens without turning mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name 'Çakçuka (Cezayir usulü)' is wrong: 'Çakçuka' is not a recognised name, and the description itself says this dish is not the egg shakshuka. The Turkish transliteration of Chakhchoukh"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

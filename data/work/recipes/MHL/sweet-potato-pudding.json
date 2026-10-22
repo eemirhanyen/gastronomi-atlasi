@@ -6,10 +6,10 @@
  "native": "",
  "desc": {
   "tr": "Hindistan cevizi sütü ve pandan yaprağıyla aromalandırılan, yumuşak bir tatlı patates muhallebisidir. Marshall Adaları'nda aile yemeklerinde ve kutlamalarda, hindistan cevizinin günlük mutfaktaki yeri göz önüne alındığında, sık sık tercih edilen bir tatlıdır.",
-  "en": "A soft, creamy pudding of mashed sweet potato flavored with coconut milk and pandanus leaf. It is served at family meals and celebrations in the Marshall Islands, where coconut is a everyday ingredient."
+  "en": "A soft, creamy pudding of mashed sweet potato flavored with coconut milk and pandanus leaf. It is served at family meals and celebrations in the Marshall Islands, where coconut is an everyday ingredient."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -19,7 +19,7 @@
    "100 g toz şeker",
    "1 g tuz",
    "2 adet pandan yaprağı",
-   "30 g cornstarch (mısır nişastası)",
+   "30 g mısır nişastası",
    "45 ml soğuk su",
    "30 g kurutulmuş hindistan cevizi pulu"
   ],
@@ -37,7 +37,7 @@
  },
  "steps": {
   "tr": [
-   "Tatlı patatesleri soyun, yaklaşık 2 cm'lik küpler halinde doğrayın ve kaynayan suda 15 dakika, çatalla kolayca ezilene kadar haşlayın.",
+   "Tatlı patatesleri soyun, yaklaşık 2 cm'lik küpler halinde doğrayın ve tuzlu kaynayan suda 15 dakika, çatalla kolayca ezilene kadar haşlayın.",
    "Patatesleri süzün ve pürüzsüz bir püre olana kadar ezin. Kalan hindistan cevizi sütünden 100 ml'yi püreye karıştırıp bir kenara koyun.",
    "Geniş bir tencereye kalan 300 ml hindistan cevizi sütünü, 200 ml suyu, şekeri, tuzu ve bağlanmış pandan yapraklarını ekleyin. Orta ateşte şeker eriyene kadar karıştırarak ısıtın.",
    "Pandan yapraklarını çıkarıp atın. Patates püresini tencereye ekleyin ve iyice karıştırın.",
@@ -59,5 +59,16 @@
   "tr": "Patates püresini mümkün olduğunca pürüzsüz tutun; topaklar muhallebinin dokusunu bozar. Pandan yaprağı bulamazsanız birkaç damla vanilya özü kullanabilirsiniz.",
   "en": "Mash the potatoes until completely smooth, since lumps spoil the texture. If you can't find pandanus leaves, a few drops of vanilla extract make a good substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 omits salt for the boiling water, while the English step says 'salted water'",
+   "time_min (60) does not cover the 1-hour mandatory chill plus boiling and cooking; total is about 90 minutes",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'",
+   "Turkish ingredient list contains an untranslated English term: 'cornstarch (mısır nişastası)'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

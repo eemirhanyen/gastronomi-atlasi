@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g beyaz balık fileto (barramundi, flathead veya level)",
+   "600 g beyaz balık fileto (barramundi, flathead veya leatherjacket/level)",
    "1 kg patates (örneğin Sebago veya Russet)",
    "1 litre bitkisel yağ (kızartma için)",
    "150 g çok amaçlı un, ayrıca 30 g un (balığı bulamak için)",
@@ -39,7 +39,7 @@
   "tr": [
    "Patatesleri soyup 1 cm kalınlığında uzun parçalar halinde kesin. Soğuk suda en az 20 dakika bekletin, sonra suyunu süzüp bir bez üzerinde iyice kurulayın.",
    "Derin bir tencerede yağı 150°C'ye kadar ısıtın. Patatesleri partiler halinde 6-8 dakika, yumuşak ve solgun kıvama gelene kadar kızartın. Süzgeçe alıp soğumaya bırakın.",
-   "Balık filetolarını kağıt havluyla kurulayın ve iki üç parça halinde kesin. Üzerlerine tuz serpin.",
+   "Balık filetolarını kağıt havluyla kurulayın ve her birini üç dört parçaya kesin. Üzerlerine hafifçe tuz serpin.",
    "Büyük bir kapta 150 g un, mısır nişastası ve 1 çay kaşığı tuzu karıştırın. Biraları ekleyip topaklar kalmayacak şekilde hafifçe çırpın. Hamuru 5 dakika dinlendirin.",
    "Yağı 185°C'ye çıkarın. Balık parçalarını kalan 30 g unda hafifçe bulayın, sonra fazlasını silkeleyin.",
    "Balıkları hamura batırın, fazlasını akıtıp yağa dikkatlice bırakın. Her partide 3-4 parça kızartın ve 4-5 dakika, altın rengi ve çıtır olana kadar pişirin. Kağıt havlu üzerinde süzün.",
@@ -61,5 +61,14 @@
   "tr": "Hamuru kullanmadan hemen önce hazırlayın ve çok soğuk tutun; bira ne kadar soğuksa kaplama o kadar çıtır olur.",
   "en": "Keep the batter cold and mix it just before frying, and avoid overmixing so the coating stays light and crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says 'iki üç parça' (two or three pieces) but the English says 3 or 4 pieces per fillet.",
+   "Fish name mismatch: the Turkish ingredient lists 'level' while the English lists 'leatherjacket'. Level is the Australian name for leatherjacket, so the two versions should name the same fish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

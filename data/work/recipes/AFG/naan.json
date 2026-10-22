@@ -41,7 +41,7 @@
  },
  "steps": {
   "tr": [
-   "Ilık suyun bir kısmını (150 ml) bir kaseye alın, şekeri ve mayayı ekleyip karıştırın ve 5 dakika köpürmesini bekleyin.",
+   "Ilık suyun tamamını (150 ml) bir kaseye alın, şekeri ve mayayı ekleyip karıştırın ve 5 dakika köpürmesini bekleyin.",
    "Büyük bir kapta unu ve tuzu karıştırın. Köpüren maya karışımını, yoğurdu ve sıvı yağı ekleyip yoğurmaya başlayın.",
    "Hamuru 8-10 dakika yoğurun; yumuşak, pürüzsüz ve esnek olmalı. Çok sert gelirse birkaç damla su ekleyin.",
    "Hamuru kapatıp ılık bir yerde 1 saat, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
@@ -53,9 +53,9 @@
    "Pişen naanları temiz bir bezle sarıp birkaç dakika dinlendirin; böylece yumuşak kalırlar."
   ],
   "en": [
-   "Pour 150 ml of the lukewarm water into a bowl, add the sugar and yeast, stir, and leave for 5 minutes until foamy.",
+   "Pour all 150 ml of the lukewarm water into a bowl, add the sugar and yeast, stir, and leave for 5 minutes until foamy.",
    "In a large bowl, mix the flour and salt. Add the foamy yeast mixture, the yogurt and the vegetable oil, and start kneading.",
-   "Knead the dough for 8 to 10 minutes until smooth, soft and elastic. If it feels too stiff, add a few drops of the remaining water.",
+   "Knead the dough for 8 to 10 minutes until smooth, soft and elastic. If it feels too stiff, add a few drops of water.",
    "Cover the dough and leave it in a warm place for about 1 hour, until it has doubled in size.",
    "Divide the dough into 4 equal pieces, shape them into balls, cover and rest for 10 minutes.",
    "Preheat the oven to 260°C. Place a baking tray or pizza stone inside and heat it for 45 minutes.",
@@ -69,5 +69,14 @@
   "tr": "Fırının en üst sıcaklığına çıkması için tepsiyi uzun süre ısıtın; hamuru tepsiye ters çevrilmiş tepsinin üzerine koymak, tandır etkisine en yakın sonucu verir.",
   "en": "Preheat the tray thoroughly so the base cooks quickly and stays soft; placing the naan on an upturned hot tray gives the closest result to a tandoor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says 'bir kısmını (150 ml)' (part of the water, 150 ml), but 150 ml is the total water, so the whole amount goes into the yeast mix.",
+   "English step 3 refers to 'the remaining water', which does not exist in the recipe, and it does not match the Turkish step 3 ('birkaç damla su ekleyin')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -22,7 +22,7 @@
    "75 g ince toz şeker",
    "1 tatlı kaşığı vanilya özü",
    "1/2 tatlı kaşığı öğütülmüş muskat",
-   "1 bir tutam tuz",
+   "1 tutam tuz",
    "1 yemek kaşığı demerara şekeri (üst için)"
   ],
   "en": [
@@ -48,7 +48,7 @@
    "Karışımı ekmeklerin üzerine yavaşça dökün ve ekmeklerin sıvıyı emmesi için yaklaşık 20 dakika bekleyin. Gerekirse üstteki birkaç ekmek parçasını bastırarak batırın.",
    "Üzerine demerara şekerini serpin ve kabı fırın tepsisine koyun.",
    "Önceden ısıtılmış fırında 35 ila 40 dakika pişirin. Puding üstü altın rengi olunca ve ortası hafifçe sallanıp artık sıvı görünmeyince fırından çıkarın.",
-   "Sıcak servis yapın. İsterseniz krem fraiche veya krema ile birlikte ikram edebilirsiniz."
+   "Sıcak servis yapın. İsterseniz krem fraş veya krema ile birlikte ikram edebilirsiniz."
   ],
   "en": [
    "Preheat the oven to 180°C and grease the inside of an ovenproof dish of about 1.2 litres with butter.",
@@ -65,5 +65,14 @@
   "tr": "Bayat ekmek, taze ekmeğe göre sıvıyı daha iyi emer ve puding daha kıvamlı olur. Taze ekmek kullanıyorsanız dilimleri birkaç saat açıkta bekletin.",
   "en": "Stale bread soaks up the custard better than fresh, giving a firmer texture. If you only have fresh bread, leave the slices out for a few hours first."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient quantity \"1 bir tutam tuz\" is ungrammatical; it should be \"1 tutam tuz\".",
+   "Turkish final step uses the French form \"krem fraiche\"; the standard Turkish term is \"krem fraş\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

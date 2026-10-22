@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Mayalanma süresi mutfağın sıcaklığına göre değişir; hamuru fırının ışığı açık ve kapalı fırında bekletmek ideal bir ortam sağlar.",
+  "tr": "Mayalanma süresi mutfağın sıcaklığına göre değişir; bu nedenle süreye değil hacme bakın. Işığı yanan ancak ısıtıcısı kapalı bir fırın, hamur için ılık ve ideal bir ortam sağlar.",
   "en": "Rising time depends on your kitchen temperature, so judge by volume rather than the clock; a lightly warm spot such as an oven with only the light on works well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip sentence is unnatural and unclear: 'fırının ışığı açık ve kapalı fırında bekletmek' mixes the oven light with an oven that is off, and the meaning is hard to follow."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

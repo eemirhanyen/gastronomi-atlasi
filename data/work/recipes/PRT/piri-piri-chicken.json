@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Piri piri biberlerinin sapını alın, tohumlarıyla birlikte doğrayın ve sarımsakla birlikte blenderda ezin.",
+   "Piri piri biberlerinin sapını alın, tohumlarıyla birlikte doğrayın ve sarımsakla birlikte blenderda çekin.",
    "Blenderdaki karışıma zeytinyağı, limon suyu, sirke, tatlı kırmızı toz biber, kekik, tuz ve karabiberi ekleyip pürüzsüz bir marinat elde edin.",
    "Tavuk parçalarını kağıt havluyla kurulayın, bıçakla derinlemesine birkaç kez çizin ve marinatı her yere iyice sürün.",
    "Üzerini örtün ve buzdolabında en az 2 saat, tercihen bir gece boyunca bekletin.",
@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Biberin acılığını ayarlamak için tohumlarını çıkarın; daha yumuşak bir tat için 2 biber yerine 3 biberi tohumsuz kullanmak yeterlidir.",
+  "tr": "Biberin acılığını ayarlamak için tohumlarını çıkarın; daha yumuşak bir tat için tohumları çıkarılmış biberleri kullanmak yeterlidir. Daha ateşli bir sonuç için tohumlu biber kullanın.",
   "en": "Remove the seeds for a milder heat, or use more chilies with the seeds left in for a fiercer result; serve extra piri-piri sauce on the side for guests."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip refers to replacing 2 chilies with 3, but the recipe calls for about 6 chilies. The English tip has no such statement, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

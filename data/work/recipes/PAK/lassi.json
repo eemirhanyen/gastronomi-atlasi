@@ -34,7 +34,7 @@
  "steps": {
   "tr": [
    "Antep fıstıklarını ince ince doğrayın ve küçük bir tabakta bir kenara ayırın.",
-   "Yoğurdu blenderın kabına veya geniş bir kaseye koyun.",
+   "Yoğurdu blenderin kabına veya geniş bir kaseye koyun.",
    "Şekeri, öğütülmüş kakuleyi, gül suyunu ve soğuk suyu yoğurdun üzerine ekleyin.",
    "Karışımı blenderde 1 dakika kadar, pürüzsüz ve hafif köpüklü olana kadar çalıştırın. Kase kullanıyorsanız çırpıcıyla güzelce çırpın.",
    "Buz küplerini ekleyip 20 saniye daha karıştırın. Buzun tamamen kırılması, içeceğin hafif köpüklü ve serin kalması gerekir.",
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Yoğurt ne kadar kalın olursa lassi o kadar kremsi olur; sulu bir yoğurt kullanıyorsanız birkaç saat bezde süzerek fazla suyunu alın.",
+  "tr": "Yoğurt ne kadar kalın olursa lassi o kadar kremsi olur; sulu bir yoğurt kullanıyorsanız birkaç saat tülbentte süzerek fazla suyunu alın.",
   "en": "The thicker the yogurt, the creamier the lassi; if your yogurt is thin, strain it through muslin for a few hours to remove excess whey."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a vowel-harmony error: \"blenderın\" should be \"blenderin\".",
+   "Turkish tip uses \"bezde süzerek\"; \"tülbentte süzün\" is the natural term for muslin straining."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

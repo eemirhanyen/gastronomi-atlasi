@@ -5,11 +5,11 @@
  },
  "native": "Kontomire",
  "desc": {
-  "tr": "Gana'da, özellikle Akan bölgelerinde, kakao yaprağına benzer kokocayam (taro) yapraklarıyla yapılan, palmiye yağlı ve kurutulmuş karidesli bir yahni. Ailece yenen günlük bir ana yemektir ve fufu, banku ya da pirinçle servis edilir.",
+  "tr": "Gana'da, özellikle Akan bölgelerinde, kokocayam (taro) yapraklarıyla yapılan, palmiye yağlı ve kurutulmuş karidesli bir yahni. Ailece yenen günlük bir ana yemektir ve fufu, banku ya da pirinçle servis edilir.",
   "en": "A palm oil stew made with cocoyam (taro) leaves, dried crayfish and smoked fish, popular across Ghana, especially among the Akan peoples. It is an everyday family main, served with fufu, banku or rice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -25,6 +25,7 @@
    "2 yemek kaşığı domates salçası (30 g)",
    "30 g öğütülmüş kurutulmuş karides",
    "500 ml su",
+   "Yaprakları haşlamak için yaklaşık 1 litre su",
    "1 çay kaşığı tuz, tadına göre ayarlanacak"
   ],
   "en": [
@@ -40,6 +41,7 @@
    "2 tbsp tomato paste (30 g)",
    "30 g ground dried crayfish",
    "500 ml water",
+   "About 1 litre water for boiling the leaves",
    "1 tsp salt, adjusted to taste"
   ]
  },
@@ -48,7 +50,7 @@
    "Dana etini, ikiye bölünmüş soğanı, zencefilin yarısını, 1/2 çay kaşığı tuzu ve 500 ml suyu geniş bir tencereye koyun. Kısık ateşte et yumuşayana kadar yaklaşık 40 dakika pişirin.",
    "Bu sırada kontomire yapraklarını iyice yıkayın, kalın sapları ayırın ve ince ince doğrayın. Ayrı bir tencerede kaynayan suda yaklaşık 15 dakika haşlayın, süzün.",
    "Domatesleri, kıyılmış soğanı, Scotch bonnet biberi, sarımsağı ve kalan zencefili blender'da pürüzsüz olana kadar çekin.",
-   "Palmiye yağını büyük bir tavada ısıtın. Blenderdan çıkan karışımı ekleyin ve yağ üste yüzene, hamlık kokusu kalkana kadar yaklaşık 15-20 dakika karıştırarak kavurun.",
+   "Palmiye yağını büyük bir tavada ısıtın. Blenderdan çıkan karışımı ekleyin ve yağ üste yüzene, domatesin çiğ kokusu kalkana kadar yaklaşık 15-20 dakika karıştırarak kavurun.",
    "Domates salçasını ekleyip 2 dakika daha kavurun. Öğütülmüş karidesi ve ufalanmış tütsülenmiş uskumruyu ekleyin.",
    "Pişmiş dana eti parçalarını ve et suyundan yaklaşık 200 ml'yi tavaya aktarın. 10 dakika birlikte kaynatın.",
    "Doğranmış yaprakları ekleyin ve açık tencerede, yapraklar yumuşayıp sos kıvamlanana kadar yaklaşık 15-20 dakika pişirin. Tuzunu kontrol edip ayarlayın ve fufu, banku ya da pirinçle sıcak servis yapın."
@@ -57,7 +59,7 @@
    "Put the beef, the halved onion, half the ginger, 1/2 tsp salt and 500 ml water in a large pot. Simmer gently for about 40 minutes until the beef is tender.",
    "Meanwhile, wash the kontomire leaves well, remove the thick stems and chop the leaves finely. Boil them in a separate pot of water for about 15 minutes, then drain.",
    "Blend the tomatoes, chopped onion, scotch bonnet, garlic and remaining ginger until completely smooth.",
-   "Heat the palm oil in a large pan. Add the blended mixture and fry, stirring, for 15-20 minutes until the oil rises to the surface and the raw smell is gone.",
+   "Heat the palm oil in a large pan. Add the blended mixture and fry, stirring, for 15-20 minutes until the oil rises to the surface and the raw tomato smell is gone.",
    "Stir in the tomato paste and fry for 2 minutes more. Add the ground crayfish and the flaked smoked mackerel.",
    "Transfer the cooked beef pieces and about 200 ml of the cooking liquid into the pan. Simmer together for 10 minutes.",
    "Add the chopped leaves and cook uncovered for 15-20 minutes until they are soft and the stew has thickened. Taste, adjust the salt, and serve hot with fufu, banku or rice."
@@ -67,5 +69,16 @@
   "tr": "Kokocayam yapraklarını çiğ yemeyin; kalsiyum oksalat içerirler, bu yüzden iyice pişirilmeleri şarttır. Bulamazsanız ıspanak iyi bir alternatiftir.",
   "en": "Never eat cocoyam leaves raw; they contain calcium oxalate, so cook them thoroughly. Spinach is a good substitute if you cannot find them."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description compares kontomire to cocoa leaves (\"kakao yaprağına benzer\"), which is inaccurate and not in the English version",
+   "time_min (60) is too short: the beef alone takes about 40 minutes and the frying, leaf cooking and final simmer add more, so the total is closer to 75 minutes",
+   "Step 2 boils the leaves in a separate pot of water, but no water for this is listed in the ingredients",
+   "Turkish step 4 phrase \"hamlık kokusu\" is unnatural; \"domatesin çiğ kokusu\" is the correct term"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -44,7 +44,7 @@
    "Bir tencerede suyu, tarçını, karanfilleri, muskatı ve portakal kabuğunu birlikte orta-yüksek ateşte kaynatın.",
    "Ateşi kısın ve baharatları 5 dakika kadar demlenmeye bırakın.",
    "Öğütülmüş kakao toplarını ekleyin ve sürekli karıştırarak eriyene kadar pişirin.",
-   "Karışımı yavaş yavaş 15 dakika kadar kaynatmadan, hafif kaynayan bir ateşte pişirin; kakaonun tencere dibine yapışmamasına dikkat edin.",
+   "Karışımı hafifçe kaynayan bir ateşte yaklaşık 15 dakika pişirin; şiddetli kaynatmayın ve kakaonun tencere dibine yapışmaması için sık karıştırın.",
    "Şekeri ve bir tutam tuzu ekleyip karıştırarak eritin.",
    "Ocağı çok kısın, buharlaştırılmış sütü ve yoğunlaştırılmış sütü ilave edin.",
    "Vanilya özünü ekleyin ve karışımı 3-4 dakika, kaynatmadan ısıtın.",
@@ -67,5 +67,13 @@
   "tr": "Kakao toplarının yoksa 40 g sade kakao tozu ile 30 g bitter çikolatayı birlikte kullanabilirsin; tadı yerel versiyona yakın olur.",
   "en": "If cocoa balls are unavailable, use 40 g unsweetened cocoa powder with 30 g dark chocolate for a result close to the local version."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 is self-contradictory: 'kaynatmadan, hafif kaynayan bir ateşte' means both 'without boiling' and 'at a gently boiling heat'. The English says 'simmer gently... without letting it boil h"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -46,7 +46,7 @@
    "Fırın kabının tabanına pişmiş hamurun yarısını dizin. Üzerine kuru üzüm, fıstık ve hindistan cevizinin yarısını serpin.",
    "Kalan hamuru ekleyin, sonra kalan kuru üzüm, fıstık ve hindistan cevizini üstüne yayın.",
    "Ilık sütlü karışımı yavaşça hamurun üzerine dökün ve yaklaşık 5 dakika bekletin ki hamur sütü emsin.",
-   "180°C'deki fırında üst yüzeyi altın rengi alana ve sıvı büyük ölçüde çekilene kadar 15-20 dakika pişirin.",
+   "Fırın ısısını 180°C'ye düşürün ve üst yüzey altın rengi alana ve sıvı büyük ölçüde çekilene kadar 15-20 dakika pişirin.",
    "Üzerine tarçın serperek sıcak servis yapın."
   ],
   "en": [
@@ -57,7 +57,7 @@
    "Arrange half of the baked pastry in the bottom of an ovenproof dish. Scatter over half of the raisins, nuts and coconut.",
    "Add the remaining pastry, then spread the rest of the raisins, nuts and coconut on top.",
    "Slowly pour the warm milk mixture over the pastry and leave it for about 5 minutes so the pastry absorbs the milk.",
-   "Bake at 180°C for 15-20 minutes until the top is golden and most of the liquid has been absorbed.",
+   "Reduce the oven temperature to 180°C and bake for 15-20 minutes until the top is golden and most of the liquid has been absorbed.",
    "Dust with cinnamon and serve warm."
   ]
  },
@@ -65,5 +65,13 @@
   "tr": "Sütü ılık kullanmak, hamurun dağılmadan sütü daha iyi emmesini sağlar; fırına girmeden önce sütün tamamen soğumadığından emin olun.",
   "en": "Using warm rather than hot milk helps the pastry soak up the liquid evenly without turning mushy, so pour it gently over the layers."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oven temperature is inconsistent: the recipe preheats to 200°C, then bakes at 180°C without telling the cook to lower the setting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -15,16 +15,18 @@
   "tr": [
    "500 g yapışkan pirinç (glutinous rice)",
    "1 adet lao lao maya topu (yaklaşık 10 g), ince toz haline getirilmiş",
-   "800 ml kaynatılıp soğutulmuş su",
+   "100 ml kaynatılıp soğutulmuş su",
    "1 temiz cam kavanoz (yaklaşık 2 litre), kapağı gevşek kapatılabilir olmalı",
-   "1 temiz bez veya kağıt havlu, kavanozun ağzını örtmek için"
+   "1 temiz bez veya kağıt havlu, kavanozun ağzını örtmek için",
+   "1 adet lastik bant, bezi sabitlemek için"
   ],
   "en": [
    "500 g glutinous (sticky) rice",
    "1 lao lao yeast ball (about 10 g), crushed into a fine powder",
-   "800 ml boiled and cooled water",
+   "100 ml boiled and cooled water",
    "1 clean glass jar (about 2 litres) with a loose-fitting lid",
-   "1 clean cloth or paper towel to cover the jar opening"
+   "1 clean cloth or paper towel to cover the jar opening",
+   "1 elastic band to secure the cloth"
   ]
  },
  "steps": {
@@ -57,5 +59,14 @@
   "tr": "Kavanozu, maya ve pirinç kullanmadan önce kaynar suyla iyice sterilize edin; küf veya ekşi koku görürseniz tüm karışımı atın.",
   "en": "Sterilise the jar with boiling water before use; if you see mould or smell rot rather than sweet-sour fermentation, discard the whole batch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity (800 ml) is far too much for 500 g rice: the steps say to only lightly moisten the rice without drowning it, which contradicts the amount listed.",
+   "An elastic band is used in the steps (securing the cloth) but is not listed in the ingredients in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

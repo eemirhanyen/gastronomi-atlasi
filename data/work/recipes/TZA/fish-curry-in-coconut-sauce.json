@@ -31,7 +31,7 @@
    "2 yemek kaşığı doğranmış taze kişniş yaprağı"
   ],
   "en": [
-   "800 g firm white fish fillets (such as kingfish, snapper or tilapia), cut into 6 cm pieces",
+   "800 g firm white fish fillets (such as swordfish, snapper or tilapia), cut into 6 cm pieces",
    "1 lemon, juiced",
    "1 tsp salt, divided",
    "1/2 tsp ground turmeric",
@@ -75,5 +75,13 @@
   "tr": "Balığı sosa koyduktan sonra karıştırmayın; parçalar dağılmadan bütün kalır ve sos kaşıkla üzerine gezdirilerek pişirilir.",
   "en": "Once the fish is in the sauce, avoid stirring; spooning the sauce over it keeps the pieces intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fish names disagree: the Turkish list says 'kılıç balığı' (swordfish), but the English list says 'kingfish', which is a different fish. The English should match the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

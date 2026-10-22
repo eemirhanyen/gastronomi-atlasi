@@ -9,7 +9,7 @@
   "en": "A creamy meze of chickpeas, tahini, lemon and garlic. In Qatar and across the Gulf it is served with bread at breakfast, lunch and when guests visit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   " Islatılmış nohutu süzün, bol suyla durulayın ve bir tencereye alın. Karbonatı ekleyip üzerini 1,5 litre suyla örtün.",
+   "Islatılmış nohutu süzün, bol suyla durulayın ve bir tencereye alın. Karbonatı ekleyip üzerini 1,5 litre suyla örtün.",
    "Orta-yüksek ateşte kaynatın, köpükleri alın. Ateşi kısın ve nohut çok yumuşayana kadar, yaklaşık 60-75 dakika pişirin; ara ara su kontrolü yapın.",
    "Nohut pişince süzün ve pişirme suyundan 120 ml ayırın. Süslemek için 2 yemek kaşığı bütün nohudu kenara alın.",
    "Sarımsakları ince ince doğrayın, tuzla birlikte havanda ezin ya da rendeleyin.",
@@ -69,5 +69,13 @@
   "tr": "Nohutu pişirirken karbonat eklemek kabuklarını yumuşatır ve humusun çok daha pürüzsüz olmasını sağlar.",
   "en": "Adding baking soda while cooking the chickpeas softens their skins, which makes the hummus much smoother."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is shorter than the stated cooking time: simmering alone takes 60-75 minutes, plus prep and blending. Corrected to 90 (soaking time excluded)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

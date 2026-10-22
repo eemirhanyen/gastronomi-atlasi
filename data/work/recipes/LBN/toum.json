@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Tuum (Lübnan sarımsaklı sosu)",
+  "tr": "Toum (Lübnan sarımsaklı sosu)",
   "en": "Toum (Lebanese garlic sauce)"
  },
  "native": "ثوم",
  "desc": {
-  "tr": "Lübnan mutfağının beyaz, kremamsı sarımsak sosudur; şiş kebap, tavuk ve pide gibi ızgaralarla birlikte sofraya gelir ve genellikle Lübnan'ın aile sofralarında ve restoranlarında servis edilir.",
+  "tr": "Lübnan mutfağının beyaz, kremamsı sarımsak sosudur; şiş kebap ve tavuk gibi ızgaralarla birlikte sofraya gelir ve genellikle Lübnan'ın aile sofralarında ve restoranlarında servis edilir.",
   "en": "A white, creamy garlic sauce from Lebanese cuisine, served with grilled meats such as shish kebab and chicken, and found on family tables and in restaurants across Lebanon."
  },
  "servings": 4,
@@ -46,8 +46,17 @@
   ]
  },
  "tip": {
-  "tr": "Yağ ve sarımsak oda sıcaklığında olmalı; sos ayrışırsa birkaç damla buz gibi su veya yeni bir yemek kaşığı sos ile yeniden çırparak kurtarabilirsiniz.",
+  "tr": "Yağ ve sarımsak oda sıcaklığında olmalı; sos ayrışırsa birkaç damla buz gibi su veya temiz bir kapta bir yemek kaşığı hazır sos ile yeniden çırparak kurtarabilirsiniz.",
   "en": "Use ingredients at room temperature; if the sauce splits, whisk in a few drops of ice water or a spoonful of fresh sauce in a clean bowl to bring it back together."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name has a spelling error: 'Tuum' should be 'Toum'.",
+   "Turkish description lists 'pide' as a pairing, which the English version omits. Pide is a Turkish bread, not a standard Lebanese accompaniment for toum, so the Turkish text is also culinarily inaccura"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

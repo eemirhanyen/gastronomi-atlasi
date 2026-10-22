@@ -6,10 +6,10 @@
  "native": "Soupe d'arachide",
  "desc": {
   "tr": "Gabon'un günlük yemeklerinden olan, kızarmış tavuk, domates, soğan ve fıstık ezmesiyle hazırlanan kremsi bir çorbadır. Genellikle öğle ve akşam yemeğinde beyaz pirinçle servis edilir.",
-  "en": "A creamy, hearty stew-soup from Gabon, made with chicken, tomato, onion and peanut butter. It is a everyday family dish, usually served at lunch or dinner with white rice."
+  "en": "A creamy, hearty stew-soup from Gabon, made with chicken, tomato, onion and peanut butter. It is an everyday family dish, usually served at lunch or dinner with white rice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,14 @@
   "tr": "Fıstık ezmesini doğrudan tencereye koymak topaklanmaya neden olur; önce ılık suyla iyice açmak çorbanın pürüzsüz kalmasını sağlar.",
   "en": "Never add peanut butter straight into the pot; thinning it with warm water first keeps the soup smooth and prevents lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the steps alone total about 77 minutes of cooking before prep and rice, so it should be about 90",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

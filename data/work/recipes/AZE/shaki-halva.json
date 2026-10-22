@@ -9,7 +9,7 @@
   "en": "A traditional sweet from the city of Shaki in Azerbaijan, made from butter-toasted flour and sugar syrup and topped with nuts. It is served with tea during holidays, weddings, and when guests are welcomed."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -18,6 +18,7 @@
    "300 g toz şeker",
    "200 ml su",
    "1 tutam safran (yaklaşık 0,1 g)",
+   "2 yemek kaşığı sıcak su (safran için)",
    "2 çay kaşığı öğütülmüş kakule",
    "60 g ceviz içi",
    "40 g badem içi",
@@ -30,6 +31,7 @@
    "300 g caster sugar",
    "200 ml water",
    "1 pinch saffron (about 0.1 g)",
+   "2 tbsp hot water (for the saffron)",
    "2 tsp ground cardamom",
    "60 g walnut halves",
    "40 g blanched almonds",
@@ -43,7 +45,7 @@
    "Ceviz, badem ve Antep fıstığını ayrı ayrı kabaca doğrayın, bir kısmını süsleme için ayırın.",
    "Tereyağının yarısını geniş bir tavada orta-düşük ateşte eritin, unu ekleyip sürekli karıştırarak 15-20 dakika, altın sarısı ve kokulu olana kadar kavurun.",
    "Ayrı bir tencerede şeker ve 200 ml suyu karıştırıp orta ateşte kaynatın, şeker tamamen eriyince 3 dakika daha kaynatıp ocaktan alın.",
-   "Kavrulmuş una kakuleyi, tuzu ve safranlı suyu ekleyin, ardından sıcak şerbeti yavaş yavaş dökerek tahta kaşıkla hızlıca karıştırın.",
+   "Kavrulmuş una kakuleyi, tuzu ve safranlı suyu ekleyin, ardından ılımış (hafif sıcak) şerbeti yavaş yavaş dökerek tahta kaşıkla hızlıca karıştırın.",
    "Kalan tereyağını eritip karışıma ekleyin ve pürüzsüz, sıkılabilir bir hamur elde edene kadar yoğurun.",
    "Hamuru hafifçe yağlanmış bir kalıba veya tepsiye 1,5 cm kalınlığında bastırarak yayın.",
    "Doğranmış ceviz, badem ve fıstıkla hafifçe üzerini süsleyip bastırın.",
@@ -54,7 +56,7 @@
    "Roughly chop the walnuts, almonds and pistachios separately, and set aside some for decoration.",
    "Melt half the butter in a wide pan over medium-low heat, add the flour and stir constantly for 15–20 minutes until golden and fragrant.",
    "In a separate saucepan, combine the sugar and 200 ml water and bring to a boil over medium heat; once the sugar has dissolved, simmer for 3 more minutes and remove from the heat.",
-   "Add the cardamom, salt and saffron water to the toasted flour, then gradually pour in the hot syrup while stirring briskly with a wooden spoon.",
+   "Add the cardamom, salt and saffron water to the toasted flour, then gradually pour in the warm (slightly cooled) syrup while stirring briskly with a wooden spoon.",
    "Melt the remaining butter and add it to the mixture, kneading until it forms a smooth, pliable dough.",
    "Press the dough evenly into a lightly greased tin or tray to a thickness of about 1.5 cm.",
    "Scatter the chopped walnuts, almonds and pistachios over the top and press them gently into the surface.",
@@ -65,5 +67,15 @@
   "tr": "Şerbeti una dökerken karışımın fışkırmaması için kaynar şerbeti değil, hafif ılıyana kadar bekletilmiş şerbeti kullanın.",
   "en": "Let the syrup cool slightly before adding it to the flour; very hot syrup can splatter and makes the dough harder to shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Saffron step uses 2 tablespoons of hot water, but this water is not listed in the ingredients (tr and en).",
+   "Step 5 says to add 'hot' syrup, which contradicts the tip advising the syrup be cooled slightly before adding it to the flour (tr and en).",
+   "time_min of 60 is too short: toasting takes 15-20 min, the syrup about 10 min, kneading and pressing about 10 min, plus at least 30 min of cooling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

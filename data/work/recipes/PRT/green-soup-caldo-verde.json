@@ -43,7 +43,7 @@
    "Chouriço'yu ince yuvarlaklar halinde dilimleyin. Bir tavada yağ salmadan birkaç dakika kızartıp yağını çıkarın, sonra çorbaya ekleyin ve 5 dakika kaynatın.",
    "Lahananın sert saplarını ayıklayın. Yaprakları çok ince şeritler halinde kıyın.",
    "Lahana şeritlerini çorbaya ekleyin ve 3-4 dakika, yeşil rengini koruyacak kadar pişirin. Ateşi kapatın.",
-   "Servis kaplarına alın, her kaseye bir çay kaşığı zeytinyağı gezdirin. Dilerseniz üzerine karabiber serpin ve sıcak servis yapın."
+   "Servis kaplarına alın, her kaseye bir yemek kaşığı zeytinyağı gezdirin. Dilerseniz üzerine karabiber serpin ve sıcak servis yapın."
   ],
   "en": [
    "Peel the potatoes and cut them into quarters. Finely chop the onion and garlic.",
@@ -52,12 +52,20 @@
    "Slice the chouriço into thin rounds. Fry them in a dry pan for a few minutes to render their fat, then add them to the soup and simmer for 5 minutes.",
    "Remove the tough stems from the kale. Cut the leaves into very thin ribbons.",
    "Add the kale ribbons to the soup and cook for 3 to 4 minutes, just until they turn bright green. Turn off the heat.",
-   "Ladle into serving bowls and drizzle each with a teaspoon of olive oil. Add black pepper if you like, and serve hot."
+   "Ladle into serving bowls and drizzle each with a tablespoon of olive oil. Add black pepper if you like, and serve hot."
   ]
  },
  "tip": {
   "tr": "Lahanayı servisten hemen önce ince kıyın ve kısa süre pişirin; böylece parlak yeşil rengini ve taze tadını korur.",
   "en": "Shred the kale very finely and cook it only briefly, so it keeps its bright green colour and fresh flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Olive oil quantity mismatch: 60 ml is listed, but the steps use only one teaspoon (about 5 ml) per bowl for 4 servings (about 20 ml total), so most of the oil is never used. Changed the drizzle to one"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

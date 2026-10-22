@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Seviç",
+  "tr": "Seviçe",
   "en": "Ceviche"
  },
  "native": "Ceviche",
@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g taze beyaz balık fileto (levrek veya çipura), derisi alınmış, 1 cm küp doğranmış",
+   "500 g taze beyaz balık fileto (levrek veya korvina), derisi alınmış, 1 cm küp doğranmış",
    "150 ml taze misket limonu suyu (yaklaşık 6-8 limon)",
    "6 g tuz (yaklaşık 1 tatlı kaşığı)",
    "1 küçük kırmızı soğan (yaklaşık 100 g), ince dilimlenmiş",
@@ -55,5 +55,14 @@
   "tr": "Yalnızca çok taze, dondurulmamış ve balık restoranlarından ya da güvenilir bir balıkçıdan alınmış balık kullanın; balığı marine etmeden önce mutlaka soğuk tutun.",
   "en": "Use only very fresh fish from a trusted fishmonger and keep everything cold throughout, as the lime juice cures the fish but does not replace proper food safety."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fish species mismatch: the Turkish ingredient lists 'çipura' (sea bream), but the English lists 'corvina', which is not sea bream. The two versions should name the same fish.",
+   "Turkish dish name 'Seviç' is unnatural; the common Turkish spelling is 'Seviçe'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

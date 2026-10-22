@@ -43,12 +43,12 @@
  },
  "steps": {
   "tr": [
-   "Kırmızı mercimeği soğuk suyla su berrak akana kadar yıkayın ve süzün.",
+   "Kırmızı mercimeği soğuk suyun altında, su berrak akana kadar yıkayın ve süzün.",
    "Geniş bir tencerede zeytinyağını orta ateşte ısıtın. Doğranmış soğanı ekleyip 6-8 dakika, yumuşayıp altın rengi alana kadar kavurun.",
    "Havuç ve patatesi ekleyip karıştırarak 3 dakika daha pişirin.",
    "Domates salçası ve kimyonu ekleyip 1 dakika, kokusu çıkana kadar kavurun.",
    "Mercimeği ve suyu ekleyin. Kaynayınca ateşi kısın, kapağı yarı açık bırakarak mercimek ve patates çok yumuşayana kadar 25-30 dakika pişirin.",
-   "Çorbayı el blenderıyla pürüzsüz hale gelene kadar çekin; isterseniz hafif dokulu bırakabilirsiniz. Gerekirse tekrar kısık ateşte ısıtın.",
+   "Çorbayı el blenderiyle pürüzsüz hale gelene kadar çekin; isterseniz hafif dokulu bırakabilirsiniz. Gerekirse tekrar kısık ateşte ısıtın.",
    "Tuz, karabiber ve 40 ml limon suyuyla tatlandırın, damak zevkinize göre ayarlayın.",
    "Sıcak servis yapın; yanında limon dilimleri ile birlikte sunun."
   ],
@@ -67,5 +67,14 @@
   "tr": "Çorba çok koyulaşırsa sıcak su ekleyin; limonu servisten hemen önce ekleyin ki tazeliği korunsun.",
   "en": "If the soup thickens too much, add hot water; add the lemon just before serving so it stays fresh and bright."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a garbled phrase: 'soğuk suyla su berrak akana kadar' repeats 'su' and reads unnaturally.",
+   "Turkish step 6 has a typo: 'el blenderıyla' uses a dotless ı where the correct form is 'el blenderiyle'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

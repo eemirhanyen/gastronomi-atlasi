@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Kendi çekirdeklerinizi değil, sadece erik etini kullanın; eriklerin olgunluğu aromayı belirler. Gerçek pálinka için damıtım lisanslı bir üreticiden temin edilmelidir.",
+  "tr": "Çekirdekleri değil, yalnızca erik etini kullanın; eriklerin olgunluğu aromayı belirler. Gerçek pálinka için damıtım lisanslı bir üreticiden temin edilmelidir.",
   "en": "Use only the plum flesh, not the stones, and choose fully ripe fruit for the best aroma. Authentic pálinka must be made by a licensed distiller; this infusion is a home-kitchen alternative."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip wording is unnatural and muddles the meaning: \"Kendi çekirdeklerinizi değil\" reads as \"not your own kernels\" rather than \"not the stones\". The English version says \"not the stones\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

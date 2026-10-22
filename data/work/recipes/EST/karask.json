@@ -19,7 +19,7 @@
    "160 ml ılık su",
    "15 g tereyağı, eritilmiş",
    "40 g inci arpa (kuru)",
-   "250 g patates (yaklaşık 2 orta boy)",
+   "250 g patates (yaklaşık 2 orta boy), soyulmuş",
    "1 küçük soğan (yaklaşık 60 g), ince doğranmış",
    "30 g tereyağı",
    "60 ml tam yağlı süt",
@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "İnci arpayı iyice yıkayın, 400 ml suda yumuşayana kadar yaklaşık 40 dakika kaynatın. Süzün ve soğumaya bırakın.",
-   "Patatesleri haşlayın, süzüp sıcakken tereyağı ve sütle birlikte ezin. Yarım çay kaşığı tuz ve karabiberle tatlandırın.",
+   "Patatesleri haşlayın, süzüp sıcakken sütle birlikte ezin. Yarım çay kaşığı tuz ve karabiberle tatlandırın.",
    "Tavada 30 g tereyağını eritin, doğranmış soğanı yumuşayıp hafifçe renk almaya başlayana kadar yaklaşık 5 dakika soteleyin.",
    "Soğanı, pişmiş arpayı ve ezilmiş patatesi karıştırın. Tadını kontrol edin ve iç harcı soğumaya bırakın.",
    "Çavdar unu, buğday unu ve tuzu geniş bir kaba alın. Ilık suyu ve eritilmiş tereyağını ekleyip yumuşak, pürüzsüz bir hamur yoğurun. Üzerini örtüp 15 dakika dinlendirin.",
@@ -58,7 +58,7 @@
   ],
   "en": [
    "Rinse the pearl barley well, then simmer in 400 ml water for about 40 minutes until tender. Drain and leave to cool.",
-   "Boil the potatoes until soft, drain, then mash while hot with 30 g butter and the milk. Season with the 1/2 tsp salt and black pepper.",
+   "Boil the potatoes until soft, drain, then mash while hot with the milk. Season with the 1/2 tsp salt and black pepper.",
    "Melt 30 g butter in a pan and soften the chopped onion over medium heat for about 5 minutes, until translucent and lightly golden.",
    "Stir the cooked barley and onion into the mashed potato. Taste and adjust seasoning, then let the filling cool.",
    "Combine the rye flour, wheat flour and salt in a large bowl. Add the lukewarm water and melted butter and knead into a soft, smooth dough. Cover and rest for 15 minutes.",
@@ -73,5 +73,15 @@
   "tr": "Hamuru çok ince açın ama delmeden çalışın; iç harcın soğuk olması kenarların yırtılmasını önler.",
   "en": "Roll the dough thin without tearing it, and make sure the filling is cool before shaping so the edges hold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tereyağı miktarı iki kez kullanılıyor: 30 g tereyağı hem patates püresinde (adım 2) hem soğanı soteleme adımında (adım 3) geçiyor, ama malzeme listesinde yalnızca bir 30 g girişi var.",
+   "İngilizce malzeme listesi patatesleri 'peeled' (soyulmuş) olarak belirtiyor, Türkçe listede bu bilgi yok.",
+   "Türkçe ve İngilizce adım 2, püreye tereyağı eklendiğini söylüyor; bu da yukarıdaki iki kullanımı çelişkili kılıyor."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -42,8 +42,8 @@
    "Soğanın üzerine sirkeyi, yağı, karabiberi ve kimyonu ekleyip iyice karıştırın.",
    "Et küplerini soğanlı marinenin içine atın, elinizle iyice bulaştırın ve kapağını kapatarak buzdolabında en az 30 dakika dinlendirin.",
    "Közü veya ızgarayı orta-yüksek ateşe getirin (yaklaşık 200 °C).",
-   "Etleri ve soğanları şişlere sırayla dizin; her şişe yaklaşık 5-6 küp et takın ve parçalar arasında hafif boşluk bırakın.",
-   "Şişleri ızgaraya yerleştirin ve 10-12 dakika boyunca her 2-3 dakikada bir çevirerek her yüzü kızarana kadar pişirin. Etin iç sıcaklığı yaklaşık 63 °C olmalıdır.",
+   "Etleri ve soğanları şişlere sırayla dizin; her şişe yaklaşık 4 küp et takın ve parçalar arasında hafif boşluk bırakın.",
+   "Şişleri ızgaraya yerleştirin ve 10-12 dakika boyunca her 3-4 dakikada bir çevirerek her yüzü kızarana kadar pişirin. Etin iç sıcaklığı yaklaşık 63 °C olmalıdır.",
    "Pişen şişleri yassı ekmeğin üzerine boşaltın, soğanları da ekleyerek sıcak servis yapın."
   ],
   "en": [
@@ -52,8 +52,8 @@
    "Add the vinegar, oil, black pepper and cumin to the onions and mix well.",
    "Add the lamb cubes to the onion marinade, coat them thoroughly with your hands, cover, and refrigerate for at least 30 minutes.",
    "Heat the charcoal or grill to medium-high (about 200 °C).",
-   "Thread the lamb and onion onto the skewers alternately, about 5-6 cubes per skewer, leaving a small gap between pieces.",
-   "Place the skewers on the grill and cook for 10-12 minutes, turning every 2-3 minutes until all sides are browned. The internal temperature of the lamb should reach about 63 °C.",
+   "Thread the lamb and onion onto the skewers alternately, about 4 cubes of lamb per skewer, leaving a small gap between pieces.",
+   "Place the skewers on the grill and cook for 10-12 minutes, turning every 3-4 minutes until all sides are browned. The internal temperature of the lamb should reach about 63 °C.",
    "Slide the cooked meat and onions off the skewers onto the flatbread and serve hot."
   ]
  },
@@ -61,5 +61,15 @@
   "tr": "Etin daha yumuşak ve lezzetli olması için marineyi en az 2 saat ya da bir gece önceden hazırlayın; ızgarada şişleri çok sık çevirmeyin ki yüzeyde güzel bir kızarma oluşsun.",
   "en": "For more tender, flavorful meat, marinate for 2 hours or overnight; on the grill, avoid turning the skewers too often so the surface develops a good char."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Quantity mismatch: 800 g of lamb cut into 3 cm cubes (about 27 g each) gives roughly 30 cubes, so 5-6 cubes on each of 8 skewers would need about 1.1-1.3 kg of meat.",
+   "Internal contradiction: the cooking step says to turn the skewers every 2-3 minutes, but the tip says not to turn them too often.",
+   "The Turkish and English versions carry the same two errors, so both were corrected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

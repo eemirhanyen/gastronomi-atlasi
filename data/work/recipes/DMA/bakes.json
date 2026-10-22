@@ -5,7 +5,7 @@
  },
  "native": "Bakes",
  "desc": {
-  "tr": "Dominika'da kahvaltıda ve öğle yemeğinde sık yenen, dışı çıtır içi yumuşak kızarmış bir hamur ekmeğidir. Genellikle tuzlu balık salatası (buljol) ya da peynirle birlikte servis edilir.",
+  "tr": "Dominika'da kahvaltıda ve öğle yemeğinde sık yenen, dışı çıtır içi yumuşak kızarmış bir hamur ekmeğidir. Genellikle tuzlu balık salatası (buljol), peynir ya da sadece tereyağıyla birlikte servis edilir.",
   "en": "A soft, fried dough bread eaten across Dominica for breakfast or lunch, with a crisp golden exterior and tender centre. It is most often served with saltfish, cheese, or simply butter."
  },
  "servings": 4,
@@ -59,5 +59,13 @@
   "tr": "Yağ sıcaklığını termometreyle kontrol edin; yağ çok sıcak olursa dış kısım yanıp iç kısım pişmeden kalabilir.",
   "en": "Keep the oil at a steady 170-180°C. If it is too hot, the outside will brown before the centre cooks through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description omits serving with butter, which the English description mentions (\"or simply butter\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

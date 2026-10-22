@@ -5,7 +5,7 @@
  },
  "native": "Ika tunu",
  "desc": {
-  "tr": "Tonga'da taze balığın limon suyu ve hindistan cevizi kremasıyla muz yaprağına sarılıp közde pişirildiği basit bir ana yemektir. Aile yemeklerinde, hafta sonu öğle sofralarında ve misafir ağırlamada sık sık servis edilir.",
+  "tr": "Tonga'da taze balığın misket limonu suyu ve hindistan cevizi kremasıyla muz yaprağına sarılıp közde pişirildiği basit bir ana yemektir. Aile yemeklerinde, hafta sonu öğle sofralarında ve misafir ağırlamada sık sık servis edilir.",
   "en": "A simple Tongan main in which fresh fish is marinated in lime juice, wrapped in banana leaves with coconut cream, and grilled over embers. It is served at family meals, Sunday lunches and when guests are received."
  },
  "servings": 4,
@@ -13,8 +13,8 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1 kg sert beyaz etli balık fileto (ör. lüfer benzeri kırmızı levrek veya mahi-mahi), 4 porsiyonluk parçalara ayrılmış",
-   "30 ml taze limon suyu (yaklaşık 2 limon)",
+   "1 kg sert beyaz etli balık fileto (ör. kırmızı levrek/snapper veya mahi-mahi), 4 porsiyonluk parçalara ayrılmış",
+   "30 ml taze misket limonu suyu (yaklaşık 2 misket limonu)",
    "5 g deniz tuzu (1 çay kaşığı)",
    "1 g karabiber (yaklaşık 1/2 çay kaşığı)",
    "80 g küçük kırmızı soğan, ince dilimlenmiş",
@@ -39,8 +39,8 @@
  },
  "steps": {
   "tr": [
-   "Balık parçalarını bir kasede limon suyu, tuz ve karabiberle karıştırıp oda sıcaklığında 15 dakika marine edin.",
-   "Izgarayı orta-yüksek ısıya (yaklaşık 180-200 °C) getirin. Muz yapraklarını bir kez alevden geçirerek yumuşatın ve silin, sonra bitkisel yağla hafifçe yağlayın.",
+   "Balık parçalarını bir kasede misket limonu suyu, tuz ve karabiberle karıştırıp oda sıcaklığında 15 dakika marine edin.",
+   "Izgarayı orta ısıya (yaklaşık 180-200 °C) getirin. Muz yapraklarını bir kez alevden geçirerek yumuşatın ve silin, sonra bitkisel yağla hafifçe yağlayın.",
    "Ayrı bir kapta kırmızı soğanı, acı biberi ve taze soğanı hindistan cevizi kremasıyla karıştırın.",
    "Her muz yaprağının ortasına bir parça balık koyun, üzerine kremalı karışımdan bir kaşık dolusu gezdirin.",
    "Yaprağı önce uzun kenarlardan, sonra uçlardan katlayarak sıkıca kapatın ve kürdan ya da ip ile sabitleyin.",
@@ -49,7 +49,7 @@
   ],
   "en": [
    "Mix the fish portions with the lime juice, salt and black pepper in a bowl and marinate at room temperature for 15 minutes.",
-   "Heat the grill to medium-high (about 180-200 °C). Pass each banana leaf briefly over a flame to soften it, wipe it clean, then lightly brush it with the vegetable oil.",
+   "Heat the grill to medium (about 180-200 °C). Pass each banana leaf briefly over a flame to soften it, wipe it clean, then lightly brush it with the vegetable oil.",
    "In a separate bowl, mix the red onion, chilli and spring onions with the coconut cream.",
    "Place one piece of fish in the centre of each banana leaf and spoon a generous amount of the coconut mixture over it.",
    "Fold the long sides of the leaf over the fish first, then fold in the ends to seal the parcel, securing it with a toothpick or string.",
@@ -61,5 +61,15 @@
   "tr": "Muz yaprağı yoksa folyo kullanın ve paketi ızgaranın kenarına değil, orta kısmına koyun; böylece balık kurumadan ve sosu korunarak pişer.",
   "en": "If banana leaves are unavailable, use foil and place the parcels in the centre of the grill rather than the edge so the fish cooks gently and keeps its sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish suggestion 'lüfer benzeri kırmızı levrek' is inaccurate: lüfer is an oily fish, not a firm white-fleshed one like the English 'snapper or mahi-mahi'.",
+   "Turkish 'limon' is used for the citrus, but the English says lime (Tongan ika tunu uses lime). Turkish should say 'misket limonu'.",
+   "Grill heat is labelled 'medium-high' while the temperature given (180-200 °C) is medium. The label and temperature should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

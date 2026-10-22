@@ -18,7 +18,7 @@
    "5 g tuz (1 çay kaşığı)",
    "2 g hızlı kabartma mayası (yaklaşık ½ çay kaşığı)",
    "15 g bal veya koyu şurup (1 yemek kaşığı)",
-   "2 g kimyon benzeri çörek otu veya kişniş tohumu (1 çay kaşığı, isteğe bağlı)",
+   "2 g kimyon veya rezene tohumu (1 çay kaşığı, isteğe bağlı)",
    "180 ml ılık su (yaklaşık 35 °C)",
    "20 g un (açma ve hamuru çalışmak için)"
   ],
@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Fırını 200 °C'ye ısıtın ve iki büyük fırın tepsisinin üzerine pişirme kağıdı serin.",
-   "Büyük bir kasede çavdar unu, buğday unu, tuzu, maya ve çörek otunu iyice karıştırın.",
+   "Büyük bir kasede çavdar unu, buğday unu, tuzu, maya ve kimyon veya rezene tohumunu (isteğe bağlı) iyice karıştırın.",
    "Balı ılık suda eritin, ardından un karışımına ekleyip elinizle yoğurmaya başlayın.",
    "Hamuru 5-7 dakika, pürüzsüz ama sert olmayan bir yapı alana kadar yoğurun.",
    "Kaseyi temiz bir bezle örtün ve hamuru 20 dakika dinlendirin.",
@@ -47,7 +47,7 @@
   ],
   "en": [
    "Preheat the oven to 200°C and line two large baking trays with baking paper.",
-   "In a large bowl, thoroughly mix the rye flour, wheat flour, salt, yeast and caraway seeds.",
+   "In a large bowl, thoroughly mix the rye flour, wheat flour, salt, yeast and caraway seeds (optional).",
    "Dissolve the honey in the lukewarm water, then add it to the flour mixture and start working it in with your hands.",
    "Knead the dough for 5-7 minutes until smooth but not stiff.",
    "Cover the bowl with a clean cloth and let the dough rest for 20 minutes.",
@@ -61,5 +61,14 @@
   "tr": "Hamuru ne kadar ince açarsanız çıtırlık o kadar iyi olur; ortası yumuşak kalırsa pişirme süresini birkaç dakika uzatın.",
   "en": "The thinner you roll the dough, the crisper the result; if the centres stay soft, bake for a few extra minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish seed ingredient is mistranslated: 'çörek otu' is nigella, not caraway, and 'kişniş' is coriander, not fennel. Turkish should say kimyon or rezene (caraway or fennel).",
+   "Turkish step 2 says 'çörek otunu' (nigella), inconsistent with the English 'caraway seeds' and the corrected ingredient."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

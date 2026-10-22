@@ -15,18 +15,18 @@
   "tr": [
    "500 g çiğ yer fıstığı (kabuklu)",
    "10 g tuz",
-   "500 ml su"
+   "1000 ml su"
   ],
   "en": [
    "500 g raw groundnuts (in shell)",
    "10 g salt",
-   "500 ml water"
+   "1000 ml water"
   ]
  },
  "steps": {
   "tr": [
    "Yer fıstıklarını soğuk suda yıkayın ve bozuk ya da çürük olanları ayıklayın.",
-   "Tuzu 500 ml suda eritin, fıstıkları ekleyip orta-yüksek ateşte yaklaşık 20 dakika kaynatın.",
+   "Tuzu 1000 ml suda eritin, fıstıkları ekleyip orta-yüksek ateşte yaklaşık 20 dakika kaynatın.",
    "Fıstıkları süzün ve temiz bir bez üzerine yayarak yaklaşık 20 dakika kurumaya bırakın.",
    "Fırını 170°C'ye ısıtın.",
    "Fıstıkları fırın tepsisine tek kat halinde yayın.",
@@ -35,7 +35,7 @@
   ],
   "en": [
    "Rinse the groundnuts in cold water and discard any broken or spoiled ones.",
-   "Dissolve the salt in 500 ml water, add the groundnuts and boil over medium-high heat for about 20 minutes.",
+   "Dissolve the salt in 1000 ml water, add the groundnuts and boil over medium-high heat for about 20 minutes.",
    "Drain the groundnuts and spread them on a clean cloth to dry for about 20 minutes.",
    "Preheat the oven to 170°C.",
    "Spread the groundnuts in a single layer on a baking tray.",
@@ -47,5 +47,13 @@
   "tr": "Fıstıklar soğudukça çıtırlaşır; bu yüzden tam soğumadan kavanoza koymayın, aksi halde nem toplayıp yumuşar.",
   "en": "Groundnuts crisp up as they cool, so do not jar them while still warm, or they will trap moisture and go soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "500 ml water is likely not enough to submerge 500 g of in-shell groundnuts for boiling, so the nuts would not cook evenly. Water raised to 1000 ml in ingredients and steps, in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

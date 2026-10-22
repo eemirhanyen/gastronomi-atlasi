@@ -9,7 +9,7 @@
   "en": "A flaky, layered flatbread eaten hot across Yemen, especially at breakfast and in the evening meal. It is usually served with honey, bisbas (a spiced tomato sauce) or fata."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Hamuru açarken çok ince yayın ve yağı bol sürün; katmanlar ne kadar ince olursa malavah o kadar gevrek olur.",
   "en": "Stretch the dough very thin and brush generously with fat; the thinner the layers, the flakier the malawah."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is understated: the recipe has 10 min kneading, 30 + 10 + 10 min of resting, and cooking four breads at 4-6 min each, so about 80 min total"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

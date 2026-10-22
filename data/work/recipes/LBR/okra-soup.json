@@ -6,10 +6,10 @@
  "native": "Okra soup",
  "desc": {
   "tr": "Liberya'da kırmızı palm yağı, et, füme balık ve taze bamya ile yapılan, genellikle pirinç veya kassava yemeğiyle servis edilen yoğun bir çorbadır. Günlük ana öğünlerde, özellikle aile yemeklerinde sık sık tüketilir.",
-  "en": "A thick Liberian soup made with red palm oil, meat, smoked fish and fresh okra, usually served with rice or cassava. It is a everyday main meal, especially for family lunches and dinners."
+  "en": "A thick Liberian soup made with red palm oil, meat, smoked fish and fresh okra, usually served with rice or cassava. It is an everyday main meal, especially for family lunches and dinners."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Dana etini, yarım soğanı, bir tutam tuzu ve et suyu küpünü 1,2 l suda kaynatın. Ateşi kısın ve et yumuşayana kadar yaklaşık 40 dakika pişirin.",
+   "Dana etini, yarım soğanı, bir tutam tuzu ve et suyu küpünü 1,2 l suda kaynatın. Ateşi kısın ve et yumuşayana kadar yaklaşık 60–70 dakika pişirin.",
    "Et pişerken füme balığı ayırın, kılçıklarını temizleyip pullarını ayırın.",
    "Kalan soğanı ince doğrayın. Geniş bir tencerede kırmızı palm yağını orta ateşte ısıtın.",
    "Yağa soğanı, sarımsağı ve Scotch bonnet biberini ekleyip yumuşayana kadar yaklaşık 4 dakika kavurun.",
@@ -53,7 +53,7 @@
    "Tuzunu tadın, gerekirse ayarlayın ve sıcak sıcak pirinçle servis edin."
   ],
   "en": [
-   "Put the beef, half of the onion, a pinch of salt and the beef stock cube into 1.2 l of water and bring to a boil. Reduce the heat and simmer for about 40 minutes until the meat is tender.",
+   "Put the beef, half of the onion, a pinch of salt and the beef stock cube into 1.2 l of water and bring to a boil. Reduce the heat and simmer for about 60–70 minutes until the meat is tender.",
    "While the meat cooks, remove any bones from the smoked fish and break it into flakes.",
    "Finely chop the remaining onion. Heat the red palm oil in a large pot over medium heat.",
    "Add the onion, garlic and Scotch bonnet pepper to the oil and fry for about 4 minutes until soft.",
@@ -67,5 +67,15 @@
   "tr": "Bamyayı pişirmeden hemen önce dilimleyin ve fazla pişirmeyin; böylece rengi canlı kalır ve kıvamı aşırı kaymaz.",
   "en": "Slice the okra just before cooking and do not overcook it, so it keeps its colour and the texture stays pleasantly smooth rather than slimy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef stew meat simmered for only about 40 minutes is unlikely to become tender, so the step's stated result is not achieved. Cooking time should be longer.",
+   "The total time of 60 minutes does not fit the steps, which add up to more than an hour once the longer beef simmer is included.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Knöpfle'ları servisten hemen önce pişirin ve hafif kızarmış peynir yüzeyi için kaba bir kaşar ile Emmental karışımı kullanın.",
+  "tr": "Knöpfle'ları servisten hemen önce pişirin ve üst yüzey için hafif (az tuzlu) bir peynir ile olgun, keskin Emmental karışımı kullanın; bu, daha zengin ve lezzetli bir sonuç verir.",
   "en": "Cook the knöpfle just before assembling and use a mix of mild and sharp cheese for a richer, more flavourful result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says \"kaba bir kaşar\" (coarse cheese), but the English tip says \"mild and sharp cheese\". \"Kaba\" does not mean mild or sharp, so the two versions disagree and the Turkish wording is unnatur"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

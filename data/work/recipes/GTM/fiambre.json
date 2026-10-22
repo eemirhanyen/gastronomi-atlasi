@@ -20,7 +20,7 @@
    "1 orta boy pişmiş pancar (yaklaşık 150 g), küp doğranmış",
    "150 g kemiksiz tavuk göğsü",
    "100 g jambon, şerit şerit kesilmiş",
-   "100 g chorizo sucuk, ince dilimlenmiş",
+   "100 g chorizo, ince dilimlenmiş",
    "100 g olgun kaşar ya da Edam peyniri, küp doğranmış",
    "2 yumurta",
    "1 küçük kırmızı soğan, ince halka doğranmış",
@@ -81,5 +81,13 @@
   "tr": "Sebzeleri pişirdikten sonra iyice kurulayın; su kalırsa sos seyrelir ve salata sulanır.",
   "en": "Dry the vegetables thoroughly after cooking; leftover water dilutes the dressing and makes the salad soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'chorizo sucuk' mixes two different sausages: 'sucuk' is a Turkish sausage, while chorizo is Spanish. The English says 'chorizo', so the Turkish should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,7 +21,7 @@
    "2 yeşil sivri biber, halka halinde kesilmiş",
    "2 olgun domates, küp küp doğranmış (200 g)",
    "2 diş sarımsak, ezilmiş",
-   "2 yemek kaşığı (20 g) tatlı Macar kırmızı biberi",
+   "2 yemek kaşığı (12 g) tatlı Macar kırmızı biberi",
    "1 çay kaşığı (2 g) acı Macar kırmızı biberi",
    "1 defne yaprağı",
    "1 çay kaşığı tuz (yaklaşık 5 g)",
@@ -37,7 +37,7 @@
    "2 green sharp peppers, sliced into rings",
    "2 ripe tomatoes, diced (200 g)",
    "2 garlic cloves, crushed",
-   "2 tbsp (20 g) sweet Hungarian paprika",
+   "2 tbsp (12 g) sweet Hungarian paprika",
    "1 tsp (2 g) hot Hungarian paprika",
    "1 bay leaf",
    "1 tsp salt (about 5 g)",
@@ -73,5 +73,13 @@
   "tr": "Kırmızı biberi her zaman ocak kapalıyken veya çok kısık ateşte ekleyin; yanmış biber çorbanın tadını bozar.",
   "en": "Always add the paprika off the heat or on very low heat; burnt paprika will ruin the flavour of the soup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sweet paprika quantity is implausible: 2 tablespoons weigh about 12 g, not 20 g (20 g is closer to 3-4 tablespoons). Corrected in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

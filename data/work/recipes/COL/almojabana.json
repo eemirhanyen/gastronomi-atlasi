@@ -41,7 +41,7 @@
    "Rendelenmiş beyaz peyniri ekleyip karıştırın.",
    "Mısır unu, tuz ve kabartma tozunu birlikte eleyerek ekleyin, sütle dönüşümlü olarak karıştırarak yumuşak bir hamur elde edin. Hamur çok sert olursa 1 yemek kaşığı daha süt ekleyin.",
    "Hamuru 10 dakika dinlendirin, böylece mısır unu sıvıyı emsin.",
-   "Hamuru yaklaşık 55 g'lık 8 parçaya bölün. Her parçayı top haline getirip ortasına parmağınızla delik açarak halka şekli verin.",
+   "Hamuru yaklaşık 67 g'lık 8 parçaya bölün. Her parçayı top haline getirip ortasına parmağınızla delik açarak halka şekli verin.",
    "Halkaları pişirme kağıdı serilmiş tepsiye aralarında boşluk bırakarak dizin.",
    "Önceden ısıtılmış fırında 20-25 dakika, üstleri altın sarısı olana kadar pişirin.",
    "Sıcak servis edin."
@@ -53,7 +53,7 @@
    "Mix in the finely grated white cheese.",
    "Sift in the cornmeal, salt and baking powder, then add them alternately with the milk, mixing to a soft dough. If the dough is too stiff, add 1 more tablespoon of milk.",
    "Rest the dough for 10 minutes so the cornmeal can absorb the liquid.",
-   "Divide the dough into 8 pieces of about 55 g each. Roll each into a ball, then press a thumb through the centre to form a ring.",
+   "Divide the dough into 8 pieces of about 67 g each. Roll each into a ball, then press a thumb through the centre to form a ring.",
    "Place the rings on the lined tray, leaving space between them.",
    "Bake in the preheated oven for 20 to 25 minutes, until golden on top.",
    "Serve warm."
@@ -63,5 +63,13 @@
   "tr": "Gerçek almojábana tadı için peynirin tuzluluğuna göre tuz miktarını ayarlayın; tuzlu peynir kullanıyorsanız tuzu azaltın.",
   "en": "Taste your cheese before adding the salt. If it is quite salty, reduce the salt to avoid an overly savoury bread."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Piece weight does not match the dough: the ingredients total about 537 g (150 + 120 + 100 + 80 for eggs + 40 + 40 + 3 + 4 g), so 8 pieces of 55 g would use only about 440 g. Each piece should be about"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

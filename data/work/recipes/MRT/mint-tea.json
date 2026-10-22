@@ -29,17 +29,17 @@
  },
  "steps": {
   "tr": [
-   "Çaydanlığın içine yeşil çayı koyun ve üzerine 50 ml kaynar su dökün. Hemen süzüp suyu atın; bu işlem çayın acılığını azaltır.",
+   "Çaydanlığın içine yeşil çayı koyun ve üzerine 50 ml kaynar su dökün. Hemen suyu boşaltıp atın; bu işlem çayın acılığını azaltır.",
    "Çaydanlığa 800 ml su ve şekeri ekleyin, orta-yüksek ateşte kaynatın.",
-   "Su kaynadığında yaprakları yıkanmış çayın üzerine ekleyin ve 3–4 dakika daha kaynatın.",
+   "Su kaynadığında yaprakların bulunduğu çaydanlıkta 3–4 dakika daha kaynatın.",
    "Naneyi ekleyip ateşi kısın ve 2 dakika demlenmesine izin verin.",
    "Çayı tepsideki küçük bardaklara, bardaktan bardağa uzaktan dökerek köpük oluşturun.",
    "Çayı çaydanlığa geri dökün ve bir kez daha servis edin; isteğe göre aynı yaprakla ikinci ve üçüncü demlemeyi de yapın, her turda biraz daha az şeker kullanın."
   ],
   "en": [
-   "Put the green tea in the teapot and pour over 50 ml boiling water. Drain it straight away and discard the water; this reduces the bitterness of the tea.",
+   "Put the green tea in the teapot and pour over 50 ml boiling water. Drain and discard the water straight away; this reduces the bitterness of the tea.",
    "Add 800 ml water and the sugar to the teapot and bring to a boil over medium-high heat.",
-   "Once boiling, add the rinsed tea leaves and simmer for another 3–4 minutes.",
+   "Once boiling, simmer the rinsed leaves in the pot for another 3–4 minutes.",
    "Add the mint, lower the heat and let it steep for 2 minutes.",
    "Pour the tea into small glasses from a height, moving between glasses to create a foamy top.",
    "Pour the tea back into the pot and serve once more; for the second and third rounds, reuse the same leaves with a little less sugar, if you wish."
@@ -49,5 +49,13 @@
   "tr": "Naneyi kaynatmayın; ince aroma için sadece demlenme sırasında ekleyin, aksi halde çay acılaşır.",
   "en": "Do not boil the mint; add it only at the steeping stage for a fresh aroma, otherwise the tea turns bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 says to add the rinsed leaves after the water boils, but the leaves were already in the pot from step 1 and were never removed. The Turkish step also has awkward phrasing ('yıkanmış çayın üzeri"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

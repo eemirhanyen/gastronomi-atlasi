@@ -45,13 +45,13 @@
  },
  "steps": {
   "tr": [
-   "Balıkların her iki yanına derin çizikler atın. Balıkları geniş bir kaba alın.",
+   "Balıkların her iki yanına 3'er derin çapraz çizik atın. Balıkları geniş bir kaba alın.",
    "Limon suyu, sarımsak, rendelenmiş zencefil, soya sosu, tuz ve karabiberi karıştırın. Bu marinenin yarısını balıkların hem içine hem dışına sürün.",
    "Balıkları oda sıcaklığında 20 dakika bekletin.",
-   "Hindistan cevizi kremasını, doğranmış soğanı, kırmızı biberi ve bir tutam tuzla küçük bir kasede karıştırıp sosu hazırlayın.",
-   "Izgarayı orta-yüksek ateşe (yaklaşık 200°C) getirin ve ızgara ızgarasını hafifçe yağlayın.",
+   "Hindistan cevizi kremasını, doğranmış soğanı, kırmızı biberi (isteğe bağlı) ve bir tutam tuzla küçük bir kasede karıştırıp sosu hazırlayın.",
+   "Izgarayı orta-yüksek ateşe (yaklaşık 200°C) getirin ve ızgara rafını hafifçe yağlayın.",
    "Muz yaprağı kullanacaksanız yaprakları ateşin üzerinde birkaç saniye tutarak yumuşatın, her balığı bir yaprağa sarın.",
-   "Balıkları ızgaraya yerleştirin ve her iki yüzünü de 5-6 dakika pişirin. Pişirme sırasında eritilmiş hindistan cevizi yağını ve kalan marinadan birkaç kaşık sürün.",
+   "Balıkları ızgaraya yerleştirin ve her iki yüzünü de 5-6 dakika pişirin. Pişirme sırasında eritilmiş hindistan cevizi yağını sürün. Kalan çiğ marinadı kullanmadan önce en az 1 dakika kaynatın veya atın.",
    "Balığın etini çatalla kontrol edin: et kolayca ayrılıyor ve iç kısmı opak hale geldiyse hazırdır.",
    "Balıkları sıcak servis edin, üzerine hindistan cevizi sosunu gezdirin ve limon dilimleriyle birlikte sunun."
   ],
@@ -62,7 +62,7 @@
    "In a small bowl, mix the coconut cream, chopped onion, chili (if using) and a pinch of salt to make the sauce.",
    "Heat the grill to medium-high (about 200°C) and lightly oil the grate.",
    "If using banana leaves, soften them by passing them briefly over the flame, then wrap each fish in a leaf.",
-   "Place the fish on the grill and cook for 5-6 minutes per side. While cooking, brush with the melted coconut oil and the remaining marinade.",
+   "Place the fish on the grill and cook for 5-6 minutes per side. While cooking, brush with the melted coconut oil. Discard the remaining raw marinade, or boil it for at least 1 minute before brushing.",
    "Check doneness by pressing the flesh with a fork: the flesh should flake easily and be opaque all the way through.",
    "Serve hot, spoon the coconut sauce over the fish and offer lime wedges on the side."
   ]
@@ -71,5 +71,16 @@
   "tr": "Balığı ızgaraya koymadan önce ızgarayı iyice ısıtın ve ızgaranın üzerini yağlayın; böylece deri yapışmadan güzel bir kabuk oluşur.",
   "en": "Heat the grill well and oil the grate before adding the fish so the skin crisps and does not stick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (TR and EN) brushes the fish with the remaining raw marinade, which has been in contact with raw fish. It must be boiled or discarded before use as a basting sauce.",
+   "Turkish step 5 says 'ızgara ızgarasını', which is repetitive and unnatural. It should be 'ızgara rafını'.",
+   "Turkish step 1 omits the number of cuts given in the English version (3 diagonal cuts per side).",
+   "Turkish step 4 lists chili without the 'isteğe bağlı' (optional) note that the English version includes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,6 +16,7 @@
    "1 L taze palmiye özü (yoksa şekersiz hindistancevizi suyu)",
    "50 g toz şeker (yalnızca hindistancevizi suyu kullanılıyorsa)",
    "2 g kuru maya",
+   "30 ml ılık su (mayayı çözmek için)",
    "Süzmek için temiz bez veya tülbent",
    "Mayalanması için 2 litrelik temiz cam kavanoz"
   ],
@@ -23,6 +24,7 @@
    "1 L fresh palm sap (or unsweetened coconut water)",
    "50 g caster sugar (only if using coconut water)",
    "2 g dried yeast",
+   "30 ml lukewarm water (to dissolve the yeast)",
    "A clean cloth or muslin for straining",
    "A clean 2-litre glass jar for fermenting"
   ]
@@ -32,7 +34,7 @@
    "Kavanozu ve bezi kaynar suyla yıkayıp iyice kurutun.",
    "Palmiye özünü veya hindistancevizi suyunu bez üzerinden süzerek temiz kavanoza aktarın.",
    "Hindistancevizi suyu kullanıyorsanız toz şekeri ekleyip tamamen eriyene kadar karıştırın. Palmiye özü kullanıyorsanız şekeri eklemeyin.",
-   "Kuru mayayı 2 yemek kaşığı ılık suda birkaç dakika bekletin, sonra kavanoza ekleyip nazikçe karıştırın.",
+   "Kuru mayayı 2 yemek kaşığı (yaklaşık 30 ml) ılık suda birkaç dakika bekletin, sonra kavanoza ekleyip nazikçe karıştırın.",
    "Kavanozun ağzını bezle örtüp lastikle sabitleyin; gaz çıkabilmesi için tamamen kapatmayın.",
    "Kavanozu gölgede, 25-30°C arasında bir yerde 24-48 saat bekletin.",
    "Her gün tadına bakın. Hafifçe ekşi, tatlı ve köpüklü olduğunda hazırdır.",
@@ -42,7 +44,7 @@
    "Wash the jar and cloth with boiling water and dry them thoroughly.",
    "Strain the palm sap or coconut water through the cloth into the clean jar.",
    "If using coconut water, add the caster sugar and stir until fully dissolved. If using palm sap, do not add sugar.",
-   "Soak the dried yeast in 2 tablespoons of lukewarm water for a few minutes, then add it to the jar and stir gently.",
+   "Soak the dried yeast in 2 tablespoons (about 30 ml) of lukewarm water for a few minutes, then add it to the jar and stir gently.",
    "Cover the jar mouth with the cloth and secure it with an elastic band; do not seal it completely so gas can escape.",
    "Leave the jar in a shaded place at 25-30°C for 24-48 hours.",
    "Taste it each day. It is ready when it is lightly sour, sweet and slightly fizzy.",
@@ -53,5 +55,13 @@
   "tr": "Gerçek bangui, palmiye ağacından taze öz toplanarak yapılır ve birkaç saat içinde işlenmelidir; hindistancevizi suyu yaklaşık bir evdeki yaklaşımdır.",
   "en": "Authentic bangui is made from sap tapped fresh from the palm tree and must be processed within hours; coconut water is a close home approximation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 uses 2 tablespoons of lukewarm water to dissolve the yeast, but the water is missing from the ingredient list in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

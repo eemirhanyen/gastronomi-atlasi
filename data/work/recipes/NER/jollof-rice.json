@@ -9,7 +9,7 @@
   "en": "A red, spiced rice cooked in a tomato and pepper base. Rooted in West African cooking, it is served in Niger, especially in Niamey, at weddings, celebrations and large family meals, often alongside fried chicken or a salad."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -60,7 +60,7 @@
    "500 ml sıcak suyu ekleyin, defne yapraklarını atın ve kaynamaya bırakın.",
    "Pirinci ekleyip iyice karıştırın. Kalan 200 ml sıcak suyu ilave ederek pirincin 1 cm üzerinde sıvı olmasını sağlayın.",
    "Kapağı kapatın ve en kısık ateşte 20 dakika pişirin. Ocağı kapatın, kapağı kapalı halde 10 dakika dinlendirin.",
-   "Defne yapraklarını çıkarın, pirinci çatalla kabartarak servis yapın."
+   "Defne yapraklarını çıkarın, pirinci çatalla hafifçe karıştırarak havalandırıp servis yapın."
   ],
   "en": [
    "Rinse the rice in cold water 2-3 times and drain.",
@@ -79,5 +79,14 @@
   "tr": "Sosu yağ ayrılana kadar iyice pişirin; bu, pilavın rengini ve aromasını belirler. Geleneksel olarak tencerenin dibinde hafif çıtır bir tabaka oluşması istenir, ancak bunu yakmadan dikkatle takip edin.",
   "en": "Cook the sauce until the oil separates; this sets the colour and depth of flavour. Traditionally a lightly crisp layer forms on the bottom of the pot, which is prized, but watch it so it does not burn."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is lower than the sum of the steps: about 10 min prep, 5+3+20-25+2 min for the sauce, 20 min cooking and 10 min resting comes to roughly 70-75 min",
+   "Turkish final step uses 'kabartarak' (to make rise/puff), which is unnatural for fluffing rice; 'havalandırarak' is the natural term"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

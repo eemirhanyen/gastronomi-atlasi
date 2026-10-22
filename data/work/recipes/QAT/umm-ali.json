@@ -60,8 +60,16 @@
   ]
  },
  "tip": {
-  "tr": "Milföy hamurunu pişirmeden önce ufak parçalara bölmek, sıvıyı daha iyi emmesini sağlar ve tatlının kıvamını dengeler.",
-  "en": "Break the pastry into smaller pieces before baking so it soaks up the milk evenly and the pudding sets to a soft, custardy texture."
+  "tr": "Milföyü pişirdikten sonra 4-5 cm'lik parçalara ayırmak, sıvıyı daha iyi emmesini sağlar ve tatlının kıvamını dengeler.",
+  "en": "Breaking the baked pastry into 4-5 cm pieces helps it soak up the milk evenly and the pudding sets to a soft, custardy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip (tr and en) says to break the pastry into pieces before baking, but step 2 bakes the sheet first and breaks it into pieces after cooling. The tip should match the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

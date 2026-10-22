@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Katları çok ince açıp kısa sürede pişirin; katlar ne kadar inceyse pasta o kadar yumuşak ve kremi iyi emer olur.",
+  "tr": "Katları çok ince açıp kısa sürede pişirin; katlar ne kadar inceyse pasta o kadar yumuşak olur ve krem daha iyi emilir.",
   "en": "Roll the layers very thin and bake them quickly; the thinner the layers, the softer the cake will be once they absorb the cream."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip sentence is unnatural: \"kremi iyi emer olur\" should read as \"krem daha iyi emilir\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

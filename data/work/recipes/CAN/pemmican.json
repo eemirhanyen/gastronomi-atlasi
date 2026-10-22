@@ -15,7 +15,7 @@
   "tr": [
    "300 g kurutulmuş sığır eti (pastırma değil, jerky tarzı kuru et)",
    "200 g sığır iç yağı (suet)",
-   "100 g kurutulmuş yaban mersini veya kızılcık",
+   "100 g kurutulmuş saskatoon yemişi veya kızılcık",
    "3 g tuz"
   ],
   "en": [
@@ -51,5 +51,13 @@
   "tr": "Kendi kurutulmuş etinizi yapıyorsanız, dilimlenmiş eti 60 °C fırında 4-6 saat kurutarak sert ve tamamen kuru bir jerky elde edin; nem kalırsa pemmican kısa sürede bozulur.",
   "en": "If making your own jerky, dry thin slices in a 60 °C oven for 4-6 hours until completely dry and brittle; any moisture left will spoil the pemmican quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Berry mismatch: the Turkish ingredient says 'yaban mersini' (blueberry), but the English says saskatoon berries. Turkish should name saskatoon berries to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

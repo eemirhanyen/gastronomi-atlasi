@@ -9,7 +9,7 @@
   "en": "A round, soft leavened bread with a slightly sunken centre, eaten daily in Turkmenistan and served especially at guest meals and holidays. Traditionally it is baked in a clay tandyr oven."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -67,5 +67,13 @@
   "tr": "Ortadaki çukur, pişerken hamurun kabarmasını önler; desen açarken kenarlara değil merkeze odaklanın.",
   "en": "The central dip keeps the bread from puffing up in the oven, so press it firmly and do not pierce all the way through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 90, but the steps add up to about 120 minutes: 5 min proofing the yeast, 8-10 min kneading, 60 min rising, 20 min resting the shaped breads, and 20-25 min baking, before shaping time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

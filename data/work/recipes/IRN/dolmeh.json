@@ -9,7 +9,7 @@
   "en": "Peppers stuffed with rice, minced meat, onion and fresh herbs, then gently simmered in tomato sauce. It is a common side at family lunches and dinners across Iran."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -81,5 +81,13 @@
   "tr": "Biberleri pişirmeden önce kaynar suda 3 dakika haşlarsanız daha yumuşak olurlar ve pişme süresi kısalır.",
   "en": "Blanch the peppers in boiling water for 3 minutes before stuffing; they soften more evenly and cook faster in the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the recipe includes a 30-minute soak, about 20 minutes of prep and cooking before stuffing, and a 40-minute simmer, so the total is closer to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

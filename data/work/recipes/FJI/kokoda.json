@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığın tazeliği en önemli unsurdur; sashimi kalitesinde, dondurulmamış bir fileto seçin ve servisten önce mutlaka buzdolabında soğutun.",
-  "en": "Freshness matters most: choose sashimi-grade, never-frozen fillet, and keep the bowl cold. Don't marinate the fish longer than 15 minutes or it becomes rubbery."
+  "tr": "Balığın tazeliği en önemli unsurdur; parazit riskine karşı, sashimi kalitesinde ve daha önce -20°C'de en az 24 saat dondurulmuş bir fileto seçin, servisten önce mutlaka buzdolabında soğutun. Balığı 15 dakikadan fazla marine etmeyin, aksi halde sertleşir.",
+  "en": "Freshness matters most: for parasite safety, choose sashimi-grade fillet that has been frozen at -20°C for at least 24 hours, and keep the bowl cold. Don't marinate the fish longer than 15 minutes or it becomes rubbery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to choose a 'never-frozen' fillet for raw consumption. This is a food-safety problem: raw fish can carry parasites (e.g., Anisakis), and freezing at -20°C for at least 24 hours is the standar",
+   "Tip in Turkish and English should be updated together to keep them consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

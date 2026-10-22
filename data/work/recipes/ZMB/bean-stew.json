@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Islatılmış fasulyeleri süzün, suyla iyice yıkayın ve büyük bir tencereye alın.",
-   "1,2 L su ekleyin, kaynamaya bırakın, ardından ocağı kısın ve fasulyeler yumuşayana kadar, yaklaşık 60-75 dakika kaynatın. Pişerken gerekirse sıcak su ekleyin.",
+   "1,2 L su ekleyin ve kaynatın. Kırmızı barbunya (kidney) kullanıyorsanız, toksinleri gidermek için 10 dakika şiddetli kaynatın. Ardından ocağı kısın ve fasulyeler yumuşayana kadar, yaklaşık 60-75 dakika pişirin. Pişerken gerekirse sıcak su ekleyin.",
    "Fasulyeler pişerken ayrı bir tavada yağı orta ateşte ısıtın ve soğanı yumuşayıp hafifçe altın rengi alana kadar, yaklaşık 5 dakika kavurun.",
    "Sarımsak ve yeşil biberi ekleyip 3 dakika daha kavurun.",
    "Domatesleri ekleyin ve suyunu çekip püre kıvamına gelene kadar, yaklaşık 8 dakika pişirin.",
@@ -52,7 +52,7 @@
   ],
   "en": [
    "Drain the soaked beans, rinse them well with water and place them in a large pot.",
-   "Add 1.2 L of water, bring to the boil, then reduce the heat and simmer for about 60-75 minutes until the beans are soft. Top up with hot water if needed.",
+   "Add 1.2 L of water and bring to the boil. If using kidney beans, boil rapidly for 10 minutes to destroy toxins. Then reduce the heat and simmer for about 60-75 minutes until the beans are soft. Top up with hot water if needed.",
    "While the beans cook, heat the oil in a separate pan over medium heat and fry the onion for about 5 minutes until soft and lightly golden.",
    "Add the garlic and green pepper and cook for 3 more minutes.",
    "Add the tomatoes and cook for about 8 minutes, until they break down into a pulp.",
@@ -67,5 +67,14 @@
   "tr": "Fasulyeleri tuzsuz pişirin; tuz, lifleri sertleştirip pişme süresini uzatabilir. Tuzu yalnızca fasulyeler yumuşadıktan sonra ekleyin.",
   "en": "Cook the beans without salt; adding it early can toughen the skins and lengthen cooking time. Season only once the beans are fully tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Kidney beans are listed as an alternative, but the steps don't include the required rapid boil. Raw or undercooked kidney beans contain phytohaemagglutinin, which can cause food poisoning. The recipe ",
+   "Turkish and English step 2 both need the same safety note, so the two versions stay aligned."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

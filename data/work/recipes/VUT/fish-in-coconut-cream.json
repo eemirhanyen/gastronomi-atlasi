@@ -27,7 +27,7 @@
    "200 g ıspanak veya taro yaprağı (yoksa pazı), iri doğranmış"
   ],
   "en": [
-   "800 g white-fleshed fish fillets (such as sea bream or snapper), cut into 4 pieces",
+   "800 g white-fleshed fish fillets (such as sea bream or sea bass), cut into 4 pieces",
    "Juice of 1 lime",
    "1 tsp salt, plus more to taste",
    "1 tsp black pepper",
@@ -65,5 +65,13 @@
   "tr": "Hindistancevizi sütü kaynarken kolayca ayrışabileceği için ateşi düşük tutun; sos ne kadar yumuşak kaynarsa kremanın yapısı o kadar pürüzsüz kalır.",
   "en": "Keep the heat low once the coconut cream is added, as it can separate if boiled hard; a gentle simmer keeps the sauce smooth and creamy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish ingredient lists 'levrek' (sea bass), but the English lists 'snapper'. The two versions name different fish, so the English should match the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

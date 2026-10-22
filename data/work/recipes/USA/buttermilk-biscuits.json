@@ -5,8 +5,8 @@
  },
  "native": "Buttermilk Biscuits",
  "desc": {
-  "tr": "Amerika Birleşik Devletleri'nin güneyinde, özellikle kahvaltıda sıcak servis edilen, dış kısmı çıtır iç kısmı yumuşak mayasız bir hamur ürünüdür. Reçel, bal veya kızarmış tavuk ve sosisli sos ile birlikte yenir.",
-  "en": "A soft, flaky, unleavened-dough quick bread from the American South, typically served hot at breakfast. It is eaten split open with jam, honey, or gravy, often alongside fried chicken or sausage."
+  "tr": "Amerika Birleşik Devletleri'nin güneyinde, özellikle kahvaltıda sıcak servis edilen, dış kısmı çıtır iç kısmı yumuşak, kabartma tozuyla kabartılmış bir hamur ürünüdür. Reçel, bal veya kızarmış tavuk ve sosisli sos ile birlikte yenir.",
+  "en": "A soft, flaky quick bread leavened with baking powder, from the American South and typically served hot at breakfast. It is eaten split open with jam, honey, or gravy, often alongside fried chicken or sausage."
  },
  "servings": 4,
  "time_min": 40,
@@ -33,15 +33,15 @@
  },
  "steps": {
   "tr": [
-   "Fırını 220°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
+   "Fırını 220°C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Büyük bir kapta unu, kabartma tozunu, tuzu ve toz şekeri karıştırın.",
    "Soğuk tereyağı küplerini un karışımına ekleyip parmak uçlarınızla ufak bezelye büyüklüğünde parçalar kalana kadar ovalayın.",
    "Yayık ayranını ekleyip bir spatulayla yalnızca yapışana kadar karıştırın. Hamur dağılmış ve yapışkan görünmelidir; fazla yoğurmayın.",
    "Hamuru hafifçe unlanmış bir tezgâha alın, elinizle yaklaşık 2 cm kalınlığında bir dikdörtgen haline getirin.",
    "Hamuru ikiye katlayıp tekrar 2 cm kalınlığa açın. Bu işlemi iki kez daha tekrarlayın.",
-   "Hamuru 6 cm çapındaki bir kesici ile bastırarak kesin. Kesicyi çevirmeden dik şekilde bastırın ki bisküviler kabarsın.",
+   "Hamuru 6 cm çapındaki bir kesiciyle bastırarak kesin. Kesiciyi çevirmeden dik şekilde bastırın ki bisküviler kabarsın.",
    "Bisküvileri birbirine yakın şekilde tepsiye dizin; yanları birbirine değsin, böylece yumuşak kalırlar.",
-   "Üzerlerine eritilmiş tereyağını fırça ile sürün.",
+   "Üzerlerine eritilmiş tereyağını fırçayla sürün.",
    "Altın rengi alana kadar 12-15 dakika pişirin ve sıcak servis yapın."
   ],
   "en": [
@@ -61,5 +61,15 @@
   "tr": "Tereyağı ve ayran ne kadar soğuk olursa, bisküviler o kadar kabarık ve katmanlı çıkar.",
   "en": "Keep the butter and buttermilk very cold; the colder they are, the more layered and tender the biscuits will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Factual error in both descriptions: buttermilk biscuits are leavened with baking powder, not unleavened (tr: 'mayasız', en: 'unleavened-dough').",
+   "Turkish step 1 uses 'serin' (chill) for lining the tray; the correct verb is 'kaplayın' or 'yerleştirin'.",
+   "Turkish step 7 contains a typo: 'Kesicyi' should be 'Kesiciyi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

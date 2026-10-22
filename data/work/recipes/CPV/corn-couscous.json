@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Kaba mısırununu geniş bir kaba koyun ve tuzla iyice karıştırın.",
+   "Kaba mısır unu geniş bir kaba koyun ve tuzla iyice karıştırın.",
    "Ilık suyu azar azar serpin ve parmak uçlarınızla unu ovalayarak eşit nemlenmiş, topaklanmamış taneler elde edin. Un hâlâ kuruysa birkaç kaşık daha su ekleyin.",
    "Karışımı 10 dakika dinlendirerek unun suyu emmesini sağlayın.",
    "Kuskus kazanını hazırlayın: alt kısma su koyup kaynatın. Buhar bölmesinin altını temiz bir bezle kaplayın.",
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Kuskusu bezi sık dokunmuş bir buhar bölmesinde pişirin; böylece taneler delikten dökülmez ve pişerken daha yumuşak olur.",
+  "tr": "Kuskusu bezi sık dokunmuş bir buhar bölmesinde pişirin; böylece taneler delikten dökülmez ve pişerken daha yumuşak olur. Buharlamalar arasında kuskusu çatalla kabartarak daha hafif bir doku elde edin.",
   "en": "Line the steamer with a tightly woven cloth so the grains do not fall through, and fluff the couscous with a fork between steamings for a lighter texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a typo: \"Kaba mısırununu\" should be \"Kaba mısır unu\".",
+   "Turkish tip omits the English tip's advice to fluff the couscous with a fork between steamings for a lighter texture, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

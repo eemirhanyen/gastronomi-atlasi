@@ -37,10 +37,10 @@
  },
  "steps": {
   "tr": [
-   "Terasiyi folyoya sarın ve kuru bir tavada orta ateşte yaklaşık 2 dakika kızartın. Kokusu çıkınca kenara alın.",
+   "Terasiyi folyoya sarın ve kuru bir tavada orta ateşte yaklaşık 2 dakika kavurun. Kokusu çıkınca kenara alın.",
    "Biberlerin saplarını koparın, soğanları ve sarımsakları soyun, domatesi dörde bölün.",
    "Biber, soğan, sarımsak ve domatesi kuru tavada ya da ızgarada orta-yüksek ateşte, yer yer kararana kadar yaklaşık 8-10 dakika pişirin.",
-   "Kızarmış malzemeleri soğutun. Kızartılmış terasi ile birlikte havanda dövün ya da mutfak robotunda kısa darbelerle kaba bir macun haline getirin.",
+   "Kavrulmuş malzemeleri soğutun. Kavrulmuş terasi ile birlikte havanda dövün ya da mutfak robotunda kısa darbelerle kaba bir macun haline getirin.",
    "Yağı geniş bir tavada orta ateşte ısıtın. Macunu ekleyip yaklaşık 8-10 dakika, yağ yüzeye ayrılana ve koku tatlılaşana kadar kavurun.",
    "Palmiye şekerini, tuzu ve limon suyunu ekleyip 1 dakika daha karıştırın. Tadına bakın, gerekirse tuz veya limon ekleyin.",
    "Ocaktan alın, tamamen soğutun ve temiz bir kavanozda buzdolabında saklayın."
@@ -59,5 +59,14 @@
   "tr": "Biberleri keserken eldiven kullanın; kavurma sırasında kokusu yoğun olduğu için mutfağı iyi havalandırın.",
   "en": "Wear gloves when handling the chilies, and ventilate the kitchen well while frying since the shrimp paste smell is strong."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 and step 4 use \"kızartın\"/\"kızartılmış\" (fry) for dry-toasting and grilling, where \"kavurun\"/\"kavrulmuş\" is the correct culinary term. The English says toast/charred.",
+   "Turkish step 4 calls the charred vegetables \"kızarmış\"; \"kavrulmuş\" is the natural word."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

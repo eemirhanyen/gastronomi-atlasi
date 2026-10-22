@@ -53,12 +53,12 @@
   "tr": [
    "Eti küp küp doğrayın, tuz ve karabiberle tatlandırın.",
    "Geniş bir tencerede yağı kızdırın ve eti parti parti, her yüzü renk alana kadar kavurun. Tüm eti kavurduktan sonra tencereye alın.",
-   "Aynı yağda soğanı pembeleşene kadar 5 dakika kavurun. Sarımsağı ekleyip 1 dakika daha karıştırın.",
+   "Aynı yağda soğanı altın rengi alana kadar yaklaşık 5 dakika kavurun. Sarımsağı ekleyip 1 dakika daha karıştırın.",
    "Havucu ve dolmalık biberleri ekleyip 5 dakika soteleyin.",
    "Domatesleri ve salçayı ekleyin, domatesler suyunu salana kadar 5 dakika pişirin.",
    "Kimyonu, tatlı kırmızı biberi ve isteğe bağlı acı biberi ekleyin, bir dakika karıştırın.",
    "Eti tencereye geri koyun, sıcak suyu ekleyin ve kaynamaya bırakın. Ateşi kısın, kapağı yarı açık tutarak et yumuşayana kadar yaklaşık 50 dakika pişirin.",
-   "Ayrı bir tencerede bol kaynayan suda erişteyi, paketindeki süreye göre (taze ise yaklaşık 2-3 dakika) haşlayın, süzün ve hafifçe yağlayın.",
+   "Ayrı bir tencerede bol kaynayan tuzlu suda erişteyi, paketindeki süreye göre (taze ise yaklaşık 2-3 dakika) haşlayın, süzün ve hafifçe yağlayın.",
    "Her servis tabağına erişteyi koyun, üzerine sıcak et ve sebze sosundan bolca gezdirin.",
    "Taze kişnişle süsleyip sıcak servis yapın."
   ],
@@ -76,8 +76,18 @@
   ]
  },
  "tip": {
-  "tr": "Sosun kıvamı için pişirme sonunda suyun yarısı kadar buharlaşmasına izin verin; sos noodle üzerine dökülecek kadar akışkan ama yoğun olmalıdır.",
-  "en": "For a richer sauce, let it reduce by about half during the last 10 minutes so it coats the noodles without being watery."
+  "tr": "Sosun kıvamı için pişirmenin son 10 dakikasında kapağı tamamen açın ve ateşi biraz artırın; sos noodle üzerine dökülecek kadar akışkan ama yoğun olmalıdır.",
+  "en": "For a richer sauce, uncover the pot for the last 10 minutes and let it reduce slightly so it coats the noodles without being watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 does not mention salting the noodle water, but the English version says 'salted water'.",
+   "The tip asks for the sauce to reduce by about half in the last 10 minutes. That is implausible for about 1.5 litres of liquid, and it conflicts with the partly covered simmer in step 7.",
+   "Turkish step 3 says 'pembeleşene kadar' (until pinkish) while the English says 'until golden'. The Turkish should say 'altın rengi' for consistency."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

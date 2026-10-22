@@ -5,7 +5,7 @@
  },
  "native": "كعب الغزال",
  "desc": {
-  "tr": "Fas mutfağının en bilinen bayram tatlılarından biri olan bu hilal şeklinde kurabiyeler, badem ve portakal çiçeği suyuyla tatlandırılmış dolgusuyla Ramazan, Aїd ve düğün ikramlarında servis edilir.",
+  "tr": "Fas mutfağının en bilinen bayram tatlılarından biri olan bu hilal şeklinde kurabiyeler, badem ve portakal çiçeği suyuyla tatlandırılmış dolgusuyla Ramazan, Bayram ve düğün ikramlarında servis edilir.",
   "en": "A crescent-shaped Moroccan almond pastry, filled with orange blossom-scented almond paste and dipped in honey syrup. It is a favourite at Eid, Ramadan and wedding celebrations, served with mint tea."
  },
  "servings": 4,
@@ -54,12 +54,12 @@
    "Hamuru streç film ile sarıp oda sıcaklığında 30 dakika dinlendirin.",
    "Dolgu için bademi, pudra şekerini, oda sıcaklığındaki tereyağını, tarçını ve 15 ml portakal çiçeği suyunu bir kasede iyice yoğurarak pürüzsüz bir macun hazırlayın.",
    "Dolguyu 16 eşit parçaya bölüp küçük sosis şeklinde yuvarlayın. Hamurdan da 16 eşit parça koparıp her birini avucunuzda top haline getirin.",
-   "Her hamur topunu unlu tezgahta 10 cm çapında, yaklaşık 2 mm kalınlığındaince bir yuvarlağa açın. Ortasına bir dolgu sosisi yerleştirin.",
+   "Her hamur topunu unlu tezgahta 10 cm çapında, yaklaşık 2 mm kalınlığında ince bir yuvarlağa açın. Ortasına bir dolgu sosisi yerleştirin.",
    "Hamuru dolgunun üzerine katlayıp kenarlarını sıkıca kapatın. Fazla hamuru kesip atın ve parmaklarınızla hilal şekli verin.",
    "Ayırdığınız ikinci yumurta sarısını süt ile çırpın. Hilalleri bu karışımla fırçalayın.",
    "Fırını 170°C'ye ısıtın. Hilalleri fırın tepsisine dizin ve açık sarı renk alana kadar 15-18 dakika pişirin. Tamamen soğumasını bekleyin.",
    "Bal, su ve limon suyunu küçük bir tencerede kaynatıp 2 dakika kısık ateşte pişirin. Sıcak şerbeti soğumuş hilallerin üzerine dökün ya da her birini 20-30 saniye şerbete batırıp süzgeçte süzün.",
-   "Servis tabağına alıp bir gece dinlendirmeden hemen ikram edebilirsiniz."
+   "Şerbet hafifçe yerleşince hilalleri servis tabağına alıp ikram edebilirsiniz."
   ],
   "en": [
    "In a large bowl, mix the flour and salt. Add the melted butter and rub it into the flour with your fingertips until it looks like coarse sand.",
@@ -79,5 +79,15 @@
   "tr": "Hamurun çok ince açılması, kurabiyelerin gevrek ve hafif kalmasının anahtarıdır; dolguyu ise sert tutarak hamurdan dışarı taşmasını önleyin.",
   "en": "Roll the dough very thin for a light, crisp texture, and keep the almond filling firm so it does not leak out during shaping."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description contains a garbled character in 'Aїd' (should be 'Bayram' in Turkish)",
+   "Turkish step 6 has a typo: 'kalınlığındaince' should be 'kalınlığında'",
+   "Turkish step 11 says to serve immediately without resting, while the English says to serve once the syrup has set slightly; the two versions disagree"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

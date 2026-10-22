@@ -53,7 +53,7 @@
    "Fasulyeyi, suyu, bulyon küpünü ve delinmiş scotch bonnet biberini tencereye ekleyin.",
    "Karışımı kısık ateşte 15 dakika kaynatın.",
    "Scotch bonnet biberini çıkarın. Fasulye karışımının yarısını mutfak robotunda veya blenderda pürüzsüz hale gelene kadar çekin, kalanını ise tencerede bırakın.",
-   "Pürüzlenmiş karışımı tencereye geri dökün ve kısık ateşte 10 dakika, sos koyulaşana kadar pişirin.",
+   "Püre haline getirilmiş karışımı tencereye geri dökün ve kısık ateşte 10 dakika, sos koyulaşana kadar pişirin.",
    "Ocaktan alıp limon suyu, maydanoz, tuz ve karabiberi karıştırın. Tadına bakıp gerekirse tuzunu ayarlayın ve pirinç pilavının üzerine servis edin."
   ],
   "en": [
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Scotch bonnet biberini delmeden ekleyin ve yalnızca aroma için pişirin; biber çok sert olduğundan çıkarmadan kesmeyin.",
+  "tr": "Scotch bonnet biberini bütün ve delinmiş halde ekleyin; bu sayede sosa aroma verir ama aşırı acılaştırmaz. Püre yapmadan önce çıkarın.",
   "en": "Add the scotch bonnet whole and pierced so it flavours the sauce without making it painfully hot; remove it before blending."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to add the scotch bonnet without piercing it, but the English tip and step 4 say it is pierced. The versions disagree.",
+   "Turkish tip is garbled: 'biber çok sert olduğundan çıkarmadan kesmeyin' does not make sense as an instruction.",
+   "Turkish step 7 uses 'pürüzlenmiş' (roughened), which is the wrong word for the blended mixture. It should be 'püre haline getirilmiş'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

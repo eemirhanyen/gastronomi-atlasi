@@ -60,7 +60,7 @@
    "Mercimekleri çırpıcıyla hafifçe çırparak pürüzsüz ama hafif tanecikli bir kıvam verin. Ateşten alıp bir kenara koyun.",
    "Ayrı bir tavada yağı ve tereyağını orta ateşte eritin. Kimyon tohumlarını ve kuru kırmızı biberleri ekleyip kimyon çatlayana kadar yaklaşık 30 saniye kavurun.",
    "Kalan soğanı ve sarımsağı ekleyin, altın rengi alana kadar 5-6 dakika kavurun.",
-   "Garam masalayı ekleyip 10 saniye daha kavurun, ardından bu tarhunu sıcak mercimek çorbasının üzerine dökün. Tavayı da birkaç kaşık dalla çalkalayıp dala ekleyin.",
+   "Garam masalayı ekleyip 10 saniye daha kavurun, ardından bu tarkayı sıcak mercimek çorbasının üzerine dökün. Tavayı da birkaç kaşık dalla çalkalayıp dala ekleyin.",
    "Doğranmış kişnişi serpin, limon suyunu gezdirin ve sıcak servis yapın."
   ],
   "en": [
@@ -79,5 +79,13 @@
   "tr": "Dal kıvamı servis sırasında koyulaşır; sıcak su ekleyerek kıvamını ayarlayın ve pilav ya da roti ile servis edin.",
   "en": "Dal thickens as it stands, so loosen it with hot water before serving and pair it with rice or roti."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says \"bu tarhunu\" (tarhun means tarragon), but it should be \"bu tarkayı\" (tarka/tadka, the spiced fat tempering). The English version correctly says \"tarka\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

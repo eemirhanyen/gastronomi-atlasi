@@ -5,11 +5,11 @@
  },
  "native": "Seboko",
  "desc": {
-  "tr": "Lesotho'da geleneksel olarak yapılan, hafif alkollü ve bulanık bir darı birasıdır. Düğünlerde, törenlerde ve köy toplantılarında ortak bir kaptan servis edilir.",
+  "tr": "Lesotho'da geleneksel olarak yapılan, hafif alkollü ve bulanık bir sorgum birasıdır. Düğünlerde, törenlerde ve köy toplantılarında ortak bir kaptan servis edilir.",
   "en": "Seboko is a traditional, lightly alcoholic, cloudy sorghum beer brewed in Lesotho. It is shared from a communal pot at weddings, ceremonies and village gatherings."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 7920,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -48,7 +48,7 @@
    "Lapayı yaklaşık 60°C'ye kadar soğutun, 500 ml ılık suyla karıştırılmış 250 g öğütülmüş maltı ekleyip iyice karıştırın.",
    "Karışımı sıcaklığı yaklaşık 60°C'de tutarak 1 saat bekletin; bu sürede malt nişastayı şekere dönüştürür.",
    "Karışımı 30°C'nin altına kadar soğutun, 100 g şekeri ekleyip karıştırın.",
-   "5 g mayayı 100 ml ılık suda 5 dakika dinlendirin, köpürünce birasının içine ekleyip karıştırın.",
+   "5 g mayayı 100 ml ılık suda 5 dakika dinlendirin, köpürünce biranın içine ekleyip karıştırın.",
    "Ağzı bezle örtün ve 25-28°C'de 24-48 saat mayalanmaya bırakın. Yüzeyinde köpük oluşup hafif ekşi-tatlı koktuğunda hazırdır.",
    "Servis yapmadan önce iyice karıştırın ve soğuk ya da oda sıcaklığında, bulanık haliyle servis edin."
   ],
@@ -71,5 +71,14 @@
   "tr": "Maltı yapmak zaman alıyorsa, öğütülmüş sorgum maltı kullanın; mayalanma süresi sıcaklığa göre değiştiği için birayı her 12 saatte bir tadın.",
   "en": "If malting is too time-consuming, buy ground sorghum malt instead; fermentation speed depends on temperature, so taste the beer every 12 hours."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name/description calls sorghum \"darı\" (millet); the correct Turkish term for sorghum is \"sorgum\".",
+   "time_min (90) is far too short: the recipe includes about 12 hours of soaking, 2-3 days of germination, drying, and 24-48 hours of fermentation, so the total time is several days. Active time is rough"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

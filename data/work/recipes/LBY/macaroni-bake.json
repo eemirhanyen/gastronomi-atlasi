@@ -15,7 +15,7 @@
   "tr": [
    "400 g kalem makarna (penne veya macaroni)",
    "500 g dana veya kuzu kıyma",
-   "2 orta boy soğan, ince doğranmış (about 300 g)",
+   "2 orta boy soğan, ince doğranmış (yaklaşık 300 g)",
    "3 diş sarımsak, ezilmiş",
    "45 ml zeytinyağı",
    "400 g konserve doğranmış domates",
@@ -89,5 +89,13 @@
   "tr": "Makarnayı biraz al dente çekin; fırında kalan pişmeyi tamamlar ve dilimler dağılmaz. Beşamelin pürüzsüz kalması için sütü ılık ekleyin.",
   "en": "Undercook the pasta slightly, since it finishes softening in the oven and keeps its shape when sliced. Add the milk warm so the béchamel stays smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains untranslated English: \"(about 300 g)\" should be \"(yaklaşık 300 g)\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

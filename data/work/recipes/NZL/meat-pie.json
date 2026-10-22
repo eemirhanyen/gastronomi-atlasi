@@ -9,7 +9,7 @@
   "en": "New Zealand's best-known street food, this small pie has a minced beef filling in thick gravy and is eaten at rugby matches, sports grounds and bakeries from morning to night. Unlike a börek, it has a crisp, buttery shortcrust case."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -22,7 +22,7 @@
    "120 g soğan, ince doğranmış",
    "15 ml sıvı yağ",
    "15 g domates salçası",
-   "200 ml sıcak dana suyu",
+   "200 ml sıcak dana et suyu",
    "5 ml Worcestershire sosu",
    "5 ml kurutulmuş kekik",
    "10 g mısır nişastası",
@@ -58,7 +58,7 @@
    "Fırını 200°C'ye ısıtın.",
    "Büyük bir tavada sıvı yağı ısıtın, soğanı yumuşayana kadar 5 dakika kavurun.",
    "Kıymayı ekleyip suyunu çekene ve kahverengileşene kadar 6-8 dakika pişirin. Tuz ve karabiber ekleyin.",
-   "Domates salçasını ekleyin, 1 dakika kavurun. Sıcak dana suyu, Worcestershire sosu ve kekiği ekleyip karışımı 8 dakika kısık ateşte pişirin.",
+   "Domates salçasını ekleyin, 1 dakika kavurun. Sıcak dana et suyu, Worcestershire sosu ve kekiği ekleyip karışımı 8 dakika kısık ateşte pişirin.",
    "Mısır nişastasını 30 ml suda eritin, tavaya dökün ve sosu koyulaşana kadar karıştırın. Harcı tamamen soğumaya bırakın.",
    "Hamurun üçte ikisini 4 adet 10 cm'lik turta kalıbına yayın, kenarlarından bırakın. Soğuyan harcı kalıplara doldurun.",
    "Kalan hamuru üstlerini kapatacak kadar açın. Kenarları bastırarak kapatın ve fazlalığı kesip çatalla kenarlarını bastırın.",
@@ -85,5 +85,14 @@
   "tr": "Harcı mutlaka soğutun; sıcak harç hamuru eritir ve alt kısmı ıslak bırakır.",
   "en": "Let the filling cool completely before assembling, otherwise hot gravy melts the butter and leaves the base soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the 30-minute pastry rest, cooling the filling completely, cooking the filling, assembling and the 25-30 minute bake add up to roughly 100+ minutes",
+   "Turkish 'dana suyu' is an unnatural term for beef stock; 'dana et suyu' is the usual wording"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

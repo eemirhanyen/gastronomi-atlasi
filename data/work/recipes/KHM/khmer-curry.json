@@ -25,7 +25,7 @@
    "3 kaffir limonu yaprağı",
    "1 yemek kaşığı palmiye şekeri veya esmer şeker",
    "1,5 yemek kaşığı balık sosu",
-   "Kroeung için: 4 kuru soğan, 4 diş sarımsak, 2 sap limon otunun beyaz kısmı (ince doğranmış), 3 cm galangal (doğranmış), 2 cm taze zerdeçal (veya 1 çay kaşığı öğütülmüş), 2 kuru kırmızı biber (30 dakika ılık suda bekletilmiş), 1 yemek kaşığı su",
+   "Kroeung için: 4 arpacık soğanı, 4 diş sarımsak, 2 sap limon otunun beyaz kısmı (ince doğranmış), 3 cm galangal (doğranmış), 2 cm taze zerdeçal (veya 1 çay kaşığı öğütülmüş), 2 kuru kırmızı biber (30 dakika ılık suda bekletilmiş), 1 yemek kaşığı su",
    "Servis için: birkaç dal taze kişniş, 1 küçük baget"
   ],
   "en": [
@@ -47,7 +47,7 @@
  },
  "steps": {
   "tr": [
-   "Kroeung malzemelerini (kuru soğan, sarımsak, limon otu, galangal, zerdeçal, ıslatılmış kırmızı biber ve 1 yemek kaşığı su) pürüzsüz bir macun olana kadar blendırdan geçirin.",
+   "Kroeung malzemelerini (arpacık soğanı, sarımsak, limon otu, galangal, zerdeçal, ıslatılmış kırmızı biber ve 1 yemek kaşığı su) pürüzsüz bir macun olana kadar blenderdan geçirin.",
    "Geniş bir tencerede bitkisel yağı orta-yüksek ateşte ısıtın. Kroeung macununu ekleyip 3-4 dakika, kokusu çıkana ve yağ ayrılana kadar kavurun.",
    "Tavuk parçalarını ekleyip 3 dakika, yüzeyleri hafifçe renk alana kadar karıştırarak kavurun.",
    "Köri tozu ve zerdeçalı ekleyip 30 saniye daha karıştırın.",
@@ -73,5 +73,14 @@
   "tr": "Hindistan cevizi sütü ekledikten sonra sosu sert kaynatmayın; kısık ateşte pişirmek sütün ayrışmasını önler.",
   "en": "Once the coconut milk is in, keep the curry at a gentle simmer; a hard boil can make the sauce separate and turn grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish kroeung ingredient 'kuru soğan' means dried onion, but the English 'shallots' are arpacık soğanı in Turkish; fixed in the ingredient list and step 1.",
+   "Typo 'blendırdan' in Turkish step 1; corrected to 'blenderdan'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

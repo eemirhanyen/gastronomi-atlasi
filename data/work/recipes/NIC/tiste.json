@@ -18,6 +18,7 @@
    "60 g kavrulmuş kakao çekirdeği (kabuğu soyulmuş)",
    "1 adet 5 cm tarçın çubuğu",
    "1 tatlı kaşığı (yaklaşık 3 g) achiote tohumu",
+   "100 ml sıcak su (achiote için)",
    "60 g toz şeker (isteğe göre)",
    "1 bardak (yaklaşık 200 ml) soğuk su + 800 ml soğuk su",
    "1 tutam tuz",
@@ -29,6 +30,7 @@
    "60 g roasted cacao beans (shelled)",
    "1 cinnamon stick (5 cm)",
    "1 teaspoon (about 3 g) annatto seeds (achiote)",
+   "100 ml hot water (for the annatto)",
    "60 g granulated sugar (to taste)",
    "200 ml cold water + 800 ml cold water",
    "1 pinch salt",
@@ -61,5 +63,14 @@
   "tr": "Köpüğü kalın tutmak için karışımı iki kap arasında yüksekten dökün; geleneksel servis için içeceği kabakta (jícara) sunabilirsiniz.",
   "en": "For a thick, lasting foam, pour from a greater height between jugs; traditionally the drink is served in a dried gourd (jícara)."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The annatto step uses 100 ml hot water, but this amount is missing from the ingredient list in both languages.",
+   "Turkish and English water totals are inconsistent with the steps: the steps use 100 ml + 200 ml + 800 ml, but the lists only show 200 ml + 800 ml."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -19,8 +19,8 @@
    "2 yemek kaşığı zeytinyağı (sos için)",
    "1 küçük soğan (80 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
-   "1 yemek kaşığı tatlı füme pul biber (pimentón dulce)",
-   "1/2 tatlı kaşığı acı pul biber (pimentón picante)",
+   "1 yemek kaşığı tatlı füme toz biber (pimentón dulce)",
+   "1/2 tatlı kaşığı acı füme toz biber (pimentón picante)",
    "400 g püre haline getirilmiş domates (passata)",
    "1 yemek kaşığı kırmızı şarap sirkesi",
    "1 tatlı kaşığı şeker",
@@ -53,7 +53,7 @@
    "Derin bir tencerede yağı orta-yüksek ateşte yaklaşık 160 °C'ye getirin. Patates küplerini partiler halinde ekleyip 6-8 dakika, yumuşayana ve hafif renk alana kadar kızartın. Süzgece alın.",
    "Yağı yaklaşık 190 °C'ye çıkarın. Patatesleri tekrar partiler halinde 2-3 dakika, altın renginde ve çıtır olana kadar kızartın. Kağıt havlu üzerine alın ve tuzla hafifçe tatlandırın.",
    "Sos için ayrı bir tencerede 2 yemek kaşığı zeytinyağını orta ateşte ısıtın. Soğanı yumuşayıp şeffaflaşana kadar 6-8 dakika soteleyin.",
-   "Sarımsağı ekleyip 1 dakika kavurun. Ateşi kapatın, iki çeşit pul biberi ekleyip 20-30 saniye karıştırın; yanmaması için hemen aşağıdaki maddeleri ekleyin.",
+   "Sarımsağı ekleyip 1 dakika kavurun. Ateşi kapatın, iki çeşit füme toz biberi ekleyip 20-30 saniye karıştırın; yanmaması için hemen aşağıdaki malzemeleri ekleyin.",
    "Domates püresini, sirkeyi, şekeri, tuzu ve suyu ekleyin. Karıştırıp kısık ateşte yaklaşık 15 dakika pişirin. Unu biraz suyla karıştırıp sosa ekleyin ve 2 dakika daha kaynatın. Dilerseniz blenderdan geçirip pürüzsüz hale getirin.",
    "Alioli için mayonez, rendelenmiş sarımsak ve limon suyunu küçük bir kasede iyice karıştırın.",
    "Kızarmış patatesleri servis tabağına alın. Üzerine sıcak domates sosunu gezdirin, ardından alioliden birkaç çizgi çekin. Hemen servis yapın."
@@ -73,5 +73,14 @@
   "tr": "Patateslerin çıtır kalması için iki aşamalı kızartmayı atlamayın ve kızartmadan önce kurulamalarına özen gösterin; kalabalık tavada pişirmekten kaçının.",
   "en": "For really crisp potatoes, do not skip the double-frying step, dry the cubes well, and fry in small batches so the oil stays hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish: 'pul biber' (red pepper flakes) is used for pimentón, which is a powdered smoked paprika. Ingredient and step names should say 'toz' (powder).",
+   "Turkish step 5: 'aşağıdaki maddeleri' is unnatural for 'the next ingredients'. It should read 'malzemeleri'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

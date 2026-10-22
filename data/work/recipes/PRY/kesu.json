@@ -9,7 +9,7 @@
   "en": "A Paraguayan dessert of fresh white cheese sweetened and served with guava paste. It is common at family gatherings, celebrations and afternoon snacks."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Peyniri çok kuru yapmamak için süzme işlemini 30 dakikayı geçirmeden bırakın; kıvam yumuşak ve kremsi kalmalıdır.",
   "en": "Drain the curds for no more than 30 minutes so the cheese stays soft and creamy rather than dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 90, but the steps alone take at least 105 minutes (about 10 min heating, 10 min rest, 30 min draining, 60 min chilling, plus mixing)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

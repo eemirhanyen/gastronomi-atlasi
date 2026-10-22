@@ -18,7 +18,7 @@
    "60 ml taze limon suyu",
    "12 g sarımsak, ince doğranmış (yaklaşık 4 diş)",
    "60 g beyaz soğan, ince dilimlenmiş",
-   "5 g kuru kekik veya kekik",
+   "5 g kuru kekik (oregano)",
    "3 g öğütülmüş kimyon",
    "6 g tuz",
    "2 g karabiber",
@@ -79,5 +79,13 @@
   "tr": "Eti mutlaka lifine dik kesin; yan bant gibi liflı kesimlerde bu, dişte yumuşak bir doku sağlar.",
   "en": "Always slice across the grain; with fibrous cuts like flank, this is what makes the meat tender to bite."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient reads 'kuru kekik veya kekik' (dried thyme or thyme), but the English says 'dried oregano'. The Turkish wording is also redundant. Aligned to dried oregano, writt"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

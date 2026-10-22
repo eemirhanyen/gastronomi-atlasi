@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1 adet yuvarlak, kabuklu Malta ekmeği (hobza) ya da köy ekmeği, yaklaşık 600 g",
+   "1 adet yuvarlak, kabuklu Malta ekmeği (ħobża) ya da köy ekmeği, yaklaşık 600 g",
    "3 orta boy olgun domates (yaklaşık 450 g)",
    "1 diş sarımsak",
    "60 ml sızma zeytinyağı",
@@ -21,7 +21,7 @@
    "1 küçük kırmızı soğan (yaklaşık 80 g), ince dilimlenmiş",
    "80 g siyah zeytin, çekirdeksiz",
    "2 yemek kaşığı kapari (yaklaşık 20 g), süzülmüş",
-   "1 tatlı kaşığı kuru kekik ya da kekik yerine kuru kekik",
+   "1 tatlı kaşığı kuru kekik (oregano)",
    "1 çay kaşığı tuz",
    "Öğütülmüş karabiber"
   ],
@@ -69,5 +69,13 @@
   "tr": "Ekmeği sıcakken domatesle sürmek, posanın ekmeğe iyice işlemesini sağlar; tazeliği için en fazla birkaç saat önceden hazırlayın.",
   "en": "Rub the tomato onto the bread while it is still warm so the juices soak in, and assemble just before serving so the bread stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for the herb is garbled (\"1 tatlı kaşığı kuru kekik ya da kekik yerine kuru kekik\") and names thyme, while the English lists dried oregano. The Turkish should name oregano (kur"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

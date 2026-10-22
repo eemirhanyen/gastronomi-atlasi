@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g beyaz et balığı (ör. lepisosteus, levrek veya kırlangıç balığı), temizlenmiş ve parça parça kesilmiş",
+   "800 g beyaz et balığı (ör. levrek, çipura veya kırmızı mercan), temizlenmiş ve parça parça kesilmiş",
    "30 ml palmiye yağı",
    "300 g soğan, ince dilim",
    "4 diş sarımsak, ezilmiş",
@@ -69,5 +69,14 @@
   "tr": "Palmiye yağı yoğun bir aroma verir; yoksa yağı hafifçe ısıtılmış zeytinyağı ve bir tutam kırmızı biber salçasıyla yaklaşık benzer bir tat elde edebilirsiniz.",
   "en": "Palm oil gives the authentic deep flavour; if unavailable, use a little warmed olive oil with a pinch of paprika for a closer taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish species list (lepisosteus, levrek, kırlangıç balığı) does not match the English list (grouper, snapper, sea bream). Lepisosteus is a freshwater gar, not a suitable fish for this soup, and",
+   "Turkish tip uses 'kırmızı biber salçası' (paprika paste) while the English tip says 'a pinch of paprika'. The amount is not stated in either, so the substitution is ambiguous. Minor, but it is a Turki"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

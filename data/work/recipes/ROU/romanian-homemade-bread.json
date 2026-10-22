@@ -17,7 +17,7 @@
    "320 ml ılık su",
    "7 g kuru maya (1 paket)",
    "4 g toz şeker (1 tatlı kaşığı)",
-   "10 g tuz (1 tatlı kaşığı, yassı)",
+   "10 g tuz (yaklaşık 2 tatlı kaşığı)",
    "15 ml sıvı yağ (ayçiçek veya kanola)",
    "10 ml zeytinyağı (kabuğu yağlamak için)"
   ],
@@ -26,7 +26,7 @@
    "320 ml lukewarm water",
    "7 g dry yeast (1 packet)",
    "4 g caster sugar (1 teaspoon)",
-   "10 g salt (1 level teaspoon)",
+   "10 g salt (about 2 level teaspoons)",
    "15 ml neutral oil (sunflower or canola)",
    "10 ml olive oil (for brushing the crust)"
   ]
@@ -36,7 +36,7 @@
    "Küçük bir kapta 60 ml ılık suyu, şekeri ve mayayı karıştırın. Yüzeyi köpürene kadar yaklaşık 10 dakika dinlendirin.",
    "Geniş bir karıştırma kabına unu ve tuzu koyup ortasında bir çukur açın.",
    "Çukura mayalı suyu, kalan 260 ml ılık suyu ve sıvı yağı ekleyin.",
-   "Malzemeler yapışmayan, pürüzsüz bir hamur oluşana kadar yaklaşık 10 dakika yoğurun. Gerekirse un, yapışırsa az su ekleyin.",
+   "Malzemeler yapışmayan, pürüzsüz ve elastik bir hamur oluşana kadar yaklaşık 10 dakika yoğurun. Gerekirse un, yapışırsa az su ekleyin.",
    "Hamuru hafif yağlanmış bir kaseye alın, üzerini nemli bir bezle örtün ve 25-26°C'de ikiye katlanana kadar yaklaşık 1,5 saat mayalanmaya bırakın.",
    "Hamuru hafifçe bastırıp havasını alın, yuvarlak bir somun şekli verin ve unlanmış bir fırın tepsisine ya da bezle kaplı bir kaseye alın.",
    "Somunu bezle örtüp 45 dakika kadar ikinci kez mayalanmaya bırakın.",
@@ -60,8 +60,19 @@
   ]
  },
  "tip": {
-  "tr": "Ekmeğin kabuğunun çıtır olması için fırına ilk 10 dakika buhar verin ve ekmek soğumadan kesmeyin; içi tam oturmaz.",
-  "en": "For a crisper crust, keep the steam tray in the oven for the first 10 minutes, and wait until the loaf is fully cool before slicing, or the crumb will be gummy."
+  "tr": "Ekmeğin kabuğunun çıtır olması için fırına ilk 10 dakika buhar verin, ardından buhar kabını çıkarın. Ekmeği en az 30 dakika soğumadan kesmeyin; aksi halde içi tam oturmaz.",
+  "en": "For a crisper crust, keep the steam tray in the oven for the first 10 minutes, then remove it. Wait at least 30 minutes before slicing, or the crumb will be gummy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity mismatch: 10 g is about 2 level teaspoons of table salt, not 1 (the parenthetical in both languages understates it).",
+   "Tip says to keep the steam tray in the oven for the first 10 minutes, but step 8 does not say when to remove it.",
+   "Tip says to wait until the loaf is 'fully cool' before slicing, but step 11 says at least 30 minutes. These should agree.",
+   "Turkish step 4 omits 'elastic' from the English 'smooth, elastic dough'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

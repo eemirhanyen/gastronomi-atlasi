@@ -9,15 +9,15 @@
   "en": "A triangular pastry filled with lamb and onion, traditionally baked in a clay tandoor. In Kyrgyzstan it is served at weddings, holidays and family gatherings, and is often eaten with tea."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "300 g un",
-   "150 ml ılık su",
-   "4 g tuz",
-   "30 ml bitkisel yağ",
-   "350 g kuzu omuz eti, küçük küp doğranmış",
+   "600 g un",
+   "300 ml ılık su",
+   "8 g tuz",
+   "60 ml bitkisel yağ",
+   "350 g kuzu omuz eti, yaklaşık 5 mm küp doğranmış",
    "40 g kuzu yağı veya tereyağı, eritilmiş",
    "250 g soğan, ince doğranmış",
    "5 g tuz (iç harç için)",
@@ -28,11 +28,11 @@
    "15 ml süt"
   ],
   "en": [
-   "300 g plain flour",
-   "150 ml lukewarm water",
-   "4 g salt",
-   "30 ml vegetable oil",
-   "350 g lamb shoulder, cut into small cubes",
+   "600 g plain flour",
+   "300 ml lukewarm water",
+   "8 g salt",
+   "60 ml vegetable oil",
+   "350 g lamb shoulder, cut into 5 mm cubes",
    "40 g lamb fat or butter, melted",
    "250 g onion, finely chopped",
    "5 g salt (for the filling)",
@@ -46,28 +46,39 @@
  "steps": {
   "tr": [
    "Unu, tuzu, ılık suyu ve bitkisel yağı bir kapta yoğurarak pürüzsüz, yumuşak bir hamur elde edin. Hamuru streçle örtüp oda sıcaklığında 30 dakika dinlendirin.",
-   "Kuzu etini küçük küpler halinde doğrayın, soğanı ince doğrayın. Büyük bir kapta et, soğan, 5 g tuz, karabiber ve kimyonu karıştırın.",
+   "Kuzu etini yaklaşık 5 mm'lik küpler halinde doğrayın, soğanı ince doğrayın. Büyük bir kapta et, soğan, 5 g tuz, karabiber ve kimyonu karıştırın.",
    "Eritilmiş kuzu yağını veya tereyağını ve 50 ml soğuk suyu harca ekleyip iyice karıştırın. Harcı 10 dakika dinlendirin.",
-   "Hamuru 12 eşit parçaya bölün. Her parçayı yaklaşık 12 cm çapında, çok ince bir yuvarlak olacak şekilde açın.",
-   "Her yuvarlağın ortasına yaklaşık 25 g iç harç koyun. Kenarları ortaya doğru katlayıp üçgen şekli verin ve kenarları sıkıca birleştirerek bastırın.",
+   "Hamuru 12 eşit parçaya bölün (her biri yaklaşık 50 g). Her parçayı yaklaşık 12 cm çapında, çok ince bir yuvarlak olacak şekilde açın.",
+   "Her yuvarlağın ortasına yaklaşık 55 g iç harç koyun. Kenarları ortaya doğru katlayıp üçgen şekli verin ve kenarları sıkıca birleştirerek bastırın.",
    "Fırını 220°C'ye ısıtın. Fırın tepsisini yağlı kağıtla kaplayın ve samsaları aralarında boşluk bırakarak dizin.",
    "Yumurta sarısını sütle çırpın ve samsaların üzerine ince bir tabaka halinde sürün.",
-   "Samsaları 25-30 dakika, üstleri altın rengi olana kadar pişirin. Sıcak servis yapın."
+   "Samsaları 30-35 dakika, üstleri altın rengi olana ve et tamamen pişene kadar pişirin. Sıcak servis yapın."
   ],
   "en": [
    "In a bowl, knead the flour, salt, lukewarm water and vegetable oil into a smooth, soft dough. Cover with cling film and rest at room temperature for 30 minutes.",
-   "Cut the lamb into small cubes and finely chop the onion. In a large bowl, mix the lamb, onion, 5 g salt, black pepper and cumin.",
+   "Cut the lamb into 5 mm cubes and finely chop the onion. In a large bowl, mix the lamb, onion, 5 g salt, black pepper and cumin.",
    "Add the melted lamb fat or butter and the 50 ml cold water to the filling and mix well. Let the filling rest for 10 minutes.",
-   "Divide the dough into 12 equal pieces. Roll each piece into a very thin round about 12 cm in diameter.",
-   "Place about 25 g of filling in the centre of each round. Fold the edges toward the middle to form a triangle, then pinch the edges firmly together to seal.",
+   "Divide the dough into 12 equal pieces (about 50 g each). Roll each piece into a very thin round about 12 cm in diameter.",
+   "Place about 55 g of filling in the centre of each round. Fold the edges toward the middle to form a triangle, then pinch the edges firmly together to seal.",
    "Preheat the oven to 220°C. Line a baking tray with baking paper and arrange the samsa on it, leaving space between them.",
    "Beat the egg yolk with the milk and brush a thin layer over the samsa.",
-   "Bake for 25-30 minutes until the tops are golden brown. Serve hot."
+   "Bake for 30-35 minutes until the tops are golden brown and the lamb is fully cooked. Serve hot."
   ]
  },
  "tip": {
   "tr": "Evde tandır yerine ısıtılmış ağır bir fırın tepsisi veya pizza taşı kullanırsanız alt kısım daha çıtır olur.",
   "en": "At home, preheat a heavy baking tray or pizza stone so the bottoms become crisp, mimicking the tandoor's intense heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling quantity doesn't match: about 700 g of lamb, onion, salt, fat and water is listed, but 12 samsa at 25 g each use only 300 g.",
+   "Dough is too small for the filling: 300 g flour split into 12 pieces gives about 25 g of dough per samsa, which can't hold the filling and won't roll to a 12 cm round.",
+   "Raw lamb in large cubes baked only 25-30 min may stay undercooked inside. Smaller pieces and a slightly longer bake are needed.",
+   "Step 5 filling amount (25 g) must be updated to match the corrected filling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

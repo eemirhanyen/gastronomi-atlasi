@@ -31,9 +31,9 @@
  },
  "steps": {
   "tr": [
-   "Geniş ve kalın tabanlı bir tencerede suyu tuzla birlikte kaynatın.",
-   "Mısırununu bir kâseye alın ve yaklaşık 100 ml kaynamış sudan bir miktar ekleyip pürüzsüz bir karışım hazırlayın; bu, topaklanmayı önler.",
-   "Ocağı orta-kısık ateşe alın. Mısır unu karışımını ince bir akış halinde kaynayan suya dökerken sürekli karıştırın.",
+   "1200 ml suyun 100 ml'sini soğuk olarak ayırın; kalan 1100 ml suyu tuzla birlikte geniş ve kalın tabanlı bir tencerede kaynatın.",
+   "Mısır ununu bir kâseye alın ve ayırdığınız 100 ml soğuk suyla pürüzsüz bir macun haline getirin; bu, topaklanmayı önler.",
+   "Ocağı orta-kısık ateşe alın. Mısır unu macununu kaynayan suya ince bir akış halinde dökerken sürekli karıştırın.",
    "Ahşap kaşıkla yaklaşık 25-30 dakika boyunca sık sık karıştırarak pişirin; lapa koyulaştıkça kaşık dibe yapışmasın diye ateşi gerekirse biraz daha düşürün.",
    "Lapa tencerenin kenarlarından ayrılmaya başlayıp bir top gibi toplandığında pişmiş demektir. Ocaktan alın, tereyağını ekleyip iyice karıştırın.",
    "Tencereyi kapatıp 5 dakika dinlendirin.",
@@ -41,8 +41,8 @@
    "Üzerine ufalanmış telemea peynirini ve ekşi kremayı koyarak sıcak servis yapın."
   ],
   "en": [
-   "In a wide, heavy-bottomed pot, bring the water and salt to a boil.",
-   "In a bowl, mix the cornmeal with about 100 ml of the boiling water to form a smooth slurry; this prevents lumps.",
+   "Set aside 100 ml of the water cold. In a wide, heavy-bottomed pot, bring the remaining 1100 ml of water and the salt to a boil.",
+   "In a bowl, mix the cornmeal with the reserved 100 ml of cold water to form a smooth slurry; this prevents lumps.",
    "Reduce the heat to medium-low. Pour the cornmeal slurry into the boiling water in a thin stream while stirring constantly.",
    "Cook for about 25-30 minutes, stirring frequently with a wooden spoon, and lower the heat if needed so the porridge does not stick to the bottom.",
    "The mămăligă is ready when it thickens, pulls away from the pot sides and forms a single mass. Remove from the heat, add the butter and stir well.",
@@ -55,5 +55,15 @@
   "tr": "Mısır unu tencereye topak olmadan eklenmesi için önce soğuk veya ılık suyla bir macun gibi karıştırın; lapayı pişirirken sık karıştırmak yanmasını önler.",
   "en": "Mix the cornmeal into a smooth slurry before adding it to the pot, and stir often during cooking to prevent lumps and scorching."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 (tr and en) mixes the cornmeal with boiling water, but the tip says to make the slurry with cold or lukewarm water. Boiling water would partly cook the flour and cause the lumps the step is mea",
+   "Step 1 brings all 1200 ml of water to a boil, leaving no cold water for the slurry in step 2. The water must be split: 100 ml reserved cold, 1100 ml boiled.",
+   "Step 3 (tr) refers to 'kaynamış sudan' (boiled water) again, which contradicts the corrected method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

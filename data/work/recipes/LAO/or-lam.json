@@ -6,14 +6,14 @@
  "native": "ອໍາລໍາ",
  "desc": {
   "tr": "Laos'un geleneksel ev yemeklerinden olan, limon otu, galangal ve kavrulmuş yapışkan pirinç tozuyla koyulaştırılmış aromatik bir et ve sebze yahnisidir. Genellikle öğle yemeğinde ve aile toplantılarında yapışkan pirinçle birlikte servis edilir.",
-  "en": "Or-lam is a traditional Lao family stew of beef, pumpkin and eggplant, thickened with toasted sticky rice powder and perfumed with lemongrass and galangal. It is usually served at lunch and family gatherings with sticky rice."
+  "en": "Or-lam is a traditional Lao family stew of beef, pumpkin, eggplant and long beans, thickened with toasted sticky rice powder and perfumed with lemongrass and galangal. It is usually served at lunch and family gatherings with sticky rice."
  },
  "servings": 4,
  "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "500 g dana eti (bonfile veya but, küp doğranmış)",
+   "500 g dana eti (sırlon veya but, küp doğranmış)",
    "300 g balkabağı, küp doğranmış",
    "2 orta boy patlıcan (yaklaşık 300 g), kalın dilimlenmiş",
    "150 g uzun fasulye, 4 cm'lik parçalar halinde",
@@ -56,7 +56,7 @@
  "steps": {
   "tr": [
    "Yapışkan pirinci kuru bir tavada orta ateşte altın rengi olana kadar yaklaşık 5 dakika kavurun, soğumaya bırakın ve blenderda ya da havanda toz haline getirin.",
-   "Kuru acı biberlerin sularını süzün, sapları çıkarın. Biberleri, limon otu, galangal, arpacık soğanı, sarımsak ve birkaç yemek kaşığı su ile birlikte pürüzsüz bir macun elde edene kadar dövün ya da blendırdan geçirin.",
+   "Kuru acı biberlerin sularını süzün, sapları çıkarın. Biberleri, limon otu, galangal, arpacık soğanı, sarımsak ve birkaç yemek kaşığı su ile birlikte pürüzsüz bir macun elde edene kadar dövün ya da blenderdan geçirin.",
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Dana etini ekleyip her tarafı renk alana kadar yaklaşık 5 dakika kavurun.",
    "Hazırladığınız macunu tencereye ekleyin ve kokusu çıkana kadar yaklaşık 3 dakika karıştırarak kavurun.",
    "Padek ve 1 litre suyu ekleyin, kaffir misket limonu yapraklarını da ilave edin. Kaynayınca ateşi kısın ve etler yumuşayana kadar yaklaşık 40 dakika kısık ateşte pişirin.",
@@ -81,5 +81,15 @@
   "tr": "Kavrulmuş pirinç tozunu doğrudan tencereye eklemeyin; önce soğuk suyla karıştırmazsanız topaklanır. Aroma için sebzeleri pişirmeden önce macunu iyice kavurun.",
   "en": "Mix the rice powder with cold water before adding it, or it will clump. Frying the paste well before adding liquid is what gives or-lam its depth of flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'bonfile' (tenderloin) but English says 'sirloin or topside'. The two versions disagree, and tenderloin is a poor choice for a 40-minute stew.",
+   "Turkish step 2 has the typo 'blendırdan' instead of 'blenderdan'.",
+   "English description lists beef, pumpkin and eggplant but omits the long beans, which the recipe uses."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

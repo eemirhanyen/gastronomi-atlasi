@@ -5,11 +5,11 @@
  },
  "native": "Cocada",
  "desc": {
-  "tr": "Angola'da ve Portekiz dünyasında yaygın, şekerli hindistancevizinden yapılan yumuşak bir şekerleme. Genellikle öğleden sonra kahvesiyle, bayramlarda ve misafirliklerde servis edilir.",
+  "tr": "Angola'da ve Portekiz dünyasında yaygın, şekerli hindistancevizinden yapılan yumuşak bir şekerleme. Genellikle öğleden sonra kahvesiyle, kutlamalarda ve misafirliklerde servis edilir.",
   "en": "A soft, sweet coconut confection common in Angola and across the Portuguese-speaking world. It is typically served with coffee in the afternoon and at celebrations and when guests visit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,14 @@
   "tr": "Şurup kıvamını ölçmek için ocaktan almadan önce bir damla şurubu soğuk suya damlatın; ince bir iplik gibi duruyorsa hazırdır. Yumurtayı eklerken ocağı çok kısık tutmak topaklanmayı önler.",
   "en": "To check the syrup, drop a little into cold water before adding the coconut; it should form a fine thread. Keep the heat very low once the egg yolks go in to prevent lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't match the steps: the recipe requires 1-2 hours of cooling on top of about 30-40 minutes of cooking, so the total is closer to 2-3 hours.",
+   "Turkish description says 'bayramlarda' (at bayrams). That term refers specifically to Islamic religious holidays, which doesn't fit a Portuguese-influenced Angolan celebration. 'kutlamalarda' is the n"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

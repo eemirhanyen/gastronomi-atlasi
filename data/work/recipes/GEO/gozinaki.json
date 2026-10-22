@@ -35,7 +35,7 @@
    "Cevizleri kabaca doğrayın; çok ince olmamalı, küçük parçalar halinde kalmalıdır.",
    "Bir fırın tepsisinin üzerine pişirme kağıdı serin ve kağıdın yüzeyine sıvı yağı ince bir tabaka halinde sürün.",
    "Kalın tabanlı bir tencereye balı, kristal şekeri ve suyu koyun. Şeker eriyene kadar karıştırın.",
-   "Karışımı orta ateşte, karıştırmadan 140°C'ye kadar pişirin. Bunun için şeker termometresi kullanın.",
+   "Karışımı orta ateşte, karıştırmadan 150°C'ye kadar pişirin. Bunun için şeker termometresi kullanın.",
    "Ocaktan alın ve hemen doğranmış cevizleri ile bir tutam tuzu ekleyip hızlıca karıştırın.",
    "Karışımı yağlanmış pişirme kağıdının üzerine dökün. Yağlanmış oklava veya spatula yardımıyla yaklaşık 1 cm kalınlığında, düzgün bir tabaka halinde yayın.",
    "Hafif ılınca, keskin bir bıçakla elmas veya dikdörtgen parçalar halinde kesin.",
@@ -46,7 +46,7 @@
    "Roughly chop the walnuts into small pieces; they should not be too fine.",
    "Line a baking tray with parchment paper and brush the surface lightly with the neutral oil.",
    "Put the honey, granulated sugar and water into a heavy-bottomed saucepan. Stir until the sugar has dissolved.",
-   "Cook over medium heat without stirring until the mixture reaches 140°C, using a sugar thermometer.",
+   "Cook over medium heat without stirring until the mixture reaches 150°C, using a sugar thermometer.",
    "Remove from the heat and quickly stir in the chopped walnuts and a pinch of salt.",
    "Pour the mixture onto the oiled parchment. Using an oiled rolling pin or spatula, spread it into an even layer about 1 cm thick.",
    "While still slightly warm, cut into diamonds or rectangles with a sharp knife.",
@@ -57,5 +57,13 @@
   "tr": "Şurup hazır olduktan sonra hızlı çalışın; oklavayı ve bıçağı hafifçe yağlamak, karışımın yapışmasını önler.",
   "en": "Work quickly once the syrup is ready, and lightly oil the rolling pin and knife so the mixture does not stick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Final cooking temperature of 140°C is too low for a brittle. The syrup stays at soft-crack stage and will not set hard, so the finished gozinaki would be chewy instead of brittle. Raised to 150°C (har"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

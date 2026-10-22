@@ -24,7 +24,7 @@
    "30 g öğütülmüş kurutulmuş karides",
    "1 adet sebzeli veya etli bulyon küpü",
    "1 tatlı kaşığı tuz",
-   "1 litre su (bölünmüş)",
+   "800 ml su (bölünmüş)",
    "300 g uzun taneli pirinç, servis için"
   ],
   "en": [
@@ -39,7 +39,7 @@
    "30 g ground dried crayfish",
    "1 beef stock cube",
    "1 tsp salt",
-   "1 litre water, divided",
+   "800 ml water, divided",
    "300 g long-grain rice, to serve"
   ]
  },
@@ -69,5 +69,13 @@
   "tr": "Manyok yapraklarını mutlaka uzun süre, en az 1,5 saat iyice pişirin; çiğ veya yetersiz pişmiş manyok yaprağı zehirli siyanojenik bileşikler içerebilir.",
   "en": "Cook the cassava leaves thoroughly for at least 1.5 hours; raw or undercooked cassava leaves contain cyanogenic compounds and must not be eaten."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The ingredient list says 1 litre of water, but the steps use 150 ml + 400 ml + 250 ml = 800 ml. The water amount in both languages has been changed to 800 ml to match the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

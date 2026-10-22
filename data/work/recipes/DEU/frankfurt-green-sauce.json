@@ -9,11 +9,11 @@
   "en": "A cold, creamy and tangy sauce made from seven fresh herbs. It is especially associated with Frankfurt and the surrounding Hesse region, where it is served in spring and summer with boiled potatoes, boiled eggs or boiled beef."
  },
  "servings": 4,
- "time_min": 45,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "150 g karışık taze ot (borretsch, kereviz değil; kerevizin yerine kerevizsi kerevizin yeşil yaprağı yerine kekik değil; yedi ot: borretsch, kerevizin yerine kerevizsi yok) ",
+   "150 g karışık taze ot (7 çeşit, her biri yaklaşık 20–25 g: hodan otu, kervil, frenk soğanı, tere, maydanoz, pimpinella, labada)",
    "200 g Schmand (ya da ekşi krema)",
    "200 g yağlı naturel yoğurt (%3,5 yağlı)",
    "2 adet haşlanmış yumurta",
@@ -54,8 +54,18 @@
   ]
  },
  "tip": {
-  "tr": "Otları kıyarken bıçağı çok keskin tutun; ezilen otlar sosu koyulaştırır ve rengini kararttırır.",
+  "tr": "Otları kıyarken bıçağı çok keskin tutun; ezilen otlar sosun rengini soluklaştırır ve donuk görünmesine neden olur.",
   "en": "Chop the herbs with a very sharp knife; bruised herbs turn the sauce dull and darken its colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish first ingredient line is garbled and does not name the seven herbs, while the English version lists them",
+   "Turkish tip says bruised herbs 'thicken' (koyulaştırır) the sauce, but the English tip says they make it dull; the Turkish wording is also unnatural ('rengini kararttırır')",
+   "time_min of 45 is too short: the recipe includes 9 minutes of egg cooking plus at least 1 hour of chilling"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

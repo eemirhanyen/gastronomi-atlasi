@@ -30,7 +30,7 @@
    "3 g öğütülmüş kişniş",
    "2 g acı kırmızı biber tozu",
    "1 g garam masala",
-   "5 g tuz (patates için)",
+   "5 g tuz (köri için)",
    "250 ml su",
    "15 g taze kişniş, doğranmış"
   ],
@@ -52,7 +52,7 @@
    "3 g ground coriander",
    "2 g red chili powder",
    "1 g garam masala",
-   "5 g salt (for the potatoes)",
+   "5 g salt (for the curry)",
    "250 ml water",
    "15 g fresh coriander, chopped"
   ]
@@ -68,7 +68,7 @@
    "Hamuru 12 eşit topa bölün. Her topu yaklaşık 10 cm çapında, 3 mm kalınlığında ince yuvarlak haline getirin.",
    "Kızartma yağını 170-180°C'ye kadar ısıtın. Puriyi tek tek yağa bırakın ve kepçeyle hafifçe bastırarak kabarmasını sağlayın.",
    "Her iki yüzü 30-45 saniye, altın rengi ve kabarık olana kadar kızartın. Kağıt havlu üzerinde süzün.",
-   "Puriyi sıcak aloo körisi ile servis edin ve kalan taze kişnişi üzerine serpin."
+   "Puriyi sıcak aloo körisi ile servis edin ve kalan taze kişniş yapraklarını üzerine serpin."
   ],
   "en": [
    "Mix the flour with the salt, then gradually add water and knead for 8-10 minutes until you have a smooth, firm dough. Cover and rest for 20 minutes.",
@@ -87,5 +87,14 @@
   "tr": "Puriler kabarsın diye hamuru çok ince açmayın ve yağ sıcaklığının sabit kalmasına dikkat edin; yağ çok düşük olursa puri yağlı ve sert olur.",
   "en": "Roll the dough evenly and keep the oil at a steady temperature; if it is too cool the puris will absorb oil and turn tough instead of puffing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The second salt entry is labeled 'for the potatoes' (tr: 'patates için', en: 'for the potatoes'), but step 5 uses it in the masala with the tomato and spices. The label is wrong in both languages.",
+   "The water used to boil the potatoes in step 2 is 'salted' but no salt amount is given for it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

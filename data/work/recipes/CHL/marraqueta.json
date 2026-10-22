@@ -40,7 +40,7 @@
    "Köpüren maya karışımını, kalan 170 ml suyu ve yumuşak domuz yağını çukura ekleyin. Önce bir kaşıkla, sonra elinizle yoğurmaya başlayın.",
    "Hamur pürüzsüz ve esnek olana kadar yaklaşık 10 dakika yoğurun. Yapışıyorsa birkaç kaşık un ekleyin, ama hamur sert olmasın.",
    "Hamuru yağlanmış bir kaseye alın, üzerini örtün ve oda sıcaklığında yaklaşık 1 saat, iki katına çıkana kadar mayalandırın.",
-   "Hamuru hafifçe bastırıp havasını alın. Dört eşit parçaya bölün (her biri yaklaşık 100 g) ve yuvarlayıp top haline getirin.",
+   "Hamuru hafifçe bastırıp havasını alın. Dört eşit parçaya bölün (her biri yaklaşık 165 g) ve yuvarlayıp top haline getirin.",
    "Her topu hafifçe yassılaştırıp oval bir şekil verin. Ortasına, unlanmış bir tahta kaşığın sapıyla uzunlamasına bir iz açın.",
    "Bıçağı unlayıp hamurun ortasından boyuna derin bir kesik atın. Kesik yerini hafifçe aralayın; iki yanı birbirinden ayrılacak şekilde şekillendirin.",
    "Şekillenen ekmekleri unlanmış bir fırın tepsisine koyun, örtün ve 30-40 dakika dinlendirin.",
@@ -54,7 +54,7 @@
    "Pour the foamy yeast mixture, the remaining 170 ml of water and the softened lard into the well. Mix first with a spoon, then with your hands.",
    "Knead for about 10 minutes until the dough is smooth and elastic. If it sticks, add a little flour, but do not make it stiff.",
    "Place the dough in an oiled bowl, cover and leave at room temperature for about 1 hour, until doubled in size.",
-   "Gently press the dough to release the air. Divide it into four equal pieces (about 100 g each) and shape each into a ball.",
+   "Gently press the dough to release the air. Divide it into four equal pieces (about 165 g each) and shape each into a ball.",
    "Flatten each ball slightly into an oval. Press a floured wooden spoon handle lengthwise along the centre to mark a groove.",
    "Dust a knife with flour and make a deep lengthwise cut down the centre of each roll. Gently ease the two halves apart so they form two lobes.",
    "Arrange the rolls on a floured baking tray, cover and proof for 30-40 minutes.",
@@ -67,5 +67,13 @@
   "tr": "Fırına vermeden önce ekmeklerin üstüne su püskürtmek, kabuğun daha parlak ve çıtır olmasını sağlar.",
   "en": "Spritz the rolls with water just before baking for a glossier, crispier crust."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't match the piece size: total dough is about 660 g (400 g flour + 220 ml water + 7 g yeast + 8 g salt + 10 g sugar + 15 g fat), so four pieces would be about 165 g each, not 100 g ("
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

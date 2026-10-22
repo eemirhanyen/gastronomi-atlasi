@@ -9,7 +9,7 @@
   "en": "Pepperpot is a dark, slow-simmered beef stew from Trinidad & Tobago, flavoured with cassareep (a thick, cured cassava extract), cinnamon, cloves and scotch bonnet pepper. It is traditionally served at Christmas and Easter and on weekends, with bread."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Scotch bonnet biberi bütün ve delinmiş halde pişirin; kesilirse yemek çok acılaşır. Pepperpot ertesi gün daha da lezzetli olur.",
   "en": "Keep the scotch bonnet whole and pricked so the stew stays aromatic rather than fiery. Pepperpot tastes even better the next day after the flavours have settled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is shorter than the steps add up to: 30 min marinating, about 20 min browning and sautéing, about 120 min simmering and 15 min reducing, roughly 180 min in total"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

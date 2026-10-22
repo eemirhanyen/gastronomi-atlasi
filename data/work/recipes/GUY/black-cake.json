@@ -8,7 +8,7 @@
   "tr": "Gayana'da Noel ve düğünlerde yapılan, kuru meyveleri rom ve şarapta haftalarca bekletilerek hazırlanan yoğun, koyu renkli bir meyveli kektir. Genellikle yıl sonu kutlamalarında ve aile toplantılarında servis edilir.",
   "en": "A dense, dark fruit cake from Guyana, traditionally made for Christmas and weddings. Dried fruit is soaked in rum and wine before baking, and burnt sugar gives the cake its deep colour."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
@@ -58,7 +58,7 @@
    "Kuru üzüm, kuru erik ve kuş üzümünü bir kavanozda 100 ml koyu renkli rom ve 60 ml tatlı kırmızı şarapla karıştırın. Kapağını kapatıp en az bir gece, mümkünse birkaç gün oda sıcaklığında bekletin.",
    "Yanık şekeri hazırlamak için 50 g toz şekeri geniş bir tencerede orta ateşte, sürekli karıştırarak koyu kahverengi ve hafif yanık kokulu bir karamel elde edene kadar ısıtın.",
    "Karamelin üzerine dikkatlice 60 ml sıcak su ekleyin (sıçramamasına dikkat edin) ve kısık ateşte 2 dakika kaynatın. Soğumaya bırakın; bu, 60 ml yanık şeker olacak.",
-   "Fırını 150°C'ye ısıtın. 18 cm çaplı yuvarlak bir kek kalıbını yağlayıp unla hafifçe tozlayın ya da fırın kağıdıyla kaplayın.",
+   "Fırını 150°C'ye ısıtın. 18 cm çaplı yuvarlak bir kek kalıbını yağlayıp fırın kağıdıyla kaplayın.",
    "Un, kabartma tozu, tarçın, hindistan cevizi, karanfil ve tuzu bir kasede karıştırın.",
    "Tereyağı ve esmer şekeri elektrikli çırpıcıyla açık renk ve kremamsı olana kadar yaklaşık 4 dakika çırpın.",
    "Yumurtaları teker teker ekleyip her birini iyice çırpın. Vanilya özü ve soğumuş yanık şekeri ekleyip karıştırın.",
@@ -83,5 +83,14 @@
   "tr": "Kuru meyveleri ne kadar uzun süre romda bekletirseniz kek o kadar lezzetli olur; hazırlığı bir hafta önceden yapmak ideal sonuç verir.",
   "en": "The longer the fruit soaks in rum, the richer the cake; soaking for a week before baking gives the best flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) don't match the batch: an 18 cm cake made from 150 g flour, 120 g butter, 2 eggs and about 250 g of fruit yields roughly 8 slices, not 4.",
+   "Step 4 disagrees between versions: the Turkish says to grease and dust with flour or line with baking paper (either/or), while the English says to grease and line. Both now say grease and line."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

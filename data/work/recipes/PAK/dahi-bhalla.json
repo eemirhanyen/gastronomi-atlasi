@@ -9,7 +9,7 @@
   "en": "A street snack of soft fried urad dal dumplings soaked in water, then topped with yogurt, sweet tamarind chutney and a fresh mint-coriander sauce. Eaten across Pakistan, especially in Karachi and Lahore, as an afternoon or evening snack."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 255,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -18,6 +18,7 @@
    "10 g taze zencefil",
    "3 g tuz",
    "1 çay kaşığı kimyon tohumu",
+   "80 ml su (hamur için)",
    "500 ml bitkisel yağ (kızartma için)",
    "750 g sade yoğurt",
    "1/2 çay kaşığı tuz (yoğurt için)",
@@ -42,6 +43,7 @@
    "10 g fresh ginger",
    "3 g salt",
    "1 tsp cumin seeds",
+   "80 ml water (for batter)",
    "500 ml neutral oil for frying",
    "750 g plain yogurt",
    "1/2 tsp salt (for yogurt)",
@@ -65,7 +67,7 @@
   "tr": [
    "Urad dalı bol suda yıkayın, üzerini kapatacak kadar su ekleyerek 3 saat ıslatın, sonra süzün.",
    "Kimyon tohumlarını kuru tavada hafif kavurun, ezip toz haline getirin. Yarısını tamarind sosu için, yarısını üstlük için ayırın.",
-   "Islak dalı, yeşil biberi, zencefili ve 3 g tuzu blendere alın. Az su ekleyerek kıvamlı, kabarık bir hamur elde edin (yaklaşık 80 ml su yeterlidir).",
+   "Islak dalı, yeşil biberi, zencefili, 3 g tuzu ve 80 ml suyu blendere alın. Kıvamlı, kabarık bir hamur elde edin.",
    "Hamuru 3 dakika elle veya kaşıkla çırpın, havalanınca daha yumuşak olur.",
    "Bir kasede su hazırlayın. Hamurdan küçük parçalar alıp ellerinizle hafif yassı köfte şekline getirin.",
    "Yağı 170°C'ye ısıtın. Köfteleri partiler halinde, altın rengi olana kadar 3-4 dakika kızartın, kağıt havluya alın.",
@@ -79,7 +81,7 @@
   "en": [
    "Rinse the urad dal well, cover with water and soak for 3 hours, then drain.",
    "Dry-roast the cumin seeds in a pan until fragrant, then grind to a powder. Set half aside for the tamarind chutney and half for topping.",
-   "Put the drained dal, green chili, ginger and 3 g salt in a blender. Add a little water (about 80 ml total) to make a thick, smooth batter.",
+   "Put the drained dal, green chili, ginger, 3 g salt and 80 ml water in a blender to make a thick, smooth batter.",
    "Beat the batter by hand or with a spoon for 3 minutes until it becomes light and fluffy.",
    "Fill a bowl with water. Take portions of batter and shape them into small flattened dumplings using wet hands.",
    "Heat the oil to 170°C. Fry the dumplings in batches for 3-4 minutes until golden, then drain on paper towels.",
@@ -95,5 +97,14 @@
   "tr": "Köfteleri suda bekletirken ezmeyin; sıkmak yeterlidir, aksi halde yumuşaklıklarını kaybederler.",
   "en": "Squeeze the soaked dumplings gently rather than pressing hard, or they will lose their soft, spongy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 150, but the dal must soak for 3 hours alone, plus 30 minutes of chilling, so the total is at least 3.5 hours",
+   "Step 3 (both languages) adds about 80 ml water to the batter, but this water is not listed in the ingredients"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

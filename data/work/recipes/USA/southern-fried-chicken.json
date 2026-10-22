@@ -26,7 +26,7 @@
    "1/2 çay kaşığı (1 g) acı kırmızı biber",
    "1/2 çay kaşığı (1 g) kuru kekik",
    "6 g tuz (kaplama için, 1 çay kaşığı)",
-   "Yaklaşık 1 litre sıvı yağ veya bitkisel margarin (kızartma için)"
+   "Yaklaşık 1 litre sıvı bitkisel yağ veya katı bitkisel yağ (shortening, kızartma için)"
   ],
   "en": [
    "1.6 kg bone-in chicken pieces (thighs, drumsticks and split breasts, about 8 pieces)",
@@ -73,5 +73,13 @@
   "tr": "Yağ sıcaklığını bir termometreyle takip edin; sıcaklık düşerse kaplama yağ çeker ve tavuk yumuşak kalır.",
   "en": "Use a thermometer to keep the oil steady at 160-170°C; if it drops, the coating will absorb oil and turn greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list translates 'vegetable shortening' as 'bitkisel margarin'. Margarine is a water-containing spread that spatters in hot oil and is not a suitable frying fat. The English says 've"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

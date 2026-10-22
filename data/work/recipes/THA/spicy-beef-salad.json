@@ -55,7 +55,7 @@
   "tr": [
    "Dana etini, limon otu parçalarını, karabiberi ve tuzu bir tencerede 1 L suyla birlikte kaynatın. Ateşi kısın ve et tam pişene kadar, yaklaşık 12-15 dakika haşlayın.",
    "Eti suyundan çıkarıp 10 dakika dinlendirin. Ardından lifine karşı çok ince dilimleyin.",
-   "Bu sırada pirinç tozunu kuru bir tavada orta ateşte 4-5 dakika, altın rengi olana kadar kavurun. Havanki havanda ya da öğütücüde kabaca öğütün.",
+   "Bu sırada pirinç tozunu kuru bir tavada orta ateşte 4-5 dakika, altın rengi olana kadar kavurun. Havanda ya da öğütücüde kabaca öğütün.",
    "Küçük bir kasede limon suyu, balık sosu ve palmiye şekerini karıştırın. Şeker eriyene kadar çırpın. Acı için biberi ekleyip tadına bakın; tatlı, ekşi, tuzlu ve acı dengeli olmalı.",
    "Geniş bir kapta dilimlenmiş eti, arpacık soğanını, taze soğanı, salatalığı, domatesi, nane ve kişnişi birleştirin.",
    "Sosu üzerine dökün ve nazikçe karıştırın. Kavrulmuş pirinç tozunu serpip tekrar karıştırın.",
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Eti pişirdikten sonra hemen dilimlemeyin; dinlendirme suyunu kaybetmesini önler ve dilimler yumuşak kalır.",
+  "tr": "Eti pişirdikten sonra hemen dilimlemeyin; dinlendirmek et sularının liflerin içinde kalmasını sağlar ve dilimler yumuşak kalır.",
   "en": "Slice the beef while it is still slightly warm after resting; the juices stay in the meat and the slices stay tender. Add the rice powder just before serving so it stays crunchy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 contains a garbled word, \"Havanki\", which should be \"Havanda\" (in the mortar).",
+   "Turkish tip wording is muddled (\"dinlendirme suyunu kaybetmesini önler\"). It should say that resting keeps the juices in the meat, matching the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

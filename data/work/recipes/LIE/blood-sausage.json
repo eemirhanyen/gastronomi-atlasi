@@ -54,7 +54,7 @@
    "Tereyağını bir tavada eritin, soğanları ekleyip orta ateşte 8-10 dakika, yumuşayıp altın rengi alana kadar soteleyin. Soğutun.",
    "Domuz sırt yağını küp küp doğrayın ve soğuk tutun.",
    "Kanın içine sitrik asidi karıştırın, kıvamını bozmamak için ince bir elekten geçirin.",
-   "Büyük bir kapta kanı, arpayı, soğanı, yağ küplerini, tuzu, karabiberi, mercanköşkü, hindistancevizini ve yeniböbrek... yenibahar tozunu iyice karıştırın. Karışım akıcı ama dökülmeyecek kıvamda olmalı.",
+   "Büyük bir kapta kanı, arpayı, soğanı, yağ küplerini, tuzu, karabiberi, mercanköşkü, hindistancevizini ve yenibahar tozunu iyice karıştırın. Karışım akıcı ama dökülmeyecek kıvamda olmalı.",
    "Bağırsağın bir ucunu bağlayın, hunili bir huniyle karışımı doldurun. Bağırsağı çok sıkı doldurmayın; her 12 cm'de bir bağlayarak halka sosisler oluşturun ve hava kabarcıklarını iğneyle delin.",
    "Büyük bir tencerede suyu 80°C'ye kadar ısıtın. Sosisleri ekleyin ve bu sıcaklıkta, kaynatmadan, yaklaşık 45 dakika pişirin.",
    "Sosisleri soğuk suya alıp soğutun, kurulayın.",
@@ -77,5 +77,13 @@
   "tr": "Kanı tedarik ederken kasaptan taze ve soğuk alın; sitrik asit kanın pıhtılaşmasını önler, ama yine de karışımı aynı gün hazırlayın.",
   "en": "Buy the blood fresh and cold from a butcher and make the mixture the same day; never let the sausages boil, as they will split and become grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 contains a garbled stray fragment (\"yeniböbrek... yenibahar\"), which makes the instruction unclear and disagrees with the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

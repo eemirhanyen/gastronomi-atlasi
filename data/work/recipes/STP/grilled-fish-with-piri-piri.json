@@ -46,9 +46,9 @@
    "Balık filetolarını kağıt havluyla kurulayın, gerekiyorsa 4 porsiyona bölün ve derisine çapraz kesikler atın.",
    "Sosun yarısını balıkların her iki yüzüne sürün ve oda sıcaklığında 20 dakika marine olmaya bırakın. Kalan sosu servis için bir kenara koyun.",
    "Izgarayı veya tavayı orta-yüksek ateşte ısıtın (fırın kullanacaksanız 200°C). Izgara yüzeyini 20 ml zeytinyağıyla hafifçe yağlayın.",
-   "Balıkları derisi aşağı gelecek şekilde 4-5 dakika pişirin. Ardından çevirip 3-4 dakika daha pişirin; et opaklaşıp kolayca ayrıldığında hazırdır. Pişirme sırasında kalan marinasyondan birkaç kez fırçayla sürün.",
+   "Balıkları derisi aşağı gelecek şekilde 4-5 dakika pişirin. Ardından çevirip 3-4 dakika daha pişirin; et opaklaşıp kolayca ayrıldığında hazırdır. Pişirme sırasında servis için ayırdığınız sostan birkaç kez fırçayla sürün.",
    "Balıkları servis tabağına alıp 2 dakika dinlendirin, üzerine maydanozu serpin.",
-   "Pilavla birlikte sıcak servis yapın ve kenara kalan piri-piri sosunu ekleyin."
+   "Pilavla birlikte sıcak servis yapın ve kenara ayırdığınız piri-piri sosunu üzerine kaşıklayın veya yanında sunun."
   ],
   "en": [
    "Remove the stems from the chillies and roughly chop them. Remove the seeds if you want a milder heat.",
@@ -56,7 +56,7 @@
    "Pat the fish fillets dry with kitchen paper, divide into 4 portions if needed, and score the skin with shallow diagonal cuts.",
    "Spread half of the sauce over both sides of the fish and leave to marinate at room temperature for 20 minutes. Set the remaining sauce aside for serving.",
    "Heat a grill or grill pan over medium-high heat (or preheat the oven to 200°C if not grilling). Lightly oil the grate with 20 ml of olive oil.",
-   "Grill the fish skin side down for 4 to 5 minutes, then turn and cook for another 3 to 4 minutes, until the flesh is opaque and flakes easily. Brush with a little of the marinade during cooking.",
+   "Grill the fish skin side down for 4 to 5 minutes, then turn and cook for another 3 to 4 minutes, until the flesh is opaque and flakes easily. Brush with a little of the reserved sauce during cooking.",
    "Transfer the fish to a serving plate and rest for 2 minutes, then scatter over the chopped parsley.",
    "Serve hot with the rice, spooning the reserved piri-piri sauce over the top or on the side."
   ]
@@ -65,5 +65,13 @@
   "tr": "Sosun ısısı biberin çekirdeklerinden gelir; ilk kez yapıyorsanız çekirdekleri çıkarıp sonra tadına bakarak ekleyin.",
   "en": "The heat comes mostly from the seeds, so remove them first if you are cooking for people who prefer milder food, and taste the sauce before adding more chilli."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 has the cook basting with the marinade that was on the raw fish, which is a food-safety risk. The fix is to baste with a little of the reserved sauce set aside for serving, in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

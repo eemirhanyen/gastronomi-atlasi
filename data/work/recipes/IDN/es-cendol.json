@@ -5,7 +5,7 @@
  },
  "native": "Es cendol",
  "desc": {
-  "tr": "Endonezya'nın Java ve Batı Java bölgelerinde, özellikle sıcak günlerde ve Ramazan sonrası iftar saatlerinde yenen buzlu bir tatlıdır. Pandan aromalı yeşil pirinç unu jelesi, yoğun hindistancevizi sütü ve gula jawa (palmiye şekeri) şurubuyla servis edilir.",
+  "tr": "Endonezya'nın Java ve Batı Java bölgelerinde, özellikle sıcak günlerde ve Ramazan ayında iftar sonrası yenen buzlu bir tatlıdır. Pandan aromalı yeşil pirinç unu jelesi, yoğun hindistancevizi sütü ve gula jawa (palmiye şekeri) şurubuyla servis edilir.",
   "en": "A chilled dessert from Indonesia, especially Java and West Java, eaten on hot days and during the evening break of Ramadan. Pandan-scented green rice-flour noodles are served with rich coconut milk and palm sugar syrup (gula jawa) over shaved ice."
  },
  "servings": 4,
@@ -18,6 +18,7 @@
    "3 g garam",
    "4 helai taze daun pandan",
    "250 ml su",
+   "1,5 litre su (haşlama için)",
    "200 g gula merah (palmiye şekeri), doğranmış",
    "150 ml su (şurup için)",
    "2 helai daun pandan (şurup için, bağlanmış)",
@@ -30,6 +31,7 @@
    "3 g salt",
    "4 fresh pandan leaves",
    "250 ml water",
+   "1.5 litres water (for boiling)",
    "200 g gula merah (palm sugar), chopped",
    "150 ml water (for the syrup)",
    "2 pandan leaves (for the syrup), tied in a knot",
@@ -63,5 +65,14 @@
   "tr": "Cendolü pişirdikten sonra mutlaka soğuk suda bekletin; bu, jelenin dokusunun sert ve dayanıklı kalmasını sağlar.",
   "en": "Rinse the cooked cendol in cold water straight away; this keeps the strands firm and chewy rather than soft and sticky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says \"Ramazan sonrası iftar saatlerinde\" (after Ramadan), but the English says \"during the evening break of Ramadan\". The Turkish should say \"Ramazan ayında iftar sonrası\".",
+   "Step 3 uses 1.5 litres of water to boil the cendol, but this water is missing from the ingredient lists in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

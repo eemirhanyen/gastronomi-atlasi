@@ -46,7 +46,7 @@
    "Geniş bir tencereye su ve ekmek ağacı parçalarını alın. Soğan, sarımsak, kekik, bütün Scotch bonnet biberi ve tuzu ekleyin.",
    "Karışımı kaynatın, ardından kısık ateşte 15 dakika pişirin.",
    "Hindistan cevizi sütünü ekleyip karıştırın. Kapağı kapatmadan, ara sıra nazikçe karıştırarak 15-20 dakika daha pişirin; parçalar çatalla kolayca ezilene kadar bekleyin.",
-   "Kekik dallarını ve Scotch bonnet biberini çıkarın. Kalan tencereyi hafifçe ezerek kremamsı bir kıvam verin.",
+   "Kekik dallarını ve Scotch bonnet biberini çıkarın. Tencerede bir miktar ekmek ağacı meyvesini hafifçe ezerek kremamsı bir kıvam verin.",
    "Tereyağı, taze soğan ve karabiberi ekleyip karıştırın. Gerekirse tuzunu ayarlayıp sıcak servis yapın."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Scotch bonnet biberini bütün bırakın; kaynatma sırasında tadını verir ama delinmediği sürece çok acı olmaz. Yemeği servis etmeden önce mutlaka çıkarın.",
   "en": "Leave the Scotch bonnet whole so it flavours the dish without much heat; pierce it only if you want more spice, and remove it before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"Kalan tencereyi hafifçe ezerek\" (mash the remaining pot), which does not match the English (mash some of the breadfruit) and reads as unnatural Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

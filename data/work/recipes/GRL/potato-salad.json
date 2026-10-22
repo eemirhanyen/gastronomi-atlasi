@@ -17,7 +17,7 @@
    "3 yumurta",
    "1 ekşi elma (yaklaşık 150 g)",
    "150 g turşu pancarı",
-   "150 g haşlanmış karides, kabuğu soyulmuş",
+   "150 g haşlanmış Grönland karidesi, kabuğu soyulmuş",
    "1/2 küçük kırmızı soğan (yaklaşık 50 g)",
    "80 g salatalık turşusu",
    "200 g mayonez",
@@ -30,11 +30,11 @@
    "3 eggs",
    "1 tart apple (about 150 g)",
    "150 g pickled beetroot",
-   "150 g cooked shrimp, peeled",
+   "150 g cooked Greenland shrimp, peeled",
    "1/2 small red onion (about 50 g)",
    "80 g dill pickles (gherkins)",
    "200 g mayonnaise",
-   "1 tsp Dijon mustard (5 g)",
+   "1 tsp mustard (5 g)",
    "1 tbsp chopped fresh dill",
    "Salt and black pepper"
   ]
@@ -63,5 +63,14 @@
   "tr": "Patatesleri hâlâ ılıkken sosla karıştırırsanız lezzeti daha iyi emer; elma ve karidesi ise servisten hemen önce ekleyin ki taze kalsınlar.",
   "en": "Dress the potatoes while they are still slightly warm so they absorb the flavour; add the apple and shrimp just before serving to keep them fresh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says Greenland shrimp is the defining local ingredient, but the ingredient list only says 'shrimp' / 'karides'.",
+   "The English ingredient says 'Dijon mustard' while the Turkish says 'hardal' (generic mustard), so the two versions disagree on the mustard type."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

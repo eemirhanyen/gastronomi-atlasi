@@ -9,14 +9,14 @@
   "en": "A hearty winter soup from the Prekmurje region of Slovenia, made with pearl barley, white beans and smoked pork. It is traditionally eaten during the cold months and at family meals as a filling, warming dish."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "150 g inci arpa",
    "250 g haşlanmış beyaz fasulye (konservedense süzülmüş)",
    "300 g füme domuz kaburga",
-   "100 g füme domuz pastırması veya füme domuz pastırma şeridi (bacon)",
+   "100 g füme domuz bacon (şerit halinde)",
    "300 g patates",
    "1 orta boy soğan (100 g)",
    "3 diş sarımsak",
@@ -51,7 +51,7 @@
  },
  "steps": {
   "tr": [
-   "Bir tencerede domuz yağını orta ateşte ısıtın, pastırma şeritlerini ekleyip yağı çıkana ve hafifçe kızarana kadar yaklaşık 4 dakika pişirin.",
+   "Bir tencerede domuz yağını orta ateşte ısıtın, bacon şeritlerini ekleyip yağı çıkana ve hafifçe kızarana kadar yaklaşık 4 dakika pişirin.",
    "Doğranmış soğanı ve ezilmiş sarımsakları ekleyip soğan yumuşayana kadar, yaklaşık 5 dakika karıştırarak soteleyin.",
    "Ateşi kısın, unu ve tatlı kırmızı bibere ekleyip 1 dakika karıştırın.",
    "Suyu yavaş yavaş ekleyip kaynatın. Füme kaburgaları, inci arpayı, defne yapraklarını ve mercanköşkü ilave edin.",
@@ -75,5 +75,14 @@
   "tr": "Arpa suyu emer, bu yüzden servisten önce çorba koyulaşmışsa biraz sıcak su ekleyerek kıvamını ayarlayın.",
   "en": "Barley absorbs liquid as it stands, so if the soup thickens before serving, stir in a little hot water to loosen it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the steps alone take about 70 minutes of cooking, plus prep.",
+   "Turkish ingredient is 'füme domuz pastırması', but pastırma is an air-dried cured meat, not the smoked bacon the English version lists. The Turkish step 1 also refers to 'pastırma şeritleri'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

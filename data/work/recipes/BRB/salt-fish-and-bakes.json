@@ -64,7 +64,7 @@
    "Kızartma yağını 180°C'ye ısıtın. Bakes'leri her iki yüzü 3-4 dakika altın renge gelene kadar kızartın ve kağıt havlu üzerinde süzün.",
    "Büyük bir tavada 1 yemek kaşığı tereyağı ve 2 yemek kaşığı sıvı yağı orta ateşte ısıtın. Soğanı 5 dakika yumuşatın.",
    "Sarımsak, scotch bonnet ve kırmızı dolmalık biberi ekleyip 3 dakika daha pişirin. Domatesi ekleyip suyunu çekene kadar 3 dakika karıştırarak pişirin.",
-   "Pulları ayırılmış balığı, kekiği, karabiberi ve taze soğanı ekleyin. 5-7 dakika karıştırarak ısıtın, gerekirse tuzunu ayarlayın.",
+   "Pulları ayrılmış balığı, kekiği, karabiberi ve taze soğanı ekleyin. 5-7 dakika karıştırarak ısıtın, gerekirse tuzunu ayarlayın.",
    "Maydanozu serpip ocaktan alın ve sıcak bakes'lerle birlikte servis yapın."
   ],
   "en": [
@@ -80,8 +80,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığın tuzluluğunu ayarlamak için pişirmeden önce küçük bir parça tadın; tuzlu olmaması gerekir, çünkü tuzu sonradan eklemek daha kolaydır. Bakes'lerin kabarması için hamuru çok yoğurmayın.",
+  "tr": "Balığın tuzluluğunu ayarlamak için pişirmeden önce küçük bir parça tadın; hafif tuzlu olmalıdır, çünkü tuzu sonradan eklemek, fazla tuzu çıkarmaktan daha kolaydır. Bakes'lerin kabarması için hamuru çok yoğurmayın.",
   "en": "Taste a small piece of the cod after soaking; it should be mildly salty, as it is easier to add salt later than to remove it. Do not overwork the dough, or the bakes will turn tough rather than soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts between languages: the Turkish says the cod should NOT be salty, while the English says it should be mildly salty. The reasoning given (salt is easier to add later) supports 'mildly sa",
+   "Turkish step 8 has a grammar error: 'Pulları ayırılmış' should be 'Pulları ayrılmış'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A creamy coconut drink from Puerto Rico, traditionally served cold during the Christmas and New Year season. It is made with coconut milk, evaporated and condensed milk, and white rum, and is often shared at family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 260,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -42,7 +42,7 @@
    "Orta boy bir tencerede hindistancevizi sütünü tarçın çubuğuyla birlikte orta ateşte ısıtın, kaynamaya yakın olunca ocaktan alıp 5 dakika demlenmeye bırakın.",
    "Yumurta sarılarını bir kaseye alıp iyice çırpın.",
    "Sıcak hindistancevizi sütünden bir kepçe alıp yumurta sarılarına yavaş yavaş ekleyerek çırpın; bu işlem yumurtaların pişip kesilmesini önler.",
-   "Karışımı tencereye geri dökün ve orta-düşük ateşte, sürekli karıştırarak yaklaşık 4-5 dakika, kaşığın arkasını kaplayacak kıvama gelene kadar pişirin. Sıcaklık 75-80°C'yi geçmemeli, kesinlikle kaynatmayın.",
+   "Karışımı tencereye geri dökün ve orta-düşük ateşte, sürekli karıştırarak yaklaşık 4-5 dakika, kaşığın arkasını kaplayacak kıvama gelene kadar pişirin. Sıcaklık 80°C'yi geçmemeli, kesinlikle kaynatmayın.",
    "Ocaktan alın, tarçın çubuğunu çıkarın.",
    "Hindistancevizi kreması, buharlaştırılmış süt, yoğunlaştırılmış süt, vanilya özütü ve öğütülmüş muskat ekleyip iyice karıştırın.",
    "Karışımı oda sıcaklığına gelene kadar soğumaya bırakın, ardından romu ekleyip çırpın.",
@@ -65,5 +65,14 @@
   "tr": "Yumurtalı karışımı asla kaynatmayın; kaynarsa kıvam bozulur ve yumurta kokusu çıkar. Dilerseniz yumurtasız, daha hafif bir versiyon için yumurta sarılarını atlayıp hindistancevizi sütünü doğrudan karıştırabilirsiniz.",
   "en": "Never let the egg mixture boil, or it will curdle and taste eggy. For a lighter, egg-free version, skip the yolks and simply combine all the liquid ingredients cold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not include the mandatory 4-hour chilling step, so the total time is understated",
+   "Temperature limit differs slightly: Turkish says 75-80°C may not be exceeded, English says below 80°C"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

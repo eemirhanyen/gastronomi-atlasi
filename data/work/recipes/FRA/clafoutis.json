@@ -9,7 +9,7 @@
   "en": "A soft, custard-like baked dessert from the Limousin region of France, traditionally made with cherries. It is usually served warm or at room temperature at the end of a summer meal."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Geleneksel olarak vişneler çekirdekleriyle pişirilir; çekirdekler pişerken aromasını tatlıya verir. Servis sırasında misafirlerinizi uyarmayı unutmayın.",
   "en": "Traditionally the cherries are baked with their pits in, which adds a subtle almond-like flavour. Warn guests before serving so no one bites down on one."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the steps add up to roughly 75-85 minutes (about 15 min prep, 15 min batter rest, 35-40 min baking, 10-15 min cooling)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

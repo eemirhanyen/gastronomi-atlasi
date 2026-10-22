@@ -203,3 +203,10 @@ recipes: 3443 tarif
   tarif PHL_chicken-adobo geçersiz: Expecting ',' delimiter: line 1 column 3614 (char 3613)
   tarif TON_tongan-coconut-cake geçersiz: Expecting ',' delimiter: line 1 column 3630 (char 3629)
 Token: giriş 1293516, çıkış 10213035 (model claude-haiku-5-5)
+=== review
+review: 3409 tarif
+  [review] batch msgbatch_014k9fe9XUvG83f1JVPnqSVG: 3409 istek
+    300s {'processing': 3409, 'succeeded': 0, 'errored': 0, 'canceled': 0, 'expired': 0}
+  [review] tamam: 3409 yanıt, başarısız 0
+  kontrol: 1187 sorunsuz, 2222 düzeltildi
+Token: giriş 6998640, çıkış 9029123 (model claude-haiku-5-5)

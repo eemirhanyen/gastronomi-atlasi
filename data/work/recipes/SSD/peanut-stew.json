@@ -9,7 +9,7 @@
   "en": "A mildly spiced chicken stew thickened with ground roasted peanuts, eaten across South Sudan in everyday meals and when guests visit. It is usually served with rice or asida."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 85,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -58,7 +58,7 @@
    "Domates salçasını ekleyip 2 dakika karıştırarak kavurun. Doğranmış domatesleri, kimyonu, kişnişi ve kalan karabiberi ekleyin; domatesler dağılıp sosu oluşturana kadar yaklaşık 5 dakika pişirin.",
    "Tavukları ve biriken suyunu tencereye geri koyun. 750 ml su ekleyip kaynatın, ardından ateşi kısın ve kapağı kapalı olarak tavuk iyice yumuşayana kadar yaklaşık 30 dakika pişirin.",
    "Bu arada kavrulmuş yer fıstıklarını blenderda pürüzsüz bir ezme olana kadar çekin. 250 ml suyu yavaş yavaş ekleyerek kıvamlı bir fıstık ezmesi hazırlayın.",
-   "Fıstık ezmesini tencereye yavaşça ekleyin ve sürekli karıştırarak tencerenin dibinin tutmamasını sağlayın. Ateşi orta-düşük seviyeye alıp 10 dakika daha pişirin.",
+   "Fıstık ezmesini tencereye yavaşça ekleyin ve sürekli karıştırarak tencerenin dibinin tutmamasını sağlayın. Ateşi orta-düşük seviyeye alıp kapağı açık tutarak 10 dakika daha pişirin.",
    "Bamyaları ekleyin ve yumuşayıp sos kıvamı alana kadar yaklaşık 10 dakika pişirin.",
    "Tadına bakıp gerekirse tuz ekleyin, pirinç veya asida ile sıcak servis yapın."
   ],
@@ -79,5 +79,14 @@
   "tr": "Fıstık ezmesini ekledikten sonra karıştırmayı bırakmayın; tencere dibinde yanma olmadan ince, pürüzsüz bir sos elde etmenin en kolay yolu budur.",
   "en": "Once the peanut paste goes in, keep stirring; this prevents scorching on the bottom and gives a smooth, glossy sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is well below the sum of the listed steps (about 85 minutes: searing, softening onions, 30-minute simmer, peanut paste, and two final simmers).",
+   "Step 8 in English specifies simmering uncovered, but the Turkish version omits this, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

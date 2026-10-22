@@ -32,7 +32,7 @@
    "1 yemek kaşığı limon suyu",
    "2 yemek kaşığı sıvı yağ (harç için)",
    "Kızartmak için yaklaşık 500 ml sıvı yağ",
-   "Tuz"
+   "1/2 tatlı kaşığı tuz (harç için)"
   ],
   "en": [
    "250 g all-purpose flour",
@@ -54,7 +54,7 @@
    "1 tbsp lemon juice",
    "2 tbsp neutral oil (for the filling)",
    "About 500 ml neutral oil for frying",
-   "Salt"
+   "1/2 tsp salt (for the filling)"
   ]
  },
  "steps": {
@@ -64,7 +64,7 @@
    "Patatesleri kabuklu haşlayın, suyunu süzün ve soğuduktan sonra soyup küp küp doğrayın.",
    "Bir tavada 2 yemek kaşığı yağı orta ateşte ısıtın. Kimyon tohumlarını ekleyip çatırdayana kadar yaklaşık 30 saniye kavurun.",
    "Doğranmış soğanı ekleyip altın rengi alana kadar 6-7 dakika pişirin. Zencefil, sarımsak ve yeşil biberi ekleyip 1 dakika daha kavurun.",
-   "Zerdeçal, toz kişniş, acı toz biber, 1/2 tatlı kaşık tuz ekleyin ve baharatları 30 saniye karıştırarak kavurun.",
+   "Zerdeçal, toz kişniş, acı toz biber ve 1/2 tatlı kaşık tuzu ekleyin; baharatları 30 saniye karıştırarak kavurun.",
    "Bezelyeleri ve patates küplerini ekleyin. Patatesleri hafifçe ezerek karıştırın, 3 dakika pişirin.",
    "Ocağı kapatın; garam masala, kişniş yaprağı ve limon suyunu ekleyip karıştırın. İç harcı tamamen soğutun.",
    "Hamuru 12 eşit parçaya bölün. Her parçayı 10 cm çapında ince bir yuvarlak açın ve ikiye kesin.",
@@ -91,5 +91,13 @@
   "tr": "Harç tamamen soğumadan hamuru doldurmayın; sıcak iç harç hamuru yumuşatır ve samosalar kızartırken açılabilir.",
   "en": "Let the filling cool completely before assembling, as warm filling softens the dough and can cause samosas to split while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt for the filling is listed only as \"Tuz\" (tr) / \"Salt\" (en) with no quantity, although step 6 calls for 1/2 tsp (1/2 tatlı kaşığı)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

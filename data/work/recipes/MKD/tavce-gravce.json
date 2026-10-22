@@ -9,7 +9,7 @@
   "en": "North Macedonia's national dish: dried white beans baked with plenty of onion and sweet paprika. It is usually served at lunch, often straight from a clay pot, with pickles and raw onion on the side."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -41,7 +41,7 @@
   "tr": [
    "Fasulyeleri bir gece önceden bol suda ıslatın, ertesi gün süzüp yıkayın.",
    "Fasulyeleri 2 litre taze suyla bir tencereye alın, kaynamaya bırakın ve köpüğünü alarak yaklaşık 40 dakika, yarı pişene kadar haşlayın. Suyunu süzüp 1,5 litre sıcak su ayırın.",
-   "Soğanları ince ince doğrayın. Fırına uygun geniş bir tencerede ayçiçek yağını ısıtın ve soğanları altın renge gelene kadar yaklaşık 15-20 dakika kavurun.",
+   "Soğanları ince ince doğrayın. Fırına uygun geniş bir tencerede ayçiçek yağını ısıtın ve soğanları altın renge gelene kadar yaklaşık 25-30 dakika kavurun.",
    "Ocağı kapatın, tatlı kırmızı bibere ekleyip hızlıca karıştırın; biber yanmasın diye sıcak yağda bekletmeyin.",
    "Yarım pişmiş fasulyeleri, defne yapraklarını, acı kırmızı biberi, tuzu ve karabiberi soğanlı karışıma ekleyin. Üzerine ayırdığınız sıcak suyu dökün ve fasulyeler sıvının altında kalacak şekilde karıştırın.",
    "Fırını 180°C'ye ısıtın. Tencerenin kapağını kapatıp fırına verin ve 1 saat kadar pişirin.",
@@ -51,7 +51,7 @@
   "en": [
    "Soak the beans in plenty of water overnight, then drain and rinse them the next day.",
    "Put the beans in a pot with 2 litres of fresh water, bring to a boil and simmer for about 40 minutes, skimming off the foam, until half cooked. Drain and keep 1.5 litres of hot water aside.",
-   "Thinly slice the onions. Heat the sunflower oil in a wide, ovenproof pot and fry the onions for 15-20 minutes until golden.",
+   "Thinly slice the onions. Heat the sunflower oil in a wide, ovenproof pot and fry the onions for 25-30 minutes until golden.",
    "Take the pot off the heat and stir in the sweet paprika quickly so it does not burn in the hot oil.",
    "Add the half-cooked beans, bay leaves, hot pepper, salt and black pepper to the onions. Pour in the reserved hot water and stir so the beans are covered by the liquid.",
    "Preheat the oven to 180°C. Cover the pot, place it in the oven and bake for about 1 hour.",
@@ -63,5 +63,14 @@
   "tr": "Fasulyeleri yarım pişmiş bırakın; fırında kalan sıvıyla tamamen yumuşayacaklar ve sos kıvamı kendiliğinden oluşacak.",
   "en": "Leave the beans only half cooked; they finish softening in the oven with the liquid and the sauce thickens on its own."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (120) is too low: the steps add up to roughly 150 minutes of active and baking time (40 min boiling, 20+ min frying onions, 60 min covered baking, 30-40 min uncovered), excluding overnight so",
+   "Onion frying time of 15-20 minutes is too short for 1 kg of sliced onions to turn golden; about 25-30 minutes is realistic, in both Turkish and English"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

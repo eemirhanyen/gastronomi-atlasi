@@ -9,7 +9,7 @@
   "en": "A household staple and celebration dessert across Egypt, made with rice, milk and orange blossom water and served chilled. It appears often at family gatherings and during Ramadan."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -20,7 +20,7 @@
    "20 g mısır nişastası",
    "1 tutam tuz",
    "5 ml vanilya özütü",
-   "15 ml portakal çiçek suyu",
+   "15 ml portakal çiçeği suyu",
    "2 g toz tarçın",
    "30 g çiğ Antep fıstığı"
   ],
@@ -44,7 +44,7 @@
    "800 ml sütü ve bir tutam tuzu ekleyin. Kısık ateşte, sık karıştırarak yaklaşık 25 dakika, pirinç yumuşayıp karışım kremsileşene kadar pişirin.",
    "Mısır nişastasını 100 ml soğuk sütle pürüzsüz olacak şekilde karıştırın. Tencerede karışımı yavaş yavaş ekleyin ve sürekli karıştırarak 5 dakika kadar koyulaşana kadar pişirin.",
    "Toz şekeri ekleyin ve 3 dakika daha karıştırarak eritin.",
-   "Ocaktan alın, vanilya özütünü ve portakal çiçek suyunu ekleyip karıştırın.",
+   "Ocaktan alın, vanilya özütünü ve portakal çiçeği suyunu ekleyip karıştırın.",
    "Karışımı servis kaselerine veya tek bir geniş kaba dökün. Oda sıcaklığında biraz soğutun, ardından üzerini örtüp en az 2 saat buzdolabında bekletin.",
    "Fıstıkları kuru tavada hafifçe kavurup kabaca doğrayın. Servis öncesi tatlının üzerine toz tarçın ve doğranmış fıstıkları serpip soğuk servis yapın."
   ],
@@ -63,5 +63,14 @@
   "tr": "Pirinç sütü emdikçe yapışabilir; kısık ateşte sık karıştırın ve gerekirse birkaç yemek kaşığı süt ekleyerek kıvamı ayarlayın.",
   "en": "The rice can stick as it absorbs milk, so stir often on low heat and add a few spoonfuls of milk if it becomes too thick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step text write 'portakal çiçek suyu' instead of the correct genitive 'portakal çiçeği suyu', which the Turkish description already uses correctly.",
+   "time_min is 60, but the recipe requires at least 2 hours of chilling, so the total time is understated (about 3 hours overall)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

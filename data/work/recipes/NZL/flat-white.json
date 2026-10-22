@@ -27,19 +27,19 @@
  },
  "steps": {
   "tr": [
-   "Espresso makinesini çalıştırmadan önce su deposunu soğuk suyla doldurun ve makineyi kendi ısıtma döngüsünü tamamlayacak şekilde 10 dakika ısıtın.",
+   "Espresso makinesini çalıştırmadan önce su deposunu soğuk suyla doldurun ve makineyi çalışma sıcaklığına ulaşması için yaklaşık 10 dakika ısıtın.",
    "Kahveyi espresso değirmeninde çok ince öğütün ve her bir portafiltre için 18 g'lık porsiyonları tartın.",
    "Kahveyi portafiltreye eşit şekilde dağıtın ve yaklaşık 15 kg baskıyla düz bir yüzey oluşacak şekilde sıkıştırın.",
    "Her portafiltreyi gruba takın ve yaklaşık 25-30 saniyede yaklaşık 36 ml çift shot espresso çekin. Çekim süresi uzun veya kısa olursa öğütme inceliğini ayarlayın.",
    "Dört çift shot için bu işlemi tekrarlayın. Toplam yaklaşık 144 ml espresso elde etmeniz gerekir.",
    "Sütü soğuk halde, paslanmaz çelik sürahiye koyun. Buhar çubuğunu sütün yüzeyinin hemen altına yerleştirip hafifçe havalandırın; süt hacmi yaklaşık yüzde 20-30 arttığında çubuğu sütün içine daldırın.",
    "Sütü 60-65 °C'ye kadar ısıtın. Sürahiyi elinizle tutabildiğiniz kadar sıcak olduğunda buharı kapatın.",
-   "Sütü birkaç dakika dinlendirin, ardından sürahiyi çalkalayıp ince, parlak ve kıvamlı mikro köpük oluşmasını sağlayın. Köpüklü süt büyük kabarcık içermemeli, boyası yüzeyde ipeksi görünmelidir.",
-   "Her fincana yaklaşık 36 ml espresso koyun. Üzerine yaklaşık 130-150 ml mikro köpüklü süt dökün; sütü ince bir akışla, merkezden başlayarak yavaşça dökerek küçük bir beyaz nokta oluşturun.",
+   "Sütü birkaç saniye dinlendirin, ardından sürahiyi çalkalayıp ince, parlak ve kıvamlı mikro köpük oluşmasını sağlayın. Köpüklü süt büyük kabarcık içermemeli, yüzeyi ıslak boya gibi parlak ve ipeksi görünmelidir.",
+   "Her fincana yaklaşık 36 ml espresso koyun. Üzerine yaklaşık 120-140 ml mikro köpüklü süt dökün; sütü ince bir akışla, merkezden başlayarak yavaşça dökerek küçük bir beyaz nokta oluşturun.",
    "Kalan fincanları aynı şekilde hazırlayın ve hemen servis yapın."
   ],
   "en": [
-   "Before using the espresso machine, fill the water tank with cold water and heat the machine for about 10 minutes so it reaches temperature.",
+   "Before using the espresso machine, fill the water tank with cold water and heat the machine for about 10 minutes so it reaches working temperature.",
    "Grind the coffee very fine in the espresso grinder and weigh out 18 g portions for each portafilter.",
    "Distribute the coffee evenly in the portafilter and tamp it level with about 15 kg of pressure.",
    "Lock each portafilter into the group head and pull a double shot of about 36 ml in roughly 25–30 seconds. If the shot runs too fast or too slow, adjust the grind.",
@@ -47,7 +47,7 @@
    "Pour cold milk into a stainless steel jug. Place the steam wand just below the surface and stretch the milk briefly until its volume increases by about 20–30%, then submerge the wand to create a whirlpool.",
    "Heat the milk to 60–65 °C. Stop steaming once the jug is just too hot to hold comfortably.",
    "Let the milk rest for a few seconds, then swirl the jug to create glossy, fine microfoam with no large bubbles, similar in texture to wet paint.",
-   "Pour about 36 ml of espresso into each cup. Add about 130–150 ml of microfoam milk, pouring slowly from the centre to create a small white dot on the surface.",
+   "Pour about 36 ml of espresso into each cup. Add about 120–140 ml of microfoam milk, pouring slowly from the centre to create a small white dot on the surface.",
    "Prepare the remaining cups the same way and serve immediately."
   ]
  },
@@ -55,5 +55,16 @@
   "tr": "Sütü kısa sürede ısıtın ve buharı yalnızca yüzeyde hava almak için kullanın; ideal süt ipeksi olmalı, kabarcıklı değil.",
   "en": "Use cold, fresh whole milk and keep the steaming short; the milk should look glossy and smooth, not foamy with large bubbles."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "TR step 8 says to rest the milk 'birkaç dakika' (a few minutes) but EN says 'a few seconds'; the Turkish must match the English.",
+   "Per-cup milk of 130-150 ml plus 36 ml espresso gives 166-186 ml, which can overflow the 150-180 ml cups named in the ingredients.",
+   "TR step 1 wording 'kendi ısıtma döngüsünü tamamlayacak şekilde' is unnatural; it should say the machine reaches working temperature.",
+   "TR step 8 'boyası yüzeyde ipeksi görünmelidir' is awkward Turkish; it should describe a glossy, silky surface."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

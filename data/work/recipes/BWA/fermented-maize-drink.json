@@ -15,17 +15,17 @@
   "tr": [
    "100 g ince mısır unu (mealie meal)",
    "50 g sorgum malt unu",
-   "1,5 L su, ikiye bölünmüş (1 L ve 500 ml)"
+   "2 L su, bölünmüş (1 L kaynatma için, 150 ml macun için, 350 ml malt için ve 500 ml fermantasyon için)"
   ],
   "en": [
    "100 g fine maize meal (mealie meal)",
    "50 g sorghum malt flour",
-   "1.5 L water, divided (1 L and 500 ml)"
+   "2 L water, divided (1 L for boiling, 150 ml for the paste, 350 ml for the malt, and 500 ml for fermentation)"
   ]
  },
  "steps": {
   "tr": [
-   "Bir tencerede 1 L suyu kaynatın. Mısırununu 150 ml soğuk suyla pürüzsüz bir macun haline gelene kadar karıştırın.",
+   "Bir tencerede 1 L suyu kaynatın. Mısır ununu 150 ml soğuk suyla pürüzsüz bir macun haline gelene kadar karıştırın.",
    "Macunu kaynayan suya yavaş yavaş ekleyip sürekli karıştırarak yaklaşık 15 dakika pişirin; kıvamı ince bir lapa gibi olsun.",
    "Lapayı ocaktan alın, ağzı kapalı şekilde yaklaşık 40 °C'ye kadar soğumaya bırakın.",
    "Sorgum maltununu kalan 350 ml ılık suyla karıştırıp pütürsüz bir süspansiyon hazırlayın, sonra soğuyan lapaya ekleyin.",
@@ -47,5 +47,14 @@
   "tr": "Fermantasyon için sıcak bir yer seçin; hava soğuksa kabı hafifçe battaniyeye sarın. Ekşilik istediğinizden fazla olursa hemen buzdolabına koyun.",
   "en": "Choose a warm spot for fermentation; in cold weather, wrap the container lightly in a blanket. If it becomes sourer than you like, refrigerate it immediately."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water total mismatch: the ingredient list says 1.5 L (1 L + 500 ml), but the steps use 2 L in total (1 L for boiling, 150 ml for the maize paste, 350 ml for the malt slurry, and 500 ml for fermentatio",
+   "Turkish step 1 has a typo: 'Mısırununu' should be 'mısır unu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

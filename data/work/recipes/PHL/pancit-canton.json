@@ -56,9 +56,9 @@
  "steps": {
   "tr": [
    "Erişteyi paket talimatına göre değil, yaklaşık 2 dakika kaynayan suda haşlayın; hafif al dente olmalıdır. Süzün, soğuk suyla durulayın ve 15 ml yağla karıştırıp kenara alın.",
-   "Dilimlenmiş dana eti ve tavuk etini 30 ml soya sosu ile yarım tatlı kaşık karabiberin yarısının içinde 10 dakika marine edin. Karidesleri tuz ve kalan karabiberle hafifçe tatlandırın.",
+   "Dilimlenmiş dana eti ve tavuk etini 30 ml soya sosu ile yarım tatlı kaşık karabiberin yarısının içinde 10 dakika marine edin. Karidesleri bir tutam tuz ve kalan karabiberle hafifçe tatlandırın.",
    "Wok'u yüksek ateşte ısıtın, 30 ml yağ ekleyin. Dana etini 3 dakika kavurun, tavuk etini ekleyip 3 dakika daha pişirin, ardından karidesleri 1-2 dakika, pembeleşene kadar ekleyin. Etleri bir kaseye alın.",
-   "Aynı wok'a kalan yağı ekleyin. Sarımsak ve soğanı 1 dakika kavurun, havucu 2 dakika, lahanayı 2 dakika ve şeker bezelyesini 1 dakika ekleyerek sebzeleri hafif dinlendirilmiş ama çıtır kalacak şekilde sote edin.",
+   "Aynı wok'a kalan yağı ekleyin. Sarımsak ve soğanı 1 dakika kavurun, havucu 2 dakika, lahanayı 2 dakika ve şeker bezelyesini 1 dakika ekleyerek sebzeleri çıtır kalacak şekilde sote edin.",
    "Tavuk suyunu, kalan 30 ml soya sosunu, istiridye sosunu, balık sosunu ve kalan tuzu ekleyin. Karıştırıp sıvıyı kaynatın.",
    "Erişteyi wok'a ekleyin ve maşayla 2-3 dakika, sıvı neredeyse çekilene kadar karıştırın. Etleri ve karidesleri geri ekleyin, yeşil soğanı serpin ve bir kez daha karıştırın.",
    "Sıcak servis yapın ve yanına kalamansi veya limon dilimleri koyarak sıkarak tüketin."
@@ -77,5 +77,14 @@
   "tr": "Erişteyi tam pişirmeyin; wok'ta sıvıyla birlikte bitmesi gerektiğinden hafif al dente kalması yumuşak ama dağılmayan bir doku verir.",
   "en": "Undercook the noodles slightly, since they finish cooking in the wok with the stock; this keeps them springy rather than mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the vegetables are 'hafif dinlendirilmiş' (lightly rested), which is wrong culinary wording for stir-frying and contradicts the crisp-texture intent.",
+   "Shrimp seasoning differs between versions: English says 'a pinch of the salt', but Turkish just says 'tuz' with no amount."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

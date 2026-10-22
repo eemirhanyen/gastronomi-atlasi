@@ -34,7 +34,7 @@
    "Kabağı eğik tutarak yerba matenin boş tarafına az miktarda su dökün ve yaprakların yaklaşık bir dakika ıslanmasını bekleyin.",
    "Bombillayı yerba matenin boş tarafına, yaklaşık 45 derecelik açıyla yerleştirin ve filtreli ucun dibe değmesini sağlayın.",
    "Kabağın kenarından suyu yavaşça dökerek kabağı doldurun; tadı çok acı bulursanız suyu daha az sıcak kullanın veya şeker ekleyin.",
-   "Yerba mate kaynayan su yerine sıcak suyla servis edilir; içinizi tamamladıktan sonra kabağı tekrar doldurarak sırayla paylaşın."
+   "75–80 °C'deki suyla hemen servis edin; kaynamış su kullanmayın. İçiniz bittikten sonra kabağı yeniden doldurup bombillayı herkes arasında sırayla paylaşın."
   ],
   "en": [
    "Bring the water to a boil, then let it cool to 75–80 °C; boiling water makes yerba mate taste bitter.",
@@ -42,12 +42,21 @@
    "Keep the gourd tilted and pour a little water into the empty side, letting the leaves soak for about one minute.",
    "Place the bombilla in the empty side of the yerba at roughly a 45-degree angle, making sure the filtered tip rests at the bottom.",
    "Slowly pour water over the edge of the gourd to fill it; if it tastes too bitter, use less hot water or add a little sugar.",
-   "Serve immediately, then refill the gourd with water and pass it around, sharing one bombilla among everyone."
+   "Serve immediately with water at 75–80 °C, never boiling. When the gourd is empty, refill it and pass it around, sharing one bombilla among everyone."
   ]
  },
  "tip": {
   "tr": "Yerba mate'yi asla kaynar suyla demlemeyin; 75–80 °C sıcaklık hem acılığı azaltır hem de aromayı korur.",
   "en": "Never use boiling water; keeping it at 75–80 °C reduces bitterness and preserves the herb's flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the mate is served with hot water instead of boiling water and is unnaturally phrased. The English step 6 omits the temperature reminder and says only 'serve immediately', so the t",
+   "Turkish step 6 mentions sharing the bombilla, but the English version is worded differently; the two should say the same thing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

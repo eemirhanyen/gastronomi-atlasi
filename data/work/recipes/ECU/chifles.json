@@ -29,7 +29,7 @@
   "tr": [
    "Muzların uçlarını kesin, kabuğu boyunca dört yerden çizip kabuğu soyun.",
    "Muzları 2 mm kalınlığında, mümkünse mandolin ile çok ince dilimleyin.",
-   "Dilimleri soğuk suya atın ve 2 tuzsuz şekilde bekletin; bu, dilimlerin kararmasını önler.",
+   "Dilimleri soğuk suya atın ve birkaç dakika bekletin; bu, dilimlerin kararmasını önler.",
    "Dilimleri suyundan süzün ve temiz bir bez üzerinde iyice kurulayın.",
    "Ayçiçek yağını derin bir tencerede 180 °C'ye kadar ısıtın.",
    "Dilimleri küçük partiler halinde 2 ila 3 dakika, altın rengi ve çıtır olana kadar kızartın.",
@@ -51,5 +51,13 @@
   "tr": "Dilimleri kızartmadan önce iyice kurulayın; nemli dilimler yağı sıçratır ve çıtır olmaz.",
   "en": "Dry the slices thoroughly before frying; damp slices spatter and will not become crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 contains a garbled phrase, \"2 tuzsuz şekilde bekletin\" (\"leave for 2 salt-free ways\"), which makes no sense. The English says \"leave them for a few minutes\", so the Turkish should say t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,14 +6,14 @@
  "native": "Soupe de poisson",
  "desc": {
   "tr": "Gine'nin Atlantik kıyısındaki Conakry ve çevresinde, kırmızı palmiye yağı, bamya ve acı biberle yapılan, genellikle pirinçle servis edilen günlük bir yemektir. Ailece öğle ve akşam yemeklerinde sık sık hazırlanır.",
-  "en": "A everyday family meal from the Atlantic coast around Conakry in Guinea, made with red palm oil, okra and chili and usually served with rice. It is often cooked for lunch or dinner."
+  "en": "An everyday family meal from the Atlantic coast around Conakry in Guinea, made with red palm oil, okra and chili and usually served with rice. It is often cooked for lunch or dinner."
  },
  "servings": 4,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g beyaz balık (tilapia veya levrek), temizlenmiş ve dilimlenmiş",
+   "800 g beyaz balık (tilapia veya kırmızı levrek), temizlenmiş ve dilimlenmiş",
    "60 ml kırmızı palmiye yağı",
    "2 soğan (200 g), ince doğranmış",
    "3 diş sarımsak, ezilmiş",
@@ -31,7 +31,7 @@
    "400 g pişmiş pirinç, servis için"
   ],
   "en": [
-   "800 g white fish (tilapia or snapper), cleaned and cut into steaks",
+   "800 g white fish (tilapia or red snapper), cleaned and cut into steaks",
    "60 ml red palm oil",
    "2 onions (200 g), finely chopped",
    "3 garlic cloves, crushed",
@@ -54,10 +54,10 @@
    "Balığı tuz ve karabiberle hafifçe tatlandırın ve bir kenarda bekletin.",
    "Büyük bir tencerede kırmızı palmiye yağını orta ateşte ısıtın. Soğanları ekleyip yumuşayana ve hafif pembeleşene kadar yaklaşık 5 dakika kavurun.",
    "Sarımsağı ve domates salçasını ekleyip 1 dakika karıştırarak kavurun.",
-   "Rendelenmiş domatesleri ekleyin ve suyunu salıncaya kadar 5 dakika pişirin.",
+   "Rendelenmiş domatesleri ekleyin ve suyunu salana kadar 5 dakika pişirin.",
    "Suyu, toz bulyonu, kuru kekiği ve bütün scotch bonnet biberi ekleyin. Kaynatın.",
    "Patlıcan küplerini ekleyip kısık ateşte 8 dakika pişirin.",
-   "Bamyaları ekleyin ve 5 dakika daha pişirin. Bamyanın kayganlığı azalınca çorba hafifçe koyulaşacaktır.",
+   "Bamyaları ekleyin ve 5 dakika daha pişirin. Bamyanın kayganlığı çorbaya salındıkça çorba hafifçe koyulaşacaktır.",
    "Balık dilimlerini tencereye yerleştirin. Kapağını kapatıp kısık ateşte 8 ila 10 dakika, balık iç sıcaklığı 63 °C'ye ulaşana ve et kolayca ayrılana kadar pişirin.",
    "Ocaktan almadan önce limon suyunu ekleyin ve tadına bakarak tuzunu ayarlayın. Biberi çıkarıp isterseniz ezerek çorbaya geri koyun.",
    "Sıcak pirinçle birlikte servis yapın."
@@ -79,5 +79,15 @@
   "tr": "Scotch bonnet bütün halde eklenirse çorba aşırı acılaşmadan aromasını verir; baharın ayarını bu şekilde yapın.",
   "en": "Add the scotch bonnet whole so it flavours the soup without making it overly hot; mash it in only if you want more heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 contradicts the English: it says okra's slipperiness decreases and the soup thickens, while the English says the okra releases its viscosity and thickens the soup. The Turkish is correc",
+   "Turkish fish ingredient 'levrek' (sea bass) does not match English 'snapper'. Both versions now name red snapper.",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

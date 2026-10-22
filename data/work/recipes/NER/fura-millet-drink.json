@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "150 g ince öğütülmüş darı unu",
-   "450 ml + 150 ml soğuk su",
+   "150 ml soğuk su + 150 ml su (kaynatmak için)",
    "1 tutam tuz (yaklaşık 1 g)",
    "2 g zencefil tozu",
    "0,5 g karabiber",
@@ -25,7 +25,7 @@
   ],
   "en": [
    "150 g finely ground millet flour",
-   "450 ml + 150 ml cold water",
+   "150 ml cold water + 150 ml water (for boiling)",
    "1 pinch salt (about 1 g)",
    "2 g ground ginger",
    "0.5 g black pepper",
@@ -38,30 +38,41 @@
  "steps": {
   "tr": [
    "Darı ununu 150 ml soğuk suyla pürüzsüz bir hamur olacak şekilde karıştırın ve bir kenara koyun.",
-   "450 ml suyu tuzla birlikte kaynatın.",
+   "150 ml suyu tuzla birlikte kaynatın.",
    "Hazırladığınız hamuru kaynayan suya yavaş yavaş ekleyip sürekli karıştırarak 3-4 dakika pişirin; hamur koyulaşıp tencere kenarından ayrılmaya başlayınca ocağı kısın.",
-   "Tenceresini kapatıp kısık ateşte 5 dakika daha pişirin, sonra ocaktan alın.",
+   "Kapağını kapatıp kısık ateşte 5 dakika daha pişirin, sonra ocaktan alın.",
    "Ellerinizi su ile ıslatın ve hamuru 4 eşit parçaya bölüp küçük toplar halinde yuvarlayın. Tamamen soğumaya bırakın.",
    "Zencefil tozu, karabiber ve kuru naneyi bir havanda hafifçe ezin, şekerle karıştırın.",
    "Her servis için bir darı topunu geniş bir kaseye ufalayın; üzerine nono ve 75 ml soğuk su ekleyin.",
    "Ufalanmış darıyı çatalla ya da elinizle ezerek nono ile iyice karıştırın, ardından hazırladığınız baharatlı şekeri ekleyip tekrar karıştırın.",
-   "Kıvamı fazla koyuysa kalan soğuk suyu ekleyerek ayarlayın ve hemen ya da buzdolabında soğutarak servis yapın."
+   "Kıvamı fazla koyuysa gerektiğinde ek soğuk su ekleyerek ayarlayın ve hemen ya da buzdolabında soğutarak servis yapın."
   ],
   "en": [
    "Mix the millet flour with 150 ml cold water until you have a smooth paste, then set it aside.",
-   "Bring 450 ml water to a boil with the salt.",
+   "Bring 150 ml water to a boil with the salt.",
    "Gradually add the paste to the boiling water, stirring constantly for 3-4 minutes until it thickens and pulls away from the pot sides; then lower the heat.",
    "Cover the pot and cook on low heat for another 5 minutes, then remove from the heat.",
    "Wet your hands with water, divide the dough into 4 equal portions and roll them into small balls. Let them cool completely.",
    "Lightly crush the ground ginger, black pepper and dried mint in a mortar, then mix them with the sugar.",
    "For each serving, crumble one millet ball into a wide bowl and add about 250 ml nono and 75 ml cold water.",
    "Mash the crumbled millet with a fork or your hands until well combined with the nono, then stir in the spiced sugar mixture.",
-   "If the drink is too thick, add the remaining cold water to adjust the consistency, then serve immediately or chill in the refrigerator."
+   "If the drink is too thick, add a little more cold water to adjust the consistency, then serve immediately or chill in the refrigerator."
   ]
  },
  "tip": {
   "tr": "Darı topları soğumadan ufalanırsa topaklanır; tam soğuduktan sonra kullanın ve nonoyu mümkünse bir gece önceden ekşitilmiş olarak tercih edin.",
   "en": "If the millet balls are crumbled while still warm, they will clump; let them cool fully and, if possible, use nono that has been fermenting for a day for the authentic sour flavor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water ratio is implausible: 150 g millet flour with 600 ml total water (150 ml + 450 ml) yields a thin porridge that will not form a stiff dough, pull from the pot sides, or hold shape as balls. Reduc",
+   "Ingredient quantity '450 ml + 150 ml' does not match the revised method, so it was updated in both languages.",
+   "Step 9 refers to 'remaining' cold water, but step 7 already uses all 300 ml, so no water remains. Reworded to optional extra cold water.",
+   "Turkish step 4 'tenceresini kapatıp' is unnatural; corrected to 'kapağını kapatıp'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

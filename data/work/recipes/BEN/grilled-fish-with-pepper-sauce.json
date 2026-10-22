@@ -60,20 +60,20 @@
  "steps": {
   "tr": [
    "Balıkları yıkayıp kurulayın. Her balığın iki yanına 2-3 derin kesik atın.",
-   "Limon suyu, ezilmiş sarımsak, rendelenmiş zencefil, ince dilimlenmiş küçük soğan, kekik, tuz, karabiber ve 3 yemek kaşığı sıvı yağı karıştırarak marinasyon hazırlayın. Balıkların içine ve üzerine sürün, en az 30 dakika buzdolabında bekletin.",
+   "Limon suyu, ezilmiş sarımsak, rendelenmiş zencefil, ince dilimlenmiş küçük soğan, kekik, tuz, karabiber ve 3 yemek kaşığı sıvı yağı karıştırarak marinasyon hazırlayın. Marinasyonun yarısını ayırıp bir kenara koyun. Kalan yarısını balıkların içine ve üzerine sürün, en az 30 dakika buzdolabında bekletin.",
    "Sosu hazırlamak için geniş bir tencerede 60 ml sıvı yağı orta ateşte ısıtın. 200 g soğanı ve ince doğranmış 2 diş sarımsağı yumuşayana kadar, yaklaşık 5 dakika kavurun.",
    "Acı biberleri ve kırmızı dolmalık biberi ekleyip 3 dakika daha pişirin. Domatesleri ve domates salçasını ilave edip 15 dakika, domatesler dağılıp koyulaşana kadar kısık ateşte pişirin.",
    "Balık suyunu ya da suyu ve toz bulyonu ekleyip 5 dakika daha kaynatın. Tuz ve karabiberle tatlandırın, sosu ateşten alıp ocakta sıcak tutun.",
-   "Fırın ızgarasını veya kömür ocağını yüksek ısıya (yaklaşık 220 °C) getirin. Balıkları her yüzü 8-10 dakika, pullar kolayca ayrılana kadar ızgara yapın. Pişerken marinasyonu bir iki kez üzerine sürün.",
+   "Fırın ızgarasını veya kömür ocağını yüksek ısıya (yaklaşık 220 °C) getirin. Balıkları her yüzü 8-10 dakika, et kolayca ayrılana kadar ızgara yapın. Pişerken, balığa sürülmemiş ayrılan marinasyonu bir iki kez üzerine sürün.",
    "Balıkları ızgaradan alıp sıcak sosun yanında servis edin. Üzerine taze maydanoz serpin ve haşlanmış kasava ile birlikte sunun."
   ],
   "en": [
    "Rinse the fish and pat dry. Make 2-3 deep cuts on each side of every fish.",
-   "Mix the lime juice, crushed garlic, grated ginger, thinly sliced small onion, thyme, salt, black pepper and 3 tbsp vegetable oil to make the marinade. Rub it inside and over the fish, then refrigerate for at least 30 minutes.",
+   "Mix the lime juice, crushed garlic, grated ginger, thinly sliced small onion, thyme, salt, black pepper and 3 tbsp vegetable oil to make the marinade. Set half of the marinade aside. Rub the other half inside and over the fish, then refrigerate for at least 30 minutes.",
    "To make the sauce, heat 60 ml vegetable oil in a wide pot over medium heat. Fry the 200 g chopped onion and the 2 finely chopped garlic cloves for about 5 minutes until soft.",
    "Add the chopped Scotch bonnet chilies and red bell pepper and cook for 3 more minutes. Stir in the tomatoes and tomato paste, then simmer gently for 15 minutes until the tomatoes break down and thicken.",
    "Pour in the fish stock or water, add the stock cube and simmer for 5 more minutes. Season with salt and black pepper, then take the sauce off the heat and keep it warm.",
-   "Heat a grill or charcoal fire to high heat (about 220 °C). Grill the fish for 8-10 minutes per side, until the flesh flakes easily. Brush with the leftover marinade once or twice while cooking.",
+   "Heat a grill or charcoal fire to high heat (about 220 °C). Grill the fish for 8-10 minutes per side, until the flesh flakes easily. Brush with the reserved marinade (the one not used on the raw fish) once or twice while cooking.",
    "Transfer the fish to a plate and serve hot with the pepper sauce spooned over or alongside. Scatter with parsley and serve with boiled cassava."
   ]
  },
@@ -81,5 +81,14 @@
   "tr": "Acı biberin ateşini ayarlamak için çekirdek ve iç zarlarını çıkarın; daha yumuşak bir sos için sosu pürüzsüz olana kadar blenderdan geçirebilirsiniz.",
   "en": "Remove the seeds and membranes from the chilies to control the heat; for a smoother sauce, blend it before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says 'pullar kolayca ayrılana kadar' (until the scales come off easily). It should say the flesh flakes, as the English says.",
+   "The marinade touches raw fish, but the recipe brushes it onto the fish during grilling without reserving any. Part of the marinade should be set aside before it touches the raw fish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

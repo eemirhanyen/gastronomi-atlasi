@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Guanciale yerine pancetta kullanabilirsiniz, ancak en otantik tat için guanciale tercih edin. Peynir ve makarna suyunu ocak kapalıyken ekleyin; aksi halde peynir topaklanır.",
+  "tr": "Guanciale yerine pancetta kullanabilirsiniz, ancak en otantik tat için guanciale tercih edin. Peyniri ocak kapalıyken ekleyin; aksi halde peynir topaklanır.",
   "en": "Pancetta can replace guanciale, but guanciale gives the most authentic flavour. Add the cheese off the heat, otherwise it may clump."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says both the cheese and the pasta water should be added off the heat, but the English tip mentions only the cheese, and the steps add pasta water over heat. The Turkish tip contradicts st"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

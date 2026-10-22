@@ -41,7 +41,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını tuz ve karabiberle tatlandırın.",
+   "Tavuk parçalarını tuz ve karabiberle baharatlayın.",
    "Büyük bir tencerede yağı orta-yüksek ateşte ısıtın. Sarımsağı ve soğanı ekleyip yumuşayana ve hafifçe renk alana kadar yaklaşık 3 dakika kavurun.",
    "Zencefili ekleyin ve 1 dakika daha kavurun.",
    "Tavuk parçalarını tencereye alın ve yüzeyleri hafifçe beyazlaşana kadar, yaklaşık 5 dakika çevirerek pişirin.",
@@ -67,5 +67,13 @@
   "tr": "Yeşil papaya bulunmazsa aynı şekilde kesilmiş chayote (sayote) kullanabilirsiniz; papayayı fazla pişirmeyin, aksi halde dağılır.",
   "en": "If green papaya is unavailable, chayote (sayote) cut the same way works well; avoid overcooking the papaya, or it will fall apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"tatlandırın\" (sweeten) for seasoning with salt and pepper; \"baharatlayın\" is the natural culinary term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

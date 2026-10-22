@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "300 g turp, soyulmuş ve ince çubuk doğranmış",
+   "300 g beyaz turp (daikon), soyulmuş ve ince çubuk doğranmış",
    "100 g havuç, ince çubuk doğranmış",
    "2 yemek kaşığı bitkisel yağ",
    "3 diş sarımsak, ince kıyılmış",
@@ -24,8 +24,8 @@
    "2 yemek kaşığı açık soya sosu",
    "1 çay kaşığı toz şeker",
    "1 çay kaşığı beyaz biber",
-   "Tuz",
-   "60 ml su",
+   "Tuz (isteğe göre)",
+   "75 ml su",
    "3 yemek kaşığı tatlı fasulye sosu (hoisin)",
    "1 tatlı kaşığı acı biber sosu",
    "8 adet popiah yaprağı (yaklaşık 20 cm)",
@@ -34,7 +34,7 @@
    "1 küçük demet kişniş"
   ],
   "en": [
-   "300 g turnip, peeled and cut into fine matchsticks",
+   "300 g white turnip (daikon), peeled and cut into fine matchsticks",
    "100 g carrot, cut into fine matchsticks",
    "2 tbsp vegetable oil",
    "3 cloves garlic, finely minced",
@@ -45,8 +45,8 @@
    "2 tbsp light soy sauce",
    "1 tsp caster sugar",
    "1 tsp white pepper",
-   "Salt",
-   "60 ml water",
+   "Salt (to taste)",
+   "75 ml water",
    "3 tbsp sweet bean sauce (hoisin)",
    "1 tsp chilli sauce",
    "8 popiah skins (about 20 cm)",
@@ -59,7 +59,7 @@
   "tr": [
    "Turp ve havucu tek tek ince çubuklar halinde doğrayın.",
    "Büyük bir tavada 1 yemek kaşığı yağı orta-yüksek ateşte ısıtın, sarımsağın yarısını ekleyip kokusu çıkana kadar yaklaşık 30 saniye kavurun.",
-   "Turp ve havucu tavaya ekleyip 2 dakika karıştırarak soteleyin. 60 ml su, 1 yemek kaşığı soya sosu, toz şekeri ve bir tutam tuz ekleyin.",
+   "Turp ve havucu tavaya ekleyip 2 dakika karıştırarak soteleyin. 60 ml su, 2 yemek kaşığı soya sosu, toz şekeri ve bir tutam tuz ekleyin.",
    "Kapağını kapatıp kısık ateşte 8-10 dakika pişirin; turplar yumuşayıp sosu emene kadar bekleyin. Gerekirse son bir kez süzün ve beyaz biberle tatlandırıp kenara alın.",
    "Aynı tavada kalan 1 yemek kaşığı yağı ısıtın, tofu şeritlerini iki tarafı altın renk alana kadar yaklaşık 4 dakika kızartın ve kenara alın.",
    "Tavaya kalan sarımsağı ve karidesleri ekleyin, karidesler pembeleşip pişene kadar 2-3 dakika sote edin. Kenara alın.",
@@ -72,9 +72,9 @@
    "Üzerine ezilmiş fıstık ve kişnişten serpin, iki yanı katlayıp sıkıca sarın. Kalan malzemelerle aynı işlemi tekrarlayın ve hemen servis yapın."
   ],
   "en": [
-   "Cut the turnip and carrot into fine matchsticks.",
+   "Cut the white turnip and carrot into fine matchsticks.",
    "Heat 1 tablespoon of oil in a large pan over medium-high heat, add half the garlic and stir-fry for about 30 seconds until fragrant.",
-   "Add the turnip and carrot and stir-fry for 2 minutes. Add 60 ml water, 1 tablespoon soy sauce, the sugar and a pinch of salt.",
+   "Add the turnip and carrot and stir-fry for 2 minutes. Add 60 ml water, 2 tablespoons soy sauce, the sugar and a pinch of salt.",
    "Cover and simmer over low heat for 8-10 minutes until the turnip is tender and the liquid is absorbed. Adjust seasoning with white pepper and set aside.",
    "In the same pan, heat the remaining tablespoon of oil and fry the tofu strips for about 4 minutes, turning until golden on both sides. Set aside.",
    "Add the remaining garlic and the prawns to the pan and stir-fry for 2-3 minutes until pink and cooked through. Set aside.",
@@ -91,5 +91,16 @@
   "tr": "Turbun suyunu iyice süzmek, rulonun dağılmasını önler; sarmadan önce harcı kağıt havlu üzerinde bekletin.",
   "en": "Drain the cooked turnip well so the wrappers do not tear, and let the filling cool slightly before rolling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tr/EN step 3 uses only 1 tbsp of the 2 tbsp soy sauce listed, so the remaining soy sauce is never used.",
+   "The dipping sauce (step 10) calls for 1 tbsp of water, but the water listed (60 ml) is used up in step 3 and no extra water is listed.",
+   "Salt is listed without an amount in both languages.",
+   "Turkish 'turp' means radish; the dish uses white turnip/daikon, so 'beyaz turp (daikon)' is clearer. Fixed in the ingredient list and steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -33,7 +33,7 @@
  },
  "steps": {
   "tr": [
-   "Balkabağını kaynayan suda 15-20 dakika, çatala kolayca girene kadar haşlayın.",
+   "Balkabağını tuzlu kaynayan suda 15-20 dakika, çatala kolayca girene kadar haşlayın.",
    "Suyunu iyice süzün, sıcak haldeyken ezerek pürüze yakın bir püre hazırlayın ve ılınmaya bırakın.",
    "Geniş bir kapta unu, kabartma tozunu ve tuzu karıştırın.",
    "Yumuşak domuz yağını veya tereyağını un karışımına parmak uçlarınızla ovalayarak dağıtın.",
@@ -63,5 +63,13 @@
   "tr": "Kabağı iyice süzüp soğutmak hamurun fazla yapışmasını önler; yağ sıcaklığını ölçerek 170-180°C'de tutmak sopaipillas'ın içini pişirmeden dışını yakmadan şişirmenizi sağlar.",
   "en": "Drain the pumpkin very well and let the purée cool so the dough does not get sticky; keeping the oil at 170-180°C lets the breads puff fully and cook through without burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 differs between languages: the English version says to boil the pumpkin in salted water, but the Turkish version does not mention salt."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

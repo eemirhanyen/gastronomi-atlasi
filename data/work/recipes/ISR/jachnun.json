@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Ahnun (Cahnun)",
+  "tr": "Cahnun (Jachnun)",
   "en": "Jachnun"
  },
  "native": "ג'חנון",
@@ -21,9 +21,9 @@
    "150 g eritilmiş margarin (ara katmanlar için)",
    "4 yumurta (kabuklu)",
    "2 büyük domates (yaklaşık 400 g), rendelenmiş",
-   "1 tatlı kaşığı tuz (domates için)",
+   "1 tutam tuz (domates için)",
    "60 g zhug (acı yeşil biber ve kişniş ezmesi)",
-   "Fırın tepsisi için 20 g margarin"
+   "Fırın tepsisi veya tencere için 20 g margarin"
   ],
   "en": [
    "500 g all-purpose flour",
@@ -34,9 +34,9 @@
    "150 g melted margarine (for the layers)",
    "4 eggs in their shells",
    "2 large tomatoes (about 400 g), grated",
-   "1 tsp salt (for the tomatoes)",
+   "a pinch of salt (for the tomatoes)",
    "60 g zhug (green chili and coriander paste)",
-   "20 g margarine, for greasing the pot"
+   "20 g margarine, for greasing the baking dish or pot"
   ]
  },
  "steps": {
@@ -71,5 +71,15 @@
   "tr": "Hamuru ne kadar ince açarsanız katmanlar o kadar belirgin olur; kapağı sıkı kapatmak nemi koruyarak hamurun yumuşak kalmasını sağlar.",
   "en": "The thinner you stretch the dough, the more distinct the layers; a tight lid keeps moisture in so the jachnun stays soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Ahnun (Cahnun)' is misleading: Ahnun is a different Yemenite bread. The name should match Jachnun.",
+   "Ingredient list says 1 tsp salt for the tomatoes, but the steps call for only a pinch.",
+   "Turkish ingredient says the greasing margarine is for a baking tray, while the English says pot. The steps mention both a tray and a pot, so the wording should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

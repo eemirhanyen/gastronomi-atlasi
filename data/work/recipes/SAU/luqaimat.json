@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Topları yağa sürekli sıcak yağ ve ateş ayarıyla bırakın; yağ çok sıcaksa dış kısmı kararırken içi çiğ kalır.",
+  "tr": "Yağı yaklaşık 180°C'de sabit tutun. Yağ çok sıcaksa dış yüzey kararırken içi çiğ kalır; yağ çok soğuksa topçuklar yağı emip ağır bir kıvam alır.",
   "en": "Keep the oil steady at around 180°C. If it is too hot the outside browns before the centre cooks through, and if it is too cool the dumplings absorb grease and turn heavy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish spelling: 'Ilık' should be 'ılık' (dotless ı) in the ingredient list and step 2.",
+   "Turkish tip sentence is awkward and unnatural ('Topları yağa sürekli sıcak yağ ve ateş ayarıyla bırakın'). Rewritten to match the English meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

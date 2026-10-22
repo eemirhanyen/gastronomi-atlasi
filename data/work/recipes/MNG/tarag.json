@@ -9,7 +9,7 @@
   "en": "Tarag is a sour, lightly salted, ayran-like dairy drink widely consumed in Mongolia, especially in summer. It is served with breakfast and lunch in both nomadic herding families' tents and urban households."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 840,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,5 +47,13 @@
   "tr": "Mayalama sırasında sıcaklığı sabit tutmak için karışımı bir termos kabı veya battaniyeye sarılmış bir kapta bekletin; sütü kaynatmak yoğurdun canlı kültürlerinin sağlıklı çoğalmasını sağlar.",
   "en": "Keep the mixture wrapped in a towel or in an insulated container so the temperature stays steady during fermentation; boiling the milk first helps the live cultures multiply well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 20, but the recipe includes a 10-12 hour fermentation and at least 2 hours of chilling, so the total time is about 14 hours. The value appears to count only active time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

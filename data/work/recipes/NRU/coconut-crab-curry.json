@@ -50,17 +50,17 @@
    "Sarımsak, zencefil ve yeşil biberi ekleyin, 1 dakika daha karıştırarak kokusu çıkana kadar pişirin.",
    "Köri tozunu ve zerdeçalı ekleyin, baharatlar kokusunu verene kadar yaklaşık 30 saniye kavurun.",
    "Hindistan cevizi sütünü yavaşça ekleyin, tuzu da katın. Karışımı kaynatın, ardından ateşi kısın.",
-   "Yengeç parçalarını sosun içine yerleştirin ve kapağı kapatarak 15-18 dakika kısık ateşte pişirin. Kabukların kırmızıya dönmesi ve etin sıcak ve kolay ayrılır hale gelmesi gerekir.",
+   "Kabuklu yengeç parçalarını ve ayırdığınız eti sosun içine yerleştirin, kapağı kapatarak 15-18 dakika kısık ateşte pişirin. Kabukların kırmızıya dönmesi ve etin sıcak ve kolay ayrılır hale gelmesi gerekir.",
    "Ocağı kapatın, limon suyunu ve kişnişi ekleyip karıştırın. Gerekirse tuzunu ayarlayın.",
    "Sıcak pirinçle birlikte servis edin."
   ],
   "en": [
-   "Chill the crab in the freezer for about 20 minutes to calm it. Crack the shell, remove the meat from the body, and cut the crab into 5-6 cm pieces, keeping the shell fragments with the meat. Set aside in a bowl.",
+   "Chill the crab in the freezer for about 20 minutes to calm it. Crack the shell, remove the meat from the body, and cut the crab into 5-6 cm pieces, keeping the shell fragments separate from the meat. Set the shell pieces and the meat aside in separate bowls.",
    "Heat the oil in a wide pot over medium heat. Add the onion and fry for 6-7 minutes until soft and lightly golden.",
    "Stir in the garlic, ginger and green chilli and cook for 1 minute more, until fragrant.",
    "Add the curry powder and turmeric and fry for about 30 seconds, until the spices release their aroma.",
    "Pour in the coconut milk, add the salt, and bring to a boil. Reduce the heat to low.",
-   "Add the crab pieces to the sauce, cover and simmer gently for 15-18 minutes, until the shells turn red and the meat is hot and pulls easily from the shell.",
+   "Add the shell pieces and the reserved meat to the sauce, cover and simmer gently for 15-18 minutes, until the shells turn red and the meat is hot and pulls easily from the shell.",
    "Remove from the heat, stir in the lime juice and coriander, and adjust the salt to taste.",
    "Serve hot with steamed rice."
   ]
@@ -69,5 +69,14 @@
   "tr": "Hindistan cevizi sütünü kaynatırken kesinlikle hızlı kaynatmayın; yağının ayrılmasını önlemek için kısık ateşte pişirin.",
   "en": "Keep the coconut milk at a gentle simmer; a rolling boil can cause it to split and turn oily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 sets the shell pieces and meat in separate bowls, but the English step says to keep them together and set them in one bowl.",
+   "The meat removed from the body is never explicitly added back in step 6, which only says to add the 'crab pieces'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

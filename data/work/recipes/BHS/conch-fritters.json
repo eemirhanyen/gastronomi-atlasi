@@ -25,7 +25,7 @@
    "1 büyük yumurta",
    "120 ml süt",
    "1 yemek kaşığı limon suyu (yaklaşık 15 ml)",
-   "1 tatlı kaşığı tuz",
+   "2 tatlı kaşığı tuz (yarısı konç için, yarısı hamur için)",
    "1/2 tatlı kaşığı karabiber",
    "1 tatlı kaşığı acı sos",
    "Kızartma için yaklaşık 1 litre bitkisel yağ",
@@ -44,7 +44,7 @@
    "1 large egg",
    "120 ml milk",
    "1 tbsp lime juice (about 15 ml)",
-   "1 tsp salt",
+   "2 tsp salt (half for the conch, half for the batter)",
    "1/2 tsp black pepper",
    "1 tsp hot sauce",
    "About 1 litre vegetable oil for frying",
@@ -55,7 +55,7 @@
   "tr": [
    "Konç etini bıçakla veya robotta çok ince doğrayın; büyük parça kalmamasına dikkat edin. Yumuşaklık için etin üzerine 1 tatlı kaşığı tuz ekleyip 5 dakika bekletin ve suyunu süzün.",
    "Doğranmış konç etini, soğanı, yeşil biberi, kerevizi, sarımsağı, scotch bonnet biberini ve kekiği büyük bir kapta karıştırın.",
-   "Ayrı bir kapta unu, kabartma tozunu, tuzu ve karabiberi eleyerek birleştirin.",
+   "Ayrı bir kapta unu, kabartma tozunu, kalan 1 tatlı kaşık tuzu ve karabiberi eleyerek birleştirin.",
    "Yumurtayı, sütü, limon suyunu ve acı sosu başka bir kapta çırpın. Bu karışımı kuru malzemelere ekleyip kaşıkla karıştırın; yoğun ama dökülebilir bir hamur elde edin.",
    "Hamuru konç karışımına ekleyin ve tüm malzemeler eşit dağılana kadar karıştırın. Hamur 15 dakika dinlendirilebilir.",
    "Geniş ve derin bir tencerede yağı 180°C'ye kadar ısıtın. Yağ termometresi yoksa hamurdan küçük bir parça atın; hemen yüzmeli ve cızırdamalıdır.",
@@ -67,7 +67,7 @@
   "en": [
    "Chop the conch very finely by hand or in a food processor, avoiding large pieces. Sprinkle with 1 tsp salt, let it rest for 5 minutes, then drain off the liquid.",
    "In a large bowl, combine the minced conch, onion, green pepper, celery, garlic, scotch bonnet and thyme.",
-   "In another bowl, sift together the flour, baking powder, salt and black pepper.",
+   "In another bowl, sift together the flour, baking powder, the remaining 1 tsp salt and black pepper.",
    "In a separate bowl, whisk the egg, milk, lime juice and hot sauce. Add to the dry ingredients and stir with a spoon until you have a thick but pourable batter.",
    "Pour the batter over the conch mixture and stir until everything is evenly coated. Rest for 15 minutes if you have time.",
    "Heat the oil in a wide, deep pan to 180°C. Without a thermometer, drop in a small spoon of batter: it should sizzle and rise to the surface straight away.",
@@ -81,5 +81,13 @@
   "tr": "Hamur çok sulu olursa un, çok kuru olursa süt ekleyerek kıvamı ayarlayın; kızartma sırasında yağ ısısını 170-180°C arasında tutmak fritterlerin dağılmasını önler.",
   "en": "If the batter is too runny add a spoonful of flour, and if too stiff add a little milk; keeping the oil at 170 to 180°C stops the fritters from falling apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed once (1 tsp) but used twice: 1 tsp on the conch in step 1 and again in the dry batter mix in step 3. The quantity should cover both uses (English and Turkish)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

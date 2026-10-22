@@ -22,7 +22,8 @@
    "3 adet kuru limon (loomi), delinmiş",
    "60 ml taze limon suyu",
    "200 g pazı, doğranmış",
-   "1 çay kaşığı tuz",
+   "1 çay kaşığı tuz (kubbe kabuğu için)",
+   "1 çay kaşığı tuz (çorba için)",
    "250 g ince bulgur",
    "60 g un",
    "300 ml sıcak su",
@@ -31,7 +32,7 @@
    "15 ml sıvı yağ",
    "1 çay kaşığı öğütülmüş kimyon",
    "1/2 çay kaşığı karabiber",
-   "1/2 çay kaşığı tuz"
+   "1/2 çay kaşığı tuz (dolgu için)"
   ],
   "en": [
    "500 g bone-in beef shank",
@@ -43,7 +44,8 @@
    "3 dried limes (loomi), pierced",
    "60 ml fresh lemon juice",
    "200 g Swiss chard, chopped",
-   "1 tsp salt",
+   "1 tsp salt (for the shell)",
+   "1 tsp salt (for the soup)",
    "250 g fine bulgur",
    "60 g plain flour",
    "300 ml hot water",
@@ -52,7 +54,7 @@
    "15 ml vegetable oil",
    "1 tsp ground cumin",
    "1/2 tsp ground black pepper",
-   "1/2 tsp salt"
+   "1/2 tsp salt (for the filling)"
   ]
  },
  "steps": {
@@ -65,7 +67,7 @@
    "Çorba için 30 ml sıvı yağı büyük tencerede ısıtın. Domates salçasını ve zerdeçalı ekleyip 1 dakika kavurun, ayrılmış suyu yavaş yavaş ekleyin ve kaynamaya bırakın.",
    "Çorbaya delinmiş kuru limonları, doğranmış pazıyı ve 1 çay kaşığı tuzu ekleyin, yaklaşık 10 dakika pişirin.",
    "Kubbeleri çorbaya bırakın, nazikçe kaynatın ve kabuklar yumuşayıp dolgu iyice pişene kadar yaklaşık 20 dakika pişirin.",
-   "Son olarak taze limon suyunu ekleyip tadına bakın, gerekirse tuz ayarlayın. Kıyılmış etleri de çorbaya ekleyip sıcak servis yapın."
+   "Son olarak taze limon suyunu ekleyip tadına bakın, gerekirse tuz ayarlayın. Liflere ayrılmış etleri de çorbaya ekleyip sıcak servis yapın."
   ],
   "en": [
    "Rinse the beef shank in cold water. Place it in a large pot with 2 litres of water and the halved onion, bring to a boil over medium heat and skim off the foam.",
@@ -83,5 +85,14 @@
   "tr": "Kubbe kabuğunun yapışmaması için ellerinizi her seferinde suya batırın; kubbeleri pişirirken çorbayı kaynatmayın, hafifçe kaynatın ki dağılmasınlar.",
   "en": "Keep your hands wet while shaping so the bulgur dough does not stick, and simmer the kubba gently rather than at a hard boil so they hold their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is used three times in the steps (1 tsp for the dough, 1 tsp for the soup, 1/2 tsp for the filling), but the ingredient list has only one 1 tsp entry in both Turkish and English.",
+   "Turkish step 9 says \"Kıyılmış etleri\" (minced meats), but the meat was shredded from the shank in step 2 and the English says \"shredded beef\". The Turkish wording is wrong and does not match the Engli"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

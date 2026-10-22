@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Kaldo verde",
+  "tr": "Caldo verde",
   "en": "Caldo verde"
  },
  "native": "Caldo verde",
  "desc": {
-  "tr": "Patates, yaprak lahana ve füme Portekiz sosisinden yapılan, zeytinyağlı yoğun bir çorbadır. Kökeni Portekiz'in Minho bölgesine dayanır ve Brezilya'da da özellikle soğuk günlerde, ana yemekten önce sıcak servis edilir.",
+  "tr": "Patates, yaprak lahana ve füme Portekiz sosisinden yapılan, zeytinyağlı yoğun bir çorbadır. Kökeni Portekiz'in Minho bölgesine dayanır ve Brezilya'da da özellikle soğuk günlerde sıcak servis edilir; genellikle başlangıç olarak ya da hafif bir ana yemek olarak ekmekle birlikte sunulur.",
   "en": "A hearty soup of potatoes, finely shredded collard greens and smoked Portuguese sausage, finished with olive oil. It originates in Portugal's Minho region and is widely eaten in Brazil, especially on cool days, usually as a starter or light main with bread."
  },
  "servings": 4,
@@ -16,11 +16,11 @@
    "500 g patates (orta boy, soyulmuş ve küp doğranmış)",
    "1 orta boy soğan (yaklaşık 120 g), ince doğranmış",
    "3 diş sarımsak, ezilmiş",
-   "60 ml zeytinyağı, servis için ek 15 ml",
+   "60 ml zeytinyağı, servis için ek 20 ml",
    "1,5 litre su",
    "250 g yaprak lahana (couve veya kale), sapları çıkarılmış ve çok ince şeritlere kesilmiş",
    "200 g füme sosis (chouriço veya linguiça), 0,5 cm kalınlığında dilimlenmiş",
-   "8 g tuz, tadına göre",
+   "5 g tuz, tadına göre",
    "1 g karabiber",
    "4 dilim ekmek, servis için"
   ],
@@ -28,11 +28,11 @@
    "500 g potatoes (medium, peeled and cut into cubes)",
    "1 medium onion (about 120 g), finely chopped",
    "3 garlic cloves, crushed",
-   "60 ml olive oil, plus 15 ml for serving",
+   "60 ml olive oil, plus 20 ml for serving",
    "1.5 litres water",
    "250 g collard greens (couve or kale), stems removed and cut into very thin ribbons",
    "200 g smoked sausage (chouriço or linguiça), sliced 0.5 cm thick",
-   "8 g salt, to taste",
+   "5 g salt, to taste",
    "1 g black pepper",
    "4 slices bread, to serve"
   ]
@@ -63,5 +63,16 @@
   "tr": "Lahanayı servisten hemen önce ince şeritler halinde kesin; uzun süre kaynamış lahana hem rengini hem de dokusunu kaybeder.",
   "en": "Shred the greens as thinly as possible and add them at the end; overcooked collards lose their bright colour and texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name 'Kaldo verde' is a misspelling of 'Caldo verde'.",
+   "Salt at 8 g for 1.5 L of water and 4 servings is too salty; reduced to 5 g.",
+   "Serving olive oil is listed as 15 ml, but one teaspoon per portion for 4 servings is about 20 ml; corrected the amount.",
+   "Turkish description says the soup is served before the main course, while the English says 'a starter or light main'; aligned the Turkish wording with the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

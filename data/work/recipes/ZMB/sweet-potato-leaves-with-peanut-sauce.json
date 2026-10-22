@@ -41,7 +41,7 @@
    "Geniş bir tencerede 300 ml suyu kaynatın, yaprakları ve bir tutam tuzu ekleyin. Kapağı kapatıp 10 dakika yumuşayana kadar pişirin.",
    "Yaprakları süzün ve pişirme suyunu bir kenara ayırın. Yaprakları iyice sıkıp bir kenara alın.",
    "Başka bir tencerede yağı orta-yüksek ateşte ısıtın. Soğanı 4-5 dakika, yumuşayıp hafifçe renk alana kadar kavurun.",
-   "Sarımsak ve acı biberi ekleyip 1 dakika kavurun. Domatesleri ekleyin ve suyunu çekene kadar 5 dakika pişirin.",
+   "Sarımsak ve acı biberi ekleyip 1 dakika kavurun. Domatesleri ekleyin ve suyunun büyük kısmı çekilene kadar yaklaşık 5 dakika pişirin.",
    "Fıstık ezmesini 200 ml ılık su ve ayırdığınız pişirme suyunun bir kısmıyla pürüzsüz bir karışım olacak şekilde karıştırın.",
    "Fıstık karışımını tencereye dökün, iyice karıştırın ve kısık ateşte 5 dakika kaynatın. Sos çok koyu olursa biraz ılık su ekleyin.",
    "Pişmiş yaprakları sosun içine ekleyin, karıştırın ve 5-7 dakika daha kısık ateşte pişirin.",
@@ -52,7 +52,7 @@
    "In a large pot, bring 300 ml of water to a boil. Add the leaves and a pinch of salt, cover, and cook for 10 minutes until tender.",
    "Drain the leaves, reserving the cooking water. Squeeze the leaves well and set them aside.",
    "In another pot, heat the oil over medium-high heat. Fry the onion for 4-5 minutes until softened and lightly golden.",
-   "Add the garlic and chili and fry for 1 minute. Add the tomatoes and cook for about 5 minutes until they break down and release their juice.",
+   "Add the garlic and chili and fry for 1 minute. Add the tomatoes and cook for about 5 minutes until they break down and most of their liquid has evaporated.",
    "Whisk the peanut butter with 200 ml of warm water and a little of the reserved cooking water until you have a smooth, pourable mixture.",
    "Pour the peanut mixture into the pot, stir well, and simmer gently over low heat for 5 minutes. If the sauce becomes too thick, add a splash of warm water.",
    "Stir in the cooked leaves and simmer over low heat for another 5-7 minutes.",
@@ -63,5 +63,13 @@
   "tr": "Tatlı patates yapraklarını mutlaka pişirin; çiğ yapraklarda bulunan doğal bileşikler sindirimi zorlaştırabilir. Sosun kıvamı için pişirme suyunu azar azar ekleyin.",
   "en": "Always cook sweet potato leaves thoroughly, as raw leaves contain compounds that can upset digestion. Add the cooking water gradually to control the sauce's consistency."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tomato step mismatch: the Turkish says to cook until the tomatoes' water is absorbed/evaporated (suyunu çekene kadar), but the English says they 'release their juice'. The English is changed to match "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

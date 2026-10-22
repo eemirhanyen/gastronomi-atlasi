@@ -5,8 +5,8 @@
  },
  "native": "Sopa de mondongo",
  "desc": {
-  "tr": "Nikaragua'da özellikle hafta sonları ve kutlama günlerinde yenen, işkembe, yuca ve yeşil muzun pişirildiği yoğun bir sebzeli et çorbasıdır. Genellikle limon, soğan ve taze nane ile servis edilir.",
-  "en": "A hearty Nicaraguan soup of beef tripe simmered with cassava, green plantain and vegetables, traditionally eaten on weekends and celebrations. It is served with lime, raw onion and fresh mint on the side."
+  "tr": "Nikaragua'da özellikle hafta sonları ve kutlama günlerinde yenen, işkembe, yuca ve yeşil muzun pişirildiği yoğun bir sebzeli et çorbasıdır. Genellikle limon ve çiğ soğan ile servis edilir; taze nane ve kişniş çorbaya son anda eklenir.",
+  "en": "A hearty Nicaraguan soup of beef tripe simmered with cassava, green plantain and vegetables, traditionally eaten on weekends and celebrations. It is served with lime and raw onion on the side; fresh mint and cilantro are stirred into the soup at the end."
  },
  "servings": 4,
  "time_min": 210,
@@ -18,7 +18,7 @@
    "3 l su",
    "1 orta boy soğan (yarısı çorba için, yarısı servis için)",
    "4 diş sarımsak",
-   "2 yeşil olgun muz (plátano)",
+   "2 yeşil muz (plátano, olgunlaşmamış)",
    "400 g yuca (manyok), soyulmuş ve parçalanmış",
    "1 orta boy kabak benzeri sayote (chayote), soyulup küp doğranmış, yaklaşık 250 g",
    "1 havuç, dilimlenmiş, yaklaşık 120 g",
@@ -27,7 +27,8 @@
    "5 g öğütülmüş achiote (annatto)",
    "2 yemek kaşığı (30 ml) bitkisel yağ",
    "1 çay kaşığı (3 g) kimyon",
-   "Tuz ve karabiber",
+   "1 çay kaşığı (5 g) tuz, tadınıza göre ayarlayın",
+   "1/2 çay kaşığı (1 g) karabiber",
    "10 g taze nane (yerba buena)",
    "10 g taze kişniş"
   ],
@@ -37,7 +38,7 @@
    "3 L water",
    "1 medium onion (half for the soup, half for serving)",
    "4 cloves garlic",
-   "2 green plantains (plátano)",
+   "2 green plantains (plátano, unripe)",
    "400 g cassava (yuca), peeled and cut into chunks",
    "250 g chayote, peeled and cubed",
    "120 g carrot, sliced",
@@ -46,7 +47,8 @@
    "5 g ground achiote (annatto)",
    "30 ml vegetable oil",
    "3 g ground cumin (1 tsp)",
-   "Salt and black pepper",
+   "5 g salt (1 tsp), adjust to taste",
+   "1 g black pepper (1/2 tsp)",
    "10 g fresh mint (yerba buena)",
    "10 g fresh cilantro"
   ]
@@ -58,13 +60,13 @@
    "Temizlenmiş işkembeyi 3 litre suyla birlikte büyük bir tencereye alın. Soğanın yarısını, 2 diş sarımsağı ve 1 çay kaşığı tuzu ekleyin.",
    "Kısık ateşte yaklaşık 2 saat, işkembe yumuşayana kadar pişirin. Gerekirse köpüğü alın.",
    "Bu sırada yuca, muz ve sayoteyi soyun. Muzları ve yucayı 4-5 cm'lik parçalara ayırın, sayoteyi küp doğrayın.",
-   "İşkembe yumuşayınca tencereden çıkarıp şeritler halinde kesin. Pişirme suyunu süzmeden saklayın.",
+   "İşkembe yumuşayınca tencereden çıkarıp şeritler halinde kesin. Pişirme suyunu süzerek saklayın.",
    "Ayrı bir tavada yağı ısıtın. Kalan soğanı ve sarımsağı, biberi ekleyip 4-5 dakika kavurun.",
    "Domatesleri ve öğütülmüş achiote'u ekleyip 3-4 dakika daha pişirin.",
    "Sofrito karışımını işkembe suyuna ekleyin. Kimyon, tuz ve karabiber ile tatlandırın.",
    "Yuca, muz, sayote, havuç ve işkembe şeritlerini ekleyip kısık ateşte 30-40 dakika, sebzeler yumuşayana kadar pişirin.",
    "Son 5 dakikada ince kıyılmış naneyi ve kişnişi ekleyin. Tuzunu ayarlayıp sıcak servis yapın.",
-   "Her kaseye bir dilim limon ve ince doğranmış soğan ekleyerek servis yapın."
+   "Her kaseye bir dilim limon ve ince doğranmış çiğ soğan ekleyerek servis yapın."
   ],
   "en": [
    "Rinse the tripe well in water, rub it with the juice of one lime and let it sit for 10 minutes. Then rinse thoroughly.",
@@ -85,5 +87,16 @@
   "tr": "İşkembeyi ilk haşlamadan sonra suyunu mutlaka dökün; bu, çorbanın temiz ve hafif bir tat almasını sağlar.",
   "en": "Discard the water after the first boil of the tripe; this keeps the soup clean-tasting and less gamey."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says \"yeşil olgun muz\" (ripe green), which contradicts itself; English says green plantains, so the Turkish should be unripe green plantain.",
+   "Salt and black pepper have no quantities or units in either language, but salt is used in step 3 as 1 tsp and pepper is used in the sofrito step.",
+   "Turkish step 6 says \"süzmeden saklayın\" (keep without straining), while the English says \"keep the cooking liquid, strained\". The Turkish should say to strain it.",
+   "The description says mint is served on the side, but the steps add mint and cilantro to the soup in the last 5 minutes. The description should not describe mint as a side garnish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

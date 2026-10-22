@@ -5,7 +5,7 @@
  },
  "native": "Fraed plantin",
  "desc": {
-  "tr": "Sierra Leone'de Krio mutfağının çok sevilen bir yan lezzetidir; olgun pişirmelik muzun tatlı-kıvamlı dilimleri sokak yemeklerinde, ana yemeklerin yanında ve özellikle öğle ve akşam sofralarında servis edilir.",
+  "tr": "Sierra Leone'de Krio mutfağının çok sevilen bir yan lezzetidir; kızartılmış pişirmelik muz dilimleri sokak tezgâhlarında satılır ve başta pirinç yemekleri ve yahniler olmak üzere ana yemeklerin yanında servis edilir.",
   "en": "A beloved side dish in Krio cooking, fried plantain is served from street stalls and alongside main meals, especially rice dishes and stews, across Sierra Leone."
  },
  "servings": 4,
@@ -42,8 +42,17 @@
   ]
  },
  "tip": {
-  "tr": "Muzun olgun ve kabuğunun neredeyse siyah olması, doğal tatlılığını ortaya çıkarıp dilimlerin karamelize olmasını sağlar; daha az olgun muz kullanırsanız kızartma süresini biraz uzatın.",
+  "tr": "Muzun olgun ve kabuğunun neredeyse siyah olması, doğal tatlılığını ortaya çıkarıp dilimlerin karamelize olmasını sağlar; daha az olgun muz kullanırsanız kızartma süresini biraz uzatın ve daha sert, nişastalı bir dokuya hazır olun.",
   "en": "Very ripe plantains with mostly black skins are sweeter and caramelize better; if using less ripe fruit, fry a little longer and expect a firmer, starchier bite."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description omits the English detail that plantain is served with rice dishes and stews, and instead mentions lunch and dinner tables, so the two versions disagree.",
+   "Turkish tip omits the English note that less ripe plantain gives a firmer, starchier bite, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

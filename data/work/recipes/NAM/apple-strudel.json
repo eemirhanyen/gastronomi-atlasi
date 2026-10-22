@@ -80,8 +80,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru yayarken parmaklarınızın üzerinden geçirip ince bir tabaka elde edin; hamur delinirse meyve suyu sızar, bu yüzden kenarları dikkatli çekin.",
+  "tr": "Hamuru yayarken parmaklarınızın üzerinden geçirip ince bir tabaka elde edin, kalın yapmayın; hamur yırtılırsa fazla hamurdan küçük bir parçayla yamayın, çünkü ince noktalardan elma suyu sızar. Kenarları dikkatli çekin.",
   "en": "Stretch the dough over the backs of your knuckles rather than rolling it too thick; if it tears, patch it with a little extra dough, as thin spots let the apple juice leak out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English tip says to patch a torn dough with a little extra dough, but the Turkish tip omits this instruction, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

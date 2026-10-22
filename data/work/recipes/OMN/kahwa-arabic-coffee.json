@@ -5,10 +5,10 @@
  },
  "native": "قهوة عربية",
  "desc": {
-  "tr": "Umman'da ve Körfez ülkelerinde misafir karşılamanın geleneksel simgesi olan, hafif kavrulmuş kahve ile hindistancevizi... yerine kakule ve safranla tatlandırılan, sade ve aromatik bir içecektir. Genellikle yemeklerden önce ya da resmi görüşmelerde küçük fincanlarda ikram edilir.",
+  "tr": "Umman'da ve Körfez ülkelerinde misafir karşılamanın geleneksel simgesi olan, hafif kavrulmuş kahvenin kakule ve safranla aromalandırıldığı, şekersiz ve aromatik bir içecektir. Genellikle yemeklerden önce ya da resmi görüşmelerde küçük fincanlarda ikram edilir.",
   "en": "A lightly roasted, unsweetened coffee spiced with cardamom and saffron, served in small handleless cups as the traditional welcome drink for guests in Oman and across the Gulf. It is typically offered before meals and during formal visits and gatherings."
  },
- "servings": 4,
+ "servings": 12,
  "time_min": 30,
  "difficulty": "easy",
  "ingredients": {
@@ -17,14 +17,14 @@
    "20 g hafif kavrulmuş Arap kahvesi (orta-ince çekilmiş)",
    "6 adet yeşil kakule kabuğu, hafifçe ezilmiş",
    "1 tutam safran (yaklaşık 0,1 g)",
-   "4 adet hurma (servis için)"
+   "12 adet hurma (servis için)"
   ],
   "en": [
    "500 ml water",
    "20 g lightly roasted Arabic coffee (medium-fine ground)",
    "6 green cardamom pods, lightly crushed",
    "1 pinch saffron (about 0.1 g)",
-   "4 dates (for serving)"
+   "12 dates (for serving)"
   ]
  },
  "steps": {
@@ -32,7 +32,7 @@
    "Kakule kabuklarını havanda hafifçe ezin ki aromaları açığa çıksın.",
    "Suyu bir cezvede ya da küçük tencerede kaynatın.",
    "Kahveyi, ezilmiş kakuleyi ve safranı kaynayan suya ekleyin, karıştırın.",
-   "Ateşi kısın ve karışımı kaynamadan yaklaşık 5 dakika hafifçe demleyin.",
+   "Ateşi kısın ve karışımı taşırmadan, hafifçe kaynatarak yaklaşık 5 dakika demleyin.",
    "Ocaktan alın ve kahve telvesinin çökmesi için yaklaşık 2 dakika bekleyin.",
    "Kahveyi ince süzgeçten geçirerek önceden ısıtılmış bir dallaya ya da sürahiye süzün.",
    "Kahveyi küçük, kulpsuz fincanlara yaklaşık üçte bir oranında doldurup hurmalarla birlikte servis yapın."
@@ -51,5 +51,15 @@
   "tr": "Kahvenin kaynamasını önleyin; kaynarsa acılaşır ve aroması bozulur. Telvenin dağılmaması için süzmeden önce kısa bir süre dinlendirin.",
   "en": "Never let the coffee come to a full boil, as it turns bitter and loses its aroma. Let it rest briefly before pouring so the grounds stay at the bottom."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the drink is 'tatlandırılan' (sweetened), contradicting the English 'unsweetened' and the traditional recipe. It also contains a garbled fragment ('hindistancevizi... yerine')",
+   "Quantity mismatch: 500 ml water yields roughly 12 to 15 small handleless cups, but the recipe says 4 servings, each filled about one-third full. Servings should match the yield.",
+   "Turkish step 4 says 'kaynamadan ... demleyin' while the English says 'gently simmer', and the tip forbids boiling. The Turkish step should match the English wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

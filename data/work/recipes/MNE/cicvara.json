@@ -16,7 +16,7 @@
    "750 ml su",
    "5 g tuz",
    "250 g ince sarı mısır unu (kukuruzno brašno)",
-   "120 g tereyağı",
+   "140 g tereyağı",
    "200 g beyaz salamura peynir (feta tipi, ör. Karadağ beyaz peyniri)",
    "150 g kajmak veya ekşi krema, servis için",
    "1 yemek kaşığı yağ, kap için"
@@ -25,7 +25,7 @@
    "750 ml water",
    "5 g salt",
    "250 g fine yellow cornmeal (kukuruzno brašno)",
-   "120 g butter",
+   "140 g butter",
    "200 g brined white cheese (feta-style, e.g. Montenegrin white cheese)",
    "150 g kajmak or sour cream, for serving",
    "1 tablespoon oil, for greasing the dish"
@@ -61,5 +61,13 @@
   "tr": "Mısır ununu suya yavaş ekleyip sürekli çırpın; topaklanmayı önlemek için karışımı kısık ateşte iyice pişirin.",
   "en": "Add the cornmeal slowly and whisk constantly; cooking it fully on low heat prevents lumps and gives the smooth texture cicvara is known for."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter total mismatch: the steps use 80 g (step 5) + 20 g (step 6) + 20 g (step 7) + 20 g (step 8) = 140 g, but the ingredient list says 120 g in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

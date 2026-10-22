@@ -9,11 +9,11 @@
   "en": "A staple family meal in Zambia, where slow-simmered beef in a tomato and onion sauce is served with nshima, a firm porridge made from maize meal. It is a common sight at family lunches and weekend gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g dana eti (gövde veya bonfile kenarı, kemiksiz)",
+   "800 g dana eti (gövde veya üst bilek, kemiksiz)",
    "3 yemek kaşığı (45 ml) sıvı yağ",
    "2 büyük soğan (yaklaşık 300 g), ince doğranmış",
    "3 diş sarımsak, ezilmiş",
@@ -46,9 +46,9 @@
    "Aynı tencereye soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak ve yeşil biberi ekleyin, 2 dakika daha kavurun.",
    "Domatesleri ekleyip suyunu salıverip yumuşayana kadar, yaklaşık 5 dakika pişirin.",
-   "Eti tencereye geri koyun, sıcak suyu ve tuzu ekleyin. Kapağı kapatıp kısık ateşte yaklaşık 45 dakika, et yumuşayana kadar pişirin. Gerekirse az su ekleyerek kıvamını ayarlayın.",
+   "Eti tencereye geri koyun, sıcak suyu ve tuzu ekleyin. Kapağı kapatıp kısık ateşte yaklaşık 1 saat, et çatalla kolayca dağılana kadar pişirin. Gerekirse az su ekleyerek kıvamını ayarlayın.",
    "Nşima için 1,2 litre suyu ve tuzu geniş bir tencerede kaynatın.",
-   "Mısırununun yaklaşık 150 gramını ayrı bir kapta soğuk suyla macun kıvamına gelene kadar karıştırın. Bu karışımı kaynayan suya ekleyip sürekli karıştırarak 2 dakika pişirin.",
+   "Mısır ununun yaklaşık 150 gramını ayrı bir kapta soğuk suyla macun kıvamına gelene kadar karıştırın. Bu karışımı kaynayan suya ekleyip sürekli karıştırarak 2 dakika pişirin.",
    "Kalan unu azar azar ekleyin ve tahta kaşıkla sürekli karıştırarak koyu, pürüzsüz ve dökülmeyen bir hamur elde edene kadar pişirin, yaklaşık 10 dakika.",
    "Ocağı kısın, kapağı kapatıp 5 dakika dinlendirin. Nşimayı ıslatılmış bir kaseye veya kaba alıp bir top şeklinde bastırarak servis edin.",
    "Nşimayı yahninin yanında servis edin, eller veya çatalla tutulan parçalar koparıp sosa batırarak yiyin."
@@ -59,7 +59,7 @@
    "In the same pot, fry the onions for about 5 minutes until soft and lightly golden.",
    "Add the garlic and green pepper and cook for 2 more minutes.",
    "Add the tomatoes and cook for about 5 minutes, until they break down and soften.",
-   "Return the beef to the pot, add the hot water and salt. Cover and simmer gently for about 45 minutes, until the beef is tender. Add a little water if the sauce becomes too thick.",
+   "Return the beef to the pot, add the hot water and salt. Cover and simmer gently for about 1 hour, until the beef is fork-tender. Add a little water if the sauce becomes too thick.",
    "For the nshima, bring the 1.2 litres of water and the salt to the boil in a large pot.",
    "In a separate bowl, mix about 150 g of the maize meal with cold water to a smooth paste. Stir this into the boiling water and cook for 2 minutes, stirring constantly.",
    "Gradually add the remaining maize meal, stirring constantly with a wooden spoon, and cook for about 10 minutes until the porridge is thick, smooth and pulls away from the sides of the pot.",
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Nşimanın kıvamı için mısırununu kaynayan suya doğrudan dökmeyin; önce soğuk suyla macun yapıp ekleyin ve sürekli karıştırarak topaklanmayı önleyin.",
+  "tr": "Nşimanın kıvamı için mısır ununu kaynayan suya doğrudan dökmeyin; önce soğuk suyla macun yapıp ekleyin ve sürekli karıştırarak topaklanmayı önleyin.",
   "en": "To avoid lumps, never tip the maize meal straight into boiling water. Mix it into a paste with cold water first, then stir constantly as you add the rest."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish cut 'bonfile kenarı' (tenderloin) does not match English 'topside' and is unsuitable for a slow stew; English and Turkish disagree on the cut.",
+   "Simmer time of about 45 minutes is too short for 3 cm cubes of chuck or topside to become tender; about 1 hour is needed.",
+   "time_min of 60 is inconsistent with the steps (browning, sautéing, about 1 hour simmer and about 15 minutes of nshima)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -54,8 +54,16 @@
   ]
  },
  "tip": {
-  "tr": "Karışım dibe yapışmasın diye son aşamada sürekli karıştırın; orange etli patates daha güzel renk ve tat verir.",
+  "tr": "Karışım dibe yapışmasın diye son aşamada sürekli karıştırın; turuncu etli patates daha güzel renk ve tat verir.",
   "en": "Stir constantly during the final 10 minutes to prevent sticking; orange-fleshed sweet potato gives the best colour and flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses the English calque \"orange etli\" while the Turkish ingredient list uses \"turuncu etli\"; the tip should use the same natural term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

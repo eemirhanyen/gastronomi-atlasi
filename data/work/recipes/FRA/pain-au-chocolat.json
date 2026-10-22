@@ -9,7 +9,7 @@
   "en": "A laminated yeast pastry from France, made by folding butter into enriched dough and rolling dark chocolate batons inside. It is eaten fresh for breakfast, especially in Paris and at neighborhood bakeries."
  },
  "servings": 4,
- "time_min": 240,
+ "time_min": 360,
  "difficulty": "hard",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Tereyağı katlamalar sırasında yumuşarsa hamuru derhal buzdolabına koyun; sıcak tereyağı katmanları birbirine karıştırır ve kabarmayı engeller.",
   "en": "If the butter softens during folding, return the dough to the fridge immediately; warm butter blends into the layers and prevents the pastry from puffing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (240) is too low for the steps: roughly 30 min rest, 60 min chill, three 30-min chills after folds plus the rolling, 1.5-2 h proof and baking add up to about 6 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

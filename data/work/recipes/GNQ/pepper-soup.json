@@ -9,7 +9,7 @@
   "en": "A spicy, aromatic soup eaten in Equatorial Guinea, especially in the evening and on cool days. It is usually made with chicken or fish and served hot, often alongside bread or starchy staples."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,7 +47,7 @@
    "Soğan, sarımsak, zencefil, domates ve acı biberi bir blenderda 100 ml su ile pürüzsüz bir püre haline gelene kadar karıştırın.",
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Püreyi ekleyin ve 5 dakika, yağ ayrılana kadar pişirin.",
    "Tavuk parçalarını tencereye ekleyin ve her iki tarafı da 3-4 dakika, hafifçe renk alana kadar çevirerek kavurun.",
-   "Suyu ekleyip kaynatın. Yüzeyde biriken köpükleri bir kaşıkla alın.",
+   "Kalan suyu (1,4 L) ekleyip kaynatın. Yüzeyde biriken köpükleri bir kaşıkla alın.",
    "Ateşi kısın, kapağını kapatarak tavuk eti yumuşayana ve kemikten ayrılmaya başlayana kadar yaklaşık 40 dakika pişirin.",
    "Öğütülmüş Etiyopya biberi, karabiber ve tuzu ekleyin. Tadına bakıp gerekirse ayarlayın.",
    "Kapağı açık şekilde 10 dakika daha kaynatarak çorbanın kıvamını ve aromasını güçlendirin.",
@@ -58,7 +58,7 @@
    "Blend the onion, garlic, ginger, tomatoes and hot chilies with 100 ml water until smooth.",
    "Heat the oil in a large pot over medium-high heat. Add the paste and cook for 5 minutes, until the oil separates from it.",
    "Add the chicken pieces and brown them for 3-4 minutes per side, turning until lightly coloured.",
-   "Pour in the water and bring to a boil. Skim off any foam from the surface with a spoon.",
+   "Pour in the remaining water (1.4 L) and bring to a boil. Skim off any foam from the surface with a spoon.",
    "Reduce the heat, cover, and simmer for about 40 minutes, until the chicken is tender and starting to pull away from the bone.",
    "Stir in the ground Ethiopian pepper, black pepper and salt. Taste and adjust the seasoning if needed.",
    "Simmer uncovered for 10 more minutes to concentrate the flavour and body of the soup.",
@@ -69,5 +69,14 @@
   "tr": "Acılık için biberin çekirdeklerini çıkarabilir veya miktarını azaltabilirsiniz; Etiyopya biberi (selim) bulamazsanız biraz daha karabiber kullanın.",
   "en": "Remove the chilies' seeds or use fewer for a milder soup; if you cannot find Ethiopian pepper (selim), increase the black pepper slightly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the steps add up to roughly 70 minutes of active and simmering time.",
+   "Step 5 says to add 'the water' after 100 ml was already used in the blender. With 1.5 L listed, the remaining water should be stated explicitly to avoid confusion about quantities."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

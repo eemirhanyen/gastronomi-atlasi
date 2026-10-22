@@ -48,7 +48,7 @@
    "Ananası, çağla manggoyu ve bangkuang'ı soyun, yaklaşık 1,5 cm kalınlığında, ısırılabilir büyüklükte dilimler halinde kesin.",
    "Salatalığı yıkayıp çekirdeklerini çıkarın ve aynı boyutta doğrayın.",
    "Dressing için gula melaka'yı su ile birlikte küçük bir tencerede orta-düşük ateşte, şeker tamamen eriyene kadar karıştırın.",
-   "Ateşi kapatın, petis udanı, tamarind suyunu, limon suyunu, doğranmış acı biberi ve bir tutam tuzu ekleyin. Pürüzsüz bir sos elde edene kadar iyice karıştırın, soğumaya bırakın.",
+   "Ateşi kapatın, petis udang'ı, tamarind suyunu, limon suyunu, doğranmış acı biberi ve bir tutam tuzu ekleyin. Pürüzsüz bir sos elde edene kadar iyice karıştırın, soğumaya bırakın.",
    "Yer fıstıklarını kuru bir tavada orta ateşte 3-4 dakika ya da 160°C fırında 8 dakika kavurun, kabuklarını ovalayarak çıkarın ve kabaca ezin.",
    "Ananas, mango, salatalık ve bangkuang'ı geniş bir kasede birleştirin.",
    "Servis yapmadan hemen önce sosu ekleyip meyve ve sebzelere iyice bulaşacak şekilde karıştırın, tadına bakıp gerekirse limon veya şeker ile ayarlayın.",
@@ -69,5 +69,13 @@
   "tr": "You tiao kıtırtısını korumak için, salatayı mümkünse servisten hemen önce karıştırın ve hamur çubuklarını en son ekleyin.",
   "en": "To keep the you tiao crisp, toss the salad as close to serving as possible and add the fried dough sticks last."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 misspells the ingredient name 'petis udang' as 'petis udanı'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

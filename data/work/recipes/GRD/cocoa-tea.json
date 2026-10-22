@@ -17,7 +17,7 @@
    "750 ml tam yağlı süt",
    "250 ml su",
    "1 adet tarçın çubuğu",
-   "2 g öğütülmüş hindistancevizi (yaklaşık ¼ çay kaşığı)",
+   "2 g öğütülmüş hindistancevizi (yaklaşık 1 çay kaşığı)",
    "1 adet vanilya çubuğu (veya 5 ml vanilya özü)",
    "60 g esmer şeker",
    "1 tutam tuz"
@@ -27,7 +27,7 @@
    "750 ml whole milk",
    "250 ml water",
    "1 cinnamon stick",
-   "2 g ground nutmeg (about ¼ teaspoon)",
+   "2 g ground nutmeg (about 1 teaspoon)",
    "1 vanilla pod (or 5 ml vanilla extract)",
    "60 g brown sugar",
    "1 pinch salt"
@@ -57,7 +57,16 @@
  },
  "tip": {
   "tr": "Kakaonun pişmesini ve süte iyice karışmasını sağlamak için kaynatmayın; kaynarsa yüzeyde kalın bir tabaka oluşur ve tat bozulur.",
-  "en": "Do not let the mixture boil; if it does, a thick skin forms and the flavour turns flat. Keep it at a gentle simmer for the best texture."
+  "en": "Do not let the mixture boil; if it does, a thick skin forms and the flavour turns flat. Keep it hot over low heat, just below boiling, for the best texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Nutmeg conversion is wrong: 2 g of ground nutmeg is about 1 teaspoon, not ¼ teaspoon (in both TR and EN).",
+   "English tip says to keep the mixture at a 'gentle simmer', which contradicts its own 'do not let it boil' and the Turkish tip and steps, which say not to boil."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

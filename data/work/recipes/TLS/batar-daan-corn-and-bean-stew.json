@@ -9,7 +9,7 @@
   "en": "A hearty everyday stew from Timor-Leste made with dried maize and red beans. It is usually served at lunch or dinner, often alongside rice or on its own while hot."
  },
  "servings": 4,
- "time_min": 100,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -20,7 +20,7 @@
    "1 orta boy soğan, ince doğranmış",
    "4 diş sarımsak, ezilmiş",
    "2 orta boy domates, küçük küp doğranmış",
-   "1-2 adet cılız biber, dilimlenmiş (isteğe bağlı)",
+   "1-2 adet kuş gözü biber, dilimlenmiş (isteğe bağlı)",
    "200 ml hindistan cevizi sütü",
    "1 çay kaşığı tuz",
    "10 g yeşil soğan, ince kıyılmış"
@@ -42,17 +42,17 @@
  "steps": {
   "tr": [
    "Gece boyunca ıslatılmış mısır ve fasulyeyi süzün, soğuk suyla iyice durulayın.",
-   "Mısır ve fasulyeyi büyük bir tencereye alın, üzerine 1,5 litre su ekleyin ve kaynatın.",
+   "Mısır ve fasulyeyi büyük bir tencereye alın, üzerine 1,5 litre su ekleyin ve kaynatın. Fasulyedeki zehirli maddeleri yok etmek için 10 dakika şiddetli kaynatın.",
    "Ateşi kısın, kapağı yarım açık bırakarak yaklaşık 1 saat 30 dakika kaynamaya bırakın. Yüzeyde biriken köpüğü alın ve mısır ile fasulye yumuşayana kadar gerektikçe sıcak su ekleyin.",
    "Bu sırada geniş bir tavada bitkisel yağı orta ateşte ısıtın ve soğanı altın rengi alana kadar yaklaşık 6-8 dakika kavurun.",
-   "Sarımsağı ekleyip 1 dakika daha kavurun, ardından domatesleri ve dilimlenmiş cılız biberi ekleyin. Domatesler suyunu salıp yumuşayana kadar yaklaşık 5 dakika pişirin.",
+   "Sarımsağı ekleyip 1 dakika daha kavurun, ardından domatesleri ve dilimlenmiş kuş gözü biberi ekleyin. Domatesler suyunu salıp yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Tavadaki karışımı tencereye aktarın, iyice karıştırın ve 15 dakika kısık ateşte pişirin.",
    "Hindistan cevizi sütünü ve tuzu ekleyin, yaklaşık 10 dakika daha kaynatın. Gerekirse tuzu ayarlayın; kıvam çok koyu olursa birkaç kaşık su ekleyin.",
    "Ocaktan alıp sıcak servis yapın, üzerine doğranmış yeşil soğanı serpin."
   ],
   "en": [
    "Drain the soaked maize and beans and rinse well under cold water.",
-   "Put the maize and beans in a large pot, add 1.5 litres of water and bring to the boil.",
+   "Put the maize and beans in a large pot, add 1.5 litres of water and bring to the boil. Boil vigorously for 10 minutes to destroy the toxins in the kidney beans.",
    "Lower the heat and simmer, partly covered, for about 1 hour 30 minutes. Skim off any foam and add hot water as needed until the maize and beans are soft.",
    "Meanwhile, heat the vegetable oil in a wide pan over medium heat and fry the onion for 6–8 minutes until golden.",
    "Add the garlic and fry for 1 more minute, then add the tomatoes and sliced chilies. Cook for about 5 minutes until the tomatoes soften and release their juices.",
@@ -65,5 +65,16 @@
   "tr": "Mısırın ve fasulyenin tamamen yumuşaması için kuru baklagil ve tahılları bir gece önceden ıslatın; pişirme sırasında kısık ateş tencerenin dibinde yanmayı önler.",
   "en": "Soak the dried maize and beans overnight so they cook evenly, and keep the heat low so the stew does not stick to the bottom of the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Red kidney beans are soaked then only brought to a boil and simmered. Raw kidney beans contain phytohaemagglutinin, which needs a vigorous boil of at least 10 minutes to destroy. The step must be adde",
+   "time_min is 100, but the steps add up to roughly 2 hours: about 90 minutes of simmering, plus 15 and 10 minutes after the pan mixture is added.",
+   "Turkish 'cılız biber' means 'scrawny/weak pepper' and is not the name for bird's eye chili. The correct term is 'kuş gözü biber' (in the ingredient list and in step 5).",
+   "Turkish ingredient and step text otherwise match the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

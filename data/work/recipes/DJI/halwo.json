@@ -9,7 +9,7 @@
   "en": "A soft, dark brown starch-based sweet served in Djibouti and across Somali culture at weddings, festivals and holidays, usually with coffee or tea."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 165,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Karışımı pişirirken dibe yapışıp yanmaması için durmadan karıştırın; kalın tabanlı bir tencere bu işi çok kolaylaştırır.",
   "en": "Stir constantly while cooking so the bottom does not scorch; a heavy-bottomed pan makes this much easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not account for the required 2-hour cooling step; the active cooking is about 35-40 minutes plus at least 2 hours of setting time"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

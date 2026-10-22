@@ -52,7 +52,7 @@
    "Dana kıymayı ekleyip ayırarak pişirin, rengi kaybolana kadar yaklaşık 6-7 dakika. İç harç tuzu ve karabiberi ekleyin, ocaktan alın. Kişnişi serpip karıştırın ve tamamen soğumaya bırakın.",
    "Soğuyan harca rendelenmiş kaşar peynirini karıştırın.",
    "Hamuru 8 eşit topa bölün. Her topu, unlu tezgâhta yaklaşık 15 cm çapında, ince bir daire olacak şekilde açın.",
-   "Her hamur dairesinin bir yarısına yaklaşık 2 yemek kaşığı iç harç koyun. Diğer yarısını üzerine katlayın ve kenarları bastırarak iyice kapatın. Kenarlarını parmaklarınızla kıvırarak sızdırmaz hale getirin.",
+   "Her hamur dairesinin bir yarısına yaklaşık 3 yemek kaşığı iç harç koyun. Diğer yarısını üzerine katlayın ve kenarları bastırarak iyice kapatın. Kenarlarını parmaklarınızla kıvırarak sızdırmaz hale getirin.",
    "Hafifçe yassılaştırdığınız paley'leri unlayın. Geniş bir tavada kalan kızartma yağını orta-yüksek ateşte ısıtın.",
    "Paley'leri tavaya dizin ve her iki yüzünü de 3-4 dakika, altın rengi ve gevrek olana kadar kızartın. Kâğıt havluya alıp fazla yağını süzdürün ve sıcak servis yapın."
   ],
@@ -62,7 +62,7 @@
    "Add the minced beef and cook, breaking it up, for about 6-7 minutes until no pink remains. Season with the 3 g salt and black pepper, then remove from the heat. Stir in the coriander and let the filling cool completely.",
    "Mix the grated cheddar into the cooled filling.",
    "Divide the dough into 8 equal balls. On a floured surface, roll each ball into a thin circle about 15 cm across.",
-   "Spoon about 2 tablespoons of filling onto one half of each circle. Fold the other half over and press the edges firmly to seal, crimping them with your fingers so no filling escapes.",
+   "Spoon about 3 tablespoons of filling onto one half of each circle. Fold the other half over and press the edges firmly to seal, crimping them with your fingers so no filling escapes.",
    "Lightly flatten the filled breads and dust them with flour. Heat the remaining frying oil in a wide pan over medium-high heat.",
    "Fry the breads in the pan for 3-4 minutes per side until golden and crisp. Drain on kitchen paper and serve hot."
   ]
@@ -71,5 +71,13 @@
   "tr": "İç harcı tamamen soğutmadan kullanmayın; sıcak harç hamuru yırtar ve kenarların kapanmasını zorlaştırır.",
   "en": "Let the filling cool completely before assembling; warm filling tears the dough and makes the edges hard to seal."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling quantity doesn't match the yield: about 410 g of raw filling (beef, onion, cheese) is divided into 8 pieces at about 2 tablespoons (roughly 240 g) each, leaving a large amount unused. Raised t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

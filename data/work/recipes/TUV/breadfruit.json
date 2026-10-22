@@ -50,8 +50,16 @@
   ]
  },
  "tip": {
-  "tr": "Ekmek ağacı meyvesi pişince hemen kesildiğinde yapışkan özü bıçağa daha az bulaşır; sıcakken servis edilen yemek hindistancevizi kremasını daha iyi taşır.",
+  "tr": "Yapışkan öz nedeniyle meyveyi kesmeden önce bıçağı ve ellerinizi yağlayın. Hindistancevizi kremasının ayrışmaması ve koyulaşmaması için yemeği hemen servis edin.",
   "en": "Oil your knife and hands before cutting, since the latex is very sticky. Serve immediately, as the coconut cream thickens and can separate if left to cool."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip disagrees with the English tip: it says cutting cooked breadfruit reduces latex sticking and gives unclear advice on the cream, while the English tip says to oil the knife and hands before"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

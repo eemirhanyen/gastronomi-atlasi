@@ -5,7 +5,7 @@
  },
  "native": "Aljotta",
  "desc": {
-  "tr": "Malta'nın geleneksel balık çorbasıdır; domates ve sarımsaklı, hafif ekşi bir sos ile pişirilir. Genellikle Malta'da balıkçı pazarlarının yakınındaki ocakta, öğle yemeğinde ve hafta sonları servis edilir.",
+  "tr": "Malta'nın geleneksel balık çorbasıdır; domates ve sarımsaklı, sirke ve limon ile hafif ekşitilmiş bir sosla pişirilir. Öğle yemeğinde, özellikle hafta sonları yenir ve limanlar çevresindeki balıkçı topluluklarında sık servis edilir.",
   "en": "A traditional Maltese fish soup flavoured with tomato, garlic and a touch of vinegar and lemon. It is eaten at lunch, especially on weekends, and is often served in fishing communities around the harbours."
  },
  "servings": 4,
@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "800 g beyaz etli balık (çupra veya levrek), temizlenmiş ve 4 parçaya kesilmiş",
+   "800 g beyaz etli balık (çupra veya orfoz), temizlenmiş ve 4 parçaya kesilmiş",
    "300 g balık kafası ve kılçığı",
    "2 l su",
    "45 ml zeytinyağı",
@@ -77,5 +77,15 @@
   "tr": "Balık kafası ve kılçık yoksa balık fümesi kullanabilirsiniz, ama çorbanın aroması için kemikli parçalar çok değerlidir.",
   "en": "If you cannot get fish heads, use good-quality fish stock, but bones give the broth much deeper flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'levrek' (sea bass) but English says 'sea bream or grouper'. The species don't match.",
+   "Turkish description says the soup is eaten 'balıkçı pazarlarının yakınındaki ocakta', which is unnatural and does not match the English 'in fishing communities around the harbours'.",
+   "Turkish description omits the lemon mentioned in the English description."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

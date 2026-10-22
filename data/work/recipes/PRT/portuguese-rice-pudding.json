@@ -6,7 +6,7 @@
  "native": "Arroz doce",
  "desc": {
   "tr": "Portekiz'de yemeklerin sonunda, özellikle Noel, Paskalya ve aile kutlamalarında servis edilen, limon kabuğu ve tarçınla aromalandırılmış kremalı bir pilav tatlısıdır. Genellikle oda sıcaklığında veya soğuk olarak sunulur.",
-  "en": "A creamy rice pudding flavoured with lemon peel and cinnamon, served at the end of meals across Portugal, especially at Christmas, Easter and family celebrations. It is usually eaten warm or chilled."
+  "en": "A creamy rice pudding flavoured with lemon peel and cinnamon, served at the end of meals across Portugal, especially at Christmas, Easter and family celebrations. It is usually served at room temperature or chilled."
  },
  "servings": 4,
  "time_min": 60,
@@ -67,5 +67,13 @@
   "tr": "Yumurta sarılarını sıcak karışıma eklemeden önce mutlaka temperleyin; aksi halde karışım topaklanır. Pilavın kıvamı soğudukça koyulaşacağı için ocaktan biraz daha akışkan alın.",
   "en": "Always temper the egg yolks with hot mixture before adding them to the pot, or the pudding may curdle. Take it off the heat while still slightly loose, as it thickens as it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Description mismatch: the Turkish text says the pudding is served at room temperature or chilled, but the English says 'eaten warm or chilled'. The English should match the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

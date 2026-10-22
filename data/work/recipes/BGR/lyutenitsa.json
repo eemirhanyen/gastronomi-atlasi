@@ -9,7 +9,7 @@
   "en": "A roasted red pepper and tomato relish from Bulgarian home cooking, served as a spread with bread, cheese or boiled vegetables. Families traditionally made it in late summer and preserved it in jars for winter."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -40,9 +40,9 @@
    "Sıcak biberleri ve acı biberi kapalı bir kaba alın ve 10 dakika buharda bekletin. Ardından kabuklarını soyun, sap ve çekirdeklerini çıkarıp ince doğrayın. Acı biberi de aynı şekilde doğrayın.",
    "Domateslerin üstüne çapraz kesik açın, 30 saniye kaynar suda bekletin, soyup çekirdeklerini ayıklayın ve küçük doğrayın.",
    "Geniş bir tencerede ayçiçek yağını orta ısıda ısıtın. Doğranmış biberleri ve acı biberi ekleyip 5 dakika sote edin.",
-   "Domatesleri ekleyin ve ısıyı kısın. Karışımı ara sıra karıştırarak 30-35 dakika kısık ateşte pişirin, suyunu çekip kıvamlanmasını bekleyin.",
+   "Domatesleri ekleyin ve ısıyı kısın. Karışımı ara sıra karıştırarak, kapağı açık şekilde 30-35 dakika kısık ateşte pişirin; suyunu çekip kıvamlanmasını bekleyin.",
    "Sarımsakları ince ince doğrayın veya ezin, son 5 dakika kalacak şekilde ekleyip karıştırın.",
-   "Şeker, tuz ve sirkeyi ekleyin, tadına bakıp gerekirse ayarlayın. Ocaktan alın ve ılınmaya bırakın ya da sıcak sıcak servis edin."
+   "Şeker, tuz ve sirkeyi ekleyin, tadına bakıp gerekirse ayarlayın. Ocaktan alın ve tamamen soğumaya bırakın ya da sıcak servis edin."
   ],
   "en": [
    "Preheat the oven to 220°C on grill mode.",
@@ -59,5 +59,15 @@
   "tr": "Lütenitsa bir gün dinlendikten sonra daha lezzetli olur; kavanoza koyup buzdolabında saklayabilirsiniz.",
   "en": "Lyutenitsa tastes better after a day in the fridge, as the flavours settle; store it in clean jars and keep it chilled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: grilling (~15 min), resting (10 min), peeling and chopping, blanching tomatoes, and 35+ min of simmering add up to roughly 90 minutes",
+   "Turkish step 6 omits 'kapağı açık' (uncovered), which the English step specifies; this matters for reducing the liquid",
+   "Turkish step 8 ('ılınmaya bırakın') and English step 8 ('let cool completely') describe different cooling endpoints"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

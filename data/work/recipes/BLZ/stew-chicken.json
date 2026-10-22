@@ -59,7 +59,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını bir kasede limon suyu, ezilmiş sarımsak, kuru kekik, karabiber, tuz ve scotch bonnet biberinin yarısından (ince doğrayarak) ile iyice ovalayın. Örtüp oda sıcaklığında 30 dakika bekletin.",
+   "Tavuk parçalarını bir kasede limon suyu, ezilmiş sarımsak, kuru kekik, karabiber, tuz ve scotch bonnet biberinin yarısından (ince doğrayarak) ile iyice ovalayın. Örtüp buzdolabında 30 dakika bekletin.",
    "Geniş ve kalın tabanlı bir tencerede yağı orta-yüksek ateşte ısıtın. Esmer şekeri ve 1 yemek kaşığı suyu ekleyip karıştırarak koyu kehribar rengi alana kadar, yaklaşık 2-3 dakika pişirin. Şeker yanmamalı.",
    "Tavuk parçalarını marinasıyla birlikte, partiler halinde tencereye ekleyin. Her yüzü altın kahverengi olana kadar, toplamda yaklaşık 8-10 dakika kavurun. Parçaları bir tabağa alın.",
    "Aynı tencerede soğanı ve yeşil biberi ekleyip 5 dakika, yumuşayana kadar kavurun.",
@@ -69,7 +69,7 @@
    "Defne yaprağını, kekik dallarını ve scotch bonnet biberini çıkarın. Kişniş ve yeşil soğanı ekleyip karıştırın, tadına bakıp tuzunu ayarlayın. Pirinç ve fasulye ile sıcak servis yapın."
   ],
   "en": [
-   "In a bowl, rub the chicken pieces with the lime juice, crushed garlic, dried thyme, black pepper, salt and half of the scotch bonnet (finely chopped). Cover and leave at room temperature for 30 minutes.",
+   "In a bowl, rub the chicken pieces with the lime juice, crushed garlic, dried thyme, black pepper, salt and half of the scotch bonnet (finely chopped). Cover and refrigerate for 30 minutes.",
    "Heat the oil in a wide, heavy-bottomed pot over medium-high heat. Add the brown sugar and 1 tbsp water, stirring for 2-3 minutes until it turns a deep amber colour. Do not let it burn.",
    "Add the chicken with its marinade in batches and brown well on all sides, about 8-10 minutes in total. Transfer the pieces to a plate.",
    "In the same pot, cook the onion and green pepper for about 5 minutes until softened.",
@@ -83,5 +83,13 @@
   "tr": "Esmer şekeri koyu kehribar renginde tutun ve yanmadan önce tavuğu ekleyin; bu, yemeğe karakteristik koyu rengini ve hafif karamel tadını verir. Scotch bonnet biberini bütün bırakmak, acılığı çok fazla artırmadan aroma sağlar.",
   "en": "Take the brown sugar to a deep amber and add the chicken before it burns; this gives the dish its characteristic dark colour and gentle caramel flavour. Leaving the scotch bonnet whole adds aroma without making the stew too hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Raw chicken is marinated at room temperature for 30 minutes, which is a food-safety concern. The marinating step should be done in the refrigerator (Turkish and English both corrected)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

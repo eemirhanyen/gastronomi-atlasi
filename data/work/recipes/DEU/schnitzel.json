@@ -3,7 +3,7 @@
   "tr": "Şnitzel",
   "en": "Schnitzel"
  },
- "native": "Wiener Schnitzel",
+ "native": "Schweineschnitzel",
  "desc": {
   "tr": "İnce dövülmüş et dilimlerinin un, yumurta ve galeta unu ile panelenip bol yağda kızartılmasıyla yapılan, Almanya ve Avusturya'da yaygın bir ana yemektir. Genellikle öğle ve akşam yemeklerinde patates salatası veya patates püresiyle, limon dilimleriyle servis edilir.",
   "en": "A thin pounded meat cutlet coated in flour, egg and breadcrumbs and shallow-fried until golden. Common across Germany and Austria, it is served at lunch and dinner with potato salad or mashed potatoes and lemon wedges."
@@ -19,17 +19,17 @@
    "60 g un",
    "2 yumurta (yaklaşık 100 g), 15 ml su ile çırpılmış",
    "150 g ince galeta unu",
-   "150 ml sade yağ veya ayçiçek yağı (kızartma için)",
+   "250 ml sade yağ veya ayçiçek yağı (kızartma için)",
    "1 limon, dilim halinde"
   ],
   "en": [
-   "4 pork loin cutlets (about 130 g each)",
+   "4 pork tenderloin cutlets (about 130 g each)",
    "1 tsp salt",
    "½ tsp black pepper",
    "60 g plain flour",
    "2 eggs (about 100 g), beaten with 15 ml water",
    "150 g fine dry breadcrumbs",
-   "150 ml clarified butter or neutral oil, for frying",
+   "250 ml clarified butter or neutral oil, for frying",
    "1 lemon, cut into wedges"
   ]
  },
@@ -40,7 +40,7 @@
    "Üç derin tabak hazırlayın: birincisine unu, ikincisine çırpılmış yumurtayı, üçüncüsüne galeta unu koyun.",
    "Her eti önce una bulayıp fazlasını silkeleyin, sonra çırpılmış yumurtaya batırın ve son olarak galeta ununa iyice bastırarak bulayın.",
    "Panelenmiş etleri tel rafa dizip 10 dakika dinlendirin; böylece panenin etten ayrılmaması sağlanır.",
-   "Geniş bir tavada sade yağı veya ayçiçek yağını yaklaşık 1 cm yüksekliğinde koyup 170 °C'ye kadar ısıtın.",
+   "Geniş bir tavada sade yağı veya ayçiçek yağını yaklaşık 5 mm yüksekliğinde koyup 170 °C'ye kadar ısıtın.",
    "Şnitzelleri yağa dikkatlice yerleştirin ve her iki tarafı da altın rengi olana kadar yaklaşık 2-3 dakika kızartın.",
    "Kızarmış şnitzelleri mutfak kağıdı serili bir tabağa alıp fazla yağlarını çekmesini bekleyin.",
    "Limon dilimleriyle birlikte sıcak servis yapın."
@@ -51,7 +51,7 @@
    "Set out three shallow dishes: flour in the first, beaten egg in the second, and breadcrumbs in the third.",
    "Dust each cutlet in flour and shake off the excess, dip it in the beaten egg, then press it firmly into the breadcrumbs to coat.",
    "Lay the breaded cutlets on a wire rack and rest them for 10 minutes so the coating adheres to the meat.",
-   "Heat about 1 cm of clarified butter or neutral oil in a wide frying pan to 170 °C.",
+   "Heat about 5 mm of clarified butter or neutral oil in a wide frying pan to 170 °C.",
    "Lower the schnitzels carefully into the fat and fry for 2–3 minutes per side until golden brown.",
    "Transfer the cooked schnitzels to a plate lined with kitchen paper to drain off excess fat.",
    "Serve hot with the lemon wedges."
@@ -61,5 +61,15 @@
   "tr": "Kaplamanın etten ayrılmaması için şnitzelleri kızartmadan önce dinlendirin ve yağın sürekli 170 °C civarında kalmasını sağlamak için her seferde en fazla iki dilim kızartın.",
   "en": "Rest the breaded cutlets before frying so the coating stays attached, and fry only two at a time to keep the oil near 170 °C."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 'native' field says 'Wiener Schnitzel', which is the Austrian veal dish. This recipe uses pork and is a German Schnitzel, so the name is wrong.",
+   "The English ingredient 'pork loin cutlets' does not match the Turkish 'domuz bonfile' (pork tenderloin).",
+   "150 ml of oil cannot give a 1 cm depth in a wide frying pan (roughly 400+ ml needed). The quantity and depth are inconsistent. Depth is changed to about 5 mm, and the oil to 250 ml, which is enough fo"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

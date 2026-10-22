@@ -5,7 +5,7 @@
  },
  "native": "سلطة مشوية",
  "desc": {
-  "tr": "Izgarada kavrulmuş biber, domates ve soğanın zeytinyağı, limon ve harissa ile hazırlanan, Tunus kökenli ama Cezayir'in özellikle doğusunda da sıcak servis edilen Maghreb meze salatasıdır. Genellikle öğle yemeğinde, ekmekle ve ton balığı ile yenir.",
+  "tr": "Izgarada kavrulmuş biber, domates ve soğanın zeytinyağı, limon ve harissa ile hazırlanan, Tunus kökenli ama Cezayir'in özellikle doğusunda da yaygın olarak yenen Maghreb meze salatasıdır. Genellikle öğle yemeğinde, ekmekle, ton balığı ve haşlanmış yumurta ile yenir.",
   "en": "A grilled vegetable salad of peppers, tomatoes and onion dressed with olive oil, lemon and harissa. Though its origins are Tunisian, it is widely eaten across Algeria, especially in the east. It is served as a starter or light lunch with bread, tuna and boiled egg."
  },
  "servings": 4,
@@ -15,7 +15,7 @@
   "tr": [
    "600 g yeşil sivri biber",
    "500 g olgun domates",
-   "1 orta boy soğan (about 120 g)",
+   "1 orta boy soğan (yaklaşık 120 g)",
    "4 diş sarımsak",
    "60 ml zeytinyağı",
    "30 ml limon suyu",
@@ -69,5 +69,15 @@
   "tr": "Biberleri ve domatesleri ocakta kavurursanız kabukları daha kolay soyulur ve sosu emmesi için salatayı servisten önce birkaç dakika dinlendirin.",
   "en": "Charring over an open flame makes the skins peel more easily, and letting the salad rest a few minutes before serving lets the dressing soak in."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for onion contains untranslated English \"(about 120 g)\"; should be \"yaklaşık 120 g\".",
+   "Turkish description says the salad is served warm (\"sıcak servis edilen\"), which the English text does not say and which does not fit the dish, usually served at room temperature.",
+   "Turkish description omits the boiled egg that the English description and steps include."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

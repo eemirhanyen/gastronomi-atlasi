@@ -22,8 +22,9 @@
    "1 adet acı biber (örneğin Scotch bonnet), tamamı",
    "40 g tuzsuz fıstık ezmesi",
    "1 çay kaşığı tuz (ya da tadına göre)",
-   "500 ml su",
-   "100 ml sıcak et suyu veya su"
+   "500 ml su (yaprakları haşlamak için)",
+   "300 ml su (eti pişirmek için)",
+   "150 ml sıcak et suyu veya su"
   ],
   "en": [
    "500 g fresh or frozen cassava leaves",
@@ -35,8 +36,9 @@
    "1 hot chilli (such as Scotch bonnet), left whole",
    "40 g unsalted peanut butter",
    "1 tsp salt (or to taste)",
-   "500 ml water",
-   "100 ml hot stock or water"
+   "500 ml water (for boiling the leaves)",
+   "300 ml water (for cooking the beef)",
+   "150 ml hot stock or water"
   ]
  },
  "steps": {
@@ -63,5 +65,14 @@
   "tr": "Manyok yapraklarında doğal olarak bulunan zehirli bileşikler vardır; ilk uzun haşlama adımını asla kısaltmayın ve haşlama suyunu mutlaka atın.",
   "en": "Cassava leaves contain natural toxins, so never shorten the initial long boil and always discard that water before cooking further."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantities don't match: the leaves use 500 ml and the beef uses 300 ml (800 ml total), but the ingredient list shows only 500 ml water.",
+   "Stock quantities don't match: step 5 uses 100 ml and step 6 uses 50 ml (150 ml total), but the ingredient list shows 100 ml."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -40,7 +40,7 @@
    "Karışımın yaklaşık üçte birini tavaya dökün ve tavayı çevirerek yayın.",
    "Yüzey neredeyse pişip hâlâ hafif nemliyken, yumurtayı uzak kenardan yakın kenara doğru yavaşça rulo yapın.",
    "Ruloyu tavanın uzak kenarına itin, boş kısmı yağlayın ve yağlı kısmı ruloyu kaldırarak altına yaydığınız karışımı akıtın.",
-   "Kalan karışımın yarısını daha dökün, ruloyu kaldırıp altına akıtın ve aynı şekilde tekrar rulo yapın. Kalan karışım için bu adımı tekrarlayın.",
+   "Kalan karışımın üçte birini daha dökün, ruloyu kaldırıp altına akıtın ve aynı şekilde tekrar rulo yapın. Kalan karışım için bu adımı tekrarlayın.",
    "Tamamlanan ruloyu tavadan alıp bambu hasırın üzerinde 2 dakika dinlendirin, sonra şekli koruyarak 2 cm'lik dilimlere kesin."
   ],
   "en": [
@@ -59,5 +59,13 @@
   "tr": "Dökülme riskini azaltmak için tavayı her dökümden önce ince bir tabaka yağla yeniden yağlayın ve ateşi düşük tutun; yüksek ateş yüzeyi hızla sertleştirip rulo yapmayı zorlaştırır.",
   "en": "Keep the heat low and re-oil the pan before each pour; if the heat is too high the surface sets too quickly and the roll becomes hard to form."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to pour half of the remaining mixture, but the English step says another third, which is the correct amount. The Turkish step needs to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

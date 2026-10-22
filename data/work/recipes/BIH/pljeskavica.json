@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Rendelenmiş soğanı elekten geçirip suyunu iyice sıkın. Sarımsağı ince kıyın.",
+   "Rendelenmiş soğanı temiz bir bezin içinde iyice sıkıp suyunu alın. Sarımsağı ince kıyın.",
    "Büyük bir kapta dana ve domuz kıymasını, sıkılmış soğanı, sarımsağı, tuzu, karabiberi ve tatlı kırmızı biberi birleştirin.",
    "Soğuk maden suyunu ekleyip 3-4 dakika boyunca yoğurun; karışım pürüzsüz ve yapışkan hale gelmelidir.",
    "Kabı örtüp buzdolabında 20 dakika dinlendirin.",
@@ -55,7 +55,7 @@
    "Ekmeklerin içine kajmağı yayın, sıcak pljeskavicayı yerleştirin, üzerine ince doğranmış soğanı ve ajvarı ekleyip hemen servis yapın."
   ],
   "en": [
-   "Grate the onion, then squeeze out as much liquid as possible. Finely mince the garlic.",
+   "Grate the onion, then squeeze out as much liquid as possible in a clean cloth. Finely mince the garlic.",
    "In a large bowl, combine the beef and pork mince, squeezed onion, garlic, salt, black pepper and sweet paprika.",
    "Add the ice-cold mineral water and knead for 3-4 minutes until the mixture is smooth and sticky.",
    "Cover the bowl and rest it in the fridge for 20 minutes.",
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Köftenin sulu ve yumuşak kalması için karışımı çok soğuk tutun ve yoğururken fazla bastırmayın; bu yüzden ızgara da sıcak olmalıdır.",
+  "tr": "Köftenin sulu ve yumuşak kalması için karışımı çok soğuk tutun ve yoğururken fazla bastırmayın. Izgaranın da iyice sıcak olması, dış yüzeyin hızla kavrulup nemin içeride kalmasını sağlar.",
   "en": "Keep the mixture very cold and avoid overworking it so the patties stay juicy; a hot grill sears the outside quickly and locks in moisture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to pass the grated onion through a sieve before squeezing, but the English step only says to squeeze it. Squeezing in a clean cloth is the usual method, so both versions should say",
+   "Turkish tip: the connective 'bu yüzden' ('for this reason') does not follow logically from the preceding advice, and the sentence reads awkwardly."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

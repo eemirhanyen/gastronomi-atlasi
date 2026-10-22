@@ -19,7 +19,7 @@
    "2 diş sarımsak, ezilmiş",
    "1 tatlı kaşığı tatlı kırmızı biber tozu (2 g)",
    "1/2 tatlı kaşığı öğütülmüş kimyon (1 g)",
-   "1 tatlı kaşığı kurutulmuş kekik (1 g)",
+   "1 tatlı kaşığı kurutulmuş kekik / oregano (1 g)",
    "2 orta boy domates (300 g), rendelenmiş",
    "1,2 L sıcak dana suyu",
    "1 defne yaprağı",
@@ -83,5 +83,13 @@
   "tr": "Kabağın ve şeftalinin bir kısmını ezerek çorbayı daha kıvamlı hale getirebilirsiniz; geleneksel tatlı-tuzlu dengeyi korumak için şeftaliyi olgun ama sert seçin.",
   "en": "Mash some of the pumpkin and sweet potato against the side of the pot to thicken the stew naturally, and choose firm, ripe peaches so they keep their shape and balance the savoury flavours."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'kurutulmuş kekik' (thyme), but the English version and the dish's usual seasoning specify dried oregano. The herb should be named consistently in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

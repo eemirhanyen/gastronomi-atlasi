@@ -14,12 +14,14 @@
  "ingredients": {
   "tr": [
    "600 g taze manyok (soyulmuş, sert özü çıkarılmış ağırlık)",
+   "20 g manyok nişastası (sıkılan sudan kaydedilir, 2. adım)",
    "120 ml hindistan cevizi sütü (konserve)",
    "5 g tuz (yaklaşık 1 çay kaşığı)",
    "80 ml hindistan cevizi yağı veya nötr sıvı yağ (kızartmak için)"
   ],
   "en": [
    "600 g fresh cassava (peeled weight, woody core removed)",
+   "20 g cassava starch (reserved from the squeezed liquid, step 2)",
    "120 ml canned coconut milk",
    "5 g salt (about 1 teaspoon)",
    "80 ml coconut oil or neutral vegetable oil (for frying)"
@@ -49,5 +51,14 @@
   "tr": "Manyoku ne kadar iyi sıkarsanız bammy o kadar iyi bağlanır ve kızartırken dağılmaz; yağ çok sıcak olursa dış kısmı yanar, iç kısmı pişmez.",
   "en": "Squeeze the cassava thoroughly so the bammy holds together; if the oil is too hot the outside will burn before the centre is cooked, so keep the heat moderate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The reserved cassava starch is used in step 3 but is not listed in the ingredients (Turkish and English).",
+   "The 600 g cassava is divided into eight 75 g portions, but the dough also contains coconut milk, salt and starch, so the portion weights do not add up. This is a minor yield inconsistency."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

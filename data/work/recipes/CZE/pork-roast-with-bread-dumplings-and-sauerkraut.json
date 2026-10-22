@@ -16,7 +16,7 @@
    "800 g kemiksiz domuz omzu (krkovička)",
    "2 diş sarımsak",
    "1 tatlı kaşığı kimyon tohumu (kimmel)",
-   "1 tatlı kaşığı kekik yerine kurutulmuş mercanköşk",
+   "1 tatlı kaşığı kurutulmuş mercanköşk",
    "1 tatlı kaşığı tuz",
    "1/2 tatlı kaşığı karabiber",
    "1 soğan",
@@ -66,7 +66,7 @@
    "Fırını 170°C'ye ısıtın. Sarımsakları ezin, kimyon tohumlarının yarısını havanda hafifçe dövün ve bunları tuz, karabiber ve mercanköşkle karıştırıp domuz etinin her yerine ovalayın.",
    "Bir fırın tepsisinde veya kapaklı fırın tenceresinde domuz yağını orta-yüksek ateşte kızdırın. Eti her tarafı kızarana kadar 4-5 dakika mühürleyin.",
    "Soğanı halka halka doğrayıp etin çevresine ekleyin. Bira veya suyu, defne yaprağını ve kalan kimyon tohumlarını ilave edin, kapağını kapatıp fırına alın.",
-   "Eti yaklaşık 1 saat 30 dakika pişirin; bu sırada 2-3 kez üzerine sos gezdirin. Son 15 dakikada kapağı açın ve fırın ısısını 200°C'ye çıkarak yüzeyi altın rengi kızartın.",
+   "Eti yaklaşık 1 saat 30 dakika pişirin; bu sırada 2-3 kez üzerine sos gezdirin. Son 15 dakikada kapağı açın ve fırın ısısını 200°C'ye yükselterek yüzeyi altın rengi kızartın.",
    "Bu sırada knedlik için bayat ekmeği küp küp doğrayın, ılık sütün üzerine dökün ve 15 dakika bekletin.",
    "Ekmek sütü emince yumurtaları, tuzu ve unu ekleyip elle yoğurun. Hamur yapışkan ama şekillenebilir olmalı; gerekirse biraz daha un ekleyin.",
    "Hamuru ıslatılmış temiz bir bez üzerine iki eşit sosis şeklinde yuvarlayın, bezle sıkıca sarıp bağlayın.",
@@ -95,5 +95,13 @@
   "tr": "Knedlikleri kaynatırken suyun fokurdaması yeterlidir; hızlı kaynayan su hamurun dağılmasına neden olur. Ekşi lahana çok ekşiyse pişirmeden önce soğuk suyla hafifçe durulayın.",
   "en": "Keep the dumpling water at a gentle simmer; hard boiling can break the dough apart. If the sauerkraut is very sour, rinse it briefly in cold water before cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient reads \"1 tatlı kaşığı kekik yerine kurutulmuş mercanköşk\", which wrongly suggests thyme is involved. The English says dried marjoram only."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

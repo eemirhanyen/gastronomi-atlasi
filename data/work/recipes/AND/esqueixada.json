@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Bakalyaoyu tuzdan iyice arındırmak için suyu sık sık değiştirin; ardından bir parça pişirip tadına bakarak ne kadar bekletmeniz gerektiğini anlayın.",
+  "tr": "Bakalyaoyu tuzdan iyice arındırmak için suyu sık sık değiştirin; ardından küçük bir parça koparıp tadına bakarak ne kadar bekletmeniz gerektiğini anlayın.",
   "en": "Change the soaking water often and taste a small piece of cod before using it; if it is still very salty, soak it for a few more hours."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip mismatch: the Turkish tip says to cook a piece of cod before tasting it, but the English tip says to taste a small piece (raw, as is traditional for esqueixada). The Turkish version is corrected t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

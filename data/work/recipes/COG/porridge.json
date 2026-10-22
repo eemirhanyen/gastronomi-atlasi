@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "250 g ince mısır unu",
-   "1 litre su (150 ml soğuk, 850 ml sıcak)",
+   "1 litre su (150 ml soğuk, 850 ml kaynatmak için)",
    "1 tutam tuz (yaklaşık 1 g)",
    "80 g toz şeker",
    "1/2 çay kaşığı öğütülmüş zencefil (yaklaşık 1 g)",
@@ -23,7 +23,7 @@
   ],
   "en": [
    "250 g fine maize flour",
-   "1 litre water (150 ml cold, 850 ml hot)",
+   "1 litre water (150 ml cold, 850 ml to boil)",
    "1 pinch salt (about 1 g)",
    "80 g caster sugar",
    "1/2 teaspoon ground ginger (about 1 g)",
@@ -55,5 +55,13 @@
   "tr": "Lapayı sürekli karıştırmak topaklanmayı önler; kıvamı ayarlamak için pişirme sonunda biraz sıcak su ekleyebilirsiniz.",
   "en": "Keep whisking while adding the slurry to prevent lumps; if the porridge becomes too thick, loosen it with a little hot water at the end."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The ingredient line describes the 850 ml of water as 'hot' (sıcak / hot), but step 2 has it brought to a boil from a cold start, so the description is inaccurate in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

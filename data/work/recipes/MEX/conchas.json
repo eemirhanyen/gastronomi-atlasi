@@ -43,7 +43,7 @@
    "Üst kaplamayı hazırlamak için tereyağı ve şekeri kremamsı bir kıvam alana kadar çırpın. Un ve vanilyayı ekleyip pürüzsüz, yumuşak bir hamur elde edene kadar karıştırın.",
    "Hamuru 8 eşit parçaya (yaklaşık 75 g) bölün ve küçük toplar halinde yuvarlayın. Fırın kağıdı serili tepsiye 5 cm aralıklarla yerleştirin, örtüp 45 dakika daha mayalanmaya bırakın.",
    "Sır malzemesini yumurta sarısı ve sütle birbirine karıştırın. Mayalanmış hamur toplarının üzerine ince bir tabaka halinde sürün.",
-   "Üst kaplamayı 8 eşit parçaya (yaklaşık 25 g) bölün. Her parçayı iki kat fırın kağıdı arasında yassılaştırıp ekmeklerin üzerine yerleştirin.",
+   "Üst kaplamayı 8 eşit parçaya (yaklaşık 21 g) bölün. Her parçayı iki kat fırın kağıdı arasında yassılaştırıp ekmeklerin üzerine yerleştirin.",
    "Bıçağın ucuyla kaplamanın üzerine hafifçe ağ benzeri çizgiler çizerek deniz kabuğu deseni verin.",
    "Fırını 180°C'ye ısıtın. Ekmekleri orta rafta 20–25 dakika, kenarları altın rengi olana kadar pişirin.",
    "Tepsiden çıkarmadan önce 5 dakika bekletin, ardından tel raf üzerinde tamamen soğumaya bırakın."
@@ -55,7 +55,7 @@
    "To make the topping, beat the butter and sugar until creamy. Add the flour and vanilla and mix into a smooth, soft paste.",
    "Divide the dough into 8 equal pieces (about 75 g each) and shape into smooth balls. Arrange them on a parchment-lined tray about 5 cm apart, cover and proof for another 45 minutes.",
    "Mix the egg yolk and milk for the glaze and brush it lightly over the risen dough balls.",
-   "Divide the topping into 8 equal portions (about 25 g each). Flatten each between two sheets of parchment and place one disc over each bun.",
+   "Divide the topping into 8 equal portions (about 21 g each). Flatten each between two sheets of parchment and place one disc over each bun.",
    "Score the topping lightly with the tip of a knife to create a shell-like grid pattern.",
    "Preheat the oven to 180°C. Bake the buns on the middle rack for 20–25 minutes, until golden at the edges.",
    "Let the buns rest on the tray for 5 minutes, then transfer to a wire rack to cool completely."
@@ -65,5 +65,13 @@
   "tr": "Üst kaplama çok yumuşak olursa çatlamaz ve desen bozulur; sıcaksa 10 dakika buzdolabında bekletin. Çikolatalı konças için kaplamaya 10 g kakao ekleyin.",
   "en": "If the topping is too soft it will spread and lose its pattern, so chill it for 10 minutes if it feels warm. For chocolate conchas, add 10 g cocoa powder to the topping."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Topping portions don't match the topping total: 8 pieces of about 25 g = 200 g, but the topping ingredients total 170 g (50 + 60 + 60). Corrected to about 21 g each (170 ÷ 8) in both the Turkish and E"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

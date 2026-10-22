@@ -36,10 +36,10 @@
    "Büyük bir kapta unu, tuzu ve toz şekeri karıştırın. Ayrı bir kapta yumurtayı suyla çırpın, ardından unlu karışıma ekleyip yumuşak bir hamur elde edene kadar yoğurun.",
    "Hamura 30 g sade yağı ekleyin ve 10 dakika boyunca pürüzsüz, esnek bir hamur oluncaya kadar yoğurun.",
    "Hamuru kapatıp oda sıcaklığında 30 dakika dinlendirin.",
-   "Hamuru yaklaşık 90 g'lık 8 eşit topa bölün.",
+   "Hamuru yaklaşık 85 g'lık 8 eşit topa bölün.",
    "Topların yüzeyini 30 ml sıvı bitkisel yağla yağlayın, üzerini örtüp 10 dakika dinlendirin.",
    "Çalışma yüzeyine 30 ml bitkisel yağ sürün ve ellerinizi de yağlayın. Bir topu yüzeye yerleştirip parmak uçlarınızla çok ince, yuvarlak bir yaprak oluncaya kadar açın.",
-   "Kenarları içe doğru katlayarak kare şekline getirin, ardından tekrar açıp yassılaştırın ve bu işlemi sıyırıp katmanlar oluşturacak şekilde iki kez tekrarlayın.",
+   "Kenarları içe doğru katlayarak kare şekline getirin, ardından tekrar açıp yassılaştırın. Bu işlemi iki kez tekrarlayarak katmanlar oluşturun.",
    "Büyük bir tavayı orta-yüksek ateşte ısıtın ve 30 g sade yağın bir kısmını ekleyin.",
    "Hazırladığınız hamuru tavaya alın, 2-3 dakika pişirin, spatula ile hafifçe bastırarak kabarcıklı ve altın rengi olmasını sağlayın, ardından çevirip diğer yüzünü de aynı şekilde pişirin.",
    "Kalan hamurları aynı şekilde pişirin ve sıcak servis yapın. Dhal veya köri ile birlikte sunun."
@@ -48,7 +48,7 @@
    "In a large bowl, mix the flour, salt and caster sugar. In a separate bowl, beat the egg with the water, then add it to the flour and mix to a soft dough.",
    "Add 30 g of the ghee to the dough and knead for 10 minutes until smooth and elastic.",
    "Cover the dough and rest it at room temperature for 30 minutes.",
-   "Divide the dough into 8 equal balls of about 90 g each.",
+   "Divide the dough into 8 equal balls of about 85 g each.",
    "Brush the balls with 30 ml of the vegetable oil, cover, and rest for 10 minutes.",
    "Oil the work surface with 30 ml of vegetable oil and oil your hands. Place a ball on the surface and, using your fingertips, stretch it into a very thin round sheet.",
    "Fold the edges inward to form a square, then flatten and stretch again, repeating this twice to build layers.",
@@ -61,5 +61,14 @@
   "tr": "Hamuru ne kadar ince açarsanız ve katlarsanız, pratanız o kadar gevrek ve katmanlı olur.",
   "en": "The thinner you stretch and the more layers you fold, the flakier and crispier your prata will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Eight balls of about 90 g each (720 g) exceed the total dough weight of about 680 g (400 g flour + 50 g egg + 200 ml water + 30 g ghee), so the ball size should be about 85 g.",
+   "Turkish step 7 uses \"sıyırıp\" (scrape/peel off), which does not fit the folding and re-stretching action. It is unnatural and does not match the English \"repeating this twice to build layers\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

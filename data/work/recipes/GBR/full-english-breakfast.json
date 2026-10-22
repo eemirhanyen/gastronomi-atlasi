@@ -45,11 +45,11 @@
   "tr": [
    "Fırını 200 °C'ye ısıtın. Sosisleri fırın tepsisine dizin ve yaklaşık 25 dakika, ara ara çevirerek pişirin.",
    "Sosisler pişerken domates yarımlarını kesik yüzleri yukarı gelecek şekilde ikinci bir tepsiye dizin, tuz, karabiber ve kekik serpin. Yaklaşık 15 dakika fırınlayın, kenarları hafif kararmaya başlayınca çıkarın.",
-   "Mantarları tavaya alın, tuz ve kekik ekleyip orta-yüksek ateşte 5 dakika kadar sotelemeyi sürdürün. Yarısındaki tereyağını ekleyip mantarlar altın rengi olana kadar pişirin, sonra kenara alın.",
+   "Mantarları tavaya alın, bir tutam tuz ve kekik ekleyin, orta-yüksek ateşte yaklaşık 5 dakika sotelenin. Tereyağının yarısını ekleyip mantarlar altın rengi olana kadar pişirin, sonra kenara alın.",
    "Büyük bir tavada yağı ısıtın ve bacon dilimlerini çevirerek kızarana kadar, yaklaşık 5 dakika pişirin. Bacon'ları kağıt havluya alın.",
-   "Aynı tavada kara puding dilimlerini her iki tarafı 1-2 dakika olacak şekilde kızartın.",
+   "Aynı tavada kara puding dilimlerini her iki tarafta 1-2 dakika kızartın. Çıkarıp sıcak tutun.",
    "Fasulyeyi küçük bir tencerede orta ateşte, ara ara karıştırarak ısıtın. Tuz ve karabiberle tatlandırın.",
-   "Kalan tereyağını büyük bir tavada eritin. Yumurtaları tek tek kırıp orta ateşte, akları pişip sarıları hafif akışkan kalana kadar yaklaşık 3 dakika yağda pişirin.",
+   "Kalan tereyağını temiz bir tavada orta ateşte eritin. Yumurtaları tek tek kırıp yaklaşık 3 dakika, akları pişip sarıları hafif akışkan kalana kadar pişirin.",
    "Ekmekleri kızartın. Tüm malzemeleri sıcak bir tabakta yan yana dizip hemen servis yapın."
   ],
   "en": [
@@ -67,5 +67,16 @@
   "tr": "Her malzemeyi aynı anda tavaya koymak yerine sırayla pişirip sıcak tutarak servis edin; böylece yumurtalar ve bacon soğumadan tabağa gelir.",
   "en": "Cook the components in order and keep finished items warm in a low oven so everything reaches the table at the same temperature."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 has an unnatural phrase: \"Yarısındaki tereyağını ekleyip\" should read \"Tereyağının yarısını ekleyin\".",
+   "Turkish step 5 omits \"keep warm\" from the English version, and the tip depends on keeping items warm.",
+   "Turkish step 7 omits \"clean\" pan from the English version, a small mismatch in the cooking instructions.",
+   "Turkish step 3 wording (\"sotelemeyi sürdürün\") is awkward; the English meaning is simply to sauté for about 5 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

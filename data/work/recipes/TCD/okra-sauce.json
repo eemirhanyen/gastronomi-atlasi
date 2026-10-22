@@ -6,10 +6,10 @@
  "native": "صلصة البامية",
  "desc": {
   "tr": "Çad'da günlük öğünlerin vazgeçilmez sosudur; etli, domatesli bamya yemeği genellikle darı ya da sorgum hamurundan yapılan boule ile servis edilir.",
-  "en": "A everyday staple in Chad, this meaty tomato-based okra sauce is usually served with boule, a firm porridge-like dough made from millet or sorghum."
+  "en": "An everyday staple in Chad, this meaty tomato-based okra sauce is usually served with boule, a firm porridge-like dough made from millet or sorghum."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -42,22 +42,22 @@
  "steps": {
   "tr": [
    "Dana etini 3 cm'lik küpler halinde kesin ve tuzla hafifçe tatlandırın.",
-   "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın, etleri ve yarım soğanı ekleyip 8-10 dakika, et rengi değişene kadar kavurun.",
+   "Geniş bir tencerede yağın yarısını orta-yüksek ateşte ısıtın, etleri ve yarım soğanı ekleyip 8-10 dakika, et rengi değişene kadar kavurun.",
    "700 ml suyu ekleyin, kapağı kapatıp kısık ateşte 40 dakika, et yumuşayana kadar pişirin.",
-   "Bamyaların saplarını ayırın, yıkayıp kurulayın ve 1 cm'lik halkalar halinde doğrayın.",
-   "Ayrı bir tavada kalan soğanı yağda 4 dakika kavurun, sarımsağı ekleyip 1 dakika daha pişirin.",
+   "Bamyaların saplarını koparın, yıkayıp kurulayın ve 1 cm'lik halkalar halinde doğrayın.",
+   "Ayrı bir tavada kalan yağın yarısıyla soğanı 4 dakika kavurun, sarımsağı ekleyip 1 dakika daha pişirin.",
    "Rendelenmiş domatesi ve domates salçasını ekleyip 5 dakika, yağ yüzeye çıkana kadar pişirin.",
-   "Bamyaları ve domates karışımını ette pişen tencereye aktarın, karıştırın ve açık kapta 15-20 dakika daha kaynatın.",
+   "Aynı tavada kalan yağla bamyaları 3-4 dakika hafifçe kavurun. Ardından bamyaları ve domates karışımını ette pişen tencereye aktarın, karıştırın ve açık kapta 15-20 dakika daha kaynatın.",
    "Tuz, karabiber ve kırmızı pul biberle son tadına bakıp ayarlayın, sıcak olarak darı veya sorgum hamuru boule ile servis edin."
   ],
   "en": [
    "Cut the beef into 3 cm cubes and lightly season with salt.",
-   "Heat the oil in a large pot over medium-high heat, add the beef and half of the onion, and brown for 8-10 minutes until the meat changes colour.",
+   "Heat half of the oil in a large pot over medium-high heat, add the beef and half of the onion, and brown for 8-10 minutes until the meat changes colour.",
    "Add 700 ml water, cover and simmer gently for 40 minutes until the beef is tender.",
    "Trim the okra stems, rinse and dry, then slice into 1 cm rounds.",
-   "In a separate pan, fry the remaining onion in oil for 4 minutes, then add the garlic and cook for 1 more minute.",
+   "In a separate pan, fry the remaining onion in half of the remaining oil for 4 minutes, then add the garlic and cook for 1 more minute.",
    "Stir in the grated tomatoes and tomato paste and cook for 5 minutes, until the oil separates at the edges.",
-   "Transfer the okra and tomato mixture to the pot with the beef, stir well, and simmer uncovered for 15-20 minutes.",
+   "In the same pan with the remaining oil, lightly sauté the okra for 3-4 minutes. Then transfer the okra and tomato mixture to the pot with the beef, stir well, and simmer uncovered for 15-20 minutes.",
    "Adjust with salt, black pepper and chili flakes, and serve hot with millet or sorghum boule."
   ]
  },
@@ -65,5 +65,16 @@
   "tr": "Bamyayı tencereye eklemeden önce domatesle kavurmak, kayganlığını azaltır ve sosun daha dengeli bir kıvam almasını sağlar.",
   "en": "Sautéing the okra with the tomato base before adding it to the pot helps reduce its sliminess and gives the sauce a more balanced texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says okra should be sautéed with the tomato base before going into the pot, but the steps never do this. Step 7 adds raw okra straight to the sauce.",
+   "Total time of 60 minutes is too short for the steps: the beef alone simmers 40 minutes, plus 15-20 minutes for the okra and sautéing.",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'.",
+   "Turkish step 4 'saplarını ayırın' (separate the stems) does not describe trimming the okra; 'saplarını koparın' (remove the stems) is the correct instruction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

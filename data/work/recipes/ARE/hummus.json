@@ -39,11 +39,11 @@
  },
  "steps": {
   "tr": [
-   "Nohutu süzün ve birkaç yemek kaşığı suyunu ayırın.",
-   "Blenderın kabına tahini ve limon suyunu koyun. Tahin sertleşip topaklanana kadar 1 dakika çırpın.",
-   "Sarımsağı ekleyin, tuzu da ilave edip 30 saniye daha karıştırın.",
-   "Nohutu ve kimyonu ekleyin. Buz gibi suyu azar azar ilave ederek pürüzsüz ve kremsi bir kıvam elde edene kadar 2-3 dakika blendırlayın. Kıvam çok koyu kalırsa ayırdığınız nohut suyunu ekleyin.",
-   "Humusu 10 dakika dinlendirin, sonra servis tabağına alıp kaşıkla bir çukur açın.",
+   "Nohutu süzün ve suyundan birkaç yemek kaşığı ayırın.",
+   "Blenderin kabına tahini ve limon suyunu koyun. Tahin koyulaşıp hafif sertleşene kadar 1 dakika blenderda çalıştırın.",
+   "Sarımsağı ekleyin, tuzu da ilave edip 30 saniye daha blenderda karıştırın.",
+   "Nohutu ve kimyonu ekleyin. Blender çalışırken buz gibi suyu azar azar ilave ederek 2-3 dakika, pürüzsüz ve kremsi bir kıvam elde edene kadar karıştırın. Kıvam çok koyu kalırsa ayırdığınız nohut suyunu ekleyin.",
+   "Humusu 10 dakika dinlendirin, sonra servis tabağına alıp kaşığın arkasıyla ortasında sığ bir çukur açın.",
    "Üzerine zeytinyağını gezdirin, pul biberi serpin ve ince kıydığınız maydanozla süsleyip hemen servis yapın."
   ],
   "en": [
@@ -56,8 +56,18 @@
   ]
  },
  "tip": {
-  "tr": "Daha ipeksi bir doku için nohutların kabuğunu ellerinizle ovalayıp soyun ve blenderı durdurmadan uzun süre çalıştırın.",
+  "tr": "Daha ipeksi bir doku için blenderı çalıştırmadan önce nohutların kabuğunu ellerinizle ovalayarak soyun ve blenderı uzun süre çalışır halde tutun.",
   "en": "For an extra-silky texture, rub the chickpeas between your palms to remove the skins before blending, and blend for longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says 'çırpın' (whisk) but the English says blend in a blender, so the technique does not match.",
+   "Turkish step 2 'topaklanana kadar' means 'until it becomes lumpy', which contradicts the English 'thickens and looks slightly stiff'.",
+   "Turkish step 4 and the tip use unnatural or misspelled forms ('Blenderın', 'blendırlayın', 'blenderı', 'ovalayıp soyun'), and step 3 'karıştırın' does not match the English 'blend'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

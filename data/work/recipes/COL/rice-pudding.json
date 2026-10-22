@@ -5,7 +5,7 @@
  },
  "native": "Arroz con leche",
  "desc": {
-  "tr": "Kolombiya'da her yıl sofralarda yer alan, pirinç, süt ve tarçınla hazırlanan kremsi bir tatlıdır. Genellikle öğle yemeğinden sonra, ev yapımı tatlı olarak ve soğuk ya da ılık servis edilir.",
+  "tr": "Kolombiya'da evlerde sıkça hazırlanan, pirinç, süt ve tarçınla yapılan kremsi bir tatlıdır. Genellikle öğle veya akşam yemeğinden sonra, ev yapımı tatlı olarak ılık ya da soğuk servis edilir.",
   "en": "A creamy dessert of rice, milk and cinnamon, eaten across Colombia as a home-cooked sweet. It is usually served after lunch or dinner, either warm or chilled."
  },
  "servings": 4,
@@ -63,5 +63,14 @@
   "tr": "Pudingin kıvamı soğurken biraz daha koyulaşır; sıcakken biraz akışkan bırakın, aksi halde soğuyunca çok sert olur.",
   "en": "The pudding thickens as it cools, so leave it slightly loose while hot; otherwise it can set too firm once chilled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dessert is served after lunch only ('öğle yemeğinden sonra'), but the English says 'after lunch or dinner'.",
+   "Turkish description opens with 'her yıl sofralarda yer alan', which is unnatural phrasing and has no equivalent in the English text."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -20,7 +20,7 @@
    "1 çay kaşığı (5 g) tuz",
    "1/2 çay kaşığı (2 g) karabiber",
    "1 tatlı kaşığı (2 g) tatlı kırmızı biber",
-   "1/2 çay kaşığı (3 g) karbonat",
+   "1/4 çay kaşığı (1 g) karbonat",
    "60 ml soğuk maden suyu",
    "15 ml sıvı yağ",
    "4 adet somun ekmeği (her biri yaklaşık 60 g)",
@@ -36,7 +36,7 @@
    "1 tsp (5 g) salt",
    "1/2 tsp (2 g) ground black pepper",
    "1 tsp (2 g) sweet paprika",
-   "1/2 tsp (3 g) baking soda",
+   "1/4 tsp (1 g) baking soda",
    "60 ml cold sparkling mineral water",
    "15 ml neutral oil",
    "4 somun flatbreads (about 60 g each)",
@@ -71,5 +71,13 @@
   "tr": "Karışımı mutlaka buzdolabında dinlendirin; bu adım çevaplara karakteristik yumuşak ama dayanıklı dokuyu verir.",
   "en": "Do not skip the fridge rest; it helps the mince bind and gives ćevapi their characteristic springy, juicy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Baking soda amount (1/2 tsp / 3 g for 600 g meat, about 5 g/kg) is far above the usual range for ćevapi and risks a soapy, metallic taste. Reduced to 1/4 tsp (1 g) in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

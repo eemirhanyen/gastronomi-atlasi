@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Piroşki (Patatesli Rus Hamur Tatlısı Değil, Tuzlu Börek)",
+  "tr": "Pirojki (Patatesli Rus Hamur Tatlısı Değil, Tuzlu Börek)",
   "en": "Pirozhki (Potato and Onion Filled Buns)"
  },
  "native": "Пирожки",
@@ -57,7 +57,7 @@
    "Her bir hamur parçasının ortasına yaklaşık 25-30 g iç harç koyun. Kenarları kapatıp sıkıca bastırın, uçları yukarı doğru çimdikleyin ve sarkık tarafı alta gelecek şekilde yuvarlayın.",
    "Pirozhkileri ara vererek bir fırın tepsisine dizin ve 15 dakika daha mayalanmaya bırakın.",
    "Yumurta sarısını sütle çırpıp pirozhkilerin üzerine ince bir tabaka sürün.",
-   "Geniş bir tavada ayçiçek yağını orta-yüksek ateşte 170 °C civarına getirin. Pirozhkileri her iki yüzü altın rengi olana kadar, toplamda yaklaşık 3-4 dakika kızartın.",
+   "Geniş bir tavada ayçiçek yağını orta-yüksek ateşte 170 °C civarına getirin. Pirozhkileri her iki yüzü altın rengi olana kadar, toplamda yaklaşık 4-5 dakika kızartın.",
    "Kağıt havlu üzerine alıp yağını süzdürün ve sıcak servis yapın."
   ],
   "en": [
@@ -68,16 +68,27 @@
    "Finely chop the onion and fry it in 15 g butter over medium heat for about 8 minutes, until golden brown.",
    "Stir the fried onion, chopped dill, salt and black pepper into the mashed potato. Set the filling aside to cool.",
    "Gently knead the dough and divide it into 12 equal pieces (about 38 g each). Roll each piece into a ball and flatten it slightly in your palm.",
-   "Place about 25-30 g of filling in the centre of each piece. Pinch the edges closed firmly, then shape into an oval or round bun with the seam facing down.",
+   "Place about 25-30 g of filling in the centre of each piece. Pinch the edges closed firmly and pull the tips upward, then turn the bun over so the seam faces down and shape it into an oval or round bun.",
    "Arrange the pirozhki on a baking tray with space between them and leave for 15 more minutes to prove.",
    "Whisk the egg yolk with the milk and brush a thin layer over the pirozhki.",
-   "Heat the sunflower oil in a wide frying pan over medium-high heat to about 170 °C. Fry the pirozhki for about 3-4 minutes in total, turning once, until golden on both sides.",
+   "Heat the sunflower oil in a wide frying pan over medium-high heat to about 170 °C. Fry the pirozhki for about 4-5 minutes in total, turning once, until golden on both sides.",
    "Drain on kitchen paper to remove excess oil and serve warm."
   ]
  },
  "tip": {
-  "tr": "Kızartmadan önce pirozhkiyi seyreltilmiş kalın bir tabaka halinde sürmeye çalışın; yağ çok sıcak olursa dış yüzey hızla koyulaşır ama iç kısım çiğ kalabilir, bu yüzden ateşi orta-yüksekte tutun.",
+  "tr": "Yağ çok sıcak olursa dış yüzey hızla koyulaşır ama iç kısım çiğ kalabilir, bu yüzden ateşi orta-yüksekte tutun ve pirozhkileri gruplar halinde, tavayı kalabalık etmeden kızartın.",
   "en": "If the oil is too hot the outside browns quickly while the dough inside stays raw, so keep the heat at medium-high and fry in batches without crowding the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contains a contradictory sentence ('seyreltilmiş kalın bir tabaka') that has no counterpart in the English tip and is unclear.",
+   "Frying time of 3-4 minutes is short for ~38 g yeasted dough balls. Dough may stay raw inside, so 4-5 minutes is safer.",
+   "Turkish step 8 says to pinch the tips upward, but the English step omits this.",
+   "Turkish name uses the nonstandard transliteration 'Piroşki'; 'Pirojki' is the usual Turkish form."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

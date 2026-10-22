@@ -30,7 +30,7 @@
    "1 kırmızı soğan, halka halka doğranmış (servis için)",
    "1 domates, dilim dilim (servis için)",
    "1 misket limonu, dilimlenmiş (servis için)",
-   "12 adet ahşap şiş, 30 dakika suda bekletilmiş"
+   "20 adet ahşap şiş, 30 dakika suda bekletilmiş"
   ],
   "en": [
    "600 g beef sirloin, cut into 2 cm cubes",
@@ -50,7 +50,7 @@
    "1 red onion, thinly sliced (for serving)",
    "1 tomato, sliced (for serving)",
    "1 lime, cut into wedges (for serving)",
-   "12 wooden skewers, soaked in water for 30 minutes"
+   "20 wooden skewers, soaked in water for 30 minutes"
   ]
  },
  "steps": {
@@ -79,5 +79,13 @@
   "tr": "Eti marinasyona bir gece bekletirseniz lezzet çok daha derinleşir; ızgarada fazla kalmaması için küpleri eşit boyutta kesin.",
   "en": "Marinating overnight gives much deeper flavor. Cut the cubes to an even size so they cook at the same rate on the skewer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Skewer count doesn't match the portioning: 600 g of 2 cm cubes is roughly 70 pieces, and 3-4 pieces per skewer needs about 20 skewers, not 12. Changed the skewer count to 20 in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

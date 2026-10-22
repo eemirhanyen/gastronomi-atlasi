@@ -9,7 +9,7 @@
   "en": "A traditional Kosovar dish of lamb baked under a golden custard of yogurt and eggs. It is served on spring days and at celebrations across Kosovo and Albania."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -19,7 +19,7 @@
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
    "300 ml su",
-   "500 g tam yağlı süzme yoğurt (kos yoğurdu)",
+   "500 g tam yağlı süzme yoğurt (kos yoğurdu veya Yunan tipi yoğurt)",
    "3 yumurta",
    "1 yemek kaşığı un",
    "1/2 çay kaşığı tuz (yoğurt karışımı için)"
@@ -43,9 +43,9 @@
    "Kuzu etini 1 çay kaşığı tuz ve karabiberle tatlandırın.",
    "Geniş bir tencerede 2 yemek kaşığı tereyağını eritin, soğanı orta ateşte 4-5 dakika, yumuşayana kadar kavurun.",
    "Eti tencereye ekleyin ve 5-6 dakika, her tarafı hafifçe renk alana kadar kavurun.",
-   "Suyu ekleyin, kapağını kapatıp kısık ateşte yaklaşık 30 dakika, et yumuşayana ve suyun büyük kısmı çekilene kadar pişirin.",
+   "Suyu ekleyin, kapağını kapatıp kısık ateşte yaklaşık 1 saat, et yumuşayana kadar pişirin; sıvının az bir kısmı kalmalıdır.",
    "Bu sırada yoğurt, yumurta, un ve 1/2 çay kaşığı tuzu bir kapta pürüzsüz olana kadar çırpın.",
-   "Eti fırın kabına alın, üzerine yoğurt karışımını eşit şekilde dökün.",
+   "Eti 20 x 30 cm'lik fırın kabına alın, üzerine yoğurt karışımını eşit şekilde dökün.",
    "Kalan 1 yemek kaşığı tereyağını eritip üzerine gezdirin.",
    "180°C'deki fırında 35-40 dakika, üstü altın rengi olup karışım sertleşene kadar pişirin.",
    "Fırından çıkarıp 10 dakika dinlendirin, dilimleyerek sıcak servis yapın."
@@ -55,7 +55,7 @@
    "Season the lamb cubes with 1 tsp salt and the black pepper.",
    "Melt 2 tbsp butter in a large pot over medium heat and cook the onion for 4-5 minutes until soft.",
    "Add the lamb and brown it on all sides for 5-6 minutes.",
-   "Pour in the water, cover, and simmer over low heat for about 30 minutes, until the meat is tender and most of the liquid has evaporated.",
+   "Pour in the water, cover, and simmer over low heat for about 1 hour, until the meat is tender; a small amount of liquid should remain.",
    "Meanwhile, whisk the yogurt, eggs, flour and 1/2 tsp salt in a bowl until smooth.",
    "Transfer the lamb to a 20 x 30 cm baking dish and spread the yogurt mixture evenly over it.",
    "Melt the remaining 1 tbsp butter and drizzle it over the top.",
@@ -67,5 +67,17 @@
   "tr": "Yoğurdun kesilmemesi için karışıma sıcak et suyundan birkaç kaşık ekleyip ısıtarak karıştırın; ardından pürüzsüz karışımı ete dökün.",
   "en": "To keep the yogurt from splitting, whisk in a few spoonfuls of the hot cooking liquid first, then pour the smooth mixture over the lamb."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Simmer time of about 30 minutes is too short for lamb shoulder cubes to become tender; the simmering step needs to be about an hour.",
+   "Step 5 says most of the liquid evaporates, but the tip asks for hot cooking liquid. The liquid should be reduced, not gone.",
+   "The English step gives a 20 x 30 cm baking dish, but the Turkish step omits the size.",
+   "The English ingredient list offers Greek-style yogurt as an alternative to kos yoğurdu, but the Turkish list does not.",
+   "time_min of 90 does not match the steps once the longer simmer is included."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

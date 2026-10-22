@@ -41,10 +41,10 @@
    "Balıkları 5 dakika ılık suda bekletin, ardından süzüp kağıt havlu üzerinde kurulayın.",
    "Geniş bir tavada yağı orta-yüksek ateşte ısıtın (yaklaşık 180 °C).",
    "Mukeneyi partiler halinde 3-4 dakika, hafif kızarıp çıtırlaşana kadar kavurun, sonra bir tabağa alın.",
-   "Aynı yağda soğanları pembeleşene kadar, yaklaşık 5 dakika soteleyin.",
+   "Aynı yağda soğanları altın rengi alana kadar, yaklaşık 5 dakika soteleyin.",
    "Doğranmış yeşil biberi ve domatesleri ekleyip domatesler suyunu salana ve yumuşayana kadar 5 dakika pişirin.",
    "Kavrulmuş mukeneyi tavaya geri koyun, tuz ve karabiberle tatlandırın ve 2 dakika birlikte karıştırarak ısıtın.",
-   "Ocaktan almadan önce limon suyunu gezdirip kıyılmış kişnişle süsleyin ve sıcak servis yapın."
+   "Ocaktan alın, limon suyunu gezdirip kıyılmış kişnişle süsleyin ve sıcak servis yapın."
   ],
   "en": [
    "Rinse the mukene in plenty of water twice to remove sand and grit.",
@@ -61,5 +61,14 @@
   "tr": "Mukeneyi kızartırken tavayı çok doldurmayın; küçük partiler halinde kavurmak balıkların çıtır kalmasını sağlar.",
   "en": "Fry the mukene in small batches so the pan is not crowded; this keeps the fish crisp rather than steamed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to drizzle lime juice before removing the pan from the heat, but the English says to remove from heat first, then add lime juice and coriander. The order disagrees.",
+   "Turkish step 5 says 'pembeleşene kadar' (until pinkish), while the English says 'until golden'. Minor, but the two versions should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

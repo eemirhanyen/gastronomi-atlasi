@@ -20,7 +20,7 @@
    "30 ml sıvı yağ",
    "60 g tereyağı",
    "3 diş sarımsak (yaklaşık 10 g)",
-   "2 limon (1 tanesinin suyu ve rendesi, 40 ml su; 1 tanesi servis için dilim)",
+   "2 limon (1 tanesinin suyu (yaklaşık 40 ml) ve rendesi; 1 tanesi servis için dilim)",
    "15 g taze maydanoz",
    "600 g patates"
   ],
@@ -63,5 +63,13 @@
   "tr": "Kingklip etli bir balıktır ama yağlanınca kolay parçalanabilir; tavayı kalabalık yapmadan ve balığı tavaya koyduktan sonra hemen çevirmeden pişirin.",
   "en": "Kingklip is firm but can flake when overcooked, so cook it in batches and do not overcrowd the pan. Turn it only once the underside releases easily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish lemon ingredient says \"40 ml su\" (40 ml water), but the English says juice of about 40 ml, and the water is never used in the steps. The Turkish should read as lemon juice."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A light salad from Myanmar made from tohu, a firm chickpea-flour tofu cooked and set in a tin, then sliced into thin strips and tossed with onion, tomato, cabbage and a tangy, salty dressing. It is common at street stalls and as an everyday lunch dish."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Tohu'yu tam soğutmadan kesmeyin; dilimler dağılmadan düzgün şeritler elde edersiniz.",
   "en": "Chill the tohu fully before cutting; this keeps the strips neat and stops them from breaking apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps require about 12 min of cooking, 15 min of resting, at least 1 hour of chilling, plus prep and frying. Total active and passive time is closer to 110 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

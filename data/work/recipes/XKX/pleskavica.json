@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Köfteleri ızgaraya koymadan önce kısa süre buzdolabında dinlendirmek, şekillerini korur ve daha suyu bir dokuda pişmelerini sağlar.",
+  "tr": "Köfteleri ızgaraya koymadan önce kısa süre buzdolabında dinlendirmek, şekillerini korur ve daha sulu bir doku elde edilmesini sağlar.",
   "en": "Chilling the patties before cooking helps them hold their shape and keeps them juicy on the grill."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses the wrong word: 'suyu bir dokuda' should be 'sulu bir doku', so the sentence does not match the English 'juicy' meaning and reads unnaturally."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

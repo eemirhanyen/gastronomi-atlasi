@@ -28,7 +28,8 @@
    "½ soğan, ince dilimlenmiş (curtido için)",
    "60 ml beyaz sirke",
    "½ tatlı kaşığı kuru kekik (curtido için)",
-   "1 tatlı kaşığı tuz (curtido için)"
+   "1 tatlı kaşığı tuz (curtido için)",
+   "Tuz, tatmak için (manyok için)"
   ],
   "en": [
    "1 kg fresh yuca (cassava)",
@@ -46,7 +47,8 @@
    "½ onion, thinly sliced (for curtido)",
    "60 ml white vinegar",
    "½ tsp dried oregano (for curtido)",
-   "1 tsp salt (for curtido)"
+   "1 tsp salt (for curtido)",
+   "Salt, to taste (for the fried yuca)"
   ]
  },
  "steps": {
@@ -67,7 +69,7 @@
    "Cover and simmer over medium heat for 35-40 minutes until tender and the water has evaporated. Uncover, raise the heat slightly and fry the pork in its own fat for 8-10 minutes until golden and crisp. Transfer to paper towels.",
    "For the curtido, combine the shredded cabbage, grated carrot, sliced onion, 60 ml vinegar, ½ tsp oregano and 1 tsp salt in a bowl. Press lightly and let rest for 15 minutes so the flavours blend.",
    "Pat the boiled yuca completely dry with paper towels. Heat the 500 ml oil in a deep pan to 170-180°C.",
-   "Fry the yuca in batches for 6-8 minutes until golden and crisp at the edges. Lift out with a slotted spoon, drain well and salt immediately.",
+   "Fry the yuca in batches for 6-8 minutes until golden and crisp at the edges. Lift out with a slotted spoon, drain well and salt immediately with salt to taste.",
    "Serve the fried yuca hot, alongside the crispy pork and the curtido."
   ]
  },
@@ -75,5 +77,13 @@
   "tr": "Manyoğu haşladıktan sonra iyice kurulayın; su kalırsa yağ sıçrar ve çıtırlık kaybolur. Lahanayı sirkeyle hemen tatlandırmak yerine 15 dakika dinlendirmek, tatların daha iyi birleşmesini sağlar.",
   "en": "Dry the boiled yuca thoroughly before frying, as any moisture causes splattering and softens the crust. Let the curtido rest rather than serving it immediately so the vinegar softens the cabbage and the flavours meld."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 says to salt the fried yuca immediately, but no salt for finishing is listed in either ingredient list. The only salt amounts are for boiling water, the pork, and the curtido."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

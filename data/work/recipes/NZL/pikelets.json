@@ -44,7 +44,7 @@
    "Un, tartarik asit, sodyum bikarbonat ve tuzu bir kapta karıştırıp eleyin.",
    "Başka bir kapta yumurta ve şekeri pürüzsüz olana kadar çırpın.",
    "Sütü ve eritilmiş tereyağını yumurtalı karışıma ekleyip iyice karıştırın.",
-   "Islak karışımın üzerine eledğiniz kuru malzemeleri ekleyin ve spatulayla yalnızca pürüzsüz bir hamur oluşana kadar katlayın.",
+   "Islak karışımın üzerine elediğiniz kuru malzemeleri ekleyin ve spatulayla yalnızca pürüzsüz bir hamur oluşana kadar katlayın.",
    "Hamuru 5 dakika dinlendirin.",
    "Geniş bir tavayı orta ateşte ısıtın ve 10 g tereyağıyla hafifçe yağlayın.",
    "Bir yemek kaşığıyla hamurdan küçük parçalar alıp tavaya bırakın, her biri arasında boşluk bırakın.",
@@ -71,5 +71,13 @@
   "tr": "Hamuru dinlendirmek kabarmayı destekler; tavanın orta ateşte olduğundan emin olun, aksi halde dışı yanar ama içi çiğ kalır.",
   "en": "Rest the batter before cooking and keep the heat at medium, as a hot pan will brown the outside before the middle sets."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a spelling error: 'eledğiniz' should be 'elediğiniz'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

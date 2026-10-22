@@ -33,7 +33,7 @@
  },
  "steps": {
   "tr": [
-   "Unu ve tuzu geniş bir kaba alın, tereyağını ekleyip parmak uçlarınızla un karışan bir kıvam gelene kadar ovalayın.",
+   "Unu ve tuzu geniş bir kaba alın, tereyağını ekleyip parmak uçlarınızla ufalanmış ekmek kırıntısı kıvamı gelene kadar ovalayın.",
    "Yumurtayı ve soğuk suyu ekleyip yaklaşık 8 dakika yoğurun; hamur pürüzsüz ve elastik olmalıdır.",
    "Hamuru streç film ile örtüp oda sıcaklığında 20 dakika dinlendirin.",
    "Mozzarellayı yaklaşık 8 cm uzunluğunda, 1 cm kalınlığında 24 çubuğa kesin.",
@@ -41,7 +41,7 @@
    "Her peynir çubuğunu bir hamur dikdörtgeninin kısa kenarına yerleştirin, hamuru sarın ve kenarlarını parmaklarınızla iyice kapatın.",
    "Sarılmış tequeñoları bir tabağa alıp 10 dakika buzdolabında dinlendirin.",
    "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın.",
-   "Tequeñoları partiler halinde 2-3 dakika, altın sarısı ve kıvrım kıvam alana kadar kızartın.",
+   "Tequeñoları partiler halinde, çevirerek 2-3 dakika, altın sarısı ve çıtır olana kadar kızartın.",
    "Kağıt havlu serili tabağa alıp fazla yağını süzün ve hemen sıcak servis yapın."
   ],
   "en": [
@@ -61,5 +61,15 @@
   "tr": "Peynir sızmasını önlemek için hamurun kenarlarını iyice kapatın ve kızartmadan önce mutlaka buzdolabında soğutun.",
   "en": "Pinch the dough edges very firmly and chill the tequeños before frying so the cheese does not leak out in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1: \"un karışan bir kıvam gelene kadar\" is unnatural; the English says the mixture should look like breadcrumbs, so the Turkish should say \"ufalanmış ekmek kırıntısı kıvamı\".",
+   "Turkish step 9 omits the turning instruction given in the English (\"turning\").",
+   "Turkish step 9: \"kıvrım kıvam alana kadar\" is wrong Turkish. \"Kıvrım\" means curl or fold, and the intended meaning is \"altın sarısı ve çıtır olana kadar\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

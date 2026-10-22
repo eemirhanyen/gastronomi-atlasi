@@ -89,7 +89,16 @@
  },
  "tip": {
   "tr": "İşkembe tamamen yumuşamadan asitli malzeme eklemeyin; limon suyunu ve ekşi kremayı sonda ekleyerek çorbanın kesilmesini önleyin.",
-  "en": "Add the lemon juice and sour cream only at the end and never let the soup boil hard afterwards, or the cream may curdle and the tripe will toughen."
+  "en": "Add the lemon juice and sour cream only at the end, once the tripe is fully tender, and never let the soup boil hard afterwards, or the cream may curdle and the tripe will toughen."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English tip does not mention waiting until the tripe is fully tender before adding acid, while the Turkish tip does. The two versions disagree.",
+   "The requested dish is 'Sour cabbage soup with tripe', but the recipe (ciorbă de burtă) contains no cabbage and is titled 'Sour tripe soup'. This may be a naming mismatch. I left the recipe unchanged o"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

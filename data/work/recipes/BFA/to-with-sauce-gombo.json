@@ -6,15 +6,16 @@
  "native": "Tô et sauce gombo",
  "desc": {
   "tr": "Burkina Faso'nun temel günlük yemeği olan tô, darı ya da sorgum ununun koyu bir hamur kıvamına getirilmesiyle yapılır. Bu kıvamlı hamur, öğle ve akşam yemeklerinde genellikle taze bamya, et ve kurutulmuş balıkla hazırlanan sosla birlikte, elle parçalanıp yenir.",
-  "en": "Tô is the everyday staple of Burkina Faso, a stiff porridge made from millet or sorghum flour. It is usually eaten at lunch or dinner, pinched into balls and dipped into a okra sauce cooked with meat and smoked fish."
+  "en": "Tô is the everyday staple of Burkina Faso, a stiff porridge made from millet or sorghum flour. It is usually eaten at lunch or dinner, pinched into balls and dipped into an okra sauce cooked with meat and smoked fish."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "400 g darı unu (ya da sorgum unu)",
    "1,2 L su",
+   "300 ml soğuk su",
    "1 tatlı kaşığı tuz (5 g)",
    "400 g sığır eti, küp doğranmış",
    "60 ml bitkisel yağ",
@@ -31,6 +32,7 @@
   "en": [
    "400 g millet flour (or sorghum flour)",
    "1.2 L water",
+   "300 ml cold water",
    "1 tsp salt (5 g)",
    "400 g beef, cut into cubes",
    "60 ml vegetable oil",
@@ -79,5 +81,15 @@
   "tr": "Soumbala çok güçlü kokuludur; sosa önce yarım tatlı kaşık ekleyip tadına bakarak miktarını ayarlayın. Tô'nun topak olmaması için un karışımını mutlaka sıcak suya yavaş yavaş ekleyin.",
   "en": "Soumbala has a very strong smell, so start with half a teaspoon and adjust to taste. Add the flour slowly and keep stirring to prevent lumps in the tô."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list omits the 300 ml cold water used to mix the flour in the tô steps (both TR and EN).",
+   "time_min (60) is too short for the listed steps: about 20 min soaking, roughly 50 min of sauce cooking, and about 25 min for the tô.",
+   "English description says 'a okra sauce'; should be 'an okra sauce'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

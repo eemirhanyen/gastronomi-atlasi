@@ -5,7 +5,7 @@
  },
  "native": "حلیم",
  "desc": {
-  "tr": "Dövülmüş buğday, mercimek ve kemikli etin saatlerce pişirilmesiyle elde edilen, kıvamlı bir yulaf lapasını andıran yemektir. Pakistan'da özellikle Ramazan iftarlarında ve Muharrem dönemlerinde, kızarmış soğan, zencefil, nane ve limonla servis edilir.",
+  "tr": "Dövülmüş buğday, mercimek ve etin saatlerce pişirilmesiyle elde edilen, kıvamlı bir yulaf lapasını andıran yemektir. Pakistan'da özellikle Ramazan iftarlarında ve Muharrem dönemlerinde, kızarmış soğan, zencefil, nane ve limonla servis edilir.",
   "en": "A thick, porridge-like dish of cracked wheat, lentils and meat, slowly cooked until it breaks down into a smooth paste. In Pakistan it is especially popular at Ramadan iftar and during Muharram, served topped with fried onions, ginger, mint and lemon."
  },
  "servings": 4,
@@ -79,5 +79,13 @@
   "tr": "Haleem'in kıvamı tamamen dağılana kadar pişirilmelidir; kıvam ne kadar pürüzsüz olursa lezzet o kadar iyi çıkar. Son aşamada bir tahta kaşıkla sürekli karıştırmak yapışıp dibe tutmasını önler.",
   "en": "The haleem should cook until it is completely broken down, as a smooth texture is the goal. Stir constantly during the final simmer to prevent it from sticking and burning on the bottom."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dish is cooked with \"kemikli et\" (bone-in meat), but the ingredient list specifies boneless meat (\"kemiksiz\") and the English description just says \"meat\". Changed the Tur"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

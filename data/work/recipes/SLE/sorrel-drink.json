@@ -9,7 +9,7 @@
   "en": "A deep red, lightly spiced drink made from dried hibiscus calyces and ginger. In Sierra Leone it is served mainly at Christmas and New Year, at weddings and when guests visit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 720,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Sıcakken tadına bakın; soğuyunca tatlılık azalır, bu yüzden şekeri soğutmadan önce ayarlayın.",
   "en": "Taste the drink while it is warm, since sweetness fades once chilled, so adjust the sugar before refrigerating."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min of 60 is misleading: the recipe needs 8 to 12 hours of steeping plus at least 1 hour of chilling, so total time is roughly 9 to 13 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

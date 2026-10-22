@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "500 g taze Gnetum yaprağı (yoksa ıspanak veya kara lahana)",
-   "500 g füme balık (sazan balığı veya uskumru)",
+   "500 g füme balık (tilapya veya uskumru)",
    "800 g manyok (acı olmayan)",
    "100 ml palmiye yağı",
    "1 büyük soğan, ince doğranmış",
@@ -22,8 +22,8 @@
    "1 adet Habanero veya Scotch bonnet biberi, ezilmiş",
    "2 yemek kaşığı (20 g) kerevit tozu",
    "100 g çiğ yer fıstığı, öğütülmüş",
-   "500 ml su (300 ml sos için, 200 ml fıstık ezmesi için)",
-   "Tuz"
+   "300 ml su (200 ml fıstık ezmesi için, 100 ml sos için)",
+   "Tuz (tat için)"
   ],
   "en": [
    "500 g fresh Gnetum leaves (or spinach or kale if unavailable)",
@@ -35,8 +35,8 @@
    "1 Scotch bonnet pepper, crushed",
    "2 tbsp (20 g) crayfish powder",
    "100 g raw peanuts, ground",
-   "500 ml water (300 ml for the stew, 200 ml for the peanut paste)",
-   "Salt"
+   "300 ml water (200 ml for the peanut paste, 100 ml for the stew)",
+   "Salt (to taste)"
   ]
  },
  "steps": {
@@ -65,5 +65,15 @@
   "tr": "Gnetum yaprakları hafif acıdır; yaprakları iyice yıkamak ve kısık ateşte uzun süre pişirmek hem acılığı azaltır hem de sosun kıvamını güzelleştirir.",
   "en": "Gnetum leaves are slightly bitter; washing them well and simmering gently for a long time mellows the bitterness and gives the sauce a rich, smooth texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water totals don't add up: the ingredient list says 300 ml for the stew and 200 ml for the paste (500 ml), but step 7 adds only 100 ml, leaving 200 ml unaccounted for.",
+   "Smoked fish species disagree: Turkish lists sazan (carp) and English lists tilapia. Tilapia is the common choice for okok, so the Turkish should match it.",
+   "Salt has no quantity or unit in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

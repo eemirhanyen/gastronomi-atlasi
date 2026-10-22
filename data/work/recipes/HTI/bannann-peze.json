@@ -15,14 +15,14 @@
   "tr": [
    "3 adet olgun olmayan (yeşil) muz, yaklaşık 800 g",
    "600 ml bitkisel yağ (kızartma için)",
-   "1 tatlı kaşığı tuz (5 g), kızartmanın sonunda serpmek için",
-   "1 litre su ve 1 tatlı kaşığı tuz (düzleştirme için tuzlu su)"
+   "1 tutam tuz (yaklaşık 1 g), kızartmanın sonunda serpmek için",
+   "1 litre su ve 1 tatlı kaşığı tuz (5 g), düzleştirme için tuzlu su"
   ],
   "en": [
    "3 green (unripe) plantains, about 800 g in total",
    "600 ml neutral vegetable oil, for frying",
-   "1 teaspoon salt (5 g), for sprinkling after frying",
-   "1 litre water with 1 teaspoon salt, for the flattening bath"
+   "1 pinch of salt (about 1 g), for sprinkling after frying",
+   "1 litre water with 1 teaspoon salt (5 g), for the flattening bath"
   ]
  },
  "steps": {
@@ -49,5 +49,13 @@
   "tr": "Muzlar ne kadar yeşil ve sert olursa, kızartılmış dilimler o kadar gevrek ve nötr çıkar; düzleştirmeden önce her parçayı tuzlu suya batırmak yapışmayı önler.",
   "en": "The greener and firmer the plantains, the crisper and less sweet the result; dipping the discs in salted water before the second frying keeps the oil from sticking and adds seasoning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient amount for the final salt (1 tsp / 5 g) conflicts with step 7, which says only 'a pinch of salt' (Turkish: 'bir tutam tuz'). The ingredient list overstates the amount, in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

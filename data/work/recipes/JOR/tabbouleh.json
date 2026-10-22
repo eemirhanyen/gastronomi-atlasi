@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "60 g ince bulgur (#1)",
+   "60 g ince bulgur",
    "100 ml kaynar su",
    "300 g düz yapraklı maydanoz, yaprakları çok ince doğranmış",
    "20 g taze nane yaprağı, ince doğranmış",
@@ -67,5 +67,13 @@
   "tr": "Gerçek Ürdün tarzında tabulede bulgurdan çok maydanoz bulunmalı; bu yüzden maydanozu mutfak robotu yerine bıçakla doğrayın, aksi halde püreye döner.",
   "en": "In the Jordanian style tabbouleh should be mostly parsley, not bulgur. Chop the parsley by hand rather than in a food processor, which can turn it mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'ince bulgur (#1)' contains a dangling footnote marker '(#1)' that refers to no note; the English version has the same marker."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

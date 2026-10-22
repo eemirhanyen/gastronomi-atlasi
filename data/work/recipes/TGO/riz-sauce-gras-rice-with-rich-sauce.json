@@ -6,10 +6,10 @@
  "native": "Riz sauce gras",
  "desc": {
   "tr": "Togo'da günlük yemeklerin ve misafir sofralarının vazgeçilmez yemeği olan, domates, palmiye yağı ve et veya balıkla hazırlanan yoğun soslu bir pilavdır. Genellikle kızarmış olgun muz (aloco) ya da taze salata ile servis edilir.",
-  "en": "A everyday and celebratory dish across Togo, this is rice cooked in a deep, oily tomato sauce built on meat, smoked fish and palm oil. It is usually served with fried ripe plantain (aloco) or a fresh salad."
+  "en": "An everyday and celebratory dish across Togo, this is rice cooked in a deep, oily tomato sauce built on meat, smoked fish and palm oil. It is usually served with fried ripe plantain (aloco) or a fresh salad."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -27,7 +27,7 @@
    "1 sebze veya et suyu küpü",
    "1 tatlı kaşığı kuru kekik",
    "1 defne yaprağı",
-   "1 çay kaşığı tuz (ayarlamak için) ve karabiber",
+   "1 çay kaşığı tuz (ayarlamak için) ve 1/2 çay kaşığı karabiber",
    "800 ml sıcak su"
   ],
   "en": [
@@ -45,7 +45,7 @@
    "1 stock cube (beef or vegetable)",
    "1 tsp dried thyme",
    "1 bay leaf",
-   "1 tsp salt (adjust to taste) and black pepper",
+   "1 tsp salt (adjust to taste) and 1/2 tsp black pepper",
    "800 ml hot water"
   ]
  },
@@ -56,7 +56,7 @@
    "Geniş ve dipli bir tencerede palmiye yağını orta ateşte ısıtın, etleri her tarafı kızarana kadar 6-8 dakika kavurun ve bir kenara alın.",
    "Aynı yağa domates salçasını ekleyip 2 dakika kavurun, ardından blenderdaki karışımı ekleyin.",
    "Sos koyulaşıp yağ yüzeye ayrılana kadar yaklaşık 15-20 dakika kısık ateşte pişirin.",
-   "Kavrulmuş etleri, tütsülenmiş balığı, kurutulmuş karidesi, defne yaprağını ve 400 ml sıcak suyu ekleyin, 15 dakika daha kaynatın.",
+   "Kavrulmuş etleri, tütsülenmiş balığı, kurutulmuş karidesi, defne yaprağını, kalan yarım küp sebze/et suyunu ve 400 ml sıcak suyu ekleyin, 15 dakika daha kaynatın.",
    "Pirinci akan su berraklaşana kadar yıkayın ve sosun içine ekleyin. Kalan 400 ml sıcak suyu da ilave edip karıştırın, tadına bakarak tuzunu ayarlayın.",
    "Kapağı kapatıp ateşi en düşük seviyeye alın ve pirinç suyunu çekip yumuşayana kadar yaklaşık 20-25 dakika pişirin.",
    "Pilavı ocaktan alıp kapağı kapalı halde 5 dakika dinlendirin, ardından çatalla kabartarak sıcak servis yapın."
@@ -67,7 +67,7 @@
    "Heat the palm oil in a wide, heavy-bottomed pot over medium heat, brown the meat on all sides for 6-8 minutes, then set it aside.",
    "In the same oil, fry the tomato paste for 2 minutes, then add the blended tomato mixture.",
    "Simmer gently for 15-20 minutes until the sauce thickens and a layer of red oil rises to the surface.",
-   "Return the browned meat to the pot with the smoked fish, dried shrimp, bay leaf and 400 ml hot water. Simmer for 15 more minutes.",
+   "Return the browned meat to the pot with the smoked fish, dried shrimp, bay leaf, the remaining half stock cube and 400 ml hot water. Simmer for 15 more minutes.",
    "Rinse the rice until the water runs clear, then add it to the pot. Pour in the remaining 400 ml hot water, stir well and adjust the salt to taste.",
    "Cover the pot, reduce the heat to the lowest setting and cook for 20-25 minutes until the rice is tender and the liquid is absorbed.",
    "Remove from the heat, leave covered for 5 minutes, then fluff with a fork and serve hot."
@@ -77,5 +77,16 @@
   "tr": "Sosun yağının iyice ayrıldığını görmeden pirinci eklemeyin; bu, pilavın rengini ve aromasını belirleyen en önemli aşamadır.",
   "en": "Do not add the rice until the sauce has visibly released its oil; this stage gives the dish its colour and depth of flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Black pepper has no quantity in either language (\"ve karabiber\" / \"and black pepper\").",
+   "Only half the stock cube is used in step 1, and the other half is never used in the steps.",
+   "time_min of 60 is too low. The steps add up to roughly 90-100 minutes including the 15-minute rest and the 20-25 minute rice simmer.",
+   "English description has a grammar error: \"A everyday\" should be \"An everyday\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -53,7 +53,7 @@
    "Geniş ve kalın tabanlı bir tencereye hardal yapraklarını, ıspanağı, zencefili, sarımsağı, yeşil biberi, tuzu, zerdeçalı ve 300 ml suyu ekleyin.",
    "Kapağı kapatıp kısık ateşte 35-40 dakika pişirin; yapraklar çok yumuşayıncaya kadar ara sıra karıştırın ve gerekirse biraz su ekleyin.",
    "Pişen yaprakları biraz soğutun, blender ile kabaca püre haline getirin ya da el tokmağı ile ezin.",
-   "Mısırununu azar azar ekleyerek karıştırın, ardından tencereye geri koyun ve kısık ateşte 10 dakika daha pişirin, pürüzsüz olmayan kıvamda kalmasına dikkat edin.",
+   "Mısır ununu azar azar ekleyerek karıştırın, ardından tencereye geri koyun ve kısık ateşte 10 dakika daha pişirin, pürüzsüz olmayan kıvamda kalmasına dikkat edin.",
    "Ayrı bir tavada sade yağı ısıtın, kimyon tohumlarını ekleyip çatırdayana kadar bekleyin.",
    "Doğranmış soğanı ekleyip altın rengi alana kadar yaklaşık 8 dakika kavurun, ardından domatesi ve garam masalayı ekleyip domates dağılana kadar pişirin.",
    "Bu karışımı sarsona dökün, iyice karıştırın ve tereyağını ekleyerek ateşten alın.",
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Geleneksel lezzet için saagı pişirirken kalın tabanlı bir tencere kullanın ve sonunda bir miktar tereyağı ile birlikte bir kaşık dolusu ghee üzerine gezdirerek servis edin.",
+  "tr": "Geleneksel lezzet için saagı pişirirken kalın tabanlı bir tencere kullanın ve servis ederken her porsiyonun üzerine bir kaşık ghee veya tereyağı gezdirin.",
   "en": "For a more authentic flavour, use a heavy-bottomed pot and finish each serving with a spoonful of ghee or butter drizzled on top."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to finish with ghee and butter together, but the English tip says ghee or butter; the two versions disagree.",
+   "Turkish step 5 has the typo 'Mısırununu' (should be 'mısırununu')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

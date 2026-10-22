@@ -9,7 +9,7 @@
   "en": "A tangy, lightly sweet fermented milk drink eaten across Chad, especially in Arabic-speaking regions, to cool down on hot days. It is usually served with midday meals or after eating."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 600,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Kıvam çok koyu gelirse soğuk su ilave ederek sulandırın; bir sonraki seferde starter olarak bu lben'den 2 yemek kaşığı kullanabilirsiniz.",
   "en": "If the drink is too thick, thin it with more cold water; you can use 2 tablespoons of this lben as the starter for the next batch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 20, but the recipe includes 6-8 hours of fermentation and at least 2 hours of chilling, so the total time is about 9-11 hours. The 20 minutes is only the hands-on time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

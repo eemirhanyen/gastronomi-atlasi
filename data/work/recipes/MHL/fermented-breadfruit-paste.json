@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "1200 g olgun ama sert ekmek ağacı meyvesi",
-   "2 adet bananın yaprağı (yaklaşık 40 x 40 cm, temizlenmiş)",
+   "2 adet muz yaprağı (yaklaşık 40 x 40 cm, temizlenmiş)",
    "5 g tuz",
    "150 ml hindistancevizi kreması (servis için)"
   ],
@@ -27,11 +27,11 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200 °C'ye ısıtın. Ekmek ağacı meyvesini yıkayıp kabuğunu çatal ile birkaç yerinden delin.",
+   "Fırını 200 °C'ye ısıtın. Ekmek ağacı meyvesini yıkayıp kabuğunu çatalla birkaç yerinden delin.",
    "Meyveyi fırın tepsisine koyun ve kabuğu kararıp et yumuşayana kadar, yaklaşık 50-60 dakika pişirin. Bir bıçakla kontrol edin.",
    "Meyve ılıyana kadar bekleyin. Kabuğunu ve sert çekirdek kısmını çıkarıp eti küçük parçalara ayırın.",
    "Sıcakken eti tahta bir havan veya patates ezici ile pürüzsüz bir hamur haline gelene kadar ezin. Tuzu ekleyip iyice karıştırın.",
-   "Bananın yapraklarını kısa bir süre ateşte ya da sıcak suda hafifçe yumuşatıp kurulayın. Bir kasenin içine yapraklardan birini yerleştirin, hamuru bastırarak doldurun ve yaprakların kenarlarını üstüne katlayın. Üzerini ikinci yaprakla kapatın.",
+   "Muz yapraklarını kısa bir süre ateşte ya da sıcak suda hafifçe yumuşatıp kurulayın. Bir kasenin içine yapraklardan birini yerleştirin, hamuru bastırarak doldurun ve yaprakların kenarlarını üstüne katlayın. Üzerini ikinci yaprakla kapatın.",
    "Paketi oda sıcaklığında, doğrudan güneş ve ısı almayan bir yerde 3-5 gün fermente olması için bekletin. Her gün kontrol edin; hafif ekşi koku ve tatlar oluşmalı. Küf görürseniz paketi atın.",
    "Fermentasyon tamamlanınca paketi açın, ezmeyi karıştırıp porsiyonlara ayırın. Üzerine hindistancevizi kreması gezdirerek servis yapın. Kalan kısmı buzdolabında saklayın."
   ],
@@ -49,5 +49,14 @@
   "tr": "Geleneksel mahi, toprağa gömülü çukurlarda birkaç hafta fermente edilir; evde 3-5 gün, daha hafif bir ekşilik elde edilir.",
   "en": "Traditional mahi ferments for several weeks in pits in the ground; at home, 3-5 days gives a milder sourness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish: 'bananın yaprağı' and 'bananın yapraklarını' are grammatical but unnatural. The usual term is 'muz yaprağı'.",
+   "Turkish: 'çatal ile' is more naturally written as 'çatalla'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

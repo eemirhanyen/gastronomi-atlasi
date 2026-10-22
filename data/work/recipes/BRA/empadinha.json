@@ -59,7 +59,7 @@
    "Ocaktan alıp doğranmış zeytini ve maydanozu karıştırın. Harcı tamamen soğumaya bırakın.",
    "Soğuyan harca krem peyniri ekleyip homojen olana kadar karıştırın. Tadını kontrol edip gerekirse tuz ekleyin.",
    "Fırını 200 °C'ye ısıtın. Dinlenen hamuru ikiye bölün. Bir parçayı unlu bir yüzeyde yaklaşık 3 mm kalınlığında açın ve 12 adet 8 cm'lik daire kesin.",
-   "Hamur dairelerini 12 ggözlü mini muffin kalıbının içine bastırarak yerleştirin. Her birine bir yemek kaşığı harç doldurun.",
+   "Hamur dairelerini 12 gözlü mini muffin kalıbının içine bastırarak yerleştirin. Her birine bir yemek kaşığı harç doldurun.",
    "Kalan hamuru açıp 12 adet 5-6 cm'lik kapak kesin. Kenarlarını hafifçe bastırarak kapatın ve üst kısmına çatalla birkaç delik açın.",
    "Sürme karışımı için yumurta sarısını süt ile çırpın. Empadinhaların üzerine fırça ile ince bir kat sürün.",
    "Önceden ısıtılmış fırında 20-25 dakika, altın rengi olana kadar pişirin. Kalıpta 5 dakika bekletip ardından tel ızgaraya alın ve ılık servis yapın."
@@ -83,5 +83,13 @@
   "tr": "Hamuru soğuk tutun ve harcı tamamen soğutmadan kullanmayın; aksi halde hamur yumuşar ve kalıpta yapışır.",
   "en": "Keep the dough cold and let the filling cool completely before assembling, or the pastry will soften and stick to the tin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 has a typo: \"12 ggözlü\" should be \"12 gözlü\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

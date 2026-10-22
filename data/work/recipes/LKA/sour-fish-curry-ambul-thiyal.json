@@ -56,7 +56,7 @@
    "Zerdeçal, acı toz biber ve köri tozunu ekleyin. Ateşi düşürüp 1 dakika karıştırarak kokusunu çıkarın; yanmamasına dikkat edin.",
    "Goraka dilimlerini suyuyla birlikte tencereye ekleyin. Üzerine 250 ml su ve tuzu ekleyip kaynatın.",
    "Ateşi kısın ve sosu 5 dakika kaynatın. Tadına bakıp gerekirse tuz ekleyin.",
-   "Balık parçalarını sosun içine yerleştirin. Kapağını kapatıp 8-10 dakika, balık pişip sosu iyice emene kadar kısık ateşte bekletin.",
+   "Balık parçalarını sosun içine yerleştirin. Kapağını kapatıp 8-10 dakika, balık pişip sos hafifçe koyulaşana kadar kısık ateşte bekletin.",
    "Tencereyi sallayarak karıştırın, kaşıkla karıştırmayın; balık parçaları dağılmasın. Ocaktan alıp 10 dakika dinlendirin.",
    "Pandan yaprağını ve tarçını çıkarıp sıcak pirinçle servis edin."
   ],
@@ -77,5 +77,13 @@
   "tr": "Goraka yerine tamarind kullanacaksanız, 1 yemek kaşığı tamarind hamurunu 100 ml sıcak suda eritip aynı şekilde ekleyin; tat biraz daha yumuşak olur.",
   "en": "If goraka is unavailable, dissolve 1 tbsp tamarind paste in 100 ml hot water and add it at the same stage; the flavour will be slightly milder."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says the sauce should be absorbed completely ('sosu iyice emene kadar'), but the English step says it should thicken slightly. The Turkish wording is changed to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

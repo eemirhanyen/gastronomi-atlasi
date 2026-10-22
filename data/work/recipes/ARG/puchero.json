@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "500 g kemikli dana bonfile veya dana incik, parçalanmış",
+   "500 g kemikli dana incik, parçalanmış",
    "250 g taze Arjantin usulü domuz sosisi (chorizo)",
    "2000 ml soğuk su",
    "1 soğan, soyulup dörde bölünmüş",
@@ -29,7 +29,8 @@
    "1 defne yaprağı",
    "4 tane karabiber",
    "10 g iri tuz",
-   "Taze maydanoz, doğranmış (servis için)"
+   "Taze maydanoz, doğranmış (servis için)",
+   "Hardal (servis için)"
   ],
   "en": [
    "500 g bone-in beef shank, cut into pieces",
@@ -48,7 +49,8 @@
    "1 bay leaf",
    "4 black peppercorns",
    "10 g coarse salt",
-   "Fresh parsley, chopped, for serving"
+   "Fresh parsley, chopped, for serving",
+   "Mustard, for serving"
   ]
  },
  "steps": {
@@ -57,7 +59,7 @@
    "Karanfilli soğanı, sarımsakları, defne yaprağını, karabiberi ve iri tuzu ekleyin. Kapağı yarım açık bırakarak kısık ateşte yaklaşık 60 dakika pişirin.",
    "Havuç, kereviz ve pırasaları ekleyin. Sosisleri birkaç yerinden çatalla delip tencereye yerleştirin ve 20 dakika daha pişirin.",
    "Patates, balkabağı ve mısırı ekleyin. Sebzeler yumuşayana kadar yaklaşık 20 dakika kaynatın.",
-   "Lahanayı en sonda ekleyip 10 dakika pişirin. Sosisleri çıkarıp dilimleyin; diğer malzemeleri de süzgeçle ayırın.",
+   "Lahanayı en sonda ekleyip 10 dakika pişirin. Sosisleri çıkarıp dilimleyin; et, sebzeleri ve diğer malzemeleri süzgeçle ayırın.",
    "Suyu sıcak kase çorbası olarak önce servis edin. Ardından et, sebzeler ve dilimlenmiş sosisi tabakta sunun, üzerine maydanoz serpin. Yanında iri tuz ve hardal ile servis yapın."
   ],
   "en": [
@@ -65,7 +67,7 @@
    "Add the clove-studded onion, garlic, bay leaf, peppercorns and coarse salt. Simmer gently, partly covered, for about 60 minutes.",
    "Add the carrots, celery and leeks. Prick the sausages in a few places with a fork, place them in the pot and simmer for 20 more minutes.",
    "Add the potatoes, pumpkin and corn. Keep simmering for about 20 minutes, until the vegetables are tender.",
-   "Add the cabbage wedges last and cook for 10 minutes. Remove the sausages and slice them. Lift out the remaining vegetables and meat with a slotted spoon.",
+   "Add the cabbage wedges last and cook for 10 minutes. Remove the sausages and slice them. Lift out the beef, remaining vegetables and other ingredients with a slotted spoon.",
    "Serve the hot broth first in bowls. Then arrange the meat, vegetables and sliced sausage on a platter, sprinkle with chopped parsley, and serve with coarse salt and mustard on the side."
   ]
  },
@@ -73,5 +75,14 @@
   "tr": "Suyu sürekli hafif kaynar tutun, asla şiddetli kaynatmayın; aksi halde et sertleşir ve çorba bulanık olur.",
   "en": "Keep the pot at a gentle simmer, never a hard boil, so the meat stays tender and the broth stays clear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish beef cut is inconsistent: 'kemikli dana bonfile veya dana incik' calls for bone-in tenderloin, which is wrong for a long simmer and doesn't match the English 'bone-in beef shank'.",
+   "Mustard ('hardal') is used in the final serving step in both languages but is missing from the ingredient lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

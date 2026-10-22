@@ -5,7 +5,7 @@
  },
  "native": "Shuco",
  "desc": {
-  "tr": "Guatemala'da kaldırım kenarındaki arabalarda satılan, sosisli sandviç ile lahana salatası, domates, soğan ve ketçap-hardal soslarının bir araya geldiği yaygın bir sokak yemeğidir. Özellikle şehirlerde akşamları ve öğleden sonraları tercih edilir.",
+  "tr": "Guatemala'da kaldırım kenarındaki arabalarda satılan, sosisli sandviç ile lahana salatası, domates, soğan ve ketçap, hardal ve mayonez soslarının bir araya geldiği yaygın bir sokak yemeğidir. Özellikle şehirlerde akşamları ve öğleden sonraları tercih edilir.",
   "en": "A popular street food sold from carts across Guatemala, especially in cities such as Guatemala City and Quetzaltenango. A hot sausage in a soft bun is layered with cabbage slaw, tomato, onion and a mix of ketchup, mustard and mayonnaise. It is most often eaten in the afternoon and evening."
  },
  "servings": 4,
@@ -44,7 +44,7 @@
  "steps": {
   "tr": [
    "Lahanayı bir kaseye alın, limon suyu ve tuzla iyice karıştırın. Ara sıra karıştırarak 10 dakika dinlendirin, böylece lahana yumuşasın.",
-   "Lahana dinlenirken domatesi ve soğanı küp küp doğrayın. Domatesin suyunu fazla ise hafifçe süzün.",
+   "Lahana dinlenirken domatesi ve soğanı küp küp doğrayın. Domatesin suyu fazla ise hafifçe süzün.",
    "Geniş bir tavada yağı orta ateşte ısıtın. Sosisleri ekleyin ve her tarafı kızarana kadar, toplam yaklaşık 6-8 dakika çevirerek pişirin.",
    "Ekmekleri hafifçe ısıtın veya tavanın kenarında kısa süre ısıtarak yumuşatın.",
    "Her ekmeğin içine mayonez sürün. Sıcak sosisi yerleştirin.",
@@ -65,5 +65,13 @@
   "tr": "Lahanayı limon ve tuzla önceden yumuşatmak hem tadını dengeler hem de ekmeğin çabuk ıslanmasını önler. Sandviçi, servis etmeden hemen önce hazırlayın.",
   "en": "Softening the cabbage in lime and salt first balances its flavour and keeps the bun from getting soggy. Assemble the sandwiches just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description lists only ketchup and mustard (\"ketçap-hardal soslarının\"), while the English description and the recipe steps also include mayonnaise."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

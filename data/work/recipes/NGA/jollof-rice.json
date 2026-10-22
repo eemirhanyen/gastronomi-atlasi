@@ -9,7 +9,7 @@
   "en": "A spiced, tomato-and-pepper rice dish from West Africa. In Nigeria it is a staple at weddings, birthdays and weekend family meals, often served with fried plantain and grilled chicken."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Sos iyice koyulaşmadan pirinci eklemeyin; yoksa pilav yapışkan ve sulu olur. Geleneksel 'duman' lezzeti için son aşamada tencerenin dibini 3-4 dakika hafif ateşte bırakabilirsiniz.",
   "en": "Do not add the rice until the sauce has properly thickened, or the rice will turn soggy. For the traditional smoky flavour, let the bottom of the pot catch lightly on low heat for 3-4 minutes at the end."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low for the listed steps: about 5-10 min of prep, 10 min blending/frying, 20-25 min simmering the sauce, 2 min for spices, 25-30 min covered cooking and 10 min resting comes to ro"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

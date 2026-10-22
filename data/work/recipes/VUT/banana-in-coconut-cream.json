@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Muzları soyun ve yaklaşık 5 cm'lik parçalara ayırın. Uzun muzları ikiye bölebilirsiniz.",
+   "Muzları soyun ve yaklaşık 5 cm'lik parçalara ayırın. Uzun muzları boyuna ikiye bölebilirsiniz.",
    "Geniş bir tencereye hindistancevizi sütü, esmer şeker, tuz ve zencefil dilimlerini koyun.",
    "Orta ateşte, sürekli karıştırarak şeker eriyene kadar yaklaşık 3 dakika ısıtın. Kaynatmayın.",
    "Muz parçalarını yavaşça sıvıya ekleyin ve kısık ateşte yaklaşık 15 dakika pişirin. Arada kaşıkla sosu muzların üzerine gezdirin.",
@@ -48,8 +48,17 @@
   ]
  },
  "tip": {
-  "tr": "Muzların ezilmemesi için karıştırmayı az tutun; kremanın kaynamaması daha pürüzsüz bir sos verir.",
+  "tr": "Doğal bir tatlılık için çok olgun muz kullanın. Muzların şeklini korumaları ve kremanın pürüzsüz kalması için sert kaynatmaktan kaçının; karıştırmayı az tutun.",
   "en": "Use very ripe bananas for natural sweetness, and avoid a hard boil so the coconut cream stays smooth and the bananas hold their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the English point about using very ripe bananas for natural sweetness and keeping the bananas' shape.",
+   "Turkish step 1 does not specify halving the longer bananas lengthwise, as the English step does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

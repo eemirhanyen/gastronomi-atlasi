@@ -18,6 +18,7 @@
    "60 g esmer şeker",
    "1 tutam tuz (yaklaşık 1 g)",
    "10 g mısır nişastası",
+   "30 ml soğuk su",
    "4 adet olgun ama sert muz (toplam yaklaşık 600 g)",
    "30 g rendelenmiş taze hindistan cevizi"
   ],
@@ -27,6 +28,7 @@
    "60 g brown sugar",
    "1 pinch salt (about 1 g)",
    "10 g cornstarch",
+   "30 ml cold water",
    "4 ripe but firm bananas (about 600 g total)",
    "30 g freshly grated coconut"
   ]
@@ -55,5 +57,13 @@
   "tr": "Muzların çok olgun olmasına dikkat edin ama sert kalmasını sağlayın; aşırı yumuşak muzlar pişerken dağılır.",
   "en": "Use bananas that are ripe for sweetness but still firm, since overripe fruit will break apart in the hot cream."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The cornstarch step uses 30 ml cold water, but the water is not listed in the ingredients (Turkish or English)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

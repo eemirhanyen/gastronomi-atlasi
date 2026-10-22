@@ -9,12 +9,12 @@
   "en": "A tender chicken stew cooked with tomato, onion and green pepper, served in homes across Zimbabwe for everyday meals and family gatherings. It is traditionally eaten with sadza, a stiff maize porridge."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "1 kg kemikli tavuk parçası (derisi alınmış)",
-   "1 çorba kaşığı (15 ml) tuz, tadına göre",
+   "1 çay kaşığı (5 g) tuz, tadına göre",
    "1 çay kaşığı (3 g) karabiber",
    "3 yemek kaşığı (45 ml) bitkisel yağ",
    "2 büyük soğan (yaklaşık 300 g), ince doğranmış",
@@ -31,7 +31,7 @@
   ],
   "en": [
    "1 kg bone-in chicken pieces (skin removed)",
-   "1 tbsp (15 g) salt, to taste",
+   "1 tsp (5 g) salt, to taste",
    "1 tsp (3 g) black pepper",
    "3 tbsp (45 ml) cooking oil",
    "2 large onions (about 300 g), finely chopped",
@@ -49,7 +49,7 @@
  },
  "steps": {
   "tr": [
-   "Tavukparçalarını tuz ve karabiberle iyice tatlandırın.",
+   "Tavuk parçalarını tuz ve karabiberle iyice tatlandırın.",
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Tavuk parçalarını partiler halinde her iki tarafı da altın rengi olana kadar yaklaşık 6-8 dakika kızartın, sonra bir tabağa alın.",
    "Aynı tencerede soğanları yaklaşık 6-8 dakika, yumuşayıp hafif altın rengi alana kadar soteleyin.",
    "Sarımsak ve zencefili ekleyip 1 dakika daha karıştırın.",
@@ -74,8 +74,20 @@
   ]
  },
  "tip": {
-  "tr": "Sosun daha kıvamlı olması için tavukları pişirmeden önce çok az su ile kızartıp suyunu çekmesine izin verin; sadza ile birlikte, sosu ekmeğe benzer şekilde kullanarak yiyin.",
+  "tr": "Daha kıvamlı bir sos için sıvı eklemeden önce tavukların iyice kızarmasını sağlayın ve sonunda kapağı açık pişirerek sosu koyulaştırın; geleneksel olarak sos, sadza ile elde sıyırılarak yenir.",
   "en": "For a richer sauce, let the chicken brown well before adding liquid, and simmer uncovered at the end; traditionally the sauce is scooped up with sadza by hand."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity (15 g, 1 tbsp) is far too high for 1 kg chicken serving 4, and the stock cube adds more salt.",
+   "Turkish tip contradicts the English tip: it describes frying with a little water and letting it evaporate, which the English version does not say.",
+   "Turkish tip wording is unnatural (\"sosu ekmeğe benzer şekilde kullanarak\").",
+   "Turkish step 1 has a typo (\"Tavukparçalarını\").",
+   "Total time of 60 min is too short for the listed steps (browning in batches, 35-40 min simmer, final reduction, and prep)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

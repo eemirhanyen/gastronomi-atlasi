@@ -9,7 +9,7 @@
   "en": "Gersh is a warm, thick sweet porridge of cracked wheat, traditionally served in Qatar during Ramadan and Eid. It is flavoured with saffron and cardamom and finished with ghee and nuts."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Kırık buğdayı soğuk suyla 2–3 kez yıkayıp süzün, ardından 20 dakika suda bekletin.",
+   "Kırık buğdayı soğuk suyla 2–3 kez yıkayıp süzün, ardından 20 dakika suda bekletin. Bu sırada safranı 2 yemek kaşığı ılık suda bekletin.",
    "Kalın tabanlı bir tencerede 30 g sade yağı orta ateşte eritin, süzülmüş buğdayı ekleyip 3 dakika kavurun.",
    "700 ml suyu ve bir tutam tuzu ekleyip kaynatın. Ateşi kısın, kapağı yarım kapalı tutarak yaklaşık 25 dakika, sık karıştırarak pişirin.",
    "Buğday yumuşayıp suyunu çektiğinde sütü yavaş yavaş ekleyin. Kıvam kremamsı olana kadar 15 dakika daha kısık ateşte pişirin, bu sırada sık sık karıştırın.",
@@ -48,7 +48,7 @@
    "Gershi derin servis kaselerine paylaştırın. Üzerine kalan sade yağı gezdirin, kavrulmuş bademleri ve cevizleri serpip sıcak servis yapın."
   ],
   "en": [
-   "Rinse the cracked wheat in cold water 2–3 times, drain, then soak it in water for 20 minutes.",
+   "Rinse the cracked wheat in cold water 2–3 times, drain, then soak it in water for 20 minutes. While it soaks, steep the saffron in 2 tbsp warm water.",
    "Melt 30 g of the ghee in a heavy-based pot over medium heat, add the drained wheat and toast for 3 minutes.",
    "Add the 700 ml water and a pinch of salt and bring to the boil. Reduce the heat and simmer, partly covered, for about 25 minutes, stirring often.",
    "When the wheat has softened and absorbed most of the water, gradually stir in the milk. Simmer gently for another 15 minutes, stirring frequently, until creamy.",
@@ -61,5 +61,14 @@
   "tr": "Kıvamı ayarlamak için pişirme sırasında gerekirse biraz daha süt ekleyin; soğuyunca koyulaşacağı için biraz daha akıcı tutun.",
   "en": "Add a little extra milk during cooking if needed; the porridge thickens as it cools, so keep it slightly looser than you want to serve."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Saffron is listed as soaked in warm water and used in step 5 ('safranlı suyu'), but no step tells the cook to soak it (Turkish and English both).",
+   "time_min is 60, but the steps total about 20 min soaking plus about 48 min cooking, so roughly 70 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -40,8 +40,8 @@
  "steps": {
   "tr": [
    "Büyük bir tencerede 4 litre suyu kaynatın ve bolca tuz ekleyin.",
-   "Fesleğen yapraklarını, çam fıstıklarını, sarımsağı ve bir tutam iri tuzu bir havanda ezerek macun kıvamına getirin.",
-   "Havanda ezerken fesleğen yapraklarını ve sarımsağı ezin, sonra çam fıstıklarını ekleyip iyice ezin.",
+   "Fesleğen yapraklarını, sarımsağı ve bir tutam iri tuzu bir havanda ezerek kaba bir macun elde edin.",
+   "Çam fıstıklarını ekleyip macuna karışana kadar iyice ezin.",
    "Parmigiano Reggiano ve Pecorino peynirlerini ekleyip karıştırın, ardından zeytinyağını yavaş yavaş ilave ederek pürüzsüz bir pesto elde edin. Dilerseniz bu işlemi mutfak robotunda da yapabilirsiniz.",
    "Kaynayan suya patates küplerini ekleyip 4 dakika pişirin.",
    "Fasulyeleri ekleyip 3 dakika daha pişirin.",
@@ -67,5 +67,13 @@
   "tr": "Pestoyu sıcak makarnaya eklemeden önce kaseyi ısıtmak, fesleğenin kararmasını önler ve sosun daha iyi yapışmasını sağlar.",
   "en": "Warm the serving bowl before adding the pasta; this keeps the basil bright and helps the pesto cling to the pasta."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish steps 2 and 3 disagree with the English: Turkish step 2 pounds the pine nuts together with the basil, garlic and salt, while English step 2 omits them and step 3 adds them afterward. Turkish s"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

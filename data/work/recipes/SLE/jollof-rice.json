@@ -9,7 +9,7 @@
   "en": "A spiced tomato and pepper rice dish served in Sierra Leone at weddings, family gatherings and weekend lunches. It is usually eaten with fried chicken and a side of salad."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Pilavın altının yanmasını önlemek için kalın tabanlı bir tencere kullanın ve pişirme sırasında kapağı açmayın; altında hafif bir çıtır tabaka oluşursa (Sierra Leone'da 'kanka' denir) bu geleneksel olarak en çok sevilen kısımdır.",
   "en": "Use a heavy-based pot and keep the lid on during the final cooking so the steam does the work. A lightly crisped layer on the base, called kanka in Sierra Leone, is traditionally the most prized part."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the steps: 15 min resting, 6-8 min browning, 15-20 min simmering, 20-25 min rice, and 10 min resting add up to roughly 75-90 minutes plus prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

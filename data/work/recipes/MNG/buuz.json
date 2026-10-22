@@ -9,7 +9,7 @@
   "en": "Buuz are Mongolian steamed dumplings filled with minced mutton or beef and onion. They are eaten all year but are especially prepared together by families during the Tsagaan Sar (White Month) festival."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -47,7 +47,7 @@
    "Hamuru 8-10 dakika, yumuşak ve elastik olana kadar yoğurun. Üzerini örtüp 30 dakika dinlendirin.",
    "Soğanı çok ince doğrayın veya rendeleyin. Kıymayı, soğanı, iç harç tuzunu, karabiberi ve kimyonu bir kasede iyice yoğurun.",
    "İç harcın üzerine 50 ml soğuk suyu ekleyip yoğurmaya devam edin; harç nemli ve yapışkan bir kıvam almalıdır.",
-   "Dinlenen hamuru bir kat uzun bir rulo haline getirip yaklaşık 24 eşit parçaya bölün. Her parçayı, kenarları ince ve ortası biraz kalın olacak şekilde 10 cm çapında yuvarlak açın.",
+   "Dinlenen hamuru uzun bir silindir haline getirip yaklaşık 24 eşit parçaya bölün. Her parçayı, kenarları ince ve ortası biraz kalın olacak şekilde 10 cm çapında yuvarlak açın.",
    "Her hamur yuvarlağının ortasına bir yemek kaşığı dolusu iç harç koyun. Kenarları birer kıvrım yaparak tek tek kapatın ve üstte bir çimdik halinde toplayın.",
    "Buhar tepsisinin tabanını lahana yapraklarıyla kaplayın. Buuzları aralarında boşluk kalacak şekilde yerleştirin.",
    "Su dolu tencerenin üzerine tepsiyi koyun ve kapağını kapatarak orta-yüksek ateşte yaklaşık 25 dakika buharda pişirin.",
@@ -69,5 +69,14 @@
   "tr": "İç harca soğuk suyu iyice yedirmek, pişirme sırasında etin kurumasını önler ve buuzun suyunu korur.",
   "en": "Working the cold water fully into the filling keeps the meat juicy during steaming and gives the buuz their characteristic juices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the 30-minute rest, 8-10 minutes of kneading, shaping 24 buuz and about 25 minutes of steaming add up to roughly 80-90 minutes.",
+   "Turkish step 5 'bir kat uzun bir rulo haline getirip' is unnatural; 'uzun bir silindir haline getirip' reads better and matches the English 'long log'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

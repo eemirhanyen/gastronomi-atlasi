@@ -13,14 +13,14 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "9 adet lime (yaklaşık 250 ml suyu için; 1 tanesi garnitür için ayrılacak)",
+   "10 adet lime (9 tanesinin suyu yaklaşık 250 ml; 1 tanesi garnitür için ayrılacak)",
    "80 g bal",
    "2 g ince deniz tuzu (yaklaşık yarım çay kaşığı)",
    "750 ml soğuk su (100 ml'si bal şurupu için ılık, 650 ml'si tamamlamak için)",
    "400 g buz"
   ],
   "en": [
-   "9 limes (about 250 ml juice; reserve 1 lime for garnish)",
+   "10 limes (juice from 9 about 250 ml; reserve 1 lime for garnish)",
    "80 g honey",
    "2 g fine sea salt (about half a teaspoon)",
    "750 ml cold water (100 ml warm for the honey syrup, 650 ml to finish)",
@@ -29,7 +29,7 @@
  },
  "steps": {
   "tr": [
-   "Limeları oda sıcaklığında bir tezgâhta avuçla bastırarak yuvarlayın, ardından ikiye kesip sıkın. Süzgeçten geçirerek yaklaşık 250 ml lime suyu elde edin.",
+   "Garnitür için ayrılacak limeyi dışarıda tutarak 9 limeyi oda sıcaklığında bir tezgâhta avuçla bastırarak yuvarlayın, ardından ikiye kesip sıkın. Süzgeçten geçirerek yaklaşık 250 ml lime suyu elde edin.",
    "Garnitür için ayırdığınız limeyi ince dilimler halinde kesin ve kenara koyun.",
    "100 ml ılık suyu (yaklaşık 40°C) bir kaba alın, balı ekleyip tamamen eriyene kadar karıştırın.",
    "Bal şurubunu bir sürahiye aktarın. Lime suyunu ve tuzu ekleyip iyice karıştırın.",
@@ -37,7 +37,7 @@
    "Bardakları buzla doldurun, içeceği üzerine dökün ve her bardağa birer lime dilimi ekleyerek hemen servis yapın."
   ],
   "en": [
-   "Roll the limes firmly on a counter under your palm to soften them, then halve and squeeze. Strain to collect about 250 ml of lime juice.",
+   "Roll 9 of the limes (not the garnish lime) firmly on a counter under your palm to soften them, then halve and squeeze. Strain to collect about 250 ml of lime juice.",
    "Thinly slice the reserved lime for garnish and set it aside.",
    "Pour 100 ml warm water (about 40°C) into a bowl, add the honey, and stir until fully dissolved.",
    "Transfer the honey syrup to a jug. Add the lime juice and salt, and stir well.",
@@ -49,5 +49,14 @@
   "tr": "Limelerin asitliği değişkendir; önce daha az bal ekleyip tadına bakarak ayarlayın, sonra gerekirse tatlandırın.",
   "en": "Limes vary in acidity, so start with less honey, taste, and adjust before adding more."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Lime count doesn't match the juice amount: 9 limes total with 1 reserved for garnish leaves 8 to juice, which yields roughly 200-240 ml, not the stated 250 ml.",
+   "Step 1 says to halve and squeeze the limes without excluding the garnish lime, which conflicts with the ingredient note reserving one lime."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

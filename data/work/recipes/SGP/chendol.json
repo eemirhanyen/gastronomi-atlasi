@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "3 adet pandan yaprağı",
+   "4 adet pandan yaprağı",
    "500 ml su",
    "100 g pirinç unu",
    "20 g tapyoka nişastası",
@@ -25,7 +25,7 @@
    "400 g ezilmiş buz"
   ],
   "en": [
-   "3 pandan leaves",
+   "4 pandan leaves",
    "500 ml water",
    "100 g rice flour",
    "20 g tapioca starch",
@@ -39,17 +39,17 @@
  },
  "steps": {
   "tr": [
-   "Pandan yapraklarını küçük parçalara kesin, 500 ml suyla blendırda iyice çekin ve süzgeçten geçirerek yeşil pandan suyunu elde edin.",
+   "3 adet pandan yaprağını küçük parçalara kesin, 500 ml suyla blenderda iyice çekin ve süzgeçten geçirerek yeşil pandan suyunu elde edin.",
    "Pirinç unu ve tapyoka nişastasını bir kasede 100 ml pandan suyuyla pürüzsüz bir karışım olacak şekilde karıştırın.",
    "Kalan pandan suyunu ve tuzu ekleyin, karışımı orta-kısık ateşte sürekli karıştırarak yaklaşık 8-10 dakika, parlak ve koyulaşana kadar pişirin.",
    "Sıcak hamuru delikli bir chendol kalıbından veya süzgeçten buz gibi soğuk su dolu bir kaba bastırarak uzun yeşil şeritler oluşturun. Jöleleri 10 dakika soğuk suda bekletin, sonra süzüp buzdolabında soğutun.",
    "Gula melaka, 150 ml su, 1 pandan yaprağı (düğümleyerek) ve bir tutam tuzu küçük bir tencerede kısık ateşte yaklaşık 10 dakika kaynatarak koyu bir şurup elde edin. Pandan yaprağını çıkarın ve şurubu soğumaya bırakın.",
-   "Hindistan cevizi sütünü bir tutam tuzla birlikte ılık ısıda ısıtın, kaynatmadan karıştırın ve buzdolabında soğutun.",
+   "Hindistan cevizi sütünü bir tutam tuzla birlikte kısık ateşte ısıtın, kaynatmadan hafifçe karıştırın ve buzdolabında soğutun.",
    "Kırmızı fasulyeyi süzün ve servise hazır tutun.",
    "Servis için bardaklara ezilmiş buzu koyun, üzerine chendol şeritlerini ve kırmızı fasulyeyi ekleyin. Palmiye şekeri şurubunu gezdirin ve soğuk hindistan cevizi sütünü ilave ederek hemen servis yapın."
   ],
   "en": [
-   "Cut the pandan leaves into small pieces, blend them with 500 ml water until finely ground, then strain to obtain a bright green pandan water.",
+   "Cut 3 of the pandan leaves into small pieces, blend them with 500 ml water until finely ground, then strain to obtain a bright green pandan water.",
    "In a bowl, mix the rice flour and tapioca starch with 100 ml of the pandan water until completely smooth.",
    "Add the remaining pandan water and the salt, then cook over medium-low heat, stirring constantly, for about 8-10 minutes until glossy and thickened.",
    "Press the hot batter through a perforated chendol mould or colander into a bowl of ice-cold water to form long green strands. Leave the jelly in cold water for 10 minutes, then drain and chill in the fridge.",
@@ -63,5 +63,15 @@
   "tr": "Jöleleri ince ve esnek tutmak için hamuru bastırmadan önce biraz soğutun ve buz suyunda bekletmeyi atlamayın; yeşil rengi sadece pandan suyundan alın.",
   "en": "For tender strands, let the batter cool slightly before pressing it, and never skip the ice-water bath; the green colour should come from the pandan water alone."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Pandan leaf count doesn't match: the ingredient list has 3 leaves, but step 1 uses all of them for the green water and step 5 uses another leaf for the syrup.",
+   "Turkish step 1 has a typo: 'blendırda' should be 'blenderda'.",
+   "Turkish step 6 uses 'ılık ısıda' (lukewarm heat), which is unnatural; 'kısık ateşte' is the correct phrasing and matches the English 'low heat'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

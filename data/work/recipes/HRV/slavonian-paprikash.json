@@ -16,7 +16,7 @@
    "1 kg kemikli tavuk budu veya but parçası",
    "300 g soğan (yaklaşık 3 orta boy)",
    "40 g domuz yağı veya sıvı yağ",
-   "20 g tatlı kırmızı biber (2 yemek kaşığı)",
+   "20 g tatlı kırmızı biber (3 yemek kaşığı)",
    "1 tatlı kaşığı acı kırmızı biber (isteğe bağlı)",
    "150 g yeşil dolmalık biber (1 adet)",
    "200 g olgun domates (1 büyük, rendelenmiş)",
@@ -33,7 +33,7 @@
    "1 kg bone-in chicken thighs or drumsticks",
    "300 g onions (about 3 medium)",
    "40 g lard or neutral oil",
-   "20 g sweet paprika (2 tablespoons)",
+   "20 g sweet paprika (3 tablespoons)",
    "1 teaspoon hot paprika (optional)",
    "150 g green bell pepper (1 medium)",
    "200 g ripe tomato (1 large, grated)",
@@ -50,8 +50,8 @@
  "steps": {
   "tr": [
    "Soğanları ince ince doğrayın. Geniş bir tencerede domuz yağını orta ateşte eritin, soğanları ekleyip ara sıra karıştırarak 15 dakika kadar altın rengi alana kadar yavaşça soteleyin.",
-   "Ocağı kısın ve tencereyi ateşten tamamen alın. Tatlı kırmızı biberi ve varsa acı kırmızı biberi ekleyip hızlıca karıştırın; biber yanarsa tat acılaşacağı için ateşe geri koymayın.",
-   "Tavuk parçalarını tuzlayıp karabiberle tatlandırın, tencereye ekleyin ve yüzeyleri hafifçe renk alana kadar orta ateşte 5 dakika kavurun.",
+   "Ocağı kısın ve tencereyi ateşten alın. Tatlı kırmızı biberi ve varsa acı kırmızı biberi ekleyip hızlıca karıştırın, ardından tencereyi kısık ateşe geri alın. Biber kolay yandığı için ateş yüksek olmasın; yanarsa tat acılaşır.",
+   "Tavuk parçalarını tuzlayıp karabiberle tatlandırın, tencereye ekleyin ve yüzeyleri hafifçe renk alana kadar kısık-orta ateşte 5 dakika kavurun.",
    "Doğranmış yeşil biberi, rendelenmiş domatesi, ezilmiş sarımsağı ve defne yaprağını ekleyin. Üzerine suyu veya tavuk suyunu dökün, kaynamaya bırakın.",
    "Kapağını kapatın ve kısık ateşte yaklaşık 35 dakika pişirin; tavuk yumuşayınca defne yaprağını çıkarın.",
    "Ekşi kremayı bir kâsede unla iyice pürüzsüz oluncaya kadar karıştırın. Bir kepçe sıcak sosu bu karışıma ekleyip çırpın, ardından tamamını tencereye geri dökün.",
@@ -61,8 +61,8 @@
   ],
   "en": [
    "Finely chop the onions. Melt the lard in a wide pot over medium heat, add the onions and cook slowly for about 15 minutes, stirring now and then, until golden.",
-   "Lower the heat and take the pot off the stove. Stir in the sweet paprika and hot paprika if using; do not return it to the heat, as the paprika turns bitter if it burns.",
-   "Season the chicken pieces with salt and black pepper, add them to the pot and brown lightly over medium heat for about 5 minutes.",
+   "Lower the heat and take the pot off the stove. Stir in the sweet paprika and hot paprika if using, then return the pot to low heat. Paprika burns easily and turns bitter, so keep the heat low.",
+   "Season the chicken pieces with salt and black pepper, add them to the pot and brown lightly over low-medium heat for about 5 minutes.",
    "Add the chopped green pepper, grated tomato, crushed garlic and bay leaf. Pour in the water or stock and bring to a simmer.",
    "Cover and cook gently for about 35 minutes until the chicken is tender. Remove the bay leaf.",
    "In a bowl, whisk the sour cream with the flour until completely smooth. Stir in a ladle of the hot sauce, then pour the mixture back into the pot.",
@@ -75,5 +75,14 @@
   "tr": "Kırmızı biberi her zaman ocaktan alarak ekleyin; ayrıca ekşi kremayı sosa doğrudan kaynar halde dökmeyin, önce biraz sosla yumuşatın ki kesilmesin.",
   "en": "Always add the paprika off the heat, and temper the sour cream with some hot sauce before adding it so it does not curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 says never to return the pot to the heat after adding paprika, but steps 3 and 4 require browning the chicken and simmering on the stove. The instructions contradict each other in both language",
+   "Sweet paprika is listed as 20 g but labeled '2 yemek kaşığı'. Two tablespoons weigh about 12 g, so the label and the weight don't match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

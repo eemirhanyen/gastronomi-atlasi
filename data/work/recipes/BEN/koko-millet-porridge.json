@@ -14,7 +14,8 @@
  "ingredients": {
   "tr": [
    "300 g ince darı unu",
-   "1,2 L soğuk su (fermentasyon için 1 L, pişirme için ayrıca 1 L kaynar su)",
+   "1 L soğuk su (fermentasyon için)",
+   "1 L su (pişirme için)",
    "20 g taze zencefil, rendelenmiş",
    "2 g kurutulmuş acı biber tozu",
    "80 g toz şeker",
@@ -23,7 +24,8 @@
   ],
   "en": [
    "300 g fine millet flour",
-   "1.2 L cold water (1 L for fermenting, plus 1 L boiling water for cooking)",
+   "1 L cold water (for fermenting)",
+   "1 L water (for cooking)",
    "20 g fresh ginger, grated",
    "2 g dried red chili powder",
    "80 g caster sugar",
@@ -33,7 +35,7 @@
  },
  "steps": {
   "tr": [
-   "Bir gün önceden darıununu 1 L soğuk suyla geniş bir kapta karıştırın, üzerini örtün ve oda sıcaklığında 24 saat fermente olmaya bırakın. Yüzeyde kabarcıklar oluşmalı ve hafif ekşi bir koku gelmelidir.",
+   "Bir gün önceden darı unu 1 L soğuk suyla geniş bir kapta karıştırın, üzerini örtün ve oda sıcaklığında 24 saat fermente olmaya bırakın. Yüzeyde kabarcıklar oluşmalı ve hafif ekşi bir koku gelmelidir.",
    "Fermente karışımı ince bir bezden süzerek bir tencereye alın. Yaklaşık 1 saat dinlendirin, ardından üstteki berrak suyu dökün ve dibinde toplanan koyu beyaz tortuyu saklayın.",
    "Zencefili rendeleyin. Ayrı bir tencerede 1 L suyu kaynatın, rendelenmiş zencefil ve acı biber tozunu ekleyip 5 dakika kaynatın.",
    "Tortuyu 250 ml soğuk suyla pürüzsüz, akıcı bir kıvama gelene kadar karıştırın.",
@@ -55,5 +57,14 @@
   "tr": "Fermentasyon süresi lapanın ekşiliğini belirler; sıcak havada 12 saate kadar kısaltabilir, serin mutfakta ise biraz uzatabilirsiniz.",
   "en": "Fermentation time sets the sourness: in a hot kitchen 12 hours may be enough, while a cool kitchen may need a little longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient water quantities contradict each other: '1,2 L cold water' is listed, but the description says 1 L for fermenting plus 1 L boiling water (and 250 ml separately). The total should not be 1.2",
+   "The 1 L cooking water is described as 'kaynar' (boiling) in the ingredient line, but step 3 says to bring it to the boil, so it should be listed as plain water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

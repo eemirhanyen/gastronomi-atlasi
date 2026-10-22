@@ -43,7 +43,7 @@
    "Hamuru temiz bir yüzeyde yaklaşık 8 dakika, pürüzsüz ve elastik olana kadar yoğurun.",
    "Hamuru üzerini örtüp sıcak bir yerde yaklaşık 60 dakika, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
    "Mayalanan hamuru hafifçe bastırıp gazını alın. Elinizle yaklaşık 30 g'lık parçalara ayırıp her birini yuvarlak toplar haline getirin.",
-   "Derin bir tencerede kızartma yağını 170°C'ye kadar ısıtın. Yağ yoksa bir parça hamur atıp yüzeye çıkıp kabarmasını bekleyin.",
+   "Derin bir tencerede kızartma yağını 170°C'ye kadar ısıtın. Termometreniz yoksa bir parça hamur atın; yüzeye çıkıp cızırdayarak kabarmalıdır.",
    "Hamur toplarını partiler halinde yağa atın ve tencereyi kalabalık yapmadan 3-4 dakika, altın rengi olana kadar kızartın. Ara sıra çevirin.",
    "Kızarmış bofrotları kağıt havlu serili bir tabağa alıp fazla yağlarını çekmesini sağlayın.",
    "Ilık veya sıcak servis yapın. Servis öncesi pudra şekerini üzerlerine eleyerek serpin."
@@ -65,5 +65,13 @@
   "tr": "Hamur topları yağa atıldığında hemen kabarıp yüzeye çıkmalıdır; yağ çok sıcaksa dış kısmı yanarken içi çiğ kalabilir, düşük ısıda ise yağ emer. Hamur toplarını nemli bir bezle örterek kuruyup çatlamalarını önleyin.",
   "en": "The dough balls should rise and float quickly when they hit the oil. If the oil is too hot, the outside will burn before the inside cooks; if too cool, the bofrot will absorb excess oil. Cover the shaped balls with a damp cloth so they do not dry out and crack."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"Yağ yoksa\" (\"if there is no oil\"), but the English says \"If you have no thermometer\". The Turkish should say \"Termometreniz yoksa\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

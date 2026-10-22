@@ -9,13 +9,13 @@
   "en": "A refreshing, lightly sweet drink of freshly pressed sugarcane juice, sold by street vendors and at markets across Cuba, especially on hot days. It is served ice-cold and is most common in Havana and in towns near the sugarcane fields."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 45,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "2 kg şeker kamışı (kabuğu soyulmuş, 10 cm parçalar halinde)",
    "500 ml soğuk su",
-   "1 adet limonun suyu (yaklaşık 30 ml)",
+   "1 limonun suyu (yaklaşık 30 ml)",
    "200 g buz",
    "4 dal taze nane (süsleme için)"
   ],
@@ -49,5 +49,14 @@
   "tr": "Kamış suyu hızla oksitlenip koyulaşabileceği için en iyi sonuç, sıkıldıktan hemen sonra içildiğinde alınır.",
   "en": "Sugarcane juice darkens and loses flavour quickly, so drink it as soon as it is pressed for the best results."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min of 20 is unrealistic: peeling about 2 kg of cane with a knife, cutting it, and blending and straining in batches takes longer.",
+   "Turkish ingredient line '1 adet limonun suyu' is unnatural; '1 limonun suyu' reads better."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

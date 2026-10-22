@@ -9,7 +9,7 @@
   "en": "A classic Czech sweet yeast bun, usually filled with plum butter (povidla) and served warm, dusted with powdered sugar. They are eaten at Sunday breakfasts, family gatherings and through the winter, often with milk or coffee."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Çörekleri birbirine değecek kadar yakın dizin; pişerken yan yana durarak birbirlerine destek olur, yan yüzleri yumuşak ve nemli kalır.",
   "en": "Arrange the buns so they just touch in the tin; as they bake they support one another, keeping the sides soft and moist."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (120) is too low: the steps add up to about 145 minutes (10 min yeast, ~10 min kneading, ~60 min first rise, 30-40 min second rise, 20-25 min baking)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -40,9 +40,9 @@
    "Öğütülmüş karışımı 400 ml suyla bir tencereye alın, kısık ateşte 15 dakika, sürekli karıştırarak koyulaşana kadar pişirin.",
    "Sosu ocaktan alın; kalan 100 g şekeri, tarçını, portakal çiçeği suyunu ve 30 g tereyağını ekleyip iyice karıştırın. Sıcak tutun.",
    "Ayrı bir tencerede 400 ml suyu tuzla kaynatın. Ateşi kısın ve irmiği azar azar ekleyerek sürekli karıştırın.",
-   "Kalan 50 g tereyağını ekleyip 8-10 dakika, asida kıvamına gelene kadar pişirmeye devam edin. Gerekirse kalan suyu azar azar ekleyin.",
+   "Kalan 40 g tereyağını ekleyip 8-10 dakika, asida kıvamına gelene kadar pişirmeye devam edin. Gerekirse biraz sıcak su ekleyin.",
    "Asidayı servis kaplarına alın, ortasını bir kaşıkla çukur açın ve zgougou sosunu bu çukura dökün.",
-   "Kalan erimiş tereyağını üzerine gezdirerek sıcak servis yapın."
+   "Kalan 10 g erimiş tereyağını üzerine gezdirerek sıcak servis yapın."
   ],
   "en": [
    "Toast the zgougou seeds in a dry pan over medium heat for 3-4 minutes until fragrant, then leave to cool.",
@@ -50,14 +50,24 @@
    "Combine the ground mixture with 400 ml of the water in a saucepan and cook on low heat for about 15 minutes, stirring constantly, until thickened.",
    "Remove from the heat and stir in the remaining 100 g sugar, the cinnamon, orange blossom water and 30 g of the butter. Keep warm.",
    "In another saucepan, bring the remaining 400 ml water with the salt to a boil. Lower the heat and whisk in the semolina gradually, stirring constantly.",
-   "Add 50 g of the butter and cook for 8-10 minutes, stirring, until the mixture forms a smooth, thick porridge. Add a little more water if needed.",
+   "Add 40 g of the butter and cook for 8-10 minutes, stirring, until the mixture forms a smooth, thick porridge. Add a little hot water if needed.",
    "Spoon the assida into serving bowls, make a well in the centre and pour the zgougou sauce into it.",
-   "Drizzle the remaining melted butter over the top and serve warm."
+   "Drizzle the remaining 10 g melted butter over the top and serve warm."
   ]
  },
  "tip": {
   "tr": "Zgougou tohumu bulunamazsa, aynı miktarda kavrulmuş çam fıstığıyla yapılabilir; tat farklı olsa da kıvam ve aroma geleneksel tadı yakalar.",
   "en": "If zgougou seeds are hard to find, use the same amount of lightly toasted pine nuts; the flavour will differ slightly, but the texture and warm spice notes stay close to the traditional version."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter is over-allocated: 30 g for the sauce plus 50 g for the semolina uses all 80 g, leaving none for the final drizzle step ('remaining melted butter').",
+   "Step 6 asks to add 'a little more water if needed', but all 800 ml of water is already used, so this is an unlisted extra quantity.",
+   "The same butter and water corrections apply to both the Turkish and English versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

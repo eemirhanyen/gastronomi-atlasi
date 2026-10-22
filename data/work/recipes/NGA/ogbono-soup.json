@@ -9,7 +9,7 @@
   "en": "A thick, draw-style soup from southern and southeastern Nigeria, thickened with ground ogbono (wild mango seed) and enriched with palm oil, crayfish and smoked fish. It is usually served at lunch or dinner with fufu, eba or pounded yam."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -41,7 +41,7 @@
  },
  "steps": {
   "tr": [
-   "Dana etini 1 L suyla birlikte büyük bir tencereye alın. Soğanın yarısını, suyu ve tuzu ekleyin ve et yumuşayana kadar yaklaşık 35 dakika kaynatın.",
+   "Dana etini 1 L suyla birlikte büyük bir tencereye alın. Soğanın yarısını, suyu ve tuzu ekleyin ve et yumuşayana kadar yaklaşık 60 dakika kaynatın.",
    "Kalan yarım soğanı ve scotch bonnet biberi pürüzsüz olana kadar blenderdan geçirin.",
    "Öğütülmüş ogbonoyu 200 ml suyla bir kâsede pürüzsüz bir macun olana kadar çırpın. Topaklanmaması için yavaş yavaş su ekleyin.",
    "Ayrı bir tencerede palm yağını orta-yüksek ateşte 2-3 dakika ısıtın, rengi turuncuya dönene kadar bekleyin.",
@@ -52,7 +52,7 @@
    "Kıyılmış ıspanağı ekleyin, 2-3 dakika solana kadar pişirin ve tuzunu kontrol edip ateşten alın. Fufu ya da eba ile servis yapın."
   ],
   "en": [
-   "Put the beef in a large pot with 1 L of the water. Add half the onion, the stock cube and the salt, then boil for about 35 minutes until the meat is tender.",
+   "Put the beef in a large pot with 1 L of the water. Add half the onion, the stock cube and the salt, then boil for about 60 minutes until the meat is tender.",
    "Blend the remaining half onion with the scotch bonnet until smooth.",
    "Whisk the ground ogbono with the 200 ml of water in a bowl to a smooth paste, adding the water gradually so no lumps form.",
    "In a separate pot, heat the palm oil over medium-high heat for 2-3 minutes until it turns orange-red.",
@@ -60,12 +60,21 @@
    "Stir in the ground crayfish and cook for 1 more minute.",
    "Pour in the ogbono paste, stirring constantly. Gradually add ladles of the meat stock and the flaked smoked fish until the soup starts to thicken.",
    "Reduce the heat and simmer for 8-10 minutes, until the soup is thick enough to coat a spoon.",
-   "Add the beef, then the chopped spinach. Cook for 2-3 minutes until wilted, check the seasoning and serve hot with fufu or eba."
+   "Add the chopped spinach. Cook for 2-3 minutes until wilted, check the seasoning and serve hot with fufu or eba."
   ]
  },
  "tip": {
   "tr": "Ogbono macununu sıcak sıvıya eklemeden önce mutlaka soğuk suyla iyice pürüzsüz hale getirin; aksi halde topaklanır.",
   "en": "Whisk the ogbono into a smooth paste with cold water before it touches the hot pot, and add the stock slowly. Lumps are the most common mistake with this soup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 9 says to add the beef, but the beef is never removed from the pot in step 1 and the Turkish step 9 does not mention it, so the two versions disagree.",
+   "Beef boiled for only about 35 minutes is unlikely to be tender, which both versions claim. About 60 minutes is more realistic for 500 g of beef, so total time needs updating too."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

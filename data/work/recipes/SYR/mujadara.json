@@ -17,7 +17,7 @@
    "150 g uzun taneli pirinç",
    "500 g soğan, ince dilimlenmiş (yaklaşık 3 büyük soğan)",
    "90 ml zeytinyağı",
-   "1 litre su",
+   "750 ml su",
    "150 ml sıcak su",
    "1 tatlı kaşığı (yaklaşık 2 g) öğütülmüş kimyon",
    "1/2 tatlı kaşığı karabiber",
@@ -28,7 +28,7 @@
    "150 g long-grain rice",
    "500 g onions, thinly sliced (about 3 large onions)",
    "90 ml olive oil",
-   "1 litre water",
+   "750 ml water",
    "150 ml hot water",
    "1 teaspoon (about 2 g) ground cumin",
    "1/2 teaspoon black pepper",
@@ -38,8 +38,8 @@
  "steps": {
   "tr": [
    "Mercimeği soğuk suyla yıkayıp süzün. Pirinci ayrı bir kapta ılık suda 20 dakika bekletin, ardından süzüp durulayın.",
-   "Mercimeği 1 litre su ile birlikte bir tencereye alın. Kaynamaya bırakın, ardından kısık ateşte yaklaşık 15 dakika pişirin ve yüzeyde biriken köpüğü alın.",
-   "Bu sırada 60 ml zeytinyağını geniş bir tavada orta ateşte ısıtın. Soğanları ve 1 tatlı kaşığı tuzun yarısını ekleyip ara sıra karıştırarak 25-30 dakika, derin kahverengi ve tatlı olana kadar karamelize edin. Yaklaşık üçte birini garnitür için ayırın.",
+   "Mercimeği 750 ml su ile birlikte bir tencereye alın. Kaynamaya bırakın, ardından kısık ateşte yaklaşık 15 dakika pişirin ve yüzeyde biriken köpüğü alın.",
+   "Bu sırada 60 ml zeytinyağını geniş bir tavada orta ateşte ısıtın. Soğanları ve tuzun yarısını ekleyip ara sıra karıştırarak 25-30 dakika, derin kahverengi ve tatlı olana kadar karamelize edin. Yaklaşık üçte birini garnitür için ayırın.",
    "Süzülmüş pirinci, kalan soğanların tamamını, kimyonu, karabiberi ve kalan tuzu mercimeklerin üzerine ekleyin. Gerekirse 150 ml sıcak su ilave edip karıştırın.",
    "Tencereyi kapatıp kısık ateşte 15-20 dakika, pirinç yumuşayıp su çekilene kadar pişirin.",
    "Ocaktan alın ve kapağı kapalı halde 10 dakika dinlendirin. Çatalla hafifçe kabartın.",
@@ -47,7 +47,7 @@
   ],
   "en": [
    "Rinse the lentils in cold water and drain. Soak the rice in warm water for 20 minutes, then drain and rinse.",
-   "Put the lentils in a pot with 1 litre of water. Bring to the boil, then simmer gently for about 15 minutes, skimming off any foam from the surface.",
+   "Put the lentils in a pot with 750 ml of water. Bring to the boil, then simmer gently for about 15 minutes, skimming off any foam from the surface.",
    "Meanwhile, heat 60 ml of the olive oil in a wide pan over medium heat. Add the onions and half the salt, stirring now and then, and cook for 25-30 minutes until deep brown and sweet. Set aside about one-third for garnish.",
    "Add the drained rice, the remaining onions, the cumin, the black pepper and the rest of the salt to the lentils. Stir in up to 150 ml hot water if the mixture looks dry.",
    "Cover the pot and simmer gently for 15-20 minutes, until the rice is tender and the liquid has been absorbed.",
@@ -59,5 +59,14 @@
   "tr": "Soğanları acele etmeden, tavayı sık sık kontrol ederek karamelize edin; yanmaya başlarlarsa biraz su ekleyip kazıyın. Tatlılık ve renk bu aşamada gelişir.",
   "en": "Caramelise the onions slowly and stir often; if they start to catch, add a splash of water and scrape the pan. Their sweetness and colour develop at this stage."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says \"1 tatlı kaşığı tuzun yarısını\" (half of 1 teaspoon), which contradicts the 6 g salt total and the English \"half the salt\". It should read \"tuzun yarısını\".",
+   "The water quantity is too high for the rice and lentils. Roughly 200 g lentils absorb about 400-500 ml during cooking, and 150 g rice needs about 300 ml. With 1 litre added at the start, the dish woul"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

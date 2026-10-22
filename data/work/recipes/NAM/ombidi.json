@@ -17,8 +17,9 @@
    "1 orta boy soğan (100 g), ince doğranmış",
    "2 domates (200 g), küçük küp doğranmış",
    "30 ml bitkisel yağ",
-   "60 g yer fıstığı ezmesi (fıstık ezmesi, tuzsuz)",
+   "60 g yer fıstığı ezmesi (tuzsuz)",
    "250 ml su",
+   "100 ml ılık su",
    "1 çay kaşığı tuz (yaklaşık 5 g)",
    "1 çay kaşığı kırmızı biber (isteğe bağlı)"
   ],
@@ -29,6 +30,7 @@
    "30 ml vegetable oil",
    "60 g unsalted peanut butter",
    "250 ml water",
+   "100 ml warm water",
    "1 tsp salt (about 5 g)",
    "1 tsp chili flakes (optional)"
   ]
@@ -38,7 +40,7 @@
    "Yaprakları iyice yıkayıp sap kısımlarını ayırın, yaprakları kaba kaba doğrayın.",
    "Geniş bir tencerede yağı orta ateşte ısıtın, soğanı yumuşayıp şeffaflaşana kadar yaklaşık 5 dakika kavurun.",
    "Domatesleri ekleyin ve suyunu çekip yumuşayana kadar yaklaşık 5 dakika pişirin.",
-   "Doğranmış yaprakları ve suyu ekleyin, tuzu ve isteğe bağlı kırmızı biberi katın. Kapağını kapatıp kısık ateşte 10 dakika pişirin.",
+   "Doğranmış yaprakları ve 250 ml suyu ekleyin, tuzu ve isteğe bağlı kırmızı biberi katın. Kapağını kapatıp kısık ateşte 10 dakika pişirin.",
    "Yer fıstığı ezmesini 100 ml ılık suyla pürüzsüz olana kadar karıştırın.",
    "Fıstık karışımını tencereye yavaşça dökün, sürekli karıştırarak 5 dakika daha kısık ateşte pişirin.",
    "Tadına bakıp gerekirse tuz ekleyin ve sıcak servis edin."
@@ -57,5 +59,13 @@
   "tr": "Fıstık ezmesini sıcak tencereye doğrudan dökmek yerine önce ılık suyla inceltin; bu, topaklanmayı önler ve sosu pürüzsüz tutar.",
   "en": "Thin the peanut butter with warm water before adding it to the pot; this prevents lumps and keeps the sauce smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 uses 100 ml warm water for the peanut butter, but the ingredient list only includes 250 ml water. The EN and TR ingredient lists both need the extra 100 ml."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

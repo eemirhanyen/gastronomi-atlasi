@@ -9,12 +9,12 @@
   "en": "A traditional Malian dessert from Bamako and surrounding regions, served cold in the hot season and at festive meals, made by combining cooked millet with sweetened yogurt and milk."
  },
  "servings": 4,
- "time_min": 80,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "200 g darı, yıkanmış ve süzülmüş",
-   "500 ml su",
+   "600 ml su",
    "1 tutam tuz",
    "750 g sade yoğurt",
    "150 ml taze süt",
@@ -23,7 +23,7 @@
   ],
   "en": [
    "200 g millet, rinsed and drained",
-   "500 ml water",
+   "600 ml water",
    "1 pinch salt",
    "750 g plain yogurt",
    "150 ml fresh whole milk",
@@ -34,8 +34,8 @@
  "steps": {
   "tr": [
    "Darıyı soğuk suda birkaç kez durulayın, iyice süzün.",
-   "Orta boy bir tencerede 500 ml suyu tuzla birlikte kaynatın.",
-   "Darıyı kaynayan suya ekleyin, ocağı kısın ve kapağı kapalı olarak 20-25 dakika, darılar yumuşayıp suyunu çekene kadar pişirin.",
+   "Orta boy bir tencerede 600 ml suyu tuzla birlikte kaynatın.",
+   "Darıyı kaynayan suya ekleyin, ocağı kısın ve kapağı kapalı olarak 25-30 dakika, dane yumuşayıp suyunu çekene kadar pişirin.",
    "Pişen darıyı geniş bir tepsiye yayın ve tamamen soğuması için oda sıcaklığında yaklaşık 20 dakika bekletin.",
    "Büyük bir kapta yoğurdu, sütü, toz şekeri ve vanilya özünü pürüzsüz olana kadar çırpın.",
    "Soğuyan darıyı yoğurt karışımına ekleyip spatula yardımıyla nazikçe karıştırın.",
@@ -44,8 +44,8 @@
   ],
   "en": [
    "Rinse the millet under cold water several times, then drain it well.",
-   "In a medium saucepan, bring the 500 ml water to a boil with the salt.",
-   "Add the millet to the boiling water, reduce the heat to low, cover, and cook for 20-25 minutes until the grains are tender and have absorbed the water.",
+   "In a medium saucepan, bring the 600 ml water to a boil with the salt.",
+   "Add the millet to the boiling water, reduce the heat to low, cover, and cook for 25-30 minutes until the grains are tender and have absorbed the water.",
    "Spread the cooked millet on a wide tray and let it cool at room temperature for about 20 minutes.",
    "In a large bowl, whisk the yogurt, milk, caster sugar and vanilla extract until smooth.",
    "Fold the cooled millet into the yogurt mixture gently with a spatula.",
@@ -57,5 +57,16 @@
   "tr": "Darıyı pişirmeden önce iyice durulamak, tatlının acımsı tat almasını önler; kıvamı ayarlamak için servisten önce birkaç kaşık süt ekleyebilirsiniz.",
   "en": "Rinsing the millet well prevents any bitter taste; if the mixture seems too thick, stir in a few spoonfuls of milk just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (80) is shorter than the steps require: about 25-30 min cooking, 20 min cooling and at least 60 min chilling, so roughly 110-120 min in total",
+   "200 g millet in 500 ml water (about 1:2.5) is a little low for millet, and the 20-25 min cook time risks firm or dry grains; increased to 600 ml water and 25-30 min",
+   "Turkish step 3 uses 'darılar' (millet grains), which is unnatural; changed to 'dane' wording",
+   "English and Turkish steps and ingredient amounts were updated together to keep them consistent"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

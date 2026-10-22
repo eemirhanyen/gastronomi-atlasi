@@ -14,13 +14,14 @@
  "ingredients": {
   "tr": [
    "600 g yayın balığı fileto (veya tilapia)",
-   "2 l su",
+   "1,5 l su",
    "2 saplı limon otu, ezilmiş",
    "2 büyük soğan (1 tanesi ince doğranmış, 1 tanesi ince dilinmiş)",
    "6 diş sarımsak, ezilmiş",
    "20 g taze zencefil, rendelenmiş",
    "1 tatlı kaşığı zerdeçal",
    "2 yemek kaşığı balık sosu",
+   "1 yemek kaşığı ngapi (fermente balık ezmesi)",
    "3 yemek kaşığı nohut unu",
    "1 tatlı kaşığı pul biber",
    "400 g ince pirinç eriştesi",
@@ -34,13 +35,14 @@
   ],
   "en": [
    "600 g catfish fillet (or tilapia)",
-   "2 l water",
+   "1.5 l water",
    "2 lemongrass stalks, bruised",
    "2 large onions (1 finely chopped, 1 thinly sliced)",
    "6 garlic cloves, crushed",
    "20 g fresh ginger, grated",
    "1 tsp turmeric",
    "2 tbsp fish sauce",
+   "1 tbsp ngapi (fermented fish paste)",
    "3 tbsp chickpea flour",
    "1 tsp dried chilli flakes",
    "400 g thin rice vermicelli",
@@ -58,7 +60,7 @@
    "Yayın balığını 1,5 litre suda, 1 tatlı kaşık tuzla ve ezilmiş limon otuyla kısık ateşte 20 dakika pişirin. Balığı süzgece alın, soğuduktan sonra kılçıklarından ayırıp ezin. Suyu saklayın.",
    "Tencerede 2 yemek kaşığı yağı ısıtın, ince doğranmış soğanı, sarımsağı ve zencefili altın rengi olana kadar 8 dakika kavurun.",
    "Zerdeçal, pul biber ve 3 yemek kaşığı nohut unu ekleyip 1 dakika karıştırın. Kalan balık suyunu yavaş yavaş ekleyerek topak oluşmayacak şekilde karıştırın.",
-   "Ezilmiş balığı tencereye ekleyin, balık sosunu ilave edin ve çorbayı kısık ateşte 20 dakika daha kaynatın. Gerekirse tuzunu ayarlayın.",
+   "Ezilmiş balığı tencereye ekleyin, balık sosu ve ngapiyi ilave edin ve çorbayı kısık ateşte 20 dakika daha kaynatın. Gerekirse tuzunu ayarlayın.",
    "Kızartma için nohut unu ile 60 ml suyu pürüzsüz bir hamur olacak şekilde karıştırın. İnce dilinmiş soğanı hamura bulayıp kalan yağda kenarları kızarana kadar kızartın, kağıt havluya alın.",
    "Pirinç eriştesini kaynar suda paket üzerindeki süre kadar haşlayın, süzün ve soğuk suyla durulayıp servis kaselerine paylaştırın.",
    "Erişteyi kaselere koyun, sıcak balık çorbasından üzerine dökün.",
@@ -68,7 +70,7 @@
    "Simmer the catfish in 1.5 litres of water with 1 tsp salt and the bruised lemongrass for 20 minutes. Lift out the fish, let it cool, then remove the bones and flake the flesh. Keep the stock.",
    "Heat 2 tbsp oil in a pot and fry the finely chopped onion, garlic and ginger for about 8 minutes until golden.",
    "Add the turmeric, chilli flakes and 3 tbsp chickpea flour and stir for 1 minute. Gradually whisk in the remaining fish stock, stirring to avoid lumps.",
-   "Add the flaked fish and fish sauce to the pot and simmer gently for another 20 minutes. Adjust the salt to taste.",
+   "Add the flaked fish, fish sauce and ngapi to the pot and simmer gently for another 20 minutes. Adjust the salt to taste.",
    "For the fritters, mix 80 g chickpea flour with 60 ml water into a smooth batter. Coat the thinly sliced onion in the batter and fry in the remaining oil until the edges are crisp, then drain on kitchen paper.",
    "Boil the rice vermicelli according to the packet instructions, drain and rinse under cold water. Divide among four serving bowls.",
    "Ladle the hot fish broth over the noodles in each bowl.",
@@ -79,5 +81,14 @@
   "tr": "Balığın kılçıklarını iyice ayıklayın ve çorbayı yumuşak kaynatın; böylece berrak ve dengeli bir tat elde edersiniz.",
   "en": "Remove the fish bones thoroughly and keep the broth at a gentle simmer for a clean, balanced flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity mismatch: the ingredient list says 2 l water, but the steps (TR and EN) use only 1.5 litres for the broth and no other step uses the extra 0.5 litre.",
+   "Missing characteristic ingredient: authentic mohinga is built on ngapi (fermented fish paste), which gives the broth its distinctive depth. The recipe uses only fish sauce and does not include ngapi."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A South African snack of spiced, salted and air-dried beef, with roots going back to the late 19th century. It is eaten on road trips, at sporting events and at weekend gatherings, especially in the dry interior regions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 7200,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Kurutmanın başarısı hava akışına bağlıdır. Eti tartıp kuruma sırasında kaybını takip edin; hedef yaklaşık %35 kayıptır.",
   "en": "Airflow determines success. Weigh the strips before drying and check them daily, aiming for about 35% weight loss."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, which does not reflect the process. The recipe needs at least 12 hours of marinating and 2-7 days of drying, so the total time is about 5 days. Set it to the total duration (about 7200"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

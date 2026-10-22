@@ -53,7 +53,7 @@
    "Büyük bir kapta pirinci, kıymayı, doğranmış soğan parçalarını, maydanozu, dereotunu, 15 g domates salçasını, tuzu, karabiberi ve tarçını iyice yoğurun.",
    "Soğanları ve biberleri iç harcın üçte üç oranında doldurun; pirinç şişeceği için tamamen doldurmayın ve ağızlarını açık bırakın.",
    "Ağır tabanlı bir tencerenin dibine soğanları, üzerine biberleri sıkıca yan yana dizin.",
-   "30 g domates salçasını suda eritin, limon suyu ve zeytinyağını ekleyip karıştırın, ardından tencereye dökün. Sosun yarısı kadar su kullanıyorsanız dolmaların yarısına kadar gelmesine dikkat edin.",
+   "30 g domates salçasını suda eritin, limon suyu ve zeytinyağını ekleyip karıştırın, ardından tencereye dökün.",
    "Dolmaların üzerine küçük bir tabak koyarak yerinden oynamasını önleyin.",
    "Kapağını kapatıp orta-düşük ateşte yaklaşık 45 dakika, pirinç ve et tamamen pişene kadar kaynatın.",
    "Ocaktan alıp kapağı kapalı halde 10 dakika dinlendirin, sıcak olarak servis yapın."
@@ -75,5 +75,14 @@
   "tr": "Pirincin şişmesi için yer bırakın; dolmaları fazla doldurursanız pişerken yarılabilir.",
   "en": "Leave room for the rice to swell; overfilled vegetables may split while cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 contains an extra, confusing clause about sauce volume and the vegetables reaching halfway that has no counterpart in the English version and gives no clear quantity guidance",
+   "Scooped-out onion pieces are used in the filling but are not listed as a separate ingredient; they come from the 4 onions, so this is minor but worth clarifying in the English and Turkish step text"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

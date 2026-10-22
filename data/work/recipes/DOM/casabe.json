@@ -5,8 +5,8 @@
  },
  "native": "Casabe",
  "desc": {
-  "tr": "Yuka (manyok) unundan yapılan, ince, gevrek ve kurumsu bir yassı ekmektir. Kökeni Taíno halkının mutfağına dayanır ve Dominik Cumhuriyeti'nde günün her saatinde, özellikle kahvaltıda, çorbaların yanında ya da peynir, avokado ve et ile servis edilir.",
-  "en": "A thin, crisp, dry flatbread made from cassava (yuca) flour. It traces back to the Taíno people and is eaten throughout the day in the Dominican Republic, especially at breakfast, alongside soups, or topped with cheese, avocado or meat."
+  "tr": "Rendelenmiş yuka (manyok) lifinden yapılan, ince, gevrek ve kurumsu bir yassı ekmektir. Kökeni Taíno halkının mutfağına dayanır ve Dominik Cumhuriyeti'nde günün her saatinde, özellikle kahvaltıda, çorbaların yanında ya da peynir, avokado ve et ile servis edilir.",
+  "en": "A thin, crisp, dry flatbread made from grated cassava (yuca) pulp. It traces back to the Taíno people and is eaten throughout the day in the Dominican Republic, especially at breakfast, alongside soups, or topped with cheese, avocado or meat."
  },
  "servings": 4,
  "time_min": 60,
@@ -26,8 +26,8 @@
    "Yukayı soyun, yıkayın ve ince rendeleyin. Yaklaşık 700 g rende yuka elde etmelisiniz.",
    "Rendelenmiş yukayı temiz bir mutfak bezine ya da peynir bezine koyun. Sıvısı tamamen akana kadar sıkın; bu sıvı zehirli olabileceği için lavaboya dökün. Lifler kuruyana kadar bu işlemi tekrarlayın.",
    "Sıkılmış yukayı parmaklarınızla ufalayın ve elekten geçirin. Tuzu ekleyip iyice karıştırın.",
-   "Ağır tabanlı, yağsız bir tavayı ya da komali orta ateşte 5 dakika kadar ısıtın.",
-   "Unun dörtte birini (yaklaşık 175 g) tavaya alın. Bir kaşık ya da spatula ile 25-30 cm çapında, yaklaşık 0,5 cm kalınlığında eşit bir daire oluşturun.",
+   "Ağır tabanlı, yağsız bir tavayı ya da komal'ı orta ateşte 5 dakika kadar ısıtın.",
+   "Karışımın dörtte birini (yaklaşık 175 g) tavaya alın. Bir kaşık ya da spatula ile 25-30 cm çapında, yaklaşık 0,5 cm kalınlığında eşit bir daire oluşturun.",
    "Tavayı kapatıp 5-7 dakika pişirin. Kenarlar kalkıp yüzey kuruduğunda, dikkatlice çevirin.",
    "Diğer yüzünde 4-5 dakika daha pişirin; altın sarısı lekeler oluşmalıdır.",
    "Casabeyi bir tel ızgara üzerinde soğutun. Soğurken gevreklik kazanır. Kalan hamurla aynı işlemi tekrarlayın.",
@@ -49,5 +49,15 @@
   "tr": "Yukanın suyunu iyice sıkın; kuru lifli pulpun ince ve dengeli bir casabe vermesi, yanlarda kalan nemin ise gevrekliği bozması için bu adım çok önemlidir.",
   "en": "Press the cassava very thoroughly. Dry pulp gives a thin, even casabe, while leftover moisture makes it soft and stops it crisping."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says casabe is made from cassava 'unu' (flour), and the English says 'cassava (yuca) flour', but the method uses grated, pressed cassava pulp, not flour.",
+   "Turkish step 5 says 'Unun dörtte birini' (a quarter of the flour), but the English says 'a quarter of the mixture', and the mixture is grated cassava, not flour. The Turkish is wrong.",
+   "Turkish step 4 uses 'komali', a misspelling of the Spanish 'comal' (Turkish form 'komal')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

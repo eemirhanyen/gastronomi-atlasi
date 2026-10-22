@@ -9,7 +9,7 @@
   "en": "A soft, moist dessert from Togo made by baking finely grated fresh cassava with coconut milk, eggs and sugar. It is typically served at home and at family gatherings, often with an afternoon drink."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -19,7 +19,7 @@
    "200 ml hindistan cevizi sütü",
    "60 g eritilmiş tereyağı, ayrıca kalıp için yağ",
    "1 tatlı kaşığı vanilya özütü",
-   "1 tatlı kaşığı kabartma tozu",
+   "1 çay kaşığı kabartma tozu",
    "1 çay kaşığı tuz",
    "30 g rendelenmiş hindistan cevizi"
   ],
@@ -30,7 +30,7 @@
    "200 ml coconut milk",
    "60 g melted butter, plus extra for greasing",
    "1 tablespoon vanilla extract",
-   "1 tablespoon baking powder",
+   "1 teaspoon baking powder",
    "1 teaspoon salt",
    "30 g desiccated coconut"
   ]
@@ -63,5 +63,14 @@
   "tr": "Manyoku ne kadar ince rendelerseniz kek o kadar yumuşak ve homojen olur; kek ortada çökerse fırın sıcaklığını 10 derece düşürüp biraz daha uzun pişirin.",
   "en": "The finer you grate the cassava, the softer and more even the crumb; if the centre sinks, lower the oven by 10°C and bake a little longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Baking powder quantity is implausible: 1 tablespoon (about 12-15 g) for 500 g grated cassava and 2 eggs would leave a soapy, bitter taste. Reduced to 1 teaspoon in both languages.",
+   "Total time of 60 minutes is too short for peeling and fine-grating 500 g cassava, the 45-55 minute bake and 10 minutes of cooling. Changed to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

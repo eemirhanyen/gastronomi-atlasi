@@ -42,7 +42,7 @@
    "Büyük bir tencerede tereyağını orta ateşte eritin. Soğanı ekleyip yumuşayana ve şeffaflaşana kadar yaklaşık 5 dakika kavurun.",
    "Ezilmiş sarımsağı ekleyip 1 dakika daha karıştırın.",
    "Balkabağı ve patatesi tencereye ekleyin, 3 dakika kadar karıştırarak yağla iyice kaplanmasını sağlayın.",
-   "Sıcak suyu veya suyu ekleyin, muskatı ve bir tutam tuz katın. Kaynamaya bırakın.",
+   "Tavuk veya sebze suyunu ekleyin, muskatı ve bir tutam tuz katın. Kaynamaya bırakın.",
    "Ateşi kısın, kapağını örterek sebzeler çok yumuşak olana kadar yaklaşık 20-25 dakika pişirin.",
    "Ateşi kapatın. Blender ile pürüzsüz bir kıvam alana kadar iyice püre haline getirin.",
    "Çorbayı tencereye geri koyun, kremayı ekleyin. Kaynatmadan, ılık olacak kadar yavaşça ısıtın.",
@@ -63,5 +63,13 @@
   "tr": "Balkabağını tencerede haşlamak yerine fırında 200 °C'de 25 dakika kavurursanız çorbanın tadı çok daha derin ve tatlı olur.",
   "en": "Roasting the pumpkin at 200 °C for 25 minutes before adding it to the pot gives a deeper, sweeter flavour than simmering it raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"Sıcak suyu veya suyu ekleyin\" (add hot water or water), but the ingredient list and English step specify stock. The Turkish step should say stock."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Dominican Spanish",
  "desc": {
-  "tr": "Karamelize şekerle kaplı, hindistancevizi sütü ve cevizli yumuşak bir muhallebi tatlısıdır. Dominik Cumhuriyeti'nde özellikle bayramlarda, aile buluşmalarında ve pazar öğünlerinin sonunda servis edilir.",
+  "tr": "Karamelize şekerle kaplı, hindistancevizi sütü ve hindistancevizi rendesiyle hazırlanan yumuşak bir muhallebi tatlısıdır. Dominik Cumhuriyeti'nde özellikle bayramlarda, aile buluşmalarında ve pazar öğünlerinin sonunda servis edilir.",
   "en": "A creamy coconut custard topped with caramel and a light sprinkle of toasted coconut. It is served across the Dominican Republic at family gatherings, holidays and Sunday meals."
  },
  "servings": 4,
@@ -41,7 +41,7 @@
   "tr": [
    "Fırını 160°C'ye ısıtın.",
    "Kuru bir tavada hindistancevizini orta-düşük ateşte, sık karıştırarak 2–3 dakika, hafif altın rengi alana kadar kavurun. Ayırın.",
-   "Küçük bir tencerede şekeri ve suyu orta ateşte koyun. Karıştırmadan, tencereyi çevirerek kehribar rengi alana kadar pişirin. Karamelı 900 ml'lik yuvarlak bir kalıba dökün ve kalıbın tabanını ile kenarlarını kaplamak için kalıbı döndürün.",
+   "Küçük bir tencerede şekeri ve suyu orta ateşte koyun. Karıştırmadan, tencereyi çevirerek kehribar rengi alana kadar pişirin. Karameli 900 ml'lik yuvarlak bir kalıba dökün ve kalıbın tabanını ve kenarlarını kaplamak için kalıbı döndürün.",
    "Büyük bir kapta yumurtaları, yumurta sarısını ve tuzu çırpın. Yoğunlaştırılmış süt, evaporated süt, hindistancevizi sütü ve vanilyayı ekleyip pürüzsüz bir karışım elde edene kadar çırpın.",
    "Kavrulmuş hindistancevizinin 30 gramını karışıma ekleyin, ardından karışımı ince elekten geçirerek karamelli kalıba dökün. Kalan 10 gramı servis için ayırın.",
    "Kalıbı derin bir fırın tepsisine yerleştirin. Tepsiye kalıbın yarısına gelecek kadar sıcak su ekleyin.",
@@ -65,5 +65,14 @@
   "tr": "Muhallebinin gözenek oluşmaması için kalıbı fırına koymadan önce sütlü karışımı mutlaka elekten geçirin ve fırını düşük sıcaklıkta tutun.",
   "en": "Strain the custard before baking and keep the oven at a gentle temperature to avoid bubbles and a grainy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'cevizli' (walnut-containing), but the dish uses coconut; it should be 'hindistancevizli'.",
+   "Turkish step 3 has a typo ('Karamelı') and a grammar slip ('tabanını ile kenarlarını')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

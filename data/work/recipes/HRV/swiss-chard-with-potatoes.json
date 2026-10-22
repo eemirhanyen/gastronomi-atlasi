@@ -37,7 +37,7 @@
    "Pazının sap parçalarını ekleyip 3 dakika daha, ardından yapraklarını da ekleyin. Pazı ve patatesler yumuşayana kadar yaklaşık 10 dakika daha haşlayın.",
    "Sarımsakları ince ince doğrayın. Küçük bir tavada zeytinyağını orta ateşte ısıtın, sarımsakları ekleyip kahverengileşmeden yaklaşık 1 dakika kavurun. Ocaktan alın.",
    "Pazı ve patatesleri süzgece alıp suyunun bir kısmını ayırın. Karışımı büyük bir kaseye koyun, bir kepçe pişirme suyu ekleyin.",
-   "Patateslerin bir kısmını çatalla hafifçe ezerek karışımla birlikte yedirin. Sarımsaklı zeytinyağını üzerine dökün, karabiber ve kalan tuzu ekleyip nazikçe karıştırın.",
+   "Patateslerin bir kısmını çatalla hafifçe ezerek karışımla birlikte yedirin. Sarımsaklı zeytinyağını üzerine dökün, karabiber ekleyip gerekirse tuzu tadına göre ilave edin, nazikçe karıştırın.",
    "Sıcak ya da ılık servis edin, üzerine biraz daha zeytinyağı gezdirin."
   ],
   "en": [
@@ -47,7 +47,7 @@
    "Add the chard stem pieces and cook for 3 more minutes, then add the leaves. Boil for about 10 more minutes until the chard and potatoes are soft.",
    "Finely chop the garlic. Heat the olive oil in a small pan over medium heat, add the garlic and sauté for about 1 minute without letting it brown. Remove from the heat.",
    "Drain the chard and potatoes in a colander, reserving some of the cooking water. Transfer to a large bowl and add a ladle of the cooking water.",
-   "Lightly mash some of the potatoes with a fork and fold them into the mixture. Pour the garlic oil over it, add the black pepper and the remaining salt, and mix gently.",
+   "Lightly mash some of the potatoes with a fork and fold them into the mixture. Pour the garlic oil over it, add the black pepper and more salt to taste if needed, and mix gently.",
    "Serve warm or at room temperature, drizzled with a little more olive oil."
   ]
  },
@@ -55,5 +55,13 @@
   "tr": "Pazıyı haşladıktan sonra suyunu iyice sıkmayın; biraz pişirme suyu bırakmak hem daha yumuşak bir doku sağlar hem de zeytinyağının pazıya daha iyi yapışmasına yardımcı olur.",
   "en": "Do not squeeze the chard dry after boiling; keeping a little cooking water helps give a softer texture and lets the garlic oil coat the greens better."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (tr and en) refers to 'remaining salt' ('kalan tuz' / 'remaining salt'), but the full 1 tsp is already added to the boiling water in step 3 and no separate salt amount is listed, so the final s"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

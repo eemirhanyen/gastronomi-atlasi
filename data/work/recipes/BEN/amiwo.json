@@ -9,7 +9,7 @@
   "en": "A spicy meat stew of southern Benin and Togo, cooked with red palm oil, tomato and chili. It is commonly served at lunch or dinner with maize pâte or rice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -45,18 +45,18 @@
  },
  "steps": {
   "tr": [
-   "Sığır etini, dörde bölünmüş soğanla, tuzla, süt küpüyle değil et suyu küpüyle ve 1 litre suyla büyük bir tencereye koyun. Kısık ateşte 25-30 dakika, et yumuşayana kadar pişirin.",
+   "Sığır etini, dörde bölünmüş soğanla, tuzla, bir et veya tavuk suyu küpüyle ve 1 litre suyla büyük bir tencereye koyun. Kısık ateşte 1 ila 1,5 saat, et yumuşayana kadar pişirin.",
    "Etleri süzgeçle ayırın ve suyundan 400 ml'sini ayırıp kenara koyun. Soğanı tencereden çıkarın ve et parçalarını bir kenara alın.",
    "Domatesleri, kırmızı biberi ve acı biberi blenderdan geçirerek pürüzsüz bir karışım elde edin.",
    "Geniş bir tencerede kırmızı palmiye yağını orta ateşte ısıtın. İnce doğranmış soğanı ekleyip 5 dakika, yumuşayana kadar kavurun.",
    "Salçayı ekleyip 2 dakika kavurun, ardından blenderdan geçirdiğiniz karışımı ilave edin. Ara sıra karıştırarak, yağ yüzeye çıkana kadar yaklaşık 20 dakika kısık ateşte pişirin.",
    "Öğütülmüş kurutulmuş karidesi, pişmiş eti ve ayırdığınız 300 ml et suyunu sosa ekleyin. 10 dakika daha kaynatın, tuzunu kontrol edin.",
-   "Pâte için 100 ml soğuk suyla mısırununu pürüzsüz bir hamur haline gelene kadar karıştırın. Kalan 700 ml suyu bir tencerede kaynatın.",
+   "Pâte için 100 ml soğuk suyla mısır ununu pürüzsüz bir hamur haline gelene kadar karıştırın. Kalan 700 ml suyu bir tencerede kaynatın.",
    "Kaynayan suyun içine mısır unu karışımını yavaş yavaş dökün ve sürekli karıştırarak 10 dakika, kıvam alana kadar pişirin.",
    "Pâteyi kaselere alın, ıslak ellerle veya bir kepçeyle küçük toplar halinde şekillendirin. Amiwo'yu sıcak pâte ile servis edin."
   ],
   "en": [
-   "Put the beef, one quartered onion, the stock cube and 1 litre of water in a large pot. Simmer gently for 25-30 minutes until the meat is tender.",
+   "Put the beef, one quartered onion, the salt, the stock cube and 1 litre of water in a large pot. Simmer gently for 1 to 1.5 hours until the meat is tender.",
    "Remove the meat with a slotted spoon and set it aside. Reserve 400 ml of the cooking broth, then discard the onion.",
    "Blend the tomatoes, red bell pepper and chili until smooth.",
    "Heat the red palm oil in a wide pot over medium heat. Fry the finely chopped onion for about 5 minutes until soft.",
@@ -71,5 +71,15 @@
   "tr": "Kırmızı palmiye yağını yüksek ateşte kavurmayın; yağ acılaşabilir. Kurutulmuş karides, amiwo'ya gerçek Benin lezzetini veren en önemli katkıdır.",
   "en": "Do not overheat the red palm oil, as it can turn bitter. Dried shrimp gives amiwo its authentic Beninese flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef is simmered for only 25-30 minutes, which is far too short for 800 g of stewing beef to become tender. The cooking time needs to be about 1 to 1.5 hours, and the total time_min is raised to match",
+   "The Turkish step 1 wording 'süt küpüyle değil et suyu küpüyle' is an unnatural self-correction that refers to a milk cube that is not in the recipe. It should simply say 'et veya tavuk suyu küpüyle'.",
+   "Salt is listed in the ingredients and is used later ('adjust the salt'), but the English step 1 omits it from the initial pot, while the Turkish step 1 includes it. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

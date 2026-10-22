@@ -30,7 +30,7 @@
    "1 tatlı kaşığı öğütülmüş kişniş (yaklaşık 2 g)",
    "1/2 tatlı kaşığı zerdeçal",
    "8 g tuz",
-   "750 ml sıcak tavuk suyu veya su",
+   "850 ml sıcak tavuk suyu veya su",
    "15 g taze kişniş yaprağı",
    "1/2 limon suyu"
   ],
@@ -52,7 +52,7 @@
    "1 tsp ground coriander (about 2 g)",
    "1/2 tsp ground turmeric",
    "8 g salt",
-   "750 ml hot chicken stock or water",
+   "850 ml hot chicken stock or water",
    "15 g fresh coriander leaves",
    "1/2 lemon, juiced"
   ]
@@ -87,5 +87,13 @@
   "tr": "Pirinç tanesi dağılmadan pişmesi için pilavı servis etmeden önce mutlaka dinlendirin ve kapağını açmadan önce bekleyin; geleneksel yöntemde tencerenin dibine ince bir tabaka yanmış pirinç (tahdig benzeri) oluşması da lezzet açısından istenir.",
   "en": "Let the pilau rest covered before serving so the grains stay separate and fluffy; a thin crisp layer on the bottom of the pot is traditional and adds flavour, so do not stir it in."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Liquid total mismatch: the ingredient list gives 750 ml of stock or water, but the steps add 500 ml (step 7) plus 350 ml (step 8), which is 850 ml. Both languages are affected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g kemikli tavuk budu (veya dana kıyma yerine dana eti küpü), derisi alınmış",
+   "600 g kemikli tavuk budu veya but parçası, derisi alınmış",
    "30 ml sıvı yağ",
    "1 büyük soğan (150 g), ince doğranmış",
    "2 domates (300 g), küp doğranmış",
@@ -63,5 +63,13 @@
   "tr": "Yer fıstığı ezmesinin tuzsuz ve şekersiz olmasına dikkat edin; aksi halde yahni hem fazla tatlı hem de fazla tuzlu olur. Ezmeyi suyla önceden inceltmek topaklanmayı önler.",
   "en": "Use unsweetened, unsalted peanut butter, as sweetened versions make the stew cloying. Thinning the peanut butter with water before adding it prevents lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish first ingredient is garbled: it mentions 'dana kıyma yerine dana eti küpü' (beef cubes instead of ground beef), which contradicts the English 'bone-in chicken thighs or drumsticks' and the chi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -17,7 +17,7 @@
    "250 g buğday unu, ayrıca açma için biraz",
    "6 g tuz (1 tatlı kaşığı)",
    "5 g karbonat (1 tatlı kaşığı)",
-   "350 ml ayran veya yağsız yoğurt altı (ekşi süt/buttermilk)"
+   "350 ml ekşi süt (buttermilk)"
   ],
   "en": [
    "250 g barley flour (ohrajauho)",
@@ -53,5 +53,13 @@
   "tr": "Hamuru ne kadar ince açarsanız rieska o kadar gevrek olur; kenarları kızarmadan çevirmeyin ki yumuşak kalmasın.",
   "en": "The thinner you roll the dough, the crisper the rieska; turn it only once the edges have browned so it stays tender in the middle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'ayran veya yağsız yoğurt altı', which does not match the English 'buttermilk'. Ayran is a salted yogurt drink, and 'yoğurt altı' is unnatural Turkish. The ingredient should b"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

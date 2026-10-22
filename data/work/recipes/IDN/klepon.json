@@ -5,7 +5,7 @@
  },
  "native": "Klepon",
  "desc": {
-  "tr": "Pandan aromalı, yapışkan pirinç unundan yapılan, içi avuç içi gibi eriyen palmiye şekeriyle dolu küçük yeşil toplardır. Java'da ve Endonezya'nın geneli boyunca doğum günlerinde, dini bayramlarda ve günlük ikramlarda yenir.",
+  "tr": "Pandan aromalı, yapışkan pirinç unundan yapılan, içi erimiş palmiye şekeriyle dolu küçük yeşil toplardır. Java'da ve Endonezya'nın geneli boyunca doğum günlerinde, dini bayramlarda ve günlük ikramlarda yenir.",
   "en": "Small green balls of glutinous rice dough, scented with pandan, filled with molten palm sugar and rolled in grated coconut. Eaten across Indonesia, especially Java, at birthdays, religious celebrations and as an everyday snack."
  },
  "servings": 4,
@@ -35,7 +35,7 @@
  },
  "steps": {
   "tr": [
-   "Pandan yapraklarını 120 ml suyla blendırdan geçirin, ince bir elekten süzün ve pandan suyunu ayırın.",
+   "Pandan yapraklarını 120 ml suyla blenderdan geçirin, ince bir elekten süzün ve pandan suyunu ayırın.",
    "Yapışkan pirinç unu ile 1/4 çay kaşığı tuzu bir kasede karıştırın.",
    "Pandan suyunu azar azar ekleyerek yumuşak, yapışkan olmayan, pürüzsüz bir hamur yoğurun. Gerekirse birkaç damla daha su ekleyin.",
    "Hamuru 20 eşit parçaya bölün ve her birini avuç içinde yassılaştırın.",
@@ -63,5 +63,14 @@
   "tr": "Pandan suyunu koyu yeşil yapmak için yaprakları sıkıp süzün; topların içindeki şekerin dışarı sızmaması için kenarları iyice kapatın.",
   "en": "Squeeze the pandan leaves well for a deeper green colour, and seal the edges thoroughly so the palm sugar does not leak out during boiling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a spelling error: \"blendırdan\" should be \"blenderdan\".",
+   "Turkish description has an awkward phrase, \"içi avuç içi gibi eriyen palmiye şekeriyle dolu\"; it should read \"içi erimiş palmiye şekeriyle dolu\" to match the English \"filled with molten palm sugar\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

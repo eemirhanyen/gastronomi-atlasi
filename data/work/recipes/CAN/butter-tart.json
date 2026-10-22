@@ -43,7 +43,7 @@
   "tr": [
    "Unu ve 2 g tuzu geniş bir kaseye al. Soğuk tereyağı küplerini ekleyip parmak uçlarınla unun içinde ufalanana kadar karıştır; bezelye büyüklüğünde parçalar kalsın.",
    "Buz gibi suyu azar azar ekleyerek hamur bir araya gelene kadar yoğur. Hamuru disk şekline getir, streç film ile sar ve buzdolabında en az 30 dakika dinlendir.",
-   "Fırını 190°C'ye ısıt. Hamuru 3 mm kalınlığında açıp 10 cm çapında 4 daire kes ve bu daireleri tart kalıplarının içine yerleştir.",
+   "Fırını 190°C'ye ısıt. Hamuru 3 mm kalınlığında açıp 13 cm çapında 4 daire kes ve bu daireleri tart kalıplarının içine yerleştir.",
    "Yumurtayı, esmer şekeri, eritilmiş tereyağını, akçaağaç şurubunu, vanilya özünü ve 1 tutam tuzu pürüzsüz bir karışım oluşana kadar çırp.",
    "Kuru üzümleri hamurlu kalıplara eşit şekilde paylaştır. Dolguyu her kalıbın yarısını geçmeyecek şekilde dök.",
    "Tartları 15-18 dakika pişir. Dolgu kabarıp hafif kıvam alsın ama tamamen katılaşmasın. Tamamen soğuduktan sonra kalıplardan dikkatlice çıkar."
@@ -51,7 +51,7 @@
   "en": [
    "Put the flour and 2 g salt in a large bowl. Add the cold butter cubes and rub them into the flour with your fingertips until the mixture looks like coarse crumbs with pea-sized pieces.",
    "Gradually add the ice-cold water and mix until the dough comes together. Shape it into a disk, wrap in cling film, and chill in the fridge for at least 30 minutes.",
-   "Preheat the oven to 190°C. Roll out the dough to 3 mm thickness, cut 4 circles about 10 cm in diameter, and press them into the tart tins.",
+   "Preheat the oven to 190°C. Roll out the dough to 3 mm thickness, cut 4 circles about 13 cm in diameter, and press them into the tart tins.",
    "In a bowl, whisk the egg, brown sugar, melted butter, maple syrup, vanilla extract, and 1 pinch salt until smooth.",
    "Divide the raisins evenly among the dough-lined tins. Pour the filling into each tin, filling no more than halfway.",
    "Bake the tarts for 15-18 minutes. The filling should puff slightly and set at the edges but still wobble a little in the centre. Let them cool completely, then carefully remove from the tins."
@@ -61,5 +61,13 @@
   "tr": "Dolguyu kalıbın yarısından fazla doldurmayın; fazla dolgu kabarıp taşarak alt kısmı ıslak bırakır.",
   "en": "Fill the tins no more than halfway; overfilling causes the filling to bubble over and leaves the bottoms soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 cuts 10 cm dough circles, which are too small to line a 10 cm tart tin with sides. Circles of about 13 cm are needed (Turkish and English both corrected)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

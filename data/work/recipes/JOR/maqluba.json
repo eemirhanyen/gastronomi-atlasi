@@ -64,8 +64,8 @@
    "Domatesleri 1 cm kalınlığında halka halka dilimleyin.",
    "Tencerenin dibine ve kenarlarına kalan yağdan sürün. Dibe patlıcan dilimlerini yerleştirin, ardından patates ve karnabahar katmanını ekleyin.",
    "Tavuk parçalarını üzerine dizin, domates dilimlerini serpin.",
-   "Pirinci kalan 1/4 tatlı kaşığı yenibahar, tarçın, kakule, zerdeçal, karabiber ve 1/2 çay kaşığı tuzla karıştırın. Pirinci tencereye eşit şekilde doldurup hafifçe bastırın.",
-   "Ayırdığınız pirinç suyunu (yaklaşık 700 ml) pirincin üzerine yavaşça dökün, sıvı pirinci tam kaplamalı. Kapağı kapatıp orta-yüksek ateşte kaynatın, sonra kısık ateşte 25 dakika pişirin.",
+   "Pirinci kalan 1/2 tatlı kaşığı yenibahar, tarçın, kakule, zerdeçal, karabiber ve 1/2 çay kaşığı tuzla karıştırın. Pirinci tencereye eşit şekilde doldurup hafifçe bastırın.",
+   "Ayırdığınız pirinç suyunu (yaklaşık 700 ml) pirincin üzerine yavaşça dökün, pirinci tamamen kaplayacak şekilde. Kapağı kapatıp orta-yüksek ateşte kaynatın, sonra kısık ateşte 25 dakika pişirin.",
    "Ocağı kapatın ve tencereyi 10 dakika dinlendirin. Geniş bir servis tabağını tencerenin üzerine kapatıp hızlıca ters çevirin, tencereyi kaldırın.",
    "Üzerine kızarmış soğanları, bademleri ve çam fıstığını serpin. Yoğurtla birlikte servis yapın."
   ],
@@ -77,15 +77,25 @@
    "Slice the tomatoes into 1 cm rounds.",
    "Brush the bottom and sides of the pot with oil. Arrange the eggplant slices on the base, then add a layer of potato and cauliflower.",
    "Place the chicken pieces on top and scatter the tomato slices over them.",
-   "Mix the rice with the remaining 1/4 teaspoon allspice, the cinnamon, cardamom, turmeric, black pepper and 1/2 teaspoon salt. Spread the rice evenly over the pot and press gently.",
+   "Mix the rice with the remaining 1/2 teaspoon allspice, the cinnamon, cardamom, turmeric, black pepper and 1/2 teaspoon salt. Spread the rice evenly over the pot and press gently.",
    "Pour the reserved cooking liquid (about 700 ml) slowly over the rice so it is fully covered. Cover and bring to a boil over medium-high heat, then cook on low for 25 minutes.",
    "Turn off the heat and rest the pot for 10 minutes. Place a large serving platter over the pot, flip it quickly and lift off the pot.",
    "Top with the fried onions, toasted almonds and pine nuts. Serve with the yogurt."
   ]
  },
  "tip": {
-  "tr": "Patlıcan ve patatesi bol yağda kızartmak yerine fırında az yağla pişirerek daha hafif bir sonuç alabilirsiniz; ters çevirmeden önce tencerenin altını 1-2 dakika ıslak bir bezle serin tutmak yemeğin dökülmeden düzgün çıkmasını sağlar.",
+  "tr": "Patlıcan ve patatesi bol yağda kızartmak yerine fırında az yağla pişirerek daha hafif bir sonuç alabilirsiniz; ters çevirmeden önce tencerenin dibini birkaç saniyeliğine soğuk suya daldırmak yemeğin tabağa temiz şekilde dökülmesini sağlar.",
   "en": "Oven-roasting the eggplant and potatoes with a little oil gives a lighter result. Before flipping, dip the base of the pot in cold water for a few seconds so the rice releases cleanly onto the platter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Allspice does not add up: 1 tsp is listed, but the steps use 1/2 tsp in the broth and 1/4 tsp in the rice (3/4 tsp total), leaving 1/4 tsp unused.",
+   "The tip disagrees between versions: Turkish says to keep the pot base cool with a wet cloth for 1-2 minutes, while English says to dip it in cold water for a few seconds.",
+   "Turkish step 9 wording 'sıvı pirinci tam kaplamalı' is unnatural; it should say the water should fully cover the rice."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

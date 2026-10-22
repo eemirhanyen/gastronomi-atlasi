@@ -47,9 +47,9 @@
   "tr": [
    "Izgarayı ya da fırının üst ızgara fonksiyonunu yüksek ateşte ısıtın.",
    "Biberleri, acı biberleri, domatesleri, kabuğu soyulmamış soğanı ve sarımsak dişlerini ızgaraya dizin. Kabukları kararıp yumuşayana kadar yaklaşık 15-20 dakika çevirerek pişirin.",
-   "Sarımsaklar yumuşayınca, yaklaşık 6 dakika sonra ızgaradan alın.",
+   "Sarımsaklar yaklaşık 6 dakika sonra yumuşayınca ızgaradan alın. Domates ve soğanları da kabukları kararınca ızgaradan alın.",
    "Sıcak biberleri ve acı biberleri bir kaseye koyup üzerini tabakla kapatın. 10 dakika buharda dinlendirin, sonra kabuklarını soyup sap ve çekirdeklerini çıkarın.",
-   "Domateslerin kabuklarını soyun, küp küp doğrayın ve fazla suyunu süzün.",
+   "Közlenmiş domateslerin kabuklarını elle soyun, küp küp doğrayın ve fazla suyunu süzün.",
    "Soğanın kabuğunu soyun ve ince ince doğrayın. Sarımsakların kabuğunu soyup tuzla birlikte ezin.",
    "Soyulmuş biberleri ve acı biberleri kabaca doğrayın. Domates, soğan ve ezilmiş sarımsakla birlikte geniş bir kaseye alın.",
    "Kimyon, limon suyu, zeytinyağı ve maydanozu ekleyip karıştırın. Tadına bakıp gerekirse tuzunu ayarlayın.",
@@ -59,9 +59,9 @@
   "en": [
    "Heat a grill or the top grill setting of your oven over high heat.",
    "Place the peppers, chilies, tomatoes, the unpeeled onion and the garlic cloves on the grill. Turn them regularly for 15-20 minutes until the skins are blackened and the flesh is soft.",
-   "Remove the garlic cloves once they soften, after about 6 minutes.",
+   "Remove the garlic cloves once they soften, after about 6 minutes. Remove the tomatoes and onion once their skins are blackened.",
    "Put the hot peppers and chilies in a bowl and cover with a plate. Let them steam for 10 minutes, then peel off the skins and remove the stems and seeds.",
-   "Peel the tomatoes, chop them into small cubes and drain off excess liquid.",
+   "Peel the charred tomatoes by hand, chop them into small cubes and drain off excess liquid.",
    "Peel the onion and chop it finely. Peel the garlic and crush it with the salt.",
    "Roughly chop the peeled peppers and chilies. Transfer them to a large bowl with the tomatoes, onion and crushed garlic.",
    "Add the cumin, lemon juice, olive oil and parsley and mix well. Taste and adjust the salt if needed.",
@@ -73,5 +73,14 @@
   "tr": "Biberleri siyah lekeler oluşana kadar iyice közleyin; kabukları suyun altında yıkamayın, çünkü dumanlı tat ancak kabuktan gelir.",
   "en": "Char the peppers until they are well blackened, and do not rinse the skins under water, since the smoky flavour comes from the charred skin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 places tomatoes and the unpeeled onion on the grill, but no step says when to remove them. Only the garlic removal is specified.",
+   "Step 5 asks to peel the tomatoes without saying how. Since they were charred, they should peel easily after grilling, and the method should be stated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

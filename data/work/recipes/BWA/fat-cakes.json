@@ -9,7 +9,7 @@
   "en": "A staple snack sold by street vendors and at markets across Botswana, these deep-fried dough balls are crisp outside and soft inside. They are usually eaten warm for breakfast, at midday, or with afternoon tea."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -33,7 +33,7 @@
   "tr": [
    "Büyük bir kapta unu, mayayı, şekeri ve tuzu iyice karıştırın.",
    "Ilık suyu yavaş yavaş ekleyip elle yoğurmaya başlayın. Hamur yumuşak ve yapışkan olmayan bir kıvam alana kadar 8-10 dakika yoğurun.",
-   "Kapağını örtün ve hamur iki katına çıkana kadar sıcak bir yerde yaklaşık 40 dakika dinlendirin.",
+   "Kabı örtün ve hamur iki katına çıkana kadar sıcak bir yerde yaklaşık 40 dakika dinlendirin.",
    "Bu sırada kızartma yağını geniş bir tencereye koyun ve 170°C'ye kadar ısıtın.",
    "Hamuru hafifçe yoğurarak havasını alın, ardından 16 eşit parçaya bölün ve her birini avuçlarınızla küçük toplar haline getirin.",
    "Topları temiz bir yüzeyde 10 dakika kadar dinlendirin.",
@@ -55,5 +55,14 @@
   "tr": "Yağ sıcaklığını 170°C civarında sabit tutun; çok sıcak yağ dışını yakar, içini ise çiğ bırakır.",
   "en": "Keep the oil at a steady 170°C: if it is too hot the outside will burn before the centre cooks, and if it is too cool the cakes will absorb grease."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the steps alone take about 70 minutes (10 min kneading, 40 min rising, 10 min resting, plus frying and heating the oil)",
+   "Turkish step 3 says \"Kapağını örtün\", which is unnatural because a mixing bowl has no lid. It should be \"Kabı örtün\" to match the English \"Cover the bowl\""
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

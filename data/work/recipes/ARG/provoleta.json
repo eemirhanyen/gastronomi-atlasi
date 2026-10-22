@@ -15,7 +15,7 @@
   "tr": [
    "400 g provolone peyniri (piccante tercih edilir, 2 cm kalınlığında 4 dilim)",
    "15 ml zeytinyağı",
-   "2 g kuru kekik veya kuru kekik yerine kuru kekik değil, kuru kekik yoksa kuru kekik",
+   "2 g kuru kekik (oregano)",
    "1 g pul biber",
    "Servis için çıtır ekmek"
   ],
@@ -49,5 +49,13 @@
   "tr": "Peyniri tavada karıştırmayın; çıtır kabuk ancak sabırla oluşur ve dilimler tavaya yapışmaz.",
   "en": "Do not move the cheese while the crust forms; patience gives a crisp shell and keeps the slices from sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for the herb is garbled and self-contradictory (\"2 g kuru kekik veya kuru kekik yerine kuru kekik değil, kuru kekik yoksa kuru kekik\"). It should simply state 2 g dried oregano"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

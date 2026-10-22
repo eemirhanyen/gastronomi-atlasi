@@ -60,7 +60,7 @@
  "steps": {
   "tr": [
    "Havuç ve turpu ince julyen doğrayın. Pirinç sirkesi, 40 g şeker, 4 g tuz ve 100 ml ılık suyu karıştırıp sebzeleri içine ekleyin. Oda sıcaklığında en az 30 dakika bekletin.",
-   "Domuz etini 30 g şeker, 4 diş sarımsak, 30 arpacık soğanı, 30 ml balık sosu, 15 ml soya sosu ve karabiberle bir kasede iyice yoğurun. Üzerini örtüp 20 dakika buzdolabında bekletin.",
+   "Domuz etini 30 g şeker, 4 diş sarımsak, 30 g arpacık soğanı, 30 ml balık sosu, 15 ml soya sosu ve karabiberle bir kasede iyice yoğurun. Üzerini örtüp 20 dakika buzdolabında bekletin.",
    "Pirinci iki kez durulayın, süzün ve 600 ml suyla birlikte bir tencereye alın. Kaynayınca ısıyı çok kısın, kapağını kapatıp suyu çekene kadar yaklaşık 15 dakika pişirin, ardından 5 dakika demlenmeye bırakın.",
    "Kalan 30 g arpacık soğanını ince doğrayıp ayırın. Tavayı yüksek ateşte ısıtın, bitkisel yağı ekleyin ve etleri tek kat halinde, partiler halinde 2-3 dakika kenarları karamelize olana kadar çevirmeden pişirin. Ardından çevirip 1-2 dakika daha pişirin.",
    "Pişen etleri bir tabağa alın ve üzerine ayırdığınız arpacık soğanını serpin.",
@@ -81,5 +81,13 @@
   "tr": "Etin üzerindeki şekerin tavada yanıp karamelize olması lezzetin anahtarıdır; tavayı iyice ısıtın ve etleri partiler halinde pişirerek tavanın sıcaklığının düşmesini önleyin.",
   "en": "The caramelised sugar on the pork is key to the flavour, so heat the pan well and cook in small batches to keep the temperature high."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 gives the shallot amount as \"30 arpacık soğanı\" with no unit; it should be \"30 g arpacık soğanı\" to match the ingredient list and the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

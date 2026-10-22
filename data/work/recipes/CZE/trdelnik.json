@@ -72,8 +72,16 @@
   ]
  },
  "tip": {
-  "tr": "Silindirleri yağladıktan sonra hamuru sıkı ama eşit aralıklarla sarın; böylece pişerken spiral iz kalır ve hamur tutmaz.",
+  "tr": "Silindirleri yağladıktan sonra hamuru çok sıkı olmadan, eşit aralıklarla sarın; böylece pişerken spiral iz kalır ve hamur tutmaz.",
   "en": "Wrap the dough evenly and not too tightly, and grease the cylinders well so the pastry releases easily after baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to wrap the dough 'sıkı' (tightly), but the English tip says 'not too tightly'. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Pisto manchego",
  "desc": {
-  "tr": "La Mancha bölgesinden gelen, yaz aylarında bol bulunan kabak, biber ve domatesle yapılan İspanyol sebze güveci. Genellikle sıcak ya da ılık olarak yan yemek olarak servis edilir ve üzerine sıklıkla bir spor yağda pişmiş yumurta konur.",
+  "tr": "La Mancha bölgesinden gelen, yaz aylarında bol bulunan kabak, biber ve domatesle yapılan İspanyol sebze güveci. Genellikle sıcak ya da ılık olarak yan yemek olarak servis edilir ve üzerine sıklıkla az yağda kızartılmış bir yumurta konur.",
   "en": "A summer vegetable stew from La Mancha made with zucchini, peppers and tomatoes. It is usually served warm or at room temperature as a side dish, often topped with a fried egg."
  },
  "servings": 4,
@@ -55,5 +55,13 @@
   "tr": "Pisto bir gün bekletildiğinde tatları daha iyi oturur; yanına kızarmış bir yumurta koyarak da servis edebilirsiniz.",
   "en": "Pisto tastes even better the next day as the flavours settle; serve it with a fried egg on top for a classic presentation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses 'spor yağda' ('in sporty oil'), which is unnatural and wrong for a fried egg; 'az yağda kızartılmış' conveys the intended meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

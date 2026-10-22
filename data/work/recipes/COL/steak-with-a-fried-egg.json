@@ -6,7 +6,7 @@
  "native": "Bistec a caballo",
  "desc": {
   "tr": "Kolombiya'da ince dilimlenmiş dana bifteğin üzerine sahanda yumurta konarak servis edilen, pirinç pilavıyla yenen günlük bir ana yemektir. Özellikle öğle yemeklerinde ve ev yemeklerinde sık görülür.",
-  "en": "A everyday Colombian main in which a thin beef steak is topped with a fried egg and served with white rice. It is especially common at the midday meal and in home cooking across the country."
+  "en": "An everyday Colombian main in which a thin beef steak is topped with a fried egg and served with white rice. It is especially common at the midday meal and in home cooking across the country."
  },
  "servings": 4,
  "time_min": 40,
@@ -21,7 +21,7 @@
    "1 tatlı kaşığı tuz (biftek için)",
    "1/2 tatlı kaşığı karabiber",
    "1 yemek kaşığı taze limon suyu",
-   "60 ml sıvı yağ, ikiye bölünmüş",
+   "60 ml sıvı yağ, ikiye bölünmüş (30 ml biftek, 30 ml yumurta için)",
    "4 büyük yumurta"
   ],
   "en": [
@@ -33,7 +33,7 @@
    "1 tsp salt (for the steak)",
    "1/2 tsp black pepper",
    "1 tbsp fresh lime juice",
-   "60 ml vegetable oil, divided",
+   "60 ml vegetable oil, divided (30 ml for the steaks, 30 ml for the eggs)",
    "4 large eggs"
   ]
  },
@@ -43,8 +43,8 @@
    "Pirinci, 600 ml suyu ve 1/2 tatlı kaşığı tuzu bir tencereye alın. Kaynatın, kapağını kapatıp ısıyı en düşük seviyeye indirin ve 18 dakika pişirin. Ocaktan alıp kapağı kapalı halde 5 dakika dinlendirin.",
    "Bifteklerin kalınlığını kontrol edin. Gerekirse iki parça naylon film arasına koyup oklava ile yaklaşık 5 mm kalınlığa inceltin.",
    "Sarımsak, 1 tatlı kaşığı tuz, karabiber ve limon suyunu küçük bir kapta karıştırın. Bu karışımı bifteklerin iki yüzüne sürün ve oda sıcaklığında 10 dakika bekletin.",
-   "Geniş bir tavada 15 ml yağı orta-yüksek ateşte ısıtın. Bifteklerden ikisini ekleyip her yüzünü 1,5-2 dakika, kenarları kızarana kadar pişirin. Diğer bifteklerle aynı işlemi tekrarlayın ve hepsini tabağa alıp gevşekçe folyo ile örtün.",
-   "Aynı tavaya kalan yağın yarısını (15 ml) ekleyin, ateşi orta seviyeye indirin. Yumurtalardan ikisini kırıp kenarları çıtır olana ve akı pişene kadar 2-3 dakika kızartın. Kalan yumurtalar için de aynı işlemi yapın, gerekirse yağ ekleyin.",
+   "Geniş bir tavada 15 ml yağı orta-yüksek ateşte ısıtın. Bifteklerden ikisini ekleyip her yüzünü 1,5-2 dakika, kenarları kızarana kadar pişirin. Tavaya 15 ml yağ daha ekleyip kalan iki bifteği aynı şekilde pişirin ve hepsini tabağa alıp gevşekçe folyo ile örtün.",
+   "Aynı tavaya kalan 30 ml yağın yarısını (15 ml) ekleyin, ateşi orta seviyeye indirin. Yumurtalardan ikisini kırıp kenarları çıtır olana ve akı pişene kadar 2-3 dakika kızartın. Kalan iki yumurta için kalan 15 ml yağı ekleyip aynı işlemi yapın.",
    "Pilavı tabaklara koyun, yanına birer biftek yerleştirin ve her bifteğin üzerine bir sahanda yumurta koyarak hemen servis yapın."
   ],
   "en": [
@@ -52,8 +52,8 @@
    "Put the rice, 600 ml water and 1/2 tsp salt in a pot. Bring to the boil, cover, lower the heat to its lowest setting and cook for 18 minutes. Remove from the heat and let it rest, still covered, for 5 minutes.",
    "Check the thickness of the steaks. If needed, place each piece between sheets of cling film and pound with a rolling pin until about 5 mm thick.",
    "In a small bowl, mix the garlic, 1 tsp salt, black pepper and lime juice. Rub the mixture over both sides of the steaks and let them rest at room temperature for 10 minutes.",
-   "Heat 15 ml of the oil in a large skillet over medium-high heat. Add two steaks and cook for 1.5 to 2 minutes per side, until browned at the edges. Cook the remaining steaks in the same way, transfer all of them to a plate and cover loosely with foil.",
-   "Add half of the remaining oil (15 ml) to the same pan and reduce the heat to medium. Crack in two eggs and fry for 2 to 3 minutes, until the whites are set and the edges are crisp. Repeat with the other eggs, adding more oil if needed.",
+   "Heat 15 ml of the oil in a large skillet over medium-high heat. Add two steaks and cook for 1.5 to 2 minutes per side, until browned at the edges. Add 15 ml more oil to the pan, cook the remaining two steaks the same way, then transfer all of them to a plate and cover loosely with foil.",
+   "Add half of the remaining oil (15 ml) to the same pan and reduce the heat to medium. Crack in two eggs and fry for 2 to 3 minutes, until the whites are set and the edges are crisp. Add the remaining 15 ml oil and repeat with the other two eggs.",
    "Spoon the rice onto plates, place a steak beside it and top each steak with a fried egg. Serve immediately."
   ]
  },
@@ -61,5 +61,16 @@
   "tr": "Bifteği pişirmeden önce mutlaka oda sıcaklığına getirin ve yüksek ateşte çok kısa sürede pişirin; böylece et sert olmaz, yumurta ise yumuşak sarılı kalır.",
   "en": "Let the steaks come to room temperature before cooking and sear them quickly over high heat so the meat stays tender, while the egg yolks stay runny."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil amounts don't add up: 60 ml is split in two, but the steps use 15 ml for steaks, then 'half of the remaining oil (15 ml)' for eggs. Half of the remaining 45 ml is 22.5 ml, not 15 ml, and the steak",
+   "Steak batches: the second batch of steaks has no stated oil addition, and the Turkish and English versions both leave it out.",
+   "Egg step says 'add more oil if needed' without quantities, which conflicts with the 60 ml total.",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

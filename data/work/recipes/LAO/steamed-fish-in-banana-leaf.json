@@ -13,10 +13,10 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "500 g beyaz balık filetosu (sudak, tilapia ya da morina)",
+   "500 g beyaz balık filetosu (yılan başlı balık, tilapia ya da morina)",
    "2 sap limon otu (lemongrass), ince doğranmış (yaklaşık 30 g)",
    "15 g galangal veya taze zencefil, ince doğranmış",
-   "1 orta boy kuru soğan (yaklaşık 40 g), ince doğranmış",
+   "1 orta boy arpacık soğanı (yaklaşık 40 g), ince doğranmış",
    "2 diş sarımsak, ince doğranmış",
    "1-2 adet taze kırmızı biber, ince doğranmış",
    "4 adet kaffir limon yaprağı, damarı çıkarılıp ince doğranmış",
@@ -77,5 +77,14 @@
   "tr": "Toz pirinç unu yoksa, 2 yemek kaşığı yapışkan pirinci kuru tavada kızartıp öğütmek hem aromayı hem de kıvamı iyileştirir.",
   "en": "If you do not have sticky rice powder, dry-toast 2 tablespoons of sticky rice in a pan and grind it; this adds nutty flavour and improves the texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kuru soğan' is a generic onion, but the English version specifies shallot. The correct Turkish term for shallot is 'arpacık soğanı'.",
+   "Turkish ingredient 'sudak' (zander/pikeperch) does not match the English 'snakehead'. Snakehead in Turkish is 'yılan başlı balık', so the fish options disagree between the two versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

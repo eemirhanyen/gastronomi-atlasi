@@ -9,7 +9,7 @@
   "en": "A lightly sour, creamy fermented milk drink from North Macedonia, usually served cold with breakfast or alongside meals, especially in summer."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 840,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,5 +49,13 @@
   "tr": "Bir sonraki parti için ürettiğiniz kiselo mleko'dan 100 ml ayırıp kültür olarak kullanabilirsiniz; ancak her seferinde birkaç partide bir taze yoğurtla yenilemek kıvamı korur.",
   "en": "Save 100 ml of your finished kiselo mleko as the starter for the next batch; refresh it with fresh yogurt every few batches to keep the culture strong."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires 8–12 hours of fermentation plus at least 4 hours of chilling, so the total time is about 13–17 hours. The listed time understates the real total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

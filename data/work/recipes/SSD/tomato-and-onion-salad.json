@@ -5,7 +5,7 @@
  },
  "native": "سلطة طماطم",
  "desc": {
-  "tr": "Güney Sudan'da, özellikle Cuba ve çevresinde, asida ve kisra gibi ana yemeklerin yanında servis edilen taze ve sade bir salatadır. Her öğünde sofraya gelen, sık yapılan bir garnitürdür.",
+  "tr": "Güney Sudan'da, özellikle Juba ve çevresinde, asida ve kisra gibi ana yemeklerin yanında servis edilen taze ve sade bir salatadır. Her öğünde sofraya gelen, sık yapılan bir garnitürdür.",
   "en": "A fresh, simple salad served alongside staples such as asida and kisra in South Sudan, especially around Juba. It appears at everyday meals as a light accompaniment."
  },
  "servings": 4,
@@ -55,5 +55,13 @@
   "tr": "Soğanı soğuk suda bekletmek sertliğini ve keskinliğini azaltır; daha yumuşak bir tat için soğanı tuzla birlikte ovalayabilirsiniz.",
   "en": "Rinsing the onion in cold water softens its sharpness; for a milder flavour, rub the onion slices with the salt before adding them."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish description says the salad is especially common around \"Cuba\", but the English says \"Juba\". The two versions disagree, and \"Cuba\" does not appear to be a recognised South Sudanese food reg"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

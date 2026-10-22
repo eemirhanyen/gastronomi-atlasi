@@ -51,7 +51,7 @@
  },
  "steps": {
   "tr": [
-   "Deniz salyangozu etini bir kase içinde yarım limonun suyu ve tuzla ovalayın, ardından soğuk suyla iyice durulayın. Kalın parçaları küçük lokmalık boyuta getirin.",
+   "Deniz salyangozu etini bir kase içinde 2 limonun suyunun yarısı ve tuzla ovalayın, ardından soğuk suyla iyice durulayın. Kalın parçaları küçük lokmalık boyuta getirin.",
    "Büyük bir tencerede yağı ısıtın. Soğan, yeşil biber ve sarımsağı yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Domatesi ve isteğe bağlı acı biberi ekleyip 2 dakika daha pişirin.",
    "Salyangoz etini ve 2 litre suyu ekleyin. Kaynayınca ateşi kısın, üstü kapalı olarak yaklaşık 30 dakika yumuşayana kadar pişirin. Yüzeyde biriken köpüğü alın.",
@@ -73,5 +73,13 @@
   "tr": "Deniz salyangozunu pişirmeden önce mutlaka iyice dövün ya da ince doğrayın; aşırı pişirilirse et lastik gibi sertleşir. Çorbayı pişirirken hindistancevizi sütünü son aşamada ekleyip kaynatmayın, aksi halde süt ayrışır.",
   "en": "Pound or thinly slice the conch before cooking, and do not overcook it, or the meat turns rubbery. Add the coconut milk near the end and keep the soup at a gentle simmer so it does not separate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"yarım limonun suyu\" (juice of half a lime), but the English says \"half the lime juice\" (half of the total 2-lime amount, about 30 ml). The amounts disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

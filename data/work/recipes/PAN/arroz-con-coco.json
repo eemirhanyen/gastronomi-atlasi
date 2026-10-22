@@ -54,8 +54,16 @@
   ]
  },
  "tip": {
-  "tr": "Kapak sıkı kapanmalı; pirinç pişerken buharı kaçarsa pilav yanmadan kuru ve dengeli pişmez.",
+  "tr": "Kapak sıkı kapanmalı; pirinç pişerken buhar kaçarsa pilav dengeli pişmez ve tencerenin dibi yanabilir.",
   "en": "Use a tight-fitting lid; if steam escapes during cooking, the rice may burn at the bottom or stay unevenly cooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip sentence is unnatural and logically garbled: 'pilav yanmadan kuru ve dengeli pişmez' implies the rice cooks dry because it doesn't burn, which is backwards."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

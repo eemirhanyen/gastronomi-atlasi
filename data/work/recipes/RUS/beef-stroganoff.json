@@ -50,7 +50,7 @@
    "Mantarları ekleyin ve suları çekilip hafif kızarana kadar yaklaşık 8 dakika pişirin.",
    "Unu serpin ve 1 dakika karıştırın. Et suyunu yavaş yavaş ekleyerek pürüzsüz bir sos elde edin.",
    "Etleri biriken suyuyla birlikte tavaya geri koyun ve kısık ateşte 3 dakika kaynatın.",
-   "Ocağı kapatın, ekşi kremayi ve hardalı ekleyip karıştırın. Kaynamaması için ılık ateşte tutarak sosu tatlandırın ve tuzunu ayarlayın.",
+   "Ocağı çok kısık ateşe alın, ekşi kremayı ve hardalı ekleyip karıştırın. Sosu kaynamayacak şekilde ılıtın ve tuzunu ayarlayın.",
    "Maydanozu ince kıyıp üzerine serpin ve hemen servis yapın."
   ],
   "en": [
@@ -61,7 +61,7 @@
    "Add the mushrooms and cook for about 8 minutes until their liquid has evaporated and they are lightly browned.",
    "Sprinkle over the flour and stir for 1 minute. Gradually whisk in the beef stock to make a smooth sauce.",
    "Return the beef and its juices to the pan and simmer gently for 3 minutes.",
-   "Remove from the heat and stir in the sour cream and mustard. Warm through over low heat without boiling, then adjust the salt to taste.",
+   "Reduce the heat to low. Stir in the sour cream and mustard. Warm through without boiling, then adjust the salt to taste.",
    "Finely chop the parsley, scatter over the stroganoff and serve immediately."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Ekşi kremayı asla kaynatmayın; kaynarsa sos ayrışır. Etlerin pişmesini kızartma aşamasında yüksek ateşte ve kısa sürede tamamlamak, etin yumuşak kalmasını sağlar.",
   "en": "Never let the sour cream boil, or the sauce may split. Searing the beef quickly over high heat keeps it tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8: 'ekşi kremayi' is misspelled; it should be 'ekşi kremayı'.",
+   "Step 8 (both languages): the heat instruction is contradictory. It says to turn off the heat, then to keep the sauce over low heat. It should say to reduce the heat to low."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

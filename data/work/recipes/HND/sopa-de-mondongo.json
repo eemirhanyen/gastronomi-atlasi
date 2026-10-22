@@ -23,7 +23,7 @@
    "1 yeşil dolmalık biber (120 g), doğranmış",
    "1 yeşil acı biber, doğranmış",
    "2 yemek kaşığı (30 ml) sıvı yağ",
-   "1 tatlı kaşığı kurutulmuş kekik veya kekik benzeri kuru kekik otu (oregano)",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1 tatlı kaşığı tuz, tadı için fazlası",
    "1/2 tatlı kaşığı karabiber",
    "300 g yuka, soyulmuş ve parça parça kesilmiş",
@@ -65,7 +65,7 @@
    "Temizlenmiş işkembeyi ve dana inciği büyük bir tencereye alın, 2 litre su ekleyin ve kaynatın. Yüzeye çıkan köpükleri alın, ateşi kısın ve işkembe yumuşayana kadar yaklaşık 90 dakika kısık ateşte pişirin.",
    "İnciği tencereden çıkarın, etini kemiklerinden ayırıp doğrayın ve tekrar tencereye ekleyin.",
    "Geniş bir tavada yağı ısıtın. Soğanı, sarımsağı, dolmalık biberi ve yeşil acı biberi yumuşayana kadar 5 dakika soteleyin. Domatesi ekleyip 3 dakika daha pişirin, kekik, karabiber ve 1/2 tatlı kaşık tuz ile tatlandırın.",
-   "Sote karışımını tencereye ekleyin. Yuka, patates, yeşil muz ve güvencii ekleyip yaklaşık 25 dakika, sebzeler yumuşayana kadar pişirin.",
+   "Sote karışımını tencereye ekleyin. Yuka, patates, yeşil muz ve güvenç ekleyip yaklaşık 25 dakika, sebzeler yumuşayana kadar pişirin.",
    "Olgun muz dilimlerini ekleyin ve 10 dakika daha pişirin. Tadına bakıp gerekirse tuz ekleyin.",
    "Ocaktan almadan önce doğranmış taze naneyi ekleyin ve 2 dakika demlenmeye bırakın.",
    "Çorbayı sıcak servis edin. Her kaseye kişniş serpin, yanında limonun kalanını ve mısır tortillalarını ikram edin."
@@ -85,5 +85,14 @@
   "tr": "İşkembe tam yumuşamadan sebzeleri eklemeyin; yoksa kıvam ve tat dengesi bozulur.",
   "en": "Do not add the vegetables until the tripe is fully tender, or the texture and flavour will be unbalanced."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 has a typo: \"güvencii\" should be \"güvenç\".",
+   "Turkish oregano entry is confusing and unnatural: \"kekik veya kekik benzeri kuru kekik otu (oregano)\" should read \"kurutulmuş kekik (oregano)\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

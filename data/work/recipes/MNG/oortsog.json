@@ -39,7 +39,7 @@
    "Ortaya bir çukur açın; yumurtayı, sütü ve eritilmiş tereyağını ekleyin.",
    "Malzemeler birleşene kadar yoğurun, ardından 10 dakika kadar pürüzsüz ve yumuşak bir hamur elde edene kadar yoğurmaya devam edin.",
    "Hamuru streç film ile örtüp yaklaşık 30 dakika dinlendirin.",
-   "Hamuru 1 cm kalınlığında bir yufka gibi açın ve 8 cm'lik kareler kesin.",
+   "Hamuru yaklaşık 0,5 cm kalınlığında ince bir hamur tabakası halinde açın ve 8 cm'lik kareler kesin.",
    "Her karenin ortasına kısa bir yarık açın ve kenarlarını hafifçe çekerek şekil verin.",
    "Sıvı yağı derin bir tencerede 170°C'ye kadar ısıtın.",
    "Hamur parçalarını partiler halinde yağa koyun ve her iki tarafı altın rengi olana kadar, yaklaşık 3-4 dakika kızartın.",
@@ -50,7 +50,7 @@
    "Make a well in the centre, then add the egg, milk and melted butter.",
    "Mix until the ingredients come together, then knead for about 10 minutes until the dough is smooth and soft.",
    "Cover the dough with cling film and rest it for about 30 minutes.",
-   "Roll the dough out to about 1 cm thick and cut it into 8 cm squares.",
+   "Roll the dough out to about 0.5 cm thick and cut it into 8 cm squares.",
    "Make a short slit in the centre of each square and gently stretch the edges to shape them.",
    "Heat the oil in a deep pan to 170°C.",
    "Fry the dough pieces in batches for about 3-4 minutes, turning once, until golden on both sides.",
@@ -61,5 +61,14 @@
   "tr": "Yağ sıcaklığını termometreyle takip edin; yağ çok sıcak olursa hamur dışarıdan koyulaşıp içten çiğ kalır.",
   "en": "Check the oil with a thermometer; if it is too hot, the outside will darken while the inside stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough is rolled to 1 cm thick, which is thicker than traditional öörtsög and may stay raw inside after 3-4 minutes of frying at 170°C.",
+   "The Turkish step calls the dough a 'yufka' (a thin sheet) while specifying 1 cm thickness, which contradicts itself."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

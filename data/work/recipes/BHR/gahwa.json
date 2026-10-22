@@ -5,7 +5,7 @@
  },
  "native": "قهوة",
  "desc": {
-  "tr": "Bahreyn'de misafirperverliğin simgesi olan, hafif kavrulmuş kahve ve hel ile hazırlanan sıcak bir içecektir. Genellikle konuklara hurmayla birlikte, küçük fincanlarda sunulur ve evlerde, düğünlerde, taziye ve resmi kabullerde ikram edilir.",
+  "tr": "Bahreyn'de misafirperverliğin simgesi olan, hafif kavrulmuş kahve, hel ve safran ile hazırlanan sıcak bir içecektir. Genellikle konuklara hurmayla birlikte, küçük fincanlarda sunulur ve evlerde, düğünlerde, taziye ve resmi kabullerde ikram edilir.",
   "en": "A lightly roasted coffee brewed with cardamom and saffron, and a central symbol of hospitality in Bahrain. It is served hot in small cups with dates, and offered to guests at homes, weddings, condolence gatherings and formal receptions."
  },
  "servings": 4,
@@ -49,5 +49,13 @@
   "tr": "Kahveyi asla şiddetli kaynatmayın; acılaşmasını önlemek için kısık ateşte demleyin ve servis öncesi kısa süre dinlendirin.",
   "en": "Never let the coffee boil hard, as it turns bitter; keep the heat low and let it rest briefly before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish description omits saffron (\"hel ile\" only), while the English description, ingredients and steps all include saffron."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

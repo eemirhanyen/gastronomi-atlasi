@@ -40,11 +40,11 @@
  "steps": {
   "tr": [
    "Büyük bir kaseye masa unu ve 3 g tuzu koyun. Ilık suyu azar azar ekleyip 3-4 dakika yoğurun; hamur yumuşak ama yapışkan olmamalı. Çatlarsa birer kaşık su ekleyin. Üzerini örtüp 15 dakika dinlendirin.",
-   "Hamuru 8 eşit topa bölün (yaklaşık 40 g). Her topu iki plastik sayfa veya pişirme kağıdı arasında tortilla presiyle yassılaştırın; yaklaşık 10 cm çapında, ince birer tortilla elde edin.",
-   "Komalı veya kalın tabanlı bir tavayı orta-yüksek ateşte ısıtın. Tortillaları yağsız tavada her iki yüzünde 40-45 saniye, kenarları kuruyana kadar pişirin. Pişen tortillaları temiz bir bezle örtüp sıcak tutun.",
+   "Hamuru 8 eşit topa bölün (yaklaşık 40 g). Her topu iki plastik tabaka veya pişirme kağıdı arasında tortilla presiyle yassılaştırın; yaklaşık 10 cm çapında, ince birer tortilla elde edin.",
+   "Komal veya kalın tabanlı bir tavayı orta-yüksek ateşte ısıtın. Tortillaları yağsız tavada her iki yüzünde 40-45 saniye, kenarları kuruyana kadar pişirin. Pişen tortillaları temiz bir bezle örtüp sıcak tutun.",
    "Salça için domates, serrano biberi ve sarımsağı kuru tavada orta ateşte, sık sık çevirerek 8 dakika kadar kavurun. Sarımsağın kabuğunu soyun. Tüm malzemeyi 2 g tuzla birlikte blenderdan geçirerek pürüzlü bir salça yapın.",
    "Her tortillanın yarısına yaklaşık 30 g peynir ve bir miktar epazote serpin. Diğer yarısını üstüne katlayıp kenarlarını hafifçe bastırın.",
-   "Tavayı orta ateşte ısıtın ve 2-3 gram domuz yağı ekleyin. Kesadilyaları her iki yüzünde 2-3 dakika, peynir eriyip yüzeyi altın rengi olana kadar pişirin. Gerekirse yağı yenileyerek kalan kesadilyaları da aynı şekilde pişirin.",
+   "Tavayı orta ateşte ısıtın ve yaklaşık 2-3 g domuz yağı ekleyin. Kesadilyaları her iki yüzünde 2-3 dakika, peynir eriyip yüzeyi altın rengi olana kadar pişirin. Yağ bittikçe toplam 15 g'a ulaşacak şekilde yenisini ekleyerek kalan kesadilyaları aynı şekilde pişirin.",
    "Pişen kesadilyaları 120°C'lik fırında sıcak tutarak servise hazırlayın. Yanında salça ile servis yapın."
   ],
   "en": [
@@ -53,7 +53,7 @@
    "Heat a comal or heavy pan over medium-high heat. Cook each tortilla without fat for 40-45 seconds per side, until the edges look dry. Keep the cooked tortillas covered with a clean cloth so they stay warm.",
    "For the salsa, dry-roast the tomatoes, serrano chile and garlic in a pan over medium heat for about 8 minutes, turning often. Peel the garlic. Blend everything with 2 g salt until slightly chunky.",
    "Sprinkle about 30 g cheese and some chopped epazote over half of each tortilla. Fold the other half over the top and press the edges lightly.",
-   "Heat the pan over medium heat and add 2-3 g of lard. Cook the quesadillas for 2-3 minutes per side, until the cheese has melted and the outside is golden. Add more fat as needed and cook the remaining quesadillas the same way.",
+   "Heat the pan over medium heat and add about 2-3 g of lard. Cook the quesadillas for 2-3 minutes per side, until the cheese has melted and the outside is golden. Add lard as it is used, up to 15 g in total, and cook the remaining quesadillas the same way.",
    "Keep the finished quesadillas warm in a 120°C oven while you cook the rest. Serve immediately with the salsa on the side."
   ]
  },
@@ -61,5 +61,15 @@
   "tr": "Hamur çok kuruysa kenarlar çatlar; su ekleyip örtün ve pişirmeden önce mutlaka dinlendirin. Tortilla presini kullanmak zor geliyorsa, iki tabak arasında bastırmak da yeterlidir.",
   "en": "If the dough is too dry, the edges will crack; add a little water, cover it and always rest it before cooking. If you have no tortilla press, flattening the balls between two plates works fine."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 uses \"Komalı\", which is not the correct term for the griddle; the standard Turkish form is \"komal\".",
+   "Turkish step 2 says \"plastik sayfa\", which is unnatural; \"plastik tabaka\" is the usual phrase.",
+   "Lard amounts are unclear: the ingredient list gives 15 g in total, but steps 6 use only 2-3 g per frying round without saying how many rounds or how much to add in total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A roasted eggplant salad mixed with onion, garlic, lemon and oil, served in Romania mainly in summer and at family meals, usually as a spread with bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Patlıcanı doğrudan ocak alevinde veya ızgarada kavurursanız daha tütsülü bir tat elde edersiniz; ardından iyice süzmek salatanın sulanmasını önler.",
   "en": "Charring the eggplants directly over a gas flame or on a grill gives a smokier flavour; draining them well prevents the salad from becoming watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not match the steps: roasting takes 40-45 min, plus cooling, 10 min draining, chopping and at least 30 min chilling, which is about 110 min in total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

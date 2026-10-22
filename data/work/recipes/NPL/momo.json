@@ -62,7 +62,7 @@
    "Zencefil, sarımsak ve yeşil biberi ekleyip 2 dakika daha kavurun. Ocaktan alın ve yaklaşık 5 dakika soğumaya bırakın.",
    "Soğuyan karışımı tavuk kıymasıyla, kişnişle, kimyonla, timurla, 5 g tuzla ve soya sosuyla bir kasede iyice yoğurun. Dolgu yapışkan hale gelene kadar karıştırın.",
    "Hamuru 24 parçaya bölün. Her parçayı elinizle 6 cm çapında, kenarları ince yuvarlak hamur haline getirin.",
-   "Her hamur yuvarlağının ortasına bir çay kaşığı kadar dolgu koyun. Kenarları parmaklarınızla kıvırarak küçük bir kese şekli verin ve üstünü hafifçe bastırıp kapatın.",
+   "Her hamur yuvarlağının ortasına bir yemek kaşığı kadar dolgu koyun. Kenarları parmaklarınızla kıvırarak küçük bir kese şekli verin ve üstünü hafifçe bastırıp kapatın.",
    "Domatesleri ızgarada ya da kuru tavada kabuğu kararana kadar yaklaşık 5 dakika kavurun. Soyup bir blenderdan geçirin.",
    "Kavrulmuş domates püresine 1 g kimyon ve 5 g tuzu ekleyin. Hardal yağını ayrı küçük bir tavada duman çıkana kadar ısıtın, biraz soğutup sosun üzerine dökün ve karıştırın.",
    "Bir buharda pişirme kabının dibine yağlı kağıt ya da lahana yaprağı serin. Momoları aralarında boşluk bırakarak yerleştirin.",
@@ -75,7 +75,7 @@
    "Add the ginger, garlic and green chili and cook for 2 more minutes. Remove from the heat and let cool for about 5 minutes.",
    "In a bowl, combine the cooled mixture with the minced chicken, coriander, cumin, timur, 5 g salt and soy sauce. Mix well until the filling is sticky and cohesive.",
    "Divide the dough into 24 pieces. Flatten each piece by hand into a round about 6 cm across with thin edges.",
-   "Place about a teaspoon of filling in the centre of each round. Pleat the edges together with your fingers to form a small pouch and press the top to seal.",
+   "Place about a tablespoon of filling in the centre of each round. Pleat the edges together with your fingers to form a small pouch and press the top to seal.",
    "Char the tomatoes in a dry pan for about 5 minutes until the skins blacken. Peel and blend them smooth.",
    "Stir 1 g ground cumin and 5 g salt into the blended tomato. Heat the mustard oil in a small pan until it smokes, let it cool slightly, then pour it over the sauce and stir.",
    "Line the base of a steamer with baking paper or cabbage leaves. Arrange the momos with gaps between them.",
@@ -87,5 +87,13 @@
   "tr": "Momo'lar kuruyup yapışmaması için hamuru açarken unu az kullanın ve hazırlanan momoları pişene kadar kapalı bir tabakta tutun.",
   "en": "Keep the shaped momo covered with a damp cloth until steaming, and dust the dough lightly, since too much flour makes the wrappers dry and tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling portion is implausible: 350 g chicken plus the other filling ingredients makes roughly 420 g of filling, so 24 dumplings need about 15 g each. A teaspoon holds only about 5 g, which would leav"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

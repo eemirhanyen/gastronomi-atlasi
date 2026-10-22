@@ -23,7 +23,7 @@
    "200 g olgun domates, rendelenmiş",
    "1 yemek kaşığı (10 g) tatlı kırmızıbiber",
    "1 tatlı kaşığı (5 g) salça (isteğe bağlı)",
-   "15 g maden suyu yerine 15 g un",
+   "15 g un",
    "15 g maydanoz, ince kıyılmış",
    "1 çay kaşığı (5 g) tuz, tadına göre",
    "1/2 çay kaşığı (1 g) karabiber"
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Fasulyeleri pişirirken tuzu en sona bırakın; böylece kabukları daha yumuşak kalır ve pişme süresi kısalır.",
+  "tr": "Fasulyeleri pişirirken tuzu en sona bırakın; böylece kabukları daha yumuşak kalır ve fasulyeler daha eşit pişer.",
   "en": "Add the salt only at the end of cooking, so the bean skins stay soft and the beans cook more evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line 'maden suyu yerine 15 g un' is garbled ('instead of mineral water'); the English and the intended ingredient are simply 15 g flour",
+   "Tip disagrees between versions: Turkish says salting last makes the cooking time shorter, English says it makes the beans cook more evenly. The time-saving claim is also doubtful."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

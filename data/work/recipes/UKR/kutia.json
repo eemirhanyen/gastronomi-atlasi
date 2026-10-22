@@ -38,7 +38,7 @@
    "Buğdayı soğuk suyla iyice yıkayıp bol suda 8 saat veya bir gece boyunca bekletin.",
    "Buğdayı süzün, 1 l suyla birlikte tuzlu olarak tencereye alın ve kaynatın. Kısık ateşte 60-90 dakika, taneler yumuşayana kadar pişirin; gerekirse biraz su ekleyin. Süzüp soğumaya bırakın.",
    "Haşhaş tohumlarını kaynar suyla kapatıp 10 dakika bekletin, sonra süzün.",
-   "Haşhaşı 250 ml sıcak suyla blenderda 2-3 dakika çekin, ince bir elekten veya tülbentten süzerek haşhaş sütünü alın.",
+   "Haşhaşı 250 ml sıcak suyla blender'de 2-3 dakika çekin, ince bir elekten veya tülbentten süzerek haşhaş sütünü alın.",
    "Kuru üzümü sıcak suda 10 dakika bekletin, süzüp kurulayın.",
    "Cevizleri 180°C fırında yaklaşık 8 dakika kavurun, soğuyunca iri iri doğrayın.",
    "Büyük bir kapta soğumuş buğdayı, haşhaş sütünü, balı, üzümü ve cevizi birlikte karıştırın. Tadına bakıp gerekirse bal ekleyin.",
@@ -59,5 +59,13 @@
   "tr": "Buğdayın tam yumuşak ama dağılmamış olması önemlidir; bu yüzden pişirme süresini tanelere bakarak ayarlayın.",
   "en": "Cook the wheat until the grains are tender but still whole; check them by tasting rather than relying only on the clock."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 uses the incorrect locative form \"blenderda\"; it should be \"blender'de\" (vowel harmony and apostrophe)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

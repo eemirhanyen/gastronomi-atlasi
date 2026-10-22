@@ -9,7 +9,7 @@
   "en": "A traditional casserole of northern Albania, especially around Shkodër, where lamb, long green peppers and tomatoes are slowly braised together. It is usually served at family meals, weekends and when guests are visiting."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,13 @@
   "tr": "Sivri biberleri pişirmeden önce kısa süre kavurmak tatlarını derinleştirir; sosun çok sulanmaması için kapağı son dakikalarda açmayı unutmayın.",
   "en": "Briefly sautéing the peppers before adding liquid deepens their flavour, and leaving the lid off at the end keeps the sauce from becoming watery. Traditionally, it is served with crusty bread."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is lower than the sum of the listed steps: 15 min resting + about 8 + 6 + 1 + 5 + 6 + 1 min of cooking + 60 min simmering + 5 min reduction is roughly 105 minutes before prep. Changed to"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

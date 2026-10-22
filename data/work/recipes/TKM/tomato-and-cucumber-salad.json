@@ -37,12 +37,12 @@
  },
  "steps": {
   "tr": [
-   "Soğanı ince zar halinde doğrayın, soğuk suya koyup 5 dakika bekletin. Suyunu süzüp kurulayın; bu işlem soğanın keskinliğini azaltır.",
+   "Soğanı ince yarım ay halinde dilimleyin, soğuk suya koyup 5 dakika bekletin. Suyunu süzüp kurulayın; bu işlem soğanın keskinliğini azaltır.",
    "Domatesleri ve salatalıkları yaklaşık 1 cm'lik küpler halinde doğrayın.",
    "Dereotu ve maydanozu ince kıyın.",
    "Domates, salatalık, soğan ve otları geniş bir kaseye alın.",
    "Ayçiçek yağı, limon suyu, tuz ve karabiberi ekleyip malzemeleri nazikçe karıştırın.",
-   "Salatayı servis etmeden önce 5 dakika dinlendirin, ardından soğuk olarak servis yapın."
+   "Salatayı servis etmeden önce 5 dakika dinlendirin, ardından soğuk veya oda sıcaklığında servis yapın."
   ],
   "en": [
    "Cut the red onion into thin half-moons, soak it in cold water for 5 minutes, then drain and pat dry. This removes some of its sharpness.",
@@ -57,5 +57,14 @@
   "tr": "Domatesleri ve salatalıkları mümkünse tuzlamadan önce kullanın; tuz sıvı salmasına neden olur, bu yüzden salatayı servis anında tuzlayın.",
   "en": "Add the salt just before serving, since it draws water out of the tomatoes and cucumbers and makes the salad watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to cut the onion into 'ince zar' (dice/cubes), but the English says thin half-moons. The Turkish should match the English.",
+   "Serving temperature differs: Turkish says serve cold only, English says chilled or at room temperature."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

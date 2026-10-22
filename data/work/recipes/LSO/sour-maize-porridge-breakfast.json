@@ -56,8 +56,16 @@
   ]
  },
  "tip": {
-  "tr": "Bir sonraki seferde starter olarak kullanmak üzere lapadan 150 ml ayırıp buzdolabında saklayın.",
-  "en": "Save 150 ml of the finished porridge in the fridge to use as the starter for your next batch."
+  "tr": "Bir sonraki seferde starter olarak kullanmak üzere, ocağa koymadan önce fermente karışımdan 150 ml ayırıp buzdolabında saklayın.",
+  "en": "Before cooking, set aside 150 ml of the fermented (unheated) mixture and keep it in the fridge to use as the starter for your next batch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip is culinarily wrong: it says to save 150 ml of finished (cooked) porridge as the starter for the next batch. Cooking kills the live cultures, so the cooked porridge will not ferment the next batch"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

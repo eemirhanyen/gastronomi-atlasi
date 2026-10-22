@@ -40,10 +40,10 @@
    "Karagen yosununu soğuk suda 15 dakika bekletin. Suyu değiştirip yosunu iyice durulayın, yabancı maddeleri ayıklayın.",
    "Yosunu süzün ve bir tencereye alın. Üzerine 600 ml süt, limon kabuğu, tuz ve vanilya çubuğunu yarıp içindeki tohumlarını kazıyarak ekleyin.",
    "Karışımı kısık ateşte yavaşça ısıtın, kaynama noktasına gelince ısıyı çok düşürün ve yosun eriyip süt kıvam alana kadar, sık sık karıştırarak 15-20 dakika pişirin.",
-   "Sütü ince elekten bir kaseye süzün, elekte kalan yosunu bastırarak suyunu çıkarın. Limon kabuğu ve vanilya çubuğunu atın.",
+   "Sütü ince elekten bir kaseye süzün, elekte kalan yosunu bastırarak suyunu çıkarın. Yosun artığını, limon kabuğunu ve vanilya çubuğunu atın.",
    "Süzülen sütü tekrar tencereye alın, şekeri ekleyip ılık olana kadar hafifçe ısıtın.",
    "Yumurtaları bir kapta çırpın. Üzerine bir kepçe ılık sütten ekleyip çırpın, ardından bu karışımı tencereye geri dökün.",
-   "Kısık ateşte, sürekli karıştırarak 2-3 dakika pişirin. Kaynamasına izin vermeyin; kaşığın arkasını kaplayacak kadar kıvam almalı.",
+   "Kısık ateşte, sürekli karıştırarak yaklaşık 80°C'ye ulaşana kadar, 2-3 dakika pişirin. Kaynamasına izin vermeyin; kaşığın arkasını kaplayacak kadar kıvam almalı.",
    "Muhallebiyi 4 küçük kaseye veya kalıba dökün, oda sıcaklığında soğumaya bırakın, ardından üzerini örtüp en az 3 saat buzdolabında dinlendirin.",
    "Soğuk servis edin ve üzerine ahududuları dizerek sunun."
   ],
@@ -60,8 +60,19 @@
   ]
  },
  "tip": {
-  "tr": "Yumurtalar eklendikten sonra karışımı kaynatmayın; aksi halde yumurtalar topaklanır. Sıcaklığı bir termometreyle kontrol ederseniz daha güvenli olur.",
-  "en": "Never let the mixture boil once the eggs are added, or they will scramble. A thermometre reading of about 80°C is a reliable guide."
+  "tr": "Yumurtalar eklendikten sonra karışımı kaynatmayın; aksi halde yumurtalar topaklanır. Yaklaşık 80°C'ye ulaştığını bir termometreyle kontrol ederseniz daha güvenli olur.",
+  "en": "Never let the mixture boil once the eggs are added, or they will scramble. A thermometer reading of about 80°C is a reliable guide."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 omits the ~80°C target that the English version gives, so the two versions disagree on the doneness check",
+   "Turkish tip omits the 80°C thermometer guidance that the English tip includes",
+   "English tip misspells 'thermometer' as 'thermometre'",
+   "Turkish step 4 does not say to discard the moss residue, while the English step does"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

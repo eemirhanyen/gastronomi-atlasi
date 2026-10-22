@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Eti yalnızca tadına bakılmayacak kadar değil, kemikten kolayca ayrılana kadar pişirin; ideal kıvam bu noktada gelir.",
+  "tr": "Eti yalnızca süreye bakarak değil, kemikten kolayca ayrılana kadar pişirin; ideal kıvam bu noktada gelir. Bu yavaş ve nemli pişirme yöntemi mechoui'ye o yumuşak dokusunu veren şeydir.",
   "en": "Cook until the meat pulls easily from the bone rather than going by time alone; this slow, moist method is what gives mechoui its tender texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is garbled and does not say what the English tip says. It should tell the cook to go by the meat pulling from the bone, not by time alone, and it omits the point that the slow, moist metho",
+   "Typo in Turkish step 6: \"kururSA\" should be \"kurursa\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

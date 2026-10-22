@@ -9,7 +9,7 @@
   "en": "A sweet, spiced cooling drink served in Chad, especially on hot afternoons and to guests. It is flavoured with cardamom and fresh mint."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Daha keskin bir tat için zencefili steplerde 5 dakika daha kaynatabilirsiniz; içecek buzdolabında 2 gün saklanabilir.",
+  "tr": "Daha keskin bir tat için zencefili adımında 5 dakika daha kaynatabilirsiniz; içecek buzdolabında 2 güne kadar saklanabilir.",
   "en": "For a sharper flavour, simmer the ginger for 5 minutes longer; the drink keeps in the fridge for up to 2 days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses the anglicism \"steplerde\" instead of the natural \"adımda\".",
+   "time_min (60) is too low: the steps alone include 10 min simmering, 20 min steeping, cooling to room temperature, and 30 min refrigeration, plus prep and boiling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

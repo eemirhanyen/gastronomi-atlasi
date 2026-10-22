@@ -5,11 +5,11 @@
  },
  "native": "Okurkový salát",
  "desc": {
-  "tr": "Çek mutfağında sirkeli, şekerli ve dereotlu ince dilim salatalık salatası, genellikle et yemekleri, patates ve domuz eti ile birlikte, ev yemeklerinde ve pikniklerde servis edilir.",
+  "tr": "Çek mutfağında sirkeli, şekerli ve dereotlu ince dilim salatalık salatası, genellikle et yemekleri, patates ve knedlík ile birlikte, ev yemeklerinde ve pikniklerde servis edilir.",
   "en": "A tangy Czech salad of thinly sliced cucumber in a sweet vinegar dressing with dill, usually served alongside roast meats, potatoes and dumplings at family lunches and summer gatherings."
  },
  "servings": 4,
- "time_min": 40,
+ "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,14 @@
   "tr": "Salatalığı tuzladıktan sonra suyunu iyice süzün; böylece salata sulanmaz ve dressing lezzetini daha iyi tutar.",
   "en": "Squeeze the cucumber well after salting so the salad stays crisp and does not become watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the salad is served with pork (\"domuz eti\"), but the English says dumplings. The Turkish should match the English.",
+   "time_min is 40, but the recipe needs about 30 minutes of salting and at least 20 minutes of chilling, plus prep. That is at least 50 minutes, so the total is underestimated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

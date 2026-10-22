@@ -18,7 +18,7 @@
    "60 ml kırmızı şarap sirkesi",
    "4 diş sarımsak",
    "1 çay kaşığı (2 g) öğütülmüş kimyon",
-   "1 çay kaşığı (1 g) kurutulmuş kekik veya kekik benzeri kuru biberiye",
+   "1 çay kaşığı (1 g) kurutulmuş kekik (oregano)",
    "1 çay kaşığı (6 g) tuz",
    "1/2 çay kaşığı (1 g) karabiber",
    "60 ml sıvı yağ",
@@ -45,7 +45,7 @@
   "tr": [
    "Ahşap şişleri en az 30 dakika suya batırın.",
    "Dana kalbinin yağlarını, damarlarını ve sert zarlarını temizleyip çıkarın. Kalbi yaklaşık 2,5 cm'lik küpler halinde doğrayın.",
-   "Blenderda sarımsakları, aji panca ezmesini, kırmızı şarap sirkesini, kimyonu, kekiği, tuzu, karabiberi ve sıvı yağı pürüzsüz olana kadar karıştırın.",
+   "Blender'da sarımsakları, aji panca ezmesini, kırmızı şarap sirkesini, kimyonu, kekiği, tuzu, karabiberi ve sıvı yağı pürüzsüz olana kadar karıştırın.",
    "Marinasyonu doğranmış kalbin üzerine dökün ve iyice karıştırın. Kapağını kapatıp buzdolabında en az 2 saat, tercihen bir gece bekletin.",
    "Patatesleri kabuklarıyla birlikte tuzlu suda 20-25 dakika, bıçak rahatlıkla girene kadar haşlayın. Süzüp ılımaya bırakın, sonra dilimleyin.",
    "Choclo'ları tuzlu suda 40-50 dakika, taneleri yumuşayana kadar haşlayın ve süzün.",
@@ -69,5 +69,14 @@
   "tr": "Kalbi pişirmeden önce ızgarayı çok iyi ısıtın; yüksek ateş dışını hızlıca kavurur ve içini yumuşak tutar. Kalp aşırı pişirilirse sertleşir.",
   "en": "Get the grill or pan very hot before adding the skewers; high heat chars the outside quickly and keeps the inside tender. Overcooked heart becomes tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'kekik veya kekik benzeri kuru biberiye' (rosemary-like), but the English lists dried oregano. Turkish 'kekik' already means oregano, so the herb should be stated consistently",
+   "Turkish step 3 has a spelling error: 'Blenderda' should be \"Blender'da\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

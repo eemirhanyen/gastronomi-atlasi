@@ -48,7 +48,7 @@
    "Dana eti ve domuz göbeğini buzdolabında veya derin dondurucuda 20-30 dakika soğutun.",
    "Soğuk etleri ve rendelenmiş soğanı kıyma makinesinin 5 mm'lik ızgarasından geçirin.",
    "Kıymaya sütlü ekmeği, tuzu, beyaz biberi ve muskadı ekleyin. Macunsu bir kıvam alana kadar, soğuk bir yüzeyde yaklaşık 2 dakika yoğurun.",
-   "Hamuru sıkma torbasıyla veya huni yardımıyla kılıfın içine doldurun. Sosisleri yaklaşık 10 cm'lik parçalara bölün ve burun.",
+   "Hamuru sıkma torbasıyla veya huni yardımıyla kılıfın içine doldurun. Sosisleri yaklaşık 10 cm'lik parçalara bölün ve bükün.",
    "Hava kabarcıklarını iğneyle delin. Kaynamayan sıcak suda (75-80 °C) 12-15 dakika bekletin, iç sıcaklık 70 °C'ye ulaşana kadar pişirin.",
    "Sosisleri sudan çıkarıp bir tel ızgara üzerinde kısa süre dinlendirin ve kağıt havluyla kurulayın.",
    "Orta ateşte bir tavada tereyağını eritin, sosisleri ara sıra çevirerek 4-5 dakika altın renk alana kadar kızartın.",
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Et ve yağ ne kadar soğuk olursa sosis o kadar iyi bağlanır; kıymayı yoğururken kaynak su yerine soğuk süt kullanmayı unutmayın.",
+  "tr": "Et ve yağ ne kadar soğuk olursa sosis o kadar iyi bağlanır; kıymayı yoğururken sütü de soğuk kullanın ve işlemi hızlı tutun. Sosis kılıfı doldurmak istemiyorsanız karışımı köfte şeklinde yassılaştırıp doğrudan tavada kızartabilirsiniz.",
   "en": "The colder the meat and fat, the better the sausage binds, so keep everything chilled and work quickly during mixing. If you prefer not to stuff casings, shape the mixture into patties and fry them directly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6: \"burun\" means \"nose\", not \"twist\"; should be \"bükün\"",
+   "Turkish tip refers to \"kaynak su\" (boiling water), which the recipe never uses, and it is phrased unnaturally",
+   "Turkish tip omits the patty alternative given in the English tip"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "One of Russia's oldest and most common soups, shchi is made with cabbage, potatoes and onion simmered in a beef broth. It is eaten at lunch and family meals, usually served with sour cream."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Turşu lahananın ekşiliği çeşitlere göre değişir; çok ekşiyse soğuk suyla bir kez durulayıp öyle ekleyin.",
   "en": "Sauerkraut sourness varies by batch; if it is very sharp, rinse it briefly in cold water before adding it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short for the listed steps: the 60-minute simmer plus the 10+10+10+5 minute cooking stages and 10-minute rest add up to about 105 minutes, plus roughly 10 minutes of sautéing and "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

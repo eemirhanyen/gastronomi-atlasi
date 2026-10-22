@@ -9,7 +9,7 @@
   "en": "Dimlama is a slow-cooked Uzbek stew of lamb and layered vegetables, cooked in a heavy pot with very little water so the vegetables steam in their own juices. It is traditionally made in autumn and winter for family meals and guests."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,7 +53,7 @@
    "Kavrulmuş etleri soğanların üzerine geri koyun. Havuçları ve patatesleri et ve soğanların üzerine katman katman yerleştirin.",
    "Balkabağı parçalarını, domates dilimlerini, soyulmuş sarımsakları ve bütün yeşil biberi üst kata dizin.",
    "Kimyonu, tuzu ve karabiberi üzerine serpin. Suyu kenardan yavaşça dökün; katmanları karıştırmayın.",
-   "Kapağını kapatın, ateşi en düşük seviyeye alın ve yaklaşık 60 dakika pişirin. Karıştırmak yerine tencereyi hafifçe sallayın, et yumuşayana ve sebzeler pişene kadar bekleyin.",
+   "Kapağını kapatın, ateşi en düşük seviyeye alın ve yaklaşık 90 dakika pişirin. Karıştırmak yerine tencereyi hafifçe sallayın, et yumuşayana ve sebzeler pişene kadar bekleyin.",
    "Pişince biberi çıkarıp dilerseniz hafifçe ezin, dereotu veya kişnişi serpin ve sıcak servis yapın. Yanında ekmekle ikram edin."
   ],
   "en": [
@@ -63,7 +63,7 @@
    "Return the browned lamb to the pot on top of the onions. Layer the carrots and potatoes over the meat and onions.",
    "Arrange the pumpkin, sliced tomatoes, peeled garlic cloves and the whole green chili pepper on the top layer.",
    "Sprinkle the cumin, salt and black pepper over everything. Pour the water gently down the side of the pot without stirring the layers.",
-   "Cover the pot, reduce the heat to its lowest setting and cook for about 60 minutes. Do not stir; shake the pot gently instead, until the meat is tender and the vegetables are cooked through.",
+   "Cover the pot, reduce the heat to its lowest setting and cook for about 90 minutes. Do not stir; shake the pot gently instead, until the meat is tender and the vegetables are cooked through.",
    "Remove the chili, mash it lightly if you like, sprinkle with the chopped dill or cilantro and serve hot with bread."
   ]
  },
@@ -71,5 +71,13 @@
   "tr": "Dimlamayı karıştırmak yerine tencereyi sallayın; katmanlar bozulmadan sebzeler suyunu salıp yumuşar.",
   "en": "Do not stir the layers; shake the pot instead so the vegetables keep their shape and steam gently in their own juices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cooking time of about 60 minutes is too short for 4 cm lamb shoulder pieces to become tender. Traditional dimlama simmers for 1.5 hours or more. The total time was adjusted to match, and the Turkish a"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

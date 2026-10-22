@@ -6,7 +6,7 @@
  "native": "Somun",
  "desc": {
   "tr": "Bosna-Hersek'in ve Balkanların geleneksel yuvarlak mayalı ekmeğidir. Genellikle ćevapi, kaymak ve kajmak ile servis edilir; özellikle öğle yemeklerinde ve şehir kebapçılarında sıkça yenir.",
-  "en": "A traditional round leavened flatbread of Bosnia and Herzegovina and the wider Balkans. It is usually served warm with ćevapi, kajmak or sour cream, and is especially common at lunchtime and in grill houses."
+  "en": "A traditional round leavened flatbread of Bosnia and Herzegovina and the wider Balkans. It is usually served warm with ćevapi, kaymak (clotted cream) and kajmak, and is especially common at lunchtime and in grill houses."
  },
  "servings": 4,
  "time_min": 150,
@@ -59,5 +59,13 @@
   "tr": "Somunun ortası ince, kenarı kalın olmalı; yüzeydeki çukurcuklar pişerken kabarmasını önler ve geleneksel dokusunu verir.",
   "en": "Keep the centre thin and the edge thicker; the dimples stop the bread from puffing up too much and give it the traditional texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description says 'kajmak or sour cream', but the Turkish says 'kaymak ve kajmak' (kaymak and kajmak). Kaymak is clotted cream, not sour cream, and 'or' does not match 'and'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

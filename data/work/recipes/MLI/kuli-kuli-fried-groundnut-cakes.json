@@ -38,7 +38,7 @@
    "Pul biber veya kayenneyi ve tuzu ekleyip iyice yoğurun. Hamur çok kuruysa 15 ml suyu azar azar ekleyerek kıvamını ayarlayın.",
    "Hamurdan cevizden biraz büyük parçalar koparıp avuçlarınızda yuvarlayın, sonra 1 cm kalınlığında, yaklaşık 5 cm çapında küçük diskler haline getirin.",
    "Derin bir tencerede yağı 180 °C'ye kadar ısıtın. Diskleri partiler halinde, 3-4 dakika, altın rengi ve çıtır olana kadar kızartın.",
-   "Kızarmış keklerı kağıt havluya alarak fazla yağını süzdürün ve tamamen soğumasını bekleyip servis yapın."
+   "Kızarmış kekleri kağıt havluya alarak fazla yağını süzdürün ve tamamen soğumasını bekleyip servis yapın."
   ],
   "en": [
    "Pulse the groundnuts in a food processor in short bursts until you have a coarse, slightly oily paste; leave some texture.",
@@ -53,5 +53,13 @@
   "tr": "Fıstık ezmesini çok ince çekmeyin; hafif dokulu hamur kızartıldığında daha çıtır ve lezzetli olur.",
   "en": "Do not grind the peanuts too finely; a slightly coarse texture gives a crisper, more flavourful cake."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 contains a spelling error: 'keklerı' should be 'kekleri'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

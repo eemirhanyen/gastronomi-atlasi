@@ -9,7 +9,7 @@
   "en": "A traditional dish from south-west France (Gascony and Périgord), where duck legs are salt-cured and then slow-cooked in their own fat. It is traditionally a winter family meal, often served with crisp potatoes."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -33,11 +33,11 @@
  },
  "steps": {
   "tr": [
-   "Tuz, taze çekilmiş kara biberi ve küçük doğranmış 2 dal kekiği bir kapta karıştırın.",
+   "Tuz, taze çekilmiş kara biberi ve ince doğranmış 2 dal kekiği bir kapta karıştırın.",
    "Ördek budularını bu karışımla her yerinden ovalayın, bir kaba dizin ve üzerini örtüp buzdolabında 12-24 saat bekletin.",
    "Fırını 90°C'ye ısıtın.",
    "Budulardaki tuzu soğuk suyla hafifçe durulayın ve kağıt havlu ile iyice kurulayın.",
-   "Budulardan çıkan tuzlu sıvıyı fırında kullanacağınız derin tencereye alın, budu ve yağı ekleyin (ördek yağını hafifçe ısıtarak eritin), üzerine sarımsak, defne yaprağı ve kalan 2 dal kekiği koyun.",
+   "Budları fırında kullanacağınız derin tencereye yerleştirin. Ördek yağını hafifçe ısıtarak eritin ve budları tamamen kaplayacak şekilde üzerine dökün, ardından sarımsak, defne yaprağı ve kalan 2 dal kekiği ekleyin.",
    "Budulları yağla tamamen kaplayacak şekilde tencereyi kapağıyla örtün ve fırında 2,5-3 saat, et kemikten kolayca ayrılana kadar pişirin.",
    "Tencereyi oda sıcaklığına kadar soğumaya bırakın; budular yağın içinde durduğu sürece buzdolabında haftalarca saklanabilir.",
    "Servis için budulları yağdan çıkarıp fazla yağlarını sıyırın. Tavayı orta-yüksek ateşte ısıtın, budları derisi aşağı gelecek şekilde 8-10 dakika kızartıp derisini çıtır hale getirin, ardından çevirip 2-3 dakika daha ısıtın."
@@ -57,5 +57,15 @@
   "tr": "Budları yağın içinde tamamen batmış halde tutun; bu, etin kuruyup havayla temas etmesini önler ve saklama süresini uzatır.",
   "en": "Keep the legs fully submerged in the fat at all times: this stops the meat drying out and extends storage. Start the curing the day before you plan to cook."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 tells the cook to add the salty liquid drawn out of the legs to the casserole. The English version does not mention this, and adding that salty water to the confit fat is a technique er",
+   "time_min is 60, but the recipe needs 12-24 h of curing plus 2.5-3 h of oven cooking, so the time figure does not match the steps.",
+   "Turkish step 1 says 'küçük doğranmış' where 'ince doğranmış' (finely chopped) is the more natural phrasing for herbs."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

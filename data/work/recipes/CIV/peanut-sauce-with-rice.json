@@ -9,7 +9,7 @@
   "en": "One of the most popular everyday dishes in Côte d'Ivoire, made with chicken simmered in a rich peanut sauce and served over rice. It is eaten across the country, especially at weekend lunches and family gatherings."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -60,7 +60,7 @@
    "Domatesleri ekleyin ve yaklaşık 8-10 dakika, karışım koyulaşıp yağı ayrılana kadar pişirin.",
    "Tavukları tekrar tencereye koyun. Bulyon küpünü, bay yaprağını, kekiği, acı bibere (kullanacaksanız) ve 500 ml suyu ekleyin. Kapağı kapatıp kısık ateşte 25 dakika pişirin.",
    "Bu sırada bir kasede fıstık ezmesini 300 ml ılık suyla pürüzsüz olana kadar çırpın.",
-   "Fıstık karışımından bir kepçe kadarını tencereye ekleyip karıştırın, ardından kalanını da ekleyin. Kapağı açık şekilde kısık ateşte 20 dakika, sık karıştırarak pişirin. Sos kaşığa tutunacak kıvama gelmezse biraz su ekleyin. Tuzunu ve baharatını ayarlayın.",
+   "Fıstık karışımına tencerenin sıcak sosundan bir kepçe ekleyip karıştırın, ardından tüm karışımı tencereye geri dökün. Kapağı açık şekilde kısık ateşte 20 dakika, sık karıştırarak pişirin. Sos kaşığa tutunacak kıvama gelmezse biraz su ekleyin. Tuzunu ve baharatını ayarlayın.",
    "Pirinci iki-üç kez yıkayıp süzün. 800 ml su ve bir tutam tuzla kapaklı bir tencerede kısık ateşte 18 dakika pişirin, ardından kapalı halde 10 dakika dinlendirin.",
    "Tavuk ve sosu tencerede tutarak servis yapın. Bay yaprağını ve bütün acı biberi çıkarıp atın. Tavuklu sosu pirinçle birlikte sunun."
   ],
@@ -81,5 +81,14 @@
   "tr": "Fıstık ezmesini doğrudan sıcak sosa eklemek topaklanmaya neden olur; önce ılık suyla iyice açın ve sosa az az ekleyin.",
   "en": "Never add peanut butter straight into hot sauce, as it will clump; loosen it with warm water first and add it gradually."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says a ladle of the peanut mixture is added to the pot, but the English step 8 says a ladle of hot broth is stirred into the peanut mixture first (tempering). The two versions disagree,",
+   "Listed time (75 min) is shorter than the sequential steps: 15 min resting, about 8 + 6 + 2 + 9 min of frying, 25 min simmer and 20 min sauce simmer add up to about 85 min before the rice finishes, so "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

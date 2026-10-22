@@ -49,8 +49,8 @@
    "60 ml yağı orta ateşte ısıtın ve ikan bilisleri altın rengi ve gevrek olana kadar yaklaşık 2-3 dakika kızartın. Kağıt havlu üzerine alın.",
    "Kalan 20 ml yağı aynı tavada ısıtın ve biber macununu ara sıra karıştırarak 8-10 dakika kavurun, yağ yüzeye ayrılana ve macun koyulaşana kadar.",
    "Tamarind suyunu, palm şekerini ve tuzu ekleyip karıştırın, 5 dakika kısık ateşte pişirin.",
-   "Kızarmış ikan bilisleri ve fıstıkları ekleyip sosa iyice bulaştırmak için 1-2 dakika karıştırın.",
-   "Sambalı tamamen soğutun, sonra kavanoza alın. Oda sıcaklığında servis edin."
+   "Sambalı tamamen soğutup temiz bir kavanoza alın.",
+   "Servis etmeden hemen önce kızarmış ikan bilisleri ve fıstıkları ekleyip gevrekliklerini korumak için hafifçe karıştırın ve oda sıcaklığında servis edin."
   ],
   "en": [
    "Soak the dried red chillies in hot water for 15 minutes, drain and remove the stems.",
@@ -59,13 +59,22 @@
    "Heat the 60 ml oil over medium heat and fry the anchovies for about 2-3 minutes until golden and crisp. Transfer to kitchen paper to drain.",
    "Heat the remaining 20 ml oil in the same pan and stir-fry the chilli paste for 8-10 minutes, stirring often, until fragrant, thickened and the oil separates at the edges.",
    "Add the strained tamarind water, palm sugar and salt, stir well and simmer gently for 5 minutes.",
-   "Add the fried anchovies and roasted peanuts and toss for 1-2 minutes so they are coated in the sauce.",
-   "Let the sambal cool completely, then transfer it to a jar. Serve at room temperature."
+   "Let the sambal cool completely, then transfer it to a clean jar.",
+   "Just before serving, stir in the fried anchovies and roasted peanuts so they stay crisp, and serve at room temperature."
   ]
  },
  "tip": {
-  "tr": "Sambalın raf ömrünü uzatmak için pişmiş sosu tamamen soğutup temiz, kuru bir kavanozda buzdolabında saklayın; ikan bilisleri servise yakın eklemek gevrekliğini korur.",
+  "tr": "Sambalın raf ömrünü uzatmak için pişmiş sosu tamamen soğutup temiz, kuru bir kavanozda buzdolabında saklayın; ikan bilisleri ve fıstıkları servise yakın ekleyerek gevrekliğini koruyun.",
   "en": "Cool the sambal fully and store it in a clean, dry jar in the fridge for longer keeping; add the anchovies and peanuts just before serving to keep them crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 adds the fried anchovies and peanuts to the hot sauce before it cools and is jarred, which contradicts the tip (add them just before serving to keep them crisp) and will make them soggy.",
+   "Turkish and English steps 7-8 are consistent with each other but both follow the flawed sequence, so the fix must be applied to both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

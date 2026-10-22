@@ -47,12 +47,12 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200°C'ye ısıtın. Tavuk göğsünü tuz ve karabiberle tatlandırın, 1 yemek kaşığı zeytinyağıyla ovalayın ve yağlı bir fırın tepsisine alın. 18-20 dakika pişirin, iç kısmı tam pişince çıkarıp dinlendirin, sonra küp küp doğrayın.",
+   "Fırını 200°C'ye ısıtın. Tavuk göğsünü tuz ve karabiberle tatlandırın, 1 yemek kaşığı zeytinyağıyla ovalayın ve yağlı bir fırın tepsisine alın. 18-20 dakika pişirin, iç kısmı tam pişince çıkarıp 5 dakika dinlendirin, sonra küp küp doğrayın.",
    "Baconı fırın tepsisindeki ızgara rafına dizin veya tavada kısık ateşte gevrek olana kadar pişirin. Kağıt havlu üzerinde süzün ve kırıp ufalayın.",
    "Yumurtaları kaynar suya koyun ve 9 dakika haşlayın. Soğuk suya alıp kabuklarını soyun, sonra ikiye bölüp doğrayın.",
    "Dressing için kırmızı şarap sirkesi, Dijon hardal, ezilmiş sarımsak, tuz ve karabiberi bir kapta çırpın. 80 ml zeytinyağını yavaş yavaş ekleyip emülsiyon oluşana kadar çırpmaya devam edin.",
    "Marulu geniş bir servis tabağına yayın. Üzerine tavuk, bacon, yumurta, avokado ve domatesi ayrı ayrı şeritler halinde dizin.",
-   "Avokadoları ikiye bölün, çekirdeklerini çıkarın ve dilimleyin. Limon yerine birkaç damla dressing ile hafifçe gezdirerek kararmasını geciktirin.",
+   "Avokadoları ikiye bölün, çekirdeklerini çıkarın ve dilimleyin. Birkaç yemek kaşığı dressing ile hafifçe gezdirerek kararmasını geciktirin.",
    "Mavi peyniri ve frikik soğanını salatanın üzerine serpin.",
    "Dressingin yarısını salataya gezdirin, kalanını ayrı bir kapta servis edin."
   ],
@@ -71,5 +71,14 @@
   "tr": "Tavuk ve yumurtayı tamamen soğutmadan dizmeyin; sıcaklık avokadoyu hızla karartır ve marulu soldurur.",
   "en": "Let the chicken and eggs cool slightly before arranging, and dress the salad just before serving so the lettuce stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 omits the 5-minute resting time given in the English version",
+   "Turkish step 6 says 'Limon yerine' (instead of lemon), but lemon is not in the ingredients and the English version has no lemon reference"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

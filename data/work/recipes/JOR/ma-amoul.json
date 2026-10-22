@@ -68,8 +68,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru fazla yoğurmayın; sert çıkarsa kurabiyeler kuru olur. Mümkünse kalıp kullanmadan önce hamurun ağzını kapatıp küçük toplar haline getirin.",
+  "tr": "Hamuru fazla yoğurmayın; sert çıkarsa kurabiyeler kuru olur. Hamur şekillendirirken çatlarsa bir çay kaşığı süt ekleyip hafifçe yoğurun.",
   "en": "Do not overwork the dough or the cookies turn dry. If the dough cracks while shaping, add a teaspoon of milk and knead gently."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips differ: the English tip advises adding a teaspoon of milk if the dough cracks while shaping, but the Turkish tip instead says to close the dough and form small balls before us"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

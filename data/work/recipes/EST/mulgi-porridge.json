@@ -15,7 +15,7 @@
   "tr": [
    "250 g inci arpa",
    "600 g patates",
-   "250 g füme domuz göbeği (bacon ya da pastırma)",
+   "250 g füme domuz göbeği (bacon)",
    "1 orta boy soğan",
    "1 defne yaprağı",
    "1500 ml su",
@@ -67,5 +67,13 @@
   "tr": "Lapanın kıvamı tencerede dinlenirken biraz daha koyulaşır; servisten önce sıcak su ile gevşetin.",
   "en": "The porridge thickens as it stands, so loosen it with a splash of hot water just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'pastırma' is wrong here: Turkish pastırma is air-dried cured beef, not smoked pork, so it does not match the English 'smoked pork belly or bacon'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

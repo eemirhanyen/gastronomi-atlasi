@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Cücük kebabı (Joojeh kabab)",
+  "tr": "Joojeh kabab (İran usulü safranlı tavuk şişi)",
   "en": "Joojeh kabab (Persian saffron chicken kebab)"
  },
  "native": "جوجه کباب",
@@ -63,5 +63,13 @@
   "tr": "Kurumasını önlemek için but yerine kemikli olmayan tavuk budu tercih edin; limonu marinede 6 saatten fazla bekletmeyin, aksi halde et dokusu yumuşar.",
   "en": "Use thighs rather than breast for juicier kebabs, and don't marinate in lemon juice for more than about 6 hours, or the texture of the chicken will turn mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name \"Cücük kebabı\" is not a natural Turkish name for joojeh kabab; \"cücük\" is a Turkish word for chick, so the name misleads readers. Replaced with a descriptive Turkish name."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

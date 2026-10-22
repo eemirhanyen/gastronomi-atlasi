@@ -44,7 +44,7 @@
    "Hamuru yağlanmış kaba dökün ve üzerini alüminyum folyo ile sıkıca kapatın.",
    "Kabı fırının orta rafına yerleştirin ve yaklaşık 4 saat pişirin. Pişerken hamur koyulaşıp kahverengileşmeli ve yüzeyinde ince bir kabuk oluşmalıdır.",
    "Fırından çıkarıp folyoyu kaldırın ve tamamen soğumaya bırakın. Ardından üzeri kapalı şekilde buzdolabında en az 12 saat, tercihen bir gece dinlendirin. Kıvam bu sürede tam oturur.",
-   "Servis zamanı kremayı soğuk halde yumuşak bir kıvama gelene kadar çırpın ve tatlı kaşığı şekerle tatlandırın.",
+   "Servis zamanı kremayı soğuk halde yumuşak bir kıvama gelene kadar çırpın ve toz şekerle tatlandırın.",
    "Mämmi'yi kaşıkla kaplara alın ve üzerine çırpılmış kremayı ekleyerek hemen servis yapın."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Mämmi'nin yüzeyindeki koyu kabuk ve kendine has tadı için pişirme sırasında kabı kapalı tutun ve fırın sıcaklığını düşük tutmaya özen gösterin.",
   "en": "Keep the dish covered and the oven low: the slow, gentle heat is what gives mämmi its deep colour and malty taste, so resist the urge to raise the temperature."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to sweeten the cream with a 'tatlı kaşığı' (teaspoon) of sugar, but the Turkish ingredient list gives 2 yemek kaşığı (tablespoons) of toz şeker, and the English version doesn't spe"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

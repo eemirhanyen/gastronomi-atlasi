@@ -52,7 +52,7 @@
    "Kuru üzümü ılık suda 10 dakika bekletip süzün.",
    "Yumurta sarılarını 50 g toz şeker, vanilya, limon kabuğu, tuz ve eritilmiş tereyağıyla pürüzsüz olana kadar çırpın.",
    "Sarı karışımı süt emdirilmiş ekmeğe ekleyip iyice karıştırın. Kuru üzümü ve tarçını da ekleyin.",
-   "Yumurta aklarını köpük olana kadar çırpın, 30 g toz şekeri azar azar ilave edip sert ama parlak bir kör elde edin.",
+   "Yumurta aklarını köpük olana kadar çırpın, 30 g toz şekeri azar azar ilave edip sert ama parlak bir köpük elde edin.",
    "Beyazları ekmek karışımına 2-3 parti halinde, kepçeyle alttan yukarı doğru nazikçe katın.",
    "Karışımın yarısını kalıba dökün, elma dilimlerinin yarısını üzerine dizin, kalan hamuru ekleyip üstüne kalan elmayı yerleştirin ve toz şekeri serpin.",
    "Kalıbı 180°C fırında 35-40 dakika, üstü altın rengi olana ve ortası hafif sıkılaşana kadar pişirin.",
@@ -75,5 +75,13 @@
   "tr": "Ekmeğin taze olması halinde sütte dağılır; bu yüzden ruloları bir gün önceden dilimleyip kurutmak en iyi sonucu verir.",
   "en": "Fresh rolls turn mushy in the milk, so slice them a day ahead and let them dry out for the best texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"sert ama parlak bir kör elde edin\". \"Kör\" means \"blind\" and is wrong here; the intended word is \"köpük\" (foam)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

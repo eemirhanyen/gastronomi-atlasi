@@ -28,7 +28,7 @@
    "1 large egg",
    "40 g plain flour",
    "5 g salt",
-   "2 g ground black pepper (about ½ tsp)",
+   "1 tsp ground black pepper (about 2 g)",
    "100 ml sunflower oil, for frying",
    "200 g sour cream, to serve"
   ]
@@ -36,12 +36,12 @@
  "steps": {
   "tr": [
    "Patatesleri soyun ve soğanı soyun. Patatesleri ince bir rendede, soğanı ise aynı rendenin ince tarafında rendeleyin.",
-   "Rendelenmiş patatesi bir bezin veya temiz bir kumaş torbanın içine koyup sıkarak fazla suyunu akıtın. Kabın dibinde toplanan nişastayı saklayın.",
+   "Rendelenmiş patatesi bir bezin veya temiz bir kumaş torbanın içine koyup sıkarak fazla suyunu alın. Kapta birkaç dakika bekletip suyu dökün ve dibinde toplanan nişastayı saklayın.",
    "Sıktığınız patatesi, rendelenmiş soğanı, yumurtayı, unu, tuzu, karabiberi ve bir kısmını bıraktığınız nişastayı bir kapta karıştırın. Hamur kalın ve dökülebilir kıvamda olmalıdır.",
    "Geniş bir tavada yağı orta-yüksek ateşte ısıtın. Yağ ısındığında hamurdan bir kaşık alıp tavaya yassı bir şekilde yayın.",
    "Her iki yüzü de altın rengi ve çıtır olana kadar, her tarafta yaklaşık 3-4 dakika pişirin. Gerekirse kalan hamuru partiler halinde yapın ve tavaya fazla yağ eklemeyin.",
    "Pişen draniki'leri kağıt havluya alarak fazla yağını çekin ve sıcak servis edin.",
-   "Draniki'leri ekşi krema ile servis yapın."
+   "Draniki'leri ekşi krema ile servis edin."
   ],
   "en": [
    "Peel the potatoes and the onion. Grate the potatoes on the fine side of a box grater, and grate the onion on the same fine side.",
@@ -57,5 +57,15 @@
   "tr": "Patatesi ne kadar iyi sıkarsanız draniki o kadar çıtır olur; sıkmadan bırakılan su hamuru dağıtır ve yağda pişmesini zorlaştırır.",
   "en": "The drier the grated potato, the crispier the draniki. Excess water makes the batter loose and causes the pancakes to steam instead of fry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Black pepper quantity differs between versions: Turkish says 1 tatlı kaşığı (about 2 g), English says ½ tsp (about 2 g). A level ½ tsp is closer to 1 g, so the English should say 1 tsp.",
+   "English step 2 includes letting the liquid settle and pouring off the water, but the Turkish step only says to squeeze and keep the starch. The Turkish step needs the same settling and pouring instruc",
+   "Turkish final step uses 'servis yapın', which is unnatural. 'Servis edin' is the standard phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

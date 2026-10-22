@@ -3,9 +3,9 @@
   "tr": "Jamaika Usulü Balkabağı Çorbası",
   "en": "Jamaican Pumpkin Soup"
  },
- "native": "Pompkin Soup",
+ "native": "Pumpkin Soup",
  "desc": {
-  "tr": "Jamaika'da kabak, havuç ve yam ile hazırlanan, hindistan cevizi sütü ve kekikle aromalandırılan kadifemsi bir çorbadır. Genellikle sonbahar ve kış aylarında, tek başına ya da hamur topağı (dumpling) eşliğinde servis edilir.",
+  "tr": "Jamaika'da balkabağı, havuç ve yam ile hazırlanan, hindistan cevizi sütü ve kekikle aromalandırılan kadifemsi bir çorbadır. Genellikle sonbahar ve kış aylarında, tek başına ya da hamur topağı (dumpling) eşliğinde servis edilir.",
   "en": "A velvety Jamaican soup made with pumpkin, carrot and yam, flavoured with coconut milk and thyme. It is usually served in the autumn and winter months, on its own or with dumplings."
  },
  "servings": 4,
@@ -75,5 +75,14 @@
   "tr": "Scotch bonnet biberini bütün bırakıp pişirme sonunda çıkarırsanız çorba aromalı ama aşırı acı olmaz; daha ateşli bir tat isterseniz biberi hafifçe ezin.",
   "en": "Keep the scotch bonnet whole and remove it at the end for a fragrant but mild heat; crush it lightly if you want a spicier soup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English native name \"Pompkin Soup\" is a misspelling of \"Pumpkin Soup\".",
+   "The Turkish description uses the generic word \"kabak\" (squash) where the ingredient list and steps specify \"balkabağı\" (pumpkin), which is inconsistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

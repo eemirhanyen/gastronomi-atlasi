@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Darılı yoğurt tatlısı",
+  "tr": "Darı ve yoğurtlu tatlı (Dégué)",
   "en": "Millet and yogurt dessert (Dégué)"
  },
  "native": "Dégué (Zarma)",
@@ -55,5 +55,13 @@
   "tr": "Darı taneleri pişirildikten sonra çok fazla sıvı emdiği için, yoğurt karışımını ilk aşamada biraz daha akıcı tutun; servis öncesi gerekirse bir kaşık süt ekleyerek kıvamı ayarlayın.",
   "en": "Millet granules keep absorbing liquid as they rest, so keep the yogurt mixture slightly loose and add a spoonful of milk before serving if it thickens too much."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name \"Darılı\" is misleading: in Turkish it means \"offended/upset\", not \"with millet\". Use \"Darı ile\" instead."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

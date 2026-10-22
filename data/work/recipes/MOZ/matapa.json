@@ -9,7 +9,7 @@
   "en": "A traditional dish from northern and coastal Mozambique, where cassava leaves are cooked in a rich sauce of ground peanuts and coconut milk. It is usually eaten at midday with rice or xima."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -44,7 +44,7 @@
  "steps": {
   "tr": [
    "Manyok yapraklarını bol suyla iyice yıkayın ve süzün. Yaprakları ince ince doğrayın.",
-   "Büyük bir tencerede 1 litre suyu kaynatın, doğranmış yaprakları ekleyin ve kısık ateşte 40 dakika kadar pişirin. Yapraklar yumuşayınca süzün ve sıkarak fazla suyunu alın.",
+   "Büyük bir tencerede 1 litre suyu kaynatın, doğranmış yaprakları ekleyin ve kısık ateşte yaklaşık 1 saat, yapraklar çok yumuşayana kadar pişirin. Gerekirse sırasında biraz su ekleyin. Yapraklar yumuşayınca süzün ve sıkarak fazla suyunu alın.",
    "Yer fıstıklarını kuru bir tavada orta ateşte 4-5 dakika, hafifçe kızarana kadar kavurun. Soğumaya bırakın.",
    "Kavrulmuş fıstıkları 100 ml su ile birlikte blenderda pürüzsüz bir ezme haline gelene kadar çekin.",
    "Geniş bir tencerede yağı ısıtın. Soğanı ekleyip 5 dakika kadar yumuşayana kadar kavurun. Sarımsak ve kırmızı biberi ekleyip 1 dakika daha kavurun.",
@@ -55,7 +55,7 @@
   ],
   "en": [
    "Wash the cassava leaves thoroughly in plenty of water, drain, and chop them finely.",
-   "In a large pot, bring 1 litre of water to the boil, add the chopped leaves and simmer for about 40 minutes until very soft. Drain well and squeeze out excess water.",
+   "In a large pot, bring 1 litre of water to the boil, add the chopped leaves and simmer gently for about 1 hour, until very soft. Add a little more water if needed. Drain well and squeeze out excess water.",
    "Toast the peanuts in a dry pan over medium heat for 4-5 minutes until lightly golden. Leave to cool.",
    "Blend the toasted peanuts with the 100 ml water until you have a smooth paste.",
    "Heat the oil in a wide pot. Fry the onion for about 5 minutes until soft. Add the garlic and chilli and fry for 1 more minute.",
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Manyok yapraklarında hafif acılık bulunur; tam yumuşamaları için haşlama süresini kısaltmayın. Ayrıca yaprakları işlemcide hafifçe ezerek sosun daha pürüzsüz olmasını sağlayabilirsiniz.",
-  "en": "Cassava leaves must be cooked until very tender to remove their natural bitterness, so don't shorten the boiling time. Pulsing the cooked leaves briefly in a food processor gives a smoother, more traditional texture."
+  "tr": "Manyok yapraklarında doğal olarak zehirli bileşikler bulunur; bu yüzden yaprakların tam yumuşamasını sağlamak için haşlama süresini kısaltmayın. Ayrıca yaprakları işlemcide hafifçe ezerek sosun daha pürüzsüz olmasını sağlayabilirsiniz.",
+  "en": "Cassava leaves contain natural toxins and bitterness, so don't shorten the boiling time; cook them until very tender. Pulsing the cooked leaves briefly in a food processor gives a smoother, more traditional texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cassava leaves simmered for only 40 minutes may not be enough to break down their cyanogenic compounds safely. Traditional matapa cooks them much longer, typically about an hour or more. The tip also ",
+   "time_min (90) no longer fits the total cooking time once the leaf boil is lengthened."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

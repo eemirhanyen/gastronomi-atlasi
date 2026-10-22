@@ -5,7 +5,7 @@
  },
  "native": "Arepa de choclo",
  "desc": {
-  "tr": "Kolombiya'nın Antioquia ve Bogotá çevresinde, özellikle öğleden sonra kahvaltıda ve atıştırmalık olarak yenen, taze tatlı mısırla yapılan yumuşak ve hafif tatlı bir mısır ekmeğidir. Genellikle tereyağı ve tuzlu taze peynirle servis edilir.",
+  "tr": "Kolombiya'nın Antioquia ve Bogotá çevresinde, öğleden sonra atıştırmalık ya da kahvaltı olarak yenen, taze tatlı mısırla yapılan yumuşak ve hafif tatlı bir mısır ekmeğidir. Genellikle tereyağı ve tuzlu taze peynirle, sıcak olarak servis edilir.",
   "en": "A soft, lightly sweet cornbread made with fresh sweet corn, eaten across Colombia, especially around Antioquia and Bogotá, as an afternoon snack or breakfast. It is typically served warm with butter and salty fresh cheese."
  },
  "servings": 4,
@@ -41,10 +41,10 @@
    "400 g mısır tanesini süt ile birlikte mutfak robotunda kaba bir püre olacak şekilde kısa aralıklarla çekin. Kıvamında biraz doku kalmalıdır.",
    "Mısır püresini geniş bir kaseye alın. Kalan 100 g bütün mısır tanelerini, eritilmiş tereyağını, tuzu ve şekeri ekleyip iyice karıştırın.",
    "Masarepayı ekleyip spatula ile yoğurun. Hamur 5 dakika dinlensin, mısır unu suyu çeksin.",
-   "Hamur hâlâ yapışkan ve gevşekse 1 yemek kaşığı su ekleyerek kıvamını ayarlayın. Hamur el değmeyen yüzeyde şekil tutmalı ve elde yapışmamalıdır. Gerekirse 50 ml'ye kadar su ilave edebilirsiniz.",
+   "Hamur hâlâ yapışkan ve gevşekse 1 yemek kaşığı su ekleyerek kıvamını ayarlayın. Hamur elinize yapışmadan şekil tutmalıdır. Gerekirse toplamda 50 ml'ye kadar su ilave edebilirsiniz.",
    "Hamurdan yaklaşık 100 g'lık 8 parça ayırıp avuçlarınızda yuvarlayın. Her topu yaklaşık 1,5 cm kalınlığında ve 9 cm çapında yassı disk haline getirin.",
    "Geniş bir tavayı orta ateşte ısıtın ve sıvı yağla hafifçe yağlayın. Tava yeterince ısındığında arepaları yerleştirin.",
-   "Her iki yüzü altın rengi olana kadar yaklaşık 6-7 dakika pişirin. Alt yüz koyulaşmaya başlarsa ateşi biraz kısın.",
+   "Her iki yüzü altın rengi olana kadar, her yüzü yaklaşık 6-7 dakika pişirin. Alt yüz koyulaşmaya başlarsa ateşi biraz kısın.",
    "Arepaları ilk kez çevirdiğinizde üst yüzlerine ufalanmış peyniri serpin. Ters çevirip peynir eriyene kadar birkaç dakika daha pişirin.",
    "Tavayı kapatın ve ateşi çok düşük yaparak 2-3 dakika dinlendirin. İçlerinin tamamen pişmesini sağlayın.",
    "Sıcak arepaları tereyağı ve kalan peynirle servis edin."
@@ -67,5 +67,15 @@
   "tr": "Mısır tanelerini ne kadar az püre yaparsanız arepalar o kadar dokulu olur; hamurun kıvamını her zaman elinizle kontrol edin, çünkü taze mısırın nemi değişkendir.",
   "en": "The less you blend the corn, the more texture your arepas will have. Always check the dough by hand, since the moisture in fresh corn varies."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to cook for 6-7 minutes in total, but the English says 6-7 minutes per side. The Turkish should match the English.",
+   "Turkish description says the arepas are eaten 'öğleden sonra kahvaltıda', which is contradictory (afternoon breakfast). It should read as an afternoon snack or breakfast, as in the English.",
+   "Turkish step 5 'hamur el değmeyen yüzeyde şekil tutmalı' is unnatural. It should say the dough holds its shape without sticking to the hands."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

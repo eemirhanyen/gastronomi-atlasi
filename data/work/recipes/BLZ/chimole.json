@@ -9,20 +9,20 @@
   "en": "A spiced, achiote-coloured soup eaten across Belize, especially among Maya and Mexican-descended communities. It is often served at weekend lunches and family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "800 g kemikli tavuk parçası (but ve baldır)",
    "1,5 l su",
    "1 tatlı kaşığı tuz (yaklaşık 6 g)",
-   "1 küçük soğan, ikiye bölünmüş",
+   "1/2 küçük soğan, ikiye bölünmüş",
    "2 diş sarımsak",
    "1 küçük soğan, ince dilim",
    "400 g olgun domates",
    "3 adet kurutulmuş guajillo biberi (yaklaşık 15 g)",
    "15 g achiote macunu",
-   "1 yemek kaşığı masa harina (yaklaşık 15 g)",
+   "2 yemek kaşığı masa harina (yaklaşık 15 g)",
    "1 tatlı kaşığı çekilmiş karabiber",
    "2 yemek kaşığı bitkisel yağ",
    "300 g patates, küp doğranmış",
@@ -33,13 +33,13 @@
    "800 g bone-in chicken pieces (thighs and drumsticks)",
    "1.5 l water",
    "1 tsp salt (about 6 g)",
-   "1 small onion, halved",
+   "1/2 small onion, halved",
    "2 garlic cloves",
    "1 small onion, thinly sliced",
    "400 g ripe tomatoes",
    "3 dried guajillo chilies (about 15 g)",
    "15 g achiote paste",
-   "1 tbsp masa harina (about 15 g)",
+   "2 tbsp masa harina (about 15 g)",
    "1 tsp ground black pepper",
    "2 tbsp vegetable oil",
    "300 g potatoes, cut into cubes",
@@ -73,5 +73,15 @@
   "tr": "Achiote macununu tam eritmek için sıcak suda bekletip iyice ezin; aksi halde çorba topaklı ve donuk görünür.",
   "en": "Dissolve the achiote paste fully in hot water and mash it well before blending, otherwise the soup looks lumpy and dull."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Masa harina quantity is inconsistent: 1 tablespoon is about 8-10 g, not 15 g (Turkish and English).",
+   "The stock onion is listed as a whole small onion, but the steps use only half of it, so the other half is left unaccounted for.",
+   "Total time of 60 minutes is too short for the steps: about 25 min simmering chicken, 15 min soaking, 4 + 6 min frying and reducing, 15 min potatoes, 5 min final simmer, plus prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

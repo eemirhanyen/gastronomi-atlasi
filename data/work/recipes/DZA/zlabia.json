@@ -44,10 +44,10 @@
    "Şerbeti hazırlamak için şekeri, 250 ml suyu ve safran tellerini orta ateşte kaynatın. Yaklaşık 5 dakika, hafif kıvam alana kadar pişirin.",
    "Şerbeti ocaktan alın, limon suyu ve portakal çiçek suyunu ekleyip karıştırın. Sıcak tutun.",
    "Derin bir tencerede kızartma yağını 170-180 °C'ye kadar ısıtın.",
-   "Hamuru bir kez nazikçe karıştırın. Sıkma torbasına ya da küçük uçlu bir plastik şişeye doldurun.",
+   "Hamuru bir kez nazikçe karıştırın. 5 mm uçlu bir sıkma torbasına ya da küçük uçlu bir plastik şişeye doldurun.",
    "Hamuru yağa, merkezden dışa doğru spiral ya da halka şeklinde sıkın. Her seferinde birkaç parça kızartın, tencereyi kalabalık yapmayın.",
    "Her iki yüzü de altın rengi alana kadar, toplam 2-3 dakika kızartın. Delikli kaşıkla çıkarıp fazla yağını süzün.",
-   "Sıcak zlabiyeleri 30-60 saniye şerbete batırın, bir kez çevirin ve kevgire ya da tele alıp 1 dakika süzülmeye bırakın. Ilık ya da sıcak servis yapın."
+   "Sıcak zlabiyeleri 30-60 saniye şerbete batırın, bir kez çevirin ve kevgire ya da tele alıp 1 dakika süzülmeye bırakın. Ilık ya da oda sıcaklığında servis yapın."
   ],
   "en": [
    "In a large bowl, mix the yeast with the lukewarm water. Add the flour and salt and whisk into a smooth, thick batter that still pours.",
@@ -65,5 +65,14 @@
   "tr": "Hamur çok koyu olursa zlabiyeler kabarmaz; kıvam sızma ile pankek arasında olmalıdır. Hamuru sıkmadan önce hafifçe karıştırmak, şekil vermeyi kolaylaştırır.",
   "en": "If the batter is too thick the spirals will not puff; it should be somewhere between runny and pancake batter. Stir it lightly before piping to make shaping easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 omits the 5 mm nozzle size given in the English version.",
+   "Turkish step 9 says 'Ilık ya da sıcak servis yapın' (warm or hot), but the English says 'warm or at room temperature'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

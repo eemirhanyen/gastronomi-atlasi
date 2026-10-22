@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "200 g slănină (ya da kalın kesilmiş domuz pastırması olmayan, tuzlu domuz pastırması şeritleri)",
+   "200 g slănină (tuzlanmış domuz yağı şeritleri; kalın kesilmiş bacon ile değiştirilebilir)",
    "8 büyük yumurta",
    "4 dilim köy ekmeği (yaklaşık 120 g)",
    "2 yeşil soğan",
@@ -21,7 +21,7 @@
    "Tuz (isteğe bağlı)"
   ],
   "en": [
-   "200 g slănină (or thick-cut salt-cured pork back fat / bacon)",
+   "200 g slănină (salt-cured pork fatback; thick-cut bacon can be substituted)",
    "8 large eggs",
    "4 slices country-style bread (about 120 g)",
    "2 spring onions",
@@ -37,7 +37,7 @@
    "Çıtır slanina parçalarını süzgece alın ve sıcak tutun. Tavada yaklaşık 3 yemek kaşığı yağ bırakın.",
    "Yumurtaları tek tek küçük bir kaseye kırın, ardından tavaya tek tek alın. Her seferinde 4 yumurta kullanarak aralarında boşluk bırakın.",
    "Tavayı kapatıp kısık ateşte 3-4 dakika pişirin; akı tamamen kat bağlasın, sarısı hafif akışkan kalsın. Kalan yumurtalar için aynı işlemi tekrarlayın.",
-   "Pişen yumurtaları tuz ve karabiberle tatlandırın, tavada çok fazla tuz varsa yumurtaları tuzlamadan önce kontrol edin.",
+   "Pişen yumurtaları karabiber ve gerekirse bir tutam tuzla tatlandırın; slanina zaten tuzlu olduğundan önce onu tadın.",
    "Sıcak sahanda yumurtaları çıtır slaninayla birlikte tabağa alın, yeşil soğanı serpin ve dilim köy ekmeğiyle servis yapın."
   ],
   "en": [
@@ -55,5 +55,15 @@
   "tr": "Slaninanın tuzu değişkendir; tuzu yumurtaya eklemeden önce mutlaka tadına bakın. Yumurtaları partiler halinde pişirmek, sarılarının dağılmasını önler.",
   "en": "Salt levels in slănină vary widely, so taste before adding any salt. Cooking the eggs in batches keeps the yolks intact and the whites neat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish slănină ingredient description is contradictory: 'kalın kesilmiş domuz pastırması olmayan' (not pastırma) is followed by 'tuzlu domuz pastırması şeritleri' (salt-cured pastırma strips). The En",
+   "Step 7 disagrees between languages: the Turkish says to check whether the pan has too much salt, while the English says to check the bacon first because it is already salty.",
+   "Turkish step 7 wording is unclear ('tavada çok fazla tuz varsa'), since the salt comes from the slănină, not the pan."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

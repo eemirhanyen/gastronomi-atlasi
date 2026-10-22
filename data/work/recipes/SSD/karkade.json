@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Şekeri demlenme sonrasında değil, ocaktan almadan hemen önce ekleyin; soğuduğunda tadı daha ekşi algılanır, bu yüzden tatlılığı servisten önce ayarlayın.",
+  "tr": "Şekeri ocaktan aldıktan sonra eklemeniz yeterlidir. Soğuduğunda tatlılık daha az hissedildiği ve ekşilik daha belirgin çıktığı için, şekeri servisten önce tadına bakarak ayarlayın.",
   "en": "Taste and adjust the sugar after chilling, since cold drinks taste less sweet; chilling also makes the tartness more noticeable."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to add the sugar just before removing the pan from the heat, but step 4 (both languages) adds it after turning off the heat.",
+   "Turkish and English tips disagree: the Turkish tip says to adjust sugar before serving because of the sugar-addition timing, while the English tip says to taste and adjust after chilling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -18,7 +18,7 @@
    "200 g buğday unu (tip 650)",
    "300 ml ılık su (yaklaşık 35 °C), bölünmüş: 200 ml ve 100 ml",
    "10 g tuz",
-   "5 g kimyon tohumu (kümün değil, kimyon/kara kimyon)",
+   "5 g karaman kimyonu tohumu (kminek; kümünden farklıdır)",
    "4 g kuru maya (instant)",
    "Pişirme kalıbı için az miktarda un ve yağ"
   ],
@@ -41,7 +41,7 @@
    "Tuzu ve kalan 100 ml ılık suyu ekleyin, ıslak ellerle yaklaşık 5 dakika yumuşak ve yapışkan bir hamur elde edene kadar yoğurun.",
    "Hamuru yağlanmış bir kaba alın, örtün ve oda sıcaklığında yaklaşık 2 saat, hacmi belirgin şekilde artana kadar mayalandırın.",
    "Hamuru una bulanmış tezgâha alın, ıslak ellerle hafifçe yuvarlayıp oval bir somun şekli verin. Un serpilmiş bir banneton sepetine ya da yağlanmış ve unlanmış somun kalıbına yerleştirin.",
-   "Üzerini örtüp 60 dakika kadar ikinci mayalanmaya bırakın. Bu sırada fırını 240 °C'ye ısıtın ve içine su dolu küçük bir kap koyun.",
+   "Üzerini örtüp 60 dakika kadar ikinci mayalanmaya bırakın. Bu sırada fırını 240 °C'ye ısıtın ve alt rafa su dolu küçük bir kap koyun.",
    "Somunun üstünü keskin bir bıçakla birkaç kez çizin, ardından 230 °C'de 15 dakika pişirin.",
    "Fırın ısısını 200 °C'ye düşürün ve 45 dakika daha pişirin. Ekmeğin içi 96-98 °C'ye ulaşmış olmalıdır.",
    "Ekmeği fırından çıkarıp tel ızgara üzerinde en az 2 saat soğumaya bırakın; soğumadan kesmeyin, aksi halde iç kısmı yapışkan kalır."
@@ -63,5 +63,13 @@
   "tr": "Çavdar hamuru glütensiz olduğu için tam kıvamını bulunca şekillendirmek kolaydır; ellerinizi ve bıçağınızı sık sık ıslatın, hamur yapışmaz.",
   "en": "Rye dough has little gluten, so keep your hands and tools wet to handle it easily, and always let the loaf cool fully before cutting so the crumb can set."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish caraway term is wrong: 'kimyon' and 'kara kimyon' do not reliably mean caraway in Turkish (kimyon usually means cumin). The correct term is 'karaman kimyonu'. The English 'caraway seeds (kmine"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

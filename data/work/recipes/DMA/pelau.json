@@ -1,7 +1,7 @@
 {
  "name": {
   "tr": "Pelau (Karayip pilavı)",
-  "en": "Pelau (Dominican one-pot rice)"
+  "en": "Pelau (Dominica one-pot rice)"
  },
  "native": "Pèlo",
  "desc": {
@@ -9,7 +9,7 @@
   "en": "Pelau is a one-pot rice dish cooked with seasoned meat, pigeon peas and coconut milk, and it is a staple of family Sunday lunches and celebrations across Dominica."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "500 g kemikli tavuk parçası (but ve kanat)",
    "250 g haşlanmış veya konserve güvercin bezelyesi, süzülmüş",
    "250 ml hindistancevizi sütü",
-   "250 ml su",
+   "350 ml su",
    "1 orta boy soğan (120 g), ince doğranmış",
    "1 orta boy domates (120 g), küp doğranmış",
    "3 diş sarımsak, ezilmiş",
@@ -36,7 +36,7 @@
    "500 g bone-in chicken pieces (thighs and drumsticks)",
    "250 g cooked or canned pigeon peas, drained",
    "250 ml coconut milk",
-   "250 ml water",
+   "350 ml water",
    "1 medium onion (120 g), finely chopped",
    "1 medium tomato (120 g), diced",
    "3 garlic cloves, crushed",
@@ -75,5 +75,15 @@
   "tr": "Şekeri yakmadan karamele dönüştürmek için tencereyi takip edin; koyu kahverengiye dönüp hafif duman çıkmaya başladığında hemen tavuğu ekleyin, aksi halde acı bir tat verir.",
   "en": "Watch the sugar closely: once it turns dark amber and just starts to smoke, add the chicken immediately, or the pelau will taste bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Liquid is too low for 300 g long-grain rice: 500 ml total (250 ml coconut milk + 250 ml water), about 1:1.7, before the chicken and tomato release more moisture. The rice would likely stay hard or dry",
+   "time_min of 60 is too short: 30 min marinating plus roughly 55 min of cooking and resting. Changed to 90.",
+   "English name 'Dominican' is ambiguous and can be read as the Dominican Republic. Changed to 'Dominica' to match the country."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

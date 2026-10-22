@@ -9,7 +9,7 @@
   "en": "A creamy Belarusian sauce made from pork, smoked bacon and mushrooms. It is traditionally served in winter and at festive meals, usually poured over potato pancakes (draniki)."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,13 @@
   "tr": "Ekşi kremayı mutlaka ocak kapalıyken ekleyin; kaynayan sosta krema ayrışır.",
   "en": "Add the sour cream only after switching off the heat; if it boils, the cream will split."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the steps add up to about 40 min simmering plus roughly 30 min of sautéing, simmering and finishing, plus preparation."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

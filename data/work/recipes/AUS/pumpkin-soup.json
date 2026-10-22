@@ -5,7 +5,7 @@
  },
  "native": "Pumpkin soup",
  "desc": {
-  "tr": "Avustralya'da kışın ve ilkbaharın serin günlerinde sıcak servis edilen, kremalı ve pürüzsüz bir çorbadır. Genellikle kırıntılı ekmekle birlikte ana yemek ya da öğle yemeği olarak sunulur.",
+  "tr": "Avustralya'da sonbahar ve kışın serin günlerinde sıcak servis edilen, kremalı ve pürüzsüz bir çorbadır. Genellikle kırıntılı ekmekle birlikte ana yemek ya da öğle yemeği olarak sunulur.",
   "en": "A smooth, creamy soup served hot on cool autumn and winter days across Australia, often as a lunch or starter with crusty bread."
  },
  "servings": 4,
@@ -41,10 +41,10 @@
   "tr": [
    "Büyük bir tencerede zeytinyağını orta ateşte ısıtın.",
    "Soğanı ekleyip yumuşayana ve şeffaflaşana kadar yaklaşık 5 dakika kavurun.",
-   "Sarımsak, kişniş ve muskadı ekleyin, kokusu çıkana kadar 1 dakika karıştırarak pişirin.",
+   "Sarımsak, kişniş ve muskatı ekleyin, kokusu çıkana kadar 1 dakika karıştırarak pişirin.",
    "Balkabağı küplerini ve sebze suyunu ekleyip karıştırın. Kaynayana kadar ısıtın.",
    "Ateşi kısın, tencereyi kapatın ve balkabağı çok yumuşayana kadar yaklaşık 20-25 dakika pişirin.",
-   "Ocağı kapatın ve çorbayı daldırma blenderla pürüzsüz bir kıvam alana kadar blendırdan geçirin.",
+   "Ocağı kapatın ve çorbayı daldırma blenderla pürüzsüz bir kıvam alana kadar blenderdan geçirin.",
    "Kremayı ekleyip iyice karıştırın. Kaynamaması için ocakta yeniden hafifçe ısıtın.",
    "Tuz ve karabiberle tatlandırın, sıcak kaseler içinde doğranmış frenk soğanı serpip servis edin."
   ],
@@ -63,5 +63,15 @@
   "tr": "Balkabağı yerine Kent veya Japon balkabağı kullanırsanız çorba daha kremalı ve tatlı olur; çorba çok koyu gelirse biraz sıcak su ekleyin.",
   "en": "Kent or Japanese pumpkin gives the sweetest, smoothest result; if the soup is too thick, thin it with a little hot water before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'kışın ve ilkbaharın' (winter and spring), but the English says 'autumn and winter'. Turkish is changed to match the English.",
+   "Turkish step 6 has a typo, 'blendırdan'. Corrected to 'blenderdan'.",
+   "Turkish step 3 uses 'muskadı', which is not correct Turkish for nutmeg. Corrected to 'muskatı'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "kama",
  "desc": {
-  "tr": "Kavrulmuş tahıl ve bezelye unlarının karışımından yapılan, buttermilk veya yoğurt ile karıştırılarak yenen geleneksel bir Estonya kahvaltısıdır. Özellikle eski köy evlerinde, hızlı ve doyurucu olduğu için kışın ve iş yoğunluğu olan günlerde tercih edilirdi.",
+  "tr": "Kavrulmuş tahıl ve bezelye unlarının karışımından yapılan, buttermilk veya kefir ile karıştırılarak yenen geleneksel bir Estonya kahvaltısıdır. Özellikle eski köy evlerinde, hızlı ve doyurucu olduğu için kışın ve iş yoğunluğu olan günlerde tercih edilirdi.",
   "en": "A traditional Estonian breakfast made from a blend of roasted grain and pea flours, stirred into buttermilk or kefir and eaten cold with a spoon. It was a filling, quick meal in farmhouses, especially in winter and on busy workdays."
  },
  "servings": 4,
@@ -17,7 +17,7 @@
    "60 g yulaf unu",
    "40 g çavdar unu",
    "20 g sarı bezelye unu",
-   "800 ml ayran veya ev yapımı buttermilk",
+   "800 ml buttermilk veya kefir",
    "25 g toz şeker (isteğe bağlı)",
    "1 küçük tutam tuz",
    "4 yemek kaşığı tereyağı (isteğe bağlı, servis için)"
@@ -40,7 +40,7 @@
    "Kavrulan unu geniş bir tabağa alın ve tamamen soğumasını bekleyin.",
    "Soğuyan unu elekten geçirerek topakları ayırın ve tuzla iyice karıştırın.",
    "Servis etmek için her kâseye 50 g kama karışımı koyun.",
-   "Üzerine 200 ml soğuk ayran veya buttermilk ekleyin ve pürüzsüz, akıcı bir kıvam alana kadar kaşıkla karıştırın.",
+   "Üzerine 200 ml soğuk buttermilk veya kefir ekleyin ve pürüzsüz, akıcı bir kıvam alana kadar kaşıkla karıştırın.",
    "İsterseniz şeker ekleyip tatlandırın, ardından tereyağı ile birlikte hemen servis yapın."
   ],
   "en": [
@@ -57,5 +57,14 @@
   "tr": "Kavrulmuş unu hava almayan bir kavanozda oda sıcaklığında birkaç hafta saklayabilirsiniz; böylece her sabah sadece karıştırmanız yeterli olur.",
   "en": "Store the cooled, toasted flour mix in an airtight jar at room temperature for several weeks so breakfast only takes a minute to prepare each morning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English disagree on the liquid: the Turkish description says 'buttermilk veya yoğurt' and the Turkish ingredient and step say 'ayran', while the English uses 'buttermilk or kefir' througho",
+   "Turkish ingredient wording 'ayran veya ev yapımı buttermilk' and step 6 'ayran veya buttermilk' do not match the English 'buttermilk or kefir'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

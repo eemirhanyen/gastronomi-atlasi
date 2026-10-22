@@ -6,7 +6,7 @@
  "native": "grilim fis",
  "desc": {
   "tr": "Solomon Adaları'nda sahilde ve köylerdeki aile sofralarında sıkça yenen, limon, zencefil ve sarımsakla marine edilip közde pişirilen bütün resif balığıdır. Genellikle pişmiş tatlı patates veya pirinçle servis edilir.",
-  "en": "A everyday coastal and village dish across the Solomon Islands, where whole reef fish is marinated in lime, ginger and garlic, then grilled over an open fire. It is usually served with boiled sweet potato or rice."
+  "en": "An everyday coastal and village dish across the Solomon Islands, where whole reef fish is marinated in lime, ginger and garlic, then grilled over an open fire. It is usually served with boiled sweet potato or rice."
  },
  "servings": 4,
  "time_min": 60,
@@ -65,5 +65,13 @@
   "tr": "Balığın pişip pişmediğini anlamak için etin kalın kısmına çatal sokun; et kolayca ayrılıyorsa hazırdır, kemiğe yakın yerleri kontrol edin.",
   "en": "Check doneness by inserting a fork into the thickest part near the bone; the flesh should flake easily and look opaque all the way through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description has a grammar error: \"A everyday\" should be \"An everyday\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

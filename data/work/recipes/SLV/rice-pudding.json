@@ -39,13 +39,13 @@
  },
  "steps": {
   "tr": [
-   "Pirinci soğuk suyla su berrak akana kadar yıkayın ve süzgeçte iyice süzün.",
+   "Pirinci soğuk suyla, su berrak akana kadar yıkayın ve süzgeçte iyice süzün.",
    "Geniş ve dipli bir tencerede 750 ml suyu tarçın çubuğu, limon kabuğu rendesi ve tuzla birlikte kaynatın.",
    "Pirinci ekleyin, ateşi kısın, kapağını örtün ve pirinç suyunu çekene kadar yaklaşık 15 dakika arada karıştırarak pişirin.",
    "Sütü ekleyip karıştırın ve kapağı açık şekilde kısık ateşte, yapışmaması için sık karıştırarak 30 ila 35 dakika, pirinç yumuşayıp karışım kıvam alana kadar pişirin.",
    "Şekeri ekleyip tamamen eriyene kadar karıştırın ve 5 dakika daha pişirin.",
    "Tarçın çubuğunu ve limon kabuğunu çıkarın. Vanilya özü ile kuru üzümü ekleyip 2 dakika daha pişirin.",
-   "Muhallebiyi sıcak ya da soğutularak servis edin, üzerine öğütülmüş tarçın serpin."
+   "Muhallebiyi sıcak ya da soğuk olarak servis edin, üzerine öğütülmüş tarçın serpin."
   ],
   "en": [
    "Rinse the rice under cold water until the water runs clear, then drain well in a sieve.",
@@ -61,5 +61,14 @@
   "tr": "Pudingin kıvamı soğudukça koyulaşır; servisten önce biraz süt ekleyerek istediğiniz yoğunluğa getirebilirsiniz.",
   "en": "The pudding thickens as it cools, so stir in a splash of milk before serving to adjust the consistency."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has an awkward repetition ('suyla su berrak akana kadar'), which reads as unnatural Turkish.",
+   "Turkish step 7 says 'sıcak ya da soğutularak servis edin', which is an unnatural way to say 'serve warm or chilled'. The English 'warm or chilled' is correct."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

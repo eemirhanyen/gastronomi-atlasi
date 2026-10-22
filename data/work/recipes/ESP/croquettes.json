@@ -9,7 +9,7 @@
   "en": "A classic Spanish bar snack with a crisp golden crust and a creamy, ham-flavoured centre. It is typically served as a tapa with beer or wine, at lunchtime or during evening tapas rounds across Spain."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -42,7 +42,7 @@
    "Geniş bir tencerede tereyağını orta-düşük ateşte eritin. Doğranmış soğanı ekleyip 8 dakika, yumuşayana kadar hafifçe pişirin; renk almasına izin vermeyin.",
    "Küp doğranmış jamonu ekleyip 2 dakika daha karıştırarak pişirin.",
    "60 g unu ekleyin ve sürekli karıştırarak 2 dakika pişirin. Un kokusu gidince ateşi koruyun.",
-   "Ilık sütü azar azar ekleyip her ilaveden sonra iyice çırpın. Karışım pürüzsüz ve kıvamlı olana, yani kaşıktan yavaşça akana kadar 6-8 dakika karıştırarak pişirin.",
+   "Ilık sütü azar azar ekleyip her ilaveden sonra iyice çırpın. Karışım pürüzsüz ve kıvamlı olana, yani kaşıkta şeklini koruyacak kıvama gelene kadar 6-8 dakika karıştırarak pişirin.",
    "Rendelenmiş muskat, tuz ve karabiberle tatlandırın. Karışımı yağlanmış bir tepsiye yayın, yüzeyine streç film doğrudan temas edecek şekilde örtün ve en az 2 saat, sertleşene kadar buzdolabında bekletin.",
    "Soğumuş hamuru yağlı ellerle yaklaşık 2 cm kalınlığında, 6-7 cm uzunluğunda silindirler veya oval parçalar halinde şekillendirin (yaklaşık 20-24 adet çıkar).",
    "Her parçayı önce 100 g undan geçirip fazlasını silkeleyin, ardından çırpılmış yumurtaya batırın ve galeta ununa iyice bulayın. Gerekirse bu adımı bir kez daha tekrarlayarak kaplamayı kalınlaştırın.",
@@ -65,5 +65,14 @@
   "tr": "Hamuru mutlaka iyice soğutup sertleştirin; sıcak hamur kızartırken dağılır. Yağ sıcaklığını bir termometreyle kontrol edin, çok düşükse kroketler yağ çeker.",
   "en": "Chill the mixture thoroughly before shaping; warm dough will burst or fall apart in the oil. Check the oil temperature with a thermometer, as oil that is too cool makes the croquettes greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the sauce should flow slowly off the spoon (\"kaşıktan yavaşça akana kadar\"), but the English says it should hold its shape on a spoon. For a croquette base the English is correct, ",
+   "time_min is 60, but the recipe requires at least 2 hours of chilling, so total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

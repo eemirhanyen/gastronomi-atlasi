@@ -53,8 +53,8 @@
    "Bu sırada bakla tanelerini 8 dakika tuzlu kaynar suda haşlayın, süzün ve soğuk suyla durulayın. Gri ince kabuklarını parmaklarınızla soyun.",
    "Lahananın sert dış yapraklarını ayıklayın, gövdesini kesip dörde bölün. Patatesleri soyup ikiye bölün.",
    "Domuz 60 dakika pişince patates ve lahanayı tencereye ekleyin. Tuz ekleyip 25 dakika daha kısık ateşte pişirin.",
-   "Ayrı bir tencerede tereyağını eritin, unu ekleyip 1 dakika karıştırarak kavurun. Ocaktan almadan 250 ml domuz suyunu yavaş yavaş ekleyip çırpın.",
-   "Sosu kısık ateşte 5 dakika kaynatın. Bahçe kekiğini, haşlanmış baklaları ve kremayı ekleyin. Tuz ve karabiberle tatlandırın, kaynatmadan 3 dakika ılık tutun.",
+   "Ayrı bir tencerede tereyağını eritin, unu ekleyip 1 dakika karıştırarak kavurun. Ocaktan alıp 250 ml domuz suyunu yavaş yavaş ekleyip çırpın.",
+   "Sosu kısık ateşte 5 dakika kaynatın. Bahçe kekiğini, haşlanmış baklaları ve kremayı ekleyin. Tuz ve karabiberle tatlandırın, kaynatmadan 3 dakika sıcak tutun.",
    "Domuz boynunu tencereden çıkarıp 5 dakika dinlendirin. Kemik ve sert kısımları ayırıp eti 1 cm kalınlığında dilimleyin.",
    "Dilimlenmiş domuzu, patates ve lahanayla birlikte derin bir servis tabağına dizin. Üzerine bakla sosunu gezdirin, doğranmış maydanozla süsleyip sıcak servis yapın."
   ],
@@ -75,5 +75,14 @@
   "tr": "Bakla kabuklarını soymak dokuyu çok yumuşatır; taze bakla yoksa dondurulmuş bakla da kullanılabilir, ancak haşlama süresini 3 dakika kısaltın.",
   "en": "Slipping the grey skins off the beans makes them much more tender; frozen broad beans work well too, but cut their boiling time to about 3 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"Ocaktan almadan\" (without removing from the heat), but the English says \"Off the heat\" and the roux must be off the heat when the broth is added. The Turkish is wrong.",
+   "Turkish step 8 says \"ılık tutun\" (keep lukewarm), but the English says \"keep warm\" and the dish is served hot. Turkish should say \"sıcak tutun\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -8,8 +8,8 @@
   "tr": "San Marino'nun Monte Titano'daki üç tepesini (Guaita, Cesta, Montale) anlatan, bademli ve mascarponeli kremalı bir pastadır. Genellikle bayramlarda, özel günlerde ve kahvaltı sonrası tatlı olarak ikram edilir.",
   "en": "A layered almond sponge cake with mascarpone cream from San Marino, named after the three peaks of Monte Titano (Guaita, Cesta and Montale). It is traditionally served on feast days, special occasions and with coffee."
  },
- "servings": 4,
- "time_min": 75,
+ "servings": 8,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -79,5 +79,14 @@
   "tr": "Kremayı çırpmadan önce kaseyi ve krema şanjörünü buzdolabında soğutun; krema daha sağlam durur ve pasta kesilirken dağılmaz.",
   "en": "Chill the bowl and the cream well before whipping; the cream will hold its shape better and the layers will not slide when cut."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "servings: 4 is too few for an 18 cm cake with about 250 g mascarpone, 150 ml cream and three sponge layers; it yields roughly 8 slices",
+   "time_min: 75 omits the 25-minute bake, cooling, and the mandatory 1-hour chill in the final step, so the total is about 150 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

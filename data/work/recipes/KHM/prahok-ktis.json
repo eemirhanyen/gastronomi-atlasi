@@ -48,10 +48,10 @@
  "steps": {
   "tr": [
    "Limon otu, arpacık soğanı, sarımsak, zerdeçal ve kırmızı biberi bir havanda ya da mutfak robotunda ezerek pürüzsüz bir kroeung (baharat ezmesi) hazırlayın.",
-   "Prahoku küçük bir kapta 150 ml suyla iyice karıştırıp ezin, böylece kaba bir sıvı elde edin.",
+   "Prahoku küçük bir kapta 150 ml suyla iyice karıştırıp ezin, böylece akışkan, pürüzsüz bir sıvı elde edin.",
    "Geniş bir tencerede bitkisel yağı orta ateşte ısıtın, hazırladığınız kroeungu ekleyip yaklaşık 3 dakika kokusu çıkana kadar kavurun.",
    "Kıymayı ekleyin ve kızarıp iyice ufalanana kadar, yaklaşık 8 dakika pişirin.",
-   "Prahok karışımını tencereye ekleyip 3 dakika daha karıştırarak kavurun; bu adım prahokun sertliğini yumuşatır.",
+   "Prahok karışımını tencereye ekleyip 3 dakika daha karıştırarak kavurun; bu adım prahokun keskinliğini yumuşatır.",
    "Hindistan cevizi sütünü, kaffir limon yapraklarını ve palmiye şekerini ekleyin. Kısık ateşte, sık karıştırarak yaklaşık 20 dakika, sos koyulaşıp yağ yüzeye çıkana kadar pişirin.",
    "Salatalık, uzun fasulye ve patlıcanı dilimleyip servis tabağına yerleştirin; isterseniz fasulye ve patlıcanı kısaca haşlayın.",
    "Prahok ktisi sıcak servis edin; yanında pişmiş yasemin pirinci ve sebzelerle birlikte sunun."
@@ -71,5 +71,14 @@
   "tr": "Prahoku pişirmeden önce suda ezmek ve kavurmak, kokusunu yumuşatıp dengeli bir tat verir.",
   "en": "Mashing the prahok in water and frying it before adding coconut milk softens its strong smell and gives a balanced flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says 'sertliğini yumuşatır' (softens its hardness), but the English says 'softens its sharpness'. The Turkish should be 'keskinliğini' (sharpness).",
+   "Turkish step 2 says 'kaba bir sıvı' (a coarse liquid), but the English says 'loose, smooth liquid'. The Turkish should be 'akışkan, pürüzsüz bir sıvı'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

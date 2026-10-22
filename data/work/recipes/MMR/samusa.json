@@ -66,7 +66,7 @@
    "Unu, 1/2 çay kaşığı tuzu ve 1 yemek kaşığı yağı karıştırın. Yaklaşık 130 ml suyu azar azar ekleyerek yumuşak, elastik bir hamur yoğurun. Üzerini örtüp 20 dakika dinlendirin.",
    "Patatesleri kabuklarıyla haşlayın, yumuşayınca süzün, soyun ve çatalla kabaca ezin.",
    "Soğanı, sarımsağı ve yeşil biberi çok ince doğrayın.",
-   "Tavada 2 yemek kaşığı yağı orta ateşte ısıtın. Soğan ve sarımsağı pembeleşene kadar yaklaşık 5 dakika kavurun, yeşil biberi ekleyin.",
+   "Tavada 2 yemek kaşığı yağı orta ateşte ısıtın. Soğan ve sarımsağı altın rengi olana kadar yaklaşık 5 dakika kavurun, yeşil biberi ekleyin.",
    "Kimyonu, zerdeçalı, pul biberi ve 1 çay kaşığı tuzu ekleyip 1 dakika daha kavurun. Ezilmiş patatesi ekleyip iyice karıştırın, ocaktan alın.",
    "Kişnişi ve limon suyunu dolguya katın, tamamen soğumaya bırakın.",
    "Demirhindi püresini 100 ml sıcak suda 10 dakika bekletin, bir elekten süzün. Şeker ve 1/4 çay kaşığı tuzu ekleyip sosu hazırlayın.",
@@ -93,5 +93,13 @@
   "tr": "Hamurun çok ince açılması ve dolgunun tamamen soğutulması, samusaların çıtır kalıp yırtılmamasını sağlar.",
   "en": "Roll the dough very thin and let the filling cool completely so the samusas stay crisp and do not split in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the onion and garlic should turn 'pembeleşene kadar' (until pinkish), but the English says 'golden'. The Turkish wording is unnatural for this stage; 'altın rengi olana kadar' matc"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -56,8 +56,16 @@
   ]
  },
  "tip": {
-  "tr": "Fırının altındaki su tepsisi buharı artırır ve kabuğun daha çıtır olmasını sağlar; ekmekleri pişirirken fırın kapağını açmayın.",
+  "tr": "Fırının altındaki su tepsisi buharı artırır ve kabuğun daha çıtır olmasını sağlar; ekmekleri pişirmeye başladıktan sonra ilk 10 dakika boyunca fırın kapağını açmayın.",
   "en": "The tray of water under the oven rack creates steam that gives a crisper crust; avoid opening the oven door during the first 10 minutes of baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip says not to open the oven door during baking, while the English tip limits this to the first 10 minutes. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

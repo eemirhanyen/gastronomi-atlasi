@@ -15,13 +15,13 @@
   "tr": [
    "800 g dev bataklık taro (pulaka), soyulmuş",
    "400 ml hindistan cevizi kreması",
-   "150 ml su",
+   "150 ml su (gerekirse 50 ml daha)",
    "1 tatlı kaşığı tuz"
   ],
   "en": [
    "800 g giant swamp taro (pulaka), peeled",
    "400 ml coconut cream",
-   "150 ml water",
+   "150 ml water (plus up to 50 ml more if needed)",
    "1 tsp salt"
   ]
  },
@@ -57,5 +57,13 @@
   "tr": "Pulaka çok lifli ve yoğundur; bıçak ucu rahatça girmeden çıkarmayın, aksi halde içi sert kalır.",
   "en": "Giant swamp taro is dense and fibrous; do not remove it from the oven until a knife slides in easily, or the centre will stay firm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 adds 50 ml of water, but the ingredient list only gives 150 ml water. The extra water is used in the steps without being listed (in both Turkish and English)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

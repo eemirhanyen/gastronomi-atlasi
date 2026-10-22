@@ -9,7 +9,7 @@
   "en": "A rich, dark stew of meat, onion, tomato and fresh okra, eaten at everyday family meals in Juba and among Arabic-speaking communities in South Sudan. It is usually served with rice, asida or flatbread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 130,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,9 +51,9 @@
    "Sarımsağı ekleyin ve kokusu çıkana kadar 1 dakika karıştırın.",
    "Rendelenmiş domatesi ve domates salçasını ekleyip 5 dakika, yağ yüzeye ayrılana kadar pişirin.",
    "Kişniş, pul biber, tuz ve karabiberi ekleyip 1 dakika karıştırın.",
-   "Suyu ekleyin, kaynatın, ateşi kısın ve kapağı kapalı olarak et yumuşayana kadar 35-40 dakika pişirin.",
+   "Suyu ekleyin, kaynatın, ateşi kısın ve kapağı kapalı olarak et yumuşayana kadar 80-90 dakika pişirin.",
    "Bamyaları yıkayıp süzün, saplı uçlarını koparın. Büyük olanları ikiye bölün.",
-   "Bamyaları yahniye ekleyin, nazikçe karıştırıp 12-15 dakika kısık ateşte pişirin. Bamyalar yumuşak olmalı ama dağılmamalı.",
+   "Bamyaları yahniye ekleyin, nazikçe karıştırıp kapağı açık olarak kısık ateşte 12-15 dakika pişirin. Bamyalar yumuşak olmalı ama dağılmamalı.",
    "Limon suyunu ekleyin, tadına bakıp gerekirse tuz ayarlayın ve sıcak servis yapın."
   ],
   "en": [
@@ -63,7 +63,7 @@
    "Stir in the garlic and cook for 1 minute, until fragrant.",
    "Add the grated tomato and tomato paste and cook for 5 minutes, until the oil separates at the edges.",
    "Stir in the coriander, chili flakes, salt and black pepper and cook for 1 minute.",
-   "Pour in the water, bring to the boil, then reduce the heat, cover and simmer for 35 to 40 minutes, until the meat is tender.",
+   "Pour in the water, bring to the boil, then reduce the heat, cover and simmer for 80 to 90 minutes, until the meat is tender.",
    "Rinse the okra, drain it and trim the stem ends. Cut any large pods in half.",
    "Add the okra to the stew, stir gently and simmer uncovered over low heat for 12 to 15 minutes, until tender but still whole.",
    "Stir in the lemon juice, taste and adjust the salt if needed, then serve hot."
@@ -73,5 +73,15 @@
   "tr": "Bamyayı eklendikten sonra çok karıştırmayın; kesilmiş bamyalar sos yapıp kıvamı bozabilir, bu yüzden kaşığı nazik kullanın.",
   "en": "Once the okra is in, stir gently and avoid over-stirring, as cut okra releases a sticky liquid that can thicken the stew unevenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not match the steps, which add up to roughly 2 hours including the simmer.",
+   "The 35-40 minute simmer is too short to make 500 g of beef or goat cubes tender. Tough cuts of this size typically need 80-90 minutes.",
+   "The English step 9 says to simmer uncovered, but the Turkish step does not mention the lid, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

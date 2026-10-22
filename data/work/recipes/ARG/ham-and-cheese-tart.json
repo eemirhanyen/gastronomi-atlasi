@@ -8,7 +8,7 @@
   "tr": "Arjantin'de kahvaltıda, öğle üstü çaylarında ve piknik sofralarında sık yenen, kıtır hamurlu ve yumuşak peynirli bir tarttır. Evlerde ve fırın-pastanelerde günlük olarak hazırlanır.",
   "en": "A savoury tart eaten across Argentina at breakfast, afternoon tea and picnics, with a crisp shortcrust and a soft, creamy filling of ham and cheese. It is baked at home and sold daily in bakeries."
  },
- "servings": 4,
+ "servings": 6,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
@@ -50,11 +50,11 @@
    "Geniş bir kapta unu ve tuzu karıştırın. Soğuk tereyağını parmak uçlarınızla unun içine ovalayarak kum kıvamına getirin.",
    "Bir yumurtayı soğuk suyla çırpıp una ekleyin ve hızlıca yoğurarak pürüzsüz bir hamur elde edin. Hamuru streç film ile sarıp buzdolabında 30 dakika dinlendirin.",
    "Fırını 180°C'ye ısıtın. 24 cm'lik tart kalıbını tereyağı ile yağlayıp un serpin.",
-   "Hamuru ince açın, kalıbın içine yerleştirin ve kenarlarını kalıba bastırın. Hamurun tabanını çatal ile delin, üzerine kağıt koyup kuru baklava ya da ağırlık ekleyerek 15 dakika pişirin. Ağırlıkları ve kağıdı kaldırıp 5 dakika daha pişirin.",
+   "Hamuru ince açın, kalıbın içine yerleştirin ve kenarlarını kalıba bastırın. Hamurun tabanını çatal ile delin, üzerine kağıt koyup kuru bakla ya da ağırlık ekleyerek 15 dakika pişirin. Ağırlıkları ve kağıdı kaldırıp 5 dakika daha pişirin.",
    "Ayrı bir kapta üç yumurtayı, sütü ve kremayı çırpın. Tuz, karabiber ve hindistan cevizi ekleyip karıştırın.",
    "Pişmiş tart kabuğunun tabanına jambonu, mozzarellayı ve sert peyniri dengeli şekilde yayın.",
    "Yumurtalı karışımı tart kalıbına yavaşça dökün.",
-   "Tartı önceden ısıtılmış fırında 35 ila 40 dakika, üst yüzü altın rengi alıp ortası hafifçe sallandığında kadar pişirin.",
+   "Tartı önceden ısıtılmış fırında 35 ila 40 dakika, üst yüzü altın rengi alıp ortası hafifçe sallanana kadar pişirin.",
    "Tartı fırından çıkarıp 10 dakika kalıbında soğutun, ardından dilimleyip servis yapın."
   ],
   "en": [
@@ -73,5 +73,15 @@
   "tr": "Dolguyu dökmeden önce tart kabuğunun iyi pişmiş olduğundan emin olun; aksi halde alt kısım ıslanır ve hamur yumuşak kalır.",
   "en": "Make sure the pastry case is fully baked before adding the filling, otherwise the base will stay soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"kuru baklava\" (a dessert pastry) for pie weights; the correct term is \"kuru bakla\" (dried beans). The English correctly says baking beans/dried pulses.",
+   "Turkish step 8 \"sallandığında kadar\" is unnatural; \"sallanana kadar\" is correct.",
+   "Servings (4) don't fit the quantities: about 200 g flour, 300 g ham and cheese, and 450 ml of custard liquid fill a 24 cm tart that serves 6 to 8 comfortably."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "lu pulu",
  "desc": {
-  "tr": "Tonga'nın en bilinen geleneksel yemeklerinden biri olan lu pulu, talo yapraklarının hindistancevizi kremasıyla pişirilip sığır eti veya konserve corned beef ile birlikte servis edilmesiyle hazırlanır. Özellikle düğünlerde, aile toplantılarında ve Pazar öğünlerinde, geleneksel umu (toprak fırın) yöntemiyle veya evde fırında yapılır.",
+  "tr": "Tonga'nın en bilinen geleneksel yemeklerinden biri olan lu pulu, taro yapraklarının hindistancevizi kremasıyla pişirilip sığır eti veya konserve corned beef ile birlikte servis edilmesiyle hazırlanır. Özellikle düğünlerde, aile toplantılarında ve Pazar öğünlerinde, geleneksel umu (toprak fırın) yöntemiyle veya evde fırında yapılır.",
   "en": "Lu pulu is one of Tonga's best-known traditional dishes, made by cooking taro leaves in coconut cream with corned beef or beef. It is served at weddings, family gatherings and Sunday meals, traditionally baked in an umu (earth oven) and often prepared at home in a standard oven."
  },
  "servings": 4,
@@ -63,5 +63,13 @@
   "tr": "Taro yapraklarında doğal olarak bulunan kalsiyum oksalat çiğ halde ağız ve boğazda tahrişe yol açabilir; bu yüzden yaprakları mutlaka uzun süre pişirin ve çiğ tüketmeyin.",
   "en": "Taro leaves contain calcium oxalate, which causes throat irritation if eaten raw, so always cook them thoroughly until very soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description misspells 'taro' as 'talo' (\"talo yapraklarının\"), which is inconsistent with the ingredient list and the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

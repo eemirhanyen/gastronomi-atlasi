@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Şerbeti kekin üzerine sıcak değil ılık dökün; kek çok sıcaksa şerbet dağılır, soğukken ise emilmez.",
-  "en": "Pour the syrup over the cake while it is hot but the syrup is only warm; cold syrup on hot cake makes it soggy, while hot syrup on cold cake won't soak in."
+  "tr": "Kek fırından çıkar çıkmaz, sıcakken ılık şerbeti dökün. Şerbet sıcak olursa kek dağılır; şerbet soğuksa kek tam emmez.",
+  "en": "Pour the warm syrup over the cake as soon as it comes out of the oven, while the cake is still hot. If the syrup is too hot, the cake breaks apart; if it is cold, the cake won't absorb it fully."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English tip says cold syrup on hot cake makes the cake soggy, but the Turkish tip says a very hot cake makes the syrup disperse and that syrup poured on cold cake doesn't soak in. The two versions",
+   "The Turkish tip's wording is unclear: 'şerbet dağılır' and the 'soğukken' clause are ambiguous about which temperature is meant."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

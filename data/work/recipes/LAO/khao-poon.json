@@ -84,8 +84,16 @@
   ]
  },
  "tip": {
-  "tr": "Yapışkan pirinci mutlaka kavurup öğütün; hem çorbayı koyulaştırır hem de khao poon'a özgü fındımsı aroma verir.",
+  "tr": "Yapışkan pirinci mutlaka kavurup öğütün; hem çorbayı koyulaştırır hem de khao poon'a özgü fındık kokulu bir aroma verir.",
   "en": "Always toast and grind the sticky rice; it thickens the broth and gives khao poon its characteristic nutty aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses 'fındımsı', which is unnatural; 'fındık kokulu' is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

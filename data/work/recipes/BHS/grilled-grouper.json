@@ -47,8 +47,8 @@
   "tr": [
    "Orfoz filetolarını kağıt havlu ile kurulayın. Bir kasede 30 ml limon suyu, 2 diş sarımsak, 30 ml zeytinyağı, paprika, kekik, 1/2 tatlı kaşığı tuz ve karabiberi karıştırın.",
    "Filetoları marinenin içinde iyice bulaştırın ve oda sıcaklığında 15 dakika bekletin.",
-   "Izgarayı orta-yüksek ateşe (yaklaşık 200 °C) getirin. Izgara ızgarasını hafifçe yağlayın.",
-   "Filetoları deri tarafı aşağı gelecek şekilde 4 dakika pişirin. Çevirin ve iç sıcaklığı 60 °C olana kadar, yaklaşık 3-4 dakika daha pişirin. Kalan 15 ml zeytinyağı ile arada fırçalayın.",
+   "Izgarayı orta-yüksek ateşe (yaklaşık 200 °C) getirin. Izgara rafını hafifçe yağlayın.",
+   "Filetoları deri tarafı aşağı gelecek şekilde 4 dakika pişirin. Çevirin ve iç sıcaklığı 63 °C olana kadar, yaklaşık 3-4 dakika daha pişirin. Kalan 15 ml zeytinyağı ile arada fırçalayın.",
    "Sos için küçük bir tencerede tereyağını orta ateşte eritin. Kuru soğanı ekleyip 3 dakika, yumuşayana kadar soteleyin.",
    "Kalan sarımsağı ve scotch bonnet biberini ekleyip 1 dakika daha pişirin. Ocağı kapatın.",
    "Kalan 30 ml limon suyunu, kalan 1/2 tatlı kaşığı tuzu ve maydanozu sosa karıştırın.",
@@ -58,7 +58,7 @@
    "Pat the grouper fillets dry with kitchen paper. In a bowl, mix 30 ml lime juice, 2 garlic cloves, 30 ml olive oil, paprika, thyme, 1/2 tsp salt and black pepper.",
    "Coat the fillets well in the marinade and leave them at room temperature for 15 minutes.",
    "Heat the grill to medium-high (about 200 °C) and lightly oil the grates.",
-   "Grill the fillets skin side down for 4 minutes. Flip and cook for another 3-4 minutes until the internal temperature reaches 60 °C. Brush with the remaining 15 ml olive oil during cooking.",
+   "Grill the fillets skin side down for 4 minutes. Flip and cook for another 3-4 minutes until the internal temperature reaches 63 °C. Brush with the remaining 15 ml olive oil during cooking.",
    "For the sauce, melt the butter in a small saucepan over medium heat. Add the onion and cook for 3 minutes until soft.",
    "Add the remaining garlic and the scotch bonnet pepper and cook for 1 minute more. Remove from the heat.",
    "Stir the remaining 30 ml lime juice, the remaining 1/2 tsp salt and the parsley into the sauce.",
@@ -69,5 +69,14 @@
   "tr": "Scotch bonnet biberi çok acıdır; daha yumuşak bir tat için çekirdeklerini tamamen çıkarın veya biberi tamamen atlayın.",
   "en": "Scotch bonnet is very hot; remove all seeds for a milder sauce or leave it out entirely."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Final internal temperature of 60 °C (step 4, both languages) is below the 63 °C (145 °F) food-safety guideline for fish.",
+   "Turkish step 3 says \"Izgara ızgarasını\", which is an awkward repetition. The natural term is \"Izgara rafını\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

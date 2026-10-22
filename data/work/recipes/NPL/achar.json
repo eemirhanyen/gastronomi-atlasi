@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Achar (turşu sosu)",
+  "tr": "Achar (domates sosu)",
   "en": "Achar (tomato achar)"
  },
  "native": "अचार",
@@ -46,11 +46,11 @@
  "steps": {
   "tr": [
    "Kuru bir tavada kimyon ve çemen tohumlarını 1-2 dakika, koku çıkana kadar kavurun.",
-   "Kavrulmuş tohumları timur ile birlikte havanda ya da baharat öğütücüsünde toz haline getirin.",
+   "Kavrulmuş tohumları timur ile birlikte havanda ya da baharat öğütücüsünde kabaca toz haline getirin.",
    "Domatesleri ve yeşil biberleri kuru tavada 10 dakika, sık sık çevirerek kabukları kabarana kadar kavurun.",
    "Domates ve biberleri soyun, domatesleri kabaca doğrayın.",
    "Sarımsak ve zencefili tuzla birlikte havanda ezerek macun yapın.",
-   "Hardal yağını duman çıkana kadar ısıtın, ardından ocağı kısıp yağın biraz soğumasını bekleyin.",
+   "Hardal yağını duman çıkana kadar ısıtın, ardından ocağı kısıp yağın yaklaşık 1 dakika soğumasını bekleyin.",
    "Zerdeçal ve kırmızı pul biberi yağa ekleyip 10 saniye karıştırın.",
    "Doğranmış domatesleri ve biberleri ekleyip ezerek 5-7 dakika pişirin.",
    "Öğütülmüş baharat karışımını, sarımsak-zencefil macununu ve limon suyunu ekleyip 1 dakika daha karıştırın.",
@@ -70,8 +70,19 @@
   ]
  },
  "tip": {
-  "tr": "Timur taneleri dilde hafif uyuşturucu bir his bırakır; bu Nepal achar'ının karakteristik tadıdır, o yüzden miktarı ayarlayarak deneyin.",
+  "tr": "Timur taneleri dilde hafif karıncalanma ve uyuşma hissi bırakır; bu Nepal achar'ının karakteristik tadıdır, o yüzden miktarı damak zevkinize göre ayarlayarak deneyin.",
   "en": "Timur leaves a mild tingling numbness on the tongue, which is the signature of Nepali achar, so adjust the amount to taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Achar (turşu sosu)' suggests a pickle, but this is a cooked fresh tomato condiment; the English name says 'tomato achar'.",
+   "Turkish step 2 says to grind to 'toz' (powder), while the English says 'coarse powder'.",
+   "Turkish step 6 has no cooling time, while the English says 'about a minute'.",
+   "Turkish tip uses 'uyuşturucu' (narcotic/drug), which is unnatural for describing timur's tingling effect; English says 'mild tingling numbness'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

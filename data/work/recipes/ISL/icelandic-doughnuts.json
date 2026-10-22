@@ -39,15 +39,15 @@
  },
  "steps": {
   "tr": [
-   "Yumurtaları ve toz şekeri bir kasede, şeker tamamen çözününceye ve karışım açılana kadar 3 dakika çırpın.",
+   "Yumurtaları ve toz şekeri bir kasede, şeker tamamen çözünene kadar ve karışım açılana kadar 3 dakika çırpın.",
    "Eriyip soğuyan tereyağını ve sütü ekleyip karıştırın.",
    "Ayrı bir kapta unu, kabartma tozunu, öğütülmüş kakuleyi, rendelenmiş hindistan cevizini ve tuzu iyice karıştırın.",
    "Kuru karışımı yavaş yavaş yaş karışıma ekleyip yumuşak, hafif yapışkan bir hamur elde edene kadar yoğurun. Gerekirse birkaç çay kaşığı un ekleyin.",
    "Hamuru streç film ile sarıp buzdolabında 30 dakika dinlendirin.",
    "Hamuru un serpilmiş bir tezgâhta yaklaşık 5 mm kalınlığında dikdörtgen olacak şekilde açın. Hamuru 10 x 2 cm boyutunda şeritlere kesin.",
    "Her şeridin ortasına parmağınızla ya da bıçakla kısa bir yarık açın, bir ucunu yarıktan geçirip hafifçe çevirerek bükün.",
-   "Derin bir tencerede 1 litre kızartma yağını 170°C'ye kadar ısıtın. Yağ ısınırken tuzlu bir tabağa ya da kağıt havlu serilmiş bir tabağa hazırlık yapın.",
-   "Kleinurları gruplar halinde yağa koyun ve her iki tarafı 1-2 dakika, altın rengi olana kadar kızartın.",
+   "Derin bir tencerede 1 litre kızartma yağını 170°C'ye kadar ısıtın. Yağ ısınırken kağıt havlu serilmiş bir tabak hazırlayın.",
+   "Kleinurları gruplar halinde yağa koyun ve her iki tarafı 2-3 dakika, altın rengi olana kadar kızartın.",
    "Kızaran kleinurları kağıt havlu üzerine alıp fazla yağlarını süzün, ılındıktan sonra servis yapın."
   ],
   "en": [
@@ -59,7 +59,7 @@
    "On a floured surface, roll the dough to about 5 mm thick in a rectangle. Cut it into strips about 10 x 2 cm.",
    "Make a short slit in the centre of each strip with your finger or a knife, then pull one end through the slit and twist gently.",
    "Heat 1 litre of frying oil in a deep pan to 170°C. Set a plate lined with kitchen paper nearby.",
-   "Fry the kleinur in batches for 1-2 minutes per side, until golden brown on both sides.",
+   "Fry the kleinur in batches for 2-3 minutes per side, until golden brown on both sides.",
    "Transfer the fried kleinur to the paper-lined plate to drain off excess oil, and serve once they have cooled slightly."
   ]
  },
@@ -67,5 +67,15 @@
   "tr": "Yağ sıcaklığını 170°C'de sabit tutun; yağ çok sıcak olursa dış kısmı hemen koyulaşır, içi ise pişmeden kalır.",
   "en": "Keep the oil steady at 170°C; if it is too hot the outside darkens quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 offers a 'tuzlu bir tabak' (salted plate) option that the English version does not mention; the English specifies only a plate lined with kitchen paper.",
+   "Frying time of 1-2 minutes per side is likely too short for 5 mm thick dough twists, which risks a raw centre (flour and egg). The tip itself warns about this.",
+   "Turkish step 1 uses 'çözününceye', a non-standard form; 'çözünene kadar' is the natural wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

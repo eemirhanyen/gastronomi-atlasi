@@ -43,13 +43,13 @@
  },
  "steps": {
   "tr": [
-   "Nopalları küp doğrayıp kaynayan suda 5 dakika haşlayın, süzün ve bir kenara alın.",
+   "Nopalları küp doğrayıp tuzlu kaynayan suda 5 dakika haşlayın, süzün ve bir kenara alın.",
    "Fasulyeleri bir tavada 1 yemek kaşığı yağla orta ateşte 5 dakika kadar kızartın, ezerek koyu kıvamlı bir fasulye püresi elde edin. Tuzla tatlandırın ve soğumaya bırakın.",
    "Büyük bir kapta masa harina ve tuzu karıştırın. Manteca'yı ekleyip parmaklarınızla unla ovalayın.",
    "Ilık suyu yavaş yavaş ekleyerek yumuşak, yapışmayan bir hamur yoğurun. Hamuru nemli bir bezle örtüp 10 dakika dinlendirin.",
    "Hamuru 8 eşit topa bölün (yaklaşık 55-60 g). Her topu avucunuzda yassılaştırıp ortasını parmağınızla hafifçe çukurlaştırın.",
    "Çukura 1,5 yemek kaşığı fasulye koyun ve kenarları kapatıp topu tekrar yuvarlayın. Ellerinizle iki ucu sivri, oval bir şekil verip hafifçe yassılaştırın.",
-   "Komalı veya kalın dipli bir tavayı orta-yüksek ateşte iyice ısıtın (yaklaşık 180-200 °C) ve yağ kullanmadan tlakoyoları 4-5 dakika pişirin, üzerleri kuruyup hafif kızarana kadar çevirerek devam edin.",
+   "Komal veya kalın dipli bir tavayı orta-yüksek ateşte iyice ısıtın (yaklaşık 180-200 °C) ve yağ kullanmadan tlakoyoları her yüzü 4-5 dakika pişirin, üzerleri kuruyup hafif kızarana kadar çevirerek devam edin.",
    "Pişen tlakoyoları sıcakken kenarlarından hafifçe açıp ya da üzerlerine nopal, ufalanmış taze peynir, soğan ve kişniş serpin.",
    "Salsa roja ile servis yapın ve yanına limon dilimleri koyun."
   ],
@@ -69,5 +69,15 @@
   "tr": "Hamuru nemli tutun ve çok sert yoğurmayın; çatlıyorsa birkaç damla su ekleyin. Tavayı yağsız ve iyice ısıtmak, tlakoyoların yapışmadan kızarmasını sağlar.",
   "en": "Keep the dough moist and avoid overworking it; if it cracks, add a few drops of water. A dry, well-heated pan lets the tlacoyos brown without sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 boils the nopal in plain 'kaynayan su', but the English step says 'salted water'. The Turkish should add salt.",
+   "Cooking time in the Turkish step 7 ('4-5 dakika', turning) doesn't match the English 'per side'. Both should say the same thing.",
+   "Turkish step 7 says 'Komalı' and the English says 'comal', so the Turkish should use the standard term 'komal' for the griddle."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

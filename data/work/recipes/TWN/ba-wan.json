@@ -58,8 +58,8 @@
  "steps": {
   "tr": [
    "Kuru shiitake mantarlarını ılık suda 20 dakika bekletin, süzün ve ince doğrayın.",
-   "Tavayı orta ateşte 10 ml yağla ısıtın, arpacık soğanını yumuşayıp hafif altın rengi alana kadar yaklaşık 3 dakika soteleyin.",
-   "Kıymayı, doğranmış mantarı, soteleneden soğanı, 15 ml soya sosunu, 5 g şekeri ve 1 g karabiberi bir kasede iyice karıştırın. Dolguyu soğumaya bırakın.",
+   "Tavayı orta ateşte 10 ml yağla ısıtın, arpacık soğanını yumuşayıp hafif altın rengi alana kadar yaklaşık 3 dakika soteleyin. Kıymayı ekleyip parçalayarak, rengi tamamen değişip iyice pişene kadar (yaklaşık 5-7 dakika) kavurun. Ocaktan alıp soğumaya bırakın.",
+   "Pişmiş kıymayı, doğranmış mantarı, soteleneden soğanı, 15 ml soya sosunu, 5 g şekeri ve 1 g karabiberi bir kasede iyice karıştırın. Dolguyu tamamen soğumaya bırakın.",
    "Tapyoka nişastasını, pirinç unu ve 3 g tuzu geniş bir kapta karıştırın. 200 ml kaynar suyu ekleyip önce bir kaşıkla, sonra elle hamur kıvamına gelene kadar karıştırın.",
    "Kalan 15 ml yağı hamura ekleyin ve yaklaşık 5 dakika pürüzsüz ve elastik olana kadar yoğurun. Üzerini örtüp 10 dakika dinlendirin.",
    "Hamuru 12 eşit parçaya bölün. Her parçayı elinizle yağlayarak 10 cm çapında, kenarları ince bir daire haline getirin.",
@@ -71,8 +71,8 @@
   ],
   "en": [
    "Soak the dried shiitake mushrooms in lukewarm water for 20 minutes, drain, and finely chop them.",
-   "Heat 10 ml of the oil in a pan over medium heat and sauté the shallot for about 3 minutes until soft and lightly golden.",
-   "In a bowl, mix the ground pork, chopped mushrooms, sautéed shallot, 15 ml soy sauce, 5 g sugar, and 1 g black pepper thoroughly. Let the filling cool.",
+   "Heat 10 ml of the oil in a pan over medium heat and sauté the shallot for about 3 minutes until soft and lightly golden. Add the ground pork and brown it, breaking it up, until fully cooked with no pink remaining (about 5-7 minutes). Remove from heat and let cool.",
+   "In a bowl, mix the cooked ground pork, chopped mushrooms, sautéed shallot, 15 ml soy sauce, 5 g sugar, and 1 g black pepper thoroughly. Let the filling cool completely.",
    "In a large bowl, combine the tapioca starch, rice flour, and 3 g salt. Add the 200 ml boiling water and stir first with a spoon, then by hand, until it forms a dough.",
    "Add the remaining 15 ml oil to the dough and knead for about 5 minutes until smooth and elastic. Cover and rest for 10 minutes.",
    "Divide the dough into 12 equal pieces. Brush your hands with oil and flatten each piece into a thin 10 cm round with thin edges.",
@@ -87,5 +87,13 @@
   "tr": "Hamur çok yapışkan olursa tapyoka nişastasından birkaç gram daha ekleyin; kuru kalırsa az miktarda kaynar su ile yoğurun.",
   "en": "If the dough is too sticky, add a few more grams of tapioca starch; if it feels dry, knead in a small amount of boiling water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Raw ground pork is mixed into the filling and only steamed for 15-18 minutes, so it is never fully cooked beforehand. This is a food-safety risk. The pork should be cooked in the pan with the shallot "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

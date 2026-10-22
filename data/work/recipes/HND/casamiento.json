@@ -25,6 +25,7 @@
    "4 g tuz, tadına göre",
    "Karabiber, tadına göre",
    "4 yumurta",
+   "15 ml bitkisel yağ (yumurtalar için)",
    "60 ml bitkisel yağ (muzu kızartmak için)",
    "2 olgun plantain muzu (400 g), eğik dilimlenmiş",
    "120 g taze beyaz peynir (queso fresco), ufalanmış",
@@ -43,6 +44,7 @@
    "4 g salt, to taste",
    "Black pepper, to taste",
    "4 eggs",
+   "15 ml vegetable oil (for frying the eggs)",
    "60 ml vegetable oil (for frying the plantains)",
    "2 ripe plantains (400 g), sliced on the diagonal",
    "120 g fresh queso fresco, crumbled",
@@ -77,5 +79,13 @@
   "tr": "Pirinç taze pişmişse yapışkanlaşır; bir gün önceden pişirilip buzdolabında bekletilmiş pirinç kullanın ki tanelerini koruyarak kavrulsun.",
   "en": "Freshly cooked rice turns mushy; use rice cooked a day earlier and chilled so the grains stay separate while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (TR and EN) tells the cook to fry the eggs in 1 yemek kaşığı (about 15 ml) of oil, but no egg-frying oil appears in the ingredient lists. The only oil listed for later use is the 60 ml for the "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

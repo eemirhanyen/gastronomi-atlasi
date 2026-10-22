@@ -13,9 +13,9 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g beyaz balık filetosu (lüfer, kızılcık ya da tilapia)",
+   "500 g beyaz balık filetosu (çupra, lahoz ya da tilapia)",
    "1 limonun suyu",
-   "Tuz",
+   "1 çay kaşığı tuz",
    "1,2 litre su",
    "1 büyük soğan (yaklaşık 120 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -29,7 +29,7 @@
   "en": [
    "500 g white fish fillets (such as bream, grouper or tilapia)",
    "Juice of 1 lime",
-   "Salt",
+   "1 teaspoon salt",
    "1.2 litres water",
    "1 large onion (about 120 g), finely chopped",
    "2 garlic cloves, crushed",
@@ -47,7 +47,7 @@
    "Büyük bir tencerede suyu kaynatın. Soğan, sarımsak, domates, acı biber, palm yağı ve 1 çay kaşığı tuzu ekleyip 5 dakika pişirin.",
    "Balık filetolarını tencereye yerleştirin ve kısık ateşte 8-10 dakika, balık ayrılana kadar pişirin.",
    "Balıkları süzgecin üzerine alıp dikkatle çatallayarak parçalayın, kılçıkları ayıklayın. Pişirme suyunu süzgeçten geçirip yaklaşık 1 litre kadarını ayırın.",
-   "Ayırdığınız suyu tencereye geri koyup kaynatın. Ateşi kısın ve mandiokaununu azar azar ekleyin, sürekli karıştırarak topaklanma olmadan pürüzsüz bir hamur elde edin.",
+   "Ayırdığınız suyu tencereye geri koyup kaynatın. Ateşi kısın ve mandioka unu azar azar ekleyin, sürekli karıştırarak topaklanma olmadan pürüzsüz bir hamur elde edin.",
    "Karışım koyulaşıp kaşıktan yavaşça dökülecek kıvama gelene kadar 5-7 dakika pişirmeye devam edin.",
    "Parçalanmış balığı, doğranmış kişniş ve maydanozu ekleyip nazikçe karıştırın, 1-2 dakika daha pişirin.",
    "Tuzunu kontrol edip sıcak olarak servis edin."
@@ -67,5 +67,15 @@
   "tr": "Mandioka unu sıcak sıvıya yavaş yavaş eklenmeli ve hızlı karıştırılmalıdır; aksi halde topaklar oluşur. Sıcak pirão'yu kısa sürede koyulaştığı için tencereyi ocaktan almadan önce kıvamını kontrol edin.",
   "en": "Add the cassava flour slowly to the hot liquid and whisk quickly, or lumps will form. Pirão thickens fast, so check the consistency before removing the pot from the heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English fish options disagree: TR lists 'lüfer, kızılcık, tilapia' while EN lists 'bream, grouper, tilapia'. Lüfer is bluefish, not bream, and kızılcık is not grouper.",
+   "Salt in the ingredient list has no quantity in either language, but the steps call for 1 teaspoon.",
+   "Typo in TR step 5: 'mandiokaunu' should be 'mandioka unu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

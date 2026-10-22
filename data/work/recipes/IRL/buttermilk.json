@@ -9,7 +9,7 @@
   "en": "A slightly sour, creamy drink made from the liquid left after churning butter. In Irish farmhouses it was traditionally served cold, often with potato dishes."
  },
  "servings": 4,
- "time_min": 45,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,5 +51,13 @@
   "tr": "Kremayı oda sıcaklığında çırparsanız tereyağı daha hızlı ayrılır; çırpma sırasında kabı sık sık kontrol edin, aşırı çırpılırsa yağ parçalanır.",
   "en": "Churn the cream at about 15-18 °C for the fastest separation. Watch closely near the end, as over-churning can make the butter grainy and break it into small pieces."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 45, but the steps add up to well over that: 1 hour of resting the cream, 10-15 minutes of churning, rinsing, and at least 1 hour of chilling. Total time is about 2.5 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

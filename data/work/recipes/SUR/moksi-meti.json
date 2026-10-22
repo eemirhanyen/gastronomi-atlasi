@@ -47,8 +47,8 @@
    "Muzları ve manyoku 4-5 cm'lik parçalara kesin. Tencereye ekleyip yaklaşık 20 dakika daha, sebzeler çatalla kolayca ezilebilecek kadar yumuşayana kadar pişirin.",
    "Bu sırada bir tavada sıvı yağı ısıtın. Soğanı ekleyip pembeleşene kadar yaklaşık 5 dakika kavurun, sarımsağı ekleyip 1 dakika daha pişirin ve ocaktan alın.",
    "Pişen malzemeleri süzün ve yaklaşık 150 ml pişirme suyunu ayırın. Bütün biberi çıkarıp atın.",
-   "Et parçalarını bir tabağa alın, kemiklerini ayıklayıp kıymasını kabaca doğrayın.",
-   "Muz ve manyoku geniş bir kaba alıp tereyağı, hindistan cevizi sütü, kavrulmuş soğan-sarımsak ve ayırdığınız pişirme suyunun bir kısmıyla pürüzsüz ama hafif lifli bir hamur olana kadar ezin. Kıyılmış eti ekleyip iyice karıştırın.",
+   "Et parçalarını bir tabağa alın, kemiklerini ayıklayıp etini kabaca parçalayın.",
+   "Muz ve manyoku geniş bir kaba alıp tereyağı, hindistan cevizi sütü, kavrulmuş soğan-sarımsak ve ayırdığınız pişirme suyunun bir kısmıyla pürüzsüz ama hafif lifli bir hamur olana kadar ezin. Parçalanmış eti ekleyip iyice karıştırın.",
    "Tuzu ekleyip tadına bakın, gerekirse kıvamı ayarlamak için kalan pişirme suyunu azar azar ekleyin. Sıcakken, ıslatılmış ellerle oval köfteler ya da dilimlenebilir bir ruloya şekil verin ve servis yapın."
   ],
   "en": [
@@ -65,5 +65,13 @@
   "tr": "Muzları ve manyoku sıcakken ezmek, kıvamın pürüzsüz ve yapışkan olmasını sağlar; soğuyunca hamur sertleşir.",
   "en": "Mash the plantain and cassava while they are hot; once cold, the mixture becomes stiff and gluey."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 and step 6 use \"kıyma\" (minced meat) for the pork, but the English says the meat is shredded into pieces, so the Turkish is wrong and unnatural here."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

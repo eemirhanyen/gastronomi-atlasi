@@ -61,13 +61,13 @@
   "tr": [
    "Kuru üzüm, sultana, Korint üzümü, turunçgil kabuğu ve portakal ile limon kabuklarını büyük bir kaseye koyun. Üzerine brendiyi dökün, karıştırın, örtün ve en az 8 saat ya da bir gece boyunca bekletin.",
    "Ertesi gün büyük bir kapta çok amaçlı unu, ekmek içini, rendelenmiş suet'i, esmer şekeri, karışık baharatı, tarçını, muskadı, tuzu ve doğranmış bademleri karıştırın.",
-   "Rendelenmiş elmayı, çırpılmış yumurtaları, siyah meláseyi ve bira (stout) ekleyip iyice karıştırın.",
+   "Rendelenmiş elmayı, çırpılmış yumurtaları, siyah melası ve bira (stout) ekleyip iyice karıştırın.",
    "Bekletilmiş meyveleri ve kalan brendiyi karışıma ekleyip homojen hale gelene kadar yedirin. Örtüp yaklaşık 30 dakika dinlendirin.",
    "1 litrelik puding kalıbını yumuşak tereyağı ile yağlayın. Bir parça yağlı kâğıdı da yağlayıp kalıbın üstünü kapatacak şekilde hazırlayın.",
    "Hamuru kalıba doldurun, yüzeyini düzeltin ve kenarda yaklaşık 2 cm boşluk bırakın. Yağlı kâğıdı ortasından kıvrım yapacak şekilde kalıbın üzerine kapatın, üzerine folyo örtüp kalıbın ağzının altından ip ile sıkıca bağlayın ve bir tutamak oluşturun.",
    "Kalıbı buharda pişirme düzeneğine ya da büyük bir tencereye, altına bir sehpa koyarak yerleştirin. Suyun kalıbın yarısına kadar gelmesini sağlayın, kapağı kapatın ve 3 saat kısık ateşte kaynatın. Su azalırsa kaynar su ekleyin.",
    "Pudingi soğumaya bırakın. Kâğıt ve folyoyu çıkarıp yenisiyle değiştirin ve serin, karanlık bir yerde saklayın. Altı haftaya kadar bekletilebilir.",
-   "Servis günü pudingi 2 saat buharda tekrar ısıtın. Kalıptan dikkatlice çıkarın, 30 ml brendiyi ısıtıp üzerine dökün, alevlendirin ve sıcak servis edin."
+   "Servis günü pudingi 2 saat buharda tekrar ısıtın. Kalıptan dikkatlice, ılık bir tabağa ters çevirerek çıkarın. 30 ml brendiyi ısıtıp üzerine dökün, alevlendirin ve sıcak custard sosuyla birlikte sıcak servis edin."
   ],
   "en": [
    "Put the raisins, sultanas, currants, candied peel and the orange and lemon zest in a large bowl. Pour over the brandy, stir, cover and leave to soak for at least 8 hours or overnight.",
@@ -85,5 +85,15 @@
   "tr": "Pudingin buharda pişirilirken suyun tencerede hiç bitmemesine dikkat edin; yanında her zaman kaynar su hazır bulundurun.",
   "en": "Keep a kettle of boiling water beside the pan during steaming so the water never runs dry, and check the lid is tight to keep the pudding moist."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 omits the custard serving detail that the English step includes",
+   "Turkish step 9 omits the warm plate used for turning out the pudding",
+   "Typo 'meláse' in Turkish steps 2 and 3 (should be 'melas')"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

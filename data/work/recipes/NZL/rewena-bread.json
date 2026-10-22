@@ -9,7 +9,7 @@
   "en": "A dense, lightly sour bread from the Māori people of New Zealand, leavened with a potato-based natural starter called rewena. Traditionally served at family gatherings and at the table, often spread with butter."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -42,7 +42,7 @@
    "Hamuru üzeri örtülü olarak 25-30°C'lik sıcak bir yerde 2-3 gün bekletin. Her gün karıştırın; kabarcıklanıp ekşi koktuğunda hazırdır.",
    "Ekmek hamuru için 300 g unu geniş bir kaba alın ve 6 g tuzla karıştırın.",
    "Ayrı bir kapta 150 ml ılık suyu, 4 g şekeri ve 120 g rewenayı iyice karıştırın.",
-   "Sıvı karışımı unun içine dökün ve elle yumuşak, yapışkan olmayan bir hamur oluşana kadar yoğurun.",
+   "Sıvı karışımı unun içine dökün ve elle yumuşak, hafif yapışkan bir hamur oluşana kadar yoğurun.",
    "Hamuru 8-10 dakika pürüzsüz ve esnek olana kadar yoğurun. Üzerini örtüp 25-27°C'de 1,5-2 saat, iki katına çıkana kadar mayalandırın.",
    "Hamuru hafifçe bastırıp gazını alın, yuvarlak ya da oval bir somun şekline getirin. Unlanmış fırın tepsisine alın, örtün ve 45-60 dakika dinlendirin.",
    "Fırını 220°C'ye ısıtın. Somunun üstüne derin bir çizik atın ve 15 dakika 220°C'de pişirin.",
@@ -67,5 +67,14 @@
   "tr": "Hazır rewenanın bir kısmını (yaklaşık 120 g) bir sonraki pişirme için buzdolabında saklayın; her hafta eşit miktarda un ve su ekleyerek besleyin.",
   "en": "Keep about 120 g of the rewena in the fridge for your next bake, and feed it weekly with equal amounts of flour and water to keep it active."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the dough should be non-sticky ('yapışkan olmayan'), but the English says 'slightly sticky'. The Turkish should match.",
+   "time_min is 60, but the method needs roughly 4 hours of bread-making time (1.5-2 h proving, 45-60 min rest, about 40 min baking, 30 min cooling), plus 2-3 days for the rewena. The total is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

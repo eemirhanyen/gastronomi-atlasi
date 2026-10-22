@@ -5,7 +5,7 @@
  },
  "native": "Quesillo",
  "desc": {
-  "tr": "Venezuela'nın en sevilen tatlılarından biri olan quesillo, karamel kaplı yoğun bir muhallebi-muhallebi benzeri tatlıdır. Aile sofralarında, doğum günlerinde ve bayramlarda, özellikle de Noel döneminde servis edilir.",
+  "tr": "Venezuela'nın en sevilen tatlılarından biri olan quesillo, karamel kaplı yoğun kıvamlı bir muhallebi benzeri tatlıdır. Aile sofralarında, doğum günlerinde ve bayramlarda, özellikle de Noel döneminde servis edilir.",
   "en": "Quesillo is one of Venezuela's best-loved desserts, a dense, caramel-coated custard similar to flan. It is served at family meals, birthdays and especially during the Christmas season."
  },
  "servings": 4,
@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Fırını 160°C'ye ısıtın. Yaklaşık 18 cm çapında, yaklaşık 1 litrelik bir kalıbı hazır bulundurun.",
-   "Kalın tabanlı bir tencerede şekeri suyla birlikte orta-yüksek ateşte karıştırmadan pişirin. Şeker kehribar rengini alınca ateşi kapatın ve karamelü hemen kalıbın tabanına ve kenarlarına yayın.",
+   "Kalın tabanlı bir tencerede şekeri suyla birlikte orta-yüksek ateşte karıştırmadan pişirin. Şeker kehribar rengini alınca ateşi kapatın ve karameli hemen kalıbın tabanına ve kenarlarına yayın.",
    "Ayrı bir kapta yumurtaları, yoğunlaştırılmış sütü, buharlaştırılmış sütü, tam yağlı sütü, vanilya özünü ve tuzu pürüzsüz olana kadar çırpın.",
    "Karışımı karamelli kalıba dökün. Kalıbı, sıcak su dolu daha geniş bir fırın tepsisinin içine yerleştirin; su kalıbın yarısına kadar gelmelidir.",
    "Tepsiyi fırına koyun ve 50-60 dakika pişirin. Ortası hafifçe titreyip kenarları sabitleşmişse hazırdır.",
@@ -54,8 +54,18 @@
   ]
  },
  "tip": {
-  "tr": "Karamelin kalıp dibinde kalması için kalıbı yerleştirmeden önce biraz bekletin; muhallebinin kabarcıklı olmaması için karışımı dökmeden önce süzmek de işe yarar.",
+  "tr": "Muhallebinin kabarcıklı olmaması için karışımı dökmeden önce süzün ve kalıbı, muhallebi dökmeden önce biraz soğumaya bırakın.",
   "en": "Let the mould cool slightly before pouring in the custard, and strain the mixture through a fine sieve to ensure a smooth, bubble-free texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip does not match English: the English says to let the mould cool before pouring in the custard, but the Turkish says to let the caramel settle before placing the mould.",
+   "Turkish description has an awkward repetition: 'muhallebi-muhallebi benzeri'.",
+   "Turkish step 2 uses 'karamelü', which is not correct Turkish; 'karameli' is the right form."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

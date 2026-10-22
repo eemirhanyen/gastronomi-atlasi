@@ -38,7 +38,7 @@
  "steps": {
   "tr": [
    "Ton balığını küpler halinde doğrayın ve cam veya paslanmaz çelik bir kaseye alın.",
-   "Lime suyunu balığın üzerine dökün, iyice karıştırın ve oda sıcaklığında 15 dakika marine etmeye bırakın. Balığın dış yüzeyi beyazlaşmaya başlayacaktır.",
+   "Lime suyunu balığın üzerine dökün, iyice karıştırın ve buzdolabında (4°C'nin altında) 15 dakika marine etmeye bırakın. Balığın dış yüzeyi beyazlaşmaya başlayacaktır.",
    "Kasedeki sıvının yaklaşık yarısını dökün.",
    "Hindistan cevizi kremasını, deniz tuzunu, kırmızı soğanı, domatesi, salatalığı, yeşil soğanı ve isteğe bağlı kırmızı biberi ekleyin.",
    "Malzemeleri nazikçe karıştırın, böylece balık parçaları dağılmadan sebzelerle birleşsin.",
@@ -47,7 +47,7 @@
   ],
   "en": [
    "Cut the tuna into 1.5 cm cubes and place them in a glass or stainless steel bowl.",
-   "Pour the lime juice over the fish, stir well and leave to marinate at room temperature for 15 minutes. The outside of the fish will start to turn opaque.",
+   "Pour the lime juice over the fish, stir well and leave to marinate in the refrigerator (below 4°C) for 15 minutes. The outside of the fish will start to turn opaque.",
    "Pour off about half of the liquid from the bowl.",
    "Add the coconut cream, sea salt, red onion, tomatoes, cucumber, spring onion and the optional chilli.",
    "Stir gently so the fish pieces combine with the vegetables without breaking up.",
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığı mutlaka taze ve sashimi kalitesinde alın; yarı pişmiş görünümü yerine tam asit marinasyonu yalnızca çok taze balıkta güvenli ve lezzetlidir.",
-  "en": "Use very fresh, sashimi-grade fish and keep it refrigerated until the moment you cut it; the lime marinade only gives a good, safe texture with truly fresh tuna."
+  "tr": "Limon suyu bakteri ve parazitleri güvenilir biçimde öldürmez; bu nedenle balığı mutlaka sashimi kalitesinde, taze alın ve servise kadar soğuk zincirde tutun. Parazit riskini azaltmak için yerel gıda güvenliği kurallarına uygun şekilde önceden dondurulmuş balık tercih edin.",
+  "en": "Lime juice does not reliably kill bacteria or parasites, so use sashimi-grade fish that is very fresh and keep it cold until serving. To reduce parasite risk, prefer fish that has been frozen beforehand according to local food safety guidelines."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 marinates raw tuna at room temperature, which is a food-safety risk. It should be refrigerated.",
+   "The tip says the lime marinade makes the fish safe. Lime juice does not reliably kill bacteria or parasites, so this claim is dangerous and must be corrected in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

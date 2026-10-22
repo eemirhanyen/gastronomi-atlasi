@@ -52,11 +52,11 @@
  "steps": {
   "tr": [
    "Manyoğu 2-3 parça halinde kesin, tuzlu suda yumuşayana kadar (yaklaşık 20-25 dakika) haşlayın, süzün ve sıcakken iyice ezin.",
-   "Ezilmiş manyoğun içine tereyağı, yumurta, buğday unu ve 1 çay kaşığı tuz ekleyin. Pürüzsüz, elde yapışmayan bir hamur olana kadar yoğurun, streç filmle sarıp dinlenmeye bırakın.",
+   "Ezilmiş manyoğun içine tereyağı, yumurta, buğday unu ve 1 çay kaşığı tuz ekleyin. Pürüzsüz, elde yapışmayan bir hamur olana kadar yoğurun, streç filmle sarıp yaklaşık 15 dakika dinlenmeye bırakın.",
    "Büyük bir tavada 1 yemek kaşığı sıvı yağı orta ateşte ısıtın. Soğanı ve sarımsağı yumuşayana kadar yaklaşık 4 dakika kavurun.",
    "Kıymayı ekleyip suyunu çekene ve rengi değişene kadar pişirin. Domatesi, paprikayı ve kimyonu ekleyip 5 dakika daha pişirin, tuz ve karabiberle tatlandırın.",
    "Ocaktan alıp yeşil soğanı karıştırın ve iç harcı soğumaya bırakın. Soğuyunca peyniri ekleyin.",
-   "Hamuru 8 eşit topa bölün. Her topu iki streç film arasında veya unlu tezgâhta yaklaşık 10 cm çapında, 3 mm kalınlığında yuvarlak bir yufka gibi açın.",
+   "Hamuru 12 eşit topa bölün. Her topu iki streç film arasında veya unlu tezgâhta yaklaşık 15 cm çapında, 3 mm kalınlığında yuvarlak bir yufka gibi açın.",
    "Her hamur diskinin bir yarısına 1-2 yemek kaşığı iç harç koyun. Kenarlarını nemlendirin, diğer yarısını üzerine katlayın ve kenarlarını çatal ile iyice bastırarak kapatın.",
    "Derin bir tencerede ayçiçek yağını 170 °C'ye kadar ısıtın. Pastelleri gruplar halinde, altın sarısı ve çıtır olana kadar yaklaşık 4-5 dakika kızartın.",
    "Kağıt havlu üzerinde yağını süzün ve sıcak servis yapın."
@@ -67,7 +67,7 @@
    "Heat 1 tbsp vegetable oil in a large pan over medium heat. Cook the onion and garlic until soft, about 4 minutes.",
    "Add the beef and cook until the liquid evaporates and it is no longer pink. Stir in the tomato, paprika and cumin and cook 5 minutes more. Season with salt and black pepper.",
    "Remove from the heat, stir in the spring onion and let the filling cool. Once cool, mix in the cheese cubes.",
-   "Divide the dough into 8 equal balls. Roll each between two sheets of cling film or on a floured surface into a round about 10 cm across and 3 mm thick.",
+   "Divide the dough into 12 equal balls. Roll each between two sheets of cling film or on a floured surface into a round about 15 cm across and 3 mm thick.",
    "Place 1-2 tbsp of filling on one half of each disc. Brush the edges with water, fold the other half over and press the edges firmly with a fork to seal.",
    "Heat the sunflower oil to 170 °C in a deep pot. Fry the pastries in batches for about 4-5 minutes until golden and crisp.",
    "Drain on kitchen paper and serve hot."
@@ -77,5 +77,14 @@
   "tr": "Manyok hamurunun çatlamaması için manyoğu sıcakken ezin ve hamuru yoğurduktan sonra mutlaka dinlendirin; yağ sıcaklığını termometreyle kontrol edin.",
   "en": "Mash the cassava while it is still hot and let the dough rest so it does not crack when rolled; check that the oil stays near 170 °C, as the dough absorbs oil if it is too cool."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough quantity does not match the disc size: about 700 g of dough divided into 8 balls gives ~88 g each, but a 10 cm disc at 3 mm thick uses only ~25-30 g. Dividing into 12 balls and rolling ~15 cm di",
+   "Resting time is given in the English step 2 (15 minutes) but missing from the Turkish version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,7 +21,7 @@
    "120 g süzme yoğurt veya yoğurt",
    "60 ml ayçiçek yağı",
    "1 yumurta",
-   "120 g beyaz peynir (sirene veya lor değil, feta tipi)",
+   "120 g beyaz peynir (sirene veya feta tipi, lor değil)",
    "15 ml süt ve 1 yumurta sarısı (üstü için)",
    "10 g susam (isteğe bağlı)"
   ],
@@ -44,7 +44,7 @@
    "Ilık suyu bir kasede hafifçe ısıtın, mayayı ve şekeri ekleyip karıştırın. 5 dakika dinlendirin, köpüklenene kadar bekleyin.",
    "Büyük bir kaba unu ve tuzu koyun. Ortasında bir çukur açın.",
    "Köpüren maya karışımını, yoğurdu, yağı ve yumurtayı çukura ekleyin. Unu yavaş yavaş içine katarak yumuşak, hafif yapışkan bir hamur elde edin.",
-   "Hamuru tezgâh üzerinde 8-10 dakika yoğurun, pürüzsüz ve elastik olana kadar devam edin.",
+   "Hamuru hafifçe unlanmış tezgâh üzerinde 8-10 dakika yoğurun, pürüzsüz ve elastik olana kadar devam edin.",
    "Hamuru kaba bir kaseye alın, nemli bir bezle örtün ve sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalandırın.",
    "Peyniri ufalayın. Hamuru hafifçe bastırıp gazını alın ve ikiye bölün. Her parçadan yuvarlak bir top yapın.",
    "Fırın tepsisine yağlı kağıt serin. Topları tepsiye yerleştirin, ortalarını parmağınızla hafifçe çukurlaştırın ve ufalanmış peynirin yarısını çukurlara koyun. Kenarlarını kapatıp tekrar yuvarlayın, kalan peyniri üstüne bastırın.",
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Peynir çok tuzluysa servis öncesi suda 10 dakika bekletip süzün; bu, hamuru fazla tuzlamadan lezzetini dengeler.",
+  "tr": "Peynir çok tuzluysa kullanmadan önce suda 10 dakika bekletip süzün; bu, hamuru fazla tuzlamadan lezzetini dengeler.",
   "en": "If the cheese is very salty, soak it in water for 10 minutes and drain before using to balance the flavour without oversalting the dough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to soak the cheese 'servis öncesi' (before serving), but the English says 'before using' (before adding to the dough). The Turkish should match the English.",
+   "Turkish ingredient wording 'sirene veya lor değil, feta tipi' is confusing. It should state clearly that the cheese is sirene or feta-type, not lor.",
+   "Turkish step 4 omits the light flouring of the work surface that the English step specifies."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

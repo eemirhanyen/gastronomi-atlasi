@@ -8,8 +8,8 @@
   "tr": "İsveç'te Noel ve Lucia günü dönemlerinde, sıcak içeceklerin yanında ikram edilen baharatlı, ince bisküvilerdir. Evlerde kesilip süslenerek hazırlanır.",
   "en": "These thin, spiced biscuits are baked in Sweden especially around Christmas and St. Lucia's Day, usually served with coffee or glögg. Families cut them into shapes and decorate them at home."
  },
- "servings": 4,
- "time_min": 75,
+ "servings": 12,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -64,8 +64,18 @@
   ]
  },
  "tip": {
-  "tr": "Hamurun iyi açılması için buzdolabından çıkardıktan sonra birkaç dakika bekletin ve unlu bir oklava ile çalışın; kurabiyeler ne kadar ince açılırsa o kadar gevrek olur.",
+  "tr": "Hamuru ince ve eşit kalınlıkta açın ve çalışırken soğuk tutun; bisküviler ne kadar ince olursa o kadar gevrek olur. Yapışmayı önlemek için yalnızca gerektiği kadar un serpin.",
   "en": "Roll the dough thinly and evenly, and keep it cold while working; the thinner the biscuits, the crisper they will be. Use a dusting of flour only as needed to prevent sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contradicts the English tip: Turkish says to let the dough warm for a few minutes after leaving the fridge, while English says to keep it cold while working. Turkish also omits the advice ",
+   "Total time of 75 min is too short: the recipe has a 10-minute cooling step, at least 1 hour of chilling, and two baking batches plus rolling and cutting, which comes to roughly 105 min.",
+   "Servings of 4 doesn't fit 220 g flour and 100 g butter, which make roughly 35-40 biscuits. 12 servings is a more plausible yield."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

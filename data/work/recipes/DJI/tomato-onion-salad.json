@@ -9,7 +9,7 @@
   "en": "A fresh, bright salad of tomato, onion, and cilantro dressed with lime and chili, served alongside rice, grilled meat, and fish. It is eaten daily in Djibouti City and in Somali and Afar households."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 25,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -40,8 +40,8 @@
    "Acı biberin sapını ve çekirdeklerini çıkarıp çok ince doğrayın.",
    "Kişnişin yapraklarını ayırın ve ince ince kıyın.",
    "Süzülmüş soğanı, doğranmış biberi ve kişnişi domateslerin üzerine ekleyin.",
-   "Limonun suyunu sıkın, zeytinyağı, tuz ve isteğe bağlı kara biberle birlikte salataya ekleyin.",
-   "Malzemeleri yavaşça karıştırın ve servisten önce 10 dakika dinlendirin ki tatlar birbirine karışsın."
+   "Limonun suyunu sıkın ve zeytinyağıyla birlikte salataya ekleyin.",
+   "Malzemeleri yavaşça karıştırın ve 10 dakika dinlendirin. Servis etmeden hemen önce tuzu ve isteğe bağlı kara biberi ekleyip hafifçe karıştırın."
   ],
   "en": [
    "Slice the onion into thin half-rings and soak in cold water for 5 minutes, then drain. This softens its sharpness.",
@@ -49,13 +49,23 @@
    "Remove the stem and seeds from the green chili and chop it very finely.",
    "Pull the cilantro leaves from the stems and chop them finely.",
    "Add the drained onion, chopped chili, and cilantro to the tomatoes.",
-   "Squeeze in the lemon juice, then add the olive oil, salt, and black pepper if using.",
-   "Toss gently and let the salad rest for 10 minutes before serving so the flavors blend."
+   "Squeeze in the lemon juice and add the olive oil.",
+   "Toss gently and let the salad rest for 10 minutes. Just before serving, add the salt and black pepper if using, and toss lightly."
   ]
  },
  "tip": {
   "tr": "Domatesleri oda sıcaklığında kullanın ve salatayı servis anına kadar tuzlamayın; tuz domateslerin suyunu çıkarıp salatanın dağılmasına neden olabilir.",
   "en": "Use room-temperature tomatoes and add the salt just before serving, since salt draws out juice and can make the salad watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to add salt only just before serving, but step 6 adds salt before the 10-minute rest, which contradicts the tip and risks a watery salad.",
+   "time_min is 15, but the recipe includes a 5-minute soak and a 10-minute rest plus chopping, so the total time is understated.",
+   "Turkish and English versions match otherwise; ingredients, quantities, and temperatures are plausible."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

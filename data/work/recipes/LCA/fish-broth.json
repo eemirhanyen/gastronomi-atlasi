@@ -53,21 +53,21 @@
  },
  "steps": {
   "tr": [
-   "Balık parçalarını limon suyu ve bir tatlı kaşık tuzla ovalayın, 10 dakika dinlendirin.",
+   "Balık parçalarını yarım limonun suyu ve bir tatlı kaşık tuzla ovalayın, 10 dakika dinlendirin.",
    "Büyük bir tencerede 1,2 litre suyu kaynatın. Soğan, sarımsak, kekik, kereviz ve delinmiş acı biberi ekleyip 15 dakika kaynatın.",
    "Yeşil muz dilimlerini ve havucu tencereye ekleyin, orta-kısık ateşte 12 dakika pişirin.",
    "Hamur için unu, kabartma tozunu ve bir tutam tuzu kâseye alın. Üzerine 80 ml su ve yağı ekleyip 2 dakika yoğurun. 10 dakika dinlendirin.",
    "Hamuru cevizi büyüklüğünde parçalara ayırıp avuçlarınızla küçük toplar haline getirin ve kaynayan çorbaya tek tek bırakın.",
-   "Balık parçalarını ekleyin ve 6-8 dakika, balık opak hale gelip iyice pişene kadar kısık ateşte pişirin.",
+   "Hamur toplarını yüzmeye başlayıp iyice pişene kadar yaklaşık 8 dakika kaynatın. Ardından balık parçalarını ekleyin ve 6-8 dakika, balık opak hale gelip iyice pişene kadar kısık ateşte pişirin.",
    "Acı biberi çıkarın, karabiber ve gerektiğinde tuzla tatlandırın. Yeşil soğanı serpip ocaktan alın, üzerine yarım limonun suyunu gezdirip sıcak servis yapın."
   ],
   "en": [
-   "Rub the fish pieces with lime juice and 1 teaspoon of salt, then rest them for 10 minutes.",
+   "Rub the fish pieces with the juice of half the lime and 1 teaspoon of salt, then rest them for 10 minutes.",
    "Bring the 1.2 litres of water to the boil in a large pot. Add the onion, garlic, thyme, celery and pierced Scotch bonnet, and simmer for 15 minutes.",
    "Add the sliced green bananas and carrot to the pot and cook over medium-low heat for 12 minutes.",
    "Put the flour, baking powder and a pinch of salt in a bowl. Add the 80 ml of water and the vegetable oil, knead for 2 minutes, then rest for 10 minutes.",
    "Pinch off walnut-sized pieces of dough, roll them into small balls and drop them one by one into the simmering broth.",
-   "Add the fish pieces and simmer gently for 6 to 8 minutes, until the fish is opaque and cooked through.",
+   "Simmer the dumplings for about 8 minutes, until they float and are cooked through. Add the fish pieces and simmer gently for 6 to 8 minutes, until the fish is opaque and cooked through.",
    "Remove the Scotch bonnet, season with black pepper and more salt if needed, scatter over the spring onions, and finish with the juice from the other half of the lime before serving hot."
   ]
  },
@@ -75,5 +75,14 @@
   "tr": "Acı biberi bütün ve delik halde kullanın; böylece çorbaya ağızda hissedilmeyecek kadar hafif bir aroma verir.",
   "en": "Keep the Scotch bonnet whole and pierced so the broth gets fragrance without much heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Lime use is inconsistent: the ingredients list one whole lime, step 1 does not say how much is used, and the finishing step uses 'the other half' (TR: 'yarım limonun suyu'). Step 1 should specify half",
+   "Dumplings are dropped into the broth but never given a cooking time. They are only in the pot during the 6-8 minute fish step, which risks raw, doughy dumplings. Add an explicit cooking step before th"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

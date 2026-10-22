@@ -19,7 +19,7 @@
    "15 ml cachaça veya beyaz sirke",
    "5 g tuz (yaklaşık 1 çay kaşığı)",
    "250 g mozzarella peyniri, rendelenmiş",
-   "1 tatlı kaşığı kurutulmuş kekik",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "2 yemek kaşığı doğranmış maydanoz",
    "Bir tutam karabiber",
    "1 litre kızartma yağı"
@@ -42,7 +42,7 @@
    "Un ve tuzu geniş bir kaba alıp karıştırın. Ortasında bir kuyu açın.",
    "Sıvı yağı, cachaça veya sirkeyi ve ılık suyu kuyuya ekleyin. Yavaş yavaş unu içe doğru alarak yoğurun.",
    "Hamur pürüzsüz ve elastik olana kadar yaklaşık 5 dakika yoğurun. Üzerini örtüp oda sıcaklığında 20 dakika dinlendirin.",
-   "Bu sırada peyniri, kekiği, maydanozu ve karabiberi bir kasede karıştırarak iç harcı hazırlayın.",
+   "Bu sırada peyniri, kekiği (oreganoyu), maydanozu ve karabiberi bir kasede karıştırarak iç harcı hazırlayın.",
    "Hamuru 8 eşit parçaya bölün ve her birini top haline getirin.",
    "Her topu un serpilmiş tezgâhta, oklava ile yaklaşık 15 cm çapında çok ince bir daire olacak şekilde açın.",
    "Her hamur dairesinin bir yarısına yaklaşık 2 yemek kaşığı iç harcı koyun. Kenarlarını nemlendirin, diğer yarısını üzerine kapatın ve kenarları çatal ile iyice bastırarak kapatın.",
@@ -67,5 +67,13 @@
   "tr": "Hamuru mümkün olduğunca ince açın; kabarcık ve yağlı tadı önlemek için yağ sıcaklığını 180°C civarında sabit tutun.",
   "en": "Roll the dough as thin as you can, and keep the oil steady at around 180°C so the pastel crisps quickly without absorbing grease."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient is 'kurutulmuş kekik' (thyme) but the English is 'dried oregano'. Turkish 'kekik' usually means oregano, so the Turkish label should name oregano explicitly to ma"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

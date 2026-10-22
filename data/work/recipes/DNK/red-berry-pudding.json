@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kırmızı meyveli muhallebi (rødgrød med fløde)",
+  "tr": "Kırmızı meyveli pelte (rødgrød med fløde)",
   "en": "Red berry pudding (rødgrød med fløde)"
  },
  "native": "rødgrød med fløde",
@@ -9,7 +9,7 @@
   "en": "A classic Danish summer dessert: a chilled, starch-thickened purée of red berries served with cold cream. It is especially common in summer home meals and birthday celebrations."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -18,7 +18,7 @@
    "120 g toz şeker",
    "40 g patates nişastası",
    "60 ml soğuk su",
-   "250 ml kremalı krema (en az %35 yağlı)"
+   "250 ml yüksek yağlı krema (en az %35 yağlı)"
   ],
   "en": [
    "500 g mixed red berries (redcurrants, raspberries, strawberries)",
@@ -57,5 +57,15 @@
   "tr": "Kıvamı ayarlamak için nişasta miktarını 30-50 g arasında değiştirebilirsiniz; pelte soğudukça daha da koyulaşır, bu yüzden biraz akıcı bırakmak en iyisidir.",
   "en": "Adjust the thickness by using 30-50 g of starch; the pudding sets further as it cools, so it is best to leave it slightly looser when hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name uses 'muhallebi' (a milk-based pudding), but the dish is a starch-thickened fruit pelte, so the name is misleading.",
+   "time_min is 30, but the recipe requires at least 2 hours of chilling, so the total time is understated.",
+   "Turkish 'kremalı krema' is unnatural; 'yüksek yağlı krema' is the usual term for heavy cream."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

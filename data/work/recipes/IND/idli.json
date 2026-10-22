@@ -33,7 +33,7 @@
   "tr": [
    "Pirinci iyice yıkayıp bol suda 4 saat ıslatın.",
    "Urad dal ve çemen tohumlarını ayrı bir kapta birlikte yıkayın ve 4 saat ıslatın.",
-   " Islanan urad dal ve çemen tohumlarını süzün, yaklaşık 200 ml soğuk suyla blendırda veya taş değirmende çok kabarık ve pürüzsüz bir hamur haline gelene kadar öğütün (yaklaşık 10-12 dakika).",
+   "Islanan urad dal ve çemen tohumlarını süzün, yaklaşık 200 ml soğuk suyla blenderda veya taş değirmende çok kabarık ve pürüzsüz bir hamur haline gelene kadar öğütün (yaklaşık 10-12 dakika).",
    "Pirinci süzün ve yaklaşık 200 ml soğuk suyla, hafif taneli ama pürüzsüz bir hamur olacak şekilde öğütün.",
    "İki hamuru geniş bir kapta karıştırın, 6 g tuzu ekleyin ve elinizle iyice harmanlayın.",
    "Kabı temiz bir bezle örtün ve sıcak bir yerde (25-30 °C) 8-12 saat fermentasyona bırakın. Hamur iki katına çıkmalı ve hafif ekşi kokmalıdır.",
@@ -59,5 +59,13 @@
   "tr": "Hamuru ferment etmek için fırının ışığını açık bırakmak veya kapalı fırında ocağın üzerinde tutmak ideal sıcaklığı sağlar; soğuk havada fermentasyon uzayabilir.",
   "en": "In a cold kitchen, leave the batter in an oven with only the light switched on, or near a warm spot, to help it ferment; cold weather can slow it down considerably."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 contains a misspelled word, \"blendırda\"; the correct form is \"blenderda\". Also removed a stray leading space in that step."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

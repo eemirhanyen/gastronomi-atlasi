@@ -26,7 +26,7 @@
    "1200 ml su",
    "400 ml hindistan cevizi sütü",
    "200 g yengeç eti (taze veya konserve, süzülmüş)",
-   "1 adet limonun suyu",
+   "1 limonun suyu",
    "Tuz ve karabiber, tadına göre"
   ],
   "en": [
@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Tuzlu domuz etini soğuk suda 30 dakika bekletin, süzün, durulayın ve 1 cm'lik küpler halinde doğrayın.",
-   "Büyük bir tencerede yağı orta ateşte ısıtın. Domuz etini 5 dakika, kenarları altın rengi olana ve yağı salınana kadar kavurun.",
+   "Büyük bir tencerede yağı orta ateşte ısıtın. Domuz etini 5 dakika, kenarları altın rengi olana ve yağı çıkana kadar kavurun.",
    "Soğanı ve sarımsağı ekleyip 4 dakika, yumuşayana kadar soteleyin.",
    "Balkabağını ve kekiği ekleyip 2 dakika karıştırın.",
    "Suyu dökün, bütün Scotch bonnet biberi ekleyin (çekirdekleri dağılmasın diye patlatmayın), kaynatın ve 15 dakika kısık ateşte pişirin.",
@@ -77,5 +77,14 @@
   "tr": "Scotch bonnet biberini bütün bırakırsanız çorba hafif acı olur; kesip çekirdeklerini eklerseniz çok daha yakıcı olur.",
   "en": "Keep the scotch bonnet whole for a mild, fruity heat. Cutting it open will make the soup much hotter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2: 'yağı salınana kadar' is not natural culinary Turkish for rendering fat; should be 'yağı çıkana kadar'.",
+   "Turkish ingredient: '1 adet limonun suyu' is ungrammatical; should be '1 limonun suyu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -22,7 +22,7 @@
    "4 diş sarımsak",
    "60 ml bitkisel yağ",
    "30 g domates salçası",
-   "15 g kurutulmuş karides tozu (kerevit)",
+   "15 g kurutulmuş kerevit tozu",
    "10 g tavuk suyu küpü (1 adet)",
    "5 g tuz (tadına göre)",
    "10 g taze fesleğen yaprağı"
@@ -49,9 +49,9 @@
    "Tavuğu 1,5 litre suyla geniş bir tencereye alın, orta ateşte kaynatın ve yüzeyde biriken köpüğü alın.",
    "Domatesleri, soğanın yarısını, biberleri, zencefili ve sarımsakları blenderdan geçirip pürüzsüz bir karışım elde edin.",
    "Ayrı bir tencerede yağı ısıtın, blenderdan geçen karışımı ekleyin ve yağ yüzeye çıkana kadar yaklaşık 15-20 dakika karıştırarak pişirin.",
-   "Domates salçasını ve kurutulmuş karides tozunu ekleyip 3 dakika daha kavurun.",
+   "Domates salçasını ve kurutulmuş kerevit tozunu ekleyip 3 dakika daha kavurun.",
    "Tavuk suyundan yaklaşık 1 litre ayırıp sos karışımına ekleyin, ardından tavuğu da aktarın.",
-   "Kalan tavuk suyu küpünü ve soğanın kalanını ince doğrayıp ekleyin, 15 dakika kısık ateşte pişirin ve tuzunu ayarlayın.",
+   "Kalan tavuk suyu küpünü ve soğanın kalanını ince doğrayıp ekleyin, tavuk tamamen pişene kadar yaklaşık 15 dakika kısık ateşte pişirin ve tuzunu ayarlayın.",
    "Ocaktan almadan önce ince doğranmış fesleğeni ekleyin ve sıcak servis yapın."
   ],
   "en": [
@@ -61,7 +61,7 @@
    "Heat the oil in a separate pot, add the blended mixture and fry it, stirring, for about 15-20 minutes until the oil rises to the surface.",
    "Stir in the tomato paste and ground dried crayfish and fry for 3 more minutes.",
    "Ladle about 1 litre of the chicken broth into the tomato base, then transfer the chicken into it.",
-   "Finely chop the remaining onion, add it with the rest of the stock cube, and simmer gently for 15 minutes. Adjust the salt.",
+   "Finely chop the remaining onion, add it with the rest of the stock cube, and simmer gently for about 15 minutes, until the chicken is cooked through. Adjust the salt.",
    "Stir in the chopped basil just before removing from the heat and serve hot."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Biberin acılığını kontrol etmek için tohumlarını çıkarın; Scotch bonnet'i ilk denemede tek parça kullanmak daha güvenlidir.",
   "en": "Remove the seeds from the Scotch bonnets to control the heat, and taste before adding a second pepper."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chicken is boiled briefly and then simmered for 15 minutes, but the steps never say to cook it until done, which is a food-safety gap.",
+   "Turkish ingredient name 'kurutulmuş karides tozu (kerevit)' mixes shrimp (karides) with crayfish (kerevit). The English says ground dried crayfish, so the Turkish should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

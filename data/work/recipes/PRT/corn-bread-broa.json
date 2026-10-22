@@ -6,10 +6,10 @@
  "native": "Broa de milho",
  "desc": {
   "tr": "Portekiz'in kuzeyindeki Minho ve Trás-os-Montes bölgelerinde günlük sofranın vazgeçilmez ekmeğidir. Genellikle caldo verde gibi çorbaların, kırmızı etlerin ve peynirlerin yanında servis edilir.",
-  "en": "A everyday table bread of northern Portugal, especially the Minho and Trás-os-Montes regions. It is usually served with soups such as caldo verde, cured meats and cheese."
+  "en": "An everyday table bread of northern Portugal, especially the Minho and Trás-os-Montes regions. It is usually served with soups such as caldo verde, cured meats and cheese."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 190,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -59,5 +59,14 @@
   "tr": "Mısır unu hamurun içinde kuru ve kumlu bir yapı oluşturabilir; kaynar suyla iyice ıslatıp soğutmak, ekmeğin yumuşak ve nemli kalmasını sağlar.",
   "en": "Cornmeal can make the crumb dry and sandy, so scalding it thoroughly and letting it cool fully keeps the bread soft and moist."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is shorter than the steps add up to: about 20 min soaking, 5 min yeast, 8 min kneading, 60 min rise, 45 min second rest and about 55 min baking, roughly 190 min total",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

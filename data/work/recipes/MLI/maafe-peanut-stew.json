@@ -9,7 +9,7 @@
   "en": "Maafe is one of Mali's most common everyday dishes, a thick stew of meat, vegetables and peanut butter. It is usually served over rice at family meals and on festive occasions."
  },
  "servings": 4,
- "time_min": 70,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,13 @@
   "tr": "Fıstık ezmesi mutlaka tuzsuz ve şekersiz doğal olmalı; ezmeyi sıcak sıvıyla önceden inceltmek topaklanmayı önler.",
   "en": "Use unsweetened, unsalted natural peanut butter and thin it with hot liquid before adding it to the pot, which prevents lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (70) is shorter than the stated cooking steps, which add up to about 85 minutes before the rice; corrected to 90."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

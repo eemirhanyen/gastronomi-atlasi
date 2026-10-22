@@ -16,7 +16,7 @@
    "500 g olgun papaya (kabuğu ve çekirdekleri çıkarılmış, küp doğranmış)",
    "400 ml tam yağlı süt",
    "60 g toz şeker",
-   "15 ml taze limon suyu",
+   "15 ml taze misket limonu suyu",
    "150 g buz küpü"
   ],
   "en": [
@@ -30,7 +30,7 @@
  "steps": {
   "tr": [
    "Papayanın kabuğunu soyun, çekirdeklerini çıkarın ve etini küp doğrayın.",
-   "Papaya küplerini, sütü, şekeri ve limon suyunu blendere koyun.",
+   "Papaya küplerini, sütü, şekeri ve misket limonu suyunu blendere koyun.",
    "30-40 saniye, pürüzsüz bir kıvam alana kadar karıştırın.",
    "Buz küplerini ekleyip 10-15 saniye daha çekin; içecek buzlu ve hafif köpüklü olmalıdır.",
    "Tadına bakın, gerekirse şekeri artırarak tatlılığı ayarlayın.",
@@ -49,5 +49,13 @@
   "tr": "Papayanın içi turuncu ve yumuşak olmalıdır; sert ya da yeşilimsi papaya hem tatsız hem de kıvamsız bir içecek verir.",
   "en": "Choose papaya with orange flesh that gives slightly when pressed; underripe fruit makes a bland, starchy drink."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish says 'limon suyu' (lemon juice) while English says 'fresh lime juice'. The two versions disagree on the citrus used, and the flavor differs."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

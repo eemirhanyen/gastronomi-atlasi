@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Bir sapan tencerede kakao tozunu, şekeri ve tuzu karıştırın.",
+   "Saplı bir tencerede kakao tozunu, şekeri ve tuzu karıştırın.",
    "Su ekleyip pürüzsüz, koyu bir macun elde edene kadar iyice karıştırın.",
    "Tencereyi orta-kısık ateşe koyun ve macunu 1 dakika kadar pişirin; bu, kakaonun kokusunu açığa çıkarır.",
    "Sürekli karıştırarak sütü azar azar ekleyin ve topaklanmayı önlemek için çırpın.",
@@ -53,5 +53,13 @@
   "tr": "Kakaoyu sütle karıştırmadan önce suyla macun haline getirmek topaklanmayı engeller; süt kaynarsa tadı bozulur ve üstünde film oluşur.",
   "en": "Mixing the cocoa and sugar into a paste with water before adding milk prevents lumps. If the milk boils, it turns grainy and forms a skin on top."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"sapan tencere\", which is wrong: \"sapan\" means sling. The correct term for a saucepan is \"saplı tencere\" (pan with a handle)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

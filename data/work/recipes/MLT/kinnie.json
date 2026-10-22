@@ -8,7 +8,7 @@
   "tr": "Malta'nın ulusal gazlı içeceği olan Kinnie, acı portakal ve bitkisel aromalarla tatlandırılıp soğuk servis edilen, hafif acımsı bir içecektir. Adaları genelinde günlük öğünlerde, festivallerde ve kahve molalarında tüketilir.",
   "en": "Kinnie is Malta's national soft drink, a mildly bitter, sweet beverage flavoured with bitter oranges and aromatic herbs and spices. It is served chilled across the islands with everyday meals, at festivals and during casual get-togethers."
  },
- "servings": 4,
+ "servings": 20,
  "time_min": 60,
  "difficulty": "medium",
  "ingredients": {
@@ -22,8 +22,8 @@
    "1 tatlı kaşığı rezene tohumu (yaklaşık 2 g)",
    "6-8 yaprak taze nane (yaklaşık 5 g)",
    "1 tatlı kaşığı sitrik asit (yaklaşık 4 g)",
-   "720 ml soğuk maden suyu (gazlı)",
-   "Servis için buz ve 1 portakal dilimi"
+   "3,6 L soğuk maden suyu (gazlı)",
+   "Servis için buz ve 20 adet portakal dilimi"
   ],
   "en": [
    "1 kg bitter oranges (Seville oranges, about 6; or 3 oranges + 1 lemon)",
@@ -35,8 +35,8 @@
    "1 tsp fennel seeds (about 2 g)",
    "6-8 fresh mint leaves (about 5 g)",
    "1 tsp citric acid (about 4 g)",
-   "720 ml chilled sparkling water",
-   "Ice and 1 orange slice to serve"
+   "3.6 L chilled sparkling water",
+   "Ice and 20 orange slices to serve"
   ]
  },
  "steps": {
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Sevilla portakalı yoksa, 3 portakal ve 1 limon kullanmak acılık ve ekşilik dengesini iyi korur; şurubu sıcak sudan ayırmak için kabuk şeritlerini beyaz kısmı olmadan soymaya özen gösterin.",
+  "tr": "Sevilla portakalı yoksa, 3 tatlı portakal ve 1 limon kullanmak acılık ve ekşilik dengesini iyi korur; beyaz kısmın şuruba karışmaması için kabuk şeritlerini yalnızca renkli kısımdan soymaya özen gösterin.",
   "en": "If Seville oranges are unavailable, use 3 sweet oranges and 1 lemon to keep the right balance of bitterness and tartness, and peel only the coloured zest to avoid the bitter pith."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batch size mismatch: the syrup (about 1.2 L) is enough for about 20 glasses at 60 ml each, but the recipe says 4 servings and lists only 720 ml sparkling water (180 ml per glass for 4 glasses).",
+   "Turkish tip is garbled: 'şurubu sıcak sudan ayırmak için' has no meaningful sense. The intended point is to avoid the bitter white pith ending up in the syrup."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

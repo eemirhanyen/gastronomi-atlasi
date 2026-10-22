@@ -9,7 +9,7 @@
   "en": "A layered lamb stew cooked in a cauldron (kazan) and traditionally served at family gatherings and when guests visit in Uzbekistan and across Central Asia. The vegetables soften in the meat's own juices, forming their own sauce."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -46,12 +46,12 @@
  "steps": {
   "tr": [
    "Kuzu etini kağıt havluyla kurulayın, tuz, karabiber ve kimyonla tatlandırın.",
-   "Kalın tabanlı bir tencerede ya da fırın tepsisinde yağı orta-yüksek ateşte ısıtın. Eti iki partide, her partide 6-8 dakika, tüm yüzeyleri kızarana kadar kavurun ve bir kenara alın.",
+   "Kalın tabanlı bir tencerede yağı orta-yüksek ateşte ısıtın. Eti iki partide, her partide 6-8 dakika, tüm yüzeyleri kızarana kadar kavurun ve bir kenara alın.",
    "Ateşi orta seviyeye indirin. Soğanları ekleyip tabanı kazıyarak 8-10 dakika, altın rengi alana kadar pişirin.",
    "Eti tencereye geri koyun, havuçları ve defne yapraklarını ekleyin.",
    "Üzerine sırayla patatesleri, domates dilimlerini ve yatay ikiye kesilmiş sarımsağı yerleştirin. Katmanları karıştırmayın.",
    "Sıcak suyu kenarlardan, sebzelerin üzerine dökmeden yavaşça ekleyin.",
-   "Kapağı sıkıca kapatın ve kısık ateşte yaklaşık 60 dakika, et yumuşayana kadar pişirin. Su azalırsa az miktarda sıcak su ekleyin.",
+   "Kapağı sıkıca kapatın ve kısık ateşte yaklaşık 75-85 dakika, et yumuşayana kadar pişirin. Su azalırsa az miktarda sıcak su ekleyin.",
    "Defne yapraklarını çıkarın. Üst katmanları hafifçe karıştırarak sosu birleştirin, tadını kontrol edin ve sıcak servis yapın. Doğranmış kişnişi üzerine serpin."
   ],
   "en": [
@@ -61,7 +61,7 @@
    "Return the meat to the pot and add the carrots and bay leaves.",
    "Layer the potatoes, then the tomato slices, then the halved garlic head on top. Do not stir the layers.",
    "Pour the hot water slowly around the edges, not over the top layers.",
-   "Cover tightly and simmer on low heat for about 60 minutes, until the meat is tender. If the liquid reduces too much, add a little more hot water.",
+   "Cover tightly and simmer on low heat for about 75-85 minutes, until the meat is tender. If the liquid reduces too much, add a little more hot water.",
    "Remove the bay leaves. Gently fold the top layers together to combine the juices, taste for salt, and serve hot, sprinkled with chopped coriander."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Kapağı pişirme boyunca kapalı tutun; buhar, etin ve sebzelerin kendi suyunda pişmesini sağlar. Geleneksel olarak yanında taze ekmek ve turşu servis edilir.",
   "en": "Keep the lid closed throughout cooking so the steam cooks the meat and vegetables in their own juices. Traditionally served with fresh bread and pickles."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says 'fırın tepsisinde' (baking tray), which cannot be used on the stove for this stovetop browning step. The English says 'heavy pot or Dutch oven', so the two versions disagree.",
+   "Simmer time of about 60 minutes is too short for 4 cm cubes of boneless lamb shoulder in a covered pot with only 200 ml of water. The meat is unlikely to become tender, and the total time_min of 90 is"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -43,9 +43,9 @@
  },
  "steps": {
   "tr": [
-   "Domates, kırmızı biber ve acı biberi blendırdan geçirerek pürüzsüz bir karışım elde edin.",
+   "Domates, kırmızı biber ve acı biberi blenderdan geçirerek pürüzsüz bir karışım elde edin.",
    "Geniş bir tavada palm yağını orta ateşte ısıtın ve soğanı yumuşayıp hafif altın rengi alana kadar yaklaşık 5 dakika kavurun.",
-   "Salçayı ekleyip 1 dakika karıştırın, ardından blendırdan geçirilmiş domates karışımını dökün.",
+   "Salçayı ekleyip 1 dakika karıştırın, ardından blenderdan geçirilmiş domates karışımını dökün.",
    "Sosu kısık ateşte, kapağı yarım açık şekilde yaklaşık 15 dakika pişirin; yağ yüzeye çıkmaya başlayınca hazırdır.",
    "Kurutulmuş karidesi, stok küpünü ve tuzu ekleyin, sardalya ya da süzülmüş ton balığını sosun içine kırarak yerleştirin ve 3 dakika daha pişirin.",
    "Ayrı bir kapta gari'yi üzerine 350 ml sıcak suyu yavaş yavaş dökerek nemlendirin; topaklanmaması için çatalla karıştırıp 5 dakika dinlendirin.",
@@ -67,5 +67,13 @@
   "tr": "Gari'yi sıcak suyla kademeli nemlendirmek, tavada topaklanmasını ve yapışmasını önler.",
   "en": "Moistening the gari gradually with hot water, rather than adding it dry, prevents lumps and keeps the granules separate in the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish steps 1 and 3 use the misspelled word \"blendır\" instead of the correct Turkish \"blender\" (\"blenderdan geçirerek\", \"blenderdan geçirilmiş\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

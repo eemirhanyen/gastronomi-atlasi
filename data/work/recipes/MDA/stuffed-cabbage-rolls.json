@@ -34,7 +34,7 @@
   "en": [
    "1 medium cabbage (about 1 kg)",
    "200 g sauerkraut, drained",
-   "150 g smoked bacon or pork ribs",
+   "150 g smoked pork bacon or pastırma",
    "400 g minced beef",
    "200 g minced pork",
    "120 g short-grain rice, rinsed",
@@ -53,17 +53,17 @@
  },
  "steps": {
   "tr": [
-   "Lahanayı sapından keserek bütün halde, kaynayan tuzlu suda 5-7 dakika haşlayın. Yaprakları tek tek ayırın; kalın damarlarını bıçakla hafifçe inceltin. Yaprakların en az 12 tanesini ayırın, kalanları ince doğrayıp bir kenara koyun.",
+   "Lahanayı sapından keserek bütün halde, kaynayan tuzlu suda 5-7 dakika haşlayın. Yaprakları tek tek ayırın; kalın damarlarını bıçakla hafifçe inceltin. Yaprakların en az 24 tanesini ayırın, kalanları ince doğrayıp bir kenara koyun.",
    "Soğanı sıvı yağın yarısında pembeleşene kadar orta ateşte yaklaşık 5 dakika soteleyin ve soğuması için bekletin.",
-   "Büyük bir kapta dana kıymayı, domuz kıymayı, yıkanmış pirinci, soteledğiniz soğanı, tatlı kırmızı bibery, tuzu, karabiberi, dereotunu ve domates salçasını iyice yoğurun.",
+   "Büyük bir kapta dana kıymayı, domuz kıymayı, yıkanmış pirinci, soteladığınız soğanı, tatlı kırmızı biberi, tuzu, karabiberi, dereotunu ve domates salçasını iyice yoğurun.",
    "Her lahana yaprağının içine bir yemek kaşığı dolusu iç koyun. Yaprağın iki yan kenarını içe katlayın, ardından alt kısmından başlayarak sıkıca sarın.",
-   "Dibi geniş bir tencereye doğranmış lahanayı ve turşu lahanasını serin. Üzerine doğranmış pastırmayı yayın, tane karabiberi ve defne yapraklarını ekleyin.",
+   "Dibi geniş bir tencereye doğranmış lahanayı ve turşu lahanasını serpin. Üzerine doğranmış pastırmayı yayın, tane karabiberi ve defne yapraklarını ekleyin.",
    "Sarmaları dikiş tarafı aşağı gelecek şekilde, sıkı sıkı dizin. Kalan yağı üzerine gezdirin ve suyu ekleyin; sular sarmaların üst kısmını hafifçe geçmelidir.",
    "Kapağını kapatıp kısık ateşte yaklaşık 90 dakika pişirin. Su azalırsa biraz sıcak su ekleyin.",
    "Pişince tencereyi ocaktan alıp 10 dakika dinlendirin. Sarmaları sıcak servis edin ve üzerine ekşi kremayı koyun."
   ],
   "en": [
-   "Cut the core out of the cabbage, then boil the whole head in salted water for 5-7 minutes. Separate the leaves one by one and thin the thick ribs with a knife. Set aside at least 12 good leaves and finely chop the rest.",
+   "Cut the core out of the cabbage, then boil the whole head in salted water for 5-7 minutes. Separate the leaves one by one and thin the thick ribs with a knife. Set aside at least 24 good leaves and finely chop the rest.",
    "Fry the onion in half the oil over medium heat for about 5 minutes until golden, then let it cool.",
    "In a large bowl, knead together the minced beef, minced pork, rinsed rice, cooled onion, paprika, salt, black pepper, dill and tomato paste until well combined.",
    "Place about one heaped tablespoon of filling on each leaf. Fold in the two side edges, then roll tightly from the bottom up.",
@@ -77,5 +77,16 @@
   "tr": "Sarmaları pişirirken tencerede çok az kaynatın; sıkı dizilmiş ve kısık ateşte pişmiş sarmalar dağılmaz.",
   "en": "Keep the pot at a bare simmer and pack the rolls tightly; loose rolls at a rolling boil tend to split open."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient says 'smoked bacon or pork ribs' but the Turkish says 'füme domuz pastırması veya bacon'; the two versions disagree.",
+   "Turkish step 3 has typos: 'tatlı kırmızı bibery' and 'soteledğiniz'.",
+   "Turkish step 5 uses 'serin' (to chill) where 'serpin' (to spread) is meant, so the instruction is wrong.",
+   "Only about 12 leaves are set aside for rolling, but the filling (about 600 g meat plus 120 g rice) makes roughly 25-30 rolls at one heaped tablespoon each. The leaf count should be raised to at least "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

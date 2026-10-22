@@ -9,7 +9,7 @@
   "en": "A braised chicken dish from the Mingrelia region of western Georgia, cooked slowly with tomatoes, onions, garlic and fresh herbs. It is usually served at lunch with bread or mchadi cornbread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 85,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Tavuğu kızartırken parçaları aynı anda değil partiler halinde pişirin; böylece kızarır ve soslu pişmek yerine buharda haşlanmaz.",
   "en": "Brown the chicken in batches so the pieces colour properly rather than steaming in the pot; this gives the sauce much more depth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: browning in batches (~16-20 min), onions (~8), tomatoes (~6), the 35-40 min simmer, and the 5 min rest add up to roughly 85 min before prep"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A soft, fermented maize and cassava dough eaten across southern Ghana, especially by the Ga and Fante peoples, at lunch and dinner. It is served with a spicy fish or okra stew and eaten by hand, pinching off small pieces."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 2180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -38,7 +38,7 @@
    "7. Geniş bir tencerede 1 l kaynar suyu ateşe koyun.",
    "8. Hamuru kaynayan suya yavaş yavaş ekleyin ve orta ateşte, sürekli karıştırarak 15 ila 20 dakika pişirin; karışım koyulaşıp topaklanmadan pürüzsüz hale gelmelidir.",
    "9. Ellerinizi suyla ıslatın, pişen hamurdan dört eşit parça alın ve düzgün toplar şekillendirin.",
-   "10. Sıcak banku toplarını bamya çorbası ya da acılı balık sosuyla servis edin."
+   "10. Sıcak banku toplarını, ayrıca hazırlanmış bamya çorbası ya da acılı balık sosuyla servis edin."
   ],
   "en": [
    "1. Day one: In a large bowl, mix the maize flour with 600 ml lukewarm water into a smooth batter, making sure there are no lumps.",
@@ -50,12 +50,21 @@
    "7. In a wide pot, bring 1 l of water to a boil.",
    "8. Gradually add the dough to the boiling water and cook over medium heat for 15 to 20 minutes, stirring constantly, until it thickens and becomes smooth and free of lumps.",
    "9. Wet your hands with water, take four equal portions of the cooked dough and shape them into smooth balls.",
-   "10. Serve the warm banku balls with okra stew or a spicy fish sauce."
+   "10. Serve the warm banku balls with a separately prepared okra stew or spicy fish sauce."
   ]
  },
  "tip": {
   "tr": "Hamuru fermente etmek için mutfağın sıcak bir köşesini seçin; ekşi koku oluşmazsa fermantasyon yetersiz kalır ve banku tadı zayıf olur.",
   "en": "Ferment the dough in a warm spot of the kitchen; if it does not develop a sour smell, the banku will taste flat. Keep stirring while it cooks to avoid lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 10 serves banku with okra stew or spicy fish sauce, but neither is listed in the ingredients, so the accompaniment is used without being listed.",
+   "time_min is 60, but the recipe requires about 24 hours of fermentation on day one plus 8 to 12 hours on day two, so the total time is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

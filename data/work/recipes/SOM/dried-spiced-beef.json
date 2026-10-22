@@ -9,7 +9,7 @@
   "en": "Muqmad is a traditional Somali snack of thinly sliced beef, spiced, dried until leathery, and then briefly fried. It is carried on journeys, prepared for festivals and weddings, and served to guests at home."
  },
  "servings": 4,
- "time_min": 240,
+ "time_min": 360,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -66,5 +66,13 @@
   "tr": "Etin kurumuş ve sert olması için şeritleri ince kesin ve fırın kapağını aralık tutun; nem kalırsa et kızartılırken patlayabilir.",
   "en": "Slice the beef thinly and keep the oven door ajar so moisture escapes; any remaining damp spots can spit when frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 240, but the recipe needs at least 2 hours of marinating plus 3-4 hours of drying, then cooling and frying. Total time is about 6 hours, so the stated time is too short."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -28,7 +28,7 @@
    "60 g butter or lard",
    "120 g crispy pork cracklings (chicharrón)",
    "80 ml plantain cooking water",
-   "60 g fresh white cheese (queso fresco or ricotta salata)"
+   "60 g fresh white cheese (queso fresco or fresh ricotta)"
   ]
  },
  "steps": {
@@ -61,5 +61,13 @@
   "tr": "Muzu sıcakken ezin; soğuduğunda yapışkan ve sert olur. Kıvamı ayarlamak için haşlama suyunu azar azar ekleyin.",
   "en": "Mash the plantains while they are still hot, as they become gummy and stiff when cool. Add the cooking water gradually to adjust the texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cheese mismatch: the Turkish ingredient says 'queso fresco veya lor' (ricotta-style), but the English says 'queso fresco or ricotta salata'. Ricotta salata is a salted, aged, firm cheese and is not an"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -43,27 +43,27 @@
  },
  "steps": {
   "tr": [
-   "Kuzu etini yaklaşık 4 cm'lik parçalara kesin, 1/2 çay kaşığı tuz ve karabiberle tatlandırın.",
+   "Kuzu etini yaklaşık 4 cm'lik parçalara kesin, 1/2 çay kaşığı tuz ve karabiberin yarısıyla tatlandırın.",
    "Geniş bir tencerede zeytinyağını ısıtın ve etleri gruplar halinde, her yüzü yaklaşık 3 dakika olacak şekilde kızarana kadar kavurun.",
    "İnce doğranmış soğanı ekleyin ve yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Sıcak suyu, defne yaprağını ve kalan tuzu ekleyin. Kapağı kapatıp kısık ateşte yaklaşık 45 dakika, et yumuşayana kadar pişirin.",
    "Etleri tencereden çıkarıp bir kenara alın. Tencerede yaklaşık 250 ml suyu bırakın ve defne yaprağını çıkarın.",
-   "Pirinci soğuk suda yıkayıp kaynayan suda 5 dakika haşlayın, süzün.",
-   "Fırın tepsisini tereyağıyla yağlayın, haşlanmış pirinci tabana yayın ve üzerine kuzu etlerini dizin.",
-   "Yoğurt, yumurtalar, unu, bir kepçe sıcak et suyu ve karabiberi bir kapta çırpıp pürüzsüz bir karışım elde edin.",
+   "Pirinci soğuk suda yıkayıp tuzlu kaynayan suda 5 dakika haşlayın, süzün.",
+   "Fırın tepsisini tereyağının yarısıyla yağlayın, haşlanmış pirinci tabana yayın ve üzerine kuzu etlerini dizin.",
+   "Yoğurt, yumurtalar, unu, bir kepçe sıcak et suyu ve kalan karabiberi bir kapta çırpıp pürüzsüz bir karışım elde edin.",
    "Yoğurt karışımını etlerin üzerine eşit şekilde dökün. Kalan et suyunu da kenarlardan ekleyin.",
    "Üzerine tereyağının kalanını küçük parçalar halinde dağıtın ve önceden 180°C'ye ısıtılmış fırında yaklaşık 40 dakika, üstü altın sarısı olana kadar pişirin.",
    "Fırından çıkarın ve servis öncesi 10 dakika dinlendirin, sonra dilimleyerek sıcak servis yapın."
   ],
   "en": [
-   "Cut the lamb into roughly 4 cm pieces and season with 1/2 tsp of the salt and the black pepper.",
+   "Cut the lamb into roughly 4 cm pieces and season with 1/2 tsp of the salt and half of the black pepper.",
    "Heat the olive oil in a wide pot and brown the lamb in batches, about 3 minutes per side.",
    "Add the finely chopped onion and fry until soft, about 5 minutes.",
    "Pour in the hot water, add the bay leaf and the remaining salt. Cover and simmer gently for about 45 minutes, until the meat is tender.",
    "Remove the meat and set it aside. Leave about 250 ml of the cooking liquid in the pot and discard the bay leaf.",
    "Rinse the rice in cold water, boil it in salted water for 5 minutes and drain.",
    "Grease the baking dish with half the butter, spread the parboiled rice evenly over the base and arrange the lamb on top.",
-   "Whisk the yogurt, eggs, flour, a ladle of the hot cooking liquid and the black pepper in a bowl until smooth.",
+   "Whisk the yogurt, eggs, flour, a ladle of the hot cooking liquid and the remaining black pepper in a bowl until smooth.",
    "Pour the yogurt mixture evenly over the meat and add the rest of the cooking liquid around the edges.",
    "Dot the top with the remaining butter and bake in an oven preheated to 180°C for about 40 minutes, until the top is golden. Rest for 10 minutes before cutting into portions and serving hot."
   ]
@@ -72,5 +72,15 @@
   "tr": "Yoğurt karışımını dökmeden önce bir kepçe sıcak et suyu katmak, yumurtanın kesilmesini önler ve kremanın pürüzsüz kalmasını sağlar.",
   "en": "Whisk a ladle of hot cooking liquid into the yogurt before pouring it over the meat; this tempers the eggs so the custard stays smooth instead of curdling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 does not mention salted water, but the English version does",
+   "Turkish step 7 does not specify half the butter for greasing, but the English version does",
+   "Black pepper is used in both the lamb seasoning and the yogurt mixture, but the 1/2 tsp ingredient amount is not split between them"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

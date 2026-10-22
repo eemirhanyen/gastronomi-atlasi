@@ -29,7 +29,7 @@
   "tr": [
    "Kalın tabanlı bir tencerede 1 litre suyu ve tuzu kaynatın.",
    "Ayrı bir kapta 100 g mısır unu ile 150 ml soğuk suyu pürüzsüz bir karışım elde edene kadar karıştırın.",
-   "Kaynayan suyun ateşini kısın ve unlu karışımı yavaşça ekleyip tahta kaşıkla sürekli karıştırın.",
+   "Kaynayan suyun ateşini kısın ve unlu karışımı yavaşça ekleyip ıslatılmış tahta spatulayla sürekli karıştırın.",
    "Kalan mısırununu avuç avuç ekleyerek, hamur tencerenin kenarlarından ayrılana kadar güçlü bir şekilde karıştırın.",
    "Tencerenin kapağını kapatın ve kısık ateşte yaklaşık 10-15 dakika pişirin; bu sırada birkaç dakikada bir karıştırın.",
    "Ellerinizi ılık suyla ıslatın, hamuru avuçlarınızda yuvarlak toplar halinde şekillendirin ve sıcak servis yapın."
@@ -37,15 +37,24 @@
   "en": [
    "Bring 1 litre of water and the salt to a boil in a heavy-bottomed pot.",
    "In a separate bowl, mix 100 g of maize flour with the 150 ml cold water until smooth.",
-   "Reduce the heat to low, then slowly add the flour mixture to the boiling water while stirring constantly with a wooden spoon.",
+   "Reduce the heat to low, then slowly add the flour mixture to the boiling water while stirring constantly with a wet wooden spatula.",
    "Add the remaining maize flour in handfuls, stirring vigorously until the dough pulls away from the sides of the pot.",
    "Cover the pot and cook on low heat for about 10-15 minutes, stirring every few minutes.",
    "Wet your hands with lukewarm water, shape the dough into round balls and serve hot."
   ]
  },
  "tip": {
-  "tr": "Hamuru tahta kaşıkla değil, ıslatılmış bir kepçeyle ya da tahta spatulayla karıştırın; un topaklanmadan daha pürüzsüz bir kıvam elde edersiniz.",
+  "tr": "Hamuru kuru bir tahta kaşık yerine ıslatılmış bir tahta spatula ya da kepçeyle karıştırın; un topaklanmadan daha pürüzsüz bir kıvam elde edersiniz.",
   "en": "Stir with a wet wooden spatula or ladle rather than a dry spoon; this keeps the flour from clumping and gives a smoother texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts steps: Step 3 says to stir with a wooden spoon, but the tip says not to use a wooden spoon. The Turkish tip says 'tahta kaşıkla değil' while the English says 'rather than a dry spoon',",
+   "Turkish tip says 'ıslatılmış bir kepçeyle ya da tahta spatulayla' (wetness applies only to the ladle), while the English says 'wet wooden spatula or ladle' (wetness applies to both). The Turkish tip i"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

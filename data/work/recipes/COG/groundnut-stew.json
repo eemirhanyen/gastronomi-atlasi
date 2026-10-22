@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Yer Fıstıklı Tavuk Çorbası",
+  "tr": "Yer Fıstıklı Tavuk Yahnisi",
   "en": "Congolese Groundnut Chicken Stew"
  },
  "native": "Sauce d'arachide",
@@ -9,7 +9,7 @@
   "en": "A creamy, peanut-based chicken stew that is a staple of everyday family meals in Brazzaville, Republic of the Congo. It is usually served with cassava fufu, rice or maize porridge."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -67,5 +67,14 @@
   "tr": "Fıstık ezmesini sıcak suda önceden çözmek ve tencereye yavaş yavaş eklemek, sosun topaklanmasını ve dibinin tutmasını önler.",
   "en": "Dissolve the peanut butter in warm water before adding it, and keep the heat low, to prevent lumps and scorching on the base of the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the steps: resting (10 min) + browning (6-8) + onions and tomatoes (~14) + simmer (20) + final simmer (25-30) comes to about 85-90 minutes",
+   "Turkish dish name 'Tavuk Çorbası' means 'chicken soup', but the dish is a thick stew (English 'Stew'); 'Yahni' matches the stew style"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

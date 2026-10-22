@@ -9,7 +9,7 @@
   "en": "A soft, mellow Czech cheese marinated in spiced oil and served as a snack with beer, especially in pubs and beer halls, with dark rye bread."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 1470,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Hermelín yağda zamanla yumuşar, bu yüzden hafif olgunlaşmamış, sert dokulu bir peynir seçin; kavanozu buzdolabında en fazla 5 gün saklayın.",
-  "en": "Choose a slightly underripe, firm hermelín, as it softens in the oil over time; store the jar in the fridge for up to 5 days."
+  "tr": "Hermelín yağda zamanla yumuşar, bu yüzden hafif olgunlaşmamış, sert dokulu bir peynir seçin. Sarımsaklı yağ botulizm riski taşıdığı için kavanozu buzdolabında en fazla 3 gün saklayın ve her servisten sonra kullanılmış yağ kalıntısını bırakmayın.",
+  "en": "Choose a slightly underripe, firm hermelín, as it softens in the oil over time. Because garlic in oil carries a botulism risk, store the jar in the fridge for no more than 3 days and do not leave used oil standing out at room temperature."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min lists 30 minutes, but the recipe requires at least 24 hours of refrigerated marinating, so the total time is misleading.",
+   "Raw sliced garlic and onion are stored in oil for up to 5 days. Garlic in oil is a botulism risk when refrigerated for long periods, so the storage limit should be shortened and the warning made expli"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

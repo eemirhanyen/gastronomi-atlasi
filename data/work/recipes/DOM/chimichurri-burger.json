@@ -36,7 +36,7 @@
    "500 g ground beef (about 20% fat)",
    "1 small onion, finely grated",
    "2 garlic cloves, minced",
-   "1 tsp dried oregano",
+   "1 tsp dried thyme",
    "1 tsp ground cumin",
    "1 tsp salt",
    "1/2 tsp black pepper",
@@ -66,7 +66,7 @@
   "en": [
    "In a large bowl, toss the cabbage, carrot, lime juice and a pinch of salt. Let the slaw rest for 10 minutes.",
    "In a small bowl, mix the mayonnaise, ketchup and yellow mustard to make the sauce.",
-   "In a bowl, gently combine the beef, grated onion, minced garlic, oregano, cumin, salt and black pepper. Divide into 4 equal portions and shape into patties about 1 cm thick and 10 cm wide.",
+   "In a bowl, gently combine the beef, grated onion, minced garlic, thyme, cumin, salt and black pepper. Divide into 4 equal portions and shape into patties about 1 cm thick and 10 cm wide.",
    "Heat a heavy-based pan over medium-high heat and add the oil. Cook the patties for 3-4 minutes per side until browned and cooked through to an internal temperature of 71°C.",
    "While the patties finish cooking, place a slice of cheese on each one. Cover the pan and let the cheese melt for about 1 minute.",
    "Toast the buns cut side down in the same pan for about 1 minute.",
@@ -77,5 +77,13 @@
   "tr": "Köfteleri pişirmeden önce ortasını hafifçe bastırarak çökmesini önleyin; böylece pişince düz kalır.",
   "en": "Press a shallow dimple into the centre of each patty before cooking so it stays flat instead of puffing up in the middle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient lists 'dried oregano' but the Turkish version says 'kurutulmuş kekik' (dried thyme). The English herb should be thyme to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,7 +6,7 @@
  "native": "Sauce niébé",
  "desc": {
   "tr": "Burkina Faso'da günlük yemeklerin vazgeçilmezi olan, kuru börülceyi domates, soğan ve fermente ağaç tohumu soumbala ile pişirerek hazırlanan koyu bir sos. Genellikle öğle ve akşam yemeklerinde tô adı verilen darı veya sorgum lapasıyla servis edilir.",
-  "en": "A thick, savoury stew of dried black-eyed peas cooked with tomato, onion and fermented locust bean (soumbala). It is a everyday staple across Burkina Faso, usually served at lunch or dinner with tô, a millet or sorghum porridge."
+  "en": "A thick, savoury stew of dried black-eyed peas cooked with tomato, onion and fermented locust bean (soumbala). It is an everyday staple across Burkina Faso, usually served at lunch or dinner with tô, a millet or sorghum porridge."
  },
  "servings": 4,
  "time_min": 90,
@@ -53,7 +53,7 @@
    "Domatesleri ve salçayı ekleyin, domatesler dağılıp sos kıvamını alana kadar yaklaşık 8 dakika pişirin.",
    "Soumbala'yı 2 yemek kaşığı sıcak suda eritip sosa ekleyin.",
    "Fıstık ezmesini ayırdığınız 150 ml pişme suyunda çözün ve tencereye ekleyin.",
-   "Pişmiş börülceyi ve balık parçalarını ekleyip karıştırın. Gerekirse kalan pişme suyundan ekleyerek kısık ateşte 20 dakika daha pişirin.",
+   "Pişmiş börülceyi ve balık parçalarını ekleyip karıştırın. Sos çok koyulaşırsa biraz sıcak su ekleyerek kısık ateşte 20 dakika daha pişirin.",
    "Tuzla tatlandırın. Sos koyulaştığında ocaktan alın ve tô veya pirinçle sıcak servis yapın."
   ],
   "en": [
@@ -65,7 +65,7 @@
    "Add the tomatoes and tomato paste and cook for about 8 minutes until the tomatoes break down into a thick sauce.",
    "Dissolve the soumbala in 2 tablespoons of hot water and stir it into the sauce.",
    "Dissolve the peanut butter in the reserved 150 ml of cooking water and add it to the pot.",
-   "Add the cooked peas and flaked fish and stir well. Simmer gently for 20 minutes, adding a little more of the cooking water if it becomes too thick.",
+   "Add the cooked peas and flaked fish and stir well. If the sauce becomes too thick, add a little hot water. Simmer gently for 20 minutes.",
    "Season with salt. When the sauce is thick and glossy, remove from the heat and serve hot with tô or rice."
   ]
  },
@@ -73,5 +73,14 @@
   "tr": "Soumbala çok kuvvetli kokar; az miktarla başlayın ve sosu tatmadan önce fazla tuz eklemeyin, çünkü balık ve soumbala zaten tuzluluk katar.",
   "en": "Soumbala has a strong smell and flavour, so start with a small amount and taste before adding salt, as the fish and soumbala already add saltiness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 9 (TR and EN) tells the cook to add more of the 'remaining' cooking water, but all 150 ml of reserved water was already used to dissolve the peanut butter in step 8. Hot water should be specified",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

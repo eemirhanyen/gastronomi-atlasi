@@ -9,7 +9,7 @@
   "en": "A traditional Lebanese and Levantine cookie made from a buttery semolina dough enclosing a spiced date filling. It is served at festive occasions such as Easter, Christmas, and Eid al-Fitr."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -21,11 +21,11 @@
    "15 g toz şeker",
    "1/4 çay kaşığı öğütülmüş mahleb",
    "1 tutam tuz",
-   "150 g çekirdeksiz Mecul hurma",
-   "30 g tereyağı",
+   "100 g çekirdeksiz Mecul hurma",
+   "20 g tereyağı",
    "1/2 çay kaşığı tarçın",
    "15 ml portakal çiçeği suyu (dolgu için)",
-   "30 g ceviz içi, ince doğranmış",
+   "20 g ceviz içi, ince doğranmış",
    "30 g pudra şekeri (üstüne serpmek için)"
   ],
   "en": [
@@ -37,11 +37,11 @@
    "15 g caster sugar",
    "1/4 teaspoon ground mahlab",
    "1 pinch salt",
-   "150 g pitted Medjool dates",
-   "30 g unsalted butter",
+   "100 g pitted Medjool dates",
+   "20 g unsalted butter",
    "1/2 teaspoon ground cinnamon",
    "15 ml orange blossom water (for the filling)",
-   "30 g walnut halves, finely chopped",
+   "20 g walnut halves, finely chopped",
    "30 g icing sugar (for dusting)"
   ]
  },
@@ -62,7 +62,7 @@
    "Mix the semolina with the warm milk and 15 ml orange blossom water, cover, and rest for 30 minutes.",
    "Add the melted butter to the rested semolina and rub it in with your fingertips until the semolina has absorbed the butter.",
    "Add the flour, caster sugar, mahlab, and a pinch of salt, then knead into a soft dough. Cover and rest for 30 minutes.",
-   "For the filling, remove the stones from the dates and chop them roughly. Melt 30 g butter in a pan, add the dates, cinnamon, and the remaining 15 ml orange blossom water, and cook over medium heat for about 5 minutes, stirring, until a soft paste forms.",
+   "For the filling, remove the stones from the dates and chop them roughly. Melt 20 g butter in a pan, add the dates, cinnamon, and the remaining 15 ml orange blossom water, and cook over medium heat for about 5 minutes, stirring, until a soft paste forms.",
    "Remove the date paste from the heat, stir in the chopped walnuts, and let it cool completely.",
    "Preheat the oven to 180°C and line a baking tray with parchment paper.",
    "Pinch off pieces of dough about the size of a walnut (around 25 g). Roll each into a ball and press your thumb into the centre to form a cup.",
@@ -72,8 +72,18 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru yoğururken fazla yoğurmayın; irmik dokusu kumlu ve yumuşak kalmalıdır, bu da kurabiyenin dağılmadan pişmesini sağlar.",
+  "tr": "Hamuru yoğururken fazla yoğurmayın; irmik dokusu kumlu ve yumuşak kalmalıdır, bu da kurabiyelerin hem yumuşak kalmasını hem de şekil verirken çatlamadan dağılmamasını sağlar.",
   "en": "Keep the dough soft and do not overwork it; the semolina should stay slightly grainy, which keeps the cookies tender and stops them from cracking when shaped."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling quantity does not match the dough: about 210 g of filling (150 g dates, 30 g butter, 30 g walnuts) would fill roughly 28 cookies, but the ~460 g of dough at 25 g per piece makes only about 18.",
+   "Total time of 75 min is too short: the recipe has two 30-minute rests, cooking and cooling the filling, shaping, baking, and cooling, which takes about 2 hours.",
+   "The Turkish and English tips give different reasons for keeping the dough soft (Turkish: prevents crumbling during baking; English: prevents cracking during shaping). They should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

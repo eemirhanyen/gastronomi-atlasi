@@ -23,7 +23,7 @@
    "5 g kabartma tozu",
    "1 tutam tuz",
    "30 ml brendi (isteğe bağlı)",
-   "300 g dulce de leche",
+   "150 g dulce de leche",
    "80 g rendelenmiş hindistancevizi"
   ],
   "en": [
@@ -37,7 +37,7 @@
    "5 g baking powder",
    "1 pinch salt",
    "30 ml brandy (optional)",
-   "300 g dulce de leche",
+   "150 g dulce de leche",
    "80 g desiccated coconut"
   ]
  },
@@ -48,7 +48,7 @@
    "Un, mısır nişastası, kabartma tozu ve tuzu bir kapta eleyip karışıma ekleyin. Ellerinizle yumuşak, homojen bir hamur elde edene kadar yoğurun.",
    "Hamuru folyoya sarın ve buzdolabında en az 30 dakika dinlendirin.",
    "Fırını 170°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
-   "Hamuru 5 mm kalınlığında açın. Bir bardak ya da kurabiye kalıbıyla 6 cm çapında daireler kesin. Toplam 16 daire elde etmelisiniz.",
+   "Hamuru 5 mm kalınlığında açın. Bir bardak ya da kurabiye kalıbıyla 6 cm çapında daireler kesin. Toplam 36 daire elde etmelisiniz.",
    "Daireleri tepsiye aralıklı dizin ve 10-12 dakika, kenarları hafifçe altın rengi olana kadar pişirin.",
    "Kurabiyeleri tepside birkaç dakika bekletip ardından tel raf üzerinde tamamen soğumaya bırakın.",
    "Kurabiyelerin düz yüzeylerinden birine yaklaşık 1 tatlı kaşığı dulce de leche sürün. Bir başka kurabiyeyi üzerine koyup hafifçe bastırarak sandviç yapın.",
@@ -61,7 +61,7 @@
    "Sift the flour, cornstarch, baking powder and salt into a bowl, then add to the butter mixture. Knead by hand until you have a soft, smooth dough.",
    "Wrap the dough in cling film and refrigerate for at least 30 minutes.",
    "Preheat the oven to 170°C and line a baking tray with parchment paper.",
-   "Roll the dough to 5 mm thickness. Cut out 16 rounds about 6 cm in diameter using a cutter or a glass.",
+   "Roll the dough to 5 mm thickness. Cut out 36 rounds about 6 cm in diameter using a cutter or a glass.",
    "Arrange the rounds on the tray with space between them and bake for 10-12 minutes, until the edges are lightly golden.",
    "Let the cookies rest on the tray for a few minutes, then cool completely on a wire rack.",
    "Spread about 1 teaspoon of dulce de leche on the flat side of one cookie. Top with another cookie and press gently to make a sandwich.",
@@ -70,8 +70,18 @@
   ]
  },
  "tip": {
-  "tr": "Kurabiyeler tamamen soğumadan dulce de leche sürmeyin; aksi halde krema eriyip dağılır. Kıvamı yumuşak olan dulce de leche'yi bir miktar ısıtarak sürmek daha kolaydır.",
+  "tr": "Kurabiyeler tamamen soğumadan dulce de leche sürmeyin; aksi halde krema eriyip dağılır. Kıvamı sert olan dulce de leche'yi bir miktar ısıtarak sürmek daha kolaydır.",
   "en": "Let the cookies cool completely before filling, or the dulce de leche will melt and spread. If it is too stiff to spread, warm it briefly in a bain-marie to make it easier to work with."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "300 g dulce de leche is far too much for 16 sandwiches at about 1 teaspoon each (roughly 100-150 g needed).",
+   "The dough (about 600 g of flour, butter, sugar and cornstarch) would yield roughly 35-40 rounds of 6 cm x 5 mm, not 16.",
+   "Turkish tip says 'kıvamı yumuşak olan' (soft) dulce de leche should be warmed, but the English tip says it should be warmed because it is too stiff. The Turkish should say 'sert'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

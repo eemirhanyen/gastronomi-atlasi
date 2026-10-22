@@ -9,7 +9,7 @@
   "en": "A thin, square semolina flatbread folded around a filling of onion, tomato and green pepper, then pan-fried. It is eaten across Algeria at breakfast, lunch and during Ramadan, often with mint tea."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -87,5 +87,13 @@
   "tr": "Hamuru çok ince açın ve harcı tamamen soğutun; aksi halde mehacheb kızartırken yırtılır ya da içi sulanır.",
   "en": "Roll the dough very thin and let the filling cool completely, otherwise the mhadjeb may tear or turn soggy while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short: the recipe includes a 60-minute dough rest, about 25 minutes of filling cooking, and assembly and frying, which adds up to roughly 150 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

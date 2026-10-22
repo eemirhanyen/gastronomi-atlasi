@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Tunus usulü ojja (oca)",
+  "tr": "Tunus usulü ojja",
   "en": "Tunisian ojja with eggs and merguez"
  },
  "native": "عجة تونسية",
@@ -51,7 +51,7 @@
    "Aynı tavaya kalan yağı ekleyin, soğanı yumuşayıp hafifçe renk alana kadar yaklaşık 6 dakika kavurun.",
    "Biber şeritlerini ekleyip tuz ile birlikte 8 dakika, biberler yumuşayana kadar pişirin.",
    "Sarımsağı, domates salçasını, harissayı, kimyonu, kişnişi ve bir tutam karabiberi ekleyin; sürekli karıştırarak 1 dakika pişirin.",
-   "Rendelenmiş domatesleri ve 100 ml suyu ekleyin. Karıştırıp orta ateşte kısık ateşte 15 dakika, sos koyulaşana kadar pişirin.",
+   "Rendelenmiş domatesleri ve 100 ml suyu ekleyin. Karıştırıp ateşi kısın ve sos koyulaşana kadar yaklaşık 15 dakika pişirin.",
    "Kavrulmuş sosisleri sosa geri ekleyin, tadını kontrol edip gerekirse tuz ekleyin.",
    "Sosun içinde 6 küçük çukur açın, her birine bir yumurta kırın. Tavayı kapatıp kısık ateşte 8 ila 10 dakika, akları pişip sarıları hâlâ yumuşak kalana kadar bekleyin.",
    "Üzerine kıyılmış maydanozu serpip sıcak olarak, ekmekle servis edin."
@@ -71,5 +71,14 @@
   "tr": "Domatesleri rendelemek kabuğu ayırır ve sosu pürüzsüz yapar; yumurtaları sosun içine yerleştirirken fazla karıştırmayın ki sarılar bozulmasın.",
   "en": "Grating the tomatoes removes the skins and gives a smooth sauce; keep the eggs whole and do not stir once they are in, so the yolks stay intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name 'Tunus usulü ojja (oca)' contains '(oca)', which is not a Turkish word or recognized name for this dish; it should be just 'ojja'.",
+   "Turkish step 5 says 'orta ateşte kısık ateşte' (medium heat, low heat), which is contradictory and unnatural; it should describe one heat level, matching the English 'simmer gently'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A well-known Algerian soup made with cracked green wheat (freekeh), lamb and chickpeas. It is especially served at iftar during Ramadan and on winter evenings."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,13 +53,13 @@
  },
  "steps": {
   "tr": [
-   "Eti yıkayıp kağıt havlu ile kurulayın. Geniş bir tencerede zeytinyağını ısıtın ve eti orta-yüksek ateşte 5-6 dakika, renk alana kadar kavurun.",
+   "Eti yıkayıp mutfak kağıdı ile kurulayın. Geniş bir tencerede zeytinyağını ısıtın ve eti orta-yüksek ateşte 5-6 dakika, renk alana kadar kavurun.",
    "Soğanı ve kereviz sapını ekleyip 5 dakika, soğanlar yumuşayana kadar soteleyin.",
    "Salçayı, kimyonu, tatlı kırmızı biberi, tarçını ve karabiberi ekleyin. Karışımı 1 dakika kavurun.",
-   "Rendelenmiş domatesi ekleyip 5 dakika pişirin, domates suyunu biraz çekilmesini sağlayın.",
-   "Suyu ekleyin, kaynamaya bırakın. Ateşi kısın ve kapağı kapalı olarak et yumuşayana kadar yaklaşık 40 dakika pişirin.",
+   "Rendelenmiş domatesi ekleyip 5 dakika pişirin, domatesin suyunun biraz çekilmesini sağlayın.",
+   "Suyu ekleyin, kaynamaya bırakın. Ateşi kısın ve kapağı kapalı olarak et yumuşayana kadar yaklaşık 60 dakika pişirin.",
    "Freekeh'i iyice yıkayıp süzün. Nohut ve tuzla birlikte tencereye ekleyin. Kapağı kapatmadan 15 dakika daha, freekeh yumuşayıp çorba kıvam alana kadar pişirin.",
-   "Kişniş ve maydanozu ince doğrayın. Ocak ateşten alınmadan önce son 2 dakikada çorbaya ekleyin.",
+   "Kişniş ve maydanozu ince doğrayın. Ocağı kapatmadan önce son 2 dakikada çorbaya ekleyin.",
    "Çorbayı sıcak servis tabaklarına alın ve limon dilimleriyle birlikte sunun."
   ],
   "en": [
@@ -67,7 +67,7 @@
    "Add the onion and celery and sauté for 5 minutes until the onion softens.",
    "Stir in the tomato paste, cumin, paprika, cinnamon and black pepper. Fry the mixture for 1 minute.",
    "Add the grated tomatoes and cook for 5 minutes until their juices reduce slightly.",
-   "Pour in the water and bring to a boil. Reduce the heat, cover and simmer for about 40 minutes until the meat is tender.",
+   "Pour in the water and bring to a boil. Reduce the heat, cover and simmer for about 60 minutes until the meat is tender.",
    "Rinse the freekeh well and drain it. Add it to the pot with the chickpeas and salt. Simmer uncovered for 15 more minutes until the freekeh is tender and the soup has thickened.",
    "Finely chop the coriander and parsley. Stir them into the soup during the last 2 minutes of cooking, then turn off the heat.",
    "Ladle the soup into warm bowls and serve with lemon slices on the side."
@@ -77,5 +77,16 @@
   "tr": "Freekeh suyu çok emer; servisten önce çorba fazla koyulaşırsa sıcak su ekleyerek kıvamını ayarlayın.",
   "en": "Freekeh absorbs a lot of liquid, so if the soup thickens too much before serving, add a splash of hot water to loosen it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says 'Ocak ateşten alınmadan önce', which is unnatural and does not mean 'turn off the heat' as the English says. It should read 'Ocağı kapatmadan önce'.",
+   "Turkish step 4 'domates suyunu biraz çekilmesini sağlayın' is ungrammatical. It should be 'domatesin suyunun biraz çekilmesini sağlayın'.",
+   "Turkish step 1 'kağıt havlu' is a literal calque; 'mutfak kağıdı' is the natural term.",
+   "Lamb shoulder cubes simmered for only about 40 minutes will often not reach full tenderness. Extended to about 60 minutes in both languages, which is a realistic time for shoulder meat."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

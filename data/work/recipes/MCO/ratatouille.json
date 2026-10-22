@@ -9,7 +9,7 @@
   "en": "Vegetables from the Mediterranean are slowly cooked in olive oil to make this dish, which is served as a summer side in Monaco and neighbouring Nice. It is eaten warm or at room temperature alongside meat and fish."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -67,5 +67,13 @@
   "tr": "Her sebzeyi ayrı ayrı kavurmak, her birinin tadını korur ve sebzelerin pişirme suyuna boğulmasını önler. Ratatuyu bir gün önceden yapıp dinlendirmek lezzeti daha da derinleştirir.",
   "en": "Frying each vegetable separately keeps its flavour distinct and stops the mixture turning watery. Making the ratatouille a day ahead lets the flavours deepen."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is understated: the steps include a 20-minute salting rest, a 20-minute simmer, and several batches of aubergine frying, which together with chopping come to roughly 85-90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

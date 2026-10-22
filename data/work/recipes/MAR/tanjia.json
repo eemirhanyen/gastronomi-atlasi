@@ -18,7 +18,7 @@
    "6 diş sarımsak, kabuğu soyulmuş",
    "40 g smen (yoksa tuzsuz tereyağı)",
    "2 yemek kaşığı zeytinyağı",
-   "1 çay kaşığı çekirdeği çıkarılmamış kimyon (kekik yerine kullanılmaz; tam kimyon)",
+   "1 çay kaşığı bütün kimyon tohumu",
    "1 çay kaşığı öğütülmüş kimyon",
    "1 çay kaşığı öğütülmüş zencefil",
    "1 çay kaşığı karabiber",
@@ -53,7 +53,7 @@
    "Safranı 2 yemek kaşığı ılık suda 10 dakika bekletin.",
    "Kuzu parçalarını tuz, karabiber, öğütülmüş kimyon ve öğütülmüş zencefille iyice ovalayın.",
    "Geniş, kapaklı bir fırın tenceresinde zeytinyağını kızdırın ve kuzu parçalarını her yüzü kızarana kadar, yaklaşık 6-7 dakika, çevirerek kavurun.",
-   "Ateşi kısın, sarımsakları, tam kimyonu ve smeni (ya da tereyağını) ekleyip 1 dakika karıştırın.",
+   "Ateşi kısın, sarımsakları, bütün kimyon tohumunu ve smeni (ya da tereyağını) ekleyip 1 dakika karıştırın.",
    "Safranlı suyu ve 150 ml sıcak suyu ekleyin, ardından dörde bölünmüş tuzlanmış limonları sosun içine yerleştirin.",
    "Kapağını kapatıp fırının ortasına koyun ve yaklaşık 3 saat, et yumuşayıp kemikten ayrılana kadar pişirin.",
    "Kapağı açın, fırın ısısını 180°C'ye çıkarın ve sosu 20-30 dakika daha pişirerek koyulaştırın.",
@@ -75,5 +75,14 @@
   "tr": "Limonları pişirmeden önce iyice yıkayın; tuzluluk çok olursa pişirme sırasında sosa bir miktar sıcak su ekleyin. Geleneksel tanjia gibi, sosu ekmekle emerek yiyin.",
   "en": "Rinse the preserved lemons well before cooking; if the sauce tastes too salty, add a splash of hot water. Traditionally the sauce is mopped up with bread."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish cumin seed ingredient says \"çekirdeği çıkarılmamış kimyon\" with a confusing parenthetical (\"kekik yerine kullanılmaz\"), which is unnatural and doesn't clearly say whole cumin seeds, unlike the",
+   "Turkish step 5 uses \"tam kimyonu\", which should match the clearer wording \"bütün kimyon tohumu\" for consistency."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

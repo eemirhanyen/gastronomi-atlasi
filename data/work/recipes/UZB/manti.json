@@ -19,7 +19,7 @@
    "450 g kuzu omuz eti, 5 mm küp doğranmış",
    "50 g kuzu kuyruk yağı veya yağlı kuzu eti, ince doğranmış",
    "250 g soğan, ince doğranmış",
-   "200 g kabak, soyulmuş ve rendelenmiş",
+   "200 g kabak, soyulmuş ve kaba rendelenmiş",
    "6 g tuz (iç harç için)",
    "2 g karabiber",
    "3 g öğütülmüş kimyon",
@@ -50,7 +50,7 @@
    "Hamuru ikiye bölün. Bir parçayı unlu tezgâhta çok ince açın, yaklaşık 12 cm kare kesim yapın.",
    "Her kareye ortasına yaklaşık 35 g iç harç koyun. Kenarları birleştirin, üst kısmını toplayıp sıkıca kapatın ya da kenarlarından kıvırarak kese şekli verin.",
    "Buharlık tabanına birkaç dilim soğan koyun. Mantıları tepsiye sıralayın, birbirine değmeyecek şekilde yerleştirin.",
-   "Buharlığı kapatıp 25-30 dakika pişirin. Et tamamen yumuşayınca ocaktan alın.",
+   "Buharlığı kapatıp 35-40 dakika pişirin. Et tamamen yumuşayınca ocaktan alın.",
    "Eritilmiş tereyağını mantıların üzerine gezdirin. Sıcak olarak yoğurt veya ekşi krema ile servis yapın."
   ],
   "en": [
@@ -61,7 +61,7 @@
    "Divide the dough in half. Roll one piece very thin on a floured surface and cut 12 cm squares.",
    "Place about 35 g of filling in the centre of each square. Pinch the edges together and gather the top into a pouch shape, sealing it firmly.",
    "Place a few onion slices on the bottom of the steamer. Arrange the manti on the tray without letting them touch.",
-   "Cover the steamer and cook for 25-30 minutes until the meat is fully tender, then remove from the heat.",
+   "Cover the steamer and cook for 35-40 minutes until the meat is fully tender, then remove from the heat.",
    "Drizzle the melted butter over the manti. Serve hot with yogurt or sour cream."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Mantıları buharlıkta birbirine değdirmeyin, aksi halde hamur yapışır. Kabak eti yumuşatıp suyunu verdiği için harcı ekstra sıvı eklemeden hazırlayın.",
   "en": "Do not let the manti touch in the steamer or the dough will stick together. The pumpkin releases juice, so do not add extra liquid to the filling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Steaming time of 25-30 minutes is short for dumplings with raw lamb cubes in a thick filling, so the meat may not be fully cooked. Traditional manti steam for longer. Changed to 35-40 minutes in both ",
+   "Turkish pumpkin step lacks the 'kaba rendelenmiş' (coarsely grated) detail given in the English version. Added it for consistency."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

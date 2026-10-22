@@ -5,8 +5,8 @@
  },
  "native": "hernekeitto",
  "desc": {
-  "tr": "Sarı kuru bezelye ve füme domuz etiyle pişen, Finlandiya'nın geleneksel çorbasıdır. Özellikle perşembe günleri, kalın bir sos ve hardalla birlikte, yanında ince lettu krepleriyle servis edilir.",
-  "en": "A hearty Finnish soup of yellow split peas and smoked pork, traditionally eaten on Thursdays with mustard and thin lettu pancakes. It is a staple of Finnish home cooking and school lunches."
+  "tr": "Sarı kuru bezelye ve füme domuz etiyle pişen, Finlandiya'nın geleneksel çorbasıdır. Özellikle perşembe günleri hardalla birlikte servis edilir.",
+  "en": "A hearty Finnish soup of yellow split peas and smoked pork, traditionally eaten on Thursdays with mustard. It is a staple of Finnish home cooking and school lunches."
  },
  "servings": 4,
  "time_min": 120,
@@ -63,5 +63,13 @@
   "tr": "Bezelyeler yumuşayınca çorba tencerenin dibinde yapışabilir; bu yüzden düzenli karıştırın ve ısıyı mümkün olduğunca düşük tutun.",
   "en": "Stir regularly near the end of cooking, as split peas can stick to the bottom of the pot and scorch easily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says the soup is served with thin lettu pancakes and a thick sauce, but the recipe has no lettu batter or sauce in the ingredients or steps. The description was trimmed to match what t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

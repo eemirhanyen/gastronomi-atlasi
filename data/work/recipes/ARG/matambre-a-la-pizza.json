@@ -23,7 +23,7 @@
    "1 küçük soğan, ince doğranmış (sos için)",
    "1 diş sarımsak, ince doğranmış",
    "300 g konserve doğranmış domates",
-   "1 çay kaşığı kurutulmuş kekik ya da kekik (sos için)",
+   "1 çay kaşığı kurutulmuş kekik (sos için)",
    "1/2 çay kaşığı tuz (sos için)",
    "1/4 çay kaşığı karabiber",
    "250 g mozarella, dilimlenmiş",
@@ -63,7 +63,7 @@
    "Fırını 200°C'ye ısıtın.",
    "Matambre'nin üzerine sosu ince bir tabaka halinde yayın, kenarlarından yaklaşık 2 cm boş bırakın.",
    "Üzerine mozarella dilimlerini dizin, közlenmiş kırmızı biber şeritlerini ve siyah zeytin dilimlerini serpin, ardından rendelenmiş parmesanı ve üst için ayırdığınız kekiği ekleyin.",
-   "Tepsiyi fırının orta rafına koyun ve peynirler erileceğe ve kenarları altın rengi olana kadar 15-20 dakika pişirin.",
+   "Tepsiyi fırının orta rafına koyun ve peynirler eriyene ve kenarları altın rengi olana kadar 15-20 dakika pişirin.",
    "Fırından çıkarıp 5 dakika dinlendirin, ardından dilimleyip sıcak ya da ılık servis edin."
   ],
   "en": [
@@ -83,5 +83,14 @@
   "tr": "Matambre'yi haşlamadan önce iyice kurulamak ve sosu ince yaymak, fırında kabarıp dağılmasını önler ve dilimlerin düzgün çıkmasını sağlar.",
   "en": "Pat the matambre very dry and spread the sauce thinly so the topping stays on the meat and slices cleanly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 uses the wrong verb form: \"erileceğe\" should be \"eriyene\" (\"peynirler eriyene ve kenarları altın rengi olana kadar\").",
+   "Turkish sauce ingredient \"kurutulmuş kekik ya da kekik\" is redundant and unclear; it should read just \"kurutulmuş kekik\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

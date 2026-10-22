@@ -27,7 +27,7 @@
    "1 havuç (100 g), küp doğranmış",
    "1 patates (250 g), küp doğranmış",
    "1 yemek kaşığı salça (15 g)",
-   "1 yemek kaşığı tuz (15 g) yerine 1 tatlı kaşığı tuz (6 g), tatma ile ayarlanır",
+   "1 tatlı kaşığı tuz (6 g), çorba için, tatma ile ayarlanır",
    "30 ml taze limon suyu",
    "1 küçük demet dereotu (15 g), ince doğranmış",
    "150 g ekşi krema (smântână)"
@@ -79,5 +79,13 @@
   "tr": "Ekşi kremayı asla kaynayan çorbaya doğrudan eklemeyin; önce sıcak suyla ılıtarak kesilmesini önleyin.",
   "en": "Never add sour cream directly to boiling soup; temper it with hot broth first so it stays smooth and does not curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish salt ingredient line contains leftover contradictory wording ('1 yemek kaşığı tuz (15 g) yerine...') that does not match the English version, which lists only 1 tsp (6 g) for the broth."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

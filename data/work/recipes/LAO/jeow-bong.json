@@ -5,7 +5,7 @@
  },
  "native": "ແຈ່ວບອງ",
  "desc": {
-  "tr": "Laos'ta günlük yemeklerin vazgeçilmez eşlikçisi olan, kızartılmış kuru biber, sarımsak, arpacık ve fermente soya ezmesiyle yapılan koyu bir sostur. Yapışkan pirinç (khao niao), közlenmiş et ve sebzelerle, özellikle öğünlerde ve pazarlarda servis edilir.",
+  "tr": "Laos'ta günlük yemeklerin vazgeçilmez eşlikçisi olan, kuru biber, közlenmiş sarımsak, arpacık ve fermente soya ezmesiyle yapılan koyu bir sostur. Yapışkan pirinç (khao niao), közlenmiş et ve sebzelerle, özellikle öğünlerde ve pazarlarda servis edilir.",
   "en": "A dark, deeply savoury chili paste from Laos, made with dried chilies, garlic, shallots and fermented soybean paste. It is an everyday condiment served with sticky rice, grilled meats and vegetables at home and in markets."
  },
  "servings": 4,
@@ -41,7 +41,7 @@
   "tr": [
    "Kuru biberleri sıcak suya koyup 15 dakika bekletin, ardından süzüp saplarını alın.",
    "Arpacık, sarımsak ve domatesleri kuru bir tavada ya da ızgarada, kenarları kararana kadar yaklaşık 10 dakika közleyin. Domatesleri soyup çekirdeklerini ayıklayın.",
-   " Havanda biberleri bir tutam tuzla birlikte iyice ezin.",
+   "Havanda biberleri bir tutam tuzla birlikte iyice ezin.",
    "Közlenmiş sarımsak ve arpacığı ekleyip pürüzsüz olmayan, dokulu bir macun elde edene kadar dövmeye devam edin. Domatesi ekleyip birlikte ezin.",
    "Tavada yağı orta ateşte ısıtın, fermente soya ezmesini ekleyip 1-2 dakika kavurun.",
    "Ezdiğiniz biber karışımını tavaya ekleyip 5-8 dakika, karışım koyulaşıp yağı çekene kadar karıştırarak pişirin.",
@@ -63,5 +63,13 @@
   "tr": "Tua nao yoksa, aynı miktarda miso ile az miktarda balık sosu kullanarak benzer bir derinlik elde edebilirsiniz.",
   "en": "If you cannot find tua nao, use the same amount of miso with a little extra fish sauce to get a similar depth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dried chilies are 'kızartılmış' (fried), but the steps soak them in hot water and never fry them. The English description does not claim frying, so the two versions disagr"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

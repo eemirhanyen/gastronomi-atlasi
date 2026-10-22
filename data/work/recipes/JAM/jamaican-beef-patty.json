@@ -72,7 +72,7 @@
    "Fırını 200°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı un serpilmiş tezgahta yaklaşık 3 mm kalınlığında, 15 cm çapında yuvarlak bir hamur haline getirin.",
    "Her hamurun bir yarısına 2 yemek kaşığı soğumuş harçtan koyun. Kenarları ıslatıp diğer yarısıyla kapatın ve çatal yardımıyla kenarlarını bastırarak mühürleyin.",
-   "Hazırlanan poğaçaları tepsiye dizin, üzerlerine yumurta karışımını sürün ve 25 dakika, altın sarısı olana kadar pişirin.",
+   "Hazırlanan patileri tepsiye dizin, üzerlerine yumurta karışımını sürün ve 25 dakika, altın sarısı olana kadar pişirin.",
    "Fırından çıkarıp birkaç dakika tel ızgarada soğumaya bırakın, sıcak ya da ılık servis yapın."
   ],
   "en": [
@@ -93,5 +93,13 @@
   "tr": "Hamurun katmanlı ve gevrek çıkması için tereyağı ile margarinin tamamen soğuk olmasına dikkat edin; kıymalı harcı mutlaka soğutun, aksi halde hamur ıslanır.",
   "en": "For flaky layers, keep the butter and shortening very cold and always cool the filling before assembling, otherwise the pastry will turn soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 calls the patties \"poğaça\", which is a different pastry. The correct term is \"pati\" (or \"patty\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

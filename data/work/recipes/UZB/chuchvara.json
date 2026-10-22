@@ -62,7 +62,7 @@
    "Hamuru hazırlamak için unu, tuzu, yumurtayı ve suyu bir kapta yoğurun. Hamur sert ve pürüzsüz olunca nemli bir bezle örtüp 30 dakika dinlendirin.",
    "İç harcı için ince doğranmış soğanı, kıymayı, tuzu, karabiberi ve soğuk suyu bir kapta iyice yoğurun. Harç yumuşak ama dağılmayacak kıvamda olmalıdır.",
    "Et suyu için kemikli eti 1,5 litre suyla geniş bir tencereye alın, kaynamaya bırakın ve yüzeyde biriken köpüğü alın.",
-   "Bütün soğanı, bütün havucu ve tuzu tencereye ekleyin. Kısık ateşte yaklaşık 60 dakika pişirin, sonra et ve sebzeleri süzgeçten geçirerek suyu süzün ve sıcak tutun.",
+   "Bütün soğanı, bütün havucu ve tuzu tencereye ekleyin. Kısık ateşte yaklaşık 60 dakika pişirin. Eti çıkarıp isterseniz didikleyin, sebzeleri atın, suyu süzün ve sıcak tutun.",
    "Hamuru ikiye bölüp un serpilmiş tezgâhta çok ince açın. Bir bardak ağzı ya da 5 cm'lik kesici ile daireler kesin.",
    "Her daireye bir çay kaşığı kadar harç koyun. Kenarlarını yukarı kaldırıp küçük torbacık gibi kapatın ya da üç köşeli kıvrım yapın; kenarları iyice bastırın.",
    "Hazırladığınız çuçvaraları un serpilmiş bir tepsiye dizin, üzerini nemli bezle örtün.",
@@ -74,7 +74,7 @@
    "Make the dough: mix the flour, salt, egg and water in a bowl. When it is smooth and firm, cover it with a damp cloth and rest it for 30 minutes.",
    "For the filling, knead together the finely chopped onion, minced meat, salt, black pepper and cold water until well combined. The filling should be soft but hold its shape.",
    "For the broth, put the bone-in beef in a large pot with 1.5 litres of water and bring to a boil. Skim off the foam that rises to the surface.",
-   "Add the whole onion, the whole carrot and the salt to the pot. Simmer gently for about 60 minutes, then strain the broth, discard the vegetables, and keep the broth hot. Shred the meat if you wish to serve it with the soup.",
+   "Add the whole onion, the whole carrot and the salt to the pot. Simmer gently for about 60 minutes. Remove the meat (shred it if you wish to serve with the soup), discard the vegetables, strain the broth and keep it hot.",
    "Divide the dough in two and roll it very thin on a floured surface. Cut rounds about 5 cm across using a glass or cutter.",
    "Place about a teaspoon of filling in the centre of each round. Lift the edges up and pinch them together into a small pouch, or fold into three and press the seams firmly.",
    "Arrange the finished chuchvara on a floured tray and cover with a damp cloth.",
@@ -87,5 +87,13 @@
   "tr": "Hamur çok ince açılmalı ama yırtılmamalıdır; kenarları iyice kapatmazsanız pişerken harç suya karışır.",
   "en": "Roll the dough very thin but without tearing, and seal the edges well, or the filling will leak into the broth while cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English step 4 disagree on the cooked beef: the Turkish strains out the meat and vegetables, while the English says to discard the vegetables and shred the meat optionally."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

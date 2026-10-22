@@ -5,11 +5,11 @@
  },
  "native": "Filmjölk",
  "desc": {
-  "tr": "İsveç'te kahvaltıda sık tüketilen, hafif ekşi ve kıvamlı bir fermente süttür. Genellikle müsli, taze meyve ya da yaban mersini reçeliyle birlikte servis edilir.",
+  "tr": "İsveç'te kahvaltıda sık tüketilen, hafif ekşi ve kıvamlı bir fermente süttür. Genellikle müsli, taze meyve ya da kırmızı yaban mersini reçeliyle birlikte servis edilir.",
   "en": "A mildly sour, lightly thickened cultured milk eaten at breakfast across Sweden, usually with muesli, fresh fruit or lingonberry jam."
  },
  "servings": 4,
- "time_min": 900,
+ "time_min": 1200,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,5 +51,14 @@
   "tr": "Bir sonraki partinin başlangıç kültürü olarak her seferinde 60 ml taze filmjölk ayırın; kültürü en fazla birkaç kez yeniden kullanın, sonra yeni bir başlangıç kültürüyle yeniden başlayın.",
   "en": "Save 60 ml of your fresh batch as the starter for the next one, and refresh the culture with new starter every few batches to keep the flavour consistent."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'yaban mersini reçeli' (blueberry jam), but the English says 'lingonberry jam'. Lingonberry is 'kırmızı yaban mersini' in Turkish, so the two versions disagree.",
+   "time_min is 900 (15 h), but the steps add up to roughly 16 to 20 h: 12 to 16 h incubation, at least 4 h chilling, plus heating and cooling. The total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

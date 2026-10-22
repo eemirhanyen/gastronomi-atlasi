@@ -5,8 +5,8 @@
  },
  "native": "te kabubu",
  "desc": {
-  "tr": "Kiribati'de ekmek ağacı meyvesinin sirkeli bir ekşilikle fermente edilmesiyle elde edilen, kıvamlı ve güçlü kokulu bir hamurdur. Balık ve hindistan cevizi yemeklerinin yanında, özellikle geleneksel yemeklerde ve kutlamalarda servis edilir.",
-  "en": "A thick, tangy paste made by fermenting breadfruit, traditionally prepared to preserve the harvest. It is served alongside fish and coconut dishes, especially at traditional meals and celebrations in Kiribati."
+  "tr": "Kiribati'de ekmek ağacı meyvesinin tuzlu suda ve muz yaprağına sarılarak doğal yolla fermente edilmesiyle elde edilen, kıvamlı ve güçlü kokulu bir hamurdur. Balık ve hindistan cevizi yemeklerinin yanında, özellikle geleneksel yemeklerde ve kutlamalarda servis edilir.",
+  "en": "A thick, tangy paste made by naturally fermenting breadfruit in salted water wrapped in banana leaves, traditionally prepared to preserve the harvest. It is served alongside fish and coconut dishes, especially at traditional meals and celebrations in Kiribati."
  },
  "servings": 4,
  "time_min": 60,
@@ -37,7 +37,7 @@
    "Parçaları buharda 15 dakika kadar pişirin, ardından tamamen soğumaya bırakın.",
    "Muz yapraklarını temizleyip 20 cm'lik parçalara bölün ve soğuyan ekmek ağacı parçalarını yapraklara sararak temiz bir cam veya seramik kaba yerleştirin.",
    "500 ml suda 10 g tuzu eritin, hazırlanan tuzlu suyu parçaların üzerine dökün ve parçaları sıvının altında tutmak için bir tabak ile bastırın.",
-   "Kabı kapatıp 25-30 °C'de, doğrudan güneş almayan bir yerde 5-7 gün fermente edin. Her gün kokuyu kontrol edin; hafif ekşi bir koku normaldir, ancak küf veya çürük koku varsa parti atın.",
+   "Kabı kapatıp 25-30 °C'de, doğrudan güneş almayan bir yerde 10-14 gün fermente edin. Her gün kokuyu kontrol edin; hafif ekşi bir koku normaldir, ancak küf veya çürük koku varsa partiyi atın.",
    "Fermantasyon tamamlanınca parçaları süzün, yaprakları çıkarın ve 2 tatlı kaşık fermantasyon suyunu ayırın.",
    "Parçaları havanda veya mutfak robotunda ayrılmış fermantasyon suyuyla birlikte pürüzsüz bir hamur olana kadar ezin.",
    "Hindistan cevizi kremasını yavaş yavaş ekleyerek karıştırın, ardından tuzu tadınıza göre ayarlayın.",
@@ -48,7 +48,7 @@
    "Steam the pieces for about 15 minutes, then leave them to cool completely.",
    "Clean the banana leaves and cut them into 20 cm pieces. Wrap the cooled breadfruit pieces in the leaves and place them in a clean glass or ceramic container.",
    "Dissolve 10 g salt in 500 ml water, pour the brine over the wrapped pieces, and weigh them down with a plate so they stay submerged.",
-   "Cover the container and ferment for 5 to 7 days at 25 to 30 °C, away from direct sunlight. Check the smell each day: a mildly sour aroma is normal, but discard the batch if you see mould or smell rot.",
+   "Cover the container and ferment for 10 to 14 days at 25 to 30 °C, away from direct sunlight. Check the smell each day: a mildly sour aroma is normal, but discard the batch if you see mould or smell rot.",
    "When fermentation is complete, drain the pieces, remove the leaves, and set aside 2 teaspoons of the fermentation liquid.",
    "Pound the pieces in a mortar or blend them in a food processor with the reserved liquid until you have a smooth paste.",
    "Gradually stir in the coconut cream, then adjust the salt to taste.",
@@ -59,5 +59,15 @@
   "tr": "Fermantasyon sırasında kabı sık sık açmayın; kokuyu ve yüzeyi kontrol ederken temiz bir kaşık kullanarak bulaşmayı önleyin.",
   "en": "Avoid opening the container too often during fermentation. Use a clean spoon to check the smell and surface to prevent contamination."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish description says the paste has a \"sirkeli\" (vinegar-like) tang, but it is made by natural fermentation in brine, with no vinegar.",
+   "A 5-7 day fermentation is much shorter than traditional kabubu, which is usually left to ferment for one to several weeks. This short time gives a much weaker sour, fermented character, which is centr",
+   "The English description does not mention the salted-water, banana-leaf method, so the Turkish and English descriptions are not fully aligned with the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

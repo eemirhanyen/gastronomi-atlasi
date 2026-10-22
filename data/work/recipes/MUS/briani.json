@@ -30,7 +30,7 @@
    "3 karanfil",
    "1 parça tarçın çubuğu",
    "2 defne yaprağı",
-   "2 tatlı kaşığı tuz",
+   "3 tatlı kaşığı tuz",
    "80 ml sıvı yağ",
    "900 ml su",
    "1 limonun suyu",
@@ -56,7 +56,7 @@
    "3 cloves",
    "1 cinnamon stick",
    "2 bay leaves",
-   "2 tsp salt",
+   "3 tsp salt",
    "80 ml vegetable oil",
    "900 ml water",
    "1 lime, juiced",
@@ -97,5 +97,13 @@
   "tr": "Pirinci mutlaka bekletmek, pilav tanelerinin birbirine yapışmasını önler ve daha dengeli bir kıvam sağlar.",
   "en": "Soaking the rice before cooking keeps the grains long and separate, and resting the pot off the heat lets the steam finish the rice evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity mismatch: the ingredient list says 2 tsp salt, but the steps use 1 tsp in the marinade (step 2) and another 2 tsp for the rice (step 8), for 3 tsp total. The Turkish and English versions"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

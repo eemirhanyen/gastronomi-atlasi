@@ -54,8 +54,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamur yeterince kabarmadıysa, kaseyi sıcak (ama sıcak olmayan) bir yere koyarak dinlendirme süresini uzatın; tavayı kapatmak gözenek oluşumunu hızlandırır.",
+  "tr": "Hamur yeterince kabarmadıysa, kaseyi ılık bir yere koyarak dinlendirme süresini uzatın; tavayı kapatmak gözenek oluşumunu hızlandırır.",
   "en": "If the batter has not risen enough, extend the resting time in a warm spot; covering the pan while cooking helps the holes form."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses an awkward, self-contradictory phrase, 'sıcak (ama sıcak olmayan) bir yere', which should read as 'ılık bir yere' (a lukewarm spot)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

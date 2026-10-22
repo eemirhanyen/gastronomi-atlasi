@@ -17,7 +17,7 @@
    "150 g kuru soğan (1 orta boy)",
    "10 g acı biber (1 küçük taze biber, isteğe göre)",
    "10 g taze maydanoz",
-   "30 ml limon suyu (yaklaşık 2 limon)",
+   "30 ml misket limonu suyu (yaklaşık 2 misket limonu)",
    "45 ml sıvı yağ",
    "5 g tuz (1 çay kaşığı)"
   ],
@@ -37,21 +37,30 @@
    "Soğanı soyun, çok ince yarım halka doğrayın ve 5 dakika soğuk suda bekletip süzün. Bu işlem acılığını azaltır.",
    "Biberin sapını alın, tohumlarıyla birlikte çok ince doğrayın. Maydanozu yıkayıp ince kıyın.",
    "Süzülmüş soğanı, doğranmış biberi ve maydanozu domateslerin üzerine ekleyin.",
-   "Limon suyunu, sıvı yağı ve tuzu ekleyin, malzemeleri nazikçe karıştırın.",
-   "Salatayı oda sıcaklığında 10 dakika dinlendirin, ardından hemen servis yapın."
+   "Misket limonu suyunu ve sıvı yağı ekleyin, malzemeleri nazikçe karıştırın.",
+   "Salatayı oda sıcaklığında 10 dakika dinlendirin. Servisten hemen önce tuzu ekleyin ve hemen servis yapın."
   ],
   "en": [
    "Wash the tomatoes, dice them into small cubes and place them in a large bowl along with their juices.",
    "Peel the onion, slice it into very thin half-rings and soak in cold water for 5 minutes, then drain. This softens its sharpness.",
    "Remove the stem from the chili and finely chop it, seeds included. Rinse the parsley and chop it finely.",
    "Add the drained onion, chopped chili and parsley to the tomatoes.",
-   "Pour in the lime juice and vegetable oil, add the salt and toss gently to combine.",
-   "Let the salad rest at room temperature for 10 minutes, then serve immediately."
+   "Pour in the lime juice and vegetable oil, and toss gently to combine.",
+   "Let the salad rest at room temperature for 10 minutes. Just before serving, add the salt, then serve immediately."
   ]
  },
  "tip": {
   "tr": "Yalnızca olgun ve sulu domates kullanın; tuzu servisten hemen önce ekleyerek salatanın fazla su salmasını önleyin.",
   "en": "Use only ripe, juicy tomatoes, and add the salt just before serving so the salad does not release too much liquid."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to add salt just before serving, but step 5 adds salt before the 10-minute rest, which contradicts the tip (EN and TR).",
+   "Turkish 'limon suyu' and '(yaklaşık 2 limon)' do not match the English 'lime juice'. Turkish should specify misket limonu (lime), since the amount of about 30 ml fits lime, not lemon (EN and TR)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

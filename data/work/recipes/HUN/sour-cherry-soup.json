@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g ekşi vişne, çekirdekleri çıkarılmış",
+   "500 g ekşi vişne (çekirdekli)",
    "1 l su",
    "100 g toz şeker (tadına göre)",
    "1 çubuk tarçın",
@@ -26,7 +26,7 @@
    "1 tutam tuz"
   ],
   "en": [
-   "500 g sour cherries, pitted",
+   "500 g sour cherries, with pits",
    "1 l water",
    "100 g caster sugar (adjust to taste)",
    "1 cinnamon stick",
@@ -65,5 +65,13 @@
   "tr": "Ekşi kremayı mutlaka sıcak çorbayla yavaş yavaş karıştırıp ısıtın; doğrudan kaynayan çorbaya eklerseniz kesilir.",
   "en": "Temper the sour cream with hot soup before adding it, and never boil the soup afterwards, or it may curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list says the 500 g sour cherries are already pitted (\"çekirdekleri çıkarılmış\" / \"pitted\"), but step 1 tells the cook to pit them. The English and Turkish versions also treat the pitting a"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

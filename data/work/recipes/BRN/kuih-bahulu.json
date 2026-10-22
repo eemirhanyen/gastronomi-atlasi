@@ -40,9 +40,9 @@
    "Fırını 180°C'ye ısıtın. Mini kek kalıbının ya da bahulu kalıplarının iç yüzeylerini tereyağı veya yağla hafifçe yağlayın.",
    "Yumurtaları ve şekeri bir kaseye alın. Elektrikli çırpıcıyla orta-yüksek hızda, karışım açık renk ve kıvamlı hale gelene kadar yaklaşık 5 dakika çırpın.",
    "Unu, kabartma tozunu ve tuzu bir elekten iki kez eleyin.",
-   "Eleyerek hazırladığınız un karışımını yumurtalı karışıma iki parti halinde ekleyin. Spatulayla yukarıdan aşağıya, hava kabarcıklarını kaybetmeden nazikçe karıştırın.",
+   "Eleyerek hazırladığınız un karışımını yumurtalı karışıma iki parti halinde ekleyin. Spatulayla alttan yukarıya doğru, hava kabarcıklarını kaybetmeden nazikçe karıştırın.",
    "Eritilmiş tereyağını, sütü ve vanilya özünü ayrı bir kapta karıştırın. Bunu hamura ekleyip yine nazikçe karıştırarak homojen bir hamur elde edin.",
-   "Hamuru bir sıkma torbasına alın ya da kaşıkla kalıplara doldurun. Her gözü yaklaşık üçte üçe kadar doldurun.",
+   "Hamuru bir sıkma torbasına alın ya da kaşıkla kalıplara doldurun. Her gözü yaklaşık üçte ikiye kadar doldurun.",
    "Kalıpları fırının orta rafına yerleştirin ve 12-15 dakika, kenarları altın rengi alıp üst yüzeyine dokunulduğunda geri sekene kadar pişirin.",
    "Kalıpları fırından çıkarıp 2 dakika kadar bekleyin. Ardından bahuluları kalıplardan nazikçe çıkarıp tel kafese alın ve tamamen soğumasını bekleyin."
   ],
@@ -61,5 +61,14 @@
   "tr": "Hamuru karıştırırken havayı kaybetmemek için hızlı değil, yavaş ve geniş hareketlerle katlayın; bu, bahuluların kabarık ve hafif çıkmasını sağlar.",
   "en": "Fold slowly with wide, gentle strokes rather than stirring; this keeps the air in the batter and gives the bahulu their light, puffy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to fill each mould \"üçte üçe kadar\" (up to three-thirds, i.e. full), but the English says two-thirds full. The Turkish should be \"üçte ikiye kadar\".",
+   "Folding direction differs: Turkish step 4 says \"yukarıdan aşağıya\" (top to bottom), while English says \"from the bottom up\". Turkish is changed to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

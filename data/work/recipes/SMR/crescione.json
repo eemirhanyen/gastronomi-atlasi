@@ -46,7 +46,7 @@
    "Doğranmış pazıyı, ricottayı, rendelenmiş Parmigiano'yu, yumurtayı, muskadı, bir tutam tuz ve karabiberle birlikte homojen bir karışım olacak şekilde yoğurun.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı oklavayla yaklaşık 14 cm çapında, 2 mm kalınlığında ince daireler haline getirin.",
    "Her hamur dairesinin yarısına bir kaşık dolgu koyun, diğer yarısını üzerine katlayıp kenarlarını parmaklarınızla iyice bastırarak kapatın.",
-   "Kızartma yağını geniş bir tavada 170°C'ye kadar ısıtın. Krepleri her iki yüzü altın rengi olana kadar, her biri yaklaşık 2-3 dakika kızartın.",
+   "Kızartma yağını geniş bir tavada 170°C'ye kadar ısıtın. Kreşoneleri her iki yüzü altın rengi olana kadar, her biri yaklaşık 2-3 dakika kızartın.",
    "Kızarmış kreşoneleri kağıt havlu üzerinde süzün ve sıcak servis yapın."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Pazıyı haşladıktan sonra suyunu iyice sıkın; aksi halde dolgu hamuru ıslatır ve kızartma sırasında yağ sıçratır.",
   "en": "Squeeze the cooked chard very thoroughly; wet filling makes the dough soggy and can cause the oil to spatter during frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 calls the dough pieces \"krepleri\" (crepes), which is wrong for crescione and does not match the English \"crescioni\". It should be \"kreşoneleri\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

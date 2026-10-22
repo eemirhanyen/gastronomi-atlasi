@@ -18,7 +18,7 @@
    "1 limon, dilimlenmiş (servis için)",
    "1 orta boy soğan (yaklaşık 100 g), rendelenmiş",
    "4 diş sarımsak, ezilmiş",
-   "1 tatlı kaşığı (5 g) öğütülmüş kimyon",
+   "1 tatlı kaşığı (2 g) öğütülmüş kimyon",
    "1 tatlı kaşığı (3 g) pul biber veya acı kırmızı biber",
    "1 tatlı kaşığı (2 g) tatlı kırmızı biber",
    "1 tatlı kaşığı (6 g) tuz",
@@ -33,7 +33,7 @@
    "1 lemon, cut into wedges (for serving)",
    "1 medium onion (about 100 g), grated",
    "4 garlic cloves, crushed",
-   "1 teaspoon (5 g) ground cumin",
+   "1 teaspoon (2 g) ground cumin",
    "1 teaspoon (3 g) dried red chili flakes or cayenne",
    "1 teaspoon (2 g) sweet paprika",
    "1 teaspoon (6 g) salt",
@@ -67,5 +67,13 @@
   "tr": "Balığı pişirmeden önce mutlaka kurulayın; yüzey kuru olursa marine iyi tutunur ve kızartmada yağ sıçramaz.",
   "en": "Pat the fish completely dry before marinating; a dry surface helps the paste cling and prevents oil from spattering when frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ground cumin is listed as 5 g per teaspoon in both languages. A level teaspoon of ground cumin weighs about 2 g, so 5 g is roughly 2.5 times too much for 1.2 kg of fish. Corrected to 2 g in both versi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

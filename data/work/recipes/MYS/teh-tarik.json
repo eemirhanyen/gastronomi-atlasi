@@ -30,24 +30,32 @@
    "Suyu bir tencerede kaynatın.",
    "Ocağı kapatın, çay poşetlerini suya ekleyip 5 dakika demlenmeye bırakın.",
    "Çay poşetlerini çıkarıp çayı bir sürahiye süzün.",
-   "Yoğunlaştırılmış sütü dört bardağa eşit olarak paylaştırın, yaklaşık 30 g koyun.",
-   "Buharlaştırılmış sütü de bardaklara eşit olarak, bardak başına yaklaşık 50 ml ekleyin.",
-   "Bir sürahiyi bardakların üzerine tutun ve demli çayı sürahiden sürahiye, mümkünse 40-50 cm yükseklikten dökerek çekin; bu işlemi 5-6 kez tekrarlayın, çay köpük tutana kadar devam edin.",
-   "Köpüklü çayı hazırlanmış bardaklara dökün ve hemen servis yapın."
+   "Yoğunlaştırılmış sütü ve buharlaştırılmış sütü sürahideki çaya ekleyip iyice karıştırın.",
+   "Karışımı iki sürahi arasında, mümkünse 40-50 cm yükseklikten dökerek çekin; bu işlemi 5-6 kez tekrarlayın, köpük tutana kadar devam edin.",
+   "Köpüklü çayı dört bardağa eşit olarak paylaştırın ve hemen servis yapın."
   ],
   "en": [
    "Bring the water to a boil in a saucepan.",
    "Turn off the heat, add the tea bags to the water and let them steep for 5 minutes.",
    "Remove the tea bags and strain the tea into a jug.",
-   "Divide the condensed milk equally among four glasses, about 30 g each.",
-   "Add the evaporated milk to the glasses equally, about 50 ml per glass.",
-   "Hold a second jug above the glasses and pour the strong tea back and forth between the two jugs from a height of about 40-50 cm, repeating 5-6 times until a thick froth forms.",
-   "Pour the frothy tea into the prepared glasses and serve immediately."
+   "Stir the condensed milk and evaporated milk into the tea in the jug until well combined.",
+   "Pour the tea mixture back and forth between two jugs from a height of about 40-50 cm, repeating 5-6 times until a thick froth forms.",
+   "Divide the frothy tea equally among four glasses and serve immediately."
   ]
  },
  "tip": {
-  "tr": "Çayı sürahiler arasında ne kadar yüksekten dökerseniz köpük o kadar kabarık olur; bu yüzden her dökümde kapları biraz daha ayırın.",
+  "tr": "Karışımı sürahiler arasında ne kadar yüksekten dökerseniz köpük o kadar kabarık olur; bu yüzden her dökümde kapları biraz daha ayırın.",
   "en": "The higher you pour between the jugs, the thicker the froth, so increase the gap slightly with each pour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Technique: the milk is poured into the glasses first and only plain tea is pulled, which does not produce the thick froth typical of teh tarik. Traditionally the condensed and evaporated milk are mixe",
+   "Turkish step 6 ('Bir sürahiyi bardakların üzerine tutun') does not match the pulling method described, and the English 'Hold a second jug above the glasses' is ambiguous. Both are rewritten to match t",
+   "Tip refers to pouring the tea; it is updated to refer to the tea mixture."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

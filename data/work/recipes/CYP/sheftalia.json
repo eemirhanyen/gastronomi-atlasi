@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Şeftali Kebabı",
+  "tr": "Şeftalya (Kıbrıs Usulü Izgara Domuz Sosisi)",
   "en": "Sheftalia (Cypriot Grilled Pork Sausage)"
  },
  "native": "Σεφταλιά",
  "desc": {
-  "tr": "Kıbrıs'ın en bilinen sokak yemeklerinden biri olan şeftali kebabı, file yağına sarılmış baharatlı domuz kıymasının ızgarada pişirilmesiyle yapılır. Genellikle Lefkoşa, Limasol ve Larnaka'daki kahvehane ve meyhanelerde, özellikle hafta sonları ve kutlamalarda pita ekmeğiyle servis edilir.",
+  "tr": "Kıbrıs'ın en bilinen sokak yemeklerinden biri olan şeftalya, file yağına sarılmış baharatlı domuz kıymasının ızgarada pişirilmesiyle yapılır. Genellikle Lefkoşa, Limasol ve Larnaka'daki kahvehane ve meyhanelerde, özellikle hafta sonları ve kutlamalarda pita ekmeğiyle servis edilir.",
   "en": "Sheftalia is one of Cyprus's best-known street foods: spiced minced pork wrapped in caul fat and grilled until crisp at the edges. It is sold at kiosks and tavernas in Nicosia, Limassol and Larnaca, usually served in pita bread on weekends and at celebrations."
  },
  "servings": 4,
@@ -46,10 +46,10 @@
    "File yağını ılık suda 10 dakika bekletin, ardından soğuk suyla iyice yıkayıp kağıt havluyla kurulayın. Yağı 8 eşit parçaya bölün ve buzdolabında bekletin.",
    "Domuz kıymasını büyük bir kasede rendelenmiş ve sıkılmış soğan, maydanoz, tuz, karabiber, kimyon ve kekik ile birlikte 3 dakika yoğurun. Karışım yapışkanlaşıp iyice homojen olana kadar devam edin.",
    "Karışımı 8 eşit parçaya bölün ve her birini ıslak ellerle yaklaşık 12 cm uzunluğunda, 3 cm kalınlığında silindir şekline getirin.",
-   "Her köftenin üzerine bir parça file yağını sarın, uçlarını içe doğru kıvırarak sarmalayın. Şekillenen şeftalileri 20 dakika buzdolabında dinlendirin.",
-   "Izgarayı veya tavayı orta-yüksek ateşte (yaklaşık 200 °C) ısıtın. Şeftalileri zeytinyağıyla hafifçe fırçalayın.",
-   "Şeftalileri her 2-3 dakikada bir çevirerek 15-18 dakika pişirin. Et tamamen pişip iç sıcaklığı 71 °C'ye ulaşınca ve file yağı çıtırlaşınca ocaktan alın.",
-   "Pişen şeftalileri 2 dakika dinlendirin, ardından pita ekmeklerinin içine yerleştirin.",
+   "Her köftenin üzerine bir parça file yağını sarın, uçlarını içe doğru kıvırarak sarmalayın. Şekillenen şeftalyaları 20 dakika buzdolabında dinlendirin.",
+   "Izgarayı veya tavayı orta-yüksek ateşte (yaklaşık 200 °C) ısıtın. Şeftalyaları zeytinyağıyla hafifçe fırçalayın.",
+   "Şeftalyaları her 2-3 dakikada bir çevirerek 15-18 dakika pişirin. Et tamamen pişip iç sıcaklığı 71 °C'ye ulaşınca ve file yağı çıtırlaşınca ocaktan alın.",
+   "Pişen şeftalyaları 2 dakika dinlendirin, ardından pita ekmeklerinin içine yerleştirin.",
    "Üzerine ince dilimlenmiş kırmızı soğan ve maydanoz ekleyip limon dilimleriyle birlikte sıcak servis yapın."
   ],
   "en": [
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "File yağı pişerken eriyip etin suyunu tutar; sarmadan önce yağı iyice kurulamak, ızgarada yapışıp yırtılmasını önler.",
-  "en": "Keep the caul fat cold until you wrap the sausages; it holds together better and crisps more evenly on the grill."
+  "tr": "File yağını sarmadan hemen önce soğuk tutun ve iyice kurulayın; bu, sarmanın daha iyi tutmasını ve ızgarada daha düzgün çıtırlaşmasını sağlar.",
+  "en": "Keep the caul fat cold and patted dry until you wrap the sausages; it holds together better and crisps more evenly on the grill."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Şeftali' means 'peach' in Turkish, which misleads readers. The Turkish Cypriot name is 'Şeftalya'. Changed throughout the Turkish text.",
+   "The Turkish and English tips disagree. The Turkish tip says to pat the caul fat dry before wrapping, while the English tip says to keep it cold. The fixed tip covers both points in each language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

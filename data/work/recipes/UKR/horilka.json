@@ -9,7 +9,7 @@
   "en": "A pungent, aromatic chili-infused vodka common across Ukraine. It is served chilled, typically as an aperitif at family tables, especially during winter visits and holiday meals."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 8640,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -32,7 +32,7 @@
    "Votkayı şişeye dökerek biberleri tamamen kaplayacak şekilde doldurun ve kapağını sıkıca kapatın.",
    "Şişeyi oda sıcaklığında (18–20 °C), ışık görmeyen serin bir yerde 5–7 gün bekletin. Her gün nazikçe çalkalayın.",
    "Her gün bir kaşık alıp tadına bakın; istediğiniz acılık seviyesine ulaştığında biberleri çıkarın.",
-   "Ara sıra ilk 3–4 gün içinde biberleri çıkarmayı unutmayın, aksi halde içki çok acı olabilir.",
+   "İlk 3–4 gün içinde biberleri çıkarmayı unutmayın, aksi halde içki çok acı olabilir.",
    "Bal ile ılık suyu karıştırıp balın tamamen erimesini sağlayın.",
    "İçkiyi temiz bir kâse üzerine süzgeç ve kahve filtresi veya ince bez yardımıyla süzün.",
    "Bal karışımını ekleyip iyice karıştırın, ardından şişeye geri koyup kapağını kapatın.",
@@ -55,5 +55,14 @@
   "tr": "Biberin acılığı çeşide ve olgunluğa göre değişir; bu yüzden her gün tadına bakıp biberleri zamanında çıkarmak en iyi sonucu verir.",
   "en": "Chili heat varies by variety and ripeness, so tasting daily and removing the peppers in time gives the best balance."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 uses \"Ara sıra\" (\"occasionally\"), which contradicts the English \"Remember to\" and reads as unnatural here; it should be \"Unutmayın\" or similar.",
+   "time_min is 30, but the recipe takes 5–7 days of infusion plus at least 1 day of chilling, so the total time is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

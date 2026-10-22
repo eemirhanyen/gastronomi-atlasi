@@ -50,7 +50,7 @@
    "Patates küplerini kaynayan suya ekleyip 8 dakika pişirin. Ardından lahanayı ekleyip 5 dakika daha haşlayın; sebzeler yumuşak ama dağılmamış olmalıdır.",
    "Bu arada büyük bir tavada 40 g tereyağını orta ateşte eritin, soğanı ekleyip 10–12 dakika, altın rengi olana kadar kavurun. Ocaktan alıp kenara koyun.",
    "Hamuru Spätzle presi veya delikli bir kalbur ile kaynayan patates ve lahana karışımının üzerine, parça parça tencereye bastırın. Pizokeller yüzeye çıkana kadar yaklaşık 2–3 dakika pişirin.",
-   "Süzgeçle tüm malzemeyi tencereden alıp iyice süzün.",
+   "Süzgeçle tüm malzemeyi tencereden alıp iyice süzün; gerekirse biraz pişirme suyu ayırın.",
    "Fırına dayanıklı, tereyağıyla yağlanmış bir kaba pizokel, patates ve lahana karışımının yarısını yayın. Üzerine peynirin yarısını serpin, tuz ve karabiber ekleyin. Kalan karışım ve peyniri üst üste ekleyin.",
    "Önceden 200 °C'ye ısıtılmış fırında 10 dakika, peynir eriyip hafif kızarana kadar pişirin.",
    "Kalan 40 g tereyağını küçük bir tavada köpürüp hafif kahverengileşene kadar bekleyin. Pişmiş pizokelin üzerine kavrulmuş soğanları ve kahverengi tereyağını gezdirerek sıcak servis yapın."
@@ -71,5 +71,13 @@
   "tr": "Hamurun kıvamı önemlidir: pizokeller kaynar suya düştüğünde dağılmamalı, yumuşak ama dolgun kalmalıdır. Hamuru dinlendirmek glütenin gevşemesini sağlar ve daha pürüzsüz bir sonuç verir.",
   "en": "Batter consistency matters: the dumplings should hold their shape in the water and stay tender but substantial. Resting the batter lets the gluten relax, giving a smoother texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 omits the English instruction to reserve a little cooking water if needed, so the two versions differ."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

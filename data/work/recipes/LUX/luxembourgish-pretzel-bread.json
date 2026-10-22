@@ -41,7 +41,7 @@
    "Ilık suyu ve oda sıcaklığındaki tereyağını ekleyip yoğurun; 8-10 dakika pürüzsüz ve elastik bir hamur elde edene kadar yoğurun.",
    "Hamuru üzerini örterek oda sıcaklığında iki katına çıkana kadar yaklaşık 60 dakika dinlendirin.",
    "Fırını 230°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
-   "Hamuru 8 eşit parçaya (yaklaşık 80 g) bölün; her parçayı tezgâhta yaklaşık 50 cm uzunluğunda ince bir ip haline getirin.",
+   "Hamuru 8 eşit parçaya (yaklaşık 105 g) bölün; her parçayı tezgâhta yaklaşık 50 cm uzunluğunda ince bir ip haline getirin.",
    "Her ipi U şekline getirin, uçları birbiri üzerinden iki kez çaprazlayarak dolayın ve alt kısma bastırarak tutturun.",
    "Şekillendirilmiş pretzelleri örtülü olarak 15 dakika dinlendirin.",
    "Büyük bir tencerede 1 litre suyu kaynatın, ocağı kısın ve karbonatı dikkatlice ekleyin (köpürür). Pretzelleri kaynar suda 30 saniye bekletin, süzgeç kaşıkla çıkarıp pişirme kağıdına alın.",
@@ -53,7 +53,7 @@
    "Add the lukewarm water and room-temperature butter and knead for 8-10 minutes until you have a smooth, elastic dough.",
    "Cover and let the dough rise at room temperature for about 60 minutes, until doubled in size.",
    "Preheat the oven to 230°C and line a baking tray with baking paper.",
-   "Divide the dough into 8 equal pieces (about 80 g each) and roll each into a rope about 50 cm long.",
+   "Divide the dough into 8 equal pieces (about 105 g each) and roll each into a rope about 50 cm long.",
    "Shape each rope into a U, cross the ends over each other twice, then press them onto the bottom of the U to seal.",
    "Cover the shaped pretzels and let them rest for 15 minutes.",
    "Bring 1 litre of water to a boil in a large pot, reduce the heat, and carefully add the baking soda (it will foam). Dip the pretzels in the water for 30 seconds, then lift them out with a slotted spoon onto the baking paper.",
@@ -65,5 +65,13 @@
   "tr": "Karbonat banyosu pretzelin o karakteristik koyu kabuğunu verir; pretzelleri 30 saniyeden fazla suda bekletmeyin, aksi halde hamur dağılıp lastik gibi olur.",
   "en": "The baking soda bath gives pretzels their characteristic deep-brown crust; don't leave them in the water longer than 30 seconds or the dough will turn gummy and fall apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't match the piece size: 500 g flour + 300 ml water + 30 g butter + 10 g salt + 10 g sugar + 7 g yeast is about 857 g, but 8 pieces of 80 g would total only about 640 g. Each piece s"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

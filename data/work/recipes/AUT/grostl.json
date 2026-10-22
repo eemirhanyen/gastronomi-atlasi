@@ -18,7 +18,7 @@
    "2 orta boy soğan, ince doğranmış",
    "3 çorba kaşığı domuz yağı veya sıvı yağ",
    "1 tatlı kaşığı tereyağı",
-   "1 tatlı kaşığı kimyon",
+   "1 tatlı kaşığı karaman kimyonu (kimyon tohumu)",
    "1 tatlı kaşığı kuru mercanköşk",
    "1 çorba kaşığı şarap sirkesi",
    "4 yumurta",
@@ -48,7 +48,7 @@
    "Geniş bir tavada domuz yağını veya yağı orta-yüksek ateşte ısıtın. Soğanları ekleyip 6-8 dakika, altın rengi olana kadar kavurun.",
    "Patates dilimlerini tavaya ekleyin ve 8-10 dakika, ara sıra karıştırarak kenarları kızarana kadar pişirin.",
    "Tereyağını ekleyin, ardından küp doğranmış dana etini tavaya alın. 5 dakika kızartın.",
-   "Kimyon, kuru mercanköşk, tuz ve karabiberi ekleyip iyice karıştırın. Sirkeyi gezdirin ve 2 dakika daha pişirin.",
+   "Karaman kimyonu, kuru mercanköşk, tuz ve karabiberi ekleyip iyice karıştırın. Sirkeyi gezdirin ve 2 dakika daha pişirin.",
    "Ayrı bir tavada az yağla yumurtaları sahanda pişirin; sarısı akışkan kalsın ya da isteğinize göre pişirin.",
    "Gröstl'ü sıcak servis tabaklarına alın, üzerine sahanda yumurtayı koyun, maydanozla süsleyin ve yanında turşu salatalıkla servis edin."
   ],
@@ -67,5 +67,13 @@
   "tr": "Patatesleri bir gece önceden haşlayıp soğutursanız dilimlemesi kolaylaşır ve tavada dağılmadan kızarır.",
   "en": "Boil the potatoes a day in advance and chill them; they slice more cleanly and crisp up in the pan without breaking apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'kimyon' means cumin, but the English says caraway. Caraway is 'karaman kimyonu' in Turkish, so the Turkish ingredient and step 6 should name it correctly."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

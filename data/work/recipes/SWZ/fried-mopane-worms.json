@@ -14,6 +14,7 @@
  "ingredients": {
   "tr": [
    "250 g kurutulmuş mopane tırtılı",
+   "Islatmak için ılık su (tırtılları örtecek kadar)",
    "500 ml su",
    "1 tatlı kaşığı (5 g) tuz",
    "1 orta boy soğan (120 g), ince doğranmış",
@@ -24,6 +25,7 @@
   ],
   "en": [
    "250 g dried mopane caterpillars",
+   "Lukewarm water for soaking (enough to cover the caterpillars)",
    "500 ml water",
    "1 teaspoon (5 g) salt",
    "1 medium onion (120 g), finely chopped",
@@ -41,7 +43,7 @@
    "Karışımı orta ateşte 15 dakika kaynatın, ardından süzüp suyunu iyice akıtın.",
    "Ayrı bir tavada yağı orta-yüksek ateşte ısıtın ve doğranmış soğanı altın rengi alana kadar yaklaşık 5 dakika kavurun.",
    "Yeşil biber ve ezilmiş sarımsağı ekleyip 1 dakika daha pişirin.",
-   "Küp doğranmış domatesi ekleyin ve suyunu salıncaya kadar 5 dakika pişirin.",
+   "Küp doğranmış domatesi ekleyin ve suyu çekilinceye kadar 5 dakika pişirin.",
    "Haşlanmış tırtılları tavaya alın ve karıştırarak 8-10 dakika kızartın; tırtılların kenarları çıtır olunca ocaktan alıp sıcak servis yapın."
   ],
   "en": [
@@ -59,5 +61,14 @@
   "tr": "Tırtılları haşlamadan önce iyice sıkmak, içindeki acı tadı azaltır ve daha temiz bir lezzet sağlar.",
   "en": "Squeezing the caterpillars thoroughly before boiling removes the bitter gut contents and gives a cleaner flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 uses the wrong word \"salıncaya\" (should be \"çekilinceye\" or \"buharlaşıncaya\"); the English says \"until their juices have reduced\".",
+   "Step 1 uses lukewarm water for soaking, but no soaking water is listed in the ingredients in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

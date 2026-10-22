@@ -6,7 +6,7 @@
  "native": "Binyebwa",
  "desc": {
   "tr": "Uganda'da matoke, posho ve pirinçle servis edilen, yer fıstığı ezmesinden yapılan kıvamlı bir sos. Günlük öğünlerde ve aile yemeklerinde sık görülür.",
-  "en": "A thick sauce made from ground groundnuts, served across Uganda with matooke, posho, or rice. It is a everyday family dish, eaten at lunch and dinner."
+  "en": "A thick sauce made from ground groundnuts, served across Uganda with matooke, posho, or rice. It is an everyday family dish, eaten at lunch and dinner."
  },
  "servings": 4,
  "time_min": 40,
@@ -15,9 +15,9 @@
   "tr": [
    "200 g çiğ yer fıstığı (kabuğu soyulmuş)",
    "30 ml bitkisel yağ",
-   "1 orta boy soğan (about 120 g), ince doğranmış",
-   "2 orta boy domates (about 250 g), küp doğranmış",
-   "1 küçük yeşil biber (about 80 g), çekirdekleri çıkarılmış ve doğranmış",
+   "1 orta boy soğan (yaklaşık 120 g), ince doğranmış",
+   "2 orta boy domates (yaklaşık 250 g), küp doğranmış",
+   "1 küçük yeşil biber (yaklaşık 80 g), çekirdekleri çıkarılmış ve doğranmış",
    "1 çay kaşığı tuz",
    "500 ml su"
   ],
@@ -36,7 +36,7 @@
    "Yer fıstıklarını kuru bir tavada orta ateşte 8-10 dakika, altın rengi alana ve kokusu çıkana kadar sık sık karıştırarak kavurun.",
    "Fıstıkları soğumaya bırakın, ardından ellerinizle ovarak kalan ince kabuklarını çıkarın.",
    "Soğumuş fıstıkları blenderda 150 ml suyla birlikte pürüzsüz bir ezme olana kadar çekin.",
-   "Geniş bir tencerede yağı orta ateşte ısıtın ve soğanı yumuşayıp pembeleşene kadar, yaklaşık 5 dakika kavurun.",
+   "Geniş bir tencerede yağı orta ateşte ısıtın ve soğanı yumuşayıp hafif altın rengi alana kadar, yaklaşık 5 dakika kavurun.",
    "Domatesi ve yeşil biberi ekleyin, sebzeler suyunu salıp yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Fıstık ezmesini ve kalan 350 ml suyu azar azar ekleyin, sürekli karıştırarak topaklanmasını önleyin.",
    "Sosu kısık ateşte 15 dakika kadar kaynatın; kıvam alıp pürüzsüzleşince tuzunu ayarlayın.",
@@ -57,5 +57,15 @@
   "tr": "Sosun topaklanmaması için fıstık ezmesini suyla yavaş yavaş seyreltin ve sık sık karıştırın.",
   "en": "Dilute the groundnut paste slowly with the water and stir often to keep the sauce lump-free."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains untranslated English 'about' in three lines (should be 'yaklaşık')",
+   "Turkish step 4 says onion should turn 'pembeleşene' (pinkish), which is unnatural and does not match the English 'lightly golden'",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

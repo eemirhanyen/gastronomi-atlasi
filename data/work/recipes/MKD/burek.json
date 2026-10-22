@@ -9,7 +9,7 @@
   "en": "A layered phyllo pastry filled with spiced minced meat and finished with a yogurt-egg custard. In North Macedonia it is eaten for breakfast, lunch and afternoon coffee, and is a staple at family gatherings and celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -59,5 +59,13 @@
   "tr": "Yufkaları kullanmadan önce kuru kalmaması için bir nemli bez altında tutun; yağı her yaprağa ince bir tabaka halinde sürmek kıtır bir sonuç verir.",
   "en": "Keep the phyllo covered with a damp cloth while you work so it does not dry out, and brush each sheet with a thin, even layer of oil for a crisp finish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to about 90 minutes: 5 min onion, 10 min mince, 10 min cooling, roughly 15 min layering, 35-40 min baking, and 10 min resting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

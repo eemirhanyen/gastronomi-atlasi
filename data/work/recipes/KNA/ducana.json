@@ -49,7 +49,7 @@
    "Eritilmiş tereyağını, hindistancevizi sütünü, vanilya özünü ve kuru üzümü ekleyip karışım nemli ama sıkı bir hamur kıvamına gelene kadar yoğurun. Çok sertse birkaç yemek kaşığı su ekleyin.",
    "Muz yapraklarını bezle silin. Yumuşayana kadar ocak alevinin üzerinden hızlıca geçirin veya sıcak suya daldırın. Her yaprağı yaklaşık 30x30 cm kareler halinde kesin ve sert orta damarını çıkarın.",
    "Her yaprağın ortasına karışımın dörtte birini yerleştirip yassı bir dikdörtgen şekli verin. Yaprağı üzerine katlayarak kapatın, uçlarını katlayıp mutfak ipiyle sıkıca bağlayın.",
-   "Büyük bir tencerede suyu kaynatın. Paketleri suya bırakın, kapağını kapatın ve orta ateşte yaklaşık 50 dakika kısık ateşte pişirin. Su azalırsa sıcak su ekleyin.",
+   "Büyük bir tencerede suyu kaynatın. Paketleri suya bırakın, kapağını kapatın ve orta-kısık ateşte yaklaşık 50 dakika pişirin. Su azalırsa sıcak su ekleyin.",
    "Bir paketi açıp kontrol edin. İçi sertleşip kıvamını almış olmalı. Paketleri tencereden alın ve yaklaşık 10 dakika soğumaya bırakın.",
    "Ilık veya oda sıcaklığında servis edin. Sofrada paketleri açarak ikram edin."
   ],
@@ -67,5 +67,13 @@
   "tr": "Muz yaprağı bulamazsanız alüminyum folyoya yağ sürüp aynı şekilde sarabilirsiniz; paketin sıkı kapandığından emin olun.",
   "en": "If banana leaves are unavailable, wrap the mixture in oiled aluminium foil instead, making sure the seams are sealed tightly so no water gets in."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says 'orta ateşte' and then 'kısık ateşte' in the same sentence, which contradicts the English 'medium-low heat'. Changed to 'orta-kısık ateşte'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

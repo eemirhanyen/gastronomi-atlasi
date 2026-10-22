@@ -1,7 +1,7 @@
 {
  "name": {
   "tr": "Tufahija",
-  "en": "Tufahije (Stuffed Baked Apples)"
+  "en": "Tufahije (Stuffed Poached Apples)"
  },
  "native": "Tufahije",
  "desc": {
@@ -9,7 +9,7 @@
   "en": "Tufahije is a dessert of whole apples poached in sugar syrup, filled with sweetened ground walnuts, and served cold with whipped cream. It is traditionally offered in Montenegro and across the wider Balkans at holidays, weddings and when guests visit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -65,5 +65,14 @@
   "tr": "Pişerken dağılmaması için Granny Smith gibi sert ve ekşimsi elmalar tercih edin; elmalar tamamen soğumadan doldurmayın.",
   "en": "Choose firm, slightly tart apples such as Granny Smith so they hold their shape, and fill them only after they have cooled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English name says \"Stuffed Baked Apples\", but the recipe poaches the apples in syrup and never bakes them. The name should say poached.",
+   "time_min is 60, but the recipe includes at least 2 hours of chilling plus cooking and cooling, so the total time is about 3 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

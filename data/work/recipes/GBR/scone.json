@@ -33,7 +33,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 220°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
+   "Fırını 220°C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Büyük bir kapta unu, kabartma tozunu, tuzu ve şekeri karıştırın.",
    "Soğuk tereyağı küplerini parmak uçlarınızla un karışımına ovun; karışım ince galeta unu kıvamına gelsin.",
    "Yumurtayı çırpın, 130 ml sütle birlikte ekleyip bıçakla hızlıca karıştırın. Hamur yumuşak ve biraz yapışkan olmalı.",
@@ -50,12 +50,21 @@
    "Turn the dough onto a lightly floured surface, knead it very briefly, then pat it out to about 2.5 cm thick.",
    "Cut out 8 rounds with a sharp cutter, or cut the dough into triangles with a knife. Re-form the scraps and cut again if needed.",
    "Brush the tops with the remaining 1 tbsp milk and place the scones on the prepared tray, spaced apart.",
-   "Bake for 12 to 15 minutes until golden on top. Transfer to a wire rack and serve warm or cooled."
+   "Bake for 12 to 15 minutes until golden on top. Transfer to a wire rack and serve warm, before they cool completely."
   ]
  },
  "tip": {
   "tr": "Hamuru az yoğurun ve kesmeden önce çok fazla oynatmayın; böylece scone'lar yükselir ve yumuşak kalır.",
   "en": "Handle the dough as little as possible and keep the butter cold; this gives light, tender scones that rise well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 8 says 'serve warm or cooled', but the Turkish says to serve before the scones cool completely. The versions disagree.",
+   "Turkish step 1 'pişirme kağıdı serin' is an awkward phrasing that can be misread as 'cool the baking paper'. It should say the tray is lined with baking paper."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

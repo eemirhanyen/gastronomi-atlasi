@@ -9,7 +9,7 @@
   "en": "A soft yeasted pastry filled with plum lekvar, eaten in Slovakia at breakfast, with afternoon coffee or tea, and at family weekend gatherings. It is usually served warm, dusted with powdered sugar."
  },
  "servings": 4,
- "time_min": 110,
+ "time_min": 130,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Ilık sütü, mayayı ve 1 çay kaşığı şekeri bir kasede karıştırıp 5 dakika kabarmaya bırakın.",
-   "Geniş bir kapta unu, kalan şekeri ve tuzu karıştırın. Ortasına mayalı sütü, yumurtayı ve oda sıcaklığındaki tereyağını ekleyip yumuşak, yapışmayan bir hamur yoğurun (yaklaşık 8-10 dakika).",
+   "Geniş bir kapta unu, kalan şekeri ve tuzu karıştırın. Ortasına mayalı sütü, yumurtayı ve oda sıcaklığındaki tereyağını ekleyip yumuşak, hafif yapışkan bir hamur yoğurun (yaklaşık 8-10 dakika).",
    "Hamuru üzerini örtüp sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalandırın.",
    "Hamuru 8 eşit parçaya bölün, her parçayı top haline getirip avuç içiyle hafifçe yassılaştırın.",
    "Her hamur parçasının ortasına yaklaşık 25 g erik lekvarı koyun. Kenarları ortada toplayıp kapatın ve dikiş tarafı aşağı gelecek şekilde fırın tepsisine yerleştirin.",
@@ -63,5 +63,14 @@
   "tr": "Buhtileri dikiş tarafı aşağı gelecek şekilde pişirin ve kenarları iyice kapatın; böylece pişerken dolgu sızmaz.",
   "en": "Bake the buchty seam-side down and pinch the edges firmly so the lekvar stays inside while baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the dough should be 'yapışmayan' (non-sticky), but the English says 'slightly tacky'. The two versions disagree on dough texture.",
+   "time_min (110) is too low. The listed steps total roughly 125-140 minutes: 5 min proofing, 8-10 min kneading, 60 min first rise, 30 min second rise, and 20-25 min baking, plus shaping."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

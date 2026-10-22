@@ -9,7 +9,7 @@
   "en": "A dish from Transylvania, Romania, made of cornmeal mamaliga shaped around a filling of brined sheep's cheese and smoked bacon, then baked. Traditionally eaten in winter and at large family meals, served topped with sour cream."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -35,31 +35,40 @@
   "tr": [
    "Fırını 200°C'ye ısıtın ve bir fırın kabının iç yüzeyini 20 g tereyağı ile yağlayın.",
    "Büyük bir tencerede 1000 ml suyu 6 g tuz ile birlikte kaynatın.",
-   "Ateşi kısın ve mısırununu azar azar ekleyin; sürekli karıştırarak 20-25 dakika, koyu ve kıvamlı bir mamaliga pişirin. Kaşığın ortasında durması gerekir.",
+   "Ateşi kısın ve mısır ununu azar azar ekleyin; sürekli karıştırarak 20-25 dakika, koyu ve kıvamlı bir mamaliga pişirin. Kaşığın ortasında dik durmalıdır.",
    "Mamalıgayı ocaktan alın ve ılınana kadar yaklaşık 15 dakika bekleyin; elinizle tutabileceğiniz kadar soğuk olmalı.",
    "Bu arada domuz pastırmasını küp doğrayıp kızgın bir tavada kıtır kıtır olana kadar 5-6 dakika kavurun ve yağıyla birlikte bir kaseye alın.",
    "Ufalanmış telemea peynirini kavrulmuş pastırma ile karıştırarak dolguyu hazırlayın.",
    "Ellerinizi ıslatın, yaklaşık 60 g mamalıga alıp avucunuzda yassılaştırın, ortasına bir kaşık dolgu koyun ve mamalıgayı kapatarak top haline getirin.",
    "Hazırladığınız topları yağlanmış kaba yan yana dizin ve üzerlerine kalan 20 g eritilmiş tereyağını gezdirin.",
    "Önceden ısıtılmış fırında 20-25 dakika, yüzeyleri altın sarısı olana kadar pişirin.",
-   "Sıcak servis yapın; üzerine ekşi kremayı koyun ve isterseniz kalan pastırma parçaları ile süsleyin."
+   "Sıcak servis yapın; üzerine ekşi kremayı koyun."
   ],
   "en": [
    "Preheat the oven to 200°C and grease the inside of an ovenproof dish with 20 g of the butter.",
    "Bring the 1000 ml water and 6 g salt to the boil in a large pot.",
-   "Reduce the heat and add the cornmeal gradually, stirring constantly, then cook for 20-25 minutes until you have a thick mamaliga that pulls away from the sides of the pot.",
+   "Reduce the heat and add the cornmeal gradually, stirring constantly, then cook for 20-25 minutes until you have a thick mamaliga that stands upright in the middle of a spoon.",
    "Remove the mamaliga from the heat and let it cool for about 15 minutes, until it is warm enough to handle.",
    "Meanwhile, dice the smoked bacon and fry it in a hot pan for 5-6 minutes until crisp, then transfer it with its fat to a bowl.",
    "Make the filling by mixing the crumbled telemea with the crisp bacon.",
    "Wet your hands, take about 60 g of mamaliga, flatten it in your palm, place a spoonful of filling in the middle and close it into a ball.",
    "Arrange the balls side by side in the greased dish and drizzle the remaining 20 g of melted butter over them.",
    "Bake in the preheated oven for 20-25 minutes until golden on the surface.",
-   "Serve hot, topped with the sour cream and, if you like, a few reserved bacon pieces."
+   "Serve hot, topped with the sour cream."
   ]
  },
  "tip": {
   "tr": "Mamalıgayı şekillendirirken ellerinizi sık sık suya batırın; böylece yapışmaz ve topların çatlamaması için iç dolgu tam kapatılmalıdır.",
   "en": "Keep your hands wet while shaping the mamaliga so it does not stick, and seal the filling completely so the balls do not crack in the oven."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 10 refers to 'kalan pastırma parçaları' / 'a few reserved bacon pieces', but step 6 uses all the bacon in the filling and nothing is set aside.",
+   "time_min is 60, but the steps (25 min cooking, 15 min cooling, shaping, 20-25 min baking) add up to roughly 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

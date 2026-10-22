@@ -9,7 +9,7 @@
   "en": "A thick, tangy spread made from strained yogurt. In Palestine it is eaten at breakfast, drizzled with olive oil and za'atar and served with fresh vegetables and bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 780,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Süzme işlemi uzadıkça labne daha koyu ve sert olur; yumuşak bir kıvam için 12 saat yeterlidir.",
+  "tr": "Süzme işlemi uzadıkça labne daha koyu ve sert olur; yumuşak bir kıvam için 12 saat yeterlidir, 24 saat ise daha sert bir peynir verir.",
   "en": "The longer it drains, the firmer the labneh; 12 hours gives a soft, spreadable texture, while 24 hours yields a firmer cheese."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't reflect the 12–24 hour draining step, so the total time is understated",
+   "Turkish tip omits the English note that 24 hours yields a firmer cheese, so the two versions disagree"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

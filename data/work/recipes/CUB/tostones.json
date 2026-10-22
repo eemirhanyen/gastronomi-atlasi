@@ -18,7 +18,7 @@
    "2 diş sarımsak",
    "60 ml su",
    "1 çay kaşığı tuz, pişirme sonrası için ayrıca tuz",
-   "1 adet limon, dilim dilim kesilmiş"
+   "1 adet lime, dilim dilim kesilmiş"
   ],
   "en": [
    "900 g unripe green plantains, about 3 large",
@@ -37,7 +37,7 @@
    "Sıcak muz parçalarını bir tostonera (ya da tabanı düz bir tava veya cam bardak) ile yaklaşık 1 cm kalınlığında olacak şekilde yassılaştırın.",
    "Yassılaştırılmış parçaları sarımsaklı suya kısaca batırıp hemen çıkarın.",
    "Yağı yaklaşık 180 °C'ye ısıtın. Parçaları ikinci kez, kenarları altın rengi olana kadar yaklaşık 1-2 dakika kızartın. Kağıt havluya alıp süzün.",
-   "Sıcak tostonları hafifçe tuzlayın ve limon dilimleriyle birlikte hemen servis yapın."
+   "Sıcak tostonları hafifçe tuzlayın ve lime dilimleriyle birlikte hemen servis yapın."
   ],
   "en": [
    "Trim the ends of the plantains. Score the peel lengthwise with a knife, then peel them. Cut the plantains into pieces about 4 cm long.",
@@ -53,5 +53,13 @@
   "tr": "Muz tamamen yeşil ve sert olmalıdır; sarıya dönmeye başlamış muzlar ikinci kızartmada dağılmadan yassılaşmaz, bunun yerine tatlı ve yumuşak olur.",
   "en": "Use fully green, firm plantains. Ones starting to turn yellow will be sweeter and softer, and they tend to fall apart rather than flatten cleanly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Citrus mismatch: the Turkish ingredient list and step 7 say 'limon' (lemon), but the English version says 'lime'. Cuban tostones are served with lime, so the Turkish should say lime."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

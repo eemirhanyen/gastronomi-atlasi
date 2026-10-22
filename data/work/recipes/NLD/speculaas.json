@@ -16,7 +16,7 @@
    "200 g çok amaçlı un",
    "110 g koyu esmer şeker",
    "100 g soğuk tereyağı, küp doğranmış",
-   "4 g speküloos baharatı (tarçın, zencefil, karanfil, hindistan cevizi, karabiber ve kakule karışımı)",
+   "4 g speküloos baharatı (tarçın, zencefil, karanfil, hindistan cevizi, beyaz biber ve kakule karışımı)",
    "2 g karbonat (sodyum bikarbonat)",
    "1 g tuz",
    "40 ml süt",
@@ -35,7 +35,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 170°C'ye ısıtın ve fırın tepsisine kağıt serin.",
+   "Fırını 170°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
    "Büyük bir kasede unu, esmer şekeri, speküloos baharatını, karbonatı ve tuzu iyice karıştırın.",
    "Soğuk tereyağı küplerini ekleyip parmak uçlarınızla unu ovalayarak kum kıvamı alana kadar karıştırın.",
    "Sütü ekleyip homojen bir hamur oluşturacak şekilde yoğurun. Hamur çok kuru gelirse 1-2 damla daha süt ekleyin.",
@@ -63,5 +63,14 @@
   "tr": "Kalıp desenlerinin net çıkması için hamuru kalıba bastırmadan önce unlayın ve hamuru buzdolabından çıkarıp hemen şekillendirin; hamur soğuk olduğunda desenler daha keskin kalır.",
   "en": "Flour the mould well and press it down firmly while the dough is cold from the fridge; this keeps the pattern sharp and stops the dough sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Spice blend mismatch: Turkish lists 'karabiber' (black pepper) while English lists 'white pepper'.",
+   "Turkish step 1 wording 'fırın tepsisine kağıt serin' is unnatural; should be 'pişirme kağıdı serin'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

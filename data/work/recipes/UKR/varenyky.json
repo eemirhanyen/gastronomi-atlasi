@@ -5,11 +5,11 @@
  },
  "native": "вареники",
  "desc": {
-  "tr": "Ukrayna'nın en bilinen hamur işlerinden biri olan vareniki, patates ve lor peyniri ya da patates ve soğan dolgulu yarım ay şeklinde haşlanmış hamur tatlarından oluşur. Ev yemeklerinde, bayramlarda ve Noel Arifesi gibi özel günlerde ekşi krema ve tereyağıyla servis edilir.",
+  "tr": "Ukrayna'nın en bilinen hamur işlerinden biri olan vareniki, patates ve lor peyniri ya da patates ve soğan dolgulu, yarım ay şeklinde haşlanmış hamur parçalarıdır. Ev yemeklerinde, bayramlarda ve Noel Arifesi gibi özel günlerde ekşi krema ve tereyağıyla servis edilir.",
   "en": "Varenyky are half-moon dumplings from Ukraine, filled with potato and farmer's cheese or potato and onion, then boiled and finished in butter. They are eaten at family meals and holiday tables, especially Christmas Eve, and are served with sour cream."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Vareniki'lerin açılmasını önlemek için kenarları iyice bastırın ve pişirirken tencereye çok fazla koymayın.",
+  "tr": "Vareniki'lerin açılmasını önlemek için kenarları iyice bastırın. Birbirine yapışmasın diye küçük partiler halinde pişirin ve tencereye çok fazla koymayın.",
   "en": "Press the edges firmly so the dumplings do not open in the water, and cook them in small batches so they do not stick together."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the steps: boiling potatoes (~20 min), 30-min dough rest, kneading, cooling the filling, shaping, boiling and frying add up to roughly 90 min",
+   "Turkish description uses 'hamur tatlarından oluşur', which is unnatural; 'hamur tatları' is not a dish term",
+   "Turkish tip omits the English tip's point about cooking in small batches so the dumplings don't stick together"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -55,10 +55,10 @@
    "Hamuru streç film ile sarıp buzdolabında 30 dakika dinlendirin.",
    "Cevizi, 60 g toz şekeri, tarçını ve kakuleyi küçük bir kasede karıştırarak iç harcı hazırlayın.",
    "Hamuru ikiye bölün. Her parçayı unlu bir yüzeyde yaklaşık 20x30 cm ölçüsünde, 3 mm kalınlığında dikdörtgen olacak şekilde açın.",
-   "Açılmış hamurun yüzeyine eritilmiş tereyağının yarısını fırçalayın ve iç harcın yarısını eşit şekilde serpin.",
+   "Açılmış her hamur dikdörtgeninin yüzeyine eritilmiş tereyağının yarısını (10 g) fırçalayın ve iç harcın yarısını eşit şekilde serpin.",
    "Hamuru uzun kenarından başlayarak sıkıca rulo yapın ve uçlarını bastırarak kapatın.",
    "Rulo hamuru dikkatlice halka şekline getirin, uçlarını birbirine bastırarak birleştirin ve tepsiye alın. Diğer parça için de aynı işlemi tekrarlayın.",
-   "Yumurta sarısını sütle çırparak sır hazırlayın ve halkaların üzerine fırçalayın. Kalan eritilmiş tereyağını da üzerine gezdirin.",
+   "Yumurta sarısını sütle çırparak sır hazırlayın ve halkaların üzerine fırçalayın.",
    "Halkaları önceden ısıtılmış fırında 25-30 dakika, üstü altın sarısı olana kadar pişirin.",
    "Fırından çıkarıp tepsinin üzerinde 15 dakika soğumaya bırakın, ardından dilimleyip çayla servis edin."
   ],
@@ -71,10 +71,10 @@
    "Wrap the dough in cling film and rest it in the fridge for 30 minutes.",
    "Make the filling by mixing the walnuts, 60 g caster sugar, cinnamon and cardamom in a small bowl.",
    "Divide the dough into two. Roll each piece on a lightly floured surface into a rectangle about 20 x 30 cm and 3 mm thick.",
-   "Brush half of the melted butter over each rectangle and spread half of the filling evenly over it.",
+   "Brush half of the melted butter (10 g) over each rectangle and spread half of the filling evenly over it.",
    "Starting from a long edge, roll the dough tightly into a log and pinch the seam to seal.",
    "Shape each log into a ring, pressing the ends together to join them, and place on the tray. Repeat with the second piece.",
-   "Whisk the egg yolk with the milk to make a glaze, brush it over the rings, and drizzle with any remaining melted butter.",
+   "Whisk the egg yolk with the milk to make a glaze and brush it over the rings.",
    "Bake for 25-30 minutes until golden brown on top.",
    "Remove from the oven and let cool on the tray for 15 minutes, then slice and serve with tea."
   ]
@@ -83,5 +83,14 @@
   "tr": "Hamuru fazla yoğurmayın; yumuşak kalması gogalın pişince dağılmadan dilimlenmesini sağlar.",
   "en": "Do not overwork the dough; keeping it soft ensures the rings slice cleanly without crumbling after baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 12 (TR and EN) asks to brush 'the remaining' melted butter, but step 9 already uses all 20 g (half per rectangle), so no butter is left.",
+   "Step 9 does not state the amount per rectangle, so the 20 g split is unclear."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

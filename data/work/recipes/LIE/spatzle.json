@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Büyük bir kapta unu, tuzu ve muskadı karıştırın.",
+   "Büyük bir kapta unu, tuzu ve muskatı karıştırın.",
    "Başka bir kapta yumurtaları ve sütü çırpın, ardından un karışımına ekleyerek pürüzsüz, kalın ve kabarcıklı bir hamur elde edin.",
    "Hamuru yaklaşık 15 dakika dinlendirin.",
    "Büyük bir tencerede suyu tuzla birlikte kaynatın.",
@@ -65,5 +65,13 @@
   "tr": "Hamur ne çok sulu ne de çok kıvamlı olmalı; kaşıktan yavaşça akması gerekir. Erişteleri pişirdikten sonra soğuk suya almayın, sıcak tereyağı ile hemen servis edin.",
   "en": "The batter should be thick but still drip slowly from a spoon. Do not rinse the cooked noodles in cold water; toss them in hot butter and serve right away."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses the non-existent word \"muskadı\" for nutmeg; the ingredient list correctly says \"muskat\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A refreshing drink made from fresh ginger, sugar and lime, widely sold by street vendors and made at home in Guinea, especially in the hot season. It is usually served cold over ice."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Zencefilin lifi ve baharatlı tadı için pişirmeyi çok uzatmayın; şekeri ve limonu son aşamada ayarlayarak tadın.",
   "en": "Do not overcook the ginger, or the drink becomes harsh; adjust the sugar and lime at the end to taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, but the steps require simmering, cooling to room temperature and at least 1 hour of chilling, so the total time is well over 30 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

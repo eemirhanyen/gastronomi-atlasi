@@ -5,7 +5,7 @@
  },
  "native": "petulla",
  "desc": {
-  "tr": "Kosova'da ve Arnavutluk'ta kahvaltıda sık yenen, mayalı hamurun kızgın yağda kızartılmasıyla yapılan küçük, kabarık hamur tatlısı-çöreğidir. Genellikle sıcak servis edilir, bal, beyaz peynir veya reçelle birlikte sunulur.",
+  "tr": "Kosova'da ve Arnavutluk'ta kahvaltıda sık yenen, mayalı hamurun kızgın yağda kızartılmasıyla yapılan küçük, kabarık bir hamur çöreğidir. Genellikle sıcak servis edilir, bal, beyaz peynir veya reçelle birlikte sunulur.",
   "en": "A small, puffy yeast dough fried in hot oil, eaten for breakfast in Kosovo and Albania. It is served warm, usually with honey, white cheese or jam."
  },
  "servings": 4,
@@ -61,5 +61,13 @@
   "tr": "Hamurun kızarken dağılmaması için yağ sıcaklığını 170°C civarında tutun; yağ çok sıcak olursa dış yüzey hızla kararırken içi çiğ kalır.",
   "en": "Keep the oil around 170°C. If it is too hot, the outside browns quickly while the inside stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls petulla a \"hamur tatlısı-çöreği\" (sweet pastry), but the English description and the recipe (savory breakfast item served with cheese) do not describe it as sweet. The Turkis"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

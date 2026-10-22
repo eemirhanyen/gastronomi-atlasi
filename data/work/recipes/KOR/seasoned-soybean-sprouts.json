@@ -41,7 +41,7 @@
   "tr": [
    "Büyük bir tencerede 2 litre suyu kaynatın ve içine 3 g tuzu ekleyin.",
    "Soya filizlerini yıkayıp süzün. Kökleri ve kabuklarını ayıklamak isterseniz bu aşamada koparabilirsiniz, ancak zorunlu değildir.",
-   "Filizleri kaynayan suya ekleyin ve kapağı açık olarak 5-7 dakika haşlayın. Gri-sarı kokuyu uzaklaştırmak için kapağı kapatmayın.",
+   "Filizleri kaynayan suya ekleyin ve kapağı açık olarak 5-7 dakika haşlayın. Çiğ soya kokusunu uzaklaştırmak için kapağı kapatmayın.",
    "Filizleri hızlıca süzün ve soğuk suyla durulayarak hemen soğutun. Elinizle avuç avuç sıkarak fazla suyunu alın.",
    "Büyük bir kasede soya sosu, susam yağı, ezilmiş sarımsak, gochugaru ve toz şekeri karıştırarak sosu hazırlayın.",
    "Yeşil soğanı sosa ekleyip karıştırın.",
@@ -63,5 +63,13 @@
   "tr": "Filizleri haşlarken kapağı açık bırakmak ve soğuk suda hızlıca soğutmak hem tazeliği hem de çıtır dokuyu korur; sosu servisten hemen önce ekleyin.",
   "en": "Keep the lid off while boiling and cool the sprouts quickly to keep them crisp and to avoid the beany smell; add the seasoning just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says \"gri-sarı kokuyu\" (grey-yellow smell). \"Gri-sarı\" describes a colour, not a smell, so the phrase is wrong. The English says \"beany smell\", so the Turkish should be \"baklagil/çiğ so"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

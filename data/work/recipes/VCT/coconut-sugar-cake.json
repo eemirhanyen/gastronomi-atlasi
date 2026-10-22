@@ -8,7 +8,7 @@
   "tr": "Saint Vincent ve Grenadinler'de sık yapılan, esmer şekerli ve rendelenmiş hindistancevizli, yumuşak bir kektir. Genellikle öğleden sonra çayına, bayram ve aile buluşmalarına eşlik eder.",
   "en": "A soft, moist cake sweetened with brown sugar and flavoured with grated coconut, popular across Saint Vincent and the Grenadines. It is usually served with afternoon tea and at family gatherings and celebrations."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -16,7 +16,7 @@
    "200 g çok amaçlı un",
    "1 çay kaşığı kabartma tozu (4 g)",
    "1/2 çay kaşığı öğütülmüş muskat (1 g)",
-   "1 çay kaşığı tuz (3 g)",
+   "1/2 çay kaşığı tuz (3 g)",
    "150 g rendelenmiş taze hindistancevizi",
    "150 g esmer şeker",
    "120 g yumuşamış tereyağı",
@@ -28,7 +28,7 @@
    "200 g all-purpose flour",
    "1 tsp baking powder (4 g)",
    "1/2 tsp ground nutmeg (1 g)",
-   "1 tsp salt (3 g)",
+   "1/2 tsp salt (3 g)",
    "150 g freshly grated coconut",
    "150 g brown sugar",
    "120 g softened butter",
@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 180°C'ye ısıtın. 20 cm çapında yuvarlak kek kalıbının tabanını ve kenarlarını tereyağıyla yağlayın, tabanına pişirme kağıdı serin.",
+   "Fırını 180°C'ye ısıtın. 20 cm çapında yuvarlak kek kalıbının tabanını ve kenarlarını tereyağıyla yağlayın, tabanına pişirme kağıdı yerleştirin.",
    "Yumuşamış tereyağı ve esmer şekeri bir kasede pürüzsüz ve kremalı hale gelene kadar yaklaşık 3 dakika çırpın.",
    "Yumurtaları birer birer ekleyip her birini iyice karıştırın, ardından vanilya özünü ilave edin.",
    "Ayrı bir kapta unu, kabartma tozunu, muskadı ve tuzu birlikte eleyin.",
@@ -65,5 +65,15 @@
   "tr": "Hindistancevizi kurumasını önlemek için taze rendelenmiş hindistancevizi kullanın; kuru hindistancevizi kullanıyorsanız 120 g alıp hindistancevizi sütüyle 10 dakika ıslatın.",
   "en": "Use freshly grated coconut for the moistest crumb; if using desiccated coconut, use 120 g and soak it in the coconut milk for 10 minutes before mixing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt: 1 tsp is listed as 3 g, but 1 tsp of salt weighs about 5-6 g. Changed to 1/2 tsp (about 3 g) in both languages.",
+   "Servings: 200 g flour, 150 g coconut and 150 g sugar make a 20 cm cake that yields about 8 slices, not 4. Changed to 8.",
+   "Turkish step 1: 'pişirme kağıdı serin' uses the wrong verb ('serin' means cool). Changed to 'yerleştirin'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

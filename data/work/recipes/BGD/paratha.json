@@ -35,10 +35,10 @@
    "Ilık suyu azar azar ekleyerek yumuşak, esnek ama yapışmayan bir hamur yoğurun. Yaklaşık 8–10 dakika boyunca pürüzsüz hale gelene kadar yoğurun.",
    "Hamuru kaseye geri koyun, üzerini nemli bir bezle örtün ve oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru 4 eşit parçaya bölün, her parçayı 2 küçük top yapın (toplam 8 top). Topları yağlanmış bir tabakta bekletin.",
-   "Bir topu yağlı bir yüzeyde çok ince bir daire halinde açın. Üzerine yağ sürüp kenardan merkeze doğru kesin, ardından sıkıca rulo yapın.",
+   "Bir topu yağlı bir yüzeyde çok ince bir daire halinde açın. Üzerine yağ sürüp kenardan merkeze doğru kesin, ardından sıkıca uzun bir rulo haline getirin.",
    "Ruloyu spiral şeklinde sarıp bir disk haline getirin ve hafifçe bastırın. Tüm hamurla aynı işlemi yapıp 10 dakika dinlendirin.",
    "Dinlenen diskleri yağ sürerek yaklaşık 20 cm çapında, ince bir yufka gibi açın.",
-   "Kalın dipli bir tavayı orta-yüksek ateşte ısıtın. Parataları tavaya yerleştirin, üzerine biraz yağ gezdirin ve altı kızarıp sarı lekeler oluşana kadar yaklaşık 1–2 dakika pişirin.",
+   "Kalın dipli bir tavayı orta ateşte ısıtın. Parataları tavaya yerleştirin, üzerine biraz yağ gezdirin ve altı kızarıp sarı lekeler oluşana kadar yaklaşık 1–2 dakika pişirin.",
    "Çevirip diğer yüzüne de yağ sürün, spatulayla bastırarak 1–2 dakika daha pişirin. Parataları sıcak tutmak için bir kenara alın ve tüm hamuru aynı şekilde pişirin.",
    "Pişen parataları avuçlarınızla hafifçe sıkıştırıp katmanlarını açın, ardından hemen sıcak servis yapın."
   ],
@@ -47,10 +47,10 @@
    "Gradually add the lukewarm water, a little at a time, and knead into a soft, elastic, non-sticky dough. Knead for 8–10 minutes until smooth.",
    "Return the dough to the bowl, cover with a damp cloth and rest at room temperature for 30 minutes.",
    "Divide the dough into 4 equal pieces, then split each piece into 2 small balls (8 in total). Keep them covered on an oiled tray.",
-   "Roll one ball out very thin on an oiled surface. Brush with oil, make a cut from the edge to the centre, then roll it up tightly.",
+   "Roll one ball out very thin on an oiled surface. Brush with oil, make a cut from the edge to the centre, then roll it into a long, tight rope.",
    "Coil the rope into a spiral, flatten it gently into a disc and repeat with the rest of the dough. Rest the discs for 10 minutes.",
    "Brush the discs with oil and roll each one into a thin round about 20 cm across.",
-   "Heat a heavy pan over medium-high heat. Place a paratha in the pan, drizzle with a little oil and cook for 1–2 minutes until the base is golden with brown spots.",
+   "Heat a heavy pan over medium heat. Place a paratha in the pan, drizzle with a little oil and cook for 1–2 minutes until the base is golden with brown spots.",
    "Flip, brush the top with oil and press gently with a spatula. Cook for another 1–2 minutes. Keep cooked parathas warm and repeat with the remaining dough.",
    "Squeeze each hot paratha gently between your palms to loosen the layers, then serve immediately."
   ]
@@ -59,5 +59,14 @@
   "tr": "Parataların katmanlı olmasını sağlamak için hamuru ince açıp bol yağ sürün ve tavayı çok sıcak tutmayın, böylece iç kısmı pişerken dış yüzey gevrek kalır.",
   "en": "For flakier layers, roll the dough very thin, use plenty of oil and keep the heat moderate so the inside cooks through while the outside stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 specifies medium-high heat, but the tip says to keep the heat moderate. The two contradict each other.",
+   "Step 5 says to roll the dough tightly but never says it becomes a rope, so step 6's 'coil the rope' has no clear referent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

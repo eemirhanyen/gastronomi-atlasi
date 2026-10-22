@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Hontay",
+  "tr": "Hoentay",
   "en": "Hoentay"
  },
  "native": "ཧོན་ཊེ།",
  "desc": {
-  "tr": "Bhutan'ın yüksek dağ bölgelerinde, özellikle soğuk aylarda atıştırmalık ya da hafif öğün olarak yenen, peynirli ve patatesli buğulama hamur tatlısı benzeri bir hamur işidir. Geleneksel olarak yerel peynir datshi ile hazırlanır.",
+  "tr": "Bhutan'ın yüksek dağ bölgelerinde, özellikle soğuk aylarda atıştırmalık ya da hafif öğün olarak yenen, peynirli ve patatesli buharda pişmiş bir hamur işidir. Geleneksel olarak yerel peynir datshi ile hazırlanır.",
   "en": "A steamed dumpling from the high valleys of Bhutan, eaten as a snack or light meal, especially in the colder months. Traditionally filled with local datshi cheese and potato, it is seasoned with chilies and ginger."
  },
  "servings": 4,
@@ -56,8 +56,8 @@
    "Sarımsak, zencefil ve yeşil biberi ekleyip 1 dakika daha kavurun.",
    "Ocaktan alın. Soğan karışımını ezilmiş patates, rendelenmiş paneer, kişniş ve 1/2 çay kaşığı tuz ile iyice karıştırın. Harcın tamamen soğumasını bekleyin.",
    "Hamuru 12 eşit parçaya bölün. Her parçayı ortası biraz incelmiş, yaklaşık 8 cm çapında bir disk haline getirin.",
-   "Her hamur diskinin ortasına yaklaşık 1,5 yemek kaşığı iç harç koyun. Kenarlarını kıvrım kıvrım birleştirerek kapalı küçük keseler oluşturun.",
-   "Buharda pişirme kalbinin altını yağlayın ya da pişirme kağıdı serin. Hontayları aralarında 2 cm boşluk bırakarak dizin.",
+   "Her hamur diskinin ortasına yaklaşık 2 yemek kaşığı iç harç koyun. Kenarlarını kıvrım kıvrım birleştirerek kapalı küçük keseler oluşturun.",
+   "Buharda pişirme tepsisinin altını yağlayın ya da pişirme kağıdı yerleştirin. Hoentayları aralarında 2 cm boşluk bırakarak dizin.",
    "Kaynayan suyun üzerinde 12-14 dakika buharda pişirin. Hamur yarı saydam olup oturduğunda hazırdır.",
    "Sıcak servis yapın, isterseniz ezay acı sos ile birlikte sunun."
   ],
@@ -69,15 +69,26 @@
    "Add the garlic, ginger and green chilies and cook for 1 more minute.",
    "Remove from the heat. Combine the onion mixture with the mashed potato, grated paneer, coriander and 1/2 tsp salt. Let the filling cool completely.",
    "Divide the dough into 12 equal pieces. Roll each into a disc about 8 cm wide, thinner in the centre.",
-   "Place about 1 1/2 tbsp of filling in the centre of each disc. Pleat the edges together to form small sealed pouches.",
+   "Place about 2 tbsp of filling in the centre of each disc. Pleat the edges together to form small sealed pouches.",
    "Lightly oil a steamer tray or line it with parchment. Arrange the dumplings 2 cm apart.",
    "Steam over boiling water for 12–14 minutes until the dough looks slightly translucent and set.",
    "Serve hot, with ezay chili sauce on the side if you like."
   ]
  },
  "tip": {
-  "tr": "Karabuğday hamuru hızlı kuruyup kenarlarından çatlar; şekil verirken hamuru ve hazır hontayları nemli bir bezle örtün.",
+  "tr": "Karabuğday hamuru hızlı kuruyup kenarlarından çatlar; şekil verirken hamuru ve hazır hoentayları nemli bir bezle örtün.",
   "en": "Buckwheat dough dries quickly and cracks at the edges, so keep the dough and shaped dumplings covered with a damp cloth while you work."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls the dish a 'hamur tatlısı' (dessert pastry), but it is a savory steamed dumpling.",
+   "Turkish step 9 says 'kalbinin altını' and 'pişirme kağıdı serin', which is garbled. The English says to oil the steamer tray or line it with parchment.",
+   "Filling quantity doesn't match: about 1.5 tbsp per dumpling × 12 is roughly 270 g, but the listed filling ingredients (200 g potato, 100 g paneer, 60 g onion, etc.) yield roughly 350 g or more.",
+   "Dish name is spelled 'Hontay' in Turkish and 'Hoentay' in English. The names should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

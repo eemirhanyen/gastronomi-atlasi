@@ -5,7 +5,7 @@
  },
  "native": "kanelsnegl",
  "desc": {
-  "tr": "Danimarka'nın tereyağlı, kakuleli ve tarçınlı hamurdan yapılan, genellikle kahve yanında yenen sarmal çörekidir. Ülkenin her fırınında ve kahvaltı sofralarında, özellikle hafta sonları ve Noel dönemlerinde tüketilir.",
+  "tr": "Danimarka'nın tereyağlı, kakuleli hamurdan yapılan ve tarçınlı şekerli iç harçla sarılan, genellikle kahve yanında yenen sarmal çörekidir. Ülkenin her fırınında ve kahvaltı sofralarında, özellikle hafta sonları ve Noel dönemlerinde tüketilir.",
   "en": "A Danish sweet roll of butter-enriched yeast dough flavoured with cardamom and rolled around a cinnamon sugar filling. It is eaten with coffee in bakeries and at home, especially at weekends and during Christmas."
  },
  "servings": 4,
@@ -53,8 +53,8 @@
    "Hamuru üstünü örtüp sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalandırın.",
    "İç harç için 60 g tereyağını, 60 g açık kahverengi şekeri ve 5 g tarçını bir kasede pürüzsüz bir macun haline gelene kadar karıştırın.",
    "Hamuru unlu tezgahta yaklaşık 30 x 20 cm'lik bir dikdörtgen halinde açın.",
-   "İç harcı hamurun yüzeyine eşit şekilde yayın, kenarlarından yaklaşık 1 cm boş bırakın.",
-   "Uzun kenardan başlayarak sıkıca sarın ve 2,5 cm kalınlığında 8 dilime kesin.",
+   "İç harcı hamurun yüzeyine eşit şekilde yayın, bir uzun kenarından yaklaşık 1 cm boş bırakın.",
+   "Boş kenarın karşısındaki uzun kenardan başlayarak sıkıca sarın ve yaklaşık 3,5 cm kalınlığında 8 dilime kesin.",
    "Dilimleri kesilmiş yüzleri yukarı bakacak şekilde fırın kağıdı serili tepsiye yerleştirin, örtüp yaklaşık 30–40 dakika dinlendirerek tekrar kabarmaya bırakın.",
    "Fırını 200°C'ye ısıtın. Kalan çırpılmış yumurtayı salyangozların üzerine fırçalayın ve inci şekerini serpin.",
    "Önceden ısıtılmış fırında 12–15 dakika, altın rengi alana kadar pişirin.",
@@ -69,7 +69,7 @@
    "For the filling, beat the 60 g softened butter, 60 g light brown sugar and 5 g ground cinnamon in a bowl until a smooth paste forms.",
    "On a lightly floured surface, roll the dough into a rectangle about 30 x 20 cm.",
    "Spread the filling evenly over the dough, leaving a 1 cm border along one long edge.",
-   "Starting from the opposite long edge, roll up tightly and cut into 8 slices about 2.5 cm thick.",
+   "Starting from the opposite long edge, roll up tightly and cut into 8 slices about 3.5 cm thick.",
    "Place the slices cut side up on a tray lined with baking paper, cover and leave to prove for 30–40 minutes until puffy.",
    "Heat the oven to 200°C. Brush the snails with the remaining beaten egg and sprinkle with pearl sugar.",
    "Bake in the preheated oven for 12–15 minutes until golden brown.",
@@ -81,5 +81,16 @@
   "tr": "Hamuru açarken tereyağının çok yumuşak olmamasına dikkat edin; iç harç akmadan, kesimde şekli bozulmadan kalır.",
   "en": "Roll the dough fairly tightly and cut with a sharp knife or thread so the spirals keep their shape and the filling does not squeeze out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dough is 'tarçınlı' (cinnamon-flavoured), but only the filling contains cinnamon; the English says the dough is cardamom-flavoured.",
+   "Turkish step 7 says to leave a border along the 'kenarlarından' (edges, plural), but the English says one long edge only.",
+   "Turkish step 8 says to start rolling from the 'uzun kenardan' without specifying which edge, while the English says start from the opposite long edge. The Turkish must match.",
+   "Slice thickness is inconsistent with the dough size: a 30 cm log cut into 8 slices of 2.5 cm gives only 20 cm, so the slices should be about 3.5 cm thick."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

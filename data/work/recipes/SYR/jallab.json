@@ -9,7 +9,7 @@
   "en": "A sweet Syrian drink made from dates, grape molasses and rose water, served cold over ice. It is especially popular in Damascus and Aleppo in summer, often offered to guests after iftar."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 165,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Hurmanın tadı kullandığınız çeşide göre değiştiğinden, dibs ve gül suyunu son aşamada tadarak ayarlayın; gül suyu fazla olursa içecek sabunsu bir tat alır.",
   "en": "Date sweetness varies by variety, so adjust the dibs and rose water by tasting at the end; too much rose water makes the drink taste soapy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps include about 2 hours of chilling plus roughly 40 minutes of cooking, blending, and toasting. The total should be about 165 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

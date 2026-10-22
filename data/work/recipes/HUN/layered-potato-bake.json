@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Katlamalı patates fırın (Rakott krumpli)",
+  "tr": "Katlamalı patates fırını (Rakott krumpli)",
   "en": "Layered Potato Bake (Rakott Krumpli)"
  },
  "native": "Rakott krumpli",
@@ -38,28 +38,28 @@
  "steps": {
   "tr": [
    "Patatesleri kabuklarıyla birlikte tuzlu suda 18-20 dakika, bıçağın rahatça girecek kadar haşlayın. Süzün, soğumaya bırakın, kabuklarını soyup 5 mm kalınlığında dilimleyin.",
-   "Yumurtaları ayrı bir tencerede 9 dakika kaynatın, soğuk suya alıp kabuklarını soyun ve yuvarlak dilimler halinde kesin.",
-   "Fırını 180°C'ye ısıtın. Yaklaşık 20x30 cm'lik bir fırın kabını tereyağıyla yağlayın.",
-   "Soğanı ince doğrayın. Geniş bir tavada tereyağının yarısını eritin, soğanı yumuşayana ve hafif altın rengi alana kadar 6-8 dakika kavurun.",
+   "Yumurtalardan 2 tanesini ayrı bir tencerede 9 dakika kaynatın, soğuk suya alıp kabuklarını soyun ve yuvarlak dilimler halinde kesin. Kalan 2 yumurtayı sosta kullanmak üzere çiğ olarak bekletin.",
+   "Fırını 180°C'ye ısıtın. Yaklaşık 20x30 cm'lik bir fırın kabını 10 g tereyağıyla yağlayın.",
+   "Soğanı ince doğrayın. Geniş bir tavada 15 g tereyağı eritin, soğanı yumuşayana ve hafif altın rengi alana kadar 6-8 dakika kavurun.",
    "Ocağı kısın, tavayı ocaktan alın ve kırmızı biberi ekleyip karıştırın; biberin yanmaması için bu adımı ocak sıcakken yapmayın.",
    "Kolbászı 5 mm kalınlığında dilimleyin, soğanlı tavaya ekleyip 3-4 dakika hafifçe kızartın.",
-   "Ekşi kremayı bir kasede tuz ve karabiberle karıştırın. Ayrı bir kapta 2 yumurtayı çırpın ve ekşi kremaya yavaş yavaş ekleyerek pürüzsüz bir sos elde edin.",
+   "Ekşi kremayı bir kasede tuz ve karabiberle karıştırın. Ayrı bir kapta 2 çiğ yumurtayı çırpın ve ekşi kremaya yavaş yavaş ekleyerek pürüzsüz bir sos elde edin.",
    "Kabın tabanına patateslerin yarısını yerleştirip hafifçe tuzlayın. Üzerine sosisli soğan karışımının yarısını ve yumurta dilimlerinin yarısını dizin.",
    "Kalan patatesleri ekleyin, sosisli soğanın ve yumurtaların diğer yarısını üzerine yayın.",
-   "Hazırladığınız krema sosunu katmanların üzerine eşit biçimde dökün, yüzeyine kalan tereyağını parça parça koyun ve üzerine biber serpin.",
+   "Hazırladığınız krema sosunu katmanların üzerine eşit biçimde dökün, yüzeyine kalan 15 g tereyağını parça parça koyun ve üzerine biber serpin.",
    "Fırının orta rafında 35-40 dakika, yüzeyi altın rengi olana kadar pişirin. Servisten önce 10 dakika dinlendirip kesin."
   ],
   "en": [
    "Boil the potatoes in their skins in salted water for 18-20 minutes, until a knife slides in easily. Drain, let cool, peel and slice 5 mm thick.",
-   "Boil the eggs in a separate pan for 9 minutes, transfer to cold water, peel and slice into rounds.",
-   "Preheat the oven to 180°C. Grease a roughly 20x30 cm baking dish with half of the butter.",
-   "Finely chop the onion. Melt the remaining butter in a wide pan and fry the onion for 6-8 minutes until soft and lightly golden.",
+   "Boil 2 of the eggs in a separate pan for 9 minutes, transfer to cold water, peel and slice into rounds. Keep the other 2 eggs raw for the sauce.",
+   "Preheat the oven to 180°C. Grease a roughly 20x30 cm baking dish with 10 g of the butter.",
+   "Finely chop the onion. Melt 15 g of the butter in a wide pan and fry the onion for 6-8 minutes until soft and lightly golden.",
    "Take the pan off the heat, then stir in the paprika so it does not scorch.",
    "Slice the sausage 5 mm thick, add it to the onions and fry for 3-4 minutes until lightly browned.",
-   "In a bowl, mix the sour cream with the salt and black pepper. In another bowl, beat the 2 remaining eggs and gradually whisk them into the sour cream to make a smooth sauce.",
+   "In a bowl, mix the sour cream with the salt and black pepper. In another bowl, beat the 2 raw eggs and gradually whisk them into the sour cream to make a smooth sauce.",
    "Spread half of the potato slices over the base of the dish and season lightly with salt. Top with half of the sausage and onion mixture and half of the egg slices.",
    "Add the rest of the potatoes, then layer the remaining sausage, onion and egg slices on top.",
-   "Pour the sour cream sauce evenly over the layers and spread it to the edges. Dot the surface with the reserved butter and sprinkle with a little black pepper.",
+   "Pour the sour cream sauce evenly over the layers and spread it to the edges. Dot the surface with the remaining 15 g of butter and sprinkle with a little black pepper.",
    "Bake on the middle shelf for 35-40 minutes until the top is golden. Rest for 10 minutes before cutting and serving."
   ]
  },
@@ -67,5 +67,15 @@
   "tr": "Ekşi kremayı çırpmadan önce oda sıcaklığına getirin ve yumurtayı yavaş ekleyin; böylece sos kesilmez ve fırında pürüzsüz kalır.",
   "en": "Bring the sour cream to room temperature and add the eggs slowly while whisking; this keeps the sauce smooth and stops it from splitting in the oven."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 boils all 4 eggs and slices them for the layers, but the sauce step beats '2 eggs' into the sour cream, so the recipe never says which eggs are raw. Only 2 should be boiled.",
+   "Butter is over-allocated: half is used to grease the dish, the rest is used for the onion, and then 'the remaining butter' is dotted on top, which leaves none. Butter needs an explicit split of the 40",
+   "Turkish name uses 'fırın' where 'fırını' is the natural form for 'baked dish'. Minor, but it reads as a wrong noun form."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

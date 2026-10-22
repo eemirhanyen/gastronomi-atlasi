@@ -9,7 +9,7 @@
   "en": "A mildly alcoholic, sour-sweet drink made from rye bread. In Belarus it is drunk cold, mostly in summer, and it forms the base of the cold soup okroshka."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1560,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -37,7 +37,7 @@
    "Süzülmüş sıvıya toz şekeri ekleyin ve tamamen eriyene kadar karıştırın. Sıvı 25-30 °C'ye gelene kadar bekletin; daha sıcak olursa maya zarar görür.",
    "Kuru mayayı 100 ml ılık kvastan alıp ayrı bir kapta 5 dakika dinlendirin, köpürünce tüm sıvıya ekleyin ve iyice karıştırın.",
    "Kuru üzümleri ve nane yapraklarını ekleyin. Ağzını temiz bir bezle örtün ve oda sıcaklığında (18-24 °C) 12-24 saat mayalanmaya bırakın. Yüzeyde hafif köpük oluştuğunda ve ekşi-tatlı bir koku aldığında hazırdır.",
-   "Kvası temiz bir süzgeçten geçirerek üzüm ve naneyi ayırın. Temiz cam şişelere veya plastik şişelere koyun, üstte yaklaşık 2 cm boşluk bırakıp kapatın.",
+   "Kvası temiz bir süzgeçten geçirerek üzüm ve naneyi ayırın. Temiz plastik şişelere koyun (cam şişe kullanmayın, basınç altında patlayabilir), üstte yaklaşık 2 cm boşluk bırakıp kapatın.",
    "Şişeleri oda sıcaklığında yaklaşık 1 gün bekletin, ardından buzdolabına kaldırın. Gaz birikmesin diye ilk günlerde kapakları günde bir kez hafifçe açıp kapatın. 3-4 gün içinde tüketin."
   ],
   "en": [
@@ -47,7 +47,7 @@
    "Stir the granulated sugar into the strained liquid until fully dissolved. Let it cool to 25-30 °C; if it is hotter, the yeast will be damaged.",
    "Take 100 ml of the warm kvass, sprinkle in the dry yeast, leave for 5 minutes until foamy, then stir it back into the full batch.",
    "Add the raisins and mint leaves. Cover the container with a clean cloth and leave at room temperature (18-24 °C) for 12-24 hours to ferment. It is ready when a light foam forms on the surface and it smells tangy and sweet.",
-   "Strain the kvass through a clean sieve to remove the raisins and mint. Pour into clean glass or plastic bottles, leaving about 2 cm of headspace, and close the caps.",
+   "Strain the kvass through a clean sieve to remove the raisins and mint. Pour into clean plastic bottles (not glass, which can burst under pressure), leaving about 2 cm of headspace, and close the caps.",
    "Leave the bottles at room temperature for about 1 day, then move them to the refrigerator. In the first few days, briefly loosen the caps once a day to release built-up gas. Drink within 3-4 days."
   ]
  },
@@ -55,5 +55,14 @@
   "tr": "Kapaklı şişede gaz birikebilir; bu yüzden plastik şişe kullanın ve ilk günlerde kapakları günde bir kez gevşetip gazı boşaltın.",
   "en": "Gas can build up in sealed bottles, so use plastic bottles and loosen the caps once a day in the first few days to release the pressure."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 allows glass bottles, but sealed glass holding fermenting kvass can burst from gas pressure. The tip already says to use plastic, so the steps contradict the tip and the safety advice.",
+   "time_min is 60, which doesn't match the process: 2-3 h soaking, 12-24 h fermentation, then about 1 day at room temperature before refrigeration."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

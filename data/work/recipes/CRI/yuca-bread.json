@@ -35,10 +35,10 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200 °C'ye ısıtın ve bir fırın tepsisine kağıt serin.",
+   "Fırını 200 °C'ye ısıtın ve bir fırın tepsisine fırın kağıdı serin.",
    "Yukayı soyun, sert ortadaki liflı damarı çıkarın ve parçalara bölün.",
    "Yuka parçalarını tuzlu kaynar suda 20-25 dakika, çatalla kolayca batana kadar haşlayın, sonra süzün.",
-   "Sıcakken yukayı püre haline gelene kadar ezin. Tereyağını ve sütü ekleyip karıştırın.",
+   "Sıcakken yukayı püre haline gelene kadar ezin. Tereyağını ve sütü ekleyip iyice karıştırın.",
    "Püreyi biraz soğutun, yumurtayı ekleyip iyice yoğurun.",
    "Ufalanmış beyaz peyniri ekleyin, ardından yuka nişastasını azar azar ilave ederek pürüzsüz, elde yapışmayan bir hamur elde edin. Gerekirse birkaç damla süt ekleyin.",
    "Hamuru 12 eşit parçaya bölün, her birini yuvarlayıp hafif bastırarak tepsiye yerleştirin.",
@@ -50,7 +50,7 @@
    "Preheat the oven to 200 °C and line a baking tray with baking paper.",
    "Peel the yuca, remove the fibrous woody core from the centre, and cut into pieces.",
    "Boil the yuca pieces in well-salted water for 20-25 minutes, until a fork slides in easily, then drain.",
-   "While still hot, mash the yuca until smooth. Add the butter and milk and stir until melted.",
+   "While still hot, mash the yuca until smooth. Add the butter and milk and stir until well combined.",
    "Let the mash cool slightly, then beat in the egg until fully combined.",
    "Add the crumbled white cheese, then gradually work in the cassava starch to form a smooth dough that no longer sticks to your hands. Add a few drops of milk if it is too dry.",
    "Divide the dough into 12 equal pieces, roll each into a ball, and flatten slightly onto the tray.",
@@ -60,8 +60,18 @@
   ]
  },
  "tip": {
-  "tr": "Yukayı sıcakken ezin; soğudukça nişasta sıkılaşır ve hamur kuru olur. Tereyağını ve sütü ekledikten sonra pürüzsüz bir kıvam elde etmek için iyice karıştırın.",
-  "en": "Mash the yuca while it is hot; as it cools, it becomes stiff and the dough turns dry. Use a fork or potato masher for a smoother texture before adding the starch."
+  "tr": "Yukayı sıcakken ezin; soğudukça nişasta sıkılaşır ve hamur kuru olur. Tereyağını ve sütü ekledikten sonra pürüzsüz bir kıvam elde etmek için bir çatal veya patates ezgisi ile iyice karıştırın.",
+  "en": "Mash the yuca while it is hot; as it cools, it becomes stiff and the dough turns dry. After adding the butter and milk, use a fork or potato masher to get a smooth texture before adding the starch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"kağıt serin\", which is unnatural; the correct term is \"fırın kağıdı\".",
+   "English tip recommends using a fork or potato masher before adding starch, but the Turkish tip does not mention this, so the two versions disagree.",
+   "English step 4 says the butter and milk should be \"stirred until melted\", but the Turkish step only says to stir them in, so the versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

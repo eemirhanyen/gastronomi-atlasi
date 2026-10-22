@@ -9,7 +9,7 @@
   "en": "A spiced, cured and smoked beef brisket from Montreal's Jewish deli tradition. It is usually served hot or cold in a rye bread sandwich with mustard and pickles, most often at lunch."
  },
  "servings": 4,
- "time_min": 240,
+ "time_min": 330,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,13 @@
   "tr": "Dilimleri lif yönüne dik ve mümkün olduğunca ince kesin; Montreal'de et bu şekilde kesilir ve yumuşaklığı buradan gelir.",
   "en": "Slice thinly and always against the grain; this is what gives Montreal smoked meat its tender texture. Cure time is 7 days, so plan ahead."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (240) is less than the active heat time in the steps: about 3 h smoking plus about 2.5 h braising, or roughly 330 min before resting. The 7-day cure is also not reflected in the total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,13 +16,13 @@
    "1 kg manyok (tercihen tatlı manyok; acı manyok kullanılacaksa çok iyi sıkılmalı)",
    "3 g tuz",
    "60 ml su",
-   "Yağsız tavada pişirmek için ekstra ince tabaka (yağlamaya gerek yok)"
+   "Kuru tava (yağ gerekmez)"
   ],
   "en": [
    "1 kg cassava (sweet cassava preferred; if using bitter cassava, it must be pressed very thoroughly)",
    "3 g salt",
    "60 ml water",
-   "Extra dry pan for cooking (no oil needed)"
+   "Dry pan for cooking (no oil needed)"
   ]
  },
  "steps": {
@@ -30,9 +30,9 @@
    "Manyoku soyun, beyaz etini iri delikli rendeden geçir ve rendelenmiş manyoku temiz bir bez veya ince tülbent içine koy.",
    "Bezi sıkıp suyunu iyice süz. Acı manyok kullanıyorsan bu adımı birkaç kez tekrarla, çünkü zehirli suyun tamamen çıkması gerekir.",
    "Sıkılmış posayı geniş bir kaseye al, tuzu ve suyu ekleyip elinle yumuşak bir kıvam verecek şekilde karıştır.",
-   "Karışımı ince elekten geçirip kaba bir un kıvamına getir.",
-   "Orta-yüksek ateşte kuru bir tavayı ısıt. Yaklaşık 20 cm çapında, 3-4 mm kalınlığında bir daire yayarak tavaya dök ve düzgün bir şekilde yay.",
-   "Kenarları kalkıp kenarlarında kahverengi lekeler oluşana kadar yaklaşık 4-5 dakika pişir.",
+   "Karışımı iri gözlü elekten geçirip kaba ve düzgün bir un kıvamına getir.",
+   "Orta-yüksek ateşte kuru bir tavayı ısıt. Yaklaşık 40 g unu tavaya dök, yaklaşık 20 cm çapında ve 3-4 mm kalınlığında bir daire olacak şekilde kaşığın arkasıyla düzgünce yay.",
+   "Kenarları kalkıp yüzeyinde açık kahverengi lekeler oluşana kadar yaklaşık 4-5 dakika pişir.",
    "Ekmeği çevirip diğer yüzünü de 3 dakika kadar pişir, ardından tel kafese al ve tamamen kuruyana kadar soğut.",
    "Kalan hamurla aynı işlemi tekrarla. Ekmekler tamamen soğuyunca kuru bir kapta saklanabilir."
   ],
@@ -40,8 +40,8 @@
    "Peel the cassava, grate the white flesh on a coarse grater, and put the grated cassava into a clean cloth or fine muslin.",
    "Squeeze the cloth firmly over a bowl to remove all the liquid. If using bitter cassava, repeat this several times, as the toxic juice must be fully removed.",
    "Transfer the pressed pulp to a large bowl, add the salt and water, and work it with your hands into a soft, crumbly dough.",
-   "Pass the mixture through a fine sieve to produce a coarse, even meal.",
-   "Heat a dry pan over medium-high heat. Spread about 2 to 3 tablespoons... (about 40 g) of the meal into a round roughly 20 cm wide and 3 to 4 mm thick, pressing it evenly with the back of a spoon.",
+   "Pass the mixture through a coarse sieve to produce a coarse, even meal.",
+   "Heat a dry pan over medium-high heat. Spoon about 40 g of the meal into the pan and spread it into a round roughly 20 cm wide and 3 to 4 mm thick, pressing it evenly with the back of a spoon.",
    "Cook for about 4 to 5 minutes, until the edges lift and light brown spots appear on the surface.",
    "Flip the bread and cook the other side for about 3 minutes more. Transfer to a wire rack and let it dry and cool completely until crisp.",
    "Repeat with the remaining meal. Once fully cooled, store the breads in a dry airtight container."
@@ -51,5 +51,16 @@
   "tr": "Ekmekler tamamen kuruyup soğumadan kapalı kaba koymayın; nem çekerek yumuşayabilirler. Bunları kısa sürede yenmek için birkaç gün içinde tüketin.",
   "en": "Let the breads cool completely on a rack before storing, or they will soften; they keep best for a few days in an airtight container."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 5 contains a leftover placeholder ('...') and a contradictory amount ('2 to 3 tablespoons... (about 40 g)'). The Turkish step gives no amount.",
+   "Step 4 says to pass the mixture through a fine sieve to get a coarse meal. A fine sieve produces fine meal, so the sieve size contradicts the goal.",
+   "The Turkish pan ingredient 'Yağsız tavada pişirmek için ekstra ince tabaka' is unclear and unnatural. It is also not a real ingredient, and the English 'Extra dry pan' has the same problem.",
+   "The Turkish step 5 is missing the 40 g amount that the English version gives, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

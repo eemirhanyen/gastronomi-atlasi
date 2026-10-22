@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Fettâh (Suudi Arabistan usulü lahmacun yerine kuşbaşı etli ekmek çorbası)",
+  "tr": "Fettâh (Suudi Arabistan usulü, kuzu etli ve pirinçli ekmek çorbası)",
   "en": "Fattah (Saudi lamb and bread in broth with rice and garlic-vinegar sauce)"
  },
  "native": "فتة",
@@ -89,5 +89,13 @@
   "tr": "Ekmeğin dağılmaması için sıcak suyu kademeli olarak ekleyin; fazla sıvı ekmeği çorbaya dönüştürür.",
   "en": "Add the hot broth gradually so the bread soaks without turning mushy; stale bread holds its shape best."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name is unnatural and misleading: \"lahmacun yerine\" (instead of lahmacun) has no basis in the dish. Lahmacun is unrelated to fattah. The English name is accurate, so the Turkish name shou"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

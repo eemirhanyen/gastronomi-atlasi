@@ -5,7 +5,7 @@
  },
  "native": "سمبوسه",
  "desc": {
-  "tr": "Baharatlı kıymalı ya da patatesli, üçgen şeklinde kızartılmış hamur tatlısı... Afganistan'da çarşılarda, iftar sofralarında ve misafirliklerde sıcak olarak yenen, en sevilen sokak lezzetlerinden biridir.",
+  "tr": "Baharatlı kıymalı, üçgen şeklinde kızartılmış bir hamur işi... Afganistan'da çarşılarda, iftar sofralarında ve misafirliklerde sıcak olarak yenen, en sevilen sokak lezzetlerinden biridir.",
   "en": "A triangular fried pastry filled with spiced ground meat, sold hot at bazaars and served at iftar tables and gatherings across Afghanistan. It is one of the most popular street snacks in the country."
  },
  "servings": 4,
@@ -50,7 +50,7 @@
    "Geniş bir tavada 1 yemek kaşığı sıvı yağı orta ateşte ısıtın, soğanı altın rengi alana kadar yaklaşık 6-8 dakika kavurun.",
    "Kıymayı ekleyip suyunu çekene ve kızarana kadar pişirin. Ocaktan alın, kimyon, karabiber, 1/2 çay kaşığı tuz, yeşil biber ve kişnişi karıştırın, tamamen soğumaya bırakın.",
    "Hamuru 16 eşit topa bölün ve her topu çok ince, yaklaşık 12 cm çapında daire halinde açın.",
-   "Her daireyi ikiye kesin. Yarım daireyi üçgen kon haline getirin, içine 1 yemek kaşığı iç harcı koyun ve kenarlarını suyla ıslatarak kapatıp sıkıca yapıştırın.",
+   "Her daireyi ikiye kesin. Yarım daireyi koni şekline getirin, içine 1 yemek kaşığı iç harcı koyun ve kenarlarını suyla ıslatarak kapatıp sıkıca yapıştırın.",
    "Kızartma yağını 170°C'ye kadar ısıtın. Sambusaları partiler halinde, altın rengi ve kabarcıklı olana kadar yaklaşık 3-4 dakika kızartın.",
    "Kağıt havlu üzerine alarak fazla yağını süzün ve sıcak servis yapın."
   ],
@@ -69,5 +69,15 @@
   "tr": "Hamur çok ince açılırsa kızartırken patlayabilir; yaprak gibi ince ama delinmeyecek kalınlıkta açın ve iç harcı soğumadan kullanmayın.",
   "en": "Roll the dough very thin but without holes, and let the filling cool fully before assembling, or the pastry may tear and burst in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls sambusa a \"hamur tatlısı\" (sweet pastry), but it is a savory pastry. Should be \"hamur işi\".",
+   "Turkish description says the filling is meat \"ya da patatesli\" (or potato), but the ingredients, steps, and English text only describe a meat filling.",
+   "Turkish step 6 says \"üçgen kon haline getirin\", which is awkward phrasing. It should be \"koni şekline getirin\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

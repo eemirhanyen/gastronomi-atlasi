@@ -16,7 +16,7 @@
    "300 g çok amaçlı un",
    "1/2 tatlı kaşığı tuz",
    "150 ml ılık su",
-   "100 ml sıvı yağ, bölünmüş",
+   "120 ml sıvı yağ, bölünmüş",
    "250 g kemiksiz tavuk but, küp doğranmış",
    "4 yumurta",
    "1 soğan, ince dilimlenmiş",
@@ -38,7 +38,7 @@
    "300 g plain flour",
    "1/2 tsp salt",
    "150 ml warm water",
-   "100 ml vegetable oil, divided",
+   "120 ml vegetable oil, divided",
    "250 g boneless chicken thigh, diced",
    "4 eggs",
    "1 onion, thinly sliced",
@@ -65,8 +65,8 @@
    "Köri tozu, pul biber ve karabiberi ekleyip 30 saniye kavurun. Domates, havuç ve lahanayı ekleyin, sebzeler hafif yumuşayana kadar yaklaşık 4 dakika karıştırarak pişirin.",
    "Pişmiş tavuğu tavaya geri koyun, tavuk suyunu ekleyin ve 2 dakika kaynatın. Tatlandırıp kenara alın.",
    "Hamuru 4 eşit topa bölün. Her topu çok ince açın, üzerine 5 ml yağ sürüp katlayarak kare şekli verin ve tekrar hafifçe açın.",
-   "Kalan yağın bir kısmını (yaklaşık 40 ml) sac tavada veya düz bir tavada orta-yüksek ateşte ısıtın. Her hamur parçasını 1-2 dakika her iki yüzü altın rengi ve katmanlı olana kadar pişirin. Biraz soğutup 1 cm genişliğinde şeritler halinde kesin.",
-   "Aynı sac tavada kalan yağla yumurtaları kırın ve hafifçe karıştırarak yarı pişmiş halde tutun.",
+   "Kalan yağın bir kısmını (yaklaşık 30 ml) sac tavada veya düz bir tavada orta-yüksek ateşte ısıtın. Her hamur parçasını 1-2 dakika her iki yüzü altın rengi ve katmanlı olana kadar pişirin. Biraz soğutup 1 cm genişliğinde şeritler halinde kesin.",
+   "Aynı sac tavada kalan az miktardaki yağla yumurtaları kırın ve hafifçe karıştırarak yarı pişmiş halde tutun.",
    "Kıyılmış roti şeritlerini, yarı pişmiş yumurtaları ve hazırladığınız tavuklu sebze karışımını sacın üzerine alın. İki metal spatula veya bıçakla sürekli kıyıp karıştırarak 2-3 dakika pişirin, tüm malzemeler iyice karışsın.",
    "Sıcak servis yapın."
   ],
@@ -77,8 +77,8 @@
    "Stir in the curry powder, chilli powder and ground black pepper and fry for 30 seconds. Add the tomato, carrot and cabbage and cook for about 4 minutes, stirring, until the vegetables are slightly softened.",
    "Return the cooked chicken to the pan, pour in the chicken stock and simmer for 2 minutes. Season with salt and set aside.",
    "Divide the dough into 4 equal balls. Roll each one very thin, brush with 5 ml of the oil, fold into a square and gently roll out again.",
-   "Heat about 40 ml of the remaining oil on a griddle or flat pan over medium-high heat. Cook each piece of dough for 1-2 minutes per side until golden and flaky. Let cool slightly, then cut into strips about 1 cm wide.",
-   "Using the same griddle with a little oil left over, crack in the eggs and stir gently to keep them partly cooked and loose.",
+   "Heat about 30 ml of the remaining oil on a griddle or flat pan over medium-high heat. Cook each piece of dough for 1-2 minutes per side until golden and flaky. Let cool slightly, then cut into strips about 1 cm wide.",
+   "Using the same griddle with the little oil left over, crack in the eggs and stir gently to keep them partly cooked and loose.",
    "Add the chopped roti strips, the scrambled eggs and the chicken and vegetable mixture to the griddle. Chop and toss continuously with two metal spatulas or blades for 2-3 minutes until everything is well combined.",
    "Serve hot."
   ]
@@ -87,5 +87,14 @@
   "tr": "Roti hamuru dinlendirildikten sonra daha katmanlı ve gevrek olur; zamanınız kısıtlıysa hazır paratha da kullanabilirsiniz.",
   "en": "Resting the dough lets it become flakier; if short on time, use ready-made paratha instead of making it from scratch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: the steps use 15 ml (dough) + 30 ml (chicken) + 15 ml (vegetables) + 5 ml x 4 (brushing) = 35 ml, plus about 40 ml for the griddle, which totals about 120 ml. The ingredie",
+   "The Turkish and English versions share the same oil error, so both are corrected."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

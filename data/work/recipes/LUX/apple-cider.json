@@ -18,7 +18,9 @@
    "50 g toz şeker",
    "1 paket (5 g) sidr veya şarap mayası",
    "1 adet Campden tableti (isteğe bağlı)",
-   "Demijohn (yaklaşık 2 L'lik cam fermentasyon şişesi) ve hava kilidi"
+   "Demijohn (yaklaşık 2 L'lik cam fermentasyon şişesi) ve hava kilidi",
+   "Huni ve süzme bezi",
+   "Pres (isteğe bağlı)"
   ],
   "en": [
    "1.5 kg tart apples (e.g. Boskoop or Granny Smith), washed, quartered, cores removed",
@@ -26,7 +28,9 @@
    "50 g caster sugar",
    "1 sachet (5 g) cider or wine yeast",
    "1 Campden tablet (optional)",
-   "A 2 L glass demijohn and an airlock"
+   "A 2 L glass demijohn and an airlock",
+   "A funnel and a muslin cloth",
+   "A fruit press (optional)"
   ]
  },
  "steps": {
@@ -57,5 +61,14 @@
   "tr": "Tek çeşit elma yerine ekşi ve tatlı elmaları karıştırın; az miktardaki armut, geleneksel Viez'e yumuşak bir aroma kazandırır.",
   "en": "Blend tart and sweet apples rather than using one variety, and keep the pears in: they give the drink the soft, floral note typical of traditional Viez."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 and step 3 use a funnel, a muslin cloth and (optionally) a press, but none of them appear in the ingredient list (both TR and EN).",
+   "Turkish and English ingredient lists match each other otherwise, and the amounts, temperatures, and fermentation times are plausible and safe."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

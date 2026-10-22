@@ -17,7 +17,7 @@
    "5 g tuz",
    "4 g toz şeker",
    "180 ml ılık su",
-   "60 ml sıvı yağ (bölünmüş: 20 ml hamur için, 40 ml yağlamak için)",
+   "120 ml sıvı yağ (bölünmüş: 20 ml hamur için, 90 ml yağlamak ve katlamak için, 10 ml tavada pişirmek için)",
    "Servis için 4 kâse tavuk ya da patates körisi"
   ],
   "en": [
@@ -25,14 +25,14 @@
    "5 g salt",
    "4 g caster sugar",
    "180 ml lukewarm water",
-   "60 ml vegetable oil, divided (20 ml for the dough, 40 ml for brushing)",
+   "120 ml vegetable oil, divided (20 ml for the dough, 90 ml for brushing and folding, 10 ml for the pan)",
    "4 bowls chicken or potato curry, to serve"
   ]
  },
  "steps": {
   "tr": [
    "Unu, tuzu ve şekeri geniş bir kâsede karıştırın.",
-   "20 ml sıvı yağı ve ılık suyu ekleyip yumuşak, yapışmayan bir hamur elde edene kadar yoğurun.",
+   "20 ml sıvı yağı ve ılık suyu ekleyip yumuşak, hafif yapışkan bir hamur elde edene kadar yoğurun.",
    "Hamuru 8-10 dakika pürüzsüz ve elastik olana kadar yoğurun.",
    "Hamuru nemli bir bezle örtün ve oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru 6 eşit parçaya bölün, her birini top haline getirin ve yağlanmış bir tabağa koyun.",
@@ -65,5 +65,15 @@
   "tr": "Hamuru açarken ne kadar ince açarsanız, katmanlar o kadar belirgin ve çıtır olur; pişirdikten sonra palatayı iki elinizle hafifçe sıkıştırarak katmanları açın.",
   "en": "The thinner you stretch the dough before coiling, the more distinct and crisp the layers will be; squeeze the cooked palata gently between your hands to open them up."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: the ingredient list gives 60 ml total (40 ml for brushing), but the steps use 20 ml for the dough, 10 ml per ball (60 ml), 5 ml per palata during coiling (30 ml), plus pan",
+   "Turkish step 2 says the dough should be 'yapışmayan' (non-sticky), but the English says 'slightly sticky' and the Turkish should match it.",
+   "Turkish and English ingredient lines for oil need to match the corrected total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

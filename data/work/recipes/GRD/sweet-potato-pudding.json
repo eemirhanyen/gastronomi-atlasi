@@ -5,7 +5,7 @@
  },
  "native": "Sweet potato pudding",
  "desc": {
-  "tr": "Grenada'da kökü hindistancevizi sütü ve baharatla yumuşatılmış, rendelenmiş tatlı patatesten yapılan, fırında pişen yoğun bir tatlıdır. Genellikle aile toplantılarında, pazar öğünlerinde ve özel günlerde ikram edilir.",
+  "tr": "Grenada'da rendelenmiş tatlı patatesin hindistancevizi sütü ve baharatla yumuşatılmasıyla hazırlanan, fırında pişen yoğun bir tatlıdır. Genellikle aile toplantılarında, pazar öğünlerinde ve özel günlerde ikram edilir.",
   "en": "A dense, baked dessert from Grenada made with grated sweet potato, coconut milk and warm spices. It is traditionally served at family gatherings, Sunday meals and special occasions."
  },
  "servings": 4,
@@ -21,7 +21,7 @@
    "40 g çok amaçlı un",
    "50 g kuru üzüm",
    "1 çay kaşığı öğütülmüş tarçın",
-   "1/2 çay kaşığı taze rendelenmiş hindistancevizi (muskat)",
+   "1/2 çay kaşığı taze rendelenmiş muskat cevizi",
    "1/2 çay kaşığı vanilya özü",
    "1 tutam tuz"
   ],
@@ -69,5 +69,14 @@
   "tr": "Tatlı patatesi ince rendeleyin; kaba rende pudingin dokusunu lifli bırakır. Üstünün çok çabuk koyulaşması halinde pişirmenin son 15 dakikasında folyo ile örtün.",
   "en": "Grate the sweet potato finely; a coarse grater leaves the pudding stringy. If the top browns too quickly, cover it loosely with foil for the last 15 minutes of baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line 'taze rendelenmiş hindistancevizi (muskat)' uses 'hindistancevizi', which means coconut in Turkish and conflicts with the coconut milk ingredient. Nutmeg should be 'muskat cevi",
+   "Turkish description contains an unnatural phrase: 'kökü hindistancevizi sütü ve baharatla yumuşatılmış' ('kökü' means 'its root'), which does not describe the dish clearly."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

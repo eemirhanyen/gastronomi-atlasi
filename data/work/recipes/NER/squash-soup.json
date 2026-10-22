@@ -9,7 +9,7 @@
   "en": "A thick soup from the Hausa kitchens of Niger and northern Nigeria, made with squash, groundnut paste and hot pepper. It is usually served at lunch or dinner with tuwo, a stiff millet or rice porridge."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -19,9 +19,9 @@
    "2 orta boy domates (yaklaşık 300 g)",
    "1 adet Scotch bonnet biberi veya 1 kırmızı acı biber",
    "150 g tuzsuz, pürüzsüz yer fıstığı ezmesi",
-   "45 ml palmiye yağı (veya kabak çekirdeği/yer fıstığı yağı)",
+   "45 ml palmiye yağı (veya yer fıstığı yağı)",
    "15 g öğütülmüş kurutulmuş karides",
-   "1 adet sebzeli et suyu küpü",
+   "1 adet dana eti suyu küpü",
    "1,2 l su",
    "150 g taze ıspanak",
    "Tuz ve karabiber"
@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Dana etini bir tencereye alın. Yarım soğanı, stok küpünü, tuzu ve 500 ml suyu ekleyin. Kapağı kapatıp etler yumuşayana kadar, yaklaşık 25 dakika kısık ateşte pişirin.",
+   "Dana etini bir tencereye alın. Yarım soğanı, stok küpünü, tuzu ve 500 ml suyu ekleyin. Kapağı kapatıp etler yumuşayana kadar, yaklaşık 60 dakika kısık ateşte pişirin.",
    "Domatesleri, kalan yarım soğanı ve Scotch bonnet biberini (veya kırmızı biberi) birkaç yemek kaşığı su ile blenderdan geçirerek pürüzsüz bir karışım elde edin.",
    "Başka bir tencerede palmiye yağını ısıtın. Blenderdan geçirdiğiniz karışımı ekleyip 8-10 dakika kavurun; yağ kenarlarda ayrılana kadar pişirin.",
    "Öğütülmüş kurutulmuş karidesi ekleyin ve 1 dakika daha karıştırın.",
@@ -52,7 +52,7 @@
    "Ispanağı ekleyin ve solana kadar, yaklaşık 2 dakika pişirin. Tuz ve karabiberle tadını ayarlayıp sıcak servis yapın."
   ],
   "en": [
-   "Put the beef in a pot. Add half the onion, the stock cube, salt and 500 ml water. Cover and simmer gently for about 25 minutes, until the meat is tender.",
+   "Put the beef in a pot. Add half the onion, the stock cube, salt and 500 ml water. Cover and simmer gently for about 60 minutes, until the meat is tender.",
    "Blend the tomatoes, the remaining onion and the Scotch bonnet (or red chili) with a few tablespoons of water until smooth.",
    "Heat the palm oil in a second pot. Add the blended mixture and fry for 8 to 10 minutes, until the oil separates at the edges.",
    "Stir in the ground dried crayfish and cook for 1 more minute.",
@@ -65,5 +65,16 @@
   "tr": "Yer fıstığı ezmesini doğrudan çorbaya eklemek topaklanmaya neden olur; önce sıcak su veya et suyuyla iyice açın. Çorba fazla koyulaşırsa biraz sıcak su ekleyin.",
   "en": "Adding peanut butter straight to the pot can make it lumpy, so always loosen it with hot broth first. If the soup gets too thick, add a little hot water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef stewing meat is only simmered about 25 minutes, which is too short to become tender (stewing beef normally needs about an hour). The English and Turkish steps both have this.",
+   "time_min is 60, but the steps add up to roughly 2 hours including prep, so the total time is understated.",
+   "Fat substitute mismatch: Turkish lists 'kabak çekirdeği/yer fıstığı yağı' (pumpkin seed or groundnut oil), but English lists only groundnut oil. Pumpkin seed oil is not a typical substitute here.",
+   "Stock cube mismatch: Turkish says 'sebzeli et suyu küpü' (vegetable-and-meat stock cube), but English says 'beef stock cube'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

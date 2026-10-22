@@ -37,14 +37,14 @@
  },
  "steps": {
   "tr": [
-   "Bir tencerede suyu, tarçını, karanfilleri, rendelenmiş muskadı ve limon kabuğunu orta ateşte kaynatın.",
+   "Bir tencerede suyu, tarçını, karanfilleri, rendelenmiş muskatı ve limon kabuğunu orta ateşte kaynatın.",
    "Ateşi kısın ve karışımı 5 dakika hafifçe kaynatın.",
    "Ocağı kapatın, tencerenin kapağını örtün ve baharatların aromasını çıkarması için 15 dakika demlenmeye bırakın.",
    "Karışımı ince süzgeçten geçirerek temiz bir kaba süzün ve katı kısımları atın.",
    "Süzülmüş sıvıyı tekrar tencereye alın. Hindistancevizi sütünü ve yoğunlaştırılmış sütü ekleyin.",
    "Kısık ateşte, sürekli karıştırarak 3 dakika ısıtın. Karışım kaynamamalı; yaklaşık 70 °C'ye gelmesi yeterlidir.",
    "Ocaktan alın ve vanilya özünü ekleyip pürüzsüz olana kadar çırpın.",
-   "Karışımı oda sıcaklığına gelene kadar, yaklaşık 20 dakika soğumaya bırakın.",
+   "Karışımı oda sıcaklığına gelene kadar, yaklaşık 1 saat soğumaya bırakın.",
    "Romu ekleyip iyice karıştırın.",
    "Temiz cam şişelere doldurun, kapaklarını kapatın ve en az 24 saat buzdolabında dinlendirin. Servis öncesi iyice çalkalayın."
   ],
@@ -56,7 +56,7 @@
    "Return the strained liquid to the saucepan. Add the coconut milk and condensed milk.",
    "Over low heat, warm the mixture for 3 minutes, stirring constantly. Do not let it boil; about 70 °C is enough.",
    "Remove from the heat, add the vanilla extract and whisk until smooth.",
-   "Let the mixture cool to room temperature, about 20 minutes.",
+   "Let the mixture cool to room temperature, about 1 hour.",
    "Stir in the rum until fully combined.",
    "Pour into clean glass bottles, seal, and refrigerate for at least 24 hours. Shake well before serving."
   ]
@@ -65,5 +65,14 @@
   "tr": "Kremas'ın tadı dinlendikçe yuvarlanır; bir hafta buzdolabında bekletilirse baharatlar daha belirgin hale gelir. Servis ederken soğuk ve küçük kadehlerde ikram edin.",
   "en": "Kremas improves with rest, and flavors become more rounded after a week in the refrigerator. Serve chilled in small glasses."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses the wrong case form 'muskadı' for 'muskat' (should be 'muskatı').",
+   "Step 8 says the hot mixture (about 70 °C, roughly 1 litre) cools to room temperature in about 20 minutes, which is unrealistically fast. Changed to about 1 hour in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

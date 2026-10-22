@@ -38,7 +38,7 @@
    "Mayayı ekleyip iyice karıştırın. Kuru üzümü ve nane yapraklarını ilave edin.",
    "Ağzını temiz bir bezle örtün ve oda sıcaklığında 12-24 saat mayalanmaya bırakın. Yüzeyde köpük oluşması mayalanmanın başladığını gösterir.",
    "Kvası dikkatlice süzün ve temiz plastik şişelere doldurun. Şişelerin üst kısmında yaklaşık 3 cm boşluk bırakın.",
-   "Kapakları sıkıca kapatın, ancak ilk 24 saat içinde günde bir kez hafifçe gevşetip gazı çıkarın. Oda sıcaklığında 1-2 gün daha bekletin.",
+   "Kapakları sıkıca kapatın, ancak şişeler oda sıcaklığında durduğu sürece her gün en az bir kez hafifçe gevşetip gazı çıkarın (ilk 24 saatte de dahil). Oda sıcaklığında toplam 1-2 gün daha bekletin.",
    "Buzdolabında soğuk servis yapın. Şişeler sert hale gelirse açmadan önce gazı tamamen boşaltın."
   ],
   "en": [
@@ -49,7 +49,7 @@
    "Add the yeast and stir well. Add the raisins and mint leaves.",
    "Cover the top with a clean cloth and leave to ferment at room temperature for 12-24 hours. Foam on the surface shows that fermentation has started.",
    "Strain the kvass carefully and pour it into clean plastic bottles, leaving about 3 cm of headspace.",
-   "Close the caps tightly, but during the first 24 hours loosen them once a day to release gas. Leave at room temperature for another 1-2 days.",
+   "Close the caps tightly, but while the bottles stand at room temperature, loosen them briefly once a day to release gas (including during the first 24 hours). Leave at room temperature for another 1-2 days in total.",
    "Chill in the refrigerator and serve cold. If the bottles feel hard, release the gas fully before opening."
   ]
  },
@@ -57,5 +57,13 @@
   "tr": "Şişeleri mutlaka plastik kullanın; cam şişeler gaz basıncıyla patlayabilir.",
   "en": "Always use plastic bottles, since glass can burst under gas pressure."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Safety: step 8 says to loosen caps only once a day during the first 24 hours, then leave tightly sealed plastic bottles at room temperature for 1-2 more days. Sugared, yeasted, sealed bottles can buil"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

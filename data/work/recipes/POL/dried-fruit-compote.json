@@ -9,7 +9,7 @@
   "en": "A lightly sweetened drink made from dried apples, pears, prunes and raisins. In Poland it is traditionally served at the Christmas Eve (Wigilia) supper and throughout the winter, either warm or chilled."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -56,8 +56,18 @@
   ]
  },
  "tip": {
-  "tr": "Kompotun lezzeti için kuru meyveleri kaynatmadan önce uzun süre bekletmeyin; ayrıca sıcak servis edeceksiniz yerde soğuk servisten önce şekeri damak tadınıza göre ayarlayın.",
+  "tr": "Kompotu pişirdikten sonra tadına bakın ve soğutmadan önce şekeri damak tadınıza göre ayarlayın; soğuk içecekler sıcak olanlara göre daha az tatlı algılanır.",
   "en": "Taste the compote after simmering and adjust the sugar before chilling, because cold drinks taste less sweet than warm ones."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says not to soak the dried fruit for a long time, which contradicts step 2 (30-minute soak) and is not in the English tip.",
+   "Turkish tip is ungrammatical and garbled (\"sıcak servis edeceksiniz yerde soğuk servisten önce...\"), so it does not clearly match the English meaning.",
+   "time_min 60 is too low: the steps add up to about 70 minutes or more (30-minute soak, 20-25 minutes simmering, plus boiling after adding sugar and 15-minute steeping)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

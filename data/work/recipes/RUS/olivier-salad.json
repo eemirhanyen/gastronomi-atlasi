@@ -43,7 +43,7 @@
    "Yumurtaları ayrı bir tencerede 10 dakika kaynatın, ardından soğuk suya alıp kabuklarını soyun.",
    "Patates ve havuçları soğutun, kabuklarını soyup 1 cm'lik küpler halinde doğrayın.",
    "Tavuk göğsünü tuzlu suda 20 dakika haşlayın, soğuyunca küp doğrayın. Sosis kullanıyorsanız onu da aynı boyutta doğrayın.",
-   "Yumurtaları, turşu salatalıkları ve süzülmüş bezelyeyi de aynı boyutta küp doğrayın.",
+   "Yumurtaları ve turşu salatalıkları da aynı boyutta küp doğrayın. Süzülmüş bezelyeyi olduğu gibi kullanın.",
    "Tüm malzemeleri geniş bir kaseye alın, mayonezi ekleyip nazikçe karıştırın. Tuz ve karabiberle tatlandırın.",
    "Salatayı buzdolabında en az 30 dakika dinlendirin, servisten önce ince kıyılmış dereotuyla süsleyin."
   ],
@@ -52,7 +52,7 @@
    "Boil the eggs in a separate pan for 10 minutes, then transfer them to cold water and peel.",
    "Let the potatoes and carrots cool, peel them, and dice into 1 cm cubes.",
    "Boil the chicken breast in salted water for 20 minutes, let it cool, and dice it. If using sausage, dice it to the same size.",
-   "Dice the eggs, pickled cucumbers and drained peas to the same size.",
+   "Dice the eggs and pickled cucumbers to the same size. Use the drained peas whole.",
    "Put all the ingredients in a large bowl, add the mayonnaise and mix gently. Season with salt and black pepper.",
    "Chill the salad in the refrigerator for at least 30 minutes, then garnish with finely chopped dill before serving."
   ]
@@ -61,5 +61,13 @@
   "tr": "Patates ve havucu sıcakken değil, tamamen soğuduktan sonra mayonezle karıştırın; aksi halde salata sulanır ve kıvamını kaybeder.",
   "en": "Mix in the mayonnaise only once the potatoes and carrots are fully cool; warm vegetables make the salad watery and loose."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 (both Turkish and English) tells the cook to dice the drained peas. Canned peas are already small and are meant to be added whole, so dicing them is wrong and unnatural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

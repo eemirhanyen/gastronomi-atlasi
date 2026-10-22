@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Morina balığını bol suda 10 dakika kaynatın. Süzün, ılımasını bekleyin, sonra elle ufalayın ve kılçıklarını ayıklayın.",
-   "Büyük bir kapta unu, kabartma tozunu ve bir tutam tuzu karıştırın.",
+   "Büyük bir kapta unu ve kabartma tozunu karıştırın.",
    "Ayrı bir kapta yumurtayı ve soğuk suyu çırpın, unlu karışıma ekleyip kalın bir hamur elde edene kadar karıştırın.",
    "Ufalanmış balığı, soğanı, yeşil soğanı, Scotch bonnet biberini, sarımsağı, kekiği, maydanozu, karabiberi ve limon suyunu hamura ekleyin. Spatula ile iyice karıştırın.",
    "Derin bir tencerede ayçiçek yağını 180°C'ye kadar ısıtın.",
@@ -61,7 +61,7 @@
   ],
   "en": [
    "Boil the codfish in plenty of water for 10 minutes. Drain, let it cool slightly, then flake it by hand and remove any bones.",
-   "In a large bowl, mix the flour, baking powder and a pinch of salt.",
+   "In a large bowl, mix the flour and baking powder.",
    "In a separate bowl, whisk the egg with the cold water, then pour into the flour and stir to a thick batter.",
    "Add the flaked fish, onion, spring onions, scotch bonnet, garlic, thyme, parsley, black pepper and lime juice to the batter. Mix well with a spatula.",
    "Heat the sunflower oil in a deep pot to 180°C.",
@@ -75,5 +75,13 @@
   "tr": "Morina balığını tuzunu yeterince almak için uzun süre suda bekletin, ama tuzu tatmadan hamura ek tuz eklemeyin.",
   "en": "Taste a small piece of the fish before adding salt to the batter. Properly desalted cod is usually salty enough on its own."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 (TR and EN) adds a pinch of salt to the flour, but the tip says not to add extra salt before tasting the batter. The two contradict each other."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

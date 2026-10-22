@@ -44,7 +44,7 @@
    "Tavada 15 ml ayçiçek yağını ısıtın, doğranmış soğanı yumuşayana kadar yaklaşık 4 dakika kavurun.",
    "Kıymayı ekleyin, parçalarını dağıtarak 6-7 dakika kavurun, 2 g tuz ve karabiberle tatlandırıp soğutun.",
    "Her et dilimine bir kat kıymalı harçtan yayın, sararak rulo yapın ve kürdanla sabitleyin.",
-   "Ruloların üzerine kalan tuzun yarısını serpin, unu hafifçe bulaştırın.",
+   "Ruloların üzerine kalan tuzun tamamını serpin, unu hafifçe bulaştırın.",
    "Ayrı bir tavada kalan yağı çok sıcak hale getirin ve ruloları her tarafı 2-3 dakika olacak şekilde altın rengi kavurun.",
    "Ruloları derin bir tencereye alın. Aynı tavada dilimlenmiş soğanları 3-4 dakika kavurun, kalan unu serpip 1 dakika karıştırın.",
    "Sıcak et suyunu yavaş yavaş ekleyip topaklanmayı önlemek için karıştırın, ekşi kremayı ekleyip kısık ateşte 2 dakika ısıtın.",
@@ -57,7 +57,7 @@
    "Heat 15 ml of the sunflower oil in a pan and fry the chopped onion for about 4 minutes until soft.",
    "Add the minced beef, break it up and fry for 6-7 minutes. Season with 2 g of salt and the black pepper, then let it cool.",
    "Spread a layer of the minced filling over each beef slice, roll tightly and secure with a toothpick.",
-   "Sprinkle the rolls with half of the remaining salt and lightly dust them with flour.",
+   "Sprinkle the rolls with the remaining salt and lightly dust them with flour.",
    "Heat the remaining oil in a clean pan until very hot and brown the rolls for 2-3 minutes on each side.",
    "Transfer the rolls to a deep pot. In the same pan, fry the sliced onion rings for 3-4 minutes, sprinkle in the remaining flour and stir for 1 minute.",
    "Gradually add the hot beef stock, stirring to avoid lumps. Stir in the sour cream and warm gently over low heat for 2 minutes.",
@@ -69,5 +69,13 @@
   "tr": "Dana etini pişirmeden önce mutlaka iyice inceltin; etler ne kadar ince olursa kısa sürede yumuşar ve rulolar daha sıkı kapanır.",
   "en": "Pound the beef thoroughly before rolling; thinner slices become tender faster and the rolls hold their shape better."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt: 5 g is listed, but only 2 g goes into the filling and half of the remaining 3 g goes on the rolls. The other 1.5 g is never used. The Turkish and English versions match each other, so both need "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

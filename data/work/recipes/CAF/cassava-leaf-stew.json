@@ -6,7 +6,7 @@
  "native": "Sauce de feuilles de manioc",
  "desc": {
   "tr": "Orta Afrika Cumhuriyeti'nde günlük yemeklerin vazgeçilmez yan lezzeti olan bu yahni, dövülmüş kasava yapraklarının palmiye yağı ve kurutulmuş balıkla uzun süre pişirilmesiyle hazırlanır. Genellikle kasava unundan yapılan hamur yemeğiyle ve pirinçle servis edilir.",
-  "en": "A everyday side in the Central African Republic, this stew slowly simmers pounded cassava leaves with palm oil and smoked fish. It is usually served with cassava dough (fufu) or rice as part of the main meal."
+  "en": "An everyday side in the Central African Republic, this stew slowly simmers pounded cassava leaves with palm oil and smoked fish. It is usually served with cassava dough (fufu) or rice as part of the main meal."
  },
  "servings": 4,
  "time_min": 90,
@@ -47,7 +47,7 @@
    "Tütsülenmiş balığı ekleyip karıştırarak 2 dakika kavurun.",
    "Kasava yapraklarını birkaç parti halinde ekleyin ve her partiyi yağla iyice karıştırıp biraz solmasını bekleyin.",
    "Bulyon küpünü suda eritip tencereye ekleyin, tuzu da ilave edin. Kapağı kapatıp kısık ateşte yaklaşık 1,5 saat pişirin; yaprakların yumuşadığını ve acı tadının kaybolduğunu kontrol edin, gerektikçe az su ekleyin.",
-   "Fıstık ezmesini biraz sıcak suyla açıp yahniye ekleyin ve 10 dakika daha karıştırarak pişirin. Tadını kontrol edip tuzu ayarlayın.",
+   "Fıstık ezmesini biraz sıcak suyla açıp yahniye ekleyin, kapağı açık halde 10 dakika daha karıştırarak pişirin. Tadını kontrol edip tuzu ayarlayın.",
    "Sıcak servis yapın; yanında kasava hamuru veya pirinç ile sunun."
   ],
   "en": [
@@ -65,5 +65,14 @@
   "tr": "Kasava yapraklarında doğal olarak siyanür bulunur; yahniyi mutlaka uzun süre, iyice yumuşayana kadar pişirin ve pişirme suyunun acı kokusunun kaybolduğundan emin olun.",
   "en": "Cassava leaves contain natural cyanogenic compounds, so always cook the stew long and thoroughly until the leaves are fully soft and the bitter smell is gone."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 omits 'uncovered' (kapağı açık), which the English version specifies.",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

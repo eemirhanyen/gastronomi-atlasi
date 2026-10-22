@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g dana eti (bonfile veya antrikot), 3 cm küp doğranmış",
+   "600 g dana eti (antrikot veya kontrafile), 3 cm küp doğranmış",
    "150 g soğan, rendelenmiş",
    "4 diş sarımsak, ezilmiş",
    "1 kırmızı acı biber, ince doğranmış",
@@ -69,5 +69,13 @@
   "tr": "Dana eti yerine biraz yağlı bir kesim seçin; yağ ızgarada şişin kurumasını önler. Şişleri pişirirken aşırı çevirmeyin ki dış yüzeyde güzel bir kabuk oluşsun.",
   "en": "Choose a slightly fatty cut such as ribeye, since the fat keeps the skewers from drying out on the grill. Turn the skewers only as needed so a good crust can form."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'bonfile' (tenderloin, a lean cut), but the English lists 'sirloin or ribeye'. The two versions disagree, and bonfile also conflicts with the tip's advice to choose a fatty cu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

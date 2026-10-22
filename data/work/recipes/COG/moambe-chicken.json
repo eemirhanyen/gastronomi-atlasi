@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını tuz ve karabiberle tatlandırın.",
+   "Tavuk parçalarını tuz ve karabiberle baharatlayın.",
    "Geniş bir tencerede sıvı yağı orta-yüksek ateşte ısıtın ve tavuğu her yüzü altın rengi olacak şekilde kavurun. Tavukları bir tabağa alın.",
    "Aynı yağda soğanı yumuşayana kadar yaklaşık 5 dakika soteleyin.",
    "Sarımsak, rendelenmiş domates ve bütün acı biberi ekleyip domates suyu çekilene kadar 5 dakika pişirin.",
@@ -65,5 +65,13 @@
   "tr": "Palmiye cevizi ezmesini doğrudan tencereye koymayın; önce ılık suyla iyice eritin, aksi halde sos topaklanabilir.",
   "en": "Do not add the palm nut paste straight to the pot; dissolve it fully in warm water first, or the sauce may become lumpy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"tatlandırın\" (sweeten), which is wrong for seasoning with salt and pepper; the English says \"Season\". It should be \"baharatlayın\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

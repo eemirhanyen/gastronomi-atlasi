@@ -81,7 +81,7 @@
    "Haşlama suyunu bir süzgeçten geçirin ve 500 ml ölçün.",
    "Patatesleri ayrı bir tencerede yumuşayana kadar yaklaşık 20 dakika haşlayın.",
    "Sos için tereyağını orta ateşte eritin, unu ekleyip 1 dakika karıştırın. Sıcak haşlama suyunu yavaş yavaş ilave ederek topaklanmadan çırpın ve sos kıvamlanana kadar 5 dakika kısık ateşte pişirin.",
-   "Yumurta sarılarını krema ile çırpın. Ocaktan almış sostan bir kepçe ekleyerek karışımı ısıtın, sonra tencereye geri dökün. Sos kaynamamalı.",
+   "Sosu ocaktan alın. Yumurta sarılarını krema ile çırpın, ardından sostan bir kepçe ekleyerek karıştırın ve karışımı tencereye geri dökün. Sos kaynamamalı.",
    "Kaparileri, kapari suyunu, limon suyunu, tuzu ve beyaz biberi sosa ekleyip karıştırın.",
    "Köfteleri sosa alın ve kısık ateşte 3 dakika ısıtın.",
    "Köfteleri sosla birlikte, haşlanmış patates ve pancar dilimleriyle servis edin. Üzerine maydanoz serpin."
@@ -105,5 +105,13 @@
   "tr": "Haşlama suyunu hiçbir zaman kaynatmayın; hafif fokurdayan su köftelerin dağılmasını ve sertleşmesini önler.",
   "en": "Never let the poaching liquid boil hard; a gentle simmer keeps the meatballs tender and stops them from breaking apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 does not say to remove the sauce from the heat before tempering the egg yolks, while the English step says \"off the heat\". Tempering over direct heat can scramble the yolks, so the two "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

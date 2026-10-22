@@ -36,8 +36,8 @@
  "steps": {
   "tr": [
    "Karpuz ve ananas küplerini bir kaseye alın ve 30 dakika buzdolabında soğutun.",
-   "Soğuyan meyve küplerini blenderın kavanozuna alın ve 250 ml soğuk suyla birlikte pürüzsüz bir karışım elde edene kadar karıştırın.",
-   "Karışıma şekeri, limon suyunu ve tuzu ekleyin, kısa süre daha çekin.",
+   "Soğuyan meyve küplerini blender kavanozuna alın, 250 ml soğuk suyla birlikte pürüzsüz bir karışım elde edene kadar karıştırın.",
+   "Karışıma şekeri, limon suyunu ve tuzu ekleyin, kısa süre daha karıştırın.",
    "Hindistancevizi kremasını ve kalan 250 ml suyu ekleyip homojen olana kadar tekrar karıştırın.",
    "Tadına bakın; daha tatlı isterseniz biraz daha şeker, daha ferah isterseniz birkaç damla limon suyu ekleyin.",
    "İsterseniz karışımı ince elekten süzerek lif kalıntılarını ayırın.",
@@ -57,5 +57,14 @@
   "tr": "Meyve ne kadar olgunsa şekere o kadar az ihtiyaç duyulur; karpuzu ve ananası önceden iyice soğutmak içeceğe daha canlı bir tat verir.",
   "en": "The riper the fruit, the less sugar you need, and chilling the watermelon and pineapple beforehand gives a brighter flavour without diluting the drink with too much ice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a spelling error: \"blenderın\" should be \"blender\" (as a compound noun, \"blender kavanozu\").",
+   "Turkish step 3 uses \"çekin\" (colloquial for blending), which is less natural than \"karıştırın\" in a recipe; the English says \"blend briefly\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -15,12 +15,14 @@
   "tr": [
    "1 kg taze manyok (acı olmayan, soyulmuş)",
    "2 l su (fermantasyon için)",
+   "100 ml taze su (blenderda çekmek için)",
    "700 ml sıcak su (pişirme için)",
    "5 g tuz (yaklaşık 1 çay kaşığı)"
   ],
   "en": [
    "1 kg fresh cassava (sweet variety), peeled",
    "2 l water for fermentation",
+   "100 ml fresh water for blending",
    "700 ml hot water for cooking",
    "5 g salt (about 1 teaspoon)"
   ]
@@ -47,5 +49,13 @@
   "tr": "Fermantasyon süresini kısaltmayın; placalinin kendine özgü ekşi aroması ve esnek dokusu bu aşamadan gelir. Hamuru pişirirken sıcak su kullanmak topaklanmayı önler.",
   "en": "Do not shorten the fermentation; the characteristic sour flavour and elastic texture come from this stage. Using hot water when cooking helps prevent lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 (both languages) tells the cook to blend with 'a little fresh water', but no water for blending is listed in the ingredients."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

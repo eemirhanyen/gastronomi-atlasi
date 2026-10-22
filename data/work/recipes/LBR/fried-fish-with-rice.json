@@ -29,7 +29,7 @@
    "1 yemek kaşığı beyaz sirke"
   ],
   "en": [
-   "4 whole fish (snapper, grouper or mackerel, about 250 g each, cleaned)",
+   "4 whole fish (sea bass, red snapper or mackerel, about 250 g each, cleaned)",
    "30 ml fresh lime juice (about 1 lime)",
    "6 g salt (1 tsp), plus extra salt for the rice and sauce",
    "2 garlic cloves",
@@ -48,7 +48,7 @@
  "steps": {
   "tr": [
    "Balıkların pulunu ve iç organlarını temizleyin, soğuk suyla iyice yıkayın ve her iki yanına 2–3 derin çapraz kesik atın.",
-   "Yarım limonun suyunu, 1 tatlı kaşık tuzu, ezilmiş 1 diş sarımsağı, 1 soğanın ince doğranmış yarısını ve biberin yarısını ince kıyılmış halde karıştırın. Bu karışımı balığın içine, dışına ve kesiklerine iyice sürün. Oda sıcaklığında 30 dakika bekletin.",
+   "Yarım limonun suyunu, 1 tatlı kaşık tuzu, ezilmiş 2 diş sarımsağı, 1 soğanın ince doğranmış yarısını ve biberin yarısını ince kıyılmış halde karıştırın. Bu karışımı balığın içine, dışına ve kesiklerine iyice sürün. Oda sıcaklığında 30 dakika bekletin.",
    "Pirinci soğuk suyla berrak akana kadar yıkayın ve süzün. Bir tencereye pirinci, 600 ml suyu ve bir tutam tuzu koyun. Kaynayınca kapağını kapatıp en kısık ateşte 18 dakika pişirin, ardından kapalı halde 10 dakika dinlendirin.",
    "Sos için 60 ml yağı bir tavada ısıtın. Kalan soğanı ince dilimleyip yumuşayana kadar kavurun. Doğranmış domatesleri ve kalan biberi ekleyip 10 dakika pişirin, tuzla tatlandırıp sıcak tutun.",
    "Lahana salatası için lahanayı ince ince doğrayın, havucu rendeleyin. Üzerine sirke ve bir tutam tuz ekleyip karıştırın.",
@@ -57,7 +57,7 @@
   ],
   "en": [
    "Scale and gut the fish if needed, rinse them well under cold water, and make 2–3 deep diagonal cuts on each side.",
-   "Mix the juice of half a lime, 1 tsp salt, 1 crushed garlic clove, half of one finely chopped onion and half of the scotch bonnet, finely chopped. Rub this mixture inside, outside and into the cuts of each fish. Leave to marinate for 30 minutes at room temperature.",
+   "Mix the juice of half a lime, 1 tsp salt, 2 crushed garlic cloves, half of one finely chopped onion and half of the scotch bonnet, finely chopped. Rub this mixture inside, outside and into the cuts of each fish. Leave to marinate for 30 minutes at room temperature.",
    "Rinse the rice in cold water until it runs clear, then drain. Put the rice, 600 ml water and a pinch of salt in a pot. When it boils, cover, reduce to the lowest heat and cook for 18 minutes, then rest covered for 10 minutes.",
    "For the sauce, heat 60 ml oil in a pan. Thinly slice the remaining onion and fry until soft. Add the chopped tomatoes and the remaining pepper and cook for 10 minutes. Season with salt and keep warm.",
    "For the slaw, finely shred the cabbage and grate the carrot. Add the vinegar and a pinch of salt, then toss well.",
@@ -69,5 +69,14 @@
   "tr": "Balığın içinin tam pişmesi için kalın gövdeli parçalarda kesikleri derin atın ve yağın sıcaklığını düşürmemek için balıkları küçük partiler halinde kızartın.",
   "en": "Make the cuts deep and fry in small batches so the oil stays hot; this keeps the skin crisp and ensures the thick part of the fish cooks through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Garlic: 2 cloves are listed in both languages, but the steps use only 1 crushed clove in the marinade, so the second clove is never used.",
+   "Fish species disagree between languages: Turkish says levrek, kırmızı mercan or uskumru (sea bass, red snapper, mackerel), but English says snapper, grouper or mackerel. Levrek is sea bass, not groupe"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

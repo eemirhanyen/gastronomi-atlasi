@@ -21,7 +21,7 @@
    "1/2 çay kaşığı karabiber",
    "1 çay kaşığı tarçın",
    "1/2 çay kaşığı safran telleri, 60 ml sıcak suda demlenmiş",
-   "200 g tereyağı",
+   "220 g tereyağı",
    "1 yemek kaşığı ayçiçek yağı",
    "100 g kuru kayısı",
    "80 g kuru erik",
@@ -30,7 +30,8 @@
    "50 g toz şeker",
    "1 yemek kaşığı tuz (haşlama suyu için)",
    "1 yaprak ince lavaş (yaklaşık 60 g)",
-   "Yaklaşık 1 litre su"
+   "4 litre su (pirinç haşlamak için)",
+   "200 ml su (tavuk için)"
   ],
   "en": [
    "400 g basmati rice",
@@ -41,7 +42,7 @@
    "1/2 tsp black pepper",
    "1 tsp ground cinnamon",
    "1/2 tsp saffron threads, steeped in 60 ml hot water",
-   "200 g unsalted butter",
+   "220 g unsalted butter",
    "1 tbsp sunflower oil",
    "100 g dried apricots",
    "80 g prunes",
@@ -50,7 +51,8 @@
    "50 g granulated sugar",
    "1 tbsp salt (for the cooking water)",
    "1 thin sheet lavash (about 60 g)",
-   "About 1 litre water"
+   "4 litres water (for parboiling the rice)",
+   "200 ml water (for the chicken)"
   ]
  },
  "steps": {
@@ -58,7 +60,7 @@
    "Pirinci soğuk suda 4-5 kez yıkayın, üzerini tuzlu ılık suyla kaplayıp 1 saat bekletin. Süzün.",
    "Kuru kayısı ve eriği ılık suda 20 dakika bekletip süzün; kayısıları ikiye bölün. Zirişki 10 dakika ılık suda bekletip süzün.",
    "Soğanı rendeleyin. Tavuk etini iri parçalara ayırın, yoğurt, rendelenmiş soğanın yarısı, 1 çay kaşığı tuz, karabiber ve tarçınla karıştırıp en az 30 dakika marine edin.",
-   "Büyük bir tavada ayçiçek yağını ısıtın, kalan soğanı ince dilimleyip pembeleşene kadar kavurun. Marine tavuğu ekleyip her tarafı suyunu salıncaya kadar 10 dakika kavurun. Yaklaşık 200 ml su ekleyip kısık ateşte 20 dakika pişirin ve ocaktan alın.",
+   "Büyük bir tavada ayçiçek yağını ısıtın, kalan soğanı ince dilimleyip pembeleşene kadar kavurun. Marine tavuğu ekleyip her tarafı kızarana kadar yaklaşık 10 dakika kavurun. Yaklaşık 200 ml su ekleyip kısık ateşte suyu çekilene kadar 20 dakika pişirin ve ocaktan alın.",
    "Kayısı ve erik ile bademi 50 gram tereyağında 3-4 dakika hafifçe kavurun. Şekeri ekleyip 2 dakika daha karıştırın. Zirişkleri 20 gram tereyağında 1 dakika çevirin.",
    "Geniş bir tencereye 4 litre su ve 1 yemek kaşığı tuz koyup kaynatın. Pirinci ekleyin, 6-7 dakika, dışı yumuşak ama ortası hafif dişli olana kadar haşlayın. Süzün.",
    "Kalın tabanlı bir tencerenin dibine 50 gram tereyağı ve 2 yemek kaşığı su koyup ısıtın. Lavaşı tabana yerleştirin, kenarlarına kadar yayın.",
@@ -70,7 +72,7 @@
    "Wash the rice in cold water 4-5 times, cover with lightly salted lukewarm water and soak for 1 hour. Drain.",
    "Soak the dried apricots and prunes in lukewarm water for 20 minutes, then drain; halve the apricots. Soak the barberries in lukewarm water for 10 minutes and drain.",
    "Grate the onion. Cut the chicken thigh meat into large pieces and mix with the yogurt, half of the grated onion, 1 tsp salt, black pepper and cinnamon. Marinate for at least 30 minutes.",
-   "Heat the sunflower oil in a large pan. Thinly slice the remaining onion and fry until pink. Add the marinated chicken and brown on all sides for about 10 minutes. Add about 200 ml water, simmer gently for 20 minutes, then remove from the heat.",
+   "Heat the sunflower oil in a large pan. Thinly slice the remaining onion and fry until pink. Add the marinated chicken and brown on all sides for about 10 minutes. Add about 200 ml water, simmer gently for 20 minutes until the liquid is absorbed, then remove from the heat.",
    "In 50 g of the butter, lightly fry the apricots, prunes and almonds for 3-4 minutes. Stir in the sugar and cook 2 more minutes. In 20 g butter, toss the barberries for 1 minute.",
    "Bring 4 litres of water with 1 tbsp salt to a boil. Add the rice and parboil for 6-7 minutes until the outside is tender but the centre still has a slight bite. Drain.",
    "In a heavy-based pot, melt 50 g butter with 2 tbsp water. Lay the lavash over the base, pressing it to the edges.",
@@ -80,8 +82,19 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci parlatırken tam pişirmeyin; buharda pişerken kalan ısıyla yumuşayacaktır. Böylece pilav dağılmaz ve tabanı daha iyi kızarır.",
+  "tr": "Pirinci haşlarken tam pişirmeyin; buharda pişerken kalan ısıyla yumuşayacaktır. Böylece pilav dağılmaz ve tabanı daha iyi kızarır.",
   "en": "Do not fully cook the rice when parboiling; it will finish softening while steaming, which keeps the grains separate and helps the base crisp evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter totals don't match: the ingredient list says 200 g, but the steps use 50 g + 20 g + 50 g + 100 g = 220 g (tr and en).",
+   "Water quantities don't match: the ingredient list says about 1 litre, but the steps use 4 litres for boiling the rice and about 200 ml for the chicken (tr and en).",
+   "Turkish step 4 has garbled wording: 'her tarafı suyunu salıncaya kadar' is unnatural. It should say the chicken is browned and the liquid is absorbed/evaporated.",
+   "Turkish tip uses 'pirinci parlatırken', which is wrong for parboiling. It should be 'haşlarken'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

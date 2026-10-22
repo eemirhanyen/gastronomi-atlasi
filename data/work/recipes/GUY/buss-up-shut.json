@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru pişirirken kuru bir bezle örtün; kuruyan hamur katmanlarının ayrılmasını engeller ve ekmeğin lifli dokusunu bozar.",
+  "tr": "Hamur dinlenirken ve açılmış hamurları beklerken nemli bir bezle örtün; kuruyan hamur katmanlarının ayrılmasını engeller ve ekmeğin lifli dokusunu bozar.",
   "en": "Keep the unrolled dough covered with a damp towel so it does not dry out; dry dough will not separate into flaky layers."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to cover the dough with a dry towel ('kuru bir bezle'), but the English tip says a damp towel. A dry towel would dry the dough, which the tip itself warns against.",
+   "Turkish tip uses 'pişirirken' ('while cooking') for the resting stage, which is wrong. The dough is being rested, not cooked at that point."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

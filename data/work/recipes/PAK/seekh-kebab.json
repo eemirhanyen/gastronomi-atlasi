@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Pakistan Usulü Sik Kebap",
+  "tr": "Pakistan Usulü Şiş Kebap",
   "en": "Seekh Kebab"
  },
  "native": "Pakistan",
@@ -57,7 +57,7 @@
    "Tüm malzemeler homojen bir karışım oluşana kadar 5 dakika yoğurun.",
    "Karışımı üstü kapalı olarak buzdolabında 30 dakika dinlendirin. Bu, şişe daha rahat tutunmasını sağlar.",
    "Ellerinizi suya batırıp 8 eşit parçaya bölün. Her parçayı şişin etrafına sararak, şişin uzunluğunda, düz yüzeyli bir sucuk şekli verin.",
-   "Kebap şişlerini ızgara veya fırın ızgarası üzerinde yaklaşık 220°C'de 10-12 dakika, sık sık çevirerek pişirin. İç sıcaklık 70°C'ye ulaşmalıdır.",
+   "Kebap şişlerini ızgara veya fırın ızgarası üzerinde yaklaşık 220°C'de 10-12 dakika, sık sık çevirerek pişirin. İç sıcaklık 75°C'ye ulaşmalıdır.",
    "Pişerken kebapların üzerine yemek fırçasıyla biraz yağ sürün, yüzeyi kızarsın.",
    "Sıcak kebapları şişten dikkatlice çıkarın veya şişle birlikte servis edin. Soğan halkaları, limon dilimleri ve naan ile sunun."
   ],
@@ -68,7 +68,7 @@
    "Knead everything together for about 5 minutes until the mixture is smooth and evenly combined.",
    "Cover and refrigerate for 30 minutes. This helps the mixture grip the skewers.",
    "Wet your hands, divide the mixture into 8 equal portions, and press each one around a skewer to form a long, flat-sided sausage shape.",
-   "Grill the skewers over charcoal or on a grill at about 220°C for 10-12 minutes, turning often, until the centre reaches 70°C.",
+   "Grill the skewers over charcoal or on a grill at about 220°C for 10-12 minutes, turning often, until the centre reaches 75°C.",
    "Brush the kebabs with a little oil during cooking so the surface browns evenly.",
    "Slide the hot kebabs off the skewers carefully, or serve them on the skewers. Serve with onion rings, lemon wedges and naan."
   ]
@@ -77,5 +77,14 @@
   "tr": "Kıymayı yoğurduktan sonra mutlaka soğutun; şekil verirken dağılmasını önler. Ellerinizi suya batırmak da karışımın yapışmasını kolaylaştırır.",
   "en": "Chilling the mixture before shaping is essential; it stops the kebabs from crumbling. Wetting your hands helps the meat press smoothly onto the skewer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name uses \"Sik\", which is a vulgar word in Turkish; it should be \"Şiş\" (skewer).",
+   "Target internal temperature of 70°C is below the 71°C minimum recommended for minced meat; raised to 75°C in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

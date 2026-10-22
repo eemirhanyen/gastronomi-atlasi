@@ -28,7 +28,7 @@
    "1 orta boy havuç (dilim dilim)",
    "2 yemek kaşığı sıvı yağ",
    "1 tatlı kaşığı karabiber",
-   "Tuz",
+   "1 çay kaşığı tuz (isteğe göre ayarlayın)",
    "120 g un",
    "1/2 çay kaşığı kabartma tozu",
    "60 ml su (hamur için)"
@@ -49,7 +49,7 @@
    "1 medium carrot (sliced)",
    "2 tbsp vegetable oil",
    "1 tsp black pepper",
-   "Salt",
+   "1 tsp salt (adjust to taste)",
    "120 g plain flour",
    "1/2 tsp baking powder",
    "60 ml water (for the dough)"
@@ -83,5 +83,13 @@
   "tr": "Oil Down'ı karıştırırken kaşık yerine yassı bir spatula kullanın; ekmek ağacı parçaları dağılmadan pişer ve sos kıvamını korur.",
   "en": "Stir with a flat spatula rather than a spoon so the breadfruit pieces stay whole and the coconut sauce keeps its texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The salt amount is missing in both the Turkish and English ingredient lists (\"Tuz\" / \"Salt\" with no quantity), though the recipe relies on it for the dough and final seasoning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

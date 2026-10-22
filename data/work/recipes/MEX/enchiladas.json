@@ -44,13 +44,13 @@
  "steps": {
   "tr": [
    "Tavuk butları, soğanın yarısı, 1 diş sarımsak ve 1 tatlı kaşığı tuzla 1 litre suda ortalama ateşte 20 dakika haşlayın. İç sıcaklığı en az 74°C olmalı. Tavuğu çıkarıp ayırın, 300 ml haşlama suyunu saklayın ve tavuğu lifleri ayırarak parçalayın.",
-   "Biberlerin saplarını ve çekirdeklerini çıkarın. Kuru tavada her iki yüzünü 30 saniye kadar çevirerek hafifçe kızartın, yanmasına izin vermeyin. Sıcak su ile kaplayıp 15 dakika bekletin.",
+   "Biberlerin saplarını ve çekirdeklerini çıkarın. Kuru tavada her iki yüzünü 30 saniye kadar çevirerek hafifçe bastırıp kızartın, yanmasına izin vermeyin. Sıcak su ile kaplayıp 15 dakika bekletin.",
    "Yumuşayan biberleri, 300 ml ayrılmış haşlama suyu, kalan sarımsak, soğanın çeyreği, kimyon, kekik ve 1 tatlı kaşığı tuzla pürüzsüz olana kadar blenderdan geçirin. Gerekirse süzün.",
    "Büyük bir tencerede 30 ml yağı ısıtın ve sosu 5 dakika kaynatarak koyulaştırın. Tuzunu ayarlayın.",
    "Tavuğun yaklaşık 100 ml sosla karıştırarak iç harcını hazırlayın.",
    "Kalan 30 ml yağı küçük bir tavada ısıtın. Tortillaları her iki yüzünde 10 saniye kadar yağda geçirip yumuşatın ve kağıt havlu üzerine alın.",
-   "Her tortillanın ortasına tavuk harcından ve 50 g peynirden koyup sıkıca sarın. Sarılan tortillaları derin bir fırın kabında dikişi aşağı gelecek şekilde yan yana dizin.",
-   "Kalan sosu tortillaların üzerine dökün, üstüne kalan peyniri serpin.",
+   "Her tortillanın ortasına tavuk harcından ve yaklaşık 12 g peynirden koyup sıkıca sarın (toplam 100 g peynir). Sarılan tortillaları derin bir fırın kabında dikişi aşağı gelecek şekilde yan yana dizin.",
+   "Kalan sosu tortillaların üzerine dökün, üstüne kalan 50 g peyniri serpin.",
    "Fırını 180°C'ye ısıtın ve kabı 15 dakika pişirin; sos kabarcıklanıp peynir eriyene kadar bekleyin.",
    "Servis tabağına alın, ekşi krema, dörde bir kalan soğanın ince dilimleri ve marul ile süsleyip hemen servis yapın."
   ],
@@ -61,8 +61,8 @@
    "Heat 30 ml of the oil in a large pot, pour in the sauce and simmer for 5 minutes to thicken. Adjust the salt.",
    "Mix the shredded chicken with about 100 ml of the sauce to make the filling.",
    "Heat the remaining 30 ml of oil in a small pan. Fry each tortilla for about 10 seconds per side to soften it, then drain on paper towel.",
-   "Place a spoonful of the filling and a little of the cheese (about 50 g) in the centre of each tortilla, roll tightly, and arrange seam side down in a deep baking dish.",
-   "Pour the remaining sauce over the rolled enchiladas and sprinkle with the rest of the cheese.",
+   "Place a spoonful of the filling and about 12 g of the cheese in the centre of each tortilla (100 g cheese in total), roll tightly, and arrange seam side down in a deep baking dish.",
+   "Pour the remaining sauce over the rolled enchiladas and sprinkle with the remaining 50 g of cheese.",
    "Bake at 180°C for 15 minutes, until the sauce bubbles and the cheese has melted.",
    "Transfer to serving plates, garnish with sour cream, the thinly sliced remaining onion quarter and the shredded lettuce, and serve immediately."
   ]
@@ -71,5 +71,14 @@
   "tr": "Biberleri yakmadan kavurun; acı ve keskin tat çıkarlar. Sosu tavada iyice pişirmek, tortillaların ıslanıp dağılmasını önler.",
   "en": "Toast the chiles gently; scorched chiles turn bitter. Cooking the sauce properly before assembly keeps the tortillas from becoming soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cheese quantities don't add up: step 7 (TR and EN) puts about 50 g of cheese in each of the 8 tortillas (about 400 g), but only 150 g is listed, and step 8 uses the remainder on top.",
+   "Turkish step 2 omits the English instruction to press the chiles lightly while toasting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

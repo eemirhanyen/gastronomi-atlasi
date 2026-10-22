@@ -46,7 +46,7 @@
    "Erişteyi elinizle kırarak tencereye ekleyin ve kısık ateşte, sık sık karıştırarak 4-5 dakika pişirin; erişte yumuşayıp suyunun çoğu çekilene kadar devam edin.",
    "Demlenmiş safran suyunu ve gül suyunu ekleyip 1 dakika daha karıştırın, ardından ocaktan alın. Yarısı kadar tereyağını erişteye ekleyip karıştırın.",
    "Yumurtaları bir kaseye kırıp iyice çırpın. Kalan tereyağının yarısını orta boy yapışmaz bir tavada eritin.",
-   "Yumurtaların yarısını tavaya ince bir tabaka halinde yayın, kapağını kapatıp kısık ateşte yaklaşık 1-2 dakika, üstü sette olana kadar pişirin. Kaydırarak tabağa alın ve kalan yumurtalarla da aynı işlemi tekrarlayın.",
+   "Yumurtaların yarısını tavaya ince bir tabaka halinde yayın, kapağını kapatıp kısık ateşte yaklaşık 1-2 dakika, üstü sette olana kadar pişirin. Kaydırarak tabağa alın ve kalan yumurtalar ile kalan tereyağıyla da aynı işlemi tekrarlayın.",
    "Pişen omlet tabakalarını yaklaşık 1 cm genişliğinde şeritler halinde kesin.",
    "Servis tabağına safranlı erişteyi yayıp hafifçe bastırın ve üzerine omlet şeritlerini dizin.",
    "Üzerine kıyılmış antep fıstıklarını serpin ve sıcak servis yapın."
@@ -67,5 +67,13 @@
   "tr": "Erişteyi pişirirken fazla karıştırmayın; ezilmemesi ve yapışkan olmaması için hafif kıvamda bırakın.",
   "en": "Do not overstir the vermicelli while cooking; keep it light so the strands stay separate and do not turn sticky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to repeat with 'kalan yumurtalar' only, but the English step also repeats with the remaining butter, so the Turkish omits the second melting of butter."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

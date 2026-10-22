@@ -9,7 +9,7 @@
   "en": "A popular lunch from Thai street stalls and markets, made with silky poached chicken served over garlicky rice cooked in the poaching stock, with a fresh ginger sauce and sweet soy. The dish originates from Hainan Island in China."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 85,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -73,7 +73,7 @@
   "tr": [
    "Tavuğu iç ve dış kısmından yıkayın, boşluktaki fazla yağları temizleyin ve kenara alın.",
    "Büyük bir tencerede 1,5 l suyu ezilmiş zencefil, ezilmiş sarımsak, 2 dal taze soğan ve 2 tatlı kaşığı tuzla kaynatın.",
-   "Tavuğu tencereye yerleştirin; gerekirse su ekleyerek tamamen kaplandığından emin olun. Tekrar kaynayınca ateşi kısın, kapağı kapatıp yaklaşık 35-40 dakika hafif kaynar halde pişirin.",
+   "Tavuğu tencereye yerleştirin; gerekirse su ekleyerek tamamen kaplandığından emin olun. Tekrar kaynayınca ateşi kısın, kapağı kapatıp yaklaşık 45-50 dakika hafif kaynar halde pişirin.",
    "Ocağı kapatın ve tavuğu kapağı kapalı şekilde suyunda 15 dakika dinlendirin.",
    "Tavuğu tencereden çıkarıp 5 dakika buzlu suya alın, süzün ve 10 dakika dinlendirin. Ardından parçalara ayırın.",
    "Tencerede kalan sudan 500 ml'yi pilav için ayırın. Sos için 60 ml sıcak tavuk suyunu ayrıca kenara alın.",
@@ -89,7 +89,7 @@
   "en": [
    "Rinse the chicken inside and out, trim any excess fat from the cavity, and set aside.",
    "In a large pot, bring 1.5 l water to a boil with the smashed ginger, smashed garlic, 2 spring onions and 2 tsp salt.",
-   "Lower the chicken into the pot, adding a little more water if needed so it is fully submerged. When it returns to a boil, reduce to a gentle simmer, cover, and poach for about 35-40 minutes.",
+   "Lower the chicken into the pot, adding a little more water if needed so it is fully submerged. When it returns to a boil, reduce to a gentle simmer, cover, and poach for about 45-50 minutes.",
    "Turn off the heat and let the chicken rest in its covered pot for 15 minutes.",
    "Lift the chicken out, plunge it into ice water for 5 minutes, drain, rest for 10 minutes, then chop into pieces.",
    "Ladle 500 ml of the poaching stock aside for the rice. Keep 60 ml of hot stock separately for the sauce.",
@@ -107,5 +107,13 @@
   "tr": "Tavuğu haşladıktan sonra buzlu suda soğutmak derisinin kayganlaşmasını sağlar; pilavı tavuk suyuyla pişirmek ise tanelerin lezzetini ve rengini belirgin şekilde artırır.",
   "en": "Shocking the chicken in ice water after poaching gives the skin its silky texture, and cooking the rice in the poaching stock adds far more flavour than plain water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Poaching time of 35-40 minutes is too short for a whole 1.2 kg chicken at a gentle simmer, so the thigh bone may not reach a safe internal temperature. Raised to 45-50 minutes in both Turkish and Engl"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -31,7 +31,7 @@
   "tr": [
    "Büyük bir kapta 400 g atta ve 5 g tuzu karıştırın. 40 g eritilmiş ghee'yi ekleyip parmak uçlarınızla une ovalayarak dağıtın.",
    "Ilık suyu azar azar ekleyerek yumuşak ve pürüzsüz bir hamur elde edene kadar 8–10 dakika yoğurun. Hamuru üzerini örtüp 30 dakika dinlendirin.",
-   "Hamuru 8 eşit parçaya bölün (yaklaşık 75 g) ve her birini düzgün toplar haline getirin. Toplarları nemli bir bezle örtün.",
+   "Hamuru 8 eşit parçaya bölün (yaklaşık 84 g) ve her birini düzgün toplar haline getirin. Toplarları nemli bir bezle örtün.",
    "Bir topu unlu tezgâhta 15 cm çapında bir daire olacak şekilde açın. Üzerine ghee sürün ve birkaç tutam atta serpin.",
    "Daireyi kenarından merkeze doğru bir kez kesin, kesilen kısmı koni şeklinde sarın, ardından yassı bir spiral oluşturacak şekilde kıvırın. Ucu altına gizleyip hafifçe bastırın.",
    "Spirali 5 dakika dinlendirin, ardından unlu tezgâhta yaklaşık 18 cm çapında ve 3 mm kalınlığında bir paratha açın.",
@@ -41,7 +41,7 @@
   "en": [
    "In a large bowl, mix the 400 g atta and 5 g salt. Add the 40 g melted ghee and rub it into the flour with your fingertips.",
    "Gradually add the warm water and knead for 8–10 minutes until you have a soft, smooth dough. Cover and rest for 30 minutes.",
-   "Divide the dough into 8 equal pieces (about 75 g each) and shape each into a smooth ball. Cover the balls with a damp cloth.",
+   "Divide the dough into 8 equal pieces (about 84 g each) and shape each into a smooth ball. Cover the balls with a damp cloth.",
    "Roll one ball into a 15 cm circle on a floured surface. Brush with ghee and sprinkle with a pinch of atta.",
    "Cut the circle once from the edge to the centre, roll the cut piece into a cone, then coil it into a flat spiral. Tuck the end underneath and press gently.",
    "Rest the spiral for 5 minutes, then roll it out on a floured surface into an 18 cm round about 3 mm thick.",
@@ -53,5 +53,13 @@
   "tr": "Hamuru yeterince dinlendirmek ve parathayı açarken fazla baskı uygulamamak, katmanların düzgün ayrılmasını ve kabarmasını sağlar.",
   "en": "Resting the dough well and rolling gently, without pressing too hard, helps the layers separate and puff properly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't add up: 400 g atta + 5 g salt + 40 g ghee + 230 ml water is about 675 g, so 8 equal pieces are about 84 g each, not 75 g (75 g would total only 600 g). Corrected in both languages"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

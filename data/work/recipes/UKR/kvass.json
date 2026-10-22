@@ -34,7 +34,7 @@
    "Karışımı süzgeçten geçirerek temiz bir kavanoza alın; ekmek parçalarını hafifçe bastırarak sıvısını tamamen çıkarın.",
    "Süzülmüş sıvıya şekeri ekleyip tamamen eriyene kadar karıştırın. Ardından 500 ml soğuk suyu ilave ederek karışımın ılımasını sağlayın.",
    "Sıcaklığı yaklaşık 25-30°C'ye düşen sıvıya toz mayayı serpin, karıştırın ve üzerini temiz bir bezle örtün.",
-   "Kavanozu oda sıcaklığında (20-25°C) 12-18 saat fermente olması için bekletin. Yüzeyde köpük oluşmaya başladığında fermantasyon tamamlanmış demektir.",
+   "Kavanozu oda sıcaklığında (20-25°C) 12-18 saat fermente olması için bekletin. Sıvı hafif ekşi kokmaya ve yüzeyde köpük oluşmaya başladığında fermantasyon hazır demektir.",
    "Yüzeydeki köpükleri alın, kuru üzümleri temiz şişelere koyun ve kvası ince elekten veya bezden süzerek şişelere doldurun. Şişelerin ağzında yaklaşık 3 cm boşluk bırakın.",
    "Şişeleri kapaklayıp bir gün oda sıcaklığında bekletin, ardından buzdolabında en az 2 gün soğutun. Soğuk servis yapın."
   ],
@@ -44,7 +44,7 @@
    "Strain the mixture into a clean jar, pressing the bread lightly to extract all the liquid.",
    "Add the sugar to the strained liquid and stir until fully dissolved. Then add 500 ml of cold water to help the mixture cool.",
    "Once the liquid has cooled to about 25-30°C, sprinkle in the dry yeast, stir, and cover with a clean cloth.",
-   "Leave the jar at room temperature (20-25°C) to ferment for 12-18 hours. Fermentation is ready when foam begins to form on the surface.",
+   "Leave the jar at room temperature (20-25°C) to ferment for 12-18 hours. Fermentation is ready when the liquid smells mildly sour and foam begins to form on the surface.",
    "Skim off the foam, place the raisins into clean bottles, and pour the kvass through a fine sieve or cloth into the bottles, leaving about 3 cm of headspace.",
    "Cap the bottles and leave them at room temperature for one day, then refrigerate for at least 2 days. Serve chilled."
   ]
@@ -53,5 +53,13 @@
   "tr": "Şişeleri buzdolabına koymadan önce kapaklarını sıkıca kapatın; ancak çok sıkı kapatılmış şişelerde gaz birikebileceği için her gün gazını kontrol edin.",
   "en": "Use bottles with sealed caps and check the pressure daily during the room-temperature stage, as the trapped gas can build up quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 (tr and en) says that foam forming on the surface means fermentation is complete. Foam shows fermentation has started, so the stated end point is wrong."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

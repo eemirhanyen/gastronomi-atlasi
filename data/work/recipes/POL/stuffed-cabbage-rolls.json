@@ -6,7 +6,7 @@
  "native": "gołąbki",
  "desc": {
   "tr": "Pirinçli kıymayla doldurulmuş lahana yaprağı sarmalarının domates soslu fırın versiyonudur. Polonya'da aile yemeklerinde, pazar öğünlerinde ve özellikle Noel ile Paskalya dönemlerinde sıkça yapılır.",
-  "en": "Cabbage leaves wrapped around a rice and minced meat filling, then baked in a tomato sauce. It is a everyday family Sunday dish in Poland and a traditional part of Christmas and Easter meals."
+  "en": "Cabbage leaves wrapped around a rice and minced meat filling, then baked in a tomato sauce. It is an everyday family Sunday dish in Poland and a traditional part of Christmas and Easter meals."
  },
  "servings": 4,
  "time_min": 110,
@@ -53,17 +53,17 @@
   "tr": [
    "Fırını 180°C'ye ısıtın. Lahananın sap kısmını bıçakla dairesel olarak kesin ve kaynayan tuzlu suya bütün halde koyup 8-10 dakika haşlayın. Süzün ve yaprakları tek tek ayırın; sert orta damarları bıçakla yavaşça inceltin. Yaklaşık 12 büyük yaprak ayırın, kalan yaprakları kıyıp tabanı kaplamak için bir kenara koyun.",
    "Pirinci 250 ml suyla kısık ateşte 10-12 dakika pişirin; tam yumuşamadan, hafif dişli kalacak şekilde süzün.",
-   "Yarım soğanı yağda 5-6 dakika kısık ateşte altın rengi olana kadar kavurun. Ocaktan alıp soğumaya bırakın.",
+   "Soğanın tamamını yağda 5-6 dakika kısık ateşte altın rengi olana kadar kavurun. Ocaktan alıp soğumaya bırakın.",
    "Büyük bir kasede kıymayı, pirinci, kavrulmuş soğanı, sarımsağı, yumurtayı, mercanköşk, 1 tatlı kaşığı tuz ve karabiberi iyice yoğurun.",
-   "Her lahana yaprağının dibine yaklaşık 2 yemek kaşığı harç koyun. Yaprağın yanlarını içeri katlayın ve sıkıca sarın. Sarmalar dağılmasın diye dikiş tarafı aşağı gelecek şekilde kalan rendelenmiş lahanayla kaplı bir fırın kabına dizin.",
+   "Her lahana yaprağının dibine yaklaşık 2 yemek kaşığı harç koyun. Yaprağın yanlarını içeri katlayın ve sıkıca sarın. Sarmalar dağılmasın diye dikiş tarafı aşağı gelecek şekilde kalan kıyılmış lahanayla kaplı bir fırın kabına dizin.",
    "Domates püresi, salça, sebze suyu, toz şeker, bir tutam tuz ve defne yaprağını bir kapta karıştırın. Sosu sarmaların üzerine dökün.",
    "Kabı folyo veya kapakla örtüp 180°C'de 60-70 dakika pişirin. Sarmaların iç kısmı 70°C'ye ulaşmış ve lahana yumuşamış olmalı.",
-   "Defne yaprağını çıkarın, sosu tadına bakıp gerekirse tuz ekleyin. Sıcak sarmaları sosuyla birlikte servis edip üzerine ekşi kremayi koyun."
+   "Defne yaprağını çıkarın, sosu tadına bakıp gerekirse tuz ekleyin. Sıcak sarmaları sosuyla birlikte servis edip üzerine ekşi kremayı koyun."
   ],
   "en": [
    "Preheat the oven to 180°C. Cut out the core of the cabbage with a knife, then place the whole head in boiling salted water and simmer for 8-10 minutes. Drain and carefully separate the leaves. Thin the thick central veins with a knife. Set aside about 12 large leaves, and finely chop the remaining cabbage to cover the base of the dish.",
    "Simmer the rice in 250 ml water over low heat for 10-12 minutes until partly cooked but still firm. Drain it.",
-   "Fry the half onion in oil over low heat for 5-6 minutes until golden. Remove from the heat and let it cool.",
+   "Fry the whole onion in oil over low heat for 5-6 minutes until golden. Remove from the heat and let it cool.",
    "In a large bowl, mix the mince, rice, fried onion, garlic, egg, marjoram, 1 tsp salt and black pepper until well combined.",
    "Place about 2 tablespoons of filling at the base of each cabbage leaf. Fold in the sides and roll tightly. Arrange the rolls seam side down on top of the chopped cabbage in a baking dish.",
    "In a bowl, stir together the passata, tomato paste, vegetable stock, sugar, a pinch of salt and the bay leaf. Pour the sauce over the rolls.",
@@ -75,5 +75,15 @@
   "tr": "Lahana yapraklarını sararken çok sıkı sarmayın; pirinç şişip genişleyeceği için sarmalar çatlayabilir.",
   "en": "Do not roll the leaves too tightly, because the rice swells during baking and can split the cabbage."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Onion mismatch: the ingredient list calls for 1 large onion, but step 3 (tr and en) fries only half the onion, leaving the rest unused. Step 4 then says 'kavrulmuş soğan' as if all of it were used.",
+   "Turkish typo: 'ekşi kremayi' should be 'ekşi kremayı' (accusative).",
+   "English typo: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

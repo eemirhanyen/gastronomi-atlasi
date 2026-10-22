@@ -38,7 +38,7 @@
    "1 tsp salt",
    "2 medium onions, finely chopped",
    "3 ripe tomatoes",
-   "1-2 scotch bonnet peppers, seeds included",
+   "1-2 Habanero or scotch bonnet peppers, seeds included",
    "3 garlic cloves",
    "80 ml palm oil",
    "400 ml palm nut extract (ready-made or made from fresh palm fruit)",
@@ -51,17 +51,17 @@
   "tr": [
    "Dana etini bir tencereye alın, 1,5 L su, yarım soğan, dilimlenmiş zencefilin yarısı ve 1 tatlı kaşığı tuz ekleyin. Kaynamaya bırakın, kısık ateşte 35-40 dakika et yumuşayana kadar pişirin.",
    "Et pişerken tütsülenmiş balığı sıcak suda 5 dakika bekletin, derisini ve kılçıklarını ayıklayın, bir kenara koyun.",
-   "Domatesleri, biberleri, sarımsakları, kalan zencefili ve bir soğanı blenderda pürüzsüz bir karışım haline getirin.",
+   "Domatesleri, biberleri, sarımsakları, kalan zencefili ve kalan yarım soğanı blenderda pürüzsüz bir karışım haline getirin.",
    "Geniş bir tencerede palmiye yağını ısıtın, doğranmış soğanları yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Blenderdaki karışımı ekleyip 15 dakika, yağ yüzeye ayrılana kadar sık sık karıştırarak kavurun.",
    "Palmiye cevizi özütünü ve et suyundan 500 ml ekleyin. Karıştırarak 20 dakika kısık ateşte kaynatın; çorba yayvanlaşıp koyulaşmalıdır.",
-   "Pişmiş eti, tütsülenmiş balığı, öğütülmüş karideslerı ve bamyayı ekleyin. Tuzunu ayarlayıp 10 dakika daha pişirin. Gerekirse kıvamı açmak için et suyu ekleyin.",
+   "Pişmiş eti, tütsülenmiş balığı, öğütülmüş karidesleri ve bamyayı ekleyin. Tuzunu ayarlayıp 10 dakika daha pişirin. Gerekirse kıvamı açmak için et suyu ekleyin.",
    "Sıcak servis yapın; fufu, banku ya da pirinç topları ile sunun."
   ],
   "en": [
    "Put the beef in a pot with 1.5 L water, half the onion, half the sliced ginger and 1 tsp salt. Bring to the boil, then simmer gently for 35-40 minutes until the beef is tender.",
    "While the beef cooks, soak the smoked fish in hot water for 5 minutes, then remove the skin and bones. Set aside.",
-   "Blend the tomatoes, peppers, garlic, remaining ginger and the remaining onion until smooth.",
+   "Blend the tomatoes, peppers, garlic, remaining ginger and the remaining half onion until smooth.",
    "Heat the palm oil in a large pot and fry the chopped onions for about 5 minutes until soft.",
    "Add the blended mixture and fry for 15 minutes, stirring often, until the oil separates on the surface.",
    "Stir in the palm nut extract and 500 ml of the beef stock. Simmer gently for 20 minutes, stirring regularly, until the soup is thick and glossy.",
@@ -73,5 +73,15 @@
   "tr": "Palmiye cevizi özütü dipte yapışabilir; çorbayı sürekli karıştırın ve kısık ateşte pişirin.",
   "en": "Palm nut extract can catch on the bottom of the pot, so stir constantly and keep the heat low."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 has a typo: \"karideslerı\" should be \"karidesleri\".",
+   "Pepper ingredient disagrees between versions: Turkish lists \"Habanero (ya da Scotch bonnet)\" but English lists only \"scotch bonnet\".",
+   "Onion usage is ambiguous: step 3 says \"bir soğanı\" (Turkish) / \"the remaining onion\" (English), but half the large onion was already used in step 1. The blend should use the remaining half onion, and "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

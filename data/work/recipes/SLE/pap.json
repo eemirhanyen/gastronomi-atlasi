@@ -9,7 +9,7 @@
   "en": "A soft, lightly sour and sweet porridge made from fermented maize flour, eaten across Sierra Leone for breakfast. It is usually served with bread, at home or from street vendors in the morning."
  },
  "servings": 4,
- "time_min": 40,
+ "time_min": 1480,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Fermentasyon süresi lapanın tadını belirler; hava çok sıcaksa 12 saat sonra kontrol edin, aşırı ekşi olursa suyu daha fazla değiştirerek seyreltin.",
   "en": "Fermentation time sets the flavour: in very hot weather check after 12 hours, and if it becomes too sour, dilute with extra fresh water before cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (40) does not include the 24-hour fermentation step, so the total time is misleading"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

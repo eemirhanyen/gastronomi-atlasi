@@ -28,7 +28,7 @@
    "2 dal taze soğan, ince doğranmış",
    "2 yemek kaşığı doğranmış kişniş",
    "2 yemek kaşığı sıvı yağ",
-   "4 yemek kaşığı sade yağ veya sıvı yağ (kızartmak için)",
+   "2-4 yemek kaşığı sade yağ veya sıvı yağ (kızartmak için)",
    "200 g olgun domates, rendelenmiş",
    "1 yeşil biber, ince doğranmış",
    "1 diş sarımsak, rendelenmiş",
@@ -51,7 +51,7 @@
    "2 spring onions, finely sliced",
    "2 tbsp chopped coriander",
    "2 tbsp vegetable oil",
-   "4 tbsp ghee or vegetable oil (for frying)",
+   "2-4 tbsp ghee or vegetable oil (for frying)",
    "200 g ripe tomatoes, grated",
    "1 green chili, finely chopped",
    "1 garlic clove, grated",
@@ -68,7 +68,7 @@
    "Soğuyan kıymanın içine çırpılmış yumurtayı, taze soğanı ve kişnişi karıştırın.",
    "Dinlenen hamuru 4 eşit parçaya bölün. Her parçayı çok ince, yaklaşık 30 cm çapında bir yuvarlak olacak şekilde açın.",
    "Her hamur yuvarlağının ortasına dörtte bir oranında iç harcı yayın. Kenarlarını içe doğru katlayarak kare bir zarf biçimi verin.",
-   "Tavada 2 yemek kaşığı sade yağı orta ateşte ısıtın. Mutabbakları dikişli tarafı aşağı gelecek şekilde yerleştirip her iki yüzü altın rengi olana kadar yaklaşık 3-4 dakika kızartın. Kalan parçalarla aynı işlemi tekrarlayın, gerekirse yağ ekleyin.",
+   "Tavada 2 yemek kaşığı sade yağı orta-düşük ateşte ısıtın. Mutabbakları dikişli tarafı aşağı gelecek şekilde yerleştirip kapağını kapatarak her iki yüzü altın rengi olana ve yumurta tamamen pişene kadar, yüzü başına yaklaşık 4-5 dakika kızartın. Kalan parçalarla aynı işlemi tekrarlayın, gerekirse yağ ekleyin.",
    "Sos için rendelenmiş domates, ince doğranmış yeşil biber, rendelenmiş sarımsak, misket limonu suyu ve bir tutam tuzu karıştırın.",
    "Mutabbakları sıcak sosla birlikte servis edin."
   ],
@@ -80,7 +80,7 @@
    "When the mixture has cooled slightly, stir in the beaten eggs, spring onions and chopped coriander.",
    "Divide the rested dough into 4 equal pieces. Roll each into a very thin round about 30 cm across.",
    "Spread a quarter of the filling in the centre of each round. Fold the edges inward to form a square envelope.",
-   "Heat 2 tbsp ghee or oil in a pan over medium heat. Place the mutabbaq seam-side down and fry for about 3-4 minutes per side until golden. Repeat with the rest, adding oil as needed.",
+   "Heat 2 tbsp ghee or oil in a pan over medium-low heat. Place the mutabbaq seam-side down, cover the pan and fry for about 4-5 minutes per side until golden and the egg is fully set. Repeat with the rest, adding oil as needed.",
    "For the sauce, mix the grated tomatoes, finely chopped green chili, grated garlic, lime juice and a pinch of salt.",
    "Serve the mutabbaq hot with the sauce on the side."
   ]
@@ -89,5 +89,14 @@
   "tr": "Hamuru mümkün olduğunca ince açın; kızartırken katmanlar kıtır olur ve iç harç dağılmadan kapanır.",
   "en": "Roll the dough as thin as you can so the layers turn crisp and the filling stays sealed inside while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying fat is inconsistent: the ingredient list calls for 4 tbsp (EN and TR), but the frying step uses only 2 tbsp per batch and says to add more as needed.",
+   "Eggs are mixed into the filling raw and the mutabbaq is fried only 3-4 minutes per side, which may not set the egg fully. This is a food-safety risk, so the frying time and heat need adjusting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

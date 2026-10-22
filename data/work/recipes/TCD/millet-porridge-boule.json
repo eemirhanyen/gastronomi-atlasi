@@ -5,8 +5,8 @@
  },
  "native": "بولة الدخن",
  "desc": {
-  "tr": "Çad'da günlük yaşamın temel yiyeceği olan, darı unundan yapılan yoğun bir lapadır. Genellikle öğle ve akşam yemeklerinde, okra ve yer fıstığı soslu bir yanaşmayla servis edilir.",
-  "en": "A thick porridge of millet flour and the staple food of everyday life in Chad, eaten at lunch and dinner. It is usually served with a okra and groundnut sauce."
+  "tr": "Çad'da günlük yaşamın temel yiyeceği olan, darı unundan yapılan yoğun bir lapadır. Genellikle öğle ve akşam yemeklerinde, bamya ve yer fıstığı soslu bir yanaşmayla servis edilir.",
+  "en": "A thick porridge of millet flour and the staple food of everyday life in Chad, eaten at lunch and dinner. It is usually served with an okra and groundnut sauce."
  },
  "servings": 4,
  "time_min": 60,
@@ -21,6 +21,7 @@
    "2 orta boy domates (250 g)",
    "45 ml fıstık yağı",
    "30 g öğütülmüş yer fıstığı",
+   "250 ml su (sos için)",
    "3 g tuz (sos için)"
   ],
   "en": [
@@ -32,13 +33,14 @@
    "2 medium tomatoes (250 g)",
    "45 ml groundnut oil",
    "30 g ground peanuts",
+   "250 ml water (for the sauce)",
    "3 g salt (for the sauce)"
   ]
  },
  "steps": {
   "tr": [
    "Büyük bir tencerede 800 ml suyu kaynatın.",
-   "Darıununu kalan 400 ml soğuk suyla pürüzsüz, topaksız bir karışım olana kadar çırpın.",
+   "Darı ununu kalan 400 ml soğuk suyla pürüzsüz, topaksız bir karışım olana kadar çırpın.",
    "Karışımı kaynayan suya yavaş yavaş dökün ve tahta kaşıkla sürekli karıştırın.",
    "Ateşi kısın, 20 dakika kadar pişirin; bu sırada kaşıkla ezerek topak kalmamasını sağlayın.",
    "Lapa koyulaşıp tencerenin kenarından ayrılmaya başlayınca 5 g tuzu ekleyip iyice karıştırın ve kapağını kapatıp sıcak tutun.",
@@ -65,5 +67,15 @@
   "tr": "Topak oluşmaması için unu önce soğuk suyla iyice açın ve sıcak suya yavaş yavaş dökün; lapayı kaynayan suya eklemeden önce tahta kaşığı ıslatmak da yapışmayı önler.",
   "en": "Mix the flour fully with cold water before adding it to the hot water, and pour slowly while stirring to avoid lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The sauce step (step 9) adds 250 ml water, but no water for the sauce appears in the ingredient lists in either language. The 1.2 l total covers only the porridge.",
+   "Turkish step 2 has a typo: \"Darıununu\" should be \"Darı ununu\".",
+   "English description has an article error: \"a okra\" should be \"an okra\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

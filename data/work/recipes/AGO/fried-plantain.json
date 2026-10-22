@@ -27,8 +27,8 @@
   "tr": [
    "Muzların kabuklarını soyun ve uçlarını kesin.",
    "Her muzu çapraz olarak yaklaşık 1 cm kalınlığında dilimleyin.",
-   "Derin bir tencerede yağı 170°C'ye kadar ısıtın. Yağ yoksa birkaç dilim atıp köpük çıkıp çıkmadığına bakabilirsiniz.",
-   "Muz dilimlerini sıcak yağa partiler halinde ekleyin ve her iki yüzü de altın sarısı olana kadar yaklaşık 3-4 dakika kızartın.",
+   "Derin bir tencerede yağı 170°C'ye kadar ısıtın. Termometreniz yoksa bir muz dilimi atın; hemen cızırdamalıdır.",
+   "Muz dilimlerini sıcak yağa partiler halinde ekleyin ve bir kez çevirerek her iki yüzü de altın sarısı olana kadar yaklaşık 3-4 dakika kızartın.",
    "Kızarmış dilimleri kağıt havlu serili bir tabağa alıp fazla yağlarını süzdürün.",
    "Dilimlerin üzerine ince tuzu serpin ve sıcak olarak servis yapın."
   ],
@@ -42,8 +42,18 @@
   ]
  },
  "tip": {
-  "tr": "Muzun kabuğu ne kadar siyaha yakınsa dilimler o kadar tatlı ve karamelize olur; yeşilimsi muzlar kızarmaz, yumuşamaz.",
+  "tr": "Muzun kabuğu ne kadar siyaha yakınsa dilimler o kadar tatlı ve karamelize olur; yeşilimsi muzlar iyi kızarmaz, nişastalı ve sert kalır.",
   "en": "The blacker the skin, the sweeter and more caramelised the slices; greenish plantains stay starchy and firm when fried."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says \"if there is no oil\" (Yağ yoksa), but the English says \"if you have no thermometer\". The Turkish test (köpük çıkıp çıkmadığına bakma) also doesn't match the English sizzle test.",
+   "Turkish tip says greenish plantains \"kızarmaz, yumuşamaz\" (don't brown, don't soften), while the English says they stay starchy and firm when fried. The two versions describe different results.",
+   "Turkish step 4 omits \"turning once\" from the English, a minor content mismatch."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

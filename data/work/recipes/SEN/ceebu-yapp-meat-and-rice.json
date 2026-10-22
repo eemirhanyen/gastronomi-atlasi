@@ -9,7 +9,7 @@
   "en": "Ceebu yapp is one of Senegal's most common rice dishes, made with meat and vegetables braised in a tomato sauce and served over rice cooked in the same broth. It is usually eaten at lunch, often shared from one large communal platter with family and guests."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -81,5 +81,13 @@
   "tr": "Pirincin tane tane kalması için pişirmeden önce soğuk suda birkaç kez durulayın ve pişerken kapağı açmayın; geleneksel olarak pirinç, et suyunun tadını emerek pişer.",
   "en": "Rinse the rice several times in cold water before cooking and keep the lid on while it steams; the grains absorb the flavour of the broth, which is the heart of this dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is inconsistent with the steps: 20 min marinating, about 70 min of browning and simmering, and 20-25 min for the rice add up to roughly 150 min"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

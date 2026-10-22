@@ -5,11 +5,11 @@
  },
  "native": "Poulet DG",
  "desc": {
-  "tr": "Kamerun'un Douala ve Yaoundé gibi şehirlerinde, özellikle aile ve resmi yemeklerde servis edilen, kızarmış tavuk, olgun muz ve sebzelerin birlikte pişirildiği zengin bir yemektir. Adını, yemeği resmi ziyaftlerde ikram eden devlet yetkililerinden ('Directeur Général') almıştır.",
-  "en": "A festive dish from Cameroon, especially popular in Douala and Yaoundé at family gatherings and official receptions, where fried chicken is simmered with sweet fried plantains and vegetables in a rich tomato sauce. Its name refers to the 'Directeur Général', the high-ranking official for whom it is said to have been first prepared."
+  "tr": "Kamerun'un Douala ve Yaoundé gibi şehirlerinde, özellikle aile ve resmi yemeklerde servis edilen, kızarmış tavuk, olgun muz ve sebzelerin birlikte pişirildiği zengin bir yemektir. Adını, yemeği resmi ziyafetlerde ikram eden devlet yetkililerinden ('Directeur Général') almıştır.",
+  "en": "A festive dish from Cameroon, especially popular in Douala and Yaoundé at family gatherings and official receptions, where fried chicken is simmered with sweet fried plantains and vegetables in a rich tomato sauce. Its name refers to the 'Directeur Général', the high-ranking state officials who served it at official receptions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -70,12 +70,23 @@
    "Pour off all but about 30 ml of the oil from the pan. Sauté the finely chopped onion for 5 minutes, then add the remaining garlic and the grated ginger and cook for 1 minute more.",
    "Add the chopped tomatoes and the sliced red bell pepper. Cook for about 8 minutes until the sauce thickens.",
    "Dissolve the stock cube in 250 ml water and pour it into the pan. Return the fried chicken, cover and simmer over low heat for 20 minutes.",
-   "Add the boiled carrots and green beans and cook for 5 more minutes. Gently fold in the fried plantains and heat for 3 minutes. Adjust the salt and serve hot with rice or plain boiled plantains."
+   "Add the boiled carrots and green beans and cook for 5 more minutes. Gently fold in the fried plantains and heat for 3 minutes. Adjust the salt and serve hot with rice or extra fried plantains."
   ]
  },
  "tip": {
   "tr": "Muzları kızartmadan önce sert ama olgun olanlardan seçin; bu sayede dilimler sos içinde dağılmadan şekillerini korur. Muzları tavukla değil, ayrı kızartıp en sonda ekleyin.",
   "en": "Choose firm-ripe plantains (yellow with a few dark spots but still firm) so the slices hold their shape. Fry them separately and add them only at the end so they don't break apart in the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a typo: 'ziyaftlerde' should be 'ziyafetlerde'",
+   "Serving suggestion mismatch: Turkish says 'kızarmış muzla' (fried plantains) but English says 'plain boiled plantains'",
+   "English description says the dish was prepared for the Directeur Général, while the Turkish says the name comes from the officials who served it at receptions",
+   "time_min (60) is too short: the steps include a 30-minute marinade plus about 60 minutes of frying, simmering and assembly, roughly 90 minutes total"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

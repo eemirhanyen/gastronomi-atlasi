@@ -5,7 +5,7 @@
  },
  "native": "حمص",
  "desc": {
-  "tr": "Irak'ta humus, tahin, limon ve kimyonun dengelendiği, üzerine zeytinyağı ve pul biber serpilerek servis edilen yumuşak bir nohut ezmesidir. Genellikle kahvaltıda, öğle yemeklerinde ve misafirlere sunulan mezelerin arasında, ekmekle birlikte yenir.",
+  "tr": "Irak'ta humus, tahin, limon ve kimyonun dengelendiği, üzerine zeytinyağı ve tatlı kırmızı biber serpilerek servis edilen yumuşak bir nohut ezmesidir. Genellikle kahvaltıda, öğle yemeklerinde ve misafirlere sunulan mezelerin arasında, ekmekle birlikte yenir.",
   "en": "In Iraq, hummus is a smooth chickpea purée balanced with tahini, lemon and cumin, finished with olive oil and paprika. It is eaten with bread at breakfast, lunch and as part of mezze for guests."
  },
  "servings": 4,
@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Nohutları suda bekletildikleri süre boyunca yeterince yumuşatın, ardından süzüp iyice durulayın.",
+   "Nohutları suda bekletme süresi boyunca bekletin, ardından süzüp iyice durulayın.",
    "Nohutları bir tencereye koyun, 1 l su ve karbonatı ekleyin. Kaynamaya bırakın, yüzeyde biriken köpüğü alın.",
    "Ateşi kısın ve nohutlar çok yumuşayana kadar, yaklaşık 60 ila 75 dakika pişirin. Ara sıra kontrol edin, gerekirse sıcak su ekleyin.",
    "Pişmiş nohutları süzmeden önce tencereden 100 ml haşlama suyunu ayırın. Nohutları süzün.",
@@ -51,7 +51,7 @@
    "Sıcak nohutları, ezilmiş sarımsağı, tahini, limon suyu, kimyonu, 30 ml zeytinyağını ve 50 ml ayrılmış haşlama suyunu mutfak robotuna alın. Pürüzsüz bir kıvam alana kadar çekin.",
    "Kıvam fazla katıysa ayrılan haşlama suyundan ve buz gibi sudan azar azar ekleyerek karıştırmaya devam edin. Dokusu ipeksi olmalıdır, yaklaşık 4 ila 5 dakika çekin.",
    "Humusu sığ bir servis tabağına yayın, ortasında bir çukur açın.",
-   "Çukurun içine kalan zeytinyağını gezdirin, üzerine pul biberi serpin ve servis yapın."
+   "Çukurun içine kalan zeytinyağını gezdirin, üzerine tatlı kırmızı biber serpin ve servis yapın."
   ],
   "en": [
    "Keep the chickpeas in water for the full soaking period, then drain and rinse them well.",
@@ -69,5 +69,14 @@
   "tr": "Nohutları pişirirken karbonat eklemek kabuklarını yumuşatır ve humusun daha pürüzsüz olmasını sağlar. Sıcak nohutla çekmek tahinin daha kolay karışmasına yardımcı olur.",
   "en": "Adding baking soda while cooking softens the chickpea skins for a smoother texture. Blending the chickpeas while still warm helps the tahini incorporate more easily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description and final step say \"pul biber\" (chili flakes), but the ingredient is sweet paprika (\"tatlı kırmızı biber\") and the English text says paprika.",
+   "Turkish step 1 says to soften the chickpeas enough during soaking, but the English step says to keep them soaking for the full period. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -41,7 +41,7 @@
    "Izgarayı (kömür veya gaz) orta-yüksek ateşe, yaklaşık 200-250 °C'ye getirin.",
    "Hamuru 4 eşit parçaya bölün. Ellerinizi ıslatıp her parçayı düz bir şişe yapıştırarak 1,5 cm kalınlığında, uzun oval bir şekil verin ve parmak izleriyle hafif çukurlar açın.",
    "Şişlerin üzerine sıvı yağı hafifçe sürün, kebapları ızgaraya dizin.",
-   "Kebapları her iki yüzünde 4-5 dakika pişirin; iç sıcaklığı 70 °C'ye ulaşmalı ve yüzeyi kızarmış olmalıdır.",
+   "Kebapları her iki yüzünde 4-5 dakika pişirin; iç sıcaklığı en az 71 °C'ye ulaşmalı ve yüzeyi kızarmış olmalıdır.",
    "Domatesleri ikiye kesin ve kesilmiş yüzleri aşağı gelecek şekilde ızgarada 3-4 dakika kızartın.",
    "Kebapları şişten lavaşın üzerine kaydırarak sıcak servis yapın; yanında ızgara domates ve sumak ile sunun."
   ],
@@ -52,7 +52,7 @@
    "Heat the grill (charcoal or gas) to medium-high, about 200-250 °C.",
    "Divide the mixture into 4 equal portions. Wet your hands, then press each portion onto a flat skewer into a long oval about 1.5 cm thick, and make shallow finger grooves along its length.",
    "Lightly brush the skewers with the oil and place them on the grill.",
-   "Grill the kebabs for 4-5 minutes per side until browned and the internal temperature reaches 70 °C.",
+   "Grill the kebabs for 4-5 minutes per side until browned and the internal temperature reaches at least 71 °C.",
    "Halve the tomatoes and grill them cut side down for 3-4 minutes until charred at the edges.",
    "Slide the kebabs off the skewers onto flatbread and serve hot, with the grilled tomatoes and sumac on the side."
   ]
@@ -61,5 +61,13 @@
   "tr": "Kıymayı pişirmeden önce mutlaka dinlendirin; böylece kebap şişten kaymaz ve ızgarada dağılmaz.",
   "en": "Rest the mince before grilling so the kebabs hold their shape and do not slide or break on the skewer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Internal temperature of 70 °C is below the 71 °C (160 °F) food-safety target for ground meat; Turkish and English both need the same correction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

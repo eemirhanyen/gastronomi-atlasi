@@ -21,8 +21,8 @@
    "45 g hardal (Dijon tipi)",
    "5 g şeker",
    "150 ml krema",
-   "Tuz",
-   "Beyaz biber",
+   "Tuz (yaklaşık 1/2 çay kaşığı, tadına göre)",
+   "Beyaz biber (bir tutam, tadına göre)",
    "15 g frenk soğanı, ince kıyılmış"
   ],
   "en": [
@@ -34,8 +34,8 @@
    "45 g Dijon-style mustard",
    "5 g sugar",
    "150 ml single cream",
-   "Salt",
-   "White pepper",
+   "Salt (about 1/2 teaspoon, to taste)",
+   "White pepper (a pinch, to taste)",
    "15 g fresh chives, finely chopped"
   ]
  },
@@ -46,7 +46,7 @@
    "Aynı tencerede kalan tereyağını ekleyin, doğranmış soğanı yumuşayıp hafif renk alana kadar yaklaşık 5 dakika soteleyin.",
    "Unu soğanın üzerine serpin ve sürekli karıştırarak 2 dakika pişirin. Bu, çorbanın kıvamını veren sarı renkli bir roux oluşturur.",
    "Sıcak et suyunu azar azar ekleyin ve her eklemede topaklanmasını önlemek için çırpın. Tüm su eklendikten sonra kısık ateşte 15 dakika pişirin.",
-   "Hardalı, şekeri ve yarım çay kaşığı tuzu karıştırın. Çorba tadında pürüzsüz bir yapı kazanana kadar 5 dakika daha kısık ateşte pişirin.",
+   "Hardalı, şekeri ve yarım çay kaşığı tuzu karıştırın. Çorba pürüzsüz bir kıvam alana kadar 5 dakika daha kısık ateşte pişirin.",
    "Ocağı kapatın, kremayı ekleyip karıştırın. Krema kaynarsa çorba ayrışabileceği için tekrar kaynatmayın.",
    "Beyaz biber ve gerekirse tuzla tatlandırın. Sıcak servis kaselerine bölün, üzerine kavrulmuş jambon ve frenk soğanı serpip hemen servis yapın."
   ],
@@ -62,8 +62,18 @@
   ]
  },
  "tip": {
-  "tr": "Kremayı ve hardalı ocaktan almadan ekleyin; çorbanın tekrar kaynaması kremanın ayrışmasına neden olur.",
-  "en": "Add the cream and mustard off the heat or on very low heat; if the soup boils after the cream goes in, it can split and look grainy."
+  "tr": "Kremayı ocağı kapattıktan sonra ekleyin; çorba tekrar kaynarsa krema ayrışabilir ve taneli görünebilir.",
+  "en": "Remove the soup from the heat before stirring in the cream; if it boils again after the cream goes in, it can split and look grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts the steps: it says to add the cream and mustard without removing the pan from the heat, but step 6 adds the mustard during simmering and step 7 removes the pan from the heat before add",
+   "Salt and white pepper are listed without quantities (\"Tuz\", \"Beyaz biber\"), although step 6 specifies half a teaspoon of salt.",
+   "Turkish step 6 uses the unnatural phrase \"Çorba tadında pürüzsüz bir yapı\"; \"pürüzsüz bir kıvam\" is the natural wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

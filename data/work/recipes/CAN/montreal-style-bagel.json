@@ -42,7 +42,7 @@
    "Büyük bir kapta unu, mayayı ve tuzu karıştırın. Ortasını açıp bal ve ılık suyu ekleyin.",
    "Malzemeler birleşince hamuru 8-10 dakika, elinize yapışmayacak ve pürüzsüz olana kadar yoğurun.",
    "Hamuru kaseye alın, üzerini örtün ve oda sıcaklığında yaklaşık 1 saat mayalanmaya bırakın. Hacmi iki katına çıkmalıdır.",
-   "Hamuru 8 eşit parçaya bölün, her parçayı yaklaşık 85 g olacak şekilde tartın ve yuvarlayın.",
+   "Hamuru 8 eşit parçaya bölün, her parçayı yaklaşık 100 g olacak şekilde tartın ve yuvarlayın.",
    "Her topu tezgâhta avuç içinizle yaklaşık 25 cm uzunluğunda bir kordon haline getirin. Uçları birleştirip halka oluşturun ve uçları sıkıca bastırarak kapatın.",
    "Halkaları hafif unlanmış bir tepsiye dizin, üzerini örtüp 15 dakika dinlendirin.",
    "Geniş bir tencerede 2 L suyu 100 g bal ile birlikte kaynatın. Ocağı kısın; su hafifçe kaynamalı, şiddetli kaynamamalıdır.",
@@ -55,7 +55,7 @@
    "In a large bowl, mix the flour, yeast and salt. Make a well in the centre, then add the honey and lukewarm water.",
    "Once combined, knead the dough for 8-10 minutes until smooth and no longer sticky.",
    "Place the dough in a bowl, cover it and let it ferment at room temperature for about 1 hour, until doubled in size.",
-   "Divide the dough into 8 equal pieces, weigh each one at about 85 g, and shape into balls.",
+   "Divide the dough into 8 equal pieces, weigh each one at about 100 g, and shape into balls.",
    "Roll each ball on the work surface with your palms into a rope about 25 cm long. Join the ends to form a ring and press them firmly together.",
    "Arrange the rings on a lightly floured tray, cover and rest for 15 minutes.",
    "In a wide pot, bring the 2 L of water and 100 g of honey to a boil. Then reduce the heat so the water simmers gently rather than boiling hard.",
@@ -69,5 +69,13 @@
   "tr": "Montreal simidi geleneksel olarak daha az hamurlu ve daha küçük yapılır; halkaları ince tutun, ballı suyu hafif kaynatın ve tohumları iyice bastırın.",
   "en": "Keep the rings small and thin, simmer rather than boil the honey water, and press the seeds in firmly so they stick during baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't match the portioning: the ingredients total about 818 g (500 g flour + 280 ml water + 20 g honey + 10 g salt + 8 g yeast), so 8 pieces come to about 100 g each, not the 85 g state"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

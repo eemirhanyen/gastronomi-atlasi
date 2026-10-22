@@ -49,7 +49,7 @@
    "Geniş ve kapaklı bir tencerede yağı orta-yüksek ateşte ısıtın. Soğanı ekleyip 3-4 dakika, yumuşayıp hafifçe renk alana kadar kavurun.",
    "Sarımsak ve yeşil soğanın yarısını ekleyip 1 dakika daha kavurun.",
    "Pirinci tencereye ekleyin ve pirinç taneleri yağla kaplanana kadar 1 dakika karıştırın.",
-   "Süzülmüş güvercin bezelyelerini, hindistan cevizi sütünü, suyu, kekiği, bütün biberi, tuzu, karabiberi ve yenibahары ekleyip iyice karıştırın.",
+   "Süzülmüş güvercin bezelyelerini, hindistan cevizi sütünü, suyu, kekiği, bütün biberi, tuzu, karabiberi ve yenibahar ekleyip iyice karıştırın.",
    "Karışımı kaynatın. Ateşi en düşük seviyeye indirin, kapağı kapatın ve yaklaşık 20 dakika pişirin.",
    "Ocaktan alın ve kapalı şekilde 10 dakika dinlendirin. Bu sırada pirincin suyunu tamamen çekmesini sağlayın.",
    "Kapağı açın, kekik dallarını ve bütün biberi çıkarın. Çatalla pirinci kabartıp kalan yeşil soğanla servis yapın."
@@ -69,5 +69,13 @@
   "tr": "Biberi bütün bırakın ve kesmeyin; aroması yayılır ama çok acı olmaz. Pirincin altının yanmaması için kapağı pişerken açmayın.",
   "en": "Keep the pepper whole so it perfumes the rice without making it fiery. For a traditional touch, you can soak 100 g dried pigeon peas overnight and simmer them until tender, using about 240 g cooked peas in place of the canned ones."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 contains a corrupted word, 'yenibahары' (mixed Cyrillic and Latin characters). It should be 'yenibahar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Türo gombası (Macar túrógombóc)",
+  "tr": "Túrógombóc (Macar lor peynirli tatlı köfte)",
   "en": "Túrógombóc (Hungarian curd cheese dumplings)"
  },
  "native": "Túrógombóc",
  "desc": {
-  "tr": "Macaristan'da kahvaltı, tatlı ya da öğle sonrası atıştırmalığı olarak sıcak servis edilen, ince kıymık ekmek kırıntısıyla kaplanmış, yumuşak lor peynirli tatlı köftelerdir. Özellikle kışın ve aile toplantılarında çok sevilir.",
+  "tr": "Macaristan'da kahvaltı, tatlı ya da öğle sonrası atıştırmalığı olarak sıcak servis edilen, ince ekmek kırıntısıyla kaplanmış, yumuşak lor peynirli tatlı köftelerdir. Özellikle kışın ve aile toplantılarında çok sevilir.",
   "en": "A soft, sweet dumpling made with dry curd cheese, rolled in buttery breadcrumbs and served warm. It is eaten in Hungary as a dessert, a breakfast treat or an afternoon snack, especially in winter and at family gatherings."
  },
  "servings": 4,
@@ -45,19 +45,19 @@
    "Peynire yumurtayı, 40 g toz şekeri, vanilya özünü, limon kabuğunu ve tuzu ekleyip iyice karıştırın.",
    "İrmiği ekleyip karışımı 20 dakika buzdolabında dinlendirin; irmik nemi çekip hamur kıvam alsın.",
    "Geniş bir tencerede bol tuzlu su kaynatın, ardından ocağı kısın ve suyun hafifçe fokurdamasını sağlayın.",
-   "Ellerinizi suyla ıslatıp hamurdan yaklaşık 45 g'lık 12 eşit top şekillendirin.",
+   "Ellerinizi suyla ıslatıp hamurdan yaklaşık 55 g'lık 12 eşit top şekillendirin.",
    "Topları fokurdayan suya nazikçe bırakın, kapağı kapatıp yaklaşık 8-10 dakika pişirin; toplar yüzeye çıkınca 2 dakika daha bekletin.",
-   "Delikli kaşıkla dumanları çıkarıp iyice süzün.",
+   "Delikli kaşıkla köfteleri çıkarıp iyice süzün.",
    "Geniş bir tavada tereyağını eritin, galeta ununu ekleyip orta ateşte 4-5 dakika altın renk alana kadar kavurun.",
-   "Sıcak dumanları tereyağlı galeta unu içinde yuvarlayarak kaplayın.",
-   "Ekşi kremayı ayrı bir kâseye koyun. Dumanları sıcak olarak, ekşi krema ve tarçınlı şekerle birlikte servis edin."
+   "Sıcak köfteleri tereyağlı galeta unu içinde yuvarlayarak kaplayın.",
+   "Ekşi kremayı ayrı bir kâseye koyun. Köfteleri sıcak olarak, ekşi krema ve tarçınlı şekerle birlikte servis edin."
   ],
   "en": [
    "Press the túró through a fine sieve, or mash it with a fork until completely smooth.",
    "Add the egg, 40 g caster sugar, vanilla extract, lemon zest and salt to the cheese and mix well.",
    "Stir in the semolina and refrigerate the mixture for 20 minutes so the semolina absorbs moisture and the dough firms up.",
    "Bring a large pot of well-salted water to the boil, then reduce the heat so the water barely simmers.",
-   "Wet your hands and shape the dough into 12 equal balls of about 45 g each.",
+   "Wet your hands and shape the dough into 12 equal balls of about 55 g each.",
    "Gently lower the dumplings into the simmering water, cover and cook for 8-10 minutes; once they float, cook for 2 minutes more.",
    "Lift the dumplings out with a slotted spoon and drain them thoroughly.",
    "Melt the butter in a wide frying pan, add the breadcrumbs and toast over medium heat for 4-5 minutes until golden.",
@@ -69,5 +69,16 @@
   "tr": "Lor peyniri çok ıslaksa hamur dağılır; önce bezde süzün ya da bir gece önceden kurutun.",
   "en": "If the túró is wet, the dough will fall apart, so drain it in a cloth or leave it to dry out overnight beforehand."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Türo gombası' is a misspelling; should be 'Túrógombóc'.",
+   "Turkish description uses 'kıymık' (splinter/shred), which is an odd word choice for breadcrumbs; 'ince ekmek kırıntısı' is more natural.",
+   "Turkish steps translate 'dumpling' as 'duman' (smoke). It should be 'köfte' or 'top'.",
+   "Dough weight doesn't match: about 650 g of mixture divided into 12 balls is roughly 54 g each, not 45 g. Corrected to about 55 g in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

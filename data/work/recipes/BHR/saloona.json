@@ -9,7 +9,7 @@
   "en": "A Bahraini family stew of chicken and vegetables in a tomato base, perfumed with dried lime and the Gulf spice blend bezar. It is often served with rice or bread at weekend lunches and family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -76,8 +76,17 @@
   ]
  },
  "tip": {
-  "tr": "Kuru limonları delmek aromanın suya daha iyi geçmesini sağlar; çok koyulaşıp acılaşırsa servisten önce çıkarın.",
+  "tr": "Kuru limonları delmek, limonun ekşi ve hafif tütsülü aromasının suya daha iyi geçmesini sağlar; yahni çok koyulaşıp acılaşırsa limonları servisten önce çıkarın.",
   "en": "Pricking the dried limes lets their sour, smoky flavour reach the broth; if the stew turns bitter, remove them earlier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the steps listed: browning in batches, sautéing, a 25-minute simmer, then 15 and 10 more minutes come to about 80-90 minutes plus prep.",
+   "The English tip mentions the lime's 'smoky' flavour, but the Turkish tip does not, so the two versions don't fully match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

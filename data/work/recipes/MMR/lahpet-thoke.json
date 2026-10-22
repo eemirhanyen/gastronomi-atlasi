@@ -52,28 +52,37 @@
    "Bezelyeleri yıkayın, 1 litre suda 15 dakika kaynatın, süzün ve kağıt havlu üzerinde iyice kurutun.",
    "Yağın yarısını geniş bir tavada orta-yüksek ateşte ısıtın. Bezelyeleri gevrek ve altın rengi olana kadar kızartın, süzgece alın.",
    "Aynı yağda sarımsak dilimlerini altın rengi olana kadar kızartın, süzgece alın. Yağı tavada saklayın.",
-   "Kuru karidesleri 1 dakika kızartın, süzün ve kabaca doğrayın.",
+   "Aynı yağda kuru karidesleri 1 dakika kızartın, süzün ve kabaca doğrayın.",
    "Lahpet'i elinizle hafifçe sıkıp suyunu alın, ince kıyın ve büyük bir kaseye koyun.",
-   "Lahana, domates, kırmızı soğan, yeşil biber, kızarmış bezelye, sarımsak ve karidesin yarısını kaseye ekleyin.",
+   "Lahana, domates, kırmızı soğan, yeşil biber, kızarmış bezelye, sarımsağın yarısı ve karidesin yarısını kaseye ekleyin.",
    "Ayrı bir kapta lime suyu, balık sosu, şeker, tuz ve tavada kalan 2 yemek kaşığı sarımsaklı yağı karıştırın.",
    "Sosu salataya dökün ve malzemeler eşit kaplanana kadar nazikçe karıştırın. Tadına bakıp gerekirse tuz veya lime ekleyin.",
-   "Servis tabağına alın, kalan karides, yer fıstığı ve susamı üzerine serpin."
+   "Servis tabağına alın, kalan karides, yer fıstığı, susam ve kalan kıtır sarımsağı üzerine serpin."
   ],
   "en": [
    "Rinse the split peas, boil them in 1 litre of water for 15 minutes, drain and dry thoroughly on kitchen paper.",
    "Heat half the oil in a wide pan over medium-high heat. Fry the peas until golden and crisp, then lift them out with a slotted spoon.",
    "In the same oil, fry the garlic slices until golden, then lift them out. Keep the oil in the pan.",
-   "Fry the dried shrimp for 1 minute, drain and roughly chop.",
+   "In the same oil, fry the dried shrimp for 1 minute, drain and roughly chop.",
    "Squeeze the lahpet gently to remove excess liquid, finely chop it and place it in a large bowl.",
-   "Add the cabbage, tomatoes, red onion, green chilli, fried peas, garlic and half of the shrimp to the bowl.",
+   "Add the cabbage, tomatoes, red onion, green chilli, fried peas, half of the garlic and half of the shrimp to the bowl.",
    "In a small bowl, mix the lime juice, fish sauce, sugar, a pinch of salt and 2 tablespoons of the garlic oil from the pan.",
    "Pour the dressing over the salad and toss gently until everything is evenly coated. Taste and adjust with salt or lime if needed.",
-   "Transfer to a serving dish and sprinkle over the remaining shrimp, the peanuts, the sesame seeds and the crisp garlic."
+   "Transfer to a serving dish and sprinkle over the remaining shrimp, the peanuts, the sesame seeds and the remaining crisp garlic."
   ]
  },
  "tip": {
   "tr": "Lahpet'i servisten hemen önce karıştırın; uzun bekleyen salata yumuşar ve kıtır malzemeler kaybolur.",
   "en": "Toss the salad just before serving; if it sits too long, it softens and the crisp fried ingredients lose their crunch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 adds all the fried garlic to the bowl, but step 9 then garnishes with 'crisp garlic' that has already been used, so the garlic is not split between the salad and the garnish.",
+   "Step 4 says to fry the dried shrimp without saying in which fat, though step 3 leaves the garlic oil in the pan, so it is unclear whether the shrimp are fried in that oil."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

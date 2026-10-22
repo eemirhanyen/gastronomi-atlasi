@@ -21,9 +21,10 @@
    "2 orta boy domates (300 g), küp doğranmış",
    "1 adet bütün Scotch bonnet biberi, birkaç yerinden delinmiş",
    "2 dal taze kekik",
-   "2 yemek kaşığı (30 ml) sıvı yağ",
+   "3 yemek kaşığı (45 ml) sıvı yağ (2 yemek kaşığı sos, 1 yemek kaşığı muz için)",
    "1 limon, ikiye bölünmüş",
-   "Tuz ve taze çekilmiş karabiber",
+   "1 tatlı kaşığı tuz (sos için)",
+   "Taze çekilmiş karabiber",
    "4 adet yeşil pişirmelik muz (plantain), toplam yaklaşık 800 g, kabukları soyulmuş ve parçalanmış",
    "1 litre su (muzları haşlamak için)",
    "1 tatlı kaşığı tuz (muzlar için)"
@@ -37,9 +38,10 @@
    "2 medium tomatoes (300 g), diced",
    "1 whole Scotch bonnet pepper, pierced a few times",
    "2 sprigs fresh thyme",
-   "2 tablespoons (30 ml) vegetable oil",
+   "3 tablespoons (45 ml) vegetable oil (2 for the sauce, 1 for the plantains)",
    "1 lime, halved",
-   "Salt and freshly ground black pepper",
+   "1 teaspoon salt (for the sauce)",
+   "Freshly ground black pepper",
    "4 green plantains, about 800 g total, peeled and cut into chunks",
    "1 litre water (for boiling the plantains)",
    "1 teaspoon salt (for the plantains)"
@@ -54,7 +56,7 @@
    "Sarımsak ve domatesi ekleyip 4 dakika daha pişirin, domatesler çökene kadar karıştırın.",
    "Su ve hindistancevizi sütünü ekleyip karışımı kısık ateşte kaynatın. Kekik, bütün Scotch bonnet biberi, 1 tatlı kaşık tuz ve karabiberi ekleyin.",
    "Balık parçalarını sosun içine yerleştirin. Kapağı kapatıp kısık ateşte 8-10 dakika pişirin, balık pulları kolayca ayrılana kadar bekleyin. Pişirme sırasında biberi bozmamaya özen gösterin.",
-   "Biber ve kekik dallarını çıkarın. Sosun tadına bakıp gerekirse tuz ekleyin ve limonun suyunu sıkın.",
+   "Biber ve kekik dallarını çıkarın. Sosun tadına bakıp gerekirse tuz ekleyin ve limonun yarımının suyunu sıkın.",
    "Servis için her kaseye muz toplarından birkaç tane koyun, üzerine balıklı sosu dökün. Kalan limon yarımlarını yanında servis edin."
   ],
   "en": [
@@ -73,5 +75,15 @@
   "tr": "Scotch bonnet biberini bütün bırakın ve sosu kaynatmayın; biber patlarsa sos çok acılaşır.",
   "en": "Keep the Scotch bonnet whole and avoid a rolling boil; if the pepper bursts, the sauce becomes far too hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity mismatch: the ingredient list has 2 tbsp vegetable oil, but the steps use 2 tbsp for the sauce plus 1 tbsp for mashing the plantains (3 tbsp total).",
+   "Sauce salt is not itemized: step 6 uses 1 tsp salt for the sauce, but the ingredient list only gives a 1 tsp salt amount for the plantains and an unquantified 'Tuz ve karabiber' line.",
+   "Turkish step 8 says to squeeze 'limonun suyunu' (the lime's juice), while the English specifies one lime half. The Turkish should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

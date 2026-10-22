@@ -35,13 +35,13 @@
  },
  "steps": {
   "tr": [
-   "Fırını 180°C'ye ısıtın. Yaklaşık 22 cm çapındaki yuvarlak kalıbın tabanını ve kenarlarını yağlayın, tabanına pişirme kağıdı serin.",
+   "Fırını 180°C'ye ısıtın. Yaklaşık 22 cm çapındaki yuvarlak kalıbın tabanını ve kenarlarını yağlayın, tabanına pişirme kağıdı yerleştirin.",
    "Büyük bir kapta mısır unu, çok amaçlı un, şeker, kabartma tozu ve tuzu iyice karıştırın.",
    "Ayrı bir kapta yumurtaları, sütü ve sıvı yağı birlikte çırpın.",
    "Islak karışımı kuru karışımın üzerine dökün ve spatulayla yalnızca birleşene kadar karıştırın. Hamur kalın ama dökülebilir kıvamda olmalıdır.",
    "Hamuru kalıba aktarın ve üstünü spatulayla düzeltin.",
    "Üstü altın sarısı olana ve ortasına batırılan çubuk temiz çıkana kadar 40-45 dakika pişirin.",
-   "Ekmeği kalıpta 10 dakika soğutun, sonra tel ızgaraya alıp tamamen soğumasını bekleyin. Ilık servis edin."
+   "Ekmeği kalıpta 10 dakika soğutun, sonra tel ızgaraya alıp ılık kalana kadar soğutun. Ilık servis edin."
   ],
   "en": [
    "Preheat the oven to 180°C. Grease a 22 cm round cake tin and line the base with baking paper.",
@@ -50,12 +50,22 @@
    "Pour the wet mixture into the dry ingredients and stir with a spatula just until combined. The batter should be thick but pourable.",
    "Transfer the batter into the tin and smooth the top with the spatula.",
    "Bake for 40–45 minutes, until the top is golden and a skewer inserted in the centre comes out clean.",
-   "Let the bread cool in the tin for 10 minutes, then turn it out onto a wire rack to cool completely. Serve warm."
+   "Let the bread cool in the tin for 10 minutes, then turn it out onto a wire rack to cool until warm. Serve warm."
   ]
  },
  "tip": {
-  "tr": "Mısır unu zamanla suyu çeker; hamur çok sıkışırsa 1-2 yemek kaşığı süt ekleyerek kıvamı ayarlayın. Gerçek bir Kabo Verde tadı için bir dilim tereyağıyla servis edin.",
+  "tr": "Mısır unu zamanla suyu çeker; hamur çok sıkışırsa 1-2 yemek kaşığı süt ekleyerek kıvamı ayarlayın. Yeşil Burun Adaları'nın gerçek tadı için bir dilim tereyağıyla servis edin.",
   "en": "Cornmeal absorbs liquid over time, so if the batter thickens too much while you work, add 1–2 tablespoons of milk to loosen it. Serve with a slice of butter for the authentic island style."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1: 'pişirme kağıdı serin' uses the wrong verb ('serin' means 'cool'); it should be 'yerleştirin' (place).",
+   "Step 7 contradicts itself in both languages: it says to cool the bread completely, then serve it warm.",
+   "Turkish tip: 'Kabo Verde' is a Portuguese-form name and inconsistent with the rest of the Turkish text, which uses 'Yeşil Burun Adaları'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

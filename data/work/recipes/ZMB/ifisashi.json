@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Yaprakları saplarından ayırın, iyice yıkayın ve ince ince doğrayın.",
-   "Geniş bir tencerede yağı orta ateşte ısıtın, soğanı ekleyip yumuşayana ve pembeleşene kadar yaklaşık 4 dakika kavurun.",
+   "Geniş bir tencerede yağı orta ateşte ısıtın, soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 4 dakika kavurun.",
    "Domatesleri ve isteğe bağlı acı biberi ekleyin, domatesler dağılıp yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Doğranmış yaprakları tencereye ekleyip iyice karıştırın. 150 ml suyu ilave edin, kapağını kapatıp kısık ateşte yaklaşık 15 dakika pişirin.",
    "Bu sırada yer fıstığı ezmesini kalan 200 ml suyla bir kasede pürüzsüz ve akıcı bir kıvam alana kadar karıştırın.",
@@ -57,5 +57,14 @@
   "tr": "Ispanak kullanıyorsanız yaprakları fıstık ezmesinden önce değil, pişirmenin son 3 dakikasında ekleyin; çok hızlı solar.",
   "en": "If using spinach, add it during the last 3 minutes of cooking, as it wilts quickly and can turn mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the onion should turn 'pembeleşene' (pinkish), which is wrong for frying onions and contradicts the English 'golden'. Corrected to 'hafif altın rengi'.",
+   "Turkish tip spells 'Ispanak' without the dotless ı, inconsistent with 'ıspanak' in the ingredient list."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

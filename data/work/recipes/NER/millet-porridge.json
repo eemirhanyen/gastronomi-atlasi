@@ -35,8 +35,8 @@
   "tr": [
    "Darı ununu 500 ml soğuk suyla pürüzsüz bir hamur olacak şekilde kaseye karıştırın. Rendelenmiş zencefili ve ekşi kokoyu (ya da mayayı) ekleyip iyice karıştırın.",
    "Kaseyi temiz bir bezle örtün ve ılık bir yerde 12 saat, yani bir gece boyunca mayalanmaya bırakın. Yüzeyde köpükler oluşmalı ve hamur ekşi kokmalıdır.",
-   "Mayalanmış karışımı ince elekten bir tencereye süzün. Eleğin üstündeki posayı bastırarak suyunu da tencereye alın.",
-   "750 ml suyu tencerede karıştırın ve orta ateşte kaynatın.",
+   "Mayalanmış karışımı ince elekten ikinci bir kaseye süzün. Eleğin üstündeki posayı bastırarak suyunu da kaseye alın.",
+   "750 ml suyu bir tencerede orta ateşte kaynatın.",
    "Ateşi biraz kısın, süzdüğünüz sıvıyı kaynayan suya ince bir akışla dökerken sürekli karıştırın. Topak kalmamasına dikkat edin.",
    "Orta-düşük ateşte 10-15 dakika, sık sık karıştırarak pişirin. Lapa kaşığı kaplayacak kıvama gelince ocaktan alın.",
    "Şekeri ekleyip karıştırın, gerekirse biraz daha ekşilik için kısa süre bekletin ve tadına bakın.",
@@ -45,8 +45,8 @@
   "en": [
    "In a bowl, whisk the millet flour with 500 ml cold water until smooth. Add the grated ginger and the sour koko (or yeast) and mix well.",
    "Cover the bowl with a clean cloth and leave it in a warm place for 12 hours, overnight. The surface should be bubbly and the mixture should smell sour.",
-   "Strain the fermented mixture through a fine sieve into a pot, pressing the solids to extract all the liquid.",
-   "Pour 750 ml water into the pot with the strained liquid and bring to the boil over medium heat.",
+   "Strain the fermented mixture through a fine sieve into a second bowl, pressing the solids to extract all the liquid.",
+   "Bring 750 ml water to the boil in a pot over medium heat.",
    "Reduce the heat slightly. Whisking constantly, pour the strained mixture into the boiling water in a thin stream, making sure no lumps form.",
    "Simmer over medium-low heat for 10-15 minutes, stirring often, until the porridge thickens enough to coat a spoon. Remove from the heat.",
    "Stir in the sugar and taste, adding more if needed.",
@@ -57,5 +57,13 @@
   "tr": "Bir sonraki partiye başlangıç olması için kenara biraz ekşi kokodan ayırın; böylece her seferinde mayalanmayı tekrar beklemenize gerek kalmaz.",
   "en": "Keep 50 ml of the sour koko aside as the starter for your next batch, so you do not need a new fermentation each time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Steps 3-5 are inconsistent: the strained fermented liquid is put into the pot, then 750 ml water is added to that same pot, then the strained liquid is poured into the boiling water. The steps need on"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

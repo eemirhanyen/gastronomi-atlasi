@@ -5,7 +5,7 @@
  },
  "native": "Mofo gasy",
  "desc": {
-  "tr": "Madagaskar'da kahvaltıda sık yenen, pirinç unundan yapılan kabarık ve hafif tatlı bir krep türü gözleme. Genellikle sabahları sıcak kahve veya çayla servis edilir.",
+  "tr": "Madagaskar'da kahvaltıda sık yenen, pirinç unundan yapılan kabarık ve hafif tatlı bir tür krep. Genellikle sabahları sıcak kahve veya çayla servis edilir.",
   "en": "A light, slightly sweet rice flour pancake from Madagascar, eaten at breakfast across the island. It is usually served warm with coffee or tea."
  },
  "servings": 4,
@@ -43,7 +43,7 @@
    "Karbonatı 15 ml suda eritin, hamura ekleyip iyice karıştırın.",
    "Yapışmaz bir tavayı orta-düşük ateşte ısıtın ve yağ ile hafifçe yağlayın.",
    "Her bir mofo için yaklaşık 60 ml hamuru tavaya dökün ve yaklaşık 9-10 cm çapında bir daire olacak şekilde yayın.",
-   "Kapağını kapatıp 2-3 dakika pişirin; üst yüzey donup kabarcıklar oluşunca ve kenarlar altın rengi olunca çevirin.",
+   "Kapağını kapatıp 2-3 dakika pişirin; üst yüzey katılaşıp kabarcıklar oluşunca ve kenarlar altın rengi olunca çevirin.",
    "Diğer yüzeyi yaklaşık 1 dakika daha pişirin. Her partiden önce tavaya biraz daha yağ sürün.",
    "Mofoları sıcak olarak, kahve veya çay ile servis edin. İsterseniz üzerine bal gezdirin."
   ],
@@ -63,5 +63,14 @@
   "tr": "Hamur ne kadar uzun kabarırsa mofolar o kadar yumuşak ve hafif olur; kapağı kapalı pişirmek üstteki delikli dokuyu oluşturur.",
   "en": "The longer the batter rises, the softer and lighter the mofo; cooking with the lid on helps form the characteristic spongy, pitted top."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls mofo a \"krep türü gözleme\". Gözleme is a different, folded Turkish flatbread, so the comparison is misleading.",
+   "Turkish step 7 uses \"donup\" for the batter setting. \"Katılaşıp\" or \"kıvam tutup\" is the natural culinary term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

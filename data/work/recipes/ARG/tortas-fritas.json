@@ -40,8 +40,8 @@
    "Hamuru kapatıp ılık bir yerde yaklaşık 30 dakika dinlendirerek hacminin iki katına çıkmasını bekleyin.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı avuçlarınızla yuvarlayıp yaklaşık 1 cm kalınlığında, 8-9 cm çapında yassı tortalar haline getirin ve ortalarını çatalla birkaç yerden delin.",
    "Tortaları temiz bir bezle örtüp 10 dakika daha dinlendirin.",
-   "Yağı 170-175 °C'ye ısıtın. Küçük bir hamur parçası yağa atıldığında hemen köpürmeli.",
-   "Tortaları yağa birer birer koyup her iki yüzü altın rengi olana kadar, toplam yaklaşık 2-3 dakika kızartın.",
+   "Yağı 165-170 °C'ye ısıtın. Küçük bir hamur parçası yağa atıldığında hemen köpürmeli.",
+   "Tortaları yağa bir veya iki tane olacak şekilde koyup her iki yüzü altın rengi olana kadar, toplam yaklaşık 4-5 dakika kızartın. İçinin de pişmiş olduğundan emin olun.",
    "Kızaran tortaları kağıt havlu serili bir tabağa alıp yağını süzdürün. Sıcakken 50 g toz şekere bulayıp servis yapın."
   ],
   "en": [
@@ -50,14 +50,24 @@
    "Cover the dough and let it rest in a warm place for about 30 minutes, until it has doubled in size.",
    "Divide the dough into 8 equal pieces. Roll each piece between your palms, then flatten into rounds about 1 cm thick and 8-9 cm across. Prick the centres a few times with a fork.",
    "Cover the tortas with a clean cloth and let them rest for another 10 minutes.",
-   "Heat the oil to 170-175 °C. A small piece of dough dropped into the oil should sizzle and rise immediately.",
-   "Fry the tortas one or two at a time, turning once, for about 2-3 minutes total until both sides are golden.",
+   "Heat the oil to 165-170 °C. A small piece of dough dropped into the oil should sizzle and rise immediately.",
+   "Fry the tortas one or two at a time, turning once, for about 4-5 minutes total until both sides are golden and the centre is fully cooked.",
    "Drain the tortas on a plate lined with paper towels. While still warm, coat them in the 50 g of sugar and serve."
   ]
  },
  "tip": {
-  "tr": "Yağ sıcaklığını 170-175 °C arasında sabit tutun; çok sıcak yağ dışını yakar, içini ise çiğ bırakır.",
-  "en": "Keep the oil steady at 170-175 °C; too hot and the outside burns before the centre cooks through."
+  "tr": "Yağ sıcaklığını 165-170 °C arasında sabit tutun; çok sıcak yağ dışını yakar, içini ise çiğ bırakır.",
+  "en": "Keep the oil steady at 165-170 °C; too hot and the outside burns before the centre cooks through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 2-3 minutes total is too short for 1 cm thick, pricked dough at 170-175 °C. The centre may stay raw, which is a food safety problem.",
+   "Turkish step says fry the tortas \"birer birer\" (one at a time), but the English says \"one or two at a time\". The two versions disagree.",
+   "Tip repeats the 170-175 °C range, which the corrected frying temperature changes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

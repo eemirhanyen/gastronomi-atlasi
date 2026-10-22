@@ -9,7 +9,7 @@
   "en": "Lagman is a hearty meat and vegetable soup with long, thick noodles, a staple of Kazakh and wider Central Asian cooking. It is eaten at home and served to guests, especially at family gatherings, for lunch or dinner."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 140,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -62,11 +62,11 @@
    "Ateşi orta seviyeye indirin, kalan 30 ml yağda soğanı altın rengi olana kadar yaklaşık 5 dakika kavurun. Havucu ekleyip 5 dakika daha pişirin, ardından biberi ekleyip 3 dakika soteleyin.",
    "Domates salçasını ekleyip 2 dakika kavurun. Domatesleri ve sarımsağı ekleyip domatesler yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Eti tencereye geri koyun. Kimyonu, tatlı kırmızı biberi, defne yaprağını, 5 g tuzu ve karabiberi ekleyip bir dakika karıştırın.",
-   "Üzerine 1,5 litre sıcak su dökün, kaynatın, yüzeyde biriken köpüğü alın. Ateşi kısın, kapağını kapatıp et yumuşayana kadar yaklaşık 60 dakika ağır ağır pişirin.",
+   "Üzerine 1,5 litre sıcak su dökün, kaynatın, yüzeyde biriken köpüğü alın. Ateşi kısın, kapağını kapatıp et yumuşayana kadar yaklaşık 90 dakika ağır ağır pişirin.",
    "Bu sırada dereotu ve maydanozu ince kıyın.",
-   "Ayrı bir tencerede 3 litre suyu 10 g tuzla kaynatın. Şehriyeyi paket talimatına göre, genellikle 4-5 dakika haşlayın. Süzün ve sıcak bir kaseye alın.",
+   "Ayrı bir tencerede 3 litre suyu 10 g tuzla kaynatın. Şehriyeyi paket talimatına göre, genellikle 4-5 dakika haşlayın. Süzün ve sıcak bir kenara alın.",
    "Çorbadan defne yaprağını çıkarın, tadını kontrol edip gerekirse tuz ekleyin.",
-   "Şehriyeleri kâselere paylaştırın, üzerine sıcak et ve sebzeli sosu bolca dökün. Kıyılmış dereotu ve maydanozla süsleyip hemen servis yapın."
+   "Şehriyeleri dört kaseye paylaştırın, üzerine sıcak et ve sebzeli sosu bolca dökün. Kıyılmış dereotu ve maydanozla süsleyip hemen servis yapın."
   ],
   "en": [
    "Cut the beef into 2 cm cubes, dice the onion, cut the carrots into thin sticks, slice the pepper into strips, dice the tomatoes and thinly slice the garlic.",
@@ -74,16 +74,26 @@
    "Reduce the heat to medium and fry the onion in the remaining 30 ml oil for about 5 minutes until golden. Add the carrots and cook for 5 minutes more, then add the pepper and stir-fry for 3 minutes.",
    "Stir in the tomato paste and fry for 2 minutes. Add the tomatoes and garlic and cook for about 5 minutes until the tomatoes soften.",
    "Return the beef to the pot. Add the cumin seeds, paprika, bay leaf, 5 g salt and black pepper, and stir for 1 minute.",
-   "Pour in the 1.5 l hot water, bring to a boil and skim off any foam. Reduce the heat, cover and simmer gently for about 60 minutes until the beef is tender.",
+   "Pour in the 1.5 l hot water, bring to a boil and skim off any foam. Reduce the heat, cover and simmer gently for about 90 minutes until the beef is tender.",
    "Meanwhile, finely chop the dill and parsley.",
-   "In a separate pot, bring the 3 l water to a boil with the 10 g salt. Cook the noodles according to the package, usually 4 to 5 minutes. Drain and divide among four deep bowls.",
+   "In a separate pot, bring the 3 l water to a boil with the 10 g salt. Cook the noodles according to the package, usually 4 to 5 minutes. Drain and set aside in a warm bowl.",
    "Remove the bay leaf from the soup and taste. Add more salt if needed.",
-   "Ladle the hot meat and vegetable soup generously over the noodles. Garnish with the chopped dill and parsley and serve immediately."
+   "Divide the noodles among four deep bowls. Ladle the hot meat and vegetable soup generously over them. Garnish with the chopped dill and parsley and serve immediately."
   ]
  },
  "tip": {
   "tr": "Şehriyeyi çorbada değil ayrı haşlayın; böylece suyu emmez ve lagmanın kıvamı korunur.",
   "en": "Cook the noodles separately rather than in the soup so they do not absorb the broth and the lagman keeps its proper texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef chuck cubes (2 cm) simmered for only about 60 minutes will likely remain tough; chuck usually needs about 90 minutes in both languages.",
+   "time_min (90) is too short for the listed steps: roughly 15 min prep, 25 min browning and sautéing, 90 min simmering and 10 min noodles.",
+   "Turkish step 8 says to drain the noodles into one warm bowl, but the English step 8 says to divide them among four bowls, and Turkish step 10 then divides them again. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

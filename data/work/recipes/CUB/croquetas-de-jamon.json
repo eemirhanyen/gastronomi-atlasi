@@ -19,7 +19,7 @@
    "40 g tereyağı (sos için)",
    "50 g un",
    "500 ml tam yağlı süt",
-   "1 tutam rendelenmiş hindistancevizi",
+   "1 tutam rendelenmiş muskat",
    "5 g tuz",
    "1 tutam karabiber",
    "100 g un (kaplamak için)",
@@ -49,8 +49,8 @@
    "Jambonu ekleyip 2 dakika daha karıştırın, sonra tencereden alıp bir kaseye koyun.",
    "Aynı tencerede kalan 40 g tereyağını eritin, 50 g unu ekleyip sürekli karıştırarak 2 dakika pişirin.",
    "Sütü azar azar ekleyin ve topaklanmaması için sürekli çırpın. Karışım kıvam alıp kaşıkta yapışkan bir sos haline gelene kadar, yaklaşık 5 dakika kısık ateşte pişirin.",
-   "Sosu jambonlu soğan karışımının üzerine ekleyin, hindistancevizi, tuz ve karabiberi katıp iyice karıştırın.",
-   "Karışımı yağlanmış bir tabağa yayın, folyo ile örtüp buzdolabında 30 dakika (ya da dondurucuda 20 dakika) sertleşene kadar bekletin.",
+   "Sosu jambonlu soğan karışımının üzerine ekleyin, rendelenmiş muskat, tuz ve karabiberi katıp iyice karıştırın.",
+   "Karışımı yağlanmış bir tabağa yayın, streç film ile örtüp buzdolabında 30 dakika (ya da dondurucuda 20 dakika) sertleşene kadar bekletin.",
    "Soğuyan hamuru yağlı ellerle yaklaşık 7 cm uzunluğunda, 2 cm kalınlığında silindirlere şekillendirin.",
    "Her silindiri sırayla 100 g unda gezdirin, çırpılmış yumurtaya batırın, sonra ekmek kırıntısında iyice kaplayın.",
    "Ayçiçek yağını 180 °C'ye ısıtın ve kroketleri gruplar halinde 2-3 dakika, altın rengi olana kadar kızartın.",
@@ -70,8 +70,18 @@
   ]
  },
  "tip": {
-  "tr": "Kroketlerin kızartırken dağılmaması için, ekmek kırıntısına bulamadan önce iki kez kaplama yapmak ve kroketleri iyice soğutulmuş halde kızartmak idealdir.",
-  "en": "For croquetas that hold their shape, double-coat them (flour, egg, crumbs twice) and fry them straight from the fridge or freezer."
+  "tr": "Kroketlerin kızartırken dağılmaması için, kızartmadan önce kroketleri iyice soğutulmuş halde tutmak idealdir.",
+  "en": "For croquetas that hold their shape, keep them thoroughly chilled and fry them straight from the fridge or freezer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step say \"hindistancevizi\" (coconut) where the English says nutmeg; the correct Turkish term is \"muskat\" (muskat cevizi).",
+   "Turkish tip recommends double-coating, but the steps describe only a single flour/egg/crumb coat, so the tip contradicts the method.",
+   "Turkish \"folyo\" is used for cling film; \"streç film\" is the natural term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

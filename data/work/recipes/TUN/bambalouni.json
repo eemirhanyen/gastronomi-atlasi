@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Bambaluni",
+  "tr": "Bambalouni",
   "en": "Bambalouni"
  },
  "native": "بمبلوني",
@@ -44,7 +44,7 @@
    "Hamuru 8 eşit parçaya bölün. Her parçayı yaklaşık 30 cm uzunluğunda bir kütük haline getirin, uçlarını birleştirip halka oluşturun.",
    "Şekillendirilmiş halkaları temiz bir bezle örtüp 10 dakika dinlendirin.",
    "Derin bir tencerede kızartma yağını 170°C'ye kadar ısıtın.",
-   "Halkaları sıcak yağa koyup her iki tarafı altın rengi olana kadar yaklaşık 1-2 dakika kızartın.",
+   "Halkaları sıcak yağa koyup her iki tarafı yaklaşık 2-3 dakika, altın rengi olana ve içleri pişene kadar kızartın.",
    "Kızaran halkaları kağıt havluya alarak yağını süzdürün.",
    "Halkaları hâlâ sıcakken toz şekere bulayın ve kağıt külahlarda servis edin."
   ],
@@ -56,7 +56,7 @@
    "Divide the dough into 8 equal pieces. Roll each piece into a rope about 30 cm long, then join the ends to form a ring.",
    "Cover the shaped rings with a clean cloth and let them rest for 10 minutes.",
    "Heat the frying oil in a deep pot to 170°C.",
-   "Lower the rings into the hot oil and fry for about 1-2 minutes per side, until golden brown on both sides.",
+   "Lower the rings into the hot oil and fry for about 2-3 minutes per side, until deep golden brown and cooked through.",
    "Lift the fried rings out and drain them on paper towels to remove excess oil.",
    "Roll the rings in the caster sugar while still warm and serve them in paper cones."
   ]
@@ -65,5 +65,14 @@
   "tr": "Halkaları yağa koymadan önce dinlendirmek, kızartırken şekil bozulmadan kabarmalarını sağlar; yağ sıcaklığını 170°C'de sabit tutmak fazla yağ çekmelerini önler.",
   "en": "Resting the rings before frying helps them puff without losing shape, and keeping the oil steady at 170°C prevents them from absorbing too much grease."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 1-2 minutes per side is too short for a dense dough ring at 170°C, so the centre may stay raw. Changed to 2-3 minutes per side, until deep golden and cooked through (Turkish and English",
+   "The Turkish name is spelled 'Bambaluni' while the English name and native script point to 'Bambalouni'. Made the Turkish name match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

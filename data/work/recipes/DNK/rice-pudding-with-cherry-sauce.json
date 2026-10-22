@@ -9,7 +9,7 @@
   "en": "A cold, creamy rice pudding eaten in Denmark especially on Christmas Eve (juleaften). A whole almond is hidden in the pudding, and whoever finds it traditionally wins a small prize."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 195,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -58,7 +58,7 @@
    "Kiraz sosu için vişneleri, 80 g şekeri ve 150 ml suyu bir tencerede 8 dakika kaynatın.",
    "Nişasta ile 2 yemek kaşığı soğuk suyu pürüzsüz bir karışım haline getirin, kaynayan vişnelere dökerek sürekli karıştırın ve bir dakika daha kaynatın.",
    "Kiraz sosunu soğumaya bırakın.",
-   "Risalamandeyi servis kaselerine paylaştırın, üzerine kiraz sosunu gezdirin ve ayırdığınız bademleri serpin."
+   "Risalamandeyi servis kaselerine paylaştırın, üzerine kiraz sosunu gezdirin ve ayırdığınız bademleri serpin. Servisten önce misafirlere pudingin içinde bütün badem olduğunu hatırlatın."
   ],
   "en": [
    "Rinse the rice in cold water and drain it.",
@@ -79,5 +79,14 @@
   "tr": "Pudingin içindeki bütün bademi servisten önce misafirlere haber verin ki kimse yanlışlıkla ısırmasın; ayrıca pudingi tamamen soğutmadan krema eklemeyin, yoksa krema erir.",
   "en": "Chill the pudding fully before adding the cream, otherwise the whipped cream will deflate. Warn guests about the hidden whole almond before serving so no one bites down on it by surprise."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish final step omits the warning about the hidden whole almond that the English step includes, so the two versions disagree.",
+   "time_min is 60, but the recipe needs 40-45 minutes of simmering, at least 2 hours of chilling, and time to cool the sauce. The listed total is far too low."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

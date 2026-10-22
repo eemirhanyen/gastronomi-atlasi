@@ -59,15 +59,15 @@
  },
  "steps": {
   "tr": [
-   "Kuru kulak mantarını ve cam eriştey‍i ayrı ayrı ılık suda 20 dakika bekletin. Mantarları süzüp ince şeritler halinde doğrayın, eriştesini de 3-4 cm'lik parçalara kesin.",
+   "Kuru kulak mantarını ve cam eriştesini ayrı ayrı ılık suda 20 dakika bekletin. Mantarları süzüp ince şeritler halinde doğrayın, eriştesini de 3-4 cm'lik parçalara kesin.",
    "Büyük bir kapta kıymayı, rendelenmiş havucu, soğanı, sarımsağı, yumurtayı, balık sosunu, şekeri, tuzu ve karabiberi iyice yoğurun.",
    "Doğranmış mantarı ve kesilmiş eriştesini harca ekleyip elle homojen olana kadar karıştırın. Harcı 15 dakika buzdolabında dinlendirin.",
    "Çalışma tezgahına nemli bir bez serin. Bir pirinç kağıdını hafifçe ıslatıp bezin üzerine alın ve yumuşayana kadar 20-30 saniye bekletin.",
    "Yumuşayan kağıdın alt kenarına yaklaşık 1 yemek kaşığı harç koyun, kenarlarını içeri katlayıp sıkıca sarın. Rulonun uçlarını yapıştırmak için kalan suyla hafifçe ıslatılmış kenarları kullanın.",
    "Tüm rulo şekillerini tamamlayın ve tabağa aralarında boşluk bırakarak dizin.",
-   "Büyük bir tencerede yağı 175 °C'ye kadar ısıtın. Ruloları partiler halinde 5-6 dakika, altın rengi ve çıtır olana kadar kızartın.",
+   "Büyük bir tencerede yağı 175 °C'ye kadar ısıtın. Ruloları partiler halinde 7-8 dakika, altın rengi ve çıtır olana kadar kızartın. Kıyma tamamen pişmiş olmalıdır.",
    "Kızarmış ruloları kağıt havluya alıp yağını süzdürün.",
-   "Sos için sarımsağı, şekeri ve sıcak suyu karıştırıp şeker tamamen eriyene kadar bekletin. Limon suyu ve balık sosunu ekleyin, ince doğranmış biberi üzerine ilave edin.",
+   "Sos için sarımsağı, şekeri ve ılık suyu karıştırıp şeker tamamen eriyene kadar bekletin. Limon suyu ve balık sosunu ekleyin, ince doğranmış biberi üzerine ilave edin.",
    "Ruloları sıcak olarak, sosla birlikte servis edin."
   ],
   "en": [
@@ -77,7 +77,7 @@
    "Lay a damp cloth on your work surface. Dampen one rice paper sheet lightly, place it on the cloth and let it soften for 20-30 seconds.",
    "Place about 1 tablespoon of filling on the lower edge of the softened sheet. Fold in the sides and roll tightly, using the water to seal the edge.",
    "Shape the remaining rolls and arrange them on a plate with space between them.",
-   "Heat the oil in a deep pan to 175 °C. Fry the rolls in batches for 5-6 minutes, until golden and crisp.",
+   "Heat the oil in a deep pan to 175 °C. Fry the rolls in batches for 7-8 minutes, until golden and crisp. The pork filling must be fully cooked.",
    "Lift the fried rolls out and drain them on kitchen paper.",
    "For the sauce, dissolve the sugar in the warm water, then stir in the crushed garlic, lime juice and fish sauce. Top with the finely chopped chilli.",
    "Serve the rolls hot with the dipping sauce."
@@ -87,5 +87,15 @@
   "tr": "Rulo sararken pirinç kağıdını fazla ıslatmayın; aşırı nemli kağıt yırtılır ve kızartmada yağ sıçramasına neden olur.",
   "en": "Do not over-soak the rice paper, as it tears easily and can release moisture that causes oil to splatter while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 contains a garbled word ('eriştey‍i' with a stray zero-width character); it should read 'eriştesini'.",
+   "Turkish sauce step says 'sıcak suyu' (hot water), but the ingredient list and English version specify warm water ('ılık su'/'warm water').",
+   "The filling contains raw ground pork, and frying for only 5-6 minutes may not bring the filling to a safe internal temperature (71 °C). Frying time should be extended."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,11 +5,11 @@
  },
  "native": "Айраг",
  "desc": {
-  "tr": "Moğolistan'ın göçebe geleneğinde kısrak sütünün mayalanmasıyla yapılan, hafif ekşi ve köpüklü bir içecektir. Özellikle yaz aylarında, Naadam gibi bayram ve festivallerde misafirlere ikram edilir.",
-  "en": "A lightly sour, slightly fizzy drink made by fermenting mare's milk. It is a traditional summer drink of Mongolia's nomadic herders and is served to guests at festivals such as Naadam."
+  "tr": "Moğolistan'ın göçebe geleneğinde kısrak sütünün mayalanmasıyla yapılan, hafif ekşi ve köpüklü bir içecektir. Geleneksel olarak kısrak sütüyle hazırlanır; bu tarifte kolay bulunan inek sütü kullanılmıştır. Özellikle yaz aylarında, Naadam gibi bayram ve festivallerde misafirlere ikram edilir.",
+  "en": "A lightly sour, slightly fizzy drink made by fermenting mare's milk. It is a traditional summer drink of Mongolia's nomadic herders and is served to guests at festivals such as Naadam. Traditionally made with mare's milk; this recipe uses readily available cow's milk."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 2280,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -51,5 +51,14 @@
   "tr": "Fermantasyon sıcaklığı ne kadar sabit olursa sonuç o kadar tutarlı olur; mayalanma süresini tadınıza göre kısaltıp uzatabilirsiniz, ancak kokusu bozulursa içmeyin.",
   "en": "Keep the fermentation temperature steady for consistent results; shorten or extend the time to suit your taste, but discard the batch if it smells rotten or off."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe includes 24–36 hours of fermentation plus 1–2 hours of chilling, so the total time is badly understated.",
+   "The description says airag is made from mare's milk, while the recipe uses cow's milk. The ingredient line notes this, but the description should also state that cow's milk is a substitute."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

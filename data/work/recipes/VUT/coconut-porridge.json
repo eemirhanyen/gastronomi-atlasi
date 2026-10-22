@@ -51,7 +51,15 @@
  },
  "tip": {
   "tr": "Hindistancevizi sütü dibe yapışıp yanabileceği için son aşamada sürekli karıştırın; kıvamı ayarlamak için sıcak su yerine ilave sıcak hindistancevizi sütü de kullanabilirsiniz.",
-  "en": "Coconut milk can scorch on the bottom of the pot, so stir constantly during the last 10 minutes. For extra richness, finish each bowl with a spoonful of coconut milk."
+  "en": "Coconut milk can scorch on the bottom of the pot, so stir constantly during the last 10 minutes. To adjust the consistency, you can use extra hot coconut milk instead of hot water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish and English tips disagree: the Turkish tip suggests thinning with extra hot coconut milk, while the English tip suggests finishing each bowl with a spoonful of coconut milk and does not me"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

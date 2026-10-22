@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "1 adet Çin lahanası (yaklaşık 1,2 kg)",
-   "60 g iri deniz tuzu",
+   "35 g iri deniz tuzu",
    "150 g daikon turpu, çubuk şeklinde doğranmış",
    "4 adet yeşil soğan, 5 cm uzunluğunda kesilmiş",
    "80 g havuç, julyen doğranmış",
@@ -29,7 +29,7 @@
   ],
   "en": [
    "1 napa cabbage (about 1.2 kg)",
-   "60 g coarse sea salt",
+   "35 g coarse sea salt",
    "150 g daikon radish, cut into matchsticks",
    "4 spring onions, cut into 5 cm pieces",
    "80 g carrot, cut into julienne",
@@ -49,9 +49,9 @@
    "Yaprakların arasına deniz tuzunu serpin ve lahanayı büyük bir kaba yerleştirin. Yarım saat sonra bir kez çevirin ve yaklaşık 2 ila 3 saat bekletin; yapraklar kırılmadan bükülebilecek kadar yumuşayınca hazırdır.",
    "Lahanayı üç kez soğuk suyla durulayıp iyice süzün. Yaklaşık 30 dakika süzgeçte bekletin.",
    "Küçük bir tencerede pirinç unu ile 150 ml suyu karıştırın. Sürekli karıştırarak orta ateşte 3 dakika pişirin, lapa kıvamına gelince tamamen soğutun.",
-   "Blenderda armudu, sarımsağı, zencefili, şekeri, balık sosunu, pul biberi ve soğumuş pirinç lapasını pürüzsüz bir macun elde edene kadar karıştırın.",
-   "Daikon turpunu, yeşil soğanı ve havucu büyük bir kapta birbirine karıştırın. Pul biber macununun yarısını ekleyip hafifçe harmanlayın.",
-   "Eldiven takarak her lahana yaprağına ve iç kısımlarına macunu dikkatle sürün. Yaprakları ufak bir sarma gibi katlayıp temiz bir kavanoza sıkıca yerleştirin.",
+   "Blender'da armudu, sarımsağı, zencefili, şekeri, balık sosunu, pul biberi ve soğumuş pirinç lapasını pürüzsüz bir macun elde edene kadar karıştırın.",
+   "Daikon turpunu, yeşil soğanı ve havucu büyük bir kapta birbirine karıştırın. Pul biber macununun tamamını ekleyip hafifçe harmanlayın.",
+   "Eldiven takarak her lahana yaprağının ve iç kısımlarının arasına bu karışımı dikkatle yayın. Yaprakları ufak bir sarma gibi katlayıp temiz bir kavanoza sıkıca yerleştirin.",
    "Kavanozun üstünü kapatıp oda sıcaklığında (20 ila 22 °C) 1 ila 2 gün bekletin. Her gün sıvı seviyesini kontrol edin ve havayı almak için bastırın. Ardından buzdolabına kaldırın ve 3 ila 5 gün içinde olgunlaşınca servis yapın."
   ],
   "en": [
@@ -60,14 +60,24 @@
    "Rinse the cabbage three times in cold water, then drain well. Leave it in a colander for about 30 minutes.",
    "In a small pan, whisk the rice flour with 150 ml water. Cook over medium heat for 3 minutes, stirring constantly, until it becomes a thin porridge. Cool completely.",
    "In a blender, combine the pear, garlic, ginger, sugar, fish sauce, gochugaru and cooled porridge until smooth.",
-   "In a large bowl, toss the daikon, spring onions and carrot together. Add half of the chili paste and mix lightly.",
-   "Wearing gloves, rub the paste onto each cabbage leaf, including the inner layers. Fold the leaves back into shape and pack them tightly into a clean jar.",
+   "In a large bowl, toss the daikon, spring onions and carrot together. Add all of the chili paste and mix lightly.",
+   "Wearing gloves, spread the mixture between each cabbage leaf and into the inner layers. Fold the leaves back into shape and pack them tightly into a clean jar.",
    "Seal the jar and leave at room temperature (20 to 22 °C) for 1 to 2 days. Check daily and press down to release gas. Then refrigerate and serve after 3 to 5 days, once it has matured."
   ]
  },
  "tip": {
   "tr": "Lahanayı tuzlarken yaprakların sapları tam yumuşamamalı; kısa süre bekletilen lahana fermentasyon sırasında çıtırlığını korur.",
-  "en": "Keep the cabbage stems slightly firm when salting; slightly underсalted leaves stay crisp through fermentation."
+  "en": "Keep the cabbage stems slightly firm when salting; slightly undersalted leaves stay crisp through fermentation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Half of the pepper paste is added in step 6 and the rest is never used. The daikon, spring onion and carrot mixture is also never placed into the cabbage in step 7.",
+   "60 g of salt for about 1.2 kg of cabbage is about 5%, which is too salty for baek kimchi. A typical brine is about 2 to 3%.",
+   "English tip contains a Cyrillic 'с' in 'undersalted', a typo."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

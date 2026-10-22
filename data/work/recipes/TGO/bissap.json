@@ -9,7 +9,7 @@
   "en": "A tart-sweet drink made from hibiscus flowers. In Togo and across West Africa it is served cold, especially on hot days, at visits and at celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Hibiskusu fazla uzun demlemeyin; aşırı demlenmiş bisap acılaşır. Tadını servis öncesi limon suyu ile ayarlayabilirsiniz.",
   "en": "Do not over-steep the hibiscus or the drink becomes bitter. Adjust the flavour before serving with a little lime juice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is understated: the steps alone require 20-25 minutes of steeping plus at least 1 hour of chilling, so the total is about 90 minutes or more."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

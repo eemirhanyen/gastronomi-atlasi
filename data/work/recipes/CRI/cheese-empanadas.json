@@ -36,20 +36,20 @@
    "Büyük bir kapta mısır unu, tuzu ve şekeri karıştırın.",
    "Ilık suyu ve eritilmiş tereyağını ekleyip yumuşak, yapışmayan bir hamur elde edene kadar 5 dakika yoğurun.",
    "Hamuru örtüp 10 dakika dinlendirin.",
-   "Hamuru 8 eşit topa bölün, her topu 50 g olacak şekilde ayarlayın.",
+   "Hamuru 8 eşit topa bölün, her topu yaklaşık 75 g olacak şekilde ayarlayın.",
    "İki parça plastik streç veya yağlı kağıt arasına bir top hamur koyup 12 cm çapında ince bir daire açın.",
    "Dairenin bir yarısına yaklaşık 25 g rendelenmiş peyniri yerleştirin, kenarları bırakın.",
    "Hamuru ikiye katlayıp kenarlarını çatalla sıkıca bastırarak kapatın.",
    "Kalan hamur ve peynirle aynı işlemi tekrarlayın.",
    "Sıvı yağı derin bir tencerede 180 °C'ye kadar ısıtın.",
-   "Empanadaları 3 ila 4 dakika, her iki yüzü altın rengi olana kadar kızartın.",
+   "Empanadaları 3 ila 4 dakika, bir kez çevirerek, her iki yüzü altın rengi olana kadar kızartın.",
    "Kağıt havlu üzerinde süzün ve sıcak servis yapın."
   ],
   "en": [
    "In a large bowl, mix the corn flour, salt, and sugar.",
    "Add the warm water and melted butter, then knead for 5 minutes until you have a soft dough that does not stick.",
    "Cover the dough and let it rest for 10 minutes.",
-   "Divide the dough into 8 equal pieces, about 50 g each, and roll each into a ball.",
+   "Divide the dough into 8 equal pieces, about 75 g each, and roll each into a ball.",
    "Place one ball between two sheets of plastic wrap or baking paper and press it into a 12 cm round disc.",
    "Spoon about 25 g of grated cheese onto one half of the disc, leaving a border around the edge.",
    "Fold the dough over the cheese into a half-moon and seal the edges firmly with a fork.",
@@ -63,5 +63,14 @@
   "tr": "Peynirin erimesi için empanadaları sıcak servis yapın; hamurun çatlamaması için kenarları iyice kapatın.",
   "en": "Serve them hot so the cheese stays soft; seal the edges well so the filling does not leak into the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough quantities don't add up: 250 g masa harina + 320 ml water + 30 g butter is about 600 g of dough, but the 8 balls are specified at 50 g each (400 g total).",
+   "The Turkish frying step omits the 'turning once' instruction that appears in the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

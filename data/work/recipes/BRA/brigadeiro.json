@@ -17,7 +17,7 @@
    "20 g şekersiz kakao tozu",
    "15 g tereyağı",
    "50 g çikolatalı şeker serpintisi (granül)",
-   "Yuvarlamak için az miktar tereyağı"
+   "Yağlamak için az miktar tereyağı"
   ],
   "en": [
    "395 g sweetened condensed milk (1 can)",
@@ -49,5 +49,13 @@
   "tr": "Karışımı tencerede pişirirken kesinlikle ocaktan uzaklaşmayın; dibi kolayca tutabilir. Ellerinize tereyağı sürmek topların yapışmasını önler.",
   "en": "Never leave the pan unattended while cooking, as the mixture scorches easily. Greasing your hands with butter stops the balls from sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish ingredient note says the butter is for rolling (\"Yuvarlamak için\"), but the English says it is for greasing. The steps use it for greasing both the plate and the hands, so the English word"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A sweet, chilled drink made from dates, rose water and orange blossom water, served over ice. It is popular in Lebanon and Syria in summer, during Ramadan iftars and when guests visit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Hurmanın tadı ve kıvamı değiştiğinden, çok ince süzmek için sıkılan posayı atmak yerine elenmiş ince bir kaba alıp tekrar süzebilirsiniz.",
+  "tr": "Daha pürüzsüz bir içecek için, ilk süzmeden sonra calabı ince bir elekten ikinci kez süzün; hurma posası kumsu bir doku bırakabilir.",
   "en": "For a smoother drink, strain the jallab a second time through a fine sieve after the first straining, as the date pulp can leave a gritty texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the recipe includes a 1-hour soak, 10 minutes of simmering, cooling, and at least 1 hour of chilling, so the total is about 2.5 hours",
+   "Turkish tip contradicts the English tip: the English says to strain the jallab a second time through a fine sieve, but the Turkish says to re-strain the squeezed pulp instead of discarding it. The Tur"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

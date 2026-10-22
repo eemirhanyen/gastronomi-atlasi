@@ -9,7 +9,7 @@
   "en": "A staple of Tunisian family tables, this couscous is served with a tomato-based stew of lamb and seasonal vegetables. It is especially common at Friday lunches, weekend gatherings and festive occasions."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -64,7 +64,7 @@
    "Büyük bir tencerede zeytinyağını orta-yüksek ateşte ısıtın. Kuzu etini her tarafı kahverengileşene kadar yaklaşık 8 dakika soteleyin, bir tabağa alın.",
    "Aynı yağda soğanları yumuşayıp hafifçe renk alana kadar 6-7 dakika kavurun.",
    "Domates salçasını ekleyip 2 dakika karıştırarak kavurun. Rendelenmiş domatesleri, kimyonu, tatlı kırmızı biberi, tarçını, karabiberi ve safranı ekleyin, 5 dakika pişirin.",
-   "Eti tencereye geri koyun, tuzu ve sıcak suyu ilave edin. Kaynayınca ateşi kısın, kapağı yarı açık bırakarak et yumuşayana kadar yaklaşık 45 dakika pişirin.",
+   "Eti tencereye geri koyun, tuzu ve sıcak suyu ilave edin. Kaynayınca ateşi kısın, kapağı yarı açık bırakarak et yumuşayana kadar yaklaşık 90 dakika pişirin.",
    "Havuç ve şalgamı tencereye ekleyip 15 dakika daha pişirin. Ardından nohut ve kabağı ekleyin, sebzeler yumuşayana kadar yaklaşık 10-12 dakika pişirin. Gerekirse tuzunu ayarlayın.",
    "Kuskusu geniş bir kaseye alın. Üzerine soğuk suyu serpip elinizle ovalayarak taneleri nemlendirin, birkaç dakika dinlendirin.",
    "Buharlı kuskus kazanının üstüne veya bez serili bir süzgece nemli kuskusu yayın. Kazandaki et suyunun buharıyla yaklaşık 15 dakika buharda pişirin.",
@@ -75,7 +75,7 @@
    "In a large pot, heat the olive oil over medium-high heat. Brown the lamb pieces on all sides for about 8 minutes, then transfer to a plate.",
    "In the same oil, fry the onions for 6-7 minutes until soft and lightly golden.",
    "Stir in the tomato paste and fry for 2 minutes. Add the grated tomatoes, cumin, paprika, cinnamon, black pepper and saffron, then cook for 5 minutes.",
-   "Return the lamb to the pot, add the salt and hot water. Bring to a boil, then reduce the heat, partly cover and simmer for about 45 minutes until the meat is tender.",
+   "Return the lamb to the pot, add the salt and hot water. Bring to a boil, then reduce the heat, partly cover and simmer for about 90 minutes until the meat is tender.",
    "Add the carrots and turnips and cook for 15 minutes more. Then add the chickpeas and courgette and cook for another 10-12 minutes until the vegetables are soft. Adjust the salt if needed.",
    "Put the couscous in a wide bowl. Sprinkle with the cold water, rub the grains between your hands to moisten them evenly, and let them rest for a few minutes.",
    "Spread the moistened couscous over the top of a steamer or a cloth-lined sieve set over the simmering stew. Steam for about 15 minutes.",
@@ -87,5 +87,13 @@
   "tr": "Kuskusu iki kez buharda pişirmek, taneleri yumuşak ve ayrık tutar. Harissayı sofrada ayrı bir kâsede servis edip her kişinin acılık ayarını kendisinin yapmasına izin verin.",
   "en": "Steaming the couscous twice keeps the grains light and separate. Serve harissa in a small bowl on the side so everyone can adjust the heat to their taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Stew simmer time (about 45 minutes) is too short for bone-in lamb shoulder to become tender. Braising usually needs about 90 minutes, so the total time of 120 minutes is also too low. The Turkish and "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

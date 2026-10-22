@@ -57,17 +57,17 @@
  },
  "steps": {
   "tr": [
-   "Galetaununu sütün içinde 5 dakika bekletin.",
+   "Galeta ununu sütün içinde 5 dakika bekletin.",
    "Büyük bir kapta kıymaları, rendelenmiş soğanı, yumurtayı, süte bulanmış galetayı, tuzu ve karabiberi 2 dakika yoğurarak homojen bir karışım elde edin.",
    "Karışımdan yaklaşık 25 g'lık, 24 adet küçük köfte şekillendirin.",
    "Geniş bir tavada yağı ısıtın ve köfteleri 2-3 partide, her yüzü 6-8 dakika kızartarak iç sıcaklığı 70°C olana kadar pişirin. Köfteleri bir kenara alın.",
    "Pirinci yıkayıp 500 ml suyla bir tencereye koyun. Kaynayınca ateşi kısın, kapağını kapatıp 15 dakika pişirin ve dinlendirin.",
    "Aynı tavadaki yağı biraz boşaltın, tereyağını ekleyip ince doğranmış soğanı yumuşayana kadar 5 dakika kavurun.",
    "Köri tozunu ekleyip 1 dakika kavurun, ardından unu serpip 1 dakika daha karıştırın.",
-   "Sıcak sütü ayrı bir yerden değil, dana veya sığır suyunu azar azar ekleyip çırpın; pürüzsüz bir sos elde edin.",
+   "Dana veya sığır suyunu azar azar ekleyip çırpın; pürüzsüz bir sos elde edin.",
    "Rendelenmiş elmayı ve şekeri ekleyip kısık ateşte 10 dakika pişirin.",
    "Kremayı ekleyin, tuz ve karabiberle tadını ayarlayın, köfteleri sosa alıp 5 dakika ısıtın.",
-   "Pirinci köfte soslu servis edin."
+   "Köfteleri soslu, pirinçle birlikte sıcak servis edin."
   ],
   "en": [
    "Soak the breadcrumbs in the milk for 5 minutes.",
@@ -87,5 +87,15 @@
   "tr": "Köfteleri kızartırken tavayı çok doldurmayın; aksi halde buharda pişip dış yüzeyleri renk almaz.",
   "en": "Do not crowd the pan when browning the meatballs, or they will steam instead of developing a good brown crust."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a typo: \"Galetaununu\" should be \"Galeta ununu\".",
+   "Turkish step 8 is garbled: \"Sıcak sütü ayrı bir yerden değil...\" mentions milk, which is not part of the sauce, and does not match the English step, which only says to whisk in the beef stock.",
+   "Turkish step 10 is unnatural and unclear (\"Pirinci köfte soslu servis edin\"). It should say to serve the meatballs in sauce with rice, as the English does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

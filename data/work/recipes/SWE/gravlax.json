@@ -18,7 +18,7 @@
    "60 g toz şeker",
    "2 g ezilmiş beyaz biber",
    "1 büyük demet dereotu (yaklaşık 30 g)",
-   "15 ml akvavit veya rakı (isteğe bağlı)",
+   "15 ml akvavit veya votka (isteğe bağlı)",
    "8 dilim çavdar ekmeği",
    "Sos için: 30 g Dijon hardalı",
    "15 g toz şeker",
@@ -75,5 +75,13 @@
   "tr": "Bu yemek çiğ balık içerdiği için yalnızca çiğ tüketime uygun, taze veya dondurulmuş somon kullanın; sağlık güvencesi için balığı servisten önce -20 °C'de en az 24 saat dondurun.",
   "en": "Since this dish uses raw fish, buy salmon labelled as suitable for raw consumption, or freeze it at -20 °C for at least 24 hours first."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'akvavit veya rakı' but the English says 'aquavit or vodka'. Rakı is an anise spirit, not vodka, so the substitute doesn't match between the two versions. Turkish changed to '"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

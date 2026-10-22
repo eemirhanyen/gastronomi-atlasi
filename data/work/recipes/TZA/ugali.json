@@ -30,7 +30,7 @@
    "Kalan unu yavaş yavaş ekleyip tahta kaşıkla karıştırmaya devam edin.",
    "Ara ara tencere kenarlarını sıyırarak 10-15 dakika pişirin; karışım kenarlardan ayrılıp sert, pürüzsüz bir hamur kıvamına gelene kadar devam edin.",
    "Tencerenin kapağını kapatıp ocağı en kısık ateşe alın ve 5 dakika buharda pişirin.",
-   "Tencereyi ocaktan alın. Bir kaseyi veya kaşığı soğuk suya batırıp ıslatın, ugaliyi tencereden çıkarıp elinizle ya da kaseyle şekil verin ve sıcak sıcak servis yapın."
+   "Tencereyi ocaktan alın. Bir kaseyi veya ellerinizi soğuk suyla ıslatın, ugaliyi tencereden çıkarıp elinizle ya da kaseyle şekil verin ve sıcak sıcak servis yapın."
   ],
   "en": [
    "In a medium heavy-bottomed pot, bring the water and salt to a rolling boil.",
@@ -45,5 +45,13 @@
   "tr": "Unu suya eklerken sürekli karıştırın; topaklanmayı önlemek için un ince elenmiş olmalıdır. Elinizi soğuk suyla ıslatmak, sıcak ugaliyi yaparken yapışmasını engeller.",
   "en": "Keep stirring while adding the flour and use finely sifted meal to prevent lumps. Wetting your hands with cold water stops the hot ugali from sticking while you shape it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to wet a bowl or a spoon, but the English step says a bowl or your hands, and the Turkish tip mentions hands. The wetting tool doesn't match between versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

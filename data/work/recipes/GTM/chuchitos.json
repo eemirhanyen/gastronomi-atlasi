@@ -17,7 +17,8 @@
    "500 g instant mısır unu (masa harina)",
    "150 g domuz yağı veya tereyağı, oda sıcaklığında",
    "350 ml sıcak tavuk suyu (aşağıdaki pişirme suyundan)",
-   "1 tatlı kaşığı tuz (yaklaşık 6 g), hamur ve sos için bölünmüş",
+   "1 tatlı kaşığı tuz (yaklaşık 6 g), tavuk ve sos için",
+   "1 tatlı kaşığı tuz (yaklaşık 6 g), hamur için",
    "400 g kemiksiz tavuk but eti",
    "1/2 orta boy soğan (yaklaşık 60 g), pişirme için",
    "2 diş sarımsak",
@@ -33,7 +34,8 @@
    "500 g instant corn masa flour (masa harina)",
    "150 g lard or unsalted butter, at room temperature",
    "350 ml warm chicken stock (from the cooking liquid below)",
-   "1 tsp salt (about 6 g), divided",
+   "1 tsp salt (about 6 g), for the chicken and sauce",
+   "1 tsp salt (about 6 g), for the masa",
    "400 g boneless chicken thighs",
    "1/2 medium onion (about 60 g), for cooking the chicken",
    "2 garlic cloves",
@@ -75,5 +77,13 @@
   "tr": "Hamurun kıvamını doğru ayarlamak için her parti hamur yapmadan önce bir parça hamuru su dolu bardağa bırakın; yüzüyorsa buharda pişerken sert olmaz.",
   "en": "To check the masa, drop a small piece into a glass of water before assembling; if it floats, it will steam up light and tender rather than dense."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is inconsistent: the ingredient list gives 1 tsp total 'divided', but the steps use half a tsp for the chicken, the remaining half for the sauce, and 1 tsp for the masa (2 tsp total). Turkish and"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

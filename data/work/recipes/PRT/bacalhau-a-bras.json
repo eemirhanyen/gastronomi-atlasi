@@ -5,7 +5,7 @@
  },
  "native": "Bacalhau à Brás",
  "desc": {
-  "tr": "Lizbon'da ve Portekiz'in her yanında yaygın olan bu yemek, tuzlu morina balığının soğan, kıtır patates ve çırpılmış yumurtayla karıştırılmasıyla hazırlanır. Genellikle öğle ve akşam yemeklerinde, ekmekle ve yeşil zeytinle servis edilir.",
+  "tr": "Lizbon'da ve Portekiz'in her yanında yaygın olan bu yemek, tuzlu morina balığının soğan, kıtır patates ve çırpılmış yumurtayla karıştırılmasıyla hazırlanır. Genellikle öğle ve akşam yemeklerinde, ekmekle ve siyah zeytinle servis edilir.",
   "en": "A classic Lisbon dish found across Portugal, made by combining shredded salt cod with onions, crisp matchstick potatoes and soft scrambled eggs. It is typically served at lunch or dinner, with olives and parsley."
  },
  "servings": 4,
@@ -73,5 +73,13 @@
   "tr": "Morinayı çok uzun haşlamayın; lifler dağılmaya başlayınca hemen çıkarın, yoksa kuru ve sert olur. Patatesleri servisten hemen önce kızartın ki kıtır kalsın.",
   "en": "Do not overcook the cod; remove it as soon as the flesh flakes, or it becomes dry and tough. Fry the potatoes just before serving so they stay crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dish is served with green olives (\"yeşil zeytin\"), but the ingredients and steps use black olives (\"siyah zeytin\") and the English description does not mention green olive"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

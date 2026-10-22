@@ -53,7 +53,7 @@
    "Tavukları fırından alın, 5 dakika dinlendirin ve ardından ısırık boyutunda küçük parçalara ayırın.",
    "Chiura'yı soğuk suda kısaca yıkayın, süzün ve 2 dakika bekletin. Kağıt havluyla hafifçe kurulayın.",
    "Küçük bir tavada kalan 2 yemek kaşığı hardal yağını dumanlanana kadar ısıtın, ardından bir dakika soğumaya bırakın.",
-   "Kırmızı soğanı, yeşil biberi, kişnişi ve limon suyunu geniş bir kaseye alın. Üzerine sıcak ama dumanı çıkmış yağı dökün ve karıştırın.",
+   "Kırmızı soğanı, yeşil biberi, kişnişi ve limon suyunu geniş bir kaseye alın. Üzerine sıcak yağı dökün ve karıştırın.",
    "Pişmiş tavuk parçalarını kaseye ekleyin, tuzunu kontrol edin ve iyice karıştırın. Chiura ile birlikte servis yapın."
   ],
   "en": [
@@ -63,13 +63,22 @@
    "Remove the chicken from the oven, rest for 5 minutes, then cut into small bite-sized pieces.",
    "Rinse the chiura quickly in cold water, drain, and let it sit for 2 minutes. Pat it lightly dry with a towel.",
    "Heat the remaining 2 tbsp of mustard oil in a small pan until it just starts to smoke, then let it cool for one minute.",
-   "Place the red onion, green chilies, coriander and lemon juice in a large bowl. Pour the hot (but not smoking) oil over them and stir.",
+   "Place the red onion, green chilies, coriander and lemon juice in a large bowl. Pour the hot oil over them and stir.",
    "Add the cooked chicken to the bowl, adjust the salt to taste and mix well. Serve with the chiura."
   ]
  },
  "tip": {
-  "tr": "Hardal yağını mutlaka duman çıkana kadar ısıtın; bu, Choila'ya karakteristik keskin aromayı verir. Yağı soğutmadan kullanırsanız acılık fazla olabilir.",
+  "tr": "Hardal yağını mutlaka duman çıkana kadar ısıtın; bu, yağın sert, çiğ tadını yumuşatır ve Choila'ya karakteristik aromayı verir. Yağı bir dakika soğuttuktan sonra dökün; böylece soğan ve biber çok çabuk solmaz.",
   "en": "Heat the mustard oil until it smokes to mellow its sharp raw taste and bring out its characteristic aroma. Let it cool for a minute before pouring so the onion and chili don't wilt too quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 contradicts itself: the Turkish says to pour oil that 'dumanı çıkmış' (has begun smoking), but the English says 'hot (but not smoking)'. Step 6 has the oil cool for a minute, so the wording sho",
+   "The tip gives different reasons in each language. The Turkish says that not cooling the oil makes it too pungent, while the English says cooling prevents the onion and chili from wilting. The Turkish "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

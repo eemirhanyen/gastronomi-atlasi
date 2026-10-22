@@ -9,7 +9,7 @@
   "en": "A sweet-sour, lightly spiced pickle of mixed vegetables served alongside main dishes in Brunei. It is common at festive gatherings and family meals, often topped with crushed roasted peanuts."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Sebzeleri tuzla bekletip iyice sıkmak fazla suyu alır ve turşunun çıtır kalmasını sağlar; fıstığı servis anına kadar eklemeyin ki nemlenmesin.",
   "en": "Salting and squeezing the vegetables removes excess water so the acar stays crisp; add the peanuts just before serving so they do not go soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not cover the required steps: 30 min salting plus at least 2 h resting, plus cooking and cooling, so the total is about 3 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

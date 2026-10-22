@@ -35,7 +35,7 @@
    "Kaşık yardımıyla meyvelerin bir kısmını ezin; kıvam için bütün meyvelerin de birkaç tanesini sosta bırakın.",
    "Küçük bir kasede patates nişastasını 2 yemek kaşığı soğuk suyla pürüzsüz olana kadar karıştırın.",
    "Nişasta karışımını tencereye ekleyin ve sürekli karıştırarak 1-2 dakika daha pişirin, sos hafifçe koyulaşıp parlak bir kıvam alana kadar devam edin.",
-   "Ocaktan alın, sıcak ya da soğumaya bırakarak oda sıcaklığında servis edin."
+   "Ocaktan alın; sıcak servis edebilir ya da oda sıcaklığına gelene kadar soğumaya bırakabilirsiniz."
   ],
   "en": [
    "Rinse the lingonberries in cold water, drain them and remove any stalks.",
@@ -48,8 +48,17 @@
   ]
  },
  "tip": {
-  "tr": "Dondurulmuş yaban mersinleri de aynı lezzeti verir; sosu bol sıcak lihapulla ile servis edin.",
+  "tr": "Dondurulmuş yaban mersinleri de aynı lezzeti verir; sosu bol sıcak lihapulla ve patates püresiyle servis edin.",
   "en": "Frozen lingonberries work just as well; serve the sauce with hot meatballs and mashed potatoes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits 'mashed potatoes' (patates püresi), which the English tip includes, so the two versions disagree.",
+   "Turkish final step 'sıcak ya da soğumaya bırakarak oda sıcaklığında servis edin' is awkward and reads as contradictory; it should say serve warm or let it cool to room temperature."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

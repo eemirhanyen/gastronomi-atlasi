@@ -14,13 +14,13 @@
  "ingredients": {
   "tr": [
    "30 ml zeytinyağı",
-   "50 g pastırma veya füme domuz pastırması, küp doğranmış",
+   "50 g pancetta veya füme domuz pastırması, küp doğranmış",
    "1 küçük soğan (yaklaşık 100 g), ince doğranmış",
    "1 havuç (yaklaşık 80 g), küçük küp doğranmış",
    "1 kereviz sapı (yaklaşık 60 g), küçük küp doğranmış",
    "2 diş sarımsak, ezilmiş",
    "15 g domates salçası",
-   "2 kutu (her biri 400 g) kuru süzülmüş kuru fasulye (cannellini), süzülüp yıkanmış",
+   "2 kutu (her biri 400 g) konserve cannellini fasulyesi, süzülüp yıkanmış",
    "1 litre sebze suyu, sıcak",
    "1 defne yaprağı",
    "120 g ditalini veya küçük boy makarna",
@@ -51,7 +51,7 @@
    "Soğanı, havucu ve kereviz sapını ekleyin. Sebzeler yumuşayana ve soğan şeffaflaşana kadar yaklaşık 8 dakika kısık ateşte pişirin.",
    "Sarımsağı ve domates salçasını ekleyip sürekli karıştırarak 1 dakika kavurun.",
    "Fasulyelerin yarısını alın, sıcak sebze suyunun 300 ml'sini ekleyip çatalla ezin ya da kısa süre blenderdan geçirerek kremamsı bir karışım elde edin.",
-   "Kalan sebze suyunu, defne yaprağını ve bütün fasulyeleri tencereye ekleyin. Karıştırıp kaynatın, ardından ateşi kısıp 15 dakika hafifçe kaynatın.",
+   "Kalan sebze suyunu, defne yaprağını ve geri kalan bütün fasulyeleri tencereye ekleyin. Karıştırıp kaynatın, ardından ateşi kısıp 15 dakika hafifçe kaynatın.",
    "Makarnayı ekleyin ve ara sıra karıştırarak al dente kıvamına gelene kadar 8 ila 10 dakika pişirin. Makarna suyu çekerse biraz sıcak su ekleyin.",
    "Defne yaprağını çıkarın. Tuz ve karabiberle tatlandırın, ardından ocaktan alıp 2 dakika dinlendirin.",
    "Çorbayı kâselere paylaştırın. Üzerine maydanoz ve Parmigiano Reggiano serpin, birkaç damla zeytinyağı gezdirip sıcak servis yapın."
@@ -61,7 +61,7 @@
    "Add the onion, carrot and celery. Cook gently for about 8 minutes, until the vegetables have softened and the onion is translucent.",
    "Stir in the garlic and tomato paste and fry for 1 minute, stirring constantly.",
    "Take half of the beans, add 300 ml of the hot stock and mash with a fork or blend briefly until creamy.",
-   "Add the remaining stock, the bay leaf and the whole beans to the pot. Bring to the boil, then lower the heat and simmer gently for 15 minutes.",
+   "Add the remaining stock, the bay leaf and the remaining whole beans to the pot. Bring to the boil, then lower the heat and simmer gently for 15 minutes.",
    "Add the pasta and cook for 8 to 10 minutes, stirring now and then, until al dente. If the soup thickens too much, add a little hot water.",
    "Remove the bay leaf. Season with salt and black pepper, then take the pot off the heat and rest for 2 minutes.",
    "Ladle the soup into bowls. Scatter over the parsley and Parmigiano Reggiano, add a drizzle of olive oil, and serve hot."
@@ -71,5 +71,15 @@
   "tr": "Makarna kıvamı sürekli artırdığı için çorbayı servis anında ayarlayın; fazla kalırsa sıcak su ekleyerek kıvamını düzeltin.",
   "en": "Pasta keeps absorbing liquid as the soup stands, so add hot stock or water just before serving to loosen it to the right consistency."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says the canned beans are 'kuru' (dry) and 'kuru süzülmüş', which contradicts the English 'cans, drained and rinsed'.",
+   "Turkish 'pastırma' normally means beef pastrami, not pancetta. The Turkish ingredient should say 'pancetta' or 'domuz pastırması' to match the English.",
+   "Step 5 says to add 'all whole beans' (EN: 'the whole beans'), but half the beans were already mashed in step 4. It should say the remaining whole beans, to avoid double-counting and to match the inten"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

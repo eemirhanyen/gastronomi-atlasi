@@ -18,7 +18,7 @@
    "5 g tuz",
    "50 g soğuk tereyağı, küp doğranmış",
    "150 ml su (gerekirse biraz fazla)",
-   "500 g mumlu olmayan patates, soyulmuş ve küp doğranmış",
+   "500 g unlu patates, soyulmuş ve küp doğranmış",
    "2 yemek kaşığı (30 ml) bitkisel yağ, + kızartmak için 500 ml yağ",
    "1 küçük soğan (yaklaşık 80 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -35,7 +35,7 @@
    "5 g salt",
    "50 g cold butter, cut into cubes",
    "150 ml water (a little more if needed)",
-   "500 g waxy-free potatoes, peeled and cut into cubes",
+   "500 g floury potatoes, peeled and cut into cubes",
    "2 tbsp (30 ml) vegetable oil, plus 500 ml oil for frying",
    "1 small onion (about 80 g), finely chopped",
    "2 garlic cloves, crushed",
@@ -57,7 +57,7 @@
    "Suyu azar azar ekleyip yumuşak, yapışmayan bir hamur yoğurun. Üzerini örtüp 15 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı yaklaşık 12 cm çapında ince bir daire halinde açın.",
    "Her daireye 2-3 yemek kaşığı dolgu koyun, yarısını kapatarak yarım ay şekli verin. Kenarlarını çatalla sıkıca bastırarak kapatın.",
-   "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın. Böreklerı partiler halinde, her iki yüzü altın renge dönene kadar yaklaşık 3-4 dakika kızartın.",
+   "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın. Börekleri partiler halinde, her iki yüzü altın renge dönene kadar yaklaşık 3-4 dakika kızartın.",
    "Kağıt havlu üzerinde süzün ve sıcak servis yapın."
   ],
   "en": [
@@ -77,5 +77,14 @@
   "tr": "Dolguyu tamamen soğutmadan hamura koymayın; sıcak dolgu hamuru yumuşatır ve kızartırken patlamasına neden olabilir.",
   "en": "Let the filling cool completely before filling the dough; warm filling makes the pastry soggy and can cause the pies to split in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Potato type is described as 'mumlu olmayan' / 'waxy-free', which is not a standard culinary term. For mashed aloo filling, a floury (starchy) potato is needed, so the description should say that.",
+   "Turkish step 9 contains a typo: 'Böreklerı' should be 'Börekleri'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

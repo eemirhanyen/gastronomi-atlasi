@@ -3,13 +3,13 @@
   "tr": "Kan sosisi (İrlanda usulü)",
   "en": "Irish Black Pudding"
  },
- "native": "Putóg dhuibh",
+ "native": "Putóg dhubh",
  "desc": {
   "tr": "Domuz kanı, yulaf, domuz yağı ve soğandan yapılan, İrlanda'nın geleneksel kahvaltısının vazgeçilmez parçası olan koyu renkli bir sosistir. Ülke genelinde evlerde ve kasaplarda kahvaltıda, genellikle kızartılmış yumurta ve pastırma ile birlikte yenir.",
   "en": "A dark sausage made from pig's blood, oatmeal, pork fat and onion, and a staple of the Irish breakfast. It is eaten across the country, usually fried alongside eggs and rashers."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -41,7 +41,7 @@
   "tr": [
    "Yulafı 300 ml suda orta ateşte yaklaşık 15 dakika, suyunu çekene kadar pişirin. Süzüp soğumaya bırakın.",
    "Domuz yağını geniş bir tavada kısık ateşte 8-10 dakika, yağı eriyip kenarları hafif kızarana kadar eritin. Soğanı ekleyip 10 dakika daha, yumuşayıncaya kadar pişirin. Ocaktan alıp soğutun.",
-   "Kanı süzgeçten geçirerek bir kaseye alın ve oda sıcaklığına gelene kadar bekletin.",
+   "Kanı süzgeçten geçirerek bir kaseye alın ve buzdolabında 4°C'nin altında saklayın. Karıştırmadan önce en fazla 30 dakika oda sıcaklığında bekletin.",
    "Pişmiş yulafı, soğanlı yağı, tuzu, karabiberi, yenibaharı ve kekiği kanla birlikte büyük bir kapta iyice karıştırın. Karışımın pürüzsüz ve koyu olduğundan emin olun.",
    "Domuz bağırsağını suda yumuşatıp bir ucunu bağlayın. Karışımı huniyle bağırsağın içine doldurun, çok sıkı doldurmayın ve diğer ucunu bağlayın. Bağırsak yoksa karışımı folyoya sarıp sıkıca bir silindir biçiminde bağlayın.",
    "Büyük bir tencerede suyu 80-85°C'ye getirin. Kan sosisini suya yerleştirin ve bu sıcaklıkta yaklaşık 30 dakika, ortası katılaşana kadar pişirin. Suyun kaynamamasına dikkat edin, yoksa sosis patlayabilir.",
@@ -51,7 +51,7 @@
   "en": [
    "Simmer the oatmeal in 300 ml water over medium heat for about 15 minutes, until the water is absorbed. Drain and leave to cool.",
    "Melt the pork fat in a wide pan over low heat for 8-10 minutes, until the fat has rendered and the edges are lightly golden. Add the onion and cook for a further 10 minutes, until soft. Remove from the heat and cool.",
-   "Strain the blood into a bowl and leave it until it reaches room temperature.",
+   "Strain the blood into a bowl and keep it refrigerated below 4°C. Leave it out at room temperature for no more than 30 minutes before mixing.",
    "In a large bowl, mix the cooked oatmeal, the onion and fat, the salt, black pepper, allspice and thyme with the blood until smooth and evenly dark.",
    "Soften the hog casing in water and tie one end. Funnel the mixture into the casing, filling it firmly but not too tightly, then tie off the other end. If you have no casing, wrap the mixture tightly in foil to form a log.",
    "Bring a large pot of water to 80-85°C. Lower the pudding into the water and poach at this temperature for about 30 minutes, until set through. Do not let the water boil or the casing may burst.",
@@ -63,5 +63,15 @@
   "tr": "Kanı kaynatmadan ve yüksek ısıda pişirmeyin; sosis sert ve kabarcıklı olur. Dilimleri servisten hemen önce kızartın ki dış yüzeyi gevrek kalsın.",
   "en": "Keep the poaching water below a simmer; boiling makes the pudding spongy and can split the casing. Fry the slices just before serving so the outside stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 leaves raw pig's blood at room temperature for an unspecified, possibly long, time. Blood is highly perishable, so it should be refrigerated and mixed soon after.",
+   "time_min of 60 is too low. Oatmeal (15), fat (10), onion (10), cooling, 30-minute poach, cooling and frying add up to well over an hour.",
+   "The Irish name is likely misspelled. The usual form is 'putóg dhubh', not 'putóg dhuibh'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

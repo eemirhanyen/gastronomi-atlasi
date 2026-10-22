@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Makarnayı servisten hemen önce ekleyin; çorba bekletildiğinde makarna şişip kıvamı koyulaştırır, bu yüzden gerekirse sıcak su ile sulandırın.",
-  "en": "Add the pasta just before serving. If the soup sits, the pasta swells and thickens it, so loosen it with a little hot water when reheating."
+  "tr": "Makarna çorbada pişirildiği için, çorba bekletildiğinde veya yeniden ısıtıldığında makarna suyu emip şişer ve kıvamı koyulaştırır. Bu durumda sıcak sebze suyu veya su ile sulandırın.",
+  "en": "Because the pasta is cooked in the soup, it keeps absorbing liquid and thickens the soup if it is stored or reheated. In that case, loosen it with a little hot vegetable stock or water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says to add the pasta just before serving, but step 5 cooks the pasta in the soup for 8-10 minutes. The tip contradicts the method in both Turkish and English.",
+   "The tip's explanation of thickening applies to stored or reheated soup, not to the timing of when the pasta is added."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

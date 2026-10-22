@@ -16,7 +16,7 @@
    "1 kg unlu patates",
    "40 g tereyağı",
    "80 ml ılık süt",
-   "tuz",
+   "1 çay kaşığı tuz (tadına göre ayarlayın)",
    "500 g kuzu kıyma",
    "1 yemek kaşığı sıvı yağ",
    "1 orta boy soğan (150 g), küçük doğranmış",
@@ -28,13 +28,13 @@
    "1 tatlı kaşığı Worcestershire sosu",
    "1 tatlı kaşığı kuru kekik",
    "150 g dondurulmuş bezelye",
-   "karabiber"
+   "½ tatlı kaşığı taze çekilmiş karabiber"
   ],
   "en": [
    "1 kg floury potatoes",
    "40 g butter",
    "80 ml warm milk",
-   "salt",
+   "1 tsp salt (adjust to taste)",
    "500 g minced lamb",
    "1 tbsp vegetable oil",
    "1 medium onion (150 g), finely diced",
@@ -46,7 +46,7 @@
    "1 tsp Worcestershire sauce",
    "1 tsp dried thyme",
    "150 g frozen peas",
-   "black pepper"
+   "½ tsp freshly ground black pepper"
   ]
  },
  "steps": {
@@ -79,5 +79,14 @@
   "tr": "Püreyi daha hafif yapmak için patatesleri ezmeden önce iyice kurutun ve sıcak sütü kullanın; soğuk süt püreyi yapışkan yapabilir.",
   "en": "Dry the potatoes well before mashing and use warm milk; cold milk makes the mash heavy and gluey. Roughing up the top with a fork gives crispy peaks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt (tuz) and black pepper (karabiber) are listed without quantities in both languages, so the amounts are unclear.",
+   "Turkish 'tuz' and 'karabiber' lack units; English 'salt' and 'black pepper' lack amounts."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

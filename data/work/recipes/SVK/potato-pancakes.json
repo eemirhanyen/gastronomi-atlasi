@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Patates gözlemesi (Slovak patates placki)",
+  "tr": "Patates plağı (Slovak zemiakové placky)",
   "en": "Potato pancakes (Zemiakové placky)"
  },
  "native": "Zemiakové placky",
@@ -28,7 +28,7 @@
    "1 egg",
    "30 g plain flour",
    "1 garlic clove",
-   "1 tsp dried marjoram",
+   "1 tsp dried marjoram or thyme",
    "1 tsp salt",
    "½ tsp ground black pepper",
    "60 ml neutral oil (for frying)",
@@ -48,7 +48,7 @@
   "en": [
    "Peel the potatoes and grate them finely into a large bowl.",
    "Squeeze the grated potato in a clean cloth or kitchen towel to remove excess liquid. Keep the starch that settles at the bottom of the bowl and pour off the water.",
-   "Put the squeezed potato back into the bowl with the starch. Add the egg, flour, crushed garlic, marjoram, salt and black pepper, and mix well.",
+   "Put the squeezed potato back into the bowl with the starch. Add the egg, flour, crushed garlic, marjoram or thyme, salt and black pepper, and mix well.",
    "Heat the oil in a wide frying pan over medium heat (about 170 °C). When hot, spoon 2–3 tablespoons of the mixture into the pan and flatten to about 1 cm thick with a spoon or spatula.",
    "Fry each pancake for 4–5 minutes per side until golden brown on both sides. Cook in batches and check the oil between batches.",
    "Drain the fried pancakes on kitchen paper to remove excess oil.",
@@ -59,5 +59,14 @@
   "tr": "Patatesi iyice sıkın ve hamuru hemen pişirin; rendelenmiş patates bekledikçe kararır ve sulanır, bu da plakların dağılmasına neden olur.",
   "en": "Squeeze the potato very dry and cook the batter straight away, as grated potato darkens and releases more liquid if left standing, which can make the pancakes fall apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Patates gözlemesi' uses 'gözleme', which is a specific Turkish stuffed flatbread and misdescribes this dish; 'patates plağı' is the natural term.",
+   "Herb mismatch: Turkish ingredient allows dried thyme or marjoram, but English lists only marjoram, and the English step names only marjoram."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

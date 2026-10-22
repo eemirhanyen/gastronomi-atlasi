@@ -9,7 +9,7 @@
   "en": "Nyama choma is a Kenyan favourite for weekends, celebrations and open-air bars, where seasoned meat is slow-grilled over charcoal. It is typically served with kachumbari (a fresh tomato and onion salad) and ugali."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Ev mutfağında kömür yoksa ızgara tavada veya fırının üst ısıtıcısında 220 °C'de, etleri iki kez çevirerek pişirebilirsiniz.",
   "en": "Without charcoal, use a grill pan or the top element of an oven at 220 °C, turning the meat twice for even browning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to about 80 minutes: 20 min resting, about 30 min for the coals to heat, and 25-30 min of grilling, plus salad prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

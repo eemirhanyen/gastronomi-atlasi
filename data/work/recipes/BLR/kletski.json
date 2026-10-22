@@ -49,10 +49,10 @@
    "İç harç için kıymayı, ince doğranmış küçük soğanı, 1/2 çay kaşığı tuz ve bir tutam karabiberle iyice yoğurun. 16 eşit parçaya bölün ve ayrı tutun.",
    "Soğuyan patates püresine unu, yumurtayı ve 1 çay kaşığı tuzu ekleyin. Pürüzsüz, yapışmayan bir hamur elde edene kadar 5 dakika yoğurun. Üzerini örtüp 10 dakika dinlendirin.",
    "Hamuru 16 eşit parçaya bölün. Her parçayı avucunuzda yassıca açın, ortasına bir parça kıyma harcı koyun ve kenarlarını kapatarak küçük toplar şekillendirin.",
-   "Büyük bir tencerede 3 litre suyu kaynatın, 1 yemek kaşığı tuzu ekleyin. Klesleri kaynayan suya nazikçe atın ve kıkırdaklar yüzeye çıktıktan sonra yaklaşık 2 dakika daha pişirin. Toplam pişirme süresi yaklaşık 10-12 dakikadır.",
-   "Pişerken kleskileri süzgeçle çıkarın ve bir tabağa alın.",
+   "Büyük bir tencerede 3 litre suyu kaynatın, 1 yemek kaşığı tuz ekleyin. Kletskileri kaynayan suya nazikçe atın; yüzeye çıktıktan sonra yaklaşık 2 dakika daha pişirin. Toplam pişirme süresi yaklaşık 10-12 dakikadır.",
+   "Pişen kletskileri delikli kaşıkla çıkarıp bir tabağa alın.",
    "Ayrı bir tavada 30 g tereyağını orta ateşte eritin. Dilimlenmiş soğanları altın rengi olana kadar 8-10 dakika kavurun, tuz ekleyin.",
-   "Kleskileri sıcak servis tabaklarına dizin. Üzerine kalan 20 g tereyağını gezdirin, kavrulmuş soğanları ekleyin ve ekşi kremayı yanında servis edin. Dereotu ile süsleyin."
+   "Kletskileri sıcak servis tabaklarına dizin. Üzerine kalan 20 g tereyağını gezdirin, kavrulmuş soğanları ekleyin ve ekşi kremayı yanında servis edin. Dereotu ile süsleyin."
   ],
   "en": [
    "Boil the potatoes in their skins, then peel and mash them until smooth. Let them cool completely.",
@@ -69,5 +69,15 @@
   "tr": "Hamur yapışkansa biraz daha un ekleyin, ama fazla yoğurmayın; aksi halde kletskiler sertleşir. Pişirirken kaynama suyunu hafifçe kaynar tutun, şiddetli kaynatmak hamuru dağıtabilir.",
   "en": "If the dough is sticky, add a little more flour, but avoid overworking it or the dumplings will turn tough. Keep the water at a gentle boil, as a rolling boil can break the dumplings apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 uses 'kıkırdaklar' (cartilage) for the dumplings floating to the surface, which is wrong and unnatural; the English says 'once they float'.",
+   "Turkish spelling of the dish is inconsistent ('Klesleri', 'kleskileri', 'kleskiler', 'Kletski'); unified to 'kletski'.",
+   "Turkish step 6 'Klesleri' typo and the phrasing of the lifting step were tightened to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -23,7 +23,7 @@
    "60 ml soya sosu",
    "50 g toz şeker (glazür için)",
    "60 ml su (glazür için)",
-   "4 adet tam nori yaprağı",
+   "2 adet tam nori yaprağı",
    "Musubi kalıbı ya da temiz plastik sargı"
   ],
   "en": [
@@ -37,7 +37,7 @@
    "60 ml soy sauce",
    "50 g caster sugar (for the glaze)",
    "60 ml water (for the glaze)",
-   "4 full sheets nori",
+   "2 full sheets nori",
    "A musubi mold or clean cling film"
   ]
  },
@@ -48,7 +48,7 @@
    "Spam'i 8 eşit dilime (yaklaşık 1 cm kalınlığında) kesin.",
    "Küçük bir tencerede soya sosu, 50 g şeker ve 60 ml suyu birlikte kaynatın. Ateşi kısın ve şurup kıvamına gelene kadar, yaklaşık 4-5 dakika pişirin.",
    "Geniş bir tavada yağı orta-yüksek ateşte ısıtın. Spam dilimlerini her iki yüzü 2-3 dakika kızarana kadar kızartın.",
-   "Dilimlerin üzerine glazürün yarısını dökün, dilimleri çevirerek kaplayın ve sos koyulaşıp yapışkanlaşana kadar 1-2 dakika daha pişirin.",
+   "Dilimlerin üzerine glazürün tamamını dökün, dilimleri çevirerek kaplayın ve sos koyulaşıp yapışkanlaşana kadar 1-2 dakika daha pişirin.",
    "Nori yapraklarını uzunlamasına ikiye, sonra her parçayı yine ikiye kesip 8 şerit elde edin.",
    "Musubi kalıbını plastik sargı üzerine yerleştirin. Kalıbın dibine yaklaşık 50 g pirinç koyup bastırarak düzeltin.",
    "Üzerine bir dilim Spam yerleştirin, kalan pirinçle kapatıp tekrar bastırın. Kalıbı kaldırın.",
@@ -60,7 +60,7 @@
    "Cut the Spam into 8 equal slices, about 1 cm thick.",
    "In a small saucepan, combine the soy sauce, 50 g sugar and 60 ml water. Bring to the boil, then lower the heat and simmer for 4-5 minutes until syrupy.",
    "Heat the oil in a wide frying pan over medium-high heat. Fry the Spam slices for 2-3 minutes on each side until golden.",
-   "Pour half the glaze over the slices, turn them to coat and cook for another 1-2 minutes until the glaze thickens and sticks.",
+   "Pour all the glaze over the slices, turn them to coat and cook for another 1-2 minutes until the glaze thickens and sticks.",
    "Cut the nori sheets lengthways in half, then cut each half across into 2 strips, giving you 8 strips.",
    "Place a musubi mold on a sheet of cling film. Put about 50 g of rice into the mold and press it down firmly.",
    "Lay a slice of Spam on top, cover with another 50 g of rice and press again. Lift off the mould.",
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Pirinç sıcakken kalıba bastırılırsa daha iyi tutar; Spam'i glazürle birlikte soğutmadan sarın ki nori yumuşamasın.",
+  "tr": "Pirinç sıcakken kalıba bastırılırsa daha iyi tutar; nori'yi servis hemen öncesinde sarın ki gevrek kalsın.",
   "en": "Press the rice while it is still warm so the musubi holds its shape, and wrap with nori just before serving so the seaweed stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Nori count mismatch: the ingredients list 4 full sheets, but step 7 cuts them into 8 strips, which is one strip per musubi. Each sheet yields 4 strips, so 2 sheets are needed. (Both languages.)",
+   "Unused glaze: step 4 makes the full glaze (50 g sugar, 60 ml water, 60 ml soy), but step 6 uses only half and the rest is never used. (Both languages.)",
+   "Turkish tip contradicts the English tip and the steps: it suggests wrapping the Spam with glaze before it cools, while the English says to wrap the nori just before serving so it stays crisp."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "uborkasaláta",
  "desc": {
-  "tr": "Macaristan'da ev yemeklerinin ve pörkölt gibi ağır anaların yanında sık servis edilen, ekşi krema ve tatlı macar biberiyle hazırlanan ferah bir salatadır. Özellikle yaz aylarında öğle ve akşam sofralarında görülür.",
+  "tr": "Macaristan'da ev yemeklerinin ve pörkölt gibi ağır ana yemeklerin yanında sık servis edilen, ekşi krema ve tatlı macar biberiyle hazırlanan ferah bir salatadır. Özellikle yaz aylarında öğle ve akşam sofralarında görülür.",
   "en": "A refreshing side salad served with heavier Hungarian dishes such as pörkölt, made with sour cream and sweet paprika. It is especially common on summer lunch and dinner tables across Hungary."
  },
  "servings": 4,
@@ -22,7 +22,7 @@
    "150 g ekşi krema",
    "1 çay kaşığı tatlı macar biberi (yaklaşık 3 g)",
    "Küçük bir demet dereotu (yaklaşık 10 g)",
-   "Birkaç tane karabiber (taze çekilmiş)"
+   "Taze çekilmiş karabiber (tadınıza göre)"
   ],
   "en": [
    "800 g cucumbers (2 medium)",
@@ -34,7 +34,7 @@
    "150 g sour cream",
    "1 teaspoon sweet Hungarian paprika (about 3 g)",
    "A small bunch of dill (about 10 g)",
-   "Freshly ground black pepper"
+   "Freshly ground black pepper (to taste)"
   ]
  },
  "steps": {
@@ -67,5 +67,14 @@
   "tr": "Salatalıkları tuzladıktan sonra iyice sıkmak, salatanın sulanmasını önler; ekşi kremayı mutlaka sirkeyle biraz gevşetip ekleyin ki pütürlenmesin.",
   "en": "Squeeze the salted cucumbers well so the salad does not turn watery, and loosen the sour cream with a little of the vinegar mixture first so it blends smoothly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a wrong word: \"ağır anaların\" should be \"ana yemeklerin\".",
+   "Black pepper quantity is contradictory and unclear in Turkish: \"Birkaç tane karabiber (taze çekilmiş)\" mixes \"a few whole peppercorns\" with \"freshly ground\". The English has no quantity. Changed both "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

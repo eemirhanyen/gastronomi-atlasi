@@ -53,7 +53,7 @@
    "Kalan yağda soğanları altın rengi alana kadar, yaklaşık 6-8 dakika soteleyin. Sarımsağı ekleyip 1 dakika daha karıştırın.",
    "Domates salçasını ekleyip 3 dakika kavurun. Rendelenmiş domatesleri ekleyin ve sosun yağlanıp koyulaşmasına kadar yaklaşık 10 dakika pişirin.",
    "Etleri tencereye geri koyun. Et suyu küpünü, sıcak suyun 750 mlsini, defne yapraklarını ve delinmiş Scotch bonnet biberini ekleyin. Kapağını kapatıp kısık ateşte yaklaşık 60 dakika, et yumuşayana kadar pişirin.",
-   "Ocaktan küçük bir kâseye 250 ml sıcak sos alın. Fıstık ezmesini bu sosla pürüzsüz olana kadar iyice karıştırın, ardından tencereye geri ekleyin. Ara sıra karıştırarak 15 dakika daha, yağ yüzeye çıkana ve sos kıvamlanana kadar kısık ateşte pişirin.",
+   "Ocaktan küçük bir kâseye 250 ml sıcak sos alın. Fıstık ezmesini bu sosla pürüzsüz olana kadar iyice karıştırın, ardından karışımı, sos çok kalınsa kalan 250 ml sıcak suyla birlikte tencereye geri ekleyin. Kapağı açık, ara sıra karıştırarak kısık ateşte 15 dakika daha, yağ yüzeye çıkana ve sos kıvamlanana kadar pişirin.",
    "Tuzunu kontrol edin, gerekirse ekleyin. Defne yapraklarını ve biberi çıkarın (biberin patlamamasına dikkat edin). Pişmiş pirinç ile sıcak servis yapın."
   ],
   "en": [
@@ -69,5 +69,14 @@
   "tr": "Fıstık ezmesi yapışmasın diye sosu kısık ateşte karıştırın ve ezmeyi önce sıcak sosla seyreltin; bu, topaklanmayı önler.",
   "en": "Thin the peanut butter with hot sauce before adding it to the pot and keep the heat low, so the stew stays smooth and does not catch on the bottom."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 omits the English instruction to add the remaining 250 ml hot water if the stew is too thick, so the water quantity is not used in the Turkish version",
+   "Turkish step 5 omits the English instruction to simmer uncovered"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

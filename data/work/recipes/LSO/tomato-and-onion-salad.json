@@ -50,8 +50,18 @@
   ]
  },
  "tip": {
-  "tr": "Salata sulanmadan önce domatesleri kesmeyin; tuz ve sirke eklenince sızan suyla salata ıslanmadan hemen servis edin.",
-  "en": "Add the salt and vinegar just before serving so the tomatoes stay firm and do not release too much juice."
+  "tr": "Domatesler tuzlanınca su salar; salatayı tuz ve sirke ekledikten yaklaşık 10 dakika içinde servis edin, böylece domatesler dolgun kalır ve salata sulanmaz.",
+  "en": "Salt draws juice out of tomatoes, so serve the salad within about 10 minutes of adding the salt and vinegar to keep the tomatoes firm and the salad from becoming watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip says not to cut the tomatoes before salting, but step 1 cuts them first. The English tip says to add salt and vinegar just before serving, but steps 4-5 add them before the 10-minute r",
+   "The tip tells the cook to serve immediately, but step 6 says to rest the salad for 10 minutes before serving. The tip and steps need to agree on timing.",
+   "The Turkish and English tips describe different advice, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

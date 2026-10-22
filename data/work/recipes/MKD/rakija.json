@@ -5,7 +5,7 @@
  },
  "native": "Ореова ракија",
  "desc": {
-  "tr": "Kuzey Makedonya'da ve Balkanlar'da haziran sonunda, cevizler henüz yumuşak kabukluyken yapılan, sofralara aperitif olarak sunulan geleneksel bir ceviz likörüdür. Damıtma yerine, hazır rakı ile şekerin ve baharın demlenmesiyle hazırlanır.",
+  "tr": "Kuzey Makedonya'da ve Balkanlar'da haziran sonunda, cevizler henüz yumuşak kabukluyken yapılan, sofralara aperitif olarak sunulan geleneksel bir ceviz likörüdür. Damıtma yerine, hazır meyve rakısı ile şekerin ve baharın demlenmesiyle hazırlanır.",
   "en": "A traditional Macedonian aperitif made in late June, when walnuts are still soft and green, and served in small glasses before meals. It is steeped rather than distilled, so it suits a home kitchen."
  },
  "servings": 4,
@@ -14,14 +14,14 @@
  "ingredients": {
   "tr": [
    "8 adet genç yeşil ceviz (yaklaşık 400 g, kabuğu henüz sertleşmemiş)",
-   "1000 ml fıçı rakısı veya %40 alkollü tahıl/üzüm rakısı",
+   "1000 ml üzüm veya meyve rakısı (%40 alkollü)",
    "250 g toz şeker",
    "2 adet karanfil",
    "1 adet tarçın çubuğu (5 cm)"
   ],
   "en": [
    "8 young green walnuts (about 400 g, shells not yet hardened)",
-   "1000 ml fruit spirit (rakija) or 40% ABV neutral spirit",
+   "1000 ml grape or fruit spirit (rakija), 40% ABV",
    "250 g caster sugar",
    "2 whole cloves",
    "1 cinnamon stick (5 cm)"
@@ -53,5 +53,14 @@
   "tr": "Cevizler henüz yumuşak ve kolay kesilebilir olmalıdır; sert kabuklu cevizler kullanmayın, aksi halde lezzet acılaşır. Eller kahverengi lekelenir, bu yüzden eldiven kullanın.",
   "en": "Use only soft, young walnuts that cut easily with a knife; hard-shelled nuts make the liqueur bitter. Walnut juice stains skin and surfaces, so wear gloves."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The spirit is described as grain/grape rakı in Turkish but as fruit spirit or neutral spirit in English. The two versions disagree on the base spirit.",
+   "In Turkish, \"rakı\" usually means anise-flavoured spirit, so \"hazır rakı\" and \"fıçı rakısı\" are misleading for a fruit brandy. \"Meyve rakısı\" is clearer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

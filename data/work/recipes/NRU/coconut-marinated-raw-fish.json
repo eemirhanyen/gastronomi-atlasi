@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Balığı en az -20 °C'de 24 saat dondurup çözdürmek, çiğ yenen balıklarda parazit riskini azaltır; her zaman sashimi kalitesinde balık kullanın.",
-  "en": "Freezing the fish at -20 °C for 24 hours before use reduces parasite risk; always use fish sold as sashimi grade."
+  "tr": "Lime suyu parazitleri öldürmez. Parazit riskini azaltmak için balığı yenmeden önce en az -20 °C'de 7 gün dondurun ya da -35 °C'de en az 15 saat dondurun; her zaman sashimi kalitesinde ve bu amaçla dondurulmuş balık kullanın.",
+  "en": "Lime juice does not kill parasites. To reduce parasite risk, freeze the fish for at least 7 days at -20 °C or at least 15 hours at -35 °C before eating it, and always use fish sold as sashimi grade that has been frozen for this purpose."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip gives an unsafe parasite-control method: freezing at -20 °C for 24 hours is not enough. US FDA guidance for destroying parasites in fish eaten raw is -20 °C for 7 days, or -35 °C for 15 hours. Lim"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

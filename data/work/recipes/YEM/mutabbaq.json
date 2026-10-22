@@ -62,7 +62,7 @@
    "Her hamur dairesinin bir yarısına harcın dörtte birini yayın ve ortasında hafif bir çukur açın. Yumurtalardan birini kırıp harcın üzerine koyun.",
    "Hamurun boş yarısını harcın üzerine katlayın, kenarlarını bastırarak kapatın. Böylece kare ya da yarım ay şeklinde kapalı bir paket elde edin. Diğer üç paketi de aynı şekilde hazırlayın.",
    "Sahawiq için yeşil biberleri, sarımsağı, kişnişi, limon suyunu, tuzu ve suyu blenderda pürüzsüz bir sos haline gelene kadar çekin.",
-   "Geniş bir tavayı orta ateşte 2 yemek kaşığı yağla ısıtın. Paketleri dikkatlice yerleştirip her iki yüzünü de 3-4 dakika, altın rengi olana kadar kızartın. Gerekirse kalan yağla yüzeyini yağlayın. Yumurta tamamen pişince sıcak sahawiq ile servis edin."
+   "Geniş bir tavayı orta-düşük ateşte 2 yemek kaşığı yağla ısıtın. Paketleri dikkatlice yerleştirip her iki yüzünü 4-5 dakika, altın rengi olana kadar kızartın. Gerekirse kalan yağla yüzeyini yağlayın. Son 2-3 dakikada tavayı kapakla örtün; yumurta beyazı tamamen katılaşıp sarısı istenen kıvama gelene kadar pişirin. Sıcak sahawiq ile servis edin."
   ],
   "en": [
    "For the dough, mix the flour, 1 tsp salt and 15 ml oil in a bowl. Gradually add the lukewarm water and knead for 5 minutes until you have a soft, non-sticky dough. Cover and rest for 30 minutes.",
@@ -72,12 +72,21 @@
    "On one half of each dough circle, spread a quarter of the filling and make a shallow well in the centre. Crack one egg into the well.",
    "Fold the empty half of the dough over the filling and press the edges firmly to seal, forming a half-moon or square parcel. Shape the remaining three parcels the same way.",
    "For the sahawiq, blend the green chilies, garlic, coriander, lemon juice, salt and water until smooth.",
-   "Heat 2 tbsp of the frying oil in a wide pan over medium heat. Place the parcels in the pan and fry for 3-4 minutes per side until golden and crisp. Add more oil if needed. Make sure the egg is fully cooked, then serve hot with the sahawiq."
+   "Heat 2 tbsp of the frying oil in a wide pan over medium-low heat. Place the parcels in the pan and fry for 4-5 minutes per side until golden and crisp. Add more oil if needed. For the last 2-3 minutes, cover the pan and cook until the egg white is fully set and the yolk reaches the desired firmness. Serve hot with the sahawiq."
   ]
  },
  "tip": {
   "tr": "Hamuru çok ince açın ki kızarınca katmanlı ve gevrek olsun; gerekirse yumurtayı kırmadan önce harcı iyice soğutun, böylece hamur yırtılmaz.",
   "en": "Stretch the dough very thin so it turns out crisp and layered, and let the filling cool completely before assembling so the dough does not tear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Egg safety: the egg is fully enclosed in the pastry, but 3-4 minutes per side over medium heat may not set the egg white, and the steps give no reliable doneness check.",
+   "Vague doneness instruction: 'Make sure the egg is fully cooked' does not tell the cook how to check it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

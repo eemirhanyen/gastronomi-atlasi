@@ -57,7 +57,7 @@
    "Sarımsakları, küçük kırmızı soğanı, kimyonu, annatto'yu, kekiği, 1 tatlı kaşık tuzu, karabiberi, 1 limonun suyunu ve 2 yemek kaşığı sıvı yağı bir blenderda pürüzsüz bir macun haline gelene kadar çekin.",
    "Macunu kuyların hem iç hem dış yüzeyine sürün ve kapalı bir kapta buzdolabında en az 1 saat bekletin.",
    "Fırını 200°C'ye ısıtın. Kuyları derisi yukarı bakacak şekilde fırın tepsisine dizin.",
-   "Kuyları 50-60 dakika kızartın. Yarı yolda çevirin ve tepsideki yağ ve sosla arada bir üzerlerine gezdirerek derisi altın rengi ve çıtır olana kadar pişirin.",
+   "Kuyları 50-60 dakika kızartın. Yarı yolda çevirin ve tepsideki yağ ve sosla arada bir üzerlerine gezdirerek derisi altın rengi ve çıtır olana kadar pişirin. Etin en kalın yerine termometre sokun; iç sıcaklık en az 74°C (165°F) olmadan fırından çıkarmayın.",
    "Patatesleri soyun, bol tuzlu suda 20 dakika ya da yumuşayana kadar haşlayın, süzün.",
    "Sarı soğanı ve kırmızı acı biberi ince doğrayın. Tavada 1 yemek kaşığı sıvı yağda soğanı yumuşayana kadar, yaklaşık 5 dakika, kavurun, biberi ekleyip 1 dakika daha pişirin.",
    "Kavrulmuş yer fıstığını, soteladığınız soğan ve biberi, sütü ve yarım çay kaşığı tuzu blenderda pürüzsüz bir sos olacak şekilde çekin. Sosu kısık ateşte 2 dakika ısıtın.",
@@ -69,7 +69,7 @@
    "Blend the garlic, small red onion, cumin, achiote, oregano, 1 tsp of the salt, black pepper, the juice of 1 lime and 2 tbsp of the vegetable oil until you have a smooth paste.",
    "Rub the paste over the inside and outside of the cuyes, cover and refrigerate for at least 1 hour.",
    "Preheat the oven to 200°C. Arrange the cuyes skin side up on a baking tray.",
-   "Roast for 50-60 minutes, turning once and basting with the pan juices from time to time, until the skin is golden and crisp.",
+   "Roast for 50-60 minutes, turning once and basting with the pan juices from time to time, until the skin is golden and crisp. Insert a thermometer into the thickest part of the meat; do not take the cuyes out until the internal temperature reaches at least 74°C (165°F).",
    "Peel the potatoes, boil them in well-salted water for about 20 minutes until tender, then drain.",
    "Finely chop the yellow onion and the red ají chili. Heat 1 tbsp of the vegetable oil in a pan and fry the onion until soft, about 5 minutes. Add the chili and cook for 1 more minute.",
    "Blend the roasted peanuts, the fried onion and chili, the milk and the remaining 0.5 tsp salt until smooth. Warm the sauce gently over low heat for 2 minutes.",
@@ -81,5 +81,13 @@
   "tr": "Kuyu fırına koymadan önce derisini kurulamak, çıtır bir yüzey elde etmenin en kolay yoludur.",
   "en": "Pat the cuy skin very dry before roasting; moisture is the main reason the skin turns soft instead of crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Roasting step gives no doneness check. Guinea pig should reach an internal temperature of at least 74°C (165°F) to be safe to eat, and 50-60 minutes is only an estimate. Added a thermometer check to s"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

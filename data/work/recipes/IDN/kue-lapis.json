@@ -35,14 +35,14 @@
  },
  "steps": {
   "tr": [
-   "20 x 20 cm'lik kare bir kalıbın tabanını ve kenarlarını sıvı yağla hafifçe yağlayın ve kenara koyun.",
+   "20 x 20 cm'lik kare bir kalıbın tabanını ve kenarlarını sıvı yağla hafifçe yağlayın ve bir kenara koyun.",
    "Büyük bir kapta pirinç unu, tapyoka unu, toz şeker ve tuzu karıştırın.",
    "Hindistan cevizi sütünü ve pandan özütünü ekleyip topaklar kalmayacak şekilde iyice çırpın. Hamuru 10 dakika dinlendirin.",
    "Hamuru 4 eşit kaba bölün. Birinci kaba dokunmayın (beyaz kalacak), diğer üç kaba sırayla yeşil, pembe ve sarı gıda boyasından birkaç damla ekleyip karıştırın.",
    "Büyük bir tencereye 3-4 cm su koyup kaynatın. Buharlı pişirme ızgarasını veya bir kevgiri yerleştirin.",
-   "Yağlanmış kalıbın içine beyaz hamurun üçte birini dökün ve kapağı kapatın. Orta-yüksek ateşte 5-6 dakika buharda pişirin; yüzey hafif donduğunda bir sonraki katmana geçin.",
+   "Yağlanmış kalıbın içine beyaz hamurun dörtte birini dökün ve kapağı kapatın. Orta-yüksek ateşte 5-6 dakika buharda pişirin; yüzey hafif katılaştığında bir sonraki katmana geçin.",
    "Sıradaki rengi üstüne yavaşça dökün ve yine kapalı olarak 5-6 dakika pişirin. Hamur bitene kadar bu işlemi sırayla tekrar edin.",
-   "Son katman da donunca ocağı kapatın ve kalıbı buhardan çıkarmadan yaklaşık 5 dakika bekletin.",
+   "Son katman da katılaşınca ocağı kapatın ve kalıbı buhardan çıkarmadan yaklaşık 5 dakika bekletin.",
    "Kalıbı çıkarıp tamamen soğumaya bırakın. Soğuduktan sonra keskin bir bıçakla küçük kareler halinde kesip servis yapın."
   ],
   "en": [
@@ -51,15 +51,24 @@
    "Add the thin coconut milk and pandan extract and whisk until smooth with no lumps. Rest the batter for 10 minutes.",
    "Divide the batter equally into 4 bowls. Leave the first bowl plain (white). Add a few drops of green, pink and yellow food colouring to the other three bowls in turn and stir.",
    "Bring 3-4 cm of water to the boil in a large pot. Place a steamer rack or colander inside.",
-   "Pour one-third of the white batter into the greased tin, cover and steam over medium-high heat for 5-6 minutes, until the surface is just set.",
+   "Pour one-quarter of the white batter into the greased tin, cover and steam over medium-high heat for 5-6 minutes, until the surface is just set.",
    "Gently pour the next colour over the set layer, cover and steam for another 5-6 minutes. Repeat with the remaining colours in order until all the batter is used.",
    "When the final layer is set, turn off the heat and leave the tin in the steamer for about 5 minutes.",
    "Remove the tin and let the cake cool completely. Once cool, cut into small squares with a sharp knife and serve."
   ]
  },
  "tip": {
-  "tr": "Her katmanın tam donmasını bekleyin; katmanlar hala akışkanken üst üste dökerseniz renkler birbirine karışır.",
+  "tr": "Her katmanın tam katılaşmasını bekleyin; katmanlar hala akışkanken üst üste dökerseniz renkler birbirine karışır.",
   "en": "Wait until each layer is just set before pouring the next; if the batter is still runny, the colours will bleed into each other."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 says to pour one-third of the white batter per layer, but the batter was divided into 4 equal portions, so each layer should be one-quarter (TR and EN).",
+   "Turkish uses 'donmak' (to freeze) for the batter setting in steps 6 and 8 and in the tip. This is an unnatural culinary term; 'katılaşmak' (to set) is correct."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -45,11 +45,11 @@
   "tr": [
    "Geniş bir kapta un, şeker, kabartma tozu ve tuzu karıştırın.",
    "Soğuk tereyağı küplerini parmak uçlarınızla un karışımına ovalayarak kum kıvamı verin.",
-   "Yumurta sarısını ve ekşi kremayi ekleyip hamuru yumuşakça yoğurun; fazla yoğurmayın. Üzerini örtüp buzdolabında 20 dakika dinlendirin.",
+   "Yumurta sarısını ve ekşi kremayı ekleyip hamuru yumuşakça yoğurun; fazla yoğurmayın. Üzerini örtüp buzdolabında 20 dakika dinlendirin.",
    "Dolgu için oda sıcaklığındaki tereyağını şeker ve vanilya ile kremamsı hale gelene kadar çırpın.",
    "Unu ekleyip elle macun kıvamına gelene kadar karıştırın ve bir kenara alın.",
    "Fırını 180°C'ye ısıtın ve fırın tepsisine kağıt serin.",
-   "Hamuru ikiye bölün. Her parçayı unlu yüzey üzerinde yaklaşık 5 mm kalınlığında, 20 cm çapında iki yuvarlak açın.",
+   "Hamuru ikiye bölün. Her parçayı unlu yüzey üzerinde yaklaşık 5 mm kalınlığında, 26 cm çapında iki yuvarlak açın.",
    "Birinci yuvarlağı tepsiye koyun, dolguyu ortasından başlayarak kenarlara doğru 2 cm boşluk bırakacak şekilde yayın.",
    "İkinci yuvarlağı dolgunun üzerine kapatın, kenarlarını parmaklarınızla iyice bastırarak birleştirin.",
    "Yumurta sarısını sütle çırpıp hamurun üstüne ince bir tabaka sürün ve çatal ya da bıçakla desen çizin.",
@@ -63,7 +63,7 @@
    "For the filling, beat the room-temperature butter with the sugar and vanilla until creamy.",
    "Add the flour and mix by hand into a paste-like filling. Set aside.",
    "Preheat the oven to 180°C and line a baking tray with baking paper.",
-   "Divide the dough in half. On a floured surface, roll each piece into a 20 cm round about 5 mm thick.",
+   "Divide the dough in half. On a floured surface, roll each piece into a 26 cm round about 5 mm thick.",
    "Place one round on the tray and spread the filling over it, starting from the centre and leaving a 2 cm border.",
    "Cover with the second round, pressing the edges firmly together with your fingers to seal.",
    "Beat the egg yolk with the milk, brush a thin layer over the top, and score a pattern with a fork or knife.",
@@ -75,5 +75,14 @@
   "tr": "Dolguyu hamur gibi sert değil, yumuşak tutun; dolgu çok akışkan olursa kenarlardan dışarı taşar, çok sert olursa hamuru yırtar.",
   "en": "Keep the filling soft but not runny; if it is too loose it will leak from the edges, and if too stiff it will tear the dough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Quantity vs. size mismatch: about 300 g of dough per half cannot be rolled to a 20 cm round at 5 mm thickness (that would be roughly 160 g). Enlarged the rounds to 26 cm in both languages.",
+   "Turkish typo: 'ekşi kremayi' should be 'ekşi kremayı'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

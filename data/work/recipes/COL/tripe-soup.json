@@ -9,7 +9,7 @@
   "en": "A hearty tripe soup from Colombia's Antioquia region and Caribbean coast, eaten hot on weekends and at family celebrations. It is typically served with lime, fresh cilantro and white rice."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -30,7 +30,7 @@
    "300 g patates (küp doğranmış)",
    "2 havuç (200 g, küp doğranmış)",
    "150 g dondurulmuş bezelye",
-   "2 yaprak taze kişniş (ince kıyılmış, toplam 10 g)",
+   "10 g taze kişniş (ince kıyılmış)",
    "2 dal yeşil soğan (ince doğranmış)",
    "1 limon (dilimlenmiş, servis için)"
   ],
@@ -85,5 +85,14 @@
   "tr": "İşkembe ne kadar iyi yumuşarsa çorba o kadar lezzetli olur; pişirme süresini kısaltmamak için ön pişirmeyi tamamen bitirin.",
   "en": "Make sure the tripe is fully tender before adding it to the soup; undercooked tripe stays rubbery, so use the extra time to simmer it gently."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient quantity for cilantro is implausible and conflicts with English: \"2 yaprak taze kişniş ... toplam 10 g\" should be a weight, matching the English \"10 g fresh cilantro\".",
+   "time_min (150) is too short for the steps: about 10 min cleaning, roughly 2 h simmering, then about 45 min more cooking, so about 180 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

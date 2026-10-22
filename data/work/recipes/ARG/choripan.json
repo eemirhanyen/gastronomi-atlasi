@@ -17,7 +17,7 @@
    "4 adet kabuklu sandviç ekmeği veya kısa baget parçası (yaklaşık 80 g'lık)",
    "1 demet düz yapraklı maydanoz (yaklaşık 40 g yaprak), ince doğranmış",
    "3 diş sarımsak, çok ince doğranmış",
-   "1 çay kaşığı kuru kekik",
+   "1 çay kaşığı kuru oregano",
    "1/2 çay kaşığı kırmızı biber pulu",
    "60 ml kırmızı şarap sirkesi",
    "120 ml sızma zeytinyağı",
@@ -41,10 +41,10 @@
  },
  "steps": {
   "tr": [
-   "Bir kasede doğranmış maydanozu, sarımsağı, kuru kekiği, kırmızı biber pulunu, tuzu ve karabiberi bir araya getirin.",
+   "Bir kasede doğranmış maydanozu, sarımsağı, kuru oregano'yu, kırmızı biber pulunu, tuzu ve karabiberi bir araya getirin.",
    "Kırmızı şarap sirkesini ekleyip karıştırın, ardından zeytinyağını dökün. Lezzetlerin birbirine karışması için chimichurri'yi oda sıcaklığında 20 dakika dinlendirin.",
    "Çorizoların yüzeyine birkaç yerden çatalla hafifçe delikler açın. Izgara tavasını veya mangalı orta-yüksek ateşte ısıtın ve nötr bitkisel yağı hafifçe sürün.",
-   "Çorizoları sık sık çevirerek 12-15 dakika pişirin; iç kısmı 71°C'ye ulaşmalı ve sucuklar tamamen pişmiş olmalıdır.",
+   "Çorizoları sık sık çevirerek 12-15 dakika pişirin; iç kısmı 71°C'ye ulaşmalı ve çorizolar tamamen pişmiş olmalıdır.",
    "Ekmekleri boyuna doğru yarın, ama tamamen ikiye ayırmayın. Kesilmiş yüzlerini ızgarada veya 180°C fırında 1-2 dakika hafifçe ısıtın.",
    "Pişen çorizoları ekmeklerin içine yerleştirin, üzerine bol chimichurri kaşıkla gezdirip hemen servis yapın."
   ],
@@ -58,8 +58,18 @@
   ]
  },
  "tip": {
-  "tr": "Chimichurri'yi servisten en az 20 dakika önce hazırlayın; sosun asitliği ve taze otların aromasu dinlenmeyle yumuşar ve belirginleşir.",
+  "tr": "Chimichurri'yi servisten en az 20 dakika önce hazırlayın; sosun asitliği ve taze otların aroması dinlenmeyle yumuşar ve belirginleşir.",
   "en": "Make the chimichurri at least 20 minutes ahead; resting softens its acidity and lets the fresh herb flavour develop."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step say 'kuru kekik' (thyme) but the English says dried oregano. Chimichurri uses oregano, so the Turkish should say oregano too.",
+   "Turkish step 4 uses 'sucuklar' (Turkish sucuk, a different sausage) for chorizo. It should be 'çorizolar'.",
+   "Turkish tip has a typo: 'aromasu' should be 'aroması'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

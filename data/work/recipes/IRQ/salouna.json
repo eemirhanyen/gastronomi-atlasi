@@ -9,12 +9,12 @@
   "en": "A tangy, tomato-based meat and vegetable stew flavoured with dried limes, popular in Basra and Baghdad. It is usually served at family lunches with rice or flatbread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "500 g kuzu omuz eti, 3 cm'lik küpler halinde doğranmış",
-   "60 ml sıvı yağ",
+   "90 ml sıvı yağ",
    "1 büyük soğan (150 g), ince doğranmış",
    "3 diş sarımsak, ezilmiş",
    "2 yemek kaşığı (30 g) domates salçası",
@@ -33,7 +33,7 @@
   ],
   "en": [
    "500 g lamb shoulder, cut into 3 cm cubes",
-   "60 ml vegetable oil",
+   "90 ml vegetable oil",
    "1 large onion (150 g), finely chopped",
    "3 garlic cloves, crushed",
    "2 tbsp (30 g) tomato paste",
@@ -54,10 +54,10 @@
  "steps": {
   "tr": [
    "Büyük bir tencerede 30 ml sıvı yağı orta-yüksek ateşte ısıtın. Kuzu etini partiler halinde her tarafı kahverengileşene kadar yaklaşık 6-7 dakika kavurun, sonra bir kenara alın.",
-   "Aynı tencereye kalan yağı ekleyin ve soğanı yumuşayıp altın rengini alana kadar yaklaşık 8 dakika kavurun.",
+   "Aynı tencereye 30 ml yağ daha ekleyin ve soğanı yumuşayıp altın rengini alana kadar yaklaşık 8 dakika kavurun.",
    "Sarımsağı ekleyip 1 dakika daha kavurun. Domates salçasını ilave edip 2 dakika kavurarak kokusunu çıkarın.",
    "Rendelenmiş domatesleri, zerdeçalı, kimyonu, karabiberi ve tuzu ekleyin. Domatesler suyunu salıp kısılana kadar yaklaşık 5 dakika pişirin.",
-   "Eti tencereye geri koyun, 1,5 litre suyu ilave edin ve delinmiş kuru limonları atın. Kaynayınca ateşi kısın, kapağını kapatıp et yumuşayana kadar yaklaşık 30 dakika pişirin.",
+   "Eti tencereye geri koyun, 1,5 litre suyu ilave edin ve delinmiş kuru limonları atın. Kaynayınca ateşi kısın, kapağını kapatıp et yumuşayana kadar yaklaşık 60 dakika pişirin.",
    "Bu sırada patatesleri ve patlıcan küplerini ayrı bir tavada kalan 30 ml yağda hafifçe kızartın, süzün.",
    "Patatesleri tencereye ekleyip 10 dakika pişirin. Ardından taze fasulye, bamya ve kızarmış patlıcanı ilave edip sebzeler yumuşayana kadar 10 dakika daha kaynatın.",
    "Tadına bakıp gerekirse tuzu ayarlayın. Kuru limonları çıkarın, çorba yoğunluğunu kontrol edin.",
@@ -65,11 +65,11 @@
   ],
   "en": [
    "In a large pot, heat 30 ml of the oil over medium-high heat. Brown the lamb in batches for 6-7 minutes until well coloured on all sides, then set aside.",
-   "Add the remaining oil to the same pot and fry the onion for about 8 minutes until soft and golden.",
+   "Add another 30 ml of the oil to the same pot and fry the onion for about 8 minutes until soft and golden.",
    "Stir in the garlic and cook for 1 minute more. Add the tomato paste and fry for 2 minutes to deepen its flavour.",
    "Add the grated tomatoes, turmeric, cumin, black pepper and salt. Cook for about 5 minutes until the tomatoes release their juices and begin to thicken.",
-   "Return the lamb to the pot, pour in the 1.5 litres of water and add the pierced dried limes. Bring to the boil, then reduce the heat, cover and simmer for about 30 minutes until the lamb is tender.",
-   "Meanwhile, shallow-fry the potatoes and eggplant cubes in the reserved 30 ml oil until lightly golden, then drain.",
+   "Return the lamb to the pot, pour in the 1.5 litres of water and add the pierced dried limes. Bring to the boil, then reduce the heat, cover and simmer for about 60 minutes until the lamb is tender.",
+   "Meanwhile, shallow-fry the potatoes and eggplant cubes in the remaining 30 ml oil until lightly golden, then drain.",
    "Add the potatoes to the pot and simmer for 10 minutes. Then add the green beans, okra and fried eggplant and cook for a further 10 minutes until all the vegetables are tender.",
    "Taste and adjust the salt if needed. Remove the dried limes and check that the stew has a good, slightly sour balance.",
    "Ladle into hot bowls, scatter the chopped fresh coriander over the top and serve with rice or flatbread."
@@ -79,5 +79,15 @@
   "tr": "Kuru limonları delmek, içindeki aromanın suya daha iyi geçmesini sağlar; yemek boyunca ekşi tadı yavaşça verir.",
   "en": "Pierce the dried limes before adding them so their sour, smoky flavour seeps into the broth gradually. Taste before serving, as their strength varies."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities do not add up: the ingredient list gives 60 ml, but the steps use 30 ml for browning the meat, the 'remaining' oil for the onion, and a further 30 ml reserved for frying the potatoes an",
+   "Simmer time of about 30 minutes is too short for lamb shoulder cubes to become tender. It should be about 60 minutes, which also makes the 60-minute total time unrealistic.",
+   "The Turkish and English versions carry the same oil and simmering errors, so both were corrected to keep them consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

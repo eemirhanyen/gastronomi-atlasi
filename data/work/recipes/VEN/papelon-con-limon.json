@@ -9,13 +9,13 @@
   "en": "A cooling, sweet-tart Venezuelan drink made by dissolving papelón, an unrefined cane sugar block, in water with fresh lime juice and serving it over ice. It is especially popular on hot days, with meals, and from street vendors."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "100 g papelón (kamış şekeri bloğu), ince rendelenmiş veya küçük parçalara ayrılmış",
    "1 litre su",
-   "3 adet limonun suyu (yaklaşık 120 ml)",
+   "3 limonun suyu (yaklaşık 120 ml)",
    "Servis için bol buz",
    "4 dilim lime veya limon"
   ],
@@ -53,5 +53,13 @@
   "tr": "Papelón'un tatlılığı markadan markaya değişir; limon suyunu kademeli ekleyip damak zevkinize göre ayarlayın.",
   "en": "Papelón sweetness varies by brand, so add the lime juice gradually and adjust to taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (20) omits the cooling and at-least-1-hour chilling steps, so the stated total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

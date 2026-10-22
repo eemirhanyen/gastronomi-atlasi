@@ -9,20 +9,22 @@
   "en": "Nasi padang is a rice-based meal from West Sumatra in Indonesia, served with several spiced dishes, and it is eaten at lunch and dinner across Singapore. This recipe covers ayam gulai, the Padang-style chicken curry that is among the most common dishes in the spread, served here over steamed rice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "800 g kemikli tavuk (but ve baget), derisi alınmış ve parçalanmış",
    "400 ml koyu hindistancevizi sütü",
-   "300 ml su, bir kısmı pişirme için",
+   "60 ml su (macun için)",
+   "300 ml su (köri için)",
+   "450 ml su (pirinç için)",
    "300 g yasemin pirinci (çiğ)",
    "6 kuru soğan (yaklaşık 90 g)",
    "4 diş sarımsak (yaklaşık 12 g)",
    "4 kırmızı biber (yaklaşık 40 g)",
    "25 g taze zencefil",
    "25 g taze zerdeçal (yoksa 1 tatlı kaşığı öğütülmüş zerdeçal)",
-   "3 adet kuru fındık veya kaju (yaklaşık 15 g)",
+   "3 adet kandil fındığı (kemiri) veya makadamya (yaklaşık 15 g)",
    "2 adet lemongrass (limon otu) sapı, dövülmüş",
    "3 adet kaffir limon yaprağı",
    "1 tatlı kaşığı öğütülmüş kişniş",
@@ -35,7 +37,9 @@
   "en": [
    "800 g bone-in chicken (thighs and drumsticks), skin removed and cut into pieces",
    "400 ml thick coconut milk",
-   "300 ml water, part for cooking",
+   "60 ml water (for the paste)",
+   "300 ml water (for the curry)",
+   "450 ml water (for the rice)",
    "300 g jasmine rice (uncooked)",
    "6 shallots (about 90 g)",
    "4 garlic cloves (about 12 g)",
@@ -56,14 +60,14 @@
  "steps": {
   "tr": [
    "Pirinci bir kasede 3-4 kez durulayıp suyu berraklaşana kadar yıkayın, süzün ve 10 dakika bekletin.",
-   "Kuru soğan, sarımsak, kırmızı biber, zencefil, zerdeçal ve kuru fındık veya kajuyu 60 ml suyla birlikte blender'da pürüzsüz bir macun haline gelene kadar çekin.",
+   "Kuru soğan, sarımsak, kırmızı biber, zencefil, zerdeçal ve kandil fındığı (veya makadamya) ile 60 ml suyu blender'da pürüzsüz bir macun haline gelene kadar çekin.",
    "Geniş bir tencerede bitkisel yağı orta-yüksek ateşte ısıtın. Macunu, dövülmüş lemongrass ve kaffir limon yapraklarıyla birlikte ekleyin.",
    "Macunu 8 dakika kadar, yağ yüzeye ayrılıp güzel bir koku çıkana kadar kısık-orta ateşte kavurun. Yanmaması için sık sık karıştırın.",
    "Öğütülmüş kişniş ve kimyonu ekleyip 1 dakika daha kavurun.",
    "Tavuk parçalarını tencereye alın ve baharatlı macunla iyice kaplanana kadar 5 dakika karıştırarak pişirin.",
    "300 ml suyu, tamarind macununu ve tuzu ekleyin. Kapağı kapalı olarak kısık ateşte 15 dakika pişirin.",
    "Hindistancevizi sütünü ve toz şekeri ekleyin. Kapağı açık bırakıp ara sıra karıştırarak 20 dakika daha, sos kıvamlanıp tavuk yumuşayana kadar pişirin.",
-   "Bu sırada pirinci 450 ml suyla (pirinç miktarının 1,5 katı) bir tencereye koyun, kaynayınca ateşi kısın, kapağı kapatıp suyunu çekene kadar yaklaşık 15 dakika pişirin, son 5 dakika altını kapalı tutarak dinlendirin.",
+   "Bu sırada pirinci 450 ml suyla (pirinç miktarının 1,5 katı) bir tencereye koyun, kaynayınca ateşi kısın, kapağı kapatıp suyunu çekene kadar yaklaşık 15 dakika pişirin. Ardından ocaktan alın ve kapağı kapalı halde 5 dakika dinlendirin.",
    "Pişen pirinci tabaklara alın, üzerine sıcak tavuk gulai'yi gezdirerek servis yapın."
   ],
   "en": [
@@ -80,8 +84,21 @@
   ]
  },
  "tip": {
-  "tr": "Kaffir limon yaprağını ve lemongrass'ı kullanırken yaprakları ince ince doğrayın; kıvamı koyulaştırmak için sos fazla su kaybederse ateşi kısın ve kapağı açık pişirin.",
+  "tr": "Kaffir limon yapraklarını ve lemongrass'ı eklemeden önce lemongrass'ı iyice dövün ve kaffir limon yapraklarını elle yırtın; böylece aromaları sosa geçer. Gulai çok koyulaşırsa biraz su ekleyin; çok sulu kalırsa kapağı açık olarak birkaç dakika daha pişirin.",
   "en": "Bruise the lemongrass well and tear the kaffir lime leaves before adding them so their flavour releases into the sauce. If the gulai gets too thick, add a splash of water; if it's too thin, simmer it uncovered a few minutes longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantities are inconsistent: the ingredient list gives 300 ml water 'part for cooking', but the steps use 60 ml for the paste, 300 ml for the curry and 450 ml for the rice. The rice water is not",
+   "Turkish 'kuru fındık' is a mistranslation of 'candlenut' (kandil fındığı/kemiri). Dried hazelnut is not a substitute for candlenut.",
+   "Turkish step 9 says to keep the rice covered during the last 5 minutes, but the English says to rest it covered off the heat. The two versions disagree.",
+   "Turkish tip contradicts the English tip. Turkish says to lower the heat if the sauce loses too much water to thicken it. English says to add water if it is too thick and simmer uncovered if it is too ",
+   "Turkish tip says to finely chop the kaffir lime leaves, while the English says to tear them. The two versions disagree.",
+   "Total time of 60 minutes is too short for the steps listed (about 10 min soaking, blending, roughly 55 min of curry cooking and rice cooking, with some overlap)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

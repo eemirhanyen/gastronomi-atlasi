@@ -35,13 +35,13 @@
   "tr": [
    "Jaggery'yi 100 ml suyla orta-kısık ateşte yaklaşık 5 dakika eritin, tamamen çözündüğünde süzün ve ılınmasını bekleyin.",
    "Pirinç unu, öğütülmüş kakule ve tuzu geniş bir kapta karıştırın.",
-   "Ilık jaggery şırıngasını azar azar unun üzerine dökerek yoğurun. Yumuşak, elde yapışmayan bir hamur elde edene kadar yaklaşık 5 dakika yoğurun.",
+   "Ilık jaggery şırasını azar azar unun üzerine dökerek yoğurun. Yumuşak, elde yapışmayan bir hamur elde edene kadar yaklaşık 5 dakika yoğurun.",
    "Hamuru üzerini örtüp oda sıcaklığında 30 dakika dinlendirin.",
    "Susamı kuru bir tavada orta ateşte 2 dakika, hafifçe kokusu çıkana kadar kavurun ve soğumaya bırakın.",
    "Hamuru 16 eşit parçaya bölün (yaklaşık 25 g). Her parçayı avuçlarınız arasında yuvarlayıp hafifçe bastırarak yaklaşık 7 cm çapında, 5 mm kalınlığında yassı bir disk haline getirin.",
    "Disklerin bir yüzüne kavrulmuş susamı bastırarak yapıştırın.",
    "Derin bir tencerede yağı 170°C'ye kadar ısıtın.",
-   "Diskleri 3-4 adet olacak şekilde susamlı yüzleri yukarı bakacak biçimde yağa bırakın. Her iki yüzü de altın rengi olana kadar yaklaşık 2-3 dakika kızartın.",
+   "Diskleri 3-4 adet olacak şekilde susamlı yüzleri yukarı bakacak biçimde yağa bırakın. Her iki yüzü de altın rengi olana kadar, her yüz yaklaşık 3-4 dakika kızartın; içi tam pişsin diye ateşi gerekirse hafifçe düşürün.",
    "Kızarmış atirasaları delikli kevgirle çıkarıp kağıt havlu veya tel raf üzerinde süzün ve tamamen soğumasını bekleyin.",
    "Soğuyunca hava almayan bir kavanozda saklayın."
   ],
@@ -54,7 +54,7 @@
    "Divide the dough into 16 equal pieces (about 25 g each). Roll each piece between your palms, then flatten it into a disc about 7 cm across and 5 mm thick.",
    "Press the toasted sesame seeds onto one side of each disc so they stick.",
    "Heat the oil to 170°C in a deep pan.",
-   "Lower 3-4 discs into the oil, sesame side up. Fry for 2-3 minutes per side until golden brown on both faces.",
+   "Lower 3-4 discs into the oil, sesame side up. Fry each side for about 3-4 minutes until golden brown, lowering the heat slightly if needed so the centre cooks through.",
    "Lift the athirasa out with a slotted spoon, drain on paper towels or a wire rack, and let them cool completely.",
    "Once cool, store them in an airtight jar."
   ]
@@ -63,5 +63,14 @@
   "tr": "Geleneksel atirasalar genellikle bir gece boyunca mayalandırılır; evde daha kolay ve hafif bir sonuç için 30 dakikalık dinlendirme yeterlidir. Yağın sıcaklığını ölçerek tutmak, içinin pişmeden dışının koyulaşmasını önler.",
   "en": "Traditional athirasa is often fermented overnight; a 30-minute rest gives a simpler, lighter result at home. Keep the oil at a steady 170°C, since a lower temperature makes the sweets greasy and a higher one burns the outside before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 uses \"şırınga\" (syringe) instead of \"şıra\" (syrup), which is a wrong word and makes the step nonsensical.",
+   "Step 9 frying time of 2-3 minutes per side at 170°C is too short for a 5 mm raw rice-flour disc to cook through, so the centre may stay raw. The English version has the same problem."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A thin dough pocket filled with spiced minced meat and egg, folded and pan-fried until crisp. It is a popular street food and breakfast dish across Saudi Arabia, especially in the Hejaz and Najd regions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -55,7 +55,7 @@
   "tr": [
    "Unu, tuzu, 1 yemek kaşığı sıvı yağı ve ılık suyu yoğurarak yumuşak bir hamur elde edin. Yaklaşık 8 dakika yoğurun, üzerini örtüp 30 dakika dinlendirin.",
    "Geniş bir tavada 2 yemek kaşığı sıvı yağı orta ateşte ısıtın. Soğanı altın rengi alana kadar yaklaşık 8 dakika soteleyin, sarımsağı ekleyip 1 dakika daha pişirin.",
-   "Kıymayı ekleyip ayırarak çiğliği kalmayana kadar yaklaşık 8 dakika pişirin. Rendelenmiş domatesi, kimyonu, kişnişi, kakuleyi, karabiberi ve tuzu ekleyip 3 dakika daha karıştırarak pişirin.",
+   "Kıymayı ekleyip ayırarak pembeliği kalmayana kadar yaklaşık 8 dakika pişirin. Rendelenmiş domatesi, kimyonu, kişnişi, kakuleyi, karabiberi ve tuzu ekleyip 3 dakika daha karıştırarak pişirin.",
    "Ocaktan alın, maydanozu ekleyin ve harcın ılımasını bekleyin. Yaklaşık 10 dakika sonra çırpılmış yumurtaları karıştırın.",
    "Hamuru 4 eşit topa bölün. Her topu çok ince, yaklaşık 25 cm çapında bir yuvarlak açın.",
    "Her hamurun ortasına harcın dörtte birini yayın, kenarlarda boşluk bırakın. Kenarları içe doğru katlayarak kare bir zarf şekli verin.",
@@ -77,5 +77,14 @@
   "tr": "Hamuru mümkün olduğunca ince açın; kızartırken gevrek, içi ise sulu kalması için harcı iyice soğutmadan kullanmayın.",
   "en": "Roll the dough as thin as possible, and let the filling cool before adding the eggs so the inside stays moist while the outside gets crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low for the steps: 30 min dough rest, about 8 min kneading, roughly 25 min of sautéing and cooling the filling, and about 25 min of frying four mutabbaq in batches. The realistic ",
+   "Turkish step 3 says 'çiğliği kalmayana kadar'. The natural phrasing for meat cooked through is 'pembeliği kalmayana kadar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

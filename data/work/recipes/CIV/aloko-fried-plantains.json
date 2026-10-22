@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "800 g olgun plantain muzu (kabukları siyaha dönmüş olanlar)",
-   "500 ml kavurma için nötr bitkisel yağ",
+   "500 ml kızartma için nötr bitkisel yağ",
    "1 çay kaşığı tuz",
    "1 küçük acı biber (Scotch bonnet veya benzeri), ince doğranmış"
   ],
@@ -49,5 +49,13 @@
   "tr": "Muzların kabuğu ne kadar siyah ve yumuşaksa, içi o kadar tatlı ve kremsi olur; sert ve yeşil muzlar yerine olgun olanları seçin.",
   "en": "The blacker and softer the skin, the sweeter and creamier the flesh; choose very ripe plantains rather than firm green ones."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line uses \"kavurma\" (sautéing/roasting) for the frying oil; the correct culinary term for deep-frying is \"kızartma\", matching the English \"for frying\" and the Turkish steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

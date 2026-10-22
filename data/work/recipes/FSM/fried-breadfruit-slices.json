@@ -5,7 +5,7 @@
  },
  "native": "Mei",
  "desc": {
-  "tr": "Mikronezya'da, özellikle Pohnpei ve Chuuk adalarında kahvaltıda yenen basit bir atıştırmalıktır. Olgun ama henüz yumuşamamış ekmek ağacı meyvesi dilimlenip kızartılır ve tatlandırılarak servis edilir.",
+  "tr": "Mikronezya'da, özellikle Pohnpei ve Chuuk adalarında kahvaltıda yenen basit bir atıştırmalıktır. Olgun ama henüz yumuşamamış ekmek ağacı meyvesi dilimlenip kızartılır, tatlandırılarak ve genellikle hindistancevizi kremasıyla birlikte servis edilir.",
   "en": "A simple breakfast snack eaten across the islands of Micronesia, especially Pohnpei and Chuuk. Firm, mature breadfruit is sliced, fried until golden, and served sweetened, often with coconut cream."
  },
  "servings": 4,
@@ -32,7 +32,7 @@
  "steps": {
   "tr": [
    "Ellerinize ve bıçağınıza az miktarda yağ sürün; ekmek ağacı meyvesi kesildiğinde çıkan beyaz özsu yapışkandır.",
-   "Meyveyi soyun, dört parçaya bölün ve ortadaki sert özlü kısmı çıkarın.",
+   "Meyveyi soyun, dört parçaya bölün ve ortadaki sert çekirdek kısmını çıkarın.",
    "Parçaları yaklaşık 1 cm kalınlığında dilimleyin.",
    "Bir tencerede 2 litre suyu 1 tatlı kaşığı tuzla kaynatın, dilimleri ekleyip 8-10 dakika, hafifçe yumuşayana kadar haşlayın.",
    "Dilimleri süzün ve temiz bir bezle kurulayın.",
@@ -57,5 +57,14 @@
   "tr": "Dilimleri kızartmadan önce iyice kurulayın; nem yağın sıçramasına neden olur ve kızarmayı zorlaştırır.",
   "en": "Dry the slices thoroughly before frying; moisture causes oil to spatter and prevents even browning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says 'sert özlü kısmı', which is an unnatural/incorrect term; it should be 'sert çekirdek kısmı'.",
+   "Turkish description omits the coconut cream serving that the English description mentions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

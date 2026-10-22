@@ -9,7 +9,7 @@
   "en": "A herb-rich Iranian stew made with lamb, kidney beans and dried limes, cooked with large amounts of fresh herbs. It is eaten across Iran, especially at family gatherings and during Nowruz, served with steamed rice."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 190,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -69,7 +69,16 @@
  },
  "tip": {
   "tr": "Otları yeterince uzun süre kavurun; yemeğin rengi koyu yeşil olup kokusu tatlaşmalıdır. Acı tat çıkarsa kuru limonların içini delip yemeğe bırakın.",
-  "en": "Fry the herbs long enough that the stew turns dark green and smells deep and sweet, not grassy. If it tastes bitter, the herbs were undercooked, so cook longer next time."
+  "en": "Fry the herbs long enough that the stew turns dark green and smells deep and sweet, not grassy. If it tastes bitter, pierce the dried limes and leave them in the stew to release their sourness; if the bitterness persists, the herbs were undercooked, so fry them longer next time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English tip omits the Turkish advice about piercing the dried limes to release their sour flavor if the stew tastes bitter, so the two versions disagree.",
+   "time_min is 150, but the steps add up to about 190 minutes (40 min bean boiling plus 150 min of the other steps), excluding overnight soaking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

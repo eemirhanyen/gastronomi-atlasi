@@ -17,7 +17,7 @@
    "2000 ml su",
    "1 tatlı kaşığı tuz",
    "1 tatlı kaşığı sıvı yağ",
-   "100 g domuz bonfile",
+   "100 g domuz sırt eti",
    "1 tatlı kaşığı soya sosu",
    "1 tatlı kaşığı nişasta",
    "20 g taze zencefil",
@@ -49,12 +49,12 @@
    "Büyük bir tencerede pirinç, 2000 ml su ve sıvı yağı karıştırın. Kaynayana kadar orta-yüksek ateşte ısıtın.",
    "Ateşi kısın, kapağı yarı açık bırakın ve yaklaşık 50 dakika, pirinç taneleri dağılıp kıvamlı bir lapa oluncaya kadar ara sıra karıştırarak pişirin.",
    "Bu sırada yumurtaları kaynayan suda 6 dakika haşlayın, soğuk suya alıp kabuklarını soyun ve ikiye bölün.",
-   "Domuz bonfileyi ince dilimler halinde kesin. Soya sosu, nişasta ve beyaz biberle karıştırıp 10 dakika bekletin.",
-   "Tuzlu turbu soğuk suda hızlıca yıkayın, tuzunu azaltmak için süzüp ince doğrayın ve kuru bir tavada 2 dakika hafifçe kavurun.",
+   "Domuz sırt etini ince dilimler halinde kesin. Soya sosu, nişasta ve beyaz biberle karıştırıp 10 dakika bekletin.",
+   "Tuzlu turpu soğuk suda hızlıca yıkayın, tuzunu azaltmak için süzüp ince doğrayın ve kuru bir tavada 2 dakika hafifçe kavurun.",
    "Zencefili çok ince doğrayın. Yeşil soğanın beyaz ve yeşil kısımlarını ayrı ayrı ince kıyın.",
-   "Lapa kıvama geldiğinde zencefili ekleyip 5 dakika daha pişirin. Ardından marine edilmiş domuz etini ekleyin ve 2-3 dakika, et tamamen pişene kadar karıştırın.",
+   "Lapa kıvama geldiğinde zencefil ve yeşil soğanın beyaz kısmını ekleyip 5 dakika daha pişirin. Ardından marine edilmiş domuz etini ekleyin ve 2-3 dakika, et tamamen pişene kadar karıştırın.",
    "Tuzu ekleyip tadına bakarak ayarlayın. Ocağı kapatın ve susam yağını gezdirin.",
-   "Lapayı kaseye alın; üzerine yumurta yarımlarını, kavrulmuş tuzlu turbu, yeşil soğanı ve bir tutam beyaz biberi ekleyip sıcak servis yapın."
+   "Lapayı kaseye alın; üzerine yumurta yarımlarını, kavrulmuş tuzlu turpu, yeşil soğanın yeşil kısmını ve bir tutam beyaz biberi ekleyip sıcak servis yapın."
   ],
   "en": [
    "Rinse the rice in cold water 3 times and drain.",
@@ -64,14 +64,24 @@
    "Slice the pork loin thinly. Mix with soy sauce, cornstarch and white pepper and leave to marinate for 10 minutes.",
    "Rinse the preserved radish quickly in cold water to reduce its saltiness, drain, finely chop it and dry-fry in a dry pan for 2 minutes.",
    "Finely julienne the ginger. Thinly slice the white and green parts of the spring onions separately.",
-   "When the congee reaches a thick consistency, add the ginger and cook for 5 more minutes. Then add the marinated pork and stir for 2-3 minutes until just cooked through.",
+   "When the congee reaches a thick consistency, add the ginger and the white parts of the spring onions and cook for 5 more minutes. Then add the marinated pork and stir for 2-3 minutes until just cooked through.",
    "Season with salt and adjust to taste. Turn off the heat and drizzle in the sesame oil.",
-   "Ladle the congee into bowls, top with the halved eggs, fried preserved radish, spring onion greens and a pinch of white pepper, and serve hot."
+   "Ladle the congee into bowls, top with the halved eggs, fried preserved radish, green parts of the spring onions and a pinch of white pepper, and serve hot."
   ]
  },
  "tip": {
   "tr": "Pirinç lapası kalınlaştıkça yapışıp tencerenin dibini tutabilir; pişirme sırasında sık sık karıştırın ve gerekirse sıcak su ekleyerek kıvamını ayarlayın.",
   "en": "As the congee thickens it can stick to the bottom of the pot, so stir often and add hot water if needed to adjust the consistency."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Spring onion white parts are prepared in step 7 but never used in the cooking steps.",
+   "Turkish spelling error: 'tuzlu turbu' should be 'tuzlu turpu' (steps 6 and 10).",
+   "Pork cut mismatch: Turkish 'domuz bonfile' means tenderloin, but English says 'pork loin'. Turkish changed to 'domuz sırt eti' to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

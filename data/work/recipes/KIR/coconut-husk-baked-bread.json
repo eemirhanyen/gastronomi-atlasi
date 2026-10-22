@@ -17,14 +17,14 @@
    "300 g kuru hindistan cevizi kabuğu (yaklaşık 2 adet, parçalar halinde)",
    "30 ml hindistan cevizi yağı",
    "5 g tuz (1 çay kaşığı)",
-   "1 m pamuklu mutfak ipi"
+   "2 m pamuklu mutfak ipi"
   ],
   "en": [
    "1 kg firm, unripe breadfruit (te kamai)",
    "300 g dried coconut husk (about 2 husks, cut into pieces)",
    "30 ml coconut oil",
    "5 g salt (1 tsp)",
-   "1 m cotton kitchen string"
+   "2 m cotton kitchen string"
   ]
  },
  "steps": {
@@ -48,8 +48,18 @@
   ]
  },
  "tip": {
-  "tr": "Ekmek ağacı meyvesi olgunlaşmamış ve sert olmalıdır; yumuşak meyve pişerken dağılır. Kabuk bulamıyorsanız, meyveyi alüminyum folyoya sararak aynı şekilde pişirebilirsiniz.",
-  "en": "Choose firm, unripe breadfruit, since soft fruit falls apart during baking. If you cannot find husk, wrap the pieces in foil and bake them the same way. Note that this is a home adaptation; the fruit itself is the authentic base, but a bread-style version is not a documented Kiribati dish."
+  "tr": "Ekmek ağacı meyvesi olgunlaşmamış ve sert olmalıdır; yumuşak meyve pişerken dağılır. Kabuk bulamıyorsanız, meyveyi alüminyum folyoya sararak aynı şekilde pişirebilirsiniz. Not: Geleneksel yöntem kızgın küllerde pişirmektir; fırın uygulaması bu tarifin ev uyarlamasıdır.",
+  "en": "Choose firm, unripe breadfruit, since soft fruit falls apart during baking. If you cannot find husk, wrap the pieces in foil and bake them the same way. Note: the traditional method is roasting in embers; the oven method here is a home adaptation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "1 m of string is too short for 8 separate wrapped pieces, since each piece needs its own tied wrap (about 25 cm each, so roughly 2 m).",
+   "The English tip says a bread-style version is not a documented Kiribati dish, which is confusing next to the description's claim that the fruit is traditionally cooked in embers. The tip should clearl",
+   "The dish name says 'bread' while the recipe is breadfruit. The Turkish and English titles already call it breadfruit, so this is only a naming note."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

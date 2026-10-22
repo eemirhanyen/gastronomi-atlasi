@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Kuru üzümleri küçük bir kaseye alın, üzerine rakija (ya da rom) dökün ve en az 15 dakika bekleterek şıra çekmesini sağlayın.",
+   "Kuru üzümleri küçük bir kaseye alın, üzerine rakija (ya da rom) dökün ve en az 15 dakika bekleterek şişip yumuşamasını sağlayın.",
    "Yumurtaları ve toz şekeri bir karıştırma kabında pamuk gibi kabarana kadar, yaklaşık 3 dakika çırpın. Bir tutam tuz ekleyin.",
    "Yoğurdu, sütü, vanilya özünü ve limon kabuğunu ekleyip homojen olana kadar karıştırın.",
    "Unu kabartma tozu ile birlikte eleyin, yumurtalı karışıma azar azar ekleyerek spatulayla yumuşak bir hamur elde edin. Kıvam kalın bir krema kıvamında olmalı; topaklı kalmamalıdır.",
@@ -73,5 +73,13 @@
   "tr": "Hamuru yağa koymadan önce kaşıkları yağa batırmak, hamurun kaşıktan kolayca ayrılmasını sağlar ve fritulelerin yuvarlak kalmasına yardımcı olur.",
   "en": "Dip your spoons in the hot oil before scooping; the batter will slide off cleanly and the fritule will keep their round shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"şıra çekmesini\" (drawing juice), which is unnatural for raisins soaking in liquor. The English says \"plump up\", so the Turkish should say the raisins swell and soften (şişip yumuş"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

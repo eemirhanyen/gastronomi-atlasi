@@ -23,7 +23,7 @@
    "1 yemek kaşığı tatlı kırmızı biber",
    "1 tatlı kaşığı acı kırmızı biber veya pul biber",
    "1 yemek kaşığı domates salçası",
-   "100 ml beyaz şarap sirkesi",
+   "80 ml beyaz şarap sirkesi",
    "500 ml su veya hafif et suyu",
    "300 g patates, soyulmuş ve küp doğranmış",
    "1 tatlı kaşığı tuz (tadına göre)",
@@ -41,7 +41,7 @@
    "1 tbsp sweet paprika",
    "1 tsp hot paprika or chilli flakes",
    "1 tbsp tomato paste",
-   "100 ml white wine vinegar",
+   "80 ml white wine vinegar",
    "500 ml water or light stock",
    "300 g potatoes, peeled and cubed",
    "1 tsp salt, or to taste",
@@ -52,7 +52,7 @@
  "steps": {
   "tr": [
    "Ciğer ve kalbin zarlarını, damarlarını ve fazla yağını temizleyin. Böbreğin beyaz çekirdek kısmını çıkarıp tüm organları 3 cm'lik parçalara kesin.",
-   "Doğranmış organları bir kaseye alın. İçine 60 ml sirke, 2 diş ezilmiş sarımsak ve 1/2 tatlı kaşığı tuz ekleyip karıştırın. Oda sıcaklığında 20 dakika bekletin.",
+   "Doğranmış organları bir kaseye alın. İçine 60 ml sirke, 2 diş ezilmiş sarımsak ve 1/2 tatlı kaşığı tuz ekleyip karıştırın. Buzdolabında 30 dakika bekletin.",
    "Kalın tabanlı bir tencerede orta ateşte yağ parçalarını 5 dakika kızartın. Kıtır kalan parçaları çıkarıp yalnızca yağı tencerede bırakın.",
    "Doğranmış soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 8 dakika pişirin.",
    "Kalan sarımsağı, tatlı ve acı kırmızı biberi ekleyip 30 saniye karıştırın. Biberlerin yanmamasına dikkat edin.",
@@ -64,8 +64,8 @@
    "Doğranmış maydanozla süsleyip sıcak servis yapın. Pirinç pilavı veya ekmekle birlikte sunun."
   ],
   "en": [
-   "Clean the liver and heart, removing membranes, tubes and excess fat. Cut the kidney in half, remove the white core, then cut all the offal into 3 cm pieces.",
-   "Place the offal in a bowl. Add 60 ml vinegar, 2 crushed garlic cloves and 1/2 tsp salt, mix well and leave at room temperature for 20 minutes.",
+   "Clean the liver and heart, removing membranes, tubes and excess fat. Remove the white core from the kidney, then cut all the offal into 3 cm pieces.",
+   "Place the offal in a bowl. Add 60 ml vinegar, 2 crushed garlic cloves and 1/2 tsp salt, mix well and refrigerate for 30 minutes.",
    "In a heavy pot over medium heat, fry the fat cubes for 5 minutes. Remove the crisp pieces and leave only the rendered fat in the pot.",
    "Add the chopped onion and cook for about 8 minutes until soft and lightly golden.",
    "Stir in the remaining garlic, sweet paprika and hot paprika and cook for 30 seconds, taking care not to burn the spices.",
@@ -81,5 +81,15 @@
   "tr": "Organları sirkeyle önceden marine etmek hem kokuyu azaltır hem de etin daha yumuşak olmasını sağlar; sirkeyi en sonda eklemek tadını canlı tutar.",
   "en": "Marinating the offal in vinegar beforehand reduces strong odours and tenderises the meat, while adding the final splash of vinegar at the end keeps the flavour bright."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Vinegar amount mismatch: ingredients list 100 ml, but the steps use 60 ml + 20 ml = 80 ml (Turkish and English).",
+   "Food safety: raw offal is marinated at room temperature for 20 minutes. It should be refrigerated.",
+   "English step 1 says to cut the kidney in half, but the Turkish step does not mention this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -47,7 +47,7 @@
    "Rendelenmiş domatesi ekleyin ve suyunu çekene kadar yaklaşık 5 dakika pişirin.",
    "Dilimlenmiş füme sucuğu tavaya ekleyip 3 dakika hafifçe kızartın.",
    "Fasulyeleri bir fırın kabına alın, tavadaki soğanlı karışımı üzerine ekleyin, tuz, karabiber ve sıcak suyu ilave edip nazikçe karıştırın.",
-   "Kalan 30 ml ayçiçek yağını üzerine gezdirin ve kabı önceden ısıtılmış fırında yaklaşık 30 dakika pişirin. Yüzey kururwhile fazla gelirse birkaç yemek kaşığı sıcak su ekleyin.",
+   "Kalan 30 ml ayçiçek yağını üzerine gezdirin ve kabı önceden ısıtılmış fırında yaklaşık 30 dakika pişirin. Yüzey kurumuş görünürse birkaç yemek kaşığı sıcak su ekleyin.",
    "Fırından çıkarıp 5 dakika dinlendirin, doğranmış maydanozla süsleyip sıcak servis yapın."
   ],
   "en": [
@@ -65,5 +65,13 @@
   "tr": "Haşlanmış fasulye yerine kuru fasulye kullanacaksanız, önceki gece ıslatıp yumuşayana kadar haşlayın; bu durumda süre belirgin şekilde uzar.",
   "en": "If you use dried beans instead, soak them overnight and simmer until tender before starting; this adds at least 1 to 1.5 hours."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 contains garbled text (\"Yüzey kururwhile fazla gelirse\"), which should read as \"Yüzey kurumuş görünürse\" to match the English meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

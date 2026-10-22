@@ -3,7 +3,7 @@
   "tr": "Ekmek ağacı cipsi",
   "en": "Breadfruit chips"
  },
- "native": "mãi",
+ "native": "māi",
  "desc": {
   "tr": "Marshall Adaları'nda ekmek ağacı meyvesinden yapılan, ince dilimlenip kızartılmış çıtır bir atıştırmalıktır. Genellikle sohbet ederken, adalar arası yolculuklarda ve festivallerde ikram edilir.",
   "en": "A crisp snack of thinly sliced, fried breadfruit, eaten in the Marshall Islands when visiting, travelling between atolls and at community gatherings."
@@ -53,5 +53,13 @@
   "tr": "Dilimleri birbirine değmeyecek şekilde küçük partiler halinde kızartın; yağ sıcaklığı düşerse cipsler yağlı ve yumuşak olur.",
   "en": "Fry in small batches and keep the oil at 170°C; if the temperature drops the chips turn greasy and soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The native name 'mãi' uses a tilde, which is not standard Marshallese orthography (long vowels are marked with a macron). It should likely be 'māi'. Verify against a Marshallese source."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

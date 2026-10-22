@@ -26,7 +26,7 @@
    "1/4 çay kaşığı öğütülmüş tarçın",
    "1/8 çay kaşığı çemen tozu",
    "10 g berbere baharatı",
-   "3 yemek kaşığı bal (yaklaşık 45 g)"
+   "3 yemek kaşığı bal (yaklaşık 60 g)"
   ],
   "en": [
    "250 g plain flour",
@@ -42,7 +42,7 @@
    "1/4 tsp ground cinnamon",
    "1/8 tsp ground fenugreek",
    "10 g berbere spice blend",
-   "3 tbsp honey (about 45 g)"
+   "3 tbsp honey (about 60 g)"
   ]
  },
  "steps": {
@@ -73,5 +73,13 @@
   "tr": "Biraz bayat ekmek kullanırsanız çeçebsa daha çıtır olur ve baharatlı yağı daha iyi emer.",
   "en": "Using slightly stale flatbread gives a crispier texture and lets the spiced butter soak in better."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Honey quantity conversion is wrong: 3 tablespoons of honey weighs about 60 g, not 45 g (in both the Turkish and English versions)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

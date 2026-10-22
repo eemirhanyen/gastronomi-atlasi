@@ -50,11 +50,11 @@
    "Elmaları soyup çekirdek yuvalarını çıkarın, yaklaşık 3 mm kalınlığında dilimleyin. Toz şeker, tarçın ve limon kabuğu rendesiyle karıştırın.",
    "Kuru üzümleri 10 dakika ılık suda bekletin, süzün ve elmalara ekleyip harmanlayın.",
    "Tavada 60 g tereyağını orta ateşte eritin, galeta ununu ekleyip 4-5 dakika altın rengi alana kadar kavurun. Ocaktan alıp soğumaya bırakın.",
-   "Fırını 180°C'ye ısıtın. Fırın tepsisine pişirme kağıdı serin.",
+   "Fırını 180°C'ye ısıtın. Fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Hamuru bir örtünün üzerinde, unlu bir yüzeyde önce oklavayla inceltin. Ardından elinizin sırtını kullanarak, neredeyse ışık geçecek kadar ince açın. Kenarlarındaki kalın kısımları kesip atın.",
    "Hamurun üzerine 30 g eritilmiş tereyağı sürün. Galeta unu serpin ve uzak kenardan 5 cm boşluk bırakarak elmalı karışımı yayın.",
    "Kenarları içe doğru katlayın, örtü yardımıyla hamuru sıkıca rulo yapın. Dikiş kısmı altta kalacak şekilde tepsiye alın.",
-   "Ruloyun üzerine kalan eritilmiş tereyağının yarısını fırçalayın, birkaç yerden kesik atın. 35-40 dakika, altın rengi olana kadar pişirin.",
+   "Ruloyun üzerine kalan eritilmiş tereyağının tamamını fırçalayın, birkaç yerden kesik atın. 35-40 dakika, altın rengi olana kadar pişirin.",
    "Ruloyu fırından çıkarıp 10 dakika dinlendirin. Üzerine pudra şekeri eleyin, dilimleyip servis yapın."
   ],
   "en": [
@@ -67,7 +67,7 @@
    "On a floured cloth, roll the dough out thinly with a rolling pin, then stretch it over the backs of your hands until almost transparent. Trim off any thick edges.",
    "Brush the dough with 30 g of the melted butter. Sprinkle over the toasted breadcrumbs and spread the apple filling evenly, leaving a 5 cm border at the far edge.",
    "Fold the side edges inwards, then roll up the dough tightly using the cloth. Transfer to the tray with the seam side down.",
-   "Brush the roll with the remaining melted butter and cut a few slits on top. Bake for 35-40 minutes until golden brown.",
+   "Brush the roll with all the remaining melted butter and cut a few slits on top. Bake for 35-40 minutes until golden brown.",
    "Leave to rest for 10 minutes, dust with icing sugar, then slice and serve."
   ]
  },
@@ -75,5 +75,14 @@
   "tr": "Hamuru yoğururken ne kadar ince açabildiğiniz önemlidir; hamur ne kadar incelirse rulo o kadar çıtır olur. Elmalar çok sulu olursa dolgu ıslanır, bu yüzden dilimlerken kalın değil ince kesin.",
   "en": "The thinner you can stretch the dough, the crisper the strudel will be. If the apples are very juicy the filling will make the pastry soggy, so slice them thinly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter is not fully used: 120 g is listed, but 60 g goes to the breadcrumbs and 30 g to the dough, leaving 30 g. The steps brush only half of the remainder, so about 15 g is never used. (Turkish and E",
+   "Turkish step 6 'Fırın tepsisine pişirme kağıdı serin' is unnatural phrasing; it should say the tray is lined with baking paper."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

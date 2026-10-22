@@ -9,7 +9,7 @@
   "en": "A refreshing drink from Mali, especially Bamako, made with fresh ginger, lemon and sugar and served cold on hot days. It is sold by street vendors and offered to guests at home."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Zencefil ne kadar taze ve sert olursa içecek o kadar aromatik olur; daha yumuşak bir tat için süzmeden önce suyu biraz daha uzun demlendirin.",
   "en": "The fresher and firmer the ginger, the more aromatic the drink; for a milder taste, let it steep a little longer before straining."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, but the steps require about 30 minutes of simmering and steeping plus at least 1 hour of chilling, so the total is at least 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -62,7 +62,7 @@
    "Rinse the red lentils well under cold water in a sieve and drain them.",
    "Heat the vegetable oil in a large pot over medium heat, add the chopped onion and sauté for about 8-10 minutes until golden.",
    "Add the crushed garlic and cook for 1 more minute, then stir in the tomato paste, cumin, coriander, turmeric and red pepper flakes and cook for 1 minute.",
-   "Add the grated tomatoes and cook for about 5 minutes until they release their liquid and thicken slightly.",
+   "Add the grated tomatoes and cook for about 5 minutes until most of their liquid has evaporated and the mixture thickens.",
    "Add the rinsed lentils and 1.5 litres of water to the pot, stir well and bring to a boil.",
    "Reduce the heat and simmer, partly covered, for about 25-30 minutes until the lentils are very soft and breaking down.",
    "Stir the soup with a spoon to check its consistency; if it is too thick, add a little hot water. Add the salt and taste for seasoning.",
@@ -73,5 +73,13 @@
   "tr": "Çorbayı daha pürüzsüz isterseniz pişmiş karışımı bir blenderdan geçirebilirsiniz; servis sırasında limon sıkmak tadı belirgin biçimde canlandırır.",
   "en": "For a smoother texture, blend the cooked soup briefly before serving; a squeeze of lemon just before eating brightens the flavor considerably."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 disagrees between versions: the Turkish says to cook until most of the tomato liquid has evaporated, while the English says they 'release their liquid and thicken slightly'. The English now mat"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

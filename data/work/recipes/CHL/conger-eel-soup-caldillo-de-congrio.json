@@ -23,7 +23,7 @@
    "30 ml zeytinyağı",
    "1 tatlı kaşığı tatlı kırmızı biber",
    "1 tatlı kaşığı kimyon",
-   "1/2 tatlı kaşığı kurutulmuş kekik veya kekik",
+   "1/2 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1 defne yaprağı",
    "1 kırmızı acı biber, çekirdekleri alınmış ve ince doğranmış",
    "60 ml kuru beyaz şarap",
@@ -77,5 +77,13 @@
   "tr": "Kongre balığı çok kısa sürede pişer; çorbayı şiddetli kaynatmayın, aksi halde et sertleşir ve dağılır.",
   "en": "Conger eel cooks quickly and turns tough if boiled hard, so keep the soup at a gentle simmer once the fish goes in."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line says \"kurutulmuş kekik veya kekik\", which is redundant and ambiguous. In Turkish \"kekik\" can mean thyme, while the English specifies oregano. The line should name the herb unam"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

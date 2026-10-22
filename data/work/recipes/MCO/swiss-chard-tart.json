@@ -28,7 +28,8 @@
    "1 yemek kaşığı toz şeker (15 g)",
    "¼ çay kaşığı rendelenmiş hindistan cevizi",
    "Tuz ve taze çekilmiş karabiber",
-   "1 yumurta sarısı (üzeri için)"
+   "1 yumurta sarısı (üzeri için)",
+   "1 yemek kaşığı su (üzeri için)"
   ],
   "en": [
    "200 g plain flour",
@@ -46,7 +47,8 @@
    "1 tablespoon caster sugar (15 g)",
    "¼ teaspoon grated nutmeg",
    "Salt and freshly ground black pepper",
-   "1 egg yolk (for glazing)"
+   "1 egg yolk (for glazing)",
+   "1 tablespoon water (for glazing)"
   ]
  },
  "steps": {
@@ -77,5 +79,13 @@
   "tr": "Pazıyı iyice sıkmak, dolgunun sulanıp hamuru ıslatmasını önler; ricotta yerine süzülmüş lor peyniri de kullanabilirsiniz.",
   "en": "Squeeze the chard very dry so the filling does not make the pastry soggy; well-drained cottage cheese can replace the ricotta."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 uses 1 tablespoon of water for the egg wash in both languages, but water is not in the ingredient lists (tr and en)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

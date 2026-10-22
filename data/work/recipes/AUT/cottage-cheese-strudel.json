@@ -43,12 +43,12 @@
  },
  "steps": {
   "tr": [
-   "Kuru üzümleri romla birlikte küçük bir kapta 15 dakika bekletin. Fırınınızı 180 °C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
+   "Kuru üzümleri romla birlikte küçük bir kapta 15 dakika bekletin. Fırınınızı 180 °C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Yumuşak tereyağını 80 g toz şekerle kremamsı bir kıvam alana kadar çırpın. Yumurta sarılarını birer birer ekleyip çırpmaya devam edin.",
    "Süzülmüş lor, limon kabuğu, vanilya özü ve irmiği ekleyip pürüzsüz bir karışım elde edene kadar karıştırın. Romda bekleyen kuru üzümleri süzerek karışıma ekleyin.",
    "Yumurta aklarını 30 g toz şekerle sert köpük olana kadar çırpın. Lor karışımına iki parça halinde, alttan üste doğru nazikçe katlayın.",
    "Yufkaları birbirinin üstüne 4'erli olarak iki grup halinde dizin. Her yaprağın üzerine eritilmiş tereyağı sürün. Lor karışımının yarısını yufkaların kısa kenarına, kenarlardan 5 cm boşluk bırakarak yayın.",
-   "Yufkayı dolgunun üzerinden sıkıca sarın ve sarmayı temiz bir mutfak bezinin yardımıyla kaydırarak tepsiye dikiş tarafı aşağıda gelecek şekilde yerleştirin. Diğer strudel için de aynı işlemi tekrarlayın.",
+   "Yufkaların yan kenarlarını dolgunun üzerine doğru katlayın, ardından sıkıca sarın. Sarmayı temiz bir mutfak bezinin yardımıyla kaydırarak tepsiye dikiş tarafı aşağıda gelecek şekilde yerleştirin. Diğer strudel için de aynı işlemi tekrarlayın.",
    "Strudelların üzerine kalan tereyağını sürün ve 35-40 dakika, altın rengi olana kadar pişirin. Yarı pişmede bir kez daha tereyağı sürmeniz hamurun daha gevrek olmasını sağlar.",
    "Fırından çıkan strudelları 10 dakika soğumaya bırakın, üzerine pudra şekeri serpin ve dilimleyerek servis edin."
   ],
@@ -67,5 +67,14 @@
   "tr": "Lorun suyunu iyice süzün; gece boyunca süzgeçte bekletmek hamurun ıslanmasını ve dolgunun dağılmasını önler.",
   "en": "Drain the quark overnight in a sieve lined with muslin. Wet quark makes the pastry soggy and the filling runny."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 omits folding the sides of the pastry over the filling before rolling, which the English version includes",
+   "Turkish step 1 'pişirme kağıdı serin' is unnatural; should be 'pişirme kağıdıyla kaplayın'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

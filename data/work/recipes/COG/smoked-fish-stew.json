@@ -6,7 +6,7 @@
  "native": "Makayabu",
  "desc": {
   "tr": "Kongo Cumhuriyeti'nin Brazzaville bölgesinde günlük yemeklerin vazgeçilmez parçasıdır. Tütsülenmiş balığın palmiye yağı ve domatesli sosta pişirilmesiyle hazırlanır ve genellikle chikwangue (manyok ekmeği) veya fufu ile servis edilir.",
-  "en": "A everyday staple in Brazzaville, Republic of the Congo, this stew simmers smoked fish in a palm oil and tomato sauce. It is usually served with chikwangue (cassava bread) or fufu."
+  "en": "An everyday staple in Brazzaville, Republic of the Congo, this stew simmers smoked fish in a palm oil and tomato sauce. It is usually served with chikwangue (cassava bread) or fufu."
  },
  "servings": 4,
  "time_min": 60,
@@ -15,7 +15,7 @@
   "tr": [
    "500 g tütsülenmiş balık (uskumru veya yayın balığı)",
    "80 ml palmiye yağı",
-   "2 orta boy soğan, ince doğranmış (about 200 g)",
+   "2 orta boy soğan, ince doğranmış (yaklaşık 200 g)",
    "3 diş sarımsak, ezilmiş",
    "300 g olgun domates, küp küp doğranmış",
    "15 g domates salçası",
@@ -56,12 +56,22 @@
    "Add the fish pieces to the sauce and stir gently, letting them cook together for a few minutes.",
    "Pour in the hot water, bring to a boil, then reduce the heat and simmer gently for 10 minutes.",
    "Add the eggplant cubes and the halved chili. Cook on low heat for about 12 minutes, until the eggplant is tender.",
-   "Season with salt and black pepper, taste, and adjust. Remove the chili if you prefer less heat. Serve hot with chikwangue or fufu."
+   "Season with salt and black pepper, taste, and adjust. Leave the chili in the sauce or remove it, depending on how much heat you want. Serve hot with chikwangue or fufu."
   ]
  },
  "tip": {
   "tr": "Tütsülenmiş balığı iyice tuzsuzlaştırmak için suyunu bir kez değiştirin; tuz ancak sos hazır olduktan sonra ekleyin.",
   "en": "Change the soaking water once if the fish is very salty, and add salt only at the end, after tasting the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line contains untranslated English: \"(about 200 g)\" should be \"(yaklaşık 200 g)\"",
+   "English description has a grammar error: \"A everyday staple\" should be \"An everyday staple\"",
+   "Chili handling differs between versions: Turkish step 7 says leave it in the sauce or remove it, but English only says remove it"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -15,7 +15,7 @@
   "tr": [
    "150 g yapışkan pirinç unu",
    "6 adet pandan yaprağı, kesilmiş",
-   "150 ml su (120 ml pandan suyu, 30 ml şeker eritmek için)",
+   "120 ml su (pandan suyu için)",
    "100 g gula melaka (palmiye şekeri), ince doğranmış",
    "120 g taze hindistancevizi rendesi",
    "1 g tuz (bir tutam)"
@@ -23,7 +23,7 @@
   "en": [
    "150 g glutinous rice flour",
    "6 pandan leaves, cut into pieces",
-   "150 ml water (120 ml for the pandan juice, 30 ml for melting the sugar)",
+   "120 ml water (for the pandan juice)",
    "100 g gula melaka (palm sugar), finely chopped",
    "120 g freshly grated coconut",
    "1 g salt (a pinch)"
@@ -35,9 +35,8 @@
    "Pirinç ununu pandan suyuyla yavaş yavaş karıştırarak yumuşak, kıvamlı bir hamur yoğurun. Hamur yapışıyorsa biraz un, kuruysa birkaç damla su ekleyin.",
    "Hamuru nemli bir bezle örtüp 10 dakika dinlendirin.",
    "Gula melakayı 12 küçük parçaya bölün ve dolgunun sertleşmesi için 15 dakika buzluğa koyun.",
-   "30 ml suyu küçük bir tencerede kaynatıp şekeri ekleyerek hafifçe eritin, ardından bir tabağa alıp soğumaya bırakın.",
    "Hindistancevizi rendesini tuzla karıştırın ve buharda 5 dakika bekletin. Soğumaya bırakın.",
-   "Hamuru 12 eşit parçaya bölün. Her parçayı avuç içinde yassılaştırın, ortasına bir parça gula melaka koyun ve kenarlarını kapatarak küçük toplar haline getirin.",
+   "Hamuru 12 eşit parçaya bölün. Her parçayı avuç içinde yassılaştırın, ortasına dondurulmuş bir parça gula melaka koyun ve kenarlarını kapatarak küçük toplar haline getirin.",
    "Büyük bir tencerede suyu kaynatın. Topları suya bırakın ve yüzeye çıkıp 2 dakika daha pişene kadar kaynamaya devam edin.",
    "Topları delikli kaşıkla alın, hafifçe süzdürün ve sıcakken buharda pişmiş hindistancevizi rendesine yuvarlayın.",
    "Hemen servis yapın; içleri sıcak ve akışkan olduğunda en lezzetlidirler."
@@ -47,7 +46,6 @@
    "Gradually mix the glutinous rice flour with the pandan juice to form a soft, pliable dough. Add a little flour if it sticks, or a few drops of water if it is dry.",
    "Cover the dough with a damp cloth and rest it for 10 minutes.",
    "Cut the gula melaka into 12 small pieces and freeze them for 15 minutes so they firm up and keep their shape.",
-   "Heat the remaining 30 ml of water in a small pan, add the sugar pieces and stir gently until partly melted. Transfer to a plate and let cool.",
    "Mix the grated coconut with the salt and steam it for 5 minutes. Spread it out to cool.",
    "Divide the dough into 12 equal portions. Flatten each one in your palm, place a piece of frozen palm sugar in the centre and seal the edges into a smooth ball.",
    "Bring a large pot of water to a rolling boil. Drop in the balls and cook for about 2 minutes after they float to the surface.",
@@ -59,5 +57,14 @@
   "tr": "Gula melakayı buzlukta sertleştirmek, dolgunun hamurdan sızmasını önler; topları dikkatlice kapatın, çünkü sızan şeker kaynayan suyu kirletir.",
   "en": "Freezing the palm sugar stops the filling from leaking, so seal each ball well; any leaked sugar will cloud the cooking water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 30 ml water is used to melt the gula melaka into a syrup in step 5, but that syrup is never used. Step 7 fills the balls with frozen sugar pieces, so the melting step and its water amount contradi",
+   "The Turkish step 7 filling does not say the palm sugar is frozen, while the English does and the tip depends on it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

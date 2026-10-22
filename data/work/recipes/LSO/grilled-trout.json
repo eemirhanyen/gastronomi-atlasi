@@ -42,12 +42,12 @@
  "steps": {
   "tr": [
    "Izgara ateşini (kömür veya gaz) orta-yüksek sıcaklığa, yaklaşık 200 °C'ye getirin.",
-   "Alabalıkların her iki yanına da, etin içine kadar işleyecek şekilde, 2-3 derin kesik atın. Balıkları kağıt havluyla kurulayın.",
+   "Alabalıkların her iki yanına da, etin içine kadar işleyecek şekilde, 2-3 derin çapraz kesik atın. Balıkları kağıt havluyla kurulayın.",
    "Büyük bir kapta limon suyu, zeytinyağı, ezilmiş sarımsak, soğan, kırmızı acı biber, paprika, karabiber ve tuzu karıştırın.",
    "Balıkları bu karışımla iyice kaplayın, karışımı kesiklerin içine de yedirin. Oda sıcaklığında 20 dakika bekletin.",
    "Izgara tellerini yağlayın. Alabalıkları ızgaraya yerleştirin ve her yüzünü yaklaşık 5-6 dakika pişirin; et beyazlaşıp çatala kolayca ayrılmaya başladığında hazırdır.",
-   "Pişerken kalan marinatı bir kez fırçayla sürün.",
-   "Pişen balıkları servis tabağına alın, üzerine kıyılmış maydanozu serpin ve limon dilimleriyle birlikte sıcak servis yapın."
+   "Pişerken kalan marinatı bir iki kez fırçayla sürün.",
+   "Pişen balıkları servis tabağına alın, üzerine kıyılmış maydanozu serpin ve limon dilimleriyle birlikte sıcak servis yapın. Geleneksel olarak yanında pap (mısır lapası) ile servis edilir."
   ],
   "en": [
    "Heat the grill (charcoal or gas) to medium-high, about 200 °C.",
@@ -56,12 +56,23 @@
    "Coat the trout thoroughly with this mixture, pushing some into the cuts. Leave to marinate at room temperature for 20 minutes.",
    "Oil the grill grates. Place the trout on the grill and cook for about 5-6 minutes per side, until the flesh turns opaque and begins to flake easily with a fork.",
    "Brush the fish with any remaining marinade once or twice while cooking.",
-   "Transfer the cooked fish to a serving platter, sprinkle with the chopped parsley and serve hot with lemon wedges."
+   "Transfer the cooked fish to a serving platter, sprinkle with the chopped parsley and serve hot with lemon wedges. Traditionally served with pap (maize porridge)."
   ]
  },
  "tip": {
   "tr": "Balıkları ızgaraya koymadan önce ızgara tellerini iyice yağlayın; böylece derisi yapışmadan düzgün şekilde pişer.",
   "en": "Oil the grill grates well before placing the fish on them so the skin does not stick and the trout cooks evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says 'bir kez' (once), but the English says 'once or twice'. The two versions disagree.",
+   "English step 2 specifies 'diagonal' cuts, but the Turkish step omits the diagonal direction.",
+   "The description says the dish is served with pap, but the steps and ingredients do not include it. Pap is a serving suggestion, so the steps can stay as they are, but the serving line should mention i",
+   "The native name 'Nonne e tsoang' could not be verified as a Sesotho dish name and should be checked by a Sesotho speaker or a reliable source."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

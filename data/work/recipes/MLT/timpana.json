@@ -20,6 +20,7 @@
    "1 tutam tuz",
    "1 yemek kaşığı galeta unu",
    "1 yumurta sarısı (sırlama için)",
+   "1 tatlı kaşığı su (sırlama için)",
    "150 g kısa makarna (macaroni veya ziti)",
    "2 yemek kaşığı zeytinyağı",
    "1 soğan, ince doğranmış",
@@ -43,6 +44,7 @@
    "1 pinch salt",
    "1 tbsp breadcrumbs",
    "1 egg yolk (for glazing)",
+   "1 tsp water (for glazing)",
    "150 g short macaroni (or ziti)",
    "2 tbsp olive oil",
    "1 onion, finely chopped",
@@ -76,7 +78,7 @@
   "en": [
    "Rub the cold butter into the flour and salt with your fingertips until it resembles breadcrumbs. Add the egg and cold water and bring together into a smooth dough. Wrap in cling film and rest in the fridge for 30 minutes.",
    "Boil the eggs for 10 minutes, cool in cold water, peel and slice them.",
-   "Cook the macaroni in salted boiling water until al dente, drain and rinse briefly with cold water. Set aside.",
+   "Cook the macaroni in salted boiling water until al dente, drain and set aside without rinsing.",
    "Heat the olive oil in a wide pan and soften the chopped onion for 5 minutes. Add the crushed garlic and cook for 30 seconds more.",
    "Add the beef mince and cook until browned and the liquid has evaporated. Stir in the passata, tomato paste and dried basil, season with salt and pepper and simmer gently for 10 minutes. Add the peas, cook 2 minutes more and remove from the heat.",
    "In a large bowl, combine the macaroni, meat sauce, beaten eggs, half the cheddar and half the Parmesan. Taste and adjust the seasoning.",
@@ -91,5 +93,14 @@
   "tr": "Dolguyu sıcak servis etmeden önce mutlaka 15 dakika dinlendirin; böylece dilimler dağılmaz ve kesim daha temiz olur.",
   "en": "Let the pie rest for a full 15 minutes before slicing so the layers hold together and the slices stay neat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 10 uses 1 teaspoon of water for the egg wash, but water is not listed in either ingredient list.",
+   "Step 3 conflicts between languages: the Turkish says to drain without rinsing under cold water, while the English says to rinse briefly with cold water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

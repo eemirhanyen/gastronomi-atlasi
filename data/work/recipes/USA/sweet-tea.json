@@ -18,7 +18,7 @@
    "200 g toz şeker",
    "500 ml soğuk su",
    "200 g buz küpü",
-   "1 limonun dilim halinde kesilmiş hali (servis için, isteğe bağlı)"
+   "1 adet limon, dilimlenmiş (servis için, isteğe bağlı)"
   ],
   "en": [
    "1000 ml water",
@@ -53,5 +53,13 @@
   "tr": "Şekeri çay sıcakken eritin; soğuk çaya eklenen şeker dibe çöker ve tatlı dağılmaz.",
   "en": "Dissolve the sugar while the tea is still hot; sugar added to cold tea settles at the bottom and does not blend evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line \"1 limonun dilim halinde kesilmiş hali\" is unnatural and redundant; it should read as a simple sliced-lemon item."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

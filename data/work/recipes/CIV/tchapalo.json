@@ -9,7 +9,7 @@
   "en": "Tchapalo is a lightly sour, sweet fermented drink made from sorghum or millet. In Côte d'Ivoire it is sold by street vendors, especially in Abidjan, and served chilled at family gatherings and markets."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 2160,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Fermentasyon sırasında kabı sıkı kapatmayın ve süzdükten sonra mutlaka buzdolabında saklayın; 24 saatten uzun bekleyen tchapalo belirgin şekilde alkollenir, bu yüzden en geç iki gün içinde tüketin.",
   "en": "Do not seal the container during fermentation, and refrigerate the drink after straining. Tchapalo becomes noticeably alcoholic after 24 hours, so drink it within two days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min 60 misrepresents the recipe: it requires about 36 hours of fermentation (24 h + 12 h) plus roughly 30 minutes of active work"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

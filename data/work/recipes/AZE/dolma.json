@@ -59,7 +59,7 @@
    "Derin bir tencerenin tabanına kırık ya da artan yaprakları yerleştirin. Sarmaları sıkı sıra halinde, dikiş kısmı aşağı gelecek şekilde dizin.",
    "Et suyunu limon suyu, domates salçası ve kalan 20 ml sıvı yağ ile karıştırıp sarmaların üzerine dökün. Sarmaları ağırlıkla bastırmak için üzerine ters bir tabak koyun.",
    "Kapağını kapatıp kısık ateşte 45-50 dakika pişirin. Pirinç yumuşayınca ocağı kapatın ve tencereyi kapalı halde 10 dakika dinlendirin.",
-   "Yoğurdu tuz ve ezilmiş sarımsakla karıştırın. Sarmaları sıcak ya da ılık, yanında sarımsaklı yoğurt ve tereyağını sosun üzerine gezdirerek servis edin.",
+   "Yoğurdu tuz ve ezilmiş sarımsakla karıştırın. Sarmaları sıcak ya da ılık, yanında sarımsaklı yoğurtla servis edin.",
    "Son olarak tereyağını küçük bir tavada eritip sarmaların üzerine gezdirin ve üzerine biraz taze nane serpin."
   ],
   "en": [
@@ -69,7 +69,7 @@
    "Line the base of a deep pot with torn or spare leaves. Arrange the rolls in tight rows, seam side down.",
    "Mix the stock with the lemon juice, tomato paste and the remaining 20 ml oil, then pour it over the rolls. Place an upturned plate on top to keep them submerged.",
    "Cover and simmer gently for 45-50 minutes, until the rice is tender. Turn off the heat and let the pot rest, covered, for 10 minutes.",
-   "Mix the yogurt with the 3 g salt and the crushed garlic clove. Serve the warm or room-temperature rolls with the garlic yogurt on the side.",
+   "Mix the yogurt with the 3 g salt and the crushed garlic clove. Serve the rolls warm or at room temperature with the garlic yogurt on the side.",
    "Melt the butter in a small pan and drizzle it over the rolls just before serving, then scatter over a little fresh mint."
   ]
  },
@@ -77,5 +77,14 @@
   "tr": "Sarmaları sıkı sarmak ve tencereye sıkı dizmek, pişirme sırasında açılmalarını önler; ters tabak ağırlığı da sarmaların suda kalmasını sağlar.",
   "en": "Roll tightly and pack the rolls snugly in the pot so they do not unravel while cooking; the upturned plate keeps them submerged."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 tells the reader to drizzle butter over the sauce, but the English step 7 does not mention butter. Butter is also melted and drizzled again in step 8, so the two languages disagree and ",
+   "Turkish step 7 wording 'sosun üzerine gezdirerek' is awkward."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Kwéyòl: tí kakao",
  "desc": {
-  "tr": "Saint Lucia'da kahvaltıda ve özellikle Noel döneminde içilen, yerel kakao toplarından yapılan ve tarçın ile hindistancevizi baharıyla tatlandırılan sıcak bir içecektir.",
+  "tr": "Saint Lucia'da kahvaltıda ve özellikle Noel döneminde içilen, yerel kakao toplarından yapılan ve tarçın ile muskat baharıyla tatlandırılan sıcak bir içecektir.",
   "en": "A warm, spiced drink from Saint Lucia made from local cocoa balls flavoured with cinnamon and nutmeg. It is traditionally served at breakfast and especially at Christmas, often with bread or fried dough."
  },
  "servings": 4,
@@ -17,7 +17,7 @@
    "1 litre su",
    "1 adet tarçın çubuğu (yaklaşık 8 cm)",
    "3 adet karanfil",
-   "1 g rendelenmiş hindistancevizi",
+   "1 g rendelenmiş muskat",
    "2,5 ml vanilya özütü",
    "150 ml buharlaştırılmış süt",
    "100 ml tatlandırılmış yoğunlaştırılmış süt",
@@ -38,7 +38,7 @@
  "steps": {
   "tr": [
    "Kakao toplarını bir rende ile kaba rendeleyin ya da küçük parçalara ayırın. Çikolata kullanıyorsanız kırarak ve esmer şekerle birlikte hazırlayın.",
-   "Su, tarçın çubuğu, karanfil ve rendelenmiş hindistancevizini geniş bir tencereye koyun ve kaynatın.",
+   "Su, tarçın çubuğu, karanfil ve rendelenmiş muskatı geniş bir tencereye koyun ve kaynatın.",
    "Kaynayan suya kakao parçalarını ekleyin ve eriyene kadar sürekli karıştırın.",
    "Ateşi orta-düşük yapın ve karışımı yaklaşık 20 dakika kısık ateşte, ara ara karıştırarak pişirin. Kakao kıvamlı ve koyu bir renk almalıdır.",
    "Tarçın çubuğunu ve karanfilleri çıkarın. Sıcak içeceği bir süzgeçten geçirerek tencereye geri koyun.",
@@ -61,5 +61,13 @@
   "tr": "Karışımı kaynatmamak, sütün ayrışmasını ve sıcak kakaonun pütürlü olmasını önler; isterseniz servisten önce bir kez çırpın.",
   "en": "Do not let the drink boil after adding the milk, as it can curdle and turn grainy. Whisk briefly before serving for a smoother texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish text translates 'nutmeg' as 'hindistancevizi' (coconut) in the description, ingredient list and step 2, while the English says nutmeg. The Turkish word for nutmeg is 'muskat'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

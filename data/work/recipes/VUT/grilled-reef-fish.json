@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1,2 kg bütün resif balığı (kırmızı lüfer, imparator balığı veya papağan balığı), pulları temizlenmiş ve içi çıkarılmış",
+   "1,2 kg bütün resif balığı (kırmızı lutjan, imparator balığı veya papağan balığı), pulları temizlenmiş ve içi çıkarılmış",
    "90 ml limon suyu (yaklaşık 3 limon)",
    "4 diş sarımsak, ezilmiş",
    "1 küçük soğan, ince dilimlenmiş",
@@ -46,7 +46,7 @@
    "Izgarayı orta ateşe getirin (yaklaşık 180°C). Muz yapraklarını bir bezle silin ve alev üzerinde birkaç saniye tutarak yumuşatın.",
    "Her muz yaprağının üzerine balığı koyun, eritilmiş hindistancevizi yağını yüzeyine sürün ve yaprağı sıkıca sararak paketleyin.",
    "Paketleri ızgarada her iki tarafta 10-12 dakika pişirin.",
-   "Son 3 dakikada yaprakları açıp balığın yüzeyini hafifçe kızartın. Kalın kısmının iç sıcaklığı 60°C'ye ulaşınca balık hazırdır.",
+   "Son 3 dakikada yaprakları açıp balığın yüzeyini hafifçe kızartın. Kalın kısmının iç sıcaklığı 63°C'ye ulaşınca balık hazırdır.",
    "Balığı pirinçle birlikte sıcak servis yapın."
   ],
   "en": [
@@ -57,7 +57,7 @@
    "Heat the grill to medium (about 180°C). Wipe the banana leaves with a cloth, then pass them briefly over a flame to soften them.",
    "Place the fish on a banana leaf, brush it with melted coconut oil, and wrap it tightly in the leaf.",
    "Grill the parcels for 10-12 minutes on each side.",
-   "For the last 3 minutes, open the leaves and lightly char the surface of the fish. The fish is ready when the thickest part reaches an internal temperature of 60°C.",
+   "For the last 3 minutes, open the leaves and lightly char the surface of the fish. The fish is ready when the thickest part reaches an internal temperature of 63°C.",
    "Serve hot with the rice."
   ]
  },
@@ -65,5 +65,14 @@
   "tr": "Balığı muz yaprağına sarmadan önce yaprağı alev üzerinde geçirmek, yaprağın yırtılmasını önler ve pişirme sırasında hoş bir aroma verir.",
   "en": "Passing the banana leaves over a flame before wrapping stops them from tearing and adds a subtle smoky aroma during cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Final internal temperature of 60°C is below the 63°C standard for fish, which is a food-safety concern. Both language versions are corrected to 63°C.",
+   "Turkish ingredient name 'kırmızı lüfer' is the wrong fish. Lüfer is bluefish, not red snapper. Changed to 'kırmızı lutjan', matching the English 'red snapper'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

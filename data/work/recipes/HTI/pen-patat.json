@@ -54,7 +54,7 @@
    "Pudingi fırından çıkarıp 20 dakika soğumaya bırakın, ardından dilimleyip ılık ya da oda sıcaklığında servis edin."
   ],
   "en": [
-   "Preheat the oven to 180°C. Grease a 20 cm baking dish with a little of the melted butter.",
+   "Preheat the oven to 180°C. Grease a 20 cm baking dish with a little extra butter.",
    "Grate the sweet potatoes finely on a box grater, or pulse them in a food processor until very fine.",
    "Soak the raisins in warm water for 10 minutes, then drain and pat dry.",
    "In a large bowl, whisk the egg, brown sugar and melted butter until smooth.",
@@ -69,5 +69,13 @@
   "tr": "Tatlı patatesi çok ince rendelemek, pudingin dokusunun pürüzsüz ve dağılmayan bir yapıda olmasını sağlar.",
   "en": "Grate the sweet potato very finely so the pudding sets smoothly and holds together when sliced."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 1 says to grease the dish with 'a little of the melted butter', but all 40 g of melted butter is used in step 4 and the ingredient list calls for separate butter for greasing. The Turkish"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

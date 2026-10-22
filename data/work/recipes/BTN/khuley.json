@@ -41,7 +41,7 @@
    "Ortasında bir kuyu açın. Yumurtayı, eritilmiş tereyağını ve ılık sütü ekleyip yavaş yavaş unla birleştirin.",
    "Hamuru yaklaşık 8 dakika, pürüzsüz ve yumuşak olana kadar yoğurun. Gerekirse birkaç damla süt ekleyin.",
    "Hamuru streç film ile örtüp oda sıcaklığında 20 dakika dinlendirin.",
-   "Hamuru 12 eşit topa bölün. Her topu, yaklaşık 3 mm kalınlığında ve 9-10 cm çapında yuvarlak bir disk haline getirin.",
+   "Hamuru 12 eşit topa bölün. Her topu, yaklaşık 5 mm kalınlığında ve 10 cm çapında yuvarlak bir disk haline getirin.",
    "Her diskin ortasına kısa bir yarık açın. Bu, ekmeğin kızartma sırasında şişip kabarmasını sağlar.",
    "Kızartma yağını derin bir tencerede 170°C'ye kadar ısıtın.",
    "Ekmekleri partiler halinde, her iki yüzü de altın rengi olana kadar, toplam 4-5 dakika kızartın.",
@@ -52,7 +52,7 @@
    "Make a well in the centre. Add the egg, melted butter and warm milk, and gradually combine with the flour.",
    "Knead the dough for about 8 minutes until smooth and soft. Add a few drops of milk if needed.",
    "Cover the dough with cling film and rest it at room temperature for 20 minutes.",
-   "Divide the dough into 12 equal balls. Roll each ball into a round disc about 3 mm thick and 9-10 cm across.",
+   "Divide the dough into 12 equal balls. Roll each ball into a round disc about 5 mm thick and 10 cm across.",
    "Cut a short slit in the centre of each disc. This helps the bread puff up as it fries.",
    "Heat the frying oil to 170°C in a deep pan.",
    "Fry the breads in batches for 4-5 minutes in total, until both sides are golden brown.",
@@ -63,5 +63,13 @@
   "tr": "Hamuru dinlendirmek glütenin gevşemesini sağlar; böylece diskler kolay açılır ve kızartmada daha kabarık çıkar.",
   "en": "Resting the dough relaxes the gluten, so the discs roll out easily and puff up better when fried."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Disc dimensions don't match the dough quantity: about 530 g of dough divided into 12 pieces gives roughly 44 g each, which cannot be rolled to 3 mm thick and 9-10 cm across. The discs would be about 5"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

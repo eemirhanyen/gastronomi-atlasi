@@ -16,7 +16,7 @@
    "300 g ekşi lahana, süzülmüş",
    "400 g patates, soyulup küp doğranmış",
    "400 g haşlanmış beyaz fasulye (konserve, süzülmüş)",
-   "250 g tütsülenmiş domuz eti (kaburga ya da but)",
+   "250 g tütsülenmiş domuz eti (kaburga ya da omuz)",
    "100 g tütsülenmiş domuz pastırması, küp doğranmış",
    "1 büyük soğan, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -74,5 +74,13 @@
   "tr": "Ekşi lahanayı çok fazla yıkamayın; ekşiliği jotanın karakterini verir. Tadı dengelemek için pişirme sonunda tuzu dikkatli ekleyin, çünkü tütsülenmiş et ve pastırma zaten tuzludur.",
   "en": "Do not rinse the sauerkraut too much, as its sourness gives jota its character. Add salt at the end, since the smoked meat and bacon are already salty."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says the smoked pork is from 'kaburga ya da but' (ribs or leg/ham), but the English says 'ribs or shoulder'. Changed the Turkish to 'kaburga ya da omuz' so both versions match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

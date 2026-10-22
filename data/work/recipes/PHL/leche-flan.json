@@ -5,7 +5,7 @@
  },
  "native": "Leche flan",
  "desc": {
-  "tr": "Filipinler'de fiesta, doğum günü ve özel günlerde sıkça servis edilen, İspanyol kökenli yumuşacık karamelli bir muhallebi tatlısıdır. Genellikle soğuk olarak, kendi karamel sosuyla birlikte ikram edilir.",
+  "tr": "Filipinler'de fiesta, doğum günü ve özel günlerde sıkça servis edilen, İspanyol kökenli yumuşacık karamelli bir krem karamel tatlısıdır. Genellikle soğuk olarak, kendi karamel sosuyla birlikte ikram edilir.",
   "en": "A silky caramel custard of Spanish origin, served across the Philippines at fiestas, birthdays and special occasions. It is usually eaten chilled, with its own caramel sauce spooned over the top."
  },
  "servings": 4,
@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Küçük bir tencerede şekeri ve suyu orta ateşte karıştırarak eritin. Karıştırmayı bırakın ve karamel koyu kehribar rengi alana kadar (yaklaşık 6-8 dk) pişirin.",
-   "Karamelı hemen 4 adet 150 ml'lik ramekine veya küçük bir kek kalıbına dökün ve kalıbı çevirerek tabanına yayın. Karamelin sertleşmesi için bekletin.",
+   "Karamelİ hemen 4 adet 150 ml'lik ramekine veya küçük bir kek kalıbına dökün ve kalıbı çevirerek tabanına yayın. Karamelin sertleşmesi için bekletin.",
    "Fırını 160°C'ye önceden ısıtın. Büyük bir fırın tepsisine sıcak su alacak kadar yer hazırlayın.",
    "Yumurtaları, yumurta sarılarını ve tuzu bir kasede hafifçe çırpın. Köpük oluşmamasına dikkat edin.",
    "Yoğunlaştırılmış sütü, buharlaştırılmış sütü ve vanilya özünü ekleyip pürüzsüz bir karışım elde edene kadar çırpın.",
@@ -63,5 +63,14 @@
   "tr": "Su banyosundaki suyu asla kaynatmayın ve kalıpları mutlaka folyo ile örtün; aksi halde muhallebide gözenekler oluşur ve yüzey pürüzlü çıkar.",
   "en": "Keep the water bath hot but never boiling, and cover the moulds with foil; otherwise the custard develops bubbles and a rough surface."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls leche flan a \"muhallebi\", but muhallebi is a starch-thickened milk pudding. Leche flan is an egg custard, which Turkish cooks know as \"krem karamel\".",
+   "Turkish step 2 has a typo: \"Karamelı\" should be \"Karameli\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "900 g patlıcan (yaklaşık 3 orta boy)",
-   "1 tatlı kaşığı tuz (eti için), ayrıca tatlandırmak için",
+   "1 tatlı kaşığı tuz (patlıcanları tuzlamak için), ayrıca tatlandırmak için",
    "200 ml ayçiçek yağı (kızartmak için)",
    "2 yemek kaşığı sıvı yağ (sos için)",
    "1 büyük soğan (150 g), ince doğranmış",
@@ -49,7 +49,7 @@
    "Rendelenmiş domatesleri, zerdeçalı, karabiberi, 1/2 tatlı kaşığı kuru naneyi ve 100 ml suyu ekleyin. Tuzla tatlandırın ve kısık ateşte sos koyulaşana kadar yaklaşık 15 dakika pişirin.",
    "Süzme yoğurdu ezilmiş sarımsak, 1/2 tatlı kaşığı kuru nane ve bir tutam tuzla karıştırıp yayvan bir servis tabağına yayın.",
    "Kızarmış patlıcan dilimlerini yoğurdun üzerine düzgünce dizin. Domates sosunu patlıcanların üzerine gezdirin.",
-   "Kalan kuru naneyi avuçlarınızın arasında ufalayın, 1 yemek kaşığı sıcak yağla birlikte küçük bir kapta karıştırın ve borani'nin üzerine dökün. Oda sıcaklığında veya ılık servis edin."
+   "Kalan kuru naneyi avuçlarınızın arasında ufalayın, 1 yemek kaşığı sıcak ayçiçek yağıyla küçük bir kapta karıştırın ve borani'nin üzerine dökün. Oda sıcaklığında veya ılık servis edin."
   ],
   "en": [
    "Cut the eggplants lengthwise into 1 cm slices. Sprinkle with 1 tsp salt and leave for 20 minutes. Then pat them thoroughly dry with kitchen paper.",
@@ -58,12 +58,21 @@
    "Add the grated tomatoes, turmeric, black pepper, 1/2 tsp dried mint and 100 ml water. Season with salt and simmer gently for about 15 minutes until the sauce thickens.",
    "Mix the yogurt with the crushed garlic, 1/2 tsp dried mint and a pinch of salt. Spread it over a shallow serving platter.",
    "Arrange the fried eggplant slices over the yogurt. Spoon the tomato sauce over the eggplant.",
-   "Crumble the remaining dried mint between your palms, mix it with 1 tbsp hot oil in a small bowl and drizzle over the borani. Serve at room temperature or slightly warm."
+   "Crumble the remaining dried mint between your palms, mix it with 1 tbsp hot sunflower oil in a small bowl and drizzle over the borani. Serve at room temperature or slightly warm."
   ]
  },
  "tip": {
   "tr": "Patlıcanları kızartmadan önce iyice kurulayın; aksi halde yağı çok fazla emer ve dilimler sulu kalır.",
   "en": "Dry the eggplant slices thoroughly before frying, otherwise they soak up too much oil and stay soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Final step says '1 yemek kaşığı sıcak yağ' without naming the oil, so it is unclear which listed oil to use.",
+   "Turkish ingredient note 'tuz (eti için)' is unnatural; it should say the salt is for salting the eggplant, as the English version does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

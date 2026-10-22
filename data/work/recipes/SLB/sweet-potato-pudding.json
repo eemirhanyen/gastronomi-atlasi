@@ -17,7 +17,7 @@
    "400 ml hindistancevizi sütü",
    "100 g esmer şeker",
    "2 yumurta",
-   "30 g krem beyaz un",
+   "30 g çok amaçlı un",
    "40 g tereyağı, eritilmiş",
    "5 ml vanilya özü",
    "1 tutam tuz",
@@ -65,5 +65,13 @@
   "tr": "Patatesi ince rendelemek pudingin pürüzsüz bir doku kazanmasını sağlar; kıvam çok sıkıysa pişirmeden önce birkaç yemek kaşığı hindistancevizi sütü ekleyebilirsiniz.",
   "en": "Grate the sweet potato finely for a smooth texture; if the mixture looks too stiff before baking, add a few spoonfuls of extra coconut milk."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'krem beyaz un' is unnatural. The English 'plain flour' corresponds to 'çok amaçlı un' in Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

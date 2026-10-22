@@ -17,7 +17,7 @@
    "75 ml argan yağı (kavurmalı değil, saf ve soğuk sıkım)",
    "50 g bal (çiçek balı)",
    "1 tutam tuz",
-   "Servis için 1 kulaç taze ekmek veya 1 somun Fas ekmeği"
+   "Servis için 1 somun taze ekmek veya yaklaşık 250 g Fas ekmeği (khobz)"
   ],
   "en": [
    "150 g blanched almonds",
@@ -53,5 +53,14 @@
   "tr": "Argan yağı hassastır; ısıtılmadan ve yavaşça ilave edilmelidir. Kavanozda buzdolabında en fazla 2 hafta saklanır, servisten önce oda sıcaklığına getirin.",
   "en": "Argan oil is delicate, so add it slowly and never heat it. Store in the fridge for up to 2 weeks and bring to room temperature before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'Servis için 1 kulaç taze ekmek' uses 'kulaç' (arm span), which is not a unit for bread. It is unnatural and wrong.",
+   "Turkish ingredient for bread gives no amount, while the English version specifies about 250 g. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "4 adet kalın dilim beyaz tost ekmeği (yaklaşık 10 x 10 cm, 2,5 cm kalınlığında)",
+   "4 adet kalın dilim beyaz tost ekmeği (yaklaşık 10 x 10 cm, 5 cm kalınlığında)",
    "1 l kızartma yağı",
    "200 g tavuk but eti, 1 cm küp doğranmış",
    "1 küçük patates (yaklaşık 100 g), 1 cm küp doğranmış",
@@ -32,7 +32,7 @@
    "1 tutam rendelenmiş hindistan cevizi"
   ],
   "en": [
-   "4 thick slices white sandwich bread (about 10 x 10 cm, 2.5 cm thick)",
+   "4 thick slices white sandwich bread (about 10 x 10 cm, 5 cm thick)",
    "1 L frying oil",
    "200 g chicken thigh meat, diced into 1 cm cubes",
    "1 small potato (about 100 g), diced into 1 cm cubes",
@@ -79,5 +79,13 @@
   "tr": "Dolguyu ekmek kaplarına doldurmadan önce iyice koyulaştırın; sos çok sulu olursa ekmek hızla ıslanır ve çıtırlığını kaybeder.",
   "en": "Make sure the filling is thick before spooning it in; a runny sauce will soak into the bread and make it lose its crispness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Bread thickness conflicts with the steps: the blocks are 2.5 cm thick, but step 1 removes a 2 cm lid, which leaves only 0.5 cm of bread, not the 1 cm base that step 2 requires. Thickness changed to 5 "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A caffeine-free herbal tea made from the leaves of the red bush that grows in South Africa's Cederberg mountains. It is drunk hot or iced across the country, especially in the evenings and after meals."
  },
  "servings": 4,
- "time_min": 10,
+ "time_min": 20,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,5 +51,13 @@
   "tr": "Rooibos kafein içermediği ve acılaşmadığı için uzun demlenebilir; akşam saatlerinde ideal bir içecektir. Soğuk servis için demlenmiş çayı buzdolabında soğutup buz ekleyebilirsin.",
   "en": "Because rooibos is caffeine-free and does not turn bitter, it can steep longer for a richer flavour, which makes it ideal for evening. For iced tea, chill the brewed tea in the fridge and serve over ice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (10) is too short: bringing 1 litre of water to a boil on the stove plus the 7-minute steep takes about 20 minutes in total"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

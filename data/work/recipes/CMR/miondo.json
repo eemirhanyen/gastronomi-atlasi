@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "1 kg taze manyok (soyulmuş ağırlık yaklaşık 600 g)",
+   "1 kg taze tatlı (acı olmayan) manyok (soyulmuş ağırlık yaklaşık 600 g)",
    "2 l su (manyoku fermente etmek için)",
    "5 g tuz",
    "100 ml ılık su",
@@ -21,7 +21,7 @@
    "Mutfak ipi veya bitki lifi"
   ],
   "en": [
-   "1 kg fresh cassava (about 600 g peeled weight)",
+   "1 kg fresh sweet (non-bitter) cassava (about 600 g peeled weight)",
    "2 l water (for fermenting the cassava)",
    "5 g salt",
    "100 ml lukewarm water",
@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Manyokların kabuklarını soyun, etli kısmını yaklaşık 5 cm uzunluğunda parçalara kesin ve temiz bir kaba alın.",
+   "Yalnızca tatlı çeşit manyok kullanın; acı manyok siyanür içerdiği için kullanılmamalıdır. Manyokların kabuklarını soyun, etli kısmını yaklaşık 5 cm uzunluğunda parçalara kesin ve temiz bir kaba alın.",
    "Parçaların üzerine 2 l su dökün, kabı örtün ve oda sıcaklığında 3 gün bekletin. Her gün suyu boşaltıp taze suyla değiştirin; fermantasyon sırasında hafif ekşi bir koku oluşmalıdır.",
    "Fermente manyokları süzün, iyice durulayın ve bir mutfak robotunda 100 ml ılık su ile pürüzsüz bir hamur haline gelene kadar çekin.",
    "Hamuru temiz bir bezin içine koyup sıkarak fazla suyunu alın. Hamur nemli ama dağılmayacak kıvamda olmalıdır.",
@@ -42,7 +42,7 @@
    "Pişen miondoları buharlı pişiriciden çıkarıp en az 10 dakika dinlendirin, sonra yapraklarını açıp ılık ya da oda sıcaklığında servis edin."
   ],
   "en": [
-   "Peel the cassava, cut the flesh into pieces about 5 cm long and place them in a clean container.",
+   "Use only a sweet cassava variety; bitter cassava contains cyanide and must not be used. Peel the cassava, cut the flesh into pieces about 5 cm long and place them in a clean container.",
    "Pour 2 l water over the pieces, cover the container and leave it at room temperature for 3 days. Drain and replace the water daily; the cassava should develop a slightly sour smell as it ferments.",
    "Drain the fermented cassava, rinse well and blend it in a food processor with 100 ml lukewarm water until it forms a smooth paste.",
    "Put the paste in a clean cloth and squeeze out the excess water. The dough should be moist but hold its shape.",
@@ -57,5 +57,13 @@
   "tr": "Manyokun fermantasyon süresi tadını belirler; hava sıcakken 2 günde de yeterli olabilir, ancak ekşi koku oluşmadan hamuru kullanmayın.",
   "en": "Fermentation time sets the flavour; in warm weather 2 days may be enough, but do not use the dough until it has a clear sour smell."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Safety: the recipe does not specify a sweet (low-cyanide) cassava variety. Bitter cassava contains cyanogenic compounds, and the recipe gives no warning about this. Fermentation and steaming reduce bu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -45,16 +45,16 @@
  },
  "steps": {
   "tr": [
-   "Tavuğu yıkayıp kurulayın. Bir tencerede tavuğu, yarım soğanı, defne yapraklarını, kekiği ve 1 L suyu ekleyin. Orta ateşte kaynatın, köpüğünü alın ve tavuk yumuşayana kadar yaklaşık 25 dakika pişirin.",
+   "Tavuğu yıkayıp kurulayın. Bir tencerede tavuğu, yarım soğanı, defne yapraklarını, kekiği ve 1,2 L suyu ekleyin. Orta ateşte kaynatın, köpüğünü alın ve tavuk yumuşayana kadar yaklaşık 25 dakika pişirin.",
    "Tavuk pişerken domatesleri, kalan yarım soğanı, sarımsağı, zencefili ve Scotch bonnet biberini blenderdan geçirerek pürüzsüz bir karışım hazırlayın.",
    "Geniş bir tencerede sıvı yağı orta-yüksek ateşte ısıtın. Blenderdan geçirilmiş karışımı ekleyin ve yağ yüzeye çıkana kadar yaklaşık 10-12 dakika pişirin, arada karıştırın.",
-   "Yer fıstığı ezmesini bir kâseye alın. Tavuk suyundan 250 ml ılık su ekleyerek topaklanmayacak şekilde pürüzsüz bir kıvam elde edene kadar iyice karıştırın.",
+   "Tavuk suyundan 250 ml alıp ılıtın. Yer fıstığı ezmesini bir kâseye alın ve ılık suyu azar azar ekleyerek topaklanmayacak şekilde pürüzsüz bir kıvam elde edene kadar iyice karıştırın.",
    "Fıstık karışımını domates sosunun içine ekleyip iyice karıştırın. Tavuk parçalarını ve kalan tavuk suyunu ekleyin.",
    "Ocağı kısın ve çorbayı kısık ateşte yaklaşık 20-25 dakika, sık sık karıştırarak pişirin. Yapışmaması için dibini kontrol edin.",
    "Tuz ve karabiberi ekleyip tadına bakın, gerekirse ayarlayın. Defne yapraklarını çıkarın ve sıcak servis yapın."
   ],
   "en": [
-   "Rinse and pat dry the chicken. In a pot, combine the chicken, half the onion, bay leaves, thyme and 1 L water. Bring to a simmer over medium heat, skim off the foam, and cook for about 25 minutes until the chicken is tender.",
+   "Rinse and pat dry the chicken. In a pot, combine the chicken, half the onion, bay leaves, thyme and 1.2 L water. Bring to a simmer over medium heat, skim off the foam, and cook for about 25 minutes until the chicken is tender.",
    "While the chicken cooks, blend the tomatoes, remaining half onion, garlic, ginger and scotch bonnet pepper into a smooth mixture.",
    "Heat the vegetable oil in a wide pot over medium-high heat. Add the blended mixture and fry for about 10-12 minutes, stirring occasionally, until the oil rises to the surface.",
    "Place the peanut paste in a bowl. Gradually whisk in 250 ml of the warm chicken broth until smooth and free of lumps.",
@@ -67,5 +67,14 @@
   "tr": "Yer fıstığı ezmesini doğrudan sıcak sosa eklemek topaklanmaya yol açar; önce ılık sıvıyla iyice inceltin.",
   "en": "Thin the peanut paste with warm broth before adding it to the pot; adding it straight into hot sauce causes lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity mismatch: the ingredient list says 1.2 L, but step 1 (both languages) uses only 1 L.",
+   "Turkish step 4 says '250 ml ılık su' (warm water) while the English says 'warm chicken broth' and the Turkish sentence itself reads as if taking water from the broth. The Turkish should specify chicke"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

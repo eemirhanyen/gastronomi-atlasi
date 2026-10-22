@@ -57,7 +57,7 @@
    "Geniş ve dipli bir tencerede yağı orta-yüksek ateşte ısıtın. Eti partiler halinde, her yüzü hafif kızarana kadar yaklaşık 8-10 dakika kavurun. Etleri bir kenara alın.",
    "Aynı tencereye soğanı ekleyin ve orta ateşte altın rengi alana kadar yaklaşık 10 dakika kavurun.",
    "Kalan sarımsağı ve doğranmış yeşil biberi ekleyip 1 dakika daha pişirin. Rendelenmiş domatesi ve domates salçasını ekleyin, yağ yüzeye çıkana kadar yaklaşık 8 dakika pişirin.",
-   "Kavrulmuş eti tencereye geri koyun. Kalan kimyon, kişniş ve kakuleyi ekleyin, iyice karıştırın.",
+   "Kavrulmuş eti tencereye geri koyun. Kalan kimyon, kişniş, kakule ve 1/2 tatlı kaşığı tuzu ekleyin, iyice karıştırın.",
    "Suyu ekleyip kaynatın. Ateşi kısın, kapağını kapatın ve et yumuşayana kadar yaklaşık 60 dakika yavaş pişirin. Arada bir karıştırın, gerekirse az su ekleyin.",
    "Kapağı açın, sos kıvam alana kadar 5 dakika daha pişirin. Tuzunu kontrol edin ve taze doğranmış kişnişle süsleyin.",
    "Sıcak pirinç pilavı ile birlikte servis yapın."
@@ -67,7 +67,7 @@
    "Heat the oil in a wide, heavy-based pot over medium-high heat. Brown the meat in batches for about 8-10 minutes, until lightly coloured on all sides. Set the meat aside.",
    "In the same pot, fry the onions over medium heat for about 10 minutes, until golden.",
    "Add the remaining garlic and the chopped green chilli and cook for 1 minute more. Add the grated tomatoes and tomato paste and cook for about 8 minutes, until the oil separates from the sauce.",
-   "Return the browned meat to the pot. Add the remaining cumin, coriander and cardamom and stir well.",
+   "Return the browned meat to the pot. Add the remaining cumin, coriander, cardamom and 1/2 teaspoon of the salt and stir well.",
    "Add the water and bring to the boil. Reduce the heat, cover and simmer gently for about 60 minutes, until the meat is tender. Stir occasionally and add a little water if it looks dry.",
    "Uncover and cook for 5 more minutes so the sauce thickens. Check the seasoning, then garnish with the chopped fresh coriander.",
    "Serve hot with cooked rice."
@@ -77,5 +77,13 @@
   "tr": "Eti pişirmeden önce limon ve baharatlarla en az 30 dakika bekletmek, lezzetin etin içine işlemesini sağlar; kemikli parçalar daha lezzetli bir sos verir.",
   "en": "Resting the meat in lemon and spices for at least 30 minutes lets the flavour penetrate; bone-in pieces give a richer sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt: the ingredient list has 1 tsp (6 g), but the method adds only 1/2 tsp in the marinade and never adds the remaining half. The step that says to check seasoning does not make clear when the rest g"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

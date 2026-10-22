@@ -9,12 +9,12 @@
   "en": "A traditional Portuguese stew of white beans cooked with smoked sausage and pork, a classic weekend lunch dish often served with rice and farofa (toasted cassava flour)."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "30 ml zeytinyağı",
-   "200 g domuz pastırması veya tütsülenmiş domuz pastırması (bacon), küp doğranmış",
+   "200 g tütsülenmiş domuz pastırması (bacon), küp doğranmış",
    "300 g domuz omuzundan et, 3 cm'lik küpler halinde",
    "300 g tütsülenmiş chouriço veya linguiça sosisi, 1 cm'lik dilimler halinde",
    "150 g soğan, ince doğranmış",
@@ -51,8 +51,8 @@
    "Sosisleri ekleyin ve yağları salıverip hafifçe kızarmaya başlayana kadar 3 dakika daha pişirin, ardından sosisleri tavadan bir tabağa alın.",
    "Soğanı ve sarımsağı tencereye ekleyip soğan yumuşayana kadar 5 dakika kavurun.",
    "Tatlı kırmızı biberi ekleyip 30 saniye karıştırın, ardından rendelenmiş domatesi ilave edip suyunu çekene kadar 5 dakika pişirin.",
-   "Sıcak suyu veya et suyunu, defne yaprağını ve tuzu ekleyin, kaynamaya bırakın.",
-   "Ateşi kısın, kapağı kapatın ve et yumuşayana kadar yaklaşık 25 dakika hafif kaynatın.",
+   "Sıcak suyu veya et suyunu, defne yaprağını ve bir tutam tuzu ekleyin, kaynamaya bırakın.",
+   "Ateşi kısın, kapağı kapatın ve et yumuşayana kadar yaklaşık 40 dakika hafif kaynatın.",
    "Süzülmüş fasulyeleri ve ayırdığınız sosisleri tencereye ekleyin, yavaşça karıştırın.",
    "Kapağı açık bırakarak 15 dakika daha hafif kaynatın; sos hafifçe koyulaşmalı.",
    "Tadına bakıp karabiber ve gerekirse tuz ile tatlandırın, defne yaprağını çıkarın.",
@@ -66,7 +66,7 @@
    "Add the onion and garlic to the pot and sauté for 5 minutes, until the onion is soft.",
    "Stir in the sweet paprika for 30 seconds, then add the grated tomatoes and cook for 5 minutes until they break down.",
    "Pour in the hot water or stock, add the bay leaf and a pinch of salt, and bring to a boil.",
-   "Reduce the heat, cover, and simmer gently for about 25 minutes, until the pork is tender.",
+   "Reduce the heat, cover, and simmer gently for about 40 minutes, until the pork is tender.",
    "Add the drained beans and the reserved sausage to the pot and stir gently.",
    "Simmer uncovered for another 15 minutes, until the sauce thickens slightly.",
    "Taste and season with black pepper and more salt if needed, then remove the bay leaf.",
@@ -77,5 +77,17 @@
   "tr": "Tütsülenmiş sosisin tuzu ve yağı yoğun olduğu için tuzu en sonda ayarlayın; geleneksel olarak pilav ve kızarmış un ile servis edin.",
   "en": "Smoked sausage is already salty, so season with salt only at the end. Serve with white rice and farofa, as is traditional."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the listed steps, which add up to roughly 80 minutes including prep.",
+   "Simmer of about 25 minutes is short for 3 cm pork shoulder cubes to become tender; extended to about 40 minutes.",
+   "Turkish ingredient 'domuz pastırması veya tütsülenmiş domuz pastırması (bacon)' is an awkward either/or that does not match the English 'smoked bacon'; made it 'tütsülenmiş domuz pastırması (bacon)'.",
+   "Turkish step 7 says 'tuzu ekleyin' while the English says 'a pinch of salt'; aligned the Turkish to 'bir tutam tuz'.",
+   "Simmer time changed in both languages (step 8), so the English and Turkish versions still agree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

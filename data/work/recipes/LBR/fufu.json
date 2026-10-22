@@ -17,7 +17,7 @@
    "300 g yeşil muz (olgunlaşmamış), soyulmuş ve parçalanmış",
    "1,5 L su",
    "1 tatlı kaşığı tuz",
-   "100 ml soğuk su (eller ve çekiç için)"
+   "100 ml soğuk su (eller ve tokmak için)"
   ],
   "en": [
    "600 g cassava (yuca), peeled and cut into chunks",
@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru sıcakken dövmek daha kolay olur; eller ve çekiç yapışmasın diye soğuk suyla sık sık ıslatın.",
+  "tr": "Hamuru sıcakken dövmek daha kolay olur; eller ve tokmak yapışmasın diye soğuk suyla sık sık ıslatın.",
   "en": "Pound the dough while it is hot, as it becomes much easier to work; keep wetting your hands and the pounder with cold water to prevent sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'çekiç' (hammer) for the pounder in the ingredient list and the tip; the correct term for a mortar pestle is 'tokmak' (havan tokmağı)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

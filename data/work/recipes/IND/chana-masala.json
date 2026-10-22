@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g haşlanmış nohut (2 kutu, süzülmüş, 400 g'lık kutulardan)",
+   "480 g haşlanmış nohut (2 kutu, süzülmüş, 400 g'lık kutulardan)",
    "150 ml nohut suyu ya da su",
    "45 ml sıvı yağ ya da ghee",
    "1 tatlı kaşığı (3 g) kimyon tohumu",
@@ -30,10 +30,10 @@
    "1 tatlı kaşığı kuru mango tozu (amchur) (2 g)",
    "1 çay kaşığı tuz (6 g)",
    "1 yemek kaşığı limon suyu (15 ml)",
-   "1 avuç taze kişniş yaprağı, doğranmış (15 g)"
+   "1 avuç (15 g) taze kişniş yaprağı, doğranmış"
   ],
   "en": [
-   "800 g cooked chickpeas (2 cans of 400 g, drained)",
+   "480 g cooked chickpeas (2 cans of 400 g, drained)",
    "150 ml chickpea liquid from the can or water",
    "45 ml vegetable oil or ghee",
    "1 tsp (3 g) cumin seeds",
@@ -61,7 +61,7 @@
    "Sarımsak, zencefil ve yeşil biberi ekleyip 1 dakika daha pişirin.",
    "Kişniş tozu, zerdeçal ve acı kırmızı biberi ekleyin. Baharatlar yanmasın diye 2-3 yemek kaşığı su ile karıştırıp yarım dakika pişirin.",
    "Domatesleri ekleyin ve domatesler yumuşayıp yağ yüzeye ayrılana kadar yaklaşık 8 dakika pişirin.",
-   "Nohutları, tuzu ve ayırdığınız 150 ml nohut suyunu ya da suyu ekleyin. Karıştırıp kısık ateşte 15 dakika kaynatın.",
+   "Nohutları, tuzu ve ayırdığınız 150 ml nohut suyunu ya da suyu ekleyin. Karıştırıp kısık ateşte 15 dakika hafifçe kaynatın.",
    "Kaşık sapıyla nohutların bir kısmını hafifçe ezerek sosu koyulaştırın.",
    "Garam masala ve amchur tozunu ekleyip 2 dakika daha pişirin. Tadına bakıp gerekirse tuz ekleyin.",
    "Ocaktan alın, limon suyu ve doğranmış taze kişnişi ekleyip karıştırın. Pirinç, naan ya da puri ile sıcak servis edin."
@@ -83,5 +83,14 @@
   "tr": "Nohutları sosta kısık ateşte bırakmak tatların iyice karışmasını sağlar; daha yoğun bir kıvam için birkaç kaşık nohutu ezin.",
   "en": "Simmering the chickpeas gently in the sauce lets the flavours blend; mash a few for a thicker, creamier texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chickpea weight is inconsistent with the can sizes: 2 cans of 400 g drained yield about 480 g, not 800 g.",
+   "Turkish step 7 says 'kısık ateşte ... kaynatın' (boil on low heat), which conflicts with the English 'simmer gently'. Turkish should say 'hafifçe kaynatın' to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

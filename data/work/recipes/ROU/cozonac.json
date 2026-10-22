@@ -23,8 +23,9 @@
    "1/2 limonun rendelenmiş kabuğu",
    "100 g ceviz, iri öğütülmüş",
    "8 g kakao tozu",
+   "40 g şeker (iç harç için)",
    "30 ml süt (iç harç için)",
-   "15 g tereyağı (iç harç için)",
+   "15 g tereyağı, eritilmiş (iç harç için)",
    "1 yemek kaşığı rom",
    "1 yumurta sarısı (üzeri için)",
    "1 yemek kaşığı süt (üzeri için)"
@@ -40,8 +41,9 @@
    "grated zest of 1/2 lemon",
    "100 g walnuts, coarsely ground",
    "8 g cocoa powder",
+   "40 g sugar (for filling)",
    "30 ml milk (for filling)",
-   "15 g butter (for filling)",
+   "15 g butter, melted (for filling)",
    "1 tablespoon rum",
    "1 egg yolk (for glaze)",
    "1 tablespoon milk (for glaze)"
@@ -53,7 +55,7 @@
    "Unu geniş bir kaseye alın, kalan 50 g şekeri, tuzu ve limon kabuğunu ekleyin. Ortasında bir kuyu açıp yumurtayı, köpüren mayalı sütü ve soğumuş eritilmiş tereyağını ekleyin.",
    "Malzemeleri yoğurup 10 dakika kadar pürüzsüz, esnek ve elden yapışmayan bir hamur elde edin.",
    "Hamuru üzerini örtüp sıcak bir yerde iki katına çıkana kadar, yaklaşık 1 saat dinlendirin.",
-   "İç harcı hazırlamak için cevizi, kakaoyu ve şekeri bir kasede karıştırın. Ayrı bir kapta 30 ml sütü, eritilmiş 15 g tereyağını ve romu birleştirip ceviz karışımına ekleyerek macunumsu bir harç yapın.",
+   "İç harcı hazırlamak için cevizi, kakaoyu ve 40 g şekeri bir kasede karıştırın. Ayrı bir kapta 30 ml sütü, eritilmiş 15 g tereyağını ve romu birleştirip ceviz karışımına ekleyerek macunumsu bir harç yapın.",
    "Kabarmış hamuru hafifçe bastırıp unlu tezgâhta yaklaşık 30x20 cm'lik dikdörtgen şeklinde açın. Üzerine iç harcı eşit yayın, kenarlarından 1 cm boş bırakın.",
    "Hamuru uzun kenarından başlayarak sıkıca sarın, dikişini aşağıda bırakın. Yağlanmış 20 cm'lik kek kalıbına yerleştirin ya da halka şeklinde kıvırın.",
    "Üzerini örtüp sıcak bir yerde yaklaşık 45 dakika ikinci kez kabarmaya bırakın.",
@@ -66,7 +68,7 @@
    "Put the flour in a large bowl and add the remaining 50 g of sugar, the salt and the lemon zest. Make a well in the centre and add the egg, the foamy yeast milk and the cooled melted butter.",
    "Knead for about 10 minutes until you have a smooth, elastic dough that no longer sticks to your hands.",
    "Cover the dough and leave it in a warm place for about 1 hour, until doubled in size.",
-   "To make the filling, mix the ground walnuts, cocoa and sugar in a bowl. In a separate cup, combine the 30 ml milk, the 15 g melted butter and the rum, then stir into the walnut mixture to form a spreadable paste.",
+   "To make the filling, mix the ground walnuts, cocoa and 40 g sugar in a bowl. In a separate cup, combine the 30 ml milk, the 15 g melted butter and the rum, then stir into the walnut mixture to form a spreadable paste.",
    "Punch the dough down gently and roll it out on a floured surface into a rectangle about 30 x 20 cm. Spread the filling evenly over it, leaving a 1 cm border around the edges.",
    "Roll the dough tightly from a long side, keeping the seam underneath. Place it in a greased 20 cm loaf tin, or curl it into a ring.",
    "Cover and let it rise in a warm place for about 45 minutes, until puffy.",
@@ -79,5 +81,13 @@
   "tr": "İç harcı sararken hamur kolay yırtılmasın diye hamuru gevşek ve oda sıcaklığında tutun; kesmeden önce tamamen soğumasını beklemek dilimlerin dağılmasını önler.",
   "en": "Keep the dough relaxed and at room temperature while rolling so it does not tear around the filling, and let the loaf cool fully before slicing so the walnut layers stay neat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The filling step adds sugar (step 5, both languages), but no sugar quantity for the filling appears in the ingredient lists. The 50 g in step 2 is for the dough."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

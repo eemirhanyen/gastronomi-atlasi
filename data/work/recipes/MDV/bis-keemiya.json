@@ -25,7 +25,7 @@
    "10 adet taze köri yaprağı, ince kıyılmış",
    "1/2 tatlı kaşığı zerdeçal",
    "1/2 tatlı kaşığı taze çekilmiş karabiber",
-   "1 yemek kaşığı limon suyu",
+   "1 yemek kaşığı misket limonu suyu",
    "1 yemek kaşığı sıvı yağ, iç harç için",
    "600 ml kızartma yağı"
   ],
@@ -53,7 +53,7 @@
    "Ilık suyu azar azar ekleyerek yumuşak ama sert olmayan bir hamur yoğurun. Üzerini örtüp 30 dakika dinlendirin.",
    "Bu sırada iç harcı hazırlayın. Tavada 1 yemek kaşığı sıvı yağı orta ateşte ısıtın, soğanı, yeşil biberi ve köri yapraklarını ekleyip soğan yumuşayana kadar yaklaşık 4 dakika kavurun.",
    "Zerdeçal ve karabiberi ekleyip 1 dakika daha karıştırın. Ton balığını ekleyin, parçalarını çatalla ezerek 2 dakika pişirin.",
-   "Ezilmiş patatesi ekleyip iyice karıştırın, limon suyunu gezdirin ve tadına bakarak tuzunu ayarlayın. Harcı tamamen soğumaya bırakın.",
+   "Ezilmiş patatesi ekleyip iyice karıştırın, misket limonu suyunu gezdirin ve tadına bakarak tuzunu ayarlayın. Harcı tamamen soğumaya bırakın.",
    "Hamuru 12 eşit topa bölün. Her topu un serpilmiş tezgâhta yaklaşık 12 cm çapında, ince bir yuvarlak açın.",
    "Her hamur yuvarlağının ortasına 1 yemek kaşığı harç koyun. Yarım ay şeklinde katlayın, kenarlarını parmaklarınızla sıkıca kapatın ve çatal ucuyla bastırarak süsleyin.",
    "Kızartma yağını derin bir tencerede 170°C'ye kadar ısıtın. Hamur işlerini partiler halinde, altın rengi ve çıtır olana kadar yaklaşık 3-4 dakika kızartın.",
@@ -75,5 +75,13 @@
   "tr": "Harcın tamamen soğuması önemlidir; sıcak harç hamuru yırtar ve yağda açılmasına neden olur.",
   "en": "Let the filling cool completely before assembling, as warm filling tears the dough and can cause the pastries to open in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'limon suyu' (lemon juice) does not match English 'lime juice' in the ingredients and step 5. Turkish should say 'misket limonu suyu' to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

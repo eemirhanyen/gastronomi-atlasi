@@ -9,15 +9,15 @@
   "en": "A slow-cooked beef stew of onion, tomato and green pepper, eaten across Eswatini at family meals and gatherings. It is usually served with maize porridge (pap) or rice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "800 g sığır kol eti, 3 cm'lik küpler halinde",
    "30 ml ayçiçek yağı",
-   "2 orta boy soğan, ince doğranmış (about 200 g)",
-   "2 domates, küp küp doğranmış (about 300 g)",
-   "1 yeşil biber, doğranmış (about 150 g)",
+   "2 orta boy soğan, ince doğranmış (yaklaşık 200 g)",
+   "2 domates, küp küp doğranmış (yaklaşık 300 g)",
+   "1 yeşil biber, doğranmış (yaklaşık 150 g)",
    "2 diş sarımsak, ezilmiş",
    "1 tatlı kaşığı tuz",
    "1/2 tatlı kaşığı karabiber",
@@ -44,8 +44,8 @@
    "Aynı tencereye soğanı ekleyin ve yumuşayıp hafif altın rengi alana kadar 5 dakika kavurun.",
    "Sarımsak ve yeşil biberi ekleyip 2 dakika daha karıştırın.",
    "Domatesleri, eti ve biriken suyu tencereye geri koyun. Tuz, karabiber ve suyu ekleyip karıştırın.",
-   "Kapağı kapatın, ateşi kısın ve et iyice yumuşayıp sos koyulaşana kadar yaklaşık 40 dakika ara ara karıştırarak pişirin. Gerekirse az su ekleyin.",
-   "Tatmın ve gerekirse tuzu ayarlayın. Sıcak pirinçle servis edin."
+   "Kapağı kapatın, ateşi kısın ve et iyice yumuşayıp sos koyulaşana kadar yaklaşık 90 dakika ara ara karıştırarak pişirin. Gerekirse az su ekleyin.",
+   "Tadını kontrol edin ve gerekirse tuzu ayarlayın. Sıcak pirinçle servis edin."
   ],
   "en": [
    "Heat the sunflower oil in a large pot over medium-high heat.",
@@ -53,7 +53,7 @@
    "In the same pot, fry the onion for about 5 minutes until soft and lightly golden.",
    "Add the garlic and green pepper and stir for 2 more minutes.",
    "Return the beef and any juices to the pot. Add the tomatoes, salt, black pepper and water, and stir.",
-   "Cover, lower the heat and simmer for about 40 minutes, stirring now and then, until the meat is very tender and the sauce has thickened. Add a little water if it becomes too dry.",
+   "Cover, lower the heat and simmer for about 90 minutes, stirring now and then, until the meat is very tender and the sauce has thickened. Add a little water if it becomes too dry.",
    "Taste and adjust the salt. Serve hot with rice."
   ]
  },
@@ -61,5 +61,15 @@
   "tr": "Eti kavururken tencereyi aşırı doldurmayın; aksi halde et haşlanır ve rengi kahverengileşmez.",
   "en": "Brown the beef in batches so the pot is not crowded; overcrowding steams the meat instead of browning it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lines contain English text ('about 200 g', 'about 300 g', 'about 150 g').",
+   "Turkish step 7 uses 'Tatmın', which is not correct Turkish; it should be 'Tadın'.",
+   "A 40-minute simmer is too short for 800 g of beef chuck to become 'very tender'. Chuck usually needs about 1.5 hours or more, so the time_min value also needs updating."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

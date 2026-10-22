@@ -5,11 +5,11 @@
  },
  "native": "豆漿",
  "desc": {
-  "tr": "Tayvan'da özellikle sabah kahvaltısında, sıcak ya da soğuk olarak içilen geleneksel bir içecektir. Genellikle tatlı hazırlanır, ancak tuzlu ve sirkeli bir versiyonu da yaygındır.",
+  "tr": "Tayvan'da özellikle sabah kahvaltısında, genellikle yağda kızartılmış hamur çubuğu youtiao ile birlikte, sıcak ya da soğuk olarak içilen geleneksel bir içecektir. Genellikle tatlı hazırlanır, ancak tuzlu ve sirkeli bir versiyonu da yaygındır.",
   "en": "A traditional Taiwanese breakfast drink, served hot or cold and most often eaten in the morning with youtiao, fried dough sticks. It is usually sweetened, though a savory version with vinegar is also common."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 660,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -29,7 +29,7 @@
   "tr": [
    "Soya fasulyelerini ayıklayın, iyice yıkayın ve 1,2 L soğuk suda 8-12 saat bekletin. Oda sıcaklığı çok yüksekse buzdolabında ıslatın.",
    "Islanan fasulyeleri süzün ve akan suyun altında iyice durulayın. Soğuk suyu atın.",
-   "Fasulyeleri 1,2 L taze su ile birlikte blendırda 2-3 dakika, pürüzsüz bir karışım oluncaya kadar yüksek hızda öğütün. Gerekirse iki partide öğütün.",
+   "Fasulyeleri 1,2 L taze su ile birlikte blenderda 2-3 dakika, pürüzsüz bir karışım oluncaya kadar yüksek hızda öğütün. Gerekirse iki partide öğütün.",
    "Karışımı ince bir süzgeç veya temiz bir tülbentten geçirerek süzün. Posa (okara) kalana kadar sıkın; posayı başka tariflerde kullanmak üzere ayırın.",
    "Elde edilen sütü geniş bir tencereye alın ve orta ateşte, sık sık karıştırarak kaynamaya başlatın. Köpük yapacağı için tencereyi izleyin.",
    "Ocağı kısın ve süt yavaşça kaynarken 8-10 dakika daha pişirin. Bu adım çok önemlidir; yeterince kaynatılmayan soya sütü hazmı zor olabilir.",
@@ -48,8 +48,18 @@
   ]
  },
  "tip": {
-  "tr": "Soya sütünü mutlaka iyice kaynatın; ocaktan alırken tencerenin kenarına dikkat edin, köpük taşmasın diye ateşi kısabilirsiniz.",
+  "tr": "Soya sütünü mutlaka iyice kaynatın; köpük hızla yükseldiği için tencereyi yanından ayrılmadan izleyin ve taşmaması için ateşi kısın.",
   "en": "Always boil the soy milk thoroughly and watch the pot closely, since the foam rises fast. For a savory breakfast version, skip the sugar and season with salt and Chinese black vinegar instead."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 has a typo: 'blendırda' should be 'blenderda'.",
+   "The English description mentions serving with youtiao, but the Turkish description omits it, so the two versions don't match.",
+   "time_min is 60, but the recipe requires 8-12 hours of soaking, so the total time is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

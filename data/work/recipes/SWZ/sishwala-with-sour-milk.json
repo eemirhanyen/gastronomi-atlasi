@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Lapayı karıştırmayı bırakmayın; yoksa dibi tutar ve topaklanır. Sıcak sütle değil, soğutulmuş ekşi sütle servis ederek çıtır, ekşi bir denge elde edin.",
+  "tr": "Lapayı karıştırmayı bırakmayın; yoksa dibi tutar ve topaklanır. Sıcak lapayı soğutulmuş ekşi sütle servis ederek serin, ekşi bir denge elde edin.",
   "en": "Keep stirring, or the bottom will scorch and lumps will form. Serve with well-chilled sour milk for a cool, tangy contrast to the warm porridge."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses 'çıtır' (crispy/crunchy), which is wrong for a soft maize porridge served with sour milk. The English tip says 'cool, tangy contrast', so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

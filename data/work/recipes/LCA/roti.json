@@ -57,7 +57,7 @@
    "Baharatlı tavukları tencereye ekleyip 5 dakika, yüzeyleri hafif renk alana kadar kavurun. Patatesleri, kekiği, bütün Skoçya bonesi biberini ve 100 ml suyu ekleyin.",
    "Kapağını kapatıp kısık ateşte 25 dakika pişirin; tavuk ve patatesler yumuşayınca biberi çıkarın (bozulmaması için) ve sosu tuzla ayarlayın. Sos koyulaşmışsa birkaç yemek kaşığı su ekleyin. Yeşil soğanı serpin ve kenara alın.",
    "Hamuru 4 eşit topa bölün. Her topu un serpilmiş bir yüzeyde 20 cm çapında, çok ince bir daire olacak şekilde açın.",
-   "Kalın tavada orta-yüksek ateşte her yufkayı 1-2 dakika pişirin, yüzeyinde kabarcıklar oluşunca çevirin ve diğer yüzünü de 1 dakika pişirin. Sıcak kalması için temiz bir bezle örtün.",
+   "Kalın tavada orta-yüksek ateşte her hamur diskini 1-2 dakika pişirin, yüzeyinde kabarcıklar oluşunca çevirin ve diğer yüzünü de 1 dakika pişirin. Sıcak kalması için temiz bir bezle örtün.",
    "Her roti'nin ortasına iç harcının dörtte birini yayın, kenarlarını içe doğru katlayıp sıkıca sarın ve sıcak servis yapın."
   ],
   "en": [
@@ -75,5 +75,13 @@
   "tr": "Roti'yi soğuk bir tavada değil, iyice ısınmış ağır tabanlı bir tavada pişirin; hamur daha fazla kabarır ve katmanlı olur. Geleneksel servis için yanında acı domates chutney'si ya da mango chutney'si ekleyin.",
   "en": "Cook the roti in a well-heated heavy pan rather than a cold one so the layers puff and separate. Serve with a tangy tomato or mango chutney, as is traditional."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 uses \"yufka\", which in Turkish usually means a specific thin phyllo-style sheet and does not describe roti dough. Replaced with \"hamur diski\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

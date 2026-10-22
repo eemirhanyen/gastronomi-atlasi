@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Yeşil dudaklı midye fritözü",
+  "tr": "Yeşil dudaklı midye fritürü",
   "en": "Green-lipped mussel fritters"
  },
  "native": "Kūtai fritters",
@@ -52,7 +52,7 @@
    "Aioli'yi limon suyuyla karıştırıp bir kenara koyun.",
    "Derin ve kalın tabanlı bir tencerede yağı 175°C'ye kadar ısıtın.",
    "Hamurdan birer yemek kaşığı alarak yağa bırakın ve her iki yüzü altın rengi olana kadar 2-3 dakika kızartın. Her seferinde 4-5 parça kızartın.",
-   "Kızaran fritözleri kağıt havlu üzerinde süzün, sıcakken hafifçe tuzlayın ve limonlu aioli ile servis edin."
+   "Kızaran fritürleri kağıt havlu üzerinde süzün, sıcakken hafifçe tuzlayın ve limonlu aioli ile servis edin."
   ],
   "en": [
    "Pat the mussel meat dry with kitchen paper and chop roughly into pieces about 1 cm.",
@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Midyeyi iyice kurutun; fazla su hamuru gevşetir ve fritözlerin yağı çekmesine neden olur.",
+  "tr": "Midyeyi iyice kurutun; fazla su hamuru gevşetir ve fritürlerin yağı çekmesine neden olur.",
   "en": "Dry the mussels thoroughly, as excess moisture will loosen the batter and make the fritters greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name and step 8 use \"fritöz\", which in Turkish usually means the deep-fryer appliance. The fried food is called \"fritür\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

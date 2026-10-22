@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "200 g çok amaçlı un",
-   "1 tatlı kaşığı tuz (hamur için 1/2 tatlı kaşığı)",
+   "1/2 tatlı kaşığı tuz (hamur için)",
    "1 yemek kaşığı bitkisel yağ (hamur için)",
    "120 ml ılık su",
    "150 g kırmızı mercimek (kabuksuz, bölünmüş)",
@@ -81,5 +81,13 @@
   "tr": "Hamuru yoğururken çok fazla un eklemeyin; hamur ne kadar ince açılırsa sambusa o kadar çıtır olur. Kullanmadığınız hamuru nemli bezle örtün ki kurumasın.",
   "en": "Do not add too much flour when kneading; the thinner you roll the dough, the crispier the sambusa. Keep unused dough covered with a damp cloth so it does not dry out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dough salt line is inconsistent: it reads \"1 tatlı kaşığı tuz\" but the parenthetical and the English say 1/2 tsp for the dough."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

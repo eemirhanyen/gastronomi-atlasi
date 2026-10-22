@@ -9,7 +9,7 @@
   "en": "A tender beef stew cooked with tomato and onion, common in Malawian homes. It is usually served at lunch or dinner with nsima, a stiff maize porridge."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -26,7 +26,7 @@
    "10 g taze kişniş, kıyılmış"
   ],
   "en": [
-   "600 g beef stewing meat, cut into cubes (lean-ish)",
+   "600 g beef stewing meat, cut into cubes (lean)",
    "45 ml cooking oil",
    "300 g onion, finely chopped (about 2)",
    "2 garlic cloves, crushed",
@@ -67,5 +67,14 @@
   "tr": "Etin yumuşaması için sık sık karıştırmak yerine ateşi çok kısık tutun; bu, sosun da daha dengeli kıvam almasını sağlar.",
   "en": "Keep the heat low and steady rather than stirring constantly; a gentle simmer tenderises the beef and lets the sauce thicken evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 has a typo: 'kururssa' should be 'kurursa'.",
+   "time_min is 90, but browning in batches (about 20 min), sautéing and the 60-75 min simmer add up to roughly 110-125 min total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

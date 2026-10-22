@@ -6,10 +6,10 @@
  "native": "Sauce gombo",
  "desc": {
   "tr": "Orta Afrika Cumhuriyeti'nde günlük yemeklerin vazgeçilmez sosudur. Genellikle manyok foufou veya manyok ekmeğiyle, öğle ve akşam yemeklerinde servis edilir.",
-  "en": "A everyday sauce of the Central African Republic, usually eaten at lunch or dinner with cassava foufou or cassava bread. Its thick, slightly viscous texture comes from the okra."
+  "en": "An everyday sauce of the Central African Republic, usually eaten at lunch or dinner with cassava foufou or cassava bread. Its thick, slightly viscous texture comes from the okra."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Bamyanın saplarını kesin, uçlarını ayırın ve bamyaları küçük halkalar halinde doğrayın.",
+   "Bamyanın saplarını kesin, uç kısımlarını koparın ve bamyaları küçük halkalar halinde doğrayın.",
    "Büyük bir tencerede palmiye yağını orta-yüksek ateşte ısıtın.",
    "Dana etini ekleyip her tarafı renk alana kadar yaklaşık 5 dakika kavurun.",
    "Soğanı ekleyin ve yumuşayana kadar yaklaşık 5 dakika pişirin.",
@@ -69,5 +69,15 @@
   "tr": "Bamyayı pişirmeden önce kuru bir bezle silin ve ocağa eklemeden önce uzun süre suda bekletmeyin; böylece sos daha az kayganlaşır.",
   "en": "Wipe the okra dry before cutting and do not soak it in water; this keeps the sauce less slimy and gives a better texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is lower than the sum of the cooking steps (about 80 minutes) plus prep and foufou preparation",
+   "English description has a grammar error: 'A everyday sauce' should be 'An everyday sauce'",
+   "Turkish step 1 'uçlarını ayırın' is unclear; the English says to remove the tips, so the Turkish should say the uç kısımlarını koparın"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

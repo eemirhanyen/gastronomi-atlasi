@@ -42,7 +42,7 @@
    "Kapağını örtün veya temiz bir bezle kapatıp sıcak bir yerde 30 dakika dinlendirin; hamur kabarıp yüzeyi köpüklenmelidir.",
    "Derin bir tencerede yağı 170 °C'ye kadar ısıtın.",
    "Hamurdan bir kaşık alıp kızgın yağa bırakın; her seferinde 3-4 parça kızartın.",
-   "Her tarafı altın sarısı olana kadar yaklaşık 3-4 dakika kızartın.",
+   "Her tarafı altın sarısı olana kadar, bir kez çevirerek yaklaşık 3-4 dakika kızartın.",
    "Mofoları kağıt havluya alıp fazla yağını süzdürün ve sıcak servis yapın."
   ],
   "en": [
@@ -61,5 +61,13 @@
   "tr": "Muz ne kadar olgunsa mofo o kadar tatlı ve yumuşak olur; kabuğunda siyah benekler oluşmuş muzları tercih edin.",
   "en": "The riper the banana, the sweeter and softer the mofo; choose bananas with black speckles on the skin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 omits the turning instruction given in the English version (\"turning once\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

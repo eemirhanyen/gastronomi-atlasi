@@ -72,7 +72,7 @@
    "Finely chop the red onion, dice the tomato into small cubes and slice the green chillies into thin rings. Chop the coriander.",
    "Heat 45 ml oil in a wide frying pan over medium-high heat. Add 1 tsp cumin seeds and fry for about 30 seconds, until they sizzle and smell fragrant.",
    "Add the potato cubes and drained chickpeas to the pan. Fry for 6-8 minutes, stirring occasionally, until the potatoes are golden and the edges are crisp.",
-   "Lower the heat. Add 1/2 tsp red chilli powder, 1 tsp chaat masala, 1/2 tsp black salt and the 1 tsp salt, then toss well and cook for one more minute. Remove from the heat.",
+   "Lower the heat. Add 1/2 tsp red chilli powder, 1 tsp chaat masala, 1/2 tsp black salt and the remaining salt, then toss well and cook for one more minute. Remove from the heat.",
    "Spread the spiced potato and chickpea mixture on serving plates. Spoon over the chilled yogurt, then drizzle with the tamarind sauce.",
    "Scatter over the onion, tomato and green chillies, then add the coriander. Finish with the sev and serve immediately."
   ]
@@ -81,5 +81,13 @@
   "tr": "Patatesleri tavaya koymadan önce iyice soğutun; sıcak patates dağılır ve gevrekliğini kaybeder. Sev'i en son ekleyin ki yumuşamasın.",
   "en": "Cool the potatoes fully before frying, as warm ones break apart and lose their crunch. Add the sev last so it stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 7 says \"the 1 tsp salt\", which implies the full teaspoon is added here. The Turkish says \"kalan tuzu\" (the remaining salt), and 1/4 tsp was already used in the tamarind sauce, so the Engl"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

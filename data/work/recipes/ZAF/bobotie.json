@@ -80,8 +80,16 @@
   ]
  },
  "tip": {
-  "tr": "Üstteki sütlü karışım tam sertleşmeden fırından çıkarılırsa dilimlerken dağılabilir; ortası hafifçe titrese bile 10 dakika dinlendirme sırasında oturur.",
+  "tr": "Üstteki sütlü karışım tam sertleşmeden fırından çıkarılırsa dilimlerken dağılabilir. Ortası hâlâ çok titriyorsa fırında birkaç dakika daha bekletin; fırından çıkarıldıktan sonra kısa bir dinlendirme, karışımın oturup dilimlerin şeklini korumasını sağlar.",
   "en": "If the custard is still very wobbly in the centre, leave it in for a few more minutes; a short rest after baking lets it firm up so the slices hold their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips contradict each other: the Turkish tip says to take the dish out even if the centre is still wobbly, while the English tip says to bake a few more minutes until the centre is "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

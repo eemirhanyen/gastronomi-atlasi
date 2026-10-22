@@ -9,7 +9,7 @@
   "en": "A staple Sudanese breakfast, this dish pairs soft fava beans with a rich, spiced roasted peanut sauce. It is typically served hot in the morning with warm flatbread and fresh lemon."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,13 @@
   "tr": "Baklaları pişirirken karbonat eklemek kabuklarını yumuşatır ve püreyi daha kremsi yapar; kabukları çok rahatsız ediyorsa ezmeden önce çıkarabilirsiniz.",
   "en": "Adding baking soda to the beans softens their skins and makes the purée creamier; if the skins bother you, slip them off before mashing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (120) is shorter than the steps require: the beans alone simmer 1.5 to 2 hours, plus about 25 minutes of frying, sauce, and assembly. Changed to 150."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

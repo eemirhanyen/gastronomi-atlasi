@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Muz yapraklarını bulamazsanız, tencerenin dibine alüminyum folyo serip üzerine pişirme kağıdı koyarak aynı buharlı etkiyi elde edebilirsiniz.",
+  "tr": "Muz yapraklarını bulamazsanız, fırın tepsisinin dibine önce pişirme kağıdı, üzerine de alüminyum folyo serip aynı buharlı etkiyi elde edebilirsiniz.",
   "en": "If banana leaves are hard to find, line the tray with baking paper and then foil; the parcel will still steam the food well, though the leafy aroma will be milder."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip reverses the lining order relative to the English tip: English says baking paper then foil, Turkish says foil then baking paper."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

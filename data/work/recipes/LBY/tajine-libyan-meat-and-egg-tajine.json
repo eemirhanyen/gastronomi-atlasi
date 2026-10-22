@@ -9,7 +9,7 @@
   "en": "A family-style main dish from Libya in which minced meat, potatoes and peas are cooked in a spiced tomato sauce, then topped with beaten eggs and baked until set. It is often served at weekend lunches and when guests visit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,7 +57,7 @@
    "Kıymayı ekleyip tahta kaşıkla dağıtarak rengi değişene kadar 8-10 dakika kavurun.",
    "Salçayı ekleyip 2 dakika çevirin. Rendelenmiş domatesi, kimyonu, tatlı kırmızı biberi, kuru nanesi, karabiberi, tuzu ve suyu ekleyin. Sos koyulaşana kadar kısık ateşte 10 dakika pişirin.",
    "Bezelyeyi ve maydanozu ekleyip 3 dakika daha pişirin, ocaktan alın.",
-   "Harç karışımını fırına uygun, yaklaşık 25 cm çapında bir kaba yayın. Kızarmış patatesleri üzerine serpin.",
+   "Kıymalı karışımı fırına uygun, yaklaşık 25 cm çapında bir kaba yayın. Kızarmış patatesleri üzerine serpin.",
    "Yumurtaları bir tutam tuzla çırpın ve karışımın üzerine eşit şekilde dökün. Kabı hafifçe sallayarak yumurtanın tabana yayılmasını sağlayın.",
    "Fırında 25-30 dakika, yumurta tam oturup üzeri hafif altın rengi olana kadar pişirin. Servisten önce 5 dakika dinlendirip kabın içinden dilimleyerek servis yapın."
   ],
@@ -74,8 +74,17 @@
   ]
  },
  "tip": {
-  "tr": "Yumurtayı dökmeden önce karışımın çok sıcak olmamasına dikkat edin; aşırı sıcak harç yumurtayı fazla kabartıp hızla sertleştirir.",
+  "tr": "Yumurtayı dökmeden önce karışımın çok sıcak olmamasına dikkat edin; aşırı sıcak karışım yumurtayı fazla kabartıp hızla sertleştirir.",
   "en": "Let the meat mixture cool slightly before adding the eggs; a very hot base makes the egg puff and set too fast, leaving the texture dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish steps 7 and the tip use \"harç\" for the meat mixture, which is unnatural in this context; \"karışım\" or \"kıymalı karışım\" is the natural term.",
+   "time_min (60) is too low. The listed steps alone (potatoes 8-10 min, onions ~8, meat 8-10, sauce 10, peas 3, bake 25-30, rest 5) add up to about 70-75 minutes before prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

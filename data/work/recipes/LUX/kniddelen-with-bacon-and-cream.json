@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Pastırmalı ve kremalı Kniddelen",
+  "tr": "Füme domuzlu ve kremalı Kniddelen",
   "en": "Bacon and Cream Kniddelen"
  },
  "native": "Kniddelen",
@@ -21,12 +21,12 @@
    "1 tutam rendelenmiş hindistan cevizi",
    "3 litre su (kaynatmak için)",
    "1 yemek kaşığı tuz (kaynatma suyu için)",
-   "150 g bacon (tütsülenmiş domuz pastırması), küp doğranmış",
+   "150 g füme domuz bacon'ı, küp doğranmış",
    "1 orta boy soğan, ince doğranmış",
    "20 g tereyağı",
    "200 ml sıvı krema",
    "1 yemek kaşığı kıyılmış maydanoz",
-   "Taze çekilmiş karabiber"
+   "Taze çekilmiş karabiber, isteğe göre"
   ],
   "en": [
    "400 g plain flour",
@@ -42,7 +42,7 @@
    "20 g butter",
    "200 ml single cream",
    "1 tablespoon chopped parsley",
-   "Freshly ground black pepper"
+   "Freshly ground black pepper, to taste"
   ]
  },
  "steps": {
@@ -75,5 +75,14 @@
   "tr": "Hamur çok sulu olursa Kniddelen kaynak suda dağılır; kıvam sıkılınca yapışmalı ama akmamalıdır. Geleneksel ağır tabanlı tavada servis etmek lezzeti artırır.",
   "en": "If the dough is too wet the dumplings will fall apart in the water; it should be thick and sticky but hold its shape. Use a sturdy pan so the cream sauce clings evenly to the dumplings."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish title and ingredient use 'pastırma' for bacon. In Turkish, pastırma usually means cured beef, so 'Pastırmalı' and 'domuz pastırması' mislabel the ingredient. 'Füme domuz bacon'ı' is the accura",
+   "Black pepper is listed without a quantity in both languages. Adding 'to taste' fixes the missing amount."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

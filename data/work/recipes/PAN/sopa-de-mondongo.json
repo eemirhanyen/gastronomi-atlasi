@@ -25,7 +25,7 @@
    "2 olgun domates (300 g)",
    "1 küçük demet kişniş (culantro), yaklaşık 20 g",
    "2 yemek kaşığı (30 ml) sıvı yağ",
-   "1 çay kaşığı kurutulmuş kekik veya kekik benzeri kuru kekik (oregano)",
+   "1 çay kaşığı kurutulmuş kekik (oregano)",
    "1/2 çay kaşığı karabiber",
    "300 g ñame, soyulmuş ve parçalanmış",
    "300 g yuca, soyulmuş ve parçalanmış",
@@ -57,25 +57,25 @@
  },
  "steps": {
   "tr": [
-   "Petek işkembeyi bol soğuk suyla yıkayın, limon suyu ve 1 yemek kaşığı tuzla ovalayın, sonra tekrar durulayın.",
+   "Petek işkembeyi bol soğuk suyla yıkayın, limon suyu ve 5 g tuzla (yaklaşık 1 çay kaşığı) ovalayın, sonra tekrar durulayın.",
    "Büyük bir tencerede işkembeyi ve 2 litre suyu kaynatın, 10 dakika haşlayıp süzün. Işkembeyi bıçakla kazıyıp 3 cm'lik şeritler halinde kesin.",
    "Temiz tencereye işkembe, dana baldırı ve kalan 2,5 litre suyu koyun. Kaynayınca köpüğünü alın, kapağı kapalı olarak kısık ateşte yaklaşık 2 saat yumuşayana kadar pişirin.",
    "Baldırı tencereden çıkarın, etini kemikten ayırıp küçük parçalar halinde doğrayın; kemikleri atın. Doğranmış eti tekrar tencereye ekleyin.",
    "Soğanı, sarımsağı, ají dulce biberlerini, domatesleri ve kişnişin yarısını blender'da pürüzsüz olana kadar çekin.",
    "Geniş bir tavada yağı ısıtın, blender karışımını ekleyip koyu renk alana ve yağı salmaya başlayana kadar yaklaşık 8 dakika kavurun.",
-   "Kavrulmuş sosu, kekiği, karabiberi ve bir çay kaşığı tuzu tencereye ekleyip iyice karıştırın.",
+   "Kavrulmuş sosu, kekiği, karabiberi ve kalan 5 g tuzu (yaklaşık 1 çay kaşığı) tencereye ekleyip iyice karıştırın.",
    "Ñame, yuca, yeşil muz ve havuçları ekleyin. Kapağı kapalı olarak orta ateşte 25-30 dakika, sebzeler yumuşayana kadar pişirin.",
    "Tadına bakıp gerekirse tuz ekleyin. Ocaktan almadan önce kalan kişnişi ve taze soğanı serpin.",
    "Sıcak servis edin, yanında limon dilimleri ile sunun."
   ],
   "en": [
-   "Rinse the honeycomb tripe well in cold water, rub it with the lime juice and 1 tbsp of the salt, then rinse again.",
+   "Rinse the honeycomb tripe well in cold water, rub it with the lime juice and 5 g (about 1 tsp) of the salt, then rinse again.",
    "Bring a large pot of water (about 2 L) to a boil, add the tripe, and blanch for 10 minutes. Drain, scrape off any residue with a knife, and cut into 3 cm strips.",
    "Put the tripe, beef shank and the remaining 2.5 L water in a clean pot. Bring to a boil, skim off the foam, then cover and simmer gently for about 2 hours until the tripe is tender.",
    "Remove the shank, pull the meat off the bone and cut it into small pieces; discard the bone. Return the meat to the pot.",
    "Blend the onion, garlic, ají dulce peppers, tomatoes and half of the culantro until smooth.",
    "Heat the oil in a wide pan, add the blended mixture and fry for about 8 minutes, until it darkens and the oil begins to separate.",
-   "Add the fried sofrito, oregano, black pepper and 1 tsp of the salt to the pot and stir well.",
+   "Add the fried sofrito, oregano, black pepper and the remaining 5 g (about 1 tsp) of the salt to the pot and stir well.",
    "Add the ñame, yuca, green plantain and carrots. Cover and simmer over medium heat for 25-30 minutes until the vegetables are soft.",
    "Taste and add more salt if needed. Just before turning off the heat, stir in the remaining culantro and the green onions.",
    "Serve hot with lime wedges on the side."
@@ -85,5 +85,14 @@
   "tr": "Işkembe ne kadar uzun pişirilirse o kadar yumuşak olur; yumuşamadığını görürseniz çorbayı bir süre daha kısık ateşte bırakın, düdüklü tencerede ise yaklaşık 45 dakika yeterlidir.",
   "en": "Tripe needs time to become tender; if it is still firm, simmer it longer, or use a pressure cooker for about 45 minutes instead."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantities are inconsistent: step 1 uses 1 tablespoon (about 18 g) and step 7 uses 1 teaspoon, which together exceed the 10 g listed in the ingredients. Both steps now use gram amounts that add u",
+   "Turkish oregano entry is muddled: 'kekik veya kekik benzeri kuru kekik (oregano)' mixes thyme and oregano. Simplified to 'kurutulmuş kekik (oregano)' to match the English 'dried oregano'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

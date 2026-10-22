@@ -35,9 +35,9 @@
   "tr": [
    "Büyük bir kapta unu, mayayı, şekeri ve tuzu iyice karıştırın.",
    "Ilık suyu ekleyip elle yoğurmaya başlayın ve yaklaşık 5 dakika pürüzsüz bir hamur elde edin.",
-   "Oda sıcaklığındaki tereyağını ekleyin ve hamur ipeksi, esnek ve yapışkan olmayana kadar yaklaşık 8-10 dakika daha yoğurun.",
+   "Oda sıcaklığındaki tereyağını ekleyin ve hamur ipeksi ve esnek olana kadar, hafif yapışkan kalacak şekilde yaklaşık 8-10 dakika daha yoğurun.",
    "Hamuru kaseye alın, üzerini nemli bir bezle örtün ve sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalanmaya bırakın.",
-   "Hamuru hafifçe bastırıp gazını alın ve 8 eşit parçaya bölün (yaklaşık 90 gram).",
+   "Hamuru hafifçe bastırıp gazını alın ve 8 eşit parçaya bölün (yaklaşık 105 gram).",
    "Her parçayı avuçlarınızla kısa bir oval şekline getirin, kenarlarını ortaya doğru katlayıp sıkıştırarak tapalapa biçimi verin.",
    "Şekillendirilmiş ekmekleri unlu bir tepsiye dizin, üzerlerini örtüp yaklaşık 30-40 dakika dinlendirin.",
    "Fırını 200°C'ye ısıtın.",
@@ -48,9 +48,9 @@
   "en": [
    "In a large bowl, thoroughly mix the flour, yeast, sugar and salt.",
    "Add the lukewarm water and begin kneading by hand for about 5 minutes until you have a smooth dough.",
-   "Add the softened butter and knead for another 8-10 minutes until the dough is silky, elastic and no longer sticky.",
+   "Add the softened butter and knead for another 8-10 minutes until the dough is silky and elastic, still slightly tacky.",
    "Place the dough in a bowl, cover with a damp cloth and let it rise in a warm place for about 1 hour, until doubled in size.",
-   "Gently press the dough to release the air and divide it into 8 equal pieces (about 90 g each).",
+   "Gently press the dough to release the air and divide it into 8 equal pieces (about 105 g each).",
    "Shape each piece into a short oval with your palms, then fold the edges toward the center and pinch to form the classic tapalapa shape.",
    "Arrange the shaped rolls on a floured tray, cover and let them rest for about 30-40 minutes.",
    "Preheat the oven to 200°C.",
@@ -63,5 +63,14 @@
   "tr": "Ekmeklerin içinin yumuşak kalması için hamuru çok fazla un ekleyerek yoğurmayın; hamur hafif yapışkan kalmalıdır.",
   "en": "Keep the dough slightly tacky rather than adding too much flour, which makes the rolls dry; a soft crumb is the signature of tapalapa."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Piece weight is inconsistent with the ingredient total: about 858 g of dough divided into 8 pieces gives about 105-110 g each, not 90 g (both languages).",
+   "Step 3 says to knead until the dough is 'no longer sticky', but the tip says to keep it slightly tacky. The two instructions contradict each other (both languages)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

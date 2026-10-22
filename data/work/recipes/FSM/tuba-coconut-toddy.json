@@ -5,8 +5,8 @@
  },
  "native": "Tuba",
  "desc": {
-  "tr": "Hindistan cevizi palmiyesinin özsuyundan yapılan, hafif alkollü ve ekşimsi bir içecektir. Filipinler'de en bilinen türü olsa da benzer palmiye özsuyu içecekleri Mikronezya adalarında da yüzyıllardır yapılır ve genellikle günün sonunda, topluluk buluşmalarında tüketilir.",
-  "en": "A lightly alcoholic, slightly sour drink made by fermenting the sap of the coconut palm. Tuba is best known in the Philippines, but similar palm-sap toddies have long been made across the Micronesian islands and are usually shared at the end of the day or at community gatherings."
+  "tr": "Hindistan cevizi palmiyesinin özsuyundan geleneksel olarak yapılan, hafif alkollü ve ekşimsi bir içecektir. Bu tarif, taze özsu yerine ulaşılabilir hindistan cevizi suyu kullanan ev usulü bir uyarlamadır. Filipinler'de en bilinen türü olsa da benzer palmiye özsuyu içecekleri Mikronezya adalarında da yüzyıllardır yapılır ve genellikle günün sonunda, topluluk buluşmalarında tüketilir.",
+  "en": "A lightly alcoholic, slightly sour drink traditionally made by fermenting the sap of the coconut palm. This recipe is a home adaptation that uses fresh coconut water in place of freshly tapped sap. Tuba is best known in the Philippines, but similar palm-sap toddies have long been made across the Micronesian islands and are usually shared at the end of the day or at community gatherings."
  },
  "servings": 4,
  "time_min": 30,
@@ -55,5 +55,13 @@
   "tr": "Fermantasyon sırasında gaz oluştuğu için kavanozu asla hava geçirmez şekilde kapatmayın; tatlılığı azalıp ekşilik arttıkça içeceği erken tüketin.",
   "en": "Never seal the jar airtight during fermentation, since gas builds up; the drink gets less sweet and more sour over time, so serve it early for a sweeter taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says tuba is made by fermenting palm sap, but the recipe uses coconut water. Fermented coconut water is a different drink from traditional toddy, so the description and recipe contradi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

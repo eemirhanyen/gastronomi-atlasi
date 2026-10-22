@@ -44,8 +44,8 @@
    "Hamuru üzerini örtüp ılık bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalandırın.",
    "Akkawi peynirini, maydanozu ve karabiberi bir kasede birleştirin. Akkawi tuzlu olduğu için ekstra tuz eklemeyin.",
    "Hamuru 12 eşit topa bölün. Her topu ince bir yuvarlak açın, yaklaşık 12 cm çapında olsun.",
-   "Her hamur yuvarlağının yarısına 1 kaşık dolgu koyun. Kenarlarını nemlendirip yarım ay ya da üçgen şeklinde kapatın, kenarları çatalla bastırarak sıkıca mühürleyin.",
-   "Hazırladığınız sambuseki hafif örtüp 15 dakika dinlendirin.",
+   "Her hamur yuvarlağının yarısına 1,5 kaşık dolgu koyun. Kenarlarını nemlendirip yarım ay ya da üçgen şeklinde kapatın, kenarları çatalla bastırarak sıkıca mühürleyin.",
+   "Hazırladığınız sambusekleri hafif örtüp 15 dakika dinlendirin.",
    "Kızartmalık yağı geniş bir tencerede yaklaşık 180°C'ye ısıtın.",
    "Sambusekleri partiler halinde, her iki yüzü altın rengi olana kadar 2-3 dakika kızartın.",
    "Kağıt havlu serili bir tabağa alıp yağını süzdürün. Ilık olarak servis edin."
@@ -56,7 +56,7 @@
    "Cover the dough and leave it in a warm place for about 1 hour, until doubled in size.",
    "In a bowl, combine the grated akkawi cheese, chopped parsley and black pepper. Do not add extra salt, as akkawi is already salty.",
    "Divide the dough into 12 equal balls. Roll each into a thin round about 12 cm in diameter.",
-   "Place 1 tablespoon of filling on half of each round. Moisten the edges, fold into a half-moon or triangle, and press the edges firmly together with a fork.",
+   "Place 1½ tablespoons of filling on half of each round. Moisten the edges, fold into a half-moon or triangle, and press the edges firmly together with a fork.",
    "Cover the shaped sambusak loosely and rest them for 15 minutes.",
    "Heat the frying oil in a deep pan to about 180°C.",
    "Fry the sambusak in batches for 2-3 minutes, turning once, until both sides are golden.",
@@ -67,5 +67,14 @@
   "tr": "Kızartma yağının 180°C'de olması önemlidir; çok sıcak olursa dış yüzey hızla koyulaşıp içi çiğ kalır.",
   "en": "Keep the oil at around 180°C. If it is too hot, the outside browns quickly while the cheese inside stays unmelted."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount doesn't match the cheese quantity: 12 rounds at 1 tablespoon each is about 180 g, but the recipe calls for 250 g cheese plus 40 g parsley (about 290 g total, roughly 1½ tablespoons per ",
+   "Turkish grammar error: 'sambuseki' should be 'sambusekleri' (accusative plural) in the step about the shaped pastries."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

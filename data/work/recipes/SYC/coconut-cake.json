@@ -8,7 +8,7 @@
   "tr": "Seyşeller'de taze rendelenmiş hindistan cevizi ile yapılan, nemli ve hafif bir kektir. Genellikle öğleden sonra çayının yanında ve aile kutlamalarında servis edilir.",
   "en": "A moist, light cake made with freshly grated coconut, typically served with afternoon tea and at family celebrations in the Seychelles."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -65,5 +65,13 @@
   "tr": "Hindistan cevizini kuru bir tavada, sık sık karıştırarak hafif altın rengi alana kadar kavurun; bu, kekin aromasını belirgin şekilde artırır.",
   "en": "Toast the grated coconut in a dry pan, stirring often, until lightly golden to deepen its flavour considerably."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) is implausibly low for a 20 cm cake made with 150 g flour and 120 g butter, which yields about 8 slices. Changed to 8."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

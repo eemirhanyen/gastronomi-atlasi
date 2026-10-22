@@ -26,7 +26,7 @@
    "1 yeşil dolmalık biber (150 g), küp doğranmış",
    "400 g olgun domates, doğranmış",
    "2 g öğütülmüş kimyon",
-   "2 g kurutulmuş kekik veya kekik benzeri kuru kekik (oregano)",
+   "2 g kurutulmuş kekik (oregano)",
    "12 yeşil zeytin, çekirdeği alınmış ve ikiye bölünmüş",
    "12 muz yaprağı, 30 cm kareler halinde kesilmiş ve yumuşatılmış",
    "Bağlamak için mutfak ipi veya muz yaprağından şeritler"
@@ -62,7 +62,7 @@
    "Mikserde domuz yağını kabarana kadar çırpın. Kalan 30 ml achiote suyunu ekleyip karıştırın ki yağ kırmızıya dönsün.",
    "Mısır unu ve 8 g tuzu ekleyin. Ilık kalan 450 ml tavuk suyunu azar azar ilave ederek yumuşak, kolay yayılan bir hamur elde edin. Bir parça hamuru suya attığınızda yüzmesi gerekir; yüzmezse biraz daha çırpın. 10 dakika dinlendirin.",
    "Muz yapraklarını bezle silin, ocak alevinde veya sıcak suda birkaç saniye ısıtarak esnekleştirin.",
-   "Bir muz yaprağının ortasına yaklaşık 70 g hamuru yayın, 40 g tavuklu sostan ve bir yarım zeytinden koyun. Yaprağı kapatıp iple bağlayın.",
+   "Bir muz yaprağının ortasına yaklaşık 90 g hamuru yayın, 60 g tavuklu sostan ve bir yarım zeytinden koyun. Yaprağı kapatıp iple bağlayın.",
    "Tamalleri buharda pişirme kabına dizin, altına kaynayan su koyun. Kapağı kapatıp yaklaşık 60 dakika buharda pişirin, gerekirse su ekleyin.",
    "Hamurun ayrılmaması için pişirme bitince tamalleri 10 dakika dinlendirin, sıcak servis yapın."
   ],
@@ -76,7 +76,7 @@
    "Beat the lard until fluffy. Add the 30 ml reserved achiote water and beat until the fat turns evenly red.",
    "Add the masa flour and 8 g salt. Gradually work in the remaining 450 ml warm broth until the dough is soft and spreadable. Test by dropping a small piece in water; it should float. If not, beat a little longer. Rest 10 minutes.",
    "Wipe the banana leaves and soften them quickly over a flame or in hot water so they bend without tearing.",
-   "Spread about 70 g dough in the centre of a leaf, leaving a border. Place about 40 g of the chicken sauce mixture and one olive half on top. Fold the leaf closed and tie with string.",
+   "Spread about 90 g dough in the centre of a leaf, leaving a border. Place about 60 g of the chicken sauce mixture and one olive half on top. Fold the leaf closed and tie with string.",
    "Stand the tamales in a steamer basket over boiling water. Cover and steam for about 60 minutes, adding boiling water as needed.",
    "Rest the tamales for 10 minutes so the dough sets, then serve hot in their leaves."
   ]
@@ -85,5 +85,14 @@
   "tr": "Hamurun doğru kıvamda olduğunu anlamak için suya attığınız parçanın yüzmesini bekleyin; yüzmüyorsa biraz daha çırpın.",
   "en": "Test the masa by dropping a small piece into water: if it floats, it is light enough. If it sinks, beat it a little longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Portioning does not add up: 12 tamales at about 70 g dough each uses 840 g of the roughly 1100 g dough, and 12 at about 40 g filling uses 480 g of a sauce that yields considerably more. The Turkish an",
+   "Turkish oregano wording is awkward and confusing: 'kekik veya kekik benzeri kuru kekik (oregano)' does not clearly name the herb. The English says 'dried oregano'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

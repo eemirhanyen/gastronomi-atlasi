@@ -55,20 +55,20 @@
   "tr": [
    "Balığın iki yanına da derin çaprazlamasına 3'er kesik atın, soğuk suyla yıkayıp kağıt havluyla iyice kurulayın.",
    "Ezilmiş sarımsak, limon suyu, yağ, zerdeçal, kimyon, kişniş, karabiber ve tuzu karıştırarak bir macun hazırlayın. Macunun yarısını balığın içine, kalanını ise kesiklerin arasına ve yüzeyine sürün. Oda sıcaklığında 30 dakika bekletin.",
-   "Izgara ocağını veya kömürü orta-yüksek ateşe getirin (yaklaşık 200 °C).",
+   "Izgara ocağını veya kömürü orta ateşe getirin (yaklaşık 200 °C).",
    "Daqoos için domates, acı biber, rendelenmiş sarımsak, kişniş, limon suyu ve tuzu bir kapta karıştırın. Lezzetlerin birbirine karışması için 10 dakika dinlendirin.",
    "Soğan halkalarını ızgaranın üzerine yan yana dizin ve balığı bunların üstüne yerleştirin. Bu, balığın yapışmasını önler ve soğanlar tatlanır.",
-   "Balığı her iki tarafta 8-10 dakika pişirin. Et çatala kolayca dağılmaya başladığında ve kalın kısmının iç sıcaklığı 60 °C'ye ulaştığında pişmiş demektir.",
+   "Balığı her iki tarafta 12-15 dakika pişirin. Et çatala kolayca dağılmaya başladığında ve kalın kısmının iç sıcaklığı 60 °C'ye ulaştığında pişmiş demektir.",
    "Pişen balığı servis tabağına alın ve 3 dakika dinlendirin. Izgara soğanları yanına ekleyin.",
    "Balığı daqoos sosu, limon dilimleri ve pilav ya da yassı ekmekle birlikte sıcak servis yapın."
   ],
   "en": [
    "Make 3 deep diagonal slashes on each side of the fish. Rinse under cold water and pat dry thoroughly with kitchen paper.",
    "In a bowl, mix the crushed garlic, lemon juice, oil, turmeric, cumin, coriander, black pepper and salt into a paste. Rub half the paste inside the cavity and the rest into the slashes and over the skin. Leave at room temperature for 30 minutes.",
-   "Heat the grill or charcoal to medium-high (about 200 °C).",
+   "Heat the grill or charcoal to medium (about 200 °C).",
    "For the daqoos, combine the tomatoes, chili, grated garlic, coriander, lemon juice and salt in a bowl. Rest for 10 minutes so the flavours blend.",
    "Arrange the onion rings across the grill rack and place the fish on top. This stops the fish from sticking and lets the onions sweeten.",
-   "Grill the fish for 8 to 10 minutes per side, until the flesh flakes easily and the thickest part reaches 60 °C inside.",
+   "Grill the fish for 12 to 15 minutes per side, until the flesh flakes easily and the thickest part reaches 60 °C inside.",
    "Transfer the fish to a serving platter and rest for 3 minutes. Add the grilled onions alongside.",
    "Serve hot with the daqoos, lemon wedges and rice or flatbread."
   ]
@@ -77,5 +77,14 @@
   "tr": "Balığı derin çizip macunu içine iyice yedirirseniz et hem daha lezzetli olur hem de daha eşit pişer. Izgarayı pişirmeden önce yağlamayı unutmayın.",
   "en": "Score the fish deeply so the marinade penetrates and the flesh cooks evenly. Oil the grill grate well before cooking to prevent sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Grilling time of 8-10 minutes per side is too short for a whole 1.2 kg fish. The thickest part would likely not reach the stated 60 °C in that time, so the times were raised to 12-15 minutes per side.",
+   "The grill heat is labelled 'medium-high' but the stated 200 °C is a medium heat. The label was changed to 'medium' in both languages to match the temperature."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

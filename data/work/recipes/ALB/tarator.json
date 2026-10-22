@@ -40,9 +40,9 @@
    "Dereotunun yapraklarını ayırıp ince kıyın.",
    "Büyük bir kapta yoğurdu, sarımsak püresini ve sirkeyi pürüzsüz olana kadar çırpın.",
    "Soğuk suyu yavaş yavaş ekleyerek kıvamı ayarlayın; çorba akışkan ama çok sulu olmamalı.",
-   "Rendelenmiş salatalığı, süzülmüş doğranmış salatalığın yarısını ve dereotunun çoğunu yoğurt karışımına ekleyip karıştırın.",
+   "Rendelenmiş salatalığı, süzülmüş doğranmış salatalığın tamamını ve dereotunun çoğunu yoğurt karışımına ekleyip karıştırın.",
    "Kapağını kapatıp buzdolabında en az 30 dakika soğutun.",
-   "Servis öncesi kaseye alın, kalan dereotu ile süsleyip üzerine zeytinyağı gezdirin."
+   "Servis öncesi tuzunu tadıp ayarlayın, kaseye alın, kalan dereotu ile süsleyip üzerine zeytinyağı gezdirin."
   ],
   "en": [
    "Peel the cucumbers, finely dice half of them and grate the rest. Sprinkle the diced cucumber with a pinch of salt, leave for 10 minutes, then drain off the liquid.",
@@ -59,5 +59,14 @@
   "tr": "Salatalığı rendelemeden önce tuzlayıp süzmek, çorbanın sulanmasını önler; yoğurdu mümkün olduğunca kalın seçin.",
   "en": "Salting and draining the cucumber first keeps the soup from becoming watery; use the thickest yogurt you can find."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to add only half of the drained diced cucumber (\"süzülmüş doğranmış salatalığın yarısını\"), but the English says the whole drained diced cucumber, and the half-and-half split in st",
+   "Turkish step 8 omits the final salt adjustment (\"adjust the salt\") that the English step 8 includes, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

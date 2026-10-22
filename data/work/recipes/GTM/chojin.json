@@ -15,7 +15,7 @@
   "tr": [
    "500 g domuz kulağı (veya domuz derisi)",
    "1 litre su",
-   "1 yarım soğan",
+   "1/2 soğan (yarım)",
    "2 diş sarımsak",
    "1 çay kaşığı tuz",
    "2 domates (yaklaşık 300 g), küçük küp doğranmış",
@@ -73,5 +73,13 @@
   "tr": "Kulakları pişirdikten sonra soğutup ince dilimlemek, pürüzsüz ve çiğnemesi kolay bir doku sağlar; kalan pişirme suyunu çorba için saklayabilirsiniz.",
   "en": "Slice the ears thinly after they cool, as this gives a smoother texture and makes them easier to chew; save the cooking liquid for a broth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient reads \"1 yarım soğan\", which is contradictory (1 plus half, i.e. 1.5 onions) and does not match the English \"1/2 onion\". Corrected to \"1/2 soğan (yarım)\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

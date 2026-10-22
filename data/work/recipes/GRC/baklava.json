@@ -47,7 +47,7 @@
    "Ceviz içini, 50 g toz şekeri ve öğütülmüş tarçını bir kasede karıştırın.",
    "Filo hamurunu tepsiye sığacak şekilde kesin ve kullanmadığınız kısmını nemli bir bezle örtün, kuruyup çatlamasın.",
    "Tepsiye 6 filo yaprağını tek tek yerleştirin; her birinin üstüne eritilmiş tereyağından ince bir tabaka sürün.",
-   "Altı yapraklı katmanın üzerine cevizli karışımın yarısını eşit şekilde yayın.",
+   "Altı yapraklı katmanın üzerine cevizli karışımın tamamını eşit şekilde yayın.",
    "Kalan filo yapraklarını da birer birer tereyağıyla fırçalayarak üst üste dizin, yani toplam 6 yaprak daha ekleyin. En üstteki yaprağa bolca tereyağı sürün.",
    "Keskin bir bıçakla baklavayı kesmeden önce ortadan ya da çapraz olarak elmas dilimler şeklinde kesin; bıçağı tepsinin dibine kadar indirin.",
    "Önceden ısıtılmış fırında 40-45 dakika, üstü altın sarısı ve kenarları çıtır olana kadar pişirin.",
@@ -60,7 +60,7 @@
    "In a bowl, mix the chopped walnuts, 50 g caster sugar and ground cinnamon.",
    "Cut the phyllo to fit the tin and cover the sheets you are not using with a damp cloth so they do not dry out and crack.",
    "Place 6 phyllo sheets in the tin one at a time, brushing each with melted butter.",
-   "Spread half of the walnut mixture evenly over the 6-sheet base.",
+   "Spread all of the walnut mixture evenly over the 6-sheet base.",
    "Layer the remaining 6 sheets on top one by one, brushing each with butter, and brush the top sheet generously with butter.",
    "Before baking, cut the baklava into diamonds or squares, cutting all the way through to the bottom of the tin with a sharp knife.",
    "Bake in the preheated oven for 40-45 minutes, until the top is golden and the edges are crisp.",
@@ -73,5 +73,13 @@
   "tr": "Şerbet soğuk, baklava sıcak olmalıdır; bu sayede şerbet hamura iyice çekilir ve tatlı çıtırlığını korur.",
   "en": "The syrup should be cold and the baklava hot, so the syrup soaks in well while the pastry stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Walnut filling: only half of the 150 g walnut mixture is spread (Turkish and English both say 'half'), so the other half is never used. The 6+6 layer structure has no second filling layer, so the reci"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

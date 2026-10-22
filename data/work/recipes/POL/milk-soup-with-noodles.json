@@ -39,14 +39,14 @@
   "tr": [
    "Sütü, suyu, limon kabuğunu ve bir tutam tuzu geniş bir tencereye koyun.",
    "Orta ateşte, kenarlarda küçük kabarcıklar çıkana kadar yaklaşık 5 dakika ısıtın. Taşmaması için ara ara karıştırın ve kaynatmayın.",
-   "Erişteyi ekleyin ve ara ara karıştırarak, ateşi hafif kaynama seviyesine düşürüp 6-8 dakika, erişte yumuşayana kadar pişirin.",
+   "Erişteyi ekleyin ve ateşi düşük tutarak, sütün kaynamasına izin vermeden ara ara karıştırın; erişte yumuşayana kadar 6-8 dakika pişirin.",
    "Limon kabuğunu çıkarın. Şekeri ekleyip eriyene kadar karıştırın, ardından vanilya özütü ve tereyağını ekleyin.",
    "Tadına bakın, gerekirse biraz daha şeker ekleyin. Sıcak sıcak kaselere alın ve üzerine tarçın serpip servis yapın."
   ],
   "en": [
    "Put the milk, water, lemon peel and a pinch of salt into a large saucepan.",
    "Heat over medium heat for about 5 minutes, until small bubbles form around the edges. Stir occasionally and do not let it boil.",
-   "Add the noodles and cook for 6-8 minutes over a gentle simmer, stirring often, until tender.",
+   "Add the noodles and cook over low heat for 6-8 minutes, stirring often and keeping the soup just below a boil, until the noodles are tender.",
    "Remove the lemon peel. Stir in the sugar until dissolved, then add the vanilla extract and butter and stir until melted.",
    "Taste and add a little more sugar if needed. Ladle into bowls while hot and dust with cinnamon before serving."
   ]
@@ -55,5 +55,13 @@
   "tr": "Süt kolay tutuşur; tencerenin dibini sık sık karıştırın ve erişteyi tam yumuşadığında ocaktan alın, çünkü çorba bekledikçe koyulaşır.",
   "en": "Milk scorches quickly, so stir the bottom often. Take the noodles off the heat as soon as they are tender, since the soup thickens as it stands."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 says not to let the milk boil, but Step 3 asks for a 'gentle simmer' while cooking the noodles. The two instructions contradict each other (in both the Turkish and English versions). Step 3 is "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

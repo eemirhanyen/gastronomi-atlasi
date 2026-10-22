@@ -63,7 +63,7 @@
    "Eti tencereye geri koyun, tuzu ve suyu ekleyin, kuru limonları delip ekleyin. Kaynayınca ateşi kısın ve kapağı kapalı olarak yaklaşık 45 dakika pişirin.",
    "Havuç, patates ve kabağı ekleyip 20 dakika daha, sebzeler yumuşayana kadar pişirin.",
    "Kuru limonları, tarçını ve kakuleyi tencereden çıkarın. Et suyundan 400 ml ayırıp sıcak tutun.",
-   "Derin bir fırın tepsisine bir kat yufka ekmeği yerleştirin, üzerine etli sebzelerin bir kısmını dizin. Bu işlemi ekmek ve malzeme bitene kadar katmanlar halinde tekrarlayın.",
+   "Derin bir servis tepsisine bir kat yufka ekmeği yerleştirin, üzerine etli sebzelerin bir kısmını dizin. Bu işlemi ekmek ve malzeme bitene kadar katmanlar halinde tekrarlayın.",
    "Ayırdığınız sıcak et suyunu katmanların üzerine yavaşça gezdirin, kapağını kapatıp veya folyo ile örterek 15 dakika dinlendirin ki ekmek suyu emsin.",
    "Servisten önce doğranmış taze kişnişi serpin ve sıcak servis yapın."
   ],
@@ -80,8 +80,17 @@
   ]
  },
  "tip": {
-  "tr": "Yufka yerine ince lavaş kullanırsanız katmanlar daha dayanıklı olur; ekmeği sıcak et suyuyla ıslatmadan önce kısaca nemlendirmek sakatlanmasını önler.",
+  "tr": "Yufka yerine ince lavaş kullanırsanız katmanlar daha dayanıklı olur; ekmeği katmanlamadan önce az miktarda et suyuyla hafifçe nemlendirmek, eşit yumuşamasını ve yırtılmasını önler.",
   "en": "Thin lavash keeps its shape better than yufka; brushing the bread lightly with a little broth before layering helps it soften evenly without tearing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses 'sakatlanmasını', which is an unnatural word for bread tearing; 'yırtılmasını' is the natural term.",
+   "Turkish tip says to dampen the bread without naming the liquid, while the English tip specifies broth. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

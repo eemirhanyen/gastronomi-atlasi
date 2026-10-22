@@ -55,8 +55,8 @@
    "Kuru üzümleri grappa (ya da rom) içinde 20 dakika bekletin.",
    "Sütü ve 60 g tereyağını küçük bir tencerede kaynamaya yakın ısıtarak tereyağını eritin.",
    "Mısır unu, buğday unu, toz şeker, kabartma tozu, tuz ve tarçını geniş bir kasede karıştırın.",
-   "Sıcak sütü un karışımının üzerine yavaş yavaş dökerek kaşıkla karıştırın. Pürüzsüz bir hamur oluşmadan önce yumurtaları tek tek ekleyip çırpın.",
-   "Kuru üzümleri süzün ve, süzülen grappa'yı kenara alın. Üzümleri, çam fıstığını, doğranmış cevizi, incir parçalarını, limon ve portakal kabuğu rendesini hamura ekleyip homojen olana kadar karıştırın.",
+   "Sıcak sütü un karışımının üzerine yavaş yavaş dökerek kaşıkla karıştırın. Yumurtaları tek tek ekleyip hamur pürüzsüz oluncaya kadar çırpın.",
+   "Kuru üzümleri süzün ve süzülen grappa'yı kenara alın. Üzümleri, çam fıstığını, doğranmış cevizi, incir parçalarını, limon ve portakal kabuğu rendesini hamura ekleyip homojen olana kadar karıştırın.",
    "Hamuru hazırlanan kalıba dökün ve üzerini spatulayla düzeltin.",
    "Önceden ısıtılmış fırında yaklaşık 50 dakika pişirin. Ortasına şiş batırdığınızda temiz çıkmalı ve kek kalıptan ayrılmaya başlamalıdır.",
    "Kalıbı tel raf üzerinde 15 dakika dinlendirin, sonra kekin kenarlarını bıçakla gevşetip ters çevirerek kalıptan çıkarın.",
@@ -79,5 +79,13 @@
   "tr": "Mısır unu kabalaşırsa kek kuru ve dağılgan olur; ince öğütülmüş polenta unu kullanın ve kekin tam soğumasını beklemeden dilimlemeyin.",
   "en": "Use finely ground polenta flour; coarse cornmeal makes the cake crumbly, so let it cool completely before slicing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to add the eggs before the batter is smooth, while the English says to beat in the eggs one at a time until smooth. The two versions disagree on the sequence."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -19,7 +19,7 @@
    "100 g kısa taneli pirinç",
    "1 orta boy soğan (yaklaşık 120 g)",
    "2 diş sarımsak",
-   "2 yemek kaşığı sıvı yağ",
+   "1 yemek kaşığı sıvı yağ",
    "1 yemek kaşığı tatlı kırmızı biber",
    "1 yemek kaşığı domates salçası",
    "1 tatlı kaşığı tuz (yaklaşık 5 g)",
@@ -37,7 +37,7 @@
    "100 g short-grain rice",
    "1 medium onion (about 120 g)",
    "2 garlic cloves",
-   "2 tbsp neutral oil",
+   "1 tbsp neutral oil",
    "1 tbsp sweet paprika",
    "1 tbsp tomato paste",
    "1 tsp salt (about 5 g)",
@@ -76,8 +76,17 @@
   ]
  },
  "tip": {
-  "tr": "Turşu lahana çok tuzlu olabilir; yaprakları haşlamadan önce mutlaka durulayıp tadına bakın ve gerekirse harca tuz eklemeyin.",
+  "tr": "Turşu lahana çok tuzlu olabilir; yaprakları durulayıp tadına bakın ve gerekirse harca ekstra tuz ekleyin.",
   "en": "Sour cabbage can be quite salty, so rinse the leaves well and taste before adding any extra salt to the filling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says \"gerekirse harca tuz eklemeyin\" (\"don't add salt to the filling if needed\"), which contradicts the English tip (\"taste before adding any extra salt\"). The Turkish should say to add sa",
+   "Ingredient list gives 2 tbsp oil (tr and en), but the steps use only 1 tbsp for sautéing and never use the second tablespoon."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

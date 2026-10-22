@@ -36,7 +36,7 @@
    "Doğranmış bamyayı kaynayan suya ekleyin ve kısık ateşte yaklaşık 8 dakika pişirin; bamyalar yumuşayınca sıcak suyun bir kısmını ayırın.",
    "Ayrı bir kapta 250 g mısır unu ile 150 ml soğuk suyu topak kalmayacak şekilde karıştırarak pürüzsüz bir kıvam elde edin.",
    "Ocağı kısın, mısır unu karışımını ince bir akışla tencereye dökerken sürekli karıştırın.",
-   "Tahta kaşıkla 10-12 dakika güçlü bir şekilde karıştırarak pişirin; karışım koyulaşıp tencerenin kenarlarından ayrılmaya başlayınca ocaktan alın.",
+   "Tahta kaşıkla 10-12 dakika güçlü bir şekilde karıştırarak pişirin; karışım koyulaşıp tencerenin kenarlarından ayrılmaya başlayınca, gerekirse ayırdığınız sıcak suyu azar azar ekleyerek kıvamını ayarlayın ve ocaktan alın.",
    "Tereyağını ekleyip iyice karıştırın.",
    "Kaseyi ıslatıp içine koyun, ardından ellerinizi suya batırarak hamuru kase şekline sokun veya tabağa kepçeyle yuvarlak şekilde servis edin. Balıkla birlikte sıcak servis yapın."
   ],
@@ -46,7 +46,7 @@
    "Add the sliced okra to the boiling water and simmer gently for about 8 minutes until tender. Set aside a little of the hot cooking water.",
    "In a separate bowl, mix the 250 g cornmeal with the 150 ml cold water until smooth and free of lumps.",
    "Lower the heat, then pour the cornmeal mixture into the pot in a thin stream while stirring constantly.",
-   "Stir vigorously with a wooden spoon for 10 to 12 minutes, until the mixture thickens and starts to pull away from the sides of the pot. Remove from the heat.",
+   "Stir vigorously with a wooden spoon for 10 to 12 minutes, until the mixture thickens and starts to pull away from the sides of the pot. If it is too stiff, stir in a little of the reserved hot water, then remove from the heat.",
    "Add the 25 g butter and stir until fully melted and combined.",
    "Dampen a bowl with water, press the fungie into it, then turn it out onto a plate, or spoon it into rounds. Serve hot with fish and gravy."
   ]
@@ -55,5 +55,13 @@
   "tr": "Mısır unu karışımını sıcak suya dökmeden önce soğuk suyla iyice pürüzsüz hale getirin; aksi halde topaklanır. Kaşığı sürekli hareket ettirmek, yumuşak bir kıvam için önemlidir.",
   "en": "Mix the cornmeal fully smooth with the cold water before adding it to the pot, otherwise lumps will form. Keep stirring constantly for a silky texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The reserved hot cooking water (step 3) is set aside but never used in the later steps, so the step and ingredient usage don't match. It is traditionally used to adjust the consistency of the fungie, "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

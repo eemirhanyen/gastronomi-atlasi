@@ -37,7 +37,7 @@
   "tr": [
    "Siyah gözlü fasulyeleri bol soğuk suda 8 saat ya da bir gece boyunca bekletin.",
    "Fasulyeleri süzün ve kabuklarını elinizle ovarak ayırın. Kabukları atın.",
-   "Fasulyeleri blendırda 80 ml su ile birlikte pürüzsüz, koyu bir hamur olana kadar çekin.",
+   "Fasulyeleri blender'da 80 ml su ile birlikte pürüzsüz, koyu bir hamur olana kadar çekin.",
    "Soğanı ve Scotch bonnet biberini ince doğrayın, zencefili rendeleyin.",
    "Doğranmış soğan, biber, rendelenmiş zencefil, tuz ve kabartma tozunu hamura ekleyip 2–3 dakika çırparak havalandırın.",
    "Derin bir tencerede bitkisel yağı 180 °C'ye kadar ısıtın.",
@@ -61,5 +61,13 @@
   "tr": "Hamuru çırpmak akaraların hafif ve içi boşluklu olmasını sağlar; hamur çok sulu ise birer yemek kaşığı su yerine biraz daha fasulye ekleyerek kıvamını ayarlayın.",
   "en": "Whisking the batter adds air, which makes the akara light and fluffy; if the batter is too runny, adjust it with a little more soaked pea rather than extra water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 has a typo and unnatural spelling: \"blendırda\" should be \"blender'da\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

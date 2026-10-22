@@ -57,7 +57,7 @@
    "Bu sırada soğanı rendeleyin ve avuçlarınızla suyunu sıkın. Domatesi küçük küp doğrayın.",
    "Çam fıstıklarını kuru bir tavada orta ateşte 2 dakika, hafif renk alana kadar kavurun.",
    "Kıymayı geniş bir kasede rendelenmiş soğan, yenibahar, karabiber, pul biber, tuz ve 15 ml zeytinyağı ile iyice yoğurun. Doğranmış domatesi ve kavrulmuş çam fıstığını ekleyip karıştırın.",
-   "Fırını 230°C'ye ısıtın ve fırın tepsisine kağıt serin.",
+   "Fırını 230°C'ye ısıtın ve fırın tepsisini fırın kağıdıyla kaplayın.",
    "Hamuru 4 eşit parçaya bölün, her birini yuvarlayıp 10 dakika dinlendirin.",
    "Her hamur topunu unlu tezgâhta yaklaşık 15 cm çapında, kenarları biraz kalın, ortası ince bir daire haline getirin.",
    "Kıymalı harcı her daireye eşit yayın, kenarlardan yaklaşık 1 cm boş bırakın ve harcı parmaklarınızla hafifçe bastırın.",
@@ -83,5 +83,13 @@
   "tr": "Soğanı rendeledikten sonra suyunu iyice sıkın; aksi halde hamur ıslanır ve kenarları pişmez.",
   "en": "Squeeze the grated onion well before mixing it in; otherwise the juices will soak the dough and leave the edges soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"fırın tepsisine kağıt serin\", which is unnatural culinary Turkish. The English step says to line the tray with baking paper, so the Turkish should say the same thing idiomatically"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

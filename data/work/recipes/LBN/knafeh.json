@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "300 g kadayıf (ince kıyılmış hazır yufka)",
+   "300 g kadayıf (ince telli hazır kadayıf)",
    "150 g tuzsuz tereyağı, eritilmiş",
    "250 g akkawi peyniri veya az tuzlu, az nemli mozzarella, rendelenmiş",
    "300 g toz şeker",
@@ -65,5 +65,13 @@
   "tr": "Şerbet soğuk, künefe sıcak olmalı; bu sayede tatlı çıtır kalır ve şerbeti hemen emer. Peyniri çok tuzlu kullanmayın, yoksa tatlı dengesi bozulur.",
   "en": "The syrup should be cold and the knafeh hot, so the pastry stays crisp and absorbs the syrup quickly. Avoid very salty cheese, as it throws off the balance of the sweetness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kadayıf (ince kıyılmış hazır yufka)' is inaccurate: kadayıf is shredded pastry, not yufka. Corrected to 'hazır kadayıf (ince telli)' to match the English 'fine shredded pastry'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

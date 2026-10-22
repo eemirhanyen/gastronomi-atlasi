@@ -6,14 +6,14 @@
  "native": "Samaki wa kukaanga",
  "desc": {
   "tr": "Komor Adaları'nda sahil kasabalarında ve aile sofralarında sık yenen, limon ve zerdeçallı marinasyonla hazırlanan kızarmış balıktır. Genellikle pilav, muz veya manyokla birlikte servis edilir.",
-  "en": "A everyday coastal dish from the Comoros, where whole fish marinated with lime, garlic, ginger and turmeric is fried until crisp and served in family meals. It is usually eaten with rice, cooked bananas or cassava."
+  "en": "An everyday coastal dish from the Comoros, where whole fish marinated with lime, garlic, ginger and turmeric is fried until crisp and served in family meals. It is usually eaten with rice, cooked bananas or cassava."
  },
  "servings": 4,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g bütün uskumru veya ton balığı dilimi (4 adet)",
+   "800 g bütün uskumru (4 adet, yaklaşık 200 g'lık)",
    "60 ml limon suyu (yaklaşık 2 limon)",
    "4 diş sarımsak, ezilmiş",
    "10 g rendelenmiş zencefil",
@@ -26,7 +26,7 @@
    "1 limon, dilim dilim (servis için)"
   ],
   "en": [
-   "800 g whole mackerel or tuna steaks (4 pieces)",
+   "800 g whole mackerel (4 fish, about 200 g each)",
    "60 ml lime juice (about 2 limes)",
    "4 garlic cloves, crushed",
    "10 g grated fresh ginger",
@@ -46,7 +46,7 @@
    "Karışımı balıkların hem iç hem dış yüzeyine ovalayın.",
    "Balıkları oda sıcaklığında 30 dakika bekletin veya buzdolabında 1 saat marine edin.",
    "Geniş ve kalın tabanlı bir tavada yağı orta-yüksek ateşte yaklaşık 170°C'ye kadar ısıtın.",
-   "Balıkları sıcak yağa yerleştirin ve her yüzü yaklaşık 4-5 dakika, etleri ayrışıp altın rengi olana kadar kızartın.",
+   "Balıkları sıcak yağa yerleştirin ve her yüzü yaklaşık 4-5 dakika, et kısmı pul pul ayrılır hale gelip altın rengi olana kadar kızartın.",
    "Kızarmış balıkları kağıt havlu serili bir tabağa alıp fazla yağlarını süzdürün.",
    "Tavada kalan yağa soğan halkalarını ekleyip orta ateşte altın rengi olana kadar yaklaşık 3 dakika kavurun, ardından süzgece alın.",
    "Balıkların üzerine kavrulmuş soğanı, kalan acı biberi ve limon dilimlerini dizerek sıcak servis yapın."
@@ -67,5 +67,15 @@
   "tr": "Balıkları kızartmadan önce mutlaka iyice kurulayın; yüzeyi kuru olan balık daha çıtır olur ve yağ sıçramaz.",
   "en": "Pat the fish completely dry before frying; a dry surface gives a crisper skin and reduces oil splatter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fish type is inconsistent with the steps: the ingredients list 'whole mackerel or tuna steaks', but steps 1 and 6 require cleaning the cavity and scoring each side, which applies only to whole fish. S",
+   "English description has an article error ('A everyday').",
+   "Turkish step 6 'etleri ayrışıp' is unnatural for fish flesh; 'pul pul ayrılana kadar' is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

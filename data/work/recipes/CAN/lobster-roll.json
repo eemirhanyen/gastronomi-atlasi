@@ -40,11 +40,11 @@
  "steps": {
   "tr": [
    "Büyük bir tencerede 4 L suyu 60 g tuzla birlikte kaynatın.",
-   "İstakozları kıskaçla tutarak baş kısmından önce kaynayan suya bırakın, kapağını kapatın ve 10-12 dakika, kabukları parlak kırmızıya dönene kadar pişirin.",
+   "İstakozları gövdesinden tutarak baş kısmından önce kaynayan suya bırakın, kapağını kapatın ve 10-12 dakika, kabukları parlak kırmızıya dönene kadar pişirin.",
    "İstakozları çıkarıp 5 dakika buzlu suya koyarak pişirmeyi durdurun.",
    "Kuyruk ve kıskaçları ayırın. Kıskaçları kırıp et çıkarın, kuyruğu mutfak makasıyla boyuna kesip eti çıkarın. Toplam yaklaşık 400 g et elde edin ve 1,5 cm'lik parçalara kesin.",
-   "Istakoz etini kağıt havluyla hafifçe kurulayın.",
-   "Bir kasede mayonez, ince doğranmış kereviz, limon suyu, frenk soğanı, bir tutam tuz ve beyaz biberi karıştırın. Istakoz etini nazikçe ekleyip karıştırın ve 15 dakika soğutun.",
+   "İstakoz etini kağıt havluyla hafifçe kurulayın.",
+   "Bir kasede mayonez, ince doğranmış kereviz, limon suyu, frenk soğanı, bir tutam tuz ve beyaz biberi karıştırın. İstakoz etini nazikçe ekleyip karıştırın ve 15 dakika soğutun.",
    "Tereyağını ekmeklerin dış yüzeylerine sürün. Tavayı orta ateşte ısıtın ve ekmekleri kesik yüzü aşağı gelecek şekilde 1-2 dakika, altın rengi olana kadar kızartın.",
    "Her ekmeğe yaklaşık 100 g istakoz salatası koyun ve hemen servis yapın."
   ],
@@ -60,8 +60,17 @@
   ]
  },
  "tip": {
-  "tr": "Istakoz salatasını servis öncesi son anda doldurun; ekmek ıslanırsa dokusu bozulur. Mayonezi fazla eklemeyin, etin tatlı lezzeti öne çıksın.",
+  "tr": "İstakoz salatasını servis öncesi son anda doldurun; ekmek ıslanırsa dokusu bozulur. Mayonezi fazla eklemeyin, etin tatlı lezzeti öne çıksın.",
   "en": "Fill the buns just before serving so they stay crisp; a soggy bun ruins the texture. Use mayonnaise sparingly so the sweet lobster flavour stands out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says to hold the lobsters by the claws, but the English says to hold them by the body. Holding by the claws is awkward and risky, so the Turkish should match the English.",
+   "Turkish spelling: 'Istakoz' should be 'İstakoz' with a dotted capital İ, in the steps and tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

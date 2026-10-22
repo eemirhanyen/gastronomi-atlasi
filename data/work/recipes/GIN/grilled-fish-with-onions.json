@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Balıkların her iki yüzüne derin çapraz kesikler atın. Tuz, karabiber, limon suyu, ezilmiş sarımsak ve acı biberi balıkların hem içine hem dışına ovun. Buzdolabında 30 dakika dinlendirin.",
+   "Balıkların her iki yüzüne 3'er adet derin çapraz kesik atın. Tuz, karabiber, limon suyu, ezilmiş sarımsak ve acı biberi balıkların hem içine hem dışına ovun. Buzdolabında 30 dakika dinlendirin.",
    "Izgarayı ya da fırın ızgarasını 220°C'ye ısıtın (kömür ateşi de kullanabilirsiniz).",
    "Sos için geniş bir tavada 2 yemek kaşığı yağı orta ateşte ısıtın. Doğranmış soğanı 5 dakika yumuşayana kadar kavurun.",
    "Domates salçasını ekleyip 2 dakika karıştırarak kavurun. Sebze suyu küpünü ve 250 ml suyu ilave edip kısık ateşte 5 dakika kaynatın. Tuzunu kontrol edin.",
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığın pişip pişmediğini anlamak için etin en kalın yerine çatalla bastırın; et kolayca ayrılıyorsa hazırdır.",
+  "tr": "Balığın pişip pişmediğini anlamak için etin en kalın yerine çatalla bastırın; et kolayca ayrılıyorsa ve her yerinde opak hale gelmişse hazırdır.",
   "en": "To check doneness, press a fork into the thickest part of the fish; it is ready when the flesh flakes easily and is opaque all the way through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 does not specify the number of cuts; the English version says 3 deep diagonal cuts per side.",
+   "Turkish tip omits the English check that the flesh should be opaque all the way through, which is a doneness cue."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

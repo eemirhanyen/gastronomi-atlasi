@@ -60,8 +60,16 @@
   ]
  },
  "tip": {
-  "tr": "Balkabağının suyunu iyice sıkın; aksi halde yufkalar ıslanır ve tikvenik tam kabarmaz.",
+  "tr": "Balkabağının suyunu iyice sıkın; aksi halde yufkalar ıslanır ve tikvenik gevrek olmaz.",
   "en": "Squeeze the pumpkin well before filling; otherwise the phyllo becomes soggy and the pastry will not crisp properly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip says that without squeezing the pumpkin, the tikvenik 'will not rise fully' (tam kabarmaz), but the English tip says it 'will not crisp properly'. The two versions disagree on the outc"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

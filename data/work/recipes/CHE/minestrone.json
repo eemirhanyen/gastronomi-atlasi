@@ -27,7 +27,7 @@
    "400 g konserve barbunya veya cannellini fasulyesi, süzülmüş",
    "60 g küçük makarna (ditalini veya maccheroncini)",
    "40 g parmesan peyniri, rendelenmiş",
-   "2 yemek kaşığı (taze maydanoz) ince kıyılmış",
+   "2 yemek kaşığı taze maydanoz, ince kıyılmış",
    "1 parmesan kabuğu (isteğe bağlı, yaklaşık 20 g)",
    "Tuz ve taze çekilmiş karabiber"
   ],
@@ -81,5 +81,13 @@
   "tr": "Makarnayı çorbada pişirmek lezzetini artırır, ancak fazla bekletirseniz nişastasını salar ve kıvamı koyulaşır. Kalan çorbayı saklarken makarnayı ayrı saklayın.",
   "en": "Cooking the pasta in the soup adds flavour, but if it sits too long it will swell and thicken the broth. Store leftovers with the pasta separate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish parsley ingredient wording is awkward: the parenthesized item name reads unnaturally. Rewritten as a plain phrase, with the same quantity and meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

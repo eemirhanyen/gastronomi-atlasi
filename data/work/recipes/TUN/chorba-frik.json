@@ -9,7 +9,7 @@
   "en": "A Tunisian soup and an essential iftar dish during Ramadan. Cracked green wheat (freekeh) simmers with lamb and tomato, and is served with lemon."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Frik, pişerken suyu çok emer; servisten önce gerekirse biraz sıcak su ekleyerek kıvamını ayarlayın.",
   "en": "Freekeh absorbs a lot of liquid as it cooks, so add a splash of hot water before serving if the soup thickens too much."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is less than the cooking steps add up to: about 5+5+1+3+5 minutes of prep and boiling, plus 30 minutes simmering, plus 15-20 minutes for the freekeh, plus 2 minutes at the end, which is "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

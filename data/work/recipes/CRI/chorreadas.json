@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Chorreadas (mısırlı gözleme)",
+  "tr": "Chorreadas (mısırlı krep)",
   "en": "Chorreadas (Costa Rican sweet corn pancakes)"
  },
  "native": "Chorreadas",
@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "500 g taze tatlı mısır taneleri (yaklaşık 4 koçan)",
-   "60 ml tam yağlı süt",
+   "120 ml tam yağlı süt",
    "2 yumurta",
    "60 g toz şeker",
    "40 g çok amaçlı un",
@@ -26,7 +26,7 @@
   ],
   "en": [
    "500 g fresh sweet corn kernels (about 4 cobs)",
-   "60 ml whole milk",
+   "120 ml whole milk",
    "2 eggs",
    "60 g caster sugar",
    "40 g plain flour",
@@ -44,7 +44,7 @@
    "Unu ekleyip topaklanmayacak şekilde çırpın. Kıvam, dökülebilen ama kalın bir hamur olmalı.",
    "Hamuru 10 dakika dinlendirin. Un bu sürede şişerek kıvamı toparlayacaktır.",
    "Orta ateşte geniş bir tavayı ısıtın ve yağla hafifçe yağlayın.",
-   "Bir kepçe hamuru tavaya dökün ve yaklaşık 9 cm çapında bir daire oluşturun. Kenarları kabarıp kuruyana kadar yaklaşık 2-3 dakika pişirin.",
+   "Bir kepçe (yaklaşık 60 ml) hamuru tavaya dökün ve yaklaşık 9 cm çapında bir daire oluşturun. Kenarları kabarıp kuruyana kadar yaklaşık 2-3 dakika pişirin.",
    "Çevirip diğer yüzünü de altın rengi olana kadar 2 dakika kadar pişirin. Kalan hamurla aynı şekilde devam edin, gerektiğinde tavaya az yağ ekleyin.",
    "Pişen chorreadaları sıcak tutarak üst üste dizin. Servis yaparken her birinin üzerine bir kaşık krema agria ve ufalanmış peynir ekleyin."
   ],
@@ -63,5 +63,15 @@
   "tr": "Mısır çok tatlıysa şeker miktarını azaltın; yeterince taze ve tatlı mısır kullanmak, en iyi aromayı verir.",
   "en": "If your corn is very sweet, reduce the sugar slightly; fresh, ripe corn gives the best flavour and texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'mısırlı gözleme' is wrong: gözleme is a Turkish stuffed flatbread, while chorreadas are thin corn pancakes (krep/pankek).",
+   "Only 60 ml milk for 500 g corn, 2 eggs and 40 g flour likely gives a paste rather than the 'dökülebilen' (pourable) batter the steps describe. Raised to 120 ml in both languages.",
+   "Turkish step 6 gives no batter volume, while the English step gives about 60 ml. Added the amount to the Turkish version so they agree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

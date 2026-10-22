@@ -59,7 +59,7 @@
   "tr": [
    "Tamarind pulpunu 150 ml sıcak suda 10 dakika bekletin, ardından ezerek süzgeçten geçirin ve sıvısını bir kenara alın.",
    "Balık filetosunu yaklaşık 5 cm uzunluğunda parçalara kesin, 5 g tuz ile hafifçe ovalayıp 10 dakika dinlendirin.",
-   "Limon otunun dış katmanlarını ayırın, sapı ezerek kıvırın ve kenara koyun.",
+   "Limon otunun sert dış katmanlarını ayırın, sapı bıçağın sırtıyla hafifçe dövüp kenara koyun.",
    "Sarımsak ve arpacık soğanlarını ince doğrayın. Geniş tencerede yağı ısıtın, sarımsak ve arpacığı yumuşayana kadar yaklaşık 1 dakika kavurun.",
    "Domatesleri çeyrek parçalara ayırın, ananası ısırık boyutunda doğrayın ve tencereye ekleyin. Domatesler yumuşayana kadar 2 dakika pişirin.",
    "Üzerine 1,5 litre su ve ezilmiş limon otunu ekleyin, kaynatın.",
@@ -72,7 +72,7 @@
   "en": [
    "Soak the tamarind pulp in 150 ml hot water for 10 minutes, then mash and strain. Set the liquid aside.",
    "Cut the fish fillet into pieces about 5 cm long, rub gently with 5 g salt and rest for 10 minutes.",
-   "Bruise the lemongrass stalk with the back of a knife and set aside.",
+   "Remove the tough outer layers of the lemongrass stalk, then bruise the stalk with the back of a knife and set aside.",
    "Finely chop the garlic and shallots. Heat the oil in a wide pot and fry the garlic and shallots for about 1 minute until softened.",
    "Cut the tomatoes into wedges and the pineapple into bite-sized chunks, add both to the pot and cook for 2 minutes until the tomatoes soften.",
    "Pour in the 1.5 litres of water, add the bruised lemongrass and bring to a boil.",
@@ -87,5 +87,14 @@
   "tr": "Balığın dağılmaması için çorbayı kaynatmayın; kısık ateşte pişirin ve filizleri en son ekleyin.",
   "en": "Keep the soup at a gentle simmer so the fish stays in neat pieces, and add the bean sprouts only at the end for crunch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 Turkish says to remove the outer layers of the lemongrass, but the English step does not mention this.",
+   "Step 3 Turkish 'sapı ezerek kıvırın' ('crush and curl the stalk') is not a natural description of bruising lemongrass. The English says to bruise it with the back of a knife."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

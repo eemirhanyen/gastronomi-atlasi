@@ -16,8 +16,8 @@
    "1,2 L su",
    "10 g kuru kombu (yaklaşık 10x10 cm)",
    "20 g katsuobushi (kurutulmuş bonito pulu)",
-   "100 ml koyu soya sosu",
-   "100 ml mirin",
+   "50 ml koyu soya sosu",
+   "50 ml mirin",
    "2 adet abura-age (kızartılmış tofu kesesi)",
    "1 yemek kaşığı soya sosu (abura-age için)",
    "1 çay kaşığı şeker (abura-age için)",
@@ -28,8 +28,8 @@
    "1.2 L water",
    "10 g dried kombu (about 10x10 cm)",
    "20 g katsuobushi (dried bonito flakes)",
-   "100 ml dark soy sauce",
-   "100 ml mirin",
+   "50 ml dark soy sauce",
+   "50 ml mirin",
    "2 abura-age (fried tofu pouches)",
    "1 tbsp soy sauce (for the abura-age)",
    "1 tsp sugar (for the abura-age)",
@@ -63,5 +63,14 @@
   "tr": "Erişteleri sıcak suyla kısaca durulamak, kaseye konduğunda sosun dengesini bozmadan hem sıcaklığı hem de dokuyu korur.",
   "en": "Rinsing the noodles briefly in hot water warms them without diluting the broth, and keeps their chewy texture intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredients list 100 ml soy sauce and 100 ml mirin (200 ml total), but step 4 uses only a 100 ml portion of the mixture, so the amounts do not match. The 200 ml total would also make the tsuyu much to",
+   "Turkish and English ingredient lists were updated together so they still agree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,11 +5,11 @@
  },
  "native": "Phane (Setswana)",
  "desc": {
-  "tr": "Botswana'da mopane ağaçlarından toplanan ve kurutulan bu kurtçuklar, domates ve soğanla hazırlanan bir sos içinde pişirilir. Genellikle öğle yemeklerinde ve aile toplantılarında, mısır lapası (pap) ile birlikte servis edilir.",
+  "tr": "Botswana'da mopane ağaçlarından toplanan ve kurutulan bu kurtçuklar, domates ve soğanla hazırlanan bir sos içinde pişirilir. Atıştırmalık ya da yan yemek olarak yenir ve özellikle mopane kurtçuğu mevsiminde, genellikle mısır lapası (pap) ile birlikte servis edilir.",
   "en": "Harvested from mopane trees and dried for storage, these caterpillars are rehydrated and simmered in a tomato and onion sauce. In Botswana they are eaten as a snack or side dish, often with pap (maize porridge), especially during the mopane worm season."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -56,8 +56,18 @@
   ]
  },
  "tip": {
-  "tr": "Kurutulmuş kurtçukları ıslatıp durulamadan önce bağırsaklarını kontrol edin; kalan kirleri temizlemek lezzeti ve dokuyu belirgin şekilde iyileştirir.",
+  "tr": "Islattıktan sonra kurtçukları nazikçe sıkıp içlerindeki bağırsak kalıntılarını çıkarın; durulamadan önce bu temizlik lezzeti ve dokuyu belirgin şekilde iyileştirir.",
   "en": "After soaking, check the worms and gently squeeze out any remaining gut contents before rinsing; a thorough clean makes a noticeable difference to flavour and texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English descriptions disagree: the Turkish mentions lunches and family gatherings, which the English does not, and the English mentions snacks and mopane worm season, which the Turkish omi",
+   "Tip mismatch: the English says to gently squeeze out gut contents, while the Turkish only says to check the worms for dirt.",
+   "time_min (60) is too low for the steps: 30 min soaking, 10 min boiling, about 10 min sautéing and cooking tomatoes, and 15-20 min simmering totals roughly 65-70 min before prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

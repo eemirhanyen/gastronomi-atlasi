@@ -9,14 +9,14 @@
   "en": "A sweet, cold drink from Venezuela made from rice, milk, cinnamon and sugar. It is served chilled, especially on hot days, after lunch and at celebrations, and is common in homes and neighborhood eateries."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 660,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "150 g beyaz pirinç (uzun taneli)",
    "1 L su (pirinci ıslatmak için)",
    "1 adet tarçın çubuğu (yaklaşık 10 cm)",
-   "500 ml su (blendır için ek)",
+   "500 ml su (blender için ek)",
    "500 ml tam yağlı süt",
    "150 g toz şeker (tadına göre ayarlanabilir)",
    "5 ml vanilya özü",
@@ -60,8 +60,18 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci uzun süre ıslatmak, içeceğe daha yumuşak bir doku ve daha belirgin bir tahıl aroması kazandırır; sütü eklemeden önce karışımı iyice soğutursanız süt kesilmez.",
-  "en": "A longer soak gives a smoother texture and a fuller grain flavor. Cool the rice mixture before adding milk if you prefer to avoid any risk of curdling."
+  "tr": "Pirinci uzun süre ıslatmak, içeceğe daha yumuşak bir doku ve daha belirgin bir tahıl aroması kazandırır. Sütü ısıtırken sürekli karıştırmak ve karışımı sert kaynatmamak sütün kesilmesini önler.",
+  "en": "A longer soak gives a smoother texture and a fuller grain flavor. When heating the milk, stir constantly and avoid a hard boil to prevent curdling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts the steps: it advises cooling the mixture before adding milk to prevent curdling, but the steps add milk before cooking and never cool before that point. The tip should describe the ac",
+   "time_min (60) does not reflect the process: the recipe needs an 8-hour soak and at least 2 hours of chilling.",
+   "Turkish ingredient list has a spelling error: 'blendır' should be 'blender'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

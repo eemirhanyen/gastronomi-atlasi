@@ -9,7 +9,7 @@
   "en": "Egusi is ground melon seed, and this thick, rich soup is a staple of everyday and family meals across Nigeria. It is usually served with fufu, eba or pounded yam, often at lunch or dinner."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -24,7 +24,7 @@
    "20 g kurutulmuş öğütülmüş karides (crayfish)",
    "2 adet et suyu küpü",
    "1 çay kaşığı tuz (tadına göre ayarlayın)",
-   "1,2 litre su",
+   "750 ml su (600 ml et suyu için, 150 ml egusi hamuru için)",
    "200 g ıspanak, iri doğranmış"
   ],
   "en": [
@@ -39,7 +39,7 @@
    "20 g dried ground crayfish",
    "2 stock cubes",
    "1 tsp salt (adjust to taste)",
-   "1.2 litres water",
+   "750 ml water (600 ml for the stock, 150 ml for the egusi paste)",
    "200 g spinach, roughly chopped"
   ]
  },
@@ -67,5 +67,14 @@
   "tr": "Egusi hamurunu tencereye eklerken çok sık karıştırmayın; aksi halde yumuşak topaklar dağılır ve çorba tamamen bulamaç kıvamına gelir.",
   "en": "Do not stir the egusi paste too vigorously once it goes in; gentle folding keeps the soft clumps intact, which is the traditional texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity mismatch: the ingredient list says 1.2 litres, but the steps use only 600 ml (step 1) plus 150 ml (step 3), which is 750 ml in total.",
+   "Total time of 60 minutes is too short for the steps listed: about 40 minutes of beef simmering, 10 minutes of frying, 5 + 15 + 3-5 minutes of further cooking, plus preparation."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

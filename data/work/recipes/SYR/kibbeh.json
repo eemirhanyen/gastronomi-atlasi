@@ -28,7 +28,9 @@
    "1/2 tatlı kaşığı tarçın",
    "1/2 tatlı kaşığı tuz (iç harç için)",
    "1/4 tatlı kaşığı karabiber (iç harç için)",
-   "2 yemek kaşığı zeytinyağı (tepsi ve üst yüzey için, 30 ml)"
+   "2 yemek kaşığı zeytinyağı (tepsi ve üst yüzey için, 30 ml)",
+   "200 g yoğurt (servis için)",
+   "1 küçük kase taze mevsim salatası (servis için)"
   ],
   "en": [
    "250 g fine bulgur (medium-fine, not coarse)",
@@ -46,7 +48,9 @@
    "1/2 tsp ground cinnamon",
    "1/2 tsp salt for the filling",
    "1/4 tsp black pepper for the filling",
-   "2 tbsp olive oil for the tray and top (30 ml)"
+   "2 tbsp olive oil for the tray and top (30 ml)",
+   "200 g yogurt (for serving)",
+   "1 small bowl fresh seasonal salad (for serving)"
   ]
  },
  "steps": {
@@ -81,5 +85,13 @@
   "tr": "Hamuru yoğururken ve yayarken elinizi sürekli suya batırın; kuru eller hamuru yırtar ve kabuk düzgün kapanmaz.",
   "en": "Keep your hands wet while kneading and spreading the dough; dry hands tear it and make the shell hard to smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Yogurt and fresh salad are used in the serving step (tr step 11 / en step 11) but are not listed in the ingredients in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

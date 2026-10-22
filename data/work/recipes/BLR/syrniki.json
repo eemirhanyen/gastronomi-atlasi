@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Sırniki (Peynirli Krep)",
+  "tr": "Sırniki (Peynirli Pankek)",
   "en": "Syrniki (Cottage Cheese Pancakes)"
  },
  "native": "Сырнікі",
  "desc": {
-  "tr": "Belarus ve Rusya mutfağında kahvaltıda sıkça yenen, lor peynirinden yapılan, kenarları altın rengi kızarmış küçük krepler. Genellikle ekşi krema, reçel veya bal ile sıcak servis edilir.",
+  "tr": "Belarus ve Rusya mutfağında kahvaltıda sıkça yenen, lor peynirinden yapılan, kenarları altın rengi kızarmış küçük pankekler. Genellikle ekşi krema, reçel veya bal ile sıcak servis edilir.",
   "en": "A breakfast staple in Belarusian and Russian homes: small, golden-fried pancakes made from farmer's cheese (tvorog). They are served warm with sour cream, jam or honey."
  },
  "servings": 4,
@@ -43,9 +43,9 @@
    "Süzülmüş lor peynirini geniş bir kaseye alın, yumurta, toz şeker, tuz ve vanilyayı ekleyip pürüzsüz olana kadar çatalla iyice karıştırın.",
    "50 g unu azar azar ekleyerek hamuru yoğurun; hamur yumuşak ama elde yapışmayacak kıvamda olmalı.",
    "Hamuru 10 dakika dinlendirin.",
-   "Ellerinizi hafifçe unlayın ve hamurdan cevizden biraz büyük 12 parça alın. Her birini yassı, yaklaşık 2 cm kalınlığında toplar halinde şekillendirin.",
-   "Şekillendirdiğiniz köftelerin her iki yüzünü 30 g unla hafifçe kaplayın.",
-   "Geniş bir tavada yağı orta ateşte ısıtın, köfteleri aralarında boşluk bırakarak yerleştirin.",
+   "Ellerinizi hafifçe unlayın ve hamurdan cevizden biraz büyük 12 parça alın. Her birini yaklaşık 2 cm kalınlığında, yassı pankek şeklinde şekillendirin.",
+   "Şekillendirdiğiniz sırniki hamurlarının her iki yüzünü 30 g unla hafifçe kaplayın.",
+   "Geniş bir tavada yağı orta ateşte ısıtın, sırnikileri aralarında boşluk bırakarak yerleştirin.",
    "Her yüzü yaklaşık 3-4 dakika, altın rengi olana kadar kızartın.",
    "Kızarmış sırnikileri kağıt havluya alıp fazla yağını çekmesini bekleyin.",
    "Sıcak sırnikileri ekşi krema ve reçel ya da bal ile servis edin."
@@ -67,5 +67,15 @@
   "tr": "Lor peyniri ne kadar kuruysa hamur o kadar kolay şekillenir; hamur çok yapışkan kalırsa unu 1-2 yemek kaşığı artırın, ama fazla un kullanmayın yoksa sırnikiler sert olur.",
   "en": "The drier the farmer's cheese, the easier the dough is to shape. If it stays sticky, add 1-2 tablespoons more flour, but avoid adding too much or the syrniki will turn tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to shape the dough into 'yassı' (flat) and also 'toplar halinde' (balls), which contradicts itself and the English 'flat patty'.",
+   "Turkish step 6 and 7 call the patties 'köfte' (meatballs), an unnatural term for syrniki.",
+   "Turkish name 'Peynirli Krep' suggests thin crêpes, but syrniki are thick, pan-fried cheese pancakes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

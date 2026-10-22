@@ -29,7 +29,7 @@
    "1/2 Scotch bonnet biberi, çekirdekleri çıkarılmış ve ince doğranmış",
    "1 çay kaşığı kuru kekik",
    "Karabiber, tadı için",
-   "1 yemek kaşığı limon suyu",
+   "1 yemek kaşığı lime suyu",
    "2 dal yeşil soğan, ince doğranmış"
   ],
   "en": [
@@ -64,7 +64,7 @@
    "Geniş bir tavada 2 yemek kaşığı sıvı yağı orta ateşte ısıtın. Soğanı 4 dakika soteleyin, sarımsak ve dolmalık biberi ekleyip 2 dakika daha pişirin.",
    "Domatesi ve Scotch bonnet biberini ekleyin, domates yumuşayana kadar yaklaşık 4 dakika pişirin.",
    "Parçalanmış morinayı, kuru kekiği ve karabiberi ekleyin. Karıştırarak 5 dakika pişirin.",
-   "Ateşten alıp limon suyunu ve yeşil soğanı ekleyin, iyice karıştırın.",
+   "Ateşten alıp lime suyunu ve yeşil soğanı ekleyin, iyice karıştırın.",
    "Sıcak bake ekmeklerinin yanında servis edin."
   ],
   "en": [
@@ -82,8 +82,17 @@
   ]
  },
  "tip": {
-  "tr": "Morinayı ıslatırken suyu sık değiştirin; daha fazla tuz çıkarmak için pişirmeden önce küçük bir parça tadın.",
+  "tr": "Morinayı ıslatırken suyu sık değiştirin; daha fazla tuz çıkarmak için pişirmeden önce küçük bir parça tadın. Hâlâ çok tuzluysa birkaç saat daha ıslatın.",
   "en": "Change the soaking water often and taste a small piece of cod before cooking; if it is still very salty, soak it a few hours longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step 10 say \"limon suyu\" (lemon juice), but the English says lime juice, which is the characteristic citrus here.",
+   "The Turkish tip omits the English advice to soak the cod a few more hours if it is still too salty, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -8,7 +8,7 @@
   "tr": "Kosova'da misafirlere ve kutlamalara eşlik eden, erik ve baharatla aromalandırılmış geleneksel bir meyve rakısıdır. Genellikle yemekten önce küçük kadehlerde soğuk servis edilir.",
   "en": "A traditional fruit spirit from Kosovo, flavoured with plums and warm spices. It is served chilled in small glasses before meals and at celebrations and family gatherings."
  },
- "servings": 4,
+ "servings": 16,
  "time_min": 20,
  "difficulty": "easy",
  "ingredients": {
@@ -37,7 +37,7 @@
    "Rakıyı kavanoza dökün, eriklerin tamamen sıvının altında kalmasına dikkat edin.",
    "Kavanozun kapağını sıkıca kapatın ve iki gün boyunca her gün hafifçe çalkalayarak şekerin erimesini sağlayın.",
    "Kavanozu serin ve karanlık bir yerde 40 gün kadar dinlendirin; haftada bir kez nazikçe çalkalayın.",
-   "Dinlenme süresinin sonunda sıvıyı temiz bir tül bezinden süzerek başka bir şişeye aktarın.",
+   "Dinlenme süresinin sonunda sıvıyı ince bir tülbent bezinden süzerek başka bir şişeye aktarın.",
    "Servis etmeden önce en az birkaç saat buzdolabında soğutun ve küçük kadehlerde ikram edin."
   ],
   "en": [
@@ -55,5 +55,14 @@
   "tr": "Erik çeşidi olarak tatlı ve aromatik olanları seçin; eriklerin altta kalan sıvısı meyve yoğunluğunu artırır, bu yüzden süzerken hemen sıkmayın.",
   "en": "Choose sweet, aromatic plums for the best flavour, and keep the jar away from direct sunlight so the colour and aroma stay clear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) doesn't match the batch: 700 ml of spirit plus 500 g of plums yields about 15-16 small glasses (around 40-45 ml each), not 4 servings.",
+   "Authentic Kosovar/Balkan plum rakia is a distilled fruit spirit, but this recipe is a home infusion of plums in grape spirit, closer to a liqueur. The description calls it a traditional rakia without "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

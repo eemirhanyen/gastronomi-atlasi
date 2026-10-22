@@ -15,13 +15,13 @@
   "tr": [
    "45 g orta kavrulmuş kahve, kaba öğütülmüş",
    "500 ml su (93 °C)",
-   "400 ml tam yağlı süt",
+   "500 ml tam yağlı süt",
    "20 g toz şeker (isteğe bağlı)"
   ],
   "en": [
    "45 g medium roast coffee, coarsely ground",
    "500 ml water (93 °C)",
-   "400 ml whole milk",
+   "500 ml whole milk",
    "20 g caster sugar (optional)"
   ]
  },
@@ -49,5 +49,13 @@
   "tr": "Kahve ve sütü aynı anda iki sürahiden dökerek her kasede eşit oran ve homojen bir köpük elde edin.",
   "en": "Pour the coffee and milk from two jugs at the same time to get an even ratio and a smooth foam in every bowl."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Milk quantity (400 ml) does not match the 'equal parts' coffee and milk described in the description and steps. The brewed coffee from 500 ml water is about 450-500 ml, so 400 ml milk gives an uneven "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

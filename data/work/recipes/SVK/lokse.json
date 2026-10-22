@@ -19,7 +19,7 @@
    "30 g tereyağı, eritilmiş",
    "30 g tereyağı, servis için",
    "25 g toz şeker, servis için",
-   "Yaklaşık 50 g bryndza peyniri (isteğe bağlı)"
+   "Yaklaşık 50 g bryndza peyniri veya feta (isteğe bağlı)"
   ],
   "en": [
    "500 g floury potatoes (such as Russet)",
@@ -41,7 +41,7 @@
    "Kalın tabanlı bir tavayı orta-yüksek ateşte, yağsız olarak iyice ısıtın.",
    "Açılmış hamuru tavaya alın ve kabarcıklar oluşup kahverengi noktalar çıkana kadar, her yüzünde yaklaşık 1-2 dakika pişirin. Yanmaması için ateşi gerekirse düşürün.",
    "Pişen lokşeleri temiz bir bez içinde üst üste dizerek sarın, böylece yumuşak kalırlar.",
-   "Servis için sıcak lokşeleri tereyağı ile yayın, üzerine şekerden serpin ve sarın. Bryndza kullanacaksanız ezip ince bir tabaka halinde yayın ve sarın."
+   "Servis için sıcak lokşeleri tereyağı ile yayın, üzerine şekerden serpin ve sarın. Bryndza veya feta kullanacaksanız ezip ince bir tabaka halinde yayın ve sarın."
   ],
   "en": [
    "Boil the potatoes in their skins in salted water until tender, about 25 minutes.",
@@ -52,12 +52,20 @@
    "Heat a heavy-based pan over medium-high heat with no oil.",
    "Lay a rolled dough circle in the pan and cook for 1 to 2 minutes per side, until it has light brown spots and puffs slightly. Lower the heat if they start to burn.",
    "Stack the cooked lokše and wrap them in a clean cloth to keep them soft.",
-   "To serve, spread warm lokše with butter, sprinkle with sugar and roll them up. If using bryndza, mash it, spread it thinly over the warm lokše and roll."
+   "To serve, spread warm lokše with butter, sprinkle with sugar and roll them up. If using bryndza or feta, mash it, spread it thinly over the warm lokše and roll."
   ]
  },
  "tip": {
   "tr": "Patatesleri kabuklu haşlayıp sıcakken soyarsanız hamur daha yumuşak olur ve fazla un gerekmez.",
   "en": "Boil the potatoes in their skins and peel them while hot; this keeps the dough soft and means you need less flour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English ingredient list and Step 9 allow feta as a substitute for bryndza, but the Turkish versions do not mention it, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

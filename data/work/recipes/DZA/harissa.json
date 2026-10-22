@@ -17,7 +17,7 @@
    "4 diş sarımsak",
    "2 g kimyon tohumu (yaklaşık 1/2 tatlı kaşığı)",
    "2 g kişniş tohumu (yaklaşık 1 tatlı kaşığı)",
-   "2 g kırmızı kimyon tohumu (karaman) (yaklaşık 1 tatlı kaşığı)",
+   "2 g karaman tohumu (yaklaşık 1 tatlı kaşığı)",
    "6 g tuz (yaklaşık 1 tatlı kaşığı)",
    "60 ml zeytinyağı",
    "15 ml kırmızı şarap sirkesi",
@@ -59,5 +59,13 @@
   "tr": "Macunu her kullanımdan sonra yüzeyini yağ ile kaplı tutun; bu, harissanın buzdolabında yaklaşık üç hafta taze kalmasını sağlar.",
   "en": "Keep the surface covered with oil after every use; this helps the harissa stay fresh in the refrigerator for about three weeks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient label 'kırmızı kimyon tohumu (karaman)' is wrong. 'Karaman' is the Turkish name for caraway, and 'kırmızı kimyon' is not a standard term for it, so the label mixes up caraway with c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

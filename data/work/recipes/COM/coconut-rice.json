@@ -15,7 +15,7 @@
   "tr": [
    "300 g uzun taneli pirinç (basmati ya da yasemin)",
    "400 ml hindistan cevizi sütü (1 konserve)",
-   "250 ml su",
+   "125 ml su",
    "1 orta boy soğan (yaklaşık 120 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "30 ml sıvı yağ",
@@ -27,7 +27,7 @@
   "en": [
    "300 g long-grain rice (basmati or jasmine)",
    "400 ml coconut milk (1 can)",
-   "250 ml water",
+   "125 ml water",
    "1 medium onion (about 120 g), finely chopped",
    "2 cloves garlic, crushed",
    "30 ml vegetable oil",
@@ -61,5 +61,13 @@
   "tr": "Pilavı kapağını açıp karıştırmayın; buhar, pirincin dağılmadan pişmesini sağlar. Yemeklerden önce karanfil ve tarçını çıkarmayı unutmayın.",
   "en": "Do not lift the lid or stir during cooking, as the steam is what gives separate, fluffy grains. Remove the cloves and cinnamon stick before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Liquid is too high for 300 g rice: 650 ml total (400 ml coconut milk + 250 ml water) is about 2.2:1, which will likely give soggy rice after a 15-minute simmer. Reduced the water to 125 ml (about 1.75"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

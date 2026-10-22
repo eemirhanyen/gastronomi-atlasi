@@ -9,7 +9,7 @@
   "en": "One of Afghanistan's national dishes, this stew combines a large amount of greens, such as spinach, coriander and green onions, with lamb and dried limes. It is traditionally served on Nowruz and at family gatherings, with rice."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -71,5 +71,13 @@
   "tr": "Kuru limonları delip pişirmek ekşi aroma verir; kesin ekşilik isterseniz körmeyi servisten önce kuru limonla birlikte birkaç dakika daha bekletin.",
   "en": "Pierce the dried limes well so their sourness infuses the stew; for a stronger sour flavor, let the stew rest with the limes in the pot for a few minutes before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is shorter than the steps add up to: about 8 + 7 + 1 + 60 + 10 + 10 + 20 minutes of cooking, roughly 115-120 minutes before prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Makrut",
+  "tr": "Makrud",
   "en": "Makroud"
  },
  "native": "مقروض",
@@ -47,9 +47,9 @@
    "30 ml portakal çiçeği suyunu ve ılık suyu azar azar ekleyerek yumuşak, elde yapışmayan bir hamur yoğurun.",
    "Hamuru streç film ile örtüp oda sıcaklığında 30 dakika dinlendirin.",
    "Hurmaları ince kıyıp tereyağı, tarçın ve 5 ml portakal çiçeği suyu ile iyice ezerek pürüzsüz bir dolgu hazırlayın.",
-   "Dolguyu elinizle yaklaşık 1,5 cm kalınlığında uzun bir silindir haline getirin.",
+   "Dolguyu ikiye bölün ve her parçayı elinizle yaklaşık 1,5 cm kalınlığında uzun bir silindir haline getirin.",
    "Hamuru ikiye bölüp her birini yaklaşık 3 mm kalınlığında, 12 cm genişliğinde uzun bir şerit açın.",
-   "Hurma silindirini şeridin kenarına koyun, hamuru sarıp kapatın ve dikişi iyice bastırarak kapatın.",
+   "Hurma silindirlerinden birini şeridin kenarına koyun, hamuru sarıp kapatın ve dikişi iyice bastırarak kapatın. Diğer hamur ve dolgu ile aynı işlemi tekrarlayın.",
    "Uzun rulounu 4–5 cm'lik eğik parçalara kesin; isteğe bağlı olarak yüzeyine çatal ile hafif desenler çizin.",
    "Derin bir tencerede sıvı yağı 160–170°C'ye getirin. Makrutları 3–4 dakika, altın rengi olana kadar kızartın.",
    "Kızaran makrutları süzgece alıp fazla yağlarını akıtın.",
@@ -61,9 +61,9 @@
    "Gradually add the 30 ml orange blossom water and the lukewarm water to form a soft dough that does not stick to your hands.",
    "Cover the dough with cling film and let it rest at room temperature for 30 minutes.",
    "Finely chop the dates, then mash them with the room-temperature butter, cinnamon and 5 ml orange blossom water to make a smooth filling.",
-   "Shape the filling by hand into a log about 1.5 cm thick.",
+   "Divide the filling in half and shape each portion by hand into a log about 1.5 cm thick.",
    "Divide the dough in half and roll each piece into a strip about 3 mm thick and 12 cm wide.",
-   "Lay the date log along the edge of the strip, roll the dough around it and press the seam firmly to seal.",
+   "Lay one date log along the edge of a dough strip, roll the dough around it and press the seam firmly to seal. Repeat with the second dough strip and filling log.",
    "Cut the long roll into slanted pieces about 4–5 cm long; if you like, press light patterns on the surface with a fork.",
    "Heat the frying oil in a deep pan to 160–170°C. Fry the makroud for 3–4 minutes until golden.",
    "Lift the pastries out with a slotted spoon and drain off the excess oil.",
@@ -75,5 +75,14 @@
   "tr": "Kızartmadan önce makrutları bir gece önceden hazırlayıp buzdolabında bekletmek hamurun daha iyi kesilmesini sağlar; yağ sıcaklığını bir termometreyle kontrol edin.",
   "en": "Keep the frying oil at a steady 160–170°C: if it is too hot the outside burns before the semolina cooks through, and if too cool the makroud absorb too much oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Makrut' is a different word (it means kaffir lime/bergamot in Turkish). The correct Turkish transliteration of Makroud is 'Makrud'.",
+   "The dough is divided in half (step 6), but the date filling is made as a single log (step 5) and step 7 uses 'the date log' as if there is one. The filling must be divided too, so each dough strip get"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

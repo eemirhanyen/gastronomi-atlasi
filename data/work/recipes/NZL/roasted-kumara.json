@@ -5,8 +5,8 @@
  },
  "native": "Kūmara tunua",
  "desc": {
-  "tr": "Yeni Zelanda'da Māori mutfağının temel bir yan lezzeti olan kūmara, turuncu etli tatlı patatesin fırında karamelleşmiş hâlidir. Hem günlük yemeklerin hem de hāngī ve kutlama sofralarının vazgeçilmez eşlikçisidir.",
-  "en": "A staple side in New Zealand, especially with Māori-style meals and at hāngī feasts, kūmara is the orange-fleshed sweet potato. Roasted until caramelised at the edges and soft inside, it is served hot alongside meats and greens."
+  "tr": "Yeni Zelanda'da Māori mutfağının temel bir yan lezzeti olan kūmara, krem ya da sarı etli bir tatlı patates çeşididir. Fırında kenarları karamelleşene kadar pişirilen kūmara, hem günlük yemeklerin hem de hāngī ve kutlama sofralarının vazgeçilmez eşlikçisidir.",
+  "en": "A staple side in New Zealand, especially with Māori-style meals and at hāngī feasts, kūmara is a sweet potato variety with cream or golden flesh. Roasted until caramelised at the edges and soft inside, it is served hot alongside meats and greens."
  },
  "servings": 4,
  "time_min": 60,
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Kūmara'nın etli kısmı çok nemli olabilir; dilimleri fazla kalabalık dizmeyin ki kenarları iyi karamelleşsin.",
+  "tr": "Kūmara, diğer tatlı patateslere göre genellikle daha kuru ve daha az şekerlidir; bal kenarların karamelleşmesine yardımcı olur. Kenarların daha gevrek olması için tepsiyi fazla kalabalık dizmeyin.",
   "en": "Kūmara is often drier and less sugary than other sweet potatoes, so the honey helps the caramelisation. Avoid overcrowding the tray for crisper edges."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says kūmara's flesh is very moist, but the English tip says it is drier and less sugary than other sweet potatoes. The Turkish version is wrong and contradicts the English.",
+   "Both descriptions call kūmara the 'orange-fleshed sweet potato'. Kūmara is usually cream, golden or purple-fleshed, and the recipe itself offers orange-fleshed sweet potato only as a substitute, so th"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

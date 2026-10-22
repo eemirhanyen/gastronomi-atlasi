@@ -50,8 +50,16 @@
   ]
  },
  "tip": {
-  "tr": "Arequipe ocakta yapışıp yanabileceği için sürekli karıştırın ve tencerenin dibini sık sık kontrol edin; sıcakken çok koyu görünse de soğuyunca kıvamı sıkılaşır.",
+  "tr": "Arequipe alt kısmında kolayca yanabileceği için sürekli karıştırın ve tencerenin dibini sık sık kontrol edin; sıcakken daha akışkan görünür, soğuyunca kıvamı sıkılaşır, bu yüzden fazla pişirmeyin.",
   "en": "Stir constantly, because arequipe scorches easily on the bottom; it will look looser while hot and firm up as it cools, so don't overcook it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contradicts the English: it says arequipe looks very dark while hot, but the English says it looks looser while hot and firms as it cools. The Turkish also omits the warning not to overcoo"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Ispanağı iyice sıkıp suyunu alın; yoğurt ve peynirle birlikte fazla su, hamurun alt kısmını sulandırır. Hamuru kullanmadan önce kuru bir bezle örtün, kurumaması için.",
+  "tr": "Ispanağı iyice sıkıp suyunu alın; yoğurt ve peynirle birlikte fazla su, hamurun alt kısmını sulandırır. Hamuru kullanmadan önce nemli bir bezle örtün, kurumaması ve çatlamaması için.",
   "en": "Squeeze the spinach very well before mixing; excess moisture makes the base soggy. Keep the filo covered with a damp towel while you work so it doesn't dry out and crack."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contradicts the English: it says to cover the pastry with a dry cloth, while the English says a damp towel. A dry cloth would dry out the filo, so the Turkish should say a damp cloth."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A creamy rice porridge cooked in chicken broth, eaten across Indonesia, especially in Java, for breakfast and when someone is unwell. It is topped with shredded chicken, crispy fried shallots, spring onion and sweet soy sauce."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -54,9 +54,9 @@
    "Pirinci soğuk suyla 2-3 kez durulayıp süzgeçte iyice süzün.",
    "Tavuk budunu, zencefili, ezilmiş lemongrass'ı, defne yapraklarını ve 1 tatlı kaşık tuzu 2 L suyla geniş bir tencereye koyun. Kaynatın, yüzeyde biriken köpüğü alın ve kısık ateşte yaklaşık 25 dakika pişirin.",
    "Tavuğu tencereden çıkarıp soğumaya bırakın. Soğuyunca etini kemiklerinden ayırıp elinizle lifler halinde parçalayın; kemikleri ve derisini atın.",
-   "Bu arada tavayı orta ateşte 4 yemek kaşığı sıvı yağla ısıtın. Arpacık soğanı dilimlerini altın rengi alana kadar kızartın, süzgece alıp yağda bırakın.",
+   "Bu arada tavayı orta ateşte 4 yemek kaşığı sıvı yağla ısıtın. Arpacık soğanı dilimlerini altın rengi alana kadar kızartın, kağıt havlu serili bir tabağa alın ve yağı tavada bırakın.",
    "Aynı yağda ezilmiş sarımsağı 30 saniye kadar, kokusu çıkana dek kavurun ve tencereye ekleyin.",
-   "Tencereden zencefil dilimlerini, lemongrass'ı ve defne yapraklarını çıkarın. Yıkanmış pirinci tencereye ekleyin ve kısık ateşte, ara sıra karıştırarak 35-40 dakika, pirinçler dağılıp kıvamlı bir lapa oluşana kadar pişirin. Çok koyulaşırsa sıcak su ekleyin.",
+   "Tencereden zencefil dilimlerini, lemongrass'ı ve defne yapraklarını çıkarın. Yıkanmış pirinci tencereye ekleyin ve kısık ateşte, ara sıra karıştırarak 35-40 dakika, pirinçler dağılıp kıvamlı bir lapa oluşana kadar pişirin. Çok koyulaşırsa sıcak tavuk suyu ekleyin.",
    "Lapayı tuz ve beyaz biberle tatlandırın, gerekirse tuz ekleyin.",
    "Servis kaselerine lapayı koyun. Üzerine lifler halinde doğranmış tavuğu, taze soğanı, kereviz yaprağını ve kızarmış arpacık soğanını serpin.",
    "Her porsiyonun üzerine birer kaşık kecap manis gezdirin, lime dilimleriyle ve isteğe bağlı sambal ile birlikte sıcak servis yapın."
@@ -67,7 +67,7 @@
    "Remove the chicken and let it cool. Once cool enough to handle, pull the meat from the bones and shred it into strands with your fingers; discard the bones and skin.",
    "Meanwhile, heat 4 tbsp vegetable oil in a frying pan over medium heat. Fry the sliced shallots until golden, then lift them out with a slotted spoon onto kitchen paper and leave the oil in the pan.",
    "In the same oil, fry the crushed garlic for about 30 seconds until fragrant, then add it to the pot.",
-   "Remove the ginger slices, lemongrass and bay leaves from the stock. Add the drained rice and simmer gently, stirring every few minutes, for 35-40 minutes until the grains break down into a thick, creamy porridge. Add hot water if it becomes too thick.",
+   "Remove the ginger slices, lemongrass and bay leaves from the stock. Add the drained rice and simmer gently, stirring every few minutes, for 35-40 minutes until the grains break down into a thick, creamy porridge. Add hot chicken stock if it becomes too thick.",
    "Season the porridge with the remaining salt and the white pepper, adjusting to taste.",
    "Ladle the porridge into serving bowls. Top with shredded chicken, spring onion, celery leaves and the fried shallots.",
    "Drizzle each bowl with kecap manis and serve hot with lime wedges and sambal on the side, if using."
@@ -77,5 +77,15 @@
   "tr": "Lapanın kıvamını ayarlamak için pişirme sonunda sıcak tavuk suyu ekleyin; lapa servis sırasında koyulaşacağından biraz akışkan bırakın.",
   "en": "Keep the porridge slightly loose at the end of cooking, as it will thicken as it stands; add hot stock rather than cold water to adjust the consistency."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says to drain the fried shallots onto a sieve (\"süzgece alıp\"), but the English says to lift them onto kitchen paper. The two versions disagree.",
+   "Step 6 and the tip disagree on what to add when the porridge thickens. Step 6 says hot water (\"sıcak su\" / \"hot water\"), while the tip says hot stock. Hot chicken stock is the better choice for flavou",
+   "time_min of 60 is too low. The recipe runs 25 min for the chicken, cooling time, then 35-40 min for the porridge, plus prep, so about 75 min is more realistic."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

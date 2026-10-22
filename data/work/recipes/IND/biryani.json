@@ -5,7 +5,7 @@
  },
  "native": "बिरयानी",
  "desc": {
-  "tr": "Hindistan'ın Hint-Pakistan mutfağındaki Müslüman ve Awadhi geleneklerinden gelen, baharatlı pilavın marine tavukla katmanlar halinde tencerede pişirildiği bir ana yemektir. Düğünlerde, bayramlarda ve hafta sonu öğle yemeklerinde servis edilir.",
+  "tr": "Hindistan'ın Hint alt kıtasındaki Müslüman ve Awadhi geleneklerinden gelen, baharatlı pilavın marine tavukla katmanlar halinde tencerede pişirildiği bir ana yemektir. Düğünlerde, bayramlarda ve hafta sonu öğle yemeklerinde servis edilir.",
   "en": "A layered rice dish from India's Muslim and Awadhi culinary traditions, in which spiced, partly cooked rice is steamed over marinated chicken in a sealed pot. It is served at weddings, festivals and weekend lunches across India."
  },
  "servings": 4,
@@ -62,7 +62,7 @@
  "steps": {
   "tr": [
    "Pirinci yıkayıp üzerini kaplayacak kadar suyla 30 dakika bekletin, sonra süzün.",
-   "Tavuğu bir kasede yoğurt, yarım yemek kaşığı zencefil-sarımsak ezmesi, 1 tatlı kaşığı kırmızı toz biber, zerdeçal, limon suyu ve 1 tatlı kaşığı tuzla karıştırın. En az 20 dakika buzdolabında marine edin.",
+   "Tavuğu bir kasede yoğurt, yarım yemek kaşığı zencefil-sarımsak ezmesi, yarım tatlı kaşığı kırmızı toz biber, zerdeçal, limon suyu ve 1 tatlı kaşığı tuzla karıştırın. En az 20 dakika buzdolabında marine edin.",
    "Geniş ve kalın tabanlı bir tencerede yağı orta-yüksek ateşte ısıtın. Karanfil, kakule, tarçın, defne yaprağı ve kimyon tohumunu ekleyip birkaç saniye kavurun.",
    "Soğanları ekleyip orta ateşte, sık sık karıştırarak 15 dakika kadar koyu altın rengi olana kadar kavurun. Yarısını bir tabağa ayırın, kalanı yağda bırakın.",
    "Yağdaki soğanın üzerine kalan zencefil-sarımsak ezmesini ve yeşil biberi ekleyip 1 dakika kavurun. Domatesleri ekleyip yumuşayana kadar 5 dakika pişirin.",
@@ -74,7 +74,7 @@
   ],
   "en": [
    "Rinse the rice, cover it with water and soak for 30 minutes, then drain.",
-   "In a bowl, mix the chicken with the yogurt, 1/2 tbsp ginger-garlic paste, 1 tsp chili powder, turmeric, lemon juice and 1 tsp salt. Marinate in the refrigerator for at least 20 minutes.",
+   "In a bowl, mix the chicken with the yogurt, 1/2 tbsp ginger-garlic paste, 1/2 tsp chili powder, turmeric, lemon juice and 1 tsp salt. Marinate in the refrigerator for at least 20 minutes.",
    "Heat the oil over medium-high heat in a wide, heavy-bottomed pot. Add the cloves, cardamom, cinnamon, bay leaves and cumin seeds and fry for a few seconds.",
    "Add the onions and fry over medium heat, stirring often, for about 15 minutes until deep golden. Set half aside on a plate and leave the rest in the oil.",
    "Add the remaining ginger-garlic paste and the green chilies to the onions in the oil and fry for 1 minute. Add the tomatoes and cook for 5 minutes until soft.",
@@ -89,5 +89,14 @@
   "tr": "Pirincin tam pişmesini beklemeyin; yaklaşık yüzde 70 pişmiş pirinç, dum sırasında buharda yumuşayarak tanelerin dağılmadan kalmasını sağlar.",
   "en": "Do not cook the rice fully before layering; rice that is about 70% done finishes steaming in the pot and keeps its grains separate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chili powder is inconsistent: the ingredient list has 1 tsp total, but the full amount is used in the marinade (step 2), so step 6's 'remaining/kalan' chili powder has nothing left to add.",
+   "Turkish description wording 'Hindistan'ın Hint-Pakistan mutfağındaki' is awkward and geographically confused; 'Hint alt kıtası' is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A sweet-and-sour soup from Iran, especially popular in Azerbaijani and Tehran home cooking, made with pomegranate molasses, walnuts and plenty of fresh herbs. It is often served during Nowruz and on cold winter evenings, with warm bread."
  },
  "servings": 4,
- "time_min": 80,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Nar ekşisi markalara göre çok farklı tatlılıkta olabilir; ilk eklediğinizde azar azar ekleyip tadına bakarak ayarlayın.",
   "en": "Pomegranate molasses varies a lot in sourness between brands, so add it gradually and taste as you go."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (80) is shorter than the cooking steps add up to: about 88 minutes of simmering and sautéing, plus prep and heating the water."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

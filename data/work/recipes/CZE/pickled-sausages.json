@@ -19,8 +19,9 @@
    "1 çay kaşığı yenibahar",
    "1 çay kaşığı karabiber tanesi",
    "2 defne yaprağı",
-   "1 tatlı kaşığı hardal tohumu",
-   "300 ml su",
+   "1 çay kaşığı hardal tohumu",
+   "1,5 litre su (sosisleri pişirmek için)",
+   "300 ml su (salamura için)",
    "300 ml beyaz sirke (%8)",
    "2 çay kaşığı tuz"
   ],
@@ -32,7 +33,8 @@
    "1 teaspoon black peppercorns",
    "2 bay leaves",
    "1 teaspoon mustard seeds",
-   "300 ml water",
+   "1.5 litres water (for poaching the sausages)",
+   "300 ml water (for the brine)",
    "300 ml white vinegar (8%)",
    "2 teaspoons salt"
   ]
@@ -60,8 +62,18 @@
   ]
  },
  "tip": {
-  "tr": "Salamuranın sirkesi sosisleri tamamen kaplamalı; üstte kalan parçalar bozulabilir, bu yüzden küçük bir kavanoz kullanın veya ağırlık koyun.",
+  "tr": "Sosislerin tamamen salamuraya gömülü olması gerekir; salamuranın üstünde kalan parçalar bozulabilir, bu yüzden küçük bir kavanoz kullanın veya üzerine küçük bir tabak koyarak ağırlık verin.",
   "en": "Keep the sausages fully submerged in the brine; any exposed pieces can spoil, so use a snug jar or weigh them down with a small plate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 uses 1.5 litres of water for poaching, but the ingredient lists only include 300 ml water (for the brine). The poaching water is missing from both languages.",
+   "Turkish lists '1 tatlı kaşığı' (dessert spoon) for mustard seeds, while English says '1 teaspoon' (çay kaşığı). The amounts disagree.",
+   "Turkish tip wording 'Salamuranın sirkesi sosisleri tamamen kaplamalı' is unnatural; it should say the sausages must be fully submerged in the brine."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

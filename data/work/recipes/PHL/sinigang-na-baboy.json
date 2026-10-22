@@ -18,6 +18,7 @@
    "2 domates, dörde bölünmüş",
    "100 g taze tamarind (ekşi tamarind hamuru)",
    "2 l su",
+   "250 ml ılık su (tamarind için)",
    "60 ml balık sosu (patis)",
    "200 g labanos, soyulup kama kama doğranmış",
    "150 g uzun fasulye (sitaw), 5 cm'lik parçalar halinde",
@@ -32,6 +33,7 @@
    "2 tomatoes, quartered",
    "100 g fresh tamarind pulp",
    "2 l water",
+   "250 ml warm water (for the tamarind)",
    "60 ml fish sauce (patis)",
    "200 g daikon radish, peeled and cut into wedges",
    "150 g long beans (sitaw), cut into 5 cm pieces",
@@ -45,7 +47,7 @@
   "tr": [
    "Domuz etini bir tencereye alıp 2 l suyla birlikte ocakta orta-yüksek ateşte kaynatın.",
    "Kaynayınca yüzeyde oluşan köpüğü kepçeyle alın, ardından ateşi kısıp yaklaşık 35-40 dakika, et yumuşayana kadar hafif kaynatın.",
-   "Bu sırada tamarind hamurunu 250 ml ılık suda yumuşatın, elinizle ezip süzgeçten geçirerek posasını ayırın.",
+   "Bu sırada tamarind hamurunu 250 ml ılık suda yumuşatın, elinizle ezip süzgeçten geçirerek ekşi suyunu süzüp ayırın.",
    "Et yumuşayınca soğanı, domatesleri ve balık sosunu tencereye ekleyin.",
    "Hazırladığınız tamarind suyunu ilave edip 5 dakika daha kaynatın.",
    "Labanosu ekleyip yaklaşık 8-10 dakika, neredeyse yumuşayana kadar pişirin.",
@@ -71,5 +73,14 @@
   "tr": "Tamarind asitliği markaya ve olgunluğa göre değişir; ekşiliği en son ayarlayarak, azar azar ekleyip tadarak kullanın.",
   "en": "Tamarind sourness varies by brand and ripeness, so add the tamarind liquid gradually and taste as you go."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 uses 250 ml warm water for soaking the tamarind, but this water is not in the ingredient list (tr and en).",
+   "Turkish step 3 says to separate the tamarind's 'posası' (pulp), which contradicts the English ('extract the sour liquid') and the cooking purpose. It should say to strain out the sour liquid."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

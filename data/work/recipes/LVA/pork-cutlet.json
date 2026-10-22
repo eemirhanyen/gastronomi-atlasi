@@ -28,7 +28,7 @@
    "1 limon, dilim dilim"
   ],
   "en": [
-   "600 g pork loin (4 slices about 1 cm thick)",
+   "600 g pork tenderloin (4 slices about 1 cm thick)",
    "1 tsp salt",
    "1/2 tsp freshly ground black pepper",
    "60 g plain flour",
@@ -69,5 +69,13 @@
   "tr": "Dövme işlemi eti eşit kalınlığa getirir; bu sayede pirzola dışarısı kurumadan içi pişer.",
   "en": "Pounding the meat to an even thickness ensures the cutlets cook through without the breadcrumb coating over-browning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish ingredient 'domuz bonfile' (pork tenderloin) does not match the English 'pork loin', which is a different cut. The English ingredient is corrected to match the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

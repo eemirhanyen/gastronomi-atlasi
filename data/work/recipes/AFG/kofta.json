@@ -9,7 +9,7 @@
   "en": "A classic Afghan main dish of spiced minced meat shaped into balls and simmered in a tomato sauce, usually served with rice. It is common at family gatherings, when guests visit, and for weekend lunches."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -62,7 +62,7 @@
    "Karışımı buzdolabında 15 dakika dinlendirin. Ardından ıslak ellerle cevizden biraz büyük, yaklaşık 16 top şekillendirin.",
    "Geniş bir tavada 30 ml sıvı yağı orta-yüksek ateşte ısıtın. Köftelerden partiler halinde 3-4 dakika, her yüzü kızarana kadar kavurun ve bir tabağa alın.",
    "Aynı tavada kalan 15 ml yağla ince dilimlenmiş soğanı orta ateşte 8 dakika, altın rengi olana kadar soteleyin.",
-   "Ince doğranmış sarımsağı ekleyip 1 dakika kavurun. Domates salçasını ilave edip 1 dakika daha karıştırın.",
+   "İnce doğranmış sarımsağı ekleyip 1 dakika kavurun. Domates salçasını ilave edip 1 dakika daha karıştırın.",
    "Doğranmış domatesi, suyu, tuzu ve ezilmiş kuru nanesi ekleyin. Karıştırıp kaynatın, ardından ateşi kısın ve sos 10 dakika hafif kaynasın.",
    "Kavrulmuş köfteleri yavaşça sosa yerleştirin. Kapağını kapatıp kısık ateşte 20 dakika pişirin. Köftelerin içi tamamen pişmiş olmalıdır.",
    "Ocaktan alın, üzerine kalan taze kişnişi serpin ve pişmiş pirinçle sıcak servis yapın."
@@ -80,8 +80,18 @@
   ]
  },
  "tip": {
-  "tr": "Soğanı rendelemek, köftelerin suyunu koruyup daha yumuşak bir doku verir; kıymayı fazla yoğurmayın, aksi halde köftelər sertleşir.",
+  "tr": "Soğanı rendelemek, köftelerin suyunu koruyup daha yumuşak bir doku verir; kıymayı fazla yoğurmayın, aksi halde köfteler sertleşir.",
   "en": "Grating the onion keeps the kofta juicy and tender; avoid overworking the meat, or the balls will become tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the listed steps: about 15 min resting, 4 batches of frying, 8 min onion, 10 min sauce simmer and 20 min covered simmer add up to roughly 80 min",
+   "Turkish tip contains a non-Turkish character ('köftelər' should be 'köfteler')",
+   "Turkish sentence-initial 'Ince' should be 'İnce' (steps 6)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

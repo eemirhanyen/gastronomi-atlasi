@@ -14,9 +14,9 @@
  "ingredients": {
   "tr": [
    "250 g un",
-   "1 adet yumurta (yaklaşık 50 g)",
+   "2 adet yumurta (her biri yaklaşık 50 g)",
    "15 ml sıvı yağ",
-   "2 g tuz (1 tutam)",
+   "3 g tuz (hamur ve iç harç için)",
    "110 ml ılık su",
    "300 g lor peyniri (skuta)",
    "60 ml ekşi krema (smetana)",
@@ -28,9 +28,9 @@
   ],
   "en": [
    "250 g plain flour",
-   "1 egg (about 50 g)",
+   "2 eggs (about 50 g each)",
    "15 ml neutral oil",
-   "2 g salt (1 pinch)",
+   "3 g salt (for dough and filling)",
    "110 ml lukewarm water",
    "300 g cottage cheese (skuta)",
    "60 ml sour cream (smetana)",
@@ -73,5 +73,14 @@
   "tr": "Ruloyu bezde sıkıca sarmak, haşlarken dağılmasını önler; bezi tencereye koymadan önce ıslatıp sıkarsanız kolay açılır.",
   "en": "Wrap the roll tightly so it holds its shape while boiling; dampening the cloth before wrapping makes it easier to unwrap afterwards."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Egg count mismatch: the dough (step 1) and the filling (step 3) both use an egg, but only one egg is listed in the ingredients (TR and EN).",
+   "Salt is used in both the dough and the filling, but the listed 2 g does not clearly cover both. Quantity is also unclear for the filling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

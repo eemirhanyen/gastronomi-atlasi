@@ -14,14 +14,18 @@
  "ingredients": {
   "tr": [
    "300 g buğday tanesi (sert veya yumuşak, işlenmemiş)",
-   "1 l su (çimlendirme için ayrı, pişirme için ayrı)",
+   "1 l su (blender ve pişirme için, bölünmüş)",
+   "200 ml soğuk su (un bulamacı için)",
+   "Islatma ve durulama için yeterli su",
    "100 g un (tercihen tam buğday unu)",
    "60 ml bitkisel yağ",
    "1 tutam tuz"
   ],
   "en": [
    "300 g whole wheat grain (untreated, not pearled)",
-   "1 l water (for soaking and cooking, divided)",
+   "1 l water (for blending and cooking, divided)",
+   "200 ml cold water (for the flour slurry)",
+   "Water for soaking and rinsing the grains",
    "100 g flour (preferably whole wheat flour)",
    "60 ml vegetable oil",
    "1 pinch salt"
@@ -53,5 +57,13 @@
   "tr": "Pişirme sırasında ateş çok yüksek olursa karışım dibe yapışır; ısıyı düşük tutup sık karıştırmak en önemli kuraldır.",
   "en": "If the heat is too high the paste will scorch on the bottom, so keep the flame low and stir often throughout cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantities don't add up: the steps use 500 ml (blending) + 500 ml (pot) + 200 ml (flour slurry) = 1.2 l, plus soaking/rinsing water, but the ingredient list says only 1 l. The 200 ml cold water "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

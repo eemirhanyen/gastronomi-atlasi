@@ -54,20 +54,20 @@
    "Büyük bir kapta unu, soğumuş dashi'yi, yumurtaları ve tuzu pürüzsüz bir hamur olacak şekilde karıştırın. Hamuru 5 dakika dinlendirin.",
    "Doğranmış lahana ve yeşil soğanı hamura ekleyip spatulayla nazikçe karıştırın; lahana hamura eşit dağılmalıdır.",
    "Sosu hazırlamak için küçük bir tencerede ketçap, Worcestershire sosu, soya sosu ve toz şekeri orta ateşte 2 dakika kaynatın, sonra ocaktan alın ve soğumaya bırakın.",
-   "Geniş bir tavayı orta ateşte ısıtın ve yağın yarısını ekleyin. Hamurun dörtte birini tavaya dökün, yaklaşık 15 cm çapında yuvarlak bir tabaka oluşturacak şekilde yayın.",
+   "Geniş bir tavayı orta ateşte ısıtın ve 30 ml bitkisel yağın dörtte birini (yaklaşık 7-8 ml) ekleyin. Hamurun dörtte birini tavaya dökün, yaklaşık 15 cm çapında yuvarlak bir tabaka oluşturacak şekilde yayın.",
    "Hamurun üzerine domuz göbeği dilimlerinin dörtte birini yan yana dizin.",
-   "Kenarları sertleşip alt yüzü altın rengi olana kadar yaklaşık 4-5 dakika pişirin. Spatulayla dikkatlice çevirin ve diğer yüzünü de 4-5 dakika pişirin, ortası tamamen pişene kadar bastırarak kontrol edin.",
-   "Kalan hamurla aynı işlemi tekrarlayın; pişenleri 90°C'ye ayarlı fırında sıcak tutabilirsiniz.",
+   "Kenarları sertleşip alt yüzü altın rengi olana kadar yaklaşık 4-5 dakika pişirin. Spatulayla dikkatlice çevirin, diğer yüzünü 4-5 dakika pişirin; son 2-3 dakikada tavanın kapağını kapatın. Ortasının tamamen piştiğini kontrol edin: hamur ıslak olmamalı ve domuz eti pembe görünmemelidir.",
+   "Kalan hamurla aynı işlemi, her biri için yaklaşık 7-8 ml yağ kullanarak tekrarlayın; pişenleri 90°C'ye ayarlı fırında sıcak tutabilirsiniz.",
    "Servis için pişmiş okonomiyaki'lerin üzerine sosu fırçalayın, mayonezi zigzag şeklinde sıkın, aonori ve katsuobushi serpin. Yanında beni shoga ile servis edin."
   ],
   "en": [
    "In a large bowl, mix the flour, cooled dashi, eggs and salt into a smooth batter. Rest the batter for 5 minutes.",
    "Add the shredded cabbage and spring onions to the batter and fold gently with a spatula so the cabbage is evenly distributed.",
    "To make the sauce, simmer the ketchup, Worcestershire sauce, soy sauce and caster sugar in a small saucepan over medium heat for 2 minutes, then remove from the heat and let cool.",
-   "Heat a wide frying pan over medium heat and add half the vegetable oil. Pour a quarter of the batter into the pan and spread it into a round about 15 cm across.",
+   "Heat a wide frying pan over medium heat and add about 7-8 ml (one quarter) of the 30 ml vegetable oil. Pour a quarter of the batter into the pan and spread it into a round about 15 cm across.",
    "Lay a quarter of the pork belly slices side by side over the top of the batter.",
-   "Cook for about 4-5 minutes, until the edges set and the underside is golden. Carefully flip with a spatula and cook the other side for another 4-5 minutes, pressing gently to check that the centre is fully cooked.",
-   "Repeat with the remaining batter, adding oil as needed. Keep finished pancakes warm in an oven set to 90°C.",
+   "Cook for about 4-5 minutes, until the edges set and the underside is golden. Carefully flip with a spatula and cook the other side for another 4-5 minutes, covering the pan with a lid for the last 2-3 minutes. Check that the centre is fully cooked: the batter should not be wet and the pork should no longer be pink.",
+   "Repeat with the remaining batter, using about 7-8 ml oil for each pancake. Keep finished pancakes warm in an oven set to 90°C.",
    "To serve, brush the cooked okonomiyaki with the sauce, pipe the mayonnaise in zigzag lines, and sprinkle with aonori and katsuobushi. Serve with beni shoga on the side."
   ]
  },
@@ -75,5 +75,15 @@
   "tr": "Lahanayı ne kadar ince doğrarsanız, okonomiyaki o kadar yumuşak ve kabarık olur.",
   "en": "The more finely you shred the cabbage, the softer and fluffier the okonomiyaki will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil amounts are unclear: step 4 adds 'half' the 30 ml oil, which leaves an unspecified amount for the remaining three pancakes.",
+   "English step 7 says 'adding oil as needed', but the Turkish step 7 has no oil instruction, so the two versions disagree.",
+   "A ~15 cm, thick pancake cooked uncovered for 8-10 minutes may not cook through in the centre, which is a food-safety concern with pork. A lid for part of the cooking time is needed, and the doneness c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -60,7 +60,7 @@
    "Hamurdan kaşıkla küçük parçalar alıp dikkatle yağa bırakın. Her seferinde birkaç parça kızartın ki yağın sıcaklığı düşmesin.",
    "Pakoraları orta ateşte, ara ara çevirerek altın rengi ve çıtır olana kadar yaklaşık 4-5 dakika kızartın.",
    "Süzgeç kaşıkla çıkarıp kağıt havlu serili bir tabağa alın ve fazla yağını bırakmasını sağlayın.",
-   "Sıcak sıcak, tatlı tamarind ya da nane sosuyla servis yapın."
+   "Sıcak sıcak, ekşimsi demirhindi sosu ya da nane sosuyla servis yapın."
   ],
   "en": [
    "In a large mixing bowl, combine the gram flour, rice flour, salt, baking soda, turmeric and chilli powder.",
@@ -79,5 +79,13 @@
   "tr": "Hamuru kızartmadan önce biraz dinlendirmek pakoraların daha çıtır olmasını sağlar; yağın sıcaklığını korumak için partiler halinde kızartın.",
   "en": "Let the batter rest briefly before frying for a crisper result, and fry in small batches to keep the oil hot and the fritters from becoming greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish final step uses the English word \"tamarind\" and the phrase \"tatlı tamarind\". The natural Turkish term is \"demirhindi\", and the sauce is tangy rather than sweet."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

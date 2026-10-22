@@ -29,21 +29,21 @@
  },
  "steps": {
   "tr": [
-   "Suyu bir tencerede kaynatın, ocaktan alın ve tuzu ekleyin.",
-   "Darı ununu kaynayan suyun içine azar azar ekleyip tahta kaşıkla sürekli karıştırın; pürüzsüz, sert bir hamur oluşana kadar çalışın.",
+   "Suyu bir tencerede kaynatın ve tuzu ekleyin.",
+   "Ocağın ateşini kısın; darı ununu kaynayan suyun içine azar azar ekleyip tahta kaşıkla sürekli karıştırın; pürüzsüz, sert bir hamur oluşana kadar yaklaşık 2-3 dakika çalışın, ardından ocaktan alın.",
    "Hamuru hafifçe ılımaya bırakın, ardından temiz bir yüzeyde 3-4 dakika yoğurun. Hamur çok yapışkan kalırsa 20 g darı unu ile serpin.",
-   "Hamuru 8 eşit parçaya bölün ve her birini avuçlarınızla yaklaşık 1,5 cm kalınlığında, 10 cm çapında yassı daireler halinde şekillendirin.",
+   "Hamuru 8 eşit parçaya bölün ve her birini avuçlarınızla yaklaşık 1 cm kalınlığında, 10 cm çapında yassı daireler halinde şekillendirin.",
    "Geniş bir tavayı orta-yüksek ateşte iyice ısıtın ve yağı yayın.",
-   "Ekmek dairelerini tavaya yerleştirin ve her iki yüzünde de kurumaya başlayıp hafif kahverengi noktalar oluşana kadar, yaklaşık 4-5 dakika pişirin.",
+   "Ekmek dairelerini tavaya yerleştirin; bir kez çevirerek her iki yüzünde de kurumaya başlayıp hafif kahverengi noktalar oluşana kadar toplam yaklaşık 4-5 dakika pişirin.",
    "Pişen ekmekleri temiz bir bezle örtüp sıcak servis yapın."
   ],
   "en": [
-   "Bring the water to a boil in a saucepan, remove from the heat and stir in the salt.",
-   "Gradually add the finger millet flour to the boiling water, stirring constantly with a wooden spoon until a smooth, firm dough forms.",
+   "Bring the water to a boil in a saucepan and stir in the salt.",
+   "Reduce the heat to low. Gradually add the finger millet flour to the boiling water, stirring constantly with a wooden spoon for about 2-3 minutes until a smooth, firm dough forms, then remove from the heat.",
    "Let the dough cool slightly, then knead it on a clean surface for 3-4 minutes. If it is too sticky, dust it with 20 g of millet flour.",
-   "Divide the dough into 8 equal pieces and shape each into a flat round about 1.5 cm thick and 10 cm across.",
+   "Divide the dough into 8 equal pieces and shape each into a flat round about 1 cm thick and 10 cm across.",
    "Heat a wide pan over medium-high heat and spread the oil over the surface.",
-   "Place the rounds in the pan and cook for about 4-5 minutes, until they dry on the surface and show light brown spots on both sides.",
+   "Place the rounds in the pan and cook for about 4-5 minutes in total, turning once, until they dry on the surface and show light brown spots on both sides.",
    "Cover the cooked breads with a clean cloth and serve warm."
   ]
  },
@@ -51,5 +51,16 @@
   "tr": "Hamur sıcakken yoğrulursa elleriniz yanabilir; yoğurmadan önce biraz soğumasını bekleyin ve avuç içinizi hafif nemlendirin.",
   "en": "Keep your hands lightly wet while shaping so the dough does not crack and stick, and let it cool slightly before kneading to avoid burns."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 removes the water from the heat before the flour is added, but Step 2 says to add flour to the 'boiling' water. The flour needs to be cooked over heat to form a proper stiff dough, so the heat ",
+   "Step 6 never says to turn the breads, yet it describes both sides browning. A flip step is missing in both languages.",
+   "The shaping thickness is inconsistent with the quantities. About 650 g of dough divided into 8 pieces gives roughly 75 g each, which is closer to 1 cm thick at 10 cm across, not 1.5 cm. Both languages",
+   "The Turkish and English versions otherwise agree on amounts, ingredients and temperatures."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

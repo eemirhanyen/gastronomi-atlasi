@@ -53,10 +53,10 @@
   "tr": [
    "Tavuk parçalarını sarımsak, taze soğan, kekik, tuz, karabiber ve yenibaharla karıştırın ve 15 dakika marine edin.",
    "Kalın tabanlı bir tencerede şekeri orta ateşte, sürekli karıştırarak koyu kahverengi ve karamel rengi alana kadar eritin.",
-   "Ocaktan almadan önce 30 ml suyu dikkatlice ekleyin; buhar çıkacağı için hızlıca karıştırın ve karamel sosunu hazırlayın.",
+   "Ocaktan alarak 30 ml suyu dikkatlice ekleyin; buhar çıkacağı ve sıçrayacağı için hızlıca karıştırın, pürüzsüz bir karamel sosu elde edin.",
    "Yağı ekleyin, tavuk parçalarını tencereye alın ve yüzeyleri koyu renk alana kadar 6 ila 8 dakika kavurun.",
    "Doğranmış soğanı ekleyip yumuşayana kadar yaklaşık 3 dakika pişirin.",
-   "Yıkanmış pirinci ekleyip tahıl yağa karışana kadar 2 dakika kavurun.",
+   "Yıkanmış pirinci ekleyip pirinç taneleri yağa karışana kadar 2 dakika kavurun.",
    "Güvercin bezelyesini, tavuk suyunu, hindistancevizi sütünü ve bütün Scotch bonnet biberi ekleyin; gerekirse tuzu tadına göre ayarlayın.",
    "Karışımı kaynatın, kapağını kapatın, ateşi en düşük seviyeye indirin ve suyu çekene kadar yaklaşık 20 dakika pişirin.",
    "Ocağı kapatıp kapağı kapalı halde 10 dakika dinlendirin, ardından pirinci çatalla kabartın. Biberi çıkarıp servis edin."
@@ -74,8 +74,18 @@
   ]
  },
  "tip": {
-  "tr": "Biberi tencerede bütün bırakıp delmek aromayı verir ama ısıyı artırır; acı istemiyorsanız hiç delmeyin ve pişirme sırasında çıkarın.",
+  "tr": "Biberi bütün bırakıp çatalla delmek aromayı verir ama fazla acılık yapmaz; daha fazla acı istiyorsanız ikiye kesin. Pişirmenin son 20 dakikasında kapağı asla kaldırmayın.",
   "en": "Leave the Scotch bonnet whole and pricked for flavour without much heat; cut it open only if you want more spice. Never lift the lid during the last 20 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says to add the water before removing the pan from the heat (\"Ocaktan almadan önce\"), but the English says \"Off the heat\". Off-heat is the safer method, so the Turkish should match it.",
+   "Turkish tip says not to prick the pepper if you don't want heat, and to remove it during cooking. The English says to cut it open only for more spice and never to lift the lid in the last 20 minutes. ",
+   "Turkish step 6 uses \"tahıl\" (grain) where the rice is meant; minor wording fix."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

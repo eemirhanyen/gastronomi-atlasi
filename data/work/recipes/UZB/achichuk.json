@@ -5,7 +5,7 @@
  },
  "native": "Achchiq chuchuk",
  "desc": {
-  "tr": "Özbek mutfağının taze, sert ve ekşimsi tadıyla bilinen domates-soğan salatasıdır. Genellikle pilavın yanında, yemeğin başında ya da sıcak günlerde hafif bir meze olarak servis edilir.",
+  "tr": "Özbek mutfağının taze, keskin ve ekşimsi tadıyla bilinen domates-soğan salatasıdır. Genellikle pilavın yanında, yemeğin başında ya da sıcak günlerde hafif bir meze olarak servis edilir.",
   "en": "A fresh, sharp tomato and onion salad from Uzbek cuisine, often served with plov, at the start of a meal, or as a light appetizer on hot days."
  },
  "servings": 4,
@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Domatesleri yıkayıp kendi suyunu kaybetmeyecek şekilde küçük küp doğrayın.",
-   "Soğanı soyun, ince yarım ay şeklinde doğrayın ve yarım dakika kadar soğuk suda bekletip süzün; bu, soğanın sertliğini azaltır.",
+   "Soğanı soyun, ince yarım ay şeklinde doğrayın ve yaklaşık 10 dakika soğuk suda bekletip süzün; bu, soğanın sertliğini azaltır.",
    "Acı biberin saplarını çıkarın, çekirdeklerini temizleyip çok ince doğrayın. Acı sevmiyorsanız çekirdeklerini tamamen ayırın.",
    "Kişniş ve dereotunu yıkayıp kurulayın, ince kıyın.",
    "Geniş bir kasede domates, soğan, biber ve otları birleştirin.",
@@ -46,7 +46,7 @@
   ],
   "en": [
    "Wash the tomatoes and dice them into small cubes, keeping their juices in the bowl.",
-   "Peel the onion, slice it into thin half-moons, and soak in cold water for about half a minute, then drain. This softens its sharpness.",
+   "Peel the onion, slice it into thin half-moons, and soak in cold water for about 10 minutes, then drain. This softens its sharpness.",
    "Remove the stem from the hot chili, clean out the seeds, and chop very finely. If you prefer less heat, remove the seeds completely.",
    "Rinse and dry the cilantro and dill, then chop finely.",
    "In a wide bowl, combine the tomatoes, onion, chili, and herbs.",
@@ -59,5 +59,14 @@
   "tr": "Mutlaka olgun ve etli domates kullanın; sulu ve tatsız domatesler salatanın lezzetini belirgin şekilde düşürür.",
   "en": "Use firm, fully ripe tomatoes; watery or bland ones will noticeably weaken the salad's flavor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses \"sert\" (hard) for the salad's sharp taste; the natural culinary term is \"keskin\".",
+   "Onion soaking time of about half a minute is too short to noticeably reduce the onion's sharpness, which the step claims it does. Changed to 10 minutes in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

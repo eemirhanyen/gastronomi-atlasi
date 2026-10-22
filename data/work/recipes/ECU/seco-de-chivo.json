@@ -9,14 +9,14 @@
   "en": "A goat stew from Ecuador's coastal regions, especially Guayaquil and Manabí, cooked in a thick cilantro and beer sauce. It is usually eaten at weekend family meals with rice and avocado."
  },
  "servings": 4,
- "time_min": 100,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "800 g kemikli keçi eti (omuz veya but, 5 cm'lik parçalar)",
    "60 ml limon suyu",
    "1 tatlı kaşığı kimyon",
-   "1 tatlı kaşığı kurutulmuş kekik veya kekik benzeri kekik otu (oregano)",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1,5 tatlı kaşığı tuz, ayrıca tatmak için",
    "1/2 tatlı kaşığı karabiber",
    "4 diş sarımsak (2'si ezilmiş, 2'si ince doğranmış)",
@@ -28,7 +28,7 @@
    "2 orta boy domates (250 g, küp doğranmış)",
    "1 demet kişniş (80 g, sapları dahil)",
    "330 ml açık renk bira (lager)",
-   "300 ml su",
+   "400 ml su (100 ml kişniş püresi için, 300 ml pişirme için)",
    "Pilav ve avokado servis için"
   ],
   "en": [
@@ -47,19 +47,19 @@
    "2 medium tomatoes (250 g, diced)",
    "1 bunch cilantro (80 g, including stems)",
    "330 ml lager-style beer",
-   "300 ml water",
+   "400 ml water (100 ml for the cilantro purée, 300 ml for cooking)",
    "Rice and avocado to serve"
   ]
  },
  "steps": {
   "tr": [
    "Keçi etini büyük bir kaseye alın. Limon suyu, 1 tatlı kaşık tuz, kimyon, kekik, karabiber ve ezilmiş 2 diş sarımsakla iyice karıştırın. Üzerini örtüp en az 30 dakika buzdolabında bekletin.",
-   "Kişnişi yıkayıp sapları ile yapraklarını kabaca doğrayın. Blenderda 100 ml su ile birlikte pürüzsüz bir püre elde edin.",
+   "Kişnişi yıkayıp sapları ile yapraklarını kabaca doğrayın. Blender'da 100 ml su ile birlikte pürüzsüz bir püre elde edin.",
    "Geniş ve kalın tabanlı bir tencerede 2 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Eti marinasından sıyırarak partiler halinde 8-10 dakika, her yüzü kızarana kadar kavurun. Etleri bir kaseye alın.",
    "Aynı tencereye kalan 1 yemek kaşığı yağı ve achiote yağını ekleyin. Soğanı, dolmalık biberi, acı biberi ve kalan 2 diş doğranmış sarımsağı ekleyip orta ateşte 8 dakika yumuşayana kadar pişirin.",
    "Domatesleri ekleyip suyunu salana ve sos koyulaşmaya başlayana kadar 5 dakika pişirin.",
-   "Kişniş püresini, kalan oregano ve yarım tatlı kaşık tuzu ekleyip 3 dakika kısık ateşte kavurun.",
-   "Kavrulmuş etleri, birayı ve 300 ml suyu tencereye ekleyin. Kaynamaya başlayınca ateşi kısın, kapağını kapatın ve et yumuşayana kadar yaklaşık 60 dakika yavaşça pişirin.",
+   "Kişniş püresini ve yarım tatlı kaşık tuzu ekleyip 3 dakika kısık ateşte kavurun.",
+   "Kavrulmuş etleri, birayı ve 300 ml suyu tencereye ekleyin. Kaynamaya başlayınca ateşi kısın, kapağını kapatın ve et yumuşayana kadar yaklaşık 80 dakika yavaşça pişirin.",
    "Kapağı açın ve sos kıvamlanana kadar yaklaşık 10 dakika daha pişirin. Tuzunu ayarlayın. Pilav ve dilimlenmiş avokado ile sıcak sıcak servis yapın."
   ],
   "en": [
@@ -68,8 +68,8 @@
    "Heat 2 tbsp oil in a wide, heavy pot over medium-high heat. Shake off the marinade and brown the meat in batches for 8-10 minutes, until every side is golden. Transfer the meat to a bowl.",
    "Add the remaining 1 tbsp oil and the achiote oil to the same pot. Add the onion, red bell pepper, chili and the 2 remaining chopped garlic cloves. Cook over medium heat for 8 minutes, until soft.",
    "Add the tomatoes and cook for 5 minutes, until they release their juices and the mixture starts to thicken.",
-   "Stir in the cilantro purée, the remaining 1/2 tsp salt, and fry gently over low heat for 3 minutes.",
-   "Return the browned meat to the pot with the beer and 300 ml water. Bring to a boil, then reduce the heat, cover and simmer slowly for about 60 minutes, until the meat is tender.",
+   "Stir in the cilantro purée and the remaining 1/2 tsp salt, and fry gently over low heat for 3 minutes.",
+   "Return the browned meat to the pot with the beer and 300 ml water. Bring to a boil, then reduce the heat, cover and simmer slowly for about 80 minutes, until the meat is tender.",
    "Uncover and cook for about 10 more minutes to reduce the sauce. Adjust the salt to taste. Serve hot with rice and sliced avocado."
   ]
  },
@@ -77,5 +77,16 @@
   "tr": "Kişniş püresini sosa eklemeden önce kısa süre kavurmak, sosun rengini ve taze kokusunu korur; acı kaygısı olanlar için acı biberi çıkarabilirsiniz.",
   "en": "Frying the cilantro purée briefly before adding the liquid keeps its colour and fresh aroma; omit the chili if you prefer a milder sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water is listed as 300 ml, but the steps use 100 ml for the cilantro purée plus 300 ml for the pot (400 ml total), in both languages.",
+   "Step 6 says to add 'the remaining oregano', but all 1 tsp of oregano was already used in the marinade (step 1).",
+   "Simmering bone-in goat for about 60 minutes is probably too short to reach 'tender' (both languages). Bone-in goat usually needs 75-90 minutes, so time_min was adjusted to match.",
+   "Turkish step 2 uses 'Blenderda', which should be 'Blender'da'. The oregano ingredient wording in Turkish is also awkward ('kekik veya kekik benzeri kekik otu')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

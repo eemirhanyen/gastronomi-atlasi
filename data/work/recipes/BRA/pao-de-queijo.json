@@ -14,10 +14,10 @@
  "ingredients": {
   "tr": [
    "250 g tapyoka nişastası (polvilho doce)",
-   "100 g süt",
+   "100 g tam yağlı süt",
    "100 g su",
    "60 ml sıvı yağ",
-   "4 g tuz (yaklaşık 1 çay kaşığı)",
+   "4 g tuz (yaklaşık 3/4 çay kaşığı)",
    "2 yumurta (yaklaşık 100 g)",
    "120 g Minas peyniri, ince rendelenmiş (ya da taze mozzarella)",
    "60 g parmesan, ince rendelenmiş",
@@ -28,7 +28,7 @@
    "100 g whole milk",
    "100 g water",
    "60 ml neutral oil",
-   "4 g salt (about 1 teaspoon)",
+   "4 g salt (about 3/4 teaspoon)",
    "2 eggs (about 100 g)",
    "120 g Minas cheese, finely grated (or fresh mozzarella)",
    "60 g Parmesan, finely grated",
@@ -37,7 +37,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200°C'ye ısıtın ve fırın tepsisinin altına hafif bir kat yağ sürün.",
+   "Fırını 200°C'ye ısıtın ve fırın tepsisine hafif bir kat yağ sürün.",
    "Süt, su, sıvı yağ ve tuzu orta ateşte bir tencerede kaynatın.",
    "Tapyoka nişastasını geniş bir kaseye koyun, kaynayan sıvıyı üzerine dökün ve tahta kaşıkla karışana kadar hızlıca karıştırın.",
    "Hamur sıcakken yaklaşık 5 dakika soğumaya bırakın.",
@@ -60,8 +60,19 @@
   ]
  },
  "tip": {
-  "tr": "Tapyoka nişastası hamuru çok yapışkan olabilir; ellerinizi hafifçe nemlendirin. Ağızda en iyi lezzeti için hemen servis yapın, ama soğuyan topları 180°C'de 3-4 dakika ısıtarak yeniden tazeleyebilirsiniz.",
+  "tr": "Tapyoka nişastası hamuru çok yapışkan olabilir; ellerinizi hafifçe nemlendirin. En iyi lezzet için hemen servis yapın; soğuyan topları 180°C'de 3-4 dakika ısıtarak yeniden tazeleyebilirsiniz.",
   "en": "Tapioca dough is very sticky, so keep your hands lightly wet when shaping. Serve them warm for the best texture; cooled balls can be refreshed at 180°C for 3-4 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "tr step 1: 'tepsisinin altına' says to grease the underside of the tray; the English and the intended step are to grease the tray itself ('tepsisine').",
+   "tr tip: 'Ağızda en iyi lezzeti için' is unnatural Turkish.",
+   "Salt: 4 g is about 3/4 teaspoon, not 1 teaspoon, in both languages.",
+   "Milk: the English says 'whole milk' but the Turkish just says 'süt'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

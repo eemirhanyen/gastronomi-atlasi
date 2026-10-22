@@ -13,10 +13,10 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g beyaz etli balık (kırlangıç balığı, pirinç balığı veya levrek), porsiyonlara bölünmüş",
+   "600 g beyaz etli balık (kırlangıç balığı veya levrek), porsiyonlara bölünmüş",
    "6 kuru kırmızı biber, ılık suda 15 dk bekletilmiş",
    "2 taze kırmızı biber",
-   "6 kuru soğan (yaklaşık 90 g)",
+   "6 arpacık (yaklaşık 90 g)",
    "4 diş sarımsak",
    "30 g taze zencefil",
    "20 g taze zerdeçal (veya 1 çay kaşığı öğütülmüş zerdeçal)",
@@ -35,7 +35,7 @@
    "1 çay kaşığı şeker"
   ],
   "en": [
-   "600 g firm white fish (kingfish, pomfret or sea bass), cut into portions",
+   "600 g firm white fish (pomfret or sea bass), cut into portions",
    "6 dried red chillies, soaked in warm water for 15 min",
    "2 fresh red chillies",
    "6 shallots (about 90 g)",
@@ -59,7 +59,7 @@
  },
  "steps": {
   "tr": [
-   "Kuru kırmızı biberleri süzün. Taze kırmızı biberler, kuru soğanlar, sarımsak, zencefil, zerdeçal ve belacanı blendırda ya da havanda pürüzsüz bir macun haline getirin. Gerekirse birkaç yemek kaşığı su ekleyin.",
+   "Kuru kırmızı biberleri süzün. Taze kırmızı biberler, arpacıklar, sarımsak, zencefil, zerdeçal ve belacanı blenderda ya da havanda pürüzsüz bir macun haline getirin. Gerekirse birkaç yemek kaşığı su ekleyin.",
    "Tamarind macununu 150 ml sıcak suda eritin, ardından iri parçaları ayırmak için süzün ve kenara koyun.",
    "Geniş bir tencerede yağı orta ateşte ısıtın. Hazırlanan macunu, öğütülmüş kişniş ve kimyonla birlikte 5-7 dakika, yağ ayrılana ve koku güçlenene kadar kavurun.",
    "Dövülmüş limon otunu ekleyin ve 1 dakika daha kavurun.",
@@ -87,5 +87,15 @@
   "tr": "Balığı en son ekleyin ve karıştırmak yerine kaşıkla sosu üzerine gezdirin; böylece etler dağılmaz.",
   "en": "Add the fish last and spoon the sauce over it rather than stirring, so the pieces stay intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish names are inconsistent with the English: 'pirinç balığı' is not a standard name for kingfish, and kingfish is an oily fish, not the white-fleshed fish the recipe calls for. Removed kingfi",
+   "Turkish 'kuru soğan' is a wrong culinary term for shallots (it reads as dried onion). Replaced with 'arpacık', the standard Turkish word for shallot.",
+   "Typo 'blendırda' in Turkish step 1; corrected to 'blenderda'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

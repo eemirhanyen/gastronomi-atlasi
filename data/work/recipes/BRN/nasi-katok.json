@@ -9,7 +9,7 @@
   "en": "A beloved street food of Brunei, served with fragrant coconut rice, turmeric-spiced fried chicken, sambal and cucumber. It is usually eaten at lunch or dinner from markets and small food stalls, packed in paper or banana leaf."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -23,7 +23,7 @@
    "3 cm zencefil, rendelenmiş",
    "1 tatlı kaşığı öğütülmüş zerdeçal",
    "1 tatlı kaşığı öğütülmüş kişniş",
-   "1 yemek kaşığı limon suyu",
+   "1 yemek kaşığı misket limonu suyu",
    "1 tatlı kaşığı tuz (tavuk için)",
    "500 ml kızartma yağı",
    "6 adet kuru kırmızı biber, 15 dakika sıcak suda bekletilmiş",
@@ -70,7 +70,7 @@
    "Tavuk için sarımsak, zencefil, zerdeçal, kişniş, limon suyu ve 1 tatlı kaşığı tuzu bir kapta karıştırın. Tavukları ekleyip iyice yedirin ve en az 30 dakika buzdolabında bekletin.",
    "Sambal için kuru biberleri süzün, arpacık soğanları ve sarımsakla birlikte robotta pürüzsüz bir macun olana kadar çekin. Karides ezmesini alüminyum folyoya sarıp kuru bir tavada 1 dakika kavurun ve macuna ekleyin.",
    "Sambal macununu 2 yemek kaşığı sıvı yağda orta ateşte 8-10 dakika, yağ yüzeye çıkana kadar kavurun. Tamarind karışımını ve şekeri ekleyip 3-4 dakika daha pişirin. Ocaktan alın ve kenara koyun.",
-   "Kızartma yağını 170°C'ye ısıtın. Tavukları fazla fazla süzerek partiler halinde 12-15 dakika, iç kısmı tamamen pişip dış kısmı altın rengi olana kadar kızartın. Kağıt havlu üzerine alın.",
+   "Kızartma yağını 170°C'ye ısıtın. Tavukları partiler halinde 12-15 dakika, iç kısmı tamamen pişip dış kısmı altın rengi olana kadar kızartın. Kağıt havlu üzerine alarak fazla yağı süzün.",
    "Kalan 1 yemek kaşığı sıvı yağı küçük bir tavada ısıtın ve yumurtaları sırayla göz yumurtası olacak şekilde kızartın, kenarları çıtır olsun.",
    "Pirinci küçük bir kase ile şekil vererek muz yaprağı veya fırın kağıdının ortasına bastırın, kenarlarından kaldırıp kağıdı sarın. Yanına bir parça tavuk, bir kaşık sambal, bir göz yumurta, salatalık dilimleri ve kavrulmuş yer fıstığı koyarak servis yapın."
   ],
@@ -89,5 +89,15 @@
   "tr": "Pandan yaprağı bulamazsanız pirinç pişerken birkaç damla vanilya özü kullanabilirsiniz; kokusu farklı olsa da yine de hoş bir sonuç verir.",
   "en": "If you cannot find pandan leaves, a few drops of vanilla extract added while the rice cooks give a pleasant, if different, aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 'tavukları fazla fazla süzerek' is unnatural and unclear; it should say the chicken is drained of excess oil.",
+   "Turkish ingredient 'limon suyu' is lemon juice, but the English lists lime juice. Turkish should say 'misket limonu suyu'.",
+   "time_min of 60 is likely too low: the rice takes about 28 minutes including rest, the chicken fries in two batches of 12-15 minutes, and the chicken marinates for at least 30 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

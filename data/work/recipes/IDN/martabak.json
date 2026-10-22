@@ -52,7 +52,7 @@
    "Kabı örtün ve oda sıcaklığında 45-60 dakika, hamur kabarıp iki katına çıkana kadar mayalanmaya bırakın.",
    "Karbonatı hamura yavaşça ekleyip sadece birleşene kadar karıştırın.",
    "Orta-düşük ateşte 25 cm'lik yapışmaz bir tavayı ısıtın, sıvı yağı ekleyip kağıt havluyla hafifçe silin.",
-   "Hamurun yarısını tavaya dökün ve kapağını kapatarak 3-4 dakika pişirin. Yüzeyinde kabarcıklar oluşup alt kısmı altın rengi olunca kapağı açın.",
+   "Hamurun tamamını tavaya dökün ve kapağını kapatarak 5-6 dakika pişirin. Yüzeyinde kabarcıklar oluşup alt kısmı altın rengi olunca kapağı açın.",
    "Üst yüzeye çikolatanın yarısını, peynirin tamamını ve yer fıstığının yarısını serpin. Kapağı tekrar kapatıp 1 dakika kadar bekleyerek peynirin erimesini sağlayın.",
    "Martabağı spatula yardımıyla ikiye katlayıp bir servis tabağına alın. Üzerine kalan 20 g eritilmiş tereyağını sürün, yoğunlaştırılmış sütü gezdirin, kalan çikolata ve fıstığı serpin. Dilimleyip sıcak servis yapın."
   ],
@@ -62,7 +62,7 @@
    "Cover the bowl and let it rise at room temperature for 45-60 minutes, until the batter has doubled and is full of bubbles.",
    "Gently stir in the baking soda until just combined.",
    "Heat a 25 cm non-stick pan over medium-low heat. Add the oil and wipe it lightly with kitchen paper.",
-   "Pour half of the batter into the pan, cover and cook for 3-4 minutes, until bubbles form on the surface and the base is golden. Remove the lid.",
+   "Pour all of the batter into the pan, cover and cook for 5-6 minutes, until bubbles form on the surface and the base is golden. Remove the lid.",
    "Scatter half of the chocolate, all of the cheese and half of the peanuts over the top. Cover again for about 1 minute so the cheese melts.",
    "Fold the martabak in half with a spatula and transfer it to a serving plate. Brush with the 20 g melted butter, drizzle with the condensed milk, then sprinkle with the remaining chocolate and peanuts. Cut into pieces and serve warm."
   ]
@@ -71,5 +71,14 @@
   "tr": "Hamur iyi kabarmadıysa mayanın taze olduğundan ve suyun çok sıcak olmadığından emin olun. Karbonatı en son ekleyip fazla karıştırmamak martabağın yumuşak kalmasını sağlar.",
   "en": "If the batter does not rise well, check that the yeast is fresh and the water is not too hot. Adding the baking soda last and stirring only briefly keeps the martabak soft and fluffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 pours only half the batter into the pan, but the rest is never cooked. The ingredient list and the topping steps describe one martabak, so the other half of the batter is unused.",
+   "With the whole batter in one 25 cm pan, the cooking time needs to increase slightly (Turkish and English)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

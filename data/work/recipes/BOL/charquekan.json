@@ -9,7 +9,7 @@
   "en": "A traditional main course from the Andean highlands, especially La Paz and the Altiplano, usually eaten at midday. Salt-cured dried beef (charque) is cooked with onion, tomato and chili, then served with potatoes and mote (cooked hominy corn)."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -19,7 +19,7 @@
    "300 g soğan (2 orta boy)",
    "200 g domates (2 adet)",
    "3 diş sarımsak",
-   "2 yemek kaşığı ají amarillo salçası (veya 1 kırmızı dolmalık biber)",
+   "2 yemek kaşığı ají amarillo salçası",
    "1 çay kaşığı öğütülmüş kimyon",
    "1 çay kaşığı kuru kekik",
    "3 yemek kaşığı sıvı yağ",
@@ -36,7 +36,7 @@
    "300 g onions (2 medium)",
    "200 g tomatoes (2 medium)",
    "3 garlic cloves",
-   "2 tbsp ají amarillo paste (or 1 red bell pepper, finely chopped)",
+   "2 tbsp ají amarillo paste",
    "1 tsp ground cumin",
    "1 tsp dried thyme",
    "3 tbsp vegetable oil",
@@ -49,26 +49,26 @@
  },
  "steps": {
   "tr": [
-   "Charque'ı bir gece önceden soğuk suda en az 8 saat bekletin, suyunu iki-üç kez değiştirin. Süzüp ağzı açık parçalara ayırın.",
+   "Charque'ı bir gece önceden soğuk suda en az 8 saat bekletin, suyunu iki-üç kez değiştirin. Süzüp lokma büyüklüğünde parçalara ayırın.",
    "Patatesleri kabuklarıyla tuzlu suda 20 dakika haşlayın, süzün, soyun ve büyük parçalara kesin.",
-   "Charque'ı 1 litre suyla birlikte bir tencereye alın. Yarım soğanı ve tuzu ekleyip kısık ateşte 40 dakika, et yumuşayana kadar pişirin.",
+   "Charque'ı 1 litre suyla birlikte bir tencereye alın. Yarım soğanı ekleyip kısık ateşte 60-90 dakika, et yumuşayana kadar pişirin.",
    "Etleri süzün ve suyundan 150 ml ayırın. Eti çatalla lifler halinde ufalayın.",
    "Geniş bir tavada yağı orta ateşte ısıtın. Kalan soğanı ince doğrayıp 8 dakika, altın renk alana kadar kavurun.",
    "Sarımsağı ezip ekleyin, ardından ají amarillo salçasını, kimyonu ve kekiği ekleyip 1 dakika kavurun.",
    "Küçük doğranmış domatesleri ekleyip 5 dakika, suyunu çekene kadar pişirin.",
-   "Ufalanmış eti tavaya alın, kenarları hafifçe kızarana kadar 6-8 dakika kavurun. Ayırdığınız et suyunu ekleyip 5 dakika kaynatın, karabiber ekleyin ve tadını kontrol edin.",
-   "Mote'yi ayrı bir tencerede sıcak tutun. Servis tabaklarına patates, mote ve charquekán'ı koyun.",
+   "Ufalanmış eti tavaya alın, kenarları hafifçe kızarana kadar 6-8 dakika kavurun. Ayırdığınız et suyunu ekleyip 5 dakika kaynatın, karabiber ve tuzu ekleyin, tadına bakıp gerekirse tuzu ayarlayın.",
+   "Mote'yi ayrı bir tencerede, birkaç yemek kaşığı suyla sıcak tutun. Servis tabaklarına patates, mote ve charquekán'ı koyun.",
    "Üzerine maydanoz serpin, yanında llajwa ile servis yapın."
   ],
   "en": [
    "Soak the charque in cold water for at least 8 hours the night before, changing the water two or three times. Drain and cut into bite-sized pieces.",
    "Boil the potatoes in their skins in salted water for 20 minutes. Drain, peel and cut into large chunks.",
-   "Put the charque in a pot with 1 litre of the water and half of the onion. Add the salt and simmer gently for 40 minutes until the meat is tender.",
+   "Put the charque in a pot with 1 litre of the water and half of the onion. Simmer gently for 60-90 minutes until the meat is tender.",
    "Drain the meat and reserve 150 ml of the cooking liquid. Shred the meat into strands with a fork.",
    "Heat the oil in a wide pan over medium heat. Finely chop the remaining onion and fry for 8 minutes until golden.",
    "Crush in the garlic, then add the ají amarillo paste, cumin and thyme and fry for 1 minute.",
    "Add the finely chopped tomatoes and cook for 5 minutes until they break down and the liquid reduces.",
-   "Add the shredded beef to the pan and fry for 6-8 minutes until the edges are slightly crisp. Pour in the reserved cooking liquid, simmer for 5 minutes, then add the black pepper and adjust the salt.",
+   "Add the shredded beef to the pan and fry for 6-8 minutes until the edges are slightly crisp. Pour in the reserved cooking liquid, simmer for 5 minutes, then add the black pepper and salt, taste and adjust the seasoning if needed.",
    "Keep the mote warm in a separate pot with a splash of water. Plate the potatoes, mote and charquekán together.",
    "Scatter the parsley over the top and serve with llajwa on the side."
   ]
@@ -77,5 +77,18 @@
   "tr": "Charque çok tuzlu olabilir; soğuk suda uzun süre bekletmek ve suyu değiştirmek tuzunu azaltır. Tuzu en son, tadına bakarak ayarlayın.",
   "en": "Charque can be very salty, so soak it well and change the water to reduce the salt. Season with salt only at the end, after tasting."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 simmers the charque for only 40 minutes; dried salted beef usually needs about 60-90 minutes to become tender, so the stated time is too short.",
+   "time_min (60) is too low for the steps listed (boiling the beef alone takes 40+ minutes, plus potatoes, frying and assembly).",
+   "The ingredient list offers 1 red bell pepper as an alternative to ají amarillo paste, but the steps only use the paste, so the bell pepper option is never used.",
+   "Salt is added at the start of cooking (step 3 and the potato water), but the tip says to season with salt only at the end. The steps and tip contradict each other.",
+   "The English step 9 says to keep the mote warm 'with a splash of water', but the Turkish version omits this.",
+   "Turkish step 1 'ağzı açık parçalar' is a literal calque of 'bite-sized'; the natural phrasing is 'lokma büyüklüğünde parçalar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

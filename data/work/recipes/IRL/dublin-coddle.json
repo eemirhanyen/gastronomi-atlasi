@@ -49,7 +49,7 @@
    "Cut the sausages in half and the bacon into roughly 4 cm pieces. Peel the potatoes and cut them into 2 cm thick slices. Peel the onions and slice them into 5 mm rings.",
    "Heat the oil in a wide, heavy-based pot over medium heat. Brown the sausage pieces on all sides for about 5 minutes, then transfer them to a plate.",
    "Add the bacon to the same pot and fry gently for about 3 minutes.",
-   "Layer half of the potatoes and onions in the pot, then add the bacon and sausages. Season each layer lightly with salt and pepper. Finish with the remaining potatoes and onions.",
+   "Layer half of the potatoes and onions in the pot, then add the bacon and sausages. Season each layer lightly with salt and pepper. Finish with the remaining potatoes, onions and sausages.",
    "Pour in the chicken stock until it almost covers the potatoes. Bring to the boil, then reduce the heat to very low.",
    "Cover the pot and simmer gently for about 45 minutes. Shake the pot occasionally to prevent sticking, but avoid stirring so the layers hold; the potatoes should be soft and the liquid slightly thickened.",
    "Taste and add more salt if needed. Scatter over the chopped parsley and serve hot, traditionally with thick slices of brown bread."
@@ -59,5 +59,13 @@
   "tr": "Coddle bir gün bekletildiğinde tatlar daha iyi oturur; yeniden ısıtırken kısık ateşte ve azar azar su ekleyerek patateslerin dağılmasını önleyin.",
   "en": "Coddle tastes even better the next day. Reheat it gently over low heat, adding a splash of stock if needed, so the potatoes stay intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 4 omits the sausages from the final layer, but the Turkish step 4 includes them (\"Kalan patates, soğan ve sosisi\"). The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

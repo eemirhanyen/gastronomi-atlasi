@@ -46,10 +46,10 @@
    "Yumurtayı ve köpüren maya karışımını ekleyip 5 dakika yoğurun.",
    "Oda sıcaklığındaki tereyağını ekleyin ve hamur pürüzsüz, elastik olana kadar 5 dakika daha yoğurun.",
    "Kaseyi temiz bir bezle örtün ve sıcak bir yerde yaklaşık 60 dakika, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
-   "Hamuru hafifçe bastırıp havasını alın ve 8 eşit parçaya bölün (yaklaşık 60 g). Her parçayı top şekline getirip unlanmış bir tepsiye dizin.",
+   "Hamuru hafifçe bastırıp havasını alın ve 8 eşit parçaya bölün (yaklaşık 75 g). Her parçayı top şekline getirip unlanmış bir tepsiye dizin.",
    "Topları örtüp 30 dakika daha dinlendirin.",
    "Yağı derin bir tencerede 170°C'ye kadar ısıtın. Topları birer birer, üstü kapalı olmadan 2-3 dakika kızartıp çevirin ve diğer tarafını da altın rengi olana kadar kızartın.",
-   "Kızaran topları kağıt havlu üzerine alıp yağını süzdürün. Biraz soğuyunca bir sıkma torbasına reçeli koyun, her topun yan tarafından delip yaklaşık 1 çay kaşığı reçel doldurun.",
+   "Kızaran topları kağıt havlu üzerine alıp yağını süzdürün. Biraz soğuyunca bir sıkma torbasına reçeli koyun, her topun yan tarafından delip yaklaşık 1 yemek kaşığı reçel doldurun.",
    "Sıcakken toz şekere bulayarak servis yapın."
   ],
   "en": [
@@ -58,10 +58,10 @@
    "Add the egg and the frothy yeast mixture, then knead for 5 minutes.",
    "Add the room-temperature butter and knead for another 5 minutes until the dough is smooth and elastic.",
    "Cover the bowl with a clean cloth and leave in a warm place for about 60 minutes, until doubled in size.",
-   "Press the dough gently to release the air and divide into 8 equal pieces (about 60 g each). Shape each into a ball and place on a floured tray.",
+   "Press the dough gently to release the air and divide into 8 equal pieces (about 75 g each). Shape each into a ball and place on a floured tray.",
    "Cover the balls and let them rest for another 30 minutes.",
    "Heat the oil in a deep pan to 170°C. Fry the balls 2-3 minutes per side, turning once, until golden brown on both sides. Fry in batches so the pan is not crowded.",
-   "Drain the fried doughnuts on kitchen paper. Once slightly cooled, fill a piping bag with jam, poke a hole in each doughnut's side and pipe about 1 teaspoon of jam inside.",
+   "Drain the fried doughnuts on kitchen paper. Once slightly cooled, fill a piping bag with jam, poke a hole in each doughnut's side and pipe about 1 tablespoon of jam inside.",
    "Roll the doughnuts in icing sugar while still warm and serve."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Yağın sıcaklığını 165-175°C arasında tutun; çok sıcak olursa dış kısmı kararır, iç kısmı çiğ kalır.",
   "en": "Keep the oil between 165-175°C; if it is too hot the outside will burn before the inside cooks through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough weight doesn't match the piece size: about 600 g of dough divided into 8 pieces of 60 g gives only 480 g, so each piece should be about 75 g (both languages).",
+   "Jam amount doesn't match the filling step: 150 g of jam across 8 doughnuts is about 19 g each, but the recipe says 1 teaspoon (about 7 g). Changed to 1 tablespoon (about 20 g) per doughnut in both lan"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

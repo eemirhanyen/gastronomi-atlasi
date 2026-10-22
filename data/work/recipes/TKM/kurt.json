@@ -9,7 +9,7 @@
   "en": "A salted, sun-dried ball of sour cheese from Turkmenistan, also common in Kyrgyzstan and Kazakhstan. It began as a portable snack for nomadic life and is still eaten with tea or on journeys."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 15,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -29,7 +29,7 @@
    "Kapağını örtüp buzdolabında 10–12 saat süzülmeye bırakın; yoğurt yarıya yakın hacme inip kıvamlı bir süzme yoğurt olsun.",
    "Süzülen kıvamlı yoğurdu (yaklaşık 600 g) temiz bir kaseye alın, tuzu ekleyip 3 dakika pürüzsüz bir hamur olana kadar yoğurun.",
    "Ellerinizi suyla hafifçe nemlendirin ve hamurdan cevizden biraz büyük, yaklaşık 25 g'lık toplar yapın.",
-   "Topları temiz bir süzgece ya da tülbentin üzerine aralıklı dizin ve güneşli, rüzgârlı bir yerde 3–5 gün kurumaya bırakın; her gün çevirerek her yüzeyin kurumasını sağlayın.",
+   "Topları temiz bir süzgeç ya da tülbentin üzerine aralıklı dizin ve güneşli, rüzgârlı bir yerde 3–5 gün kurumaya bırakın; her gün çevirerek her yüzeyin kurumasını sağlayın.",
    "Güneş yoksa topları 60 °C'deki fırında kapağı aralık, 6–8 saat kadar kurutabilirsiniz; arada bir çevirin.",
    "Topların dışı sert ve kuru, içi hafif sert olduğunda hava almayan bir kavanoza koyun ve serin, kuru bir yerde saklayın."
   ],
@@ -47,5 +47,13 @@
   "tr": "Topları çok küçük yapmayın; büyük toplar daha homojen kurur ve içlerinde nem kalmaz. Küflenmeyi önlemek için tam kuruduklarından emin olun.",
   "en": "Do not make the balls too small; larger balls dry more evenly and leave no moist centre. Make sure they are fully dry to prevent mould."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not match the process: the recipe needs 10–12 hours of draining plus 3–5 days of drying (or 6–8 hours in the oven). The hands-on time is roughly 15 minutes, so the field is misleadi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

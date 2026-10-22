@@ -40,8 +40,16 @@
   ]
  },
  "tip": {
-  "tr": "Tereyağını çok ince yayın; kalın tabaka şekerlerin tutunmasını zorlaştırır. Ekmek dilimlerini kapatmadan önce hazırlamanız halinde ekmek kuruyabilir.",
+  "tr": "Tereyağını çok ince yayın; kalın tabaka şekerlerin tutunmasını zorlaştırır. Ekmek dilimlerini servisten hemen önce hazırlayın; bekledikçe ekmek yumuşar ve renkler akabilir.",
   "en": "Spread the butter thinly so the sprinkles adhere well; a thick layer makes them slide off. Assemble just before serving, as the bread softens and the colours run over time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip's second sentence says the bread may dry out if prepared early, but the English tip says the bread softens. The two versions disagree, and the Turkish wording (\"kapatmadan\", 'before closin"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

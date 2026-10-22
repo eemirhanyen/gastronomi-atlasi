@@ -9,7 +9,7 @@
   "en": "A traditional Emirati breakfast and Ramadan suhoor dish, Jireesh is cracked wheat slowly simmered with chicken until it becomes a soft, comforting porridge. It is especially popular in the cooler months and at family gatherings across the Emirates."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -18,7 +18,7 @@
    "1 büyük soğan, ince doğranmış",
    "1 orta boy domates, küçük küp doğranmış",
    "4 diş sarımsak, ezilmiş",
-   "60 g sade yağ (ghee), 30 g'ı başlangıçta, 30 g'ı son aşamada ve servis için",
+   "80 g sade yağ (ghee): 30 g başlangıçta, 30 g son aşamada, 20 g soğan kızartmak ve servis için",
    "2 kuru limon (loomi), delinmiş",
    "4 adet kakule, hafifçe ezilmiş",
    "1 küçük çubuk tarçın",
@@ -33,7 +33,7 @@
    "1 large onion, finely chopped",
    "1 medium tomato, finely diced",
    "4 garlic cloves, crushed",
-   "60 g ghee, 30 g for the start and 30 g for finishing and serving",
+   "80 g ghee: 30 g for the start, 30 g for finishing the chicken, and 20 g for frying the onion and serving",
    "2 dried limes (loomi), pierced",
    "4 cardamom pods, lightly crushed",
    "1 small cinnamon stick",
@@ -52,8 +52,8 @@
    "1,5 litre suyu ve tuzu ekleyip kaynatın, ardından ısıyı kısın ve tavuk yumuşayana kadar, yaklaşık 40 dakika kaynatın.",
    "Tavuğu tencereden çıkarıp kemiklerini ayırın ve etini lifleri boyunca parçalayın. Tarçın çubuğunu ve kuru limonları tencereden alın.",
    "Süzülmüş kırık buğdayı suyu bulunan tencereye ekleyin, iyice karıştırın ve kısık ateşte, sık sık karıştırarak 40 dakika pişirin. Kıvam çok koyulaşırsa biraz sıcak su ekleyin.",
-   "Parçalanmış tavuğu ve 30 g sade yağın geri kalanını ekleyip 10 dakika daha karıştırarak pişirin; karışım kremsi ve yapışkan bir kıvam almalıdır.",
-   "Bu sırada ince dilimlenmiş soğanı kalan sade yağla, yaklaşık 10 dakika, altın kahverengi olana kadar kızartın.",
+   "Parçalanmış tavuğu ve son aşama için ayrılmış 30 g sade yağı ekleyip 10 dakika daha karıştırarak pişirin; karışım kremsi ve yapışkan bir kıvam almalıdır.",
+   "Bu sırada ince dilimlenmiş soğanı kalan 20 g sade yağla, yaklaşık 10 dakika, altın kahverengi olana kadar kızartın.",
    "Jireesh'i sıcak servis tabaklarına alın, üzerine kızarmış soğanları ve birazcık sade yağ gezdirerek servis yapın."
   ],
   "en": [
@@ -64,8 +64,8 @@
    "Add the 1.5 litres of water and the salt, bring to a boil, then reduce the heat and simmer for about 40 minutes until the chicken is very tender.",
    "Remove the chicken from the pot, separate the meat from the bones and shred it. Take out the cinnamon stick and dried limes.",
    "Add the drained cracked wheat to the broth, stir well and simmer gently for about 40 minutes, stirring often. Add a little hot water if it becomes too thick.",
-   "Return the shredded chicken to the pot with the remaining 30 g of ghee and stir for 10 more minutes until the mixture is creamy and thick.",
-   "Meanwhile, fry the thinly sliced onion in a little of the ghee for about 10 minutes until deep golden brown.",
+   "Return the shredded chicken to the pot with the 30 g of ghee reserved for finishing and stir for 10 more minutes until the mixture is creamy and thick.",
+   "Meanwhile, fry the thinly sliced onion in the remaining 20 g of ghee for about 10 minutes until deep golden brown.",
    "Spoon the jireesh into warm serving bowls, top with the fried onions and a drizzle of ghee, and serve hot."
   ]
  },
@@ -73,5 +73,15 @@
   "tr": "Kırık buğdayı pişirirken sık karıştırın; alt kısmının yapışmasını önler ve kıvamın pürüzsüz olmasını sağlar.",
   "en": "Stir the wheat frequently while it simmers so it does not stick to the base, and add hot water gradually to reach a smooth, creamy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ghee budget doesn't add up: 60 g is listed, but steps use 30 g to start, 30 g to finish the chicken, and then more ghee to fry the onions and drizzle over the top. The onion frying and serving step ha",
+   "time_min (90) is too short for the steps: the wheat simmers 40 minutes after a 40-minute broth, plus browning and onion frying, so the total is about 120 minutes excluding soaking.",
+   "Turkish step 9 'kalan sade yağ' (remaining ghee) is ambiguous; the amount left after step 8 should be stated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A light, puffy yeasted fried dough from Bulgaria, traditionally eaten hot at breakfast. It is usually served with fresh white cheese, jam, honey or powdered sugar, and often accompanied by yogurt."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "250 g yoğurt",
    "150 ml ılık su",
    "1 yumurta",
-   "10 g şeker (1 tatlı kaşığı)",
+   "10 g şeker (2 tatlı kaşığı)",
    "7 g instant maya (1 paket)",
    "1 çay kaşığı tuz",
    "2 yemek kaşığı sıvı yağ",
@@ -29,7 +29,7 @@
    "250 g yogurt",
    "150 ml lukewarm water",
    "1 egg",
-   "10 g sugar (1 teaspoon)",
+   "10 g sugar (2 teaspoons)",
    "7 g instant yeast (1 sachet)",
    "1 teaspoon salt",
    "2 tablespoons neutral oil",
@@ -46,7 +46,7 @@
    "Hamuru 16 eşit parçaya bölün, her parçayı yuvarlayıp 10 dakika ara dinlendirin.",
    "Her parçayı elinizle uzatarak yaklaşık 1 cm kalınlığında, oval bir şekle getirin. Ortasına bir parmağınızla hafifçe delik açın.",
    "Derin bir tavada kızartma yağını yaklaşık 170°C'ye kadar ısıtın. Yağın ısısını kontrol etmek için küçük bir hamur parçası atın; hemen kabarıp yüzeye çıkmalı.",
-   "Mekitseleri birer birer yağa koyun ve her iki yüzü de altın rengi olana kadar, toplam 1-2 dakika kızartın.",
+   "Mekitseleri birer birer yağa koyun ve her iki yüzü de altın rengi olana kadar, toplam 2-3 dakika kızartın.",
    "Kızaran mekitseleri kağıt havlu serili bir tabağa alıp yağını süzdürün.",
    "Sıcak sıcak pudra şekeri serperek, yanında taze peynir, reçel veya ayran ile servis edin."
   ],
@@ -58,7 +58,7 @@
    "Divide the dough into 16 equal pieces, shape each into a ball and rest them, covered, for 10 minutes.",
    "Stretch each piece with your hands into an oval about 1 cm thick. Press a finger gently into the centre to make a small hole.",
    "Heat the frying oil in a deep pan to about 170°C. Test it by dropping in a small piece of dough; it should rise quickly to the surface.",
-   "Fry the mekitsa a few at a time for 1-2 minutes in total, turning once, until both sides are golden.",
+   "Fry the mekitsa a few at a time for 2-3 minutes in total, turning once, until both sides are golden.",
    "Lift them out and drain on a plate lined with kitchen paper.",
    "Dust with powdered sugar while still hot and serve with fresh white cheese, jam or ayran."
   ]
@@ -67,5 +67,15 @@
   "tr": "Hamuru kabartırken sıcak bir yer seçin ama fazla ısıtmayın; mekitseler yağa atıldığında hemen kabarmalı, bu da hamurun iyi kabardığının işaretidir.",
   "en": "Keep the dough in a warm, draught-free spot; if the mekitsa do not puff up in the oil, the dough needs more time to rise."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sugar quantity is inconsistent: 10 g is about 2 teaspoons, not 1 (in both Turkish and English).",
+   "Frying time of 1-2 minutes total is likely too short for a 1 cm thick dough piece to cook through; it should be about 2-3 minutes.",
+   "Total time of 60 minutes is too low given about 40 minutes of rising, 10 minutes of resting, 5 minutes for the yeast and 8-10 minutes of kneading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

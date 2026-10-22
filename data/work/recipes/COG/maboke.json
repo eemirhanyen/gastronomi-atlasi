@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Balık parçalarını kağıt havluyla kurulayın, her iki yüzüne yüzeysel birer kesi atın. Limonun yarısını ve 1/2 çay kaşığı tuzu balığın üzerine sürün, 10 dakika dinlendirin.",
+   "Balık parçalarını kağıt havluyla kurulayın, her iki yüzüne ikişer yüzeysel kesi atın. Limonun yarısını ve 1/2 çay kaşığı tuzu balığın üzerine sürün, 10 dakika dinlendirin.",
    "Domates, soğan, sarımsak, acı biber, yeşil biber ve maydanozu bir kasede karıştırın. Palm yağı, kalan limon suyu, kalan tuz ve karabiberi ekleyip iri parçalı bir sos elde edin.",
    "Muz yapraklarını gaz ocağının alevinden hızlıca geçirin ya da sıcak suya daldırıp yumuşatın. Kurulayın ve gerekirse kenarlarını düzgün şekilde kesin.",
    "Her muz yaprağının ortasına bir balık parçası yerleştirin. Sosun yarısını balığın üzerine, kesilerin içine yayın; kalan sosu üstüne ekleyin.",
@@ -67,5 +67,13 @@
   "tr": "Muz yapraklarını ateşte iyice yumuşatmak, katlarken çatlamalarını önler; yaprak bulamazsanız pişirme kağıdı ve folyo kullanabilirsiniz.",
   "en": "Soften the banana leaves well over a flame so they fold without cracking; if you cannot find them, parchment and foil work as a substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to make one shallow cut per side ('birer kesi'), but the English version says 2 cuts per side. Turkish corrected to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

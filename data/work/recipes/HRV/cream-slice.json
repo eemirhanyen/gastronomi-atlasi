@@ -20,7 +20,7 @@
    "70 g toz şeker",
    "35 g mısır nişastası",
    "200 ml krem şanti (%35 yağlı)",
-   "15 g pudra şekeri, üzeri için ek 10 g",
+   "10 g pudra şekeri (krema için), üzeri için ek 10 g",
    "Pişirme kağıdı"
   ],
   "en": [
@@ -31,7 +31,7 @@
    "70 g caster sugar",
    "35 g cornflour",
    "200 ml whipping cream (35% fat)",
-   "15 g icing sugar, plus 10 g extra for dusting",
+   "10 g icing sugar (for the cream), plus 10 g extra for dusting",
    "Baking paper"
   ]
  },
@@ -67,5 +67,13 @@
   "tr": "Milföy katlarının ıslanmaması için kremayı ve üst hamuru ancak servisten birkaç saat önce bir araya getirin; pudra şekerini en son serpin.",
   "en": "Assemble the slice only a few hours before serving and dust with icing sugar last, so the pastry stays crisp and does not turn soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Icing sugar quantities don't match: the ingredient list calls for 15 g for the cream plus 10 g for dusting, but the steps use 10 g in the cream and the 'remaining 10 g' for dusting (20 g total). Both "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -58,7 +58,7 @@
    "Ateşi kapatın, macar biberini ekleyip 30 saniye karıştırın (biber yanarsa acı olur). Yanmaması için bir yemek kaşığı su ekleyin.",
    "Eti tencereye geri koyun, salçayı, kimyonu, mercanköşkü ve sarımsağı ekleyip 1 dakika kavurun.",
    "Dana suyunu, defne yapraklarını, tuzu ve karabiberi ekleyin. Kaynayınca ateşi kısın, kapağını kapatıp 40 dakika kadar yavaşça pişirin.",
-   "Et yumuşamaya başladığında patates, havuç ve dolmalık biberi ekleyin, 20 dakika daha kısık ateşte pişirin.",
+   "Et yumuşamaya başladığında patates, havuç ve dolmalık biberi ekleyin, kapağı açık şekilde 20 dakika daha kısık ateşte pişirin.",
    "Defne yapraklarını çıkarın, tuzunu ve karabiberini tadarak ayarlayın. Sıcak servis yapın, üzerine taze maydanoz serpin."
   ],
   "en": [
@@ -77,5 +77,13 @@
   "tr": "Macar biberini asla yüksek ateşte veya yağ çok sıcakken eklemeyin; acı tadı çorbayı bozar. Ateşi kapatıp ekleyin.",
   "en": "Never add paprika to very hot fat over high heat; it turns bitter. Take the pot off the heat first. The soup tastes even better the next day."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 omits that the soup simmers uncovered for the last 20 minutes, which the English step states. This is a Turkish/English mismatch that affects the soup's reduction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

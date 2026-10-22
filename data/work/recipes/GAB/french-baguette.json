@@ -9,7 +9,7 @@
   "en": "A bread brought by French colonial rule that is now an everyday staple in Gabon's towns, especially Libreville and Port-Gentil, where bakeries bake it fresh each morning. It is eaten at breakfast, in sandwiches, and alongside stews and grilled meats."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 210,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -34,7 +34,7 @@
    "Büyük bir kapta unu ve instant mayayı karıştırın.",
    "Ilık suyu ekleyip elle 3-4 dakika yoğurun, ardından 20 dakika dinlendirin.",
    "Tuzu ekleyin ve hamur pürüzsüz, elastik olana kadar 8-10 dakika yoğurun.",
-   "Hamuru kaba bir kaseye alın, üzerini örtün ve oda sıcaklığında 60 dakika mayalanmaya bırakın.",
+   "Hafifçe yağlanmış kaba bir kaseye alın, üzerini örtün ve oda sıcaklığında 60 dakika mayalanmaya bırakın.",
    "Hamuru unlu yüzeye alın, ikiye bölün ve her parçayı kabaca 250 g'lık toplar halinde şekillendirin.",
    "Topları örtüp 15 dakika dinlendirin.",
    "Her topu uzun bir dikdörtgen haline getirin, kenarlarından uzun bir baget şeklinde sıkıca sarın ve dikiş yerini kapatın.",
@@ -54,8 +54,8 @@
    "Flatten each ball into a long rectangle, roll it up tightly from the top, and pinch the seam closed to form a long baguette.",
    "Place the baguettes seam side up on a floured cloth and let them rise for another 45-60 minutes.",
    "Heat the oven to 240 °C and place a dish of water on the bottom rack. Line the baking tray with baking paper or dust it with flour.",
-   "Transfer the baguettes to the tray and cut 3-4 diagonal slashes across each one.",
-   "Bake for the first 15 minutes at 240 °C with steam from the water, then reduce the heat to 220 °C and bake for 8-10 minutes more.",
+   "Cut 3-4 diagonal slashes across each baguette, then transfer them to the tray.",
+   "Bake for the first 15 minutes at 240 °C with steam from the water, then remove the dish of water, reduce the heat to 220 °C and bake for 8-10 minutes more.",
    "Remove when golden brown and the bottom sounds hollow when tapped, then cool on a wire rack for at least 30 minutes."
   ]
  },
@@ -63,5 +63,16 @@
   "tr": "Fırındaki su kabı, baget kabuğunun çıtır ve parlak olmasını sağlar; suyu ilk pişirmenin başında koyun ve yaklaşık 15 dakika sonra çıkarın.",
   "en": "The dish of water in the oven creates the steam that gives the crust its crispness and shine; add it at the start and remove it after about 15 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is too low for the listed steps; the rises, bake and cooling add up to roughly 200+ minutes.",
+   "English step 4 says to use a lightly oiled bowl, but the Turkish version does not mention oiling.",
+   "English step 10 transfers the baguettes before slashing, while the Turkish step slashes first. The order should match.",
+   "English step 11 does not say to remove the water dish after 15 minutes, but the Turkish step and the tip both do."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

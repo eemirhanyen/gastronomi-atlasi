@@ -5,7 +5,7 @@
  },
  "native": "Солянка",
  "desc": {
-  "tr": "Turşu, zeytin, kapari ve tütsülenmiş etle hazırlanan, ekşi-tuzlu tatlı bir Rus çorbasıdır. Rusya'da kış aylarında ve misafirlere sunulan öğle yemeklerinde, genellikle ekşi krema ve taze otla servis edilir.",
+  "tr": "Turşu, zeytin, kapari ve tütsülenmiş etle hazırlanan, ekşi ve tuzlu bir Rus çorbasıdır. Rusya'da kış aylarında ve misafirlere sunulan öğle yemeklerinde, genellikle ekşi krema ve taze otla servis edilir.",
   "en": "A sour and salty Russian soup built on pickles, olives, capers and smoked meats. It is eaten across Russia, especially in winter and at family lunches and celebrations, usually served with sour cream and fresh herbs."
  },
  "servings": 4,
@@ -85,5 +85,13 @@
   "tr": "Limonu çorbaya kaynatmayın; her porsiyona servis anında ekleyin, aksi halde ekşilik ve aroma bozulur.",
   "en": "Do not boil the lemon in the soup; add it to each bowl just before serving, or its sharpness and aroma will fade."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'ekşi-tuzlu tatlı' (sour, salty, sweet), but the English says 'sour and salty' only. The 'tatlı' (sweet) claim is not supported by the recipe and should be removed from the Tu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

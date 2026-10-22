@@ -5,7 +5,7 @@
  },
  "native": "عصيدة الدخن بالحليب",
  "desc": {
-  "tr": "Çad'da, özellikle sabahları ve soğuk saatlerde tüketilen, darı ununun sütle ve şekerle pişirilmesiyle yapılan geleneksel bir kahvaltılıktır. Aileler bu lapayı genellikle sıcak servis eder.",
+  "tr": "Çad'da, özellikle sabahları ve soğuk günlerde tüketilen geleneksel bir kahvaltılıktır. Darı unu suda pişirilip sütle ve şekerle tamamlanarak yapılır. Aileler bu lapayı genellikle sıcak servis eder.",
   "en": "A traditional breakfast in Chad, made by cooking millet flour in water and finishing it with milk and sugar. Families usually serve it hot, especially in the morning and on cool days."
  },
  "servings": 4,
@@ -53,5 +53,14 @@
   "tr": "Darı hamurunu kaynayan suya eklerken sürekli karıştırın; topak oluşmasını önlemenin en kolay yolu budur.",
   "en": "Whisk the batter constantly as you pour it into the boiling water; this is the easiest way to prevent lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the millet flour is cooked with milk and sugar, but the English description and the steps say it is cooked in water and then finished with milk and sugar.",
+   "Turkish description says 'soğuk saatlerde' (cold hours), while the English says 'on cool days'. This is a small mismatch in meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

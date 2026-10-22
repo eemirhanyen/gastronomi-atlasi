@@ -29,7 +29,7 @@
    "4 diş sarımsak, ezilmiş",
    "30 g sade yağ",
    "5 g kuru nane",
-   "250 g baldo pirinç",
+   "250 g basmati pirinç",
    "500 ml su",
    "3 g tuz (pirinç için)",
    "25 g tereyağı"
@@ -85,5 +85,13 @@
   "tr": "Yoğurt sosunu asla şiddetli kaynatmayın; yoksa yoğurt kesilir. Sosu sürekli karıştırarak ılık-sıcak tutmak en pürüzsüz sonucu verir.",
   "en": "Never let the yogurt sauce boil hard or it will split. Keep it gently hot and stir constantly for a smooth, creamy result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'baldo pirinç' is wrong. Baldo is an Italian risotto variety, but the English version specifies basmati, so the Turkish should read 'basmati pirinç'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,7 +6,7 @@
  "native": "Ensalada de hojas de yuca",
  "desc": {
   "tr": "Ekvator Ginesi'nde, palm yağı ve fıstık ezmesiyle yavaşça pişirilen manyok yaprakları, genellikle pilav veya kızartılmış muzla sıcak olarak servis edilir. Günlük ev yemeklerinde ve aile öğünlerinde sık görülür.",
-  "en": "In Equatorial Guinea, cassava leaves are slowly simmered with palm oil, smoked fish and groundnut paste, then served warm, usually with rice or fried plantain. It is a everyday family dish eaten at home and at shared meals."
+  "en": "In Equatorial Guinea, cassava leaves are slowly simmered with palm oil, smoked fish and groundnut paste, then served warm, usually with rice or fried plantain. It is an everyday family dish eaten at home and at shared meals."
  },
  "servings": 4,
  "time_min": 60,
@@ -42,7 +42,7 @@
    "Manyok yapraklarını bol suda iyice yıkayın, kalan sapları ayıklayın ve ince ince doğrayın veya havanda dövün.",
    "Geniş bir tencerede kırmızı palm yağını orta ateşte ısıtın, doğranmış soğanı ekleyip yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Ezilmiş sarımsak ve doğranmış kırmızı acı biberi ekleyip 1 dakika daha kavurun.",
-   "Manyok yapraklarını, 400 ml suyu ve tuzu tencereye ekleyin. Kapağını kapatarak kısık ateşte 40 dakika pişirin, arada karıştırın.",
+   "Manyok yapraklarını, 400 ml suyu ve tuzu tencereye ekleyin. Kapağı açık bırakarak kısık ateşte 40 dakika pişirin, arada karıştırın.",
    "Tütsülenmiş balığı kaynamış suyla kapatıp 5 dakika bekletin, kılçıklarını temizleyip parçalara ayırarak tencereye ekleyin.",
    "Fıstık ezmesini 100 ml sıcak suyla iyice açın ve yavaşça tencereye karıştırın.",
    "Karışımı kapağı açık şekilde 10 dakika daha kısık ateşte pişirin, tadına bakıp gerekirse tuzu ayarlayın.",
@@ -52,7 +52,7 @@
    "Wash the cassava leaves well in plenty of water, remove any remaining stems, then finely chop them or pound them in a mortar.",
    "In a wide pot over medium heat, warm the red palm oil, add the chopped onion and fry for about 5 minutes until soft.",
    "Add the crushed garlic and chopped red chili and fry for 1 more minute.",
-   "Add the cassava leaves, 400 ml water and salt to the pot. Cover and simmer over low heat for 40 minutes, stirring from time to time.",
+   "Add the cassava leaves, 400 ml water and salt to the pot. Simmer uncovered over low heat for 40 minutes, stirring from time to time.",
    "Cover the smoked fish with boiling water and leave it for 5 minutes, then remove the bones, break the fish into pieces and add it to the pot.",
    "Dissolve the peanut butter in the 100 ml hot water until smooth, then stir it slowly into the pot.",
    "Simmer uncovered over low heat for 10 more minutes, taste and adjust the salt if needed.",
@@ -60,8 +60,16 @@
   ]
  },
  "tip": {
-  "tr": "Manyok yapraklarında doğal olarak zehirli siyanojenik bileşikler bulunur; yaprakları en az 40 dakika tam pişirmek hem güvenli hem de yumuşak bir doku için şarttır.",
-  "en": "Cassava leaves naturally contain cyanogenic compounds; cooking them thoroughly for at least 40 minutes is essential for both safety and a tender texture."
+  "tr": "Manyok yapraklarında doğal olarak zehirli siyanojenik bileşikler bulunur; yaprakları kapağı açık, en az 40 dakika tam pişirmek hem güvenli hem de yumuşak bir doku için şarttır. Kapalı tencerede pişirmek, uçucu siyanür bileşiklerinin tencerede kalmasına neden olabilir.",
+  "en": "Cassava leaves naturally contain cyanogenic compounds; cooking them thoroughly for at least 40 minutes, uncovered, is essential for both safety and a tender texture. Cooking with the lid on can trap the volatile cyanide compounds in the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 says to cover the pot while simmering the cassava leaves. Cassava leaves contain cyanogenic compounds that release volatile hydrogen cyanide. Covering the pot traps it, so the leaves should be "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

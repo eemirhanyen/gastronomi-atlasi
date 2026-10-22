@@ -18,7 +18,7 @@
    "15 g toz şeker (1 yemek kaşığı)",
    "4 g kabartma tozu (1 çay kaşığı)",
    "40 ml sıvı yağ (bitkisel), hamur için",
-   "about 220 ml ılık su",
+   "yaklaşık 220 ml ılık su",
    "30 ml sıvı yağ, pişirme ve yağlama için"
   ],
   "en": [
@@ -65,5 +65,13 @@
   "tr": "Pişen chapatileri temiz bir bezin altında sarıp bekletmek, yumuşak kalmalarını ve katmanlarının ayrılmasını sağlar.",
   "en": "Keep cooked chapatis wrapped in a clean cloth while you cook the rest; the trapped steam keeps them soft and helps the layers separate when you pull them apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains the English word \"about\" (\"about 220 ml ılık su\"); it should be \"yaklaşık 220 ml ılık su\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "İşkembeyi soğuk suyla iyice yıkayın, bir kasede limon suyunun bir kısmıyla ve tuzla ovalayarak kokusunu alın, sonra tekrar durulayın.",
+   "İşkembeyi soğuk suyla iyice yıkayın, bir kasede limon suyunun bir kısmıyla ve tuzla yaklaşık 5 dakika ovalayarak kokusunu alın, sonra tekrar durulayın.",
    "Temizlenmiş işkembeyi tencerede 15 dakika kaynatın, suyunu dökün ve soğuk suyla durulayıp 1 cm genişliğinde şeritler halinde kesin.",
    "Kesilmiş işkembeyi, kemikli dana etini ve 2 litre suyu büyük bir tencereye alın. Kaynamaya başlayınca köpükleri alın ve kısık ateşte yaklaşık 2 saat pişirin.",
    "Soğanı bütün olarak, havucu ve kök maydanozu büyük parçalar halinde ekleyin. Defne yapraklarını, ezilmiş sarımsak dişlerini ve yarım çay kaşığı tuzu da ekleyip işkembe yumuşayana kadar yaklaşık 30 dakika daha pişirin.",
@@ -79,5 +79,13 @@
   "tr": "Ekşi kremayı ve yumurtayı asla kaynayan çorbaya doğrudan eklemeyin; önce sıcak çorbayla ılıtın, yoksa çorba kesilir.",
   "en": "Never add the egg and sour cream mixture to boiling soup directly; temper it with hot broth first, or the soup will curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 omits the 5-minute rubbing time given in the English version, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

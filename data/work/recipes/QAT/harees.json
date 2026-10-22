@@ -38,9 +38,9 @@
    "Bir gece suda bekletilmiş buğdayı süzün ve akan suyun altında iyice yıkayın.",
    "Buğdayı, tavuğu, bütün soğanı, suyu ve tuzu büyük ve kalın tabanlı bir tencereye koyun. Orta-yüksek ateşte kaynatın ve yüzeydeki köpükleri alın.",
    "Ateşi kısın, kapağı yarım açık bırakarak yaklaşık 90 dakika, tavuk çok yumuşayana kadar kısık ateşte pişirin.",
-   "Tavuğu ve soğanı tencereden çıkarın, soğanı atın. Tavuğun kemiklerini ve derisini ayıklayıp etini lifleri boyunca parçalayın.",
+   "Tavuğu ve soğanı tencereden çıkarın, soğanı atın. Tavuğu lifleri boyunca parçalayın; varsa derisini ayıklayın.",
    "Buğdayı kapağı açık halde, arada bir tahta kaşıkla karıştırarak 60 dakika daha pişirin. Kıvam çok koyulaşırsa sıcak su ekleyin.",
-   "Taneler iyice dağılıp yumuşayınca tahta kaşıkla kuvvetlice dövün ya da el blenderıyla 20 saniye kısa kısa çekin; hafif dokusu kalan pürüzsüz bir lapa elde edin.",
+   "Taneler iyice dağılıp yumuşayınca tahta kaşıkla kuvvetlice dövün ya da el blenderiyle 20 saniye kısa kısa çekin; hafif dokusu kalan pürüzsüz bir lapa elde edin.",
    "Didilmiş tavuğu, 20 g sade yağı, kakuleyi ve karabiberi lapaya ekleyip karıştırın ve 5 dakika daha kısık ateşte pişirin.",
    "30 g sade yağı küçük bir tavada eritip sıcak sıcak harisenin üzerine gezdirin ve hemen servis yapın."
   ],
@@ -48,7 +48,7 @@
    "Drain the soaked wheat and rinse it thoroughly under running water.",
    "Place the wheat, chicken, whole onion, water and salt in a large heavy-based pot. Bring to a boil over medium-high heat and skim off any foam.",
    "Reduce the heat to low, leave the lid slightly ajar, and simmer for about 90 minutes, until the chicken is very tender.",
-   "Remove the chicken and onion from the pot and discard the onion. Pull the chicken apart along its fibres, removing bones and skin.",
+   "Remove the chicken and onion from the pot and discard the onion. Pull the chicken apart along its fibres, removing any skin.",
    "Simmer the wheat uncovered for another 60 minutes, stirring now and then with a wooden spoon. Add hot water if it becomes too thick.",
    "When the grains have broken down and softened, beat the mixture vigorously with a wooden spoon, or blend briefly with a hand blender for about 20 seconds, to a smooth porridge with a slight texture.",
    "Stir the shredded chicken, 20 g ghee, the cardamom and the black pepper into the porridge and simmer gently for 5 more minutes.",
@@ -59,5 +59,14 @@
   "tr": "Harise yapışmadan pişmesi için dip kısımda kalmaması adına sık sık karıştırın; kıvamı kaşıktan yavaşça akacak kadar olmalıdır.",
   "en": "Stir often near the end so the harees does not stick to the bottom, and aim for a consistency that falls slowly from a spoon. A pressure cooker can cut the cooking time significantly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says to remove the chicken's bones, but the ingredient list specifies boneless thighs. The English step 4 has the same contradiction.",
+   "Turkish step 6 has a spelling error: 'blenderıyla' should be 'blenderiyle' (with dotted i)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

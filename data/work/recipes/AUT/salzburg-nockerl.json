@@ -8,7 +8,7 @@
   "tr": "Avusturya'nın Salzburg kentinin meşhur, hafif ve sünger gibi bir tatlısıdır; üç tepecik halinde fırında pişirilip sıcak servis edilir. Genellikle restoranlarda iki kişilik porsiyon olarak, ekşi-tatlı ahududu sosuyla birlikte yenir.",
   "en": "A light, airy soufflé-style dessert from the city of Salzburg, baked in a dish in three soft mounds and served hot. It is traditionally a dessert for two to share in restaurants, usually with a tart raspberry sauce."
  },
- "servings": 4,
+ "servings": 2,
  "time_min": 45,
  "difficulty": "medium",
  "ingredients": {
@@ -65,5 +65,13 @@
   "tr": "Nokerli fırından çıkınca hızla çöker; bu yüzden sofraya en son hazırlanıp hemen servis edilmelidir.",
   "en": "Salzburg nockerl collapse quickly once out of the oven, so prepare the sauce in advance and serve the dessert straight from the oven."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings is set to 4, but the description says the dessert is traditionally a portion for two. Five egg whites in a 25 cm dish yield about two generous portions, so the stated servings don't match the"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

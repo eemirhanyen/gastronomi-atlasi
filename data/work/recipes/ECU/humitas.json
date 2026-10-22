@@ -9,7 +9,7 @@
   "en": "Humitas are soft fresh-corn cakes wrapped in corn husks and steamed. They are eaten across the Ecuadorian Andes at breakfast, as an afternoon snack, and during festivals."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -67,5 +67,13 @@
   "tr": "Mısır tanelerinin tatlı ve taze olması lezzeti belirler; çok tatlı mısır kullanırsanız şekeri 1 çay kaşığına indirin.",
   "en": "The flavour depends on fresh, sweet corn. If your corn is very sweet, reduce the sugar to 1 teaspoon."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) understates the total: 30 min soaking, about 10 min cooking, 15 min cooling, assembly, and 45 min steaming add up to roughly 120 min"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

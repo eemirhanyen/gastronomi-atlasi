@@ -13,19 +13,19 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "100 g toz şeker (karamel için)",
-   "2 yemek kaşığı (30 ml) su",
-   "200 g kondanse süt",
-   "200 ml tam yağlı süt",
-   "2 büyük yumurta",
+   "150 g toz şeker (karamel için)",
+   "3 yemek kaşığı (45 ml) su",
+   "400 g kondanse süt",
+   "400 ml tam yağlı süt",
+   "3 büyük yumurta",
    "1 çay kaşığı vanilya özü"
   ],
   "en": [
-   "100 g granulated sugar (for the caramel)",
-   "2 tablespoons (30 ml) water",
-   "200 g sweetened condensed milk",
-   "200 ml whole milk",
-   "2 large eggs",
+   "150 g granulated sugar (for the caramel)",
+   "3 tablespoons (45 ml) water",
+   "400 g sweetened condensed milk",
+   "400 ml whole milk",
+   "3 large eggs",
    "1 teaspoon vanilla extract"
   ]
  },
@@ -57,5 +57,14 @@
   "tr": "Pudini fırına koymadan önce karamelin tabanda sertleşmemesi için kalıbı hazır tutun ve karamelle hızlı çalışın; servis öncesi tam soğutulmuş pudin daha temiz dilimlenir.",
   "en": "Work quickly once the caramel is poured, as it hardens fast. Chill the pudding fully before unmoulding so it slices cleanly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batter volume (about 500 ml of liquid, including eggs) is roughly half the 1-litre mould's capacity, so the pudding would be thin and could overbake. Scaled the condensed milk, whole milk and eggs up ",
+   "Caramel quantity (100 g sugar) is too small for a 1-litre mould's base, so it was increased to 150 g with 45 ml water. Both language versions were updated to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

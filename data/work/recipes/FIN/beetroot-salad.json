@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Pancarı sudan çıkarmadan önce yanında kayganlaştırmak için ekmek bıçağıyla değil, elle soyun; eller kırmızı lekelenirse limon suyuyla silin.",
-  "en": "Rub your hands with lemon juice after peeling the beetroot to remove the stains, and dice everything while the beetroot is still slightly warm for cleaner cuts."
+  "tr": "Pancarları soyarken eller kırmızıya boyanabilir; soyduktan sonra ellerinizi limon suyuyla ovun ya da eldiven kullanın. Pancarları bıçak yerine elle soymak lekeleri azaltır.",
+  "en": "Peeled beetroot can stain your hands red; rub them with lemon juice after peeling or wear gloves. Peeling the beetroot by hand rather than with a knife helps reduce staining."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is garbled and does not match the English tip: 'sudan çıkarmadan önce yanında kayganlaştırmak için' is incoherent, and the Turkish mentions a bread knife that the English omits.",
+   "English tip says to dice the beetroot while still warm, which contradicts step 3 (peel and dice once cool)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

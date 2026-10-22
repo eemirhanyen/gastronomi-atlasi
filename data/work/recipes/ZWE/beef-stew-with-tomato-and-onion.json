@@ -3,7 +3,7 @@
   "tr": "Domates ve Soğanlı Dana Yahnisi",
   "en": "Zimbabwean Beef Stew with Tomato and Onion"
  },
- "native": "nyama yenhova (Shona)",
+ "native": "nyama yenhombe (Shona)",
  "desc": {
   "tr": "Zimbabve'de günlük yemeklerin ve hafta sonu buluşmalarının vazgeçilmez parçası olan, domates ve soğanla koyu sosa dönüşen yavaş pişmiş bir dana yahnisi. Genellikle sadza (mısır unundan yapılan koyu lapa) ile servis edilir.",
   "en": "A slow-simmered beef stew in which tomato and onion form a thick, savoury sauce. It is a staple of everyday meals and weekend gatherings across Zimbabwe, usually served with sadza, a stiff maize-meal porridge."
@@ -51,7 +51,7 @@
    "Domates salçasını, tatlı kırmızı biberi ve köri tozunu ekleyin. Kokusu çıkana kadar 1 dakika karıştırın.",
    "Doğranmış domatesi ve dolmalık biberi ekleyin. Domatesler suyunu bırakıp yumuşayana kadar 5 dakika pişirin.",
    "Kızarmış etleri tencereye geri koyun. Bulyon küpünü 500 ml suda eritip tencereye ekleyin. Tuz ve karabiberi de ilave edin.",
-   "Kaynamaya bırakın, ardından ateşi çok kısın ve kapağını kapatarak 60-75 dakika kısık ateşte, arada bir karıştırarak pişirin. Et yumuşayıp sos koyulaşmalı.",
+   "Kaynamaya bırakın, ardından ateşi çok kısın ve kapağını hafif aralık bırakarak 60-75 dakika kısık ateşte, arada bir karıştırarak pişirin. Et yumuşayıp sos koyulaşmalı.",
    "Gerekirse tadını ayarlayın. Doğranmış kişnişi karıştırıp ocaktan alın ve servisten önce 5 dakika dinlendirin. Sadza ile sıcak servis yapın."
   ],
   "en": [
@@ -61,7 +61,7 @@
    "Stir in the tomato paste, paprika and curry powder. Cook for 1 minute, until fragrant.",
    "Add the diced tomatoes and green pepper. Cook for 5 minutes, until the tomatoes release their juice and soften.",
    "Return the browned beef to the pot. Dissolve the stock cube in the 500 ml water and pour it in, then add the salt and black pepper.",
-   "Bring to a boil, then reduce to a very low simmer. Cover and cook for 60-75 minutes, stirring now and then, until the beef is tender and the sauce has thickened.",
+   "Bring to a boil, then reduce to a very low simmer. Partially cover and cook for 60-75 minutes, stirring now and then, until the beef is tender and the sauce has thickened.",
    "Adjust the seasoning if needed. Stir in the chopped coriander, take off the heat and rest for 5 minutes. Serve hot with sadza."
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Etin yumuşaklığı pişirme süresine bağlıdır; sos çok azalırsa birkaç yemek kaşığı sıcak su ekleyin, ama sosun kıvamlı kalması için kapağı tamamen kapatmayın.",
   "en": "Tenderness depends on time, not heat: if the sauce reduces too quickly, add a splash of hot water, and keep the lid slightly ajar so the sauce thickens rather than boils dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Native name 'nyama yenhova' is incorrect Shona; beef is 'nyama yenhombe'.",
+   "Step 7 says to cover the pot fully, but the tip says not to cover fully so the sauce thickens. The step should match the tip in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

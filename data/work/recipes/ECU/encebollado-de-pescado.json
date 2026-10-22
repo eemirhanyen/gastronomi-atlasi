@@ -56,7 +56,7 @@
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Kuru soğanı ve ezilmiş sarımsağı ara ara karıştırarak 8 dakika, yumuşayıp hafif altın rengi alana kadar soteleyin.",
    "Doğranmış domatesi ve öğütülmüş kimyonu ekleyip 5 dakika daha pişirin; domates suyunu büyük ölçüde çekilene kadar karıştırın.",
    "Suyu, yukaları ve kalan tuzu ekleyin. Kaynatın, sonra kısık ateşte yukalar neredeyse yumuşayana kadar, yaklaşık 20 dakika pişirin.",
-   "Tencereye balık parçalarını ekleyip kısık ateşte 8-10 dakika, balık ayrılmaya başlayana kadar pişirin. Kaynatmayın; balığı fazla pişirmemeye dikkat edin.",
+   "Tencereye balık parçalarını ekleyip kısık ateşte 8-10 dakika, balık ayrılmaya başlayana kadar pişirin. Sert kaynatmayın; balığı fazla pişirmemeye dikkat edin.",
    "Yüzeydeki köpükleri kepçeyle alın. Tadına bakıp gerekirse tuz ekleyin, doğranmış kişnişin yarısını karıştırın.",
    "Çorbayı derin kâselere paylaştırın. Üzerine turşu soğanı ve kalan kişnişi ekleyip hemen servis yapın."
   ],
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Yukaları çorbaya eklemeden önce tencerede ısıtmayı deneyin; daha iyi pişerler. Balığı sıcak çorbaya ekledikten sonra kaynatmayın, aksi halde sertleşir.",
+  "tr": "Balığı çorbaya eklemeden önce yukaların tamamen yumuşadığından emin olun; yuka balıktan daha uzun sürede pişer. Balığı sıcak çorbaya ekledikten sonra çorbayı hafif kaynamada tutun, aksi halde balık sertleşir ve kurur.",
   "en": "Cook the yuca until fully tender before adding the fish, as it needs more time than the fish does. Keep the soup at a gentle simmer once the fish goes in, or it will turn tough and dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to warm the yuca in the pot before adding it to the soup, which is not in the steps and is not in the English tip. The English tip says to cook the yuca fully before adding the fish. ",
+   "Turkish step 6 says only 'Kaynatmayın' (do not boil), while the English says 'Do not boil hard'. The English wording is the accurate one for this technique, so the Turkish should match it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

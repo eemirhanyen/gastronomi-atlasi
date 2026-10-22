@@ -31,7 +31,7 @@
    "Peynir mayasını 50 ml soğuk suyla karıştırın.",
    "Ocağı kapatın, süte karıştırarak peynir mayası karışımını ekleyin ve 30 saniye iyice karıştırın.",
    "Tencerenin kapağını kapatın ve süt katılaşıp kesildiğinde, yani yaklaşık 45 dakika dinlenmeye bırakın.",
-   "Katılaşmış kıvamı bıçakla 2-3 cm'lik kareler halinde kesin ve 10 dakika bekleyerek sarı renkli sütsü suyun (ayranın) ayrılmasını sağlayın.",
+   "Katılaşmış kıvamı bıçakla 2-3 cm'lik kareler halinde kesin ve 10 dakika bekleyerek sarımsı renkli peynir suyunun (sarısu) ayrılmasını sağlayın.",
    "Tencereyi hafifçe ısıtarak kıvamı biraz daha toparlayın, ardından kesilmiş peyniri temiz bir peynir bezi veya ince süzgeç kaplı kaba aktarın.",
    "Sarısu (peynir suyu) bezden süzülsün diye peyniri yaklaşık 1 saat süzülmeye bırakın; isterseniz üzerine hafif bir ağırlık koyun.",
    "Süzülen peyniri bezden çıkarın, 8 g tuzu serpin ve tuz eşit dağılsın diye nazikçe yoğurun.",
@@ -53,5 +53,13 @@
   "tr": "Kesme sırasında kıvam çok yumuşaksa peyniri daha uzun süre dinlendirin; sarısu fazlaysa süzülme süresini uzatarak daha dolgun bir peynir elde edebilirsiniz.",
   "en": "If the curd is too soft when cutting, let it rest a few minutes longer; for a firmer cuajada, extend the draining time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 uses the wrong term and a typo: \"sütsü suyun (ayranın)\". Ayran is a yogurt drink, not the whey, and \"sütsü\" is a typo. The English says \"yellowish whey\", so the Turkish should say the y"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

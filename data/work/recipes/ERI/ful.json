@@ -9,7 +9,7 @@
   "en": "A spiced stew of dried fava beans and the staple breakfast dish of Eritrea, usually eaten early in the morning with injera or warm bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Baklaları pişirmeden önce mutlaka bir gece bekletin; böylece daha kısa sürede yumuşar ve daha dengeli bir kıvam elde edersiniz.",
   "en": "Soak the fava beans overnight before cooking; they soften faster and give a smoother, more even texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps take 60-75 minutes of simmering plus frying, sauce and assembly, so the total is closer to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

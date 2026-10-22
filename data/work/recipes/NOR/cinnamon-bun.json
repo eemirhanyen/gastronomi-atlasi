@@ -52,7 +52,7 @@
    "Hamuru örtüp sıcak bir yerde 45-60 dakika, iki katına çıkana kadar mayalandırın.",
    "Dolgu için oda sıcaklığındaki 60 g tereyağı, esmer şeker ve tarçını bir kasede pürüzsüz bir macun olacak şekilde karıştırın.",
    "Hamuru unlu bir yüzeyde yaklaşık 30 x 40 cm'lik dikdörtgen olacak şekilde açın. Dolguyu eşit biçimde yayın.",
-   "Uzun kenardan sıkıca sarın ve yaklaşık 3-4 cm kalınlığında 8 dilime kesin.",
+   "Uzun kenardan sıkıca sarın ve yaklaşık 3-4 cm kalınlığında 10 dilime kesin.",
    "Dilimleri kesik yüzü yukarı bakacak şekilde kağıt kalıplara yerleştirip tepsiye dizin. Örtüp 30 dakika kabarana kadar dinlendirin.",
    "Fırını 225°C'ye ısıtın.",
    "Yumurta sarısını çırpıp çöreklerin üzerine sürün ve inci şekeri serpin.",
@@ -66,7 +66,7 @@
    "Cover and leave in a warm place for 45-60 minutes, until doubled in size.",
    "For the filling, beat the 60 g softened butter, dark brown sugar and ground cinnamon together in a bowl until smooth and spreadable.",
    "On a floured surface, roll the dough into a rectangle about 30 x 40 cm. Spread the filling evenly over the surface.",
-   "Roll up tightly from the long side and cut into 8 slices about 3-4 cm thick.",
+   "Roll up tightly from the long side and cut into 10 slices about 3-4 cm thick.",
    "Place the slices cut side up in paper cases on a tray, cover, and leave for about 30 minutes until puffy.",
    "Preheat the oven to 225°C.",
    "Beat the egg yolk and brush it over the buns, then sprinkle with pearl sugar.",
@@ -74,8 +74,17 @@
   ]
  },
  "tip": {
-  "tr": "Dolgudaki tereyağının oda sıcaklığında olması, hamurun yırtılmadan yayılmasını sağlar. Dilimlemek için ince bir dikiş ipi kullanın; hamuru ezmeden temiz kesim yapar.",
+  "tr": "Dolgudaki tereyağının oda sıcaklığında olması, hamurun yırtılmadan yayılmasını sağlar. Dilimlemek için ince bir diş ipi kullanın; hamuru ezmeden temiz kesim yapar.",
   "en": "Use softened butter in the filling so it spreads without tearing the dough. Slice with unflavoured dental floss pulled under the roll for clean, round buns that keep their spiral shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 is internally inconsistent: a 40 cm log cut into 8 slices gives about 5 cm pieces, not the stated 3-4 cm. Changed to 10 slices, which matches the 3-4 cm thickness (both languages).",
+   "Turkish tip says 'dikiş ipi' (sewing thread). The correct term for dental floss is 'diş ipi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -48,7 +48,7 @@
    "Eti süzgece alın ve sıcak tutun. Soğanı ve defne yapraklarını çıkarıp suyu süzgeçten geçirerek 1,2 litre kadar et suyu ayırın.",
    "Ayırdığınız et suyunun 500 mlsini ayrı bir tencereye alıp kaynatın, yıkanmış pirinci ekleyin, kapağını kapatıp kısık ateşte yaklaşık 20 dakika pişirin ve ocaktan alıp dinlendirin.",
    "Ekmekleri elle küçük parçalar halinde koparın. Geniş bir tavada 40 g sade yağı eritin ve ekmek parçalarını altın rengi alana kadar kavurun.",
-   "Kalan et suyunu (yaklaşık 700 ml) kaynatın. Fırın tepsisine veya geniş servis kabına kavrulmuş ekmekleri serin ve sıcak et suyunun yarısını üzerine dökerek 5 dakika bekletin.",
+   "Kalan et suyunu (yaklaşık 700 ml) kaynatın. Fırın tepsisine veya geniş servis kabına kavrulmuş ekmekleri yerleştirin, sıcak et suyunun yarısını üzerine dökerek 5 dakika bekletin.",
    "Eti kemiklerinden ayırıp kabaca doğrayın, ekmeğin üzerine yayın. Pirinci de ekmeğin üzerine yayın.",
    "Kalan et suyunu da yavaşça dökün ki ekmek tamamen ıslansın. Üzerine kalan 30 g sade yağı gezdirin.",
    "Sarımsakları bir havanda tuzla birlikte ezin, sirke ve kimyonu ekleyip karıştırın. Bu sarımsaklı sirkeli sosu fettanın üzerine gezdirerek servis yapın."
@@ -69,5 +69,13 @@
   "tr": "Ekmeğin dağılmaması için sıcak et suyunu yavaş dökün ve servisten hemen önce sarımsaklı sosu ekleyin.",
   "en": "Pour the broth slowly so the bread soaks without turning mushy, and add the garlic-vinegar sauce just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 uses the word \"serin\", which means \"cool\" and does not fit the sentence. The English says \"arrange\", so the Turkish should say \"yerleştirin\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Tentsuyu sosunu hazırlamak için dashi, soya sosu ve mirini küçük bir tencerede birleştirin. Kısık ateşte 2 dakika kaynatın, ocaktan alın ve rendelenmiş daikon ile zencefili ekleyin. Oda sıcaklığına gelmesi için kenara koyun.",
-   "Karidesleri bir kağıt havluyla kurulayın, bir sıkıda 3-4 kez çizgiler açarak düzleştirin, böylece kızartırken kıvrılmaz. Mantarların üst yüzüne hafifçe çapraz çizikler atın.",
+   "Karidesleri bir kağıt havluyla kurulayın, karnı tarafına 3-4 sığ kesik atarak düzleştirin, böylece kızartırken kıvrılmazlar. Mantarların üst yüzüne hafifçe çapraz çizikler atın.",
    "Hamuru hazırlamak için yumurta sarısını buz gibi suyla çırpın. Pasta unundan 120 g'ı ekleyin ve tahta bir kaşıkla çok az karıştırın; hamurda birkaç topak kalmalıdır. Kullanmadan önce kaseyi buzlu su dolu bir kaba oturtun.",
    "Yağı derin bir tencerede 180°C'ye ısıtın. Yağ ısınırken kalan 30 g pasta unu bir tabağa koyun. Sebze ve karidesleri önce unun içinde hafifçe çevirip fazlasını silkin.",
    "Karidesleri, tatlı patates, patlıcan, mantar ve biberi hamura batırın, fazlasını süzün ve sıcak yağa birkaç parça birden koymadan, dörder beşer parti halinde kızartın. Her parti yaklaşık 2-3 dakika, hamur açık altın rengi ve çıtır olana kadar kızarsın.",
@@ -60,7 +60,7 @@
   "en": [
    "To make the tentsuyu dipping sauce, combine the dashi, soy sauce and mirin in a small saucepan. Bring to a simmer over low heat for 2 minutes, remove from the heat and stir in the grated daikon and ginger. Set aside to cool to room temperature.",
    "Pat the shrimp dry with kitchen paper. Make 3-4 shallow cuts across the underside of each shrimp and press them flat so they do not curl during frying. Lightly score the top of each shiitake in a crisscross pattern.",
-   "For the batter, whisk the egg yolk into the ice-cold water. Add 120 g of cake flour and mix very briefly with a wooden chopsticks or spoon; a few lumps should remain. Keep the bowl set over a larger bowl of ice water while you work.",
+   "For the batter, whisk the egg yolk into the ice-cold water. Add 120 g of cake flour and mix very briefly with a wooden spoon; a few lumps should remain. Keep the bowl set over a larger bowl of ice water while you work.",
    "Heat the oil in a deep pot to 180°C. While it heats, place the remaining 30 g of cake flour on a plate. Lightly coat the vegetables and shrimp in the flour, shaking off the excess.",
    "Dip the shrimp, sweet potato, eggplant, shiitake and green peppers in the batter, letting the excess drip off. Fry in small batches of four or five pieces so the oil temperature does not drop. Each batch takes about 2-3 minutes until the batter is pale golden and crisp.",
    "Lift the pieces out with a slotted spoon and drain them on a wire rack lined with kitchen paper for a few seconds. Check the oil temperature before each batch and keep it between 170-180°C.",
@@ -71,5 +71,14 @@
   "tr": "Hamuru az karıştırın ve her partiden önce yağ sıcaklığını kontrol edin; hamur ne kadar soğuk ve yağ ne kadar sıcaksa tempura o kadar hafif ve çıtır olur.",
   "en": "Mix the batter as little as possible and keep it ice cold, and check the oil temperature before every batch; the colder the batter and the hotter the oil, the lighter and crispier the tempura will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 uses the unclear and unnatural phrase 'bir sıkıda' for the shrimp cuts; it should say 'karnı tarafına' (underside), matching the English.",
+   "English step 3 says 'wooden chopsticks or spoon', while the Turkish says only 'tahta bir kaşık'. Aligned to 'wooden spoon'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

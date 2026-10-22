@@ -13,12 +13,12 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g dana kıyma değil, dana rost eti (kemiksiz, 3 cm küp doğranmış)",
+   "600 g dana rost eti (kemiksiz, 3 cm küp doğranmış)",
    "400 g kuru soğan (ince doğranmış)",
    "80 g niter kibbeh (baharatlı tereyağı)",
    "4 diş sarımsak (ince kıyılmış)",
    "10 g taze zencefil (rendelenmiş)",
-   "3 yemek kaşığı (30 g) berbere baharatı",
+   "3 yemek kaşığı (20 g) berbere baharatı",
    "1/2 çay kaşığı öğütülmüş kakule",
    "2 yemek kaşığı (30 g) domates salçası",
    "250 ml su (50 ml + 200 ml)",
@@ -31,7 +31,7 @@
    "80 g niter kibbeh (spiced clarified butter)",
    "4 garlic cloves (finely minced)",
    "10 g fresh ginger (grated)",
-   "3 tbsp (30 g) berbere spice blend",
+   "3 tbsp (20 g) berbere spice blend",
    "1/2 tsp ground cardamom",
    "2 tbsp (30 g) tomato paste",
    "250 ml water (50 ml + 200 ml)",
@@ -43,7 +43,7 @@
   "tr": [
    "Dana etini bir kasede 1/2 çay kaşığı tuzla karıştırın ve 10 dakika dinlendirin.",
    "Kalın tabanlı bir tencerede niter kibbeh'i orta-düşük ateşte eritin.",
-   "Soğanları ekleyin ve yaklaşık 25 dakika, karamel rengi alıp kuruyana kadar sık sık karıştırarak kavurun. Yapışırsa 50 ml suyun bir kısmını ekleyin.",
+   "Soğanları ekleyin ve yaklaşık 25 dakika, sık sık karıştırarak koyu kahverengi alana ve yağı ayrışana kadar kavurun. Yapışırsa 50 ml suyun bir kısmını ekleyin.",
    "Sarımsak ve zencefili ekleyip 2 dakika daha kavurun.",
    "Berbere, kakule ve domates salçasını ekleyin; kokusu çıkana kadar 2 dakika karıştırın. Kalan 50 ml suyu ekleyerek sosu gevşetin.",
    "Dana etini tencereye alın, iyice bulaştırın ve 5 dakika kavurun.",
@@ -53,7 +53,7 @@
   "en": [
    "Toss the beef cubes with 1/2 tsp salt in a bowl and rest for 10 minutes.",
    "Melt the niter kibbeh in a heavy-based pot over medium-low heat.",
-   "Add the onions and cook for about 25 minutes, stirring often, until they turn deep golden-brown and the fat separates. Add a splash of the 50 ml water if they start to stick.",
+   "Add the onions and cook for about 25 minutes, stirring often, until they turn deep brown and the fat separates. Add a splash of the 50 ml water if they start to stick.",
    "Stir in the garlic and ginger and cook for 2 minutes more.",
    "Add the berbere, cardamom and tomato paste and stir for 2 minutes until fragrant. Loosen with the remaining 50 ml water.",
    "Add the beef to the pot, coat well with the spice mixture and sear for 5 minutes.",
@@ -65,5 +65,14 @@
   "tr": "Soğanları acele etmeden iyice koyu renk alana kadar kavurun; zigninin derin tadı ve koyu rengi buradan gelir.",
   "en": "Cook the onions patiently until they are deep brown; this step gives zigni its characteristic depth and colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Berbere quantity is implausibly high: 3 tablespoons weigh about 20 g, not 30 g (about 6-7 g per tablespoon).",
+   "Onion browning is described inconsistently: Turkish says 'karamel rengi' (caramel colour), while English says 'deep golden-brown'. Turkish also omits that the fat separates, which the English includes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -20,7 +20,7 @@
    "1 orta boy soğan",
    "3 diş sarımsak",
    "2 yemek kaşığı zeytinyağı",
-   "1 tatlı kaşığı tatlı pimentón (İspanyol tatlı kırmızı biberi)",
+   "1 tatlı kaşığı tatlı pimentón (İspanyol füme tatlı kırmızı biberi)",
    "1 tutam safran",
    "1 defne yaprağı",
    "1,5 litre su",
@@ -34,7 +34,7 @@
    "1 medium onion",
    "3 garlic cloves",
    "2 tablespoons olive oil",
-   "1 teaspoon sweet pimentón (Spanish smoked paprika)",
+   "1 teaspoon sweet pimentón (smoked Spanish sweet paprika)",
    "1 pinch saffron",
    "1 bay leaf",
    "1.5 litres water",
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Fasulyelerin dağılmaması için karıştırmayın; kaynama değil, yalnızca hafif çıtırtılı bir ateş kullanın. Pişirme sonunda sos kıvamlanmadıysa, tencereyi açık bırakıp birkaç dakika daha kaynatın.",
+  "tr": "Fasulyelerin dağılmaması için karıştırmayın; ateşi çok kısık tutun, yalnızca hafifçe kaynayacak kadar. Pişirme sonunda sos kıvamlanmadıysa, kapağı açıp birkaç dakika daha pişirin.",
   "en": "Do not stir the beans once they are simmering, and keep the heat low so they stay whole. If the broth has not thickened at the end, leave the lid off and simmer for a few more minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses an unnatural phrase, \"hafif çıtırtılı bir ateş\" (crackling heat), which should be a gentle simmer.",
+   "The pimentón is described as smoked in English but not in Turkish. Smoked pimentón is characteristic of fabada, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

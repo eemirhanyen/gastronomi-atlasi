@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g taze palamut (kemikli, temizlenmiş, 4 parça)",
+   "500 g taze çizgili palamut (kemikli, temizlenmiş, 4 parça)",
    "1,2 l su",
    "1 büyük soğan, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -69,5 +69,13 @@
   "tr": "Kemikli palamut kullanmak çorbaya daha derin bir tat verir; kılçıkları ayıklarken balığı soğuk bırakırsanız eti dağılmadan temizlemek çok daha kolaylaşır.",
   "en": "Bone-in tuna gives the broth much more depth of flavour; let the fish cool slightly before picking out the bones so the flesh stays in neat flakes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient name 'taze palamut' is the Atlantic bonito (Sarda sarda), but the English specifies skipjack tuna, which in Turkish is 'çizgili palamut'. The Turkish name should match the species."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

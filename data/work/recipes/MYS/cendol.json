@@ -18,7 +18,7 @@
    "250 ml su (hamur için)",
    "100 g pirinç unu",
    "30 g tapyoka nişastası",
-   "2 g tuz (yaklaşık ½ çay kaşığı)",
+   "2 g tuz (yaklaşık ⅓ çay kaşığı)",
    "250 g gula melaka (hindistancevizi palmi şekeri), doğranmış",
    "150 ml su (şurup için)",
    "1 pandan yaprağı, düğümlenmiş",
@@ -32,7 +32,7 @@
    "250 ml water (for the batter)",
    "100 g rice flour",
    "30 g tapioca starch",
-   "2 g salt (about ½ teaspoon)",
+   "2 g salt (about ⅓ teaspoon)",
    "250 g gula melaka (palm sugar), chopped",
    "150 ml water (for the syrup)",
    "1 pandan leaf, tied in a knot",
@@ -46,7 +46,7 @@
    "Pandan yapraklarını 150 ml suyla blenderdan geçirin, ince bir elekten süzün ve katıları atın. Bu yeşil suyu 250 ml suyla karıştırın.",
    "Pirinç unu, tapyoka nişastası ve tuzu pandanlı suyun içine ekleyip topaklanma kalmayana kadar iyice çırpın.",
    "Karışımı orta-kısık ateşteki bir tencereye alın ve sürekli karıştırarak yaklaşık 8-10 dakika pişirin. Hamur koyulaşıp parlak ve yarı saydam bir kıvam alınca ocaktan indirin.",
-   "Sıcak hamuru bir kaseye alın ve sıcakken cendol pasından ya da 3-4 mm delikli bir süzgeçten buz gibi suyun olduğu bir kaba bastırarak uzun şeritler elde edin.",
+   "Sıcak hamuru bir kaseye alın ve sıcakken cendol presinden ya da 3-4 mm delikli bir süzgeçten buz gibi suyun olduğu bir kaba bastırarak uzun şeritler elde edin.",
    "Şeritleri 5 dakika soğuk suda bekletin ki sertleşsin ve birbirine yapışmasın. Süzüp bir kenara alın.",
    "Gula melaka, 150 ml su ve düğümlenmiş pandan yaprağını küçük bir tencerede kısık ateşte şeker eriyene kadar ısıtın. Yaklaşık 5 dakika kaynatıp pandan yaprağını çıkarın ve şurubu soğutun.",
    "Hindistancevizi sütünü bir tutam tuzla birlikte hafifçe ısıtın, kaynatmayın. Soğuyunca servis edene kadar buzdolabında bekletin.",
@@ -67,5 +67,14 @@
   "tr": "Hamuru bastırmadan önce ve sırasında sıcak tutun; şeritler sıcakken daha iyi süzülür ve soğuk suda hemen sertleşerek ayrı kalır.",
   "en": "Press the batter while it is still warm and drop the strands straight into ice water; this helps them set quickly and stay separate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity label is inaccurate: 2 g is about ⅓ teaspoon, not ½ teaspoon (in both languages).",
+   "Turkish step 4 uses \"cendol pası\", which means \"rust\". The correct term is \"cendol presi\" (cendol press)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -14,7 +14,9 @@
  "ingredients": {
   "tr": [
    "200 g inci darısı",
-   "1,5 L su (500 ml ve 1 L olmak üzere ikiye ayrılmış)",
+   "1 L su (darıyı ıslatmak için)",
+   "500 ml su (blenderda çekmek için)",
+   "1 L su (zencefilli su için)",
    "30 g taze zencefil",
    "6 adet bütün karanfil",
    "100 g şeker",
@@ -23,7 +25,9 @@
   ],
   "en": [
    "200 g pearl millet",
-   "1.5 L water (split into 500 ml and 1 L)",
+   "1 L water (for soaking the millet)",
+   "500 ml water (for blending)",
+   "1 L water (for the spiced ginger water)",
    "30 g fresh ginger",
    "6 whole cloves",
    "100 g sugar",
@@ -59,5 +63,14 @@
   "tr": "Darı sütünü pişirirken sürekli karıştırın; aksi halde tencerenin dibi yanar ve içecek topaklanır.",
   "en": "Stir the millet mixture constantly while it cooks, otherwise it will scorch on the bottom and become lumpy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water amounts don't add up: the ingredient list gives 1.5 L split into 500 ml and 1 L, but the steps use 1 L for soaking, 500 ml for blending, and a separate 1 L for the ginger water, plus 500 ml cold",
+   "The Turkish and English ingredient lists both have the same water inconsistency, so both were corrected to match the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Picadillo",
  "desc": {
-  "tr": "Küba'da günlük yemeklerin vazgeçilmez parçası olan, zeytin, kapari ve kuru üzümle tatlandırılmış baharatlı kıymalı bir yemektir. Genellikle beyaz pirinç ve siyah fasulye ile birlikte, öğle yemeklerinde ve aile sofralarında servis edilir.",
+  "tr": "Küba'da günlük yemeklerin vazgeçilmez parçası olan, kuru üzümle tatlandırılmış, zeytin ve kapariyle dengelenmiş baharatlı kıymalı bir yemektir. Genellikle beyaz pirinç ve siyah fasulye ile birlikte, öğle yemeklerinde ve aile sofralarında servis edilir.",
   "en": "A spiced ground beef stew from Cuba, sweetened and brightened with raisins and balanced by olives and capers. It is an everyday family dish, usually served with white rice and black beans at lunch or dinner."
  },
  "servings": 4,
@@ -22,7 +22,7 @@
    "400 g konserve kıyılmış domates",
    "100 ml kuru beyaz şarap",
    "1 çay kaşığı kimyon (2 g)",
-   "1 çay kaşığı kurutulmuş kekik (1 g)",
+   "1 çay kaşığı kurutulmuş kekik (oregano) (1 g)",
    "1/2 çay kaşığı karabiber",
    "1 çay kaşığı tuz",
    "1 adet defne yaprağı",
@@ -60,7 +60,7 @@
    "Kıymayı ekleyip kaşıkla ufalayın. Rengi değişene kadar 8-10 dakika pişirin ve fazla yağı süzün.",
    "Domates salçasını ekleyip 1 dakika kavurun. Kıyılmış domatesi ve kuru beyaz şarabı ekleyin, ateşi kısın.",
    "Kimyon, kekik, karabiber, tuz ve defne yaprağını ekleyin. Karıştırın.",
-   "Zeytin, kapari, kuru üzüm ve suyu ekleyin. Kapağını kapatmadan, kısık ateşte 20-25 dakika kadar pişirin. Sos koyulaşınca kıvamına bakın, gerekirse biraz daha su ekleyin.",
+   "Zeytin, kapari, kuru üzüm ve 100 ml suyu ekleyin. Kapağını kapatmadan, kısık ateşte 20-25 dakika kadar pişirin. Sos koyulaşınca kıvamına bakın, gerekirse biraz daha su ekleyin.",
    "Defne yaprağını çıkarın, tadına bakıp tuzunu ayarlayın. Bu sırada beyaz pirinci ayrıca pişirin.",
    "Picadillo'yu sıcak pirinçle birlikte servis edin."
   ],
@@ -79,5 +79,14 @@
   "tr": "Kıymayı tavaya koyduktan sonra hemen karıştırmayın; birkaç dakika dokunmadan bekletirseniz daha güzel bir kahverengi renk ve daha yoğun bir tat elde edersiniz.",
   "en": "Leave the beef undisturbed for a couple of minutes before stirring; it will brown better and taste richer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'kekik' (thyme) but the English says dried oregano; oregano is the usual herb in Cuban picadillo, so the Turkish should name it.",
+   "Turkish description says olives and capers 'sweeten' the dish, but the English says only the raisins sweeten it and the olives and capers balance it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

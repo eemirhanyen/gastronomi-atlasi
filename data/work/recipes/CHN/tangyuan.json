@@ -18,7 +18,8 @@
    "40 g oda sıcaklığında tereyağı",
    "200 g tatlı (glutinli) pirinç unu",
    "150 ml ılık su (gerekirse ek 20 ml)",
-   "1 litre su",
+   "1 litre su (şurup için)",
+   "2 litre su (tangyuan pişirmek için)",
    "80 g esmer şeker",
    "15 g taze zencefil, ince dilimlenmiş"
   ],
@@ -28,7 +29,8 @@
    "40 g butter, at room temperature",
    "200 g glutinous rice flour",
    "150 ml warm water (plus up to 20 ml more if needed)",
-   "1 litre water",
+   "1 litre water (for the syrup)",
+   "2 litres water (for cooking the tangyuan)",
    "80 g brown sugar",
    "15 g fresh ginger, thinly sliced"
   ]
@@ -61,5 +63,13 @@
   "tr": "Hamurun kıvamı çok önemlidir: çatlamadan şekil verebiliyorsa doğru kıvamdadır. Pişirirken toplar dibe çöker, yüzeye çıkınca yaklaşık 3 dakika daha pişirin ki ortası tamamen yumuşasın.",
   "en": "Dough texture matters most: if it holds its shape without cracking, it is right. Tangyuan sink first and rise when cooked; give them about 3 more minutes after they float so the centres are fully soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 uses 2 litres of water to cook the tangyuan (in both Turkish and English), but the ingredient list only includes 1 litre of water. The second 2 litres is missing from the ingredients in both la"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

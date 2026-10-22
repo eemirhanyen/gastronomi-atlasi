@@ -20,7 +20,7 @@
    "5 g toz şeker (1 çay kaşığı)",
    "15 ml sıvı yağ (zeytinyağı ya da ayçiçek yağı)",
    "340 ml ılık su (yaklaşık 35 °C)",
-   "Un (kalıp ve dışarı serpmek için)"
+   "Un (tezgah ve tepsi için)"
   ],
   "en": [
    "300 g plain white flour (all-purpose)",
@@ -44,7 +44,7 @@
    "Her topu unlu tezgahta, yaklaşık 18-20 cm çapında ve 0,5 cm kalınlığında yuvarlak bir yassı ekmek olacak şekilde açın. Üzerine hafifçe un serpin.",
    "Açtığınız ekmekleri unlu bir tepsiye alıp örtün ve 10 dakika dinlendirin.",
    "Sıcak saca ya da taşa 2-3 ekmek yerleştirin. 3-4 dakika pişirin; ekmek şişip cep yapmalı ve alt yüzü benekli olmalıdır. Gerekirse 1 dakika daha pişirin.",
-   "Pişen ekmekleri temiz bir bezin altına alın ki yumuşak kalsın. Ilıkken, fırının ısısı tekrar yükselirken sonraki partileri aynı şekilde pişirin."
+   "Pişen ekmekleri temiz bir bezin altına alın ki yumuşak kalsın. Ilıkken servis yapın ve kalan hamurla aynı şekilde devam edin."
   ],
   "en": [
    "Dissolve the sugar in part of the lukewarm water, sprinkle the yeast over it and leave for 5 minutes until foamy.",
@@ -63,5 +63,15 @@
   "tr": "Ekmeğin cep yapması için hamuru çok kalın açmayın ve fırın ile taş ya da sacı iyice ısıtın; ısı yeterli değilse ekmek şişmez.",
   "en": "Roll the dough thin and preheat the tray or stone thoroughly; if the oven is not hot enough, the bread will not puff into a pocket."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish final step includes an unclear instruction about the oven's heat rising again, which the English version does not mention and which doesn't fit the sac/stone baking method",
+   "Turkish ingredient 'Un (kalıp ve dışarı serpmek için)' uses 'kalıp' (mold), which is wrong for flour used on the work surface and tray",
+   "Turkish step 10 says 'Ilıkken' while English says 'Serve warm'; the two versions should match"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

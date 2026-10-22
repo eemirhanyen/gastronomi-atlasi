@@ -5,7 +5,7 @@
  },
  "native": "Sopa de feijão",
  "desc": {
-  "tr": "Gine-Bissau'da Portekiz mutfağının etkisiyle Afrika malzemelerinin birleştiği, günlük öğünlerde sıkça servis edilen koyu kıvamlı bir çorbadır. Kurutulmuş börülce veya fasulye, palm yağı ve tütsülenmiş balıkla pişirilir; genellikle pirinçle birlikte sofraya gelir.",
+  "tr": "Gine-Bissau'da Portekiz mutfağının etkisiyle Afrika malzemelerinin birleştiği, günlük öğünlerde sıkça servis edilen koyu kıvamlı bir çorbadır. Kurutulmuş börülce veya fasulye, palm yağı, tütsülenmiş balık ve manyokla pişirilir; genellikle pirinçle birlikte sofraya gelir.",
   "en": "A thick, hearty everyday soup from Guinea-Bissau where Portuguese cooking meets West African ingredients. Dried beans are simmered with palm oil, smoked fish and cassava, and it is commonly served with rice at lunch or dinner."
  },
  "servings": 4,
@@ -44,7 +44,7 @@
  "steps": {
   "tr": [
    "Gece boyunca suda bekletilmiş börülceyi süzün ve iyice durulayın.",
-   "Börüceyi 1,5 litre suyla geniş bir tencereye alın ve kaynatın. Yüzeye çıkan köpüğü alın, ardından ısıyı orta-düşük seviyeye indirip börülceler yumuşayana kadar yaklaşık 40 dakika pişirin.",
+   "Börülceyi 1,5 litre suyla geniş bir tencereye alın ve kaynatın. Yüzeye çıkan köpüğü alın, ardından ısıyı orta-düşük seviyeye indirip börülceler yumuşayana kadar yaklaşık 40 dakika pişirin.",
    "Ayrı bir tavada palm yağını orta ateşte ısıtın. Soğanı ekleyip 6-8 dakika, yumuşayıp hafifçe kızarana kadar soteleyin.",
    "Sarımsağı ekleyip 1 dakika kadar kokusu çıkana kadar karıştırın. Rendelenmiş domatesi ekleyip suyunu çekene ve yağ yüzeye ayrılana kadar yaklaşık 5 dakika pişirin.",
    "Tütsülenmiş balık pullarını tavaya ekleyip 2 dakika daha karıştırın, ardından bu karışımı pişmekte olan börülcelerin içine aktarın.",
@@ -67,5 +67,14 @@
   "tr": "Palm yağının tadı güçlüdür; ilk kez kullanıyorsanız daha az miktarla başlayıp tadına göre artırın.",
   "en": "Palm oil has a strong, distinctive flavour; if you are new to it, start with less and adjust to taste. Serve with plain rice to balance it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description omits cassava (manyok), which the English description and the recipe include.",
+   "Typo in Turkish step 2: 'Börüceyi' should be 'Börülceyi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

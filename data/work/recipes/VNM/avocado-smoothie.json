@@ -17,14 +17,14 @@
    "120 ml yoğunlaştırılmış süt",
    "400 ml tam yağlı süt, soğuk",
    "300 g buz küpü",
-   "40 ml çikolata şurubu (servis için)"
+   "60 ml çikolata şurubu (servis için)"
   ],
   "en": [
    "500 g ripe avocado flesh (about 3 medium avocados)",
    "120 ml sweetened condensed milk",
    "400 ml whole milk, cold",
    "300 g ice cubes",
-   "40 ml chocolate syrup (for serving)"
+   "60 ml chocolate syrup (for serving)"
   ]
  },
  "steps": {
@@ -46,8 +46,16 @@
   ]
  },
  "tip": {
-  "tr": "Avokadonun iyice olgunlaşmış olması, içeceğe doğal bir tatlılık ve yumuşak bir doku kazandırır; sert avokado kullanırsanız daha fazla yoğunlaştırılmış süt ekleyin.",
+  "tr": "Avokadonun iyice olgunlaşmış olması, içeceğe doğal bir tatlılık ve yumuşak bir doku kazandırır; sert avokado kullanırsanız biraz daha yoğunlaştırılmış süt ekleyin.",
   "en": "Use very ripe avocados for natural sweetness and a smooth texture; if the fruit is firm, add a little more condensed milk."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chocolate syrup amount is inconsistent with the steps: 40 ml total is about 10 ml per glass (two teaspoons), but the steps say to add one spoonful (about 15 ml) to each of four glasses. Changed the qu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

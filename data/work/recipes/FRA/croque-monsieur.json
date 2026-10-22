@@ -22,7 +22,7 @@
    "1 tutam rendelenmiş hindistancevizi",
    "Tuz ve taze çekilmiş karabiber",
    "200 g ince dilimlenmiş pişmiş jambon",
-   "150 g rendelenmiş Gruyère peyniri"
+   "200 g rendelenmiş Gruyère peyniri"
   ],
   "en": [
    "8 slices sandwich bread (about 400 g)",
@@ -34,18 +34,18 @@
    "1 pinch grated nutmeg",
    "Salt and freshly ground black pepper",
    "200 g thinly sliced cooked ham",
-   "150 g grated Gruyère cheese"
+   "200 g grated Gruyère cheese"
   ]
  },
  "steps": {
   "tr": [
    "Fırını 200°C'ye ısıtın.",
    "Beşamel için 30 g tereyağını orta ateşte bir tencerede eritin. Unu ekleyip 1 dakika sürekli karıştırarak pişirin.",
-   "Ocaktan almadan ılık sütü azar azar ekleyin ve pürüzsüz olana kadar çırpın. Kıvam almak için yaklaşık 5 dakika kısık ateşte karıştırarak pişirin.",
+   "Ocaktan alıp ılık sütü azar azar ekleyin ve pürüzsüz olana kadar çırpın. Ardından kıvam almak için yaklaşık 5 dakika kısık ateşte karıştırarak pişirin.",
    "Tuz, karabiber ve bir tutam rendelenmiş hindistancevizi ekleyin. Ocaktan alın, 50 g Gruyère peynirini ekleyip eriyene kadar karıştırın.",
    "Ekmek dilimlerinin bir yüzüne yumuşatılmış 40 g tereyağını yayın. Ekmeklerin tereyağsız yüzlerinden 4 dilimin üzerine hardalı sürün.",
-   "Hardallı dilimlerin üzerine jambonu ve bir miktar Gruyère peyniri (yaklaşık 25 g) koyun. Diğer 4 dilimi tereyağlı yüzü dışarı gelecek şekilde kapatın.",
-   "Sandviçleri yağlı fırın tepsisine dizin. Üzerlerine beşamelin yarısından biraz azını yayın, kalan 100 g Gruyère peynirini serpin.",
+   "Hardallı dilimlerin üzerine jambonu ve her sandviç için yaklaşık 12 g Gruyère peyniri koyun. Diğer 4 dilimi tereyağlı yüzü dışarı gelecek şekilde kapatın.",
+   "Sandviçleri yağlı fırın tepsisine dizin. Üzerlerine beşamelin yarısından biraz fazlasını yayın, kalan 100 g Gruyère peynirini serpin.",
    "Sandviçleri fırının orta rafında 8-10 dakika pişirin. Ardından üst ızgara modunda 2-3 dakika, peynir kabarıp altın rengini alana kadar gratine edin.",
    "Sıcak servis yapın."
   ],
@@ -55,7 +55,7 @@
    "Off the heat, gradually whisk in the warm milk until smooth. Return to low heat and simmer, stirring, for about 5 minutes until thickened.",
    "Season with salt, black pepper and a pinch of grated nutmeg. Take off the heat and stir in 50 g of the Gruyère until melted.",
    "Spread the softened 40 g butter on one side of each bread slice. Spread the mustard on the unbuttered side of 4 of the slices.",
-   "On the mustard-covered slices, layer the ham and about 25 g of the Gruyère. Close each sandwich with a remaining slice, buttered side facing out.",
+   "On the mustard-covered slices, layer the ham and about 12 g of the Gruyère per sandwich. Close each sandwich with a remaining slice, buttered side facing out.",
    "Place the sandwiches on a lightly oiled baking tray. Spread a little more than half of the béchamel over the tops and sprinkle with the remaining 100 g Gruyère.",
    "Bake on the middle rack for 8-10 minutes. Then switch to the grill setting and grill for 2-3 minutes until the cheese is bubbling and golden.",
    "Serve hot."
@@ -65,5 +65,15 @@
   "tr": "Beşamelin kıvamı yoğun olmalı; çok akıcıysa sandviçin üzerinden akar. Yanında küçük bir yeşil salata servis edin.",
   "en": "The béchamel should be thick; if it is too runny, it will drip off the sandwich. Serve with a small green salad on the side."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Gruyère totals don't add up: 50 g (sauce) + about 25 g per sandwich x4 + 100 g (topping) = about 250 g, but the ingredient list says 150 g. The step 6 amount is also ambiguous (per sandwich or total).",
+   "Turkish step 3 says to add the milk without removing the pan from the heat (\"Ocaktan almadan\"), but the English says to remove it from the heat first. The meaning is reversed.",
+   "Turkish step 7 says to spread \"a little less than half\" of the béchamel (\"yarısından biraz azını\"), but the English says \"a little more than half\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

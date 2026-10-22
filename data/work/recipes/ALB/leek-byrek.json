@@ -44,12 +44,12 @@
    "Fırını 180°C'ye ısıtın ve yaklaşık 25 x 35 cm'lik bir fırın tepsisine az miktarda yağ sürün.",
    "Pırasaları iyice yıkayın, köklerini ve sert uçlarını atın, ince halka halinde doğrayın.",
    "Geniş bir tavada 40 ml zeytinyağını ısıtın, pırasaları ve 2 g tuzu ekleyip kısık ateşte 12-15 dakika, suyunu çekene kadar yumuşatın. Ocaktan alıp soğumaya bırakın.",
-   "Büyük bir kapta ufalanmış beyaz peyniri, yoğurdu, sütü, 2 yumurtayı, kalan tuzu, karabiberi ve kuru naneyi karıştırın.",
+   "Büyük bir kapta ufalanmış beyaz peyniri, yoğurdu, 100 ml sütü, 2 yumurtayı, kalan tuzu, karabiberi ve kuru naneyi karıştırın.",
    "Soğumuş pırasaları peynirli karışıma ekleyip iyice harmanlayın.",
    "Tereyağını eritin. Tepsiye yufkaların 6 tanesini tek tek yerleştirin, her birinin üzerine erimiş tereyağı ve zeytinyağı karışımından sürün.",
    "Pırasalı harcı yufkaların üzerine eşit şekilde yayın.",
    "Kalan 6 yufkayı aynı şekilde tek tek yağlayarak üste kapatın. Kenarları içeri doğru hafifçe kıvırın.",
-   "Kalan 1 yumurtayı kısa bir çırpın, böreğin üzerine sürün. Üzerine 2 yemek kaşığı kadar, yaklaşık 20 ml süt ekleyerek kalan yağı serpin.",
+   "Kalan 1 yumurtayı kısaca çırpın, böreğin üzerine sürün. Üzerine kalan tereyağı ve zeytinyağı karışımını gezdirin.",
    "Önceden ısıtılmış fırında 35-40 dakika, üstü altın sarısı olana kadar pişirin.",
    "Fırından çıkarıp 10 dakika dinlendirin, kare ya da dikdörtgen dilimler halinde kesip sıcak servis yapın."
   ],
@@ -71,5 +71,15 @@
   "tr": "Pırasaları iyice soğutmadan harca karıştırmayın; sıcak sebze yumurtalı karışımı kesip yufkaları yırtabilir.",
   "en": "Let the leeks cool fully before mixing them into the filling, as hot vegetables can curdle the egg and tear the pastry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 adds about 20 ml milk ('yaklaşık 20 ml süt ekleyerek') that is not in the ingredient list and does not appear in the English version, so the two versions disagree on the amount of milk.",
+   "Turkish step 4 says 'sütü' without an amount, while the ingredient list and English step 4 specify 100 ml.",
+   "Turkish step 9 says 'kalan yağı serpin' (sprinkle the remaining fat), which does not match the English 'drizzle' and is less natural for a liquid butter/oil mixture."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

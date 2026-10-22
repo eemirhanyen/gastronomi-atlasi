@@ -5,7 +5,7 @@
  },
  "native": "东坡肉",
  "desc": {
-  "tr": "Hangzhou kökenli bu yemek, Song hanedanı şairi Su Dongpo'nun adını taşır. Derisi üzerinde, soya ve pirinç şarabıyla yavaş yavaş pişirilen domuz göbeğinden oluşur ve Çin'de ziyafetlerde ile Yeni Yıl gibi özel günlerde sunulur.",
+  "tr": "Hangzhou kökenli bu yemek, Song hanedanı şairi Su Dongpo'nun adını taşır. Derisi üzerinde, soya ve pirinç şarabıyla yavaş yavaş pişirilen domuz göbeğinden oluşur ve Çin'de ziyafetlerde ve Yeni Yıl gibi özel günlerde sunulur.",
   "en": "Originating in Hangzhou and named after the Song dynasty poet Su Dongpo, this dish is skin-on pork belly slowly braised in soy sauce and rice wine until meltingly tender and glossy. It is served at banquets and during festive occasions such as Lunar New Year."
  },
  "servings": 4,
@@ -67,5 +67,13 @@
   "tr": "Kesilmiş etleri pişirmeden önce kurulamak, karamelizasyonu ve sosun parlak kıvamını sağlar; pişirme sonrası sosu soğutup yağı alırsanız daha hafif bir tat elde edersiniz.",
   "en": "Drying the blanched pork thoroughly before searing gives a better caramelized crust, and chilling the braising liquid overnight lets you skim off excess fat for a lighter, cleaner sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a broken phrase: \"Çin'de ziyafetlerde ile Yeni Yıl gibi\" contains a stray \"ile\" and is ungrammatical."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

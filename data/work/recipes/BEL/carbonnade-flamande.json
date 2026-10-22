@@ -5,11 +5,11 @@
  },
  "native": "Stoverij",
  "desc": {
-  "tr": "Bira, soğan ve hafif tatlı-ekşi bir tada sahip baharatlı kekle yavaş pişirilen Belçika'ya özgü bir et yemeği. Özellikle Flanders bölgesinde kışın aile sofralarında ve kafelerde, genellikle kızarmış patates veya frites ile servis edilir.",
+  "tr": "Bira, soğan ve hafif tatlı-ekşi bir tada sahip baharatlı kekle yavaş pişirilen Belçika'ya özgü bir et yemeği. Özellikle Flanders bölgesinde kışın aile sofralarında ve kafelerde, genellikle frites veya haşlanmış patates ile servis edilir.",
   "en": "A Belgian beef stew braised slowly in dark beer with onions, finished with a sweet-sour note from brown sugar, vinegar and gingerbread. Especially popular in Flanders, it is served in winter at family tables and in cafés, usually with frites or boiled potatoes."
  },
  "servings": 4,
- "time_min": 180,
+ "time_min": 210,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,7 +57,7 @@
    "Aynı tencereye tereyağını ekleyin ve soğanları orta ateşte yaklaşık 15 dakika, altın renge dönene kadar yavaşça soteleyin.",
    "Esmer şekeri ekleyip soğanlar karamelleşene kadar 3-4 dakika pişirin. Sarımsağı ekleyip 1 dakika daha karıştırın.",
    "Birayı tencereye dökün, dibe yapışmış lezzetli parçaları kazıyarak alın. Et suyu, sirke, defne yapraklarını ve kekik dallarını ekleyin.",
-   "Etleri ve birikmiş suyunu tencereye geri koyun. Kekik ve defne yapraklarını sıvının içine yerleştirin.",
+   "Etleri ve birikmiş suyunu tencereye geri koyun ve sıvıyı hafif kaynatın. Kekik ve defne yapraklarını sıvının içine yerleştirin.",
    "Kekleri hardalla ince bir tabaka halinde yayın ve sıvının üzerine, et ve soğanların üstüne yerleştirin. Tencerenin kapağını kapatın.",
    "Tencereyi fırına alın ve et çok yumuşayana kadar yaklaşık 2,5 saat pişirin. Keki hafifçe karıştırarak sosu koyulaştırın.",
    "Defne yapraklarını ve kekik dallarını çıkarın, gerekirse tuz ve karabiberle tatlandırın. Kıyılmış maydanozla süsleyip sıcak servis yapın."
@@ -79,5 +79,15 @@
   "tr": "Karbonadı bir gün önceden yapıp soğutursanız yağı kolayca alınır ve tatlar daha iyi oturur; servis öncesinde ısıtmanız yeterlidir.",
   "en": "Make the stew a day ahead and chill it: the fat is then easy to lift off and the flavours deepen. Reheat gently before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (180) is too short: about 20 min of browning, 15-20 min of onions, and a 2.5-hour braise add up to roughly 3.5 hours",
+   "Turkish step 7 omits the gentle simmer that the English step 7 specifies",
+   "Turkish description says 'kızarmış patates veya frites' while the English says 'frites or boiled potatoes', so the serving suggestions disagree"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

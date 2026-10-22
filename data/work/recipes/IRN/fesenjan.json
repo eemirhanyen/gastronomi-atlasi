@@ -23,7 +23,7 @@
    "1 çay kaşığı tarçın",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
-   "1 g safran, 2 yemek kaşığı sıcak suda demlenmiş"
+   "0,3 g safran, 2 yemek kaşığı sıcak suda demlenmiş"
   ],
   "en": [
    "800 g bone-in chicken thighs (skinless)",
@@ -36,7 +36,7 @@
    "1 tsp ground cinnamon",
    "1 tsp salt",
    "1/2 tsp black pepper",
-   "1 g saffron, steeped in 2 tbsp hot water"
+   "0.3 g saffron, steeped in 2 tbsp hot water"
   ]
  },
  "steps": {
@@ -65,5 +65,13 @@
   "tr": "Ceviz sosunun yanmaması için ateşi çok düşük tutun ve sık karıştırın; yüzeyde yağın ayrılması sosun hazır olduğunun işaretidir.",
   "en": "Keep the heat very low and stir often so the walnut sauce doesn't scorch; oil floating on the surface is the sign that the sauce is ready."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Saffron quantity of 1 g for 4 servings is implausibly high (roughly a third of an ounce of threads, enough to overpower the sauce). Reduced to 0.3 g in both the Turkish and English ingredient lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A dense paste made from fermented cassava, eaten warm at breakfast across Côte d'Ivoire. It is usually served with a sauce of palm oil and hot pepper."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 4380,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Mayalanma süresi lezzetin anahtarıdır; kokusu ekşileşmeden önce nişastayı çıkarın, aksi halde hamur acılaşır.",
+  "tr": "Mayalanma süresi lezzetin anahtarıdır; ekşi bir koku alır almaz nişastayı çıkarın, aksi halde hamur acılaşır.",
   "en": "Fermentation time sets the flavour; stop once it smells pleasantly sour, or the paste turns bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contradicts the English tip and step 2: the Turkish says to stop before the paste turns sour, while the English and step 2 say to stop once it smells pleasantly sour.",
+   "time_min of 60 ignores the 2-3 day fermentation and the 1-hour rest, so the total time is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

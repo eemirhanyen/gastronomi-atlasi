@@ -23,7 +23,7 @@
    "1 küçük yeşil biber, ince doğranmış (isteğe bağlı)",
    "1 çay kaşığı tuz",
    "½ çay kaşığı karabiber",
-   "60 g şekersiz yer fıstığı ezmesi",
+   "60 g tuzsuz yer fıstığı ezmesi",
    "250 ml sıcak su",
    "1 tatlı kaşığı kıyılmış taze maydanoz"
   ],
@@ -71,5 +71,13 @@
   "tr": "Muzların sıcak su ile haşlanması ve tuzlu suda bekletilmesi, yahninin kararmasını önler ve dokusunun daha dengeli olmasını sağlar.",
   "en": "Parboiling the bananas and soaking them in salted water keeps them pale and helps them hold their shape in the stew."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Peanut butter is 'unsalted' in the English ingredients but 'şekersiz' (sugar-free) in the Turkish version. The Turkish should say 'tuzsuz' (unsalted), since the seasoning depends on it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,7 +16,7 @@
    "300 g bölünmüş sarı bezelye",
    "1,2 L su",
    "2 orta boy kuru soğan (kabaca doğranmış, yaklaşık 300 g)",
-   "50 g niter kibbeh (Etiyopya baharatlı tereyağı; yoksa 50 g tereyağı ve bir tutam kakule ile çörekotu)",
+   "50 g niter kibbeh (Etiyopya baharatlı tereyağı; yoksa 50 g tereyağı ve bir tutam kakule ile çemen)",
    "3 diş sarımsak (ince doğranmış)",
    "1 yemek kaşığı rendelenmiş taze zencefil",
    "1 tatlı kaşığı öğütülmüş zerdeçal",
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Niter kibbeh yoksa tereyağını kısık ateşte, kakule ve çörekotu ile birlikte bir süre bekletip süzmek aromayı çok yakınlaştırır.",
+  "tr": "Niter kibbeh yoksa tereyağını kısık ateşte, kakule ve çemen ile birlikte bir süre bekletip süzmek aromayı çok yakınlaştırır.",
   "en": "If you cannot find niter kibbeh, gently warm butter with cardamom and fenugreek for a few minutes and strain it; this gets close to the traditional aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient substitute uses 'çörekotu' (nigella), but the English version says fenugreek. Fenugreek in Turkish is 'çemen', so the two versions disagree and the Turkish term is wrong.",
+   "Turkish tip has the same error: 'kakule ve çörekotu' should be 'kakule ve çemen'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

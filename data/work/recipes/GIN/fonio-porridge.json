@@ -37,7 +37,7 @@
   "tr": [
    "Fonyoyu ince elekli bir süzgece alın ve soğuk suyla 2-3 kez durulayın. Taneler çok küçük olduğu için süzgeçten kaçmamasına dikkat edin, ardından iyice süzün.",
    "Büyük bir tencerede suyu tuzla birlikte kaynatın.",
-   "Ateşi orta-yüksek tutarak fonyoyu kaynayan suya azar azar ekleyin ve sürekli karıştırın; topaklanmasını önlemek için tahtaya kaşıkla hızlıca karıştırmaya devam edin.",
+   "Ateşi orta-yüksek tutarak fonyoyu kaynayan suya azar azar ekleyin ve sürekli karıştırın; topaklanmasını önlemek için tahta kaşıkla hızlıca karıştırmaya devam edin.",
    "Fonyo tekrar kaynamaya başlayınca ateşi kısın, tencerenin kapağını kapatın ve yaklaşık 8-10 dakika kısık ateşte pişirin. Arada bir karıştırın ve gerekirse birkaç yemek kaşığı su ekleyin.",
    "Ocağı kapatın, sütü, şekeri, vanilya özünü ve limon kabuğunu ekleyin. Tereyağını da ilave edip iyice karıştırın.",
    "Ateşi çok düşük yakarak sütlü karışımı 3-4 dakika daha, sürekli karıştırarak ısıtın; kıvam yoğun ama akıcı olmalıdır.",
@@ -57,5 +57,13 @@
   "tr": "Fonyo çok hızlı pişer ve uzun süre karıştırılırsa yapışkan bir kıvam alır; sütü mutlaka ocak kapalıyken ekleyin.",
   "en": "Fonio cooks quickly and turns gluey if overworked, so always add the milk after switching off the heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says \"tahtaya kaşıkla\" (\"with a spoon onto a board\"), which is a wrong phrase. It should be \"tahta kaşıkla\" (with a wooden spoon), matching the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

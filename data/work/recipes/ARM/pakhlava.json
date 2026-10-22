@@ -41,19 +41,19 @@
   "tr": [
    "Fırını 170°C'ye ısıtın. 20x30 cm'lik bir fırın kabının tabanını ve kenarlarını tereyağıyla yağlayın.",
    "Cevizi, 50 g toz şekeri, tarçını ve kakuleyi bir kasede karıştırın. Ceviz karışımını 2 eşit parçaya bölün (her biri 100 g civarında).",
-   "Yufkaları nemli bir bezle örtün ki kurumasın. Bir yufkayı kaba yerleştirin, üzerine eritilmiş tereyağı sürün. Bu işlemi toplam 4 yufka için tekrarlayın.",
+   "Yufkaları kabın boyutuna göre kırpın ve nemli bir bezle örtün ki kurumasın. Bir yufkayı kaba yerleştirin, üzerine eritilmiş tereyağı sürün. Bu işlemi toplam 4 yufka için tekrarlayın.",
    "Dört yufkalık tabakanın üzerine ceviz karışımının birinci yarısını serpin. Üzerine tereyağı süren 4 yufka daha koyun, ardından ikinci ceviz karışımını yayın.",
    "Kalan 4 yufkayı aynı şekilde tereyağlayarak üste ekleyin. En üstteki yufkaya bolca tereyağı sürün.",
    "Keskin bir bıçakla hamuru önce uzunlamasına, sonra çapraz olarak kesip elmas şeklinde dilimler oluşturun. Kesikler kabın dibine kadar inmelidir.",
    "Önceden ısıtılmış fırında 35-40 dakika, üstü altın sarısı olana kadar pişirin.",
    "Pişirme sırasında şerbeti hazırlayın. 250 g toz şekeri 200 ml su ile orta ateşte karıştırarak eritin, kaynamaya bırakın ve 8 dakika kadar kaynatın. Ocaktan almadan önce limon suyunu ve balı ekleyip karıştırın.",
-   "Pakhlava fırından çıkar çıkmaz, şerbetin yarısından fazlasını yavaşça üzerine dökün. Şerbet tamamen emilene kadar bekleyin.",
+   "Pakhlava fırından çıkar çıkmaz, şerbetin yaklaşık üçte ikisini yavaşça üzerine dökün. Şerbet tamamen emilene kadar bekleyin.",
    "Tatlıyı oda sıcaklığında en az 4 saat dinlendirin, tercihen bir gece bekletin. Kesilmiş parçaları servis edin."
   ],
   "en": [
    "Preheat the oven to 170°C. Grease a 20x30 cm baking dish on the base and sides with a little melted butter.",
    "In a bowl, mix the walnuts, 50 g caster sugar, cinnamon and cardamom. Divide the nut mixture into two equal portions (about 100 g each).",
-   "Cover the phyllo sheets with a damp cloth so they do not dry out. Lay one sheet in the dish and brush it with melted butter. Repeat for 4 sheets in total.",
+   "Trim the phyllo sheets to fit the dish, then cover them with a damp cloth so they do not dry out. Lay one sheet in the dish and brush it with melted butter. Repeat for 4 sheets in total.",
    "Sprinkle the first portion of nut mixture over the 4-sheet base. Layer 4 more buttered sheets on top, then spread the second portion of nuts over them.",
    "Add the remaining 4 sheets on top, brushing each with butter, and give the top sheet a generous final coat of butter.",
    "Using a sharp knife, cut the pastry lengthwise and then diagonally into diamond shapes, cutting all the way down to the base.",
@@ -65,7 +65,17 @@
  },
  "tip": {
   "tr": "Yufkalar çok hızlı kuruduğu için her zaman nemli bir bezle örtülü tutun ve şerbeti pişmiş hamurun üzerine sıcak dökün; böylece hamur ıslanır ama dağılmaz.",
-  "en": "Keep the phyllo covered with a damp cloth at all times, and pour cool syrup over hot pastry or warm syrup over hot pastry as directed, so the layers soak up the syrup without going soggy."
+  "en": "Keep the phyllo covered with a damp cloth at all times, and pour warm syrup over the hot pastry so the layers soak up the syrup without going soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sheets are listed as about 30x40 cm but the baking dish is 20x30 cm, so the sheets overhang and are not trimmed to fit (TR and EN).",
+   "English tip contradicts the steps and the Turkish tip: it says 'cool syrup over hot pastry or warm syrup', but the steps call for warm syrup poured over hot pastry.",
+   "Syrup amount is 'more than half' in Turkish but 'about two-thirds' in English. Turkish is aligned to two-thirds."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

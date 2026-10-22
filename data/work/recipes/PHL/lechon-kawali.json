@@ -9,20 +9,20 @@
   "en": "A Filipino favourite from Luzon, eaten at family meals, celebrations and street stalls. Pork belly is simmered until tender, air-dried, then deep-fried until the skin is blistered and crackling-crisp, and served with a sharp garlic and vinegar dip alongside steamed rice."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 210,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "800 g domuz göbeği (derisi üzerinde, tek parça)",
    "2 litre su",
    "1 küçük soğan (ikiye bölünmüş)",
-   "4 diş sarımsak (5 tanesi ezilmiş, 1 tanesi ince doğranmış)",
+   "6 diş sarımsak (5 tanesi ezilmiş, 1 tanesi ince doğranmış)",
    "2 adet defne yaprağı",
    "1 tatlı kaşığı karabiber tanesi",
    "1 yemek kaşığı tuz (haşlama için)",
    "1 litre kızartma yağı (ayçiçek veya kanola)",
    "80 ml sirke (sukang maasim veya beyaz sirke)",
-   "1 adet acı biber (bird's eye chili, ince dilimlenmiş)",
+   "1 adet acı biber (ince dilimlenmiş)",
    "1 çay kaşığı toz şeker",
    "1/2 çay kaşığı tuz (sos için)",
    "300 g uzun taneli pirinç (servis için)"
@@ -31,7 +31,7 @@
    "800 g pork belly (skin on, in one piece)",
    "2 litres water",
    "1 small onion (halved)",
-   "4 garlic cloves (5 crushed, 1 finely minced)",
+   "6 garlic cloves (5 crushed, 1 finely minced)",
    "2 bay leaves",
    "1 teaspoon black peppercorns",
    "1 tablespoon salt (for boiling)",
@@ -54,7 +54,7 @@
    "Kızartma yağını derin bir tencerede orta-yüksek ateşte 180°C'ye kadar ısıtın.",
    "Domuz etini yaklaşık 5 cm genişliğinde şeritlere, ardından ısırılabilir parçalara kesin.",
    "Parçaları yağa deri tarafı aşağı gelecek şekilde dikkatle bırakın ve 8-10 dakika, kenarları altın rengi olup deri kabarcıklanana kadar çevirerek kızartın.",
-   "Kızarmış parçaları süzgeçli bir teli veya kağıt havlu serili tabağa alıp yağını süzdürün.",
+   "Kızarmış parçaları tel ızgaraya veya kağıt havlu serili tabağa alıp yağını süzdürün.",
    "Küçük bir kasede sirke, ince doğranmış sarımsak, dilimlenmiş acı biber, toz şeker ve 1/2 çay kaşığı tuzu karıştırıp sosu hazırlayın.",
    "Lechon kawali parçalarını pilavın yanında, sirkeli sosla birlikte sıcak servis edin."
   ],
@@ -77,5 +77,16 @@
   "tr": "Derinin çıtır olması için haşlanan etin deri kısmını mutlaka iyice kurulayın ve buzdolabında kurutun; yağa çok nemli bir parça girerse yağ sıçrar ve deri kabarcıklanmaz.",
   "en": "For really crisp skin, dry the pork thoroughly and let it air-dry in the fridge; any moisture left on the skin will cause spattering and prevent proper blistering."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Garlic quantity mismatch: the ingredient line says 4 cloves, but the steps use 5 crushed plus 1 minced (6 total). Corrected to 6 in both languages.",
+   "time_min (90) is too short. The recipe requires at least 2 hours of chilling, so total time is about 3.5 hours. Corrected to 210.",
+   "Turkish step 'süzgeçli bir teli' is ungrammatical. Corrected to 'tel ızgara'.",
+   "Turkish ingredient line leaves the English term \"bird's eye chili\" untranslated. Corrected to natural Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

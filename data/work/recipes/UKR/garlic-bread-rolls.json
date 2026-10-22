@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "500 g çok amaçlı un",
-   "400 ml ılık su",
+   "300 ml ılık su",
    "7 g kuru maya (1 paket)",
    "10 g toz şeker",
    "8 g tuz",
@@ -26,7 +26,7 @@
   ],
   "en": [
    "500 g all-purpose flour",
-   "400 ml warm water",
+   "300 ml warm water",
    "7 g dry yeast (1 sachet)",
    "10 g caster sugar",
    "8 g salt",
@@ -41,9 +41,9 @@
   "tr": [
    "100 ml ılık suyu bir kaseye alın, içine maya ve şekeri ekleyip karıştırın ve 10 dakika köpürmesini bekleyin.",
    "Geniş bir kapta unu ve tuzu karıştırın. Ortasında bir kuyu açın.",
-   "Mayalı suyu, kalan 300 ml ılık suyu ve 40 ml ayçiçek yağını kuyuya ekleyin. Yumuşak, yapışmayan bir hamur elde edene kadar 8-10 dakika yoğurun.",
+   "Mayalı suyu, kalan 200 ml ılık suyu ve 40 ml ayçiçek yağını kuyuya ekleyin. Yumuşak, yapışmayan bir hamur elde edene kadar 8-10 dakika yoğurun.",
    "Hamuru üzeri kapalı şekilde sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalandırın.",
-   "Hamuru hafifçe bastırarak gazını alın ve 12 eşit parçaya bölün. Her parçayı 50 g civarında, düzgün toplar halinde şekillendirin.",
+   "Hamuru hafifçe bastırarak gazını alın ve 12 eşit parçaya bölün. Her parçayı 70 g civarında, düzgün toplar halinde şekillendirin.",
    "Topları fırın tepsisine biraz aralıklı, ama birbirine yakın dizin. Üzerini örtüp 30 dakika daha dinlendirin.",
    "Fırını 200°C'ye ısıtın.",
    "Sarımsakları ezin, bir tutam tuzla birlikte havanlıkta ya da bıçağın yan yüzeyiyle iyice macun haline getirin.",
@@ -54,9 +54,9 @@
   "en": [
    "Pour 100 ml of the warm water into a bowl, add the yeast and sugar, stir, and leave for 10 minutes until frothy.",
    "Mix the flour and salt in a large bowl and make a well in the centre.",
-   "Add the frothy yeast mixture, the remaining 300 ml warm water and the 40 ml sunflower oil to the well. Knead for 8-10 minutes until you have a soft, non-sticky dough.",
+   "Add the frothy yeast mixture, the remaining 200 ml warm water and the 40 ml sunflower oil to the well. Knead for 8-10 minutes until you have a soft, non-sticky dough.",
    "Cover the dough and leave it in a warm place for about 1 hour, until doubled in size.",
-   "Press the dough gently to release the air and divide it into 12 equal pieces. Shape each piece into a smooth ball of about 50 g.",
+   "Press the dough gently to release the air and divide it into 12 equal pieces. Shape each piece into a smooth ball of about 70 g.",
    "Arrange the balls on a baking tray, leaving a little space between them but keeping them close. Cover and rest for another 30 minutes.",
    "Preheat the oven to 200°C.",
    "Crush the garlic cloves with a pinch of salt in a mortar or with the side of a knife until you have a smooth paste.",
@@ -69,5 +69,14 @@
   "tr": "Pampuşkileri tepsiye birbirine yakın dizmek, yan yüzlerinin yumuşak kalmasını sağlar.",
   "en": "Placing the rolls close together on the tray keeps their sides soft and pillowy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity (400 ml for 500 g flour, about 80% hydration) is too wet to give the 'soft, non-sticky dough' the steps describe; reduced to 300 ml total (100 ml for the yeast, 200 ml for the dough) in",
+   "Dough weight doesn't match the portions: about 840 g of dough divided into 12 pieces of 50 g gives only 600 g; corrected to about 70 g per roll in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -14,9 +14,9 @@
  "ingredients": {
   "tr": [
    "15 ml zeytinyağı",
-   "1 tatlı kaşığı achiote tohumu (kırmızı kişniş tohumu / annatto)",
+   "1 tatlı kaşığı achiote tohumu (annatto)",
    "80 g tütsülenmiş jambon veya domuz pastırması, küp doğranmış",
-   "3 yemek kaşığı (45 g) sofrito (soğan, yeşil biber, sarımsak, kişniş ve dereotu karışımı)",
+   "3 yemek kaşığı (45 g) sofrito (soğan, yeşil biber, sarımsak, recao (culantro) ve kişniş karışımı)",
    "100 g domates sosu",
    "300 g uzun taneli pirinç",
    "1 paket (yaklaşık 2,5 g) sazón baharatı",
@@ -71,5 +71,14 @@
   "tr": "Pirinç altta hafif bir tabaka (pegao) oluşturduğunda lezzeti artar; bunun için pişirme sırasında kapağı açmayın ve karıştırmayın.",
   "en": "A light crust (pegao) forming on the bottom adds great flavour; to get it, keep the lid on and avoid stirring while the rice cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish sofrito ingredient lists 'dereotu' (dill), but the English says culantro, which is not dill; the Turkish should name culantro (recao) and kişniş.",
+   "Turkish achiote entry 'kırmızı kişniş tohumu' is wrong: kişniş tohumu means coriander seed, not achiote/annatto."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

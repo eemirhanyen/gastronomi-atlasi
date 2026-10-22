@@ -6,7 +6,7 @@
  "native": "пълнени чушки",
  "desc": {
   "tr": "Baharatlı kıymalı pirinç ile doldurulup domates sosunda pişirilen biber yemeğidir. Bulgaristan'da aile öğünlerinde ve hafta sonu yemeklerinde sık yapılır ve yanında soğuk yoğurtla servis edilir.",
-  "en": "Bsweet peppers filled with spiced minced meat and rice, then simmered in a tomato sauce. It is a common family lunch and Sunday dinner across Bulgaria, usually served with a spoonful of cold yogurt."
+  "en": "Sweet peppers filled with spiced minced meat and rice, then simmered in a tomato sauce. It is a common family lunch and Sunday dinner across Bulgaria, usually served with a spoonful of cold yogurt."
  },
  "servings": 4,
  "time_min": 90,
@@ -73,5 +73,13 @@
   "tr": "Biberleri tencereye sıkıca yerleştirin; böylece pişerken devrilmez ve dolgu dağılmaz.",
   "en": "Pack the peppers snugly in the pot so they stay upright and the filling does not fall out during simmering."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Typo in English description: \"Bsweet\" should be \"Sweet\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

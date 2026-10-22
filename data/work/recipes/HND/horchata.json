@@ -37,7 +37,7 @@
   "tr": [
    "Pirinci soğuk suyun altında berrak akana kadar yıkayın ve süzgeçte süzün.",
    "Pirinci, tarçın çubuklarını parçalayarak ve 1 l ılık suyu büyük bir kaseye koyun. Örtün ve oda sıcaklığında yaklaşık 3 saat bekletin.",
-   "Pirinci, tarçınları ve bekletme suyunu blendera alıp 2 dakika, pürüzsüz bir karışım elde edene kadar çekin.",
+   "Pirinci, tarçınları ve bekletme suyunu blendera aktarıp 2 dakika, pürüzsüz bir karışım elde edene kadar çekin.",
    "Karışımı ince gözlü bir süzgeçten veya tül bezinden bir sürahiye süzün. Posayı bezle iyice sıkın.",
    "Şekeri ekleyip tamamen eriyene kadar karıştırın. Vanilya özü, 500 ml soğuk suyu ve isteğe bağlı olarak evapore sütü ilave edin.",
    "İçeceği en az 1 saat buzdolabında, yaklaşık 4 °C'de soğutun.",
@@ -57,5 +57,13 @@
   "tr": "Pirinci iyice yıkamak, nişastanın fazlasını uzaklaştırır ve içeceğin bulanıklaşmasını önler; sıkı süzmek de daha pürüzsüz bir kıvam sağlar.",
   "en": "Rinsing the rice well removes excess starch that would cloud the drink, and straining firmly gives a smoother texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3: \"blendera alıp\" is unnatural; the rice and liquid are transferred to the blender (\"aktarıp\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

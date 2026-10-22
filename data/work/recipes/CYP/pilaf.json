@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Kapağı pişirme sırasında açmayın; buhar kaçarsa pirinç gevrek kalır. Pilavın altına inen kıvamlı kısmı kenarlardan kazıyıp servis ederek Kıbrıs usulü 'tahdig' benzeri bir lezzet elde edebilirsiniz.",
+  "tr": "Kapağı pişirme sırasında açmayın; buhar kaçarsa pirinç gevrek kalır. Pilavın altında oluşan kıtır, altın rengi tabakayı kenarlardan kazıyıp pilavın üstüne ekleyerek ekstra doku elde edebilirsiniz.",
   "en": "Do not lift the lid during cooking, or steam escapes and the rice stays hard. Scrape the crisp, golden layer from the base of the pot and serve it on top for extra texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip calls the crust 'Kıbrıs usulü tahdig benzeri'. Tahdig is a Persian term, so attributing it to Cypriot cooking is inaccurate.",
+   "The Turkish tip describes the crust as 'kıvamlı kısmı' (the part with a thick consistency), but the English says 'crisp, golden layer'. The Turkish should describe a crisp layer ('kıtır, altın rengi t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

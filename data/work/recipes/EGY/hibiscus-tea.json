@@ -5,7 +5,7 @@
  },
  "native": "كركدية",
  "desc": {
-  "tr": "Dut yapraklı, koyu kırmızı hibiskus çiçeklerinden yapılan ekşimsi, tatlı bir içecektir. Mısır'da sıcak yaz günlerinde soğuk olarak, iftar sofralarında ve misafirlere ikram edilen bir çay olarak tüketilir.",
+  "tr": "Koyu kırmızı, kurutulmuş hibiskus çiçeklerinden yapılan ekşimsi, tatlı bir içecektir. Mısır'da sıcak yaz günlerinde soğuk olarak, iftar sofralarında ve misafirlere ikram edilen bir çay olarak tüketilir.",
   "en": "A tart, sweet drink made from deep red dried hibiscus calyces. In Egypt it is served chilled on hot summer days, at iftar tables and as a welcome drink for guests."
  },
  "servings": 4,
@@ -55,5 +55,13 @@
   "tr": "Çiçekleri kaynatmayın, uzun süre demlemeyin; aşırı kaynatma kerkadeyi acılaştırır. Buzdolabında iki güne kadar saklayabilirsiniz.",
   "en": "Do not boil the flowers or steep them too long, as this makes the drink bitter. It keeps in the fridge for up to two days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description begins with \"Dut yapraklı\" (mulberry-leaved), which is incorrect for hibiscus and has no counterpart in the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

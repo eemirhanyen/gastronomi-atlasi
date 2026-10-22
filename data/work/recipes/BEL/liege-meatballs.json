@@ -23,7 +23,7 @@
    "1 g taze rendelenmiş hindistancevizi",
    "6 g tuz",
    "2 g karabiber",
-   "30 ml sıvı yağ",
+   "15 ml sıvı yağ",
    "30 g tereyağı",
    "2 soğan (250 g), ince dilimlenmiş",
    "15 g un",
@@ -43,7 +43,7 @@
    "1 g freshly grated nutmeg",
    "6 g salt",
    "2 g black pepper",
-   "30 ml neutral oil",
+   "15 ml neutral oil",
    "30 g butter",
    "2 onions (250 g), thinly sliced",
    "15 g plain flour",
@@ -57,7 +57,7 @@
   "tr": [
    "Ekmek dilimlerini sütün içinde 10 dakika bekletin, sonra elinizle sıkarak suyunu alın ve parçalayın.",
    "Büyük bir kapta domuz ve dana kıymasını, rendelenmiş soğanı, ekmeği, yumurtayı, maydanozu, hindistancevizini, tuzu ve karabiberi iyice yoğurun.",
-   "Karışımdan yaklaşık 37 g ağırlığında, yaklaşık 16 adet köfte şekillendirin. Tabakta 15 dakika dinlendirmek için buzdolabına kaldırın.",
+   "Karışımdan yaklaşık 52 g ağırlığında, yaklaşık 16 adet köfte şekillendirin. Tabakta 15 dakika dinlendirmek için buzdolabına kaldırın.",
    "Büyük bir tencerede 15 ml yağı orta-yüksek ateşte ısıtın. Köfteleri partiler halinde her yüzünü 2-3 dakika kızartarak kahverengileştirin, sonra bir tabağa alın.",
    "Aynı tencereye tereyağını ekleyin ve dilimlenmiş soğanları orta ateşte 10 dakika, yumuşayıp hafifçe altın rengi alana kadar soteleyin.",
    "Unu ekleyin ve 1 dakika karıştırarak pişirin. Dana suyunu yavaş yavaş ilave edip topaklanmasını önlemek için sürekli karıştırın.",
@@ -68,7 +68,7 @@
   "en": [
    "Soak the bread slices in the milk for 10 minutes, then squeeze out the liquid with your hands and tear the bread into small pieces.",
    "In a large bowl, mix the ground pork, ground beef, grated onion, soaked bread, egg, parsley, nutmeg, salt and black pepper until well combined.",
-   "Shape the mixture into about 16 meatballs of roughly 37 g each. Place them on a plate and refrigerate for 15 minutes to firm up.",
+   "Shape the mixture into about 16 meatballs of roughly 52 g each. Place them on a plate and refrigerate for 15 minutes to firm up.",
    "Heat 15 ml of the oil in a large pan over medium-high heat. Brown the meatballs in batches for 2-3 minutes per side, then transfer them to a plate.",
    "Add the butter to the same pan and cook the sliced onions over medium heat for 10 minutes, until soft and lightly golden.",
    "Stir in the flour and cook for 1 minute. Gradually pour in the beef stock, stirring constantly to avoid lumps.",
@@ -81,5 +81,14 @@
   "tr": "Köftelerin dağılmaması için karışımı şekillendirmeden önce mutlaka buzdolabında dinlendirin ve sosta pişirirken karıştırmak yerine tencereyi hafifçe sallayın.",
   "en": "Chill the mixture before shaping so the meatballs hold together, and shake the pan gently instead of stirring once they are in the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity mismatch: the ingredient list says 30 ml oil, but the method uses only 15 ml, so the other 15 ml is never used (Turkish and English).",
+   "Meatball weight doesn't add up: about 845 g of mixture (600 g meat, 60 g bread, 120 g onion, egg, parsley) cannot make 16 balls of 37 g (about 592 g). Each ball should be about 52 g to match the 16 co"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

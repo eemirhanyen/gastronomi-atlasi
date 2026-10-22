@@ -17,14 +17,14 @@
    "25 g hafif kavrulmuş, kaba öğütülmüş Arap kahvesi",
    "6 adet yeşil kakule tohumu, hafifçe ezilmiş",
    "1 tutam safran (yaklaşık 0,1 g)",
-   "8 adet Medjool hurması (yaklaşık 100 g)"
+   "8 adet Medjool hurması (yaklaşık 190 g)"
   ],
   "en": [
    "500 ml water",
    "25 g lightly roasted, coarsely ground Arabic coffee",
    "6 green cardamom pods, lightly crushed",
    "1 pinch saffron (about 0.1 g)",
-   "8 Medjool dates (about 100 g)"
+   "8 Medjool dates (about 190 g)"
   ]
  },
  "steps": {
@@ -49,5 +49,13 @@
   "tr": "Kahveyi kaynatmadan demleyin ve servisten önce mutlaka süzün; bu sayede tatlı, hafif ve tortusuz bir içecek elde edersiniz.",
   "en": "Steep the coffee without a hard boil and always strain it before serving for a light, sediment-free cup with clear cardamom flavor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Medjool dates weight is wrong: 8 Medjool dates weigh roughly 190 g, not 100 g (about 100 g is closer to 4 dates). Corrected in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

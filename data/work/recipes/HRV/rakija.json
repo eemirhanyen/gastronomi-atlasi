@@ -54,8 +54,16 @@
   ]
  },
  "tip": {
-  "tr": "Yeşil cevizleri kesmeden önce kabuğunu iğnelemek, içindeki acı tanenin rakıya geçmesini azaltır; bu yüzden cevizler mutlaka çok genç olmalıdır.",
+  "tr": "Yeşil cevizleri kesmeden önce kabuğunu iğnelemek, içindeki acı tanenin rakıya geçmesini azaltır; bu yüzden cevizler mutlaka çok genç olmalıdır. Not: Rakı zaten damıtılmış bir alkollü içecektir; bu ev tarifi damıtma yerine hazır satın alınan rakıyı kullanır.",
   "en": "Pierce and cut the walnuts while they are still very young and soft; mature walnuts will make the liqueur bitter. Note that rakija itself is a distilled spirit, so this home recipe uses store-bought rakija rather than distilling at home."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the second sentence present in the English tip (store-bought rakija vs. distilling at home), so the two versions disagree"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

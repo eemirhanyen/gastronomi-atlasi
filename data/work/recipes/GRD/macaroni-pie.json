@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "250 g dirsek makarna",
-   "1 tatlı kaşığı tuz",
+   "1 tatlı kaşığı tuz (makarna suyu için)",
    "30 g tereyağı",
    "10 g tereyağı (kap için)",
    "100 g soğan, ince doğranmış",
@@ -27,11 +27,12 @@
    "3 yumurta",
    "250 ml süt",
    "1/2 tatlı kaşığı karabiber",
-   "1/2 tatlı kaşığı tatlı kırmızı biber (paprika)"
+   "1/2 tatlı kaşığı tatlı kırmızı biber (paprika)",
+   "1 tatlı kaşığı tuz (yumurta karışımı için)"
   ],
   "en": [
    "250 g elbow macaroni",
-   "1 tsp salt",
+   "1 tsp salt (for the pasta water)",
    "30 g butter",
    "10 g butter (for the dish)",
    "100 g onion, finely chopped",
@@ -44,7 +45,8 @@
    "3 eggs",
    "250 ml whole milk",
    "1/2 tsp black pepper",
-   "1/2 tsp paprika"
+   "1/2 tsp paprika",
+   "1 tsp salt (for the egg mixture)"
   ]
  },
  "steps": {
@@ -71,5 +73,13 @@
   "tr": "Makarnayı kısa haşlayın; fırında pişmeye devam edeceği için tam yumuşak olmasına gerek yoktur. Olgun Cheddar daha belirgin bir tat verir.",
   "en": "Undercook the macaroni slightly, as it keeps cooking in the oven. Mature cheddar gives the strongest flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is used twice (1 tsp in the pasta water in step 1 and 1 tsp in the egg mixture in step 5), but the ingredient list gives only 1 tsp in both languages. The listed quantity is short by 1 tsp."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

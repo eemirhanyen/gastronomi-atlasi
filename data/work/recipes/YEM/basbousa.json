@@ -9,7 +9,7 @@
   "en": "A semolina and yogurt cake soaked in syrup and topped with almonds. In Yemen it is served at festivals, weddings and during Ramadan."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 130,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Şerbeti soğuk, tatlıyı ise sıcak dökmek ya da tersini yapmak önemlidir; ikisi de farklı bir ıslak doku verir, bu yüzden sıcak tatlıya ılık şerbet dökmeye özen gösterin.",
   "en": "Pour the syrup over the cake while the cake is hot and the syrup is warm, not cold, so the cake soaks it up evenly without becoming soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) does not match the steps: about 15 min prep, 15 min batter rest, 30-35 min baking and a mandatory 1-hour rest add up to roughly 130 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

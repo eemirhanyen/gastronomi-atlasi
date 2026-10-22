@@ -60,7 +60,7 @@
    "İç harç için geniş bir tavada sıvı yağı orta ateşte ısıtın. Soğanı ekleyip yumuşayana ve pembeleşene kadar yaklaşık 5 dakika soteleyin. Sarımsağı ekleyip 30 saniye daha kavurun.",
    "Salçayı ekleyin, 1 dakika kavurun. Liflenmiş tavuğu ve 150 ml tavuk suyunu ilave edin, suyun neredeyse tamamı çekilene kadar 8-10 dakika pişirin.",
    "Ocağı kapatın, maydanozu, krem peyniri, tuz ve karabiberi ekleyip iyice karıştırın. Harcı tamamen soğutun.",
-   "Soğuyan hamuru ikiye bölüp yağlı ellerle damla şeklinde yuvarlayın. Bir avuç hamuru avuç içinizde yassılaştırıp ortasına bir kaşık iç harç koyun, kenarlarını kapatıp damla biçimi verin. Toplam 16 adet hazırlayın.",
+   "Soğuyan hamuru ikiye bölüp her yarısını uzun bir silindir haline getirin. Her birini 8 parçaya kesin; bir parçayı yağlı avuç içinizde yassılaştırıp ortasına bir kaşık iç harç koyun, kenarlarını kapatıp damla biçimi verin. Toplam 16 adet hazırlayın.",
    "Üç ayrı kap hazırlayın: birinde un, birinde çırpılmış yumurta, birinde galeta unu olsun. Her coxinhayı önce una, sonra yumurtaya, en son galeta ununa bulayın.",
    "Kızartma yağını derin bir tencerede 175°C'ye ısıtın. Coxinhaları partiler halinde, altın rengi olana kadar yaklaşık 3-4 dakika kızartın.",
    "Kağıt havlu serili bir tabağa alıp fazla yağı süzdürün, sıcak servis yapın."
@@ -83,5 +83,13 @@
   "tr": "Hamuru soğutmadan şekillendirmeyin; sıcak hamur yapışır. Kaplamadan önce şekli sıkı tutmak için coxinhaları 15 dakika buzdolabında dinlendirebilirsiniz.",
   "en": "Do not shape the dough while it is warm or it will stick. Chilling the shaped coxinhas for 15 minutes before breading helps them hold their teardrop shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to roll each half of dough directly into teardrops, but the English step first rolls each half into a log and cuts 8 pieces. The Turkish version needs the same procedure so the two"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

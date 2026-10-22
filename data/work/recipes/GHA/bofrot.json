@@ -56,8 +56,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamur toplarını yağa atmadan önce yağ sıcaklığını bir termometreyle kontrol edin; yağ çok sıcaksa dış kısmı yanar, içi çiğ kalır.",
+  "tr": "Hamur toplarını yağa atmadan önce yağ sıcaklığını bir termometreyle kontrol edin; yağ çok sıcaksa dış kısmı yanar, içi çiğ kalır; yağ çok soğuksa toplar yağı emer ve yağlı olur.",
   "en": "Check the oil with a thermometer before frying. If it is too hot the outside will burn before the centre cooks; if too cool the balls will absorb oil and turn greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the second half of the English tip: the EN version warns that oil that is too cool makes the balls absorb oil and turn greasy, but the TR version only covers oil that is too hot."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

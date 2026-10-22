@@ -53,7 +53,7 @@
    "Kuru üzümleri ılık suda 10 dakika bekletin, süzüp kurulayın. Cevizleri kabaca doğrayın.",
    "Yumurtaları, tuzu ve toz şekeri mikserle açık renk ve kabarık olana kadar yaklaşık 4 dakika çırpın.",
    "Balı ve portakal kabuğunu ekleyip homojen olana kadar çırpmaya devam edin.",
-   "Eritilmiş tereyağını ılımasını bekleyip yavaşça karışıma ekleyin ve çırpın.",
+   "Eritilmiş tereyağının ılımasını bekleyip yavaşça karışıma ekleyin ve çırpın.",
    "Unu, kabartma tozunu, tarçını ve karanfili eleyin. Un karışımının yarısını ve sütün yarısını karışıma ekleyip spatulayla nazikçe katın. Kalan un ve sütle devam edin; un ile bitirin.",
    "Kuru üzümleri ve cevizleri hamura ekleyip bir kez daha nazikçe karıştırın.",
    "Hamuru hazırlanan kalıba dökün ve düzleştirin. 35-40 dakika pişirin; kürdan ortasına batırıldığında temiz çıkmalıdır.",
@@ -77,5 +77,13 @@
   "tr": "Balın yoğunluğu farklı olabileceği için ilk dilimden önce keki tamamen soğutun; sıcakken kesilirse dağılabilir.",
   "en": "Honey varies in thickness, so let the cake cool fully before slicing; a warm cake can crumble."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 has a grammar error: \"Eritilmiş tereyağını ılımasını bekleyip\" should use the genitive \"tereyağının\". The English version is correct."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

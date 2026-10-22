@@ -54,7 +54,7 @@
    "Ezilmiş sarımsağı ekleyip 1 dakika daha kavurun, ardından öğütülmüş kişniş ve karabiberi ilave edip birkaç saniye karıştırın.",
    "Ayırdığınız tavuk suyunu ekleyin, molohiyayı ve kalan tuzu da katın. Kaynamaya bırakın, sonra ateşi kısıp kapağı kapalı olarak yaklaşık 20 dakika pişirin.",
    "Doğranmış taze kişniş ve limon suyunu ekleyip 2 dakika daha kaynatın. Pişirme sonunda molohiya yeşil ve kıvamı yoğun olmalıdır.",
-   "Şredlenmiş tavuğu geri ekleyip birkaç dakika birlikte ısıtın. Sıcak pirinç pilavıyla servis edin."
+   "Parçalanmış tavuğu geri ekleyip birkaç dakika birlikte ısıtın. Sıcak pirinç pilavıyla servis edin."
   ],
   "en": [
    "Put the chicken thighs into a pot with the halved onion, bay leaf, 1.5 litres of water and half the salt. Bring to a boil, lower the heat and simmer for 35-40 minutes, skimming off any foam from the surface.",
@@ -71,5 +71,13 @@
   "tr": "Molohiyayı uzun süre kaynatmayın; fazla pişirilirse rengi kararır ve yapışkan bir kıvam alır. Limonu en sonda eklemek yeşil rengi ve taze tadı korur.",
   "en": "Do not overcook the jute leaves; long boiling turns them dark and slimy. Adding the lemon juice at the very end keeps the colour bright and the flavour fresh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 uses the nonsensical word \"Şredlenmiş\" for \"shredded\"; it should be \"Parçalanmış\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

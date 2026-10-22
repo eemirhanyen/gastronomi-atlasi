@@ -26,7 +26,8 @@
    "15 ml bitkisel yağ",
    "15 ml balık sosu",
    "1 çay kaşığı şeker",
-   "Tuz ve karabiber",
+   "1 çay kaşığı tuz",
+   "1/2 çay kaşığı karabiber",
    "30 ml taze limon suyu",
    "Bir avuç taze kişniş yaprağı (yaklaşık 10 g)"
   ],
@@ -44,7 +45,8 @@
    "15 ml cooking oil",
    "15 ml fish sauce",
    "1 teaspoon sugar",
-   "Salt and black pepper",
+   "1 teaspoon salt",
+   "1/2 teaspoon black pepper",
    "30 ml fresh lime juice",
    "A handful of fresh coriander leaves (about 10 g)"
   ]
@@ -79,5 +81,13 @@
   "tr": "Patlıcanı tam olarak közlemek, çorbaya dumanlı bir tat verir; kabuğu siyahlaşmaya başladığında fırından çıkarın.",
   "en": "Roasting the eggplant until the skin is well charred gives the soup its characteristic smoky flavour, so don't pull it out too early."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt and black pepper are listed without any quantity or unit in both the Turkish and English ingredient lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

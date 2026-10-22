@@ -32,7 +32,7 @@
    "2 yemek kaşığı kecap manis (tatlı soya sosu)",
    "1/2 tatlı kaşığı tuz",
    "250 ml su",
-   "1/2 adet limon suyu"
+   "1/2 adet limonun suyu"
   ],
   "en": [
    "4 eggs",
@@ -65,7 +65,7 @@
    "Tofu ve tempeyi dilimleyin. Kızgın yağda tofuyu altın rengi olana kadar her iki yüzünde yaklaşık 4 dakika kızartın, kağıt havluya alın. Tempeyi de aynı şekilde kızartıp kesin.",
    "Krupuğu kızgın yağa birkaç saniye tutarak kabartın ve kağıt havluya alın.",
    "Sos için 1 yemek kaşığı yağı tavada ısıtın. Soğan ve sarımsağı altın rengi olana kadar kavurun. Biberleri ekleyip 1 dakika daha pişirin.",
-   "Tavaya kavrulmuş yer fıstığını, palmiye şekerini, tamarind püresini, kecap manisi, tuzu ve suyu ekleyin. Orta ateşte kısık ateşte 6-7 dakika, sos kıvam alana kadar karıştırarak pişirin. Limon suyunu ekleyip ocaktan alın.",
+   "Tavaya kavrulmuş yer fıstığını, palmiye şekerini, tamarind püresini, kecap manisi, tuzu ve suyu ekleyin. Orta-kısık ateşte 6-7 dakika, sos kıvam alana kadar karıştırarak pişirin. Limon suyunu ekleyip ocaktan alın.",
    "Büyük bir tabağa sebzeleri, patatesleri, tofu ve tempeyi yerleştirin. Üzerine yumurta dilimlerini koyun.",
    "Sosu servis etmeden hemen önce üzerine dökün ve kraker olarak krupukla birlikte servis yapın."
   ],
@@ -85,5 +85,14 @@
   "tr": "Sosu kalınlığını su ile ayarlayın; gerçek gado-gado sosu yoğun ama akıcı olmalıdır. Taoge ve fasulyeyi aşırı haşlamayın, çıtır kalmaları lezzeti artırır.",
   "en": "Adjust the sauce thickness with water; authentic gado-gado sauce should be thick but still pourable. Do not overcook the bean sprouts and beans, as their crunch is part of the dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 has a redundant heat phrase ('orta ateşte kısık ateşte'), which reads unnaturally; it should say 'orta-kısık ateşte'.",
+   "Turkish ingredient '1/2 adet limon suyu' is ambiguous and unnatural; it should be '1/2 adet limonun suyu', matching the English '1/2 lime, juiced'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

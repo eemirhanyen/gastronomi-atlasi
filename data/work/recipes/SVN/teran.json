@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Teranın asidik yapısı yüksek olduğundan şekeri kademeli ekleyip tadına göre ayarlayın; kaynatmak tanenleri sertleştirir ve aromayı bozar.",
-  "en": "Teran is very acidic, so add the sugar gradually and adjust to taste; boiling makes the tannins harsh and dulls the aroma."
+  "tr": "Teranın asidik yapısı yüksek olduğundan servis öncesi tadına bakıp şekeri gerektiği kadar ayarlayın; kaynatmak tanenleri sertleştirir ve aromayı bozar.",
+  "en": "Teran is very acidic, so taste before serving and adjust the sugar to your liking; boiling makes the tannins harsh and dulls the aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says to add the sugar gradually, but steps 1 and 4 add all 60 g at the start and dissolve it. The tip should say to taste and adjust the sugar at the end instead."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

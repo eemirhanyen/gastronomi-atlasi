@@ -9,7 +9,7 @@
   "en": "A dense, dark stew of pounded cassava leaves slow-cooked with red palm oil and smoked fish, usually served with rice, plantain or cassava as a side dish. It is a staple at family meals and celebrations across Gabon."
  },
  "servings": 4,
- "time_min": 180,
+ "time_min": 210,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Manyok yapraklarında doğal olarak bulunan zehirli bileşikleri gidermek için yaprakları en az 2 saat, tamamen yumuşayana kadar pişirin; kısa pişirilmiş yahni hem tatsız hem de güvenli değildir.",
   "en": "Raw cassava leaves contain natural toxins, so cook the stew long and slowly until the leaves are completely soft; never serve it undercooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (180) is lower than the sum of the steps: about 45 min for the beef, 2 to 2.5 h for the stew, plus prep, soaking and frying, which comes to roughly 3.5 to 4 h"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

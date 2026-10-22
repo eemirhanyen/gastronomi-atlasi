@@ -63,7 +63,7 @@
    "Somonu tuz ve karabiberle hafifçe tatlandırın, tavada her iki yüzünü 1 dakika çevirerek kısaca sotelen. Parçalara ayırın.",
    "Haşlanmış yumurtaları ince ince doğrayın.",
    "Fırını 200°C'ye ısıtın. Hamuru ikiye bölün. Her parçayı yaklaşık 30x25 cm boyutunda dikdörtgen olacak şekilde açın.",
-   "Birinci hamurun ortasına pirinç, mantarlı soğan, somon, doğranmış yumurta ve dereotunu sırayla katman katman yayın. Kenarlardan 3 cm boş bırakın.",
+   "Birinci hamurun ortasına kenarlardan 3 cm boş bırakarak pirincin yarısını, mantarlı soğanı, somonu, doğranmış yumurtayı ve dereotunu sırayla katman katman yayın. En üstüne kalan pirinci ekleyin.",
    "Kenarları hafifçe ıslatıp ikinci hamurla kapatın ve sıkıca bastırarak mühürleyin. Üstüne birkaç küçük havalandırma deliği açın.",
    "Yumurta sarısını 1 yemek kaşığı sütle çırpın ve böreğin üstüne sürün. 15 dakika dinlendirip mayalanmasını bekleyin.",
    "200°C'de önceden ısıtılmış fırında 35-40 dakika, üstü altın sarısı olana kadar pişirin.",
@@ -89,5 +89,13 @@
   "tr": "Dolgunun sulanmasını önlemek için mantarları ve pirinci iyice soğutup süzün; iç harç ıslak olursa hamur alt kısmında çiğ kalabilir.",
   "en": "Cool the filling completely and drain any liquid from the mushrooms and rice so the bottom dough does not stay raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 lists the rice once, but the English version splits it into half the rice at the bottom and the remaining rice on top. The two versions disagree on the layering."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

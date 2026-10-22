@@ -17,7 +17,7 @@
    "1 limonun suyu, servis için 1 limon",
    "1 çay kaşığı tuz, ayrıca tatmak için",
    "800 g unlu patates (kalın çubuk şeklinde kesilmiş, yaklaşık 1 cm kalınlığında)",
-   "150 g çok amaçlı un",
+   "150 g çok amaçlı un (30 g kaplama için ayrılmış, 120 g hamur için)",
    "40 g mısır nişastası",
    "1 çay kaşığı kabartma tozu",
    "1/2 çay kaşığı taze çekilmiş karabiber",
@@ -30,7 +30,7 @@
    "Juice of 1 lemon, plus 1 lemon cut into wedges for serving",
    "1 tsp salt, plus extra to taste",
    "800 g floury potatoes, cut into chips about 1 cm thick",
-   "150 g plain flour",
+   "150 g plain flour (30 g reserved for dusting, 120 g for the batter)",
    "40 g cornflour",
    "1 tsp baking powder",
    "1/2 tsp freshly ground black pepper",
@@ -44,8 +44,8 @@
    "Balık parçalarını kağıt havlu ile iyice kurulayın, limon suyu ve 1 çay kaşığı tuz ile tatlandırıp 10 dakika dinlendirin.",
    "Patates çubuklarını soğuk suda 15 dakika bekletin, süzün ve bir bez üzerinde iyice kurulayın.",
    "Büyük bir tencerede yağı 160 °C'ye kadar ısıtın. Patatesleri partiler halinde 6-8 dakika, içi yumuşayana ama rengi almadan kızartın, süzgece alın.",
-   "Bir kasede unu, mısır nişastasını, kabartma tozunu, karabiberi ve bir tutam tuzu karıştırın. Soğuk suyu veya birayı ekleyip pürüzsüz, krema kıvamında bir hamur elde edin.",
-   "Yağı 180 °C'ye çıkarın. Balık parçalarını önce kuru unun içinde çevirin, fazlasını silkin, sonra hamura batırın.",
+   "Bir kasede 120 g unu, mısır nişastasını, kabartma tozunu, karabiberi ve bir tutam tuzu karıştırın. Soğuk suyu veya birayı ekleyip pürüzsüz, krema kıvamında bir hamur elde edin.",
+   "Yağı 180 °C'ye çıkarın. Balık parçalarını önce ayrılan 30 g kuru unun içinde çevirin, fazlasını silkin, sonra hamura batırın.",
    "Hamura batırılmış balıkları partiler halinde 4-5 dakika, altın sarısı olup iç kısmı pişene kadar kızartın. Kağıt havluya alın.",
    "Yağın sıcaklığını 190 °C'ye çıkarın ve patatesleri ikinci kez 2-3 dakika, dışı gevrek olana kadar kızartın. Süzün ve tuzlayın.",
    "Balık ve patatesleri sıcak servis edin, limon dilimleri ve sirke ile yanına sunun."
@@ -54,8 +54,8 @@
    "Pat the fish pieces dry with kitchen paper, season with the lemon juice and 1 tsp salt, and rest for 10 minutes.",
    "Soak the potato chips in cold water for 15 minutes, drain, and dry thoroughly on a cloth.",
    "Heat the oil in a large pan to 160 °C. Fry the chips in batches for 6-8 minutes, until soft in the centre but not coloured. Lift onto a rack to drain.",
-   "In a bowl, mix the flour, cornflour, baking powder, black pepper and a pinch of salt. Add the very cold water or beer and whisk to a smooth, thick batter.",
-   "Raise the oil to 180 °C. Dust the fish pieces in the dry flour, shake off the excess, then dip them in the batter.",
+   "In a bowl, mix 120 g of the flour, the cornflour, baking powder, black pepper and a pinch of salt. Add the very cold water or beer and whisk to a smooth, thick batter.",
+   "Raise the oil to 180 °C. Dust the fish pieces in the reserved 30 g of dry flour, shake off the excess, then dip them in the batter.",
    "Fry the battered fish in batches for 4-5 minutes, until golden and cooked through. Drain on kitchen paper.",
    "Raise the oil to 190 °C and fry the chips a second time for 2-3 minutes, until crisp. Drain and season with salt.",
    "Serve the fish and chips hot, with lemon wedges and vinegar on the side."
@@ -65,5 +65,14 @@
   "tr": "Hamurun çok soğuk olması ve yağın doğru sıcaklıkta olması gevrek bir kaplama için önemlidir. Balık ve patatesi küçük partiler halinde kızartın, yoksa yağ soğur ve hamur yağ çeker.",
   "en": "Keep the batter very cold and the oil at the right temperature for a crisp coating. Fry in small batches, or the oil cools and the batter turns greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Flour is used twice (dry dusting in step 5 and batter in step 4) but the ingredient list gives only one 150 g amount, so the dusting flour is not accounted for.",
+   "The dry flour used for dusting should be specified as a separate, reserved portion in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

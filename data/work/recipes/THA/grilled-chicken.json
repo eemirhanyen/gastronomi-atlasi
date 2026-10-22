@@ -62,7 +62,7 @@
    "Palmiye şekerini, 30 ml balık sosunu, istiridye sosunu, soya sosunu, hindistan cevizi sütünü ve sıvı yağı ekleyip iyice karıştırın.",
    "Tavukları çentikleyin, marinenin yarısını tavuğa sürüp iyice yedirin ve en az 30 dakika, tercihen bir gece buzdolabında bekletin.",
    "Kömür ızgarayı ya da fırın ızgarasını 200°C'ye ısıtın. Yapışkan pirinci bambu sepette ya da süzgeçte 20-25 dakika buharda pişirin.",
-   "Tavukları ara sıra çevirerek, derin renk alana ve iç kısmı tamamen pişene kadar 30-35 dakika ızgarada pişirin. Son 5 dakikada kalan marineyi fırçayla sürün.",
+   "Tavukları ara sıra çevirerek, derin renk alana ve iç kısmı tamamen pişene kadar (iç sıcaklığı en az 74°C) 30-35 dakika ızgarada pişirin. Kalan marineyi küçük bir tencerede 2 dakika kaynatın, son 5 dakikada tavuğa fırçayla sürün.",
    "Sosu hazırlamak için 30 ml balık sosunu, limon suyunu, şekeri ve kavrulmuş pul biberi bir kapta karıştırın. Arpacık soğanını ekleyin.",
    "Tavukları servis tabağına alın, üzerine taze kişniş ve nane yapraklarını serpin. Yapışkan pirinç ve sos ile servis yapın."
   ],
@@ -72,7 +72,7 @@
    "Add the palm sugar, 30 ml fish sauce, oyster sauce, light soy sauce, coconut milk and vegetable oil, and mix well.",
    "Score the chicken pieces, rub half the marinade into them, and leave to marinate for at least 30 minutes, ideally overnight in the fridge.",
    "Heat the charcoal or oven grill to 200°C. Steam the drained sticky rice in a bamboo basket or colander over boiling water for 20-25 minutes.",
-   "Grill the chicken, turning occasionally, for 30-35 minutes until deeply golden and cooked through. Brush with the remaining marinade during the last 5 minutes.",
+   "Grill the chicken, turning occasionally, for 30-35 minutes until deeply golden and cooked through (internal temperature at least 74°C). Boil the remaining marinade in a small pan for 2 minutes, then brush it over the chicken during the last 5 minutes.",
    "For the dipping sauce, mix 30 ml fish sauce, the lime juice, sugar and toasted chilli flakes in a bowl. Stir in the sliced shallots.",
    "Arrange the chicken on a serving plate, scatter over the coriander and mint leaves, and serve hot with the sticky rice and dipping sauce."
   ]
@@ -81,5 +81,13 @@
   "tr": "Marinasyonu gece boyunca bekletmek, tavuğun lezzetini ve renginin derinliğini belirgin şekilde artırır; şekerin fazla kızarmadan karamelize olması için ızgarayı orta ateşte tutun.",
   "en": "Marinating overnight deepens the flavour and colour; keep the heat moderate so the palm sugar caramelises without burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 tells the cook to brush the remaining marinade onto the chicken during grilling. That marinade has been in contact with raw chicken, so it is a food-safety risk unless it is boiled first (Turki"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru olabildiğince ince açın; ince ekmekler sacda hızlı pişer ve gevrek-yumuşak dokusunu korur. Yeni açılan hamuru ilk pişirmeden önce soğuk tutmak, yapışmasını önler.",
+  "tr": "Hamuru olabildiğince ince açın; ince ekmekler sacda hızlı pişer ve gevrek-yumuşak dokusunu korur. Kullanmadığınız hamuru çalışırken kapalı tutarak kurumasını önleyin.",
   "en": "Roll the dough as thin as you can; thin rounds cook quickly and keep a tender-crisp texture. Keep unused dough covered so it does not dry out while you work through the batch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips differ: the Turkish version says to keep newly rolled dough cold before the first cooking, while the English says to keep unused dough covered so it doesn't dry out. The Turki"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

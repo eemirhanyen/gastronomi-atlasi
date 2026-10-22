@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "300 g kuru borlotti fasulyesi (bir gece önceden ıslatılmış)",
-   "150 g tütsülenmiş domuz pastırması veya tütsülü domuz budu",
+   "150 g tütsülenmiş domuz göbeği veya tütsülenmiş domuz omzu",
    "2 litre su",
    "1 defne yaprağı",
    "3 yemek kaşığı (45 ml) zeytinyağı",
@@ -22,7 +22,7 @@
    "1 orta boy havuç (80 g), küp doğranmış",
    "1 kereviz sapı (60 g), küp doğranmış",
    "2 diş sarımsak, ince doğranmış",
-   "1 tatlı kaşığı (5 g) tatlı kırmızı biber",
+   "1 tatlı kaşığı (2 g) tatlı kırmızı biber",
    "150 g olgun domates, rendelenmiş",
    "100 g küçük makarna (ditalini veya sitni makaroni)",
    "Tuz ve karabiber",
@@ -38,7 +38,7 @@
    "1 medium carrot (80 g), diced",
    "1 celery stalk (60 g), diced",
    "2 garlic cloves, finely chopped",
-   "1 teaspoon (5 g) sweet paprika",
+   "1 teaspoon (2 g) sweet paprika",
    "150 g ripe tomato, grated",
    "100 g small pasta (ditalini or similar)",
    "Salt and black pepper",
@@ -79,5 +79,15 @@
   "tr": "Makarnayı servisten hemen önce ekleyin; bekledikçe çorbayı emer ve kıvamı koyulaşır. Artan çorbayı ısıtırken biraz su ekleyin.",
   "en": "Add the pasta just before serving, as it swells and thickens the soup while it sits. When reheating leftovers, add a little water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Smoked meat mismatch: EN says 'smoked pork belly or smoked pork shoulder', but TR says 'domuz pastırması veya tütsülü domuz budu' (pastırma is not pork belly, and 'budu' means leg/ham, not shoulder).",
+   "Paprika quantity implausible: 5 g of sweet paprika is about 2 teaspoons, too much for 1 teaspoon. About 2 g matches 1 teaspoon.",
+   "Turkish meat ingredient wording should match the English version."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

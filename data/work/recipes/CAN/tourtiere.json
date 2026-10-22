@@ -9,7 +9,7 @@
   "en": "A traditional spiced meat pie from Québec, with French colonial roots. It is especially popular on Christmas Eve and New Year's Eve, served hot at family gatherings."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "5 g tuz",
    "125 g soğuk tereyağı, küp küp doğranmış",
    "100 ml buz gibi su",
-   "400 g kıyma (dana ve domuz karışımı)",
+   "400 g domuz kıyması",
    "150 g dana kıyma",
    "1 orta boy soğan (120 g), ince doğranmış",
    "1 diş sarımsak, ezilmiş",
@@ -62,7 +62,7 @@
    "Kıymaları ekleyin ve tahta kaşıkla parçalayarak 8-10 dakika, kırmızılığı kalmayana kadar pişirin.",
    "Tarçın, karanfil, yenibahar, kekik, tuz ve karabiberi ekleyip 1 dakika daha kavurun. Suyu ilave edip kısık ateşte 10 dakika pişirin, sıvının büyük kısmı çekilsin.",
    "Ezilmiş patatesi ekleyip iyice karıştırın. Harcı tamamen soğuması için yaklaşık 20 dakika bekletin.",
-   "Fırını 200°C'ye ısıtın. Hamurun bir diskini 3 mm kalınlığında açıp 22 cm'lik bir tart kalıbına yerleştirin. Harcı kalıba doldurun.",
+   "Fırını 200°C'ye ısıtın. Hamurun bir diskini 3 mm kalınlığında açıp 22 cm'lik bir pasta kalıbına yerleştirin. Harcı kalıba doldurun.",
    "İkinci hamur diskini açın, harcın üzerine kapatın. Kenarları kesip birleştirin ve çatalla bastırarak mühürleyin. Üstüne birkaç küçük havalandırma deliği açın.",
    "Yumurta sarısı ile sütü çırpın ve hamurun üzerine fırça ile sürün.",
    "Pişirme: 200°C'de 20 dakika, ardından fırını 180°C'ye düşürüp 25-30 dakika daha, üstü altın sarısı olana kadar pişirin. Dilimlemeden önce 10 dakika dinlendirin."
@@ -85,5 +85,15 @@
   "tr": "Harcın soğuk olması, hamurun pişerken sızmasını önler; harcı dolduğunda mutlaka tamamen soğutun.",
   "en": "Let the filling cool completely before adding the top crust; a warm filling will make the pastry soggy and can cause the base to leak."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 400 g 'kıyma (dana ve domuz karışımı)' (beef and pork mix), but the English says 400 g ground pork. The two versions disagree on the meat.",
+   "time_min is 90, but the steps add up to well over that: 30 min dough chill, about 20 min filling cool-down, and 45-50 min baking, plus prep and cooking.",
+   "Turkish step 8 calls the vessel a 'tart kalıbı' (tart pan), while the English says 'pie dish'. A double-crust pie belongs in a pie/pasta dish, so the Turkish term should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

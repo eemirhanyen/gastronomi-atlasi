@@ -31,7 +31,7 @@
   "tr": [
    "Mısır unu ve sorgum malt ununu bir kapta 300 ml soğuk suyla pürüzsüz bir hamur olana kadar karıştırın.",
    "Kalan 1,2 L suyu geniş bir tencerede kaynatın.",
-   "Hamuru kaynayan suya ince bir akışla dökerken sürekli karıştırın. Kısık ateşte yaklaşık 10 dakika pişirerek yoğun bir lapa elde edin.",
+   "Hamuru kaynayan suya ince bir akışla dökerken sürekli karıştırın. Kısık ateşte yaklaşık 10 dakika pişirerek akışkan, hafif kıvamlı bir lapa elde edin.",
    "Tencereyi ocaktan alın, üzerini örtün ve karışım yaklaşık 40°C'ye, yani ılık hale gelene kadar soğumaya bırakın.",
    "Ilık lapaya ekşi başlangıcı ya da kuru mayayı ekleyin ve iyice karıştırın.",
    "Üzerini temiz bir bezle örtün ve sıcak bir yerde 12-18 saat bekletin. Karışım köpürüp hafifçe ekşiyene kadar fermente olsun.",
@@ -41,7 +41,7 @@
   "en": [
    "In a bowl, mix the maize meal and sorghum malt flour with 300 ml of cold water until you have a smooth batter.",
    "Bring the remaining 1.2 L of water to the boil in a large pot.",
-   "Pour the batter into the boiling water in a thin stream, stirring constantly. Simmer on low heat for about 10 minutes to make a thick porridge.",
+   "Pour the batter into the boiling water in a thin stream, stirring constantly. Simmer on low heat for about 10 minutes to make a thin, lightly thickened porridge.",
    "Remove the pot from the heat, cover it, and let the porridge cool to lukewarm, about 40°C.",
    "Stir the sour starter or dry yeast into the lukewarm porridge until fully combined.",
    "Cover with a clean cloth and leave in a warm place for 12-18 hours, until the mixture is foamy and slightly sour.",
@@ -53,5 +53,13 @@
   "tr": "Fermentasyon için oda sıcaklığının 25-30°C civarında olduğu bir yer seçin; içecek en fazla 2 gün içinde tüketilmelidir, çünkü ekşiliği zamanla artar.",
   "en": "Ferment in a spot around 25-30°C for best results, and drink within 2 days, as it becomes increasingly sour over time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 says the batter should make a 'thick' porridge (Turkish 'yoğun', English 'thick'), but 150 g of meal in 1.5 L of total water is about 10% solids, which gives a thin, pourable gruel, not a thick"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

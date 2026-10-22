@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Domateslerin fazla suyunu süzmek için doğradıktan sonra kaseyi birkaç dakika eğik bırakın; böylece salsa daha dolgun ve kıvamlı olur.",
+  "tr": "Domateslerin fazla suyunu süzmek için doğradıktan sonra onları birkaç dakika süzgeçte bekletin; böylece salsa daha dolgun ve kıvamlı olur.",
   "en": "After dicing, let the tomatoes sit in a sieve for a few minutes to drain excess juice, so the salsa stays chunky rather than watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to tilt the bowl to drain the tomatoes, but the English tip says to use a sieve. The Turkish text should match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

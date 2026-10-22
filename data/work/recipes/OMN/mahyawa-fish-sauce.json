@@ -42,26 +42,34 @@
    "Kurutulmuş balıkları soğuk suyla çalkalayıp kirini temizleyin, ardından 250 ml ılık suda 20 dakika bekletin.",
    "Balıkları süzün, kafalarını ve kuyruklarını ayıklayın, kağıt havlu üzerinde iyice kurutun.",
    "Kuru bir tavada kimyonu orta ateşte 1 dakika kavurun, sonra havanda ya da değirmende öğütün.",
-   "Havanda sarımsak, doğranmış acı biber ve tuzu pürüzsüz bir macun olana kadar dövün.",
+   "Havanda sarımsak ve doğranmış acı biberi pürüzsüz bir macun olana kadar dövün.",
    "Balıkları ekleyip macun kıvamına gelene kadar dövmeye devam edin.",
    "Kurutulmuş limonu delin, havanda ezerek macunun içine karıştırın.",
    "Öğütülmüş kimyonu, ince kıyılmış kişnişi, limon suyunu ve yağı ekleyip iyice karıştırın.",
-   "Sosu 15 dakika dinlendirin, tadına bakıp gerekirse tuz veya limon suyu ekleyin, pirinç ya da ekmekle servis edin."
+   "Sosu 15 dakika dinlendirin, tuzu azar azar ekleyip tadına bakarak ayarlayın, gerekirse limon suyu ekleyin, pirinç ya da ekmekle servis edin."
   ],
   "en": [
    "Rinse the dried fish under cold water to remove dirt, then soak in 250 ml lukewarm water for 20 minutes.",
    "Drain the fish, remove heads and tails, and pat thoroughly dry on kitchen paper.",
    "Toast the ground cumin in a dry pan over medium heat for 1 minute, then grind it in a mortar or spice grinder.",
-   "In a mortar, pound the garlic, chopped red chillies and salt into a smooth paste.",
+   "In a mortar, pound the garlic and chopped red chillies into a smooth paste.",
    "Add the fish and keep pounding until it forms a coarse paste with the garlic and chilli.",
    "Pierce the dried lime, then crush it in the mortar and work it into the paste.",
    "Stir in the toasted cumin, finely chopped coriander, lemon juice and oil until well combined.",
-   "Let the sauce rest for 15 minutes, taste and adjust with salt or lemon juice if needed, then serve with rice or bread."
+   "Let the sauce rest for 15 minutes, add the salt gradually and taste as you go, adjusting with lemon juice if needed, then serve with rice or bread."
   ]
  },
  "tip": {
   "tr": "Kurutulmuş balıkları tuzlu olabileceği için tuzu son aşamada, tadına bakarak ekleyin.",
   "en": "Dried fish is often quite salty, so add the salt gradually and taste before adding more."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is added in step 4 (Turkish and English), but the tip says to add salt last and taste first because dried fish is salty. The steps and tip contradict each other."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

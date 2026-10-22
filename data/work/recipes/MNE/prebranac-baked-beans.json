@@ -15,24 +15,24 @@
   "tr": [
    "400 g kuru beyaz fasulye (bir gece önceden ıslatılmış)",
    "1,2 l su",
-   "2 adet bayat soğan (yaklaşık 300 g), küp doğranmış",
+   "2 adet soğan (yaklaşık 300 g), küp doğranmış",
    "4 yemek kaşığı (60 ml) zeytinyağı",
    "2 adet olgun domates (yaklaşık 300 g), rendelenmiş",
    "1 tatlı kaşığı tatlı kırmızı toz biber",
    "1 adet defne yaprağı",
-   "1 çay kaşığı tuz (yaklaşık 8 g), ayrıca tadı için",
+   "1,5 çay kaşığı tuz (yaklaşık 8 g), ayrıca tadı için",
    "1/2 çay kaşığı karabiber",
    "3 yemek kaşığı doğranmış maydanoz"
   ],
   "en": [
    "400 g dried white beans (soaked overnight)",
    "1.2 l water",
-   "2 onions (about 300 g), finely diced",
+   "2 onions (about 300 g), diced",
    "60 ml olive oil (4 tbsp)",
    "2 ripe tomatoes (about 300 g), grated",
    "1 tsp sweet red paprika",
    "1 bay leaf",
-   "1 tsp salt (about 8 g), plus more to taste",
+   "1.5 tsp salt (about 8 g), plus more to taste",
    "1/2 tsp black pepper",
    "3 tbsp chopped parsley"
   ]
@@ -63,5 +63,15 @@
   "tr": "Fasulyeyi tuzlamadan önce yarı pişmiş haline getirin; kabuğu sert kalmasın ve daha yumuşak pişsin. Ayrıca pişirme suyunu atmayın, sos için çok işe yarar.",
   "en": "Add salt only after the beans are half-cooked, so their skins stay tender. Keep the cooking liquid: it gives the baked dish its sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'bayat soğan' (stale onion) is unnatural and inaccurate for a fresh onion ingredient; should be 'soğan'.",
+   "Salt quantity mismatch: '1 çay kaşığı tuz (yaklaşık 8 g)' (and 'tsp' in English). About 8 g of salt is closer to 1.5 teaspoons, so the unit and weight disagree.",
+   "Onion cut differs between languages: Turkish says 'küp doğranmış' (cubed) while English says 'finely diced'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

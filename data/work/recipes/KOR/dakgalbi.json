@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuğı büyük bir kapta gochujang, gochugaru, koyu soya sosu, şeker, mirin, susam yağı, sarımsak, zencefil ve karabiberle karıştırın. Parçaları ekleyip iyice bulaştırın ve en az 30 dakika oda sıcaklığında marine edin.",
+   "Tavuğu büyük bir kapta gochujang, gochugaru, koyu soya sosu, şeker, mirin, susam yağı, sarımsak, zencefil ve karabiberle karıştırın. Parçaları ekleyip iyice bulaştırın ve en az 30 dakika oda sıcaklığında marine edin.",
    "Pirinç keklerini ılık suda bekletin, süzün ve kenarda hazır tutun.",
    "Lahanayı, soğanı ve tatlı patatesi hazırlayın. Lahanayı kalın doğrayın, soğanı halka halka kesin, tatlı patatesi 5 mm dilimler halinde kesin.",
    "Geniş bir tavayı veya wok'u orta-yüksek ateşte ısıtın ve bitkisel yağı ekleyin.",
@@ -74,8 +74,16 @@
   ]
  },
  "tip": {
-  "tr": "Tavuğı bir gece önceden marine ederseniz tat daha derin olur; servis sırasında pirinç ve kimchi ile birlikte sunun.",
+  "tr": "Tavuğu bir gece önceden marine ederseniz tat daha derin olur; servis sırasında pirinç ve kimchi ile birlikte sunun.",
   "en": "Marinating overnight gives deeper flavour; serve with steamed rice and kimchi on the side."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish grammar: 'Tavuğı' in step 1 should be 'Tavuğu' (accusative/dative form of 'tavuk'). The same error appears in the tip ('Tavuğı bir gece önceden...')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

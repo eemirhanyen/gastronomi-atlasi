@@ -27,7 +27,7 @@
    "50 g tütsülenmiş kurutulmuş balık, parçalanmış",
    "300 g taze bamya, ince dilimlenmiş",
    "400 g uzun taneli beyaz pirinç",
-   "500 ml su (pirinç için)"
+   "800 ml su (pirinç için)"
   ],
   "en": [
    "500 g beef chuck, cut into cubes",
@@ -44,7 +44,7 @@
    "50 g smoked dried fish, flaked",
    "300 g fresh okra, thinly sliced",
    "400 g long-grain white rice",
-   "500 ml water (for the rice)"
+   "800 ml water (for the rice)"
   ]
  },
  "steps": {
@@ -57,7 +57,7 @@
    "Parçalanmış kurutulmuş balığı ekleyip 10 dakika daha pişirin.",
    "Bamyayı ekleyin ve çorba koyulaşıp bamya yumuşayana kadar 10-12 dakika kısık ateşte pişirin.",
    "Biberi çıkarın, tadına bakıp gerekirse tuz ekleyin.",
-   "Pirinci iyice yıkayın. 500 ml suyla orta ateşte kaynatın, kapağı kapatıp ateşi çok kısın ve suyunu çekene kadar yaklaşık 15 dakika pişirin. 5 dakika dinlendirin.",
+   "Pirinci iyice yıkayın. 800 ml suyla orta ateşte kaynatın, kapağı kapatıp ateşi çok kısın ve suyunu çekene kadar yaklaşık 18 dakika pişirin. 5 dakika dinlendirin.",
    "Pirinci derin tabaklara alın ve üzerine sıcak soupou kanja'yı dökerek servis yapın."
   ],
   "en": [
@@ -69,7 +69,7 @@
    "Add the flaked smoked fish and simmer for 10 more minutes.",
    "Stir in the sliced okra and simmer gently for 10 to 12 minutes, until the okra is tender and the broth has thickened.",
    "Remove the Scotch bonnet, taste, and add more salt if needed.",
-   "Rinse the rice well. Bring it to a boil in 500 ml water over medium heat, then cover, turn the heat to very low and cook for about 15 minutes until the water is absorbed. Rest for 5 minutes.",
+   "Rinse the rice well. Bring it to a boil in 800 ml water over medium heat, then cover, turn the heat to very low and cook for about 18 minutes until the water is absorbed. Rest for 5 minutes.",
    "Spoon the rice into deep bowls and ladle the hot soupou kanja over it to serve."
   ]
  },
@@ -77,5 +77,14 @@
   "tr": "Bamyanın yapışkan dokusunu korumak için bamyayı son aşamada ekleyin ve çok uzun pişirmeyin; biberi bütün bırakmak acılığı yumuşak tutar.",
   "en": "Add the okra at the end and avoid overcooking it to keep the soup from becoming stringy; leaving the scotch bonnet whole keeps the heat mild."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Rice-to-water ratio is too low: 400 g long-grain rice with 500 ml water (about 1.25:1) will likely leave the rice hard or scorched. Long-grain rice usually needs about 2:1, so 800 ml.",
+   "Matching change needed in the Turkish and English ingredient lists and cooking steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "ލުނު މިރިސް",
  "desc": {
-  "tr": "Maldivler'in en yaygın yan lezzetlerinden biri olan, kırmızı soğan, acı biber ve kurutulmuş Maldiv balığıyla hazırlanan sert ekşi-acı bir sostur. Pirinç yemeklerinin ve kahvaltı sofralarının vazgeçilmez eşlikçisidir.",
+  "tr": "Maldivler'in en yaygın yan lezzetlerinden biri olan, kırmızı soğan, acı biber ve kurutulmuş Maldiv balığıyla hazırlanan sert ekşi-acı bir sostur. Pirinç yemeklerinin ve kahvaltı sofralarının vazgeçilmez eşlikçisidir; özellikle mas huni ile servis edilir.",
   "en": "A sharp, sour and fiery relish of red onion, chilli and dried Maldive fish, found on almost every Maldivian table. It is served alongside rice dishes and at breakfast, especially with mas huni."
  },
  "servings": 4,
@@ -15,7 +15,7 @@
   "tr": [
    "400 g kırmızı soğan",
    "4 adet taze acı biber (ör. cılız/bird's eye)",
-   "15 g kurutulmuş Maldiv balığı pulu (rihaakuru yerine kurutulmuş ton balığı pulu)",
+   "15 g kurutulmuş Maldiv balığı pulu",
    "1 tatlı kaşığı (5 g) tuz",
    "3 yemek kaşığı (45 ml) limon suyu"
   ],
@@ -51,5 +51,14 @@
   "tr": "Maldiv balığı pulları zaten tuzludur; tadına bakmadan fazla tuz eklemeyin.",
   "en": "Dried Maldive fish is already salty, so taste before adding extra salt."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line 3 adds a substitution note, \"(rihaakuru yerine kurutulmuş ton balığı pulu)\", that has no English counterpart. It also contradicts the ingredient itself: rihaakuru is a fish pas",
+   "The English description mentions serving with mas huni, but the Turkish description omits it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

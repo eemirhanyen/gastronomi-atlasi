@@ -44,7 +44,7 @@
  "steps": {
   "tr": [
    "Papayayı rendeleyin veya çok ince julyen şeklinde doğrayın. Soğuk suda birkaç dakika bekletip süzün, böylece daha gevrek olur.",
-   "Havanın dibinde sarımsak, taze biberi ve kurutulmuş karidesi kaba bir macun kıvamına gelene kadar dövün.",
+   "Havanda sarımsak, taze biberi ve kurutulmuş karidesi kaba bir macun kıvamına gelene kadar dövün.",
    "Palmiye şekerini ekleyip eriyene kadar birkaç kez ezin.",
    "Kiraz domatesleri ve uzun fasulyeleri hafifçe ezerek havana ekleyin, sularının çıkması için birkaç kez bastırın.",
    "Papayayı ekleyin ve havanı sıkıca döndürerek, papayayı baharatlarla yavaşça karıştırın ve hafifçe dövün.",
@@ -67,5 +67,13 @@
   "tr": "Papayayı az dövün; aşırı dövülürse yumuşar ve gevrekliğini kaybeder. Yapışkan pirinçle birlikte servis edildiğinde en iyi tadı verir.",
   "en": "Pound the papaya lightly; over-pounding makes it soft and limp. Serve with sticky rice and lettuce, as Lao families do, to balance the heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says \"Havanın dibinde\" (\"at the bottom of the mortar\"), which is unnatural. The English step says \"In a mortar\", so the Turkish should be \"Havanda\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

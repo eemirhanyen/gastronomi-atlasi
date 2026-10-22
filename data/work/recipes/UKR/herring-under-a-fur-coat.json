@@ -9,7 +9,7 @@
   "en": "A layered salad of salted herring topped with grated potato, carrot, egg and beetroot, served at New Year and holiday tables across Ukraine and Russia."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -42,7 +42,7 @@
    "Patates, havuç ve pancarı kabuklarıyla ayrı ayrı tencerelerde haşlayın. Patates ve havuç yaklaşık 25 dakika, pancar ise yumuşayana kadar yaklaşık 45 dakika pişsin.",
    "Yumurtaları 10 dakika haşlayıp soğuk suya alın.",
    "Soğanı ince doğrayıp sirke ve suyla karıştırın, 10 dakika bekletin, ardından süzün.",
-   "Ringa filetosunun derisini ve kılçıklarını temizleyip küçük küçük doğrayın.",
+   "Ringa filetosunu soğuk suda 1-2 saat bekletip tuzunu azaltın, ardından derisini ve kılçıklarını temizleyip küçük küçük doğrayın.",
    "Sebzeleri ve yumurtaları soyun. Patatesi, havucu, pancarı ve yumurtaları ayrı kaselerde iri rendeleyin.",
    "Servis tabağına veya yüksek kenarlı kalıba ilk olarak ringa ile soğanı yayın, hafifçe tuz ve karabiber serpin.",
    "Üzerine rendelenmiş patatesi koyup tuz ve karabiber ekleyin, ardından yarısını mayonezle yayın.",
@@ -54,7 +54,7 @@
    "Boil the potatoes, carrots and beetroot separately in their skins. Potatoes and carrots take about 25 minutes, beetroot about 45 minutes until tender.",
    "Hard-boil the eggs for 10 minutes, then transfer them to cold water.",
    "Finely dice the onion, cover it with the vinegar and water, let it stand for 10 minutes, then drain.",
-   "Remove the skin and any bones from the herring fillet and cut it into small pieces.",
+   "Soak the herring fillet in cold water for 1–2 hours to reduce its salt, then remove the skin and any bones and cut it into small pieces.",
    "Peel the vegetables and eggs. Coarsely grate the potatoes, carrots, beetroot and eggs into separate bowls.",
    "On a serving plate or in a tall-sided mould, spread the herring with the drained onion first, then season lightly with salt and pepper.",
    "Add the grated potato on top, season, and spread half of the mayonnaise over it.",
@@ -64,8 +64,18 @@
   ]
  },
  "tip": {
-  "tr": "Pancarın rengi diğer katmanlara bulaşmasın diye pancarı en son ve tabağa servis edilmeden hemen önce ekleyin.",
-  "en": "Add the beetroot layer just before serving so its colour does not bleed into the layers beneath it."
+  "tr": "Pancarın rengi diğer katmanlara bulaşmasın diye pancarı rendelerken suyunu iyice sıkın ve üstünü mayonezle tamamen kapatın.",
+  "en": "To keep the beetroot colour from bleeding into the layers below, squeeze the grated beetroot dry and cover it completely with mayonnaise."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to add the beetroot just before serving, but steps 9-10 place it on top before the 2-hour chill, so the tip contradicts the method.",
+   "time_min (60) leaves out the 45-minute beetroot boil and the at-least-2-hour chill.",
+   "Salted herring fillets are normally soaked to reduce salt before use. The recipe omits this and then adds more salt in step 6, which risks an over-salted salad."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

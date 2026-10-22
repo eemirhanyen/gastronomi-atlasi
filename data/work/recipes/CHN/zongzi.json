@@ -9,7 +9,7 @@
   "en": "A snack of glutinous rice wrapped in bamboo leaves with a savoury filling of pork and salted duck egg yolk, then boiled until firm. It is eaten across China, especially during the Dragon Boat Festival (Duanwu) in late spring."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 450,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,13 @@
   "tr": "Yaprakların iyi ıslanmadığı durumda yapışmalarını engellemek için iki yaprağı üst üste kullanın ve pirinci fazla doldurmayın; böylece haşlama sırasında paket dağılmaz.",
   "en": "Use two leaves per parcel and do not overfill, so the zongzi hold their shape during boiling; if the leaves are stiff, soak them a little longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) does not match the steps: the recipe requires at least 4 hours of rice soaking, 1 hour of leaf soaking, 30 minutes of marinating, 90 minutes of boiling and 30 minutes of resting, so the"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "60 ml bitkisel yağ",
-   "200 g yağlı domuz pastırması (domuz göbeği), küp doğranmış",
+   "200 g yağlı domuz göbeği, küp doğranmış",
    "3 diş sarımsak, ince kıyılmış",
    "1 orta boy soğan (150 g), küp doğranmış",
    "2 orta boy domates (250 g), küp doğranmış",
@@ -73,5 +73,13 @@
   "tr": "Sebzeleri karıştırmak yerine tencereyi hafifçe sallayarak hareket ettirin; böylece dilimler dağılmaz ve kabak ezilmeden pişer.",
   "en": "Shake the pot gently rather than stirring hard, so the vegetable pieces stay intact and the squash does not turn to mush."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient name 'domuz pastırması' is wrong: pastırma is a cured beef or pork product, not fresh pork belly. The English says 'pork belly', so the Turkish should say 'domuz göbeği'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

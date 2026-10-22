@@ -17,7 +17,7 @@
    "400 ml ince hindistan cevizi sütü",
    "300 ml kalın hindistan cevizi kreması",
    "2 yemek kaşığı hindistan cevizi yağı",
-   "1 orta boy kuru soğan, ince doğranmış (about 120 g)",
+   "1 orta boy kuru soğan, ince doğranmış (yaklaşık 120 g)",
    "3 diş sarımsak, ezilmiş",
    "1 adet küçük kırmızı biber, doğranmış (isteğe bağlı)",
    "1 çay kaşığı tuz",
@@ -42,7 +42,7 @@
  "steps": {
   "tr": [
    "Yengeçleri 30 dakika derin dondurucuda bekleterek hareketlerini yavaşlatın, ardından fırça ile iyice yıkayın.",
-   "Yengeçlerin karnındaki ve kıskaçlarındaki tüylü solungaçları ve iç organları temizleyin, gövdeyi ikiye bölün, kıskaçları kırın.",
+   "Yengeçlerin gövdesinin alt tarafındaki tüylü solungaçları ve iç organları temizleyin, gövdeyi ikiye bölün, kıskaçları hafifçe kırın.",
    "Geniş bir tencerede hindistan cevizi yağını orta ateşte ısıtın.",
    "Soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak ve isteğe bağlı kırmızı biberi ekleyip bir dakika daha karıştırın.",
@@ -53,7 +53,7 @@
   ],
   "en": [
    "Put the crabs in the freezer for 30 minutes to slow them down, then scrub them well under cold water with a brush.",
-   "Remove the feathery gills and innards from the underside and claws, split each body in half, and crack the claws slightly.",
+   "Remove the feathery gills and innards from the underside of the body, split each body in half, and crack the claws slightly.",
    "Heat the coconut oil in a large wide pot over medium heat.",
    "Add the onion and fry for about 5 minutes until soft and lightly golden.",
    "Stir in the garlic and optional red chili and cook for another minute.",
@@ -67,5 +67,14 @@
   "tr": "Kremanın yağlanıp ayrışmaması için sosu sert kaynatmayın; kısık ateşte pişirin. Yengeç bulmak zorsa, hindistan cevizi yengeci yerine büyük boy mavi yengeç veya kral yengeç kullanabilirsiniz.",
   "en": "Avoid a hard boil once the cream goes in, or the sauce may split and turn oily. If coconut crab is unavailable, large blue crab or king crab makes a practical substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains untranslated English text '(about 120 g)' instead of '(yaklaşık 120 g)'.",
+   "Gills are located in the body cavity, not on the claws. Both the Turkish and English cleaning steps wrongly say to remove gills from the claws."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

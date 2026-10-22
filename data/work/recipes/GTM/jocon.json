@@ -23,7 +23,7 @@
    "40 g bayat beyaz ekmek, parçalanmış",
    "1 demet kişniş (yaklaşık 60 g), yaprakları ve yumuşak sapları",
    "30 ml sıvı yağ",
-   "750 ml tavuk suyu",
+   "500 ml tavuk suyu",
    "1 çay kaşığı öğütülmüş kimyon (2 g)",
    "1/2 çay kaşığı kurutulmuş kekik (oregano)",
    "1 çay kaşığı tuz, tadı için fazlası",
@@ -41,7 +41,7 @@
    "40 g stale white bread, torn",
    "1 bunch cilantro (about 60 g), leaves and tender stems",
    "30 ml vegetable oil",
-   "750 ml chicken broth",
+   "500 ml chicken broth",
    "1 tsp ground cumin (2 g)",
    "1/2 tsp dried oregano",
    "1 tsp salt, plus more to taste",
@@ -51,21 +51,21 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını, yarım soğanı, 2 diş sarımsağı, 1/2 çay kaşığı tuzu ve karabiberi 300 ml tavuk suyu ile birlikte bir tencereye koyun. Kapağını kapatıp orta ateşte yaklaşık 25 dakika, tavuk pişene kadar kaynatın.",
+   "Tavuk parçalarını, yarım soğanı, 2 diş sarımsağı, 1/2 çay kaşığı tuzu ve karabiberi 500 ml tavuk suyu ile birlikte bir tencereye koyun. Kapağını kapatıp orta ateşte yaklaşık 25 dakika, tavuk pişene kadar kaynatın.",
    "Tavuğu çıkarıp bir kenara alın. Tencerede kalan suyu saklayın.",
    "Kuru bir tavada kabak çekirdeklerini 3-4 dakika, hafif kızarıp şişene kadar kavurun. Ardından ekmek parçalarını aynı tavada 1-2 dakika kızartın.",
    "Tomatilloları, jalapeño biberini, dolmalık biberi, kalan yarım soğanı ve kalan sarımsakları bir tencerede kaynayan suda 8-10 dakika, yumuşayana kadar pişirin. Süzün.",
    "Pişmiş sebzeleri, kavrulmuş kabak çekirdeğini, ekmeği, kişnişi, kimyonu, kekiği, tencerede sakladığınız sudan 250 ml ile birlikte blenderda pürüzsüz bir sos elde edene kadar çekin.",
-   "Yağı geniş bir tencerede orta-yüksek ateşte ısıtın. Sosu ekleyip 8 dakika, sürekli karıştırarak pişirin. Sos koyulaşıp kokusu çıkınca tavukları ve kalan 200 ml tavuk suyunu ekleyin.",
+   "Yağı geniş bir tencerede orta-yüksek ateşte ısıtın. Sosu ekleyip 8 dakika, sürekli karıştırarak pişirin. Sos koyulaşıp kokusu çıkınca tavukları ve kalan 250 ml tavuk suyunu ekleyin.",
    "Kısık ateşte 15 dakika daha pişirin. Tuz ve limon suyu ile tatlandırın, sıcak olarak servis edin."
   ],
   "en": [
-   "Put the chicken pieces, half the onion, 2 garlic cloves, 1/2 tsp salt and black pepper into a pot with 300 ml chicken broth. Cover and simmer over medium heat for about 25 minutes until the chicken is cooked through.",
+   "Put the chicken pieces, half the onion, 2 garlic cloves, 1/2 tsp salt and black pepper into a pot with 500 ml chicken broth. Cover and simmer over medium heat for about 25 minutes until the chicken is cooked through.",
    "Lift the chicken out and set it aside. Keep the broth in the pot.",
    "In a dry pan, toast the pumpkin seeds for 3-4 minutes until they are golden and puffed. Then toast the torn bread in the same pan for 1-2 minutes.",
    "In a pot of boiling water, cook the tomatillos, jalapeño, bell pepper, remaining onion half and remaining garlic for 8-10 minutes until soft. Drain.",
    "Blend the cooked vegetables, toasted pumpkin seeds, bread, cilantro, cumin and oregano with 250 ml of the reserved broth until completely smooth.",
-   "Heat the oil in a large pot over medium-high heat. Add the sauce and fry for 8 minutes, stirring constantly, until it thickens and smells concentrated. Add the chicken and the remaining 200 ml chicken broth.",
+   "Heat the oil in a large pot over medium-high heat. Add the sauce and fry for 8 minutes, stirring constantly, until it thickens and smells concentrated. Add the chicken and the remaining 250 ml chicken broth.",
    "Simmer gently for 15 more minutes. Season with salt and lime juice, then serve hot."
   ]
  },
@@ -73,5 +73,14 @@
   "tr": "Tomatilloların tamamen yumuşadığından emin olun; sos pürüzsüz çıkmazsa tadı bozulmadan kısa bir süre daha kaynatın.",
   "en": "Make sure the tomatillos are fully soft before blending; if the sauce is grainy, simmer it a little longer rather than adding more liquid."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Broth quantities don't add up: the ingredient list says 750 ml, but the steps use 300 ml (step 1) and then 200 ml more (step 6), and the 250 ml blended in step 5 comes from the 300 ml already counted.",
+   "The EN and TR steps match each other, but both carry the same broth inconsistency."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

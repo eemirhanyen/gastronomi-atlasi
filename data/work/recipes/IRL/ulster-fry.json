@@ -46,7 +46,7 @@
    "Mantarları tavaya ekleyin, 1 yemek kaşığı yağ ile orta ateşte 4 dakika sote edin, tuz ve karabiber ile tatlandırın.",
    "Tavaya pastırma dilimlerini ekleyin ve kenarları gevrekleşene kadar her tarafını 3-4 dakika kızartın. Pastırmaları da fırındaki tabaklara alın.",
    "Tavada kalan yağ ve pastırma yağına yumurtaları tek tek kırın. Orta ateşte 3 dakika, akları pişip sarıları hafif sertleşene kadar kaşıkla yağ dökerek pişirin. Tuz ve karabiber serpin.",
-   "Patates ekmeği dilimlerini tavada kalan yağda her iki tarafında 2 dakika, altın rengi alana kadar kızartın.",
+   "Patates ekmeği dilimlerini tavada kalan yağda her iki tarafında 2 dakika, altın rengi alana kadar kızartın. Tava kurursa 1 yemek kaşığı yağ ekleyin.",
    "Tüm malzemeleri sıcak tabaklara yerleştirip hemen servis yapın."
   ],
   "en": [
@@ -65,5 +65,13 @@
   "tr": "Kan sucuğu ve beyaz sucuğu en son değil, sosislerle aynı anda ısıtmaya başlayın; her malzemeyi ayrı ayrı tavada pişirmek yerine tavada kalan yağı kullanmak hem lezzeti hem de kıvamı artırır.",
   "en": "Fry the black and white pudding early and keep the fat in the pan; using the rendered bacon and sausage fat for the eggs and bread gives the authentic flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 omits the English step's instruction to add 1 tbsp oil if the pan is dry, so the Turkish and English versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

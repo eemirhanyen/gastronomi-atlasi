@@ -8,7 +8,7 @@
   "tr": "Polonya'nın en sevilen pastalarından biri olan sernik, twaróg adı verilen kuru taze peynirle yapılır ve Paskalya, doğum günü gibi özel günlerde, ayrıca kahve saatinde servis edilir. Kıtır bir tabanı ve hafif, kremsi bir dokusuyla tanınır.",
   "en": "Sernik is one of Poland's best-loved cakes, made with twaróg, a dry fresh farmer's cheese. It is served at Easter, birthdays and special occasions, and at afternoon coffee. It is known for its crisp base and light, creamy texture."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
@@ -54,7 +54,7 @@
    "Fırını 170°C'ye ısıtın. 18-20 cm'lik yaylı kalıbın tabanını ve kenarlarını tereyağı ile yağlayıp un serpin.",
    "Un, soğuk tereyağı, 30 g şeker ve tuzu, tereyağı parçacıkları bezelye büyüklüğüne gelene kadar parmaklarınızla ovalayın.",
    "Yumurta sarısını ve soğuk suyu ekleyip hızlıca yoğurun. Pürüzsüz bir hamur elde edin, streç filmle sarıp 20 dakika buzdolabında dinlendirin.",
-   "Hamurun üçte ikisini kalıbın tabanına bastırın, kenarlara da hafifçe yayın. Çatalla birkaç yerden delin ve 10 dakika önceden pişirin.",
+   "Hamurun tamamını kalıbın tabanına bastırın ve kenarlara doğru hafifçe yayın. Çatalla birkaç yerden delin ve 10 dakika önceden pişirin.",
    "Kuru üzümü sıcak suda 10 dakika bekletin, süzüp kurulayın.",
    "Twaróg'u ince bir elekten geçirerek pürüzsüz hale getirin. Bu, kremanın topaklanmamasını sağlar.",
    "Yumuşak tereyağını 70 g şekerle kremsi hale gelene kadar çırpın. Yumurta sarılarını teker teker ekleyip çırpmaya devam edin.",
@@ -62,13 +62,13 @@
    "Yumurta aklarını kar gibi, sert zirve oluşana kadar çırpın. Akları peynirli karışıma iki parça halinde, alttan kepçeyle nazikçe katın.",
    "Kuru üzümleri ekleyip hafifçe karıştırın, karışımı önceden pişirilmiş tabanın üzerine dökün ve düzgünce yayın.",
    "Yaklaşık 55-60 dakika pişirin. Ortası hafifçe titreyene kadar bekleyin; üstü altın rengi olmalı.",
-   "Fırını kapatın, kapağını yarı açık bırakıp pastayı içinde 30 dakika soğumaya bırakın. Sonra tamamen soğutup en az 3 saat buzdolabında dinlendirin."
+   "Fırını kapatın, fırın kapağını yarı açık bırakıp pastayı içinde 30 dakika soğumaya bırakın. Sonra tamamen soğutup en az 3 saat buzdolabında dinlendirin."
   ],
   "en": [
    "Preheat the oven to 170°C. Grease the base and sides of an 18-20 cm springform tin with butter and dust with flour.",
    "In a bowl, rub the flour, cold butter cubes, 30 g sugar and salt with your fingertips until the mixture resembles breadcrumbs.",
    "Add the egg yolk and cold water and bring together quickly into a smooth dough. Wrap in cling film and rest in the fridge for 20 minutes.",
-   "Press two-thirds of the dough into the base of the tin and up the sides slightly. Prick with a fork and blind bake for 10 minutes.",
+   "Press all of the dough into the base of the tin and up the sides slightly. Prick with a fork and blind bake for 10 minutes.",
    "Soak the raisins in hot water for 10 minutes, then drain and pat dry.",
    "Push the twaróg through a fine sieve to make it smooth. This prevents lumps in the filling.",
    "Beat the softened butter with 70 g sugar until creamy. Add the egg yolks one at a time, beating well after each.",
@@ -76,12 +76,21 @@
    "Whisk the egg whites until they form stiff peaks. Gently fold them into the cheese mixture in two batches using a large spoon.",
    "Fold in the raisins lightly, then pour the filling over the baked base and level the surface.",
    "Bake for 55-60 minutes until the top is golden and the centre is just set with a slight wobble.",
-   "Switch off the oven, leave the cake inside with the door slightly open for 30 minutes. Then cool completely and refrigerate for at least 3 hours before serving."
+   "Switch off the oven, leave the cake inside with the oven door slightly open for 30 minutes. Then cool completely and refrigerate for at least 3 hours before serving."
   ]
  },
  "tip": {
   "tr": "Twaróg'u mutlaka elekten geçirin; bu, sernikte pürüzsüz ve hafif bir doku için en önemli adımdır. Kuru peynir yoksa lor peynirini iyice süzüp kurutarak kullanabilirsiniz.",
   "en": "Always sieve the twaróg; it is the key to a smooth, light texture. If twaróg is unavailable, use well-drained, dry curd cheese."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 uses only two-thirds of the dough, but the remaining third is never used in any step (it is listed as part of 100 g flour but has no role).",
+   "Servings listed as 4, but 350 g twaróg in an 18-20 cm tin is roughly 8 portions; 4 servings understates the cake."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

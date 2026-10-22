@@ -15,20 +15,20 @@
   "tr": [
    "200 g uzun taneli beyaz pirinç",
    "400 g haşlanmış veya konserve siyah fasulye, süzülmüş",
-   "300 ml fasulye suyu veya su",
+   "400 ml fasulye suyu veya su",
    "3 yemek kaşığı (45 ml) zeytinyağı",
    "1 orta boy soğan (120 g), ince doğranmış",
    "1 yeşil dolmalık biber (150 g), küçük küp doğranmış",
    "3 diş sarımsak, ezilmiş",
    "1 tatlı kaşığı (2 g) kimyon",
-   "1 tatlı kaşığı kurutulmuş kekik veya kekik benzeri kuru kekik otu (Küba'da kekik yerine kekik kullanılır)",
+   "1 tatlı kaşığı kuru kekik (oregano)",
    "1 defne yaprağı",
    "1 çay kaşığı tuz (yaklaşık 5 g), isteğe göre karabiber"
   ],
   "en": [
    "200 g long-grain white rice",
-   "400 g cooked or canned black beans, drained (reserve 300 ml of the liquid, or use water)",
-   "300 ml bean liquid or water",
+   "400 g cooked or canned black beans, drained (reserve 400 ml of the liquid, or use water)",
+   "400 ml bean liquid or water",
    "3 tbsp (45 ml) olive oil",
    "1 medium onion (120 g), finely chopped",
    "1 green bell pepper (150 g), finely diced",
@@ -43,10 +43,10 @@
   "tr": [
    "Geniş ve kapaklı bir tencerede zeytinyağını orta ateşte ısıtın.",
    "Soğan ve yeşil biberi ekleyip 6-8 dakika, soğanlar yumuşayıp şeffaflaşana kadar kavurun.",
-   "Sarımsağı, kimyonu ve kurutulmuş kekiği ekleyip bir dakika daha kavurun; kokusu çıkınca hemen bir sonraki adıma geçin.",
+   "Sarımsağı, kimyonu ve kuru kekiği (oregano) ekleyip bir dakika daha kavurun; kokusu çıkınca hemen bir sonraki adıma geçin.",
    "Fasulyeleri ekleyip 3 dakika birlikte pişirin. Kaşık sapıyla fasulyelerin bir kısmını hafifçe ezin ki sos kıvam alsın.",
    "Pirinci yıkamadan tencereye ekleyip sos ve fasulyelerle iyice karıştırın.",
-   "Fasulye suyunu veya suyu, defne yaprağını, tuzu ve karabiberi ilave edip karıştırın.",
+   "400 ml fasulye suyunu veya suyu, defne yaprağını, tuzu ve karabiberi ilave edip karıştırın.",
    "Karışımı kaynatın, ateşi en düşük seviyeye indirin, kapağını kapatın ve suyu çekene kadar yaklaşık 18-20 dakika pişirin.",
    "Ocaktan alıp kapağı kapalı halde 10 dakika dinlendirin. Defne yaprağını çıkarın, pilavı çatalla kabartıp servis yapın."
   ],
@@ -56,7 +56,7 @@
    "Stir in the garlic, cumin and dried oregano and cook for one more minute, until fragrant.",
    "Add the beans and cook together for 3 minutes. Mash some of the beans lightly with the back of a spoon so the mixture thickens.",
    "Add the rice without rinsing it and stir well to coat it with the sofrito and beans.",
-   "Pour in the bean liquid or water, then add the bay leaf, salt and black pepper and stir.",
+   "Pour in the 400 ml bean liquid or water, then add the bay leaf, salt and black pepper and stir.",
    "Bring to a boil, reduce the heat to the lowest setting, cover and simmer for about 18-20 minutes, until the liquid is absorbed.",
    "Remove from the heat and let it rest, covered, for 10 minutes. Discard the bay leaf, fluff with a fork and serve."
   ]
@@ -65,5 +65,15 @@
   "tr": "Pirinci yıkamayın; Küba'da nişastalı yüzeyin sosla birleşip pilavı kıvamlı yapması istenir. Kapağı pişirme sırasında açmayın ki buharı kaybolmasın.",
   "en": "Do not rinse the rice, since the starch helps bind the beans and sofrito. Keep the lid on while it simmers so the steam cooks the rice evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish spice line is garbled: 'kurutulmuş kekik veya kekik benzeri kuru kekik otu (Küba'da kekik yerine kekik kullanılır)' is circular and contradicts the English 'dried oregano'. Corrected to kuru k",
+   "Liquid is too low for 200 g long-grain rice: 300 ml is about 1:1.5, which risks dry, undercooked rice in the 18-20 minute simmer. Raised to 400 ml in both languages.",
+   "English ingredient note says to reserve 300 ml of bean liquid, which conflicts with the corrected 400 ml amount."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

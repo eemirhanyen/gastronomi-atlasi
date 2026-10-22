@@ -9,7 +9,7 @@
   "en": "A traditional Cypriot lamb dish, slow-cooked with garlic, lemon and oregano until the meat is meltingly tender. Legend links it to mountain outlaws (klephts) who cooked it sealed in clay ovens, and today it is a staple of family Sunday lunches and village tavernas."
  },
  "servings": 4,
- "time_min": 200,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -17,8 +17,7 @@
    "6 diş sarımsak",
    "1 büyük limonun suyu ve 1 limonun dilimleri",
    "80 ml zeytinyağı",
-   "1 tatlı kaşığı kuru kekik veya kekik",
-   "1 tatlı kaşığı kurutulmuş kekik yerine kuru kekik (isteğe bağlı, 1 tatlı kaşığı kurutulmuş kekik)",
+   "1 tatlı kaşığı kurutulmuş kekik",
    "3 defne yaprağı",
    "500 g patates (kalın dilimlenmiş)",
    "1 büyük soğan (halka halka doğranmış)",
@@ -55,7 +54,7 @@
    "Şarabı ve sıcak suyu tepsinin kenarından dökün. Tepsiyi sıkıca alüminyum folyo ile kapatın.",
    "Yaklaşık 2,5 saat pişirin. Et kemikten kolayca ayrılmalı.",
    "Folyoyu açın, fırın ısısını 200°C'ye çıkarın ve üzerini 20-25 dakika daha pişirerek kızarmasını sağlayın.",
-   "Son 10 dakikada rendelenmiş kefalotiri peynirini etin ve patateslerin üzerine serpin.",
+   "Son 10 dakikada rendelenmiş kefalotiri peynirini et ve patateslerin üzerine serpin.",
    "Fırından çıkarıp 10 dakika dinlendirin, ardından tepsiyle birlikte sıcak servis yapın."
   ],
   "en": [
@@ -76,5 +75,15 @@
   "tr": "Patatesleri tencerenin dibindeki suyla birlikte pişirin; sosu emerek lezzetlenirler ve kuzunun yağıyla tatlı bir kıvam alırlar.",
   "en": "Let the potatoes cook in the pan juices underneath the lamb; they absorb the flavour and become silky and rich."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredients list has a garbled duplicate thyme line ('1 tatlı kaşığı kuru kekik veya kekik' plus a second confusing line with an in-line note). The English version has one item, so the Turkish",
+   "Turkish step 10 says 'peynirini etin ve patateslerin üzerine serpin'. 'etin' is the genitive 'of the meat', which makes the sentence wrong. It should be 'et ve patateslerin üzerine'.",
+   "time_min is 200, but the steps add up to roughly 225-240 minutes (prep, 30-minute marinade, 2.5-hour bake, 20-25 minutes at 200°C, 10-minute rest)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

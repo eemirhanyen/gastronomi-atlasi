@@ -24,7 +24,8 @@
    "500 ml sıcak su (et suyu için)",
    "2 defne yaprağı",
    "1/2 çay kaşığı karabiber",
-   "2 çay kaşığı tuz",
+   "1 çay kaşığı tuz (et için)",
+   "1 litre su + 1 yemek kaşığı tuz (pirinç ıslatmak için)",
    "2 litre su + 2 yemek kaşığı tuz (pirinç haşlamak için)"
   ],
   "en": [
@@ -39,7 +40,8 @@
    "500 ml hot water (for the meat broth)",
    "2 bay leaves",
    "1/2 tsp black pepper",
-   "2 tsp salt",
+   "1 tsp salt (for the meat)",
+   "1 litre water + 1 tbsp salt (for soaking the rice)",
    "2 litres water + 2 tbsp salt (for boiling the rice)"
   ]
  },
@@ -55,7 +57,7 @@
    "Tereyağını eritin. Et ve soğanın üzerine pirincin yarısını yayın, kayısıların yarısını serpin, kalan pirinci piramit şeklinde üstüne yığın.",
    "Pirincin üzerine parmakla birkaç delik açın, safranlı suyu ve erimiş tereyağının yaklaşık üçte ikisini gezdirin. Kapağı bir havlu ile sarıp sıkı kapatın.",
    "Ocağı en kısık ateşe alın ve 40 dakika buharda pişirin. Ocağı kapatıp 10 dakika dinlendirin.",
-   "Pirincin altındaki kıvamlı kısmı (tahdik) ayırın, pirinci bir servis tabağında kabartarak servis edin; kuzu eti, soğan ve kalan kayısıları yanında sunun."
+   "Pirincin altındaki kıvamlı kısmı (tahdik) ayırın, pirinci bir servis tabağında kabartarak servis edin; kalan tereyağını üzerine gezdirin, kuzu eti, soğan ve kalan kayısıları yanında sunun."
   ],
   "en": [
    "Rinse the rice in cold water 4-5 times until the water runs clear, then soak it for 1 hour in 1 litre of water with 1 tbsp salt.",
@@ -72,8 +74,19 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci tencerenin dibinde kalan kıvamlı kısmı (tahdik) çıkarmak için tencereyi sıcak bir bezle kısa süre sarın, tabağa ters çevirin ve pirinçle birlikte servis edin.",
+  "tr": "Pirinci tencerenin dibinde kalan kıvamlı kısmı (tahdik) çıkarmak için tencereyi kısa süre nemli bir bezin üzerine koyun, tabağa ters çevirin ve pirinçle birlikte servis edin.",
   "en": "For a crisp, golden tahdig, press the rice base firmly in the pot and cook it over low heat for the last 5 minutes; release it onto a tray by setting the pot briefly on a damp towel."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantities don't match: the ingredient list has 2 tsp salt for the meat, but the steps use only 1 tsp.",
+   "Rice soaking uses 1 litre of water with 1 tbsp salt (step 1), which is missing from the ingredient list in both languages.",
+   "Turkish step 11 omits the instruction to drizzle the remaining butter over the rice, which the English step includes.",
+   "Tip method differs: Turkish says to wrap the pot in a warm cloth, while English says to set it on a damp towel."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

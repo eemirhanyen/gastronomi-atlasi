@@ -51,7 +51,7 @@
    "Tuz-şeker karışımının yarısını et yüzeyine eşit şekilde yayın, dereotunun yarısını üzerine serpin.",
    "İkinci filetoyu et yüzü aşağı gelecek şekilde birincinin üzerine yerleştirip iki parçayı hizalayın. Kalan tuz-şeker karışımını ve dereotunu üstüne ekleyin.",
    "Filetoları streç filmle sıkıca sarın, üzerine 1–2 kg ağırlık koyun ve buzdolabında (4°C) 48 saat bekletin. Her 12 saatte bir filetoları çevirin ve oluşan salamurayı üzerlerine gezdirin.",
-   "Son 48. saatte filetoları açın, salamurayı silin, dereotunu ve baharatı temizleyin. Derisini çıkarıp ince dilimleri sebze soyma bıçağı ile yaklaşık 45 derece açıyla kesin.",
+   "Son 48. saatte filetoları açın, salamurayı silin, dereotunu ve baharatı temizleyin. Derisini çıkarıp ince dilimleri uzun, ince bir somon (filé) bıçağıyla yaklaşık 45 derece açıyla kesin.",
    "Sos için bir kasede hardal, şeker ve sirkeyi karıştırın. Yağı yavaş yavaş ilave ederek çırpın, sonunda kıyılmış dereotunu ekleyip tuzla tatlandırın.",
    "Patatesleri kabuklarıyla tuzlu suda 15–20 dakika haşlayın, süzüp sıcakken dereotuyla servis yapın.",
    "Gravlaksı patates, çavdar ekmeği ve hardallı dereotu sosuyla birlikte soğuk olarak servis yapın."
@@ -73,5 +73,13 @@
   "tr": "Somonu mutlaka taze ve sushi kalitesinde (dondurulmuş-çözdürülmüş) alın; bu, çiğ tüketim için güvenlik açısından önemlidir.",
   "en": "Buy salmon labelled suitable for raw consumption (sushi-grade or previously frozen to kill parasites) and keep it chilled throughout."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says to slice with a \"sebze soyma bıçağı\" (vegetable peeler). That is the wrong tool and does not match the English, which calls for a long, thin knife."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

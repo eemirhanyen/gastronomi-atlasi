@@ -19,7 +19,7 @@
    "15 g zencefil, rendelenmiş",
    "4 diş sarımsak, ezilmiş",
    "2 adet yeşil biber, ince doğranmış",
-   "60 ml sıvı yağ",
+   "30 ml sıvı yağ",
    "1 tatlı kaşığı (3 g) kimyon tohumu",
    "1 defne yaprağı",
    "1 küçük tarçın çubuğu",
@@ -51,7 +51,7 @@
    "15 g ginger, grated",
    "4 garlic cloves, crushed",
    "2 green chilies, finely chopped",
-   "60 ml vegetable oil",
+   "30 ml vegetable oil",
    "1 tsp (3 g) cumin seeds",
    "1 bay leaf",
    "1 small cinnamon stick",
@@ -81,7 +81,7 @@
   "tr": [
    "Hamur için un, irmik, kabartma tozu, şeker ve tuzu geniş bir kapta karıştırın. Yoğurt ve 1 yemek kaşığı sıvı yağı ekleyin, ardından ılık suyu azar azar ekleyerek yumuşak, elastik bir hamur yoğurun.",
    "Hamuru yağlanmış bir kaba koyun, üzerini nemli bir bezle örtün ve oda sıcaklığında en az 1 saat dinlendirin.",
-   "Çayı ve baharatları hazırlamak için tencereyi orta ateşte ısıtın. 2 yemek kaşığı sıvı yağı ekleyip kimyon tohumlarını, defne yaprağını, tarçını ve karanfili yaklaşık 30 saniye kavurun.",
+   "Baharatları kavurmak için tencereyi orta ateşte ısıtın. 2 yemek kaşığı sıvı yağı ekleyip kimyon tohumlarını, defne yaprağını, tarçını ve karanfili yaklaşık 30 saniye kavurun.",
    "Soğanları ekleyip altın rengi alana kadar, yaklaşık 8-10 dakika kavurun. Zencefil, sarımsak ve yeşil biberi ekleyip 1 dakika daha pişirin.",
    "Domatesleri ekleyin ve yağ yüzeye ayrılana kadar, yaklaşık 8 dakika pişirin. Zerdeçal, acı toz biber, kişniş tozu, chole masala ve tuzu ekleyip 1 dakika kavurun.",
    "Süzülmüş nohutları ve sıcak suyu ekleyin. Siyah çay poşetini de ekleyip kaynatın, ardından ateşi kısın ve kapağı kapalı olarak yaklaşık 25 dakika pişirin.",
@@ -107,5 +107,14 @@
   "tr": "Bhature'nin kabarması için hamuru iyice dinlendirin ve yağın sıcaklığını 180 °C civarında tutun; yağ çok düşükse hamur yağ çeker, çok yüksekse dışı yanıp içi çiğ kalır.",
   "en": "For puffy bhature, rest the dough well and keep the oil around 180 °C; if the oil is too cool the bread absorbs grease, and if too hot the outside burns before the inside cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tarif, 60 ml sıvı yağ olarak listeleniyor, ancak adımlarda chole için yalnızca 2 yemek kaşığı (30 ml) yağ kullanılıyor. Malzeme miktarı adımlarla uyuşacak şekilde düzeltildi.",
+   "Türkçe 3. adımda 'Çayı ve baharatları hazırlamak için' ifadesi yanlış. Adımda çay hazırlanmıyor, baharatlar kavruluyor. İngilizce metinle uyuşması için düzeltildi."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

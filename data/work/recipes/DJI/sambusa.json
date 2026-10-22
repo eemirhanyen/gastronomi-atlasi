@@ -53,14 +53,14 @@
   "tr": [
    "Hamur için unu, 5 g tuzu ve 30 ml sıvı yağı bir kasede karıştırın. Ilık suyu azar azar ekleyip yumuşak, yapışmayan bir hamur elde edene kadar 8 dakika yoğurun.",
    "Hamuru streç film veya nemli bir bezle örtüp 20 dakika dinlendirin.",
-   "Kıymayı için: 15 ml sıvı yağı geniş bir tavada orta ateşte ısıtın, soğanı altın rengi alana kadar yaklaşık 8 dakika kavurun.",
+   "İç harç için: 15 ml sıvı yağı geniş bir tavada orta ateşte ısıtın, soğanı altın rengi alana kadar yaklaşık 8 dakika kavurun.",
    "Sarımsak, yeşil biber, kimyon, kişniş, karabiber ve 3 g tuzu ekleyip 1 dakika daha kavurun.",
    "Kıymayı ekleyip suyunu çekene ve rengi değişene kadar 10 dakika pişirin. Domates salçasını ekleyip 2 dakika daha karıştırın.",
    "Ocaktan alın, taze kişnişi karıştırın ve iç harcın tamamen soğumasını bekleyin.",
    "Hamuru 12 eşit topa bölün. Her topu oklavayla yaklaşık 12 cm çapında, çok ince bir yuvarlak açın.",
-   "Yuvarlağı ikiye kesin. Yarım daireyi koni şeklinde kıvırın, içine 1 tatlı kaşığı kadar harç koyun ve kenarlarını su sürerek kapatıp üçgen yapın.",
+   "Yuvarlağı ikiye kesin. Yarım daireyi koni şeklinde kıvırın, içine 1 yemek kaşığı kadar harç koyun ve kenarlarını su sürerek kapatıp üçgen yapın.",
    "Kızartma yağını derin bir tencerede 180 °C'ye ısıtın. Sambusaları gruplar halinde 3-4 dakika, altın rengi olana kadar kızartın.",
-   "Yağı süzgeçten geçirin ve sambusaları kağıt havlu üzerinde süzdürün. Sıcak servis yapın."
+   "Sambusaları kevgirle yağdan çıkarın ve kağıt havlu üzerinde süzdürün. Sıcak servis yapın."
   ],
   "en": [
    "For the dough, mix the flour, 5 g salt and 30 ml vegetable oil in a bowl. Gradually add the lukewarm water and knead for 8 minutes until you have a soft, non-sticky dough.",
@@ -79,5 +79,15 @@
   "tr": "Hamuru örtülü tutun ve açarken sadece bir kısmını çıkarın; kuruyan hamur çatlar ve kızartırken açılır.",
   "en": "Keep the dough covered and roll out only one piece at a time; dry dough cracks and can split open in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says 'bir tatlı kaşığı' of filling, but the English says '1 tablespoon' (yemek kaşığı). The Turkish should be 'yemek kaşığı' to match.",
+   "Turkish step 9 says 'Yağı süzgeçten geçirin', which means straining the oil and does not match the English 'Lift out with a slotted spoon'. It should say to remove the sambusas with a kevgir (slotted ",
+   "Turkish step 3 heading 'Kıymayı için:' is unnatural. 'İç harç için:' is the correct culinary phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

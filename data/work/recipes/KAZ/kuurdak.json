@@ -40,7 +40,7 @@
    "Kuzu etini 3 cm'lik kübik parçalara kesin, fazla yağlarını ayıklayın.",
    "Soğanları yarım ay şeklinde, havucu ise ince dilimler halinde doğrayın. Patatesleri soyup 3 cm'lik parçalara kesin.",
    "Geniş ve derin bir tencerede veya kazanda yağı orta-yüksek ateşte ısıtın.",
-   "Etleri partiler halinde ekleyin ve suyunu salıncaya kadar, her tarafı kızarana dek yaklaşık 8-10 dakika kavurun. Tencereyi doldurmamaya dikkat edin.",
+   "Etleri partiler halinde ekleyin ve suyu çekilene kadar, her tarafı kızarana dek yaklaşık 8-10 dakika kavurun. Tencereyi doldurmamaya dikkat edin.",
    "Soğanları ekleyip ara sıra karıştırarak 5 dakika kadar altın rengi alana kadar kavurun.",
    "Havuçları ekleyip 3 dakika daha kavurun.",
    "Patatesleri ekleyin, tuz ve karabiberle tatlandırıp iyice karıştırın.",
@@ -63,5 +63,13 @@
   "tr": "Etleri kalın tabanlı bir tencerede partiler halinde kavurun; böylece et haşlanmaz, yüzeyi kızararak daha lezzetli olur.",
   "en": "Brown the meat in batches in a heavy-bottomed pot so it sears rather than steams, which gives a richer flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 uses 'suyunu salıncaya kadar', which is unnatural and does not clearly convey 'until the liquid has evaporated'. It should read 'suyu çekilene kadar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

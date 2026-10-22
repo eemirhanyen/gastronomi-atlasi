@@ -40,8 +40,8 @@
    "Süzdüğünüz suyu bir kaseye alın, dibinde toplanan nişastayı bekletin, sıvıyı dökün ve nişastayı patateslerin üzerine ekleyin.",
    "Patateslere yumurtayı, unu, ezilmiş sarımsağı, mercanköşkü, tuzu ve karabiberi ekleyip homojen bir hamur elde edene kadar karıştırın.",
    "Geniş bir tavada yağı orta-yüksek ateşte ısıtın (yaklaşık 180 °C).",
-   "Hamurdan bir kaşık alıp yağa yerleştirin, kaşıkla hafifçe bastırarak yaklaşık 1 cm kalınlığında yassılaştırın.",
-   "Her iki tarafı altın rengi olana kadar, her yüzü yaklaşık 4-5 dakika kızartın.",
+   "Hamurdan bir kaşık alıp yağa yerleştirin, kaşıkla hafifçe bastırarak yaklaşık 0,5 cm kalınlığında yassılaştırın.",
+   "Her iki tarafı altın rengi olana kadar, her yüzü yaklaşık 3-4 dakika kızartın.",
    "Kağıt havluya alıp fazla yağını süzün. Hepsi bitene kadar aynı işlemi tekrarlayın.",
    "Fırını 80 °C'ye ayarlayıp kızarttığınız krepleri sıcak tutarak servis edin."
   ],
@@ -51,15 +51,25 @@
    "Pour the squeezed liquid into a bowl, let the starch settle at the bottom, then pour off the water and add the starch back to the potatoes.",
    "Add the egg, flour, crushed garlic, marjoram, salt and black pepper to the potatoes and mix until you have a uniform batter.",
    "Heat the oil or lard in a wide frying pan over medium-high heat (about 180 °C).",
-   "Scoop a spoonful of batter into the hot fat and flatten it gently to about 1 cm thick.",
-   "Fry for about 4-5 minutes per side, until both sides are deep golden and crisp.",
+   "Scoop a spoonful of batter into the hot fat and flatten it gently to about 0.5 cm thick.",
+   "Fry for about 3-4 minutes per side, until both sides are deep golden and crisp.",
    "Drain on kitchen paper to remove excess fat. Repeat with the remaining batter.",
-   "Keep the finished pancakes warm in an oven set to 80 °C until all are cooked, then serve hot."
+   "Keep the finished pancakes warm in an oven set to 80 °C, then serve hot."
   ]
  },
  "tip": {
   "tr": "Patatesi ne kadar iyi sıkarsanız krepler o kadar gevrek olur; hamur çok sulu kalırsa bir yemek kaşığı daha un ekleyin.",
   "en": "The drier you squeeze the grated potato, the crispier the pancakes; if the batter is still watery, add another spoonful of flour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 flattens the batter to about 1 cm, which is too thick for raw grated potato. The centre would stay undercooked after 4-5 minutes per side.",
+   "Step 7 cooking time (4-5 min per side) is based on the thick pancake. It should be shortened to match a thinner pancake (about 0.5 cm).",
+   "English step 9 adds 'until all are cooked', which the Turkish version does not say. The two versions should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

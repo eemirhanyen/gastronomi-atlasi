@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kartoffelpuffer (Patates krepi)",
+  "tr": "Kartoffelpuffer (Patates mücveri)",
   "en": "Kartoffelpuffer (German Potato Fritters)"
  },
  "native": "Kartoffelpuffer",
@@ -19,7 +19,7 @@
    "30 g un",
    "1 çay kaşığı tuz",
    "1/4 çay kaşığı karabiber",
-   "1/4 çay kaşığı rendelenmiş hindistancevizi",
+   "1/4 çay kaşığı rendelenmiş muskat",
    "150 ml sıvı yağ (kızartmak için)",
    "Servis için 200 g elma püresi (Apfelmus)"
   ],
@@ -40,12 +40,12 @@
    "Patatesleri soyun ve ince rendeleyin. Soğanı da aynı rendeyle rendeleyin.",
    "Rendelenmiş patatesi temiz bir bezin içine koyup suyunu iyice sıkın. Sıkılan suyu bir kaseye alıp 5 dakika dinlendirin.",
    "Kasenin dibinde çöken nişastayı bırakarak üstteki suyu dökün. Nişastayı patateslerle birlikte karıştırın.",
-   "Patates ve soğan karışımına yumurta, un, tuz, karabiber ve hindistancevizini ekleyip iyice yoğurun.",
+   "Patates ve soğan karışımına yumurta, un, tuz, karabiber ve rendelenmiş muskatı ekleyip iyice karıştırın.",
    "Geniş bir tavada yağı orta-yüksek ateşte yaklaşık 180 °C'ye kadar ısıtın.",
    "Bir yemek kaşığı dolusu hamuru yağa bırakıp kaşıkla hafifçe bastırarak yaklaşık 1 cm kalınlığında yassılaştırın.",
    "Her iki yüzü altın rengi ve çıtır olana kadar, her yüzünü yaklaşık 3-4 dakika kızartın.",
    "Kızarmış mücverleri kağıt havlu serili bir tabağa alıp fazla yağını süzdürün. Servise kadar 90 °C'deki fırında sıcak tutabilirsiniz.",
-   "Kalan hamuru aynı şekilde kızartın ve sıcak olarak elma püresi ile servis yapın."
+   "Kalan hamuru aynı şekilde kızartın ve sıcakken elma püresiyle servis edin."
   ],
   "en": [
    "Peel the potatoes and grate them finely. Grate the onion on the same grater.",
@@ -63,5 +63,16 @@
   "tr": "Patatesi mutlaka sıkın ve nişastayı geri ekleyin; aksi halde mücverler yumuşak kalır ve yağda dağılır.",
   "en": "Squeeze the potato very dry and return the settled starch to the mix; otherwise the fritters will be soggy and may fall apart in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'rendelenmiş hindistancevizi' means coconut, but the English says nutmeg. Turkish should be 'rendelenmiş muskat'.",
+   "Turkish dish name 'Patates krepi' is wrong: 'krep' means crepe. The standard Turkish term is 'patates mücveri'.",
+   "Turkish step 4 uses 'yoğurun' (knead) for mixing a loose batter, which is unnatural here.",
+   "Turkish step 9 'servis yapın' is an awkward calque; 'servis edin' is natural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

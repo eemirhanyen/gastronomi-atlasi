@@ -62,8 +62,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru kaseden sık sık karıştırın; sago unu çöke bilir ve krepler dengesiz pişer.",
+  "tr": "Her kreple başlamadan önce hamuru sık sık karıştırın; sago unu hızla çökebilir ve krepler dengesiz pişebilir.",
   "en": "Stir the batter often before each pancake, as sago flour settles quickly and can make the pancakes uneven."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is unnatural: \"Hamuru kaseden sık sık karıştırın\" does not clearly say to stir before each pancake, and \"çöke bilir\" is a spelling error (should be \"çökebilir\"). The English tip says stir "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

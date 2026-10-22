@@ -29,7 +29,8 @@
    "45 ml soya sosu (sos için)",
    "15 ml pirinç sirkesi",
    "5 g kırmızı biber tozu (gochugaru)",
-   "5 g kavrulmuş susam"
+   "5 g kavrulmuş susam",
+   "1-2 lahana yaprağı (altlık için, isteğe bağlı)"
   ],
   "en": [
    "250 g all-purpose flour",
@@ -48,7 +49,8 @@
    "45 ml soy sauce (for the dip)",
    "15 ml rice vinegar",
    "5 g gochugaru (Korean chili flakes)",
-   "5 g toasted sesame seeds"
+   "5 g toasted sesame seeds",
+   "1-2 cabbage leaves (for lining, optional)"
   ]
  },
  "steps": {
@@ -58,8 +60,8 @@
    "Soya filizlerini kaynayan suda 1 dakika haşlayın, süzün, soğutun, elinizle sıkıp ince kıyın.",
    "Soğanı bir kaseye alıp 3 g tuzla karıştırın, 5 dakika bekletin ve avuçlarınızla sıkarak fazla suyunu alın.",
    "İç harcı hazırlamak için domuz kıymasını, ufalanmış tofuyu, soya filizini, yeşil soğanı, soğanı, sarımsağı, 15 ml soya sosunu, susam yağını, karabiberi ve kalan tuzu büyük bir kapta 2 dakika boyunca yapışkan bir kıvam alana kadar yoğurun.",
-   "Hamuru 30 parçaya bölün. Her parçayıince açarak yaklaşık 9 cm çapında yuvarlaklar elde edin.",
-   "Her yuvarlağın ortasına bir tatlı kaşığı dolusu iç harç koyun. Kenarları ikiye katlayıp üst kısmında kıvrımlar yaparak sıkıca kapatın.",
+   "Hamuru 30 parçaya bölün. Her parçayı ince açarak yaklaşık 9 cm çapında yuvarlaklar elde edin.",
+   "Her yuvarlağın ortasına bir yemek kaşığı dolusu iç harç koyun. Kenarları ikiye katlayıp üst kısmında kıvrımlar yaparak sıkıca kapatın.",
    "Buharlı pişiricinin tabanına lahana yaprağı ya da yağlı kağıt yerleştirin. Mandu'ları aralarında boşluk bırakarak dizin.",
    "Suyu kaynatın, pişiriciyi kapatın ve mandu'ları 12-14 dakika buharda pişirin. İç kısmın tamamen pişmesi için kıymanın merkezi en az 74°C'ye ulaşmalıdır.",
    "Sos için soya sosu, pirinç sirkesi ve kırmızı biber tozunu karıştırın. Üzerine kavrulmuş susamı serpin.",
@@ -72,7 +74,7 @@
    "Put the onion in a bowl, toss with 3 g salt and let it sit for 5 minutes. Squeeze out the excess liquid with your hands.",
    "For the filling, combine the ground pork, crumbled tofu, bean sprouts, chives, onion, garlic, 15 ml soy sauce, sesame oil, black pepper and remaining salt in a large bowl. Mix for 2 minutes until sticky and well combined.",
    "Divide the dough into 30 pieces. Roll each piece thinly into a round about 9 cm in diameter.",
-   "Place about one heaping teaspoon of filling in the centre of each round. Fold the edge over and pinch the top into pleats to seal.",
+   "Place about one heaping tablespoon of filling in the centre of each round. Fold the edge over and pinch the top into pleats to seal.",
    "Line the base of a steamer with cabbage leaves or baking paper. Arrange the dumplings in a single layer with space between them.",
    "Bring water to a boil, cover and steam the dumplings for 12-14 minutes, until the pork is cooked through and reaches 74°C in the centre.",
    "For the dip, stir together the 45 ml soy sauce, rice vinegar and gochugaru, then sprinkle with toasted sesame seeds.",
@@ -83,5 +85,16 @@
   "tr": "Tofu ve soya filizinden suyu iyice alın; aksi halde iç harç dağılır ve mandu buharda yapışır.",
   "en": "Squeeze the tofu and bean sprouts well; excess moisture makes the filling loose and can cause the dumplings to stick during steaming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount doesn't match the dumpling count: about 570 g of filling for 30 dumplings is roughly 19 g each, which is more than the 'heaping teaspoon' stated in the steps (about 5-7 g).",
+   "Turkish step 6 contains a garbled word ('ıince açarak'), which should be 'ince açarak'.",
+   "Steps 8 mention cabbage leaves as a steamer liner, but no cabbage is listed in either ingredient list.",
+   "The Turkish and English versions have the same filling-amount error, so both need the fix."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

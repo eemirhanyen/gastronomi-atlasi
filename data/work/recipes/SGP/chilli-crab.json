@@ -53,13 +53,13 @@
  },
  "steps": {
   "tr": [
-   "Yengeçleri fırçayla iyice yıkayın. Karın kabuğunu ve kıkırdak kısmını (apron) çıkarın, solungaçları temizleyin ve yengeçleri ikiye bölün. Pençelerini sırt kısmından bir tokmakla hafifçe kırın.",
+   "Yengeçleri fırçayla iyice yıkayın. Karın kabuğunu ve kıkırdak kısmını (apron) çıkarın, solungaçları temizleyin ve yengeçleri ikiye bölün. Pençelerini sırt kısmından satırın sırtıyla hafifçe kırın.",
    "Geniş bir wok'u yüksek ateşte ısıtın, bitkisel yağı ekleyin. Arpacık soğanını, sarımsağı ve zencefili yaklaşık 1 dakika, kokusu çıkana kadar kavurun.",
    "Acı biber ezmesini ekleyip 1 dakika daha karıştırarak kavurun. Domates ketçabı, şekeri, tavuk veya deniz ürünü suyunu ekleyip kaynatın.",
    "Yengeç parçalarını sosun içine yerleştirin, kapağını kapatın ve yüksek ateşte 6-8 dakika pişirin. Bu sırada parçaları bir iki kez çevirin.",
    "Şaoksing şarabını ve pirinç sirkesini ekleyin, 2 dakika daha pişirin. Tuzu ekleyip tadına bakın.",
    "Mısır nişastası karışımını sosa dökün ve sürekli karıştırarak sosu hafifçe koyulaştırın.",
-   "Ateşi kısın, çırpılmış yumurtayı ince bir akış halinde sosa yavaşça dökün ve yumurtalar kabarana kadar 30 saniye nazikçe karıştırın.",
+   "Ateşi kısın, çırpılmış yumurtayı ince bir akış halinde sosa yavaşça dökün ve yumurtalar ince teller halinde katılaşana kadar 30 saniye nazikçe karıştırın.",
    "Ocaktan alın, dilimlenmiş taze soğan ve kişnişle süsleyin. Mantou veya yumuşak ekmeklerle hemen servis yapın."
   ],
   "en": [
@@ -77,5 +77,14 @@
   "tr": "Sosun tatlı-ekşi dengesini tatmak için yengeci eklemeden önce ayarlayın; yengeç suyu sosu tuzlandırdığı için tuzu en son ekleyin.",
   "en": "Adjust the sweet-sour balance before adding the crab, since the crab releases salty juices, so add the salt last."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says the egg should be stirred until it 'puffs up' (kabarana kadar), but the English says it should 'set in ribbons'. The Turkish should match the English.",
+   "Turkish step 1 says to crack the claws with a 'tokmak' (mallet), while the English says 'the back of a cleaver'. The Turkish should say the back of a cleaver (satırın sırtı)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

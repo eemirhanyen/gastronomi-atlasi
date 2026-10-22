@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g sashimi kalitesinde kırmızı kılıç veya lüfer, derisi alınmış, 2 cm'lik küpler halinde",
+   "500 g sashimi kalitesinde ton balığı veya mercan (snapper), derisi alınmış, 2 cm'lik küpler halinde",
    "120 ml taze limon suyu (yaklaşık 4-5 limon)",
    "1 tatlı kaşığı tuz",
    "1 küçük kırmızı soğan (100 g), ince doğranmış",
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığı yalnızca sashimi için onaylı, en taze parçadan alın; bu balığı servis öncesi en az 24 saat -20°C'de dondurmak, ev mutfağında parazit riskini azaltır.",
-  "en": "Use only fish labelled sashimi-grade and freeze it at -20°C for at least 24 hours beforehand to reduce parasite risk in a home kitchen."
+  "tr": "Balığı yalnızca sashimi için onaylı, en taze parçadan alın. Limon suyu parazitleri güvenilir biçimde öldürmez; ev mutfağında risk azaltmak için balığı servisten önce en az 7 gün -20°C'de dondurun veya -35°C'de en az 15 saat dondurun.",
+  "en": "Use only fish labelled sashimi-grade. Lime juice does not reliably kill parasites, so to reduce risk in a home kitchen, freeze the fish at -20°C for at least 7 days, or at -35°C for at least 15 hours, before preparing it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish ingredient ('kırmızı kılıç veya lüfer') does not match the English ('snapper or tuna'): 'kılıç' is swordfish and 'lüfer' is bluefish, neither of which is the English fish.",
+   "Food safety: the tip says freezing at -20°C for 24 hours reduces parasite risk. That is not adequate. Guidance for raw fish calls for -20°C for at least 7 days, or -35°C for 15 hours. Lime curing does"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

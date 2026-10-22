@@ -22,7 +22,7 @@
    "2 büyük soğan (yaklaşık 300 g), ince dilimlenmiş",
    "800 g patates, kalın çubuk şeklinde kesilmiş",
    "500 ml sıvı yağ (patatesleri kızartmak için)",
-   "4 yemek kaşığı sıvı yağ (tavada pişirmek için)",
+   "6 yemek kaşığı sıvı yağ (tavada pişirmek için)",
    "4 yumurta"
   ],
   "en": [
@@ -35,7 +35,7 @@
    "2 large onions (about 300 g), thinly sliced",
    "800 g potatoes, cut into thick sticks",
    "500 ml neutral oil (for frying the potatoes)",
-   "4 tbsp neutral oil (for pan-cooking)",
+   "6 tbsp neutral oil (for pan-cooking)",
    "4 eggs"
   ]
  },
@@ -61,5 +61,13 @@
   "tr": "Yumurtanın sarısı akışkan kalsın; patatesi ve soğanı yumurta pişmeden hazır edin ki hepsi sıcak servis edilsin.",
   "en": "Keep the yolks runny and have the potatoes and onions ready before frying the eggs so everything reaches the table hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: 4 tbsp is listed for pan-cooking, but step 3 uses 2 tbsp, step 4 uses half of the remaining 2 tbsp (1 tbsp), and step 5 calls for 2 tbsp, which is more than is left. Raise"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

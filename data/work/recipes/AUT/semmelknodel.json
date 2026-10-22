@@ -42,11 +42,11 @@
    "Küp doğradığınız ekmekleri geniş bir kaseye koyun.",
    "Sütü 50-60 °C'ye kadar ısıtın, ama kaynatmayın. Sıcak sütü ekmeklerin üzerine dökün, karıştırıp 15 dakika dinlendirin ki ekmekler sütü iyice emsin.",
    "Tereyağını bir tavada orta ateşte eritin, soğanı ekleyip 3-4 dakika, hafif altın rengi alana kadar soteleyin. Ocaktan alıp biraz soğumasını bekleyin.",
-   "Yumurtaları ayrı bir kapta çırpın. Yumurtaları, soteledğiniz soğanı, maydanozu, unu, tuzu ve hindistan cevizini ıslak ekmek karışımına ekleyin.",
+   "Yumurtaları ayrı bir kapta çırpın. Yumurtaları, sotelediğiniz soğanı, maydanozu, unu, tuzu ve hindistan cevizini ıslak ekmek karışımına ekleyin.",
    "Ellerinizle veya bir kaşıkla tüm malzemeleri homojen bir hamur olacak şekilde yoğurun. Hamur yapışkan ama şekil verilebilir kıvamda olmalı; çok yumuşaksa birkaç yemek kaşığı daha un ekleyin.",
    "Hamuru 15 dakika dinlendirin. Bu sırada ellerinizi nemlendirip 8 eşit parça hazırlayın ve her birini sıkıca yuvarlayarak top haline getirin.",
-   "Büyük bir tencerede 3 litre suyu ve 1 tatlı kaşık tuzu koyup kaynatın. Ateşi kısın, su hafifçe fısıldayıp sadece kabarcıklar çıkacak kadar (yaklaşık 90 °C) bir sıcaklıkta tutun.",
-   "Hamur toplarını suya nazikçe bırakın, tencerenin kapağını kapatıp yaklaşık 20 dakika pişirin. Kabarcık yapmamasına dikkat edin; topların ortası artık hamur gibi değil, yumuşak ve sıcak olmalı.",
+   "Büyük bir tencerede 3 litre suyu ve 1 tatlı kaşık tuzu koyup kaynatın. Ateşi kısın ve suyun hafifçe titreyip yalnızca küçük kabarcıklar çıkaracağı bir sıcaklıkta (yaklaşık 90 °C) tutun.",
+   "Hamur toplarını suya nazikçe bırakın, tencerenin kapağını kapatıp yaklaşık 20 dakika pişirin. Suyun bu hafif kaynama halini koruyun; topların ortası artık hamur gibi değil, yumuşak ve sıcak olmalı.",
    "Pişen topları süzgecle çıkarın, kısa süre dinlendirin, sonra ikiye kesip servis yapın."
   ],
   "en": [
@@ -65,5 +65,15 @@
   "tr": "Ekmeklerin yumuşak ama dağılmayan bir kıvamda olması için bayat ekmek kullanın; taze ekmek hamurun çok yapışkan olmasına neden olur.",
   "en": "Use properly stale bread: fresh bread turns to paste and makes the dough sticky and heavy, while dry rolls absorb the milk evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 contains a typo: 'soteledğiniz' should be 'sotelediğiniz'.",
+   "Turkish step 7 says 'su hafifçe fısıldayıp', which is unnatural cooking language. It should describe the water barely simmering.",
+   "Turkish step 8 says to avoid bubbles, but the English step 8 says to keep the gentle simmer, and step 7 says small bubbles should rise. The Turkish and English versions contradict each other."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

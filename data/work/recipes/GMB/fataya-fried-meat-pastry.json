@@ -5,7 +5,7 @@
  },
  "native": "Fataya",
  "desc": {
-  "tr": "Gambiya'da sokak satıcılarının ve ev mutfaklarının sık yaptığı, baharatlı kıymalı içi olan kızarmış hamur hamuru. Genellikle öğle arası atıştırmalığı olarak, akşamüstü ve kutlamalarda servis edilir.",
+  "tr": "Gambiya'da sokak satıcılarının ve ev mutfaklarının sık yaptığı, baharatlı kıymalı içi olan kızarmış hamur böreği. Genellikle öğle arası atıştırmalığı olarak, akşamüstü ve kutlamalarda servis edilir.",
   "en": "A spiced minced meat filling wrapped in a thin wheat dough and deep-fried. Gambian street vendors and home cooks make it often, usually as a midday or afternoon snack and at gatherings."
  },
  "servings": 4,
@@ -17,7 +17,7 @@
    "1/2 çay kaşığı tuz",
    "1 çay kaşığı şeker",
    "1 yemek kaşığı sıvı yağ",
-   "about 130 ml ılık su",
+   "yaklaşık 130 ml ılık su",
    "300 g dana kıyma",
    "1 orta boy soğan, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -25,7 +25,7 @@
    "1 tatlı kaşığı köri tozu",
    "1/2 çay kaşığı karabiber",
    "1/2 kırmızı acı biber (scotch bonnet veya benzeri), çok ince doğranmış",
-   "1 beef suyu küpü, 60 ml sıcak suda eritilmiş",
+   "1 dana et suyu küpü, 60 ml sıcak suda eritilmiş",
    "2 yemek kaşığı sıvı yağ (soğan için)",
    "yaklaşık 500 ml kızartma yağı"
   ],
@@ -51,12 +51,12 @@
   "tr": [
    "Hamur için unu, tuzu ve şekeri bir kasede karıştırın. Sıvı yağı ekleyin, üzerine ılık suyu yavaş yavaş dökerek yumuşak ama yapışmayan bir hamur yoğurun.",
    "Hamuru örtüp oda sıcaklığında 20 dakika dinlendirin.",
-   "Filling için 2 yemek kaşığı yağı geniş bir tavada orta ateşte ısıtın. Soğanı ve sarımsağı 5 dakika, soğanlar yumuşayana kadar kavurun.",
+   "İç harç için 2 yemek kaşığı yağı geniş bir tavada orta ateşte ısıtın. Soğanı ve sarımsağı soğanlar yumuşayana kadar, yaklaşık 5 dakika kavurun.",
    "Kıymayı ekleyin ve suyunu çekip kızarana kadar, yaklaşık 6-7 dakika pişirin.",
    "Salçayı, köriyi, karabiberi ve acı biberi ekleyin, 1 dakika daha kavurun.",
    "Et suyunu ekleyin ve karışım neredeyse tamamen kuruyana kadar, yaklaşık 10 dakika kısık ateşte pişirin. Tadına bakıp gerekirse tuz ekleyin, ardından tamamen soğumaya bırakın.",
    "Hamuru 12 eşit parçaya bölün ve her birini top haline getirin. Her topu ince bir yuvarlak açın, yaklaşık 12 cm çapında olsun.",
-   "Her yuvarlağın ortasına 1 tatlı kaşığı dolusu iç harcı koyun. Hamuru ikiye katlayarak yarım ay şekli verin ve kenarlarını çatalla bastırarak sıkıca kapatın.",
+   "Her yuvarlağın ortasına 1 yemek kaşığı dolusu iç harcı koyun. Hamuru ikiye katlayarak yarım ay şekli verin ve kenarlarını çatalla bastırarak sıkıca kapatın.",
    "Kızartma yağını derin bir tencerede 170-180°C'ye kadar ısıtın. Fatayaları partiler halinde, yaklaşık 3-4 dakika altın rengi olana kadar kızartın.",
    "Kağıt havlu üzerinde süzün ve sıcak servis yapın."
   ],
@@ -68,7 +68,7 @@
    "Stir in the tomato paste, curry powder, black pepper and scotch bonnet, and fry for 1 more minute.",
    "Pour in the stock and simmer on low for about 10 minutes until the mixture is almost completely dry. Taste and add salt if needed, then leave to cool completely.",
    "Divide the dough into 12 equal pieces and shape each into a ball. Roll each ball into a thin round about 12 cm across.",
-   "Place 1 heaped teaspoon of filling in the centre of each round. Fold in half to make a half-moon and press the edges firmly together with a fork.",
+   "Place 1 heaped tablespoon of filling in the centre of each round. Fold in half to make a half-moon and press the edges firmly together with a fork.",
    "Heat the frying oil in a deep pan to 170-180°C. Fry the fatayas in batches for 3-4 minutes until golden brown.",
    "Drain on kitchen paper and serve hot."
   ]
@@ -77,5 +77,16 @@
   "tr": "İç harcın tamamen soğumasını bekleyin; sıcak harçla doldurulan hamur yırtılır ve yağda patlar.",
   "en": "Let the filling cool completely before wrapping; warm filling tears the dough and can burst in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount is implausible: 300 g of meat plus aromatics yields roughly 250 g of finished filling, but 1 heaped teaspoon per fataya (12 pieces) would use only about 60 g, leaving most of the fillin",
+   "Turkish ingredient list leaves English 'beef' in place: 'beef suyu küpü' should be 'dana et suyu küpü'.",
+   "Turkish step 3 leaves the English word 'Filling' untranslated; changed to 'İç harç için'.",
+   "Turkish description has the redundant and unnatural phrase 'kızarmış hamur hamuru'; changed to 'kızarmış hamur böreği'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

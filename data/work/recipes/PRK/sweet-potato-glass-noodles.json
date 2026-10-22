@@ -52,13 +52,13 @@
  "steps": {
   "tr": [
    "Kuru shiitake mantarlarını ılık suda 20 dakika bekletin. Suyunu sıkın, saplarını atın ve ince dilimleyin.",
-   "Erişteyi kaynar suda 6-7 dakika haşlayın, süzün ve soğuk suyla durulayın. Makas yardımıyla kısa parçalara kesin.",
+   "Erişteyi tuzlu kaynar suda 6-7 dakika haşlayın, süzün ve soğuk suyla durulayın. Makas yardımıyla kısa parçalara kesin.",
    "Dana eti, 1 diş ezilmiş sarımsak, 1 yemek kaşığı soya sosu, 1 çay kaşığı susam yağı ve bir tutam karabiberle karıştırıp 15 dakika marine edin.",
    "Ispanağı kaynar suda yaklaşık 30 saniye haşlayın, hemen soğuk suya alın, iyice sıkın ve bir tutam tuz ile 1 yemek kaşığı susam yağıyla harmanlayın.",
    "Büyük bir tavada 1 yemek kaşığı sıvı yağı orta-yüksek ateşte ısıtın. Soğanı ve havucu ayrı ayrı, birer dakika tuzla soteleyip bir kenara alın.",
    "Aynı tavaya biraz daha sıvı yağ ekleyin. Mantarları ve yeşil soğanı ayrı ayrı, birer dakika soteleyin, bir kenara alın.",
    "Son olarak marine dana etini tavaya alın ve renk değişene kadar, yaklaşık 2-3 dakika pişirin. Bir kenara alın.",
-   "Büyük bir kapta erişte, 3 yemek kaşığı soya sosu, 1 yemek kaşığı şeker, kalan 1 diş sarımsak ve 1 yemek kaşığı susam yağını karıştırın.",
+   "Büyük bir kapta erişte, 3 yemek kaşığı soya sosu, 1 yemek kaşığı şeker, kalan 2 diş sarımsak ve 1 yemek kaşığı susam yağını karıştırın.",
    "Erişteyi tavada orta ateşte 2-3 dakika, sos emilip parlak görünene kadar karıştırarak pişirin.",
    "Ispanak, soğan, havuç, mantar, yeşil soğan ve dana etini erişteye ekleyin. Nazikçe karıştırıp 1 dakika daha ısıtın.",
    "Tuz ve karabiberle tadını ayarlayın. Kavrulmuş susamla serpip sıcak ya da oda sıcaklığında servis yapın."
@@ -81,5 +81,14 @@
   "tr": "Erişteyi haşlayıp soğuk suda durulamak, sote sırasında yapışmasını önler; kesim yapmadan önce bir kez tadına bakın, tuzlu sosa göre tatlandırın.",
   "en": "Rinse the cooked noodles well in cold water so they do not clump, and taste before serving: soy sauce levels vary, so adjust the salt and seasoning to suit."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Garlic count mismatch in Turkish step 8: 'kalan 1 diş sarımsak' (remaining 1 clove), but the ingredient split is 1 clove for the beef and 2 for the noodles, and the English step says 2 cloves.",
+   "Turkish step 2 says to boil the noodles in plain water ('kaynar suda'), while the English says 'salted water'. The versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

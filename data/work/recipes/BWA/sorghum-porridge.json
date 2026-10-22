@@ -33,9 +33,9 @@
  },
  "steps": {
   "tr": [
-   "Sorgum ununun 100 g'ını soğuk suyla pürüzsüz bir kıvam alana kadar karıştırarak ince bir kaymak hazırlayın.",
+   "Sorgum ununun 100 g'ını soğuk suyla pürüzsüz bir kıvam alana kadar karıştırarak ince bir sulu karışım hazırlayın.",
    "Büyük bir tencerede 750 ml suyu tuzla birlikte kaynatın.",
-   "Kaynayan suya hazırladığınız kaymağı yavaş yavaş dökerken sürekli karıştırın.",
+   "Kaynayan suya hazırladığınız karışımı yavaş yavaş dökerken sürekli karıştırın.",
    "Kalan 200 g unu azar azar ekleyin ve topaklanmaması için sürekli karıştırarak ocağı kısık ateşe alın.",
    "Lapayı ara sıra karıştırarak yaklaşık 25-30 dakika pişirin; çok koyulaşırsa biraz kaynar su ekleyin.",
    "Pişen lapayı ocaktan alın ve kapağını kapatıp 5 dakika dinlendirin.",
@@ -57,5 +57,13 @@
   "tr": "Lapanın topaklanmaması için unu sıvıya değil, sürekli karıştırılan sıvıya yavaş yavaş ekleyin.",
   "en": "To avoid lumps, add the meal gradually to liquid that is being stirred constantly, never dump it in all at once."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"kaymak\", which means cream or clotted cream in Turkish, not a thin flour slurry. The English says \"thin slurry\", so the Turkish term is wrong."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

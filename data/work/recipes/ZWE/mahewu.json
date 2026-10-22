@@ -9,12 +9,13 @@
   "en": "A mildly sour, lightly fizzy fermented drink made from maize meal, popular across Zimbabwe and much of southern Africa. It is usually served chilled on hot days, at midday meals, and from street vendors."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1440,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "200 g mısır unu (mealie meal)",
    "1,3 l su",
+   "400 ml soğuk su (son seyreltme için)",
    "80 g toz şeker",
    "10 g kuru maya (instant)",
    "50 ml ılık su (yaklaşık 35 °C)"
@@ -22,6 +23,7 @@
   "en": [
    "200 g maize meal (mealie meal)",
    "1.3 l water",
+   "400 ml cold water (for final dilution)",
    "80 g caster sugar",
    "10 g instant dry yeast",
    "50 ml warm water (about 35 °C)"
@@ -59,5 +61,14 @@
   "tr": "Fermentasyon sırasında kapağı tamamen kapatmayın; gaz çıkabilmesi için hafif havalandırma bırakın. Ekşilik istiyorsanız bekleme süresini uzatın.",
   "en": "Do not seal the container airtight during fermentation, as the gas needs to escape. For a sourer drink, let it ferment for longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantities do not add up: the steps use 300 ml + 1 l (paste and cooking), 50 ml (yeast), and 400 ml cold water added after fermentation, but the ingredient list only has 1.3 l. The 400 ml is mis",
+   "time_min is 60, but the recipe requires 12-24 hours of fermentation, so the total time is misstated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

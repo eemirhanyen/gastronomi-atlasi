@@ -14,14 +14,14 @@
  "ingredients": {
   "tr": [
    "600 g dana kol veya baldır eti, 3 cm küp doğranmış",
-   "1 tatlı kaşığı tuz (6 g), bir tatlı kaşığı daha et için",
+   "1 tatlı kaşığı tuz (6 g), bir tutam daha pilav için",
    "30 ml sıvı yağ",
    "200 g soğan, ince doğranmış",
    "3 diş sarımsak, ezilmiş",
-   "1 yemek kaşığı tatlı kırmızı biber (15 g)",
+   "2 yemek kaşığı tatlı kırmızı biber (15 g)",
    "1 tatlı kaşığı acı pul biber (2 g)",
    "1 tatlı kaşığı öğütülmüş kimyon (2 g)",
-   "1 tatlı kaşığı kuru kekik veya kekik (1 g)",
+   "1 tatlı kaşığı kuru kekik otu (oregano) (1 g)",
    "300 g olgun domates, rendelenmiş",
    "1,5 litre su veya sığır suyu",
    "400 g patates, soyulmuş ve küp doğranmış",
@@ -36,7 +36,7 @@
    "30 ml vegetable oil",
    "200 g onion, finely chopped",
    "3 garlic cloves, crushed",
-   "1 tbsp sweet red paprika (15 g)",
+   "2 tbsp sweet red paprika (15 g)",
    "1 tsp hot chili flakes (2 g)",
    "1 tsp ground cumin (2 g)",
    "1 tsp dried oregano (1 g)",
@@ -79,5 +79,16 @@
   "tr": "Eti kızartırken tencereyi aşırı doldurmayın; aksi halde et buharda pişer ve renk almaz. Acılığı ayarlamak için pul biber miktarını değiştirin.",
   "en": "Brown the beef in batches so the pot is not overcrowded; otherwise it steams instead of developing colour. Adjust the chili flakes to suit your heat preference."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Paprika quantity implausible: 1 tbsp sweet paprika is about 6-7 g, not 15 g. Changed to 2 tbsp (about 15 g).",
+   "Salt note mismatch: Turkish says 'one more teaspoon for the meat', but the steps and English use a pinch for the rice. Turkish aligned with English.",
+   "Herb mismatch: Turkish says 'kekik' (thyme), English says 'dried oregano'. Turkish now specifies oregano (kekik otu), and the redundant 'veya kekik' is removed.",
+   "Possible missing characteristic ingredient: authentic saice from Potosí relies on dried red chili such as ají colorado or aji panca for its flavour and colour. Sweet paprika alone is a substitute. Not"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

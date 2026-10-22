@@ -20,7 +20,7 @@
    "2 yumurta",
    "200 g süzme yoğurt",
    "100 ml süt",
-   "1 tatlı kaşığı tuz",
+   "1 çay kaşığı tuz",
    "1 çay kaşığı karabiber"
   ],
   "en": [
@@ -65,5 +65,13 @@
   "tr": "Yufka yapraklarını kullanmadan önce nemli bir bezle örtün; kuruyup kırılmalarını önler ve tabakaların düzgün kalmasını sağlar.",
   "en": "Keep the phyllo sheets covered with a damp cloth while you work so they do not dry out and crack."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish salt amount is \"1 tatlı kaşığı\" (dessert spoon, about 2 tsp), but the English says \"1 tsp\" (about 5 ml). Changed the Turkish to \"1 çay kaşığı\" to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

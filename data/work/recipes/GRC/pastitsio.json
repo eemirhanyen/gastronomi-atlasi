@@ -32,7 +32,7 @@
    "60 g un",
    "700 ml süt",
    "1 yumurta sarısı",
-   "1 çay kaşığı rendelenmiş hindistancevizi (küçük bir tutam)"
+   "küçük bir tutam rendelenmiş muskat"
   ],
   "en": [
    "250 g bucatini or other thick tubular pasta",
@@ -68,7 +68,7 @@
    "Doğranmış domatesi ekleyin, ateşi kısın ve sos koyulaşana kadar 20 dakika kadar kısık ateşte pişirin. Defne yaprağını çıkarın, maydanozu serpin.",
    "Beşamel için küçük bir tencerede 60 g tereyağını eritin. Unu ekleyip sürekli karıştırarak 1 dakika pişirin.",
    "Sütü azar azar ekleyerek çırpın. Karışım pürüzsüzleşip kaşığı kaplayacak kıvama gelene kadar, sürekli karıştırarak 5 dakika pişirin.",
-   "Ocağı kapatın. Yumurta sarısını, kalan 50 g peyniri, hindistancevizini, tuzu ve karabiberi ekleyip hızlıca karıştırın.",
+   "Ocağı kapatın. Yumurta sarısını, kalan 50 g peyniri, muskatı, tuzu ve karabiberi ekleyip hızlıca karıştırın.",
    "Fırın kabının tabanına makarnanın yarısını yayın. Üzerine kıymalı sosu dökün ve düzgünce yayın.",
    "Kalan makarnayı sosun üzerine yerleştirin, sonra beşameli üzerine eşit şekilde dökün.",
    "Fırına verip 35-40 dakika, üst yüzey altın rengi olana kadar pişirin.",
@@ -82,7 +82,7 @@
    "Add the mince and cook, breaking it up, for 6-7 minutes until browned. Season with salt and pepper.",
    "Stir in the cinnamon, bay leaf and tomato paste and cook for 1 minute. Pour in the red wine and simmer until reduced by half.",
    "Add the chopped tomatoes, lower the heat and simmer gently for about 20 minutes until thickened. Remove the bay leaf and stir in the parsley.",
-   "For the béchamel, melt the remaining 60 g butter in a small saucepan. Add the flour and cook, stirring, for 1 minute.",
+   "For the béchamel, melt 60 g butter in a small saucepan. Add the flour and cook, stirring, for 1 minute.",
    "Whisk in the milk gradually. Cook, stirring constantly, for about 5 minutes until smooth and thick enough to coat a spoon.",
    "Take the pan off the heat. Quickly stir in the egg yolk, the remaining 50 g of cheese, the nutmeg, salt and pepper.",
    "Spread half the pasta over the base of the dish. Spoon the meat sauce over it and level it out.",
@@ -95,5 +95,15 @@
   "tr": "Béchamel'i yaparken sütü soğuk ekleyin ve sürekli karıştırın; topaklanmayı önlemenin en kolay yolu budur.",
   "en": "Add the milk cold and whisk constantly when making the béchamel; this is the simplest way to prevent lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Nutmeg amount disagrees: Turkish ingredient says 1 çay kaşığı, English says a small pinch.",
+   "Turkish uses 'hindistancevizi' for nutmeg, but that word means coconut. The correct term is 'muskat'. The Turkish step also needs the same fix.",
+   "English step 8 says 'remaining 60 g butter', but the 60 g is separate from the 30 g used for the dish, so 'remaining' is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

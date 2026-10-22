@@ -5,11 +5,11 @@
  },
  "native": "Холодец",
  "desc": {
-  "tr": "Domuz ayağı ve etinden, sarımsaklı suyun doğal jelatinle donmasıyla hazırlanan geleneksel Rus et jölesidir. Özellikle Noel ve Yılbaşı sofralarında, soğuk atıştırmalık olarak hardal ve yenibahar turpu ile servis edilir.",
+  "tr": "Domuz ayağı ve etinden, sarımsaklı suyun doğal jelatinle donmasıyla hazırlanan geleneksel Rus et jölesidir. Özellikle Noel ve Yılbaşı sofralarında, soğuk atıştırmalık olarak hardal ve yaban turpu ile servis edilir.",
   "en": "A traditional Russian meat aspic made by slowly simmering pork trotters and shank until the natural gelatin sets the broth. It is a cold snack served with mustard and horseradish, especially on Christmas Eve and New Year's tables."
  },
  "servings": 4,
- "time_min": 300,
+ "time_min": 630,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -25,7 +25,7 @@
    "1 havuç, haşlanmış ve dilimlenmiş (süsleme için)",
    "2 adet haşlanmış yumurta, dilimlenmiş",
    "Bir demet maydanoz, ince kıyılmış",
-   "Servis için hardal ve rendelenmiş yenibahar turpu"
+   "Servis için hardal ve rendelenmiş yaban turpu"
   ],
   "en": [
    "500 g pork trotters, split in half",
@@ -54,7 +54,7 @@
    "Parçalanmış etleri, dilimlenmiş haşlanmış havucu, yumurta dilimlerini ve maydanozu derin bir kalıba ya da kaseye dizin.",
    "Sarımsakları süzülmüş ve sıcaklığı biraz düşmüş suya ekleyin, ardından bu suyu etlerin üzerine yavaşça dökün. Etler suyun altında kalmalıdır.",
    "Oda sıcaklığında soğumaya bırakın, ardından buzdolabında en az 6 saat, tercihen bir gece boyunca donmaya bırakın.",
-   "Kalıptan ters çevirerek ya da kenarlarından bıçakla ayırarak çıkarın, dilimleyip hardal ve yenibahar turpu ile servis yapın."
+   "Kalıptan ters çevirerek ya da kenarlarından bıçakla ayırarak çıkarın, dilimleyip hardal ve yaban turpu ile servis yapın."
   ],
   "en": [
    "Rinse the pork trotters and shank well under cold water. Blanch them in boiling water for 10 minutes to remove impurities, drain, and rinse the meat under running water.",
@@ -73,5 +73,14 @@
   "tr": "Jölenin iyi donması için pişirme suyunu mutlaka ince süzgeçten geçirin ve soğutmadan önce yağını kepçeyle alın; buzdolabında gece boyu bekletmek en güvenilir sonucu verir.",
   "en": "For a clear, firm set, strain the broth through a fine sieve and skim off surface fat before pouring; chilling overnight gives the most reliable result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'yenibahar turpu' for horseradish, but 'yenibahar' means allspice. The correct term is 'yaban turpu' (desc, ingredients and final step).",
+   "time_min is 300 (5 h), but the steps require about 10 min blanching, 3-4 h simmering and at least 6 h chilling, so the total is roughly 10-11 h."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

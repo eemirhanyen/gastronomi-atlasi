@@ -6,10 +6,10 @@
  "native": "Ropa vieja",
  "desc": {
   "tr": "Panama'da günlük öğünlerin vazgeçilmez yemeklerinden biri olan, domates ve biberli sosta pişirilmiş ince lifli dana eti. Genellikle pirinç, siyah fasulye ve kızarmış muzla birlikte öğle yemeğinde servis edilir.",
-  "en": "A everyday staple of Panamanian home cooking: beef simmered until tender, shredded and finished in a tomato and pepper sauce. It is usually served at lunch with white rice, black beans and fried plantain."
+  "en": "An everyday staple of Panamanian home cooking: beef simmered until tender, shredded and finished in a tomato and pepper sauce. It is usually served at lunch with white rice, black beans and fried plantain."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -24,7 +24,7 @@
    "3 diş sarımsak, ince doğranmış",
    "2 yemek kaşığı salça (30 g)",
    "1 tatlı kaşığı kimyon",
-   "1 tatlı kaşığı kurutulmuş kekik veya kekik",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1/2 tatlı kaşığı karabiber",
    "400 g konserve doğranmış domates",
    "2 yemek kaşığı taze kişniş, doğranmış"
@@ -49,17 +49,17 @@
  },
  "steps": {
   "tr": [
-   "Dana etini, yarım soğanı, defne yaprağını, tuzu ve 700 ml suyu büyük bir tencereye koyun. Kaynayınca ateşi kısın, kapağını yarım kapalı bırakın ve et yumuşayana kadar yaklaşık 45 dakika pişirin.",
+   "Dana etini, yarım soğanı, defne yaprağını, tuzu ve 700 ml suyu büyük bir tencereye koyun. Kaynayınca ateşi kısın, kapağını yarım kapalı bırakın ve et çok yumuşayana kadar yaklaşık 60-75 dakika pişirin.",
    "Eti tencereden çıkarıp soğutun. Suyu süzün ve 250 ml ayırın. Soğuyan eti parmaklarınızla lifleri boyunca ince ince ayırın.",
    "Büyük bir tavada zeytinyağını orta ateşte ısıtın. Kalan yarım soğanı ince dilimleyip yumuşayana kadar yaklaşık 5 dakika soteleyin.",
    "Dolmalık biberleri ve sarımsağı ekleyip 6-8 dakika, biberler yumuşayana kadar pişirin.",
-   "Salçayı, kimyonu, kekiği ve karabiberi ekleyip 2 dakika kavurun.",
+   "Salçayı, kimyonu, kekiği (oreganoyu) ve karabiberi ekleyip 2 dakika kavurun.",
    "Doğranmış domatesleri ekleyin ve sos koyulaşmaya başlayana kadar yaklaşık 10 dakika pişirin.",
    "Lifli eti ve ayırdığınız 250 ml et suyunu sosa ekleyin. Karıştırın ve kısık ateşte, sos iyice koyulaşıp etler sosu emene kadar 15-20 dakika pişirin.",
    "Tuzunu ve karabiberini tadın, gerekirse ayarlayın. Üzerine kişniş serperek sıcak servis yapın."
   ],
   "en": [
-   "Put the beef, half the onion, the bay leaf, salt and 700 ml water in a large pot. Bring to a boil, lower the heat, partly cover and simmer for about 45 minutes until the meat is very tender.",
+   "Put the beef, half the onion, the bay leaf, salt and 700 ml water in a large pot. Bring to a boil, lower the heat, partly cover and simmer for about 60-75 minutes until the meat is very tender.",
    "Remove the beef and let it cool slightly. Strain the liquid and set aside 250 ml. When the meat is cool enough to handle, shred it into thin strands along the grain using your fingers or two forks.",
    "Heat the olive oil in a large frying pan over medium heat. Thinly slice the remaining half onion and soften it for about 5 minutes.",
    "Add the sliced peppers and garlic and cook for 6-8 minutes until the peppers are soft.",
@@ -70,8 +70,20 @@
   ]
  },
  "tip": {
-  "tr": "Eti pişirdikten sonra soğutup lifleri ters yönde değil, lif boyunca ayırırsanız et daha yumuşak ve dağılmadan kalır.",
+  "tr": "Eti pişirdikten sonra hafif ılıkken lif boyunca ayırırsanız et daha yumuşak ve dağılmadan kalır.",
   "en": "Shred the beef along the grain while it is still slightly warm. It separates more easily and stays tender in the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'kekik' (thyme) but the English version says dried oregano; the two versions disagree on the herb.",
+   "Simmering the flank steak for about 45 minutes is likely too short for it to become tender, so the 'very tender' result is unlikely.",
+   "The listed total time of 75 minutes does not cover the stated steps (about 45 min simmering, plus cooling, sautéing, and sauce reduction).",
+   "Turkish tip says to shred the beef after cooling, while the English tip says to shred it while slightly warm.",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

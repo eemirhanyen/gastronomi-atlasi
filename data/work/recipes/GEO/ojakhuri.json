@@ -5,11 +5,11 @@
  },
  "native": "ოჯახური",
  "desc": {
-  "tr": "Gürcistan'da aile sofralarında ve misafir ağırlamada sık yapılan, domuz eti, patates ve soğanın birlikte kızartılıp kısık ateşte pişirildiği sıcak bir ana yemektir. Genellikle kışın ve bayram günlerinde, ekmekle servis edilir.",
+  "tr": "Gürcistan'da aile sofralarında ve misafir ağırlamada sık yapılan, domuz eti, patates ve soğanın birlikte kızartılıp kısık ateşte pişirildiği sıcak bir ana yemektir. Özellikle sonbahar ve kış aylarında, ekmekle servis edilir.",
   "en": "A family-style Georgian main dish of pork, potatoes and onions fried together and then simmered gently. It is a common table dish for family meals and guests, especially in autumn and winter, and is usually served hot with bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -67,5 +67,14 @@
   "tr": "Yemeği bir miktar tkemali (ekşi erik sosu) veya turşu ile ve bol taze ekmekle servis edin; patatesler suyu emdiği için kısa süre dinlendirmek lezzeti toparlar.",
   "en": "Serve with tkemali (sour plum sauce), pickles and plenty of fresh bread; letting the dish rest for a few minutes before serving helps the potatoes absorb the juices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description mentions 'bayram günlerinde' (holidays), but the English description says autumn and winter only. The two versions disagree.",
+   "time_min is 60, but the steps add up to roughly 90–100 minutes including the 20-minute rest, the multiple browning batches, the 10-minute potato frying, the 25-minute simmer and prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

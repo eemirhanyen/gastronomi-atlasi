@@ -9,7 +9,7 @@
   "en": "Oil Down is Grenada's national dish, a slow-cooked one-pot stew of breadfruit, salted beef, chicken and leafy greens simmered in coconut milk. It is served at family gatherings and celebrations, and its name comes from the coconut oil that separates out and floats on top as it cooks."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -55,10 +55,10 @@
   "tr": [
    "Tuzlu sığır etini soğuk suda en az 2 saat bekletin, ara sıra suyunu değiştirin. Ardından süzün, parçalara ayırın ve 15 dakika kaynatıp suyunu dökün.",
    "Tavuk parçalarını limon suyu, tuz, karabiber, ezilmiş sarımsağın yarısı ve kekiğin yapraklarıyla ovalayın; 20 dakika dinlendirin.",
-   "Geniş ve kalın tabanlı bir tencerede sıvı yağı ızgara ederek tavuk ve sığır etini her yüzü hafif kızarana kadar kavurun.",
+   "Geniş ve kalın tabanlı bir tencerede sıvı yağı ısıtarak tavuk ve sığır etini her yüzü hafif kızarana kadar kavurun.",
    "Doğranmış soğanı, kalan sarımsağı, ince kıyılmış yeşil soğanları ve bütün Scotch bonnet biberini ekleyip 5 dakika daha kavurun.",
    "Hindistancevizi sütünü ve suyu ekleyin, kaynatın, kapağını kapatıp kısık ateşte 20 dakika pişirin.",
-   "Havuç ve balkabağı parçalarını ile ekmek meyvesini ekleyin; kapağı kapalı olarak 20 dakika daha pişirin.",
+   "Havuç, balkabağı ve ekmek meyvesi parçalarını ekleyin; kapağı kapalı olarak 20 dakika daha pişirin.",
    "Unu bir tutam tuz ve birkaç yemek kaşığı su ile yumuşak bir hamur haline getirin. Ceviz büyüklüğünde parçalara ayırıp yuvarlayın ve tencereye bırakın.",
    "Ispanak veya kalaloo yapraklarını doğrayıp ekleyin. Sık sık karıştırarak, sos koyulaşıp hindistancevizi yağı yüzeye çıkana kadar, yaklaşık 30 dakika açık kapta pişirin.",
    "Tuz ve karabiberle tatlandırın. Bütün Scotch bonnet biberini çıkarın ve sıcak servis yapın."
@@ -79,5 +79,15 @@
   "tr": "Scotch bonnet biberini bütün bırakın; delinmediği sürece yemeğe yalnızca aroma verir, acılık vermez.",
   "en": "Keep the Scotch bonnet whole so it flavours the stew without making it fiery; remove it before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3: \"sıvı yağı ızgara ederek\" misuses \"ızgara etmek\" (grill); the intended meaning is heating the oil.",
+   "Turkish step 6: \"Havuç ve balkabağı parçalarını ile ekmek meyvesini ekleyin\" is ungrammatical.",
+   "time_min is 120, but the recipe includes at least 2 hours of soaking plus about 1.5 hours of cooking, so the total is roughly 4 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -55,11 +55,11 @@
    "Domuz kemiklerini bir tencerede kaynayan suda 5 dakika haşlayın, sonra süzüp kemikleri akan soğuk suyla yıkayın.",
    "Temizlenmiş kemikleri 2 L suyla birlikte tencereye alın, zencefili ekleyin ve kısık ateşte 40 dakika kaynatarak suyu et suyu haline getirin.",
    "Bu sırada bağırsak ve işkembeyi tuz ve limon suyuyla iyice ovup bol suyla durulayın. Bağırsağı ve işkembeyi ayrı ayrı 15 dakika kaynayan suda pişirin, soğutup ince şeritler halinde kesin.",
-   "Ciğeri ince dilimleyin ve servis kasesine ayırın.",
-   "Et suyunu süzün, kemikleri atın ve suyu tekrar tencereye alın. Pirinci ekleyip orta ateşte kaynatın, ara sıra karıştırarak 30-35 dakika pişirin; lapa kıvamına gelmelidir.",
+   "Ciğeri ince dilimleyin ve bir kenara koyun.",
+   "Et suyunu süzün, kemikleri atın ve suyu tekrar tencereye alın. Pirinci ekleyip orta ateşte kaynatın, ara sıra karıştırarak 30-35 dakika pişirin; lapa kıvamına gelmelidir. Son 3-4 dakikada ciğer dilimlerini lapaya ekleyip tamamen pişene kadar kaynatın (içinde pembe kısım kalmamalıdır).",
    "Lapayı balık sosu, tuz ve karabiberle tatlandırın.",
-   "Pişmiş bağırsak ve işkembe şeritlerini kaselere koyun, üzerine ciğer dilimlerini yerleştirin.",
-   "Sıcak lapayı kaselere dökün; ciğerin hafifçe pişmesi için birkaç dakika bekleyin.",
+   "Pişmiş bağırsak ve işkembe şeritlerini kaselere koyun.",
+   "Ciğerli sıcak lapayı kaselere dökün.",
    "Yeşil soğan, kişniş ve kızartılmış arpacık soğanıyla süsleyin. Limon dilimleri, nane ve acı biberle servis edin."
   ],
   "en": [
@@ -67,17 +67,27 @@
    "Blanch the pork bones in boiling water for 5 minutes, then drain and rinse the bones under cold running water.",
    "Put the cleaned bones, 2 L water and the ginger into a pot. Simmer gently for 40 minutes to make a flavorful broth.",
    "Meanwhile, rub the intestine and tripe well with salt and lime juice, then rinse thoroughly. Boil the intestine and tripe separately for 15 minutes, cool, and cut into thin strips.",
-   "Thinly slice the liver and set it aside in a serving bowl.",
-   "Strain the broth, discard the bones and return the liquid to the pot. Add the rinsed rice and cook over medium heat for 30-35 minutes, stirring occasionally, until the porridge is thick and creamy.",
+   "Thinly slice the liver and set it aside.",
+   "Strain the broth, discard the bones and return the liquid to the pot. Add the rinsed rice and cook over medium heat for 30-35 minutes, stirring occasionally, until the porridge is thick and creamy. In the last 3-4 minutes, add the liver slices and simmer until fully cooked through (no pink remaining).",
    "Season the porridge with fish sauce, salt and black pepper.",
-   "Divide the cooked intestine and tripe strips among four bowls and top with the liver slices.",
-   "Ladle the hot porridge over the offal and liver, and let it sit for a few minutes so the liver cooks gently.",
+   "Divide the cooked intestine and tripe strips among four bowls.",
+   "Ladle the hot porridge with the liver over the offal in each bowl.",
    "Garnish with scallions, cilantro and fried shallots. Serve with lime wedges, fresh herbs and sliced chili."
   ]
  },
  "tip": {
-  "tr": "Ciğeri pişirmek için lapayı ocaktan almadan hemen önce eklemeyin; sıcak lapayı üzerine dökmek ciğerin yumuşak kalmasını sağlar.",
-  "en": "Do not boil the liver. Pour the hot porridge over the thin raw slices so they cook gently and stay tender."
+  "tr": "Domuz ciğerini mutlaka tamamen pişirin; ince dilimler lapada 3-4 dakika kaynayınca pişer ve yumuşak kalır. Çiğ ya da az pişmiş servis etmeyin.",
+  "en": "Pork liver must be cooked through. Thin slices simmered in the porridge for 3-4 minutes become tender and safe to eat. Do not serve it raw or undercooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Pork liver is served raw: the slices are placed in bowls and covered with hot porridge for only a few minutes, which does not reliably cook pork liver through. This is a food-safety risk.",
+   "The tip says not to boil the liver, which reinforces the undercooking problem for pork.",
+   "The Turkish and English steps and tip both carry the same liver error, so both need correcting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

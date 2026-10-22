@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "1 kg taze manyok (yuca)",
-   "2 tatlı kaşığı tuz (suda haşlamak için 1 yemek kaşığı)",
+   "1 yemek kaşığı tuz (haşlama suyu için)",
    "800 ml kızartma yağı",
    "2 diş sarımsak",
    "1 küçük kırmızı biber",
@@ -22,7 +22,7 @@
   ],
   "en": [
    "1 kg fresh cassava (yuca)",
-   "2 tsp salt, plus 1 tbsp for the boiling water",
+   "1 tbsp salt for the boiling water",
    "800 ml frying oil",
    "2 garlic cloves",
    "1 small red chili",
@@ -57,5 +57,13 @@
   "tr": "Manyokları kızartmadan önce iyice kurutun; ıslak parçalar yağı sıçratır ve çıtır olmaz.",
   "en": "Dry the cassava thoroughly before frying; wet pieces spatter and won't turn crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is over-listed: the ingredients include '2 tsp salt' (plus 1 tbsp for boiling), but the steps only use 1 tbsp in the boiling water and 1 tsp in the garlic-chili mix. The 2 tsp line is never used,"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

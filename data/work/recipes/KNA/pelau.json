@@ -27,7 +27,7 @@
    "250 g uzun taneli pirinç, iyice yıkanmış",
    "240 g güvercin bezelyesi (konserve, süzülmüş)",
    "400 ml hindistancevizi sütü",
-   "300 ml su"
+   "150 ml su"
   ],
   "en": [
    "500 g chicken thighs (bone-in, cut into pieces)",
@@ -44,7 +44,7 @@
    "250 g long-grain rice, thoroughly rinsed",
    "240 g pigeon peas (canned, drained)",
    "400 ml coconut milk",
-   "300 ml water"
+   "150 ml water"
   ]
  },
  "steps": {
@@ -55,7 +55,7 @@
    "Doğranmış soğanı, yeşil biberi, taze soğanı ve domates salçasını ekleyin; sebzeler yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Yıkanmış pirinci ekleyip 2 dakika boyunca tanelerin yağ ve salçayla kaplanması için karıştırın.",
    "Güvercin bezelyesini, hindistancevizi sütünü, suyu, kalan kekiği, bütün Scotch bonnet biberini ve tuzu ekleyin; karışımı kaynatın.",
-   "Ateşi en düşük seviyeye indirin, kapağı kapatın ve pirinç suyunu tamamen çekene kadar yaklaşık 25 dakika pişirin.",
+   "Ateşi en düşük seviyeye indirin, kapağı kapatın ve sıvıyı tamamen çekene kadar yaklaşık 25 dakika pişirin.",
    "Ocaktan alıp kapağı kapalı halde 10 dakika dinlendirin. Scotch bonnet biberi ve kekik dallarını çıkarın, pilavı çatalla kabartıp sıcak servis yapın."
   ],
   "en": [
@@ -73,5 +73,14 @@
   "tr": "Karamelin koyu olmasına dikkat edin ama yanmasına izin vermeyin; acı tat olursa pilav bozulur. Scotch bonnet biberi bütün bırakmak aromayı verir, ama kesilirse yemek çok acı olur.",
   "en": "Take the caramel to a deep amber but stop before it smokes or turns black, as it will taste bitter. Leave the Scotch bonnet whole so it flavours the rice without making it fiery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Liquid is far too high for 250 g of rice: 400 ml coconut milk plus 300 ml water (700 ml) would not be fully absorbed in 25 minutes, so the rice would stay soupy. Reduced the water to 150 ml in both la",
+   "Turkish step 7 says \"pirinç suyunu tamamen çekene\", which means \"until the rice water is fully absorbed\". The intended meaning is the cooking liquid, so it should read \"sıvıyı\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

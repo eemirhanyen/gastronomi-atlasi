@@ -35,8 +35,8 @@
  },
  "steps": {
   "tr": [
-   "Ilık suyun bir kısmında mayayı ve şekeri eritin, 10 dakika dinlendirip köpürmesini bekleyin.",
-   "Unu ve tuzu geniş bir kaseye alın, köpüren maya karışımını ve ayçiçek yağını ekleyip yumuşak bir hamur elde edene kadar yoğurun. Hamur yapışıyorsa az az su ekleyin.",
+   "50 ml ılık suda mayayı ve şekeri eritin, 10 dakika dinlendirip köpürmesini bekleyin.",
+   "Unu ve tuzu geniş bir kaseye alın, köpüren maya karışımını, kalan 250 ml ılık suyu ve ayçiçek yağını ekleyip yumuşak bir hamur elde edene kadar yoğurun. Hamur yapışıyorsa az az su ekleyin.",
    "Hamuru 8–10 dakika boyunca pürüzsüz ve esnek olana kadar yoğurun, ardından üzerini örtüp sıcak bir yerde yaklaşık 1 saat, iki katına çıkana kadar mayalanmaya bırakın.",
    "Fırını 250 °C'ye ısıtın ve içine ağır bir pişirme taşı ya da ters çevrilmiş kalın bir fırın tepsisi koyup yaklaşık 45 dakika ısıtın.",
    "Hamuru hafifçe bastırıp gazını alın, ikiye bölün ve her parçayı top haline getirin.",
@@ -46,8 +46,8 @@
    "Ekmekleri fırından çıkarıp tel ızgarada 15 dakika soğumaya bırakın, sonra sıcak ya da ılık servis edin."
   ],
   "en": [
-   "Dissolve the yeast and sugar in a portion of the lukewarm water, then rest for 10 minutes until foamy.",
-   "Put the flour and salt in a large bowl, add the foamy yeast mixture and the sunflower oil, and mix until a soft dough forms. If it is too sticky, add water little by little.",
+   "Dissolve the yeast and sugar in 50 ml of the lukewarm water, then rest for 10 minutes until foamy.",
+   "Put the flour and salt in a large bowl, add the foamy yeast mixture, the remaining 250 ml lukewarm water and the sunflower oil, and mix until a soft dough forms. If it is too sticky, add a little more water gradually.",
    "Knead the dough for 8–10 minutes until smooth and elastic, then cover and leave it in a warm place for about 1 hour, until doubled in size.",
    "Preheat the oven to 250 °C and place a heavy baking stone or an inverted thick baking tray inside to heat for about 45 minutes.",
    "Gently press the dough to release the air, divide it into two, and shape each piece into a ball.",
@@ -61,5 +61,13 @@
   "tr": "Tandır fırının sıcaklığını taklit etmek için pişirme taşını mutlaka iyice ısıtın; ekmek taşa değdiğinde alt kısmı hızlıca kızarır ve gözenekli bir doku oluşur.",
   "en": "Preheat the stone thoroughly so the base sets quickly on contact, mimicking the intense heat of a tandir and giving the bread its characteristic crisp bottom."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 uses 'a portion' of the 300 ml water without stating how much, and step 2 never clearly adds the remaining water. The water amount is therefore not fully accounted for in the steps. Fixed by sp"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

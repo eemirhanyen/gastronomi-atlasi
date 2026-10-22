@@ -17,6 +17,7 @@
    "150 ml tatlandırılmış yoğunlaştırılmış süt",
    "60 ml gül şurubu",
    "2 yemek kaşığı (yaklaşık 20 g) reyhan tohumu",
+   "150 ml su (reyhan tohumlarını şişirmek için)",
    "2 g agar-agar tozu",
    "250 ml su",
    "40 g toz şeker",
@@ -27,6 +28,7 @@
    "150 ml sweetened condensed milk",
    "60 ml rose syrup",
    "2 tablespoons (about 20 g) sweet basil seeds",
+   "150 ml water (to soak the basil seeds)",
    "2 g agar-agar powder",
    "250 ml water",
    "40 g granulated sugar",
@@ -37,7 +39,7 @@
   "tr": [
    "Reyhan tohumlarını bir kasede 150 ml suyla kaplayın ve 15 dakika bekletin. Tohumlar şiştiğinde süzün ve bir kenara koyun.",
    "Bir tencerede 250 ml suyu, agar-agar tozunu ve 40 g toz şekeri birlikte karıştırın. Orta ateşte kaynatın, sürekli karıştırarak 2 dakika daha pişirin.",
-   "Karışımı yaklaşık 15x15 cm boyutunda bir kalıba dökün ve oda sıcaklığında soğumaya bırakın. Ardından buzdolabına koyup 30 dakika kadar donmasını bekleyin.",
+   "Karışımı yaklaşık 15x15 cm boyutunda bir kalıba dökün ve oda sıcaklığında soğumaya bırakın. Ardından buzdolabına koyup yaklaşık 30 dakika bekleterek katılaşmasını sağlayın.",
    "Jöleyi bıçakla 1 cm'lik küpler halinde kesin.",
    "Bir sürahide soğuk sütü, yoğunlaştırılmış sütü ve gül şurubunu pürüzsüz olana kadar iyice çırpın.",
    "Dört bardağın tabanına eşit miktarda reyhan tohumu ve jöle küpü koyun. Üzerine buzu ekleyin.",
@@ -57,5 +59,14 @@
   "tr": "Reyhan tohumlarını kuru halde kullanmayın; mutlaka suda şişirin, aksi halde içecekte sert kalırlar.",
   "en": "Do not use the basil seeds dry; always soak them first, otherwise they stay hard in the drink."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredients list omits the 150 ml water used to soak the basil seeds (in both Turkish and English).",
+   "Turkish step 3 says the jelly should 'donmak' (freeze) in the fridge, but the English says 'set' and 30 minutes in the fridge is for setting, not freezing. The Turkish wording is wrong and needs to sa"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

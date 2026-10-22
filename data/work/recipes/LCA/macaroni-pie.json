@@ -6,7 +6,7 @@
  "native": "Saint Lucian Kwéyòl",
  "desc": {
   "tr": "Saint Lucia'da hafta sonu öğünlerinde, pikniklerde ve özel günlerde ana yemeğin yanında servis edilen, peynirli ve kıvamlı bir makarna fırın yemeğidir. Kare dilimler halinde kesilerek sunulur.",
-  "en": "A baked, cheesy macaroni dish served on Saint Lucia at weekend meals, picnics and celebrations, usually alongside a main course. It is set in a dish and cut into squares to serve."
+  "en": "A baked, cheesy macaroni dish served on Saint Lucia at weekend meals, picnics and celebrations, usually alongside a main course. It is baked in a dish and cut into squares to serve."
  },
  "servings": 4,
  "time_min": 60,
@@ -15,7 +15,8 @@
   "tr": [
    "250 g dirsek makarna",
    "1 çay kaşığı tuz (makarnanın haşlanması için)",
-   "30 g tereyağı",
+   "30 g tereyağı (sote için)",
+   "10 g tereyağı (kabı yağlamak için)",
    "1 küçük soğan (yaklaşık 100 g), ince doğranmış",
    "1 yeşil biber (yaklaşık 100 g), küp doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -30,7 +31,8 @@
   "en": [
    "250 g elbow macaroni",
    "1 tsp salt (for cooking the macaroni)",
-   "30 g butter",
+   "30 g butter (for sautéing)",
+   "10 g butter (for greasing the dish)",
    "1 small onion (about 100 g), finely chopped",
    "1 green bell pepper (about 100 g), diced",
    "2 garlic cloves, minced",
@@ -46,7 +48,7 @@
  "steps": {
   "tr": [
    "Büyük bir tencerede 2 litre suyu tuzla kaynatın. Makarnayı ekleyip 7-8 dakika, hafif al dente kalacak şekilde haşlayın, süzün ve bir kenara alın.",
-   "Fırını 180°C'ye ısıtın. Yaklaşık 20x20 cm'lik bir fırın kabının içini az miktarda tereyağıyla yağlayın.",
+   "Fırını 180°C'ye ısıtın. Yaklaşık 20x20 cm'lik bir fırın kabının içini 10 g tereyağıyla yağlayın.",
    "Geniş bir tavada 30 g tereyağını orta ateşte eritin. Soğanı ve yeşil biberi ekleyip 5 dakika, yumuşayana kadar soteleyin.",
    "Sarımsağı ekleyip 1 dakika daha pişirin, ocaktan alın.",
    "Ayrı bir kapta yumurtaları çırpın. Buharlaştırılmış sütü, tam yağlı sütü, kuru kekiği, 1/2 çay kaşığı tuzu ve karabiberi ekleyip iyice karıştırın.",
@@ -57,7 +59,7 @@
   ],
   "en": [
    "Bring 2 litres of water with 1 tsp salt to a boil in a large pot. Add the macaroni and cook for 7-8 minutes, until just al dente. Drain and set aside.",
-   "Preheat the oven to 180°C. Lightly grease a dish of about 20x20 cm with a little of the butter.",
+   "Preheat the oven to 180°C. Lightly grease a dish of about 20x20 cm with the 10 g of butter.",
    "Melt the 30 g butter in a wide pan over medium heat. Add the onion and green bell pepper and sauté for 5 minutes, until soft.",
    "Add the garlic and cook for 1 more minute, then remove from the heat.",
    "In a separate bowl, whisk the eggs. Add the evaporated milk, whole milk, dried thyme, 1/2 tsp salt and black pepper, and mix well.",
@@ -71,5 +73,13 @@
   "tr": "Makarnayı biraz al dente çekin, çünkü fırında pişerken sütlü karışımı emip yumuşayacaktır. Dilimlemeden önce dinlendirmek, kesitlerin dağılmasını önler.",
   "en": "Undercook the macaroni slightly, as it will soak up the milk mixture and soften in the oven. Resting the pie before cutting keeps the squares from falling apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter is ambiguous: the 30 g listed is used for sautéing in step 3, but step 2 says to grease the dish with 'a little of the butter' from that same 30 g. Greasing needs its own listed amount."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

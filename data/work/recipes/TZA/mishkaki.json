@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Bambu şişleri ızgarada yanmasın diye pişirmeden önce mutlaka suda bekletin; sirke marinasyonu etin yumuşamasına yardımcı olur.",
+  "tr": "Bambu şişleri ızgarada yanmasın diye pişirmeden önce mutlaka suda bekletin; etin 4 saatten fazla marine edilmemesine dikkat edin, aksi halde sirke yüzeyi yumuşatabilir.",
   "en": "Soak the bamboo skewers well before grilling so they do not burn, and do not marinate the beef for much longer than 4 hours, as the vinegar can make the surface mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip omits the warning that the beef should not marinate longer than 4 hours. It also says the vinegar helps tenderize, while the English tip says the vinegar can make the surface mushy. Th"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

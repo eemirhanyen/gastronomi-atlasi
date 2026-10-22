@@ -20,6 +20,7 @@
    "150 g beyaz peynir (feta), ufalanmış",
    "2 yumurta",
    "200 g tam yağlı yoğurt",
+   "60 ml su",
    "10 g taze dereotu, ince kıyılmış",
    "80 g tereyağı, eritilmiş",
    "1 çay kaşığı tuz",
@@ -33,6 +34,7 @@
    "150 g white cheese (feta), crumbled",
    "2 eggs",
    "200 g full-fat yogurt",
+   "60 ml water",
    "10 g fresh dill, finely chopped",
    "80 g butter, melted",
    "1 teaspoon salt",
@@ -69,5 +71,13 @@
   "tr": "Ispanağı iyice sıkmak çok önemlidir; fazla su kalırsa yufkalar ıslanır ve börek dağılabilir.",
   "en": "Squeeze the spinach thoroughly; excess water will make the phyllo soggy and can cause the byrek to fall apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 (both TR and EN) uses 60 ml water, but water is missing from the ingredient lists in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,8 +5,8 @@
  },
  "native": "Levant (Lebanon and Syria); also widely eaten in Iraq",
  "desc": {
-  "tr": "Bol maydanozlu, naneli ve ince bulgurlu bu taze salata, Levant mutfağının en bilinen mezelerinden biridir. Yaz aylarında öğle yemeklerinde ve kalabalık sofralarda, genellikle kaşar gibi peynirlerle ve ekmekle birlikte servis edilir.",
-  "en": "This fresh salad of finely chopped parsley, mint and fine bulgur is one of the best-known Levantine mezze. It is served in summer, at lunch and at large family tables, usually with bread and cheese."
+  "tr": "Bol maydanozlu, naneli ve ince bulgurlu bu taze salata, Levant mutfağının en bilinen mezelerinden biridir. Yaz aylarında öğle yemeklerinde ve kalabalık sofralarda, genellikle beyaz peynirle ve ekmekle birlikte servis edilir.",
+  "en": "This fresh salad of finely chopped parsley, mint and fine bulgur is one of the best-known Levantine mezze. It is served in summer, at lunch and at large family tables, usually with bread and white cheese."
  },
  "servings": 4,
  "time_min": 60,
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Tabulenin asıl lezzeti otlardan gelir; maydanozu bıçakla çok ince kıyın, robotta çekmeyin, aksi halde ezilip suyunu bırakır. Limon ve zeytinyağını servisten hemen önce ekleyin.",
-  "en": "Tabbouleh is mostly herbs, so chop the parsley by hand with a sharp knife rather than in a food processor, which bruises it and releases juice. Add the dressing just before serving."
+  "tr": "Tabulenin asıl lezzeti otlardan gelir; maydanozu bıçakla çok ince kıyın, robotta çekmeyin, aksi halde ezilip suyunu bırakır. Limon ve zeytinyağını servisten kısa süre önce ekleyin, uzun bekletmeyin.",
+  "en": "Tabbouleh is mostly herbs, so chop the parsley by hand with a sharp knife rather than in a food processor, which bruises it and releases juice. Add the dressing shortly before serving rather than long in advance."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description names kaşar as the accompanying cheese, which is not a Levantine tabbouleh pairing; the English just says 'cheese'. White cheese is the usual match.",
+   "Tip says to add lemon and olive oil just before serving, but step 5 adds the dressing and step 6 lets the salad rest for 15 minutes. The tip should match the method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

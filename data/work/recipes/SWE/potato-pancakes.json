@@ -20,6 +20,7 @@
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı beyaz biber",
    "60 g tereyağı, kızartmak için",
+   "200 g domuz pastırması, ince dilimlenmiş",
    "150 g kızılcık reçeli, servis için"
   ],
   "en": [
@@ -30,6 +31,7 @@
    "1 tsp salt",
    "1/2 tsp white pepper",
    "60 g butter, for frying",
+   "200 g bacon, thinly sliced",
    "150 g lingonberry jam, for serving"
   ]
  },
@@ -42,7 +44,8 @@
    "Hamurdan bir yemek kaşığı kadar alıp tavaya yayın, kenarları ince kalacak şekilde yassılaştırın. Birkaç krep aynı anda pişirilebilir.",
    "Her iki yüzü altın rengi ve kenarları çıtır olana kadar yaklaşık 3-4 dakika pişirin, bu sırada tavaya gerektikçe tereyağı ekleyin.",
    "Pişen krepleri 90°C'ye ayarlı fırında sıcak tutun ve kalan hamurla aynı işlemi tekrarlayın.",
-   "Sıcak krepleri kızılcık reçeliyle servis edin."
+   "Domuz pastırmasını ayrı bir tavada gevrek olana kadar kızartın ve kağıt havlu üzerine alın.",
+   "Sıcak krepleri kızarmış domuz pastırması ve kızılcık reçeliyle servis edin."
   ],
   "en": [
    "Grate the potatoes on the fine side of a box grater, then place the grated potato in a clean cloth and squeeze out as much liquid as possible.",
@@ -52,12 +55,21 @@
    "Spoon about one tablespoon of batter into the pan for each pancake and flatten it, keeping the edges thin. Several pancakes can be cooked at once.",
    "Fry for about 3-4 minutes, until both sides are golden and the edges are crisp, adding more butter to the pan as needed.",
    "Keep the cooked pancakes warm in an oven set to 90°C while you cook the remaining batter in the same way.",
-   "Serve the hot pancakes with lingonberry jam."
+   "Fry the bacon in a separate pan until crisp, then drain on kitchen paper.",
+   "Serve the hot pancakes with the fried bacon and lingonberry jam."
   ]
  },
  "tip": {
   "tr": "Patatesi sıkmak krepin çıtır olmasını sağlar; sıkılan suyu bir kaseye koyup bekletirseniz çöken nişastayı geri ekleyerek lezzeti artırabilirsiniz.",
   "en": "Squeezing the potatoes well is key to crisp pancakes; let the squeezed liquid settle and stir the starch from the bottom back into the batter for better texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says the pancakes are usually served with fried pork or bacon, but the ingredients and steps include no bacon or pork and serve them with jam only. The Turkish and English versions are"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

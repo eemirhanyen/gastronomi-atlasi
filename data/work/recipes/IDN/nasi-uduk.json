@@ -15,7 +15,7 @@
   "tr": [
    "300 g yasemin pirinci",
    "400 ml hindistan cevizi sütü",
-   "300 ml su",
+   "200 ml su",
    "2 pandan yaprağı",
    "1 sap limon otu, hafifçe ezilmiş",
    "2 defne yaprağı",
@@ -36,7 +36,7 @@
   "en": [
    "300 g jasmine rice",
    "400 ml coconut milk",
-   "300 ml water",
+   "200 ml water",
    "2 pandan leaves",
    "1 lemongrass stalk, lightly bruised",
    "2 bay leaves",
@@ -83,5 +83,13 @@
   "tr": "Pilavı pişirdikten sonra kapağı kapalı bırakarak dinlendirmek, hindistan cevizi sütünün pirince eşit dağılmasını ve daha yumuşak bir doku elde edilmesini sağlar.",
   "en": "Letting the rice rest covered after cooking allows the coconut milk to distribute evenly and gives a softer, fluffier texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Liquid-to-rice ratio is too high: 700 ml total (400 ml coconut milk + 300 ml water) for 300 g jasmine rice (about 2.3:1). Rice would likely stay soupy after 20 minutes of absorption cooking. Reduced t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

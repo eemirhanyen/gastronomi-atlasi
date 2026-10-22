@@ -5,8 +5,8 @@
  },
  "native": "Wiener Melange",
  "desc": {
-  "tr": "Viyana kahvehanelerinin klasik sütlü kahvesidir; yarısı espresso, yarısı ılık süt köpüğüyle hazırlanır. Viyana'da öğleden önce ve kahvaltıda, kahvehanede oturup gazete okurken tüketilir.",
-  "en": "The classic milky coffee of Viennese coffee houses, made with equal parts espresso-strength coffee and warm, frothed milk. In Vienna it is drunk in the morning or at breakfast, often while reading the newspaper in a café."
+  "tr": "Viyana kahvehanelerinin klasik sütlü kahvesidir; yaklaşık eşit miktarda espresso kıvamında kahve ve ılık süt köpüğüyle hazırlanır. Viyana'da öğleden önce ve kahvaltıda, kahvehanede oturup gazete okurken tüketilir.",
+  "en": "The classic milky coffee of Viennese coffee houses, made with roughly equal parts espresso-strength coffee and warm, frothed milk. In Vienna it is drunk in the morning or at breakfast, often while reading the newspaper in a café."
  },
  "servings": 4,
  "time_min": 15,
@@ -30,19 +30,19 @@
  "steps": {
   "tr": [
    "Kahveyi espresso makinesinde veya moka/filtre yöntemiyle 260 ml suyla demleyerek yaklaşık 240 ml güçlü kahve elde edin ve sıcak tutun.",
-   "Sütü orta ateşte 60–65 °C'ye kadar ısıtın; kaynamasına izin vermeyin.",
-   "Sütü bir kapta mikserle veya buhar başlığıyla kabarana kadar köpürtün. Köpüğü kaşıkla alıp bir kenara koyun.",
+   "Sütün tamamını orta ateşte 60–65 °C'ye kadar ısıtın; kaynamasına izin vermeyin.",
+   "Sütün yaklaşık 160 ml'sini bir kapta mikserle veya buhar başlığıyla kabarana kadar köpürtün. Köpüğü kaşıkla alıp bir kenara koyun. Kalan ılık sütü (240 ml) ayrı tutun.",
    "Ön ısıtılmış her bardağa 60 ml kahve koyun.",
-   "Her bardağa kalan ılık sütten 100 ml yavaşça dökün.",
+   "Her bardağa kalan ılık sütten 60 ml yavaşça dökün.",
    "Üzerine hazırladığınız süt köpüğünden kaşıkla yerleştirin.",
    "İsteğe bağlı olarak toz şekeri ayrı bir kaseyle hemen servis edin."
   ],
   "en": [
    "Brew 240 ml of strong coffee from 40 g ground coffee and 260 ml water using an espresso machine, moka pot or filter method, then keep it hot.",
-   "Heat the milk in a saucepan over medium heat to 60–65 °C; do not let it boil.",
-   "Froth the milk in a jug with a milk frother or steam wand until it is foamy. Spoon off the foam and set it aside.",
+   "Heat all the milk in a saucepan over medium heat to 60–65 °C; do not let it boil.",
+   "Froth about 160 ml of the milk in a jug with a milk frother or steam wand until it is foamy. Spoon off the foam and set it aside. Keep the remaining warm milk (240 ml) separate.",
    "Pour 60 ml of coffee into each pre-warmed glass.",
-   "Gently pour 100 ml of the warm milk into each glass.",
+   "Gently pour 60 ml of the remaining warm milk into each glass.",
    "Spoon the reserved milk foam on top.",
    "Serve immediately, with the caster sugar in a small bowl on the side if desired."
   ]
@@ -51,5 +51,14 @@
   "tr": "Sütü ısıtırken termometre kullanın; 65 °C'yi geçerse süt tadı bozulur ve köpük sönük olur.",
   "en": "Use a thermometer when heating the milk; above 65 °C the milk tastes flat and the foam collapses quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Milk quantities don't add up: all 400 ml is poured as liquid (4 × 100 ml), leaving no milk for the foam the steps require. The description also says 'equal parts' coffee and milk, but 240 ml coffee to",
+   "Turkish and English versions carry the same milk-volume error, so both need correcting together."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

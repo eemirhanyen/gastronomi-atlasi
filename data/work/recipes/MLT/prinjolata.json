@@ -9,7 +9,7 @@
   "en": "A traditional Maltese festive dessert of almonds, chocolate and candied peel, topped with pine nuts. It is especially served at Christmas and Carnival, in family homes and pastry shops alike."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,10 +49,10 @@
  },
  "steps": {
   "tr": [
-   "Fırını 160°C'ye ısıtın. Çam fıstıklarını bir tepsiye yayın ve 5 dakika, hafif altın rengi alana kadar kavurun. 40 g'ını ayırın, kalanını ise 20 g'ını kaplama için bir kenara koyun.",
+   "Fırını 160°C'ye ısıtın. Çam fıstıklarını bir tepsiye yayın ve 5 dakika, hafif altın rengi alana kadar kavurun. Kavrulmuş çam fıstıklarının 40 g'ını karışım için, 20 g'ını kaplama için ayırın.",
    "Orta boy bir tencerede balı, toz şekeri ve suyu karıştırın. Kısık ateşte 3 dakika, şeker tamamen eriyene ve şurup hafifçe koyulaşana kadar kaynatın.",
    "Ocağı kapatın; tereyağı ve doğranmış bitter çikolatayı ekleyip çikolata eriyene kadar karıştırın.",
-   "Geniş bir kasede öğütülmüş badem, ezilmiş bisküvi, kabuk şekerlemesi, portakal rendesi, tarçın, karanfil ve ayırdığınız 40 g çam fıstığını birleştirin.",
+   "Geniş bir kasede öğütülmüş badem, ezilmiş bisküvi, kabuk şekerlemesi, portakal rendesi, tarçın, karanfil ve karışım için ayırdığınız 40 g çam fıstığını birleştirin.",
    "Çikolatalı şurubu kuru karışıma ekleyip iyice yoğurun. En sonunda maraskino likörünü ilave edip homojen, şekillendirilebilir bir hamur elde edin.",
    "15 cm'lik bir kalıbı veya küçük bir kek kalıbını streç film ile kaplayın. Karışımı kalıba bastırarak yerleştirin ve üzerini düzleştirin.",
    "Kalıbı buzdolabında en az 1 saat bekletin, hamur iyice sertleşsin.",
@@ -79,5 +79,14 @@
   "tr": "Hamuru kalıba bastırırken ne kadar sıkı yoğurursanız dilimler o kadar temiz kesilir; kesmeden önce bıçağı sıcak suya batırıp silin.",
   "en": "Press the mixture very firmly into the mould so the slices hold together; dip your knife in hot water and wipe it dry before each cut for clean edges."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 is garbled: '40 g'ını ayırın, kalanını ise 20 g'ını kaplama için bir kenara koyun' is unclear and does not match the English. It should say to set aside 40 g for the mixture and 20 g fo",
+   "time_min is 60, but the recipe includes at least 1 hour of chilling plus 20 minutes of setting time, so the total is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

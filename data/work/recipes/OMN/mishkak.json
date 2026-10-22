@@ -48,7 +48,7 @@
    "Büyük bir kapta rendelenmiş soğanı, ezilmiş sarımsağı, sirkeyi, limon suyunu, kimyonu, kişnişi, zerdeçalı, karabiberi ve tuzu karıştırın.",
    "Kuzu etini marinenin içine ekleyin ve iyice yoğurarak her parçaya karışımın yapışmasını sağlayın.",
    "Kapağını kapatın veya streç filmle örtün, ardından buzdolabında en az 30 dakika, tercihen 2 saat dinlendirin.",
-   "Marine edilmiş etleri 4-5 parça olacak şekilde şişlere dizin. Parçalar birbirine çok sıkışık olmasın ki eşit pişsin.",
+   "Marine edilmiş etleri her şişe yaklaşık 3 parça olacak şekilde dizin. Parçalar birbirine çok sıkışık olmasın ki eşit pişsin.",
    "Izgarayı veya ızgara tavasını orta-yüksek ateşte iyice ısıtın. Şişleri yağla hafifçe fırçalayın.",
    "Şişleri ara sıra çevirerek her yüzü kızarana ve et kenarları karamelize olana kadar yaklaşık 10-12 dakika pişirin. İçi hafif pembe kalmalı ama kanlı olmamalı.",
    "Pişen şişleri servis tabağına alın ve birkaç dakika dinlendirin.",
@@ -58,7 +58,7 @@
    "In a large bowl, mix the grated onion, crushed garlic, vinegar, lemon juice, cumin, coriander, turmeric, black pepper and salt.",
    "Add the lamb cubes to the marinade and massage well so every piece is evenly coated.",
    "Cover the bowl or wrap it in cling film and refrigerate for at least 30 minutes, ideally 2 hours.",
-   "Thread 4 to 5 pieces of marinated lamb onto each skewer, leaving small gaps so the meat cooks evenly.",
+   "Thread about 3 pieces of marinated lamb onto each skewer, leaving small gaps so the meat cooks evenly.",
    "Heat the grill or grill pan over medium-high heat until very hot. Lightly brush the skewers with the oil.",
    "Cook the skewers for about 10 to 12 minutes, turning occasionally, until every side is browned and the edges are caramelised. The centre should be slightly pink but not bloody.",
    "Transfer the cooked skewers to a serving plate and rest them for a few minutes.",
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Eti marine etmeden önce kurutun; fazla su ızgarada buharlaşıp kızarmayı engeller ve şişler haşlanmış gibi olur.",
+  "tr": "Izgaraya koymadan önce eti kurutun; fazla nem ızgarada buharlaşıp kızarmayı engeller ve şişler haşlanmış gibi olur.",
   "en": "Pat the lamb dry before grilling, since excess moisture will steam the meat instead of browning it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 says 4-5 lamb pieces per skewer, but 600 g of 3 cm cubes (about 22 cubes) across 8 skewers gives roughly 3 pieces each. Changed to about 3 in both languages.",
+   "The Turkish tip says to dry the meat before marinating, but the English tip says before grilling. Since the meat is wet from the marinade, the Turkish tip now matches the English one: dry before grill"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

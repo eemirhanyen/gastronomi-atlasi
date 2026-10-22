@@ -8,7 +8,7 @@
   "tr": "Tayvan'ın gece pazarlarında ve sokak yemeklerinde yaygın olan, nişastalı yumurtaya taze istiridye, taze soğan ve fasulye filizi eklenerek hazırlanan gevrek kenarlı bir omlet. Tatlı-ekşi kıvamlı sosuyla servis edilir.",
   "en": "A crisp-edged egg dish of starch-bound batter, fresh oysters, spring onion and bean sprouts, popular at Taiwanese night markets and street stalls. It is served with a sweet-tangy sauce and eaten hot."
  },
- "servings": 4,
+ "servings": 2,
  "time_min": 40,
  "difficulty": "medium",
  "ingredients": {
@@ -28,6 +28,7 @@
    "30 g şeker",
    "15 ml pirinç sirkesi",
    "5 g mısır nişastası",
+   "15 ml soğuk su (mısır nişastası için)",
    "20 ml tatlı acı sos"
   ],
   "en": [
@@ -46,6 +47,7 @@
    "30 g sugar",
    "15 ml rice vinegar",
    "5 g cornstarch",
+   "15 ml cold water (for the cornstarch)",
    "20 ml sweet chili sauce"
   ]
  },
@@ -83,5 +85,14 @@
   "tr": "Omleti çevirmeden önce altının sertleşmesini bekleyin; yeterince pişmemiş bir yüzey dağılır. Geleneksel görünüm için sosu bol kullanın.",
   "en": "Wait until the base is fully set before flipping, or the omelette will break apart. Use a generous amount of sauce for the classic look."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings are 4, but the 4 eggs, 300 g oysters and batter split into two portions make only two omelettes, so the quantities fit 2 servings.",
+   "Step 2 uses 15 ml cold water for the cornstarch slurry, but this amount is not in the ingredient list in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

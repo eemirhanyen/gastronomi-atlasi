@@ -5,7 +5,7 @@
  },
  "native": "Poisson braisé",
  "desc": {
-  "tr": "Fildişi Sahili'nin Abican kıyı kentlerinde ve Abidjan'ın sokak lokantalarında öğle ve akşam yemeği olarak yenen, limon, sarımsak ve acı biberle marine edilmiş ızgara balığın, buharda hazırlanmış acı-ekşi mayalı manyok tanesi attiéké ile servis edilen klasik bir yemektir.",
+  "tr": "Fildişi Sahili'nin kıyı kentlerinde ve Abidjan'ın sokak lokantalarında öğle ve akşam yemeği olarak yenen, limon, sarımsak ve acı biberle marine edilmiş ızgara balığın, buharda hazırlanmış acı-ekşi mayalı manyok tanesi attiéké ile servis edilen klasik bir yemektir.",
   "en": "A classic lunch and dinner dish from the coastal cities of Côte d'Ivoire, especially Abidjan, where street stalls and home kitchens serve lime, garlic and chili marinated whole fish grilled over charcoal with attiéké, a fermented cassava semolina."
  },
  "servings": 4,
@@ -20,7 +20,7 @@
    "2 adet Scotch bonnet biber",
    "1 adet büyük soğan, ince doğranmış ve 1 adet küçük soğan, ince dilimlenmiş",
    "2 adet domates, küp doğranmış",
-   "90 ml sıvı yağ (bölünmüş)",
+   "105 ml sıvı yağ (30 ml marinasyon, 30 ml attiéké, 30 ml sos ve 15 ml balık fırçalama için)",
    "1 tatlı kaşığı tuz (yaklaşık 5 g) ve 1/2 tatlı kaşığı karabiber",
    "800 g attiéké (taze veya dondurulmuş)"
   ],
@@ -32,7 +32,7 @@
    "2 scotch bonnet chilies (1 for the marinade, 1 for the sauce)",
    "1 large onion, finely chopped, and 1 small onion, thinly sliced",
    "2 tomatoes, diced",
-   "90 ml vegetable oil, divided",
+   "105 ml vegetable oil, divided (30 ml marinade, 30 ml attiéké, 30 ml sauce, 15 ml for brushing the fish)",
    "1 tsp salt (about 5 g) and 1/2 tsp black pepper",
    "800 g attiéké (fresh or frozen)"
   ]
@@ -61,5 +61,14 @@
   "tr": "Attiéké'yi haşlamak yerine buharda pişirin; taneler dağılmaz ve kıvamı hafif kalır. Ayrıca limon dilimlerini balığın üzerine sıkarak servis edin.",
   "en": "Steam the attiéké rather than boiling it so the grains stay separate and light. Squeeze the lime wedges over the fish just before eating."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a place-name typo: \"Abican\" should be \"Abidjan\" (the sentence already mentions Abidjan later).",
+   "Oil quantities don't add up: 90 ml is listed, but the steps use 30 ml for the marinade, 30 ml for the attiéké, 30 ml for the sauce, plus 1 tablespoon (about 15 ml) to brush the fish during grilling. T"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

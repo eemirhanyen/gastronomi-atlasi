@@ -9,7 +9,7 @@
   "en": "A chilled, lightly salted yogurt drink made by whisking plain yogurt with cold water. In Azerbaijan it is served on hot summer days and alongside rich grilled meals such as kebabs."
  },
  "servings": 4,
- "time_min": 10,
+ "time_min": 20,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,5 +47,13 @@
   "tr": "Köpük için ayranı iki sürahi arasında yüksekten birkaç kez dökün; bu işlem yüzeyde hafif bir köpük oluşturur.",
   "en": "For a frothy top, pour the ayran back and forth between two jugs from a height a few times; this creates a light foam on the surface."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 10, but the steps include a 10-minute refrigerator chill on top of whisking and serving, so the total is about 20 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

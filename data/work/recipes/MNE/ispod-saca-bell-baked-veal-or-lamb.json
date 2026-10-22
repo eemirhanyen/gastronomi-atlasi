@@ -6,7 +6,7 @@
  "native": "Ispod sača",
  "desc": {
   "tr": "Karadağ'da, özellikle kıyı bölgesi ve Cetinje çevresinde, aile toplantılarında ve bayramlarda yenen geleneksel bir et yemeğidir. Et, patates ve soğan, üstü kapalı bir sač (çan biçimli pişirme kabı) altında yavaşça pişirilir.",
-  "en": "A traditional Montenegrin dish eaten at family gatherings and holidays, especially along the coast and around Cetinje. Meat, potatoes and onions are slow-cooked under a domed lid called a sač, traditionally covered with embers."
+  "en": "A traditional Montenegrin dish eaten at family gatherings and holidays, especially along the coast and around Cetinje. Meat, potatoes and onions are slow-cooked under a domed lid called a sač. Traditionally the sač is set over embers; this home version uses an oven."
  },
  "servings": 4,
  "time_min": 150,
@@ -42,7 +42,7 @@
  "steps": {
   "tr": [
    "Fırını 180°C'ye ısıtın.",
-   "Et parçalarını büyük bir kasede zeytinyağı, ince dilimlenmiş sarımsak, tuz, karabiber ve kuru kekik ile iyice karıştırın. En az 30 dakika oda sıcaklığında bekletin.",
+   "Et parçalarını büyük bir kasede zeytinyağı, ince dilimlenmiş sarımsak, tuz, karabiber ve kuru kekik ile iyice karıştırın. Kapağını kapatıp buzdolabında en az 30 dakika bekletin.",
    "Dökme demir bir tencerenin tabanına dilimlenmiş patateslerin yarısını yayın ve hafifçe tuzlayın.",
    "Patateslerin üzerine soğan halkalarının yarısını dizin, ardından marine edilmiş etin yarısını ekleyin.",
    "Kalan soğanı ve eti katlar halinde tekrar yerleştirin. En üste kalan patatesleri koyun ve defne yapraklarını ekleyin.",
@@ -54,7 +54,7 @@
   ],
   "en": [
    "Preheat the oven to 180°C.",
-   "In a large bowl, mix the meat with olive oil, thinly sliced garlic, salt, black pepper and dried thyme until well coated. Leave to marinate at room temperature for at least 30 minutes.",
+   "In a large bowl, mix the meat with olive oil, thinly sliced garlic, salt, black pepper and dried thyme until well coated. Cover and refrigerate for at least 30 minutes.",
    "Spread half of the sliced potatoes over the base of a heavy cast-iron pot and season lightly with salt.",
    "Arrange half of the onion rings on top of the potatoes, then add half of the marinated meat.",
    "Layer the remaining onions and meat, then finish with the rest of the potatoes. Tuck the bay leaves between the layers.",
@@ -69,5 +69,14 @@
   "tr": "Tencerenin kapağını açmadan önce sık sık açıp kapatmayın; buhar kaybı etin suyunu azaltır. Geleneksel sunumda kaymak ve ekmekle servis edilir.",
   "en": "Avoid lifting the lid during cooking, as lost steam dries out the meat. Traditionally served with kajmak (a creamy dairy spread) and fresh bread."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 (both languages) marinates the raw meat at room temperature for at least 30 minutes, which is a food-safety problem. It should be refrigerated.",
+   "The English description says the dish is 'traditionally covered with embers', but the Turkish description and the method (oven baking) do not mention embers. The English text is inconsistent with the "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

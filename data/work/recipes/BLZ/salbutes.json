@@ -27,7 +27,7 @@
    "1 küçük kırmızı soğan, ince dilimlenmiş",
    "60 ml beyaz sirke",
    "60 ml su",
-   "1/2 çay kaşığı kurutulmuş kekik ya da kekik benzeri kekik (oregano)",
+   "1/2 çay kaşığı kurutulmuş kekik (oregano)",
    "500 ml kızartma yağı",
    "1/2 avokado, dilimlenmiş (isteğe bağlı)",
    "acı sos, dilediğiniz kadar"
@@ -79,5 +79,13 @@
   "tr": "Hamur çok yapışkan olursa birkaç damla un, çatlarsa birkaç damla su ekleyin; diskleri plastik arasında kalın tutmak, kızartırken şeklinin bozulmasını önler.",
   "en": "If the dough sticks, add a few drops of flour; if it cracks, add a few drops of water. Keeping the discs thick between the plastic prevents them from losing their shape in the fryer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish oregano entry 'kurutulmuş kekik ya da kekik benzeri kekik (oregano)' is confusing and unnatural; English specifies dried oregano, so the Turkish should name it clearly."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

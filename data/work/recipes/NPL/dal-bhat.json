@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "200 g kabuksuz bölünmüş güvercin bezelyesi (sarı toor dal), yıkanmış",
-   "300 g baldo pirinç (basmati tercih edilir)",
+   "300 g uzun taneli pirinç (basmati tercih edilir)",
    "1,2 l su (mercimek için)",
    "600 ml su (pirinç için)",
    "1 çay kaşığı kurkuma",
@@ -68,7 +68,7 @@
    "Sebze için geniş bir tavada 2 yemek kaşığı sıvı yağı ısıtın. Kimyonun yarısını ekleyip çatlamaya başlayınca soğanı ekleyin ve altın rengi alana kadar 5-6 dakika kavurun.",
    "Zencefil ve sarımsağı ekleyin, 1 dakika kavurun. Kalan kurkuma, toz kırmızı biberi ve patatesleri ekleyin, iyice karıştırın. Üzerine 100 ml su ve 1/4 çay kaşığı tuz ekleyip kapağını kapatın. Orta-kısık ateşte patatesler yumuşayana kadar 12-15 dakika pişirin.",
    "Dal için küçük bir tavada ghee'yi ısıtın. Kalan kimyonu ve asafetidayı ekleyin, birkaç saniye bekleyin. Kıyılmış sarımsağın bir kısmını (varsa tamamını) ve yeşil biberi ekleyip 1 dakika kavurun.",
-   "Kıyılmış domatesi ekleyin ve yumuşayıp suyunu salana kadar 3-4 dakika pişirin. Bu tempalamayı pişmiş mercimeğin üzerine dökün, iyice karıştırın. Kıvam çok koyuysa biraz sıcak su ekleyin, kısık ateşte 5 dakika daha kaynatın ve tuzunu tadın.",
+   "Kıyılmış domatesi ekleyin ve yumuşayıp suyunu salana kadar 3-4 dakika pişirin. Bu baharatlı yağı pişmiş mercimeğin üzerine dökün, iyice karıştırın. Kıvam çok koyuysa biraz sıcak su ekleyin, kısık ateşte 5 dakika daha kaynatın ve tuzunu tadın.",
    "Achar için salatalık, küp doğranmış domates, limon suyu, bir tutam tuz ve kişniş yapraklarını bir kasede karıştırın.",
    "Pirinci tabaklara koyun, yanına sıcak dalı, patatesli sebzeyi ve achar'ı servis edin. Geleneğe uygun olarak her şey ayrı ayrı tabakta sunulur, karıştırarak yenir."
   ],
@@ -84,8 +84,17 @@
   ]
  },
  "tip": {
-  "tr": "Mercimeği pişirirken kapağı yarı açık tutun ve tencerenin altına yapışmaması için ara ara karıştırın; tempalama ghee'sinin kokusu çıkana kadar bekleyin.",
+  "tr": "Mercimeği pişirirken kapağı yarı açık tutun ve tencerenin altına yapışmaması için ara ara karıştırın; baharatlı ghee'nin kokusu çıkana kadar bekleyin.",
   "en": "Keep the dal partly covered and stir now and then so it does not stick; cook the tempering until the cumin smells nutty before pouring it over the lentils."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish rice type 'baldo pirinç' contradicts the English 'long-grain rice' and the basmati recommendation. Baldo is a short/medium-grain variety.",
+   "Turkish uses 'tempalama' for the spiced fat/tempering, which is an unnatural culinary term. A common Turkish term should be used instead."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

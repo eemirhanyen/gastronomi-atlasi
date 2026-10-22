@@ -9,7 +9,7 @@
   "en": "A bowl-shaped pancake made from fermented rice flour and coconut milk, crisp at the edges and soft in the middle. It is a Sri Lankan breakfast, usually served in the morning with sambol, curry, or kithul treacle."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 480,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,5 +57,13 @@
   "tr": "Kapağı mutlaka kapatın; buhar ortanın pişmesini sağlar. Tavayı her hoppersten önce yağlamak yapışmayı önler.",
   "en": "Always cover the pan so the steam cooks the centre of the hopper. Lightly oil the pan before each hopper to prevent sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps require 6-8 hours or overnight fermentation, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

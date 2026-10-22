@@ -15,15 +15,15 @@
   "tr": [
    "400 g chapssal (yapışkan pirinç)",
    "60 g nuruk (Kore mayası, toz)",
-   "1,2 L içme suyu",
-   "Ortamda 200 ml ılık su (yaklaşık 40 °C)",
+   "1 L içme suyu",
+   "200 ml ılık su (yaklaşık 40 °C)",
    "1 büyük cam kavanoz (en az 2 L), iyice sterilize edilmiş",
    "Temiz ince tül veya peynir bezi"
   ],
   "en": [
    "400 g glutinous rice (chapssal)",
    "60 g nuruk (Korean fermentation starter, powdered)",
-   "1.2 L drinking water",
+   "1 L drinking water",
    "200 ml warm water (about 40 °C)",
    "1 large glass jar (at least 2 L), thoroughly sterilized",
    "Clean fine cloth or cheesecloth"
@@ -54,8 +54,19 @@
   ]
  },
  "tip": {
-  "tr": "Sterilize all equipment well, since mold or wild yeasts can spoil the batch; if the jar smells sour or rotten, or shows fuzzy mold, discard it.",
+  "tr": "Tüm ekipmanı iyice sterilize edin, çünkü küf veya yabani mayalar partiyi bozabilir; kavanoz çürümüş bir koku veriyorsa veya üzerinde tüylü küf varsa atın.",
   "en": "Sterilize all equipment thoroughly, since mold or wild yeasts can spoil the batch; if the jar smells rotten or shows fuzzy mold, discard it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity mismatch: the ingredients list 1.2 L drinking water, but the steps use only 1 L (the rest of the 200 ml goes to the nuruk), in both Turkish and English.",
+   "Turkish ingredient line contains a stray word: 'Ortamda 200 ml ılık su' should read '200 ml ılık su'.",
+   "Turkish and English tips disagree: the Turkish tip says to discard the batch if it smells 'sour', but a mildly sour-tangy smell is the expected result of fermentation (step 7). The English tip only sa",
+   "time_min of 60 is misleading, since the recipe requires 6-8 hours of soaking and 4-6 days of fermentation. The field likely reflects active work time only; this should be clarified in the description "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

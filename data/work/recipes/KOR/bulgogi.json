@@ -49,7 +49,7 @@
    "Geniş bir tavayı yüksek ateşte ısıtın, sıvı yağı ekleyin.",
    "Eti marinesinden çok hafif süzerek tavaya partiler halinde yerleştirin; kalabalık olmaması için 2-3 partide pişirin.",
    "Her partiyi 2-3 dakika, et suyunu çekip hafif karamelize olana kadar sürekli karıştırarak pişirin.",
-   "Tüm etleri tavaya geri alın, kalan marinayı ekleyin ve 1 dakika daha karıştırarak sosu biraz koyulaştırın.",
+   "Tüm etleri tavaya geri alın, kalan marinayı ekleyin ve karışımı kaynatın. Sürekli karıştırarak 1-2 dakika daha pişirip sosu biraz koyulaştırın.",
    "Yeşil soğanları ekleyip bir dakika daha pişirin, ardından ocaktan alın.",
    "Sıcak servis tabağına alın, kavrulmuş susam tohumlarıyla süsleyip hemen servis edin."
   ],
@@ -62,7 +62,7 @@
    "Heat a large pan over high heat and add the vegetable oil.",
    "Lift the beef from the marinade, letting excess drip off, and cook in 2-3 batches so the pan is not crowded.",
    "Cook each batch for 2-3 minutes, stirring constantly, until the juices evaporate and the meat is lightly caramelized.",
-   "Return all the beef to the pan, add the remaining marinade, and stir for 1 more minute until the sauce thickens slightly.",
+   "Return all the beef to the pan, add the remaining marinade, bring it to a boil, and stir for 1-2 more minutes until the sauce thickens slightly.",
    "Add the green onions and cook for another minute, then remove from the heat.",
    "Transfer to a warm serving dish, sprinkle with the toasted sesame seeds, and serve immediately."
   ]
@@ -71,5 +71,13 @@
   "tr": "Eti dondurucuda 20-30 dakika bekleterek yarı donmuş halde dilimlerseniz çok ince kesmek kolaylaşır.",
   "en": "Partially freeze the beef for 20-30 minutes before slicing; this makes it much easier to cut paper-thin slices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 9 (both languages) adds the leftover marinade, which was in contact with raw beef, and only stirs it for 1 minute. The marinade is not required to reach a boil, so it may not be heated enough to "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

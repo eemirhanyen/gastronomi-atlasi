@@ -9,7 +9,7 @@
   "en": "A traditional snack from the Owambo region of northern Namibia, made from the larvae of the mopane tree and cooked with onion and tomato. It is most often eaten in summer, when the worms are plentiful, served warm at home with a starchy side."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Kurutulmuş kurtçukları Afrika veya Asya market reyonlarından temin edebilirsiniz; satın almadan önce kokusuna bakın, taze ve hafif kokulu olmalıdır.",
   "en": "Buy dried mopane worms from African or Asian grocers and check that they smell clean and fresh before buying; rinse them thoroughly before cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the steps alone add up to about 70 minutes (30 min soaking, 20 min boiling, about 20 min cooking), plus prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

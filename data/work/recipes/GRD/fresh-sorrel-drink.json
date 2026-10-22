@@ -60,8 +60,17 @@
   ]
  },
  "tip": {
-  "tr": "Geleneksel tatta içecek bir gece boyunca demlenir; daha yoğun bir tat için demlemeyi 40 dakika yerine birkaç saat uzatabilirsiniz. Taze hibiskus bulamazsanız, aynı miktarda kurutulmuş hibiskusu kullanabilirsiniz.",
-  "en": "Traditionally the drink steeps overnight for a deeper flavour; for a stronger taste, extend the steeping time to several hours. If fresh sorrel is unavailable, dried hibiscus can be used in the same quantity."
+  "tr": "Geleneksel olarak içecek bir gece boyunca demlenir; daha yoğun bir tat için demleme süresini birkaç saate uzatabilirsiniz. Taze hibiskus bulamazsanız, taze miktarın yaklaşık dörtte birini (yaklaşık 60 g) kurutulmuş hibiskusla değiştirebilirsiniz, çünkü kurutulmuş çanakçıklar çok daha yoğundur.",
+  "en": "Traditionally the drink steeps overnight for a deeper flavour; for a stronger taste, extend the steeping time to several hours. If fresh sorrel is unavailable, use about a quarter of that weight in dried hibiscus (around 60 g), as dried calyces are much more concentrated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says dried hibiscus can be used in the same quantity as fresh. Dried calyces are far more concentrated, so 250 g dried would make the drink much too strong. Replace with roughly a quarter of the w",
+   "Turkish tip opening 'Geleneksel tatta içecek' is unnatural. Should read 'Geleneksel olarak'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

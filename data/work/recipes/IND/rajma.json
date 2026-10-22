@@ -9,7 +9,7 @@
   "en": "A North Indian classic from Punjab and Delhi, where kidney beans are simmered in a spiced tomato and onion gravy. It is usually served with steamed rice, most often as a family lunch on weekends or at gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Fasulyeleri pişirmeden önce mutlaka 8 saat ıslatın ve pişirme suyunu atmayın; bu su sosu hem kıvamlandırır hem de tadını derinleştirir.",
   "en": "Soak the beans for at least 8 hours and keep the cooking water, as it thickens the gravy and deepens the flavour. Never serve the beans undercooked, since raw kidney beans are toxic."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe takes about 110 minutes of active and simmering time (60-75 min for the beans, plus roughly 35 min of sauce and finishing steps that run partly in parallel). The total t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

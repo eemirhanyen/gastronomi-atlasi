@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Ekmeği kullanmadan önce birkaç saat buzdolabında bekletirseniz dilimlemesi kolaylaşır; sandviçleri servisten kısa süre önce hazırlamak, ekmeğin ıslanmasını önler.",
+  "tr": "Ekmeği dilimlemeden kısa süre buzdolabında bekletirseniz kesimi daha temiz olur; sandviçleri servisten kısa süre önce hazırlamak, ekmeğin ıslanmasını önler.",
   "en": "Chill the bread briefly before slicing for cleaner cuts, and assemble the chlebíčky shortly before serving so the bread stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip section: the Turkish says to chill the bread for several hours (\"birkaç saat\"), but the English says \"briefly\". The two versions disagree, and several hours in the fridge would dry out the bread."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

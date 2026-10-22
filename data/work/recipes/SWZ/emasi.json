@@ -9,7 +9,7 @@
   "en": "Emasi is Eswatini's traditional sour milk, made by letting fresh milk ferment naturally. It is eaten at breakfast and with everyday meals, especially alongside sishwala, a stiff maize porridge."
  },
  "servings": 4,
- "time_min": 720,
+ "time_min": 900,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -45,5 +45,13 @@
   "tr": "Mayalama sıcaklığı kritik: 25 °C'nin üzerinde emasi çok hızlı ekşir ve su ayrışması yapabilir. Serinde daha uzun bekletmek daha kıvamlı bir sonuç verir.",
   "en": "Temperature matters: above 25 °C the milk can turn sour too quickly and separate. A cooler spot with a longer rest gives a thicker, smoother result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (720) covers only the fermentation window; the steps also include about 1 hour of heating and cooling plus at least 2 hours of chilling, so the total is about 15 hours (900 min)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

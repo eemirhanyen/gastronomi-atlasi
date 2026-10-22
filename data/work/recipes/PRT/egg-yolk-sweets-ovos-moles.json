@@ -27,12 +27,12 @@
  },
  "steps": {
   "tr": [
-   "Yumurta sarılarını ayırıp temiz bir kaseye alın ve bir kenara koyun. Kabukların bulaşmamasına dikkat edin.",
+   "Yumurta sarılarını ayırıp temiz bir kaseye alın ve bir kenara koyun. Yumurta akı ve kabuk parçalarının karışmamasına dikkat edin.",
    "Şeker ve suyu geniş bir tencerede orta ateşte karıştırarak eritin. Şurup kaynadıktan sonra karıştırmayı bırakın ve yaklaşık 110 °C'ye (şurup parmak aralarında ince bir iplik yapana kadar) kadar pişirin.",
    "Şurup pişerken yumurta sarılarını bir kasede hafifçe çırpın.",
    "Ateşi çok kısın. Şurubu ince bir akışla sarılara dökerken sürekli çırpın, böylece sarılar pişmez.",
    "Karışımı tekrar tencereye alın ve çok kısık ateşte, sürekli karıştırarak 5-7 dakika pişirin. Kaynamasına izin vermeyin; kıvamı kaşığın arkasına yapışacak kadar koyulaşmalıdır.",
-   "Ocaktan alıp 10 dakika kadar soğumaya bırakın, ardından hafifçe kıvam alıp sıvılaşmadığını kontrol edin.",
+   "Ocaktan alıp yaklaşık 10 dakika soğumaya bırakın; bu sürede hafifçe koyulaşıp şeklini koruyacaktır.",
    "Hóstia kabuklarını bir tezgâha dizin. Her kabuğun ortasına bir kaşık dolusu sarı karışımı koyun ve kenarlarını hafifçe ıslatarak yarım ay şeklinde kapatıp bastırın.",
    "Tatlıları servis tabağına alın ve en az 30 dakika buzdolabında dinlendirerek kıvamlarının oturmasını bekleyin."
   ],
@@ -51,5 +51,14 @@
   "tr": "Şurup ile yumurta sarılarını birleştirirken ince bir akış ve sürekli çırpma, sarıların pişip topaklanmasını önler.",
   "en": "When adding the syrup to the yolks, pour slowly and whisk constantly; this keeps the yolks smooth instead of scrambled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to be careful that the shells don't contaminate the yolks ('Kabukların bulaşmamasına dikkat edin'), but the English says no egg white should get in. The Turkish should refer to bot",
+   "Turkish step 6 ('hafifçe kıvam alıp sıvılaşmadığını kontrol edin') does not fully match the English, which says the mixture should thicken slightly and hold its shape."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

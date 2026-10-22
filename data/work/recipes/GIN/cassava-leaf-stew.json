@@ -24,8 +24,8 @@
    "30 g domates salçası",
    "1 sebze suyu küpü",
    "1 çay kaşığı tuz (yaklaşık 6 g)",
-   "1,5 litre su",
-   "100 ml su (yaprakları blendırmak için)"
+   "1 litre su",
+   "100 ml su (yaprakları blenderda çekmek için)"
   ],
   "en": [
    "500 g fresh cassava leaves (or frozen, thawed)",
@@ -39,7 +39,7 @@
    "30 g tomato paste",
    "1 vegetable stock cube",
    "1 tsp salt (about 6 g)",
-   "1.5 litres water",
+   "1 litre water",
    "100 ml water (for blending the leaves)"
   ]
  },
@@ -69,5 +69,14 @@
   "tr": "Manyok yapraklarında doğal olarak bulunan siyanür ancak uzun pişirmeyle zararsız hale gelir; yaprakları en az 1 saat iyice pişirmeden asla atlamayın.",
   "en": "Cassava leaves contain natural cyanogenic compounds that are only made safe by long cooking, so never shorten the 1-hour simmer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list gives 1.5 litres of water, but the steps only use 1 litre for the beef (plus 100 ml for blending and extra broth added later). The Turkish and English lists both need the same correcti",
+   "Turkish ingredient text uses 'blendırmak', a non-standard form. It should be 'blenderda çekmek için' (for blending in a blender)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

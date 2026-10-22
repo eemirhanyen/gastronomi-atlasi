@@ -48,7 +48,7 @@
  "steps": {
   "tr": [
    "Yumurtaları küçük bir tencerede 9 dakika haşlayın, soğuk suya alıp kabuklarını soyun ve ikiye bölün.",
-   "Arpacık soğanı, sarımsağı, zencefili, kandil fıstığını, zerdeçalı, kişniş tohumunu ve kimyonu 3 yemek kaşığı suyla birlikte blenderda ya da havanda pürüzsüz bir macun haline gelene kadar çekin.",
+   "Arpacık soğanı, sarımsağı, zencefili, kandil fıstığını, zerdeçalı, kişniş tohumunu ve kimyonu 3 yemek kaşığı suyla birlikte blenderde ya da havanda pürüzsüz bir macun haline gelene kadar çekin.",
    "Büyük bir tencerede 2 yemek kaşığı yağı orta ateşte ısıtın ve baharat macununu 4-5 dakika, kokusu çıkıncaya kadar kavurun.",
    "Tavuk budunu ekleyip macuna iyice bulayın, ardından 1,8 litre suyu, ezilmiş limon otunu, defne yaprağını, tuzu ve şekeri ekleyin.",
    "Kaynamaya bırakın, ateşi kısın ve kapağı yarı açık olarak 35-40 dakika kısık ateşte pişirin. Yüzeyde biriken köpükleri alın.",
@@ -73,5 +73,13 @@
   "tr": "Baharat macununu kavururken yanmaması için ateşi orta tutun; kokusu tatlı ve yoğun çıkınca çorbaya geçin.",
   "en": "Keep the heat moderate while frying the paste so it does not scorch; it is ready when it smells sweet and fragrant."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 uses \"blenderda\", which is incorrect Turkish; the standard locative form is \"blenderde\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

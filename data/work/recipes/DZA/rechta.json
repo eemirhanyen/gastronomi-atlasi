@@ -9,7 +9,7 @@
   "en": "Rechta is a beloved Algerian dish of hand-rolled, thinly cut noodles served with a fragrant saffron and ginger chicken stew with chickpeas. It is especially common on Ramadan evenings, at Eid celebrations, and at weddings and family gatherings."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 140,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -84,8 +84,17 @@
   ]
  },
  "tip": {
-  "tr": "Erişteler kurumadan pişirilirse yapışabilir; hamuru bu yüzden 20 dakika dinlendirmek ve unlu tezgâhta kurutmak önemlidir.",
+  "tr": "Erişteler tam kurumadan pişirilirse yapışabilir; bu yüzden hamuru açtıktan sonra kesilen erişteleri 20 dakika unlu tezgâhta kurutmak önemlidir.",
   "en": "If the noodles are cooked before they dry properly, they can stick together, so the 20-minute drying step is important."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is much lower than the steps add up to: about 10 min kneading, 30 min resting, 20 min drying, roughly 80 min of cooking, and steaming, for about 140 min total",
+   "Turkish tip says the dough should be rested for 20 minutes, but the steps rest the dough for 30 minutes and dry the cut noodles for 20 minutes. The English tip correctly refers to the drying step"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

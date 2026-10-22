@@ -9,7 +9,7 @@
   "en": "A traditional Rwandan stew in which green plantains are slowly cooked with beef. It is served at family lunches and dinners, especially when guests are visiting."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -46,7 +46,7 @@
    "Ateşi orta seviyeye indirin, soğanı ekleyip 5 dakika yumuşayana kadar soteleyin.",
    "Sarımsak ve rendelenmiş zencefili ekleyip 1 dakika daha karıştırın.",
    "Doğranmış domatesi ekleyin ve suyunu salıverip yağı ayırana kadar, yaklaşık 5 dakika pişirin.",
-   "Sıcak suyu ekleyin, kapağı kapatıp kısık ateşte 30 dakika pişirin; et yumuşayana kadar bekleyin.",
+   "Sıcak suyu ekleyin, kapağı kapatıp kısık ateşte 60 dakika pişirin; et yumuşayana kadar bekleyin.",
    "Bu sırada muzları soyun: uç kısımlarını kesin, kabuğu uzunlamasına çizip soyun ve 3-4 cm'lik parçalara bölün. Kararmaması için soğuk suya koyun.",
    "Muz parçalarını suyundan süzüp ete ekleyin, suyun yemeği hafifçe kaplamasını sağlayacak kadar sıcak su ilave edin.",
    "Kapağı kapatıp kısık ateşte 20-25 dakika pişirin. Muzlar yumuşayınca ağaç kaşıkla birkaç parçayı ezerek sosu koyulaştırın.",
@@ -58,7 +58,7 @@
    "Lower the heat to medium, add the onion and sauté for 5 minutes until soft.",
    "Add the garlic and grated ginger and stir for 1 more minute.",
    "Add the diced tomatoes and cook for about 5 minutes, until they release their juices and the oil separates.",
-   "Pour in the hot water, cover and simmer over low heat for 30 minutes, until the beef is tender.",
+   "Pour in the hot water, cover and simmer over low heat for 60 minutes, until the beef is tender.",
    "Meanwhile, peel the plantains: trim the ends, score the skin lengthwise, peel it off and cut the flesh into 3-4 cm pieces. Keep them in cold water so they do not darken.",
    "Drain the plantain pieces and add them to the stew, with a little more hot water if needed so the liquid just covers the contents.",
    "Cover and simmer gently for 20-25 minutes. When the plantains are soft, mash a few pieces against the side of the pot with a wooden spoon to thicken the sauce.",
@@ -69,5 +69,14 @@
   "tr": "Muzları kesmeden önce ellerinize biraz sıvı yağ sürün; yeşil muzun kayganlaşan özsuyu ellerinize yapışmaz ve soymak çok kolaylaşır.",
   "en": "Rub your hands with a little oil before peeling the plantains; it stops the sticky green sap from clinging to your fingers and makes peeling much easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef is simmered only 30 minutes and called 'tender', which is too short for chuck or shin cubes. The beef would stay tough.",
+   "time_min (60) does not cover the stated steps: the beef simmer plus the plantain cooking takes longer than 60 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

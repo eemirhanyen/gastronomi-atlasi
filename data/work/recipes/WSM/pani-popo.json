@@ -46,7 +46,7 @@
    "Hamuru hafifçe bastırıp havasını alın, 12 eşit parçaya bölün ve her birini küçük toplar haline getirin.",
    "Topları fırın kağıdı serili bir tepsiye dizin, üzerlerini örtüp yaklaşık 30 dakika daha dinlendirin.",
    "Fırını 180°C'ye ısıtın.",
-   "Topların üzerini hafifçe sütle veya yumurta olmadan sadece bir miktar hindistan cevizi kremasıyla fırçalayıp fırına verin ve 15-18 dakika, altın rengi olana kadar pişirin.",
+   "Topların üzerini az miktarda hindistan cevizi kremasıyla fırçalayıp fırına verin ve 15-18 dakika, altın rengi olana kadar pişirin.",
    "Rendelenmiş kuru hindistan cevizi ile toz şekeri karıştırın.",
    "Pişen çöreklerin üzerine hindistan cevizi kremasını sürün, ardından hindistan cevizi-şeker karışımını serpin ve kalan krema ile birlikte sıcak servis yapın."
   ],
@@ -67,5 +67,13 @@
   "tr": "Hindistan cevizi sütü sıcaklığı çok önemlidir; 45°C'nin üzerinde mayayı öldürebilir.",
   "en": "Keep the coconut milk below 45°C, as hotter liquid can kill the yeast."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to brush the buns with milk (\"sütle\") or egg-free cream, but no milk is listed in the Turkish or English ingredients. The English step only uses coconut cream, so the two versions "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

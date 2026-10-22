@@ -21,7 +21,7 @@
    "1 yemek kaşığı açık soya sosu",
    "1 yemek kaşığı Shaoxing pirinç şarabı",
    "1 çay kaşığı susam yağı",
-   "1 çay kaşığı tuz (köfte için) ve 1 çay kaşığı tuz (çorba için)",
+   "1 çay kaşığı tuz (iç harç için) ve 1 çay kaşığı tuz (çorba için)",
    "1/2 çay kaşığı beyaz biber",
    "1,5 litre tavuk suyu",
    "100 g pak choi (Çin pazısı), yaprakları ayrılmış",
@@ -46,8 +46,8 @@
  "steps": {
   "tr": [
    "Kıymayı büyük bir kaseye alın. Rendelenmiş zencefil, Shaoxing şarabı, soya sosu, susam yağı, 1 çay kaşığı tuz, beyaz biber ve ince doğranmış 2 yeşil soğanı ekleyin.",
-   "Kar•ides doğranmış karidesleri ekleyin ve karışımı tek yönde yaklaşık 2 dakika karıştırın. Buzdolabında 15 dakika dinlendirin.",
-   "Bir wonton yaprağını avucunuzda tutun ve ortasına yaklaşık 1 çay kaşığı iç harcı koyun. Kenarlarını parmağınızla suyla ıslatın, yaprağı üçgen şeklinde katlayıp kenarları sıkıca kapatın. Sonra iki uç köşeyi birleştirip hafifçe bastırın. Aynı işlemi kalan yapraklarla tekrarlayın.",
+   "Doğranmış karidesleri ekleyin ve karışımı tek yönde yaklaşık 2 dakika karıştırın. Buzdolabında 15 dakika dinlendirin.",
+   "Bir wonton yaprağını avucunuzda tutun ve ortasına yaklaşık 2 çay kaşığı (10 g) iç harç koyun. Kenarlarını parmağınızla suyla ıslatın, yaprağı üçgen şeklinde katlayıp kenarları sıkıca kapatın. Sonra iki uç köşeyi birleştirip hafifçe bastırın. Aynı işlemi kalan yapraklarla tekrarlayın.",
    "Çorba için tavuk suyunu zencefil dilimleri ve 1 çay kaşığı tuzla birlikte orta ateşte kaynatın. Ateşi kısın ve 10 dakika hafifçe kaynatın. Zencefil dilimlerini çıkarın.",
    "Büyük bir tencerede 1 litre suyu kaynatın. Wonton'ları partiler halinde ekleyip 4-5 dakika pişirin. Dolmalar yüzeye çıkınca ve iç harcı 71 °C'ye ulaşınca hazırdır. Süzgekle çıkarıp bir kenara alın.",
    "Pak choi yapraklarını çorbada 1 dakika haşlayın. Ardından yapraklarını süzün.",
@@ -56,7 +56,7 @@
   "en": [
    "Put the ground pork in a large bowl. Add the grated ginger, Shaoxing wine, soy sauce, sesame oil, 1 tsp salt, white pepper and the 2 finely chopped spring onions.",
    "Add the chopped shrimp and stir the mixture in one direction for about 2 minutes. Refrigerate for 15 minutes to rest.",
-   "Hold a wonton wrapper in your palm and place about 1 tsp of filling in the centre. Dampen the edges with water, fold the wrapper into a triangle and press the edges firmly closed. Bring the two corners together and press lightly. Repeat with the remaining wrappers.",
+   "Hold a wonton wrapper in your palm and place about 2 tsp (10 g) of filling in the centre. Dampen the edges with water, fold the wrapper into a triangle and press the edges firmly closed. Bring the two corners together and press lightly. Repeat with the remaining wrappers.",
    "For the broth, bring the chicken stock to a simmer with the ginger slices and 1 tsp salt over medium heat. Reduce the heat and simmer gently for 10 minutes. Remove the ginger slices.",
    "In a large pot, bring the 1 L of water to a rolling boil. Add the wontons in batches and cook for 4-5 minutes. They are ready when they float and the filling reaches 71 °C. Lift them out with a slotted spoon and set aside.",
    "Blanch the bok choy leaves in the simmering broth for 1 minute, then drain them.",
@@ -67,5 +67,15 @@
   "tr": "Wonton'ları pişirmeden önce tabakta tek kat halinde bekletin ve birbirine yapışmaması için hafifçe un serpin.",
   "en": "Arrange the wontons in a single layer on a floured tray until cooking, so they do not stick together."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 contains a garbled word ('Kar•ides') instead of 'karidesleri'.",
+   "Turkish salt ingredient is labelled 'köfte için' (for meatballs), which is wrong for a wonton filling. The English says 'for filling'.",
+   "Filling quantity is implausible: 400 g of filling (300 g pork + 100 g shrimp) across 40 wrappers is about 10 g each, but the recipe says about 1 tsp (~5 g) per wrapper, which would use only about 200 "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

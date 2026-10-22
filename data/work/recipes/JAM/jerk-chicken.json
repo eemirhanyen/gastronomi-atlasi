@@ -56,26 +56,35 @@
    "Scotch bonnet biberlerinin sapını alın. Eldiven takarak çalışın ve gözlerinize dokunmayın; isterseniz tohumlarını çıkarın, ama acılığı artırmak için bırakabilirsiniz.",
    "Mutfak robotuna biber, taze soğan, kuru soğan, sarımsak, zencefil, kekik, yenibahar, karabiber, tarçın, hindistan cevizi, esmer şeker, soya sosu, sirke, limon suyu, sıvı yağ ve tuzu koyup pürüzsüz bir macun elde edene kadar karıştırın.",
    "Tavukları yıkayıp kağıt havluyla iyice kurulayın. Her parçanın etine birkaç derin kesik atın ve kesikleri de marinasyonun içine girecek şekilde ovalayın.",
-   "Tavukları büyük bir kaseye alın, marinasyonun yarısını ekleyip iyice bulaştırın. Kalan yarısını ayrı bir kapta saklayın, pişirme sırasında sos olarak kullanacaksınız.",
+   "Tavukları büyük bir kaseye alın, marinasyonun yarısını ekleyip iyice bulaştırın. Kalan yarısını ayrı bir kapta saklayın; pişirme sırasında sos ve sürme olarak kullanacaksınız (çiğ tavukla temas ettiği için kullanmadan önce kaynatılmalıdır).",
    "Kapağını örtüp en az 4 saat, tercihen bir gece buzdolabında marine edin.",
-   "Fırını 200 °C'ye ısıtın. Tavukları bir fırın tepsisine, derisi yukarı gelecek şekilde dizin ve 35-40 dakika, iç kısımları tamamen pişene kadar kızartın.",
-   "Pişme sırasında yarıda bir kez ayrılmış marinasyonu tavukların üzerine sürün. Tavukları iç kısmı 74 °C'ye ulaşana kadar pişirin.",
+   "Fırını 200 °C'ye ısıtın. Tavukları bir fırın tepsisine, derisi yukarı gelecek şekilde dizin ve 35-40 dakika, iç kısımları tamamen pişene kadar pişirin.",
+   "Ayrılan marinasyonu küçük bir tencerede en az 1 dakika kaynatın. Pişme yarısında soğumuş marinasyonu tavukların üzerine sürün. Tavukları iç kısmı 74 °C'ye ulaşana kadar pişirin.",
    "Son 5 dakikada ızgara özelliğini açarak derilerini çıtır hale getirin. Tavukları 5 dakika dinlendirin ve pirinç ile bezelye veya kızarmış muz eşliğinde sıcak servis yapın."
   ],
   "en": [
    "Remove the stems from the Scotch bonnet peppers. Wear gloves and avoid touching your eyes; seed them if you prefer less heat, or leave them in for a fiercer jerk.",
    "Put the peppers, spring onions, onion, garlic, ginger, thyme, allspice, black pepper, cinnamon, nutmeg, brown sugar, soy sauce, vinegar, lime juice, vegetable oil and salt into a food processor and blend until smooth.",
    "Rinse the chicken pieces and pat them completely dry with kitchen paper. Make several deep cuts into the meat of each piece and rub the marinade into the cuts.",
-   "Place the chicken in a large bowl and coat it with half of the marinade. Keep the remaining half in a separate bowl to baste the chicken during cooking.",
+   "Place the chicken in a large bowl and coat it with half of the marinade. Keep the remaining half in a separate bowl for basting and sauce later; because it has touched raw chicken, it must be boiled before use.",
    "Cover and marinate in the fridge for at least 4 hours, ideally overnight.",
    "Heat the oven to 200 °C. Arrange the chicken skin-side up on a baking tray and roast for 35-40 minutes, until cooked through.",
-   "Halfway through cooking, brush the chicken with the reserved marinade. Continue until the thickest part reaches an internal temperature of 74 °C.",
+   "Boil the reserved marinade in a small pan for at least 1 minute. Halfway through cooking, let it cool slightly and brush it over the chicken. Continue until the thickest part reaches an internal temperature of 74 °C.",
    "For the last 5 minutes, switch on the grill setting to crisp the skin. Rest the chicken for 5 minutes and serve hot with rice and peas or fried plantain."
   ]
  },
  "tip": {
-  "tr": "Kemikli parçalar kuru kalmaz; ızgarada pişiriyorsanız kömürü bir tarafa toplayıp dolaylı ateşte pişirin, böylece dışı yanmadan içi tam pişer.",
+  "tr": "Kemikli parçalar kuruyup sertleşmez; ızgarada pişiriyorsanız kömürü bir tarafa toplayıp dolaylı ateşte pişirin, böylece dışı yanmadan içi tam pişer.",
   "en": "For authentic smoky flavour, cook over charcoal: bank the coals to one side and grill the chicken over indirect heat so the outside does not burn before the centre cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Food safety: step 7 has the chicken basted with the reserved marinade, which was in contact with raw chicken. It must be boiled before use as a baste or sauce. The Turkish and English steps both need ",
+   "Turkish tip wording 'Kemikli parçalar kuru kalmaz' is unclear. It should say the bone-in pieces should not dry out."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

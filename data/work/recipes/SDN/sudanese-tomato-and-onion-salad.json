@@ -52,8 +52,16 @@
   ]
  },
  "tip": {
-  "tr": "Soğanı suda bekletmek sertliğini ve keskinliğini azaltır; tuzu servisten hemen önce ekleyerek domateslerin suyunun fazla çıkmasını önleyin.",
-  "en": "Soaking the onion mellows its sharpness; add the salt just before serving so the tomatoes don't release too much juice."
+  "tr": "Soğanı suda bekletmek sertliğini ve keskinliğini azaltır; tuzu, limon suyu ve yağla birlikte, servisten kısa bir süre önce ekleyerek domateslerin suyunun fazla çıkmasını önleyin.",
+  "en": "Soaking the onion mellows its sharpness; add the salt together with the lemon juice and oil just before serving so the tomatoes don't release too much juice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says to add salt just before serving to limit tomato juice, but step 6 adds salt together with the lemon and oil, then rests the salad for 10 minutes before serving. The tip and steps contradi"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -25,14 +25,12 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200 °C'ye ısıtın veya bir tost makinesini çalıştırın.",
    "Ekmek dilimlerini ızgarada veya tost makinesinde altın rengi olana kadar yaklaşık 2–3 dakika kızartın.",
    "Sıcak tost dilimlerinin bir yüzüne tereyağını kenarlarına kadar ince bir tabaka halinde yayın; tereyağı hemen erisin.",
    "Vegemite'i ayrı bir bıçakla her dilime yaklaşık 5 g olacak şekilde çok ince yayın.",
    "Dilimleri ikiye bölerek 4 kişilik olarak servis yapın ve hemen tüketin."
   ],
   "en": [
-   "Preheat the oven to 200 °C or switch on a toaster.",
    "Toast the bread slices on a grill or in a toaster for about 2–3 minutes, until golden brown.",
    "While the toast is still hot, spread the butter evenly to the edges of one side of each slice so it melts.",
    "Spread the Vegemite very thinly on each slice, about 5 g per slice, using a separate knife.",
@@ -43,5 +41,13 @@
   "tr": "Vegemite çok tuzlu ve yoğun bir lezzettir; ince yayın ve tereyağını önce yayarak tadını yumuşatın.",
   "en": "Vegemite is very salty and intense, so spread it thinly and apply the butter first to soften its flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 (both languages) tells the cook to preheat the oven to 200 °C, but the oven is never used. Toasting is done on a grill or in a toaster, so this is an appliance listed but not used in the method"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

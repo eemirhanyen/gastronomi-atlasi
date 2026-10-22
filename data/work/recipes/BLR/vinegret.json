@@ -9,7 +9,7 @@
   "en": "A dressed salad of beetroot, potato, carrot, pickled cucumber and sauerkraut, seasoned with oil and pickle brine. Belarusians eat it year-round as an everyday side and at holiday tables, especially in winter."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Pancarı diğer sebzelerden ayrı haşlayıp en son pembe renge boyamadan karıştırmak, salatanın görünüşünü korur.",
-  "en": "Cook the beetroot separately and add it last to keep the other vegetables from turning pink."
+  "tr": "Pancarı diğer sebzelerden ayrı haşlamak ve salatayı nazikçe karıştırmak, diğer sebzelerin pembeye dönmesini önler.",
+  "en": "Cook the beetroot separately and mix gently, so the other vegetables do not turn pink."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: boiling the beetroot alone takes 45-60 minutes, plus cooling, peeling, dicing and the 30-minute rest, so the total is closer to 90 minutes",
+   "The tip says to add the beetroot last, but the steps combine all ingredients at once; the tip is reworded to match the steps"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Шкембе чорба",
  "desc": {
-  "tr": "Bulgaristan'ın en bilinen geleneksel çorbalarından biri olan işkembe çorbası, sarımsaklı sirke ve kırmızı biberle servis edilir. Özellikle gece geç saatlerden sonra ve kahvaltılarda, Bulgar lokantalarında ve evlerde tüketilir.",
+  "tr": "Bulgaristan'ın en bilinen geleneksel çorbalarından biri olan işkembe çorbası, sarımsaklı sirkeyle servis edilir. Özellikle gece geç saatlerden sonra ve kahvaltılarda, Bulgar lokantalarında ve evlerde tüketilir.",
   "en": "One of Bulgaria's best-known traditional soups, made with beef tripe in a creamy paprika-butter broth and served with garlic vinegar. It is eaten at breakfast and late at night, both in homes and in taverns across the country."
  },
  "servings": 4,
@@ -67,5 +67,13 @@
   "tr": "Sütlü karışımı eklemeden önce çorbayı mutlaka ocaktan alın; kaynayan çorba yumurtanın kesilmesine ve çorbanın topaklanmasına yol açar.",
   "en": "Always take the soup off the heat before adding the egg-milk mixture; boiling soup will curdle the egg and make the broth grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the soup is served with red pepper (\"kırmızı biberle\"), but the English description and the steps mention only garlic vinegar. The Turkish description is corrected to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

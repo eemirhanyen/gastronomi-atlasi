@@ -44,7 +44,7 @@
    "Geniş bir tencerede palm yağını orta ateşte ısıtın. Soğanı yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak ve acı biberi ekleyip 1 dakika daha kavurun.",
    "Ezilmiş manyok yapraklarını, tuzu ve 300 ml sıcak suyu ekleyip iyice karıştırın.",
-   "Kapağını kapatın ve kısık ateşte yaklaşık 1 saat pişirin. Her 15 dakikada bir karıştırın ve yemek kururса biraz sıcak su ekleyin.",
+   "Kapağını kapatın ve kısık ateşte yaklaşık 1 saat pişirin. Her 15 dakikada bir karıştırın ve yemek kurursa biraz sıcak su ekleyin.",
    "Fıstık ezmesini 100 ml sıcak suda eritin, balık parçalarıyla birlikte yemeğe ekleyin.",
    "Kapağı açık olarak 15-20 dakika daha, sos koyulaşana ve yağ yüzeye çıkana kadar pişirin. Tadını kontrol edip gerekirse tuz ekleyin, fufu veya pirinçle sıcak servis edin."
   ],
@@ -63,5 +63,13 @@
   "tr": "Manyok yapraklarında doğal olarak bulunan zehirli bileşikleri gidermek için yaprakları uzun süre, en az bir saat iyice pişirmek çok önemlidir; kısa pişirilmiş saka sakayı yemeyin.",
   "en": "Cassava leaves contain natural toxins that must be destroyed by long, thorough cooking, so always simmer the stew for at least an hour and never serve it undercooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 contains a Cyrillic character in 'kururса' (should be Latin 'kurursa')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

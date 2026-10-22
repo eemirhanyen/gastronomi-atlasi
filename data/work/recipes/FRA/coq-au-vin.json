@@ -66,7 +66,7 @@
    "Bu sırada tavada tereyağının bir kısmını eritin. Mantarları ve inci soğanları ekleyip rengi alana kadar 8-10 dakika sote edin, tuz ekleyin.",
    "Tavukları tencereden çıkarıp sıcak tutun. Sosu ocakta orta ateşte, kıvamı kaplayıcı olana kadar 10 dakika kadar kaynatın. Defne yapraklarını ve kekik dallarını çıkarın.",
    "Tavukları, mantarları ve inci soğanları sosa ekleyip 5 dakika birlikte ısıtın. Tuz ve karabiberle tatlandırın, üzerine doğranmış maydanozu serpip hemen servis yapın.",
-   "Servis için püre, taze ekmek veya şarap çıkıntısını emecek erişte ideal bir eşlik olur."
+   "Servis için püre, taze ekmek veya şarap sosunu emecek erişte ideal bir eşlik olur."
   ],
   "en": [
    "Preheat the oven to 160 °C. Pat the chicken pieces dry with kitchen paper and season both sides with salt and black pepper.",
@@ -87,5 +87,13 @@
   "tr": "Şarap sosun ana tadını verir, bu yüzden pişirmek için de içebileceğiniz kaliteli bir şarap seçin. Yemeği bir gün önceden hazırlamak lezzeti derinleştirir; ertesi gün yavaşça ısıtın.",
   "en": "The wine carries the whole flavour, so cook with a wine you would happily drink. Making it a day ahead deepens the flavour; reheat gently the next day."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 12 uses the wrong word 'çıkıntı' (protrusion) for the wine sauce; it should read 'şarap sosunu emecek'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

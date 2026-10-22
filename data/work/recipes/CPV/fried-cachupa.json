@@ -5,7 +5,7 @@
  },
  "native": "Cachupa refogada",
  "desc": {
-  "tr": "YCape Verde'ün ulusal yemeği olan kaçupanın, önceden pişirilmiş mısır ve fasulye karışımının yağda kızartılmasıyla hazırlanan halidir. Öğle yemeğinde ve aile buluşmalarında, genellikle ev yapımı acı sos ve kızarmış yumurta ile servis edilir.",
+  "tr": "Cape Verde'ün ulusal yemeği olan kaçupanın, önceden pişirilmiş mısır ve fasulye karışımının yağda kızartılmasıyla hazırlanan halidir. Öğle yemeğinde ve aile buluşmalarında, genellikle ev yapımı acı sos ve kızarmış yumurta ile servis edilir.",
   "en": "A Cape Verdean national dish: the stewed hominy and bean mixture is fried in oil until golden and crisp. It is eaten at lunch and family gatherings, usually served with a fried egg and hot pepper sauce."
  },
  "servings": 4,
@@ -26,7 +26,9 @@
    "1 defne yaprağı",
    "1,5 L su",
    "1 çay kaşığı tuz (yaklaşık 5 g)",
-   "1 çay kaşığı karabiber (yaklaşık 2 g)"
+   "1 çay kaşığı karabiber (yaklaşık 2 g)",
+   "4 yumurta (servis için)",
+   "Acı sos, servis için"
   ],
   "en": [
    "250 g dried white hominy corn",
@@ -42,7 +44,9 @@
    "1 bay leaf",
    "1.5 L water",
    "1 tsp salt (about 5 g)",
-   "1 tsp black pepper (about 2 g)"
+   "1 tsp black pepper (about 2 g)",
+   "4 eggs (for serving)",
+   "Hot pepper sauce, to serve"
   ]
  },
  "steps": {
@@ -54,7 +58,7 @@
    "Pişirme suyunu süzün ve 250 ml kadarını ayırın. Mısır ve fasulyeyi bir kasede kabaca ezin, tuz ve karabiberle tatlandırın.",
    "Geniş bir tavada zeytinyağını ısıtın. Kalan soğanı yumuşayana kadar kavurun, sarımsağı ve paprikayı ekleyip birkaç saniye çevirin.",
    "Domates ve yeşil biberi ekleyip 5 dakika pişirin. Ezilmiş mısır-fasulye karışımını, didiklenmiş eti ve dilimlenmiş sosisi ekleyin, ayırdığınız pişirme suyundan azar azar katarak karıştırın.",
-   "Karışımı spatulayla bastırarak tavanın yüzeyinde kızarmış, gevrek bir tabaka oluşana kadar 10 dakika kadar kızartın. Tuz ve karabiberi son kez ayarlayıp sıcak servis yapın."
+   "Karışımı spatulayla bastırarak tavanın yüzeyinde kızarmış, gevrek bir tabaka oluşana kadar 10 dakika kadar kızartın. Tuz ve karabiberi son kez ayarlayın. Ayrı bir tavada yumurtaları sahanda pişirin ve her porsiyonun yanına acı sosla birlikte sıcak servis yapın."
   ],
   "en": [
    "Soak the hominy and beans separately in plenty of cold water overnight (about 12 hours). Drain and rinse them the next day.",
@@ -64,12 +68,21 @@
    "Drain the cooking liquid, reserving about 250 ml. Roughly mash the hominy and beans in a bowl, then season with salt and black pepper.",
    "Heat the olive oil in a wide frying pan. Fry the remaining onion until soft, then add the garlic and paprika and stir for a few seconds.",
    "Add the tomato and green pepper and cook for 5 minutes. Add the mashed hominy and beans, the shredded pork and the sliced sausage, moistening with the reserved cooking liquid a little at a time.",
-   "Press the mixture flat with a spatula and fry for about 10 minutes until a crisp golden crust forms on the bottom. Adjust salt and pepper and serve hot."
+   "Press the mixture flat with a spatula and fry for about 10 minutes until a crisp golden crust forms on the bottom. Adjust salt and pepper. Fry the eggs sunny-side up in a separate pan and serve each portion hot with a fried egg and hot pepper sauce."
   ]
  },
  "tip": {
   "tr": "Mısırı ve fasulyeyi iyice yumuşatmadan kızartmaya geçmeyin; yumuşak bir iç doku ile gevrek bir dış tabaka arasındaki denge bu yemeğin özüdür.",
   "en": "Make sure the hominy and beans are fully soft before frying; the contrast between a creamy interior and a crisp golden crust is what defines this dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says the dish is served with a fried egg and hot pepper sauce, but neither appears in the ingredients or steps (both languages).",
+   "Turkish description has a stray 'Y' typo in 'YCape Verde'ün'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Ikan asar",
  "desc": {
-  "tr": "Timor-Leste'de sahil köylerinde ve pazarlarda sıkça yenen, sarımsak, arpacık, zencefil ve limonla marine edilmiş bütün balığın közde pişirilmiş hali. Genellikle pirinç pilavı ve domates-biberli sos ile servis edilir.",
+  "tr": "Timor-Leste'de sahil köylerinde ve pazarlarda sıkça yenen, sarımsak, arpacık, zencefil, kırmızı biber ve limonla marine edilmiş bütün balığın közde pişirilmiş hali. Genellikle pirinç pilavı ve domates-biberli sos ile servis edilir.",
   "en": "A whole fish marinated with garlic, shallot, ginger, chili and lime, then grilled over charcoal. It is eaten across coastal villages and markets in Timor-Leste, usually served with plain rice and a fresh tomato-chili relish."
  },
  "servings": 4,
@@ -51,7 +51,7 @@
    "Bu karışımı balıkların hem içine hem dışına, kesiklerin arasına iyice sürün. Oda sıcaklığında 30 dakika bekletin.",
    "Izgarayı orta-yüksek ateşe getirin (yaklaşık 200°C). Izgara ağzını yağla hafifçe yağlayın.",
    "Balıkları her iki tarafında 6-8 dakika pişirin. Kalan limon suyunu ve 10 ml yağı bir fırça ile pişirme sırasında balıkların üzerine sürün. Et çatalla kolayca ayrıldığında ve iç sıcaklığı 63°C'ye ulaştığında hazırdır.",
-   "Sosu hazırlamak için domatesleri, ekstra kırmızı biberi, kalan limon suyunu ve bir tutam tuzu bir kapta karıştırın.",
+   "Sosu hazırlamak için domatesleri, ekstra kırmızı biberi, limon dilimlerinden sıkılan bir miktar limon suyunu ve bir tutam tuzu bir kapta karıştırın.",
    "Balıkları sıcak pirinç pilavı, limon dilimleri ve taze domates sosu ile servis edin."
   ],
   "en": [
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığı ızgarada pişirmeden önce ızgara ızgarasını iyice ısıtın ve yağlayın; böylece et ızgaraya yapışmaz ve pulsuz balıklarda bile güzel bir kabuk oluşur.",
+  "tr": "Balığı ızgarada pişirmeden önce ızgara rafını iyice ısıtın ve yağlayın; böylece et ızgaraya yapışmaz ve pulsuz balıklarda bile güzel bir kabuk oluşur.",
   "en": "Oil the grate well and let it heat fully before the fish goes on; this stops the skin sticking and gives a good char without tearing the flesh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish relish step uses 'kalan limon suyunu' (the remaining lime juice), but the English version uses a squeeze from the lime wedges. The reserved juice is also used for brushing, so the two versions",
+   "Turkish description omits chili, which the English description and the marinade include."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

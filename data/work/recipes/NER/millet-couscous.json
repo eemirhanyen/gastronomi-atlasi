@@ -5,11 +5,11 @@
  },
  "native": "Alkama",
  "desc": {
-  "tr": "Nijer'de darıdan yapılan, buharda pişirilmiş ince kuskusun okra ve etli domates sosuyla servis edildiği, özellikle öğle ve akşam yemeklerinde sofraya gelen geleneksel bir ana yemektir.",
+  "tr": "Nijer'de darıdan yapılan, buharda pişirilmiş ince kuskusun okra ve etli domates sosuyla servis edildiği, özellikle öğle ve akşam yemeklerinde sofraya gelen geleneksel bir ana yemektir. Sahel ve güney bölgelerinde yaygındır.",
   "en": "A traditional Nigerien main dish of steamed fine millet couscous served with a tomato, meat and okra sauce, eaten at midday and evening meals, especially in the Sahel and southern regions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -54,10 +54,10 @@
    "Sosu hazırlamak için geniş bir tencerede 30 ml yağı orta-yüksek ateşte ısıtın. Et küplerini ekleyip her tarafı kahverengi olana kadar yaklaşık 8 dakika kavurun.",
    "Soğanı ve sarımsağı ekleyip soğan yumuşayana kadar yaklaşık 5 dakika pişirin. Domates salçasını ekleyip 2 dakika kavurun.",
    "Rendelenmiş domatesi, kırmızı biberi, zencefil tozunu, et suyu küpünü, bir tutam karabiberi ve 1 litre sıcak suyu ekleyin. Kısık ateşte, kapağı yarım açık tutarak eti yumuşayana kadar yaklaşık 40 dakika pişirin.",
-   "Kuskusu buharda pişirmek için bir kukuma ya da süzgeci temiz bir bezle kaplayın ve üzerine kuskusu yayın. Kaynayan suyun üzerine yerleştirip kapağını kapatın ve 20 dakika buharda pişirin.",
+   "Kuskusu buharda pişirmek için bir kuskus kukumu ya da süzgeci temiz bir bezle kaplayın ve üzerine kuskusu yayın. Kaynayan suyun üzerine yerleştirip kapağını kapatın ve 20 dakika buharda pişirin.",
    "Sos hazırlanırken dilimlenmiş bamyayı sosa ekleyin ve 10 dakika daha kısık ateşte pişirin. Gerekirse tuz ve karabiberle tatlandırın.",
    "Buharda pişen kuskusu büyük bir kaseye boşaltın. Çatalla kabartıp taneleri ayırın, hafifçe yağ ve tuzla tatlandırın, sonra tekrar 10 dakika buharda dinlendirin.",
-   "Kuskusu derin bir tabağa alın, ortasını hafifçe çukurlaştırın ve sıcak bamyalı etli sosu üzerine gezdirerek servis edin."
+   "Kuskusu derin bir tabağa alın, ortasını hafifçe çukurlaştırın ve sıcak bamyalı etli sosu yanında veya üzerine gezdirerek servis edin."
   ],
   "en": [
    "To prepare the couscous, put the millet couscous in a wide bowl. Add 15 ml oil and 1/2 tsp salt, then rub the grains lightly between your palms to coat them with oil.",
@@ -75,5 +75,16 @@
   "tr": "Kuskusu ikinci kez buharda pişirmek, taneleri yumuşak ve ayrı ayrı tutar; sosu kuskusun üzerine doğrudan dökmek yerine yanında servis etmek daha iyi sonuç verir.",
   "en": "Steaming the couscous a second time keeps the grains light and separate; serve the sauce alongside rather than drowning the couscous, so the grains stay fluffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Total time of 60 minutes is too short for the steps (about 40 min simmering, 20 + 10 min steaming, 10 min resting, plus browning), so time_min should be about 90.",
+   "Turkish step 9 says the sauce is poured over the couscous, but the tip and English step 9 advise serving it alongside. The Turkish version needs to match.",
+   "Turkish description omits the Sahel and southern regions mentioned in the English description.",
+   "Turkish step 6 'bir kukuma' is an incorrect case form; it should be 'bir kuskus kukumu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "Bouyon is Haiti's national soup, traditionally served on New Year's Day and Independence Day (1 January) as a family celebration dish. Made with pumpkin, root vegetables and seasoned beef, it is believed to bring good fortune for the coming year."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -85,5 +85,13 @@
   "tr": "Scotch bonnet biberi bütün bırakmak çorbaya hafif bir aroma verir; kapağı delinirse ya da patlarsa acılık çok artar, bu yüzden pişirme sonunda dikkatle çıkarın.",
   "en": "Leaving the scotch bonnet whole gives a gentle fragrance without much heat; if it bursts, the soup becomes very hot, so remove it carefully at the end."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too low for the steps: 30 min marinating plus about 95 min of cooking (60 + 20 + 5 + 8-10) and prep comes to roughly 2 hours. Changed to 120."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru ince açarken her turda biraz un serpin ve pişirmeden önce ekmeği fazla kalın bırakmayın; ince ekmek daha gevrek olur.",
+  "tr": "Hamuru ince açarken her açımda biraz un serpin ve pişirmeden önce ekmeği fazla kalın bırakmayın; ince açılmış ekmekler hızlı pişer ve üst üste konup bezin altında bekletildiğinde yumuşak kalır.",
   "en": "Roll the dough evenly and keep the rounds thin; they cook through quickly and stay soft when stacked under a cloth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips disagree: the Turkish tip says thin bread becomes 'gevrek' (crisp), while the English says the rounds stay soft when stacked under a cloth.",
+   "Turkish tip uses 'her turda', which is unnatural for rolling dough; 'her açımda' is more idiomatic."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

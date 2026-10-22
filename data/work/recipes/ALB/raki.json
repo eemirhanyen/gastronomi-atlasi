@@ -9,7 +9,7 @@
   "en": "In Albania, raki is a traditional grape-based spirit sipped from small glasses with meze at lunch and dinner. This recipe shows how to flavour a ready-made grape spirit with anise and spices at home."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 10080,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Tarçın ve karanfil fazla kullanılırsa tat sertleşir; baharat miktarını az tutun ve bir hafta sonra tadına bakıp gerekirse süreyi uzatın.",
   "en": "Too much cinnamon or clove can make the flavour harsh, so keep the spices modest and taste after a week before extending the infusion."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, which ignores the seven-day infusion described in the steps; the total time should reflect the infusion period"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

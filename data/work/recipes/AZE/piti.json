@@ -21,7 +21,7 @@
    "15 g domates salçası (1 yemek kaşığı)",
    "8 adet kuru erik",
    "8 adet kuru kayısı",
-   "0,2 g safran (bir tutam, 2 yemek kaşığı sıcak suda demlenmiş)",
+   "0,05 g safran (bir tutam, 2 yemek kaşığı sıcak suda demlenmiş)",
    "40 ml sıvı yağ",
    "2 litre sıcak su",
    "2 adet lavaş ekmeği",
@@ -37,7 +37,7 @@
    "15 g tomato paste (1 tablespoon)",
    "8 dried plums",
    "8 dried apricots",
-   "0.2 g saffron (a pinch, steeped in 2 tablespoons hot water)",
+   "0.05 g saffron (a pinch, steeped in 2 tablespoons hot water)",
    "40 ml neutral oil",
    "2 litres hot water",
    "2 sheets lavash bread",
@@ -56,8 +56,8 @@
    "Ateşi kısın, kapağı yarı açık bırakarak yaklaşık 60 dakika pişirin.",
    "Patatesleri soyup ikiye kesin, kuru erik, kuru kayısı ve demlenmiş safranla birlikte tencereye ekleyin.",
    "Kısık ateşte, etler çok yumuşayana ve nohutlar tamamen pişene kadar yaklaşık 40 dakika daha pişirin.",
-   "Lavaş ekmeklerini küçük parçalara koparın ve sıcak suyla kısa süre ıslatıp yumuşatın.",
-   "Servis için önce suyunu bir kasede servis edin, ardından kalan malzemeleri bir tokmakla ezerek kıvam verin ve ıslatılmış lavaşla birlikte servis edin."
+   "Lavaş ekmeklerini küçük parçalara koparın ve sıcak et suyuyla kısa süre ıslatıp yumuşatın.",
+   "Servis için önce suyunu bir kasede servis edin, ardından etin, nohutun, patatesin ve meyvelerin bir kısmını tokmakla ezerek kıvam verin, kalanını parça halinde bırakın ve ıslatılmış lavaşla birlikte servis edin."
   ],
   "en": [
    "Soak the chickpeas in water overnight, then drain and rinse them the next day.",
@@ -70,12 +70,22 @@
    "Peel and halve the potatoes, then add them to the pot with the dried plums, dried apricots and the steeped saffron.",
    "Simmer gently for about 40 more minutes until the lamb is very tender and the chickpeas are fully cooked.",
    "Tear the lavash into small pieces and soak them briefly in hot broth until soft.",
-   "To serve, first ladle the broth into bowls. Then mash the meat, chickpeas, potatoes and fruit in the pot with a pestle to a thick consistency, and serve with the soaked lavash."
+   "To serve, first ladle the broth into bowls. Then mash part of the meat, chickpeas, potatoes and fruit with a pestle to a thick consistency, leave the rest in pieces, and serve with the soaked lavash."
   ]
  },
  "tip": {
-  "tr": "Geleneksel sunumda pişirme suyu ile etli karışım ayrı servis edilir; kuru erik ve kayısının tatlı-ekşi dengesi için bu meyveleri pişirmenin son yarım saatine kadar tencereden çıkarmayın.",
-  "en": "For the authentic texture, mash only part of the mixture so some chickpeas and potato pieces remain whole, and keep the dried fruit in the pot until the final 30 minutes to balance the sweet-sour flavour."
+  "tr": "Geleneksel sunumda pişirme suyu ile etli karışım ayrı servis edilir. Ezme işlemini karışımın yalnızca bir kısmına uygulayın ki bazı nohut ve patates parçaları bütün kalsın. Kuru erik ve kayısının tatlı-ekşi dengesi için bu meyveleri pişirmenin son yarım saatine kadar tencereden çıkarmayın.",
+  "en": "For the authentic texture, mash only part of the mixture so some chickpeas and potato pieces remain whole, and keep the dried fruit in the pot until the final 30 minutes to balance the sweet-sour flavour. Traditionally the broth and the meat mixture are served separately."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Saffron quantity of 0.2 g is implausibly high for a 'pinch' and 4 servings; a pinch is roughly 0.05 g.",
+   "Lavash soaking liquid is 'sıcak suyla' (hot water) in Turkish but 'hot broth' in English.",
+   "Serving step says to mash the whole mixture in English and Turkish, but the tip says to mash only part so some chickpeas and potatoes stay whole. The tip also differs between languages: the Turkish ti"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

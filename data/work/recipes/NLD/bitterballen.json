@@ -19,7 +19,7 @@
    "300 ml et suyu",
    "200 g pişmiş dana eti (örneğin etli kısım), çok ince doğranmış veya lifleri ayrılmış",
    "1 yemek kaşığı doğranmış maydanoz",
-   "1/4 çay kaşığı rendelenmiş hindistancevizi",
+   "1/4 çay kaşığı rendelenmiş muskat cevizi",
    "Tuz ve taze çekilmiş karabiber",
    "50 g un (kaplama için)",
    "2 yumurta, çırpılmış",
@@ -48,7 +48,7 @@
    "Tereyağını orta ateşte geniş bir tencerede eritin. Doğranmış soğanı ekleyip 5 dakika, yumuşayana ve şeffaflaşana kadar soteleyin.",
    "Unu ekleyip sürekli karıştırarak 2 dakika pişirin.",
    "Et suyunu azar azar ekleyip çırpın. Karışım pürüzsüz ve koyu bir sos kıvamına gelene kadar 3 dakika kaynatın.",
-   "Doğranmış dana etini, maydanozu, hindistancevizini, bir tutam tuzu ve karabiberi ekleyin. Karıştırıp kısık ateşte 5 dakika daha pişirin.",
+   "Doğranmış dana etini, maydanozu, muskat cevizini, bir tutam tuzu ve karabiberi ekleyin. Karıştırıp kısık ateşte 5 dakika daha pişirin.",
    "Karışımı yüzeyi hafif yağlanmış bir tepsiye yayın, streç filmle kapatın ve en az 3 saat, ideal olarak bir gece boyunca buzdolabında sertleşene kadar soğutun.",
    "Soğuyan ragudan cevizden biraz büyük, yaklaşık 25 g ağırlığında toplar yapın.",
    "Topları sırasıyla 50 g unda çevirin, çırpılmış yumurtaya batırın ve galeta unuyla kaplayın. Tekrar 30 dakika buzdolabına kaldırın.",
@@ -71,5 +71,13 @@
   "tr": "Ragu tam sertleşmeden toplar yapmayın; iyice soğumuş ve sıkı bir karışım kızartma sırasında patlamayı önler.",
   "en": "Chill the ragout until it is very firm before shaping. Cold, dense filling stops the balls from bursting in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step say 'hindistancevizi' (coconut), but the English and the dish require nutmeg ('muskat cevizi'). The ingredient list and step 4 both need correcting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

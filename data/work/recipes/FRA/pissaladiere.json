@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Soğanları yüksek ateşte acele etmeden pişirin; amaç yanmış değil, koyu kehribar renkte tatlı bir karamel elde etmektir.",
+  "tr": "Soğanları yüksek ateşte acele ederek pişirmeyin; amaç yanmış değil, koyu kehribar renkte, tatlı bir reçel kıvamında soğan elde etmektir. İsterseniz bir gün önceden pişirin, lezzeti daha da iyi olur.",
   "en": "Do not rush the onions over high heat: the aim is a deep amber, sweet jam, not burnt bits. Cook them a day ahead if you like, as the flavour improves."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the English advice that the onions can be cooked a day ahead, so the two versions disagree.",
+   "Turkish tip describes the goal as a 'karamel' (caramel), while the English says a 'sweet jam'. The two versions describe the target texture differently.",
+   "Turkish tip wording 'yüksek ateşte acele etmeden pişirin' is awkward; 'acele ederek' is more natural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

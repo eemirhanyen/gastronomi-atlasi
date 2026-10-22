@@ -26,7 +26,7 @@
    "1 kabak (yaklaşık 200 g), julyen doğranmış",
    "100 g shiitake veya kültür mantarı, dilimlenmiş",
    "4 yumurta",
-   "3 yemek kaşığı sıvı yağ",
+   "5 yemek kaşığı sıvı yağ",
    "Tuz",
    "3 dal yeşil soğan, ince kıyılmış",
    "3 yemek kaşığı gochujang (yaklaşık 60 g)",
@@ -47,7 +47,7 @@
    "1 zucchini (about 200 g), julienned",
    "100 g shiitake or button mushrooms, sliced",
    "4 eggs",
-   "3 tbsp vegetable oil",
+   "5 tbsp vegetable oil",
    "Salt",
    "3 green onions, thinly sliced",
    "3 tbsp gochujang (about 60 g)",
@@ -63,8 +63,8 @@
    "Ispanağı kaynayan tuzlu suda 30 saniye haşlayın, soğuk suya alın, iyice sıkıp bir kenara koyun. 1 diş sarımsak ve bir tutam tuz ile karıştırın.",
    "Fasulye filizini kaynayan tuzlu suda 2 dakika haşlayın, süzün ve bir tutam tuz ve 1 çay kaşığı susam yağı ile harmanlayın.",
    "Havuç, kabak ve mantarı ayrı ayrı 1 yemek kaşığı sıvı yağda, her biri yaklaşık 2 dakika, hafifçe soteleyin ve birer tutam tuz ekleyin.",
-   "Marine edilmiş eti yüksek ateşte, sık karıştırarak 3 dakikada pişirin. Ocaktan almadan önce yeşil soğanın yarısını ekleyin.",
-   "Kalan 2 yemek kaşığı sıvı yağı kızgın bir tavada ısıtın ve yumurtaları tek tek 3 dakika, akı pişip sarısı akışkan kalacak şekilde ceviz kızartın.",
+   "Büyük bir tavada 1 yemek kaşığı sıvı yağı yüksek ateşte kızdırın. Marine edilmiş eti ekleyip sık karıştırarak yaklaşık 3 dakika pişirin. Ocaktan almadan önce yeşil soğanın yarısını ekleyin.",
+   "Kalan 1 yemek kaşığı sıvı yağı kızgın bir tavada ısıtın ve yumurtaları tek tek yaklaşık 3 dakika, akı pişip sarısı akışkan kalacak şekilde göz yumurta gibi pişirin.",
    "Gochujang, kalan 1 yemek kaşığı susam yağı, 1 çay kaşığı şeker ve 1 yemek kaşığı suyu küçük bir kasede karıştırarak sosu hazırlayın.",
    "Pirinci dört kaseye paylaştırın. Sebzeleri, eti ve fasulye filizini pirincin üzerine ayrı ayrı yerleştirin.",
    "Her kaseye bir yumurta koyun, üzerine susam ve kalan yeşil soğanı serpin. Sosu ayrıca servis edin.",
@@ -77,7 +77,7 @@
    "Blanch the spinach in boiling salted water for 30 seconds, transfer to cold water, then squeeze out the excess. Toss with 1 minced garlic clove and a pinch of salt.",
    "Blanch the bean sprouts in boiling salted water for 2 minutes, drain, and season with a pinch of salt and 1 tsp sesame oil.",
    "Sauté the carrot, zucchini and mushrooms separately in 1 tbsp vegetable oil each, about 2 minutes per batch, seasoning each with a pinch of salt.",
-   "Cook the marinated beef in a hot pan over high heat, stirring, for about 3 minutes. Stir in half of the green onions just before removing from heat.",
+   "Heat 1 tbsp vegetable oil in a large pan over high heat. Add the marinated beef and cook, stirring, for about 3 minutes. Stir in half of the green onions just before removing from heat.",
    "Heat the remaining 1 tbsp vegetable oil in a hot pan and fry the eggs one at a time for about 3 minutes, until the whites are set and the yolks are still runny.",
    "In a small bowl, mix the gochujang, the remaining 1 tbsp sesame oil, 1 tsp sugar and 1 tbsp water to make the sauce.",
    "Divide the rice among four bowls. Arrange the vegetables, beef and bean sprouts in separate sections on top of the rice.",
@@ -89,5 +89,15 @@
   "tr": "Pirinç pişerken kapağı açmayın; demlenme süresi pilavın gevrek ama yapışkan olmasını sağlar. Taş çanakta servis ediyorsanız, pirinci çanağa koymadan önce çanağı yağlayın ve pirinci yerleştirip hafifçe kızarana kadar bekleyin.",
   "en": "Do not lift the lid while the rice cooks; the resting time gives a fluffy but slightly sticky texture. For a crispy base, oil a hot stone bowl, add the rice, and let it sizzle for a minute before adding the toppings."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: 3 tbsp total is listed, but the vegetables use 3 tbsp, leaving none for the beef and eggs (beef step has no oil; egg step needs 1 tbsp).",
+   "Turkish egg step says 'Kalan 2 yemek kaşığı' (remaining 2 tbsp), but the English says 'remaining 1 tbsp'. The versions disagree.",
+   "Turkish egg step says 'ceviz kızartın' (fry like a walnut), which is wrong. It should be 'göz yumurta gibi' (like a fried egg)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

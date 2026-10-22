@@ -47,7 +47,7 @@
    "Büyük bir tencerede 3 litre suyu tuzla kaynatın. Makarnayı paket talimatına göre al dente olana kadar, yaklaşık 8-9 dakika haşlayın. Süzün ve bir kenara alın.",
    "Orta ateşte küçük bir tavada 2 yemek kaşığı tereyağını eritin. Soğanı ve dolmalık biberi yumuşayıp hafifçe renk alana kadar, yaklaşık 5-6 dakika soteleyin. Sarımsağı ekleyip 30 saniye daha pişirin, ocaktan alın.",
    "Büyük bir kapta yumurtaları, sütü, kekiği, tatlı kırmızı biberi, bir tutam tuzu ve karabiberi iyice çırpın.",
-   "Makarnayı, soteledğiniz soğan, biber ve sarımsağı, 200 g rendelenmiş çedar peynirini ve yumurta karışımını aynı kapta birleştirip iyice karıştırın.",
+   "Makarnayı, soteladığınız soğan, biber ve sarımsağı, 200 g rendelenmiş çedar peynirini ve yumurta karışımını aynı kapta birleştirip iyice karıştırın.",
    "Karışımı yağlanmış kaba dökün, düzgünce yayın. Üzerine ayırdığınız 50 g peyniri serpin.",
    "Önceden ısıtılmış fırında 35-40 dakika, üst yüzeyi altın sarısı olup orta kısmı sabitleşene kadar pişirin.",
    "Fırından çıkarıp 10 dakika dinlendirin, ardından kare kare dilimleyip servis yapın."
@@ -67,5 +67,13 @@
   "tr": "Makarnayı biraz fazla pişirmeyin; yumuşak kalırsa fırında kıvam bozulur ve turta dilimlerken dağılır.",
   "en": "Do not overcook the macaroni; soft pasta can make the pie watery and cause it to fall apart when sliced."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 contains a misspelled word, \"soteledğiniz\", which should be \"sotelediğiniz\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

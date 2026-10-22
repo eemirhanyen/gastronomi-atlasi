@@ -37,7 +37,7 @@
    "Soğuk tereyağı küplerini parmak uçlarınızla una ovalayarak kum kıvamı alana kadar karıştırın.",
    "Suyu azar azar ekleyip çatalla karıştırın; yumuşak, hafif yapışkan bir hamur oluşunca durun ve fazla yoğurmayın.",
    "Hamuru örtüp 10 dakika dinlendirin.",
-   "Hamuru 4 eşit parçaya bölün ve her birini yaklaşık 1,5 cm kalınlığında yuvarlak bir placa şekli verin.",
+   "Hamuru 4 eşit parçaya bölün ve her birini yaklaşık 1,5 cm kalınlığında yassı, yuvarlak bir disk şekline getirin.",
    "Kalın tabanlı bir tavada sıvı yağı orta ateşte, yüzeyinde hafif dalgalanma görünene kadar (yaklaşık 170°C) ısıtın.",
    "Bannock'ları her iki yüzünde 6-8 dakika, altın rengi alıp içleri pişene kadar kızartın; çok hızlı renk alırsa ateşi biraz düşürün.",
    "Kağıt havlu üzerinde yağını süzün ve ılık servis edin, üzerine akçaağaç şurubu gezdirin."
@@ -57,5 +57,13 @@
   "tr": "Tereyağının çok soğuk olması, ekmeğin kabarık ve gevrek çıkmasını sağlar; hamuru ne kadar az yoğurursanız o kadar yumuşak olur.",
   "en": "Keep the butter very cold and handle the dough as little as possible for a light, tender bannock with a crisp outside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 uses 'placa', which is not standard Turkish. 'Yassı, yuvarlak bir disk' is the natural wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A mildly sour, foamy fermented drink made from sorghum, enjoyed in Chad especially in the central and southern regions at markets and celebrations. It is usually served cold, often in the late morning or afternoon."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1480,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Fermentasyonu 24 saatten fazla bırakmayın; içecek hızla ekşiyip alkol oranı artar. Buzdolabında en fazla 2 gün içinde tüketin.",
   "en": "Do not ferment longer than 24 hours, as the drink becomes sour quickly and its alcohol content rises. Consume within 2 days when refrigerated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) leaves out the 24-hour fermentation in step 6, so the total time is understated; set to about 1480 minutes (roughly 40 min of active work plus 24 h)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

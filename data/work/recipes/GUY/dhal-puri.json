@@ -9,7 +9,7 @@
   "en": "A thin, stuffed flatbread from Guyana's Indo-Guyanese kitchen, filled with seasoned yellow split pea purée. It is eaten at lunch and weekend breakfasts, served alongside meat or vegetable curries."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 165,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -67,5 +67,13 @@
   "tr": "Harcı sıcakken değil, soğuk veya ılık kullanın; sıcak harç hamuru yırtar ve ekmeğin kabarmasını engeller.",
   "en": "Use the filling cool or lukewarm, not hot; warm filling tears the dough and stops the bread from puffing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) does not match the steps: the recipe includes a 1-hour soak, about 35 minutes of simmering, and a 30-minute dough rest, so the total is roughly 2.5-3 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

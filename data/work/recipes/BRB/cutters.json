@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "4 adet yumuşak sandviç ekmeği (yaklaşık 100 g'lık, cutter ekmeği ya da büyük rulo)",
-   "400 g beyaz balık filetosu (geleneksel olarak uçan balık; yerine kılıç balığı veya morina kullanılabilir), 4 parçaya bölünmüş",
+   "400 g beyaz balık filetosu (geleneksel olarak uçan balık; yerine kral uskumru (kingfish) veya morina kullanılabilir), 4 parçaya bölünmüş",
    "1 limonun suyu (yaklaşık 30 ml)",
    "1 diş sarımsak, rendelenmiş",
    "1/2 çay kaşığı kurutulmuş kekik",
@@ -75,5 +75,13 @@
   "tr": "Balığı kızartmadan hemen önce kağıt havluyla iyice kurulayın; böylece kaplama yağa dağılmadan çıtır kalır.",
   "en": "Pat the fish dry with kitchen paper just before frying so the coating stays crisp rather than sliding off into the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient translates 'kingfish' as 'kılıç balığı' (swordfish), which is a different fish. The English term refers to king mackerel-type fish, so the Turkish should be 'kral uskumru' or equiva"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

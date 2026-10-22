@@ -16,7 +16,7 @@
    "500 ml portakallı gazoz (Fanta tipi)",
    "500 ml limonlu gazoz (Sprite tipi)",
    "60 ml grenadin şurubu",
-   "2 limonun suyu (yaklaşık 60 ml)",
+   "2 misket limonunun suyu (yaklaşık 60 ml)",
    "150 g salatalık",
    "1 küçük portakal (yaklaşık 150 g)",
    "200 g buz"
@@ -34,8 +34,8 @@
  "steps": {
   "tr": [
    "Salatalığı yıkayıp ince yarım ay dilimler halinde kesin. Portakalı da yıkayıp 5 mm kalınlığında dilimleyin.",
-   "Limonları ikiye bölüp sıkın ve suyunu bir kenara alın.",
-   "Büyük bir sürahiye limon suyunu ve grenadin şurubunu koyup iyice karıştırın.",
+   "Misket limonlarını ikiye bölüp sıkın ve suyunu bir kenara alın.",
+   "Büyük bir sürahiye misket limonu suyunu ve grenadin şurubunu koyup iyice karıştırın.",
    "Salatalık ve portakal dilimlerini sürahiye ekleyin.",
    "Buzu ekleyin, ardından portakallı ve limonlu gazozları yavaşça dökün. Köpüğün sönmemesi için ağır ağır karıştırın.",
    "Bardaklara az miktarda buz koyup Chapman'ı doldurun ve her bardağa birkaç salatalık ve portakal dilimi ekleyerek hemen servis yapın."
@@ -53,5 +53,13 @@
   "tr": "Gazozları en son ve yavaşça ekleyin; içeceğin köpüğünü korumak için karıştırmayı en aza indirin.",
   "en": "Add the sodas last and pour them slowly down the side of the jug, then stir only once or twice to keep the drink fizzy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish text uses \"limon\" (lemon) while the English specifies \"lime\" in the ingredients and steps, so the two versions disagree on the citrus used. Turkish should say \"misket limonu\" (lime)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Vitumbuva",
+  "tr": "Vitumbuwa",
   "en": "Vitumbuwa"
  },
  "native": "Vitumbuwa",
@@ -65,5 +65,13 @@
   "tr": "Topları yağa atmadan önce tencerenin ortasında bir top deneyin; hemen kabarıp yüzmeye başlıyorsa yağ doğru ısıdadır, ama dışı çabuk koyulaşıyor ve içi çiğ kalıyorsa ateşi biraz düşürün.",
   "en": "Test one ball first: if it rises and floats steadily, the oil is ready. If it browns quickly but the centre stays raw, lower the heat slightly and fry a little longer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "name.tr spells the dish \"Vitumbuva\" while the native and English name is \"Vitumbuwa\"; the Turkish name should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

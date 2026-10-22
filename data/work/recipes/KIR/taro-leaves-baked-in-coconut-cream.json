@@ -9,7 +9,7 @@
   "en": "A traditional side dish from Kiribati, served alongside fish and other coconut-based meals. The taro leaves are slowly cooked in coconut cream until soft and rich, and are eaten for family meals and gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Taro yapraklarında kaşıntı yapan kalsiyum oksalat bulunur; bu yüzden yaprakları mutlaka iyice haşlayıp suyunu sıkın ve asla çiğ yemeyin.",
   "en": "Taro leaves contain calcium oxalate, which causes irritation if eaten raw, so always boil them thoroughly and squeeze out the cooking water before using."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to about 90 minutes: roughly 15 min preparing the leaves, 15 min boiling, 5 min frying the onion, and 50 min of baking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

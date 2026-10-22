@@ -55,7 +55,7 @@
   "tr": [
    "Erişteyi paket talimatına göre haşlayın, süzün, soğuk suyla durulayın ve 1 yemek kaşığı yağla karıştırıp kenara alın.",
    "Tavuk dilimlerini 1 yemek kaşığı soya sosu, 1 çay kaşığı mısır nişastası ve karabiberle karıştırıp 10 dakika marine edin.",
-   "Büyük bir tavada 1 yemek kaşığı yağı kızdırın ve tavukları yedirerek 3-4 dakika, iyice pişene kadar kavurun. Tavukları bir kaseye alın.",
+   "Büyük bir tavada 1 yemek kaşığı yağı yüksek ateşte kızdırın ve tavuk dilimlerini tek kat halinde yayarak 3-4 dakika, iyice pişene kadar kavurun. Tavukları bir kaseye alın.",
    "Aynı tavaya kalan yağın yarısını ekleyin, soğanı, sarımsağı, havucu ve kereviz sapını 3 dakika sote edin.",
    "Lahanayı ekleyip 2 dakika daha, lahana hafif yumuşayana kadar karıştırarak pişirin.",
    "Tavukları tavaya geri koyun. Tavuk suyu, soya sosu, istiridye sosu ve toz şekeri ekleyip karıştırın ve 2 dakika kaynatın.",
@@ -79,5 +79,14 @@
   "tr": "Erişteleri fazla pişirmeyin; tavada karıştırılırken yumuşayacakları için al dente haşlamak en iyi sonucu verir.",
   "en": "Undercook the noodles slightly when boiling, as they will soften further when tossed in the hot sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 uses 'yedirerek', which is wrong for searing chicken. It should describe spreading the pieces in the pan.",
+   "Turkish step 3 omits the high-heat instruction that the English version gives, so the two versions disagree on heat."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "Crisp, golden fried dough balls with a soft centre, scented with cardamom and soaked in sugar syrup. Served in Oman and across the Gulf, especially during Ramadan evenings, Eid celebrations and when guests visit, usually with coffee or tea."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 110,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -46,7 +46,7 @@
    "Hamuru streçle veya temiz bir bezle örtün ve sıcak bir yerde 45-60 dakika, kabarıp hacmi ikiye katlanana kadar dinlendirin.",
    "Şerbeti hazırlamak için 200 g şekeri 150 ml suyla birlikte orta ateşte, şeker tamamen eriyene kadar karıştırarak ısıtın. Ardından kısık ateşte 5 dakika kaynatın, ocaktan alıp limon suyunu ekleyin ve sıcak tutun.",
    "Derin bir tencerede yağı 170-180°C'ye kadar ısıtın. Bir kaşık ıslatıp hamurdan, cevizden biraz büyük toplar alarak sıcak yağa yavaşça bırakın. Fazla yapışmasını önlemek için kaşığı her seferinde suya batırın.",
-   "Topları 3-4 dakika, altın rengi olup her tarafı çıtırlaşana kadar ara sıra çevirerek kızartın. Süzgečli kaşıkla alıp kağıt havlu üzerine süzdürün.",
+   "Topları 3-4 dakika, altın rengi olup her tarafı çıtırlaşana kadar ara sıra çevirerek kızartın. Süzgeçli kaşıkla alıp kağıt havlu üzerine süzdürün.",
    "Sıcak topları hemen şerbetin içine atıp birkaç saniye bekletin ya da şerbeti üzerlerine gezdirin. Kavrulmuş susamı serpip sıcak servis yapın."
   ],
   "en": [
@@ -63,5 +63,14 @@
   "tr": "Hamur çok koyu olursa kabarmaz, çok sulu olursa yağda dağılır; kıvamı kaşıktan yavaşça akacak kadar ayarlayın ve yağ sıcaklığını termometreyle kontrol edin.",
   "en": "If the batter is too thick it won't puff, and if it is too runny the balls will break up in the oil; aim for a consistency that flows slowly off a spoon, and check the oil temperature with a thermometer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not cover the 45-60 minute dough rise, 5-minute yeast proof, syrup and frying; total time is closer to 110 minutes",
+   "Turkish step 6 has a typo: 'Süzgečli' should be 'Süzgeçli'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

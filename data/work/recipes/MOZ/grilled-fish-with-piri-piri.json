@@ -20,7 +20,7 @@
    "60 ml taze limon suyu (yaklaşık 2 limon)",
    "1 yemek kaşığı beyaz sirke",
    "1 çay kaşığı tatlı kırmızı biber",
-   "1 çay kaşığı kuru kekik veya kekik",
+   "1 çay kaşığı kuru kekik",
    "1 çay kaşığı tuz",
    "1 tatlı kaşığı şeker",
    "Yağlamak için 1 yemek kaşığı zeytinyağı",
@@ -48,8 +48,8 @@
    "Piri piri sosunu hazırlayın: Biberleri, sarımsakları ve tuzu havanda ezin ya da mutfak robotunda kabaca çekin. Zeytinyağı, limon suyu, sirke, kırmızı biber, kekik ve şekerle karıştırıp pürüzsüz bir sos elde edin.",
    "Balıkların her iki yüzüne 3'er derin çizik atın. Sosun yaklaşık üçte ikisini balıkların içine ve üzerine dikkatlice sürün, geri kalan sosu servis için ayırın.",
    "Balıkları oda sıcaklığında 20 dakika dinlendirerek marine olmasını sağlayın.",
-   "Izgarayı orta-yüksek ısıya (yaklaşık 200 °C) getirin ya da közü hazırlayın. Izgara ızgarasını 1 yemek kaşığı zeytinyağıyla yağlayın.",
-   "Balıkları ızgaraya yerleştirin ve her iki yüzünü yaklaşık 6-8 dakika pişirin. Et kolayca ayrılmaya başlayınca ve iç kısmı opak olunca hazırdır. Pişirme sırasında ayırdığınız sostan birkaç kez sürün.",
+   "Izgarayı orta-yüksek ısıya (yaklaşık 200 °C) getirin ya da közü hazırlayın. Izgara rafını 1 yemek kaşığı zeytinyağıyla yağlayın.",
+   "Balıkları ızgaraya yerleştirin ve her iki yüzünü yaklaşık 6-8 dakika pişirin. Et kolayca ayrılmaya başlayınca ve iç kısmı opak olunca (en kalın yerinde yaklaşık 63 °C) hazırdır. Pişirme sırasında ayırdığınız sostan birkaç kez sürün.",
    "Balıkları ızgaradan alıp 3 dakika dinlendirin. Limon dilimleri, kalan piri piri sosu ve kişnişle birlikte sıcak servis yapın."
   ],
   "en": [
@@ -62,8 +62,18 @@
   ]
  },
  "tip": {
-  "tr": "Balığı pişirirken derin çizikleri koruyun ve sosu sık sık sürün; bu hem tatlandırır hem de etin kurumasını önler. Kızgın ızgaraya dokunmadan önce ızgarayı iyice yağlayın ki balık yapışmasın.",
+  "tr": "Balığı pişirirken derin çizikleri açık tutun ve sosu sık sık sürün; bu hem tatlandırır hem de etin kurumasını önler. Kızgın ızgaraya dokunmadan önce ızgarayı iyice yağlayın ki balık yapışmasın. Balığı yalnızca et ızgaradan kolayca ayrılınca çevirin.",
   "en": "Keep the diagonal cuts open and baste often, which seasons the flesh and stops it drying out. Oil the grate well so the fish does not stick, and turn it only once it releases easily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 omits the internal doneness check (about 63 °C) that appears in the English version",
+   "Turkish tip omits the advice to turn the fish only once it releases easily, which appears in the English tip",
+   "Turkish step 4 'Izgara ızgarasını' is an awkward repetition; 'ızgara rafını' is the natural term"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

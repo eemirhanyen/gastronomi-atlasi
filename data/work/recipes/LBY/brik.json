@@ -5,7 +5,7 @@
  },
  "native": "بريك",
  "desc": {
-  "tr": "Libya'da ince warqa hamurunun içine ton balığı, yumurta, maydanoz ve harissa konarak kızartılan, genellikle iftar sofralarında ve kahvaltı arasında servis edilen çıtır bir atıştırmalıktır.",
+  "tr": "Libya'da ince warqa hamurunun içine ton balığı, yumurta, maydanoz ve harissa konarak kızartılan, genellikle iftar sofralarında ve ara öğün olarak servis edilen çıtır bir atıştırmalıktır.",
   "en": "A crisp snack from Libya made by wrapping tuna, parsley, capers and harissa around a whole egg in thin warqa pastry, then frying. It is popular at iftar tables and as a street snack in Tripoli and Benghazi."
  },
  "servings": 4,
@@ -51,8 +51,8 @@
    "Bir warqa yaprağını tezgâhta açın. Ortasına yaklaşık 2 yemek kaşığı iç harcı koyun ve harcın ortasında hafif bir çukur açın.",
    "Çukura bir yumurtayı kırın; sarısının bozulmamasına dikkat edin. Üzerine biraz tuz ekleyin.",
    "Yaprağın bir kenarını yumurtanın üzerine katlayın, kenarları macunla yapıştırıp yarım ay şekline getirin. Kalan yaprakları aynı şekilde hazırlayın.",
-   "Geniş bir tavada yağı yaklaşık 180°C'ye kadar ısıtın. Briklerden birini birkaç saniye bir kenarından yağa bırakın ve yapışkan kenarları önce yağa değdirip kızarmasını sağlayın.",
-   "Briki yaklaşık 1-2 dakika, altın rengi olana kadar kızartın; dikkatle çevirip diğer tarafını da 1-2 dakika kızartın. Yumurta akının pişip sarısının yumuşak kalmasına dikkat edin.",
+   "Geniş ve derin bir tavada yağı yaklaşık 180°C'ye kadar ısıtın. Briklerden birini birkaç saniye bir kenarından yağa bırakın ve yapışkan kenarları önce yağa değdirip kızarmasını sağlayın.",
+   "Briki yaklaşık 2-3 dakika, altın rengi olana kadar kızartın; dikkatle çevirip diğer tarafını da 2-3 dakika kızartın. Yumurta akının tamamen pişip sarısının yumuşak kalmasına dikkat edin.",
    "Kızarmış briki kağıt havlu serili tabağa alıp fazla yağını süzdürün. Kalan briklerle aynı işlemi tekrarlayın.",
    "Sıcak servis yapın, yanında limon dilimleri ile sunun."
   ],
@@ -63,9 +63,9 @@
    "Lay a warqa sheet flat on the work surface. Spoon about 2 tablespoons of the filling into the centre and make a shallow well in the middle.",
    "Crack an egg into the well, keeping the yolk intact, and sprinkle a little salt over it.",
    "Fold one edge of the sheet over the egg, seal the edges with the flour paste and shape into a half-moon. Prepare the remaining sheets the same way.",
-   "Heat the sunflower oil in a deep pan to about 180°C. Slide one brik gently into the oil and fry carefully, sealed side down first, to set the edges.",
-   "Fry for about 1-2 minutes per side until golden and crisp, turning carefully so the egg white sets while the yolk stays runny.",
-   "Drain the cooked brik on paper towels. Repeat with the remaining briks, keeping the cooked ones warm.",
+   "Heat the sunflower oil in a wide, deep pan to about 180°C. Slide one brik gently into the oil and fry carefully, sealed side down first, to set the edges.",
+   "Fry for about 2-3 minutes per side until golden and crisp, turning carefully so the egg white fully sets while the yolk stays runny.",
+   "Drain the cooked brik on paper towels. Repeat with the remaining briks.",
    "Serve hot with lemon wedges on the side."
   ]
  },
@@ -73,5 +73,16 @@
   "tr": "Warqa çok ince ve kolay yırtılır; harcı az miktarda kullanın ve kenarları macunla iyice kapatın, yoksa yağda açılır.",
   "en": "Warqa tears easily, so use only the amount of filling suggested and seal the edges well, or the brik may open in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 1-2 minutes per side at 180°C is likely too short for the egg white inside the wrapper to set, which is a food-safety concern.",
+   "English step 7 says 'deep pan' while the Turkish says 'geniş bir tava' (wide pan), so the versions disagree.",
+   "English step 9 adds 'keeping the cooked ones warm', which is not in the Turkish version.",
+   "Turkish description 'kahvaltı arasında' is unnatural; 'ara öğün' or 'kahvaltılık' fits better."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

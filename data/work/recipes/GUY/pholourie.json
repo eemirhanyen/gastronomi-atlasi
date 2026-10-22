@@ -5,7 +5,7 @@
  },
  "native": "Pholourie",
  "desc": {
-  "tr": "Guyana'da sokak satıcılarının ve pazar kenarlarındaki tezgâhların en sevilen atıştırmalığı olan, baharatlı sarı bezelye unu topakları. Genellikle öğle arası ve hafta sonları, tamarind (tamarind) sosuyla birlikte kâğıt torbalarda servis edilir.",
+  "tr": "Guyana'da sokak satıcılarının ve pazar kenarlarındaki tezgâhların en sevilen atıştırmalığı olan, baharatlı sarı bezelye unu topakları. Genellikle öğle arası ve hafta sonları, demirhindi sosuyla birlikte kâğıt torbalarda servis edilir.",
   "en": "A beloved Guyanese street snack of spiced split pea flour fritters, sold at market stalls and roadside vendors. Usually eaten at lunchtime or on weekends, served hot with a tangy tamarind sauce."
  },
  "servings": 4,
@@ -24,8 +24,8 @@
    "1 Scotch bonnet biber, çok ince doğranmış (tohumları isteğe bağlı)",
    "200 ml soğuk su (gerektikçe biraz daha)",
    "1 litre bitkisel sıvı yağ (kızartma için)",
-   "Tamarind sosu için:",
-   "100 g tamarind hamuru",
+   "Demirhindi sosu için:",
+   "100 g demirhindi hamuru",
    "150 ml sıcak su",
    "60 g esmer şeker",
    "1/2 küçük acı biber, ince doğranmış",
@@ -53,14 +53,14 @@
  },
  "steps": {
   "tr": [
-   "Tamarind sosunu hazırlayın: tamarind hamurunu sıcak suyla kaplayıp 15 dakika bekletin, ezerek süzün. Süzülen sıvıyı küçük bir tencereye alın, esmer şeker, acı biber ve tuzu ekleyip kısık ateşte 5 dakika kaynatın, sonra soğumaya bırakın.",
+   "Demirhindi sosunu hazırlayın: demirhindi hamurunu sıcak suyla kaplayıp 15 dakika bekletin, ezerek süzün. Süzülen sıvıyı küçük bir tencereye alın, esmer şeker, acı biber ve tuzu ekleyip kısık ateşte 5 dakika kaynatın, sonra soğumaya bırakın.",
    "Geniş bir kapta bezelye unu, kabartma tozu, kimyon, zerdeçal ve tuzu iyice karıştırın.",
    "Soğan, yeşil soğan, sarımsak ve Scotch bonnet biberi ekleyip unla birlikte elinizle hafifçe ovalayın.",
    "Soğuk suyu azar azar ekleyerek, kaşık üzerinden yavaşça dökülen, kalın ama akabilen bir hamur elde edin. Üstünü örtüp 15 dakika dinlendirin.",
    "Derin bir tencerede yağı 180 °C'ye kadar ısıtın. Yağı kontrol etmek için bir parça hamur atın; hemen kabarıp yüzmeliyse hazırdır.",
    "Hamurdan bir çorba kaşığı dolusu alıp yavaşça yağa bırakın. Her seferinde 4-5 topağı aynı anda kızartın.",
    "Topaklar altın rengi ve gevrek olana kadar, ara sıra çevirerek yaklaşık 3-4 dakika kızartın.",
-   "Süzgece veya kâğıt havlu serili tabağa alıp fazla yağını süzdürün. Sıcak sıcak, tamarind sosuyla servis edin."
+   "Süzgece veya kâğıt havlu serili tabağa alıp fazla yağını süzdürün. Sıcak sıcak, demirhindi sosuyla servis edin."
   ],
   "en": [
    "Make the tamarind sauce: soak the tamarind pulp in the hot water for 15 minutes, then mash and strain. Pour the liquid into a small pan, add the brown sugar, chilli and salt, and simmer gently for 5 minutes. Set aside to cool.",
@@ -77,5 +77,13 @@
   "tr": "Hamuru servis öncesi değil, kızartmadan hemen önce karıştırın; böylece kabartma tozu etkisini kaybetmeden topaklar daha kabarık ve hafif çıkar.",
   "en": "Mix the batter just before frying so the baking powder is fresh, giving lighter, puffier fritters."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish text uses the untranslated English word \"tamarind\" and even repeats it as \"tamarind (tamarind)\" in the description; the Turkish culinary term is \"demirhindi\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

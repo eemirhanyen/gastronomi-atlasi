@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Patlıcanları skin tamamen kararana kadar közleyin; dumanlı tat buradan gelir. Ezmeyi fazla sulandırmamak için etini iyice süzün.",
+  "tr": "Patlıcanların kabuğu tamamen kararana kadar közleyin; dumanlı tat buradan gelir. Ezmeyi fazla sulandırmamak için etini iyice süzün.",
   "en": "Char the eggplants until the skin is fully blackened; that smoky flavor is the heart of the dish. Drain the flesh well so the purée does not turn watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contains the English word \"skin\" instead of \"kabuk\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -43,7 +43,7 @@
  },
  "steps": {
   "tr": [
-   "Pancarların topraklı kısmını kesmeden, yıkayıp bir tencereye koyun ve üzerini 1 litre suyla kaplayın.",
+   "Pancarların kökünü ve yaprak sapını kesmeden, yıkayıp bir tencereye koyun ve üzerini 1 litre suyla kaplayın.",
    "Tencereyi kaynatın, ateşi orta-düşük yapıp pancarlar yumuşayana kadar, yaklaşık 40 dakika pişirin. Bir bıçakla kontrol edin.",
    "Pancarları süzün, soğuk suyun altında tutarak kabuklarını soyun ve oda sıcaklığına gelene kadar bekletin.",
    "Pancarları iri delikli rendeyle rendeleyip büyük bir kaseye alın.",
@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Pancarı pişirmeden önce kabuğunu ve kökünü kesmeyin; böylece renk ve tat kaybolmaz.",
+  "tr": "Pancarı pişirmeden önce kökünü ve yaprak sapını kesmeyin; böylece renk ve tat kaybolmaz.",
   "en": "Leave the root and stalk on the beetroot while boiling so it keeps its colour and sweetness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says not to cut the skin (kabuk) and root, but the English tip says root and stalk (sap). The Turkish step 1 also mentions only the earthy root end (topraklı kısım). Turkish should match t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

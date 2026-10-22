@@ -26,7 +26,7 @@
    "2 domates (yaklaşık 300 g)",
    "1 taze acı biber (isteğe bağlı)",
    "400 g baget ekmeği",
-   "12 adet ıslatılmış ahşap şiş"
+   "8 adet ıslatılmış ahşap şiş"
   ],
   "en": [
    "800 g boneless lamb (shoulder or leg)",
@@ -42,7 +42,7 @@
    "2 tomatoes (about 300 g)",
    "1 fresh hot pepper (optional)",
    "400 g baguette",
-   "12 wooden skewers, soaked in water"
+   "8 wooden skewers, soaked in water"
   ]
  },
  "steps": {
@@ -52,7 +52,7 @@
    "Bir soğanı rendeleyin, sarımsakları ezin. Rendelenmiş soğan, sarımsak, yağ, limon suyu, kimyon, pul biber, karabiber, tuz ve ufalanmış toz et suyunu büyük bir kapta karıştırın.",
    "Et küplerini bu karışıma ekleyip iyice bulaştırın. Örtüp buzdolabında en az 30 dakika, tercihen 1 saat bekletin.",
    "Diğer soğanı ince halka halka doğrayın, domatesleri dilim dilim kesin, taze acı biberi (kullanacaksanız) ince doğrayın. Bu garnitürleri servis için ayırın.",
-   "Her şişe 4-5 parça et geçirin. Etlerin birbirine çok sıkışmamasına dikkat edin.",
+   "Her şişe 4 parça et geçirin. Etlerin birbirine çok sıkışmamasına dikkat edin.",
    "Kömür ızgarasını veya ızgarayı orta-yüksek ısıya getirin (yaklaşık 200 °C).",
    "Şişleri ara sıra çevirerek 10-14 dakika pişirin. Et iç kısmında yaklaşık 63 °C'ye ulaşmalı ve dışı kızarmış olmalıdır.",
    "Pişerken kalan marinasyonu şişlere fırçayla sürerek lezzet ve nem katın.",
@@ -64,7 +64,7 @@
    "Grate one onion and crush the garlic. In a large bowl, mix the grated onion, garlic, oil, lime juice, cumin, chili flakes, black pepper, salt and crumbled bouillon cube.",
    "Add the lamb cubes to the marinade and coat them well. Cover and refrigerate for at least 30 minutes, ideally 1 hour.",
    "Slice the second onion into thin rings, cut the tomatoes into slices and finely chop the fresh hot pepper if using. Set these aside for serving.",
-   "Thread 4 to 5 pieces of lamb onto each skewer, leaving a little space between them.",
+   "Thread 4 pieces of lamb onto each skewer, leaving a little space between them.",
    "Heat a charcoal or gas grill to medium-high (about 200 °C).",
    "Grill the skewers for 10 to 14 minutes, turning occasionally, until the meat is browned outside and reaches about 63 °C inside.",
    "Brush the skewers with the leftover marinade while they cook to keep them moist and flavourful.",
@@ -75,5 +75,13 @@
   "tr": "Daha yumuşak sonuç için omuz eti tercih edin ve etleri en az bir saat marine edin; ızgarada fazla çevirmemek kenarların kurumasını önler.",
   "en": "Choose shoulder for the most tender result, and marinate for at least an hour. Avoid turning the skewers too often on the grill so the edges brown without drying out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "12 skewers at 4-5 pieces each (48-60 cubes) doesn't match 800 g of 3 cm cubes (about 30 cubes). Reduced to 8 skewers with 4 pieces each, in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

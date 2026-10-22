@@ -31,7 +31,8 @@
    "20 g taze kişniş yaprağı",
    "2 adet taze soğan",
    "1-2 adet kırmızı biber, dilim dilim",
-   "2 yemek kaşığı tatlı acı biber sosu"
+   "2 yemek kaşığı tatlı acı biber sosu",
+   "1 çay kaşığı su (ezme için, gerekirse)"
   ],
   "en": [
    "4 short baguette pieces (about 15 cm, 80 g each, 320 g total)",
@@ -52,7 +53,8 @@
    "20 g fresh cilantro leaves",
    "2 spring onions",
    "1-2 red chilies, sliced",
-   "2 tbsp sweet chili sauce"
+   "2 tbsp sweet chili sauce",
+   "1 tsp water (for the paste, if needed)"
   ]
  },
  "steps": {
@@ -60,7 +62,7 @@
    "Havucu çubuk şeklinde doğrayın. Pirinç sirkesi, 1 yemek kaşığı şeker ve tuzu bir kapta karıştırın, havucu içine atın ve 15 dakika dinlendirin.",
    "Arpacık soğanı ve sarımsağı ince doğrayın. Karaciğeri kuru bir kağıt havluyla silin ve küçük parçalara ayırın.",
    "Geniş bir tavada bitkisel yağı orta-yüksek ateşte ısıtın. Arpacık ve sarımsağı 1 dakika kavurun.",
-   "Karaciğer ve kıymayı ekleyip kızarana kadar, yaklaşık 6-8 dakika pişirin. Balık sosu, şeker ve karabiberle tatlandırın, 1 dakika daha karıştırın.",
+   "Karaciğer ve kıymayı ekleyip tamamen pişene ve kahverengileşene kadar, yaklaşık 6-8 dakika pişirin; karaciğer ve kıymanın içinde pembelik kalmamalıdır. Balık sosu, şeker ve karabiberle tatlandırın, 1 dakika daha karıştırın.",
    "Karışımı ocaktan alıp soğumaya bırakın. Ardından blenderdan geçirerek pürüzsüz bir ezme elde edin ve gerekirse 1 çay kaşığı su ekleyin.",
    "Fırını 180°C'ye ısıtın. Baget parçalarını 5 dakika ısıtarak kabuğunu çıtırlaştırın, ardından yan tarafından uzunlamasına ikiye kesin, ancak tamamen ayırmayın.",
    "Ekmeğin iç yüzlerine mayonezi sürün, ardından karaciğer ezmesini eşit şekilde yayın.",
@@ -71,7 +73,7 @@
    "Cut the carrot into thin matchsticks. In a bowl, mix the rice vinegar, 1 tbsp sugar and salt, add the carrot and let it sit for 15 minutes.",
    "Finely chop the shallots and garlic. Pat the liver dry with kitchen paper and cut it into small pieces.",
    "Heat the vegetable oil in a wide pan over medium-high heat. Fry the shallots and garlic for 1 minute.",
-   "Add the liver and ground pork and cook until browned, about 6-8 minutes. Season with fish sauce, sugar and black pepper, then stir for 1 more minute.",
+   "Add the liver and ground pork and cook until fully cooked and browned, about 6-8 minutes; no pink should remain in the liver or the pork. Season with fish sauce, sugar and black pepper, then stir for 1 more minute.",
    "Remove from the heat and let cool. Blend until smooth, adding 1 tsp water if needed to get a spreadable paste.",
    "Heat the oven to 180°C. Warm the baguette pieces for 5 minutes to crisp the crust, then split each one lengthwise without cutting all the way through.",
    "Spread mayonnaise on the inside of the bread, then spread a generous layer of the liver pâté.",
@@ -80,8 +82,17 @@
   ]
  },
  "tip": {
-  "tr": "Karaciğeri aşırı pişirmeyin; hafif pembe iç kısmı ezmeyi yumuşak tutar. Ezme soğumadan blenderlamayın, aksi halde kıvamı sulanır.",
-  "en": "Do not overcook the liver; a slightly pink centre keeps the pâté soft. Let the mixture cool slightly before blending or it may turn runny."
+  "tr": "Karaciğeri aşırı pişirmeyin ama tamamen pişirin; pembelik kalmamalıdır. Ezme soğumadan blenderlamayın, aksi halde kıvamı sulanır.",
+  "en": "Cook the liver until fully done but not overcooked; no pink should remain. Let the mixture cool slightly before blending or it may turn runny."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip and step 4 allow pink pork liver and ground pork, which is a food-safety risk. Pork must be cooked through (about 71°C internal), so 'slightly pink centre' is wrong.",
+   "Step 5 adds 1 tsp water, but water is not in the ingredient list (TR and EN)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

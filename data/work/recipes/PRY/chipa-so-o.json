@@ -59,8 +59,8 @@
    "Sıvı yağı ve 1/2 çay kaşığı tuzu süte ekleyip kısık ateşte, kaynamadan yaklaşık 3 dakika ısıtın.",
    "Nişastayı ve mısır unu bir kaseye alın, sıcak sütlü karışımı üzerine dökün ve tahta kaşıkla kabuklu bir hamur oluncaya kadar karıştırın. 5 dakika soğumaya bırakın.",
    "Rendelenmiş peyniri ve yumurtaları ekleyip pürüzsüz, hafif yapışkan bir hamur elde edene kadar yoğurun. Üzeri örtülü olarak 10 dakika dinlendirin.",
-   "Fırını 200°C'ye ısıtın ve bir tepsiye fırın kağıdı serin.",
-   "Hamuru 8 eşit parçaya (yaklaşık 70 g) bölün. Ellerinize az yağ sürün, bir parçayı avuç içinde yassılaştırın, ortasına soğumuş harçtan 1 yemek kaşığı koyun.",
+   "Fırını 200°C'ye ısıtın ve bir tepsiye fırın kağıdı yerleştirin.",
+   "Hamuru 8 eşit parçaya (yaklaşık 110 g) bölün. Ellerinize az yağ sürün, bir parçayı avuç içinde yassılaştırın, ortasına soğumuş harçtan 2 yemek kaşığı koyun.",
    "Kenarlarını kapatıp küre haline getirin, ardından hafif oval bir halka şekli verin ve tepsiye yerleştirin.",
    "Yumurta sarısını sütle çırpın ve chipaların üzerine fırça ile sürün.",
    "20-25 dakika, üstleri altın rengi olana kadar pişirin. Sıcak servis etmeden önce 5 dakika soğumaya bırakın."
@@ -75,7 +75,7 @@
    "Put the cassava starch and cornmeal in a bowl, pour the hot milk mixture over and stir with a wooden spoon until it forms a shaggy dough. Leave to cool for 5 minutes.",
    "Add the grated cheese and eggs, then knead until smooth and slightly sticky. Cover and rest for 10 minutes.",
    "Preheat the oven to 200°C and line a baking tray with baking paper.",
-   "Divide the dough into 8 equal pieces (about 70 g each). Lightly oil your hands, flatten one piece in your palm and place 1 tbsp of the cooled filling in the centre.",
+   "Divide the dough into 8 equal pieces (about 110 g each). Lightly oil your hands, flatten one piece in your palm and place 2 tbsp of the cooled filling in the centre.",
    "Fold the edges over to seal, roll into a ball, then shape into a small oval ring and place on the tray.",
    "Whisk the egg yolk with the milk and brush over the tops of the chipa.",
    "Bake for 20-25 minutes until golden on top. Let cool for 5 minutes before serving warm."
@@ -85,5 +85,15 @@
   "tr": "Yuca nişastası hamuru çok yapışkan yapar; ellerinize ince bir tabaka yağ sürerek şekil verin ve harcın tamamen soğuduğundan emin olun.",
   "en": "Cassava starch dough is very sticky, so oil your hands lightly and make sure the filling is completely cool before wrapping."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough pieces are listed as 8 pieces of about 70 g each (560 g total), but the dough ingredients add up to roughly 870 g before the filling, so each piece should be about 110 g.",
+   "The filling uses 250 g beef plus onion and egg, but only 1 tbsp per chipa (about 8 tbsp total) is used, which leaves a large amount of filling unaccounted for. Raising it to 2 tbsp per piece uses it u",
+   "Turkish step 10 uses 'Fırın kağıdı serin', which is unnatural; 'Fırın kağıdı yerleştirin' is the correct phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

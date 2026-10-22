@@ -5,7 +5,7 @@
  },
  "native": "Шопска салата",
  "desc": {
-  "tr": "Bulgaristan'ın en tanınan salatası olan şopska, domates, salatalık ve biberin üzerine rendelenmiş beyaz sirene peyniri konularak hazırlanır. Yaz aylarında meze olarak ve ana yemeklerin yanında, özellikle Bulgar mutfağında her öğünde servis edilir.",
+  "tr": "Bulgaristan'ın en tanınan salatası olan şopska, domates, salatalık ve biberin üzerine rendelenmiş beyaz sirene peyniri konularak hazırlanır. Yaz aylarında meze olarak ve ana yemeklerin yanında, özellikle Bulgar mutfağında neredeyse her öğünde servis edilir.",
   "en": "Bulgaria's most famous salad, made with tomatoes, cucumber and peppers topped with grated white sirene cheese. It is served in summer as a meze and alongside main dishes at almost every Bulgarian meal."
  },
  "servings": 4,
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Sireneyi servis anına kadar buzdolabında tutun; sıcak salata üzerinde erimeden rendelenmesi peynirin dokusunu korur.",
+  "tr": "Sireneyi servis anına kadar buzdolabında tutun; salata servis tabağına alınmadan hemen önce rendelenmesi peynirin dokusunu korur.",
   "en": "Keep the sirene chilled until serving and grate it just before bringing the salad to the table so it keeps its texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says sirene is served at \"her öğünde\" (every meal), but the English says \"almost every\" meal. The Turkish overstates it.",
+   "Turkish tip says to grate the cheese onto a \"sıcak salata\" (warm salad), which the English does not say. The salad is not meant to be warm, so the Turkish meaning is wrong."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

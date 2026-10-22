@@ -6,7 +6,7 @@
  "native": "Sukuma wiki",
  "desc": {
   "tr": "Tanzanya'da ve Doğu Afrika'nın geneline yayılmış, kıvırcık lahananın soğan ve domatesle hafifçe pişirilmesiyle hazırlanan günlük bir yan yemektir. Genellikle ugali ile, öğle ve akşam yemeklerinde servis edilir.",
-  "en": "A everyday side dish across Tanzania and much of East Africa, where collard greens are quickly braised with onion and tomato. It is usually served with ugali at lunch or dinner."
+  "en": "An everyday side dish across Tanzania and much of East Africa, where collard greens are quickly braised with onion and tomato. It is usually served with ugali at lunch or dinner."
  },
  "servings": 4,
  "time_min": 40,
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Lahanayı pişirmeden hemen önce doğrayın; uzun süre bekletilen şeritler solar ve tadı kaybolur.",
+  "tr": "Lahanayı pişirmeden hemen önce doğrayın; uzun süre bekletilen şeritler solar ve parlak rengini ile tazeliğini kaybeder.",
   "en": "Slice the greens just before cooking; ribbons left sitting too long lose their freshness and bright colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description has a grammar error: \"A everyday\" should be \"An everyday\".",
+   "Tip mismatch: the English tip says ribbons lose freshness and bright colour, but the Turkish tip says the taste is lost."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

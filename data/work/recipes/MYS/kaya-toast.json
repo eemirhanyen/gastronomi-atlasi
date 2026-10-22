@@ -16,7 +16,7 @@
    "200 ml hindistan cevizi sütü (kıvamlı)",
    "3 büyük yumurta (yaklaşık 150 g)",
    "120 g toz şeker",
-   "1 tatlı kaşığı tuz (yaklaşık 3 g)",
+   "1/2 tatlı kaşığı tuz (yaklaşık 3 g)",
    "3 adet pandan yaprağı, düğümlenmiş",
    "8 dilim beyaz ekmek (yaklaşık 320 g)",
    "80 g oda sıcaklığında tereyağı"
@@ -25,7 +25,7 @@
    "200 ml thick coconut milk",
    "3 large eggs (about 150 g)",
    "120 g caster sugar",
-   "1 tsp salt (about 3 g)",
+   "1/2 tsp salt (about 3 g)",
    "3 pandan leaves, tied into knots",
    "8 slices white bread (about 320 g)",
    "80 g butter, at room temperature"
@@ -55,5 +55,13 @@
   "tr": "Kayayı kısık ateşte ve sürekli karıştırarak pişirin; yumurta pütürlenmesin diye süzmek önemlidir. Buzdolabında bir haftaya kadar saklanabilir.",
   "en": "Keep the heat low and stir constantly, and always strain the kaya so the eggs stay silky. It keeps in the fridge for up to a week."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed as '1 tsp (about 3 g)', which is inconsistent: a level teaspoon of fine salt weighs about 5-6 g, and 1 tsp is too much salt for a batch of sweet kaya. Corrected to 1/2 tsp (about 3 g) i"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

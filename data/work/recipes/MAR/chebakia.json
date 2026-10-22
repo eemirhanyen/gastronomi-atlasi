@@ -19,6 +19,7 @@
    "1/2 çay kaşığı öğütülmüş anason",
    "1/2 çay kaşığı öğütülmüş tarçın",
    "1 tutam safran",
+   "15 ml ılık su (safran için)",
    "1 yumurta",
    "40 g erimiş tereyağı",
    "30 ml sıvı yağ",
@@ -37,6 +38,7 @@
    "1/2 tsp ground anise",
    "1/2 tsp ground cinnamon",
    "1 pinch saffron",
+   "15 ml lukewarm water (for saffron)",
    "1 egg",
    "40 g melted butter",
    "30 ml neutral oil",
@@ -59,12 +61,12 @@
    "Susamı kuru bir tavada orta ateşte, sürekli karıştırarak 3 dakika kadar kavurun ve bir tabağa alıp soğumaya bırakın.",
    "Balı, 60 ml suyu ve tarçın çubuğunu küçük bir tencerede orta ateşte 3 dakika kaynatın; tarçın çubuğunu çıkarıp sıcak tutun.",
    "Hamuru ikiye bölün, her parçayı yaklaşık 2 mm kalınlığında dikdörtgen olacak şekilde açın.",
-   "Hamurun yüzeyini hafifçe su ile nemlendirin ve kavrulmuş susamın içine bastırın; ardından şeritlere (yaklaşık 2 cm genişliğinde, 10 cm uzunluğunda) kesin.",
+   "Hamurun yüzeyini hafifçe su ile nemlendirin, ardından şeritlere (yaklaşık 2 cm genişliğinde, 10 cm uzunluğunda) kesin.",
    "Her şeridin ortasında kısa bir yarık açın, bir ucunu bu yarıktan geçirerek çiçek formu verin.",
    "Kızartma yağını 160-170°C'ye getirin ve şekilleri her seferinde 2-3 dakika, altın rengi olana kadar kızartın.",
    "Kızartılanları süzgece alıp kağıt havlu üzerinde yağını akıtın.",
-   "Sıcak balın içine 1 dakika kadar batırın, ardından bir tel raf üzerinde soğumaya bırakın.",
-   "Soğuyunca kalan susamı üzerine serpip servis yapın."
+   "Sıcak balın içine 1 dakika kadar batırın, ardından kavrulmuş susamın tamamına bulaştırıp bir tel raf üzerinde soğumaya bırakın.",
+   "Soğuyunca servis yapın."
   ],
   "en": [
    "Steep the saffron in 15 ml of lukewarm water for a few minutes.",
@@ -75,17 +77,26 @@
    "Toast the sesame seeds in a dry pan over medium heat, stirring constantly, for about 3 minutes. Transfer to a plate to cool.",
    "Simmer the honey, 60 ml water and cinnamon stick in a small pan over medium heat for 3 minutes; remove the cinnamon stick and keep the syrup warm.",
    "Divide the dough in half and roll each piece into a rectangle about 2 mm thick.",
-   "Lightly dampen the surface with water, press in the toasted sesame, then cut into strips about 2 cm wide and 10 cm long.",
+   "Lightly dampen the surface with water, then cut into strips about 2 cm wide and 10 cm long.",
    "Make a short slit in the middle of each strip, then pass one end through the slit to form a rose shape.",
    "Heat the frying oil to 160-170°C and fry the shapes 2-3 minutes at a time until golden.",
    "Lift them out with a slotted spoon and drain on kitchen paper.",
-   "Dip the warm fried pieces in the warm honey syrup for about 1 minute, then place on a wire rack to cool.",
-   "Once cooled, sprinkle with any remaining sesame and serve."
+   "Dip the warm fried pieces in the warm honey syrup for about 1 minute, then roll them in the toasted sesame to coat and place on a wire rack to cool.",
+   "Once cooled, serve."
   ]
  },
  "tip": {
   "tr": "Hamuru yağlı ve esnek tutmak için yoğurduktan sonra bekletin; kızartma sırasında yağ sıcaklığını ölçerek ayarlayın, aksi halde şekiller yağ çeker.",
   "en": "Rest the dough fully so it rolls thin without tearing, and keep the oil at a steady 160-170°C; if it is too hot the outside browns before the inside cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The saffron step uses 15 ml lukewarm water, but no such quantity appears in the ingredient lists (the 60-80 ml is for the dough).",
+   "Toasted sesame is pressed into the dough before frying. Traditional chebakia is coated in sesame after it is dipped in honey, so this is a technique error and it also makes the final sesame step redun"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,10 +6,10 @@
  "native": "Sauce au soumbala",
  "desc": {
   "tr": "Burkina Faso'da tô adı verilen mısır ya da darı hamurunun yanında servis edilen, fermente néré tohumu soumbala ile tatlandırılmış koyu bir et sosudur. Özellikle günlük öğünlerde ve aile toplantılarında sık yapılır.",
-  "en": "A rich meat sauce from Burkina Faso, seasoned with fermented néré seed soumbala, and served with tô, a stiff millet or sorghum porridge. It is a everyday family dish, often cooked for shared meals and gatherings."
+  "en": "A rich meat sauce from Burkina Faso, seasoned with fermented néré seed soumbala, and served with tô, a stiff millet or sorghum porridge. It is an everyday family dish, often cooked for shared meals and gatherings."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 135,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -53,7 +53,7 @@
    "Soğanları ekleyip ara ara karıştırarak 6 dakika, yumuşayıp hafif altın rengi alana kadar pişirin.",
    "Sarımsak, zencefil, domates, domates salçası ve acı biberi ekleyin. Domatesler dağılıp yağ salçanın etrafından ayrılana kadar 5 dakika pişirin.",
    "Soumbalayı 100 ml ılık suda ezerek çözün, fıstık ezmesiyle birlikte tencereye ekleyin. Karıştırın.",
-   "1 litre suyu ekleyin, kaynamaya bırakın. Ateşi kısın, kapağını kapatıp et yumuşayana kadar yaklaşık 45 dakika kaynatın. Gerekirse az su ekleyin.",
+   "1 litre suyu ekleyin, kaynamaya bırakın. Ateşi kısın, kapağını kapatıp et yumuşayana kadar yaklaşık 90 dakika kaynatın. Gerekirse az su ekleyin.",
    "Bamyaları ekleyip kapağı açık olarak 15 dakika daha pişirin, sos biraz koyulaşsın.",
    "Karabiber ve tuzu ekleyin, tadına bakıp gerekirse ayarlayın. Sıcak tô veya pirinçle servis edin."
   ],
@@ -62,7 +62,7 @@
    "Add the onions and cook for about 6 minutes, stirring now and then, until soft and lightly golden.",
    "Add the garlic, ginger, tomatoes, tomato paste and chili. Cook for 5 minutes, until the tomatoes break down and the oil separates from the paste.",
    "Dissolve the soumbala in the 100 ml warm water, mashing it well, then add it to the pot with the peanut paste. Stir to combine.",
-   "Pour in the 1 litre of water and bring to a boil. Reduce the heat, cover, and simmer for about 45 minutes, until the meat is tender. Add a little water if the sauce gets too thick.",
+   "Pour in the 1 litre of water and bring to a boil. Reduce the heat, cover, and simmer for about 90 minutes, until the meat is tender. Add a little water if the sauce gets too thick.",
    "Add the okra and cook uncovered for 15 more minutes, until the sauce thickens slightly.",
    "Season with black pepper and salt, taste, and adjust. Serve hot with tô or rice."
   ]
@@ -71,5 +71,14 @@
   "tr": "Soumbalanın kokusu çok güçlüdür; önce az miktarla başlayıp tadına bakarak artırın ve sıcak suda iyice ezerek çözdüğünüzden emin olun.",
   "en": "Soumbala has a very strong, pungent smell; start with a small amount, taste as you go, and make sure it is fully dissolved in warm water before adding it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Simmer time of about 45 minutes is too short for beef chuck or shin cubes to become tender, in both the Turkish and English steps. Total time was adjusted to match.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

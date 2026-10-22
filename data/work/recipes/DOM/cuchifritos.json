@@ -5,24 +5,24 @@
  },
  "native": "Cuchifritos",
  "desc": {
-  "tr": "Dominik Cumhuriyeti'nde ve Porto Riko'da sokak yiyeceği ve bar atıştırmalığı olarak bilinen, turunçgil, sarımsak ve kekikle marine edilip derin yağda kızartılmış domuz eti parçalarıdır. Genellikle hafta sonları ve arkadaş toplantılarında, limon dilimleriyle sıcak sıcak servis edilir.",
+  "tr": "Dominik Cumhuriyeti'nde ve Porto Riko'da sokak yiyeceği ve bar atıştırmalığı olarak bilinen, turunçgil, sarımsak ve kekikle marine edilip derin yağda kızartılmış domuz eti parçalarıdır. Genellikle hafta sonları ve arkadaş toplantılarında, misket limonu dilimleriyle sıcak sıcak servis edilir.",
   "en": "A fried pork snack from the Dominican Republic, also popular in Puerto Rico, where pieces of pork are marinated in sour orange, garlic and oregano, then deep-fried until crisp. It is eaten hot from street stalls and bars, often at weekends and social gatherings, with lime wedges."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "600 g kemiksiz domuz omzu, 2 cm'lik küpler halinde",
    "150 g domuz derisi, 3 cm'lik parçalar halinde",
-   "60 ml ekşi portakal suyu (yoksa 30 ml limon suyu ve 30 ml portakal suyu)",
+   "60 ml ekşi portakal suyu (yoksa 30 ml misket limonu suyu ve 30 ml portakal suyu)",
    "4 diş sarımsak, ezilmiş",
    "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1 çay kaşığı öğütülmüş kimyon",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı çekilmiş karabiber",
    "500 ml kızartma yağı",
-   "1 limon, dilimlenmiş (servis için)"
+   "1 misket limonu, dilimlenmiş (servis için)"
   ],
   "en": [
    "600 g boneless pork shoulder, cut into 2 cm cubes",
@@ -44,8 +44,8 @@
    "Marine edilmiş etleri süzün ve fazla sıvıyı kağıt havluyla alın. Bu, kızartma sırasında sıçramayı önler.",
    "Derin ve kalın tabanlı bir tavada 500 ml kızartma yağını yaklaşık 180°C'ye kadar ısıtın.",
    "Etleri küçük partiler halinde, tavayı kalabalık etmeden yağa bırakın. Altın rengi alana ve içi tamamen pişene kadar yaklaşık 6-8 dakika kızartın. Süzgeçli kepçeyle çıkarıp kağıt havlu serili bir tabağa alın.",
-   "Kurutulmuş domuz derisi parçalarını aynı yağda 3-4 dakika, kabarıp çıtır olana kadar kızartın. Onlar da süzülmek üzere kağıt havluya alınsın.",
-   "Kızarmış etleri ve derileri servis tabağına alın, hafifçe tuzlayın ve limon dilimleriyle birlikte sıcak sıcak servis edin."
+   "Haşlanıp kurutulmuş domuz derisi parçalarını aynı yağda 3-4 dakika, kabarıp çıtır olana kadar kızartın. Onlar da süzülmek üzere kağıt havluya alınsın.",
+   "Kızarmış etleri ve derileri servis tabağına alın, hafifçe tuzlayın ve misket limonu dilimleriyle birlikte sıcak sıcak servis edin."
   ],
   "en": [
    "Put the pork shoulder cubes in a large bowl. Add the sour orange juice, crushed garlic, oregano, cumin, salt and black pepper, and mix well. Cover and marinate in the fridge for at least 1 hour.",
@@ -61,5 +61,15 @@
   "tr": "Etleri kızartmadan önce iyice kurulayın; nemli et yağda sıçrar ve kızartmayı eşitsiz yapar.",
   "en": "Dry the pork thoroughly before frying; wet meat splatters and fries unevenly. If sour orange is unavailable, the lime and orange juice mix works well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses \"limon\" (lemon) for the serving citrus and the substitute juice, but the English says lime. Turkish should say \"misket limonu\".",
+   "Turkish step 6 calls the pork skin \"kurutulmuş\" (dried), but the skin is boiled first, as the English says. It should read \"haşlanıp kurutulmuş\".",
+   "time_min of 60 is too low: the marinade alone takes at least 1 hour, plus about 20 minutes of simmering the skin and frying."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

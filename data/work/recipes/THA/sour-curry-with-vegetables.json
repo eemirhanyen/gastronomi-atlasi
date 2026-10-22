@@ -58,7 +58,7 @@
  "steps": {
   "tr": [
    "Kuru kırmızı biberleri suyundan süzün, çekirdeklerini çıkarıp doğrayın.",
-   "Havanda arpacık soğanı, sarımsağı, zerdeçal kökünü, limon otunu, karides ezmesini ve tuzu ezerek pürüzsüz bir köri macunu hazırlayın.",
+   "Havanda kuru kırmızı biberi, arpacık soğanı, sarımsağı, zerdeçal kökünü, limon otunu, karides ezmesini ve tuzu ezerek pürüzsüz bir köri macunu hazırlayın.",
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın, macunu ekleyip 2 dakika kokusu çıkana kadar kavurun.",
    "Suyu ekleyip kaynatın, balkabağını ekleyerek 8 dakika kısık ateşte pişirin.",
    "Tamarind suyunu, palmiye şekerini ve balık sosunu ekleyip karıştırın, tatları dengeleyin.",
@@ -68,7 +68,7 @@
   ],
   "en": [
    "Drain the soaked dried chillies, remove the seeds and chop them.",
-   "Pound the shallots, garlic, turmeric, lemongrass, shrimp paste and salt in a mortar to a smooth curry paste.",
+   "Pound the chopped dried chillies, shallots, garlic, turmeric, lemongrass, shrimp paste and salt in a mortar to a smooth curry paste.",
    "Heat the oil in a wide pot over medium-high heat, add the paste and fry for 2 minutes until fragrant.",
    "Add the water, bring to a boil, then add the squash and simmer gently for 8 minutes.",
    "Stir in the tamarind water, palm sugar and fish sauce, and adjust the balance of sour, salty and sweet.",
@@ -81,5 +81,14 @@
   "tr": "Tamarind ekşiliği tatlı ve tuzlu dengeye göre ayarlanmalıdır; son tadımda limonla değil, tamarind veya balık sosuyla düzeltin.",
   "en": "Adjust the sourness at the end: add a little more tamarind for sharpness or fish sauce for depth, since the flavour should balance sour, salty and sweet."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dried red chillies are listed in the ingredients and prepared in step 1, but they are never added to the curry paste in step 2 (or anywhere else), so an ingredient is unused. Chillies are also a defin",
+   "The same omission appears in the Turkish version, which has the same mismatch."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,10 +6,10 @@
  "native": "empanada (Paraguayan Spanish)",
  "desc": {
   "tr": "Paraguay'da her gün, özellikle öğle saatlerinde ve hafta sonu pazarlarında atıştırmalık olarak yenen, kıymalı ve zeytinli kıtır hamur işi. Sokak tezgâhlarında ve fırınlarda sıcak sıcak satılır.",
-  "en": "A savory baked pastry eaten across Paraguay as a everyday snack, especially at lunchtime and at weekend markets. It is sold hot from street stalls and bakeries."
+  "en": "A savory baked pastry eaten across Paraguay as an everyday snack, especially at lunchtime and at weekend markets. It is sold hot from street stalls and bakeries."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -51,8 +51,8 @@
    "Yumurtayı ve ılık suyu azar azar ekleyip yaklaşık 5 dakika yoğurun. Hamuru streç film ile sarıp oda sıcaklığında 20 dakika dinlendirin.",
    "Bu sırada iç harcı hazırlayın. Yağı orta ateşte bir tavada ısıtın, soğanı yumuşayana kadar yaklaşık 6-7 dakika kavurun.",
    "Kıymayı ekleyip çatalla ayırarak yaklaşık 8 dakika, rengi değişene kadar pişirin. Tatlı kırmızı biber, kimyon ve tuzu ekleyip ocaktan alın.",
-   "Harcı yaklaşık 10 dakika soğumaya bırakın. Ardından doğranmış haşlanmış yumurta ve dilimlenmiş zeytinleri karıştırın.",
-   "Fırını 200°C'ye ısıtın ve bir fırın tepsisine pişirme kağıdı serin.",
+   "Harcın tamamen soğuması için yaklaşık 20 dakika bekleyin. Ardından doğranmış haşlanmış yumurta ve dilimlenmiş zeytinleri karıştırın.",
+   "Fırını 200°C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı yaklaşık 14 cm çapında ince bir daire halinde açın.",
    "Her hamur dairesinin bir yarısına yaklaşık 2 yemek kaşığı (30 g) harç koyun, kenarları boş bırakın. Hamuru ikiye katlayıp kenarları çatal ile bastırarak kapatın.",
    "Empanadaları tepsiye dizin. Yumurta sarısını sütle çırpıp üzerlerine sürün.",
@@ -63,7 +63,7 @@
    "Add the egg and warm water little by little and knead for about 5 minutes. Wrap the dough in cling film and rest it at room temperature for 20 minutes.",
    "Meanwhile, make the filling. Heat the oil in a pan over medium heat and fry the onion for 6-7 minutes until soft.",
    "Add the ground beef and cook for about 8 minutes, breaking it up with a fork, until no longer pink. Stir in the paprika, cumin and salt, then remove from the heat.",
-   "Let the filling cool for about 10 minutes. Then mix in the chopped hard-boiled egg and sliced olives.",
+   "Let the filling cool completely, about 20 minutes. Then mix in the chopped hard-boiled egg and sliced olives.",
    "Preheat the oven to 200°C and line a baking tray with baking paper.",
    "Divide the dough into 8 equal pieces. Roll each into a thin circle about 14 cm across.",
    "Spoon about 2 tablespoons (30 g) of filling onto one half of each circle, leaving a border. Fold the dough over and press the edges together, crimping them with a fork.",
@@ -75,5 +75,16 @@
   "tr": "Harcın soğumasını bekleyin; sıcak iç harç hamurun yırtılmasına ve kenarların açılmasına neden olur.",
   "en": "Let the filling cool fully before assembling; hot filling makes the dough tear and the edges open in the oven."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cooling time is inconsistent with the tip: the steps say to cool the filling about 10 minutes, but the tip says to let it cool fully before assembling. Hot filling tears the dough, so the step should ",
+   "Total time of 60 minutes is too short for the listed steps (about 5 min kneading, 20 min rest, 25+ min filling and cooling, assembly, 20-22 min baking).",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'.",
+   "Turkish step 6 'pişirme kağıdı serin' is an awkward way to say the tray should be lined with baking paper."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

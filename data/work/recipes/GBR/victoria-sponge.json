@@ -8,7 +8,7 @@
   "tr": "İngiltere'de çay saatinde yenen, reçel ve krema arasına konmuş hafif bir sünger kektir. Viktorya dönemi ev mutfaklarında ortaya çıkmış ve bugün İngiliz pastanelerinin en sevilen klasiklerinden biri olmuştur.",
   "en": "A light sponge cake filled with jam and cream, traditionally served at afternoon tea in England. It takes its name from Queen Victoria, who was known to enjoy it in the 19th century, and it remains a staple of British home baking."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -65,5 +65,13 @@
   "tr": "Tereyağı ve yumurtaların oda sıcaklığında olması, hamurun pürüzsüz kalmasını ve kekin eşit kabarmasını sağlar.",
   "en": "Make sure the butter and eggs are at room temperature; cold ingredients cause the batter to curdle and give an uneven rise."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) is implausible for the quantities: two 18 cm sponges with about 100 ml cream and 3 tbsp jam yield roughly 8 slices. The Turkish and English versions both need the same correction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

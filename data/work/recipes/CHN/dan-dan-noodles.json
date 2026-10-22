@@ -59,7 +59,7 @@
   "tr": [
    "Sichuan karabiberini kuru bir tavada 2 dakika, koku çıkana kadar kavurun. Soğuduktan sonra ince öğütün.",
    "Büyük bir tencere tuzlu suyu kaynatın. Pak choi'yi 1 dakika haşlayıp süzün, parçalara ayırıp kenara alın.",
-   "Aynı suda eriştyi paket talimatına göre al dente pişirin. Süzün, kısa süre soğuk suyun altında yıkayıp dört kaseye bölün.",
+   "Aynı suda erişteyi paket talimatına göre al dente pişirin. Süzün, kısa süre soğuk suyun altında yıkayıp dört kaseye bölün.",
    "Susam ezmesini bir kapta 60 ml sıcak tavuk suyuyla pürüzsüz olana kadar çırpın. Kalan suyu, açık ve koyu soya sosunu, sirkeyi, şekeri, acı biber yağını ve öğütülmüş karabiberin yarısını ekleyip karıştırın.",
    "Sosu dört kaseye eşit paylaştırın.",
    "Geniş bir wokta yağı orta-yüksek ateşte ısıtın. Kıymayı ekleyip kızarana ve dağılana kadar kavurun. Shaoxing şarabını ekleyip kenara itin.",
@@ -78,8 +78,17 @@
   ]
  },
  "tip": {
-  "tr": "Sosu kasede hazırlamak, eriştenin altında kalan sosun yemeğin tadını dengelemesini sağlar; yemeden önce mutlaka iyice karıştırın.",
-  "en": "Mix the sauce into the bottom of each bowl before adding the noodles, and toss everything together just before eating so the sesame sauce coats every strand."
+  "tr": "Sosu kaselerin altında hazırlayıp erişteyi üzerine ekledikten sonra, yemeden hemen önce her şeyi iyice karıştırın; böylece susam sosu her teli kaplar.",
+  "en": "Once the sauce is in the bowls and the noodles are on top, toss everything together just before eating so the sesame sauce coats every strand."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 has a typo: \"eriştyi\" should be \"erişteyi\".",
+   "The tip says to put the sauce in the bowl before adding the noodles, but the steps add the noodles to the bowls first (step 3) and then divide the sauce (step 5). The tip is changed to match the steps"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A sweet, cold drink made from dried peaches, popular in the Andean highlands of Bolivia, especially on warm days. It is served with meals or as an afternoon refreshment."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 345,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Kükürtsüz kurutulmuş şeftali kullanın; bu, şeftalinin doğal rengini ve tadını korur ve içeceğin daha koyu, karamelimsi bir renk almasını sağlar.",
-  "en": "Use sulphur-free dried peaches; they keep the natural colour and flavour, giving the drink a deeper, caramel-like tone."
+  "tr": "Kükürtsüz kurutulmuş şeftali kullanın; bu, şeftalinin doğal tadını korur ve içeceğe daha koyu, karamelimsi bir renk verir. Kükürtlü şeftaliler ise daha parlak turuncu bir renk verir.",
+  "en": "Use sulphur-free dried peaches; they keep the natural flavour and give the drink a deeper, caramel-like colour. Sulphured peaches give a brighter orange colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires a 2-hour soak, about 40 minutes of cooking, a cooling period, and at least 2 hours of chilling, so the total time is understated.",
+   "The tip says sulphur-free peaches keep the natural colour and also give a darker, caramel-like colour. These claims contradict each other. Sulphur-free peaches darken, and sulphured peaches stay brigh"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

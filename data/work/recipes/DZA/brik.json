@@ -47,7 +47,7 @@
    "Soğuyan soğanı bir kasede tonbalık, maydanoz, harissa, tuz ve karabiberle iyice karıştırın.",
    "Tezgâha bir yufka serin ve ortasına bir kepçe dolusu tonbalık karışımı koyun. Ortasında hafif bir çukur açın.",
    "Yumurtayı kırıp çukurun içine, sarısı bozulmadan koyun.",
-   "Yufkanın kenarlarını un-su karışımıyla hafifçe sürün, yufkayı ikiye katlayıp yarım ay ya da üçgen şekli verin ve kenarları iyice kapatın. İkinci yufkayı da aynı şekilde kat ve birinci yufkanın üzerine sararak sarın ya da ikinci bir yufkayla kaplayın ki brik sağlam kalsın.",
+   "Yufkanın kenarlarını un-su karışımıyla hafifçe sürün, yufkayı ikiye katlayıp yarım ay ya da üçgen şekli verin ve kenarları iyice kapatın. İkinci yufkayı da aynı şekilde katlayın ve birinci yufkanın üzerine sararak kenarlarını iyice kapatın ki brik sağlam kalsın.",
    "Kızartma yağını derin bir tencerede 170-180°C'ye kadar ısıtın.",
    "Briki yağa dikkatlice bırakın ve her iki yüzü 2-3 dakika, altın rengi olana kadar kızartın. Yumurta akı tamamen pişmeli, sarısı ise hafif akışkan kalmalıdır.",
    "Briki kağıt havlu üzerine alıp yağını süzdürün ve hemen limon dilimleriyle servis edin."
@@ -67,5 +67,13 @@
   "tr": "Yufkaların kurumasını önlemek için kullanmadığınız sayfaları nemli bir bezle örtün; yumurta sarısının akmaması için yufkayı dikkatli ve hızlı şekillendirin.",
   "en": "Keep unused brik sheets covered with a damp cloth so they do not dry and crack, and work quickly so the yolk stays intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 offers two alternatives ('sararak sarın ya da ikinci bir yufkayla kaplayın'), while the English gives one method (wrap with a second sheet, sealing the same way). The versions disagree "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "نان نخودچی",
  "desc": {
-  "tr": "İran'da Nevruz ve Nowruz bayramlarında misafirlere ikram edilen, kakule ve gül suyu kokulu, nohut unlu geleneksel bir kurabiyedir. Genellikle çay yanında servis edilir.",
+  "tr": "İran'da Nevruz bayramında ve misafirlere çay eşliğinde ikram edilen, kakule ve gül suyu kokulu, nohut unlu geleneksel bir kurabiyedir.",
   "en": "A traditional Iranian cookie flavoured with cardamom and rosewater, served to guests during Nowruz and at tea time. Its chickpea flour gives it a sandy, crumbly texture."
  },
  "servings": 4,
@@ -18,7 +18,7 @@
    "120 g pudra şekeri",
    "150 g tereyağı (oda sıcaklığında)",
    "1 yumurta sarısı",
-   "2 g öğütülmüş kakule (yaklaşık 1/2 çay kaşığı)",
+   "2 g öğütülmüş kakule (yaklaşık 1 çay kaşığı)",
    "2 g kabartma tozu",
    "1 g tuz (bir tutam)",
    "15 ml gül suyu",
@@ -31,7 +31,7 @@
    "120 g icing sugar",
    "150 g butter, at room temperature",
    "1 egg yolk",
-   "2 g ground cardamom (about 1/2 tsp)",
+   "2 g ground cardamom (about 1 tsp)",
    "2 g baking powder",
    "1 g salt (a pinch)",
    "15 ml rosewater",
@@ -64,8 +64,19 @@
   ]
  },
  "tip": {
-  "tr": "Geleneksel tadı için tereyağı yerine aynı miktarda sade yağ (ghee) kullanabilirsiniz; kurabiyeler soğudukça sertleşeceği için fırından çıkınca hemen yumuşak olduklarından emin olun.",
+  "tr": "Geleneksel tadı için tereyağı yerine aynı miktarda sade yağ (ghee) kullanabilirsiniz; kurabiyeler soğudukça sertleşeceği için fırından çıktıklarında henüz yumuşak olmaları gerekir.",
   "en": "For a more traditional flavour, replace the butter with the same weight of ghee. The cookies firm up as they cool, so remove them from the oven when the edges are only just golden."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cardamom: 2 g is about 1 tsp of ground cardamom, not 1/2 tsp (about 1 g). The tr and en ingredient lines both need the correction.",
+   "Turkish step 7 uses the unnatural phrase 'bir yarım antep fıstığı'; it should read 'yarım antep fıstığı'.",
+   "Turkish description repeats the same holiday as 'Nevruz ve Nowruz', which is redundant.",
+   "Turkish tip sentence about the cookies being soft when they leave the oven is awkwardly worded."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

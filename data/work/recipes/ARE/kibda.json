@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Ciğeri fazla pişirmek sertleşmesine yol açar; iç kısmı hafif pembe kalacak şekilde servis edin ve sıcak khubz ekmeğiyle ikram edin.",
-  "en": "Overcooked liver turns tough and grainy, so take it off the heat while the centre is still slightly pink. Serve with warm flatbread."
+  "tr": "Ciğeri fazla pişirmek sertleşmesine ve kum gibi dokuda olmasına yol açar; pembeliği kaybolunca hemen ocaktan alın ve sıcak khubz ekmeğiyle ikram edin.",
+  "en": "Overcooked liver turns tough and grainy, so take it off the heat as soon as the pink colour disappears. Serve with warm flatbread."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to serve with the liver centre still slightly pink, but the steps say to cook until the pinkness is gone and the liver is cooked through. The tip contradicts the steps in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

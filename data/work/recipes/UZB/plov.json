@@ -19,7 +19,7 @@
    "300 g havuç (2 adet, kalın çubuk şeklinde doğranmış)",
    "1 baş sarımsak (kabuğu soyulmamış)",
    "3 g kimyon (öğütülmüş)",
-   "1 tatlı kaşığı tane kara biber (yaklaşık 2 g, öğütülmüş)",
+   "2 g kara biber (yaklaşık 1 tatlı kaşığı, öğütülmüş)",
    "6 g tuz (1 tatlı kaşığı), tadına göre ayarlanır",
    "700 ml sıcak su (200 ml zirvak için, 500 ml pirinç için)",
    "400 g uzun taneli pirinç (devzira ya da baldo tipi), yıkanmış",
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci zirvağın üzerine karıştırmadan yaymak, pilavın tanelerinin dağılmasını ve altta tencerenin dibine yapışmasını önler; ateşi kısıp kapağı sıkı kapattığınızdan emin olun.",
+  "tr": "Pirinci zirvağın üzerine karıştırmadan yaymak, pilavın tanelerinin dağılmasını önler; ateşi kısıp kapağı sıkı kapattığınızdan emin olun. Bu sayede pirinçler eşit buharda pişer ve altta pişmiş pilav tabanı hafif bir kabuk oluşturur, yanmaz.",
   "en": "Spread the rice without stirring and keep the lid tightly sealed on very low heat so the grains steam evenly and the bottom forms a light crust without burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'tane kara biber' (whole peppercorns) but also 'öğütülmüş' (ground), and the English says ground black pepper. Turkish should say ground pepper.",
+   "Turkish tip says the rice layer prevents sticking to the pot bottom, but the English tip says the bottom should form a light crust. The Turkish tip should describe the intended light crust."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -32,7 +32,8 @@
    "1 yemek kaşığı tatlı koyu soya sosu (kicap manis)",
    "1 yemek kaşığı açık soya sosu",
    "1 tatlı kaşığı şeker",
-   "1 tatlı kaşığı tuz"
+   "1 tatlı kaşığı tuz",
+   "3 yemek kaşığı su"
   ],
   "en": [
    "400 g fresh yellow egg noodles (mee kuning)",
@@ -54,7 +55,8 @@
    "1 tbsp sweet soy sauce (kicap manis)",
    "1 tbsp light soy sauce",
    "1 tsp sugar",
-   "1 tsp salt"
+   "1 tsp salt",
+   "3 tbsp water"
   ]
  },
  "steps": {
@@ -83,5 +85,13 @@
   "tr": "Sosu kısık ateşte pişirin ki patatesler dibe yapışmasın; erişteleri kesinlikle fazla haşlamayın, aksi halde yumuşayıp dağılır.",
   "en": "Simmer the gravy gently so the potato does not catch on the base, and blanch the noodles only briefly so they stay springy rather than soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 uses 3 tbsp (yemek kaşığı) of water for the paste, but water is missing from the ingredient list in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

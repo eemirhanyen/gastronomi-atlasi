@@ -5,11 +5,11 @@
  },
  "native": "مكبوس",
  "desc": {
-  "tr": "Umman ve Körfez mutfaklarının en yaygın ana yemeklerinden olan Mahbus, baharatlı etin üzerine pişirilen safranlı-baharatlı pilavdır. Özellikle aile toplantılarında, bayramlarda ve misafir ağırlamada, genellikle ayran veya taze salata ile birlikte servis edilir.",
+  "tr": "Umman ve Körfez mutfaklarının en yaygın ana yemeklerinden olan Mahbus, baharatlı etin üzerine pişirilen safranlı-baharatlı pilavdır. Özellikle aile toplantılarında, bayramlarda ve misafir ağırlamada, genellikle taze domates-limon salatası daqoos ile birlikte servis edilir.",
   "en": "Machboos is one of the most widely eaten main dishes in Oman and the Gulf, a spiced meat cooked with aromatic rice. It is typically served at family gatherings, Eid celebrations and when guests visit, with a fresh tomato-lime salsa called daqoos."
  },
  "servings": 4,
- "time_min": 70,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -97,7 +97,17 @@
  },
  "tip": {
   "tr": "Lamb (kuzu) kullanmak istiyorsanız, 800 g kuzu eti ile birlikte 1 saat 15 dakika pişirin; sıvıyı 1 litreye çıkarın. Servisten önce pilavı tencereden çıkarmak yerine tencerede dinlendirmek daha iyi sonuç verir.",
-  "en": "For lamb, use 800 g bone-in lamb and simmer it for about 1 hour 15 minutes before adding the rice, increasing the broth to 1 litre. Dinlendirme sırasında pilavı tencerede bırakmak, pirincin daha dengeli kabarmasını sağlar."
+  "en": "For lamb, use 800 g bone-in lamb and simmer it for about 1 hour 15 minutes before adding the rice, increasing the broth to 1 litre. Resting the rice in the pot before serving, rather than removing it, gives a more evenly fluffed result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English tip contains an untranslated Turkish sentence (\"Dinlendirme sırasında...\").",
+   "Turkish description says Mahbus is served with ayran or fresh salad, but the English description names daqoos. The versions disagree, and daqoos is not in the ingredients or steps.",
+   "time_min (70) is too short for the listed steps: 30 min soaking plus about 80 min of active and cooking time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

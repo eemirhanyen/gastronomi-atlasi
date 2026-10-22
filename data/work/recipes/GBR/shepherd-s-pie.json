@@ -5,7 +5,7 @@
  },
  "native": "Shepherd's pie",
  "desc": {
-  "tr": "İngiltere'nin geleneksel ev yemeklerinden olan bu fırın yemeğinde kuzu kıymalı sebzeli bir sos, üzerinde tereyağlı patates püresiyle birlikte pişirilir. Özellikle soğuk kış günlerinde ve pazar yemeklerinde İngiltere ve İrlanda'da sık sık yenir.",
+  "tr": "İngiltere'nin geleneksel ev yemeklerinden olan bu fırın yemeğinde kuzu kıymalı sebzeli bir sos, üzerinde tereyağlı patates püresiyle birlikte pişirilir. Özellikle soğuk kış günlerinde ve pazar yemeklerinde İngiltere, Galler ve İskoçya'da sık sık yenir.",
   "en": "A classic British home dish of spiced lamb mince and vegetables in a rich gravy, topped with buttery mashed potato and baked until golden. It is especially eaten on cold winter days and at Sunday family meals across England, Wales and Scotland."
  },
  "servings": 4,
@@ -81,5 +81,13 @@
   "tr": "Püreyi daha kremalı yapmak için patatesleri süzdükten sonra birkaç dakika kurutun ve sıcak sütü azar azar ekleyin.",
   "en": "For a fluffier topping, let the drained potatoes steam dry for a few minutes before mashing, and add the milk gradually while it is warm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Regional claims disagree: the Turkish description says it is eaten in England and Ireland, while the English says England, Wales and Scotland. Ireland is also outside the UK, which the dish's country "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

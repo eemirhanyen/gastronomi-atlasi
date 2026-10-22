@@ -24,7 +24,7 @@
    "150 g beyaz lahana, ince doğranmış",
    "100 g taze yeşil fasulye, uçları alınmış ve ikiye bölünmüş",
    "100 g taze fasulye filizi",
-   "3 yemek kaşığı sıvı yağ",
+   "4 yemek kaşığı sıvı yağ",
    "2 yumurta",
    "2 yemek kaşığı tatlı soya sosu (ketjap manis)",
    "1 tatlı kaşığı sambal oelek",
@@ -44,7 +44,7 @@
    "150 g white cabbage, finely shredded",
    "100 g fresh green beans, trimmed and halved",
    "100 g fresh bean sprouts",
-   "3 tbsp vegetable oil",
+   "4 tbsp vegetable oil",
    "2 eggs",
    "2 tbsp sweet soy sauce (ketjap manis)",
    "1 tsp sambal oelek",
@@ -79,5 +79,13 @@
   "tr": "Eriştenin yapışmaması için haşladıktan sonra yağla karıştırın ve tavaya eklemeden önce iyice süzün; yemeği yüksek ateşte hızlıca karıştırarak pişirin.",
   "en": "Toss the noodles in oil after boiling and drain them well so they do not clump; cook over high heat and stir quickly to keep the vegetables crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: 3 tbsp are listed, but the steps use 1 tbsp for the noodles, 1 tbsp for the chicken and 1 tbsp for the eggs, leaving none for frying the onion and garlic ('kalan yağ' / 'r"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

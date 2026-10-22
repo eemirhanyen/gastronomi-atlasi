@@ -28,7 +28,7 @@
  "steps": {
   "tr": [
    "Geniş ve kalın tabanlı bir tencerede 900 ml suyu tuzla birlikte kaynatın.",
-   "Ocağı orta-düşük ateşe alın ve kokonteununu bir seferde değil, avuç avuç kaynayan suya ekleyin.",
+   "Ocağı orta-düşük ateşe alın ve kokonte unu bir seferde değil, avuç avuç kaynayan suya ekleyin.",
    "Unu eklerken sürekli tahta bir kaşıkla karıştırarak topaklanmayı önleyin.",
    "Karışım koyulaşıp tencerenin kenarından ayrılmaya başlayınca ocağı kısın ve kapağını kapatıp 5 dakika pişmesini bekleyin.",
    "Kapağı açın, kaşıkla birkaç dakika daha güçlü bir şekilde karıştırarak hamuru pürüzsüz ve elastik hale getirin.",
@@ -49,5 +49,13 @@
   "tr": "Hamuru sıcakken yoğurun; soğuduğunda sertleşir ve pürüzsüz bir kıvam elde etmek zorlaşır.",
   "en": "Knead the dough while it is still hot, as it becomes stiff and harder to smooth once it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 contains a typo, \"kokonteununu\", which should be \"kokonte unu\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -78,9 +78,9 @@
    "Kırmızı soğanı ince dilimleyip bir kaseye koyun. Üzerine sirke, 60 ml su, 1/2 çay kaşığı tuz ve şekeri ekleyip karıştırın. Yaklaşık 20 dakika bekletin, sonra turşu suyunu süzerek ayırın.",
    "Lahanayı ince doğrayın, 1 yemek kaşığı (15 ml) turşu suyu ve bir tutam tuzla yoğurup 5 dakika dinlendirin.",
    "Geniş bir tavada yağı orta ateşte ısıtın. Soğanı ve yeşil biberi 5 dakika yumuşayana kadar soteleyin. Ezilmiş sarımsağı ekleyip 1 dakika daha pişirin.",
-   "Domatesleri ekleyin ve suyunu salıncaya kadar 5-6 dakika pişirin. Salçayı, kekiği, kimyonu ve karabiberi ekleyip 1 dakika kavurun.",
+   "Domatesleri ekleyin ve suyunu bırakana kadar 5-6 dakika pişirin. Salçayı, kekiği, kimyonu ve karabiberi ekleyip 1 dakika kavurun.",
    "Liflenmiş tavuğu ve ayırdığınız 120 ml tavuk suyunu tavaya ekleyin. Karıştırıp kısık ateşte 8 dakika pişirin, gerekirse tuz ekleyerek tadını ayarlayın.",
-   "Fırını 180°C'ye ısıtın. Bolillo ekmeklerini yatay olarak ikiye kesmeden önce 5 dakika ılık fırında hafifçe ısıtın ve ortadan açın.",
+   "Fırını 180°C'ye ısıtın. Bolillo ekmeklerini yatay olarak ikiye kesmeden önce fırında 180°C'de yaklaşık 5 dakika hafifçe ısıtın ve ortadan açın.",
    "Ekmeklerin alt yarısına marul yaprağı, domates dilimi ve lahana koyun. Üzerine tavuklu sosu ve turşulanmış kırmızı soğanı ekleyin.",
    "Mayonez, ketçap ve hardalı küçük bir kapta karıştırıp ekmeklerin üzerine gezdirin. Hemen servis yapın."
   ],
@@ -92,7 +92,7 @@
    "Heat the oil in a wide frying pan over medium heat. Cook the chopped onion and sliced green bell pepper for 5 minutes until soft. Add the crushed garlic and cook for 1 more minute.",
    "Add the diced tomatoes and cook for 5-6 minutes until they break down and release their juices. Stir in the tomato paste, oregano, cumin and black pepper and fry for 1 minute.",
    "Add the shredded chicken and the reserved 120 ml cooking liquid. Stir and simmer gently for 8 minutes, then adjust the seasoning with salt to taste.",
-   "Heat the oven to 180°C. Warm the bolillo rolls for about 5 minutes, then split them lengthwise without cutting all the way through.",
+   "Heat the oven to 180°C. Warm the bolillo rolls in the oven for about 5 minutes, then split them lengthwise without cutting all the way through.",
    "Layer lettuce leaves, tomato slices and the cabbage slaw on the bottom half of each roll. Spoon in the chicken mixture and top with the pickled red onion.",
    "Mix the mayonnaise, ketchup and mustard in a small bowl, drizzle over the filling and serve immediately."
   ]
@@ -101,5 +101,15 @@
   "tr": "Tavuğu pişirme suyunda biraz soğutup dinlendirmek, lifleri daha yumuşak ve suyunu daha iyi tutan bir iç harç verir.",
   "en": "Letting the chicken rest in its cooking liquid for a few minutes keeps the strands moist and gives a more flavourful filling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to warm the bread in a 'ılık fırında' (lukewarm oven), which contradicts the 180°C oven set in the same step. The English step does not specify an oven temperature, so the two vers",
+   "Turkish step 6 'suyunu salıncaya kadar' is unnatural. The standard phrase is 'suyunu bırakana kadar'.",
+   "English step 8 is ambiguous about how the bread is warmed; it should say 'in the oven' to match the Turkish intent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

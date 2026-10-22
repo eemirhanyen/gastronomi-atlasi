@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Türo Makarna",
+  "tr": "Túró Makarna",
   "en": "Túró Pasta"
  },
  "native": "Túrós csusza",
@@ -55,5 +55,13 @@
   "tr": "Túró karışımını asla kaynatmayın; ekşi krema ayrışır ve sos topaklanır. Bu yüzden makarnayı ateşten alıp ısıyı düşürerek karıştırın.",
   "en": "Never let the túró mixture boil, or the sour cream will split and the sauce will turn grainy. Keep the heat low and stir gently when combining."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name is misspelled as \"Türo Makarna\"; it should be \"Túró Makarna\" to match the English name and the Hungarian word túró."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

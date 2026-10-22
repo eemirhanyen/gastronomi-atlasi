@@ -46,7 +46,7 @@
    "Bir tencerede suyu, rendelenmiş paneladan, çubuk tarçını ve karanfilleri birlikte orta ateşte kaynatın.",
    "Ateşi kısın ve şurup hafifçe kıvamlanana kadar yaklaşık 15 dakika pişirin. Ocaktan alıp sıcak halde bir kenara koyun.",
    "Derin bir kapta sütü, yumurtaları, toz şekeri, vanilya özünü ve tuzu iyice çırpın.",
-   "Ekmek dilimlerini bu karışımın içinde yaklaşık 20-30 saniye bekletip hafifçe ıslatın, dağılmamasına dikkat edin.",
+   "Ekmek dilimlerini bu karışımın içinde her iki yüz için yaklaşık 20-30 saniye bekletip hafifçe ıslatın, dağılmamasına dikkat edin.",
    "Geniş bir tavada kızartma yağını 170°C'ye kadar ısıtın. Ekmek dilimlerini her iki yüzü altın rengi olana kadar kızartın.",
    "Kızaran torrejaları kağıt havluya alıp fazla yağlarını süzün.",
    "Sıcak torrejaları hazırladığınız sıcak şurubun içine alıp yaklaşık 1 dakika bekletin, şurubu iyice emmelerini sağlayın.",
@@ -67,5 +67,13 @@
   "tr": "Taze ekmek dağılabilir; bir gün önceden alınmış bayat ekmek sütlü karışımı daha iyi emer ve şurubu daha güzel tutar.",
   "en": "Fresh bread can fall apart; day-old bread absorbs the milk mixture better and holds the syrup more evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 soaking time disagrees between versions: the English says 20-30 seconds per side, but the Turkish says 20-30 seconds in total. Aligned the Turkish to the per-side timing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

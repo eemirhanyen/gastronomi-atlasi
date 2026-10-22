@@ -37,6 +37,7 @@
    "Tül bezle kaplı bir süzgeci büyük bir kaba yerleştirin. Pıhtıyı yavaşça süzgeçe dökün ve 15 dakika süzülmesini bekleyin.",
    "Bezi toplayıp bağlayın, üzerine ağır bir tabak ya da kavanoz koyarak yaklaşık 30 dakika hafifçe bastırın. Peynir sıkı bir blok haline gelmelidir.",
    "Peyniri bezden çıkarıp 2 cm'lik küpler halinde kesin. Tuz, öğütülmüş zencefil ve pul biberi küçük bir kasede karıştırın.",
+   "Küpleri kızartmadan önce en az 30 dakika buzdolabında bekletin.",
    "Kızartma yağını orta-yüksek ateşte 180°C'ye kadar ısıtın. Peynir küplerini partiler halinde 2-3 dakika, altın renk alana kadar kızartın.",
    "Küpleri kağıt havlu üzerine alıp yağını süzdürün. Sıcakken baharat karışımını serpip hemen servis edin."
   ],
@@ -47,6 +48,7 @@
    "Line a sieve with muslin cloth set over a large bowl. Ladle the curds into the cloth and let them drain for 15 minutes.",
    "Gather the cloth, tie it closed, and place a heavy plate or jar on top for about 30 minutes to press the cheese into a firm block.",
    "Unwrap the cheese and cut it into 2 cm cubes. Mix the salt, ground ginger and chili flakes in a small bowl.",
+   "Refrigerate the cubes for at least 30 minutes before frying so they hold their shape.",
    "Heat the frying oil to 180°C over medium-high heat. Fry the cheese cubes in batches for 2-3 minutes until golden brown.",
    "Drain the cubes on kitchen paper, sprinkle with the spice mixture while still hot, and serve immediately."
   ]
@@ -55,5 +57,13 @@
   "tr": "Sütü kaynatmamak önemlidir; aşırı ısınan süt sert ve lastik gibi bir peynir verir. Kızartmadan önce küpleri en az 30 dakika buzdolabında bekletmek, kesim sırasında dağılmalarını önler.",
   "en": "Do not let the milk boil, or the cheese becomes tough and rubbery. Chilling the cubes for 30 minutes before frying helps them hold their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says to chill the cubes for at least 30 minutes before frying so they hold their shape, but the steps never include this chilling stage (Turkish and English both)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

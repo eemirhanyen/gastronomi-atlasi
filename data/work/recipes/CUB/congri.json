@@ -21,7 +21,7 @@
    "4 diş sarımsak, ezilmiş",
    "15 g domates salçası",
    "1 tatlı kaşığı kimyon (2 g)",
-   "1 tatlı kaşığı kurutulmuş kekik ya da kekik benzeri kurutulmuş kekik (2 g)",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano), 2 g",
    "1 defne yaprağı",
    "1 tatlı kaşığı tuz (6 g)",
    "½ tatlı kaşığı çekilmiş karabiber",
@@ -69,5 +69,13 @@
   "tr": "Pişirme sırasında kapağı açmayın ve karıştırmayın; bu, pirincin sert kalmasını ve tencerenin altında kıvamlı bir tabaka oluşmasını sağlar.",
   "en": "Keep the lid on and do not stir during cooking; this lets the rice cook evenly and form the slightly crisp layer at the bottom that Cubans call the pegao."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish herb entry is redundant and unclear: 'kekik ya da kekik benzeri kurutulmuş kekik' repeats itself. The English says dried oregano, so the Turkish should name the same herb."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -22,7 +22,7 @@
    "1 yeşil dolmalık biber (150 g), ince doğranmış",
    "4 diş sarımsak, ezilmiş",
    "1 tatlı kaşığı öğütülmüş kimyon",
-   "1 tatlı kaşığı kurutulmuş kekik veya kekik benzeri kuru kekik (oregano)",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "1 yemek kaşığı beyaz şarap sirkesi",
    "1 tatlı kaşığı tuz ve bir tutam karabiber",
    "Servis için: 150 g haşlanmış beyaz pirinç pilavı ve 4 yemek kaşığı ince doğranmış soğan"
@@ -69,5 +69,13 @@
   "tr": "Fasulyeleri pişirme suyuyla birlikte kıvamlı bırakmak için bir kısmını ezip geri eklemek, Küba'daki gibi yoğun bir doku sağlar.",
   "en": "Mashing about a cup of the cooked beans and stirring them back in gives the soup its classic thick, creamy texture without any cream."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for the herb is redundant and confusing: 'kekik veya kekik benzeri kuru kekik (oregano)'. It should be a clear 'kurutulmuş kekik (oregano)'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

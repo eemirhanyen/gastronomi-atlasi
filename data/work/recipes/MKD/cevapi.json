@@ -5,7 +5,7 @@
  },
  "native": "Ќебапи",
  "desc": {
-  "tr": "Kuş üzümü büyüklüğünde, parmak şeklinde köfte. Kuzey Makedonya'da öğle yemeğinde ve akşamüstü sokak lezzeti olarak, genellikle lepinja ekmeği, kajmak, rendelenmiş soğan ve ajvar ile servis edilir.",
+  "tr": "Parmak şeklinde, küçük ızgara köftesi. Kuzey Makedonya'da öğle yemeğinde ve akşamüstü sokak lezzeti olarak, genellikle lepinja ekmeği, kajmak, rendelenmiş soğan ve ajvar ile servis edilir.",
   "en": "Small finger-shaped grilled minced meat patties, eaten throughout North Macedonia as a lunch or evening street food. They are typically served in lepinja flatbread with kajmak, raw onion and ajvar."
  },
  "servings": 4,
@@ -69,5 +69,13 @@
   "tr": "Karbonat, kıymanın yumuşak ve kabarık kalmasını sağlar; etin ısınmaması için suyu ve kıymayı soğuk tutun.",
   "en": "Baking soda keeps the meat light and tender, and keeping the mince and water cold prevents the fat from smearing during kneading."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the patties are 'kuş üzümü büyüklüğünde' (currant-sized), which contradicts the English description and the steps (8 cm long, 1.5 cm thick finger shapes)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1 kg bütün beyaz etli balık (çipura veya lüfer gibi), temizlenmiş, yaklaşık 4 adet 250 g",
+   "1 kg bütün beyaz etli balık (çipura veya levrek gibi), temizlenmiş, yaklaşık 4 adet 250 g",
    "4 diş sarımsak (20 g), ezilmiş",
    "2 limon (120 ml suyu), ikiye bölünmüş",
    "4 yemek kaşığı (60 ml) sıvı yağ, ikiye bölünmüş",
@@ -71,5 +71,13 @@
   "tr": "Balıkları ızgaraya koymadan önce kağıt havluyla iyice kurulayın; kuru deri daha kolay kızarır ve ızgaraya yapışmaz.",
   "en": "Pat the fish dry with paper towel before grilling; dry skin browns better and is less likely to stick to the grate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'lüfer' (bluefish), which is an oily, strong-flavored fish and not a firm white-fleshed fish. The English version correctly says sea bream or grouper, so the two versions disa"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

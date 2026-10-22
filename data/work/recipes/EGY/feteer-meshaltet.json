@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Fitir mışaltet",
+  "tr": "Fıtır Meşaltet",
   "en": "Feteer Meshaltet"
  },
  "native": "فطير مشلتت",
@@ -43,8 +43,8 @@
    "Her topu oklava yardımıyla çok ince, yaklaşık 30 cm çapında bir yuvarlak haline getirin.",
    "Yuvarlağın yüzeyine sade yağ sürün, hafifçe un serpin ve dört kat olacak şekilde katlayın.",
    "Katlanmış hamuru tekrar hafifçe açarak yaklaşık 18 cm çapında yassı bir köfte şekline getirin ve tepsiye yerleştirin.",
-   "Kalan sade yağın yarısını hamurların üzerine gezdirin, 15-20 dakika altın rengi olana kadar pişirin.",
-   "Pişen fıtırları ılımaya bırakın, bal, pudra şekeri ve dilimlenmiş beyaz peynirle servis yapın."
+   "Kalan sade yağın çoğunu hamurların üzerine gezdirin, birazını servis için ayırın; 15-20 dakika altın rengi olana kadar pişirin.",
+   "Pişen fıtırları soğumaya bırakın, bal, pudra şekeri ve dilimlenmiş beyaz peynirle servis yapın."
   ],
   "en": [
    "In a large bowl, mix the flour, salt and caster sugar.",
@@ -55,7 +55,7 @@
    "Roll each ball with a rolling pin into a very thin round about 30 cm across.",
    "Brush the surface with ghee, dust lightly with flour and fold into quarters.",
    "Gently roll the folded dough into a flat disc about 18 cm across and place it on the tray.",
-   "Brush the discs with the remaining ghee, reserving a little for serving, and bake for 15-20 minutes until golden.",
+   "Brush the discs with most of the remaining ghee, reserving a little for serving, and bake for 15-20 minutes until golden.",
    "Let the feteer cool slightly, then serve with honey, powdered sugar and sliced white cheese."
   ]
  },
@@ -63,5 +63,15 @@
   "tr": "Hamuru açarken ince olması için yağı bol kullanın; katlarının ayrılması lezzetin ve gevrekliğin anahtarıdır.",
   "en": "Brush the dough generously with ghee between layers; the thin, separated layers are what give feteer its flaky texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ghee usage conflicts between versions: the Turkish step brushes half of the remaining ghee on the discs, while the English step uses the remaining ghee and reserves a little for serving.",
+   "Turkish step 10 says 'ılımaya bırakın' (let become lukewarm), which is an unnatural choice compared with 'soğumaya bırakın' (let cool). Minor, but worth correcting.",
+   "The Turkish name 'Fitir mışaltet' does not follow Turkish orthography for the dish name; 'Fıtır Meşaltet' is closer to the native spelling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -39,7 +39,7 @@
    "Hamuru streç film veya nemli bir bezle örtün ve oda sıcaklığında 30 dakika dinlendirin.",
    "Eritilmiş tereyağını küçük bir kaseye alın ve yanınızda hazır bulundurun.",
    "Hamuru 4 eşit parçaya bölün ve her parçayı unlu tezgâhta yuvarlayın.",
-   "Her topu çok ince açın, yaklaşık 20 cm çapında bir daire elde edin. Yüzeyine tereyağının dörtte birini sürün.",
+   "Her topu çok ince açın, yaklaşık 20 cm çapında bir daire elde edin. Yüzeyine tereyağının sekizde birini sürün.",
    "Hamuru kenarlardan sıkıca rulo yapın, ruloyu spiral şeklinde sarıp hafifçe bastırın. Tekrar elinizle ya da oklavayla 3 mm kalınlığında, yaklaşık 18 cm çapında bir yassı daire haline getirin.",
    "Geniş bir tavaya ayçiçek yağını koyup orta-yüksek ateşte yaklaşık 170 °C'ye kadar ısıtın.",
    "Hazırladığınız katlamayı yağa yerleştirin ve 2-3 dakika, altı altın rengi olana kadar kızartın. Ters çevirip diğer yüzünü de 2-3 dakika kızartın, hafifçe bastırarak kabarmasını önleyin.",
@@ -52,7 +52,7 @@
    "Cover the dough with cling film or a damp cloth and rest it at room temperature for 30 minutes.",
    "Pour the melted butter into a small bowl and keep it nearby.",
    "Divide the dough into 4 equal pieces and roll each into a ball on a lightly floured surface.",
-   "Roll each ball very thin into a circle about 20 cm across. Brush one quarter of the melted butter over the surface.",
+   "Roll each ball very thin into a circle about 20 cm across. Brush one eighth of the melted butter over the surface.",
    "Roll the dough tightly from the edges into a log, coil it into a spiral and press gently. Then roll it out again to a flat round about 18 cm across and 3 mm thick.",
    "Heat the sunflower oil in a wide frying pan over medium-high heat to about 170 °C.",
    "Place a katlama in the hot oil and fry for 2-3 minutes until golden underneath. Turn it over and fry the other side for 2-3 minutes, pressing lightly so it stays flat.",
@@ -65,5 +65,13 @@
   "tr": "Hamuru ne kadar ince açarsanız katlama o kadar gevrek ve katmanlı olur; hamur direnirse birkaç dakika daha dinlendirin.",
   "en": "The thinner you roll the dough, the crisper and flakier the katlama will be; if it springs back, let it rest for a few more minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter quantity contradicts the steps: step 5 brushes one quarter of the 60 g melted butter onto each of the 4 katlama (using all of it), but step 9 asks for the 'remaining' butter to be brushed on af"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

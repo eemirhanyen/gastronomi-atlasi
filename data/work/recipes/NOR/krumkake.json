@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Vafl soğumadan hızla sarılmalıdır; çok soğursa kırılır, bu yüzden her seferinde yalnızca bir veya iki vafl pişirip hemen şekillendirin.",
+  "tr": "Vafl soğumadan hızla sarılmalıdır; soğuyup sertleşirse kısaca sıcak kalıba geri koyup yumuşatın. Bu yüzden her seferinde yalnızca bir veya iki vafl pişirip hemen şekillendirin.",
   "en": "Roll each wafer while it is still hot and pliable; if it cools and stiffens, return it briefly to the warm iron to soften before shaping."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip and English tip give different advice: the English says to reheat a stiffened wafer on the iron, while the Turkish only says to shape quickly and bake one or two at a time. The Turkish tip"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

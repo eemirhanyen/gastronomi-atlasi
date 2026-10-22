@@ -9,7 +9,7 @@
   "en": "A spicy, bright yellow beef soup from the Northwest region of Cameroon, flavoured with red palm oil and dried crayfish. It is traditionally served with achu, a soft, shaped taro (cocoyam) paste, at family meals and celebrations."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Dana etini büyük bir tencereye alın, 1 L su, yarım soğan, 2 diş sarımsak, 10 g zencefil, et suyu küpü ve bir tutam tuzla birlikte koyun. Kaynatın, köpüğünü alın ve kısık ateşte et yumuşayana kadar yaklaşık 40 dakika pişirin.",
+   "Dana etini büyük bir tencereye alın, 1 L su, yarım soğan, 2 diş sarımsak, 10 g zencefil, et suyu küpü ve bir tutam tuzla birlikte koyun. Kaynatın, köpüğünü alın ve kısık ateşte et yumuşayana kadar yaklaşık 90 dakika pişirin.",
    "Bu sırada kolokası soyun, parçalara ayırın ve 500 ml suda, tuzla birlikte yaklaşık 25 dakika haşlayın. Suyunu süzün.",
    "Yağı geniş bir tavada orta-yüksek ateşte ısıtın. Kalan yarım soğanı ince doğrayıp 3 dakika kavurun.",
    "Kalan sarımsak ve zencefili ezerek tavaya ekleyin, 1 dakika karıştırın. Kurutulmuş karides tozunu ilave edip 1 dakika daha kavurun.",
@@ -55,7 +55,7 @@
    "Achu toplarını çorbanın yanında, etle birlikte servis edin. Her lokmayı achuyu çorbaya banarak yiyin."
   ],
   "en": [
-   "Put the beef in a large pot with 1 L water, half the onion, 2 garlic cloves, 10 g ginger, the stock cube and a pinch of salt. Bring to the boil, skim off the foam and simmer gently for about 40 minutes until the meat is tender.",
+   "Put the beef in a large pot with 1 L water, half the onion, 2 garlic cloves, 10 g ginger, the stock cube and a pinch of salt. Bring to the boil, skim off the foam and simmer gently for about 90 minutes until the meat is tender.",
    "Meanwhile, peel the taro, cut it into pieces and boil it in 500 ml water with a pinch of salt for about 25 minutes. Drain well.",
    "Heat the palm oil in a wide pan over medium-high heat. Finely chop the remaining half onion and fry it for 3 minutes.",
    "Crush the remaining garlic and ginger, add them to the pan and stir for 1 minute. Add the ground dried crayfish and fry for another minute.",
@@ -69,5 +69,13 @@
   "tr": "Achu hamuru sıcakken çok daha kolay şekillenir; kolokası ezerken küçük miktarlarda sıcak su ekleyerek kıvamını ayarlayın.",
   "en": "Shape the achu while the taro is still hot, adding hot water little by little so the paste stays smooth and elastic."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef simmer time (about 40 minutes) is too short for shin or rib pieces to become tender, which the step itself claims. The Turkish and English versions both need the change, and the total time should"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Konijn met pruimen",
  "desc": {
-  "tr": "Belçika'nın Flaman mutfağında, özellikle sonbahar ve kış aylarında pişirilen, kuru erik ve birahaneli sosuyla servis edilen geleneksel bir ana yemektir. Genellikle patates püresi, kızartma patates ya da taze ekmekle yenir.",
+  "tr": "Belçika'nın Flaman mutfağında, özellikle sonbahar ve kış aylarında pişirilen, bira ve krema ile hazırlanan, kuru erik eklenmiş sosuyla servis edilen geleneksel bir ana yemektir. Genellikle patates püresi, kızartma patates ya da taze ekmekle yenir.",
   "en": "A traditional main course from Flemish Belgian cooking, typically made in autumn and winter. Rabbit is braised in beer and cream with prunes and served with mashed or fried potatoes or crusty bread."
  },
  "servings": 4,
@@ -74,8 +74,17 @@
   ]
  },
  "tip": {
-  "tr": "Erikleri çaya bir gece önceden bırakırsanız daha yumuşak ve dolgun bir tat elde edersiniz; sosun tadını dengelemek için bira yerine hafif bir Flaman biralar seçin.",
+  "tr": "Erikleri çaya bir gece önceden bırakırsanız daha yumuşak ve dolgun bir doku elde edersiniz; sosun dengeli olması için acı yapmayan, hafif bir Belçika blonde birası seçin.",
   "en": "Soaking the prunes overnight in the tea gives them a softer, plumper texture, and a mild Belgian blonde ale keeps the sauce balanced rather than bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to choose a mild Flemish beer 'instead of beer' (bira yerine), which contradicts the recipe, where beer is an ingredient. The English tip says to choose a mild blonde ale. The Turkish",
+   "Turkish description uses the unnatural word 'birahaneli' (meaning 'from a beer hall') for a sauce made with beer, and it omits the cream that the English description mentions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

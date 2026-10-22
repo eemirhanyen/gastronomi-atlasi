@@ -6,7 +6,7 @@
  "native": "Feijão nhemba",
  "desc": {
   "tr": "Mozambik'in kıyı ve orta bölgelerinde günlük öğünlerin vazgeçilmez yan yemeğidir. Genellikle pirinç veya mısır lapası (xima) ile birlikte, öğle yemeğinde servis edilir.",
-  "en": "A everyday side dish from the coastal and central regions of Mozambique, often served at lunch with rice or xima, a stiff maize porridge."
+  "en": "An everyday side dish from the coastal and central regions of Mozambique, often served at lunch with rice or xima, a stiff maize porridge."
  },
  "servings": 4,
  "time_min": 90,
@@ -50,7 +50,7 @@
    "Ezilmiş sarımsağı, kırmızı biberi ve yeşil biberi ekleyip 3 dakika daha pişirin.",
    "Doğranmış domatesleri ekleyin ve 5 dakika, domatesler püre kıvamına gelene kadar pişirin.",
    "Fıstık ezmesini, börülce pişirme suyundan yaklaşık 100 ml alarak bir kapta pürüzsüz olana kadar karıştırın. Tavaya ekleyin ve iyice karıştırın.",
-   "Pişen börülcenin yaklaşık yarısını kepçeyle tavaya alın, bir kısmını çatalla hafifçe ezin ve kalan börülceyle birleştirin. Hindistan cevizi sütünü, tuzu ve karabiberi ekleyip karıştırın.",
+   "Pişen börülcenin yaklaşık yarısını kepçeyle, biraz sıvısıyla birlikte tavaya alın, bir kısmını çatalla hafifçe ezin ve kalan börülceyle birleştirin. Hindistan cevizi sütünü, tuzu ve karabiberi ekleyip karıştırın.",
    "Karışımı kısık ateşte 10 dakika daha kaynatın, kıvam alınca ocaktan alın. Son olarak doğranmış kişnişi serpip sıcak servis yapın."
   ],
   "en": [
@@ -67,5 +67,14 @@
   "tr": "Börülceyi gece boyunca ıslatmak pişme süresini kısaltır; servis sırasında piri-piri sosu sunarak acılığı kişiye göre ayarlayabilirsiniz.",
   "en": "Soaking the beans overnight shortens cooking time; serve with piri-piri sauce on the side so everyone can adjust the heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 omits the cooking liquid that the English step 6 includes (\"some liquid\"), so the two versions disagree on the stew's consistency.",
+   "English description has a grammar error: \"A everyday\" should be \"An everyday\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

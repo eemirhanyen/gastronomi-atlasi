@@ -9,7 +9,7 @@
   "en": "A creamy Greek soup made from chicken broth, rice, eggs and lemon. It is eaten across Greece, especially in winter and as a comforting dish when someone is unwell."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -43,11 +43,11 @@
   "tr": [
    "Tavuk parçalarını büyük bir tencereye alın, suyu ekleyin ve yüksek ateşte kaynatın. Oluşan köpüğü kepçeyle alın.",
    "Soğan, havuç, kereviz, karabiber taneleri ve tuzu tencereye ekleyin. Ateşi kısın ve kapağı yarı açık olarak yaklaşık 40 dakika hafifçe kaynatın.",
-   "Tavuğu süzgeç kaşığıyla çıkarın, soğrumuş sebzeleri ve karabiber tanelerini süzerek atın. Sıvıyı bir kâseye ayırın ve yağını üstünden alın.",
+   "Tavuğu süzgeç kaşığıyla çıkarın, suya geçmiş sebzeleri ve karabiber tanelerini süzerek atın. Sıvıyı bir kâseye ayırın ve yağını üstünden alın.",
    "Tavuğun etini kemiklerinden ayırın ve ince şeritler halinde didikleyin. Kemikleri atın.",
    "Süzdüğünüz suyu tekrar tencereye alın ve 1,5 litreye kadar gelmesini sağlayacak şekilde kaynatın. Pirinci ekleyip kısık ateşte yaklaşık 15 dakika, pirinç yumuşayana kadar pişirin.",
    "Yumurtaları büyük bir kâsede çırpın, ardından limon suyunu yavaş yavaş ekleyip iyice çırpın.",
-   "Ocaktan almadan önce tencereden 2 kepçe sıcak suyu, çırparak yumurta karışımına yavaş yavaş ekleyin. Bu işlem yumurtaların pişip kesilmesini önler.",
+   "Tencereyi ocaktan alın. Sıcak suyun ateşten çıkmış tencerede 2 kepçe kadarını, çırparak yumurta karışımına yavaş yavaş ekleyin. Bu işlem yumurtaların pişip kesilmesini önler.",
    "Yumurta karışımını yavaş yavaş tencereye geri dökün, sürekli karıştırın. Ateşi çok düşük tutun ve çorbanın kaynamasına izin vermeyin; aksi halde yumurta kesilir.",
    "Didiklenmiş tavuk etini ekleyin, çorbayı kıvam alana kadar birkaç dakika çok kısık ateşte ısıtın ve tuzunu kontrol edin.",
    "Sıcak servis kaselerine paylaştırın, taze çekilmiş karabiberle tatlandırıp hemen servis yapın."
@@ -59,15 +59,27 @@
    "Remove the meat from the bones and shred it into thin strips. Discard the bones.",
    "Return the strained broth to the pot and bring it back to a simmer, adjusting to about 1.5 litres. Add the rice and cook over low heat for about 15 minutes, until tender.",
    "In a large bowl, beat the eggs well, then slowly whisk in the lemon juice.",
-   "Off the heat, ladle 2 cups of the hot broth into the egg mixture, a little at a time, whisking constantly. This tempering keeps the eggs from scrambling.",
+   "Off the heat, ladle 2 ladles of the hot broth into the egg mixture, a little at a time, whisking constantly. This tempering keeps the eggs from scrambling.",
    "Slowly pour the egg mixture back into the pot, stirring constantly. Keep the heat very low and do not let the soup boil, or the eggs will curdle.",
    "Stir in the shredded chicken and gently heat for a few minutes over very low heat until slightly thickened. Taste and adjust the salt.",
    "Ladle into warm bowls, add a generous grind of black pepper and serve immediately."
   ]
  },
  "tip": {
-  "tr": "Yumurtaları sıcak suyla temperlerken hızlı davranın ve sürekli çırpın; karışımı asla kaynayan çorbaya doğrudan eklemeyin.",
-  "en": "Temper the eggs slowly while whisking constantly, and never add the egg mixture to boiling soup. If it still curdles, blend the soup briefly until smooth."
+  "tr": "Yumurtaları sıcak suyla temperlerken hızlı davranın ve sürekli çırpın; karışımı asla kaynayan çorbaya doğrudan eklemeyin. Yine de yumurta kesilirse çorbayı ince bir elekten süzün.",
+  "en": "Temper the eggs slowly while whisking constantly, and never add the egg mixture to boiling soup. If it still curdles, strain the soup through a fine sieve."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says the tempering is done 'ocaktan almadan önce' (before removing the pot from the stove), but the English says 'Off the heat'. Tempering on the heat risks curdling the eggs.",
+   "English step 7 says '2 cups' of broth while the Turkish says '2 kepçe' (ladles). The units disagree.",
+   "time_min of 60 is too short. Simmering the chicken (40 min) plus cooking the rice (15 min) plus preparation exceeds 60 minutes.",
+   "The tip suggests blending hot soup to fix curdling. Blending hot liquid is a safety hazard and is not a standard fix, so straining is safer.",
+   "Turkish step 3 uses 'soğrumuş', which is unnatural for 'discarded/strained out'. It should be 'suya geçmiş'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

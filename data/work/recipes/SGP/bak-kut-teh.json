@@ -51,8 +51,8 @@
  },
  "steps": {
   "tr": [
-   "Kaburgaları 3 cm'lik parçalara kesin. Büyük bir tencerede suyu kaynatın, kaburgaları ekleyip 3 dakika haşlayın. Süzün, akan soğuk suyla yıkayın ve kenara alın.",
-   "Haşlanmış kaburgaları, sarımsağı, yıldız anasonu, tarçını, karanfilleri, karabiberi, dang gui dilimlerini ve önceden ıslatılıp sapları alınmış shiitake mantarlarını 2 litre suyla birlikte temiz bir tencereye koyun.",
+   "Shiitake mantarlarını ılık suda yaklaşık 20 dakika bekletip yumuşatın, saplarını alın. Kaburgaları 3 cm'lik parçalara kesin. Büyük bir tencerede suyu kaynatın, kaburgaları ekleyip 3 dakika haşlayın. Süzün, akan soğuk suyla yıkayın ve kenara alın.",
+   "Haşlanmış kaburgaları, hafifçe ezilmiş sarımsağı, yıldız anasonu, tarçını, karanfilleri, karabiberi, dang gui dilimlerini ve hazırlanmış shiitake mantarlarını 2 litre suyla birlikte temiz bir tencereye koyun.",
    "Karışımı kaynatın, yüzeyde oluşan köpüğü alın. Ateşi kısın, tencereyi kapağıyla kapatıp kaburgalar çok yumuşayana kadar yaklaşık 75 dakika kısık ateşte pişirin.",
    "Goji meyvelerini ekleyin ve 5 dakika daha pişirin.",
    "Açık soya sosu, koyu soya sosu ve kaya şekerini ilave edin. Tuz ile tadını ayarlayıp 10 dakika daha kısık ateşte kaynatın.",
@@ -60,8 +60,8 @@
    "Pirinç, youtiao ve zencefilli-soyalı acı sos ile birlikte sıcak servis yapın."
   ],
   "en": [
-   "Cut the ribs into 3 cm pieces. Bring the water to a boil in a large pot, add the ribs and blanch for 3 minutes. Drain, rinse under cold running water and set aside.",
-   "Place the blanched ribs in a clean pot with 2 litres of water, the crushed garlic, star anise, cinnamon, cloves, peppercorns, dang gui slices and shiitake mushrooms that have been soaked and stemmed.",
+   "Soak the shiitake mushrooms in lukewarm water for about 20 minutes until softened, then remove the stems. Cut the ribs into 3 cm pieces. Bring the water to a boil in a large pot, add the ribs and blanch for 3 minutes. Drain, rinse under cold running water and set aside.",
+   "Place the blanched ribs in a clean pot with 2 litres of water, the lightly crushed garlic, star anise, cinnamon, cloves, peppercorns, dang gui slices and prepared shiitake mushrooms.",
    "Bring to a boil and skim off any foam from the surface. Reduce to a low simmer, cover and cook for about 75 minutes, until the ribs are very tender.",
    "Add the goji berries and simmer for 5 more minutes.",
    "Stir in the light soy sauce, dark soy sauce and rock sugar. Season with salt and simmer gently for 10 more minutes.",
@@ -73,5 +73,14 @@
   "tr": "Kaburgaları haşlayıp yıkamak köpüğü ve fazla yağı giderir; böylece çorba berrak ve hafif kalır.",
   "en": "Blanching and rinsing the ribs removes scum and excess fat, keeping the broth clear and light."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Shiitake mushrooms are used in step 2 as 'soaked and stemmed' (Turkish: 'önceden ıslatılıp'), but no soaking or stemming step is given.",
+   "Garlic is listed as 'lightly crushed' in the ingredients, but the steps do not mention crushing it (Turkish and English both)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

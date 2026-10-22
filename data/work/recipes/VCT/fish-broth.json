@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g bütün beyaz balık (kırmızı lepisosteus ya da king balığı), temizlenmiş ve dilim dilim kesilmiş",
+   "800 g bütün beyaz balık (kırmızı snapper ya da king balığı), temizlenmiş ve dilim dilim kesilmiş",
    "2 limon, ikiye bölünmüş",
    "1 tatlı kaşığı tuz",
    "2 yemek kaşığı sıvı yağ",
@@ -87,5 +87,13 @@
   "tr": "Scotch bonnet biberini bütün bırakıp çatallamak, çorbaya aroma verirken yakıcılığını kontrol altında tutar; servis öncesi mutlaka çıkarın.",
   "en": "Leave the scotch bonnet whole and pricked so it flavours the broth without overwhelming it with heat; always remove it before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish name 'kırmızı lepisosteus' is wrong: lepisosteus is the gar genus, not red snapper. The Turkish ingredient should say 'kırmızı snapper' to match the English 'red snapper'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

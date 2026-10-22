@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "300 g inci darısı unu (mahangu unu)",
+   "400 g inci darısı unu (mahangu unu)",
    "1 litre su + 200 ml soğuk su",
    "1 tatlı kaşığı tuz",
    "300 g kemiksiz dana eti, küp doğranmış",
@@ -24,7 +24,7 @@
    "Tuz ve karabiber"
   ],
   "en": [
-   "300 g pearl millet flour (mahangu flour)",
+   "400 g pearl millet flour (mahangu flour)",
    "1 litre water + 200 ml cold water",
    "1 teaspoon salt",
    "300 g boneless beef, cut into cubes",
@@ -44,7 +44,7 @@
    "Bu sırada sos için geniş bir tavada yağı ısıtın, küp etleri her tarafı kızarana kadar yaklaşık 8 dakika kavurun.",
    "Soğanı ekleyip yumuşayana kadar 5 dakika soteleyin, ardından domatesleri ekleyip 5 dakika daha pişirin.",
    "Sıcak suyu, tuz ve karabiberi ekleyin; kapağı kapatıp kısık ateşte et yumuşayana kadar yaklaşık 30 dakika pişirin.",
-   "Oshifimayı ıslak ellerle tepsiye alıp tutabileceğiniz büyüklükte toplar ya da kalın dilimler halinde şekillendirin.",
+   "Oshifimayı ıslak ellerle tutabileceğiniz büyüklükte toplar ya da kalın dilimler halinde şekillendirin.",
    "Sıcak oshifimayı et sosuyla birlikte servis edin ve elinizle koparıp sosa batırarak yiyin."
   ],
   "en": [
@@ -63,5 +63,14 @@
   "tr": "Lapayı karıştırırken kaşığı tencerenin dibine dayayarak sık sık çevirin; topaklanmayı önlemenin en kolay yolu budur ve oshifimanın dokusunu daha pürüzsüz yapar.",
   "en": "Keep stirring the porridge against the base of the pot; this prevents scorching and lumps, and a wet hand or wet spoon makes shaping much easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Flour-to-water ratio is too thin for a 'firm' oshifima: 300 g flour in about 1.2 L water gives a loose porridge. Raised the flour to 400 g in both languages.",
+   "Turkish step 8 says to move the oshifima to a tray ('tepsiye alıp'), but the English step does not mention a tray. Removed the tray from the Turkish step so the two versions match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

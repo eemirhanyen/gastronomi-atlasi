@@ -17,14 +17,14 @@
    "2 l su",
    "1 tavuk suyu küpü",
    "200 g rookworst (tütsülenmiş Hollanda sosisi) veya tütsülenmiş kaburga",
-   "100 g tütsülenmiş domuz pastırması veya tütsülenmiş bacon",
+   "100 g tütsülenmiş domuz bacon'ı veya speck",
    "1 soğan (150 g)",
    "1 kereviz sapı (80 g)",
    "1 havuç (100 g)",
    "2 pırasa (300 g)",
    "1 yemek kaşığı sıvı yağ",
    "1 defne yaprağı",
-   "1 çay kaşığı kuru kekik veya kuru tuzlu yaz nanesi (savory)",
+   "1 çay kaşığı kuru kekik veya kuru yaz nanesi (savory)",
    "Tuz ve taze çekilmiş karabiber",
    "Servis için 2 dilim çavdar ekmeği ve yaprak maydanoz"
   ],
@@ -49,12 +49,12 @@
   "tr": [
    "Bezelyeleri soğuk suyun altında iyice durulayıp süzün.",
    "Büyük bir tencerede yağı orta-yüksek ateşte ısıtın. Soğanı, kerevizi ve havucu küçük küpler halinde doğrayıp 5 dakika yumuşayana kadar soteleyin.",
-   "Bezelyeleri, suyu, tavuk suyu küpünü, defne yaprağını, kekiği (ya da yaz nanesini) ve pastırmayı tencereye ekleyin. Kaynatın, ateşi kısın ve yüzeydeki köpüğü alarak kapağı yarı açık şekilde 45 dakika pişirin.",
+   "Bezelyeleri, suyu, tavuk suyu küpünü, defne yaprağını, kekiği (ya da yaz nanesini) ve bacon'ı tencereye ekleyin. Kaynatın, ateşi kısın ve yüzeydeki köpüğü alarak kapağı yarı açık şekilde 45 dakika pişirin.",
    "Rookworst'ü bütün halde tencereye ekleyin ve yaklaşık 30 dakika daha kısık ateşte pişirin. Bezelyelerin tencere dibine yapışmaması için arada karıştırın.",
-   "Sosisi ve pastırmayı çıkarıp bir tahta üzerinde dilimleyin. Pastırmanın derisini ve kemiklerini varsa ayıklayın.",
+   "Sosisi ve bacon'ı çıkarıp bir tahta üzerinde dilimleyin. Bacon'ın derisini ve kemiklerini varsa ayıklayın.",
    "Pırasaları ince halka halinde doğrayıp yıkayın ve çorbaya ekleyin. 10 dakika daha pişirin.",
    "Çorba koyulaşana kadar tahta kaşıkla bezelyeleri ezin. Kıvam çok kalınsa biraz sıcak su ekleyin.",
-   "Doğranmış sosisi ve pastırmayı çorbaya geri koyun. Tuz ve karabiberle tatlandırın; pastırma tuzlu olduğu için tuzu en son ayarlayın.",
+   "Doğranmış sosisi ve bacon'ı çorbaya geri koyun. Tuz ve karabiberle tatlandırın; bacon tuzlu olduğu için tuzu en son ayarlayın.",
    "Sıcak servis yapın. Üzerine maydanoz serpip çavdar ekmeğiyle birlikte sunun."
   ],
   "en": [
@@ -73,5 +73,14 @@
   "tr": "Çorba ertesi gün daha da kıvamlanır; yeniden ısıtırken biraz su ekleyerek istediğiniz kıvamı ayarlayın.",
   "en": "The soup thickens overnight, so reheat it gently and stir in a splash of water to get the consistency you like."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'pastırma' (air-dried cured beef) for the smoked pork bacon/speck, which is a wrong culinary term; the Turkish ingredient 'domuz pastırması veya tütsülenmiş bacon' also does not match the",
+   "Turkish herb ingredient 'tuzlu yaz nanesi' is unnatural and wrong: savory is 'kuru yaz nanesi'; 'tuzlu' does not describe it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

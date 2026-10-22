@@ -17,13 +17,13 @@
    "120 g soğuk tereyağı veya domuz yağı (küp doğranmış)",
    "5 g tuz (1 tatlı kaşığı)",
    "200 ml soğuk su (gerekirse fazla)",
-   "400 g dana kıyma yerine bıçakla doğranmış dana but (örn. antrikot veya kol eti)",
+   "400 g dana üst but veya kol eti, bıçakla küp doğranmış (kıyma değil)",
    "1 orta boy soğan (150 g), ince doğranmış",
    "2 dal yeşil soğan, ince doğranmış",
    "30 ml zeytinyağı",
    "1 tatlı kaşığı tatlı kırmızı biber (5 g)",
    "1 tatlı kaşığı kimyon (3 g)",
-   "1 tatlı kaşığı kuru kekik veya kekik-benzeri kuru kekik yerine kuru mercanköşk (2 g)",
+   "1 tatlı kaşığı kuru kekik (oregano) (2 g)",
    "1/2 tatlı kaşığı pul biber (1 g)",
    "100 ml sıcak et suyu",
    "2 adet haşlanmış yumurta, doğranmış",
@@ -57,7 +57,7 @@
    "Küp doğranmış dana eti ekleyin, ara sıra karıştırarak 6-7 dakika kızartın. Et renk değiştirip suyunu çekince tatlı kırmızı biber, kimyon, kekik ve pul biberi ekleyip 1 dakika daha pişirin.",
    "Sıcak et suyunu ekleyin, kısık ateşte 15 dakika kadar, et yumuşayıp sıvı neredeyse çekilene kadar pişirin. Tuz ve karabiberle tadını ayarlayın, ardından tamamen soğumaya bırakın.",
    "Soğuyan iç harca yeşil soğanı, doğranmış haşlanmış yumurtaları ve zeytinleri ekleyin. Karıştırın ve tekrar tadına bakın.",
-   "Hamur için unu ve tuzu geniş bir kaseye alın. Soğuk tereyağı veya domuz yağını parmak uçlarınızla unun içine ovalayıp kumsal görünümü verin.",
+   "Hamur için unu ve tuzu geniş bir kaseye alın. Soğuk tereyağı veya domuz yağını parmak uçlarınızla unun içine ovalayıp kum görünümü verin.",
    "Soğuk suyu azar azar ekleyerek yumuşak ama yapışmayan bir hamur elde edin. Hamuru 5 dakika yoğurun, streç filmle sarıp oda sıcaklığında 30 dakika dinlendirin.",
    "Fırını 200°C'ye ısıtın ve fırın tepsisini kağıtla kaplayın. Hamuru 3 mm kalınlığında açın, 14 cm çapında daireler kesin.",
    "Her dairenin ortasına 2 yemek kaşığı iç harç koyun. Kenarlarını ıslatıp ikiye katlayın, kenarları çatal veya kıvrım yaparak sıkıca kapatın.",
@@ -81,5 +81,15 @@
   "tr": "Dana etini kıymak yerine elle küçük küp doğramak, Arjantin usulünün karakteristik dokusunu verir; iç harcın tamamen soğumasını beklemek hamurun yırtılmasını önler.",
   "en": "Hand-cutting the beef into small cubes rather than mincing it gives the authentic Argentine texture, and letting the filling cool completely prevents the pastry from tearing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oregano/thyme mismatch: the Turkish ingredient says 'kuru kekik' with a garbled marjoram substitution, while the English says dried oregano.",
+   "Beef cut mismatch: Turkish suggests 'antrikot' (ribeye), but the English says sirloin or chuck. Turkish should match the English cut.",
+   "Turkish beef ingredient line is confusing ('kıyma yerine bıçakla doğranmış dana but'); simplified to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

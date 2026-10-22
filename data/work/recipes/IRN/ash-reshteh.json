@@ -63,7 +63,7 @@
    "Ispanak, maydanoz, kişniş ve taze soğanı ekleyin. Yumuşayana kadar 10 dakika pişirin.",
    "Reşteyi ekleyin ve yapışmaması için sık sık karıştırarak 10-12 dakika pişirin. Şorba fazla koyulaşırsa biraz sıcak su ekleyip kıvamını ayarlayın.",
    "Bu sırada 3 yemek kaşığı yağı küçük bir tavada ısıtın. Dilimlenmiş soğanı koyu kahverengi ve gevrek olana kadar kızartın, süzgece alın. Aynı yağa ufalanmış kurutulmuş naneyi koyup 20 saniye çevirin, yağı küçük bir kaseye alın.",
-   "Kaşğı küçük bir kapta, 2-3 kepçe sıcak şorbayla iyice pürüzsüz olana kadar çırpın.",
+   "Kaşkı küçük bir kapta, 2-3 kepçe sıcak şorbayla iyice pürüzsüz olana kadar çırpın.",
    "Şorbayı tatmış olarak kontrol edin. Servis kaselerine koyun, üzerine kaşk karışımını, kızarmış soğanı ve nane yağını gezdirerek servis yapın."
   ],
   "en": [
@@ -81,5 +81,13 @@
   "tr": "Kaşğı şorbaya doğrudan ekleyip kaynatmayın; önce sıcak şorbayla yumuşatıp servis sırasında üstüne koyun, aksi halde kesilir.",
   "en": "Never boil the kashk in the soup. Loosen it with hot broth first and add it at the table, otherwise it will curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 has a spelling error: \"Kaşğı\" should be \"Kaşkı\" (accusative of kaşk)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

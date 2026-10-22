@@ -5,7 +5,7 @@
  },
  "native": "Feijoada",
  "desc": {
-  "tr": "Siyah fasulye ile tuzlu, tütsülenmiş et ve sosislerin uzun süre pişirilmesiyle yapılan Brezilya'nın ulusal yemeğidir. Geleneksel olarak hafta sonu öğlen yemeğinde, özellikle Rio de Janeiro ve Bahia'da, pirinç, farofa, yeşil lahana ve portakal dilimleriyle servis edilir.",
+  "tr": "Siyah fasulye ile tuzlu, tütsülenmiş et ve sosislerin uzun süre pişirilmesiyle yapılan Brezilya'nın ulusal yemeğidir. Geleneksel olarak hafta sonu öğlen yemeğinde, özellikle Rio de Janeiro ve Bahia'da, pirinç, farofa, karalahana ve portakal dilimleriyle servis edilir.",
   "en": "Brazil's national dish, a slow-simmered stew of black beans with salted and smoked meats and sausages. It is traditionally eaten as a weekend lunch, especially in Rio de Janeiro and Bahia, served with rice, farofa, sautéed greens and orange slices."
  },
  "servings": 4,
@@ -26,7 +26,7 @@
    "1,5 l su (fasulye için) ve gerektikçe ek su",
    "1 çay kaşığı tuz (ayarlanabilir) ve taze çekilmiş karabiber",
    "250 g pirinç",
-   "300 g yeşil lahana yaprağı (couve veya kale), ince şeritlenmiş",
+   "300 g karalahana yaprağı (couve veya kale), ince şeritlenmiş",
    "1 portakal, dilimlenmiş",
    "Farofa için: 100 g manyok unu (farinha de mandioca), 2 yemek kaşığı tereyağı, 1 tatlı kaşığı tuz"
   ],
@@ -53,7 +53,7 @@
   "tr": [
    "Siyah fasulyeyi bir gece önceden bol suda ıslatın. Ertesi gün süzün ve durulayın.",
    "Carne seca'yı en az 12 saat soğuk suda bekletin; suyunu birkaç kez değiştirin. Sonra süzüp küçük parçalara ayırın.",
-   "Büyük bir tencereye fasulye, 1,5 litre su ve defne yapraklarını koyun. Orta-düşük ateşte, fasulye yumuşayana kadar yaklaşık 1 saat pişirin.",
+   "Büyük bir tencereye fasulye, 1,5 litre su ve defne yapraklarını koyun. Orta-düşük ateşte, fasulyeler yumuşamaya başlayana kadar yaklaşık 1 saat pişirin.",
    "Geniş bir tavada zeytinyağını ısıtın. Domuz pastırmasını ve domuz omuzunu 5-6 dakika kızartın, sonra tencereye aktarın.",
    "Aynı tavada soğanı yumuşayana kadar, yaklaşık 5 dakika kavurun. Sarımsağı ve domatesi ekleyip 2 dakika daha pişirin, sonra tencereye ekleyin.",
    "Carne seca'yı tencereye ekleyin. Kısık ateşte yaklaşık 1 saat 30 dakika pişirin, bu sırada gerektikçe sıcak su ekleyerek fasulyeleri su altında tutun.",
@@ -61,8 +61,8 @@
    "Tuz ve karabiberle tatlandırın. Defne yapraklarını çıkarın ve tadına bakarak ayarlayın.",
    "Pirinci iyice yıkayıp, iki katı su ile tuz ekleyerek kapaklı tencerede suyunu çekene kadar pişirin.",
    "Farofa için tavayı orta ateşte ısıtın, tereyağını eritin ve manyok unu ile tuzu ekleyin. Unu sürekli karıştırarak altın rengi alana kadar, yaklaşık 4 dakika kavurun.",
-   "Yeşil lahanayı ince şeritler halinde kesin. Başka bir tavada zeytinyağı ile ezilmiş sarımsağı 1 dakika kavurun, lahanayı ekleyip 3-4 dakika soteleyin ve tuz serpin.",
-   "Feijoadayı pirinç, farofa, sotelenmiş lahana ve portakal dilimleriyle sıcak olarak servis edin."
+   "Karalahanayı ince şeritler halinde kesin. Başka bir tavada zeytinyağı ile ezilmiş sarımsağı 1 dakika kavurun, lahanayı ekleyip 3-4 dakika soteleyin ve tuz serpin.",
+   "Feijoadayı pirinç, farofa, sotelenmiş karalahana ve portakal dilimleriyle sıcak olarak servis edin."
   ],
   "en": [
    "Soak the black beans in plenty of water overnight. The next day, drain and rinse them.",
@@ -83,5 +83,14 @@
   "tr": "Fasulyeleri pişirirken tencerede her zaman sıvı bulunmalı; sos kıvam kazanana kadar kısık ateşte tutun, böylece baklagiller ezilip kremalaşır.",
   "en": "Keep the beans covered with liquid throughout cooking and simmer gently; the beans should break down slightly to give the stew its thick, creamy body."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'yeşil lahana' for couve/kale (collard greens/kale). In Turkish, 'yeşil lahana' means cabbage, so it misdescribes the ingredient. 'Karalahana' is the correct term.",
+   "Turkish step 3 says the beans should cook 'yumuşayana kadar' (until soft), but the English says 'until the beans begin to soften'. The two versions disagree on the doneness point."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

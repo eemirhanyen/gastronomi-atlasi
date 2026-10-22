@@ -45,25 +45,34 @@
    "Yumurta sarılarını 20 g toz şekerle iyice çırpın. Sütü ekleyip karıştırın, ardından unu, tuzu ve limon rendesini ilave ederek pürüzsüz bir hamur elde edin. Hamuru 15 dakika dinlendirin.",
    "Yumurta aklarını bir tutam tuz ve kalan 20 g toz şekerle sert kar haline gelene kadar çırpın.",
    "Beyaz köpüğün üçte birini hamura ekleyip hafifçe karıştırın, ardından kalanını spatulayla nazikçe katlayın. Romda bekleyen kuru üzümleri süzüp hamura ekleyin.",
-   "Büyük, yapışmaz bir tavada 20 g tereyağını orta ateşte eritin. Hamurun yarısını tavaya dökün ve alt yüzü altın rengi olana kadar yaklaşık 3-4 dakika pişirin.",
-   "Spatula ile hamuru parçalara ayırıp çevirin. Kalan 20 g tereyağını ekleyerek parçaları her yüzü altın rengi olana kadar yaklaşık 3 dakika daha pişirin.",
+   "Büyük, yapışmaz bir tavada 15 g tereyağını orta ateşte eritin. Hamurun yarısını tavaya dökün ve alt yüzü altın rengi olana kadar yaklaşık 3-4 dakika pişirin.",
+   "Spatula ile hamuru parçalara ayırıp çevirin. 15 g tereyağı daha ekleyerek parçaları her yüzü altın rengi olana kadar yaklaşık 3 dakika daha pişirin.",
    "İki çatal yardımıyla parçaları lokma boyutunda ayırın ve tavada birkaç dakika daha karıştırarak kızartın.",
-   "Kalan hamurla aynı işlemi tekrarlayın, ardından tüm parçaları sıcak servis tabağına alın. Üzerine pudra şekeri serpin ve erik kompostosuyla birlikte servis yapın."
+   "Kalan hamurla aynı işlemi tekrarlayın (kalan 30 g tereyağıyla), ardından tüm parçaları sıcak servis tabağına alın. Üzerine pudra şekeri serpin ve erik kompostosuyla birlikte servis yapın."
   ],
   "en": [
    "Put the raisins in a bowl, pour over the rum and leave them to soak for 15 minutes.",
    "Whisk the egg yolks with 20 g of the caster sugar until pale. Stir in the milk, then add the flour, salt and lemon zest to make a smooth batter. Rest the batter for 15 minutes.",
    "Whisk the egg whites with the pinch of salt and the remaining 20 g of caster sugar until they form stiff peaks.",
    "Stir one third of the whites into the batter to loosen it, then gently fold in the rest with a spatula. Drain the raisins and fold them into the batter.",
-   "Melt 20 g of the butter in a large non-stick pan over medium heat. Pour in half the batter and cook for 3-4 minutes, until the underside is golden.",
-   "Use a spatula to break the pancake into pieces and turn them. Add 20 g of the remaining butter and cook for about 3 minutes more, until the pieces are golden on all sides.",
+   "Melt 15 g of the butter in a large non-stick pan over medium heat. Pour in half the batter and cook for 3-4 minutes, until the underside is golden.",
+   "Use a spatula to break the pancake into pieces and turn them. Add 15 g more butter and cook for about 3 minutes more, until the pieces are golden on all sides.",
    "Use two forks to tear the pieces into bite-sized shreds, then toss them in the pan for a few more minutes to crisp up.",
-   "Repeat with the rest of the batter and the remaining butter. Transfer everything to a warm serving plate, dust generously with icing sugar and serve with the plum compote."
+   "Repeat with the rest of the batter and the remaining 30 g of butter. Transfer everything to a warm serving plate, dust generously with icing sugar and serve with the plum compote."
   ]
  },
  "tip": {
   "tr": "Kaiserschmarrn'ı tavada çatalla parçalarken fazla karıştırmayın; büyük ve nemli parçalar kalırsa tatlı daha yumuşak ve hoş bir doku kazanır.",
   "en": "Tear the pancake only once it has set on the bottom; leaving some larger, soft pieces alongside the crisp ones gives the classic texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter quantities don't add up: 60 g total, but the pan steps use 20 g + 20 g per batch, and the second batch repeats this, requiring 80 g.",
+   "Turkish and English step 5 and step 6 both reference the same butter amounts, so both need correcting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

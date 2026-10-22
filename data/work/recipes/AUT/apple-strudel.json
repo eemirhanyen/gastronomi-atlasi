@@ -26,7 +26,7 @@
    "30 g ceviz içi, kabaca kırılmış",
    "60 g kuru ekmek kırıntısı (galeta unu)",
    "50 g tereyağı (kırıntılar için)",
-   "30 g tereyağı, eritilmiş (yüzeye sürmek için)",
+   "60 g tereyağı, eritilmiş (yüzeye sürmek için)",
    "Pudra şekeri (servis için)"
   ],
   "en": [
@@ -43,7 +43,7 @@
    "30 g walnuts, roughly chopped",
    "60 g dry fine breadcrumbs",
    "50 g butter (for the breadcrumbs)",
-   "30 g butter, melted (for brushing)",
+   "60 g butter, melted (for brushing)",
    "Icing sugar (for dusting)"
   ]
  },
@@ -55,10 +55,11 @@
    "Elma dilimlerini, limon kabuk rendesini, kuru üzümü, toz şekeri, tarçını ve cevizi büyük bir kapta karıştırın.",
    "Fırını 200 °C'ye ısıtın. Fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Un serpilmiş temiz bir bez masanın üzerine hamuru koyun ve oklava ile olabildiğince ince, yaklaşık 40 x 50 cm boyutunda açın. Hamurun altına ellerinizin sırtını koyarak yavaşça çekip kenarlarından inceltin, neredeyse şeffaf olması gerekir. Kalın kenarları kesip atın.",
-   "Hamurun tamamına eritilmiş 30 g tereyağını fırça ile sürün.",
+   "Eritilmiş 60 g tereyağının 30 g'ını hamurun tamamına fırça ile sürün.",
    "Hamurun alt üçte ikilik kısmına kavrulmuş kırıntıları serpin. Kırıntıların üzerine elmalı karışımı yayın, iki yan kenarı içe doğru katlayın.",
    "Bezin yardımıyla, dolgulu taraftan başlayarak hamuru sıkıca sarın. Rulo dikişi altta kalacak şekilde pişirme tepsisine alın.",
-   "Ruloyu kalan tereyağıyla fırçalayın ve 30-35 dakika, üzeri altın sarısı olana kadar pişirin. Yarısında bir kez daha tereyağı sürün.",
+   "Ruloyu kalan eritilmiş tereyağının yarısıyla fırçalayın ve 30-35 dakika, üzeri altın sarısı olana kadar pişirin.",
+   "Pişirmenin yarısında, kalan tereyağının diğer yarısını ruloya bir kez daha sürün.",
    "Strudeli fırından çıkarıp 10 dakika dinlendirin, pudra şekeri serpip dilimleyin. Ilık servis edin."
   ],
   "en": [
@@ -68,10 +69,11 @@
    "In a large bowl, mix the apple slices, lemon zest, raisins, caster sugar, cinnamon and walnuts.",
    "Preheat the oven to 200 °C. Line a baking tray with baking paper.",
    "On a floured cloth, roll the dough out as thin as possible into a rectangle about 40 x 50 cm. Slide your hands under the dough, backs facing up, and gently stretch it from the inside until it is almost transparent. Trim off the thick edges.",
-   "Brush the whole surface of the dough with the 30 g of melted butter.",
+   "Brush the whole surface of the dough with 30 g of the 60 g melted butter.",
    "Sprinkle the toasted breadcrumbs over the lower two thirds of the dough. Spread the apple mixture on top, then fold the two long sides inward.",
    "Using the cloth to help, roll the dough up tightly starting from the filled end. Place it on the tray with the seam side down.",
-   "Brush the roll with the remaining melted butter from the pan and bake for 30 to 35 minutes until golden. Brush once more with butter halfway through baking.",
+   "Brush the roll with half of the remaining melted butter and bake for 30 to 35 minutes until golden.",
+   "Halfway through baking, brush the roll with the rest of the remaining melted butter.",
    "Take the strudel out of the oven and rest it for 10 minutes. Dust with icing sugar, slice and serve warm."
   ]
  },
@@ -79,5 +81,15 @@
   "tr": "Hamuru açarken elinizi kenara değil, hamurun altına sokup iç taraftan çekin; hamur ne kadar incelirse strudel o kadar hafif olur. Hamuru yırtarsanız yırtığı bir parça hamurla kapatıp devam edebilirsiniz.",
   "en": "Stretch the dough from underneath with your knuckles rather than pulling from the edges; the thinner it gets, the lighter the strudel. If it tears, patch it with a small piece of dough and carry on."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter quantities don't add up: 30 g melted butter is listed for brushing, but the dough brushing (step 7) uses all 30 g, and steps 9-10 refer to 'remaining' butter that doesn't exist.",
+   "EN step 9 says 'remaining melted butter from the pan', but the melted butter was never kept in the pan. The TR and EN versions also need to match on this.",
+   "Step 10 'halfway' brushing has no butter reserved for it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

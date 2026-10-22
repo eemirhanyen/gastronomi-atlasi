@@ -9,7 +9,7 @@
   "en": "A slow-simmered chicken stew of onions, tomatoes and spices, cooked at home and in local restaurants across Malawi. It is usually served for lunch or dinner with nsima, a stiff maize porridge."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Sosun kıvamı için domatesleri iyice çözülene kadar pişirin; nsima ile servis etmek için sosu biraz daha koyu tutun.",
   "en": "Cook the tomatoes until they fully break down so the sauce thickens well; keep it slightly thick for scooping with nsima."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the listed steps: about 10 min resting and browning the chicken, 8 min onions, 5 min tomatoes, and 35-40 min simmering come to roughly 80-95 min including prep. Updated "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

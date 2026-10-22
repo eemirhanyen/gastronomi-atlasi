@@ -8,7 +8,7 @@
   "tr": "Mozambik'in başkenti Maputo'daki Polana semtinden adını alan, patatesli ve yumuşacık bir kektir. Özellikle öğleden sonra kahve ya da çay yanında, misafirlere ikram edilen bir tatlı olarak yaygındır.",
   "en": "A soft, moist cake made with mashed potato, named after the Polana neighbourhood of Maputo. It is most often served mid-afternoon with coffee or tea, both at home and in cafés."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
@@ -71,5 +71,13 @@
   "tr": "Patatesleri iyice kurutup pürüzsüz ezin; lifli bir püre kekin dokusunu bozar. Püreyi tamamen soğutmadan hamura eklemeyin, aksi halde tereyağı yağlanır.",
   "en": "Drain and dry the potatoes well and mash them until completely smooth; lumps will spoil the crumb. Make sure the purée has cooled before adding it, or the butter may split."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings value of 4 is implausible for this batter: about 300 g potato, 130 g flour and 3 eggs fill a single 20 cm cake that typically yields around 8 slices. Changed to 8."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

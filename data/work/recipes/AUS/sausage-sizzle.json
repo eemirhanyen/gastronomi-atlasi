@@ -51,7 +51,15 @@
  },
  "tip": {
   "tr": "Sosisleri çok sık çevirmeyin; eşit kızarma için her çevirmede birkaç dakika bekleyin ve ekmeğin ıslanmaması için ketçabı servisten hemen önce ekleyin.",
-  "en": "Turn the sausages only every few minutes for an even char, and add the sauce just before serving so the bread stays from going soggy."
+  "en": "Turn the sausages only every few minutes for an even char, and add the sauce just before serving so the bread doesn't go soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English tip is ungrammatical: \"so the bread stays from going soggy\" should read \"so the bread doesn't go soggy\", matching the Turkish meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

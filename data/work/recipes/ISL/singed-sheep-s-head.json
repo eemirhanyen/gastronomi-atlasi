@@ -19,7 +19,7 @@
    "1 adet sarı soğan (150 g), soyulmuş ve dörde bölünmüş",
    "10 adet karabiber tanesi",
    "2 adet defne yaprağı",
-   "800 g İskoç lahanası (swede), soyulmuş ve küp doğranmış",
+   "800 g İsveç lahanası (swede), soyulmuş ve küp doğranmış",
    "800 g patates, soyulmuş ve küp doğranmış",
    "50 g tereyağı",
    "100 ml süt",
@@ -47,8 +47,8 @@
    "Kafa yarımlarını büyük bir tencereye yerleştirin, üzerini 3 litre soğuk suyla örtün ve orta-yüksek ateşte kaynamaya bırakın.",
    "Kaynayan suyun yüzeyinde biriken köpüğü bir kepçeyle alın.",
    "Soğanı, karabiber tanelerini, defne yapraklarını ve kaba tuzu ekleyin. Ateşi kısın ve kapağı yarı açık şekilde yaklaşık 2 saat 30 dakika kısık ateşte pişirin, et kemikten kolayca ayrılana kadar bekleyin.",
-   "Pişirme sırasında swede ve patatesleri ayrı bir tencerede soyup küp doğrayın. Swede'i yaklaşık 30 dakika, patatesleri ise yaklaşık 20 dakika tuzlu suda haşlayın.",
-   "Swede'i süz, tereyağı, sütü, tuz ve beyaz biberle birlikte iri püre kıvamına gelene kadar ezin.",
+   "Pişirme sırasında İsveç lahanasını ve patatesleri ayrı bir tencerede soyup küp doğrayın. İsveç lahanasını yaklaşık 30 dakika, patatesleri ise yaklaşık 20 dakika tuzlu suda haşlayın.",
+   "İsveç lahanasını süzün, tereyağı, sütü, tuz ve beyaz biberle birlikte iri püre kıvamına gelene kadar ezin.",
    "Patatesleri süzün ve hafifçe kurumaları için birkaç dakika bekletin.",
    "Kafa yarımlarını tencereden çıkarıp tahta bir kesme tahtasına alın, etleri kemiklerden ayırıp servis tabağına koyun.",
    "Sıcak sıvıyı içmek isterseniz kepçeyle küçük bir kâse doldurun. Yanına püre, patates ve çavdar ekmeği ile servis yapın."
@@ -69,5 +69,13 @@
   "tr": "Kafayı pişirmeden önce kılları iyice temizlemek, sonrasında suyu tekrar tekrar köpürtmeden sadece hafifçe kaynatmak, daha temiz bir tat ve düzgün bir doku sağlar.",
   "en": "Scrape off every trace of wool before cooking and keep the broth at a gentle simmer, not a rolling boil, for clean flavour and tender meat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name for swede is non-standard: \"İskoç lahanası\" is not the usual term; \"İsveç lahanası\" is the common Turkish name. Also, \"Swede\" is left untranslated in the Turkish steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

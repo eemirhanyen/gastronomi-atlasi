@@ -9,7 +9,7 @@
   "en": "A chilled soup from Ukraine, eaten mostly in summer. Beetroot, kefir, fresh vegetables and dill are combined and served cold, often as a light lunch or starter on hot days."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -22,8 +22,8 @@
    "1 demet dereotu (yaklaşık 30 g)",
    "1 l kefir",
    "1 tatlı kaşığı toz şeker",
-   "Tuz",
-   "Taze çekilmiş karabiber",
+   "1 tatlı kaşığı tuz",
+   "1/4 tatlı kaşığı taze çekilmiş karabiber",
    "120 g ekşi krema"
   ],
   "en": [
@@ -36,8 +36,8 @@
    "1 bunch dill (about 30 g)",
    "1 l kefir",
    "1 tsp caster sugar",
-   "Salt",
-   "Freshly ground black pepper",
+   "1 tsp salt",
+   "1/4 tsp freshly ground black pepper",
    "120 g sour cream"
   ]
  },
@@ -67,5 +67,14 @@
   "tr": "Pancar suyu kefirle karıştırılmadan önce mutlaka tamamen soğumalıdır; aksi halde kefir ayrışabilir.",
   "en": "Make sure the beetroot water is completely cool before mixing it into the kefir, otherwise the kefir may curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt and black pepper have no quantities, unlike every other ingredient (TR and EN).",
+   "time_min is 60, but the recipe needs 40-50 min of boiling, plus cooling the beetroot and water, plus at least 30 min of chilling, so the total is closer to 90 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

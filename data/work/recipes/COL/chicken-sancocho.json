@@ -50,7 +50,7 @@
    "Tavuğu temizleyip büyük bir tencereye alın. Üzerine 2,5 L su, soğan, sarımsak, kimyon, defne yaprağı ve tuzu ekleyin.",
    "Tencereyi kapağı yarı açık olacak şekilde orta-yüksek ateşte kaynatın. Yüzeyde toplanan köpükleri kepçeyle alın.",
    "Ateşi kısın ve tavuk yumuşayana kadar, yaklaşık 35 dakika kaynatın.",
-   "Tavuğu çıkarıp bir tabağa alın. Suyu süzmeden önce parçaları biraz soğutun.",
+   "Tavuğu çıkarıp bir tabağa alın ve sebzeleri hazırlarken parçaların biraz soğumasını bekleyin.",
    "Yeşil muz halkalarını ve manyok parçalarını suya ekleyin. Orta ateşte 15 dakika pişirin.",
    "Mısır koçanlarını ve patatesleri ekleyin, 15 dakika daha kaynatın. Sebzeler yumuşamalı ama dağılmamalı.",
    "Tavuk parçalarını tekrar tencereye koyup 5 dakika birlikte ısıtın.",
@@ -70,8 +70,17 @@
   ]
  },
  "tip": {
-  "tr": "Yeşil muzu ve manyoku ayrı bir tencerede haşlayıp suyunu çorbaya ekleyerek kıvamı daha kontrollü tutabilirsiniz; çorba koyulaşırsa sıcak su ekleyin.",
-  "en": "Peel the plantain and yuca under running water or wear gloves, since their sap can stain your hands. If the broth thickens too much while standing, add a splash of hot water before serving."
+  "tr": "Yeşil muz ve manyoku akan suyun altında soyun ya da eldiven takın, çünkü özsuları ellerinizi lekeleyebilir. Yeşil muzu ve manyoku ayrı bir tencerede haşlayıp suyunu çorbaya ekleyerek kıvamı daha kontrollü tutabilirsiniz; çorba bekleyince koyulaşırsa sıcak su ekleyin.",
+  "en": "Peel the plantain and yuca under running water or wear gloves, since their sap can stain your hands. For more controlled consistency, you can boil the plantain and yuca in a separate pot and add their cooking water to the broth. If the broth thickens too much while standing, add a splash of hot water before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says to cool the chicken 'before straining the broth' (suyu süzmeden önce), but the English step has no straining and says to cool while preparing the vegetables.",
+   "The tip versions differ: the Turkish tip covers boiling plantain and yuca in a separate pot, while the English tip covers peeling precautions. Each language is missing the other's point."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

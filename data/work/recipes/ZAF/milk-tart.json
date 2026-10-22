@@ -50,7 +50,7 @@
    "Unu, pudra şekerini ve tuzu geniş bir kapta karıştırın. Soğuk tereyağını ekleyip parmak uçlarınızla ince kırıntılar oluşana kadar ovalayın.",
    "Yumurta sarısını ve soğuk suyu ekleyip hızlıca yoğurun. Hamuru diske dönüştürün, streç filmle sarıp 30 dakika buzdolabında dinlendirin.",
    "Fırını 180°C'ye ısıtın. Hamuru 3-4 mm kalınlığında açın, 20 cm'lik dibi çıkarılabilir kalıba yerleştirin, fazlalığını kesin ve çatalla birkaç yerden delin.",
-   "Hamuru kağıt ve kuru baklava ile kör pişirin, 15 dakika pişirdikten sonra ağırlıkları ve kağıdı çıkarın, 5 dakika daha pişirip kenara alın. Fırını 170°C'ye düşürün.",
+   "Hamuru kağıt ve kuru fasulye ile kör pişirin, 15 dakika pişirdikten sonra ağırlıkları ve kağıdı çıkarın, 5 dakika daha pişirip kenara alın. Fırını 170°C'ye düşürün.",
    "Yumurtaları, toz şekeri, mısır nişastasını, unu, vanilya özünü ve tuzu pürüzsüz bir karışım olana kadar çırpın. 100 ml sütü ekleyip iyice karıştırın.",
    "Kalan 300 ml sütü ve 20 g tereyağını orta ateşte kaynamaya yakın ısıtın.",
    "Sıcak sütü ince bir akışla yumurtalı karışımın üzerine dökerken sürekli çırpın. Karışımı tekrar tencereye alıp kısık ateşte sürekli karıştırarak kıvam alana kadar, yaklaşık 3-4 dakika pişirin.",
@@ -75,5 +75,13 @@
   "tr": "Dolguyu pişirirken sürekli karıştırın; topaklanmayı önlemek için tencerenin dibini ve kenarlarını spatulayla sıyırın.",
   "en": "Keep stirring the custard while it cooks and scrape the base and sides of the pan with a spatula to prevent lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"kuru baklava\" (dried baklava) for blind baking weights, but the English says dried beans. Should be \"kuru fasulye\" (dried beans)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

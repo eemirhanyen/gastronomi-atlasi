@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Bal Pastası (Medovník)",
+  "tr": "Bal Pastası (Medovnik)",
   "en": "Honey Cake (Medovník)"
  },
  "native": "Medovník",
@@ -43,27 +43,39 @@
    "Yumurtayı ve karbonatı ekleyip hızlıca karıştırın; karışım köpürecektir.",
    "Unu parça parça ekleyerek yumuşak, yapışmayan bir hamur yoğurun. Hamuru streçle sarıp buzdolabında en az 1 saat dinlendirin.",
    "Fırını 180°C'ye ısıtın ve iki büyük fırın tepsisini kağıtla kaplayın.",
-   "Hamuru 3 eşit parçaya bölün. Her parçayı unlu yüzeyde 16-18 cm çapında, çok ince bir daire olacak şekilde açın. Her bir hamur diskini 5-6 dakika, hafif altını kızarana kadar pişirin.",
-   "Pişen katmanları tepsi üzerinde kısa süre soğutup yuvarlak kenarlarını bir bıçakla düzeltin. Kenarlardan kalan kırıntıları ayrı bir kaba alın; üstteki kremayı süslemek için kullanacaksınız.",
+   "Hamuru 8 eşit parçaya bölün. Her parçayı unlu yüzeyde 16-18 cm çapında, kağıt kadar ince bir daire olacak şekilde açın. Her hamur diskini 4-5 dakika, kenarları hafif altın rengi alana kadar pişirin.",
+   "Pişen katmanları tepsi üzerinde kısa süre soğutup yuvarlak kenarlarını bir bıçakla düzeltin. Kenarlardan kalan kırıntıları ayrı bir kaba alın; servis öncesinde üstünü süslemek için kullanacaksınız.",
    "Ekşi kremayı, pudra şekerini ve vanilya özünü pürüzsüz olana kadar çırpın. Oda sıcaklığındaki tereyağını ekleyip kremayı kıvamlı ve kabarık hale gelene kadar çırpmaya devam edin.",
-   "Bir katmanı servis tabağına koyun, üzerine kremadan yayın. Diğer katmanları aynı şekilde kremayla katlayın; en üste krema sürüp kırıntıları serpin.",
-   "Pastayı buzdolabında en az 6 saat ya da bir gece dinlendirin. Böylece katmanlar yumuşar ve bal aroması iyice yayılır."
+   "Bir katmanı servis tabağına koyun, üzerine kremadan yayın. Diğer katmanları aynı şekilde kremayla katlayın; en üste krema sürün.",
+   "Pastayı buzdolabında en az 6 saat ya da bir gece dinlendirin. Böylece katmanlar yumuşar ve bal aroması iyice yayılır.",
+   "Servis etmeden hemen önce üstüne kırıntıları serpin."
   ],
   "en": [
    "In a large saucepan over medium heat, melt the honey, butter and caster sugar together, stirring. When the mixture is warm but not boiling, remove it from the heat and let it cool slightly.",
    "Add the egg and baking soda and stir quickly; the mixture will foam.",
    "Gradually work in the flour to form a soft, non-sticky dough. Wrap it in cling film and refrigerate for at least 1 hour.",
    "Preheat the oven to 180°C and line two large baking trays with baking paper.",
-   "Divide the dough into 3 equal pieces. On a floured surface, roll each piece into a very thin circle about 16-18 cm across. Bake each disc for 5-6 minutes, until lightly golden at the edges.",
+   "Divide the dough into 8 equal pieces. On a floured surface, roll each piece into a very thin circle, as thin as baking paper, about 16-18 cm across. Bake each disc for 4-5 minutes, until lightly golden at the edges.",
    "Let the layers cool briefly on the tray, then trim the edges with a knife to make them neat. Set the trimmings aside in a bowl; you will use them as crumbs to decorate the top.",
    "Whisk the sour cream, icing sugar and vanilla extract until smooth. Beat in the room-temperature butter until the cream is thick and fluffy.",
-   "Place one layer on a serving plate and spread a portion of cream over it. Repeat with the remaining layers, then spread cream on top and sprinkle with the crumbs.",
-   "Refrigerate the cake for at least 6 hours or overnight so the layers soften and the honey flavour develops."
+   "Place one layer on a serving plate and spread a portion of cream over it. Repeat with the remaining layers, then spread cream on top.",
+   "Refrigerate the cake for at least 6 hours or overnight so the layers soften and the honey flavour develops.",
+   "Just before serving, sprinkle the crumbs over the top."
   ]
  },
  "tip": {
-  "tr": "Katmanları çok ince açıp kısa sürede pişirin; kenar kırıntılarını kremayla karıştırmadan üstüne serpmek hem lezzet hem görüntü açısından daha iyi sonuç verir.",
+  "tr": "Katmanları çok ince açıp kısa sürede pişirin; kırıntıları kremayla karıştırmadan, servis hemen öncesinde üstüne serpmek hem lezzet hem görüntü açısından daha iyi sonuç verir.",
   "en": "Roll the layers very thin and bake them briefly so they stay crisp at first and soften into the cream later; sprinkle the crumbs on just before serving so they stay crunchy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Medovník is defined by many very thin layers, but the dough (about 610 g) is split into only 3 pieces, so each layer would be roughly 0.7 cm thick, not 'very thin'. The recipe needs more layers (8 is ",
+   "Step 8 sprinkles the crumbs on top before refrigerating, but the tip says to sprinkle them just before serving so they stay crunchy. The steps and tip contradict each other. A final serving step is ad",
+   "Minor mismatch: the Turkish step 5 says the bottom (altını) should be golden, while the English says the edges."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -14,8 +14,8 @@
  "ingredients": {
   "tr": [
    "300 g midye (temizlenmiş)",
-   "300 g deniz tarağı yerine taze midye veya kabuklu midye (temizlenmiş)",
-   "250 g mersin balığı veya hake fileto, küp doğranmış",
+   "300 g venüs midyesi (temizlenmiş)",
+   "250 g hake fileto, küp doğranmış",
    "150 g temizlenmiş karides",
    "250 ml beyaz şarap",
    "1 l balık veya deniz ürünü suyu",
@@ -26,9 +26,9 @@
    "3 diş sarımsak, ince doğranmış",
    "1 büyük domates, rendelenmiş veya küp doğranmış",
    "1 tatlı kaşığı tatlı füme kırmızı biber",
-   "1 tatlı kaşığı kuru kekik veya kekik yerine kuru kekik",
+   "1 tatlı kaşığı kuru kekik (oregano)",
    "250 ml süt",
-   "150 g rendelenmiş kaşar veya gouda peyniri",
+   "150 g rendelenmiş gouda veya mozzarella peyniri",
    "2 yemek kaşığı galeta unu",
    "3 yemek kaşığı doğranmış maydanoz",
    "Tuz ve taze çekilmiş karabiber"
@@ -62,8 +62,8 @@
    "Büyük bir tencerede yağ ve tereyağını orta ateşte eritin. Soğan ve kırmızı biberi yumuşayana kadar yaklaşık 6 dakika kavurun.",
    "Sarımsağı ekleyip 1 dakika daha karıştırın. Rendelenmiş domatesi ekleyin ve suyu çekilene kadar 3-4 dakika pişirin.",
    "Füme kırmızı biber ve kekiği ekleyin, bir dakika kavurun. Beyaz şarabı ekleyip yarıya kadar kaynatın.",
-   "Karışıma karışık deniz suyu ve balık suyunu ekleyin. Kaynamaya bırakıp kısık ateşte 10 dakika pişirin.",
-   "Balık küplerini ekleyip 3 dakika, ardından karidesleri 2 dakika pişirin. Son olarak midye ve midye etlerini ekleyin, bir dakika ısıtın.",
+   "Karışıma kabuklu deniz ürünlerinin pişirme suyunu ve balık suyunu ekleyin. Kaynamaya bırakıp kısık ateşte 10 dakika pişirin.",
+   "Balık küplerini ekleyip 3 dakika, ardından karidesleri 2 dakika pişirin. Son olarak midye ve venüs etlerini ekleyin, bir dakika ısıtın.",
    "Sütü ekleyin, tuz ve karabiberle tatlandırın. Kaynamaması için ocakta kısık ateşte 2-3 dakika ısıtın.",
    "Çorbayı ısıya dayanıklı 4 küçük kaseye paylaştırın. Her kasenin üzerine peynir ve galeta unu serpin.",
    "Önceden 200°C'ye ısıtılmış fırında peynir eriyip yüzeyi altın rengi alana kadar 8-10 dakika pişirin. Maydanozla süsleyip hemen servis yapın."
@@ -82,8 +82,22 @@
   ]
  },
  "tip": {
-  "tr": "Midyeleri ve midyeleri pişirdikten sonra fazla pişirmeyin; lastik gibi sertleşirler. Balığı ve kabukluları son aşamada ekleyerek dokularını koruyun.",
+  "tr": "Midyeleri ve kabukluları pişirdikten sonra fazla pişirmeyin; lastik gibi sertleşirler. Balığı ve kabukluları son aşamada ekleyerek dokularını koruyun.",
   "en": "Do not overcook the shellfish or they will turn rubbery. Add the fish and seafood late in the cooking so they stay tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "TR ingredient 2 is garbled ('deniz tarağı yerine taze midye veya kabuklu midye') and does not match EN 'clams'; corrected to venüs midyesi.",
+   "TR hake line says 'mersin balığı veya hake'. Mersin balığı is sturgeon, not hake; removed.",
+   "TR oregano line 'kuru kekik veya kekik yerine kuru kekik' is circular; EN says oregano, so TR now reads 'kuru kekik (oregano)'.",
+   "Cheese differs: TR 'kaşar veya gouda' vs EN 'Gouda or mozzarella'; aligned both to Gouda or mozzarella.",
+   "TR step 6 'karışık deniz suyu' is unnatural and wrong; corrected to the shellfish cooking liquid plus fish stock.",
+   "TR step 7 'midye etlerini' is unnatural; corrected to midye ve venüs etleri.",
+   "TR tip repeats 'midyeleri ve midyeleri'; corrected to 'midyeleri ve kabukluları'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "1 kg dana bonfile dışı veya dana kaburga eti (kemik ve yağı ayıklanmış, 4 cm'lik küpler halinde)",
+   "1 kg dana omuz (chuck) veya baldır eti (kemik ve yağı ayıklanmış, 4 cm'lik küpler halinde)",
    "150 g tütsülenmiş domuz pastırması veya şerit domuz pastırması, küçük parçalar halinde",
    "30 ml zeytinyağı",
    "50 g tereyağı",
@@ -81,5 +81,13 @@
   "tr": "Yahniyi bir gün önceden hazırlayıp soğutun; ertesi gün yağı yüzeyden alıp yeniden ısıtın, lezzet çok daha derinleşir.",
   "en": "Make the stew a day ahead and refrigerate it; skim off the solidified fat and reheat gently, as the flavour deepens overnight."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish beef cut is wrong and disagrees with the English: 'dana bonfile dışı' (tenderloin exterior) is not a braising cut, and 'dana kaburga' does not match the English 'chuck or shin'. Corrected to d"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

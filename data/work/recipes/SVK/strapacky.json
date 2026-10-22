@@ -18,7 +18,7 @@
    "120 ml su",
    "5 g tuz (1 tatlı kaşığı), hamur ve haşlama suyu için",
    "500 g lahana turşusu (süzülmüş ağırlık)",
-   "150 g tuzlu domuz yağı (slanina) veya kabuksuz pastırma",
+   "150 g tuzlu domuz yağı (slanina) veya kabuksuz domuz bacon'ı",
    "1 orta boy soğan (yaklaşık 120 g), ince doğranmış",
    "1 yemek kaşığı sıvı yağ",
    "1 tatlı kaşığı şeker",
@@ -41,7 +41,7 @@
   "tr": [
    "Un ve tuzu geniş bir kaseye eleyin, ortasında bir çukur açın. Yumurtaları ve suyu ekleyip karıştırarak sert ama pürüzsüz bir hamur elde edin.",
    "Hamuru yaklaşık 6 dakika yoğurun, streç filmle sarıp oda sıcaklığında 20 dakika dinlendirin.",
-   "Lahana turşusunu süzün, gerekirse soğuk suyla hafifçe durulayın ve elle sıkarak suyunu alın. Kısa doğrayın.",
+   "Lahana turşusunu süzün, gerekirse soğuk suyla hafifçe durulayın ve elle sıkarak suyunu alın. Kabaca doğrayın.",
    "Büyük bir tencerede 2 litre suyu kaynatın, 1 tatlı kaşık tuz ekleyin. Hamuru 1 cm kalınlığında bir parça haline getirip çok küçük kareler (yaklaşık 1 cm) halinde kesin ya da kaba delikli rendeden, spätzle presinden geçirerek kaynayan suya dökün.",
    "Hamur şekilleri yüzeye çıkana kadar yaklaşık 3-4 dakika haşlayın, süzgeçte süzüp biraz soğutun ve bir kenara koyun.",
    "Geniş bir tavada 1 yemek kaşığı yağı kızdırın, doğranmış domuz yağını ekleyip orta ateşte kenarları kızarıp gevrek olana kadar yaklaşık 6-8 dakika pişirin. Yağı tavada bırakın, parçaları süzgeç kaşığıyla alıp kenara koyun.",
@@ -67,5 +67,14 @@
   "tr": "Lahana turşusu çok ekşiyse soğuk suda durulamak ve iyice sıkmak, yemeğin dengeli olmasını sağlar; bu durumda şekeri biraz artırabilirsiniz.",
   "en": "If the sauerkraut is very sour, rinse it well and squeeze out the liquid; a little extra sugar will balance the flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'kabuksuz pastırma' (pastırma is a cured meat, usually beef) while the English says unsmoked bacon. The Turkish should match the pork bacon used in the dish.",
+   "Turkish step 3 'Kısa doğrayın' is unnatural; the English says 'Chop it coarsely', so the Turkish should be 'Kabaca doğrayın'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

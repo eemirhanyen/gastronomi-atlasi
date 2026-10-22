@@ -5,7 +5,7 @@
  },
  "native": "ፍርፍር",
  "desc": {
-  "tr": "Torn injera pieces are folded into a spiced berbere sauce made with onion, tomato and niter kibbeh. It is a popular breakfast across Ethiopia, especially on mornings after a feast or when yesterday's injera needs using up.",
+  "tr": "Parçalanmış injera, soğan, domates ve niter kibbeh ile yapılan baharatlı berbere sosuna katılır. Özellikle şölen sonrası sabahlarda veya dünkü injerayı değerlendirmek için Etiyopya genelinde popüler bir kahvaltıdır.",
   "en": "Torn injera pieces are folded into a spiced berbere sauce made with onion, tomato and niter kibbeh. It is a popular breakfast across Ethiopia, especially on mornings after a feast or when yesterday's injera needs using up."
  },
  "servings": 4,
@@ -21,6 +21,7 @@
    "1 cm taze zencefil, rendelenmiş",
    "60 g niter kibbeh (veya 50 g tereyağı ile 10 ml sıvı yağ karışımı)",
    "30 g domates salçası",
+   "1 yemek kaşığı su (kavurma için)",
    "2 yemek kaşığı berbere (yaklaşık 15 g)",
    "250 ml su",
    "1 çay kaşığı tuz"
@@ -34,6 +35,7 @@
    "1 cm fresh ginger, grated",
    "60 g niter kibbeh (or 50 g butter mixed with 10 ml neutral oil)",
    "30 g tomato paste",
+   "1 tbsp water (for frying)",
    "2 tbsp berbere (about 15 g)",
    "250 ml water",
    "1 tsp salt"
@@ -67,5 +69,14 @@
   "tr": "Bir gün önceki injera, taze olandan daha iyi dayanır; parçalar sosu emerken dağılmaz.",
   "en": "Day-old injera holds its shape better than fresh injera, so the pieces won't turn to mush in the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish description is an untranslated copy of the English text.",
+   "Step 5 uses 'a tablespoon of water' in both languages, but no water quantity for that step appears in the ingredient lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -23,7 +23,7 @@
    "10 g taze nane yaprağı, ince doğranmış",
    "1 çay kaşığı tuz",
    "1 çay kaşığı karabiber",
-   "250 ml sıcak su"
+   "400 ml sıcak su (150 ml pirinç için, 250 ml pişirme için)"
   ],
   "en": [
    "250 g brined vine leaves (about 50 leaves)",
@@ -36,7 +36,7 @@
    "10 g fresh mint leaves, finely chopped",
    "1 tsp salt",
    "1 tsp black pepper",
-   "250 ml hot water"
+   "400 ml hot water (150 ml for the rice, 250 ml for cooking)"
   ]
  },
  "steps": {
@@ -50,7 +50,7 @@
    "Sarmaları dikişleri aşağı bakacak şekilde, birbirine sıkı yerleşecek biçimde sıralayın. Her katın arasına limon dilimi koyun.",
    "Kalan 90 ml zeytinyağı, kalan limon suyunun tamamı ve 250 ml sıcak su ekleyin. Üzerine ters bir tabak koyup sarmaların yerinden oynamasını önleyin.",
    "Kapağı kapalı olarak kısık ateşte 40 dakika pişirin. Ocaktan alın ve sarmaları sıvısında tamamen soğuyana kadar bekletin.",
-   "Oda sıcaklığında, kalan zeytinyağı ve limon dilimleriyle servis yapın."
+   "Oda sıcaklığında, pişirme sıvısından birkaç kaşık ve limon dilimleriyle süsleyerek servis yapın."
   ],
   "en": [
    "Rinse the vine leaves well in cold water, then soak them in hot water for 2 minutes and drain. Cut off and discard the stems.",
@@ -62,12 +62,21 @@
    "Arrange the rolls seam side down in tight, even layers, placing lemon slices between the layers.",
    "Add the remaining 90 ml olive oil, the rest of the lemon juice and 250 ml hot water. Place an inverted plate on top to keep the rolls from unrolling.",
    "Cover and simmer over low heat for 40 minutes. Remove from the heat and let the dolmades cool completely in their liquid.",
-   "Serve at room temperature, drizzled with a little of the cooking oil and garnished with lemon slices."
+   "Serve at room temperature, drizzled with a little of the cooking liquid and garnished with lemon slices."
   ]
  },
  "tip": {
   "tr": "Yaprakları çok sıkı sarmayın; pirinç pişerken genleşir ve sarmalar yarılabilir. Pişirme sıvısı yapraklar dışında kalmalı ki sarmalar buharda değil sıvıda pişsin.",
   "en": "Roll firmly but not too tightly, as the rice swells during cooking and can split the leaves. Let the dolmades cool in their liquid, as this keeps them moist and lets the flavours settle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity mismatch: the ingredient lists say 250 ml hot water, but the steps use 150 ml (rice) plus 250 ml (cooking), for 400 ml total (both languages).",
+   "Serving step says to drizzle 'remaining' olive oil (TR: 'kalan zeytinyağı'), but all 150 ml is already used in the recipe. EN says 'a little of the cooking oil', so the two versions differ."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

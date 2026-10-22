@@ -9,7 +9,7 @@
   "en": "A classic Japanese dish of vinegared warm rice topped with raw seafood or rolled in nori seaweed, eaten at lunch, when entertaining guests at home, and on special occasions across Japan."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -48,7 +48,7 @@
    "Küçük bir tencerede pirinç sirkesi, şeker ve tuzu ısıtın; şeker ve tuz eriyince ocaktan alıp soğumaya bırakın.",
    "Sıcak pirinci geniş, düz bir kaba alın. Sirke karışımını üzerine gezdirin ve pirinci kesici bir hareketle karıştırırken bir yandan yelpazeyle havalandırarak hızlıca soğutun. Üzerini nemli bir bezle örtün.",
    "Salatalığı yıkayıp kurulayın, uzunlamasına ince dilimleyin ve 0,5 cm genişliğinde çubuklar halinde kesin.",
-   "Ton balığı ve somonu keskin bir bıçakla, maki için 1 cm kalınlığında uzun şeritler, nigiri için ise 5 cm uzunluğunda, 1 cm kalınlığında dilimler halinde kesin.",
+   "Ton balığı ve somonun yaklaşık yarısını keskin bir bıçakla 1 cm kalınlığında uzun şeritler halinde maki için kesin. Kalan yarısını ise nigiri için 5 cm uzunluğunda, 1 cm kalınlığında dilimler halinde kesin.",
    "Bambu hasır üzerine bir nori yaprağını parlak yüzü aşağı gelecek şekilde yerleştirin. Ellerinizi bir kase suya batırıp pirinçten yaklaşık 60 g alın ve nori üzerine ince bir tabaka halinde yayın; üst kenarda 1 cm boş bırakın.",
    "Pirincin ortasına wasabi ince bir çizgi halinde sürün, ardından bir sıra salatalık ve bir sıra ton balığı veya somon şeridi yerleştirin. Hasırı alttan kaldırıp sıkı bir rulo yapın ve sarıldığı kenarı biraz su ile kapatarak mühürleyin. Kalan nori ile tekrarlayın, bir kısmını ton, bir kısmını somon olacak şekilde yapın.",
    "Ruloları keskin ve ıslak bir bıçakla her seferinde bıçağı silerek 6-8 parçaya kesin.",
@@ -61,7 +61,7 @@
    "In a small pan, warm the rice vinegar, sugar and salt until the sugar and salt dissolve. Take off the heat and let it cool slightly.",
    "Transfer the hot rice to a wide, flat bowl. Drizzle the vinegar mixture over it, then mix with a cutting motion while fanning to cool it quickly. Cover with a damp cloth.",
    "Rinse and dry the cucumber, slice it lengthwise thinly, then cut into 0.5 cm sticks.",
-   "Using a sharp knife, cut the tuna and salmon into long strips about 1 cm thick for the maki, and into 5 cm long, 1 cm thick slices for the nigiri.",
+   "Using a sharp knife, cut about half of the tuna and salmon into long strips about 1 cm thick for the maki. Cut the remaining half into 5 cm long, 1 cm thick slices for the nigiri.",
    "Place a sheet of nori shiny side down on a bamboo mat. Dip your hands in a bowl of water, take about 60 g of rice and spread it thinly over the nori, leaving 1 cm bare at the top edge.",
    "Brush a thin line of wasabi across the rice, then lay a row of cucumber and a row of tuna or salmon strips on top. Lift the mat and roll tightly, then seal the bare edge with a little water. Repeat with the remaining nori, making some with tuna and some with salmon.",
    "Cut each roll into 6-8 pieces with a sharp, wet knife, wiping the blade between cuts.",
@@ -73,5 +73,15 @@
   "tr": "Pirinç sıcakken sirkeyi karıştırmak lezzeti emdirir; ellerinizi ve bıçağınızı sık sık suyla ıslatmak pirincin yapışmasını önler.",
   "en": "Mix the vinegar into the rice while it is still warm so it absorbs the flavour, and keep your hands and knife wet to stop the rice sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Total time (60 min) is too short: the recipe includes a 30-minute soak, 12 minutes of cooking, 10 minutes of resting, cooling the rice, and rolling and shaping everything. Realistic total is about 90 ",
+   "Fish allocation is unclear: step 6 cuts all the tuna and salmon into both maki strips and nigiri slices without saying how much goes to each, so the fish quantities cannot be followed.",
+   "The English and Turkish step 6 wording must match after the fish split is clarified."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

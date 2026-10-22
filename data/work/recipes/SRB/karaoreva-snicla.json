@@ -45,7 +45,7 @@
    "Eti kenarlarından içe doğru katlayarak sarın ve kürdan veya mutfak ipiyle sabitleyin.",
    "Üç ayrı kasede un, çırpılmış yumurta ve galeta ununu hazırlayın. Her paketi önce una, sonra yumurtaya, en son galeta ununa iyice bulayın ve kırıntıların sıkı tutunması için hafifçe bastırın.",
    "Geniş bir tavada ayçiçek yağını orta-yüksek ısıda yaklaşık 170 °C'ye getirin. Yağın içine bir kırıntı attığınızda hemen köpüklenmelidir.",
-   "Şnitzelleri yağa yerleştirin ve her iki yüzü altın rengi olana kadar yaklaşık 4-5 dakika kızartın. Kaymağın dışarı akmaması için ısıyı fazla yükseltmeyin.",
+   "Şnitzelleri yağa yerleştirin ve her iki yüzü altın rengi olana kadar yaklaşık 6-7 dakika kızartın. Rulonun ortasının tamamen pişmesi için ısıyı orta seviyede tutun; et iç sıcaklığı en az 71 °C'ye ulaşmalıdır (gerekirse kızarmış ruloları 180 °C fırında 8-10 dakika bitirin). Kaymağın dışarı akmaması için ısıyı fazla yükseltmeyin.",
    "Kızarmış şnitzelleri kağıt havlu serili bir tabağa alıp yağını süzdürün, kürdanları çıkarın ve birkaç dakika dinlendirin.",
    "Dilimlenmiş limonla birlikte sıcak servis yapın."
   ],
@@ -56,7 +56,7 @@
    "Fold the edges of the meat inward and roll it up, then secure with toothpicks or kitchen string.",
    "Set up three shallow dishes with flour, beaten eggs and breadcrumbs. Coat each roll first in flour, then in egg, then in breadcrumbs, pressing lightly so the crumbs stick.",
    "Heat the sunflower oil in a wide pan over medium-high heat to about 170 °C. A breadcrumb dropped in should sizzle immediately.",
-   "Fry the schnitzels for about 4-5 minutes per side until golden brown. Keep the heat moderate so the kajmak does not leak out.",
+   "Fry the schnitzels for about 6-7 minutes per side until golden brown and cooked through. Keep the heat moderate so the kajmak does not leak out; the centre should reach at least 71 °C (if needed, finish the rolls in a 180 °C oven for 8-10 minutes).",
    "Drain the fried schnitzels on paper towels, remove the toothpicks, and rest for a few minutes.",
    "Serve hot with lemon wedges."
   ]
@@ -65,5 +65,13 @@
   "tr": "Eti dövmeden önce ıslak tokmak kullanın ve dövme işlemini ortadan kenarlara doğru yapın; böylece et yırtılmaz ve doldurma sızıntı yapmaz.",
   "en": "Use a damp mallet and pound from the centre outwards so the meat does not tear and the filling stays sealed inside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (tr and en): the rolled, filled cutlet is about 1.5–2 cm thick, but 4–5 minutes per side is too short to bring the centre to a safe pork temperature. Frying time should be longer, with a donene"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

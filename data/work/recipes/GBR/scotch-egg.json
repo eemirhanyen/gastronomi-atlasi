@@ -45,7 +45,7 @@
    "Sosis karışımını 4 eşit parçaya bölün. Her parçayı streç film üzerinde yassılaştırın, bir yumurtayı ortasına koyun ve eti yumurtanın etrafına sararak tamamen kapatın. Yüzeyini pürüzsüz hale getirin.",
    "Sarılmış yumurtaları önce unda, sonra çırpılmış yumurtada, en son galeta unu içinde çevirin. Galeta unu iyice bastırılarak yapışsın.",
    "Kaplanmış yumurtaları bir tabağa alıp 20 dakika buzdolabında dinlendirin. Bu adım kaplamanın yerinde kalmasını sağlar.",
-   "Derin bir tencerede yağı 170°C'ye kadar ısıtın. Yumurtaları gruplar halinde 6-7 dakika, altın rengi alana ve sosis iç sıcaklığı 70°C'ye ulaşana kadar kızartın.",
+   "Derin bir tencerede yağı 170°C'ye kadar ısıtın. Yumurtaları gruplar halinde 8-10 dakika, altın rengi alana ve sosis iç sıcaklığı 70°C'ye ulaşana kadar kızartın.",
    "Yumurtaları kağıt havlu üzerine alıp yağını süzdürün. Ilık veya soğumuş olarak ikiye bölüp servis yapın."
   ],
   "en": [
@@ -55,7 +55,7 @@
    "Divide the sausage mixture into 4 equal portions. Flatten each on cling film, place an egg in the centre and wrap the meat fully around it, sealing any gaps and smoothing the surface.",
    "Roll each wrapped egg in flour, then in beaten egg, then in breadcrumbs, pressing the crumbs on firmly.",
    "Place the coated eggs on a plate and chill in the fridge for 20 minutes so the coating sets.",
-   "Heat the oil in a deep pan to 170°C. Fry the eggs in batches for 6-7 minutes, turning, until golden brown and the sausage meat reaches an internal temperature of 70°C.",
+   "Heat the oil in a deep pan to 170°C. Fry the eggs in batches for 8-10 minutes, turning, until golden brown and the sausage meat reaches an internal temperature of 70°C.",
    "Drain the eggs on kitchen paper. Serve warm or cold, halved if you like."
   ]
  },
@@ -63,5 +63,13 @@
   "tr": "Yumurtaları pişirdikten sonra mutlaka buzlu suda soğutun; böylece kabuğu kolay soyulur ve sarılı ortada tam kalır.",
   "en": "Chill the cooked eggs thoroughly in iced water so the shells peel easily and the yolks stay centred."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 6-7 minutes at 170°C is too short for a raw sausage-meat coating to reach a safe internal temperature (70°C) at the centre; it should be 8-10 minutes. Changed in both English and Turkis"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

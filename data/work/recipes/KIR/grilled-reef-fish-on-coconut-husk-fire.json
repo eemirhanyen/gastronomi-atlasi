@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "1 kg bütün resif balığı (mercan balığı, levrek benzeri veya lüfer türü), temizlenmiş ve pulları alınmış",
+   "1 kg bütün resif balığı (mercan balığı, levrek benzeri türler), temizlenmiş ve pulları alınmış",
    "8 g deniz tuzu (yaklaşık 1,5 tatlı kaşığı)",
    "60 ml taze limon suyu (yaklaşık 2 limon)",
    "1 adet taze acı biber, ince doğranmış",
@@ -38,7 +38,7 @@
    "Deniz tuzunu, limon suyunu ve doğranmış acı biberi bir kapta karıştırın. Karışımı balığın hem içine hem dışına sürün ve 10 dakika dinlendirin.",
    "Muz yapraklarını ateşin üzerinden birkaç saniye geçirerek yumuşatın. Yaprakların üzerine balığı koyun ve içine 2 yemek kaşığı hindistan cevizi kreması ekleyin.",
    "Balığı yapraklarla birlikte korların üzerindeki ızgaraya yerleştirin. Orta ateşte her iki yanını yaklaşık 12 dakika pişirin, bu sırada kalan hindistan cevizi kremasını fırçayla sürerek nemli tutun.",
-   "Balık etin çatalla kolayca ayrıldığını kontrol edin. Yaprağından çıkarıp sıcak olarak, kalan kremayı ve bir miktar limonu yanında servis edin."
+   "Balık etin çatalla kolayca ayrıldığını kontrol edin. Yaprağından çıkarıp sıcak olarak, kalan kremayı yanında servis edin."
   ],
   "en": [
    "Outdoors, in a sheltered spot away from wind, stack the coconut husks and light them. Let them burn for about 25 minutes until they form a bed of glowing embers.",
@@ -46,12 +46,21 @@
    "In a bowl, mix the sea salt, lime juice and sliced chili. Rub the mixture inside and outside the fish and leave to rest for 10 minutes.",
    "Pass the banana leaves briefly over the flame to soften them. Place the fish on the leaves and spoon 2 tablespoons of coconut cream into its cavity.",
    "Set the fish, still on the leaves, on the grill over the embers. Cook over medium heat for about 12 minutes per side, brushing with the remaining coconut cream to keep it moist.",
-   "Check that the flesh flakes easily with a fork. Remove it from the leaves and serve hot, with the remaining cream and extra lime."
+   "Check that the flesh flakes easily with a fork. Remove it from the leaves and serve hot, with the remaining cream."
   ]
  },
  "tip": {
   "tr": "Hindistan cevizi kabuğu çok hızlı yanar; kor tabakası oluşmadan balığı koymayın, aksi halde dış yüzey kararırken iç kısım pişmeden kalabilir.",
   "en": "Dried husks burn fast, so wait for a steady bed of embers before placing the fish; otherwise the outside can char before the inside cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 (EN and TR) serves 'extra lime' / 'bir miktar limonu', but all 60 ml of lime juice is used in the marinade and no additional lime is listed.",
+   "Turkish ingredient list gives 'lüfer' as an example of reef fish, but lüfer is a pelagic fish, not a reef fish, and conflicts with the English 'snapper, grouper or similar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

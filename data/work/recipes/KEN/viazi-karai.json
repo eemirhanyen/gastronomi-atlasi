@@ -20,6 +20,7 @@
    "2 g öğütülmüş kimyon",
    "2 g toz pul biber",
    "5 g tuz (ayrıca patatesler için 5 g)",
+   "1 L soğuk su (patatesleri kaplayacak kadar)",
    "10 g sarımsak (ezilmiş)",
    "5 g rendelenmiş taze zencefil",
    "220 ml su",
@@ -33,6 +34,7 @@
    "2 g ground cumin",
    "2 g chili powder",
    "5 g salt (plus 5 g for the potato soaking water)",
+   "1 L cold water (enough to cover the potatoes)",
    "10 g garlic (crushed)",
    "5 g freshly grated ginger",
    "220 ml water",
@@ -42,7 +44,7 @@
  "steps": {
   "tr": [
    "Patatesleri 2 cm kalınlığında dilimleyin, sonra 1 cm'lik çubuklar halinde kesin.",
-   "Kesilmiş patatesleri 5 g tuzlu soğuk suda 10 dakika bekletin, süzün ve kağıt havlu ile iyice kurulayın.",
+   "Kesilmiş patatesleri 5 g tuzlu 1 L soğuk suda 10 dakika bekletin, süzün ve kağıt havlu ile iyice kurulayın.",
    "Un, mısır nişastası, zerdeçal, kimyon, pul biber ve 5 g tuzu bir kapta karıştırın.",
    "Ezilmiş sarımsak ve rendelenmiş zencefili ekleyin, ardından suyu azar azar ilave ederek pürüzsüz, akıcı bir hamur elde edene kadar çırpın.",
    "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın.",
@@ -53,7 +55,7 @@
   ],
   "en": [
    "Cut the potatoes into 2 cm thick slices, then cut the slices into 1 cm sticks.",
-   "Soak the cut potatoes in cold water with 5 g of salt for 10 minutes, drain, and pat them thoroughly dry with kitchen paper.",
+   "Soak the cut potatoes in 1 L of cold water with 5 g of salt for 10 minutes, drain, and pat them thoroughly dry with kitchen paper.",
    "In a bowl, mix the flour, cornstarch, turmeric, cumin, chili powder, and the remaining 5 g of salt.",
    "Add the crushed garlic and grated ginger, then gradually add the water while whisking until you have a smooth, pourable batter.",
    "Heat the frying oil in a deep pan to 180°C.",
@@ -67,5 +69,13 @@
   "tr": "Patatesleri kızartmadan önce mutlaka iyice kurutun; yüzeyde kalan su yağı sıçratır ve hamurun tutunmasını zorlaştırır.",
   "en": "Dry the potatoes thoroughly before coating them; any surface water will spatter in the oil and stop the batter from clinging."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The potato soaking water (1 L cold water, as needed to cover the potatoes) is used in step 2 but has no amount in the ingredient list, in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

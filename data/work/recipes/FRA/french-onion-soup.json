@@ -51,7 +51,7 @@
    "Geniş ve ağır tabanlı bir tencerede tereyağı ve zeytinyağını orta ateşte eritin. Soğanları, 1 tatlı kaşık tuz ve 1 tatlı kaşık şekerle birlikte ekleyin.",
    "Soğanları ara sıra karıştırarak 35-40 dakika kadar, altın kahverengi ve çok yumuşak olana kadar karamelize edin. Ateşi gerekirse düşürün, soğanların yanmamasına dikkat edin.",
    "Sarımsakları ekleyip 1 dakika kadar, kokusu çıkana kadar karıştırın.",
-   "Kuru beyaz şarabı ekleyip tencerenin dibindeki kahverengi parçaları kazıyarak yaklaşık 3 dakika, şarap neredeyse tamamen buharlaşana kadar kaynatın.",
+   "Kuru beyaz şarabı ekleyip tencerenin dibindeki kahverengi parçaları kazıyarak yaklaşık 5-7 dakika, şarap neredeyse tamamen buharlaşana kadar kaynatın.",
    "Konyak kullanıyorsanız ekleyin ve alevlendirmeden kısa süre kaynatın. Dana et suyunu, kekiği ve defne yaprağını ekleyin.",
    "Karışımı kısık ateşte, kapağı yarı açık olarak 20 dakika pişirin. Kekik dallarını ve defne yaprağını çıkarın, tadına bakıp gerekirse tuz ve taze çekilmiş karabiber ekleyin.",
    "Fırını ızgara modunda 220 °C'ye ısıtın. Baget dilimlerini fırın tepsisinde kızarana kadar yaklaşık 3-4 dakika kızartın.",
@@ -63,7 +63,7 @@
    "Melt the butter with the olive oil in a wide, heavy-bottomed pot over medium heat. Add the onions with 1 tsp salt and 1 tsp sugar.",
    "Cook the onions for 35-40 minutes, stirring occasionally, until deep golden brown and very soft. Lower the heat if needed so they do not burn.",
    "Add the garlic and stir for about 1 minute, until fragrant.",
-   "Pour in the dry white wine and simmer for about 3 minutes, scraping up the browned bits from the bottom of the pot, until the wine has almost fully evaporated.",
+   "Pour in the dry white wine and simmer for about 5-7 minutes, scraping up the browned bits from the bottom of the pot, until the wine has almost fully evaporated.",
    "If using cognac, add it and simmer briefly without flaming. Add the beef stock, thyme and bay leaf.",
    "Simmer gently for 20 minutes with the lid partly open. Remove the thyme stems and bay leaf, then taste and adjust with salt and freshly ground black pepper if needed.",
    "Heat the grill to 220 °C. Toast the baguette slices on a baking tray for 3-4 minutes, until golden.",
@@ -75,5 +75,13 @@
   "tr": "Soğanları acele ederek kavurmayın; renk yavaş yavaş koyulaşmalı ve tatlılık oluşmalı. Acele edilirse çorba acı ve sığ bir tat alır.",
   "en": "Do not rush the onions. The colour should deepen slowly and develop natural sweetness; rushing them gives a bitter, flat-tasting soup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5: 250 ml wine reduced to 'almost fully evaporated' in about 3 minutes is unrealistically short; about 5-7 minutes is needed (TR and EN both affected)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -6,7 +6,7 @@
  "native": "Сарма",
  "desc": {
   "tr": "Sırbistan'da kış aylarında, özellikle Noel ve yılbaşı sofralarında yenen, ekşi lahana yapraklarına kıyma ve pirinç sarılıp ağır ağır pişirilen geleneksel bir yemektir. Genellikle ekşi krema ve ekmekle servis edilir.",
-  "en": "A winter staple of Serbian cuisine, especially on Christmas and New Year's tables, made by rolling minced pork and beef with rice in sour cabbage leaves and slowly simmering them. It is usually served with sour cream and bread."
+  "en": "A winter staple of Serbian cuisine, especially on Christmas and New Year's tables, made by rolling minced beef, pork and lamb with rice in sour cabbage leaves and slowly simmering them. It is usually served with sour cream and bread."
  },
  "servings": 4,
  "time_min": 150,
@@ -79,5 +79,13 @@
   "tr": "Ekşi lahanayı durulamak ekşiliği dengeler; ekşi kremayı servisten hemen önce ekleyin ki sarmanın sıcaklığında ayrışmasın.",
   "en": "Rinsing the sauerkraut balances its acidity. Serve the sour cream on the side so it stays fresh and does not split in the hot sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English description says the sarma uses only pork and beef mince, but the ingredients include 200 g lamb mince."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

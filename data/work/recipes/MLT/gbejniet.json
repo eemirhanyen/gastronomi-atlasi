@@ -40,7 +40,7 @@
    "Sütü geniş bir tencerede orta ateşte 32 °C'ye kadar ısıtın. Kaynamasına izin vermeyin.",
    "Mayayı 50 ml soğuk suda seyreltin ve sütün içine ekleyip yavaşça karıştırın. Kapağını örtüp oda sıcaklığında 45-60 dakika bekleyin, süt pıhtılaşana kadar dinlendirin.",
    "Pıhtıyı bir bıçakla kare şeklinde dilimleyin, ardından kaşıkla yavaşça kesilmiş pıhtıyı toplayın.",
-   "Pıhtıyı, tabanında delikler bulunan küçük kalıplara (yaklaşık 6 cm çapında) tenekeden tatlı kepeği ile... ",
+   "Pıhtıyı, tabanında delikler bulunan küçük kalıplara (yaklaşık 6 cm çapında) kepçeyle dökün ve tepsiye yerleştirin.",
    "Kalıpları tülbentle kaplayın, pıhtıyı içine doldurun ve serin bir yerde 12-24 saat süzülmesini bekleyin.",
    "Peynirleri kalıplardan çıkarın, yüzeylerine tuzun yarısını serpin. Temiz bir rafa alıp serin ve havadar bir yerde 2-3 gün, her gün çevirerek kurumaya bırakın.",
    "Kalan tuzu da ekleyip peynirler iyice sertleşene kadar kurutmaya devam edin.",
@@ -63,5 +63,14 @@
   "tr": "Süzme ve kurutma işlemleri birkaç gün sürer; 60 dakika yalnızca pıhtılaştırma ve kalıplama süresidir. Peynirlerin kurumasını sağlamak için serin, havalandırmalı bir yer seçin.",
   "en": "Draining and drying take several days; the 60 minutes covers only setting and moulding. Choose a cool, well-ventilated spot so the cheeses dry evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 is truncated and nonsensical (\"tenekeden tatlı kepeği ile...\") and does not match the English step 4 (ladling curd into moulds on a tray).",
+   "time_min is 60, but the tip says the process takes several days. The field should reflect the total time or be clearly labeled as active time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

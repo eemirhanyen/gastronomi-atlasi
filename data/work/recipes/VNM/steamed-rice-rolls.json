@@ -28,7 +28,7 @@
    "150 g fasulye filizi",
    "100 g salatalık, ince dilimlenmiş",
    "80 g cha lụa (Vietnam domuz sosisi), ince dilimlenmiş",
-   "20 g kızarmış arpacık soğanı",
+   "20 g hazır kızarmış arpacık",
    "50 g taze kişniş ve nane",
    "45 ml balık sosu (sos için)",
    "60 ml su (sos için)",
@@ -53,7 +53,7 @@
    "150 g bean sprouts",
    "100 g cucumber, thinly sliced",
    "80 g cha lụa (Vietnamese pork sausage), thinly sliced",
-   "20 g fried shallots",
+   "20 g ready-made fried shallots",
    "50 g fresh coriander and mint",
    "45 ml fish sauce (for the dip)",
    "60 ml water (for the dip)",
@@ -67,7 +67,7 @@
   "tr": [
    "Pirinç unu, tapyoka nişastası, 600 ml suyu ve tuzu pürüzsüz bir hamur oluşana kadar çırpın. 15 ml yağı ekleyin ve hamuru yaklaşık 30 dakika dinlendirin.",
    "Kulak mantarını ılık suda 20 dakika bekletin, süzün ve ince ince doğrayın. Arpacık soğanlarını da ince doğrayın.",
-   "Büyük bir tavada 15 ml yağı orta ateşte ısıtın. Arpacıkları yaklaşık 1 dakika kavurun, kıymayı ekleyip dağıtarak yaklaşık 4 dakika pişirin.",
+   "Büyük bir tavada 15 ml yağı orta ateşte ısıtın. Arpacıkları yaklaşık 1 dakika kavurun, kıymayı ekleyip dağıtarak yaklaşık 4 dakika, pembe kalmayana kadar pişirin.",
    "Doğranmış kulak mantarını, balık sosunu, şekeri ve karabiberi ekleyin. Karışım kuruyana kadar yaklaşık 3 dakika daha pişirin, ardından soğumaya bırakın.",
    "Sosu hazırlamak için şekeri suda eritin. Balık sosu, limon suyu, sarımsak ve acı biberi ekleyip karıştırın, bir kenara alın.",
    "Geniş bir tencerede suyu kaynatın. Tencerenin ağzına bir bez gerin; bezin sıkı durmasına ve suya değmemesine dikkat edin. Bezin üzerini yağla hafifçe yağlayın.",
@@ -88,8 +88,18 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru her dökmeden önce iyice karıştırın, çünkü un çöker. Bezi her seferinde yağlamak, ruloların bezden kolayca ayrılmasını sağlar.",
+  "tr": "Hamuru her dökmeden önce iyice karıştırın, çünkü nişasta çabuk çöker. Bezi her seferinde yağlamak, ruloların bezden kolayca ayrılmasını sağlar.",
   "en": "Stir the batter before every pour, as the starch settles quickly. Oiling the cloth each time helps the sheets lift off cleanly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fried shallots are listed as an ingredient and used for serving, but no step makes them. Changed the ingredient to ready-made fried shallots so no extra frying step is needed.",
+   "Turkish step 3 omits the English doneness cue 'until no pink remains' for the ground pork, so the two versions disagree on food safety.",
+   "Turkish tip says 'un çöker' (flour settles), but the English says starch settles. Corrected to 'nişasta' to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

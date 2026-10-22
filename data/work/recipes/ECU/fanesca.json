@@ -27,7 +27,7 @@
    "3 haşlanmış yumurta, ikiye bölünmüş",
    "1 avokado, dilimlenmiş",
    "1 küçük kırmızı soğan, ince dilimlenmiş",
-   "1 limon",
+   "1 misket limonu (lime), ikiye bölünmüş",
    "Ekvador ají sosu (servis için)",
    "Tuz ve karabiber, tadına göre"
   ],
@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "Karışık tahıl ve baklagilleri bir kapta bol suda gece boyunca ıslatın. Ertesi gün süzüp durulayın.",
+   "Karışık tahıl ve baklagilleri bir kapta bol suda gece boyunca ıslatın. Ertesi gün süzüp durulayın. Lupin fasulyesi ham haliyle zehirlidir: paketinde 'acısı alınmış' yazmıyorsa, lupin fasulyelerini ayrıca 2-3 gün boyunca günde birkaç kez suyunu değiştirerek ıslatın, sonra en az 30 dakika kaynatıp suyunu dökün. Acısı tamamen gitmeden çorbaya eklemeyin.",
    "Tuzlu morinayı 24 saat boyunca soğuk suda bekletin ve bu sürede suyunu 3 kez değiştirin. Süzüp taze suda 8 dakika kaynatın, sonra tekrar süzün. Derisini ve kılçıklarını ayıklayıp lifler halinde ayırın.",
    "Islatılmış tahılları büyük bir tencereye alın, 1,5 litre su ekleyip kaynatın. Ateşi kısın ve tahıllar yumuşayana kadar, yaklaşık 60-75 dakika kısık ateşte pişirin.",
    "Kabağı ve muzu tencereye ekleyip 15 dakika daha, çok yumuşayana kadar pişirin.",
@@ -63,7 +63,7 @@
    "Sıcak sıcak servis yapın. Her kasenin üzerine yumurta yarımları, avokado dilimleri ve kırmızı soğan koyun. Limon ve ají sosunu yanında sunun."
   ],
   "en": [
-   "Soak the mixed grains and legumes in plenty of water overnight. The next day, drain and rinse them.",
+   "Soak the mixed grains and legumes in plenty of water overnight. The next day, drain and rinse them. Raw lupin beans are toxic: unless the package says they are debittered, soak the lupin beans separately for 2–3 days, changing the water several times a day, then boil them for at least 30 minutes and discard the water. Do not add them to the soup until they are fully debittered.",
    "Soak the salt cod in cold water for 24 hours, changing the water 3 times. Drain, simmer in fresh water for 8 minutes, then drain again. Remove the skin and bones and flake the flesh.",
    "Put the soaked grains in a large pot with 1.5 litres of water, bring to a boil, then reduce the heat and simmer for 60–75 minutes until the grains are soft.",
    "Add the pumpkin and plantain to the pot and cook for another 15 minutes until very tender.",
@@ -77,5 +77,14 @@
   "tr": "Morinayı kullanmadan önce mutlaka uzun süre ıslatın ve suyunu değiştirin; aksi halde çorba fazla tuzlu olur.",
   "en": "Soak the salt cod thoroughly and change the water often, or the soup will taste too salty."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Lupin beans (chochos/tarwi) are toxic raw and bitter. The recipe only soaks them overnight with the other legumes, which may not remove the alkaloids. The steps need a debittering instruction.",
+   "Turkish ingredient says '1 limon' (lemon), but the English says '1 lime' and the dish uses lime. Turkish should specify misket limonu."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

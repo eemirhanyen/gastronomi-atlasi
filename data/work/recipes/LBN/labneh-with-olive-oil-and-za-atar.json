@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g tam yağlı, katkısız sade yoğurt",
+   "600 g tam yağlı, katkısız sade yoğurt (jelatin veya nişasta içermeyen)",
    "3 g ince deniz tuzu (yaklaşık ½ çay kaşığı)",
    "60 ml sızma zeytinyağı",
    "10 g zahter karışımı (kekik, sumak, susam ve tuz içeren)",
@@ -35,7 +35,7 @@
   "tr": [
    "Bir kaseyi bir elek ile kapatın ve eleğin içine tülbent veya temiz peynir bezi yerleştirin.",
    "Yoğurdu tuzla bir kasede karıştırın, ardından bezin içine dökün.",
-   "Bezin kenarlarını bağlayın ve kasenin üzerine asın. Buzdolabında 12-24 saat süzülmeye bırakın; yoğurt yarıya yakın kıvama gelince labne hazırdır.",
+   "Bezin kenarlarını bağlayın ve kasenin üzerine asın. Buzdolabında 12-24 saat süzülmeye bırakın; yoğurt yumuşak, yayılabilir bir peynir kıvamına gelince labne hazırdır.",
    "Labneyi bezden bir kaseye alın, kaşıkla pürüzsüzleştirin ve tadına bakıp gerekirse tuzunu ayarlayın.",
    "Labneyi düz bir tabağa yayın, ortasına hafif bir çukur açın ve zeytinyağını gezdirin.",
    "Üzerine zahter serpin. Pideleri kuru bir tavada veya 180°C fırında 3 dakika ısıtın.",
@@ -55,5 +55,14 @@
   "tr": "Süzülen peynir suyunu atmayın; ekmek hamuruna veya çorbalara ekleyerek kullanabilirsiniz.",
   "en": "Save the whey drained from the yogurt; it can be used in bread dough or soups."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says the yogurt should reach 'yarıya yakın kıvam' (roughly half-thickness), which is unclear and does not match the English 'spreadable, soft-cheese texture'.",
+   "Turkish ingredient list omits the English note 'without gelatin or starch', so the two versions disagree on the yogurt spec."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

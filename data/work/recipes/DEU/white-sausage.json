@@ -9,7 +9,7 @@
   "en": "A traditional Munich breakfast sausage made from veal and pork back fat, unsmoked and delicately spiced. It is eaten before noon with sweet mustard, pretzels and wheat beer."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 210,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Suyun kaynamaması çok önemlidir; 80°C'nin üzerinde pişen Weißwurst patlar. Geleneğe uygun olarak sosisin derisini yemeyin, etini emerek çıkarın.",
   "en": "Never let the water boil, or the sausages will split. Traditionally, the casing is not eaten: you suck the meat out of the skin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short: the steps include at least 30 min of chilling, a 30 min soak, about 2 hours of refrigerated drying, and poaching, so the total is well over 90 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

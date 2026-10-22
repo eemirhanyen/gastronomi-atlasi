@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g karışık mantar (kantarel, çayır mantarı veya kültür mantarı), temizlenmiş ve dilimlenmiş",
+   "500 g karışık mantar (kantarel, boletus veya kültür mantarı), temizlenmiş ve dilimlenmiş",
    "300 g orta boy soğan (2 adet), ince dilimlenmiş",
    "45 ml ayçiçek yağı",
    "15 g tereyağı",
@@ -55,5 +55,13 @@
   "tr": "Mantarları önce yağsız tavada kuru kavurarak suyunu çektirin; bu sayede yağda haşlanmak yerine kızarır ve tadı yoğunlaşır. Ekşi kremayı mutlaka ocak kapalıyken ekleyin ki kaynayıp ayrışmasın.",
   "en": "Dry-fry the mushrooms first so their liquid evaporates; they will brown instead of stewing and the flavour will concentrate. Always add the sour cream off the heat so it does not boil and split."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English mushroom lists disagree: English says 'boletus or champignons', but Turkish says 'çayır mantarı' (field mushroom) where boletus should be."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

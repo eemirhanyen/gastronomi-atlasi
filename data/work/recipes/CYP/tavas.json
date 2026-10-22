@@ -55,9 +55,9 @@
    "Aynı tencereye soğanı ekleyip yumuşayıp hafif altın rengi alana kadar 8-10 dakika kavurun. Sarımsağı ekleyip 1 dakika daha pişirin.",
    "Domates salçasını ekleyip 1 dakika karıştırarak kavurun.",
    "Kırmızı şarabı dökün ve yarıya inene kadar kaynatın.",
-   "Eti tencereye geri koyun. Domatesleri, kişniş tohumlarını, tarçını, defne yapraklarını ve sıcak suyu ekleyin. Kaynamaya bırakın.",
+   "Eti tencereye geri koyun. Domatesleri, kişniş tohumlarını, tarçını, defne yapraklarını ve sıcak suyu ekleyin. Kaynamaya başlayana kadar ısıtın.",
    "Kapağını kapatıp fırına verin ve yaklaşık 1 saat pişirin.",
-   "Patatesleri ekleyip etin altına gömün, tuzunu ayarlayın ve kapağı kapalı şekilde 45 dakika daha pişirin. Et ve patatesler yumuşayıp sos koyulaşmalı.",
+   "Patatesleri ekleyip etlerin çevresindeki sosun içine bastırarak yerleştirin, tuzunu ayarlayın ve kapağı kapalı şekilde 45 dakika daha pişirin. Et ve patatesler yumuşayıp sos koyulaşmalı.",
    "Tarçın çubuğunu ve defne yapraklarını çıkarın. Üzerine doğranmış maydanozu serpip sıcak servis yapın."
   ],
   "en": [
@@ -77,5 +77,14 @@
   "tr": "Geleneksel olarak kapaklı toprak bir tavada pişirilir; yoksa kalın tabanlı bir fırın tenceresi de iyi sonuç verir. Eti önceden kavurmak lezzetin temelini oluşturur.",
   "en": "Traditionally cooked in a covered clay dish, but a heavy cast-iron casserole works well. Browning the meat properly builds the depth of flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 says the potatoes should be buried under the meat (\"etin altına gömün\"), but the English says to push them into the sauce around the meat. The two versions disagree on placement.",
+   "Turkish step 7 \"Kaynamaya bırakın\" (let it boil) does not match the English \"bring to a simmer\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

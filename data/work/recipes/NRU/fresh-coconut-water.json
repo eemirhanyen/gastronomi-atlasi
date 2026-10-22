@@ -9,7 +9,7 @@
   "en": "Fresh coconut water is a refreshing drink taken straight from young green coconuts. It is enjoyed on hot days, between meals, and along the coastal areas of the island."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 35,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,5 +47,13 @@
   "tr": "Dolgun ve içinden su sesi gelen, kabuğu yeşil ve pürüzsüz hindistan cevizlerini seçin; bunlar en tatlı suyu verir.",
   "en": "Choose coconuts that feel heavy, have smooth green shells, and slosh when shaken, as these give the sweetest water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 15, but step 5 requires about 20 minutes of chilling plus preparation, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

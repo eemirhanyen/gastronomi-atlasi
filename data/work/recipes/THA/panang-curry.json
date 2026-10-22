@@ -42,7 +42,7 @@
  "steps": {
   "tr": [
    "Tavuk dilimlerini bir kaseye alın ve 1 yemek kaşığı (yaklaşık 15 ml) balık sosunun yarısıyla marine edip bir kenara koyun.",
-   "Geniş bir tencerede ya da wok'ta 150 ml hindistan cevizi sütünü orta ateşte kaynatın. Sütün kenarında yağ ayrılmaya başlayınca bitkisel yağı ekleyin.",
+   "Geniş bir tencerede ya da wok'ta 150 ml hindistan cevizi sütünü orta ateşte hafifçe kaynamaya başlayana kadar ısıtın. Sütün kenarında yağ ayrılmaya başlayınca bitkisel yağı ekleyin.",
    "Panang köri macununu ekleyip 2–3 dakika, kokusu çıkana ve yağ yüzeye ayrılana kadar sürekli karıştırarak kavurun.",
    "Marine edilmiş tavuğu ekleyin ve macunla iyice kaplanana kadar 3–4 dakika karıştırarak pişirin.",
    "Kalan 250 ml hindistan cevizi sütünü ekleyip karıştırın. Kısık ateşte kaynamaya bırakın ve tavuk pişene kadar yaklaşık 10 dakika pişirin.",
@@ -65,5 +65,13 @@
   "tr": "Panang macunu tuzludur; bu yüzden balık sosunu ve şekeri son tadına göre ayarlayın. Kaffir limon yapraklarını ince doğramak, köri içinde yumuşak ama belirgin bir aroma bırakmasını sağlar.",
   "en": "Panang paste is quite salty, so adjust the fish sauce and sugar at the end by tasting. Finely slicing the kaffir lime leaves gives a soft but noticeable citrus aroma throughout the curry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 Turkish says \"kaynatın\" (bring to a boil), but the English says \"gentle simmer\". Boiling coconut milk vigorously can cause it to split, so the Turkish should match the gentler technique."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,8 +5,8 @@
  },
  "native": "Algeria",
  "desc": {
-  "tr": "Kıvrık şekilli, kızartılmış hamurun bal şerbetine batırılıp susamla kaplandığı bir Mağrip tatlısıdır. Özellikle Ramazan ayında iftar sofralarında ve bayram ikramlarında yer alır.",
-  "en": "A twisted, fried dough pastry dipped in honey syrup and coated in sesame. It is eaten across the Maghreb, especially in Algeria and Morocco, during Ramadan iftar tables and at festive occasions."
+  "tr": "Kıvrık şekilli, kızartılmış hamurun bal şerbetine batırılıp susamla kaplandığı bir Mağrip tatlısıdır. Kökeni Fas'a dayanır; Cezayir'de de yaygın olarak yapılır. Özellikle Ramazan ayında iftar sofralarında ve bayram ikramlarında yer alır.",
+  "en": "A twisted, fried dough pastry dipped in honey syrup and coated in sesame. It originates in Morocco and is also widely made in Algeria and across the Maghreb, especially on Ramadan iftar tables and at festive occasions."
  },
  "servings": 4,
  "time_min": 90,
@@ -75,5 +75,13 @@
   "tr": "Hamuru iyice dinlendirmek, kızartırken şeklini korumasını ve şerbeti daha iyi emmesini sağlar.",
   "en": "Resting the dough properly helps the twists hold their shape while frying and lets them absorb the syrup evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chebakia originates in Morocco (Fes), not Algeria. The description presents it as Algerian-specific, which is historically inaccurate. The description is corrected to note Moroccan origin and its popu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

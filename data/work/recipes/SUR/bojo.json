@@ -9,7 +9,7 @@
   "en": "A dense, sweet cassava cake popular across Suriname, especially in Javanese and Indo-Surinamese communities. It is served at festivals, family gatherings and special occasions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -18,7 +18,7 @@
    "150 g esmer şeker",
    "200 ml hindistan cevizi sütü",
    "80 g tereyağı, eritilmiş",
-   "1/2 çay kaşığı öğütülmüş hindistan cevizi",
+   "1/2 çay kaşığı öğütülmüş muskat",
    "1/2 çay kaşığı tarçın",
    "1/2 çay kaşığı vanilya özü",
    "1 tutam tuz",
@@ -43,7 +43,7 @@
   "tr": [
    "Fırını 180°C'ye ısıtın. 20 x 20 cm'lik bir kalıbı tereyağıyla yağlayın ve muz yaprağı veya pişirme kağıdıyla kaplayın.",
    "Rendelenmiş kasavayı temiz bir bezin içine koyun ve fazla suyunu iyice sıkın.",
-   "Sıkılmış kasavayı büyük bir kaseye alın. Hindistan cevizi, esmer şeker, tuz, hindistan cevizi, tarçın ve vanilya özünü ekleyip karıştırın.",
+   "Sıkılmış kasavayı büyük bir kaseye alın. Rendelenmiş hindistan cevizi, esmer şeker, tuz, öğütülmüş muskat, tarçın ve vanilya özünü ekleyip karıştırın.",
    "Eritilmiş tereyağı ve hindistan cevizi sütünü ekleyin. Hamur yumuşak ama kıvamlı olana kadar iyice karıştırın.",
    "Hamuru hazırladığınız kalıba dökün ve spatulayla düzeltin.",
    "50-60 dakika, üstü altın rengi olana ve kenarları kıvam alana kadar pişirin. Ortasına batırdığınız çubuk temiz çıkmalıdır.",
@@ -65,5 +65,15 @@
   "tr": "Kasavayı ne kadar iyi sıkarsanız kek o kadar yoğun ve dilimlenebilir olur; fazla su hamuru dağıtır.",
   "en": "The drier the grated cassava, the denser and easier to slice the cake will be; excess liquid makes it crumbly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'hindistan cevizi' (coconut) for nutmeg in the ingredient list and step 3, so the Turkish text is ambiguous and wrong. The English says nutmeg, and the Turkish term is 'muskat'.",
+   "Turkish step 3 lists 'hindistan cevizi' twice, once for grated coconut and once for nutmeg, which is confusing.",
+   "time_min 60 is too low. Grating and squeezing the cassava, the 50-60 minute bake, and 15 minutes of cooling add up to roughly 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,7 +21,7 @@
   "en": [
    "240 ml cold water",
    "20 g very finely ground Turkish coffee",
-   "10 g powdered sugar (for medium sweetness; adjust to taste)",
+   "10 g granulated sugar (for medium sweetness; adjust to taste)",
    "4 small glasses of water (for serving)"
   ]
  },
@@ -37,7 +37,7 @@
   ],
   "en": [
    "Pour 240 ml of cold water into the cezve (ibrik).",
-   "Add the powdered sugar and 20 g of Turkish coffee, then stir gently with a spoon until the coffee and sugar are fully combined.",
+   "Add the granulated sugar and 20 g of Turkish coffee, then stir gently with a spoon until the coffee and sugar are fully combined.",
    "Place the cezve on low heat and let the coffee warm slowly, without stirring.",
    "When foam begins to form on the surface, remove the cezve from the heat and spoon the foam evenly into four small cups.",
    "Return the cezve to low heat and, when the coffee nearly boils and foam rises a second time, remove it from the heat.",
@@ -49,5 +49,13 @@
   "tr": "Kahvenin kaynamasına izin vermeyin; her iki köpük kabarmasında da ocaktan alıp dinlendirmek, kahvenin aromasını ve köpüğünü korur.",
   "en": "Never let the coffee come to a full boil; removing it from the heat at each foam rise keeps the flavour balanced and the foam thick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient and step 2 say \"powdered sugar\", which means icing sugar in English. The Turkish \"toz şeker\" is granulated sugar, so the English should be \"granulated sugar\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

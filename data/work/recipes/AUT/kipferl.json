@@ -9,7 +9,7 @@
   "en": "A soft, butter-enriched yeast roll shaped like a crescent, eaten at breakfast or with coffee in Austria. It is traditionally baked fresh in Viennese bakeries in the morning."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Uçları ince tutarak hamuru yuvarlarken ortasını kalın bırakın; bu, hilal şeklinin fırında bozulmadan korunmasını sağlar.",
   "en": "Taper the ends when rolling so the middle stays thicker; this helps the crescent keep its shape in the oven."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too low for the steps: about 5 min proofing the yeast, 8-10 min kneading, 60 min first rise, 30 min second rise and 15-18 min baking adds up to roughly 2 hours before cooling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

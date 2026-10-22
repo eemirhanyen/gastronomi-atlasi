@@ -47,11 +47,11 @@
   "tr": [
    "Atsuete tohumlarını 120 ml sıcak suda 10 dakika bekletin, süzün ve tohumları atın. Turuncu suyu bir kenara alın.",
    "Öküz kuyruğu parçalarını büyük bir tencereye alın, 2 L su ve yarım soğanla birlikte kaynatın. Yüzeyde biriken köpüğü alın, ardından kısık ateşte yaklaşık 1,5 saat, et yumuşayıncaya kadar pişirin.",
-   "Et pişerken kuru bir tavada yer fıstığını 3-4 dakika, hafif renk alana kadar kavurun. Bir kısmını blenderda birkaç yemek kaşığı sıcak et suyu ile pürüzsüz bir macun haline getirin.",
-   "Kuru bir tavada yapışkan pirinç unu 2-3 dakika, altın rengi alana kadar kavurun.",
+   "Et pişerken kuru bir tavada yer fıstığını 3-4 dakika, hafif renk alana kadar kavurun. Üçte ikisini blenderda birkaç yemek kaşığı sıcak et suyu ile pürüzsüz bir macun haline getirin. Kalanını kabaca doğrayın.",
+   "Kuru bir tavada yapışkan pirinç unu 2-3 dakika, altın rengi alana kadar kavurun ve kenara alın.",
    "Ayrı bir geniş tavada sıvı yağı orta ateşte ısıtın. Sarımsağı ve kalan soğanı doğrayıp 2-3 dakika, soğan yumuşayana kadar kavurun.",
-   "Pişmiş öküz etini ve yaklaşık 300 ml et suyunu tavaya ekleyin. Atsuete suyunu, fıstık macununu ve kavrulmuş pirinç unu ilave edip karıştırın. Kısık ateşte 15-20 dakika, sos kıvamlanana kadar pişirin.",
-   "Patlıcan ve uzun fasulyeyi sosa ekleyip 5-6 dakika pişirin. Ardından bok choy yapraklarını ekleyip 2 dakika daha, sebzeler yumuşak ama dolgun kalana kadar pişirin.",
+   "Pişmiş öküz etini ve yaklaşık 300 ml et suyunu tavaya ekleyin. Atsuete suyunu, fıstık macununu, doğranmış fıstıkları ve kavrulmuş pirinç unu ilave edip karıştırın. Kısık ateşte 15-20 dakika, sos kıvamlanana kadar pişirin.",
+   "Patlıcan ve uzun fasulyeyi sosa ekleyip 5-6 dakika pişirin. Ardından bok choy yapraklarını ekleyip 2 dakika daha, sebzeler yumuşak ama canlı kalana kadar pişirin.",
    "Tuzla tatlandırın. Sosun kıvamını gerekirse et suyu ile ayarlayın.",
    "Sıcak sıcak servis yapın. Yanında bagoong alamang ile birlikte sunun."
   ],
@@ -71,5 +71,15 @@
   "tr": "Öküz kuyruğunu bir gece önceden pişirip soğutursanız, yağ kolayca alınır ve et daha da yumuşak olur.",
   "en": "Cook the oxtail a day ahead and chill it; the fat then lifts off easily and the meat becomes even more tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 omits the instruction to coarsely chop the remaining peanuts, which the English version includes.",
+   "Turkish step 6 omits the chopped peanuts from the sauce, so the English and Turkish versions disagree on the ingredients added.",
+   "Turkish step 7 uses 'dolgun kalana kadar' for vegetables, which is unnatural; the English 'still bright' corresponds to 'canlı kalana kadar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

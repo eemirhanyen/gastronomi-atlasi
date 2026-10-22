@@ -42,9 +42,9 @@
  "steps": {
   "tr": [
    "Evapore sütü ılık olana kadar hafifçe ısıtın (yaklaşık 40°C). Ilık suyu bir kaseye alın, 1 yemek kaşığı şekerle ve kuru mayayla karıştırıp 5 dakika dinlendirerek köpürmesini bekleyin.",
-   "Büyük bir kapta unu, kalan şekeri, tuzu ve muskadı karıştırın.",
+   "Büyük bir kapta unu, kalan şekeri, tuzu ve muskatı karıştırın.",
    "Köpüren maya karışımını, ılık evapore sütü, yumurtayı ve vanilyayı unun içine ekleyip yapışkan bir hamur oluşana kadar yoğurun.",
-   "Hamuru 8-10 dakika pürüzsüz ve esnek hale gelene kadar yoğurun. Tereyağını birkaç parça halinde ekleyin ve her parçayı tamamen emmesini sağlayarak 5 dakika daha yoğurun.",
+   "Hamuru 8-10 dakika pürüzsüz ve esnek hale gelene kadar yoğurun. Tereyağını birkaç parça halinde ekleyin ve her parçayı tamamen emmesini sağlayarak 5 dakika daha yoğurun; hamur parlak görünmeli.",
    "Kuru üzümleri hamura nazikçe yayın, eşit dağılması için birkaç kez katlayın.",
    "Hamuru hafifçe yağlanmış bir kaseye alın, streç filmle veya temiz bir bezle örtün ve sıcak bir yerde iki katına çıkana kadar yaklaşık 1 saat mayalanmaya bırakın.",
    "Bir kek kalıbını (yaklaşık 22x11 cm) tereyağıyla yağlayın. Hamuru hafifçe bastırıp havasını alın, uzun bir şekil verip kalıba yerleştirin.",
@@ -69,5 +69,14 @@
   "tr": "Kuru üzümler sertse, ekmeğe eklemeden önce 10 dakika ılık suda bekletip süzün; böylece pişince kurumazlar.",
   "en": "If the raisins are dry, soak them in warm water for 10 minutes and drain well before adding them, so they stay plump after baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 uses the non-standard spelling \"muskadı\" while the ingredient list says \"muskat\"; standard Turkish is \"muskat\".",
+   "English step 4 says the dough should be \"glossy\", but the Turkish step does not mention this, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

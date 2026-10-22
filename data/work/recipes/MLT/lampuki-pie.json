@@ -9,7 +9,7 @@
   "en": "A traditional Maltese fish pie made with lampuki (dolphinfish), usually prepared in late summer and autumn when the fish is caught around the islands. It is served at family gatherings and village festas across Malta and Gozo."
  },
  "servings": 6,
- "time_min": 75,
+ "time_min": 135,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -89,5 +89,13 @@
   "tr": "Balığı pişirmeden önce iyice kurulayın ve iç harcı tamamen soğutun; aksi halde hamur ıslanır ve dolgu dağılır.",
   "en": "Pat the fish dry before cooking and let the filling cool completely, otherwise the pastry becomes soggy and the filling can spill during baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is too low: the recipe includes a 30-minute dough rest, about 30 minutes of cooling, a 35-40 minute bake and a 10-minute rest, so the total is closer to 2 hours 15 minutes"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

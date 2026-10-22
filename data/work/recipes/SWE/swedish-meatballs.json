@@ -22,6 +22,7 @@
    "5 g tuz",
    "1 g karabiber",
    "2 g öğütülmüş yenibahar",
+   "10 g tereyağı (soğan için)",
    "40 g tereyağı (kızartma için)",
    "20 g tereyağı (sos için)",
    "15 g un",
@@ -43,6 +44,7 @@
    "5 g salt",
    "1 g black pepper",
    "2 g ground allspice",
+   "10 g butter, for the onion",
    "40 g butter, for frying",
    "20 g butter, for the sauce",
    "15 g plain flour",
@@ -63,7 +65,7 @@
    "Hamuru 2 dakika kadar yoğurun, ardından buzdolabında 15 dakika dinlendirin.",
    "Hamurdan yaklaşık 25 g ağırlığında, cevizden biraz büyük köfteler yuvarlayın.",
    "Patatesleri soyun, tuzlu suda 20 dakika haşlayın, suyunu süzün ve sıcak tutun.",
-   "40 g tereyağını geniş bir tavada orta-yüksek ateşte eritin. Köfteleri partiler halinde ekleyin ve tavayı sallayarak her yüzünü 8-10 dakikada kızartın. Köfteler iç kısmında 70°C'ye ulaşınca tavadan alın.",
+   "40 g tereyağını geniş bir tavada orta-yüksek ateşte eritin. Köfteleri partiler halinde ekleyin ve tavayı sallayarak toplam 8-10 dakika kızartın, her tarafı kahverengileşene kadar çevirin. Köfteler iç kısmında 75°C'ye ulaşınca tavadan alın.",
    "Aynı tavaya 20 g tereyağı ekleyin, eriyince unu ekleyip 1 dakika karıştırın.",
    "Dana suyunu yavaş yavaş ekleyip pürüzsüz bir sos elde edin, ardından kremayı ilave edin.",
    "Sosu kısık ateşte 5 dakika kaynatın, 1 g muskat, tuz ve karabiberle tatlandırın.",
@@ -77,7 +79,7 @@
    "Knead the mixture for about 2 minutes, then rest it in the fridge for 15 minutes.",
    "Roll the mixture into meatballs of about 25 g each, slightly larger than a walnut.",
    "Peel the potatoes, boil them in salted water for 20 minutes, drain and keep warm.",
-   "Melt 40 g butter in a large frying pan over medium-high heat. Fry the meatballs in batches for 8-10 minutes, shaking the pan and turning them until browned all over and cooked to 70°C inside. Remove them from the pan.",
+   "Melt 40 g butter in a large frying pan over medium-high heat. Fry the meatballs in batches for 8-10 minutes in total, shaking the pan and turning them until browned all over and cooked to 75°C inside. Remove them from the pan.",
    "Add 20 g butter to the same pan and, once melted, stir in the flour and cook for 1 minute.",
    "Gradually whisk in the beef stock to make a smooth sauce, then add the double cream.",
    "Simmer the sauce over low heat for 5 minutes, then season with 1 g nutmeg, salt and black pepper.",
@@ -89,5 +91,16 @@
   "tr": "Köfteleri yoğururken aşırı karıştırmayın; fazla yoğurmak köftelerin sert çıkmasına neden olur. Kızartırken tavayı kalabalık yapmayın ki köfteler kızarsın, haşlanmasın.",
   "en": "Do not overwork the mixture, as this makes the meatballs tough. Fry in small batches so they brown properly rather than steam."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 2 uses 10 g butter for the onion, but this amount is not in the ingredient list (only 40 g frying and 20 g sauce are listed), so the butter total does not add up.",
+   "Step 7 says to cook each side for 8-10 minutes, which is ambiguous; the intended meaning is 8-10 minutes in total.",
+   "Final internal temperature of 70°C is at the low edge for ground pork and beef; 75°C is a safer target.",
+   "Turkish and English versions must match on the butter amounts and cooking details, which the fixes below address."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

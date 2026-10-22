@@ -29,7 +29,9 @@
    "1 adet Habanero biberi, ince doğranmış (sos için)",
    "2 yemek kaşığı sıvı yağ (sos için)",
    "60 ml beyaz sirke (sos için)",
-   "3 g tuz (sos için)"
+   "3 g tuz (sos için)",
+   "500 g patates, çubuk şeklinde kesilmiş (kızartma için)",
+   "Kızartma için yeterli miktarda sıvı yağ"
   ],
   "en": [
    "1.6 kg whole chicken, cut into 4 pieces",
@@ -48,38 +50,52 @@
    "1 Habanero chilli, finely chopped (for the sauce)",
    "2 tbsp neutral oil (for the sauce)",
    "60 ml white vinegar (for the sauce)",
-   "3 g salt (for the sauce)"
+   "3 g salt (for the sauce)",
+   "500 g potatoes, cut into sticks (for frying)",
+   "Enough neutral oil for frying"
   ]
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarındaki fazla yağı ve kılçık kalıntılarını temizleyin, parçaları kuru bir bezle silin.",
+   "Tavuk parçalarındaki fazla yağı ve küçük kemik parçalarını temizleyin, parçaları kuru bir bezle silin.",
    "Büyük bir kapta limon suyu, sıvı yağ, ezilmiş sarımsak, rendelenmiş soğan ve zencefili karıştırın.",
    "Bulyon küpünü, acı biber tozunu, tatlı kırmızı biberi, karabiberi ve tuzu ekleyip iyice karıştırın.",
    "Tavuk parçalarını marinenin içine yerleştirin, her yere sürülmesini sağlayın ve üzerini örtüp buzdolabında en az 1 saat bekletin.",
    "Sos için orta ateşte bir tavada 2 yemek kaşığı yağı ısıtın, dilimlenmiş soğanları yumuşayıp hafif renk alana kadar yaklaşık 6 dakika soteleyin.",
    "Doğranmış domatesi ve Habanero biberini ekleyip 5 dakika daha pişirin, ardından sirkeyi ve 3 g tuzu ekleyip kenarda tutun.",
+   "Patatesleri çubuk şeklinde kesin, soğuk suda yıkayıp kurulayın ve yaklaşık 175 °C'de yağda altın sarısı olana kadar kızartın.",
    "Izgarayı orta-yüksek ateşte (yaklaşık 200 °C) ısıtın; kömür kullanıyorsanız közün yüzeyi grimsi olmasını bekleyin.",
    "Tavuk parçalarını ızgaraya dizin, kapağını kapatıp her 5-7 dakikada bir çevirerek 25-35 dakika pişirin.",
    "Parçaların iç sıcaklığı 74 °C'ye ulaştığında ve suyu berrak aktığında ızgaradan alın.",
-   "Tavuğu sıcak servis edin ve yanında soğanlı acı sosu ikram edin."
+   "Tavuğu kızartılmış patateslerle birlikte sıcak servis edin ve yanında soğanlı acı sosu ikram edin."
   ],
   "en": [
-   "Trim excess fat and any loose bits from the chicken pieces, then pat them dry with a clean cloth.",
+   "Trim excess fat and any small loose bone fragments from the chicken pieces, then pat them dry with a clean cloth.",
    "In a large bowl, whisk together the lime juice, oil, crushed garlic, grated onion and ginger.",
    "Add the stock cube, chilli powder, paprika, black pepper and salt, and stir well.",
    "Place the chicken pieces in the marinade, turning to coat evenly. Cover and refrigerate for at least 1 hour.",
    "For the sauce, heat 2 tbsp oil in a pan over medium heat and fry the sliced onions for about 6 minutes until soft and lightly golden.",
    "Add the diced tomatoes and chopped Habanero and cook for 5 more minutes. Stir in the vinegar and 3 g salt, then set aside.",
+   "Cut the potatoes into sticks, rinse in cold water and dry well, then deep-fry at about 175 °C until golden brown.",
    "Heat the grill to medium-high (about 200 °C). If using charcoal, wait until the coals are covered in grey ash.",
    "Arrange the chicken pieces on the grill, cover, and cook for 25 to 35 minutes, turning every 5 to 7 minutes.",
    "Remove the chicken once the thickest part reaches an internal temperature of 74 °C and the juices run clear.",
-   "Serve the chicken hot with the onion-pepper sauce on the side."
+   "Serve the chicken hot with the fried potatoes and the onion-pepper sauce on the side."
   ]
  },
  "tip": {
   "tr": "Tavuğu ızgaraya koymadan önce marinenin fazlasını silkelemeyin; damlayan marine közde yanarak sarı, dumanlı bir tat ve renk verir.",
   "en": "Do not wipe off the marinade before grilling; the excess that drips onto the coals adds a smoky flavour and deep colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"kılçık\" (fish bone) for chicken; the correct term is \"kemik parçaları\" or \"kıkırdak\".",
+   "The description says the dish is served with fried potatoes, but no potatoes appear in the ingredients or steps in either language.",
+   "Turkish and English versions must both get the added potato ingredient and step."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

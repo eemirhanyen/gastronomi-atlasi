@@ -43,7 +43,7 @@
    "Ceviz, doğranmış kırmızı biber, ezilmiş sarımsak, acı pul biber ve 1 çay kaşığı tuzu bir kapta iyice karıştırarak iç harcını hazırlayın.",
    "Bastırılmış patlıcanların suyunu bir kez daha sıkın, her birinin yarığına harçtan bolca doldurun ve elinizle hafifçe bastırıp kapatın.",
    "Doldurulmuş patlıcanları steril bir cam kavanoza sıkıca yerleştirin, aralarına kalan harcı serpiştirin.",
-   "Zeytinyağını patlıcanların tamamen kaplanacak şekilde kavanoza dökün, kapağını kapatın ve serin, karanlık bir yerde en az 2 hafta dinlendirin."
+   "Zeytinyağını patlıcanların tamamen kaplanacak şekilde kavanoza dökün, kapağını kapatın ve buzdolabında en az 2 hafta dinlendirin."
   ],
   "en": [
    "Wash the eggplants and make a small lengthwise slit in each one, keeping the stems attached.",
@@ -52,12 +52,20 @@
    "In a bowl, mix the walnuts, chopped red peppers, crushed garlic, hot pepper flakes and 1 tsp salt to make the filling.",
    "Squeeze the eggplants once more, then fill each slit generously with the filling and press gently to close.",
    "Pack the stuffed eggplants tightly into a sterilised glass jar, scattering any leftover filling between them.",
-   "Pour the olive oil over the eggplants so they are fully covered, seal the jar and store it in a cool, dark place for at least 2 weeks before eating."
+   "Pour the olive oil over the eggplants so they are fully covered, seal the jar, refrigerate it and let it rest for at least 2 weeks before eating."
   ]
  },
  "tip": {
-  "tr": "Patlıcanları yeterince sıktığınızdan emin olun; kalan su kavanozda ekşimeye ve küflenmeye yol açar. Yağın patlıcanların üstünü tamamen örtmesi gerekir.",
-  "en": "Squeeze the eggplants thoroughly, since leftover water can cause spoilage in the jar. The oil must fully cover the eggplants at all times."
+  "tr": "Patlıcanları yeterince sıktığınızdan emin olun; kalan su kavanozda ekşimeye ve küflenmeye yol açar. Yağın patlıcanların üstünü tamamen örtmesi gerekir. Kavanozu her zaman buzdolabında saklayın.",
+  "en": "Squeeze the eggplants thoroughly, since leftover water can cause spoilage in the jar. The oil must fully cover the eggplants at all times. Always keep the jar refrigerated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Food safety: the makdous is stored in olive oil at room temperature ('serin, karanlık bir yer' / 'cool, dark place') for at least 2 weeks. Garlic and low-acid vegetables in oil at room temperature car"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

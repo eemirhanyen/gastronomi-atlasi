@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "İzlanda Pönnukökuru",
+  "tr": "İzlanda Pönnukökuları",
   "en": "Icelandic Pancakes (Pönnukökur)"
  },
  "native": "Pönnukökur",
@@ -21,7 +21,7 @@
    "5 ml vanilya özü",
    "50 g eritilmiş tereyağı",
    "15 g tereyağı (tavayı yağlamak için)",
-   "150 g reçel (tercihen kabuklu kuşburnu veya çilek reçeli)",
+   "150 g reçel (tercihen ravent veya çilek reçeli)",
    "60 g toz şeker (servis için)"
   ],
   "en": [
@@ -67,5 +67,14 @@
   "tr": "Hamuru tavaya dökmeden önce iyice karıştırın; her kreple tavayı çevirerek ince yaymak, kalın ve lastik gibi olmasını önler.",
   "en": "Stir the batter well before each pour, and swirl the pan quickly to spread it thin; thick pancakes will be spongy rather than delicate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish jam suggestion 'kabuklu kuşburnu' (rosehip) does not match the English 'rhubarb' (ravent); the two versions disagree.",
+   "Turkish title 'İzlanda Pönnukökuru' uses an odd genitive form; the natural plural is 'İzlanda Pönnukökuları'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

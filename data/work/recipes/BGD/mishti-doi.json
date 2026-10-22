@@ -9,13 +9,13 @@
   "en": "A sweetened yogurt from Bengal, especially Bangladesh and West Bengal, eaten at the end of meals and during festivals such as Pohela Boishakh. It is set slowly in clay pots and has a creamy, caramel-like flavour from reduced milk and jaggery."
  },
  "servings": 4,
- "time_min": 510,
+ "time_min": 750,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "1000 ml tam yağlı süt",
    "120 g tam yağlı sade yoğurt (canlı kültürlü, oda sıcaklığında)",
-   "150 g hindistan cevizi şekeri veya koyu renkli esmer şeker (nolen gur tercih edilir)",
+   "150 g hurma palmiyesi şekeri (nolen gur) veya koyu renkli esmer şeker",
    "60 ml su",
    "2 yeşil kakule tanesi"
   ],
@@ -53,5 +53,14 @@
   "tr": "Kültürün etkili olması için yoğurdun taze ve canlı kültürlü olmasına dikkat edin; fırında ışığı açık bırakmak sıcak ve sabit bir ortam sağlar.",
   "en": "Use fresh yogurt with live cultures and keep the pots in a warm, still spot, such as an oven with only the light on, so the set is even and firm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'hindistan cevizi şekeri' (coconut sugar), but the English and the dish call for date palm jaggery (nolen gur). The Turkish and English versions disagree.",
+   "time_min is 510 (8.5 h), but the steps include about 8 h of setting plus at least 4 h of chilling, so the total is over 12 h."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

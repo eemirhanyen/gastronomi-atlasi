@@ -21,7 +21,9 @@
    "150 ml su",
    "100 g konserve tatlı mısır, süzülmüş",
    "2 dal yeşil soğan, ince doğranmış",
-   "2 yemek kaşığı (30 ml) nötr sıvı yağ"
+   "2 yemek kaşığı (30 ml) nötr sıvı yağ",
+   "100 ml hindistan cevizi sütü (üst tabaka için)",
+   "1 g tuz (üst tabaka için)"
   ],
   "en": [
    "120 g rice flour",
@@ -32,7 +34,9 @@
    "150 ml water",
    "100 g canned sweet corn, drained",
    "2 spring onions, finely chopped",
-   "2 tablespoons (30 ml) neutral vegetable oil"
+   "2 tablespoons (30 ml) neutral vegetable oil",
+   "100 ml coconut milk (for the topping)",
+   "1 g salt (for the topping)"
   ]
  },
  "steps": {
@@ -40,10 +44,10 @@
    "Büyük bir kasede pirinç unu, tapyoka unu, toz şeker ve tuzu karıştırın.",
    "Hindistan cevizi sütünü ve suyu ekleyip çırpma teliyle pürüzsüz, akıcı bir hamur elde edene kadar karıştırın.",
    "Hamuru oda sıcaklığında 30 dakika dinlendirin; bu sürede unlar şişip kıvamlanacak.",
-   "Krep kalıbı olarak kullanmak üzere yassı tabanlı, küçük yarım küre çukurlu bir yapışmaz tavayı orta-yüksek ateşte ısıtın.",
+   "Yassı tabanlı, küçük yarım küre çukurlu bir yapışmaz tavayı orta-yüksek ateşte ısıtın. (Geleneksel bronz tava ideal olsa da mini krep tavası da iyi sonuç verir.)",
    "Her çukurun içini yağla hafifçe yağlayın ve yağı kağıt havluyla eşit dağıtın.",
    "Çukurların üçte ikisine hamuru dökün, üzerine birkaç tane tatlı mısır ve bir tutam yeşil soğan serpin.",
-   "Tavayı kapakla kapatıp 2-3 dakika pişirin; kenarlar çıtırlaşıp ortası kıvam bağlayınca kreplerin altı altın rengi olmuş demektir.",
+   "Tavayı kapakla kapatıp 1 dakika pişirin. Kalan 100 ml hindistan cevizi sütünü tuzla karıştırıp her krebin üzerine birer çay kaşığı dökün, kapağı kapatıp 2-3 dakika daha pişirin; kenarlar çıtırlaşıp üst kısım kıvam bağlayınca ve alt kısım altın rengi olunca krepler hazırdır.",
    "Kreplerin kenarlarını spatulayla gevşetip servis tabağına alın. Kalan hamurla aynı işlemi tekrarlayın ve sıcak servis yapın."
   ],
   "en": [
@@ -53,7 +57,7 @@
    "Heat a non-stick pan with small half-sphere moulds over medium-high heat. (A traditional bronze pan is ideal, but a mini pancake pan works well.)",
    "Brush each mould lightly with oil, then wipe out the excess with kitchen paper.",
    "Pour batter into each mould to about two-thirds full, then sprinkle a few sweet corn kernels and a pinch of spring onion on top.",
-   "Cover the pan and cook for 2-3 minutes, until the edges are crisp and the centre has set, and the base is golden.",
+   "Cover the pan and cook for 1 minute. Mix the 100 ml coconut milk with the salt, spoon about a teaspoon over each pancake, cover again and cook for 2-3 minutes more, until the edges are crisp, the top has set and the base is golden.",
    "Loosen the pancakes with a spatula, transfer to a serving plate, and repeat with the remaining batter. Serve warm."
   ]
  },
@@ -61,5 +65,15 @@
   "tr": "Hamuru pişirmeden önce karıştırın, çünkü unlar çöker; kalıplar yeterince ısınmadan dökerseniz kreplerin altı yapışır.",
   "en": "Stir the batter again before each batch, as the flours settle quickly. If the moulds are not hot enough, the bases will stick."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 omits the English note about the traditional bronze pan, so the two versions disagree.",
+   "The traditional salted coconut-milk topping, which gives khanom krok its characteristic custardy top, is missing from the ingredients and steps.",
+   "Step 7 has no topping step, so the pancakes would not reach the described soft, custardy centre."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

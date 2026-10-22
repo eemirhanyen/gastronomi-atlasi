@@ -9,13 +9,13 @@
   "en": "A traditional Kyrgyz horse meat sausage made from horse meat and fat, stuffed into natural casings and dried or boiled. It is eaten mainly in winter and served at celebrations and to guests, thinly sliced with onion."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 190,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "800 g at eti (yoksa dana eti)",
    "200 g at veya dana kuyruk yağı",
-   "16 g tuz (meğer yaklaşık %2)",
+   "16 g tuz (et ve yağın yaklaşık %1,6'sı)",
    "3 g taze çekilmiş karabiber",
    "1 m kuzu veya koyun bağırsağı (doğal sucuk kılıfı)",
    "2 L su",
@@ -26,7 +26,7 @@
   "en": [
    "800 g horse meat (or beef as a substitute)",
    "200 g horse or beef tail fat",
-   "16 g salt (about 2%)",
+   "16 g salt (about 1.6% of meat and fat)",
    "3 g freshly ground black pepper",
    "1 m lamb or sheep natural casing",
    "2 L water",
@@ -44,7 +44,7 @@
    "Bağırsağın açık ucunu bağlayın, 10-12 cm aralıklarla iplikle bölün ve birkaç yerden iğneyle hafifçe delin.",
    "Suyu kaynatın, sucukları ekleyin ve kısık ateşte yaklaşık 60 dakika (su kaynamayacak şekilde) pişirin. Pişmiş kazy'yi suyundan çıkarıp 10 dakika dinlendirin.",
    "Soğanı çok ince halka halka doğrayın, tuz ve sirkeyle 10 dakika bekletin, suyunu sıkın.",
-   "Kazy'yi ince dilimler halinde soğanla birlikte, ekmekle servis edin. İsterseniz soğuduktan sonra kurumaya bırakabilirsiniz."
+   "Kazy'yi ince dilimler halinde soğanla birlikte, ekmekle servis edin. İsterseniz soğuduktan sonra serin, havadar bir yerde birkaç gün kurutabilirsiniz."
   ],
   "en": [
    "Soak the casing in plenty of cold water for at least 1 hour to soften it, rinse the inside well and tie off one end.",
@@ -61,5 +61,15 @@
   "tr": "Kazy'yi kaynatırken suyun sürekli kaynamamasına dikkat edin; aksi halde bağırsak patlayabilir ve et sertleşir.",
   "en": "Keep the water at a gentle simmer rather than a rolling boil, or the casing may split and the meat will toughen."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt amount 16 g is about 1.6% of the 1 kg meat and fat, not 'about 2%' as stated. The Turkish phrase 'meğer' is also the wrong word here.",
+   "The English step 8 says to air-dry the sausage for several days, but the Turkish version gives no duration, so the two versions disagree.",
+   "time_min of 75 does not cover the 1-hour casing soak, 30-minute fridge rest, 60-minute simmer and 10-minute rest. Total time is roughly 3 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

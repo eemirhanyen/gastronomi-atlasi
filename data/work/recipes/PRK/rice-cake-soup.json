@@ -44,7 +44,7 @@
    "Sığır etini soğuk suyla birlikte büyük bir tencereye alın ve kaynamaya bırakın. İlk kaynamada oluşan köpüğü kepçeyle alın.",
    "Ateşi kısın ve eti yaklaşık 45 dakika yumuşayana kadar hafif kaynatın. Eti tencereden çıkarıp soğumaya bırakın, ardından ince şeritler halinde doğrayın.",
    "Pirinç keklerini kullanmadan önce, sert ise 10 dakika ılık suda bekletip süzün.",
-   "Yumurtaları çırpın. Küçük bir tavada yağsız olarak ince bir omlet yapın, soğutup ince şeritler halinde kesin.",
+   "Yumurtaları çırpın. Küçük bir tavayı 1-2 damla susam yağıyla hafifçe yağlayın, ince bir omlet yapın, soğutup ince şeritler halinde kesin.",
    "Et suyunu süzün ve tekrar kaynatın. Ezilmiş sarımsağı, soya sosunu ve tuzun yarısını ekleyin.",
    "Pirinç keklerini kaynayan çorbaya ekleyip 5 ila 7 dakika, kekler yumuşayıp yüzmeye başlayana kadar pişirin.",
    "Doğranmış eti tekrar tencereye ekleyin, tadına bakıp gerekirse kalan tuzu ilave edin. Susam yağını ve karabiberi katın.",
@@ -54,7 +54,7 @@
    "Put the beef in a large pot with cold water and bring to a boil. Skim off the foam that rises during the first boil with a ladle.",
    "Reduce the heat and simmer gently for about 45 minutes, until the beef is tender. Remove the beef, let it cool, then slice it into thin strips.",
    "If the rice cakes are hard, soak them in lukewarm water for 10 minutes, then drain.",
-   "Beat the eggs. Cook them as a thin omelette in a lightly oiled pan, let cool, and cut into thin strips.",
+   "Beat the eggs. Lightly grease a small pan with 1-2 drops of sesame oil, cook the eggs as a thin omelette, let cool, and cut into thin strips.",
    "Strain the broth and bring it back to a boil. Add the crushed garlic, soy sauce and half of the salt.",
    "Add the rice cakes to the boiling broth and cook for 5 to 7 minutes, until they soften and float.",
    "Return the sliced beef to the pot, taste, and add more salt if needed. Stir in the sesame oil and black pepper.",
@@ -65,5 +65,14 @@
   "tr": "Pirinç keklerini uzun süre kaynatmayın; aşırı pişerlerse yumuşayıp dağılırlar. Sert kekleri önceden ıslatmak pişme süresini kısaltır.",
   "en": "Do not overcook the rice cakes, or they become mushy and fall apart. Soaking hard rice cakes beforehand shortens cooking time and keeps them chewy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 disagrees between languages: the Turkish says to cook the omelette without oil (\"yağsız\"), while the English says \"lightly oiled pan\".",
+   "The English omelette step calls for oiling the pan, but no oil is listed for it. The recipe should use the listed sesame oil for this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,7 +21,7 @@
    "3 adet olgun domates (yaklaşık 400 g), rendelenmiş",
    "30 g maydanoz, ince kıyılmış",
    "1 yemek kaşığı kurutulmuş nane",
-   "1 tatlı kaşığı tütsü biber... yerine 1 tatlı kaşığı yenibahar",
+   "1 tatlı kaşığı yenibahar",
    "1,5 tatlı kaşığı tuz",
    "1/2 tatlı kaşığı karabiber",
    "4 yemek kaşığı zeytinyağı",
@@ -52,7 +52,7 @@
  "steps": {
   "tr": [
    "Pirinci sıcak suda 20 dakika bekletin, ardından süzüp soğuk suyla durulayın.",
-   "Kabakların uçlarını kesin, ortalarını bir kaşık ya da küçük bir bıçakla oyarak iç kısmını çıkarın. Patlıcanların sapını çıkarıp şeridine soyun, tuzlu suda 10 dakika bekletin ve süzün.",
+   "Kabakların uçlarını kesin, ortalarını bir kaşık ya da küçük bir bıçakla oyarak iç kısmını çıkarın; oyulan lifi başka bir yemekte kullanmak üzere saklayın. Patlıcanların sapını çıkarıp şerit şerit soyun, tuzlu suda 10 dakika bekletin ve süzün.",
    "Geniş bir kapta pirinç, kuzu kıyma, soğan, rendelenmiş domates, maydanoz, kurutulmuş nane, yenibahar, tuz, karabiber ve 1 yemek kaşığı zeytinyağını iyice yoğurun.",
    "Oyduğunuz kabak ve patlıcanları iç harçla üçte iki oranında doldurun, ağızlarını çok sıkı kapatmadan bırakın çünkü pirinç pişerken genişler.",
    "Geniş bir tencerenin tabanına kalan zeytinyağının yarısını yayın, sarımsak dilimlerinin yarısını serpin. Dolmaları sıkı sıkı yan yana dizin.",
@@ -75,5 +75,15 @@
   "tr": "Dolmaları pişirirken ters çevrilmiş tabak kullanın; sebzeler dağılmaz ve yüzeyleri eşit pişer.",
   "en": "Use an inverted plate on top while cooking so the vegetables stay in place and cook evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for allspice is garbled: \"1 tatlı kaşığı tütsü biber... yerine 1 tatlı kaşığı yenibahar\" contains leftover editing text. The English reads simply \"1 tsp ground allspice\".",
+   "Step 2: the English says to save the eggplant/zucchini flesh for another use, but the Turkish omits this.",
+   "Step 2 Turkish \"şeridine soyun\" is unnatural; the intended meaning is peeling in alternating strips (şerit şerit soyun)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

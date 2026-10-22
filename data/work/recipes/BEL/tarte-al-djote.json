@@ -23,6 +23,7 @@
    "400 ml tam yağlı süt",
    "1 küçük soğan (yaklaşık 100 g), ince doğranmış",
    "20 g tereyağı",
+   "10 g tereyağı (kalıp için)",
    "120 g tütsülenmiş pastırma, küçük parçalar halinde doğranmış",
    "3 yumurta",
    "150 ml krema (%30 yağlı)",
@@ -41,6 +42,7 @@
    "400 ml whole milk",
    "1 small onion (about 100 g), finely chopped",
    "20 g butter",
+   "10 g butter for greasing the tin",
    "120 g smoked bacon, cut into small pieces",
    "3 eggs",
    "150 ml double cream",
@@ -57,7 +59,7 @@
    "Pirinci yıkayın, süt ve bir tutam tuzla birlikte kısık ateşte, sık sık karıştırarak 20 dakika ya da süt emilene kadar pişirin. Biraz soğutun.",
    "Tereyağını bir tavada eritin, soğanı ekleyip yumuşayana kadar yaklaşık 5 dakika kavurun. Pastırmayı ekleyip kenarları çıtır olana kadar pişirin.",
    "Büyük bir kapta pişmiş pirinç, pazı, soğan-pastırma karışımı, yumurtalar, krema, peynirin yarısı, muskat, tuz ve karabiberi iyice karıştırın.",
-   "Fırınınızı 180°C'ye ısıtın. Hamuru 3-4 mm kalınlığında açın ve 24 cm'lik yağlanmış tart kalıbına yerleştirin, kenarlarını hafifçe kaldırarak ayarlayın.",
+   "Fırınınızı 180°C'ye ısıtın. Hamuru 3-4 mm kalınlığında açın ve kalıp tereyağıyla yağlanmış 24 cm'lik tart kalıbına yerleştirin, kenarlarını hafifçe kaldırarak ayarlayın.",
    "İç harcı hamurun üzerine yayın, kalan peyniri serpin ve 40-45 dakika, üst yüzey altın rengi olana ve harç kıvamını alana kadar pişirin.",
    "Tartı fırından çıkarıp en az 10 dakika dinlendirin, sonra dilimleyip servis yapın."
   ],
@@ -68,7 +70,7 @@
    "Rinse the rice and cook it with the milk and a pinch of salt over low heat, stirring often, for about 20 minutes until the milk is absorbed. Leave to cool slightly.",
    "Melt the butter in a frying pan, add the onion and cook for about 5 minutes until soft. Add the bacon and cook until crisp at the edges.",
    "In a large bowl, mix the cooked rice, chard, onion and bacon mixture, eggs, cream, half of the cheese, nutmeg, salt and pepper until well combined.",
-   "Heat the oven to 180°C. Roll out the pastry to 3-4 mm thick and line a greased 24 cm tart tin, pressing it into the corners.",
+   "Heat the oven to 180°C. Roll out the pastry to 3-4 mm thick and line a 24 cm tart tin greased with butter, pressing it into the corners.",
    "Spread the filling over the pastry, sprinkle with the remaining cheese and bake for 40-45 minutes until golden on top and set in the centre.",
    "Remove from the oven and rest for at least 10 minutes, then slice and serve."
   ]
@@ -77,5 +79,13 @@
   "tr": "Pazıyı haşladıktan sonra ne kadar iyi sıkarsanız, tart o kadar sulanmadan kesilir.",
   "en": "Squeeze the blanched chard very thoroughly; excess water is the main reason this tart turns soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tart tin is greased in step 7 (\"yağlanmış tart kalıbı\" / \"greased 24 cm tart tin\"), but no fat for greasing is listed in either ingredient list."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

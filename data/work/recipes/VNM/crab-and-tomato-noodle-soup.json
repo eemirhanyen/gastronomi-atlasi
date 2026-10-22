@@ -68,7 +68,7 @@
    "Domates dilimlerini ekleyip 5 dakika, dağılıp yumuşayana kadar pişirin. Tavadaki domatesleri tencereye aktarın ve birlikte 10 dakika daha kaynatın.",
    "Yengeç etini bir kaseye alın, yumurtayı, mısır nişastasını ve bir tutam tuzu ekleyin. Elinizle yoğurarak karıştırın ve küçük topaklar halinde şekillendirin.",
    "Tamarind suyunu süzerek tencereye ekleyin. Karides ezmesini, balık sosunu, şekeri ve gerekirse tuzu ekleyip tadına bakın; çorba hem ekşi hem tuzlu olmalıdır.",
-   "Kaynayan çorbaya yengeç topaklarını yavaşça bırakın. Yüzeye çıkıp pişene kadar yaklaşık 3 dakika kaynatın, sonra kubbe şeklindeki tofu küplerini ekleyip 2 dakika daha pişirin.",
+   "Kaynayan çorbaya yengeç topaklarını yavaşça bırakın. Yüzeye çıkıp pişene kadar yaklaşık 3 dakika kaynatın, sonra küp doğranmış kızartılmış tofuyu ekleyip 2 dakika daha pişirin.",
    "Erişteyi paket talimatına göre ayrı bir tencerede haşlayın, süzün ve soğuk suyla çalkalayın.",
    "Erişteyi servis kaselerine bölüşün, üzerine sıcak çorbayı, yengeç topaklarını ve tofuyu koyun.",
    "Her kaseyi yeşil soğan, filiz fasulye ve taze otlarla süsleyin. Limon dilimleri, acı biber sosu ve çili yağı ile servis yapın."
@@ -89,5 +89,13 @@
   "tr": "Yengeç topaklarını çorbaya eklemeden önce yumurta ve nişastayla iyice yoğurun; böylece kaynayan suda dağılmadan yüzer hale gelirler.",
   "en": "Mix the crab with the egg and cornstarch well before shaping; this keeps the clumps intact so they float and hold their shape in the simmering broth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 describes the tofu as 'kubbe şeklindeki' (dome-shaped), which has no counterpart in the English version or the ingredient list (which says cubed fried tofu). Turkish text should match t"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

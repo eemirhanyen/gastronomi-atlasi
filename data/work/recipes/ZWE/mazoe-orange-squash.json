@@ -16,7 +16,7 @@
    "400 g toz şeker",
    "400 ml su",
    "2 portakalın rendelenmiş kabuğu",
-   "500 ml taze portakal suyu (yaklaşık 5 portakal)",
+   "500 ml taze portakal suyu (yaklaşık 8-10 portakal)",
    "3 g sitrik asit",
    "Servis için: 200 ml hazır konsantre, 800 ml soğuk su, buz"
   ],
@@ -24,7 +24,7 @@
    "400 g caster sugar",
    "400 ml water",
    "Grated zest of 2 oranges",
-   "500 ml fresh orange juice (about 5 oranges)",
+   "500 ml fresh orange juice (about 8-10 oranges)",
    "3 g citric acid",
    "For serving: 200 ml finished concentrate, 800 ml cold water, ice"
   ]
@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Sitrik asit, portakal suyunun ekşiliğini Zimbabve usulü dengeli ve keskin bir tada getirir; yoksa limon suyu ile değiştirilebilir ama miktarı biraz azaltın.",
+  "tr": "Sitrik asit, portakal suyunun ekşiliğini Zimbabve usulü dengeli ve keskin bir tada getirir; yoksa bir çay kaşığı limon suyu ile değiştirilebilir, tadına göre azar azar ekleyin.",
   "en": "Citric acid gives the squash the sharp, tangy balance of the commercial Mazoe; if you lack it, use a teaspoon of lemon juice instead, adding it gradually to taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient quantity implausible: 500 ml of juice from about 5 oranges is too much. A typical orange yields roughly 50-60 ml, so about 8-10 oranges are needed (in both languages).",
+   "Tip mismatch: the English tip specifies a teaspoon of lemon juice added gradually, but the Turkish tip says to reduce the amount without giving a measure."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

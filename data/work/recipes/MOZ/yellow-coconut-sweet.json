@@ -5,10 +5,10 @@
  },
  "native": "Cocada amarela",
  "desc": {
-  "tr": "Portekiz kolonileşmesinden kalma, hindistancevizi, şeker ve yumurta sarısıyla yapılan yoğun bir şekerlemedir. Mozambik'te özellikle kutlamalarda ve öğleden sonra çaylarında, kare dilimler halinde servis edilir.",
+  "tr": "Portekiz sömürge döneminden kalma, hindistancevizi, şeker ve yumurta sarısıyla yapılan yoğun bir şekerlemedir. Mozambik'te özellikle kutlamalarda ve öğleden sonra çaylarında, kare dilimler halinde servis edilir.",
   "en": "A dense sweet made from coconut, sugar and egg yolks, with roots in the Portuguese colonial period. In Mozambique it is served in small squares at celebrations and afternoon gatherings."
  },
- "servings": 4,
+ "servings": 16,
  "time_min": 60,
  "difficulty": "medium",
  "ingredients": {
@@ -55,5 +55,14 @@
   "tr": "Yumurta sarılarını pişirirken ocağı çok kısık tutun ve sürekli karıştırın; aksi halde karışım topaklanabilir.",
   "en": "Keep the heat low and stir constantly once the yolks go in, or the mixture may scramble and turn lumpy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) doesn't match the quantities: 400 g sugar and 400 g coconut fill a 20x20 cm tin, which yields about 16 squares. Servings corrected to 16.",
+   "Turkish description uses the unnatural phrase 'Portekiz kolonileşmesinden kalma'; changed to 'Portekiz sömürge döneminden kalma'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

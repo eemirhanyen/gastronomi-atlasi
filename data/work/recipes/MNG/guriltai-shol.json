@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "1 soğan, ince dilimlenmiş",
-   "2 yemek kaşığı (25 ml) sıvı yağ",
+   "2 yemek kaşığı (30 ml) sıvı yağ",
    "400 g kemikli koyun veya kuzu eti (omuz veya boyun), parçalara ayrılmış",
    "1,5 l su",
    "1 orta boy havuç, küp doğranmış",
@@ -28,7 +28,7 @@
   ],
   "en": [
    "1 onion, thinly sliced",
-   "2 tablespoons (25 ml) vegetable oil",
+   "2 tablespoons (30 ml) vegetable oil",
    "400 g bone-in mutton or lamb (shoulder or neck), cut into pieces",
    "1.5 l water",
    "1 medium carrot, diced",
@@ -50,7 +50,7 @@
    "Et suyuna havuç, patates, tuz ve karabiberi ekleyip 10 dakika daha pişirin.",
    "Hamuru 2-3 mm kalınlığında açın ve yaklaşık 5 x 3 cm boyutunda dikdörtgen parçalara kesin; isterseniz parçaları hafifçe uzatarak şerit şekli verin.",
    "Çorba kaynarken hamur parçalarını tek tek tencereye ekleyin ve karıştırarak 5-7 dakika, hamurlar yüzeye çıkıp yumuşayana kadar pişirin.",
-   "Ocaktan alın, ateşi kapatın ve kıyılmış yeşil soğanı serpip sıcak sıcak servis yapın."
+   "Ocaktan alın ve kıyılmış yeşil soğanı serpip sıcak sıcak servis yapın."
   ],
   "en": [
    "Heat the oil in a large pot over medium-high heat, add the onion and fry for 3 minutes.",
@@ -67,5 +67,13 @@
   "tr": "Hamuru en az 20 dakika dinlendirmek, açarken yapışmasını önler ve eriştelerin daha yumuşak kalmasını sağlar.",
   "en": "Resting the dough for at least 20 minutes makes it easier to roll out and keeps the noodles tender rather than tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "2 tablespoons is listed as 25 ml in both languages; 2 tablespoons is 30 ml (15 ml each)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

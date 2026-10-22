@@ -51,7 +51,7 @@
   "tr": [
    "Dana göğsünü, ikiye bölünmüş soğanı, zencefil dilimlerini ve 2 litre suyu büyük bir tencereye alın. Kaynamaya bırakın, köpüğü alın ve ateşi kısarak yaklaşık 40 dakika hafifçe kaynatın.",
    "Et suyu yaklaşık 1,5 litreye inene kadar pişirin. Eti çıkarıp tamamen soğutun, ince dilimleyin ve bir kenara koyun.",
-   "Et suyunu süzün, 1 tatlı kaşığı tuzla tatlandırın ve buz küpleri ile birlikte bir kasede veya buzlukta iyice soğutun.",
+   "Et suyunu süzün, 1 tatlı kaşığı tuzla tatlandırın ve buz küpleri ile birlikte bir kasede veya buzlukta yaklaşık 15 dakika iyice soğutun.",
    "Yumurtaları kaynar suda 10 dakika haşlayın, soğuk suya alıp kabuklarını soyun ve ikiye bölün.",
    "Naengmyeon eriştelerini bol kaynar suda 2-3 dakika haşlayın. Süzün ve soğuk suyla birkaç kez iyice durulayın, ellerinizle sıkıp suyunu alın.",
    "Sirke ve şekeri soğutulmuş et suyuna ekleyin, karıştırıp çözülmesini sağlayın. Gerekirse tuz ile ayarlayın.",
@@ -73,5 +73,13 @@
   "tr": "Erişteleri servisten hemen önce haşlayın ve iyice durulayın; böylece dokusu sert ve elastik kalır, yapışmaz.",
   "en": "Cook the noodles just before serving and rinse them thoroughly so they stay firm and springy rather than sticky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3: the English version gives a chilling time (about 15 minutes), but the Turkish version gives none. The two versions disagree, so the Turkish step is updated to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

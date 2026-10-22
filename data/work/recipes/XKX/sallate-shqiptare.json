@@ -42,7 +42,7 @@
    "Soğanı soyun, ince halka halka doğrayın ve soğuk suda 5 dakika bekletin. Suyunu süzüp kaseye ekleyin.",
    "Yeşil biberlerin çekirdeklerini çıkarıp halka halka kesin, kaseye ilave edin.",
    "Maydanozu yıkayın, kurulayın ve ince ince kıyın.",
-   "Küçük bir kapta zeytinyağı, sirke, tuz ve karabiberi birlikte çırpın.",
+   "Küçük bir kapta zeytinyağı, sirke ve karabiberi birlikte çırpın.",
    "Sebzelerin üzerine tuzu serpin, sosu gezdirin ve nazikçe karıştırın. Maydanozu ekleyip bir kez daha karıştırın.",
    "Salatayı servis etmeden önce 5 dakika dinlendirin ki tatlar birbirine karışsın, ardından hemen sunun."
   ],
@@ -52,7 +52,7 @@
    "Peel and thinly slice the onion into rings, then soak in cold water for 5 minutes to mellow it. Drain and add to the bowl.",
    "Remove the seeds from the green peppers, cut them into rings and add them to the bowl.",
    "Wash and dry the parsley, then chop it finely.",
-   "In a small bowl, whisk together the olive oil, vinegar, salt and black pepper.",
+   "In a small bowl, whisk together the olive oil, vinegar and black pepper.",
    "Sprinkle the salt over the vegetables, pour over the dressing and toss gently. Add the parsley and toss once more.",
    "Let the salad rest for 5 minutes so the flavours blend, then serve straight away."
   ]
@@ -61,5 +61,14 @@
   "tr": "Domatesler ne kadar olgunsa salata o kadar lezzetli olur; tuzu servisten hemen önce ekleyin ki salata sulanmasın.",
   "en": "The riper the tomatoes, the better the salad; add the salt just before serving so the salad does not become watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed once (3 g) but is used twice: it is whisked into the dressing in step 6 and also sprinkled over the vegetables in step 7. This is ambiguous and contradicts the tip, which says to add sa",
+   "Same salt duplication in the English steps (step 6 and step 7)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

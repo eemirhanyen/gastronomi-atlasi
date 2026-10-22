@@ -1,12 +1,12 @@
 {
  "name": {
-  "tr": "Pholourie (nohut unlu kızartma)",
+  "tr": "Pholourie (sarı bezelye unlu kızartma)",
   "en": "Pholourie"
  },
  "native": "Trinidadian (Indo-Trinidadian)",
  "desc": {
-  "tr": "Trinidad ve Tobago'da sokak yiyeceği olarak yaygın, sarı bezelye unundan yapılan çıtır hamur topları. Genellikle öğle arası ve hafta sonları, tamarind sosu ve acılı soslarla servis edilir.",
-  "en": "A crisp, golden fried ball of split pea dough sold as a street snack across Trinidad and Tobago, especially at lunchtime and on weekends. It is served hot with sweet-sour tamarind sauce and pepper sauce."
+  "tr": "Trinidad ve Tobago'da sokak yiyeceği olarak yaygın, sarı bezelye unundan yapılan çıtır hamur topları. Genellikle öğle arası ve hafta sonları, tamarind sosuyla servis edilir.",
+  "en": "A crisp, golden fried ball of split pea dough sold as a street snack across Trinidad and Tobago, especially at lunchtime and on weekends. It is served hot with sweet-sour tamarind sauce."
  },
  "servings": 4,
  "time_min": 60,
@@ -75,5 +75,14 @@
   "tr": "Hamur topları içeriden de tam pişsin diye yağ sıcaklığını 180 °C'de tutun; çok sık atılırsa yağ düşer ve toplar yağlı olur. Sarı bezelye unu bulamazsanız nohut unuyla da yapabilirsiniz.",
   "en": "Keep the oil at 180 °C and fry in small batches so the balls cook through and stay crisp rather than greasy. If you cannot find yellow split pea flour, chickpea flour makes a close substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Pholourie (nohut unlu kızartma)' says chickpea flour, but the recipe uses split pea flour (chickpea flour is only offered as a substitute in the tip).",
+   "Description says the dish is served with pepper sauce (both languages), but the steps and ingredients only include tamarind sauce."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

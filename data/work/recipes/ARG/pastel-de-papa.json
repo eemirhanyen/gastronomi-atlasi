@@ -22,7 +22,7 @@
    "500 g dana kıyma",
    "5 g tatlı kırmızı toz biber",
    "2 g öğütülmüş kimyon",
-   "2 g kuru kekik",
+   "2 g kuru oregano",
    "60 g yeşil zeytin, halka halka kesilmiş",
    "2 adet haşlanmış yumurta, dilim dilim kesilmiş",
    "1 adet çırpılmış yumurta (üst yüzey için)",
@@ -51,7 +51,7 @@
    "Patatesleri süzün, sıcakken tereyağı ve ılık sütle birlikte ezerek pürüzsüz bir püre yapın, tuz ve karabiberle tatlandırıp kenara alın.",
    "Büyük bir tavada ayçiçek yağını orta ateşte ısıtın, soğanı 8 dakika kadar yumuşayıncaya ve şeffaflaşıncaya kadar soteleyin.",
    "Sarımsağı ekleyip 30 saniye kokusu çıkana kadar karıştırın, ardından kıymayı ekleyip suyunu salıverip rengi değişene kadar 8-10 dakika pişirin.",
-   "Tatlı kırmızı biber, kimyon, kekik, tuz ve karabiberi ekleyip karıştırın, ocaktan alın ve yaklaşık 20 cm'lik bir fırın kabına yayın.",
+   "Tatlı kırmızı biber, kimyon, oregano, tuz ve karabiberi ekleyip karıştırın, ocaktan alın ve yaklaşık 20 cm'lik bir fırın kabına yayın.",
    "Fırını 200°C'ye ısıtın.",
    "Kıymanın üzerine zeytin halkalarını ve haşlanmış yumurta dilimlerini dizin.",
    "Püreyi kıymanın üzerine eşit şekilde yayın, yüzeyini bir spatulayla düzeltin.",
@@ -75,5 +75,13 @@
   "tr": "Püreyi çok su salan patateslerle yapmayın; unlu patates daha kıvamlı ve kremalı bir üst katman verir.",
   "en": "Use floury potatoes rather than waxy ones; they give a fluffier, creamier topping that browns nicely."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient list and step 5 use 'kuru kekik' (thyme), but the English version uses 'dried oregano'. The Turkish version was changed to oregano to match the English and the Ar"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

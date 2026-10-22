@@ -9,7 +9,7 @@
   "en": "A semolina cake soaked in syrup and usually topped with almonds. In Kosovo it is served at holidays, when guests visit, and with coffee, and it is part of the wider Balkan sweets tradition."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Şerbet mutlaka sıcak olmalı ve pasta sıcakken dökülmeli; böylece pasta şerbeti daha iyi emer ve ıslak olmaz.",
   "en": "Pour the syrup over the cake while both are still warm so the cake absorbs it evenly and stays moist rather than soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps include a 10-15 minute rest, 30-35 minutes of baking and a cooling/rest of at least 2 hours, so the total is about 3 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

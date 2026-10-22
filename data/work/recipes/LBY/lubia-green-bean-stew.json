@@ -9,7 +9,7 @@
   "en": "A tomato-based lamb and green bean stew eaten across Libya, especially at family lunches and gatherings. It is usually served with rice or bread."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 95,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -27,7 +27,7 @@
    "1 g karabiber",
    "1 yaprak defne",
    "10 g taze kişniş (ince kıyılmış)",
-   "Tuz"
+   "Tuz (yaklaşık 5 g, tadına göre)"
   ],
   "en": [
    "500 g lamb (cut into cubes, bone-in if possible)",
@@ -44,7 +44,7 @@
    "1 g black pepper",
    "1 bay leaf",
    "10 g fresh coriander (finely chopped)",
-   "Salt"
+   "Salt (about 5 g, to taste)"
   ]
  },
  "steps": {
@@ -56,7 +56,7 @@
    "Rendelenmiş domatesleri ekleyin ve yağ yüzeye ayrılana kadar yaklaşık 5 dakika pişirin.",
    "Kimyon, kişniş, tatlı kırmızı biber ve defne yaprağını ekleyip iyice karıştırın.",
    "Yeşil fasulyeleri ekleyin, tencerede iyice bulaşmasını sağlayın. Sıcak suyu ilave edip kaynamaya bırakın.",
-   "Kapağını kapatın ve kısık ateşte yaklaşık 40 dakika, et yumuşayana ve fasulyeler kremsi bir kıvama gelene kadar pişirin. Arada karıştırın, gerekirse biraz su ekleyin.",
+   "Kapağını kapatın ve kısık ateşte yaklaşık 60 dakika, et yumuşayana ve fasulyeler kremsi bir kıvama gelene kadar pişirin. Arada karıştırın, gerekirse biraz su ekleyin.",
    "Tuzunu tadın, defne yaprağını çıkarın ve taze kişnişi serpin. Servis etmeden önce 5 dakika dinlendirin. Pirinç pilavı ya da ekmekle servis edin."
   ],
   "en": [
@@ -67,7 +67,7 @@
    "Add the grated tomatoes and cook for about 5 minutes, until the oil starts to separate at the edges.",
    "Stir in the cumin, coriander, paprika and bay leaf.",
    "Add the green beans and stir well so they are coated in the sauce. Pour in the hot water and bring to a boil.",
-   "Cover and simmer over low heat for about 40 minutes, until the meat is tender and the beans are soft and the sauce is thick and creamy. Stir occasionally and add a little water if it gets too dry.",
+   "Cover and simmer over low heat for about 60 minutes, until the meat is tender and the beans are soft and the sauce is thick and creamy. Stir occasionally and add a little water if it gets too dry.",
    "Taste and adjust the salt, remove the bay leaf, and sprinkle over the fresh coriander. Rest for 5 minutes before serving with rice or bread."
   ]
  },
@@ -75,5 +75,15 @@
   "tr": "Libya'da yeşil fasulyenin iyice yumuşamış olması tercih edilir; fasulyeler dişe hafif direnç verecek kadar değil, tamamen yumuşayana kadar pişirin.",
   "en": "Lubia is traditionally cooked until the beans are very soft and almost melt into the sauce, so don't rush this step; a longer, gentler simmer gives the best texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt has no quantity or unit in either language.",
+   "The lamb is only simmered for about 40 minutes after roughly 25 minutes of cooking before that, which is likely not enough for cubed lamb to become tender. The total time of 75 minutes is also too sho",
+   "The tip says to cook longer until the beans nearly melt, but the step timing (40 minutes) does not reflect that."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

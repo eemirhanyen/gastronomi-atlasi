@@ -25,7 +25,7 @@
   ],
   "en": [
    "400 g phyllo (filo) sheets",
-   "250 g white brined cheese (sirene or similar feta-style cheese), crumbled",
+   "250 g white brined cheese (sirene or a similar feta-style cheese, or a mix with lor/cottage cheese), crumbled",
    "200 g plain yogurt",
    "3 eggs",
    "100 ml milk",
@@ -61,5 +61,13 @@
   "tr": "Yufkaların kuruması hamuru gevrekleştirir; kullanmadığınız yufkaları nemli bir bezle örtün ve hızlı çalışın.",
   "en": "Keep unused phyllo covered with a damp cloth, as dry sheets crack and become brittle. Work quickly once the sheets are out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish cheese ingredient ('sirene veya lor-beyaz peynir karışımı') allows a lor or white cheese blend, but the English ('sirene or similar feta-style cheese') does not mention it, so the two vers"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

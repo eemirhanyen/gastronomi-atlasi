@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g beyaz etli balık fileto (levrek, lüfer veya kırmızı mercan balığı), 4 cm'lik parçalar halinde",
+   "600 g beyaz etli balık fileto (levrek, çupra veya kırmızı mercan balığı), 4 cm'lik parçalar halinde",
    "400 ml koyu hindistan cevizi sütü",
    "600 ml su",
    "250 g taro, soyulmuş ve 2 cm'lik küpler halinde",
@@ -69,5 +69,13 @@
   "tr": "Balığı pişirmeden önce tuz ve limonla hafifçe marine ederseniz etinin dağılmasını önler ve daha taze bir tat verir.",
   "en": "Lightly salt the fish and rub it with a little lime juice 10 minutes before cooking; this firms the flesh so it stays in neat pieces in the soup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list names 'lüfer' (bluefish) as a white-fleshed option, but lüfer is an oily, dark-fleshed fish and does not match the English 'white-fleshed' description. Replaced with 'çupra' (s"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "بابا غنوج",
  "desc": {
-  "tr": "Közlenmiş patlıcanın tahin, limon ve sarımsakla ezilmesiyle yapılan, Ürdün ve Levant mutfağında meze sofralarının vazgeçilmez bir parçası olan soğuk bir ara sıcaktır. Genellikle sıcak pide veya ekmekle, öğle ve akşam yemeklerinin başında servis edilir.",
+  "tr": "Közlenmiş patlıcanın tahin, limon ve sarımsakla ezilmesiyle yapılan, soğuk servis edilen bir ezme olup Ürdün ve Levant mutfağında meze sofralarının vazgeçilmez bir parçasıdır. Genellikle sıcak pide veya ekmekle, öğle ve akşam yemeklerinin başında servis edilir.",
   "en": "A smoky purée of roasted eggplant, tahini, lemon and garlic, served cold or at room temperature as part of mezze across Jordan and the Levant. It is typically eaten at lunch or dinner with warm bread."
  },
  "servings": 4,
@@ -61,5 +61,13 @@
   "tr": "Patlıcanı tam yumuşayana kadar pişirin ve iyice süzün; sulu patlıcan püreyi seyreltir ve tadı zayıflatır.",
   "en": "Roast the eggplant until it is completely soft and drain it well, because excess water dilutes the purée and weakens the flavor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls the dish \"soğuk bir ara sıcak\", which is contradictory because \"ara sıcak\" means a hot starter. It should describe a cold mezze/dip, as the English does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

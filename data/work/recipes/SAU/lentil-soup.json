@@ -55,7 +55,7 @@
    "Domates salçasını, kimyonu ve zerdeçalı ekleyin. Baharatlar kokusunu verene kadar yaklaşık 1 dakika karıştırın.",
    "Mercimekleri ve suyu ekleyin. Kaynamaya bırakın, yüzeyde oluşan köpüğü alın.",
    "Ateşi kısın, kapağını kapatarak mercimekler ve sebzeler tamamen yumuşayana kadar yaklaşık 25 dakika pişirin.",
-   "Ocağı kapatın. Çorbayı blendırla pürüzsüz hale gelene kadar çekin. Kıvamı çok koyu bulursanız biraz sıcak su ekleyin.",
+   "Ocağı kapatın. Çorbayı blenderla pürüzsüz hale gelene kadar çekin. Kıvamı çok koyu bulursanız biraz sıcak su ekleyin.",
    "Tuz ve karabiberi ekleyip tadına bakarak ayarlayın. Çorbayı tekrar kısık ateşte 2 dakika ısıtın.",
    "Servis kaselerine alın, üzerine tereyağı veya sade yağ gezdirin ve taze kişniş serpin. Limon dilimleriyle birlikte sıcak servis yapın."
   ],
@@ -75,5 +75,13 @@
   "tr": "Limonu çorbanın üzerine servis anında sıkın; pişerken eklenen limon mercimeğin rengini ve tadını bozabilir.",
   "en": "Squeeze the lemon over the soup just before serving; adding it during cooking can dull the colour and flavour of the lentils."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 uses \"blendırla\", which is not a correct Turkish word; it should be \"blenderla\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -48,11 +48,11 @@
  "steps": {
   "tr": [
    "Hamur için unu, tuzu ve pudra şekerini geniş bir kaseye koyun. Soğuk tereyağını ekleyip parmak uçlarınızla ufalanan kıvam alana kadar ovalayın.",
-   "Yumurta sarısını ve 1 yemek kaşığı soğuk suyu ekleyip hamuru hızlıca bir araya getirin. Gerekirse suyu azar azar ekleyin, hamur dağılmamalı. Yassı bir disk haline getirip streç film ile sarın ve buzdolabında 20 dakika dinlendirin.",
-   "Fırını 200°C'ye ısıtın. Hamuru un serpilmiş bir yüzeyde 3 mm kalınlığında açın ve 23 cm'lik, kenarları yüksek, dipli kalıbın içine yerleştirin. Kenarları kalıbın üzerinden kesip fazlalığı alın, hamuru 15 dakika daha dinlendirin.",
+   "Yumurta sarısını ve 1 yemek kaşığı soğuk suyu ekleyip hamuru hızlıca bir araya getirin. Gerekirse suyu azar azar ekleyin, hamur yapışkan veya ıslak olmamalı. Yassı bir disk haline getirip streç film ile sarın ve buzdolabında 20 dakika dinlendirin.",
+   "Fırını 200°C'ye ısıtın. Hamuru un serpilmiş bir yüzeyde 3 mm kalınlığında açın ve 23 cm'lik, kenarları yüksek, dibi çıkarılabilir kalıbın içine yerleştirin. Kenarları kalıbın üzerinden kesip fazlalığı alın, hamuru 15 dakika daha dinlendirin.",
    "Hamurun üzerine kağıt serin ve kuru bakliyat ya da fasulye ile doldurun. 15 dakika pişirin, sonra kağıt ve bakliyatı çıkarıp 5 dakika daha pişirin. Fırından alın ve fırını 180°C'ye düşürün.",
    "Pişmiş hamurun tabanına reçeli eşit şekilde yayın.",
-   "Ayrı bir kapta oda sıcaklığındaki tereyağı ile toz şekeri pamuk kıvamına gelene kadar çırpın. Yumurtaları birer birer ekleyip her birinde iyice çırpın.",
+   "Ayrı bir kapta oda sıcaklığındaki tereyağı ile toz şekeri açık renk alıp kabarana kadar çırpın. Yumurtaları birer birer ekleyip her birinde iyice çırpın.",
    "Öğütülmüş bademi, unu ve badem özünü ekleyip spatula ile nazikçe karıştırın. Krema pürüzsüz ve homojen olmalı.",
    "Badem kremasını reçelin üzerine dökün ve spatula ile düzleştirin. Üzerine dilimlenmiş bademleri serpin.",
    "180°C'deki fırında 30-35 dakika pişirin. Yüzey altın rengi olmalı ve ortası hafifçe dokunduğunda geri dönmeli.",
@@ -75,5 +75,15 @@
   "tr": "Reçeli sert değil, yayılabilir kıvamda kullanın; gerekirse bir kaşık sıcak suyla inceltin. Bu sayede reçel tabana eşit yayılır ve pişerken kremanın altında kabarmaz.",
   "en": "Use jam at a spreadable consistency, thinning it with a spoonful of hot water if it is stiff. This helps it spread evenly and stops it bubbling up through the frangipane during baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the dough should not 'dağılmak' (crumble apart), but the English says it should not be wet. The two versions disagree.",
+   "Turkish step 3 uses 'dipli kalıp' for a loose-bottomed tin, which is unnatural. The usual term is 'dibi çıkarılabilir kalıp'.",
+   "Turkish step 6 'pamuk kıvamına gelene kadar' is an unnatural way to describe creaming butter and sugar. 'Açık renk alıp kabarana kadar' matches the English 'pale and fluffy'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

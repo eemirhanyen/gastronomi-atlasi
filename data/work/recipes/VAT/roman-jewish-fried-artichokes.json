@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "4 büyük enginar (yaklaşık 1 kg toplam, tercihen Romanesco ya da benzeri yuvarlak türler)",
-   "1 limonun yarısı, sıkılmış",
+   "1 limon, ikiye bölünmüş ve suyu sıkılmış",
    "2 l soğuk su",
    "1 l kızartma için sızma zeytinyağı (ya da hafif rafine zeytinyağı)",
    "5 g tuz, servis için ek olarak birkaç tutam"
@@ -61,5 +61,13 @@
   "tr": "Enginarları kızartmadan önce mutlaka iyice kurulayın ve yağ sıcaklığını bir termometreyle kontrol edin; yağ çok soğukken enginar yağlı, çok sıcakken ise dışı yanmadan içi çiğ kalır.",
   "en": "Dry the artichokes thoroughly and check the oil with a thermometer: if the oil is too cool the artichokes turn greasy, and if it is too hot the outside burns before the centre is tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'yarım limon' (half a lemon), but English says '1 lemon, halved and juiced' and the steps use both halves. The Turkish amount should be a whole lemon."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

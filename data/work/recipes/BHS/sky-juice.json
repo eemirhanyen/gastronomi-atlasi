@@ -36,7 +36,7 @@
    "Süzülen hindistan cevizi sıvısını bir sürahiye alın; cin ve yoğunlaştırılmış sütü ekleyip pürüzsüz olana kadar iyice çırpın.",
    "Karışımı en az 30 dakika buzdolabında soğutun.",
    "Dört bardağın her birini buz küpleriyle doldurun ve karışımı üzerlerine dökün.",
-   "Her bardağın üzerine taze rendelenmiş muskadı serpin ve hemen servis yapın."
+   "Her bardağın üzerine taze rendelenmiş muskatı serpin ve hemen servis yapın."
   ],
   "en": [
    "Put the grated coconut flesh and coconut water into a blender and blend for about 30 seconds.",
@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Muskadı servis anında taze rendeleyin; önceden rendelenmiş muskat aromasını hızla kaybeder.",
+  "tr": "Muskatı servis anında taze rendeleyin; önceden rendelenmiş muskat aromasını hızla kaybeder.",
   "en": "Grate the nutmeg just before serving, as pre-ground nutmeg loses its aroma quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 and the Turkish tip use \"muskadı\", a wrong form. The correct word is \"muskat\", as used in the ingredient list."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

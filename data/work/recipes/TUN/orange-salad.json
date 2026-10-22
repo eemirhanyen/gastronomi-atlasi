@@ -19,6 +19,7 @@
    "30 ml zeytinyağı",
    "5 g harissa",
    "1 g öğütülmüş kimyon",
+   "1 g öğütülmüş tarçın",
    "5 ml portakal çiçeği suyu",
    "3 g tuz",
    "Küçük bir avuç taze nane (yaklaşık 5 g)"
@@ -30,6 +31,7 @@
    "30 ml olive oil",
    "5 g harissa",
    "1 g ground cumin",
+   "1 g ground cinnamon",
    "5 ml orange blossom water",
    "3 g salt",
    "A small handful of fresh mint (about 5 g)"
@@ -39,7 +41,7 @@
   "tr": [
    "Portakalların kabuğunu bıçakla soyun, beyaz zarını tamamen çıkarın. Portakalları 5 mm kalınlığında yuvarlak dilimleyin ve kesim sırasında akan suyu bir kaseye toplayın.",
    "Soğanı ince yarım halkalar halinde doğrayın, soğuk suda 10 dakika bekletip süzün. Bu işlem soğanın sertliğini azaltır.",
-   "Küçük bir kapta harissa, kimyon, tuz, portakal çiçeği suyu ve zeytinyağını karıştırın. Üzerine toplanan portakal suyundan 30 ml ekleyip sosu iyice çırpın.",
+   "Küçük bir kapta harissa, kimyon, tarçın, tuz, portakal çiçeği suyu ve zeytinyağını karıştırın. Üzerine toplanan portakal suyundan 30 ml ekleyip sosu iyice çırpın.",
    "Portakal dilimlerini geniş bir servis tabağına üst üste gelecek şekilde yayın. Soğan halkalarını ve zeytinleri dilimlerin arasına serpin.",
    "Hazırladığınız sosu salatanın üzerine gezdirin. Taze naneyi elinizle ufalayıp üstüne dağıtın.",
    "Salatayı oda sıcaklığında ya da buzdolabında 30 dakika soğutarak servis edin."
@@ -47,7 +49,7 @@
   "en": [
    "Peel the oranges with a knife, removing all the white pith. Slice into 5 mm rounds and collect the juice released while cutting in a bowl.",
    "Slice the onion into thin half-rings and soak them in cold water for 10 minutes, then drain. This softens the sharp bite of the onion.",
-   "In a small bowl, mix the harissa, cumin, salt, orange blossom water and olive oil. Add 30 ml of the collected orange juice and whisk well.",
+   "In a small bowl, mix the harissa, cumin, cinnamon, salt, orange blossom water and olive oil. Add 30 ml of the collected orange juice and whisk well.",
    "Arrange the orange slices on a wide serving plate, overlapping slightly. Scatter the onion rings and black olives between the slices.",
    "Drizzle the dressing over the salad. Tear the fresh mint leaves by hand and scatter them over the top.",
    "Serve at room temperature, or chill in the refrigerator for 30 minutes before serving."
@@ -57,5 +59,13 @@
   "tr": "Portakalları servisten önce soğutursanız tatlı ve serinletici bir tat elde edersiniz; harissa miktarını ise çocuklar için azaltabilirsiniz.",
   "en": "Chilling the oranges before serving gives a sweeter, more refreshing result. Reduce the harissa for milder palates."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tunisian orange salads are typically flavored with cinnamon, which is missing here. Cinnamon is added to the ingredient lists and the dressing step in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

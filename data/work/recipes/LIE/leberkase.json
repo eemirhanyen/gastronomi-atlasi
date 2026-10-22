@@ -22,8 +22,8 @@
    "60 ml buz gibi su",
    "8 g tuz",
    "2 g karabiber",
-   "2 g kuru kekik veya mercanköşk",
-   "0,5 g rendelenmiş hindistan cevizi",
+   "2 g kuru mercanköşk",
+   "0,5 g rendelenmiş muskat",
    "25 g tereyağı (kalıp için ve üzerine sürmek için)",
    "30 g hardal (servis için)"
   ],
@@ -48,7 +48,7 @@
    "Fırını 180°C'ye ısıtın. 20 x 10 cm'lik bir kek kalıbını 10 g tereyağı ile yağlayın ve kenarlarını hafifçe unla da kaplayabilirsiniz.",
    "Ekmek küplerini sütle bir kasede 10 dakika bekletin, sonra iyice ezin.",
    "Dana eti, domuz eti ve pastırma küplerini 20 dakika buzluğa koyarak sertleştirin. Ardından mutfak robotunda kısa aralıklarla çekerek kaba bir kıyma kıvamına getirin.",
-   "Kıymayı geniş bir kaseye alın. Islatılmış ekmek, rendelenmiş soğan, yumurta, tuz, karabiber, kekik ve hindistan cevizi ekleyin.",
+   "Kıymayı geniş bir kaseye alın. Islatılmış ekmek, rendelenmiş soğan, yumurta, tuz, karabiber, mercanköşk ve muskat ekleyin.",
    "Buz gibi suyu azar azar ekleyerek yaklaşık 3 dakika yoğurun. Karışım pürüzsüz ve macunsu bir kıvam alınca durdurun.",
    "Karışımı yağlanmış kalıba bastırarak sıkıca yerleştirin, üstünü düzleştirin ve 10 g tereyağı parçacıkları yerleştirin.",
    "Önceden ısıtılmış fırında yaklaşık 60 dakika pişirin. Yarısında kalan 5 g tereyağını eritip üstüne fırçalayın. Ortasına termometre batırdığınızda iç sıcaklık 72°C'ye ulaşmalıdır.",
@@ -69,5 +69,15 @@
   "tr": "Karışımı buzlu suyla ve soğuk etle hazırlamak, pişmiş kütlenin sıkı ve yumuşak kalmasını sağlar; dilimlemeden önce mutlaka dinlendirin.",
   "en": "Keeping the meat and water very cold gives a firm, tender loaf; always let it rest before slicing so the slices hold together."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step 4 use \"hindistan cevizi\", which means coconut in Turkish. The English says nutmeg, so the Turkish should say \"muskat\".",
+   "Turkish ingredient list says \"kekik veya mercanköşk\" and step 4 says \"kekik\", but the English specifies marjoram only. The Turkish should be \"mercanköşk\" throughout.",
+   "Leberkäse is traditionally a Bavarian and Austrian dish. Calling it a Liechtenstein native dish is questionable and should be verified."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

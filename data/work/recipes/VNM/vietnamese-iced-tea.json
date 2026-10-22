@@ -9,7 +9,7 @@
   "en": "A light, lightly sweetened iced tea served at street stalls, cafés and beer halls across Vietnam, especially during hot afternoons. It is often offered free alongside meals."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 40,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "8 g dökme jasmin yeşil çayı",
    "40 g toz şeker",
    "300 g buz küpü",
-   "1 limon, 4 dilim (isteğe bağlı)"
+   "1 misket limonu, 4 dilim (isteğe bağlı)"
   ],
   "en": [
    "1000 ml water",
@@ -36,7 +36,7 @@
    "Çayı oda sıcaklığına gelene kadar bekleyin (yaklaşık 30 dakika) ya da daha hızlı soğuması için buzdolabında 1 saat soğutun.",
    "300 g buz küpünü 4 bardağa eşit olarak paylaştırın.",
    "Her bardağa yaklaşık 250 ml soğumuş çay dökün.",
-   "İsteğe bağlı olarak her bardağın kenarına bir limon dilimi yerleştirip buzlu çayı hemen servis yapın."
+   "İsteğe bağlı olarak her bardağın kenarına bir misket limonu dilimi yerleştirip buzlu çayı hemen servis yapın."
   ],
   "en": [
    "Heat the water to about 80 °C, just before it boils; do not bring it to a full boil.",
@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Buzlu çay sulanmasın diye demleme suyunu tam kaynatmayın ve buzu servisten hemen önce ekleyin; taze limon sıkmak tadı belirgin biçimde canlandırır.",
+  "tr": "Buzlu çay sulanmasın diye demleme suyunu tam kaynatmayın ve buzu servisten hemen önce ekleyin; taze misket limonu sıkmak tadı belirgin biçimde canlandırır.",
   "en": "Avoid boiling the water fully and add the ice just before serving so the tea does not get diluted; a squeeze of fresh lime brightens the flavour noticeably."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 20, but the steps require about 4 min steeping plus roughly 30 min cooling (or 1 hour in the fridge) plus heating, so the total is well over 20 minutes.",
+   "Turkish uses 'limon' for the fruit while the English says 'lime'. Vietnamese iced tea uses lime, so the Turkish should say 'misket limonu' to match, in the ingredient, step 8 and the tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

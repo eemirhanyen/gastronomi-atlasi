@@ -13,24 +13,24 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "400 g bütün buğday taneleri (gece önceden ıslatılmış)",
+   "400 g bütün buğday taneleri (gece önceden 500 ml suda ıslatılmış)",
    "600 g kemikli kuzu eti (omuz veya but)",
    "1 orta boy soğan, ikiye bölünmüş",
    "1 tarçın çubuğu",
    "3 kakule tanesi",
-   "2,5 l su",
+   "2,5 l su (2 l pişirme, 500 ml buğday ıslatma)",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
    "80 g samn (sade yağ)",
    "1 çay kaşığı öğütülmüş tarçın (servis için, isteğe bağlı)"
   ],
   "en": [
-   "400 g whole wheat berries (soaked overnight)",
+   "400 g whole wheat berries (soaked overnight in 500 ml water)",
    "600 g bone-in lamb (shoulder or leg)",
    "1 medium onion, halved",
    "1 cinnamon stick",
    "3 cardamom pods",
-   "2.5 l water",
+   "2.5 l water (2 l for cooking, 500 ml for soaking the wheat)",
    "1 tsp salt",
    "1/2 tsp black pepper",
    "80 g samn (clarified butter)",
@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Buğday tanelerini gece boyunca suda bekletin, ardından süzüp iyice durulayın.",
+   "Buğday tanelerini 500 ml suda gece boyunca bekletin, ardından süzüp iyice durulayın.",
    "Kuzu eti, soğan, tarçın çubuğu, kakule ve 2 litre suyu geniş bir tencereye alın. Kaynamaya bırakın ve yüzeyde oluşan köpükleri alın.",
    "Ayrı bir kapta kalan 500 ml suda ıslatılmış buğdayı süzüp kaynayan etin üzerine ekleyin. Tuzu ilave edin.",
    "Ateşi çok kısın, kapağını hafif aralık bırakarak yaklaşık 2 saat, buğday tamamen yumuşayana ve et ayrılmaya başlayana kadar ağır ağır pişirin. Tencereyi arada karıştırın ve gerektikçe sıcak su ekleyin.",
@@ -49,9 +49,9 @@
    "Sade yağı ayrı bir tavada eritin. Harîseyi servis kaplarına alın, üzerine sıcak sade yağı gezdirin ve isteğe bağlı olarak öğütülmüş tarçın serpin."
   ],
   "en": [
-   "Soak the wheat berries in water overnight, then drain and rinse them well.",
+   "Soak the wheat berries in 500 ml water overnight, then drain and rinse them well.",
    "Place the lamb, onion, cinnamon stick, cardamom and 2 litres of the water in a large pot. Bring to a boil and skim off any foam from the surface.",
-   "Drain the soaked wheat berries and add them to the boiling meat along with the salt, using the remaining 500 ml water to rinse the soaking bowl if needed.",
+   "Drain the wheat berries soaked in the remaining 500 ml water and add them to the boiling meat. Add the salt.",
    "Reduce the heat to very low, partly cover, and simmer for about 2 hours, stirring occasionally and adding hot water as needed, until the wheat is completely soft and the meat is falling apart.",
    "Remove the meat and bones from the pot. Discard the bones, shred the meat into fibres, and take out the onion and cinnamon stick.",
    "Beat the wheat mixture with a wooden spoon or hand blender for about 10 minutes until thick and smooth, adding a little hot water if it becomes too stiff.",
@@ -63,5 +63,14 @@
   "tr": "Buğdayı mutlaka gece önceden ıslatın; bu, pişme süresini belirgin şekilde kısaltır ve dokuyu daha yumuşak yapar.",
   "en": "Soak the wheat overnight without fail; it shortens cooking time noticeably and gives a softer, creamier texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 3 says the remaining 500 ml water is used to rinse the soaking bowl, but the Turkish step 3 says the wheat was soaked in that 500 ml and is drained and added. The two versions disagree.",
+   "The soaking water is never specified in step 1 or the ingredient lines, so it is unclear that the 500 ml is the wheat's soaking water. Both languages need to state this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A light, tangy shredded cabbage salad served alongside grilled meats, rice and beans, especially at the midday meal (casado) across Costa Rica. It appears daily in homes, soda (local eateries) and restaurants throughout the country."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 30,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
  },
  "steps": {
   "tr": [
-   "Lahananın dış yapraklarını ayırın, sapını çıkarıp lahanayı iyice yıkayın ve süzün.",
+   "Lahananın zarar görmüş dış yapraklarını ayırın, sapını çıkarıp lahanayı iyice yıkayın ve süzün.",
    "Lahanayı çok ince şeritler halinde doğrayın ve geniş bir kaseye alın.",
    "Lahanayı tuzla serpip karıştırın ve 10 dakika bekletin, ardından fazla suyunu elinizle hafifçe sıkarak süzün.",
    "Havucu soyup kaba rendeleyin. Salatalığı ince dilimleyin. Kırmızı soğanı çok ince doğrayın.",
@@ -63,5 +63,14 @@
   "tr": "Lahanayı mümkün olduğunca ince doğrayın; ince şeritler sosu daha iyi emer ve salata daha yumuşak olur.",
   "en": "Shred the cabbage as finely as you can; thin strips absorb the dressing better and make the salad more tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to remove the outer leaves in general, while the English says only damaged ones. The versions disagree.",
+   "time_min is 20, but the steps include a 10-minute salting rest and a 10-minute rest before serving, so the total time is about 30 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

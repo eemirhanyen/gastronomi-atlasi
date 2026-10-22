@@ -39,7 +39,7 @@
    "Tahini kabın içinde iyice karıştırarak yağı ile katısını birleştirin. Kakule ve tuzu ekleyip kenara alın.",
    "Antep fıstıklarını kuru bir tavada orta ateşte 2-3 dakika, hafif kokana kadar kavurun ve kenara alın.",
    "Orta boy bir tencerede şekeri suyla karıştırın. Limon suyunu ekleyip karıştırmadan kaynatın.",
-   "Şurup yaklaşık 115°C'ye ulaşana kadar pişirin (şeker termometresiyle ölçün). Termometre yoksa şurubun sıcak suya damlatıldığında yumuşak bir top oluşturmasını bekleyin.",
+   "Şurup yaklaşık 115°C'ye ulaşana kadar pişirin (şeker termometresiyle ölçün). Termometre yoksa şurubun soğuk suya damlatıldığında yumuşak bir top oluşturmasını bekleyin.",
    "Şurubu ocaktan alın ve tahinli kaseye ince bir sıcak akışla dökün. Bu sırada sürekli ve kuvvetli karıştırın.",
    "Karışım parlak ve koyulaşıp kaptan ayrılmaya başlayana kadar yaklaşık 3-4 dakika tahta kaşıkla yoğurun.",
    "Hazırlanan karışımı yağlı kalıba eşit şekilde bastırarak yayın. Üzerine kavrulmuş fıstıkları serpip hafifçe bastırın.",
@@ -61,5 +61,13 @@
   "tr": "Tahin kullanmadan önce iyice karıştırın; yağı ayrılmış tahin helvanın kıvamını bozar. Şurubu dökerken karıştırmayı bırakmayın.",
   "en": "Stir the tahini thoroughly before use, since separated oil will ruin the texture. Do not stop stirring while pouring in the syrup, or the halva may split."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to drop the syrup into hot water (\"sıcak suya\") for the soft-ball test, but the English says cold water. Cold water is correct, so the Turkish has been changed to \"soğuk suya\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

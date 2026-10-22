@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Sötlü soslu pirinç keki çubukları",
+  "tr": "Tatlı soya soslu pirinç keki çubukları",
   "en": "Sweet soy glazed rice cake sticks"
  },
  "native": "가래떡",
@@ -53,5 +53,14 @@
   "tr": "Kızartırken dilimleri çok sık koymayın; aralarında boşluk olursa dışları çıtır, içleri yumuşak kalır.",
   "en": "Do not crowd the pan. Leaving space between the slices keeps the outside crisp and the inside soft and chewy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name uses \"Sötlü\", which is not a correct Turkish word. It should be \"Tatlı\" (sweet).",
+   "Country is set to North Korea, but the description and native name describe a Korean dish (garaetteok, \"Kore'de\"). The country field may need checking against the intended origin."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

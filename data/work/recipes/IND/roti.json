@@ -39,7 +39,7 @@
    "Açılan ekmeği sıcak tavaya koyun ve yüzeyinde kabarcıklar belirene kadar yaklaşık 30 saniye pişirin.",
    "Ekmeği çevirip diğer yüzünü de 30 saniye pişirin, ardından tekrar çevirin.",
    "Temiz bir bezle hafifçe bastırarak ekmeğin şişmesini sağlayın; şişince çevirip alevin üzerinde birkaç saniye daha tutun.",
-   "Sıcakken her rotinin üzerine az miktarda ghee sürün ve kalan rotileri aynı şekilde pişirin. Hepsini bir kapta üst üste örtülü olarak sıcak servis edin."
+   "Sıcakken her rotinin üzerine hafifçe ghee sürün (toplam yaklaşık 20 g) ve kalan rotileri aynı şekilde pişirin. Yumuşak kalmaları için temiz bir bezle örtülü olarak, üst üste dizip sıcak servis edin."
   ],
   "en": [
    "In a large bowl, mix 300 g atta and 3 g salt thoroughly.",
@@ -52,12 +52,21 @@
    "Place the roti on the hot tawa and cook for about 30 seconds, until bubbles appear on the surface.",
    "Flip the roti and cook the other side for 30 seconds, then flip it again.",
    "Press gently with a clean cloth so the roti puffs up; once it puffs, flip it and hold it over the flame for a few seconds more.",
-   "While still hot, brush each roti lightly with ghee (about 20 g in total), then cook the remaining rotis the same way. Serve hot, stacked and covered in a cloth to keep them soft."
+   "While still hot, brush each roti lightly with ghee (about 20 g in total), then cook the remaining rotis the same way. Serve hot, stacked and covered in a clean cloth to keep them soft."
   ]
  },
  "tip": {
   "tr": "Hamuru dinlendirmeden açmayın; gluten gevşer, rotiler daha yumuşak olur ve kolay şişer.",
   "en": "Do not skip the resting time; a relaxed dough rolls out thinner and puffs up more easily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 11 omits the ghee amount (about 20 g in total) that the English step states.",
+   "Turkish final step says 'bir kapta' (in a bowl) where the English says 'covered in a cloth'; the Turkish should say the rotis are kept covered with a clean cloth."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

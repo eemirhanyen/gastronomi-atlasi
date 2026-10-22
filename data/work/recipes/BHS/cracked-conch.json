@@ -50,10 +50,10 @@
    "Dövülmüş eti 5 cm uzunluğunda, ince şeritler halinde kesin.",
    "Etleri bir kaseye alın, 60 ml limon suyu, 3 g tuz ve karabiberle karıştırın ve buzdolabında 20 dakika marine edin.",
    "Ayrı bir kapta yumurtaları ve sütü iyice çırpın.",
-   "Başka bir kapta unu, galetaununu, kalan 2 g tuzu, tatlı kırmızı biberi, sarımsak tozunu ve acı biberi karıştırın.",
+   "Başka bir kapta unu, galeta unu, kalan 2 g tuzu, tatlı kırmızı biberi, sarımsak tozunu ve acı biberi karıştırın.",
    "Marine edilmiş etleri önce yumurtalı karışıma batırın, sonra kuru un karışımında her iki yüzünü de iyice bastırarak kaplayın.",
    "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın.",
-   "Etleri gruplar halinde 1-2 dakika, altın rengi ve çıtır olana kadar kızartın.",
+   "Etleri gruplar halinde 2-3 dakika, altın rengi ve çıtır olana kadar, iç kısmı tamamen pişene kadar kızartın.",
    "Kızarmış parçaları kağıt havlu serili bir tabağa alıp fazla yağını süzdürün.",
    "Kalan 20 ml limon suyunu üzerine gezdirip sıcak sıcak misket limonu dilimleriyle servis edin."
   ],
@@ -66,7 +66,7 @@
    "In another bowl, combine the flour, breadcrumbs, remaining 2 g salt, sweet paprika, garlic powder and cayenne.",
    "Dip the marinated conch into the egg mixture, then dredge in the dry flour mixture, pressing firmly so both sides are well coated.",
    "Heat the frying oil in a deep pot to 180°C.",
-   "Fry the conch in batches for 1-2 minutes until golden brown and crisp.",
+   "Fry the conch in batches for 2-3 minutes until golden brown, crisp and cooked through.",
    "Transfer the fried pieces to a plate lined with paper towels to drain excess oil.",
    "Drizzle with the remaining 20 ml lime juice and serve hot with lime wedges."
   ]
@@ -75,5 +75,14 @@
   "tr": "Etin dövülmesi çok önemlidir; yeterince ince dövülmezse içi sert kalır. Kızartmadan önce parçaları fazla kalabalık yapmadan küçük gruplar halinde pişirin, böylece yağın sıcaklığı düşmez ve çıtırlık korunur.",
   "en": "Pounding the conch thin is essential; if it is not thin enough, the meat stays tough. Fry in small batches so the oil temperature does not drop, keeping the coating crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 1-2 minutes at 180°C may not bring raw conch strips reliably to a safe internal temperature. Extended to 2-3 minutes in both languages.",
+   "Turkish step 6 has a typo: 'galetaununu' should be 'galeta unu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Channa aloo",
  "desc": {
-  "tr": "Gayana'nın Hint kökenli topluluklarının mutfağından gelen, baharatlı nohutlu patates körisidir. Genellikle puri ya da roti ile, öğle yemeklerinde ve özel günlerde servis edilir.",
+  "tr": "Guyana'nın Hint kökenli topluluklarının mutfağından gelen, baharatlı nohutlu patates körisidir. Genellikle puri ya da roti ile, öğle yemeklerinde ve özel günlerde servis edilir.",
   "en": "A spiced chickpea and potato curry from Guyana's Indo-Guyanese kitchen, usually eaten with puri or roti at lunch and at family gatherings."
  },
  "servings": 4,
@@ -79,5 +79,13 @@
   "tr": "Daha yoğun bir sos için pişirmenin sonunda birkaç patatesi ezin; daha yumuşak bir sos için ise birkaç yemek kaşığı su ekleyin.",
   "en": "For a thicker sauce, mash more potatoes at the end; for a looser, soupier curry, add a few tablespoons of water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description misspells the country name as \"Gayana\" (should be \"Guyana\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

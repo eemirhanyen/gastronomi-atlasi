@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Hurma Topları (Tmer Tatlısı)",
+  "tr": "Hurma Topları (Tmar Tatlısı)",
   "en": "Date and Sesame Balls (Tmar Sweets)"
  },
  "native": "حلويات التمر",
@@ -41,7 +41,7 @@
    "Tereyağını veya sade yağı ılık olana kadar eritin.",
    "Ezilmiş hurmaya eritilmiş yağı, kavrulmuş unu, öğütülmüş bademi, tarçını ve tuzu ekleyin. Elle homojen, dokunulabilir bir hamur oluşana kadar iyice yoğurun.",
    "Hamurdan cevizden biraz büyük toplar yapın. Her topu kavrulmuş susama yuvarlayarak kaplayın.",
-   "Topları servis tabağına dizin ve oda sıcaklığında 15-20 dakika dinlendirin ki kıvamı otursun. Bir bardak nane çayı ile servis yapın."
+   "Topları servis tabağına dizin ve oda sıcaklığında 15-20 dakika dinlendirin ki kıvamı otursun. Bir bardak nane çayıyla servis edin."
   ],
   "en": [
    "Remove the pits from the dates. Place the dates and 30 ml water in a small pan and warm over medium heat for 5 minutes to soften them, then mash with a fork or in a food processor until smooth.",
@@ -57,5 +57,13 @@
   "tr": "Hamur çok yumuşak kalırsa 10 dakika buzdolabında bekletin; şekillendirmesi çok kolaylaşır.",
   "en": "If the dough is too soft to shape, chill it for 10 minutes in the refrigerator, which makes rolling much easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name uses the transliteration \"Tmer\" while the English name uses \"Tmar\"; the Hassaniya word is tmar, so the two versions should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

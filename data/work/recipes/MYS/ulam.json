@@ -51,10 +51,10 @@
    "Aynı suda fasulye filizlerini yalnızca 30 saniye haşlayın, hemen süzüp soğuk suda soğutun ve iyice süzün.",
    "Karides macununu bir parça folyoya sarın ve kuru bir tavada her iki yüzünü 1-2 dakika kavurun. Kokusu çıkınca folyodan çıkarın.",
    "Havan veya mutfak robotunda cücüye biber, arpacık soğanı, tuz, palmiye şekeri ve kavrulmuş karides macununu ezerek pürüzlü bir macun yapın.",
-   "Macuna limon suyu ve suyu ekleyip karıştırın. Sambal belacan'ı küçük bir kaseye alın.",
+   "Macuna limon suyunu ve suyu ekleyip karıştırın. Sambal belacan'ı küçük bir kaseye alın.",
    "Daun kesum, nane, Tay fesleğeni ve su teresi yapraklarını yıkayıp süzün ve geniş bir servis tabağına yerleştirin.",
    "Haşlanmış kacang panjang, fasulye filizi ve salatalık dilimlerini otların üzerine dağıtın.",
-   "Ulam'ı oda sıcaklığında, yanında sambal belacan ile servis edin. Her lokmaya biraz sambal banarak yiyin."
+   "Ulam'ı oda sıcaklığında, yanında sambal belacan ile servis edin. Her lokmaya biraz sambal batırarak yiyin."
   ],
   "en": [
    "Bring 500 ml water to a boil in a large pot. Blanch the long bean pieces for 2 minutes, then transfer to cold water and drain.",
@@ -71,5 +71,14 @@
   "tr": "Karides macununu kavururken pencereyi açın; güçlü kokusu yoğun olabilir. Fasulye filizlerini uzun süre haşlamayın, aksi halde çıtırlığını kaybeder.",
   "en": "Toast the shrimp paste with the windows open, as its smell is strong. Do not overcook the bean sprouts, or they will lose their crunch."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 reads \"limon suyu ve suyu\", which is ambiguous and unnatural; it should say \"limon suyunu ve suyu\".",
+   "Turkish step 8 uses \"banarak\", a colloquial form; \"batırarak\" is the natural word for dipping."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

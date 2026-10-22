@@ -43,9 +43,9 @@
    "Domuz etini kağıt havluyla kurulayın, yüzeyine derin çizikler atın ve marinasyonun yarısını etin her yerine sürün. Yağlı tarafı yukarı gelecek şekilde bir fırın tepsisine yerleştirin.",
    "Kalan marinasyonu etin üzerine dökün, defne yapraklarını ekleyin, üzerini folyo ile örtün ve buzdolabında en az 12 saat, tercihen bir gece dinlendirin.",
    "Pişirmeden 1 saat önce eti buzdolabından çıkarıp oda sıcaklığına gelmesini bekleyin. Fırını 180°C'ye ısıtın.",
-   "Eti marinasyonu ile birlikte fırın tepsisine alın, üzerini sıkıca folyo ile kapatın ve 1 saat 30 dakika pişirin. Bu sırada tepsideki suyu kaşıkla eti üzerine gezdirerek iki kez arındırın.",
+   "Eti marinasyonu ile birlikte fırın tepsisine alın, üzerini sıkıca folyo ile kapatın ve 1 saat 30 dakika pişirin. Bu sırada tepsideki suyu kaşıkla etin üzerine iki kez gezdirin.",
    "Folyoyu açın, fırını 200°C'ye çıkarın ve yüzeyi altın rengi, çıtır bir kabuk tutana kadar 20-30 dakika daha pişirin. Etin iç sıcaklığı yaklaşık 85°C olmalı.",
-   "Eti tepsiden alın ve servisten önce 15 dakika folyo altında dinlendirin. Ardından lifine dik şekilde dilimleyin veya çatallarla parçalayın. Tepsideki suyu ve defne yapraklarını çıkarıp sosu üzerine gezdirerek servis yapın."
+   "Eti tepsiden alın ve servisten önce 15 dakika folyo altında dinlendirin. Ardından lifine dik şekilde dilimleyin veya çatallarla parçalayın. Tepsideki suyu ve defne yapraklarını çıkarıp etin üzerine gezdirerek servis yapın."
   ],
   "en": [
    "In a bowl, combine the crushed garlic, salt, cumin, oregano, black pepper, orange juice, lime juice and olive oil to make the marinade.",
@@ -61,5 +61,14 @@
   "tr": "Gerçek Küba yemeğinde ekşi portakal (naranja agria) kullanılır; ulaşamazsanız portakal suyu ile limon suyunu karıştırarak benzer bir ekşilik elde edebilirsiniz.",
   "en": "Authentic recipes use sour orange (naranja agria); if you cannot find it, mix orange juice with a little lime juice to approximate its tartness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 uses 'arındırın' (purify/clarify), which is the wrong word for basting pan juices over the meat; the English 'spoon the pan juices over the meat' shows the intended meaning.",
+   "Turkish step 7 'sosu üzerine gezdirerek' is awkward because the pan juices are not yet a sauce in that sentence; it should say the juices are spooned over the sliced meat."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

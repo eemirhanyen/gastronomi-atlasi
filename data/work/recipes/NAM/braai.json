@@ -42,7 +42,7 @@
    "Büyük bir kapta sarımsak, zeytinyağı, limon suyu, füme kırmızıbiber, kimyon, biberiye, tuz ve karabiberi karıştırarak marinasyonu hazırlayın.",
    "Pirzolaları marinasyona ekleyin, her parçanın iki yüzüne de iyice bulaşmasını sağlayın. Kapağını kapatıp oda sıcaklığında 30 dakika bekletin ya da buzdolabında en fazla 4 saat dinlendirin.",
    "Kömürü ızgara tabanına yerleştirip yakın. Kömürler beyaz küle dönüp parlak kızıl hale gelene kadar yaklaşık 30-40 dakika bekleyin.",
-   "Pirzolaları ızgaraya dizin ve her iki yüzünü yaklaşık 3-4 dakika pişirin. Et termometresi kullanıyorsanız iç sıcaklık 63°C olmalıdır.",
+   "Pirzolaları ızgaraya dizin ve her iki yüzünü yaklaşık 3-4 dakika pişirin. Et termometresi kullanıyorsanız orta pişmişlik için iç sıcaklık 63°C olmalıdır.",
    "Pirzolaları ızgaradan alın, üzerlerine biraz tuz serpin ve 5 dakika dinlendirin. Sonra sıcak olarak servis edin."
   ],
   "en": [
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Pirzolaları ızgaraya koymadan önce marinasyonu silkelemeyin; fazla sıvı kömürde alev çıkarıp etin dışını acıtabilir.",
+  "tr": "Pirzolaları ızgaraya koymadan önce fazla marinasyonu silkeleyin; damlayan yağ kömürde alev çıkarıp etin dışını yakabilir.",
   "en": "Shake off excess marinade before grilling; dripping oil can flare up over the coals and scorch the outside of the meat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says not to shake off the marinade, but the English tip (and the food-safety logic) says to shake off the excess before grilling. The two versions contradict each other.",
+   "Turkish step 4 omits 'for medium' from the 63°C note, so the English and Turkish versions don't fully match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

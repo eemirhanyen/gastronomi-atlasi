@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "500 g dana bonfile veya sırt eti",
+   "500 g dana antrikot veya sırt eti",
    "100 g kavrulmuş yer fıstığı",
    "12 g acı kırmızı biber (cayenne)",
    "5 g tatlı kırmızı biber (paprika)",
@@ -43,14 +43,14 @@
  },
  "steps": {
   "tr": [
-   "Eti tane tane lifin yönüne ters, yaklaşık 3 mm kalınlığında ince şeritler halinde dilin.",
+   "Eti liflerine dik yönde, yaklaşık 3 mm kalınlığında ince şeritler halinde dilin.",
    "Yer fıstığını blenderda veya havanda kaba toz haline gelene kadar öğütün.",
    "Bir kapta fıstık tozunu, cayenne biberi, paprikayı, zencefil tozunu, sarımsak tozunu, soğan tozunu ve tuzu iyice karıştırarak yaji baharatını hazırlayın.",
    "Et şeritlerini yarısı kadar yaji ile ve 15 ml bitkisel yağ ile iyice ovalayın. Kapalı kapta buzdolabında en az 30 dakika dinlendirin.",
    "Marine edilmiş etleri şişlere sıkıca ama çok sıkmadan, akordeon gibi kıvrılarak geçirin.",
    "Izgarayı veya kömür ocağını yüksek ateşe getirin, yaklaşık 220 °C'ye ısıtın. Şişleri ızgarada 3-4 dakika pişirin, bir kez çevirip kalan yağı fırçayla sürün.",
    "Kuru soğanı ince halka halinde doğrayın. Domatesleri dilim dilim kesin.",
-   "Pişen suyaları bir tabağa alın, üzerine kalan yaji baharatından serpin ve yanına soğan ile domates dilimlerini koyarak hemen servis edin."
+   "Pişen şişleri bir tabağa alın, üzerine kalan yaji baharatından serpin ve yanına soğan ile domates dilimlerini koyarak hemen servis edin."
   ],
   "en": [
    "Cut the beef across the grain into thin strips about 3 mm thick.",
@@ -67,5 +67,15 @@
   "tr": "Yaji baharatını kendiniz kavurup öğütürseniz daha aromatik olur; etin üzerine serpilen fazla baharat suya'nın asıl lezzetini verir.",
   "en": "Toasting the peanuts and spices before grinding them gives a far more aromatic yaji, and the extra sprinkle on the finished skewers is what gives suya its signature flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish beef cut 'dana bonfile' (tenderloin) does not match the English 'beef sirloin or topside'",
+   "Turkish step 1 'lifin yönüne ters' is unnatural; the usual phrasing is 'liflerine dik'",
+   "Turkish step 8 'Pişen suyaları' is wrong: the skewers are the cooked items, so it should be 'pişen şişleri'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

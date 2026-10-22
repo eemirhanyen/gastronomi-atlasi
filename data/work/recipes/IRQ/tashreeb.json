@@ -9,7 +9,7 @@
   "en": "An old and beloved Iraqi dish of torn flatbread soaked in spiced lamb broth and layered with meat and vegetables. It is traditionally served at family gatherings, during Ramadan evenings and at festive occasions such as Eid."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -57,7 +57,7 @@
    "Aynı tencerede soğanı yumuşayıp hafif altın rengi alana kadar yaklaşık 6 dakika soteleyin. Sarımsağı ekleyip 1 dakika daha kavurun.",
    "Domates salçasını ve rendelenmiş domatesi ekleyin, yağ salçadan ayrılana kadar 4-5 dakika pişirin.",
    "Zerdeçal, kakule, tarçın, karabiber ve delinmiş kuru limonları ekleyin, bir dakika karıştırarak baharatların kokusunu açığa çıkarın.",
-   "Eti tencereye geri koyun, suyu ve tuzu ekleyin. Kaynayınca ateşi kısın, kapağı kapatıp et yumuşayana kadar yaklaşık 45 dakika kısık ateşte pişirin.",
+   "Eti tencereye geri koyun, suyu ve tuzu ekleyin. Kaynayınca ateşi kısın, kapağı kapatıp et yumuşayana kadar yaklaşık 60 dakika kısık ateşte pişirin.",
    "Havuçları ekleyip 20 dakika daha pişirin. Et ve havuçlar yumuşak olmalı.",
    "Eti ve havuçları süzgeçle ayırıp sıcak tutun. Suyu süzün, tarçın, kakule ve kuru limonları çıkarın, tadına bakıp gerekirse tuzu ayarlayın.",
    "Ekmekleri elle parçalayıp geniş bir servis kabına yerleştirin. Üzerine sıcak et suyundan ekmekler iyice ıslanana kadar gezdirin.",
@@ -69,7 +69,7 @@
    "In the same pot, cook the onion for about 6 minutes until soft and lightly golden. Add the garlic and stir for 1 minute more.",
    "Add the tomato paste and grated tomatoes and cook for 4-5 minutes, until the oil begins to separate from the paste.",
    "Stir in the turmeric, cardamom, cinnamon stick, black pepper and pierced dried black limes, and toast for 1 minute to release their aromas.",
-   "Return the lamb to the pot, add the water and salt. Bring to the boil, then reduce the heat, cover and simmer gently for about 45 minutes until the meat is tender.",
+   "Return the lamb to the pot, add the water and salt. Bring to the boil, then reduce the heat, cover and simmer gently for about 60 minutes until the meat is tender.",
    "Add the carrots and simmer for a further 20 minutes until they are soft and the meat is very tender.",
    "Lift out the meat and carrots with a slotted spoon and keep them warm. Strain the broth, discard the cinnamon, cardamom and dried limes, then taste and adjust the salt.",
    "Tear the flatbreads by hand into rough pieces and arrange them in a large serving dish. Ladle the hot broth over the bread until it is thoroughly soaked.",
@@ -81,5 +81,14 @@
   "tr": "Ekmeği bıçakla kesmek yerine elle parçalayın; düzensiz kenarlar suyu daha iyi emer ve tashreeb daha dokulu olur.",
   "en": "Tear the bread by hand rather than cutting it; the uneven edges absorb the broth better and give the dish a more pleasing texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Total time_min (60) is too short for the listed steps: browning (~20 min), onion, tomato, a 45-minute simmer, a 20-minute carrot cook and assembly add up to roughly two hours.",
+   "A 45-minute simmer is likely too short for 3 cm cubes of boneless lamb shoulder to become tender. Both language versions should be extended to about 60 minutes so the meat is fully cooked, and the tot"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

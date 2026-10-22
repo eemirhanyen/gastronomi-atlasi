@@ -5,11 +5,11 @@
  },
  "native": "Guyana",
  "desc": {
-  "tr": "Gayana'nın kıyı bölgelerinde, özellikle pazar günleri aile öğle yemeklerinde sıkça yapılan, hindistancevizi sütlü ve kök sebzeli zengin bir çorbadır. Kasava, tatlı patates ve taro gibi nişastalı sebzeler, tavuk ya da domuz eti ile birlikte pişirilir.",
+  "tr": "Guyana'nın kıyı bölgelerinde, özellikle pazar günleri aile öğle yemeklerinde sıkça yapılan, hindistancevizi sütlü ve kök sebzeli zengin bir çorbadır. Kasava, tatlı patates ve taro gibi nişastalı sebzeler, tavuk ya da domuz eti ile birlikte pişirilir.",
   "en": "A rich, coconut-milk soup from the coastal areas of Guyana, often served at Sunday family lunches. Starchy root vegetables such as cassava, sweet potato and dasheen simmer together with chicken or pork until thick and comforting."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,14 @@
   "tr": "Scotch bonnet biberini bütün bırakıp sadece aroma için pişirin; kırarsanız çorba çok acı olabilir. Hindistancevizi sütünü çok kaynatmayın, aksi halde yağı ayrışır.",
   "en": "Keep the Scotch bonnet whole so it flavours the soup without making it fiery; breaking it open can make the broth very hot. Do not boil the coconut milk hard, or it may separate and look oily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description misspells the country name as \"Gayana\" instead of \"Guyana\".",
+   "time_min (60) is too low for the listed steps: about 10 min resting, 6 min browning, 3 min softening, 20 min simmering, 20-25 min vegetable cooking, 5-8 min coconut milk, plus peeling and cutting root"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

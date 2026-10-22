@@ -23,7 +23,7 @@
    "45 ml balık sosu",
    "1 çay kaşığı tuz",
    "1 çay kaşığı beyaz karabiber",
-   "400 g kurutulmuş pirinç erişte (sen)",
+   "400 g kurutulmuş pirinç erişte",
    "3 dal yeşil soğan, doğranmış",
    "30 g kişniş yaprağı",
    "2 lime, dilimlenmiş",
@@ -40,7 +40,7 @@
    "45 ml fish sauce",
    "1 tsp salt",
    "1 tsp ground white pepper",
-   "400 g dried rice noodles (sen)",
+   "400 g dried rice noodles",
    "3 spring onions, sliced",
    "30 g cilantro leaves",
    "2 limes, cut into wedges",
@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Büyük bir tencereye tavuk butları, suyu, yarım soğanı, zencefili ve ezilmiş 2 diş sarımsağı koyun. Kaynatın, yüzeyde biriken köpüğü alın, ateşi kısın ve kapağı yarım açık olarak yaklaşık 35 dakika hafif kaynamada pişirin.",
-   "Bu sırada küçük bir tavada yağı orta ateşte ısıtın. Dilimlenmiş sarımsak ve arpacık soğanını ekleyip karıştırarak 3-4 dakika altın rengi alana kadar kızartın. Süzgečli kepçeyle çıkarıp kağıt havlu üzerine alın; yağı tavada bırakın.",
+   "Bu sırada küçük bir tavada yağı orta ateşte ısıtın. Dilimlenmiş sarımsak ve arpacık soğanını ekleyip karıştırarak 3-4 dakika altın rengi alana kadar kızartın. Süzgeçli kepçeyle çıkarıp kağıt havlu üzerine alın; yağı tavada bırakın.",
    "Tavukları tencereden çıkarıp hafifçe soğumaya bırakın. Kemiklerini ve derisini ayırarak etini lifler halinde didikleyin. Suyu süzgeçten geçirerek tencereye geri koyun, balık sosu, tuz ve karabiberle tatlandırın ve çok kısık ateşte sıcak tutun.",
    "Erişteleri bol kaynar suda paketteki süreye göre, genellikle 3-5 dakika haşlayın. Süzün ve soğuk suyla kısaca durulayın.",
    "Erişteleri dört kâseye paylaştırın, üzerine didiklenmiş tavuğu koyun ve sıcak suyu kepçeyle ekleyin. Kızarmış sarımsak ve arpacık soğanı, yeşil soğan ve kişnişle süsleyin, kırmızı biber pulunu serpin. Limon dilimleriyle servis yapın."
@@ -67,5 +67,14 @@
   "tr": "Suyu sert kaynatmayın; hafif kaynama berrak bir çorba verir. Erişteyi servisten hemen önce haşlayın, yoksa çorbada şişip dağılır.",
   "en": "Keep the broth at a gentle simmer rather than a hard boil to keep it clear. Cook the noodles just before serving, or they will swell and turn soft in the broth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Stray placeholder \"(sen)\" appears in the rice noodle ingredient in both Turkish and English; it is meaningless to a cook.",
+   "Turkish step 3 has a typo, \"Süzgečli\" (should be \"Süzgeçli\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

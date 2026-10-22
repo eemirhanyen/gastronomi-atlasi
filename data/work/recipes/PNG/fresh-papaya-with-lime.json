@@ -14,13 +14,13 @@
  "ingredients": {
   "tr": [
    "900 g olgun papaya (yaklaşık 1 adet)",
-   "1 limon (yaklaşık 30 ml suyu)",
+   "1 limon (yarısının suyu yaklaşık 15 ml; diğer yarısı dilim için)",
    "5 g esmer şeker (isteğe bağlı)",
    "Bir tutam tuz"
   ],
   "en": [
    "900 g ripe papaya (about 1 medium fruit)",
-   "1 lime (about 30 ml juice)",
+   "1 lime (juice of one half about 15 ml; other half for wedges)",
    "5 g brown sugar (optional)",
    "A pinch of salt"
   ]
@@ -51,5 +51,13 @@
   "tr": "Olgun papayanın kabuğu çoğunlukla sarıdır ve hafifçe bastırıldığında yumuşar; sert ve yeşil papayalar tatlanmadığı için tercih etmeyin.",
   "en": "Choose a papaya that is mostly yellow and gives slightly when pressed; hard, green fruit will not be sweet enough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list says 1 lime gives about 30 ml juice, but the steps squeeze only half the lime onto the papaya and use the other half for wedges. The juice amount is overstated for the steps (about 15 "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

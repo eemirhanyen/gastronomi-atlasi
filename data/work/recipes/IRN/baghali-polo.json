@@ -9,12 +9,12 @@
   "en": "A Persian spring and Nowruz staple: fluffy basmati rice cooked with fresh dill and broad beans, finished with a golden crust at the base. It is traditionally served with lamb, especially around the New Year holiday."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "400 g baldo veya basmati pirinci",
-   "400 g taze bakla (kabuğu soyulmuş, yaklaşık 300 g dane ağırlığı)",
+   "400 g taze bakla (kabukluyken tartılmış; kabuğu soyulduktan sonra yaklaşık 300 g dane)",
    "80 g taze dereotu, ince kıyılmış",
    "2 yemek kaşığı tuz (pirinç suyu için)",
    "60 g tereyağı",
@@ -25,7 +25,7 @@
   ],
   "en": [
    "400 g basmati rice",
-   "400 g fresh broad beans, shelled (about 300 g beans after shelling)",
+   "400 g fresh broad beans in the pod (about 300 g shelled beans)",
    "80 g fresh dill, finely chopped",
    "2 tbsp salt (for the cooking water)",
    "60 g butter",
@@ -61,5 +61,14 @@
   "tr": "Pirinci tencereye koymadan önce iyice süzün ve kapağı havlu ile sarın; böylece buhar sudamsı olmaz ve taban kabuğu düzgün oluşur.",
   "en": "Drain the parboiled rice well and wrap the lid in a towel so the steam does not drip back onto the rice, which keeps the grains separate and helps the golden crust form."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Broad bean quantity is contradictory: 400 g is described as 'shelled' but also as about 300 g after shelling (en and tr).",
+   "Total time of 90 min is too short: the 1-hour soak alone plus about 45-50 min of cooking and blanching/peeling exceeds that. Changed to 120 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

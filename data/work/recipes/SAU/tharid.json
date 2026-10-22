@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Tirîd",
+  "tr": "Tirid",
   "en": "Tharid"
  },
  "native": "ثريد",
  "desc": {
-  "tr": "Tirîd, Suudi Arabistan'da özellikle Necd bölgesinde ve misafir sofralarında, bayramlarda ve aile toplantılarında yenen geleneksel bir ana yemektir. Baharatlı etli suyun ekmek üzerine dökülmesiyle hazırlanır.",
+  "tr": "Tirid, Suudi Arabistan'da özellikle Necd bölgesinde ve misafir sofralarında, bayramlarda ve aile toplantılarında yenen geleneksel bir ana yemektir. Baharatlı etli suyun ekmek üzerine dökülmesiyle hazırlanır.",
   "en": "Tharid is a traditional main dish from Saudi Arabia, especially common in Najd and served at family gatherings, festive meals and when guests are received. Spiced meat broth is poured over torn bread so the bread soaks up the liquid."
  },
  "servings": 4,
@@ -21,7 +21,7 @@
    "4 diş sarımsak, ezilmiş",
    "3 yemek kaşığı sıvı yağ",
    "1 çubuk tarçın",
-   "3 adet karabiber tanesi büyüklüğünde karadüğme... ",
+   "3 adet kakule",
    "2 defne yaprağı",
    "1 tatlı kaşığı baharat karışımı (baharat)",
    "1 tatlı kaşığı tuz",
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Ekmek suyu hemen emsin diye tirîdi servis etmeden kısa süre önce hazırlayın; ekmek çok bekleyince dağılır.",
+  "tr": "Ekmek suyu hemen emsin diye tiridi servis etmeden kısa süre önce hazırlayın; ekmek çok bekleyince dağılır.",
   "en": "Soak the bread just before serving so it stays structured; if it sits too long it turns mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for cardamom is garbled (\"3 adet karabiber tanesi büyüklüğünde karadüğme...\"). It does not match the English \"3 cardamom pods\" and should read \"3 adet kakule\".",
+   "Turkish name and text use \"Tirîd\"/\"tirîdi\" with the Kurdish letter î, which is not standard Turkish orthography. Changed to \"Tirid\" to match Turkish spelling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

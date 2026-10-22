@@ -35,10 +35,10 @@
   "tr": [
    "Büyük bir kapta unu, kabartma tozunu, tuzu ve toz şekeri karıştırın.",
    "Tereyağını un karışımının içine ekleyip parmak uçlarınızla kum kıvamı alana kadar ovalayın.",
-   "Suyu veya sütü azar azar ekleyerek yumuşak ama yapışkan olmayan bir hamur yoğurun. Yaklaşık 3-4 dakika yoğurun.",
+   "Suyu veya sütü azar azar ekleyerek yumuşak ama hafif yapışkan bir hamur yoğurun. Yaklaşık 3-4 dakika yoğurun.",
    "Hamurun üstünü örtüp oda sıcaklığında 15 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün ve her birini yuvarlayıp yaklaşık 1 cm kalınlığında yuvarlak disk haline getirin.",
-   "Geniş bir tencerede kızartma yağını 180°C'ye kadar ısıtın. Yağ yoksa hamurdan küçük bir parça atarak kontrol edin.",
+   "Geniş bir tencerede kızartma yağını 180°C'ye kadar ısıtın. Termometreniz yoksa, yağa küçük bir hamur parçası atarak kontrol edin; cızırdayarak hızla yüzeye çıkmalıdır.",
    "Hamur disklerini dikkatlice yağa koyun ve her iki tarafı 4-5 dakika, altın rengi olana kadar kızartın.",
    "Johnny kekleri yağdan çıkarıp mutfak kağıdı serili bir tabakta süzün ve sıcak servis yapın."
   ],
@@ -57,5 +57,14 @@
   "tr": "Hamuru kızartmadan önce mutlaka dinlendirin; bu, johnny keklerinin yağda kabarmasını ve içinin yumuşak kalmasını sağlar.",
   "en": "Let the dough rest before frying; this helps the johnny cakes puff up and stay soft inside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says 'Yağ yoksa' ('if there is no oil'), which mistranslates the English 'If you do not have a thermometer'. The Turkish also omits the English cue that the test piece should sizzle and",
+   "Turkish step 3 says the dough should be 'yapışkan olmayan' (not sticky), but the English says 'slightly tacky'. The two versions disagree on dough texture."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

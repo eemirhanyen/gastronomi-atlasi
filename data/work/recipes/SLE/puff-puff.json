@@ -19,7 +19,7 @@
    "2 g tuz",
    "1 g öğütülmüş muskat (yaklaşık 1/2 çay kaşığı)",
    "200 ml ılık su",
-   "500 ml kızartma yağı (ayçiçek veya mısır özü)",
+   "500 ml kızartma yağı (ayçiçek veya mısır yağı)",
    "Üzeri için 2 yemek kaşığı toz şeker (isteğe bağlı)"
   ],
   "en": [
@@ -59,5 +59,13 @@
   "tr": "Yağın sıcaklığını 170°C civarında tutun; yağ çok sıcak olursa dış yüzey hızla kararır ama iç kısmı pişmeden kalır.",
   "en": "Keep the oil around 170°C; if it is too hot, the outside browns quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient wording 'mısır özü' is unnatural; the common term is 'mısır yağı' (corn oil)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

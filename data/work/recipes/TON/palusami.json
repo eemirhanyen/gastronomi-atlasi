@@ -9,7 +9,7 @@
   "en": "A signature side dish of Tonga, palusami wraps taro leaves around a filling of coconut cream and onion. It is served at family meals, weddings and Sunday gatherings, and traditionally baked in an umu, the earth oven."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -30,7 +30,7 @@
  "steps": {
   "tr": [
    "Yaprakların sert saplarını ve orta damarlarını çıkarın, yaprakları iyice yıkayın.",
-   "Geniş bir tencerede suyu kaynatın, yaprakları yaklaşık 15 dakika, çok yumuşayana kadar haşlayın. Süzün ve kağıt havlu ile kurulayın.",
+   "Geniş bir tencerede suyu kaynatın, yaprakları yaklaşık 30 dakika, çok yumuşayana kadar haşlayın. Süzün ve kağıt havlu ile kurulayın.",
    "Fırını 180°C'ye ısıtın.",
    "Bir kapta doğranmış soğanı, 300 ml hindistancevizi kremasını ve tuzu karıştırın.",
    "Her muz yaprağı veya folyo karesinin ortasına bir taro yaprağı yerleştirin. Üzerine kaşıkla soğanlı kremadan yaklaşık 1/8'ini koyun ve kalan 100 ml kremadan birkaç kaşık gezdirin.",
@@ -40,7 +40,7 @@
   ],
   "en": [
    "Remove the tough stalks and central ribs from the leaves, then wash them thoroughly.",
-   "Bring a large pot of water to the boil and cook the leaves for about 15 minutes until very soft. Drain and pat dry with kitchen paper.",
+   "Bring a large pot of water to the boil and cook the leaves for about 30 minutes until very soft. Drain and pat dry with kitchen paper.",
    "Preheat the oven to 180°C.",
    "In a bowl, mix the chopped onion, 300 ml of the coconut cream and the salt.",
    "Place one taro leaf in the centre of each banana leaf or foil square. Spoon about one-eighth of the onion and cream mixture onto it and drizzle a few spoonfuls of the remaining 100 ml cream over the top.",
@@ -53,5 +53,13 @@
   "tr": "Taro yapraklarını pişirmeden tüketmeyin; çiğ yapraklar ağız ve boğazda tahrişe yol açabilen kalsiyum oksalat içerir, bu yüzden haşlama adımını atlamayın.",
   "en": "Never skip cooking the taro leaves: raw leaves contain calcium oxalate, which can irritate the mouth and throat, so boil them until very soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Boiling time for the leaves (15 min) is too short to safely break down calcium oxalate in taro leaves. The tip itself stresses this, so the step contradicts the safety advice. Both the Turkish and Eng"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

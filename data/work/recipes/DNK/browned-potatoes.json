@@ -34,7 +34,7 @@
    "Patatesleri iyice yıkayın. Tuzlu suyla dolu bir tencerede 15-20 dakika, ortası hafif yumuşayana kadar haşlayın.",
    "Patatesleri süzün ve ılıyana kadar bekletin. Kabukları elinizle veya bıçağın sırtıyla kolayca soyun.",
    "Geniş ve dipli bir tavada şekeri orta ateşte eritin. Karamel koyu kehribar rengi alana kadar karıştırmadan bekleyin, gerekirse tavayı hafifçe sallayın.",
-   "Tereyağını ekleyip karıştırarak eritin. Ocaktan almadan önce suyu dikkatle ekleyin (sıçrayabilir) ve pürüzsüz bir karamel sos oluşana kadar karıştırın.",
+   "Tavayı ocaktan alın, tereyağını ekleyip karıştırarak eritin. Suyu dikkatle ekleyin (sıçrayabilir), ardından tavayı tekrar kısık ateşe koyup pürüzsüz bir karamel sos oluşana kadar karıştırın.",
    "Soyulmuş patatesleri sosa ekleyin ve tavayı sallayarak veya hafifçe karıştırarak her tarafını sosla kaplayın.",
    "Orta-düşük ateşte 8-10 dakika pişirin. Patatesler parlak ve kızarmış görünene, sos koyulaşana kadar ara sıra tavayı sallayın.",
    "Son olarak bir tutam tuzla tatlandırıp hemen sıcak servis yapın."
@@ -43,7 +43,7 @@
    "Wash the potatoes thoroughly. Boil them in a pot of salted water for 15-20 minutes, until just tender in the centre.",
    "Drain the potatoes and let them cool until just warm enough to handle. Peel off the skins easily with your fingers or the back of a knife.",
    "Melt the sugar in a wide, heavy-based pan over medium heat. Leave it undisturbed until it turns a deep amber, gently swirling the pan if needed.",
-   "Add the butter and stir until melted. Carefully add the water (it will splutter), then stir until you have a smooth caramel sauce.",
+   "Take the pan off the heat, add the butter and stir until melted. Carefully add the water (it will splutter), then return the pan to low heat and stir until you have a smooth caramel sauce.",
    "Add the peeled potatoes to the sauce and toss gently or shake the pan so they are evenly coated.",
    "Cook over medium-low heat for 8-10 minutes, shaking the pan occasionally, until the potatoes look glossy and browned and the sauce has thickened.",
    "Finish with a pinch of salt and serve hot straight away."
@@ -53,5 +53,13 @@
   "tr": "Karamelin yanmaması için şekeri eritirken tavayı bırakmayın; koyu renk aldığı anda ocaktan alıp su ekleyin.",
   "en": "Keep an eye on the sugar: as soon as it reaches deep amber, take the pan off the heat before adding the water so the caramel does not burn."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 says to add the water before removing the pan from the heat, but the tip says to take the pan off the heat before adding water. The instructions contradict each other, and adding water to hot c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

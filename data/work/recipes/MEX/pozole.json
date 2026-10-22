@@ -15,7 +15,7 @@
   "tr": [
    "600 g domuz omuzu (küp küp doğranmış)",
    "2 l su",
-   "1 orta boy beyaz soğan (yarıya bölünmüş, 1 çeyrek soğan ayrılmış)",
+   "3/4 orta boy beyaz soğan (yarıya bölünmüş; yarısı tencereye, çeyreği blendere)",
    "3 diş sarımsak (2 dişi bütün, 1 dişi ayrılmış)",
    "1 tatlı kaşığı tuz",
    "2 kuru guajillo biberi",
@@ -33,7 +33,7 @@
   "en": [
    "600 g pork shoulder, cut into cubes",
    "2 l water",
-   "1 medium white onion, halved (keep 1/4 onion aside)",
+   "3/4 medium white onion, halved (half goes in the pot, a quarter in the blend)",
    "3 garlic cloves (2 whole, 1 finely chopped)",
    "1 tsp salt",
    "2 dried guajillo chiles",
@@ -58,7 +58,7 @@
    "Geniş bir tavada yağı ısıtın, biber macununu ekleyip 3-4 dakika, koyulaşıp kokusu çıkana kadar kavurun. Bu karışımı tencereye ekleyin ve iyice karıştırın.",
    "Süzülmüş hominy ile didiklenmiş eti tencereye ekleyin. Kısık ateşte 20 dakika daha pişirin, tuzunu kontrol edip gerekirse tatlandırın.",
    "Servis öncesinde lahanayı ince doğrayın, turpu dilimleyin, limonu dilimleyin ve kurutulmuş acı biber pulunu küçük kaselere koyun.",
-   "Pozoleyi derin kaselere sıcak sıcak koyun. Üzerine lahana, turp, kurutulmuş kekik ve acı biber pulu serpin, yanında limon dilimleri ve tostadalarla servis edin."
+   "Pozoleyi derin kaselere sıcak sıcak koyun. Üzerine lahana, turp, kurutulmuş Meksika kekiği ve acı biber pulu serpin, yanında limon dilimleri ve tostadalarla servis edin."
   ],
   "en": [
    "Put the pork and 2 l water in a large pot. Add the onion halves, 2 whole garlic cloves and the salt. Bring to a boil, skim off the foam, cover and simmer gently for about 60 minutes until the meat is tender.",
@@ -75,5 +75,14 @@
   "tr": "Hominy'yi süzmeden önce iyice durulayın; garnitür (lahana, turp, limon) pozolenin tadını tamamlar, bu yüzden sofraya mutlaka koyun.",
   "en": "Rinse the hominy well before adding it; the garnishes (cabbage, radish, lime) are essential, so always serve them on the side."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Onion accounting: the recipe uses half an onion in the pot and a quarter in the blender, but the ingredient list says 1 whole onion, which leaves a quarter unused. Changed the quantity to 3/4 onion in",
+   "Turkish step 8 garnish says 'kurutulmuş kekik' (dried thyme), but the English says oregano and the recipe calls for Mexican oregano (Meksika kekiği). Corrected the Turkish to 'Meksika kekiği'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

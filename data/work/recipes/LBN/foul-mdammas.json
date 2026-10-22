@@ -44,27 +44,27 @@
  "steps": {
   "tr": [
    "Islatılmış baklayı süzün, akan suyun altında iyice yıkayın ve büyük bir tencereye alın.",
-   "1,2 l su ekleyip kaynatın, çıkan köpükleri alın ve ocağı kısın.",
+   "1,2 l su ve 2 g tuz ekleyip kaynatın, çıkan köpükleri alın ve ocağı kısın.",
    "Baklayı kısık ateşte yaklaşık 60-75 dakika, taneler çok yumuşayana kadar pişirin. Gerekirse sıcak su ekleyerek suyunu koruyun.",
    "Baklalar yumuşayınca fazla suyu süzün, yaklaşık 150 ml pişirme suyunu ayırın.",
    "Bir kısmını çatalla hafifçe ezerek kıvam verin, geri kalanını bütün bırakın. Ayırdığınız sıcak suyun bir kısmını ekleyin.",
    "Ezilmiş sarımsağı 2 g tuz ile birlikte ezin, limon suyu ve kimyonla karıştırın.",
    "Sarımsaklı limon karışımını sıcak baklaya ekleyip iyice karıştırın ve tadına bakarak tuzunu ayarlayın.",
    "Geniş bir tavada 30 ml zeytinyağını ısıtın, soğanı yumuşayıp hafif altın rengi alana kadar kavurun.",
-   "Domatesleri, yeşil biberi ve kalan 1 g tuzu ekleyip 5-6 dakika, domatesler suyunu salana ve sos kıvamı alana kadar pişirin.",
+   "Domatesleri, varsa yeşil biberi ve kalan 1 g tuzu ekleyip 5-6 dakika, domatesler suyunu salana ve sos kıvamı alana kadar pişirin.",
    "Baklayı servis tabağına alın, domates sosunu üzerine dökün ve maydanozun yarısını serpin.",
    "Kalan zeytinyağını gezdirip kalan maydanozla süsleyin. Sıcak sıcak, ekmek veya pita ile servis yapın."
   ],
   "en": [
    "Drain the soaked beans, rinse them well under running water and place them in a large pot.",
-   "Add 1.2 l of water, bring to a boil, skim off any foam and reduce the heat to low.",
+   "Add 1.2 l of water and 2 g of the salt, bring to a boil, skim off any foam and reduce the heat to low.",
    "Simmer gently for about 60-75 minutes, until the beans are very soft. Add hot water as needed to keep them covered.",
    "When the beans are tender, drain off most of the liquid, reserving about 150 ml of the cooking water.",
    "Lightly mash about half of the beans with a fork for a creamy texture, leaving the rest whole. Stir in some of the reserved hot water.",
    "Crush the garlic with 2 g of the salt, then mix it with the lemon juice and cumin.",
    "Stir the garlic and lemon mixture into the warm beans and adjust the salt to taste.",
    "Heat 30 ml of the olive oil in a wide pan and cook the onion until soft and lightly golden.",
-   "Add the tomatoes, green chili and the remaining 1 g of salt. Cook for 5-6 minutes, until the tomatoes release their juice and form a light sauce.",
+   "Add the tomatoes, the green chili if using, and the remaining 1 g of salt. Cook for 5-6 minutes, until the tomatoes release their juice and form a light sauce.",
    "Spoon the beans onto a serving plate, top with the tomato mixture and sprinkle with half of the parsley.",
    "Drizzle over the remaining olive oil, garnish with the rest of the parsley and serve hot with bread or pita."
   ]
@@ -73,5 +73,14 @@
   "tr": "Baklaları pişirirken suyunu ayırmak, kıvamı ayarlamanın en kolay yoludur; yemeğin kremsi ama dağılmamış olması için ezme ve bütün tane oranını dengeleyin.",
   "en": "Keep some of the cooking water aside so you can adjust the consistency; a creamy texture with some whole beans is the goal, so mash only part of them."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed as 5 g divided, but only 3 g is assigned in the steps (2 g with garlic, 1 g with tomatoes). The other 2 g is never used.",
+   "The green chili is marked optional in the ingredient list, but step 9 adds it unconditionally."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

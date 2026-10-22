@@ -52,10 +52,10 @@
    "Hamuru üzerini örtüp sıcak bir yerde 60 dakika, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
    "Soğanı çok ince rendeleyin ya da küçük küp doğrayıp sıkarak suyunu alın. Sarımsağı ezin.",
    "Kıymayı, soğanı, sarımsağı, utskho suneli, kişnişi, karabiberi, tuzu ve kıyılmış kişniş yaprağını bir kasede iyice yoğurun. 10 dakika dinlendirin.",
-   "Mayalanmış hamuru ikiye bölün, her parçayı 4 eşit topa ayırıp iki büyük top elde edin. Hamuru fazla gerdirmeden tezgâhta kısa süre dinlendirin.",
+   "Mayalanmış hamuru ikiye bölün, her yarıyı 2 eşit parçaya ayırarak toplam 4 eşit top elde edin. Hamuru fazla gerdirmeden tezgâhta kısa süre dinlendirin.",
    "Her hamur topunu avuç içinde bastırıp yassılaştırın, ortasına dolgunun yarısını yayın. Kenarları ortaya doğru toplayıp sıkıca kapatın.",
-   "Kapalı hamuru ters çevirip yavaşça bastırın ve oklava ile yaklaşık 25-30 cm çapında, 1 cm kalınlığında yuvarlak bir placa açın. Dolgunun dağılmamasına dikkat edin.",
-   "Fırını 250°C'ye ısıtın. Fırın tepsisine pişirme kağıdı serin, kubdariyi yerleştirin ve üstüne çatalla birkaç delik açın.",
+   "Kapalı hamuru ters çevirip yavaşça bastırın ve oklava ile yaklaşık 25-30 cm çapında, 0,5 cm kalınlığında yuvarlak bir placa açın. Dolgunun dağılmamasına dikkat edin.",
+   "Fırını 250°C'ye ısıtın. Fırın tepsisine pişirme kağıdı yayın, kubdarileri yerleştirin ve üstlerine çatalla birkaç delik açın.",
    "Yaklaşık 20-25 dakika, kenarları altın rengi olana kadar pişirin.",
    "Tereyağını eritin. Pişen ekmeklerin üstüne fırçayla sürün, dilimleyip sıcak servis yapın."
   ],
@@ -67,15 +67,27 @@
    "In a bowl, knead together the minced beef, onion, garlic, utskho suneli, ground coriander, black pepper, salt and chopped coriander leaves. Rest the filling for 10 minutes.",
    "Divide the risen dough in half, then cut each half into 2 equal pieces, making 4 pieces in total. Shape each piece into a ball and let them rest briefly on the work surface.",
    "Flatten each ball in your palm and spread half of the filling in the centre. Gather the edges toward the middle and pinch them tightly closed.",
-   "Turn the sealed dough over, press it gently, and roll it with a rolling pin into a round about 25-30 cm across and 1 cm thick. Take care not to let the filling break through.",
+   "Turn the sealed dough over, press it gently, and roll it with a rolling pin into a round about 25-30 cm across and 0.5 cm thick. Take care not to let the filling break through.",
    "Heat the oven to 250°C. Line a baking tray with baking paper, place the breads on it and prick the surface with a fork.",
    "Bake for about 20-25 minutes, until the edges are golden brown.",
    "Melt the butter and brush it over the hot breads. Cut into wedges and serve warm."
   ]
  },
  "tip": {
-  "tr": "Dolgunun pişerken dışarı sızmaması için hamuru çok ince açmayın; ayrıca kıymayı mayalanmadan önce 10 dakika dinlendirmek aroma dengesini artırır.",
+  "tr": "Dolgunun pişerken dışarı sızmaması için hamuru çok ince açmayın; ayrıca kıymayı hamuru sarmadan önce 10 dakika dinlendirmek aroma dengesini artırır.",
   "en": "Do not roll the dough too thin, or the filling may leak during baking. Resting the seasoned filling for 10 minutes before assembly helps the flavours blend."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "TR step 6 contradicts itself ('her parçayı 4 eşit topa ayırıp iki büyük top elde edin') and does not match EN (4 balls total).",
+   "TR tip says to rest the filling 'mayalanmadan önce' (before fermentation). EN says before assembly, and the filling is rested after kneading, not before the dough rises.",
+   "Rolling to 1 cm thick and 25-30 cm across needs far more dough than the 125 g of dough per bread, so the thickness is implausible for the amounts given.",
+   "TR step 8 'pişirme kağıdı serin' is unnatural; 'yayın' is the intended word.",
+   "Thickness changed in both languages to about 0.5 cm so the dough amount matches the bread size."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

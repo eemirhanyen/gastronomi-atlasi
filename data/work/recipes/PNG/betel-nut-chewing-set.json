@@ -5,8 +5,8 @@
  },
  "native": "Buai",
  "desc": {
-  "tr": "Papua Yeni Gine'de pazarlarda, yol kenarı tezgahlarında ve sosyal buluşmalarda yaygın olarak çiğnenen, areka cevizini betel yaprağı ve kireçle bir araya getiren geleneksel bir pakettir. Çiğneme genellikle gün boyunca ve toplu sohbetlerde yapılır.",
-  "en": "A traditional packet of areca nut, betel pepper leaf and lime, chewed throughout the day at markets, roadside stalls and social gatherings across Papua New Guinea."
+  "tr": "Papua Yeni Gine'de pazarlarda, yol kenarı tezgahlarında ve sosyal buluşmalarda yaygın olarak çiğnenen areka cevizi, betel yaprağı ve kireçten oluşan geleneksel paketin kültürel bir temsilidir. Bu set yalnızca kültürel inceleme ve sergileme amacıyla hazırlanır; tüketilmez.",
+  "en": "A cultural representation of the traditional packet of areca nut, betel pepper leaf and lime that is widely chewed at markets, roadside stalls and social gatherings across Papua New Guinea. This set is prepared only for cultural study and display; it is not to be consumed."
  },
  "servings": 4,
  "time_min": 15,
@@ -32,7 +32,7 @@
    "Kireç tozunu 50 ml suyla karıştırarak koyu, pürüzsüz bir macun elde edin.",
    "Bir betel yaprağının iç yüzüne ince bir tabaka kireç macunu sürün.",
    "Yaprağın ortasına yarım areka cevizi yerleştirin ve yaprağı bir paket gibi katlayarak sarın.",
-   "Hazırlanan paketleri servis tepsisine dizin ve oda sıcaklığında sunun."
+   "Hazırlanan paketleri servis tepsisine dizin ve oda sıcaklığında sergileyin; tüketmeyin."
   ],
   "en": [
    "Peel the outer husks from the areca nuts and cut each nut in half lengthwise.",
@@ -40,12 +40,20 @@
    "Mix the lime powder with 50 ml water to form a thick, smooth paste.",
    "Spread a thin layer of lime paste over the inner side of one betel leaf.",
    "Place half an areca nut in the centre of the leaf and fold the leaf around it into a small packet.",
-   "Arrange the packets on a serving tray and serve at room temperature."
+   "Arrange the packets on a serving tray and display them at room temperature; do not consume."
   ]
  },
  "tip": {
   "tr": "Areka cevizi IARC tarafından insanlar için kanserojen olarak sınıflandırılmıştır; bu set yalnızca kültürel bir inceleme için hazırlanmalı, tüketilmemelidir.",
   "en": "Areca nut is classified by the IARC as carcinogenic to humans; prepare this set only for cultural study and do not consume it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The description says the set is chewed daily at markets and gatherings, but the tip says it must not be consumed. The recipe is also written as a preparation guide for a betel quid, which is an IARC-c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

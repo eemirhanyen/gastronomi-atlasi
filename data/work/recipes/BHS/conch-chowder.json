@@ -59,10 +59,10 @@
  },
  "steps": {
   "tr": [
-   "Konçu soğuk su altında iyice yıkayın. Et yumuşağı için bir tokmakla 15-20 kez dövün, ardından 1 cm'lik küpler halinde doğrayın.",
+   "Konçu soğuk su altında iyice yıkayın. Etin yumuşaması için bir tokmakla 15-20 kez dövün, ardından 1 cm'lik küpler halinde doğrayın.",
    "Doğranmış konçu bir kaseye alın, limon suyunun yarısını ekleyip karıştırın ve 15 dakika dinlendirin. Sonra süzüp kağıt havluyla kurulayın.",
    "Büyük bir tencerede 1 litre suyu kaynatın. Konçu ekleyip kısık ateşte 30 dakika, et yumuşayana kadar pişirin. Pişirme suyunu ayırın.",
-   "Ayrı bir tencerede yağı orta ateşte ısıtın. Soğanı, yeşil biberi ve keverezi ekleyip 6-7 dakika, yumuşayana kadar soteleyin.",
+   "Ayrı bir tencerede yağı orta ateşte ısıtın. Soğanı, yeşil biberi ve kerevizi ekleyip 6-7 dakika, yumuşayana kadar soteleyin.",
    "Sarımsak ve Scotch bonnet biberini ekleyip 1 dakika daha kavurun.",
    "Domates ve domates salçasını ekleyin. Salça kokusu çıkana ve sos koyulaşana kadar 5 dakika pişirin.",
    "Patatesleri, kekik ve defne yapraklarını ekleyin. Ayırdığınız konç suyunu üzerine dökün; gerekirse biraz daha su ekleyerek patatesler tamamen kaplansın.",
@@ -89,7 +89,17 @@
  },
  "tip": {
   "tr": "Konç eti pişirmeden önce mutlaka dövün ve limonla dinlendirin; aksi halde lastik gibi sert kalabilir. Daha az acı için Scotch bonnet biberini çekirdeksiz kullanın.",
-  "en": "Always pound and marinate the conch before cooking, or it can stay rubbery. For milder heat, use the Scotch bonnet seeds-free or omit it altogether."
+  "en": "Always pound and marinate the conch before cooking, or it can stay rubbery. For milder heat, use a seedless Scotch bonnet or omit it altogether."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 has the typo \"keverezi\"; it should be \"kerevizi\" (celery).",
+   "Turkish step 1 \"Et yumuşağı için\" is unnatural; \"Etin yumuşaması için\" is clearer.",
+   "English tip \"seeds-free\" is awkward; \"seedless\" is the natural term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

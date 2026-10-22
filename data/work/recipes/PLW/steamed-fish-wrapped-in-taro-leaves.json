@@ -43,25 +43,36 @@
   "tr": [
    "Taro yapraklarını büyük bir tencerede bol kaynar suda en az 30 dakika haşlayın; kalsiyum oksalat içerdiklerinden tam pişmeleri çok önemlidir. Süzün, soğuk suyla durulayın ve kurulayın.",
    "Balık parçalarını limon suyu, tuz, karabiber ve rendelenmiş zencefille tatlandırın ve 10 dakika bekletin.",
-   "Her yaprağı ikiye bölecek şekilde iki yaprağı üst üste koyun. Ortasına bir kat soğan halkası ve domates dilimleri yerleştirin.",
-   "Marine edilmiş balık parçasını bu katmanın üzerine koyun, üzerine yeşil biber ve hindistan cevizi kreması ekleyin.",
+   "İki yaprağı birbirini kısmen örtecek şekilde üst üste yerleştirin. Ortasına bir kat soğan halkası ve domates dilimleri yerleştirin.",
+   "Marine edilmiş balık parçasını bu katmanın üzerine koyun, üzerine doğranmış yeşil biber ve birer kaşık hindistan cevizi kreması ekleyin.",
    "Yaprakları balığın etrafında kapatarak paket yapın ve mutfak ipiyle veya muz yaprağı şeritleriyle sıkıca bağlayın.",
    "Buharlı pişirme sepetini veya süzgeç üstünü geniş bir tencerede kaynayan suyun üzerine yerleştirin. Paketleri sepete koyun, kapağını kapatın ve orta-yüksek ateşte yaklaşık 25 dakika buharda pişirin.",
-   "Balığın iç kısmının kolayca dağıldığından emin olun, sonra paketleri dikkatle açıp sıcak olarak servis yapın."
+   "Balığın kolayca ayrılıp ayrılmadığını kontrol edin, ardından paketleri dikkatle açıp sıcak olarak servis yapın."
   ],
   "en": [
    "Boil the taro leaves in a large pot of plenty of water for at least 30 minutes; they must be fully cooked to neutralise the calcium oxalate. Drain, rinse with cold water and pat dry.",
    "Season the fish portions with lime juice, salt, black pepper and grated ginger, then leave to rest for 10 minutes.",
    "Place two leaves overlapping on a board. In the centre, layer the onion rings and tomato slices.",
-   "Set a piece of marinated fish on top of the layer, then add the chopped green chili and a spoonful of coconut cream.",
+   "Set a piece of marinated fish on top of the layer, then add the chopped green chili and a spoonful of coconut cream to each parcel.",
    "Fold the leaves around the fish to make a closed parcel and tie it firmly with cooking twine or strips of banana leaf.",
    "Place a steamer basket or rack over a large pot of boiling water. Arrange the parcels in the steamer, cover, and steam over medium-high heat for about 25 minutes.",
    "Check that the fish flakes easily, then carefully open the parcels and serve hot."
   ]
  },
  "tip": {
-  "tr": "Taro yapraklarını kesinlikle iyice haşlayın; çiğ ya da yetersiz pişmiş yaprak ağızda kaşıntıya yol açar. Yoksa ıspanak da yapabilirsiniz ama tadı farklı olur.",
+  "tr": "Taro yapraklarını kesinlikle iyice haşlayın; çiğ ya da yetersiz pişmiş yaprak ağızda kaşıntıya yol açar. Taro yaprağı bulamazsanız ıspanak da kullanabilirsiniz, ancak tadı daha hafif olur.",
   "en": "Never skip the long boil: undercooked taro leaves cause a stinging, itchy mouth. If taro leaves are unavailable, spinach can be used, though the flavour will be milder."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 wording is unclear: 'Her yaprağı ikiye bölecek şekilde' does not match the English 'two leaves overlapping'.",
+   "Turkish step 4 omits the coconut cream amount per parcel ('bir kaşık' in English), so the two versions disagree.",
+   "Turkish step 7 'Balığın iç kısmının kolayca dağıldığından emin olun' is an unnatural rendering of 'fish flakes easily'.",
+   "Turkish tip begins with 'Yoksa', which is a bad connector and does not match the English meaning ('If taro leaves are unavailable')."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

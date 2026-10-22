@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "Gece boyunca ıslatılmış baklagilleri süzün, akan suyun altında yıkayın ve bir tencereye alın.",
-   "Üzerine 1,2 L su ve zerdeçalı ekleyip kaynatın. Ateşi kısın ve baklagiller yumuşayana kadar yaklaşık 40 dakika pişirin; düdüklü tencerede pişiriyorsanız yaklaşık 20 dakika yeterlidir. Pişirme suyunu ayırın.",
+   "Üzerine 1,2 L su ve zerdeçalı ekleyip kaynatın. Ateşi kısın ve baklagiller yumuşayana kadar yaklaşık 40 dakika pişirin; nohut ve siyah soya daha uzun sürebilir, gerekirse pişirmeye devam edin. Düdüklü tencerede pişiriyorsanız yaklaşık 20 dakika yeterlidir ve gerektiğinde süreyi uzatın. Pişirme suyunu ayırın.",
    "Geniş bir tavada hardal yağını orta-yüksek ateşte, yağ hafifçe dumanlanana kadar ısıtın. Ateşi biraz düşürün.",
    "Kimyon tohumlarını ve ezilmiş timuru ekleyip 30 saniye kadar, kokuları çıkana kadar kavurun.",
    "Doğranmış soğanı ekleyip altın rengi alana kadar yaklaşık 8 dakika kavurun.",
@@ -58,7 +58,7 @@
   ],
   "en": [
    "Drain the soaked legumes, rinse them under running water and place them in a pot.",
-   "Add 1.2 L water and the turmeric and bring to a boil. Reduce the heat and simmer for about 40 minutes until the legumes are tender; in a pressure cooker, about 20 minutes is enough. Reserve the cooking liquid.",
+   "Add 1.2 L water and the turmeric and bring to a boil. Reduce the heat and simmer for about 40 minutes until the legumes are tender; chickpeas and black soybeans may need longer, so keep cooking if needed. In a pressure cooker, about 20 minutes is enough, adjusting as needed. Reserve the cooking liquid.",
    "Heat the mustard oil in a wide pan over medium-high heat until it just begins to smoke. Reduce the heat slightly.",
    "Add the cumin seeds and crushed timur and fry for about 30 seconds until fragrant.",
    "Add the chopped onion and fry for about 8 minutes until golden brown.",
@@ -70,8 +70,17 @@
   ]
  },
  "tip": {
-  "tr": "Kwati'yi geleneksel olarak pirinç ya da pirinç yassı ekmeğiyle servis edin; baklagilleri gece önceden ıslatmak pişme süresini ciddi biçimde kısaltır.",
+  "tr": "Kwati'yi geleneksel olarak pirinç ya da yassılaştırılmış pirinç (chiura) ile servis edin; baklagilleri gece önceden ıslatmak pişme süresini ciddi biçimde kısaltır.",
   "en": "Serve Kwati hot with steamed rice or beaten rice; soaking the legumes overnight greatly shortens the cooking time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says 'pirinç yassı ekmeği', which reads as flatbread. Beaten rice (chiura/poha) should be named correctly.",
+   "Cooking time of about 40 minutes (or 20 in a pressure cooker) may be too short for chickpeas and black soybeans, which often need longer. The step should say they may need more time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

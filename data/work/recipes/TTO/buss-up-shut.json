@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "400 g çok amaçlı un",
-   "1 çay kaşığı (5 g) tuz",
+   "1 çay kaşığı (5 g) tuz, hamur için",
    "200 ml ılık su, gerektikçe biraz daha",
    "150 ml sıvı yağ, bölünmüş (hamur, yağlama ve kavurma için)",
    "1 kutu (400 g) nohut, süzülmüş",
@@ -25,6 +25,7 @@
    "2 yemek kaşığı köri tozu (yaklaşık 16 g)",
    "1 çay kaşığı öğütülmüş kimyon",
    "1/2 çay kaşığı öğütülmüş zerdeçal",
+   "1/2 çay kaşığı (3 g) tuz, köri için",
    "250 ml su",
    "1 dal taze kekik",
    "1 adet scotch bonnet biber, bütün (isteğe bağlı)",
@@ -32,7 +33,7 @@
   ],
   "en": [
    "400 g all-purpose flour",
-   "1 tsp (5 g) salt",
+   "1 tsp (5 g) salt, for the dough",
    "200 ml warm water, plus more as needed",
    "150 ml vegetable oil, divided (for dough, brushing and frying)",
    "1 can (400 g) chickpeas, drained",
@@ -43,6 +44,7 @@
    "2 tbsp curry powder (about 16 g)",
    "1 tsp ground cumin",
    "1/2 tsp ground turmeric",
+   "1/2 tsp (3 g) salt, for the curry",
    "250 ml water",
    "1 sprig fresh thyme",
    "1 scotch bonnet pepper, whole (optional)",
@@ -54,7 +56,7 @@
    "Unu tuz ve 60 ml yağla karıştırın, ılık suyu azar azar ekleyerek yumuşak bir hamur yoğurun. 8-10 dakika yoğurup üzerini örtün ve 30 dakika dinlendirin.",
    "Bu sırada 30 ml yağı büyük bir tencerede orta ateşte ısıtın. Soğan ve sarımsağı 4 dakika kavurun, ardından köri tozu, kimyon ve zerdeçalı ekleyip 1 dakika daha kavurun.",
    "Patates küplerini, domatesi, 250 ml suyu, kekik dalını ve scotch bonnet biberini ekleyin. Kısık ateşte patates yumuşayana kadar yaklaşık 15 dakika pişirin.",
-   "Nohutu ve tuzu ekleyip 10 dakika daha pişirin. Birkaç nohutu kaşıkla ezerek sosu koyulaştırın, kekik dalını ve biberi çıkarıp kişnişin yarısını karıştırın.",
+   "Nohutu ve köri için ayrılan tuzu ekleyip 10 dakika daha pişirin. Birkaç nohutu kaşıkla ezerek sosu koyulaştırın, kekik dalını ve biberi çıkarıp kişnişin yarısını karıştırın.",
    "Hamuru 4 eşit parçaya bölün. Her parçayı yağlı yüzeyde 20 cm çapında ince bir daire açın, üzerine yağ sürüp katlayarak yaprak şeklinde kıvrın, sonra tekrar yassılaştırıp ince bir daire açın.",
    "Kızgın bir tavada her rotiyi iki yüzü de altın rengi lekeler oluşana kadar yaklaşık 2'şer dakika pişirin, pişirirken yağ sürün. Ilık bırakın, elinizle ve bir çatalla parçalayıp köriyle servis edin, kalan kişnişi üzerine serpin."
   ],
@@ -62,7 +64,7 @@
    "Mix the flour, salt and 60 ml oil, then add the warm water gradually to form a soft dough. Knead for 8-10 minutes, cover and rest for 30 minutes.",
    "Meanwhile, heat 30 ml oil in a large pot over medium heat. Fry the onion and garlic for 4 minutes, then add the curry powder, cumin and turmeric and stir for 1 minute more.",
    "Add the diced potato, tomato, 250 ml water, thyme sprig and scotch bonnet pepper. Simmer gently for about 15 minutes until the potato is tender.",
-   "Add the chickpeas and salt and cook for 10 minutes more. Mash a few chickpeas against the side of the pot to thicken the sauce, remove the thyme and pepper, and stir in half the cilantro.",
+   "Add the chickpeas and the salt reserved for the curry and cook for 10 minutes more. Mash a few chickpeas against the side of the pot to thicken the sauce, remove the thyme and pepper, and stir in half the cilantro.",
    "Divide the dough into 4 equal pieces. On an oiled surface, roll each into a 20 cm circle, brush with oil, fold into a pleated spiral, then flatten and roll out again into a thin round.",
    "Cook each roti in a hot dry pan for about 2 minutes per side, until golden spots appear, brushing with oil as you go. Let cool slightly, then tear and shred with your hands and a fork, and serve with the curry, sprinkled with the remaining cilantro."
   ]
@@ -71,5 +73,13 @@
   "tr": "Rotiyi pişirmeden önce katlayıp yassılaştırmak katmanları ayırır; parçalarken yumuşak kalması için ocaktan alınca hemen bir temiz bezle örtün.",
   "en": "Folding the dough into layers before the final rolling creates the flaky texture; keep the cooked rotis wrapped in a clean towel so they stay soft enough to tear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is used in step 4 of both the Turkish and English versions (\"tuz\" / \"salt\") but no curry salt quantity is listed. Only the dough salt appears in the ingredients."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

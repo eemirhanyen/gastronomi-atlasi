@@ -83,5 +83,13 @@
   "tr": "Tavukları tek seferde değil partiler halinde pişirin; tavanın kalabalık olması et suyunu salıp buharda pişmesine neden olur. Yüksek ateş, sokak şavarmasının karakteristik kararmış kenarlarını verir.",
   "en": "Cook the chicken in batches so the pan stays hot; a crowded pan releases juices and steams the meat. High heat gives the charred edges typical of street shawarma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": true,
+  "issues": [
+   "Minor, not blocking: 6 g salt is listed, but the steps use only 5 g (4 g in the marinade, 1 g in the garlic sauce)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -8,7 +8,7 @@
   "tr": "Yoğun, kremamsı ve bisküvili tabanlı bu pasta, New York'ta 20. yüzyılda yaygınlaşmış bir klasiktir. Genellikle özel günlerde ve kafelerde, soğutularak servis edilir.",
   "en": "A dense, creamy cake on a biscuit base, popularised in New York in the early 20th century. It is usually served chilled at celebrations and in cafés."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
@@ -48,11 +48,11 @@
    "Karışımı kalıbın tabanına bastırarak eşit bir tabaka oluşturun. 10 dakika buzdolabında bekletin.",
    "Krem peyniri bir karıştırıcıda pürüzsüz olana kadar 1-2 dakika çırpın. 150 g toz şekeri ekleyip 2 dakika daha çırpın.",
    "Mısır nişastasını, tuzu, vanilya özünü, limon rendesini ve limon suyunu ekleyin. Karıştırıcıyı düşük hızda tutarak karıştırın.",
-   "Yumurtaları tek tek ekleyin ve her birini karıştırmayı bitirmeden önce tam olarak emdirin. Aşırı çırpmamaya dikkat edin, çünkü fazla hava pastanın çatlamasına neden olur.",
+   "Yumurtaları tek tek ekleyin ve bir sonrakini eklemeden önce her birini tamamen karıştırın. Fazla çırpmaktan kaçının; fazla hava pastanın çatlamasına neden olabilir.",
    "Ekşi kremayı ekleyip spatula ile kısaca karıştırın. Krem peynirli karışımı bisküvili tabanın üzerine dökün.",
    "Kalıbı, sıcak su dolu büyük bir fırın tepsisine yerleştirin. Su seviyesi kalıbın yarısına gelsin.",
    "50-60 dakika pişirin. Pasta ortasında hafifçe titreyip kenarları sabitleşince fırından alın.",
-   "Fırın kapağını aralık bırakıp pastayı içeride 1 saat soğumaya bırakın. Sonra oda sıcaklığında tamamen soğutun.",
+   "Fırını kapatın, fırın kapağını aralık bırakıp pastayı içeride 1 saat soğumaya bırakın. Sonra oda sıcaklığında tamamen soğutun.",
    "Kalıbın kenarlarını bıçakla gezdirip açın. En az 6 saat, tercihen bir gece buzdolabında dinlendirin. Dilimlemeden önce bıçağı sıcak suya batırıp silerek kesin."
   ],
   "en": [
@@ -70,8 +70,19 @@
   ]
  },
  "tip": {
-  "tr": "Krem peynirin ve yumurtaların oda sıcaklığında olması, topaklanmadan pürüzsüz bir dokü sağlar.",
+  "tr": "Oda sıcaklığındaki krem peynir ve yumurtalar, topaklanmadan pürüzsüz bir doku sağlar.",
   "en": "Using room-temperature cream cheese and eggs gives a smooth batter without lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) is too few for an 18 cm cake made with 450 g cream cheese; it yields about 8 slices.",
+   "Turkish step 10 omits turning off the oven, which the English step includes, so the two versions disagree.",
+   "Turkish step 6 uses 'emdirin' (soaking/absorbing) for mixing eggs, which is unnatural culinary wording.",
+   "Turkish tip has a typo ('dokü') and awkward phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

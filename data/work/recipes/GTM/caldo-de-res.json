@@ -72,8 +72,16 @@
   ]
  },
  "tip": {
-  "tr": "Etin lezzetli bir suyu olması için kaynamaya başlarken köpükleri dikkatlice alın ve sebzeleri her zaman ayrı zamanlarda ekleyerek aşırı pişmelerini önleyin.",
+  "tr": "Lezzetli ve berrak bir çorba elde etmek için kaynamanın başında köpükleri özenle alın ve sebzeleri aşamalar halinde ekleyerek aşırı pişmelerini önleyin.",
   "en": "Skim the foam carefully at the start and add vegetables in stages so they stay firm and the broth stays clear and flavorful."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip sentence is unnatural: 'Etin lezzetli bir suyu olması için' is awkward phrasing for a broth. Meaning and English version are otherwise consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

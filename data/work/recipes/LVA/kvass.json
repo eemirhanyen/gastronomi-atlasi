@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Şişeleri mayalanma sonrası kapalı tutun ve sık sık gaz basıncını kontrol edin; gaz çok artarsa bir süre buzdolabında bekletin.",
-  "en": "Keep the bottles sealed during the extra chilling day and check the pressure often; if the gas builds up too much, open them carefully over the sink and move them to the fridge."
+  "tr": "Şişeleri 1-2 günlük ek bekleme süresince kapalı tutun ve gaz basıncını sık sık kontrol edin; gaz aşırı birikirse şişeleri lavabonun üzerinde dikkatlice açarak basıncı boşaltın.",
+  "en": "Keep the bottles sealed during the extra chilling day and check the pressure often; if the gas builds up too much, carefully open them over the sink to release it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the safety instruction to open bottles carefully over the sink when gas builds up, which the English tip includes. The versions disagree.",
+   "Both tips say to move bottles to the fridge when gas builds up, but step 6 already places them in the fridge, so the instruction is redundant and confusing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

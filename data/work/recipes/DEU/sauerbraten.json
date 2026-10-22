@@ -59,15 +59,15 @@
  },
  "steps": {
   "tr": [
-   "Marinat için vinegar, şarap, su, dilimlenmiş soğan ve havuç, defne yaprağı, karabiber, karanfil, ardıç meyvesi, 8 g tuz ve şekeri büyük bir tencerede kaynatın. Ateşten alın ve tamamen soğumaya bırakın.",
+   "Marinat için sirke, şarap, su, dilimlenmiş soğan ve havuç, defne yaprağı, karabiber, karanfil, ardıç meyvesi, 8 g tuz ve şekeri büyük bir tencerede kaynatın. Ateşten alın ve tamamen soğumaya bırakın.",
    "Dana etini cam veya seramik bir kaba koyun, soğumuş marinatı dökün ve et tamamen sıvıya gömülsün. Kapağını örtüp buzdolabında 3 gün bekletin; her gün eti çevirin.",
    "3. günün sonunda eti marinattan çıkarın, kağıt havluyla iyice kurulayın. Marinatı süzgeçten geçirin, soğan ve havuçları ayırıp sıvıyı saklayın.",
    "Eti 4 g tuz ve taze çekilmiş karabiberle tatlandırın. Geniş bir tencerede yağı kızdırın ve eti her yüzü koyu kahverengi olana kadar yaklaşık 8-10 dakika mühürleyin. Eti bir tabağa alın.",
    "Aynı tencereye ayırdığınız soğan ve havucu ekleyip 5 dakika renk alana kadar kavurun. Domates salçasını ekleyip 1 dakika daha karıştırın.",
    "Süzdüğünüz marinat sıvısını ve dana suyunu tencereye dökün, kaynamaya bırakın. Eti geri koyun, kapağını örtün ve 160°C fırında yaklaşık 2,5-3 saat, et çatalla kolayca yumuşayana kadar pişirin. Yarı yolda eti bir kez çevirin.",
-   "Eti tencereden alıp folyoyla örtün ve 15 dakika dinlendirin. Pişirme sıvısını ince bir süzgeçten geçirin ve üstündeki yağı kepçeyle alın. Sıvıdan 400 ml ölçün.",
+   "Eti tencereden alıp folyoyla gevşekçe örtün ve 15 dakika dinlendirin. Pişirme sıvısını ince bir süzgeçten geçirin ve üstündeki yağı kepçeyle alın. Sıvıdan 400 ml ölçün.",
    "Sos için büyük bir tencerede tereyağını eritin, unu ekleyip 2 dakika karıştırarak pişirin. Pişirme sıvısını yavaş yavaş ekleyip topaklanmadan çırpın.",
-   "Ezilmiş zencefilli kurabiyeleri ve şekeri (kalan 7 g tuz ile değil, sadece tadına göre) sosa ekleyin. Kısık ateşte 10 dakika kaynatıp kıvam alana kadar pişirin.",
+   "Ezilmiş zencefilli kurabiyeleri sosa ekleyin, gerekirse biraz şeker ekleyin. Kısık ateşte 10 dakika kaynatıp kıvam alana kadar pişirin.",
    "Ateşi kapatın, ekşi kremayı ekleyip çırparak karıştırın. Tuz ve karabiberle tatlandırın; sos fazla ekşiyse biraz daha şeker ekleyebilirsiniz.",
    "Eti 1 cm kalınlığında, lifine karşı dilimleyin. Dilimleri sosla birlikte sıcak servis edin."
   ],
@@ -89,5 +89,15 @@
   "tr": "Eti marinatta en az 3 gün bekletin; bu süre hem tadı hem de yumuşaklığı belirgin şekilde artırır. Ekşi kremayı sosu kaynatmadan, ateş kapalıyken ekleyin ki kesilmesin.",
   "en": "Marinate the beef for at least 3 days, as this deepens the flavour and tenderises the meat. Add the sour cream off the heat so it does not curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 leaves the English word 'vinegar' untranslated (should be 'sirke').",
+   "Turkish step 9 refers to 'kalan 7 g tuz', but only 12 g salt is listed (8 g marinade, 4 g meat), so no salt remains. The English step 9 has no such reference, so the two versions disagree and the Turk",
+   "Turkish step 9 says to add the sugar unconditionally, while the English says 'if needed'. Both should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

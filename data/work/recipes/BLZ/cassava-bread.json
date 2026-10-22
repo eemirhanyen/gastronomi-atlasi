@@ -13,19 +13,19 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "700 g manyok (yuka), soyulmuş",
+   "700 g tatlı manyok (yuka), soyulmuş",
    "5 g (1 tatlı kaşığı) ince tuz",
    "Yaklaşık 1 çay bardağı (150 ml) su, gerekirse"
   ],
   "en": [
-   "700 g cassava (yuca), peeled",
+   "700 g sweet cassava (yuca), peeled",
    "5 g (1 teaspoon) fine salt",
    "About 150 ml water, only if needed"
   ]
  },
  "steps": {
   "tr": [
-   "Manyokları yıkayıp kabuklarını ve ince kahverengi kabuğunu tamamen soyun. Acı manyok kullanıyorsanız çok dikkatli olun; ham manyokta zehirli bileşikler bulunur.",
+   "Manyokları yıkayıp kabuklarını ve ince kahverengi kabuğunu tamamen soyun. Yalnızca tatlı (acı olmayan) manyok kullanın; acı manyok ham hâlinde zehirli bileşikler içerir ve bu tarif onları güvenli şekilde gidermez.",
    "Manyokları ince rende ile rendeleyin. Lifli kısımları da mümkün olduğunca ezerek ayırın.",
    "Rendelenmiş manyoğu temiz bir pamuklu bezin ortasına koyun. Bezi toplayıp bir kaba sıkın ve sıvısı tamamen çıkana kadar güçlü şekilde sıkın. Sıkılan sıvıyı atın.",
    "Sıkılmış posayı bezden çıkarıp geniş bir tabağa yayın ve 15 dakika kadar kurumaya bırakın.",
@@ -38,7 +38,7 @@
    "Soğuyan ekmekleri hava almayan bir kapta saklayın. Servis etmeden önce kısa süre sıcak sacda ısıtabilirsiniz."
   ],
   "en": [
-   "Wash the cassava and peel it completely, removing the skin and the thin brown layer underneath. If using bitter cassava, be especially careful: raw cassava contains toxic compounds.",
+   "Wash the cassava and peel it completely, removing the skin and the thin brown layer underneath. Use only sweet (non-bitter) cassava; bitter cassava contains toxic compounds in its raw form, and this method does not remove them safely.",
    "Grate the cassava finely. Crush any fibrous pieces as you go so the pulp is as even as possible.",
    "Place the grated cassava in the centre of a clean cotton cloth. Gather up the cloth and squeeze firmly over a bowl until no more liquid comes out. Discard the liquid.",
    "Remove the pulp from the cloth, spread it on a wide plate and let it dry for about 15 minutes.",
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Manyoğu mümkün olduğunca iyi sıkın; kalan sıvı ekmeğin dokusunu bozar ve acı tadı taşır. Acı manyok kullanıyorsanız, ekmeği mutlaka tam olarak pişirin.",
-  "en": "Squeeze the cassava as hard as you can: any leftover liquid makes the bread soggy and can leave a bitter taste. If you use bitter cassava, always cook the bread through and never eat it raw."
+  "tr": "Manyoğu mümkün olduğunca iyi sıkın; kalan sıvı ekmeğin dokusunu bozar ve acı tadı taşır. Yalnızca tatlı manyok kullanın; acı manyok bu yöntemle güvenli hâle getirilemez.",
+  "en": "Squeeze the cassava as hard as you can: any leftover liquid makes the bread soggy and can leave a bitter taste. Use only sweet cassava; bitter cassava cannot be made safe with this method."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Safety: the recipe allows bitter cassava and says cooking the bread through makes it safe. Bitter cassava contains cyanogenic glycosides that simple pressing, drying and griddling do not reliably remo",
+   "Step 1 and the tip in both languages give bitter cassava as an option, which conflicts with the safety requirement."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

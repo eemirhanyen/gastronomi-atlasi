@@ -15,10 +15,11 @@
   "tr": [
    "300 g un",
    "150 ml ılık su",
-   "1 çay kaşığı tuz",
+   "1 çay kaşığı tuz (hamur için)",
    "1 yemek kaşığı sıvı yağ",
    "300 g kıyma (kuzu veya dana)",
    "1 orta boy soğan",
+   "1/2 çay kaşığı tuz (harç için)",
    "1/2 çay kaşığı karabiber",
    "1/2 çay kaşığı kimyon",
    "2 yemek kaşığı doğranmış taze dereotu",
@@ -27,10 +28,11 @@
   "en": [
    "300 g plain flour",
    "150 ml lukewarm water",
-   "1 tsp salt",
+   "1 tsp salt (for the dough)",
    "1 tbsp vegetable oil",
    "300 g minced lamb or beef",
    "1 medium onion",
+   "1/2 tsp salt (for the filling)",
    "1/2 tsp black pepper",
    "1/2 tsp ground cumin",
    "2 tbsp finely chopped fresh dill",
@@ -46,7 +48,7 @@
    "Dinlenen hamuru 4 eşit topa bölün ve her topu unlanmış tezgâhta yaklaşık 20 cm çapında, çok ince bir daire halinde açın.",
    "Her hamur dairesinin bir yarısına kıymalı harçtan eşit miktarda yayın, kenarları nemlendirip hamurun diğer yarısıyla kapatın ve kenarları parmaklarınızla iyice bastırarak sıkıca kapatın.",
    "Geniş bir tavada sıvı yağı orta ateşte ısıtın.",
-   "Gutapları tavaya yerleştirin ve her iki yüzünü de altın rengi olana kadar, yaklaşık 3-4 dakika kızartın.",
+   "Gutapları tavaya yerleştirin, kapağını kapatıp orta-düşük ateşte her iki yüzünü altın rengi olana ve kıyma tamamen pişene kadar, yaklaşık 5-6 dakika kızartın.",
    "Kağıt havlu üzerine alıp fazla yağını süzün, sıcak servis yapın."
   ],
   "en": [
@@ -57,7 +59,7 @@
    "Divide the rested dough into 4 equal balls and, on a floured surface, roll each into a very thin circle about 20 cm across.",
    "Spread an equal portion of the meat filling on one half of each circle, moisten the edges, fold the other half over and press the edges firmly with your fingers to seal.",
    "Heat the vegetable oil in a wide pan over medium heat.",
-   "Place the gutap in the pan and fry for about 3-4 minutes per side until both sides are golden brown.",
+   "Place the gutap in the pan, cover, and fry over medium-low heat for about 5-6 minutes per side until golden brown and the meat is fully cooked through.",
    "Transfer to paper towels to drain off excess oil, then serve hot."
   ]
  },
@@ -65,5 +67,14 @@
   "tr": "Kenarları iyice kapatın; aksi halde dolgu kızartma sırasında çıkabilir ve yağ sıçrayabilir.",
   "en": "Seal the edges well, otherwise the filling may leak out and the oil may splatter while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is inconsistent: step 4 (both Turkish and English) adds 1/2 tsp salt to the filling, but the ingredient lists show only one '1 tsp salt' total, so the filling's salt is not listed separately.",
+   "Food safety: the minced meat filling is raw and encased in thin dough, but frying over medium heat for only 3-4 minutes per side may leave the meat undercooked. The cooking time and heat need to be ad"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

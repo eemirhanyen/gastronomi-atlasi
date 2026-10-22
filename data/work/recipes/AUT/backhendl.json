@@ -38,7 +38,7 @@
    "200 g fine dry breadcrumbs",
    "400 ml sunflower oil (for frying)",
    "Lemon wedges to serve",
-   "800 g waxy potatoes, peeled",
+   "800 g waxy potatoes, in their skins",
    "1 small onion, finely diced",
    "3 tbsp white wine vinegar",
    "3 tbsp sunflower oil (for the salad)",
@@ -50,12 +50,12 @@
  "steps": {
   "tr": [
    "Tavuk parçalarını soğuk suyla yıkayın, kağıt havlu ile iyice kurulayın. Tuz, karabiber ve limon suyu ile tatlandırın, oda sıcaklığında 20 dakika dinlendirin.",
-   "Patatesleri tuzlu kaynar suda yaklaşık 20 dakika, bıçak girecek kadar yumuşayana kadar haşlayın. Süzün, kabuklarını soyun ve 5 mm kalınlığında dilimleyin.",
+   "Patatesleri tuzlu kaynar suda yaklaşık 20 dakika, bıçak girecek kadar yumuşayana kadar haşlayın. Süzün, ılıkken kabuklarını soyun ve 5 mm kalınlığında dilimleyin.",
    "Patates salatası için sıcak et suyunu, soğanı, sirkeyi, 3 yemek kaşığı yağı, tuz ve karabiberi bir kapta karıştırın. Patates dilimlerinin üzerine dökün, maydanozu ekleyip nazikçe karıştırın ve servise kadar ılık bekletin.",
-   "Üç ayrı derin kap hazırlayın: birinde un, birinde çırpılmış yumurtalar, birinde galeta unu olsun.",
+   "Üç ayrı sığ kap hazırlayın: birinde un, birinde çırpılmış yumurtalar, birinde galeta unu olsun.",
    "Geniş ve dip kısmı kalın bir tavada ayçiçek yağını orta-yüksek ateşte yaklaşık 170 °C'ye kadar ısıtın. Yağa bir parça ekmek atıldığında hemen köpürmelidir.",
    "Her tavuk parçasını önce una, sonra yumurtaya, en son galeta ununa bulayın. Galeta ununu parçaların üzerine bastırarak iyice tutunmasını sağlayın.",
-   "Kaplanmış parçaları yaklaşık 5 dakika dinlendirin, ardından ısıyı orta seviyeye düşürerek partiler halinde kızartın. Her iki tarafı yaklaşık 12-14 dakika, altın rengi olana ve iç kısmı 75 °C'ye ulaşana kadar çevirerek pişirin.",
+   "Kaplanmış parçaları yaklaşık 5 dakika dinlendirin, ardından ısıyı orta seviyeye düşürerek partiler halinde kızartın. Parçaları toplam yaklaşık 12-14 dakika, altın rengi olana ve iç kısmı 75 °C'ye ulaşana kadar bir kez çevirerek pişirin.",
    "Kızarmış parçaları kağıt havlu veya tel ızgara üzerinde süzerek yağını alın. Patates salatası ve limon dilimleriyle sıcak servis yapın."
   ],
   "en": [
@@ -65,7 +65,7 @@
    "Set up three shallow dishes: one with flour, one with the beaten eggs, and one with breadcrumbs.",
    "Heat the sunflower oil in a wide, heavy-based pan over medium-high heat to about 170 °C. A cube of bread dropped in should sizzle immediately.",
    "Dredge each chicken piece in flour, then dip in egg, then coat in breadcrumbs. Press the crumbs firmly onto the chicken so they stick.",
-   "Rest the coated pieces for about 5 minutes, then reduce the heat to medium and fry in batches for about 12-14 minutes per side, turning once, until golden and the thickest part reaches 75 °C.",
+   "Rest the coated pieces for about 5 minutes, then reduce the heat to medium and fry in batches for about 12-14 minutes in total, turning once, until golden and the thickest part reaches 75 °C.",
    "Drain the fried pieces on kitchen paper or a wire rack. Serve hot with the warm potato salad and lemon wedges."
   ]
  },
@@ -73,5 +73,16 @@
   "tr": "Kaplanmış parçaları kızartmadan önce 5 dakika dinlendirmek, galeta ununun yağda dökülmeden yapışmasını sağlar. Yağ sıcaklığını bir termometreyle kontrol edin.",
   "en": "Resting the breaded pieces for 5 minutes before frying helps the crumbs stay attached. Check the oil temperature with a thermometer, as it drops quickly when cold chicken goes in."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time is written as 12-14 minutes per side in English but as a total in Turkish, which conflicts. Per side is also too long for these pieces and would overcook them.",
+   "Turkish step 4 says 'derin kap' (deep bowls), but the English says shallow dishes. Shallow dishes are the correct setup for breading.",
+   "Turkish step 2 omits the instruction to peel the potatoes while warm, which the English includes.",
+   "English ingredient says 'waxy potatoes, peeled' while the Turkish says 'mumsu kabuklu patates' (in skins) and the steps say to peel after boiling. The ingredient line should match the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

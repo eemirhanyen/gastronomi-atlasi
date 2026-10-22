@@ -15,7 +15,7 @@
   "tr": [
    "400 g soğumuş pilav (dünden kalan, tercihen bir gece dinlendirilmiş)",
    "30 ml bitkisel yağ",
-   "4 orta boy süzme soğan (yaklaşık 80 g), doğranmış",
+   "4 orta boy arpacık soğanı (yaklaşık 80 g), doğranmış",
    "3 diş sarımsak",
    "2 adet kırmızı biber, doğranmış",
    "1/2 tatlı kaşığı karides ezmesi (terasi)",
@@ -29,7 +29,7 @@
    "50 g lahana, ince ince doğranmış",
    "2 dal yeşil soğan, doğranmış",
    "1/2 salatalık, dilim dilim",
-   "2 yemek kaşığı çıtır kızarmış süzme soğan"
+   "2 yemek kaşığı çıtır kızarmış arpacık soğanı"
   ],
   "en": [
    "400 g cold cooked rice (day-old, preferably rested overnight in the fridge)",
@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "Süzme soğanı, sarımsağı, kırmızı biberi, karides ezmesini ve tuzun yarısını havanda ezin ya da blenderdan geçirerek pürüzlü bir macun hazırlayın.",
+   "Arpacık soğanını, sarımsağı, kırmızı biberi, karides ezmesini ve tuzun yarısını havanda ezin ya da blenderdan geçirerek pürüzlü bir macun hazırlayın.",
    "Geniş bir tavada veya wok'ta yağı orta-yüksek ateşte ısıtın. Macunu ekleyip 2-3 dakika, yağ ayrılana ve kokusu çıkana kadar kavurun.",
    "Tavuk etini ekleyip 4-5 dakika, iyice pişene kadar kavurun.",
    "Karidesleri ekleyip 2 dakika, pembeleşene kadar pişirin.",
@@ -61,7 +61,7 @@
    "Soğumuş pilavı ekleyin ve topaklarını dağıtarak yüksek ateşte 3-4 dakika sürekli karıştırarak kızartın.",
    "Kecap manis, soya sosu, kalan tuz ve karabiberi ekleyip pilavı eşit şekilde kaplayacak biçimde karıştırın.",
    "Lahanayı ve yeşil soğanı ekleyip 1 dakika daha, lahana hafif yumuşayana kadar çevirin. Ocaktan alın.",
-   "Sıcak servis tabaklarına paylaştırın, üzerine çıtır kızarmış süzme soğanı serpin ve yanında salatalık dilimleriyle servis yapın."
+   "Sıcak servis tabaklarına paylaştırın, üzerine çıtır kızarmış arpacık soğanı serpin ve yanında salatalık dilimleriyle servis yapın."
   ],
   "en": [
    "Pound or blend the chopped shallots, garlic, red chilies, shrimp paste, and half the salt into a coarse paste.",
@@ -79,5 +79,13 @@
   "tr": "Taze pilav kullanmayın; pilav gece boyunca buzdolabında bekletilirse taneleri ayrılır ve tavada yapışmadan kavrulur.",
   "en": "Use cold, day-old rice. Fresh, steamy rice clumps together and turns mushy, while chilled rice stays separate and fries well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'süzme soğan' for shallots, which is not the correct culinary term; 'arpacık soğanı' is the standard Turkish name (ingredients, step 1, and step 9)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

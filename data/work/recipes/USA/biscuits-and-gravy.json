@@ -1,11 +1,11 @@
 {
  "name": {
-  "tr": "Bisküvi ve sos",
+  "tr": "Bisküvili sosisli sos",
   "en": "Biscuits and gravy"
  },
  "native": "Biscuits and gravy",
  "desc": {
-  "tr": "Güney Amerika Birleşik Devletleri'nde kahvaltıda yenen, sıcak bisküvinin üzerine baharatlı sosisli beşamel benzeri bir sos dökülerek servis edilen klasik bir yemektir. Özellikle Güney eyaletlerinde hafta sonu kahvaltılarında sık görülür.",
+  "tr": "Amerika Birleşik Devletleri'nin güneyinde kahvaltıda yenen, sıcak bisküvinin üzerine baharatlı sosisli beşamel benzeri bir sos dökülerek servis edilen klasik bir yemektir. Özellikle Güney eyaletlerinde hafta sonu kahvaltılarında sık görülür.",
   "en": "A classic Southern American breakfast of warm, flaky biscuits topped with a peppery sausage gravy. It is especially popular in the American South, often served at weekend breakfasts."
  },
  "servings": 4,
@@ -43,12 +43,12 @@
  },
  "steps": {
   "tr": [
-   "Fırını 220°C'ye ısıtın ve fırın tepsisine pişirme kağıdı serin.",
+   "Fırını 220°C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
    "Büyük bir kapta 250 g unu, kabartma tozunu, 5 g tuzu ve şekeri karıştırın.",
    "Soğuk tereyağı küplerini un karışımına ekleyip parmaklarınızla ufalanana, bezelye büyüklüğünde parçacıklar oluşana kadar ovalayın.",
    "Soğuk ayranı ekleyip spatulayla hafifçe karıştırarak yumuşak, dağınık bir hamur elde edin. Fazla yoğurmayın.",
    "Hamuru unlu bir tezgâhta yaklaşık 2 cm kalınlığına açın, iki kez katlayıp tekrar açın.",
-   "6 cm çaplı bir kesici ile 8 bisküvi kesin; kesiciyi bükmeden doğrudan aşağı bastırın.",
+   "6 cm çaplı bir kesici ile 8 bisküvi kesin; kesiciyi bükmeden doğrudan aşağı bastırarak bisküvilerin eşit kabarmasını sağlayın.",
    "Bisküvileri tepsiye yan yana yerleştirin ve altın rengi alana kadar 12-15 dakika fırınlayın.",
    "Bisküvi fırında pişerken sos için geniş bir tavayı orta-yüksek ateşte ısıtın. Sosisi ekleyip kaşık yardımıyla parçalayarak 6-8 dakika, iyice kızarana kadar pişirin.",
    "Ateşi orta seviyeye indirin, tereyağını ekleyip eriyince 40 g unu serpin. 1-2 dakika karıştırarak un kokusu gidene kadar pişirin.",
@@ -75,5 +75,16 @@
   "tr": "Bisküvilerin kabarması için tereyağı ve ayran mutlaka çok soğuk olmalı; hamuru ne kadar az yoğurursanız o kadar yumuşak olur.",
   "en": "Keep the butter and buttermilk very cold and handle the dough as little as possible for the lightest, flakiest biscuits."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says \"Güney Amerika Birleşik Devletleri\", which in Turkish reads as South America. It should be the American South (Birleşik Devletleri'nin güneyi).",
+   "Turkish step 1 \"pişirme kağıdı serin\" is wrong. \"Serin\" means \"chill/cool\", not \"line\". It should say the tray is lined with baking paper.",
+   "Turkish step 6 omits the English reason for not twisting the cutter (so the biscuits rise evenly). Minor, but the versions should match.",
+   "Turkish name \"Bisküvi ve sos\" is vague and unnatural for the dish; \"sosisli sos\" makes the dish identifiable."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

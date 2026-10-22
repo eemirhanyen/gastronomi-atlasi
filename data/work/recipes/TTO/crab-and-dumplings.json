@@ -6,10 +6,10 @@
  "native": "Crab and Dumplings",
  "desc": {
   "tr": "Trinidad ve Tobago'nun Afro-Karayip mutfağından, genellikle hafta sonu öğle yemeklerinde ve aile toplantılarında servis edilen, hindistancevizi sütlü ve otlu bir yengeç yemeğidir. Yumuşak hamur topları sosta pişerek sosu kalınlaştırır.",
-  "en": "A Afro-Caribbean dish from Trinidad and Tobago, usually served at weekend lunches and family gatherings. Crab simmers in a coconut milk and herb sauce, and soft flour dumplings cook in the sauce, thickening it as they go."
+  "en": "An Afro-Caribbean dish from Trinidad and Tobago, usually served at weekend lunches and family gatherings. Crab simmers in a coconut milk and herb sauce, and soft flour dumplings cook in the sauce, thickening it as they go."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -87,5 +87,14 @@
   "tr": "Scotch bonnet biberini bütün bırakın; sosa aroma verir ama ağzı yakmaz. Yalnızca kesip koyarsanız acılık çok artar.",
   "en": "Keep the Scotch bonnet whole so it flavours the sauce without making it overly hot. Cutting it open will release far more heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is lower than the sum of the listed steps: about 15 min marinating, 13 min sautéing, 15 min simmering, 12 min dough work and resting, and 15 min dumpling cooking, which is roughly 70 min",
+   "English description says 'A Afro-Caribbean'; should be 'An Afro-Caribbean'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

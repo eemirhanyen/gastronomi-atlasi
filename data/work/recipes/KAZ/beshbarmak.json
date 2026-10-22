@@ -48,8 +48,8 @@
    "Hamur için unu büyük bir kaba alın, ortasına yumurtayı ve hamur için ayırdığınız tuzu kırın. Ilık suyu azar azar ekleyip yoğurun.",
    "Hamuru 8-10 dakika pürüzsüz ve elastik olana kadar yoğurun, streç filme sarıp 30 dakika dinlendirin.",
    "Dinlenen hamuru 2-3 mm kalınlığında yuvarlayın ve 4-5 cm kenarlı kareler halinde kesin.",
-   "Et pişerken eti tencereden çıkarıp bir tepsiye alın. Pişmiş bütün soğanları da süzgeçle ayırın, bir kenara koyun.",
-   "Tencereyi süzgeçten geçirerek et suyunu ayırın, sıcak tutun. Doğranmış ince halka soğanları bir kaseye alıp 2 kepçe sıcak et suyuyla 5 dakika bekletin ve süzün.",
+   "Et pişince eti tencereden çıkarıp bir tepsiye alın. Pişmiş bütün soğanları da süzgeçle ayırın, bir kenara koyun.",
+   "Tencerenin içindekileri süzgeçten geçirerek et suyunu ayırın, sıcak tutun. Doğranmış ince halka soğanları bir kaseye alıp 2 kepçe sıcak et suyuyla 5 dakika bekletin ve süzün.",
    "Et suyunu tekrar kaynatın, hamur karelerini tek tek ekleyip 8-10 dakika pişirin. Eriştelerin üstü yüzmeye başladığında süzün.",
    "Büyük bir servis tabağına eriştelerin yarısını yayın, üzerine et parçalarını ve bütün soğanları dizin. Kalan eriştelerle üst kısmını örtün.",
    "Sıcak et suyundan bir fincan kadar kepçeyle alıp üzerine dökün. Soğanlı sosu ve kalan et suyunu ayrı bir kapta servis edin.",
@@ -73,5 +73,14 @@
   "tr": "Eti kemikli kesmek suyun daha lezzetli olmasını sağlar; hamuru ince açmak eriştenin yumuşak kalması için önemlidir.",
   "en": "Using bone-in meat gives a richer broth, and rolling the dough thinly keeps the noodles tender rather than heavy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the meat is lifted out 'while it is cooking' (Et pişerken), but the English says 'once the meat is cooked'. Removing meat before it is tender would be a real error.",
+   "Turkish step 7 says 'Tencereyi süzgeçten geçirerek' (pass the pot through a sieve), which is unnatural. It should refer to straining the pot's contents."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

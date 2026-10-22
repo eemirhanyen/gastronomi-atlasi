@@ -23,7 +23,7 @@
    "3 diş sarımsak, ince kıyılmış",
    "60 ml soya sosu",
    "25 g şeker",
-   "60 ml susam yağı",
+   "30 ml susam yağı",
    "60 ml sıvı yağ",
    "5 g tuz (1 çay kaşığı)",
    "1 g karabiber",
@@ -31,7 +31,7 @@
   ],
   "en": [
    "150 g dried sweet potato starch noodles (dangmyeon)",
-   "150 g beef sirloin or ribeye, thinly sliced",
+   "150 g beef tenderloin or ribeye, thinly sliced",
    "100 g spinach",
    "1 medium carrot (100 g), cut into thin matchsticks",
    "1 medium onion (150 g), thinly sliced",
@@ -40,7 +40,7 @@
    "3 cloves garlic, finely minced",
    "60 ml soy sauce",
    "25 g sugar",
-   "60 ml sesame oil",
+   "30 ml sesame oil",
    "60 ml vegetable oil",
    "5 g salt (1 tsp)",
    "1 g black pepper",
@@ -73,5 +73,14 @@
   "tr": "Eriştelerin yapışmaması için haşlandıktan sonra çok iyi durulayın ve sosa katmadan önce iyice süzün.",
   "en": "Rinse the noodles thoroughly in cold water after boiling and drain them well to keep them from sticking together."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sesame oil is listed as 60 ml, but the recipe uses only 30 ml in total (5 ml for spinach, 25 ml in the sauce), so the listed amount does not match the method.",
+   "The Turkish beef cut 'dana bonfile' (tenderloin) does not match the English 'beef sirloin or ribeye'. The English should say tenderloin."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

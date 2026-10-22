@@ -9,7 +9,7 @@
   "en": "A hearty, vegetable-rich soup with smoked bacon, served hot in winter and at family meals in Liechtenstein. It is one of the simple, filling dishes of the country's rural cooking."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Çorba koyulaşırsa servis öncesi biraz sıcak su ekleyin; arpa soğudukça kıvamını artırdığı için kaynama sonrası kıvamını ayarlamak önemlidir.",
   "en": "Barley keeps absorbing liquid as it cools, so add a splash of hot water just before serving if the soup has thickened."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) does not match the steps: soaking 20 min + ~4 + ~5 + ~30 + 15–20 min cooking totals about 75 min"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

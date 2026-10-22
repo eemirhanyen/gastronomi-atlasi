@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Taro küplerini buharda 20-25 dakika, çatalla kolayca ezilecek kadar yumuşayana kadar pişirin.",
-   "Sıcak taroyu çatalla ya da bir ezgiçle pürüzsüz bir püre haline getirin ve tamamen soğumasını bekleyin.",
+   "Sıcak taroyu çatal ya da patates ezici ile pürüzsüz bir püre haline getirin ve tamamen soğumasını bekleyin.",
    "Tapyoka nişastasını püreye ekleyip elinizle yoğurun. Hamur yapışıyorsa az az su ekleyerek yumuşak ama yapışmayan bir kıvam elde edin.",
    "Hamuru 1 cm kalınlığında uzun parçalara ayırın, her birini yaklaşık 2 cm'lik küçük toplar halinde kesin ve avuçlarınızda yuvarlayın.",
    "2 L suyu büyük bir tencerede kaynatın. Topları tek tek ekleyin ve karıştırarak yüzeye çıkmalarını bekleyin.",
@@ -61,5 +61,13 @@
   "tr": "Hamur çok kuru olursa toplar çatlar, çok ıslak olursa yapışır; her seferinde küçük miktarda su ekleyerek kıvamını ayarlayın.",
   "en": "If the dough is too dry the balls will crack, and if it is too wet they will stick; adjust with small amounts of water at a time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 uses \"ezgiç\", which is not a standard Turkish word for a masher. The correct term is \"patates ezici\" (\"ezici\" alone also works)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

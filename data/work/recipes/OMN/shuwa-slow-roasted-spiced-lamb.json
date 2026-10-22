@@ -59,7 +59,7 @@
    "Sarılmış eti fırın tepsisine yerleştirin, 100 ml suyu tepsinin kenarına dökün ve üzerini sıkıca kapatın.",
    "Kapalı tepsiyi 160°C'de yaklaşık 3 saat pişirin. Etin kemikten kolayca ayrılacak kadar yumuşak olup olmadığını kontrol edin.",
    "Paketi açın, eti yüksek ısıya (200°C) ayarlı fırında 20 ila 25 dakika daha kızartarak üstünü hafifçe kahverengileştirin.",
-   "Eti dinlendirip parçalara ayırın, tepsideki suyu üzerine gezdirerek servis yapın."
+   "Eti 10 dakika dinlendirin, parçalara ayırın veya didikleyin, tepsideki suyu üzerine gezdirerek servis yapın."
   ],
   "en": [
    "Grind the dried black lime to a powder in a spice grinder. In a bowl, mix the ground lime with the cumin, coriander, cardamom, black pepper, turmeric, chili powder, ginger and salt.",
@@ -74,8 +74,17 @@
   ]
  },
  "tip": {
-  "tr": "Kuru siyah limonun iç kısmını ekstra aromalı olmak için bir kez kırıp tohumlarını çıkarabilirsiniz; geleneksel tarifte bu kısım hafif acı bir tat verir.",
+  "tr": "Kuru siyah limonları öğütmeden önce bir bıçakla delin; bu, ekşi ve toprağımsı aromanın marinata daha eşit yayılmasına yardımcı olur.",
   "en": "Pierce the dried black limes with a knife before grinding, as this helps release their sour, earthy flavour more evenly into the marinade."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip mismatch: the English tip says to pierce the dried limes before grinding, but the Turkish tip says to break them open and remove the seeds, and it adds a bitterness claim that is not in the Englis",
+   "Step 9 mismatch: the English says to rest the lamb for 10 minutes, but the Turkish step gives no resting time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -54,9 +54,9 @@
    "Kurutulmuş yoğurtları bir gece önceden suda bekletin, ardından ellerinizle ezerek tamamen çözün ve süzün.",
    "Büyük bir tencerede sıvı yağı orta-yüksek ateşte ısıtın ve kuzu parçalarını partiler halinde 4-5 dakika kızartarak renklendirin.",
    "Kızarmış eti tencereye alın, yarım soğanı, defne yapraklarını, karabiberleri, kakuleleri, tarçını ve tuzu ekleyin. Üzerini 2 litre suyla kaplayıp kaynatın, ardından kısık ateşte kapağı kapalı olarak yaklaşık 1,5 saat etler yumuşayana kadar pişirin.",
-   "Etleri kepçeyle çıkarıp sıcak tutun. Pişirme suyunu süzerek 1 litre kadarını ayırın, geri kalanını başka bir kaba alın.",
+   "Etleri kepçeyle çıkarıp sıcak tutun. Pişirme suyunu süzerek 1 litre kadarını sos için ayırın, geri kalanını pilav için başka bir kaba alın.",
    "Çözülmüş kurutulmuş yoğurdu ayırdığınız 1 litre sıcak suyla karıştırın ve geniş bir tencerede orta ateşte, sürekli karıştırarak kaynamadan 20-25 dakika pişirin; kaynarsa yoğurt kesilebilir.",
-   "Pirinci yıkayıp 20 dakika suda bekletin. Ayrı bir tencerede tereyağının yarısını eritin, pirinci ekleyip 1 dakika çevirin, kalan pişirme suyundan ekleyerek tuz ile birlikte kapağı kapalı şekilde suyunu çekene kadar pişirin.",
+   "Pirinci yıkayıp 20 dakika suda bekletin. Ayrı bir tencerede tereyağının yarısını eritin, pirinci ekleyip 1 dakika çevirin, pilav için ayırdığınız pişirme suyunu (gerekirse su ekleyerek yaklaşık 800 ml'ye tamamlayın) ve tuzu ekleyip kapağı kapalı şekilde suyunu çekene kadar pişirin.",
    "Kalan tereyağını küçük bir tavada eritin, çam fıstığı ve bademleri altın rengi olana kadar 3-4 dakika kavurun.",
    "Yufka ekmekleri parçalara ayırıp geniş servis tabağının dibine serin, üzerine yoğurt sosundan bir kepçe gezdirin.",
    "Pilavı ekmeğin üzerine yayın, pişmiş kuzu parçalarını pilavın üstüne dizin ve kalan sıcak yoğurt sosunu üzerine dökün.",
@@ -66,9 +66,9 @@
    "The day before, soak the dried yogurt (jameed) in water overnight, then crumble and dissolve it by hand and strain.",
    "Heat the oil in a large pot over medium-high heat and brown the lamb pieces in batches for 4-5 minutes.",
    "Return the lamb to the pot with half the onion, the bay leaves, peppercorns, cardamom, cinnamon stick and salt. Cover with the 2 litres of water, bring to a boil, then simmer covered on low heat for about 1.5 hours until the meat is tender.",
-   "Lift the meat out with a slotted spoon and keep warm. Strain the cooking liquid, set aside 1 litre and discard the rest.",
+   "Lift the meat out with a slotted spoon and keep warm. Strain the cooking liquid, set aside 1 litre for the sauce and keep the rest for cooking the rice.",
    "Whisk the dissolved jameed into the 1 litre of reserved hot broth. Simmer in a wide pot over medium heat for 20-25 minutes, stirring constantly and never letting it boil, or the yogurt may curdle.",
-   "Rinse the rice and soak it for 20 minutes. In a separate pot, melt half the butter, add the drained rice and stir for 1 minute, then add water and salt and cook covered until absorbed.",
+   "Rinse the rice and soak it for 20 minutes. In a separate pot, melt half the butter, add the drained rice and stir for 1 minute, then add the reserved broth (topped up with water to about 800 ml) and salt, and cook covered until absorbed.",
    "Melt the remaining butter in a small pan and fry the pine nuts and almonds for 3-4 minutes until golden.",
    "Tear the flatbreads into pieces, arrange them on a large serving platter and ladle some of the jameed sauce over them.",
    "Spread the rice over the bread, arrange the lamb pieces on top and pour the remaining hot sauce over everything.",
@@ -79,5 +79,15 @@
   "tr": "Kurutulmuş yoğurdu yumuşatmak için bir gece önceden suda bekletmek en önemli adımdır; sosu asla şiddetli kaynatmayın, aksi halde kesilir.",
   "en": "Soaking the jameed overnight is essential for a smooth sauce; never let the sauce boil hard, or it will curdle."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says the leftover broth goes into another bowl, but the English step 4 says to discard it. The two versions disagree.",
+   "English step 6 says to cook the rice with plain water, while the Turkish step 6 uses the remaining cooking broth. The two versions disagree.",
+   "The rice liquid amount is not specified, and the broth left after setting aside 1 litre for the sauce may not be enough for 400 g of rice. The quantity needs to be stated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

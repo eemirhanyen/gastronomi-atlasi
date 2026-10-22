@@ -9,7 +9,7 @@
   "en": "A traditional Fijian side dish of taro leaves wrapped around coconut cream and onion and baked until meltingly soft. It is served at family meals and feasts, often alongside meat or fish dishes."
  },
  "servings": 4,
- "time_min": 80,
+ "time_min": 95,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -30,7 +30,7 @@
  "steps": {
   "tr": [
    "Fırınınızı 180°C'ye (fanlı ise 160°C) ısıtın.",
-   "Taro yapraklarının kalın saplarını kesip çıkarın ve yaprakları iyice yıkayın. Ispanak veya pazı kullanıyorsanız, saplarını ayırın, kaynayan suda 1 dakika haşlayıp süzün ve iyice sıkın.",
+   "Taro yapraklarının kalın saplarını kesip çıkarın ve yaprakları iyice yıkayın. Taro yapraklarını kaynayan suda en az 15 dakika haşlayıp süzün ve iyice sıkın. Ispanak veya pazı kullanıyorsanız, saplarını ayırın, kaynayan suda 1 dakika haşlayıp süzün ve iyice sıkın.",
    "Bir kasede hindistan cevizi kremasını, doğranmış soğanı ve tuzu karıştırın.",
    "Folyonun üzerine iki yaprağı üst üste, birbirini hafifçe kapatacak şekilde yerleştirin.",
    "Yaprakların ortasına karışımdan yaklaşık 100 ml koyun.",
@@ -40,7 +40,7 @@
   ],
   "en": [
    "Preheat the oven to 180°C (160°C fan).",
-   "Cut off the thick stalks of the taro leaves and wash the leaves thoroughly. If using spinach or chard, remove the stems, blanch the leaves in boiling water for 1 minute, then drain and squeeze out the excess water.",
+   "Cut off the thick stalks of the taro leaves and wash the leaves thoroughly. Boil the taro leaves in water for at least 15 minutes, then drain and squeeze out the excess water. If using spinach or chard, remove the stems, blanch the leaves in boiling water for 1 minute, then drain and squeeze out the excess water.",
    "In a bowl, stir together the coconut cream, chopped onion and salt.",
    "Lay two leaves on a sheet of foil, overlapping them slightly.",
    "Spoon about 100 ml of the coconut mixture into the centre of the leaves.",
@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Taro yapraklarında kalsiyum oksalat bulunur ve çiğ yendiğinde ağız ve boğazda tahrişe yol açabilir; bu nedenle yaprakları mutlaka iyice pişirin.",
-  "en": "Taro leaves contain calcium oxalate, which causes throat and mouth irritation if eaten raw, so always cook them thoroughly until very soft."
+  "tr": "Taro yapraklarında kalsiyum oksalat bulunur ve çiğ yendiğinde ağız ve boğazda tahrişe yol açabilir; bu nedenle yaprakları mutlaka uzun süre haşlayıp iyice pişirin.",
+  "en": "Taro leaves contain calcium oxalate, which causes throat and mouth irritation if eaten raw, so always boil them thoroughly before wrapping and baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Taro leaves are baked raw with no pre-cooking step. Taro leaves are high in calcium oxalate and traditionally must be boiled for a long time before use. The tip says to cook them thoroughly, but the m",
+   "The spinach/chard blanching step is the only leaf-cooking step, so taro leaves get no equivalent treatment."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

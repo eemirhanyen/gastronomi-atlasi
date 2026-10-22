@@ -19,7 +19,7 @@
    "10 g tuz",
    "30 g tereyağı, oda sıcaklığında",
    "300 ml ılık su",
-   "50 g karbonat (hamur kabarması için kaynatma suyu)",
+   "50 g karbonat (kaynatma banyosu için)",
    "1 l su (kaynatma için)",
    "20 g kaba deniz tuzu (üstü için)",
    "4 adet domuz sucuğu, yaklaşık 100 g'lık (toplam 400 g)",
@@ -69,5 +69,13 @@
   "tr": "Bretzeli kaynayan karbonat suyuna daldırırken çok uzun bekletmeyin; 30 saniye kabuğun koyu renk almasını sağlamak için yeterlidir.",
   "en": "Dip the pretzels in the baking soda bath for no more than 30 seconds; that is enough to give the crust its deep brown colour and characteristic flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient note says the baking soda is for dough rising (\"hamur kabarması için\"), but in the recipe it is only in the boiling bath for crust colour and flavour. The English version correctly "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

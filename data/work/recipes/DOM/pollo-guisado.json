@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Pollo Guisado (Dominik Usulü Güveçte Tavuk)",
+  "tr": "Pollo Guisado (Dominik Usulü Soslu Tavuk)",
   "en": "Pollo Guisado (Dominican Stewed Chicken)"
  },
  "native": "Pollo Guisado",
@@ -75,5 +75,13 @@
   "tr": "Tavukları kızartırken tencereyi aşırı doldurmayın; parçalar tavada buharda kalmadan kızarırsa sos daha derin bir tat kazanır.",
   "en": "Brown the chicken in batches so the pieces sear rather than steam; the browned bits left in the pot give the sauce much of its depth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish title says \"Güveçte Tavuk\" (chicken in a clay casserole), but the recipe is cooked in a pot and served with rice, so the title misdescribes the dish. Changed to \"Dominik Usulü Soslu Tavuk\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

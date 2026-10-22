@@ -54,12 +54,12 @@
  "steps": {
   "tr": [
    "Bakla tanelerini bol soğuk suda 12 saat ıslatın. Süzün ve kalan kabuk parçalarını elleriniz arasında ovarak temizleyin.",
-   " Islatılmış baklaları, soğanı, sarımsağı, maydanozu, kişnişi, dereotunu, kimyonu, kişniş tohumunu, tuzu ve karabiberi mutfak robotuna alın. Kum gibi kıvamda, pürüzlü ve hafif dokulu bir karışım elde edene kadar kısa aralıklarla çekin. Humus gibi pürüzsüz olmamalı.",
+   "Islatılmış baklaları, soğanı, sarımsağı, maydanozu, kişnişi, dereotunu, kimyonu, kişniş tohumunu, tuzu ve karabiberi mutfak robotuna alın. Kum gibi kıvamda, pürüzlü ve hafif dokulu bir karışım elde edene kadar kısa aralıklarla çekin. Humus gibi pürüzsüz olmamalı.",
    "Karışımı bir kaseye alın, üzerini örtün ve buzdolabında 15 dakika dinlendirin.",
-   "Dinlenen hamurdan avuç içinde yaklaşık 40 g'lık toplar yapıp 1,5 cm kalınlığında, 5 cm çapında yassı köfteler şekillendirin. Toplam yaklaşık 10 adet çıkmalı.",
+   "Dinlenen hamurdan avuç içinde yaklaşık 40 g'lık toplar yapıp 1,5 cm kalınlığında, 5 cm çapında yassı köfteler şekillendirin. Toplam yaklaşık 18 adet çıkmalı.",
    "Susamı geniş bir tabağa serpin ve her köfteyi iki yüzüne de bastırarak susam kaplayın.",
    "Kızartma yağını derin bir tencerede 170 °C'ye kadar ısıtın. Köfteleri partiler halinde, her yüzü 4-5 dakika ya da koyu altın rengi olana kadar kızartın.",
-   "Kızarmış tavaları kağıt havlu serili bir tabağa alıp fazla yağını süzün.",
+   "Kızarmış köfteleri kağıt havlu serili bir tabağa alıp fazla yağını süzün.",
    "Tahin sosunu hazırlamak için tahini, limon suyu, ezilmiş sarımsak, tuz ve suyu bir kapta çırpın. Kıvamı yoğurt gibi olana kadar su ekleyerek ayarlayın.",
    "Ekmekleri ortadan yarın, içini hafifçe açın ve birkaç ta'ameya, domates, salatalık, turşu ve tahin sosu ile doldurarak sıcak servis yapın."
   ],
@@ -67,7 +67,7 @@
    "Soak the dried fava beans in plenty of cold water for 12 hours. Drain, then rub off any remaining skins between your hands.",
    "Put the soaked beans, onion, garlic, parsley, coriander, dill, cumin, ground coriander seed, salt and black pepper into a food processor. Pulse in short bursts until you have a coarse, crumbly mixture with some texture. It should not be smooth like hummus.",
    "Transfer the mixture to a bowl, cover and refrigerate for 15 minutes to firm up.",
-   "Shape the mixture into about 10 flat patties, roughly 5 cm across and 1.5 cm thick, using about 40 g per patty.",
+   "Shape the mixture into about 18 flat patties, roughly 5 cm across and 1.5 cm thick, using about 40 g per patty.",
    "Spread the sesame seeds on a wide plate and press each patty into them so both sides are coated.",
    "Heat the frying oil in a deep pan to 170 °C. Fry the patties in batches for 4 to 5 minutes per side, until deep golden brown.",
    "Lift the patties onto a plate lined with kitchen paper to drain off excess oil.",
@@ -79,5 +79,14 @@
   "tr": "Hamur humus gibi pürüzsüz olursa köfteler dağılır ve yağda fazla emer; mutfak robotunda kısa aralıklarla çekmek kıvamı korumanın en iyi yoludur.",
   "en": "If the mixture is blended too smooth, the patties will fall apart and soak up excess oil, so pulse briefly and stop while the texture is still coarse."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"Kızarmış tavaları\" (\"the pans\"). It should be \"köfteleri\" (\"the patties\"), as in the English.",
+   "Patty count doesn't match the ingredients. 250 g dry beans roughly double when soaked, and with the herbs, onion and garlic the mixture comes to about 700 g. At 40 g per patty that makes about 18 patt"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

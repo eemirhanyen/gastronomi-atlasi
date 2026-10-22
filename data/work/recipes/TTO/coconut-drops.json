@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "450 g rendelenmiş taze hindistancevizi (yaklaşık 2 orta boy hindistancevizi)",
+   "450 g rendelenmiş taze hindistancevizi (yaklaşık 2-3 orta boy hindistancevizi)",
    "400 g beyaz şeker",
    "150 ml su",
    "1 tatlı kaşığı vanilya özütü",
@@ -21,7 +21,7 @@
    "1 yemek kaşığı tereyağı (kalıba sürmek için)"
   ],
   "en": [
-   "450 g freshly grated coconut (about 2 medium coconuts)",
+   "450 g freshly grated coconut (about 2-3 medium coconuts)",
    "400 g white sugar",
    "150 ml water",
    "1 teaspoon vanilla extract",
@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Fırın tepsisine pişirme kağıdı serin ve kağıdın yüzeyine tereyağını ince bir tabaka halinde sürün.",
+   "Fırın tepsisine pişirme kağıdı yerleştirin ve kağıdın yüzeyine tereyağını ince bir tabaka halinde sürün.",
    "Geniş ve kalın tabanlı bir tencerede şekeri ve suyu orta ateşte birlikte koyun. Şeker eriyene kadar karıştırın ve kaynatın.",
    "Rendelenmiş hindistancevizi ile tuzu ekleyip iyice karıştırın.",
    "Ateşi orta-düşük seviyeye indirin. Karışım koyulaşıp suyunu çekene kadar, yaklaşık 15-20 dakika, sık sık karıştırarak pişirin. Karışım yaklaşık 115°C'ye ulaşınca ve tencerenin dibi kısa süreliğine görünmeye başlayınca pişmiş sayılır.",
@@ -55,5 +55,14 @@
   "tr": "Taze hindistancevizi kullanın; karışım kuruyup tencerenin dibinden ayrılmaya başladığında ocaktan alın, aksi halde şekerlemeler çok sert olur.",
   "en": "Use fresh coconut for the best flavour, and remove the pan from the heat as soon as the mixture pulls away from the sides, or the drops will turn hard."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses the wrong verb ('serin' instead of 'yerleştirin' for placing the paper on the tray), which makes the sentence unnatural.",
+   "Coconut quantity is understated: about 2 medium coconuts yield roughly 300 to 400 g of grated flesh, short of the 450 g listed. The English and Turkish ingredient lines need the same correction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

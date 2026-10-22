@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "800 g dana bonfile yerine dana göğüs veya sırt eti, 4 cm'lik küpler halinde doğranmış",
+   "800 g dana sırt, göğüs veya incik eti, 4 cm'lik küpler halinde doğranmış",
    "1 yemek kaşığı bitkisel yağ",
    "1 tatlı kaşığı tatlı kırmızı biber (paprika)",
    "1 adet orta boy soğan (150 g), kıyılmış",
@@ -81,5 +81,14 @@
   "tr": "Etin lifli ve yumuşak kalması için kaynatmayı değil, çok kısık ateşte yavaş pişirmeyi tercih edin; yahni bir gün önceden yapılırsa lezzeti daha da derinleşir.",
   "en": "For the most tender meat, keep the stew at a gentle simmer rather than a rolling boil; it tastes even better made a day ahead and reheated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line contains a leftover drafting phrase ('dana bonfile yerine'). Bonfile is tenderloin, which is wrong for a braise, and the line reads awkwardly.",
+   "Turkish meat options ('göğüs veya sırt') do not match the English ('chuck or shank'); shank (incik) is missing from the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

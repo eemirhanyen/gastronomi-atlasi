@@ -9,7 +9,7 @@
   "en": "A sweet, lightly syruped crescent pastry and Argentina's most popular breakfast bake, similar to a croissant but softer and sweeter. It is eaten in the morning with coffee or mate in cafés and at home."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -51,7 +51,7 @@
    "Soğuk 150 g tereyağını iki kağıt arasında yaklaşık 15 x 15 cm'lik bir kare haline gelene kadar açın.",
    "Hamuru 20 x 35 cm'lik bir dikdörtgen olacak şekilde açın, tereyağı karesini ortasına koyup kenarlarını üstüne kapatın ve mühürleyin.",
    "Hamuru tekrar uzun bir dikdörtgen haline getirin, üç kata katlayın, 30 dakika buzdolabında dinlendirin. Bu katlama işlemini bir kez daha tekrarlayın.",
-   "Hamuru yaklaşık 3 mm kalınlığında, 30 x 40 cm'lik bir dikdörtgen olacak şekilde açın. Üçgenlere kesin, geniş tabanından tutup hilal şekli verecek şekilde sarın ve fırın tepsisine yerleştirin.",
+   "Hamuru yaklaşık 5 mm kalınlığında, 40 x 50 cm'lik bir dikdörtgen olacak şekilde açın. Üçgenlere kesin, geniş tabanından tutup hilal şekli verecek şekilde sarın ve fırın tepsisine yerleştirin.",
    "Medialunaları sıcak bir yerde 1,5 saat kabartın. Bir yumurtayı 15 ml sütle çırpıp yüzeylerine sürün, fırını 180°C'ye ısıtın ve 15-18 dakika altın rengi olana kadar pişirin.",
    "Şekeri, suyu ve portakal kabuğunu küçük bir tencerede kaynatın, 3 dakika kadar kaynamaya bırakıp kabuğu çıkarın. Sıcak medialunaların üzerine şurubu fırçayla sürün ve ılındıktan sonra servis yapın."
   ],
@@ -62,7 +62,7 @@
    "Roll the cold 150 g butter between two sheets of baking paper into a square about 15 x 15 cm.",
    "Roll the dough into a 20 x 35 cm rectangle, place the butter square in the centre, fold the edges over it and seal.",
    "Roll the dough into a long rectangle again, fold it in three like a letter, and rest it in the fridge for 30 minutes. Repeat the rolling and folding once more.",
-   "Roll the dough to about 3 mm thick, forming a 30 x 40 cm rectangle. Cut into triangles, roll each from the wide base into a crescent and place on a baking tray.",
+   "Roll the dough to about 5 mm thick, forming a 40 x 50 cm rectangle. Cut into triangles, roll each from the wide base into a crescent and place on a baking tray.",
    "Leave the medialunas in a warm place to prove for 1.5 hours. Beat the egg with 15 ml milk and brush over the tops. Heat the oven to 180°C and bake for 15-18 minutes until golden brown.",
    "Simmer the sugar, water and orange peel in a small pan for about 3 minutes, then remove the peel. Brush the syrup over the hot medialunas and serve once they have cooled slightly."
   ]
@@ -71,5 +71,15 @@
   "tr": "Tereyağının ve hamurun soğuk kalması, katlamalarda tabakaların ayrışmasını sağlar; hamur yumuşarsa birkaç dakika buzdolabına alın.",
   "en": "Keep the butter and dough cold during folding so the layers stay distinct; if the dough softens, chill it for a few minutes before continuing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is too short: the recipe has a 1-hour first rise, two 30-minute chills, and a 1.5-hour proof before baking, so the total is about 4 hours.",
+   "Step 7 dough thickness is implausible for the quantity: about 1.1 kg of dough cannot cover 30 x 40 cm at 3 mm. It needs roughly 5 mm over a larger sheet (40 x 50 cm) to be workable.",
+   "Turkish and English step 7 were updated together to match the corrected dimensions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

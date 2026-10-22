@@ -21,7 +21,7 @@
    "100 g shiitake mantarı",
    "150 g enoki mantarı",
    "300 g momen tofu (sert tofu)",
-   "100 g shungiku (kırmızı kısım ayrılmış kışkırmızı yaprak) veya ıspanak",
+   "100 g shungiku (hrizantem yaprağı) veya ıspanak",
    "120 ml ponzu sosu",
    "50 g daikon turpu, rendelenmiş",
    "1 dal yeşil soğan, ince doğranmış",
@@ -54,7 +54,7 @@
  "steps": {
   "tr": [
    "Kombuyu suyla birlikte bir tencereye koyun ve yaklaşık 30 dakika bekletin.",
-   "Tenceреyi çok yavaş ısıtın. Su kaynamaya yaklaşınca, kabarcıklar oluşmadan önce kombuyu çıkarın; kombunun suyu acılaştırmasını önlemek için bu adım önemlidir.",
+   "Tenceyi çok yavaş ısıtın. Su kaynamaya yaklaşınca, kabarcıklar oluşmadan önce kombuyu çıkarın; kombunun suyu acılaştırmasını önlemek için bu adım önemlidir.",
    "Daikonu rendeleyin, elinizle hafifçe sıkarak suyunu alın. Ponzu sosunu, rendelenmiş daikonu ve yeşil soğanı küçük bir kaseye alıp karıştırın.",
    "Susam ezmesini bir kaseye koyun, soya sosu, pirinç sirkesi, şekeri ve 3 yemek kaşığı kombu suyunu ekleyip pürüzsüz bir sos elde edene kadar çırpın.",
    "Lahanayı kalın şeritler halinde doğrayın. Pırasayı ince eğik dilimler halinde kesin ve yıkayıp kurulayın.",
@@ -83,5 +83,14 @@
   "tr": "Eti 5-10 saniyeden fazla suda bırakmayın; ince kesilmiş et çok kısa sürede pişer ve sertleşir.",
   "en": "Do not leave the beef in the broth for more than 5-10 seconds; thin slices cook very quickly and toughen if overcooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 contains a Cyrillic 'е' in 'Tenceреyi' (typo).",
+   "Turkish ingredient for shungiku is garbled: 'kırmızı kısım ayrılmış kışkırmızı yaprak' is unnatural and incorrect. The English says 'chrysanthemum greens', so the Turkish should be 'hrizantem yaprağı'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

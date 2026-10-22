@@ -39,17 +39,17 @@
    "Sarımsakları tuzla birlikte havanda ezerek macun kıvamına getirin. Kıyılmış kişnişi ekleyip birlikte ezmeye devam edin.",
    "Ekmek küplerini geniş bir çorba kasesine koyun ve üzerine sarımsak-kişniş macununu serpin.",
    "Suyu kaynatın. Kaynayan sudan 800 ml'yi ekmeğin üzerine dökün, zeytinyağını ekleyip kaşıkla karıştırın. Ekmek suyu emene kadar yaklaşık 5 dakika bekletin.",
-   "Ekmek yumuşadıkça çatalla ezerek kıvamlı bir çorba elde edin. Gerekirse kalan sıcak suyu ekleyerek kıvamı ayarlayın ve tadına bakıp tuz ekleyin.",
-   "Ayrı bir tencerede kalan suyu hafifçe kaynatın, sirkeyi ekleyin. Yumurtaları tek tek kırarak kaynayan suya koyun ve kaynamayan ama hafif fokur fokur bir ısıda 3-4 dakika pişirin.",
-   "Çorbayı derin kâselere paylaştırın, her porsiyonun üzerine bir yumurta koyun ve kalan kişniş ile birlikte sıcak servis yapın."
+   "Ekmek yumuşadıkça çatalla ezerek kıvamlı bir çorba elde edin. Tadına bakıp tuz ekleyin.",
+   "Ayrı bir tencerede kalan 200 ml suyu hafifçe kaynatın, sirkeyi ekleyin. Yumurtaları tek tek kırarak hafifçe kaynayan suya koyun ve 3-4 dakika pişirin.",
+   "Çorbayı derin kâselere paylaştırın, her porsiyonun üzerine bir yumurta koyun, kalan kişnişi serpin ve sıcak servis yapın."
   ],
   "en": [
    "Remove the crust from the bread, cut the crumb into 1 cm slices and then into cubes. If the bread is very dry, toast the cubes briefly in the oven so they absorb the liquid better.",
    "Crush the garlic with the salt in a mortar until you have a smooth paste. Add the chopped coriander and keep pounding until combined.",
    "Place the bread cubes in a large soup bowl and sprinkle the garlic and coriander paste over them.",
    "Bring the water to a boil. Pour 800 ml of the boiling water over the bread, add the olive oil and stir with a spoon. Let it stand for about 5 minutes until the bread has soaked up the liquid.",
-   "Mash the softened bread with a fork to form a thick, porridge-like soup. If needed, add the remaining hot water to adjust the consistency, then taste and season with salt.",
-   "In a separate pan, bring the remaining water to a gentle simmer and add the vinegar. Crack the eggs in one at a time and poach them in barely simmering water for 3-4 minutes.",
+   "Mash the softened bread with a fork to form a thick, porridge-like soup. Taste and season with salt.",
+   "In a separate pan, bring the remaining 200 ml of water to a gentle simmer and add the vinegar. Crack the eggs in one at a time into the barely simmering water and poach for 3-4 minutes.",
    "Divide the soup among deep bowls, top each portion with a poached egg, sprinkle with the remaining coriander and serve hot."
   ]
  },
@@ -57,5 +57,14 @@
   "tr": "Açordanın gerçek lezzeti bayat ekmekten gelir; taze ekmek kullanırsanız çorba hamurumsu olur, bu yüzden ekmeği birkaç gün önceden almaya özen gösterin.",
   "en": "The authentic texture comes from stale bread; fresh bread turns the soup gummy, so buy your loaf a day or two ahead."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Steps 5 and 6 conflict on the remaining water: step 5 adds the leftover hot water to adjust the soup, but step 6 needs that same 200 ml to poach the eggs. The English version has the same conflict.",
+   "Turkish step 6 says the egg water should be 'kaynamayan' (not boiling) and also 'hafif fokur fokur' (gently bubbling). These contradict each other. The English 'barely simmering' is the intended meani"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A one-pot dish of rice cooked with leafy greens and beef, common in the highlands and in Antananarivo for everyday lunches and dinners. It is usually served hot, often with a little extra broth spooned over the rice."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 95,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -50,7 +50,7 @@
    "Doğranmış ıspanak veya pazı yapraklarını ekleyip karıştırın. Yapraklar solana ve kısmen yumuşayana kadar yaklaşık 5 dakika pişirin.",
    "Yıkanmış pirinci tencereye ekleyip iyice karıştırın. Kalan 400 ml sıcak suyu ilave edin ve suyu kaynatın.",
    "Ateşi en düşük seviyeye indirip kapağı kapalı olarak pirinç suyunu çekene kadar yaklaşık 20 dakika pişirin. Pirinç yumuşamadıysa 2-3 yemek kaşığı sıcak su ekleyip 5 dakika daha bekleyin.",
-   "Ocağı kapatın, kapağı açmadan 10 dakika dinlendirin. Pirinci çatalla kabartıp sıcak olarak servis yapın."
+   "Ocağı kapatın, kapağı açmadan 10 dakika dinlendirin. Pirinci çatalla havalandırıp sıcak olarak servis yapın."
   ],
   "en": [
    "Heat the vegetable oil in a wide, heavy-bottomed pot over medium-high heat. Add the beef and brown it on all sides, about 5 minutes.",
@@ -67,5 +67,14 @@
   "tr": "Pirinç tavada yapışmasın diye karıştırmadan önce dibine bir kez bakın; kaliteli bir tencere kapağı buharı tutarak pirincin eşit pişmesini sağlar.",
   "en": "Use a tight-fitting lid so the steam stays inside; if you can't find spinach, Swiss chard or amaranth leaves are closer to the traditional greens."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is lower than the sum of the listed steps (about 95 min including the 10-minute rest)",
+   "Turkish step 8 uses 'kabartıp' (make rise/puff), which is unnatural for fluffing rice; 'havalandırıp' is the correct term"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

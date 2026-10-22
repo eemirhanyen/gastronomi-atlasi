@@ -6,7 +6,7 @@
  "native": "Caldo de peixe",
  "desc": {
   "tr": "Angola'nın Atlantik kıyı şehirlerinde, özellikle Luanda ve Benguela'da günlük yemeklerin vazgeçilmezi olan, domates, biber ve palm yağıyla tatlandırılmış hafif bir balık çorbasıdır. Öğle ve akşam yemeklerinde, çoğunlukla sıcak pirinç ya da fufu ile servis edilir.",
-  "en": "A light, tomato-based fish soup flavoured with palm oil and chilli, eaten along Angola's Atlantic coast, especially in Luanda and Benguela. It is a everyday lunch or supper dish, usually served hot with rice or fufu."
+  "en": "A light, tomato-based fish soup flavoured with palm oil and chilli, eaten along Angola's Atlantic coast, especially in Luanda and Benguela. It is an everyday lunch or supper dish, usually served hot with rice or fufu."
  },
  "servings": 4,
  "time_min": 60,
@@ -16,7 +16,7 @@
    "800 g beyaz etli, sert yapılı balık (garoupa veya merluza), 4 parça halinde",
    "1 limon, yarısının suyu sıkılmış ve yarısı ayrılmış",
    "1 çay kaşığı tuz, ayrıca tatmak için",
-   "60 ml palm yağı (yoksa mısır yağı)",
+   "60 ml palm yağı (yoksa ayçiçek yağı)",
    "1 büyük soğan (150 g), ince doğranmış",
    "3 diş sarımsak, ezilmiş",
    "1 yeşil dolmalık biber (150 g), küp küp doğranmış",
@@ -49,7 +49,7 @@
    "Geniş bir tencerede palm yağını orta-yüksek ateşte ısıtın, soğanı ekleyip 5 dakika yumuşayana kadar kavurun.",
    "Sarımsak, yeşil biber ve kırmızı acı biberi ekleyip 3 dakika daha pişirin.",
    "Domatesleri ekleyip 5 dakika, pürüze dönüşene kadar karıştırarak pişirin.",
-   "Suyu ya da balık suyunu, patatesleri ve kalan tuzun yarısını ekleyin. Kaynatın, sonra kısık ateşte 15 dakika, patatesler neredeyse yumuşayana kadar pişirin.",
+   "Suyu ya da balık suyunu, patatesleri ve kalan tuzu ekleyin. Kaynatın, sonra kısık ateşte 15 dakika, patatesler neredeyse yumuşayana kadar pişirin.",
    "Balık parçalarını çorbaya yerleştirin ve kısık ateşte 8-10 dakika, balık ete kolayca ayrılana kadar pişirin. Kaynatmamaya dikkat edin, aksi halde balık dağılır.",
    "Karabiberi ekleyin, tuzu tadına göre ayarlayın ve kalan yarım limonun suyunu gezdirin.",
    "Ocaktan alıp doğranmış kişnişi serpin ve sıcak servis yapın."
@@ -69,5 +69,15 @@
   "tr": "Balığı çorbaya en son ekleyin ve asla şiddetli kaynatmayın; böylece parçalar bütün kalır ve çorba berrak kalır.",
   "en": "Add the fish last and never let the soup boil hard; this keeps the pieces whole and the broth clear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish oil substitute is corn oil (mısır yağı), but English says sunflower oil; the two versions disagree.",
+   "Turkish step 5 adds only half of the remaining salt ('kalan tuzun yarısını'), while the English step adds all of the remaining salt.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

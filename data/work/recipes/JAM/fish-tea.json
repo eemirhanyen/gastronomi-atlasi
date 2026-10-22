@@ -6,7 +6,7 @@
  "native": "Jamaica",
  "desc": {
   "tr": "Jamaika'nın kıyı kasabalarında, özellikle hafta sonu kahvaltısında ve hangover sonrası toparlanmak için içilen, sebzeli ve hamur topaklı hafif bir balık çorbasıdır. Adına rağmen çay değil, berrak ve aromatik bir balık suyudur.",
-  "en": "A light, aromatic fish broth with root vegetables and flour dumplings, traditionally eaten on Jamaica's coastal towns for weekend breakfasts and as a restorative after a night out. Despite its name, it is a clear broth rather than a tea."
+  "en": "A light, aromatic fish broth with root vegetables and flour dumplings, traditionally eaten in Jamaica's coastal towns for weekend breakfasts and as a restorative after a night out. Despite its name, it is a clear broth rather than a tea."
  },
  "servings": 4,
  "time_min": 60,
@@ -55,7 +55,7 @@
  },
  "steps": {
   "tr": [
-   "Fıran steaklerini soğuk suyla çalkalayın, yarım limonun suyu, bir çay kaşığı tuz ve karabiberle ovalayıp bir kenara koyun.",
+   "Balık steaklerini soğuk suyla çalkalayın, yarım limonun suyu, bir tutam tuz ve karabiberle ovalayıp bir kenara koyun.",
    "Büyük bir tencereye 2 litre su, balık kafası ve kılçıkları, soğan, sarımsak, kekik, bağlanmış yeşil soğan, pimento taneleri, bütün scotch bonnet biber ve tuzun kalanını koyun. Kaynatın, kısık ateşte 20 dakika pişirin ve yüzeydeki köpüğü alın.",
    "Suyu süzgeçten geçirip temiz bir tencereye alın. Balık kılçıklarını ve sebzeleri atın.",
    "Yamları ve yeşil muz halkalarını süzülmüş suya ekleyip orta ateşte 10 dakika, yumuşamaya başlayana kadar pişirin.",
@@ -79,5 +79,14 @@
   "tr": "Scotch bonnet biberi bütün ve delinmemiş bırakırsanız çorba aromalı ama hafif acı kalır; kesip koyarsanız belirgin bir acılık elde edersiniz.",
   "en": "Keep the scotch bonnet whole and unpierced for a fragrant but mild broth; cut or pierce it deeply only if you want real heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to use 1 teaspoon of salt on the fish, but the English says 'a pinch', and step 2 then adds 'the remaining salt'. Both versions can't be right, and with 1 tsp used up there would b",
+   "Turkish step 1 has a typo: 'Fıran' should be 'Balık'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

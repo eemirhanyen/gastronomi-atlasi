@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g mumlu (kaygan) patates, örneğin Charlotte veya Ratte",
+   "800 g mumlu patates, örneğin Charlotte veya Ratte",
    "1 küçük kuru soğan (yaklaşık 80 g)",
    "80 g pastırma veya tütsülenmiş domuz pastırması, küp doğranmış",
    "150 ml sebze veya dana et suyu",
@@ -23,7 +23,7 @@
    "4 küçük kornişon (yaklaşık 60 g), ince dilim",
    "1 yemek kaşığı (5 g) doğranmış frenk soğanı",
    "1/2 tatlı kaşığı (3 g) tuz",
-   "Taze çekilmiş karabiber"
+   "1/4 tatlı kaşığı (yaklaşık 0,5 g) taze çekilmiş karabiber"
   ],
   "en": [
    "800 g waxy potatoes, such as Charlotte or Ratte",
@@ -36,7 +36,7 @@
    "4 small gherkins (about 60 g), thinly sliced",
    "1 tablespoon (5 g) chopped chives",
    "1/2 teaspoon (3 g) salt",
-   "Freshly ground black pepper"
+   "1/4 teaspoon (about 0.5 g) freshly ground black pepper"
   ]
  },
  "steps": {
@@ -65,5 +65,15 @@
   "tr": "Patatesleri sıcakken soyup dilimleyin ve sosu sıcak haldeyken ekleyin; böylece tat iyi emilir ve dilimler dağılmaz.",
   "en": "Peel and slice the potatoes while they are still warm, and dress them while warm too, so they absorb the flavour without falling apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Black pepper has no quantity or unit in either language (Turkish and English).",
+   "Turkish ingredient name 'mumlu (kaygan) patates' is unnatural: 'kaygan' means 'slippery', not a waxy potato type. 'Mumlu' alone is the correct term.",
+   "Step 3 has the bacon fat drained onto the paper towel, but the fat is never used again. The dressing uses only canola oil, so the fat is left unaccounted for."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

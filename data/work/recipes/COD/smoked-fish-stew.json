@@ -6,7 +6,7 @@
  "native": "Mbisi ya kokola",
  "desc": {
   "tr": "Kongo Demokratik Cumhuriyeti'nde, özellikle Kinşasa'da, günlük yemeklerde sık görülen, palm yağıyla pişirilen füme balıklı bir yahnidir. Genellikle pilavla ya da fufu ile servis edilir.",
-  "en": "A everyday stew from Kinshasa and across the Democratic Republic of the Congo, where smoked fish is simmered in palm oil with tomato, onion and chili. It is usually served with rice or fufu."
+  "en": "An everyday stew from Kinshasa and across the Democratic Republic of the Congo, where smoked fish is simmered in palm oil with tomato, onion and chili. It is usually served with rice or fufu."
  },
  "servings": 4,
  "time_min": 60,
@@ -18,7 +18,7 @@
    "2 orta boy soğan, ince doğranmış",
    "3 diş sarımsak, ezilmiş",
    "3 adet olgun domates, doğranmış",
-   "1 adet acı biber (scotch bonnet veya yeşil biber), çekilmiş",
+   "1 adet acı biber (scotch bonnet veya yeşil biber), hafifçe ezilmiş",
    "250 g patlıcan, küp doğranmış",
    "1 adet tavuk bulyonu küpü",
    "600 ml sıcak su",
@@ -65,5 +65,14 @@
   "tr": "Füme balık çok tuzlu olabileceği için tuzu en sona bırakın ve önce tadına bakın.",
   "en": "Smoked fish can be quite salty, so add salt only at the end after tasting the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish chili prep 'çekilmiş' (ground/pounded) doesn't match English 'lightly crushed'; Turkish changed to 'hafifçe ezilmiş'.",
+   "English description has an article error: 'A everyday stew' changed to 'An everyday stew'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,8 +21,9 @@
    "1 tatlı kaşığı kimyon",
    "2 çay kaşığı tuz",
    "1/2 çay kaşığı taze çekilmiş karabiber",
-   "1 litre sıcak su",
-   "400 g uzun taneli pirinç"
+   "1 litre sıcak su (etler için)",
+   "400 g uzun taneli pirinç",
+   "yaklaşık 700 ml sıcak su (pirinç için)"
   ],
   "en": [
    "600 g bone-in lamb shoulder",
@@ -33,8 +34,9 @@
    "1 tsp ground cumin",
    "2 tsp salt",
    "1/2 tsp freshly ground black pepper",
-   "1 litre hot water",
-   "400 g long-grain rice"
+   "1 litre hot water (for the meat)",
+   "400 g long-grain rice",
+   "about 700 ml hot water (for the rice)"
   ]
  },
  "steps": {
@@ -44,11 +46,11 @@
    "Geniş ve dipli bir tencerede ayçiçek yağını yüksek ateşte iyice ısıtın. Etleri ekleyip her tarafı kızarana kadar yaklaşık 10 dakika kavurun.",
    "Soğanları ekleyip ara sıra karıştırarak 5 dakika kadar, yumuşayıp hafif altın rengi alana dek pişirin.",
    "Havuçları ekleyip 5 dakika daha kavurun. Kimyon, tuz ve karabiberi serpin ve karıştırın.",
-   "Sıcak suyu ekleyin, ateşi kısın ve kapağı kapalı olarak etler yumuşayana kadar yaklaşık 40 dakika pişirin.",
+   "1 litre sıcak suyu ekleyin, ateşi kısın ve kapağı kapalı olarak etler yumuşayana kadar yaklaşık 40 dakika pişirin.",
    "Sarımsak başını yıkamadan, kabuğu üzerinde ortaya yerleştirin. Pirinci etlerin ve havuçların üzerine eşit bir tabaka halinde yayın, karıştırmadan üzerini hafifçe düzeltin.",
-   "Pirincin üzerini yaklaşık 1 cm su ile kaplanacak kadar sıcak su ekleyin. Kaynayınca ateşi en düşük seviyeye alıp kapağı kapalı olarak yaklaşık 25 dakika pişirin.",
-   "Pirinç suyunu emip kabarcıklar yüzeyde kalmadığında ocağı kapatın. Kapağı kapalı halde 10 dakika dinlendirin.",
-   "Pilavı büyük bir tepsiye alın, etleri ve havuçları üste gelecek şekilde servis yapın. Sarımsak başını da servise ekleyip herkesin kendi payını alabilmesini sağlayın."
+   "Pirincin üzerini yaklaşık 1 cm su ile kaplanacak kadar (yaklaşık 700 ml) sıcak su ekleyin. Kaynayınca ateşi en düşük seviyeye alıp kapağı kapalı olarak yaklaşık 25 dakika pişirin.",
+   "Pirinç suyunu emip yüzeyde küçük delikler belirdiğinde ve su tamamen çekildiğinde ocağı kapatın. Kapağı kapalı halde 10 dakika dinlendirin.",
+   "Pilavı nazikçe karıştırıp büyük bir tepsiye alın, etleri ve havuçları üste gelecek şekilde servis yapın. Sarımsak başını da servise ekleyip herkesin kendi payını alabilmesini sağlayın."
   ],
   "en": [
    "Rinse the rice in cold water until the water runs clear, then leave it to drain in a sieve.",
@@ -56,9 +58,9 @@
    "Heat the sunflower oil in a wide, heavy-bottomed pot over high heat. Add the lamb and brown on all sides for about 10 minutes.",
    "Add the onions and fry for about 5 minutes, stirring occasionally, until softened and lightly golden.",
    "Add the carrots and fry for another 5 minutes. Sprinkle in the cumin, salt and black pepper and stir well.",
-   "Pour in the hot water, reduce the heat and simmer, covered, for about 40 minutes until the meat is tender.",
+   "Pour in the 1 litre of hot water, reduce the heat and simmer, covered, for about 40 minutes until the meat is tender.",
    "Place the whole head of garlic, unpeeled, in the centre of the pot. Spread the drained rice evenly over the meat and carrots without stirring.",
-   "Add enough hot water to cover the rice by about 1 cm. Once it boils, reduce the heat to the lowest setting and cook, covered, for about 25 minutes.",
+   "Add enough hot water (about 700 ml) to cover the rice by about 1 cm. Once it boils, reduce the heat to the lowest setting and cook, covered, for about 25 minutes.",
    "When the water has been absorbed and small holes appear on the surface, turn off the heat. Keep covered and rest for 10 minutes.",
    "Gently fold the rice, then transfer to a large platter with the lamb and carrots on top. Serve with the garlic head so each guest can take a clove."
   ]
@@ -67,5 +69,15 @@
   "tr": "Pirinci karıştırmadan pişirin; pilavın alt kısmında hafif bir yanık tabakası oluşması geleneksel bir lezzet sayılır, bu yüzden tencerenin dibini ısıya dikkatle ayarlayın.",
   "en": "Do not stir the rice once it is layered; a light, crisp crust forming on the bottom is traditional, so keep the heat low and steady at the end."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list gives only 1 litre of hot water, but the steps use it twice: once for braising the meat and again for the rice (about 1 cm above the rice). The rice water has no quantity.",
+   "Turkish step 9 says to stop cooking when 'kabarcıklar yüzeyde kalmadığında' (bubbles no longer remain on the surface), while the English says 'small holes appear on the surface'. The doneness cue diff",
+   "English step 10 says to 'gently fold the rice' before serving, but the Turkish step omits this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -1,12 +1,12 @@
 {
  "name": {
-  "tr": "Sömse (samsa)",
+  "tr": "Samsa (somsa)",
   "en": "Samsa (Somsa)"
  },
  "native": "somsa",
  "desc": {
-  "tr": "Özbekistan'ın tandır fırınında pişen, kuzu eti, soğan ve kimyonla hazırlanan üçgen hamur işidir. Pazar yerlerinde, çay saatlerinde ve düğün sofralarında sıcak sıcak servis edilir.",
-  "en": "A triangular pastry from Uzbekistan filled with lamb, onion and cumin and baked in a tandoor oven. It is sold hot at bazaars and served at tea time and at weddings."
+  "tr": "Özbekistan'da geleneksel olarak tandır fırınında pişen, kuzu eti, soğan ve kimyonla hazırlanan üçgen hamur işidir. Bu tarifte ev fırınına uyarlanmıştır. Pazar yerlerinde, çay saatlerinde ve düğün sofralarında sıcak sıcak servis edilir.",
+  "en": "A triangular pastry from Uzbekistan filled with lamb, onion and cumin. Traditionally it is baked in a tandoor oven; this recipe is adapted for a home oven. It is sold hot at bazaars and served at tea time and at weddings."
  },
  "servings": 4,
  "time_min": 90,
@@ -47,7 +47,7 @@
    "Hamuru streç film ile örtüp oda sıcaklığında 30 dakika dinlendirin.",
    "İç harç için kuzu etini, soğanı, kuyruk yağı küplerini, kimyon tohumlarını, tuzu ve karabiberi bir kasede karıştırın. 15 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı önce top haline getirip sonra 18-20 cm çapında, çok ince bir daire olacak şekilde açın.",
-   "Her hamur dairesinin ortasına yaklaşık 2 yemek kaşığı iç harç koyun. Kenarlarından çekip üçgen şeklinde kapatın ve kenarlarını iyice bastırarak yapıştırın.",
+   "Her hamur dairesinin ortasına yaklaşık 4 yemek kaşığı iç harç koyun. Kenarlarından çekip üçgen şeklinde kapatın ve kenarlarını iyice bastırarak yapıştırın.",
    "Fırın tepsisine yağlı kağıt serin, samsaları yapışmayacak şekilde dizin. Yumurta sarısını 1 yemek kaşığı ılık suyla çırpın ve samsaların üzerine sürün.",
    "Fırını 220°C'ye önceden ısıtın. Samsaları 25 dakika, üstleri altın rengi olana kadar pişirin.",
    "Fırından çıkarıp birkaç dakika dinlendirin ve sıcak servis yapın."
@@ -57,7 +57,7 @@
    "Cover the dough with cling film and rest it at room temperature for 30 minutes.",
    "For the filling, mix the lamb, onion, tail fat cubes, cumin seeds, salt and black pepper in a bowl. Rest for 15 minutes.",
    "Divide the dough into 8 equal pieces. Shape each piece into a ball, then roll it into a very thin circle about 18-20 cm across.",
-   "Place about 2 tablespoons of filling in the centre of each dough circle. Fold the edges up into a triangle and press the seams firmly to seal.",
+   "Place about 4 tablespoons of filling in the centre of each dough circle. Fold the edges up into a triangle and press the seams firmly to seal.",
    "Line a baking tray with baking paper and arrange the samsa on it, leaving space between them. Beat the egg yolk with 1 tablespoon of lukewarm water and brush it over the samsa.",
    "Preheat the oven to 220°C. Bake the samsa for 25 minutes until the tops are golden brown.",
    "Take them out of the oven, let them rest for a few minutes, and serve hot."
@@ -67,5 +67,15 @@
   "tr": "Hamuru mümkün olduğunca ince açın; iç harcın suyu salması samsanın ıslanmasına neden olabileceği için harcı fazla ıslak yapmayın.",
   "en": "Roll the dough as thin as you can, and keep the filling fairly dry so the juices do not make the pastry soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Sömse' is not a natural Turkish form; 'Samsa (somsa)' is the usual spelling.",
+   "Description says samsa is baked in a tandoor, but the steps use a home oven at 220°C without mentioning the adaptation.",
+   "The filling totals about 520 g (300 g lamb, 180 g onion, 40 g fat), but 8 samsa at 2 tablespoons (about 240 g) each would leave roughly half the filling unused."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

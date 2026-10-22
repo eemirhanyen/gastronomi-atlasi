@@ -9,7 +9,7 @@
   "en": "A sour, fermented cornmeal dough eaten across southern Togo, especially by the Ewe people. It is served at lunch and dinner, usually with okra or leafy vegetable soups and stews, and eaten by hand."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1470,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -29,7 +29,7 @@
  },
  "steps": {
   "tr": [
-   "Mısırununu geniş bir kaba koyun. Ilık suyu ve kuru mayayı ya da önceki partiden kalan hamuru ekleyip pürüzsüz, akışkan bir karışım elde edene kadar karıştırın.",
+   "Mısır unu'nu geniş bir kaba koyun. Ilık suyu ve kuru mayayı ya da önceki partiden kalan hamuru ekleyip pürüzsüz, akışkan bir karışım elde edene kadar karıştırın.",
    "Kabı örtün ve oda sıcaklığında yaklaşık 24 saat dinlendirin. Yaklaşık 12 saatte bir karıştırın. Hamur kabarcıklanıp hafif ekşi kokana kadar bekleyin.",
    "Üstte biriken sıvıyı dikkatlice dökün; kalın hamuru ve tortuyu kapta bırakın.",
    "Büyük bir tencerede 1 L suyu tuzla birlikte kaynatın.",
@@ -53,5 +53,14 @@
   "tr": "Fermantasyon için mısır unu kullanın; ince öğütülmüş beyaz mısır unu en uygun kıvamı verir. Hamur yapışırsa elinizi ve kaşığınızı her seferinde suya batırın.",
   "en": "Use fine white maize flour for the smoothest texture. If the dough sticks, wet your hands and spoon again before each portion."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min of 60 omits the ~24-hour fermentation step, so the total time is misleading",
+   "Turkish step 1 has a typo: 'Mısırununu' should be 'mısır unu'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

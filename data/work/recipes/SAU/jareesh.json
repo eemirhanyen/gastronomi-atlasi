@@ -9,7 +9,7 @@
   "en": "A slow-cooked dish of coarsely cracked wheat and lamb, popular in the Najd region of Saudi Arabia. It is served at family gatherings, Eid celebrations and Ramadan evenings, traditionally with a generous pour of ghee and fried onions on top."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Buğdayı pişirirken sık sık karıştırın ve gerekirse sıcak su ekleyin; cerîş, servis edilmeden önce kıvamını korumalı ama çok sıkı olmamalıdır.",
   "en": "Stir the wheat often and add hot water as needed; the finished dish should be thick and creamy but still loose enough to spoon, as it firms up as it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (120) is too short: the 30-minute soak, about 10 minutes of sautéing, 1 hour of simmering the lamb, and 40-50 minutes of cooking the wheat add up to roughly 150 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

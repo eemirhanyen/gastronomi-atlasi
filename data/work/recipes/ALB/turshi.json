@@ -41,18 +41,18 @@
   "tr": [
    "Karnabaharı küçük çiçeklere ayırın, havucu 1 cm kalınlığında çubuklar halinde kesin, lahanayı büyük parçalara bölün ve biberleri şerit şeklinde doğrayın.",
    "Sebzeleri soğuk suyla yıkayıp süzün ve bir bez üzerinde yaklaşık 15 dakika kurumaya bırakın.",
-   "Temiz ve sterilize edilmiş 1,5 litrelik bir cam kavanozun dibine sarımsak dişlerini, defne yapraklarını ve hardal tohumlarını yerleştirin.",
+   "Temiz ve sterilize edilmiş 2 litrelik bir cam kavanozun dibine sarımsak dişlerini, defne yapraklarını ve hardal tohumlarını yerleştirin.",
    "Sebzeleri ve acı biberleri kavanoza sıkıca doldurun; her katta biraz hardal tohumu serpiştirin.",
    "Suyu kaynatın, tuzu ekleyip eritin ve tamamen soğumasını bekleyin (oda sıcaklığı).",
    "Soğuyan tuzlu suyu sebzelerin üzerine dökün; sebzeler tamamen suyun altında kalmalı. Üstüne küçük bir tabak ya da cam ağırlık koyun.",
-   "Kavanozun ağzını ağzı açık bırakacak şekilde bir bezle örtün ya da gaz çıkışına izin veren kapağı takın.",
+   "Kavanozun ağzını bir bezle örtün ya da gaz çıkışına izin veren fermantasyon kapağını takın.",
    "18-22 °C'de, doğrudan güneş almayan bir yerde 7-10 gün mayalanmaya bırakın. Her gün yüzeyde oluşan köpüğü alın ve sebzelerin suyun altında kaldığını kontrol edin.",
    "Tadına bakın; ekşilik ve tuzluluk istediğiniz düzeye geldiğinde kavanozun kapağını kapatıp buzdolabına kaldırın. Soğuk ortamda birkaç hafta saklanabilir."
   ],
   "en": [
    "Break the cauliflower into small florets, cut the carrots into 1 cm thick sticks, cut the cabbage into large pieces and slice the bell pepper into strips.",
    "Rinse the vegetables in cold water, drain, and leave them on a cloth for about 15 minutes to dry slightly.",
-   "Place the garlic cloves, bay leaves and mustard seeds at the bottom of a clean, sterilised 1.5 L glass jar.",
+   "Place the garlic cloves, bay leaves and mustard seeds at the bottom of a clean, sterilised 2 L glass jar.",
    "Pack the vegetables and hot chili peppers tightly into the jar, sprinkling a little mustard seed between layers.",
    "Bring the water to a boil, add the salt and stir until dissolved, then let the brine cool to room temperature.",
    "Pour the cooled brine over the vegetables so they are fully submerged. Weigh them down with a small plate or glass weight.",
@@ -65,5 +65,13 @@
   "tr": "Sebzelerin tamamen tuzlu suyun altında kalması, küf oluşmasını önlemenin en önemli koşuludur; ağırlık kullanmayı ihmal etmeyin.",
   "en": "Keep every piece submerged under the brine; anything exposed to air is the most likely to spoil or grow mould."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 1.5 L jar cannot hold about 700 g of packed vegetables plus 1 L of brine, so the brine would overflow. The jar size in the Turkish and English versions should be increased to 2 L."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

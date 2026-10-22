@@ -58,7 +58,7 @@
    "Yapışmaz, fırına dayanıklı 24 cm'lik bir tavada yağı orta ateşte ısıtın.",
    "Karışımı tavaya dökün, spatula ile eşit yayın ve hafifçe bastırın.",
    "Ateşi kısın, tavayı kapatıp 15 dakika yavaş pişirin.",
-   "Fırını 180°C'ye ısıtın. Tavanın kapağını açın ve tavayı fırına alıp kenarları ayrılmış, üstü altın sarısı olana kadar yaklaşık 10 dakika pişirin.",
+   "Fırını 180°C'ye ısıtın. Tavanın kapağını açın ve tavayı fırına alıp kenarları ayrılmış, üstü altın sarısı olana kadar yaklaşık 15-20 dakika pişirin. Ortasının tamamen oturduğundan emin olun (ortaya bıçak sokulduğunda sulu karışım çıkmamalı, iç sıcaklık yaklaşık 71°C olmalı).",
    "Tavayı fırından çıkarıp 5 dakika dinlendirin. Dilimleyip yassı ekmek ve sade yoğurtla servis edin."
   ],
   "en": [
@@ -69,7 +69,7 @@
    "Heat the oil in an ovenproof non-stick 24 cm pan over medium heat.",
    "Pour the mixture into the pan, spread it evenly with a spatula and press lightly.",
    "Reduce the heat to low, cover the pan and cook slowly for 15 minutes.",
-   "Heat the oven to 180°C. Remove the lid and transfer the pan to the oven. Bake uncovered for about 10 minutes, until the edges pull away from the pan and the top is golden.",
+   "Heat the oven to 180°C. Remove the lid and transfer the pan to the oven. Bake uncovered for about 15-20 minutes, until the edges pull away from the pan, the top is golden and the centre is fully set (a knife inserted in the middle should come out clean, and the internal temperature should reach about 71°C).",
    "Take the pan out of the oven and rest for 5 minutes. Cut into wedges and serve with flatbread and plain yogurt."
   ]
  },
@@ -77,5 +77,13 @@
   "tr": "Otları doğramadan önce iyice kurutun; fazla su omleti dağıtır ve yeşil rengi soldurur.",
   "en": "Dry the herbs thoroughly before chopping; excess water makes the frittata watery and dulls its green colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Baking time is likely too short for a dense, herb-packed egg mixture. About 10 minutes in the oven after 15 minutes on the stovetop may leave the centre undercooked. The step should require a set cent"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

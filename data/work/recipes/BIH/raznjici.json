@@ -13,8 +13,8 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g dana/domuz karışımı yerine domuz incik veya omuz eti (kemiksiz, yağlı)",
-   "300 g dana kıyma için uygun dana but veya dana omuz eti",
+   "600 g domuz incik veya omuz eti (kemiksiz, yağlı)",
+   "300 g dana but veya dana omuz eti",
    "1 orta boy soğan (yaklaşık 120 g), rendelenmiş",
    "3 diş sarımsak, ezilmiş",
    "6 g tuz",
@@ -48,10 +48,10 @@
  "steps": {
   "tr": [
    "Ahşap şişleri en az 30 dakika suda bekletin, yanmasını önlemek için.",
-   "Domuz ve dana etini yaklaşık 3 cm'lik küpler halinde kesin. Yağ ve sinir kısımlarını mümkün olduğunca ayıklayın.",
+   "Domuz ve dana etini yaklaşık 3 cm'lik küpler halinde kesin. Fazla yağ ve sinir kısımlarını ayıklayın.",
    "Büyük bir kapta etleri rendelenmiş soğan, ezilmiş sarımsak, tuz, karabiber, tatlı kırmızı biber, kekik ve ayçiçek yağıyla iyice karıştırın.",
    "Kabı örtüp buzdolabında en az 4 saat, tercihen bir gece boyunca marine edin.",
-   "Marineli etleri şişlere sıkıca ama aralıklı olarak dizin. Her şişte yaklaşık 6-7 parça et olmalıdır.",
+   "Marineli etleri şişlere sıkıca ama aralıklı olarak dizin. Her şişte yaklaşık 4-5 parça et olmalıdır.",
    "Kömür ızgarasını ya da yüksek ateşte ızgara tavasını yaklaşık 230 °C'ye kadar ısıtın. Fırın kullanacaksanız ızgara fonksiyonunu 230 °C'de çalıştırın.",
    "Şişleri ısıya gelen ızgaraya yerleştirin ve her 3-4 dakikada bir çevirerek 15-20 dakika pişirin. Etlerin dış yüzeyi kızarmalı ve iç kısmı iyice pişmiş olmalıdır (domuz eti için iç sıcaklık en az 70 °C).",
    "Ekmekleri ızgaranın kenarında ya da hafif nemli bir bezle sarılmış halde kısaca ısıtın.",
@@ -62,7 +62,7 @@
    "Cut the pork and beef into roughly 3 cm cubes. Trim off excess gristle and large pieces of fat.",
    "In a large bowl, mix the meat with the grated onion, crushed garlic, salt, black pepper, sweet paprika, thyme and sunflower oil until evenly coated.",
    "Cover the bowl and refrigerate for at least 4 hours, preferably overnight, to marinate.",
-   "Thread the marinated meat onto the skewers, packing the pieces firmly but leaving small gaps so they cook evenly. Aim for about 6-7 pieces per skewer.",
+   "Thread the marinated meat onto the skewers, packing the pieces firmly but leaving small gaps so they cook evenly. Aim for about 4-5 pieces per skewer.",
    "Heat a charcoal grill or a very hot grill pan to about 230 °C. If using an oven, set it to its grill function at 230 °C.",
    "Place the skewers on the hot grill and cook for 15-20 minutes, turning every 3-4 minutes, until the surfaces are browned and the meat is cooked through (pork should reach an internal temperature of at least 70 °C).",
    "Warm the lepinja breads briefly at the edge of the grill or wrapped in a slightly damp cloth.",
@@ -73,5 +73,16 @@
   "tr": "Geleneksel lezzet için ızgaradan sonra etleri 2-3 dakika dinlendirin ve kaymak ile birlikte sıcak lepinja içinde servis edin; kaymak bulamazsanız ekşi krema iyi bir alternatiftir.",
   "en": "For the most authentic flavour, let the meat rest for 2-3 minutes after grilling and serve it in warm lepinja with kajmak; if kajmak is hard to find, sour cream is a good substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line 1 is garbled and self-contradictory (\"dana/domuz karışımı yerine domuz incik...\"); the English says pork only.",
+   "Turkish ingredient line 2 has an unnatural phrasing (\"dana kıyma için uygun dana but\"); the English says beef chuck or shoulder.",
+   "Turkish step 2 says to remove as much fat as possible, which contradicts the fatty pork called for in the ingredients. The English says to trim only excess fat.",
+   "About 900 g of meat in ~3 cm cubes (roughly 25-30 g each) gives about 30-35 pieces, which fills 8 skewers with about 4-5 pieces each, not 6-7. The same mismatch appears in the English step."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

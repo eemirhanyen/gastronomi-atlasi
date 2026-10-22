@@ -58,8 +58,16 @@
   ]
  },
  "tip": {
-  "tr": "Çikolatayı kaynatmayın; yüksek ısı yağı ayırır ve kıvamı bozar. Kıvamını artırmak için 1 tatlı kaşığı mısır nişastasını 2 yemek kaşığı soğuk sütte çözüp son adımda ekleyebilirsiniz.",
-  "en": "Do not let the chocolate boil; high heat separates the fat and spoils the texture. For a thicker drink, dissolve 1 teaspoon cornstarch in 2 tablespoons cold milk and stir it in during the final simmer."
+  "tr": "Çikolatayı kaynatmayın; yüksek ısı yağı ayırır ve kıvamı bozar. Kıvam daha koyu isteniyorsa, son pişirme adımını birkaç dakika uzatıp sık sık karıştırabilirsiniz.",
+  "en": "Do not let the chocolate boil; high heat separates the fat and spoils the texture. For a thicker drink, simmer for a few minutes longer in the final step, stirring often."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip introduces 1 teaspoon cornstarch, which is not in the ingredient list and not used in the steps (Turkish and English tips both)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

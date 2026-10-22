@@ -46,7 +46,7 @@
    "Kaseyi streç filmle örtüp buzdolabında 20 dakika dinlendirin. Bu, köftelerin kızartırken dağılmasını önler.",
    "Ellerinizi suyla ıslatın ve karışımdan cevizden biraz büyük parçalar alıp ufak oval köfteler şekillendirin. Toplam 16 köfte elde etmelisiniz.",
    "Köfteleri unun içinde hafifçe yuvarlayıp fazlasını silkeleyin.",
-   "Geniş bir tavada ayçiçek yağını orta ateşte ısıtın. Köfteleri yan yana, aralarında boşluk bırakarak 4 ila 5 dakika kızartın.",
+   "Geniş bir tavada ayçiçek yağını orta ateşte ısıtın. Köfteleri tek kat halinde, aralarında boşluk bırakarak partiler halinde kızartın; her parti yaklaşık 4 ila 5 dakika sürer.",
    "Köfteleri çevirip diğer yüzünü de altın rengi olana kadar 4 dakika daha kızartın. İç sıcaklığı en az 71 °C olmalıdır.",
    "Köfteleri kağıt havlu serili bir tabağa alıp yağını süzdürün ve sıcak servis yapın."
   ],
@@ -56,7 +56,7 @@
    "Cover the bowl with cling film and refrigerate for 20 minutes. This helps the meatballs hold their shape during frying.",
    "Wet your hands with water and shape the mixture into small oval meatballs about the size of a walnut. You should have 16 in total.",
    "Lightly roll the meatballs in the flour and shake off the excess.",
-   "Heat the sunflower oil in a wide pan over medium heat. Fry the meatballs in a single layer, leaving space between them, for 4 to 5 minutes.",
+   "Heat the sunflower oil in a wide pan over medium heat. Fry the meatballs in a single layer, leaving space between them, in batches, for 4 to 5 minutes per batch.",
    "Turn the meatballs and fry the other side for another 4 minutes until golden. The internal temperature should reach at least 71°C.",
    "Transfer the meatballs to a plate lined with kitchen paper to drain the oil, then serve hot."
   ]
@@ -65,5 +65,13 @@
   "tr": "Köfteleri kızartmadan önce küçük bir parçayı tavada deneyerek tuzu ayarlayın; sonra kalan karışımı ayarlayın.",
   "en": "Fry one small test patty first to check the seasoning, then adjust salt before shaping the rest."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 says to fry all 16 meatballs in a single layer in one pan at once, which is not practical for a standard wide pan. The step should specify frying in batches."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

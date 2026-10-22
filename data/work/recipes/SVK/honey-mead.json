@@ -37,9 +37,9 @@
    "600 ml suyu yaklaşık 40 °C'ye kadar ısıtın; kaynatmayın. Balı ekleyip tamamen eriyene kadar karıştırın.",
    "Kalan 600 ml soğuk suyu ekleyerek karışımı 20–25 °C'ye soğutun.",
    "Limon suyunu, kabuğunu, karanfilleri ve tarçını ekleyin.",
-   "Yeşil besini ve şarap mayasını ilave edip iyice karıştırın.",
+   "Maya besinini ve şarap mayasını ilave edip iyice karıştırın.",
    "Kavanozu hava kilidiyle kapatın ve 18–22 °C'de 3–4 hafta, köpürme durana kadar fermente edin.",
-   "Baharatları ve limon kabuğunu süzün. Berrak balı, tortusunun üzerinden temiz bir şişeye sifonlayarak aktarın; şişede biraz boşluk bırakın.",
+   "Baharatları ve limon kabuğunu süzün. Berrak bal şarabını, tortusunun üzerinden temiz bir şişeye sifonlayarak aktarın; şişede biraz boşluk bırakın.",
    "Serin ve karanlık bir yerde 2–3 ay dinlendirin. Servisten önce soğutup küçük kadehlerde sunun."
   ],
   "en": [
@@ -57,5 +57,14 @@
   "tr": "Balı kaynamış suda değil, ılık suda eritin; yüksek sıcaklık balın aromasını bozar ve mayayı zayıflatır.",
   "en": "Dissolve the honey in warm, not boiling, water; high heat dulls the honey aroma and can weaken the yeast."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says \"Yeşil besini\" (\"green nutrient\"), which is garbled; the English says yeast nutrient, so it should be \"Maya besini\".",
+   "Turkish step 7 says \"Berrak balı\" (\"clear honey\"), but the product is mead, so it should be \"berrak bal şarabını\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

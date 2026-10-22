@@ -9,7 +9,7 @@
   "en": "A lightly foaming, slightly tart drink made from the sweet sap of palm trees that ferments naturally within a few days. In the Central African Republic it is usually drunk in villages and markets, and at midday meals and social gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1440,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Palmiye özsuyu bulamazsanız, 1 litre suya 150 g palmiye şekeri ekleyip 3 g kuru maya ile benzer şekilde mayalandırabilirsiniz; ancak tat geleneksel olandan farklı olur.",
+  "tr": "Palmiye özsuyu bulamazsanız, 1 litre suya 150 g palmiye şekeri ekleyip 3 g kuru mayayla 24 saat benzer şekilde mayalandırabilirsiniz; ancak tat geleneksel olandan farklı olur.",
   "en": "If you cannot find fresh palm sap, dissolve 150 g palm sugar in 1 litre of water, add 3 g dried yeast and ferment in the same way for 24 hours; the flavour will be less authentic."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the process requires 24–48 hours of fermentation, so the total time is misstated.",
+   "The Turkish tip omits the 24-hour fermentation time given in the English tip, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

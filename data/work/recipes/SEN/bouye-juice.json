@@ -14,14 +14,14 @@
  "ingredients": {
   "tr": [
    "200 g kurutulmuş baobab meyvesi posası (bouye)",
-   "1,5 L soğuk su",
+   "1,5 L su",
    "150 g şeker",
    "1 çay kaşığı vanilya özü",
    "300 g buz"
   ],
   "en": [
    "200 g dried baobab fruit pulp (bouye)",
-   "1.5 L cold water",
+   "1.5 L water",
    "150 g sugar",
    "1 tsp vanilla extract",
    "300 g ice cubes"
@@ -51,5 +51,13 @@
   "tr": "Posa suda hızlı çözülmezse suyu hafifçe ılıtın; bu, lif ve tanenin daha kolay ayrılmasını sağlar.",
   "en": "If the pulp resists dissolving, warm the water slightly, which helps the fibres separate more easily from the liquid."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list says 1.5 L cold water (tr: soğuk su), but step 1 specifies room-temperature water (about 25°C) and the juice is only chilled later. The ingredient wording should match the method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

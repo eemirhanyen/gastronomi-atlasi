@@ -20,7 +20,7 @@
    "1 yemek kaşığı sıvı yağ (iç harç için)",
    "1 küçük soğan (yaklaşık 100 g), ince doğranmış",
    "250 g kuzu kıyma",
-   "1 tatlı kaşığı baharat karışımı (baharat)",
+   "1 tatlı kaşığı baharat karışımı",
    "1/2 çay kaşığı öğütülmüş kimyon",
    "1/2 çay kaşığı tuz",
    "1 yemek kaşığı çam fıstığı",
@@ -52,7 +52,7 @@
    "Baharat karışımını, kimyonu ve tuzu ekleyin, iyice karıştırın. Çam fıstığını ekleyip 1 dakika daha pişirin, ocaktan alın.",
    "Doğranmış maydanozu harca karıştırın ve tamamen soğumaya bırakın.",
    "Dinlenen hamuru 8 eşit topa bölün. Her topu oklava ile 12 cm çapında, çok ince bir daire halinde açın.",
-   "Her daireyi ortadan ikiye kesin. Yarım daireleri hafifçe su sürerek bir koni biçimine getirin, ortasına 1 tatlı kaşığı kadar harç koyun ve kenarlarını bastırarak üçgen şeklinde kapatın.",
+   "Her daireyi ortadan ikiye kesin. Yarım daireleri hafifçe su sürerek bir koni biçimine getirin, ortasına 1 yemek kaşığı kadar harç koyun ve kenarlarını bastırarak üçgen şeklinde kapatın.",
    "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın. Sambusakları partiler halinde 3-4 dakika, altın rengi olana kadar kızartın.",
    "Kağıt havlu serili bir tabağa alıp fazla yağını süzün. Sıcak servis yapın."
   ],
@@ -64,7 +64,7 @@
    "Stir in the baharat, cumin and salt. Add the pine nuts and cook for 1 more minute, then remove from the heat.",
    "Mix the chopped parsley into the filling and let it cool completely.",
    "Divide the rested dough into 8 equal balls. Roll each ball with a rolling pin into a very thin 12 cm circle.",
-   "Cut each circle in half. Brush the edges lightly with water, shape each half into a cone, place about 1 tsp of filling inside, and press the edges together to form a triangle.",
+   "Cut each circle in half. Brush the edges lightly with water, shape each half into a cone, place about 1 tbsp of filling inside, and press the edges together to form a triangle.",
    "Heat the frying oil in a deep pot to 180°C. Fry the sambusak in batches for 3-4 minutes until golden brown.",
    "Transfer to a plate lined with paper towels to drain. Serve hot."
   ]
@@ -73,5 +73,14 @@
   "tr": "Dolguyu tamamen soğutmadan kullanmayın; sıcak harç hamuru yırtar ve kızartırken açılmasına neden olur.",
   "en": "Make sure the filling is completely cool before assembling; warm filling tears the dough and can cause the pastries to open while frying."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount is implausible: 250 g of lamb plus the other filling ingredients makes about 16 pastries (8 dough balls, each cut in half), but each pastry gets only 1 tsp (about 5 g), which would leav",
+   "Turkish ingredient wording 'baharat karışımı (baharat)' is redundant and awkward; simplified. The English equivalent is clarified as well."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

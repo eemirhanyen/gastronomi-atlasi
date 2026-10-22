@@ -53,7 +53,7 @@
    "Üstteki berrak suyu dikkatlice dökün, dipte kalan kalın nişasta macununu karıştırın. Macun çok koyuysa kalan 100 ml suyu ekleyerek dökülebilir, ince bir krema kıvamına getirin.",
    "Buğulama için bir tencereye su koyup kaynatın. 22 cm'lik sığ bir kalıbı yağlayın ve içine yaklaşık 100 ml hamuru ince bir tabaka halinde dökün.",
    "Kalıbı buharın üzerine yerleştirin, kapağı kapatıp yüksek ateşte 5-6 dakika buğulayın. Yüzey mat ve jelatinimsi olduğunda, kenarları spatulayla gevşetin.",
-   "Tabakayı dikkatlice çıkarıp soğumaya bırakın. Aynı işlemi kalan hamurla tekrarlayarak yaklaşık 8 tabaka elde edin. Her birini hafifçe yağlayıp üst üste koyun.",
+   "Tabakayı dikkatlice çıkarıp soğumaya bırakın. Aynı işlemi kalan hamurla tekrarlayarak yaklaşık 5 tabaka elde edin. Her birini hafifçe yağlayıp üst üste koyun.",
    "Tabakalar soğuduktan sonra her birini uzun şeritler halinde yaklaşık 1 cm genişliğinde kesin. Şeritleri gevşek bir şekilde ayırıp yağla hafifçe karıştırın.",
    "Fasulye filizini kaynayan suda 30 saniye haşlayın, süzüp soğutun. Salatalığı ince çubuklar halinde doğrayın. Yeşil soğanı ince halka halinde kesin.",
    "Sarımsağı ince doğrayın. Sirke, soya sosu, şeker ve sarımsağı bir kasede karıştırın. Susam ezmesini 30 ml sıcak suyla açarak sosa ekleyin, ardından acı yağı ekleyip iyice çırpın.",
@@ -64,7 +64,7 @@
    "Carefully pour off the clear water on top, leaving the thick starch paste at the bottom. Stir the paste; if it is too thick to pour, add the remaining 100 ml water until it flows like thin cream.",
    "Bring water in a wok or pot to a boil for steaming. Lightly oil a shallow 22 cm pan and pour in about 100 ml of batter, spreading it into a thin, even layer.",
    "Place the pan on the steamer rack, cover and steam over high heat for 5 to 6 minutes, until the surface looks matte and jelly-like. Loosen the edges with a spatula.",
-   "Lift out the sheet and let it cool. Repeat with the remaining batter to make about 8 sheets. Brush each lightly with oil and stack them.",
+   "Lift out the sheet and let it cool. Repeat with the remaining batter to make about 5 sheets. Brush each lightly with oil and stack them.",
    "Once the sheets are cool, cut them into long strips about 1 cm wide. Separate the strips gently and toss them with a little oil so they do not stick.",
    "Blanch the bean sprouts in boiling water for 30 seconds, drain and cool. Cut the cucumber into thin matchsticks. Slice the spring onion into thin rings.",
    "Mince the garlic and mix it with the vinegar, soy sauce and sugar in a bowl. Thin the sesame paste with the 30 ml warm water, add it to the bowl, then stir in the chili oil and whisk well.",
@@ -75,5 +75,13 @@
   "tr": "Tabakaları pişirdikten sonra hemen yağlamak ve üst üste koymadan önce soğutmak, eriştelerin birbirine yapışmasını önler.",
   "en": "Oil the steamed sheets while they are still warm and let them cool fully before cutting, so the strips do not clump together."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batter quantity does not add up: about 100 ml per sheet times 8 sheets is roughly 800 ml, but after pouring off the clear water the starch paste from 300 g starch and 60 g flour is closer to 400-500 m"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

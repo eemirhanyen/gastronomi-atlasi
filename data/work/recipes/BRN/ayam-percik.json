@@ -5,11 +5,11 @@
  },
  "native": "Ayam Percik",
  "desc": {
-  "tr": "Brunei ve Malezya'nın Malay mutfağına ait, kömürde pişirilen baharatlı hindistancevizli tavuk yemeğidir. Özellikle bayram ve aile yemeklerinde, ayrıca yol kenarı yemek tezgâhlarında pilav ve salatalıkla servis edilir.",
-  "en": "A Malay-style chicken dish from Brunei and Malaysia, grilled over charcoal and brushed with a spiced coconut-milk sauce. It is served at festive family meals such as Hari Raya, and at roadside food stalls with rice and cucumber."
+  "tr": "Brunei ve Malezya'nın Malay mutfağına ait, baharatlı hindistancevizli sosla marine edilip fırında pişirilen ve ızgarada kızartılan tavuk yemeğidir. Geleneksel olarak kömürde pişirilir; özellikle bayram ve aile yemeklerinde, ayrıca yol kenarı yemek tezgâhlarında pilav ve salatalıkla servis edilir.",
+  "en": "A Malay-style chicken dish from Brunei and Malaysia, marinated in a spiced coconut-milk paste, baked and finished under the grill, and brushed with the sauce. Traditionally it is charcoal-grilled, and it is served at festive family meals such as Hari Raya and at roadside food stalls with rice and cucumber."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -52,10 +52,10 @@
  "steps": {
   "tr": [
    "Kişniş ve kimyon tohumlarını kuru bir tavada 1-2 dakika kavurup öğütün. Aynı tavada rendelenmiş hindistancevizini altın rengi alana kadar 3-4 dakika kavurun ve bir kenara alın.",
-   "Arpacık soğanı, sarımsak, zencefil, limon otu, suyu süzülmüş kuru biberler, zerdeçal, öğütülmüş baharatlar, kavrulmuş hindistancevizi, tamarind, hurma şekeri, tuz ve 150 ml hindistancevizi sütünü blendırdan geçirip pürüzsüz bir macun elde edin.",
+   "Arpacık soğanı, sarımsak, zencefil, limon otu, suyu süzülmüş kuru biberler, zerdeçal, öğütülmüş baharatlar, kavrulmuş hindistancevizi, tamarind, hurma şekeri, tuz ve 150 ml hindistancevizi sütünü blenderdan geçirip pürüzsüz bir macun elde edin.",
    "Tavukları kemiğe kadar birkaç yerinden yarın ve macunun dörtte üçünü tavuklara iyice sürün. Kapağını kapatıp buzdolabında en az 1 saat dinlendirin.",
    "Fırını 200°C'ye ısıtın. Fırın tepsisini alüminyum folyo ile kaplayın, tavukları deri tarafı yukarı gelecek şekilde dizin ve üzerine yağ sürün.",
-   "Tavukları 30 dakika pişirin.",
+   "Tavukları 40 dakika, iç kısımları tamamen pişene kadar pişirin.",
    "Kalan macunu 50 ml hindistancevizi sütüyle küçük bir tencerede karıştırıp 3 dakika kısık ateşte kaynatın; bu sosu fırçalama sosu olarak kullanın.",
    "Tavukları sosla fırçalayıp 5 dakika daha fırınlayın. Sonra fırın ızgarasını yüksek ısıya alıp yüzeyi kızarana kadar 3-4 dakika kızartın.",
    "Sıcak tavukları dilimlenmiş salatalık ve buharda pişmiş pirinç pilavıyla servis edin."
@@ -65,7 +65,7 @@
    "Blend the shallots, garlic, ginger, lemongrass, drained dried chillies, turmeric, ground spices, toasted coconut, tamarind, palm sugar, salt and 150 ml coconut milk until you have a smooth paste.",
    "Make a few deep slits in the chicken pieces down to the bone and rub three-quarters of the paste all over them. Cover and refrigerate for at least 1 hour.",
    "Preheat the oven to 200°C. Line a baking tray with foil, arrange the chicken skin-side up, and brush with the oil.",
-   "Bake the chicken for 30 minutes.",
+   "Bake the chicken for 40 minutes, until cooked through.",
    "Mix the remaining paste with 50 ml coconut milk in a small saucepan and simmer gently for 3 minutes to make a basting sauce.",
    "Brush the chicken with the sauce, bake for 5 more minutes, then switch the oven to high grill and char the surface for 3-4 minutes.",
    "Serve hot with sliced cucumber and steamed rice."
@@ -75,5 +75,16 @@
   "tr": "Tavuğu pişirirken sosla birkaç kez fırçalamak hem lezzet katar hem de yüzeyde karamelize bir kaplama oluşturur; ızgara aşamasında yanmaması için dikkatli olun.",
   "en": "Brushing the chicken with the sauce several times builds a glossy, caramelised coating; watch it closely under the grill so the coconut does not burn."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Description says the chicken is grilled over charcoal, but the steps bake it in the oven and finish under a grill.",
+   "Oven time of 30 + 5 minutes at 200°C is too short for bone-in thighs and drumsticks, so the chicken may be undercooked. Extended the initial bake to 40 minutes.",
+   "time_min is 60, which leaves out the mandatory 1-hour marinating step. Total time is about 2.5 hours.",
+   "Turkish step 2 has a spelling error: 'blendırdan' should be 'blenderdan'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

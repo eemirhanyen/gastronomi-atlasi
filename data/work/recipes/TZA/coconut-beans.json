@@ -51,8 +51,8 @@
    "Sarımsak, zencefil ve yeşil biberi ekleyip 1 dakika daha karıştırarak kavurun.",
    "Domatesleri ekleyip yumuşayana ve suyunu salana kadar yaklaşık 5 dakika pişirin.",
    "Zerdeçal ve kimyonu ekleyin, 30 saniye karıştırarak kokusunu çıkarın.",
-   "Tavadaki karışımı yumuşamış fasulyenin üzerine ekleyin. Hindistancevizi sütünü ve tuzu da ilave edip iyice karıştırın.",
-   "Kapağı açık halde, ara ara karıştırarak, sos koyulaşana ve fasulyeler kremalı bir kıvam alana kadar yaklaşık 15-20 dakika kısık ateşte pişirin.",
+   "Tavadaki karışımı yumuşamış fasulyenin üzerine ekleyin. Hindistancevizi sütünü ilave edip iyice karıştırın.",
+   "Kapağı açık halde, ara ara karıştırarak, fasulyeler tamamen yumuşayana kadar yaklaşık 15-20 dakika kısık ateşte pişirin. Ardından tuzu ekleyip sos koyulaşana ve fasulyeler kremalı bir kıvam alana kadar birkaç dakika daha pişirin.",
    "Ocaktan alıp kişnişi serpin ve pirinç veya chapati ile sıcak servis edin."
   ],
   "en": [
@@ -62,8 +62,8 @@
    "Add the garlic, ginger and green chilli and cook for 1 minute more, stirring.",
    "Add the tomatoes and cook for about 5 minutes until soft and jammy.",
    "Stir in the turmeric and cumin and cook for 30 seconds to release their aroma.",
-   "Tip the spiced onion mixture into the beans. Add the coconut milk and salt and stir well.",
-   "Simmer uncovered over low heat for 15-20 minutes, stirring occasionally, until the sauce thickens and the beans are coated in a creamy sauce.",
+   "Tip the spiced onion mixture into the beans. Add the coconut milk and stir well.",
+   "Simmer uncovered over low heat, stirring occasionally, for 15-20 minutes until the beans are fully tender. Then stir in the salt and simmer a few minutes more until the sauce thickens and the beans are coated in a creamy sauce.",
    "Remove from the heat, scatter over the coriander and serve hot with rice or chapati."
   ]
  },
@@ -71,5 +71,13 @@
   "tr": "Tuzu fasulyeler tamamen yumuşayana kadar eklemeyin; erken tuzlanan fasulyeler kabuklarının sertleşmesine ve iyi pişmemesine neden olabilir.",
   "en": "Add the salt only once the beans are fully tender; salting too early can toughen their skins and slow cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is added in step 7, while the beans are only 'nearly tender', which contradicts the tip (salt only once fully tender). Salt timing in steps 7-8 is moved to match the tip, in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

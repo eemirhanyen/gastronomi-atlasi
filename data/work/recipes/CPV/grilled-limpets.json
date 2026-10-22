@@ -5,7 +5,7 @@
  },
  "native": "Lapas grelhadas",
  "desc": {
-  "tr": "Cape Verde'de sahil kasabalarında ve plajlarda, özellikle akşamları satılan popüler bir sokak lezzetidir. Kayalardan toplanan taze deniz salyangozları sarımsaklı tereyağı ve acı biberle ızgarada pişirilir ve limon ile servis edilir.",
+  "tr": "Cape Verde'de sahil kasabalarında ve plajlarda, özellikle akşamları satılan popüler bir sokak lezzetidir. Kayalardan toplanan taze deniz salyangozları sarımsaklı tereyağı ve acı biberle ızgarada pişirilir ve misket limonu ile servis edilir.",
   "en": "A popular street food along the coastal towns and beaches of Cape Verde, often sold in the evenings. Fresh limpets gathered from the rocks are grilled with garlic butter and hot pepper and served with lime."
  },
  "servings": 4,
@@ -19,7 +19,7 @@
    "4 diş sarımsak, ince doğranmış",
    "1 küçük acı biber (piri-piri ya da kırmızı biber), ince doğranmış",
    "2 yemek kaşığı taze maydanoz, ince doğranmış",
-   "1 limon",
+   "1 misket limonu (lime)",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı taze çekilmiş karabiber"
   ],
@@ -44,7 +44,7 @@
    "3 ila 4 dakika pişirin; etleri hafifçe kıvrılıp opak hale gelince ve kabukların kenarları sıcaklıktan ses çıkarınca hazırdır.",
    "Salyangozların üzerine sarımsaklı yağ karışımının yarısını gezdirin ve bir dakika daha pişirin.",
    "Sıcak servis tabağına alın, kalan sarımsaklı yağı, doğranmış maydanozu, tuzu ve karabiberi üzerine serpin.",
-   "Limonu ikiye kesip servis tabağına koyun ve limon sıkarak sıcak sıcak servis yapın."
+   "Misket limonunu ikiye kesip servis tabağına koyun ve yemek yerken salyangozların üzerine limon suyu sıkarak sıcak sıcak servis yapın."
   ],
   "en": [
    "Scrub the limpet shells well under cold running water with a stiff brush, remove any sand and seaweed, then drain in a colander.",
@@ -61,5 +61,14 @@
   "tr": "Salyangozları pişirmeden önce uzun süre ıslatmayın; kabuklar iyice kuruyunca ızgarada daha güzel sararır ve et daha az sulanır.",
   "en": "Do not soak the limpets before cooking; dry shells char better on the grill and the meat stays firmer and less watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and description say \"limon\" (lemon), but the English says \"lime\". Turkish \"limon\" usually means lemon, so the citrus type disagrees between versions. The Cape Verdean dish uses lime",
+   "Turkish step 8 omits the English detail of squeezing lime juice over the limpets as they are eaten."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

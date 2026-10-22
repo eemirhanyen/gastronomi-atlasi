@@ -47,7 +47,7 @@
    "Hindistancevizinin etini rendeleyin. Rendelenmiş hindistan cevizini 300 ml ılık suyla karıştırın, temiz bir bezden süzerek ilk ve en koyu kremayı yaklaşık 400 ml olacak şekilde ayırın.",
    "Geniş bir tencerede bitkisel yağı orta ateşte ısıtın. Soğanı 5 dakika, yumuşayıp şeffaflaşana kadar kavurun.",
    "Sarımsak ve kırmızı biberi ekleyip 1 dakika daha kavurun.",
-   "Domatesleri ekleyin ve suyunu salıncaya kadar yaklaşık 3 dakika pişirin.",
+   "Domatesleri ekleyin ve suyunu salıverinceye kadar yaklaşık 3 dakika pişirin.",
    "Yengeç parçalarını tencereye koyun, tuz ve karabiberi ekleyip 3 dakika karıştırarak kavurun.",
    "Hindistancevizi kremasını dökün, kaynamaya bırakın. Ateşi kısın, kapağını kapatıp kremanın yağlanmasını önlemek için ara ara karıştırarak 20 dakika kısık ateşte pişirin.",
    "Doğranmış ıspanak veya adacık lahanasını ekleyip 3 dakika, yapraklar solana kadar pişirin.",
@@ -69,5 +69,13 @@
   "tr": "Hindistan cevizi yengeci birçok bölgede korunan bir türdür; yasal ve sürdürülebilir olarak temin edilemiyorsa büyük mavi yengeç veya King crab bacağı kullanın.",
   "en": "Coconut crab is protected in many areas and rarely legal to buy; use large blue crab or king crab legs instead, and check the cream does not boil hard or it may split."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 uses the wrong verb: \"suyunu salıncaya kadar\" is not natural Turkish for the tomato juice releasing. It should be \"suyunu salıverinceye kadar\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -24,7 +24,7 @@
    "1 şerit limon kabuğu (yaklaşık 5 g)",
    "3 g sitrik asit",
    "15 ml taze limon suyu",
-   "750 ml soğuk gazlı maden suyu",
+   "760 ml soğuk gazlı maden suyu",
    "Buz küpleri",
    "4 ince limon dilimi (isteğe bağlı)"
   ],
@@ -40,7 +40,7 @@
    "1 strip lemon peel (about 5 g)",
    "3 g citric acid",
    "15 ml fresh lemon juice",
-   "750 ml cold sparkling mineral water",
+   "760 ml cold sparkling mineral water",
    "Ice cubes",
    "4 thin lemon slices (optional)"
   ]
@@ -50,7 +50,7 @@
    "Orta boy bir tencerede suyu ve şekeri birlikte kaynatın, şeker tamamen eriyene kadar karıştırın.",
    "Tarçın, karanfil, yıldız anason, kurutulmuş nane, ezilmiş kişniş tohumu, portakal kabuğu ve limon kabuğunu ekleyin.",
    "Ocağı kısın ve karışımı yaklaşık 10 dakika hafifçe kaynatarak sıvının yaklaşık 250 ml'ye inmesini sağlayın.",
-   "Ocağı kapatın, şurubu kapağını örterek 20 dakika demlenmeye bırakın.",
+   "Ocağı kapatın, tencerenin kapağını kapatarak şurubu 20 dakika demlenmeye bırakın.",
    "Şurubu ince elekten süzün, baharat ve kabukları atın.",
    "Şurubun içine sitrik asidi ve taze limon suyunu ekleyip iyice karıştırın, tamamen soğuması için buzdolabına kaldırın.",
    "Servis yapmadan önce her bardağa yaklaşık 60 ml soğuk şurup koyun.",
@@ -73,5 +73,14 @@
   "tr": "Şurubu her zaman soğutulmuş gazlı su ile karıştırın ve gazı kaybetmemek için yalnızca servis anında ekleyin.",
   "en": "Keep the syrup well chilled and add the sparkling water only at the moment of serving so the drink stays fizzy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Soda quantity mismatch: the ingredient list gives 750 ml, but the steps use about 190 ml per glass for 4 servings (760 ml total). Both languages are changed to 760 ml.",
+   "Turkish step 4 has an awkward phrase, 'şurubu kapağını örterek'. Reworded to 'tencerenin kapağını kapatarak'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

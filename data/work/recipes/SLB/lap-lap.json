@@ -9,7 +9,7 @@
   "en": "Lap lap is a staple of the Solomon Islands and Vanuatu, made from grated root vegetables bound with coconut cream, wrapped with chicken in banana leaves and baked. Traditionally cooked in an earth oven (umu), it is served at village feasts, family gatherings and market days."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Taro, manyok ve tatlı patatesi soyun. Hepsini ince bir rendeden rendeleyin ve büyük bir kapta karıştırın.",
-   "Rendelenmiş karışıma hindistancevizi kremasını, ince doğranmış soğanın yarısını ve 1 çay kaşığı tuzu ekleyip iyice yoğurun. Kıvam sıvalı ama dökülmeyecek kadar yumuşak olmalı.",
+   "Rendelenmiş karışıma hindistancevizi kremasını, ince doğranmış soğanın yarısını ve 1 çay kaşığı tuzu ekleyip iyice yoğurun. Kıvam sürülebilecek kadar yumuşak ama akıcı olmayacak kadar koyu olmalı.",
    "Tavuk parçalarını kalan soğan ve bir tutam tuzla harmanlayın.",
    "Muz yapraklarını temizleyip bir bezle silin. Yaprakları alevin üzerinde ya da sıcak su ile yumuşatın ki kırılmadan kıvrılabilsin.",
    "Her yaprağın ortasına bir kat rendelenmiş karışımdan yayın. Üzerine bir parça tavuk koyun ve kalan karışımla tekrar örtün.",
@@ -65,5 +65,14 @@
   "tr": "Manyoku mutlaka tamamen pişirin; çiğ manyok hafif zehirli olabilir. Pişirme sonunda bir paketi açıp karışımın yumuşak ve pürüzsüz olduğunu kontrol edin.",
   "en": "Make sure the cassava is fully cooked, as raw cassava can be mildly toxic. Open one parcel near the end to check that the mixture is soft and smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 uses 'sıvalı' ('plastered'), which is unnatural for describing the mixture's consistency; the English 'spreadable but not runny' should be rendered as 'sürülebilir ama akıcı olmayan'.",
+   "time_min is 90, which only covers baking; the preparation steps (peeling, grating, wrapping) add substantial time, so total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

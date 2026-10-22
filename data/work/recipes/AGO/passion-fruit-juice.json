@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Maracuyá suyu",
+  "tr": "Maracuya suyu",
   "en": "Passion fruit juice"
  },
  "native": "Sumo de maracujá",
@@ -9,11 +9,11 @@
   "en": "A refreshing everyday drink in Angola, shaped by Portuguese influence, and most often enjoyed on hot afternoons. Fresh passion fruit's tartness is balanced with sugar in this simple juice."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 50,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "10 adet olgun maracuyá (yaklaşık 350 g pulp ve çekirdek)",
+   "10 adet olgun maracuya (yaklaşık 350 g pulp ve çekirdek)",
    "1 litre soğuk su",
    "120 g şeker",
    "200 g buz"
@@ -27,13 +27,13 @@
  },
  "steps": {
   "tr": [
-   "Maracuyaları yıkayın, ikiye kesin ve kaşıkla pulpunu ile çekirdeklerini bir kaseye alın.",
+   "Maracuyaları yıkayın, ikiye kesin ve kaşıkla pulpunu ve çekirdeklerini bir kaseye alın.",
    "Pulpu ve çekirdekleri 250 ml suyla birlikte blenderda 20 saniye çekin.",
    "Karışımı ince elekten geçirin ve kaşıkla bastırarak suyunu çıkarın; çekirdekleri atın.",
    "Elde edilen suya şekeri ekleyip şeker tamamen eriyene kadar karıştırın.",
    "Kalan 750 ml soğuk suyu ekleyip iyice karıştırın.",
    "Karışımı buzdolabında en az 30 dakika soğutun.",
-   "Servis yapmadan hemen önce bardaklara buz ekleyip maracuyá suyunu dökerek sunun."
+   "Servis yapmadan hemen önce bardaklara buz ekleyip maracuya suyunu dökerek sunun."
   ],
   "en": [
    "Wash the passion fruits, cut them in half, and scoop the pulp and seeds into a bowl.",
@@ -49,5 +49,15 @@
   "tr": "Maracuyanın asitliği meyveye göre değişir; şekeri eklemeden önce tadına bakıp ayarlayın.",
   "en": "Passion fruit acidity varies from fruit to fruit, so taste before adding all the sugar and adjust to your preference."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 has a broken phrase, \"pulpunu ile çekirdeklerini\"; it should be \"pulpunu ve çekirdeklerini\".",
+   "Turkish uses the spelling \"maracuya\" without an accent; the accented \"maracuyá\" appears throughout the Turkish text.",
+   "time_min is 20, but step 6 requires at least 30 minutes of chilling, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

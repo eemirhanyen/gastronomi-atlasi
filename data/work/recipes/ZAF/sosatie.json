@@ -55,9 +55,9 @@
    "Kuzu etini küpleri marinenin içine ekleyip karıştırın, kapatıp buzdolabında en az 4 saat, tercihen bir gece boyunca bekletin.",
    "Kuru kayısıları ılık suda 15 dakika bekletin, ardından süzüp kurulayın.",
    "Marineden etleri çıkarın, fazla marineyi hafifçe sıyırın ve marinenin kalanını bir kenara ayırın.",
-   "Şişlere sırayla 3 parça et, 1 kayısı ve gerektiğinde 1 defne yaprağı parçası dizin; her şişte yaklaşık 4-5 parça et olacak şekilde yerleştirin.",
+   "Şişlere sırayla 3 parça et, 1 kayısı ve 1 defne yaprağı parçası dizin; her şişte yaklaşık 4-5 parça et olacak şekilde yerleştirin.",
    "Izgarayı orta-yüksek ateşe (yaklaşık 200 °C) getirin veya dökme demir tavayı orta-yüksek ısıda ısıtın.",
-   "Şişleri 8-10 dakika, sık sık çevirerek pişirin. Pişirme sırasında ayırdığınız marineyi fırçayla sürerek etlerin kurumasını önleyin.",
+   "Ayırdığınız marineyi önce en az 5 dakika kaynatın ve soğutun. Şişleri 8-10 dakika, sık sık çevirerek pişirin; pişirme sırasında kaynatılmış marineyi fırçayla sürerek etlerin kurumasını önleyin.",
    "Etin iç sıcaklığı yaklaşık 63 °C'ye ulaştığında ve dış yüzeyi karamelize olduğunda şişleri ocaktan alın.",
    "Sıcak sarı pilav ve kayısı çutnisi ile servis yapın."
   ],
@@ -66,9 +66,9 @@
    "Add the lamb cubes to the marinade and stir well. Cover and refrigerate for at least 4 hours, preferably overnight.",
    "Soak the dried apricots in warm water for 15 minutes, then drain and pat dry.",
    "Remove the lamb from the marinade, lightly shake off the excess, and set the remaining marinade aside.",
-   "Thread the skewers alternately with 3 pieces of lamb, 1 apricot and a piece of bay leaf, placing about 4-5 pieces of lamb per skewer.",
+   "Thread the skewers alternately with 3 pieces of lamb, 1 apricot and 1 piece of bay leaf, placing about 4-5 pieces of lamb per skewer.",
    "Heat the grill to medium-high (about 200 °C) or heat a cast-iron pan over medium-high heat.",
-   "Cook the skewers for 8-10 minutes, turning often. Brush with the reserved marinade during cooking so the meat stays moist.",
+   "Boil the reserved marinade for at least 5 minutes, then cool. Cook the skewers for 8-10 minutes, turning often, and brush with the boiled marinade during cooking so the meat stays moist.",
    "When the lamb reaches an internal temperature of about 63 °C and the outside is caramelised, remove the skewers from the heat.",
    "Serve hot with yellow rice and apricot chutney."
   ]
@@ -77,5 +77,14 @@
   "tr": "Marineye bırakılan etin kalınlığı eşit olursa aynı anda pişer; kuzu yerine daha yumuşak sonuç için omuz eti tercih edin.",
   "en": "Cut the lamb pieces to even size so they cook at the same rate, and use shoulder for a more tender, juicier result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (TR and EN) has the cook brush the skewers with the reserved marinade, which already touched raw lamb. This is a food-safety risk unless it is boiled first.",
+   "Step 5 Turkish says the bay leaf piece is added 'gerektiğinde' (as needed), but the English version has no such condition. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -41,7 +41,7 @@
  },
  "steps": {
   "tr": [
-   "Yengeçleri kabuklarından ayırın, solungaçlarını ve karın kısmındaki kıvrık zarı çıkarın. Gövdeyi 4-6 parçaya, kıskaçları ise ayrıca kırarak ikiye bölün.",
+   "Yengeçlerin solungaçlarını ve karın kısmındaki kıvrık zarı çıkarın. Kabukları üzerinde kalacak şekilde gövdeyi 4-6 parçaya, kıskaçları ise ayrıca kırarak ikiye bölün.",
    "Büyük bir tencerede yağı orta-yüksek ateşte ısıtın. Soğanı ekleyip yumuşayıp hafifçe altın rengi alana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak, zencefil ve kırmızı biberi ekleyin, bir dakika daha karıştırarak kokusu çıkana kadar pişirin.",
    "Yengeç parçalarını tencereye ekleyin ve 3 dakika kadar, her tarafı hafifçe kızarana kadar karıştırın.",
@@ -50,7 +50,7 @@
    "Ocaktan alın, limon suyunu gezdirin, tadına bakıp gerekirse tuz ekleyin. Taze soğanla süsleyip sıcak servis yapın."
   ],
   "en": [
-   "Separate the crabs from their shells, remove the gills and the apron-like flap on the underside. Cut the bodies into 4-6 pieces and crack the claws in two.",
+   "Remove the gills and the apron-like flap on the underside of each crab. Cut the bodies into 4-6 pieces, leaving the shells on, and crack the claws in two.",
    "Heat the oil in a large pot over medium-high heat. Add the onion and fry for about 5 minutes until soft and lightly golden.",
    "Add the garlic, ginger and red chili and cook for one more minute, stirring, until fragrant.",
    "Add the crab pieces and stir-fry for about 3 minutes until lightly browned on all sides.",
@@ -63,5 +63,13 @@
   "tr": "Hindistan cevizi yengeci birçok bölgede koruma altındadır; yasal olarak temin edilemiyorsa aynı yöntemle büyük mavi yengeç veya Dungeness yengeci kullanabilirsiniz.",
   "en": "Coconut crab is protected in many areas; if it cannot be legally sourced, use large blue crab or Dungeness crab with the same method."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 1 (TR and EN) says to separate the crabs from their shells, but step 6 and the cooking method rely on the shells reddening and the meat coming away from them. The shell-removal instruction contra"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

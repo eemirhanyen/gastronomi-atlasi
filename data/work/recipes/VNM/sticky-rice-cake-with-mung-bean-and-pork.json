@@ -9,14 +9,14 @@
   "en": "A square glutinous rice cake wrapped in dong leaves and boiled for hours, traditionally made by families together for Tết (Lunar New Year) in Vietnam. The filling is mashed mung bean paste with seasoned pork."
  },
  "servings": 4,
- "time_min": 480,
+ "time_min": 780,
  "difficulty": "hard",
  "ingredients": {
   "tr": [
    "500 g yapışkan pirinç (nếp), en az 4 saat suda bekletilmiş ve süzülmüş",
    "250 g kabuksuz sarı maş fasulyesi (bölünmüş), 2 saat suda bekletilmiş ve süzülmüş",
    "300 g kemiksiz domuz göbeği, 1 cm kalınlığında dilimlenmiş",
-   "1 tatlı kaşığı tuz (pirinç için) + 1 tatlı kaşığı tuz (fasulye için)",
+   "1 tatlı kaşığı tuz (pirinç için) + 1 tatlı kaşığı tuz (fasulye için) + 1 tatlı kaşığı tuz (domuz eti için)",
    "1 yemek kaşığı balık sosu",
    "1 tatlı kaşığı karabiber",
    "2 diş sarımsak, ince doğranmış",
@@ -29,7 +29,7 @@
    "500 g glutinous rice (nếp), soaked for at least 4 hours and drained",
    "250 g dried split yellow mung beans (hulled), soaked for 2 hours and drained",
    "300 g boneless pork belly, sliced 1 cm thick",
-   "1 tsp salt (for the rice) + 1 tsp salt (for the beans)",
+   "1 tsp salt (for the rice) + 1 tsp salt (for the beans) + 1 tsp salt (for the pork)",
    "1 tbsp fish sauce",
    "1 tsp ground black pepper",
    "2 garlic cloves, finely chopped",
@@ -45,9 +45,9 @@
    "Domuz etini balık sosu, karabiber, sarımsak ve kalan 1 tatlı kaşık tuzla karıştırıp en az 30 dakika marine edin.",
    "Yapışkan pirinci 1 tatlı kaşık tuzla karıştırın ve 4 eşit parçaya bölün.",
    "Marine domuz etini bitkisel yağda orta ateşte 5 dakika kadar hafifçe kavurun. Yağı ve suyu bir kenara ayırın.",
-   "İki dong yaprağını üst üste koyup kare bir alan oluşturun. Üzerine yaklaşık 1/3 yapışkan pirinç yayın, ortasında hafif bir çukur açın.",
+   "İki dong yaprağını üst üste koyup kare bir alan oluşturun. Üzerine bir porsiyon pirincin yaklaşık üçte birini yayın, ortasında hafif bir çukur açın.",
    "Çukura bir parça maş fasulyesi ezmesi ve dilimlenmiş domuz etinden bir kısmını yerleştirin, üzerini kalan pirinçle kapatıp kare şekline getirin.",
-   "Yaprakları katlayarak pirinci tamamen sarın, sonra kare şeklini koruyacak şekilde ipi hem boyuna hem enine sıkıca bağlayın. Toplam 4 kek hazırlayın (her biri yaklaşık 4 kişilik porsiyon yerine 1 kişilik gelecek şekilde değil, 4 kişi için 4 küçük kek olacak şekilde).",
+   "Yaprakları katlayarak pirinci tamamen sarın, sonra kare şeklini koruyacak şekilde ipi hem boyuna hem enine sıkıca bağlayın. Bu işlemi tekrarlayarak toplam 4 kek hazırlayın.",
    "Büyük bir tencerede sarılmış keklerin üzerini tamamen kaplayacak kadar sıcak su doldurun ve kaynatın.",
    "Kısık ateşte yaklaşık 6–8 saat haşlayın. Su seviyesi düştükçe sıcak su ekleyerek keklerin hep suyun altında kalmasını sağlayın.",
    "Pişen keklerin ipini açmadan önce tamamen soğumasını bekleyin, ağır bir tabakla hafifçe bastırıp dilimleyerek servis edin."
@@ -69,5 +69,15 @@
   "tr": "Keklerin suyun altında kalması çok önemlidir; su eksilirse pirinç sertleşir ve dong yaprağı kokusu bozulur. Haşlama süresini uzatmak daha yumuşak bir doku sağlar.",
   "en": "Keep the cakes fully submerged throughout boiling; if they are exposed, the rice turns hard and the leaves lose their aroma. Longer boiling gives a softer, more cohesive texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 contains a garbled, self-contradicting parenthetical about portion size that does not appear in the English version",
+   "Salt amounts disagree: the ingredient list gives only 2 tsp, but step 2 uses 'the remaining 1 tsp' for the pork, implying a third teaspoon that is not listed",
+   "time_min (480) is too short for the full process: 4 h soaking the rice, 2 h soaking the beans, and 6–8 h boiling mean the total is well over 8 hours"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

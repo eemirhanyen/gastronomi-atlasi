@@ -19,7 +19,7 @@
    "2 yumurta",
    "150 g taze fasulye filizi",
    "4 diş sarımsak, ince doğranmış",
-   "60 g yeşil Çin soğanı, 4 cm'lik parçalar halinde kesilmiş",
+   "60 g Çin sarımsağı yaprağı (Chinese chives), 4 cm'lik parçalar halinde kesilmiş",
    "3 yemek kaşığı bitkisel yağ (ideal olarak domuz yağı)",
    "2 yemek kaşığı koyu soya sosu",
    "1 yemek kaşığı açık soya sosu",
@@ -53,8 +53,8 @@
    "Karidesleri kurulayın. Wok'u yüksek ateşte iyice ısıtın, 1 yemek kaşığı yağ ekleyin ve sarımsak ile lap cheong'u 30 saniye kadar kavurun.",
    "Karidesleri ekleyip pembeleşene ve kıvrılana kadar, yaklaşık 1,5 dakika pişirin. Malzemeleri wok'un kenarına itin.",
    "Wok'un ortasına kalan 2 yemek kaşığı yağı ekleyin, yumurtaları kırıp hızlıca karıştırarak yarı pişmiş halde kıvamlandırın, sonra karidesle karıştırın.",
-   "Eriştesi ve hazırladığınız sosu ekleyin. Ateşi yüksek tutarak 2 dakika kadar, eriştelerin sosu emip hafif karamelize olana kadar sürekli karıştırarak kavurun.",
-   "Fasulye filizini ve yeşil Çin soğanını ekleyin, 1 dakika daha kavurun. Filizler hafif çıtır kalmalı.",
+   "Eriştelerini ve hazırladığınız sosu ekleyin. Ateşi yüksek tutarak 2 dakika kadar, eriştelerin sosu emip hafif karamelize olana kadar sürekli karıştırarak kavurun.",
+   "Fasulye filizini ve Çin sarımsağı yaprağını ekleyin, 1 dakika daha kavurun. Filizler hafif çıtır kalmalı.",
    "İsteğe bağlı olarak acı biber sosunu ekleyip hemen servis yapın."
   ],
   "en": [
@@ -71,5 +71,14 @@
   "tr": "Eriştelerin yapışmasını önlemek için pişirmeden önce ayırmanız ve wok'u mutlaka çok iyi ısıtmanız önemlidir; eğer wok'unuz küçükse porsiyonları iki partiye bölün.",
   "en": "Loosen the noodles before cooking and get the wok very hot; if your pan is small, cook in two batches so the noodles fry rather than steam."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'yeşil Çin soğanı' (green Chinese onion/spring onion) does not match the English 'Chinese chives' (garlic chives, a different herb). The Turkish name should match the English.",
+   "Turkish step 5 'Eriştesi' is a grammatical error; it should be 'Eriştelerini' to agree with the plural noun."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

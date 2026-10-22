@@ -37,7 +37,7 @@
  },
  "steps": {
   "tr": [
-   "Kimyon tohumlarını kuru bir tavada orta ateşte 1–2 dakika, hafif koku verene kadar kavurun. Havanın tamamen soğumasını bekleyip kabaca ezin.",
+   "Kimyon tohumlarını kuru bir tavada orta ateşte 1–2 dakika, hafif koku verene kadar kavurun. Tamamen soğumasını bekleyip kabaca ezin.",
    "Salatalığı soyun, rendeleyin ve avuç içinde sıkarak fazla suyunu süzün.",
    "Kırmızı soğanı çok ince doğrayın. Nane ve kişniş yapraklarını ince kıyın. Yeşil biberi küçük küçük doğrayın.",
    "Yoğurdu bir kaseye alıp pürüzsüz hale gelene kadar çırpın.",
@@ -59,5 +59,13 @@
   "tr": "Salatalığın suyunu iyice sıkın; aksi halde raita sulanır. Yoğurt çok kalınsa birkaç kaşık soğuk su ile incelterek kıvamını ayarlayın.",
   "en": "Squeeze the cucumber thoroughly, or the raita will turn watery. If the yogurt is very thick, loosen it with a spoonful or two of cold water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"Havanın tamamen soğumasını bekleyip\", which literally means \"wait for the air to cool\". The intended meaning is that the cumin should cool completely."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

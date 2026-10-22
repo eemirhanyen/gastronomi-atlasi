@@ -19,7 +19,7 @@
    "60 g sade yağ (ghee), 40 g ve 20 g olarak ayrılmış",
    "500 ml sıcak su",
    "6 adet yeşil kakule, hafifçe ezilmiş",
-   "2 g tuz (yarım çay kaşığı)",
+   "3 g tuz (yarım çay kaşığı)",
    "1 tutam safran, 30 ml ılık suda bekletilmiş",
    "5 ml gül suyu (1 tatlı kaşığı)",
    "30 g badem veya antep fıstığı, kavrulup iri doğranmış"
@@ -31,7 +31,7 @@
    "60 g ghee, split into 40 g and 20 g",
    "500 ml hot water",
    "6 green cardamom pods, lightly crushed",
-   "2 g salt (half a teaspoon)",
+   "3 g salt (half a teaspoon)",
    "1 pinch saffron, steeped in 30 ml warm water",
    "5 ml rose water (1 teaspoon)",
    "30 g almonds or pistachios, toasted and coarsely chopped"
@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Pirinci soğuk suyla 2-3 kez durulayın, üzerini su ile kaplayarak 30 dakika ıslatın, ardından süzün.",
-   "Kalın tabanlı bir tencerede 40 g sade yağı orta ateşte eritin, şekeri ekleyip karıştırmadan önce yaklaşık 5 dakika koyu kehribar renge gelene kadar pişirin.",
+   "Kalın tabanlı bir tencerede 40 g sade yağı orta ateşte eritin, şekeri ekleyin ve karıştırmadan yaklaşık 5 dakika, koyu kehribar renge gelene kadar pişirin.",
    "Ateşi kapatın ve 500 ml sıcak suyu dikkatlice ekleyin (sıçrayabilir). Karışımı tahta kaşıkla pürüzsüz hale gelene kadar karıştırın.",
    "Ezilmiş kakule ve tuzu ekleyin, süzülmüş pirinci de tencereye koyun. Kaynamaya bırakın.",
    "Ateşi kısın, tencerenin kapağını kapatın ve suyu çekene kadar 15-18 dakika pişirin. Pişerken karıştırmayın.",
@@ -63,5 +63,14 @@
   "tr": "Şekeri koyu kehribar rengine getirin ama yanmasına izin vermeyin; acı bir tat pilavın bütün aromasını bozar.",
   "en": "Take the sugar to a deep amber but do not let it burn, as a bitter taste will spoil the whole dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed as 2 g but described as half a teaspoon, which is about 3 g of fine salt in both languages.",
+   "Turkish step 2 says 'karıştırmadan önce' (before stirring), which is unclear next to the English 'without stirring'. Rephrased to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

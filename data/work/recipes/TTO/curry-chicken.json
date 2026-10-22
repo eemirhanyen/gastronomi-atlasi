@@ -14,7 +14,8 @@
  "ingredients": {
   "tr": [
    "1 kg kemikli tavuk but ve baget parçası",
-   "40 g Trinidad usulü köri tozu",
+   "60 g yeşil baharat karışımı (chadon beni, kişniş, sarımsak ve kekikten blenderda hazırlanmış)",
+   "25 g Trinidad usulü köri tozu",
    "5 g öğütülmüş kimyon (geera)",
    "5 g öğütülmüş zerdeçal",
    "4 diş sarımsak, ezilmiş",
@@ -33,7 +34,8 @@
   ],
   "en": [
    "1 kg bone-in chicken thighs and drumsticks",
-   "40 g Trinidad-style curry powder",
+   "60 g green seasoning (blended chadon beni/culantro, coriander, garlic and herbs)",
+   "25 g Trinidad-style curry powder",
    "5 g ground cumin (geera)",
    "5 g ground turmeric",
    "4 cloves garlic, crushed",
@@ -53,7 +55,7 @@
  },
  "steps": {
   "tr": [
-   "Tavukları yıkayıp kağıt havluyla kurulayın. Büyük bir kasede köri tozu, kimyon, zerdeçal, sarımsak, ince doğranmış soğan, kekik, zencefil, limon suyu, tuz ve karabiberi karıştırın.",
+   "Tavukları yıkayıp kağıt havluyla kurulayın. Büyük bir kasede yeşil baharat karışımı, köri tozu, kimyon, zerdeçal, sarımsak, ince doğranmış soğan, kekik, zencefil, limon suyu, tuz ve karabiberi karıştırın.",
    "Tavuk parçalarını bu karışımla iyice kaplayın, üzerini örtüp en az 1 saat, tercihen bir gece buzdolabında bekletin.",
    "Geniş ve dipli bir tencerede 80 ml yağı orta-yüksek ateşte ısıtın.",
    "Tavuk parçalarını partiler halinde ekleyip her iki yüzünü de 3-4'er dakika kızartın. Marine sosundan artanları tencerede bırakın.",
@@ -63,7 +65,7 @@
    "Scotch bonnet biberini çıkarın, doğranmış kişnişi serpip sıcak servis yapın. Yanına pilav, roti veya pirinç eşlik edebilir."
   ],
   "en": [
-   "Rinse the chicken pieces and pat them dry with kitchen paper. In a large bowl, mix the curry powder, cumin, turmeric, garlic, finely chopped onion, thyme, ginger, lime juice, salt and black pepper.",
+   "Rinse the chicken pieces and pat them dry with kitchen paper. In a large bowl, mix the green seasoning, curry powder, cumin, turmeric, garlic, finely chopped onion, thyme, ginger, lime juice, salt and black pepper.",
    "Coat the chicken pieces thoroughly in the marinade, cover, and refrigerate for at least 1 hour, ideally overnight.",
    "Heat 80 ml of oil in a wide, heavy-bottomed pot over medium-high heat.",
    "Add the chicken in batches and brown each side for 3–4 minutes. Keep any leftover marinade in the pot.",
@@ -77,5 +79,14 @@
   "tr": "Biberi bütün bırakıp kaynatmak aromasını verir ama yakmaz; daha acı istiyorsanız kesip ekleyin.",
   "en": "Keep the scotch bonnet whole while cooking to get its fruity aroma without much heat; cut it open only if you want more spice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Trinidadian curry chicken is built on green seasoning (chadon beni/culantro, herbs, garlic, chili), which is missing from the recipe. Thyme and coriander alone do not give the dish its characteristic ",
+   "40 g of curry powder plus 5 g cumin and 5 g turmeric is a very heavy spice load for 1 kg of chicken and would likely overpower the dish. Reduced to 25 g, with the green seasoning added to the marinade"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

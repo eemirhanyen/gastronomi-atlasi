@@ -36,10 +36,10 @@
  "steps": {
   "tr": [
    "Dibi kalın bir tencerede palm yağını orta ateşte ısıtın.",
-   "Soğanı ekleyip yumuşayana ve hafif pembeleşene kadar yaklaşık 5 dakika kavurun.",
+   "Soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak, domates ve acı biberi ekleyip domatesler dağılana kadar 3 dakika daha pişirin.",
    "Suyu ya da balık suyunu ekleyin, tuzu atın ve karışımı kaynatın.",
-   "Ateşi kısın. Tahta kaşıkla sürekli karıştırarak manyokununu azar azar serpin; topaklanmayı önlemek için bu aşamada karıştırmayı bırakmayın.",
+   "Ateşi kısın. Tahta kaşıkla sürekli karıştırarak manyok ununu azar azar serpin; topaklanmayı önlemek için bu aşamada karıştırmayı bırakmayın.",
    "Karışım koyulaşıp tencerenin kenarlarından ayrılana kadar, yaklaşık 10 dakika daha pişirin.",
    "Pirão hazır olduğunda ateşten alın, ıslak bir kaseye veya kalıba bastırarak şekillendirin ve sıcak sıcak, yanında yahni ile servis edin."
   ],
@@ -54,8 +54,18 @@
   ]
  },
  "tip": {
-  "tr": "Unu ekledikten sonra topaklanmayı önlemek için karışımı sürekli karıştırın; yapışkan bir kıvam için manyok unu yerine biraz daha fazla su kullanabilirsiniz.",
+  "tr": "Unu ekledikten sonra topaklanmayı önlemek için karışımı sürekli karıştırın ve pirão kaseden kolay ayrılsın diye kaseyi şekillendirmeden önce ıslatın.",
   "en": "Keep stirring constantly once the flour goes in to avoid lumps, and shape the pirão in a wet bowl so it releases cleanly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish onion step says 'hafif pembeleşene' (turning pinkish), but the English says 'lightly golden'. Onion should turn hafif altın rengi.",
+   "Turkish tip suggests using more water instead of flour for a stickier pirão. More water thins the mixture, so the advice is wrong, and the English tip does not contain it. The Turkish and English tips",
+   "Turkish step 5 uses 'manyokununu', which is an unnatural form. It should be 'manyok ununu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

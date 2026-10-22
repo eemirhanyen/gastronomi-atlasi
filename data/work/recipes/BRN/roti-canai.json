@@ -37,7 +37,7 @@
    "Hamuru yaklaşık 10 dakika iyice yoğurun, ardından 1 yemek kaşığı yağ ile yağlayıp kapatın ve oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya (yaklaşık 90 g'lık toplar) bölün. Her topu biraz yağla kaplayıp tekrar kapatın ve 20 dakika daha dinlendirin.",
    "Tezgahın üzerine ve ellerinize biraz yağ sürün. Bir top hamuru yağlı tezgaha koyup bastırarak yassılaştırın, ardından kenarlarından tutup çok ince bir yaprak olacak şekilde gerin.",
-   "Ince hamuru kendi üzerine kat kat katlayarak kare veya dikdörtgen bir paket haline getirin. Avuçlarınızla hafifçe bastırıp yassı bir disk şekline getirin ve 5 dakika dinlendirin.",
+   "İnce hamuru kendi üzerine kat kat katlayarak kare veya dikdörtgen bir paket haline getirin. Avuçlarınızla hafifçe bastırıp yassı bir disk şekline getirin ve 5 dakika dinlendirin.",
    "Tavayı orta-yüksek ateşte (yaklaşık 180-200 °C) ısıtın. Yassı hamuru tavaya alın, kenarlarını parmaklarınızla hafifçe bastırıp yuvarlak bir şekil verin.",
    "Hamurun alt yüzü altın rengi lekeler alana kadar yaklaşık 1-2 dakika pişirin, sonra çevirin. Üzerine biraz eritilmiş tereyağı veya ghee sürüp kenarlarını içeri doğru bastırarak katmanları açın.",
    "Her iki yüzü de kabarcıklı ve altın rengi, katman katman olana kadar birkaç dakika daha pişirin. Ekmeği ortasından parmaklarınızla hafifçe sıkıştırarak yumuşatın ve kenarlarını kırıp açın. Kalan hamurlarla aynı işlemi tekrarlayın ve sıcak servis yapın."
@@ -57,5 +57,13 @@
   "tr": "Hamuru ne kadar ince açarsanız ve dinlendirme süresini ne kadar uzatırsanız, ekmek o kadar katmanlı ve gevrek olur.",
   "en": "The thinner you stretch the dough and the longer you rest it, the flakier and more layered the bread will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 misspells 'İnce' as 'Ince' (missing dotted capital İ)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

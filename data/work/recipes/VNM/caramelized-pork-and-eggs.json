@@ -13,12 +13,12 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g domuz göbeği (üç katlı, kemiksiz)",
+   "600 g domuz göbeği (derisiz, üç katlı, kemiksiz)",
    "6 yumurta",
    "60 g toz şeker",
    "30 ml su (karamel için)",
    "15 ml bitkisel yağ",
-   "2 adet kuru soğan (ince dilimlenmiş)",
+   "2 adet arpacık soğanı (ince dilimlenmiş)",
    "3 diş sarımsak (ezilmiş)",
    "45 ml balık sosu",
    "350 ml sıcak su",
@@ -47,7 +47,7 @@
    "Domuz göbeğini 3-4 cm'lik küpler halinde doğrayın. Kaynayan suda 2 dakika haşlayıp süzün ve kurulayın.",
    "Geniş ve dipli bir tencerede şekeri suyla birlikte orta-yüksek ateşte eritin. Karışım koyu kehribar renge dönene kadar karıştırmadan bekleyin, yaklaşık 4-5 dakika.",
    "Yağı ekip ardından domuz etini ilave edin. Et renk alana kadar 3-4 dakika karıştırarak kavurun.",
-   "Dilimlenmiş kuru soğanı, ezilmiş sarımsağı ve karabiberi ekleyip 1 dakika daha kavurun.",
+   "Dilimlenmiş arpacık soğanını, ezilmiş sarımsağı ve karabiberi ekleyip 1 dakika daha kavurun.",
    "Balık sosunu ve sıcak suyu ekleyin. Kaynamaya başlayınca ateşi kısın, kapağını kapatıp yaklaşık 40 dakika yavaşça pişirin.",
    "Soyulmuş yumurtaları sosun içine yerleştirin, hafifçe çevirerek sosla kaplayın ve kapağı kapalı şekilde 15-20 dakika daha pişirin.",
    "Kapağı açıp sosu orta ateşte 5-10 dakika koyulaşana kadar kaynatın. Et yumuşak, sos parlak ve kıvamlı olmalıdır.",
@@ -66,8 +66,18 @@
   ]
  },
  "tip": {
-  "tr": "Şekeri karıştırmadan karamelize edin; renk koyu kehribar olduğunda hafif acımsı bir tat verir ve yemeğe derinlik katar. Yanmaması için ocaktan hemen önce suyu eklemeye dikkat edin.",
+  "tr": "Şekeri karıştırmadan karamelize edin; renk koyu kehribar olduğunda hafif acımsı bir tat verir ve yemeğe derinlik katar. Suyu eklerken dikkatli olun, karamel sıçrayabilir.",
   "en": "Caramelize the sugar without stirring and stop at deep amber; this gives the bittersweet depth the dish needs. Add the water carefully, as the caramel can spatter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient and step 5 translate 'shallots' as 'kuru soğan' (dry onion), which is a mistranslation. The correct term is 'arpacık soğanı'.",
+   "English specifies 'skin removed' for the pork belly, but the Turkish ingredient line omits it.",
+   "Turkish tip sentence 'ocaktan hemen önce suyu eklemeye dikkat edin' is unclear and does not match the English 'Add the water carefully, as the caramel can spatter.'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

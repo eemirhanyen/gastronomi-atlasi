@@ -9,23 +9,23 @@
   "en": "A beloved street snack in Panama, especially in Panama City, sold from carts and evening barbecue stands. Vinegar-and-garlic marinated beef is grilled on sticks and served with crispy fried green plantain (patacones) and a spicy tomato salsa."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g biftek (bonfile veya antrikot), 3 cm küp doğranmış",
+   "600 g bel eti (sirloin) veya antrikot, 3 cm küp doğranmış",
    "80 g küçük soğan, rendelenmiş",
    "4 diş sarımsak, ince kıyılmış",
    "60 ml beyaz sirke",
    "30 ml Worcestershire sosu",
    "30 ml sıvı yağ",
    "1 tatlı kaşığı (2 g) öğütülmüş kimyon",
-   "1 tatlı kaşığı kuru kekik veya kekik benzeri kuru kekik otu",
+   "1 tatlı kaşığı kuru kekik (oregano)",
    "1 tatlı kaşığı tatlı kırmızı biber",
    "1 tatlı kaşığı achiote (annatto) tozu",
    "1 tatlı kaşığı (6 g) tuz",
    "1/2 tatlı kaşığı karabiber",
-   "12 adet ahşap şiş, 30 dakika suda bekletilmiş",
+   "6 adet ahşap şiş, 30 dakika suda bekletilmiş",
    "2 adet yeşil muz (yaklaşık 400 g)",
    "500 ml kızartma yağı",
    "Salsa için: 1 olgun domates (120 g), küp doğranmış",
@@ -47,7 +47,7 @@
    "1 tsp achiote (annatto) powder",
    "1 tsp (6 g) salt",
    "1/2 tsp black pepper",
-   "12 wooden skewers, soaked in water for 30 minutes",
+   "6 wooden skewers, soaked in water for 30 minutes",
    "2 green plantains (about 400 g)",
    "500 ml vegetable oil for frying",
    "For the salsa: 1 ripe tomato (120 g), finely diced",
@@ -65,8 +65,8 @@
    "Salsa için domates, soğan, acı biber, limon suyu ve bir tutam tuzu bir kasede karıştırın. Servisten önce 15 dakika dinlendirin.",
    "Muzların kabuğunu soyun ve 4 cm'lik parçalara bölün. Her parçayı uzunlamasına ikiye ayırın.",
    "Kızartma yağını orta-yüksek ateşte 170 °C'ye getirin. Muz parçalarını 3-4 dakika, altın rengi olana kadar kızartın ve süzgece alın.",
-   "Kızarmış muz parçalarını bir tabak veya tahta kesme tahtası arasında hafifçe ezerek yassılaştırın. Yağı 180 °C'ye çıkarıp yassılaştırılmış parçaları 1-2 dakika tekrar kızartın, kağıt havluya alın ve tuz serpin.",
-   "Marine edilmiş etleri şişlere 4-5 küp olacak şekilde dizin. Fazla marinadı hafifçe silkin ve etleri kağıt havluyla kurulayın.",
+   "Kızarmış muz parçalarını bir tabak ile kesme tahtası arasında veya ağır bir cam bardağın tabanıyla hafifçe ezerek yassılaştırın. Yağı 180 °C'ye çıkarıp yassılaştırılmış parçaları 1-2 dakika tekrar kızartın, kağıt havluya alın ve tuz serpin.",
+   "Marine edilmiş etleri şişlere 3-4 küp olacak şekilde dizin. Fazla marinadı hafifçe silkin ve etleri kağıt havluyla kurulayın.",
    "Izgarayı veya ızgara tavasını orta-yüksek ateşte iyice ısıtın. Şişleri 8-10 dakika, her yüzü kısa aralıklarla çevirerek, dışı kızarana ama içi pembe kalana kadar pişirin.",
    "Şişleri sıcak olarak patacon ve salsa ile birlikte servis edin."
   ],
@@ -78,7 +78,7 @@
    "Peel the plantains, cut them into 4 cm pieces and split each piece lengthwise in half.",
    "Heat the frying oil over medium-high heat to 170 °C. Fry the plantain pieces for 3-4 minutes, until golden, then lift them out with a slotted spoon.",
    "Flatten the fried plantain pieces between a plate and a cutting board or the bottom of a heavy glass. Raise the oil to 180 °C and fry the flattened pieces again for 1-2 minutes, then drain on kitchen paper and sprinkle with salt.",
-   "Thread 4-5 marinated beef cubes onto each skewer. Shake off excess marinade and pat the meat dry with kitchen paper.",
+   "Thread 3-4 marinated beef cubes onto each skewer. Shake off excess marinade and pat the meat dry with kitchen paper.",
    "Heat a grill or grill pan over medium-high heat until very hot. Grill the skewers for 8-10 minutes, turning them often, until charred outside and still pink inside.",
    "Serve the skewers hot with the patacones and the salsa."
   ]
@@ -87,5 +87,18 @@
   "tr": "Etleri ızgaraya koymadan önce iyice kurulayın; yüzeyi kuru olan et daha iyi kızarır ve marinadın şekerli kısımları yanmaz.",
   "en": "Pat the beef dry before grilling; a drier surface browns better, and the sugars in the marinade are less likely to burn."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Skewer count mismatch: 600 g of 3 cm cubes is about 22 cubes, but 12 skewers with 4-5 cubes each needs 48-60 cubes. Changed to 6 skewers with 3-4 cubes each (EN and TR).",
+   "Turkish cut 'bonfile' (tenderloin) does not match English 'sirloin'. Changed to 'bel eti (sirloin) veya antrikot'.",
+   "Turkish oregano entry 'kekik benzeri kuru kekik otu' is redundant and unclear. Changed to 'kuru kekik (oregano)'.",
+   "Turkish patacon step omits the glass-bottom flattening method given in English. Aligned the two.",
+   "time_min of 60 does not account for the required 2-hour minimum marination. Set to 180 minutes.",
+   "Mismatch: Turkish step 8 says 4-5 cubes per skewer, which is not consistent with the corrected skewer count (fixed)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

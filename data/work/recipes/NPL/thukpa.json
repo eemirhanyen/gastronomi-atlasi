@@ -65,7 +65,7 @@
    "Suyu ve soya sosunu ekleyip kaynatın. Yüzeyde biriken köpüğü alın, ardından ateşi kısın ve kapağı kapalı olarak tavuk yumuşayana kadar yaklaşık 35 dakika pişirin.",
    "Tavukları çıkarın, soğuyunca etleri kemiklerinden ayırıp didikleyin. Kemikleri atın.",
    "Havucu ve lahanayı çorbaya ekleyin, 5 dakika daha hafif kaynatın.",
-   "Ayrı bir tencerede bol kaynar suda eriştesini 3-4 dakika, al dente olana kadar haşlayın. Süzüp soğuk suyla hafifçe durulayın.",
+   "Ayrı bir tencerede tuzlu kaynar suda eriştesini 3-4 dakika, al dente olana kadar haşlayın. Süzüp soğuk suyla hafifçe durulayın.",
    "Tavuk etlerini çorbaya geri ekleyin. Tuz ve kırmızı biber ezmesini tadına göre ayarlayın.",
    "Eriştelerini servis kaselerine paylaştırın, üzerlerine sıcak çorbayı ve tavuk etini dökün.",
    "Bahar soğanı ve kişnişi serpip hemen servis yapın."
@@ -89,5 +89,13 @@
   "tr": "Eriştelerin çorbada uzun süre bekleyip şişmemesi için her kaseye ayrı haşlayıp koyun; kıvamı korunur.",
   "en": "Cook the noodles separately and add them to each bowl just before serving so they don't swell and soften in the broth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 does not mention salting the noodle water, but the English version says \"salted water\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

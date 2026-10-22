@@ -8,7 +8,7 @@
   "tr": "İsviçre'nin Basel kentinin geleneksel Noel kurabiyesidir; bal, baharat ve kandırılmış turunçgil kabuğuyla yapılır ve Aralık aylarında yenir. Üzeri ince bir şeker glazürüyle kaplanır.",
   "en": "A traditional Christmas biscuit from the city of Basel, Switzerland, made with honey, spices and candied citrus peel and traditionally eaten in December. It is finished with a thin sugar glaze."
  },
- "servings": 4,
+ "servings": 40,
  "time_min": 60,
  "difficulty": "medium",
  "ingredients": {
@@ -61,7 +61,7 @@
    "Kuru karışımı bal karışımına ekleyin, doğranmış portakal ve turunçgil kabuklarını da katıp sert bir hamur elde edene kadar yoğurun.",
    "Hamuru streç filme sarıp oda sıcaklığında en az 8 saat ya da bir gece dinlendirin. Bu dinlenme kurabiyenin baharatlarını geliştirir.",
    "Fırını 180 °C'ye ısıtın ve fırın tepsisini pişirme kağıdıyla kaplayın.",
-   "Hamuru pişirme kağıdı üzerinde yaklaşık 1 cm kalınlığında, dikdörtgen şeklinde açın.",
+   "Hamuru iki kat pişirme kağıdı arasında, fazla un kullanmadan yaklaşık 1 cm kalınlığında dikdörtgen şeklinde açın.",
    "Hamuru 12-15 dakika, kenarları hafif kızarana kadar pişirin.",
    "Kurabiye hâlâ sıcakken keskin bir bıçakla yaklaşık 5 x 2,5 cm dikdörtgenlere kesin; tamamen soğumasını bekleyin.",
    "Pudra şekerini, suyu ve limon suyunu pürüzsüz bir glazür olacak şekilde karıştırın; kıvamı akıcı ama yoğun olmalı.",
@@ -74,7 +74,7 @@
    "Add the dry mixture to the honey mixture, then fold in the diced orange and citron peel and knead to a firm dough.",
    "Wrap the dough in cling film and rest it at room temperature for at least 8 hours or overnight. This resting period allows the spices to develop.",
    "Preheat the oven to 180 °C and line a baking tray with baking paper.",
-   "Roll the dough on the baking paper to a rectangle about 1 cm thick.",
+   "Roll the dough between two sheets of baking paper, without adding extra flour, to a rectangle about 1 cm thick.",
    "Bake for 12 to 15 minutes, until the edges are lightly browned.",
    "While still warm, cut into rectangles about 5 x 2.5 cm with a sharp knife, then let cool completely.",
    "Stir the icing sugar, water and lemon juice into a smooth glaze that is runny but thick enough to coat.",
@@ -82,8 +82,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru dinlendirmek lezzet için önemlidir; kesmeden önce hamuru hafifçe nemli ellerle yoğurup yuvarlak yerine dikdörtgen kalıba almak, kenarların düzgün çıkmasını sağlar.",
+  "tr": "Hamuru dinlendirmek lezzet için önemlidir; hamuru iki kat pişirme kağıdı arasında, fazla un kullanmadan açmak kenarların düzgün çıkmasını sağlar.",
   "en": "Resting the dough overnight is key to the flavour; roll it between sheets of baking paper to keep the edges neat and avoid adding extra flour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) is implausible: the quantities (about 1 kg of dough and glaze, rolled 1 cm thick and cut into 5 x 2.5 cm pieces) make dozens of biscuits, so 4 servings is far too low.",
+   "The Turkish and English tips disagree: the Turkish tip says to knead with slightly damp hands and cut rectangles, while the English tip says to roll between baking paper without extra flour."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -50,8 +50,16 @@
   ]
  },
  "tip": {
-  "tr": "Buzu fazla erimeden tutmak için şarabı buzun üzerine değil, buzdan sonra dökün ve servisten hemen önce ekleyin; şarap kadar soğuk olan kadeh de tadı korur.",
+  "tr": "Buzun fazla erimemesi için şarabı buzun üzerine yalnızca servisten hemen önce dökün ve kadehi de soğuk tutun; böylece içecek sulanmadan soğuk kalır.",
   "en": "Pour the wine over the ice only just before serving and use a chilled glass, so the drink stays cold without becoming watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says not to pour the wine onto the ice, but the English tip says to pour it over the ice just before serving. The two versions contradict each other."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

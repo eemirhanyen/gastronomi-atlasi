@@ -33,11 +33,11 @@
    "1 çay kaşığı toz kişniş",
    "1/2 çay kaşığı pul biber",
    "1/2 çay kaşığı garam masala",
+   "1 çay kaşığı tuz",
    "1 yeşil biber, dilimlenmiş",
    "1/2 limonun suyu",
    "150 ml su",
-   "Tuz",
-   "Taze kişniş yaprağı, süslemek için"
+   "Taze kişniş yaprağı, bir avuç, süslemek için"
   ],
   "en": [
    "250 g whole wheat flour (atta)",
@@ -60,11 +60,11 @@
    "1 tsp ground coriander",
    "1/2 tsp chilli powder",
    "1/2 tsp garam masala",
+   "1 tsp salt",
    "1 green chilli, sliced",
    "1/2 lemon, juiced",
    "150 ml water",
-   "Salt",
-   "Fresh coriander leaves, for garnish"
+   "A handful of fresh coriander leaves, for garnish"
   ]
  },
  "steps": {
@@ -101,5 +101,14 @@
   "tr": "Puriyi yağa atmadan hemen önce açın ve kapalı tutun; yağın hazır olduğunu anlamak için küçük bir hamur parçası atın, hızla yüzeye çıkmalıdır.",
   "en": "Roll each puri just before frying and keep the rest covered, since rolled dough dries out quickly. Test the oil with a small scrap of dough: it should rise to the surface immediately."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Curry salt is listed without a quantity in both Turkish (\"Tuz\") and English (\"Salt\").",
+   "Garnish coriander is listed without a quantity in both languages (\"Taze kişniş yaprağı\" / \"Fresh coriander leaves\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

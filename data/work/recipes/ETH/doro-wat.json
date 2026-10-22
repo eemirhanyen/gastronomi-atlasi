@@ -51,7 +51,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını limon suyu ve 1/2 tatlı kaşık tuzla ovalayın ve 30 dakika oda sıcaklığında dinlendirin.",
+   "Tavuk parçalarını limon suyu ve 1/2 tatlı kaşık tuzla ovalayın ve buzdolabında 30 dakika dinlendirin.",
    "Tereyağını küçük bir tencerede kısık ateşte eritin. Kakule, tarçın ve çemeni ekleyip 10 dakika kısık ateşte bekletin, ardından süzgeçten geçirip katı kısımları atın. Bu baharatlı tereyağı niter kibbeh'tir.",
    "Kalın tabanlı bir tencereyi orta ateşte ısıtın. Yağ eklemeden soğanları ara sıra karıştırarak 25-30 dakika, koyu kahverengi ve yumuşak olana kadar kavurun. Yapışırsa 1-2 yemek kaşığı su ekleyin.",
    "Berbereyi 60 ml suyla karıştırıp soğanların üzerine ekleyin ve 5 dakika karıştırarak kavurun.",
@@ -62,7 +62,7 @@
    "Tuzunu kontrol edin ve sıcak sıcak enjera ile servis yapın."
   ],
   "en": [
-   "Rub the chicken pieces with the lemon juice and 1/2 tsp of the salt, then rest them at room temperature for 30 minutes.",
+   "Rub the chicken pieces with the lemon juice and 1/2 tsp of the salt, then refrigerate them for 30 minutes.",
    "Melt the butter in a small pan over low heat. Add the cardamom, cinnamon and fenugreek, simmer for 10 minutes, then strain through a sieve and discard the solids. This spiced butter is niter kibbeh.",
    "Dry-fry the onions in a heavy-bottomed pot over medium heat, stirring often, for 25-30 minutes until deep brown and very soft. If they stick, add 1-2 tablespoons of water.",
    "Mix the berbere with the 60 ml of water, add it to the onions and cook, stirring, for 5 minutes.",
@@ -77,5 +77,13 @@
   "tr": "Soğanları yağsız ve yavaşça, tam koyu renk alana kadar kavurun; yahninin derin rengi ve tatlılığı bu aşamadan gelir, acele etmeyin.",
   "en": "Dry-frying the onions slowly for the full 25-30 minutes gives the stew its deep color and natural sweetness, so don't rush this step."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Raw chicken is rested at room temperature for 30 minutes (TR and EN), which is a food-safety risk. It should be refrigerated during the rest."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

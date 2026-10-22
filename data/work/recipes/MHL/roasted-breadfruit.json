@@ -9,7 +9,7 @@
   "en": "A traditional side dish from the Marshall Islands, where breadfruit is charred over fire or in an oven until soft and sweet. It is usually served with coconut at everyday meals."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -32,7 +32,7 @@
    "Meyveleri bütün halde tepsiye alın ve 45-60 dakika pişirin. Her 15 dakikada bir çevirin; kabuk kararıp yanık görünümü alınca ve yumuşak bir şiş ile batırıldığında kolayca girince pişmiş sayın.",
    "Fırından çıkarıp bir temiz bez ile örterek 10 dakika dinlendirin. Bu sırada iç kısmı buharda yumuşar.",
    "Meyvelerin yanmış kabuğunu soyun. Her meyveyi ikiye bölüp ortasındaki lifli çekirdeği çıkarın.",
-   "Etleri yaklaşık 4 cm'lik parçalara kesin ve üzerlerine tuzu serpip karıştırın.",
+   "Meyve etini yaklaşık 4 cm'lik parçalara kesin ve üzerlerine tuzu serpip karıştırın.",
    "Sıcak servis tabağına dizin, üzerine rendelenmiş hindistan cevizini serpin ve hindistan cevizi kremasını gezdirerek servis yapın."
   ],
   "en": [
@@ -49,5 +49,14 @@
   "tr": "Ekmek ağacı meyvesi en iyi sıcakken yenir; tam pişmişse içi kremsi ve patatese benzer olur. Sert ve az olgun meyveler yerine yumuşamaya başlamış olanları tercih edin.",
   "en": "Breadfruit is best eaten warm, when the flesh is creamy and resembles potato. Choose fruit that is starting to soften slightly rather than rock-hard."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: preheating, washing, 45-60 min roasting, 10 min resting and preparing the fruit add up to about 90 min",
+   "Turkish step 6 says \"Etleri\" (meats), which is unnatural for fruit flesh; \"meyve etini\" is the correct term"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

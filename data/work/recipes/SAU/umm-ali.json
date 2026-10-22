@@ -46,7 +46,7 @@
    "Bir tencerede sütü, sıvı kremayı ve toz şekeri birlikte ısıtın. Şeker eriyene kadar karıştırın, ardından kısık ateşte 3 dakika kaynatın. Ocaktan alıp vanilya özünü ekleyin.",
    "Parçalanmış hamurların yarısını fırın kabına yayın. Üzerine kuru üzüm, ceviz, fıstığın yarısı ve hindistancevizinin yarısını serpin.",
    "Kalan hamurları üstüne ekleyip sıcak süt karışımını yavaşça, her yere dağılacak şekilde dökün. Hamurun sütü emmesi için 10 dakika dinlendirin.",
-   "Üzerine kalan fıstık ve hindistancevizini serpin, ardından tarçını ekleyin.",
+   "Üzerine kalan kuru üzüm, ceviz, fıstık ve hindistancevizini serpin, ardından tarçını ekleyin.",
    "Önceden ısıtılmış fırında 15-20 dakika, üstü altın rengi olup kenarları kabarana kadar pişirin. Sıcak servis edin."
   ],
   "en": [
@@ -63,5 +63,13 @@
   "tr": "Hamurun tamamen ıslanmadan önce biraz kıtırdak kalması, tatlıya hem yumuşak hem de çıtır bir doku verir.",
   "en": "Pull the pastry out a little before the milk is fully absorbed so the top stays crisp while the middle stays soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 omits the remaining raisins and walnuts, while the English step 6 includes them. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

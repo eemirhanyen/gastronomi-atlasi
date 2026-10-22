@@ -9,7 +9,7 @@
   "en": "A spiced meat-and-rice dish eaten across Kenya, especially in the Swahili coastal towns and in Nairobi, at weddings, festivals and weekend lunches. It is flavoured with whole spices such as cinnamon, cloves and cardamom."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 105,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -28,7 +28,7 @@
    "1 tatlı kaşığı (6 g) tuz",
    "1/2 tatlı kaşığı (1 g) karabiber",
    "1 adet yeşil acı biber, ikiye bölünmüş",
-   "750 ml sıcak su",
+   "800 ml sıcak su",
    "2 yemek kaşığı (5 g) doğranmış taze kişniş",
    "1/2 limon (servis için)"
   ],
@@ -48,7 +48,7 @@
    "1 tsp (6 g) salt",
    "1/2 tsp (1 g) ground black pepper",
    "1 green chilli, split in half",
-   "750 ml hot water",
+   "800 ml hot water (500 ml + 300 ml)",
    "2 tbsp (5 g) chopped fresh coriander",
    "1/2 lemon (to serve)"
   ]
@@ -85,5 +85,14 @@
   "tr": "Pilavı pişirdikten sonra kapağı kapalı tutup dinlendirmek, pirincin tanelerinin dağılmasını ve altının yapışıp kavrulmasını önler.",
   "en": "Let the pilau rest covered after cooking; this keeps the grains separate and steams the rice evenly. Lightly toasting the spices in oil first gives the dish its characteristic aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantity mismatch: the ingredient lists say 750 ml hot water (tr and en), but the steps add 500 ml plus 300 ml, which is 800 ml.",
+   "Total time_min of 75 is too short for the steps: about 10 min onions, 2 min garlic, 5 min meat, 9 min spices and tomatoes, 50 min simmer, 18 min rice, and 10 min rest comes to roughly 105 min, not cou"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

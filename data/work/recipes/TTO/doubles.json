@@ -28,7 +28,7 @@
    "400 g haşlanmış nohut (süzülmüş)",
    "150 ml su",
    "1/2 tatlı kaşığı tuz (körisi için)",
-   "3 yemek kaşığı doğranmış chadon beni (kuşkonmaz otu)",
+   "3 yemek kaşığı doğranmış chadon beni (yabani kişniş, culantro)",
    "40 g tamarind hamuru",
    "120 ml sıcak su",
    "1 yemek kaşığı esmer şeker",
@@ -70,7 +70,7 @@
    "Süzülmüş nohutu, 150 ml suyu ve 1/2 tatlı kaşığı tuzu ekleyin. Karışımı kısık ateşte 10 dakika pişirin, nohutların yarısını hafifçe ezin ve sos koyulaşınca ocaktan alın.",
    "Tamarind hamurunu sıcak suda 10 dakika bekletin, elinizle ezip süzün. Esmer şeker ekleyip tatlı-ekşi bir sos elde edene kadar karıştırın.",
    "Dinlenen hamuru 8 eşit parçaya bölün. Her parçayı elinizle yağlanmış bir yüzeyde yuvarlayıp yaklaşık 12 cm çapında, 0,5 cm kalınlığında yassı daireler açın.",
-   "Kızartma yağını derin bir tavada 180 °C'ye kadar ısıtın. Her bara ekmeğini ortasından hafifçe kesip yağa atın ve iki yüzü de altın sarısı olana kadar 1-2 dakika kızartın.",
+   "Kızartma yağını derin bir tavada 180 °C'ye kadar ısıtın. İsterseniz her baranın ortasına kısa bir yarık açın, ardından baraları bir ya da iki tane olacak şekilde yağa atın ve iki yüzü de altın sarısı olana kadar her yüz için 1-2 dakika kızartın.",
    "Kızarmış baraları kağıt havlu üzerine alıp yağını süzün.",
    "Her Doubles için iki barayı üst üste koyun, üzerine sıcak nohut körisinden bir kepçe ekleyin.",
    "Üzerine chadon beni, salatalık küpleri, tamarind sosu, mango turşusu ve acı biber sosunu gezdirip hemen servis edin."
@@ -93,5 +93,14 @@
   "tr": "Baraları kızartırken yağın sıcaklığını sabit tutun; çok sıcak yağ dış yüzeyi yakarken içini çiğ bırakır, çok soğuk yağ ise hamuru yağlı yapar.",
   "en": "Keep the oil steady at about 180 °C while frying; too hot and the outside burns before the centre cooks, too cool and the bara turns greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'chadon beni (kuşkonmaz otu)' is wrong: 'kuşkonmaz' means asparagus. Chadon beni is culantro, a different herb.",
+   "Turkish step 8 says to cut each bara in the middle, but the English says the slit is optional. The Turkish step also omits the 'one or two at a time' frying detail found in the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

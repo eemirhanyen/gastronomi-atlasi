@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamurun soğuk kalması gittikçe kabarmasını ve çıtır olmasını sağlar; hamuru açmadan önce mutfak tezgahının ve elinizin serin olduğundan emin olun.",
+  "tr": "Hamurun soğuk kalması, pişerken büzülmesini önler ve çıtır, katmanlı bir taban sağlar; hamuru açmadan önce mutfak tezgahının ve elinizin serin olduğundan emin olun.",
   "en": "Keep the pastry cold throughout; chilling it before baking prevents shrinkage and gives a crisp, flaky base."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says the cold pastry 'gittikçe kabarmasını' (puffs up more and more), which contradicts the English tip about preventing shrinkage. The Turkish should say the cold dough prevents shrinking"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

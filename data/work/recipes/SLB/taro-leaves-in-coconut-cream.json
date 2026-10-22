@@ -9,14 +9,14 @@
   "en": "A traditional side dish from the Solomon Islands, where taro leaves are simmered until soft in a rich coconut cream sauce. It is usually served with starchy staples at everyday family meals and gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "600 g taro yaprağı (sapları ve sert orta damarları çıkarılmış)",
    "400 ml hindistancevizi kreması",
    "250 ml su",
-   "1 orta boy soğan (about 120 g), ince doğranmış",
+   "1 orta boy soğan (yaklaşık 120 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "1 küçük acı biber (isteğe bağlı), ince doğranmış",
    "1 yemek kaşığı (15 ml) hindistancevizi yağı",
@@ -39,7 +39,7 @@
    "Soğanı ince doğrayın, sarımsakları ezin. Acı biber kullanacaksanız ince ince dilimleyin.",
    "Geniş ve kalın tabanlı bir tencerede hindistancevizi yağını orta ateşte ısıtın. Soğanı ekleyip yumuşayana ve hafifçe şeffaflaşana kadar yaklaşık 5 dakika soteleyin.",
    "Ezilmiş sarımsağı ve acı biberi ekleyip 1 dakika daha kavurun.",
-   "Doğranmış taro yapraklarını ve 250 ml suyu tencereye ekleyin. Kapağını kapatıp kısık ateşte, arada karıştırarak yaklaşık 20 dakika, yapraklar iyice yumuşayana kadar pişirin.",
+   "Doğranmış taro yapraklarını ve 250 ml suyu tencereye ekleyin. Kapağını kapatıp kısık ateşte, arada karıştırarak yaklaşık 30 dakika, yapraklar iyice yumuşayana kadar pişirin.",
    "Hindistancevizi kremasını ve tuzu ekleyin. Kapağı açık olarak, sık sık karıştırarak 10 dakika daha kaynatın, sos koyulaşsın.",
    "Tadına bakın, gerekirse tuzu ayarlayın. Sıcak olarak servis yapın."
   ],
@@ -48,7 +48,7 @@
    "Finely chop the onion, crush the garlic, and thinly slice the chili if using.",
    "Heat the coconut oil in a wide, heavy-bottomed pot over medium heat. Add the onion and sauté for about 5 minutes until soft and slightly translucent.",
    "Add the crushed garlic and chili and cook for 1 more minute.",
-   "Add the shredded taro leaves and 250 ml water to the pot. Cover and simmer gently over low heat for about 20 minutes, stirring occasionally, until the leaves are completely tender.",
+   "Add the shredded taro leaves and 250 ml water to the pot. Cover and simmer gently over low heat for about 30 minutes, stirring occasionally, until the leaves are completely tender.",
    "Stir in the coconut cream and salt. Simmer uncovered for 10 more minutes, stirring often, until the sauce thickens.",
    "Taste and adjust the salt if needed. Serve warm."
   ]
@@ -57,5 +57,15 @@
   "tr": "Taro yapraklarında doğal olarak kalsiyum oksalat bulunur; bu yüzden yaprakları asla çiğ yemeyin ve pişirme süresini kısaltmayın.",
   "en": "Taro leaves contain natural calcium oxalate, so never eat them raw and do not shorten the cooking time, as thorough cooking makes them safe and tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains untranslated English words ('about') in 'yaklaşık' amounts, which is unnatural Turkish.",
+   "Taro leaves are simmered for only about 20 minutes, which may not be enough to safely break down calcium oxalate. The tip itself stresses thorough cooking, so the simmer time should be longer.",
+   "time_min should be updated to match the longer simmer time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

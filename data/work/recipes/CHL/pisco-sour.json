@@ -18,7 +18,7 @@
    "80 ml şeker şurubu (80 g şeker ve 80 ml sıcak suyla hazırlanmış, soğutulmuş)",
    "2 yumurta akı (isteğe bağlı)",
    "400 g buz",
-   "Angostura acı bitter, 8 damla"
+   "8 damla Angostura acı bitter (kadehe 2 damla)"
   ],
   "en": [
    "240 ml pisco",
@@ -26,7 +26,7 @@
    "80 ml sugar syrup (made from 80 g sugar dissolved in 80 ml hot water, then cooled)",
    "2 egg whites (optional)",
    "400 g ice",
-   "8 dashes Angostura bitters"
+   "8 drops Angostura bitters (2 drops per glass)"
   ]
  },
  "steps": {
@@ -37,7 +37,7 @@
    "Pisco, limon suyu, şeker şurubu ve yumurta aklarını bir kokteyl şakerine koyun.",
    "Buz eklemeden 15 saniye kadar güçlü bir şekilde çalkalayın; bu adım köpük oluşmasını sağlar.",
    "Buzu ekleyip 15 saniye daha sert çalkalayın ve ardından kokteyl kadehlerine süzün.",
-   "Her kadehin köpüğünün üzerine birer damla Angostura bitter damlatarak servis yapın."
+   "Her kadehin köpüğünün üzerine 2 damla Angostura bitter damlatarak servis yapın."
   ],
   "en": [
    "To make the syrup, dissolve 80 g sugar in 80 ml hot water and let it cool completely.",
@@ -53,5 +53,14 @@
   "tr": "Yumurta akı yerine birkaç damla su kullanılırsa köpük azalır; köpüğü daha yoğun istiyorsanız ilk çalkalamayı buz olmadan uzun yapın.",
   "en": "Shake without ice first to build a dense foam from the egg white, then add ice; chill the glasses beforehand for a better result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Bitters dosage conflicts: the ingredient list says 8 dashes, the English step says 2 drops per glass, and the Turkish step says 1 drop per glass (\"birer damla\"). Turkish and English disagree, and the ",
+   "Egg whites are marked optional in the ingredients, but the steps use them unconditionally and the tip relies on them."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

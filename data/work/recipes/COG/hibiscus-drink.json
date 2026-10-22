@@ -9,7 +9,7 @@
   "en": "A ruby-red, tart-sweet hibiscus drink served in Brazzaville, Republic of the Congo, on hot days, with meals, and to welcome guests."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "1,5 L su",
    "15 g taze zencefil",
    "120 g toz şeker (tadına göre)",
-   "1 limonun suyu (yaklaşık 30 ml)",
+   "1 lime'ın suyu (yaklaşık 30 ml)",
    "Servis için buz küpleri"
   ],
   "en": [
@@ -37,7 +37,7 @@
    "Karışımı 5 dakika hafifçe kaynatın; ardından ocağı kapatın, tencerenin kapağını örtün ve hibiskusun rengini ve tadını versin diye 20 dakika demlenmeye bırakın.",
    "Demlenen sıvıyı ince elekten veya süzgeçli bir kaptan geçirerek çiçekleri ve zencefil parçalarını ayırın.",
    "Sıcak sıvıya şekeri ekleyip şeker tamamen eriyene kadar karıştırın.",
-   "Karışımı oda sıcaklığına gelene kadar soğutun, ardından limonun suyunu ekleyip iyice karıştırın.",
+   "Karışımı oda sıcaklığına gelene kadar soğutun, ardından lime'ın suyunu ekleyip iyice karıştırın.",
    "Kapalı bir sürahide buzdolabında en az 2 saat soğutun.",
    "Servis yapmadan önce bardaklara buz küpleri koyun ve içeceği üzerine dökerek ikram edin."
   ],
@@ -57,5 +57,14 @@
   "tr": "Hibiskus yoğunluğu partiden partiye değişir; servis öncesi tadına bakıp şeker ve limonu ayarlayın. Buzdolabında kapalı olarak 3 güne kadar saklanabilir.",
   "en": "Hibiscus strength varies between batches, so taste before serving and adjust the sugar and lime. Stored covered in the fridge, it keeps for up to 3 days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't cover the steeping, cooling and mandatory 2-hour chill, so the total time is understated",
+   "Turkish uses 'limon' (lemon) while the English says 'lime'; the two versions disagree on the citrus, and Turkish readers would likely use lemon"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,7 +16,7 @@
    "500 g sığır eti, küp doğranmış",
    "1,5 L su",
    "2 orta boy soğan, biri ince doğranmış, diğeri kabaca doğranmış",
-   "1 beef suyu küpü",
+   "1 sığır eti suyu küpü",
    "1 çay kaşığı tuz (yaklaşık 5 g)",
    "2 orta boy domates (yaklaşık 300 g), rendelenmiş veya blenderdan geçirilmiş",
    "2 kırmızı biber (veya 1 acı biber), çekirdekleriyle birlikte",
@@ -39,12 +39,12 @@
  },
  "steps": {
   "tr": [
-   "Sığır etini, su, roughly doğranmış soğanın yarısı, beef suyu küpü ve yarım çay kaşığı tuzla büyük bir tencereye alın. Kaynayınca ısıyı kısın ve et yumuşayana kadar, yaklaşık 40 dakika pişirin.",
-   "Domates, biber ve kalan roughly doğranmış soğanı blenderdan geçirerek pürüzsüz bir karışım hazırlayın.",
+   "Sığır etini, su, kabaca doğranmış soğanın yarısı, sığır eti suyu küpü ve yarım çay kaşığı tuzla büyük bir tencereye alın. Kaynayınca ısıyı kısın ve et yumuşayana kadar, yaklaşık 40 dakika pişirin.",
+   "Domates, biber ve kalan kabaca doğranmış soğanı blenderdan geçirerek pürüzsüz bir karışım hazırlayın.",
    "Ayrı bir tavada palm yağını orta-yüksek ateşte ısıtın. İnce doğranmış soğanı ekleyip yumuşayana kadar yaklaşık 3 dakika kavurun.",
    "Blenderdan geçirdiğiniz domates karışımını tavaya ekleyin ve suyu çekilip yağ yüzeye çıkana kadar, yaklaşık 10 dakika karıştırarak pişirin.",
    "Dawadawa'yı ekleyip 2 dakika daha karıştırın, ardından kavrulmuş karışımı etli suyun içine aktarın.",
-   "Çorbayı karıştırın ve 10 dakika kaynatın. Baobab yaprağı tozunu azar azar ekleyip sürekli karıştırarak topaklanmasını önleyin.",
+   "Kalan yarım çay kaşığı tuzu ekleyin, çorbayı karıştırın ve 10 dakika kaynatın. Baobab yaprağı tozunu azar azar ekleyip sürekli karıştırarak topaklanmasını önleyin.",
    "Kısık ateşte 10 dakika daha pişirin; çorba koyulaşıp hafif kaygan bir kıvam almalıdır. Gerekirse tuzunu ayarlayıp sıcak olarak tuwo shinkafa ile servis edin."
   ],
   "en": [
@@ -53,7 +53,7 @@
    "Heat the palm oil in a separate pan over medium-high heat. Add the finely chopped onion and fry for about 3 minutes until soft.",
    "Add the blended tomato mixture to the pan and cook, stirring, for about 10 minutes until the liquid has evaporated and the oil rises to the surface.",
    "Stir in the dawadawa and cook for 2 more minutes, then transfer the fried mixture into the pot of meat and stock.",
-   "Stir well and simmer for 10 minutes. Add the baobab leaf powder a little at a time, stirring constantly to prevent lumps.",
+   "Add the remaining half teaspoon of salt, stir well and simmer for 10 minutes. Add the baobab leaf powder a little at a time, stirring constantly to prevent lumps.",
    "Simmer gently for 10 more minutes until the soup thickens and takes on a slightly slippery texture. Adjust the salt if needed and serve hot with tuwo shinkafa."
   ]
  },
@@ -61,5 +61,15 @@
   "tr": "Baobab yaprağı tozunu ısı kapalıyken ya da çok kısık ateşte ekleyin; aksi halde çorba topaklanabilir. Acı sevmiyorsanız biberi çekirdeksiz kullanın.",
   "en": "Add the baobab leaf powder over low heat, a little at a time, to avoid lumps. Remove the seeds from the chillies if you prefer a milder soup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish text contains untranslated English words ('roughly') in the ingredient list and steps 1 and 2",
+   "Turkish ingredient 'beef suyu küpü' is unnatural; should be 'sığır eti suyu küpü'",
+   "Salt: 1 tsp is listed, but the steps only mention using half a teaspoon, so the remaining half is never used"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

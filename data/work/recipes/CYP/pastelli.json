@@ -34,9 +34,9 @@
  "steps": {
   "tr": [
    "Susamı kuru bir tavada orta ateşte 5-7 dakika, sık sık karıştırarak altın rengi alana kadar kavurun. Tavadan bir tabağa alıp soğumaya bırakın.",
-   "Bir kaplama tepsisinin veya fırın tepsisinin yüzeyini ayçiçek yağıyla hafifçe yağlayın ve bir kenara koyun.",
+   "Bir fırın tepsisinin yüzeyini ayçiçek yağıyla hafifçe yağlayın ve bir kenara koyun.",
    "Geniş bir tencereye balı, şekeri, suyu ve bir tutam tuzu koyun. Orta-yüksek ateşte karıştırarak kaynatın.",
-   "Karışım kaynayınca karıştırmayı bırakın ve termometre 130°C'yi gösterene kadar, yani şurup koyu bir sarıya dönene kadar pişirin. Ocaktan alın.",
+   "Karışım kaynayınca karıştırmayı bırakın ve termometre 130°C'yi gösterene kadar, yani şurup açık altın sarısına dönene kadar pişirin. Ocaktan alın.",
    "Hemen kavrulmuş susamı ve portakal kabuğu rendesini ekleyip spatulayla hızlıca karıştırın; her susam tanesi şurupla kaplanmalıdır.",
    "Karışımı yağlanmış tepsiye dökün. Yağlanmış oklava veya spatula yardımıyla yaklaşık 1 cm kalınlığında, düzgün bir tabaka halinde yayın.",
    "Hâlâ ılıkken bıçakla dikdörtgen dilimler halinde kesin. Tamamen soğuyup sertleşmesi için oda sıcaklığında en az 30 dakika bekletin.",
@@ -57,5 +57,13 @@
   "tr": "Şurup termometresi yoksa, bir kaşık şurubu soğuk suya damlatın; sert ama hafif esnek toplar oluştuğunda hazırdır. Yapışmasını önlemek için spatulayı ve oklavayı sık sık yağlayın.",
   "en": "Without a thermometer, drop a spoonful of syrup into cold water; it is ready when it forms firm but slightly pliable balls. Keep the spatula and rolling pin oiled to prevent sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 colour disagrees between versions: the Turkish says the syrup turns 'koyu bir sarı' (dark yellow), while the English says 'pale golden colour'. Pastelli syrup should be light golden, so the Tur"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

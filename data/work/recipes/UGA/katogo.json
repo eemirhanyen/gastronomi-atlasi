@@ -14,6 +14,7 @@
  "ingredients": {
   "tr": [
    "500 g dana işkembesi (temizlenmiş)",
+   "1 litre su (işkembe için)",
    "1 tatlı kaşığı tuz (işkembe için)",
    "1 kg yeşil pişirme muzu (matoke), yaklaşık 6 adet",
    "3 yemek kaşığı sıvı yağ",
@@ -29,6 +30,7 @@
   ],
   "en": [
    "500 g beef tripe, cleaned",
+   "1 litre water (for boiling the tripe)",
    "1 tsp salt (for boiling the tripe)",
    "1 kg green cooking bananas (matoke), about 6 pieces",
    "3 tbsp vegetable oil",
@@ -65,7 +67,7 @@
    "Add the chopped tripe and fry it with the sauce for 5 minutes.",
    "Whisk the peanut butter with the 250 ml water until smooth, pour it into the pot and simmer for 5 minutes.",
    "Add the banana chunks, the 1 tsp salt and the sliced fresh chili if using. Add a little more water if the stew looks dry, cover, and simmer gently for 20-25 minutes until the bananas are soft.",
-   "Gently mash some of the bananas against the side of the pot with a spoon to thicken the sauce, then stir well.",
+   "Gently mash some of the bananas against the side of the pot with a ladle to thicken the sauce, then stir well.",
    "Remove from the heat, garnish with the chopped coriander and serve hot."
   ]
  },
@@ -73,5 +75,14 @@
   "tr": "Muzların sertliği yerine göre pişirme süresini değiştirir; sos çok koyulaşırsa biraz sıcak su ekleyin, fıstık ezmesinin tuzsuz ve şekersiz olmasına dikkat edin.",
   "en": "Use firm, green cooking bananas, not ripe yellow ones, and add hot water a splash at a time if the peanut sauce thickens too quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water used for boiling the tripe (1 litre) appears in the steps but is missing from the ingredient list in both languages.",
+   "Turkish step 9 says 'kepçeyle' (with a ladle), but the English step 9 says 'with a spoon'. The English should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

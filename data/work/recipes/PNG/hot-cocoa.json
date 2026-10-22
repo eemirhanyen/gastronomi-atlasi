@@ -9,7 +9,7 @@
   "en": "Papua New Guinea is one of the world's important cocoa producers, and this simple hot drink is made from locally grown cocoa. It is enjoyed at breakfast and on cool highland mornings."
  },
  "servings": 4,
- "time_min": 15,
+ "time_min": 20,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -33,7 +33,7 @@
    "Suyu azar azar ekleyin ve topak kalmayana kadar çırpın.",
    "Tencereyi orta ateşe koyun ve sürekli karıştırarak kaynamaya yakın bir sıcaklığa getirin.",
    "Sütü yavaş yavaş ekleyin ve çırpmaya devam edin.",
-   "Ateşi kısın ve karışım sıcak ama kaynamayacak şekilde, yaklaşık 80°C'ye gelene kadar 5 dakika kadar ısıtın. Yüzeyde kabuk oluşmaması için ara ara karıştırın.",
+   "Ateşi kısın ve karışım sıcak ama kaynamayacak şekilde, yaklaşık 80°C'ye gelene kadar yaklaşık 10 dakika ısıtın. Yüzeyde kabuk oluşmaması için ara ara karıştırın.",
    "Tadına bakın, gerekirse şeker ekleyerek tatlılığı ayarlayın.",
    "Sıcak sıcak fincanlara dökün ve servis yapın."
   ],
@@ -42,7 +42,7 @@
    "Add the water a little at a time and whisk until there are no lumps.",
    "Place the pan over medium heat and bring the mixture close to a simmer, stirring constantly.",
    "Gradually add the milk, whisking as you pour.",
-   "Reduce the heat and warm gently for about 5 minutes, until the drink is hot to about 80°C but not boiling. Stir occasionally to prevent a skin from forming on the surface.",
+   "Reduce the heat and warm gently for about 10 minutes, until the drink is hot to about 80°C but not boiling. Stir occasionally to prevent a skin from forming on the surface.",
    "Taste and add more sugar if needed.",
    "Pour into cups and serve hot."
   ]
@@ -51,5 +51,13 @@
   "tr": "Kakao tozunu önce suyla iyice çözmek, sütle karıştırmadan önce topakların oluşmasını engeller. Daha yoğun bir tat için koyu renkli kakao tozu kullanın.",
   "en": "Dissolving the cocoa in water before adding the milk prevents lumps. For a richer flavour, use a dark cocoa powder."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 says about 5 minutes is enough to heat roughly 1 litre of cold milk and water to 80°C on low heat. That is too short, so the timing is unrealistic and the total time of 15 minutes is understate"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

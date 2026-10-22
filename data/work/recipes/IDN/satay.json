@@ -18,10 +18,10 @@
    "60 g kuru soğan (2 orta boy)",
    "10 g galangal (lengkuas), rendelenmiş",
    "4 g öğütülmüş kişniş",
-   "6 g tuz",
-   "5 g esmer şeker",
-   "30 ml tatlı soya sosu (kecap manis)",
-   "15 ml sıvı yağ",
+   "6 g tuz (4 g marinasyon, 2 g sos)",
+   "5 g esmer şeker (2 g marinasyon, 3 g sos)",
+   "30 ml tatlı soya sosu (kecap manis; 15 ml marinasyon, 15 ml sos)",
+   "15 ml sıvı yağ (10 ml marinasyon, 5 ml sos)",
    "15 ml limon suyu",
    "120 g kavrulmuş tuzsuz yer fıstığı",
    "2 diş sarımsak (sos için)",
@@ -38,10 +38,10 @@
    "60 g shallots (2 medium)",
    "10 g galangal (lengkuas), grated",
    "4 g ground coriander",
-   "6 g salt",
-   "5 g brown sugar",
-   "30 ml sweet soy sauce (kecap manis)",
-   "15 ml vegetable oil",
+   "6 g salt (4 g for marinade, 2 g for sauce)",
+   "5 g brown sugar (2 g for marinade, 3 g for sauce)",
+   "30 ml sweet soy sauce (kecap manis; 15 ml for marinade, 15 ml for sauce)",
+   "15 ml vegetable oil (10 ml for marinade, 5 ml for sauce)",
    "15 ml lime juice",
    "120 g roasted unsalted peanuts",
    "2 garlic cloves (for the sauce)",
@@ -57,11 +57,11 @@
   "tr": [
    "Bambu şişleri en az 30 dakika suda bekletin, böylece kömürde yanmazlar.",
    "Tavuk butunu yaklaşık 2 cm küpler halinde kesin.",
-   "Kuru soğanları, sarımsakları, rendelenmiş galangal'i, kişnişi, tuzu, şekeri, 10 ml yağı, limon suyunu ve kecap manis'i blenderda pürüzsüz bir macun olana kadar çekin.",
+   "Kuru soğanları, sarımsakları, rendelenmiş galangal'i, kişnişi, tuzu (4 g), şekeri (2 g), 10 ml yağı, limon suyunu ve 15 ml kecap manis'i blender'da pürüzsüz bir macun olana kadar çekin.",
    "Macunu tavuk küplerinin üzerine ekleyip iyice karıştırın. Üstünü örtüp buzdolabında en az 1 saat, mümkünse bir gece bekletin.",
    "Yer fıstıklarını bir tavada hafifçe kavurup havanlıkta veya robotta kabaca ezin.",
    "Kalan 5 ml yağı küçük bir tencerede ısıtın, ezilmiş sarımsak ve doğranmış kırmızı biberi 1 dakika kavurun.",
-   "Tamarind püresini suda eritip tencereye ekleyin, ardından fıstık ezmesi, kalan kecap manis, esmer şeker ve tuzu ilave edin.",
+   "Tamarind püresini suda eritip tencereye ekleyin, ardından fıstık ezmesi, kalan 15 ml kecap manis, esmer şeker (3 g) ve tuzu (2 g) ilave edin.",
    "Sosu kısık ateşte 6-8 dakika, kıvam alana kadar karıştırarak pişirin, son olarak limon suyunu ekleyin.",
    "Salatalığı ince dilimleyin, servis soğanını ince halkalar halinde kesin.",
    "Fırın ızgarasını ya da kömür ocağını yaklaşık 200 °C'ye getirin.",
@@ -72,11 +72,11 @@
   "en": [
    "Soak the bamboo skewers in water for at least 30 minutes so they do not burn on the charcoal.",
    "Cut the chicken thigh into 2 cm cubes.",
-   "Blend the shallots, garlic, grated galangal, coriander, salt, sugar, 10 ml of the oil, lime juice and kecap manis into a smooth paste.",
+   "Blend the shallots, garlic, grated galangal, coriander, salt (4 g), sugar (2 g), 10 ml of the oil, lime juice and 15 ml kecap manis into a smooth paste.",
    "Mix the paste thoroughly into the chicken cubes. Cover and refrigerate for at least 1 hour, ideally overnight.",
    "Lightly toast the peanuts in a dry pan, then coarsely crush them in a mortar or food processor.",
    "Heat the remaining 5 ml of oil in a small saucepan and fry the crushed garlic and chopped red chili for 1 minute.",
-   "Dissolve the tamarind paste in the water and add it to the pan, then stir in the crushed peanuts, remaining kecap manis, brown sugar and salt.",
+   "Dissolve the tamarind paste in the water and add it to the pan, then stir in the crushed peanuts, remaining 15 ml kecap manis, brown sugar (3 g) and salt (2 g).",
    "Simmer the sauce over low heat for 6-8 minutes, stirring, until thick, then stir in the lime juice.",
    "Thinly slice the cucumber and cut the serving shallot into thin rings.",
    "Preheat the oven grill or charcoal grill to about 200 °C.",
@@ -89,5 +89,14 @@
   "tr": "Tavuğu marine edildikten sonra mümkünse bir gece bekletin; baharatların etin içine işlemesi ve lezzetin derinleşmesi için bu süre çok fark yaratır.",
   "en": "Marinate the chicken overnight if possible; the spices penetrate the meat much better and the flavour becomes noticeably deeper."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Kecap manis (30 ml), salt (6 g) and sugar (5 g) are listed as single totals, but the steps use them in both the marinade and the sauce without stating the split. Step 7 says 'remaining' kecap manis, w",
+   "Turkish 'blenderda' should be 'blender'da' (locative suffix with apostrophe)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

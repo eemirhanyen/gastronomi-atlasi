@@ -47,21 +47,21 @@
  },
  "steps": {
   "tr": [
-   "Fırını 180°C'ye ısıtın. Yaklaşık 22 x 22 cm'lik bir fırın kabını tereyağıyla hafifçe yağlayın.",
+   "Fırını 180°C'ye ısıtın. Yaklaşık 22 x 22 cm'lik bir fırın kabını 5 g tereyağıyla hafifçe yağlayın.",
    "Büyük bir tencerede 2 litre suyu tuzla kaynatın. Makarnayı ekleyip paketteki süreden 1 dakika kadar kısa haşlayın, dişe hafif sert gelmeli. Süzün ve bir kenara alın.",
    "Geniş bir tavada sıvı yağı ve 10 g tereyağını orta ateşte ısıtın. Soğanı, dolmalık biberi ekleyip 4-5 dakika yumuşayana kadar kavurun. Sarımsağı ekleyip 30 saniye daha pişirin.",
    "Ayrı bir kapta yumurtaları çırpın, evaporated sütü, kekiği, karabiberi, paprikayı ve 1/2 tatlı kaşığı tuzu ekleyip iyice karıştırın.",
-   "Büyük bir kaseye makarnayı, sebzeli tavayı, kalan tereyağını ve 150 g rendelenmiş peyniri koyun. Karıştırın.",
+   "Büyük bir kaseye makarnayı, sebzeli tavayı, kalan 15 g tereyağını ve 150 g rendelenmiş peyniri koyun. Karıştırın.",
    "Yumurtalı sütlü karışımı makarnanın üzerine dökün ve iyice karıştırın. Karışımı yağlanmış fırın kabına yayın.",
    "Kalan 50 g peyniri üstüne serpin ve 35-40 dakika, üst yüzey altın rengi olana ve orta kısmı sabitleninceye kadar pişirin.",
    "Fırından çıkarıp 10 dakika dinlendirin, böylece kesilince kıvamını korur. Kare parçalar halinde servis edin."
   ],
   "en": [
-   "Preheat the oven to 180°C. Lightly grease a roughly 22 x 22 cm baking dish with a little of the butter.",
+   "Preheat the oven to 180°C. Lightly grease a roughly 22 x 22 cm baking dish with 5 g of the butter.",
    "Bring 2 litres of water to the boil in a large pot with the salt. Add the macaroni and cook for about 1 minute less than the packet time so it stays slightly firm. Drain and set aside.",
    "Heat the vegetable oil and 10 g of the butter in a wide pan over medium heat. Add the onion and bell pepper and sauté for 4-5 minutes until soft. Add the garlic and cook for 30 seconds more.",
    "In a separate bowl, whisk the eggs with the evaporated milk, thyme, black pepper, paprika and 1/2 tsp salt until smooth.",
-   "In a large bowl, combine the macaroni, the sautéed vegetables, the remaining butter and 150 g of the grated cheese.",
+   "In a large bowl, combine the macaroni, the sautéed vegetables, the remaining 15 g of butter and 150 g of the grated cheese.",
    "Pour the egg and milk mixture over the macaroni and stir well. Spread everything evenly into the greased baking dish.",
    "Scatter the remaining 50 g of cheese over the top and bake for 35-40 minutes, until the top is golden and the centre is set.",
    "Remove from the oven and rest for 10 minutes so the pie holds its shape. Cut into squares and serve."
@@ -71,5 +71,13 @@
   "tr": "Makarnayı biraz dişte bırakın; fırında yumuşayacak ve kremalı sos onu fazla pişmiş hale getirmeden emecek.",
   "en": "Undercook the macaroni slightly, as it will soften in the oven and absorb the custard without turning mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter is not fully accounted for: 30 g is listed, 10 g goes in the pan, but step 1 greases the dish with 'a little of the butter' and step 5 uses 'the remaining butter' without a quantity, so the amo"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

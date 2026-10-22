@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Kurutulmuş turpun yüzde kırk kadarı yaklaşık kendi ağırlığında su emer; sos pişerken yetmezse az miktarda sıcak su ekleyin, ancak çok sulu bırakmayın.",
+  "tr": "Kurutulmuş turp pişerken çok su emer; sos yetmezse az miktarda sıcak su ekleyin, ancak çok sulu bırakmayın.",
   "en": "Dried radish absorbs a lot of water as it cooks; add a splash more hot water if the pot looks dry, but reduce the sauce at the end so it is thick, not soupy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip is garbled: \"Kurutulmuş turpun yüzde kırk kadarı yaklaşık kendi ağırlığında su emer\" is unnatural and asserts a specific absorption figure that the English tip does not state, so the two v"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

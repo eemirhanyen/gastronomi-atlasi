@@ -9,7 +9,7 @@
   "en": "Gravad laks is a traditional Danish dish of salmon cured with salt, sugar and dill for two days. It is served cold, often at Christmas and summer gatherings, sliced thinly on rye bread."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 2940,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Somonu dilimlemeden önce kesinlikle yeterince soğutun; soğuk ve dondurulmamış ama sert bir filetoyu kesmek çok daha ince ve düzgün dilimler verir.",
   "en": "Chill the fillet well before slicing. A firm, cold fillet gives much thinner and neater slices than a soft one."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires 36 to 48 hours of curing, so the total time is misleading. Set it to the maximum curing time plus the 60 minutes of preparation."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

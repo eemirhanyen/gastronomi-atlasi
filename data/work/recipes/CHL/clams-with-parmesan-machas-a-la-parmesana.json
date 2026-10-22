@@ -42,7 +42,7 @@
    "Midyeleri soğuk suda birkaç kez yıkayıp kabuklarını fırçayla temizleyin, kumlarını giderin.",
    "Fırını 200 °C'ye ısıtın.",
    "Geniş bir tencereye 30 ml su ve 30 ml şarap koyun, midyeleri ekleyip kapağını kapatın. Orta-yüksek ateşte 2-3 dakika, kabukları açılana kadar buharda pişirin.",
-   "Kabuğu açılmayan midyeleri atın. Açılan midyelerin bir yarısını kabuktan ayırıp diğer yarım kabukta bırakın ve fırın kabına dizin.",
+   "Kabuğu açılmayan midyeleri atın. Açılan midyelerin üst kabuğunu çıkarıp midyeleri alt kabukta bırakın ve fırın kabına dizin.",
    "Küçük bir tavada tereyağını eritin, sarımsağı ekleyip 1 dakika kadar kokusu çıkana kadar kavurun.",
    "Kalan şarabı ekleyip 1 dakika kaynatın. Galeta unu, maydanoz, tuz ve karabiberi ekleyip karıştırın.",
    "Karışımı midyelerin üzerine kaşık kaşık paylaştırın, üzerlerine parmesan peynirini serpin.",
@@ -53,7 +53,7 @@
    "Rinse the clams in cold water several times and scrub the shells with a brush to remove sand.",
    "Preheat the oven to 200 °C.",
    "Pour 30 ml water and 30 ml of the wine into a wide pan, add the clams and cover. Steam over medium-high heat for 2-3 minutes, until the shells open.",
-   "Discard any clams that do not open. Remove the clams from one half of each shell, keep them in the other half, and arrange them in a baking dish.",
+   "Discard any clams that do not open. Remove the top shell from each opened clam, leave the clam in the bottom shell, and arrange them in a baking dish.",
    "Melt the butter in a small pan, add the garlic and cook for about 1 minute until fragrant.",
    "Add the remaining wine and simmer for 1 minute. Stir in the breadcrumbs, parsley, salt and pepper.",
    "Spoon the mixture over the clams and sprinkle the parmesan on top.",
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Midyeleri pişirmeden önce kumlarını iyice giderin; pişirme sıvısını tamamen atmayın, birkaç damla ekleyerek galeta karışımını nemli tutabilirsiniz.",
-  "en": "Purge the clams well before cooking, and avoid overcooking them in the steaming step, as they become rubbery quickly. Serve immediately, because the breadcrumb topping loses its crunch as it cools."
+  "tr": "Midyeleri pişirmeden önce kumlarını iyice giderin; buharda pişirmeyi aşırı uzatmayın, aksi halde lastikleşirler. Pişirme sıvısını tamamen atmayın, birkaç damla ekleyerek galeta karışımını nemli tutabilirsiniz. Galeta kabuğu soğudukça çıtırlığını kaybettiği için hemen servis edin.",
+  "en": "Purge the clams well before cooking, and avoid overcooking them in the steaming step, as they become rubbery quickly. Keep some of the cooking liquid and add a few drops to keep the breadcrumb mixture moist. Serve immediately, because the breadcrumb topping loses its crunch as it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips disagree: the Turkish tip advises keeping some cooking liquid and does not mention overcooking or serving immediately, while the English tip covers those points instead.",
+   "Turkish step 4 wording ('bir yarısını kabuktan ayırıp') is ambiguous about which shell half is removed; the English says the top shell is removed."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

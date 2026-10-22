@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "1 kg kemikli tavuk parçası (but, budu, kanat ve göğüs karışık)",
-   "150 g kuru soğan (yaklaşık 6 adet, doğranmış)",
+   "150 g arpacık soğan (yaklaşık 6 adet, doğranmış)",
    "40 g sarımsak (yaklaşık 6 diş)",
    "20 g taze hindistancevizi kökü (lengkuas) veya zencefil, dilimlenmiş",
    "4 g zerdeçal tozu (yaklaşık 1 çay kaşığı)",
@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "Tavuk parçalarını soğuk suyla yıkayın ve kağıt havlu ile iyice kurulayın.",
-   "Soğan, sarımsak, hindistancevizi kökü veya zencefil, zerdeçal, kişniş, tuz ve şekeri 60 ml su ile birlikte blenderda pürüzsüz bir macun haline gelene kadar çekin.",
+   "Arpacık soğan, sarımsak, hindistancevizi kökü veya zencefil, zerdeçal, kişniş, tuz ve şekeri 60 ml su ile birlikte blenderde pürüzsüz bir macun haline gelene kadar çekin.",
    "Macunu büyük bir tencereye alın. Dövülmüş limon otu, defne yaprakları, limon suyu ve kalan suyu ekleyip karıştırın.",
    "Tavuk parçalarını tencereye ekleyin ve baharat karışımıyla iyice kaplayın. Üzerini örtüp oda sıcaklığında 30 dakika bekletin veya buzdolabında daha uzun süre marine edin.",
    "Tencereyi orta-kısık ateşe alın, kapağını kapatıp tavuk yumuşayana ve sıvı neredeyse tamamen azalana kadar yaklaşık 25 dakika pişirin. Ara sıra karıştırın.",
@@ -69,5 +69,15 @@
   "tr": "Tavuğu önce baharatlı sosta pişirmek, etin içini yumuşatıp baharatın nüfuz etmesini sağlar; kızartmadan önce tavuğun tamamen kurumasına dikkat edin, aksi halde yağ sıçrar ve kabuk çıtır olmaz.",
   "en": "Simmering the chicken in the spiced liquid first makes the meat tender and lets the flavour penetrate deeply. Dry the pieces completely before frying, or the oil will spatter and the skin won't crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says \"kuru soğan\", which means onion, but the English is shallots. The Turkish term for shallot is \"arpacık soğan\".",
+   "Turkish step 2 says \"Soğan\" where it should say \"Arpacık soğan\" for the same reason.",
+   "Turkish step 2 uses \"blenderda\", which breaks vowel harmony. The correct form is \"blenderde\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

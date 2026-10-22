@@ -16,14 +16,14 @@
    "1000 ml tam yağlı süt",
    "100 g toz şeker",
    "50 g mısır nişastası",
-   "20 ml gül suyu",
+   "10 ml gül suyu",
    "30 g Antep fıstığı, iri kıyılmış"
   ],
   "en": [
    "1000 ml whole milk",
    "100 g caster sugar",
    "50 g cornstarch",
-   "20 ml rose water",
+   "10 ml rose water",
    "30 g pistachios, coarsely chopped"
   ]
  },
@@ -51,5 +51,13 @@
   "tr": "Gül suyu acı bir tat bırakabileceği için miktarını ölçülü tutun; önce 10 ml ekleyip tadına bakarak tamamlayın.",
   "en": "Rose water can turn bitter if overused, so start with 10 ml, taste, and add more only if needed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Rose water amount (20 ml per 1 L milk) is high enough to make the pudding taste bitter or soapy. The tip itself advises starting with 10 ml, so the listed amount contradicts the tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

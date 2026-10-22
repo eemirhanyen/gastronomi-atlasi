@@ -72,12 +72,12 @@
  "steps": {
   "tr": [
    "Kuru kırmızı biberleri 20 dakika sıcak suda bekletin, ardından süzün.",
-   "Süzülmüş biberleri, 4 arpacık soğanını, sarımsağı, ince doğranmış limon otunu, zencefili, kişniş tohumunu, kimyonu, zerdeçalı ve köri tozunu 3 yemek kaşığı su ile pürüzsüz bir macun olana kadar blendırdan geçirin.",
+   "Süzülmüş biberleri, 4 arpacık soğanını, sarımsağı, ince doğranmış limon otunu, zencefili, kişniş tohumunu, kimyonu, zerdeçalı ve köri tozunu 3 yemek kaşığı su ile pürüzsüz bir macun olana kadar blenderdan geçirin.",
    "Geniş bir tencerede 3 yemek kaşığı sıvı yağı orta ateşte ısıtın. Macunu ve 400 ml kalın hindistancevizi sütünü ekleyin, yağ ayrışana kadar yaklaşık 8 dakika kavurun.",
    "Tavuk budlarını ekleyip macuna iyice bulayın ve 5 dakika kavurun.",
-   "Ince hindistancevizi sütünü ve tavuk suyunu ekleyin, kaynamaya bırakın. Ateşi kısın, kapağı yarım açık tutarak tavuk yumuşayana kadar yaklaşık 30 dakika pişirin. Balık sosu, palmiye şekeri ve tuzu ekleyip tadını ayarlayın.",
+   "İnce hindistancevizi sütünü ve tavuk suyunu ekleyin, kaynamaya bırakın. Ateşi kısın, kapağı yarım açık tutarak tavuk yumuşayana kadar yaklaşık 30 dakika pişirin. Balık sosu, palmiye şekeri ve tuzu ekleyip tadını ayarlayın.",
    "Kızartmak için ayırdığınız 100 g noodle'ı 180 °C'deki kızartma yağında altın rengi olana kadar yaklaşık 30 saniye ile 1 dakika kızartın. Kağıt havluya alıp yağını süzün.",
-   "Geriye kalan 300 g noodle'ı kaynayan suda 3 ila 4 dakika haşlayın, süzün ve soğuk suyla kısa bir süre durulayın.",
+   "Geriye kalan 300 g noodle'ı kaynayan tuzlu suda 3 ila 4 dakika haşlayın, süzün ve soğuk suyla kısa bir süre durulayın.",
    "Haşlanmış noodle'ı servis kaselerine bölün. Üzerine sıcak köri çorbasını ve tavuk budunu koyun.",
    "Üzerine çıtır noodle'ı, turşu hardal yaprağını, ince arpacığı, doğranmış yeşil soğanı ve kişnişi serpin. Limon dilimleri ve acı biber yağıyla birlikte hemen servis yapın."
   ],
@@ -97,5 +97,15 @@
   "tr": "Çıtır noodle'ı servisten hemen önce kızartın; birkaç dakika içinde yumuşar.",
   "en": "Fry the crispy noodles just before serving; they lose their crunch within minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a misspelled word 'blendırdan' (should be 'blenderdan').",
+   "Noodle boiling water is 'salted' in the English step 6 but not in the Turkish step 7, so the two versions disagree.",
+   "Turkish step 3 begins 'Ince' without the capital 'İ' (minor, corrected in passing)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Kakuleyi servis öncesi taze ezin; ezilen kakule aromasını çok daha canlı yansıtır ve kahvenin üstündeki telveyi karıştırmamaya özen gösterin.",
+  "tr": "Kakuleyi demlemeden hemen önce taze ezin; ezilen kakule aromasını çok daha canlı yansıtır ve kahvenin üstündeki telveyi karıştırmamaya özen gösterin.",
   "en": "Crush the cardamom just before brewing for a much fresher aroma, and avoid stirring once the grounds have settled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to crush cardamom 'servis öncesi' (before serving), while the English tip says 'just before brewing'. The Turkish should match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

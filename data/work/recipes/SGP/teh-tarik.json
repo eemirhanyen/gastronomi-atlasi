@@ -29,16 +29,16 @@
  },
  "steps": {
   "tr": [
-   "Kaynar suyu bir tencereye al ve çay poşetlerini ekleyip 5 dakika demlenmeye bırak. Dökme çay kullanıyorsan süzgeçle süzerek fincanlara al.",
-   "Demlenen çayı poşetlerden arındırılmış şekilde tencerede tut. Şekeri ekleyip karıştırarak eritmek için kısık ateşte birkaç dakika ısıt.",
+   "Kaynar suyu bir tencereye al, çay poşetlerini ekleyip 5 dakika demlenmeye bırak. Dökme çay kullanıyorsan süzgeçle süzerek tencereye al.",
+   "Çay poşetlerini çıkar, şekeri ekleyip karıştırarak eriyene kadar kısık ateşte birkaç dakika ısıt.",
    "Yoğunlaştırılmış sütü çaya ekleyip iyice karıştır. Ateşi kapat.",
    "Tam yağlı sütü ayrı bir tencerede orta ateşte, kaynamadan hemen önce ılıt (yaklaşık 80 °C). Sıcak sütü çayın içine yavaş yavaş dök ve karıştır.",
-   "Sıcak çayı bir ölçekli kapta, süt ve çay karışımını ise başka bir kapta hazırla. Her iki kabı da sıcak tutmak için bir süre bekletmeden hemen kullan.",
+   "Çay karışımını bir kaba dök ve ikinci bir boş kabı hazır tut. İki kabı da sıcakken hemen kullan.",
    "İki kabı birbirine yakın tutarak çayı bir kaptan diğerine, yaklaşık 50-60 cm yükseklikten dök. Bu işlemi 4-5 kez tekrarlayıp üstünde kabarcıklı bir köpük oluşmasını sağla.",
    "Köpüklü çayı önceden ısıtılmış 4 bardağa süz ve hemen servis et."
   ],
   "en": [
-   "Bring the water to a boil in a saucepan, add the tea bags and leave to steep for 5 minutes. If using loose tea, strain it into a jug.",
+   "Bring the water to a boil in a saucepan, add the tea bags and leave to steep for 5 minutes. If using loose tea, strain it into the saucepan.",
    "Remove the tea bags, add the sugar and warm gently over low heat, stirring until dissolved.",
    "Stir in the sweetened condensed milk until fully combined, then turn off the heat.",
    "In a separate pan, warm the whole milk over medium heat to about 80 °C, just before it simmers. Slowly pour the warm milk into the tea and stir.",
@@ -51,5 +51,16 @@
   "tr": "Köpüğü artırmak için dökme işlemini yüksekten yap; çayın sıcak olması ve kapların hızlı kullanılması köpüğün kalıcı olmasını sağlar.",
   "en": "Pour from a greater height to build more foam, and keep the tea hot so the froth holds up until serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says to strain loose tea into cups (fincanlar), but the English says into a jug, and the next step needs it in the pot.",
+   "Turkish step 2 does not say to remove the tea bags, while the English does.",
+   "Turkish step 5 is unclear and says the milk-tea mixture goes into a separate container, while the English says to keep a second empty jug ready. The Turkish also uses the unnatural phrase 'ölçekli kap",
+   "Turkish step 4 has the milk being poured into tea that the Turkish step 3 has already taken off the heat; the English matches, so this is only a wording issue and was left as is."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

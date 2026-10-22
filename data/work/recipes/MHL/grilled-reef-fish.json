@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1 kg bütün resif balığı (ör. lüfer benzeri kırmızı levrek veya papağan balığı), temizlenmiş ve pullanmış",
+   "1 kg bütün resif balığı (ör. kırmızı levrek veya papağan balığı), temizlenmiş ve pullanmış",
    "200 ml hindistan cevizi kreması",
    "90 ml taze limon suyu (yaklaşık 3 limon)",
    "3 diş sarımsak",
@@ -65,5 +65,13 @@
   "tr": "Muz yaprağı yoksa folyo kullanabilirsiniz; yaprağın aromasını yakalamak için folyonun içine ince bir tabaka yağ sürün ve paketi ızgarada dolaylı ateşte pişirin.",
   "en": "If banana leaf is unavailable, use foil brushed with oil and cook the parcels over indirect heat to keep the fish from charring."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'lüfer benzeri kırmızı levrek', adding bluefish (lüfer), which is not a reef fish and is not in the English version. The English gives snapper or parrotfish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

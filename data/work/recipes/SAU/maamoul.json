@@ -16,7 +16,7 @@
    "250 g ince irmik",
    "50 g çok amaçlı un",
    "120 g eritilmiş tereyağı veya ghee",
-   "30 g pudra şekeri, bir miktar toz şeker için ayrıca",
+   "30 g pudra şekeri, bir miktar pudra şekeri toz alma için ayrıca",
    "80 ml ılık süt",
    "20 ml portakal çiçek suyu",
    "2 g mahlep (öğütülmüş)",
@@ -43,7 +43,7 @@
    "Hurmaları küçük parçalara ayırın. Geniş bir tavada 25 g ghee veya tereyağını eritin, hurmaları ve kakuleyi ekleyin. Orta ateşte, sık karıştırarak 8-10 dakika pişirip pürüzsüz bir macun elde edin ve soğumaya bırakın.",
    "Fırınınızı 180°C'ye ısıtın.",
    "Dinlendirdiğiniz irmik karışımına eritilmiş 120 g ghee, un, 30 g pudra şekeri ve mahlepi ekleyin. Ellerinizle yoğurarak homojen bir hamur elde edin; hamur avuçta toplanmalı ama yapışkan olmamalıdır.",
-   "Hamuru 16 eşit parçaya bölün. Her parçayı avuç içinde yuvarlayıp ortasını parmağınızla çukurlaştırın, içine bir çay kaşığı kadar hurma dolgusu koyun ve kenarlarını kapatarak yeniden yuvarlayın.",
+   "Hamuru 16 eşit parçaya bölün. Her parçayı avuç içinde yuvarlayıp ortasını parmağınızla çukurlaştırın, içine bir yemek kaşığı kadar hurma dolgusu koyun ve kenarlarını kapatarak yeniden yuvarlayın.",
    "Topları ahşap maamul kalıbına bastırarak şekil verin ve kalıptan çıkarıp fırın tepsisine dizin. Kalıbınız yoksa çatal ile desen verebilirsiniz.",
    "Mamulleri fırının orta rafında 18-22 dakika, altları hafif altın sarısı olana kadar pişirin. Üstleri bembeyaz kalmalıdır, renk almamalıdır.",
    "Fırından çıkardıktan sonra tepsi üzerinde tamamen soğumaya bırakın. Servisten önce bolca pudra şekeri serpin."
@@ -53,7 +53,7 @@
    "Chop the dates into small pieces. Melt 25 g ghee or butter in a wide pan, then add the dates and ground cardamom. Cook over medium heat for 8-10 minutes, stirring often, until you have a smooth paste. Let it cool.",
    "Preheat the oven to 180°C.",
    "Add the 120 g melted ghee, flour, 30 g icing sugar and mahlab to the rested semolina. Knead by hand into a uniform dough that holds together in your palm without sticking.",
-   "Divide the dough into 16 equal portions. Roll each into a ball, press a thumb into the centre to make a hollow, place about a teaspoon of date filling inside, then close the edges and roll it smooth again.",
+   "Divide the dough into 16 equal portions. Roll each into a ball, press a thumb into the centre to make a hollow, place about a tablespoon of date filling inside, then close the edges and roll it smooth again.",
    "Press each ball into a wooden maamoul mold to imprint the pattern, then release it onto a baking tray. If you do not have a mold, mark the surface with the tines of a fork.",
    "Bake on the middle rack for 18-22 minutes, until the bottoms are light golden. The tops should stay pale and not take on colour.",
    "Let the maamoul cool completely on the tray, then dust generously with icing sugar before serving."
@@ -63,5 +63,14 @@
   "tr": "Hurma dolgusunu soğutmadan kullanmayın; sıcak dolgu hamuru yumuşatır ve kalıptan çıkan şekli bozar.",
   "en": "Let the date filling cool fully before use; warm filling softens the dough and blurs the mold pattern."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount is inconsistent: 250 g of dates split across 16 pieces is about 15 g each, which is a tablespoon, not a teaspoon (about 5 g), in both the Turkish and English steps.",
+   "Turkish ingredient line says extra 'toz şeker' (granulated sugar) for dusting, but the English says icing sugar and the Turkish steps use 'pudra şekeri'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

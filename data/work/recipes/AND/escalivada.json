@@ -9,7 +9,7 @@
   "en": "A Catalan side of charred aubergine, red pepper and onion, roasted until soft, peeled and dressed with olive oil and vinegar. Found in Andorra and Catalonia, it is usually served at room temperature with bread or alongside grilled meat and fish."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Sebzeleri közde ya da fırının ızgara modunda biraz fazla kararttığınızda lezzet artar; yanmış kabukları soyarken suyla değil, sadece elinizle temizleyin.",
   "en": "Blistering the skins well brings out the smoky flavour; peel them by hand and avoid rinsing the flesh under water, as this washes away the flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps alone take about 40–45 min roasting, 10 min steaming, 10 min draining, and 15 min resting, plus preparation and peeling. Realistic total is about 90 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

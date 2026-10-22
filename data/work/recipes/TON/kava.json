@@ -6,7 +6,7 @@
  "native": "kava",
  "desc": {
   "tr": "Tonga'da kava, Piper methysticum bitkisinin kökünden hazırlanan, toplumsal ve törensel anlamı büyük geleneksel bir içecektir. Düğünlerde, cenazelerde, resmi karşılamalarda ve akşam buluşmalarında, genellikle erkekler arasında, rahatlatıcı bir etki için tüketilir.",
-  "en": "In Tonga, kava is a traditional drink made from the root of the Piper methysticum plant, with deep social and ceremonial meaning. It is shared at weddings, funerals, formal welcomes and evening gatherings, usually in a relaxed, communal setting."
+  "en": "In Tonga, kava is a traditional drink made from the root of the Piper methysticum plant, with deep social and ceremonial meaning. It is shared at weddings, funerals, formal welcomes and evening gatherings, usually in a relaxed, communal setting and often among men."
  },
  "servings": 4,
  "time_min": 30,
@@ -51,5 +51,13 @@
   "tr": "Kava karaciğer sorunları, hamilelik veya alkol ve ilaçlarla birlikte kullanım durumunda riskli olabilir; bu nedenle bu içeceği araç kullanmadan önce veya sağlık durumunuz belirsizken tüketmeyin.",
   "en": "Kava can be risky for people with liver problems, during pregnancy, or when combined with alcohol or medication, so avoid it before driving or if your health status is uncertain."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish description says kava is usually consumed 'genellikle erkekler arasında' (often among men), but the English description omits this point."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

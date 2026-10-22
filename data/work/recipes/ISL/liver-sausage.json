@@ -48,7 +48,7 @@
    "Bağırsağı ılık suda en az 1 saat bekletin, ardından içini ve dışını iyice yıkayın.",
    "Ciğeri yıkayıp zarını çıkarın, kaba doğrayın. Ciğer, soğan ve 200 ml suyu blenderdan geçirerek pürüzsüz bir püre elde edin.",
    "Büyük bir kapta ciğer püresini, iç yağı, çavdar unu, yulaf ezmesi, kalan 450 ml suyu, tuzu ve karabiberi karıştırın. Kıvamı koyu ama hafif dökülebilir olmalı; 10 dakika dinlendirin.",
-   "Bağırsağın bir ucunu sıkıca bağlayın. Hunі yardımıyla karışımı hava kalmayacak şekilde doldurun; sosisi çok sıkmayın, çünkü pişerken genişler.",
+   "Bağırsağın bir ucunu sıkıca bağlayın. Huni yardımıyla karışımı hava kalmayacak şekilde doldurun; sosisi çok sıkmayın, çünkü pişerken genişler.",
    "Diğer ucu bağlayın ve sosisin yüzeyine birkaç yerden iğneyle küçük delikler açın.",
    "Büyük bir tencerede suyu 85-90°C'ye kadar ısıtın. Sosisi suya yerleştirin ve kaynatmadan yaklaşık 60 dakika yavaşça pişirin. Kabarcıklar kaynamaya başlarsa ocağı kısın.",
    "Bu sırada patatesleri ve şalgamı ayrı bir tencerede tuzlu suda 20-25 dakika, yumuşayana kadar haşlayın.",
@@ -73,5 +73,13 @@
   "tr": "Su asla kaynamamalı; kaynama bağırsağın patlamasına neden olur. Yüzeydeki iğne delikleri pişerken havanın çıkmasını sağlar.",
   "en": "Never let the water boil hard, as this can burst the casing. The needle holes let air escape during cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 contains a typo: \"Hunі\" (with a Cyrillic letter) should be \"huni\" (funnel)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

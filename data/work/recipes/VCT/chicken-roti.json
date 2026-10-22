@@ -9,15 +9,16 @@
   "en": "A street food from the Indo-Vincentian community of Saint Vincent and the Grenadines, where bone-in chicken cooked in a fragrant curry is wrapped in soft, flaky roti bread. It is especially popular at weekend markets and festivals."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "300 g çok amaçlı un",
-   "1 tatlı kaşığı tuz",
+   "1 tatlı kaşığı tuz (hamur için)",
    "2 yemek kaşığı sıvı yağ, ayrıca yüzeyler için 2 yemek kaşığı daha",
-   "about 180 ml ılık su",
+   "yaklaşık 180 ml ılık su",
    "600 g kemikli tavuk but parçası",
+   "1 tatlı kaşığı tuz (tavuk için)",
    "1 tatlı kaşığı taze limon suyu",
    "2 yemek kaşığı Karayip köri tozu",
    "1 tatlı kaşığı zerdeçal",
@@ -34,10 +35,11 @@
   ],
   "en": [
    "300 g all-purpose flour",
-   "1 tsp salt",
+   "1 tsp salt for the dough",
    "2 tbsp vegetable oil, plus 2 tbsp more for brushing",
    "about 180 ml lukewarm water",
    "600 g bone-in chicken thighs, cut into pieces",
+   "1 tsp salt for the chicken",
    "1 tsp fresh lime juice",
    "2 tbsp Caribbean curry powder",
    "1 tsp ground turmeric",
@@ -79,5 +81,15 @@
   "tr": "Scotch bonnet biberini bütün bırakın; kesilmeden pişirilirse sos aromalı ama çok acı olmaz.",
   "en": "Keep the scotch bonnet whole while cooking; it adds fragrance without overwhelming heat, so only break it open if you want more spice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains English text: \"about 180 ml ılık su\" should be \"yaklaşık 180 ml ılık su\".",
+   "Salt is used twice (in the dough and in the chicken marinade) but only 1 tsp is listed, so the quantity for the chicken is missing.",
+   "time_min of 60 is too low. The recipe includes a 30-minute dough rest, 20-minute marinating, about 30 minutes of simmering, and dough shaping and resting, so the total is closer to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

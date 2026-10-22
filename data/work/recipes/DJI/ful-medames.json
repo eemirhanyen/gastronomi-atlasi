@@ -9,7 +9,7 @@
   "en": "A slow-cooked dish of dried fava beans, lightly mashed and seasoned with olive oil, lemon and cumin. In Djibouti it is eaten at breakfast with warm flatbread, usually alongside tea or coffee."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -71,5 +71,13 @@
   "tr": "Baklaları kaynatırken karbonat eklemek kabuğun yumuşamasına yardımcı olur; ezmeden önce pişme suyunu ayırmayı unutmayın, çünkü fulun kıvamını bu su belirler.",
   "en": "A pinch of baking soda helps the skins soften, and always keep some cooking liquid before mashing, since it sets the final texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but step 2 requires 1.5 to 2 hours of simmering (plus the overnight soak), so the stated total time is too short."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

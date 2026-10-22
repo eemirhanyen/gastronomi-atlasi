@@ -34,7 +34,7 @@
  "steps": {
   "tr": [
    "Büyük bir kapta unu, mayayı, tuzu ve şekeri iyice karıştırın.",
-   "Ilık suyu ve 20 ml zeytinyağını ekleyip yumuşak, yapışmayan bir hamur elde edene kadar yoğurun. Gerekirse birkaç damla su ya da un ekleyerek kıvamı ayarlayın.",
+   "Ilık suyu ve 20 ml zeytinyağını ekleyip yumuşak, hafif yapışkan bir hamur elde edene kadar yoğurun. Gerekirse birkaç damla su ya da un ekleyerek kıvamı ayarlayın.",
    "Hamuru tezgâhta 8 dakika kadar pürüzsüz ve elastik olana dek yoğurun.",
    "Hamuru kaseye alın, üzerini nemli bir bezle örtün ve sıcak bir yerde 45 dakika, iki katına çıkana kadar mayalanmaya bırakın.",
    "Hamuru 6 eşit parçaya bölün ve her birini yuvarlayıp 5 dakika dinlendirin.",
@@ -59,5 +59,13 @@
   "tr": "Ekmeğin şişmesi için sac ya da tepsi çok sıcak olmalı; ekmekleri tek tek ve hızlıca pişirin, pişmiş ekmekleri bir bezin altında sıcak tutun.",
   "en": "The bread puffs best on a very hot surface, so bake them one at a time and keep finished breads wrapped in a cloth so they stay soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the dough should be \"yapışmayan\" (non-sticky), but the English says \"slightly tacky\". The two versions disagree on dough texture."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

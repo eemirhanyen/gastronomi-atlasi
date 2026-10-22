@@ -43,7 +43,7 @@
    "Unu eleyerek ekleyin ve topaklanmayacak şekilde, kısa hareketlerle, pürüzsüz bir hamur elde edene kadar karıştırın.",
    "Hamuru oda sıcaklığında 15 dakika dinlendirin.",
    "Geniş bir tavayı orta-düşük ateşte ısıtın, kağıt havluyla nötr yağı hafifçe sürün.",
-   "Hamurdan yaklaşık 45 ml (3 yemek kaşığı) alıp tavaya dökerek yaklaşık 8 cm çapında daireler oluşturun.",
+   "Hamurdan yaklaşık 24 ml (1,5 yemek kaşığı) alıp tavaya dökerek yaklaşık 8 cm çapında daireler oluşturun.",
    "Yüzeyinde kabarcıklar belirip kenarları kuruyunca (yaklaşık 2 dakika) çevirin ve 30 saniye daha pişirin.",
    "Pişen parçaları tel ızgarada tamamen soğutun. Hamur bitene kadar aynı işlemi tekrarlayın; toplamda 16 parça elde etmelisiniz.",
    "Parçaları ikişerli eşleştirin, bir yüzüne yaklaşık 37 g anko sürüp diğer parçayla kapatarak hafifçe bastırın.",
@@ -56,7 +56,7 @@
    "Sift in the flour and fold it in with short, gentle strokes until you have a smooth batter without lumps.",
    "Rest the batter at room temperature for 15 minutes.",
    "Heat a wide frying pan over medium-low heat and lightly grease it with neutral oil using a paper towel.",
-   "Pour about 45 ml (3 tablespoons) of batter into the pan to form rounds about 8 cm in diameter.",
+   "Pour about 24 ml (1.5 tablespoons) of batter into the pan to form rounds about 8 cm in diameter.",
    "When bubbles appear on the surface and the edges look set (about 2 minutes), flip and cook for another 30 seconds.",
    "Cool the pancakes completely on a wire rack. Repeat with the remaining batter; you should have 16 pieces in total.",
    "Pair up the pancakes, spread about 37 g of red bean paste on the flat side of one, and cover with another, pressing gently.",
@@ -67,5 +67,13 @@
   "tr": "Hamuru en az 15 dakika dinlendirmek, kabarcıkların düzgün oluşmasını ve dorayakinin yumuşak kalmasını sağlar.",
   "en": "Resting the batter for 15 minutes helps the bubbles form evenly and keeps the pancakes soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batter volume per pancake is inconsistent: the batter weighs about 390 g in total, and 16 pieces at 45 ml each would need about 720 ml, which is roughly double the batter. The amount per pancake shoul"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

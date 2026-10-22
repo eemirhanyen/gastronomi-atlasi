@@ -17,7 +17,7 @@
    "3 adet muz yaprağı (yoksa 40 cm'lik fırın kağıdı veya folyo)",
    "100 g soğan, ince doğranmış",
    "150 g domates, küp doğranmış",
-   "15 ml kabak çekirdeği yağı veya ayçiçek yağı",
+   "15 ml yer fıstığı yağı veya ayçiçek yağı",
    "1 tatlı kaşığı tuz (yaklaşık 5 g)",
    "150 ml su"
   ],
@@ -36,7 +36,7 @@
    "Muzların uçlarını kesin, kabuklarını uzunlamasına çizip soyun. Muzları soğuk suda bekletin ki kararmasın.",
    "Muz yapraklarını temizleyip durulayın. Gaz ocağının üzerinde birkaç saniye tutarak yumuşatın; yoksa kağıt veya folyo kullanın.",
    "Her yaprağın ortasına muzların üçte birini yerleştirin. Üzerine soğan, domates, yağ ve tuzun yarısını serpin.",
-   "Yaprağı iki yandan katlayıp paket gibi sarın ve iple bağlayın. Diğer paket için de aynı işlemi tekrarlayın.",
+   "Yaprağı iki yandan katlayıp paket gibi sarın ve iple bağlayın. Diğer paketler için de aynı işlemi tekrarlayın.",
    "Geniş bir tencerenin dibine 150 ml su koyun. Yüksek bir ara tabla veya buharda pişirme sepeti yerleştirin.",
    "Paketleri tabliye dizin, kapağını kapatıp orta-düşük ateşte yaklaşık 50 dakika buharda pişirin. Tencerede su kalıp kalmadığını kontrol edin, gerekirse biraz daha su ekleyin.",
    "Muzlar yumuşayınca paketleri açın, kalan tuzu serpip bir çatal veya tahta kaşıkla hafifçe ezin.",
@@ -57,5 +57,14 @@
   "tr": "Muzun yeşil ve sert olmasına dikkat edin; sarı ya da olgunlaşmış muz tatlanır ve matoke kıvamını kaybeder.",
   "en": "Use firm, fully green bananas; yellow or ripe ones turn sweet and lose the proper matoke texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kabak çekirdeği yağı' (pumpkin seed oil) is a mistranslation of 'groundnut oil'. The correct term is 'yer fıstığı yağı'.",
+   "Step 4 in Turkish says 'Diğer paket için' (for the other parcel, singular), but the recipe makes three parcels and the English says 'other parcels'. The Turkish should be plural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

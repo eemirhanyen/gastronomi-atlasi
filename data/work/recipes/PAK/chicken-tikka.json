@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuk butunu 3-4 cm'lik kübik parçalara ayırın ve geniş bir kaseye alın.",
+   "Tavuk but etini 3-4 cm'lik kübik parçalara ayırın ve geniş bir kaseye alın.",
    "Yoğurt, zencefil-sarımsak ezmesi, limon suyu, acı kırmızı toz biber, kimyon tozu, garam masala, tuz ve sıvı yağı ayrı bir kapta iyice karıştırın.",
    "Hazırladığınız marinasyonu tavuk parçalarının üzerine ekleyip her parçayı kaplayacak şekilde karıştırın. Kapağını kapatıp buzdolabında en az 30 dakika, tercihen bir gece bekletin.",
    "Fırınınızı ızgara fonksiyonunda 230°C'ye ısıtın ve bir fırın tepsisine tel ızgara yerleştirin.",
@@ -69,5 +69,13 @@
   "tr": "Marinasyonu bir gece önceden hazırlamak etine daha yoğun bir tat kazandırır; kasuri methi'yi pişmeden sonra eklemek aromasını korur.",
   "en": "Marinating overnight gives deeper flavour; add the kasuri methi after cooking so its aroma stays fresh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"Tavuk butunu\", which is a grammatical error and doesn't match the ingredient name \"tavuk but eti\" used elsewhere."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

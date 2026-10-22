@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "700 g buz küpü",
-   "100 g çekirdeksiz demirhindi bütünü (pulpu)",
+   "100 g çekirdeksiz demirhindi pulpu",
    "250 g toz şeker",
    "500 ml su",
    "1 tutam tuz",
@@ -49,5 +49,13 @@
   "tr": "Buzu tıraşlamadan önce bardakları dondurucuda soğutun; böylece erimeden daha uzun süre dokusunu korur.",
   "en": "Chill the glasses in the freezer before serving so the shaved ice holds its texture longer and melts more slowly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'çekirdeksiz demirhindi bütünü (pulpu)' is unnatural and inaccurate: 'bütünü' means 'whole', but the English and the steps use tamarind pulp."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

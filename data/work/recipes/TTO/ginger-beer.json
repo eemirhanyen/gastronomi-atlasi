@@ -9,7 +9,7 @@
   "en": "A lightly fermented, spicy-sweet drink made with fresh ginger, served chilled at home and at roadside stalls across Trinidad and Tobago, especially on hot days."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1440,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
    "Limon suyunu ekleyip karıştırın, ardından instant mayayı serpin ve iyice çözülene kadar karıştırın.",
    "Ağzını temiz bir bezle örtün ve oda sıcaklığında (yaklaşık 22–26 °C) 12–24 saat fermente olmaya bırakın. Yüzeyde küçük kabarcıklar belirmelidir.",
    "Karışımı ince bir elekten veya temiz bezden süzün ve posayı iyice sıkın.",
-   "Süzdüğünüz bireyi kapaklı bir şişeye alın ve buzdolabında soğutun. Fermentasyonu durdurmak için 2–3 gün içinde tüketin.",
+   "Süzdüğünüz içeceği kapaklı bir şişeye alın ve buzdolabında soğutun. Fermentasyonu durdurmak için 2–3 gün içinde tüketin.",
    "Buzla dolu bardaklara dökün ve lime dilimleriyle servis edin."
   ],
   "en": [
@@ -57,5 +57,14 @@
   "tr": "Şişeleri kapalı tutarak uzun süre fermente etmeyin; basınç birikebilir. Kabarcıklar oluştuğunda buzdolabına koyun.",
   "en": "Do not leave the drink sealed at room temperature for long, as pressure can build up and burst the bottle. Refrigerate as soon as bubbles appear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 contains a wrong word: \"Süzdüğünüz bireyi\" is not valid Turkish here; it should be \"Süzdüğünüz içeceği\" (the English says \"the strained drink\").",
+   "time_min is 60, but the recipe requires 12–24 hours of fermentation plus cooling and straining, so the total time is misleading. Set to 1440 (24 h, the approximate total)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

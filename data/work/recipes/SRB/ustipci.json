@@ -9,7 +9,7 @@
   "en": "A soft, deep-fried dough snack eaten across Serbia at breakfast, as a quick bite, or with afternoon coffee. It is usually served hot with white cheese or kajmak."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Hamur çok yapışkan gelirse azar azar un ekleyin, ama fazla un kullanmayın; uştipçiler yumuşak kalmalıdır.",
   "en": "If the dough feels too sticky, add a little flour at a time, but avoid adding too much, as the uštipci should stay soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe includes a 60-minute proof plus about 8 minutes of kneading, 5 minutes of yeast activation, and frying in several batches. Total time is closer to 100 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

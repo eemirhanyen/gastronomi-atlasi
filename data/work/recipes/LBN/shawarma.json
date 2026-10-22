@@ -9,7 +9,7 @@
   "en": "Chicken marinated in spiced yogurt, cooked until charred, thinly sliced and rolled in warm flatbread with tarator sauce. It is Lebanon's most common street food, eaten as a quick lunch or early-evening meal in Beirut and across the Levant."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Tavuğu tavada pişirirken tavayı aşırı doldurmayın; parçalar kızarmak yerine buharda pişerek lastikleşir. Partiler halinde pişirmek kenarlarda o karamelize lezzeti verir.",
   "en": "Do not overcrowd the pan. Crowded chicken steams instead of charring and turns rubbery. Cooking in batches gives the caramelised edges that define good shawarma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires marinating for at least 1 hour before cooking, plus prep, cooking and resting. The stated total time is too short."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

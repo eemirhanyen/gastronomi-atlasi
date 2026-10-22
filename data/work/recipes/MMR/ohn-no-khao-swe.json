@@ -23,6 +23,7 @@
    "800 ml tavuk suyu",
    "400 ml hindistancevizi sütü",
    "30 g nohut unu",
+   "100 ml soğuk su",
    "2 yemek kaşığı balık sosu",
    "1 çay kaşığı şeker",
    "Tuz ve karabiber",
@@ -41,6 +42,7 @@
    "800 ml chicken stock",
    "400 ml coconut milk",
    "30 g chickpea flour",
+   "100 ml cold water",
    "2 tbsp fish sauce",
    "1 tsp sugar",
    "Salt and black pepper",
@@ -75,5 +77,13 @@
   "tr": "Nohut unu topaklanmasın diye önce soğuk suyla iyice karıştırıp pürüzsüz bir sıvı elde edin; çorbaya ancak bu şekilde eklenmelidir.",
   "en": "Whisk the chickpea flour into cold water until completely smooth before adding it, so the soup thickens evenly without lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 100 ml of cold water used to mix the chickpea flour in step 5 (both languages) is missing from the ingredient lists."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

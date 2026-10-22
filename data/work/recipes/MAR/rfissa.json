@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Rfissa (Tiridli Tavuk)",
+  "tr": "Rfissa (Çemenli Tavuklu)",
   "en": "Rfissa (Chicken with Fenugreek Broth)"
  },
  "native": "رفيسة",
@@ -81,5 +81,13 @@
   "tr": "Ekmeğin dağılmaması için sıcak suyu yavaş yavaş dökün ve servisten hemen önce ıslatın; ekmek bayat olursa daha iyi emer.",
   "en": "Pour the broth slowly and serve right away so the bread stays soft but holds its shape; day-old bread absorbs the broth best."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Tiridli Tavuk' is misleading: 'tirid' is a separate Moroccan bread-and-broth dish, and rfissa is a distinct dish built on fenugreek, lentils and chicken. Renamed to 'Çemenli Tavuklu Rfis"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

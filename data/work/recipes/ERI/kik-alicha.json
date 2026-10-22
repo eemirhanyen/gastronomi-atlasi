@@ -48,7 +48,7 @@
    "Bezelyeler pişerken geniş bir tavada tereyağı ve bitkisel yağı orta ateşte ısıtın.",
    "Soğanı ekleyin ve 8-10 dakika, altın rengi olana kadar karıştırarak kavurun.",
    "Sarımsak ve zencefili ekleyip 1 dakika daha kavurun.",
-   "Domates salçasını ve berbere baharatını ekleyip 1 dakika, yağa kokusu çıkana kadar karıştırın.",
+   "Domates salçasını ve berbere baharatını ekleyip 1 dakika, baharatların kokusu çıkana kadar karıştırın.",
    "Pişmiş bezelyeleri tencereden tavaya aktarın. Varsa yeşil biberi de ekleyin.",
    "Bir kaşık yardımıyla bezelyelerin bir kısmını ezerek karışımı pürüzlü bir kıvama getirin. Gerekirse birkaç yemek kaşığı sıcak su ekleyin.",
    "Kısık ateşte 8-10 dakika daha pişirin, tuzu ekleyip karıştırın ve sıcak servis yapın."
@@ -69,5 +69,13 @@
   "tr": "Bezelyeleri 30 dakika önceden ıslatırsanız pişme süresi kısalır. Kıvamı ayarlamak için pişirme suyunu kullanın, böylece tat kaybolmaz.",
   "en": "Soaking the peas for 30 minutes beforehand shortens the cooking time. Use the cooking liquid to adjust the consistency so the flavour stays concentrated."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 has an unnatural phrase, \"yağa kokusu çıkana kadar\". It should say the spices' aroma comes out."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

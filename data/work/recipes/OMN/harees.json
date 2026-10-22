@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Suda bekletilmiş buğdayı süzün ve iyice yıkayın.",
-   "Büyük bir tencerede 40 g ghee'yi orta ateşte eritin, soğanı ekleyip pembeleşene kadar yaklaşık 6-8 dakika kavurun.",
+   "Büyük bir tencerede 40 g ghee'yi orta ateşte eritin, soğanı ekleyip altın rengi alana kadar yaklaşık 6-8 dakika kavurun.",
    "Kuzu etini tencereye ekleyip yüzeyi kapanana kadar 5 dakika kavurun. Tarçın, kakule, karabiber ve tuzu ekleyin.",
    "1,5 litre suyu ekleyip kaynatın, çıkan köpüğü alın. Buğdayı ekleyin, kapağı kapatıp ateşi en düşük seviyeye alın.",
    "Yaklaşık 2,5 saat, arada bir karıştırarak ve gerekirse sıcak su ekleyerek pişirin. Et kemikten ayrılıp lifleri dağılacak kadar yumuşamalı, buğdayın tanesi ise patlayıp ezilmiş olmalı.",
@@ -65,5 +65,13 @@
   "tr": "Harisenin dokusunu belirleyen şey dövme işlemidir; kıvamı yoğun ama kremsi tutmak için son aşamada sürekli karıştırın ve gerekirse biraz sıcak su ekleyin.",
   "en": "The signature texture comes from beating: keep stirring during the final stage and add a splash of hot water if it tightens too much, so the porridge stays creamy rather than gluey."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the onion should turn 'pembeleşene kadar' (until pinkish), but the English says 'until golden'. Onions are fried to a golden colour, so the Turkish is also an unnatural description"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

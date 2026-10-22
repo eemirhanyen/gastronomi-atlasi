@@ -43,7 +43,7 @@
    "Her bardağa 30 ml limon suyu sıkın (toplam 120 ml).",
    "Her bardağa 8 ml Worcestershire sosu, 5 ml Maggi sosu ve 10 ml acı sos ekleyip kaşıkla karıştırın.",
    "Bardakları buzla doldurun.",
-   "Biranın yarısını bardağa yavaşça, kenardan dökün; köpük taşmasın diye çok karıştırmayın.",
+   "Biranın yarısını bardağa yavaşça, kenardan dökün; köpük taşmasın diye biraz hızlı dökmeyin.",
    "Kalan biranın tamamını ekleyin ve hafifçe karıştırın.",
    "Her bardağa bir limon dilimi yerleştirip hemen servis yapın."
   ],
@@ -63,5 +63,13 @@
   "tr": "Bira ne kadar soğuk olursa tatlar o kadar dengeli olur; bu yüzden biranın ve buzun iyice soğuk olduğundan emin olun.",
   "en": "The colder the beer, the better the balance of flavours, so make sure both the beer and the ice are very cold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"köpük taşmasın diye çok karıştırmayın\" (don't stir too much), but the English says to pour slowly, not too fast. The Turkish should say not to pour quickly, so the two versions ma"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

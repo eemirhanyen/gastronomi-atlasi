@@ -9,7 +9,7 @@
   "en": "A dark, slow-cooked Tunisian meat stew defined by generous cumin, traditionally made with lamb or beef. It is served at weekend lunches, festive family meals and celebrations, usually with bread or couscous."
  },
  "servings": 4,
- "time_min": 100,
+ "time_min": 130,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,14 @@
   "tr": "Kimyon tohumunu kullanmadan önce kuru bir tavada hafifçe kavurup öğütürseniz aroması çok daha belirgin olur.",
   "en": "Lightly toast the caraway seeds in a dry pan before using them to bring out a much richer aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 100, but the steps total about 125-130 minutes (roughly 8 min browning, 10 min onions, 90 min simmering, 10-15 min reducing, plus prep and the other steps).",
+   "The Turkish caraway entry 'kimyon tohumu (karaven yerine de kullanılabilir)' is confusing. 'Kimyon' normally means cumin, which is already listed as ground cumin, and 'karaven' is not a standard Turki"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

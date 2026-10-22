@@ -23,7 +23,7 @@
    "1 tatlı kaşığı tuz",
    "1/2 çay kaşığı karabiber",
    "1 defne yaprağı",
-   "1,2 L sıcak su (et için), ek olarak yaklaşık 500 ml kaynar su (pirinç için)"
+   "1 L sıcak su (et için), ek olarak yaklaşık 400 ml kaynar su (pirinç için)"
   ],
   "en": [
    "500 g beef (leg or shoulder), boneless and cut into large cubes",
@@ -36,7 +36,7 @@
    "1 teaspoon salt",
    "1/2 teaspoon black pepper",
    "1 bay leaf",
-   "1.2 L hot water (for the meat), plus about 500 ml boiling water (for the rice)"
+   "1 L hot water (for the meat), plus about 400 ml boiling water (for the rice)"
   ]
  },
  "steps": {
@@ -48,7 +48,7 @@
    "Eti tencereye geri koyun, tuz, karabiber, kimyonu ve defne yaprağını ekleyin ve iyice karıştırın.",
    "Bütün sarımsak başını ortaya koyun, üzerine sıcak suyu dökün ve malzemeler yaklaşık 2 cm su altında kalacak şekilde ayarlayın.",
    "Kapağı kapatıp kısık ateşte yaklaşık 40 dakika, et yumuşayana kadar pişirin.",
-   "Pirinci süzün ve et ile sebzelerin üzerine eşit bir tabaka halinde, karıştırmadan yayın.",
+   "Pirinci berrak su çıkana kadar yıkayıp süzün ve et ile sebzelerin üzerine eşit bir tabaka halinde, karıştırmadan yayın.",
    "Pirincin üzerine kaynar suyu ekleyin; su seviyesi pirincin yaklaşık 1,5 cm üzerinde olmalı. Parmağınızla pirince birkaç delik açın.",
    "Kapağı kapatıp kısık ateşte 20-25 dakika, suyu tamamen çekene kadar pişirin.",
    "Ocağı kapatın ve pilavı kapağı kapalı halde 15 dakika dinlendirin.",
@@ -62,7 +62,7 @@
    "Return the beef to the pot, add the salt, black pepper, cumin and bay leaf, and stir well.",
    "Place the whole head of garlic in the middle, pour in the hot water and adjust so the ingredients are covered by about 2 cm of liquid.",
    "Cover and simmer over low heat for about 40 minutes, until the meat is tender.",
-   "Drain the rice and spread it evenly over the meat and vegetables in an even layer without stirring.",
+   "Rinse the rice until the water runs clear, then drain it and spread it evenly over the meat and vegetables in an even layer without stirring.",
    "Pour the boiling water over the rice so the level sits about 1.5 cm above it. Poke a few holes through the rice with your finger.",
    "Cover and cook over low heat for 20-25 minutes, until all the liquid is absorbed.",
    "Turn off the heat and let the plov rest, covered, for 15 minutes.",
@@ -73,5 +73,14 @@
   "tr": "Pirinci pişirmeden önce berrak su çıkana kadar birkaç kez yıkayın; bu, pilavın tanelerinin dağılmasını sağlar.",
   "en": "Rinse the rice until the water runs clear before cooking, so the grains stay separate and fluffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Liquid balance is unclear and likely excessive: 1.2 L of meat broth remains after 40 min of low simmering, and then about 500 ml more water is added over 400 g of rice. Total liquid is well above what",
+   "The tip says to rinse the rice until the water runs clear, but the steps only say to drain it. The steps should include the rinse."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

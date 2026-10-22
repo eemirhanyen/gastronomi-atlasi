@@ -16,7 +16,7 @@
    "4 adet kuş biberi (taze acı biber), yaklaşık 20 g",
    "3 adet kuru kırmızı biber, yaklaşık 10 g",
    "4 diş sarımsak, yaklaşık 20 g",
-   "3 adet Asya soğanı (shallot), yaklaşık 60 g",
+   "3 adet arpacık soğanı (shallot), yaklaşık 60 g",
    "1 tatlı kaşığı karides ezmesi (kapi), yaklaşık 10 g",
    "15 g palmiye şekeri",
    "1 yemek kaşığı balık sosu (15 ml)",
@@ -47,9 +47,9 @@
   "tr": [
    "Kuru kırmızı biberleri kuru bir tavada orta ateşte 1-2 dakika, koku çıkana ve hafif koyulaşana kadar kavurun. Soğumaya bırakın ve saplarını çıkarın.",
    "Karides ezmesini folyoya sarın ve kuru tavada orta ateşte her iki yüzünde 2-3 dakika kavurun. Kokusu çıktığında kenara alın.",
-   "Sarımsakları ve Asya soğanlarını soyun. Taze kuş biberlerini kabaca doğrayın.",
+   "Sarımsakları ve arpacık soğanlarını soyun. Taze kuş biberlerini kabaca doğrayın.",
    "Havanda kavrulmuş kuru biberleri önce toz haline getirin. Ardından taze biberleri ve sarımsakları ekleyip ezerek pürüzlü bir macun elde edin.",
-   "Asya soğanlarını ekleyip yumuşayana kadar ezmeye devam edin.",
+   "Arpacık soğanlarını ekleyip yumuşayana kadar ezmeye devam edin.",
    "Kavrulmuş karides ezmesini ekleyin ve tüm malzemeler iyice karışana kadar dövün.",
    "Palmiye şekerini, balık sosunu ve lime suyunu ekleyip karıştırın, şeker eriyene kadar dövün. Tadına bakın; ekşi, tatlı ve tuzlu dengesini gerektiği gibi ayarlayın.",
    "Yardımcı fasulyeleri 4 dakika, lahanayı 3 dakika buharda pişirin, süzün ve parçalara ayırın. Patlıcanı 6-8 dakika buharda haşlayın, dilimleyin. Salatalıkları çubuklar halinde kesin.",
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Karides ezmesini folyo içinde kavurmak kokusunun mutfağı kaplamasını önler; ezmeyi dövmeden önce ocağa almak için iyi havalandırılan bir oda seçin.",
+  "tr": "Karides ezmesini folyo içinde kavurmak kokusunun mutfağı kaplamasını önler; ezmeyi kavururken ve dövürken iyi havalandırılmış bir mutfakta çalışın. Balık sosunu ve lime suyunu en son, ezme dengelendikten sonra ayarlayın; sos tuzlu, ekşi ve tatlı dengeli olmalıdır.",
   "en": "Toast shrimp paste wrapped in foil to keep its strong smell contained, and work in a well-ventilated kitchen. Adjust the fish sauce and lime juice last, since the dip should balance salty, sour and sweet."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip omits the English point to adjust fish sauce and lime juice last",
+   "Turkish tip sentence 'ezmeyi dövmeden önce ocağa almak için' is garbled: it says to put the paste on the stove, which is not the intended meaning",
+   "'Asya soğanı' is not the standard Turkish term for shallot; 'arpacık soğanı' is the usual name"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

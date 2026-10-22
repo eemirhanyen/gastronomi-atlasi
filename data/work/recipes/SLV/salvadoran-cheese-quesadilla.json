@@ -47,7 +47,7 @@
    "Rendelenmiş peynirin yaklaşık üçte ikisini hamura katlayın.",
    "Hamuru hazırlanan kalıplara eşit şekilde dökün. Kalan peyniri ve susamı kekin üzerine serpin.",
    "Kekleri fırının orta rafında, üstleri altın sarısı olup bir kürdan temiz çıkana kadar 25-30 dakika pişirin (tek büyük kalıpta 35-40 dakika).",
-   "Keklerin kalıpta 10 dakika soğumasını bekleyin, sonra kalıptan çıkarıp tel ızgarada tamamen soğutun. Sıcak veya ılık servis edin."
+   "Keklerin kalıpta 10 dakika soğumasını bekleyin, sonra kalıptan çıkarıp tel ızgarada tamamen soğutun. Ilık veya oda sıcaklığında servis edin."
   ],
   "en": [
    "Preheat the oven to 170°C. Grease four small cake moulds (or one 20 cm round tin) with butter and line the bases with baking paper.",
@@ -65,5 +65,13 @@
   "tr": "Geleneksel tatta peynir olarak sert ve tuzlu olgun peynir kullanılır; Parmesan bunun için en pratik seçenektir. Kekler soğudukça dokusu sıkılaşır, bu yüzden en iyi tadı ilk gün verir.",
   "en": "Traditionally a hard, salty aged cheese is used; Parmesan is the most practical substitute. The cakes firm up as they cool, so they taste best on the day they are baked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Serving temperature disagrees between versions: Turkish step 9 says 'Sıcak veya ılık' (hot or lukewarm), while English says 'warm or at room temperature'. Turkish is aligned to the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

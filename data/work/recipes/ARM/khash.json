@@ -9,7 +9,7 @@
   "en": "A rich, gelatinous soup of slowly simmered beef trotters, traditionally eaten in Armenia during the cold winter months, often early in the morning. It is served with plenty of garlic, coarse salt and lavash."
  },
  "servings": 4,
- "time_min": 480,
+ "time_min": 600,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -55,7 +55,16 @@
  },
  "tip": {
   "tr": "Khash'i bir gün önceden pişirip soğutun; katılaşan yağ kolayca alınır ve çorba daha berrak ve lezzetli olur. Servisten önce tekrar kaynatmayı unutmayın.",
-  "en": "Cook the khash a day ahead and let it cool; the fat will solidify on top and can be lifted off easily, leaving a clearer, richer broth. Reheat gently before serving."
+  "en": "Cook the khash a day ahead and let it cool; the fat will solidify on top and can be lifted off easily, leaving a clearer, richer broth. Bring it back to a gentle simmer before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 480 (8 hours), but the recipe requires at least 2 hours of soaking plus 7 to 8 hours of simmering, so the total should be about 600 minutes.",
+   "The Turkish tip says to bring the broth back to a boil before serving, while the English tip says to reheat gently. The English is aligned to the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

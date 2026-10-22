@@ -9,7 +9,7 @@
   "en": "A saffron- and ginger-scented chicken braise eaten across Algeria, especially at Ramadan iftar and festive family meals. Green olives and preserved lemon give it a bright, savoury tang, and it is traditionally served with bread or couscous."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -62,7 +62,7 @@
    "Tavukları tencereye geri koyun. Kişniş, maydanoz, safranlı suyu ve sıcak suyu (ya da tavuk suyunu) ekleyin.",
    "Kapağını kapatıp kısık ateşte yaklaşık 35 dakika, tavuk çok yumuşayana kadar pişirin.",
    "Zeytinleri ve durulanmış limon kabuğunu ekleyin. Kapağı açık bırakarak yaklaşık 10 dakika daha pişirin, sos biraz koyulaşsın.",
-   "Ocaktan almadan önce tereyağını ekleyip karıştırın, tatmin edip gerekirse tuz ekleyin. Sıcak sıcak, ekmek veya kuskusla servis edin."
+   "Ocaktan almadan önce tereyağını ekleyip karıştırın, tadına bakıp gerekirse tuz ekleyin. Sıcak sıcak, ekmek veya kuskusla servis edin."
   ],
   "en": [
    "Soak the saffron in 30 ml warm water for 5 minutes.",
@@ -76,8 +76,18 @@
   ]
  },
  "tip": {
-  "tr": "Tuzlanmış limon kabuğunu pişirmeden önce mutlaka durulayın; aksi halde yemek fazla tuzlu olabilir.",
+  "tr": "Tuzlanmış limon kabuğunu dilimlemeden önce mutlaka durulayın; aksi halde yemek fazla tuzlu olabilir.",
   "en": "Rinse the preserved lemon rind before slicing; otherwise the dish can turn too salty, especially with brined olives."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to rinse the preserved lemon before cooking, while the English tip says before slicing. The two versions should match.",
+   "Turkish step 8 uses 'tatmin edip', which is not the natural phrasing for tasting a dish. 'Tadına bakıp' is the standard wording.",
+   "time_min is 60, but the steps add up to about 70 minutes of cooking (5 + 8 + 10 + 35 + 10) before preparation, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

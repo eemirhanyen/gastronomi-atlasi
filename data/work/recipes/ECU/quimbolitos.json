@@ -5,10 +5,10 @@
  },
  "native": "Quimbolitos",
  "desc": {
-  "tr": "Ekvador'un sierra bölgesinde, özellikle Pichincha ve Cotopaxi çevresinde yaygın olan, mısır unundan yapılan, anason ve limon kabuğuyla aromalandırılmış, muz veya achira yaprağına sarılarak buharda pişirilen tatlı bir kektir. Genellikle öğleden sonra kahve ya da çikolatalı sıcak içecekle servis edilir.",
+  "tr": "Ekvador'un And bölgesinde, özellikle Pichincha ve Cotopaxi çevresinde yaygın olan, mısır unundan yapılan, anason ve limon kabuğuyla aromalandırılmış, muz veya achira yaprağına sarılarak buharda pişirilen tatlı bir kektir. Genellikle öğleden sonra kahve ya da çikolatalı sıcak içecekle servis edilir.",
   "en": "A sweet cornmeal cake from the Ecuadorian Andes, especially around Pichincha and Cotopaxi, flavoured with anise and lemon zest and steamed in banana or achira leaf packets. It is usually served warm in the afternoon with coffee or a hot chocolate drink."
  },
- "servings": 4,
+ "servings": 12,
  "time_min": 60,
  "difficulty": "medium",
  "ingredients": {
@@ -50,7 +50,7 @@
    "Büyük bir kapta tereyağı ve şekeri 4-5 dakika krema kıvamı gelene kadar çırpın.",
    "Yumurtaları birer birer ekleyip her birini iyice karıştırın. Vanilya özü ve limon kabuğunu ekleyin.",
    "Kuru karışımı ve sütü dönüşümlü olarak iki partide ekleyip spatulayla hafifçe karıştırın. Hamur pürüzsüz ve kıvamlı olmalıdır.",
-   "Her muz yaprağının ortasına yaklaşık 2 yemek kaşığı (yaklaşık 45-50 g) hamur koyun.",
+   "Her muz yaprağının ortasına yaklaşık 4 yemek kaşığı (yaklaşık 60 g) hamur koyun.",
    "Yaprağın kenarlarını ortaya doğru katlayarak kare veya dikdörtgen bir paket oluşturun ve iple sıkıca bağlayın.",
    "Büyük bir tencerenin dibine ızgara ya da buharda pişirme sepeti yerleştirin. Paketleri üst üste gelmeyecek şekilde dizin. Tencereye yaklaşık 3 cm su koyun ve kaynatın.",
    "Kapağı kapatıp orta-düşük ateşte, su sürekli hafifçe kaynarken 40 dakika buharda pişirin. Gerekirse su ekleyin.",
@@ -63,7 +63,7 @@
    "In a large bowl, beat the butter and sugar for 4 to 5 minutes until light and creamy.",
    "Add the eggs one at a time, beating well after each. Stir in the vanilla extract and lemon zest.",
    "Fold in the dry mixture and the milk alternately in two additions, stirring gently until smooth and thick.",
-   "Place about 2 tablespoons (roughly 45 to 50 g) of batter in the centre of each leaf.",
+   "Place about 4 tablespoons (roughly 60 g) of batter in the centre of each leaf.",
    "Fold the sides of the leaf over the batter to make a neat square or rectangular packet, then tie firmly with string.",
    "Place a steamer rack or trivet in a large pot and add about 3 cm of water. Arrange the packets on the rack without stacking them, and bring the water to a boil.",
    "Cover and steam over medium-low heat, keeping the water gently simmering, for 40 minutes. Add more water if needed.",
@@ -75,5 +75,15 @@
   "tr": "Muz yapraklarını ısıtmadan kullanırsanız katlarken yırtılır; ayrıca paketleri çok sıkı bağlamayın, çünkü hamur buharda biraz kabarır.",
   "en": "Warm the leaves before folding or they will tear, and leave a little room in each packet because the batter rises slightly while steaming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batter quantity per leaf is inconsistent: 2 tablespoons is roughly 30 g, not 45-50 g. Also, 12 packets at 45-50 g use only about 540-600 g of the roughly 720 g of batter the ingredients make.",
+   "Servings is 4, but the recipe makes about 12 individual packets, so the yield per serving is inconsistent. Each packet is a single cake, so 12 servings fits better.",
+   "Turkish description uses the untranslated Spanish term 'sierra' where 'And' (Andes) would be natural. Minor, but it is an unnatural choice of Turkish wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

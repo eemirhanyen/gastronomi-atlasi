@@ -21,7 +21,7 @@
    "150 g taze fasulye filizi",
    "3 diş sarımsak",
    "10 g taze zencefil",
-   "75 ml sıvı yağ",
+   "65 ml sıvı yağ",
    "60 ml açık soya sosu",
    "15 ml koyu soya sosu",
    "15 ml istiridye sosu",
@@ -41,7 +41,7 @@
    "150 g fresh bean sprouts",
    "3 cloves garlic",
    "10 g fresh ginger",
-   "75 ml vegetable oil",
+   "65 ml vegetable oil",
    "60 ml light soy sauce",
    "15 ml dark soy sauce",
    "15 ml oyster sauce",
@@ -62,7 +62,7 @@
    "Wok'u yüksek ateşte iyice ısıtın, 30 ml yağ ekleyin. Tavukları tek kat halinde 3-4 dakika mühürleyin, ardından bir tabağa alın.",
    "Wok'a kalan 30 ml yağı ekleyin. Sarımsak, zencefil ve soğanın beyaz kısımlarını ekleyip 30 saniye kavurun.",
    "Havuç ve lahanayı ekleyip 2 dakika hızlıca sote edin. Fasulye filizlerini ekleyip 1 dakika daha pişirin.",
-   "Eriştesi ekleyin, hazırladığınız sosu dökün ve 2-3 dakika sürekli karıştırarak eşit şekilde sosun renk almasını sağlayın.",
+   "Eriştelerini ekleyin, hazırladığınız sosu dökün ve 2-3 dakika sürekli karıştırarak eşit şekilde sosun renk almasını sağlayın.",
    "Tavukları geri ekleyin, susam yağı ve soğanın yeşil kısımlarını ilave edip bir kez daha karıştırarak sıcak servis yapın."
   ],
   "en": [
@@ -81,5 +81,14 @@
   "tr": "Eriştelerin yapışmaması için wok'u iyice ısıtın ve eriştelerin üzerine sosu eklemeden önce kısa süre dokunmadan bekletin; böylece hafif kızarır ve lezzeti artar.",
   "en": "Get the wok very hot and let the noodles sit undisturbed for a few seconds before tossing; this gives them light browning and a smoky wok flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantity mismatch: 75 ml is listed, but the steps use only 5 ml (noodles) + 30 ml (searing chicken) + 30 ml (stir-frying aromatics) = 65 ml.",
+   "Turkish step 8 says 'Eriştesi ekleyin', which is grammatically awkward for 'the noodles'; 'Eriştelerini' is more natural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

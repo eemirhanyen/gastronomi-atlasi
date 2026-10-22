@@ -47,8 +47,8 @@
   "tr": [
    "Büyük bir kapta 60 ml limon suyu, ezilmiş sarımsak, 1 tatlı kaşık tuz, karabiber ve 3 yemek kaşığı sıvı yağı karıştırın.",
    "Balıkların içini ve dışını bu marinasyonla iyice ovalayın. Kapağını örterek veya örtü ile kapatarak 30 dakika dinlendirin.",
-   "Ocağı, kömür mangalını veya fırın ızgarasını yaklaşık 200°C'ye ısıtın ve ızgara ağzını hafifçe yağlayın.",
-   "Balıkları her iki tarafta 6 ila 8 dakika, et kolayca ayrılana kadar pişirin. Pişirirken kalan marinasyonla birkaç kez fırçalayın.",
+   "Kömür mangalını, gaz ızgarayı veya fırın ızgarasını yaklaşık 200°C'ye ısıtın ve ızgara rafını hafifçe yağlayın.",
+   "Balıkları her iki tarafta 6 ila 8 dakika, et kolayca ayrılana kadar pişirin. Pişirirken birkaç kez hafifçe yağ sürün.",
    "Sosu hazırlamak için orta ateşte bir tencerede palmiye yağını ısıtın. Soğanı ekleyip 5 dakika, yumuşayana kadar kavurun.",
    "Kıyılmış sarımsak ve pili-pili biberlerini ekleyip 1 dakika daha kavurun.",
    "Doğranmış domatesleri ve 150 ml suyu ekleyin. Kısık ateşte, sos koyulaşana kadar yaklaşık 15 dakika pişirin.",
@@ -59,7 +59,7 @@
    "In a large bowl, mix 60 ml lime juice, the crushed garlic, 1 tsp salt, black pepper and 3 tbsp vegetable oil.",
    "Rub the marinade inside and outside each fish. Cover and rest for 30 minutes.",
    "Preheat a charcoal grill, gas grill or oven grill to about 200°C and lightly oil the grate.",
-   "Grill the fish for 6 to 8 minutes per side, until the flesh flakes easily. Brush with the remaining marinade several times while cooking.",
+   "Grill the fish for 6 to 8 minutes per side, until the flesh flakes easily. Brush with a little oil several times while cooking.",
    "For the sauce, heat the palm oil in a saucepan over medium heat. Add the onion and fry for about 5 minutes until soft.",
    "Add the minced garlic and chopped pili-pili and fry for 1 more minute.",
    "Add the chopped tomatoes and 150 ml water. Simmer gently for about 15 minutes until thickened.",
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Pili-pili miktarını ayarlamak için biberlerin tohumlarını çıkarın; daha yumuşak bir tat için sosu pişirmeden önce soğanla birlikte kavurun.",
+  "tr": "Daha az acı için biberlerin tohumlarını çıkarın; ya da biberleri bütün olarak soğanla birlikte kavurup, sosu blenderdan geçirmeden önce çıkarın.",
   "en": "Remove the seeds from the chilies for a milder sauce, or add them whole and fish them out before blending for a gentler heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 tells the cook to brush the fish with the 'remaining marinade', but all the marinade (60 ml lime juice, oil, garlic) was already used on the raw fish, so there is no clean remainder. Reusing ra",
+   "Tip mismatch: the Turkish tip says to fry the chilies with the onion for a milder sauce, while the English tip says to add them whole and remove them before blending. The two versions must match.",
+   "Turkish phrasing: 'Ocağı' should be 'Kömür mangalını, gaz ızgarayı veya fırın ızgarasını', and 'ızgara ağzını' should be 'ızgara rafını'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

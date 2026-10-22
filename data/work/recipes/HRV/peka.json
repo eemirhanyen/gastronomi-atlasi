@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Geleneksel peka kapağı yoktur; evde kalın tabanlı, sıkı kapaklı bir tencere ve gerekirse kapağın kenarlarına alüminyum folyo sararak buharın kaçmasını önleyin.",
+  "tr": "Geleneksel peka çan biçimli bir kapakla ve kor ateşle pişirilir; evde kalın tabanlı, sıkı kapaklı bir tencere ve gerekirse kapağın kenarlarına alüminyum folyo sararak buharın kaçmasını önleyin.",
   "en": "A traditional peka is cooked under a bell lid with embers; at home, a heavy lidded pot with the lid sealed tightly with foil gives similar moist, slow-braised results."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says 'Geleneksel peka kapağı yoktur' (a traditional peka has no lid), which contradicts the description and the English tip, both of which say it is cooked under a bell-shaped lid."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A staple of the Cape Verde islands, this stew combines dried pigeon peas with pork and spicy smoked sausage. It is served as a main meal with rice, especially on weekends and festive occasions."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -56,8 +56,8 @@
    "Sucuğu ekleyip 3 dakika daha kavurun, ardından yağını salıverdiğini görünce kenara alın.",
    "Aynı yağda soğanı yumuşayana ve hafifçe kızarana kadar yaklaşık 6 dakika soteleyin. Sarımsağı ekleyip 1 dakika daha karıştırın.",
    "Yeşil biberi, salçayı ve tatlı kırmızı biberi ekleyip 1 dakika pişirin. Rendelenmiş domatesleri ilave edip sos koyulaşana kadar 5 dakika pişirin.",
-   "Haşlanmış bezelyeyi, ayrılmış haşlama suyunu (yoksa su veya et suyu ile toplam 1 litreyi tamamlayarak), kavrulmuş eti, sucuğu, balkabağını ve defne yaprağını tencereye ekleyin. Tuz ve karabiberi ekleyip karıştırın.",
-   "Kapağı kapalı olarak kısık ateşte 40 dakika kadar pişirin. Bezelyeler yumuşayınca ve sos kıvam alınca birkaç kaşık bezelyeyi ezerek yahniyi koyulaştırın.",
+   "Haşlanmış bezelyeyi, ayrılmış haşlama suyunu (yoksa su veya et suyu ile toplam 1 litreyi tamamlayarak), kavrulmuş eti, sucuğu, balkabağını ve defne yaprağını tencereye ekleyip iyice karıştırın.",
+   "Kapağı kapalı olarak kısık ateşte 40 dakika kadar pişirin. Bezelyeler yumuşayınca ve balkabağı dağılınca tuz ve karabiberi ekleyin, ardından birkaç kaşık bezelyeyi ezerek yahniyi koyulaştırın.",
    "Defne yaprağını çıkarın, maydanozu serpip 5 dakika dinlendirin. Sıcak pirinç pilavının yanında servis yapın."
   ],
   "en": [
@@ -66,8 +66,8 @@
    "Add the sausage and fry for 3 more minutes, then set it aside once it has released its fat.",
    "In the same oil, soften the onion for about 6 minutes until lightly golden. Add the garlic and stir for 1 minute.",
    "Add the green pepper, tomato paste and sweet paprika and cook for 1 minute. Stir in the grated tomatoes and cook for 5 minutes until the sauce thickens.",
-   "Return the browned pork and sausage to the pot. Add the drained peas, the reserved cooking water (topped up to 1 litre with water or stock), the pumpkin and the bay leaf. Season with salt and black pepper and stir well.",
-   "Cover and simmer gently for about 40 minutes, until the peas are soft and the pumpkin has broken down. Mash a few spoonfuls of peas against the side of the pot to thicken the stew.",
+   "Return the browned pork and sausage to the pot. Add the drained peas, the reserved cooking water (topped up to 1 litre with water or stock), the pumpkin and the bay leaf and stir well.",
+   "Cover and simmer gently for about 40 minutes, until the peas are soft and the pumpkin has broken down. Season with salt and black pepper, then mash a few spoonfuls of peas against the side of the pot to thicken the stew.",
    "Remove the bay leaf, sprinkle with parsley and rest for 5 minutes. Serve hot with rice."
   ]
  },
@@ -75,5 +75,14 @@
   "tr": "Bezelyesinin yumuşaması için bir gece önceden suda bekletin ve haşlama suyunda pişirmeye devam ederken tuzu sadece sona doğru ekleyin; böylece bezelyeler sert kalmaz.",
   "en": "Soak the peas overnight and add the salt only near the end of cooking, since salt added too early can keep the peas firm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Internal contradiction: the tip says to add salt only near the end of cooking, but step 6 seasons with salt before the 40-minute simmer. Salt moved to the end of step 7 in both languages.",
+   "Time underestimated: 50 min boiling the peas, plus frying, sauce, and 40 min simmering, comes to well over 90 min. Changed to 120."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

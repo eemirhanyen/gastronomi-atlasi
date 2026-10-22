@@ -42,8 +42,8 @@
    "Sarımsağı ince kıyın, bir tutam tuzla birlikte bıçağın yan yüzüyle ezerek macun haline getirin.",
    "Havuçları süzgeçte iyice süzün ve 2 dakika buharının çıkmasını bekleyin.",
    "Havuçları geniş bir kaseye alın ve çatal ya da patates ezici ile kabaca ezin; tamamen püre olmasın, hafif dokulu kalsın.",
-   "Ezilmiş sarımsağı, limon suyunu, zeytinyağını, kimyonu, tatlı kırmızı biberi ve tuzu ekleyip karıştırın.",
-   "Yarım bardak... yerine: maydanozun yarısını ekleyip iyice karıştırın, tadına bakıp gerekirse tuz veya limon ekleyerek ayarlayın.",
+   "Ezilmiş sarımsağı, limon suyunu, zeytinyağını, kimyonu, tatlı kırmızı biberi ve kalan tuzu ekleyip karıştırın.",
+   "Maydanozun yarısını ekleyip iyice karıştırın, tadına bakıp gerekirse tuz veya limon ekleyerek ayarlayın.",
    "Salatayı servis tabağına alın, kalan maydanozu üzerine serpin ve oda sıcaklığında ekmekle servis edin."
   ],
   "en": [
@@ -61,5 +61,14 @@
   "tr": "Havucu iyice süzüp buharını uçurmak, salatanın sulanmasını önler ve tadın daha yoğun çıkmasını sağlar.",
   "en": "Drain and steam-dry the carrots thoroughly so the salad stays thick and the flavours concentrate."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 contains a garbled leftover fragment ('Yarım bardak... yerine:') that does not match the English version.",
+   "Turkish step 6 says 'tuzu' (the salt) while the English says 'the remaining salt'. The Turkish should say 'kalan tuzu' to match the English and the pinch of salt used in step 3."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

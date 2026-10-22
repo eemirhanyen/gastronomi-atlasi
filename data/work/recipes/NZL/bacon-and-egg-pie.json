@@ -48,9 +48,9 @@
    "Fırını 200°C'ye ısıtın.",
    "Un ve tuzu geniş bir kaseye alın. Soğuk tereyağını parmak uçlarınızla unun içine ovalayarak kum kıvamına gelene kadar karıştırın.",
    "Yumurta sarısını ve soğuk suyu ekleyip yumuşak bir hamur yoğurun. Hamuru streç film ile sarıp buzdolabında 20 dakika dinlendirin.",
-   "Geniş bir tavada yağı ısıtın, beyconu ekleyip 4-5 dakika kızarana kadar pişirin. Doğranmış soğanı ekleyip yumuşayana kadar 3 dakika daha kavurun. Ocaktan alıp soğumaya bırakın.",
+   "Geniş bir tavada yağı ısıtın, beykonu ekleyip 4-5 dakika kızarana kadar pişirin. Doğranmış soğanı ekleyip yumuşayana kadar 3 dakika daha kavurun. Ocaktan alıp soğumaya bırakın.",
    "Hamurun üçte ikisini unlu bir yüzeyde yuvarlayıp 22 cm'lik yaylı kek kalıbına yayın ve kenarlarını bastırarak tabanı ve yanları kaplayın.",
-   "Pişmiş beyconu ve soğanı hamurun üzerine dengeli bir şekilde yayın.",
+   "Pişmiş beykonu ve soğanı hamurun üzerine dengeli bir şekilde yayın.",
    "Kremayı, rendelenmiş kaşarı ve karabiberi bir kapta karıştırın. Dört yumurtayı çırpıp bu karışıma ekleyin, ardından kalıba dökün.",
    "Kalan hamuru yuvarlayıp kalıbın üzerini kapatın. Kenarları iyice birleştirip fazla hamuru kesin, üste birkaç küçük havalandırma deliği açın.",
    "Çırpılmış yumurta ve sütü üzerine fırça ile sürün.",
@@ -72,8 +72,16 @@
   ]
  },
  "tip": {
-  "tr": "Dolgunun sulanmaması için beyconu ve soğanı iyice soğutun; sıcak dolgu hamuru ıslatır ve altını yumuşatır.",
+  "tr": "Dolgunun sulanmaması için beykonu ve soğanı iyice soğutun; sıcak dolgu hamuru ıslatır ve altını yumuşatır.",
   "en": "Let the bacon and onion cool completely before filling, otherwise warm filling will soften the pastry base."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 misspells 'beykon' as 'beyconu' (the Turkish ingredient name is 'beykon'); the English version is otherwise consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

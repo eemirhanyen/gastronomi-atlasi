@@ -9,7 +9,7 @@
   "en": "A roasted red pepper relish-sauce made in autumn across Serbia and the Balkans and stored for winter. It is eaten with bread, cheese, grilled meats and kebabs."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -43,7 +43,7 @@
    "Transfer the roasted peppers to a covered bowl and let them steam for 10 minutes, then peel off the skins and remove the seeds.",
    "Chop the cleaned peppers and blend them to a slightly coarse purée.",
    "Crush the garlic clove and fry it in the sunflower oil over medium heat for 1 minute.",
-   "Add the pepper purée and simmer gently for 35-40 minutes, stirring often, until thick. Stir in the salt and lemon juice near the end.",
+   "Add the pepper purée and simmer gently for 35-40 minutes, stirring often, until thick. Once thickened, stir in the salt and lemon juice.",
    "Let the ajvar cool to room temperature, spoon it into clean glass jars and refrigerate."
   ]
  },
@@ -51,5 +51,14 @@
   "tr": "Biberleri kabuğu tamamen simsiyah olana kadar közleyin; kabuk ne kadar kolay soyulursa sosun tadı o kadar temiz olur.",
   "en": "Roast the peppers until the skins are fully blistered and blackened; the easier they peel, the cleaner the flavour of the finished ajvar."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 6 says salt and lemon are added 'near the end', while the Turkish step adds them once the sauce thickens. The timing needs to match.",
+   "time_min is 90, but the steps (about 25 min roasting, 10 min steaming, peeling, 35-40 min simmering, cooling) add up to roughly 2 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

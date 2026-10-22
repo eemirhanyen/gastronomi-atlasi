@@ -57,7 +57,7 @@
    "Haşlanan muzları sıcakken bir kaseye alın, tereyağı ve kalan tuzla iyice ezerek pürüzsüz bir hamur elde edin. Hamuru oda sıcaklığına yakın bir sıcaklığa kadar soğumaya bırakın.",
    "Yağı küçük bir tavada ısıtın, achiote tohumlarını ekleyip 3 ila 4 dakika kısık ateşte bekletin. Yağ koyu turuncu renge geçince tohumları süzün ve yağı ayırın.",
    "Achiote yağında kalan yarım soğanı ve 1 diş sarımsağı ince doğrayıp yumuşayana kadar yaklaşık 4 dakika kavurun. Domatesi ekleyip 3 dakika daha pişirin.",
-   "Ayırdığınız tavuk suyunu ve didiklenmiş tavuğu tencereye ekleyin. Öğütülmüş fıstığı bir kepçe sıcak suyla karıştırıp çorbaya ilave edin, karabiberi de katın. Çorbayı 10 dakika kısık ateşte kaynatın.",
+   "Achiote yağındaki soğan, sarımsak ve domatesi, ayırdığınız tavuk suyunu ve didiklenmiş tavuğu tencereye ekleyin. Öğütülmüş fıstığı bir kepçe sıcak suyla karıştırıp çorbaya ilave edin, karabiberi de katın. Çorbayı 10 dakika kısık ateşte kaynatın.",
    "Muz hamurunu 8 ila 10 parça halinde bölün, her parçayı avuç içinde yuvarlayıp ortasına ufalanmış peyniri koyarak kapatın ve top haline getirin.",
    "Kızartma yağını orta-yüksek ateşte ısıtın. Muz toplarını altın rengi alana ve çıtır olana kadar yaklaşık 4 ila 5 dakika kızartın, kağıt havluya alıp yağını süzdürün.",
    "Servis kaselerine birkaç kızarmış top koyun, sıcak çorbayı üzerine dökün. Kişniş yaprağı ve limon dilimleriyle servis yapın."
@@ -69,7 +69,7 @@
    "While still hot, mash the plantains in a bowl with the butter and the remaining salt until smooth. Let the dough cool until it is warm but comfortable to handle.",
    "Heat the vegetable oil in a small pan, add the achiote seeds and let them sizzle gently over low heat for 3 to 4 minutes. When the oil turns deep orange, strain out the seeds and keep the oil.",
    "In the achiote oil, sauté the remaining onion half and garlic clove, both finely chopped, for about 4 minutes until soft. Add the diced tomato and cook for 3 minutes more.",
-   "Return the reserved chicken broth and the shredded chicken to the pot. Stir the ground peanuts into a ladle of hot broth, add this paste to the soup along with the black pepper, and simmer gently for 10 minutes.",
+   "Scrape the onion, garlic and tomato with their achiote oil into the pot, then return the reserved chicken broth and the shredded chicken. Stir the ground peanuts into a ladle of hot broth, add this paste to the soup along with the black pepper, and simmer gently for 10 minutes.",
    "Divide the plantain dough into 8 to 10 portions. Roll each into a ball in your palms, press a pinch of crumbled cheese into the centre and seal it to form a ball.",
    "Heat the frying oil over medium-high heat. Fry the plantain balls for about 4 to 5 minutes until golden and crisp, then drain them on paper towels.",
    "Place a few fried balls in each serving bowl and ladle the hot soup over them. Serve with chopped cilantro and lime wedges."
@@ -79,5 +79,14 @@
   "tr": "Muz toplarının içindeki peynir eriyip dışarı sızmasın diye hamurun sıcaklığını ve top kapatma işini dikkatli yapın; topları servisten hemen önce kızartın.",
   "en": "Shape the balls with dry hands and seal the cheese fully inside, then fry them just before serving so they stay crisp in the hot broth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 sautés the onion, garlic and tomato in the achiote oil, but no later step adds them to the soup. Step 7 only adds the broth, the chicken and the peanut paste, so the sofrito is dropped and the ",
+   "Step 7 needs to say that the sautéed onion, garlic and tomato, together with their achiote oil, go into the pot. The English and Turkish versions must match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

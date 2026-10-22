@@ -59,8 +59,8 @@
    "Cevizi, şekeri ve tarçını ekleyip karıştırın. Ocakta 2-3 dakika kısık ateşte pişirerek koyu bir harç elde edin, ardından oda sıcaklığına soğumaya bırakın.",
    "Hamuru hafif unlanmış bir yüzeyde yaklaşık 25 x 35 cm boyutunda, 3 mm kalınlığında bir dikdörtgen olacak şekilde açın.",
    "Soğumuş iç harcı hamurun üzerine kenarlardan 1 cm boşluk bırakarak eşit yayın.",
-   "Uzun kenardan başlayarak sıkıca sarın ve birleşim yerini parmaklarınızla kapatın.",
-   "Sarılmış hamuru yağlanmış ve unlanmış 20 x 10 cm'lik bir kek kalıbına birleşim yeri altta kalacak şekilde yerleştirin.",
+   "Kısa kenardan başlayarak sıkıca sarın ve birleşim yerini parmaklarınızla kapatın.",
+   "Sarılmış hamuru yağlanmış ve unlanmış 30 x 10 cm'lik bir kek kalıbına birleşim yeri altta kalacak şekilde yerleştirin.",
    "Kalıbı örtüp sıcak bir yerde yaklaşık 30 dakika, hamur kabarana kadar dinlendirin.",
    "Fırını 180°C'ye ısıtın. Yumurta sarısını süt ile çırpın ve potica'nın üstüne sürün.",
    "Üzerine eritilmiş tereyağını da fırçalayın. Fırının orta rafında 35-40 dakika, üstü altın rengi olana kadar pişirin.",
@@ -75,8 +75,8 @@
    "Stir in the ground walnuts, sugar and cinnamon. Cook over low heat for 2-3 minutes to form a thick paste, then let it cool to room temperature.",
    "On a lightly floured surface, roll the dough into a rectangle about 25 x 35 cm and 3 mm thick.",
    "Spread the cooled filling evenly over the dough, leaving a 1 cm border around the edges.",
-   "Starting from a long edge, roll the dough up tightly and pinch the seam closed.",
-   "Place the roll seam-side down in a greased and floured 20 x 10 cm loaf tin.",
+   "Starting from a short edge, roll the dough up tightly and pinch the seam closed.",
+   "Place the roll seam-side down in a greased and floured 30 x 10 cm loaf tin.",
    "Cover and let it rest in a warm place for about 30 minutes, until puffy.",
    "Preheat the oven to 180°C. Whisk the egg yolk with the milk and brush it over the top of the potica.",
    "Brush the top with the melted butter as well. Bake on the middle rack for 35-40 minutes, until golden brown.",
@@ -87,5 +87,13 @@
   "tr": "İç harcın çok sıcak sarılmasını önleyin; sıcak harç hamuru yırtar ve dilimlerken iç kısmın akmasına neden olur.",
   "en": "Let the filling cool fully before spreading; warm filling tears the dough and can leak out of the slices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Pan and roll dimensions don't fit: the dough is rolled from the 35 cm long edge, giving a roll about 35 cm long, which won't fit in a 20 x 10 cm tin. Rolling from the 25 cm short edge gives a roll abo"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

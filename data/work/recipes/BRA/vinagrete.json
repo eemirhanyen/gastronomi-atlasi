@@ -9,7 +9,7 @@
   "en": "A fresh condiment-style salad of tomato, onion and green pepper, served alongside churrasco (grilled meats) and feijoada across Brazil. It appears on everyday lunch and dinner tables as well as at barbecues."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 30,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -39,23 +39,34 @@
    "Domatesleri ikiye bölüp çekirdeklerini çıkarın, ardından 5 mm civarında küp doğrayın.",
    "Yeşil biberin çekirdeklerini ve iç zarlarını temizleyip aynı boyda küp doğrayın.",
    "Büyük bir kasede domates, soğan ve biberi birleştirin.",
-   "Zeytinyağı, beyaz sirke, tuz ve karabiberi ekleyip yavaşça karıştırın.",
+   "Zeytinyağı, beyaz sirke ve karabiberi ekleyip yavaşça karıştırın.",
    "Maydanozu ekleyip son kez karıştırın.",
-   "Vinageteyi oda sıcaklığında yaklaşık 15 dakika dinlendirin ki tatlar birbirine karışsın, ardından servis yapın."
+   "Vinageteyi oda sıcaklığında yaklaşık 15 dakika dinlendirin ki tatlar birbirine karışsın.",
+   "Servis yapmadan hemen önce tuzu ekleyip karıştırın, ardından servis yapın."
   ],
   "en": [
    "Dice the onion finely, rinse it briefly under cold water and drain; this softens its sharp bite.",
    "Halve the tomatoes, scoop out the seeds, then dice them into roughly 5 mm pieces.",
    "Remove the seeds and membranes from the green pepper and dice it to the same size.",
    "Combine the tomatoes, onion and pepper in a large bowl.",
-   "Add the olive oil, white vinegar, salt and black pepper, and stir gently.",
+   "Add the olive oil, white vinegar and black pepper, and stir gently.",
    "Fold in the chopped parsley.",
-   "Let the vinagrete rest at room temperature for about 15 minutes so the flavours meld, then serve."
+   "Let the vinagrete rest at room temperature for about 15 minutes so the flavours meld.",
+   "Just before serving, stir in the salt, then serve."
   ]
  },
  "tip": {
   "tr": "Domatesleri servisten hemen önce değil, birkaç saat önceden doğrayıp süzerseniz salata daha az sulanır; yine de tuzu en son ekleyin.",
   "en": "Dice the tomatoes a few hours ahead and drain off excess juice so the salad stays firm; add the salt just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is added in the mixing step, but the tip says to add salt just before serving; the steps and tip contradict each other.",
+   "time_min is 20, but the recipe includes about 15 minutes of chopping plus a 15-minute rest, so the total is closer to 30 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

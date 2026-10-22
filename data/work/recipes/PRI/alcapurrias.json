@@ -29,7 +29,7 @@
    "2 yemek kaşığı doğranmış yeşil zeytin",
    "1 yemek kaşığı kapari",
    "1/2 tatlı kaşığı öğütülmüş kimyon",
-   "1/2 tatlı kaşığı kuru kekik veya kekik benzeri kuru oregano",
+   "1/2 tatlı kaşığı kuru oregano",
    "60 ml su",
    "Tuz ve karabiber",
    "1 litre kızartma yağı",
@@ -65,7 +65,7 @@
    "Yeşil muzu ve yautíayı çok ince olacak şekilde rendeleyin ya da mutfak robotunda çekin. Büyük bir kaseye alın, 1 tatlı kaşık tuz ve achiote yağının yarısını ekleyip iyice karıştırın.",
    "Karışım çok kuruysa 80 ml suyu azar azar ekleyerek yumuşak ama elden kolay çıkmayan bir hamur elde edin, ardından kaseyi streçle kapatıp bir kenara koyun.",
    "İç harç için büyük bir tavada zeytinyağını orta ateşte ısıtın. Soğan ve yeşil biberi ekleyip 4-5 dakika yumuşayana kadar soteleyin, sarımsağı ekleyip 30 saniye daha pişirin.",
-   "Kıymayı ekleyip suyunu çekene ve kızarmaya başlayana kadar 6-7 dakika pişirin. Sofrito, domates sosu, doğranmış zeytin, kapari, kimyon ve kekiği ekleyip karıştırın.",
+   "Kıymayı ekleyip suyunu çekene ve kızarmaya başlayana kadar 6-7 dakika pişirin. Sofrito, domates sosu, doğranmış zeytin, kapari, kimyon ve oreganoyu ekleyip karıştırın.",
    "60 ml suyu ilave edip kısık ateşte harç kuruyana kadar yaklaşık 10 dakika pişirin. Tuz ve karabiberle tatlandırın, tamamen soğumaya bırakın.",
    "Ellerinize ve plastik kağıt ya da muz yaprağı karelerine biraz sıvı yağ sürün. Hamurdan yaklaşık 75 g'lık toplar ayırın.",
    "Her topu kağıdın üzerinde 12 cm'lik bir oval olacak şekilde bastırın, ortasına yaklaşık 2 yemek kaşığı iç harcı koyun.",
@@ -91,5 +91,13 @@
   "tr": "Hamuru ellerinize ve kağıda yağ sürerek şekil verin; yapışmayı önler ve alcapurriaların düzgün kızarmasını sağlar.",
   "en": "Oil your hands and the plastic well so the dough doesn't stick, and keep the dough covered so it doesn't dry out while you shape the fritters."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: the Turkish ingredient list says 'kekik veya kekik benzeri kuru oregano' and the Turkish step 5 says 'kekiği', while the English uses dried oregano throughout. Standardised to dried ore"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

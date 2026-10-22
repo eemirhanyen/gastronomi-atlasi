@@ -46,8 +46,17 @@
   ]
  },
  "tip": {
-  "tr": "Dışarıdan sert ve kurumuş şeftali kullanacaksanız, parçaları gece boyunca suda bekletin, su miktarını 750 ml'ye çıkarın ve pişirme süresini uzatın.",
+  "tr": "Kurutulmuş şeftali kullanacaksanız, parçaları gece boyunca suda bekletin, su miktarını 750 ml'ye çıkarın ve yumuşayana kadar pişirme süresini uzatın.",
   "en": "If using dried peaches, soak them overnight, increase the water to 750 ml, and extend the cooking time until they are tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses \"Dışarıdan sert ve kurumuş şeftali\", which is unnatural and does not match the English \"dried peaches\". \"Kurutulmuş şeftali\" is the correct term.",
+   "Turkish tip's \"pişirme süresini uzatın\" lacks the English's \"until they are tender\" qualifier; the meaning is otherwise preserved."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

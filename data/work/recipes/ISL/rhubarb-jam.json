@@ -29,9 +29,9 @@
  },
  "steps": {
   "tr": [
-   "Raventleri soğuk suda yıkayın, uçlarını ve yaprak kısımlarını ayırın. Kalın sapları 1 cm'lik parçalara doğrayın.",
+   "Raventleri soğuk suda yıkayın, uçlarını kesin ve zehirli olan yaprak kısımlarını atın. Kalın sapları 1 cm'lik parçalara doğrayın.",
    "Doğranmış raventi geniş bir tencereye alın, şekerin yarısını ekleyip karıştırın ve 20 dakika dinlendirin.",
-   "Kalan şekeri, suyu, limon suyunu ve kazınmış vanilya çubuğunu tencereye ekleyin.",
+   "Kalan şekeri, suyu, limon suyunu ve yarılmış vanilya çubuğunu tencereye ekleyin.",
    "Tencereyi orta ateşte koyun ve ara ara karıştırarak kaynatın. Ravent yumuşayıp suyunu salınca ateşi biraz kısın.",
    "Yaklaşık 20-25 dakika kısık ateşte pişirin. Karışım koyulaşınca ve ravent parçaları yumuşayınca ocaktan alın.",
    "Soğuk bir tabağa bir kaşık reçel damlatın; parmakla itildiğinde yüzeyi kırışıyorsa kıvam tamamdır, değilse birkaç dakika daha pişirin.",
@@ -39,7 +39,7 @@
    "Cam kavanozları ve kapaklarını 120°C fırında 10 dakika sterilize edin. Reçeli sıcakken kavanozlara doldurun, kapaklarını sıkıca kapatın ve oda sıcaklığında soğumaya bırakın."
   ],
   "en": [
-   "Rinse the rhubarb in cold water and trim off the ends and leaves. Chop the thick stalks into 1 cm pieces.",
+   "Rinse the rhubarb in cold water, trim off the ends, and discard the toxic leaves. Chop the thick stalks into 1 cm pieces.",
    "Put the chopped rhubarb in a wide pan, add half of the sugar, stir, and let it rest for 20 minutes.",
    "Add the remaining sugar, the water, the lemon juice, and the split vanilla pod to the pan.",
    "Place the pan over medium heat and bring to a simmer, stirring occasionally. When the rhubarb softens and releases its juice, lower the heat slightly.",
@@ -53,5 +53,14 @@
   "tr": "Ravent sapları ne kadar kırmızıysa reçel o kadar pembe olur; yeşil saplar daha ekşi ve sönük bir tat verir. Açılmamış kavanozlar serin bir yerde, açıldıktan sonra buzdolabında 2-3 hafta saklanabilir.",
   "en": "Redder stalks give a pinker jam, while green stalks taste more tart and give a duller colour. Unopened jars keep in a cool place; once opened, refrigerate and use within 2-3 weeks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Vanilla mismatch: the Turkish step 3 says 'kazınmış vanilya çubuğu' (scraped pod), but the English says 'split vanilla pod'.",
+   "Safety: rhubarb leaves are toxic. The Turkish step 1 only says to 'ayırın' (separate) them, and the English says 'trim off', so it never clearly says to discard them."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,13 +9,13 @@
   "en": "A traditional Haitian dish eaten in coastal towns and at weekend lunches, especially by the sea. Conch is marinated in lime, then simmered in a spicy Creole sauce of onion, peppers and tomato."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "800 g temizlenmiş deniz salyangozu eti (lambi), dış kabuğu soyulmuş",
    "2 limonun suyu (yaklaşık 60 ml)",
-   "8 g tuz",
+   "6 g tuz",
    "4 diş sarımsak, ince doğranmış (12 g)",
    "1 büyük soğan, ince doğranmış (150 g)",
    "1 yeşil dolmalık biber, küp doğranmış (150 g)",
@@ -26,6 +26,7 @@
    "60 ml sıvı yağ",
    "1 yemek kaşığı domates salçası (15 g)",
    "200 ml su",
+   "1 litre su (etleri kaynatmak için)",
    "1/2 demet maydanoz, doğranmış (10 g)",
    "2 g karabiber",
    "Servis için pilav"
@@ -33,7 +34,7 @@
   "en": [
    "800 g cleaned conch meat (lambi), tough outer skin removed",
    "Juice of 2 limes (about 60 ml)",
-   "8 g salt",
+   "6 g salt",
    "4 garlic cloves, finely minced (12 g)",
    "1 large onion, finely chopped (150 g)",
    "1 green bell pepper, diced (150 g)",
@@ -44,6 +45,7 @@
    "60 ml vegetable oil",
    "1 tbsp tomato paste (15 g)",
    "200 ml water",
+   "1 litre water (for boiling the conch)",
    "1/2 bunch parsley, chopped (10 g)",
    "2 g black pepper",
    "Rice, to serve"
@@ -52,7 +54,7 @@
  "steps": {
   "tr": [
    "Deniz salyangozu etini bir et tokmağıyla 5-10 dakika dövün, ardından soğuk suyla iyice yıkayın ve yaklaşık 1 cm kalınlığında şeritler halinde kesin.",
-   "Şeritleri bir kaseye alın, limon suyu, 6 g tuz, karabiber ve sarımsağın yarısının üzerine ekleyip karıştırın. Oda sıcaklığında 20 dakika marine edin.",
+   "Şeritleri bir kaseye alın, limon suyu, 6 g tuz, karabiber ve sarımsağın yarısının üzerine ekleyip karıştırın. Buzdolabında 20 dakika marine edin.",
    "Marine edilmiş etleri 1 litre suyla birlikte bir tencereye alın ve kaynamaya bırakın. Yumuşayana kadar yaklaşık 25 dakika kaynatın, süzün ve parça parça doğrayın.",
    "Geniş bir tavada yağı orta-yüksek ateşte ısıtın. Soğanı 5 dakika, pembeleşene kadar soteleyin.",
    "Kalan sarımsağı ekleyip 1 dakika daha pişirin. Dolmalık biberi ekleyip 3 dakika yumuşatın.",
@@ -64,7 +66,7 @@
   ],
   "en": [
    "Pound the conch meat with a meat mallet for 5-10 minutes, rinse well in cold water and cut into strips about 1 cm thick.",
-   "Place the strips in a bowl, add the lime juice, 6 g of the salt, the black pepper and half the garlic, and mix. Marinate at room temperature for 20 minutes.",
+   "Place the strips in a bowl, add the lime juice, 6 g of the salt, the black pepper and half the garlic, and mix. Refrigerate and marinate for 20 minutes.",
    "Put the marinated meat in a pot with 1 litre of water and bring to a boil. Simmer for about 25 minutes until tender, drain and chop into bite-sized pieces.",
    "Heat the oil in a wide pan over medium-high heat. Sauté the onion for 5 minutes until golden.",
    "Add the remaining garlic and cook for 1 minute more. Add the bell pepper and soften for 3 minutes.",
@@ -79,5 +81,17 @@
   "tr": "Scotch bonnet biberini bütün bırakın; çatlarsa sos çok acılaşır. Lambi ne kadar çok dövülürse o kadar yumuşak olur.",
   "en": "Keep the Scotch bonnet whole; if it bursts, the sauce becomes very hot. The more you pound the conch, the more tender it will be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredients list 8 g salt, but the steps use only 6 g; the remaining 2 g is never used.",
+   "Step 3 boils the conch in 1 litre of water, but no 1 litre water is listed in the ingredients (only 200 ml, used in the sauce).",
+   "Total time of 60 min is too short for the steps (about 10 min pounding, 20 min marinating, 25 min boiling, and roughly 45 min of sauce cooking).",
+   "Raw seafood is marinated at room temperature, which is a food-safety concern. It should be refrigerated.",
+   "The Turkish and English versions must be updated together for the changes above."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

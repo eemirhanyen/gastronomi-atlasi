@@ -64,16 +64,25 @@
    "Cut the beef into thin strips and place in a bowl. Add half a teaspoon of salt, black pepper, cumin, soy sauce and vinegar, stir well and let it marinate for 10 minutes.",
    "Heat 1 tablespoon of oil in a wide pan and cook the sausages for 3-4 minutes, turning, until lightly browned. Transfer to a plate.",
    "Add the remaining oil to the same pan and sauté the onions for about 6 minutes until soft and lightly caramelised. Add the green pepper strips and cook for 2 more minutes.",
-   "Push the vegetables aside and cook the beef in one layer over high heat, in two batches, for 3-4 minutes until browned and the juices have evaporated. Return the onions and peppers to the pan.",
+   "Cook the beef in one layer over high heat, in two batches, for 3-4 minutes until browned and the juices have evaporated. Set aside with the onions and peppers.",
    "Add the diced tomatoes and aji amarillo paste. Cook for 4-5 minutes until the tomatoes break down into a thick sauce.",
-   "Return the sausages to the pan, stir everything together and heat for 2 more minutes. Taste and adjust the salt if needed.",
+   "Return the sausages and beef to the pan, stir everything together and heat for 2 more minutes. Taste and adjust the salt if needed.",
    "In a separate pan, fry the eggs in the remaining oil until the whites are set and the yolks are still soft.",
    "Spread the fries on a serving platter, spoon the beef mixture over them, top with the fried eggs, scatter with parsley and serve hot."
   ]
  },
  "tip": {
-  "tr": "Patatesleri iki kez kızartmak, yani önce orta ateşte pişirip sonra yüksek sıcaklıkta tekrar kızartmak, dışının daha çıtır kalmasını sağlar.",
+  "tr": "Patatesleri kızartmadan önce iyice kurulamak ve tencereyi fazla doldurmamak, patateslerin sıcak sosun altında bile çıtır kalmasını sağlar.",
   "en": "Dry the potatoes well before frying and avoid overcrowding the pot, so the fries stay crisp under the hot sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to fry the potatoes twice (medium heat, then high heat), but the steps fry them once and the English tip does not mention double frying.",
+   "Step 6 differs between languages. The Turkish version sets the beef aside with the onions, while the English version pushes the vegetables aside and later returns the onions to the pan."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

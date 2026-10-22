@@ -5,7 +5,7 @@
  },
  "native": "Sambuusa",
  "desc": {
-  "tr": "Baharatlı kıymalı üçgen hamur tatlısı... değil, tuzlu bir atıştırmalık: Somali'de çay saatinde, iftarda ve kutlamalarda sık yenir; sokak satıcılarında ve diasporada da çok yaygındır.",
+  "tr": "Baharatlı kıymalı üçgen hamur işi; Somali'de tuzlu bir atıştırmalık olarak çay saatinde, iftarda ve kutlamalarda sık yenir. Sokak satıcılarında ve diasporada da çok yaygındır.",
   "en": "A spiced minced-meat triangular pastry, eaten across Somalia with tea, at iftar and at celebrations. It is a favourite street snack and is also widely made in the Somali diaspora."
  },
  "servings": 4,
@@ -81,5 +81,13 @@
   "tr": "Hamurun kurumaması için açarken kalan kısmı nemli bir bezle örtün ve iç harcı soğumadan kullanmayın; kenarları iyice kapatmazsanız kızartırken açılabilir.",
   "en": "Keep unrolled dough covered with a damp cloth, and make sure the filling is cool; press the edges firmly or the pastry may open in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description opens with a contradictory, unnatural phrase ('hamur tatlısı... değil'). It calls the dish a pastry sweet and then corrects itself. The English says it is a savoury snack, so the T"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

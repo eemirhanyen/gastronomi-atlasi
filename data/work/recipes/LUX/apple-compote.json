@@ -32,7 +32,7 @@
  "steps": {
   "tr": [
    "Elmaları yıkayın, kabuklarını soyun, çekirdek evlerini çıkarın ve yaklaşık 2 cm'lik parçalara kesin.",
-   "Elma parçalarını geniş bir tencereye koyun. Üzerine suyu, limonun suyunu ve rendelenmiş kabuğunu ekleyin.",
+   "Elma parçalarını geniş bir tencereye koyun. Üzerine su, limonun suyunu ve rendelenmiş kabuğunu ekleyin.",
    "Tarçın çubuğunu ekleyin, kapağını kapatın ve orta-düşük ateşte yaklaşık 15 dakika, elmalar çok yumuşayana kadar pişirin. Arada karıştırın ve gerekirse birkaç kaşık su ekleyin.",
    "Tarçın çubuğunu ve limon kabuğu rendesini tencereden çıkarın.",
    "Elmaları çatal veya patates ezgisiyle istediğiniz kıvamda ezin. Daha pürüzsüz bir kıvam için blender kullanabilirsiniz.",
@@ -53,5 +53,13 @@
   "tr": "Ekşi ve tatlı elma çeşitlerini karıştırmak, şekere daha az ihtiyaç duyulmasını sağlar. Kompostoyu soğuduktan sonra kavanoza koyup buzdolabında yaklaşık 1 hafta saklayabilirsiniz.",
   "en": "Mixing tart and sweet apple varieties gives better flavour and needs less sugar. Once cooled, the compote keeps in a sealed jar in the fridge for about a week."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says \"Üzerine suyu...\", which is ungrammatical and reads as \"its water\" (possessive). It should say \"su\" to match the English \"Add the water\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -46,20 +46,20 @@
  "steps": {
   "tr": [
    "Unu geniş bir kaseye alın, ortasına yumurtayı, tuzu ve ılık suyu ekleyip yumuşak bir hamur yoğurun. Hamuru streç film ile örtüp 30 dakika dinlendirin.",
-   "Kuzu etini ve kuyruk yağını yaklaşık 5 mm küçük küpler halinde doğrayın. Soğanları çok ince kıyın.",
+   "Kuzu etini ve varsa kuyruk yağını yaklaşık 5 mm küçük küpler halinde doğrayın. Soğanları çok ince kıyın.",
    "Et, yağ ve soğanı geniş bir kapta karıştırın. Üzerine tuz, karabiber, kimyon ve 60 ml suyu ekleyip iyice yoğurarak harcı kıvamlandırın. Harcı buzdolabında 20 dakika bekletin.",
-   "Hamuru ikiye bölün ve her parçayı 1,5 mm kalınlığında, çapı yaklaşık 10 cm olan daireler halinde açın. Kenarları biraz incelterek 20 yuvarlak hazırlayın.",
-   "Her hamur dairesinin ortasına yaklaşık 30 g harç koyun. Kenarları yukarı kaldırıp parmaklarınızla pilili bir şekilde birleştirerek kapatın, üst kısmını hafifçe açık bırakın.",
+   "Hamuru ikiye bölün ve her parçayı 1,5 mm kalınlığında, çapı yaklaşık 10 cm olan daireler halinde açın. Kenarları biraz incelterek toplam 40 yuvarlak hazırlayın.",
+   "Her hamur dairesinin ortasına yaklaşık 20 g harç koyun. Kenarları yukarı kaldırıp parmaklarınızla pilili bir şekilde birleştirerek kapatın, üst kısmını hafifçe açık bırakın.",
    "Buharlı pişirme kabının (kazan veya mantıpişirici) altına su koyup kaynatın. Kabın tabanını ve katlarını sıvı yağla yağlayın, mantıları aralarında boşluk bırakarak dizin.",
    "Kapağı kapatıp orta-yüksek ateşte yaklaşık 40-45 dakika buharda pişirin. Et tamamen pişince ve hamur şeffaflaşınca ocaktan alın.",
    "Servis tabağına alın, üzerine eritilmiş tereyağı gezdirip sıcak servis yapın."
   ],
   "en": [
    "Put the flour in a large bowl, make a well in the centre, add the egg, salt and lukewarm water, and knead into a soft dough. Cover with cling film and rest for 30 minutes.",
-   "Cut the lamb and tail fat into small cubes about 5 mm. Finely chop the onions.",
+   "Cut the lamb and tail fat (if using) into small cubes about 5 mm. Finely chop the onions.",
    "Mix the meat, fat and onion in a large bowl. Add the salt, black pepper, cumin and 60 ml water, and knead well until the filling is moist and cohesive. Chill the filling for 20 minutes.",
-   "Divide the dough in half and roll each piece into rounds about 1.5 mm thick and 10 cm across. Thin the edges slightly to make 20 rounds.",
-   "Place about 30 g of filling in the centre of each round. Bring the edges up around the filling and pinch them into pleats, leaving the top slightly open.",
+   "Divide the dough in half and roll each piece into rounds about 1.5 mm thick and 10 cm across. Thin the edges slightly to make 40 rounds in total.",
+   "Place about 20 g of filling in the centre of each round. Bring the edges up around the filling and pinch them into pleats, leaving the top slightly open.",
    "Pour water into the bottom of a steamer and bring it to a boil. Oil the base and tiers of the steamer with neutral oil, then arrange the manty with small gaps between them.",
    "Cover and steam over medium-high heat for about 40 to 45 minutes, until the meat is fully cooked and the dough looks translucent.",
    "Transfer to a serving plate, drizzle with melted butter, and serve hot."
@@ -69,5 +69,15 @@
   "tr": "Harca biraz yağ ve soğan suyu eklemek, pişince etin sulu ve lezzetli kalmasını sağlar. Mantıları buharda pişirirken kabın tabanına birkaç soğan halkası koymak yapışmayı önler.",
   "en": "Keep the filling juicy by adding a little fat and onion juice; it stays moist after steaming. Laying a few onion rings under the manty prevents them from sticking to the steamer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling quantity does not match the dough: 20 rounds × 30 g = 600 g, but the listed meat, fat and onion total about 800 g raw, so filling is left over.",
+   "Dough quantity does not match the round count: about 630 g of dough rolled to 10 cm and 1.5 mm gives roughly 13 g per round, so about 40 rounds are needed, not 20.",
+   "Tail fat is marked optional in the ingredients but is always cut in the steps. The steps should say to use it if available (Turkish and English)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

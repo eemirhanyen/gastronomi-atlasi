@@ -16,7 +16,7 @@
    "1 kg taze kasava (manyok) kökü",
    "3 l su (ıslatma ve yıkama için)",
    "5 g iri tuz (isteğe bağlı)",
-   "6 adet muz yaprağı (yaklaşık 40 cm, veya fırın kağıdı)",
+   "4 adet muz yaprağı (yaklaşık 40 cm, veya fırın kağıdı)",
    "Sarmak için mutfak ipi",
    "Buhar için yaklaşık 3 l su"
   ],
@@ -24,7 +24,7 @@
    "1 kg fresh cassava (manioc) roots",
    "3 l water (for soaking and rinsing)",
    "5 g coarse salt (optional)",
-   "6 banana leaves (about 40 cm each) or baking parchment",
+   "4 banana leaves (about 40 cm each) or baking parchment",
    "Kitchen string for tying",
    "About 3 l water for steaming"
   ]
@@ -59,5 +59,13 @@
   "tr": "Mayalanma sırasında suyu her gün değiştirmek ekşi kokuyu dengeli tutar; hamuru saklamak için pişmiş chikwangue'yi yapraklarıyla birlikte buzdolabında 3-4 gün muhafaza edebilirsiniz.",
   "en": "Changing the soaking water daily keeps the fermentation clean and the flavour balanced; cooked chikwangue wrapped in its leaves keeps in the refrigerator for 3-4 days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list calls for 6 banana leaves, but the recipe makes 4 portions and the steps wrap only 4 cylinders, so 2 leaves are listed and never used (Turkish and English both)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A traditional pastry from Moldova, made with thin dough enclosing a fresh cheese filling. It is eaten at breakfast, at tea time and at holiday gatherings, and is usually baked at home and served cut into wedges."
  },
  "servings": 4,
- "time_min": 70,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Hamuru mümkün olduğunca ince açın; ince katmanlar pişince gevrek ve kabarık olur, kalın hamur ise ağır kalır.",
   "en": "Roll the dough as thinly as you can; thin layers bake up crisp and airy, while thick dough turns heavy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (70) is less than the steps add up to: 8 min kneading, 30 min rest, 35 min baking and 10 min rest alone come to about 83 min before preparation and rolling. Changed to 90."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

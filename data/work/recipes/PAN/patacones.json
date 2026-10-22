@@ -33,7 +33,7 @@
   "tr": [
    "Muzların kabuklarını soyun. Her muzu uçlarından kesip ortadan ikiye bölün, sonra her parçayı yaklaşık 4 cm uzunluğunda parçalara ayırın.",
    "Yağı derin bir tencerede 170°C'ye ısıtın. Muz parçalarını partiler halinde 3-4 dakika, hafif sarı renk alana kadar kızartın. Süzgece alıp yağını akıtın.",
-   "Bir kesme tahtasına ya da kalın bir tabağa parşömen kağıdı serin. Muz parçalarını tek tek kağıdın üzerine koyup altına tahta bir tabak ya da kalın bir tava koyarak yaklaşık 5 mm kalınlığa kadar bastırın.",
+   "Bir kesme tahtasına ya da kalın bir tabağa parşömen kağıdı serin. Muz parçalarını tek tek kağıdın üzerine koyun, üzerini ikinci bir parşömen kağıdıyla örtün ve üstüne tahta bir tabak ya da kalın bir tava koyarak yaklaşık 5 mm kalınlığa kadar bastırın.",
    "Bir kapta 1 litre suya tuz ve ezilmiş sarımsağı ekleyip karıştırın. Yassılaştırılmış muz parçalarını bu tuzlu sarımsaklı suya 10 saniye kadar batırıp hemen çıkarın.",
    "Yağı 180°C'ye çıkarın. Patacones'leri partiler halinde 2-3 dakika, altın rengi ve çıtır olana kadar tekrar kızartın.",
    "Kağıt havlu serilmiş bir tabağa alıp fazla yağını çekin. Üzerlerine bir tutam tuz serpip sıcakken servis yapın."
@@ -51,5 +51,14 @@
   "tr": "Muzları yağda fazla kızartmayın; ilk kızartma sadece yumuşatmak içindir, koyu renk tatlılaşmaya ve sert kıvama yol açar.",
   "en": "Keep the first fry pale. It is only meant to soften the plantain; over-browning makes the patacones hard and sweet rather than crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says to place the wooden plate or pan 'altına' (under) the plantain, which would not press it. It should be placed on top ('üstüne').",
+   "Turkish step 3 omits the second sheet of baking paper that the English version uses to cover the plantain before pressing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,9 +16,9 @@
    "600 g soğutulmuş pişmiş pirinç (bir gün önce pişirilmiş, yaklaşık 250 g çiğ pirinçten)",
    "3 yumurta",
    "150 g çiğ karides, kabuğu ve damarı temizlenmiş",
-   "1 tatlı kaşığı (5 g) tuz, karidesleri ve yumurtayı tatlandırmak için (ayrıca 1 tatlı kaşığı tuz daha)",
+   "1 tatlı kaşığı (5 g) tuz, bölünmüş: 1/2 çay kaşığı karidesler için, 1/2 çay kaşığı pilav için",
    "1 çay kaşığı (3 g) nişasta",
-   "1 çay kaşığı (5 ml) karides için beyaz biber, bir tutam",
+   "Bir tutam beyaz biber (karidesler için)",
    "80 g kurutulmuş Çin jambonu veya kürlenmiş jambon, küp doğranmış",
    "1 küçük havuç (yaklaşık 60 g), küp doğranmış",
    "100 g dondurulmuş bezelye",
@@ -35,9 +35,9 @@
    "600 g cold cooked rice (cooked a day earlier, from about 250 g raw rice)",
    "3 eggs",
    "150 g raw shrimp, peeled and deveined",
-   "1 tsp (5 g) salt, divided: a pinch for the shrimp and eggs plus the rest for seasoning the rice",
+   "1 tsp (5 g) salt, divided: 1/2 tsp for the shrimp and 1/2 tsp for seasoning the rice",
    "1 tsp (3 g) cornstarch",
-   "1/4 tsp white pepper, divided",
+   "A pinch of white pepper (for the shrimp)",
    "80 g Chinese cured ham or cured ham, diced",
    "1 small carrot (about 60 g), diced",
    "100 g frozen peas",
@@ -46,7 +46,9 @@
    "1 tbsp (15 ml) Shaoxing rice wine or dry sherry",
    "1 tbsp (15 ml) light soy sauce",
    "1/2 tsp (2 g) sugar",
-   "1 tsp (5 ml) sesame oil"
+   "1/4 tsp white pepper",
+   "1 tsp (5 ml) sesame oil",
+   "A pinch of salt (for the eggs)"
   ]
  },
  "steps": {
@@ -79,5 +81,15 @@
   "tr": "Taze pirinç yapışkan ve hamur gibi olur; bu yemek için bir gün önce pişirilmiş ve buzdolabında soğutulmuş pirinç kullanın.",
   "en": "Freshly cooked rice turns gummy in the wok, so use rice cooked a day ahead and chilled in the fridge for separate, fluffy grains."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantities conflict: the Turkish list asks for 1 tsp salt plus 1 more tsp, while the steps use only 1/2 tsp for shrimp, a pinch for eggs and 1/2 tsp for the rice (about 1 tsp total). The English ",
+   "White pepper is inconsistent: the Turkish list gives 1 tsp (5 ml) for the shrimp but then says 'a pinch', while the English list says 1/4 tsp in total with no shrimp amount. The steps need only a pinc",
+   "The English ingredient list omits the 'pinch of salt for the eggs' item that appears in the Turkish list."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

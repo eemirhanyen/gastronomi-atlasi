@@ -44,7 +44,7 @@
  "steps": {
   "tr": [
    "Tavuk parçalarını kağıt havlu ile kurulayın ve tuz ile karabiberi serpin.",
-   "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Tavuk parçalarını partiler halinde, her iki yüzü altın rengi olana kadar yaklaşık 5 dakika kızartın, sonra bir tabağa alın.",
+   "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Tavuk parçalarını partiler halinde, her yüzü yaklaşık 5 dakika, altın rengi olana kadar kızartın, sonra bir tabağa alın.",
    "Aynı tencerede soğanları yumuşayıp hafif renk alana kadar yaklaşık 6 dakika soteleyin.",
    "Sarımsak ve rendelenmiş zencefili ekleyip 1 dakika kadar, kokusu çıkana kadar karıştırarak pişirin.",
    "Domatesleri ve zerdeçalı ekleyin. Domatesler suyunu salıp çökene kadar yaklaşık 5 dakika pişirin.",
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Hindistan cevizi sütü ocakta kaynarsa yağlanıp ayrışabilir; sosu hafif bir kaynamada tutun ve sütü son aşamada ekleyin.",
+  "tr": "Hindistan cevizi sütü ocakta kaynarsa yağ salıp ayrışabilir; sosu hafif bir kaynamada tutun ve sütü son aşamada ekleyin.",
   "en": "Coconut milk can separate and turn oily if it boils hard, so keep the sauce at a gentle simmer and add the milk near the end."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the chicken browns for about 5 minutes total, while the English says 5 minutes per side. The Turkish should match the English.",
+   "Turkish tip uses 'yağlanıp' for coconut milk curdling and releasing oil, which is unnatural. 'Yağ salıp ayrışabilir' is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

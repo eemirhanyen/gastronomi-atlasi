@@ -5,7 +5,7 @@
  },
  "native": "palusami",
  "desc": {
-  "tr": "Tuvalu ve Samoa mutfağının geleneksel yemeklerinden olan palusami, taro yapraklarının hindistancevizi kremasıyla pişirilmesiyle hazırlanır. Genellikle aile toplantılarında, kutlamalarda ve şölenlerde ana yemeklerin yanında servis edilir.",
+  "tr": "Tuvalu ve Samoa mutfağının geleneksel yemeklerinden olan palusami, taro yapraklarının hindistancevizi kremasi ve soğanla pişirilmesiyle hazırlanır. Genellikle aile toplantılarında, kutlamalarda ve şölenlerde ana yemeklerin yanında servis edilir.",
   "en": "A traditional dish of Tuvalu and Samoa, palusami is made by baking taro leaves with coconut cream and onion. It is usually served as a side at family gatherings, celebrations and feasts, alongside main dishes."
  },
  "servings": 4,
@@ -55,5 +55,13 @@
   "tr": "Taro yaprakları çiğ halde kalsiyum oksalat içerdiği için mutlaka uzun süre pişirilmelidir; yeterince yumuşamamış yapraklar ağızda kaşıntı yapabilir. Yaprak bulamazsanız ıspanak kullanabilirsiniz, ancak pişirme süresini 25 dakikaya indirin.",
   "en": "Taro leaves contain calcium oxalate when raw, so they must be cooked thoroughly; under-cooked leaves can cause an itchy mouth. If taro leaves are unavailable, spinach works, but reduce the baking time to 25 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description omits the onion that the English description lists as a key component of the dish"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

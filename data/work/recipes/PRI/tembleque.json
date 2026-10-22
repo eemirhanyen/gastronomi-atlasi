@@ -38,7 +38,7 @@
    "Şeker eriyip karışım kaynamaya yakın ısındığında ocağı kısın ve tarçın çubuğunu tencereden çıkarmadan önce 2 dakika kaynatın.",
    "Nişasta karışımını ince bir akışla tencereye dökün ve sürekli karıştırarak 5-7 dakika pişirin; kıvam koyulaşıp kaşığın arkasında parlak bir tabaka oluşturana kadar devam edin.",
    "Tarçın çubuğunu tencereden çıkarın.",
-   "Pelteyi, önceden su ile ıslatılmış 4 küçük kap, kalıp ya da kısa bir servis kabına dökün.",
+   "Muhallebiyi, önceden su ile ıslatılmış 4 küçük kap, kalıp ya da kısa bir servis kabına dökün.",
    "Oda sıcaklığında soğumaya bırakın, ardından üzeri örtülü olarak en az 3 saat buzdolabında dinlendirerek katılaştırın.",
    "Servisten hemen önce üzerine öğütülmüş tarçını serpip soğuk olarak servis edin."
   ],
@@ -57,5 +57,13 @@
   "tr": "Nişastanın topaklanmaması için karışımı ocağa eklemeden önce mutlaka soğuk suyla tamamen pürüzsüz hale getirin ve pişerken sürekli karıştırın.",
   "en": "Dissolve the cornstarch fully in cold water before adding it, and keep stirring while it cooks, to avoid lumps. Rinsing the moulds with water first makes the tembleque easier to unmould."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 uses \"pelte\" (a fruit preserve/jam term) for the pudding mixture; the correct culinary term is \"muhallebi\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

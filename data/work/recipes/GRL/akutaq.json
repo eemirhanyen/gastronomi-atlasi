@@ -13,14 +13,14 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "150 g oda sıcaklığında tereyağı veya katı bitkisel yağ (shortening)",
+   "150 g oda sıcaklığında tereyağı, katı bitkisel yağ (shortening) veya geleneksel olarak geyik ya da fok yağı",
    "120 g toz şeker",
    "80 ml soğuk su",
    "150 g yaban mersini (taze veya dondurulmuş)",
-   "50 g yabani kuşburnu veya kızılcık (taze veya dondurulmuş), yoksa 50 g daha yaban mersini"
+   "50 g kızılcık veya kırmızı yaban mersini (taze veya dondurulmuş), yoksa 50 g daha yaban mersini"
   ],
   "en": [
-   "150 g room-temperature unsalted butter or solid vegetable shortening",
+   "150 g room-temperature unsalted butter, solid vegetable shortening, or traditionally caribou or seal fat",
    "120 g caster sugar",
    "80 ml cold water",
    "150 g blueberries (fresh or frozen)",
@@ -53,5 +53,14 @@
   "tr": "Yağ ve şekeri iyice kabartmak akutağın hafif dokusunun anahtarıdır; yağ çok soğuksa önce biraz bekletin, çok yumuşaksa kıvamı toparlaması için birkaç dakika buzdolabında bekletin.",
   "en": "Thorough whipping of the fat and sugar is what gives akutaq its light texture; if the fat is too cold, let it soften a little first, and if it is too soft, chill the mixture briefly before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 5 says \"kuşburnu\", which is rosehip, not lingonberry or cranberry. The English version says lingonberries or cranberries, so the two versions disagree.",
+   "The traditional fat for akutaq is animal fat (caribou, reindeer or seal). The recipe only lists butter or shortening, so the key characteristic ingredient is missing. The English version should also m"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

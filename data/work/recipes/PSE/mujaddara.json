@@ -6,7 +6,7 @@
  "native": "مجدرة",
  "desc": {
   "tr": "Mercimek ve pirincin kıvamlı bir karışımıdır; üzeri bol karamelize soğanla servis edilir. Filistin'de aile sofralarında, özellikle oruç ve sade günlerde, yoğurt ve salatayla birlikte sık yapılan günlük bir yemektir.",
-  "en": "A hearty mix of lentils and rice topped with generous deep-brown caramelized onions. In Palestine it is a everyday family dish, often served with yogurt and salad, especially on simple weekday meals and during Ramadan."
+  "en": "A hearty mix of lentils and rice topped with generous deep-brown caramelized onions. In Palestine it is an everyday family dish, often served with yogurt and salad, especially on simple weekday meals and during Ramadan."
  },
  "servings": 4,
  "time_min": 60,
@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Mercimeği soğuk suyla iki kez yıkayıp süzün. Pirinci ayrı bir kapta yıkayıp 20 dakika ılık suda bekletin, sonra süzün.",
-   "Geniş bir tencerede 2 yemek kaşığı zeytinyağının yarısını ısıtın. Soğanların üçte birini ekleyip orta-yüksek ateşte birkaç dakika sote edin.",
+   "Geniş bir tencerede 120 ml zeytinyağının yarısını (yaklaşık 60 ml) ısıtın. Soğanların üçte birini ekleyip orta-yüksek ateşte birkaç dakika sote edin.",
    "Soğanların kalanını ekleyin ve kısık ateşte, ara sıra karıştırarak 25-30 dakika, koyu kahverengi ve çıtır olana kadar karamelize edin. Yarısını bir kenara ayırın.",
    "Kalan soğanın üzerine mercimeği ve 400 ml suyu ekleyip kaynatın. Kısık ateşte 10 dakika pişirin.",
    "Pirinci, kimyonu, tuzu, karabiberi ve kalan 400 ml suyu ekleyip karıştırın. Kaynayınca ateşi en kısık seviyeye alın, kapağı kapatıp 15-20 dakika pişirin; su çekilmiş olmalı.",
@@ -57,5 +57,14 @@
   "tr": "Soğanları acele etmeden, en az 25 dakika koyu kahverengi olana kadar karamelize edin; lezzetin asıl kaynağı budur.",
   "en": "Caramelize the onions slowly until they are truly dark brown; this is where most of the flavor comes from."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says to heat '2 yemek kaşığı zeytinyağının yarısını' (about 1 tablespoon), but the English step and the 120 ml ingredient imply half of 120 ml (about 60 ml). The amounts disagree.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

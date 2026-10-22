@@ -9,7 +9,7 @@
   "en": "A sweet of small fried dough pieces bound with honey and sugar syrup and shaped into a mound. It is served at weddings, holidays and when welcoming guests in Uzbekistan and Tatarstan."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Hamur parçalarını kızartmadan önce mutlaka iyice kurulayın; nemli parçalar yağı sıçratır ve balın tutmasını zorlaştırır.",
   "en": "Dry the dough pieces thoroughly before frying; damp pieces spatter in the oil and make the honey coating less even."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps alone add up to more: 8 min kneading, 30 min resting, frying in batches, syrup cooking, and 20 min setting. A realistic total is about 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -37,7 +37,7 @@
    "Unu ve tuzu ayrı bir kapta karıştırın, ardından mayalı suya ekleyin.",
    "Sıvı yağı ekleyip yaklaşık 10 dakika, dokusu pürüzsüz ve elastik olana kadar yoğurun.",
    "Hamuru yağladığınız bir kaseye alın, üzerini örtün ve iki katına çıkana kadar yaklaşık 1 saat ılık bir yerde mayalandırın.",
-   "Hamuru hafifçe bastırıp gazını alın. 12 eşit parçaya bölün (her biri yaklaşık 50 g).",
+   "Hamuru hafifçe bastırıp gazını alın. 12 eşit parçaya bölün (her biri yaklaşık 58 g).",
    "Her parçayı avuçlarınızla uzun, ince bir kütük gibi yuvarlayın.",
    "Kütükleri galeta unu dolu bir tabakta yuvarlayarak her yerini kaplayın.",
    "Hazırladığınız çörekleri fırın tepsisine, birbirlerine değmeyecek şekilde dizin. Üzerlerini örtüp yaklaşık 30 dakika ikinci kez mayalanmaya bırakın.",
@@ -50,7 +50,7 @@
    "In a separate bowl, mix the flour and salt, then add to the yeast mixture.",
    "Add the vegetable oil and knead for about 10 minutes until smooth and elastic.",
    "Transfer the dough to a lightly oiled bowl, cover, and leave in a warm place for about 1 hour until doubled in size.",
-   "Gently press the dough to release the air. Divide into 12 equal pieces, about 50 g each.",
+   "Gently press the dough to release the air. Divide into 12 equal pieces, about 58 g each.",
    "Roll each piece between your palms into a long, thin log.",
    "Roll the logs in the dry breadcrumbs until fully coated.",
    "Arrange the rolls on a baking tray, leaving space between them. Cover and leave for about 30 minutes for a second rise.",
@@ -63,5 +63,13 @@
   "tr": "Galeta unu kaplamasını pişirmeden hemen önce yapın; uzun süre bekleyen hamur kaplamayı nemlendirip yapışkan hâle getirebilir.",
   "en": "Coat the rolls in breadcrumbs just before the second rise; if the dough sits too long, the crumbs can turn soggy and stick unevenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Portion weight does not match the dough total: the dough weighs about 703 g (400+220+40+7+6+30), so 12 pieces of 50 g (600 g) would leave about 100 g unaccounted for. The piece size should be about 58"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

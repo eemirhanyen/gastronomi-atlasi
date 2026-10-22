@@ -51,7 +51,7 @@
    "Sarımsak, biber ve soğanı ekleyip 30 saniye ila 1 dakika, kokusu çıkana kadar hızla kavurun.",
    "Kıymayı ekleyin ve tahta kaşıkla parçalayarak 3-4 dakika, renk değişip suyu çekilene kadar pişirin.",
    "Hazırladığınız sosu ekleyin ve 1-2 dakika iyice karıştırarak kıymaya karışmasını sağlayın.",
-   "Ocağı kapatın, kutsal fesleğen yapraklarını ekleyip hızlıca karıştırın; yapraklar solunca hemen çıkarın.",
+   "Ocağı kapatın, kutsal fesleğen yapraklarını ekleyip hızlıca karıştırın; yapraklar solunca hemen ocaktan alın.",
    "Ayrı bir tavada kalan yağı çok kızgın ısıtın, yumurtaları tek tek kırıp kenarları çıtır ama sarısı akışkan olacak şekilde 1-2 dakika kızartın.",
    "Pirinci tabağa koyun, üzerine kıymalı karışımı dökün ve yanına spor yumurtayı yerleştirerek servis yapın."
   ],
@@ -71,5 +71,13 @@
   "tr": "Kutsal fesleğenin aroması kısa sürede uçtuğu için yaprakları en son, ocaktan almadan hemen önce ekleyin; tatlı fesleğen bu yemeğin yerini tutmaz.",
   "en": "Holy basil loses its aroma quickly, so add the leaves at the very end and never use sweet basil as a substitute; its clove-like flavour is what makes this dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"yapraklar solunca hemen çıkarın\", which can be read as removing the leaves from the wok. The English says to turn off the heat and serve immediately. The Turkish should say to tak"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

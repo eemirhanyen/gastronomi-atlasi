@@ -6,7 +6,7 @@
  "native": "Kuk (Chuukese)",
  "desc": {
   "tr": "Mikronezya'da yaygın bir yan yemektir; nişasta açısından zengin taro kökünün hindistan cevizi sütüyle yumuşak bir kıvama getirilmesiyle hazırlanır. Ana öğünlerde, özellikle balık ve et yemeklerinin yanında, günlük sofralarda ve törenlerde servis edilir.",
-  "en": "A everyday side dish across Micronesia, where starchy taro root is simmered in coconut milk until soft and lightly thickened. It is served alongside fish and meat dishes at family meals and at community gatherings."
+  "en": "An everyday side dish across Micronesia, where starchy taro root is simmered in coconut milk until soft and lightly thickened. It is served alongside fish and meat dishes at family meals and at community gatherings."
  },
  "servings": 4,
  "time_min": 60,
@@ -29,9 +29,9 @@
  },
  "steps": {
   "tr": [
-   "Taro köklerini soyun. Ham taro cildi ve sapı cildi tahriş edebileceği için eldiven takın veya ellerinize yağ sürün.",
+   "Taro köklerini soyun. Ham taronun cildi ve özsuyu cildi tahriş edebileceği için eldiven takın veya ellerinize yağ sürün.",
    "Taroyu yaklaşık 3 cm'lik küp parçalara kesin ve soğuk suda iyice yıkayın.",
-   "Büyük bir tencerede 1 litre su ile yarım tatlı kaşığı tuzu kaynatın. Taro küplerini ekleyin ve orta ateşte 20-25 dakika, çatalla kolayca ezilene kadar pişirin.",
+   "Büyük bir tencerede 1 litre su ile yarım tatlı kaşık tuzu kaynatın. Taro küplerini ekleyin ve orta ateşte 20-25 dakika, çatalla kolayca ezilene kadar pişirin.",
    "Taroyu süzgeçte süzün ve sıcak tutun.",
    "Ayrı bir tencerede hindistan cevizi sütünü, 150 ml suyu, şekeri ve kalan yarım tatlı kaşık tuzu karıştırın. Orta ateşte, sürekli karıştırarak kaynamaya yakın bir sıcaklığa getirin.",
    "Sıcak taro küplerini sosun içine ekleyin. Kısık ateşte 8-10 dakika, sos hafifçe koyulaşıp taro kremayla kaplanana kadar nazikçe karıştırarak pişirin.",
@@ -51,5 +51,14 @@
   "tr": "Taroyu pişirmeden önce ellerinize yağ sürmek cilt tahrişini önler; sosun koyulaşması için kremayı kaynatmadan kısık ateşte pişirin.",
   "en": "Rubbing your hands with oil before peeling prevents itching from the raw taro; keep the coconut sauce at a gentle simmer so it thickens smoothly without splitting."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description: \"A everyday side dish\" should be \"An everyday side dish\".",
+   "Turkish step 1: \"sapı cildi tahriş edebileceği\" is unclear and inaccurate. The irritant in raw taro is its sap (özsuyu), not the stem."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

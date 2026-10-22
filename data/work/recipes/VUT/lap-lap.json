@@ -31,7 +31,7 @@
    "400 ml coconut cream (canned)",
    "100 ml water",
    "1 tsp salt",
-   "200 g spinach or island cabbage (use kale if neither is available)",
+   "200 g spinach or island cabbage (use kale if spinach is unavailable)",
    "400 g boneless chicken thigh, cut into small pieces",
    "4 large banana leaves (about 30 x 40 cm) or baking paper and aluminium foil",
    "Kitchen string for tying"
@@ -65,5 +65,13 @@
   "tr": "Hamuru fazla sulandırmayın; taro ve yam pişerken kendi nemini verir. Muz yaprağı yoksa fırın kağıdı ile folyoyu iki kat kullanarak aynı şekilde paketleyin.",
   "en": "Do not make the paste too wet, as taro and yam release their own moisture while baking. If banana leaves are unavailable, wrap in baking paper and then foil, using the same method."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient note says to use kale 'if neither is available', but the Turkish says kale replaces spinach only when spinach is unavailable. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A hearty lamb soup with potatoes, carrots and chickpeas, eaten across Afghanistan in cold months and at family gatherings. It is usually served piping hot, topped with fresh coriander and accompanied by flatbread."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -49,7 +49,7 @@
  },
  "steps": {
   "tr": [
-   "Kuzu etini kuru bir kabın içinde çevirerek hafifçe kurutun.",
+   "Kuzu etini mutfak kağıdıyla iyice kurulayın.",
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın, etleri her tarafı kahverengileşene kadar yaklaşık 8 dakika kavurun.",
    "Etleri bir kenara alın, ateşi orta seviyeye indirin ve soğanı altın rengi alana kadar 8-10 dakika pişirin.",
    "Sarımsağı ve domates salçasını ekleyip 1 dakika kavurun, ardından rendelenmiş domatesi, zerdeçalı ve kimyonu ekleyin. Domatesler suyunu salana kadar yaklaşık 5 dakika pişirin.",
@@ -75,5 +75,14 @@
   "tr": "Etin kemikli olması çorbaya daha zengin bir tat verir; pişirmeden önce soğanı iyice karamelize etmek lezzeti belirgin şekilde artırır.",
   "en": "Bone-in lamb gives a richer broth, and letting the onions turn properly golden before adding liquid deepens the flavour noticeably."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 90, but the active steps alone total about 113 minutes (8 + 10 + 5 + 60 + 30) plus prep, so it should be about 120.",
+   "Turkish step 1 says to turn the lamb in a dry bowl to dry it, which is not a real drying method and does not match the English step (pat dry with kitchen paper). The Turkish wording is also unnatural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

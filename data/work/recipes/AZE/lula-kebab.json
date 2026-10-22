@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Kıymayı yoğurduktan sonra soğutmak şişe daha iyi tutunmasını sağlar; ızgara yoksa aynı sonucu fırında 220°C'de, ızgara fonksiyonunda pişirerek elde edebilirsiniz.",
+  "tr": "Kıymayı yoğurduktan sonra soğutmak şişe daha iyi tutunmasını sağlar; ızgara yoksa aynı sonucu fırında 220°C'de, ızgara fonksiyonunda, bir kez çevirerek pişirebilirsiniz.",
   "en": "Chilling the mince after kneading helps it grip the skewer; without a grill, use the oven's grill setting at 220°C, turning once."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The English tip says to turn the kebabs once under the oven grill, but the Turkish tip omits this instruction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

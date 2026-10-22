@@ -46,7 +46,7 @@
    "Fırını 200 °C'ye ısıtın. Bademleri, cevizleri ve Antep fıstıklarını ayrı bir tepsiye alıp 5 dakika kızartın, sonra kenara alın.",
    "Milföy hamurunu 4-5 cm'lik kareler halinde kesin, üzerine eritilmiş tereyağını gezdirip 12-15 dakika altın sarısı olana kadar pişirin. Soğuyunca ufalayın.",
    "Bir tencerede sütü, kremayı, şekeri ve vanilya özünü orta ateşte sürekli karıştırarak ısıtın. Kaynamaya yaklaşınca ocaktan alın ve 1 tatlı kaşığı tarçını ekleyip karıştırın.",
-   "Fırına dayanıklı, yaklaşık 20x20 cm bir kaba ufalanmış hamurun yarısını yayın. Üzerine kuru üzüm, hindistan cevizi ve kızarttığınız fındık ve fıstıkların yarısını serpin.",
+   "Fırına dayanıklı, yaklaşık 20x20 cm bir kaba ufalanmış hamurun yarısını yayın. Üzerine kuru üzüm, hindistan cevizi ve kızarttığınız ceviz ile Antep fıstıklarının yarısını serpin.",
    "Kalan hamuru, kalan kuruyemişleri ve hindistan cevizini katman katman ekleyin.",
    "Sıcak süt karışımını kabın içine yavaşça dökün ve hamurun birkaç dakika emmesini bekleyin.",
    "Kabı 180 °C fırında 15-20 dakika, üst yüzey kızarana ve sıvı büyük ölçüde çekilene kadar pişirin.",
@@ -67,5 +67,13 @@
   "tr": "Hamuru süt karışımını dökmeden önce yumuşatmak için birkaç dakika bekletin; böylece üstte çıtır, altta kıvamlı bir doku elde edersiniz.",
   "en": "Let the pastry soak in the milk mixture for a few minutes before baking so the bottom turns custardy while the top stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 mentions 'fındık' (hazelnut), which is not in the ingredient list in either language. The recipe uses walnuts (ceviz) and pistachios (Antep fıstığı), so the step should name those."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

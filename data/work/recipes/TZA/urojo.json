@@ -64,7 +64,7 @@
  "steps": {
   "tr": [
    "Yumurtaları soğuk suda kaynamaya bırakın, kaynamaya başladıktan sonra 9 dakika pişirin. Soğutup kabuklarını soyun ve ikiye bölün.",
-   "Patates küplerini tuzlu kaynar suda 8-10 dakika haşlayın, süzün ve kenara alın.",
+   "Patates küplerini 2 g tuz eklenmiş kaynar suda 8-10 dakika haşlayın, süzün ve kenara alın.",
    "Büyük bir tencerede 45 ml yağı orta ateşte ısıtın. Soğan, sarımsak ve zencefili ekleyip soğan yumuşayana kadar 6-7 dakika kavurun.",
    "Zerdeçal, garam masala ve toz acı biberi ekleyip 1 dakika daha kavurun.",
    "Tamarind püresini 100 ml sıcak suyla karıştırıp tencereye ekleyin. Kalan stoku dökün, 2 g tuz ekleyin ve kısık ateşte 15 dakika kaynatın.",
@@ -77,7 +77,7 @@
   ],
   "en": [
    "Place the eggs in cold water, bring to a boil, then cook for 9 minutes. Cool, peel and halve them.",
-   "Boil the potato cubes in salted water for 8-10 minutes until tender. Drain and set aside.",
+   "Boil the potato cubes in water seasoned with 2 g of the salt for 8-10 minutes until tender. Drain and set aside.",
    "Heat the oil in a large pot over medium heat. Add the onion, garlic and ginger and fry for 6-7 minutes until the onion softens.",
    "Stir in the turmeric, garam masala and chili powder and cook for 1 more minute.",
    "Mix the tamarind paste with 100 ml hot water and add to the pot. Pour in the stock, add 2 g of the salt and simmer gently for 15 minutes.",
@@ -86,12 +86,21 @@
    "Combine the flour, sugar, baking powder and 2 g salt. Add the coconut milk and knead into a soft dough. Rest for 10 minutes.",
    "Roll the dough to 1 cm thickness and cut into small triangles or strips. Fry at 170°C until puffed and golden, then drain.",
    "Taste the broth and adjust with salt if needed. Divide the potato cubes and egg halves among four bowls and ladle the hot broth over them.",
-   "Top each bowl with bhajia, mandazi pieces, lemon juice and coriander, then serve immediately."
+   "Top each bowl with bhaji, mandazi pieces, lemon juice and coriander, then serve immediately."
   ]
  },
  "tip": {
   "tr": "Bhajileri ve mandaziyi sosla karıştırmadan hemen önce kızartın; sıcak sosun içinde kısa sürede yumuşarlar ve çıtırlıklarını kaybederler.",
   "en": "Fry the bhaji and mandazi just before serving, and add them to the broth at the last moment so they stay crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed as 8 g 'divided', but the steps only account for 6 g (2 g each in the broth, batter and dough). The remaining 2 g is never assigned.",
+   "English step 11 spells it 'bhajia' while the ingredient list and Turkish text use 'bhaji'. Minor, but it should be consistent."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

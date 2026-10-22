@@ -15,13 +15,12 @@
   "tr": [
    "500 g Pers salatalığı veya ince kabuklu küçük salatalık",
    "5 g tuz",
-   "3 diş sarımsak, ince doğranmış (about 10 g)",
+   "3 diş sarımsak, ince doğranmış (yaklaşık 10 g)",
    "30 ml pirinç sirkesi",
    "20 ml açık soya sosu",
    "15 g toz şeker",
    "10 ml susam yağı",
-   "2 g kırmızı pul biber",
-   "1 kırmızı dolmalık biber... (not used)"
+   "2 g kırmızı pul biber"
   ],
   "en": [
    "500 g Persian or thin-skinned small cucumbers",
@@ -56,5 +55,15 @@
   "tr": "Salatalıkları ezmek, dilimlemekten daha fazla çatlak yüzey oluşturarak sosun daha iyi emilmesini sağlar.",
   "en": "Smashing the cucumbers instead of slicing them creates more cracks and surfaces, so the dressing soaks in better."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list has an extra item, '1 kırmızı dolmalık biber', that is not in the English list and is never used in the steps.",
+   "Turkish garlic ingredient contains untranslated English '(about 10 g)'; it should read '(yaklaşık 10 g)'.",
+   "Turkish ingredient list has a stray placeholder annotation '(not used)' that must not appear in the recipe."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

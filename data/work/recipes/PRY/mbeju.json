@@ -9,7 +9,7 @@
   "en": "A traditional Paraguayan cassava-starch and cheese cake, made with fresh cheese and eggs and cooked into flat, golden rounds. It is usually eaten warm at breakfast or in the afternoon alongside mate."
  },
  "servings": 4,
- "time_min": 40,
+ "time_min": 55,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -38,7 +38,7 @@
    "Islak karışımı kuru malzemelerin üzerine dökün ve yumuşak, hafif yapışkan bir hamur elde edene kadar yoğurun.",
    "Hamuru 10 dakika dinlendirin.",
    "Hamuru 8 eşit parçaya bölün, her birini elinizle yuvarlayıp yaklaşık 10 cm çapında, 1 cm kalınlığında yassı daireler haline getirin.",
-   "Yapışmaz tavayı orta ateşte ısıtın ve hafifçe yağlayın. Mbejú'ları tavaya yerleştirip her iki yüzünü de yaklaşık 4-5 dakika, altın rengi alana ve içi tamamen pişene kadar kızartın.",
+   "Yapışmaz tavayı orta ateşte ısıtın ve hafifçe yağlayın. Mbejú'ları tavaya yerleştirip her iki yüzünü de yaklaşık 4-5 dakika, altın rengi alana ve içi tamamen pişene kadar kızartın. Her yüzü çevirdikten sonra ilk bir dakika tavanın kapağını kapatarak içinin pişmesini sağlayın.",
    "Sıcak servis edin."
   ],
   "en": [
@@ -49,7 +49,7 @@
    "Pour the wet mixture over the dry ingredients and knead into a soft, slightly sticky dough.",
    "Rest the dough for 10 minutes.",
    "Divide the dough into 8 equal pieces. Roll each into a ball, then flatten into rounds about 10 cm across and 1 cm thick.",
-   "Heat a non-stick pan over medium heat and lightly grease it. Place the mbejú rounds in the pan and fry for 4-5 minutes per side, until golden and cooked through.",
+   "Heat a non-stick pan over medium heat and lightly grease it. Place the mbejú rounds in the pan and fry for 4-5 minutes per side, until golden and cooked through. After turning each side, cover the pan for the first minute to help the centre cook through.",
    "Serve warm."
   ]
  },
@@ -57,5 +57,14 @@
   "tr": "Nişastanın gerçek mbejú dokusunu vermesi için kasava nişastası tercih edin; tavada çevirirken kapağı kapatmak içini daha kolay pişirir.",
   "en": "Use cassava starch for the authentic chewy texture; covering the pan for the first minute of each side helps the centre cook through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to cover the pan for the first minute of each side, but the frying steps never mention a lid, so the tip and steps disagree.",
+   "time_min 40 looks low: about 10 min prep, 10 min rest, and roughly 4 rounds per batch at 8-10 min per batch across two batches comes to about 50-55 min total."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "Bake",
  "desc": {
-  "tr": "Saint Lucia'da kahvaltıda, öğle yemeğinde ve sokak satıcılarında yaygın olan, yağda kızartılan yumuşak bir ekmektir. Genellikle balıklı sandviçlerin, özellikle kızarmış hamsi (buljol) veya tuzlu balıkla yapılanların içine konur.",
+  "tr": "Saint Lucia'da kahvaltıda, öğle yemeğinde ve sokak satıcılarında yaygın olan, yağda kızartılan yumuşak bir ekmektir. Genellikle ikiye ayrılıp tuzlu balık, füme ringa veya kızarmış balık ile doldurularak yenir ve adanın günlük yemeklerinin temel parçasıdır.",
   "en": "A soft, deep-fried flatbread eaten across Saint Lucia at breakfast, lunch and from street vendors. It is most often split and filled with salt fish, smoked herring or fried fish, and it is a staple of the island's everyday food."
  },
  "servings": 4,
@@ -38,7 +38,7 @@
    "Ilık suyu azar azar ekleyerek yumuşak ama yapışkan olmayan bir hamur yoğurun.",
    "Hamuru yaklaşık 5 dakika, pürüzsüz ve elastik olana kadar yoğurun.",
    "Hamuru örtüp oda sıcaklığında 20 dakika dinlendirin.",
-   "Hamuru 8 eşit parçaya bölün ve her birini avuçlarınızla yaklaşık 1 cm kalınlığında, yuvarlak bir disk haline getirin.",
+   "Hamuru 8 eşit parçaya bölün ve her birini avuçlarınızla yaklaşık 1 cm kalınlığında, yuvarlak bir disk haline getirin. Her diskin ortasını parmaklarınızla hafifçe bastırın.",
    "Diskleri örtülü şekilde 5 dakika daha dinlendirin.",
    "Geniş bir tencerede yağı 170 °C'ye kadar ısıtın.",
    "Diskleri yağa tek tek bırakın ve her iki yüzünü de altın rengi olana kadar yaklaşık 3-4 dakika kızartın.",
@@ -50,7 +50,7 @@
    "Gradually add the lukewarm water, mixing until you have a soft but not sticky dough.",
    "Knead the dough for about 5 minutes until smooth and elastic.",
    "Cover the dough and let it rest at room temperature for 20 minutes.",
-   "Divide the dough into 8 equal pieces and flatten each into a round disc about 1 cm thick.",
+   "Divide the dough into 8 equal pieces and flatten each into a round disc about 1 cm thick. Gently press the centre of each disc.",
    "Cover the discs and rest them for another 5 minutes.",
    "Heat the oil in a wide, deep pan to 170 °C.",
    "Carefully lower the discs into the oil one at a time and fry for about 3-4 minutes, turning once, until golden brown on both sides.",
@@ -61,5 +61,14 @@
   "tr": "Hamurun ortasını hafifçe bastırıp kabarmasını sağlayın; bu, bake'in içinin pişmesine ve dışının çıtırlaşmasına yardımcı olur.",
   "en": "Gently press the centre of each disc before frying so it puffs up evenly; this helps the inside cook through while the outside turns crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description wrongly calls buljol a fried hamsi dish. Buljol is a salt cod salad, and the English text says smoked herring or fried fish, so the Turkish and English descriptions disagree.",
+   "The tip says to gently press the centre of each disc before frying, but this step is missing from the steps in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

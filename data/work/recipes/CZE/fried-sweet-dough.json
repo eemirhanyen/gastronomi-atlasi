@@ -45,7 +45,7 @@
   "tr": [
    "Sütü ılık hale (yaklaşık 38°C) getirin. Mayayı ve 30 g şekerin 5 g'ını bu sütün içinde eritip 10 dakika köpürmesini bekleyin.",
    "Unu, kalan şekeri, tuzu ve limon kabuğu rendesini bir kaseye alın. Yumurtayı, mayalı sütü ve eritilmiş tereyağını ekleyip 8–10 dakika yoğurun; yumuşak ve pürüzsüz bir hamur elde edin.",
-   "Hamuru kaseyle kapatıp sıcak bir yerde iki katına çıkana kadar, yaklaşık 45 dakika dinlendirin.",
+   "Kaseyi örtüp hamuru sıcak bir yerde iki katına çıkana kadar, yaklaşık 45 dakika dinlendirin.",
    "Hamuru hafifçe bastırıp 12 eşit parçaya bölün. Her parçayı yuvarlayıp yassı bir disk haline getirin, ortasına yaklaşık 15 g erik reçeli koyun. Kenarları ortada toplayıp tamamen kapatın, topa şekil verip dikiş yeri alta gelecek şekilde tutun.",
    "Yağladığınız fırın kâğıdını tepsiye serin, hamur toplarını dikiş tarafı altta kalacak şekilde aralarında boşluk bırakarak dizin. Örtüp 20–30 dakika kabarmaya bırakın.",
    "Geniş ve kapaklı bir tencereye yaklaşık 2 cm su koyup kaynatın. Buhar sepetini ya da rafı yerleştirin, üzerine yağlı fırın kâğıdını serin ve hamur toplarını aralarında boşluk kalacak şekilde dizin. Kapağı kapatıp orta-kısık ateşte 20 dakika buharda pişirin; ilk 15 dakika kapağı açmayın.",
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Vdolky geleneksel olarak kızartılmaz, buharda ya da fırında pişirilir; bu yüzden kapağı sık sık açmayın ve tencerede su kaynamasını sürdürün ki yumuşak ve kabarık kalsınlar.",
+  "tr": "Vdolky geleneksel olarak kızartılmaz, buharda ya da fırında pişirilir; bu yüzden kapağı sık sık açmayın ve suyun tencerede tamamen kurumamasını sağlayın ki yumuşak ve kabarık kalsınlar.",
   "en": "Vdolky are traditionally steamed or baked rather than deep-fried, so keep them soft by leaving the lid on and not letting the water boil dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish tip tells the cook to keep the water boiling (\"su kaynamasını sürdürün\"), while the English tip warns against letting the water boil dry. The two versions give different advice.",
+   "The requested dish is \"Fried sweet dough\", but the recipe is for steamed vdolky, which the tip itself says are not fried. The recipe content matches vdolky, so this is a mismatch between the dish labe"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

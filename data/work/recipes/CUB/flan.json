@@ -37,11 +37,11 @@
  },
  "steps": {
   "tr": [
-   "Fırını 160 °C'ye ısıtın ve büyük bir fırın tepsisinin içine yüksek kenarlı bir kap koyacak kadar yer bırakın. Yaklaşık 20 cm çaplı, yaklaşık 1,2 litrelik yuvarlak bir kalıp hazırlayın.",
-   "Şekeri ve suyu orta boy bir tencerede orta ateşte karıştırmadan eritin. Şeker kehrebar rengini alınca ateşten alın ve hemen yağlamadığınız kalıbın dibine dökün; kalıbı çevirerek karamelin dibe ve kenarlara yayılmasını sağlayın. Karamelin sertleşmesini bekleyin.",
-   "Tam yağlı sütü ve buharlaştırılmış sütü limon kabuğuyla birlikte küçük bir tencerede kaynamaya yakın ısıtın, sonra ateşten alıp 10 dakika demlenmeye bırakın. Limon kabuklarını çıkarın.",
+   "Fırını 160 °C'ye ısıtın. Kalıbı rahatça koyabileceğiniz, yüksek kenarlı büyük bir fırın tepsisi hazırlayın. Yaklaşık 20 cm çaplı, yaklaşık 1,2 litrelik yuvarlak bir kalıp hazırlayın.",
+   "Şekeri ve suyu orta boy bir tencerede orta ateşte karıştırmadan eritin. Şeker kehribar rengini alınca ateşten alın ve hemen yağlamadığınız kalıbın dibine dökün; kalıbı çevirerek karamelin dibe ve kenarlara yayılmasını sağlayın. Karamelin sertleşmesini bekleyin.",
+   "Tam yağlı sütü ve buharlaştırılmış sütü limon kabuğuyla birlikte küçük bir tencerede kaynamaya yakın ısıtın, sonra ateşten alıp üzerini kapatarak 10 dakika demlenmeye bırakın. Limon kabuklarını çıkarın.",
    "Büyük bir kapta yumurtaları, yumurta sarılarını, yoğunlaştırılmış sütü ve vanilyayı pürüzsüz olana kadar çırpın. Sıcak süt karışımını yavaş yavaş ekleyerek sürekli çırpın.",
-   "Karışımı ince bir süzgeçten geçirerek karamelli kalıba dökün. Kalıbı alüminyum folyo ile kapatın.",
+   "Karışımı ince bir süzgeçten geçirerek karamelli kalıba dökün. Kalıbı alüminyum folyo ile sıkıca kapatın.",
    "Kalıbı fırın tepsisine yerleştirin ve tepsiye kalıp yüksekliğinin yarısına gelecek kadar sıcak su ekleyin (su banyosu). Tepsiyi fırına alın ve 45-55 dakika pişirin. Kenarlar oturmuş, ortası hafifçe titreyecek kıvamda olmalıdır.",
    "Kalıbı sudan çıkarıp oda sıcaklığında soğumaya bırakın, ardından en az 4 saat buzdolabında bekletin. Bu süre zarfında karamel ve muhallebi kıvamını kazanır.",
    "Servis için kalıbın kenarlarını ince bir bıçakla gevşetin, geniş bir servis tabağını üstüne kapatıp hızla çevirin. Kalıbı birkaç saniye bekletin ki karamel tabağa aksın, sonra kalıbı kaldırın."
@@ -58,8 +58,18 @@
   ]
  },
  "tip": {
-  "tr": "Karamelin çok koyulaşıp acılaşmaması için şekeri eritirken tencereyi sallayın ama karıştırmayın; rengi açık kehrebardan koyu kehrebara geçtiği anda ateşten alın.",
+  "tr": "Karamelin çok koyulaşıp acılaşmaması için şekeri eritirken tencereyi sallayın ama karıştırmayın; rengi açık kehribardan koyu kehribara geçtiği anda ateşten alın.",
   "en": "Swirl the pan instead of stirring the sugar, and pull the caramel off the heat as soon as it reaches a deep amber, since it keeps darkening and can turn bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish spelling 'kehrebar' is wrong; the correct word is 'kehribar' (amber). It appears in step 2 and the tip.",
+   "Turkish step 1 is awkwardly worded and doesn't clearly say to prepare a deep baking dish large enough to hold the mould, as the English does.",
+   "Turkish step 3 omits the English instruction to cover the milk while it infuses."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

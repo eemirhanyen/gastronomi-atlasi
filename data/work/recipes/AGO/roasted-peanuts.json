@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "400 g çiğ yer fıstığı (ari kabuğu üzerinde, kabuksuz)",
+   "400 g çiğ yer fıstığı (kavuzu ayıklanmış, ari kabuğu üzerinde)",
    "5 g ince tuz",
    "2 g toz piri-piri (kurutulmuş acı biber)"
   ],
@@ -47,5 +47,13 @@
   "tr": "Fıstıkları fırından çıkardıktan sonra bir süre tepside bırakmayın; hemen kaseye alıp tuzlamak tuzun tanelere yapışmasını sağlar.",
   "en": "Transfer the peanuts to a bowl right away after roasting; salting them while still hot helps the seasoning stick to the nuts."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line \"ari kabuğu üzerinde, kabuksuz\" is self-contradictory (\"kabuksuz\" reads as \"skinless\"), while the English says shelled with skins on. The Turkish should say the pods are remove"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

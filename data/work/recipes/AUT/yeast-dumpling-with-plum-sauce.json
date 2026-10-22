@@ -5,7 +5,7 @@
  },
  "native": "Germknödel",
  "desc": {
-  "tr": "Plum reçeli veya powidl ile doldurulmuş, buharda pişirilen mayalı bir hamur topudur. Avusturya'da, özellikle Viyana ve Steiermark'ta, kışın ve hafta sonları sıcak bir tatlı olarak servis edilir.",
+  "tr": "Erik reçeli veya powidl ile doldurulmuş, buharda pişirilen mayalı bir hamur topudur. Avusturya'da, özellikle Viyana ve Steiermark'ta, kışın ve hafta sonları sıcak bir tatlı olarak servis edilir.",
   "en": "A steamed yeast dough dumpling filled with plum jam, rolled in poppy seed and sugar. In Austria, especially Vienna and Styria, it is served warm as a comforting dessert, often in cold months and on weekends."
  },
  "servings": 4,
@@ -58,7 +58,7 @@
  "steps": {
   "tr": [
    "Büyük bir kapta un, kuru maya, 40 g toz şeker, tuz ve limon kabuğunu karıştırın.",
-   "Ortaya yumurtayı, ılık sütü ve oda sıcaklığındaki tereyağını ekleyin. Yumuşak ve yapışmayan bir hamur elde edene kadar 8-10 dakika yoğurun.",
+   "Ortaya yumurtayı, ılık sütü ve oda sıcaklığındaki tereyağını ekleyin. Yumuşak, pürüzsüz ve hafif yapışkan bir hamur elde edene kadar 8-10 dakika yoğurun.",
    "Hamuru üzeri örtülü olarak sıcak bir yerde yaklaşık 60 dakika, hacmi iki katına çıkana kadar mayalandırın.",
    "Mayalanan hamuru 4 eşit parçaya bölün. Her parçayı avucunuzda yassılaştırın, ortasına 30 g erik reçeli koyun ve kenarlarını kapatarak küçük toplar yapın.",
    "Topları unlu bir tepsiye alın, örtün ve 15 dakika dinlendirin.",
@@ -87,5 +87,14 @@
   "tr": "Hamurun buharda dağılmaması için topları tam kapatın ve pişirirken kapağı açmayın; yoğun bir erik reçeli kullanmak da içini dağılmadan tutar.",
   "en": "Seal the dumplings tightly and avoid lifting the lid while steaming so they do not collapse; a thick jam or powidl also keeps the filling from leaking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says the dough should be \"yapışmayan\" (non-sticky), but the English says \"slightly sticky\". The two versions disagree.",
+   "Turkish description uses the mixed-language term \"Plum reçeli\" instead of \"erik reçeli\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -24,10 +24,10 @@
    "1 orta boy soğan (120 g)",
    "30 ml ayçiçek yağı",
    "2 yemek kaşığı salça (30 g)",
-   "15 ml sirke",
+   "15 ml sirke (%9)",
    "5 g şeker",
    "2 diş sarımsak",
-   "Tuz",
+   "Tuz (tadına göre)",
    "15 g taze dereotu",
    "10 g maydanoz",
    "4 yemek kaşığı ekşi krema (60 g)"
@@ -47,7 +47,7 @@
    "15 ml vinegar (9%)",
    "5 g sugar",
    "2 garlic cloves",
-   "Salt",
+   "Salt (to taste)",
    "15 g fresh dill",
    "10 g parsley",
    "4 tablespoons sour cream (60 g)"
@@ -57,7 +57,7 @@
   "tr": [
    "Dana inciği soğuk suyla birlikte büyük bir tencereye alın ve kaynamaya bırakın. Yüzeye çıkan köpükleri alın.",
    "Defne yaprağı ve karabiberi ekleyin, ısıyı kısın ve et yumuşayana kadar yaklaşık 1 saat 15 dakika kaynatın.",
-   "Etı tencereden çıkarıp soğumaya bırakın. Suyu süzün, etin kemiğini ayırıp eti küçük parçalar halinde doğrayın.",
+   "Eti tencereden çıkarıp soğumaya bırakın. Suyu süzün, etin kemiğini ayırıp eti küçük parçalar halinde doğrayın.",
    "Pancarları soyup kaba rendeleyin. Patatesleri küp küp doğrayın, lahanayı ince ince kıyın.",
    "Soğanı ve havucu ince doğrayıp ayçiçek yağında orta ateşte 5 dakika kavurun. Salçayı ekleyip 1 dakika daha kavurun.",
    "Rendelenmiş pancarı, sirkeyi ve şekeri ekleyin. Kapağı kapalı olarak 10 dakika pişirin.",
@@ -81,7 +81,18 @@
  },
  "tip": {
   "tr": "Pancarı rendelerken eller boyanmasın diye tek kullanımlık eldiven takın; borşun rengi, pancarın sirke ile birlikte pişmesiyle canlı kalır.",
-  "en": "Add the vinegar together with the beetroot, not at the end. The acid helps the soup keep its bright red colour."
+  "en": "Wear disposable gloves when grating the beetroot so your hands do not get stained. Add the vinegar together with the beetroot, not at the end. The acid helps the soup keep its bright red colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt has no quantity or unit in either language",
+   "Turkish step 3 has the typo 'Etı' (should be 'Eti')",
+   "Vinegar concentration (9%) appears in the English ingredient but not the Turkish one",
+   "English tip omits the glove advice given in the Turkish tip, so the two versions disagree"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

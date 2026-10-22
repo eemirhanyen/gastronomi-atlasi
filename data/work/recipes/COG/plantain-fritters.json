@@ -43,7 +43,7 @@
    "Hamur çok sert kalırsa süt ekleyip kıvamı ayarlayın; hamur yapışkan ama şekillendirilebilir olmalıdır.",
    "Hamuru 10 dakika dinlendirin.",
    "Derin bir tencerede yağı 170°C'ye kadar ısıtın.",
-   "Iki kaşıkla hamurdan ceviz büyüklüğünde parçalar alıp sıcak yağa bırakın; yağın içinde fazla kalabalık olmamasına dikkat edin.",
+   "İki kaşıkla hamurdan ceviz büyüklüğünde parçalar alıp sıcak yağa bırakın; yağın içinde fazla kalabalık olmamasına dikkat edin.",
    "Beignetleri ara sıra çevirerek 3-4 dakika, altın rengi ve çıtır olana kadar kızartın.",
    "Süzgeçli kaşıkla çıkarıp kağıt havlu serili tabağa alın, fazla yağı akıtın ve sıcak servis yapın."
   ],
@@ -60,8 +60,17 @@
   ]
  },
  "tip": {
-  "tr": "Muzlar ne kadar olgunsa fritöz tatlanır ve hamur daha yumuşak olur; yağ sıcaklığını termometreyle kontrol etmek dışının çabuk kızarıp içinin çiğ kalmasını önler.",
+  "tr": "Muzlar ne kadar olgunsa o kadar tatlı ve hamur o kadar yumuşak olur; yağ sıcaklığını termometreyle kontrol etmek dışının çabuk kızarıp içinin çiğ kalmasını önler.",
   "en": "The riper the plantains, the sweeter and softer the batter; check the oil temperature with a thermometer so the outside browns without the centre staying raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says \"fritöz tatlanır\", which is wrong: 'fritöz' means fryer, and the sentence should refer to the plantains becoming sweeter.",
+   "Turkish step 7 begins with \"Iki\" without the dotted capital İ."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

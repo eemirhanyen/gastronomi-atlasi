@@ -9,7 +9,7 @@
   "en": "A refreshing, tart-sweet drink made from dried red hibiscus flowers and served cold. In Burkina Faso it is sold in markets and enjoyed daily, especially in the heat, and at celebrations."
  },
  "servings": 4,
- "time_min": 45,
+ "time_min": 105,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Şekeri sıcak sıvıya ekleyin ki tamamen erisin; bissap buzdolabında 3 güne kadar saklanabilir.",
   "en": "Dissolve the sugar while the liquid is still warm; the drink keeps in the refrigerator for up to 3 days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (45) omits the mandatory 1-hour chilling step and the 15-minute steeping, so the total time is understated (about 105 minutes)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

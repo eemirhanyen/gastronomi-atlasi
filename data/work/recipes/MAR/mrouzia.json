@@ -53,9 +53,9 @@
    "Rendelenmiş soğanı ekleyin ve suyunu çekip hafif karamelize olana kadar 10 dakika pişirin.",
    "Zencefil tozu, tarçın çubuğu, ras el hanout, tuz ve karabiberi ekleyip 1 dakika kavurun.",
    "Safranlı suyu ve 500 ml suyu ekleyin, kaynamaya bırakın. Ateşi kısın, kapağı kapatıp eti yumuşayana kadar yaklaşık 1 saat 15 dakika kısık ateşte pişirin.",
-   "Bu sırada küçük bir tavada tereyağını eritin, bademleri ekleyip altın rengi alana kadar 3-4 dakika kavurun, süzüp kenara alın.",
+   "Bu sırada küçük bir tavada tereyağını eritin, bademleri ekleyip altın rengi alana kadar 3-4 dakika kavurun. Bademleri süzüp kenara alın, tereyağını ise kenara ayırın.",
    "Et yumuşayınca kapağı açın, balı ve kuru üzümü ekleyin. Sosu yaklaşık 10-15 dakika daha, koyulaşana kadar pişirin.",
-   "Son olarak kavrulmuş bademleri ve eritilmiş tereyağının kalan kısmını ekleyip karıştırın. Kuzu etini sıcak servis edin ve üzerine susamı serpin."
+   "Son olarak kavrulmuş bademleri ve kenara ayırdığınız tereyağını ekleyip karıştırın. Kuzu etini sıcak servis edin ve üzerine susamı serpin."
   ],
   "en": [
    "Pat the lamb dry and brown it in olive oil in a large pot over medium-high heat for about 8 minutes, turning until all sides are golden.",
@@ -71,5 +71,13 @@
   "tr": "Bal ekledikten sonra sos hızla koyulaşıp yapışabileceği için kısık ateşte ve sık sık karıştırarak pişirin.",
   "en": "Honey can scorch quickly once added, so keep the heat low and stir often when reducing the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 does not say the butter is set aside, and Turkish step 7 says \"kalan kısmını\" (the remaining part), which implies some butter was already used. The English says the butter is reserved, "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

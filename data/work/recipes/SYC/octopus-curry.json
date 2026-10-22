@@ -9,12 +9,12 @@
   "en": "A mild, creamy Creole curry of tender octopus simmered in coconut milk, eaten on the Seychelles' coastal villages and at weekend lunches. It is usually served with rice or breadfruit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "1 kg temizlenmiş ahtapot",
-   "1 yemek kaşığı limon suyu",
+   "1 yemek kaşığı misket limonu suyu",
    "1 tatlı kaşığı tuz (pişirme suyu için)",
    "3 yemek kaşığı bitkisel yağ",
    "2 orta boy soğan, ince doğranmış",
@@ -29,7 +29,7 @@
    "400 ml hindistan cevizi sütü",
    "Yarım tatlı kaşığı tuz (sosu tatmak için)",
    "Taze çekilmiş karabiber",
-   "1 yemek kaşığı limon suyu (servis için)"
+   "1 yemek kaşığı misket limonu suyu (servis için)"
   ],
   "en": [
    "1 kg cleaned octopus",
@@ -53,7 +53,7 @@
  },
  "steps": {
   "tr": [
-   "Ahtapotu soğuk suyla iyice yıkayın. Büyük parçalar halinde kesin ya da bütün bırakın. 1 yemek kaşığı limon suyunu ve 1 tatlı kaşığı tuzu 2 litre suya ekleyip ahtapotu içine koyun.",
+   "Ahtapotu soğuk suyla iyice yıkayın. Büyük parçalar halinde kesin ya da bütün bırakın. 1 yemek kaşığı misket limonu suyunu ve 1 tatlı kaşığı tuzu 2 litre suya ekleyip ahtapotu içine koyun.",
    "Suyu kaynatın, ısıyı kısın ve ahtapot yumuşayana kadar yaklaşık 40 dakika kısık ateşte pişirin. Çatalla kolayca delinmesi gerekir. Pişirme suyundan 150 ml ayırın, ahtapotu süzüp kenara alın ve parçalara kesin.",
    "Geniş bir tencerede yağı orta ateşte ısıtın. Soğanı ekleyip yumuşayana ve altın rengi almaya başlayana kadar yaklaşık 6 dakika kavurun.",
    "Sarımsak, zencefil, kekik, köri yaprağı ve yeşil biberi ekleyip 1 dakika daha karıştırın.",
@@ -61,7 +61,7 @@
    "Doğranmış ahtapotu tencereye alın, iyice karıştırarak baharatlarla kaplayın.",
    "Hindistan cevizi sütünü ve ayırdığınız 150 ml pişirme suyunu ekleyin. Karıştırıp kaynamaya bırakın, ardından ısıyı kısın.",
    "Kapağını kapatmadan, sık sık karıştırarak 15 dakika kadar kısık ateşte pişirin. Sos koyulaşmalı ama kaynayıp yağlaşmamalıdır.",
-   "Tuz ve karabiberle tatlandırın, gerekirse biraz daha tuz ekleyin. Kekik dalını ve yeşil biberi çıkarın, 1 yemek kaşığı limon suyunu ekleyip sıcak servis yapın."
+   "Tuz ve karabiberle tatlandırın, gerekirse biraz daha tuz ekleyin. Kekik dalını ve yeşil biberi çıkarın, 1 yemek kaşığı misket limonu suyunu ekleyip sıcak servis yapın."
   ],
   "en": [
    "Rinse the octopus well in cold water. Cut into large pieces or leave whole. Put it in a pot with 2 litres of water, 1 tbsp lime juice and 1 tsp salt.",
@@ -76,8 +76,18 @@
   ]
  },
  "tip": {
-  "tr": "Ahtapotu pişirmeden önce ortadan ikiye bölüp kısa süre kaynayan suya daldırıp çıkararak (üç kez) tekrar pişirirseniz daha yumuşak olur; yine de pişirme süresini mutlaka kontrol edin.",
+  "tr": "Ahtapotu sert kaynatmak yerine hafifçe kaynayan suda pişirmek eti yumuşak tutar; körliye eklemeden önce mutlaka çatalla kontrol edin.",
   "en": "Simmering the octopus gently rather than boiling it hard keeps the flesh tender; always test with a fork before adding it to the curry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip describes a different technique (halving the octopus and dipping it into boiling water three times) than the English tip (gentle simmering and fork testing), so the versions disagree.",
+   "Turkish uses 'limon suyu' (lemon juice) while the English uses 'lime juice'. Lime should be 'misket limonu' in Turkish.",
+   "time_min is 60, but the steps add up to roughly 40 min octopus simmer + 6 + 1 + 5 + 15 min of cooking, plus prep, so about 75 minutes is more realistic."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

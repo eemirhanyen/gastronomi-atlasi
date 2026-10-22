@@ -9,7 +9,7 @@
   "en": "A popular Cypriot street food of lemon and oregano marinated pork cubes grilled on skewers and served in pita bread. It is eaten at weekend lunches, tavernas and roadside grills across the island."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Etin kuru kalmaması için omzu tercih edin; ızgarada çevirirken aşırı kurumaması adına şişleri bir iki kez zeytinyağı ile fırçalayın.",
   "en": "Use pork shoulder rather than loin so the meat stays juicy, and brush the skewers with a little olive oil while grilling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is shorter than the required passive marinating (at least 1 hour) plus about 10-12 minutes of grilling and warming the pita, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

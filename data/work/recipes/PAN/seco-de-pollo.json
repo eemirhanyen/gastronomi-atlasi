@@ -62,7 +62,7 @@
    "Geniş bir tencerede 2 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Tavukları partiler halinde her yüzü altın rengi olana kadar kavurun ve bir tabağa alın.",
    "Aynı tencerede kalan yarım soğanı doğrayıp yumuşayana kadar 3 dakika kavurun. Salçayı ekleyip 1 dakika daha karıştırın.",
    "Blender'dan çektiğiniz kişnişli karışımı tencereye ekleyin ve 5 dakika kısık ateşte pişirin.",
-   "Tavukları tencereye geri koyun. Kalan 230 ml biра, 250 ml su, kekik ve şekeri ekleyin. Kaynayınca ateşi kısın, kapağını kapatıp 25 dakika pişirin.",
+   "Tavukları tencereye geri koyun. Kalan 230 ml bira, 250 ml su, kekik ve şekeri ekleyin. Kaynayınca ateşi kısın, kapağını kapatıp 25 dakika pişirin.",
    "Patatesleri ve havucu büyük küpler halinde doğrayın, tencereye ekleyip kapağı kapalı şekilde 15 dakika daha pişirin.",
    "Bezelyeleri ekleyip 5 dakika daha pişirin. Sosun kıvamı çok sulu ise kapağı açık bırakarak kısa süre kaynatın, tuzunu kontrol edin.",
    "Pilav için pirinci soğuk suyla 2 kez yıkayın, 350 ml su ve bir tutam tuzla kapaklı bir tencerede kısık ateşte 18 dakika pişirin, ardından 5 dakika demlenmeye bırakın.",
@@ -85,5 +85,13 @@
   "tr": "Geleneksel tarifte kişniş yerine culantro (Latin Amerika'da 'recao' olarak bilinen, daha sert ve yoğun kokulu bir bitki) kullanılır. Bulamazsanız taze kişnişe bir miktar limon suyu ekleyerek tadı dengeleyebilirsiniz.",
   "en": "Traditional recipes often use culantro (recao), a tougher herb with a stronger flavor, instead of cilantro. If you cannot find it, use cilantro and add a squeeze of lime juice to balance the taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 contains Cyrillic characters in \"biра\" (should be \"bira\")"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -54,11 +54,11 @@
  "steps": {
   "tr": [
    "Pirinç için 300 g Jasmine pirincini yıkayıp süzün, iki katı su ile pişirin ve sıcak tutun.",
-   "Kurutulmuş hindistancevizini kuru bir tavada orta ateşte altın rengi olana kadar kavurun, ardından blenderda veya havanda kabaca ezerek kerisik adı verilen macunumsu bir karışım elde edin.",
+   "Kurutulmuş hindistancevizini kuru bir tavada orta ateşte altın rengi olana kadar kavurun, ardından blenderda veya havanda kabaca öğütüp kerisik adı verilen kabaca öğütülmüş, kırıntılı bir karışım elde edin.",
    "Blenderda arpacık soğanı, sarımsak, galangal, ince doğranmış limon otu, ıslatılıp süzülmüş kuru kırmızı biber, zerdeçal, kişniş, palmiye şekeri ve 1 çay kaşığı tuzu pürüzsüz bir macun olana kadar çekin.",
    "Macunun yaklaşık üçte ikisini büyük bir kapta tavukla karıştırın. Üzerine 200 ml kıvamlı hindistancevizi sütünü ekleyip iyice yoğurun ve en az 30 dakika buzdolabında bekletin.",
    "Kalan macunun tamamını ayrı bir kapta ayırın. Fırını 200°C'ye ısıtın.",
-   "Marine tavukları fırın tepsisine dizin ve 200°C'de 35-40 dakika pişirin; iç sıcaklık 74°C'ye ulaşmalıdır. Pişme sırasında marinasyondan bir iki kez üzerine sürün.",
+   "Marine tavukları fırın tepsisine dizin ve 200°C'de 35-40 dakika, iç sıcaklık 74°C'ye ulaşana kadar pişirin.",
    "Tavuk pişerken tencerede 60 ml sıvı yağı ısıtın, ayırdığınız macunu ve ezilmiş limon otu sapını ekleyip 4-5 dakika, yağ yüzeye çıkana kadar kavurun.",
    "Kavrulmuş macunun üzerine 250 ml hindistancevizi sütü, kavrulmuş kerisik ve kalan tuzu ekleyin. Orta-kısık ateşte karıştırarak 10-12 dakika, sos koyulaşıp yağı ayrılana kadar pişirin. Limon otu sapını çıkarın.",
    "Tavuğu fırından alın, ızgara modunda veya çok sıcak bir ızgarada 2-3 dakika kızartarak yüzeyini karamelize edin. Sosu tavuğun üzerine gezdirerek sürün.",
@@ -66,11 +66,11 @@
   ],
   "en": [
    "Rinse the 300 g jasmine rice, cook it with twice its volume of water, and keep it warm.",
-   "Toast the desiccated coconut in a dry pan over medium heat until golden, then grind it roughly in a blender or mortar to make kerisik, a coarse paste.",
+   "Toast the desiccated coconut in a dry pan over medium heat until golden, then grind it roughly in a blender or mortar to make kerisik, a coarse, crumbly toasted coconut mixture.",
    "In a blender, blend the shallots, garlic, galangal, finely sliced lemongrass, soaked and drained dried chilies, turmeric, ground coriander, palm sugar and 1 tsp of the salt into a smooth paste.",
    "Mix about two-thirds of the paste with the chicken in a large bowl. Stir in the 200 ml thick coconut milk and refrigerate for at least 30 minutes.",
    "Set aside the remaining paste in a separate bowl. Preheat the oven to 200°C.",
-   "Arrange the marinated chicken on a baking tray and roast at 200°C for 35-40 minutes, until the internal temperature reaches 74°C. Brush with marinade once or twice during cooking.",
+   "Arrange the marinated chicken on a baking tray and roast at 200°C for 35-40 minutes, until the internal temperature reaches 74°C.",
    "While the chicken roasts, heat the 60 ml vegetable oil in a saucepan. Add the reserved paste and the bruised lemongrass stalk and fry for 4-5 minutes, until fragrant and the oil separates.",
    "Add the 250 ml coconut milk, the toasted kerisik and the remaining salt to the pan. Simmer gently, stirring, for 10-12 minutes until the sauce thickens and becomes glossy. Remove the lemongrass stalk.",
    "Take the chicken out of the oven, switch to the grill setting or use a very hot grill, and char the skin for 2-3 minutes. Brush the chicken generously with the sauce.",
@@ -78,8 +78,18 @@
   ]
  },
  "tip": {
-  "tr": "Tavuğu ızgarada pişirmek yerine fırında yumuşak bırakıp son aşamada kısa süre közleyerek hem sulu hem de kenarları çıtır bir sonuç elde edebilirsiniz.",
+  "tr": "Derisi üzerinde bırakılmış tavuğu marinasyonla en az 30 dakika dinlendirin; hindistancevizi sütü eti yumuşatır ve derinin ızgarada çıtır kavrulmasına yardımcı olur.",
   "en": "Keep the chicken skin on and let the marinade rest for at least 30 minutes; the coconut milk tenderizes the meat and helps the skin char nicely under the grill."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 (both languages) says to baste the chicken with the raw marinade that has been in contact with raw meat. This is a food-safety problem and should be removed.",
+   "The Turkish tip does not match the English tip. The English says to keep the skin on and rest the marinade at least 30 minutes; the Turkish describes a different oven-then-char approach and omits both",
+   "Kerisik is described as a paste ('macunumsu' / 'coarse paste'), which misdescribes the toasted, coarsely ground coconut."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

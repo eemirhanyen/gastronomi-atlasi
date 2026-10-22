@@ -18,7 +18,7 @@
    "4 adet frankfurter sosis, boylamasına ikiye kesilmiş (yaklaşık 200 g)",
    "150 g linguiça (Portekiz baharatlı sosisi), dilimlenmiş",
    "8 dilim pişmiş jambon (yaklaşık 150 g)",
-   "200 g Edam veya kaşar peyniri, dilimlenmiş",
+   "200 g Edam veya cheddar peyniri, dilimlenmiş",
    "4 yumurta (isteğe bağlı)",
    "2 yemek kaşığı zeytinyağı",
    "1 soğan, ince doğranmış (yaklaşık 120 g)",
@@ -40,7 +40,7 @@
    "4 frankfurter sausages, halved lengthwise (about 200 g)",
    "150 g linguiça (Portuguese spiced sausage), sliced",
    "8 slices cooked ham (about 150 g)",
-   "200 g Edam or mild cheddar, sliced",
+   "200 g Edam or cheddar, sliced",
    "4 eggs (optional)",
    "2 tbsp olive oil",
    "1 onion, finely chopped (about 120 g)",
@@ -65,9 +65,9 @@
    "Sosu kısık ateşte, ara sıra karıştırarak 20 dakika kaynatın, kıvam alıp biraz koyulaşana kadar bekleyin. Tadına bakıp gerekirse tuz veya acı sos ekleyin.",
    "Bu sırada bir tavada 1 yemek kaşığı yağı yüksek ateşte ısıtın. Dana bonfileyi tuz ve karabiberle tatlandırıp 1 dakikada her iki tarafını çevirerek hızlıca mühürleyin, bir tabağa alın.",
    "Aynı tavada sosisleri ve linguiçayı 3-4 dakika, kenarları hafif kızarana kadar kızartın. Kâğıt havluya alın.",
-   "Fırını ızgara modunda 200 °C'ye ısıtın. Isıya dayanıklı bir tepsiye her sandviç için bir dilim ekmek koyun.",
-   "Her ekmeğin üzerine sırayla jambon, sosis, linguiça ve dana eti dizin. Üzerine bir dilim peynir koyup ikinci ekmek dilimiyle kapatın.",
-   "Sandviçleri tepsiye dizin, üzerlerini kalan peynirle örtün ve peynir eriyip kabarana kadar 3-4 dakika ızgarada gratine edin.",
+   "Fırını ızgara modunda 200 °C'ye ısıtın. Isıya dayanıklı bir tepsiye 4 dilim ekmek yerleştirin; bunlar sandviçlerin alt dilimleri olacak.",
+   "Her alt ekmeğin üzerine sırayla jambon, sosis, linguiça ve dana eti dizin. Üzerine bir dilim peynir koyup kalan 4 ekmek dilimiyle kapatın.",
+   "Sandviçleri tepsiye dizin, üzerlerini kalan peynirle örtün ve peynir eriyip kabarana kadar 3-4 dakika ızgarada üstünü gratine edin.",
    "Bu arada yumurtaları isteğe göre sahanda pişirin.",
    "Sandviçleri tabaklara alın, her birinin üzerine sıcak sosu bolca gezdirin. Kenarına kızarmış patatesleri ekleyip hemen servis yapın; isterseniz üstüne sahanda yumurta koyun."
   ],
@@ -78,8 +78,8 @@
    "Simmer the sauce gently for 20 minutes, stirring occasionally, until it thickens slightly. Taste and adjust with salt or hot sauce if needed.",
    "Meanwhile, heat 1 tablespoon of oil in a frying pan over high heat. Season the beef with salt and pepper and sear it quickly for about 1 minute per side. Transfer to a plate.",
    "In the same pan, fry the frankfurters and linguiça for 3-4 minutes until the edges are lightly browned. Drain on kitchen paper.",
-   "Heat the grill to 200 °C. Place one slice of bread per sandwich on a heatproof tray.",
-   "Layer ham, sausage, linguiça and beef on each slice of bread. Top with a slice of cheese and close with the second slice of bread.",
+   "Heat the grill to 200 °C. Place 4 slices of bread on a heatproof tray; these will be the bottom slices of the sandwiches.",
+   "Layer ham, sausage, linguiça and beef on each bottom slice of bread. Top with a slice of cheese and close with one of the remaining 4 slices of bread.",
    "Arrange the sandwiches on the tray, cover them with the remaining cheese, and grill for 3-4 minutes until the cheese melts and bubbles.",
    "While the sandwiches grill, fry the eggs sunny-side up if using.",
    "Transfer the sandwiches to plates, pour plenty of the hot sauce over each one, and serve immediately with the fries and an egg on top if you like."
@@ -89,5 +89,15 @@
   "tr": "Sosu önceden yapıp kısık ateşte bekletebilirsiniz; gerçek bir francesinha için sandviçin içine konan etlerin sosla birlikte kızışması en önemli detaydır.",
   "en": "Make the sauce ahead and keep it warm over low heat. For the authentic experience, the sauce should be very hot when poured, so the cheese softens and the bread soaks up flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'kaşar peyniri' does not match English 'mild cheddar'; the cheese type should agree across both versions.",
+   "Turkish step 9 'gratine edin' is unnatural wording; 'üstünü gratine edin' reads better.",
+   "Step 7 places one bread slice per sandwich but step 8 closes with 'the second slice' without saying where it comes from. The step should say the remaining slices are used as tops."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

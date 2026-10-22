@@ -5,11 +5,11 @@
  },
  "native": "Chicken Curry",
  "desc": {
-  "tr": "Gayana'nın Hint kökenli topluluklarının mutfağından gelen, kimyon ve kekik aromalı, patatesli ve yavaş pişmiş bir tavuk körisidir. Ailece yapılan öğle ve akşam yemeklerinde pilav veya roti ile servis edilir.",
+  "tr": "Guyana'nın Hint kökenli topluluklarının mutfağından gelen, kimyon ve kekik aromalı, patatesli ve yavaş pişmiş bir tavuk körisidir. Ailece yapılan öğle ve akşam yemeklerinde pilav veya roti ile servis edilir.",
   "en": "A slow-cooked curry with roots in Indo-Guyanese cooking, flavoured with cumin and thyme and bulked out with potatoes. It is served with rice or roti at family lunches and dinners across the country."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -75,5 +75,14 @@
   "tr": "Köri tozunu yağda 30 saniye kadar hafifçe kavurarak aromasını belirgin şekilde artırabilirsiniz; ancak tozun yanmamasına dikkat edin.",
   "en": "Toast the curry powder briefly in the hot oil for about 30 seconds before adding the onions to deepen its flavour, but watch closely so it does not burn."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description misspells the country name as \"Gayana\"; it should be \"Guyana\".",
+   "time_min (60) is lower than the sum of the steps: 30 min marinating plus about 47-52 min of cooking, resting and prep, so about 80 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

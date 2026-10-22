@@ -35,7 +35,7 @@
    "Öğütülmüş bademi ve 200 g pudra şekerini geniş bir kasede karıştırın.",
    "2 yumurta akını ekleyip ellerinizle yoğurarak düzgün, esnek bir badem hamuru elde edin. Hamur yapışkan olursa birkaç damla daha az yumurta akı kullanın.",
    "Hamuru 4 eşit parçaya bölün. Her parçayı ellerinizle yaklaşık 1 cm kalınlığında uzun bir kordon haline getirin.",
-   "Kordonları birleştirerek halka şekli verin. Fırın tepsisindeki kâğıt üzerine, çapı küçülen 3 halka oluşturun; her halka ortasında yaklaşık 3 cm, en büyüğü yaklaşık 10 cm çaplı olsun.",
+   "Kordonların uçlarını birleştirerek halka şekli verin. Pişirme kâğıdı serili tepsilere çapı küçülen 4 halka oluşturun; en büyük halka yaklaşık 10 cm, en küçük halka yaklaşık 4 cm çapında olsun.",
    "Halkaları 10-12 dakika, kenarları hafif altın rengi alana kadar pişirin. Tepsiden çıkarmadan önce tamamen soğumasını bekleyin.",
    "Sır için 1 yumurta akını bir kaseye alın, 150 g pudra şekeri ve 2,5 ml limon suyunu ekleyerek pürüzsüz, kıvamlı bir karışım elde edin.",
    "Soğumuş halkaları en büyüğü altta olacak şekilde üst üste dizin. Sırı bir sıkma torbasıyla veya kaşıkla halkaların üzerine gezdirerek süsleyin."
@@ -45,7 +45,7 @@
    "In a large bowl, mix the ground almonds with 200 g icing sugar.",
    "Add the 2 egg whites and knead with your hands to form a smooth, pliable almond dough. If the dough is sticky, use slightly less egg white.",
    "Divide the dough into 4 equal portions. Roll each portion into a rope about 1 cm thick.",
-   "Join the ends of each rope to form rings. On the lined trays, make 3 rings of decreasing size: the largest about 10 cm across and the smallest about 3 cm across at the centre hole.",
+   "Join the ends of each rope to form rings. On the lined trays, make 4 rings of decreasing size: the largest about 10 cm across and the smallest about 4 cm across.",
    "Bake the rings for 10-12 minutes, until the edges are lightly golden. Let them cool completely on the tray before lifting them off.",
    "For the icing, put 1 egg white in a bowl. Add 150 g icing sugar and 2.5 ml lemon juice and mix to a smooth, thick consistency.",
    "Stack the cooled rings with the largest at the bottom. Decorate by drizzling the icing over the rings with a piping bag or a spoon."
@@ -55,5 +55,14 @@
   "tr": "Halkaları pişirmeden önce ağzı kapalı bir kapta bekletmek, hamurun dinlenip daha kolay şekil almasını sağlar. Fazla pişirmek halkaları sertleştirir; hafif altın rengi yeterlidir.",
   "en": "Let the dough rest covered for 10 minutes before shaping so it becomes easier to roll. Overbaking makes the rings hard, so pull them out once the edges are only lightly golden."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 divides the dough into 4 portions, but step 5 forms only 3 rings (both TR and EN), so one portion is unaccounted for.",
+   "The ring sizing in step 5 is unclear: a 3 cm 'centre hole' is ambiguous and does not match the stated outer diameters."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

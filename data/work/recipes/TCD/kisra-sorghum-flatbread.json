@@ -33,7 +33,7 @@
   "tr": [
    "Büyük bir kapta sorgum unu ve buğday ununu karıştırın. Yavaş yavaş ılık suyu ekleyip topaklanmayacak şekilde pürüzsüz, akışkan bir hamur elde edin.",
    "Mayalı hamuru (ya da instant mayayı) ekleyin, iyice karıştırın ve kapağını örterek ya da temiz bir bezle kapatarak oda sıcaklığında yaklaşık 12 saat, ya da hamur kabarıp hafif ekşi kokana kadar bekletin. Bu süre boyunca yüzeyde baloncuklar oluşmalıdır.",
-   "Dinlenen hamurun üzerinde biriken sıvıyı hafifçe karıştırın, tuzu ekleyip tekrar pürüzsüz hale getirin. Hamur çok kalınsa az su ekleyerek kremsi, ince bir kıvam verin.",
+   "İsterseniz dinlenen hamurun üzerinde biriken berrak sıvıyı dökün, ardından tuzu ekleyip hamuru tekrar pürüzsüz hale gelene kadar karıştırın. Hamur çok kalınsa az su ekleyerek kremsi, ince bir kıvam verin.",
    "Geniş ve yassı bir tavayı ya da sacı orta-yüksek ateşte iyice ısıtın. Yağ kullanacaksanız kağıt havluyla çok az sürün.",
    "Bir kepçe (yaklaşık 100 ml) hamuru tavanın ortasına dökün. Hızlıca dairesel hareketlerle yayarak yaklaşık 25 cm çapında çok ince bir tabaka oluşturun.",
    "Kenarları kalkıp yüzey kuruyup delikler oluşana kadar, yaklaşık 1–2 dakika pişirin. Kisra çevrilmez; sadece bir tarafı pişer.",
@@ -52,8 +52,17 @@
   ]
  },
  "tip": {
-  "tr": "Kisra çevrilmez, sadece bir yüzü pişirilir; bu yüzden tavanın gerçekten çok sıcak olması ve hamurun çok ince yayılması başarının anahtarıdır.",
+  "tr": "Kisra çevrilmez, sadece bir yüzü pişirilir; bu yüzden tavanın gerçekten çok sıcak olması ve hamurun çok ince yayılması başarının anahtarıdır. Mayalanma yaklaşık 12 saat sürdüğü için hamuru bir gün önceden hazırlayın.",
   "en": "Kisra is never flipped, only cooked on one side, so the pan must be very hot and the batter spread very thin. Note that the fermentation takes about 12 hours, so start the batter the day before."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says to stir the liquid that has risen to the top into the batter, but the English step says to pour it off, so the two versions disagree.",
+   "The English tip warns that fermentation takes about 12 hours and the batter should be started the day before, but the Turkish tip omits this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

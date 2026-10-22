@@ -5,7 +5,7 @@
  },
  "native": "ထမင်းကြော် (htamin jaw)",
  "desc": {
-  "tr": "Myanmar'da ev yemeklerinin ve sokak lokantalarının vazgeçilmez pilavı; kızarmış havuç, soğan ve sarımsakla hazırlanıp genellikle çıtır kızarmış soğan, limon ve yanında çorba ile servis edilir. Günlük öğünlerde ve öğle yemeklerinde yaygın olarak tüketilir.",
+  "tr": "Myanmar'da ev yemeklerinin ve sokak lokantalarının vazgeçilmez pilavı; çıtır kızarmış soğan, sarımsak ve karidesle hazırlanıp genellikle limon ve yanında çorba ile servis edilir. Günlük öğünlerde ve öğle yemeklerinde yaygın olarak tüketilir.",
   "en": "A everyday staple of Myanmar home cooking and street stalls, this fried rice is made with crispy shallots, garlic and shrimp, and is typically served with lime wedges and a light soup. It is eaten at lunch and dinner throughout the country."
  },
  "servings": 4,
@@ -44,10 +44,10 @@
  "steps": {
   "tr": [
    "Soğuk pirinci parmaklarınızla ufalayarak topakları dağıtın.",
-   "Dökme demir bir tavada 60 ml yağı orta ateşte ısıtın. Arpacık soğanlarını altın rengi ve çıtır olana kadar 6-8 dakika kızartın, süzgece alın. Yağı tavada bırakın.",
+   "Wok'ta 60 ml yağı orta ateşte ısıtın. Arpacık soğanlarını altın rengi ve çıtır olana kadar 6-8 dakika kızartın, süzgece alın. Yağı wok'ta bırakın.",
    "Aynı yağa sarımsakları ekleyip 1 dakika kadar altın rengi alana kadar kızartın, süzgece alıp kızarmış soğanla birlikte bekletin.",
    "Ateşi orta-yüksek seviyeye çıkarın, kalan 60 ml yağı ekleyin. Karidesleri ekleyip 2 dakika kadar pembeleşene kadar sote edin.",
-   "Karidesleri tavanın bir kenarına itin, çırpılmış yumurtayı diğer tarafa dökün ve 1 dakika kadar hafifçe pişirin. Yumurtayı parçalayıp karidesle karıştırın.",
+   "Karidesleri wok'un bir kenarına itin, çırpılmış yumurtayı diğer tarafa dökün ve 1 dakika kadar hafifçe pişirin. Yumurtayı parçalayıp karidesle karıştırın.",
    "Ufaladığınız pirinci ekleyip 4-5 dakika boyunca sürekli karıştırarak ve bastırarak kızartın; pirinç iyice ısınıp taneleri ayrılana kadar devam edin.",
    "Balık sosunu, tuzu, beyaz biberi ve pul biberi (kullanıyorsanız) ekleyip 1 dakika daha harmanlayın.",
    "Kızarmış soğanların ve sarımsağın yarısını ile taze soğanı pilava ekleyip karıştırın.",
@@ -69,5 +69,14 @@
   "tr": "Pilavın yapışmaması için mutlaka soğuk ve dün pişmiş pirinç kullanın; sıcak ve taze pirinç tavada kitlenir.",
   "en": "Always use cold, day-old rice; fresh warm rice turns mushy and clumps in the wok."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description mentions fried carrot (\"havuç\"), which is not in the ingredient list or steps and does not appear in the English version.",
+   "Turkish step 2 says \"Dökme demir bir tavada\" (cast-iron pan) while the English step and the tip use a wok, so the cooking vessel disagrees between versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

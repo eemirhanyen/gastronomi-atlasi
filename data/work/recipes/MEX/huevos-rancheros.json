@@ -44,12 +44,12 @@
  "steps": {
   "tr": [
    "Domatesleri, serrano biberlerini, soğanı ve kabuğu soyulmamış sarımsağı kuru bir tavada veya ızgarada orta-yüksek ateşte, yüzeyleri hafif kararana kadar yaklaşık 8-10 dakika kavurun. Sarımsağı soyun.",
-   "Domateslerin kabuğunu soyun, biberlerin sapını alın. Domates, biber, soğan, sarımsak ve 250 ml suyu blendırdan geçirip pürüzsüz bir sos elde edin. Tuz ekleyin.",
+   "Domateslerin kabuğunu soyun, biberlerin sapını alın. Domates, biber, soğan, sarımsak ve 250 ml suyu blenderden geçirip pürüzsüz bir sos elde edin. Tuz ekleyin.",
    "Büyük bir tavada 15 ml yağı ısıtın ve sosu ekleyin. Orta ateşte 8 dakika kaynatarak koyulaştırın, tuz ve karabiber ile tatlandırın. Sıcak tutun.",
    "Fasulye püresini küçük bir tencerede 2 yemek kaşığı su ile birlikte orta-düşük ateşte, sık karıştırarak 4-5 dakika ısıtın. Tuzunu ayarlayın.",
    "Kalan 30 ml yağı büyük bir tavada kızdırın. Tortillaları her iki yüzünde 20-30 saniye, gevrek ama kurumadan kızartın. Kağıt havlu üzerine alın.",
    "Aynı tavada yumurtaları birer birer kırıp orta ateşte 3-4 dakika, akı tamamen pişip sarısı hafif akışkan kalacak şekilde pişirin. Tuz ve karabiber serpin.",
-   "Her servis tabağına 2 tortilla yerleştirin, üzerine sıcak fasulye püresini yayın. Birer yumurtayı koyun, sıcak sosu gezdirin, ufalanmış peyniri ve kişniş yapraklarını serpip hemen servis yapın."
+   "Her servis tabağına 2 tortilla yerleştirin, üzerine sıcak fasulye püresini yayın. Üzerine 2 yumurta koyun, sıcak sosu gezdirin, ufalanmış peyniri ve kişniş yapraklarını serpip hemen servis yapın."
   ],
   "en": [
    "Char the tomatoes, serrano chiles, onion and unpeeled garlic in a dry pan or under a grill over medium-high heat for 8-10 minutes, until lightly blackened in spots. Peel the garlic.",
@@ -58,12 +58,21 @@
    "Warm the refried beans in a small pan with 2 tablespoons of water over medium-low heat for 4-5 minutes, stirring often. Adjust the salt.",
    "Heat the remaining 30 ml of oil in a large pan. Fry the tortillas for 20-30 seconds per side, until crisp but not dry. Drain on kitchen paper.",
    "In the same pan, fry the eggs one at a time over medium heat for 3-4 minutes, until the whites are set and the yolks still runny. Season with salt and black pepper.",
-   "On each plate, place 2 tortillas and spread warm beans over them. Top each with an egg, spoon over the warm sauce, then sprinkle with crumbled cheese and coriander. Serve immediately."
+   "On each plate, place 2 tortillas and spread warm beans over them. Top with 2 eggs, spoon over the warm sauce, then sprinkle with crumbled cheese and coriander. Serve immediately."
   ]
  },
  "tip": {
   "tr": "Sosu kavurmadan önce domatesleri ve biberleri iyice kararttığınızda sos çok daha derin ve dumanlı bir tat kazanır.",
   "en": "Charring the tomatoes, chiles and onion before blending gives the sauce a deeper, smoky flavour that is central to the dish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 says one egg per plate ('Birer yumurtayı' / 'Top each with an egg'), but 8 eggs for 4 servings means 2 eggs per plate. Quantities and steps disagree.",
+   "Turkish typo 'blendırdan' in step 2 should be 'blenderden' (correct form and vowel harmony)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -17,6 +17,7 @@
    "150 g soğan, ince doğranmış (yaklaşık 1 orta boy)",
    "200 g domates, küp doğranmış (yaklaşık 2 adet)",
    "30 ml bitkisel yağ",
+   "50 ml su, fıstık ezmek için",
    "500 ml su, gerektikçe ilave için fazladan 100 ml",
    "5 g tuz (1 çay kaşığı), tadına göre"
   ],
@@ -25,6 +26,7 @@
    "150 g onion, finely chopped (about 1 medium)",
    "200 g tomato, diced (about 2)",
    "30 ml cooking oil",
+   "50 ml water, for grinding the groundnuts",
    "500 ml water, plus an extra 100 ml as needed",
    "5 g salt (1 teaspoon), to taste"
   ]
@@ -35,7 +37,7 @@
    "Fıstıkları soğumaya bırakın, ellerinizle ovalayarak ince kabuklarını çıkarın.",
    "Soğumuş fıstıkları havanda ya da mutfak robotunda, 50 ml su ekleyerek pürüzsüz bir macun haline gelene kadar ezin.",
    "Geniş bir tencerede yağı orta ateşte ısıtın, doğranmış soğanı ekleyip 5-6 dakika, yumuşayıp şeffaflaşana kadar kavurun.",
-   "Domatesleri ekleyin ve suyunu salıncaya kadar 4-5 dakika pişirin.",
+   "Domatesleri ekleyin ve suyunu bırakıp yumuşayana kadar 4-5 dakika pişirin.",
    "Fıstık macununu ve 500 ml suyu tencereye ekleyip iyice karıştırın. Topaklanmaması için sürekli karıştırarak kaynamaya bırakın.",
    "Ateşi kısın ve kapağını aralık bırakarak 20-25 dakika, sos koyulaşıp parlak bir kıvam alana kadar pişirin. Sos çok koyulaşırsa kalan 100 ml suyu azar azar ekleyin.",
    "Tuzla tatlandırın, gerekirse tadını ayarlayıp sıcak olarak nshima ile servis edin."
@@ -55,5 +57,14 @@
   "tr": "Acı tatlı bir sos için kavurma sırasında fıstıkları yakmamaya dikkat edin; yanık tat tüm sosa yayılır.",
   "en": "Watch the groundnuts closely while roasting; even slightly burnt nuts will make the whole relish bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 3 uses 50 ml water for grinding, but this amount is not in the ingredient list (both languages).",
+   "Turkish step 5 'suyunu salıncaya kadar' is an unnatural construction. It should read 'suyunu bırakıp yumuşayana kadar'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

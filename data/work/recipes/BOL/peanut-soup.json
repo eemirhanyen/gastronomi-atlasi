@@ -9,7 +9,7 @@
   "en": "A creamy, hearty soup common across Bolivia, especially in the Andean highlands. It is usually eaten at midday, served with rice and often a spicy sauce on the side."
  },
  "servings": 4,
- "time_min": 70,
+ "time_min": 85,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -54,7 +54,7 @@
    "Soğan ve sarımsağı ekleyip soğanlar yumuşayıp şeffaflaşana kadar yaklaşık 5 dakika pişirin.",
    "Rendelenmiş domatesi, kimyonu ve tatlı kırmızı biberi ekleyin. Domates suyu çekilip karışım koyulaşana kadar 5 dakika pişirin.",
    "Suyu ekleyip karışımı kaynatın. Ateşi kısın ve etin neredeyse yumuşayana kadar, yaklaşık 40 dakika kapağı yarı açık olarak pişirin.",
-   "Bu sırada kavrulmuş fıstıkları blendırdan geçirerek pürüzsüz bir macun elde edin. Gerekirse birkaç yemek kaşığı sıcak et suyu ekleyerek kıvam verin.",
+   "Bu sırada kavrulmuş fıstıkları blenderdan geçirerek pürüzsüz bir macun elde edin. Gerekirse birkaç yemek kaşığı sıcak et suyu ekleyerek kıvam verin.",
    "Patatesleri ve acı biberi tencereye ekleyip 10 dakika daha pişirin.",
    "Fıstık macununu yavaşça karıştırarak tencereye ekleyin. Sürekli karıştırarak yaklaşık 15 dakika kaynatın; çorba kremsi bir kıvam alıp patatesler yumuşayana kadar pişirin.",
    "Karabiberi ve gerekiyorsa tuzu ayarlayın. Maydanozu serpip ocaktan alın.",
@@ -77,5 +77,14 @@
   "tr": "Fıstık macununu doğrudan soğuk halde eklemeyin; önce sıcak et suyuyla incelterek karıştırın, böylece çorbada topaklanma olmaz.",
   "en": "Thin the peanut paste with a little hot broth before adding it to the pot to prevent lumps and keep the soup smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (70) is too short: the steps alone add up to about 80-85 minutes (browning 6-8, sauté 5, tomato 5, simmer 40, potatoes 10, peanut paste 15), plus prep and blending",
+   "Turkish step 6 has a typo: 'blendırdan' should be 'blenderdan'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

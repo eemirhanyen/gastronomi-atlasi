@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "700 g ekmek ağacı etı, kabuğu soyulmuş, çekirdeği çıkarılmış ve parçalanmış (yaklaşık 1 orta boy meyve)",
+   "700 g ekmek ağacının etli kısmı, kabuğu soyulmuş, çekirdeği çıkarılmış ve parçalanmış (yaklaşık 1 orta boy meyve)",
    "1 tatlı kaşığı tuz (6 g)",
    "60 g toz şeker",
    "150 ml hindistancevizi sütü",
@@ -41,7 +41,7 @@
    "Karışımı yaklaşık 10 dakika soğumaya bırakın, ardından yumurtayı ekleyip çırpın.",
    "Unu kabartma tozu ile eleyin, ekmek ağacı karışımına ekleyin ve spatula ile katlayarak yumuşak, hafif yapışkan bir hamur elde edin. Hamur çok ıslaksa birkaç kaşık un ekleyin.",
    "Derin bir tencerede sıvı yağı 170-175°C'ye kadar ısıtın.",
-   "Ellerinizi ıslatın ve hamurdan yaklaşık 60 g'lık parçalar koparıp 4 cm çapında toplar haline getirin, hafifçe bastırarak yaklaşık 1,5 cm kalınlığında hamur topları yapın.",
+   "Ellerinizi ıslatın ve hamurdan yaklaşık 60 g'lık parçalar koparıp 5 cm çapında toplar haline getirin, hafifçe bastırarak yaklaşık 1,5 cm kalınlığında hamur topları yapın.",
    "Hamur toplarını yağa 4-5 adet olacak şekilde partiler halinde koyun ve her iki yüzünü 3-4 dakika, altın rengi olana kadar kızartın.",
    "Kağıt havluya alarak yağını süzün ve sıcak servis yapın."
   ],
@@ -52,7 +52,7 @@
    "Leave the mixture to cool for about 10 minutes, then beat in the egg.",
    "Sift the flour with the baking powder, add it to the breadfruit mixture and fold with a spatula until you have a soft, slightly sticky dough. If it is too wet, add a few spoons more flour.",
    "Heat the vegetable oil in a deep pan to 170-175°C.",
-   "Wet your hands, pinch off about 60 g pieces of dough and roll them into 4 cm balls, then flatten slightly to about 1.5 cm thick.",
+   "Wet your hands, pinch off about 60 g pieces of dough and roll them into 5 cm balls, then flatten slightly to about 1.5 cm thick.",
    "Fry the fritters in batches of 4-5 for 3-4 minutes per side, until golden brown all over.",
    "Drain on paper towel and serve warm."
   ]
@@ -61,5 +61,14 @@
   "tr": "Ekmek ağacı ne kadar olgun ve nişastalıysa hamur o kadar yumuşak ve tatlı olur; yağ sıcaklığını ölçerek çıtır bir dış yüzey elde edin.",
   "en": "The riper and starchier the breadfruit, the softer and sweeter the dough; keep the oil at a steady temperature so the outside stays crisp without burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Shaping size is inconsistent: 60 g of dough makes a ball about 5 cm across, not 4 cm (a 4 cm ball weighs roughly 30-35 g). The Turkish and English steps both need the same corrected size.",
+   "Turkish ingredient wording 'ekmek ağacı etı' is unnatural; 'ekmek ağacının etli kısmı' is the natural phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -41,12 +41,12 @@
    "Ispanakları iyice yıkayın. Sadece su damlayarak tencereye alın, kapağını kapatıp 2-3 dakika soluksun. Süzün, soğuyunca avuçlarınızla iyice sıkın ve ince ince doğrayın.",
    "Soğanı küçük küp doğrayın. Geniş bir tavada 30 ml ayçiçek yağını ısıtın, soğanı yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Doğranmış ıspanağı tavaya ekleyin ve suyunu çekene kadar 3-4 dakika pişirin. Ocaktan alıp tamamen soğumaya bırakın.",
-   "Büyük bir kapta feta peynirini elinizle ufalayın. Soğumuş ıspanak karışımını, kuru naneyi, karabiberi ve 1 yumurtayı ekleyip karıştırın. Tuzunu tadın ve gerekirse ayarlayın.",
-   "Yaklaşık 25x35 cm'lik bir fırın tepsisinin tabanını biraz yağlayın. Filo yapraklarını birer birer açın ve kuru bir bezle örtün ki kurumasın.",
+   "Büyük bir kapta feta peynirini elinizle ufalayın. Soğumuş ıspanak karışımını, kuru naneyi, 1/2 tatlı kaşığı tuzu, karabiberi ve 1 yumurtayı ekleyip karıştırın. Tuzunu tadın ve gerekirse ayarlayın.",
+   "Yaklaşık 25x35 cm'lik bir fırın tepsisinin tabanını biraz yağlayın. Filo yapraklarını birer birer açın ve nemli bir bezle örtün ki kurumasın.",
    "Tepsiye 4 yaprak filoyu üst üste koyun, her birinin üzerine fırçayla yağ sürün.",
    "Ispanaklı karışımı filoların üzerine eşit şekilde yayın.",
    "Kalan 4 yaprak filoyu aynı şekilde yağlayarak üst üste kapatın. Kenarları içeri kıvırarak düzgünleştirin.",
-   "Üstüne kalan yağı gezdirin. Keskin bir bıçakla kare ya da içbükey dilimler için yüzeyi hafifçe çizin.",
+   "Üstüne kalan yağı gezdirin. Keskin bir bıçakla yüzeyi hafifçe çizerek kare ya da elmas şeklinde dilimler belirleyin.",
    "Kalan yumurtayı çırpın ve börekin üzerine sürün.",
    "Önceden ısıtılmış fırında 35-40 dakika, üstü altın sarısı olana kadar pişirin.",
    "Fırından çıkarıp 5 dakika dinlendirin, dilimleyip ılık servis yapın."
@@ -56,7 +56,7 @@
    "Wash the spinach well. Put it in a pot with only the water clinging to the leaves, cover and wilt for 2-3 minutes. Drain, let it cool, then squeeze out as much water as possible and chop finely.",
    "Dice the onion finely. Heat 30 ml of the sunflower oil in a wide pan and soften the onion for about 5 minutes.",
    "Add the chopped spinach to the pan and cook for 3-4 minutes until the liquid has evaporated. Remove from the heat and let it cool completely.",
-   "In a large bowl, crumble the feta with your hands. Add the cooled spinach, dried mint, black pepper and 1 egg, and mix well. Taste and adjust the salt if needed.",
+   "In a large bowl, crumble the feta with your hands. Add the cooled spinach, dried mint, 1/2 teaspoon salt, black pepper and 1 egg, and mix well. Taste and adjust the salt if needed.",
    "Lightly oil the base of a 25x35 cm baking tray. Unroll the phyllo sheets one at a time and cover them with a damp cloth so they do not dry out.",
    "Lay 4 sheets of phyllo one on top of the other in the tray, brushing each sheet with the oil.",
    "Spread the spinach and feta filling evenly over the phyllo.",
@@ -71,5 +71,15 @@
   "tr": "Ispanağı çok iyi sıkın; fazla su kalan iç harcı filoyu sulandırır ve böreğin altı hamur gibi kalır.",
   "en": "Squeeze the spinach very dry; excess moisture makes the filling runny and leaves the base of the pastry soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt (1/2 tsp) is listed in the ingredients but the steps never add it explicitly; it only appears in 'taste and adjust'. Added it to step 5 in both languages.",
+   "Turkish step 6 says to cover the phyllo with a 'dry' cloth ('kuru bir bezle'), but the English says 'damp cloth'. A damp cloth is the correct technique, so the Turkish was corrected.",
+   "Turkish step 10 'içbükey dilimler' is unnatural and unclear for scoring a pastry. Rephrased to 'kare ya da elmas şeklinde dilimler belirleyin'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

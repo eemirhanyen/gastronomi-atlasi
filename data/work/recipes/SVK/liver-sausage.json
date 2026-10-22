@@ -9,7 +9,7 @@
   "en": "A traditional sausage of pork liver, fat and rice, poached and served warm. In Slovakia it is traditionally made during the winter pig slaughter (zabíjačka) and eaten as a snack with sauerkraut and bread."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "150 g domuz sırtı yağı veya yağlı domuz eti",
    "150 g haşlanmış pirinç (yaklaşık 50 g çiğ pirinç)",
    "150 g soğan",
-   "30 g domuz yağı (kendi suyu ile)",
+   "30 g domuz yağı (eritilmiş)",
    "2 diş sarımsak",
    "10 g tuz",
    "3 g karabiber",
@@ -52,9 +52,9 @@
    "Ciğeri, yağı ve soğanı orta delikli kıyma makinesinden geçirin. Pirinç, tuz, karabiber, mercanköşk ve sıcak et suyunu ekleyip homojen, yumuşak bir harç elde edene kadar iyice yoğurun. Tadına bakıp baharatı ayarlayın.",
    "Harcı bir sıkma torbasına ya da huni yardımıyla bağırsağa doldurun. Harcı sıkıştırırken içinde hava kalmamasına dikkat edin.",
    "Bağırsağın dolu kısmını 10–12 cm aralıklarla bağlayarak sosisleri ayırın. Hava kabarcıklarını iğneyle delin.",
-   "Kaynatma suyunu 80–85 °C'de sıcak tutun (kaynatmayın, hafifçe titreyen sıcaklık yeterlidir). Sirke veya limon suyunu ekleyin, sosisleri nazikçe bırakın ve 25–30 dakika pişirin. Sosisler bağırsaktan yukarı çıkmamalı ve yarılmamalıdır.",
+   "Kaynatma suyunu 80–85 °C'de sıcak tutun (kaynatmayın, hafifçe titreyen sıcaklık yeterlidir). Sirke veya limon suyunu ekleyin, sosisleri nazikçe bırakın ve 25–30 dakika pişirin. Sosisler yarılmamalı ve hızla suyun yüzeyine çıkmamalıdır.",
    "Sosisleri çıkarıp hemen soğuk suya alın, birkaç dakika bekletin. Ardından kurulayın ve oda sıcaklığında soğumaya bırakın.",
-   "Servis için sosisleri tavada hafifçe ısıtın veya kaynar suda 5 dakika daha ılıtın. Ekşi lahana, hardal ve taze ekmekle servis yapın."
+   "Servis için sosisleri tavada hafifçe ısıtın veya sıcak suda 5 dakika daha ılıtın. Ekşi lahana, hardal ve taze ekmekle servis yapın."
   ],
   "en": [
    "Soak the natural casing in lukewarm water for at least 30 minutes, rinse it well inside and out, and tie one end.",
@@ -70,8 +70,19 @@
   ]
  },
  "tip": {
-  "tr": "Casing bulunamazsa harcı yağlanmış bir somun kalıba koyup folyo ile kapatın ve su banyosunda 160 °C fırında yaklaşık 50 dakika pişirin; böylece aynı tat elde edilir.",
-  "en": "If you cannot find casings, press the mixture into a greased loaf tin, cover with foil and bake in a water bath at 160 °C for about 50 minutes for a similar result."
+  "tr": "Casing bulunamazsa harcı yağlanmış bir somun kalıba koyup folyo ile kapatın ve su banyosunda 160 °C fırında yaklaşık 60–70 dakika, merkez sıcaklığı 70 °C'ye ulaşana kadar pişirin; böylece benzer bir sonuç elde edilir.",
+  "en": "If you cannot find casings, press the mixture into a greased loaf tin, cover with foil and bake in a water bath at 160 °C for about 60–70 minutes, until the centre reaches 70 °C, for a similar result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (75) is too short: soaking the casing (30 min), cooking and cooling the rice and meat, mincing, stuffing, and 25–30 min of poaching add up to roughly 2.5 hours",
+   "Tip gives 160 °C for about 50 min for a dense loaf of roughly 750 g, which may not bring the centre to a safe temperature; the claim of 'the same taste' is also overstated",
+   "Turkish ingredient '30 g domuz yağı (kendi suyu ile)' is unclear; it should say the fat is rendered lard",
+   "Step 8 Turkish 'bağırsaktan yukarı çıkmamalı' does not match the English 'should not split or float up rapidly'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

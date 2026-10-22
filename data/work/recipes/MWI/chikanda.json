@@ -9,7 +9,7 @@
   "en": "A cassava and groundnut cake from Malawi, especially among the Chewa people, eaten as a snack or side dish. It is sold at markets and served warm at family meals and celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
    "Kalın tabanlı bir tencerede 1 yemek kaşığı yağı orta ateşte ısıtın. Soğanı 4-5 dakika, yumuşayıp hafifçe renk alana kadar kavurun.",
    "Domates ve acı biberi ekleyin, 3 dakika daha pişirin.",
    "Öğütülmüş yer fıstığını ve 100 ml suyu ekleyip karıştırarak pürüzsüz bir sos elde edin.",
-   "Sıkılmış manyoku ve tuzu ekleyin. Sürekli karıştırarak orta ateşte 10-12 dakika pişirin, hamur koyulaşıp tencerenin kenarından ayrılana kadar devam edin.",
+   "Sıkılmış manyoku ve tuzu ekleyin. Sürekli karıştırarak orta-düşük ateşte 20-25 dakika pişirin; manyok tamamen yumuşayana ve hamur koyulaşıp tencerenin kenarından ayrılana kadar devam edin.",
    "Hamuru tabağa alın ve 10 dakika soğumaya bırakın.",
    "Elleriniz ıslakken hamurdan yaklaşık 12 adet küçük, yassı köfte şekillendirin.",
    "Kalan 2 yemek kaşığı yağı büyük bir tavada orta-yüksek ateşte ısıtın. Köfteleri partiler halinde, her iki yüzü 3-4 dakika, altın rengi olana kadar kızartın.",
@@ -50,7 +50,7 @@
    "Heat 1 tbsp oil in a heavy-based pan over medium heat. Fry the onion for 4-5 minutes until soft and lightly golden.",
    "Add the tomato and chili and cook for 3 more minutes.",
    "Stir in the ground peanuts and 100 ml water to make a smooth sauce.",
-   "Add the squeezed cassava and salt. Cook over medium heat for 10-12 minutes, stirring constantly, until the mixture thickens and pulls away from the sides of the pan.",
+   "Add the squeezed cassava and salt. Cook over medium-low heat for 20-25 minutes, stirring constantly, until the cassava is fully tender and the mixture thickens and pulls away from the sides of the pan.",
    "Transfer the mixture to a plate and leave it to cool for 10 minutes.",
    "With wet hands, shape the mixture into about 12 small, flat patties.",
    "Heat the remaining 2 tbsp oil in a large frying pan over medium-high heat. Fry the patties in batches for 3-4 minutes per side until golden brown.",
@@ -61,5 +61,13 @@
   "tr": "Manyoku ne kadar iyi sıkılırsa hamur o kadar kıvamlı olur ve köfteler kızartırken dağılmaz.",
   "en": "The better you squeeze the cassava, the firmer the mixture will be, so the patties hold their shape when fried."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fresh (raw) cassava is only cooked for 10-12 minutes in the sauce. Fresh cassava needs thorough cooking to become fully tender and to break down its cyanogenic compounds, so the cook time is unsafe. E"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -22,7 +22,7 @@
    "150 ml ılık su",
    "yarım çay kaşığı tuz",
    "15 g tereyağı, eritilmiş",
-   "1 haşlanmış yumurta",
+   "1 yumurta",
    "60 g oda sıcaklığında tereyağı",
    "bir tutam tuz"
   ],
@@ -36,7 +36,7 @@
    "150 ml lukewarm water",
    "1/2 tsp salt",
    "15 g butter, melted",
-   "1 hard-boiled egg",
+   "1 egg",
    "60 g butter, at room temperature",
    "a pinch of salt"
   ]
@@ -73,5 +73,13 @@
   "tr": "Lapayı tamamen soğutmadan kullanmayın; sıcak dolgu hamuru yırtar ve kenarların kapanmasını zorlaştırır.",
   "en": "Let the porridge cool completely before filling; warm filling tears the thin dough and makes the edges hard to seal."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list says \"1 haşlanmış yumurta\" / \"1 hard-boiled egg\", but step 3 tells the cook to boil the egg. The ingredient should be a raw egg."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

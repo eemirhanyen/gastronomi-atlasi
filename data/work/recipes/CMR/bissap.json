@@ -26,7 +26,7 @@
    "1.5 L water",
    "120 g granulated sugar (adjust to taste)",
    "15 g fresh ginger",
-   "1 lime (juice and zest)",
+   "1 lemon (juice and zest)",
    "5 g fresh mint leaves",
    "200 g ice cubes"
   ]
@@ -35,7 +35,7 @@
   "tr": [
    "Hibiskus çiçeklerini soğuk suyla iki kez durulayarak toz ve yabancı maddeleri temizleyin.",
    "Zencefili soyup ince dilimler halinde doğrayın.",
-   "Suyu geniş bir tencerede kaynatın, ateşi kapatın ve hibiskus çiçeklerini ile zencefili ekleyin.",
+   "Suyu geniş bir tencerede kaynatın, ateşi kapatın ve hibiskus çiçeklerini ve zencefili ekleyin.",
    "Tencereyi kapatıp 20 dakika demlenmeye bırakın; renk koyu kırmızıya dönmelidir.",
    "Limonu yıkayıp kabuğunu ince rendeleyin, ardından suyunu sıkın.",
    "Demlenmiş karışımı ince elekli bir süzgeçten geçirerek bir sürahiye süzün, çiçekleri hafifçe bastırarak tüm aromayı alın.",
@@ -49,9 +49,9 @@
    "Peel the ginger and slice it thinly.",
    "Bring the water to a boil in a large pot, turn off the heat, and add the hibiscus and ginger.",
    "Cover the pot and let it steep for 20 minutes; the liquid should turn a deep red.",
-   "Wash the lime, finely grate the zest, then squeeze out the juice.",
+   "Wash the lemon, finely grate the zest, then squeeze out the juice.",
    "Strain the steeped mixture through a fine sieve into a jug, pressing the calyces lightly to extract all the flavour.",
-   "While the liquid is still warm, add the sugar, lime zest and lime juice and stir until the sugar dissolves.",
+   "While the liquid is still warm, add the sugar, lemon zest and lemon juice and stir until the sugar dissolves.",
    "Let the mixture cool to room temperature, then refrigerate for at least 1 hour.",
    "Lightly crush the mint leaves between your palms and add them to the jug; taste and add more sugar if needed.",
    "Place ice cubes in glasses, pour in the bissap, and serve immediately."
@@ -61,5 +61,14 @@
   "tr": "Şekeri sıcakken eklemek daha kolay erir; servisten hemen önce nane eklemek aromasını ve tazeliğini korur.",
   "en": "Add the sugar while the liquid is warm so it dissolves easily, and add the mint just before serving to keep its fresh aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 has a grammar error: \"çiçeklerini ile zencefili\" should be \"çiçekleri ve zencefili\".",
+   "Citrus mismatch: the Turkish version says \"limon\" (lemon) while the English says \"lime\". The English was changed to \"lemon\" to match the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

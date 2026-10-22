@@ -21,7 +21,7 @@
    "3 orta boy patates (400 g), küp doğranmış",
    "1 kırmızı dolmalık biber (150 g), küp doğranmış",
    "2 domates (250 g), rendelenmiş",
-   "1 tatlı kaşığı (15 g) salça",
+   "1 yemek kaşığı (15 g) salça",
    "2 diş sarımsak, ezilmiş",
    "1 defne yaprağı",
    "80 g ince erişte veya şehriye",
@@ -39,7 +39,7 @@
    "3 medium potatoes (400 g), diced",
    "1 red bell pepper (150 g), diced",
    "2 tomatoes (250 g), grated",
-   "15 g tomato paste (1 tsp)",
+   "15 g tomato paste (1 tbsp)",
    "2 garlic cloves, crushed",
    "1 bay leaf",
    "80 g thin noodles or vermicelli",
@@ -75,5 +75,13 @@
   "tr": "Kuzu etini suyla birlikte yavaş pişirmek suyun berrak ve lezzetli kalmasını sağlar; erişteyi servis anında ekleyin, yoksa çorbada şişip kıvam bozabilir.",
   "en": "Simmer the lamb slowly and skim the foam early for a clear, rich broth; add the noodles just before serving, as they keep swelling and will thicken the soup if left to sit."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tomato paste is listed as '1 tatlı kaşığı (15 g)' (1 teaspoon), but 15 g is about a tablespoon. The unit and weight disagree, in both the Turkish and English versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

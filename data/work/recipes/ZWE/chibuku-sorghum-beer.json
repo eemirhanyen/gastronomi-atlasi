@@ -9,7 +9,7 @@
   "en": "A cloudy, lightly sour beer from Zimbabwe made from sorghum malt and maize meal. Traditionally brewed at home, it is also sold commercially as Chibuku and is especially served at harvest celebrations and communal gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1500,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -51,5 +51,13 @@
   "tr": "Kapları ve kaşıkları kullanmadan önce kaynar suyla iyice temizleyin; ekşi koku yerine küf veya çürük kokusu alırsanız partiyi atın.",
   "en": "Scald all pots, spoons, and containers before use; if the batch smells rotten or grows mould rather than smelling mildly sour, discard it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps include a 1-hour mash plus a 24-hour fermentation, so the total time is about 25 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

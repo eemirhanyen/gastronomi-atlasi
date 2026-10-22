@@ -9,7 +9,7 @@
   "en": "One of the oldest dishes in the United Arab Emirates, Thareed consists of torn bread soaked in a spiced meat broth and topped with lamb and vegetables. It is traditionally served in large shared platters at Ramadan iftar, Eid celebrations and family gatherings."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -58,7 +58,7 @@
    "Ateşi orta seviyeye indirin, soğanı ekleyin ve 8-10 dakika altın rengi alana kadar pişirin.",
    "Sarımsağı ekleyip 1 dakika daha kavurun. Rendelenmiş domatesleri ekleyin ve sos koyulaşana kadar yaklaşık 5-6 dakika pişirin.",
    "Etleri tencereye geri koyun. Tarçın, kakule, defne yaprağı, delinmiş kuru limon ve kimyonu ekleyin. Suyu ilave edip kaynatın ve yüzeydeki köpüğü alın.",
-   "Havucu ekleyin, ateşi kısın ve kapağı kapalı olarak etler yumuşayana kadar, yaklaşık 60 dakika ağır ağır pişirin.",
+   "Havucu ekleyin, ateşi kısın ve kapağı kapalı olarak etler yumuşayana kadar, yaklaşık 90 dakika ağır ağır pişirin.",
    "Etleri ve havucu bir tabağa alın. Et sularını ayrı bir kaba süzün ve yaklaşık 1 litre kalana kadar kısık ateşte biraz daha kaynatın. Et parçalarını kemiklerinden ayırarak sıcak tutun.",
    "Ekmek parçalarını geniş bir servis tabağına yayın, eritilmiş sade yağı gezdirin. Sıcak et suyunu ekmeklerin üzerine kepçeyle dökün ve ekmekler suyu emsin diye 5 dakika bekleyin. Ekmeklerin tamamen sulanıp dağılmamasına dikkat edin.",
    "Üzerine etleri ve havuçları dizin, kalan et suyunu ayrı bir kapta yanında servis edin ve maydanoz veya kişnişle süsleyip sıcak servis yapın."
@@ -69,7 +69,7 @@
    "Lower the heat to medium, add the onion and cook for 8-10 minutes until golden.",
    "Add the garlic and cook for 1 minute more. Stir in the grated tomatoes and cook for about 5-6 minutes until the sauce thickens.",
    "Return the lamb to the pot. Add the cinnamon, cardamom, bay leaf, pierced black limes and cumin. Pour in the water, bring to the boil and skim off any foam.",
-   "Add the carrot, reduce the heat to low and simmer, covered, for about 60 minutes until the lamb is very tender.",
+   "Add the carrot, reduce the heat to low and simmer, covered, for about 90 minutes until the lamb is very tender.",
    "Lift the lamb and carrot onto a plate. Strain the broth into a bowl, then return it to a saucepan and simmer gently until about 1 litre remains. Shred the meat off the bones and keep it warm.",
    "Spread the torn bread over a large serving dish and drizzle with the melted ghee. Ladle the hot broth over the bread and let it soak for 5 minutes, taking care not to make it soggy.",
    "Arrange the lamb and carrot on top of the bread, garnish with parsley or coriander, and serve hot with the remaining broth on the side."
@@ -79,5 +79,14 @@
   "tr": "Ekmeğin dağılmaması için bayat ekmek kullanın ve et suyunu kepçeyle yavaş yavaş dökün; ekmek üzerinde sıcak kalmalı ama sulu bir lapa olmamalıdır.",
   "en": "Use day-old bread and ladle the broth in gradually so the bread softens but keeps its shape rather than turning into a mush."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 simmers bone-in lamb shoulder for only about 60 minutes, which is usually not enough for the meat to become very tender. It should be about 90 minutes.",
+   "time_min is 90, but the steps (browning, sautéing, a 60-90 minute simmer, reducing the broth, assembly) add up to well over 90 minutes. It should be about 150."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

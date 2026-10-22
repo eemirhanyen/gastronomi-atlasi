@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Kärnten Kasnudeln (peynirli mantı)",
+  "tr": "Kärntner Kasnudeln (peynirli mantı)",
   "en": "Kärntner Kasnudeln (Carinthian cheese pockets)"
  },
  "native": "Kärntner Kasnudeln",
@@ -57,7 +57,7 @@
    "İç harç için süzülmüş lor peynirini, soğumuş patates püresini, yumurta sarısını, frenk soğanını, maydanozu, limon kabuğunu, kurutulmuş mercanköşkü, şekeri ve tuzu iyice yoğurarak karıştırın.",
    "Dinlenen hamuru ince bir yufka gibi (yaklaşık 2 mm) açın ve 8 cm çapında daireler kesin.",
    "Her dairenin ortasına yaklaşık bir yemek kaşığı (20 g) iç harç koyun. Daireyi yarım ay şeklinde katlayın ve kenarlarını parmaklarınızla iyice bastırarak kapatın.",
-   "Geniş bir tencerede tuzlu suyu kaynatın. Kasnudelnleri partiler halinde ekleyin ve yüzeye çıktıktan sonra 1-2 dakika daha pişirin (toplam yaklaşık 6-8 dakika).",
+   "Geniş bir tencerede tuzlu suyu kaynatın. Kasnudeln'leri partiler halinde ekleyin ve yüzeye çıktıktan sonra 1-2 dakika daha pişirin (toplam yaklaşık 6-8 dakika).",
    "Pişen hamur parçalarını süzgeçle çıkarıp servis tabaklarına alın.",
    "Tereyağını küçük bir tavada altın sarısı renk alana kadar eritin ve sıcak tereyağını üzerine gezdirin.",
    "Üzerine 20 g toz şekeri serpin ve hemen servis yapın."
@@ -79,5 +79,13 @@
   "tr": "Lor peynirini ve patatesi iyice soğutup süzün; nemli iç harç hamurun kenarlarını açabilir.",
   "en": "Drain the quark well and let the potato cool completely; a wet filling can cause the edges to split open during cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name uses \"Kärnten\" (the state name) instead of the dish name \"Kärntner\", which disagrees with the English name and the native field"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -59,7 +59,7 @@
    "Dana inciği ekleyin, yüzeyi hafifçe renk alana kadar 3-4 dakika birlikte pişirin.",
    "Suyu, kulantroyu, tuzu ve karabiberi ekleyip kaynatın. Yüzeyde biriken köpüğü alın.",
    "Ateşi kısın ve kapağı yarı açık tutarak et yumuşayana kadar, yaklaşık 90 dakika kaynatın.",
-   "Eti tencereden çıkarıp bir tabağa alın. Kulantroyu çıkarın ve bir kenara koyun.",
+   "Eti tencereden çıkarıp bir tabağa alın. Kulantroyu çıkarıp atın.",
    "Yuka ve mısırı ekleyip 20 dakika pişirin, ardından muzu ekleyip 10 dakika daha pişirin.",
    "Güisquil, havuç ve lahanayı ekleyin; sebzeler yumuşayana kadar yaklaşık 15 dakika pişirin.",
    "Eti tencereye geri koyun, doğranmış kişnişi serpin ve tadını kontrol ederek gerekirse tuz ekleyin.",
@@ -81,5 +81,13 @@
   "tr": "Yukayı ve muzu geç ekleyin; uzun süre kaynarlarsa dağılıp çorbayı bulandırırlar. Limonu servis anında sıkın.",
   "en": "Add the yuca and plantain in stages so they stay firm rather than breaking down and clouding the broth. Squeeze the lime just before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to set the culantro bundle aside, but the English step says to discard it. The Turkish step should say to discard it (\"atın\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

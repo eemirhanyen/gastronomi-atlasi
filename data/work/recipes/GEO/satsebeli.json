@@ -36,7 +36,7 @@
    "30 ml sunflower oil",
    "1 teaspoon ground coriander seed (2 g)",
    "1 teaspoon khmeli suneli (3 g)",
-   "1 tablespoon grape or red wine vinegar (15 ml)",
+   "1 tablespoon grape vinegar (15 ml)",
    "1 teaspoon sugar (4 g)",
    "1/2 teaspoon salt (3 g)"
   ]
@@ -55,7 +55,7 @@
    "Finely chop the onion. Heat the sunflower oil in a wide pan over medium heat and sauté the onion for about 8 minutes until pale golden.",
    "Add the chopped tomatoes and simmer gently for about 20 minutes until the sauce thickens.",
    "Crush the garlic and finely chop the hot red chili with its seeds. Add both to the sauce with the ground coriander seed and khmeli suneli, and cook for 5 more minutes.",
-   "Remove from the heat and let cool slightly. Finely chop the coriander leaves and dill and stir them in; for a smoother texture, blend the sauce briefly.",
+   "Remove from the heat and let cool slightly. Finely chop the coriander leaves and dill and stir them in; if desired, blend the sauce briefly for a smoother texture.",
    "Add the vinegar, sugar and salt, and simmer for 3 more minutes. Taste and adjust with salt or vinegar if needed, then cool to room temperature before serving."
   ]
  },
@@ -63,5 +63,14 @@
   "tr": "Sosun tazeliği için kişniş ve dereotunu pişirmenin sonunda ekleyin; sıcak sosa karıştırıldıklarında renklerini ve aromalarını hızla kaybederler.",
   "en": "Add the coriander and dill at the end, off the heat, to keep their colour and fresh aroma."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 5 says to blend the sauce as a required step, but the Turkish version makes blending optional (\"dilerseniz\"). The two versions disagree.",
+   "English ingredient says \"grape or red wine vinegar\", but the Turkish specifies only \"üzüm sirkesi\" (grape vinegar). Minor, but it should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

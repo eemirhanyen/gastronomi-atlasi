@@ -43,26 +43,26 @@
  },
  "steps": {
   "tr": [
-   "Fırını 180°C'ye ısıtın. Yaklaşık 22x30 cm'lik bir fırın kabının içini tereyağının bir kısmıyla yağlayın.",
+   "Fırını 180°C'ye ısıtın. Eritilmiş tereyağından 10 g ile yaklaşık 22x30 cm'lik bir fırın kabının içini yağlayın.",
    "Kuru üzümü ılık suda 10 dakika bekletin, süzün.",
-   "Yufkayı ya da milföy hamurunu elle parçalara ayırın ve kalan tereyağının üzerine ekleyip karıştırın.",
+   "Yufkayı ya da milföy hamurunu elle parçalara ayırın ve 70 g tereyağıyla karıştırın.",
    "Parçalanmış hamurun yarısını fırın kabına yayın. Üzerine kuru üzüm, badem, fıstık, ceviz ve hindistan cevizini serpin.",
    "Kalan hamuru bunların üzerine dağıtın.",
    "Sütü, şekeri ve kremayı orta ateşte bir tencerede şeker eriyene kadar ısıtın; kaynamasına izin vermeyin. Vanilya özünü ekleyin.",
    "Sıcak sütlü karışımı hamurun üzerine yavaşça dökün ve 10 dakika bekletin ki hamur sıvıyı emsin.",
-   "Kalan tereyağını üzerine gezdirin, tarçını serpin ve kalan fıstıkla süsleyin.",
+   "Kalan 20 g tereyağını üzerine gezdirin ve tarçını serpin.",
    "Önceden ısıtılmış fırında 25-30 dakika, üst yüzey altın rengi olana ve kenarları kabarana kadar pişirin.",
    "Ilık servis yapın."
   ],
   "en": [
-   "Preheat the oven to 180°C. Grease a roughly 22 x 30 cm baking dish with a little of the melted butter.",
+   "Preheat the oven to 180°C. Grease a roughly 22 x 30 cm baking dish with 10 g of the melted butter.",
    "Soak the raisins in lukewarm water for 10 minutes, then drain.",
-   "Tear the filo or puff pastry into rough pieces by hand and toss them with the remaining melted butter.",
+   "Tear the filo or puff pastry into rough pieces by hand and toss them with 70 g of the melted butter.",
    "Spread half of the pastry in the dish. Scatter over the raisins, almonds, pistachios, walnuts and coconut.",
    "Cover with the rest of the pastry.",
    "Heat the milk, sugar and cream in a saucepan over medium heat until the sugar dissolves, without letting it boil. Stir in the vanilla extract.",
    "Slowly pour the warm milk mixture over the pastry and leave it for 10 minutes so the pastry absorbs the liquid.",
-   "Drizzle the last of the butter over the top, sprinkle with cinnamon and garnish with a few extra pistachios.",
+   "Drizzle the remaining 20 g of butter over the top and sprinkle with cinnamon.",
    "Bake in the preheated oven for 25-30 minutes, until the top is golden and the edges are bubbling.",
    "Serve warm."
   ]
@@ -71,5 +71,15 @@
   "tr": "Sütlü karışımı kaynatmayın; kaynarsa krema ayrışır ve Om Ali'nin kıvamı bozulur.",
   "en": "Do not let the milk mixture boil, or the cream may separate and the texture of the dessert will suffer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter is over-allocated: all 100 g is used in the pastry toss ('remaining butter'), yet step 8 drizzles 'the last of the butter' with none left.",
+   "Step 8 garnishes with 'remaining/extra pistachios', but all 40 g of pistachios are already used in step 4 and no extra amount is listed.",
+   "Step 1 and step 3 do not specify how much butter goes where, so the butter split is unclear."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

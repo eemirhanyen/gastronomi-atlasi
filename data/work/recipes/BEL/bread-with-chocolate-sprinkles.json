@@ -9,7 +9,7 @@
   "en": "A simple morning staple in Belgium and the neighbouring Netherlands, eaten at breakfast and as a lunchbox sandwich, made by spreading butter on bread and scattering chocolate sprinkles (hagelslag) on top."
  },
  "servings": 4,
- "time_min": 10,
+ "time_min": 40,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -43,5 +43,13 @@
   "tr": "Hagelslagi ekmeğe bastırmadan önce tereyağını ekmeğin kenarlarına kadar yaymak, serpintinin her dilimde dengeli durmasını sağlar.",
   "en": "Spread the butter right to the edges before adding the hagelslag so the sprinkles stay evenly distributed and don't fall off the bread."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 10, but step 1 requires about 30 minutes of butter softening, so the total time is understated (Turkish and English both state the 30-minute wait)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

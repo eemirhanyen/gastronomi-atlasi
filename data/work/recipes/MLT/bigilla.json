@@ -43,7 +43,7 @@
    "Baklayı taze suyla bir tencereye alın ve yumuşayana kadar, yaklaşık 45-60 dakika kaynatın.",
    "Baklayı süzün ve pişirme suyundan 100 ml ayırın.",
    "Baklaların kabuklarını varsa elinizle ayırıp atın; bu adım ezmenin daha pürüzsüz olmasını sağlar.",
-   "Sarımsakları ve çekirdekleri alınmış kırmızı biberi blendırdan geçirip ince kıyın, ardından bakla, kimyon, nane, tuz ve karabiberle birlikte robottan geçirin.",
+   "Sarımsakları ve çekirdekleri alınmış kırmızı biberi ince kıyın, ardından bakla, kimyon, nane, tuz ve karabiberle birlikte robottan geçirin.",
    "Karışım pürüzsüzleşirken zeytinyağını yavaş yavaş ekleyin.",
    "Limon suyunu ve ayırdığınız pişirme suyunu azar azar ilave ederek ezmeyi istediğiniz kıvama getirin.",
    "Tadını kontrol edip gerekirse tuz ve limon ekleyin; ardından kaseye alıp servis etmeden önce en az 1 saat buzdolabında bekletin.",
@@ -65,5 +65,13 @@
   "tr": "Baklaları pişirirken tuz eklemeyin; yumuşamadan tuzlanırsa kabukları sertleşip ezmeyi kabalaştırır.",
   "en": "Do not add salt while the beans are cooking; salting early keeps the skins tough and makes the dip grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to blend the garlic and chilli in a blender and then chop them, while the English step says only to finely chop them. The Turkish text also has the typo 'blendır'. Corrected the Tu"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

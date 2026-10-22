@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Niter kibbe",
+  "tr": "Niter kibbeh",
   "en": "Niter kibbeh"
  },
  "native": "ንጥር ቅቤ",
@@ -39,7 +39,7 @@
   "tr": [
    "Tereyağını parçalara ayırıp kalın tabanlı bir tencerede kısık ateşte eritin; karıştırmadan, yavaşça erimesini bekleyin.",
    "Erimiş tereyağına soğanı, sarımsağı, zencefili, kakuleyi, tarçın çubuğunu, karanfili, çemen tohumunu ve hindistan cevizini ekleyin.",
-   "Ateşi çok kısın ve yaklaşık 30-40 dakika, yüzeyde köpükler oluşturarak hafifçe kaynatın. Süt katıları dibe çökünce ve karamel renginde olunca, fındık kokusu alınca pişmiş sayılır.",
+   "Ateşi çok kısın ve yaklaşık 30-40 dakika, yüzeyde köpükler oluşturarak hafifçe kaynatın. Süt katıları dibe çökünce ve altın kahverengi olunca, fındık kokusu alınca pişmiş sayılır.",
    "Ocağı kapatın ve karışımın 5 dakika dinlenmesini bekleyin.",
    "İnce bir süzgecin üzerine tülbent yerleştirin ve tereyağını ısıya dayanıklı bir kavanoza süzün; katı kısımları atın.",
    "Oda sıcaklığında soğutup kapağını kapatın ve buzdolabında 3 aya kadar saklayın."
@@ -57,5 +57,14 @@
   "tr": "Tereyağı çok hızlı koyulaşır ve yanarsa acılaşır; ocağı mümkün olduğunca düşük tutun ve süzmeden önce tavanın dibindeki kahverengi katıları karıştırmamaya özen gösterin.",
   "en": "Butter scorches quickly and turns bitter, so keep the heat low and avoid stirring up the brown solids on the bottom before straining."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name 'Niter kibbe' does not match the English 'Niter kibbeh'.",
+   "Doneness cue differs between versions: Turkish says 'karamel renginde' (caramel-colored), English says 'golden brown'. Aligned the Turkish to 'altın kahverengi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

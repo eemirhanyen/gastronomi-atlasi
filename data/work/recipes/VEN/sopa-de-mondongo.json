@@ -24,12 +24,12 @@
    "4 diş sarımsak (15 g), ezilmiş",
    "2 domates (300 g), rendelenmiş veya püre",
    "1 tatlı kaşığı (2 g) kimyon",
-   "1 tatlı kaşığı (1 g) kuru kekik veya kekik yerine kekik otu, ufalanmış",
+   "1 tatlı kaşığı (1 g) kuru kekik (oregano), ufalanmış",
    "1 havuç (100 g), küp doğranmış",
    "2 sap kereviz (80 g), dilimlenmiş",
    "300 g ñame (yam), küp doğranmış",
    "250 g patates, küp doğranmış",
-   "1 olgun plátano (muz türü, yaklaşık 250 g), 4 parça halinde kesilmiş",
+   "1 olgun plátano (muz türü, yaklaşık 250 g), soyulmuş, 4 parça halinde kesilmiş",
    "1 demet kişniş (30 g), doğranmış",
    "10 g tuz",
    "1 tatlı kaşığı (1 g) taze çekilmiş karabiber"
@@ -63,7 +63,7 @@
    "Büyük bir tencerede işkembe, incik ve 2,5 L suyu birlikte kaynatın. Yüzeyde biriken köpükleri alın, ısıyı kısın ve kapağı yarı açık bırakarak 2 saat kadar, işkembe yumuşayana kadar pişirin.",
    "Bu sırada geniş bir tavada yağı ısıtın. Soğanı, yeşil biberi ve ají dulce'yi ekleyip 6-7 dakika, yumuşayana kadar kavurun. Sarımsağı ekleyip 1 dakika daha pişirin.",
    "Domatesi ekleyin ve suyunu çekip koyulaşana kadar yaklaşık 5 dakika pişirin. Kimyon ve kekiği ekleyip karıştırın, ocaktan alın.",
-   "Ayrı bir kasede havuç, kereviz, ñame ve patatesi küp küp doğrayın, plátano parçalarını da hazırlayın.",
+   "Ayrı bir kasede havuç, ñame ve patatesi küp küp doğrayın, kerevizi dilimleyin, plátano'yu soyup 4 parça halinde kesin.",
    "İncik pişince çıkarıp kemiklerinden ayırın, eti parçalayın ve tencereye geri koyun. Kavrulmuş sofrito karışımını ekleyin.",
    "Doğranmış havuç, kereviz, ñame ve patatesi tencereye ekleyin. Orta ateşte 20 dakika pişirin, ardından plátano parçalarını ekleyip 10 dakika daha kaynatın. Sebzeler ve plátano yumuşamalı, çorba hafif koyulaşmalıdır.",
    "Tuz, karabiber ve kişnişi ekleyin. Ocaktan alıp 5 dakika dinlendirin, sonra sıcak servis yapın. Yanında limon dilimleri koyabilirsiniz."
@@ -83,5 +83,15 @@
   "tr": "İşkembeyi pişirmeden önce limon ve sirkeli suda iyice ovalamak koku ve tadını büyük ölçüde iyileştirir; zaman kazanmak için düdüklü tencere kullanabilirsiniz (yaklaşık 45 dakika).",
   "en": "Scrubbing the tripe with lime and a splash of vinegar before cooking greatly reduces any strong odour; a pressure cooker can cut the tripe cooking time to about 45 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient for the dried herb is 'kuru kekik veya kekik yerine kekik otu' (thyme or 'kekik otu'), but the English says dried oregano. In Turkish 'kekik' is ambiguous, and the phrasing is awkwa",
+   "Turkish step 5 says to cube the celery ('küp küp doğrayın'), but the Turkish ingredient says 'dilimlenmiş' and the English step says to slice it.",
+   "English step 5 says the plantain is peeled, but the Turkish ingredient and step do not mention peeling. Plantain must be peeled before cooking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -47,7 +47,7 @@
   "tr": [
    "Geniş bir kapta un, kabartma tozu, tuz, şeker ve kurutulmuş hindistan cevizini karıştırın.",
    "Başka bir kapta yumurtaları çırpın, hindistan cevizi sütünü, suyu ve eritilmiş tereyağını ekleyip iyice birleştirin.",
-   "Sıvı karışımı kuru malzemelere ekleyin ve topaklar kalmayacak şekilde kısa sürede karıştırın. Hamuru 10 dakika dinlendirin.",
+   "Sıvı karışımı kuru malzemelere ekleyin ve birkaç küçük topak kalacak şekilde kısa sürede karıştırın. Hamuru 10 dakika dinlendirin.",
    "Mangoyu soyup küp küp doğrayın. Muzları dilimleyin.",
    "Geniş bir tavayı orta ateşte ısıtın ve yağın yarısını ekleyin.",
    "Bir kepçe hamuru tavaya dökün, krep yaklaşık 2 dakika pişip yüzeyinde kabarcıklar oluşunca çevirin ve 1 dakika daha pişirin. Kalan hamurla aynı işlemi tekrarlayın, gerekirse tavaya biraz daha yağ ekleyin.",
@@ -69,5 +69,13 @@
   "tr": "Kurutulmuş hindistan cevizini kuru bir tavada birkaç dakika hafifçe kavurursanız krepler daha belirgin bir aroma kazanır.",
   "en": "Lightly toast the desiccated coconut in a dry pan for a few minutes before mixing to deepen its flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says the batter should be mixed until there are no lumps (\"topaklar kalmayacak şekilde\"), but the English says to leave a few small lumps. The Turkish is corrected to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

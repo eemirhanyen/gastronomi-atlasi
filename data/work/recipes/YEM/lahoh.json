@@ -39,7 +39,7 @@
    "Yapışmaz bir tavayı orta ateşte ısıtın ve hafifçe yağlayın. Mayalanan hamuru hafifçe karıştırarak havasını alın.",
    "Tavaya yaklaşık 80 ml hamur dökün ve 15 cm çapında yayın. Çok ince yaymayın.",
    "Kapağını kapatıp orta-düşük ateşte 3-4 dakika pişirin. Üst yüzey küçük deliklerle kaplanıp kuruyunca ve kenarlar kalkınca alt yüzü altın rengi olmuş demektir. Çevirmeyin, tabağa alın.",
-   "Kalan hamurla aynı işlemi tekrarlayın, gerektikçe tavayı az yağla yağlayın. Lahohları üst üste dizin ve sıcak tutun.",
+   "Kalan hamurla aynı işlemi tekrarlayın, gerektikçe tavayı az yağla yağlayın. Lahohları üst üste dizin ve örtülü olarak sıcak tutun.",
    "Ilık lahohları, eritilmiş sade yağ ve balla servis edin."
   ],
   "en": [
@@ -57,5 +57,13 @@
   "tr": "Hamur çok koyuysa birkaç kaşık su ekleyin; ince ve gözenekli bir yüzey için tavayı kapağıyla kapatmak şarttır.",
   "en": "If the batter is too thick, add a few spoonfuls of water; covering the pan is essential for the open, holey top."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 omits 'keep covered' (örtülü tutun), which the English version includes. This is a minor disagreement between the two versions."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

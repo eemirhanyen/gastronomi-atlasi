@@ -9,7 +9,7 @@
   "en": "A celebration dish from Haiti, tassot kabrit is goat meat marinated in sour orange and lime, simmered until tender, then fried until crisp. It is traditionally served at weddings, family gatherings and holidays, with rice and pikliz."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -47,7 +47,7 @@
    "Keçi eti parçalarını marinelemenin içine ekleyip iyice bulaştırın. Scotch bonnet biberini bütün halde ekleyin, kesmeyin ya da delmeyin.",
    "Kapağını örtüp en az 12, en fazla 24 saat buzdolabında bekletin.",
    "Eti marineden çıkarıp bir tencereye alın. Marinesini ve biberi de ekleyin, üzerine 500 ml su dökün.",
-   "Kapağını kapatıp orta-kısık ateşte yaklaşık 45 dakika pişirin. Et yumuşayana ve sıvının neredeyse tamamı buharlaşana kadar bekleyin.",
+   "Kapağını kısmen açık bırakarak orta-kısık ateşte yaklaşık 1,5 saat pişirin. Et yumuşayana ve sıvının neredeyse tamamı buharlaşana kadar bekleyin.",
    "Scotch bonnet biberini çıkarıp atın. Eti kağıt havluya alıp iyice kurulayın.",
    "Yağı derin bir tencerede 180°C'ye kadar ısıtın. Et parçalarını partiler halinde 5-7 dakika, altın rengi ve çıtır olana kadar kızartın.",
    "Kızarmış etleri süzgeçli bir kaseye alıp yağını süzdürün. Limon dilimleriyle sıcak servis yapın."
@@ -57,7 +57,7 @@
    "Add the goat pieces to the marinade and coat them well. Add the whole Scotch bonnet pepper without cutting or piercing it.",
    "Cover and refrigerate for at least 12 and up to 24 hours.",
    "Remove the meat from the marinade and place it in a pot. Add the marinade and the pepper, then pour in 500 ml of water.",
-   "Cover and simmer over medium-low heat for about 45 minutes, until the meat is tender and almost all the liquid has evaporated.",
+   "Leave the lid partly open and simmer over medium-low heat for about 1.5 hours, until the meat is tender and almost all the liquid has evaporated.",
    "Remove and discard the Scotch bonnet. Transfer the meat to paper towels and pat it dry thoroughly.",
    "Heat the oil in a deep pot to 180°C. Fry the meat in batches for 5-7 minutes, until golden brown and crispy.",
    "Drain the fried meat in a colander over a bowl. Serve hot with lime wedges."
@@ -67,5 +67,15 @@
   "tr": "Scotch bonnet biberini bütün bırakmak, kesmeden pişirdiğinizde yemeğe yoğun acılık vermeden aromasını katmanızı sağlar. Eti kızartmadan önce iyice kurulamak, yağın sıçramasını ve çıtır dokuyu korumanın anahtarıdır.",
   "en": "Keeping the Scotch bonnet whole lets it flavour the meat without making it very hot. Drying the meat thoroughly before frying prevents oil splatter and keeps the crust crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Simmer time of about 45 minutes is too short for 1 kg of bone-in goat to become tender.",
+   "The pot is covered, yet the step asks for almost all the liquid to evaporate, which a closed lid prevents.",
+   "time_min (60) does not match the cooking steps (about 45 minutes of simmering plus frying), so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

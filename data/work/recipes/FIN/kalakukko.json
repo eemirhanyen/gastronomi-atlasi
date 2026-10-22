@@ -9,7 +9,7 @@
   "en": "A traditional loaf from the Savo region of eastern Finland, made by wrapping small whole fish and pork in a rye bread dough and baking it slowly for hours. It is especially associated with Kuopio, where it is eaten at markets, fairs and outdoor gatherings, often warm or at room temperature."
  },
  "servings": 4,
- "time_min": 270,
+ "time_min": 330,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -19,7 +19,7 @@
    "7 g kuru maya (1 paket)",
    "8 g tuz",
    "20 g tereyağı (kalıbı yağlamak için)",
-   "400 g küçük bütün tatlısu balığı (örneğin sazan yavrusu, sudak veya kızılkanat) ya da tuzlu ringa, temizlenmiş",
+   "400 g küçük bütün tatlısu balığı (örneğin kızılkanat, sudak veya küçük beyaz balık) ya da tuzlu ringa, temizlenmiş",
    "200 g domuz göbeği, küp doğranmış",
    "1 orta boy soğan, ince doğranmış",
    "3 g karabiber",
@@ -67,5 +67,14 @@
   "tr": "Balık kemiklerinin tamamen yumuşaması için fırın ısısını düşük tutun ve pişirme süresini kısaltmayın; kabuk çok hızlı koyulaşırsa folyo kullanın.",
   "en": "Keep the oven low and the bake long so the small fish bones soften completely; if the crust darkens too quickly, cover it with foil rather than raising the heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (270) is too short: the steps alone add up to about 5.5 hours (1 h rise + 30 min rest + 3.5 h bake + 15 min rest, plus kneading and fish prep), so the total should be about 330 minutes.",
+   "Fish species disagree between versions: the Turkish list names 'sazan yavrusu' (carp fry), but the English list names roach, perch or small whitefish. Changed the Turkish to match the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

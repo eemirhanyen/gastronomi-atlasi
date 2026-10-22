@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Şerbeti hazırlayın: 250 g şekeri, 250 ml suyu ve limon suyunu orta ateşte kaynatın, 5 dakika kadar hafifçe koyulaşana kadar pişirin. Ocaktan alıp portakal çiçek suyunu ekleyin ve tamamen soğumaya bırakın.",
-   "Kremayı hazırlayın: 60 g mısır nişastasını 100 ml sütle pürüzsüz bir karışım olacak şekilde karıştırın. Kalan 400 ml sütü 60 g toz şekerle birlikte orta ateşte ısıtın, kaynamaya yakın Ürdün tipi kıvama gelmesi için nişasta karışımını ekleyip sürekli karıştırarak koyulaşana kadar pişirin. Ocaktan alıp yaklaşık 10 dakika soğutun.",
+   "Kremayı hazırlayın: 60 g mısır nişastasını 100 ml sütle pürüzsüz bir karışım olacak şekilde karıştırın. Kalan 400 ml sütü 60 g toz şekerle birlikte orta ateşte kaynamaya yakın sıcaklığa gelene kadar ısıtın, nişasta karışımını ekleyip sürekli karıştırarak koyulaşana kadar pişirin. Ocaktan alıp yaklaşık 10 dakika soğutun.",
    "Kadayıfı elinizle ayırarak gevşetin. Yarısını 75 g eritilmiş tereyağıyla iyice karıştırın.",
    "Fırını 180°C'ye ısıtın. 22 cm çaplı yuvarlak bir kalıbın tabanına ve kenarlarına biraz tereyağı sürün.",
    "Tereyağlı kadayıfın yarısını kalıbın tabanına bastırarak eşit bir tabaka oluşturun. Üzerine soğumuş kremayı yayın.",
@@ -65,5 +65,13 @@
   "tr": "Şerbet soğuk, künefe sıcak olmalıdır; bu sayede tatlı çıtır kalır ve şerbeti hemen emer.",
   "en": "Pour cold syrup over hot kunafa, never the reverse, so the pastry stays crisp while soaking up the syrup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 contains the phrase \"Ürdün tipi kıvama\" (Jordanian-style consistency), which is unnatural, unexplained, and has no counterpart in the English version. The English says only \"until thick"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

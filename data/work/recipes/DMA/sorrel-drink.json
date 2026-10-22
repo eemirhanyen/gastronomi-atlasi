@@ -9,7 +9,7 @@
   "en": "A deep red, tart-sweet spiced drink made from dried sorrel (Hibiscus sabdariffa) calyces, ginger and warm spices. It is served across Dominica, especially at Christmas and during festive gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 600,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Sorreli demlerken kapağı kapalı tutun; bu, aromanın ve güzel kırmızı rengin korunmasına yardımcı olur.",
   "en": "Keep the pot covered while steeping to preserve the aroma and the deep red colour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires steeping for at least 8 hours or overnight plus at least 1 hour of chilling, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

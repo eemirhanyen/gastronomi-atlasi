@@ -9,7 +9,7 @@
   "en": "A cool, refreshing drink made from rice, cinnamon and sugar, served over ice. In Costa Rica it is especially popular on hot afternoons, with lunch, and at family gatherings, both at home and in sodas (small local restaurants)."
  },
  "servings": 4,
- "time_min": 140,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -37,7 +37,7 @@
   "tr": [
    "Pirinci soğuk suyla iki kez durulayıp süzün.",
    "Pirinç, tarçın çubuklarını ve 1000 ml suyu geniş bir kaba koyun. Oda sıcaklığında en az 2 saat bekletin; daha yoğun bir tat için buzdolabında bir gece bekletebilirsiniz.",
-   "Pirinç tamamen yumuşayınca tarçın çubuklarını çıkarın ve pirinçli suyu, yumuşak pirinçle birlikte, blenderda en az 3 dakika yüksek hızda pürüzsüz hale gelene kadar karıştırın.",
+   "Pirinç iyice yumuşayınca tarçın çubuklarını çıkarın ve pirinçli suyu, yumuşak pirinçle birlikte, blenderda en az 3 dakika yüksek hızda pürüzsüz hale gelene kadar karıştırın.",
    "Karışımı ince gözlü bir süzgeçten, mümkünse peynir bezi serili bir süzgeçten geçirerek iri parçacıkları ayırın.",
    "Süzülmüş sıvıya şekeri ekleyip tamamen eriyene kadar karıştırın. Vanilya özütünü ve tuzu da ekleyin.",
    "Karışımı kapaklı bir sürahiye aktarın ve servis etmeden önce en az 1 saat buzdolabında soğutun.",
@@ -54,8 +54,17 @@
   ]
  },
  "tip": {
-  "tr": "Süzerken pirinç posasını bastırarak sıkmayın; bu, içeceğin kumlu ve bulanık olmasına neden olur. Yavaşça süzün ve dayanıklılık için bezi bir kez daha kullanın.",
+  "tr": "Süzerken pirinç posasını bastırarak sıkmayın; bu, içeceğin kumlu ve bulanık olmasına neden olur. Yavaşça süzün ve daha pürüzsüz bir içecek için süzülmüş sıvıyı temiz bir bezden bir kez daha süzün.",
   "en": "Do not press the rice pulp hard through the strainer; this makes the drink gritty and cloudy. Let it drip slowly and, for an even smoother drink, strain a second time through a clean cloth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (140) is shorter than the steps require: at least 2 hours soaking, plus at least 1 hour chilling, is about 180 minutes.",
+   "Turkish tip uses 'dayanıklılık' (durability), which is wrong here. The English says the second straining is for a smoother drink, so the Turkish should match that meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

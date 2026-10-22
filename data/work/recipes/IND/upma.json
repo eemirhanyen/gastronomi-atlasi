@@ -18,15 +18,15 @@
    "45 ml ayçiçek yağı",
    "5 g hardal tohumu",
    "5 g urad dal (siyah mercimek, isteğe bağlı)",
-   "1 g hing (asafetida), bir tutam",
+   "0.2 g hing (asafetida), bir tutam",
    "1 orta boy soğan (100 g), küp doğranmış",
    "1 yeşil acı biber (10 g), ince doğranmış",
-   "1 cm taze zencefil (10 g), rendelenmiş",
+   "1 cm taze zencefil (5 g), rendelenmiş",
    "10 yaprak köri yaprağı",
    "60 g havuç, küp doğranmış",
    "60 g yeşil bezelye (dondurulmuş olabilir)",
    "6 g tuz",
-   "700 ml sıcak su",
+   "500 ml sıcak su",
    "30 ml limon suyu",
    "15 g taze kişniş, doğranmış"
   ],
@@ -36,15 +36,15 @@
    "45 ml sunflower oil",
    "5 g mustard seeds",
    "5 g urad dal (split black gram, optional)",
-   "1 g asafoetida (hing), a pinch",
+   "0.2 g asafoetida (hing), a pinch",
    "1 medium onion (100 g), finely diced",
    "1 green chili (10 g), finely chopped",
-   "1 cm fresh ginger (10 g), grated",
+   "1 cm fresh ginger (5 g), grated",
    "10 curry leaves",
    "60 g carrot, diced",
    "60 g green peas (frozen is fine)",
    "6 g salt",
-   "700 ml hot water",
+   "500 ml hot water",
    "30 ml lemon juice",
    "15 g fresh coriander, chopped"
   ]
@@ -59,7 +59,7 @@
    "Sıcak suyu ve tuzu ekleyin, karışımı kaynatın.",
    "Ateşi kısın ve kavrulmuş irmik ile kajuları yavaş yavaş ekleyip sürekli karıştırın; topaklanmayı önlemek için hızlıca çevirin.",
    "Tavayı kapatın ve ara ara karıştırarak 3-4 dakika, su tamamen çekilene ve lapa koyulaşana kadar pişirin.",
-   "Ocağı kapatın, kapağı kapalı halde 5 dakika dinlendirin. Ardından çatalla kabartıp gevşetin.",
+   "Ocağı kapatın, kapağı kapalı halde 5 dakika dinlendirin. Ardından çatalla karıştırıp gevşetin.",
    "Limon suyunu ekleyip karıştırın, kişniş ile süsleyerek sıcak servis yapın."
   ],
   "en": [
@@ -79,5 +79,16 @@
   "tr": "Irmiği mutlaka önceden kavurun ve sıcak su kullanın; bu, lapanın topaklanmadan pürüzsüz kalmasını sağlar.",
   "en": "Dry roast the semolina first and use hot water; this keeps the upma smooth and prevents lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "700 ml water for 200 g semolina (about 3.5:1) is too much. The upma would stay soupy and would not thicken in the 3-4 minutes given. Reduced to 500 ml in both languages.",
+   "1 g asafoetida is far more than 'a pinch' (about 0.1-0.2 g). Changed to 0.2 g in both languages.",
+   "1 cm fresh ginger weighs about 5 g, not 10 g. Corrected in both languages.",
+   "Turkish step 9 'kabartıp gevşetin' is unnatural. 'Kabartmak' means to leaven, so it was changed to 'karıştırıp gevşetin' to match the English 'fluff'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

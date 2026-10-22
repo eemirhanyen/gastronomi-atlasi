@@ -60,15 +60,14 @@
  "steps": {
   "tr": [
    "Tamarind pulpunu 150 ml ılık suda yaklaşık 10 dakika bekletin, ardından ezerek süzün ve suyunu bir kenara ayırın.",
-   "Şalot soğanlarını, sarımsakları, kemiriyi, kırmızı biberleri, karides ezmesini ve galangalı 60 ml suyla pürüzsüz bir macun haline gelene kadar blendırdan geçirin.",
+   "Şalot soğanlarını, sarımsakları, kemiriyi, kırmızı biberleri, karides ezmesini ve galangalı 60 ml suyla pürüzsüz bir macun haline gelene kadar blenderdan geçirin.",
    "Bitkisel yağı geniş bir tencerede orta ateşte ısıtın, salam yapraklarını ve dövülmüş limon otunu ekleyip kokusu çıkana kadar yaklaşık 1 dakika kavurun.",
    "Hazırlanan macunu ekleyip yaklaşık 3 dakika, yağ ayrılana ve kokusu güçlenene kadar kavurun.",
    "1200 ml suyu ekleyin ve kaynatın.",
    "Balkabağını ve chayote'yi küçük parçalar halinde kesip kaynayan suya ekleyin, yaklaşık 8 dakika pişirin.",
    "Tatlı mısırı yaklaşık 3 cm'lik parçalara bölün, uzun fasulyeyi 4 cm'lik parçalara kesin ve tencereye ekleyin. 5 dakika daha pişirin.",
    "Tamarind suyunu süzerek tencereye ekleyin, palmiye şekeri ve tuzu ilave edip karıştırın.",
-   "Melinjo yapraklarını ya da ıspanağı ekleyin ve 2 dakika, yapraklar solana kadar pişirin. Ocaktan alın ve sıcak servis yapın.",
-   "Tamarind pulpunu 150 ml ılık suda yaklaşık 10 dakika bekletin..."
+   "Melinjo yapraklarını ya da ıspanağı ekleyin ve 2 dakika, yapraklar solana kadar pişirin. Ocaktan alın ve sıcak servis yapın."
   ],
   "en": [
    "Soak the tamarind pulp in 150 ml warm water for about 10 minutes, then mash and strain, keeping the liquid aside.",
@@ -83,8 +82,18 @@
   ]
  },
  "tip": {
-  "tr": "Tamarind suyunu kaynatmadan sonra ekleyin; uzun süre kaynamak ekşiliği ve tazeliği azaltır.",
+  "tr": "Tamarind suyunu sebzeler piştikten sonra ekleyin ve sert kaynatmaktan kaçının; uzun süre kaynamak ekşiliği ve tazeliği azaltır.",
   "en": "Add the tamarind water after the vegetables are cooked and avoid a hard boil; long boiling dulls its fresh sourness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish steps contain a duplicated 10th step (repeat of step 1) that has no English counterpart, so the two versions have different step counts.",
+   "Turkish step 2 has a typo: 'blendırdan' should be 'blenderdan'.",
+   "Turkish tip says 'kaynatmadan sonra' ('after not boiling'), which is garbled and does not match the English tip ('after the vegetables are cooked'). It should say the tamarind is added after the veget"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

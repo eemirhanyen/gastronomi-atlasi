@@ -32,7 +32,6 @@
    "1 küçük soğan, ikiye bölünmüş",
    "1 diş sarımsak",
    "1 defne yaprağı",
-   "2 yemek kaşığı sıvı yağ (30 ml)",
    "300 g uzun taneli beyaz pirinç",
    "600 ml su",
    "1 tatlı kaşığı tuz",
@@ -62,7 +61,6 @@
    "1 small onion, halved",
    "1 garlic clove",
    "1 bay leaf",
-   "2 tbsp vegetable oil (30 ml)",
    "300 g long-grain white rice",
    "600 ml water",
    "1 tsp salt",
@@ -76,7 +74,7 @@
  "steps": {
   "tr": [
    "Dana butu büyük bir tencereye alın, 1 soğanın yarısı, 2 diş sarımsak, defne yaprağı, 1 tatlı kaşığı tuz ve 1,5 L suyla birlikte koyun. Kaynayınca ateşi kısın ve et çok yumuşayana kadar yaklaşık 1,5 saat pişirin.",
-   "Eti çıkarıp bir tabağa alın, biraz soumasını bekleyin. Pişirme suyundan 250 ml ayırın, kalanını bir kenara koyun. Eti iki çatalla lifler halinde didikleyin.",
+   "Eti çıkarıp bir tabağa alın, biraz soğumasını bekleyin. Pişirme suyundan 250 ml ayırın, kalanını bir kenara koyun. Eti iki çatalla lifler halinde didikleyin.",
    "Siyah fasulyeyi süzün, 1 küçük soğanın yarısı, 1 diş sarımsak, 1 defne yaprağı ve 1 litre su ile ayrı bir tencerede kaynatın. Yumuşayıncaya kadar yaklaşık 1 saat pişirin, sonra soğan ve defne yaprağını çıkarın.",
    "Fasulyenin bir kısmını kepçeyle alıp ezin ve tencereye geri koyun, kıvam almasını sağlayın. Tuz ekleyip kenarda sıcak tutun.",
    "Et için geniş bir tavada 2 yemek kaşığı yağı ısıtın. Ince doğranmış soğanı ve dolma biberi 5 dakika soteleyin, ezilmiş sarımsağı ekleyip 1 dakika daha pişirin.",
@@ -88,7 +86,7 @@
   ],
   "en": [
    "Put the beef flank in a large pot with the onion half, 2 garlic cloves, bay leaf, 1 tsp salt and 1.5 L water. Bring to a boil, lower the heat and simmer for about 1.5 hours until very tender.",
-   "Remove the beef to a plate and let it rest. Reserve 250 ml of the cooking liquid and set the rest aside. Shred the meat into strands with two forks.",
+   "Remove the beef to a plate and let it cool slightly. Reserve 250 ml of the cooking liquid and set the rest aside. Shred the meat into strands with two forks.",
    "Drain the soaked black beans and put them in a separate pot with the onion half, 1 garlic clove, bay leaf and 1 L water. Simmer for about 1 hour until soft, then remove the onion and bay leaf.",
    "Mash about a third of the beans with a ladle and stir them back into the pot to thicken. Season with salt and keep warm on the side.",
    "For the beef, heat 2 tbsp oil in a wide pan. Sauté the finely chopped onion and bell pepper for 5 minutes, then add the crushed garlic and cook for 1 minute more.",
@@ -103,5 +101,14 @@
   "tr": "Muzların kabuğu tamamen siyaha dönmüş olsun; tatlı olmaları kızartıldığında karamelleşmelerini sağlar. Fasulyeyi ezerek kıvam verirseniz daha kremsi bir doku elde edersiniz.",
   "en": "Use plantains with fully blackened skins, as their sweetness caramelises when fried. Mashing part of the beans gives them a creamier texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list has a second '2 yemek kaşığı sıvı yağ (30 ml)' / '2 tbsp vegetable oil (30 ml)' entry under the beans, but no bean step uses oil. The entry is unused and was removed in both languages.",
+   "Turkish step 2 has a typo: 'soumasını' should be 'soğumasını'. The English 'let it rest' was changed to 'let it cool slightly' to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

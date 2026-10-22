@@ -9,15 +9,15 @@
   "en": "A traditional German main course of thin beef slices spread with mustard and filled with onion, bacon and pickle, then braised slowly in a savory sauce. It is a classic Sunday lunch and festive family dish, especially in northern and western Germany."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 165,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
    "600 g dana but (kıyma değil, ince dilimlenmiş, yaklaşık 0,5 cm kalınlığında 4 dilim)",
    "4 yemek kaşığı sert hardal (Dijon ya da Alman usulü hardal)",
    "100 g tütsülenmiş bacon veya dana pastırması, ince şeritler halinde",
-   "2 orta boy kuru soğan, ikisi de ince şeritler halinde",
-   "4 adet tatlı turşu (Gewürzgurke), uzunlamasına ikiye kesilmiş",
+   "1 orta boy kuru soğan, ince şeritler halinde",
+   "2 adet tatlı turşu (Gewürzgurke), uzunlamasına ikiye kesilmiş (4 yarım)",
    "1 kuru soğan (sos için, küp doğranmış)",
    "1 havuç, küp doğranmış",
    "1 kereviz sapı, küp doğranmış",
@@ -33,8 +33,9 @@
    "600 g beef top round (not mince), cut into 4 thin slices about 0.5 cm thick",
    "4 tablespoons strong mustard (Dijon or German-style)",
    "100 g smoked bacon or beef pastrami, cut into thin strips",
-   "2 medium onions: 1 cut into thin strips, 1 diced for the sauce",
-   "4 sweet gherkins (Gewürzgurke), halved lengthwise",
+   "1 medium onion, cut into thin strips",
+   "2 sweet gherkins (Gewürzgurke), halved lengthwise (4 halves)",
+   "1 onion, diced for the sauce",
    "1 carrot, finely diced",
    "1 celery stalk, finely diced",
    "2 tablespoons neutral oil",
@@ -72,7 +73,18 @@
  },
  "tip": {
   "tr": "Etin lifler yönüne göre sarılması, rulo pişerken dağılmasını önler; sarmadan önce dilimleri mutlaka ince dövün.",
-  "en": "Roll the beef against the grain direction of the muscle fibers and pound the slices thin; this keeps the rolls from unravelling while they braise."
+  "en": "Roll the beef with the grain direction of the muscle fibers and pound the slices thin; this keeps the rolls from unravelling while they braise."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredients list 2 onions in strips plus 1 diced onion (3 total), but the English list has 2 onions total. Turkish should list 1 onion in strips.",
+   "Gherkins: 4 gherkins are halved lengthwise (8 halves), but each roll uses only one half, so 4 halves are left unused. The quantity should be 2 gherkins halved.",
+   "Tip contradicts itself: the English says to roll 'against the grain', while the Turkish says 'along the fiber direction' (lifler yönüne göre). The English should match the Turkish.",
+   "time_min is 120, but the steps include about 1.5 hours of braising plus prep, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

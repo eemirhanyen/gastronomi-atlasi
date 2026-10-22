@@ -9,7 +9,7 @@
   "en": "A thick omelette of potatoes and onion, eaten across Spain in tapas bars, at lunch and on picnics. It is served warm or at room temperature."
  },
  "servings": 4,
- "time_min": 45,
+ "time_min": 70,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -53,5 +53,13 @@
   "tr": "Patatesleri kızartmak yerine yavaşça, yumuşacık pişirin; bu sayede omletin içi kremsi ve lezzetli olur.",
   "en": "Cook the potatoes gently rather than frying them hard so they stay soft and creamy inside the omelette."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 45, but the steps add up to roughly 70 minutes: about 10 min prep, 20-25 min potato cooking, 10 min rest, 5-7 min first side and 2-3 min second side."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

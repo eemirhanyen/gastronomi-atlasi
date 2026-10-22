@@ -9,7 +9,7 @@
   "en": "A thick, creamy and lightly tangy fresh cheese made by straining yogurt until it sets to a spreadable consistency. In Israel it is a staple of the breakfast table, served with olive oil, za'atar, olives and fresh vegetables alongside warm pita."
  },
  "servings": 4,
- "time_min": 30,
+ "time_min": 1470,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -39,7 +39,7 @@
   "tr": [
    "Yoğurdu bir kapta tuzla iyice karıştırın.",
    "Bir süzgecin içine temiz bir tülbent (peynir bezi) serin ve süzgeci geniş bir kasenin üzerine yerleştirin.",
-   "Yoğurdu tülbentin içine dökün, üstünü örtün ve buzdolabında 24 saat bekletin. Yoğurttan ayrılan sarımsı suyu (süzmeyi) zamanla kasede toplanmasını bekleyin.",
+   "Yoğurdu tülbentin içine dökün, üstünü örtün ve buzdolabında 24 saat bekletin. Yoğurttan ayrılan sarı suyun kaseye damlamasını bekleyin.",
    "24 saat sonunda labnenin kıvamı koyulaşmış ve yayılabilir hale gelmiş olmalı. Tülbenti açın, labneyi bir kaseye alın ve kaşıkla pürüzsüz hale getirin.",
    "Labneyi servis tabağına yayın, ortasında bir çukur açın ve üzerine zeytinyağını gezdirin.",
    "Üzerine zahteri serpin.",
@@ -61,5 +61,14 @@
   "tr": "Süzülen sarı suyu atmayın; soğuk içecek veya çorba bazlarında kullanabilirsiniz. Daha yoğun bir kıvam için süzme süresini 36 saate kadar uzatabilirsiniz.",
   "en": "Save the whey for soups or dough. For a firmer, more cheese-like texture, extend the draining time up to 36 hours."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 30, but the recipe requires 24 hours of draining in the refrigerator (up to 36 hours per the tip). The total time is misleading.",
+   "Turkish step 3 is awkward: 'zamanla kasede toplanmasını bekleyin' and the parenthetical '(süzmeyi)' are unclear. 'Süzme' is also a separate Turkish dish name, which may confuse readers. The English ve"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

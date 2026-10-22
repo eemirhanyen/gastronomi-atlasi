@@ -22,7 +22,7 @@
    "400 ml hindistan cevizi sütü",
    "1 çay kaşığı tuz",
    "1 yemek kaşığı hindistan cevizi yağı veya sıvı yağ",
-   "1 küçük kuru soğan veya 1/2 soğan, ince dilimlenmiş",
+   "1/2 küçük soğan, ince dilimlenmiş",
    "1/2 çay kaşığı hardal tohumu",
    "1/2 çay kaşığı kimyon tohumu",
    "1 kuru kırmızı biber",
@@ -69,5 +69,13 @@
   "tr": "Mercimeği yıkarken berrak su çıkana kadar durulayın; böylece köpük azalır ve köri daha temiz bir tat verir.",
   "en": "Rinse the lentils until the water runs clear to reduce foam and give a cleaner flavour to the curry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sliced onion amount differs between versions: English says '1/2 small onion' but Turkish says '1 küçük kuru soğan veya 1/2 soğan'. Turkish is also ambiguous ('kuru soğan' can be read as dried onion)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

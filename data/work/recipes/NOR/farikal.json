@@ -40,8 +40,9 @@
    "Üzerine 1 litre suyu dökün; su malzemelerin neredeyse tamamını örtmelidir.",
    "Tencereyi orta-yüksek ateşte kaynatın, yüzeyde oluşan köpüğü kepçe ile alın.",
    "Ateşi çok kısın, kapağını kapatıp yaklaşık 1,5 saat, et kemikten kolayca ayrılana kadar pişirin.",
-   "Bu aşamada eti ve lahanayı tencerede bırakarak, su kısmını ayrı bir kaba süzüp yaklaşık 1,5 dakika kaynatın. İsteğe bağlı olarak 16 g unu 50 ml soğuk suyla pürüzsüz bir karışım haline getirip kaynayan suya ekleyin, 5 dakika daha pişirerek kıvamını ayarlayın.",
-   "Tuzunu tadın, gerekirse tuz ekleyin, sonra sıcak olarak haşlanmış patateslerle servis edin."
+   "Eti ve lahanayı kepçe ile tencereden çıkarın, sıvıyı ayrı bir tencereye süzüp yaklaşık 1,5 dakika kaynatın. İsteğe bağlı olarak 16 g unu 50 ml soğuk suyla pürüzsüz bir karışım haline getirip kaynayan sıvıya ekleyin ve 5 dakika daha pişirerek kıvamını ayarlayın.",
+   "Patatesleri kabuklarını soyup tuzlu suda yaklaşık 20 dakika, yumuşayana kadar haşlayın.",
+   "Eti ve lahanayı sıcak sıvıya geri koyun, tuzunu tadın, gerekirse tuz ekleyin, sonra sıcak olarak haşlanmış patateslerle (600 g) servis edin."
   ],
   "en": [
    "Rinse the meat, pat dry with kitchen paper and cut it into bone-in pieces.",
@@ -52,12 +53,23 @@
    "Bring the pot to a boil over medium-high heat and skim off the foam with a ladle.",
    "Reduce the heat to low, cover the pot and simmer for about 1.5 hours, until the meat is tender and comes away easily from the bone.",
    "Lift out the meat and cabbage, strain the cooking liquid into a separate pan and bring it back to a boil for about 1.5 minutes. If thickening, whisk the 16 g flour with 50 ml cold water until smooth, stir it into the boiling liquid and simmer for 5 minutes.",
-   "Taste and adjust the salt if needed, return the meat and cabbage to the broth, and serve hot with boiled potatoes (600 g)."
+   "Peel the potatoes and boil them in salted water for about 20 minutes, until tender.",
+   "Taste and adjust the salt if needed, return the meat and cabbage to the broth, and serve hot with the boiled potatoes (600 g)."
   ]
  },
  "tip": {
   "tr": "Fårikål bir gün önceden hazırlandığında tat daha da derinleşir; ertesi gün yağı üstünden alıp ısıtarak servis edin.",
   "en": "Fårikål tastes even better made a day ahead; skim off the solidified fat the next day and reheat gently before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says the meat and cabbage stay in the pot while the liquid is strained, but the English step says to lift them out first. The Turkish procedure is also unclear and does not match the En",
+   "Turkish step 9 does not say to return the meat and cabbage to the broth, which the English step does.",
+   "Boiled potatoes are listed and served in both languages, but neither version includes a step for boiling them."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

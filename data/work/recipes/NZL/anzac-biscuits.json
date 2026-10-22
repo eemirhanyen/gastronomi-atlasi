@@ -5,7 +5,7 @@
  },
  "native": "New Zealand",
  "desc": {
-  "tr": "Yulaf, un, hindistan cevizi ve akçaağaç şurubu benzeri altın şurupla yapılan, çıtır kenarlı ve yumuşak ortalı bir kurabiye. Birinci Dünya Savaşı'ndaki ANZAC askerleriyle ilişkilendirilir; Yeni Zelanda'da en çok 25 Nisan Anzac Günü'nde yenir.",
+  "tr": "Yulaf, un, hindistan cevizi ve altın şurupla (golden syrup) yapılan, çıtır kenarlı ve yumuşak ortalı bir kurabiye. Birinci Dünya Savaşı'ndaki ANZAC askerleriyle ilişkilendirilir; Yeni Zelanda'da en çok 25 Nisan Anzac Günü'nde yenir.",
   "en": "A crisp-edged, chewy oat biscuit made with desiccated coconut and golden syrup. Associated with ANZAC soldiers of the First World War, it is eaten across New Zealand, especially around Anzac Day on 25 April."
  },
  "servings": 4,
@@ -61,5 +61,13 @@
   "tr": "Biscuitler fırında yumuşak görünür ama soğudukça sertleşir; tepsiden erken almayın, yoksa dağılabilir.",
   "en": "The biscuits look soft in the oven but firm up as they cool, so leave them on the tray for a few minutes before moving them, or they may break."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says golden syrup is like maple syrup (\"akçaağaç şurubu benzeri\"). Golden syrup is an inverted cane sugar syrup with a different flavour, so the comparison is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

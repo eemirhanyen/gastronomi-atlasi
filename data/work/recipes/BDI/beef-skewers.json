@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g dana bonfile veya but eti, 3 cm küp doğranmış",
+   "600 g dana bonfile veya but eti, 2 cm küp doğranmış",
    "150 g soğan, rendelenmiş",
    "3 diş sarımsak, ezilmiş",
    "15 ml sıvı yağ",
@@ -28,7 +28,7 @@
    "200 g ekmek, servis için"
   ],
   "en": [
-   "600 g beef sirloin or rump, cut into 3 cm cubes",
+   "600 g beef sirloin or rump, cut into 2 cm cubes",
    "150 g onion, grated",
    "3 garlic cloves, crushed",
    "15 ml vegetable oil",
@@ -69,5 +69,13 @@
   "tr": "Et parçalarının eşit boyutta olması, hepsinin aynı anda pişmesini sağlar; ateşi çok sert tutmak yerine orta-yüksek ısıda pişirmek dış yüzeyin yanmasını önler.",
   "en": "Cut the beef into even cubes so they cook at the same rate, and grill over steady medium-high heat rather than a fierce flame to avoid burnt outsides and raw centres."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Portion inconsistency: 3 cm beef cubes weigh about 30 g each, so 600 g yields only about 20 pieces. The steps call for 5-6 pieces on each of 12 skewers (about 60-72 pieces), which would need roughly 2"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

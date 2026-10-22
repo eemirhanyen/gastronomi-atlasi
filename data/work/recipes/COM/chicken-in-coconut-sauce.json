@@ -6,10 +6,10 @@
  "native": "Kuku wa nazi",
  "desc": {
   "tr": "Komor Adaları'nda günlük öğünlerde ve özel günlerde pilavla servis edilen, hindistan cevizi sütü ve baharatlarla pişirilmiş yumuşak bir tavuk yemeğidir.",
-  "en": "A everyday and festive main from the Comoros, where chicken is simmered in coconut milk with warm spices and typically served with rice."
+  "en": "An everyday and festive main from the Comoros, where chicken is simmered in coconut milk with warm spices and typically served with rice."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,14 @@
   "tr": "Hindistan cevizi sütünün ayrışmaması için sosu kaynatmak yerine kısık ateşte pişirin ve pişirme sırasında ara ara nazikçe karıştırın.",
   "en": "Simmer gently rather than boiling hard so the coconut milk stays smooth and does not separate, and serve with rice to soak up the sauce."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is lower than the steps add up to: about 8+1+1+8+5+40 minutes of cooking plus prep, so roughly 75-80 minutes total",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

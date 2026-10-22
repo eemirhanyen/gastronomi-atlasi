@@ -42,7 +42,7 @@
    "Hamurun üst yüzeyine bıçakla birbirini kesen çizgiler veya ortadan başlayan kısa kesikler atın.",
    "Üst yüzeyi kalan 15 g eritilmiş tereyağı ile fırçalayın.",
    "Ekmeği fırının orta rafında 30-35 dakika, üstü altın rengi olana ve tabana vurulduğunda içi boş bir ses verene kadar pişirin.",
-   "Fırından çıkan ekmeğin üzerine kalan tereyağından kalanı varsa sürün ve tel ızgarada en az 15 dakika soğumaya bırakın."
+   "Fırından çıkan ekmeği tel ızgarada en az 15 dakika soğumaya bırakın, ardından dilimleyin."
   ],
   "en": [
    "In a large bowl, mix the flour, dried yeast, sugar and salt well.",
@@ -54,12 +54,20 @@
    "Use a knife to score the top with crossing lines or short cuts radiating from the centre.",
    "Brush the top with the remaining 15 g of melted butter.",
    "Bake on the middle rack for 30 to 35 minutes, until the top is golden and the base sounds hollow when tapped.",
-   "Brush the hot loaf with any leftover butter and let it cool on a wire rack for at least 15 minutes before slicing."
+   "Let the loaf cool on a wire rack for at least 15 minutes, then slice it."
   ]
  },
  "tip": {
   "tr": "Hamur çok yapışkansa unu bir yemek kaşığı kadar ekleyin, ancak fazla un ekmeğin kuru çıkmasına neden olur.",
   "en": "If the dough is very sticky, add flour one tablespoon at a time, but too much flour will make the bread dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 10 (tr and en) tells the cook to brush the loaf with leftover butter, but all 40 g of butter is already used (25 g in the dough, 15 g on the top). The instruction is contradictory."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

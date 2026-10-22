@@ -53,7 +53,7 @@
    "Suyu, kalan sirkeyi, defne yapraklarını, doğranmış acı biberi ve kalan tuzu ekleyin. Kaynamaya bırakın, ateşi kısın ve kapağı kapalı olarak tavuk çok yumuşayana kadar yaklaşık 35 dakika pişirin.",
    "Tavuk pişerken kanı bir kaseye alın ve bir kepçe sıcak sosla yavaşça karıştırarak ısıtın. Bu, kanın pişip topaklanmasını önler.",
    "Tencerenin ateşini çok düşük yapın. Kanı yavaş yavaş sosa ekleyip sürekli karıştırın. Karışım koyulaşana kadar yaklaşık 5 dakika ısıtın, ama asla kaynatmayın.",
-   "Defne yapraklarını çıkarın, karabiberi ekleyip tadını ayarlayın. Maydanozu serpip pirinç pilavı ile sıcak servis yapın."
+   "Defne yapraklarını çıkarın, karabiberi ekleyin ve tuzunu tadına göre ayarlayın. Maydanozu serpip pirinç pilavı ile sıcak servis yapın."
   ],
   "en": [
    "Put the chicken pieces in a large bowl. Add half the vinegar, half the crushed garlic, the sweet paprika and 2 g of the salt. Mix well and leave to marinate at room temperature for 15 minutes.",
@@ -69,5 +69,13 @@
   "tr": "Kanı sirkeyle karıştırarak toplayın ve tencereye eklemeden önce mutlaka ılıtın; kaynayan sosa doğrudan dökülürse pıhtılaşır. Taze kan bulamazsanız kasaptan önceden sirkeli kan isteyebilirsiniz.",
   "en": "Collect the blood with vinegar and always temper it with hot sauce before adding it to the pot; pouring it straight into boiling liquid will make it curdle. If fresh blood is hard to find, ask your butcher to collect it in advance with vinegar."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says only to adjust the taste, while the English step explicitly says to adjust the salt. The Turkish version should say salt as well."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g sığır sağrısı veya bonfile (kemiksiz, lifli kısım)",
+   "600 g sığır incik veya flank (kemiksiz, lifli kısım)",
    "2 l su",
    "1 orta boy soğan (yaklaşık 150 g), ikiye bölünmüş",
    "2 diş sarımsak, ezilmiş",
@@ -23,7 +23,7 @@
    "1 büyük soğan (yaklaşık 150 g), ince doğranmış",
    "2 domates (yaklaşık 300 g), rendelenmiş veya ince doğranmış",
    "1 çay kaşığı öğütülmüş kimyon",
-   "1 çay kaşığı kurutulmuş kekik veya kekik",
+   "1 çay kaşığı kurutulmuş kekik (oregano)",
    "1 yemek kaşığı achiote (annatto) salçası",
    "120 g mısır unu (masa harina)",
    "120 ml acı portakal suyu (yoksa 80 ml portakal suyu ve 2 yemek kaşığı limon suyu)",
@@ -59,7 +59,7 @@
    "Rendelenmiş domatesi ekleyip suyunu çekene kadar 5 dakika pişirin. Kimyon, kekik ve karabiberi ilave edip bir dakika daha karıştırın.",
    "Achiote salçasını 60 ml sıcak pişirme suyunda eritin ve tencereye ekleyin. Renk homojen olana kadar karıştırın.",
    "Mısır unu ile 500 ml soğuk pişirme suyunu pürüzsüz bir karışım olacak şekilde çırpın, ardından yavaşça tencereye dökerek sürekli karıştırın. Kalan pişirme suyunu da ekleyip kaynamaya bırakın.",
-   "Ateşi orta-kısık yapın ve sık sık karıştırarak yaklaşık 15 dakika, kıvam alana kadar pişirin. Un topaklanırsa blenderdan geçirebilirsiniz.",
+   "Ateşi orta-kısık yapın ve sık sık karıştırarak yaklaşık 15 dakika, kıvam alana kadar pişirin. Un topaklanırsa blenderdan kısaca geçirebilirsiniz.",
    "Parçalanmış eti ve turunçgil suyunu ekleyin, tuzunu kontrol edip 10 dakika daha kısık ateşte pişirin.",
    "Ocaktan alıp doğranmış kişnişi serpin. Sıcak servis yapın; yanında tortilla ve limon dilimleri ikram edin."
   ],
@@ -76,8 +76,18 @@
   ]
  },
  "tip": {
-  "tr": "Mısır unu topaklanmadan çözülmesi için soğuk sıvıyla karıştırıp sıcak tencereye yavaşça ekleyin; çorba koyulaştıktan sonra sıvı eklemek yerine blenderdan geçirmek daha iyi sonuç verir.",
+  "tr": "Mısır ununu sıcak tencereye eklemeden önce soğuk sıvıyla pürüzsüz bir karışım haline getirin ve eklerken sürekli karıştırın; bu, topaklanmayı önler ve çorbaya pürüzsüz, kadifemsi bir kıvam verir.",
   "en": "Whisk the masa flour into cold liquid before adding it to the hot pot, and keep stirring as it goes in; this prevents lumps and gives the soup its smooth, velvety body."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish beef cut (sığır sağrısı veya bonfile) does not match the English (shank or flank); bonfile is also not a stringy cut.",
+   "Turkish oregano line 'kurutulmuş kekik veya kekik' is redundant and unclear.",
+   "Turkish tip differs from the English: it mentions blending instead of the whisking-into-cold-liquid technique that the English describes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

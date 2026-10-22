@@ -15,13 +15,17 @@
   "tr": [
    "40 g kurutulmuş ve öğütülmüş kava kökü tozu",
    "1 litre soğuk su",
-   "1 adet muslin bez veya ince tülbent (süzgeç için)",
+   "1 adet muslin bez veya ince tülbent (torba için)",
+   "1 adet ikinci temiz bez veya süzgeç (süzmek için)",
+   "1 adet sürahi veya büyük cam kap",
    "4 adet hindistan cevizi kabuğu kasesi veya küçük cam bardak"
   ],
   "en": [
    "40 g dried, ground kava root powder",
    "1 litre cold water",
-   "1 muslin cloth or fine cheesecloth (for straining)",
+   "1 muslin cloth or fine cheesecloth (for the bag)",
+   "1 second clean cloth or sieve (for straining)",
+   "1 jug or large glass container",
    "4 coconut shell cups or small glasses"
   ]
  },
@@ -51,5 +55,13 @@
   "tr": "Kava sakinleştirici etkiye sahiptir; alkolle karıştırmayın, araç kullanmadan önce bekleyin ve karaciğer hastalığı olanlar, hamileler ya da ilaç kullananlar içmeden önce doktora danışmalıdır.",
   "en": "Kava has a sedative effect; never mix it with alcohol, wait before driving, and anyone with liver disease, who is pregnant, or taking medication should consult a doctor first."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Steps 5 and 6 use a jug (sürahi/jug) and a second clean cloth or sieve, but neither appears in the ingredient lists (TR and EN)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

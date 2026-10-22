@@ -16,7 +16,7 @@
    "300 g patates",
    "2 adet havuç (yaklaşık 200 g)",
    "4 yumurta",
-   "200 g haşlanmış tavuk göğsü",
+   "200 g çiğ tavuk göğsü",
    "3 adet salatalık turşusu (yaklaşık 150 g)",
    "150 g konserve yeşil bezelye, süzülmüş",
    "200 g mayonez",
@@ -28,7 +28,7 @@
    "300 g potatoes",
    "2 carrots (about 200 g)",
    "4 eggs",
-   "200 g boiled chicken breast",
+   "200 g raw chicken breast",
    "3 pickled cucumbers (about 150 g)",
    "150 g canned green peas, drained",
    "200 g mayonnaise",
@@ -60,8 +60,17 @@
   ]
  },
  "tip": {
-  "tr": "Sebzeleri tamamen soğutup iyice kurulayın; sıcak ya da ıslak malzemeler mayonezi inceltir ve salata suyla dolar.",
+  "tr": "Sebzeleri tamamen soğutup iyice kurulayın; sıcak ya da ıslak malzemeler mayonezi inceltir ve salata sulanır.",
   "en": "Cool and dry the vegetables thoroughly before mixing; warm or wet ingredients thin the mayonnaise and make the salad watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient list says the chicken breast is already boiled (\"haşlanmış\" / \"boiled\"), but step 3 boils it, so the ingredient should be raw.",
+   "Turkish tip uses the unnatural phrase \"salata suyla dolar\"; \"salata sulanır\" is the natural wording."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

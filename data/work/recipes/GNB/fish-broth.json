@@ -31,10 +31,10 @@
    "300 g pişmiş beyaz pirinç, servis için"
   ],
   "en": [
-   "800 g firm white fish (sea bream, grouper or similar), cut into pieces",
+   "800 g firm white fish (sea bass, sea bream or grouper), cut into pieces",
    "1 lime, juiced",
    "1 tsp salt, plus more to taste",
-   "60 ml vegetable oil or palm oil",
+   "60 ml olive oil or palm oil",
    "2 medium onions (300 g), thinly sliced",
    "3 garlic cloves, crushed",
    "2 medium tomatoes (300 g), diced",
@@ -74,8 +74,18 @@
   ]
  },
  "tip": {
-  "tr": "Acı biberleri bütün bırakın; kaynatma sırasında suya tat verirler ama parçalanıp çorbayı fazla acılaştırmazlar.",
+  "tr": "Acı biberleri bütün bırakın; kaynatma sırasında suya tat verirler ama parçalanıp çorbayı fazla acılaştırmazlar. İsterseniz birini delerek daha fazla acılık alabilirsiniz.",
   "en": "Keep the chilies whole so they flavour the broth without making it too hot; pierce one if you want more heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish list includes levrek (sea bass), but the English version omits it.",
+   "Turkish says zeytinyağı (olive oil) or palmiye yağı, but the English says vegetable oil or palm oil. The oils do not match.",
+   "The Turkish tip does not mention piercing a chili for more heat, but the English tip does."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

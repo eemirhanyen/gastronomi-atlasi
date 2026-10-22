@@ -37,7 +37,7 @@
  },
  "steps": {
   "tr": [
-   "Dana escalopları iki parça streç film ya da fırın kağıdı arasına koyun ve hafif ıslak bir hammadde tokmağı ya da oklava ile 2-3 mm kalınlığa gelene kadar dövün.",
+   "Dana escalopları iki parça streç film ya da fırın kağıdı arasına koyun ve et tokmağı ya da oklava ile 2-3 mm kalınlığa gelene kadar dövün.",
    "Dövülmüş etleri tuz ve karabiberle her iki yüzeyde de tatlandırın.",
    "Unu bir tabağa, çırpılmış yumurtayı ikinci bir kaba, galeta ununu üçüncü bir tabağa koyun.",
    "Her escalopu önce una bulayın, fazlasını silkeleyin, ardından yumurtaya batırın ve son olarak galeta ununa iyice bastırarak kaplayın.",
@@ -63,5 +63,13 @@
   "tr": "Geleneksel lezzet için tereyağı yerine domuz yağı kullanın; kaplamanın tam kabarması için yağa sıcak bir tava ve bol yağ şartı vardır.",
   "en": "For a more authentic flavour, use lard instead of butter; the coating puffs best in a hot pan with plenty of fat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"hammadde tokmağı\", which is not a real culinary term; the correct term is \"et tokmağı\" (meat mallet)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A thin stuffed flatbread filled with spiced yellow split pea, from the Indo-Fijian community. It is eaten at weekend lunches, weddings and festivals such as Diwali, served with curries and pickles."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -75,5 +75,13 @@
   "tr": "Hamuru yeterince dinlendirmek, açarken yırtılmasını önler; bezelyenin suyunu iyice süzmek ise harcın dolguyu dağıtmasına engel olur.",
   "en": "Resting the dough well prevents tearing when rolling, and draining the peas thoroughly stops the filling from making the bread soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too low: the 60-minute soak, 25-30 minute simmer, cooling, shaping, and cooking 8 breads add up to roughly 110 minutes even with the dough rest overlapping the soak"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

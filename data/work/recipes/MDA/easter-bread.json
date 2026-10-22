@@ -53,7 +53,7 @@
    "Ortasına 2 yumurta ile köpüren mayalı sütü ekleyin ve yoğurmaya başlayın.",
    "Oda sıcaklığındaki tereyağını parça parça ekleyip hamur pürüzsüz ve elastik olana kadar 8-10 dakika yoğurun.",
    "Vanilya özünü de ekleyip hamuru kaseye alın, üzerini örtün ve sıcak bir yerde 1 saat kadar mayalanmaya bırakın.",
-   "Dolgu için lor peyniğini elekten geçirin, 1 yumurta sarısı, ekşi krema ve yarım sofra kaşığı kadar şekerle pürüzsüz bir karışım elde edene kadar karıştırın.",
+   "Dolgu için lor peynirini elekten geçirin, 1 yumurta sarısı, ekşi krema ve yarım yemek kaşığı kadar şekerle pürüzsüz bir karışım elde edene kadar karıştırın.",
    "Süzülmüş kuru üzümleri dolguya ekleyip karıştırın.",
    "Mayalanan hamuru ikiye bölün. Her parçayı unlu tezgâhta yaklaşık 24 cm çapında yuvarlak bir yufka gibi açın.",
    "Birinci yufkayı tereyağlı ve unlanmış 22 cm'lik bir kek kalıbına yerleştirin, ortasına dolguyu yayın ve kenarlarda 2 cm boşluk bırakın.",
@@ -87,5 +87,13 @@
   "tr": "Lor peyniri çok ıslaksa birkaç saat süzgeçte bekletin; aksi halde dolgu pişerken hamuru ıslatır.",
   "en": "If the cottage cheese is wet, drain it in a sieve for a few hours first, otherwise the filling will make the dough soggy as it bakes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 contains a misspelling: \"lor peyniğini\" should be \"lor peynirini\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

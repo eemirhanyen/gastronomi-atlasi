@@ -5,11 +5,11 @@
  },
  "native": "Lebanon",
  "desc": {
-  "tr": "Yoğurt, limon ve sarımsakla marine edilmiş, şişte pişirilen tavuk parçalarıdır. Lübnan'da öğle ve akşam yemeklerinde, özellikle mangal ve piknik sofralarında, pide benzeri ekmek ve taze salatayla servis edilir.",
+  "tr": "Yoğurt, limon ve sarımsakla marine edilmiş, şişte pişirilen tavuk parçalarıdır. Lübnan'da öğle ve akşam yemeklerinde, özellikle mangal ve piknik sofralarında, yassı ekmek ve taze salatayla servis edilir.",
   "en": "Chunks of chicken marinated in yogurt, lemon and garlic, then threaded on skewers and grilled. In Lebanon it is eaten at lunch and dinner, especially at barbecues and family gatherings, served with flatbread and fresh salad."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -24,7 +24,9 @@
    "1 g karabiber",
    "4 adet Lübnan usulü yassı ekmek (yaklaşık 240 g)",
    "2 adet domates, küp doğranmış",
-   "1/2 salatalık, doğranmış"
+   "1/2 salatalık, doğranmış",
+   "15 ml zeytinyağı, salata için",
+   "1 tutam tuz, salata için"
   ],
   "en": [
    "800 g boneless, skinless chicken thigh, cut into 3 cm cubes",
@@ -38,7 +40,9 @@
    "1 g black pepper",
    "4 Lebanese flatbreads (about 240 g total)",
    "2 tomatoes, diced",
-   "1/2 cucumber, diced"
+   "1/2 cucumber, diced",
+   "15 ml olive oil, for the salad",
+   "1 pinch salt, for the salad"
   ]
  },
  "steps": {
@@ -50,7 +54,7 @@
    "Mangalı ya da ızgarayı 220 °C'ye kadar ısıtın. Ev fırını kullanacaksanız ızgara fonksiyonunu açık tutun.",
    "Şişleri sık sık çevirerek 10-12 dakika pişirin. Tavuğun iç sıcaklığı 74 °C'ye ulaşmalı ve suyu berrak akmalıdır.",
    "Pişen şişleri dinlenmeye alın. Bu sırada yassı ekmekleri ızgarada birkaç saniye ısıtın.",
-   "Doğranmış domates ve salatalığı tuz ve zeytinyağıyla hafifçe tatlandırarak küçük bir salata yapın.",
+   "Doğranmış domates ve salatalığı bir tutam tuz ve 15 ml zeytinyağıyla hafifçe tatlandırarak küçük bir salata yapın.",
    "Şişteki tavukları ekmeğin içine ya da yanına koyup salatayla birlikte sıcak servis yapın."
   ],
   "en": [
@@ -61,13 +65,23 @@
    "Preheat the grill or barbecue to 220 °C. If using an oven, set it to the grill function.",
    "Cook the skewers for 10 to 12 minutes, turning them often, until the chicken reaches an internal temperature of 74 °C and the juices run clear.",
    "Rest the cooked skewers for a few minutes. Meanwhile, warm the flatbreads on the grill for a few seconds.",
-   "Toss the diced tomatoes and cucumber with a pinch of salt and a little olive oil to make a simple salad.",
+   "Toss the diced tomatoes and cucumber with a pinch of salt and 15 ml olive oil to make a simple salad.",
    "Slide the chicken off the skewers into the flatbread or serve it alongside, with the salad, while hot."
   ]
  },
  "tip": {
-  "tr": "Marinasyona bir miktar limon kabuğu rendesi eklemek aromayı belirgin şekilde artırır; ancak tavuğu 4 saatten fazla marine etmeyin, aksi halde et yumuşaklığını kaybeder.",
+  "tr": "Marinasyona bir miktar limon kabuğu rendesi eklemek aromayı belirgin şekilde artırır; ancak tavuğu 24 saatten fazla marine etmeyin, aksi halde et yumuşaklığını kaybeder.",
   "en": "Adding a little grated lemon zest to the marinade boosts the aroma, but do not marinate the chicken longer than about 24 hours, or the meat becomes mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says not to marinate more than 4 hours, English tip says about 24 hours, and the steps allow an overnight marinade. The tip must match the steps and be consistent across languages.",
+   "The salad step uses salt and olive oil, but neither appears in the ingredient lists.",
+   "time_min is 60, but the recipe requires at least 1 hour of marinating plus soaking and cooking, so the total is longer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

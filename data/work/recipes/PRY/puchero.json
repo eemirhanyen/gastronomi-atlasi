@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Puchero (Paraguay usulü sebzeli et güveci)",
+  "tr": "Puchero (Paraguay usulü sebzeli et haşlaması)",
   "en": "Puchero (Paraguayan-style meat and vegetable stew)"
  },
  "native": "Puchero",
@@ -9,7 +9,7 @@
   "en": "Puchero is one of Paraguay's most common family dishes, made by slowly simmering beef, chicken and chorizo with corn, sweet potato, pumpkin and other vegetables. It is especially served at weekend lunches and on cool days, shared by the whole family."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -59,7 +59,7 @@
   "tr": [
    "Sığır etini ve tavuk budunu kuru bir kağıt havluyla kurulayın. Büyük bir tencerede yağı orta-yüksek ateşte ısıtın ve etleri her iki tarafı da kızarana kadar birkaç dakika kavurun. Etleri bir tabağa alın.",
    "Aynı tencerede soğanı yumuşayana kadar yaklaşık 5 dakika soteleyin. Sarımsağı ve rendelenmiş domatesi ekleyip 3 dakika daha pişirin.",
-   "Kavrulan etleri tencereye geri koyun, üzerine suyu ekleyin. Defne yaprağı, tuz ve karabiberi ilave edip kaynatın. Ateşi kısın ve yüzeyde biriken köpüğü alarak yaklaşık 40 dakika kaynar halde pişirin.",
+   "Kavrulan etleri tencereye geri koyun, üzerine suyu ekleyin. Defne yaprağı, tuz ve karabiberi ilave edip kaynatın. Ateşi kısın ve yüzeyde biriken köpüğü alarak sığır eti yumuşayana kadar yaklaşık 60 dakika kısık ateşte kaynar halde pişirin.",
    "Chorizo sosisini bütün halde tencereye ekleyin ve 10 dakika daha pişirin. Sosis pişince çıkarıp dilimleyin ve bir kenara koyun.",
    "Havuç, pırasa, kabak, tatlı patates, patates ve mısır parçalarını tencereye ekleyin. Orta ateşte yaklaşık 30 dakika, sebzeler yumuşayana kadar pişirin.",
    "Lahanayı ekleyip 10 dakika daha pişirin. Tavuk ve etlerin tamamen yumuşadığını ve kemikten kolayca ayrıldığını kontrol edin.",
@@ -68,7 +68,7 @@
   "en": [
    "Pat the beef and chicken thighs dry with paper towels. Heat the oil in a large pot over medium-high heat and brown the meat on all sides for a few minutes. Transfer the meat to a plate.",
    "In the same pot, sauté the onion for about 5 minutes until soft. Add the garlic and grated tomato and cook for 3 more minutes.",
-   "Return the browned meat to the pot and add the water. Add the bay leaf, salt and black pepper and bring to a boil. Reduce the heat and simmer for about 40 minutes, skimming off any foam from the surface.",
+   "Return the browned meat to the pot and add the water. Add the bay leaf, salt and black pepper and bring to a boil. Reduce the heat and simmer for about 60 minutes, skimming off any foam from the surface, until the beef is tender.",
    "Add the whole chorizo to the pot and cook for 10 more minutes. Remove the chorizo, slice it and set aside.",
    "Add the carrots, leek, pumpkin, sweet potato, potatoes and corn pieces to the pot. Simmer over medium heat for about 30 minutes until the vegetables are tender.",
    "Add the cabbage and cook for another 10 minutes. Check that the chicken and beef are fully tender and come away easily from the bone.",
@@ -79,5 +79,15 @@
   "tr": "Sığır etini kemikli kesmek suyun daha lezzetli olmasını sağlar; sebzeler pişerken tencerenin kapağını tam kapatmadan pişirin ki çorba fazla koyulaşmasın.",
   "en": "Using bone-in beef gives the broth much more flavour; keep the lid slightly ajar during the vegetable stage so the broth does not reduce too much."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef (bone-in short rib or shank) is simmered for only about 40 minutes before the vegetables go in, which is too short for it to become tender. The final check in step 6 assumes it is already tender,",
+   "The Turkish name calls the dish 'güveci' (casserole). Puchero is a boiled meat-and-vegetable stew, so 'haşlaması' describes it better.",
+   "The Turkish and English versions must match. Both are updated for the longer simmer and the new time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

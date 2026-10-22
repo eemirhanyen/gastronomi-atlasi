@@ -70,9 +70,9 @@
    "Tavuk budu küplerini ekleyip yüzeyleri hafifçe renk alana kadar kavurun. Suyu, tuzu, karabiberi ve Lizano sosunu ekleyin, kısık ateşte 15 dakika pişirin.",
    "Patates ve havucu ekleyip 10 dakika, yumuşayana kadar pişirin. Bezelye, zeytin, kapari, kuru üzüm ve kişnişi ekleyip 3 dakika daha pişirin. Dolguyu tamamen soğumaya bırakın.",
    "Hamuru hazırlayın: Domuz yağını ve tuzu elektrikli mikserle 3-4 dakika, açık ve kabarık olana kadar çırpın.",
-   "Mısırununu ve 700 ml sıcak tavuk suyunu kademeli olarak ekleyerek yumuşak bir hamur yoğurun. Kalan 30 ml achiote yağını ekleyip rengi eşitleyin. Hamur yapışkansa biraz daha mısır unu, sertse biraz su ekleyin. 10 dakika dinlendirin.",
+   "Mısır unu ve 700 ml sıcak tavuk suyunu kademeli olarak ekleyerek yumuşak bir hamur yoğurun. Kalan 30 ml achiote yağını ekleyip rengi eşitleyin. Hamur yapışkansa biraz daha mısır unu, sertse biraz su ekleyin. 10 dakika dinlendirin.",
    "Muz yapraklarını silin, 30x30 cm'lik parçalara kesin ve sıcak suda ya da alevde yumuşayana kadar ısıtın. Her yaprağa çok az yağ sürüp kurulayın.",
-   "Her yaprağın ortasına yaklaşık 100 g hamuru 10x10 cm'lik bir kare halinde yayın. Ortasına bir kaşık dolgu koyun ve hamuru dolgunun üzerine doğru çekerek sarın.",
+   "Her yaprağın ortasına yaklaşık 170 g hamuru 10x10 cm'lik bir kare halinde yayın. Ortasına bir kaşık dolgu koyun ve hamuru dolgunun üzerine doğru çekerek sarın.",
    "Yaprağı dikdörtgen şeklinde katlayın, uçlarını kapatın ve mutfak ipiyle bağlayın. Tüm tamalleri aynı şekilde hazırlayın.",
    "Büyük bir tencerede tamalleri su ile tamamen kaplanacak şekilde yerleştirin. Kaynayınca ateşi kısın ve yaklaşık 60 dakika haşlayın; gerekirse su ekleyin.",
    "Tamalleri süzün ve 10 dakika dinlendirin. İpleri çözüp yaprağın içinde servis yapın."
@@ -85,7 +85,7 @@
    "Make the dough: Beat the lard and salt with an electric mixer for 3-4 minutes until pale and fluffy.",
    "Gradually add the masa flour and 700 ml warm chicken broth, mixing to a soft dough. Add the remaining 30 ml annatto oil and mix until the colour is even. If the dough is sticky, add a little more masa flour; if it is stiff, add a splash of water. Rest for 10 minutes.",
    "Wipe the banana leaves, cut them into 30x30 cm pieces and soften them in hot water or over a flame until pliable. Lightly oil each leaf and pat dry.",
-   "Spread about 100 g of dough into a 10x10 cm square in the centre of each leaf. Make a well, place a spoonful of filling inside, then fold the dough over the filling.",
+   "Spread about 170 g of dough into a 10x10 cm square in the centre of each leaf. Make a well, place a spoonful of filling inside, then fold the dough over the filling.",
    "Fold the leaf into a rectangular parcel, close the ends and tie with kitchen twine. Repeat with the remaining tamales.",
    "Place the tamales in a large pot and cover them completely with water. When it boils, lower the heat and simmer for about 60 minutes, adding water as needed.",
    "Drain the tamales and rest them for 10 minutes. Untie and serve in the leaves."
@@ -95,5 +95,14 @@
   "tr": "Hamur ideal kıvamda olduğunda yumuşak bir oyun hamuru gibi olmalı ve ellere yapışmamalıdır; dolgu tamamen soğumadan hamura konursa hamur ıslanır ve dağılabilir.",
   "en": "The dough should feel like soft modelling clay and not stick to your hands; always let the filling cool completely, otherwise the masa becomes soggy and may tear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough quantity doesn't match the batch: 500 g masa harina, 180 g lard and 700 ml broth make roughly 1.3-1.4 kg of dough, but step 8 uses only about 100 g per tamal (about 800 g for 8). Each tamal shou",
+   "Turkish step 6 has a typo: 'Mısırununu' should be 'Mısır unu'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

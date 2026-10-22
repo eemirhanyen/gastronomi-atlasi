@@ -9,7 +9,7 @@
   "en": "Small, crisp-skinned fried yeast dough balls soaked in honey syrup and served warm. They are a classic street-fair and festival treat in Greece and Cyprus, often sprinkled with cinnamon and crushed walnuts."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -72,8 +72,17 @@
   ]
  },
  "tip": {
-  "tr": "Hamur çok sıkı olmamalı; kaşıkla bırakılabilecek kadar yumuşak olmalıdır. Kaşığı her seferinde yağa batırmak, hamurun kaşıktan kolay ayrılmasını sağlar.",
+  "tr": "Hamur çok sıkı olmamalı; kaşıkla bırakılabilecek kadar yumuşak olmalıdır. Hamur çok sıkıysa biraz su ekleyin. Kaşığı her seferinde yağa batırmak, hamurun kaşıktan kolay ayrılmasını sağlar.",
   "en": "The dough should be soft and sticky enough to drop from a spoon; if it is too stiff, add a splash of water. Dipping the spoon in oil before each scoop stops the dough from sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip mismatch: the English tip says to add a splash of water if the dough is too stiff, but the Turkish tip omits this advice.",
+   "time_min is 60, which only covers the 1-hour proof. Adding the syrup, dough prep and frying brings the total to about 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

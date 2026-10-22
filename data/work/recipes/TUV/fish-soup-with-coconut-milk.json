@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g beyaz balık filetosu (kırmızı levrek veya ton balığı), büyük parçalar halinde doğranmış",
+   "600 g beyaz balık filetosu (kırmızı levrek veya benzeri beyaz et balığı), büyük parçalar halinde doğranmış",
    "400 g taro kökü, soyulmuş ve küp doğranmış",
    "1 orta boy soğan, ince dilimlenmiş",
    "2 diş sarımsak, ezilmiş",
@@ -24,11 +24,11 @@
    "400 ml hindistan cevizi sütü",
    "1 çay kaşığı tuz (tadına göre ayarlanır)",
    "1/2 çay kaşığı taze çekilmiş karabiber",
-   "1 limonun suyu",
+   "1 misket limonunun suyu",
    "1 dal taze yeşil soğan, ince doğranmış"
   ],
   "en": [
-   "600 g white fish fillets (snapper or tuna), cut into large chunks",
+   "600 g white fish fillets (snapper or similar), cut into large chunks",
    "400 g taro, peeled and cut into cubes",
    "1 medium onion, thinly sliced",
    "2 garlic cloves, crushed",
@@ -50,7 +50,7 @@
    "Suyu ve küp doğranmış taroyu ekleyin. Kaynatın, ardından ateşi kısıp taro neredeyse yumuşayana kadar yaklaşık 15 dakika pişirin.",
    "Hindistan cevizi sütünü ekleyip ateşi orta-düşük seviyeye ayarlayın. Sütün kaynayıp ayrışmaması için hafif kaynar halde yaklaşık 5 dakika pişirin.",
    "Balık parçalarını, tuzu ve karabiberi ekleyin. Balık parçalar halinde kolayca ayrılana kadar yaklaşık 6-8 dakika nazikçe pişirin, karıştırmaktan kaçının ki balık dağılmasın.",
-   "Ocaktan almadan önce limon suyunu ekleyin, tadına bakıp gerekirse tuz ayarlayın.",
+   "Ocaktan almadan önce misket limonu suyunu ekleyin, tadına bakıp gerekirse tuz ayarlayın.",
    "Çorbayı kaselere alın, üzerine doğranmış taze yeşil soğanı serpip sıcak servis yapın."
   ],
   "en": [
@@ -67,5 +67,14 @@
   "tr": "Hindistan cevizi sütünü sert kaynatmayın; aksi halde yağ ayrılır ve çorba kesilir. Balığı en son ekleyip nazikçe pişirmek, parçaların dağılmasını önler.",
   "en": "Never let the coconut milk boil hard, or it may separate and turn grainy. Adding the fish last and simmering gently keeps the pieces intact."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish fish ingredient says 'beyaz balık' (white fish) but lists tuna (ton balığı) as an option. Tuna is not a white fish, so the ingredient is contradictory.",
+   "Turkish says 'limon' (lemon) while the English says 'lime'. In Turkish, 'limon' means lemon, so the two versions disagree. Turkish should specify 'misket limonu' (lime)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

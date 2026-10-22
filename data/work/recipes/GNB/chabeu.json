@@ -6,7 +6,7 @@
  "native": "Chabéu",
  "desc": {
   "tr": "Gine-Bissau'nun ulusal yemeği sayılan, palmiye yağında pişmiş balıklı ve sebzeli bir pilavdır. Genellikle öğle yemeğinde aile sofralarında ve kutlamalarda, sıcak servis edilir.",
-  "en": "Chabéu is considered Guinea-Bissau's national dish: a rice cooked in palm oil and fish broth with fish and vegetables. It is typically served hot at family lunches and celebrations."
+  "en": "Chabéu is considered Guinea-Bissau's national dish: rice cooked in palm oil with vegetables and a light broth, served with fried fish. It is typically served hot at family lunches and celebrations."
  },
  "servings": 4,
  "time_min": 60,
@@ -22,7 +22,7 @@
    "2 domates, rendelenmiş",
    "1 acı biber (scotch bonnet veya küçük acı biber), bütün",
    "1 defne yaprağı",
-   "5 g kuru kekik",
+   "2 g kuru kekik",
    "1 litre su",
    "1 patlıcan (yaklaşık 250 g), küp doğranmış",
    "200 g lahana, kaba doğranmış",
@@ -40,7 +40,7 @@
    "2 tomatoes, grated",
    "1 hot chili (scotch bonnet or small hot chili), whole",
    "1 bay leaf",
-   "5 g dried thyme",
+   "2 g dried thyme",
    "1 litre water",
    "1 eggplant (about 250 g), cut into cubes",
    "200 g cabbage, roughly chopped",
@@ -52,7 +52,7 @@
  "steps": {
   "tr": [
    "Balık parçalarını limon suyu, tuz, karabiber ve ezilmiş sarımsağın yarısıyla karıştırın. Oda sıcaklığında 15 dakika marine edin.",
-   "Büyük bir tencerede 30 ml palmiye yağını orta-yüksek ateşte ısıtın. Balıkları her iki yüzü hafifçe kızarana kadar, yaklaşık 2 dakikada bir çevirerek kızartın. Çıkarıp bir kenara alın.",
+   "Büyük bir tencerede 30 ml palmiye yağını orta-yüksek ateşte ısıtın. Balıkları her iki yüzü hafifçe kızarana kadar, yüzey başına yaklaşık 2 dakika kızartın. Çıkarıp bir kenara alın.",
    "Aynı tencerede kalan 30 ml yağı ısıtın. Soğanları ekleyip yumuşayana ve hafif renk alana kadar yaklaşık 5 dakika kavurun.",
    "Kalan sarımsağı ve rendelenmiş domatesleri ekleyin, 3 dakika daha pişirin. Bütün acı biberi, defne yaprağını ve kekiği ekleyin.",
    "Suyu ekleyin ve kaynatın. Patlıcan, lahana, havuç ve bamyayı ekleyip kısık ateşte 15 dakika pişirin.",
@@ -74,8 +74,19 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci tencerenin dibine yapışmadan pişirmek için alt ısıyı düşük tutun ve pişerken kapağını açmayın; palmiye yağı yoksa biraz daha az tuzla ayçiçek yağı ile de aynı lezzete yakın bir sonuç alabilirsiniz.",
-  "en": "To keep the rice from sticking, use low heat and do not lift the lid while it cooks. If palm oil is unavailable, sunflower oil works, though the flavour will be milder."
+  "tr": "Pirinci tencerenin dibine yapışmadan pişirmek için ocağı kısık tutun ve pişerken kapağını açmayın. Palmiye yağı bulunamazsa ayçiçek yağı kullanılabilir; ancak lezzet biraz daha hafif olur.",
+  "en": "To keep the rice from sticking, use low heat and do not lift the lid while it cooks. If palm oil is unavailable, sunflower oil can be used, though the flavour will be somewhat milder."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dried thyme at 5 g is far too much for 4 servings; about 2 g is more plausible (TR and EN).",
+   "Frying time disagrees: TR says turn the fish about every 2 minutes, EN says about 2 minutes per side.",
+   "Tip disagrees: TR says sunflower oil gives a flavour close to the original, EN says it will be milder. The TR tip also suggests using less salt, which is unexplained.",
+   "EN description says the dish uses 'fish broth', but the recipe makes a vegetable broth from water and serves the fish fried on top."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

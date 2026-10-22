@@ -6,10 +6,10 @@
  "native": "Potato greens",
  "desc": {
   "tr": "Liberya'nın günlük yemeği olan bu koyu renkli, palm yağlı yemek, tatlı patates yapraklarının sığır eti ve tütsülenmiş balıkla uzun süre pişirilmesiyle yapılır. Genellikle pirinçle servis edilir ve ülke genelinde ev yemeklerinde, pazarlarda ve lokantalarda sık sık tüketilir.",
-  "en": "A everyday staple of Liberia, this deep green, palm oil-based dish is made by slowly cooking sweet potato leaves with beef and smoked fish. It is usually served over rice and eaten at home, in markets and in local eateries across the country."
+  "en": "An everyday staple of Liberia, this deep green, palm oil-based dish is made by slowly cooking sweet potato leaves with beef and smoked fish. It is usually served over rice and eaten at home, in markets and in local eateries across the country."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -71,5 +71,14 @@
   "tr": "Yaprakları pişirmeden önce 5 dakika kaynar suda haşlarsanız acılığı azalır ve daha yumuşak bir doku elde edersiniz.",
   "en": "Blanching the leaves in boiling water for 5 minutes before adding them reduces their bitterness and gives a softer texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the steps: about 40 min simmering the beef, roughly 15 min sautéing, 25-30 min cooking the greens and 5 min for the fish, so about 90 min plus rice",
+   "English description has a grammar error: 'A everyday' should be 'An everyday'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

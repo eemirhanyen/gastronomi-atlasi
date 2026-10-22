@@ -9,7 +9,7 @@
   "en": "A thick, meat-based sauce thickened with okra and served over rice or tô (a stiff porridge of millet or maize) for lunch or dinner across Mali. Soumbala, fermented locust bean, gives it its characteristic savoury depth."
  },
  "servings": 4,
- "time_min": 70,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,7 +47,7 @@
    "Domates salçasını ekleyip 2 dakika karıştırarak kavurun. Ardından rendelenmiş domatesleri ekleyin ve suyunu çekene kadar 8 dakika pişirin.",
    "Suyu ekleyin, ateşi kısın ve kapağı kapalı olarak et yumuşayana kadar yaklaşık 40 dakika pişirin. Gerekirse biraz daha su ekleyin.",
    "Bamyayı, bütün acı biberi ve soumbalayı (veya sebze suyu küpünü) ekleyin. Karıştırıp 12-15 dakika daha, bamya yumuşayıp sos kıvam alana kadar pişirin.",
-   "Tuz ve karabiberle tatlandırın. Acı biberi sosu bozmadan çıkarın veya kısmen ezerek servis edin. Pirinç ya da tô ile sıcak servis yapın."
+   "Tuz ve karabiberle tatlandırın. Acı biberi bozmadan çıkarın veya sosa ezerek karıştırıp daha acı bir tat için servis edin. Pirinç ya da tô ile sıcak servis yapın."
   ],
   "en": [
    "Trim the okra stems and slice the pods into thin rounds.",
@@ -63,5 +63,14 @@
   "tr": "Bamyayı son aşamada ekleyin ve fazla karıştırmayın; uzun pişirme sosu aşırı kayganlaştırır, kısa pişirme ise kıvamı zayıf bırakır.",
   "en": "Add the okra late and stir gently; overcooking makes the sauce too slimy, while undercooking leaves it thin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (70) is lower than the sum of the listed steps (about 85-90 minutes), so the total time is underestimated",
+   "Turkish step 7 says 'Acı biberi sosu bozmadan çıkarın', which means 'remove the chilli without spoiling the sauce'. The English says to remove the chilli without breaking it, or mash it in for more he"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

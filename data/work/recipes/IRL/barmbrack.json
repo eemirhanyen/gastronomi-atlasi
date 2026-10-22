@@ -72,8 +72,16 @@
   ]
  },
  "tip": {
-  "tr": "Geleneksel olarak ekmeğe pişirmeden önce yıkanmış küçük bir bez veya kağıt parçasına sarılmış sürprizler konur; bunları şekillendirme sırasında alta yerleştirin ve küçük çocuklara servis etmeden önce mutlaka uyarın.",
+  "tr": "Geleneksel olarak ekmeğe pişirmeden önce pişirme kağıdına sarılmış küçük sürprizler konur; bunları şekillendirmeden sonra ekmeğin altına yerleştirin ve özellikle küçük çocuklar yemeden önce yiyenleri mutlaka uyarın, çünkü boğulma tehlikesi oluşturabilirler.",
   "en": "Traditionally, small charms wrapped in baking paper were pushed into the underside of the loaf after shaping. If you add them, warn anyone eating it, especially children, as they can be a choking hazard."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip describes charms wrapped in a cloth or paper piece, while the English tip says they are wrapped in baking paper. The Turkish tip is aligned to the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

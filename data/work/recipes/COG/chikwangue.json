@@ -38,7 +38,7 @@
    "Macuna tuzu ekleyip elinizle iyice yoğurun; hamur pürüzsüz, sıkı ve hafif yapışkan olmalıdır.",
    "Muz yapraklarını sıcak su ile yumuşatın ya da alev üzerinde hafifçe geçirin. Kenarlarını kesip yaklaşık 30 x 25 cm'lik kareler elde edin.",
    "Hamurdan yaklaşık 150 g'lık parçalar koparın. Her birini yaprağın ortasına koyup sıkıca silindir şeklinde sarın, uçlarını katlayın ve iple bağlayın.",
-   "Büyük bir tencereye yerleştirilebilecek bir ara koyun, suyu kaynatın ve sarılmış çikvangeleri yerleştirin. Kapağı kapatıp yaklaşık 2 saat buharda pişirin; su azalırsa sıcak su ekleyin.",
+   "Büyük bir tencereye yerleştirilebilecek bir buhar sepeti veya ızgara koyun, suyu kaynatın ve sarılmış çikvangeleri yerleştirin. Kapağı kapatıp yaklaşık 2 saat buharda pişirin; su azalırsa sıcak su ekleyin.",
    "Pişen çikvangeleri ocaktan alın, tamamen soğumasını bekleyin. Soğuduktan sonra yaprağını açıp dilimleyerek servis yapın."
   ],
   "en": [
@@ -57,5 +57,13 @@
   "tr": "Fermantasyon süresini kısaltmayın; yeterince ekşi ve yumuşak manyok, hamurun doğru kıvam ve tadını verir. Pişirmeden önce bağların sıkı olduğundan emin olun ki hamur buharda dağılmasın.",
   "en": "Do not shorten the fermentation; well-soured, soft cassava gives the paste its correct texture and flavour. Tie the parcels firmly so the dough does not spread or split while steaming."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says \"bir ara koyun\", but \"ara\" means \"gap/interval\". The intended meaning is a steamer rack or basket, as in the English \"place a steamer rack above it\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

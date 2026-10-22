@@ -69,7 +69,7 @@
    "Ocağı kısın, tavada su kalmayana kadar yaklaşık 5 dakika pişirin. Bezelye, kişniş yaprağı, 3 g tuz, karabiber ve limon suyunu ekleyip karıştırın. Harcı tamamen soğumaya bırakın.",
    "Hamuru 12 eşit topa bölün. Her topu 15 cm çapında, çok ince bir daire halinde açın ve ikiye kesin.",
    "Yarım daireyi kendinize dönük tutup bir ucunu birleştirerek koni şekli verin. İçine 1 kaşık dolusu harç koyun.",
-   "Kapatma macununu parmağınızla kenarlara sürün, üç köşeyi birleştirip sıkıca kapatarak üçgen şekli verin. Kalan hamur ve harçla aynı işlemi tekrarlayın.",
+   "Un ve suyu pürüzsüz bir macun olacak şekilde karıştırın. Kapatma macununu parmağınızla kenarlara sürün, üç köşeyi birleştirip sıkıca kapatarak üçgen şekli verin. Kalan hamur ve harçla aynı işlemi tekrarlayın.",
    "Kızartma yağını derin bir tencerede 170°C'ye ısıtın. Samosaları partiler halinde 3-4 dakika, altın rengi ve gevrek olana kadar kızartın.",
    "Samosaları kağıt havluya alıp fazla yağını çekmesini bekleyin, sıcak servis yapın."
   ],
@@ -82,7 +82,7 @@
    "Lower the heat and simmer for about 5 minutes until no liquid remains in the pan. Stir in the peas, chopped coriander, 3 g salt, black pepper and lemon juice. Let the filling cool completely.",
    "Divide the dough into 12 equal balls. Roll each into a very thin 15 cm circle and cut it in half.",
    "Take one half-circle, bring the straight edges together to form a cone, and spoon in a tablespoon of filling.",
-   "Brush the edges with the sealing paste, then fold the top into a neat triangle and press firmly to seal. Repeat with the remaining dough and filling.",
+   "Mix the flour and water into a smooth paste. Brush the edges with the sealing paste, then fold the top into a neat triangle and press firmly to seal. Repeat with the remaining dough and filling.",
    "Heat the frying oil in a deep pan to 170°C. Fry the samosas in batches for 3-4 minutes until golden and crisp.",
    "Drain on kitchen paper to remove excess oil and serve hot."
   ]
@@ -91,5 +91,13 @@
   "tr": "Harcın tamamen soğumasını bekleyin; sıcak iç harç hamuru yırtar ve samosalar kızartırken açılır.",
   "en": "Let the filling cool completely before assembling; warm filling tears the pastry and can split the samosas open in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sealing paste (15 g flour + 15 ml water) is listed and used in step 9, but no step tells the cook how to prepare it. Both language versions need a preparation instruction."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

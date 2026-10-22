@@ -43,7 +43,7 @@
    "Geniş bir tencerede pirinci, 500 ml su ve bir tutam tuzla birlikte orta-yüksek ateşte kaynatın.",
    "Ateşi kısın ve pirinç suyunu neredeyse tamamen çekene kadar, yaklaşık 8 dakika pişirin.",
    "Sütü, tarçın çubuğunu ve limon kabuğu rendesini ekleyin. Karışımı kısık ateşte kaynatın.",
-   "Ara sıra karıştırarak 25-30 dakika pişirin. Pirinç yumuşayıp karışım kremsi bir kıvam alana kadar devam edin.",
+   "Sık sık karıştırarak 25-30 dakika pişirin. Pirinç yumuşayıp karışım kremsi bir kıvam alana kadar devam edin.",
    "Şekeri ve kuru üzümü ekleyip 5 dakika daha karıştırarak pişirin.",
    "Ocaktan almadan önce tarçın çubuğunu ve limon kabuğunu çıkarıp atın.",
    "Vanilya özünü karıştırın.",
@@ -65,5 +65,13 @@
   "tr": "Muhallebi tabanda yanmasın diye sık sık karıştırın; soğudukça kıvamı belirgin şekilde koyulaşır, bu yüzden biraz akışkan bırakıp soğutun.",
   "en": "Stir frequently so the bottom does not scorch; the pudding thickens noticeably as it cools, so take it off the heat slightly looser than you want it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says \"ara sıra\" (occasionally) while the English says \"stirring often\" and the tip says to stir frequently. The Turkish step should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

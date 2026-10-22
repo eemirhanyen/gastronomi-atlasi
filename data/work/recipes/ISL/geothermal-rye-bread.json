@@ -9,7 +9,7 @@
   "en": "A dense, slightly sweet rye bread traditionally baked by burying the dough in geothermally heated ground in areas such as Hveragerði and Laugarvatn. It is usually eaten at breakfast or with butter, cheese or smoked fish."
  },
  "servings": 4,
- "time_min": 250,
+ "time_min": 340,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Geleneksel yöntemde ekmek sıcak toprakta gömülü pişer; evde kapaklı tencere ve düşük fırın sıcaklığı bu uzun ve nemli pişirmeyi en iyi taklit eden yöntemdir.",
   "en": "Traditionally the bread bakes buried in hot ground; at home, a lidded pot and low oven heat best reproduce the long, moist baking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (250) does not match the steps: about 15 min prep, 195 min baking, 10 min resting in the pot, and at least 120 min resting before slicing totals roughly 340 min"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

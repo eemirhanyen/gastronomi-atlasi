@@ -17,7 +17,7 @@
    "3 büyük yumurta (yaklaşık 150 g)",
    "15 ml mirin",
    "5 ml açık renk soya sosu (usukuchi shoyu)",
-   "2 g tuz (küçük bir tutam)",
+   "1 g tuz (küçük bir tutam)",
    "80 g kemiksiz tavuk but eti",
    "2 adet taze shiitake mantarı (yaklaşık 60 g)",
    "40 g kamaboko (balık ezmesi, dilim dilim)",
@@ -29,7 +29,7 @@
    "3 large eggs (about 150 g)",
    "15 ml mirin",
    "5 ml light soy sauce (usukuchi shoyu)",
-   "2 g salt (a small pinch)",
+   "1 g salt (a small pinch)",
    "80 g boneless chicken thigh",
    "2 fresh shiitake mushrooms (about 60 g)",
    "40 g kamaboko (fish cake), thinly sliced",
@@ -40,28 +40,38 @@
  "steps": {
   "tr": [
    "Tavuk butunu 1 cm'lik küçük parçalara kesin. Shiitake mantarlarının saplarını çıkarıp şapkalarını ince dilimleyin.",
-   "Tavuk parçalarını ve mantarları 150 ml dashi ile birlikte küçük bir tencerede 2 dakika hafifçe kaynatın, süzün ve dört adet 150 ml'lik chawanmushi kasesine eşit olarak paylaştırın.",
+   "Tavuk parçalarını ve mantarları 150 ml dashi ile birlikte küçük bir tencerede orta-kısık ateşte, tavuk tamamen pişip içi beyazlaşana kadar (yaklaşık 4-5 dakika) hafifçe kaynatın, süzün ve dört adet 150 ml'lik chawanmushi kasesine eşit olarak paylaştırın.",
    "Yumurtaları bir kapta köpürtmeden çırpın. Kalan dashi, mirin, soya sosu ve tuzu ekleyip karıştırın.",
    "Karışımı ince elekten geçirerek hava kabarcıklarını ve yumurta telini ayırın. Böylece yüzeyi pürüzsüz kalır.",
-   "Yumurta karışımını kaselere, içindeki malzemelerin üzerine yavaşça dökün. Kabarcıkları çıkarmak için yüzeye bir kibrit veya ince bir çubukla dokunun.",
+   "Yumurta karışımını kaselere, içindeki malzemelerin üzerine yavaşça dökün. Kamaboko dilimlerini ve ginkgo tohumlarını da bu aşamada kaselere ekleyebilirsiniz. Kabarcıkları çıkarmak için yüzeye bir kibrit veya ince bir çubukla dokunun.",
    "Her kasenin üzerini alüminyum folyo ile kapatın veya kapaklarını koyun. Buharlı pişiriciyi veya büyük bir tencereyi kısık ateşte ısıtın; su 85°C civarında, hafif fokur fokur kaynasın.",
    "Kaseleri buharlı pişiriciye yerleştirin, kapağı kapatın ve kısık ateşte yaklaşık 12-15 dakika pişirin. Ortasına şiş batırıp berrak su çıkıyorsa ve üst yüzey sabitse hazırdır.",
-   "Kamaboko dilimlerini ve ginkgo tohumlarını kasenin içine ekleyin (dilerseniz pişirmeden önce de koyabilirsiniz). Mitsuba veya yeşil soğan ile süsleyip sıcak servis yapın."
+   "Mitsuba veya yeşil soğan ile süsleyip sıcak servis yapın."
   ],
   "en": [
    "Cut the chicken thigh into 1 cm pieces. Remove the shiitake stems and thinly slice the caps.",
-   "Simmer the chicken and mushrooms in 150 ml of the dashi for 2 minutes over low heat, then drain and divide evenly among four 150 ml chawanmushi cups.",
+   "Simmer the chicken and mushrooms in 150 ml of the dashi over medium-low heat for 4-5 minutes, until the chicken is fully cooked through and no longer pink, then drain and divide evenly among four 150 ml chawanmushi cups.",
    "Beat the eggs gently in a bowl without creating foam. Add the remaining dashi, mirin, soy sauce and salt, and stir to combine.",
    "Strain the mixture through a fine sieve to remove the chalazae and air bubbles, keeping the surface smooth.",
-   "Slowly pour the egg mixture into the cups over the ingredients. Pop any surface bubbles with a toothpick or match.",
+   "Slowly pour the egg mixture into the cups over the ingredients. Add the kamaboko slices and ginkgo nuts at this stage if using. Pop any surface bubbles with a toothpick or match.",
    "Cover each cup with aluminium foil or a lid. Heat a steamer or a large pot with a rack over low heat so the water stays around 85°C, just gently simmering.",
    "Place the cups in the steamer, cover, and steam over low heat for about 12-15 minutes until the custard is just set. A skewer inserted into the centre should release clear liquid.",
-   "Place the kamaboko slices and ginkgo nuts on top if not added earlier, garnish with mitsuba or spring onion, and serve hot."
+   "Garnish with mitsuba or spring onion and serve hot."
   ]
  },
  "tip": {
   "tr": "Kaynayan su yumurtayı kabartıp gözenekli yapar; suyu sürekli kısık ateşte fokur fokur tutun ve kapağı hafifçe aralık bırakarak buharı tahliye edin.",
   "en": "Boiling water makes the custard bubbly and porous; keep the water at a gentle simmer around 85°C and cover the cups to avoid condensation dripping onto the surface."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chicken safety: the thigh is only simmered for 2 minutes before steaming, which does not guarantee it is cooked through. The steaming water is held at about 85°C, so the chicken may stay undercooked i",
+   "Salt: 2 g is not 'a small pinch' (about 0.3-0.5 g). The quantity and description disagree.",
+   "Kamaboko is added only after steaming, which conflicts with the step-5 sequence and leaves it unheated for the custard. Its placement is acceptable only as an option; the step should say it is best pl"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

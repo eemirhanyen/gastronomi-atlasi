@@ -66,7 +66,7 @@
    "For the filling, combine the walnuts, 40 g sugar and cinnamon in a bowl.",
    "Heat a non-stick pan over medium-low heat without oil. Stir the batter, then pour about 2 tablespoons per pancake to make 8 cm rounds.",
    "Cook for 1-2 minutes, until the top is covered in bubbles and dry and the underside is pale. Do not flip. Transfer the pancakes to a tray to cool.",
-   "Spoon 1 tablespoon of filling onto the smooth, uncooked-looking side of each pancake. Fold in half and press the edges firmly to seal, keeping the bubbly side on the outside.",
+   "Spoon 1 teaspoon of filling onto the smooth, uncooked-looking side of each pancake. Fold in half and press the edges firmly to seal, keeping the bubbly side on the outside.",
    "Heat the frying oil to 170-180°C. Fry the filled qatayef for 1-2 minutes until golden. Lift onto a sieve to drain.",
    "Dip the hot qatayef into the cooled syrup for 20-30 seconds, drain, and serve warm or at room temperature."
   ]
@@ -75,5 +75,13 @@
   "tr": "Hamur çok akışkan olursa krepler yayılır ve kabarcık oluşmaz; gerekirse bir yemek kaşığı un ekleyin.",
   "en": "If the batter is too thin, the pancakes spread and won't bubble; add a spoonful of flour to thicken it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount mismatch: the Turkish step says 1 tatlı kaşığı (teaspoon), but the English step says 1 tablespoon. A teaspoon fits the batch size (about 750 g of batter for roughly 25 pancakes, filled "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

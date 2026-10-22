@@ -28,6 +28,7 @@
    "1 tatlı kaşığı tuz (zencefil sosu için)",
    "3 kırmızı acı biber, çekirdekleri alınmış",
    "1 diş sarımsak (acı sos için)",
+   "1 tutam tuz (acı sos için)",
    "1 yemek kaşığı limon suyu",
    "1 tatlı kaşığı şeker",
    "1 yemek kaşığı koyu soya sosu",
@@ -52,6 +53,7 @@
    "1 tsp salt (for ginger sauce)",
    "3 red chillies, deseeded",
    "1 clove garlic (for chilli sauce)",
+   "a pinch of salt (for chilli sauce)",
    "1 tbsp lime juice",
    "1 tsp sugar",
    "1 tbsp dark soy sauce",
@@ -66,13 +68,13 @@
    "Tavuğun içini ve dışını beyaz biber ve tuzla ovalayın.",
    "Büyük bir tencereye suyu, zencefil dilimlerini, yeşil soğanları ve 1 tatlı kaşığı tuzu koyup kaynatın.",
    "Tavuğu tencereye alın, suyun neredeyse tamamını örtecek şekilde ayarlayın ve tekrar kaynayınca ateşi kısın.",
-   "Tavuğu kısık ateşte yaklaşık 20 dakika haşlayın, ardından ocağı kapatıp kapağını örterek 20 dakika bekletin.",
+   "Tavuğu kısık ateşte yaklaşık 25 dakika haşlayın, ardından ocağı kapatıp kapağını örterek 20 dakika bekletin.",
    "Tavuğu çıkarın, bir kâseye 550 ml suyu süzerek ayırın ve yağını alın. Tavuğu soğuk suya alıp 2 dakika bekletin, sonra süzün.",
    "Pirinç için 60 ml yağı bir tencerede ısıtın, sarımsağı altın renge gelene kadar kavurun.",
    "Süzülmüş pirinci ekleyip 2 dakika karıştırarak taneleri yağla kaplayın.",
    "Pirinci 550 ml tavuk suyu, pandan yaprakları ve 1 tatlı kaşığı tuzla birlikte kapağı kapalı olarak kısık ateşte 15-18 dakika pişirin. Pişince 5 dakika dinlendirin, pandanları çıkarın.",
    "Zencefil sosu için rendelenmiş zencefili 1 tatlı kaşığı tuzla karıştırın, kalan 20 ml yağı kızdırıp üzerine dökün ve iyice karıştırın.",
-   "Acı sos için kırmızı biberleri, sarımsağı, limon suyunu, şekeri ve tuzu blenderdan geçirin.",
+   "Acı sos için kırmızı biberleri, sarımsağı, limon suyunu, şekeri ve bir tutam tuzu blenderdan geçirin.",
    "Koyu soya sosunu susam yağıyla karıştırın.",
    "Tavuğu parçalara ayırın, pirinci, salatalık dilimlerini, kişnişi ve soslarla birlikte servis edin. Yanında sıcak tavuk suyunu da ikram edin."
   ],
@@ -80,7 +82,7 @@
    "Rub the chicken inside and out with white pepper and salt.",
    "Bring the water, ginger slices, spring onions and 1 tsp salt to the boil in a large pot.",
    "Add the chicken, adjusting the water so it just covers the bird, and bring back to the boil, then reduce to a gentle simmer.",
-   "Poach the chicken over low heat for about 20 minutes, then turn off the heat, cover and let it rest in the water for 20 minutes.",
+   "Poach the chicken over low heat for about 25 minutes, then turn off the heat, cover and let it rest in the water for 20 minutes.",
    "Remove the chicken. Strain 550 ml of the poaching liquid into a bowl and skim off the fat. Place the chicken in cold water for 2 minutes, then drain.",
    "For the rice, heat 60 ml oil in a pot and fry the minced garlic until golden.",
    "Add the drained rice and stir for 2 minutes so the grains are coated in oil.",
@@ -95,5 +97,14 @@
   "tr": "Tavuğu haşladıktan sonra soğuk suda bekletmek derisini gevrek ve jölemsi yapar; pirinci de tavuk suyuyla pişirmek Hainan pirincine has aromasını verir.",
   "en": "Chilling the poached chicken briefly in cold water gives the skin its characteristic smooth, springy texture, and cooking the rice in chicken broth is what gives the dish its authentic flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Chilli sauce uses a pinch of salt (EN step 10), but no salt is listed for it in either ingredient list. The Turkish step only says \"tuzu\" with no amount, and the EN says \"a pinch of salt\".",
+   "A 1300 g whole chicken simmered for only about 20 minutes plus 20 minutes resting is borderline for reaching a safe internal temperature. Extending the simmer to about 25 minutes is safer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

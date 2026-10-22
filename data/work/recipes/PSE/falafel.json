@@ -58,9 +58,9 @@
    "Şekillendirmeden hemen önce karbonatı ekleyip karıştırın. Karışımdan cevizden biraz büyük toplar veya yassı köfteler yapın.",
    "Yağı derin bir tencerede 180 °C'ye kadar ısıtın. Falafelleri partiler halinde, 3-4 dakika, koyu altın rengi olana kadar kızartın.",
    "Kızaran falafelleri kağıt havluya alıp yağını süzdürün.",
-   "Tahini, limonun suyunun yarısı ve suyu bir kasede pürüzsüz olana kadar çırpın; gerekirse kıvamı ayarlayın.",
+   "Tahini, limonun suyunun yarısı ve 80 ml suyu bir kasede pürüzsüz olana kadar çırpın; gerekirse kıvamı ayarlayın.",
    "Domatesleri ince dilimleyin. Pita ekmeklerini ısıtın, yarısından kesip cep açın.",
-   "Her cebe birkaç falafel, domates dilimleri ve tahin sosu koyup sıcak servis yapın."
+   "Her cebe birkaç falafel, domates dilimleri ve tahin sosu koyup sıcak servis yapın. Kalan yarım limonun suyunu servis öncesi falafellerin üzerine sıkın."
   ],
   "en": [
    "Soak the chickpeas in plenty of water for 12 hours, drain them and dry thoroughly with kitchen paper.",
@@ -70,14 +70,23 @@
    "Just before shaping, add the baking soda and mix well. Form the mixture into balls about the size of a walnut or flatten them into small patties.",
    "Heat the oil in a deep pan to 180 °C. Fry the falafel in batches for 3-4 minutes until deep golden brown.",
    "Lift the fried falafel out and drain them on kitchen paper.",
-   "Whisk the tahini, half of the lemon juice and the water in a bowl until smooth; adjust the consistency as needed.",
+   "Whisk the tahini, half of the lemon juice and the 80 ml water in a bowl until smooth; adjust the consistency as needed.",
    "Slice the tomatoes thinly. Warm the pita breads and cut each one in half to make a pocket.",
-   "Fill each pocket with a few falafel, tomato slices and tahini sauce, then serve warm."
+   "Fill each pocket with a few falafel, tomato slices and tahini sauce, then serve warm. Squeeze the remaining half lemon over the falafel just before serving."
   ]
  },
  "tip": {
   "tr": "Konserve nohut kullanmayın; falafel dağılmaz ve içi yumuşak olur. Karışımı çok ezmeyin, aksi halde yağda dağılır.",
   "en": "Use dried chickpeas, not canned, so the falafel holds its shape and keeps a soft centre. Do not overprocess the mixture or it will fall apart in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The recipe lists 1 whole lemon, but the steps use only half of its juice in the tahini sauce and never say what happens to the other half.",
+   "The Turkish tahini step, \"limonun suyunun yarısı ve suyu\", is ambiguous because \"suyu\" could mean lemon juice or water. The English clearly means the 80 ml water, so the two versions do not fully agre"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

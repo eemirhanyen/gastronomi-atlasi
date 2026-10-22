@@ -68,8 +68,16 @@
   ]
  },
  "tip": {
-  "tr": "Hamuru yağa dökmeden önce kıvamını kontrol edin; çok kalınsa su, çok akıcıysa un ekleyerek ayarlayın. Şerbet soğuk, mushabbak ise sıcak olmalıdır ki şerbeti iyi çeksin.",
-  "en": "Check the batter before frying: add a little water if it is too thick or a little flour if it runs too freely. The syrup should be cool and the fried pieces hot so the syrup soaks in well."
+  "tr": "Hamuru yağa dökmeden önce kıvamını kontrol edin; çok kalınsa su, çok akıcıysa un ekleyerek ayarlayın. Şerbet ılık, mushabbak ise sıcak olmalıdır ki şerbeti iyi çeksin.",
+  "en": "Check the batter before frying: add a little water if it is too thick or a little flour if it runs too freely. The syrup should be warm and the fried pieces hot so the syrup soaks in well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip says the syrup should be cool, but step 8 dips the mushabbak into syrup that is still warm (\"hâlâ ılık olan\" / \"warm syrup\"). The tip in both languages should match the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

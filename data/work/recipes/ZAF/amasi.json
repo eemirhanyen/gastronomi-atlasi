@@ -9,7 +9,7 @@
   "en": "A naturally fermented sour milk drink from South Africa, especially common among the Xhosa and Zulu peoples. Traditionally made in gourd vessels, it is enjoyed daily and at breakfast, often served alongside maize porridge (pap)."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 1560,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,5 +47,13 @@
   "tr": "Starter olarak taze ve canlı kültürlü bir ürün kullanın; sütü ısıtıp soğutmak bakteri dengesini sağlamada kritik olduğu için sıcaklığı termometreyle kontrol edin.",
   "en": "Use fresh yogurt with live cultures, and check the milk temperature with a thermometer; a precise 40-45 °C cooling step is what gives the starter the best chance to take hold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe includes 18-24 hours of fermentation plus at least 4 hours of chilling, so the total time is misstated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

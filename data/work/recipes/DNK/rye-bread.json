@@ -40,7 +40,7 @@
  "steps": {
   "tr": [
    "Bir gün önce çavdar kerpetini 120 ml suyla kaplayıp oda sıcaklığında 12 saat ıslatın.",
-   "Ekşi mayayı baktan 8-12 saat önce taze çavdar unuyla besleyin ki aktif olsun.",
+   "Karıştırmadan 8-12 saat önce ekşi mayayı taze çavdar unuyla besleyerek aktif hale getirin.",
    "Büyük bir kasede ekşi mayayı 180 ml ılık suyla iyice karıştırın.",
    "Kaba çavdar unu, tuzu ve ıslatılmış kerpeti (kalan suyuyla birlikte) ekleyip ıslak bir spatulayla yapışkan, yoğun bir hamur elde edin.",
    "Ayçiçeği tohumu, keten tohumu ve susamı ekleyip homojen olana kadar karıştırın.",
@@ -71,5 +71,13 @@
   "tr": "Rugbrød, dinlendirildikçe lezzetlenir; kesmeden önce en az bir gün beklemek hem dilimlemeyi kolaylaştırır hem de ekşi tadı dengeler.",
   "en": "Rugbrød improves with rest: waiting at least a day before slicing makes it easier to cut and balances the tangy flavour. Note that the overnight soak and resting time are not included in the 60-minute hands-on time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 contains a meaningless phrase, \"baktan 8-12 saat önce\", and the clause \"ki aktif olsun\" is unnatural. The English version is correct, so the two versions no longer match in meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

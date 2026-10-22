@@ -16,7 +16,7 @@
    "250 g iri öğütülmüş mısır unu (polenta)",
    "1200 ml su",
    "5 g ince tuz",
-   "40 g tereyağı",
+   "40 g tuzsuz tereyağı",
    "60 g rendelenmiş Parmigiano Reggiano"
   ],
   "en": [
@@ -47,5 +47,13 @@
   "tr": "Mısır unu ilk eklendiğinde sürekli çırpın; karışım fazla koyulaşırsa kıvamını açmak için az miktarda sıcak su ekleyin.",
   "en": "Whisk continuously when adding the cornmeal; if the polenta becomes too thick, loosen it with a splash of hot water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list omits 'tuzsuz' (unsalted) for the butter, while the English version specifies 'unsalted butter'. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

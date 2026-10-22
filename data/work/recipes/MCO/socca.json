@@ -5,7 +5,7 @@
  },
  "native": "Niçois / Nissart (Nice, Monaco)",
  "desc": {
-  "tr": "Nice ve Monako'da sokak satıcılarından ve bistrolardan tanınan, nohut unundan yapılan ince, çıtır bir krep. Genellikle öğle vakti ya da aperatif olarak, sıcak ve taze servis edilir.",
+  "tr": "Nice ve Monako'da sokak satıcılarından ve bistrolardan tanınan, nohut unundan yapılan ince, çıtır bir krep. Genellikle öğle vakti ya da aperitif olarak, sıcak ve taze servis edilir.",
   "en": "A thin, crisp chickpea flour pancake from Nice, sold by street vendors and served in bistros across the Riviera, including Monaco. It is usually eaten hot and fresh, often at lunchtime or as an aperitif snack."
  },
  "servings": 4,
@@ -30,18 +30,18 @@
  "steps": {
   "tr": [
    "Büyük bir kapta nohut unu ile tuzu karıştırın. Çırparak suyu yavaş yavaş ekleyin ki topaklanmasın.",
-   "Karabiberi ekleyip hamuru çırpın. Kaba bir temiz bez örtün ve oda sıcaklığında en az 2 saat dinlenmeye bırakın. Yüzeyde oluşan köpüğü kaşıkla alın.",
+   "Karabiberi ekleyip hamuru çırpın. Temiz bir bezle örtün ve oda sıcaklığında en az 2 saat dinlenmeye bırakın. Yüzeyde oluşan köpüğü kaşıkla alın.",
    "Fırını en yüksek ısıya, yaklaşık 250 °C'ye ayarlayın. 28 cm'lik iki dökme demir ya da çelik tavayı fırının içinde 20 dakika ısıtın.",
-   "Tavaları fırından çıkarıp her birine 30 ml zeytinyağı gezdirin. Hamurun yarısını her tavaya dökün ve yüzeyi düzleyin; kalınlık yaklaşık 5 mm olsun.",
+   "Tavaları fırından çıkarıp her birine 30 ml zeytinyağı gezdirin. Hamurun yarısını her tavaya dökün ve yüzeyi düzleyin; kalınlık yaklaşık 7 mm olsun.",
    "Tavaları hemen fırına geri koyun ve 10-15 dakika pişirin. Kenarlar kahverengileşip çıtırlaşmalı, yüzeyde koyu lekeler oluşmalıdır. Gerekirse son birkaç dakika ızgara modunda kısa süre tutun.",
    "Soccayı tavadan kesmeden önce kenarlarını bir spatulayla gevşetin. Kalan 30 ml zeytinyağını yüzeyine gezdirin ve üzerine biraz karabiber serpin.",
-   "Sıcakken dilimleyin ve hemen servis yapın. Gerekirse ikinci tavadaki hamurla aynı işlemi tekrarlayın."
+   "Sıcakken dilimleyin ve hemen servis yapın. Gerekirse kalan hamurla aynı işlemi tekrarlayın."
   ],
   "en": [
    "In a large bowl, whisk the chickpea flour and salt together. Gradually add the water while whisking to prevent lumps.",
    "Stir in the black pepper. Cover the bowl with a clean cloth and let the batter rest at room temperature for at least 2 hours. Skim off any foam from the surface with a spoon.",
    "Heat the oven to its highest setting, about 250°C. Place two 28 cm cast iron or steel pans inside and heat them for 20 minutes.",
-   "Remove the pans from the oven and brush each with 30 ml of olive oil. Pour half the batter into each pan and spread it evenly to about 5 mm thick.",
+   "Remove the pans from the oven and brush each with 30 ml of olive oil. Pour half the batter into each pan and spread it evenly to about 7 mm thick.",
    "Return the pans to the oven and bake for 10 to 15 minutes, until the edges are browned and crisp and the surface has dark spots. If needed, finish for a minute or two under the grill.",
    "Loosen the edges of the socca with a spatula. Drizzle the remaining 30 ml of olive oil over the top and sprinkle with a little black pepper.",
    "Cut into wedges and serve immediately while hot. Repeat with the remaining batter if you are cooking in batches."
@@ -51,5 +51,15 @@
   "tr": "İpucu: Hamurun dinlenmesi lezzet ve kıvam için önemlidir; en az 2 saat bekletin. Tavayı iyice ısıtmak ise kenarların çıtır olmasını sağlar.",
   "en": "Tip: Letting the batter rest for at least 2 hours improves flavour and texture. A thoroughly preheated pan is what gives the edges their crisp, blistered finish."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2: \"Kaba bir temiz bez\" is unnatural (\"kaba\" means coarse); it should be \"temiz bir bez\".",
+   "Thickness: each 28 cm pan receives about 425 ml of batter (850 ml total / 2), which spreads to roughly 7 mm, not 5 mm.",
+   "Turkish step 7 says \"ikinci tavadaki hamur\" (the batter in the second pan), while the English says \"remaining batter\" for batches. The two versions should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

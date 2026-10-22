@@ -24,14 +24,14 @@
    "1 çay kaşığı kimyon",
    "1 çay kaşığı karabiber",
    "1,5 litre sıcak su",
-   "Tuz",
+   "Tuz (tadına göre)",
    "1 adet kırmızı acı biber (isteğe bağlı, ince doğranmış)",
    "Bir avuç taze kişniş ve dereotu (doğranmış)",
    "Hamur için: 400 g un, 200 ml ılık su, 5 g tuz, 10 ml bitkisel yağ",
    "Servis için: 1 yemek kaşığı bitkisel yağ"
   ],
   "en": [
-   "500 g beef or lamb (shoulder or leg, cut into cubes)",
+   "500 g beef or lamb (brisket or leg, cut into cubes)",
    "60 ml vegetable oil",
    "2 medium onions (300 g, diced)",
    "2 medium carrots (250 g, cut into thin julienne)",
@@ -42,7 +42,7 @@
    "1 teaspoon ground cumin",
    "1 teaspoon black pepper",
    "1.5 litres hot water",
-   "Salt",
+   "Salt (to taste)",
    "1 red chili (optional, finely chopped)",
    "A handful of fresh cilantro and dill (chopped)",
    "For the dough: 400 g flour, 200 ml lukewarm water, 5 g salt, 10 ml vegetable oil",
@@ -77,5 +77,14 @@
   "tr": "Hamuru yeterince dinlendirmek erişteleri daha kolay uzatmanızı sağlar; zaman kısıtlıysa 400 g kalın yumurtalı taze erişte de kullanabilirsiniz.",
   "en": "Resting the dough well makes the noodles much easier to stretch; if short on time, 400 g of thick fresh egg noodles can be used instead."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed without a quantity in both the Turkish and English ingredient lists (\"Tuz\" / \"Salt\"), which is a missing unit/amount.",
+   "Meat cut mismatch: the Turkish says \"göğüs\" (brisket/chest) but the English says \"shoulder\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

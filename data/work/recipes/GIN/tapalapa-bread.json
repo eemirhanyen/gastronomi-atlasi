@@ -5,7 +5,7 @@
  },
  "native": "Pain tapalapa",
  "desc": {
-  "tr": "Gine'nin başkent Conakry başta olmak üzere şehirlerinde kahvaltıda ve öğleden sonra atıştırmalığı olarak yenen, hafif tatlı, yumuşak içli bir somun ekmeğidir. Genellikle sıcak kahve, süt ya da tereyağıyla servis edilir.",
+  "tr": "Gine'nin başkenti Conakry başta olmak üzere şehirlerinde kahvaltıda ve öğleden sonra atıştırmalığı olarak yenen, hafif tatlı, yumuşak içli bir somun ekmeğidir. Genellikle sıcak kahve, süt ya da tereyağıyla servis edilir.",
   "en": "A soft, lightly sweet bread served at breakfast and as an afternoon snack, especially in Conakry and other Guinean cities. It is usually eaten warm with coffee, milk, or butter."
  },
  "servings": 4,
@@ -61,5 +61,13 @@
   "tr": "Mayalanma süresinde hamuru çok sıcak bir yere koymayın; aşırı ısı hamurun hızla şişip sönmesine ve ekmeğin sert çıkmasına neden olabilir.",
   "en": "Avoid placing the dough somewhere too hot during rising; excessive heat can make it over-proof and collapse, leaving the bread dense."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a grammar error: \"Gine'nin başkent Conakry\" should use the possessive \"başkenti\" (Gine'nin başkenti Conakry)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

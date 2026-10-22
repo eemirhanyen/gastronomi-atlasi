@@ -5,11 +5,11 @@
  },
  "native": "Ταραμοσαλάτα",
  "desc": {
-  "tr": "Tuzlu balık yumurtasından (tarama) yapılan, pembe ya da gri renkli, limonlu ve kremamsı bir meze. Yunanistan'da Ruh Yortusu (Pentikosti) ve Büyük Perşembe gibi oruç ve bayram sofralarında, özellikle Paskalya ve Atina'daki meyhanelerde sıkça servis edilir.",
+  "tr": "Tuzlu balık yumurtasından (tarama) yapılan, pembe ya da gri renkli, limonlu ve kremamsı bir meze. Yunanistan'da Ruh Yortusu (Pentikost) ve Büyük Perşembe gibi oruç ve bayram sofralarında, özellikle Paskalya ve Atina'daki meyhanelerde sıkça servis edilir.",
   "en": "A creamy, lemony meze made from salted fish roe (tarama), with a pale pink or grey colour. It is served on Greek tables and in tavernas, especially around Lent and Easter, and is traditionally eaten with bread or pita."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 50,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -37,7 +37,7 @@
    "Soğanı çok ince rendeleyin ya da küçük parçalara ayırın.",
    "Tarama, sıkılmış ekmek ve soğanı mutfak robotuna koyun, 30 saniye kadar çekin.",
    "Makine çalışırken zeytinyağını çok ince bir sızma halinde ekleyin. Kıvam açıldıkça arada limon suyunu da ekleyerek pürüzsüz, kremamsı bir macun elde edin.",
-   "Tadına bakın; gerekirse biraz daha limon suyu ekleyin. Pembe rengi çok koyuysa birkaç damla daha zeytinyağı ile yumuşatın.",
+   "Tadına bakın; gerekirse biraz daha limon suyu ekleyin. Kıvam çok koyu ya da ağırsa birkaç damla zeytinyağı veya soğuk su ile açın.",
    "Kapağı kapatıp buzdolabında en az 30 dakika dinlendirin. Servis öncesi pideleri ısıtıp dilimleyerek yanında sunun."
   ],
   "en": [
@@ -45,7 +45,7 @@
    "Grate the onion very finely or cut it into very small pieces.",
    "Put the tarama, squeezed bread and onion into a food processor and blend for about 30 seconds.",
    "With the processor running, add the olive oil in a very thin stream. As the mixture loosens, alternate with lemon juice until you have a smooth, creamy paste.",
-   "Taste and add more lemon juice if needed. If the mixture is too dark or heavy, loosen it with a few drops of olive oil.",
+   "Taste and add more lemon juice if needed. If the mixture is too thick or heavy, loosen it with a few drops of olive oil or cold water.",
    "Cover and refrigerate for at least 30 minutes to chill and firm up. Warm the pita breads, cut them into wedges and serve alongside."
   ]
  },
@@ -53,5 +53,14 @@
   "tr": "Tarama tuzlu olduğu için tuz eklemeden önce mutlaka tadına bakın; dinlenince tat yoğunlaşır, bu yüzden sonunda ayarlamak en güvenlisidir.",
   "en": "Taste before adding any salt, as tarama is already very salty, and let the salad rest in the fridge before final seasoning because the flavour intensifies as it chills."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to add olive oil if the colour is too dark, but oil does not change colour. The English version says the mixture is 'too dark or heavy', so the two versions disagree and the Turkis",
+   "time_min is 20, but the recipe includes a 5-minute soak and at least 30 minutes of chilling, so the total time is understated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

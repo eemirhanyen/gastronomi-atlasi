@@ -9,7 +9,7 @@
   "en": "Qurut is a hard, long-keeping snack made by straining and salting yogurt, shaping it into balls, and drying them until firm. It is traditionally prepared in summer, especially in Afghanistan and among Turkic communities of Central Asia, and stored for winter use."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 10080,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -32,7 +32,7 @@
    "Süzülmüş yoğurdu bir kaseye alın, tuzu ekleyip kaşıkla iyice karıştırın.",
    "Ellerinizi suya batırıp nemlendirin. Yoğurttan yaklaşık 30 g ağırlığında, ceviz büyüklüğünde toplar şekillendirin; toplamda yaklaşık 20 top elde edeceksiniz.",
    "Topları temiz bir tel ızgaraya dizin, hava akımı olan gölgeli ve serin bir yerde 1 ila 2 gün bekletin, yüzeyleri sertleşince bir kez çevirin.",
-   "Dış kısımları sertleşen topları fırında 50°C'de, kapağı hafif aralık bırakarak 6 ila 8 saat kurutun. Ardından tamamen sert olana kadar 3 ila 5 gün havada kurumaya bırakın."
+   "Dış kısımları sertleşen topları fırında 50°C'de, kapısını hafif aralık bırakarak 6 ila 8 saat kurutun. Ardından tamamen sert olana kadar 3 ila 5 gün havada kurumaya bırakın."
   ],
   "en": [
    "Line a sieve with cheesecloth, place it over a bowl, and pour in the yogurt.",
@@ -44,8 +44,18 @@
   ]
  },
  "tip": {
-  "tr": "Yoğurdu ne kadar iyi süzerseniz kurutma o kadar hızlı ve düzgün olur; küfe karşı topları sık sık kontrol edin ve nemli bir kokuda hemen tekrar fırına alın.",
+  "tr": "Yoğurdu ne kadar iyi süzerseniz kurutma o kadar hızlı ve düzgün olur; küflenmeye karşı topları sık sık kontrol edin ve nemli bir kokuda hemen tekrar fırına alın.",
   "en": "The drier the yogurt before shaping, the faster and more even the drying; check the balls often for mould and return any damp ones to the oven immediately."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"kapağı hafif aralık bırakarak\" (lid); the English says \"door slightly ajar\" and the oven door is meant. The Turkish should say \"kapısını\".",
+   "time_min is 60, which reflects only hands-on time. The method takes 6-8 hours of straining, 1-2 days of air-drying, 6-8 hours in the oven, and 3-5 more days of drying, so the total is about 5-8 days. ",
+   "Turkish tip uses \"küfe karşı\", which is unnatural. \"küflenmeye karşı\" is the correct phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

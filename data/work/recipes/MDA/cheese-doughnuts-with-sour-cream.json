@@ -49,8 +49,8 @@
    "Yumurtayı, şekeri, tuzu, limon kabuğunu ve vanilya özütünü ekleyip iyice karıştırın.",
    "Unu, irmiği ve kabartma tozunu ayrı bir kapta karıştırın. Peynirli karışıma azar azar ekleyerek yumuşak ve hafif yapışkan bir hamur yoğurun. Çok yapışıyorsa biraz un ekleyin.",
    "Hamuru kapağını örterek 10 dakika dinlendirin.",
-   "Hamuru 8 eşit parçaya bölün. Her parçayı top haline getirip hafifçe bastırarak yaklaşık 8 cm çapında, 2 cm kalınlığında halka şekli verin. Ortasını parmağınızla ya da küçük bir kaşıkla açın.",
-   "Kızartma yağını derin bir tencerede yaklaşık 170 °C'ye kadar ısıtın. Halkaları 2-3'erli kızartmaya başlayın. Her yüzünü 2-3 dakika, altın rengi olana kadar kızartın.",
+   "Hamuru 8 eşit parçaya bölün. Her parçayı top haline getirip hafifçe bastırarak yaklaşık 6 cm çapında, 2 cm kalınlığında halka şekli verin. Ortasını parmağınızla ya da küçük bir kaşıkla açın.",
+   "Kızartma yağını derin bir tencerede yaklaşık 170 °C'ye kadar ısıtın. Halkaları 2-3'erli kızartmaya başlayın. Her yüzünü 3-4 dakika, altın rengi olana kadar kızartın.",
    "Kızarmış halkaları kağıt havlu üzerine alıp yağını süzdürün.",
    "Ilık servis yapın. Her birinin üzerine ekşi kremadan bir kaşık koyup reçel ekleyin ve pudra şekeri serpin."
   ],
@@ -59,8 +59,8 @@
    "Add the egg, sugar, salt, lemon zest and vanilla extract, and mix well.",
    "In a separate bowl, combine the flour, semolina and baking powder. Add gradually to the cheese mixture and knead into a soft, slightly tacky dough. If it sticks too much, add a little more flour.",
    "Cover the dough and rest it for 10 minutes.",
-   "Divide the dough into 8 equal pieces. Roll each into a ball, then flatten into a ring about 8 cm across and 2 cm thick. Make a hole in the centre with your finger or the end of a small spoon.",
-   "Heat the oil in a deep pan to about 170 °C. Fry the rings 2-3 at a time for 2-3 minutes per side, until golden brown.",
+   "Divide the dough into 8 equal pieces. Roll each into a ball, then flatten into a ring about 6 cm across and 2 cm thick. Make a hole in the centre with your finger or the end of a small spoon.",
+   "Heat the oil in a deep pan to about 170 °C. Fry the rings 2-3 at a time for 3-4 minutes per side, until golden brown and cooked through.",
    "Lift the fried rings onto kitchen paper to drain off excess oil.",
    "Serve warm. Top each with a spoonful of sour cream and a spoonful of jam, then dust with icing sugar."
   ]
@@ -69,5 +69,14 @@
   "tr": "Yağ sıcaklığını 170 °C civarında tutun; çok sıcak olursa dış kısım çabuk kararır ama içi çiğ kalır.",
   "en": "Keep the oil at about 170 °C; if it is too hot the outside browns quickly while the centre stays raw."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ring size does not match the dough weight: 8 pieces from about 450 g dough gives roughly 56 g each, which fits a ring about 6 cm across and 2 cm thick, not 8 cm (EN and TR).",
+   "Frying time of 2-3 minutes per side is likely too short for 2 cm thick rings. The centre may stay doughy, so the time should be 3-4 minutes per side (EN and TR)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

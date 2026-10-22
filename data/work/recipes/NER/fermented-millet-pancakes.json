@@ -40,7 +40,7 @@
    "Pirinç karışımını ve kalan 250 ml ılık suyu ekleyip ince bir krep hamuru kıvamı gelene kadar çırpın.",
    "Kabı temiz bir bezle örtün ve oda sıcaklığında yaklaşık 2 saat, yüzeyi kabarcıklanana kadar mayalanmaya bırakın.",
    "Yapışmaz bir tavayı orta ateşte ısıtın ve bir kâğıt havluyla hafifçe yağlayın.",
-   "Hamuru karıştırın, bir kepçe dolusunu tavanın ortasına dökün ve tavayı döndürerek yaymadan ince bir tabaka oluşturun.",
+   "Hamuru karıştırın, bir kepçe dolusunu tavanın ortasına dökün ve tavayı döndürerek hamuru yayıp ince bir tabaka oluşturun.",
    "Gözlemenin üst yüzeyi kuruyup küçük delikler oluşana kadar yaklaşık 2-3 dakika pişirin; çevresi hafifçe ayrılmaya başlayınca altı yeterlidir. Çevirmeyin.",
    "Kalan hamurla aynı işlemi tekrarlayın, her kepçeden önce hamuru karıştırmayı unutmayın.",
    "Sıcak gözlemeleri üst üste dizin, üzerine birer yemek kaşığı bal gezdirerek servis edin."
@@ -51,15 +51,24 @@
    "Add the rice mixture and the remaining 250 ml lukewarm water, then whisk until you have a thin pancake batter.",
    "Cover the bowl with a clean cloth and leave it at room temperature for about 2 hours, until the surface is bubbly and frothy.",
    "Heat a non-stick pan over medium heat and lightly grease it with the oil, wiping off the excess with kitchen paper.",
-   "Stir the batter, pour a ladleful into the centre of the pan and swirl the pan to spread it into a thin layer without spreading it too far.",
+   "Stir the batter, pour a ladleful into the centre of the pan and swirl the pan to spread it into a thin, even layer.",
    "Cook for about 2-3 minutes, until the top looks dry and has small holes and the edges start to lift. Do not flip it.",
    "Repeat with the remaining batter, stirring it before each ladleful and greasing the pan again when needed.",
    "Stack the warm pancakes and serve them drizzled with honey, one tablespoon per portion."
   ]
  },
  "tip": {
-  "tr": "Hamurun ekşi kokmadan tatlı bir mayalanma aroması vermesi için, mayalanma süresini sıcak bir mutfakta kısaltın veya serin bir yerde gece boyunca bekletin.",
+  "tr": "Hamurun ekşimsi olmayan, tatlımsı bir mayalanma aroması kazanması için, mayalanma süresini sıcak bir mutfakta kısaltın veya serin bir yerde gece boyunca bekletin.",
   "en": "For a milder, sweeter flavour, let the batter ferment overnight in a cool place; in a warm kitchen, two hours is usually enough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says 'tavayı döndürerek yaymadan ince bir tabaka oluşturun' ('form a thin layer without spreading it'), which contradicts its own purpose. The English says 'without spreading it too far",
+   "Turkish tip wording 'ekşi kokmadan tatlı bir mayalanma aroması' is awkward and reads as contradictory."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

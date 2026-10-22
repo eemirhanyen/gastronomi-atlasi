@@ -52,8 +52,16 @@
   ]
  },
  "tip": {
-  "tr": "Kakuleyi servis etmeden hemen önce ezerek kullanın; böylece aroması daha canlı olur.",
-  "en": "Crush the cardamom just before using it so its aroma stays bright and fresh."
+  "tr": "Kakuleyi tencereye eklemeden hemen önce hafifçe ezerek kullanın; böylece aroması daha canlı olur.",
+  "en": "Lightly crush the cardamom just before adding it to the pan so its aroma stays bright and fresh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The tip tells the cook to crush the cardamom just before serving, but the steps add the cardamom (already lightly crushed per the ingredient list) to the boiling water at the start. The tip's timing c"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -28,7 +28,7 @@
    "4 patates (yaklaşık 500 g), soyulup ikiye bölünmüş",
    "80 g kısa makarna (fideus ya da küçük kabuklu makarna)",
    "Tuz ve karabiber",
-   "Pilota için: 250 g kıyma domuz eti, 40 g bayat ekmek ve 2 yemek kaşığı sütte ıslatılmış, 1 yumurta, 1 diş sarımsak ince doğranmış, 1 yemek kaşığı doğranmış maydanoz, 1 tutam rendelenmiş hindistan cevizi, 3 yemek kaşığı zeytinyağı"
+   "Pilota için: 250 g kıyma domuz eti, 40 g bayat ekmek ve 2 yemek kaşığı sütte ıslatılmış, 1 yumurta, 1 diş sarımsak ince doğranmış, 1 yemek kaşığı doğranmış maydanoz, 1 tutam rendelenmiş hindistan cevizi, 2 yemek kaşığı zeytinyağı"
   ],
   "en": [
    "80 g dried white beans, soaked overnight",
@@ -46,7 +46,7 @@
    "4 potatoes (about 500 g), peeled and halved",
    "80 g short pasta (fideus or small shells)",
    "Salt and black pepper",
-   "For the pilota: 250 g minced pork, 40 g stale bread soaked in 2 tablespoons milk, 1 egg, 1 garlic clove finely chopped, 1 tablespoon chopped parsley, 1 pinch ground nutmeg, 3 tablespoons olive oil"
+   "For the pilota: 250 g minced pork, 40 g stale bread soaked in 2 tablespoons milk, 1 egg, 1 garlic clove finely chopped, 1 tablespoon chopped parsley, 1 pinch ground nutmeg, 2 tablespoons olive oil"
   ]
  },
  "steps": {
@@ -75,5 +75,13 @@
   "tr": "Et suyunun berrak kalması için köpükleri pişirmenin ilk saatinde düzenli olarak alın ve suyu kaynatmak yerine hafif kaynar tutun.",
   "en": "Skim the foam regularly during the first hour and keep the broth at a gentle simmer rather than a hard boil to keep it clear."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Pilota ingredient lists 3 tablespoons of olive oil, but the steps use only 2 tablespoons for frying (the same mismatch appears in the English and Turkish versions)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

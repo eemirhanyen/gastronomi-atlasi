@@ -47,8 +47,8 @@
  },
  "steps": {
   "tr": [
-   "Fırını 175°C'ye ısıtın. Küçük bir kek kalıbını (yaklaşık 20 x 10 cm kare veya 18 cm yuvarlak) tereyağıyla yağlayıp unla hafifçe tozlayın.",
-   "Un, kabartma tozu, tuz ve muskadı bir kasede karıştırın.",
+   "Fırını 175°C'ye ısıtın. Küçük bir kek kalıbını (yaklaşık 20 x 10 cm dikdörtgen veya 18 cm yuvarlak) tereyağıyla yağlayıp unla hafifçe tozlayın.",
+   "Un, kabartma tozu, tuz ve muskatı bir kasede karıştırın.",
    "120 g tereyağı ile 150 g toz şekeri orta hızda 4 dakika kadar krema kıvamı alana kadar çırpın.",
    "Yumurtaları birer birer ekleyip her birini iyice karıştırın. Vanilya özünü de ekleyin.",
    "Süt ve 60 ml romu ayrı bir kapta karıştırın.",
@@ -74,8 +74,18 @@
   ]
  },
  "tip": {
-  "tr": "Kekin daha iyi olması için en az bir gün örtülü şekilde bekletin; rom aroması iyice yayılır ve kek nemini korur.",
+  "tr": "Kekin daha iyi olması için en az bir gece örtülü şekilde bekletin; rom aroması iyice yayılır ve kek nemini korur.",
   "en": "Wrap the cake and let it rest overnight before serving. The rum flavour deepens and the crumb stays moist."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says \"kare\" (square) for the 20 x 10 cm tin, but that size is a rectangular loaf tin, matching the English \"loaf\".",
+   "Turkish uses \"muskadı\" for nutmeg in the ingredient list and step 2. The correct Turkish is \"muskat\".",
+   "The Turkish tip says to rest the cake \"en az bir gün\" (at least one day), but the English tip and steps say overnight. The Turkish tip should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

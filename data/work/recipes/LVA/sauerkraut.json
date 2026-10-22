@@ -43,8 +43,8 @@
    "Kalın tabanlı bir tencerede tereyağını orta ateşte eritin, soğanı ekleyip yumuşayana ve hafif şekerlenene kadar yaklaşık 5 dakika kavurun.",
    "Rendelenmiş havucu ekleyin ve 3 dakika daha pişirin.",
    "Doğranmış lahanayı, frenk kimyonunu, defne yaprağını, şekeri ve karabiberi tencereye ekleyip 2 dakika karıştırarak kavurun.",
-   "Suyu ilave edin, kapağını kapatın ve kısık ateşte yaklaşık 35-40 dakika pişirin. Her 10 dakikada bir karıştırın; tencere kururşa birer yemek kaşığı su ekleyin.",
-   "Lahana yumuşayıp kremsi bir kıvam aldığında tadına bakın, gerekirse tuz ekleyin. Defne yaprağını çıkarın, dereotunu serpip karıştırarak sıcak servis yapın."
+   "Suyu ilave edin, kapağını kapatın ve kısık ateşte yaklaşık 35-40 dakika pişirin. Her 10 dakikada bir karıştırın; tencere kuruyorsa birer yemek kaşığı su ekleyin.",
+   "Lahana yumuşayıp iyice pişmiş olduğunda tadına bakın, gerekirse tuz ekleyin. Defne yaprağını çıkarın, dereotunu serpip karıştırarak sıcak servis yapın."
   ],
   "en": [
    "Drain the sauerkraut, squeeze out excess liquid with your hands or a sieve, then chop it roughly.",
@@ -59,5 +59,14 @@
   "tr": "Lahana çok ekşiyse pişirmeden önce soğuk suyla bir kez durulayın; şekeri ise tadı dengelemek için kullanın.",
   "en": "If the sauerkraut is very sour, rinse it once in cold water before cooking, and adjust the balance with the sugar rather than adding more salt."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 has a typo: \"kururşa\" should be \"kuruyorsa\".",
+   "Turkish step 6 describes a \"kremsi kıvam\" (creamy consistency) that the English version does not mention. The Turkish wording also sounds unnatural for braised sauerkraut, so both versions now say sof"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

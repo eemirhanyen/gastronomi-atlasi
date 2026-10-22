@@ -42,7 +42,7 @@
    "Safranı 30 ml sıcak suya koyun, 15 dakika demlenmesi için bekletin.",
    "Mısır nişastasını 60 ml soğuk sütle pürüzsüz olana kadar karıştırın.",
    "Kalan 500 ml sütü, kremayı ve şekeri geniş bir tencerede orta ateşte, sürekli karıştırarak buharı çıkana kadar (yaklaşık 80 °C) ısıtın.",
-   "Nişasta karışımını ince bir akışla tencereye ekleyin ve sürekli çırparak 5-7 dakika, kıvam alana kadar pişirin (yaklaşık 85 °C).",
+   "Nişasta karışımını ince bir akışla tencereye ekleyin ve sürekli çırparak, hafifçe kaynayana ve kıvam alana kadar (yaklaşık 90-95 °C) 1-2 dakika pişirin.",
    "Ocaktan alın; demlenmiş safranı, gül suyunu, tuzu ve fıstıkların yarısını ekleyip karıştırın.",
    "Karışımı oda sıcaklığına soğutun, ardından kapağını kapatıp en az 4 saat ya da bir gece buzdolabında bekletin.",
    "Soğuyan karışımı dondurma makinesinde 20-25 dakika çevirin; son birkaç dakikada kalan fıstıkları ekleyin.",
@@ -53,7 +53,7 @@
    "Put the saffron in 30 ml hot water and leave it to bloom for 15 minutes.",
    "Mix the cornstarch with the 60 ml cold milk until smooth.",
    "In a wide pan over medium heat, warm the remaining 500 ml milk, the cream and the sugar, stirring, until steaming (about 80 °C).",
-   "Pour in the cornstarch mixture in a thin stream, whisking constantly, and cook for 5–7 minutes until thickened (about 85 °C).",
+   "Pour in the cornstarch mixture in a thin stream, whisking constantly, and bring to a gentle boil (about 90–95 °C). Cook for 1–2 minutes more until thickened.",
    "Remove from the heat and stir in the bloomed saffron with its liquid, the rosewater, the salt and half of the chopped pistachios.",
    "Cool the mixture to room temperature, then cover and refrigerate for at least 4 hours or overnight.",
    "Churn the chilled base in an ice cream maker for 20–25 minutes, adding the remaining pistachios in the last few minutes.",
@@ -65,5 +65,13 @@
   "tr": "Nişastalı karışımı eklerken sürekli çırpın; topaklanmayı önler ve dondurmanın pürüzsüz kalmasını sağlar.",
   "en": "Whisk the custard constantly when adding the cornstarch, which prevents lumps and keeps the ice cream smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 (tr and en): the cornstarch is only cooked to about 85 °C. Starch needs to reach a gentle boil (about 90-95 °C) to thicken fully and lose its raw starchy taste. The step should specify a gentle"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

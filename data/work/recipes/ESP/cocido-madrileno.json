@@ -16,7 +16,7 @@
    "250 g kuru nohut (bir gece önceden ıslatılmış)",
    "300 g dana baldır (morcillo)",
    "150 g domuz göbeği veya tuzlu domuz yağı (tocino)",
-   "250 g bonfile kemikli tavuk budu",
+   "250 g kemikli tavuk budu",
    "1 adet soğan, ikiye bölünmüş",
    "2 diş sarımsak",
    "2 adet defne yaprağı",
@@ -81,5 +81,13 @@
   "tr": "Kaynama sırasında köpüğü düzenli alın ve ocağı kısık tutun; çorba berrak kalır ve etler daha yumuşak pişer.",
   "en": "Skim the foam regularly and keep the pot at a gentle simmer so the broth stays clear and the meats turn tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'bonfile kemikli tavuk budu' is wrong: 'bonfile' means beef tenderloin, not chicken. It should read 'kemikli tavuk budu' (bone-in chicken thighs), matching the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

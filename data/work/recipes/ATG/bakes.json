@@ -49,7 +49,7 @@
    "In a large bowl, mix the flour, baking powder, salt and caster sugar.",
    "Rub the butter into the flour mixture with your fingertips until it looks like breadcrumbs.",
    "Gradually add the lukewarm water, mixing until you have a soft but not sticky dough.",
-   "Knead the dough on a lightly floured surface for about 5 minutes until smooth.",
+   "Knead the dough on the work surface for about 5 minutes until smooth.",
    "Cover the dough with cling film or a clean cloth and rest it at room temperature for 15 minutes.",
    "Divide the dough into 8 equal pieces and roll each into a ball with your palms.",
    "Roll each ball with a rolling pin into a round about 1 cm thick and 10 cm across, then rest for 5 minutes.",
@@ -63,5 +63,13 @@
   "tr": "Bakes'ler hemen yağa girdiğinde içleri pişmeden dışı koyulaşabilir; yağ sıcaklığını 170-180°C arasında tutun ve her partiden sonra yağın tekrar ısınmasını bekleyin.",
   "en": "If the bakes brown too fast and stay doughy inside, lower the heat slightly and let the oil return to temperature between batches."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 4 says to knead on a lightly floured surface, but the Turkish step does not mention this. The English also implies flour for dusting that is not in the ingredient list."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

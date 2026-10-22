@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Karne de sol",
+  "tr": "Carne de sol",
   "en": "Carne de sol"
  },
  "native": "Carne de sol",
@@ -41,18 +41,18 @@
   "tr": [
    "Et şeritlerini tuzla iyice ovalayın, kapaklı bir kaba koyup buzdolabında 12 saat bekletin (bu süre sayılmıyor).",
    "Eti çıkarıp soğuk suda 1 saat bekletin; suyu 2-3 kez değiştirerek fazla tuzu alın.",
-   "Eti kağıt havluyla iyice kurulayıp 3 cm'lik parçalara kesin.",
+   "Eti kağıt havluyla iyice kurulayıp 3 cm'lik parçalara kesin, ardından rafa dizip buzdolabında açıkta 12 saat daha kurutun (bu süre de sayılmıyor).",
    "Geniş bir tavayı orta-yüksek ateşte ısıtın, 30 ml yağ ekleyin ve et parçalarını partiler halinde 3-4 dakika, kenarları kızarana kadar kavurun. Tabağa alın.",
    "Kalan yağı tavaya ekleyip soğanı 5 dakika, yumuşayıp hafif renk alana kadar soteleyin.",
    "Sarımsağı ekleyip 1 dakika kokusu çıkana kadar pişirin.",
    "Domatesleri ekleyin ve suyunu büyük ölçüde çekip sosa dönüşene kadar yaklaşık 5 dakika pişirin.",
    "Eti tavaya geri koyun, karabiberi ve sıcak suyu ekleyin. Kısık ateşte kapağı kapalı olarak 8-10 dakika, et yumuşayana kadar pişirin.",
-   "Ocaktan almadan önce yeşil soğan ve kişnişi serpip karıştırın, sıcak servis yapın."
+   "Ocaktan alın, yeşil soğan ve kişnişi serpip karıştırın, sıcak servis yapın."
   ],
   "en": [
    "Rub the beef strips well with the salt, place them in a covered container and refrigerate for 12 hours (this curing time is not included in the total).",
    "Remove the beef and soak it in cold water for 1 hour, changing the water 2-3 times to remove excess salt.",
-   "Pat the beef thoroughly dry with kitchen paper and cut it into 3 cm pieces.",
+   "Pat the beef thoroughly dry with kitchen paper, cut it into 3 cm pieces, then arrange on a rack and air-dry uncovered in the refrigerator for 12 hours (this drying time is not included in the total).",
    "Heat a wide pan over medium-high heat, add 30 ml oil and sear the beef in batches for 3-4 minutes until the edges are browned. Transfer to a plate.",
    "Add the remaining oil to the pan and cook the onion for 5 minutes until soft and lightly golden.",
    "Add the garlic and cook for 1 minute until fragrant.",
@@ -65,5 +65,16 @@
   "tr": "Tuzlama süresini et kalınlığına göre ayarlayın; etin tadına bakıp fazla tuzluysa suda biraz daha bekletin, çünkü tuz servis sırasında yemeğe tuz eklemeyi gereksiz kılar.",
   "en": "Adjust the curing time to the thickness of the meat and taste a small piece after soaking; if it is still too salty, soak it a little longer, as the dish should not need extra salt at the table."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish name 'Karne de sol' is a misspelling of the Portuguese 'Carne de sol' and 'karne' means 'report card' in Turkish",
+   "The defining technique of carne de sol (salting followed by drying in air or sun) is missing; the recipe goes straight from curing and soaking to cooking",
+   "Turkish step 9 says to add the herbs before removing from heat, while the English says to remove from heat first and then stir in the herbs",
+   "Time and drying: the added air-drying period must also be excluded from time_min, as the curing time is"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

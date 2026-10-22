@@ -27,7 +27,7 @@
    "45 ml açık soya sosu",
    "15 ml koyu soya sosu",
    "500 ml su",
-   "20 ml bitkisel yağ (15 ml etler, 5 ml yeşillikler için)",
+   "25 ml bitkisel yağ (15 ml etler, 5 ml aromatikler, 5 ml yeşillikler için)",
    "60 g salatalık, ince dilimlenmiş",
    "15 g taze kişniş"
   ],
@@ -46,7 +46,7 @@
    "45 ml light soy sauce",
    "15 ml dark soy sauce",
    "500 ml water",
-   "20 ml vegetable oil (15 ml for the pork, 5 ml for the greens)",
+   "25 ml vegetable oil (15 ml for the pork, 5 ml for the aromatics, 5 ml for the greens)",
    "60 g cucumber, thinly sliced",
    "15 g fresh coriander"
   ]
@@ -55,7 +55,7 @@
   "tr": [
    "Domuz göbeği dilimlerini kaynayan suda 5 dakika haşlayın, süzün ve kurulayın.",
    "Bir tencerede 15 ml yağı orta-yüksek ateşte ısıtın. Et dilimlerini iki yüzü de hafif kızarana kadar yaklaşık 3 dakika soteleyin, sonra bir kenara alın.",
-   "Aynı tencerede kalan yağı kullanarak zencefil ve sarımsağı 1 dakika kavurun. Kaya şekerini ekleyip altın rengi karamel olana kadar, yaklaşık 2 dakika, sürekli karıştırarak pişirin.",
+   "Aynı tencerede 5 ml yağla zencefil ve sarımsağı 1 dakika kavurun. Kaya şekerini ekleyip altın rengi karamel olana kadar, yaklaşık 2 dakika, sürekli karıştırarak pişirin.",
    "Şarabı ekleyin, birkaç saniye bekleyip açık ve koyu soya sosunu, suyu, yıldız anasonu ve tarçını ilave edin. Eti geri koyun, kaynatın, ardından kapağı kapalı olarak kısık ateşte 40 dakika pişirin.",
    "Kapağı açın, sos koyulaşana kadar yaklaşık 10 dakika daha pişirin. Bu sırada et dilimlerini sosla bir iki kez çevirerek parlak bir kaplama elde edin.",
    "Fıstık harcı için kavrulmuş fıstığı blenderdan geçirin, şekerle karıştırın ve bir kenara koyun.",
@@ -66,7 +66,7 @@
   "en": [
    "Blanch the pork belly slices in boiling water for 5 minutes, drain and pat dry.",
    "Heat 15 ml of the oil in a pot over medium-high heat. Sear the pork slices for about 3 minutes until lightly browned on both sides, then set aside.",
-   "In the same pot with the remaining oil, fry the ginger and garlic for 1 minute. Add the rock sugar and stir for about 2 minutes until it turns golden and caramelises.",
+   "In the same pot with 5 ml of the oil, fry the ginger and garlic for 1 minute. Add the rock sugar and stir for about 2 minutes until it turns golden and caramelises.",
    "Add the rice wine and let it bubble for a few seconds. Stir in the light and dark soy sauce, water, star anise and cinnamon. Return the pork, bring to the boil, then cover and simmer gently for 40 minutes.",
    "Remove the lid and reduce the sauce for about 10 minutes until glossy and thick, turning the pork once or twice so it is well coated.",
    "Grind the roasted peanuts in a blender, mix with the 10 g sugar and set aside.",
@@ -79,5 +79,13 @@
   "tr": "Domuz göbeğinin etli ve yağlı katmanlarını korumak için kaynatmayı kısık ateşte yapın; sosu koyulaştırmak için son aşamada yavaşça çevirin.",
   "en": "Keep the braise at a gentle simmer so the pork stays tender and holds its shape, and only thicken the sauce at the end so it clings to the meat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities don't add up: 20 ml total is split into 15 ml for the pork and 5 ml for the greens, but Step 3 says to fry the ginger and garlic in the 'remaining oil', which doesn't exist in the ingre"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

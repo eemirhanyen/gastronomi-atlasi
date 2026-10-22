@@ -31,7 +31,7 @@
    "Çay yapraklarını kaynayan suya ekleyin ve kısık ateşte yaklaşık 20 dakika demleyin; çay koyulaşana kadar kaynatmaya devam edin.",
    "Çayı ince süzgeçten süzerek başka bir tencereye veya blender kabına alın.",
    "Tereyağını ve tuzu çaya ekleyin.",
-   "Karışımı blenderda 1-2 dakika ya da tereyağı tamamen emulsiyon oluşturup köpüklenene kadar çırpın.",
+   "Blenderı yarısına kadar doldurun, kapağın ortasındaki açıklığı açık tutarak 1-2 dakika çırpın; tereyağı tamamen emülsiyon oluşturup köpüklenene kadar devam edin.",
    "Karışımı yeniden kısık ateşte ısıtın, sıcak olarak bardaklara veya geleneksel kaselere paylaştırın."
   ],
   "en": [
@@ -39,13 +39,22 @@
    "Add the tea leaves to the boiling water and simmer gently for about 20 minutes, until the tea is dark and strong.",
    "Strain the tea through a fine sieve into another pot or a blender jug.",
    "Add the butter and salt to the tea.",
-   "Blend for 1-2 minutes until the butter is fully emulsified and the tea is frothy.",
+   "Fill the blender no more than halfway, keep the lid's vent open, and blend for 1-2 minutes until the butter is fully emulsified and the tea is frothy.",
    "Reheat the mixture gently over low heat, then divide it among cups or traditional bowls and serve hot."
   ]
  },
  "tip": {
-  "tr": "Blender yoksa çayı ve tereyağını uzun saplı bir çırpıcıyla veya sıkıca kapatılmış bir sürahide güçlü şekilde çalkalayarak emülsiyonu elde edebilirsiniz.",
-  "en": "If you have no blender, shake the tea and butter vigorously in a tightly sealed jug or whisk them hard to create the same creamy emulsion."
+  "tr": "Blender yoksa çayı ve tereyağını uzun saplı bir çırpıcıyla güçlü şekilde çırparak emülsiyonu elde edebilirsiniz. Sıcak sıvıyı sıkıca kapalı bir kapta çalkalamayın; buhar basıncı kapağı fırlatabilir.",
+  "en": "If you have no blender, whisk the tea and butter hard with a long-handled whisk to create the same creamy emulsion. Do not shake hot liquid in a tightly sealed container, as steam pressure can force the lid off."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 5 asks the user to blend hot liquid without any safety precaution. Steam pressure can blow the lid off, so the blender should be filled only partway and the lid vent should be left open (EN and T",
+   "The tip suggests shaking hot tea in a tightly sealed jug. This is the same pressure hazard and should be removed (EN and TR)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

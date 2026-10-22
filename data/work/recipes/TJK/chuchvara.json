@@ -5,7 +5,7 @@
  },
  "native": "Чучвара",
  "desc": {
-  "tr": "Tacikistan ve Özbekistan'da özellikle bayram ve misafir sofralarında servis edilen, kıymalı küçük hamur tatlarının berrak et suyunda pişirildiği bir çorbadır. Genellikle ekşi krema ve taze kişniş ile birlikte ikram edilir.",
+  "tr": "Tacikistan ve Özbekistan'da özellikle bayram ve misafir sofralarında servis edilen, kıymalı küçük hamur parçalarının berrak et suyunda pişirildiği bir çorbadır. Genellikle ekşi krema ve taze kişniş ile birlikte ikram edilir.",
   "en": "A Tajik and Uzbek dish of small meat-filled dumplings simmered in clear broth, traditionally served at festive meals and when guests visit. It is usually topped with sour cream and fresh coriander."
  },
  "servings": 4,
@@ -21,6 +21,7 @@
    "1 orta boy soğan (150 g), rendelenmiş",
    "1/2 çay kaşığı karabiber",
    "1/2 çay kaşığı öğütülmüş kimyon",
+   "1 tutam tuz (iç harç için)",
    "1,2 l sığır eti suyu",
    "1 küçük havuç (100 g), bütün",
    "1 küçük soğan (100 g), ikiye bölünmüş",
@@ -37,6 +38,7 @@
    "1 medium onion (150 g), grated",
    "1/2 tsp black pepper",
    "1/2 tsp ground cumin",
+   "1 pinch salt (for the filling)",
    "1.2 l beef stock",
    "1 small carrot (100 g), whole",
    "1 small onion (100 g), halved",
@@ -50,8 +52,8 @@
    "Hamur için unu, yumurtayı, suyu ve 1/2 çay kaşığı tuzu bir kapta yoğurun. Hamur pürüzsüz ve elastik olana kadar yaklaşık 8 dakika yoğurun, streç film ile örtüp 30 dakika dinlendirin.",
    "Rendelenmiş soğanın suyunu sıkarak fazlasını süzün. Kıyma, soğan, karabiber, kimyon ve bir tutam tuzu ekleyip 1-2 dakika iyice karıştırın.",
    "Et suyunu büyük bir tencerede kaynatın. Bütün havucu, ikiye bölünmüş soğanı ve tadına göre tuzu ekleyip kısık ateşte 20 dakika pişirin.",
-   "Dinlenmiş hamuru ince bir yüzey üzerinde 1-2 mm kalınlığında açın. 4 cm'lik kareler kesin.",
-   "Her kareye yaklaşık 1 çay kaşığı iç harcı koyun. Kareyi üçgen şeklinde katlayın, kenarlarını parmaklarınızla sıkıca kapatın ve iki ucunu birleştirerek küçük bir çuçvara şekli verin.",
+   "Dinlenmiş hamuru hafifçe unlanmış bir yüzey üzerinde 1-2 mm kalınlığında açın. 4 cm'lik kareler kesin.",
+   "Her kareye yaklaşık 1 çay kaşığı iç harç koyun. Kareyi üçgen şeklinde katlayın, kenarlarını parmaklarınızla sıkıca kapatın ve iki ucunu birleştirerek küçük bir çuçvara şekli verin.",
    "Et suyunun içindeki sebzeleri çıkarın. Suyu hafif kaynatın ve çuçvaraları partiler halinde ekleyin. Yaklaşık 8-10 dakika, hamur yüzeye çıkıp iç harç iyice pişene kadar kısık ateşte pişirin.",
    "Kişniş yapraklarını ince kıyın. Çorbayı derin kaselere alın, kişniş serpin ve ekşi krema ile servis yapın."
   ],
@@ -69,5 +71,16 @@
   "tr": "Hamuru çok ince açmak ve iç harcı aşırı doldurmamak, çuçvaraların pişerken açılmasını önler.",
   "en": "Roll the dough very thinly and do not overfill the dumplings, so they stay sealed while cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description contains a wrong word: \"hamur tatlarının\" should be \"hamur parçalarının\".",
+   "Step 2 uses a pinch of salt in the filling, but no filling salt is listed in the ingredients (English or Turkish).",
+   "Turkish step 4 omits the English instruction to roll on a lightly floured surface.",
+   "Ingredient says the coriander is already finely chopped, but step 7 asks the cook to chop it again."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

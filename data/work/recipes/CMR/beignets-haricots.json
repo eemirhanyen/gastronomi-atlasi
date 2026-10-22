@@ -36,8 +36,8 @@
  "steps": {
   "tr": [
    "Bekletilmiş börülceyi süzün ve ellerinizle ovarak kabuklarını soyun. Kabukları suyla yıkayıp uzaklaştırın.",
-   "Soyulmuş börülceyi 100 ml su ile blenderda kısa aralıklarla çekerek kalın, pürüzsüz bir hamur elde edin. Gerekirse az az su ekleyin ama hamur çok akışkan olmasın.",
-   "Hamuru bir kasede 2 dakika kadar kuvvetlice çırpın; bu, fritözlerin havalı ve hafif olmasını sağlar.",
+   "Soyulmuş börülceyi 100 ml su ile blenderde kısa aralıklarla çekerek kalın, pürüzsüz bir hamur elde edin. Gerekirse az az su ekleyin ama hamur çok akışkan olmasın.",
+   "Hamuru bir kasede 2 dakika kadar kuvvetlice çırpın; bu, topların havalı ve hafif olmasını sağlar.",
    "Rendelenmiş soğan, doğranmış acı biber, öğütülmüş karides, tuz ve kabartma tozunu hamura ekleyip iyice karıştırın.",
    "Kızartma yağını derin bir tencerede yaklaşık 180°C'ye kadar ısıtın.",
    "Yağ ısınırken bir tatlı kaşığı yardımıyla hamurdan küçük parçalar alıp sıcak yağa bırakın. Her seferinde birkaç top kızartın, tencereyi doldurmayın.",
@@ -61,5 +61,14 @@
   "tr": "Hamurun kıvamını ilk toptan önce test edin: küçük bir parça yağa atıldığında yüzeye çıkmalı ve sıcak yağda hemen köpürmelidir. Dağılıyorsa biraz daha börülce ezmesi ekleyin.",
   "en": "Test the batter with one fritter first: it should hold its shape and rise to the surface quickly with bubbles. If it falls apart, blend in a little more skinned bean paste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 uses \"fritözlerin\" (fryers, the appliance) where the meaning is the fritters; it should be \"topların\".",
+   "Turkish step 2 uses \"blenderda\"; the correct locative is \"blenderde\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

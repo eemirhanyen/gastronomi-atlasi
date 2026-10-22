@@ -50,8 +50,8 @@
    "Hamuru streç film ile örtüp oda sıcaklığında 20 dakika dinlendirin, ardından buzdolabında 30 dakika bekletin.",
    "Soğuk tereyağını iki parşömen kağıdı arasında, yaklaşık 15 x 15 cm'lik bir kare olacak şekilde yassılaştırın ve tekrar soğutun.",
    "Hamuru hafif un serpilmiş tezgâhta yaklaşık 20 x 30 cm'lik bir dikdörtgen olacak şekilde açın. Tereyağı levhasını hamurun ortasına yerleştirin ve kenarlarını üzerine katlayarak tamamen kapatın.",
-   "Hamuru hafifçe açıp üç katlı bir zarf katlaması yapın, sonra 30 dakika buzdolabında dinlendirin. Bu işlemi bir kez daha tekrarlayın (toplam iki tur daha yapın, her turdan sonra 30 dakika soğutun).",
-   "Son turdan sonra hamuru yaklaşık 3 mm kalınlığında, 30 x 30 cm'lik bir kare olacak şekilde açın ve 10 x 10 cm'lik 8 kareye kesin.",
+   "Hamuru hafifçe açıp üç katlı bir zarf katlaması yapın, sonra 30 dakika buzdolabında dinlendirin. Bu işlemi iki kez daha tekrarlayın, her turdan sonra 30 dakika soğutun.",
+   "Son turdan sonra hamuru yaklaşık 3 mm kalınlığında, 30 x 30 cm'lik bir kare olacak şekilde açın ve 10 x 10 cm'lik 9 kareye kesin.",
    "Her karenin dört köşesini ortaya doğru katlayıp hafifçe bastırın. Ortasına bir kaşık vanilyalı kremayı koyun ve birkaç dakika kadar bekletin.",
    "Şekillendirilmiş hamurları fırın tepsisine parşömen kağıdı serip aralarında boşluk bırakarak dizin. Üzerlerine yumurta sürmesini sürün ve 27 °C civarında, yaklaşık 45-60 dakika, hacimleri iki katına çıkana kadar mayalanmaya bırakın.",
    "Fırını 200 °C'ye ısıtın. Hamurların üzerini tekrar yumurta sürmesiyle kaplayın ve 14-18 dakika, altın rengi olana kadar pişirin.",
@@ -64,7 +64,7 @@
    "Flatten the cold butter between two sheets of baking paper into a square about 15 x 15 cm, then chill again.",
    "On a lightly floured surface, roll the dough into a rectangle about 20 x 30 cm. Place the butter square in the centre and fold the edges over it to seal completely.",
    "Gently roll out and make a letter fold (three layers), then chill for 30 minutes. Repeat this turn twice more, chilling for 30 minutes after each one.",
-   "After the final turn, roll the dough to about 3 mm thick in a 30 x 30 cm square and cut it into eight 10 x 10 cm squares.",
+   "After the final turn, roll the dough to about 3 mm thick in a 30 x 30 cm square and cut it into nine 10 x 10 cm squares.",
    "Fold each square's four corners into the centre and press lightly. Place a spoonful of vanilla custard in the middle and let the pieces rest for a few minutes.",
    "Arrange the shaped pastries on a tray lined with baking paper, spaced apart. Brush with egg wash and proof at about 27 °C for 45-60 minutes, until doubled in size.",
    "Preheat the oven to 200 °C. Brush the pastries again with egg wash and bake for 14-18 minutes, until golden brown.",
@@ -75,5 +75,14 @@
   "tr": "Tereyağının ve hamurun sürekli soğuk kalması katmanların korunması için çok önemlidir; hamur yumuşamaya başlarsa mutlaka buzdolabında dinlendirin.",
   "en": "Keep the butter and dough cold throughout; if the layers start to soften or leak butter, chill the dough for 15-20 minutes before continuing."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish lamination step says 'repeat once more' but then 'total two more turns'. The English says twice more, so the Turkish is contradictory.",
+   "A 30 x 30 cm sheet cut into 10 x 10 cm squares yields nine squares, not eight, in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -18,7 +18,7 @@
    "1 yemek kaşığı limon suyu",
    "1 tatlı kaşığı portakal çiçeği suyu",
    "250 g kadayıf",
-   "150 g tereyağı, eritilmiş",
+   "150 g tereyağı, eritilmiş (kalıp yağlama için yaklaşık 10 g dahil)",
    "250 g mozzarella ya da künefelik peynir, ince dilimlenmiş veya rendelenmiş",
    "40 g kırık antep fıstığı"
   ],
@@ -28,7 +28,7 @@
    "1 tablespoon lemon juice",
    "1 teaspoon orange blossom water",
    "250 g kataifi pastry (shredded phyllo)",
-   "150 g unsalted butter, melted",
+   "150 g unsalted butter, melted (about 10 g of it used to grease the pan)",
    "250 g mozzarella or akkawi cheese, thinly sliced or grated",
    "40 g chopped pistachios"
   ]
@@ -36,21 +36,21 @@
  "steps": {
   "tr": [
    "Şerbeti hazırlayın: şeker, su ve limon suyunu küçük bir tencerede kaynatın, orta ateşte 8-10 dakika kıvam alana kadar pişirin. Ocaktan alın, portakal çiçeği suyunu ekleyip soğumaya bırakın.",
-   "Fırını 180°C'ye ısıtın. 24 cm'lik yuvarlak bir kalıbın tabanını ve kenarlarını tereyağıyla yağlayın.",
+   "Fırını 180°C'ye ısıtın. 24 cm'lik yuvarlak bir kalıbın tabanını ve kenarlarını 150 g tereyağının yaklaşık 10 g'ı ile yağlayın.",
    "Kadayıfın tellerini parmaklarınızla yavaşça ayırın. Eritilmiş tereyağının yaklaşık 100 g'ını ekleyip iyice harmanlayın.",
    "Kadayıfın yarısını kalıba eşit şekilde yayın ve bastırarak taban oluşturun.",
    "Peyniri kadayıfın üzerine homojen şekilde serpin. Kalan kadayıfı peynirin üstüne yayıp elinizle hafifçe bastırın.",
-   "Kalan tereyağını üstüne gezdirin. Fırının orta rafında 25-30 dakika, üstü altın sarısı olana kadar pişirin.",
+   "Kalan tereyağını (yaklaşık 40 g) üstüne gezdirin. Fırının orta rafında 25-30 dakika, üstü altın sarısı olana kadar pişirin.",
    "Fırından çıkan künefeyi hemen bir tabağa ters çevirin ya da kesmeye hazır hale getirin. Soğumuş şerbetin yaklaşık 200 ml'sini sıcak künefenin üzerine dökün.",
    "Kırık antep fıstıklarını serpip dilimleyerek hemen, ılık halde servis edin. Kalan şerbeti masada ayrıca sunabilirsiniz."
   ],
   "en": [
    "Make the syrup: combine the sugar, water and lemon juice in a small pan, boil, then simmer over medium heat for 8-10 minutes until slightly thickened. Remove from the heat, stir in the orange blossom water and let cool.",
-   "Preheat the oven to 180°C. Grease the base and sides of a 24 cm round pan with some of the butter.",
+   "Preheat the oven to 180°C. Grease the base and sides of a 24 cm round pan with about 10 g of the 150 g butter.",
    "Separate the kataifi strands gently with your fingers. Add about 100 g of the melted butter and toss well until every strand is coated.",
    "Spread half of the kataifi evenly in the pan and press it down firmly to form a base.",
    "Scatter the cheese evenly over the base, then spread the remaining kataifi on top and press lightly.",
-   "Drizzle the rest of the melted butter over the top. Bake on the middle rack for 25-30 minutes until deep golden and the cheese has melted.",
+   "Drizzle the rest of the melted butter (about 40 g) over the top. Bake on the middle rack for 25-30 minutes until deep golden and the cheese has melted.",
    "Immediately invert the knafeh onto a serving plate. Pour about 200 ml of the cooled syrup over the hot pastry.",
    "Sprinkle with the chopped pistachios, cut into wedges and serve warm. Offer the remaining syrup on the side."
   ]
@@ -59,5 +59,13 @@
   "tr": "Peyniri ince dilimleyin ve kadayıfın arasına eşit dağıtın; böylece her dilimde erimiş peynir olur. Şerbeti soğuk, künefeyi sıcak dökmek, pastanın çıtırlığını korur.",
   "en": "Slice the cheese thinly and spread it evenly so every piece has melted cheese. Pour cool syrup over the hot knafeh so the pastry stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 150 g of butter is fully allocated to the batter (about 100 g) and the top drizzle (the rest), but step 2 also uses butter to grease the pan. The greasing amount is not accounted for in the quanti"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

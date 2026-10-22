@@ -23,12 +23,12 @@
    "800 ml balık suyu veya su",
    "10 g taze maydanoz, ince kıyılmış",
    "1/2 tatlı kaşığı karabiber (1 g)",
-   "Tuz",
+   "Tuz (tadına göre)",
    "200 g iri taneli mısır unu (polenta)",
    "800 ml su (polenta için)"
   ],
   "en": [
-   "1 kg mixed firm-fleshed fish (sea bass, grouper or scorpionfish), cleaned and cut into 4-6 pieces",
+   "1 kg mixed firm-fleshed fish (sea bass, wrasse or gurnard), cleaned and cut into 4-6 pieces",
    "2 large onions (300 g), thinly sliced",
    "3 cloves garlic, thinly sliced",
    "60 ml olive oil",
@@ -38,7 +38,7 @@
    "800 ml fish stock or water",
    "10 g fresh parsley, finely chopped",
    "1/2 tsp black pepper (1 g)",
-   "Salt",
+   "Salt (to taste)",
    "200 g coarse cornmeal (polenta)",
    "800 ml water (for the polenta)"
   ]
@@ -46,7 +46,7 @@
  "steps": {
   "tr": [
    "Balıkları temizleyip parçalara ayırın, hafifçe tuzlayın ve bir kenara koyun.",
-   "Geniş ve dipli bir tencerede zeytinyağını ısıtın, soğanları ekleyip orta ateşte 10 dakika, yumuşayıp altın rengi alana kadar pişirin.",
+   "Dibi kalın geniş bir tencerede zeytinyağını ısıtın, soğanları ekleyip orta ateşte 10 dakika, yumuşayıp altın rengi alana kadar pişirin.",
    "Sarımsakları ekleyip 1 dakika kavurun, ardından domates salçasını ekleyip 1 dakika daha karıştırın.",
    "Şarabı dökün ve alkolü uçurmak için 3 dakika kaynatın. Sirkeyi ekleyin.",
    "Balık suyunu ekleyin, kaynamaya bırakın. Tuz ve karabiberle tatlandırın.",
@@ -71,5 +71,15 @@
   "tr": "Balık suyunu hazır ürün yerine taze balık başı ve kılçıklarından kısa sürede kaynatarak hazırlarsanız tat çok daha derin olur.",
   "en": "Simmer fish heads and bones in water for 20 minutes to make a quick, flavourful fish stock; it gives far more depth than stock cubes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fish list mismatch: Turkish says levrek, lahoz, kırlangıç balığı, but English says sea bass, grouper, scorpionfish. 'Kırlangıç balığı' is gurnard, not scorpionfish, and the English 'grouper' does not ",
+   "Salt has no quantity or unit in either language.",
+   "Turkish step 2 'dipli bir tencere' is unnatural; 'dibi kalın bir tencere' is the usual phrasing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

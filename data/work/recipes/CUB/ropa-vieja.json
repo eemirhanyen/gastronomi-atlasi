@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "800 g dana bonfile yerine dana düz bonfile (flank)",
+   "800 g dana düz bonfile (flank)",
    "1,5 l su",
    "2 defne yaprağı",
    "100 g soğan (et suyu için)",
@@ -25,7 +25,7 @@
    "3 yemek kaşığı zeytinyağı (45 ml)",
    "2 yemek kaşığı salça (30 g)",
    "1 tatlı kaşığı öğütülmüş kimyon",
-   "1 tatlı kaşığı kuru kekik veya kekik benzeri kuru kekik",
+   "1 tatlı kaşığı kuru oregano",
    "120 ml kuru beyaz şarap",
    "400 g domates püresi (passata)",
    "80 g çekirdeksiz yeşil zeytin, ikiye bölünmüş",
@@ -62,7 +62,7 @@
    "Eti bir tabağa alın ve iki çatal yardımıyla lifler yönünde ince şeritler halinde parçalayın.",
    "Geniş bir tavada zeytinyağını orta-yüksek ateşte ısıtın. 150 g ince doğranmış soğanı ve biber şeritlerini ekleyip 8 dakika, yumuşayıp hafifçe renk alana kadar soteleyin.",
    "Sarımsakları ekleyip 1 dakika daha karıştırın. Salçayı ekleyin ve 2 dakika, rengi koyulaşana kadar pişirin.",
-   "Kimyonu, kekiği ve karabiberi ekleyip bir dakika kadar kavurun. Beyaz şarabı dökün ve sıvının yarısı kalana kadar 2 dakika kaynatın.",
+   "Kimyonu, oregano'yu ve karabiberi ekleyip bir dakika kadar kavurun. Beyaz şarabı dökün ve sıvının yarısı kalana kadar 2 dakika kaynatın.",
    "Domates püresini, ayırdığınız 250 ml et suyunu ve parçalanmış eti tavaya ekleyin. Karıştırıp orta-düşük ateşte, sos koyulaşana kadar yaklaşık 20 dakika pişirin.",
    "Zeytinleri ve kaperleri ekleyin, 5 dakika daha pişirin. Tuzunu ve karabiberini tatmaya göre ayarlayın.",
    "Sıcak pilavın yanında servis yapın."
@@ -83,5 +83,16 @@
   "tr": "Eti lif yönünde parçalamak, pişmiş dokusunu bozmadan daha yumuşak ve lifli bir sonuç verir. Eti haşlama suyunda bekletmek lezzeti artırır.",
   "en": "Shred the beef along the grain so the strands stay long and tender. Letting it rest in its cooking liquid keeps it moist and more flavourful."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'dana bonfile yerine dana düz bonfile (flank)' contains a leftover phrase that reads as a substitution note and is unclear; it should simply name the cut.",
+   "Turkish ingredient says 'kuru kekik veya kekik benzeri kuru kekik' (dried thyme or thyme-like dried herb), which is redundant and contradicts the English 'dried oregano'.",
+   "Turkish step 6 uses 'kekiği' (thyme) while the English step uses 'oregano', so the two versions disagree on the herb.",
+   "Oregano is the traditional herb in ropa vieja, so the Turkish version should match it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A soft, colourful steamed cake of rice flour and coconut milk, built up in thin layers. It is served in Brunei and Malaysia during festivals such as Hari Raya, at weddings and when guests visit."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -47,8 +47,8 @@
    "Hamuru eşit iki kaseye bölün. Birine yeşil, diğerine pembe gıda boyasını ekleyip karıştırın. Eritilmiş tereyağının yarısını (25 g) her kaseye ekleyip iyice karıştırın.",
    "20 cm'lik kare kalıbın tabanını ve kenarlarını hafifçe yağlayın, tabanına pişirme kağıdı serin.",
    "Büyük bir kapta suyu kaynatın, buharlık tepsisini yerleştirin. Kalıbı buharlığa koyun ve kapağı bezle sarıp kapatın.",
-   "Yeşil hamuru iyice karıştırıp kalıbın tabanına yaklaşık 130 ml dökün. Kapağı kapatıp 3–4 dakika buharda pişirin; yüzey kuruyup sertleşince bir sonraki kata geçin.",
-   "Pembe hamuru karıştırıp aynı şekilde bir kat ekleyin ve 3–4 dakika pişirin. Renkleri sırayla değiştirerek toplam 8 kat hazırlayın; her katta hamuru önce karıştırmayı unutmayın.",
+   "Yeşil hamuru iyice karıştırıp kalıbın tabanına yaklaşık 90 ml dökün. Kapağı kapatıp 3–4 dakika buharda pişirin; yüzey kuruyup sertleşince bir sonraki kata geçin.",
+   "Pembe hamuru karıştırıp aynı şekilde yaklaşık 90 ml'lik bir kat ekleyin ve 3–4 dakika pişirin. Renkleri sırayla değiştirerek toplam 8 kat hazırlayın; her katta hamuru önce karıştırmayı unutmayın.",
    "Son kat piştikten sonra kalıbı buharlıktan çıkarıp oda sıcaklığında en az 1 saat soğutun.",
    "Soğuyan kuih lapis'i kenarlarından bıçakla ayırıp kalıptan çıkarın, keskin bir bıçakla yaklaşık 3 cm'lik karelere kesip servis edin."
   ],
@@ -59,15 +59,25 @@
    "Divide the batter equally between two bowls. Add green colouring to one and pink to the other, stirring well. Stir 25 g of the melted butter into each bowl.",
    "Lightly grease a 20 cm square tin and line the base with baking paper.",
    "Bring water in a large wok or pot to the boil and set a steamer tray in place. Put the tin in the steamer, cover the lid with a cloth to catch condensation, and keep the water simmering.",
-   "Stir the green batter well and pour about 130 ml into the tin. Cover and steam for 3–4 minutes, until the surface is set and no longer wet, then move on to the next layer.",
-   "Stir the pink batter and add a layer the same way, steaming for 3–4 minutes. Keep alternating colours until you have 8 layers, whisking each batter before pouring as the flour settles quickly.",
+   "Stir the green batter well and pour about 90 ml into the tin. Cover and steam for 3–4 minutes, until the surface is set and no longer wet, then move on to the next layer.",
+   "Stir the pink batter and add a 90 ml layer the same way, steaming for 3–4 minutes. Keep alternating colours until you have 8 layers, whisking each batter before pouring as the flour settles quickly.",
    "When the final layer is set, remove the tin from the steamer and cool at room temperature for at least 1 hour.",
    "Loosen the edges with a knife, lift the cake out of the tin and cut into 3 cm squares with a sharp knife before serving."
   ]
  },
  "tip": {
-  "tr": "Her katı tam olarak sıkılaştırmadan bir sonrakini dökmeyin; katlar birbirine yapışmaz ve kesit düzgün görünmez. Hamuru her katta mutlaka karıştırın, çünkü un hızla çöker.",
+  "tr": "Her katı tam olarak sıkılaştırmadan bir sonrakini dökmeyin; katlar birbirine karışır ve kesit düzgün görünmez. Hamuru her katta mutlaka karıştırın, çünkü un hızla çöker.",
   "en": "Make sure each layer is fully set before adding the next, or the layers will blur together. Stir the batter before every layer, as the flour settles quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Batter volume doesn't match the layer count: the batter totals roughly 740 ml of liquid, split into two bowls (about 370 ml each), which gives about 90 ml per layer across 8 layers. The recipe says 13",
+   "Turkish tip says the layers 'yapışmaz' (don't stick together), which contradicts the English ('blur together') and the intended meaning. It should say the layers 'karışır' (blend/mix together).",
+   "time_min of 60 is too short: steaming 8 layers takes about 30-40 minutes, and the recipe requires at least 1 hour of cooling, so the total is around 2 hours."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

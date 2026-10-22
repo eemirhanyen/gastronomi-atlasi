@@ -40,7 +40,7 @@
    "Bir tencerede 1 L suyu kaynatın. Zencefil dilimlerini, tarçını ve karanfilleri ekleyin.",
    "Kapağını kapatıp kısık ateşte 20 dakika kaynatın. Ocağı kapatın.",
    "Kahverengi şekeri ekleyip tamamen eriyene kadar karıştırın.",
-   "500 ml soğuk suyu ekleyerek karışımı ılık hale (yaklaşık 30°C) gelene kadar soğutun.",
+   "Karışıma 500 ml soğuk su ekleyin. Tencereyi soğuk su banyosuna alarak ya da kendi haline bırakarak karışımın ılık hale (yaklaşık 30°C) inmesini bekleyin; mayayı ancak bu sıcaklıkta ekleyin.",
    "Limon suyunu ve limon dilimlerini ekleyin. Kuru mayayı üzerine serpip nazikçe karıştırın.",
    "Ağzını temiz bir bezle örtün ve oda sıcaklığında 12 saat bekleyin. Yüzeyde küçük köpükler ve hafif gazlanma oluşmalıdır.",
    "Sıvıyı süzgeçten geçirerek zencefil, tarçın, karanfil ve limon dilimlerini ayırın. Kapaklı bir şişeye koyun.",
@@ -50,7 +50,7 @@
    "In a pot, bring 1 L of water to a boil. Add the ginger slices, cinnamon stick and cloves.",
    "Cover and simmer gently for 20 minutes. Turn off the heat.",
    "Stir in the brown sugar and keep stirring until fully dissolved.",
-   "Add 500 ml cold water to cool the mixture to lukewarm (about 30°C).",
+   "Add 500 ml cold water to the mixture. Let it cool (standing, or in a cold-water bath) until lukewarm, about 30°C; add the yeast only at this temperature.",
    "Add the lime juice and lime slices. Sprinkle the dry yeast over the surface and stir gently.",
    "Cover the container with a clean cloth and leave at room temperature for 12 hours, until small bubbles form and the liquid is slightly fizzy.",
    "Strain the liquid to remove the ginger, spices and lime slices, then pour it into a lidded bottle.",
@@ -61,5 +61,13 @@
   "tr": "Şişeyi kapaklı ama gaz çıkışına izin verecek şekilde saklayın ve 2 gün içinde tüketin; aksi halde basınç birikebilir.",
   "en": "Store in a lidded bottle and drink within 2 days, opening it carefully to release built-up gas, as pressure can build up over time."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 4 (tr and en): adding only 500 ml of cold water to 1 L of near-boiling liquid gives a mixture of roughly 60–65°C, not 30°C. Yeast added at that temperature would be killed, so the fermentation in"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -21,7 +21,7 @@
    "20 g kapari, süzülmüş ve kıyılmış",
    "10 g harissa",
    "15 ml zeytinyağı",
-   "1 yemek kaşığı (15 g) tereyağı, isteğe bağlı",
+   "1 yemek kaşığı (15 g) tereyağı, eritilmiş, isteğe bağlı",
    "1 yumurta akı (kapatmak için)",
    "Tuz ve karabiber",
    "500 ml ayçiçek yağı (kızartmak için)",
@@ -36,7 +36,7 @@
    "20 g capers, drained and chopped",
    "10 g harissa",
    "15 ml olive oil",
-   "15 g butter, optional",
+   "15 g butter, melted, optional",
    "1 egg white (for sealing)",
    "Salt and black pepper",
    "500 ml sunflower oil (for frying)",
@@ -73,5 +73,13 @@
   "tr": "Yufkayı kenarlarından katlarken çok sıkı çekmeyin; yumurta pişerken genleşip açılabilir. Mühürlemek için yumurta akı yerine az miktarda su da kullanabilirsiniz.",
   "en": "Fold the sheet loosely, as the egg expands when frying and can burst the parcel. If warqa is unavailable, brush two layers of thin filo with a little oil to make it sturdier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Butter is listed as optional and step 2 says to add 'melted' butter, but no step melts it and the ingredient entries do not say it should be melted (TR and EN)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

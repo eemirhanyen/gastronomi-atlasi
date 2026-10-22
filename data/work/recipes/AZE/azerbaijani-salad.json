@@ -48,8 +48,8 @@
    "Salatalığı soyun, uzunlamasına ikiye bölüp küçük küpler halinde doğrayın. Biberi çekirdeklerinden temizleyip aynı boyutta doğrayın.",
    "Dereotu, maydanoz ve kişnişi yıkayıp kurulayın; yaprakları ince ince kıyın.",
    "Hazırlanan domates, salatalık, biber ve soğanı geniş bir kaseye alın. Otları ekleyip hafifçe karıştırın.",
-   "Zeytinyağı, limon suyu, tuz ve karabiberi ayrı bir kapta çırpın, salatanın üzerine dökün ve nazikçe karıştırın.",
-   "Dinlenmesi için 10 dakika buzdolabında bekletin. Servisten hemen önce isteğe bağlı nar tanelerini serpip sunun."
+   "Zeytinyağı, limon suyu ve karabiberi ayrı bir kapta çırpın, salatanın üzerine dökün ve nazikçe karıştırın.",
+   "Dinlenmesi için 10 dakika buzdolabında bekletin. Servisten hemen önce tuzu ekleyip isteğe bağlı nar tanelerini serpin ve sunun."
   ],
   "en": [
    "Finely dice the red onion, rinse twice under cold water and drain. Leave it to rest for 5 minutes to mellow its sharpness.",
@@ -57,13 +57,21 @@
    "Peel the cucumbers, halve them lengthways and dice into small cubes. Remove the seeds from the pepper and dice it to the same size.",
    "Wash and dry the dill, parsley and coriander, then chop the leaves finely.",
    "Put the prepared tomato, cucumber, pepper and onion into a large bowl. Add the herbs and toss gently.",
-   "Whisk the olive oil, lemon juice, salt and black pepper in a small bowl, pour over the salad and mix gently.",
-   "Chill for 10 minutes so the flavours meld. Just before serving, scatter over the pomegranate seeds if using."
+   "Whisk the olive oil, lemon juice and black pepper in a small bowl, pour over the salad and mix gently.",
+   "Chill for 10 minutes so the flavours meld. Just before serving, add the salt, scatter over the pomegranate seeds if using, and serve."
   ]
  },
  "tip": {
   "tr": "Salatanın suyunun çıkmaması için domatesin çekirdeklerini almak ve tuzu servisten hemen önce eklemek önemlidir.",
   "en": "Remove the tomato seeds and add the salt just before serving so the salad does not become watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to add salt just before serving to prevent a watery salad, but step 6 (TR and EN) adds salt with the dressing and step 7 chills it for 10 minutes, so the steps contradict the tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

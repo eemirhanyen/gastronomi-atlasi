@@ -48,8 +48,16 @@
   ]
  },
  "tip": {
-  "tr": "Geleneksel yöntemde muzlar bananas yaprağına sarılıp buharda pişirilir; yaprak yoksa folyo ile de benzer bir tat ve doku elde edebilirsiniz.",
+  "tr": "Geleneksel yöntemde muzlar muz yaprağına sarılıp buharda pişirilir; yaprak yoksa folyo ile de benzer bir tat ve doku elde edebilirsiniz.",
   "en": "Traditionally the bananas are wrapped in banana leaves and steamed; if you cannot find leaves, foil gives a similar texture and gentle flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contains the English word 'bananas' instead of 'muz'; it should read 'muz yaprağına'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

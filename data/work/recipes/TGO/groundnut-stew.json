@@ -9,7 +9,7 @@
   "en": "A rich stew of chicken simmered in a sauce of peanut butter, tomato and chili, served with rice or pâte. It is a common family lunch or dinner in Togo, especially on weekends and at celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -73,5 +73,13 @@
   "tr": "Yer fıstığı ezmesi sosun dibinde yanabilir; sürekli karıştırın ve ezmeyi mutlaka ılık suyla açarak ekleyin. Acı biberi bütün bırakmak tadı yumuşatır, kesmek ise sosu çok daha acı yapar.",
   "en": "Peanut butter can scorch on the bottom of the pot, so stir often and always thin it with warm water before adding. Leaving the chili whole gives gentle heat; cutting it makes the sauce much hotter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the steps include a 15-minute marinade, about 25 minutes of browning and sautéing, roughly 8 minutes for tomatoes, 40 minutes of simmering and 5 minutes of final reduction, w"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

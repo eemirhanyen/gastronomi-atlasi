@@ -64,7 +64,7 @@
    "Tuz, karabiber, sıvı yağ ve 2 yemek kaşığı suyu ekleyin, malzemeler birbirine karışana kadar yoğurmaya devam edin.",
    "Dinlenen hamuru uzun bir sucuk gibi yuvarlayıp 32 parçaya bölün. Her parçayı avuçlarınızla yuvarlak toplar haline getirin.",
    "Her topu un serptiğiniz tezgâhta 8-9 cm çapında, kenarları biraz ince olan daireler halinde açın.",
-   "Her hamur dairesinin ortasına bir çay kaşığı dolgu koyun. Kenarlarını yukarı kaldırıp sarın ve üstte küçük pileler yaparak kapatın.",
+   "Her hamur dairesinin ortasına 2 çay kaşığı dolgu koyun. Kenarlarını yukarı kaldırıp sarın ve üstte küçük pileler yaparak kapatın.",
    "Buharlık için bir tencereye 3-4 cm su koyup kaynatın. Buharlık tepsisinin tabanını lahana yapraklarıyla kaplayın.",
    "Momoları lahana yapraklarının üzerine aralıklı olarak dizin. Kapağı kapatıp orta-yüksek ateşte yaklaşık 12 dakika buharda pişirin.",
    "Sos için domatesleri, yeşil biberi, sarımsağı, kişniş ve tuzu ezerek ya da blenderdan geçirerek kaba bir püre hazırlayın.",
@@ -76,7 +76,7 @@
    "Add the black pepper, vegetable oil and 2 tbsp water to the filling and keep mixing until everything is well combined.",
    "Roll the rested dough into a long log and divide it into 32 pieces. Shape each piece into a smooth ball with your palms.",
    "On a floured surface, roll each ball into a circle about 8-9 cm across, keeping the edges slightly thinner than the centre.",
-   "Place about 1 tsp of filling in the middle of each circle. Lift the edges up around the filling and pleat them together at the top to seal.",
+   "Place about 2 tsp of filling in the middle of each circle. Lift the edges up around the filling and pleat them together at the top to seal.",
    "Bring 3-4 cm of water to a boil in a pot fitted with a steamer. Line the steamer basket with the cabbage leaves.",
    "Arrange the momo on the cabbage leaves, leaving space between them. Cover and steam over medium-high heat for about 12 minutes.",
    "For the sauce, crush or blend the tomatoes, green chili, garlic, coriander and salt into a rough, chunky sauce.",
@@ -87,5 +87,13 @@
   "tr": "Hamuru çok ince açmayın; ince hamur buharda yırtılabilir. Hamur sert ve kolay açılabilir kıvamda olmalı.",
   "en": "Do not roll the wrappers too thin, or they may tear during steaming. The dough should be firm but easy to roll."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Filling amount doesn't match the wrapper count: 350 g of pork divided across 32 momos is about 11 g each, but the steps say about 1 tsp (roughly 5 g) per momo, which would leave most of the filling un"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

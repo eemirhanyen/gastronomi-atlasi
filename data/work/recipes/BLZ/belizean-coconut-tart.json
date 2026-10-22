@@ -9,7 +9,7 @@
   "en": "A sweet, shortcrust-based tart filled with coconut, popular across Belize in Creole and Garifuna kitchens. It is commonly sold at markets and served with coffee in the afternoon or at celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -48,7 +48,7 @@
    "Un, toz şeker ve bir tutam tuzu bir kaseye alın. Soğuk tereyağını parmak uçlarınızla unun içine ovalayarak galeta unu kıvamına getirin.",
    "Yumurta sarısını ve soğuk suyu ekleyip hızlıca yoğurun. Hamur toplanınca streç filmle sarın ve 30 dakika buzdolabında dinlendirin.",
    "Fırını 180°C'ye ısıtın. Hamuru un serpilmiş bir yüzeyde 3 mm kalınlığında açın ve 20 cm'lik tart kalıbına yerleştirin. Tabanını çatalla delin ve 10 dakika dinlendirin.",
-   "Hamurun üzerine yağlı kağıt serin ve kuru fasulye veya seramik ağırlıklar koyarak 15 dakika kör pişirin. Kağıdı ve ağırlıkları çıkarıp 5 dakika daha pişirin, sonra bir kenara alın.",
+   "Hamurun üzerine yağlı kağıt serip kuru fasulye veya seramik ağırlıklar koyarak 15 dakika kör pişirin. Kağıdı ve ağırlıkları çıkarıp 5 dakika daha pişirin, sonra bir kenara alın.",
    "Büyük bir kapta rendelenmiş hindistancevizi, koyu kahverengi şeker, muskat ve tuzu karıştırın.",
    "Ayrı bir kapta hindistancevizi sütünü, yumurtayı, eritilmiş tereyağını ve vanilya özünü iyice çırpın. Bu karışımı kuru malzemelerin üzerine dökün ve karıştırın.",
    "Dolguyu hazırladığınız tart kabuğunun içine yayın ve üzerini eşit şekilde düzeltin.",
@@ -69,5 +69,14 @@
   "tr": "Hindistancevizini kuru tavada birkaç dakika hafifçe kavurursanız tart çok daha güçlü bir aroma kazanır.",
   "en": "Lightly toast the desiccated coconut in a dry pan for 2-3 minutes before mixing for a much deeper, nuttier flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the recipe includes a 30-minute chill, 15 minutes of blind baking, 5 more minutes, and 25-30 minutes of filling bake, so the total is about 90 minutes",
+   "Turkish step 4 uses \"serin\" (\"cool\") where \"sererek\" or \"serip\" (\"spread\") is needed for laying the baking paper over the pastry"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

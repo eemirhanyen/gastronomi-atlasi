@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "1 kg kemikli dana incik veya göğüs eti",
+   "1 kg kemikli dana incik veya dana omuz eti",
    "2 litre su",
    "10 g iri taneli tuz (yaklaşık 2 tatlı kaşığı)",
    "300 g beyaz mısır unu (phuthu için)",
@@ -37,10 +37,10 @@
    "Eti süzgeçle çıkarın ve 10 dakika soğumaya bırakın. Kemik ve sert damarları ayırın, suyu tencerede saklayın.",
    "Eti parmaklarınızla lifleri ayırarak parçalayın, ardından havanda tokmakla dövün ya da ince doğrayın.",
    "Dövülmüş eti 250 ml et suyuyla birlikte tencereye geri koyun, kalan tuzu ekleyin ve karıştırarak 10 dakika daha pişirin. Nemli ve yumuşak olunca tadına bakıp tuzunu ayarlayın.",
-   "Phuthu için 750 ml suyu kaynatın, mısırununu azar azar ekleyip sürekli karıştırarak ilave edin.",
+   "Phuthu için 750 ml suyu kaynatın, mısır ununu azar azar ekleyip sürekli karıştırarak ilave edin.",
    "Ateşi kısın ve tahta kaşıkla 15-20 dakika karıştırın; kıvam alıp tencerenin kenarlarından ayrılınca ocaktan alın ve 5 dakika dinlendirin.",
    "Ispanağı ya da yabani yeşillikleri yıkayın, kuru bir tavada yapraklarında kalan su ile 3-4 dakika soteleyin, süzüp ince doğrayın.",
-   "Seswaa'yı phuthu ve morogo ile birlikte sıcak servis yapın."
+   "Seswaa'yı phuthu ve morogo ile birlikte sıcak servis edin."
   ],
   "en": [
    "Put the beef and 2 litres of water in a large pot and bring to a boil over high heat.",
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Eti kemikli ve yağlı bir parça seçin; kemik ve yağ suya tat ve yumuşaklık kazandırır. Dövme işlemini tamamen ele bırakmayın, etin lifli ama dağılmayan bir kıvamda olması seswaa'nın karakteridir.",
+  "tr": "Eti kemikli ve yağlı bir parça seçin; kemik ve yağ suya tat ve yumuşaklık kazandırır. Dövme işlemini aşırıya kaçırmayın; etin lifli ama dağılmayan, nemli bir kıvamda olması seswaa'nın karakteridir.",
   "en": "Choose bone-in, fatty cuts; the bone and fat add flavour and keep the meat tender. Don't over-process the meat: it should be fibrous and moist, not mushy, which is the true character of seswaa."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says \"Dövme işlemini tamamen ele bırakmayın\", which means 'don't leave the pounding entirely to hand', the opposite of the English 'Don't over-process the meat'. Corrected to say don't ove",
+   "Turkish ingredient says \"göğüs eti\" (brisket), but the English says \"chuck\", which is the shoulder cut (omuz eti). Corrected the Turkish to \"omuz eti\" to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

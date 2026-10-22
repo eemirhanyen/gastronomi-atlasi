@@ -14,13 +14,11 @@
  "ingredients": {
   "tr": [
    "1000 ml tam yağlı inek sütü",
-   "150 g tam yağlı, canlı kültürlü sade yoğurt (başlangıç kültürü olarak)",
-   "1 yemek kaşığı (15 g) önceki partiden ikivuguto veya yoğurt (isteğe bağlı, kültürü güçlendirmek için)"
+   "150 g tam yağlı, canlı kültürlü sade yoğurt (başlangıç kültürü olarak)"
   ],
   "en": [
    "1000 ml whole cow's milk",
-   "150 g full-fat plain yogurt with live cultures (as the starter)",
-   "1 tablespoon (15 g) ikivuguto from a previous batch or yogurt (optional, to strengthen the culture)"
+   "150 g full-fat plain yogurt with live cultures (as the starter)"
   ]
  },
  "steps": {
@@ -47,5 +45,13 @@
   "tr": "Bir sonraki partinin başlangıç kültürü olarak 1 yemek kaşığı ikivuguto ayırıp buzdolabında saklayın; her yeni partide kültürü bu şekilde sürdürebilirsiniz.",
   "en": "Set aside 1 tablespoon of finished ikivuguto and refrigerate it to use as the starter for your next batch, so you can keep the culture going."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Optional ingredient '1 yemek kaşığı ikivuguto veya yoğurt' (Turkish) / '1 tablespoon ikivuguto from a previous batch' (English) is listed but never used in the steps. The starter is already the 150 g "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

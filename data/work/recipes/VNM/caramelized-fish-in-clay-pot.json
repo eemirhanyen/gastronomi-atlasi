@@ -13,10 +13,9 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "700 g yağsız balık (basa veya lüfer benzeri beyaz et, dilim halinde)",
+   "700 g beyaz etli, yağsız balık (basa gibi, dilim halinde)",
    "80 g şeker",
    "60 ml balık sosu",
-   "20 ml su (toz şeker ile karamel için)",
    "240 ml sıcak su (60 ml karamel için, 180 ml pişirme için)",
    "15 ml bitkisel yağ",
    "4 adet arpacık soğanı, ince doğranmış (yaklaşık 100 g)",
@@ -60,5 +59,14 @@
   "tr": "Karamelin yanmasını önlemek için şekeri ilk aşamada karıştırmayın; koyu kehribar renge geldiğinde hemen sıvıyı ekleyin, aksi halde sos acı tat verir.",
   "en": "Do not stir the sugar as it caramelizes, and add the liquid as soon as it turns deep amber; otherwise the sauce will taste bitter. A clay pot holds heat evenly, but a heavy pan works well too."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list has an extra \"20 ml su\" line that is not in the English list or used in the steps (the caramel uses 60 ml water, as the steps state).",
+   "Turkish fish description \"yağsız balık (basa veya lüfer benzeri...)\" is contradictory: lüfer is an oily fish, not a lean white fish like basa."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

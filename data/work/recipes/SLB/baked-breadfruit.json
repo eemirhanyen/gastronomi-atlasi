@@ -6,7 +6,7 @@
  "native": "bred frut",
  "desc": {
   "tr": "Solomon Adaları'nda ekmek ağacı meyvesi, geleneksel olarak sıcak toprak fırında veya açık ateşte pişirilir ve günlük yemeklerin yanında garnitür olarak sunulur. Yumuşak, hafif tatlımsı ve nişastalı içi, tuzlu kookos kreması ile çok severek yenir.",
-  "en": "In the Solomon Islands, breadfruit is traditionally cooked in an earth oven or over an open fire and served as a everyday side dish alongside fish and root vegetables. Its soft, mildly sweet, starchy flesh is often eaten with a little salt or coconut cream."
+  "en": "In the Solomon Islands, breadfruit is traditionally cooked in an earth oven or over an open fire and served as an everyday side dish alongside fish and root vegetables. Its soft, mildly sweet, starchy flesh is often eaten with coconut cream and a little salt."
  },
  "servings": 4,
  "time_min": 60,
@@ -22,7 +22,7 @@
   "en": [
    "1 mature but firm breadfruit (about 1.2 kg)",
    "2 banana leaves (about 40 cm each) or aluminium foil",
-   "1 teaspoon vegetable oil",
+   "1 teaspoon olive oil",
    "150 ml coconut cream",
    "1/2 teaspoon salt"
   ]
@@ -31,7 +31,7 @@
   "tr": [
    "Fırını 200°C'ye ısıtın.",
    "Ekmek ağacı meyvesini bol suyla yıkayıp kurulayın. Yapışkan lateks özsuyu ellerinize bulaşabileceği için eldiven takın veya ellerinizi az miktar zeytinyağı ile yağlayın.",
-   "Meyvenin üst kısmına birkaç derin çizik atarak yüzeyini çatlatın.",
+   "Meyvenin üst kısmına birkaç derin çizik atarak yüzeyinde kesikler açın; bu, eşit pişmesini sağlar ve buharın çıkmasına izin verir.",
    "Muz yapraklarını kısa süre ateşin üzerinde ya da sıcak bir tavada hafifçe ısıtarak esnekleştirin, sonra meyveyi yaprağa sarın. Yaprak yoksa meyveyi alüminyum folyoya iyice sarın.",
    "Sarılı meyveyi fırın tepsisine koyun ve 45-55 dakika pişirin. Bir şiş veya bıçak batırdığınızda içi kolayca yumuşamalıdır.",
    "Meyveyi fırından çıkarıp 10 dakika dinlendirin. Sonra yaprağı ya da folyoyu açın, kabuğunu soyun ve sapını çıkarın.",
@@ -53,5 +53,16 @@
   "tr": "Ekmek ağacı lateksi çok yapışkandır; bıçağınıza ve ellerinize zeytinyağı sürmek, soyma işini çok kolaylaştırır.",
   "en": "Breadfruit sap is very sticky; rubbing your knife and hands with oil makes peeling much easier."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English ingredient says 'vegetable oil' but the Turkish says 'zeytinyağı' (olive oil), and the tip and step 2 use olive oil.",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'.",
+   "English description says the flesh is eaten 'with a little salt or coconut cream', but the Turkish says it is eaten with salted coconut cream. The two should match.",
+   "Step 3 in English gives a second purpose for the cuts (letting steam escape), which is missing from the Turkish. 'Yüzeyini çatlatın' is also an unnatural way to say it."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

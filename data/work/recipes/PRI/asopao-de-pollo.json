@@ -9,7 +9,7 @@
   "en": "A beloved Puerto Rican dish: a thick, brothy rice soup of chicken flavored with sofrito, olives and capers. It is typically served hot at lunch and at weekend family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -82,8 +82,17 @@
   ]
  },
  "tip": {
-  "tr": "Asopao kıvamı pirinç kabuğunu da içine alarak zamanla koyulaşır; servisten önce kıvam çok koyu kalırsa biraz sıcak su ekleyin.",
+  "tr": "Asopao kıvamı pirincin nişastasıyla zamanla koyulaşır; servisten önce kıvam çok koyu kalırsa biraz sıcak su ekleyin.",
   "en": "The asopao keeps thickening as the rice sits, so stir in a splash of hot water before serving if it becomes too stiff."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: the listed steps alone take about 65-70 minutes, before prep",
+   "Turkish tip says the thickening comes from the rice 'kabuğu' (husk/skin); the starch from the rice is what thickens the soup, so the wording is wrong"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

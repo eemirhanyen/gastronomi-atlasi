@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "4 adet yumuşak beyaz sandviç ekmeği (broodje), yaklaşık 80'er g",
-   "16 adet lightly salted ringa balığı fileto (matjes), toplam yaklaşık 200 g",
+   "16 adet hafif tuzlanmış ringa balığı fileto (matjes), toplam yaklaşık 200 g",
    "1 orta boy kuru soğan (yaklaşık 100 g), ince halka halinde doğranmış",
    "8 adet küçük kornişon turşusu (augurk), boyuna dilimlenmiş, toplam yaklaşık 60 g",
    "20 g tereyağı, oda sıcaklığında"
@@ -31,9 +31,9 @@
   "tr": [
    "Ringa balığı filetolarını soğuk suyun altında hafifçe durulayıp kağıt havluyla kurulayın. Çok tuzlu hissederseniz 10 dakika soğuk suda bekletip süzün.",
    "Kuru soğanı soyup çok ince halka halinde doğrayın.",
-   "Kornişon turşularını boyuna ikiye veya üçe, ince dilimler halinde kesin.",
+   "Kornişon turşularını boyuna ince dilimler halinde kesin.",
    "Ekmekleri, tamamen kesmeden ortadan boylamasına açın. İç kısmını hafifçe tereyağıyla yağlayın.",
-   "Her ekmeğin alt tarafına 4 fileto yerleştirin. Üzerine soğan halkalarından ve turşu dilimlerinden yayın.",
+   "Her ekmeğin alt tarafına 4 fileto yerleştirin. Üzerine soğan halkalarını ve turşu dilimlerini ekleyin.",
    "Ekmeği hemen servis edin. Geleneğe uygun olarak, sandviçi kuyruğundan tutup başı geriye doğru yiyin."
   ],
   "en": [
@@ -49,5 +49,15 @@
   "tr": "Sirkede değil, tuzlu salamura edilmiş (matjes) ringa balığı kullanın; bu, sokak tezgâhlarındaki tadın en yakın ev versiyonudur.",
   "en": "Use lightly salted matjes herring rather than vinegar-pickled fillets to get the closest match to the street-stall flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains untranslated English (\"lightly salted\"), which is unnatural Turkish.",
+   "Gherkin cutting method differs: Turkish step 3 says cut lengthwise into two or three pieces, while the English step says thin strips lengthwise and the ingredient says boyuna dilimlenmiş.",
+   "Turkish step 5 phrasing (\"Üzerine ... yayın\") is awkward; minor but worth smoothing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

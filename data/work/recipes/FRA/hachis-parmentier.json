@@ -17,7 +17,7 @@
    "40 g tereyağı, üstüne 20 g ilave",
    "120 ml ılık süt",
    "500 g dana kıyma",
-   "1 orta boy soğan (about 150 g), ince doğranmış",
+   "1 orta boy soğan (yaklaşık 150 g), ince doğranmış",
    "2 diş sarımsak, ince doğranmış",
    "1 yemek kaşığı zeytinyağı",
    "150 ml kırmızı şarap",
@@ -79,5 +79,13 @@
   "tr": "Püreyi çok fazla yoğurmayın; kıvamını korumak ve kıymanın üzerinde kabarık bir tabaka oluşturmak için sıcak ve pürüzsüz tutmak en iyisidir.",
   "en": "Do not overwork the mash. Keep it warm and fluffy so it spreads easily and bakes into a light, golden crust."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains the English word \"about\" in the onion entry (\"1 orta boy soğan (about 150 g)\"); it should read \"yaklaşık 150 g\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

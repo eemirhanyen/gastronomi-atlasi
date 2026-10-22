@@ -41,7 +41,7 @@
    "Dilimlenmiş patatesleri geniş bir kaseye alın, üzerine soğanı ekleyin.",
    "Sıcak suyu, sirkeyi, yağı, tuzu ve karabiberi karıştırıp patateslerin üzerine dökün.",
    "Patatesleri kaşığın arkasıyla yavaşça karıştırın; dilimler bozulmasın diye sert karıştırmayın.",
-   "Salatayı oda sıcaklığında 30 dakika dinlendirerek tatların sindirmesini sağlayın.",
+   "Salatayı oda sıcaklığında 30 dakika dinlendirerek tatların sinmesini sağlayın.",
    "Servis öncesi doğranmış maydanozu serpip hafifçe karıştırın ve hemen sunun."
   ],
   "en": [
@@ -59,5 +59,13 @@
   "tr": "Patatesleri sıcakken soyup dilimleyin ve sıcak suyu üzerine dökün; böylece sosu daha iyi emerler. Slovenya'da kabak çekirdeği yağı kullanmak daha otantik bir tat verir.",
   "en": "Peel and slice the potatoes while still warm and dress them with hot stock so they absorb the dressing better. Pumpkin seed oil gives a more authentic, nutty flavour if you can find it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says the flavours should 'sindirmesini' (digest), which is the wrong word for a dressing soaking into the potatoes; 'sinmesini' is the natural term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

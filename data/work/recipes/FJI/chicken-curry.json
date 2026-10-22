@@ -9,7 +9,7 @@
   "en": "A slow-simmered curry from Fiji's Indo-Fijian community, traditionally served at weekend lunches and family gatherings with rice or roti. It descends from recipes brought by Indian indentured labourers in the 19th century."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -62,7 +62,7 @@
  "steps": {
   "tr": [
    "Tavuk parçalarını tuz ve yarım çay kaşığı kurkumayla ovalayın ve 10 dakika bekletin.",
-   "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Tarçın, karanfil ve köri yapraklarını ekleyip 30 saniye kavurun.",
+   "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Tarçın, karanfil ve varsa köri yapraklarını ekleyip 30 saniye kavurun.",
    "Soğanları ekleyip altın rengi alana kadar, yaklaşık 8 dakika karıştırarak pişirin.",
    "Sarımsak ve zencefili ekleyin, bir dakika daha kavurun.",
    "Kalan kurkuma, kimyon, kişniş, acı toz biber ve köri tozunu ekleyip yağ ayrılana kadar 1-2 dakika kavurun.",
@@ -75,7 +75,7 @@
   ],
   "en": [
    "Rub the chicken pieces with the salt and half the turmeric, then leave to rest for 10 minutes.",
-   "Heat the oil in a wide pot over medium-high heat. Add the cinnamon, cloves and curry leaves and fry for 30 seconds.",
+   "Heat the oil in a wide pot over medium-high heat. Add the cinnamon, cloves and curry leaves (if using) and fry for 30 seconds.",
    "Add the onions and cook, stirring, for about 8 minutes until golden brown.",
    "Stir in the garlic and ginger and cook for another minute.",
    "Add the remaining turmeric, cumin, coriander, chilli powder and curry powder and fry for 1-2 minutes until the oil separates from the paste.",
@@ -91,5 +91,14 @@
   "tr": "Kemikli tavuk budu kullanın; kemik ve deri sosa daha fazla tat ve kıvam kazandırır. Köri tozunu kavururken yağın ayrıldığını görene kadar pişirmek aroması açığa çıkarır.",
   "en": "Use bone-in thighs; the bone and skin give the sauce more flavour and body. Frying the spices until the oil separates releases their aroma and prevents a raw, dusty taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the listed steps: the 10-minute rest, about 67 minutes of cooking, and prep add up to roughly 90 minutes.",
+   "Curry leaves are marked optional in the ingredient lists, but steps 2 (both languages) add them unconditionally."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

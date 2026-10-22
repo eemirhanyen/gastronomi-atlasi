@@ -52,7 +52,7 @@
  "steps": {
   "tr": [
    "Dana etini tuz, karabiber, kimyon ve kekiğin yarısıyla iyice ovalayın, oda sıcaklığında 30 dakika dinlendirin. Fırını 160°C'ye ısıtın.",
-   "Geniş ve dibi kalın, fırına uygun bir tencereye şekeri ve suyu koyun. Orta ateşte, karıştırmadan, koyu kehverengi bir karamel elde edene kadar pişirin (yaklaşık 8 dakika).",
+   "Geniş ve dibi kalın, fırına uygun bir tencereye şekeri ve suyu koyun. Orta ateşte, karıştırmadan, koyu kahverengi bir karamel elde edene kadar pişirin (yaklaşık 8 dakika).",
    "Karamel kıvamına gelince ateşi kısın, tencereye sıvı yağı ekleyin ve dikkatli olarak eti karamelin içinde çevirerek her tarafını kaplayın.",
    "Ateşi orta-yüksek yapın ve eti her yüzü 3 dakika kızartarak kabuk tutturun. Eti bir tabağa alın.",
    "Aynı tencerede soğan ve yeşil biberi 5 dakika yumuşayana kadar soteleyin. Sarımsağı ekleyip 1 dakika daha kavurun.",
@@ -75,7 +75,16 @@
  },
  "tip": {
   "tr": "Karamelin yanma noktasına gelmesine dikkat edin; acı değil, derin bir kahverengi renk ve hafif tatlı-aromatik bir tat hedefleyin. Eti kesmeden önce dinlendirmek suyunu liflerde tutar.",
-  "en": "Take the caramel to a deep brown just before it burns; you want colour and a slightly bitter-sweet depth, not black smoke. Resting the beef before slicing keeps its juices in the meat."
+  "en": "Take the caramel to a deep brown just before it burns; you want colour and a slightly sweet, aromatic depth, not black smoke or bitterness. Resting the beef before slicing keeps its juices in the meat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a typo: \"kehverengi\" should be \"kahverengi\".",
+   "The tip disagrees between languages: the English says \"bitter-sweet depth\", but the Turkish says \"acı değil\" (not bitter) and \"hafif tatlı-aromatik\" (lightly sweet and aromatic)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

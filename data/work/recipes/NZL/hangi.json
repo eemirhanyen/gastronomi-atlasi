@@ -64,7 +64,7 @@
  "steps": {
   "tr": [
    "Fırını 160°C'ye ısıtın.",
-   "Yağı, ezilmiş sarımsağı, kuru kekiği, kuru biberiyeyi, tuzu ve karabiberi bir kasede karıştırın. Bu karışımı domuz eti ve tavuk budu parçalarının üzerine iyice sürün ve 30 dakika oda sıcaklığında bekletin.",
+   "Yağı, ezilmiş sarımsağı, kuru kekiği, kuru biberiyeyi, tuzu ve karabiberi bir kasede karıştırın. Bu karışımı domuz eti ve tavuk budu parçalarının üzerine iyice sürün ve buzdolabında en az 30 dakika bekletin.",
    "Dolma için tereyağını bir tavada eritin, doğranmış soğanı yumuşayana kadar yaklaşık 5 dakika kavurun.",
    "Soğanlı tavaya bayat ekmeği, kuru adaçayını, tuzu ve sıcak suyu ekleyin. Karıştırıp 5 dakika dinlendirin, sonra elinizle bir top haline getirin.",
    "Derin bir fırın tepsisinin dibine marine ettiğiniz et parçalarını yerleştirin. Kumara, patates, balkabağı ve havucu etlerin etrafına dizin, en üste lahana parçalarını koyun.",
@@ -75,7 +75,7 @@
   ],
   "en": [
    "Preheat the oven to 160°C.",
-   "In a bowl, mix the oil, crushed garlic, dried thyme, dried rosemary, salt and black pepper. Rub this all over the pork and chicken pieces and leave to marinate at room temperature for 30 minutes.",
+   "In a bowl, mix the oil, crushed garlic, dried thyme, dried rosemary, salt and black pepper. Rub this all over the pork and chicken pieces and refrigerate for at least 30 minutes to marinate.",
    "For the stuffing, melt the butter in a frying pan and soften the chopped onion over medium heat for about 5 minutes.",
    "Add the torn bread, dried sage, salt and hot water to the onion. Stir, rest for 5 minutes, then shape into a ball with your hands.",
    "Arrange the marinated meat in the base of a deep roasting tin. Place the kūmara, potatoes, pumpkin and carrots around the meat, and lay the cabbage wedges on top.",
@@ -89,5 +89,13 @@
   "tr": "Gerçek hāngi toprak ve sıcak taşla pişirilir; evde buharın kaçmaması için folyo kenarlarını iyi kapatın ve fırın kapağını pişirme sırasında açmayın.",
   "en": "A real hāngi is cooked in a pit with hot stones; at home, seal the foil edges well and avoid opening the oven door during cooking so the steam stays trapped."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Raw pork and chicken are marinated for 30 minutes at room temperature, which is a food-safety risk. The marinating step should be done in the refrigerator (Turkish and English versions)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -44,8 +44,8 @@
    "Hamuru 12 eşit topa bölün. Her topu avucunuzla yaklaşık 10 cm çapında, kenarları inceltilmiş bir disk haline getirin.",
    "Her diskin ortasına yaklaşık 2 yemek kaşığı iç harç koyun. Diski ikiye katlayıp kenarlarını parmaklarınızla sıkıca kapatın, ardından kenarları kıvırarak mühürleyin. Hava kalmamasına dikkat edin.",
    "Kızartma yağını geniş ve derin bir tencerede 180 °C'ye ısıtın.",
-   "Hamur kapaklarını yağa birer birer koyun ve her iki yüzü altın rengi olana kadar yaklaşık 4-5 dakika kızartın.",
-   "Kızaran hamur kapaklarını kağıt havlu serili bir tabağa alıp fazla yağını süzdürün. Sıcak servis yapın."
+   "Hamur paketlerini yağa birer birer koyun ve her iki yüzü altın rengi olana kadar yaklaşık 4-5 dakika kızartın.",
+   "Kızaran hamur paketlerini kağıt havlu serili bir tabağa alıp fazla yağını süzdürün. Sıcak servis yapın."
   ],
   "en": [
    "Mix the flour, salt, lukewarm water and vegetable oil in a bowl. Knead for about 8 minutes until smooth and elastic, then cover with cling film and rest for 20 minutes.",
@@ -61,5 +61,13 @@
   "tr": "Kızartırken yağ sıcaklığını 180 °C civarında tutun; yağ çok düşükse hamur yağ çeker, çok yüksekse iç kısım pişmeden dış kısım kararır.",
   "en": "Keep the oil around 180 °C: if it is too cool the dough absorbs grease, and if too hot the outside burns before the meat is cooked through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 calls the dumplings 'hamur kapakları' (dough lids), an unnatural calque. 'Hamur paketleri' is the natural term, matching the English 'dumplings'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

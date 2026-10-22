@@ -55,7 +55,7 @@
    "Sarımsak, ezilmiş acı biber ve soğanı ekleyip yaklaşık 30 saniye, kokusu çıkana kadar hızla soteleyin.",
    "Tavuk etini ekleyip 2-3 dakika, dışı kızarıp içi neredeyse pişene kadar karıştırarak kavurun.",
    "Kırmızı biberi ve çin brokolisi saplarını ekleyip 1 dakika daha çevirin.",
-   "Hazırladığınız sosu tavaya dökün, ardından pirinç eriştelerini ekleyin. Eriştelerin sosu emmesi için 2-3 dakika, sık sık karıştırarak kavurun.",
+   "Hazırladığınız sosu tavaya dökün, ardından pirinç eriştelerini ekleyin. Eriştelerin sosu emmesi ve kenarlarının hafif kömürleşmesi için 2-3 dakika, ara sıra çevirerek kavurun.",
    "Çin brokolisi yapraklarını ve kutsal fesleğen yapraklarını ekleyip ateşten almadan önce 30 saniye daha karıştırın.",
    "Hemen servis yapın."
   ],
@@ -66,7 +66,7 @@
    "Add the garlic, crushed chilies and onion and stir-fry quickly for about 30 seconds, until fragrant.",
    "Add the chicken and stir-fry for 2-3 minutes, until the outside is browned and the inside is nearly cooked through.",
    "Add the red bell pepper and Chinese broccoli stems and toss for another minute.",
-   "Pour in the prepared sauce, then add the rice noodles. Stir-fry for 2-3 minutes, tossing often, so the noodles absorb the sauce.",
+   "Pour in the prepared sauce, then add the rice noodles. Stir-fry for 2-3 minutes, tossing only occasionally so the noodles absorb the sauce and develop slightly charred edges.",
    "Add the Chinese broccoli leaves and holy basil and toss for 30 seconds more before removing from the heat.",
    "Serve immediately."
   ]
@@ -75,5 +75,13 @@
   "tr": "Eriştelerin yapışmaması için tavayı çok sık karıştırmayın; yüksek ateşte bırakıp kenarlardan çevirerek hafif kömürleşmiş bir tat elde edin.",
   "en": "Use very high heat and let the noodles sit briefly between tosses to develop slight charred edges, which give the dish its signature smoky flavor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 says to toss the noodles 'often' (tr: 'sık sık karıştırarak', en: 'tossing often'), which contradicts the tip advising against frequent stirring so the noodles can char. Both languages are affe"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

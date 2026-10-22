@@ -20,7 +20,7 @@
    "15 g tereyağı",
    "1 yumurta",
    "1 ½ çay kaşığı tuz",
-   "½ çay kaşığı çörek otu değil, öğütülmüş karabiber",
+   "½ çay kaşığı öğütülmüş karabiber",
    "½ çay kaşığı öğütülmüş Jamaika biberi (piment)",
    "2 adet Jamaika biberi tanesi (bütün)",
    "1 defne yaprağı",
@@ -59,7 +59,7 @@
    "Pirinci yıkayıp 150 ml tuzlu suda 10-12 dakika, suyunu çekene kadar pişirin. Süzün ve ılımaya bırakın.",
    "Tereyağını küçük bir tavada eritin, soğanı ekleyip 5 dakika yumuşayana kadar kavurun. Soğumaya bırakın.",
    "Büyük bir kapta kıymayı, pişmiş pirinci, soğanı, yumurtayı, tuzu, karabiberi ve Jamaika biberi tozunu iyice yoğurun.",
-   "Harcı 12 eşit parçaya bölün (yaklaşık 35 g). Her yaprağın sap tarafına bir parça harcı koyun, kenarlarını içe katlayın ve sıkıca sarın.",
+   "Harcı 12 eşit parçaya bölün (yaklaşık 55-60 g). Her yaprağın sap tarafına bir parça harcı koyun, kenarlarını içe katlayın ve sıkıca sarın.",
    "Sarmaları dikiş tarafı aşağı gelecek şekilde geniş bir tencereye dizin. Aralarına bütün Jamaika biberlerini ve defne yaprağını ekleyin. Üzerine sıcak et veya sebze suyunu dökün, suyun sarmaların yarısını kapladığından emin olun.",
    "Kapağını kapatıp çok kısık ateşte, hafifçe kaynayacak şekilde yaklaşık 45 dakika pişirin. Sarmaları bir tabağa alıp sıcak tutun ve pişirme suyunu süzerek 300 ml ayırın.",
    "Sos için küçük bir tencerede tereyağını eritin, unu ekleyip 1 dakika kavurun. Çırparak ayırdığınız 300 ml pişirme suyunu yavaş yavaş ekleyin ve yoğun kıvam alana kadar 3 dakika kaynatın.",
@@ -71,7 +71,7 @@
    "Rinse the rice and cook it in 150 ml salted water for 10–12 minutes until the water is absorbed. Drain if needed and let it cool slightly.",
    "Melt the butter in a small pan, add the onion and fry for about 5 minutes until soft. Leave to cool.",
    "In a large bowl, mix the minced meat, cooked rice, onion, egg, salt, black pepper and ground allspice until well combined.",
-   "Divide the filling into 12 equal portions (about 35 g each). Place a portion near the stem end of each leaf, fold in the sides and roll up tightly.",
+   "Divide the filling into 12 equal portions (about 55–60 g each). Place a portion near the stem end of each leaf, fold in the sides and roll up tightly.",
    "Arrange the rolls seam-side down in a wide pot. Add the whole allspice berries and the bay leaf. Pour over the hot stock so it covers about half the rolls.",
    "Cover and simmer very gently, just below a boil, for about 45 minutes. Transfer the rolls to a plate and keep warm. Strain the cooking liquid and set aside 300 ml.",
    "For the sauce, melt the butter in a small saucepan, stir in the flour and cook for 1 minute. Gradually whisk in the 300 ml reserved cooking liquid and simmer for 3 minutes until thickened.",
@@ -83,5 +83,14 @@
   "tr": "Lahana yapraklarını haşlarken sap kısmını yumuşatmak için tencereyi tam kaynamadan önce kısın; yapraklar yırtılmadan rahatça sarılır.",
   "en": "Simmer the rolls very gently rather than boiling them hard; this keeps the leaves intact and the filling tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for black pepper is garbled ('çörek otu değil' means 'not nigella seed'), while the English says ground black pepper. Turkish corrected to 'öğütülmüş karabiber'.",
+   "Filling portion size is inconsistent with the ingredients. 400 g meat, roughly 150 g cooked rice, ~100 g onion and an egg make about 650-700 g of filling, so 12 portions would be about 55-60 g each, n"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

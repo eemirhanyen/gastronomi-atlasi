@@ -5,7 +5,7 @@
  },
  "native": "Conkies",
  "desc": {
-  "tr": "Barbados'ta kabak, tatlı patates, hindistan cevizi ve mısır ununun tarçın ve muskatla tatlandırılıp muz yaprağına sarılarak haşlanmasıyla yapılan geleneksel bir tatlıdır. Ada'da özellikle bayramlarda, aile toplantılarında ve Noel dönemlerinde ikram edilir.",
+  "tr": "Barbados'ta kabak, tatlı patates, hindistan cevizi ve mısır ununun tarçın ve muskatla tatlandırılıp muz yaprağına sarılarak haşlanmasıyla yapılan geleneksel bir tatlıdır. Ada'da özellikle tatil günlerinde, aile toplantılarında ve Noel dönemlerinde ikram edilir.",
   "en": "A traditional Barbadian dessert made from grated pumpkin, sweet potato, coconut and cornmeal, spiced with cinnamon and nutmeg, wrapped in banana leaves and boiled. It is served on holidays, at family gatherings and especially around Christmas."
  },
  "servings": 4,
@@ -49,7 +49,7 @@
    "Mısır unu, esmer şeker, kuru üzüm, tarçın, muskat ve tuzu ekleyip homojen hale gelene kadar karıştırın.",
    "Eritilmiş tereyağı, hindistan cevizi sütü ve vanilya özünü ilave edin. Ellerinizle yoğurun; karışım nemli, yumuşak ve bastırınca şekil alan bir hamur kıvamına gelmelidir. Çok kuruysa birkaç yemek kaşığı su ekleyin.",
    "Muz yapraklarını bir bezle silin, ocak alevinin üzerinde ya da sıcak suda 30 saniye kadar yumuşatın ve 30 cm'lik kareler halinde kesin.",
-   "Her yaprağın ortasına yaklaşık 75 g hamuru yerleştirin. Yaprağı dikdörtgen bir paket olacak şekilde katlayın ve mutfak ipiyle sıkıca bağlayın.",
+   "Her yaprağın ortasına yaklaşık 145 g hamuru yerleştirin. Yaprağı dikdörtgen bir paket olacak şekilde katlayın ve mutfak ipiyle sıkıca bağlayın.",
    "Büyük bir tencerede suyu kaynatın, paketleri ekleyin ve kısık ateşte 50-60 dakika haşlayın. Su azalırsa sıcak su ilave edin.",
    "Paketleri çıkarıp yaklaşık 10 dakika dinlendirin, ardından açarak ılık ya da oda sıcaklığında servis yapın."
   ],
@@ -58,7 +58,7 @@
    "Add the cornmeal, brown sugar, raisins, cinnamon, nutmeg and salt, and stir until evenly combined.",
    "Stir in the melted butter, coconut milk and vanilla extract. Work the mixture with your hands into a soft, moist dough that holds its shape when pressed. If it is too dry, add a tablespoon or two of water.",
    "Wipe the banana leaves clean, soften them over a flame or in hot water for about 30 seconds, then cut into 30 cm squares.",
-   "Place about 75 g of the mixture in the centre of each leaf. Fold the leaf into a rectangular parcel and tie firmly with kitchen string.",
+   "Place about 145 g of the mixture in the centre of each leaf. Fold the leaf into a rectangular parcel and tie firmly with kitchen string.",
    "Bring a large pot of water to the boil, add the parcels and simmer gently for 50 to 60 minutes, topping up with hot water if the level drops.",
    "Remove the parcels, rest them for about 10 minutes, then unwrap and serve warm or at room temperature."
   ]
@@ -67,5 +67,14 @@
   "tr": "Muz yaprağı kullanırken kenarlarından yırtılmaması için ısıtarak yumuşatın; yaprağın aroması tatlıya hafif bir tat kazandırır.",
   "en": "Warm banana leaves before folding so they do not crack; they add a subtle aroma, but foil works well if leaves are unavailable."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Quantity mismatch: 8 parcels at about 75 g each uses only about 600 g of the roughly 1.1 kg of mixture the ingredients produce, so the filling per parcel is far too small.",
+   "Turkish description says 'bayramlarda' (Islamic festival holidays), which does not match the English 'holidays' and is culturally misleading for Barbados."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -46,32 +46,42 @@
  "steps": {
   "tr": [
    "Patlıcanların saplarını alın ve boyuna 5 mm kalınlığında ince dilimler kesin.",
-   "Dilimleri bir tabağa dizin, her iki yüzüne de tuz serpin ve yaklaşık 20 dakika dinlendirin. Çıkan acı suyu kağıt havluyla silin.",
+   "Dilimleri bir tabağa dizin, her iki yüzüne de yarım tatlı kaşığı tuz serpin ve yaklaşık 20 dakika dinlendirin. Çıkan acı suyu kağıt havluyla silin.",
    "Geniş bir tavada ayçiçek yağını orta-yüksek ateşte 180 °C'ye yakın ısıtın. Patlıcan dilimlerini partiler halinde iki yüzü de altın rengi olana kadar kızartın.",
    "Kızarmış dilimleri emici kağıt üzerinde süzün ve tamamen soğumasını bekleyin.",
    "Ceviz ezmesi için cevizleri mutfak robotunda un kıvamına gelene kadar çekin. Sarımsakları ezerek ekleyin.",
-   "Kişnişi ve maydanozu ince ince doğrayıp cevizli karışıma ekleyin.",
+   "Kişnişin yarısını ve tüm maydanozu ince ince doğrayıp cevizli karışıma ekleyin; kalan kişnişi servis için ayırın.",
    "utskho suneli, öğütülmüş kişniş tohumu, pul kırmızı biber, sirke ve 1 tatlı kaşık tuzu ilave edin.",
    "Soğuk suyu azar azar ekleyerek sürülebilir, yumuşak bir kıvam elde edene kadar karıştırın.",
    "Soğumuş patlıcan dilimlerinin bir yüzüne ceviz ezmesinden bir kaşık sürün ve dilimi ruloya sarın ya da ikiye katlayın.",
-   "Ruloları bir servis tabağına dizin, üzerine nar tanelerini ve kalan kişnişten birkaç yaprak serpin. Oda sıcaklığında servis yapın."
+   "Ruloları bir servis tabağına dizin, üzerine nar tanelerini ve ayırdığınız kişniş yapraklarını serpin. Oda sıcaklığında servis yapın."
   ],
   "en": [
    "Trim the eggplants and slice them lengthwise into 5 mm thin slices.",
-   "Arrange the slices on a plate, sprinkle both sides with salt, and let them rest for about 20 minutes. Pat off the bitter liquid with kitchen paper.",
+   "Arrange the slices on a plate, sprinkle both sides with 1/2 tsp salt, and let them rest for about 20 minutes. Pat off the bitter liquid with kitchen paper.",
    "Heat the sunflower oil in a wide pan over medium-high heat to about 180 °C. Fry the eggplant slices in batches until golden on both sides.",
    "Drain the fried slices on paper towels and let them cool completely.",
    "For the walnut paste, grind the walnuts in a food processor until they form a fine meal. Crush the garlic and add it to the processor.",
-   "Finely chop the coriander and parsley and add them to the walnut mixture.",
+   "Finely chop half the coriander and all the parsley and add them to the walnut mixture; set the remaining coriander aside for garnish.",
    "Add the utskho suneli, ground coriander seed, chili flakes, vinegar and 1 tsp of the salt, and pulse to combine.",
    "Add the cold water gradually while processing until you have a thick, spreadable paste.",
    "Spread a spoonful of walnut paste over one side of each cooled eggplant slice, then roll it up or fold it in half.",
-   "Arrange the rolls on a serving plate, scatter with pomegranate seeds and the remaining coriander leaves, and serve at room temperature."
+   "Arrange the rolls on a serving plate, scatter with pomegranate seeds and the reserved coriander leaves, and serve at room temperature."
   ]
  },
  "tip": {
   "tr": "Patlıcanları kızartmadan önce iyice kurulayın; nemli dilimler yağı fazla çeker ve ezmeye sürerken dağılır.",
   "en": "Dry the eggplant slices thoroughly before frying; damp slices soak up excess oil and tear when you spread the paste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is not split clearly: 1,5 tsp total is listed, but step 7 uses 1 tsp and step 2 gives no amount for the eggplant salting, so the remaining 1/2 tsp is unaccounted for.",
+   "Step 6 adds all the chopped coriander to the walnut paste, but step 10 garnishes with 'the remaining' coriander, which was never set aside.",
+   "Turkish and English step 2 and step 6 need the same corrections, so both versions are updated."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

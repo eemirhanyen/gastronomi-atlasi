@@ -80,8 +80,16 @@
   ]
  },
  "tip": {
-  "tr": "Pirinci pişerken kapağı açmayın ve karıştırmayın; bu, altının tutunmasını sağlayan kısa bir buğulama süresi verir.",
+  "tr": "Pilav pişerken kapağı açmayın ve karıştırmayın; bu kısa buğulama süresi, tencerenin dibinde hafif kavrulmuş bir tabaka oluşmasını ve tanelerin yumuşak kalmasını sağlar.",
   "en": "Keep the lid on and do not stir while the rice cooks; this steaming step gives the tender grains and the lightly crisp bottom that Panamanian cooks look for."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses \"altının\" (which reads as \"of the gold\") for the bottom of the rice, and \"altının tutunmasını\" is unnatural. The English tip describes a lightly crisp bottom, so the Turkish should sa"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

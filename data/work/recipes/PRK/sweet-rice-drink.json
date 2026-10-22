@@ -9,7 +9,7 @@
   "en": "A traditional Korean drink made by fermenting cooked rice with malt until it becomes a lightly sweet, fragrant liquid. It is served chilled after meals and during holidays and celebrations in both North and South Korea."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 480,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -34,7 +34,7 @@
    "Malt tozunu soğuk suya ekleyip elinizle iyice karıştırın ve yaklaşık 2 saat bekletin.",
    "Malt suyunu bir kaseye süzün, katı kısımları bir kenara bırakın. Berrak sıvıyı geniş bir tencereye alın.",
    "Tenceredeki malt suyunu kısık ateşte 55–60 °C'ye kadar ısıtın ve bu sıcaklıkta tutun. Termometre yoksa parmağınızla sıcak ama dayanabileceğiniz bir sıcaklık olmalı.",
-   "Pirinci cooked haline getirin, soğuk suyla durulayın ve süzün. Pişmiş pirinci malt suyuna ekleyip karıştırın.",
+   "Pirinci pişirin, soğuk suyla durulayın ve süzün. Pişmiş pirinci malt suyuna ekleyip karıştırın.",
    "Karışımı 55–60 °C'de, ara sıra karıştırarak 4–5 saat bekletin. Pirinç taneleri açılıp yüzeye çıktığında ve sıvı tatlandığında hazır demektir.",
    "Karışımı orta ateşte kaynayana kadar ısıtın ve zencefil ile şekeri ekleyin. Şeker eriyene kadar yaklaşık 10 dakika kaynatın.",
    "Ocaktan alıp tamamen soğutun, ardından buzdolabında en az 1 saat soğutun.",
@@ -53,7 +53,17 @@
  },
  "tip": {
   "tr": "Malt suyunu 60 °C'nin üzerine çıkarmayın; yüksek sıcaklık malt enzimlerini öldürür ve içecek tatlanmaz.",
-  "en": "Do not let the malt water exceed about 65 °C; higher heat destroys the enzymes, and the drink will not sweeten."
+  "en": "Do not let the malt water exceed 60 °C; higher heat destroys the enzymes, and the drink will not sweeten."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 contains an untranslated English word ('cooked haline getirin'); should be 'pirinci pişirin'.",
+   "Tip disagrees between versions: Turkish says do not exceed 60 °C, English says about 65 °C. Step 3 holds at 55–60 °C, so the English tip is corrected to 60 °C.",
+   "time_min is 60, but the recipe requires a 2-hour soak, 4–5 hours of fermentation, and at least 1 hour of chilling, so total time is about 7–8 hours. Corrected to 480 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

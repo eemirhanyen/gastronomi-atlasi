@@ -44,7 +44,7 @@
    "Hamur elinize yapışmayı bırakana kadar yaklaşık 5 dakika yoğurun. Hamuru streçle örtüp oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru 1 cm kalınlığında bir yufka gibi açın. Keskin bir bıçakla kenar uzunluğu yaklaşık 8 cm olan üçgenler kesin.",
    "Kızartma yağını derin bir tencerede 170°C'ye kadar ısıtın. Yağa bir parça hamur atarak ısıyı kontrol edin; hemen kabarıp yüzmeli ama çok hızlı renk almamalı.",
-   "Hamur üçgenlerini partiler halinde yağa koyun. Kabarıp altın sarısı olana kadar yaklaşık 2-3 dakika kızartıp bir kez çevirin.",
+   "Hamur üçgenlerini partiler halinde yağa koyun. Kabarıp altın sarısı olana kadar yaklaşık 4-5 dakika kızartıp bir kez çevirin.",
    "Mandazileri delikli kepçeyle çıkarıp kağıt havlu serili bir tabağa alın. Fazla yağlarını süzmelerini bekleyin.",
    "Sıcakken, kahvaltıda çay ya da kahve ile servis yapın."
   ],
@@ -54,7 +54,7 @@
    "Knead the dough for about 5 minutes until it is smooth and no longer sticky. Cover with cling film and rest at room temperature for 30 minutes.",
    "Roll the dough into a sheet about 1 cm thick. Cut into triangles with sides of roughly 8 cm using a sharp knife.",
    "Heat the frying oil in a deep pan to 170°C. Test with a small piece of dough: it should rise to the surface quickly without browning too fast.",
-   "Fry the triangles in batches for 2-3 minutes, turning once, until puffed and golden all over.",
+   "Fry the triangles in batches for about 4-5 minutes, turning once, until puffed and golden all over.",
    "Lift the mandazi out with a slotted spoon and place them on a plate lined with kitchen paper to drain.",
    "Serve warm with tea or coffee for breakfast."
   ]
@@ -63,5 +63,13 @@
   "tr": "Hamuru kesmeden önce iyice dinlendirin; böylece mandaziler daha kabarık olur ve yağı daha az emer.",
   "en": "Let the dough rest fully before cutting; this makes the mandazi puffier and less greasy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 2-3 minutes is too short for 1 cm thick dough triangles; the centres may stay raw. Corrected to 4-5 minutes in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

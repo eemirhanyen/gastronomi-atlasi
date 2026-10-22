@@ -9,7 +9,7 @@
   "en": "A Puerto Rican street food of pork shoulder cubes marinated in garlic, oregano, vinegar and lime, then fried until crisp. It is typically sold at markets, festivals and weekend gatherings, served with rice, tostones or lime wedges."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Domuz omzunun yağlı kısımları kıtır bir dış yüzey verir; etleri tencerede sıkıştırmayın, aksi halde kızarmak yerine buharda pişerler.",
   "en": "Shoulder fat gives the crispiest result, so avoid overcrowding the pot; crowded pork steams instead of frying and loses its crust."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires at least 2 hours of marinating plus about 30 minutes of bringing the meat to room temperature, so the stated total time is misleading."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

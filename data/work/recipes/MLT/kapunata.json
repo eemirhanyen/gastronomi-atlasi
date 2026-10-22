@@ -49,7 +49,7 @@
   "tr": [
    "Patlıcanları 2 cm küp doğrayın, bir kaseye alıp tuzla karıştırın ve 20 dakika dinlendirin. Çıkan acı suyu dökün, patlıcanları kağıt havluyla kurulayın.",
    "Geniş bir tavada 60 ml zeytinyağını kızdırın. Patlıcanları partiler halinde altın rengi olana kadar kızartın, süzgece alın.",
-   "Kalan 40 ml yağda soğan ve keresteyi 8-10 dakika yumuşayana kadar soteleyin. Sarımsağı ekleyip 1 dakika daha çevirin.",
+   "Kalan 40 ml yağda soğan ve kerevizi 8-10 dakika yumuşayana kadar soteleyin. Sarımsağı ekleyip 1 dakika daha çevirin.",
    "Domates salçasını ekleyip 1 dakika kavurun. Doğranmış domatesi ekleyin ve sos koyulaşana kadar yaklaşık 10 dakika pişirin.",
    "Sirke ve şekeri ekleyin, karışımı 2 dakika kaynatın.",
    "Kızartılmış patlıcanları, zeytini ve kaperleri ekleyin. Karıştırıp kısık ateşte 10 dakika pişirin, karabiber ve gerekirse tuzla tatlandırın.",
@@ -69,5 +69,13 @@
   "tr": "Kapunata'yı bir gün önceden hazırlayıp buzdolabında dinlendirirseniz tatlar çok daha iyi harmanlanır; servisten en az 1 saat önce dolaptan çıkarın.",
   "en": "Make kapunata a day ahead and rest it in the fridge; the flavours blend much better. Take it out at least an hour before serving so it is not cold."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says \"keresteyi\" (\"timber\"), which is a mistranslation of \"celery\". It should be \"kerevizi\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

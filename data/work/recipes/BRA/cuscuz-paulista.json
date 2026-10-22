@@ -50,7 +50,7 @@
    "Bezelyeleri süzüp tavaya ekleyin, kıyılmış maydanozu serpin, tuz ve karabiberle tatlandırın. Sosu ocaktan alıp ılık tutun.",
    "Buharda pişirme kabının (cuscuzeira ya da delikli kaplı tencere) altına suyu kaynatın. Nemli mısır ununu kalıba dolgun ve eşit şekilde doldurun, üzerini hafifçe bastırın.",
    "Kapağı kapatıp orta-yüksek ateşte, buhar çıkmaya devam ederken yaklaşık 15-20 dakika pişirin. Kuskusu bir çatalla gevşetip havalandırın.",
-   "Kuskusu geniş bir tabağa ters çevirerek alın ya da kalıptan dilimleyerek servis edin. Üzerine sardalyeli sosu dökün, yumurta dilimlerini, zeytinleri ve dilimlenmiş domatesleri yerleştirin. Sıcak olarak kahvaltıda servis yapın."
+   "Kuskusu geniş bir tabağa ters çevirerek alın ya da kalıptan dilimleyerek servis edin. Üzerine sardalyeli sosu dökün, yumurta dilimlerini ve zeytinleri yerleştirin. Sıcak olarak kahvaltıda servis yapın."
   ],
   "en": [
    "Put the cornmeal and salt in a large bowl. Add the lukewarm water little by little, rubbing with your fingertips until the flour is damp and crumbly like coarse sand. Let it rest for about 10 minutes.",
@@ -60,12 +60,20 @@
    "Drain the peas and add them to the pan with the chopped parsley. Season with salt and black pepper. Remove from the heat and keep the sauce warm.",
    "Bring water to a boil in the bottom of a couscous steamer (cuscuzeira or a pot with a perforated insert). Fill the top with the damp cornmeal evenly and press down lightly.",
    "Cover and steam over medium-high heat for 15-20 minutes, keeping steam flowing. Loosen and fluff the cuscuz with a fork.",
-   "Turn the cuscuz out onto a large plate or slice it from the mould. Spoon the sardine sauce over it and arrange the egg pieces, olives and sliced tomato on top. Serve warm for breakfast."
+   "Turn the cuscuz out onto a large plate or slice it from the mould. Spoon the sardine sauce over it and arrange the egg pieces and olives on top. Serve warm for breakfast."
   ]
  },
  "tip": {
   "tr": "Mısır unu çok ıslanırsa topaklanır; avucunuzda sıkınca hafifçe dağılan bir kıvam yeterlidir. Buharlama sırasında kapağı sık sık açmayın.",
   "en": "If the cornmeal gets too wet it clumps; it should hold together when squeezed but crumble easily. Avoid lifting the lid during steaming so the texture stays fluffy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 8 (tr and en) garnishes with sliced tomato, but the only tomatoes in the recipe are the 2 medium tomatoes diced and cooked into the sauce in step 4. The garnish tomato has no separate quantity an"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

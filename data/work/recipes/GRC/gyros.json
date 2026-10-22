@@ -19,14 +19,14 @@
    "45 ml zeytinyağı (marinasyon için)",
    "1 limonun suyu (yaklaşık 40 ml)",
    "15 ml kırmızı şarap sirkesi",
-   "2 tatlı kaşığı (4 g) kurutulmuş kekik değil, kurutulmuş kekik yerine kurutulmuş kekik değil: 2 tatlı kaşığı kurutulmuş Yunan kekiği (oregano)",
+   "2 tatlı kaşığı (4 g) kurutulmuş Yunan kekiği (oregano)",
    "1 tatlı kaşığı (3 g) tatlı kırmızı biber",
    "8 g tuz",
    "2 g karabiber",
    "250 g süzme yoğurt (Yunan yoğurdu)",
    "1/2 salatalık (yaklaşık 150 g)",
    "2 yemek kaşığı (yaklaşık 6 g) taze dereotu, ince kıyılmış",
-   "1 yemek kaşığı (15 ml) zeytinyağı (tzatziki ve tavada kızartma için, toplam)",
+   "2 tatlı kaşığı (10 ml) zeytinyağı (1 tatlı kaşığı tzatziki, 1 tatlı kaşığı tavada kızartma için)",
    "1 tatlı kaşığı (5 ml) sirke (tzatziki için)",
    "4 adet pita ekmeği",
    "2 domates",
@@ -47,7 +47,7 @@
    "250 g strained Greek yogurt",
    "1/2 cucumber (about 150 g)",
    "2 tbsp (about 6 g) fresh dill, finely chopped",
-   "1 tbsp (15 ml) olive oil (for the tzatziki and frying, total)",
+   "2 tsp (10 ml) olive oil (1 tsp for the tzatziki, 1 tsp for frying)",
    "1 tsp (5 ml) vinegar (for the tzatziki)",
    "4 pita breads",
    "2 tomatoes",
@@ -58,7 +58,7 @@
  "steps": {
   "tr": [
    "Domuz etini lif yönüne ters şekilde 3-4 mm kalınlığında ince dilimler halinde kesin.",
-   "Büyük bir kapta rendelenmiş soğan, minced sarımsak, 45 ml zeytinyağı, limon suyu, sirke, kekik, tatlı kırmızı biber, 8 g tuz ve karabiberi karıştırın.",
+   "Büyük bir kapta rendelenmiş soğan, ince kıyılmış sarımsak, 45 ml zeytinyağı, limon suyu, sirke, kekik, tatlı kırmızı biber, 8 g tuz ve karabiberi karıştırın.",
    "Etleri marinasyona ekleyip iyice bulaştırın, kapağını kapatın ve buzdolabında en az 30 dakika dinlendirin.",
    "Tzatziki için salatalığı rendeleyin, bir bez içinde iyice sıkarak suyunu alın.",
    "Süzme yoğurdu, sıkılmış salatalığı, rendelenmiş 2 diş sarımsağı, dereotunu, 1 tatlı kaşığı sirkeyi, bir tutam tuzu ve 1 tatlı kaşığı zeytinyağını karıştırın. Soğuk servis için buzdolabında bekletin.",
@@ -83,5 +83,16 @@
   "tr": "Etleri marinasyondan sonra çok sıcak tavaya dökün ve gruplar halinde pişirin; tavaya fazla et doldurursanız su salar ve kızarmaz.",
   "en": "Cook the pork in small batches in a very hot pan; overcrowding makes the meat steam and turn grey instead of browning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish oregano ingredient line is garbled (\"kurutulmuş kekik değil, kurutulmuş kekik yerine kurutulmuş kekik değil...\"); it should simply say dried Greek oregano, matching the English.",
+   "Olive oil amount is inconsistent: the ingredient line says 1 tbsp (15 ml) total, but the steps use 1 tsp for the tzatziki and 1 tsp for frying, which is 10 ml.",
+   "Turkish step 2 contains the untranslated English word \"minced\" (should be \"ince kıyılmış\").",
+   "Dish characteristic: authentic gyros is cooked on a vertical spit (kontorosti) and shaved off, which gives its signature texture. This stovetop version is a reasonable home adaptation, but the recipe "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

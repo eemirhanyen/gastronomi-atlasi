@@ -50,7 +50,7 @@
    "Sığır etini, ikiye bölünmüş soğanı, bulyon küpünü, yarım çay kaşığı tuzu ve 500 ml suyla birlikte bir tencereye alın. Kapağı kapalı olarak et yumuşayana kadar, yaklaşık 40-50 dakika kaynatın. Soğanı çıkarıp atın ve yaklaşık 400 ml et suyunu ayırın.",
    "Bu sırada domatesleri, kırmızı biberleri, Scotch bonnet biberlerini, kabaca doğranmış soğanı ve 100 ml suyu blenderdan geçirerek pürüzsüz bir karışım elde edin.",
    "Geniş bir tencerede palmiye yağını orta ateşte yaklaşık 3 dakika ısıtın; yağ hafifçe koyulaşıp çiğ kokusu gidene kadar bekleyin.",
-   "Blendır karışımını ekleyin ve kapağı açık şekilde, sık sık karıştırarak yaklaşık 20 dakika pişirin; yağ karışımın üstüne çıkana kadar devam edin.",
+   "Blender karışımını ekleyin ve kapağı açık şekilde, sık sık karıştırarak yaklaşık 20 dakika pişirin; yağ karışımın üstüne çıkana kadar devam edin.",
    "Salçayı ekleyip 3 dakika kavurun.",
    "Pişmiş eti, ayırdığınız et suyunu, öğütülmüş karidesi, iruyu ve tütsülenmiş balığı ekleyin. Karıştırıp 10 dakika kısık ateşte pişirin.",
    "Doğranmış ıspanak veya ugu yapraklarını ekleyin, yavaşça karıştırıp 5 dakika pişirin. Tadına bakıp gerekirse tuz ekleyin.",
@@ -71,5 +71,13 @@
   "tr": "Palmiye yağını pişirmeden önce ısıtmak, sosun tadındaki çiğ kokuyu azaltır; ugu yoksa ıspanağı son anda eklemek yaprakların rengini ve dokusunu korur.",
   "en": "Heating the palm oil before adding the pepper blend removes its raw taste; if ugu is unavailable, add spinach at the very end to keep its colour and texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 has a typo, 'Blendır', which should be 'Blender' (the blended pepper mixture)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

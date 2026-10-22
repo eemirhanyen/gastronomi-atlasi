@@ -37,13 +37,13 @@
  },
  "steps": {
   "tr": [
-   "Pirinci soğuk suyla 3-4 kez durulayın, süzün ve 30 dakika kadar kurumaya bırakın. Pirinç pişiricisinde veya kalın tabanlı bir tencerede, pirincin üzerini 1 parmak yükseklikte su ile örterek pişirin ve sıcak tutun.",
+   "Pirinci soğuk suyla 3-4 kez durulayın, süzün ve 30 dakika kadar kurumaya bırakın. Pirinç pişiricisinde veya kalın tabanlı bir tencerede, pirincin üzerini yaklaşık 1 cm su ile örterek pişirin ve sıcak tutun.",
    "Tavuğu 2-3 cm'lik parçalara kesin. Soğanı ince dilimleyin. Mitsuba veya yeşil soğanı 2 cm'lik parçalar halinde doğrayın.",
    "Yumurtaları bir kasede çırpın; tamamen pürüzsüz olmasını beklemeyin, sarı ve akı yalnızca birbirine karışana kadar çırpın.",
    "Geniş bir tavada dashi suyu, soya sosu, mirin ve toz şekeri birleştirip orta ateşte kaynatın. Şeker tamamen eriyince soğanı ekleyin ve yaklaşık 3 dakika, soğan yumuşayana kadar pişirin.",
    "Tavuk parçalarını sosa ekleyin ve ateşi orta-düşük seviyeye indirerek yaklaşık 5-6 dakika, tavuk tamamen pişene kadar kapalı kapak altında pişirin.",
-   "Çırpılmış yumurtaların yaklaşık üçte ikisini tavaya yavaşça dökün. Ateşi orta seviyede tutup 30 saniye kadar bekleyin, ardından kapağı kapatıp yumurtalar hafif sertleşip ama henüz tam pişmemişken ocaktan alın (yaklaşık 1 dakika daha).",
-   "Kalan yumurtayı ekleyip aynı şekilde kapak altında yaklaşık 30 saniye pişirin. Yumurtalar kıvamlı ama yarı akışkan olmalıdır.",
+   "Çırpılmış yumurtaların yaklaşık üçte ikisini tavaya yavaşça dökün. Ateşi orta seviyede tutup kapak açık halde 30 saniye kadar bekleyin, ardından kapağı kapatıp yaklaşık 1 dakika daha pişirin; yumurtanın dışı hafif sertleşip ama ortası henüz yumuşak ve hafif akışkan kalmalıdır.",
+   "Kalan yumurtayı ekleyip aynı şekilde kapak altında yaklaşık 30 saniye pişirin, ardından ocaktan alın. Yumurtalar kıvamlı ama yarı akışkan olmalıdır.",
    "Her kaseye sıcak pirinci koyun. Tavadaki tavuk ve soğan karışımını pirincin üzerine dengeli şekilde kaşıkla dökün, yumurtalı kısmı üste gelecek şekilde tavayı pirince kaydırın.",
    "Üzerine doğranmış mitsuba veya yeşil soğanı serpip hemen servis edin."
   ],
@@ -53,7 +53,7 @@
    "Beat the eggs in a bowl until the yolks and whites are just combined; they should stay slightly streaky, not fully smooth.",
    "In a wide pan over medium heat, combine the dashi, soy sauce, mirin and sugar and bring to a simmer. Once the sugar has dissolved, add the onion and cook for about 3 minutes until softened.",
    "Add the chicken to the pan, lower the heat to medium-low and cover. Simmer for 5-6 minutes until the chicken is cooked through.",
-   "Pour about two-thirds of the beaten egg gently over the chicken and onion. Cover and cook for about 30 seconds, then cook for another minute until the egg is set on the outside but still soft and slightly runny in the middle.",
+   "Pour about two-thirds of the beaten egg gently over the chicken and onion. Cook uncovered for about 30 seconds, then cover and cook for another minute until the egg is set on the outside but still soft and slightly runny in the middle.",
    "Pour in the remaining egg, cover and cook for about 30 seconds more, keeping it soft and glossy. Remove from the heat.",
    "Divide the hot rice among four bowls. Spoon the chicken, onion and egg mixture evenly over the rice, sliding the pan so the egg settles on top.",
    "Scatter the chopped mitsuba or spring onion over each bowl and serve immediately."
@@ -63,5 +63,16 @@
   "tr": "Yumurtayı pişirirken ocakta fazla bekletmeyin; ortası hafif akışkan kalmalıdır, çünkü tavada kalan ısı pişmeye devam eder.",
   "en": "Take the pan off the heat while the egg is still slightly runny in the centre, since residual heat will finish cooking it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to remove the pan from the heat, but Turkish step 7 then asks to cook the remaining egg on the heat. The English step 7 removes the pan at the end, so the Turkish version contradic",
+   "Turkish step 7 lacks the final 'remove from heat' instruction present in the English version.",
+   "Turkish step 6 says to keep the heat on for 30 seconds and then cover, but the English says to cover for 30 seconds. The covering order differs between versions.",
+   "Water depth for the rice is '1 parmak' in Turkish but '1 cm' in English. These disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "خبز",
  "desc": {
-  "tr": "Bahreyn ve Körfez mutfağının temel ekmeğidi; ince, yumuşak ve hafif kabarık olan bu yassı ekmek her öğünde, özellikle kahvaltıda, hurma ve peynirle veya yemeklerin sosunu almak için servis edilir.",
+  "tr": "Bahreyn ve Körfez mutfağının temel ekmeğidir; ince, yumuşak ve hafif kabarık olan bu yassı ekmek her öğünde, özellikle kahvaltıda, hurma ve peynirle veya yemeklerin sosunu almak için servis edilir.",
   "en": "Khubz is the everyday bread of Bahrain and the wider Gulf, a thin, soft, lightly puffed flatbread served at most meals, especially with breakfast dates and cheese or to scoop up stews and sauces."
  },
  "servings": 4,
@@ -57,5 +57,13 @@
   "tr": "Ekmeğin şişmesi için fırın tepsisi veya tava iyice sıcak olmalı; hamuru çok ince açmak da kabarmasını kolaylaştırır.",
   "en": "The breads puff best on a very hot surface, so make sure the tray or pan is fully heated, and roll the dough evenly thin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a grammatical error: \"ekmeğidi\" should be \"ekmeğidir\""
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

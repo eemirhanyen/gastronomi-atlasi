@@ -19,7 +19,7 @@
    "400 ml su",
    "80 g sade yağ (ghee)",
    "2 g öğütülmüş kakule",
-   "1 g safran telleri",
+   "0.3 g safran telleri",
    "15 ml ılık su",
    "40 g doğranmış badem veya kaju"
   ],
@@ -30,14 +30,14 @@
    "400 ml water",
    "80 g ghee",
    "2 g ground cardamom",
-   "1 g saffron threads",
+   "0.3 g saffron threads",
    "15 ml warm water",
    "40 g chopped almonds or cashews"
   ]
  },
  "steps": {
   "tr": [
-   "Mısır nişastasını 150 ml soğuk suda tamamen eriterek pürüzsüz bir karışım hazırlayın.",
+   "Mısır nişastasını 150 ml soğuk suda tamamen çözerek pürüzsüz bir karışım hazırlayın.",
    "Safran tellerini 15 ml ılık suda bekletin.",
    "Geniş bir tencerede 400 ml suyu şeker ile birlikte orta ateşte kaynatın ve şeker eriyene kadar karıştırın.",
    "Safranlı suyu ve öğütülmüş kakuleyi tencereye ekleyin.",
@@ -65,5 +65,14 @@
   "tr": "Karışım dibe yapışmasın diye pişirme boyunca sürekli karıştırın; ocağı kısık tutmak hem topaklanmayı hem de yanmayı önler.",
   "en": "Keep stirring throughout cooking and use low heat, as xalwo scorches easily on the bottom of the pan."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Saffron quantity (1 g for 4 servings) is implausibly high; a typical amount is a few tenths of a gram.",
+   "Turkish step 1 uses 'eriterek' (melting), which is the wrong verb for dissolving cornstarch in cold water; 'çözerek' is correct."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "1 kg beyaz yam (ya da 1 kg taze yam), soyulmuş ve küp doğranmış",
+   "1 kg taze beyaz yam, soyulmuş ve küp doğranmış",
    "1 L su (haşlamak için)",
    "150 ml sıcak su (dövme sırasında)",
    "5 g tuz"
@@ -30,7 +30,7 @@
    "Yamı soyun, yıkayın ve yaklaşık 3 cm'lik küpler halinde doğrayın. Suda bekletmeyin, hemen pişirin ki kararmasın.",
    "Büyük bir tencereye 1 L su ve 5 g tuzu koyup kaynatın.",
    "Yam küplerini kaynayan suya ekleyin ve orta ateşte 20-25 dakika, çatalla kolayca delinene kadar haşlayın.",
-   "Yamları süzün ve sıcak haldeyken havanın içinde bekletin; sıcakken dövmek daha kolaydır.",
+   "Yamları süzün ve sıcak haldeyken sıcak tutun; sıcakken dövmek daha kolaydır.",
    "Büyük bir havana ya da ağır bir tokmakla yamları dövmeye başlayın. Dövme sırasında 150 ml sıcak suyu azar azar ekleyerek pürüzsüz, esnek bir hamur elde edene kadar dövün.",
    "Hamur kıvamına gelince elinizi suya batırıp küçük toplar yapın ve servis tabağına alın. Yanına Benin usulü bir sos ile servis yapın."
   ],
@@ -47,5 +47,14 @@
   "tr": "Dövme sırasında elinizi sık sık suya batırın; hamur yapışmaz ve daha pürüzsüz olur.",
   "en": "Dip your hands in water often while shaping and pounding; the dough will not stick and will turn out smoother."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says to leave the yam inside the mortar (\"havanın içinde bekletin\"), while the English says to keep it warm. The two versions disagree.",
+   "Turkish ingredient line 1 is redundant: \"1 kg beyaz yam (ya da 1 kg taze yam)\" offers two alternatives that amount to the same thing."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

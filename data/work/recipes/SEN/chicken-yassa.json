@@ -9,7 +9,7 @@
   "en": "One of Senegal's best-known dishes, yassa is chicken marinated in lemon and mustard, then braised with a large amount of slowly cooked onions. It is eaten across the country at lunch and family gatherings, usually served with rice."
  },
  "servings": 4,
- "time_min": 120,
+ "time_min": 220,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Soğanları acele etmeden, tatlanıp karamelize olana kadar kısık ateşte pişirmek yassanın lezzetinin anahtarıdır.",
   "en": "Cook the onions slowly over low heat until they are sweet and caramelised; this is the key to authentic yassa flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (120) does not include the required 2-hour marination, the onion cooking, browning, and 35-40 minute simmer, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

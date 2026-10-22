@@ -64,7 +64,7 @@
    "Aynı kuru tavada kabak çekirdeğini, susamı, tarçını, karanfili ve karabiber tanelerini kısık-orta ateşte 3-4 dakika, çekirdekler şişip altın rengi alana kadar kavurun. Bir kenara alın. Tortillayı her iki yüzü çıtır olana kadar kavurun ve parçalara ayırın.",
    "Aynı tavada domatesleri, 120 g soğanı ve 3 diş sarımsağı, yüzeyleri kararana kadar yaklaşık 10 dakika çevirerek kavurun. Sarımsakları soyun, soğanı kabaca doğrayın.",
    "Biberleri süzün. Biberleri, kavrulmuş domates, soğan ve sarımsakla, kavrulmuş tohumlar, baharatlar, tortilla ve 300 ml tavuk suyuyla birlikte çok pürüzsüz olana kadar blenderdan geçirin. Gerekirse elekten süzün.",
-   "Yağı bir tencerede orta ateşte ızgara edin. Salçayı yaklaşık 8-10 dakika, koyulaşıp kıvam alana kadar sürekli karıştırarak pişirin.",
+   "Yağı bir tencerede orta ateşte ısıtın. Salçayı yaklaşık 8-10 dakika, koyulaşıp kıvam alana kadar sürekli karıştırarak pişirin.",
    "Kalan tavuk suyunu (yaklaşık 700 ml) ekleyip karıştırın. Patatesleri ekleyin ve 10 dakika kaynatın. Ardından şayoteyi ekleyin ve 10 dakika daha pişirin.",
    "Tavukları tencereye geri koyun ve yaklaşık 10 dakika ısıtın. Tuzunu ayarlayın, kişnişi serpin ve pilav ile tortillayla sıcak servis yapın."
   ],
@@ -83,5 +83,13 @@
   "tr": "Kavurma sırasında kabak çekirdeği ve susamı yanmadan çıkarın; acı tadı sosun tamamını bozar. Soslar ve tohumlar yeterince kavrulduğunda pepián'ın rengi koyu kahverengi olur.",
   "en": "Remove the seeds from the pan as soon as they turn golden; burnt seeds make the whole sauce bitter. Frying the paste until it darkens is what gives pepián its characteristic deep color and flavor."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"Yağı bir tencerede orta ateşte ızgara edin\", but \"ızgara etmek\" means to grill. The intended action is heating the oil in a pot."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

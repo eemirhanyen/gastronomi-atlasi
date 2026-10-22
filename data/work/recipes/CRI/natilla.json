@@ -9,7 +9,7 @@
   "en": "Natilla is a smooth custard thickened with cornstarch and flavoured with cinnamon, lemon peel and vanilla. In Costa Rica it is traditionally served at Christmas and Holy Week family gatherings, often alongside tamales or on its own as dessert."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 240,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -62,8 +62,18 @@
   ]
  },
  "tip": {
-  "tr": "Yumurta sarılarının topaklanmaması için soğuk süt karışımını sıcak sütü sürekli çırparken yavaşça ekleyin; ocakta kaynatmak kıvamı bozmadan koyulaşmasını sağlar.",
-  "en": "To avoid lumps, add the cold mixture to the hot milk very slowly while whisking constantly; the custard thickens fully once it has barely bubbled."
+  "tr": "Yumurta sarılarının topaklanmaması için soğuk süt karışımını sıcak sütü sürekli çırparken yavaşça ekleyin; karışım hafifçe kaynayıp bir dakika kadar böyle kaldığında kıvamını tam alır.",
+  "en": "To avoid lumps, add the cold mixture to the hot milk very slowly while whisking constantly; the custard thickens fully once it has gently bubbled for about one minute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) doesn't include the mandatory chilling of at least 3 hours, so the total time is understated",
+   "English tip says the custard should have 'barely bubbled', but the steps require gentle bubbling for about one minute; the Turkish tip is also vague about this",
+   "Turkish tip sentence about boiling is awkwardly worded and should match the step timing"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

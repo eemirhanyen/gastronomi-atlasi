@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "200 g darı",
-   "750 ml su (darıyı pişirmek için 600 ml, baobab ve yer fıstığı karışımı için 150 ml)",
+   "900 ml su (darıyı pişirmek için 600 ml, baobab karışımı için 150 ml, yer fıstığı karışımı için 150 ml)",
    "1 tutam tuz",
    "100 g tuzsuz yer fıstığı ezmesi",
    "60 g baobab tozu (bouye)",
@@ -23,7 +23,7 @@
   ],
   "en": [
    "200 g millet",
-   "750 ml water (600 ml for cooking the millet, 150 ml for the peanut mixture)",
+   "900 ml water (600 ml for cooking the millet, 150 ml for the baobab mixture, 150 ml for the peanut mixture)",
    "1 pinch salt",
    "100 g unsalted smooth peanut butter",
    "60 g baobab powder (bouye)",
@@ -36,7 +36,7 @@
    "Darıyı soğuk suda iyice yıkayın ve süzün.",
    "Darıyı 600 ml suyla ve bir tutam tuzla orta ateşte kaynatın. Ara ara karıştırarak yaklaşık 25 dakika, darı yumuşayıp suyunu çekene kadar pişirin.",
    "Darıyı ateşten alın, kapağını kapatıp 10 dakika dinlendirin, ardından çatalla kabartarak ılımasını bekleyin.",
-   "Baobab tozunu 300 ml ılık suyla karıştırın; hepsi çözününce ince elekten süzün. Bu, 150 ml'den fazla olacak, fazlasını kıvam için kullanabilirsiniz, ancak ana karışım için 150 ml suyu yer fıstığına ayırın.",
+   "Baobab tozunu 150 ml ılık suyla karıştırın; hepsi çözününce ince elekten süzün ve kenara ayırın.",
    "Yer fıstığı ezmesini 150 ml ılık suyla pürüzsüz olana kadar çırpın.",
    "Geniş bir kapta ılınmış darıyı, yer fıstığı karışımını ve süzülmüş baobab sıvısını birleştirin. Şekeri ekleyip iyice karıştırın.",
    "Portakal çiçeği suyunu ekleyip karışımı kremsi bir kıvam alana kadar birkaç dakika yoğun şekilde çırpın.",
@@ -46,7 +46,7 @@
    "Rinse the millet thoroughly in cold water and drain.",
    "Bring the millet to a boil with 600 ml water and a pinch of salt. Stir occasionally and cook over medium heat for about 25 minutes, until soft and the water is absorbed.",
    "Remove from the heat, cover and rest for 10 minutes, then fluff with a fork and let it cool down.",
-   "Mix the baobab powder with 300 ml warm water until dissolved, then strain through a fine sieve. Set aside.",
+   "Mix the baobab powder with 150 ml warm water until dissolved, then strain through a fine sieve. Set aside.",
    "Whisk the peanut butter with 150 ml warm water until smooth.",
    "In a large bowl, combine the cooled millet, the peanut mixture and the strained baobab liquid. Add the sugar and stir well.",
    "Stir in the orange blossom water and whisk vigorously for a few minutes until the mixture becomes creamy.",
@@ -57,5 +57,15 @@
   "tr": "Baobab tozunu süzmek topaklanmayı önler; tatlı pürüzsüz çıkar ve yer fıstığı ezmesi de kolayca karışır.",
   "en": "Straining the baobab liquid prevents lumps and gives a smooth texture; whisk the peanut paste separately first so it blends evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water quantities don't add up: the ingredient list gives 750 ml total (600 ml for millet, 150 ml for baobab and peanut), but the baobab step uses 300 ml warm water, which is not listed.",
+   "Turkish step 4 is confusing and contradicts the English: it says the baobab liquid will exceed 150 ml and that extra can be used for consistency, while the English step simply uses 300 ml.",
+   "Peanut paste step specifies 150 ml water, but this is not accounted for consistently in the ingredient list, which is the cause of the mismatch above."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

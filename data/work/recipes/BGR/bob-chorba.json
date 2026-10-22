@@ -9,7 +9,7 @@
   "en": "A staple of Bulgarian home cooking, bob chorba is a thick soup of dried white beans finished with a paprika-spiced sauté of onion, carrot and tomato. It is eaten throughout the year, but especially in winter and on fasting days."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -20,7 +20,7 @@
    "3 yemek kaşığı ayçiçek yağı (45 ml)",
    "1 yemek kaşığı tatlı kırmızı biber (yaklaşık 6 g)",
    "2 orta boy olgun domates (300 g), rendelenmiş",
-   "1 tatlı kaşığı kuru çubuk otu (чубрица)",
+   "1 tatlı kaşığı kuru çubuk otu (çubrica)",
    "1 çay kaşığı tuz",
    "1/2 çay kaşığı karabiber",
    "1 adet küçük acı kırmızı biber (isteğe bağlı)",
@@ -48,7 +48,7 @@
    "Ateşi kısın, tencereyi kapatın ve fasulye neredeyse yumuşayana kadar, yaklaşık 45 dakika pişirin.",
    "Bu sırada geniş bir tavada ayçiçek yağını orta ateşte ısıtın. Doğranmış soğanı ve havucu ekleyip yumuşayana ve hafifçe altın rengi alana kadar 6-7 dakika kavurun.",
    "Ocağı kapatın, tatlı kırmızı biberi ekleyip hızla karıştırın. Biber yanmasın diye hemen ardından rendelenmiş domatesi ekleyin.",
-   "Karışımı tekrar orta ateşte 5 dakika pişirerek suyunu çekmesini sağlayın, ardından sosu fasulyenin tencereşine aktarın.",
+   "Karışımı tekrar orta ateşte 5 dakika pişirerek suyunu çekmesini sağlayın, ardından sosu fasulyenin bulunduğu tencereye aktarın.",
    "Kuru çubuk otunu ve karabiberi ekleyip çorbayı 15 dakika daha kısık ateşte pişirin.",
    "Fasulye tamamen yumuşadığında tuzu ekleyin ve karıştırın. Tuzu geç eklemek fasulyenin kabuğunun sertleşmesini önler.",
    "Acı kırmızı biberi bütün halde ekleyip 2 dakika daha pişirin, sonra çıkarın. Sıcak servis yapın, üzerine doğranmış maydanozu serpin."
@@ -69,5 +69,15 @@
   "tr": "Fasulyeyi tamamen yumuşamadan tuzlamayın; erken tuzlanan fasulye sert kalır ve pişmesi uzar.",
   "en": "Do not add salt until the beans are fully tender; salting too early keeps them firm and slows cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains Cyrillic text \"(чубрица)\" in an otherwise Turkish line; it should be a Latin transliteration.",
+   "Turkish step 6 has a typo: \"tencereşine\" should be \"tencerenin içine\" or \"tencereye\".",
+   "time_min is 60, but the steps total about 75 minutes (10 min boil + 45 min simmer + 15 min final simmer, plus the sauce and sauté steps that run in between)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

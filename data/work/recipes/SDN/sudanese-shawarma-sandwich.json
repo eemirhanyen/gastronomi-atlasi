@@ -27,7 +27,7 @@
    "4 adet pide ya da Sudan usulü yassı ekmek (her biri yaklaşık 70 g)",
    "2 domates, dilim dilim doğranmış",
    "150 g yeşil lahana, çok ince doğranmış",
-   "1 küçük kuru soğan, ince dilimlenmiş",
+   "1 küçük kırmızı soğan, ince dilimlenmiş",
    "1 yeşil acı biber, ince halka halka doğranmış",
    "10 g taze maydanoz, ince kıyılmış",
    "80 g mayonez",
@@ -64,9 +64,9 @@
  "steps": {
   "tr": [
    "Bir kapta tavuk şeritleri, rendelenmiş soğan, ezilmiş sarımsak, 40 ml limon suyu, 15 ml yağ, kimyon, kişniş, kırmızı biber, karabiber, kakule ve tuzu iyice karıştırın. Üzerini örtüp buzdolabında en az 30 dakika bekletin.",
-   "Salata için doğranmış lahana, ince dilimlenmiş kuru soğan, yeşil biber halkaları ve maydanozu bir kasede karıştırın. Bir tutam tuz ekleyip bir kenara koyun.",
-   "Sos için mayonez, tahin, 1 yemek kaşığı limon suyu ve 2 yemek kaşığı suyu küçük bir kasede pürüzsüz olana kadar çırpın.",
-   "Geniş bir tavayı yüksek ateşte ısıtın. Kalan 15 ml yağı ekleyin. Tavukları birkaç partide, her seferinde tek kat olacak şekilde ekleyip kenarları kızarana ve yüzeyi hafif karakterize olana kadar yaklaşık 5-6 dakika pişirin. Tavukların iç sıcaklığı 74 °C'ye ulaşmalıdır.",
+   "Salata için doğranmış lahana, ince dilimlenmiş kırmızı soğan, yeşil biber halkaları ve maydanozu bir kasede karıştırın. Bir tutam tuz ekleyip bir kenara koyun.",
+   "Sos için mayonez, tahin, 1 yemek kaşığı limon suyu ve 2 yemek kaşığı su küçük bir kasede pürüzsüz olana kadar çırpın.",
+   "Geniş bir tavayı yüksek ateşte ısıtın. Kalan 15 ml yağı ekleyin. Tavukları birkaç partide, her seferinde tek kat olacak şekilde ekleyip kenarları kızarana ve yüzeyi hafifçe karamelize olana kadar yaklaşık 5-6 dakika pişirin. Tavukların iç sıcaklığı 74 °C'ye ulaşmalıdır.",
    "Ekmekleri fırın tepsisine dizin ve 180 °C'de önceden ısıtılmış fırında 2-3 dakika ısıtın ya da kuru bir tavada her iki yüzünü kısaca ısıtın.",
    "Her ekmeğin içine tahinli mayonez sosundan bir kat sürün, ardından domates dilimleri, pişmiş tavuk ve salatayı yerleştirin.",
    "Üzerine acı biber sosunu gezdirin, ekmeği sıkıca sarın ve hemen servis yapın."
@@ -85,5 +85,15 @@
   "tr": "Tavuğı tavaya fazla doldurmayın; parti parti pişirmek tavukların buharda haşlanmak yerine kızarmasını sağlar.",
   "en": "Do not overcrowd the pan; cooking in batches lets the chicken sear and char rather than steam."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish lists \"1 küçük kuru soğan\" (dry/yellow onion), but the English says \"1 small red onion\"; the Turkish should be \"kırmızı soğan\" (ingredient and salad step).",
+   "Turkish cooking step uses \"karakterize\", which is not natural culinary Turkish; English \"charred\" should be rendered as \"kömürleşmiş/karamelize\" or similar.",
+   "Turkish sauce step says \"2 yemek kaşığı suyu\", which is an odd phrasing; it should be \"2 yemek kaşığı su\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

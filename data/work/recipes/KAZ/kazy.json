@@ -66,8 +66,16 @@
   ]
  },
  "tip": {
-  "tr": "Kazıyı pişirme suyunda soğumaya bırakırsanız lezzeti daha yumuşak olur; dilimlemeden önce tamamen soğutmak, yağın ayrışmadan temiz kesilmesini sağlar.",
-  "en": "Let the kazy cool completely in its cooking liquid before slicing; this keeps the fat from crumbling and gives clean, neat slices."
+  "tr": "Kazıyı pişirme suyunda tamamen soğumaya bırakırsanız yağ ayrışmadan temiz ve düzgün dilimler elde edersiniz. Hemen servis edeceksiniz ise sıcak dilimleyebilirsiniz, ancak dilimler biraz dağılabilir.",
+  "en": "For clean, neat slices, let the kazy cool completely in its cooking liquid before slicing so the fat does not crumble. If serving immediately, you can slice it warm, but the slices may fall apart a little."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts step 9: the steps say to slice warm for immediate service, while the tip says to cool the kazy completely before slicing. Both TR and EN tips have this conflict."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

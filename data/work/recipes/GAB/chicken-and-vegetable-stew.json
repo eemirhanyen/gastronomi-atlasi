@@ -45,7 +45,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını tuz ve karabiberle iyice tatlandırın.",
+   "Tavuk parçalarını tuz ve karabiberle iyice baharatlayın.",
    "Geniş ve kalın tabanlı bir tencerede yağı orta-yüksek ateşte ısıtın. Tavukları partiler halinde, her iki yüzü de altın rengi olana kadar yaklaşık 8 dakika kavurun ve bir kenara alın.",
    "Ateşi kısın, soğanları yumuşayana kadar yaklaşık 6 dakika soteleyin. Sarımsağı ekleyip 1 dakika daha pişirin.",
    "Rendelenmiş domatesi ekleyin ve sos koyulaşana kadar yaklaşık 8 dakika pişirin.",
@@ -71,5 +71,13 @@
   "tr": "Palmiye fındığı püresini Afrika veya Asya market raflarında bulabilirsiniz. Sosun dibinin yanmaması için sık sık karıştırın.",
   "en": "Palm nut paste is sold in African and Asian grocery stores. Stir the sauce often so it does not scorch on the bottom of the pot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 uses \"tatlandırın\", which means \"sweeten\" and is wrong for seasoning with salt and pepper. It should be \"baharatlayın\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

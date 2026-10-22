@@ -9,7 +9,7 @@
   "en": "A one-pot rice dish cooked in a tomato, onion and chili sauce, common across the Gambia and Senegal. It is typically served at family lunches, gatherings and celebrations."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,13 @@
   "tr": "Pirinç tencerenin dibine yapışmasın diye karıştırmadan önce altını iyice kısın; pirinç tabanında hafif bir kıtır tabaka oluşması (socarat) geleneksel olarak çok değer görür.",
   "en": "Keep the heat very low once the rice is covered. A lightly crisped layer at the base of the pot is traditional and prized, so don't stir it once it's cooking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the steps listed: about 15 + 8 + 5 + 15 + 15 + 5 + 25 + 10 minutes is roughly 100 minutes of cooking and resting, before prep"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "Queen conch meat simmered in a tomato-based Creole sauce with onion, peppers and local herbs. It is a seafood staple in Grenada's fishing villages and is often served at Sunday lunches."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 45,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -54,7 +54,7 @@
    "Etleri yıkayıp kurulayın, ardından 1 dakika kadar sert bir ateşte üzerinde hızlıca soteleyip sertleşmeye başlamasını bekleyin, sonra ayırın.",
    "Tencereyi orta-yüksek ateşte ısıtın, bitkisel yağı ekleyin ve soğanı, sarımsağı ve yeşil dolmalık biberi 6-7 dakika soteleyin.",
    "Domates ve domates salçasını ekleyip 5 dakika daha pişirin, ardından kekik, bütün Scotch bonnet biberi, karabiber ve suyu ilave edin.",
-   "Sosu kısık ateşte 10 dakika kaynatın, sonra salyangozları ekleyip kapağını kapatarak 30-35 dakika yumuşayana kadar pişirin.",
+   "Sosu hafifçe kaynatın ve 10 dakika pişirin, ardından salyangozları ekleyip kapağını kapatarak 15-20 dakika, etler yumuşayana kadar pişirin.",
    "Kekik dallarını ve Scotch bonnet biberini çıkarın. Taze soğan ve doğranmış chadon beniyi ekleyip 2 dakika daha pişirin.",
    "Kalan yarım limonun suyunu sıkın, tatmak için tuz ekleyin ve sıcak servis yapın."
   ],
@@ -64,7 +64,7 @@
    "Rinse the conch and pat dry, then sear the pieces in a hot dry pan for about 1 minute until they just firm up. Set aside.",
    "Heat the pan over medium-high heat, add the vegetable oil and sauté the onion, garlic and green bell pepper for 6-7 minutes.",
    "Add the tomatoes and tomato paste and cook for 5 more minutes, then stir in the thyme, the whole Scotch bonnet, the black pepper and the water.",
-   "Simmer the sauce gently for 10 minutes, then add the conch, cover and cook for 30-35 minutes until tender.",
+   "Simmer the sauce gently for 10 minutes, then add the conch, cover and cook for 15-20 minutes until just tender.",
    "Remove the thyme stems and the Scotch bonnet. Stir in the spring onions and chopped chadon beni and cook for 2 more minutes.",
    "Squeeze in the juice of the remaining half lime, adjust the salt to taste and serve hot."
   ]
@@ -73,5 +73,14 @@
   "tr": "Salyangozu fazla pişirmeyin; uzun süren kaynamada et lastik gibi sertleşir. Dövme işlemini yavaş yapıp etleri ince tutmak en iyi sonucu verir.",
   "en": "Do not overcook the conch, as long boiling makes it rubbery. Pound it thin and gently for the most tender result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 simmers the pounded conch (already thinned to about 5 mm) for 30-35 minutes. That is long enough to make it rubbery, which contradicts the tip's warning against overcooking. The simmer time and",
+   "Turkish step 6 says \"kısık ateşte ... kaynatın\", which mixes a gentle simmer with a boil. It should read \"hafifçe kaynatın\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

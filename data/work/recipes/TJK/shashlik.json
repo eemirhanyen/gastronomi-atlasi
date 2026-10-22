@@ -53,7 +53,7 @@
    "Yassı ekmeği ızgarada kısaca ısıtıp şişlerin yanında sıcak olarak sunun."
   ],
   "en": [
-   "Put the grated onion in a bowl, squeeze lightly and keep the juice in the bowl; discard only the pulp if desired.",
+   "Put the grated onion in a bowl and squeeze lightly; do not discard the juice, keep it in the bowl.",
    "Add the lamb, vinegar, oil, salt, black pepper, cumin and chopped coriander to the bowl and mix thoroughly.",
    "Cover and rest for 30 minutes at room temperature, or up to 2 hours in the refrigerator.",
    "Soak wooden skewers in water for 20 minutes. Thread the meat onto the skewers, leaving small gaps between pieces.",
@@ -67,5 +67,13 @@
   "tr": "Eti en az 30 dakika marine etmek, sirkenin ve soğan suyunun yumuşatma etkisiyle daha yumuşak bir sonuç verir; aşırı uzun bekletmeyin, sirke eti yumuşatır ama dokusunu bozabilir.",
   "en": "Marinating for at least 30 minutes lets the vinegar and onion juice tenderise the lamb; avoid marinating much longer, as the acid can make the texture mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 1 says \"discard only the pulp if desired\", which the Turkish version does not say. The Turkish instructs the cook to keep the onion juice and not discard it. The English step is aligned w"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A everyday and festive main from São Tomé and Príncipe, where chicken is braised in palm oil with okra and tomato. The thick, savoury sauce reflects the islands' mix of African, Portuguese and Creole cooking traditions."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -48,7 +48,7 @@
    "Aynı yağda soğanı yumuşayıp hafifçe renk alana kadar yaklaşık 5 dakika kavurun. Sarımsağı ekleyip 1 dakika daha pişirin.",
    "Domates püresini ve acı biberi ekleyin. Yağ sosun yüzüne çıkana kadar yaklaşık 8 dakika pişirin.",
    "Tavukları ve biriken suyu tencereye geri koyun. Suyu ekleyip karıştırın, kapağını kapatın ve kısık ateşte yaklaşık 35 dakika, tavuk çok yumuşayana kadar pişirin.",
-   "Bamyaları ekleyin ve açık kapakla 10 dakika daha pişirin. Bamyalar dolgun ama dişe gelir kalmalıdır; fazla pişirmeyin.",
+   "Bamyaları ekleyin ve açık kapakla 10 dakika daha pişirin. Bamyalar yumuşak ama şekillerini koruyacak kadar dirençli kalmalıdır; fazla pişirmeyin.",
    "Kalan limon suyunu ekleyin, tadına bakıp gerekirse tuz ekleyin ve sıcak servis yapın."
   ],
   "en": [
@@ -62,8 +62,18 @@
   ]
  },
  "tip": {
-  "tr": "Palmiye yağı ağır ve yoğun bir aroma verir; sosun dengede kalması için sarımsağı ve biberi yağa eklemeden önce kısık ateşte yavaşça pişirin.",
+  "tr": "Palmiye yağı ağır ve yoğun bir aroma verir; acılık yapmaması için soğanı ve sarımsağı orta ateşte kavurun. Tatlandırmadan önce sosu tadın, çünkü tavuk ve limon tuzu zaten iyi dengeleyebilir.",
   "en": "Palm oil is strong and heavy, so keep the heat moderate when frying the onion and garlic to avoid bitterness. Taste the sauce before adding extra salt, as the chicken and lime may already season it well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip contradicts the English tip and the steps: it says to cook garlic and chili gently 'before adding them to the oil', but the steps add them to the hot oil. The English tip says to keep the ",
+   "Turkish okra phrasing 'dolgun ama dişe gelir kalmalıdır' is unnatural. It should say the okra stays tender but keeps its shape.",
+   "time_min (75) is lower than the sum of the stated steps: 15 min resting, about 10 min browning, 5+1 min onion and garlic, 8 min tomato, 35 min simmering and 10 min okra, which is about 85 min before p"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

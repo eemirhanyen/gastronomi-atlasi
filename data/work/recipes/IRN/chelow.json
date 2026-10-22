@@ -9,7 +9,7 @@
   "en": "Chelow is Iran's staple rice, made by parboiling long-grain rice and then steaming it in a heavy pot. It is served with kebabs at family meals and celebrations, and its golden, crisp base, called tahdig, is the most prized part."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -50,7 +50,7 @@
    "Pirincin kalanını tencereye kademeli olarak, ortası tepeli olacak şekilde yerleştirin. Kalan 50 g tereyağı ve sıvı yağın bir kısmını üzerine gezdirin.",
    "Pirincin ortasına bir kuyu açın ve safranlı suyun yarısını dökün. Kalan safranlı suyu ve kalan yağı pirincin üzerine gezdirin.",
    "Kapağı bir havlu ile sarıp tencerenin üstüne kapatın. Orta ateşte 5 dakika, ardından kısık ateşte 45 dakika buharda pişirin.",
-   "Kapağı açmadan önce tencerenin dibini hafifçe kontrol edin. Tahdigin altın rengi olduğunu görünce, pirinci servis kabına alın ve tahdigi parçalara ayırarak ayrı servis edin."
+   "Pişirme bittikten sonra kapağı açın ve tencerenin dibindeki tahdigin altın rengi olup olmadığını kontrol edin. Tahdig altın renkteyse pirinci servis kabına alın ve tahdigi parçalara ayırarak ayrı servis edin."
   ],
   "en": [
    "Rinse the rice in cold water 3-4 times, until the water runs clear.",
@@ -62,12 +62,21 @@
    "Add the rest of the rice gradually, shaping it into a mound. Drizzle the remaining 50 g melted butter and some of the oil over it.",
    "Make a well in the centre of the rice and pour half of the saffron water into it. Drizzle the rest of the saffron water and remaining oil over the rice.",
    "Wrap the lid in a towel and place it on the pot. Steam over medium heat for 5 minutes, then over low heat for 45 minutes.",
-   "Before opening the lid, check the base of the pot. When the tahdig is golden, transfer the rice to a serving dish, break the tahdig into pieces, and serve it separately."
+   "When steaming is finished, open the lid and check the base of the pot. If the tahdig is golden, transfer the rice to a serving dish, break the tahdig into pieces, and serve it separately."
   ]
  },
  "tip": {
   "tr": "Kapağı pişirme sırasında açmayın; havluyu kapağın üzerinde tutmak buharın tencereden damlayıp pirinci ıslatmasını önler.",
   "en": "Do not lift the lid during steaming; the towel stops condensation from dripping onto the rice and keeps the grains dry."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too short: the recipe includes a 1-hour soak plus about 50 minutes of steaming, so the total is over 110 minutes.",
+   "Final step says to check the base of the pot 'before opening the lid', which cannot be done without lifting the lid. This also conflicts with the tip not to lift it during steaming. The check should h"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

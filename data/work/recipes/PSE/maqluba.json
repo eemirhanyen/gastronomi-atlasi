@@ -29,7 +29,7 @@
    "1/2 tatlı kaşığı zerdeçal",
    "1/2 tatlı kaşığı karabiber",
    "Kızartmak için yaklaşık 250 ml sıvı yağ",
-   "60 ml sıvı yağ (tavuk ve pirinç için)",
+   "60 ml sıvı yağ (tavuk ve soğan için)",
    "30 g badem dilimi",
    "30 g çam fıstığı",
    "Yarım demet maydanoz (süsleme için)",
@@ -52,7 +52,7 @@
    "1/2 tsp ground turmeric",
    "1/2 tsp black pepper",
    "About 250 ml neutral oil for frying",
-   "60 ml neutral oil (for the chicken and rice)",
+   "60 ml neutral oil (for the chicken and onion)",
    "30 g sliced almonds",
    "30 g pine nuts",
    "Half a bunch of parsley (for garnish)",
@@ -66,7 +66,7 @@
    "Geniş bir tencerede 60 ml yağı ısıtın ve tavuk parçalarını her yüzü altın rengi olana kadar kavurun. Tavuğu bir kenara alın.",
    "Aynı yağa ince doğranmış soğanı ekleyip yumuşayana kadar yaklaşık 5 dakika kavurun. Salçayı ekleyip 1 dakika daha pişirin.",
    "Tavukları tekrar tencereye koyun, 1 litre suyu ekleyin, kalan yenibahar, tarçın, kakule, zerdeçal ve 1 tatlı kaşık tuzu ilave edin. Kapağı kapatıp kısık ateşte yaklaşık 30 dakika pişirin.",
-   "Bu sırada patlıcanları 1 cm kalınlığında boylamasına dilimleyin, tuzlu suda 10 dakika bekletip kurulayın. Patatesleri yarım santim kalınlığında dilimleyin. Karnabaharı küçük çiçeklere ayırın.",
+   "Bu sırada patlıcanları 1 cm kalınlığında boylamasına dilimleyin, üzerlerine tuz serpip 10 dakika bekletin ve kurulayın. Patatesleri yarım santim kalınlığında dilimleyin. Karnabaharı küçük çiçeklere ayırın.",
    "Kızartma yağını büyük bir tavada kızdırın. Patlıcan, patates ve karnabaharı ayrı ayrı altın rengi olana kadar kızartın, kağıt havluya alıp yağını süzdürün.",
    "Tavuk suyunu süzüp 600 ml ayırın (eksik kalırsa biraz sıcak su ekleyin). Tavuk parçalarını bir kenara alın.",
    "Pirinci süzün, 1/2 tatlı kaşık tuz ve tencerede kalan baharatlardan bir tutam ile karıştırın.",
@@ -74,7 +74,7 @@
    "Pirinci sebzelerin üzerine eşit şekilde yayın ve sıcak tavuk suyunu pirinci 1 cm kadar kaplayacak şekilde yavaşça dökün.",
    "Kapağı kapatıp orta ateşte 20 dakika, ardından kısık ateşte 15 dakika pişirin. Ocaktan alıp 10 dakika dinlendirin.",
    "Bu sırada badem ve çam fıstığını yağsız bir tavada hafifçe kavurun.",
-   "Büyük bir servis tabağını tencerenin üzerine kapatın, eliniz ve tabağı tutarak hızlıca ters çevirin. Tencereyi birkaç dakika kaldırarak pirincin tabağa dökülmesini sağlayın.",
+   "Büyük bir servis tabağını tencerenin üzerine kapatın, ellerinizle tabağı ve tencereyi sıkıca tutarak hızlıca ters çevirin. Pirincin tabağa dökülmesi için tencereyi birkaç saniye sonra yavaşça kaldırın.",
    "Kavrulmuş fıstıkları ve doğranmış maydanozu serpip sıcak servis yapın. İsteğe bağlı olarak yanında süzme yoğurt ikram edin."
   ],
   "en": [
@@ -99,5 +99,15 @@
   "tr": "Pirinci tencereden ters çevirmeden önce 10 dakika mutlaka dinlendirin; böylece katmanlar dağılmadan düzgün bir kek gibi çıkar.",
   "en": "Let the pot rest for a full 10 minutes before flipping; this lets the rice set so the layers hold their shape when turned out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English disagree on how to salt the eggplant: TR says soak in salted water, EN says sprinkle with salt",
+   "The 60 ml oil is listed as 'for the chicken and rice', but no step oils the rice; it is only used for browning the chicken and frying the onion",
+   "Turkish flip instruction 'eliniz ve tabağı tutarak' is awkward phrasing"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

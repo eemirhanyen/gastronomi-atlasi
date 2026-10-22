@@ -9,7 +9,7 @@
   "en": "Zelnik is one of North Macedonia's most loved pastries, made by layering thin filo sheets with a filling of white cheese, eggs and yogurt. It is served at breakfast, lunch and when guests visit, often with yogurt or ayran."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,13 @@
   "tr": "Yufkaların kurumaması için çalışırken kullanmadığınız yaprakları nemli bir bezle örtün. Peynir çok tuzluysa tuzu azaltın.",
   "en": "Keep the filo sheets covered with a damp cloth while you work so they do not dry out. If the cheese is very salty, reduce the added salt."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to about 75 minutes: roughly 20 minutes of prep and cooking, 40-45 minutes of baking, and 10 minutes of resting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

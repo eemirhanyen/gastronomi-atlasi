@@ -22,7 +22,7 @@
    "2 yumurta",
    "60 ml bitkisel yağ",
    "3 diş sarımsak, ince kıyılmış",
-   "2 kuru soğan (shallot), ince dilimlenmiş",
+   "2 arpacık soğanı (shallot), ince dilimlenmiş",
    "2 kırmızı acı biber, dilimlenmiş",
    "30 ml sambal oelek",
    "45 ml domates ketçabı",
@@ -60,7 +60,7 @@
    "Erişteleri sıcak su dolu bir kaba koyup 2 dakika bekletin, süzün ve birbirinden ayırın.",
    "Patatesleri 30 ml yağda altın rengi olana kadar yaklaşık 8 dakika kızartın, kağıt havluya alın. Tofuyu aynı yağda kenarları kıtır olana kadar kızartın ve bir kenara koyun.",
    "Küçük bir kapta ketçap, koyu ve açık soya sosu, sambal, şeker ve tavuk suyunu karıştırarak sosu hazırlayın.",
-   "Kalan 30 ml yağı büyük bir wok veya geniş tavada yüksek ateşte ısıtın. Sarımsak, kuru soğan ve kırmızı biberi 1 dakika kavurun.",
+   "Kalan 30 ml yağı büyük bir wok veya geniş tavada yüksek ateşte ısıtın. Sarımsak, arpacık soğanı ve kırmızı biberi 1 dakika kavurun.",
    "Tavuk dilimlerini ekleyip iyice pişene kadar yaklaşık 4 dakika sote edin.",
    "Tavuğu bir kenara itin, boş alana yumurtaları kırıp hafifçe karıştırarak pişirin ve tavuğla birlikte karıştırın.",
    "Lahanayı ekleyip 1 dakika soteleyin, ardından erişteleri ve hazırladığınız sosu ekleyin.",
@@ -85,5 +85,13 @@
   "tr": "Erişteleri fazla ıslatmayın; sosu emip yapışkan hale gelmemeleri için iyice süzülmüş olmaları önemlidir.",
   "en": "Do not over-soak the noodles; they must be well drained so they absorb the sauce without turning sticky."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish 'kuru soğan' means dry onion, not shallot. The correct term is 'arpacık soğanı', which matches the English 'shallots'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "In Djibouti, especially among Somali and Afar communities, camel milk is drunk fresh or lightly sweetened, most often in the morning or at midday. Served cold and scented with cardamom, it is one of the most popular refreshments on hot city days."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -45,5 +45,13 @@
   "tr": "Deve sütü normal inek sütünden daha hızlı ayrışabilir; ısıtırken sürekli karıştırın ve yalnızca güvenilir kaynaklardan, pastörize edilmiş ürünü tercih edin.",
   "en": "Camel milk can separate more easily than cow's milk, so stir while warming it and buy pasteurised milk from a reliable source."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps alone take about 80+ minutes (warming, 5-minute infusion, cooling to room temperature, then at least 1 hour in the fridge)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -36,7 +36,7 @@
    "Tencerenin kapağını kapatıp ambuyatı 5 dakika dinlendirin, ardından kaşıkla kısa kısa bölerek servis kabına alın.",
    "Cuka sosu için kırmızı biberleri, arpacık soğanlarını ve sarımsağı ince doğrayın veya havanda ezin.",
    "Doğranmış malzemeleri limon suyu, soya sosu, şeker ve suyla karıştırın, 10 dakika dinlendirin.",
-   "Sambal belacan için belacanı alüminyum folyo içinde kuru tavada 1 dakika kavurun, acı biberleri ekleyip havanda şeklini bozmadan ezin.",
+   "Sambal belacan için belacanı alüminyum folyo içinde kuru tavada 1 dakika kavurun, acı biberleri ekleyip havanda ezin.",
    "Şeker ve limon suyunu ekleyip karıştırın, sambalı küçük bir kaseye alın.",
    "Ambuyatı bambu çubuklarla (candas) veya çatalla sarın, sosların içine batırarak servis yapın."
   ],
@@ -57,5 +57,13 @@
   "tr": "Ambuyat hamurunu yaparken karıştırmayı bırakmayın; topaklanmayı önlemek için nişastayı yavaş ekleyin ve sıcak pişirilmiş hamuru hemen servis edin, çünkü soğudukça sertleşir.",
   "en": "Keep stirring while the starch goes in and add it slowly to avoid lumps; serve immediately, as ambuyat stiffens as it cools."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says to pound the sambal 'şeklini bozmadan' (without breaking its shape), which contradicts the English 'pound it' and is unnatural for this technique. It should be a plain instruction "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

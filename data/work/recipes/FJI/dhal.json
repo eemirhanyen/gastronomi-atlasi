@@ -54,7 +54,7 @@
    "Pişen nohutu çırpıcı ile hafifçe ezerek kremsi bir kıvam verin.",
    "Küçük bir tavada yağı orta-yüksek ateşte ısıtın. Hardal ve kimyon tohumlarını ekleyip çıtırdayıp patlamaya başlayınca köri yapraklarını ilave edin.",
    "Soğanı altın rengi alana kadar 5-6 dakika kavurun. Sarımsak ve zencefili ekleyip 1 dakika daha pişirin.",
-   "Yeşil biberi ve domatesi ekleyin, domatesler yumuşayıp suyunu çekene kadar 4-5 dakika pişirin.",
+   "Yeşil biberi ve domatesi ekleyin, domatesler yumuşayıp suyunu salana kadar 4-5 dakika pişirin.",
    "Bu tava karışımını sıcak nohut çorbasının içine dökün, karıştırın ve 5 dakika kısık ateşte kaynatın.",
    "Kalan tuzu tadına göre ayarlayın, limon suyunu ekleyin ve kıvamı kontrol edin. Sıcak servis yapın, üzerine kişniş serpin ve pirinç ya da roti ile sunun."
   ],
@@ -70,8 +70,17 @@
   ]
  },
  "tip": {
-  "tr": "Tavaya dökmeden önce yağın çok sıcak olmasına dikkat edin; baharatlar yanarsa tüm çorbanın tadı acılaşır. Çorbayı pirinçle servis ederseniz daha kıvamlı bir kıvam için az su kullanın.",
+  "tr": "Tavaya dökmeden önce yağın çok sıcak olmasına dikkat edin; baharatlar yanarsa tüm çorbanın tadı acılaşır. Çorbayı pirinçle servis ederseniz daha koyu bir kıvam için az su kullanın.",
   "en": "Make sure the oil is hot before adding the spices, but never let them burn, or the whole pot will taste bitter. If serving with rice, keep the dhal thicker by using less water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says the tomatoes should cook until they 'suyunu çekene kadar' (absorb/dry out their juice), but the English says they 'release its juice'. The Turkish should say 'suyunu salana kadar'.",
+   "Turkish tip has a redundant phrase, 'daha kıvamlı bir kıvam'; it should read 'daha koyu bir kıvam' to match the English 'thicker'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

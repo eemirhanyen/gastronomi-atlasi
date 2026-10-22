@@ -6,7 +6,7 @@
  "native": "Raisi ma te ika",
  "desc": {
   "tr": "Tuvalu'da, özellikle adalarda öğle ve akşam yemeklerinde sık yenen, pirinci hindistan cevizi sütüyle pişirip üzerine domatesli ve soğanlı balık eklenen yerel bir ana yemektir. Balık genellikle taze avlanmış ton balığı ya da kırmızı levrek gibi sert etli türlerden yapılır.",
-  "en": "A everyday main eaten across the atolls of Tuvalu, especially for lunch and family dinners. Rice is cooked in coconut milk and topped with a tomato and onion fish stew, usually made with fresh tuna or another firm-fleshed reef fish."
+  "en": "An everyday main eaten across the atolls of Tuvalu, especially for lunch and family dinners. Rice is cooked in coconut milk and topped with a tomato and onion fish stew, usually made with fresh tuna or another firm-fleshed reef fish."
  },
  "servings": 4,
  "time_min": 60,
@@ -49,8 +49,8 @@
    "Pirinci, 300 ml hindistan cevizi sütü, 300 ml su ve 2,5 ml tuzla birlikte geniş bir tencereye alın. Kaynatın, kapağını kapatıp kısık ateşte 15 dakika pişirin, ocaktan alıp kapalı halde 10 dakika dinlendirin.",
    "Balığı limon suyu, karabiber ve kalan tuzla tatlandırıp 10 dakika bekletin.",
    "Yağı orta ateşte bir tencerede ısıtın. Soğanı yumuşayana kadar yaklaşık 5 dakika soteleyin.",
-   "Sarımsak ve kırmızı biberi ekleyip 1 dakika daha pişirin. Domatesleri ekleyin ve suyunu salıncaya kadar yaklaşık 3 dakika pişirin.",
-   "Kalan 100 ml hindistan cevizi sütünü ekleyip hafifçe kaynatın. Balık parçalarını sosun içine yerleştirin ve kısık ateşte 6-8 dakika, balık ete tam dönüşene kadar pişirin.",
+   "Sarımsak ve kırmızı biberi ekleyip 1 dakika daha pişirin. Domatesleri ekleyin ve suyunu salana kadar yaklaşık 3 dakika pişirin.",
+   "Kalan 100 ml hindistan cevizi sütünü ekleyip hafifçe kaynatın. Balık parçalarını sosun içine yerleştirin ve kısık ateşte 6-8 dakika, balık beyazlaşıp kolayca ayrışana kadar pişirin.",
    "Pirinci bir çatalla kabartın ve servis tabaklarına alın. Üzerine balıklı sosu gezdirin, doğranmış taze soğanı serpip sıcak servis yapın."
   ],
   "en": [
@@ -67,5 +67,15 @@
   "tr": "Balığı pişirirken karıştırmayın; sosu kaşığa alıp üzerine dökerek pişirin ki parçalar dağılmasın.",
   "en": "Do not stir the fish once it is in the sauce. Spoon the sauce over the pieces so they stay whole and tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 uses the wrong verb form 'salıncaya kadar'; the natural phrasing is 'suyunu salana kadar'.",
+   "Turkish step 6 'balık ete tam dönüşene kadar' is unnatural; it should say the fish turns opaque and flakes easily, as the English does.",
+   "English description says 'A everyday main'; it should be 'An everyday main'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

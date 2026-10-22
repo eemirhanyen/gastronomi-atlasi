@@ -9,7 +9,7 @@
   "en": "A festive lamb dish served in Mauritania at family gatherings, holidays and when guests are welcomed. The lamb is rubbed with a cumin-spiced paste, slow-roasted until tender, and torn apart to share, usually eaten with bread."
  },
  "servings": 4,
- "time_min": 180,
+ "time_min": 240,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -44,7 +44,7 @@
    "Harcı etin her yerine sürün ve kesiklerin içine iyice itin. Kapatıp oda sıcaklığında 30 dakika dinlendirin.",
    "Fırını 160°C'ye ısıtın.",
    "Soğan halkalarını geniş bir fırın tepsisine yayın, kuzu etini üzerine yerleştirin ve suyu etrafına dökün.",
-   "Tepsiyi sıkıca folyo ile kapatın ve 2 saat pişirin.",
+   "Tepsiyi sıkıca folyo ile kapatın ve 3 saat pişirin.",
    "Folyoyu açın, fırın sıcaklığını 220°C'ye çıkarın ve 20-30 dakika, et kızarıp yumuşayana kadar pişirin. Bu sırada suyu ve tepsideki sosu birkaç kez etin üzerine kaşıkla gezdirin.",
    "Fırından çıkarıp 10 dakika folyoyla örtülü dinlendirin.",
    "Eti kemikten ayırarak büyük parçalar halinde servis tabağına alın, tepsideki soğanlı sosu üzerine gezdirin.",
@@ -56,7 +56,7 @@
    "Rub the paste all over the lamb, pushing it into the cuts. Cover and leave at room temperature for 30 minutes.",
    "Preheat the oven to 160°C.",
    "Spread the onion rings over the base of a large roasting tin, set the lamb on top and pour the water around it.",
-   "Cover the tin tightly with foil and roast for 2 hours.",
+   "Cover the tin tightly with foil and roast for 3 hours.",
    "Remove the foil, raise the oven temperature to 220°C and roast for another 20 to 30 minutes until the lamb is browned and tender, spooning the juices over the meat several times.",
    "Take the lamb out and rest it under foil for 10 minutes.",
    "Pull the meat off the bone in large pieces, arrange on a serving plate and spoon the onions and pan juices over it.",
@@ -67,5 +67,13 @@
   "tr": "Tepsideki suyu ve yağlı sosu atmayın; etin üzerine sık sık gezdirmek, kuzunun kurumasını önler ve servis sırasında sosu zenginleştirir.",
   "en": "Don't discard the pan juices. Spooning them over the meat during roasting keeps the lamb moist and gives the onions a rich, savoury flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cooking time looks too short for a 1.2 kg bone-in lamb shoulder: 2 hours covered at 160°C plus 20-30 minutes at 220°C often leaves shoulder meat firm rather than tender. The covered roast should be ab"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A Russian salad of boiled beetroot, potatoes, carrot, pickled cucumber, sauerkraut and peas, dressed with oil and brine. It is eaten year-round across Russia and the former Soviet republics, especially in winter and at family meals alongside main dishes."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -71,5 +71,13 @@
   "tr": "Pancarı diğer sebzelerden ayrı haşlayın ve kesmeden önce tamamen soğutun; böylece renk diğer malzemelere bulaşmaz.",
   "en": "Boil the beetroot separately and let it cool fully before dicing so its colour does not bleed into the other vegetables."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too low: beetroot alone needs 40-50 min of boiling, plus cooling time and a 30-minute chill, so the total is closer to 90 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

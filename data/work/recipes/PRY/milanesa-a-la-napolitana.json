@@ -22,8 +22,7 @@
    "1 küçük soğan (yaklaşık 100 g), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "400 g konserve doğranmış domates",
-   "1 tatlı kaşığı kurutulmuş kekik veya kekik yerine kurutulmuş kekik (1 tatlı kaşığı)",
-   "1 tatlı kaşığı kurutulmuş kekik",
+   "1 tatlı kaşığı kurutulmuş kekik (oregano)",
    "100 g dilimlenmiş jambon",
    "150 g mozzarella peyniri, dilimlenmiş",
    "1 yemek kaşığı zeytinyağı"
@@ -52,7 +51,7 @@
    "Her eti önce çırpılmış yumurtaya, ardından galeta ununa batırıp iyice bastırarak kaplayın. Panelenmiş etleri 10 dakika dinlendirin.",
    "Geniş bir tavada sıvı yağı orta-yüksek ateşte ısıtın. Milanesaları her iki yüzü altın rengi olana kadar yaklaşık 3'er dakika kızartın. Kağıt havluya alıp yağını süzdürün.",
    "Sos için zeytinyağını başka bir tencerede ısıtın. Soğanı yumuşayana kadar yaklaşık 5 dakika soteleyin, sarımsağı ekleyip 1 dakika daha pişirin.",
-   "Doğranmış domatesi, kekiği ve oregano'yu ekleyip karıştırın. Kısık ateşte 10 dakika kaynatarak sosu koyulaştırın ve gerekirse tuz ve karabiber ekleyin.",
+   "Doğranmış domatesi ve kurutulmuş kekiği ekleyip karıştırın. Kısık ateşte 10 dakika pişirerek sosu koyulaştırın ve gerekirse tuz ve karabiber ekleyin.",
    "Fırını 200°C'ye ısıtın. Milanesaları fırın tepsisine dizin.",
    "Her milanesanın üzerine domates sosundan bir kaşık dökün, ardından birer dilim jambon ve mozzarella koyun.",
    "Tepsiyi fırında 8-10 dakika, peynir eriyip hafifçe kabarana kadar pişirin. Sıcak servis yapın."
@@ -74,5 +73,15 @@
   "tr": "Etleri ince dövmek hem kısa sürede pişmesini hem de yumuşak kalmasını sağlar; yağın çok sıcak olmamasına dikkat ederek kızartın ki galeta kaplaması yanmadan pişsin.",
   "en": "Pounding the beef thin keeps it tender and ensures quick cooking; fry over medium-high heat rather than maximum so the breadcrumb coating turns golden without burning."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list has the herb duplicated (two 'kurutulmuş kekik' entries, one with a garbled 'kekik yerine' note), and the English list says oregano while the Turkish says kekik.",
+   "Turkish step 7 mentions both 'kekiği' and 'oregano' although only one herb is listed, so the Turkish and English versions disagree.",
+   "Turkish step 7 says 'kısık ateşte ... kaynatarak', which contradicts itself: a gentle simmer is not a boil."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

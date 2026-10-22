@@ -24,7 +24,7 @@
    "75 g tereyağı (sos için)",
    "150 g yumuşak koyu esmer şeker (sos için)",
    "150 ml çift kat krema",
-   "1 çay kaşığı deniz tuzu",
+   "1/4 çay kaşığı deniz tuzu",
    "Servis için krema veya vanilyalı dondurma"
   ],
   "en": [
@@ -75,5 +75,13 @@
   "tr": "Hurmayı kaynar suda bekletmek, pudingi nemli tutan en önemli adımdır; hamuru fazla karıştırmamak ise sünger dokusunu korur.",
   "en": "Soaking the dates in boiling water is what keeps the pudding moist, and folding the flour gently prevents it from turning tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sea salt amount disagrees between versions: Turkish says 1 çay kaşığı (1 tsp), English says 1/4 teaspoon. One teaspoon would make the toffee sauce unpleasantly salty, so the Turkish amount is correcte"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

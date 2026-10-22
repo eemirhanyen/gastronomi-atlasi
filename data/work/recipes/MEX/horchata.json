@@ -9,7 +9,7 @@
   "en": "A cooling Mexican drink made from rice, cinnamon and sugar, served over ice. It is especially popular on hot days, with meals and at celebrations."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 200,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -61,5 +61,13 @@
   "tr": "Daha ipeksi bir doku için süzme işlemini bir kez daha tülbentten tekrarlayın; pirinç tanelerinin kalmaması kıvamı belirgin şekilde iyileştirir.",
   "en": "For a silkier texture, strain the horchata a second time through the muslin; removing every rice particle makes a noticeable difference."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is shorter than the listed steps require: 2 hours soaking plus at least 1 hour chilling, plus preparation and straining, comes to about 200 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

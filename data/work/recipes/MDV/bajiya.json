@@ -52,7 +52,7 @@
    "Tavayı ocaktan alın, limon suyunu ekleyip karıştırın. Tadına bakıp gerekirse az tuz ekleyin ve dolguyu soğumaya bırakın.",
    "Hamuru 8 eşit parçaya bölün. Her parçayı yuvarlayıp unlu tezgahta, kalınlığı yaklaşık 2 mm olan 12 cm çapında ince bir daire haline getirin.",
    "Her daireye 1 kaşık dolguyu yarısına yerleştirin. Hamuru ikiye katlayıp kenarlarını parmaklarınızla iyice bastırarak kapatın, ardından çatal ucuyla kenarları süsleyin.",
-   "Kızartma yağını geniş ve derin bir tencerede 170 °C'ye ısıtın. Hamur örneklerini 2 ila 3 dakika, her iki tarafı altın rengi olana kadar kızartın.",
+   "Kızartma yağını geniş ve derin bir tencerede 170 °C'ye ısıtın. Hazırlanan bajiyaları 2 ila 3 dakika, her iki tarafı altın rengi olana kadar kızartın.",
    "Kızarmış bajiyaları kağıt havluya alarak fazla yağını çekmesini sağlayın ve sıcak olarak servis edin."
   ],
   "en": [
@@ -71,5 +71,13 @@
   "tr": "Hamuru mümkün olduğunca ince açın ve kenarları çatalla iyice kapatın; böylece kızartırken dolgu dışarı sızmaz ve pastalar çıtır kalır.",
   "en": "Roll the dough as thinly as you can and seal the edges well, so the filling does not leak out in the oil and the pastry stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says \"Hamur örneklerini\" (\"dough samples\"), which is wrong. The English says \"Fry the bajiya\", so the Turkish should name the pastries."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

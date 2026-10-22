@@ -47,7 +47,7 @@
  },
  "steps": {
   "tr": [
-   "Ton balığını su, bir tutam tuz ve bir çay kaşığı zerdeçal ile birlikte küçük bir tencerede 10 dakika kısık ateşte haşlayın.",
+   "Ton balığını su, bir tutam tuz ve yarım çay kaşığı zerdeçal ile birlikte küçük bir tencerede 10 dakika kısık ateşte haşlayın.",
    "Balığı süzün, soğuduktan sonra kılçıklarını ayıklayıp çatalla ince ince ayırın.",
    "Ayrılmış balığı geniş bir kaseye alın; soğan, yeşil biber, köri yaprağı ve hindistancevizini ekleyip iyice karıştırın.",
    "Aynı kaseye yumurtayı, limon suyunu, karabiberi ve kalan tuzu ekleyin.",
@@ -58,7 +58,7 @@
    "Kağıt havlu üzerine alıp fazla yağını çekmesini bekleyin ve sıcak servis yapın."
   ],
   "en": [
-   "Poach the tuna in water with a pinch of salt and 1 tsp of turmeric in a small pan over low heat for 10 minutes.",
+   "Poach the tuna in water with a pinch of salt and 1/2 tsp of turmeric in a small pan over low heat for 10 minutes.",
    "Drain the fish, let it cool, remove any bones, and flake it finely with a fork.",
    "Put the flaked fish in a large bowl and add the onion, green chilies, curry leaves and coconut, mixing well.",
    "Add the egg, lime juice, black pepper and the remaining salt to the same bowl.",
@@ -73,5 +73,13 @@
   "tr": "Balığı iyice kurutup ince doğrayın; hamur çok yumuşak olursa birkaç kaşık un ekleyerek kıvamı düzeltin, aksi halde kızartırken dağılır.",
   "en": "Flake the fish finely and drain it well; if the dough is too soft, add a spoonful of flour to firm it, otherwise the cakes may break apart in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turmeric amount conflicts: the ingredient lists say 1/2 tsp, but step 1 (in both Turkish and English) says 1 tsp."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -15,21 +15,23 @@
   "tr": [
    "800 ml soğuk su",
    "50 g toz şeker",
-   "1 çay kaşığı tuz (yaklaşık 3 g)",
+   "1/2 çay kaşığı tuz (yaklaşık 3 g)",
    "400 g karpuz eti, çekirdeksiz",
    "150 g çilek",
    "200 g Asya armudu",
    "15 g çam fıstığı",
+   "10 g yenilebilir çiçek taçyaprağı",
    "150 g buz küpü"
   ],
   "en": [
    "800 ml cold water",
    "50 g granulated sugar",
-   "1 tsp salt (about 3 g)",
+   "1/2 tsp salt (about 3 g)",
    "400 g watermelon flesh, seedless",
    "150 g strawberries",
    "200 g Asian pear",
    "15 g pine nuts",
+   "10 g edible flower petals",
    "150 g ice cubes"
   ]
  },
@@ -39,19 +41,28 @@
    "Çam fıstıklarını kuru bir tavada orta ateşte 2 dakika, sık sık karıştırarak hafifçe kavurun. Tabakta soğumaya bırakın.",
    "Karpuzu 2 cm'lik küp dilimlere, çilekleri ikiye keserek saplarını çıkarın. Armudu soyup çekirdek yuvasını temizleyin ve ince çubuklar halinde doğrayın.",
    "Meyveleri servis kâsesine nazikçe yerleştirin. Soğutulmuş şerbeti üzerine dökün.",
-   "Buz küplerini ekleyin, üzerine kavrulmuş çam fıstıklarını serpin ve hemen servis yapın."
+   "Buz küplerini ekleyin, üzerine kavrulmuş çam fıstıklarını ve yenilebilir çiçek taçyapraklarını serpin, hemen servis yapın."
   ],
   "en": [
    "Put the water in a bowl, add the sugar and salt, and stir until fully dissolved. Chill the syrup in the refrigerator for at least 30 minutes.",
    "Toast the pine nuts in a dry pan over medium heat for 2 minutes, stirring often, until lightly golden. Set aside on a plate to cool.",
    "Cut the watermelon into 2 cm cubes. Hull the strawberries and halve them. Peel and core the pear, then cut it into thin matchsticks.",
    "Gently arrange the fruit in a serving bowl and pour the chilled syrup over it.",
-   "Add the ice cubes, scatter the toasted pine nuts on top, and serve immediately."
+   "Add the ice cubes, scatter the toasted pine nuts and edible flower petals on top, and serve immediately."
   ]
  },
  "tip": {
   "tr": "Meyveleri servisten hemen önce ekleyin; karpuz ve armut uzun süre bekletilirse yumuşar ve içecek bulanıklaşır.",
   "en": "Add the fruit just before serving; watermelon and pear soften and cloud the drink if left to sit too long."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt quantity is inconsistent: 1 teaspoon of table salt weighs about 5-6 g, not 3 g. Half a teaspoon matches the 3 g figure.",
+   "Edible flower petals, which give hwachae (\"flower\" + \"food\") its name and are a traditional garnish, are missing. The recipe also never mentions them, so the dish loses a characteristic element."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

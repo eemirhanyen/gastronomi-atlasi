@@ -5,7 +5,7 @@
  },
  "native": "Kissaca",
  "desc": {
-  "tr": "Angola'da manyok yaprağının palmiye yağı, tütsülenmiş balık ve yer fıstığıyla uzun süre pişirilmesiyle hazırlanan geleneksel bir garnitürdür. Genellikle günlük öğünlerde, fufu ya da funje gibi nişastalı yemeklerin yanında servis edilir.",
+  "tr": "Angola'da manyok yaprağının palmiye yağı, tütsülenmiş balık ve yer fıstığıyla uzun süre pişirilmesiyle hazırlanan geleneksel bir garnitürdür. Genellikle günlük öğünlerde, funge (fufu) ya da bombó gibi nişastalı yemeklerin yanında servis edilir.",
   "en": "A traditional Angolan side dish of cassava leaves slow-cooked with palm oil, smoked fish and ground peanuts. It is served every day alongside starchy staples such as funge (fufu) or bombó."
  },
  "servings": 4,
@@ -18,7 +18,7 @@
    "1 orta boy soğan, ince doğranmış",
    "3 diş sarımsak, ezilmiş",
    "1 küçük acı biber, ince doğranmış",
-   "150 g tütsülenmiş balık, pulları ayrılmış ve ayıklanmış",
+   "150 g tütsülenmiş balık, kılçıkları ayıklanmış ve parçalanmış",
    "60 g öğütülmüş kavrulmuş yer fıstığı",
    "300 ml su",
    "1 çay kaşığı tuz (yaklaşık, tadına göre)"
@@ -60,8 +60,18 @@
   ]
  },
  "tip": {
-  "tr": "Yaprakları uzun süre pişirmek acılığını azaltır ve kıvamı oluşturur; yaprak bulamazsanız ıspanak ve az miktarda pazı ile hazırlayabilirsiniz, ancak pişirme süresini kısaltın.",
+  "tr": "Yaprakları uzun süre pişirmek acılığını azaltır ve kıvamı oluşturur; yaprak bulamazsanız ıspanak ve az miktarda pazı ile hazırlayabilirsiniz, ancak pişirme süresini yaklaşık 15 dakikaya kısaltın.",
   "en": "Long cooking softens the leaves and builds the characteristic texture. If cassava leaves are unavailable, use spinach with a little chard, but shorten the cooking time to about 15 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description names 'fufu ya da funje' while the English says 'funge (fufu) or bombó'; the Turkish omits bombó and uses a different spelling of the staple.",
+   "Turkish smoked fish ingredient says 'pulları ayrılmış' (scales removed), but the English says 'flaked and deboned'. Smoked fish is not descaled at this stage, and the Turkish should say the bones are ",
+   "Turkish tip doesn't give the shortened cooking time for the spinach substitute (about 15 minutes), which the English tip specifies."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

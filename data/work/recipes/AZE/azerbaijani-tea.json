@@ -31,7 +31,7 @@
  },
  "steps": {
   "tr": [
-   "Çaydanlığın alt kabına 1 L suyu koyun ve kaynatın.",
+   "Çaydanlığın alt kabına 950 ml suyu koyun ve kaynatın.",
    "Üst demliğe 10 g siyah çayı koyun.",
    "Kaynamış sudan 250 ml'yi üst demliğe dökün ve demliği alt kabın üzerine oturtun. Buhar sayesinde sıcak kalacak şekilde yaklaşık 10 dakika demleyin.",
    "Bu sırada limonu ince dilimleyin ve şekeri hazır tutun.",
@@ -40,7 +40,7 @@
    "Her bardağa şekerini ekleyin, bir dilim limon koyup hemen servis edin. İsteğe bağlı olarak reçelle birlikte ikram edin."
   ],
   "en": [
-   "Pour 1 L water into the bottom pot of the teapot set and bring it to a boil.",
+   "Pour 950 ml water into the bottom pot of the teapot set and bring it to a boil.",
    "Put the 10 g loose black tea into the small top pot.",
    "Pour 250 ml of the boiling water over the tea and place the top pot on the bottom pot. Steep for about 10 minutes, keeping it warm over the steam.",
    "Meanwhile, thinly slice the lemon and set out the sugar.",
@@ -53,5 +53,13 @@
   "tr": "Demliği kaynar suyla önceden ısıtmak ve çayı fazla uzun demlememek, çayın acılaşmasını önler.",
   "en": "Warm the top pot with boiling water first and avoid over-steeping, as a longer brew makes the tea bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Water volume mismatch: the ingredients list 1.2 L total, with 250 ml of that reserved for the concentrate, but step 1 puts 1 L in the bottom pot, which together with the 250 ml gives 1.25 L. The botto"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

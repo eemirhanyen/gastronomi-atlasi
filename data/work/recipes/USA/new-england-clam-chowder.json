@@ -47,7 +47,7 @@
   "tr": [
    "Midyeleri 500 ml suyla geniş bir tencereye koyun, kapağını kapatın ve orta-yüksek ateşte midyeler açılana kadar 5-8 dakika buharda pişirin. Açılmayanları atın.",
    "Midyeleri süzgeçten geçirip suyunu bir kapta toplayın. Kumunu almak için suyu ince bir bezden süzün ve 500 ml kadar sıvıyı ayırın.",
-   "Midyelerin etini kabuklarından çıkarın ve kaba kıyın. Kabukları ve etleri ayrı tutun.",
+   "Midyelerin etini kabuklarından çıkarın ve kaba kıyın. Kabukları atın, etleri ayrı bir kenara koyun.",
    "Geniş bir tencerede domuz yağını orta ateşte 4-5 dakika kızartıp yağını salmasını sağlayın. Tereyağı ve soğanı ekleyip soğan yumuşayana ve hafif altın rengi alana kadar 6-8 dakika pişirin.",
    "Unu ekleyip sürekli karıştırarak 2 dakika pişirin.",
    "Midye suyunu yavaş yavaş ilave ederek pürüzsüz bir sos elde edene kadar çırpın. Patatesleri, defne yaprağını ve kekiği ekleyin.",
@@ -60,7 +60,7 @@
   "en": [
    "Put the clams and 500 ml water in a large pot, cover, and steam over medium-high heat for 5-8 minutes until they open. Discard any that stay closed.",
    "Lift the clams out and strain the cooking liquid through a fine cloth to remove grit. Measure out about 500 ml and set it aside.",
-   "Remove the clam meat from the shells and chop it coarsely. Keep the shells discarded and the meat reserved.",
+   "Remove the clam meat from the shells and chop it coarsely. Discard the shells and keep the meat reserved.",
    "In a large pot over medium heat, fry the salt pork for 4-5 minutes until its fat renders. Add the butter and onion and cook for 6-8 minutes until soft and lightly golden.",
    "Stir in the flour and cook for 2 minutes, stirring constantly.",
    "Gradually whisk in the clam liquid until smooth. Add the potatoes, bay leaf and thyme.",
@@ -75,5 +75,13 @@
   "tr": "Midye suyunu süzmeden önce kumun çökmesi için birkaç dakika bekletin; çorbanın kaynamaması, kremanın ayrışmasını ve midyelerin sertleşmesini önler.",
   "en": "Let the clam liquid settle for a few minutes before straining so the sand stays behind, and never let the chowder boil after adding milk, or the cream can split and the clams turn rubbery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Shell handling differs between versions: the English step 3 says to discard the shells, but the Turkish step 3 says to keep them separate. The English wording 'Keep the shells discarded' is also garbl"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

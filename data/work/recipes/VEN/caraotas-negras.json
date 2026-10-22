@@ -5,11 +5,11 @@
  },
  "native": "Caraotas negras",
  "desc": {
-  "tr": "Venezuela'nın her yerinde pilavla, kızarmış muzla ya da tortillayla servis edilen, sofritoyla pişen koyu renkli bir fasulye yemeğidir. Öğle yemeklerinde ve aile sofralarında, özellikle de hafta sonu kahvaltı ve öğlen sofralarında sık görülür.",
+  "tr": "Venezuela'nın her yerinde pilavla, kızarmış muzla ya da arepayla servis edilen, sofritoyla pişen koyu renkli bir fasulye yemeğidir. Öğle yemeklerinde ve aile sofralarında, özellikle hafta sonu öğle sofralarında sık görülür.",
   "en": "A dark, creamy bean stew built on a sofrito of onion, green pepper and garlic. It is eaten across Venezuela, most often at lunch and family meals, served with white rice, fried sweet plantains, or arepas."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -17,7 +17,7 @@
    "1,5 l su (fasulyeyi haşlamak için)",
    "1 yaprak defne yaprağı",
    "150 g kuru soğan (1 orta boy, ince doğranmış)",
-   "120 g yeşil biber (1 adet, ince doğranmış)",
+   "120 g dolmalık yeşil biber (1 adet, ince doğranmış)",
    "3 diş sarımsak, ezilmiş",
    "30 ml sıvı yağ",
    "1 tatlı kaşığı öğütülmüş kimyon (yaklaşık 3 g)",
@@ -63,5 +63,16 @@
   "tr": "Fasulyeleri pişirirken tuzu en sona bırakın; baştan tuzlanan kuru fasulye çok geç yumuşar.",
   "en": "Add the salt only after the beans are fully soft, since salting early can make dried beans stay firm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the dish is served with 'tortilla', but the English version says 'arepas'. Arepas are the correct accompaniment in Venezuela.",
+   "Turkish description claims the dish is common at weekend breakfast ('kahvaltı'). The English version says lunch and family meals, and caraotas are primarily a lunch dish.",
+   "Turkish ingredient 'yeşil biber' normally means a hot chili in Turkish. The English says green bell pepper, so the Turkish should specify 'dolmalık' (bell pepper).",
+   "Time of 90 minutes is slightly low. Cooking (60-75 min), sofrito (about 8 min), garlic and cumin (1 min), simmer (15 min) and prep add up to roughly 100 minutes excluding soaking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

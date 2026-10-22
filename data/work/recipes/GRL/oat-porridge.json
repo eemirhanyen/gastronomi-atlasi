@@ -6,7 +6,7 @@
  "native": "Grød",
  "desc": {
   "tr": "Grönland'da kahvaltıda sıkça yenen, sade ve sıcak bir yulaf lapası. Danimarka mutfağının etkisiyle yaygınlaşmış ve genellikle süt, tereyağı ve şekerle servis edilir.",
-  "en": "A simple, warming oat porridge eaten across Greenland for breakfast, usually served with milk, butter and sugar. It spread through Danish influence on home cooking and remains a everyday morning staple."
+  "en": "A simple, warming oat porridge eaten across Greenland for breakfast, usually served with milk, butter and sugar. It spread through Danish influence on home cooking and remains an everyday morning staple."
  },
  "servings": 4,
  "time_min": 20,
@@ -43,7 +43,7 @@
    "In a medium saucepan, bring the water and salt to a boil.",
    "Reduce the heat slightly, add the oats and cook for 5 minutes, stirring constantly.",
    "Add the milk and cook for about 5 more minutes, stirring to prevent sticking, until the porridge thickens.",
-   "Remove from heat or keep on low, then stir in the butter, sugar and cinnamon and cook for 1 more minute.",
+   "Before removing from the heat, stir in the butter, sugar and cinnamon and cook for 1 more minute.",
    "Divide the porridge among bowls, pour a little extra milk over each, and serve with a knob of butter if you like."
   ]
  },
@@ -51,5 +51,14 @@
   "tr": "Yulaf eklendikten sonra sürekli karıştırın; topaklanmayı önler ve kıvamı pürüzsüz tutar.",
   "en": "Stir constantly after adding the oats to prevent lumps and keep the texture smooth. Rolled oats give a better consistency than instant."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 4 ('Remove from heat or keep on low') does not match the Turkish step 4 (add butter, sugar and cinnamon before removing from the stove, then cook 1 more minute).",
+   "English description has an article error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

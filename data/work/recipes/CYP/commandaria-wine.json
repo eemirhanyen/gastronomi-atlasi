@@ -8,7 +8,7 @@
   "tr": "Kıbrıs'ın tatlı şarabı Komandarya, güneşte kurutulmuş üzümlerden yapılır ve ticari olarak üretilir; bu tarif onu evde ısıtıp tarçın, karanfil ve portakal kabuğuyla aromatize eden kış içeceğidir. Özellikle soğuk akşamlarda, misafirlere küçük bardaklarda servis edilir.",
   "en": "Commandaria is Cyprus's historic sweet wine, made from sun-dried grapes and produced commercially; this recipe gently warms a bottle at home with cinnamon, cloves and orange peel for a winter drink. It is traditionally served in small glasses to guests on cold evenings."
  },
- "servings": 4,
+ "servings": 12,
  "time_min": 35,
  "difficulty": "easy",
  "ingredients": {
@@ -55,5 +55,13 @@
   "tr": "Şarabı kaynatmamak, hem aromayı hem de alkol dengesini korumanın en önemli püf noktasıdır.",
   "en": "Never let the wine boil; keeping it around 70 °C preserves its raisin and honey aromas and the balance of alcohol."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Serving size does not match the volume: 750 ml of wine at about 60 ml per guest yields roughly 12 servings, not 4 (the recipe states servings: 4)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Akara (tuzlu balık köftesi)",
+  "tr": "Accra (tuzlu balık kızartması)",
   "en": "Accra (saltfish fritters)"
  },
  "native": "Accra",
@@ -46,7 +46,7 @@
    "Tuzlu morina balığını bir gece önceden soğuk suda bekletin ve en az iki kez suyunu değiştirin. Ertesi gün balığı süzün, kemik ve derisini ayıklayın, lifleri ellerinizle ufalayın ve kağıt havlu ile kurulayın.",
    "Büyük bir kapta unu, kabartma tozunu ve karabiberi karıştırın.",
    "Yumurtayı ekleyip çırpın, ardından soğuk suyu yavaş yavaş ilave ederek kıvamlı, yoğun bir hamur elde edin.",
-   "Ufalanmış balığı, soğanı, taze soğanı, sarımsağı, acı biberi ve kekik yapraklarını hamura ekleyip iyice karıştırın. Tuzlu olduğu için henüz tuz eklemeyin ve tadına bakmadan karar vermeyin.",
+   "Ufalanmış balığı, soğanı, taze soğanı, sarımsağı, acı biberi ve kekik yapraklarını hamura ekleyip iyice karıştırın. Balık zaten tuzlu olduğundan henüz tuz eklemeyin; tadına bakıp ondan sonra karar verin.",
    "Karışımı 10 dakika dinlendirin.",
    "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın.",
    "Bir çorba kaşığı yardımıyla hamurdan parçalar alıp sıcak yağa bırakın. Her seferinde 4 ila 5 parça kızartın.",
@@ -69,5 +69,14 @@
   "tr": "Balığı yeterince ıslatıp iyice kurulayın; ıslak balık hamuru dağıtır ve yağda patlamalara neden olur.",
   "en": "Soak the cod thoroughly and dry it well; wet fish loosens the batter and can spatter in the hot oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish dish name 'Akara' is a West African bean fritter name and conflicts with the native name 'Accra' used in the English version and for St. Lucia.",
+   "Turkish subtitle 'tuzlu balık köftesi' (salted fish meatball) misdescribes a fried batter fritter; 'tuzlu balık kızartması' fits better."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

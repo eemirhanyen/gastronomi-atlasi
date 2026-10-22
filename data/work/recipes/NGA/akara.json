@@ -18,7 +18,7 @@
    "1 küçük acı kırmızı biber veya 1/2 Scotch bonnet biberi",
    "1/2 tatlı kaşığı öğütülmüş zencefil",
    "1 tatlı kaşığı tuz",
-   "100 ml su (blendır için, gerektikçe ek)",
+   "100 ml su (blender için, gerektikçe ek)",
    "500 ml kızartma yağı (ayçiçek veya mısır yağı)"
   ],
   "en": [
@@ -55,5 +55,13 @@
   "tr": "Hamuru iyice çırpmak, akaranın içinin hafif ve kabarık olmasını sağlar; bu adımı atlamayın.",
   "en": "Whipping the batter well is what gives akara its light, fluffy centre, so do not skip that step."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list has a typo: \"blendır\" should be \"blender\" (\"blender için\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

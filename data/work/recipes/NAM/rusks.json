@@ -5,11 +5,11 @@
  },
  "native": "Beskuit",
  "desc": {
-  "tr": "Namibya'da kahvaltıda ve çay saatinde çay, kahve veya sütle yenen, ayran ile hazırlanmış, kuru ve sert bir bisküvi türüdür. Aileden aileye aktarılan bu tarif, uzun süre bayatlamadan saklanabilir.",
+  "tr": "Namibya'da kahvaltıda ve çay saatinde çay, kahve veya sütle yenen, yayık altı (buttermilk) ile hazırlanmış, kuru ve sert bir bisküvi türüdür. Aileden aileye aktarılan bu tarif, uzun süre bayatlamadan saklanabilir.",
   "en": "A hard, dry biscuit made with buttermilk, traditionally eaten in Namibia at breakfast or teatime, dunked in tea, coffee or milk. Families have passed down their recipes for generations, and the rusks keep for weeks in an airtight tin."
  },
  "servings": 4,
- "time_min": 180,
+ "time_min": 240,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -39,12 +39,12 @@
   "tr": [
    "Fırını 180°C'ye ayarlayın. 20 x 20 cm'lik bir kare kalıbın içini 15 g tereyağı ile yağlayın.",
    "Un, kabartma tozu, tuz ve şekeri geniş bir kapta karıştırın.",
-   "Soğuk tereyağı küplerini parmak uçlarınızla unun içine ovuşturarak ince kepek kıvamı alana kadar karıştırın.",
+   "Soğuk tereyağı küplerini parmak uçlarınızla unun içine ovuşturarak ince galeta unu kıvamı alana kadar karıştırın.",
    "Yumurtayı, yayık altını ve vanilya özünü ayrı bir kapta çırpın, sonra un karışımına ekleyip yumuşak bir hamur elde edene kadar yoğurun.",
    "Hamuru yağlanmış kalıba yayın, düzeltip 35-40 dakika pişirin. Üstü altın rengi olunca fırından çıkarın.",
    "Pişmiş hamuru kalıbında 10 dakika soğumaya bırakın, sonra keskin bir bıçakla 12 parçaya kesin.",
    "Fırını 100°C'ye düşürün. Parçaları fırın tepsisine yan yana dizin.",
-   "Kapağı aralık bırakarak fırında 2-3 saat kurutun; parçalar sert ve kuru olana kadar bekleyin.",
+   "Fırın kapağını hafif aralık bırakarak parçaları 2-3 saat kurutun; parçalar sert ve kuru olana kadar bekleyin.",
    "Tamamen soğuyunca hava almayan bir kutuda saklayın."
   ],
   "en": [
@@ -63,5 +63,16 @@
   "tr": "Kurutma aşamasında parçaların ortası hâlâ yumuşaksa, fırında biraz daha bekletin; tam kuru olmazsa bayatlar.",
   "en": "If the centres are still soft after drying, give them more time in the low oven; under-dried rusks go stale quickly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'ayran' while the ingredient list says 'yayık altı (buttermilk)'. Ayran is a yogurt drink, so the description should match the ingredient.",
+   "time_min (180) is too low. Baking takes about 45 minutes plus 2-3 hours of drying, so the total is roughly 4 hours.",
+   "Turkish step 3 'ince kepek kıvamı' is unnatural; 'kepek' means bran. The usual term is 'ince galeta unu kıvamı'.",
+   "Turkish step 8 says 'Kapağı aralık bırakarak', but the rusks are dried in the oven with the oven door ajar, not a lid. It should say 'fırın kapağını hafif aralık bırakarak'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

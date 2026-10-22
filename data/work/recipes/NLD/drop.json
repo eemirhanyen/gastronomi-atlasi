@@ -5,11 +5,11 @@
  },
  "native": "drop",
  "desc": {
-  "tr": "Hollanda'nın en sevilen şekerlerinden biri olan, meyan kökü özüyle yapılan yumuşak ve koyu renkli bir şekerdir. Hollandalılar bunu günlük yaşamda, kahveyle, öğleden sonra atıştırmalığı olarak ve kış aylarında sık sık tüketir.",
+  "tr": "Hollanda'nın en sevilen şekerlerinden biri olan, meyan kökü özüyle yapılan yumuşak ve koyu renkli bir şekerdir. Hollandalılar bunu yıl boyunca, çoğunlukla kahveyle, öğleden sonra atıştırmalığı olarak ya da yemeklerden sonra tüketir; kış aylarında özellikle sık yenir.",
   "en": "A soft, dark candy flavored with licorice root extract, one of the best-loved sweets in the Netherlands. Dutch people eat it all year round, often with coffee, as an afternoon snack, or after a meal, especially in winter."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -63,5 +63,14 @@
   "tr": "Meyan özünün yoğunluğu markaya göre değişir; ilk seferde 10 g ile başlayıp tadına göre artırın. Şekerlerin yapışmaması için kesmeden önce bıçağı hafifçe yağlayın.",
   "en": "Licorice extract strength varies by brand, so start with 10 g and add more to taste. Lightly oil the knife before cutting to prevent the pieces from sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is inconsistent with the steps: gelatin blooming takes 10 minutes and the candy needs at least 2 hours to set, so the total is about 3 hours.",
+   "The Turkish description says the candy is eaten frequently in winter, but the English says it is eaten all year round, especially in winter, and also after meals. The two descriptions should match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

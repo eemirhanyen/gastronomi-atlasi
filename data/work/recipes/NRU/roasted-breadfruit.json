@@ -9,14 +9,14 @@
   "en": "In Nauru, breadfruit is traditionally cooked over open fire or embers and served as a side dish alongside everyday meals. The skin is charred while the flesh stays starchy and soft."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 75,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
    "2 adet olgun ama sert ekmek ağacı meyvesi (yaklaşık 1,5 kg toplam)",
    "30 ml hindistancevizi yağı",
    "3 g deniz tuzu",
-   "1 adet misket limonu (yaklaşık 30 g suyu için)"
+   "1 adet misket limonu (yaklaşık 30 ml suyu için)"
   ],
   "en": [
    "2 breadfruit, firm and mature (about 1.5 kg total)",
@@ -27,7 +27,7 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200 °C'ye ısıtın ve fırın tepsisine kağıt serin.",
+   "Fırını 200 °C'ye ısıtın ve fırın tepsisine fırın kağıdı serin.",
    "Meyveleri akan suyun altında iyice yıkayın, kurulayın.",
    "Her meyvenin kabuğunu çatal yardımıyla birkaç yerden delin; bu, buharın çıkmasını sağlar.",
    "Meyvelerin yüzeyini hindistancevizi yağı ve tuzla ovun.",
@@ -53,5 +53,15 @@
   "tr": "Meyve tam olgunlaşmadıysa pişirmeden önce yarıya kesip ortadaki sert özü çıkarmak, iç kısmın daha eşit pişmesini sağlar.",
   "en": "If the fruit is not fully ripe, halve it before roasting and remove the firm core so the flesh cooks more evenly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 1 says 'kağıt serin', which is unnatural. It should be 'fırın kağıdı serin'.",
+   "Turkish ingredient gives the lime juice as '30 g suyu' while the English says '30 ml juice'. Juice is a volume, so the Turkish should read '30 ml suyu'.",
+   "time_min is 60, but the steps add 10 minutes of resting plus preparation and oven preheating, so the total is understated. Changed to 75."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

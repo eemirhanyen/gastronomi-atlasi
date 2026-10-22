@@ -6,7 +6,7 @@
  "native": "Msuzi wa mtedza",
  "desc": {
   "tr": "Malavi'de mısır unundan yapılan nsima ile birlikte yenen, kavrulmuş yer fıstığı, soğan ve domatesle pişirilen kıvamlı bir sostur. Günlük öğünlerde, özellikle akşam yemeklerinde ve misafir sofralarında sık görülür.",
-  "en": "A thick, creamy sauce of ground roasted groundnuts, onion and tomato, eaten with nsima (maize porridge). It is a everyday family dish in Malawi and is also served at larger meals and gatherings."
+  "en": "A thick, creamy sauce of ground roasted groundnuts, onion and tomato, eaten with nsima (maize porridge). It is an everyday family dish in Malawi and is also served at larger meals and gatherings."
  },
  "servings": 4,
  "time_min": 40,
@@ -50,8 +50,17 @@
   ]
  },
  "tip": {
-  "tr": "Fıstık macununu sıcak suyla yavaş yavaş seyrelterek ekleyin; bu, sosun topaklanmadan pürüzsüz kalmasını sağlar.",
-  "en": "Add the groundnut paste to the water gradually and whisk constantly; this keeps the sauce smooth and prevents lumps."
+  "tr": "Kalan suyu fıstık macununa azar azar ekleyip sürekli karıştırın; bu, sosun topaklanmadan pürüzsüz kalmasını sağlar.",
+  "en": "Add the remaining water to the groundnut paste gradually and stir constantly; this keeps the sauce smooth and prevents lumps."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip contradicts step 4: step 4 says to add the water gradually to the paste, but the tip says to add the paste gradually to the water. The Turkish tip also specifies hot water, which the steps never m",
+   "English description has a grammar error: 'a everyday' should be 'an everyday'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

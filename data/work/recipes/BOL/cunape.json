@@ -31,8 +31,8 @@
  },
  "steps": {
   "tr": [
-   "Fırını 200 °C'ye ısıtın ve bir fırın tepsisine pişirme kağıdı serin.",
-   "Süt ve yağı küçük bir tencerede orta ateşte, kaynamaya yakın ısıtın ve birkaç dakika bekletin.",
+   "Fırını 200 °C'ye ısıtın ve bir fırın tepsisine pişirme kağıdını serin.",
+   "Süt ve yağı küçük bir tencerede orta ateşte, kaynamaya yakın ısıtın, ardından ocaktan alın.",
    "Yuka nişastasını ve tuzu geniş bir karıştırma kabına koyun. Sıcak sütlü yağ karışımını nişastanın üzerine yavaşça dökün ve tahta kaşıkla karıştırın.",
    "Hamur biraz soğuyana kadar, elle tutulabilecek kadar bekletin.",
    "Rendelenmiş peyniri ve yumurtaları ekleyin, hamur pürüzsüz ve yapışmayan bir kıvam alana kadar yoğurun.",
@@ -55,5 +55,14 @@
   "tr": "Hamuru tam bir kıvama getirmek için sıvı ilave ederken yavaş davranın; hamur çok yapışkan kalırsa birkaç gram daha nişasta ekleyin.",
   "en": "Add the hot liquid slowly and adjust with a little extra starch if the dough feels too sticky to shape; the texture should be soft but not wet."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 says to let the milk-oil mixture rest for a few minutes after heating, but the English step says to remove it from the heat. The two versions should match.",
+   "Turkish step 1 has a grammar error: 'pişirme kağıdı serin' should use the accusative 'pişirme kağıdını serin' as the object of 'serin'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

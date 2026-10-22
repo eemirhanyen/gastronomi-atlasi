@@ -9,7 +9,7 @@
   "en": "A refreshing, lightly salted drink made from yogurt, cold water, salt and dried mint. In Afghanistan it is served with heavy meals such as kebabs and rice dishes, especially on hot summer afternoons."
  },
  "servings": 4,
- "time_min": 10,
+ "time_min": 25,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -36,7 +36,7 @@
    "Soğuk suyu azar azar ekleyin ve sürekli çırparak karıştırın, böylece köpük oluşur ve yapı homojen kalır.",
    "Kuru naneyi avuçlarınızın arasında ufalayarak kaseye ekleyin ve karıştırın.",
    "Karışımı buzdolabında en az 15 dakika soğutun.",
-   "Servis bardaklarına buz küplerini koyun, doğı bardaklara dökün ve her bardağın üzerine birer taze nane yaprağı bırakarak servis yapın."
+   "Servis bardaklarına buz küplerini koyun, doğ'u bardaklara dökün ve her bardağın üzerine birer taze nane yaprağı bırakarak servis yapın."
   ],
   "en": [
    "Put the yogurt in a large bowl and whisk until smooth.",
@@ -51,5 +51,14 @@
   "tr": "Daha köpüklü bir doğ için karışımı servisten hemen önce bir mutfak çırpıcısıyla kısa süre çırpın veya suyun yerine bir kısmını soda ile değiştirin.",
   "en": "For a frothier doogh, whisk the mixture briefly just before serving, or replace part of the water with chilled sparkling water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 10, but step 5 alone requires at least 15 minutes of chilling, so the total time is understated",
+   "Turkish step 6 has the misspelled inflection \"doğı\"; it should be \"doğ'u\""
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

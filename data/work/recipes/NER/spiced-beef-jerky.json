@@ -9,7 +9,7 @@
   "en": "Kilishi is a street snack of the Hausa and Fulani kitchens of Niger and northern Nigeria: thin strips of beef marinated in pepper and spices, dried, then coated in a spiced roasted peanut paste. It is eaten on journeys, at markets and at festivals."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 360,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -50,17 +50,17 @@
    "Eti tahıl yönüne dik olacak şekilde 3 mm kalınlığında, uzun ve ince şeritler halinde dilimleyin.",
    "Rendelenmiş soğan, sarımsak, zencefil, kırmızı biber, paprika, kişniş, karanfil, karabiber, tuz, şeker, 1 yemek kaşığı yağ ve 30 ml suyu bir kasede karıştırın.",
    "Et şeritlerini marinede iyice bulaştırın, kapaklı bir kapta buzdolabında en az 2 saat bekletin.",
-   "Fırını 70°C'ye ısıtın. Etleri fırın tepsisine tek kat olacak şekilde dizin ve kapı hafif aralık olacak şekilde 2 saat kadar kurutun; et kuru ama hafif esnek kalmalıdır.",
+   "Fırını 70°C'ye ısıtın. Etleri fırın tepsisine tek kat olacak şekilde dizin ve kapı hafif aralık olacak şekilde 3 ila 4 saat kurutun; et kuru ama hafif esnek kalmalıdır.",
    "Fıstıkları kuru bir tavada orta ateşte 5 dakika, hafifçe renk alana kadar kavurun. Soğumasını bekleyip blenderda veya havanda ezerek pürüzlü bir toz haline getirin.",
    "Ezilmiş fıstığa 1 yemek kaşığı yağ, kalan 30 ml su ve marinenin artan küçük bir miktarını ekleyerek koyu, yapışkan bir macun elde edin.",
-   "Kurumuş et şeritlerinin iki yüzüne fıstık macununu ince bir tabaka halinde sürün.",
+   "Kurutulmuş et şeritlerinin iki yüzüne fıstık macununu ince bir tabaka halinde sürün.",
    "Kaplanmış etleri 150°C'deki fırında 8-10 dakika kızartın ya da kuru bir tavada orta-düşük ateşte her iki yüzü birkaç dakika kavurun. Soğuduktan sonra servis yapın veya hava almayan bir kapta saklayın."
   ],
   "en": [
    "Slice the beef into long, thin strips about 3 mm thick, cutting across the grain.",
    "In a bowl, mix the grated onion, garlic, ginger, cayenne, paprika, coriander, cloves, black pepper, salt, sugar, 1 tablespoon of the oil and 30 ml of the water.",
    "Coat the beef strips thoroughly in the marinade, cover and refrigerate for at least 2 hours.",
-   "Heat the oven to 70°C. Lay the strips in a single layer on a baking tray and dry them for about 2 hours with the door slightly open; the meat should be dry but still slightly flexible.",
+   "Heat the oven to 70°C. Lay the strips in a single layer on a baking tray and dry them for 3 to 4 hours with the door slightly open; the meat should be dry but still slightly flexible.",
    "Dry-roast the peanuts in a pan over medium heat for 5 minutes until lightly coloured. Once cool, grind them in a blender or mortar to a coarse powder.",
    "Mix the ground peanuts with the remaining tablespoon of oil, the remaining 30 ml of water and a little of the leftover marinade to make a thick, sticky paste.",
    "Spread a thin layer of peanut paste on both sides of each dried strip.",
@@ -71,5 +71,15 @@
   "tr": "Etin kuruma süresi kalınlığa göre değişir; dilimleri ayrı ayrı kontrol edin, fazla kurutulursa kırılgan olur. Kilishi'yi fıstık macunu ile kaplamadan önce tam kurutmak, lezzetin ve dokunun doğru gelişmesini sağlar.",
   "en": "Drying time depends on slice thickness, so check the strips individually; over-dried kilishi becomes brittle. Make sure the meat is fully dry before coating, as this gives the best texture and keeps the paste from becoming soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Drying at 70°C for about 2 hours is too short and too gentle to reliably make raw marinated beef strips food-safe; drying should run longer (3 to 4 hours), and the strips should reach a safe internal ",
+   "time_min (150) is inconsistent with the steps: 2 h marinating, about 2 h drying, plus prep and toasting totals roughly 6 hours.",
+   "Turkish step 7 uses 'Kurumuş' (wrong form); 'Kurutulmuş' is the correct word for dried strips."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -22,7 +22,7 @@
    "350 ml ayran veya yağsız kefir (buttermilk)",
    "50 g eritilmiş tereyağı",
    "30 g tereyağı (tavayı yağlamak için)",
-   "2 küçük elma (yaklaşık 300 g, küp doğranmış)",
+   "2 küçük elma (yaklaşık 300 g, küçük küp doğranmış)",
    "20 g pudra şekeri (servis için)"
   ],
   "en": [
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Gözlerin iyice ısındığından emin olun; hamur ilk anda yapışmaya başlamadığında çevirmeye hazırsınızdır. Tavayı her partiden önce hafifçe yağlamak küreleri kolayca çevirmenizi sağlar.",
+  "tr": "Tavanın iyice ısındığından emin olun; ilk partiden önce hamur temas ettiğinde cızırdamalıdır. Kenarlar pişip hafifçe oturduğunda çevirmeye hazırsınız. Partiler arasında gözleri hafifçe tekrar yağlayın ki küreler kolayca dönsün ve şekillerini korusun.",
   "en": "Make sure the pan is properly hot before the first batch; the batter should sizzle on contact. Lightly re-grease the wells between batches so the balls turn easily and keep their shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip's first sentence says to turn the balls when the batter stops sticking at first, which doesn't match the English tip (pan must be hot enough that batter sizzles on contact). The Turkish cu",
+   "Apple preparation differs between versions: Turkish says 'küp doğranmış' (cubed) while English says 'finely diced'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

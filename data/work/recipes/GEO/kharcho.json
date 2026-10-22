@@ -5,11 +5,11 @@
  },
  "native": "ხარჩო",
  "desc": {
-  "tr": "Gürcistan'ın Mingrelya ve Kartli bölgelerinde, özellikle kış aylarında ve bayramlarda yenen, ceviz ve ekşi erik sosuyla koyulaştırılmış baharatlı bir sığır eti çorbasıdır.",
+  "tr": "Gürcistan'ın batısındaki Mingrelya ve İmereti bölgelerinde, özellikle kış aylarında ve bayramlarda yenen, ceviz ve ekşi erik sosuyla koyulaştırılmış baharatlı bir sığır eti çorbasıdır.",
   "en": "A rich, spiced beef soup thickened with walnuts and sour plum sauce, traditionally eaten in western Georgia (Mingrelia, Imereti) during winter and at festive family meals."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,14 @@
   "tr": "Ceviz macununu sıcak sıvıya değil, önce biraz ılık et suyuyla seyreltin; böylece çorbada topaklanmaz ve kremamsı bir doku elde edersiniz.",
   "en": "Thin the walnut paste with a little stock before adding it to the pot; adding it all at once can make the soup grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description names Kartli as a region where Kharcho is eaten, but the English description says Mingrelia and Imereti. The regions need to match.",
+   "time_min is 90, but the steps add up to roughly 105-115 minutes including prep (60 min simmering, then 10, 15, 10 and 5 minutes, plus chopping and pounding)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

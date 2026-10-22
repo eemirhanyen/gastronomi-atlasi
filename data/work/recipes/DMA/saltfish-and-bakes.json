@@ -22,7 +22,7 @@
    "1 dal taze yeşil soğan (about 40 g), doğranmış",
    "4 dal taze kekik",
    "1 tatlı kaşığı (about 3 g) karabiber",
-   "60 ml sıvı yağ (balık için 30 ml, hamur kızartması için 500 ml)",
+   "30 ml sıvı yağ (balık ve sote için)",
    "250 g un",
    "10 g kabartma tozu",
    "5 g tuz",
@@ -41,7 +41,7 @@
    "1 spring onion (about 40 g), chopped",
    "4 sprigs fresh thyme",
    "1 tsp (about 3 g) black pepper",
-   "60 ml vegetable oil (30 ml for the fish, 500 ml for frying the bakes)",
+   "30 ml vegetable oil (for the fish and sauté)",
    "250 g all-purpose flour",
    "10 g baking powder",
    "5 g salt",
@@ -85,5 +85,13 @@
   "tr": "Balığı yeterince uzun süre suda bekletmek, fazla tuzun çıkması için en önemli adımdır; pişirmeden önce mutlaka tadına bakın.",
   "en": "Soak the salt cod long enough to remove the excess salt, and taste a small piece before cooking, since salt levels vary widely between brands."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil quantities are double-counted: the 60 ml oil line says 30 ml is for the fish and 500 ml for frying, but frying oil is also listed separately as 500 ml. Step 8 uses only 30 ml for sautéing, so the "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

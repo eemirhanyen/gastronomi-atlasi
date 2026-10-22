@@ -59,8 +59,8 @@
   "tr": [
    "Kuru erişte kullanıyorsanız paket talimatına göre haşlayın, süzün ve soğuk suyla durulayıp iyice süzün. Taze erişteyi ise sadece kısaca gevşetmek için sıcak suyla ayırın, süzün ve bir kenara alın.",
    "Tavuk dilimlerini mısır nişastası, yarım çay kaşığı tuz ve karabiberle karıştırın ve 10 dakika bekletin.",
-   "Geniş bir wok'ta 1 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Yumurtaları çırpıp tavaya dökün, hızlıca karıştırarak kabarcık kabarcık pişirin, parçalayıp bir tabağa alın.",
-   "Aynı tavaya 2 yemek kaşığı yağ ekleyin, ateşi yükseltin ve tavukları tek kat halinde yerleştirerek 3-4 dakika, neredeyse pişene kadar kızartın. Tabağa alın.",
+   "Geniş bir wok'ta 1 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Yumurtaları çırpıp tavaya dökün, hızlıca karıştırarak yumuşak parçalar halinde pişirin, parçalayıp bir tabağa alın.",
+   "Aynı tavaya 2 yemek kaşığı yağ ekleyin, ateşi yükseltin ve tavukları tek kat halinde yerleştirerek 3-4 dakika, tamamen pişene kadar kızartın. Tabağa alın.",
    "Kalan yağla sarımsak ve soğanı 1 dakika kavurun. Havuç ve lahanayı ekleyip 2 dakika sotelemeye devam edin.",
    "Erişteyi ekleyin, soya soslarını, şekeri, tavuk suyunu ve kalan tuzu serpin. Yüksek ateşte 3 dakika, sık sık karıştırarak erişteyi sosu emmeye bırakın.",
    "Tavukları, pişmiş yumurtaları, fasulye filizini, taze soğanı ve isteğe bağlı biberi ekleyin. Her şeyi bir-iki dakika daha harmanlayın, fasulye filizleri hafif gevrek kalmalı.",
@@ -70,7 +70,7 @@
    "If using dried noodles, boil them according to the packet instructions, drain, rinse under cold water and drain well. If using fresh noodles, loosen them briefly in hot water, drain and set aside.",
    "Mix the sliced chicken with the cornflour, 1/2 tsp of the salt and the black pepper, and leave to marinate for 10 minutes.",
    "Heat 1 tablespoon of the oil in a large wok over medium-high heat. Beat the eggs, pour them into the wok and stir quickly until just set in soft pieces. Break them up and transfer to a plate.",
-   "Add 2 tablespoons of oil to the same wok, raise the heat and spread the chicken in a single layer. Cook for 3 to 4 minutes until nearly cooked through, then transfer to the plate.",
+   "Add 2 tablespoons of oil to the same wok, raise the heat and spread the chicken in a single layer. Cook for 3 to 4 minutes until cooked through, then transfer to the plate.",
    "Add the remaining oil and stir-fry the garlic and onion for 1 minute. Add the carrot and cabbage and toss for 2 minutes.",
    "Add the noodles, then pour over both soy sauces, the sugar, the stock and the remaining salt. Toss over high heat for 3 minutes, letting the noodles absorb the sauce.",
    "Return the chicken and eggs to the wok, then add the bean sprouts, spring onions and chilli if using. Toss for another 1 to 2 minutes until the sprouts are slightly crisp.",
@@ -81,5 +81,14 @@
   "tr": "Erişteler wok'a eklendiğinde tavanın çok sıcak olması önemlidir; yeterince büyük bir tava kullanın veya yemeği iki partide pişirin, böylece erişteler haşlanmak yerine kavrulur.",
   "en": "Keep the wok very hot when the noodles go in and cook in two batches if needed, so the noodles fry rather than steam."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says 'kabarcık kabarcık pişirin', which is unnatural culinary Turkish. The English 'until just set in soft pieces' should be 'yumuşak parçalar halinde'.",
+   "Chicken in step 4 is removed 'nearly cooked', then only reheated for 1-2 minutes in step 7. For food safety, it should be cooked through before it leaves the wok. The English and Turkish versions both"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

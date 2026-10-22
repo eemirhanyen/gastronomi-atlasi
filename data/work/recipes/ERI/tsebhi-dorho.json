@@ -16,7 +16,7 @@
    "1 bütün tavuk (yaklaşık 1,2 kg), 8 parçaya bölünmüş",
    "1 limonun suyu (yaklaşık 30 ml)",
    "1 çay kaşığı tuz (yaklaşık 6 g)",
-   "500 g kuru soğan, ince doğranmış (yaklaşık 3 büyük soğan)",
+   "500 g kırmızı soğan, ince doğranmış (yaklaşık 3 büyük soğan)",
    "120 g niter kibbeh (baharatlı tereyağı)",
    "3 yemek kaşığı berbere (yaklaşık 30 g)",
    "4 diş sarımsak, rendelenmiş (yaklaşık 12 g)",
@@ -69,5 +69,13 @@
   "tr": "Soğanları acele etmeden, gerçekten koyu kahverengi olana kadar kavurun; yahninin rengi ve derin tadı buna bağlıdır.",
   "en": "Do not rush the onions: cook them until they are truly dark brown, as the colour and deep flavour of the stew depend on this step."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says \"kuru soğan\" (ordinary dry/yellow onion), but the English says \"red onions\" and the traditional dish uses red onions. Turkish should say \"kırmızı soğan\" to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

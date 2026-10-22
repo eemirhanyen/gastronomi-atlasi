@@ -16,7 +16,7 @@
    "100 g taze zencefil, soyulup rendelenmiş",
    "200 g esmer şeker",
    "1,5 L su (1 L kaynamış, 500 ml soğuk)",
-   "60 ml taze limon suyu (yaklaşık 2 limon)",
+   "60 ml taze misket limonu suyu (yaklaşık 2 misket limonu)",
    "2 g (½ çay kaşığı) kuru maya"
   ],
   "en": [
@@ -34,7 +34,7 @@
    "Karışımı temiz bir sürahiye süzün; zencefil posasını bastırarak sıvısını iyice çıkarın.",
    "Esmer şekeri ekleyip tamamen eriyene kadar karıştırın.",
    "500 ml soğuk suyu ekleyerek karışımı oda sıcaklığına yakın, yaklaşık 30 °C'ye kadar soğutun.",
-   "Limon suyunu ekleyip karıştırın, ardından mayayı serpin ve iyice karıştırın.",
+   "Misket limonu suyunu ekleyip karıştırın, ardından mayayı serpin ve iyice karıştırın.",
    "Ağzını temiz bir bezle örtüp oda sıcaklığında (20-25 °C) 24 saat dinlenmeye bırakın.",
    "Ertesi gün, mayalanma belirtisi olup olmadığını kontrol edin; köpüklenme görmelisiniz.",
    "Sıvıyı temiz, kapaklı sağlam şişelere doldurun ve şişelerin ağzında yaklaşık 3-4 cm boşluk bırakın.",
@@ -59,5 +59,13 @@
   "tr": "Şişeler çok fazla gaz biriktirebileceğinden, oda sıcaklığındaki bekleme sırasında her gün kapağı dikkatlice açarak basıncı boşaltın.",
   "en": "Bottles can build up dangerous pressure, so open them briefly each day during the room-temperature stage to release gas, and always store them in the fridge once fizzy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Lime vs. lemon mismatch: the Turkish ingredient and step say 'limon' (lemon), but the English says 'lime' and the dish is a Bajan lime-based ginger beer. 'Limon' is ambiguous in Turkish, so the Turkis"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

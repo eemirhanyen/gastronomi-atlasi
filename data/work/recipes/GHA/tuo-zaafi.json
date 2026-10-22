@@ -21,9 +21,9 @@
    "60 ml sıvı yağ",
    "1 orta boy soğan, ince doğranmış",
    "2 orta boy domates, rendelenmiş",
-   "2 yemek kaşığı öğütülmüş dawadawa (yerel fermente tatlı baklagil tohumu), yaklaşık 20 g",
+   "2 yemek kaşığı öğütülmüş dawadawa (yerel fermente baklagil tohumu), yaklaşık 20 g",
    "60 g pürüzsüz fıstık ezmesi",
-   "200 g taze ıspanak veya ayoyo (kenaf yaprağı), doğranmış",
+   "200 g taze ıspanak veya ayoyo (jüt yaprağı), doğranmış",
    "1 acı biber, doğranmış",
    "1 çay kaşığı tuz"
   ],
@@ -71,5 +71,14 @@
   "tr": "Tuo hamurunu topaklanmaması için unu önce soğuk suyla iyice karıştırıp kaynayan suya yavaşça dökün ve sürekli karıştırın.",
   "en": "Mix the flour with cold water first and add it slowly to the boiling water while stirring constantly; this prevents lumps and gives a smooth, elastic tuo."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient lists 'ayoyo' as 'kenaf yaprağı', but ayoyo is jute leaves (English says so). Kenaf is a different plant.",
+   "Turkish dawadawa description 'tatlı baklagil tohumu' (sweet legume seed) is wrong. Dawadawa is a fermented, pungent locust bean seasoning, not sweet."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

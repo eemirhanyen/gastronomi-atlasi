@@ -5,7 +5,7 @@
  },
  "native": "Bakkeljauw",
  "desc": {
-  "tr": "Surinam'ın başkent Paramaribo'da ve aile kahvaltılarında sıkça yenen, dışı çıtır, içi yumuşak tuzlu morina hamur topları. Genellikle sabah atıştırmalığı ya da öğleden sonra çayı eşliğinde servis edilir.",
+  "tr": "Surinam'ın başkenti Paramaribo'da ve aile kahvaltılarında sıkça yenen, dışı çıtır, içi yumuşak tuzlu morina hamur topları. Genellikle sabah atıştırmalığı ya da öğleden sonra çayı eşliğinde, çoğu zaman acı biber sosuyla servis edilir.",
   "en": "A crisp-coated, soft-centred fritter of salted cod, popular in Paramaribo and eaten as a breakfast or afternoon snack, often with a little hot pepper sauce. Suriname's Dutch-influenced fried snack culture gave it its name."
  },
  "servings": 4,
@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "250 g kurutulmuş tuzlu morina (önceden 24 saat suda bekletilmiş)",
+   "250 g kurutulmuş tuzlu morina",
    "200 g un",
    "5 g kabartma tozu",
    "1 küçük yumurta",
@@ -27,7 +27,7 @@
    "700 ml kızartma yağı"
   ],
   "en": [
-   "250 g dried salt cod (soaked in water for 24 hours beforehand)",
+   "250 g dried salt cod",
    "200 g plain flour",
    "5 g baking powder",
    "1 small egg",
@@ -68,8 +68,18 @@
   ]
  },
  "tip": {
-  "tr": "Morinanın tuzluluğunu kontrol etmek için küçük bir parça pişirip tadına bakın; hâlâ çok tuzluysa suyu bir kez daha değiştirip bekletin.",
+  "tr": "Morinanın tuzluluğunu kontrol etmek için küçük bir parça pişirip tadına bakın; hâlâ çok tuzluysa suyu değiştirip birkaç saat daha bekletin.",
   "en": "Fry a small test spoonful first to check the saltiness of the cod; if it is still too salty, soak it for a few more hours in fresh water."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient line says the cod is already soaked 24 hours, but step 1 tells the cook to soak it for 24 hours (TR and EN).",
+   "Turkish description has ungrammatical 'başkent Paramaribo'da'; it should be 'başkenti Paramaribo'da'.",
+   "Tip disagrees between versions: English says soak 'a few more hours', Turkish says change the water once more and wait."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

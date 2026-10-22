@@ -55,7 +55,7 @@
    "Hamuru 5 dakika kadar pürüzsüz olana dek yoğurun, streç filmle sarıp oda sıcaklığında 30 dakika dinlendirin.",
    "Hamuru yaklaşık 1 cm kalınlığında bir dikdörtgen halinde açın. 12 cm uzunluğunda ve 2 cm genişliğinde şeritler kesin.",
    "Her seferinde üç şeridi yan yana koyup örün, uçlarını bastırarak birleştirin. Örgüleri tabağa alıp 15 dakika dinlendirin.",
-   "Yağı orta-yüksek ateşte 170 °C'ye kadar ısıtın. Örgüleri gruplar halinde yağa koyup her iki tarafı da altın rengi olana kadar yaklaşık 2-3 dakika kızartın.",
+   "Yağı orta-yüksek ateşte 170 °C'ye kadar ısıtın. Örgüleri gruplar halinde yağa koyup her iki tarafı da altın rengi olana ve iç kısmı pişene kadar, yaklaşık 4-5 dakika kızartın. Yağ sıcaklığının düşmemesi için gruplar halinde çalışın.",
    "Kızaran koeksisterleri süzgeçli bir kağıt havlu üzerine alın ve birkaç dakika süzülmeye bırakın.",
    "Sıcak koeksisterleri soğumuş şerbete 1-2 dakika batırın, her iki yüzünü de şerbetle kaplayın. İsterseniz hindistancevizi rendesine bulayın.",
    "Şerbeti emmeleri için tabakta birkaç dakika bekletip servis yapın."
@@ -67,7 +67,7 @@
    "Knead the dough for about 5 minutes until smooth, then cover with cling film and rest at room temperature for 30 minutes.",
    "Roll the dough into a rectangle about 1 cm thick. Cut strips 12 cm long and 2 cm wide.",
    "Take three strips at a time, lay them side by side, and plait them. Pinch the ends together to seal. Rest the plaits on a plate for 15 minutes.",
-   "Heat the oil to 170 °C over medium-high heat. Fry the plaits in small batches for 2-3 minutes, turning once, until golden on both sides.",
+   "Heat the oil to 170 °C over medium-high heat. Fry the plaits in small batches, turning once, for about 4-5 minutes until golden on both sides and cooked through. Work in small batches so the oil temperature does not drop.",
    "Transfer the fried koeksisters to a plate lined with kitchen paper and let them drain for a few minutes.",
    "Dip the hot koeksisters into the cooled syrup for 1-2 minutes, turning to coat both sides. If you like, roll them in desiccated coconut.",
    "Leave them on a plate for a few minutes so they absorb the syrup, then serve."
@@ -77,5 +77,13 @@
   "tr": "Şerbet soğuk, koeksisterler sıcak olmalıdır; bu sayede şerbet dokuya nüfuz eder ve tatlı çıtır kalır.",
   "en": "The syrup should be cold and the koeksisters hot, so the syrup soaks in while the outside stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Frying time of 2-3 minutes at 170 °C is too short for a 1 cm thick, plaited, egg-containing dough. The centre may stay raw while the outside browns (EN and TR)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

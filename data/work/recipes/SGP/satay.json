@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "500 g kemiksiz tavuk but eti, 2 cm küp doğranmış",
-   "2 kök lemongrass, sadece yumuşak kısmı ince kıyılmış (yaklaşık 2 yemek kaşığı)",
+   "2 kök limon otu, sadece yumuşak kısmı ince kıyılmış (yaklaşık 2 yemek kaşığı)",
    "2 kuru soğan (échalote), ince doğranmış",
    "2 diş sarımsak, ezilmiş",
    "1 tatlı kaşığı öğütülmüş zerdeçal",
@@ -33,7 +33,7 @@
    "1 yemek kaşığı soya sosu (sos için)",
    "1 tatlı kaşığı limon suyu",
    "1 yemek kaşığı sıvı yağ (sos için)",
-   "1/2 tuz tatlı kaşığı (sos için)",
+   "1/2 tatlı kaşığı tuz (sos için)",
    "1/2 salatalık, dilim dilim",
    "1 küçük kırmızı soğan, ince dilimlenmiş",
    "400 g haşlanmış beyaz pirinç, küçük bloklar halinde şekillendirilmiş",
@@ -70,7 +70,7 @@
  "steps": {
   "tr": [
    "Bambu şişleri en az 30 dakika suda bekletin, böylece ızgarada yanmazlar.",
-   "Büyük bir kapta lemongrass, kuru soğan, sarımsak, zerdeçal, kişniş, kimyon, esmer şeker, soya sosu, sıvı yağ ve tuzu karıştırın.",
+   "Büyük bir kapta limon otu, kuru soğan, sarımsak, zerdeçal, kişniş, kimyon, esmer şeker, soya sosu, sıvı yağ ve tuzu karıştırın.",
    "Tavuk küplerini ekleyip iyice bulaştırın. Örtün ve buzdolabında en az 30 dakika marine etmeye bırakın.",
    "Sos için küçük bir tencerede sıvı yağı orta ateşte ısıtın. Kuru soğan ve sarımsağı yumuşayana kadar, yaklaşık 2 dakika kavurun.",
    "Acı biber tozunu ekleyip 30 saniye daha kavurun. Öğütülmüş yer fıstığı, suyu, esmer şekeri, soya sosunu ve tuzu ilave edin.",
@@ -95,5 +95,14 @@
   "tr": "Sosu biraz kalın tutun; soğuyunca koyulaşır, bu yüzden servisten önce kısa süreyle ısıtarak inceltebilirsiniz.",
   "en": "Keep the sauce slightly thick, as it will firm up as it cools. Reheat gently with a splash of water before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line \"1/2 tuz tatlı kaşığı (sos için)\" has a malformed word order; it should read \"1/2 tatlı kaşığı tuz (sos için)\".",
+   "Turkish ingredient and step text use the English word \"lemongrass\" where the natural Turkish term is \"limon otu\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

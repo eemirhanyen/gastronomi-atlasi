@@ -25,7 +25,7 @@
    "60 ml zeytinyağı (sos için)",
    "60 ml limon suyu",
    "1 diş sarımsak, ezilmiş",
-   "1 tatlı kaşığı pekmez (nar ekşisi)",
+   "1 tatlı kaşığı nar ekşisi",
    "1 tatlı kaşığı sumak, ayrıca servis için 1 tatlı kaşığı daha",
    "1/2 tatlı kaşığı tuz"
   ],
@@ -52,7 +52,7 @@
    "Fırını 200°C'ye ısıtın.",
    "Pita parçalarını bir fırın tepsisine dizin, 30 ml zeytinyağı ve bir tutam tuzla gezdirin.",
    "Ekmekleri 8-10 dakika, altın rengi ve gevrek olana kadar fırınlayın, sonra soğumaya bırakın.",
-   "Büyük bir kasede limon suyu, ezilmiş sarımsak, pekmez, 1 tatlı kaşık sumak ve 1/2 tatlı kaşık tuzu karıştırın.",
+   "Büyük bir kasede limon suyu, ezilmiş sarımsak, nar ekşisi, 1 tatlı kaşık sumak ve 1/2 tatlı kaşık tuzu karıştırın.",
    "Zeytinyağını yavaş yavaş ekleyip çırparak emülsiyon elde edin.",
    "Salatalık, domates, marul, turp, taze soğan, maydanoz ve naneyi geniş bir servis kasesine alın.",
    "Sebzeleri sosun yarısıyla hafifçe karıştırın.",
@@ -75,5 +75,13 @@
   "tr": "Ekmek parçalarını salataya servis anında ekleyin; önceden karıştırılırsa gevrekliğini kaybeder ve sosu emer.",
   "en": "Add the bread only at the last moment; if it sits in the dressing it loses its crunch and turns soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient 'pekmez (nar ekşisi)' is a wrong term: pekmez means grape or carob molasses, while the English 'pomegranate molasses' is 'nar ekşisi'. Corrected to 'nar ekşisi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -42,7 +42,7 @@
    "Balığı soğuk su altında yıkayıp kağıt havlu ile kurulayın. 1 cm'lik küpler halinde kesin.",
    "Balık küplerini cam bir kaseye alın, üzerine limon suyunu ve tuzu ekleyin. Karıştırın ve kaseyi örterek buzdolabında 25-30 dakika bekletin.",
    "Bu sırada kırmızı soğanı soğuk suda 10 dakika bekletin, sonra süzün. Bu işlem soğanın keskinliğini azaltır.",
-   "Balık küplerinin dış yüzeyi opak beyaza döndüğünde ve ortası hafif yarı saydam kaldığında limon suyunun çoğunu süzün (yaklaşık yarısını kasede bırakın).",
+   "Balık küplerinin dış yüzeyi opak beyaza döndüğünde ve ortası hafif yarı saydam kaldığında limon suyunun yaklaşık yarısını süzün (yarısını kasede bırakın).",
    "Süzülmüş soğanı, domatesi, salatalığı, kırmızı biberi, acı biberi ve kişnişi balıkların üzerine ekleyin.",
    "Malzemeleri nazikçe karıştırın, kaseyi örtüp 10 dakika daha buzdolabında soğutun.",
    "Soğuk olarak, tuzlu krakerlerle birlikte servis yapın."
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Balığın tamamen taze olduğundan emin olun; mümkünse aynı gün alınmış, soğuk zincirde saklanmış filetoyu kullanın.",
-  "en": "Use the freshest fish you can find, ideally bought the same day and kept cold, since the lime only partly cooks the flesh."
+  "tr": "Balığın tamamen taze olduğundan emin olun; mümkünse aynı gün alınmış, soğuk zincirde saklanmış filetoyu kullanın. Parazit riskini azaltmak için, kullanmadan önce balığı en az 24 saat -20°C'de dondurun; limon suyu parazitleri güvenilir biçimde öldürmez.",
+  "en": "Use the freshest fish you can find, ideally bought the same day and kept cold. Freeze the fish at -20°C for at least 24 hours before use to reduce parasite risk, since lime juice does not reliably kill parasites."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says 'çoğunu süzün' (drain most of the lime juice) but the parenthetical and the English both say about half. Turkish should say 'yarısını süzün'.",
+   "The tip does not mention parasite risk. Lime juice does not reliably kill parasites in raw fish, so the tip should recommend freezing the fish at -20°C for at least 24 hours before use, in both langua"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A traditional family dish from Algeria, eaten on Fridays and at festive gatherings. Lamb is slowly stewed with seven vegetables and chickpeas, and the couscous is steamed several times until light and fluffy before being served with the broth."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 180,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -70,7 +70,7 @@
    "Soğanı ekleyip yumuşayana ve altın renge dönene kadar 6 dakika pişirin.",
    "Domates salçasını ve rendelenmiş domatesi ekleyin, 3 dakika daha kavurun.",
    "Kimyon, tatlı kırmızı biber, kişniş tozu, zerdeçal, karabiber, tarçın ve bir tutam tuzu ekleyin, baharatlar kokusunu verene kadar karıştırın.",
-   "Sıcak suyu ekleyin, nohutları da katın, kaynamaya bırakın ve kısık ateşte yaklaşık 40 dakika pişirin.",
+   "Sıcak suyu ekleyin, nohutları da katın, kaynamaya bırakın ve kısık ateşte yaklaşık 60 dakika pişirin.",
    "Havuç ve şalgamı ekleyip 15 dakika daha pişirin.",
    "Balkabağı, lahana ve yeşil biberi ekleyin, sebzeler yumuşayıncaya kadar yaklaşık 15 dakika pişirin. Son 5 dakikada kabakları ekleyin, çok dağılmadan pişirin ve tuzunu kontrol edin.",
    "Kuskusu büyük bir kaseye alın, üzerine bir avuç su serpip elinizle ovalayarak topaklarını dağıtın, 15 dakika dinlendirin.",
@@ -84,7 +84,7 @@
    "Add the onions and cook for about 6 minutes until soft and golden.",
    "Stir in the tomato paste and grated tomatoes and fry for another 3 minutes.",
    "Add the cumin, paprika, ground coriander, turmeric, black pepper, cinnamon and a pinch of salt, stirring until fragrant.",
-   "Pour in the hot water, add the chickpeas, bring to a boil, then simmer gently for about 40 minutes.",
+   "Pour in the hot water, add the chickpeas, bring to a boil, then simmer gently for about 60 minutes.",
    "Add the carrots and turnips and cook for a further 15 minutes.",
    "Add the pumpkin, cabbage and green pepper and cook for about 15 minutes. In the last 5 minutes add the courgettes, keeping them intact, and adjust the salt.",
    "Place the couscous in a large bowl, sprinkle with a little water and rub it between your fingers to break up any lumps. Rest for 15 minutes.",
@@ -97,5 +97,14 @@
   "tr": "Kuskusu iki kez buharda pişirmek tanelerin hafif ve dolgun olmasını sağlar; kuskusu asla kaynayan suya doğrudan koymayın, buharın geçtiği bir elek kullanın.",
   "en": "Steaming the couscous twice and rubbing it with water and oil between steamings keeps the grains light and separate; never boil couscous directly in liquid."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is inconsistent with the steps: the stew alone simmers about 85 minutes, plus about 17 minutes of browning and roughly 60 minutes of steaming and resting.",
+   "Lamb shoulder and dried chickpeas get only about 40 minutes of simmering before the vegetables are added, which is likely too short for tender meat and fully cooked chickpeas. Extended to about 60 min"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

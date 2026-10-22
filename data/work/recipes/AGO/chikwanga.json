@@ -9,7 +9,7 @@
   "en": "A cassava bread from Angola made by fermenting peeled sweet cassava in water for several days, then shaping and steaming it wrapped in banana leaves. It is served with meat or stews at meals and is also popular as portable food for journeys."
  },
  "servings": 4,
- "time_min": 75,
+ "time_min": 120,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -34,10 +34,10 @@
    "Macunu kapaklı bir kaba koyun, üzerini 2 litre suyla kaplayın ve oda sıcaklığında 2 ila 3 gün fermente olmaya bırakın. Her gün suyu değiştirin.",
    "Fermantasyon bitince suyu süzün, macunu bezde sıkarak mümkün olduğunca fazla suyunu alın.",
    "Sıkılmış macuna tuzu ekleyin ve elle iyice yoğurarak pürüzsüz, sıkı bir hamur elde edin.",
-   "Hamuru 4 eşit parçaya (yaklaşık 200 g) bölün ve her birini silindir şeklinde yuvarlayın.",
+   "Hamuru 4 eşit parçaya (yaklaşık 100 g) bölün ve her birini silindir şeklinde yuvarlayın.",
    "Muz yapraklarını ateşin üzerinde ya da sıcak suda kısaca yumuşatıp silin.",
    "Her silindiri bir muz yaprağına koyun, yaprağı sıkıca sarıp uçlarını katlayarak paket yapın ve iple bağlayın.",
-   "Büyük bir tencerede suyu kaynatın, paketleri buharlı bir sepete veya süzgece dizin ve kapağı kapalı olarak yaklaşık 60 dakika buharda pişirin.",
+   "Büyük bir tencerede suyu kaynatın, paketleri buharlı bir sepete veya süzgece dizin ve kapağı kapalı olarak yaklaşık 90 dakika buharda pişirin.",
    "Paketleri ocaktan alıp en az 15 dakika soğutun, ardından açıp dilimleyerek servis yapın."
   ],
   "en": [
@@ -46,10 +46,10 @@
    "Place the paste in a covered container, cover with the 2 litres of water and leave to ferment at room temperature for 2 to 3 days. Change the water every day.",
    "When fermentation is complete, drain off the water and squeeze the paste in a cloth to remove as much liquid as possible.",
    "Add the salt to the squeezed paste and knead by hand until smooth and firm.",
-   "Divide the dough into 4 equal portions (about 200 g each) and roll each into a cylinder.",
+   "Divide the dough into 4 equal portions (about 100 g each) and roll each into a cylinder.",
    "Soften the banana leaves briefly over a flame or in hot water, then wipe them clean.",
    "Place each cylinder on a banana leaf, wrap tightly, fold the ends into a parcel and tie with string.",
-   "Bring water to a boil in a large pot, arrange the parcels in a steamer basket or colander over the water, cover and steam for about 60 minutes.",
+   "Bring water to a boil in a large pot, arrange the parcels in a steamer basket or colander over the water, cover and steam for about 90 minutes.",
    "Remove the parcels from the heat and let them cool for at least 15 minutes, then open, slice and serve."
   ]
  },
@@ -57,5 +57,15 @@
   "tr": "Fermantasyon süresi uzadıkça manyoktan gelen acılık azalır ve tat ekşimsi bir hale gelir; ilk gün suyu mutlaka değiştirin.",
   "en": "The longer the cassava ferments, the more its bitterness fades and the flavour becomes slightly sour; always change the water daily, and never skip the fermentation."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dough portions don't match the starting cassava: 4 × 200 g = 800 g of dough from about 600 g peeled cassava, which loses weight when squeezed. Portions should be about 100 g each (Turkish and English)",
+   "Steaming for 60 minutes is likely too short for 100 to 200 g cassava packets. Steaming time should be about 90 minutes (Turkish and English).",
+   "time_min (75) doesn't match the steps: about 15 min prep, 90 min steaming and 15 min cooling gives about 120 min of active time."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

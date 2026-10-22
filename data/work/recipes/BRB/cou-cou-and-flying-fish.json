@@ -19,7 +19,7 @@
    "150 g bamya, ince dilimlenmiş",
    "1 tatlı kaşığı tuz",
    "30 g tereyağı",
-   "600 g uçan balık filetosu (yoksa uskumru veya istavrit)",
+   "600 g uçan balık filetosu (yoksa uskumru veya mezgit)",
    "1 adet lime, suyu sıkılmış",
    "1 büyük soğan, ince doğranmış",
    "2 diş sarımsak, ezilmiş",
@@ -81,5 +81,13 @@
   "tr": "Cou-cou'yu topaklanmadan kıvamlandırmak için unu mutlaka soğuk suyla önceden karıştırın ve sıcakken sürekli karıştırın; scotch bonnet'i bütün bırakıp delmek, tadı çok acı yapmadan aroma verir.",
   "en": "For lump-free cou-cou, always mix the cornmeal with cold water first and keep stirring while it cooks; leaving the scotch bonnet whole and only pricking it adds aroma without making the dish overly hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fish substitution mismatch: the English lists 'whiting' but the Turkish lists 'istavrit' (horse mackerel). Whiting corresponds to 'mezgit' in Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

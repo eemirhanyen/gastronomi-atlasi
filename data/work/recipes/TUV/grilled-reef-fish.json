@@ -6,7 +6,7 @@
  "native": "ika tunu",
  "desc": {
   "tr": "Tuvalu'da lagün ve resif balıklarının kıyıda kömür ateşinde, çoğunlukla muz yaprağına sarılarak pişirildiği günlük bir ana yemektir. Aile öğünlerinde ve adalardaki toplantılarda, yanında hindistancevizi kreması ile servis edilir.",
-  "en": "A everyday main in Tuvalu, where lagoon and reef fish are grilled over coals on the shore, often wrapped in banana leaves. It is served at family meals and island gatherings, usually with coconut cream."
+  "en": "An everyday main in Tuvalu, where lagoon and reef fish are grilled over coals on the shore, often wrapped in banana leaves. It is served at family meals and island gatherings, usually with coconut cream."
  },
  "servings": 4,
  "time_min": 60,
@@ -44,7 +44,7 @@
    "Karışımı balıkların içine ve dışına eşit şekilde sürün. Oda sıcaklığında 15 dakika dinlendirin.",
    "Muz yapraklarını ateşin üzerinden birkaç saniye geçirip yumuşatın ve silin.",
    "Her balığı bir yaprağa sarıp ızgaranın kenarına ya da orta kısmına yerleştirin. Yaklaşık 15 dakika, bir kez çevirerek pişirin.",
-   "Yaprakları açın ve balıkları 2 dakika kadar her iki yüzünde de kızartarak yüzeyini hafifçe kömürleştirin. Et opak olmalı ve kolayca ayrılmalıdır.",
+   "Yaprakları açın ve balıkları 2 dakika kadar her iki yüzünde de ızgarada çevirerek yüzeyini hafifçe kömürleştirin. Et opak olmalı ve kolayca ayrılmalıdır.",
    "Hindistancevizi kremasını küçük bir tencerede kısık ateşte 2 dakika ısıtın.",
    "Balıkları sıcak servis edin ve yanında ılık hindistancevizi kremasını ayrıca sunun."
   ],
@@ -65,5 +65,14 @@
   "tr": "Balığın içinde kalan sıvının dışarı çıkmaması için kesikleri derin atmayın; sarma yaprağı nemi koruyarak balığı yumuşak tutar.",
   "en": "Score the fish only as deep as the bone so the juices stay in; the banana leaf keeps the flesh moist while it cooks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 uses 'kızartarak' (frying) for a grilling step; 'ızgarada çevirerek' is the natural term.",
+   "English description says 'A everyday main'; should be 'An everyday main'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

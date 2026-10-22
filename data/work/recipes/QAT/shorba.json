@@ -9,7 +9,7 @@
   "en": "A rich, aromatic lamb and rice soup served in Qatar, often at iftar during Ramadan and when hosting guests. It reflects the warm, spiced flavours of Gulf cooking, with dried limes giving it a distinctive sourness."
  },
  "servings": 4,
- "time_min": 70,
+ "time_min": 80,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -56,7 +56,7 @@
    "Büyük bir tencerede yağı orta-yüksek ateşte ısıtın. Kuzu etini her tarafı kızarana kadar yaklaşık 8 dakika kavurun.",
    "Ateşi orta seviyeye indirin, soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 6 dakika pişirin.",
    "Sarımsağı, salçayı, zerdeçalı, kimyonu ve karabiberi ekleyip 1 dakika karıştırarak kokusunu çıkarın.",
-   "Rendelenmiş domatesleri ekleyin ve suyunu salıncaya kadar 4 dakika pişirin.",
+   "Rendelenmiş domatesleri ekleyin ve suyunu çekene kadar 4 dakika pişirin.",
    "Suyu, delinmiş kuru limonları, tarçını ve ezilmiş kakuleyi ekleyin. Kaynamaya bırakın, sonra ateşi kısın ve kapağı yarım açık bırakarak yaklaşık 40 dakika hafifçe kaynatın. Yüzeyde biriken köpüğü alın.",
    "Eti tencereden çıkarıp bir tabakta ayırın. Kemiklerini temizleyin ve eti lifleri boyunca parçalayın.",
    "Yıkanmış pirinci tencereye ekleyip karıştırın. Pirinç yumuşayana kadar yaklaşık 15 dakika kaynatın, bu sırada sık sık karıştırın.",
@@ -79,5 +79,14 @@
   "tr": "Kuru limonları delmek, tatlarını çorbaya tam olarak vermelerini sağlar; tadı çok ekşi bulursanız pişirme sırasında daha fazla su ekleyerek dengeleyin.",
   "en": "Piercing the dried limes lets their sour flavour infuse the broth fully; if it tastes too sharp, add a splash of hot water while it simmers to balance it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 uses \"suyunu salıncaya kadar\", which is incorrect and unnatural; \"suyunu çekene kadar\" is the correct phrasing.",
+   "time_min (70) is lower than the sum of the cooking steps (about 76 minutes) before preparation, so it should be increased."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

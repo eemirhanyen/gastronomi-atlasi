@@ -5,11 +5,11 @@
  },
  "native": "Κουλούρι",
  "desc": {
-  "tr": "Yunanistan'ın özellikle Selanik'te sokak satıcılarından alınan, susamla kaplı halka şeklinde simittir. Sabah kahvaltısında ve gün içinde atıştırmalık olarak, genellikle ayran benzeri yoğurtlu içeceklerle birlikte yenir.",
+  "tr": "Yunanistan'ın özellikle Selanik'te sokak satıcılarından alınan, susamla kaplı halka şeklinde simittir. Sabah kahvaltısında ve gün içinde atıştırmalık olarak, genellikle kahve ya da ayran benzeri yoğurtlu içeceklerle birlikte yenir.",
   "en": "A sesame-crusted bread ring sold by street vendors, especially in Thessaloniki. It is eaten for breakfast and as a snack throughout the day, often with coffee or a yogurt drink."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -65,5 +65,14 @@
   "tr": "Halkaları şekillendirirken hamuru fazla sıkıştırmayın; kordonu gevşek tutup uçları yumuşakça birleştirirseniz pişince ortası kapanmaz ve gerçek koulouri dokusu elde edersiniz.",
   "en": "Shape the rope loosely and join the ends gently rather than squeezing; this keeps the centre from closing during baking and gives the soft, airy texture typical of real koulouri."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (90) is too low: the recipe has about 1 hour of proofing, 8-10 minutes of kneading, 20 minutes of shaping and rising, and 15-18 minutes of baking, so about 110-120 minutes in total",
+   "The English description mentions coffee as an accompaniment, but the Turkish description mentions only yogurt drinks (ayran)"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -34,22 +34,22 @@
  "steps": {
   "tr": [
    "Fırını 200 °C'ye ısıtın.",
-   "Taro yapraklarını iyice yıkayın, kalın sapları ve orta damarlarını kesip çıkarın.",
+   "Taro yapraklarını iyice yıkayın, kalın sapları ve orta damarlarını kesip çıkarın. Ispanak kullanıyorsanız yaprakları yıkayıp saplarını ayırın.",
    "Bir kasede soğanı, hindistancevizi kremasını, corned beef'i (kullanıyorsanız) ve tuzu karıştırın.",
    "Her yaprağın ortasına yaklaşık 50 ml karışım koyun.",
    "Yaprağın kenarlarını karışımın üzerine katlayarak küçük bir paket oluşturun.",
    "Her paketi bir kare folyoya sarın ve kenarlarını sıkıca kapatın. Kürdan veya ip ile sabitleyin.",
-   "Paketleri bir fırın tepsisine dizin ve 60 dakika pişirin; taro yaprakları tamamen yumuşayana ve iç kısım kremalı bir kıvam alana kadar bekleyin.",
-   "Fırından çıkarıp 5 dakika dinlendirin, sonra folyoları açıp sıcak olarak servis yapın."
+   "Paketleri bir fırın tepsisine dizin ve taro yapraklarıyla 60 dakika, ıspanakla 40 dakika pişirin; yapraklar tamamen yumuşayana ve iç kısım kremalı bir kıvam alana kadar bekleyin.",
+   "Fırından çıkarıp 5 dakika dinlendirin, sonra folyoları açıp sıcak servis edin."
   ],
   "en": [
    "Preheat the oven to 200 °C.",
-   "Wash the taro leaves thoroughly, then cut away the thick stems and central ribs.",
+   "Wash the taro leaves thoroughly, then cut away the thick stems and central ribs. If using spinach, wash the leaves and remove the stems.",
    "In a bowl, mix the onion, coconut cream, corned beef (if using) and salt.",
    "Spoon about 50 ml of the mixture into the centre of each leaf.",
    "Fold the leaf edges over the filling to form a small parcel.",
    "Wrap each parcel in a square of foil, sealing the edges tightly, and secure with a toothpick or string.",
-   "Arrange the parcels on a baking tray and bake for 60 minutes, until the leaves are completely soft and the filling is thick and creamy.",
+   "Arrange the parcels on a baking tray and bake for 60 minutes for taro leaves or 40 minutes for spinach, until the leaves are completely soft and the filling is thick and creamy.",
    "Remove from the oven, rest for 5 minutes, then open the foil and serve warm."
   ]
  },
@@ -57,5 +57,14 @@
   "tr": "Taro yapraklarında doğal olarak bulunan kalsiyum oksalat çiğ halde tahriş yapabileceğinden, yaprakları mutlaka uzun süre pişirin; ıspanak kullanıyorsanız pişirme süresini 40 dakikaya indirebilirsiniz.",
   "en": "Taro leaves contain calcium oxalate, which can irritate the mouth if eaten undercooked, so bake them fully; if using spinach, 40 minutes is usually enough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 says to bake for 60 minutes unconditionally, but the tip says spinach needs only about 40 minutes. The steps don't mention the spinach substitute at all. Both languages are affected.",
+   "Turkish step 8 'sıcak olarak servis yapın' is awkward; 'sıcak servis edin' is more natural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

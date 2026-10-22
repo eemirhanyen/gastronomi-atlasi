@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Hindistan cevizi yengeci güveci",
+  "tr": "Hindistan cevizi sütünde yengeç",
   "en": "Coconut Crab in Coconut Milk"
  },
  "native": "Kakaha",
@@ -64,12 +64,21 @@
    "Bring to a boil, reduce the heat to low, cover and simmer gently for 30-35 minutes until the meat is tender and easily pulls from the shell.",
    "Stir in the taro leaves or spinach and cook for 5 more minutes until wilted and the sauce has thickened slightly.",
    "Remove from the heat, stir in the lime juice, then taste and adjust the salt if needed.",
-   "Serve hot, garnished with the coriander and spring onions, with rice or sweet potato on the side."
+   "Serve hot, garnished with the coriander, spring onions and some of the crab pieces, with rice or sweet potato on the side."
   ]
  },
  "tip": {
   "tr": "Hindistan cevizi yengeci koruma altındadır; yasal olarak avlanmış veya üretilmiş yengeç kullanın. Bulamazsanız büyük boy hazır yengeç veya ıstakoz eti ile aynı tarifi uygulayabilirsiniz.",
   "en": "Coconut crab is protected in many areas, so use legally sourced crab only. If unavailable, large cooked crab or lobster meat works well with the same method, reducing the simmering time to about 10 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 garnishes with 'bir kısmı yengeç parçaları' (some crab pieces), but the English step 8 omits this, so the two versions disagree.",
+   "Turkish name 'Hindistan cevizi yengeci güveci' uses 'güveci' (casserole), which does not match the English title 'Coconut Crab in Coconut Milk' or the stewed-in-coconut-milk method."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

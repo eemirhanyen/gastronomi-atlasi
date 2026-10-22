@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Scotch bonnet biberini delmeden bütün bırakın; böylece çorbaya aroma verir ama aşırı acılaşmaz. Kalalu bulunamazsa ıspanak kullanabilirsiniz.",
+  "tr": "Scotch bonnet biberini delinmiş ve bütün bırakın; böylece çorbaya aroma verir ama aşırı acılaşmaz. Kalalu bulunamazsa ıspanak kullanabilirsiniz.",
   "en": "Keep the Scotch bonnet whole and pierced so it flavours the soup without making it overly hot. If callaloo is unavailable, spinach works as a substitute."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to leave the Scotch bonnet whole without piercing (\"delmeden bütün bırakın\"), but the ingredients, step 5 and the English tip all say it should be pierced."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

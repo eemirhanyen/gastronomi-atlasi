@@ -18,7 +18,7 @@
    "50 g ince mısır unu",
    "1 tatlı kaşığı (4 g) kabartma tozu",
    "30 g toz şeker",
-   "2 g tuz (yarım tatlı kaşığı)",
+   "3 g tuz (yarım tatlı kaşığı)",
    "1 yumurta (yaklaşık 50 g)",
    "80 ml süt",
    "500 ml kızartmalık bitkisel yağ"
@@ -29,7 +29,7 @@
    "50 g fine maize meal",
    "1 tsp (4 g) baking powder",
    "30 g sugar",
-   "2 g salt (1/2 tsp)",
+   "3 g salt (1/2 tsp)",
    "1 egg (about 50 g)",
    "80 ml milk",
    "500 ml vegetable oil, for frying"
@@ -58,8 +58,17 @@
   ]
  },
  "tip": {
-  "tr": "Kabağı iyice soğutup sıkarak suyunu alın; böylece hamur kalın kalır ve yağda dağılmaz.",
+  "tr": "Kabağı iyice süzüp soğutun; böylece hamur kalın kalır ve yağda dağılmaz.",
   "en": "Drain and cool the squash thoroughly so the dough stays thick and does not fall apart in the oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt is listed as 2 g but described as 1/2 tsp, which is about 3 g. The gram amount is inconsistent with the volume (both languages).",
+   "Turkish tip says to squeeze the squash (\"sıkarak\"), but the steps only say to drain and cool it. The tip should match the steps."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

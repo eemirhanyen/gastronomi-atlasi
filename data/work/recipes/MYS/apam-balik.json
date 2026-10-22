@@ -50,7 +50,7 @@
    "Kapağı kapatıp 1-2 dakika pişirin; üst yüzey kabarcıklanıp kenarlar gevrekleşince kapağı açın.",
    "Krepin üzerine 40 g tereyağının bir kısmını sürün, iç harcın yarısını serpin ve krepi ikiye katlayın.",
    "Ara ara çevirerek iki yüzü de altın rengi ve gevrek olana kadar pişirin.",
-   "Kalan hamur ve iç harçla aynı işlemi tekrarlayın, ardından sıcak sıcak dilimleyip servis yapın."
+   "Kalan hamur ve iç harçla aynı işlemi tekrarlayın; tereyağını kalan kısımlara bölüştürerek kullanın, ardından sıcak sıcak dilimleyip servis yapın."
   ],
   "en": [
    "In a large bowl, whisk together the flour, 60 g caster sugar, salt and bicarbonate of soda.",
@@ -69,5 +69,13 @@
   "tr": "Tavayı çok ısıtmayın; orta-düşük ateşte kapağı kullanmak krepin ortasını yumuşak, kenarlarını gevrek tutar.",
   "en": "Keep the heat moderate: a lid for the first minute or two steams the centre soft while the edges crisp up."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 omits the instruction to divide the 40 g butter across the remaining pancakes, which the English version includes (\"dividing the butter as you go\"). The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

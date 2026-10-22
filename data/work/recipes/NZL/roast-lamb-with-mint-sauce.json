@@ -52,9 +52,9 @@
    "Kuzu butunu kurulayın. Sarımsak, biberiye, zeytinyağı, tuz ve karabiberi karıştırıp macun gibi bir karışım yapın ve etin her yerine sürün.",
    "Kuzuyu 30 dakika oda sıcaklığında bekletin.",
    "Patates ve soğan parçalarını birkaç yemek kaşığı zeytinyağı ile harmanlayıp derin bir fırın tepsisine yayın. Kuzuyu ortaya yerleştirin.",
-   "Tepsiyi fırının orta rafına koyun ve 20 dakika kızartın. Ardından fırın ısısını 180°C'ye düşürün ve et iç ısısı 60°C'ye ulaşana kadar yaklaşık 50-60 dakika daha pişirin. Patatesler yumuşak ve altın rengi olmalı.",
+   "Tepsiyi fırının orta rafına koyun ve 20 dakika kavurun. Ardından fırın ısısını 180°C'ye düşürün ve et iç ısısı 60°C'ye ulaşana kadar yaklaşık 50-60 dakika daha pişirin. Patatesler yumuşak ve altın rengi olmalı.",
    "Kuzuyu folyoyla gevşekçe örtüp 15 dakika dinlendirin.",
-   "Tepsideki suyu bir tencereye süzün. Tepsiye 1 yemek kaşığı unu ekleyip kısa süre karıştırın, sonra kuzu suyunu ve stoku ekleyerek sürekli karıştırarak kısık ateşte 5 dakika kaynatın.",
+   "Tepsideki suyu bir tencereye süzün ve yüzeydeki yağın çoğunu kepçeyle alın; yaklaşık 1 yemek kaşığı yağı tencerede bırakın. Unu ekleyip kısık ateşte 1 dakika karıştırın, ardından kuzu suyunu ve stoku yavaş yavaş ekleyerek sürekli karıştırın ve 5 dakika kısık ateşte kaynatın.",
    "Kuzuyu dilimleyip patates ve soğanlarla servis edin. Nane sosunu ve sosu yanında sunun."
   ],
   "en": [
@@ -65,7 +65,7 @@
    "Toss the potato chunks and onion wedges with a little olive oil and spread them in a large roasting tin. Place the lamb in the middle.",
    "Roast on the middle shelf for 20 minutes at 220°C. Then reduce the oven to 180°C and cook for a further 50 to 60 minutes, until the thickest part reads 60°C on a meat thermometer. The potatoes should be soft and golden.",
    "Loosely cover the lamb with foil and rest it for 15 minutes.",
-   "Strain the pan juices into a saucepan. Stir the flour into the roasting tin over a low heat for a minute, then whisk in the strained juices and stock. Simmer gently for 5 minutes, stirring constantly, until thickened.",
+   "Strain the pan juices into a saucepan and spoon off most of the fat, leaving about 1 tbsp in the pan. Stir in the flour over a low heat for a minute, then gradually whisk in the strained juices and stock. Simmer gently for 5 minutes, stirring constantly, until thickened.",
    "Carve the lamb and serve with the potatoes, onions, gravy and mint sauce."
   ]
  },
@@ -73,5 +73,14 @@
   "tr": "Kuzuyu kesmeden önce mutlaka dinlendirin; bu, suyun etin içinde kalmasını sağlar ve dilimler daha yumuşak olur.",
   "en": "Always rest the lamb before carving so the juices stay in the meat and the slices stay moist."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Gravy steps are ambiguous and mechanically wrong: flour is stirred into the roasting tin with the potatoes, but the juices were strained into a saucepan, and the fat is never removed.",
+   "Turkish step 6 uses 'kızartın' (fry) for roasting the lamb; 'kavurun' is the correct verb for oven roasting."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

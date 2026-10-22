@@ -9,7 +9,7 @@
   "en": "A hearty lamb and vermicelli soup from Turkmen home cooking, usually served in winter and at family gatherings."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -47,7 +47,7 @@
    "Soğanı ekleyin, ateşi orta seviyeye indirin ve soğanlar yumuşayıp altın rengi alana kadar yaklaşık 6 dakika pişirin.",
    "Havucu ekleyip 2 dakika karıştırarak soteleyin.",
    "Domates salçasını ve rendelenmiş domatesleri ekleyip yağ ayrılana kadar yaklaşık 4 dakika pişirin.",
-   "2 litre suyu ekleyip kaynatın, yüzeyde biriken köpükleri alın. Ateşi kısın, kapağını kapatın ve etler yumuşayana kadar yaklaşık 40 dakika kısık ateşte pişirin.",
+   "2 litre suyu ekleyip kaynatın, yüzeyde biriken köpükleri alın. Ateşi kısın, kapağını kapatın ve etler yumuşayana kadar yaklaşık 60 dakika kısık ateşte pişirin.",
    "Patatesleri ekleyin, tuz ve karabiberle tatlandırın ve yaklaşık 15 dakika daha pişirin.",
    "Şehriyeyi ekleyip 4-5 dakika, şehriye yumuşayana kadar pişirin. Ocaktan almadan önce dereotu ve kişnişi karıştırın, 2 dakika dinlendirip servis yapın."
   ],
@@ -56,7 +56,7 @@
    "Add the onion, reduce the heat to medium and cook for about 6 minutes until soft and golden.",
    "Add the carrot and sauté for 2 minutes.",
    "Stir in the tomato paste and grated tomatoes and cook for about 4 minutes, until the oil starts to separate.",
-   "Pour in the 2 litres of water, bring to a boil and skim off the foam. Reduce to low heat, cover and simmer for about 40 minutes, until the lamb is tender.",
+   "Pour in the 2 litres of water, bring to a boil and skim off the foam. Reduce to low heat, cover and simmer for about 60 minutes, until the lamb is tender.",
    "Add the potatoes, season with salt and pepper and simmer for about 15 minutes more.",
    "Add the vermicelli and cook for 4–5 minutes until just tender. Stir in the dill and coriander off the heat, let it rest for 2 minutes, then serve."
   ]
@@ -65,5 +65,14 @@
   "tr": "Şehriyeyi servisten hemen önce ekleyin; bekletilirse çorba koyulaşır ve şehriye dağılır. Gerekirse sıcak su ekleyerek kıvamı ayarlayın.",
   "en": "Add the vermicelli just before serving; if it sits, the soup thickens and the noodles break down. Add a splash of hot water to adjust the consistency if needed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the listed steps: browning (about 20 min), onion and tomato base (about 10 min), simmering (40 min), potatoes (15 min) and noodles (5 min) add up to roughly 90 minutes.",
+   "The 40-minute simmer is probably too short for 2 cm cubes of lamb shoulder to become tender. The step should allow about 60 minutes, in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

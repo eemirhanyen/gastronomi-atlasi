@@ -41,7 +41,7 @@
   "tr": [
    "Büyük bir tencerede yaklaşık 2 litre suyu tuzla kaynatın, yeşil muz parçalarını ekleyip 20-25 dakika, çatalla kolayca batana kadar haşlayın. Süzün.",
    "Bu sırada küçük bir tencerede sıvı yağı ve annatto tohumlarını kısık ateşte 5 dakika ısıtın. Yağ koyu turuncuya dönünce süzün ve tohumları atın. Yağın 30 ml'sini ayırın, kalan kısmı başka bir kullanım için saklayın.",
-   "Haşlanmış muzları sıcakken bir kasede tereyağı, 1 tatlı kaşık tuz ve karabiberle birlikte ezin. Yarım kalan taze peynirin yarısını ekleyip karıştırın.",
+   "Haşlanmış muzları sıcakken bir kasede tereyağı, 1 tatlı kaşık tuz ve karabiberle birlikte ezin. Taze peynirin yarısını ekleyip karıştırın.",
    "Ayrılan 15 ml annatto yağını geniş bir tavada orta ateşte ısıtın. Soğanı ekleyip 5 dakika, yumuşayana kadar kavurun. Domatesi ekleyip 3 dakika daha pişirin, tuzunu ayarlayın.",
    "Soğan-domates karışımını ezilmiş muzun içine ekleyip iyice yoğurun.",
    "Tavada kalan 15 ml annatto yağını yeniden ısıtın. Muz karışımını tavaya yayın ve altı hafif altın renk alana kadar 3 dakika pişirin.",
@@ -50,7 +50,7 @@
   ],
   "en": [
    "Bring about 2 litres of salted water to a boil in a large pot. Add the plantain chunks and boil for 20-25 minutes until a fork slides in easily. Drain.",
-   "Meanwhile, warm the vegetable oil and annatto seeds over low heat for 5 minutes until the oil turns deep orange. Strain, discarding the seeds. Set aside 30 ml of the coloured oil.",
+   "Meanwhile, warm the vegetable oil and annatto seeds over low heat for 5 minutes until the oil turns deep orange. Strain, discarding the seeds. Set aside 30 ml of the coloured oil and keep the rest for other use.",
    "While the plantains are still hot, mash them in a bowl with the butter, 1 tsp salt and pepper. Stir in half of the crumbled cheese.",
    "Heat 15 ml of the reserved annatto oil in a wide pan over medium heat. Cook the onion for 5 minutes until soft, then add the tomato and cook 3 minutes more. Season to taste.",
    "Fold the onion and tomato mixture into the mashed plantain and mix thoroughly.",
@@ -63,5 +63,14 @@
   "tr": "Muzları çok fazla ezmeyin; hafif pütürlü kıvam tigrillo'ya daha otantik bir doku verir.",
   "en": "Do not mash the plantain completely smooth; a slightly chunky texture is more authentic and gives the dish better bite."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 says \"Yarım kalan taze peynirin yarısını\", which is ambiguous and reads awkwardly. The English says \"half of the crumbled cheese\", so the Turkish should say that directly.",
+   "Step 2 in Turkish says the remaining annatto oil should be saved for other use, but the English omits this."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

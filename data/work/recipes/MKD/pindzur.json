@@ -5,11 +5,11 @@
  },
  "native": "Пинџур",
  "desc": {
-  "tr": "Kuzey Makedonya'nın en bilinen közlenmiş sebze ezmelerinden biri olan pinjur, patlıcan ve kırmızı biberden yapılır. Genellikle ekmekle, ızgara etlerle ve kış sofralarında servis edilir.",
+  "tr": "Kuzey Makedonya'nın en bilinen közlenmiş sebze ezmelerinden biri olan pinjur, patlıcan ve kırmızı biberden yapılır. Genellikle ekmekle, ızgara etlerle ve kış sofralarında servis edilir; kış aylarında sıklıkla kavanozlara konularak saklanır.",
   "en": "Pindzur is one of North Macedonia's best-known roasted vegetable relishes, made from eggplant and red peppers. It is usually served with bread, grilled meat, and on winter tables, when it is often preserved in jars."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 100,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -57,5 +57,14 @@
   "tr": "Sebzeleri közlerken kabuklarını iyice kararttırın; bu, pinjura karakteristik dumanlı tadı verir.",
   "en": "Let the skins char thoroughly when roasting; this gives pindzur its characteristic smoky flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short for the steps: roasting takes 35-40 min, resting 10 min, peeling and seeding about 15 min, and simmering 30-40 min, so the total is about 90-100 min.",
+   "The Turkish description omits the English sentence that pindzur is often preserved in jars on winter tables, so the two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

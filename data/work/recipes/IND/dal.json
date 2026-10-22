@@ -6,7 +6,7 @@
  "native": "दाल तड़का",
  "desc": {
   "tr": "Kabuğu soyulmuş güvercin bezelyesinden yapılan, sonunda kızgın ghee ve baharat tadığı (tarka) ile servis edilen günlük bir Hint yemeğidir. Hindistan'ın kuzeyinde ve tüm ülkede öğle ve akşam yemeklerinde pilav veya ekmekle birlikte sofraya gelir.",
-  "en": "A everyday Indian dish of split pigeon peas cooked until creamy, then finished with a sizzling ghee and spice tempering called tadka. It is served at lunch and dinner across India, usually with rice or flatbread."
+  "en": "An everyday Indian dish of split pigeon peas cooked until creamy, then finished with a sizzling ghee and spice tempering called tadka. It is served at lunch and dinner across India, usually with rice or flatbread."
  },
  "servings": 4,
  "time_min": 60,
@@ -77,5 +77,13 @@
   "tr": "Tarkayı mutlaka dalın hemen üzerine, sıcakken dökün; baharatın aromaları ancak bu şekilde açığa çıkar.",
   "en": "Pour the tadka over the dal while both are still very hot; this is what releases the aroma of the spices."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description has an article error: \"A everyday\" should be \"An everyday\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

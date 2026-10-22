@@ -49,7 +49,7 @@
    "Unu ekleyip sürekli karıştırarak 2 dakika pişirin. Dana suyunu yavaş yavaş ilave edip çırpın, yoğun ve pürüzsüz bir sos elde edene kadar kaynatın.",
    "Doğranmış dana etini, maydanozu, hindistan cevizi tozunu, tuz ve karabiberi ekleyip kısık ateşte 5 dakika karıştırarak pişirin. Harcı geniş bir tabağa yayın, folyo ile örtüp tamamen soğuyana kadar, ardından en az 2 saat, tercihen bir gece buzdolabında bekletip sertleştirin.",
    "Soğuyan harçtan ceviz büyüklüğünde, yaklaşık 25 g ağırlığında 24 top şekillendirin. Elleriniz ıslakken yuvarlamak yapışmayı önler.",
-   "Topları sırasıyla 60 g unda, çırpılmış yumurtada ve galeta ununda kaplayın. Bu işlemi iki kez tekrarlayarak kabuğu sağlamlaştırın. Ardından 20 dakika buzdolabında dinlendirin.",
+   "Topları sırasıyla 60 g unda, çırpılmış yumurtada ve galeta ununda kaplayın. Yumurta ve galeta unu adımını bir kez daha tekrarlayarak kabuğu sağlamlaştırın. Ardından 20 dakika buzdolabında dinlendirin.",
    "Kızartma yağını bir tencerede 180°C'ye ısıtın. Topları partiler halinde, 3-4 dakika altın rengi ve çıtır olana kadar kızartın.",
    "Kızarmış topları kağıt havlu üzerinde süzün ve sıcak servis edin. Yanında hardal ile ikram edin."
   ],
@@ -67,5 +67,13 @@
   "tr": "Harcın iyice soğuması ve sertleşmesi, topların kızartma sırasında dağılmamasının en önemli şartıdır; mümkünse bir gece önceden hazırlayın.",
   "en": "Chill the ragout thoroughly until very firm; this is the key to balls that hold their shape in the hot oil, so prepare it the day before if you can."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to repeat the coating process twice (\"Bu işlemi iki kez tekrarlayarak\"), but the English says to repeat only the egg and breadcrumb step once more. The versions disagree on the num"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

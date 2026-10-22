@@ -45,7 +45,7 @@
    "Şerbet hafif ılınınca 1 yemek kaşığı portakal çiçek suyu ekleyin ve soğumaya bırakın.",
    "Filo yapraklarını nemli bir bezle örtün, kuruyup çatlamaması için bir seferde bir yaprak alın.",
    "Kaba dibine 6 yaprak filo koyun, her birinin üzerine eritilmiş tereyağı sürün.",
-   "Üst yaprağın üzerine kıymalı fıstıklı karışımın yarısını eşit yayın. Kalan 6 yaprağı tek tek ekleyip her birine tereyağı sürün.",
+   "Üst yaprağın üzerine cevizli fıstıklı karışımın tamamını eşit yayın. Kalan 6 yaprağı tek tek ekleyip her birine tereyağı sürün.",
    "Üstteki katmanı hafifçe tereyağıyla kaplayıp keskin bir bıçakla elmas dilimleri kesin; bıçağı kabın dibine kadar indirin.",
    "Önceden ısıtılmış fırında 35-40 dakika, üstü altın sarısı olana kadar pişirin.",
    "Fırından çıkar çıkmaz sıcak baklavanın üzerine soğumuş şerbeti yavaşça gezdirin. Servisten önce en az 2 saat dinlendirin ki şerbet iyice emilsin."
@@ -57,7 +57,7 @@
    "Once the syrup is slightly warm, stir in 1 tablespoon of orange blossom water and leave it to cool completely.",
    "Cover the filo sheets with a damp cloth so they do not dry out and crack, and work with one sheet at a time.",
    "Lay 6 sheets of filo in the tin, brushing each one with melted butter.",
-   "Spread half of the nut mixture evenly over the top sheet. Add the remaining 6 sheets one at a time, brushing each with melted butter.",
+   "Spread all of the nut mixture evenly over the top sheet. Add the remaining 6 sheets one at a time, brushing each with melted butter.",
    "Brush the top layer with a little butter, then cut the baklava into diamonds with a sharp knife, cutting all the way down to the base of the tin.",
    "Bake in the preheated oven for 35 to 40 minutes, until the top is golden.",
    "As soon as the baklava comes out of the oven, slowly pour the cooled syrup over the hot pastry. Rest for at least 2 hours before serving so the syrup is fully absorbed."
@@ -67,5 +67,14 @@
   "tr": "Filo yapraklarını kullanırken kurumaması için mutlaka nemli bezle örtün; şerbeti sıcak baklavanın üzerine soğuk dökmek, tatlının çıtırlığını korumanın en iyi yoludur.",
   "en": "Keep the filo covered with a damp cloth while you work, and pour cool syrup over hot baklava so the pastry stays crisp."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 7 (TR and EN) spreads only half of the nut mixture between the two stacks of filo, so the other half is never used. The nut layer should be the full mixture.",
+   "Turkish step 7 calls the nut mixture 'kıymalı fıstıklı karışım' ('minced pistachio mixture'), which is unnatural and wrong for a whole-nut filling. It should be 'cevizli fıstıklı karışım'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

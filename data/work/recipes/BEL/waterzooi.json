@@ -5,7 +5,7 @@
  },
  "native": "Waterzooi",
  "desc": {
-  "tr": "Gent kökenli, kremalı tavuk ve sebze çorbası. Geleneksel olarak Flaneriya'da pazar öğle yemeklerinde ve sonbahar panayırlarında servis edilir.",
+  "tr": "Gent kökenli, kremalı tavuk ve sebze çorbası. Geleneksel olarak Flaman bölgesinde pazar öğle yemeklerinde ve sonbahar panayırlarında servis edilir.",
   "en": "A creamy chicken and vegetable soup from Ghent. Traditionally served at Sunday lunches and autumn fairs in Flanders."
  },
  "servings": 4,
@@ -55,14 +55,14 @@
   "tr": [
    "Tavuk parçalarını geniş bir tencereye koyun, suyu ekleyin ve kaynamaya bırakın. Yüzeyde biriken köpüğü kepçeyle alın.",
    "Soğanı ikiye bölün ve tencereye ekleyin. Defne yaprağı, kekik, karabiber taneleri ve tuzu ilave edin.",
-   "Kısık ateşte yaklaşık 45 dakika pişirin. Tavuk ete yumuşayınca çıkarın, soğumaya bırakın.",
+   "Kısık ateşte yaklaşık 45 dakika pişirin. Et yumuşayınca tavuğu çıkarın, soğumaya bırakın.",
    "Soğanı, kekik sapını ve defne yaprağını süzgeçle ayırarak suyu süzün. Süzdüğünüz suyu tencereye geri alın.",
    "Tavuğun derisini ve kemiklerini ayırın, etini lokma büyüklüğünde parçalara ayırın.",
    "Havuçları ve kereviz saplarını ince uzun çubuklar halinde doğrayın. Pırasayı yarım ay şeklinde dilimleyip iyice yıkayın.",
    "Patatesleri soyup küp küp doğrayın.",
    "Süzdüğünüz suya havuç, kereviz, patates ve pırasayı ekleyin. Orta ateşte 15 ila 20 dakika, sebzeler yumuşayana kadar pişirin.",
    "Ocağı kısın. Krema ile yumurta sarılarını bir kasede iyice çırpın.",
-   "Kremalı karışımdan 2 kepçe sıcak suyu yavaş yavaş karıştırarak ekleyin; bu işlem yumurtanın kesilmesini önler.",
+   "Kremalı karışıma 2 kepçe sıcak çorba suyunu yavaş yavaş ekleyip karıştırın; bu işlem yumurtanın kesilmesini önler.",
    "Karışımı tencereye dökün ve iyice karıştırın. Kaynamasına izin vermeden çorbayı ısıtın.",
    "Tavuk etini, tereyağını, limon suyunu ve maydanozu ekleyin. Tadına bakıp karabiberle tuzu ayarlayın ve sıcak servis yapın."
   ],
@@ -85,5 +85,14 @@
   "tr": "Krema ve yumurta karışımı eklendikten sonra çorbanın kaynamasına izin vermeyin; aksi halde yumurta kesilir ve çorba topaklanır.",
   "en": "Once the cream and egg yolk mixture is added, never let the soup boil, or the eggs will curdle and the soup will turn grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description has a misspelled region name, 'Flaneriya'. It should be 'Flaman bölgesi' (Flanders), matching the English version.",
+   "Turkish step 10 reverses the tempering direction. It says to add hot broth to the cream mixture, but the English says to whisk broth into the cream. The Turkish should say to add the broth to the crea"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

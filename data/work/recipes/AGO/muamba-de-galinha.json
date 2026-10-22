@@ -21,7 +21,7 @@
    "2 büyük soğan (yaklaşık 300 g), ince doğranmış",
    "4 diş sarımsak, ezilmiş",
    "3 domates (yaklaşık 350 g), küp doğranmış",
-   "1 yemek kaşığı domates salçası (30 g)",
+   "1 yemek kaşığı domates salçası (15 g)",
    "1 kırmızı biber, ince doğranmış (isteğe bağlı)",
    "500 ml su veya tavuk suyu",
    "300 g taze bamya, uçları koparılmış",
@@ -37,7 +37,7 @@
    "2 large onions (about 300 g), finely chopped",
    "4 garlic cloves, crushed",
    "3 tomatoes (about 350 g), diced",
-   "1 tbsp tomato paste (30 g)",
+   "1 tbsp tomato paste (15 g)",
    "1 red chilli, finely chopped (optional)",
    "500 ml water or chicken stock",
    "300 g fresh okra, tops trimmed",
@@ -47,7 +47,7 @@
  },
  "steps": {
   "tr": [
-   "Tavuk parçalarını bir kapta limon suyu, 1 çay kaşığı tuz ve karabiberle iyice ovalayın. Oda sıcaklığında 30 dakika bekletin.",
+   "Tavuk parçalarını bir kapta limon suyu, 1 çay kaşığı tuz ve karabiberle iyice ovalayın. Buzdolabında 30 dakika bekletin.",
    "Geniş bir tencerede palmiye yağını orta-yüksek ateşte ısıtın. Tavuk parçalarını partiler halinde, her iki yüzü altın rengi olana kadar yaklaşık 8-10 dakika kavurun. Parçaları bir tabağa alın.",
    "Aynı yağda soğanı yumuşayıp şeffaflaşana kadar, yaklaşık 6 dakika soteleyin. Sarımsağı ve isteğe bağlı kırmızı biberi ekleyip 1 dakika daha pişirin.",
    "Domates salçasını ve doğranmış domatesleri ekleyin. Domatesler dağılıp sosu oluşturana kadar yaklaşık 8 dakika pişirin.",
@@ -56,7 +56,7 @@
    "Tuzu tadına göre ayarlayın, doğranmış kişnişi serpip karıştırın. Pirinç ya da funje ile birlikte sıcak servis yapın."
   ],
   "en": [
-   "In a bowl, rub the chicken pieces with the lime juice, 1 tsp salt and black pepper. Leave to marinate at room temperature for 30 minutes.",
+   "In a bowl, rub the chicken pieces with the lime juice, 1 tsp salt and black pepper. Leave to marinate in the fridge for 30 minutes.",
    "In a wide pot, heat the palm oil over medium-high heat. Brown the chicken in batches for about 8-10 minutes, until golden on both sides. Transfer to a plate.",
    "In the same oil, soften the onions for about 6 minutes, until translucent. Add the garlic and the optional chilli and cook for 1 more minute.",
    "Stir in the tomato paste and diced tomatoes. Cook for about 8 minutes, until the tomatoes break down into a thick sauce.",
@@ -66,8 +66,18 @@
   ]
  },
  "tip": {
-  "tr": "Bamyayı çok fazla karıştırmayın ve kesmeyin; bu, sosun kayganlaşmasını önler. Kırmızı palmiye yağı yoksa, hafif bir tatlılık için 1 tatlı kaşığı zeytinyağı ile birlikte az miktarda havuç rendesi kullanabilirsiniz, ama asıl aroma için dendê tercih edin.",
+  "tr": "Bamyayı nazikçe ekleyin ve çok fazla karıştırmayın ya da kesmeyin; bu, sosun kayganlaşmasına yol açar. Kırmızı palmiye yağı yemeğe özgün rengini ve tadını verir; Afrika ya da Latin Amerika marketlerinde bulmaya çalışın.",
   "en": "Add the okra gently and avoid stirring it too much or cutting it, as this makes the sauce slimy. Red palm oil gives the dish its authentic colour and flavour, so try to find it in an African or Latin grocery store."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tomato paste is listed as \"1 yemek kaşığı (30 g)\", but one tablespoon is about 15 g, so the quantity is inconsistent.",
+   "The Turkish tip suggests a carrot and olive oil substitute for palm oil that the English tip does not mention, and the carrot substitute is not an authentic or reliable replacement. The two tips also ",
+   "Raw chicken is marinated at room temperature. Refrigeration is the safer choice for raw poultry."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

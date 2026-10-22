@@ -23,7 +23,7 @@
    "1 tatlı kaşığı öğütülmüş kişniş",
    "2 karanfil",
    "2 domates (300 g), küp doğranmış",
-   "1 yeşil biber, ikiye yarılmış",
+   "1 yeşil biber, bütün",
    "400 ml hindistan cevizi sütü",
    "1 tatlı kaşığı tuz",
    "1 limonun suyu",
@@ -40,7 +40,7 @@
    "1 tsp ground coriander",
    "2 whole cloves",
    "2 tomatoes (300 g), diced",
-   "1 green chilli, split lengthwise",
+   "1 green chilli, whole",
    "400 ml coconut milk",
    "1 tsp salt",
    "Juice of 1 lime",
@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Bir gece önceden suda bekletilmiş fasulyeleri süzün ve durulayın.",
-   "Fasulyeleri 1 litre suyla bir tencereye koyun, kaynatın ve kısık ateşte 45-60 dakika, yumuşayana kadar pişirin. Tuzu henüz eklemeyin.",
+   "Fasulyeleri 1 litre suyla bir tencereye koyun, en az 10 dakika şiddetli kaynatın, ardından kısık ateşte 45-60 dakika, yumuşayana kadar pişirin. Tuzu henüz eklemeyin.",
    "Bu sırada geniş bir tavada yağı orta ateşte ısıtın ve soğanı altın rengi alana kadar 6-8 dakika kavurun.",
    "Sarımsak, zencefil, öğütülmüş kimyon, öğütülmüş kişniş ve karanfilleri ekleyip bir dakika karıştırarak kavurun.",
    "Domatesleri ve yeşil biberi ekleyin, domatesler yumuşayıp suyunu salana kadar 5 dakika pişirin.",
@@ -60,7 +60,7 @@
   ],
   "en": [
    "Drain the soaked beans and rinse them well.",
-   "Place the beans in a pot with 1 litre of water, bring to the boil, then simmer for 45-60 minutes until tender. Do not add salt yet.",
+   "Place the beans in a pot with 1 litre of water, boil vigorously for at least 10 minutes, then simmer for 45-60 minutes until tender. Do not add salt yet.",
    "Meanwhile, heat the oil in a wide pan over medium heat and fry the onion for 6-8 minutes until golden.",
    "Add the garlic, ginger, ground cumin, ground coriander and whole cloves, and stir-fry for 1 minute.",
    "Add the tomatoes and green chilli and cook for 5 minutes until the tomatoes soften and release their juice.",
@@ -70,8 +70,17 @@
   ]
  },
  "tip": {
-  "tr": "Fasulyeleri pişirmeden önce mutlaka bir gece suda bekletin; bu, pişme süresini kısaltır ve daha eşit bir doku sağlar.",
+  "tr": "Fasulyeleri pişirmeden önce mutlaka bir gece suda bekletin; bu, pişme süresini kısaltır ve daha eşit bir doku sağlar. Yeşil biberi bütün bırakın; yahniye aroma verir ama çok acılaşmasını önler.",
   "en": "Soak the beans overnight to shorten cooking time and get an even, creamy texture. Keep the chilli whole so the stew is fragrant without becoming too hot."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Dried kidney beans are boiled and then simmered at low heat with no rapid-boil step. Raw kidney beans contain phytohaemagglutinin, which must be destroyed by a vigorous boil of at least 10 minutes. Th",
+   "The ingredient list says the green chilli is 'split lengthwise' (ikiye yarılmış / split lengthwise), but the tip says to 'keep the chilli whole'. The two contradict each other."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,11 +5,11 @@
  },
  "native": "Lefse",
  "desc": {
-  "tr": "Norveç'in geleneksel patates bazlı, ince açılmış yassı ekmeği. Özellikle Noel döneminde ve kış aylarında, tereyağı ve şekerle ya da kıyma, ringa veya peynirle servis edilerek yenir.",
+  "tr": "Norveç'in geleneksel patates bazlı, ince açılmış yassı ekmeği. Özellikle Noel döneminde ve kış aylarında, tereyağı ve şekerle ya da kurutulmuş et, ringa veya peynirle servis edilerek yenir.",
   "en": "A traditional thin potato flatbread from Norway, eaten especially around Christmas and through the winter months. It is served rolled up with butter and sugar, or with cured meats, herring or cheese."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 150,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -61,5 +61,14 @@
   "tr": "Hamurun iyice soğuması, açarken yapışmayı önler; hamuru çok fazla un ile yoğurmayın, aksi halde lefse sert olur.",
   "en": "Let the dough chill fully before rolling, and avoid adding too much flour, as this makes the lefse dry and tough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe includes at least 1 hour of chilling plus 20 to 25 minutes of boiling and cooking the lefse, so the total is well over 60 minutes",
+   "Turkish description says 'kıyma' (ground meat) while the English says 'cured meats'; the Turkish should say cured/dried meat ('kurutulmuş et')"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,7 +16,7 @@
    "800 g tavuk but (uyluk ve baget), derisi üzerinde",
    "1 l tavuk suyu",
    "1 adet soğan, ikiye bölünmüş",
-   "3 diş sarımsak, 2'si kabuğuyla, 1'i soyulmuş",
+   "3 diş sarımsak, kabuklu",
    "4 adet ancho biber (yaklaşık 40 g), sapları ve çekirdekleri alınmış",
    "2 adet mulato biber (yaklaşık 20 g), sapları ve çekirdekleri alınmış",
    "2 adet pasilla biber (yaklaşık 15 g), sapları ve çekirdekleri alınmış",
@@ -40,7 +40,7 @@
    "800 g chicken thighs and drumsticks, skin on",
    "1 l chicken stock",
    "1 onion, halved",
-   "3 garlic cloves, 2 unpeeled and 1 peeled",
+   "3 garlic cloves, unpeeled",
    "4 ancho chiles (about 40 g), stemmed and seeded",
    "2 mulato chiles (about 20 g), stemmed and seeded",
    "2 pasilla chiles (about 15 g), stemmed and seeded",
@@ -66,8 +66,8 @@
    "Tavuk suyu ile tavuğu bir tencereye alın. Soğanın yarısını, kabuklu iki sarımsak dişini ekleyin ve tuz ekleyerek kısık ateşte yaklaşık 35 dakika pişirin. Tavuğu çıkarın, suyu süzün ve sosta kullanmak üzere 700 ml'sini ayırın.",
    "Kuru biberleri susuz bir tavada veya komalda, sık sık çevirerek 1-2 dakika kavurun. Yanmamalarına dikkat edin; yanarlarsa acılaşırlar. Sıcak su ile kaplayıp yaklaşık 20 dakika bekletin, ardından süzün ve 200 ml haşlama suyunu ayırın.",
    "Bademleri, yer fıstıklarını ve susamı ayrı ayrı, altın rengi alana kadar kavurun. Kuru üzümü birkaç saniye kavurun, şişip kabarması için.",
-   "Aynı tavada 1 yemek kaşığı yağla parçalanmış tortillayı, plantain dilimlerini ve soyulmamış diğer sarımsak dişini koyu renk alana kadar kızartın. Tarçın, karanfil, kimyon ve karabiberi kuru tavada birkaç saniye kavurup aromaları açığa çıkarın.",
-   "Soğanın kalan yarısını ve domatesi bir miktar kızarmadan, yumuşayana kadar tavada pişirin. Biberleri, kavrulmuş malzemeleri, soğan ve domatesi, ayrılan 200 ml biber suyuyla birlikte pürüzsüz bir karışım olana kadar blenderdan geçirin.",
+   "Aynı tavada 1 yemek kaşığı yağla parçalanmış tortillayı, plantain dilimlerini ve kabuklu üçüncü sarımsak dişini koyu renk alana kadar kızartın. Tarçın, karanfil, kimyon ve karabiberi kuru tavada birkaç saniye kavurup aromaları açığa çıkarın.",
+   "Soğanın kalan yarısını ve domatesi bir miktar kızarmadan, yumuşayana kadar tavada pişirin. Sarımsağın kabuğunu soyun. Biberleri, kavrulmuş malzemeleri, soğanı, domatesi ve sarımsağı, ayrılan 200 ml biber suyuyla birlikte pürüzsüz bir karışım olana kadar blenderdan geçirin.",
    "Kalan yağı geniş bir tencerede ısıtın. Pürüzü giderilmiş mole karışımını ekleyip 10-15 dakika, sürekli karıştırarak ve sıçramaya dikkat ederek pişirin; koyulaşıp rengi koyulaşınca hazırdır.",
    "Ayrılan 700 ml tavuk suyunu yavaş yavaş ekleyip karıştırın. Kısık ateşte yaklaşık 30 dakika, ara ara karıştırarak kaynatın.",
    "Kırılmış çikolata, şekeri ve tuzu ekleyin. Çikolata tamamen eriyene kadar karıştırın ve tadına bakarak ayarlayın.",
@@ -79,7 +79,7 @@
    "Toast the dried chiles in a dry skillet or comal for 1-2 minutes, turning often. Do not let them burn or they will taste bitter. Cover with hot water and soak for about 20 minutes, then drain, reserving 200 ml of the soaking liquid.",
    "Toast the almonds, peanuts and sesame seeds separately until golden. Toast the raisins for a few seconds until they plump up.",
    "In the same pan with 1 tbsp of the oil, fry the torn tortilla, plantain slices and the remaining unpeeled garlic clove until dark. Then toast the cinnamon, cloves, cumin and peppercorns in the dry pan for a few seconds to release their aromas.",
-   "Cook the remaining onion half and the chopped tomato in the pan until soft. Peel the garlic. Blend the chiles, toasted ingredients, onion, tomato and the 200 ml soaking liquid until you have a smooth mixture.",
+   "Cook the remaining onion half and the chopped tomato in the pan until soft. Peel the garlic. Blend the chiles, toasted ingredients, onion, tomato, garlic and the 200 ml soaking liquid until you have a smooth mixture.",
    "Heat the remaining oil in a wide pot. Add the blended mole paste and fry for 10-15 minutes, stirring constantly and watching for splatters, until it thickens and darkens.",
    "Gradually stir in the reserved 700 ml of chicken stock. Simmer over low heat for about 30 minutes, stirring from time to time.",
    "Add the chopped chocolate, sugar and salt. Stir until the chocolate has fully melted, then taste and adjust the seasoning.",
@@ -91,5 +91,14 @@
   "tr": "Biberleri kavururken çok dikkatli olun; hafif kızarmaları yeterlidir, koyu renk aldıklarında mole acı ve buruk olur. Sosun dokusu için karışımı iyice pürüzsüz çekin.",
   "en": "Toast the chiles only until fragrant; scorched chiles make the mole bitter. Blend thoroughly for a silky texture, and let the sauce simmer slowly so the flavours can meld."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Garlic is inconsistent: the ingredients say 2 unpeeled cloves and 1 peeled clove, but the steps use three unpeeled cloves (two in the stock, one fried) and then tell you to peel the garlic in step 5. ",
+   "Step 5 says to peel the garlic but never says to blend it, so the garlic's place in the mole is unclear (Turkish and English)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

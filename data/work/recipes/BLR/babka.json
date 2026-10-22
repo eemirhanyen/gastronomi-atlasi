@@ -48,7 +48,7 @@
    "Baconı veya domuz yağını orta ateşte bir tavada gevrek olana kadar kızartın. Yağı tavada bırakarak kızarmış parçaları ayırın.",
    "Kızarmış yağın yarısını patates karışımına ekleyip iyice karıştırın; kalan yağı ve gevrek parçaları ise daha sonra kullanmak üzere bir kenara alın.",
    "Patates karışımını yağlanmış kaba yayın, üzerine kızarmış bacon parçalarının yarısını serpin ve kalan yağı üzerine gezdirin.",
-   "Kabı fırının orta rafına koyun ve yaklaşık 60 dakika, üstü altın sarısı ve kenarları çıtır olana kadar pişirin. Pişerken ortası kuru görünüyorsa son 10 dakikada sıcaklığı 200°C'ye çıkarabilirsiniz.",
+   "Kabı fırının orta rafına koyun ve yaklaşık 60 dakika, üstü altın sarısı ve kenarları çıtır olana kadar pişirin. 50 dakika sonra ortası hâlâ ıslak görünüyorsa son 10 dakikada sıcaklığı 200°C'ye çıkarabilirsiniz.",
    "Fırından çıkarıp 5 dakika dinlendirin, kalan gevrek baconu üzerine serpin. Dilimleyip ekşi krema ve ince kıyılmış dereotuyla servis yapın."
   ],
   "en": [
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Patatesi rendelemeden önce mutlaka sıkın; fazla su, babkanın dağılmasına ve tam pişmemesine neden olur.",
+  "tr": "Patatesi rendelendikten sonra mutlaka sıkın; fazla su, babkanın dağılmasına ve tam pişmemesine neden olur.",
   "en": "Squeeze the grated potato thoroughly before mixing; excess liquid is the main reason babka turns out soggy in the centre."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 says 'ortası kuru görünüyorsa' (if the centre looks dry), but the English says 'still looks wet' and the advice only makes sense for a wet centre. The Turkish also omits the '50 minutes",
+   "Turkish tip says to squeeze the potato 'rendelemeden önce' (before grating), but the steps and English tip say to squeeze after grating."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

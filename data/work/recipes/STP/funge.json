@@ -29,7 +29,7 @@
  },
  "steps": {
   "tr": [
-   "Geniş bir tencerede palmiye yağını orta ateşte ısıtın, doğranmış soğanı ekleyip yumuşayana ve hafif pembeleşene kadar yaklaşık 4 dakika kavurun.",
+   "Geniş bir tencerede palmiye yağını orta ateşte ısıtın, doğranmış soğanı ekleyip yumuşayana ve hafif altın rengi alana kadar yaklaşık 4 dakika kavurun.",
    "Suyu ve tuzu ekleyin, karışımı kaynatın.",
    "Ateşi kısın ve manyok ununu bir kerede değil, birkaç parça halinde ekleyerek sürekli tahta kaşıkla karıştırın; topaklanmayı önlemek için bu aşamada hızlı hareket edin.",
    "Karışım toplanıp tencerenin kenarlarından ayrılana ve pürüzsüz, sert bir hamur haline gelene kadar yaklaşık 5 dakika kaşık yardımıyla bastırıp karıştırmaya devam edin.",
@@ -37,7 +37,7 @@
    "Balık yahnisi, kalulu veya soslu bir yemekle sıcak servis yapın."
   ],
   "en": [
-   "Heat the palm oil in a large pot over medium heat, add the chopped onion and fry for about 4 minutes until soft and lightly pinkish.",
+   "Heat the palm oil in a large pot over medium heat, add the chopped onion and fry for about 4 minutes until soft and lightly golden.",
    "Add the water and salt and bring to a boil.",
    "Lower the heat and add the cassava flour a little at a time rather than all at once, stirring constantly with a wooden spoon; work quickly at this stage to prevent lumps.",
    "Keep stirring and pressing the mixture with the spoon for about 5 minutes, until it gathers into a smooth, firm dough that pulls away from the sides of the pot.",
@@ -49,5 +49,13 @@
   "tr": "Unu kaynayan suya bir kerede dökmeyin; az az ekleyip sürekli karıştırmak topaksız, yumuşak bir kıvam sağlar.",
   "en": "Add the flour gradually to the boiling water and keep stirring; adding it all at once creates lumps that are hard to smooth out."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Onion described as turning 'lightly pinkish' (TR 'hafif pembeleşene', EN 'lightly pinkish'). Onions soften and turn lightly golden when fried, so the description is inaccurate."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

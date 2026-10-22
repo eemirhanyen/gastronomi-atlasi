@@ -16,7 +16,7 @@
    "200 g un",
    "100 g soğuk tereyağı, küp küp doğranmış",
    "40 g toz şeker",
-   "1 tatlı kaşığı tuz (yaklaşık 2 g)",
+   "1/3 tatlı kaşığı tuz (yaklaşık 2 g)",
    "1 yumurta sarısı",
    "30 ml soğuk su",
    "600 g küçük erik (Quetsche veya sert, ekşimsi erik), ikiye bölünmüş ve çekirdekleri çıkarılmış",
@@ -29,7 +29,7 @@
    "200 g plain flour",
    "100 g cold butter, cut into cubes",
    "40 g caster sugar",
-   "1 tsp salt (about 2 g)",
+   "1/3 tsp salt (about 2 g)",
    "1 egg yolk",
    "30 ml cold water",
    "600 g small plums (Quetsche or other firm, tart plums), halved and stoned",
@@ -62,8 +62,17 @@
   ]
  },
  "tip": {
-  "tr": "Eriklerin suyunun hamuru ıslatmasını önlemek için erikleri hamurun üzerine dizmeden önce yüzeyini hafifçe bastırıp kurutun.",
+  "tr": "Eriklerin suyunun hamuru ıslatmasını önlemek için erikleri hamurun üzerine dizmeden önce yüzeyini hafifçe bastırıp kurutun ve hamurun dinlendirme adımını atlamayın.",
   "en": "To stop the base getting soggy, press the plum halves gently with kitchen paper before arranging them, and do not skip the chilling step for the dough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Salt amount is implausible: 1 tsp is roughly 5-6 g, not about 2 g (in both TR and EN). Changed to 1/3 tsp, which matches the 2 g stated.",
+   "Turkish tip omits the dough-chilling reminder that the English tip includes. Added it to the Turkish text."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

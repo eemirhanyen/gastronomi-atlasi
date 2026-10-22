@@ -5,7 +5,7 @@
  },
  "native": "Sopa de pata",
  "desc": {
-  "tr": "El Salvador'da özellikle hafta sonları ve hangover (akşamdan kalma) sabahlarında yenen, domuz ayağı, yuca ve mısırla hazırlanan yoğun bir çorbadır. Genellikle sıcak servis edilir ve limon sıkılarak yenir.",
+  "tr": "El Salvador'da özellikle hafta sonları ve akşamdan kalma sabahlarında yenen, domuz ayağı, yuca ve mısırla hazırlanan yoğun bir çorbadır. Genellikle sıcak servis edilir ve limon sıkılarak yenir.",
   "en": "A hearty Salvadoran soup of pig's feet, cassava and corn, eaten especially on weekends and as a morning-after restorative. It is served hot, with lime squeezed over the top."
  },
  "servings": 4,
@@ -75,5 +75,13 @@
   "tr": "Ayakların jelatinli suyu çorbanın kıvamını verir; pişirme suyunu atmayın ve et yumuşak değilse pişirmeye devam edin.",
   "en": "The gelatinous broth gives the soup its body, so do not discard the cooking liquid, and keep simmering if the meat is not yet tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description uses the English word 'hangover' alongside 'akşamdan kalma'; the Turkish should use only the native phrase."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

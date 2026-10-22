@@ -33,7 +33,7 @@
   "tr": [
    "Fonyoyu geniş bir kaseye alın, soğuk suyla 2-3 kez yıkayıp taş ve kum tanelerini ayıklayın, ardından süzün.",
    "500 ml suyu fonyonun üzerine dökün ve 10 dakika bekletin. Süzün ve elinizle hafifçe ovalayarak topaklarını dağıtın.",
-   "Buharlı pişiriciyi (kuskusiyer) altına su koyup kaynatın. Pişirici bezini hafifçe yağlayın.",
+   "Buharlı pişiricinin (kuskusiyerin) altına su koyup kaynatın. Pişirici bezini hafifçe yağlayın.",
    "Fonyoyu yer fıstığı yağı ve tuzla iyice karıştırın, bezin üzerine ince bir tabaka halinde yayın.",
    "Kapağı kapatıp 15 dakika buharda pişirin.",
    "Pişen fonyoyu geniş bir kaseye alın, 150 ml sıcak suyu serperek ve kaşıkla ovalayarak tanelerin birbirinden ayrılmasını sağlayın.",
@@ -55,5 +55,13 @@
   "tr": "Fonyo çok küçük olduğu için tanelerin buhar bezinden geçmemesi adına bezi iyice yağlayın ve ince bir tabaka halinde yayın.",
   "en": "Fonio grains are very small, so grease the steamer cloth well and spread the grains thinly to stop them falling through."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 3 is ungrammatical: \"Buharlı pişiriciyi altına su koyup kaynatın\" should use the genitive, \"Buharlı pişiricinin altına\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

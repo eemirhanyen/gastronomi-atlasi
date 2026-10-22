@@ -51,7 +51,7 @@
    "Bamyayı ve bütün Scotch bonnet biberini ekleyin. Suyu veya tavuk suyunu dökün, kaynatın.",
    "Ateşi kısın ve kapağı yarım açık şekilde yaklaşık 30 dakika pişirin. Yapraklar çok yumuşak olmalı.",
    "Kekik dallarını ve Scotch bonnet biberini çıkarın. Bu aşamada biberin yırtılmamasına dikkat edin.",
-   "Tencerenin ateşini kapatın, daldırma blenderiyle pürüzsüz bir kıvam alana kadar çorbayı blendırlayın.",
+   "Tencerenin ateşini kapatın ve daldırmalı blenderdan geçirerek çorbayı pürüzsüz bir kıvama gelene kadar blenderla karıştırın.",
    "Hindistan cevizi sütünü ekleyin ve karıştırarak ateşte yaklaşık 10 dakika daha, kaynamadan hafifçe ısıtın.",
    "Tuz ve karabiberle tatlandırın. Sıcak servis yapın."
   ],
@@ -71,5 +71,13 @@
   "tr": "Scotch bonnet biberi bütün ve delinmiş halde pişirmek acılığı yumuşak tutar; kesilir veya ezilirse çorba çok acı olabilir.",
   "en": "Keep the Scotch bonnet whole and pierced so it adds fragrance without overwhelming heat; if it bursts, the soup can become very spicy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 uses \"blendırlayın\", which is not a real Turkish verb. The English step is clear, so the Turkish should say to pass the soup through a blender."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

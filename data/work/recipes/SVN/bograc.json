@@ -9,7 +9,7 @@
   "en": "A thick, paprika-rich stew from the Prekmurje region in northeastern Slovenia, traditionally cooked in a cauldron over an open fire. It is eaten at family gatherings, village festivals and in cold weather, usually with bread."
  },
  "servings": 4,
- "time_min": 100,
+ "time_min": 130,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -79,5 +79,13 @@
   "tr": "Kırmızı biberi her zaman ateşten almadan kullanmayın; yanmış biber bograçı acı ve sert yapar. Kazan yerine kalın tabanlı bir tencere de iyi sonuç verir.",
   "en": "Always add the paprika off the heat or on very low heat; scorched paprika makes the stew bitter. A heavy-based pot works well in place of a traditional cauldron."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (100) is shorter than the steps add up to: about 120 minutes of cooking plus a 10-minute rest, before prep"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

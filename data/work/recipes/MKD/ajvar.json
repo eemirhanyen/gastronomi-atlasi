@@ -32,7 +32,7 @@
    "Fırını 230 °C'ye ısıtın. Biberleri bütün halde fırın tepsisine dizin ve kabuğu her yerinden kararana kadar yaklaşık 25 dakika, ara ara çevirerek közleyin.",
    "Közlenen biberleri kapalı bir kaseye alın ve 10 dakika dinlendirin. Bu sırada buharda kabukları gevşeyecektir.",
    "Biberlerin kabuklarını, sapları ve çekirdeklerini temizleyin, etlerini parçalara ayırın.",
-   "Biber parçalarını el blenderı ile kaba bir püre haline getirin.",
+   "Biber parçalarını el blenderi ile kaba bir püre haline getirin.",
    "Kalın tabanlı bir tencerede ayçiçek yağını orta ateşte ısıtın. Biber püresini ve tuzu ekleyin.",
    "Ateşi kısın ve karışım koyulaşıp yağı kendine çekene kadar yaklaşık 45 dakika, sık sık karıştırarak pişirin.",
    "Sarımsağı rendeleyin ve pişirmenin son 5 dakikasında, sirke ile birlikte ajvara ekleyin, iyice karıştırın.",
@@ -53,5 +53,13 @@
   "tr": "Biberlerin kabuğunu tamamen kararttığınızdan emin olun; bu, ajvara dumanlı ve derin bir tat kazandırır.",
   "en": "Make sure the skins are fully blackened before peeling; this gives the ajvar its smoky, deep flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 has a vowel error: \"el blenderı\" should be \"el blenderi\" (vowel harmony after the front vowel 'e'). Everything else checks out: quantities, timings, temperatures, and the Turkish and En"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

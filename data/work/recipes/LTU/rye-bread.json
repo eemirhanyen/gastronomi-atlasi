@@ -42,8 +42,8 @@
    "Büyük bir kapta pekmezi ılık suda eritin. Ekşi mayayı ve kuru mayayı ekleyip karıştırın.",
    "Çavdar unu, buğday unu, tuzu ve kimyon tohumunu ekleyin. Tahta kaşıkla 3 dakika karıştırarak yapışkan, yumuşak bir hamur elde edin. Çavdar hamuru yapışkan olduğu için uzun süre yoğurmayın.",
    "Kabı nemli bir bezle örtün ve oda sıcaklığında 60–90 dakika bekletin. Hamur hafifçe kabarıp köpüklenmelidir.",
-   "Ellerinizi suyla ıslatın, hamuru kabın içinde birkaç kez katlayın. Yağladığınız 20 cm'lik ekmek kalıbına aktarıp üstünü yarım bırakın ve ıslak elinizle düzeltin.",
-   "Üzerine çavdar unu serpin ve bıçakla yüzeye iki üç sığ çizik atın. 30–40 dakika kabarması için oda sıcaklığında bekletin.",
+   "Ellerinizi suyla ıslatın, hamuru kabın içinde birkaç kez katlayın. Yağladığınız 20 cm'lik ekmek kalıbına aktarın, üstünü ıslak elinizle düzeltip yüzeyi hafifçe kubbeli bırakın.",
+   "Üzerine çavdar unu serpin ve bıçakla yüzeye çapraz iki üç sığ çizik atın. 30–40 dakika kabarması için oda sıcaklığında bekletin.",
    "Fırını 230°C'ye ısıtın. Kalıbı fırının orta rafına yerleştirin ve 15 dakika pişirin.",
    "Fırın ısısını 200°C'ye düşürün ve 40 dakika daha pişirin. Ekmek koyu kahverengi olmalı ve altına vurulduğunda içi boş bir ses vermelidir (iç sıcaklık yaklaşık 96°C).",
    "Ekmeği fırından çıkarın, kalıpta 10 dakika dinlendirin, sonra ters çevirip bir ızgara üzerinde tamamen soğumaya bırakın. Dilimlemeden önce en az 2 saat bekletin; çavdar ekmeği tam soğumadan kesilirse hamurumsu olur."
@@ -63,5 +63,14 @@
   "tr": "Çavdar hamuru buğday hamuruna göre çok daha yapışkandır; ellerinizi ve kaşığınızı sık sık ıslatın. Hamuru ne kadar az yoğurursanız ekmek o kadar iyi kabarır.",
   "en": "Rye dough is much stickier than wheat dough, so keep wetting your hands and tools. The less you handle it, the better the loaf rises."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says \"üstünü yarım bırakın\" (leave the top half), which doesn't match the English \"leave it slightly domed\" and is unclear. Corrected to \"yüzeyi hafifçe kubbeli bırakın\".",
+   "Turkish step 5 omits \"diagonal\" from the English slashes. Added \"çapraz\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

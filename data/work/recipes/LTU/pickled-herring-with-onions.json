@@ -9,7 +9,7 @@
   "en": "A traditional Lithuanian snack of salted herring marinated with onions in a spiced vinegar brine. It is often served at Christmas and Easter tables with dark rye bread and boiled potatoes."
  },
  "servings": 4,
- "time_min": 300,
+ "time_min": 1800,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -63,5 +63,13 @@
   "tr": "Ringa balığını çok uzun süre suda bekletmeyin; tuzu çok azalırsa balık yumuşar ve dokusunu kaybeder. Kavanozda buzdolabında 5 güne kadar saklanabilir.",
   "en": "Do not soak the herring for too long, or it will lose salt and become soft. Kept refrigerated in the jar, it lasts up to 5 days."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 300 (5 h), but the steps require a 4-6 h soak plus at least 24 h of refrigerated marinating, so the total time is understated (about 30 h)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

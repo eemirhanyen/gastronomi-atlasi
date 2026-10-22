@@ -5,7 +5,7 @@
  },
  "native": "Ndolé",
  "desc": {
-  "tr": "Kamerun'un Duala ve Douala çevresinde yaygın olan bu yahni, acı yapraklar, kavrulmuş fıstık ezmesi ve karidesle hazırlanır. Ailevi kutlamalarda, pazar öğünlerinde ve misafir sofralarında kok, muz veya pirinçle servis edilir.",
+  "tr": "Kamerun'un Duala ve Douala çevresinde yaygın olan bu yahni, acı yapraklar, kavrulmuş fıstık ezmesi ve karidesle hazırlanır. Ailevi kutlamalarda, pazar öğünlerinde ve misafir sofralarında muz, pirinç veya haşlanmış manyokla servis edilir.",
   "en": "A rich stew from the Duala and Douala regions of Cameroon, made with bitter leaves, ground peanuts and dried shrimp. It is served at family gatherings, Sunday meals and when guests visit, usually with plantains, rice or boiled cassava."
  },
  "servings": 4,
@@ -65,5 +65,13 @@
   "tr": "Yaprakları iki kez haşlamak acılığı belirgin biçimde azaltır; fıstık sosu da tadı dengeler.",
   "en": "Boiling the leaves twice noticeably reduces their bitterness, and the peanut sauce balances the flavour further."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says Ndolé is served with \"kok\", but the Turkish serving step and the English description both say boiled cassava (manyok). The Turkish description should match the rest of the rec"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

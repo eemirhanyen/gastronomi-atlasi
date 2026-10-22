@@ -16,13 +16,13 @@
    "30 g taze çekilmiş espresso kahvesi (her porsiyon için yaklaşık 7-8 g)",
    "600 ml tam yağlı süt",
    "Şeker (isteğe bağlı, porsiyon başına 5 g)",
-   "Su (espresso makinesi için)"
+   "Yaklaşık 1 litre su (espresso makinesi için)"
   ],
   "en": [
    "30 g freshly ground espresso coffee (about 7-8 g per serving)",
    "600 ml whole milk",
    "Sugar (optional, 5 g per serving)",
-   "Water (for the espresso machine)"
+   "About 1 litre water (for the espresso machine)"
   ]
  },
  "steps": {
@@ -49,5 +49,13 @@
   "tr": "Sütü soğuk başlatıp 65 °C'yi geçmeden durdurun; daha sıcak süt tadını bozar ve köpüğü kabartır.",
   "en": "Start with cold milk and stop steaming at about 65 °C; hotter milk tastes flat and makes the foam bubbly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The water ingredient has no quantity or units in either language, so the amount needed for warming and brewing is unspecified."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

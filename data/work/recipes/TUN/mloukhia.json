@@ -9,7 +9,7 @@
   "en": "A traditional Tunisian stew of jute mallow leaves slow-cooked with lamb and coriander, typically served with bread at family lunches and dinners."
  },
  "servings": 4,
- "time_min": 95,
+ "time_min": 110,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -19,7 +19,7 @@
    "6 diş sarımsak, ezilmiş",
    "30 g domates salçası",
    "2 tatlı kaşığı kuru kişniş (yaklaşık 4 g)",
-   "1 tatlı kaşığı öğütülmüş kimyon (yaklaşık 2 g)",
+   "1 tatlı kaşığı öğütülmüş karaman kimyonu (yaklaşık 2 g)",
    "1 çay kaşığı tuz",
    "½ çay kaşığı karabiber",
    "1 litre sıcak su",
@@ -49,7 +49,7 @@
   "tr": [
    "Geniş bir tencerede 30 ml zeytinyağını kızdırın. Kuzu etlerini parti parti, her yüzü kızarana kadar yaklaşık 8-10 dakika kavurun ve bir kenara alın.",
    "Kalan yağa soğanları ekleyin. Soğanlar altın rengi alana kadar yaklaşık 12 dakika kısık ateşte pişirin.",
-   "Sarımsak, domates salçası, kişniş ve kimyonu ekleyip 2 dakika daha kavurun.",
+   "Sarımsak, domates salçası, kişniş ve karaman kimyonunu ekleyip 2 dakika daha kavurun.",
    "Etleri tencereye geri koyun, sıcak suyu, tuzu ve karabiberi ilave edin. Kaynayınca ısıyı kısın, kapağı kapalı olarak etler yumuşayana kadar yaklaşık 60 dakika pişirin.",
    "Bu sırada mulukhiya yapraklarını soğuk suyla yıkayıp süzün. Kurutulmuş ise ılık suda 10 dakika bekletin, tekrar süzün ve ince kıyın. Dondurulmuşsa çözdürüp süzün.",
    "Hazırlanan yaprakları ve taze kişnişi tencereye ekleyin. Kapağı açık olarak, ara sıra karıştırarak, sos koyulaşıp yapraklar iyice yumuşayana kadar yaklaşık 20 dakika pişirin.",
@@ -69,5 +69,14 @@
   "tr": "Yaprakları pişirirken kapağı açık tutun ve sık karıştırmayın; sosun koyulaşması için yaprakların yavaşça dağılması gerekir. Tunus'ta bu yemek genellikle ekmekle yenir, pilav eklenmez.",
   "en": "Keep the lid off when adding the leaves and stir gently so the stew thickens slowly. In Tunisia this dish is usually eaten with bread rather than rice."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'öğütülmüş kimyon' (cumin), but the English says 'ground caraway'. Turkish 'kimyon' means cumin, so the spice is mislabeled. Changed to 'karaman kimyonu' (caraway) in both the ",
+   "time_min (95) is shorter than the active steps add up to (about 10 + 12 + 2 + 60 + 20 = 104 minutes, plus soaking and prep). Changed to 110."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

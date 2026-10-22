@@ -65,7 +65,7 @@
    "Divide the casing into 12-15 cm lengths and tie off each end with kitchen string.",
    "Heat a large pot of water to 85°C, add the mutura pieces and poach gently for about 15 minutes without letting it boil.",
    "Lift the pieces out with a slotted spoon, let them cool slightly and pat the casings dry.",
-   "Heat the oil in a wide pan over medium-high heat, add the mutura and turn for 2-3 minutes per side until the casings are browned and slightly charred.",
+   "Heat the oil in a wide pan over medium-high heat, add the mutura and turn for 2-3 minutes per side until the casings split and are browned.",
    "Once the internal temperature reaches about 71°C, remove from the heat, rest for a few minutes and serve hot."
   ]
  },
@@ -73,5 +73,13 @@
   "tr": "Kanı taze ve pıhtısız alın; kan pıhtılaşmışsa karışım doldurulamaz hale gelir. Sokakta olduğu gibi kömür ızgarasında pişirirseniz tütsü aroması belirgin olur.",
   "en": "Use fresh, unclotted blood; if it has set, the mixture will be too stiff to fill the casing. Grilling over charcoal gives the authentic smoky flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English step 9 says the casings should be 'browned and slightly charred', but the Turkish says 'kılıf çatlayıp kızarana kadar' (until the casing splits and browns). The English omits the splitting cue"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -53,7 +53,7 @@
    "Tavuğu sudan çıkarıp soğutun, ardından çatalla ince lifler halinde ayırın. Pişirme suyunu saklayın, hamur için gerekirse kullanabilirsiniz.",
    "Avokadoları ikiye bölüp çekirdeklerini çıkarın. Etini bir kaseye alıp limon suyu ve bir tutam tuzla pürüzsüz bir püre haline gelene kadar ezin.",
    "Ezilmiş avokadoyu tavuk lifleriyle, mayonezle, çok ince doğranmış 1/4 soğanla ve karabiberle iyice karıştırın. Tadına bakıp gerekirse tuz ekleyin. Dolgu kremamsı ve nemli olmalıdır.",
-   "Arepa hamurunu hazırlamak için mısır unu ile 1/2 tatlı kaşığı tuzu bir kapta karıştırın. Ilık suyu yavaş yavaş ekleyip 5 dakika yoğurun. Hamur yumuşak ama yapışmayan bir kıvam almalı; çok yapışkansa biraz un, çok kuruysa biraz su ekleyin.",
+   "Arepa hamurunu hazırlamak için mısır unu ile 1/2 tatlı kaşığı tuzu bir kapta karıştırın. Ilık suyu yavaş yavaş ekleyip 5 dakika yoğurun. Hamur yumuşak ama yapışmayan bir kıvam almalı; çok yapışkansa biraz un, çok kuruysa biraz pişirme suyu ekleyin.",
    "Hamuru 4 eşit parçaya bölün, avuçlarınızla yuvarlayıp yaklaşık 1,5 cm kalınlığında, 10 cm çapında disk şeklinde yassılaştırın.",
    "Yağı geniş bir tavada orta-yüksek ateşte ısıtın. Arepaları tavaya yerleştirip her iki yüzünü yaklaşık 5 dakika, kenarları altın rengi olana kadar pişirin.",
    "Arepaları 200°C'ye ısıtılmış fırında 8-10 dakika bitirin; içleri kabarıp hafifçe boşalsın. Sıcak arepaları yatay olarak ortadan açıp içini cömertçe doldurun ve hemen servis yapın."
@@ -73,5 +73,13 @@
   "tr": "Avokadoyu doldurmadan hemen önce ezin; bekletilirse kararır ve dolgunun rengi solar.",
   "en": "Mash the avocado just before filling so the mixture stays bright green and fresh."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says to add 'biraz su' (water) if the dough is too dry, but the English says 'a little cooking liquid'. The Turkish should match, and the reserved cooking liquid from step 2 is the inte"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

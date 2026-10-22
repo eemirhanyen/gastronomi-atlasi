@@ -47,10 +47,10 @@
    "Patatesler pişerken sosisleri 15 dakika kadar önce tencereye ekleyin. Sosislerin haşlanması için suyun hafifçe kaynamasını sağlayın, ancak sert kaynatmayın; sosisler yarılmasın.",
    "Bu sırada büyük bir tavada 40 g tereyağını orta-düşük ateşte eritin. Soğanı ekleyip 10 dakika kadar, yumuşayıp hafif altın rengi alana kadar yavaşça kavurun.",
    "Küçük bir tencerede sütü ılıtın; kaynatmayın.",
-   "Patatesleri, lahanayı ve sosisleri süzün. Sosisleri ayırın ve sıcak tutun. Patatesleri ve lahananın bir kısmını tencereye geri koyun, üzerine 30 g tereyağını ekleyin.",
-   "Patates ve lahanayı ezici yardımıyla ezin. Ilık sütü azar azar ekleyerek pürüzsüz bir kıvam elde edin. Kalan lahanayı ve kavrulmuş soğanı tereyağıyla birlikte ekleyip iyice karıştırın.",
+   "Patatesleri, lahanayı ve sosisleri süzün. Sosisleri ayırın ve sıcak tutun. Patatesleri ve lahanayı tencereye geri koyun, üzerine 30 g tereyağını ekleyin.",
+   "Patatesleri ve lahanayı ezici ile ezin. Ilık sütü azar azar ekleyerek pürüzsüz ve kabarık bir kıvam elde edin. Kavrulmuş soğanı tereyağıyla birlikte ekleyip iyice karıştırın.",
    "Tuz, karabiber ve hindistancevizi ile tatlandırın. Gerekirse biraz daha süt ekleyin.",
-   "Püreyi sıcak servis tabaklarına alın, ortasına bir çukur açıp sosisleri yerleştirin ve yanında hardal ile servis yapın."
+   "Püreyi sıcak servis tabaklarına alın, ortasına bir çukur açıp sosisleri üzerine veya yanına yerleştirin ve hardal ile servis yapın."
   ],
   "en": [
    "Put the potatoes and the kale leaves (stems removed) into a large pot with the 2 l of cold water and 1 tsp salt. Bring to the boil over medium-high heat and cook for about 20 minutes, until the potatoes are fully tender.",
@@ -67,5 +67,15 @@
   "tr": "Püreyi ezerken patatesleri aşırı yoğurmayın; nişastanın açığa çıkması püreyi yapışkan yapar. Tereyağlı soğanı da sıcak servis edin, yağıyla birlikte püreye karıştırmak tadı belirgin şekilde artırır.",
   "en": "Mash the potatoes just until smooth; overworking releases too much starch and makes the mash gluey. Stir the butter-fried onion and its fat through the mash for the most authentic flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English disagree on kale handling: Turkish step 5 returns only part of the kale to the pot and step 6 adds 'kalan lahana' (remaining kale), but the English says all kale is returned and ne",
+   "Turkish step 8 says the sausages go in the well in the centre, while the English says 'on top or alongside'. Minor, but the versions should match.",
+   "Turkish step 6 'ezici yardımıyla' is awkward; 'ezici ile' is more natural."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

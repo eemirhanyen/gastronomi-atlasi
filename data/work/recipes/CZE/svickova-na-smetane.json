@@ -71,7 +71,7 @@
    "Ocağı kısın ve sıcak sebzeli sosu yavaş yavaş ekleyip çırpın. Pürüzsüz olunca 5 dakika kısık ateşte kaynatın.",
    "Ocağı kapatın ve ekşi krema, krema ve şekeri karıştırın. Sos kaynamasın, tuz ve karabiberle tatlandırın.",
    "Dinlenen eti 1 cm kalınlığında dilimleyin. Hazır knedliği buharda yaklaşık 15 dakika ısıtıp dilimleyin.",
-   "Çırpılabilir kremayı sert köpük olana kadar çırpın. Tabaklara sosu koyun, üzerine et dilimlerini yerleştirin, yanına knedlik dilimleri, bir kaşık kızılcık reçeli ve bir miktar çırpılmış krema ekleyerek servis yapın."
+   "Çırpılabilir kremayı yumuşak zirveler oluşana kadar çırpın. Tabaklara sosu koyun, üzerine et dilimlerini yerleştirin, yanına knedlik dilimleri, bir kaşık kızılcık reçeli ve bir miktar çırpılmış krema ekleyerek servis yapın."
   ],
   "en": [
    "Put the beef sirloin, onion, carrot, celeriac, water, vinegar, bay leaves, allspice, peppercorns and clove into a bowl. Cover and marinate in the fridge for 24 hours, turning the meat once or twice.",
@@ -91,5 +91,13 @@
   "tr": "Eti mutlaka 24 saat marine edin; sirke ve sebzeler hem eti yumuşatır hem de sosa derinlik katar. Sosu kaynatmamak, kremanın ayrışmasını önler.",
   "en": "Marinate the beef for a full 24 hours, as the vinegar and vegetables tenderise the meat and build the flavour of the sauce. Never let the cream boil, or it may split."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 11 says to whip the cream until 'sert köpük' (stiff foam), but the English step and the intent say soft peaks. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

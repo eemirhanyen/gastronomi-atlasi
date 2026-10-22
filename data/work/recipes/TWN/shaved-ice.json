@@ -9,7 +9,7 @@
   "en": "A summer favourite sold at Taiwanese night markets and dessert shops, this is finely shaved milk ice served with red beans and chewy taro balls, finished with condensed milk and crushed peanuts."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 420,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -67,5 +67,13 @@
   "tr": "Buzu servis etmeden hemen önce tıraşlayın; kar kıvamı, buz parçalarından çok daha yumuşak ve kremsi bir doku verir.",
   "en": "Shave the ice just before serving; a fine snow texture feels far softer and creamier than crushed ice chunks."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) counts only active time; the milk block needs at least 6 hours of freezing, so the total time is understated"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "200 g kısa taneli pirinç (ör. Miniket)",
+   "200 g orta taneli aromatik pirinç (ör. Miniket)",
    "100 g sarı mercimek (moong dal, kabuksuz)",
    "60 g ghee (sade yağ)",
    "1 adet defne yaprağı",
@@ -33,7 +33,7 @@
    "1 litre sıcak su"
   ],
   "en": [
-   "200 g short-grain rice (e.g. Miniket)",
+   "200 g medium-grain aromatic rice (e.g. Miniket)",
    "100 g yellow split mung dal, hulled",
    "60 g ghee",
    "1 bay leaf",
@@ -56,7 +56,7 @@
  "steps": {
   "tr": [
    "Pirinci ve mercimeği ayrı ayrı akan suda 3 kez yıkayıp süzün. Pirinci ve mercimeği bir kasede karıştırıp bir kenara koyun.",
-   "Geniş bir tencerede ghee'yi orta-yüksek ateşte eritin. Defne yaprağını, kakuleyi, tarçını, karanfili ve kimyonu ekleyip yaklaşık 30 saniye, kokuları çıkana kadar kavurun.",
+   "Geniş bir tencerede 50 g ghee'yi orta-yüksek ateşte eritin. Defne yaprağını, kakuleyi, tarçını, karanfili ve kimyonu ekleyip yaklaşık 30 saniye, kokuları çıkana kadar kavurun.",
    "Doğranmış soğanı ekleyip altın rengi alana kadar, yaklaşık 8 dakika kavurun.",
    "Zencefil ve sarımsağı ekleyip 1 dakika daha kavurun.",
    "Patates küplerini ekleyip 3 dakika kadar karıştırarak hafifçe kızartın.",
@@ -64,12 +64,12 @@
    "Yıkanmış pirinç ve mercimeği tencereye ekleyin, 2 dakika karıştırarak yağla kaplayın.",
    "Sıcak suyu ekleyip karıştırın, kapağını kapatıp kaynamaya bırakın.",
    "Yeşil bezelye ve çizilmiş yeşil biberleri ekleyin. Isıyı düşürüp kapağı aralık bırakarak, ara ara karıştırarak 20-25 dakika pişirin; pirinç ve mercimek yumuşayıp kıvamlı bir potaj olmalıdır.",
-   "Ocaktan alın, kalan ghee'den küçük bir miktar ekleyip karıştırın ve kapağı kapalı olarak 5 dakika dinlendirin.",
+   "Ocaktan alın, gerekirse kalan 10 g ghee'den ekleyip karıştırın ve kapağı kapalı olarak 5 dakika dinlendirin.",
    "Sıcak servis yapın; yanında kızarmış yumurta, köri ve begun bhaja ile birlikte sunun."
   ],
   "en": [
    "Rinse the rice and dal separately under running water 3 times, then drain. Mix them together in a bowl and set aside.",
-   "Melt the ghee in a wide pot over medium-high heat. Add the bay leaf, cardamom, cinnamon, cloves and cumin seeds and fry for about 30 seconds until fragrant.",
+   "Melt 50 g of the ghee in a wide pot over medium-high heat. Add the bay leaf, cardamom, cinnamon, cloves and cumin seeds and fry for about 30 seconds until fragrant.",
    "Add the sliced onion and fry until golden brown, about 8 minutes.",
    "Stir in the ginger and garlic and cook for 1 more minute.",
    "Add the potato cubes and fry gently for about 3 minutes, stirring.",
@@ -77,7 +77,7 @@
    "Add the rice and dal mixture and stir for 2 minutes until every grain is coated in ghee.",
    "Pour in the hot water, stir, cover and bring to a boil.",
    "Add the green peas and slit green chilies. Reduce the heat, leave the lid slightly open and cook for 20-25 minutes, stirring occasionally, until the rice and dal are soft and the mixture is a thick, porridge-like consistency.",
-   "Remove from the heat, stir in a little of the remaining ghee if needed, cover and rest for 5 minutes.",
+   "Remove from the heat, stir in a little of the remaining 10 g ghee if needed, cover and rest for 5 minutes.",
    "Serve hot, accompanied by fried eggs, a curry and begun bhaja (fried eggplant)."
   ]
  },
@@ -85,5 +85,15 @@
   "tr": "Kıvamı ayarlamak için pişirme sırasında sıcak su ekleyin; bitmiş hiçuri sıcakken ağırlaşır, bu yüzden servis öncesi biraz su ile gevşetebilirsiniz.",
   "en": "Add hot water during cooking to adjust the consistency; khichuri thickens as it cools, so loosen it with a splash of hot water before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ghee: step 10 refers to 'the remaining ghee' but no amount is reserved in the earlier steps, so the 60 g total is not divided between cooking and finishing.",
+   "Turkish step 10 omits 'if needed' ('gerekirse'), which the English version includes, so the two versions disagree.",
+   "Miniket is a medium-grain aromatic rice rather than a short-grain one, so the rice description is inaccurate."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

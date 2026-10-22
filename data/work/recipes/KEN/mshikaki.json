@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "600 g dana antrikot veya dana kalbi, 2,5 cm küp doğranmış",
+   "600 g dana but (sirloin) veya dana kalbi, 2,5 cm küp doğranmış",
    "45 ml beyaz sirke",
    "30 ml taze limon suyu",
    "30 ml sıvı yağ",
@@ -66,8 +66,17 @@
   ]
  },
  "tip": {
-  "tr": "Etin sirkede uzun süre bekletilmesi lifleri yumuşatır; ancak 12 saatten fazla bırakmayın, aksi halde dokusu yumuşak ama un gibi olabilir.",
+  "tr": "Etin sirkede uzun süre bekletilmesi lifleri yumuşatır; ancak 12 saatten fazla bırakmayın, aksi halde dokusu lapa gibi olabilir.",
   "en": "The vinegar tenderises the meat, but do not marinate for more than about 12 hours or the texture can become mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient says 'dana antrikot' (ribeye), but the English says 'beef sirloin'. The cut names disagree.",
+   "Turkish tip uses 'un gibi' ('like flour'), which is unnatural. The English 'mushy' means 'lapa gibi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -16,12 +16,12 @@
    "300 g kuru bakla, en az 12 saat ıslatılmış",
    "1/2 tatlı kaşığı karbonat (yaklaşık 3 g)",
    "1 orta boy soğan (150 g), ikiye bölünmüş",
-   "1 büyük su bardağı... yerine: 1,5 litre su",
+   "1,5 litre su",
    "2 diş sarımsak (10 g), ezilmiş",
    "1 tatlı kaşığı tuz (6 g)",
    "45 ml taze limon suyu (yaklaşık 1 limon)",
    "60 ml sızma zeytinyağı",
-   "1 kaşık kimyon (2 g), öğütülmüş",
+   "1 tatlı kaşığı kimyon (2 g), öğütülmüş",
    "1/2 tatlı kaşığı pul biber (1 g)",
    "1 orta boy domates (120 g), küp doğranmış",
    "10 g maydanoz, ince kıyılmış",
@@ -73,5 +73,14 @@
   "tr": "Baklaları pişirmeden önce ıslatma suyunu atıp taze suyla pişirmek daha temiz bir tat verir; tuzu pişirmenin sonunda ekleyin ki baklalar sertleşmesin.",
   "en": "Discard the soaking water and cook the beans in fresh water for a cleaner flavour, and add salt only at the end so the beans stay tender."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for water is garbled (\"1 büyük su bardağı... yerine: 1,5 litre su\"). It should read \"1,5 litre su\", matching the English.",
+   "Turkish cumin is listed as \"1 kaşık\" (tablespoon, roughly 6 to 7 g), but the English says 1 tsp (2 g). Changed to \"1 tatlı kaşığı\" to match the stated weight and the English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

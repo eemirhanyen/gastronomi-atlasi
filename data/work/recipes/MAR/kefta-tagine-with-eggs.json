@@ -5,7 +5,7 @@
  },
  "native": "كفتة بالبيض",
  "desc": {
-  "tr": "Fas mutfağında spiral baharatlı köfte kıymanın domates sosunda pişirilip üzerine kırılan yumurtalarla servis edildiği, genellikle öğle ve akşam yemeklerinde ailece paylaşılan geleneksel bir tajindir. Ekmekle birlikte yenir.",
+  "tr": "Fas mutfağında baharatlı kıyma köftenin domates sosunda pişirilip üzerine kırılan yumurtalarla servis edildiği, genellikle öğle ve akşam yemeklerinde ailece paylaşılan geleneksel bir tajindir. Ekmekle birlikte yenir.",
   "en": "A traditional Moroccan tagine of spiced minced meat kefta simmered in tomato sauce, with eggs cracked into the sauce at the end. It is served in the tagine dish as a family meal, usually with bread, at lunch or dinner."
  },
  "servings": 4,
@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "500 g kuşbaşı olmayan kıyma (dana veya kuzu)",
+   "500 g kıyma (dana veya kuzu)",
    "1 küçük soğan (yaklaşık 80 g), rendelenmiş",
    "3 yemek kaşığı doğranmış maydanoz (15 g)",
    "2 yemek kaşığı doğranmış kişniş (8 g)",
@@ -65,7 +65,7 @@
    "Karışımdan ceviz büyüklüğünde parçalar koparıp elinizle uzun köfteler şekillendirin. Tabağa dizip buzdolabında 15 dakika dinlendirin.",
    "Tajin kabını veya geniş, kapaklı bir tavayı orta ateşte ısıtın. 2 yemek kaşığı zeytinyağını ekleyip ince dilimlenmiş soğanı yumuşayana ve hafif altın rengi alana kadar yaklaşık 5 dakika soteleyin.",
    "Kıyılmış sarımsağı ekleyip 1 dakika daha kavurun. Rendelenmiş domatesi, salçayı, 1/2 tatlı kaşık kimyon, 1/2 tatlı kaşık tatlı kırmızı biber, yeşil biberi, tuzu ve suyu ilave edin. Karıştırıp kısık ateşte 10 dakika pişirin.",
-   "Dinlendirdiğiniz köftleri sosun içine nazikçe yerleştirin. Kapağını kapatıp kısık ateşte 15 dakika pişirin; ara ara tavayı hafifçe sallayarak köftelerin dağılmadan pişmesini sağlayın.",
+   "Dinlendirdiğiniz köfteleri sosun içine nazikçe yerleştirin. Kapağını kapatıp kısık ateşte 15 dakika pişirin; ara ara tavayı hafifçe sallayarak köftelerin dağılmadan pişmesini sağlayın.",
    "Köftelerin arasında dört çukur açın. Her çukura birer yumurta kırın, tuzla hafifçe tatlandırın ve kapağı kapatıp 5-7 dakika, akı pişip sarısı yumuşak kalana kadar pişirin.",
    "Üzerine kalan maydanoz ve kişnişi serpin, sıcak sıcak ekmekle servis edin."
   ],
@@ -83,5 +83,15 @@
   "tr": "Köftelere pişirmeden önce kıymayı iyice yoğurun ve buzdolabında dinlendirin; bu, köftelerin sosta dağılmasını önler. Yumurtaları kırdıktan sonra kapağı kapalı tutun ki akı kısa sürede pişsin.",
   "en": "Knead the meat well and chill the kefta before cooking so they hold their shape in the sauce. Keep the lid on once the eggs go in so the whites set quickly while the yolks stay soft."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says \"spiral baharatlı köfte\"; \"spiral\" is wrong here and should be \"baharatlı kıyma köfte\".",
+   "Turkish ingredient \"kuşbaşı olmayan kıyma\" is unnatural; \"kıyma\" already means minced meat.",
+   "Turkish step 5 has the typo \"köftleri\" (should be \"köfteleri\")."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,8 +5,8 @@
  },
  "native": "café con leche",
  "desc": {
-  "tr": "İspanya'da sabah kahvaltısının vazgeçilmez içeceği olan, eşit yakınlıkta espresso ve sıcak sütten yapılan yumuşak bir kahve. Genellikle sabahın erken saatlerinde barlarda, kahvaltıyla birlikte servis edilir.",
-  "en": "A soft, milky coffee made from equal parts espresso and hot milk, and a staple of the Spanish breakfast. It is usually served in bars in the morning, often alongside a pastry or toast."
+  "tr": "İspanya'da sabah kahvaltısının vazgeçilmez içeceği olan, yaklaşık bir porsiyon espresso ve bir buçuk porsiyon sıcak sütten yapılan yumuşak bir kahve. Genellikle sabahın erken saatlerinde barlarda, kahvaltıyla birlikte servis edilir.",
+  "en": "A soft, milky coffee made from roughly one part espresso to one and a half parts hot milk, and a staple of the Spanish breakfast. It is usually served in bars in the morning, often alongside a pastry or toast."
  },
  "servings": 4,
  "time_min": 10,
@@ -42,8 +42,17 @@
   ]
  },
  "tip": {
-  "tr": "Sütü kaynatmayın; yaklaşık 65 °C'de durdurmak hem tadını yumuşak tutar hem de süt yağının ekşimesini önler.",
-  "en": "Do not boil the milk; stopping at about 65 °C keeps the flavour smooth and prevents the milk from tasting scorched or sour."
+  "tr": "Sütü kaynatmayın; yaklaşık 65 °C'de durdurmak tadını yumuşak tutar ve sütün pişmiş ya da yanık bir tat almasını önler.",
+  "en": "Do not boil the milk; stopping at about 65 °C keeps the flavour smooth and prevents the milk from tasting scorched or cooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Description says 'equal parts' espresso and milk (TR and EN), but the recipe uses 40 ml espresso to 65 ml milk per cup, roughly 1:1.6.",
+   "Tip claims that stopping at 65 °C prevents milk fat from souring. That is not an accurate food-science claim. The real benefit is avoiding a scorched or cooked taste."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

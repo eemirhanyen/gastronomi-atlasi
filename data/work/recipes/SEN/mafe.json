@@ -6,7 +6,7 @@
  "native": "Mafé",
  "desc": {
   "tr": "Senegal ve Mali'de sık yapılan, kızarmış etin tatlı-tuzlu yer fıstığı ve domates sosunda pişirildiği, pirinçle servis edilen doyurucu bir ana yemektir. Aile öğünlerinde ve Cuma akşamları, özellikle de misafir ağırlandığında tercih edilir.",
-  "en": "A hearty main dish from Senegal and Mali, where meat is browned and simmered in a sweet-savory tomato and peanut sauce, then served over rice. It is common at family meals and when guests visit, especially on weekends."
+  "en": "A hearty main dish from Senegal and Mali, where meat is browned and simmered in a sweet-savory tomato and peanut sauce, then served over rice. It is common at family meals and on Friday evenings, especially when guests visit."
  },
  "servings": 4,
  "time_min": 90,
@@ -79,5 +79,13 @@
   "tr": "Yer fıstığı ezmesini doğrudan tencereye koymak yerine önce sıcak sosla açmak, topaklanmasını önler ve sosu pürüzsüz tutar.",
   "en": "Thin the peanut butter with some hot sauce before adding it to the pot; this prevents clumping and keeps the sauce smooth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "English description says 'especially on weekends' but the Turkish says 'Cuma akşamları' (Friday evenings). The two versions disagree on when the dish is typically served."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

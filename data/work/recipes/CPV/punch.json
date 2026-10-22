@@ -9,7 +9,7 @@
   "en": "A lively drink of sugarcane spirit (aguardente), lime juice and sugar, served at festivals, family gatherings and along the coastal towns of Cape Verde."
  },
  "servings": 4,
- "time_min": 20,
+ "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -55,5 +55,13 @@
   "tr": "Limonların asitliği değiştiği için şekeri ve limonu son tadına göre ayarlayın; ponç çok tatlı olmamalıdır.",
   "en": "Limes vary in acidity, so adjust the sugar and lime juice to taste; traditional punch should be balanced, not overly sweet."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (20) does not match the steps: the 10-minute steep, cooling the syrup, and the mandatory 30-minute chill add up to at least 50 minutes, so the total is about 60 minutes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

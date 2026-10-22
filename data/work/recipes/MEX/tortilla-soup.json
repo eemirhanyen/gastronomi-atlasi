@@ -22,7 +22,7 @@
    "3 diş sarımsak, ince kıyılmış",
    "1 yemek kaşığı (15 ml) sıvı yağ",
    "1 litre tavuk suyu",
-   "1 çay kaşığı kurutulmuş kekik (Meksika kekiği tercih edilir)",
+   "1 çay kaşığı kurutulmuş Meksika kekiği (Mexican oregano)",
    "1/2 çay kaşığı öğütülmüş kimyon",
    "1 defne yaprağı",
    "Tuz ve karabiber",
@@ -48,7 +48,7 @@
    "1 bay leaf",
    "Salt and black pepper",
    "1 ripe avocado (about 150 g), diced",
-   "100 g fresh cheese (queso fresco or ricotta salata), crumbled",
+   "100 g fresh cheese (queso fresco or farmer's cheese), crumbled",
    "60 g sour cream (crema)",
    "1 lime, cut into wedges",
    "2 tbsp chopped fresh coriander",
@@ -60,9 +60,9 @@
    "Tortilla şeritlerini hazırlayın: Yağı orta-yüksek ateşte, yaklaşık 180°C'ye gelene kadar ısıtın. Şeritleri küçük partiler halinde 1-2 dakika, altın rengi ve çıtır olana kadar kızartın. Kağıt havlu üzerine alın ve tuz serpin.",
    "Guajillo biberini kuru bir tavada her iki yüzünü 20 saniye kadar hafifçe kavurun. Ardından 250 ml sıcak suda 15 dakika bekletin.",
    "Domatesleri aynı kuru tavada, kabuğu siyahlaşana kadar 8-10 dakika çevirerek kızartın. Soyun, kabukları çıkarıp kenara koyun.",
-   "Islatılmış biberi, kızarmış domatesleri, sarımsağın yarısını, soğanın üçte birini ve 150 ml tavuk suyunu bir blendırda pürüzsüz olana kadar karıştırın.",
+   "Islatılmış biberi, kızarmış domatesleri, sarımsağın yarısını, soğanın üçte birini ve 150 ml tavuk suyunu bir blenderda pürüzsüz olana kadar karıştırın.",
    "Büyük bir tencerede 1 yemek kaşığı yağı orta ateşte ısıtın. Kalan soğan ve sarımsağı 5 dakika, yumuşayıp hafifçe renk alana kadar kavurun.",
-   "Blendırdan çıkan karışımı tencereye dökün ve 5-6 dakika, koyulaşıp yağı ayrılana kadar pişirin.",
+   "Blenderdan çıkan karışımı tencereye dökün ve 5-6 dakika, koyulaşıp yağı ayrılana kadar pişirin.",
    "Kalan tavuk suyunu, kekiği, kimyonu, defne yaprağını ve 1 çay kaşığı tuzu ekleyin. Kısık ateşte 20 dakika kaynatın.",
    "Defne yaprağını çıkarın, tadına bakıp tuz ve karabiber ile ayarlayın.",
    "Servis kaselerine avokado küplerini, peyniri, kişnişi, jalapeño halkalarını ve limon dilimlerini koyun. Çorbayı sıcak sıcak üzerine dökün, ekşi krema ve tortilla şeritleriyle servis edin."
@@ -83,5 +83,15 @@
   "tr": "Tortilla şeritlerini servisten hemen önce ekleyin; çorbaya uzun süre bekletilirse yumuşar.",
   "en": "Add the tortilla strips just before serving, or they will soften in the broth."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "TR ingredient 'kurutulmuş kekik' (thyme) does not match EN 'dried oregano'; Mexican oregano is the intended herb, so the TR translation is wrong.",
+   "Cheese mismatch: TR says 'lor peyniri' but EN says 'ricotta salata'.",
+   "Turkish typo 'blendır' should be 'blender' in steps 4 and 6."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

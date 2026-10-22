@@ -5,11 +5,11 @@
  },
  "native": "fainá",
  "desc": {
-  "tr": "Nohut unundan yapılan, ince ve çıtır kenarlı bir Arjantin ekmeği. Buenos Aires'teki pizzacılarda, özellikle pizzanın yanında ve öğle yemeklerinde, genellikle sıcak servis edilir.",
+  "tr": "Nohut unundan yapılan, ince ve çıtır kenarlı bir Arjantin ekmeği. Buenos Aires'teki pizzacılarda, özellikle pizzanın yanında, öğle ve akşam yemeklerinde genellikle sıcak servis edilir.",
   "en": "A thin, crisp-edged chickpea flour flatbread from Argentina. It is traditionally served hot in Buenos Aires pizzerias, often alongside pizza, especially at lunch and in the evening."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 165,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -51,5 +51,14 @@
   "tr": "Hamuru mutlaka dinlendirin; bu süre nohut ununun suyu iyice emmesini sağlar ve daha yumuşak bir iç doku verir.",
   "en": "Do not skip the resting time; it lets the chickpea flour fully hydrate, giving a softer, more even crumb."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English descriptions disagree: the English says it is served at lunch and in the evening, but the Turkish mentions only lunch (öğle yemeklerinde).",
+   "time_min (150) is slightly low for the steps: about 2 h resting, 20 min preheating and 15-20 min baking total roughly 160-165 min."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

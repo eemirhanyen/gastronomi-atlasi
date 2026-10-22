@@ -50,7 +50,7 @@
    "Bu sırada yukayı, yeşil plantaini, chayote'yi soyup doğrayın ve mısır koçanlarını parçalara ayırın.",
    "Kalan yarım soğanı, dolmalık biberi ve culantro'yu ince ince doğrayın.",
    "Tavuk yumuşayınca yukayı, plantaini ve mısırı tencereye ekleyip 25 dakika daha pişirin.",
-   "Doğranmış soğan, biber ve culantro'yu ile chayote'yi ekleyerek 10-15 dakika daha, sebzeler yumuşayana kadar pişirin.",
+   "Doğranmış soğanı, dolmalık biberi ve culantro'yu chayote ile birlikte tencereye ekleyin ve sebzeler yumuşayana kadar 10-15 dakika daha pişirin.",
    "Tadına bakıp gerekirse tuz ekleyin. Çorbayı kâselere alın, üzerine limon sıkıp hemen servis yapın."
   ],
   "en": [
@@ -67,5 +67,13 @@
   "tr": "Gallina india yaşlı ve sert olduğu için tavuğu en az 45 dakika kısık ateşte pişirin; çorbanın berraklığı için kaynama sırasında köpüğü düzenli alın.",
   "en": "Old hens are tough, so keep the broth at a gentle simmer rather than a rolling boil, and skim regularly for a clear, clean soup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 has broken grammar: \"Doğranmış soğan, biber ve culantro'yu ile chayote'yi ekleyerek\" should be rewritten so the case endings and postposition are correct. The English version is fine."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

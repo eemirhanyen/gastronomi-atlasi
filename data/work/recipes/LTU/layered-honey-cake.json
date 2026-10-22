@@ -8,7 +8,7 @@
   "tr": "Litvanya'da özellikle Noel ve Paskalya gibi bayramlarda ikram edilen, ince bal hamuru yapraklarının ekşi kremalı kat kat dizildiği geleneksel bir pastadır. Ev sahipleri ve misafirler arasında paylaşılan, sabırla hazırlanan bir tatlıdır.",
   "en": "A traditional Lithuanian dessert with thin honey dough layers stacked with a sour cream filling, served especially at Christmas and Easter. It is a shared, patiently made cake offered to family and guests."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
@@ -73,5 +73,13 @@
   "tr": "Yaprakları pişirmeden önce tek tek ince açın ve fırında kenarları iyice koyulaştırın; bu, kremi emerek yumuşayan pastanın lezzetini ve dokusunu dengeler.",
   "en": "Roll each layer thin and bake until the edges are well browned; this gives the classic flavour and lets the layers soften pleasantly once they absorb the cream."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) are too few for this amount: about 550 g of filling and four 20 cm layers make a cake for roughly 8 portions. Changed to 8."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

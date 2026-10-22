@@ -5,7 +5,7 @@
  },
  "native": "kuli-kuli",
  "desc": {
-  "tr": "Burkina Faso'da ve Batı Afrika'nın Sahel bölgesinde sokak atıştırmalığı olarak yaygın olan, kavrulmuş yer fıstığından yapılan, baharatlı ve çıtır bir hamur tatlısıdır. Genellikle pazar yerlerinde, yolculukta ve çay saatlerinde servis edilir.",
+  "tr": "Burkina Faso'da ve Batı Afrika'nın Sahel bölgesinde sokak atıştırmalığı olarak yaygın olan, kavrulmuş yer fıstığından yapılan, baharatlı ve çıtır bir hamur atıştırmalığıdır. Genellikle pazar yerlerinde, yolculukta ve çay saatlerinde servis edilir.",
   "en": "A crisp, spiced fried snack made from roasted groundnuts, popular across Burkina Faso and the wider West African Sahel. It is sold at markets and roadside stalls and eaten as a casual snack, often on the go."
  },
  "servings": 4,
@@ -34,7 +34,7 @@
  "steps": {
   "tr": [
    "Yer fıstığı kavrulmamışsa fırını 160°C'ye ısıtın, fıstıkları tek kat halinde tepsiye dizin ve 10–12 dakika kavurun. Tamamen soğumasını bekleyin ve kabuklarını ayırın.",
-   "Soğan, zencefil ve kırmızı biberi ince doğrayın veya blendırdan geçirerek kaba bir macun elde edin.",
+   "Soğan, zencefil ve kırmızı biberi ince doğrayın veya blenderdan geçirerek kaba bir macun elde edin.",
    "Fıstıkları mutfak robotunda veya havanda kaba bir un kıvamına gelene kadar ezin; çok ince öğütmeyin, ağızda hafif lif hissi kalsın.",
    "Ezilmiş fıstıkları, soğan-zencefil-biber karışımı ve tuzla bir kapta yoğurun. Fıstığın yağı açığa çıkana kadar 30–50 ml su ekleyerek şekillenebilecek yumuşak bir hamur elde edin.",
    "Hamurdan cevizden biraz büyük parçalar koparın, avuçlarınızla 1 cm kalınlığında küçük diskler veya kısa çubuklar şekillendirin.",
@@ -55,5 +55,14 @@
   "tr": "Hamur çok yumuşakla dağılır, çok kuruysa çatlar; avuçta bastırdığınızda bir arada kalıp hafifçe yağ bırakması ideal kıvamdır.",
   "en": "If the dough is too wet it will spread in the oil, and if too dry it will crack; aim for a dough that holds its shape and feels slightly oily when pressed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls kuli-kuli a \"hamur tatlısı\" (sweet pastry dessert), but the dish is a savory spiced snack, as the English says (\"spiced fried snack\").",
+   "Turkish step 2 has a misspelling, \"blendırdan\"; the correct word is \"blenderdan\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

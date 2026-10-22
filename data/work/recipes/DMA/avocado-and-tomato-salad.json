@@ -5,7 +5,7 @@
  },
  "native": "Salad zaboka",
  "desc": {
-  "tr": "Dominika'da avokado ve domatesin yaz aylarında ve günlük öğünlerde sık yapılan, limonlu ve hafif acılı bir garnitürdür. Balık, kızarmış muz ve pirinç yemeklerinin yanında servis edilir.",
+  "tr": "Dominika'da avokado ve domatesle yapılan, limonlu ve hafif acılı hafif bir garnitürdür. Yıl boyunca günlük öğünlerde sık hazırlanır ve balık, kızarmış muz ve pirinç yemeklerinin yanında servis edilir.",
   "en": "A light, lime-dressed side salad made in Dominica with ripe avocado and tomato, often served with fish, fried plantain and rice. It is eaten year-round as an everyday accompaniment."
  },
  "servings": 4,
@@ -18,7 +18,7 @@
    "1 adet küçük kırmızı soğan (yaklaşık 80 g)",
    "2 adet taze soğan (yaklaşık 40 g)",
    "10 g taze frenk soğanı",
-   "1 adet limonun suyu (yaklaşık 30 ml)",
+   "1 limonun suyu (yaklaşık 30 ml)",
    "30 ml zeytinyağı",
    "1/2 adet küçük Scotch bonnet biberi (yaklaşık 5 g), isteğe bağlı",
    "3 g tuz",
@@ -39,10 +39,10 @@
  },
  "steps": {
   "tr": [
-   "Domatesleri yıkayın, saplarını çıkarın ve çekirdeklerini süzerek 1 cm küp doğrayın. Elekte 5 dakika süzülmeye bırakın.",
+   "Domatesleri yıkayın, saplarını çıkarın ve çekirdeklerini çıkararak 1 cm küp doğrayın. Elekte 5 dakika süzülmeye bırakın.",
    "Kırmızı soğanı ince ince doğrayın ve 10 dakika soğuk suda bekletip iyice süzün. Bu işlem sertliğini azaltır.",
    "Taze soğanları ve frenk soğanını ince ince kıyın.",
-   "Scotch bonnet biberini eldiven takarak ikiye bölün, çekirdeklerini çıkarıp çok ince doğrayın.",
+   "Scotch bonnet biberini eldiven takarak ikiye bölün, çekirdeklerini ve zarlarını çıkarıp çok ince doğrayın.",
    "Büyük bir kaseye süzülmüş domatesleri, soğanı, taze soğanı, frenk soğanını ve biberi alın.",
    "Limon suyu, zeytinyağı, tuz ve karabiberi ekleyip malzemeleri yavaşça karıştırın. Kenara alın.",
    "Avokadoları ikiye bölün, çekirdeklerini çıkarın, kabuklarını soyun ve 2 cm küp doğrayın.",
@@ -63,5 +63,16 @@
   "tr": "Avokadoyu servisten hemen önce ekleyin ve limon suyu ile karıştırın; böylece kararmaz ve ezilmez.",
   "en": "Add the avocado just before serving and toss it in the lime dressing so it stays bright green and holds its shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the salad is made mainly in summer months, but the English description says it is eaten year-round.",
+   "Turkish step 1 says the seeds are strained out (\"çekirdeklerini süzerek\"), which doesn't match the English instruction to discard them.",
+   "Turkish step 4 omits removing the membrane (\"zar\"), which the English version includes.",
+   "Turkish ingredient \"1 adet limonun suyu\" is unnatural phrasing; it should be \"1 limonun suyu\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

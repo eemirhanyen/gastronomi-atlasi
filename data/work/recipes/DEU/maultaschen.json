@@ -5,7 +5,7 @@
  },
  "native": "Germany (Swabia)",
  "desc": {
-  "tr": "Güney Almanya'nın Schwaben bölgesinden gelen, kıymalı ve ıspanaklı hamur pastalarıdır. Geleneksel olarak Noel ve Büyük Cuma'da, sıcak et suyunda servis edilir.",
+  "tr": "Güney Almanya'nın Schwaben bölgesinden gelen, kıymalı ve ıspanaklı hamur keseleridir. Geleneksel olarak Noel ve Büyük Cuma'da, sıcak et suyunda servis edilir.",
   "en": "Filled pasta pockets from Swabia in southwest Germany, traditionally made with minced meat and spinach. They are served in hot broth, especially on Christmas Eve and Good Friday."
  },
  "servings": 4,
@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "250 g un (405 numara veya çok amaçlı)",
+   "250 g un (405 numara veya çok amaçlı), açma için ek un",
    "2 büyük yumurta",
    "1 yemek kaşığı zeytinyağı",
    "1 tutam tuz",
@@ -81,5 +81,14 @@
   "tr": "Kalan Maultaschen'ları dilimleyip tereyağında kızartın, üzerine çırpılmış yumurta dökerek çırpılmış yumurtalı bir kahvaltı tabağı gibi servis edebilirsiniz.",
   "en": "Leftover Maultaschen can be sliced and fried in butter until golden, then served with scrambled eggs for a Swabian-style breakfast."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description calls Maultaschen 'hamur pastaları' ('pastry cakes'), which is unnatural for filled pasta pockets.",
+   "Turkish ingredient list omits the extra flour for dusting that the English version includes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

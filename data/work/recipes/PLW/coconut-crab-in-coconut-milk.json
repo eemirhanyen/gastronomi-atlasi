@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Hindistan cevizi yengeci birçok bölgede koruma altındadır; yasal olarak üretilmiş iri bir yengeç kullanın. Mavi yengeç kullanırsanız kısıcı pişirme süresini 12-15 dakikaya indirin.",
+  "tr": "Hindistan cevizi yengeci birçok bölgede koruma altındadır; yasal olarak üretilmiş iri bir yengeç kullanın. Mavi yengeç kullanırsanız kısık ateşte pişirme süresini 12-15 dakikaya indirin.",
   "en": "Coconut crab is protected in many areas, so use a legally sourced large crab. If using blue crab, shorten the simmering time to 12-15 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip uses the unnatural word 'kısıcı' in 'kısıcı pişirme süresi'; the standard phrase is 'kısık ateşte pişirme süresi'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

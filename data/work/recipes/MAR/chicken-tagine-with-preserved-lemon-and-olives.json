@@ -17,7 +17,7 @@
    "300 g soğan, rendelenmiş",
    "4 diş sarımsak, ezilmiş",
    "60 ml zeytinyağı",
-   "1 g safran telleri, 30 ml sıcak suda bekletilmiş",
+   "0,2 g safran telleri, 30 ml sıcak suda bekletilmiş",
    "3 g zerdeçal",
    "4 g kimyon",
    "4 g tatlı kırmızı biber",
@@ -35,7 +35,7 @@
    "300 g onions, grated",
    "4 cloves garlic, crushed",
    "60 ml olive oil",
-   "1 g saffron threads, steeped in 30 ml warm water",
+   "0.2 g saffron threads, steeped in 30 ml warm water",
    "3 g ground turmeric",
    "4 g ground cumin",
    "4 g sweet paprika",
@@ -56,7 +56,7 @@
    "Tajinin ya da geniş ve kalın tabanlı bir tencerenin içinde zeytinyağını ısıtın. Tavukları her iki tarafı da altın renk alana kadar, parti parti, yaklaşık 5'er dakika kavurun.",
    "Tavukları kenara alın. Aynı yağda rendelenmiş soğanı ve ezilmiş sarımsağı orta ateşte 8-10 dakika, soğan yumuşayıp suyunu çekene kadar pişirin.",
    "Tavukları soğanın üzerine geri koyun. Kişniş ve maydanozun yarısını ekleyin, sıcak suyu ilave edin. Kapağını kapatıp kısık ateşte 30 dakika pişirin.",
-   "Tuzlu limonları ve zeytinleri ekleyin. Limonları önce soğuk suyla durulayıp içindeki sert kısmı çıkarın, ince şeritler halinde kesin.",
+   "Tuzlu limonları ve zeytinleri ekleyin. Limonları önce soğuk suyla durulayıp içindeki etli kısmı çıkarın, kabuğunu ince şeritler halinde kesin.",
    "Kapağı kapalı olarak 20-25 dakika daha pişirin; tavuk etten kolayca ayrılacak kadar yumuşamalı ve sos kıvam almalıdır.",
    "Tuzu son kez kontrol edin, tuzlu limon tuzlu olabileceği için dikkatli tadın. Ocaktan alıp kalan kişniş ve maydanozla süsleyin, sıcak servis yapın."
   ],
@@ -75,5 +75,14 @@
   "tr": "Tuzlu limonun içindeki etli kısmı mutlaka çıkarın; yalnızca kabuğunu kullanmak hem daha az acılık hem de daha dengeli bir tat sağlar.",
   "en": "Always scrape out the pulp from the preserved lemons and use only the rind; this gives a more balanced flavour with less bitterness."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says to remove the 'sert kısmı' (hard part) of the preserved lemon, but the English and the tip say to remove the pulp (etli kısım). The Turkish is wrong and contradicts the English.",
+   "1 g of saffron is far too much for 4 servings (roughly 100+ threads); a typical amount is about 0.2 g."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

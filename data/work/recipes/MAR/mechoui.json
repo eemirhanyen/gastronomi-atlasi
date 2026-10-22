@@ -9,7 +9,7 @@
   "en": "A celebratory dish eaten across Morocco, especially at Eid, weddings and family gatherings, in which lamb is roasted slowly until the meat is tender enough to pull from the bone. It is traditionally served with bread and a cumin-salt mixture for dipping."
  },
  "servings": 4,
- "time_min": 210,
+ "time_min": 255,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -44,7 +44,7 @@
    "Ezilmiş sarımsağı tuz, kimyon, tatlı pul biber, karabiber ve zeytinyağı ile karıştırarak macun haline getirin.",
    "Macunu etin her yerine, kesiklerin içine de girecek şekilde sürün ve oda sıcaklığında 1 saat dinlendirin.",
    "Eti fırın tepsisine koyun, dibine 250 ml su ekleyin ve tepsiyi sıkıca folyo ile kapatın.",
-   "Etli kuzuyu 160°C'de yaklaşık 2,5 saat pişirin; her 45 dakikada bir tepsideki suyu ve yağı etin üzerine kaşıkla gezdirin.",
+   "Kuzu etini 160°C'de yaklaşık 2,5 saat pişirin; her 45 dakikada bir tepsideki suyu ve yağı etin üzerine kaşıkla gezdirin.",
    "Folyoyu açın, fırın sıcaklığını 220°C'ye çıkarın ve eti 20-30 dakika, yüzeyi altın rengi ve çıtır olana kadar kızartın.",
    "Eti fırından çıkarıp 15 dakika dinlendirin.",
    "Eti kemikten ayırıp parçalayın, tepsideki suyu üzerine dökün.",
@@ -67,5 +67,14 @@
   "tr": "Folyoyu sıkı kapatın ve tepsideki suyun kurumamasına dikkat edin; et ne kadar yavaş pişerse o kadar yumuşak olur.",
   "en": "Seal the foil tightly and keep some liquid in the tin; slow, moist cooking is what makes the meat fall off the bone."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (210) does not match the steps: 60 min marinating + ~150 min roasting + 30 min crisping + 15 min resting totals about 255 min",
+   "Turkish step 6 opens with \"Etli kuzuyu\", an awkward phrasing; \"Kuzu etini\" is the natural wording"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

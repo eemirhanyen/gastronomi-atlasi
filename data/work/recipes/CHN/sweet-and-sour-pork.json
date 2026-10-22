@@ -31,6 +31,7 @@
    "60 ml pirinç sirkesi",
    "60 ml su",
    "30 g ketçap",
+   "15 ml açık renk soya sosu (sos için)",
    "1 yemek kaşığı (8 g) mısır nişastası, 2 yemek kaşığı (30 ml) suyla karıştırılmış",
    "2 dal yeşil soğan, ince doğranmış (süsleme için)"
   ],
@@ -53,6 +54,7 @@
    "60 ml rice vinegar",
    "60 ml water",
    "30 g tomato ketchup",
+   "15 ml light soy sauce (for the sauce)",
    "1 tablespoon (8 g) cornstarch mixed with 2 tablespoons (30 ml) water",
    "2 spring onions, finely sliced (for garnish)"
   ]
@@ -61,8 +63,8 @@
   "tr": [
    "Domuz etini doğrarken parçaları aynı kalınlıkta kesin. Bir kasede yumurta, soya sosu, Shaoxing şarabı ve tuzu çırpın, etleri ekleyip karıştırın ve 15 dakika marine edin.",
    "Ayrı bir kasede mısır nişastası ile unu karıştırın. Marine edilmiş etleri bu karışıma batırıp her parçayı iyice kaplayın.",
-   "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın. Etleri küçük gruplar halinde ekleyip 3-4 dakika, altın rengi ve çıtır olana kadar kızartın. Süzgece alın ve yağı bir kez daha kızdırıp etleri tekrar kızartarak çıtırlığını artırın.",
-   "Sos için şekeri, pirinç sirkesini, suyu, ketçabı ve kalan soya sosunu küçük bir kapta karıştırın. Mısır nişastası karışımını ekleyip bir kenara koyun.",
+   "Kızartma yağını derin bir tencerede 180°C'ye kadar ısıtın. Etleri küçük gruplar halinde ekleyip 3-4 dakika, altın rengi ve çıtır olana kadar kızartın. Süzgece alın ve yağı bir kez daha kızdırıp etleri 30 saniye tekrar kızartarak çıtırlığını artırın.",
+   "Sos için şekeri, pirinç sirkesini, suyu, ketçabı ve soya sosunu küçük bir kapta karıştırın. Mısır nişastası karışımını ekleyip bir kenara koyun.",
    "Bir wok ya da geniş tavada 15 ml sıvı yağı orta-yüksek ateşte ısıtın. Sarımsak ve zencefili 30 saniye kavurun.",
    "Soğan ve yeşil biberi ekleyip 1 dakika hafifçe sote edin, ardından süzülmüş ananası ekleyin ve 30 saniye daha pişirin.",
    "Hazırlanan sosu tavaya dökün, karıştırarak kaynatın. Sos koyulaşıp parlak bir kıvam alana kadar yaklaşık 1 dakika pişirin.",
@@ -72,7 +74,7 @@
    "Cut the pork into even pieces. In a bowl, whisk the egg, soy sauce, Shaoxing wine and salt, add the pork and mix well. Marinate for 15 minutes.",
    "In another bowl, combine the cornstarch and flour. Dip each marinated piece into the mixture and coat it evenly.",
    "Heat the frying oil in a deep pan to 180°C. Fry the pork in small batches for 3-4 minutes until golden and crisp. Drain on a rack. Reheat the oil and fry the pork a second time for 30 seconds to make it extra crisp.",
-   "For the sauce, mix the sugar, rice vinegar, water, ketchup and the remaining soy sauce in a small bowl. Stir in the cornstarch slurry and set aside.",
+   "For the sauce, mix the sugar, rice vinegar, water, ketchup and the soy sauce in a small bowl. Stir in the cornstarch slurry and set aside.",
    "Heat 15 ml of neutral oil in a wok or large frying pan over medium-high heat. Fry the garlic and ginger for 30 seconds.",
    "Add the onion and green pepper and stir-fry for 1 minute, then add the drained pineapple and cook for 30 seconds more.",
    "Pour in the prepared sauce and bring it to a boil, stirring. Cook for about 1 minute until it thickens and turns glossy.",
@@ -83,5 +85,14 @@
   "tr": "Etin çıtır kalması için sosu en son ekleyin ve yemeği hemen servis edin; kızarmış etler sosta uzun süre bekletilirse yumuşar.",
   "en": "Add the sauce at the very end and serve straight away, because the crisp coating softens if the pork sits in the sauce for long."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Sauce step uses 'kalan soya sosu' / 'remaining soy sauce', but no soy sauce for the sauce is listed in the ingredients (only the 1 tbsp used in the marinade). Ingredients and steps disagree.",
+   "The second frying of the pork has a 30-second duration in the English steps but no duration in the Turkish steps, so the two versions differ."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

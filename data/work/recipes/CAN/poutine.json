@@ -5,7 +5,7 @@
  },
  "native": "Poutine",
  "desc": {
-  "tr": "Kızarmış patates kızartması, taze peynir lorları ve sıcak et sosundan oluşan Kanada'nın Quebec eyaletine özgü bir atıştırmalıktır. Genellikle soğuk kış günlerinde, kafelerde, barlarda ve yemek kamyonlarında servis edilir.",
+  "tr": "Kızarmış patates kızartması, taze peynir lorları ve sıcak kahverengi sostan oluşan Kanada'nın Quebec eyaletine özgü bir atıştırmalıktır. Genellikle soğuk kış günlerinde, kafelerde, barlarda ve yemek kamyonlarında servis edilir.",
   "en": "A Quebec classic of crisp French fries, fresh cheese curds and hot brown gravy. It is eaten across Canada but born in Quebec, and is especially popular as a cold-weather snack in cafés, bars and roadside diners."
  },
  "servings": 4,
@@ -15,7 +15,7 @@
   "tr": [
    "1 kg unlu patates (Russet veya Yukon Gold)",
    "1,5 l kızartma yağı (ayçiçek veya kanola)",
-   "300 g taze peynir lorı (çedar lorı)",
+   "300 g taze çedar peyniri lorı",
    "60 g tereyağı",
    "50 g un",
    "600 ml tavuk suyu",
@@ -26,7 +26,7 @@
   "en": [
    "1 kg starchy potatoes (Russet or Yukon Gold)",
    "1.5 l neutral frying oil (sunflower or canola)",
-   "300 g fresh cheese curds",
+   "300 g fresh cheddar cheese curds",
    "60 g unsalted butter",
    "50 g all-purpose flour",
    "600 ml chicken stock",
@@ -41,8 +41,8 @@
    "Kesilen patatesleri soğuk suda en az 30 dakika bekletin, sonra süzüp bir bez üzerinde iyice kurulayın.",
    "Derin bir tencerede yağı 150°C'ye kadar ısıtın ve patatesleri partiler halinde 6-8 dakika, içi yumuşayana kadar kızartın. Süzgece alıp en az 10 dakika dinlendirin.",
    "Yağı 190°C'ye çıkarın. Patatesleri ikinci kez partiler halinde 2-3 dakika, altın rengi ve çıtır olana kadar kızartın. Kağıt havlu üzerinde süzün ve tuzlayın.",
-   "Gravy için tereyağını orta ateşte bir tencerede eritin, unu ekleyip sürekli karıştırarak 2 dakika pişirin.",
-   "Ocaktan almadan önce ılık tavuk suyunu yavaş yavaş ekleyip çırpın ve pürüzsüz bir sos elde edin.",
+   "Sos için tereyağını orta ateşte bir tencerede eritin, unu ekleyip sürekli karıştırarak 2 dakika pişirin.",
+   "Ocaktan alarak ılık tavuk suyunu yavaş yavaş ekleyip çırpın ve pürüzsüz bir sos elde edin.",
    "Sosu kısık ateşte 5-7 dakika kaynatın, kekik, karabiber ve gerekirse tuz ekleyerek kıvam alana kadar pişirin.",
    "Peynir lorlarını oda sıcaklığına getirin; çok soğuksa kısa süre ılıtın, ama erimesine izin vermeyin.",
    "Servis tabağına sıcak patatesleri koyun, üzerine peynir lorlarını dağıtın ve en son sıcak sosu gezdirerek hemen servis yapın."
@@ -63,5 +63,16 @@
   "tr": "Peynir lorlarının en iyi tadı, servisten hemen önce eklenip hafif sıcak sosla bir an önce yenmesiyle alınır; bayatlayınca gıcırtısını kaybeder.",
   "en": "Fresh curds should squeak when bitten, so add them just before the hot gravy and serve at once; they lose their squeak as they sit."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"Ocaktan almadan önce\" (before removing from the heat), but the English says \"off the heat\". The Turkish wording contradicts the English and the intended technique.",
+   "Turkish step 5 leaves the English word \"Gravy\" untranslated (\"Gravy için\"), which is unnatural Turkish.",
+   "The cheese is \"çedar lorı\" in the Turkish ingredient list but plain \"fresh cheese curds\" in English. The variety should match in both languages.",
+   "Turkish description says \"sıcak et sosu\" (hot meat sauce), but the gravy is made with chicken stock and the English says \"brown gravy\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

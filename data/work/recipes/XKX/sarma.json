@@ -70,8 +70,16 @@
   ]
  },
  "tip": {
-  "tr": "Lahanayı yıkamadan önce kısa süre suda bekletmek, ekşiliğin fazla olduğu durumlarda sarmaların daha dengeli bir tat almasını sağlar.",
+  "tr": "Lahananın ekşiliği fazlaysa sarmadan önce yaprakları suda biraz daha bekletmek, sarmaların daha dengeli bir tat almasını sağlar. Sarmaları sıkı sarmak, pişerken dağılmalarını önler.",
   "en": "Soaking the sour cabbage briefly before rolling balances its acidity; if the cabbage is very sharp, add an extra soak. Packing the rolls tightly prevents them from unravelling while they simmer."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish tip says to soak the cabbage 'yıkamadan önce' (before washing), which contradicts the steps (rinse once, then soak 10 minutes) and the English tip (soak before rolling)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

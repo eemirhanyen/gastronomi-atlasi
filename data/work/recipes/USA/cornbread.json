@@ -42,7 +42,7 @@
    "Büyük bir kapta mısır unu, çok amaçlı un, şeker, kabartma tozu, karbonat ve tuzu iyice karıştırın.",
    "Ayrı bir kapta ekşi sütü ve yumurtayı çırpın, ardından eritilmiş tereyağını ekleyip karıştırın.",
    "Sıvı karışımı kuru malzemelerin üzerine dökün ve spatula ile sadece birkaç saniye karıştırın; topaklar kalmasının sakıncası yoktur, fazla yoğurmayın.",
-   "Ocaktan sıcak tavayı çıkarın, içindeki tereyağını yanlara da yayılacak şekilde döndürün ve hamuru tavaya dökün.",
+   "Fırından sıcak tavayı dikkatlice çıkarın, içindeki tereyağını yanlara da yayılacak şekilde döndürün ve hamuru tavaya dökün.",
    "Tavayı fırına geri koyun ve 20 ila 22 dakika pişirin; kenarları altın rengi olmalı ve ortasına batırılan kürdan kuru çıkmalıdır.",
    "Fırından çıkarıp 5 dakika tavada dinlendirin, ardından dilimleyip sıcak olarak servis edin."
   ],
@@ -61,5 +61,13 @@
   "tr": "Dökme demir tavayı önceden ısıtmak kenarlarda çıtır bir kabuk oluşturur; hamuru karıştırırken fazla yoğurmak ekmeğin kuru ve sert olmasına neden olur.",
   "en": "Preheating the cast iron skillet creates a crisp, golden crust, and overmixing the batter will make the cornbread dry and dense."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 6 says \"Ocaktan sıcak tavayı çıkarın\" (remove the pan from the stove), but the pan comes out of the oven, as the English version and step 7 indicate."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

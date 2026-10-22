@@ -9,7 +9,7 @@
   "en": "A slightly sweet, mildly alcoholic snack made from fermented cassava with a yeast starter. It is usually served in the afternoon and at celebrations, in village homes and at local markets."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 4320,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -49,5 +49,13 @@
   "tr": "Fermentasyon sırasında kasenin tamamen kapalı olmamasına dikkat edin; hava alabilmesi için hafif örtün, aksi halde hamur ekşi ve bozulmaya meyilli olabilir.",
   "en": "Keep the bowl loosely covered so it can breathe during fermentation; a sealed container can make the tapai sour or spoil it."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires 2-3 days of fermentation plus about 30 minutes of steaming and preparation, so the total time is misstated. Set it to 4320 (3 days) to match the upper end of th"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

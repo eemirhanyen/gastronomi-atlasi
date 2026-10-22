@@ -15,6 +15,7 @@
   "tr": [
    "800 g yam (beyaz yam), soyulmuş ve parçalanmış",
    "2 adet yeşil (olgunlaşmamış) muz, yaklaşık 400 g, soyulmuş ve kalın dilimlenmiş",
+   "1,5 l su (haşlama için)",
    "1 tatlı kaşığı (6 g) tuz",
    "60 ml palm yağı (ya da sıvı yağ)",
    "1 orta boy soğan (150 g), ince doğranmış",
@@ -25,6 +26,7 @@
   "en": [
    "800 g yam, peeled and cut into chunks",
    "2 unripe green plantains, about 400 g, peeled and cut into thick rounds",
+   "1.5 l water (for boiling)",
    "1 tsp (6 g) salt",
    "60 ml palm oil (or neutral oil)",
    "1 medium onion (150 g), finely chopped",
@@ -61,5 +63,13 @@
   "tr": "Yamı pişirmeden önce iyice yıkamak, nişastalı kaygan tabakayı giderir ve tadın daha temiz çıkmasını sağlar. Biberin miktarını damak zevkinize göre ayarlayın.",
   "en": "Rinsing the yam well before cooking removes the slippery starch film and keeps the flavour clean. Adjust the amount of scotch bonnet to suit your taste."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The 1.5 l of water used to boil the yam and plantain (steps 2 and 4 in both languages) is missing from the ingredient lists in both Turkish and English."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

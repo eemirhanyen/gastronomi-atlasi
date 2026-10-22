@@ -42,7 +42,7 @@
    "Hamuru hafifçe bastırıp havasını alın. 4 eşit parçaya bölüp yuvarlayın ve üzerini örterek 10 dakika dinlendirin.",
    "Her parçayı yaklaşık 18 cm çapında, 1 cm kalınlığında yassı daire halinde açın. Üzerlerini 20 g irmikle hafifçe tozlayın ve çatalla birkaç yerinden delin.",
    "Hamur daireleri örtüp 20 dakika dinlendirin.",
-   "Ön ısıtılmış tepsiyi fırından çıkarıp kağıt serin ve ekmekleri dikkatle üzerine yerleştirin.",
+   "Ön ısıtılmış tepsiyi fırından çıkarıp üzerine bir parça fırın kağıdı serin ve ekmekleri dikkatle yerleştirin.",
    "Ekmekleri 12-15 dakika, üstleri altın sarısı olana ve tıklatınca içi boş ses verene kadar pişirin.",
    "Fırından çıkarıp tel rafta soğumaya bırakın; sıcak ya da ılık servis edin."
   ],
@@ -65,5 +65,13 @@
   "tr": "Fırın tepsisini önceden ısıtmak ekmeğin altının hızlı kabarıp pişmesini sağlar; geleneksel tandırdaki sıcak yüzeyi taklit eder.",
   "en": "Preheating the tray gives the base an immediate blast of heat, helping the bread puff up and cook through, much like the hot surface of a traditional communal oven."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 is ungrammatical: \"kağıt serin\" needs the accusative \"kağıdı\" and reads as a fragment. Corrected to \"üzerine bir parça fırın kağıdı serin\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

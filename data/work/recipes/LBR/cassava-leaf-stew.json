@@ -9,7 +9,7 @@
   "en": "Plasas is one of Liberia's national dishes: pounded cassava leaves slow-cooked in palm oil with beef and smoked fish. It is usually served over rice and appears on family tables at lunch and dinner, especially at weekends and celebrations."
  },
  "servings": 4,
- "time_min": 150,
+ "time_min": 210,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -69,5 +69,13 @@
   "tr": "Kasava yaprakları çiğken zehirli olabilir; yemeği en az 1,5 saat kısık ateşte iyice pişirmek hem güvenlik hem de doğru doku için şarttır.",
   "en": "Raw cassava leaves contain cyanogenic compounds, so the stew must simmer for at least 1.5 hours until the leaves are fully soft. Undercooked leaves are unsafe and taste bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (150) is too low. The steps add up to roughly 3.5 hours of cooking: 40 min for the beef, 1.5 to 2 h for the leaves, plus 20 min for the fish and 10 min for the okra, before prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

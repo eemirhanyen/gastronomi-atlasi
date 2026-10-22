@@ -9,7 +9,7 @@
   "en": "A richly spiced, tomato-red rice dish cooked in one pot. In Liberia it is common at weddings, family gatherings and weekend lunches, usually served with fried chicken or fish."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -56,7 +56,7 @@
    "Tavuğu 1 tatlı kaşığı tuz ve karabiberle tatlandırın ve 10 dakika dinlendirin.",
    "Büyük, kalın tabanlı bir tencerede 40 ml yağı orta-yüksek ateşte ısıtın. Tavukları her iki yüzü altın rengi olana kadar, yaklaşık 8-10 dakika kızartın, sonra bir tabağa alın.",
    "Domatesleri, dolmalık biberi, blenderdan geçirilecek soğanı, scotch bonnet biberi, sarımsağı ve zencefili pürüzsüz olana kadar blenderdan geçirin.",
-   "Tencerede kalan yağa dilimlenmiş soğanı ekleyin ve yumuşayana kadar, yaklaşık 3 dakika soteleyin. Domates salçasını ekleyip koyu kırmızı bir renk alana kadar 3 dakika kavurun.",
+   "Tencerede kalan 40 ml yağa dilimlenmiş soğanı ekleyin ve yumuşayana kadar, yaklaşık 3 dakika soteleyin. Domates salçasını ekleyip koyu kırmızı bir renk alana kadar 3 dakika kavurun.",
    "Blenderdan çıkan karışımı tencereye dökün. Kalan 1/2 tatlı kaşığı tuzu da ekleyip orta ateşte, yağ yüzeye çıkana ve sos koyulaşana kadar yaklaşık 15-20 dakika pişirin.",
    "Kekik, köri tozu ve defne yapraklarını ekleyin. Tavuk suyu küpünü ufalayıp sosa karıştırın, ardından kızarmış tavukları geri koyun.",
    "500 ml sıcak suyu ekleyip karışımı kaynatın. Yıkanmış pirinci ekleyin, kepçeyle bir kez karıştırıp düzleştirin.",
@@ -67,7 +67,7 @@
    "Season the chicken with 1 tsp of salt and the black pepper, then leave it to rest for 10 minutes.",
    "Heat 40 ml of oil in a large, heavy-based pot over medium-high heat. Brown the chicken on both sides for about 8–10 minutes until golden, then transfer to a plate.",
    "Blend the tomatoes, red bell pepper, one onion, the scotch bonnet, garlic and ginger until smooth.",
-   "Add the sliced onion to the oil left in the pot and soften it for about 3 minutes. Stir in the tomato paste and fry for 3 minutes until it turns deep red.",
+   "Add the sliced onion to the remaining 40 ml of oil left in the pot and soften it for about 3 minutes. Stir in the tomato paste and fry for 3 minutes until it turns deep red.",
    "Pour the blended mixture into the pot, add the remaining 1/2 tsp of salt, and simmer over medium heat for 15–20 minutes, until thick and the oil rises to the surface.",
    "Stir in the thyme, curry powder and bay leaves. Crumble in the stock cube, stir it through the sauce, then return the browned chicken to the pot.",
    "Pour in the 500 ml of hot water and bring to the boil. Add the rinsed rice and stir once, then level the surface with a spoon.",
@@ -79,5 +79,14 @@
   "tr": "Pirincin tabanında hafif bir kıtır tabaka (party jollof) oluşması için son 5 dakikada ocağı biraz yükseltin, ancak yanmaması için sürekli kontrol edin.",
   "en": "For the smoky, lightly crisp base known as 'party jollof', raise the heat for the final 5 minutes and watch closely so it catches only slightly."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Ingredient lists 80 ml oil, but only 40 ml is used (for browning). The remaining 40 ml is never accounted for in the steps.",
+   "Total time of 60 minutes is too short for the steps listed (about 80 to 90 minutes including marinating, browning, a 15-20 minute sauce simmer, a 25 minute rice cook and two 10 minute rests)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

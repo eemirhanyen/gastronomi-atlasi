@@ -5,7 +5,7 @@
  },
  "native": "Chifrijo",
  "desc": {
-  "tr": "Kosta Rika'nın başkent San José'deki bar ve kantinlerinde, özellikle bira eşliğinde atıştırmalık olarak yenen bir yemektir. Pirinç, fasulye, çıtır domuz kaburga derisi, domates-soğan salatası ve avokadodan oluşur.",
+  "tr": "Kosta Rika'nın başkent San José'deki bar ve kantinlerinde, özellikle bira eşliğinde atıştırmalık olarak yenen bir yemektir. Pirinç, fasulye, çıtır kızartılmış domuz göbeği, domates-soğan salatası ve avokadodan oluşur.",
   "en": "A bar snack from Costa Rica, especially popular in San José's bars and cantinas, where it is often eaten with beer. It layers rice, beans, crispy fried pork, fresh tomato salsa and avocado."
  },
  "servings": 4,
@@ -26,7 +26,7 @@
    "1 olgun avokado (yaklaşık 150 g), dilim dilim",
    "100 g tortilla cipsi",
    "30 ml Salsa Lizano (Kosta Rika'ya özgü acı-ekşi sos)",
-   "1 çay kaşığı tuz (5 g), ayrıca bir tutam tuz"
+   "2,5 g tuz (1/2 çay kaşığı), ayrıca bir tutam tuz"
   ],
   "en": [
    "300 g cooked white rice",
@@ -42,7 +42,7 @@
    "1 ripe avocado (about 150 g), sliced",
    "100 g tortilla chips",
    "30 ml Salsa Lizano (a tangy Costa Rican sauce)",
-   "5 g salt (1 teaspoon), plus a pinch"
+   "2.5 g salt (1/2 teaspoon), plus a pinch"
   ]
  },
  "steps": {
@@ -69,5 +69,14 @@
   "tr": "Domuz etini tavada fazla kalabalık yapmadan kızartın; böylece çıtır kalır. Servisten hemen önce pico de gallo ve avokadoyu ekleyin ki sulanmasınlar.",
   "en": "Fry the pork in batches so it stays crisp. Add the avocado and pico de gallo just before serving so they stay fresh and do not make the dish soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'çıtır domuz kaburga derisi' (pork rib skin), but the ingredients and steps use pork belly (domuz göbeği), so the description contradicts the recipe.",
+   "Salt amounts don't match the steps: 1 tsp (5 g) is listed, but the steps only use 1/2 tsp in the beans plus two pinches."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -9,7 +9,7 @@
   "en": "A white, sauce-free flatbread sold in Rome's bakeries at almost any hour, finished with olive oil and coarse salt for a crisp edge and soft centre. It is eaten warm in the neighbourhoods around Vatican City, often in the morning or at lunchtime."
  },
  "servings": 4,
- "time_min": 90,
+ "time_min": 120,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -36,7 +36,7 @@
  "steps": {
   "tr": [
    "Ilık suyu bir kaseye alın, şekeri ve kuru mayayı ekleyip 5 dakika kenarda bekletin.",
-   "Büyük bir karıştırma kabına unu ve tuzu koyun, ortasına açın ve maya karışımını ile 30 ml zeytinyağını ekleyin.",
+   "Büyük bir karıştırma kabına unu ve tuzu koyun, ortasına açın ve maya karışımını ve 30 ml zeytinyağını ekleyin.",
    "Malzemeler birleşince hamuru 8-10 dakika yoğurun; yumuşak, elastik ve az yapışkan olmalıdır.",
    "Hamuru hafif yağlanmış bir kaseye alın, üzerini örtün ve oda sıcaklığında yaklaşık 1 saat, iki katına çıkana kadar mayalandırın.",
    "Fırını 250 °C'ye ısıtın ve 40 ml zeytinyağının bir kısmıyla geniş bir fırın tepsisini yağlayın.",
@@ -46,7 +46,7 @@
    "Fırından çıkarınca birkaç dakika dinlendirin, dilimleyip sıcak servis yapın."
   ],
   "en": [
-   "Pour the lukewarm water into a bowl, add the sugar and dry yeast, and leave for 5 minutes until foamy.",
+   "Pour the lukewarm water into a bowl, add the sugar and dry yeast, and leave for 5 minutes.",
    "Put the flour and salt in a large mixing bowl, make a well in the centre, and pour in the yeast mixture and 30 ml olive oil.",
    "Mix until the dough comes together, then knead for 8 to 10 minutes until smooth, elastic and only slightly sticky.",
    "Place the dough in a lightly oiled bowl, cover it, and let it rise at room temperature for about 1 hour, until doubled in size.",
@@ -61,5 +61,15 @@
   "tr": "Hamuru tepsiye yaydıktan sonra parmak uçlarınızla çukurlar açmak, pişerken kabarcıklı ve çıtır bir yüzey elde etmenizi sağlar.",
   "en": "Dimpling the dough with your fingertips before baking gives the bread its airy, crisp surface and helps the oil pool in the dents."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 2 has a grammar error: \"maya karışımını ile\" should be \"maya karışımını ve 30 ml zeytinyağını\" to match the English.",
+   "time_min is 90, but the steps add up to about 120 minutes (5 min + 10 min kneading + 60 min rise + 10 min rest + 15 min rise + 20 min bake).",
+   "English step 1 says \"until foamy\", but the Turkish step does not mention foaming. The English is adjusted to match the Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

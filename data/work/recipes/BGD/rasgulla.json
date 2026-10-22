@@ -5,7 +5,7 @@
  },
  "native": "রসগোল্লা",
  "desc": {
-  "tr": "Hindistan'ın doğusu ile Bangladeş'te yaygın olan, taze peynirden (chhena) yapılan ve ağır şekerli şurupta pişirilen yumuşak bir tatlıdır. Düğünlerde, bayramlarda ve misafir ağırlamada sıkça servis edilir.",
+  "tr": "Hindistan'ın doğusu ile Bangladeş'te yaygın olan, taze peynirden (chhena) yapılan ve hafif aromalı şekerli şurupta pişirilen yumuşak bir tatlıdır. Düğünlerde, bayramlarda ve misafir ağırlamada sıkça servis edilir.",
   "en": "A soft dessert made from fresh curd cheese (chhena) and simmered in lightly perfumed sugar syrup. Popular across Bangladesh and eastern India, it is served at weddings, festivals and when guests visit."
  },
  "servings": 4,
@@ -65,5 +65,13 @@
   "tr": "Peynir hamurunu yoğururken çok fazla bastırmayın; hamur sıkılırsa toplar sert olur, az yoğrulursa şurupta dağılır.",
   "en": "Knead the curd just until smooth. Overworking makes the balls tough, while under-kneading lets them break apart in the syrup."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says 'ağır şekerli şurup' (heavy sugar syrup), but the English says 'lightly perfumed sugar syrup'. The syrup is 1 L water to 400 g sugar, which is lightly sweet, so the Turkish te"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

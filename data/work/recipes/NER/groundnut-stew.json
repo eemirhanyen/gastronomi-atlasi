@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g kemikli tavuk budu (veya dana eti, küp doğranmış)",
+   "600 g kemikli tavuk budu (veya dana eti, küp doğranmış; dana eti kullanırsanız pişirme süresini 60-90 dakikaya uzatın)",
    "200 g tuzsuz yer fıstığı ezmesi",
    "60 ml sıvı yağ",
    "2 orta boy soğan (1 tanesi ince doğranmış, 1 tanesi rendelenmiş)",
@@ -29,7 +29,7 @@
    "400 g pişmiş pirinç veya tuwo, servis için"
   ],
   "en": [
-   "600 g bone-in chicken thighs (or beef, cut into cubes)",
+   "600 g bone-in chicken thighs (or beef, cut into cubes; if using beef, extend the simmering time to 60-90 minutes)",
    "200 g unsalted peanut paste",
    "60 ml vegetable oil",
    "2 medium onions (1 finely chopped, 1 grated)",
@@ -53,8 +53,8 @@
    "Rendelenmiş soğanı ve domates salçasını ekleyin, salça kokusu çıkana ve yağ ayrılana kadar 3 dakika karıştırarak pişirin.",
    "Domates püresi ve ezilmiş kuru biberi ekleyin, sosu orta ateşte koyulaşana kadar yaklaşık 10 dakika pişirin.",
    "Yer fıstığı ezmesini 200 ml sıcak suyla kaşık kaşık açarak pürüzsüz bir kıvam elde edin, ardından tencereye ekleyin ve iyice karıştırın.",
-   "Kalan sıcak suyu, tavuk suyu küpünü ve kavrulmuş tavuğu ekleyin. Kaynamaya bırakın, kısık ateşte kapağı yarı açık olarak yaklaşık 30 dakika pişirin.",
-   "Tavuk yumuşayınca ıspanağı veya pazıyı ekleyip 5 dakika daha pişirin. Tadını kontrol edip gerekirse tuz ekleyin.",
+   "Kalan sıcak suyu, tavuk suyu küpünü ve kavrulmuş tavuğu ekleyin. Kaynamaya bırakın, kısık ateşte kapağı yarı açık olarak yaklaşık 30 dakika pişirin (dana eti kullanıyorsanız 60-90 dakika pişirin).",
+   "Et yumuşayınca ıspanağı veya pazıyı ekleyip 5 dakika daha pişirin. Tadını kontrol edip gerekirse tuz ekleyin.",
    "Pişmiş pirinç veya tuwo ile sıcak servis yapın."
   ],
   "en": [
@@ -64,14 +64,23 @@
    "Add the grated onion and tomato paste and stir-fry for 3 minutes, until the paste smells cooked and the oil begins to separate.",
    "Add the blended tomatoes and crushed chilli and simmer over medium heat for about 10 minutes, until the sauce thickens.",
    "Whisk the peanut paste with 200 ml of the hot water, gradually, until smooth. Pour into the pot and stir well.",
-   "Add the remaining hot water, the stock cube and the browned chicken. Bring to a gentle boil, then simmer on low with the lid partly open for about 30 minutes.",
-   "When the chicken is tender, stir in the spinach or chard and cook for 5 more minutes. Taste and add salt if needed.",
+   "Add the remaining hot water, the stock cube and the browned chicken. Bring to a gentle boil, then simmer on low with the lid partly open for about 30 minutes (for beef, simmer 60-90 minutes).",
+   "When the meat is tender, stir in the spinach or chard and cook for 5 more minutes. Taste and add salt if needed.",
    "Serve hot with rice or tuwo."
   ]
  },
  "tip": {
-  "tr": "Yer fıstığı ezmesi yağ ayırabilir; sosu sık sık karıştırın ve kaynatmaktan kaçının ki dibi tutmasın. Daha yoğun bir kıvam için sonunda biraz daha uzun pişirin.",
+  "tr": "Yer fıstığı ezmesi yağ ayırabilir; sosu sık sık karıştırın ve kaynatmaktan kaçının ki dibi tutmasın. Daha yoğun bir kıvam için son 5 dakikada kapağı açık olarak pişirin.",
   "en": "Peanut paste can scorch on the bottom of the pot, so stir often and keep the heat low once it is added. For a thicker sauce, simmer uncovered for the final 5 minutes."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Beef substitution is listed, but the 30-minute simmer is too short to tenderize beef cubes; the step still says 'until the chicken is tender'.",
+   "The tip disagrees between languages: the English says to simmer uncovered for the final 5 minutes, while the Turkish only says to cook a bit longer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

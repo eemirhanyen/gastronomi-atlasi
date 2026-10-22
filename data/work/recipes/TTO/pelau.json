@@ -9,7 +9,7 @@
   "en": "A beloved one-pot dish of Trinidad and Tobago, pelau combines rice coloured with caramelised sugar, chicken and pigeon peas. It is eaten at Sunday lunches, family gatherings and holidays, often served with a tangy salad or chutney."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -77,5 +77,13 @@
   "tr": "Şekeri karamelize ederken tencereyi terk etmeyin; koyu ama yanmamış bir renk pilavın tipik rengini verir. Scotch bonnet biberini bütün bırakmak, aromasını verirken acılığı sınırlar.",
   "en": "Do not leave the sugar unattended while caramelising; a deep amber (not burnt) colour gives pelau its signature look. Keeping the Scotch bonnet whole adds fragrance with only gentle heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the steps add up to about 90 minutes: 30 min marinating, about 50 min of cooking (caramel, browning, onion, rice, simmering) and 10 min resting, not counting prep."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -19,7 +19,7 @@
    "2 orta boy soğan (yaklaşık 300 g), ince doğranmış",
    "4 diş sarımsak, ezilmiş",
    "2 yemek kaşığı sıvı yağ",
-   "1 tatlı kaşığı öğütülmüş kişniş tohumu... (yerine 1 tatlı kaşığı kimyon)",
+   "1 tatlı kaşığı öğütülmüş kimyon",
    "1 tatlı kaşığı öğütülmüş annatto (achiote) veya 1 tatlı kaşığı paprika",
    "1/2 tatlı kaşığı karabiber",
    "2 çay kaşığı tuz",
@@ -49,12 +49,12 @@
  },
  "steps": {
   "tr": [
-   "Islatılmış sarı bezelyeleri süzün. Bir tencerede 1 litre su, yarım soğanın yarısı ve 1 tatlı kaşık tuz ile birlikte 25 dakika haşlayın; bezelyeler yumuşayacak ama dağılmayacak. Süzün ve suyunu ayırın.",
-   "Domuz göbeği parçalarını karabiber, kimyon, annatto ve yarım çay kaşığı tuzla ovalayın. Derisi üstte kalacak şekilde 1 saat dinlendirin.",
+   "Islatılmış sarı bezelyeleri süzün. Bir tencerede 1 litre su, yarım soğan ve 1 tatlı kaşık tuz ile birlikte 25 dakika haşlayın; bezelyeler yumuşayacak ama dağılmayacak. Süzün ve suyunu ayırın.",
+   "Domuz göbeği parçalarını karabiber, kimyon, annatto veya paprika ve yarım çay kaşığı tuzla ovalayın. Derisi üstte kalacak şekilde 1 saat dinlendirin.",
    "Geniş bir tavada yağı ısıtın ve etleri deri tarafı aşağı gelecek şekilde 8-10 dakika kızartın, deri kıtır olunca çevirip 2 dakika daha pişirin. Etleri ayırın, tavadaki yağın yarısını bir kenara alın.",
    "Pirinci soğuk suyla 2 kez yıkayıp iyice süzün.",
-   "Bir tencerede kalan yağı ve ayırdığınız tavadaki yağı birlikte ısıtın. Kalan soğanı ve sarımsağı ekleyip 5 dakika yumuşayana kadar soteleyin. Annatto veya paprikayı ekleyip 30 saniye karıştırın.",
-   "Pirinci ekleyip 2 dakika kavurun. Haşlanmış bezelyeleri, ayırdığınız 500 ml sıcak suyu ve kalan tuzu ekleyin. Kapağı kapalı olarak kısık ateşte 10 dakika pişirin; pirinç yarı pişmiş olmalı.",
+   "Bir tencerede ayırdığınız yağı ısıtın. Kalan soğanı ve sarımsağı ekleyip 5 dakika yumuşayana kadar soteleyin. Annatto veya paprikayı ekleyip 30 saniye karıştırın.",
+   "Pirinci ekleyip 2 dakika kavurun. Haşlanmış bezelyeleri, ayırdığınız 500 ml sıcak suyu ve kalan 1/2 çay kaşığı tuzu ekleyin. Kapağı kapalı olarak kısık ateşte 10 dakika pişirin; pirinç yarı pişmiş olmalı.",
    "Muz yapraklarını ateşte hafifçe ısıtarak yumuşatın ve kenarlarını temizleyin. Yaprakları çapraz üst üste koyun.",
    "Yaprakların ortasına pirinç-bezelye karışımının yarısını yayın. Üzerine kızarmış domuz etlerini dizin, doğranmış kişnişin yarısını serpin ve kalan karışımı üzerine ekleyin.",
    "Yaprakları önce yanlardan, sonra üstten kapatıp sağlam bir paket yapın ve mutfak ipiyle bağlayın.",
@@ -67,7 +67,7 @@
    "Heat the oil in a wide pan and fry the pork skin side down for 8-10 minutes until crisp, then turn and cook 2 minutes more. Remove the pork and set aside half of the pan fat.",
    "Rinse the rice twice in cold water and drain well.",
    "In a pot, heat the reserved fat with the remaining onion and garlic, and cook for 5 minutes until soft. Stir in the annatto or paprika for 30 seconds.",
-   "Add the rice and toast for 2 minutes. Add the cooked peas, the 500 ml reserved hot water and the remaining salt from the peas step. Cover and simmer gently for 10 minutes; the rice should be half cooked.",
+   "Add the rice and toast for 2 minutes. Add the cooked peas, the 500 ml reserved hot water and the remaining 1/2 tsp salt. Cover and simmer gently for 10 minutes; the rice should be half cooked.",
    "Soften the banana leaves over a flame and clean their edges. Overlap two leaves in a cross shape.",
    "Spread half of the rice and pea mixture in the centre of the leaves. Place the pork pieces on top, scatter half of the chopped coriander over them, and cover with the remaining rice mixture.",
    "Fold the leaves over from the sides first, then from the top, to make a tight parcel, and tie it securely with kitchen twine.",
@@ -79,5 +79,15 @@
   "tr": "Pirinç ve bezelye yarı pişmiş kalmalı; paketin içinde buharda tamamen yumuşayacaklar, aksi halde lapa olur.",
   "en": "Keep the rice and peas slightly undercooked, as they finish softening in the steam inside the parcel; fully cooked grains will turn mushy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list gives 1 tsp 'öğütülmüş kişniş tohumu' with a stray '...' and an alternative note, while English says 1 tsp ground cumin. The two versions disagree.",
+   "Turkish step 1 says 'yarım soğanın yarısı' (a quarter onion), but the English says half of the onion.",
+   "Turkish step 6 says 'kalan tuz' and English says 'the remaining salt from the peas step', which is unclear. The remaining amount should be stated (1/2 tsp)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

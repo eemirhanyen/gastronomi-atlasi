@@ -5,7 +5,7 @@
  },
  "native": "Sorrel",
  "desc": {
-  "tr": "Kurutulmuş hibiskus çanak yapraklarıyla tarçın, karanfil ve zencefilden yapılan, Gayana'da özellikle Aralık ayında Noel döneminde ikram edilen koyu kırmızı, ekşimsi-baharatlı bir içecektir.",
+  "tr": "Kurutulmuş hibiskus çanak yapraklarıyla tarçın, karanfil ve zencefilden yapılan, Guyana'da özellikle Aralık ayında Noel döneminde ikram edilen koyu kırmızı, ekşimsi-baharatlı bir içecektir.",
   "en": "A deep red, tangy-spiced drink made from dried hibiscus calyces with ginger, cloves and cinnamon, served across Guyana especially during the Christmas season in December."
  },
  "servings": 4,
@@ -56,8 +56,17 @@
   ]
  },
  "tip": {
-  "tr": "Sorrel çiçeklerini uzun süre demlemek rengi ve ekşiliğini artırır; şekeri her zaman en son, sıcakken ekleyin.",
+  "tr": "Sorrel çanak yapraklarını uzun süre demlemek rengi ve ekşiliğini artırır; şekeri her zaman en son, sıcakken ekleyin.",
   "en": "Steeping the sorrel longer deepens both colour and tartness; always add the sugar last, while the liquid is still warm."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description misspells the country name as \"Gayana\" instead of \"Guyana\".",
+   "Turkish tip calls the sorrel \"çiçek\" (flowers), but the ingredient is the dried calyces (çanak yaprakları), so it is inconsistent with the ingredient list and English tip."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

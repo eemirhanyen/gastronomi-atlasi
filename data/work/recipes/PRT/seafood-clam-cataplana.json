@@ -62,7 +62,7 @@
    "Doğranmış domatesi, defne yaprağını, bir tutam tuz ve karabiberi ekleyin. Domatesler suyunu salıp sosa dönene kadar yaklaşık 5 dakika pişirin.",
    "Kuru beyaz şarabı dökün ve sosu 2 dakika kaynatın.",
    "Vongoleleri sosun üzerine yayın, en üste kabuklu karidesleri koyun. Kapağı sıkıca kapatın ve orta-düşük ateşte 12-15 dakika pişirin. Vongolelerin çoğu açıldığında ocaktan alın.",
-   "Açılmayan vongoleleri atın, kalan karidesleri kontrol edin. Maydanoz ve kişnişi serpin, limonun suyunu sıkın. Cataplanayı kapağıyla birlikte sofraya getirip sıcak servis yapın."
+   "Açılmayan vongoleleri atın, karideslerin pembeleşip pişmiş olduğunu kontrol edin. Maydanoz ve kişnişi serpin, limonun suyunu sıkın. Cataplanayı kapağıyla birlikte sofraya getirip sıcak servis yapın."
   ],
   "en": [
    "Soak the clams in cold salted water for 20 minutes so they release their sand, then rinse them well under running water.",
@@ -79,5 +79,13 @@
   "tr": "Kapağı kapalı tutarak pişirin; buharın kalması vongole ve karidesin yumuşak kalmasını sağlar. Kaptan yoksa ağır kapaklı geniş bir tencere kullanabilirsiniz.",
   "en": "Keep the lid closed during cooking so the steam stays inside, which keeps the clams and shrimp tender. A wide, heavy pot with a tight lid works if you do not have a cataplana."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 8 omits the English check that the shrimp are pink and cooked through; the two versions disagree on this step."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

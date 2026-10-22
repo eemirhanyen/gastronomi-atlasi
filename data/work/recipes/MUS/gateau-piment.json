@@ -5,11 +5,11 @@
  },
  "native": "Gâteau piment (Kreol: gato piman)",
  "desc": {
-  "tr": "Mauritius'ta sokak satıcılarının ve pazarların en sevilen atıştırmalıklarından biri olan, öğütülmüş sarı bezelye, acı biber ve köri yaprağıyla yapılan çıtır kızartma. Genellikle öğle arası ve akşamüstü, domates sosu veya turşuyla birlikte yenir.",
+  "tr": "Mauritius'ta sokak satıcılarının ve pazarların en sevilen atıştırmalıklarından biri olan, öğütülmüş sarı bezelye, acı biber ve köri yaprağıyla yapılan çıtır kızartma. Genellikle öğle arası ve akşamüstü, domates rougaille'i veya chutney ile birlikte yenir.",
   "en": "A crisp, deep-fried snack made from ground yellow split peas, chilies and curry leaves, sold by street vendors and at markets across Mauritius. It is usually eaten at midday or in the late afternoon, with tomato rougaille or a chutney."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 90,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -46,7 +46,7 @@
    "Derin bir tencerede yağı 180°C'ye kadar ısıtın.",
    "Ellerinizi suyla ıslatın, karışımdan cevizden biraz büyük parçalar alıp yassı, yaklaşık 4 cm çapında ve 1 cm kalınlığında köfteler şekillendirin.",
    "Köftelerleri partiler halinde, yaklaşık 4-5 dakika, bir kez çevirerek koyu altın rengi ve çıtır olana kadar kızartın.",
-   "Kağıt havlu üzerinde süzün ve sıcak sıcak domates rougaille'i veya turşu ile servis edin."
+   "Kağıt havlu üzerinde süzün ve sıcak sıcak domates rougaille'i veya chutney ile servis edin."
   ],
   "en": [
    "Rinse the split peas, put them in a pan with 1 litre of water and boil for 10 minutes.",
@@ -63,5 +63,14 @@
   "tr": "Macunu fazla pürüzsüz öğütmeyin; hafif tane tane doku, köftelerin içinin yumuşak, dışının çıtır kalmasını sağlar. Yağ sıcaklığını 180°C'de tutun, aksi halde köfteler yağı çeker.",
   "en": "Do not grind the paste completely smooth; a slightly grainy texture keeps the centre soft and the outside crisp. Keep the oil at 180°C, or the fritters will absorb too much oil."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min (60) is too short: the recipe includes 10 min boiling, a 1-hour soak, grinding and frying, which totals about 90 minutes.",
+   "Turkish uses 'turşu' (pickle) where the English says 'chutney'. 'Turşu' is not the same thing, so the Turkish text should say 'chutney' in both the description and the final step."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

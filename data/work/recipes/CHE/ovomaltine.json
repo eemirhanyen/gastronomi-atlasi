@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Ovomaltine Sıcak Çikolata",
+  "tr": "Ovomaltine Sıcak İçeceği",
   "en": "Ovomaltine Hot Drink"
  },
  "native": "Ovomaltine",
@@ -41,5 +41,13 @@
   "tr": "Tozu sıcak sütün içine küçük parçalar halinde ekleyip çırparsanız topaklanma olmaz; süt kaynarsa malt aroması acılaşabilir.",
   "en": "Add the powder in small portions while whisking to prevent lumps; if the milk boils, the malt flavour can turn bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish title calls the drink \"Sıcak Çikolata\" (hot chocolate), but the English title says \"Hot Drink\" and Ovomaltine is a malt and cocoa drink, not chocolate. The titles disagree in meaning."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

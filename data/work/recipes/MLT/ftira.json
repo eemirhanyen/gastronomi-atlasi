@@ -27,7 +27,7 @@
    "1 yemek kaşığı kapari (15 g)",
    "1 diş sarımsak",
    "1 küçük demet taze maydanoz (yaklaşık 10 g), doğranmış",
-   "1/2 çay kaşığı kuru kekik veya kekik (1 g)",
+   "1/2 çay kaşığı kuru kekik (1 g)",
    "2 g taze çekilmiş karabiber"
   ],
   "en": [
@@ -55,7 +55,7 @@
    "Ilık suyu ve 30 ml zeytinyağını ekleyip yumuşak, elastik bir hamur elde edene kadar yaklaşık 10 dakika yoğurun.",
    "Hamuru örtüp sıcak bir yerde yaklaşık 60 dakika, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
    "Fırınınızı 240°C'ye ısıtın ve içinde bir fırın tepsisi veya taş bırakın.",
-   "Hamuru iki eşit parçaya bölün. Her parçayı yassı bir daire haline getirin, ortasına parmağınızla delik açın ve yaklaşık 25 cm çapında bir halka olacak şekilde nazikçe germeden inceltin.",
+   "Hamuru iki eşit parçaya bölün. Her parçayı yassı bir daire haline getirin, ortasına parmağınızla delik açın ve nazikçe gererek yaklaşık 25 cm çapında bir halka olacak şekilde inceltin.",
    "Halkaları kağıt serili tepsiye alın, 15 dakika dinlendirin. Üzerlerine kalan zeytinyağını sürüp çatalla birkaç yerden delin.",
    "Halkaları sıcak tepside 12-15 dakika, alt kısmı altın rengi olana kadar pişirin. Fırından çıkarıp tel ızgarada soğumaya bırakın.",
    "Bu sırada soğanı ince ince doğrayın, domatesleri küp küp kesin, zeytinleri ikiye bölün, sarımsağı ezin ve maydanozu ince kıyın. Ton balığını çatalla hafifçe ezin.",
@@ -79,5 +79,14 @@
   "tr": "Gerçek ftira fırın taşında pişer; evde sıcak bir tepsi kullanmak alt kısmın çıtır olmasını sağlar. Dolguyu ekmek soğumaya başladığında koyun ki ekmek ıslanmasın.",
   "en": "Authentic ftira is baked on a stone; a preheated tray gives a similarly crisp base at home. Add the filling once the bread has cooled slightly so it does not turn soggy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 says 'nazikçe germeden inceltin' (thin without stretching), but the English says 'gently stretch it into a ring' and the target 25 cm ring needs stretching. Turkish corrected to 'nazikç",
+   "Turkish thyme ingredient reads 'kuru kekik veya kekik', which is redundant. Simplified to 'kuru kekik'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

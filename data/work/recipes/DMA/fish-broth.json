@@ -13,7 +13,7 @@
  "difficulty": "medium",
  "ingredients": {
   "tr": [
-   "600 g beyaz etli balık filetosu (lüfer, kırmızı mercan veya benzeri), parça parça doğranmış",
+   "600 g beyaz etli balık filetosu (lüfer veya kırmızı mercan gibi), parça parça doğranmış",
    "1 L su",
    "2 yemek kaşığı limon suyu (30 ml)",
    "1 yarım limon (dilimlemek için)",
@@ -23,7 +23,7 @@
    "2 dal taze kekik",
    "1 adet Scotch bonnet biber (bütün)",
    "2 yemek kaşığı sıvı yağ (30 ml)",
-   "250 g yer elması (yam), soyulmuş ve küp doğranmış",
+   "250 g yam (dağ patatesi), soyulmuş ve küp doğranmış",
    "250 g taro kökü (dasheen), soyulmuş ve küp doğranmış",
    "200 g yeşil muz, soyulmuş ve kalın halkalar halinde kesilmiş",
    "200 g balkabağı, küp doğranmış",
@@ -33,7 +33,7 @@
    "2 yemek kaşığı doğranmış maydanoz"
   ],
   "en": [
-   "600 g firm white fish fillets (snapper or kingfish), cut into bite-sized pieces",
+   "600 g firm white fish fillets (bluefish or red snapper), cut into bite-sized pieces",
    "1 L water",
    "2 tbsp lime juice (30 ml)",
    "1/2 lime (cut into wedges for serving)",
@@ -55,9 +55,9 @@
  },
  "steps": {
   "tr": [
-   "Balık parçalarını soğuk suyla yıkayın, kağıt havluyla kurulayın ve yarım limonun suyunu üzerine sıkıp 10 dakika bekletin.",
+   "Balık parçalarını soğuk suyla yıkayın, kağıt havluyla kurulayın ve 2 yemek kaşığı limon suyunu üzerine dökün; 10 dakika bekletin.",
    "Geniş bir tencerede yağı orta-yüksek ateşte ısıtın. Soğanı, sarımsağı, yeşil soğanı ve kekiği ekleyin, soğan yumuşayıp şeffaflaşana kadar 5 dakika kavurun.",
-   "Suyu ekleyip kaynatın. Yer elmasını, taroyu, yeşil muzu ve balkabağını ekleyin.",
+   "Suyu ekleyip kaynatın. Dağ patatesini, taroyu, yeşil muzu ve balkabağını ekleyin.",
    "Bütün Scotch bonnet biberi, tuzu ve karabiberi ekleyin. Biberi delmeyin, aksi halde çorba çok acılaşır.",
    "Kısık ateşte, sebzeler yumuşayana kadar yaklaşık 15 dakika pişirin.",
    "Hamur için unu, kabartma tozunu ve tuzu bir kapta karıştırın. Yavaş yavaş suyu ekleyip yumuşak bir hamur yoğurun. Cevizden biraz büyük parçalar koparıp avuçlarınızda yuvarlayın.",
@@ -66,7 +66,7 @@
    "Biberi çıkarın, tadına bakıp gerekirse tuz ekleyin. Maydanozu serpip sıcak servis yapın ve yanına limon dilimlerini koyun."
   ],
   "en": [
-   "Rinse the fish pieces in cold water, pat dry with paper towels, squeeze the lime juice over them and let them rest for 10 minutes.",
+   "Rinse the fish pieces in cold water, pat dry with paper towels, pour the 2 tbsp lime juice over them and let them rest for 10 minutes.",
    "Heat the oil in a large pot over medium-high heat. Add the onion, garlic, scallions and thyme and fry for about 5 minutes until the onion is soft and translucent.",
    "Pour in the water and bring to a boil. Add the yam, dasheen, green banana and pumpkin.",
    "Add the whole Scotch bonnet pepper, salt and black pepper. Do not pierce the pepper, or the soup will become too hot.",
@@ -81,5 +81,15 @@
   "tr": "Scotch bonnet biberi bütün halde pişirin ve çıkarırken dikkatli olun; aroma verir ama acısını kontrol altında tutar.",
   "en": "Keep the Scotch bonnet whole so it flavours the broth without overwhelming it; remove it before serving."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Fish species mismatch: Turkish lists lüfer and kırmızı mercan, English lists snapper and kingfish (kingfish is not lüfer).",
+   "Lime juice source is unclear: the ingredient list calls for 2 tbsp juice, but step 1 squeezes only half a lime, and that same half lime is also listed for serving wedges.",
+   "Turkish 'yer elması' normally means Jerusalem artichoke, not yam. The yam should be called 'dağ patatesi' in Turkish."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

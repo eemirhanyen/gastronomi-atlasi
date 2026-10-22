@@ -19,11 +19,11 @@
    "4 yumurta",
    "200 g pak choi (ya da bok choy)",
    "2 yemek kaşığı bitkisel yağ",
-   "4 kuru soğan (yaklaşık 80 g), ince dilimlenmiş",
+   "4 arpacık (yaklaşık 80 g), ince dilimlenmiş",
    "4 diş sarımsak, hafifçe ezilmiş",
    "10 g taze zencefil, 3 dilim",
    "60 ml pirinç şarabı (Shaoxing) ya da kuru sherry",
-   "60 ml koyu soya sosu... yerine 60 ml açık soya sosu",
+   "60 ml açık soya sosu",
    "1 yemek kaşığı koyu soya sosu",
    "15 g esmer şeker ya da 30 g kaya şekeri",
    "2 yıldız anason",
@@ -59,7 +59,7 @@
    "Yumurtaları 9 dakika kaynayan suda haşlayın, soğuk suya alıp kabuklarını soyun.",
    "Tencerede bir litre kaynar suya bir tutam tuz ekleyin, pak choi'yi 1 dakika haşlayıp süzün ve kenara alın.",
    "Domuz etini 2 dakika kaynayan suda haşlayın, süzün ve suyla durulayıp kurulayın.",
-   "Geniş bir tencerede 2 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Kuru soğanları altın rengi alana kadar yaklaşık 5 dakika kavurun.",
+   "Geniş bir tencerede 2 yemek kaşığı yağı orta-yüksek ateşte ısıtın. Arpacıkları altın rengi alana kadar yaklaşık 5 dakika kavurun.",
    "Sarımsak ve zencefili ekleyip 1 dakika kokusu çıkana kadar kavurun.",
    "Domuz etini ekleyin ve yağı eriyip et kenarları renk alana kadar 3-4 dakika karıştırarak kavurun.",
    "Pirinç şarabını ekleyip alkolü hafifçe uçurun. Açık ve koyu soya sosunu, şekeri, yıldız anasonu, tarçını ve sıcak suyu ekleyin.",
@@ -87,5 +87,14 @@
   "tr": "Domuz göbeğini biraz yağlı bırakın; pişince yağ erir ve sosa tatlı bir zenginlik katar. Sosu bir gece önceden yapıp ertesi gün ısıtmak lezzeti daha da derinleştirir.",
   "en": "Keep the pork belly fatty; the fat melts into the sauce and gives it richness. Making the braise a day ahead and reheating it deepens the flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line for light soy sauce is garbled (\"60 ml koyu soya sosu... yerine 60 ml açık soya sosu\"). The English says 60 ml light soy sauce, so the Turkish should state that directly.",
+   "Turkish uses \"kuru soğan\" (dried onion) for shallots, which is the wrong term. The Turkish word for shallot is \"arpacık\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

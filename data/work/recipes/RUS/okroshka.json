@@ -68,8 +68,16 @@
   ]
  },
  "tip": {
-  "tr": "Kvası ve maden suyunu servisten hemen önce ekleyin; böylece sebzeler gevrek kalır ve çorba fazla sulanmaz.",
-  "en": "Add the kvass and mineral water just before serving so the vegetables stay crisp and the soup doesn't become watery."
+  "tr": "Kvası ve maden suyunu servisten kısa bir süre önce ekleyin; böylece sebzeler gevrek kalır ve çorba fazla sulanmaz.",
+  "en": "Add the kvass and mineral water shortly before serving so the vegetables stay crisp and the soup doesn't become watery."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Tip says to add kvass and mineral water 'just before serving', but steps 7-8 add them and then chill for 20-30 minutes before serving. The tip should match the actual sequence."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

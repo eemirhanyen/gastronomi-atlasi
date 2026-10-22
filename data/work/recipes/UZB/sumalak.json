@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "400 g tam buğday tanesi (filizlendirilmiş)",
-   "1 L su (blendır için)",
+   "1 L su (blender için)",
    "150 g buğday unu",
    "500 ml su (un karışımı için)",
    "6 g tuz",
@@ -37,7 +37,7 @@
    "Ayrı bir kapta buğday unu ile 500 ml suyu topaksız bir kıvam alana kadar iyice karıştırın.",
    "Un karışımını tencerendeki buğday sıvısına ekleyip tuzu ilave edin ve orta ateşte, sürekli karıştırarak kaynamaya başlatın.",
    "Ateşi kısın ve yaklaşık 3 saat boyunca sürekli karıştırarak pişirin; karışım koyulaşıp kahverengimsi, yapışkan ve kaşıkta ağır bir kıvama gelene kadar devam edin.",
-   "Sumalakı sıcak kaselere alın, ayrı bir tabakta şekerle birlikte servis edin ve isteyen herkes şekeri üzerine serpip yesin."
+   "Sumalağı sıcak kaselere alın, ayrı bir tabakta şekerle birlikte servis edin ve isteyen herkes şekeri üzerine serpip yesin."
   ],
   "en": [
    "Soak the wheat grains in water for 12 hours, drain them, then keep them in a jar covered with a clean cloth for 3–4 days, rinsing twice daily, until the sprouts are about 2–3 cm long.",
@@ -53,5 +53,14 @@
   "tr": "Karışım dibe yapışmasın diye pişirme boyunca sürekli karıştırın; kalın tabanlı bir tencere kullanmak bu işi çok kolaylaştırır.",
   "en": "Use a heavy-bottomed pot and stir almost continuously, since the paste scorches easily; sprouting only works well in warm, dark conditions, so start the grains a few days before you plan to cook."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient typo: 'blendır' should be 'blender' (Turkish spelling).",
+   "Turkish step 7: 'Sumalakı' is incorrect accusative; the k softens to ğ, giving 'sumalağı'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

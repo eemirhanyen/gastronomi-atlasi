@@ -9,7 +9,7 @@
   "en": "Cholent is a slow-cooked stew of beef, beans, barley and potatoes, prepared on Friday before Shabbat and kept warm until Saturday lunch. It is eaten across Israel in Ashkenazi and Sephardi Jewish households, where cooks traditionally cook it overnight at low heat."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 720,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -68,12 +68,21 @@
    "Nestle the whole eggs in their shells among the ingredients.",
    "Add the water so everything is covered, stir gently, and bring to a boil. Skim off any foam from the surface.",
    "Cover with a lid, place in the oven and cook for 10-12 hours. Do not stir during cooking or lift the lid.",
-   "Before serving, peel and halve the eggs. Serve hot with the beef, beans, barley and potatoes."
+   "Before serving, peel and halve the eggs. Serve hot with the beef, beans, barley, potatoes and eggs."
   ]
  },
  "tip": {
   "tr": "Şolent'in geleneksel lezzeti için fırında uzun süre pişirmek önemlidir; fasulye ve arpa kremsi bir kıvam alır. Pişirme sırasında tencereyi açmayın ki ısı dengesi bozulmasın.",
   "en": "Long, low cooking is what gives cholent its creamy texture, so keep the lid on and resist stirring. Prepare it before Shabbat begins and reheat gently if needed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "time_min is 60, but the recipe requires 10-12 hours of oven cooking (plus overnight soaking), so the total time is badly understated",
+   "English final step omits the eggs, while the Turkish version serves them with the stew"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

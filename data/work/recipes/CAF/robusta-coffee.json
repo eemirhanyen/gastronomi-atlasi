@@ -33,7 +33,7 @@
    "Kahveyi taşırmadan, yaklaşık 3 dakika kısık ateşte hafifçe kaynatın.",
    "Tencereyi ocaktan alın ve telveler dibe çökene kadar yaklaşık 2 dakika bekleyin.",
    "Kahveyi ince elekten veya temiz bir bezden süzerek fincanlara alın.",
-   "Sıcak servis yapın. İsteğe bağlı olarak her fincana birer tatlı kaşığı (yaklaşık 15 ml) yoğunlaştırılmış süt ekleyip karıştırarak için."
+   "Sıcak servis yapın. İsteğe bağlı olarak her fincana birer yemek kaşığı (yaklaşık 15 ml) yoğunlaştırılmış süt ekleyip karıştırarak için."
   ],
   "en": [
    "Pour the water into a small pot and bring it to a boil over medium-high heat, about 4 minutes.",
@@ -49,5 +49,13 @@
   "tr": "Robusta kahvesi daha koyu ve sert bir tada sahiptir; kahveyi taze öğütmek ve süzgeci iyi kullanmak, telvesiz ve dengeli bir içecek elde etmenizi sağlar.",
   "en": "Robusta has a darker, harsher flavor than arabica, so grinding it fresh and straining carefully gives a smoother cup with no grounds left behind."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"tatlı kaşığı (yaklaşık 15 ml)\", but a tatlı kaşığı is about 10 ml. 15 ml is a yemek kaşığı, which matches the English \"one tablespoon\" and the 60 ml total across 4 servings."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

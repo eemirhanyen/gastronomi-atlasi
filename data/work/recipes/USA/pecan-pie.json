@@ -8,7 +8,7 @@
   "tr": "Amerika Birleşik Devletleri'nin güneyinde, özellikle Teksas ve Louisiana'da yaygın olan, karamelize şeker-şurup iç harcına gömülü kavrulmuş pekan cevizlerinden yapılan geleneksel bir tatlıdır. Şükran Günü ve Noel sofralarında servis edilir.",
   "en": "A traditional dessert from the American South, especially Texas and Louisiana, made of toasted pecans set in a sweet caramel-like filling of brown sugar and corn syrup. It is a classic on Thanksgiving and Christmas tables."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 95,
  "difficulty": "easy",
  "ingredients": {
@@ -43,7 +43,7 @@
   "tr": [
    "Un, toz şeker ve tuzu geniş bir kaseye koyup karıştırın. Soğuk tereyağı küplerini parmak uçlarınızla unun içine ovalayarak kum kıvamına getirin.",
    "Soğuk suyu azar azar ekleyip hamur bir araya gelene kadar yoğurun. Hamuru bastırarak disk şekline getirin, streçle sarın ve buzdolabında en az 30 dakika dinlendirin.",
-   "Fırını 180°C'ye ısıtın. Hamuru 3 mm kalınlığında açın ve 20 cm'lik bir tart kalıbına yerleştirin, kenarlarını düzgünce kesin.",
+   "Fırını 175°C'ye ısıtın. Hamuru 3 mm kalınlığında açın ve 20 cm'lik bir tart kalıbına yerleştirin, kenarlarını düzgünce kesin.",
    "Hamurun tabanını çatalla delin, üzerine pişirme kağıdı ve kuru bakliyat ya da ağırlık koyarak 15 dakika kör pişirin. Ağırlıkları ve kağıdı çıkarıp 5 dakika daha pişirin, sonra bir kenara alın.",
    "Pekan cevizlerini kuru bir tavada orta ateşte 5-6 dakika, sık sık karıştırarak hafifçe kavurun. Tamamen soğumaya bırakın.",
    "Büyük bir kapta koyu kahverengi şekeri, mısır şurubunu, çırpılmış yumurtayı, eritilmiş tereyağını, vanilya özütünü ve tuzu pürüzsüz olana kadar çırpın.",
@@ -54,7 +54,7 @@
   "en": [
    "In a large bowl, mix the flour, caster sugar and salt. Rub the cold butter cubes into the flour with your fingertips until the mixture resembles coarse sand.",
    "Gradually add the cold water and mix until the dough comes together. Flatten into a disc, wrap in cling film and chill for at least 30 minutes.",
-   "Heat the oven to 180°C. Roll out the dough to about 3 mm thick, line a 20 cm tart tin, and trim the edges neatly.",
+   "Heat the oven to 175°C. Roll out the dough to about 3 mm thick, line a 20 cm tart tin, and trim the edges neatly.",
    "Prick the base with a fork, line with baking paper and fill with baking beans or dried pulses. Blind bake for 15 minutes, then remove the paper and beans and bake for 5 minutes more. Set aside.",
    "Toast the pecan halves in a dry pan over medium heat for 5-6 minutes, stirring often. Leave them to cool completely.",
    "In a large bowl, whisk the dark brown sugar, corn syrup, beaten egg, melted butter, vanilla extract and salt until smooth.",
@@ -67,5 +67,15 @@
   "tr": "Pekan cevizlerini kavurmak tadını belirgin şekilde derinleştirir; ayrıca pişirme sırasında kabuğun ıslanmasını önlemek için hamuru kör pişirmeyi ihmal etmeyin.",
   "en": "Toasting the pecans deepens their flavour considerably, and blind baking the crust prevents it from turning soggy under the wet filling."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) don't match a 20 cm tart made from 150 g flour and a full pecan filling, which typically yields about 8 portions.",
+   "Oven is preheated to 180°C in step 3 but the filling is baked at 175°C in step 8 with no instruction to change the temperature (both language versions).",
+   "The filling (50 g sugar, 1 egg, 60 ml syrup) is light for a 20 cm tart, but it is not unsafe or incorrect, so only the serving count was adjusted."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

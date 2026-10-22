@@ -15,7 +15,7 @@
   "tr": [
    "2 adet 400 g'lık konserve kırmızı barbunya (kırmızı fasulye), süzülmüş (sıvısı 200 ml ayrılmış)",
    "30 ml sıvı yağ",
-   "1 tatlı kaşığı (yaklaşık 2 g) achiote tohumu (kırmızı kişniş tohumu / annatto)",
+   "1 tatlı kaşığı (yaklaşık 2 g) achiote (annatto) tohumu",
    "100 g kuru soğan, ince doğranmış",
    "120 g yeşil dolmalık biber (ya da cubanelle biberi), küçük küp doğranmış",
    "3 diş sarımsak, ezilmiş",
@@ -24,7 +24,7 @@
    "150 g olgun domates, rendelenmiş veya küçük doğranmış",
    "15 g domates salçası",
    "150 g balkabağı (ya da kabak), soyulmuş ve 2 cm küp doğranmış",
-   "1 tatlı kaşığı (yaklaşık 2 g) kurutulmuş kekik (oregano)",
+   "1 tatlı kaşığı (yaklaşık 2 g) kurutulmuş oregano (kekik)",
    "1 tatlı kaşığı (yaklaşık 2 g) öğütülmüş kimyon",
    "5 g tuz (tadına göre ayarlayın)",
    "½ tatlı kaşığı (yaklaşık 1 g) karabiber",
@@ -71,5 +71,14 @@
   "tr": "Kuru kırmızı fasulye kullanacaksanız, gece suda bekletip yumuşayana kadar haşlayın ve bu suyu ayrılan sıvı yerine kullanın.",
   "en": "If using dried red beans, soak them overnight, boil until tender, and use their cooking liquid in place of the reserved can liquid."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient mislabels annatto/achiote seeds as 'kırmızı kişniş tohumu', which means coriander seed and could lead to the wrong spice being bought",
+   "Turkish labels the dried herb 'kekik (oregano)', but 'kekik' normally means thyme while the English says oregano"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -5,7 +5,7 @@
  },
  "native": "قوزي",
  "desc": {
-  "tr": "Irak'ta bayram, düğün ve misafir sofralarının başlıca yemeği olan Kuzi, baharatla yavaş pişirilmiş kuzu eti ile kuş üzümü ve kavrulmuş badem, çam fıstığıyla süslenmiş pirinç pilavının birlikte servis edilmesidir. Kuzu eti sosunda yumuşayınca pilavla birlikte büyük tepsilerde sunulur.",
+  "tr": "Irak'ta bayram, düğün ve misafir sofralarının başlıca yemeği olan Kuzi, baharatla yavaş pişirilmiş kuzu eti ile kuru üzüm ve kavrulmuş badem, çam fıstığıyla süslenmiş pirinç pilavının birlikte servis edilmesidir. Kuzu eti sosunda yumuşayınca pilavla birlikte büyük tepsilerde sunulur.",
   "en": "Quzi is a festive dish of Iraq, served at weddings, Eid celebrations and when guests are welcomed. Lamb is slow-braised with warm spices until tender, then served on a bed of fragrant rice topped with toasted nuts, raisins, fried onions and boiled eggs."
  },
  "servings": 4,
@@ -16,7 +16,7 @@
    "1 kg kemikli kuzu omuz eti, 6-8 parçaya bölünmüş",
    "2 orta boy soğan, ince doğranmış",
    "1 büyük soğan, ince dilimlenmiş (kızartmak için)",
-   "3 yemek kaşığı sıvı yağ veya sade yağ",
+   "6 yemek kaşığı sıvı yağ veya sade yağ (3 yemek kaşığı et, 3 yemek kaşığı soğan için)",
    "1 çay kaşığı öğütülmüş kimyon",
    "1/2 çay kaşığı öğütülmüş kakule",
    "1/2 çay kaşığı tarçın",
@@ -36,7 +36,7 @@
    "1 kg bone-in lamb shoulder, cut into 6-8 pieces",
    "2 medium onions, finely chopped",
    "1 large onion, thinly sliced (for frying)",
-   "3 tbsp neutral oil or ghee",
+   "6 tbsp neutral oil or ghee (3 tbsp for the meat, 3 tbsp for the onion)",
    "1 tsp ground cumin",
    "1/2 tsp ground cardamom",
    "1/2 tsp ground cinnamon",
@@ -85,5 +85,14 @@
   "tr": "Pirinci pişirmeden önce tencerenin dibine bir kat kızartılmış soğan ve tereyağı yerleştirmek, tabanda altın rengi bir tabaka (tahdig) oluşturur ve pilavın altına servis edilebilir.",
   "en": "For a golden crust (tahdig-style) on the bottom of the rice, press a thin layer of butter and a few fried onion slices into the pot before adding the rice, then unmould it onto the platter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Oil is double-counted: the ingredient list gives 3 tbsp total, but step 2 uses oil to brown the lamb and step 6 uses '3 yemek kaşığı yağ' again to fry the onion. The quantity should be 6 tbsp (3 for t",
+   "Turkish description says 'kuş üzümü', which means bird cherry or currant, not raisins. The ingredient list and steps use 'kuru üzüm', so the description should say 'kuru üzüm'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

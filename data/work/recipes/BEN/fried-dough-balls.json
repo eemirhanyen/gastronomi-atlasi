@@ -18,7 +18,7 @@
    "40 g toz şeker",
    "7 g instant maya (1 paket)",
    "2 g tuz",
-   "1 g öğütülmüş hindistancevizi (küçük bir tutam)",
+   "1 g öğütülmüş muskat (küçük bir tutam)",
    "600 ml kızartma yağı (kanola veya ayçiçek yağı)"
   ],
   "en": [
@@ -33,11 +33,11 @@
  },
  "steps": {
   "tr": [
-   "Büyük bir kapta un, şeker, instant maya, tuz ve öğütülmüş hindistancevizini karıştırın.",
+   "Büyük bir kapta un, şeker, instant maya, tuz ve öğütülmüş muskatı karıştırın.",
    "Ilık suyu ekleyip yumuşak, yapışkan bir hamur elde edene kadar elinizle yoğurun.",
    "Kabı temiz bir bezle örtün ve hamur iki katına çıkana kadar sıcak bir yerde yaklaşık 40 dakika bekletin.",
    "Hamuru hafifçe yağlanmış ellerinizle cevizden biraz büyük toplar halinde şekillendirin.",
-   "Geniş bir tencerede yağı 175 °C'ye kadar ısıtın. Yağ yoksa bir parça hamuru atarak kontrol edin; hamur hemen köpürüp yüzeye çıkmalı.",
+   "Geniş bir tencerede yağı 175 °C'ye kadar ısıtın. Termometreniz yoksa bir parça hamuru atarak kontrol edin; hamur hemen köpürüp yüzeye çıkmalı.",
    "Hamur toplarını birkaç seferde yağa atın ve kenarları eşit kızarana kadar yaklaşık 3-4 dakika kızartın. Tencerede fazla kalabalık olmamasına dikkat edin.",
    "Topları delikli kaşıkla alıp kağıt havlu serilmiş bir tabağa koyarak fazla yağını süzün.",
    "Sıcak sıcak servis yapın."
@@ -57,5 +57,14 @@
   "tr": "Topları yağa atmadan önce elinizi hafifçe yağlayın; hamur yapışmaz ve toplar daha düzgün şekil alır.",
   "en": "Lightly oil your hands before shaping the balls so the dough does not stick and the balls keep a neat round shape."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish uses 'öğütülmüş hindistancevizi' (coconut) for nutmeg; the English says nutmeg. Turkish should say 'muskat'.",
+   "Turkish step 5 says 'Yağ yoksa' ('if there is no oil'), but the English says 'If you have no thermometer'. The Turkish should refer to a thermometer."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

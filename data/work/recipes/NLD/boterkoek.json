@@ -8,7 +8,7 @@
   "tr": "Hollanda'nın geleneksel tereyağlı kek çeşnisi olan boterkoek, kıtır kenarları ve yoğun, tereyağlı içiyle genellikle kahve veya çayla, öğleden sonra atıştırmalığı olarak yenir.",
   "en": "Boterkoek is a traditional Dutch butter cake with crisp edges and a dense, buttery crumb. It is usually eaten with coffee or tea as an afternoon snack, especially in the Netherlands and Flanders."
  },
- "servings": 4,
+ "servings": 8,
  "time_min": 60,
  "difficulty": "easy",
  "ingredients": {
@@ -64,8 +64,17 @@
   ]
  },
  "tip": {
-  "tr": "Tereyağını gerçekten yumuşak ama erimiş olmayan halde kullanın; bu, kekin yoğun ve kumlu bir doku kazanmasını sağlar.",
+  "tr": "Tereyağını gerçekten yumuşak ama erimiş olmayan halde kullanın; bu, kekin yoğun ve kumlu bir doku kazanmasını sağlar. Hamuru kalıba bastırmadan önce 15 dakika buzdolabında dinlendirmek, yayılmasını kolaylaştırır.",
   "en": "Use butter that is soft but not melted; this gives the cake its dense, sandy texture. Chilling the dough for 15 minutes makes it easier to press into the tin."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings is 4, but the batter (about 800 g) fills a 22 cm tin and yields roughly 8 slices; servings should be 8.",
+   "The Turkish tip omits the sentence about chilling the dough for 15 minutes, which the English tip includes."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

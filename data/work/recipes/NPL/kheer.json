@@ -9,7 +9,7 @@
   "en": "A slow-cooked rice pudding of milk, cardamom and saffron, served in Nepal at festivals, weddings and religious ceremonies. It is often offered to guests on special occasions."
  },
  "servings": 4,
- "time_min": 60,
+ "time_min": 70,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
@@ -38,7 +38,7 @@
    "Pirinci soğuk suyla 2–3 kez yıkayın, ardından 100 ml suda 20 dakika bekletin ve süzün.",
    "Sütü kalın tabanlı bir tencerede orta ateşte kaynatın.",
    "Süzülmüş pirinci kaynayan sütün içine ekleyin, ateşi kısın ve kapağı aralık bırakarak yaklaşık 35–40 dakika, sık sık karıştırarak pişirin; tencerenin dibine yapışmamasına dikkat edin.",
-   "Pirinç yumuşayıp kıvam aldığında, bir kepçe sıcak sütü küçük bir kaseye alın, içine safranı koyun ve rengi açılana kadar bekletin.",
+   "Pirinç yumuşayıp kıvam aldığında, yaklaşık 2 yemek kaşığı sıcak sütü küçük bir kaseye alın, içine safranı koyun ve rengi açılana kadar bekletin.",
    "Şekeri, ezilmiş kakuleyi ve safranlı sütü tencereye ekleyin, 5 dakika daha karıştırarak pişirin.",
    "Bademi ve kuru üzümü ekleyip ocaktan alın.",
    "Kheer'i ılık ya da soğutulmuş olarak küçük kaselerde servis edin."
@@ -57,5 +57,14 @@
   "tr": "Sütün tencerenin dibine yapışmaması için pişirme sırasında sık karıştırın ve ateşi düşük tutun; kıvamı tatlı soğurken biraz daha koyulaşacağı için biraz daha akışkan bırakın.",
   "en": "Stir often and keep the heat low so the milk does not scorch; the pudding thickens as it cools, so finish it slightly looser than you want it to be."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 says 'bir kepçe' (one ladle) of hot milk, but the English says about 2 tablespoons. The amounts disagree, and a ladle holds much more than 2 tablespoons.",
+   "time_min is 60, but the steps add up to about 65–70 minutes including the 20-minute soak and the 40 + 5 minutes of cooking."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

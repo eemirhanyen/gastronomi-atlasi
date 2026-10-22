@@ -9,11 +9,11 @@
   "en": "A traditional Irish main course of boiled cured bacon served with soft potatoes, cabbage and a buttery parsley sauce. It is especially associated with St Patrick's Day and Sunday family meals."
  },
  "servings": 4,
- "time_min": 110,
+ "time_min": 140,
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "1,2 kg tuzlu (tütsülenmemiş) sırt domuz pastırması veya omuz parçası",
+   "1,2 kg tuzlu (tütsülenmemiş) sırt domuz eti veya omuz parçası",
    "2 litre soğuk su (haşlama için)",
    "1 orta boy soğan, dörde bölünmüş",
    "2 havuç, kabaca doğranmış",
@@ -47,10 +47,10 @@
   "tr": [
    "Domuz etini soğuk suyla iyice durulayın. Çok tuzlu olduğunu düşünüyorsanız 2 saat soğuk suda bekletin ve suyunu bir iki kez değiştirin.",
    "Eti büyük bir tencereye alın, 2 litre soğuk suyla kaplayın ve yavaşça kaynatın. Yüzeyde biriken köpüğü alın.",
-   "Soğan, havuç, defne yaprakları ve karabiber tanelerini ekleyin. Tencereyi kapatmadan, çok hafif kaynayacak şekilde (yaklaşık 90 °C) 75 dakika pişirin.",
+   "Soğan, havuç, defne yaprakları ve karabiber tanelerini ekleyin. Tencereyi kapatmadan, çok hafif kaynayacak şekilde (yaklaşık 90 °C) yaklaşık 2 saat (1,2 kg için) pişirin; et yumuşayana ve merkez sıcaklığı en az 70 °C olana kadar devam edin.",
    "Patatesleri soyup dörde bölün. Ayrı bir tencerede tuzlu suda 20 dakika haşlayın, suyunu süzün ve kapağı açık bırakıp buharda kurumaya bırakın.",
    "Pişirmenin son 15 dakikasında lahana parçalarını domuz etinin suyuna ekleyin ve yumuşayana kadar pişirin. Sonra lahanayı süzün ve sıcak tutun.",
-   "Et hazır olduğunda tencereden çıkarın ve 10 dakika dinlendirin. Sıvıdan yaklaşık 300 ml ayırın; sos için kullanacaksınız.",
+   "Et hazır olduğunda tencereden çıkarın ve 10 dakika dinlendirin. Sıvıdan yaklaşık 100 ml ayırın; sos için kullanacaksınız.",
    "Küçük bir tencerede tereyağını eritin, unu ekleyip 1 dakika karıştırarak pişirin. Sürekli karıştırarak sütü ve ayırdığınız 100 ml pişirme suyunu yavaş yavaş ekleyin. Sos pürüzsüz ve kıvamlı olana kadar pişirin.",
    "Maydanozu sosa ekleyin, tuz ve karabiberle tatlandırın.",
    "Eti ince dilimleyin, patates ve lahanayla birlikte sıcak servis yapın. Üzerine maydanozlu sosu gezdirin."
@@ -58,10 +58,10 @@
   "en": [
    "Rinse the bacon well under cold water. If you think it is very salty, soak it in cold water for 2 hours, changing the water once or twice.",
    "Place the bacon in a large pot, cover with 2 litres of cold water and bring slowly to the boil. Skim off any foam from the surface.",
-   "Add the onion, carrots, bay leaves and peppercorns. Without a lid, simmer very gently (around 90 °C) for 75 minutes.",
+   "Add the onion, carrots, bay leaves and peppercorns. Without a lid, simmer very gently (around 90 °C) for about 2 hours (for a 1.2 kg joint), until the bacon is tender and reaches at least 70 °C at the centre.",
    "Peel the potatoes and cut them into quarters. Boil them in a separate pot of salted water for 20 minutes, then drain and leave uncovered to steam dry.",
    "In the last 15 minutes of cooking the bacon, add the cabbage quarters to the cooking liquid and simmer until tender. Drain and keep warm.",
-   "When the bacon is cooked, lift it out and rest it for 10 minutes. Set aside about 300 ml of the cooking liquid for the sauce.",
+   "When the bacon is cooked, lift it out and rest it for 10 minutes. Set aside about 100 ml of the cooking liquid for the sauce.",
    "Melt the butter in a small saucepan, stir in the flour and cook for 1 minute. Gradually whisk in the milk and 100 ml of the reserved cooking liquid, stirring constantly, until smooth and thickened.",
    "Stir the chopped parsley into the sauce and season with salt and black pepper.",
    "Slice the bacon thinly and serve hot with the potatoes and cabbage, spooning the parsley sauce over the top."
@@ -71,5 +71,16 @@
   "tr": "Domuz etini pişirdiğiniz suyu atmayın; sosun tadını ve kıvamını zenginleştirir. Tuzlu etin tuzluluğunu kontrol etmek için sosa tuz eklemeden önce mutlaka tadına bakın.",
   "en": "Keep the cooking liquid, as it adds flavour and body to the sauce. Taste before adding any salt, since cured bacon is often salty enough on its own."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Bacon cooking time (75 min) is likely too short for a 1.2 kg joint, and no doneness check is given, so the meat could be undercooked.",
+   "time_min (110) no longer matches the revised cooking time.",
+   "Step 6 sets aside about 300 ml of cooking liquid, but step 7 uses only 100 ml, which is inconsistent.",
+   "Turkish 'pastırma' normally means air-dried cured beef (pastrami), so 'sırt domuz pastırması' is a wrong term for back bacon. 'Tuzlu sırt domuz eti' is the correct term."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

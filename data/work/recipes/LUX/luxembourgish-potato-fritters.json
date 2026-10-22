@@ -1,6 +1,6 @@
 {
  "name": {
-  "tr": "Gromperekichelcher (Patates gözlemesi)",
+  "tr": "Gromperekichelcher (Patates krepi)",
   "en": "Gromperekichelcher (Luxembourgish Potato Fritters)"
  },
  "native": "Gromperekichelcher",
@@ -65,5 +65,13 @@
   "tr": "Hamuru hazırladıktan sonra beklemeden kızartın; rendelenmiş patates kararır ve yeniden su salar, bu da hamuru dağıtır.",
   "en": "Fry the batter straight after mixing; grated potato darkens and releases more water if it sits, which makes the fritters fall apart."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "The Turkish name \"Patates gözlemesi\" mislabels the dish. Gözleme is a specific Turkish thin stuffed flatbread, not a potato fritter. The Turkish description already calls it \"patates krepi\", so the na"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

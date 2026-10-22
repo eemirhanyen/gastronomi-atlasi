@@ -80,7 +80,7 @@
    "Kırık pirinci bol soğuk suda, su berraklaşana kadar 3-4 kez yıkayın. 30 dakika su içinde bekletin, ardından süzün.",
    "Pirinci tencereye alın, 500 ml su, 1 çay kaşığı tuz ve 1 tatlı kaşığı yağ ekleyin. Kapağı kapatıp kısık ateşte yaklaşık 15-18 dakika pişirin. Ocaktan alın ve kapağı kapalı halde 10 dakika dinlendirin.",
    "Domuz etini ince dilimler halinde hazırlayın. Ezilmiş sarımsak, kıyılmış limon otu, arpacık soğanı, balık sosu, toz şeker, 1 yemek kaşığı yağ ve karabiberle birlikte bir kapta iyice yoğurun. En az 30 dakika, tercihen bir gece buzdolabında marine edin.",
-   "Pirinçten sonra turşuyu hazırlayın. Havuç ve turbu tuz, 25 g şeker, sirke ve 80 ml suyla karıştırın. Yaklaşık 20 dakika bekletip suyunu hafifçe sıkın.",
+   "Pirinçten sonra turşuyu hazırlayın. Havuç ve turpu tuz, 25 g şeker, sirke ve 80 ml suyla karıştırın. Yaklaşık 20 dakika bekletip suyunu hafifçe sıkın.",
    "Sos için toz şekeri ılık suda eritin. Balık sosu, limon suyu, sarımsak ve kırmızı biberi ekleyip karıştırın. Tadını dengeleyin: fazla tatlıysa limon, fazla tuzluysa su ekleyin.",
    "Izgara tavasını ya da ızgarayı çok yüksek ateşte ısıtın. Marine domuz etini her iki yüzü 3-4 dakika olacak şekilde, kenarları karamelize olana kadar pişirin. İç sıcaklığı 70°C'ye ulaşmalıdır.",
    "Yumurtaları 2 yemek kaşığı yağda, kenarları çıtır ama sarısı akışkan kalacak şekilde ceviz boyutunda sahanda pişirin.",
@@ -101,5 +101,13 @@
   "tr": "Pirinci pişirmeden önce iyice yıkamak, pilavın yapışkan olmasını önler; kırık pirinç yoksa uzun taneli yasemin pirinci kullanabilirsiniz.",
   "en": "Rinse the rice thoroughly before cooking to prevent a gummy texture; if broken rice is unavailable, jasmine rice works well."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 4 has a typo: \"turbu\" should be \"turpu\" (daikon)."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

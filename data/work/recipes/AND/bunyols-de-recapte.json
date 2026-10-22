@@ -46,8 +46,8 @@
    "Yumurtaları, mayalı sütü ve eritilmiş tereyağını ekleyin. Hamur pürüzsüz ve yapışkan olmayana kadar yaklaşık 8-10 dakika yoğurun.",
    "Hamuru üzerini örtüp sıcak bir yerde 45-60 dakika, hacmi iki katına çıkana kadar mayalanmaya bırakın.",
    "Hamuru ele yapışmayan bir yüzeyde hafifçe bastırıp küçük parçalara bölün. Her parçayı yaklaşık 3 cm çapında top haline getirin ve 10 dakika dinlendirin.",
-   "Kızartma yağını 170 °C'ye ısıtın. Topları gruplar halinde, ara sıra çevirerek 3-4 dakika altın rengi olana kadar kızartın.",
-   "Kızartılan topları kağıt havluya alarak yağını süzün. Ilıkken üzerine öğütülmemiş 50 g toz şekeri serpin ve sıcak servis yapın."
+   "Kızartma yağını 170 °C'ye ısıtın. Topları gruplar halinde, ara sıra çevirerek 4-5 dakika altın rengi olana kadar kızartın.",
+   "Kızartılan topları kağıt havluya alarak yağını süzün. Ilıkken üzerine 50 g toz şekeri serpin ve sıcak servis yapın."
   ],
   "en": [
    "Warm the milk to 35-40 °C, then stir in the dried yeast and 1 teaspoon of the caster sugar. Leave for 10 minutes until frothy.",
@@ -55,7 +55,7 @@
    "Add the eggs, the yeasted milk and the melted butter. Knead for about 8-10 minutes until the dough is smooth and no longer sticky.",
    "Cover the dough and leave it in a warm place for 45-60 minutes, until it has doubled in size.",
    "Gently press the dough down on a lightly floured surface and divide it into small pieces. Roll each piece into a ball about 3 cm across and rest them for 10 minutes.",
-   "Heat the frying oil to 170 °C. Fry the balls in batches for 3-4 minutes, turning occasionally, until golden brown.",
+   "Heat the frying oil to 170 °C. Fry the balls in batches for 4-5 minutes, turning occasionally, until golden brown.",
    "Drain the fritters on kitchen paper. While still warm, roll them in the 50 g of caster sugar for coating and serve warm."
   ]
  },
@@ -63,5 +63,14 @@
   "tr": "Yağın sıcaklığını bir termometreyle kontrol edin; çok sıcak olursa toplar dışarıdan kahverengileşip içten çiğ kalır.",
   "en": "Check the oil temperature with a thermometer; if it is too hot the fritters brown outside and stay raw inside."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 7 says \"öğütülmemiş 50 g toz şekeri\". \"Öğütülmemiş\" (unground) contradicts \"toz şeker\" and the Turkish ingredient line, so the wording is wrong.",
+   "Frying for 3-4 minutes at 170 °C is likely too short for 3 cm yeasted dough balls. The centres may stay raw, so the time is extended to 4-5 minutes in both languages."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

@@ -24,7 +24,7 @@
    "3 dal taze kekik",
    "250 ml hindistancevizi sütü",
    "150 ml su",
-   "1/2 çay kaşığı tuz, karabiber"
+   "1/2 çay kaşığı tuz ve karabiber, tat için"
   ],
   "en": [
    "600 g callaloo leaves (amaranth) or spinach, stems removed",
@@ -38,7 +38,7 @@
    "3 sprigs fresh thyme",
    "250 ml coconut milk",
    "150 ml water",
-   "1/2 tsp salt, black pepper"
+   "1/2 tsp salt and black pepper, to taste"
   ]
  },
  "steps": {
@@ -60,12 +60,21 @@
    "Add the okra, the whole Scotch bonnet pepper and the thyme sprigs.",
    "Pour in the coconut milk and water, reduce the heat to low and simmer covered for about 20 minutes.",
    "Check that the leaves are very tender and cook a little longer if needed. Remove the thyme stalks and gently mash the leaves with a spoon to thicken.",
-   "Remove the pepper. Season with salt and black pepper and serve hot."
+   "Remove the pepper, or leave a small piece in for a short time if you want more heat. Season with salt and black pepper and serve hot."
   ]
  },
  "tip": {
   "tr": "Gerçek kalaloo bulamazsanız amarant veya ıspanak kullanın; biberi bütün ve delinmiş halde pişirmek, tadını verirken çok acı olmasını önler.",
   "en": "If true callaloo is unavailable, use amaranth or spinach; cooking the pepper whole and pricked gives flavour without overwhelming heat."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list gives no quantity for black pepper (\"karabiber\"), while English has the same gap.",
+   "Step 8 in Turkish allows returning a piece of the Scotch bonnet for extra heat, but the English step only says to remove the pepper. The two versions disagree."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

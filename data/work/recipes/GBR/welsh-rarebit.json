@@ -19,7 +19,7 @@
    "120 ml koyu ale bira veya lager",
    "1 tatlı kaşığı İngiliz hardalı (ya da Dijon hardalı)",
    "1 tatlı kaşığı Worcestershire sosu",
-   "1 çay kaşığı acı biber (cayenne)",
+   "1/4 çay kaşığı acı biber (cayenne)",
    "1 yumurta sarısı",
    "4 dilim kalın ekmek (yaklaşık 100 g'lık ekmek veya ekşi maya ekmeği)",
    "Tuz ve taze çekilmiş karabiber"
@@ -67,5 +67,13 @@
   "tr": "Sosun yumurta sarısını eklerken çok sıcak olmamasına dikkat edin, aksi halde sos kesilir.",
   "en": "Let the sauce cool slightly before adding the egg yolk, or it may scramble and turn grainy."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Cayenne amount disagrees: Turkish says 1 çay kaşığı (1 tsp), English says 1/4 tsp. The English amount is the appropriate one for this sauce, so the Turkish was corrected to match."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }

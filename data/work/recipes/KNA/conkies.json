@@ -56,7 +56,7 @@
    "Büyük bir kapta rendelenmiş balkabağı ve tatlı patatesi, esmer şekeri, tarçını, muskatı, karanfili ve tuzu karıştırın.",
    "Mısırununu ekleyin, ardından yumuşayan hindistancevizi karışımını, eritilmiş tereyağını, vanilyayı ve kuru üzümü ilave edip iyice yoğurun.",
    "Karışım nemli kalıp bastırıldığında şekil tutacak ama hâlâ kaşıkla alınabilecek kıvama gelene kadar suyu azar azar ekleyin.",
-   "Her muz yaprağının ortasına 2'şer tatlı kaşığı dolusu (yaklaşık 60 g) karışım koyun. Yaprağın kenarlarını ortaya doğru katlayıp düzgün bir paket yapın ve uçlarını da katlayarak iple bağlayın.",
+   "Her muz yaprağının ortasına yaklaşık 4 yemek kaşığı dolusu (yaklaşık 140 g) karışım koyun. Yaprağın kenarlarını ortaya doğru katlayıp düzgün bir paket yapın ve uçlarını da katlayarak iple bağlayın.",
    "Büyük bir tencerede suyu kaynatın, konkisleri içine yerleştirin. Tamamen suya gömülü kalmaları için tencerenin üzerini kapatın, ocağı kısıp 1 saat hafif kaynatın. Su azalırsa kaynar su ekleyin.",
    "Konkisleri tencereden çıkarıp 10 dakika dinlendirin. Yapraklarını açın ve ılık servis yapın."
   ],
@@ -66,7 +66,7 @@
    "In a large bowl, combine the grated pumpkin and sweet potato, brown sugar, cinnamon, nutmeg, cloves and salt.",
    "Add the cornmeal, then stir in the softened coconut, melted butter, vanilla and raisins, mixing thoroughly.",
    "Add water a little at a time until the mixture holds its shape when pressed but can still be spooned.",
-   "Place about 2 heaped tablespoons (roughly 60 g) of mixture in the centre of each leaf. Fold the sides over into a neat parcel, fold the ends under and tie securely with string.",
+   "Place about 4 heaped tablespoons (roughly 140 g) of mixture in the centre of each leaf. Fold the sides over into a neat parcel, fold the ends under and tie securely with string.",
    "Bring a large pot of water to the boil and lower the conkies in. Keep them fully submerged, reduce to a gentle simmer and cook for 1 hour, adding boiling water as needed to keep the level up.",
    "Lift the conkies out, rest for 10 minutes, then unwrap and serve warm."
   ]
@@ -75,5 +75,14 @@
   "tr": "Konkisin pişip pişmediğini anlamak için ortasına şiş batırın; temiz çıkmalıdır. Açmadan önce birkaç dakika bekletmek yaprağın kolay ayrılmasını sağlar.",
   "en": "To check doneness, insert a skewer into the centre; it should come out clean. Letting the conkies rest a few minutes before unwrapping makes the leaves peel away more easily."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Step 6 portion size is inconsistent: 2 heaped tablespoons is roughly 30 g, not 60 g. The total batter weighs about 1,100 g, so 8 parcels come to roughly 140 g each. The same error appears in the Engli",
+   "The Turkish text for step 6 says 'tatlı kaşığı' (teaspoon) where a heaped tablespoon measure is intended. Both languages need the same corrected portion."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-22"
+ }
 }
