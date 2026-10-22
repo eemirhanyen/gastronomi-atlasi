@@ -22,6 +22,8 @@
       googleNone: "Şu an gösterilemiyor.", reviews: "{n} yorum", loading: "Yükleniyor…",
       lyText: "Küredeki yazılar", txNames: "Ülke adları", txSpice: "Baharat haritası", txSauce: "Sos haritası", txOff: "Kapalı",
       spices: "Sevilen baharatlar", sauces: "Sevilen soslar",
+      relTitle: "Akraba yemekler", relSub: "Başka ülkelerde neredeyse aynı yemek", simTitle: "Benzer yemekler", relMap: "Haritada gör",
+      relNote: "Benzerlik oranı yapay zekânın malzeme, teknik ve servis biçimine bakarak verdiği bir değerlendirmedir.", relOf: "{d} yemeğinin akrabaları",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
     },
     en: {
@@ -44,6 +46,8 @@
       googleNone: "Not available right now.", reviews: "{n} reviews", loading: "Loading…",
       lyText: "Text on the globe", txNames: "Country names", txSpice: "Spice map", txSauce: "Sauce map", txOff: "Off",
       spices: "Favourite spices", sauces: "Favourite sauces",
+      relTitle: "Related dishes", relSub: "Almost the same dish in other countries", simTitle: "Similar dishes", relMap: "Show on the map",
+      relNote: "Similarity is an AI assessment of ingredients, technique and how the dish is served.", relOf: "Relatives of {d}",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
     }
   };
@@ -253,6 +257,7 @@
     if (S.mSel) { S.mSel = null; if (globe && S.points) globe.pointsData(S.points); }
   }
   function clickAt(coords, f) {
+    if (S.relBack) hideRelMap();
     var m = coords && nearestPoint(coords.lat, coords.lng);
     if (m) { showMcard(m); return; }
     hideMcard();
@@ -532,6 +537,7 @@
         "</ul></div><div><h4>" + esc(t("steps")) + '</h4><ol class="steps">' +
         (r.steps[lang] || r.steps.en).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ol>" +
         (L(r.tip) ? '<div class="r-tip"><b>' + esc(t("tip")) + ":</b> " + esc(L(r.tip)) + "</div>" : "") + "</div></div>" +
+        relBox(r) +
         '<div class="r-foot">' + esc(r.reviewed ? t("aiNote") : t("aiNoteUnrev")) + "<br>" +
         (img && img.url ? esc(t("photo")) + ": " + (img.credit ? esc(img.credit) + ", " : "") + (img.license ? esc(img.license) + ", " : "") +
           '<a href="' + esc(img.source || img.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : esc(t("noPhoto"))) +
@@ -540,11 +546,84 @@
       document.querySelector("#recipe-body .r-country").addEventListener("click", function () {
         closeRecipe(); selectCountry(iso, true);
       });
+      Array.prototype.forEach.call(document.querySelectorAll("#recipe-body .rel-i"), function (b) {
+        b.addEventListener("click", function () { openRecipe(b.dataset.iso, b.dataset.id); });
+      });
+      var mapBtn = document.querySelector("#recipe-body .rel-map");
+      if (mapBtn) mapBtn.addEventListener("click", function () { showRelMap(iso, r); });
       var m = document.getElementById("modal");
-      if (m.hidden) { m.hidden = false; if (!quiet) m.querySelector(".recipe").scrollTop = 0; }
+      m.hidden = false;
+      if (!quiet) m.querySelector(".recipe").scrollTop = 0;
       setHash();
     });
   }
+  function relName(x) {
+    var n = S.names && S.names[x.iso + "/" + x.id];
+    return n ? (lang === "tr" ? n[2] : n[3]) : x.id;
+  }
+  function relRow(x) {
+    return '<button class="rel-i" data-iso="' + x.iso + '" data-id="' + esc(x.id) + '"><span class="rel-f">' + flag(iso2Of(x.iso)) + "</span><span class=\"rel-t\"><b>" +
+      esc(relName(x)) + " <em>" + esc(cname(x.iso)) + "</em></b>" + esc(L(x.why)) + '</span><span class="rel-p' + (x.score >= 90 ? " hi" : "") + '">%' + x.score + "</span></button>";
+  }
+  function relBox(r) {
+    var rel = (r.relatives || []).filter(function (x) { return S.names && S.names[x.iso + "/" + x.id]; });
+    if (!rel.length) return "";
+    var hi = rel.filter(function (x) { return x.score >= 90; }), lo = rel.filter(function (x) { return x.score < 90; });
+    var h = '<section class="rel">';
+    if (hi.length) h += "<h4>🧬 " + esc(t("relTitle")) + "</h4><p class=\"rel-sub\">" + esc(t("relSub")) + "</p>" + hi.map(relRow).join("");
+    if (lo.length) h += "<h4" + (hi.length ? ' class="mt"' : "") + ">" + esc(t("simTitle")) + "</h4>" + lo.slice(0, 5).map(relRow).join("");
+    h += '<div class="rel-foot"><button class="rel-map">🌍 ' + esc(t("relMap")) + "</button><small>" + esc(t("relNote")) + "</small></div></section>";
+    return h;
+  }
+
+  // Akrabaları kürede yaylarla göster
+  function anchor(iso) {
+    var f = S.geo.features.find(function (x) { return x.properties.iso === iso; });
+    if (!f) return null;
+    if (f.properties.ly != null) return { lat: f.properties.ly, lng: f.properties.lx };
+    var c = centroid(f); return { lat: c.lat, lng: c.lng };
+  }
+  function showRelMap(iso, r) {
+    var from = anchor(iso);
+    if (!from) return;
+    var rel = (r.relatives || []).filter(function (x) { return S.names && S.names[x.iso + "/" + x.id]; });
+    var arcs = [], seen = {};
+    rel.forEach(function (x) {
+      var to = anchor(x.iso);
+      if (!to || seen[x.iso]) return;
+      seen[x.iso] = 1;
+      arcs.push({ s: from, e: to, hi: x.score >= 90 });
+    });
+    closeRecipe();
+    closePanel();
+    hideMcard();
+    globe.arcsData(arcs)
+      .arcStartLat(function (a) { return a.s.lat; }).arcStartLng(function (a) { return a.s.lng; })
+      .arcEndLat(function (a) { return a.e.lat; }).arcEndLng(function (a) { return a.e.lng; })
+      .arcColor(function (a) { return a.hi ? ["rgba(255,209,102,0.95)", "rgba(255,120,80,0.95)"] : ["rgba(255,209,102,0.5)", "rgba(200,200,220,0.45)"]; })
+      .arcStroke(function (a) { return a.hi ? 0.7 : 0.4; })
+      .arcDashLength(0.5).arcDashGap(0.15).arcDashAnimateTime(2200).arcAltitudeAutoScale(0.45);
+    globe.ringsData([from]).ringLat(function (d) { return d.lat; }).ringLng(function (d) { return d.lng; })
+      .ringColor(function () { return function (k) { return "rgba(255,209,102," + (1 - k) + ")"; }; })
+      .ringMaxRadius(4).ringPropagationSpeed(2).ringRepeatPeriod(1200);
+    globe.controls().autoRotate = false;
+    globe.pointOfView({ lat: from.lat, lng: from.lng, altitude: 2.3 }, 1200);
+    var card = document.getElementById("relcard");
+    card.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button><div class="rc-h">' + flag(iso2Of(iso)) + " " +
+      esc(t("relOf", { d: L(r.name) })) + "</div>" + rel.map(relRow).join("");
+    card.hidden = false;
+    card.querySelector(".close").addEventListener("click", hideRelMap);
+    Array.prototype.forEach.call(card.querySelectorAll(".rel-i"), function (b) {
+      b.addEventListener("click", function () { openRecipe(b.dataset.iso, b.dataset.id); });
+    });
+    S.relBack = [iso, r.id];
+  }
+  function hideRelMap() {
+    document.getElementById("relcard").hidden = true;
+    if (globe) { globe.arcsData([]); globe.ringsData([]); }
+    S.relBack = null;
+  }
+
   function closeRecipe() {
     document.getElementById("modal").hidden = true;
     S.recipe = null;
@@ -642,6 +721,8 @@
       S.geo = r[0];
       r[1].countries.forEach(function (c) { S.index[c.iso3] = c; });
       S.search = r[2];
+      S.names = {};
+      r[2].forEach(function (x) { S.names[x[0] + "/" + x[1]] = x; });
       bind();
       initGlobe();
       setLang(lang);

@@ -482,6 +482,8 @@ def stage_build():
     images = jload(os.path.join(WORK, "images.json"), {})
     scores = jload(os.path.join(WORK, "scores.json"), {})
     flavors = jload(os.path.join(WORK, "flavors.json"), {})
+    import relatives
+    rel = relatives.relatives_map()
     out_dir = os.path.join(DATA, "countries")
     os.makedirs(out_dir, exist_ok=True)
     index, search = [], []
@@ -518,7 +520,7 @@ def stage_build():
                                      "name": r["name"], "desc": r["desc"], "servings": r["servings"], "time_min": r["time_min"],
                                      "difficulty": r["difficulty"], "ingredients": r["ingredients"], "steps": r["steps"],
                                      "tip": r.get("tip"), "reviewed": r.get("reviewed", False),
-                                     "image": img(d.get("wiki_en"))})
+                                     "image": img(d.get("wiki_en")), "relatives": rel.get(f"{iso}_{d['id']}", [])})
                 search.append([iso, d["id"], r["name"]["tr"], r["name"]["en"], r.get("native") or ""])
         jsave(os.path.join(out_dir, iso + ".json"), c)
         index.append({"iso3": iso, "iso2": REF[iso]["iso2"], "region": REF[iso].get("region"), "score": sc["score"] if sc else None,
@@ -531,7 +533,14 @@ def stage_build():
     log(f"build: {len(index)} ülke, {len(search)} tarif")
 
 
-STAGES = {"plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
+def _rel(name):
+    def run():
+        import relatives
+        relatives.STAGES[name]()
+    return run
+
+
+STAGES = {"features": _rel("features"), "pairs": _rel("pairs"), "judge": _rel("judge"), "plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
           "items": stage_items, "images": stage_images, "score": stage_score, "flavors": stage_flavors, "build": stage_build}
 
 
@@ -539,7 +548,7 @@ def main():
     names = sys.argv[1:] or ["all"]
     if names == ["all"]:
         names = ["score", "flavors", "plan", "recipes", "review", "items", "images", "build"]
-    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items") for n in names)
+    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items", "features", "judge") for n in names)
     if need_api and not os.environ.get("ANTHROPIC_API_KEY"):
         log("HATA: ANTHROPIC_API_KEY yok"); sys.exit(1)
     for n in names:
