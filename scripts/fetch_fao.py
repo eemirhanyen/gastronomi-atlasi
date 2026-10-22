@@ -106,8 +106,8 @@ def collect(code):
             item_code = int(r.get("Item Code") or 0)
         except ValueError:
             continue
-        if item_code >= 1700:
-            continue                      # grup toplamları
+        if item_code >= 1700 or item_code < 15 or "total" in (r.get("Item") or "").lower():
+            continue                      # grup toplamları ve "Total Merchandise Trade" (10)
         m49 = (r.get("Area Code (M49)") or "").lstrip("'")
         if not m49.isdigit() or int(m49) not in m2i:
             continue
