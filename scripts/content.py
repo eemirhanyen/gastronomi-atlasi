@@ -3,6 +3,7 @@
 Gastronomi atlası içerik hattı. Aşamalar sırayla çalışır, her biri yarıda
 kalırsa tekrar çalıştırıldığında yalnızca eksikleri tamamlar.
 
+  score    Her ülkeye 0-100 mutfak puanı ve gerekçe (Claude, bölge bölge 20'şerli)
   plan     Her ülke için simge ürünler ve yemek listesi (Claude, toplu istek)
   recipes  Her yemek için Türkçe + İngilizce tarif (Claude, toplu istek)
   review   Her tarifi ikinci bir AI geçişi kontrol eder, hatalıysa düzeltir
@@ -389,11 +390,48 @@ def stage_images():
     log(f"  fotoğraf bulunan: {sum(1 for v in cache.values() if v)} / {len(cache)}")
 
 
+# ------------------------------------------------------------------ 5b) score (mutfağın dünyadaki etkisi ve tanınırlığı)
+SCORE_SYSTEM = """You rate national cuisines for a fun world food atlas for gastronomy students.
+Give each country a score from 0 to 100 for the global standing of its cuisine, weighing:
+richness and variety of the cuisine; influence on world cuisine and international recognition;
+UNESCO intangible heritage elements related to food; distinctive products, ingredients and techniques.
+Use the whole scale consistently. Calibration (approximate): France 98, Türkiye 98, Italy 97, Japan 97, China 96,
+India 95, Mexico 94, Spain 93, Thailand 92, Peru 90, Lebanon 88, Greece 88, Germany 76, United Kingdom 72, Afghanistan 40.
+For each country also give a one-sentence reason in Turkish ("tr") and English ("en"), naming what stands out.
+Reply with ONLY JSON: {"ISO3": {"score": 0-100, "tr": "...", "en": "..."}, ...} covering every country given."""
+
+
+def stage_score():
+    path = os.path.join(WORK, "scores.json")
+    done = jload(path, {})
+    todo = sorted((t for t in targets() if t not in done),
+                  key=lambda k: (REF[k].get("region") or "", REF[k].get("sub") or "", REF[k]["name"]))
+    log(f"score: {len(todo)} ülke")
+    if not todo:
+        return
+    reqs = []
+    for k in range(0, len(todo), 20):
+        part = todo[k:k + 20]
+        lines = "\n".join(f"{i} {REF[i]['name']} ({REF[i].get('sub') or REF[i].get('region') or ''})" for i in part)
+        reqs.append(req(f"score{k}", SCORE_SYSTEM, lines, 4000))
+    for _, text in run_batch(reqs, "score").items():
+        try:
+            for iso, v in extract_json(text).items():
+                if iso in REF and isinstance(v, dict) and v.get("score") is not None:
+                    done[iso] = {"score": max(0, min(100, int(round(float(v["score"]))))),
+                                 "why": {"tr": str(v.get("tr", ""))[:300], "en": str(v.get("en", ""))[:300]}}
+        except Exception as e:
+            log(f"  score çözülemedi: {e}")
+    jsave(path, done, pretty=True)
+    log(f"  puanlanan: {len(done)}")
+
+
 # ------------------------------------------------------------------ 6) build
 def stage_build():
     fao = jload(os.path.join(DATA, "fao.json"), {})
     items_tr = jload(os.path.join(WORK, "items_tr.json"), {})
     images = jload(os.path.join(WORK, "images.json"), {})
+    scores = jload(os.path.join(WORK, "scores.json"), {})
     out_dir = os.path.join(DATA, "countries")
     os.makedirs(out_dir, exist_ok=True)
     index, search = [], []
@@ -408,10 +446,11 @@ def stage_build():
     for iso in TARGETS:
         plan = jload(os.path.join(WORK, "plan", iso + ".json"))
         prod, exp = fao.get("production", {}).get(iso), fao.get("exports", {}).get(iso)
-        if not plan and not prod:
+        sc = scores.get(iso)
+        if not plan and not prod and not sc:
             continue
         c = {"iso3": iso, "iso2": REF[iso]["iso2"], "name": REF[iso]["name"], "region": REF[iso].get("region"),
-             "signature": [], "production": None, "exports": None, "recipes": []}
+             "score": sc, "signature": [], "production": None, "exports": None, "recipes": []}
         if prod:
             c["production"] = {"year": prod["year"], "unit": "t", "items": [{"name": item(k), "value": v} for k, v in prod["items"]]}
         if exp:
@@ -431,7 +470,7 @@ def stage_build():
                                      "image": img(d.get("wiki_en"))})
                 search.append([iso, d["id"], r["name"]["tr"], r["name"]["en"], r.get("native") or ""])
         jsave(os.path.join(out_dir, iso + ".json"), c)
-        index.append({"iso3": iso, "iso2": REF[iso]["iso2"], "region": REF[iso].get("region"), "recipes": len(c["recipes"]), "signature": len(c["signature"]),
+        index.append({"iso3": iso, "iso2": REF[iso]["iso2"], "region": REF[iso].get("region"), "score": sc["score"] if sc else None, "recipes": len(c["recipes"]), "signature": len(c["signature"]),
                       "top": c["signature"][0]["name"] if c["signature"] else None})
     jsave(os.path.join(DATA, "index.json"), {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                                             "model": MODEL, "fao": {k: fao.get(k + "_meta") for k in ("production", "exports")},
@@ -441,14 +480,14 @@ def stage_build():
 
 
 STAGES = {"plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
-          "items": stage_items, "images": stage_images, "build": stage_build}
+          "items": stage_items, "images": stage_images, "score": stage_score, "build": stage_build}
 
 
 def main():
     names = sys.argv[1:] or ["all"]
     if names == ["all"]:
-        names = ["plan", "recipes", "review", "items", "images", "build"]
-    need_api = any(n in ("plan", "recipes", "review", "items") for n in names)
+        names = ["score", "plan", "recipes", "review", "items", "images", "build"]
+    need_api = any(n in ("score", "plan", "recipes", "review", "items") for n in names)
     if need_api and not os.environ.get("ANTHROPIC_API_KEY"):
         log("HATA: ANTHROPIC_API_KEY yok"); sys.exit(1)
     for n in names:

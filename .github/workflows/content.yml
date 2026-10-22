@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       stages:
-        description: "Aşamalar (all ya da: plan recipes review items images build)"
+        description: "Aşamalar (all ya da: score plan recipes review items images build)"
         default: "all"
       only:
         description: "Yalnızca bu ülkeler (ör. TUR,ITA; boş = hepsi)"
@@ -36,7 +36,7 @@ jobs:
           }
           set -o pipefail
           stages="${{ inputs.stages }}"
-          [ "$stages" = "all" ] && stages="plan recipes review items images build"
+          [ "$stages" = "all" ] && stages="score plan recipes review items images build"
           for s in $stages; do
             python scripts/content.py "$s" 2>&1 | tee -a data/work/log.txt || { save "$s (hata)"; exit 1; }
             save "$s"

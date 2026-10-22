@@ -13,7 +13,7 @@
       aiNote: "Bu tarif yapay zekâ tarafından yazıldı ve ikinci bir yapay zekâ geçişinde kontrol edildi. İnsan editörden geçmedi; denerken kendi mutfak bilgine de güven.",
       aiNoteUnrev: "Bu tarif yapay zekâ tarafından yazıldı, henüz kontrol edilmedi.",
       photo: "Fotoğraf", noPhoto: "Bu yemek için serbest lisanslı fotoğraf bulunamadı.", searchEmpty: "Sonuç yok.", country: "Ülke",
-      loadErr: "Veri yüklenemedi.",
+      loadErr: "Veri yüklenemedi.", scoreTitle: "Mutfağın dünyadaki etkisi ve tanınırlığı", scoreAI: "AI değerlendirmesi, 0–100", noScore: "Puan yok",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
     },
     en: {
@@ -27,12 +27,27 @@
       aiNote: "This recipe was written by AI and checked in a second AI pass. No human editor reviewed it; trust your own kitchen sense too.",
       aiNoteUnrev: "This recipe was written by AI and has not been checked yet.",
       photo: "Photo", noPhoto: "No freely licensed photo found for this dish.", searchEmpty: "No results.", country: "Country",
-      loadErr: "Could not load data.",
+      loadErr: "Could not load data.", scoreTitle: "Global influence and recognition of the cuisine", scoreAI: "AI assessment, 0–100", noScore: "No score",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
     }
   };
   var CAT_ICON = { soup: "🍲", main: "🍛", side: "🥔", salad: "🥗", bread: "🍞", pastry: "🥟", dessert: "🍰", drink: "🍵", snack: "🥨", breakfast: "🍳", sauce: "🫙", street_food: "🌯" };
-  var REGION = { Africa: "#c9733a", Americas: "#b9493a", Asia: "#d6a33c", Europe: "#7f9a4e", Oceania: "#4f8f8a" };
+  // Puan renkleri: düşük kırmızı, orta sarı, yüksek yeşil
+  var STOPS = [[30, [192, 57, 43]], [50, [226, 120, 50]], [68, [233, 196, 70]], [84, [130, 186, 80]], [97, [38, 150, 85]]];
+  function scoreRGB(v) {
+    if (v <= STOPS[0][0]) return STOPS[0][1];
+    for (var i = 1; i < STOPS.length; i++) {
+      if (v <= STOPS[i][0]) {
+        var a = STOPS[i - 1], b = STOPS[i], k = (v - a[0]) / (b[0] - a[0]);
+        return [0, 1, 2].map(function (j) { return Math.round(a[1][j] + (b[1][j] - a[1][j]) * k); });
+      }
+    }
+    return STOPS[STOPS.length - 1][1];
+  }
+  function scoreColor(v, lift) {
+    var c = scoreRGB(v).map(function (x) { return Math.round(x + (255 - x) * (lift || 0)); });
+    return "rgb(" + c.join(",") + ")";
+  }
 
   var lang = "tr", globe, labelEls = [], labelRank = 2;
   var S = { geo: null, index: {}, search: [], cache: {}, selected: null, hover: null, country: null, filter: "", cat: "" };
@@ -109,9 +124,17 @@
     Array.prototype.forEach.call(document.querySelectorAll(".lang button"), function (b) { b.classList.toggle("on", b.dataset.lang === l); });
     labelEls.forEach(function (x) { x[0].textContent = cname(x[1].properties.iso); });
     updateStats();
+    legend();
     if (S.country) renderPanel();
     if (S.recipe) openRecipe(S.recipe[0], S.recipe[1], true);
     runSearch();
+  }
+  function legend() {
+    var g = [];
+    for (var v = 20; v <= 100; v += 10) g.push(scoreColor(v) + " " + ((v - 20) / 80 * 100).toFixed(0) + "%");
+    document.getElementById("legend").innerHTML = '<div class="lg-t">' + esc(t("scoreTitle")) + '</div><div class="lg-bar" style="background:linear-gradient(90deg,' +
+      g.join(",") + ')"></div><div class="lg-ticks"><span>20</span><span>60</span><span>100</span></div><div class="lg-s">' + esc(t("scoreAI")) +
+      '</div><div class="lg-none"><i></i>' + esc(t("noScore")) + "</div>";
   }
   function updateStats() {
     var c = 0, r = 0;
@@ -120,18 +143,11 @@
   }
 
   // ------------------------------------------------------------ küre
-  function has(f) { var c = S.index[f.properties.iso]; return !!(c && (c.recipes || c.signature)); }
+  function has(f) { var c = S.index[f.properties.iso]; return !!(c && (c.recipes || c.signature || c.score != null)); }
   function capColor(f) {
     var c = S.index[f.properties.iso];
-    var base = (c && REGION[c.region]) || "#3a3029";
-    if (!has(f)) return f === S.hover ? "#4a3d33" : "#2b231d";
-    if (f === S.selected) return "#f0a23b";
-    return f === S.hover ? shade(base, 0.25) : base;
-  }
-  function shade(hex, k) {
-    var n = parseInt(hex.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255;
-    function m(x) { return Math.round(x + (255 - x) * k); }
-    return "rgb(" + m(r) + "," + m(g) + "," + m(b) + ")";
+    if (!c || c.score == null) return f === S.hover || f === S.selected ? "#4a3d33" : "#2b231d";
+    return scoreColor(c.score, f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0);
   }
   function applyLabel(el) {
     el.style.visibility = el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
@@ -148,7 +164,7 @@
       .polygonStrokeColor(function () { return "rgba(18,13,10,0.9)"; })
       .polygonLabel(function (f) {
         var c = S.index[f.properties.iso];
-        var sub = c && c.top ? " <span>· " + esc(L(c.top)) + "</span>" : "";
+        var sub = (c && c.score != null ? " · <b>" + c.score + "</b>" : "") + (c && c.top ? " <span>· " + esc(L(c.top)) + "</span>" : "");
         return '<div class="tip">' + flag(iso2Of(f.properties.iso)) + " " + esc(cname(f.properties.iso)) + sub + "</div>";
       })
       .onPolygonHover(function (f) { S.hover = f; el.style.cursor = f ? "pointer" : "grab"; refresh(); })
@@ -244,6 +260,10 @@
     if (!c) return;
     var h = '<div class="c-head"><div class="c-flag">' + flag(iso2Of(c.iso3)) + '</div><div><h2>' + esc(cname(c.iso3)) + "</h2>" +
       (c.recipes && c.recipes.length ? "<p>" + esc(t("recipesN", { n: c.recipes.length })) + "</p>" : "") + "</div></div>";
+    if (c.score) {
+      h += '<div class="score"><div class="score-n" style="background:' + scoreColor(c.score.score) + '">' + c.score.score +
+        '</div><div><b>' + esc(t("scoreTitle")) + "</b><p>" + esc(L(c.score.why)) + "</p><small>" + esc(t("scoreAI")) + "</small></div></div>";
+    }
     if (c.missing) {
       body.innerHTML = h + '<div class="sec"><div class="nodata">' + esc(t("noData")) + "</div></div>";
       return;

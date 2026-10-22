@@ -60,6 +60,21 @@ button { font: inherit; color: inherit; }
 }
 .hint.gone { opacity: 0; }
 
+/* Puan lejantı ve rozeti */
+.legend { position: fixed; left: 24px; bottom: 24px; width: 230px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; font-size: 12px; backdrop-filter: blur(8px); }
+.lg-t { font-weight: 600; line-height: 1.3; }
+.lg-bar { height: 8px; border-radius: 4px; margin: 9px 0 4px; }
+.lg-ticks { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; }
+.lg-s { color: var(--muted); font-size: 11px; margin-top: 6px; }
+.lg-none { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 11px; margin-top: 4px; }
+.lg-none i { width: 10px; height: 10px; border-radius: 2px; background: #2b231d; border: 1px solid var(--line); }
+.score { display: flex; gap: 14px; align-items: flex-start; margin-top: 20px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+.score-n { flex: none; width: 54px; height: 54px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font: 700 22px var(--serif); color: #1a120b; }
+.score b { font-size: 13px; }
+.score p { margin: 4px 0 4px; font-size: 13px; line-height: 1.45; color: #d8cabb; }
+.score small { color: var(--muted); font-size: 11px; }
+.tip b { color: var(--accent); }
+
 .tip { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 5px 9px; font-size: 12.5px; color: var(--text); }
 .tip span { color: var(--muted); }
 .clabel { color: rgba(244, 235, 224, .78); font-size: 11px; font-weight: 500; text-shadow: 0 1px 3px #000, 0 0 6px #000; pointer-events: none; white-space: nowrap; transform: translate(-50%, -50%); }
@@ -158,6 +173,9 @@ button { font: inherit; color: inherit; }
   .brand h1 { font-size: 19px; }
   .brand p { display: none; }
   .search { top: 14px; }
+  .legend { left: 12px; bottom: 12px; width: 170px; padding: 9px 11px; }
+  .lg-s, .lg-none { display: none; }
+  .hint { bottom: auto; top: 150px; }
   .panel { top: auto; height: 72vh; width: 100vw; border-left: 0; border-top: 1px solid var(--line); border-radius: 20px 20px 0 0; transform: translateY(105%); }
   #panel-body { padding: 22px 16px 40px; }
   .modal { padding: 0; }
