@@ -536,6 +536,29 @@ def stage_build():
     def img(title):
         return images.get(title) if title else None
 
+    # Aynı Wikipedia sayfası birden çok yemeğe atanmışsa (ör. "Kebab"), o sayfanın kapak fotoğrafı yalnızca adı
+    # birebir eşleşen yemekte kullanılır; "Adana kebabı"na genel "Kebab" fotoğrafı konmaz.
+    import unicodedata
+    from collections import Counter
+
+    def nrm(x):
+        x = unicodedata.normalize("NFKD", str(x or "")).encode("ascii", "ignore").decode().lower()
+        return re.sub(r"[^a-z0-9]+", " ", x).strip()
+    title_use = Counter()
+    for _iso in TARGETS:
+        _p = jload(os.path.join(WORK, "plan", _iso + ".json"))
+        for _d in (_p or {}).get("dishes", []):
+            if _d.get("wiki_en"):
+                title_use[_d["wiki_en"]] += 1
+
+    def dish_img(d, r):
+        t = d.get("wiki_en")
+        if not t:
+            return None
+        if title_use[t] > 1 and nrm(t) not in {nrm(d.get("en")), nrm(d.get("native")), nrm(r["name"].get("en"))}:
+            return None
+        return images.get(t)
+
     for iso in TARGETS:
         plan = jload(os.path.join(WORK, "plan", iso + ".json"))
         prod, exp = fao.get("production", {}).get(iso), fao.get("exports", {}).get(iso)
@@ -562,7 +585,7 @@ def stage_build():
                                      "name": tname(r["name"]), "desc": r["desc"], "servings": r["servings"], "time_min": r["time_min"],
                                      "difficulty": r["difficulty"], "ingredients": r["ingredients"], "steps": r["steps"],
                                      "tip": r.get("tip"), "reviewed": r.get("reviewed", False),
-                                     "image": img(d.get("wiki_en")), "relatives": rel.get(f"{iso}_{d['id']}", [])})
+                                     "image": dish_img(d, r), "relatives": rel.get(f"{iso}_{d['id']}", [])})
                 search.append([iso, d["id"], tcase(r["name"]["tr"], "tr"), tcase(r["name"]["en"], "en"), r.get("native") or ""])
         wr = jload(os.path.join(WORK, "wine", iso + ".json"))
         if wine_fao.get(iso) or wr:
