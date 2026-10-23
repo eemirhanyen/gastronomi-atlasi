@@ -975,14 +975,14 @@
     var c = S.country, head = document.getElementById("panel-head"), body = document.getElementById("panel-body");
     if (!c) return;
     var nrec = (c.recipes || []).length, idx = S.index[c.iso3] || {};
-    var tabs = [["genel", esc(t("tab_genel"))]];
+    var tabs = [["genel", "✨ " + esc(t("tab_genel"))]];
     var prods = c.missing ? [] : Object.keys(PRODS).filter(function (k) { return c[k]; });
     if (!c.missing) {
-      if (nrec) tabs.push(["tarif", esc(t("tab_tarif")) + " <em>" + nrec + "</em>"]);
+      if (nrec) tabs.push(["tarif", "📖 " + esc(t("tab_tarif")) + " <em>" + nrec + "</em>"]);
       // Tek ürün varsa adıyla, birden çoksa simgeleriyle (dock'taki simgelerle aynı)
-      if (prods.length) tabs.push(["icecek", prods.map(function (k) { return esc(t("lens_" + k)); }).join(" · ")]);
-      tabs.push(["restoran", esc(t("tab_restoran"))]);
-      if (c.production || c.exports) tabs.push(["tarim", esc(t("tab_tarim"))]);
+      if (prods.length) tabs.push(["icecek", PRODS[prods[0]].icon + " " + prods.map(function (k) { return esc(t("lens_" + k)); }).join(" · ")]);
+      tabs.push(["restoran", "🍽️ " + esc(t("tab_restoran"))]);
+      if (c.production || c.exports) tabs.push(["tarim", "🌾 " + esc(t("tab_tarim"))]);
     }
     if (!tabs.some(function (x) { return x[0] === S.tab; })) S.tab = "genel";
     if (prods.indexOf(S.sub) < 0) S.sub = prods[0];
