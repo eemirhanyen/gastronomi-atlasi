@@ -23,6 +23,12 @@
       lyText: "Küredeki yazılar", txNames: "Ülke adları", txSpice: "Baharat haritası", txSauce: "Sos haritası", txOff: "Kapalı",
       spices: "Sevilen baharatlar", sauces: "Sevilen soslar",
       lyColor: "Küre rengi", colScore: "Mutfak puanı", colWine: "Şarap üretimi", colNone: "Renksiz", wineScale: "Yıllık şarap üretimi (ton) · FAOSTAT",
+      colCoffee: "Kahve üretimi", colCocoa: "Kakao üretimi", coffeeScale: "Yıllık yeşil kahve üretimi (ton) · FAOSTAT", cocoaScale: "Yıllık kakao çekirdeği üretimi (ton) · FAOSTAT",
+      coffeeRegions: "Kahve bölgeleri", cocoaRegions: "Kakao bölgeleri", coffeeTitle: "Kahve", cocoaTitle: "Kakao ve çikolata",
+      coffeeProd: "Yıllık yeşil kahve üretimi: {v} ton ({y}), dünyada {r}. sırada", cocoaProd: "Yıllık kakao üretimi: {v} ton ({y}), dünyada {r}. sırada",
+      coffeeExp: "Kahve ihracatı: {v} ({y})", cocoaExp: "Çikolata ürünleri ihracatı: {v} ({y})", coffeeVar: "Öne çıkan türler ve çeşitler", cocoaVar: "Kakao türleri",
+      coffeeStyles: "Kahve kültürü ve hazırlanış", cocoaStyles: "Çikolata gelenekleri", rankCoffee: "En çok kahve üreten ülkeler", rankCocoa: "En çok kakao üreten ülkeler",
+      arabica: "arabica", robusta: "robusta", criollo: "criollo", forastero: "forastero", trinitario: "trinitario", productLayers: "Üretim bölgeleri",
       noWine: "Kayda değer üretim yok", wineRegions: "Şarap bölgeleri", wineTitle: "Şarap", wineProd: "Yıllık üretim: {v} ton ({y}), dünyada {r}. sırada",
       wineExp: "Şarap ihracatı: {v} ({y})", grapes: "Öne çıkan üzümler", wineStyles: "Tanınmış şaraplar ve tarzlar", regionsT: "Bölgeler",
       native: "yerli", red: "kırmızı", white: "beyaz", rose: "roze", other: "", sources: "Kaynaklar", researched: "Web araştırmasıyla derlendi ({d}).",
@@ -61,6 +67,12 @@
       lyText: "Text on the globe", txNames: "Country names", txSpice: "Spice map", txSauce: "Sauce map", txOff: "Off",
       spices: "Favourite spices", sauces: "Favourite sauces",
       lyColor: "Globe colour", colScore: "Cuisine score", colWine: "Wine production", colNone: "No colour", wineScale: "Annual wine production (t) · FAOSTAT",
+      colCoffee: "Coffee production", colCocoa: "Cocoa production", coffeeScale: "Annual green coffee production (t) · FAOSTAT", cocoaScale: "Annual cocoa bean production (t) · FAOSTAT",
+      coffeeRegions: "Coffee regions", cocoaRegions: "Cacao regions", coffeeTitle: "Coffee", cocoaTitle: "Cacao and chocolate",
+      coffeeProd: "Annual green coffee production: {v} t ({y}), world rank #{r}", cocoaProd: "Annual cocoa production: {v} t ({y}), world rank #{r}",
+      coffeeExp: "Coffee exports: {v} ({y})", cocoaExp: "Chocolate product exports: {v} ({y})", coffeeVar: "Species and varieties", cocoaVar: "Cacao types",
+      coffeeStyles: "Coffee culture and preparation", cocoaStyles: "Chocolate traditions", rankCoffee: "Top coffee producers", rankCocoa: "Top cocoa producers",
+      arabica: "arabica", robusta: "robusta", criollo: "criollo", forastero: "forastero", trinitario: "trinitario", productLayers: "Production regions",
       noWine: "No significant production", wineRegions: "Wine regions", wineTitle: "Wine", wineProd: "Annual production: {v} t ({y}), world rank #{r}",
       wineExp: "Wine exports: {v} ({y})", grapes: "Signature grapes", wineStyles: "Notable wines and styles", regionsT: "Regions",
       native: "native", red: "red", white: "white", rose: "rosé", other: "", sources: "Sources", researched: "Compiled with web research ({d}).",
@@ -101,20 +113,29 @@
   // 0.003 altına inme: büyük ülkelerin düz üçgenleri küre yüzeyine gömülür, siyah titreşimli alanlar oluşur (z-fighting).
   var GROUND = 0.005;
   var lang = "tr", globe, labelEls = [], labelRank = 2;
-  var LY = { color: "score", wr: false, text: "names", m3: false, m2: false, m1: false, mb: false };
+  var LY = { color: "score", wr: false, cr: false, kr: false, text: "names", m3: false, m2: false, m1: false, mb: false };
   try { Object.assign(LY, JSON.parse(localStorage.getItem("ga-layers") || "{}")); } catch (e) { /* yok */ }
   // Puan renkleriyle (kırmızı-sarı-yeşil) karışmasın diye beyaz-mavi tonlar
   if (LY.score === false && LY.color === "score") LY.color = "none";
   delete LY.score;
-  var MCOL = { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff", w: "#e0457b" };
-  var MKEY = { 3: "m3", 2: "m2", 1: "m1", b: "mb", w: "wr" };
-  // Şarap üretimi: log ölçek, 1 bin t -> 5 milyon t
-  function wineColor(v, lift) {
-    var k = Math.max(0, Math.min(1, (Math.log10(Math.max(v, 1)) - 3) / 3.7));
-    var a = [246, 214, 224], b = [96, 12, 45];
+  var MCOL = { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff", w: "#e0457b", c: "#d9a25f", k: "#a0522d" };
+  var MKEY = { 3: "m3", 2: "m2", 1: "m1", b: "mb", w: "wr", c: "cr", k: "kr" };
+  // Üretim katmanları: şarap, kahve, kakao (FAO üretimiyle renk, araştırmadan bölge noktaları, panel bölümü)
+  var PRODS = {
+    wine: { code: "w", ly: "wr", icon: "🍷", file: "data/regions_wine.json", a: [246, 214, 224], b: [96, 12, 45], max: 5e6, tick: "5M" },
+    coffee: { code: "c", ly: "cr", icon: "☕", file: "data/regions_coffee.json", a: [244, 231, 206], b: [118, 66, 28], max: 3.5e6, tick: "3.5M" },
+    cocoa: { code: "k", ly: "kr", icon: "🍫", file: "data/regions_cocoa.json", a: [247, 215, 196], b: [128, 38, 22], max: 2e6, tick: "2M" }
+  };
+  var CODE2PROD = { w: "wine", c: "coffee", k: "cocoa" };
+  // Üretim: log ölçek, 1 bin t -> ürünün dünya zirvesi
+  function prodColor(key, v, lift) {
+    var P = PRODS[key], top = Math.log10(P.max);
+    var k = Math.max(0, Math.min(1, (Math.log10(Math.max(v, 1)) - 3) / (top - 3)));
+    var a = P.a, b = P.b;
     var c = [0, 1, 2].map(function (j) { var x = a[j] + (b[j] - a[j]) * k; return Math.round(x + (255 - x) * (lift || 0)); });
     return "rgb(" + c.join(",") + ")";
   }
+  function wineColor(v, lift) { return prodColor("wine", v, lift); }
   var S = { geo: null, index: {}, search: [], cache: {}, selected: null, hover: null, country: null, filter: "", cat: "" };
 
   // ------------------------------------------------------------ yardımcılar
@@ -212,16 +233,23 @@
     }
     document.getElementById("legend").innerHTML =
       '<details class="lg"' + (S.lgOpen !== false && (S.lgOpen || window.innerWidth > 720) ? " open" : "") + "><summary>" + esc(t("layers")) + "</summary>" +
-      [["score", "colScore"], ["wine", "colWine"], ["none", "colNone"]].map(function (o) {
+      [["score", "colScore"], ["wine", "colWine"], ["coffee", "colCoffee"], ["cocoa", "colCocoa"], ["none", "colNone"]].map(function (o) {
         return '<label class="ly"><input type="radio" name="lycolor" data-col="' + o[0] + '"' + (LY.color === o[0] ? " checked" : "") + "><span>" +
-          (o[0] === "wine" ? "🍷 " : "") + esc(t(o[1])) + "</span></label>";
+          (PRODS[o[0]] ? PRODS[o[0]].icon + " " : "") + esc(t(o[1])) + "</span></label>";
       }).join("") +
       (LY.color === "score" ? '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + g.join(",") + ')"></div>' +
         '<div class="lg-ticks"><span>15</span><span>55</span><span>100</span></div><div class="lg-s">' + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</div></div>" : "") +
-      (LY.color === "wine" ? '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + wineColor(1000) + "," + wineColor(30000) + "," + wineColor(1e6) + "," + wineColor(5e6) + ')"></div>' +
-        '<div class="lg-ticks"><span>1K</span><span>100K</span><span>5M</span></div><div class="lg-s">' + esc(t("wineScale")) + '</div><div class="lg-none"><i></i>' + esc(t("noWine")) + "</div></div>" : "") +
+      (PRODS[LY.color] ? (function (k, P) {
+        return '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + prodColor(k, 1000) + "," + prodColor(k, 30000) + "," +
+          prodColor(k, P.max / 5) + "," + prodColor(k, P.max) + ')"></div>' +
+          '<div class="lg-ticks"><span>1K</span><span>100K</span><span>' + P.tick + '</span></div><div class="lg-s">' + esc(t(k + "Scale")) +
+          '</div><div class="lg-none"><i></i>' + esc(t("noWine")) + "</div></div>";
+      })(LY.color, PRODS[LY.color]) : "") +
       '<div class="lg-h">' + esc(t("michelin")) + "</div>" + mrow(3) + mrow(2) + mrow(1) + mrow("b") +
-      '<div class="lg-h"></div>' + cb("wr", esc(t("wineRegions")) + (S.wineRegions ? " <em>" + S.wineRegions.length + "</em>" : ""), '<i class="mdot" style="background:' + MCOL.w + '"></i>') +
+      '<div class="lg-h">' + esc(t("productLayers")) + "</div>" + Object.keys(PRODS).map(function (k) {
+        var P = PRODS[k], n = S.regions && S.regions[k];
+        return cb(P.ly, P.icon + " " + esc(t(k + "Regions")) + (n ? " <em>" + n.length + "</em>" : ""), '<i class="mdot" style="background:' + MCOL[P.code] + '"></i>');
+      }).join("") +
       '<div class="lg-h">' + esc(t("lyText")) + "</div>" +
       [["names", "txNames"], ["spice", "txSpice"], ["sauce", "txSauce"], ["off", "txOff"]].map(function (o) {
         return '<label class="ly"><input type="radio" name="lytext" data-tx="' + o[0] + '"' + (LY.text === o[0] ? " checked" : "") + "><span>" +
@@ -273,7 +301,8 @@
     refresh();
     var want = LY.m3 || LY.m2 || LY.m1 || LY.mb;
     if (want && !S.michelin) { loadMichelin().then(applyLayers); return; }
-    if (LY.wr && !S.wineRegions) { loadWineRegions().then(applyLayers); return; }
+    var need = Object.keys(PRODS).filter(function (k) { return LY[PRODS[k].ly] && !(S.regions && S.regions[k]); });
+    if (need.length) { Promise.all(need.map(loadRegions)).then(applyLayers); return; }
     var pts = !S.michelin ? [] : S.michelin.filter(function (m) { return LY[MKEY[m[5]]]; });
     globe.htmlElementsData(htmlData());
     S.points = pts;
@@ -281,7 +310,7 @@
     if (!pts.length) hideMcard();
   }
   // Küredeki HTML öğeleri: ülke etiketleri + (açıksa) şarap bölgesi işaretleri
-  var labelFeats = null, wineObjs = null;
+  var labelFeats = null, regionObjs = {};
   // Yakınlaşınca görünen ülkelerin sınırlarını ayrıntılı (1:50m) sürümle değiştir. Uzaktan bakışta hızlı sürüm kalır.
   var hiGeo = null, hiLoading = null, upTimer = null;
   function upgradeGeo(pov) {
@@ -359,10 +388,11 @@
   function htmlData() {
     if (!labelFeats) labelFeats = S.geo.features.filter(function (f) { return S.index[f.properties.iso]; });
     var out = labelFeats;
-    if (LY.wr && S.wineRegions) {
-      if (!wineObjs) wineObjs = S.wineRegions.map(function (m) { return { w: m }; });
-      out = out.concat(wineObjs);
-    }
+    Object.keys(PRODS).forEach(function (k) {
+      if (!(LY[PRODS[k].ly] && S.regions && S.regions[k])) return;
+      if (!regionObjs[k]) regionObjs[k] = S.regions[k].map(function (m) { return { w: m }; });
+      out = out.concat(regionObjs[k]);
+    });
     if (S.topOn && S.topObjs) out = out.concat(S.topObjs);
     return out;
   }
@@ -420,7 +450,7 @@
   }
   function wineMark(m) {
     var d = document.createElement("div");
-    d.className = "wmark";
+    d.className = "wmark wm-" + m[5];
     d.innerHTML = "<i></i><span>" + esc(m[0]) + "</span>";
     d.addEventListener("mouseenter", function (e) { showPtip(m, e.clientX, e.clientY); });
     d.addEventListener("mouseleave", function () { showPtip(null); });
@@ -428,16 +458,20 @@
     m.__el = d;
     return d;
   }
-  function loadWineRegions() {
-    if (S.wLoading) return S.wLoading;
-    // [ad, "", ülke, enlem, boylam, "w", açıklama, üzümler]: Michelin noktalarıyla aynı biçim
-    S.wLoading = getJSON("data/wine_regions.json").then(function (d) {
-      S.wineRegions = d.map(function (r) { return [r[0], "", r[1], r[2], r[3], "w", r[4], r[5]]; });
+  // [ad, "", ülke, enlem, boylam, kod (w/c/k), açıklama, çeşitler]: Michelin noktalarıyla aynı biçim
+  var regLoading = {};
+  function loadRegions(key) {
+    if (regLoading[key]) return regLoading[key];
+    S.regions = S.regions || {};
+    regLoading[key] = getJSON(PRODS[key].file).then(function (d) {
+      S.regions[key] = d.map(function (r) { return [r[0], "", r[1], r[2], r[3], PRODS[key].code, r[4], r[5]]; });
+      if (key === "wine") S.wineRegions = S.regions[key];
       legend();
-      return S.wineRegions;
-    }).catch(function () { S.wineRegions = []; return []; });
-    return S.wLoading;
+      return S.regions[key];
+    }).catch(function () { S.regions[key] = []; return []; });
+    return regLoading[key];
   }
+  function loadWineRegions() { return loadRegions("wine"); }
   function loadMichelin() {
     if (S.mLoading) return S.mLoading;
     S.mLoading = getJSON("data/michelin.json").then(function (d) {
@@ -463,7 +497,7 @@
   }
   // Üzerine gelince küçük bilgi: Michelin noktaları ve şarap bölgeleri
   function ptipHtml(m) {
-    if (m[5] === "w") return '<span style="color:' + MCOL.w + '">🍷</span> <b>' + esc(m[0]) + "</b> <span>· " + esc(cname(m[2])) + "</span>";
+    if (CODE2PROD[m[5]]) return '<span style="color:' + MCOL[m[5]] + '">' + PRODS[CODE2PROD[m[5]]].icon + "</span> <b>" + esc(m[0]) + "</b> <span>· " + esc(cname(m[2])) + "</span>";
     return '<span style="color:' + MCOL[m[5]] + '">' + (m[5] === "b" ? "Bib" : stars(m[5])) + "</span> <b>" + esc(m[0]) + "</b> <span>· " +
       esc([m[1], m[2] ? cname(m[2]) : ""].filter(Boolean).join(", ")) + "</span>";
   }
@@ -495,9 +529,9 @@
   function stars(a) { return a === "b" ? "Bib" : new Array(a + 1).join("★"); }
   function showMcard(m) {
     var c = document.getElementById("mcard");
-    if (m[5] === "w") {
+    if (CODE2PROD[m[5]]) {
       c.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button>' +
-        '<div class="mc-a" style="color:' + MCOL.w + '">🍷 ' + esc(t("wineRegions")) + "</div><b>" + esc(m[0]) + "</b><span>" + esc(cname(m[2])) + "</span>" +
+        '<div class="mc-a" style="color:' + MCOL[m[5]] + '">' + PRODS[CODE2PROD[m[5]]].icon + " " + esc(t(CODE2PROD[m[5]] + "Regions")) + "</div><b>" + esc(m[0]) + "</b><span>" + esc(cname(m[2])) + "</span>" +
         (L(m[6]) ? "<span>" + esc(L(m[6])) + "</span>" : "") + (m[7] && m[7].length ? "<span>🍇 " + esc(m[7].join(", ")) + "</span>" : "") +
         '<button class="mc-c" data-iso="' + m[2] + '">' + esc(t("openCountry")) + " →</button>";
       c.hidden = false;
@@ -542,15 +576,15 @@
   function renderRank() {
     var box = document.getElementById("rank");
     if (!box) return;
-    var mode = LY.color === "wine" ? "wine" : "score";
+    var mode = PRODS[LY.color] ? LY.color : "score", prod = mode !== "score";
     var list = Object.keys(S.index).map(function (k) { return S.index[k]; })
-      .filter(function (c) { return mode === "wine" ? c.wine : c.score != null; })
-      .sort(function (a, b) { return mode === "wine" ? b.wine - a.wine : b.score - a.score || cname(a.iso3).localeCompare(cname(b.iso3), lang); });
+      .filter(function (c) { return prod ? c[mode] : c.score != null; })
+      .sort(function (a, b) { return prod ? b[mode] - a[mode] : b.score - a.score || cname(a.iso3).localeCompare(cname(b.iso3), lang); });
     if (!list.length || LY.color === "none") { box.hidden = true; return; }
     box.hidden = false;
     var all = !!S.rankAll, shown = all ? list : list.slice(0, 10), rank = 0, prev = null;
     var open = S.rkOpen !== undefined ? S.rkOpen : window.innerWidth > 720;
-    var h = '<div class="rk-h"><b class="rk-title" role="button" tabindex="0">🏆 ' + esc(t(mode === "wine" ? "rankWine" : "rankScore")) + " " + (open ? "▾" : "▸") +
+    var h = '<div class="rk-h"><b class="rk-title" role="button" tabindex="0">🏆 ' + esc(t(prod ? "rank" + mode.charAt(0).toUpperCase() + mode.slice(1) : "rankScore")) + " " + (open ? "▾" : "▸") +
       "</b>" + (open ? '<button class="rk-toggle">' + esc(all ? t("showTop") : t("showAll", { n: list.length })) + "</button>" : "") + "</div>";
     if (!open) {
       box.innerHTML = h;
@@ -559,13 +593,13 @@
     }
     h += '<ol class="rk-list">';
     shown.forEach(function (c, i) {
-      var v = mode === "wine" ? c.wine : c.score;
+      var v = prod ? c[mode] : c.score;
       if (v !== prev) { rank = i + 1; prev = v; }        // eşit puanlar aynı sırayı paylaşır
-      var col = mode === "wine" ? wineColor(v) : scoreColor(v);
-      var val = mode === "wine" ? new Intl.NumberFormat(lang, { notation: "compact", maximumFractionDigits: 1 }).format(v) + " t" : v;
+      var col = prod ? prodColor(mode, v) : scoreColor(v);
+      var val = prod ? new Intl.NumberFormat(lang, { notation: "compact", maximumFractionDigits: 1 }).format(v) + " t" : v;
       h += '<li><button data-iso="' + c.iso3 + '"' + (S.country && S.country.iso3 === c.iso3 ? ' class="on"' : "") + '><span class="rk-n">' + rank +
         '</span><span class="rk-f">' + flag(c.iso2) + '</span><span class="rk-c">' + esc(cname(c.iso3)) +
-        '</span><span class="rk-v" style="--c:' + col + (mode === "wine" && v > 60000 ? ";color:#fff" : "") + '">' + val + "</span></button></li>";
+        '</span><span class="rk-v" style="--c:' + col + (prod && v > 60000 ? ";color:#fff" : "") + '">' + val + "</span></button></li>";
     });
     box.innerHTML = h + "</ol>";
     box.querySelector(".rk-toggle").addEventListener("click", function () { S.rankAll = !S.rankAll; renderRank(); });
@@ -584,8 +618,9 @@
   function has(f) { var c = S.index[f.properties.iso]; return !!(c && (c.recipes || c.signature || c.score != null)); }
   function capColor(f) {
     var c = S.index[f.properties.iso], lift = f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0;
-    var blank = f === S.selected ? "#6a5442" : f === S.hover ? "#4a3d33" : LY.color === "none" ? "#3a2e25" : "#2b231d";
-    if (LY.color === "wine") return c && c.wine ? wineColor(c.wine, lift) : blank;
+    // Ürün modlarında üretimi olmayan ülkeler mavi-gri: kahverengi ölçekle karışmasın
+    var blank = f === S.selected ? "#6a5442" : f === S.hover ? "#4a3d33" : LY.color === "none" ? "#3a2e25" : PRODS[LY.color] ? "#2e3743" : "#2b231d";
+    if (PRODS[LY.color]) return c && c[LY.color] ? prodColor(LY.color, c[LY.color], lift) : blank;
     if (LY.color !== "score" || !c || c.score == null) return blank;
     return scoreColor(c.score, lift);
   }
@@ -775,7 +810,7 @@
       }).join("") + "</div></section>";
     }
     h += flav(c.spices, "spices", "🌶️") + flav(c.sauces, "sauces", "🥣");
-    h += wineSec(c) + restSec(c);
+    h += prodSec(c, "wine") + prodSec(c, "coffee") + prodSec(c, "cocoa") + restSec(c);
     h += '<section class="sec" id="msec"></section>';
     h += '<section class="sec"><h3>' + esc(t("production")) + "</h3>" + bars(c.production, "prod") + "</section>";
     h += '<section class="sec"><h3>' + esc(t("exports")) + "</h3>" + bars(c.exports, "exp") + "</section>";
@@ -806,11 +841,11 @@
     animateScore();
     Array.prototype.forEach.call(body.querySelectorAll(".wreg"), function (b) {
       b.addEventListener("click", function () {
-        var r = c.wine.regions[+b.dataset.i];
-        if (!LY.wr) { LY.wr = true; legend(); }
-        loadWineRegions().then(function () {
+        var key = b.dataset.k || "wine", r = c[key].regions[+b.dataset.i], P = PRODS[key];
+        if (!LY[P.ly]) { LY[P.ly] = true; legend(); }
+        loadRegions(key).then(function () {
           applyLayers();
-          var m = (S.wineRegions || []).find(function (x) { return x[2] === c.iso3 && x[0] === r.name; });
+          var m = (S.regions[key] || []).find(function (x) { return x[2] === c.iso3 && x[0] === r.name; });
           globe.pointOfView({ lat: r.lat - (window.innerWidth <= 720 ? 2 : 0), lng: r.lng + (window.innerWidth <= 720 ? 0 : 3), altitude: 0.5 }, 1200);
           if (m) showMcard(m);
         });
@@ -825,25 +860,30 @@
     }).join("") + "</details>";
   }
   function fmtN(v) { return new Intl.NumberFormat(lang).format(Math.round(v)); }
-  function wineSec(c) {
-    var w = c.wine;
+  // Şarap / kahve / kakao bölümü (aynı yapı)
+  function prodSec(c, key) {
+    var w = c[key], P = PRODS[key];
     if (!w) return "";
-    var h = '<section class="sec wine"><h3>🍷 ' + esc(t("wineTitle")) + "</h3>";
-    if (w.production) h += '<div class="w-prod">' + esc(t("wineProd", { v: fmtN(w.production.value), y: w.production.year, r: w.production.rank })) +
-      (w.exports ? "<br>" + esc(t("wineExp", { v: fmtUSD(w.exports.value), y: w.exports.year })) : "") + "</div>";
+    var vars = w.varieties || w.grapes || [];
+    var T = key === "wine" ? { title: "wineTitle", prod: "wineProd", exp: "wineExp", vr: "grapes", st: "wineStyles" }
+      : { title: key + "Title", prod: key + "Prod", exp: key + "Exp", vr: key + "Var", st: key + "Styles" };
+    var h = '<section class="sec wine prod-' + key + '"><h3>' + P.icon + " " + esc(t(T.title)) + "</h3>";
+    if (w.production) h += '<div class="w-prod">' + esc(t(T.prod, { v: fmtN(w.production.value), y: w.production.year, r: w.production.rank })) +
+      (w.exports ? "<br>" + esc(t(T.exp, { v: fmtUSD(w.exports.value), y: w.exports.year })) : "") + "</div>";
     if (w.summary && L(w.summary)) h += '<p class="w-sum">' + esc(L(w.summary)) + "</p>";
-    if (w.grapes && w.grapes.length) h += "<h4>" + esc(t("grapes")) + '</h4><div class="grapes">' + w.grapes.map(function (g) {
+    if (vars.length) h += "<h4>" + esc(t(T.vr)) + '</h4><div class="grapes">' + vars.map(function (g) {
       return '<span class="grape ' + g.type + '" title="' + esc(L(g.desc)) + '">' + esc(g.name) + (g.native ? " <em>" + esc(t("native")) + "</em>" : "") + "</span>";
     }).join("") + "</div>";
     if (w.regions && w.regions.length) h += "<h4>" + esc(t("regionsT")) + '</h4><div class="wregs">' + w.regions.map(function (r, i) {
-      return '<button class="wreg" data-i="' + i + '"><b>' + esc(r.name) + "</b>" + esc(L(r.desc)) + "</button>";
+      return '<button class="wreg" data-k="' + key + '" data-i="' + i + '"><b>' + esc(r.name) + "</b>" + esc(L(r.desc)) + "</button>";
     }).join("") + "</div>";
-    if (w.styles && w.styles.length) h += "<h4>" + esc(t("wineStyles")) + "</h4>" + w.styles.map(function (x) {
+    if (w.styles && w.styles.length) h += "<h4>" + esc(t(T.st)) + "</h4>" + w.styles.map(function (x) {
       return '<div class="wsty"><b>' + esc(x.name) + "</b> " + esc(L(x.desc)) + "</div>";
     }).join("");
     if (w.date) h += '<div class="src">' + esc(t("researched", { d: w.date })) + "</div>" + srcList(w.sources);
     return h + "</section>";
   }
+  function wineSec(c) { return prodSec(c, "wine"); }
   function restSec(c) {
     var r = c.restaurants;
     if (!r || !r.restaurants || !r.restaurants.length) return "";

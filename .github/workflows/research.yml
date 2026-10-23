@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       stages:
-        description: "Aşamalar: wine restaurants top10"
+        description: "Aşamalar: wine restaurants coffee cocoa top10"
         default: "wine restaurants"
       only:
         description: "Yalnızca bu ülkeler (ör. FRA,TUR; boş = hepsi)"
@@ -32,7 +32,7 @@ jobs:
         run: |
           save() {
             git config user.name "atlas-bot"; git config user.email "atlas-bot@users.noreply.github.com"
-            for f in data/work/wine data/work/restaurants data/work/research_cost.json data/work/research_log.txt data/top10.json; do [ -e "$f" ] && git add "$f"; done
+            for f in data/work/wine data/work/restaurants data/work/coffee data/work/cocoa data/work/research_cost.json data/work/research_log.txt data/top10.json; do [ -e "$f" ] && git add "$f"; done
             git diff --cached --quiet || git commit -q -m "Araştırma: $1"
             for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
           }

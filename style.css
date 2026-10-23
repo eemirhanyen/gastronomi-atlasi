@@ -80,6 +80,16 @@ button { font: inherit; color: inherit; }
 .wmark i { width: 12px; height: 12px; border-radius: 50%; flex: none; background: radial-gradient(circle at 35% 35%, #ff9cbd, #b0124d 70%);
   border: 1.5px solid rgba(255,255,255,.9); box-shadow: 0 0 0 3px rgba(224,69,123,.28), 0 1px 4px rgba(0,0,0,.6); transition: transform .15s; }
 .wmark:hover i, .wmark.on i { transform: scale(1.35); }
+.wm-c i { background: radial-gradient(circle at 35% 35%, #f3cf9a, #7a4a1c 70%); box-shadow: 0 0 0 3px rgba(217,162,95,.3), 0 1px 4px rgba(0,0,0,.6); }
+.wm-k i { background: radial-gradient(circle at 35% 35%, #d99a76, #5a2210 70%); box-shadow: 0 0 0 3px rgba(160,82,45,.32), 0 1px 4px rgba(0,0,0,.6); }
+.wm-c span { color: #f6e2c4; }
+.wm-k span { color: #f1d0bd; }
+.prod-coffee .w-prod { background: rgba(217,162,95,.1); border-color: rgba(217,162,95,.35); }
+.prod-cocoa .w-prod { background: rgba(160,82,45,.12); border-color: rgba(160,82,45,.4); }
+.grape.arabica { border-color: rgba(217,162,95,.6); }
+.grape.robusta { border-color: rgba(140,90,50,.7); }
+.grape.criollo, .grape.trinitario { border-color: rgba(200,120,80,.6); }
+.grape.forastero { border-color: rgba(120,60,30,.7); }
 .wmark span { display: none; font: 600 11px Inter, sans-serif; color: #ffe1ec; text-shadow: 0 1px 3px #000, 0 0 6px #000; }
 #globe.zoomed .wmark span, .wmark:hover span, .wmark.on span { display: inline; }
 
@@ -209,7 +219,7 @@ body.panel-open .rank { display: none; }
 .lg-ticks { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; }
 .lg-s { color: var(--muted); font-size: 11px; margin-top: 6px; }
 .lg-none { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 11px; margin-top: 4px; }
-.lg-none i { width: 10px; height: 10px; border-radius: 2px; background: #2b231d; border: 1px solid var(--line); }
+.lg-none i { width: 10px; height: 10px; border-radius: 2px; background: #2e3743; border: 1px solid var(--line); }
 /* Puan kartı */
 .sc { position: relative; display: flex; gap: 18px; align-items: center; margin-top: 20px; padding: 18px; border-radius: 18px; overflow: hidden;
   background: radial-gradient(120% 140% at 0% 0%, color-mix(in srgb, var(--sc) 28%, transparent), transparent 60%), var(--surface-2);
