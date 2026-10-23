@@ -277,3 +277,6 @@ wine: 4 ülke, model claude-sonnet-5-5
   UKR: 4 bölge, 8 üzüm, 2 arama, $0.110
   VNM: 3 bölge, 7 üzüm, 1 arama, $0.069
 wine: 4 tamam, 0 hata; bu çalıştırma $0.397 (7 arama, 85510 giriş / 15617 çıkış token); araştırma toplamı $14.64
+restaurants: 1 ülke, model claude-haiku-5-5
+  CYN: 7 restoran, 0 elendi, 3 arama, $0.035
+restaurants: 1 tamam, 0 hata; bu çalıştırma $0.035 (3 arama, 33442 giriş / 3420 çıkış token); araştırma toplamı $14.67
