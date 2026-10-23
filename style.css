@@ -45,20 +45,14 @@ button { font: inherit; color: inherit; }
 
 /* Şarap bölgesi işaretleri (düz, HTML) */
 .wmark { transform: translate(-7px, -7px); display: flex; align-items: center; gap: 5px; pointer-events: auto; cursor: pointer; white-space: nowrap; }
-.wmark i { width: 12px; height: 12px; border-radius: 50%; flex: none; background: radial-gradient(circle at 35% 35%, #ff9cbd, #b0124d 70%);
-  border: 1.5px solid rgba(255,255,255,.9); box-shadow: 0 0 0 3px rgba(224,69,123,.28), 0 1px 4px rgba(0,0,0,.6); transition: transform .15s; }
+.wmark i { width: 12px; height: 12px; border-radius: 50%; flex: none; background: radial-gradient(circle at 35% 35%, #a5582a, #3a1808 70%);
+  border: 1.5px solid rgba(255,255,255,.95); box-shadow: 0 0 0 2px rgba(0,0,0,.25), 0 1px 4px rgba(0,0,0,.6); transition: transform .15s; }
 .wmark:hover i, .wmark.on i { transform: scale(1.35); }
-.wm-c i { background: radial-gradient(circle at 35% 35%, #f3cf9a, #7a4a1c 70%); box-shadow: 0 0 0 3px rgba(217,162,95,.3), 0 1px 4px rgba(0,0,0,.6); }
-.wm-k i { background: radial-gradient(circle at 35% 35%, #d99a76, #5a2210 70%); box-shadow: 0 0 0 3px rgba(160,82,45,.32), 0 1px 4px rgba(0,0,0,.6); }
-.wm-c span { color: #f6e2c4; }
-.wm-k span { color: #f1d0bd; }
-.prod-coffee .w-prod { background: rgba(217,162,95,.1); border-color: rgba(217,162,95,.35); }
-.prod-cocoa .w-prod { background: rgba(160,82,45,.12); border-color: rgba(160,82,45,.4); }
 .grape.arabica { border-color: rgba(217,162,95,.6); }
 .grape.robusta { border-color: rgba(140,90,50,.7); }
 .grape.criollo, .grape.trinitario { border-color: rgba(200,120,80,.6); }
 .grape.forastero { border-color: rgba(120,60,30,.7); }
-.wmark span { display: none; font: 600 11px Inter, sans-serif; color: #ffe1ec; text-shadow: 0 1px 3px #000, 0 0 6px #000; }
+.wmark span { display: none; font: 600 11px Inter, sans-serif; color: #fff1dc; text-shadow: 0 1px 3px #000, 0 0 6px #000; }
 #globe.zoomed .wmark span, .wmark:hover span, .wmark.on span { display: inline; }
 
 /* Nokta üzerine gelme bilgisi */
@@ -118,7 +112,7 @@ body.pt-hover .float-tooltip-kap, body.pt-hover .scene-tooltip { display: none !
 
 /* Şarap ve restoran bölümleri */
 .wine h4 { margin: 14px 0 6px; font-size: 12px; color: var(--muted); font-weight: 600; }
-.w-prod { font-size: 13px; background: rgba(224,69,123,.1); border: 1px solid rgba(224,69,123,.3); border-radius: 12px; padding: 10px 12px; line-height: 1.5; }
+.w-prod { font-size: 13px; background: rgba(240,162,59,.1); border: 1px solid rgba(240,162,59,.32); border-radius: 12px; padding: 10px 12px; line-height: 1.5; }
 .w-sum { font-size: 13.5px; line-height: 1.55; color: #d8cabb; margin: 10px 0 0; }
 .grapes { display: flex; flex-wrap: wrap; gap: 6px; }
 .grape { font-size: 12.5px; border-radius: 999px; padding: 4px 10px; border: 1px solid var(--line); background: var(--surface-2); }
@@ -303,10 +297,19 @@ body.panel-open .bottom { right: min(500px, 100vw); }
 .dock::-webkit-scrollbar { display: none; }
 .lens { flex: none; width: 70px; display: flex; flex-direction: column; align-items: center; gap: 4px; border: 0; background: transparent; padding: 6px 2px 5px; border-radius: 16px; cursor: pointer; color: var(--muted); transition: background .2s, color .2s; }
 .lens:hover { background: rgba(255,255,255,.04); color: var(--text); }
-.li { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; background: var(--surface-3); transition: transform .2s, box-shadow .2s, background .2s; }
+/* Cam küre: yarı şeffaf gövde, üstte ışık yansıması, altta iç gölge */
+.li { position: relative; width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px;
+  background: radial-gradient(circle at 50% 60%, rgba(255,255,255,.05), rgba(255,255,255,.12) 62%, rgba(255,255,255,.26) 100%);
+  border: 1px solid rgba(255,255,255,.2); box-shadow: inset 0 -6px 10px rgba(0,0,0,.35), inset 0 2px 6px rgba(255,255,255,.12), 0 4px 10px rgba(0,0,0,.35);
+  transition: transform .25s cubic-bezier(.2,.9,.3,1.4), box-shadow .25s, background .25s; }
+.li::before { content: ""; position: absolute; left: 22%; top: 9%; width: 46%; height: 30%; border-radius: 50%; pointer-events: none;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,0)); }
+.lens:hover .li { transform: translateY(-3px) scale(1.06); }
 .ll { font-size: 11px; font-weight: 600; letter-spacing: .01em; white-space: nowrap; }
 .lens.on { color: var(--accent); }
-.lens.on .li { background: radial-gradient(circle at 35% 30%, #ffc56e, #e2643c); box-shadow: 0 0 0 3px rgba(240,162,59,.25), 0 6px 16px rgba(226,100,60,.4); transform: translateY(-2px); }
+.lens.on .li { background: radial-gradient(circle at 50% 60%, rgba(240,162,59,.25), rgba(240,162,59,.45) 62%, rgba(255,196,110,.75) 100%);
+  border-color: rgba(255,214,150,.75); box-shadow: inset 0 -6px 10px rgba(120,40,0,.4), inset 0 2px 6px rgba(255,255,255,.25), 0 0 0 3px rgba(240,162,59,.22), 0 0 22px rgba(240,162,59,.55);
+  transform: translateY(-3px) scale(1.1); }
 
 .legend { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: center; max-width: min(820px, calc(100% - 24px));
   padding: 7px 8px 7px 14px; border-radius: 999px; background: rgba(28,21,17,.82); border: 1px solid var(--line); backdrop-filter: blur(10px); font-size: 12px; }
@@ -358,7 +361,7 @@ body.panel-open .credit { display: none; }
 .c-sc { flex: none; font: 700 12px var(--serif); padding: 2px 8px; border-radius: 999px; background: var(--c); color: #1a120b; }
 .tabs { display: flex; gap: 4px; margin: 14px -24px 0; padding: 0 20px; overflow-x: auto; scrollbar-width: none; }
 .tabs::-webkit-scrollbar { display: none; }
-.tab { flex: none; border: 0; background: transparent; color: var(--muted); padding: 9px 10px 11px; font-size: 13px; font-weight: 600; cursor: pointer; border-bottom: 2px solid transparent; white-space: nowrap; }
+.tab { flex: none; border: 0; background: transparent; color: var(--muted); padding: 9px 8px 11px; font-size: 13px; font-weight: 600; cursor: pointer; border-bottom: 2px solid transparent; white-space: nowrap; }
 .tab:hover { color: var(--text); }
 .tab.on { color: var(--text); border-bottom-color: var(--accent); }
 .tab em { font-style: normal; font-weight: 500; color: var(--muted); font-size: 11.5px; margin-left: 2px; }
