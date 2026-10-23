@@ -81,10 +81,15 @@ def slug(s):
 
 
 def extract_json(text):
-    m = re.search(r"\{.*\}", text, re.S)
-    if not m:
+    """Metindeki ilk geçerli JSON nesnesi (sonrasında açıklama ya da ikinci bir nesne olsa da)."""
+    i = text.find("{")
+    if i < 0:
         raise ValueError("JSON yok")
-    return json.loads(m.group(0))
+    try:
+        return json.JSONDecoder().raw_decode(text[i:])[0]
+    except json.JSONDecodeError:
+        m = re.search(r"\{.*\}", text, re.S)
+        return json.loads(m.group(0))
 
 
 # ------------------------------------------------------------------ Claude toplu istek
