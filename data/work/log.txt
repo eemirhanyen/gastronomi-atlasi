@@ -1228,3 +1228,14 @@ Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
 build: 200 ülke, 3565 tarif
 denetim: yarım cümleyle biten metin 0
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== pairing
+pairing: 313 tarif (hazır 2813)
+  43 istek
+  [pairing] batch msgbatch_01VyfCtLJtpS4gaN7baJ2xk4: 43 istek
+    300s {'processing': 43, 'succeeded': 0, 'errored': 0, 'canceled': 0, 'expired': 0}
+    600s {'processing': 0, 'succeeded': 43, 'errored': 0, 'canceled': 0, 'expired': 0}
+  [pairing] tamam: 43 yanıt, başarısız 0
+  geçersiz: pr_CHL_0/alfajores anahtarlar=['chilean-salad', 'sweet-corn-tamales-humitas', 'chilean-fried-bread-sopaipillas', 'country-bread-pan-amasado', 'marraqueta'] örnek='{"items":[{"id":"chilean-salad","style":{"tr":"Kuru, hafif gövdeli, çok canlı asitli ve otsu beyaz","en":"Dry, light-bodied, high-acid, herbaceous white"},"wines":["Sauvignon Blanc (Casablanca)","Sauvignon Blanc (Leyda)","Vinho Verde"],"loc'
+  geçersiz: pr_COL_0/tolima-tamale anahtarlar=['ajiaco-santafereno', 'chicken-sancocho', 'tripe-soup', 'bandeja-paisa', 'lechona-tolimense'] örnek='{"items":[{"id":"ajiaco-santafereno","style":{"tr":"Kuru, hafif gövdeli, canlı asitli ve otsu beyaz","en":"Dry, light-bodied white with lively acidity and herbal notes"},"wines":["Sauvignon Blanc","Riesling (kuru)","Chablis (Chardonnay)"],"'
+  toplam eşleştirme 3124, geçersiz yanıt 2
+Token: giriş 192785, çıkış 137176 (model claude-haiku-5-5)
