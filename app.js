@@ -132,8 +132,11 @@
     var f = S.geo && S.geo.features.find(function (x) { return x.properties.iso === iso3; });
     return f && f.properties.iso2;
   }
+  // ISO kodu olmayan ya da özel adlandırılan yerler
+  var NAMES = { CYN: { tr: "KKTC", en: "Northern Cyprus" } };
   var dn = {};
   function cname(iso3) {
+    if (NAMES[iso3]) return NAMES[iso3][lang] || NAMES[iso3].en;
     var c = S.index[iso3], f0 = S.geo && S.geo.features.find(function (x) { return x.properties.iso === iso3; });
     var iso2 = (c && c.iso2) || (f0 && f0.properties.iso2);
     if (iso2) {

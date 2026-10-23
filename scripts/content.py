@@ -43,7 +43,7 @@ UA = {"User-Agent": "gastronomi-atlasi/1.0 (https://github.com/eemirhanyen/gastr
 POLL_EVERY, POLL_LIMIT = 30, 5 * 3600
 
 # Egemen ülkeler + haritada ayrı görünen birkaç yer
-EXTRA = ["PSE", "XKX", "TWN", "GRL", "PRI"]
+EXTRA = ["PSE", "XKX", "TWN", "GRL", "PRI", "CYN"]
 TARGETS = sorted({k for k, v in REF.items() if v.get("sovereign")} | set(EXTRA))
 
 CATEGORIES = ["soup", "main", "side", "salad", "bread", "pastry", "dessert", "drink", "snack", "breakfast", "sauce", "street_food"]
