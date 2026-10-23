@@ -150,10 +150,12 @@ def checkpoint(msg, every=900):
         return
     sh("git", "commit", "-q", "-m", f"Ara kayıt: {msg}")
     for _ in range(3):
-        if sh("git", "pull", "-q", "--rebase").returncode == 0 and sh("git", "push", "-q").returncode == 0:
+        if sh("git", "pull", "-q", "--rebase", "-X", "theirs").returncode == 0 and sh("git", "push", "-q").returncode == 0:
             log(f"  ara kayıt yapıldı ({msg})")
             return
+        sh("git", "rebase", "--abort")
         time.sleep(5)
+    log("  UYARI: ara kayıt gönderilemedi (iş sonundaki kayıt yeniden dener)")
 
 
 def run_batch(requests, label, _retry=False):

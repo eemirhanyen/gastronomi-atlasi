@@ -34,7 +34,14 @@ jobs:
             git config user.name "atlas-bot"; git config user.email "atlas-bot@users.noreply.github.com"
             git add -A data
             git diff --cached --quiet || git commit -q -m "İçerik: $1"
-            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+            # Çakışmada bu işin ürettiği veri öncelikli (-X theirs = yeniden uygulanan kendi commit'imiz).
+            # Gönderilemezse iş sessizce "başarılı" bitmesin: sonuç kaybolur (bkz. 24 Ekim pilot).
+            ok=""
+            for i in 1 2 3 4 5; do
+              if git pull -q --rebase -X theirs && git push -q; then ok=1; break; fi
+              git rebase --abort 2>/dev/null || true; sleep $((i * 5))
+            done
+            [ -n "$ok" ] || { echo "HATA: değişiklikler depoya gönderilemedi"; exit 1; }
           }
           set -o pipefail
           stages="${{ inputs.stages }}"
