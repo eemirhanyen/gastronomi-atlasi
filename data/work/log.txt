@@ -1158,3 +1158,15 @@ Token: giriş 135415, çıkış 140445 (model claude-haiku-5-5)
 build: 200 ülke, 3565 tarif
 denetim: yarım cümleyle biten metin 0
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== pairing
+pairing: 3126 tarif (hazır 0)
+  469 istek
+  [pairing] batch msgbatch_01M4CVm6CUEDmCF99TkkfjGd: 469 istek
+  [pairing] tamam: 469 yanıt, başarısız 0
+  geçersiz: pr_ARE_0/machboos anahtarlar=['machboos', 'soft'] örnek='{"machboos":{"style":{"tr":"Kuru, aromatik, orta gövdeli, canlı asitli beyaz","en":"Dry, aromatic, medium-bodied white with lively acidity"},"wines":["Viognier","Chenin Blanc (Vouvray sec)","Grenache Rosé"],"local":false,"why":{"tr":"Viogni'
+  geçersiz: pr_ARE_0/harees anahtarlar=['machboos', 'soft'] örnek='{"machboos":{"style":{"tr":"Kuru, aromatik, orta gövdeli, canlı asitli beyaz","en":"Dry, aromatic, medium-bodied white with lively acidity"},"wines":["Viognier","Chenin Blanc (Vouvray sec)","Grenache Rosé"],"local":false,"why":{"tr":"Viogni'
+  geçersiz: pr_ARE_0/thareed anahtarlar=['machboos', 'soft'] örnek='{"machboos":{"style":{"tr":"Kuru, aromatik, orta gövdeli, canlı asitli beyaz","en":"Dry, aromatic, medium-bodied white with lively acidity"},"wines":["Viognier","Chenin Blanc (Vouvray sec)","Grenache Rosé"],"local":false,"why":{"tr":"Viogni'
+  pr_MNG_0 çözülemedi: Expecting property name enclosed in double quotes: line 1 column 544 (char 543) | '{"buuz":{"style":{"tr":"Kuru, hafif gövdeli, yumuşak tanenli, toprak tonlu kırmızı","en":"Dry, light-bodied red with soft tannins and earthy notes"},"wines":["Pinot Noir","Beaujolais Cru (Gamay)"],"lo'
+  pr_NLD_1 çözülemedi: Expecting property name enclosed in double quotes: line 1 column 525 (char 524) | '{"oliebollen":{"style":{"tr":"Yarı kuru, ince köpüklü ve canlı asitli beyaz","en":"Off-dry, fine-bubbled white with lively acidity"},"wines":["Champagne Demi-Sec","Moscato d\'Asti","Crémant d\'Alsace De'
+  toplam eşleştirme 2813, geçersiz yanıt 297
+Token: giriş 1719084, çıkış 1612200 (model claude-haiku-5-5)
