@@ -1,0 +1,168 @@
+{
+ "iso3": "MDG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23153,
+  "out": 3298,
+  "searches": 2
+ },
+ "usd": 0.0993,
+ "summary": {
+  "tr": "Kakao Madagaskar'a Fransız sömürge döneminde, 19. yüzyıl sonu ile 20. yüzyıl başında getirildi. İlk plantasyonlar doğu kıyısında Brickaville çevresinde kuruldu. Üretim sonradan kuzeybatıdaki Sambirano Vadisi'nde (Ambanja) yoğunlaştı. Ülke bugün dünya üretiminde küçük bir paya sahip ama Criollo–Trinitario kökenli, kırmızı meyve ve narenciye notalı ince aromalı kakaosuyla ünlü. Yerel çikolata gelene",
+  "en": "The French introduced cacao to Madagascar in the late 19th and early 20th centuries. The first plantations were on the east coast around Brickaville. Production later concentrated in the Sambirano Valley around Ambanja in the northwest. The country has a small share of world output, but its Criollo–Trinitario-type fine-flavour cacao is famous for red-fruit and citrus notes. Local chocolate-making "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Sambirano Valley / Ambanja",
+   "lat": -13.68,
+   "lng": 48.45,
+   "desc": {
+    "tr": "Madagaskar kakaosunun ana bölgesi olan bu kuzeybatı nehir vadisi, ince aromalı Criollo–Trinitario çekirdekleriyle tanınır.",
+    "en": "This northwestern river valley is the core of Madagascar's cacao and is known for its fine-flavour Criollo–Trinitario beans."
+   },
+   "grapes": [
+    "Criollo-Trinitario",
+    "Trinitario",
+    "Forastero/Amelonado",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Nosy Be",
+   "lat": -13.33,
+   "lng": 48.25,
+   "desc": {
+    "tr": "Ambanja açıklarındaki bu adada daha küçük bir kakao yetiştirme alanı ve bazı yabancı çikolata üreticilerinin plantasyonları bulunur.",
+    "en": "This island off Ambanja has a smaller cacao-growing area, including small plantations owned by some foreign chocolate makers."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo-Trinitario"
+   ]
+  },
+  {
+   "name": "Ambilobe (Diana)",
+   "lat": -13.19,
+   "lng": 49.05,
+   "desc": {
+    "tr": "Sambirano'nun kuzeydoğusundaki Ambilobe çevresinde, Ambanja ile birlikte kurulan sömürge dönemi plantasyonları yer alır.",
+    "en": "Colonial-era plantations were set up around Ambilobe, northeast of the Sambirano, alongside those at Ambanja."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero/Amelonado"
+   ]
+  },
+  {
+   "name": "Brickaville (Ampasimanolotra)",
+   "lat": -18.82,
+   "lng": 49.07,
+   "desc": {
+    "tr": "Doğu kıyısındaki bu bölge ülkenin ilk kakao plantasyonlarına ev sahipliği yaptı ve bugün yeniden canlandırılmaya çalışılıyor.",
+    "en": "This east-coast area hosted the country's first cacao plantations and is now the focus of efforts to rebuild local cocoa expertise."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero/Amelonado"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Sambirano Criollo-Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Güçlü Criollo genetiği taşıyan Trinitario melezleri; narenciye, kırmızı meyve ve baharat notaları verir.",
+    "en": "Trinitario hybrids with strong Criollo genetics, giving citrus, red-fruit and spicy notes."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Fransız sömürge döneminde getirilen Criollo ile Forastero melezleri, Madagaskar kakaosunun genetik temelini oluşturur.",
+    "en": "Criollo–Forastero hybrids introduced under French colonial rule form the genetic backbone of Malagasy cacao."
+   }
+  },
+  {
+   "name": "Heirloom Criollo (Sambirano)",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Sambirano'da yağışlı dağ eteklerinde yetişen, Akesson'un Bejofo çiftliğinden gelen Heirloom Cacao Preservation onaylı nadir bir Criollo partisi vardır.",
+    "en": "Rare Criollo grows in the rainy foothills of the Sambirano, including an Heirloom Cacao Preservation-accredited lot from the Akesson estate."
+   }
+  },
+  {
+   "name": "Forastero (Amelonado)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Genetik çalışmalarda Amelonado tipi ağaçlar da bulundu; bunlar karışık popülasyona yapı ve verim katar.",
+    "en": "Genetic sampling also found Amelonado-type trees, which add structure and yield to the mixed population."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Single-origin Sambirano bean-to-bar chocolate",
+   "desc": {
+    "tr": "Chocolaterie Robert ve Cinagra gibi yerel üreticiler, Sambirano kakaosunu Madagaskar'da işleyerek tek menşeli bitter çikolata yapar.",
+    "en": "Local makers such as Chocolaterie Robert and Cinagra process Sambirano cacao in Madagascar into single-origin dark chocolate."
+   }
+  },
+  {
+   "name": "Red-fruit dark chocolate",
+   "desc": {
+    "tr": "Madagaskar çikolatası, ahududu ve narenciye gibi meyvemsi aromalarla ve canlı asiditeyle tanınır; bu aromalar katkıdan değil kakaonun genetiğinden ve terroir'ından gelir.",
+    "en": "Madagascar chocolate is known for raspberry-like and citrus fruitiness with bright acidity, which comes from the cacao's genetics and terroir rather than from additives."
+   }
+  },
+  {
+   "name": "Handmade pralines and gift chocolates",
+   "desc": {
+    "tr": "Antananarivo'daki bazı chocolatier'ler, yerel çikolatayla elde yapılmış pralin ve hediye çikolataları sunar.",
+    "en": "Some chocolatiers in Antananarivo make hand-crafted pralines and gift chocolates using locally made chocolate."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cacao's soul - Domori",
+   "url": "https://domori.com/en/content/39-cacao-s-soul"
+  },
+  {
+   "title": "Bean-to-Bar Chocolate made in Madagascar - Madagascar",
+   "url": "https://www.madacamp.com/Bean-to-Bar_Chocolate_made_in_Madagascar"
+  },
+  {
+   "title": "Madagascar",
+   "url": "https://iferous.com/madagascar"
+  },
+  {
+   "title": "Madagascar Chocolate Guide: Single-Origin Cacao, Producers and Taste · Voyagiste Madagascar",
+   "url": "https://voyagiste-madagascar.com/madagascar-chocolate-guide-single-origin-cacao-producers-and-taste/"
+  },
+  {
+   "title": "Grand Cru de Sambirano - Chocolat Madagascar",
+   "url": "https://www.chocolatmadagascar.com/grand-cru-de-sambirano.html"
+  },
+  {
+   "title": "Fine Malagasy Cocoa - Chocolat Madagascar",
+   "url": "https://www.chocolatmadagascar.com/fine-malagasy-cocoa.html"
+  },
+  {
+   "title": "MEET THE FARMERS",
+   "url": "https://www.maison-kakao.com/meet-the-farmers"
+  },
+  {
+   "title": "Chocolat Madagascar - Fine Dark Chocolate Couverture",
+   "url": "https://www.chocolatmadagascar.com/"
+  }
+ ]
+}

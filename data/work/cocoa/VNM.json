@@ -1,0 +1,203 @@
+{
+ "iso3": "VNM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 25223,
+  "out": 3971,
+  "searches": 2
+ },
+ "usd": 0.1102,
+ "summary": {
+  "tr": "Kakao Vietnam'a 1870'lerde Ben Tre'deki bir Katolik rahibin plantasyonuyla girdi. Fransız sömürge döneminde ve 1980'lerde Sovyet girişimleriyle ekim sınırlı kaldı. Kahve, karabiber ve kaju lehine terk edildi. 1990'lardan itibaren Dünya Bankası ve hükümet programları ile 2000'lerin başındaki özel sektör projeleri kakaoyu yeniden canlandırdı. 2011'de Ho Chi Minh Kenti'nde kurulan Marou, ülkenin ilk ",
+  "en": "Cacao reached Vietnam in the 1870s, when a Catholic priest planted it in Ben Tre. Cultivation stayed marginal under French rule and during a Soviet-era attempt in the 1980s, and many plantings were replaced by coffee, pepper and cashew. World Bank and government programmes from the 1990s, plus private-sector projects in the early 2000s, revived it. Marou, founded in Ho Chi Minh City in 2011 as Vie"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ben Tre (Mekong Deltası)",
+   "lat": 10.24,
+   "lng": 106.38,
+   "desc": {
+    "tr": "Vietnam kakaosunun beşiği sayılan bu verimli alüvyon deltasında kakao çoğunlukla hindistan cevizi ağaçlarının altında yetiştirilir ve hafif meyvemsi aromalı çekirdekler verir.",
+    "en": "Regarded as the cradle of Vietnamese cacao, this fertile alluvial delta province grows cacao mostly under coconut palms and yields light, fruity beans."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Tien Giang (Mekong Deltası)",
+   "lat": 10.4,
+   "lng": 106.35,
+   "desc": {
+    "tr": "Nehir adalarında ve Go Cong bölgesinde yetişen kakao, tarçın ve bal notalarıyla dengeli bir profil sunar.",
+    "en": "Cacao from river islands and the Go Cong area has a balanced profile with notes of cinnamon and honey."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero-type hybrids"
+   ]
+  },
+  {
+   "name": "Ba Ria-Vung Tau (Güneydoğu)",
+   "lat": 10.5,
+   "lng": 107.25,
+   "desc": {
+    "tr": "Kıyıya yakın bu güneydoğu eyaletinde kakao kaju, kauçuk ve meyve ağaçlarıyla birlikte yetiştirilir ve mineralli bir karakter taşır.",
+    "en": "In this coastal southeastern province cacao is intercropped with cashew, rubber and fruit trees and shows a mineral character."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Dong Nai ve Binh Phuoc (Güneydoğu)",
+   "lat": 11.2,
+   "lng": 107.0,
+   "desc": {
+    "tr": "Bazalt toprakları olan bu güneydoğu bölgesi, Ho Chi Minh Kenti'ne yakın küçük ve değişken hacimli kakao üretimine sahiptir.",
+    "en": "This basalt-soil southeastern area near Ho Chi Minh City has small-volume cacao production of variable character."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Dak Lak (Orta Yaylalar)",
+   "lat": 12.67,
+   "lng": 108.04,
+   "desc": {
+    "tr": "Serin iklim ve kırmızı bazalt toprağında, çoğunlukla kahveyle birlikte yetiştirilen kakao daha derin, çikolatamsı ve fındıksı bir profil verir.",
+    "en": "On cool, red basalt soils and often intercropped with coffee, Dak Lak cacao gives a deeper, more chocolatey and nutty profile."
+   },
+   "grapes": [
+    "Trinitario (B10/B14 hibritleri)"
+   ]
+  },
+  {
+   "name": "Lam Dong (Orta Yaylalar)",
+   "lat": 11.95,
+   "lng": 108.44,
+   "desc": {
+    "tr": "Yüksek ve serin Dalat çevresindeki bu yaylada kakao ekimi genişliyor ve zanaatkâr üreticilerin tek orijinli çekirdekleri buradan geliyor.",
+    "en": "Cacao cultivation is expanding on this cool plateau around Dalat, supplying craft makers with single-origin beans."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Trinitario (Vietnam)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Fransız döneminde Karayipler'den getirilen Trinitario, bugün Vietnam kakaosunun büyük bölümünü oluşturur ve meyvemsi, karmaşık çekirdekler verir.",
+    "en": "Brought from the Caribbean in the French period, Trinitario makes up most of Vietnam's cacao and gives fruity, complex beans."
+   }
+  },
+  {
+   "name": "Ben Tre Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Mekong Deltası'nın en bilinen kakaosudur; meyve asiditesi ve melas notaları öne çıkar.",
+    "en": "The best-known Mekong Delta cacao, with bright fruit acidity and molasses notes."
+   }
+  },
+  {
+   "name": "Dak Lak Trinitario (B10/B14 hibritleri)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Orta Yaylalar'daki Trinitario hibritleri yüksek rakım ve bazalt toprakla daha koyu, karmaşık bir tat geliştirir.",
+    "en": "Trinitario hybrids of the Central Highlands develop a darker, more complex flavour from altitude and basalt soil."
+   }
+  },
+  {
+   "name": "Tien Giang ada kakaosu",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Mekong nehir adalarında yetişen bu kakao, tarçın ve bal notalarıyla tanınır.",
+    "en": "Grown on Mekong river islands, this cacao is known for cinnamon and honey notes."
+   }
+  },
+  {
+   "name": "Forastero-tipi melez klonlar",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "2000'lerdeki sektör projeleriyle yayılan dayanıklı melez klonlar, özellikle Tien Giang gibi bölgelerde dengeli bir tat verir.",
+    "en": "Hardy hybrid clones spread by early-2000s industry programmes give a balanced flavour, notably in areas such as Tien Giang."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Eyalet bazlı tek orijinli bean-to-bar",
+   "desc": {
+    "tr": "Marou'nun öncülük ettiği bu yaklaşım, Ben Tre, Tien Giang, Dak Lak, Lam Dong, Dong Nai ve Ba Ria gibi eyaletlerin kakaosunu ayrı barlarda sunarak Vietnam terroir'ını tanımlar.",
+    "en": "Pioneered by Marou, this approach presents cacao from provinces such as Ben Tre, Tien Giang, Dak Lak, Lam Dong, Dong Nai and Ba Ria in separate bars, defining Vietnamese terroir."
+   }
+  },
+  {
+   "name": "Baharatlı ve tropikal aromalı çikolata",
+   "desc": {
+    "tr": "Vietnamlı yapımcılar tarçın, hindistan cevizi ve acı biber gibi yerel tatlarla çikolatayı harmanlar; acı biberli tarçınlı sıcak çikolata bunun örneğidir.",
+    "en": "Vietnamese makers pair chocolate with local flavours such as cinnamon, coconut and chili; chili-cinnamon hot chocolate is one example."
+   }
+  },
+  {
+   "name": "Çikolata kafeleri ve Fransız tarzı pastalar",
+   "desc": {
+    "tr": "Büyük şehirlerdeki zanaat çikolata mağazaları, Fransız mirasını yansıtan ekler ve opera pastası gibi çikolatalı tatlıları ve sıcak çikolatayı sunar.",
+    "en": "Craft chocolate shops in the big cities serve hot chocolate and French-influenced chocolate pastries such as éclairs and opera cake."
+   }
+  },
+  {
+   "name": "Kakao şarabı ve pulp ürünleri",
+   "desc": {
+    "tr": "Çiftçiler kakao meyvesinin beyaz posasını fermente edip kakao şarabı yapar; ticari ölçekte değil ama çiftliklerde yaygın bir uygulamadır.",
+    "en": "Farmers ferment the white pulp of the cacao fruit into cacao wine, which is not commercial at scale but popular on the farms."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Vietnam Chocolate",
+   "url": "https://barandcocoa.com/pages/country/vietnam"
+  },
+  {
+   "title": "Vietnam Cocoa & Cacao: Chocolate Tasting & Farm Tours",
+   "url": "https://junglebosstours.com/explorer/tourism-blog/cocoa-vietnam-travel-farm-tours"
+  },
+  {
+   "title": "What is today's cocoa price? 24-hour cocoa price update",
+   "url": "https://kamereo.vn/blog/en/todays-cocoa-price/"
+  },
+  {
+   "title": "Is Vietnamese Cacao Gaining Global Attention? The Strength of Its Bean to Bar",
+   "url": "https://vietnam-agri.com/en/vietnam-agri/vietnam-cacao-chocolate/"
+  },
+  {
+   "title": "Terroirs du Monde: Vietnam and Chocolate",
+   "url": "https://www.chocolatsdumonde.ch/en/blogs/news/terroirs-du-monde-le-vietnam-et-le-chocolat"
+  },
+  {
+   "title": "Cacao Varieties in Vietnam: Key Types and Growing Regions",
+   "url": "https://tim-corp.com.vn/en/news-en/blog-en/cacao-varieties-in-vietnam/"
+  },
+  {
+   "title": "Cocoa Trees Grown in Vietnam",
+   "url": "https://pkhgroup.com.vn/en/cocoa-trees-grown-in-vietnam-the-journey-from-strange-land-to-familiar-tree/"
+  },
+  {
+   "title": "Vietnam Chocolate: A Bean-to-Bar Origin Guide",
+   "url": "https://www.cacaocraft.co/blog/vietnam-chocolate-origin-guide"
+  }
+ ]
+}

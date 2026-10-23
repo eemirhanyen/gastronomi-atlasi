@@ -1,0 +1,191 @@
+{
+ "iso3": "CIV",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22374,
+  "out": 4215,
+  "searches": 2
+ },
+ "usd": 0.1069,
+ "summary": {
+  "tr": "Côte d'Ivoire, dünya kakao arzının yaklaşık %35-45'ini karşılayan, 2024'te FAOSTAT'a göre 1,89 milyon tonla dünyanın bir numaralı kakao üreticisidir. Kakao, ülkenin güney ormanlık kuşağında çok sayıda küçük çiftçi tarafından yetiştirilir. Batı Afrika Amelonado'sundan türeyen, sonradan yüksek verimli melezlerle zenginleşen bir popülasyondur. Çiftçi göçü ve ormanın kakaoya açılmasıyla ülkenin merkez",
+  "en": "Côte d'Ivoire supplies roughly 35–45% of the world's cocoa and, with 1.89 million tonnes in 2024 (FAOSTAT), ranks first globally. Its cocoa is grown by a very large number of smallholders across the southern forest belt. The crop descends largely from West African Amelonado, increasingly interplanted with higher-yielding hybrids. It spread through farmer migration and the clearing of forest land f"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Nawa (Soubré, Méagui, Buyo)",
+   "lat": 5.79,
+   "lng": -6.59,
+   "desc": {
+    "tr": "Güneybatıdaki Soubré merkezli bu bölge, 'yeni kakao döngüsü'nün çekirdeğidir. Eski kakao kuşağındaki toprak verimini yitirince göç eden çiftçiler buraya yerleşmiştir.",
+    "en": "Centred on Soubré in the south-west, this is the core of the 'new cocoa loop'. Smallholders moved here from older cocoa zones after those soils lost fertility."
+   },
+   "grapes": [
+    "West African Amelonado admixture",
+    "Upper Amazon hybrids"
+   ]
+  },
+  {
+   "name": "San-Pédro",
+   "lat": 4.75,
+   "lng": -6.64,
+   "desc": {
+    "tr": "Kıyıdaki bu bölge, kakao ihracatında lider sayılan San-Pédro limanına ev sahipliği yapar. Güneybatı ormanlarından gelen kakaonun çoğu buradan sevk edilir.",
+    "en": "This coastal region hosts the port of San-Pédro, regarded as a world leader in cocoa bean exports. Much of the south-western forest crop is shipped from here."
+   },
+   "grapes": [
+    "Amelonado admixture",
+    "Upper Amazon hybrids"
+   ]
+  },
+  {
+   "name": "Haut-Sassandra (Daloa, Issia)",
+   "lat": 6.88,
+   "lng": -6.45,
+   "desc": {
+    "tr": "Merkez-batıdaki Daloa çevresi, geleneksel kakao merkezlerinden biridir. Burada kakao ağaçlarının payı yüksektir.",
+    "en": "The Daloa area in the centre-west is a traditional cocoa heartland and one of the main trading and producing zones."
+   },
+   "grapes": [
+    "Amelonado admixture",
+    "Upper Amazon hybrids"
+   ]
+  },
+  {
+   "name": "Gôh (Gagnoa, Oumé)",
+   "lat": 6.13,
+   "lng": -5.95,
+   "desc": {
+    "tr": "Gagnoa ve Oumé çevresindeki bu bölge, ülkenin köklü kakao üretim alanlarındandır.",
+    "en": "Around Gagnoa and Oumé, this is one of the country's long-established cocoa-producing areas."
+   },
+   "grapes": [
+    "Amelonado admixture",
+    "Upper Amazon hybrids"
+   ]
+  },
+  {
+   "name": "Indénié-Djuablin (Abengourou)",
+   "lat": 6.73,
+   "lng": -3.49,
+   "desc": {
+    "tr": "Gana sınırındaki doğu bölgesi olan Abengourou, kakao kuşağının eski bir parçasıdır. Buradan gelen partiler ceviz ve baharat notalarıyla tanımlanır.",
+    "en": "Abengourou in the east, on the Ghana border, is part of the older cocoa belt. Lots from here are described with nutty and warm-spice notes."
+   },
+   "grapes": [
+    "Amelonado admixture"
+   ]
+  },
+  {
+   "name": "Western Côte d'Ivoire (Man, Duékoué, Guiglo)",
+   "lat": 7.2,
+   "lng": -7.4,
+   "desc": {
+    "tr": "Dağlık batıda Man ve Duékoué çevresinde kakao yetiştirilir. Duékoué ve Guiglo, önemli kakao akış merkezleri arasındadır.",
+    "en": "Cocoa is grown in the hilly west around Man and Duékoué. Duékoué and Guiglo are among the major cocoa trading hubs."
+   },
+   "grapes": [
+    "Amelonado admixture",
+    "Upper Amazon hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "West African Amelonado",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Ülkedeki kakaonun büyük bölümü, dar bir Amelonado (Batı Afrika Forastero) kökenli stoktan gelir. Tadı çikolatamsı, toprağımsı ve düşük asitlidir.",
+    "en": "Most Ivorian cocoa descends from a narrow Amelonado (West African Forastero) founder stock. It typically tastes chocolatey and earthy, with low acidity."
+   }
+  },
+  {
+   "name": "Upper Amazon hybrids",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Daha verimli Üst Amazon melezleri, eski ağaçların yerine ya da aralarına dikilmektedir. Çekirdeklerin içi genellikle koyu mor renklidir.",
+    "en": "Higher-yielding Upper Amazon hybrids are increasingly planted among or in place of older trees. Their cotyledons are typically dark purple."
+   }
+  },
+  {
+   "name": "'Cacao Mercedes' (Ghana-introduced hybrid material",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Gana'dan gelen bol meyveli bu dikim materyaline Ivoirlar önce 'Gana kakaosu', sonra 'Cacao-Mercedes' dedi. Bu materyal, 18 ayda ürün veren yeni plantasyonların kurulmasını sağladı.",
+    "en": "Ivorians nicknamed this high-pod-yield planting material from Ghana 'Ghanaian cocoa', then 'Cacao-Mercedes'. It let farmers create new plantations that produced within 18 months."
+   }
+  },
+  {
+   "name": "Méagui / Soubré (Nawa) lots",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Nawa'dan gelen partiler, kuru üzüm ve baharat notaları taşıyan zengin kakao profilleriyle tanımlanır. Bunlar, Amelonado karışımı kitle kakaosundan ayrılan köken partileridir.",
+    "en": "Lots from Nawa are described as rich cocoa with raisin and warm-spice notes. They are origin-specific lots set apart from the Amelonado-admixture bulk crop."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Local bean-to-bar craft chocolate",
+   "desc": {
+    "tr": "Abidjan'daki zanaatkâr üreticiler, yerel kakaoyu çubuk çikolataya dönüştürüyor. Öncü bir üretici, on yıl önce ülkede tek bir yerli çikolata bile olmadığını söylüyor.",
+    "en": "Artisan makers in Abidjan turn local beans into finished bars. One pioneer says that a decade ago not a single chocolate bar was made in the country."
+   }
+  },
+  {
+   "name": "Industrial cocoa processing (liquor, butter, powder, cake)",
+   "desc": {
+    "tr": "Yerel öğütme tesisleri kakaoyu çikolata sanayisi için kakao kitlesi, yağı, tozu ve küspesine dönüştürür. Hükümet, ürünün en az yarısını ülke içinde işlemeyi hedefliyor.",
+    "en": "Local grinders convert beans into liquor, butter, powder and cake for chocolate manufacturers. The government aims to process at least half of national output domestically."
+   }
+  },
+  {
+   "name": "Journée nationale du cacao et du chocolat (JNCC)",
+   "desc": {
+    "tr": "2013 tarihli cumhurbaşkanlığı kararnamesiyle kurulan bu etkinlik, her kakao sezonunun başında kutlanır. Kakao üreticilerini onurlandırır ve yerel çikolata tüketimini teşvik eder.",
+    "en": "Created by presidential decree in 2013, this national day is celebrated at the start of each cocoa season. It honours cocoa farmers and promotes local consumption of chocolate and cocoa products."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "TOWARDS A SUSTAINABLE AGRO-LOGISTICS IN DEVELOPING COUNTRIES",
+   "url": "https://documents1.worldbank.org/curated/en/735521553488355096/pdf/Towards-Sustainable-Agrologistics-in-Developing-Countries-Cocoa-Supply-Chain-in-Cote-D-ivoire.pdf"
+  },
+  {
+   "title": "CÔTE D'IVOIRE",
+   "url": "https://www.icco.org/wp-content/uploads/2-FEASIBILITY-STUDY-ON-AFRICA-COCOA-EXCHANGE_Annex_COTE-DIVOIRE.pdf"
+  },
+  {
+   "title": "145 LES SOCIETES COOPERATIVES DE PRODUCTION DE CACAO : ACTRICES DU",
+   "url": "https://perso.usp.edu.ci/download_txt/451/"
+  },
+  {
+   "title": "Report Name:Cote d'Ivoire Cocoa Beans and ...",
+   "url": "https://www.fas.usda.gov/data/gain-report/2026/01/Cote%20d'Ivoire%20Cocoa%20Beans%20and%20Cocoa%20Products%20Semi-Annual%20-%20Mid-Crop%20MY%202024-2025%20Update_Accra_Cote%20d'Ivoire_IV2025-0015.pdf"
+  },
+  {
+   "title": "Côte d'Ivoire Origins — Open Cacao Index",
+   "url": "https://kakao.io/countries/ci/"
+  },
+  {
+   "title": "Cacao in Ivory Coast: Where the world's pure Chocolate begins",
+   "url": "https://cocoacircle.com/blogs/world-of-cocoa/cacao-in-ivory-coast"
+  },
+  {
+   "title": "Cocoa Origin Focus: Ivory Coast",
+   "url": "https://www.coffeetradingacademy.com/post/cocoa-origin-focus-ivory-coast"
+  },
+  {
+   "title": "Ivory Coast: The World's Cacao Giant",
+   "url": "https://cacaojuice.com/wiki/origins/ivory-coast"
+  }
+ ]
+}

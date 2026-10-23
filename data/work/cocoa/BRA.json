@@ -1,0 +1,213 @@
+{
+ "iso3": "BRA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23239,
+  "out": 4400,
+  "searches": 2
+ },
+ "usd": 0.1105,
+ "summary": {
+  "tr": "Kakao Amazon havzasına özgüdür. Kolonyal dönemde Pará'da yabani kakao toplanıyordu. 1746'da Amazon'dan getirilen Amelonado tohumları Güney Bahia'da ekildi ve Bahia yüzyıllarca ülkenin kakao merkezi oldu. 1980'lerin sonundan itibaren cadı süpürgesi hastalığı Bahia üretimini çökertti. Bugün Pará, ülke üretiminin yaklaşık yarısıyla başı çekiyor. Brezilya 2020'de ICCO tarafından ince aromalı kakao üre",
+  "en": "Cacao is native to the Amazon basin, and in colonial times wild cacao was gathered in Pará. In 1746 Amelonado seeds brought from the Amazon were planted in southern Bahia, which became the country's cacao heartland for centuries. From the late 1980s, witches' broom disease devastated Bahian output. Today Pará leads with roughly half of national production. In 2020 the ICCO recognised Brazil as a f"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Sul da Bahia (Ilhéus–Itabuna, Cacao Coast)",
+   "lat": -14.8,
+   "lng": -39.2,
+   "desc": {
+    "tr": "Tarihî 'Kakao Kıyısı'; Atlantik ormanı gölgesinde cabruca sistemiyle yetiştirilen kakao burada, ülke üretiminin hâlâ büyük bölümü Bahia'dan geliyor.",
+    "en": "The historic 'Cacao Coast', where cacao is grown in cabruca agroforestry under Atlantic Forest shade; Bahia still supplies a large share of national output."
+   },
+   "grapes": [
+    "Comum (Amelonado)",
+    "Catongo",
+    "FL89",
+    "CEPEC clones",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Baixo Sul da Bahia (Camamu–Valença)",
+   "lat": -13.4,
+   "lng": -39.1,
+   "desc": {
+    "tr": "Bahia kıyısının kuzeyinde, küçük çiftliklerin cabruca kakaosu ve butik çikolata üretimiyle bilindiği bölge.",
+    "en": "A coastal area north of Ilhéus known for small-farm cabruca cacao and craft chocolate production."
+   },
+   "grapes": [
+    "Comum (Amelonado)",
+    "Trinitario hybrids",
+    "Fine-flavour clones"
+   ]
+  },
+  {
+   "name": "Transamazônica, Pará (Medicilândia–Altamira)",
+   "lat": -3.45,
+   "lng": -52.9,
+   "desc": {
+    "tr": "Transamazon karayolu boyunca uzanan, Brezilya'nın en verimli kakao bölgesi ve ülkenin en büyük kakao üreticisi eyaletin kalbi.",
+    "en": "Along the Trans-Amazonian highway, this is the heart of Brazil's top-producing state and its most productive cacao zone."
+   },
+   "grapes": [
+    "Disease-resistant Forastero clones",
+    "Amazonian hybrids",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Tomé-Açu / Nordeste Paraense",
+   "lat": -2.42,
+   "lng": -48.15,
+   "desc": {
+    "tr": "Pará'nın doğusunda agroormancılık sistemleri içinde kakao yetiştirilen eski tarım bölgesi.",
+    "en": "An older agricultural zone in eastern Pará where cacao is grown in agroforestry systems."
+   },
+   "grapes": [
+    "Forastero clones",
+    "Amazonian cacao"
+   ]
+  },
+  {
+   "name": "Norte do Espírito Santo (Linhares)",
+   "lat": -19.4,
+   "lng": -40.07,
+   "desc": {
+    "tr": "Bahia kakaosundan türeyen bitkilerle kurulan, daha küçük ama köklü bir Atlantik kıyısı kakao bölgesi.",
+    "en": "A smaller but established Atlantic-coast cacao area planted with material descended from Bahian cacao."
+   },
+   "grapes": [
+    "Comum (Amelonado)",
+    "Hybrid clones"
+   ]
+  },
+  {
+   "name": "Rondônia (Ouro Preto do Oeste–Ariquemes)",
+   "lat": -10.7,
+   "lng": -62.2,
+   "desc": {
+    "tr": "Güneybatı Amazon'da küçük üreticilerin yetiştirdiği, hızla gelişen kakao kuşağı.",
+    "en": "A growing cacao belt in the southwest Amazon, farmed mostly by smallholders."
+   },
+   "grapes": [
+    "Hybrid clones",
+    "Amazonian cacao"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Comum (Amelonado)",
+   "type": "forastero",
+   "native": true,
+   "desc": {
+    "tr": "1746'da Amazon'dan Bahia'ya getirilen Amelonado Forastero; Bahia ve Espírito Santo plantasyonlarının atası.",
+    "en": "Amelonado Forastero brought from the Amazon to Bahia in 1746, the ancestor of most Bahian and Espírito Santo plantations."
+   }
+  },
+  {
+   "name": "Catongo",
+   "type": "forastero",
+   "native": true,
+   "desc": {
+    "tr": "Bahia'da bulunan, beyaz çekirdekli Amelonado mutantı; ince aromalı kabul edilir ve gazyağını andıran kendine özgü bir aromaya sahiptir.",
+    "en": "A white-bean Amelonado mutant from Bahia, regarded as fine-flavour and noted for a distinctive kerosene-like aroma."
+   }
+  },
+  {
+   "name": "FL89",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Bahia kökenli, viski benzeri notalarıyla tanınan ince aromalı genotip.",
+    "en": "A fine-flavour Bahian genotype noted for whisky-like aroma notes."
+   }
+  },
+  {
+   "name": "Amazon Forastero (Pará / yabani Amazon kakaosu)",
+   "type": "forastero",
+   "native": true,
+   "desc": {
+    "tr": "Amazon'un yabani ve yarı yabani kakaoları ile hastalığa dayanıklı Pará klonları; kek ve brownie gibi pişmiş çikolata aromaları verir.",
+    "en": "Wild and semi-wild Amazon cacao and disease-resistant Pará clones, often with baked-chocolate notes such as brownie and cake."
+   }
+  },
+  {
+   "name": "Trinitario ve CCN51 tipi melezler",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Cadı süpürgesi sonrası verim ve dayanıklılık için Güney Bahia'ya eklenen melez klonlar.",
+    "en": "Hybrid clones added in southern Bahia after witches' broom for higher yield and resistance."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Brigadeiro",
+   "desc": {
+    "tr": "Yoğunlaştırılmış süt, kakao ve tereyağıyla pişirilen, çikolata granülüne bulanan ve 1940'larda ortaya çıktığı söylenen, doğum günü ve şenliklerin vazgeçilmez top tatlısı.",
+    "en": "A cooked truffle-like ball of condensed milk, cocoa and butter rolled in chocolate sprinkles, said to date from the 1940s and a staple of birthdays and parties."
+   }
+  },
+  {
+   "name": "Ovo de Páscoa (Paskalya yumurtası)",
+   "desc": {
+    "tr": "Paskalya'da çikolatadan yapılan içi dolgulu veya boş yumurtalar hem endüstriyel hem zanaat üreticiler için yılın en büyük çikolata sezonudur.",
+    "en": "Hollow or filled chocolate eggs at Easter, the biggest chocolate season of the year for both industrial and artisan makers."
+   }
+  },
+  {
+   "name": "Bean-to-bar ve cabruca çikolatası",
+   "desc": {
+    "tr": "Bahia, Pará ve Espírito Santo'dan ince aromalı çekirdeklerle çalışan ve 2020'ye gelindiğinde 140'tan fazla çikolata markasına ulaşan butik üretim hareketi.",
+    "en": "A craft movement using fine-flavour beans from Bahia, Pará and Espírito Santo, with more than 140 chocolate bar brands reported by 2020."
+   }
+  },
+  {
+   "name": "Polpa de cacau (kakao meyve özü)",
+   "desc": {
+    "tr": "Çekirdeği saran tatlı-ekşi beyaz pulp; Brezilya'da meyve suyu, dondurma ve tatlılarda kullanılan bir kakao yan ürünüdür.",
+    "en": "The sweet-tart white pulp around the beans, used in Brazil in juices, ice creams and desserts as a cacao by-product."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bahia Cacao Region, Brazil",
+   "url": "https://barandcocoa.com/pages/region/bahia"
+  },
+  {
+   "title": "Brazil, the Country of Carnival, Caipirinha & Cacao",
+   "url": "https://silva-cacao.com/news/brazil-the-country-of-carnival-caipirinha-and-cacao/"
+  },
+  {
+   "title": "Discriminating Aroma Compounds in Five Cocoa Bean Genotypes from Two Brazilian States: White Kerosene-like Catongo, Red Whisky-like FL89 (Ba",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9961520/"
+  },
+  {
+   "title": "Brazil - Make Mine Fine",
+   "url": "https://www.makeminefine.com/cocoa-sustainability/brazil/"
+  },
+  {
+   "title": "Genetic Structure and Molecular Diversity of Cacao Plants Established as Local Varieties for More than Two Centuries: The Genetic History of",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4682715/"
+  },
+  {
+   "title": "Brazilian cacao cycle",
+   "url": "https://en.wikipedia.org/wiki/Brazilian_cacao_cycle"
+  },
+  {
+   "title": "Cocoa Production and Distribution in Bahia (Brazil) after the Witch’s Broom",
+   "url": "https://www.intechopen.com/chapters/87718"
+  },
+  {
+   "title": "Fine Chocolate Brazil Cacao: Premium Beans & Suppliers",
+   "url": "https://www.accio.com/plp/fine-chocolate-brazil-cacao"
+  }
+ ]
+}

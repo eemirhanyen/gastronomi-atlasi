@@ -1,0 +1,182 @@
+{
+ "iso3": "DOM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 51618,
+  "out": 4118,
+  "searches": 3
+ },
+ "usd": 0.1744,
+ "summary": {
+  "tr": "Kakao, Hispaniola adasına 16. yüzyılın sonu ile 17. yüzyılın başında girdi. Dominik Cumhuriyeti bugün dünyanın en büyük organik kakao ihracatçılarından biri. Organik üretim 1980'lerde gelişti ve çoğunlukla küçük çiftçilerin elinde. Kakao ülkenin kuzeyindeki ve kuzeydoğusundaki Cibao bölgesinde yoğunlaşıyor. Ülkede kakao uzun süre işlenmeden ihraç edildi. Son yıllarda çiftlikten çikolataya (bean-to",
+  "en": "Cacao reached the island of Hispaniola at the end of the 16th and the start of the 17th century. Today the Dominican Republic is one of the world's largest exporters of organic cacao. Its organic sector developed in the 1980s and is largely run by smallholders. Cacao is concentrated in the Cibao region of the north and northeast. For a long time the country exported its cacao raw. In recent years "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Duarte (San Francisco de Macorís)",
+   "lat": 19.3,
+   "lng": -70.25,
+   "desc": {
+    "tr": "Ülkenin kakao merkezi sayılan Duarte, en çok kakao ekilen ve en çok organik kakao üretilen ilin başında geliyor. Verimli killi balçık topraklar ve yağmur ormanı koşulları var.",
+    "en": "Duarte is the heart of Dominican cacao and the leading province for planted area and organic production, with fertile clay-loam soils and rainforest conditions."
+   },
+   "grapes": [
+    "Hispaniola (Trinitario)",
+    "Sánchez"
+   ]
+  },
+  {
+   "name": "Sánchez Ramírez (Cotuí)",
+   "lat": 19.05,
+   "lng": -70.15,
+   "desc": {
+    "tr": "Duarte'den sonra en geniş kakao alanlarından birine sahip olan bu il, ülke üretiminde önemli bir paya sahip.",
+    "en": "This province has one of the largest cacao areas after Duarte and accounts for a significant share of national production."
+   },
+   "grapes": [
+    "Hispaniola (Trinitario)",
+    "Sánchez"
+   ]
+  },
+  {
+   "name": "María Trinidad Sánchez (Nagua)",
+   "lat": 19.38,
+   "lng": -69.85,
+   "desc": {
+    "tr": "Kuzeydoğu kıyısındaki bu il, ülke üretiminde önemli paya sahip kakao illerinden biri.",
+    "en": "A northeastern coastal province that is one of the cacao provinces with a significant share of national output."
+   },
+   "grapes": [
+    "Sánchez",
+    "Hispaniola (Trinitario)"
+   ]
+  },
+  {
+   "name": "Cibao Vadisi (Salcedo – Hermanas Mirabal)",
+   "lat": 19.38,
+   "lng": -70.42,
+   "desc": {
+    "tr": "Kuzey-orta Cibao Vadisi'nin verimli toprakları ve nemli iklimi, ülkenin en iyi kakao çekirdeklerinin yetiştiği alanlar arasında sayılıyor.",
+    "en": "The fertile soils and humid climate of the north-central Cibao Valley are home to some of the country's best-regarded cacao beans."
+   },
+   "grapes": [
+    "Hispaniola (Trinitario)"
+   ]
+  },
+  {
+   "name": "Samaná Yarımadası",
+   "lat": 19.2,
+   "lng": -69.4,
+   "desc": {
+    "tr": "Kuzeydoğu kıyısındaki Samaná, özel (specialty) kakao partileriyle ve fermente edilmemiş Sánchez çekirdeğiyle tanınıyor.",
+    "en": "Samaná on the northeast coast is known for specialty-grade cacao lots and for unfermented Sánchez beans."
+   },
+   "grapes": [
+    "Sánchez",
+    "Hispaniola (Trinitario)"
+   ]
+  },
+  {
+   "name": "Monte Plata",
+   "lat": 18.8,
+   "lng": -69.78,
+   "desc": {
+    "tr": "Başkentin kuzeydoğusundaki Monte Plata, kuzey Cibao'nun dışında kalan geniş bir kakao üretim bölgesi.",
+    "en": "Monte Plata, northeast of the capital, is a sizeable cacao-producing area outside the northern Cibao heartland."
+   },
+   "grapes": [
+    "Sánchez",
+    "Hispaniola (Trinitario)"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Hispaniola (fermente, Trinitario ağırlıklı)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Fermente edilen bu tür özel çikolata yapımcılarının tercihi ve en çok Avrupa'da tüketiliyor. Üretimin küçük bir kısmını oluşturuyor.",
+    "en": "The fermented type is favoured by fine-chocolate makers and consumed mostly in Europe. It makes up a small share of production."
+   }
+  },
+  {
+   "name": "Sánchez (fermente edilmemiş)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Hasattan kurutmaya kadar doğal koşullarda işlenen bu tür ihracatın yaklaşık yüzde 70'ini oluşturuyor. En çok ABD pazarı tarafından tercih ediliyor.",
+    "en": "Processed naturally from harvest to drying, this type is up to 70% of exports. It is preferred mainly by the US market."
+   }
+  },
+  {
+   "name": "Hispaniola Criollo (Matina tipi)",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Çok az bulunan ve yüksek fiyata satılan bu Criollo tipi, genelde Trinitario partilerinin içinde küçük bir oranda yer alıyor.",
+    "en": "A rare, premium-priced Criollo type, usually found as a small fraction within larger Trinitario lots."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Chocolate con leche (baharatlı sıcak çikolata)",
+   "desc": {
+    "tr": "Tarçın, karanfil, zencefil ve muskat gibi baharatlarla suda kaynatılıp sonra sütle tamamlanan sıcak çikolata. Kahvaltıda ve Noel dönemi buluşmalarında içilir.",
+    "en": "Hot chocolate simmered with spices such as cinnamon, clove, ginger and nutmeg, then finished with milk. It is drunk at breakfast and at Christmas-season gatherings."
+   }
+  },
+  {
+   "name": "Chocolate de mesa (sofra çikolatası tableti)",
+   "desc": {
+    "tr": "Öğütülmüş kakao, şeker ve çoğu zaman tarçından yapılan tatlı tabletler. İçecek olarak eritilmek için hazırlanır.",
+    "en": "Sweetened tablets of ground cacao, sugar and often cinnamon, made to be melted into a drink."
+   }
+  },
+  {
+   "name": "Bean-to-bar (çiftlikten çikolataya)",
+   "desc": {
+    "tr": "Yerli üreticiler çikolatayı çekirdek seçiminden ambalaja kadar ülke içinde yapıyor. Bu, kakaonun yıllarca ham ihraç edilmesine karşı bir hamle.",
+    "en": "Local makers produce chocolate in-country from bean selection to packaging, a counter to the long history of exporting raw cacao."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Dominican cocoa: history, cultivation and plantation tours",
+   "url": "https://www.lopesan.com/blog/en/dominican-cacao-history-cultivation-tours/"
+  },
+  {
+   "title": "The DR wins two awards in Paris for the quality of its cocoa",
+   "url": "https://dominicantoday.com/dr/world/2020/01/21/the-dr-wins-two-awards-in-paris-for-the-quality-of-its-cocoa/"
+  },
+  {
+   "title": "Dominican Republic Cacao - Guide to the Colonial Zone and Dominican Republic",
+   "url": "https://www.colonialzone-dr.com/cacao/"
+  },
+  {
+   "title": "Grown In Dominican Republic - Cacao - Cocoa",
+   "url": "http://www.colonialzone-dr.com/products-grown-in-dr3.html"
+  },
+  {
+   "title": "Productives Sectors: Cocoa",
+   "url": "https://www.dominicanaonline.org/en/cacao/"
+  },
+  {
+   "title": "Öko Caribe",
+   "url": "https://www.uncommoncacao.com/pages/oko-caribe"
+  },
+  {
+   "title": "Dominican Republic - Iferous.com",
+   "url": "https://iferous.com/dominican-republic"
+  },
+  {
+   "title": "HISPANIOLA CACAO",
+   "url": "https://copantrade.com/products/dominican-republica-hispaniola-cocoa"
+  }
+ ]
+}

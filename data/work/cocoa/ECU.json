@@ -1,0 +1,213 @@
+{
+ "iso3": "ECU",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24416,
+  "out": 4753,
+  "searches": 2
+ },
+ "usd": 0.1164,
+ "summary": {
+  "tr": "Ekvador'un Amazon kökenli kakaosu, yaklaşık 5.300 yıl önce Mayo-Chinchipe kültürü tarafından kullanılmış olabilecek kadar eskidir. Kıyıdaki Guayas havzasında yetişen ve \"Arriba\" (nehrin yukarısı) adıyla bilinen çiçeksi Nacional kakaosu, 19. yüzyılın sonlarında Ekvador'u dünyanın en büyük kakao ihracatçısı yaptı. 1916-1919'da gelen monilya ve cadı süpürgesi hastalıkları üretimi çökertti. Bugün ülke",
+  "en": "Ecuador's Amazonian cacao is ancient, and the Mayo-Chinchipe culture may have used it about 5,300 years ago. The floral Nacional cacao of the coastal Guayas basin, known as \"Arriba\" (upriver), made Ecuador the world's largest cacao exporter in the late 1800s. Frosty pod (1916) and witches' broom (1919) then crashed production. Today the country grows both the high-yielding CCN-51 hybrid and Nacion"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Los Ríos (Quevedo–Vinces)",
+   "lat": -1.3,
+   "lng": -79.55,
+   "desc": {
+    "tr": "Guayas nehri havzasının yukarı kesimindeki tarihî \"Arriba\" kakao kuşağı olan Los Ríos, bugün ülkenin en büyük üretim bölgesidir ve ağırlıklı olarak CCN-51 yetiştirilir.",
+    "en": "Los Ríos lies in the upper Guayas basin, the historic \"Arriba\" cacao belt, and is now the largest producing province, dominated by CCN-51."
+   },
+   "grapes": [
+    "CCN-51",
+    "Nacional Arriba"
+   ]
+  },
+  {
+   "name": "Guayas (Naranjal–Balao)",
+   "lat": -2.5,
+   "lng": -79.6,
+   "desc": {
+    "tr": "Guayaquil limanına akan nehrin adını taşıyan Guayas eyaletinde CCN-51 (Naranjal'da geliştirildi) ile Nacional bir arada yetişir.",
+    "en": "Guayas province, named for the river that flows to the port of Guayaquil, grows CCN-51 (bred at Naranjal) alongside Nacional."
+   },
+   "grapes": [
+    "CCN-51",
+    "Nacional Arriba",
+    "Nacional-Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Manabí",
+   "lat": -0.9,
+   "lng": -80.0,
+   "desc": {
+    "tr": "Daha kuru kıyı iklimine sahip Manabí, küçük çiftçilerin ince aromalı Nacional ve melez kakao ürettiği önemli bir eyalettir.",
+    "en": "Manabí has a drier coastal climate, and smallholders there produce fine-flavour Nacional and hybrid cacao."
+   },
+   "grapes": [
+    "Nacional Arriba",
+    "CCN-51"
+   ]
+  },
+  {
+   "name": "Esmeraldas",
+   "lat": 0.5,
+   "lng": -79.5,
+   "desc": {
+    "tr": "Kuzey kıyısındaki Esmeraldas'ta kooperatifler merkezi fermantasyonla aromatik Nacional kakao üretir, bölgede CCN-51 de yaygındır.",
+    "en": "On the northern coast, Esmeraldas cooperatives produce aromatic Nacional cacao with centralised post-harvest processing, though CCN-51 is also widespread."
+   },
+   "grapes": [
+    "Nacional Arriba",
+    "CCN-51"
+   ]
+  },
+  {
+   "name": "El Oro",
+   "lat": -3.3,
+   "lng": -79.75,
+   "desc": {
+    "tr": "Peru sınırına yakın güney kıyısındaki El Oro, muz tarımının yanında kakao da yetiştirir ve üretimi büyük oranda CCN-51'e dayanır.",
+    "en": "El Oro, on the southern coast near the Peruvian border, grows cacao beside bananas, and its output is largely CCN-51."
+   },
+   "grapes": [
+    "CCN-51",
+    "Nacional"
+   ]
+  },
+  {
+   "name": "Zamora Chinchipe (Güney Amazon)",
+   "lat": -4.1,
+   "lng": -78.85,
+   "desc": {
+    "tr": "Genetik çalışmalar Nacional'ın evcilleştirildiği merkezin Zamora Chinchipe'deki Yacuambi, Nangaritza ve Zamora nehirleri çevresi olabileceğini gösteriyor; bölge Mayo-Chinchipe arkeolojik alanlarına da ev sahipliği yapar.",
+    "en": "Genetic studies suggest Nacional was domesticated around the Yacuambi, Nangaritza and Zamora rivers in Zamora Chinchipe, a province that also holds the Mayo-Chinchipe archaeological sites."
+   },
+   "grapes": [
+    "Ancient Nacional",
+    "Amazonian cacao"
+   ]
+  },
+  {
+   "name": "Napo–Orellana (Kuzey Amazon)",
+   "lat": -0.8,
+   "lng": -77.2,
+   "desc": {
+    "tr": "Amazon ovasında küçük çiftçiler ve Kichwa toplulukları, ormanla birlikte yetiştirilen chakra sistemlerinde kakao üretir.",
+    "en": "In the Amazon lowlands, smallholders and Kichwa communities grow cacao in forest-integrated chakra systems."
+   },
+   "grapes": [
+    "Amazonian cacao",
+    "Nacional hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Nacional Arriba",
+   "type": "forastero",
+   "native": true,
+   "desc": {
+    "tr": "Yasemin ve turunç çiçeği gibi çiçeksi notalarıyla tanınan, Ekvador'a özgü ince aromalı Nacional kakaosudur.",
+    "en": "Ecuador's native fine-flavour Nacional cacao, known for floral notes such as jasmine and orange blossom."
+   }
+  },
+  {
+   "name": "Ancient / Heirloom Nacional",
+   "type": "forastero",
+   "native": true,
+   "desc": {
+    "tr": "Genetik saflığını koruyan çok az sayıdaki eski Nacional ağacı verimsizdir ama zanaat çikolatacılar bu kakaoya yüksek bedel öder.",
+    "en": "Only a few trees keep fully pure Nacional genetics. They yield little, but craft makers pay high premiums for them."
+   }
+  },
+  {
+   "name": "Complejo Nacional (Nacional × Trinitario)",
+   "type": "trinitario",
+   "native": true,
+   "desc": {
+    "tr": "Nacional'ın hastalıklara karşı melezlenmesiyle oluşan bu grup, ince aromalı sınıfta kalır ve bugün üretimin önemli bir bölümünü oluşturur.",
+    "en": "This group arose when Nacional was hybridised to resist disease. It is still graded fine-flavour and makes up a significant part of output."
+   }
+  },
+  {
+   "name": "CCN-51",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "1960'larda Homero Castro'nun Ekvador'da geliştirdiği bu verimli ve dayanıklı melez, ülkedeki ekim alanının büyük bölümünü kaplar ve ince aromalı sayılmaz.",
+    "en": "Bred in Ecuador in the 1960s by Homero Castro, this high-yielding, resistant hybrid covers much of the country's cacao area and is not considered fine-flavour."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar craft chocolate",
+   "desc": {
+    "tr": "Ekvador kakaosunu tek menşe ve ince aromalı çekirdek olarak işleyen genç bir zanaat çikolata sahnesi büyümekte, Nacional ve eski soylar öne çıkarılmaktadır.",
+    "en": "A young craft scene makes single-origin chocolate from Ecuadorian fine-flavour beans, highlighting Nacional and heirloom lineages."
+   }
+  },
+  {
+   "name": "Hot chocolate (chocolate caliente)",
+   "desc": {
+    "tr": "Saf kakao pastasından yapılan sıcak çikolata, özellikle dağlık bölgelerde peynir ve ekmekle servis edilir.",
+    "en": "Hot chocolate made from pure cacao paste is a traditional drink, often served with cheese and bread, especially in the highlands."
+   }
+  },
+  {
+   "name": "Cacao pulp (baba de cacao)",
+   "desc": {
+    "tr": "Çekirdeği saran tatlı-ekşi meyve özü taze yenir, meyve suyuna, dondurmaya ve fermente içeceklere dönüştürülür; bu kullanım Amazon kökenli kakao geleneğini yansıtır.",
+    "en": "The sweet-tart pulp around the beans is eaten fresh or made into juices, ice cream and fermented drinks, echoing cacao's Amazonian roots."
+   }
+  },
+  {
+   "name": "Artisanal cacao paste and tablets",
+   "desc": {
+    "tr": "Köylerde kakao taş değirmenlerde ezilip sade çikolata tabletleri ve içecek hamuru olarak hazırlanır ve evlerde tüketilir.",
+    "en": "In rural areas, cacao is ground into paste and moulded into plain chocolate tablets for drinking and home use."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "From Bean to Bar: The Building of Ecuador’s (Inter)National Identity",
+   "url": "https://elisabetjuanroca.substack.com/p/from-bean-to-bar-the-building-of"
+  },
+  {
+   "title": "Insight into the Wild Origin, Migration and Domestication History of the Fine Flavour Nacional Theobroma cacao L. Variety from Ecuador",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0048438"
+  },
+  {
+   "title": "Blog",
+   "url": "https://www.inca1.com/blog/chocolate-ecuadors-dark-sweet-success"
+  },
+  {
+   "title": "The History of Chocolate in Ecuador: From Ancient Origins to Global Craze",
+   "url": "https://www.southernexplorations.com/the-history-of-chocolate-in-ecuador/"
+  },
+  {
+   "title": "Provinces of Ecuador",
+   "url": "https://en.wikipedia.org/wiki/Provinces_of_Ecuador"
+  },
+  {
+   "title": "Cacao Culture in Ecuador — Ecuador Homes And Land",
+   "url": "https://ecuadorhomesandland.com/news/cacao-culture-in-ecuador"
+  },
+  {
+   "title": "Cacao Ecuador — CACAOUS",
+   "url": "https://cacaous.com/cacao-ecuador.html"
+  },
+  {
+   "title": "Origin of Fine Aroma Cacao: Ecuador’s Heritage & Durca’s Legacy",
+   "url": "https://www.durcachocolate.com/blogs/craft-origin/origin-fine-aroma-cacao-ecuador-heritage-durca-legacy"
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "iso3": "HTI",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22736,
+  "out": 3766,
+  "searches": 2
+ },
+ "usd": 0.1031,
+ "summary": {
+  "tr": "Kakao, 1696'da Martinik'ten gelerek Haiti'nin Artibonite bölgesine ulaştı. Daha sonra kuzey kıyısına ve güneydeki Grand'Anse'a yayıldı. 19. yüzyılın sonu ile 20. yüzyılın başında kahveyle birlikte ülkenin en büyük ihraç ürünlerinden biriydi. Üretim bugün küçük çiftçilere dayanıyor ve yıllık yaklaşık 3.000 ton düzeyinde kalıyor. Fermantasyon yatırımları sayesinde zanaatkâr çikolata yapımcılarının i",
+  "en": "Cacao reached Haiti's Artibonite region from Martinique in 1696. It later spread to the north coast and to Grand'Anse in the south. In the late 19th and early 20th centuries it ranked with coffee among Haiti's biggest exports. Production today rests on smallholders and stays around 3,000 tonnes a year. Investment in fermentation has drawn growing interest from craft chocolate makers. Local chocola"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Grand'Anse (Dame-Marie, Chambellan, Anse d'Hainault)",
+   "lat": 18.6,
+   "lng": -74.3,
+   "desc": {
+    "tr": "Güneybatıdaki bu dağlık bölge, ülkenin iki ana kakao bölgesinden biridir. Çiftçiler kakaoyu ev bahçelerindeki küçük bahçelerde yetiştirir. Dame-Marie tarihsel olarak bir kakao ticaret limanıydı.",
+    "en": "This mountainous southwestern department is one of Haiti's two principal cacao regions. Farmers grow cacao in small homestead orchards. Dame-Marie was historically a cacao trading port."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo",
+    "Shada"
+   ]
+  },
+  {
+   "name": "Nord (Borgne, Port-Margot, Acul du Nord, Milot)",
+   "lat": 19.7,
+   "lng": -72.4,
+   "desc": {
+    "tr": "Cap-Haïtien çevresindeki kuzey kıyısı, kooperatiflerin ve fermantasyon projelerinin yoğun olduğu ikinci ana kakao bölgesidir.",
+    "en": "The north coast around Cap-Haïtien is the second principal cacao region. It has many cooperatives and fermentation projects."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Nord-Est (Limonade)",
+   "lat": 19.65,
+   "lng": -72.0,
+   "desc": {
+    "tr": "Kuzeydoğu, kuzeydeki kakao kuşağının devamıdır. Limonade kasabasının kakaosu tek kökenli geleneksel kakao tabletlerinde kullanılır.",
+    "en": "The northeast extends the northern cacao belt. Cacao from the town of Limonade goes into single-origin traditional cacao tablets."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Sud (South)",
+   "lat": 18.25,
+   "lng": -73.75,
+   "desc": {
+    "tr": "Güney departmanı nemli ve yağışlı iklimiyle küçük ölçekli kakao yetiştiriciliğine elverişli alanlardan biri olarak sayılır.",
+    "en": "The humid, rainy southern department is among the areas where smallholder cacao is grown."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Artibonite highlands",
+   "lat": 19.2,
+   "lng": -72.6,
+   "desc": {
+    "tr": "Kakaonun Haiti'deki ilk kayıtlı yetiştiriciliği 1696'da bu orta bölgede yapıldı. Dağlık alanlarda hâlâ yetiştirilmektedir.",
+    "en": "Haiti's earliest recorded cacao cultivation took place in this central region in 1696. It is still grown in the highlands."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Kuzey ve Grand'Anse'ta üreticilerin en çok belirttiği türdür. Çikolata yapımcıları bu çekirdeklerde narenciye, kırmızı meyve ve canlı bir asidite bulur.",
+    "en": "This is the type makers most often name for northern and Grand'Anse cacao. Their bars show citrus, red fruit and a lively acidity."
+   }
+  },
+  {
+   "name": "Criollo",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Haiti'de Trinitario ile birlikte ağaçların çoğunluğunu oluşturduğu belirtilir. Çikolata yapımcıları bazı çubuklarda Criollo'yu da etiketler.",
+    "en": "One CRS study reports that Criollo and Trinitario make up most of Haiti's trees. Some makers also label bars as Criollo."
+   }
+  },
+  {
+   "name": "Shada",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Grand'Anse çiftçilerinin yetiştirdikleri bir kakao tipine verdiği yerel addır. Bölgenin eski devlet çiftliklerinden geldiği düşünülmektedir.",
+    "en": "This is the local name Grand'Anse farmers give to one cacao type. It is thought to descend from trees on old experimental farms in the region."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Boul chokola / Chokola peyi (cacao balls)",
+   "desc": {
+    "tr": "Kavrulmuş kakao çekirdekleri ezilip macun haline getirilir. Macun elle toplara veya tabletlere şekillendirilir. Şekersiz olan bu ürün hem sıcak çikolata hem de yemek yapımında kullanılır.",
+    "en": "Roasted cacao beans are ground into a paste and hand-shaped into balls or tablets. The product is unsweetened and is used for hot chocolate and in cooking."
+   }
+  },
+  {
+   "name": "Chokola ayisyen (Haitian hot chocolate)",
+   "desc": {
+    "tr": "Kakao topları ya da tabletleri kaynar suda eritilir. Üzerine tarçın, anason ve süt eklenip şekerlenir. Haiti'de kahvaltıda ya da öğleden sonra içilir.",
+    "en": "Cacao balls or tablets are melted in boiling water and finished with cinnamon, anise and milk. They are then sweetened to taste. In Haiti it is drunk at breakfast or in the afternoon."
+   }
+  },
+  {
+   "name": "Bean-to-bar craft chocolate from fermented Haitian cacao",
+   "desc": {
+    "tr": "Kuzeydeki ve Grand'Anse'taki küçük üreticiler ile üretici grupları fermantasyona yatırım yaptı. Böylece ham, uygun fiyatlı kakao yerine zanaatkâr yapımcılara uygun, narenciye ve çiçek notaları taşıyan çekirdekler üretilmeye başlandı.",
+    "en": "Smallholders and producer groups in the north and Grand'Anse invested in proper fermentation. Haiti's cacao had been sold unfermented and cheap. It now yields citrusy, floral beans suited to craft bean-to-bar makers."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "(PDF) Haiti Cacao Impact Evaluation Baseline in the Departments of North and Grand Anse, Haiti.",
+   "url": "https://www.researchgate.net/publication/378679424_Haiti_Cacao_Impact_Evaluation_Baseline_in_the_Departments_of_North_and_Grand_Anse_Haiti"
+  },
+  {
+   "title": "Cacao Value Chain in Haiti - Schwartz Research Group",
+   "url": "https://timothyschwartzhaiti.com/cacao-value-chain-haiti/"
+  },
+  {
+   "title": "Real Hope For Haiti Real Hope For Haiti",
+   "url": "https://realhopeforhaiti.org/2026/01/15/recipe-homemade-hot-chocolate/"
+  },
+  {
+   "title": "Cocoa Through the Lens: Terroir Kreyòl: Cacao in Haiti",
+   "url": "https://worldcocoafoundation.org/news-and-resources/article/terroir-kreyol-cacao-in-haiti"
+  },
+  {
+   "title": "History of Cocoa in Haiti",
+   "url": "https://www.coeurdexocolat.com/haiti"
+  },
+  {
+   "title": "Cacao in Haiti Surveys and Report (CRS 2014) - Schwartz Research Group",
+   "url": "https://timothyschwartzhaiti.com/cacao-research/"
+  },
+  {
+   "title": "24 Best Haiti Chocolate Bars",
+   "url": "https://chof.nl/origins/haiti"
+  },
+  {
+   "title": "Nord-Ouest (department)",
+   "url": "https://en.wikipedia.org/wiki/Nord-Ouest_(department)"
+  }
+ ]
+}

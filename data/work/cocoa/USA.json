@@ -1,0 +1,182 @@
+{
+ "iso3": "USA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22182,
+  "out": 3835,
+  "searches": 2
+ },
+ "usd": 0.1027,
+ "summary": {
+  "tr": "ABD, ticari ölçekte kakao yetiştirebilen tek eyaleti Hawaii olan bir ülkedir. Bu yüzden FAOSTAT'a kayda değer bir üretim girmez. Hawaii'de 1980'lerden sonra küçük, aile işletmesi çiftlikler yaygınlaştı. Ülkenin çikolata kültürü ise ağırlıklı olarak ithal çekirdeğe dayanır. Süt çikolatalı kitle üretimi, çikolatalı kurabiye ve s'mores gibi Amerikan klasikleri ile 1990'lardan itibaren büyüyen, tek me",
+  "en": "The US has no meaningful national cacao output for FAOSTAT, because Hawaii is the only state that can support commercial cacao. Hawaii's small family-run farms grew mainly after the 1980s. The country's chocolate culture rests mostly on imported beans. It is known for mass-market milk chocolate, American classics such as the chocolate chip cookie and s'mores, and a bean-to-bar craft movement that "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Hawaiʻi Island – Hilo, Puna and Hāmākua coast",
+   "lat": 19.85,
+   "lng": -155.15,
+   "desc": {
+    "tr": "Büyük Ada'nın doğu ve kuzeydoğu kıyısı, eyaletteki en yoğun kakao çiftçisi ve çikolata üreticisi kümesine ev sahipliği yapar.",
+    "en": "The Big Island's east and northeast coast has the state's densest cluster of cacao farmers and chocolate makers."
+   },
+   "grapes": [
+    "Criollo-type",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Hawaiʻi Island – Kona and Kealakekua",
+   "lat": 19.48,
+   "lng": -155.9,
+   "desc": {
+    "tr": "Büyük Ada'nın sıcak ve kurak batı yakasında, lav arazisinde sulamayla kakao yetiştirilir.",
+    "en": "On the Big Island's hot, dry west side, cacao grows on lava ground with the help of irrigation."
+   },
+   "grapes": [
+    "Criollo-type",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Oʻahu – North Shore (Waialua)",
+   "lat": 21.58,
+   "lng": -158.12,
+   "desc": {
+    "tr": "Eski şeker kamışı tarlalarında bulunan Waialua, Hawaii'nin en büyük kakao bahçesine ve ülkenin en önemli kakao ıslah merkezlerinden birine ev sahipliği yapar.",
+    "en": "Waialua, on former sugar-cane land, holds Hawaii's largest cacao orchard and is a main hub for cacao breeding."
+   },
+   "grapes": [
+    "Hybrid selections",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Maui – Hāna coast",
+   "lat": 20.76,
+   "lng": -155.99,
+   "desc": {
+    "tr": "Haleakalā Yanardağı'nın gölgesindeki Hāna kıyısında küçük aile çiftlikleri kakao yetiştirir ve çikolata üretir.",
+    "en": "On the Hāna coast in the shadow of Haleakalā, small family farms grow cacao and make chocolate."
+   },
+   "grapes": [
+    "Hybrid selections"
+   ]
+  },
+  {
+   "name": "Kauaʻi",
+   "lat": 22.05,
+   "lng": -159.4,
+   "desc": {
+    "tr": "Kauaʻi'de çok küçük, turizme açık çiftlik bahçeleri vardır ve üretim miktarı en düşük adadır.",
+    "en": "Kauaʻi has very small, visitor-oriented farm orchards and the lowest output of the main cacao islands."
+   },
+   "grapes": [
+    "Hybrid selections"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Criollo-type (Hawaii-grown)",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Bazı Hawaii çiftlikleri tohumdan yetiştirilmiş Criollo tipi ağaçlar dikmiştir. Bu tür bölgeye sonradan getirilmiştir.",
+    "en": "Some Hawaiian farms plant Criollo-type trees grown from seed. The type was introduced to the islands."
+   }
+  },
+  {
+   "name": "Trinitario hybrids",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Hawaii'de dikilen ağaçların çoğu, Belize ve Filipinler gibi yerlerden getirilen melez materyale dayanır.",
+    "en": "Many Hawaiian plantings rely on hybrid material brought from places such as Belize and the Philippines."
+   }
+  },
+  {
+   "name": "Hawaiian breeding selections",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Oʻahu'daki ıslah çalışmaları, Hawaii koşullarına uyan çeşitli genetik materyalleri bir araya getirmeyi amaçlar.",
+    "en": "Breeding work on Oʻahu brings together diverse genetics suited to Hawaiian growing conditions."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar craft chocolate",
+   "desc": {
+    "tr": "1990'larda başlayan bu hareket, çiftliklerden seçilmiş çekirdekleri aynı üreticinin kavurup öğüterek bara dönüştürmesine dayanır. Hareket, tek menşe şeffaflığını ve az içerikli bar anlayışını öne çıkarır.",
+    "en": "This movement began in the 1990s. A maker sources beans from specific farms, then roasts, grinds and turns them into bars. It values single-origin transparency and simple, few-ingredient bars."
+   }
+  },
+  {
+   "name": "Hawaiian farm-to-bar chocolate",
+   "desc": {
+    "tr": "Hawaii'de birçok küçük üretici kendi yetiştirdiği kakaoyu ağaçtan bara kendi tesisinde işler. Üretim kıt olduğu için ürünler küçük partiler halinde çıkar.",
+    "en": "Many small Hawaiian makers process their own cacao from tree to bar on site. Supply is scarce, so the bars come in small batches."
+   }
+  },
+  {
+   "name": "Chocolate chip cookie",
+   "desc": {
+    "tr": "Kurabiye 1930'larda Massachusetts'teki Toll House Inn'de Ruth Wakefield ile ilişkilendirilir. Doğrama çikolatadan, sonradan “çikolata damlası” ürününe uzanan bir hikâyesi vardır.",
+    "en": "The cookie is linked to Ruth Wakefield at the Toll House Inn in Massachusetts in the 1930s. Its story runs from chopped chocolate bars to the later chocolate chip product."
+   }
+  },
+  {
+   "name": "S'mores",
+   "desc": {
+    "tr": "Kızartılmış marshmallow ile çikolatanın grahamlı bisküvi arasına sıkıştırıldığı kamp tatlısıdır. Tarif ilk kez 1927 tarihli Girl Scout el kitabında “Some Mores” adıyla yayımlanmıştır.",
+    "en": "S'mores are a camping treat of toasted marshmallow and chocolate sandwiched between graham crackers. The recipe first appeared in the 1927 Girl Scout handbook as “Some Mores.”"
+   }
+  },
+  {
+   "name": "American milk chocolate bar",
+   "desc": {
+    "tr": "Kitle üretimi, tatlı ve süt ağırlıklı çikolata Amerikan damak zevkinin temelini oluşturur. Zanaat çikolata hareketi bu endüstriyel çikolataya bir tepki olarak ortaya çıkmıştır.",
+    "en": "Mass-produced, sweet, milk-forward chocolate forms the base of the American palate. The craft chocolate movement arose partly as a reaction to this industrial style."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "How Hawaii Became the North Pole of Cacao",
+   "url": "https://www.smithsonianmag.com/travel/hawaii-north-pole-cacao-chocolate-tours-180967951/"
+  },
+  {
+   "title": "Our Cacao",
+   "url": "https://manoachocolate.com/pages/our-cacao"
+  },
+  {
+   "title": "The Cacao Farm and Waimea",
+   "url": "https://fairchildgarden.org/visit/the-cacao-farm-and-waimea/"
+  },
+  {
+   "title": "Big Island Chocolate Farm Tours: Hilo, Hamakua & Kona (2026)",
+   "url": "https://www.lovebigisland.com/organic-chocolate-big-island-hawaii/"
+  },
+  {
+   "title": "Hawaiian Chocolate: Big Island Cacao Farm Tours & Shops",
+   "url": "https://damecacao.com/hawaiian-chocolate-big-island/"
+  },
+  {
+   "title": "growing cacao in Hawaii - Chocolatour with Doreen Pendgracs",
+   "url": "https://chocolatour.net/growing-cacao-in-hawaii/"
+  },
+  {
+   "title": "A Guide to Visiting Hawaii Chocolate Farms on the Big Island",
+   "url": "https://volcanovillagelodge.com/hawaii-chocolate-farms"
+  },
+  {
+   "title": "Waialua Farm",
+   "url": "https://lonohana.com/pages/waialua-farm"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "iso3": "CRI",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23541,
+  "out": 3271,
+  "searches": 2
+ },
+ "usd": 0.0998,
+ "summary": {
+  "tr": "Kosta Rika'da kakao, Bribri, Cabécar, Maleku ve Chorotega gibi yerli halklar için kutsal bir bitki, içecek ve takas aracıydı. Sömürge döneminden itibaren ve özellikle 1800'lerin sonunda Karayip yamacında önemli bir ihraç ürünü oldu. Hastalıklar ve muz ile kahve rekabeti üretimi düşürdü. Bugün üretim küçük aile çiftliklerinde, tarım-ormancılık sistemlerinde ve kooperatiflerde sürüyor. Ülke ICCO tar",
+  "en": "In Costa Rica, cacao was a sacred plant, drink and medium of exchange for Indigenous peoples such as the Bribri, Cabécar, Maleku and Chorotega. It became a significant export crop from colonial times, especially on the Caribbean slope from the late 1800s. Disease and competition from bananas and coffee then cut production. Today cacao comes from small family farms, agroforestry systems and coopera"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Talamanca (southern Caribbean)",
+   "lat": 9.6,
+   "lng": -82.95,
+   "desc": {
+    "tr": "Bribri ve Cabécar topluluklarının yurdu olan Talamanca, ülkenin en köklü ve en önemli kakao bölgesidir; kakao burada küçük ailelerce tarım-ormancılık sistemlerinde yetiştirilir.",
+    "en": "Talamanca, homeland of the Bribri and Cabécar, is the country's oldest and main cacao region, with small family farms growing cacao in agroforestry systems."
+   },
+   "grapes": [
+    "Trinitario hybrids",
+    "Acriollado (criollo-type) cacao",
+    "Indigenous cacao gardens"
+   ]
+  },
+  {
+   "name": "Limón and Sarapiquí (Huetar Caribe)",
+   "lat": 10.2,
+   "lng": -83.5,
+   "desc": {
+    "tr": "Nemli Karayip ovaları, 1800'lerin sonundan beri ülkenin tarihî kakao ihracat kuşağıdır.",
+    "en": "The humid Caribbean lowlands have been the historic cacao export belt since the late 1800s."
+   },
+   "grapes": [
+    "Trinitario hybrids",
+    "CATIE clones"
+   ]
+  },
+  {
+   "name": "Upala, Tenorio and Arenal (Huetar Norte)",
+   "lat": 10.75,
+   "lng": -85.0,
+   "desc": {
+    "tr": "Volkanik topraklı kuzey bölgesinde, organik ve sürdürülebilir kakao yetiştiren küçük ve büyük çiftlikler bulunur.",
+    "en": "In the volcanic-soil north, small and large farms focus on organic and sustainable cacao, and Upala is one of the three leading cacao cantons."
+   },
+   "grapes": [
+    "Trinitario hybrids",
+    "CATIE polyclone",
+    "Fine-flavour cacao"
+   ]
+  },
+  {
+   "name": "Turrialba (Central Valley, Caribbean slope)",
+   "lat": 9.9,
+   "lng": -83.68,
+   "desc": {
+    "tr": "Turrialba, kakao araştırmaları ve klon seçimi ile bilinen CATIE'ye ev sahipliği yapan yüksek eğimli bir bölgedir.",
+    "en": "Turrialba is a foothill zone on the Caribbean slope, listed among producing areas and home to the CATIE research centre."
+   },
+   "grapes": [
+    "CATIE clones",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Coto Brus and Brunca (south Pacific)",
+   "lat": 8.85,
+   "lng": -82.95,
+   "desc": {
+    "tr": "Güneydeki Brunca bölgesinde kooperatifler organik üretime yöneldikçe kakao giderek daha önemli hale geliyor.",
+    "en": "In the southern Brunca region, cacao is gaining importance as cooperatives move toward organic practices, with heirloom-variety plantations near San Vito."
+   },
+   "grapes": [
+    "Trinitario hybrids",
+    "Heirloom cacao"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Trinitario hybrids",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Çiftliklerde en yaygın genetik materyal, Trinitario melezleri ve acriollado tiplerdir.",
+    "en": "The predominant planting material on farms is Trinitario hybrids and acriollado (criollo-type) selections."
+   }
+  },
+  {
+   "name": "CATIE polyclone",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "CATIE'nin geliştirdiği klon karışımı, ülkedeki çiftliklerde yaygın olarak kullanılır.",
+    "en": "A mix of clones from the CATIE research centre, widely planted on Costa Rican farms."
+   }
+  },
+  {
+   "name": "Talamanca Indigenous cacao gardens (acriollado)",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Bribri topluluklarının yüzyıllardır sürdürdüğü \"kakao bahçeleri\" yarı yabani, yerel kakao popülasyonlarını barındırır.",
+    "en": "The \"cacao gardens\" kept by Bribri communities for centuries hold semi-wild local cacao populations."
+   }
+  },
+  {
+   "name": "Wild Criollo (Nicoya and Talamanca)",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Vahşi Criollo'nun Nicoya Yarımadası'nda ve Talamanca dağlarında bulunduğu bildirilmektedir, ancak bu bilgi resmî bir doğrulamaya dayanmaz.",
+    "en": "Wild Criollo is reportedly found on the Nicoya Peninsula and in the Talamanca mountains, though this comes from a trade source and is not formally verified."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bribri ceremonial cacao drink",
+   "desc": {
+    "tr": "Bribri toplulukları kakaoyu kutsal sayar. Kakaoyu bir kapta öğüterek içecek hazırlar ve bunu şaman ritüellerinde ve kutlamalarda kullanır.",
+    "en": "The Bribri regard cacao as sacred. They grind it in a pot to make a drink used in shamanic rituals and celebrations."
+   }
+  },
+  {
+   "name": "Artisanal bean-to-bar chocolate",
+   "desc": {
+    "tr": "Küçük yapımcılar, çiftliklerden ve yerli kooperatiflerden aldıkları organik kakaoyu doğrudan çikolataya dönüştürür; bazı çiftliklerde bu süreç ağaçtan çubuğa kadar tek yerde yürür.",
+    "en": "Small makers turn organic cacao from farms and Indigenous cooperatives directly into chocolate, and some farms handle everything from tree to bar on site."
+   }
+  },
+  {
+   "name": "Cacao farm and chocolate tours",
+   "desc": {
+    "tr": "Talamanca, Sarapiquí, Tenorio ve Arenal çevresindeki çiftlik turlarında ziyaretçiler hasadı, fermantasyonu ve el yapımı çikolata üretimini deneyimler.",
+    "en": "Farm tours around Talamanca, Sarapiquí, Tenorio and Arenal let visitors experience harvest, fermentation and handmade chocolate production."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Costa Rica - Make Mine Fine",
+   "url": "https://www.makeminefine.com/cocoa-sustainability/costa-rica/"
+  },
+  {
+   "title": "Costa Rica recibe reconocimiento como país productor y exportador de cacao fino - Periódico Mensaje Guanacaste",
+   "url": "https://www.periodicomensaje.com/guanacaste/10984-costa-rica-recibe-reconocimiento-como-pais-productor-y-exportador-de-cacao-fino"
+  },
+  {
+   "title": "Cacao",
+   "url": "https://costaricatreeatlas.org/en/trees/cacao"
+  },
+  {
+   "title": "Cacao in Costa Rica: History, Traditions, and Encounters",
+   "url": "https://travels-costarica.com/blog/culture/cacao-guide/"
+  },
+  {
+   "title": "History of Cocoa Farming in Costa Rica: A Legacy of Resilience",
+   "url": "https://www.sibochocolate.com/blogs/costa-rican-chocolate/history-of-cocoa-farming-in-costa-rica-a-legacy-of-resilience"
+  },
+  {
+   "title": "Arenal Huetar Norte Conservation Area",
+   "url": "https://en.wikipedia.org/wiki/Arenal_Huetar_Norte_Conservation_Area"
+  },
+  {
+   "title": "Costa Rica",
+   "url": "https://c-spot.com/atlas/chocolate-sources/caribia/costa-rica/"
+  },
+  {
+   "title": "100% Pure Ceremonial Grade Cacao From Costa Rica - Pura Vida Botanicals",
+   "url": "https://puravidabotanicals.com/?product=100-pure-ceremonial-grade-cacao"
+  }
+ ]
+}

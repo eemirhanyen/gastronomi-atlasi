@@ -1,0 +1,177 @@
+{
+ "iso3": "SLE",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 49972,
+  "out": 3345,
+  "searches": 3
+ },
+ "usd": 0.1634,
+ "summary": {
+  "tr": "Sierra Leone'de kakao, kaynaklara göre 16. yüzyılda Portekizli denizciler aracılığıyla tanıtıldı ve 20. yüzyıl başında bugünkü Gana'dan gelen çeşitlerle yaygınlaştı. Bugün ülkenin doğusunda (Kailahun, Kenema, Kono) çoğunlukla küçük çiftçiler tarafından yetiştiriliyor. İç piyasada belirgin bir çikolata kültürü yok. Kakao ağırlıklı olarak çekirdek halinde ihraç ediliyor. Gola Yağmur Ormanı çevresind",
+  "en": "Cacao is reported to have reached Sierra Leone with Portuguese sailors in the 16th century, and it spread in the early 20th century with varieties from present-day Ghana. Today it is grown mostly by smallholders in the east (Kailahun, Kenema, Kono). There is no distinctive domestic chocolate culture, and cacao is exported mainly as beans. Organic agroforestry projects around the Gola Rainforest no"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kailahun District",
+   "lat": 8.28,
+   "lng": -10.57,
+   "desc": {
+    "tr": "Ülkenin en büyük kakao üreten ilçesi olup Liberya sınırında yer alır; geniş küçük çiftçi bahçeleri ve organik projeler burada bulunur.",
+    "en": "The country's largest cocoa-producing district, on the Liberian border, with extensive smallholder farms and organic projects."
+   },
+   "grapes": [
+    "Amelonado (Forastero)",
+    "Upper Amazon (Forastero)",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Kenema District",
+   "lat": 7.88,
+   "lng": -11.19,
+   "desc": {
+    "tr": "Doğu Eyaleti'nin önemli kakao bölgesidir; kakao kooperatifleri ve kakao alım merkezleri burada faaliyet gösterir.",
+    "en": "A major cocoa district of the Eastern Province, home to farmer cooperatives and cocoa buying and collection centres."
+   },
+   "grapes": [
+    "Amelonado (Forastero)",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Gola Rainforest fringe (Kenema–Kailahun)",
+   "lat": 7.65,
+   "lng": -11.08,
+   "desc": {
+    "tr": "Gola Ulusal Parkı çevresindeki köyler, gölge ağaçları altında organik kakao yetiştirir ve çekirdekleri butik çikolata üreticilerine satar.",
+    "en": "Villages around Gola National Park grow organic cacao under shade trees and sell beans to specialty chocolate makers."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero (Amelonado, Upper Amazon)"
+   ]
+  },
+  {
+   "name": "Kono District",
+   "lat": 8.64,
+   "lng": -10.97,
+   "desc": {
+    "tr": "Doğu Eyaleti'nin kuzeyinde, Kailahun ve Kenema ile birlikte ülke kakaosunun büyük bölümünü sağlayan üçüncü ilçedir.",
+    "en": "In the north of the Eastern Province, the third district that, with Kailahun and Kenema, supplies most of the national crop."
+   },
+   "grapes": [
+    "Forastero",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Bo District",
+   "lat": 7.96,
+   "lng": -11.74,
+   "desc": {
+    "tr": "Güney Eyaleti'nde ticari kakao üretiminin yapıldığı, doğudaki ilçelerden daha küçük bir bölgedir.",
+    "en": "A smaller commercial cocoa area in the Southern Province, well behind the eastern districts."
+   },
+   "grapes": [
+    "Forastero"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Amelonado (Forastero)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Ülkede yaygın olarak ekilen, dayanıklı ve çoğunlukla dökme (bulk) kakao olarak satılan Forastero alt grubudur.",
+    "en": "A hardy Forastero subgroup widely planted in the country and mostly sold as bulk cocoa."
+   }
+  },
+  {
+   "name": "Upper Amazon Forastero",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Amelonado ile birlikte yetiştirilen, bazı organik projelerde de bulunan Forastero hatlarıdır.",
+    "en": "Forastero lines grown alongside Amelonado, including in some organic projects."
+   }
+  },
+  {
+   "name": "Gola Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Gola Yağmur Ormanı çevresindeki köy projelerinden gelen, yüksek kaliteli fermantasyonla işlenen organik Trinitario çekirdeklerdir.",
+    "en": "Organic Trinitario beans from village projects around the Gola Rainforest, processed with higher-quality fermentation."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Single-origin bean-to-bar chocolate from Sierra Leone beans",
+   "desc": {
+    "tr": "Sierra Leone çekirdeklerinden yurt dışında yapılan tek orijinli çikolatalar; ürün tadı fındıksı, baharatlı ve meyvemsi notalarla tanımlanır.",
+    "en": "Single-origin bars made abroad from Sierra Leonean beans, described with nutty, spicy and fruity notes."
+   }
+  },
+  {
+   "name": "Organic agroforestry and fair-trade cocoa",
+   "desc": {
+    "tr": "Gölge ağaçları altında, kimyasal gübre ve pestisit kullanmadan yetiştirilen, kooperatiflerle ve adil ticaret modelleriyle satılan kakao yaklaşımıdır.",
+    "en": "Cacao grown under shade trees without synthetic fertilizers or pesticides and sold through cooperatives and fair-trade models."
+   }
+  },
+  {
+   "name": "Farm-level fermentation and sun-drying",
+   "desc": {
+    "tr": "Çekirdekler çoğunlukla çiftlikte fermente edilip kurutulur; yeni köy toplama noktaları ve merkezi fermantasyon istasyonları kaliteyi artırmayı hedefler.",
+    "en": "Beans are mostly fermented and dried on the farm, and new village collection points and central fermentation stations aim to raise quality."
+   }
+  },
+  {
+   "name": "Single-origin drinking chocolate and cacao paste",
+   "desc": {
+    "tr": "Sierra Leone kakaosundan yapılan içme çikolatası tozu ve saf kakao hamuru gibi ürünler, çoğunlukla ihracat pazarlarında satılır.",
+    "en": "Drinking chocolate powder and pure cacao paste made from Sierra Leonean cacao, sold mostly in export markets."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cocoa Processing",
+   "url": "http://sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/cocoa-processing"
+  },
+  {
+   "title": "ORGANIC COCOA IN SIERRA LEONE",
+   "url": "https://www.oaklandinstitute.org/sites/default/files/files-archive/Organic_Cocoa_Sierra_Leone.pdf"
+  },
+  {
+   "title": "Kenema District",
+   "url": "https://en.wikipedia.org/wiki/Kenema_District"
+  },
+  {
+   "title": "(PDF) Management practices to improve the cocoa bean value chain in Sierra Leone: Cocoa bean production in Sierra Leone",
+   "url": "https://www.researchgate.net/publication/370491017_Management_practices_to_improve_the_cocoa_bean_value_chain_in_Sierra_Leone_Cocoa_bean_production_in_Sierra_Leone"
+  },
+  {
+   "title": "Organic Cocoa in Sierra Leone",
+   "url": "https://www.oaklandinstitute.org/report/agroecology-series/organic-cocoa-sierra-leone"
+  },
+  {
+   "title": "(PDF) International Journal of Recent Innovations in Academic Research Productivity and Economic Analysis of Technical Efficiency of Cocoa P",
+   "url": "https://www.researchgate.net/publication/391992234_International_Journal_of_Recent_Innovations_in_Academic_Research_Productivity_and_Economic_Analysis_of_Technical_Efficiency_of_Cocoa_Production_in_Kailahun_District_Eastern_Sierra_Leone"
+  },
+  {
+   "title": "Management practices to improve the cocoa bean value chain in Sierra Leone",
+   "url": "https://www.techagro.org/index.php/MJAS/article/view/988"
+  },
+  {
+   "title": "Brazil Ambassador to Sierra Leone visits cocoa farms in Kenema and Kailahun",
+   "url": "https://www.thesierraleonetelegraph.com/brazil-ambassador-to-sierra-leone-visits-cocoa-farms-in-kenema-and-kailahun/"
+  }
+ ]
+}

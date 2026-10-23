@@ -1,0 +1,195 @@
+{
+ "iso3": "IND",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 25169,
+  "out": 4969,
+  "searches": 2
+ },
+ "usd": 0.12,
+ "summary": {
+  "tr": "Kakao Hindistan'a ilk kez 1798'de İngilizler tarafından Courtallam'da (Tamil Nadu) Criollo denemesi olarak getirildi, ancak başarısız oldu. Ticari yetiştiriciliğin temeli 1960'larda Cadbury'nin Kerala'daki Wayanad'da kurduğu deneme çiftliği ve Kerala Tarım Üniversitesi ile yürüttüğü ıslah çalışmalarıyla atıldı. Kakao bugün hindistancevizi ve areka palmiyesi bahçelerinde ara ürün olarak yetişiyor. ",
+  "en": "The British first brought cacao to India in 1798 as a Criollo experiment at Courtallam (Tamil Nadu), but it failed. Commercial cultivation rests on the demonstration farm Cadbury set up in Wayanad, Kerala, in the mid-1960s and on later breeding work with Kerala Agricultural University. Cacao is now grown mainly as an intercrop under coconut and areca palms, chiefly in Andhra Pradesh, Kerala, Karna"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Godavari delta, Andhra Pradesh (Eluru / West & East Godavari)",
+   "lat": 16.8,
+   "lng": 81.2,
+   "desc": {
+    "tr": "Andhra Pradesh Hindistan'ın en büyük kakao üreticisidir. Ülke üretiminin kabaca %40'ını verir ve kakao hindistancevizi ve yağ palmiyesi gölgesinde yetişir.",
+    "en": "Andhra Pradesh is India's largest cocoa producer, with roughly 40% of national output, grown under the shade of coconut and oil palms."
+   },
+   "grapes": [
+    "Forastero-type hybrids",
+    "CCRP clones"
+   ]
+  },
+  {
+   "name": "Idukki–Kottayam–Thrissur, Kerala",
+   "lat": 9.9,
+   "lng": 76.8,
+   "desc": {
+    "tr": "Kerala kakao yetiştiriciliğini başlatan eyalettir ve ikinci büyük üreticidir. Araştırmalar Vellanikkara'daki Kakao Araştırma Merkezi'nde sürer.",
+    "en": "Kerala pioneered cocoa promotion in India and is the second-largest producer, with research based at the Cocoa Research Centre in Vellanikkara."
+   },
+   "grapes": [
+    "Cadbury–KAU hybrids",
+    "Forastero-type hybrids",
+    "Criollo-derived breeding material"
+   ]
+  },
+  {
+   "name": "Wayanad, Kerala",
+   "lat": 11.7,
+   "lng": 76.1,
+   "desc": {
+    "tr": "Cadbury 1965'te burada, Chundale'de bir deneme çiftliği kurdu ve Hindistan'daki ticari kakao tarımını başlattı.",
+    "en": "Cadbury founded a demonstration farm at Chundale here in 1965, launching commercial cocoa farming in India."
+   },
+   "grapes": [
+    "Forastero-type hybrids"
+   ]
+  },
+  {
+   "name": "Dakshina Kannada–Shimoga–Uttara Kannada, Karnataka",
+   "lat": 13.3,
+   "lng": 75.2,
+   "desc": {
+    "tr": "Karnataka'da kakao areka cevizi bahçelerinde yetişir ve ICAR-CPCRI'nin Vittal'daki istasyonu ülkenin ana kakao gen bankasını barındırır.",
+    "en": "In Karnataka cocoa is grown in areca gardens, and the ICAR-CPCRI station at Vittal hosts the main national cocoa gene bank."
+   },
+   "grapes": [
+    "VTLC hybrids and clones",
+    "Forastero-type hybrids"
+   ]
+  },
+  {
+   "name": "Coimbatore–Erode–Pollachi belt, Tamil Nadu",
+   "lat": 10.9,
+   "lng": 77.1,
+   "desc": {
+    "tr": "Tamil Nadu'da kakao hindistancevizi bahçelerinde ara ürün olarak geniş alanlara yayıldı, ancak verim diğer eyaletlerin gerisinde kaldı.",
+    "en": "In Tamil Nadu cocoa has spread widely as an intercrop in coconut groves, but yields lag behind the other states."
+   },
+   "grapes": [
+    "Forastero-type hybrids",
+    "CCRP clones"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Forastero-type hybrids (Cadbury–KAU)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Amazon kökenli, dayanıklı ve yüksek verimli Forastero tipi bitkiler Hindistan'ın ticari kakaosunun temelini oluşturur. Cadbury ve Kerala Tarım Üniversitesi bunları 1987'ye kadar daha verimli hibritler",
+    "en": "Hardy, high-yielding Amazonian Forastero-type material underpins India's commercial cocoa. Cadbury and Kerala Agricultural University bred it into more productive hybrids by 1987."
+   }
+  },
+  {
+   "name": "CPCRI VTLC hybrids and clones",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "ICAR-CPCRI beş hibrit (VTLCH-1 ile VTLCH-5), bir klon ve iki seçilim olmak üzere sekiz çeşit çıkardı. Bunlar palmiye bazlı üretim sistemlerine uygundur.",
+    "en": "ICAR-CPCRI has released eight varieties (five VTLCH hybrids, one clone and two selections), suited to palm-based cropping systems."
+   }
+  },
+  {
+   "name": "CCRP selections (DCCD-recommended)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "CCRP 2, CCRP 3 ve CCRP 6 gibi yüksek verimli çeşitler Andhra Pradesh, Kerala, Karnataka ve Tamil Nadu'da önerilir.",
+    "en": "High-yielding selections such as CCRP 2, CCRP 3 and CCRP 6 are recommended by DCCD for Andhra Pradesh, Kerala, Karnataka and Tamil Nadu."
+   }
+  },
+  {
+   "name": "Criollo (introduced, breeding use)",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Hassas Criollo 1798'de Courtallam'da denendi ve Hint iklimine uyum sağlayamadı. Bugün yalnızca tat kalitesini artırmak için ıslah programlarında kullanılıyor.",
+    "en": "Delicate Criollo was tried at Courtallam in 1798 and failed to adapt; today it is used mainly in breeding programmes to improve flavour quality."
+   }
+  },
+  {
+   "name": "White-bean genotypes",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "CPCRI, kalite özellikleri açısından beyaz taneli genotipleri de topluyor ve değerlendiriyor.",
+    "en": "CPCRI also collects and evaluates white-beaned genotypes for quality traits."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Mass-market milk chocolate and confectionery",
+   "desc": {
+    "tr": "Hindistan'da çikolata pazarı onlarca yıl boyunca sütlü çikolata ve karamelli, gofretli şekerlemelerden oluşan iki büyük çok uluslu şirketin hâkimiyetinde kaldı. Çikolata, hediyeleşme ve bayram kutlamalarında yaygın biçimde kullanılır.",
+    "en": "For decades the Indian market has been dominated by two multinationals selling milk chocolate and caramel- or wafer-filled confectionery. Chocolate is widely used for gifting and festive occasions."
+   }
+  },
+  {
+   "name": "Bean-to-bar craft chocolate with Indian flavours",
+   "desc": {
+    "tr": "2014 civarında Mason & Co. ve Naviluna ile başlayan zanaatkâr akımı, güney Hindistan kakaosunu tek menşe barlara dönüştürür. Filtre kahve, tuzlu fıstık ve baharat gibi yerel tatlar da kullanılır.",
+    "en": "A craft movement started around 2014 by Mason & Co. and Naviluna turns South Indian cacao into single-origin bars. Makers also use local flavours such as filter coffee, salted peanuts and spices."
+   }
+  },
+  {
+   "name": "Malted chocolate drinks",
+   "desc": {
+    "tr": "Süte karıştırılan malt bazlı kakao içecekleri, Hindistan evlerinde çikolatayla ilk tanışmanın yaygın yollarından biridir.",
+    "en": "Malt-based cocoa powders stirred into milk are one of the most common ways Indian households first meet chocolate."
+   }
+  },
+  {
+   "name": "Chocolate-infused mithai and fusion desserts",
+   "desc": {
+    "tr": "Çikolata barfi, çikolatalı peda ve çikolatalı gulab jamun gibi fusion tatlılar, geleneksel Hint şekerlemeciliğini çikolatayla birleştirir.",
+    "en": "Fusion sweets such as chocolate barfi, chocolate peda and chocolate-filled gulab jamun blend traditional Indian confectionery with chocolate."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "(PDF) Genetic resources of cocoa (Theobroma cacao L.) and its utilization- An Appraisal",
+   "url": "https://www.researchgate.net/publication/314232153_Genetic_resources_of_cocoa_Theobroma_cacao_L_and_its_utilization-_An_Appraisal"
+  },
+  {
+   "title": "Trend analysis and price behaviour of cocoa in Kerala",
+   "url": "https://jtropag.kau.in/index.php/ojs2/article/download/1219/773/6632"
+  },
+  {
+   "title": "'Andhra Pradesh Set To Become Global Hub For Cocoa Cultivation': Ex-CPCRI Director Chowdappa",
+   "url": "https://www.etvbharat.com/en/state/andhra-pradesh-set-to-become-global-hub-for-cocoa-cultivation-ex-cpcri-director-chowdappa-enn26020901712"
+  },
+  {
+   "title": "cocoa guide",
+   "url": "https://cpcri.gov.in/filemgr/webfs/publication/COCOA_GUIDE_2018.pdf"
+  },
+  {
+   "title": "Cocoa Planting Material Production",
+   "url": "https://cpcri.gov.in/filemgr/webfs/publication/plant01.pdf"
+  },
+  {
+   "title": "Crop history - Cocoa",
+   "url": "https://dccd.gov.in/crop-history-cocoa"
+  },
+  {
+   "title": "a study on growth rate of cocoa in india with special ...",
+   "url": "https://geneticsmr.com/index.php/gmr/article/download/4501/2837/10883"
+  },
+  {
+   "title": "ICAR-Central Plantation Crops Research Institute",
+   "url": "https://cpcri.gov.in/page/article/cpcri_crop_improvement"
+  }
+ ]
+}

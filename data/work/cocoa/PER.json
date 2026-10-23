@@ -1,0 +1,233 @@
+{
+ "iso3": "PER",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 75490,
+  "out": 5352,
+  "searches": 5
+ },
+ "usd": 0.2545,
+ "summary": {
+  "tr": "Peru, kakaonun anavatanı sayılan Üst Amazon havzasında yer alır ve dünyanın en yüksek genetik çeşitliliğine sahip kakao popülasyonlarından bazılarını barındırır. Ülkede 100 binden fazla küçük çiftçi kakao yetiştirir. Üretimin büyük bölümü San Martín, Junín ve Ucayali gibi Amazon yamaçlarından gelir; 1990'lardan itibaren kooperatif ve organik/adil ticaret modeliyle kokain bitkisi (koka) yerine kaka",
+  "en": "Peru lies in the Upper Amazon, the cradle of cacao, and holds some of the greatest genetic diversity of cacao anywhere. More than 100,000 smallholders grow it, mostly on the Amazon and Andean-foothill slopes of San Martín, Junín and Ucayali. Since the 1990s, cooperatives and organic/Fairtrade models have been promoted, partly to replace coca with cacao. Culturally, the Christmas 'chocolatada' (hot"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "San Martín (Tocache, Juanjuí, Tarapoto)",
+   "lat": -7.0,
+   "lng": -76.7,
+   "desc": {
+    "tr": "Ülkenin açık ara en büyük kakao bölgesi olan San Martín'de, ACOPAGRO gibi güçlü kooperatifler organik ve adil ticaret kakao ihraç eder.",
+    "en": "By far Peru's largest cacao department, where cooperatives such as ACOPAGRO export organic and Fairtrade cacao."
+   },
+   "grapes": [
+    "Trinitario",
+    "CCN-51",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Junín (Satipo, Selva Central)",
+   "lat": -11.2,
+   "lng": -74.6,
+   "desc": {
+    "tr": "Selva Central'ın bir parçası olan Junín, ulusal üretimin yaklaşık beşte birini sağlayan ikinci büyük üretim bölgesidir.",
+    "en": "Part of the Selva Central, Junín is the second-largest producing department, supplying roughly a fifth of national output."
+   },
+   "grapes": [
+    "Trinitario",
+    "CCN-51",
+    "Amazon Forastero"
+   ]
+  },
+  {
+   "name": "Ucayali (Padre Abad)",
+   "lat": -9.0,
+   "lng": -75.5,
+   "desc": {
+    "tr": "Ucayali, Amazon ovasında yer alan ve ulusal üretimin yaklaşık yüzde 12'sini sağlayan önemli bir kakao bölgesidir.",
+    "en": "Ucayali is a lowland Amazon department that supplies around 12% of national production."
+   },
+   "grapes": [
+    "Trinitario",
+    "CCN-51"
+   ]
+  },
+  {
+   "name": "Huánuco (Tingo María, Tocache çevresi)",
+   "lat": -9.3,
+   "lng": -76.0,
+   "desc": {
+    "tr": "Tingo María çevresindeki Huánuco ormanlık yamaçları, alternatif kalkınma programlarıyla gelişmiş bir kakao kuşağıdır.",
+    "en": "The forested slopes of Huánuco around Tingo María form a cacao belt developed through alternative-development programmes."
+   },
+   "grapes": [
+    "Trinitario",
+    "CCN-51"
+   ]
+  },
+  {
+   "name": "Cusco – La Convención (Quillabamba, Echarati)",
+   "lat": -12.86,
+   "lng": -72.69,
+   "desc": {
+    "tr": "Quillabamba çevresindeki Urubamba vadisi, yerli Chuncho kakaosunun ana vatanıdır.",
+    "en": "The Urubamba valley around Quillabamba is the heartland of the native Chuncho cacao."
+   },
+   "grapes": [
+    "Chuncho",
+    "Native Criollo types"
+   ]
+  },
+  {
+   "name": "Piura (Morropón, Tambogrande, Ayabaca)",
+   "lat": -5.1,
+   "lng": -79.9,
+   "desc": {
+    "tr": "Kuzey kıyısının kurak vadilerinde sulamayla yetişen Piura, nadir beyaz (porselen) kakao çekirdekleriyle ünlüdür.",
+    "en": "Grown with irrigation in the dry northern coastal valleys, Piura is famed for its rare white (porcelain) cacao beans."
+   },
+   "grapes": [
+    "Piura Blanco",
+    "Native Piura Criollo"
+   ]
+  },
+  {
+   "name": "Cajamarca – Amazonas (Jaén, San Ignacio, Bagua, Marañón vadisi)",
+   "lat": -5.6,
+   "lng": -78.7,
+   "desc": {
+    "tr": "Marañón vadisi çevresindeki kuzey ormanlık yamaçlar, yerli ince aromalı kakaoların yetiştiği ve genetik çalışmalara konu olduğu bir bölgedir.",
+    "en": "The northern cloud-forest foothills around the Marañón valley grow native fine-aroma cacaos that are the subject of genetic research."
+   },
+   "grapes": [
+    "Fortunato No. 4",
+    "Native Marañón fine-aroma types",
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Chuncho",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Cusco vadilerine özgü, mor tonlu çekirdekleri ve meyvemsi, çiçeksi aromasıyla bilinen eski yerli kakaodur.",
+    "en": "An ancient native cacao from the Cusco valleys, prized for violet-hued beans and fruity, floral flavours."
+   }
+  },
+  {
+   "name": "Piura Blanco (Porcelana)",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Piura'ya özgü, krem-beyaz çekirdekli, yumuşak, fındıksı ve narenciyeli notalara sahip nadir bir yerli Criollo tipidir.",
+    "en": "A rare native Criollo type from Piura with creamy-white beans and mild, nutty, citrusy notes."
+   }
+  },
+  {
+   "name": "Fortunato No. 4",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Cajamarca–Amazonas çevresinden gelen, Peru'ya özgü ince aromalı yerli bir seçilmiş kakao tipidir.",
+    "en": "A Peruvian fine-aroma native selection from the Cajamarca–Amazonas area."
+   }
+  },
+  {
+   "name": "Native Marañón / Amazonian fine-aroma cacao",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Marañón nehri boyunca gölgede yetişen yerli kakaolar, koyu meyve ve çiçek notalarıyla bilinir.",
+    "en": "Shade-grown native cacaos along the Marañón river, known for dark-fruit and floral notes."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "San Martín ve Amazon bölgelerinde yaygın olan, dengeli ve güçlü aromalı melez gruptur.",
+    "en": "A widely grown hybrid group in San Martín and the Amazon regions, with balanced, robust flavour."
+   }
+  },
+  {
+   "name": "CCN-51",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Yüksek verimi nedeniyle özellikle San Martín'de geniş alanlara dikilen Ekvador kökenli melez klondur.",
+    "en": "A high-yielding clone of Ecuadorian origin planted extensively, especially in San Martín."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Chocolatada navideña",
+   "desc": {
+    "tr": "Aralık ayında dağıtılan, tarçın ve karanfille pişirilen sıcak çikolata ile panetonun birlikte servis edildiği, özellikle çocuklara yönelik dayanışma geleneğidir.",
+    "en": "A December tradition of sharing hot chocolate spiced with cinnamon and cloves, served with panettone and often given to children in need."
+   }
+  },
+  {
+   "name": "Chocolate de taza (Cusco tableti)",
+   "desc": {
+    "tr": "Sıcak içecek için hazırlanan sert tabletler, sütle, tarçın ve karanfille eritilerek kalın, hafif acı bir çikolata olarak içilir; gelenek Cusco'yla ilişkilendirilir.",
+    "en": "Hard tablets made for drinking are melted with milk, cinnamon and cloves into a thick, slightly bitter chocolate, a custom associated with Cusco."
+   }
+  },
+  {
+   "name": "Bean-to-bar tek menşei çikolata",
+   "desc": {
+    "tr": "Küçük üreticiler Piura Blanco, Chuncho ve San Martín çekirdeklerinden, bazen lúcuma, pisko ya da ají amarillo gibi yerel malzemelerle çikolata yapar.",
+    "en": "Small makers craft single-origin bars from Piura Blanco, Chuncho and San Martín beans, sometimes pairing them with local ingredients such as lúcuma, pisco or ají amarillo."
+   }
+  },
+  {
+   "name": "Çikolata atölyeleri ve Kakao Rotası",
+   "desc": {
+    "tr": "Cusco, Lima, Tocache ve Tarapoto'da kakao ağacından çikolataya atölyeler ve çiftlik gezileri düzenlenir; Lima'daki Salón del Cacao y Chocolate fuarı ise sektörü bir araya getirir.",
+    "en": "Workshops and farm visits from tree to bar run in Cusco, Lima, Tocache and Tarapoto, while Lima's Salón del Cacao y Chocolate fair brings the sector together."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Peruvian Chocolate: Ultimate guide",
+   "url": "https://www.machutravelperu.com/blog/peruvian-chocolate"
+  },
+  {
+   "title": "Frontiers",
+   "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1710127/full"
+  },
+  {
+   "title": "Peruvian Cacao Unveiled: From Biodiversity Triumphs to Flavor Diversity Triumphs",
+   "url": "https://silva-cacao.com/articles/peruvian-cacao-unveiled-from-biodiversity-triumphs-to-flavor-diversity-triumphs/"
+  },
+  {
+   "title": "Your Guide To Chocolate In Peru",
+   "url": "https://aracari.com/blog/stories/a-chocaholic-guide-to-peru"
+  },
+  {
+   "title": "Peruvian Chocolate",
+   "url": "https://www.envoyerfinewines.com/blogs/journal/peruvian-chocolate-no-longer-a-secret"
+  },
+  {
+   "title": "Peru, the land of origin of cocoa",
+   "url": "https://en.avpa.fr/post/peru-the-land-of-origin-of-cocoa"
+  },
+  {
+   "title": "Discover the Cacao Route: Chocolate Tourism in Peru",
+   "url": "https://blog.viajesmachupicchu.travel/en/discover-the-cacao-route-chocolate-tourism-in-peru/"
+  },
+  {
+   "title": "Peruvian Chocolate: The Ultimate Cacao Lover’s Guide",
+   "url": "https://greensunfoods.com/blogs/news/peruvian-chocolate-the-ultimate-cacao-lover-s-guide"
+  }
+ ]
+}

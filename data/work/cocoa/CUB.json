@@ -1,0 +1,164 @@
+{
+ "iso3": "CUB",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22789,
+  "out": 2880,
+  "searches": 2
+ },
+ "usd": 0.0944,
+ "summary": {
+  "tr": "Kakao, 16. yüzyılda İspanyollar tarafından muhtemelen Meksika'dan Küba'ya getirildi. Yerli bir içecek geleneği hiç oluşmadı, 19. yüzyılda kahve ulusal içecek oldu. 19. yüzyıl başında Haiti'den gelen Fransız göçmenler doğu Küba'da kakao üretimini güçlendirdi. Bugün kakaonun yaklaşık %75'i Baracoa'dan gelir. Kakao, 1963'te Che Guevara'nın açtığı Baracoa'daki kakao ürünleri fabrikasında işlenir. Yere",
+  "en": "Cacao reached Cuba in the 16th century, probably brought from Mexico by the Spanish. No native cacao-drinking tradition developed, and coffee became the national drink in the 19th century. French migrants from Haiti boosted cacao growing in eastern Cuba in the early 1800s. Today about 75% of the crop comes from Baracoa. It is processed at the Baracoa cacao derivatives factory that Che Guevara open"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Baracoa (Guantánamo)",
+   "lat": 20.35,
+   "lng": -74.5,
+   "desc": {
+    "tr": "Ülke kakaosunun yaklaşık %75'ini üreten, yağışlı ve dağlık bu doğu ucu Küba kakaosunun kalbidir.",
+    "en": "This rainy, mountainous eastern tip produces about 75% of Cuba's cacao and is the heart of the national crop."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Yateras–Maisí (Guantánamo)",
+   "lat": 20.25,
+   "lng": -74.85,
+   "desc": {
+    "tr": "Guantánamo ilinin dağlık iç kesimleri, il bazında ülkenin en önemli kakao üreticisi olarak kayıtlara geçmiştir.",
+    "en": "The hilly interior of Guantánamo province, which sources list as the country's leading cacao-producing province."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Sierra Cristal–Moa (Holguín)",
+   "lat": 20.55,
+   "lng": -75.45,
+   "desc": {
+    "tr": "Holguín'in doğudaki dağlık kesimlerinde küçük çiftçiler kakao yetiştirir.",
+    "en": "Smallholders grow cacao in the mountainous eastern parts of Holguín province."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Santiago de Cuba Dağlık Bölgesi",
+   "lat": 20.2,
+   "lng": -75.9,
+   "desc": {
+    "tr": "Santiago de Cuba'nın dağlık kesimleri, kakaonun tarihsel olarak yetiştirildiği doğu bölgelerinden biridir.",
+    "en": "The mountain areas of Santiago de Cuba are one of the eastern zones where cacao has long been grown."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Sierra Maestra (Granma)",
+   "lat": 20.0,
+   "lng": -76.8,
+   "desc": {
+    "tr": "Granma ilinde, Sierra Maestra eteklerinde daha küçük ölçekli kakao üretimi yapılır.",
+    "en": "Granma province has smaller-scale cacao production in the Sierra Maestra foothills."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Baracoa Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Baracoa'da yaygın olan eski Trinitario ağaçlarından, odunsu, kuru meyve, tütün ve meyan kökü notalı yoğun çikolata yapılır.",
+    "en": "Old Trinitario trees dominate Baracoa and give an intense chocolate with woody, dried-fruit, tobacco and liquorice notes."
+   }
+  },
+  {
+   "name": "Criollo-type trees",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Bazı kaynaklar Baracoa'da Trinitario'nun yanında Criollo ağaçlarının da bulunduğunu belirtir, ancak bunların payı iyi belgelenmemiştir.",
+    "en": "Some sources report Criollo trees alongside Trinitario in Baracoa, but their share is poorly documented."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Chorote",
+   "desc": {
+    "tr": "Baracoa'da kavrulmuş ve öğütülmüş kakaonun taze hindistancevizi sütüyle karıştırılıp muz unuyla (bananina) koyulaştırıldığı, tarçın veya vanilyayla tatlandırılan geleneksel kahvaltı içeceğidir.",
+    "en": "Baracoa's traditional breakfast drink of roasted, ground cacao mixed with fresh coconut milk, thickened with plantain flour (bananina) and flavoured with cinnamon or vanilla."
+   }
+  },
+  {
+   "name": "Bolas de cacao (cacao balls)",
+   "desc": {
+    "tr": "Saf kakao hamurundan yapılan toplar rendelenip suda ya da sütte kaynatılarak sıcak çikolata hazırlanır, genellikle tarçın, karanfil, vanilya veya muskat eklenir.",
+    "en": "Spheres of pure cacao paste are grated and mixed into hot water or milk to make hot chocolate, often with cinnamon, cloves, vanilla or nutmeg."
+   }
+  },
+  {
+   "name": "Tabletas (Baracoa chocolate tablets)",
+   "desc": {
+    "tr": "Kübalılar çikolatayı tatlı sever. Yaygın tabletler az kakaolu ve çok şekerlidir. Baracoa sokaklarında kadınlar aile tarifleriyle yapılmış el yapımı tabletler satar.",
+    "en": "Cubans prefer sweet chocolate, so common tablets are low in cocoa and high in sugar. In Baracoa, women sell handmade tablets from family recipes."
+   }
+  },
+  {
+   "name": "Pasta de cacao",
+   "desc": {
+    "tr": "Muz yaprağına sarılarak satılan şekersiz kakao hamuru, sıcak içeceklerde, tatlılarda ve tuzlu soslarda kullanılır.",
+    "en": "Unsweetened cacao paste sold wrapped in banana leaf, used for hot drinks, sweets and savoury sauces."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Baracoa's Cocoa",
+   "url": "https://villaparadisobaracoa.com/en/baracoas-organic-cocoa-finger-licking-good/"
+  },
+  {
+   "title": "Baracoa: The Mecca of Cocoa in Cuba (II*) - Havana Times",
+   "url": "https://havanatimes.org/features/baracoa-the-mecca-of-cocoa-in-cuba-part-ii/"
+  },
+  {
+   "title": "Baracoa - Cuba",
+   "url": "https://www.cocoahub.co.uk/blogs/news/baracoa-cuba"
+  },
+  {
+   "title": "The Chocolate House of Baracoa - Covering Cuba Tourism & Travel, Food & Cuisine, Culture, Health, Business, Events",
+   "url": "https://www.cubaplusmagazine.com/en/news/chocolate-house-baracoa.html"
+  },
+  {
+   "title": "Cultivating Cocoa in Cuba - Choco-Story",
+   "url": "https://www.choco-story.be/Expeditions/Cuba"
+  },
+  {
+   "title": "Chocolate and Cacao in Cuba - Love Cuba Blog",
+   "url": "https://www.lovecuba.com/blog/chocolate-and-cacao-in-cuba/"
+  },
+  {
+   "title": "Cacao In Cuba » The Cocoa Circle",
+   "url": "https://cocoacircle.com/cacao-in-cuba/"
+  },
+  {
+   "title": "cuba agriculture .org - Cacao",
+   "url": "https://www.cubaagriculture.org/cacao.htm"
+  }
+ ]
+}

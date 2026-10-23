@@ -1,0 +1,177 @@
+{
+ "iso3": "CMR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 48347,
+  "out": 3766,
+  "searches": 3
+ },
+ "usd": 0.1644,
+ "summary": {
+  "tr": "Kakao, 19. yüzyılın sonunda Alman sömürge yönetimi döneminde, kıyı bölgesindeki ilk plantasyonlarla Kamerun'a getirildi. Bugün ülke dünyanın en büyük üreticileri arasında yer alıyor ve gelirinin önemli bir bölümü kakao ihracatından geliyor. Çiftçilerin çoğu kakaoyu agroormancılık sistemlerinde yetiştiriyor. Kakao çoğunlukla ham çekirdek olarak ihraç edildiği için yerel çikolata kültürü genç. Doual",
+  "en": "Cacao reached Cameroon in the late 19th century under German colonial rule, with the first plantations on the coast. The country is now one of the world's largest producers, and cocoa accounts for a large share of its primary-sector exports. Most farmers grow it in agroforestry systems. Because most cocoa leaves as raw beans, local chocolate culture is young. It centres on small local makers in Do"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Southwest Region (Meme / Fako)",
+   "lat": 4.6,
+   "lng": 9.4,
+   "desc": {
+    "tr": "Bol yağış ve volkanik topraklarıyla Güneybatı, tarihsel olarak ülkenin önde gelen kakao bölgesidir; ancak sosyo-politik kriz nedeniyle birinciliği Merkez'e kaptırmıştır.",
+    "en": "With heavy rainfall and volcanic soils, the Southwest has historically been the leading cocoa region, though socio-political turmoil has recently cost it first place to the Centre."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero (Amelonado)"
+   ]
+  },
+  {
+   "name": "Centre Region (Lékié / Mbam-et-Kim)",
+   "lat": 4.3,
+   "lng": 11.5,
+   "desc": {
+    "tr": "Obala çevresindeki Lékié ve Mbam-et-Kim, Merkez Bölge'nin en büyük kakao üreten ilçeleridir; üretim burada son yıllarda hızla artmıştır.",
+    "en": "Lékié (around Obala) and Mbam-et-Kim are the largest cocoa-producing divisions of the Centre Region, where output has grown rapidly in recent years."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "South Region (Ebolowa area)",
+   "lat": 2.9,
+   "lng": 11.15,
+   "desc": {
+    "tr": "Güney Bölgesi, ormanlık arazide küçük aile çiftlikleriyle ulusal üretimin yaklaşık onda birini sağlar.",
+    "en": "The South Region contributes roughly a tenth of national output, mostly from small family farms in forested land."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Littoral Region (Moungo / Nkondjock)",
+   "lat": 4.7,
+   "lng": 10.5,
+   "desc": {
+    "tr": "Kıyı kuşağındaki Littoral, ilk Alman plantasyonlarının bölgesine yakındır ve bugün yeni kakao dikimlerinin ormansızlaşma tartışması yarattığı bir alandır.",
+    "en": "The Littoral lies in the coastal belt where the first German plantations were set up, and is now an area where new cacao planting raises deforestation concerns."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "East Region (Abong-Mbang area)",
+   "lat": 3.98,
+   "lng": 13.18,
+   "desc": {
+    "tr": "Doğu Bölgesi, ulusal kakao üretiminin küçük bir bölümünü (yaklaşık %3) karşılayan ortalama düzeyde bir üretim alanıdır.",
+    "en": "The East is a moderate producing zone supplying only a small share (about 3%) of national cocoa output."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "German cacao (old Trinitario-type Cameroonian popu",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Alman döneminde ortaya çıkan, Trinitario payı yüksek, polifenol ve antosiyanin bakımından zengin yerel genotip bugün büyük ölçüde unutulmuştur.",
+    "en": "A traditional genotype from the German era, with a high Trinitario share and rich in polyphenols and anthocyanins, now largely forgotten."
+   }
+  },
+  {
+   "name": "Trinitario (SNK selections)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Kamerun kakaosunun büyük bölümü Trinitario tipi ağaçlardan gelir; kakao tozu kendine özgü kırmızımsı rengiyle aranır.",
+    "en": "Most Cameroonian cocoa comes from Trinitario-type trees, and its powder has a distinctive, sought-after reddish colour."
+   }
+  },
+  {
+   "name": "Forastero (Amelonado / TIKO selections)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Brezilya kökenli Amelonado tipi Forastero ilk plantasyonlarda kullanıldı ve bugün de melez popülasyonlarda bulunur.",
+    "en": "Brazilian-origin Amelonado-type Forastero was used on the first plantations and still features in today's mixed populations."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar and artisanal local chocolate",
+   "desc": {
+    "tr": "Douala ve Yaoundé'deki küçük üreticiler, yerel kooperatiflerin kakaosundan çikolata tableti, ikram çikolatası ve sürülebilir krema üretir; amaç Kamerun kakaosunu yerel halka sevdirmektir.",
+    "en": "Small makers in Douala and Yaoundé turn cooperative-grown cocoa into bars, confectionery and spreads, aiming to bring Cameroonian cocoa to local consumers."
+   }
+  },
+  {
+   "name": "Direct-trade craft chocolate with European makers",
+   "desc": {
+    "tr": "Fransız zanaatkâr çikolatacılar, köy kooperatifleriyle doğrudan ticaret yapıp kavurma gibi işlem tekniklerini öğreterek Kamerun kakaosundan tek menşe çikolata üretir.",
+    "en": "French craft makers buy directly from village cooperatives and teach techniques such as roasting, making single-origin chocolate from Cameroonian beans."
+   }
+  },
+  {
+   "name": "Red cocoa powder",
+   "desc": {
+    "tr": "Kamerun kakaosundan elde edilen toz, belirgin kırmızımsı rengiyle endüstriyel çikolata ve kakao ürünlerinde aranan bir hammaddedir.",
+    "en": "Powder from Cameroonian cocoa has a distinct reddish colour and is a sought-after ingredient in industrial chocolate and cocoa products."
+   }
+  },
+  {
+   "name": "Chocolate spreads and diaspora-linked chocolate treats",
+   "desc": {
+    "tr": "Kamerun kökenli girişimciler, Kamerun çiftliklerinin kakaosuyla çikolatalı krema ve muzlu (plantain) çikolata gibi özgün ürünler geliştirir.",
+    "en": "Cameroonian-rooted entrepreneurs use cacao from their Cameroon farms for chocolate spreads and original treats such as dark chocolate bark with crisp plantain."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Frontiers",
+   "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2023.1069514/full"
+  },
+  {
+   "title": "Cocoa-based agroforestry system dynamics and trends in the Akongo subregion of central Cameroon",
+   "url": "https://www.researchgate.net/publication/341747013_Cocoa-based_agroforestry_system_dynamics_and_trends_in_the_Akongo_subregion_of_central_Cameroon"
+  },
+  {
+   "title": "(PDF) Socio-economic Conditions of Horticultural Diversification in Cocoa Production Systems in Southern Cameroon",
+   "url": "https://www.researchgate.net/publication/293544038_Socio-economic_Conditions_of_Horticultural_Diversification_in_Cocoa_Production_Systems_in_Southern_Cameroon"
+  },
+  {
+   "title": "Quality Cocoa Producing Country",
+   "url": "https://www.oncc.cm/cocoa-production-zones"
+  },
+  {
+   "title": "Cocoa boom fuels new wave of deforestation in Cameroon",
+   "url": "https://news.mongabay.com/short-article/2025/08/cocoa-boom-fuels-new-wave-of-deforestation-in-cameroon/"
+  },
+  {
+   "title": "Centre Region (Cameroon)",
+   "url": "https://en.wikipedia.org/wiki/Centre_Region_(Cameroon)"
+  },
+  {
+   "title": "Cacao Production in Cameroon",
+   "url": "https://cocoacircle.com/blogs/world-of-cocoa/cacao-in-cameroon"
+  },
+  {
+   "title": "West Region (Cameroon)",
+   "url": "https://en.wikipedia.org/wiki/West_Region_(Cameroon)"
+  }
+ ]
+}

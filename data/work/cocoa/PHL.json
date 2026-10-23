@@ -1,0 +1,233 @@
+{
+ "iso3": "PHL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24431,
+  "out": 3962,
+  "searches": 2
+ },
+ "usd": 0.1085,
+ "summary": {
+  "tr": "Kakao, 1600'lerin sonlarında İspanyol Manila–Acapulco galyon ticaretiyle Meksika'dan Filipinler'e geldi. Filipinler, Asya'da kakaoyu ilk yetiştiren ülke olarak kabul edilir. Kakao başta rahip ve yöneticilere özgü bir içecekti, sonra küçük çiftçilerin bahçelerine yayıldı ve evde dövülen tablea ile sıcak çikolata (sikwate), çamporado gibi günlük tatlar doğdu. Bugün üretimin çoğu Mindanao'daki Davao ",
+  "en": "Cacao reached the Philippines from Mexico in the late 1600s on the Spanish Manila–Acapulco galleon trade, and the country is regarded as the first in Asia to grow it. It began as a drink for priests and officials, then spread to smallholders' gardens. Household-pounded tablea and everyday foods such as sikwate (hot chocolate) and champorado followed. Most production now comes from the Davao Region"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Davao Region (Davao City, Davao del Sur)",
+   "lat": 7.07,
+   "lng": 125.45,
+   "desc": {
+    "tr": "'Filipinler'in kakao başkenti' sayılan bölge, ulusal üretimin kabaca %80'ini sağlar ve ince aromalı kakaoların (ör. Paquibato, Malagos çevresi) kaynağıdır.",
+    "en": "Nicknamed the 'Cacao Capital of the Philippines', it supplies roughly 80% of national output and is the source of the country's fine-flavour lots (e.g. Paquibato, the Malagos area)."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo",
+    "BR 25"
+   ]
+  },
+  {
+   "name": "Davao del Norte & Davao de Oro",
+   "lat": 7.6,
+   "lng": 125.85,
+   "desc": {
+    "tr": "Davao del Norte ve Davao de Oro, Davao Bölgesi'nin önde gelen üretici illeri arasındadır; Maragusan'da saf Criollo tespit edilmiştir.",
+    "en": "Davao del Norte and Davao de Oro are among the leading producing provinces of the Davao Region, and true Criollo has been identified in Maragusan."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Davao Oriental",
+   "lat": 7.0,
+   "lng": 126.3,
+   "desc": {
+    "tr": "Davao Oriental, Davao Bölgesi içinde en büyük üretici illerden biridir; kakao çoğunlukla hindistancevizi bahçeleriyle ara ürün olarak yetişir.",
+    "en": "Davao Oriental is one of the top producing provinces within the Davao Region, with cacao often grown as an intercrop under coconuts."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Northern Mindanao",
+   "lat": 8.4,
+   "lng": 124.7,
+   "desc": {
+    "tr": "Ulusal üretimin yaklaşık %12'sini sağlayan ikinci büyük üretici bölgedir.",
+    "en": "The second-largest producing region, supplying roughly 12% of national output."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Caraga (Agusan)",
+   "lat": 8.95,
+   "lng": 125.8,
+   "desc": {
+    "tr": "Mindanao'nun kuzeydoğusundaki Caraga, üretimin yaklaşık %5'ini sağlayan büyüyen bir kakao bölgesidir.",
+    "en": "Caraga in north-eastern Mindanao is a growing cacao area contributing roughly 5% of output."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Cotabato (Makilala)",
+   "lat": 6.95,
+   "lng": 125.08,
+   "desc": {
+    "tr": "Cotabato'nun Makilala ve çevresinde, DOST-PCAARRD araştırmasında saf Criollo örnekleri belirlenmiştir.",
+    "en": "In Makilala and surrounding Cotabato, a DOST-PCAARRD study identified true Criollo samples."
+   },
+   "grapes": [
+    "Criollo",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Zamboanga Peninsula",
+   "lat": 7.9,
+   "lng": 123.2,
+   "desc": {
+    "tr": "Mindanao'nun batısında, ülke üretiminin küçük bir payını (yaklaşık %3) sağlayan kakao bölgesidir.",
+    "en": "A western Mindanao cacao area contributing a small share (about 3%) of national output."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Cebu (Visayas)",
+   "lat": 10.3,
+   "lng": 123.9,
+   "desc": {
+    "tr": "Cebu'da küçük ölçekli, çiftçi birliklerine dayalı ekim yapılır ve yerel 'cacao bisaya' Criollo olarak bilinir.",
+    "en": "Cebu has small-scale, association-based planting, and the local 'cacao bisaya' is known as a Criollo type."
+   },
+   "grapes": [
+    "Criollo (cacao bisaya)"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Ülkede en yaygın tür olup ekimin yaklaşık %80'ini oluşturur; direnci ve kalitesi nedeniyle tercih edilir.",
+    "en": "The dominant type, making up around 80% of plantings, favoured for its resilience and quality."
+   }
+  },
+  {
+   "name": "Criollo (Mindanao and Cebu 'cacao bisaya')",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Galyonlarla Orta Amerika'dan getirilen Criollo, kısmen Mindanao ve Cebu'da korunmuştur ve ince aromalı çikolata için aranır.",
+    "en": "Brought from Central America by galleon, Criollo survives in parts of Mindanao and Cebu and is prized for fine chocolate."
+   }
+  },
+  {
+   "name": "Forastero",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Daha düşük kaliteli ve dayanıklı Forastero tipleri, Trinitario'nun yanında yetiştirilir.",
+    "en": "Hardier, lower-value Forastero types are also grown alongside Trinitario."
+   }
+  },
+  {
+   "name": "Harana (BR 25)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Davao'da tek çeşit BR 25 kakaosundan elde edilen bu parti, çiçeksi, portakal çiçeği ve nane notalarıyla bilinir.",
+    "en": "A Davao lot made from the single variety BR 25, noted for floral, orange-blossom and mint notes."
+   }
+  },
+  {
+   "name": "Paquibato (Davao)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Beş Trinitario seçkisinden oluşan bu parti, 2019'da Cocoa of Excellence ödüllerinde dünyanın en iyi 50 kakaosu arasına giren ilk Filipin kakaosu oldu.",
+    "en": "A blend of five Trinitario selections, it became in 2019 the first Philippine cacao among the Cocoa of Excellence top 50."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Tablea (tableya)",
+   "desc": {
+    "tr": "Kavrulmuş, kabuğu soyulmuş çekirdeklerin ezilip kalıplanmasıyla yapılan, saf kakao pastasından disk biçimli geleneksel tabletlerdir.",
+    "en": "Traditional disc-shaped tablets of pure cacao paste, made by roasting, hulling and grinding the beans and moulding the paste."
+   }
+  },
+  {
+   "name": "Sikwate / tsokolate de batirol",
+   "desc": {
+    "tr": "Tablea'nın sıcak suda ya da sütte çırpılmasıyla yapılan kalın, hafif acı geleneksel sıcak çikolata, kahvaltıda kahveye alternatif olarak içilir.",
+    "en": "A thick, slightly bitter hot chocolate made by whisking tablea into hot water or milk, served at breakfast as an alternative to coffee."
+   }
+  },
+  {
+   "name": "Champorado (tsamporado)",
+   "desc": {
+    "tr": "Meksika'daki champurrado'nun galyon ticaretiyle gelen uyarlaması olan bu tatlı pirinç lapası, çikolatayla pişirilir ve çoğunlukla kurutulmuş balıkla (tuyo, daing) yenir.",
+    "en": "A sweet glutinous-rice porridge cooked with chocolate, adapted from Mexican champurrado via the galleon trade and often eaten with dried fish (tuyo, daing)."
+   }
+  },
+  {
+   "name": "Bean-to-bar craft chocolate",
+   "desc": {
+    "tr": "Davao başta olmak üzere, çiftçi ortaklıklarıyla yerel ince aromalı kakaoyu işleyip uluslararası fuarlara taşıyan küçük üreticiler büyüyor.",
+    "en": "Small makers, led by Davao, work with farmer partners to turn local fine-flavour cacao into bars and take them to international fairs."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Philippines: A Rising Star as a Specialty Cacao Origin - Silva",
+   "url": "https://silva-cacao.com/news/philippines-a-rising-star-as-a-specialty-cacao-origin/"
+  },
+  {
+   "title": "Cocoa Chocolate The Philippines i n t h e C o c o a - C h o c o l a t e",
+   "url": "https://www.globalvaluechains.org/wp-content/uploads/2017_03_10_PUBLIC_The-Philippines-in-the-Cocoa-GVC.pdf"
+  },
+  {
+   "title": "Growing Cacao - Cacao Production Guide",
+   "url": "https://businessdiary.com.ph/2191/cacao-production-guide/"
+  },
+  {
+   "title": "Chocolate industry in the Philippines",
+   "url": "https://en.wikipedia.org/wiki/Chocolate_industry_in_the_Philippines"
+  },
+  {
+   "title": "Cacao varieties and its climatic requirements",
+   "url": "https://www.slideshare.net/slideshow/cacao-varieties-and-its-climatic-requirements/129457806"
+  },
+  {
+   "title": "Malagos Chocolate",
+   "url": "https://en.wikipedia.org/wiki/Malagos_Chocolate"
+  },
+  {
+   "title": "Davao Region",
+   "url": "https://en.wikipedia.org/wiki/Davao_Region"
+  },
+  {
+   "title": "THE PHILIPPINE CACAO INDUSTRY Cocoa was first introduced in",
+   "url": "https://www.vancouverpcg.org/wp-content/uploads/2020/09/7-The-Philippine-Cacao-Industry-Rev3.pdf"
+  }
+ ]
+}

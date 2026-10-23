@@ -1,0 +1,146 @@
+{
+ "iso3": "DMA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 54238,
+  "out": 2795,
+  "searches": 3
+ },
+ "usd": 0.1664,
+ "summary": {
+  "tr": "Dominika'da kakao, 1720'lerde Fransız yerleşimiyle kurulan Bois Cotlette gibi şeker ve kahve plantasyonlarında yetişti. 1890'larda şeker üretimi terk edilirken kakao ve misket limonu adanın yeni umudu sayıldı. Bugün kakao, yoğun biçimde küçük çiftçilerin elindedir. Kültürün merkezinde, kakao çubuklarının rendelenip baharatlı süt ve suyla kaynatıldığı, çoğunlukla kahvaltıda içilen \"cocoa tea\" vardı",
+  "en": "Cacao in Dominica grew on sugar and coffee plantations founded under French settlement in the 1720s, such as Bois Cotlette. By the 1890s sugar had largely been abandoned, and cocoa and limes were seen as the island's new salvation. Today cocoa is grown mostly by small farmers. Cultural life centres on \"cocoa tea\", in which hand-rolled cocoa sticks are grated and boiled with spices, milk and water,"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kuzeydoğu / Saint Andrew (Calibishie)",
+   "lat": 15.58,
+   "lng": -61.35,
+   "desc": {
+    "tr": "Kuzeydoğu kıyısı, adanın ana kakao alanlarından biridir. Calibishie'deki Pointe Baptiste, kendi çekirdeğini kurutur ve bölgedeki çiftçilerin kakao meyvelerini satın alır.",
+    "en": "The northeast coast is one of the island's main cacao areas. Pointe Baptiste at Calibishie dries its own beans and buys pods from farmers in the north."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Orta bölge / Marigot–Pont Casse",
+   "lat": 15.54,
+   "lng": -61.3,
+   "desc": {
+    "tr": "Orta bölge de kooperatiflerin ve özel çiftçilerin üretim ve kaliteyi artırmaya çalıştığı başlıca tarım alanlarından biridir.",
+    "en": "The central interior is another key farming area, where cooperatives and private farmers work to improve yield and quality."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Güneybatı / Soufrière–Saint Mark (Bois Cotlette)",
+   "lat": 15.23,
+   "lng": -61.36,
+   "desc": {
+    "tr": "Soufrière Vadisi'nin başındaki tarihi Bois Cotlette malikânesi kakaoyu 1890'lardan beri işler ve bugün çekirdekten çikolataya turlar düzenler.",
+    "en": "The historic Bois Cotlette estate at the head of the Soufrière Valley moved into cocoa in the 1890s and now offers bean-to-chocolate tours."
+   },
+   "grapes": [
+    "Criollo",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Güneydoğu / La Plaine",
+   "lat": 15.25,
+   "lng": -61.27,
+   "desc": {
+    "tr": "La Plaine, kakao, kahve ve hindistancevizi yetiştirilen eski malikânelere ve aile ölçeğinde kakao çubuğu yapma geleneğine ev sahipliği yapar.",
+    "en": "La Plaine has old estates growing cocoa, coffee and coconut, and a tradition of family-scale cocoa-stick making."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Criollo ve Forastero melezi olan Trinitario, Dominika dahil Karayip adalarında yaygındır ve adanın ince aromalı kakao imajının temelidir.",
+    "en": "A Criollo–Forastero hybrid found across the Caribbean, including Dominica, and the basis of the island's fine-flavour reputation."
+   }
+  },
+  {
+   "name": "Criollo (heirloom)",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Bois Cotlette gibi malikânelerde yetiştirilen nadir \"heirloom\" (atalık) Criollo ağaçları, çok küçük ölçekte yetiştirilir ve turlarda tanıtılır.",
+    "en": "Rare heirloom Criollo trees are grown in very small quantities on estates such as Bois Cotlette, and are showcased on its tours."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Cocoa tea (kakao çayı)",
+   "desc": {
+    "tr": "Rendelenmiş kakao çubuğu, su, süt, tarçın, hindistancevizi ve defne yaprağıyla kaynatılır; kahvaltıda ve toplantılarda içilen, sıcak çikolatayı andıran geleneksel bir içecektir.",
+    "en": "Grated cocoa stick is boiled with water, milk, cinnamon, nutmeg and bay leaf. It is a traditional drink like hot chocolate, served at breakfast and gatherings."
+   }
+  },
+  {
+   "name": "Kakao çubukları (cocoa sticks)",
+   "desc": {
+    "tr": "Çiftçiler çekirdekleri fermente edip kurutur, kavurur ve macun haline öğütür; macun çubuk biçiminde şekillendirilip sertleşene kadar kurutulur ve Roseau pazarında satılır.",
+    "en": "Farmers ferment, dry and roast the beans and grind them to a paste. The paste is moulded into sticks and dried hard, and the sticks are sold at Roseau market."
+   }
+  },
+  {
+   "name": "Tek menşeli bean-to-bar çikolata",
+   "desc": {
+    "tr": "Küçük üreticiler, yerel kakaodan organik ve çoğunlukla zencefil, kahve veya limon otu gibi yerel malzemelerle aromalandırılmış bitter çikolata yapar.",
+    "en": "Small makers produce organic dark chocolate from local cacao, often flavoured with local ingredients such as ginger, coffee or lemongrass."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Rum by Cotlette Bois - Dominica - Peter's Rum Labels",
+   "url": "https://rum.cz/galery/cam/dm/boiscotlette/index-en.htm"
+  },
+  {
+   "title": "Bois Cotlette Estate - All You SHOULD Know Before Going 2026 (with Reviews)",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g3473378-d6463391-Reviews-Bois_Cotlette_Estate-Saint_Mark_Parish_Dominica.html"
+  },
+  {
+   "title": "The History of Chocolate in the Caribbean - Chocolate Caribbean",
+   "url": "https://www.tiharasmith.com/blogs/behind-the-brand/chocolate-and-the-caribbean"
+  },
+  {
+   "title": "Bois Cotlette Plantation",
+   "url": "https://www.dom767.com/dompedia/bois-cotlette-plantation/"
+  },
+  {
+   "title": "Dominica Chocolate is a Great Way to Get a True Taste - ALL AT SEA",
+   "url": "https://www.allatsea.net/dominica-chocolate-is-a-great-way-to-get-a-true-taste/"
+  },
+  {
+   "title": "About Bois Cotlette - Bois Cotlette Estate",
+   "url": "https://www.boiscotlette.com/about-bois-cotlette/"
+  },
+  {
+   "title": "Bois Cotlette Estate Chocolate Experience Tour - Bois Cotlette Estate",
+   "url": "https://www.boiscotlette.com/tours/chocolate-tour/"
+  },
+  {
+   "title": "Bois Cotlette Estate - Bois Cotlette Estate",
+   "url": "https://www.boiscotlette.com/"
+  }
+ ]
+}

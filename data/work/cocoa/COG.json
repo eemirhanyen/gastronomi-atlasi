@@ -1,0 +1,158 @@
+{
+ "iso3": "COG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 51690,
+  "out": 3565,
+  "searches": 3
+ },
+ "usd": 0.169,
+ "summary": {
+  "tr": "Kongo-Brazzaville'de kakao, 1930'larda Kamerunlu Djem topluluklarının Sangha'ya getirmesiyle yayıldı. Daha sonra Likouala ve Cuvette'e geçti. 1950–1980 arasında ülke kakao ihraç etti, ancak devlet kontrolündeki pazarlama çöktükten sonra üretim hızla düştü. 2010'lardan itibaren kuzeyde (Sangha, Likouala, Cuvette) hibrit fidanlarla yeniden canlandırma programları yürütülüyor. Pointe-Noire ve Brazzav",
+  "en": "Cacao reached Congo-Brazzaville around 1933, brought to the Sangha by Djem people from Cameroon. It then spread to Likouala and Cuvette. The country exported cacao between 1950 and 1980, but output collapsed after the state-run marketing system failed. Since the 2010s, revival programmes using hybrid seedlings have been under way in the north (Sangha, Likouala, Cuvette). Small local bean-to-bar ch"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Sangha (Pokola, Ouesso, Sembé)",
+   "lat": 1.6,
+   "lng": 16.1,
+   "desc": {
+    "tr": "Kakaonun ülkeye ilk girdiği, bugün yeniden canlandırma projelerinin merkezi olan kuzey orman bölgesidir.",
+    "en": "The northern forest department where cacao first entered the country and which is now the centre of revival projects."
+   },
+   "grapes": [
+    "Hibrit kakao (IRAD kaynaklı)",
+    "Geleneksel Kamerun kökenli ağaçlar"
+   ]
+  },
+  {
+   "name": "Likouala (Impfondo)",
+   "lat": 1.8,
+   "lng": 18.0,
+   "desc": {
+    "tr": "Küçük çiftçilerin kakao yetiştirdiği ve çekirdeklerin büyük kısmının sınırın karşısına, DKC'ye satıldığı uzak nehir bölgesidir.",
+    "en": "A remote river department where smallholders grow cacao and beans are largely sold across the border to the DRC."
+   },
+   "grapes": [
+    "Hibrit kakao",
+    "Geleneksel Forastero/Trinitario tipleri"
+   ]
+  },
+  {
+   "name": "Cuvette (Makoua, Owando)",
+   "lat": -0.2,
+   "lng": 15.8,
+   "desc": {
+    "tr": "Makoua ve Owando çevresinde kakao yetiştirilen, kuzey canlandırma programının parçası olan orta havzadır.",
+    "en": "A central basin department with cacao around Makoua and Owando, included in the northern revival programme."
+   },
+   "grapes": [
+    "Hibrit kakao"
+   ]
+  },
+  {
+   "name": "Cuvette-Ouest",
+   "lat": 0.3,
+   "lng": 14.7,
+   "desc": {
+    "tr": "Kuzey kakao canlandırma projelerinin kapsadığı batı Cuvette alanıdır.",
+    "en": "The western Cuvette area covered by the northern cacao revival projects."
+   },
+   "grapes": [
+    "Hibrit kakao"
+   ]
+  },
+  {
+   "name": "Mayombe / Kouilou (Mvouti)",
+   "lat": -4.0,
+   "lng": 12.2,
+   "desc": {
+    "tr": "Kıyı ovasına bakan Mayombe dağ ormanı, güneyde sınırlı üretim yapılan ve yerel çikolata girişimlerinin ilgi gösterdiği alandır.",
+    "en": "The Mayombe forest massif above the coastal plain is a smaller southern growing area that local chocolate start-ups are showing interest in."
+   },
+   "grapes": [
+    "Karışık yerel ağaçlar"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Hibrit kakao (IRAD Yaoundé kaynaklı)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "2010'lardaki kuzey canlandırma programında Kamerun'un IRAD kurumundan gelen tohumlarla yetiştirilen hibrit fidanlardır.",
+    "en": "Hybrid seedlings grown from seed supplied by Cameroon's IRAD institute for the 2010s northern revival programme."
+   }
+  },
+  {
+   "name": "Geleneksel Kamerun kökenli ağaçlar",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "1930'lardan itibaren Sangha, Likouala ve Cuvette'te yayılan eski çiftlik ağaçlarıdır; kesin genetik yapıları iyi belgelenmemiştir.",
+    "en": "Older farm trees spread from the 1930s across the Sangha, Likouala and Cuvette; their exact genetic make-up is poorly documented."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar (fèveden tablete) çikolata",
+   "desc": {
+    "tr": "Pointe-Noire ve Brazzaville'de genç girişimciler ve kooperatifler Mayombe kakaosunu fermantasyondan kavurmaya kadar yerelde işleyerek premium tabletler üretmeye başlıyor.",
+    "en": "In Pointe-Noire and Brazzaville, young entrepreneurs and cooperatives are starting to process Mayombe cacao locally, from fermentation to roasting, into premium bars."
+   }
+  },
+  {
+   "name": "Zencefilli bitter çikolata",
+   "desc": {
+    "tr": "Yeni yerel tabletler, yoğun bitter çikolatayı zencefil parçacıkları gibi yerel aromalarla birleştiriyor.",
+    "en": "New local bars pair intense dark chocolate with local flavours such as ginger pieces."
+   }
+  },
+  {
+   "name": "Ormana duyarlı tarım-ormancılık kakaosu",
+   "desc": {
+    "tr": "Sangha–Likouala REDD+ programı kakaoyu bozulmuş arazide, çevredeki ağaçları koruyarak yetiştirmeyi teşvik ediyor; bu da yerel çikolata hikâyesinin parçası oluyor.",
+    "en": "The Sangha–Likouala REDD+ programme promotes growing cacao on degraded land while preserving surrounding trees, which feeds into the local chocolate story."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Likouala Department",
+   "url": "https://en.wikipedia.org/wiki/Likouala_Department"
+  },
+  {
+   "title": "Mining in a forest conservation site clouds Republic of Congo’s carbon credit scheme",
+   "url": "https://news.mongabay.com/2025/01/mining-in-a-forest-conservation-site-clouds-republic-of-congos-carbon-credit-scheme/"
+  },
+  {
+   "title": "THE COCOA AND COFFEE OPPORTUNITY IN THE DEMOCRATIC REPUBLIC OF THE CONGO",
+   "url": "https://thecocoapost.com/wp-content/uploads/2021/06/DRC-Cocoa-and-Coffee-Opportunities.pdf"
+  },
+  {
+   "title": "Congo Maps & Facts - World Atlas",
+   "url": "https://www.worldatlas.com/maps/congo"
+  },
+  {
+   "title": "Cocoa production in the Democratic Republic of the Congo",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_production_in_the_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "Coffee production in Democratic Republic of the Congo",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "Likouala-aux-Herbes",
+   "url": "https://en.wikipedia.org/wiki/Likouala-aux-Herbes"
+  },
+  {
+   "title": "Top Fresh Produce Exporters in Republic of Congo — Sugar, Palm Oil, Cocoa, Coffee & Timber - Export Ready Africa",
+   "url": "https://exportready.africa/african-exporter-directories/top-fresh-produce-exporters-republic-congo/"
+  }
+ ]
+}

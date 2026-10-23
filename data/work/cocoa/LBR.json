@@ -1,0 +1,193 @@
+{
+ "iso3": "LBR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23376,
+  "out": 3344,
+  "searches": 2
+ },
+ "usd": 0.1002,
+ "summary": {
+  "tr": "Liberya'nın yağmur ormanı iklimi kakao için uygundur. Ülke iç savaşlardan önce kakao ihraç ediyordu, ancak yaklaşık 14 yıllık çatışma kakao sektörünü çökertti ve çiftçi kuşağının birikimini kaybettirdi. Sektör şimdi toparlanıyor: kuzeydeki \"kakao kuşağı\" Bong, Nimba ve Lofa'da küçük çiftçiler üretimin büyük bölümünü yapıyor. Üretimin büyük kısmı hâlâ ham çekirdek olarak ihraç ediliyor. Yerel çikol",
+  "en": "Liberia's rainforest climate suits cacao. The country exported cacao before its civil wars, but about 14 years of conflict wrecked the sector and erased a generation of farming know-how. The sector is now recovering, with smallholders in the northern \"cocoa belt\" of Bong, Nimba and Lofa producing most of the crop. Most output is still exported as raw beans. Local chocolate-making is young and has "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Bong County (Gbarnga)",
+   "lat": 6.99,
+   "lng": -9.47,
+   "desc": {
+    "tr": "Kakao kuşağının merkezindeki Bong, büyük küçük çiftçi tabanına ve ulusal alım merkezlerine sahiptir; hızlı yeni ekim ormansızlaşma kaygısı yaratmaktadır.",
+    "en": "Bong sits at the heart of the cocoa belt, with many smallholders and trading hubs, and rapid new planting is raising deforestation concerns."
+   },
+   "grapes": [
+    "Forastero",
+    "Trinitario",
+    "Improved hybrids"
+   ]
+  },
+  {
+   "name": "Nimba County (Ganta / Beeplay)",
+   "lat": 7.25,
+   "lng": -8.75,
+   "desc": {
+    "tr": "Fildişi Sahili sınırındaki Nimba, ulusal kakao tohum bahçesine ve en büyük kakao tüccarlarının alım ağına ev sahipliği yapar.",
+    "en": "Nimba, on the Ivorian border, hosts the national cocoa seed garden and the buying networks of the country's largest cocoa traders."
+   },
+   "grapes": [
+    "Forastero",
+    "Improved hybrids"
+   ]
+  },
+  {
+   "name": "Lofa County (Bolahun / Voinjama)",
+   "lat": 8.42,
+   "lng": -9.75,
+   "desc": {
+    "tr": "Sierra Leone ve Gine sınırındaki Lofa, organik kakao ve kadın kooperatiflerinin çikolata üretimiyle öne çıkar.",
+    "en": "Lofa, near the Sierra Leone and Guinea borders, is known for organic cocoa and women's cooperatives that make finished chocolate."
+   },
+   "grapes": [
+    "Forastero",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Grand Gedeh County (Zwedru)",
+   "lat": 6.07,
+   "lng": -8.13,
+   "desc": {
+    "tr": "Güneydoğudaki Grand Gedeh'de kakao yeni genişlemektedir ve ürün Fildişi Sahili'ndeki San Pedro limanına da gidebilir.",
+    "en": "In the southeast, cocoa is expanding in Grand Gedeh, and beans can also flow to the Ivorian port of San Pedro."
+   },
+   "grapes": [
+    "Forastero"
+   ]
+  },
+  {
+   "name": "River Gee County (Fish Town)",
+   "lat": 5.0,
+   "lng": -7.87,
+   "desc": {
+    "tr": "Güneydoğudaki River Gee, ulusal tarım planında odak ilçelerden biridir ve Fildişi Sahili üzerinden ihracat bağlantısı güçlüdür.",
+    "en": "River Gee in the southeast is a priority county in the national agriculture plan and has strong export links via Côte d'Ivoire."
+   },
+   "grapes": [
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Grand Bassa County (Buchanan)",
+   "lat": 5.88,
+   "lng": -9.9,
+   "desc": {
+    "tr": "Grand Bassa'da yardım kuruluşları savaş sonrası terk edilmiş kakao çiftliklerini yeniden canlandırma çalışmaları yürütmüştür.",
+    "en": "In Grand Bassa, aid programmes have worked to rehabilitate cocoa farms left run-down after the wars."
+   },
+   "grapes": [
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Bomi / Grand Cape Mount (Tubmanburg)",
+   "lat": 6.87,
+   "lng": -10.82,
+   "desc": {
+    "tr": "Batıdaki Bomi ve Grand Cape Mount, ülkenin üçüncü büyük kakao üretim bölgesini oluşturur.",
+    "en": "Bomi and Grand Cape Mount in the west form the country's third main cocoa-producing area."
+   },
+   "grapes": [
+    "Forastero"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "West African Forastero (bulk/trade type)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Liberya kakaosunun büyük kısmını oluşturan, Batı Afrika'da yaygın Forastero tipidir.",
+    "en": "The West African Forastero type, widely grown across the region, makes up the bulk of Liberian cocoa."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Kuzeydeki Lofa'da Forastero ile birlikte yetiştirilen ve yüzde 70 bitter çikolatada kullanılan melez tiptir.",
+    "en": "A hybrid type grown alongside Forastero in northern Lofa and used in a local 70% dark chocolate."
+   }
+  },
+  {
+   "name": "CARI improved hybrids",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Ulusal kakao tohum bahçesinde üretilen aşılı melezlerin daha erken ürün vermesi ve verimi artırması hedeflenir.",
+    "en": "Bud-grafted hybrids from the national seed garden, intended to bear earlier and raise yields."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Women-led cooperative bean-to-bar chocolate",
+   "desc": {
+    "tr": "Kuzey Liberya'da kadın kooperatifleri yerel kakaodan organik, yüzde 70 bitter çikolata yaparak çekirdeğe değer katıyor.",
+    "en": "In northern Liberia, women's cooperatives turn local organic cocoa into 70% dark chocolate, adding value beyond raw beans."
+   }
+  },
+  {
+   "name": "Small-batch campus and artisan dark chocolate",
+   "desc": {
+    "tr": "Ganta'da üniversite öğrencilerinin deneyleriyle başlayan küçük ölçekli, elle işlenen bitter çikolata ve kakao çayı üretimi Liberya'nın ilk yerli çikolatalarındandır.",
+    "en": "Small-batch, hand-processed dark chocolate and cocoa tea began as student experiments in Ganta and are among Liberia's first homegrown chocolates."
+   }
+  },
+  {
+   "name": "Organic fine-flavour beans for craft makers",
+   "desc": {
+    "tr": "Kutuda fermantasyon ve hava akışlı kurutma gibi tekniklerle işlenen organik çekirdekler, Avrupa ve Kuzey Amerika'daki zanaatkâr çikolatacılara ulaşıyor.",
+    "en": "Organic beans processed with box fermentation and airflow drying reach craft chocolate makers in Europe and North America."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Report VCA4D Liberia cocoa 2024.pdf - Agritrop",
+   "url": "https://agritrop.cirad.fr/612582/1/Report%20VCA4D%20Liberia%20cocoa%202024.pdf"
+  },
+  {
+   "title": "Chief Tree Crops in Liberia's Economy",
+   "url": "https://www.scribd.com/document/695078830/ai563e02-1"
+  },
+  {
+   "title": "Chocolate giants fuel deforestation in West Africa’s last rainforest",
+   "url": "https://globalwitness.org/en/campaigns/forests/chocolate-giants-fuel-deforestation-in-west-africas-last-rainforest/"
+  },
+  {
+   "title": "Africa: Chocolate Giants Fuel Deforestation in West Africa's Last Rainforest - allAfrica.com",
+   "url": "https://allafrica.com/stories/202511250045.html"
+  },
+  {
+   "title": "PROGRAMME TO IMPROVE LIBERIA COCOA SECTOR OFFICIALLY LAUNCHED",
+   "url": "https://www.eeas.europa.eu/node/44196_en"
+  },
+  {
+   "title": "Liberia's First National Cocoa Seed Garden: A Story of Triumph and Transformation",
+   "url": "https://moa.gov.lr/media/press-releases/liberias-first-national-cocoa-seed-garden-story-triumph-and-transformation"
+  },
+  {
+   "title": "Export Documents — Liberia",
+   "url": "https://afrotools.com/agriculture/export-docs/liberia"
+  },
+  {
+   "title": "Cocoa - AfricanPriorities.com",
+   "url": "https://www.africanpriorities.com/cocoa"
+  }
+ ]
+}

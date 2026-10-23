@@ -1,0 +1,191 @@
+{
+ "iso3": "PNG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22359,
+  "out": 4044,
+  "searches": 2
+ },
+ "usd": 0.1052,
+ "summary": {
+  "tr": "Kakao, 1900 civarında Alman tüccarlar tarafından Yeni Gine'ye getirildi. Almanlar Bougainville, Yeni Britanya ve Yeni İrlanda'da plantasyonlar kurdu. 1965'ten sonra küçük çiftçi üretimi hızla büyüdü ve 1979'da plantasyon üretimini geçti. Bugün üretimin yaklaşık %90'ı küçük çiftçilerden gelir. Kakao, Bougainville, Doğu Sepik ve Doğu Yeni Britanya gibi bölgelerde yetişir ve büyük kısmı ihraç edilir.",
+  "en": "German traders brought cacao to New Guinea around 1900 and set up plantations in Bougainville, New Britain and New Ireland. Smallholder production grew quickly after 1965 and overtook plantation output by 1979. Smallholders now supply about 90% of the crop. Cacao grows in places such as Bougainville, East Sepik and East New Britain, and most of it is exported. Wood-fire drying often gives the bean"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Bougainville",
+   "lat": -6.2,
+   "lng": 155.4,
+   "desc": {
+    "tr": "Özerk Bougainville Bölgesi, ülkenin en büyük kakao üreticisi bölgesidir; 2025'te ihracat gelirinin en büyük payı buradan gelmiştir.",
+    "en": "The Autonomous Region of Bougainville is the country's largest cocoa-producing area, and in 2025 it earned the biggest share of export revenue."
+   },
+   "grapes": [
+    "Trinitario hibritleri",
+    "Forastero tipi"
+   ]
+  },
+  {
+   "name": "Doğu Sepik / East Sepik",
+   "lat": -4.1,
+   "lng": 143.9,
+   "desc": {
+    "tr": "Sepik Nehri vadisi, Angoram çevresinde yeni dikimlerle genişleyen ikinci büyük üretim bölgesidir.",
+    "en": "The Sepik River valley is the second-largest producing area, with new plantings expanding around Angoram."
+   },
+   "grapes": [
+    "Trinitario hibritleri",
+    "Forastero tipi"
+   ]
+  },
+  {
+   "name": "Doğu Yeni Britanya / East New Britain",
+   "lat": -4.35,
+   "lng": 152.1,
+   "desc": {
+    "tr": "Gazelle Yarımadası, eski plantasyonların ve Keravat çevresindeki kakao araştırma çalışmalarının merkezidir; kakao tomurcuk kurdu (pod borer) 2006'dan sonra üretimi sert düşürmüştür.",
+    "en": "The Gazelle Peninsula is the historic plantation heartland and a research centre around Keravat; cocoa pod borer, first reported in 2006, caused production to collapse."
+   },
+   "grapes": [
+    "Trinitario hibritleri",
+    "ıslah edilmiş klonlar"
+   ]
+  },
+  {
+   "name": "Madang",
+   "lat": -5.2,
+   "lng": 145.8,
+   "desc": {
+    "tr": "Kuzey kıyısındaki Madang, Momase bölgesinin önemli küçük çiftçi kakao üreticilerinden biridir.",
+    "en": "Madang on the north coast is one of the important smallholder cocoa producers in the Momase region."
+   },
+   "grapes": [
+    "Trinitario hibritleri",
+    "Forastero tipi"
+   ]
+  },
+  {
+   "name": "Yeni İrlanda / New Ireland",
+   "lat": -3.3,
+   "lng": 151.9,
+   "desc": {
+    "tr": "Alman döneminden beri kakao yetiştirilen ada eyaleti, küçük çiftçi girişimlerine odaklanan geliştirme projelerinin yer aldığı bölgelerdendir.",
+    "en": "This island province has grown cacao since the German era and has hosted development projects focused on smallholder cocoa enterprises."
+   },
+   "grapes": [
+    "Trinitario hibritleri"
+   ]
+  },
+  {
+   "name": "Batı Yeni Britanya / West New Britain",
+   "lat": -5.5,
+   "lng": 150.0,
+   "desc": {
+    "tr": "Ada kıyılarındaki nemli, sıcak iklim, ana üretici eyaletlerden biri olan Batı Yeni Britanya'da kakaoya elverişlidir.",
+    "en": "The warm, humid island climate suits cacao in West New Britain, which is listed among the major producing provinces."
+   },
+   "grapes": [
+    "Trinitario hibritleri",
+    "Forastero tipi"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Trinitario-type hybrids",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Ülkedeki kakaonun büyük bölümü tarihsel olarak Trinitario materyaline dayanır ve Papua Yeni Gine'nin 'aromalı' köken olarak anılmasının nedenlerinden biridir.",
+    "en": "Much of the country's cacao has historically been based on Trinitario material, one reason PNG is discussed as a flavour origin."
+   }
+  },
+  {
+   "name": "Forastero-type (introduced)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Bazı kaynaklara göre ülkede Forastero tipleri de yetiştirilir; bunlar ithal materyaldir ve tipik olarak koyu, hafif asidik, tütünsü notalar verir.",
+    "en": "Some sources list Forastero types in PNG; these are introduced material, with deep cocoa, tobacco and slightly acidic notes."
+   }
+  },
+  {
+   "name": "Criollo-influenced material",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Bazı kaynaklar Criollo'yu da Papua Yeni Gine'nin çeşitleri arasında sayar; bu, esas olarak Trinitario melezlerindeki Criollo mirasıdır.",
+    "en": "Some sources include Criollo among PNG's varieties, which mainly reflects Criollo heritage within the Trinitario hybrids."
+   }
+  },
+  {
+   "name": "Improved hybrid clones (Keravat/Tavilo selections)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Keravat ve Tavilo gibi merkezlerde yürütülen ıslah ve fide üretimi, verim ve hastalığa dayanıklılığı artırmayı hedefler.",
+    "en": "Breeding and nursery work at centres such as Keravat and Tavilo aims to improve yield and resilience through better planting material."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Wood-fire dried, smoky single-origin dark chocolate",
+   "desc": {
+    "tr": "Çekirdekler genellikle odun ateşinde kurutulur; endüstri bu dumanı kusur sayar, butik yapımcılar ise onu kuru meyveli, dumanlı bir köken karakteri olarak sunar.",
+    "en": "Beans are often dried over wood fires; industry treats the smoke as a defect, but craft makers present it as a smoky, dried-fruit origin character."
+   }
+  },
+  {
+   "name": "Craft single-origin bean-to-bar bars",
+   "desc": {
+    "tr": "Papua Yeni Gine çekirdekleri, özellikle yurt dışındaki butik bean-to-bar yapımcıları tarafından tek köken, koyu çikolatalara işlenir; çok sayıda zanaatkâr %70 civarını tercih eder.",
+    "en": "PNG beans are mostly made into single-origin dark bars by craft bean-to-bar makers abroad, and many makers favour roughly 70% cocoa."
+   }
+  },
+  {
+   "name": "Smallholder village fermentation and drying",
+   "desc": {
+    "tr": "Kakao çoğunlukla küçük çiftçilerin köy düzeyinde fermente edip kuruttuğu çekirdek olarak ihraç edilir; temiz kurutma, kalite artışının en büyük fırsatlarından biri sayılır.",
+    "en": "Cacao is mainly exported as beans that smallholders ferment and dry at village level; cleaner drying is seen as one of the biggest quality opportunities."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "PAPUA NEW GUINEA",
+   "url": "https://www.cacao-barry.com/en/papua-new-guinea"
+  },
+  {
+   "title": "PNG cocoa information goes mobile - Devpolicy Blog from the Development Policy Centre",
+   "url": "https://devpolicy.org/png-cocoa-information-goes-mobile-20250709/"
+  },
+  {
+   "title": "Improved management strategies for cocoa in Papua New Guinea - CABI.org",
+   "url": "https://www.cabi.org/projects/improved-management-strategies-for-cocoa-in-papua-new-guinea/"
+  },
+  {
+   "title": "Cocoa gets into new territory",
+   "url": "https://www.thenational.com.pg/cocoa-gets-into-new-territory/"
+  },
+  {
+   "title": "Regions of Papua New Guinea",
+   "url": "https://en.wikipedia.org/wiki/Regions_of_Papua_New_Guinea"
+  },
+  {
+   "title": "POP Cultures: Papua New Guinea - Guampedia",
+   "url": "https://www.guampedia.com/pop-cultures-papua-new-guinea/"
+  },
+  {
+   "title": "Provinces of Papua New Guinea",
+   "url": "https://en.wikipedia.org/wiki/Provinces_of_Papua_New_Guinea"
+  },
+  {
+   "title": "Cocoa Production in Papua New Guinea, Regions and Trends",
+   "url": "https://www.jualbuahmerah.com/en/cocoa-production-in-papua-new-guinea-facts-and-challenges/"
+  }
+ ]
+}

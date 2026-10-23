@@ -1,0 +1,204 @@
+{
+ "iso3": "GHA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24761,
+  "out": 4605,
+  "searches": 2
+ },
+ "usd": 0.1156,
+ "summary": {
+  "tr": "Kakao Gana'ya 19. yüzyılın başında Hollandalı misyonerlerle geldi. Ticari ekimi ise 1879'da Fernando Po'dan Amelonado kakao kabukları getirip Akuapem-Mampong'da ilk çiftliği kuran Ganalı demirci Tetteh Quarshie'ye bağlanır. Kakao pazarlamasından sorumlu kurum 1947'de Cocoa Marketing Board adıyla kuruldu ve bugünkü COCOBOD'a dönüştü. Yaklaşık 800-850 bin çiftçi ailesi kakaoyla geçinir. Gana'nın kak",
+  "en": "Cocoa reached Ghana with Dutch missionaries early in the 19th century. Commercial cultivation is credited to the Ghanaian blacksmith Tetteh Quarshie, who brought Amelonado pods from Fernando Po in 1879 and founded the first farm at Akuapem-Mampong. The state marketing body was created in 1947 as the Cocoa Marketing Board and later became COCOBOD. Roughly 800,000–850,000 farm families depend on coc"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Eastern Region (Akuapem Hills, Suhum, Tafo)",
+   "lat": 6.2,
+   "lng": -0.4,
+   "desc": {
+    "tr": "Gana kakaosunun beşiği olan bu bölgede Mampong'daki ilk çiftlik ile Tafo'daki Gana Kakao Araştırma Enstitüsü (CRIG) bulunur.",
+    "en": "The cradle of Ghanaian cocoa, home to the first farm at Mampong and to the Cocoa Research Institute of Ghana (CRIG) at Tafo."
+   },
+   "grapes": [
+    "Amelonado",
+    "Upper Amazon hybrids",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Ashanti Region (Asante Akim)",
+   "lat": 6.7,
+   "lng": -1.6,
+   "desc": {
+    "tr": "Orman kuşağındaki bu bölge, kakao ağaçlarının doğuya ve batıya yayılmasıyla ana üretim merkezlerinden biri oldu.",
+    "en": "A core forest-belt producer, where cocoa farming expanded strongly as it spread west from the Akuapem hills."
+   },
+   "grapes": [
+    "Amelonado",
+    "Upper Amazon hybrids"
+   ]
+  },
+  {
+   "name": "Western North Region (Sefwi)",
+   "lat": 6.2,
+   "lng": -2.5,
+   "desc": {
+    "tr": "Batı Kuzey Bölgesi'nin yağmur ormanlarında yer alan bu alan, ülkenin en verimli ve en yeni kakao sınırı olarak bilinir.",
+    "en": "Rainforest area known as the most productive and newest cocoa frontier in the country."
+   },
+   "grapes": [
+    "Upper Amazon hybrids",
+    "Amelonado"
+   ]
+  },
+  {
+   "name": "Western South Region (Western Region)",
+   "lat": 5.3,
+   "lng": -2.0,
+   "desc": {
+    "tr": "Güneybatıdaki nemli bölgede kakao, yağ palmı ve kauçukla birlikte yetiştirilir. Bölgede yasa dışı altın madenciliği (galamsey) bazı çiftlikleri tehdit ediyor.",
+    "en": "A humid south-western zone where cocoa shares land with oil palm and rubber, and where illegal gold mining (galamsey) threatens some farms."
+   },
+   "grapes": [
+    "Amelonado",
+    "Hybrids"
+   ]
+  },
+  {
+   "name": "Central Region (Assin, Twifo)",
+   "lat": 5.7,
+   "lng": -1.3,
+   "desc": {
+    "tr": "Kıyıya yakın iç kesimlerde, eski Amelonado bahçeleri ile yeni melez ağaçlar bir arada bulunur.",
+    "en": "Inland of the coast, older Amelonado plots stand alongside newer hybrid plantings."
+   },
+   "grapes": [
+    "Amelonado",
+    "Hybrids"
+   ]
+  },
+  {
+   "name": "Ahafo / Bono (former Brong Ahafo)",
+   "lat": 7.0,
+   "lng": -2.3,
+   "desc": {
+    "tr": "Orman ile savan arasındaki geçiş kuşağında kakao daha çok küçük çiftliklerde yetiştirilir.",
+    "en": "A transition zone between forest and savanna, where cocoa is grown mostly on smallholdings."
+   },
+   "grapes": [
+    "Hybrids",
+    "Amelonado"
+   ]
+  },
+  {
+   "name": "Volta Region (Hohoe–Jasikan area)",
+   "lat": 6.9,
+   "lng": 0.45,
+   "desc": {
+    "tr": "Doğu sınırındaki dağlık ve ormanlık bu bölge, kakao kuşağının en doğudaki üretim alanını oluşturur.",
+    "en": "Hilly, forested eastern fringe that marks the easternmost part of the cocoa belt."
+   },
+   "grapes": [
+    "Amelonado",
+    "Hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Amelonado",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Gana'nın tarihsel temel çeşidi olan Amelonado, kâğıt gibi yuvarlak (kavun biçimli) kabukları ve yoğun, düşük asitli, fındıksı çikolata aromasıyla bilinir.",
+    "en": "Ghana's historic backbone type, with melon-shaped pods and a deep, low-acid, nutty chocolate flavour; introduced from Fernando Po and originally of Amazonian stock."
+   }
+  },
+  {
+   "name": "Upper Amazon hybrids (CRIG hybrids)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "CRIG'in geliştirdiği Üst Amazon melezleri, daha yüksek verim ve hastalık direnci için Amelonado'nun yerini giderek alıyor.",
+    "en": "Hybrids developed and distributed through CRIG for higher yield and disease tolerance, increasingly replacing pure Amelonado."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Criollo ile Forastero melezi olan Trinitario, Gana'da daha az bulunur ve bazı butik tek-menşe çikolatalarda öne çıkar.",
+    "en": "A Criollo–Forastero hybrid, less common in Ghana, and named on some single-origin craft bars."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Local bean-to-bar chocolate",
+   "desc": {
+    "tr": "Yerel üreticiler çekirdekleri Gana'da çikolataya dönüştürüyor. Böylece ham madde ihraç etmek yerine katma değer ülkede kalıyor ve Gana kakaosunun bilinirliği artıyor.",
+    "en": "Local makers now turn Ghanaian beans into chocolate inside the country, keeping value at home rather than exporting only raw material, and showcasing Ghana's cocoa."
+   }
+  },
+  {
+   "name": "Adinkra-embossed chocolate",
+   "desc": {
+    "tr": "Akan kültürüne ait Adinkra sembolleriyle kabartılan tabletler, çikolatayı Gana'nın görsel mirasına ve armağan geleneğine bağlar.",
+    "en": "Bars embossed with Akan Adinkra symbols tie chocolate to Ghanaian visual heritage and gift-giving."
+   }
+  },
+  {
+   "name": "Dark chocolate with local ingredients",
+   "desc": {
+    "tr": "Gana'daki zanaatkâr çikolatacılar bitter ve sütlü tabletleri yerel meyve, baharat ve kuruyemişlerle birleştiriyor.",
+    "en": "Ghanaian craft makers pair dark and milk bars with local fruits, spices and nuts."
+   }
+  },
+  {
+   "name": "Fresh cocoa pulp and cocoa by-products",
+   "desc": {
+    "tr": "Çiftçiler hasatta kakao kabuğundaki tatlı-ekşi beyaz posayı taze yer. Kakao kabuğu külü ise geleneksel siyah sabun yapımında kullanılır.",
+    "en": "At harvest, farming communities eat the sweet-tart white pulp fresh from the pod. Cocoa pod ash is used in making traditional black soap."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "The History of Cocoa in Ghana - Kojoma Appiah",
+   "url": "https://prezi.com/p/eovdalc0loui/the-history-of-cocoa-in-ghana/"
+  },
+  {
+   "title": "Cocobod - COCOA",
+   "url": "https://cocobod.gh/pages/cocoa"
+  },
+  {
+   "title": "Cocobod - Subsidiaries and Divisions",
+   "url": "https://cocobod.gh/subsidiaries-and-divisions"
+  },
+  {
+   "title": "Tetteh Quarshie: The Blacksmith Who Brought Cocoa to Ghana - Ghana-Net",
+   "url": "https://ghana-net.com/tetteh-quarshie-the-blacksmith-who-brought-cocoa-to-ghana/"
+  },
+  {
+   "title": "The History of Cocoa in Ghana - Cocoa Club Ghana",
+   "url": "https://cocoaclubghana.mowusu.org/about-us/the-history-of-cocoa-in-ghana/"
+  },
+  {
+   "title": "Cocoa Research Institute of Ghana",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_Research_Institute_of_Ghana"
+  },
+  {
+   "title": "Cocoa production in Ghana",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_production_in_Ghana"
+  },
+  {
+   "title": "Tetteh Quarshie cocoa farm",
+   "url": "https://en.wikipedia.org/wiki/Tetteh_Quarshie_cocoa_farm"
+  }
+ ]
+}

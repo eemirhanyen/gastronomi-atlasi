@@ -1,0 +1,201 @@
+{
+ "iso3": "VEN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23915,
+  "out": 3808,
+  "searches": 2
+ },
+ "usd": 0.1059,
+ "summary": {
+  "tr": "Venezuela, kakaonun Amerika'daki en eski ve en prestijli kaynaklarından biridir. Sömürge döneminde kakao önemli bir ihraç ürünüydü ve ülke, 20. yüzyıl başındaki ilk petrol patlamasına kadar dünyanın önde gelen üretici ve ihracatçıları arasındaydı. Bugün ülke Chuao ve Porcelana gibi ince aromalı Criollo kakaolarıyla tanınıyor. Kültürel olarak İspanyol mirası sıcak çikolata ve peynir eşleşmesi yaygı",
+  "en": "Venezuela is one of the oldest and most prestigious cacao homelands in the Americas. Cacao was a vital colonial export, and the country was among the world's leading producers and exporters until the first oil boom of the early 20th century. Today it is known for fine-flavour Criollo cacaos such as Chuao and Porcelana. Its chocolate culture includes Spanish-inherited hot chocolate, often served wi"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Sur del Lago (Maracaibo Lake basin: Zulia, Mérida, Táchira, Trujillo)",
+   "lat": 8.6,
+   "lng": -71.6,
+   "desc": {
+    "tr": "Maracaibo Gölü'nün güneyindeki nemli ovalar, dünyanın en eski kakao bölgelerinden biridir ve Porcelana'nın doğduğu yer olarak bilinir.",
+    "en": "The humid lowlands south of Lake Maracaibo are one of the world's oldest cacao areas and the birthplace of Porcelana."
+   },
+   "grapes": [
+    "Porcelana",
+    "Guasare",
+    "Mérida Criollo",
+    "Sur del Lago Clasificado"
+   ]
+  },
+  {
+   "name": "Aragua coast (Chuao, Choroní, Ocumare, Cuyagua)",
+   "lat": 10.5,
+   "lng": -67.6,
+   "desc": {
+    "tr": "Chuao köyü ve çevresindeki kıyı vadileri, 16. yüzyıldan beri dünyanın en değerli ince aromalı kakaolarından birini yetiştirir.",
+    "en": "The village of Chuao and nearby coastal valleys have grown some of the world's most prized fine-flavour cacao since the 16th century."
+   },
+   "grapes": [
+    "Chuao (Criollo)",
+    "Ocumare",
+    "Cuyagua",
+    "Choroní"
+   ]
+  },
+  {
+   "name": "Carabobo (Canoabo, Patanemo, Puerto Cabello)",
+   "lat": 10.3,
+   "lng": -68.1,
+   "desc": {
+    "tr": "Carabobo'nun Canoabo ve Patanemo gibi bölgeleri, verimli topraklarda yüksek yoğunlukta Criollo kakao yetiştirir.",
+    "en": "Carabobo areas such as Canoabo and Patanemo grow a high density of Criollo cacao on fertile soils."
+   },
+   "grapes": [
+    "Canoabo",
+    "Patanemo",
+    "Puerto Cabello"
+   ]
+  },
+  {
+   "name": "Barlovento (Miranda)",
+   "lat": 10.3,
+   "lng": -66.2,
+   "desc": {
+    "tr": "Caracas'ın doğusundaki Barlovento, Carenero Superior adıyla bilinen Trinitario kakaonun ana kaynağıdır.",
+    "en": "Barlovento, east of Caracas, is the main source of the Trinitario cacao marketed as Carenero Superior."
+   },
+   "grapes": [
+    "Carenero Superior",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Paria Peninsula (Sucre: Río Caribe)",
+   "lat": 10.7,
+   "lng": -63.1,
+   "desc": {
+    "tr": "Sucre eyaletindeki Paria Yarımadası, Río Caribe kakaosunun yetiştiği ve tarihi kakao ekimine dayanan bölgedir.",
+    "en": "The Paria Peninsula in Sucre state is home to Río Caribe cacao and a long history of cacao farming."
+   },
+   "grapes": [
+    "Río Caribe",
+    "Agua Fría",
+    "Agua Santa"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Chuao",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Aragua kıyısındaki Chuao köyünden gelen, dünyanın en ünlü ince aromalı Criollo kakaolarından biridir.",
+    "en": "A Criollo from the village of Chuao on the Aragua coast, and one of the world's most famous fine-flavour cacaos."
+   }
+  },
+  {
+   "name": "Porcelana",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Sur del Lago kökenli, soluk renkli kabuklu ve beyaz çekirdekli, ender bir Criollo'dur.",
+    "en": "A rare Criollo from Sur del Lago with pale pods and white cotyledons, prized for its aroma."
+   }
+  },
+  {
+   "name": "Guasare",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Batı Venezuela'ya özgü, genetik saflığı ve karmaşık aromasıyla değerli eski bir Criollo çeşididir.",
+    "en": "An old western Venezuelan Criollo valued for its genetic purity and complex flavour."
+   }
+  },
+  {
+   "name": "Carenero Superior",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Barlovento kökenli, ince asiditeli ve çiçeksi notalı Trinitario kakaodur.",
+    "en": "A Trinitario-type cacao from Barlovento with fine acidity and floral notes."
+   }
+  },
+  {
+   "name": "Río Caribe",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Paria Yarımadası'ndan gelen, meyvemsi aromalı Criollo-Trinitario karışımı bir kakao tipidir.",
+    "en": "A Criollo-Trinitario cacao type from the Paria Peninsula with fruity flavours."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Chocolate caliente with cheese",
+   "desc": {
+    "tr": "İspanyol mirası kalın ve az şekerli sıcak çikolata, çoğu zaman baharatla yapılır ve peynirle birlikte servis edilir. Peynirli sıcak çikolata sömürge dönemi alışkanlığıdır ve esas olarak Venezuela, Kolombiya ve Ekvador'da görülür.",
+    "en": "Thick, lightly sweetened hot chocolate in the Spanish tradition, often spiced and served with cheese. Adding cheese is a colonial-era habit found mainly in Venezuela, Colombia and Ecuador."
+   }
+  },
+  {
+   "name": "Bombones venezolanos",
+   "desc": {
+    "tr": "Hindistan cevizi, rom, kuruyemiş, bal ve meyve gibi tropikal malzemelerle doldurulan el yapımı çikolatalı bonbonlardır.",
+    "en": "Artisan filled chocolates that use tropical ingredients such as coconut, rum, nuts, honey and fruit."
+   }
+  },
+  {
+   "name": "Single-origin and bean-to-bar craft chocolate",
+   "desc": {
+    "tr": "Küçük üreticiler, Chuao, Canoabo veya Sur del Lago gibi tek bölge kakaolarıyla fermantasyona önem vererek çikolata yapar. Bu akım, Simón Bolívar Üniversitesi'ndeki kakao ve çikolata diploma programı gibi eğitimlerle de beslenmiştir.",
+    "en": "Small makers produce single-origin bars from places such as Chuao, Canoabo or Sur del Lago, with careful fermentation. The movement has been fed by training such as the cocoa and chocolate diploma at Simón Bolívar University."
+   }
+  },
+  {
+   "name": "Chocolate tequeños",
+   "desc": {
+    "tr": "Klasik peynirli tekeño hamur işinin modern bir yorumudur; dışı çıtır kızartılır, içinde akışkan çikolata bulunur.",
+    "en": "A modern take on the classic tequeño pastry: fried crisp outside with a molten chocolate centre."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "VENEZUELA",
+   "url": "https://www.cacao-barry.com/en/venezuela"
+  },
+  {
+   "title": "Cacao, cultura y patrimonio: un hábitat de aroma fino en Venezuela",
+   "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0719-49942021000100146"
+  },
+  {
+   "title": "Venezuela - ChocoStory",
+   "url": "https://www.choco-story.be/Expeditions/Venezuela"
+  },
+  {
+   "title": "Impact of Technological Processes on the Formation of Furosine, Acrylamide and Furan in Traditional Venezuelan Cocoa",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10969732/"
+  },
+  {
+   "title": "65 Best Venezuela Chocolate Bars",
+   "url": "https://chof.nl/origins/venezuela"
+  },
+  {
+   "title": "Venezuela",
+   "url": "https://www.bohnkaf.de/en/qualitaet_venezuela/"
+  },
+  {
+   "title": "Estas son algunas de las variedades de cacao que se producen en el país",
+   "url": "https://www.purochocolate.life/estas-son-algunas-de-las-variedades-de-cacao-que-se-producen-en-el-pais/"
+  },
+  {
+   "title": "World of Cocoa: Venezuela: The historic cradle of cocoa",
+   "url": "https://www.bohnkaf.de/en/world-of-cocoa-venezuelan-cocoa/"
+  }
+ ]
+}

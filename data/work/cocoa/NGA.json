@@ -1,0 +1,205 @@
+{
+ "iso3": "NGA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23735,
+  "out": 4036,
+  "searches": 2
+ },
+ "usd": 0.1078,
+ "summary": {
+  "tr": "Kakao, 1870'lerde Fernando Po'dan Nijerya'ya getirildi. Önce Calabar ve Bonny çevresinde denendi, ancak bu bölgeler uygun çıkmadı. 1880'lerde Lagos yakınındaki Agege ve Ota'da başarıyla yetiştirildi, oradan güneybatıdaki Yoruba bölgesine yayıldı. Kakao, petrol keşfine kadar ülkenin başlıca nakit ve ihracat ürünüydü. Bugün üretimin büyük bölümü küçük çiftçilerden geliyor. Ülke çekirdeklerinin çoğun",
+  "en": "Cocoa reached Nigeria in the 1870s from Fernando Po. It was first tried around Calabar and Bonny, which proved unsuitable. It then thrived at Agege and Ota near Lagos in the 1880s and spread through Yoruba country in the southwest. It was the country's main cash and export crop until the oil boom. Today about 98% of production comes from smallholders. Most beans are exported, and local chocolate-m"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ondo State",
+   "lat": 7.1,
+   "lng": 5.0,
+   "desc": {
+    "tr": "Nijerya'nın önde gelen kakao eyaleti olan Ondo'da, Ondo kenti ve Okeigbo çevresinde 1890'ların ortasından beri kakao yetiştirilir.",
+    "en": "Ondo is Nigeria's leading cocoa state, with cultivation around Ondo town and Okeigbo dating from the mid-1890s."
+   },
+   "grapes": [
+    "Amelonado",
+    "F3 Amazon hybrids",
+    "CRIN hybrids"
+   ]
+  },
+  {
+   "name": "Ogun State (Ota and Ijebu/Egba area)",
+   "lat": 6.9,
+   "lng": 3.6,
+   "desc": {
+    "tr": "Ota, kakaonun 1880'lerde Lagos çevresinden güneybatıya yayılmasının başladığı iki merkezden biridir.",
+    "en": "Ota was one of the two hubs from which cocoa spread across the southwest after the 1880s plantings near Lagos."
+   },
+   "grapes": [
+    "Amelonado",
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Osun State",
+   "lat": 7.6,
+   "lng": 4.6,
+   "desc": {
+    "tr": "Osun'da kakao, 1890'larda Ilesha'dan, ardından Ife ve Gbongan'dan başlayarak yayıldı.",
+    "en": "Cocoa farming in Osun spread from Ilesha in the 1890s and then from Ife and Gbongan."
+   },
+   "grapes": [
+    "Amelonado",
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Oyo State (Ibadan area)",
+   "lat": 7.4,
+   "lng": 3.9,
+   "desc": {
+    "tr": "Ibadan çevresinde çiftçiler 1890 dolaylarında kakao denemeye başladı. Oyo bugün de önemli bir kakao eyaleti.",
+    "en": "Farmers around Ibadan began experimenting with cocoa around 1890, and Oyo remains a major cocoa state."
+   },
+   "grapes": [
+    "Amelonado",
+    "F3 Amazon hybrids"
+   ]
+  },
+  {
+   "name": "Ekiti State",
+   "lat": 7.7,
+   "lng": 5.3,
+   "desc": {
+    "tr": "Ekiti, güneybatı kakao kuşağının ilk beş eyaletinden biridir.",
+    "en": "Ekiti is one of the top five states of the southwestern cocoa belt."
+   },
+   "grapes": [
+    "Amelonado",
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Cross River State",
+   "lat": 5.9,
+   "lng": 8.6,
+   "desc": {
+    "tr": "Güneydoğudaki Cross River'da kakao Nijerya'ya ilk girdiği bölgelerden biridir. Eyalet bugün ülkenin en geniş kakao ekim alanlarından birine sahip.",
+    "en": "In the southeast, Cross River is where cocoa first entered Nigeria, and it now has one of the country's largest cocoa areas."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Edo State",
+   "lat": 6.6,
+   "lng": 5.9,
+   "desc": {
+    "tr": "Edo, güneybatı kuşağının hemen doğusundaki bir üretici eyalettir. Zanaatkâr çikolata üreticileri de buradan çekirdek tedarik ediyor.",
+    "en": "Edo is a producing state just east of the southwestern belt, and craft chocolate makers source beans from it."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "West African Amelonado",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Brezilya Amazonu kökenli Amelonado, Nijerya'ya Gine Körfezi üzerinden geldi. Güçlü çikolata aroması nedeniyle Batı Afrika'da referans sayılır.",
+    "en": "Amelonado came from the Amazon basin via the Gulf of Guinea, and its strong chocolate flavour made it a West African benchmark."
+   }
+  },
+  {
+   "name": "F3 Amazon (Upper Amazon hybrids)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Trinidad'dan gelen Amazon seçilimlerinin melezi olan F3 Amazon; Amelonado'dan daha erken ürün verir, daha güçlü gelişir ve verimi daha yüksektir.",
+    "en": "F3 Amazon, bred from Trinidad-selected Amazon clones, bears earlier, grows more vigorously and yields more than Amelonado."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Trinidad kökenli bu melez gruplar, hastalığa daha dayanıklı oldukları için Nijerya'da Forastero ile birlikte ekilir.",
+    "en": "Trinidad-derived hybrid types are grown alongside Forastero in Nigeria for their greater resilience."
+   }
+  },
+  {
+   "name": "CRIN TC hybrids",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Nijerya Kakao Araştırma Enstitüsü (CRIN), melezleme çalışmalarıyla CRIN TC-1'den TC-8'e sekiz yeni melez geliştirdi.",
+    "en": "The Cocoa Research Institute of Nigeria (CRIN) has bred eight hybrids, CRIN TC-1 to TC-8."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar craft chocolate",
+   "desc": {
+    "tr": "2010'lardan itibaren küçük üreticiler Ondo, Osun, Edo, Cross River ve Oyo'dan aldıkları çekirdekle yerel çikolata yapıyor.",
+    "en": "Since the 2010s, small makers have turned beans from Ondo, Osun, Edo, Cross River and Oyo into locally made chocolate."
+   }
+  },
+  {
+   "name": "Chocolate with local ingredients",
+   "desc": {
+    "tr": "Yerel çikolata yapımcıları zencefil, kaju, kahve ve portakal gibi malzemeleri çikolataya katıyor.",
+    "en": "Local chocolatiers flavour bars with ingredients such as ginger, cashew, coffee and orange."
+   }
+  },
+  {
+   "name": "Festive gift chocolates and affordable minibars",
+   "desc": {
+    "tr": "Hediyeye hazır koleksiyonlar ve uygun fiyatlı mini çikolata barları, özellikle Noel ve bayram dönemlerinde popülerdir.",
+    "en": "Gift-ready collections and low-priced minibars are especially popular at Christmas and other festive seasons."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Knowledge on potential, production, and achievements of cocoa (Theobroma cacao) in Nigeria: Past, current status, and perspective",
+   "url": "https://www.cabidigitallibrary.org/doi/10.1079/ab.2025.0028"
+  },
+  {
+   "title": "(PDF) Knowledge on potential, production, and achievements of cocoa (Theobroma cacao) in Nigeria: Past, current status, and perspective",
+   "url": "https://www.researchgate.net/publication/393364394_Knowledge_on_potential_production_and_achievements_of_cocoa_Theobroma_cacao_in_Nigeria_Past_current_status_and_perspective"
+  },
+  {
+   "title": "COCOA VALUE CHAIN IN NIGERIA PAST AND PRESENT Dr. A.E. Oguntade",
+   "url": "https://nairametrics.com/wp-content/uploads/2013/04/Cocoa-Value-Chain-In-Nigeria-Past-And-Present.pdf"
+  },
+  {
+   "title": "Cocoa production in Nigeria",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_production_in_Nigeria"
+  },
+  {
+   "title": "THE SOCIAL RELATIONS OF COCOA PRODUCTION IN SOUTHWESTERN NIGERIA By",
+   "url": "https://pgsds.ictp.it/xmlui/bitstream/handle/123456789/1663/Gbenga%20Sunday%20ADEJARE%20-Thesis%20-%20%20New.pdf?sequence=1&isAllowed=y"
+  },
+  {
+   "title": "How crude oil economy, governance failure put cocoa production at bay",
+   "url": "https://guardian.ng/features/how-crude-oil-economy-governance-failure-put-cocoa-production-at-bay/"
+  },
+  {
+   "title": "Estimated Area (000) and Production (000 mt) of cocoa in Nigeria",
+   "url": "https://www.researchgate.net/figure/Estimated-Area-000-and-Production-000-mt-of-cocoa-in-Nigeria_tbl2_342564872"
+  },
+  {
+   "title": "Cocoa Production in Nigeria",
+   "url": "https://wigmoretrading.com/exploring-cocoa-production-in-nigeria-a-look-into-the-major-cocoa-producing-regions/"
+  }
+ ]
+}

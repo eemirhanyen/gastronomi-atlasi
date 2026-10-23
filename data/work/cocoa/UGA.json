@@ -1,0 +1,189 @@
+{
+ "iso3": "UGA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22939,
+  "out": 3608,
+  "searches": 2
+ },
+ "usd": 0.102,
+ "summary": {
+  "tr": "Kakao Uganda'ya 1901'de İngiliz sömürge yönetimi eliyle getirildi ve Entebbe Botanik Bahçesi'nde ekildi. Ticari üretim 1960'larda başladı, 1970-80'lerdeki fiyat dalgalanmaları ve ihmal nedeniyle yavaşladı, 1990'ların sonundan itibaren özellikle Bundibugyo'da hızla büyüdü. Üretimin büyük kısmı ham çekirdek olarak ihraç edilir. Yerel çikolata kültürü genç sayılır ve Kampala ile Rwenzori çevresindeki",
+  "en": "Cocoa was brought to Uganda by the British colonial government in 1901 and first planted at the Entebbe Botanical Gardens. Commercial production began in the 1960s and was held back by price swings and neglect in the 1970s and 80s. It then expanded rapidly from the late 1990s, especially in Bundibugyo. Most output is exported as raw beans. Local chocolate culture is young and centres on a few bean"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Bundibugyo (Semuliki / Rwenzori foothills)",
+   "lat": 0.71,
+   "lng": 30.06,
+   "desc": {
+    "tr": "Ülkenin en büyük kakao bölgesidir, üretimin kabaca %70'i buradan gelir; Semuliki Ulusal Parkı ve Rwenzori Dağları'nın eteğinde yer alır.",
+    "en": "The country's largest cocoa district, supplying roughly 70% of output, lying beside Semuliki National Park and the Rwenzori Mountains."
+   },
+   "grapes": [
+    "Forastero/Amelonado-type",
+    "Hybrids"
+   ]
+  },
+  {
+   "name": "Kasese – Ntoroko (Rwenzori foothills)",
+   "lat": 0.5,
+   "lng": 30.1,
+   "desc": {
+    "tr": "Batı Uganda'daki bu komşu ilçeler Bundibugyo ile birlikte güneybatı kakao kuşağını oluşturur.",
+    "en": "These neighbouring western districts form the south-western cocoa belt together with Bundibugyo."
+   },
+   "grapes": [
+    "Forastero-type",
+    "Hybrids"
+   ]
+  },
+  {
+   "name": "Mukono – Buikwe (Lake Victoria crescent)",
+   "lat": 0.34,
+   "lng": 32.85,
+   "desc": {
+    "tr": "Viktorya Gölü kıyısındaki bu merkez bölge, ticari ekimin en uzun geçmişine sahiptir ve yağışı yüksektir.",
+    "en": "This central zone on Lake Victoria's shore has the longest history of commercial planting and high rainfall."
+   },
+   "grapes": [
+    "Forastero-type",
+    "Hybrids"
+   ]
+  },
+  {
+   "name": "Hoima – Kibaale – Kagadi (Albertine / mid-west)",
+   "lat": 1.3,
+   "lng": 31.1,
+   "desc": {
+    "tr": "Kakaonun 1960'larda denendiği ilçelerden biri olan Hoima ve çevresi bugün kuzeybatının başlıca üretim alanıdır.",
+    "en": "Hoima and its neighbours were among the early 1960s pilot districts and are now the main north-western producing area."
+   },
+   "grapes": [
+    "Forastero-type",
+    "Hybrids"
+   ]
+  },
+  {
+   "name": "Jinja – Kamuli – Mayuge (Busoga)",
+   "lat": 0.7,
+   "lng": 33.2,
+   "desc": {
+    "tr": "Nil'in kaynağı çevresindeki Busoga bölgesinde kakao, küçük çiftçilerin kahve ve gıda bitkileriyle birlikte yetiştirdiği bir ürün olarak yayılmaktadır.",
+    "en": "In Busoga, around the source of the Nile, cocoa is spreading as a smallholder crop grown alongside coffee and food crops."
+   },
+   "grapes": [
+    "Hybrids",
+    "Forastero-type"
+   ]
+  },
+  {
+   "name": "West Nile (Nebbi – Zombo – Arua)",
+   "lat": 2.5,
+   "lng": 31.1,
+   "desc": {
+    "tr": "Kuzeybatıdaki bu bölge, genişleyen çiftçi tabanıyla yeni gelişen bir kakao alanı olarak anılır.",
+    "en": "This north-western region is cited as an emerging cocoa area with a growing farmer base."
+   },
+   "grapes": [
+    "Hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Forastero (Amelonado-type)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Bundibugyo ve Batı Uganda'da yaygın olarak anılan, sömürge döneminde tanıtılmış Forastero grubu bulk kakao tipidir.",
+    "en": "A colonial-era Forastero bulk type, widely cited for Bundibugyo and western Uganda."
+   }
+  },
+  {
+   "name": "Upper Amazon / Trinitario-type hybrids",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Yeni dikimlerde tohum bahçelerinden dağıtılan melez fidanlar kullanılır; ulusal araştırma ve yayım programları ücretsiz fidan dağıtmıştır.",
+    "en": "New plantings use hybrid seedlings from seed gardens; national extension programmes have distributed free seedlings."
+   }
+  },
+  {
+   "name": "Rwenzori / Semuliki (Bundibugyo fine-flavour origi",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Rwenzori eteklerinde, merkezi fermantasyon istasyonlarında işlenen organik küçük çiftçi kakaosudur; çekirdekten çubuğa üreticiler tarafından kırmızı meyve ve kiraz notalarıyla tanımlanır.",
+    "en": "Organic smallholder cocoa from the Rwenzori foothills, fermented centrally. Craft makers describe it with red-fruit and cherry notes."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar at origin",
+   "desc": {
+    "tr": "Kampala'daki küçük fabrikalarda, çiftçilerden alınan çekirdekler Uganda'da çikolataya dönüştürülür; koyu çikolatalar çoğunlukla yalnızca kakao ve esmer şekerden yapılır.",
+    "en": "Small Kampala factories turn farmers' beans into chocolate inside Uganda; the dark bars are often made from just cacao and cane sugar."
+   }
+  },
+  {
+   "name": "Village fermentery model",
+   "desc": {
+    "tr": "Çiftçilerin yürüme mesafesindeki toplama noktalarında çekirdekler hasat günü tartılır, nakit ödenir ve merkezi fermantasyon ile kuruma yapılır; bu da kaliteyi ve izlenebilirliği artırır.",
+    "en": "Collection points within walking distance of farms weigh beans on harvest day and pay cash, then ferment and dry them centrally, improving quality and traceability."
+   }
+  },
+  {
+   "name": "Single-origin bars with Ugandan inclusions",
+   "desc": {
+    "tr": "Çikolatalar Rwenzori Arabica kahvesi, vanilya, susam ve yerel süt gibi Uganda'da yetişen malzemelerle aromalandırılır.",
+    "en": "Bars are flavoured with Ugandan ingredients such as Rwenzori Arabica coffee, vanilla, sesame and local milk."
+   }
+  },
+  {
+   "name": "Dark-milk and white chocolate with local dairy",
+   "desc": {
+    "tr": "Yerel süt ve kakao yağı ile yapılan koyu sütlü ve karamelli beyaz çikolata çeşitleri, bonbonlar ve kuvertür de üretilir.",
+    "en": "Makers also produce dark-milk and caramelised white chocolates, bonbons and couvertures using local milk and cocoa butter."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Farmer's perception of development opportunities of cacao ...",
+   "url": "https://agritrop.cirad.fr/608489/13/608489.pdf"
+  },
+  {
+   "title": "(PDF) Farmer's perception of development opportunities of cacao agroforestry in growing cocoa-producing districts of Uganda",
+   "url": "https://www.researchgate.net/publication/378517820_Farmer's_perception_of_development_opportunities_of_cacao_agroforestry_in_growing_cocoa-producing_districts_of_Uganda"
+  },
+  {
+   "title": "A review of some aspects of Uganda's crop agriculture:",
+   "url": "https://www.cabi.org/wp-content/uploads/Working-Paper-26.pdf"
+  },
+  {
+   "title": "Farmers ask government to set up cocoa factory",
+   "url": "https://www.monitor.co.ug/uganda/news/national/farmers-ask-government-to-set-up-cocoa-factory-1778784"
+  },
+  {
+   "title": "Bundibugyo District",
+   "url": "https://en.wikipedia.org/wiki/Bundibugyo_District"
+  },
+  {
+   "title": "Breaking ground with cocoa",
+   "url": "https://www.monitor.co.ug/uganda/magazines/farming/breaking-ground-with-cocoa-4049728"
+  },
+  {
+   "title": "Cocoa producers’ association revamped amidst challenges",
+   "url": "https://www.monitor.co.ug/uganda/magazines/farming/cocoa-producers-association-revamped-amidst-challenges-1618788"
+  },
+  {
+   "title": "Cocoa Farming & Export in Uganda 2026: A Complete Opportunity Guide",
+   "url": "https://basketadvisory.com/blog-cocoa-uganda.html"
+  }
+ ]
+}

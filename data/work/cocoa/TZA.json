@@ -1,0 +1,175 @@
+{
+ "iso3": "TZA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22683,
+  "out": 3667,
+  "searches": 2
+ },
+ "usd": 0.102,
+ "summary": {
+  "tr": "Kakao Tanzanya'ya 1880'lerde getirildi. Tarihsel merkezi Tanga'daki Usambara dağlarıydı. Bugün üretimin büyük kısmı Mbeya bölgesinde, Kyela ve Rungwe havzasında yapılıyor. Yaklaşık 15.000 ton ile küçük bir üreticidir. Üretim, çoğu organik yöntemlerle çalışan küçük çiftliklerden geliyor. Kilombero Vadisi'nde merkezi fermantasyona geçilmesiyle Tanzanya, zanaatkâr çikolata üreticilerinin aradığı kırm",
+  "en": "Cacao reached Tanzania in the 1880s, and the Usambara area of Tanga was its historical heartland. Today most output comes from the Kyela–Rungwe basin in Mbeya Region. At roughly 15,000 tonnes, Tanzania is a small producer, and the crop comes from smallholders who mostly farm organically. Centralised fermentation in the Kilombero Valley turned the country into a sought-after red-fruit origin for cr"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kyela (Mbeya)",
+   "lat": -9.6,
+   "lng": 33.85,
+   "desc": {
+    "tr": "Malawi Gölü kıyısındaki Kyela ilçesi, ulusal kakao üretiminin tahminen yaklaşık %80'ini (bazı kaynaklara göre %90'a kadarını) verir ve KYECU kooperatifi tarafından örgütlenmiştir.",
+    "en": "Kyela District on Lake Malawi supplies an estimated 80% (some sources say up to 90–95%) of national cocoa and is organised through the KYECU cooperative union."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Rungwe (Mbeya)",
+   "lat": -9.25,
+   "lng": 33.65,
+   "desc": {
+    "tr": "Rungwe'nin güney kesimi Kyela ile birlikte Kyela Havzası'nı oluşturur ve kakao burada yoğunlaşır.",
+    "en": "Southern Rungwe District forms the Kyela Basin together with Kyela, and cocoa cultivation is concentrated there."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Kilombero Valley (Morogoro)",
+   "lat": -8.3,
+   "lng": 36.4,
+   "desc": {
+    "tr": "Udzungwa Dağları'nın eteğindeki Kilombero Vadisi (Mlimba, Ifakara), Tanzanya'nın ince aromalı kakao merkezidir.",
+    "en": "The Kilombero Valley (Mlimba, Ifakara), below the Udzungwa Mountains, is Tanzania's fine-flavour cacao heartland."
+   },
+   "grapes": [
+    "Udzungwa Trinitario",
+    "Trinitario (Neo-Nacional etkili)"
+   ]
+  },
+  {
+   "name": "Mvomero (Morogoro)",
+   "lat": -6.3,
+   "lng": 37.45,
+   "desc": {
+    "tr": "Morogoro'nun Mvomero ilçesi, Kilombero'nun yanında bölgenin ikinci kakao alanıdır.",
+    "en": "Mvomero District in Morogoro is the region's second cocoa area alongside Kilombero."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Tanga – Usambara",
+   "lat": -5.0,
+   "lng": 38.6,
+   "desc": {
+    "tr": "Alman sömürge döneminde (19. yüzyıl sonu) ilk kakao dikimlerinin yapıldığı tarihî bölgedir. Bugün hacim olarak önemli değildir.",
+    "en": "The historical cocoa seat, tracing to late-19th-century German colonial plantings, though no longer a major volume producer."
+   },
+   "grapes": [
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Udzungwa Trinitario (Kilombero)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Kilombero'nun yerel Trinitario karışımıdır. Analizlere göre Amelonado × Criollo ile az miktarda Neo-Nacional içerir. Kırmızı meyve, erik ve narenciye notaları verir.",
+    "en": "Kilombero's local Trinitario blend, shown by analysis to be Amelonado × Criollo with a trace of Neo-Nacional. It gives red fruit, plum and citrus notes."
+   }
+  },
+  {
+   "name": "Kyela Trinitario/Forastero",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Mbeya'nın ana çeşidi geleneksel, düşük girdili küçük çiftliklerde yetişir. Hacim üretiminin temelini oluşturur.",
+    "en": "Mbeya's main material grows on traditional low-input smallholdings and forms the bulk of national volume."
+   }
+  },
+  {
+   "name": "Criollo-influenced Trinitario",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Resmî belgeler Tanzanya'da Forastero ve Trinitario'nun yanında Criollo'yu da sayar. Criollo etkisi Trinitario melezleri üzerinden gelir.",
+    "en": "Official fact sheets list Criollo alongside Forastero and Trinitario in Tanzania. Its influence arrives mainly through Trinitario hybrids."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Centralised wet-cacao fermentation",
+   "desc": {
+    "tr": "Çiftçilerden taze kakao meyvesi satın alınıp merkezî tesislerde fermente edilip kurutulur. Bu yöntem eskiden düşük olan kaliteyi ince aromalı düzeye çıkardı.",
+    "en": "Fresh wet cacao is bought from farmers and fermented and dried in central facilities, a method that lifted formerly poor quality to fine-flavour level."
+   }
+  },
+  {
+   "name": "Single-origin craft bars",
+   "desc": {
+    "tr": "Tanzanya çekirdekleri, yurt dışındaki zanaatkâr üreticilerin tek menşe, koyu çikolatalarında kullanılır ve parlak asiditeli kırmızı meyve profiliyle bilinir.",
+    "en": "Tanzanian beans are made into single-origin dark bars by craft makers abroad, known for a bright, acidic red-fruit profile."
+   }
+  },
+  {
+   "name": "Small-scale domestic bean-to-bar",
+   "desc": {
+    "tr": "Dar es Salaam, Mbeya ve Iringa'daki az sayıda küçük atölye kakaoyu yurt içinde çikolataya dönüştürür. İşleme ülkede hâlâ sınırlıdır.",
+    "en": "A handful of small workshops in Dar es Salaam, Mbeya and Iringa turn cocoa into chocolate locally, but domestic processing remains limited."
+   }
+  },
+  {
+   "name": "Cooperative-led local processing",
+   "desc": {
+    "tr": "Kyela çiftçileri, 2025'te kilo başına kesinti ile finanse edilen yerel işleme tesisi girişimini başlattı. Amaç değer katmayı ülke içine çekmektir.",
+    "en": "In 2025 Kyela farmers started a locally financed processing facility funded by a per-kilo levy, aiming to keep more value in the country."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Info@copra.go.tz www.copra.go.tz COCOA VALUE CHAIN FACT SHEET",
+   "url": "https://www.copra.go.tz/uploads/documents/sw-1788451175-COCOA%20FACT%20SHEET.pdf"
+  },
+  {
+   "title": "Kyela District",
+   "url": "https://en.wikipedia.org/wiki/Kyela_District"
+  },
+  {
+   "title": "Tanzania Cocoa Bean: Suppliers & Market Trends",
+   "url": "https://www.tridge.com/tridge-woods/cocoa-bean/TZ"
+  },
+  {
+   "title": "TANZANIA COCOAVALUECHAIN FACT SHEET Cocoa Conversion Rates",
+   "url": "https://elibrary.tadb.co.tz/server/api/core/bitstreams/6ba68f70-7344-4080-bfac-d15d8fcc914c/content"
+  },
+  {
+   "title": "Morogoro Region",
+   "url": "https://en.wikipedia.org/wiki/Morogoro_Region"
+  },
+  {
+   "title": "Supporting Tanzania’s Cocoa Farmers - Research Report 12/3",
+   "url": "https://policycommons.net/artifacts/2007818/supporting-tanzanias-cocoa-farmers/"
+  },
+  {
+   "title": "Tanzania Cacao & Cocoa: Market, Origins & Sourcing Guide",
+   "url": "https://cacao.tz/commodities/tanzania-cacao-cocoa-market-origins-sourcing-guide/"
+  },
+  {
+   "title": "Mbeya Region",
+   "url": "https://en.wikipedia.org/wiki/Mbeya_Region"
+  }
+ ]
+}

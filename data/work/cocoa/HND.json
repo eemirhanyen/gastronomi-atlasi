@@ -1,0 +1,224 @@
+{
+ "iso3": "HND",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 47830,
+  "out": 4637,
+  "searches": 3
+ },
+ "usd": 0.172,
+ "summary": {
+  "tr": "Honduras, Aşağı Ulúa Vadisi'ndeki Puerto Escondido kalıntılarıyla, MÖ 1100–1000 öncesine uzanan, bilinen en eski kakao içeceği kanıtlarına sahiptir. 16. yüzyılda Ulúa Vadisi, Mezoamerika'nın en ünlü kakao bölgelerinden biriydi. Sömürge döneminden sonra üretim gerilemiştir. Bugün yıllık yaklaşık 1.700–2.000 ton kakao, çoğunlukla küçük çiftçilerin agroormancılık sistemlerinde yetiştirilir. FHIA'nın ",
+  "en": "Honduras holds some of the earliest known evidence of cacao drinks, from Puerto Escondido in the lower Ulúa Valley, dating to around 1100–1000 BCE. In the 16th century the Ulúa Valley was one of Mesoamerica's most famous cacao zones. Production declined after the colonial period. Today Honduras produces roughly 1,700–2,000 tonnes a year, mostly from smallholders in agroforestry systems. With suppo"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Cortés (Ulúa Valley, Cuyamel, Omoa, Choloma)",
+   "lat": 15.5,
+   "lng": -88.0,
+   "desc": {
+    "tr": "Antik Ulúa Vadisi'ni ve Cuyamel çevresini kapsayan bu bölge, kakaonun tarihî merkezidir. Yetişkin plantasyonlarda Indio Amelonado Amarillo baskındır.",
+    "en": "This region covers the ancient Ulúa Valley and the Cuyamel area, and is the historic heart of Honduran cacao, with Indio Amelonado Amarillo dominant in mature plantations."
+   },
+   "grapes": [
+    "Indio Amelonado Amarillo (Forastero)",
+    "Trinitario",
+    "FHIA clones"
+   ]
+  },
+  {
+   "name": "Atlántida (La Masica, Jutiapa, Pico Bonito)",
+   "lat": 15.6,
+   "lng": -87.1,
+   "desc": {
+    "tr": "Karayip kıyısındaki sıcak, nemli ve verimli topraklar, kooperatif temelli ince aromalı kakao üretimine elverişlidir.",
+    "en": "Warm, humid, fertile Caribbean-coast land supports cooperative-based fine-flavour cacao production."
+   },
+   "grapes": [
+    "Trinitario",
+    "Amelonado",
+    "FHIA clones"
+   ]
+  },
+  {
+   "name": "Colón",
+   "lat": 15.7,
+   "lng": -86.0,
+   "desc": {
+    "tr": "Karayip kıyısı boyunca uzanan Colón, kakao yetiştirilen dokuz departmandan biridir ve üretimi küçük ölçeklidir.",
+    "en": "Colón lies along the Caribbean coast and is one of the nine cacao-producing departments, with small-scale output."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero types"
+   ]
+  },
+  {
+   "name": "Yoro (Lake Yojoa area)",
+   "lat": 15.1,
+   "lng": -87.3,
+   "desc": {
+    "tr": "Yoro ve Yojoa Gölü çevresindeki dağlık alanlarda küçük çiftçiler, kakaoyu çiftlikte işleyen tree-to-bar üreticilerine kakao sağlar.",
+    "en": "In the hills of Yoro and around Lake Yojoa, smallholders grow cacao, including for tree-to-bar makers who process it on the farm."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo-influenced hybrids"
+   ]
+  },
+  {
+   "name": "Santa Bárbara – Copán",
+   "lat": 14.9,
+   "lng": -88.6,
+   "desc": {
+    "tr": "Batı dağlık kesimindeki bu departmanlarda, genetik çalışmalara konu olan Criollo benzeri kakao ağaçları bulunur.",
+    "en": "These western highland departments hold Criollo-like cacao trees that have been the subject of genetic studies."
+   },
+   "grapes": [
+    "Criollo (heirloom)",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Olancho",
+   "lat": 14.95,
+   "lng": -85.8,
+   "desc": {
+    "tr": "Doğudaki Olancho, agroormancılık sistemlerinde kakaonun yetiştirildiği ve Criollo benzeri ağaçların örneklendiği geniş bir üretim bölgesidir.",
+    "en": "Eastern Olancho is a broad production zone where cacao grows in agroforestry systems and Criollo-like trees have been sampled."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo-influenced types"
+   ]
+  },
+  {
+   "name": "Gracias a Dios (La Mosquitia, Wampusirpi)",
+   "lat": 15.0,
+   "lng": -84.7,
+   "desc": {
+    "tr": "Río Plátano Biyosfer Rezervi yakınındaki yağmur ormanı kakaosu, uluslararası ödül almış ince aromalı bir köken olarak bilinir.",
+    "en": "Rainforest cacao near the Río Plátano Biosphere Reserve is known as an award-winning fine-flavour origin."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero",
+    "Fine-flavour lots"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Criollo (heirloom)",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Beyaz çekirdekli, acılığı az ve aromatik Criollo ağaçları köylerde ve genetik koleksiyonlarda korunur; ancak ticari plantasyon yoktur.",
+    "en": "White-beaned, low-bitterness, aromatic Criollo trees survive on farms and in germplasm collections, but there are no commercial plantations."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Criollo ile Amelonado melezi olan Trinitario, ülkedeki ekili alanın çoğunu kaplar ve ince aromalı kakaonun temelidir.",
+    "en": "A Criollo × Amelonado hybrid, Trinitario covers most of the cultivated area and underpins the fine-flavour cacao."
+   }
+  },
+  {
+   "name": "Indio Amelonado Amarillo (Cuyamel)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Matina tipine benzeyen bu Forastero, eski muz çiftliklerinin yeniden ekilmesiyle yayılmış ve Cortés'te baskın hale gelmiştir.",
+    "en": "This Matina-like Forastero spread by replanting former banana farms and is dominant in Cortés."
+   }
+  },
+  {
+   "name": "Indio Rojo",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı kabuklu, pembe çekirdekli bu melez yerel olarak bilinir ve Criollo genetiği taşımadığı belirtilir.",
+    "en": "A red-podded, pink-seeded hybrid known locally, reported to carry no Criollo ancestry."
+   }
+  },
+  {
+   "name": "FHIA selected clones",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Hondurasça Tarımsal Araştırma Vakfı (FHIA), ince aromalı kalite için seçilmiş ve yaygınlaştırılmış kakao materyalleri geliştirmiştir.",
+    "en": "The Honduran Foundation for Agricultural Research (FHIA) has developed and spread selected cacao material bred for fine-flavour quality."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Ancient Mesoamerican cacao drinks",
+   "desc": {
+    "tr": "Kakao içeceği Ulúa Vadisi'nde en az MÖ 1100'e kadar uzanır; ilk içecekler muhtemelen tohumu saran pulpun fermantasyonuyla yapılan chicha benzeri içeceklerdi.",
+    "en": "Cacao drinks in the Ulúa Valley go back to at least 1100 BCE, and the earliest were probably chicha-like drinks fermented from the pulp around the seeds."
+   }
+  },
+  {
+   "name": "Lenca cacao and chicha traditions",
+   "desc": {
+    "tr": "Honduras'ın en büyük yerli halkı Lenca, kakaoyu ritüellerde ve chicha adlı içecekte kullanma geleneğini sürdürmüştür; tohumlar da ödeme aracı olarak sunulmuştur.",
+    "en": "The Lenca, Honduras's largest indigenous group, have kept cacao in their rituals and in a drink called chicha, and have used the beans as offerings of payment."
+   }
+  },
+  {
+   "name": "Bean-to-bar and tree-to-bar craft chocolate",
+   "desc": {
+    "tr": "Roatán, Yojoa Gölü ve La Mosquitia gibi yerlerde küçük üreticiler, tek köken Honduras kakaosundan çikolata yapar; bazıları meyve ve baharat da ekler.",
+    "en": "Small makers in places such as Roatán and Lake Yojoa craft single-origin chocolate from Honduran cacao, some adding local fruits and spices."
+   }
+  },
+  {
+   "name": "Traditional artisanal hot chocolate",
+   "desc": {
+    "tr": "Köy usulü kakao, taş veya el değirmeniyle öğütülüp kalıplanır ve sıcak içecek olarak hazırlanır; bu, Orta Amerika'nın kakao geleneğinin yaşayan bir devamıdır.",
+    "en": "Village-style cacao is ground by stone or hand mill, moulded into tablets and prepared as a hot drink, carrying on Central America's living cacao tradition."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "(PDF) Genetic Purity of Cacao Criollo from Honduras Is Revealed by SSR Molecular Markers",
+   "url": "https://www.researchgate.net/publication/348781326_Genetic_Purity_of_Cacao_Criollo_from_Honduras_Is_Revealed_by_SSR_Molecular_Markers"
+  },
+  {
+   "title": "Honduras Chocolate",
+   "url": "https://barandcocoa.com/pages/country/honduras"
+  },
+  {
+   "title": "Genetic Purity of Cacao Criollo from Honduras Is Revealed by SSR Molecular Markers",
+   "url": "https://www.mdpi.com/2073-4395/11/2/225"
+  },
+  {
+   "title": "The Story of Cacao in Honduras and Its Cocoa Farms",
+   "url": "https://cocoacircle.com/blogs/world-of-cocoa/cacao-in-honduras"
+  },
+  {
+   "title": "Honduras Coffee: Central America's Underrated Specialty Origin",
+   "url": "https://hiswordcoffee.com/blogs/news/honduras-coffee-guide"
+  },
+  {
+   "title": "What Is Single-Origin Chocolate? A Complete Guide",
+   "url": "https://atucun.com/journal/what-is-single-origin-chocolate-guide"
+  },
+  {
+   "title": "Single Origin Dark Chocolate: The Complete Guide to What's Real (2026)",
+   "url": "https://atucun.com/journal/single-origin-dark-chocolate-guide"
+  },
+  {
+   "title": "The Roatan Chocolate Factory",
+   "url": "https://theroatanchocolatefactory.com/our-story"
+  }
+ ]
+}

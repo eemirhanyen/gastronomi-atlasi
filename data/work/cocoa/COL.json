@@ -1,0 +1,214 @@
+{
+ "iso3": "COL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 32017,
+  "out": 4207,
+  "searches": 3
+ },
+ "usd": 0.1361,
+ "summary": {
+  "tr": "Kolombiya'da kakao kullanımı sömürge öncesi dönemlere uzanır. Cúcuta çevresi ülkenin en eski kakao yetiştirme alanı olarak 1621 tarihli kayıtlarla anılır. Bugün kakao 31 ilde, çoğunlukla küçük üreticilerce ve ormancılıkla birlikte (agroforestry) yetiştirilir. Santander üretimin yaklaşık %40'ını verir. Üretimin büyük bölümü yurt içinde işlenir ve ihracatın ağırlıklı kısmı ICCO'ya göre ince/aromatik",
+  "en": "Cacao use in Colombia reaches back to pre-Columbian times. The Cúcuta area is recorded as the country's oldest cultivated cacao zone, dating to 1621. Today cacao grows in 31 of 32 departments, mostly on smallholdings under agroforestry shade, and Santander supplies about 40% of output. Much of the crop is processed domestically, and exports are largely classed by ICCO as fine-flavour cocoa. Bogotá"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Santander",
+   "lat": 6.9,
+   "lng": -73.4,
+   "desc": {
+    "tr": "Ülke üretiminin yaklaşık %40'ını sağlayan, Magdalena vadisi ile Doğu Kordillerleri arasında uzanan baş kakao bölgesidir.",
+    "en": "The leading cacao region, supplying roughly 40% of national output, spanning the Magdalena valley and the Eastern Cordillera."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo hybrids",
+    "clonal selections"
+   ]
+  },
+  {
+   "name": "Arauca",
+   "lat": 7.0,
+   "lng": -71.4,
+   "desc": {
+    "tr": "Venezuela sınırındaki Orinoco havzası ovalarında yer alan, üretimde ilk üç-beş arasında bulunan kakao bölgesidir.",
+    "en": "A cacao region on the Orinoco basin plains along the Venezuelan border, consistently among the top producing departments."
+   },
+   "grapes": [
+    "Trinitario",
+    "clonal hybrids"
+   ]
+  },
+  {
+   "name": "Antioquia",
+   "lat": 6.9,
+   "lng": -75.2,
+   "desc": {
+    "tr": "Ulusal üretimin yaklaşık onda birini veren ve hızla büyüyen bir kakao bölgesidir.",
+    "en": "A fast-growing department producing close to a tenth of national cacao."
+   },
+   "grapes": [
+    "Trinitario",
+    "clonal hybrids"
+   ]
+  },
+  {
+   "name": "Huila",
+   "lat": 2.6,
+   "lng": -75.6,
+   "desc": {
+    "tr": "Güney And Dağları'nda, Magdalena Nehri vadisinde yer alan, ince aromalı kakaosuyla bilinen bölgedir.",
+    "en": "A southern Andean department along the upper Magdalena valley, producing fine-aroma cacao."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo hybrids"
+   ]
+  },
+  {
+   "name": "Tolima",
+   "lat": 4.2,
+   "lng": -75.2,
+   "desc": {
+    "tr": "Magdalena vadisinin ortasında, üretimde ilk beş arasında yer alan kakao bölgesidir.",
+    "en": "A mid-Magdalena valley department that ranks among the top five producers."
+   },
+   "grapes": [
+    "Trinitario",
+    "clonal hybrids"
+   ]
+  },
+  {
+   "name": "Nariño (Tumaco)",
+   "lat": 1.8,
+   "lng": -78.8,
+   "desc": {
+    "tr": "Pasifik kıyısında, deniz seviyesinden yetiştirilen kakaonun merkezidir.",
+    "en": "The Pacific coast hub where cacao is grown from sea level."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero types",
+    "CCN-51"
+   ]
+  },
+  {
+   "name": "Norte de Santander (Cúcuta)",
+   "lat": 7.9,
+   "lng": -72.5,
+   "desc": {
+    "tr": "1621 tarihli kayıtlarla Kolombiya'nın en eski kakao yetiştirme alanı sayılan tarihî bölgedir.",
+    "en": "The historic zone around Cúcuta, recorded in 1621 as Colombia's oldest area of cultivated cacao."
+   },
+   "grapes": [
+    "Criollo",
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Criollo",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Nadir ve acılığı düşük olan bu aromatik tip, Kolombiya'da az miktarda ve eski ağaçlarda yetiştirilir; ince aromalı kakao ününe katkı verir.",
+    "en": "A rare, low-bitterness aromatic type still grown in small quantities in Colombia, adding to its fine-flavour reputation."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Criollo ile Forastero melezi olan Trinitario, Kolombiya'nın ince aromalı kakao üretiminin ana gövdesini oluşturur.",
+    "en": "The Criollo × Forastero hybrid forms the backbone of Colombia's fine-flavour cacao production."
+   }
+  },
+  {
+   "name": "Amazon Forastero types",
+   "type": "forastero",
+   "native": true,
+   "desc": {
+    "tr": "Amazon kökenli Forastero tipleri, melez ve klon seçilimlerinde verim ve direnç kazandırır.",
+    "en": "Upper Amazon Forastero types contribute yield and resilience to hybrids and clonal selections."
+   }
+  },
+  {
+   "name": "CCN-51",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Ekvador'da geliştirilen yüksek verimli bu klon, Kolombiya'da da yaygın dikilir ancak ince aromalı sınıfta sayılmaz.",
+    "en": "A high-yield clone bred in Ecuador and widely planted in Colombia, though not counted as fine-flavour."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Chocolate santafereño",
+   "desc": {
+    "tr": "Bogotá kökenli bu içecek, tarçın ve karanfille tatlandırılmış sıcak çikolatanın dibine yumuşak peynir konarak sunulur ve peynir fincanda eriyince kaşıkla yenir.",
+    "en": "A Bogotá-born hot chocolate, spiced with cinnamon and clove, with soft cheese dropped in the cup to melt and be eaten with a spoon."
+   }
+  },
+  {
+   "name": "Chocolate completo",
+   "desc": {
+    "tr": "Sıcak çikolatanın tereyağlı ekmek, almojábana veya pan de yuca gibi peynirli hamur işleriyle birlikte sunulduğu kahvaltı ve ikindi geleneğidir.",
+    "en": "Hot chocolate served with buttered bread or cheese breads such as almojábana and pan de yuca, as a breakfast and afternoon tradition."
+   }
+  },
+  {
+   "name": "Chocolate de mesa",
+   "desc": {
+    "tr": "Şekersiz veya hafif şekerli, çoğunlukla tarçınlı sofra çikolatası kalıpları kırılıp chocolatera denilen testide suda veya sütte eritilerek içilir.",
+    "en": "Unsweetened or lightly sweetened tablets, often with cinnamon, broken into a chocolatera pot and melted in water or milk to drink."
+   }
+  },
+  {
+   "name": "Craft bean-to-bar chocolate",
+   "desc": {
+    "tr": "Küçük üreticiler Santander, Huila ve Tumaco gibi bölgelerin kakaosunu tek menşeli çikolatalara dönüştürerek ince aromalı kakao imajını güçlendirir.",
+    "en": "Small makers turn cacao from areas such as Santander, Huila and Tumaco into single-origin bars, building the country's fine-flavour image."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Report Name:The Colombian Cacao Industry",
+   "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=The+Colombian+Cacao+Industry_Bogota_Colombia_CO2022-0011.pdf"
+  },
+  {
+   "title": "Frontiers",
+   "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2022.925800/full"
+  },
+  {
+   "title": "Cocoa Growing Areas in Colombia",
+   "url": "https://www.choc-affair.com/news/cocoa-growing-areas-in-colombia/"
+  },
+  {
+   "title": "Discover Colombian cacao and sustainable tourism around this product - Tourism",
+   "url": "https://colombia.travel/en/blog/discover-colombian-cacao-and-sustainable-tourism-around-this-product"
+  },
+  {
+   "title": "Este es el departamento del país que produce más cacao - Semana",
+   "url": "https://www.semana.com/economia/macroeconomia/articulo/este-es-el-departamento-del-pais-que-produce-mas-cacao/202313/"
+  },
+  {
+   "title": "Santander, Antioquia y Arauca concentran actualmente la producción de cacao en Colombia",
+   "url": "https://www.agronegocios.co/agricultura/santander-antioquia-y-arauca-concentran-actualmente-la-produccion-de-cacao-en-colombia-2979863"
+  },
+  {
+   "title": "Colombia Cocoa GMAP - Overview",
+   "url": "https://gmaptool.org/report/overview/COL/cocoa"
+  },
+  {
+   "title": "Las cacaoteras de Santander: emprendedoras que transforman el grano en chocolate",
+   "url": "https://laopinion.co/empresas/las-cacaoteras-de-santander-emprendedoras-que-transforman-el-grano-en-chocolate"
+  }
+ ]
+}

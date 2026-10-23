@@ -1,0 +1,187 @@
+{
+ "iso3": "NIC",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23899,
+  "out": 4102,
+  "searches": 2
+ },
+ "usd": 0.1088,
+ "summary": {
+  "tr": "Nicaragua'da kakao çok eski zamanlardan beri bulunur. Nicarao ve Chorotega halkları kakaoyu acı ve baharatlı içiyordu. Kahvenin aksine kakao hiçbir zaman büyük bir ihracat ürünü olmadı ve çoğunlukla yerel olarak, mısırla karıştırılan içeceklerde tüketildi. Kakaonun ulusal ekonomi için potansiyeli ancak 1990'lardan sonra fark edildi. O tarihten sonra kooperatifler, STK destekli eğitimler ve organik",
+  "en": "Cacao has been present in Nicaragua since time immemorial, and the Nicarao and Chorotega peoples drank it bitter and spiced. Unlike coffee, it never became a major export crop and was used mostly locally, in drinks stretched with corn. Its potential for the national economy only became apparent after the 1990s. Cooperatives, NGO-backed training and organic/fair-trade certification then expanded pr"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Waslala (North Caribbean Coast)",
+   "lat": 13.33,
+   "lng": -85.38,
+   "desc": {
+    "tr": "Yağmur ormanı kenarındaki küçük çiftçi kooperatifleriyle \"kakao belediyesi\" olarak bilinir ve ülke kakaosunun kabaca yarısını üretir.",
+    "en": "Known as the country's \"cocoa municipality\", it relies on smallholder cooperatives at the edge of the rainforest and produces roughly half of national output."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo-influenced fine-flavour genotype"
+   ]
+  },
+  {
+   "name": "Matagalpa (La Dalia, El Tuma, Matiguás)",
+   "lat": 12.95,
+   "lng": -85.6,
+   "desc": {
+    "tr": "Bulutlu dağ ormanlarındaki bu yüksek bölge, ödüllü fermantasyon ve kurutma teknikleriyle çiçeksi ve toprak notalı kakaolar verir.",
+    "en": "This highland region of cloud forests yields floral, earthy cacao with award-winning fermentation and drying, and includes heirloom-designated cacao from La Dalia."
+   },
+   "grapes": [
+    "Criollo",
+    "Trinitario",
+    "Heirloom cacao"
+   ]
+  },
+  {
+   "name": "Río San Juan (El Castillo, Indio Maíz)",
+   "lat": 11.01,
+   "lng": -84.4,
+   "desc": {
+    "tr": "Güneydeki Indio Maíz yağmur ormanı çevresinde ödüllü kooperatiflerin tarçın notalı karmaşık çekirdekler ürettiği, üretimi artan bir bölgedir.",
+    "en": "In the south, around the Indio Maíz rainforest, award-winning cooperatives produce complex beans with cinnamon notes, and production here is increasing."
+   },
+   "grapes": [
+    "Trinitario",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Nueva Guinea (South Caribbean region)",
+   "lat": 11.68,
+   "lng": -84.45,
+   "desc": {
+    "tr": "Güney Karayip kuşağındaki bu bölge, Nicaragua'nın başlıca kakao üretim alanları arasında sayılır.",
+    "en": "Nueva Guinea, in the south Caribbean zone, is listed among Nicaragua's main cocoa production areas."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Rivas (Pacific lowlands)",
+   "lat": 11.43,
+   "lng": -85.83,
+   "desc": {
+    "tr": "Pasifik ovalarında kakao, Nicarao ve Chorotega halklarının eski kakao geleneğinin sürdüğü yerlerdendir.",
+    "en": "Cacao here belongs to the Pacific lowlands where the Nicarao and Chorotega peoples grew it, and Rivas remains a recognised production department."
+   },
+   "grapes": [
+    "Criollo-type",
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Criollo (old Criollo and Criollo-influenced cacao)",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Ülkede eski Criollo ve Criollo etkili ağaç kalıntıları bulunur; düşük acılıkları ve yumuşak, yuvarlak karakterleriyle değerlidir.",
+    "en": "The country holds pockets of old Criollo and Criollo-influenced trees, valued for low bitterness and a gentle, rounded character."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Üreticilerin en sık belirttiği tiptir; karamel, kuruyemiş ve kırmızı meyve notalı, hafif asiditeli çikolatalar verir.",
+    "en": "Makers list it most often; it gives nutty, caramel and red-fruit notes with mild acidity."
+   }
+  },
+  {
+   "name": "Waslala fine-flavour genotype mixes",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Waslala'daki küçük çiftliklerde yapılan bir araştırmaya göre ağaçların yaklaşık dörtte biri ila üçte biri çiçeksi, tatlı ve meyvemsi mükemmel duyusal nitelikler verir.",
+    "en": "A study of smallholder farms in Waslala found that roughly one in three to four trees gave excellent floral, sweet and fruity cocoa."
+   }
+  },
+  {
+   "name": "Chuno (Lake Managua heirloom)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Tarihî ve aromatik değeri nedeniyle Heirloom Cacao Preservation Initiative tarafından belgelenen yerel bir miras kakaosudur.",
+    "en": "A local heirloom cacao certified by the Heirloom Cacao Preservation Initiative for its historic and flavour value."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Pinolillo",
+   "desc": {
+    "tr": "Kavrulmuş mısır, az miktarda kakao ve tarçın, yenibahar, karanfil gibi baharatlarla yapılan, su veya sütle içilen ve genellikle jícara kabında sunulan ulusal içecektir.",
+    "en": "The national drink, made from toasted corn, a little roasted cacao and spices such as cinnamon, allspice and clove, mixed with water or milk and traditionally served in a jícara gourd."
+   }
+  },
+  {
+   "name": "Tiste",
+   "desc": {
+    "tr": "Pinolillo ile aynı malzemelerden, ancak daha yüksek kakao oranıyla yapılan, kökeni León bölgesine bağlanan serinletici bir içecektir.",
+    "en": "A cooler cousin of pinolillo, made with the same ingredients but a higher proportion of cacao, and associated with the León region."
+   }
+  },
+  {
+   "name": "Tibio",
+   "desc": {
+    "tr": "Daha koyu ve çoğunlukla sütle hazırlanan pinolillo çeşididir; kahvaltıda veya yağmurlu akşamlarda tortilla ve peynirle içilir.",
+    "en": "A thicker pinolillo variety, often made with milk, drunk at breakfast or on rainy evenings with tortillas and cheese."
+   }
+  },
+  {
+   "name": "Craft single-origin bean-to-bar chocolate",
+   "desc": {
+    "tr": "Matagalpa, Waslala ve Río San Juan'ın ince aromalı kakaolarıyla, Matagalpa'da 2005'te kurulan ilk ticari fabrikanın açtığı yolda gelişen zanaatkâr çikolata ve kakao ezmesi üretimidir.",
+    "en": "Craft bars and cacao paste made from fine Matagalpa, Waslala and Río San Juan beans, following the first commercial chocolate factory, founded in Matagalpa in 2005."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cacao Origins & Maker Countries",
+   "url": "https://barandcocoa.com/pages/atlas"
+  },
+  {
+   "title": "Waslala Cacao Region, Nicaragua",
+   "url": "https://barandcocoa.com/pages/region/waslala"
+  },
+  {
+   "title": "Diversity of Cacao Trees in Waslala, Nicaragua: Associations between Genotype Spectra, Product Quality and Yield Potential",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0054079"
+  },
+  {
+   "title": "El Castillo del Cacao",
+   "url": "https://en.wikipedia.org/wiki/El_Castillo_del_Cacao"
+  },
+  {
+   "title": "61 Best Nicaragua Chocolate Bars",
+   "url": "https://chof.nl/origins/nicaragua"
+  },
+  {
+   "title": "Discover Pure Cacao from Nicaragua - Pure Kakaw",
+   "url": "https://purekakaw.com/pages/cacao-from-nicaragua"
+  },
+  {
+   "title": "1 PMCR REPORT\b RESILIENCE SOLUTIONS",
+   "url": "https://publications.iadb.org/publications/english/document/Factsheet-Resilience-Solutions-for-the-Cocoa-Sector-in-Nicaragua.pdf"
+  },
+  {
+   "title": "Matagalpa - Pure Ceremonial Cacao from Nicaragua",
+   "url": "https://purekakaw.com/products/matagalpa-cacao-from-nicaragua"
+  }
+ ]
+}

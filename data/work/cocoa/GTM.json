@@ -1,0 +1,207 @@
+{
+ "iso3": "GTM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23362,
+  "out": 4111,
+  "searches": 2
+ },
+ "usd": 0.1078,
+ "summary": {
+  "tr": "Guatemala, Maya dünyasının kalbinde yer alır. Kakao kalıntıları burada Suchitepéquez'deki Chocolá sit alanında M.Ö. 600 – M.S. 200 arasına tarihlenen kaplarda bulunmuştur. Maya halkı kakaoyu acı, baharatlı bir içecek olarak (xocol ja) törenlerde ve günlük hayatta tüketirdi. İspanyollar süt ve şeker ekledi. Bugün kakao Pasifik kıyısında ve kuzey ovalarında (Alta Verapaz, Izabal) küçük çiftçiler tar",
+  "en": "Guatemala lies at the heart of the Maya world. Cacao residues have been found in vessels dated 600 BCE–200 CE at the Chocolá site in Suchitepéquez. The Maya drank cacao as a bitter, spiced beverage (xocol ja) in rituals and daily life, and the Spanish later added milk and sugar. Today small farmers grow cacao on the Pacific coast and in the northern lowlands (Alta Verapaz, Izabal). Around Antigua "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Suchitepéquez (Pasifik kıyısı / Pacific coast)",
+   "lat": 14.45,
+   "lng": -91.4,
+   "desc": {
+    "tr": "Antik Maya kakao bölgesinin parçası olan bu volkanik Pasifik ovası, 1970-80'lerde ülkenin başlıca üretim bölgesiydi.",
+    "en": "Part of the ancient Maya cacao heartland, this volcanic Pacific lowland was the country's main producing department in the 1970s–80s."
+   },
+   "grapes": [
+    "Criollo",
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Retalhuleu & San Marcos (Pasifik ovası / Pacific lowlands)",
+   "lat": 14.6,
+   "lng": -91.75,
+   "desc": {
+    "tr": "Tak'alik Ab'aj çevresindeki güney bölgesinde kakao geleneksel olarak küçük ölçekli geçim tarımının bir parçasıdır.",
+    "en": "In the southern zone around Tak'alik Ab'aj, cacao is traditionally part of small-scale subsistence farming."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Alta Verapaz – Cahabón & Polochic",
+   "lat": 15.6,
+   "lng": -89.8,
+   "desc": {
+    "tr": "Çoğunlukla Q'eqchi' Maya çiftçilerinin kooperatifler aracılığıyla ortak fermantasyon tesislerinde işlediği, hızla büyüyen kuzey kakao bölgesidir.",
+    "en": "A growing northern cacao zone where mostly Q'eqchi' Maya farmers work through co-operatives with centralized fermentation facilities."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero hibritleri / hybrids"
+   ]
+  },
+  {
+   "name": "Izabal – Río Dulce",
+   "lat": 15.6,
+   "lng": -88.95,
+   "desc": {
+    "tr": "Karayip kıyısına yakın nemli ormanlık Izabal'da kakao küçük aile çiftliklerinde yetiştirilir.",
+    "en": "In humid, forested Izabal near the Caribbean coast, cacao is grown on small family farms."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Franja Transversal del Norte / Quiché",
+   "lat": 15.75,
+   "lng": -90.8,
+   "desc": {
+    "tr": "1980'lerin ortasından itibaren devlet desteğiyle kakao yayılımı bu kuzey şeridinde başlamıştır.",
+    "en": "Government-supported cacao expansion reached this northern strip from the mid-1980s."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Petén",
+   "lat": 16.9,
+   "lng": -89.9,
+   "desc": {
+    "tr": "Tikal ve El Mirador gibi büyük Maya şehirlerinin bulunduğu Petén, kuzey üretim bölgesinde yer alır.",
+    "en": "Petén, home to great Maya cities such as Tikal and El Mirador, is part of the northern producing region."
+   },
+   "grapes": [
+    "Trinitario",
+    "Forastero"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Criollo",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Nadir ve düşük verimli olan Criollo, zanaatkâr üreticilere göre Maya'nın 3.000 yıldan fazla önce evcilleştirdiği ağaçların soyundan gelir.",
+    "en": "Rare and low-yielding, Criollo is said by artisan makers to descend from the trees the Maya domesticated over 3,000 years ago."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Guatemala'da yetişen üç ana tipten biri olan Trinitario, Criollo ve Forastero melezidir.",
+    "en": "One of the three main types grown in Guatemala, Trinitario is a Criollo × Forastero hybrid."
+   }
+  },
+  {
+   "name": "Forastero (Forestero)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Dayanıklı ve verimli Forastero, ülkedeki kakao ağaçlarının büyük bölümünü oluşturan ticari tiptir.",
+    "en": "Hardy and productive, Forastero is the commercial type behind much of the country's cacao."
+   }
+  },
+  {
+   "name": "Cahabón (Alta Verapaz)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Cahabón'daki kooperatiflerin ağaçları çoğunlukla UF-667 ve diğer UF klonlarından oluşur; çekirdekler merkezi tesislerde fermente edilir.",
+    "en": "Cahabón co-operatives grow mostly UF-667 and other UF clones, with beans fermented in centralized facilities."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Maya kakao içeceği / Maya cacao drink (xocol ja)",
+   "desc": {
+    "tr": "Maya'nın öğütülmüş kakaoyu su, acı biber, bal veya mısırla karıştırarak hazırladığı acı içecek, bugün de törenlerde ve bayramlarda içilir.",
+    "en": "The Maya mixed ground cacao with water, chile, honey or maize into a bitter drink, which is still drunk at ceremonies and holidays today."
+   }
+  },
+  {
+   "name": "Metate ile elde yapılan çikolata / Hand-ground metate chocolate",
+   "desc": {
+    "tr": "Antigua'daki zanaatkârlar çekirdekleri kurutur, kavurur, soyar ve geleneksel metate taşında elle öğütür.",
+    "en": "In Antigua, artisans dry, roast, peel and hand-grind the beans on a traditional metate stone."
+   }
+  },
+  {
+   "name": "İspanyol tarzı sütlü-baharatlı sıcak çikolata / Spanish-style spiced hot chocola",
+   "desc": {
+    "tr": "Sömürge döneminde İspanyol etkisiyle çikolata süt ve şekerle, tarçın ve karanfil gibi baharatlarla yumuşatılan bir içecek haline geldi.",
+    "en": "Under Spanish colonial influence, chocolate became a sweeter drink made with milk and sugar, often spiced with cinnamon and cloves."
+   }
+  },
+  {
+   "name": "Seremonyel kakao blokları / Ceremonial cacao blocks",
+   "desc": {
+    "tr": "Atitlán Gölü çevresindeki kolektifler, kakao ezmesini ateşte kavurup elle soyarak saf kakao blokları hazırlar. Bu kakao göl çevresinde yetişmez, alçak bölgelerden getirilir.",
+    "en": "Collectives around Lake Atitlán fire-roast and hand-peel cacao into pure paste blocks. The cacao does not grow at the lake and is brought from the lowlands."
+   }
+  },
+  {
+   "name": "Zanaatkâr bean-to-bar ve çikolata atölyeleri / Artisan bean-to-bar and chocolate",
+   "desc": {
+    "tr": "Antigua'da çok sayıda küçük çikolata dükkânı, kakaolu tatlılar ve bir çikolata müzesi bulunur. Dükkânlarda yüzde 70-80 kakaolu çikolatalar yerel kakaodan yapılır.",
+    "en": "Antigua has many small chocolate shops, cacao-laced desserts and a chocolate museum. Their 70–80% bars are made from local cacao."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Guatemala - Make Mine Fine",
+   "url": "https://www.makeminefine.com/cocoa-sustainability/guatemala/"
+  },
+  {
+   "title": "Cahabón, Guatemala - Dandelion Chocolate",
+   "url": "https://blog.dandelionchocolate.com/our-beans/cahabon/"
+  },
+  {
+   "title": "Cacao Ceremony in Guatemala: What Really Happens",
+   "url": "https://growingupbilingual.com/cacao-ceremony-guatemala/"
+  },
+  {
+   "title": "Q%CA%BCeqchi%CA%BC",
+   "url": "https://en.wikipedia.org/wiki/Q%CA%BCeqchi%CA%BC"
+  },
+  {
+   "title": "Franja Transversal del Norte",
+   "url": "https://en.wikipedia.org/wiki/Franja_Transversal_del_Norte"
+  },
+  {
+   "title": "List of regions of Guatemala by Human Development Index",
+   "url": "https://en.wikipedia.org/wiki/List_of_regions_of_Guatemala_by_Human_Development_Index"
+  },
+  {
+   "title": "Alta Verapaz",
+   "url": "https://en.wikipedia.org/wiki/Alta_Verapaz"
+  },
+  {
+   "title": "From Seed to Cup - Seed Of Love Cacao",
+   "url": "https://seedoflovecacao.com/seed-to-cup/"
+  }
+ ]
+}

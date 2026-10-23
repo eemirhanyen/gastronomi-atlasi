@@ -1,0 +1,205 @@
+{
+ "iso3": "BOL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 21269,
+  "out": 3745,
+  "searches": 2
+ },
+ "usd": 0.1,
+ "summary": {
+  "tr": "Bolivya, kakaonun anavatanı sayılan Amazon havzasının güneybatı ucunda yer alır. Beni ovalarındaki ormanlarda, \"chocolatales\" denen doğal kakao adacıklarında yabani (silvestre) Beniano kakaosu hâlâ yerel topluluklarca toplanır. Alto Beni'de 1960'larda yerleşilmesinden sonra kooperatif temelli organik kakao tarımı gelişti. El Ceibo kooperatifi kendi çikolatasını üretir. Son yirmi yılda ise yabani k",
+  "en": "Bolivia lies at the south-western edge of the Amazon basin, the cradle of cacao. In the Beni lowlands, local communities still gather wild (silvestre) Beniano cacao from natural forest groves called \"chocolatales\". Cooperative-based organic cacao farming grew up in Alto Beni after settlers arrived in the 1960s, and the El Ceibo cooperative makes its own chocolate. Over the last two decades a bouti"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Alto Beni (La Paz – Palos Blancos / Caranavi)",
+   "lat": -15.55,
+   "lng": -67.5,
+   "desc": {
+    "tr": "Yamaçlı topraklarıyla ülkenin ekilen ince aromalı kakaosunun çoğunu sağlayan, El Ceibo kooperatifinin merkezi olduğu bölgedir.",
+    "en": "A hillside region supplying most of the country's farmed fine cacao, and the home of the El Ceibo cooperative."
+   },
+   "grapes": [
+    "Native criollo/nativo",
+    "Trinitario hybrids",
+    "CCN51"
+   ]
+  },
+  {
+   "name": "Baures and Itenez (Beni)",
+   "lat": -13.58,
+   "lng": -63.58,
+   "desc": {
+    "tr": "Brezilya sınırına yakın, su bakımından zengin Amazon ormanlarında yabani Beniano kakaosunun toplandığı uzak bölgedir.",
+    "en": "A remote, water-rich Amazon forest area near the Brazilian border where wild Beniano cacao is foraged."
+   },
+   "grapes": [
+    "Wild Beniano (silvestre)"
+   ]
+  },
+  {
+   "name": "Moxos plains – San Ignacio de Mojos (Beni)",
+   "lat": -14.9,
+   "lng": -65.6,
+   "desc": {
+    "tr": "Beni'nin Moxos ovalarında yabani kakao ormanları yerli çiftçi aileleri için ek gelir kaynağıdır.",
+    "en": "In the Moxos plains of Beni, wild cacao stands are an additional income source for Indigenous farming families."
+   },
+   "grapes": [
+    "Wild Beniano (silvestre)"
+   ]
+  },
+  {
+   "name": "Riberalta – Guayaramerín (northern Beni)",
+   "lat": -11.0,
+   "lng": -66.0,
+   "desc": {
+    "tr": "Kuzey Amazon'da, yabani kakaonun hasat edildiği ve pazarlandığı belediyeler arasında yer alır.",
+    "en": "Municipalities in the northern Amazon where wild cacao is harvested and traded."
+   },
+   "grapes": [
+    "Wild Beniano (silvestre)"
+   ]
+  },
+  {
+   "name": "TIPNIS / Isiboro-Sécure lowlands",
+   "lat": -15.6,
+   "lng": -65.8,
+   "desc": {
+    "tr": "Yerli toplulukların yabani kakaoyu elle toplayıp fermente ettiği Amazon ormanı bölgesidir.",
+    "en": "An Amazonian forest territory where Indigenous communities hand-pick and ferment wild cacao."
+   },
+   "grapes": [
+    "Wild cacao"
+   ]
+  },
+  {
+   "name": "Chapare (Cochabamba)",
+   "lat": -16.9,
+   "lng": -65.4,
+   "desc": {
+    "tr": "Alüvyal topraklı alçak bölgede Trinitario ve melez kakaolar yetiştirilir.",
+    "en": "A low-lying alluvial zone where Trinitario and hybrid cacaos are grown."
+   },
+   "grapes": [
+    "Trinitario hybrids",
+    "CCN51"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Beniano / Cacao silvestre (Nacional de Bolivia)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Beni ormanlarında doğal yetişen, küçük taneli, kuruyemişsi, meyvemsi ve çiçeksi aromalı yabani kakaodur; genetik saflığıyla bilinir.",
+    "en": "A wild cacao of the Beni forests with small beans and nutty, fruity, floral notes, noted for its genetic purity."
+   }
+  },
+  {
+   "name": "Alto Beni native criollo (nativo)",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Alto Beni'nin yerli kakaosudur; fermantasyonu melezlerden kısa sürer ve çiçeksi, kuruyemişsi notalar verir.",
+    "en": "The original cacao of Alto Beni, fermented more briefly than hybrids, with floral and nutty notes."
+   }
+  },
+  {
+   "name": "Alto Beni heirloom (HCP)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Alto Beni ve Beni'deki bazı kakao popülasyonları, Heirloom Cacao Preservation tarafından miras kakao olarak tescil edilmiştir.",
+    "en": "Certain Alto Beni and Beni cacao populations have been designated heirloom cacao by the Heirloom Cacao Preservation fund."
+   }
+  },
+  {
+   "name": "Trinitario hybrids",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "1960'larda verim için Alto Beni'ye getirilen ve Chapare'de de ekilen melez kakaolardır.",
+    "en": "Hybrids brought to Alto Beni in the 1960s for higher yields and also planted in Chapare."
+   }
+  },
+  {
+   "name": "CCN51",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "2005–2010 arasında Alto Beni ve Chapare'de tanıtılan yüksek verimli bir klondur.",
+    "en": "A high-yielding clone introduced in Alto Beni and Chapare between 2005 and 2010."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Wild-cacao bean-to-bar chocolate",
+   "desc": {
+    "tr": "Beni ve TIPNIS'ten toplanan yabani kakaoyla, küçük partilerde kavurma, taş değirmende öğütme ve temperleme yapılan butik çikolatalardır.",
+    "en": "Craft bars made from wild cacao foraged in Beni and TIPNIS, using small-batch roasting, stone grinding and tempering."
+   }
+  },
+  {
+   "name": "Cooperative organic and fair-trade chocolate (El Ceibo)",
+   "desc": {
+    "tr": "Alto Beni küçük üreticilerinin organik kakaosundan El Alto'da bitter ve sütlü çikolata, kakao yağı ve kakao tozu üretilir.",
+    "en": "Smallholder organic cacao from Alto Beni is turned into dark and milk chocolate, cocoa butter and powder in El Alto."
+   }
+  },
+  {
+   "name": "Chocolate with Andean and Amazonian flavourings",
+   "desc": {
+    "tr": "Bazı üreticiler çikolatayı locoto biberi ve limon otu gibi yerel malzemelerle harmanlar.",
+    "en": "Some makers pair chocolate with local ingredients such as locoto chili and lemongrass."
+   }
+  },
+  {
+   "name": "Hot chocolate (chocolate caliente)",
+   "desc": {
+    "tr": "Sıcak çikolata, Bolivya'da soğuk Andean günlerinde ve bayram dönemlerinde yaygın olarak içilen bir içecektir.",
+    "en": "Hot chocolate is a common drink in Bolivia, enjoyed on cold Andean days and at festive times."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "(PDF) Modernizando la cadena del cacao en Alto Beni, Bolivia",
+   "url": "https://www.researchgate.net/publication/324227199_Modernizando_la_cadena_del_cacao_en_Alto_Beni_Bolivia"
+  },
+  {
+   "title": "Elceibo Bolivia 90% craft chocolate — Coco Caravan",
+   "url": "https://www.cococaravan.co.uk/chocolate-shop/elceibobolivia"
+  },
+  {
+   "title": "Labooko Bolivia 90% Single Origin Dark Chocolate",
+   "url": "https://barandcocoa.com/products/labooko-90-bolivia"
+  },
+  {
+   "title": "Beni se la juega por su cacao, uno de los mejores del mundo.",
+   "url": "https://cipca.org.bo/analisis-y-opinion/reportajes/beni-se-la-juega-por-su-cacao-uno-de-los-mejores-del-mundo"
+  },
+  {
+   "title": "Alto Beni Municipality",
+   "url": "https://en.wikipedia.org/wiki/Alto_Beni_Municipality"
+  },
+  {
+   "title": "ALTO BENI Bolivia 72% - Chocolate Moro",
+   "url": "https://chocolatemoro.es/producto/alto-beni/"
+  },
+  {
+   "title": "CENTRAL DE COOPERATIVAS “EL CEIBO” LTDA.",
+   "url": "https://www.comerciojustobolivia.org.bo/organizaciones/el-ceibo/"
+  },
+  {
+   "title": "Bolivian Cacao and Craft Chocolate: A Tasting Journey from Beni to La Paz",
+   "url": "https://www.myboliviastay.com/bolivian-cacao-and-craft-chocolate-a-tasting-journey-from-beni-to-la-paz"
+  }
+ ]
+}

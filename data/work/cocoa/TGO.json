@@ -1,0 +1,187 @@
+{
+ "iso3": "TGO",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24166,
+  "out": 3158,
+  "searches": 2
+ },
+ "usd": 0.0999,
+ "summary": {
+  "tr": "Togo küçük bir Batı Afrika kakao üreticisidir. Kakao, ülkenin güneybatısındaki yüksek ve nemli Plateaux bölgesinde, çoğunlukla bir hektarın altındaki küçük aile çiftliklerinde, kahveyle birlikte ve çoğu zaman gölge ağaçları altında yetiştirilir. Ülkenin ilk çikolata üreticisi olan Choco Togo 2014'te kuruldu. Bugün Kpalimé merkezli kooperatifler ve aile işletmeleri yerel çekirdeklerden çekirdekten ",
+  "en": "Togo is a small West African cacao producer. Cacao is grown mainly in the highland, humid Plateaux region of the southwest, on smallholder family farms that are often under one hectare, alongside coffee and frequently under shade trees. Choco Togo, the country's first chocolate maker, was founded in 2014. Today cooperatives and family firms around Kpalimé make bean-to-bar chocolate from local bean"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kloto / Kpalimé",
+   "lat": 6.9,
+   "lng": 0.63,
+   "desc": {
+    "tr": "Kpalimé, Plateaux bölgesinin kakao ve kahve ticaret merkezidir. Çevresindeki tepelerde küçük çiftçiler ve kooperatifler çalışır, çikolata üretimi de burada yapılır.",
+    "en": "Kpalimé is the cacao and coffee trading hub of the Plateaux region. Smallholders and cooperatives farm the surrounding hills, and chocolate is also made here."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Agou",
+   "lat": 6.85,
+   "lng": 0.85,
+   "desc": {
+    "tr": "Togo'nun en yüksek noktası olan Agou Dağı'nın yamaçlarında kakao, ağaçlı agroormancılık sistemleri içinde yetiştirilir.",
+    "en": "On the slopes of Mount Agou, Togo's highest point, cacao is grown within agroforestry systems."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Organic cooperative cacao"
+   ]
+  },
+  {
+   "name": "Danyi",
+   "lat": 7.25,
+   "lng": 0.77,
+   "desc": {
+    "tr": "Danyi platosunun yüksek rakımlı yamaçlarında küçük aile işletmeleri kakao ve kahve yetiştirir.",
+    "en": "Smallholder families grow cacao and coffee on the high-altitude slopes of the Danyi plateau."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Wawa / Badou",
+   "lat": 7.58,
+   "lng": 0.6,
+   "desc": {
+    "tr": "Gana sınırına yakın Badou çevresi, ekonomisi kakao ve kahve tarımına dayanan önemli bir üretim bölgesidir.",
+    "en": "The area around Badou, near the Ghana border, is a major producing zone whose economy rests on cacao and coffee farming."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Amou / Akébou",
+   "lat": 7.6,
+   "lng": 0.85,
+   "desc": {
+    "tr": "Plateaux'nun dağlık güneybatısındaki Amou ve Akébou'da kakao ve kahve plantasyonları kalan ormanlarla iç içedir.",
+    "en": "In Amou and Akébou, in the mountainous southwest of Plateaux, cacao and coffee plantations sit alongside surviving forest."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Centrale (Blitta)",
+   "lat": 8.32,
+   "lng": 0.98,
+   "desc": {
+    "tr": "Plateaux'nun hemen kuzeyindeki Centrale bölgesi, ülke kakaosunun küçük bir bölümünü sağlar.",
+    "en": "The Centrale region, just north of Plateaux, supplies a small share of the country's cacao."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Forastero (Amelonado-type and improved hybrids)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Togo kakaosunun büyük bölümü Forastero tabanlı melezlerdir. Bu melezler tam gövdeli, çikolatamsı ve tatlı bir profil verir.",
+    "en": "Most Togolese cacao is Forastero-based hybrid material, giving a full-bodied, chocolatey and sweet profile."
+   }
+  },
+  {
+   "name": "Trinitario hybrids",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Yüksek rakımlı Kloto ve Danyi bölgelerinde Forastero ile birlikte Trinitario melezleri de yetişir.",
+    "en": "Trinitario hybrids grow alongside Forastero in the higher-altitude Kloto and Danyi areas."
+   }
+  },
+  {
+   "name": "Kpalimé / Plateaux fine-flavour cacao",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Kpalimé ve Plateaux çekirdekleri, zanaatkâr üreticilerin aradığı meyvemsi, kırmızı yemiş ve vişne notaları ile bilinir.",
+    "en": "Kpalimé and Plateaux beans are known for fruity red-berry and cherry notes, which craft makers look for."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar cooperative chocolate",
+   "desc": {
+    "tr": "Choco Togo gibi kooperatifler yerel çekirdekleri elle işleyip katkısız çikolataya dönüştürür ve çoğunu uygun fiyatla yerel pazarda satar.",
+    "en": "Cooperatives such as Choco Togo hand-process local beans into additive-free chocolate and sell most of it locally at affordable prices."
+   }
+  },
+  {
+   "name": "Heat-resistant chocolate bars",
+   "desc": {
+    "tr": "Choco Togo'nun çubukları, sıcak iklime uygun şekilde yaklaşık 35 °C'ye kadar erimeden dayanacak biçimde üretilir.",
+    "en": "Choco Togo's bars are made to suit the hot climate and withstand temperatures of up to about 35 °C."
+   }
+  },
+  {
+   "name": "Spiced and local-ingredient bars",
+   "desc": {
+    "tr": "Çikolata çubuklarına %5 oranında baobab, moringa veya zerdeçal gibi yerel malzemeler eklenir.",
+    "en": "Bars are flavoured with local ingredients such as 5% baobab, moringa or turmeric."
+   }
+  },
+  {
+   "name": "Caramelised cocoa beans",
+   "desc": {
+    "tr": "Karamelize kakao çekirdekleri, kakaonun doğrudan yenen bir atıştırmalık olarak sunulduğu yerel bir üründür.",
+    "en": "Caramelised cocoa beans are a local product that presents cacao as a snack eaten whole."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Missaho%C3%A9",
+   "url": "https://en.wikipedia.org/wiki/Missaho%C3%A9"
+  },
+  {
+   "title": "Why You Should Know About Fine Togolese Cacao - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2018/09/why-you-should-know-about-fine-togolese-cacao/"
+  },
+  {
+   "title": "Badou",
+   "url": "https://en.wikipedia.org/wiki/Badou"
+  },
+  {
+   "title": "Togo: a regenerative project for sustainable coffee and cocoa production",
+   "url": "https://www.reforestaction.com/en/magazine/togo-regenerative-project-sustainable-coffee-and-cocoa-production"
+  },
+  {
+   "title": "Agom%C3%A9-Yoh",
+   "url": "https://en.wikipedia.org/wiki/Agom%C3%A9-Yoh"
+  },
+  {
+   "title": "Kloto Plateau: complete guide",
+   "url": "https://www.togobynomadays.com/guide/region/plateau-kloto"
+  },
+  {
+   "title": "Plateaux Region, Togo",
+   "url": "https://en.wikipedia.org/wiki/Plateaux_Region,_Togo"
+  },
+  {
+   "title": "Chocolat noir Togo 95% - Alter Eco",
+   "url": "https://www.altereco.com/produit/chocolat-noir-togo-95"
+  }
+ ]
+}

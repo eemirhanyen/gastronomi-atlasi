@@ -1,0 +1,185 @@
+{
+ "iso3": "COD",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23283,
+  "out": 4016,
+  "searches": 2
+ },
+ "usd": 0.1067,
+ "summary": {
+  "tr": "Kakao, Kongo'ya 19. yüzyılın sonlarında, Belçika sömürge yönetimi öncesinde ve sırasında getirildi. 1920-30'larda Kongo Nehri boyunca düzenli plantasyonlar kuruldu ve üretim 1960 bağımsızlığına yakın zirve yaptı. Sömürge sahiplerinin ayrılmasından sonra üretim durgunlaştı. 2000'lerden beri sektör, kahve hastalığı nedeniyle alternatif arayan Kuzey Kivu ve Ituri çiftçileriyle doğuda yeniden canlandı",
+  "en": "Cacao reached Congo in the late 19th century, around the time of Belgian colonial rule. Organized plantations were set up along the Congo River in the 1920s–30s, and output peaked shortly before independence in 1960. Production then stagnated after the colonial owners left. Since the 2000s the sector has revived in the east, where North Kivu and Ituri farmers looked for an alternative after coffee"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "North Kivu – Beni / Virunga",
+   "lat": 0.49,
+   "lng": 29.47,
+   "desc": {
+    "tr": "Virunga Milli Parkı yakınındaki Beni çevresi, verimli volkanik toprakları ve kooperatif ağıyla ülkenin ana kakao bölgesidir.",
+    "en": "The Beni area beside Virunga National Park is the country's main cacao zone, with fertile soils and a network of cooperatives."
+   },
+   "grapes": [
+    "Amelonado (Forastero)",
+    "Trinitario-Forastero hybrids",
+    "organic bean-to-bar origin"
+   ]
+  },
+  {
+   "name": "Ituri – Mambasa",
+   "lat": 1.36,
+   "lng": 29.04,
+   "desc": {
+    "tr": "Ituri yağmur ormanı kuşağındaki Mambasa'da kakao ekimi 2008'den beri teşvik ediliyor ve ekim alanları genişlemeye devam ediyor.",
+    "en": "In Mambasa, within the Ituri rainforest belt, cacao planting has been promoted since 2008 and is still expanding."
+   },
+   "grapes": [
+    "Forastero",
+    "Trinitario-Forastero hybrids",
+    "specialty cacao"
+   ]
+  },
+  {
+   "name": "Tshopo – Kisangani / Yangambi",
+   "lat": 0.6,
+   "lng": 25.2,
+   "desc": {
+    "tr": "Kisangani çevresinde kakaonun sömürge dönemine uzanan bir geçmişi var. Bölgede yakın zamanda yeni ekimler hızla artıyor, bu da ormansızlaşma endişesi doğuruyor.",
+    "en": "Cacao around Kisangani dates back to colonial times, and new plantings have grown rapidly in recent years, raising deforestation concerns."
+   },
+   "grapes": [
+    "Forastero",
+    "Amelonado types"
+   ]
+  },
+  {
+   "name": "Mai-Ndombe – Lake Mai-Ndombe",
+   "lat": -2.0,
+   "lng": 18.3,
+   "desc": {
+    "tr": "Mai-Ndombe Gölü kıyıları, batıdaki eski sömürge kakao kuşağının küçük çiftçi üretim alanlarından biridir.",
+    "en": "The shores of Lake Mai-Ndombe are part of the old western colonial cacao belt, now worked by smallholders."
+   },
+   "grapes": [
+    "Forastero",
+    "Amelonado types"
+   ]
+  },
+  {
+   "name": "Équateur – Mbandaka / Bikoro",
+   "lat": 0.05,
+   "lng": 18.26,
+   "desc": {
+    "tr": "Mbandaka ve Bikoro çevresi, Kongo Nehri boyunca kurulan eski plantasyon kuşağının bir parçasıdır.",
+    "en": "The Mbandaka and Bikoro area belongs to the older plantation belt established along the Congo River."
+   },
+   "grapes": [
+    "Forastero",
+    "Amelonado types"
+   ]
+  },
+  {
+   "name": "Kongo Central – Tshela",
+   "lat": -4.99,
+   "lng": 12.93,
+   "desc": {
+    "tr": "Atlantik'e yakın batıdaki Tshela çevresinde, doğudaki yükselişten önce de kakao yetiştirilen eski bir bölge bulunuyor.",
+    "en": "Around Tshela in the far west near the Atlantic is an older cacao area that predates the eastern boom."
+   },
+   "grapes": [
+    "Forastero",
+    "Amelonado types"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Amelonado (Virunga / North Kivu)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Yüksek Amazon kökenli Amelonado, Virunga çevresinde ağırlıklı çeşittir. Koyu, topraksı, siyah çay ve vişne notaları verir.",
+    "en": "Amelonado, of upper-Amazon origin, is the dominant type around Virunga. It gives dark, earthy notes of black tea and cherry."
+   }
+  },
+  {
+   "name": "Trinitario-Forastero hybrids (Ituri)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Ituri'de bazı üreticiler kakaoyu Trinitario-Forastero melezi olarak tanımlar. Bu kakaolar özel ve ayrıştırılmış partilerde değerlendirilir.",
+    "en": "Some makers describe Ituri cacao as Trinitario-Forastero hybrid. It is sold as specialty, segregated lots."
+   }
+  },
+  {
+   "name": "Forastero (Congo Basin trade cacao)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Batıdaki eski plantasyonlarda ve yeni ekimlerde yaygın olan, ülkeye sömürge döneminde getirilmiş Forastero türleri ihracatın büyük bölümünü oluşturur.",
+    "en": "Forastero types brought in during the colonial era dominate old western plantations and new plantings, and make up most export volume."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Single-origin Virunga bean-to-bar",
+   "desc": {
+    "tr": "Virunga çevresindeki organik sertifikalı kooperatiflerin kakaosu, Avrupalı craft üreticilerin tek menşeli koyu çikolatalarında kullanılır. Bu çikolatalar topraksı, çay ve koyu meyve notalarıyla bilinir.",
+    "en": "Organic-certified cooperative cacao from around Virunga goes into single-origin dark bars by European craft makers. These bars are known for earthy, tea and dark-fruit notes."
+   }
+  },
+  {
+   "name": "Local value-added chocolate making (Mutwanga)",
+   "desc": {
+    "tr": "Kuzey Kivu'daki Mutwanga fabrikası, kakaoyu ham çekirdek olarak ihraç etmek yerine yerinde çikolataya dönüştüren ilk ticari tesis olarak anılıyor.",
+    "en": "The Mutwanga factory in North Kivu is described as the first commercial plant to turn cacao into chocolate locally instead of exporting raw beans."
+   }
+  },
+  {
+   "name": "Gorilla-shaped park chocolates",
+   "desc": {
+    "tr": "Virunga yakınlarında yetişen kakaodan yerel çikolatacıların yaptığı goril figürlü çikolatalar, koruma ve topluluk geliri temasını taşır.",
+    "en": "Local chocolatiers have made gorilla-shaped chocolates from cacao grown near the park, linking conservation with community income."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "THE COCOA AND COFFEE OPPORTUNITY IN THE DEMOCRATIC REPUBLIC OF THE CONGO",
+   "url": "https://thecocoapost.com/wp-content/uploads/2021/06/DRC-Cocoa-and-Coffee-Opportunities.pdf"
+  },
+  {
+   "title": "Trajectories of Cocoa Production in Tshopo Province:",
+   "url": "https://www.cifor-icraf.org/publications/pdf_files/Books/CSonwa2301.pdf"
+  },
+  {
+   "title": "(PDF) Cocoa: Driver of deforestation in the Democratic Republic of the Congo?",
+   "url": "https://www.researchgate.net/publication/338548724_Cocoa_Driver_of_deforestation_in_the_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "Cocoa production in the Democratic Republic of the Congo",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_production_in_the_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "Cocoa in the Congo: Emerging origin for organic chocolate makers",
+   "url": "https://www.confectionerynews.com/Article/2017/07/20/Cocoa-in-the-Congo-Emerging-origin-for-organic-chocolate-makers/"
+  },
+  {
+   "title": "DRC’s cacao boom leaves a bitter aftertaste for Congo Basin forest",
+   "url": "https://news.mongabay.com/2022/02/drcs-cacao-boom-leaves-a-bitter-aftertaste-for-congo-basin-forest/"
+  },
+  {
+   "title": "Coffee production in Democratic Republic of the Congo",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "Assessing the Growth Potential of Eastern Congo’s Coffee and Cocoa Sectors",
+   "url": "https://www.csis.org/analysis/assessing-growth-potential-eastern-congos-coffee-and-cocoa-sectors"
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "iso3": "MEX",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23644,
+  "out": 3750,
+  "searches": 2
+ },
+ "usd": 0.1048,
+ "summary": {
+  "tr": "Meksika, kakaonun anavatanı sayılan Mezoamerika'nın merkezidir. Soconusco'daki Mokaya ve Olmek toplumlarından Aztek ve Maya'ya kadar kakao; içecek, ritüel malzemesi ve para olarak kullanıldı. İspanyol fethinden sonra şeker ve tarçın eklenince bugünkü tablet sofra çikolatası, köpüklü sıcak çikolata ve mole gibi melez gelenekler ortaya çıktı. Bugün üretimin yaklaşık %99'u Tabasco ve Chiapas'tan geli",
+  "en": "Mexico lies at the heart of Mesoamerica, the cradle of cacao. From the Mokaya and Olmec of the Soconusco to the Maya and Aztecs, cacao served as a drink, a ritual substance and currency. After the Spanish conquest, sugar and cinnamon were added, producing today's hybrid traditions of tablet table chocolate, frothy hot chocolate and mole. About 99% of current output comes from Tabasco and Chiapas. "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "La Chontalpa (Tabasco)",
+   "lat": 18.0,
+   "lng": -93.4,
+   "desc": {
+    "tr": "Cárdenas ve Cunduacán çevresindeki bu tarihî ova, Meksika kakao üretiminin büyük bölümünü sağlayan Tabasco'nun kalbidir; kakao yağmur suyuyla ve ağaçlarla karışık agroormancılık sistemlerinde yetişir.",
+    "en": "This historic lowland around Cárdenas and Cunduacán is the heart of Tabasco, which supplies most of Mexico's cacao, grown in rain-fed agroforestry systems mixed with other trees."
+   },
+   "grapes": [
+    "Forastero",
+    "Trinitario/hibrit",
+    "Criollo"
+   ]
+  },
+  {
+   "name": "Teapa ve Tabasco Sierra'sı",
+   "lat": 17.55,
+   "lng": -92.95,
+   "desc": {
+    "tr": "Tabasco'nun güneyindeki yamaçlı Teapa bölgesi, Chiapas sınırına yakın daha küçük ve çeşitli plantasyonlara ev sahipliği yapar.",
+    "en": "The hilly Teapa area in southern Tabasco, near the Chiapas border, hosts smaller and more varied plantations."
+   },
+   "grapes": [
+    "Trinitario/hibrit",
+    "Forastero"
+   ]
+  },
+  {
+   "name": "Soconusco (Chiapas)",
+   "lat": 15.0,
+   "lng": -92.3,
+   "desc": {
+    "tr": "Guatemala sınırındaki Pasifik kıyı şeridi, yaklaşık 4.000 yıllık kakao geçmişiyle bilinir ve nadir Criollo ağırlıklı genetik karışımlarıyla ünlüdür.",
+    "en": "This Pacific coastal strip on the Guatemalan border has about 4,000 years of cacao history and is known for rare, Criollo-influenced genetic mixes."
+   },
+   "grapes": [
+    "Criollo",
+    "Trinitario/hibrit"
+   ]
+  },
+  {
+   "name": "Pichucalco ve Kuzey Chiapas",
+   "lat": 17.5,
+   "lng": -93.1,
+   "desc": {
+    "tr": "Chiapas'ın kuzeyindeki Pichucalco çevresi, Tabasco sınırına yakın nemli ovalarda kakao yetiştirir ve ülkenin ikinci büyük üretim alanının bir parçasıdır.",
+    "en": "The Pichucalco area of northern Chiapas grows cacao in humid lowlands near the Tabasco border and is part of the country's second-largest producing area."
+   },
+   "grapes": [
+    "Forastero",
+    "Trinitario/hibrit"
+   ]
+  },
+  {
+   "name": "Oaxaca (Tuxtepec ve kıyı vadileri)",
+   "lat": 18.1,
+   "lng": -96.1,
+   "desc": {
+    "tr": "Oaxaca ve Guerrero'daki küçük ölçekli üretim ulusal toplamın yalnızca yaklaşık %1'ini oluşturur, ancak bölgenin çikolata kültürü çok güçlüdür.",
+    "en": "Small-scale production in Oaxaca and Guerrero makes up only about 1% of the national total, but the region's chocolate culture is very strong."
+   },
+   "grapes": [
+    "Criollo",
+    "Yerel melezler"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Soconusco Criollo",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Chiapas Soconusco'da yetişen nadir, aromatik ve geleneksel yöntemlerle fermente edilen Criollo kakaosu.",
+    "en": "A rare, aromatic Criollo grown in Chiapas's Soconusco and traditionally fermented."
+   }
+  },
+  {
+   "name": "Criollo (Almendra Blanca / beyaz çekirdekli tipler",
+   "type": "criollo",
+   "native": true,
+   "desc": {
+    "tr": "Chiapas ve Tabasco'da yerel olarak korunan, beyaz çekirdekli Criollo tipleri ince aromalı kakao arayanların ilgisini çekiyor.",
+    "en": "White-bean Criollo types kept locally in Chiapas and Tabasco, sought after by fine-flavour buyers."
+   }
+  },
+  {
+   "name": "Tabasco Forastero",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Tabasco'da yaygın olan, daha küçük, yuvarlak ve pürüzsüz kabuklu Forastero meyveleri üretimin büyük bölümünü oluşturur.",
+    "en": "Forastero pods with a smaller, rounder, smooth shape are common in Tabasco and account for much of the volume."
+   }
+  },
+  {
+   "name": "Tabasco/Chiapas Trinitario ve hibritleri",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Criollo ile Forastero'nun çapraz döllenmesiyle ortaya çıkan melez tipler, Tabasco ve Chiapas'ta yaygındır.",
+    "en": "Hybrid types from crossing Criollo and Forastero are widespread in Tabasco and Chiapas."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Chocolate de mesa (sofra çikolatası)",
+   "desc": {
+    "tr": "Kavrulmuş kakao, şeker ve tarçının metate veya değirmende öğütülüp tablet haline getirildiği, sıcak su ya da sütle eritilerek içilen ulusal çikolata.",
+    "en": "Roasted cacao, sugar and cinnamon are ground on a metate or in a mill and pressed into tablets, then dissolved in hot water or milk."
+   }
+  },
+  {
+   "name": "Oaxaca usulü sıcak çikolata",
+   "desc": {
+    "tr": "Genellikle sütle değil suyla hazırlanır, molinillo ile köpürtülür ve pan de yema gibi ekmeklerle servis edilir.",
+    "en": "Often made with water rather than milk, whisked to a foam with a molinillo and served with breads such as pan de yema."
+   }
+  },
+  {
+   "name": "Mole negro ve çikolatalı mole",
+   "desc": {
+    "tr": "Acı biberler, baharatlar ve az miktarda çikolatanın birleştiği, Mezoamerika ile İspanyol mutfaklarının karışımını yansıtan tuzlu soslar.",
+    "en": "Savoury sauces combining chiles, spices and a little chocolate, reflecting the blend of Mesoamerican and Spanish cuisines."
+   }
+  },
+  {
+   "name": "Tejate ve champurrado",
+   "desc": {
+    "tr": "Oaxaca'nın kakao ve çiçekli tejate içeceği ile mısırlı, çikolatalı champurrado, kakaonun ritüel ve festival içeceklerindeki yerini sürdürür.",
+    "en": "Oaxaca's cacao-and-flower tejate and the maize-thickened chocolate champurrado keep cacao in ritual and festive drinks."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Cacao Agrosystems in Tabasco, México",
+   "url": "https://www.intechopen.com/chapters/62737"
+  },
+  {
+   "title": "Mexico: Tabasco and Chiapas - Make Mine Fine",
+   "url": "https://www.makeminefine.com/cocoa-sustainability/mexico-tabasco-and-chiapas/"
+  },
+  {
+   "title": "A Culture of Cacao and Chocolate",
+   "url": "https://revista.drclas.harvard.edu/a-culture-of-cacao-and-chocolate/"
+  },
+  {
+   "title": "Mexican Chocolate: Ancient Traditions and Modern Artistry",
+   "url": "https://snoogle.ai/brief-bio-blogs/f/mexican-chocolate-ancient-traditions-and-modern-artistry"
+  },
+  {
+   "title": "The geography of cacao production in Mexico",
+   "url": "https://geo-mexico.com/?p=5900"
+  },
+  {
+   "title": "Mexican Cacao Beans",
+   "url": "https://www.revivalcacao.com/cacao-beans"
+  },
+  {
+   "title": "Cacao Origins",
+   "url": "https://californiochocolate.com/cacao-origins"
+  },
+  {
+   "title": "Criollo Cacao Beans from Soconusco, Chiapas, Mexico",
+   "url": "https://mexicangrowers.com/criollo-cacao-beans/"
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "iso3": "VUT",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23381,
+  "out": 2345,
+  "searches": 2
+ },
+ "usd": 0.0902,
+ "summary": {
+  "tr": "Kakao, 1870'lerde pamuk fiyatlarının çökmesinin ardından İngiliz ve Fransız yerleşimciler tarafından Vanuatu'ya plantasyon ürünü olarak getirildi. 1930'larda üretim yaklaşık 2.700 tona ulaştı, sonra hindistancevizi kurusu (kopra) ve sığır yetiştiriciliği öne geçti. Bugün kakaonun büyük bölümünü küçük çiftçiler yetiştiriyor ve üretimin yaklaşık %70'i Malekula'dan geliyor. Port Vila'daki küçük ölçek",
+  "en": "Cacao reached Vanuatu in the 1870s, when British and French settlers looked for a plantation crop after cotton prices collapsed. Production peaked at about 2,700 tonnes in the 1930s, then copra and cattle took over. Today smallholders grow most of the cacao, and roughly 70% of it comes from Malekula. A few small bean-to-bar makers in Port Vila produce award-winning single-island chocolate."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Malekula (Malampa)",
+   "lat": -16.25,
+   "lng": 167.55,
+   "desc": {
+    "tr": "Ülke kakao üretiminin yaklaşık %70'ini veren ana bölge; küçük çiftçiler eski amelonado ağaçlarını yetiştiriyor.",
+    "en": "The main producing island, with about 70% of national output, grown by smallholders on old amelonado trees."
+   },
+   "grapes": [
+    "Amelonado",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Espiritu Santo and Malo (Sanma)",
+   "lat": -15.45,
+   "lng": 166.9,
+   "desc": {
+    "tr": "İkincil üretim alanı; ülkenin tek ihracat rıhtımı Santo'daki Luganville'de bulunuyor.",
+    "en": "A secondary producing area; the country's commodity export wharf is at Luganville on Santo."
+   },
+   "grapes": [
+    "Amelonado",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Epi (Shefa)",
+   "lat": -16.75,
+   "lng": 168.2,
+   "desc": {
+    "tr": "Küçük çiftlikler kakaoyu kendileri fermente ediyor; kakao, tek orijinli çikolata için alınıyor.",
+    "en": "Small farms ferment their own cacao, which is sourced for single-origin chocolate."
+   },
+   "grapes": [
+    "Amelonado",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Ambae and Maewo (Penama)",
+   "lat": -15.3,
+   "lng": 167.95,
+   "desc": {
+    "tr": "Penama eyaletinde, kuzey adalarında yer alan küçük ölçekli ikincil üretim alanı.",
+    "en": "A smaller secondary producing area in the northern islands of Penama province."
+   },
+   "grapes": [
+    "Amelonado",
+    "Trinitario"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Amelonado (Malekula heirloom)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "19. yüzyılın sonlarında getirilen, melezleşmeden büyük oranda korunmuş eski bir tür; kakao, fındıksı ve espresso benzeri bir bitişle derin bir çikolata tadı verir.",
+    "en": "An heirloom type introduced in the late 1800s and largely unhybridised; it gives a deep chocolate flavour with nutty, espresso-like notes."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Bazı yapımcılar Vanuatu çubuklarında amelonadonun yanında Trinitario'yu da belirtiyor.",
+    "en": "Some makers list Trinitario alongside Amelonado on Vanuatu bars."
+   }
+  },
+  {
+   "name": "Single-island fine-flavour lots (Malekula, Santo, ",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Her ada farklı bir tat sunar; kiraz, tütün, fındık, karamel, incir ve şeftali benzeri asidite sık geçen notalardır.",
+    "en": "Each island has its own profile; cherry, tobacco, nuts, caramel, fig and peachy acidity recur in tasting notes."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Single-island bean-to-bar dark chocolate",
+   "desc": {
+    "tr": "Port Vila'daki üreticiler Malekula, Santo ve Epi gibi adalardan gelen çekirdekleri ayrı ayrı işleyerek yaklaşık %70 kakaolu, adaya özgü çubuklar yapıyor.",
+    "en": "Port Vila makers process beans from islands such as Malekula, Santo and Epi separately into roughly 70% cacao single-island bars."
+   }
+  },
+  {
+   "name": "Community-linked fair-trade chocolate",
+   "desc": {
+    "tr": "Üreticiler çiftçilerle birlikte plantasyonları yeniliyor, fermantasyon ve kurutmayı iyileştiriyor, kazancı tedarikçilerle paylaşıyor.",
+    "en": "Makers work with growers to rehabilitate plantations and improve fermentation and drying, and share profits with suppliers."
+   }
+  },
+  {
+   "name": "Cocoa nib bars and cocoa husk tea",
+   "desc": {
+    "tr": "Kakao nibli bitter çikolata ve çikolata üretiminin yan ürünü olan kakao çayı, atığı azaltan yenilikçi ürünler olarak ödül aldı.",
+    "en": "Dark chocolate with cocoa nibs and a tea made from a chocolate by-product have won international awards for innovative, low-waste products."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Vanuatu Organic Cocoa Growers Association (VOCGA) : A Case Study of",
+   "url": "https://www.fao.org/4/am013e/am013e00.pdf"
+  },
+  {
+   "title": "National Green Export Review of Vanuatu: Copra-Coconut, Cocoa-Chocolate",
+   "url": "https://unctad.org/system/files/official-document/ditcted2016d1_en.pdf"
+  },
+  {
+   "title": "Harnessing Agricultural Trade for Sustainable Development",
+   "url": "https://unctad.org/system/files/official-document/ditcted2019d1_en.pdf"
+  },
+  {
+   "title": "(PDF) Développement du cacao au Vanuatu: Un bilan contrasté",
+   "url": "https://www.researchgate.net/publication/257616071_Developpement_du_cacao_au_Vanuatu_Un_bilan_contraste"
+  },
+  {
+   "title": "Lotusnotes Trade and Investment Working Paper Series NO. 03/13| NOVEMBER 2013",
+   "url": "https://repository.unescap.org/bitstreams/aee91537-924a-4b10-ba04-84f513c4d8db/download"
+  },
+  {
+   "title": "Future looks bright for cocoa industry",
+   "url": "https://www.dailypost.vu/news/future-looks-bright-for-cocoa-industry/article_47e4cfbd-e1b9-5e8f-8da9-afa837a88132.html"
+  },
+  {
+   "title": "Vanuatu Cocoa Industry Chain and Strategy Vanuatu Government",
+   "url": "https://www.pacificfarmers.com/wp-content/uploads/2014/06/Vanuatu-cocoa-industry-chain-and-strategy.pdf"
+  },
+  {
+   "title": "History - Vanuatu Tourism Office",
+   "url": "https://www.vanuatu.travel/en/about-vanuatu/history"
+  }
+ ]
+}

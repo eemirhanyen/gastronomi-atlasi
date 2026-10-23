@@ -1,0 +1,232 @@
+{
+ "iso3": "IDN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23133,
+  "out": 4904,
+  "searches": 2
+ },
+ "usd": 0.1153,
+ "summary": {
+  "tr": "Kakao, 1560'larda İspanyollar tarafından Filipinler üzerinden Kuzey Sulawesi'deki Minahasa'ya getirildi. Hollanda sömürge döneminde Java'da yaygınlaştı ve 1980'lerden itibaren Sulawesi'de küçük çiftçilerin yürüttüğü büyük bir patlama yaşadı. Endonezya bugün dünyanın en büyük kakao üreticileri arasındadır. Küçük çiftçiler üretimin yaklaşık %97'sini sağlar. Ürün uzun süre toplu (bulk) çekirdek olara",
+  "en": "Cacao reached Indonesia in the 1560s, brought by the Spanish via the Philippines to Minahasa in North Sulawesi. It spread in Java under Dutch colonial rule and boomed on Sulawesi from the 1980s, driven by smallholders. Indonesia is now among the world's largest cocoa producers, and smallholders supply about 97% of output. The crop was long exported as bulk beans. In recent years, bean-to-bar maker"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Central Sulawesi (Sulawesi Tengah)",
+   "lat": -1.4,
+   "lng": 120.8,
+   "desc": {
+    "tr": "Sulawesi'nin kakao patlamasının merkezlerinden biri olan bölge, ülkenin en çok kakao üreten eyaletlerinden biridir.",
+    "en": "A core of the Sulawesi cocoa boom, this is one of Indonesia's highest-producing provinces."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Southeast Sulawesi (Sulawesi Tenggara)",
+   "lat": -4.0,
+   "lng": 122.2,
+   "desc": {
+    "tr": "Küçük çiftçilerin ağırlıkta olduğu, ulusal üretimde ilk sıralarda yer alan bir bölgedir.",
+    "en": "A smallholder-dominated area that ranks near the top of national production."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "South and West Sulawesi (Luwu, Mamuju, Mamasa)",
+   "lat": -3.0,
+   "lng": 119.8,
+   "desc": {
+    "tr": "Güney ve Batı Sulawesi, volkanik topraklarda yetişen kakaosuyla hem toplu ticaret hem de tek menşe çikolata için önemli bir kaynaktır.",
+    "en": "South and West Sulawesi supply both bulk trade and single-origin chocolate, with cacao grown on volcanic soils."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Aceh and North Sumatra",
+   "lat": 3.8,
+   "lng": 97.5,
+   "desc": {
+    "tr": "Sumatra'nın kuzeyi, Forastero ve melez tiplerin yetiştiği, iyi fermente edildiğinde kaliteli çekirdek verebilen bir bölgedir.",
+    "en": "Northern Sumatra grows Forastero and hybrid types and can yield good beans when well fermented."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Lampung and West Sumatra",
+   "lat": -4.5,
+   "lng": 105.2,
+   "desc": {
+    "tr": "Güney ve batı Sumatra, Sulawesi'nin ardından gelen önemli üretim alanları arasındadır.",
+    "en": "Southern and western Sumatra are significant production areas behind Sulawesi."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Java (West and East Java)",
+   "lat": -7.6,
+   "lng": 109.5,
+   "desc": {
+    "tr": "Hollanda döneminin plantasyonlarının bulunduğu Java, Criollo soylu 'asil kakao' (Edelcacao) geleneğiyle tanınır.",
+    "en": "Home to Dutch-era estates, Java is known for its Criollo-descended 'noble cocoa' (Edelcacao) tradition."
+   },
+   "grapes": [
+    "Java Criollo-type",
+    "Trinitario hybrids"
+   ]
+  },
+  {
+   "name": "Bali (Jembrana and Tabanan)",
+   "lat": -8.4,
+   "lng": 114.8,
+   "desc": {
+    "tr": "Bali'nin batısındaki Jembrana ve Tabanan, küçük çiftçi kakaosunun yetiştiği ve bean-to-bar üreticilerinin yoğunlaştığı yerlerdir.",
+    "en": "Jembrana and Tabanan in western Bali are smallholder cacao areas close to a cluster of bean-to-bar makers."
+   },
+   "grapes": [
+    "Bali hybrid cacao"
+   ]
+  },
+  {
+   "name": "Papua and West Papua",
+   "lat": -3.5,
+   "lng": 138.0,
+   "desc": {
+    "tr": "Papua'da yağmur ormanlarında yetişen ve çiçeksi-meyvemsi notalarıyla öne çıkan niş kakao kaynakları bulunur.",
+    "en": "Papua has niche rainforest cacao sources, which small craft makers promote for their fruity profiles."
+   },
+   "grapes": [
+    "Forastero hybrids",
+    "Trinitario hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Sulawesi bulk cacao (Forastero/Trinitario hybrids)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Ülke üretiminin büyük bölümünü oluşturan, kitlesel çikolata endüstrisine giden melez kakaolar; iyi fermente edilmediğinde dumanlı ve topraksı bir karakter verir.",
+    "en": "Hybrid beans make up most national output and feed mass-market chocolate. They taste smoky and earthy when poorly fermented."
+   }
+  },
+  {
+   "name": "Java Criollo-type (Edelcacao)",
+   "type": "criollo",
+   "native": false,
+   "desc": {
+    "tr": "Java'nın eski plantasyonlarında yetişen, hafif fermente edilmiş ve sütlü çikolatalarda değer gören 'asil kakao'dur.",
+    "en": "Java's old estates produced this 'noble cocoa', lightly fermented and prized for lighter milk chocolates."
+   }
+  },
+  {
+   "name": "Bali cacao",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "17. yüzyılda getirilen soydan geldiği ve genetiğinin büyük ölçüde değişmediği söylenen, melez kabul edilen Bali kakaosudur.",
+    "en": "Considered a hybrid, Bali cacao is said to descend from 1600s introductions and to be largely unchanged genetically."
+   }
+  },
+  {
+   "name": "Sumatra hybrids (Aceh, North Sumatra)",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Forastero ve melez tiplerden oluşur; özenli fermantasyonla Sumatra kakaosu iyi bir kalite potansiyeli gösterir.",
+    "en": "These are Forastero and hybrid types, and careful fermentation brings out good quality potential."
+   }
+  },
+  {
+   "name": "Papua rainforest cacao",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Papua'nın yağmur ormanlarında yarı yabani yetişen, kırmızı meyve ve narenciye notalarıyla tanıtılan niş bir kakaodur.",
+    "en": "A niche semi-wild rainforest cacao from Papua, marketed for red-berry and citrus notes."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar craft chocolate",
+   "desc": {
+    "tr": "Özellikle Bali ve Java'da küçük üreticiler çiftçilerle doğrudan çalışıp fermantasyona önem vererek tek menşeli Endonezya çikolatası yapıyor.",
+    "en": "Small makers, especially in Bali and Java, work directly with farmers and stress fermentation to make single-origin Indonesian chocolate."
+   }
+  },
+  {
+   "name": "Cacao agrotourism and farm-to-bar experiences",
+   "desc": {
+    "tr": "Bali'deki bazı fabrika-plantasyonlar ziyaretçilere kakao çiftliği gezileri ve kendi çikolatanı yapma atölyeleri sunuyor.",
+    "en": "Some Bali factory-plantations offer visitors farm tours and make-your-own-chocolate workshops."
+   }
+  },
+  {
+   "name": "Plant-based and dairy-free chocolate",
+   "desc": {
+    "tr": "Bali'deki bazı üreticiler hindistancevizi ve kaju sütü ile kakao yağından süt içermeyen sütlü çikolata alternatifleri geliştiriyor.",
+    "en": "Some Bali makers have developed dairy-free milk-chocolate alternatives from coconut, cashew milk and cocoa butter."
+   }
+  },
+  {
+   "name": "Everyday street-food chocolate (martabak, pisang cokelat, roti bakar)",
+   "desc": {
+    "tr": "Çikolata Endonezya'da çoğunlukla sokak lezzetlerinde yaşar: martabak manis, kızarmış çikolatalı muz ve ekmek üzerinde çikolata granülleri (meses) yaygındır.",
+    "en": "In Indonesia chocolate is often enjoyed as street food, such as martabak manis, fried chocolate banana rolls and chocolate sprinkles (meses) on bread."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Indonesia Cocoa Bean: Suppliers & Market Trends",
+   "url": "https://www.tridge.com/tridge-woods/cocoa-bean/ID"
+  },
+  {
+   "title": "From chocolate to palm oil: The future of Indonesia’s cocoa plantations - PMC",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11607354/"
+  },
+  {
+   "title": "(PDF) Smallholder Cocoa in Indonesia: Why a Cocoa Boom in Sulawesi ?",
+   "url": "https://www.researchgate.net/publication/285599125_Smallholder_Cocoa_in_Indonesia_Why_a_Cocoa_Boom_in_Sulawesi"
+  },
+  {
+   "title": "Indonesian Cocoa and Chocolate: History, Terroirs, and Prospects",
+   "url": "https://www.chocolatsdumonde.ch/en/blogs/news/le-cacao-et-le-chocolat-indonesien-histoire-terroirs-et-perspectives"
+  },
+  {
+   "title": "Indonesia - ChocoStory",
+   "url": "https://www.choco-story.be/Expeditions/Indonesia"
+  },
+  {
+   "title": "Chemical Composition and Sensory Profiles of Fermented Cocoa Beans Obtained from Various Regions of Indonesia",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10024629/"
+  },
+  {
+   "title": "The Roots of Indonesian Cacao",
+   "url": "https://www.krakakoa.com/blogs/facts/the-roots-of-indonesian-cacao"
+  },
+  {
+   "title": "Brief History of Cacao In Indonesia",
+   "url": "https://primochocolab.id/blogs/news/brief-history-of-cacao-in-indonesia"
+  }
+ ]
+}

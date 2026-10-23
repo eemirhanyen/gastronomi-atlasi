@@ -1,0 +1,168 @@
+{
+ "iso3": "SLB",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24545,
+  "out": 3091,
+  "searches": 2
+ },
+ "usd": 0.1,
+ "summary": {
+  "tr": "Solomon Adaları'nda kakao ticari bir ürün olarak 1951'de ortaya çıktı. İngiliz himayesindeki yönetim, Malaita'daki Auki ve Guadalcanal'daki Kukum'da deneme parselleri kurdu. Bugün kakao, ağırlıklı olarak küçük çiftçilerin aile parsellerinde yetiştiriliyor. Üretimin büyük bölümü Guadalcanal, Makira ve Malaita'dan geliyor. Yağışlı iklim yüzünden çekirdekler çoğunlukla odun ateşinde kurutuluyor. Ülke",
+  "en": "Cocoa became a commercial crop in the Solomon Islands in 1951, when the British protectorate set up trial plots at Auki on Malaita and Kukum on Guadalcanal. It is now grown mainly by smallholders on family plots, and most of it comes from Guadalcanal, Makira and Malaita. The wet climate means beans are mostly dried over wood fires. The country has no distinctive domestic chocolate-making tradition"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Guadalcanal",
+   "lat": -9.55,
+   "lng": 160.1,
+   "desc": {
+    "tr": "Ülke üretiminin yaklaşık üçte ikisini veren başlıca bölgedir. Küçük plantasyonlar volkanik topraklı kıyı şeridinde ve Kuzeydoğu, Batı ve Orta Guadalcanal'da yer alır.",
+    "en": "The leading region, with roughly three-fifths of national output (61% in 2021 data). Small plantations sit on volcanic soils along the coast and in north-east, west and central Guadalcanal."
+   },
+   "grapes": [
+    "Amelonado",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Makira (Makira-Ulawa)",
+   "lat": -10.6,
+   "lng": 161.85,
+   "desc": {
+    "tr": "Ülkenin ikinci büyük kakao üreticisi olup üretimin yaklaşık dörtte birini sağlar.",
+    "en": "The second-largest producing province, supplying roughly a quarter of national output (about 23% in 2021 data)."
+   },
+   "grapes": [
+    "Amelonado",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Malaita",
+   "lat": -8.95,
+   "lng": 160.85,
+   "desc": {
+    "tr": "Köylü kakaosunun 1950'lerde başladığı tarihî bölgedir. Auki'de deneme parseli ve fermantasyon tesisi kurulmuştur.",
+    "en": "The historic home of smallholder cocoa. Trial plots and a fermentary were set up at Auki in the 1950s, and Malaita still grows about 14% of the crop."
+   },
+   "grapes": [
+    "Amelonado",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Marovo Lagoon (Western Province)",
+   "lat": -8.6,
+   "lng": 157.9,
+   "desc": {
+    "tr": "Batı Eyaleti'nde bir kakao alanıdır. Çiftçilere kuru çekirdek işleme ve kurutma konusunda destek verilmektedir. Eyaletin üretim payı küçüktür.",
+    "en": "A cocoa area in Western Province where farmers are being trained in bean processing and drying. The province's share of national output is small."
+   },
+   "grapes": [
+    "Mixed Forastero/Trinitario genetics"
+   ]
+  },
+  {
+   "name": "Russell Islands (Central Province)",
+   "lat": -9.08,
+   "lng": 159.18,
+   "desc": {
+    "tr": "Hindistancevizi plantasyonlarının altına dikilen kakao 1970'lerde verim vermeye başlamış, Orta Eyalet'in üretimini artırmıştır. Eyaletin bugünkü payı küçüktür.",
+    "en": "Cocoa planted under coconut plantations began bearing in the 1970s and boosted Central Province output. The province's share today is small."
+   },
+   "grapes": [
+    "Amelonado"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Amelonado",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Ülkede en yaygın tiptir. Forastero kökenlidir ve Pasifik koşullarında ilginç bir aroma profili verir.",
+    "en": "The most common type in the country. It is Forastero-derived and develops an interesting flavour profile under Pacific growing conditions."
+   }
+  },
+  {
+   "name": "Trinitario",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "1970 ve 80'lerdeki yeniden dikim programlarıyla yaygınlaşmıştır. Sık görülen tadım notaları arasında narenciye ve bal bulunur.",
+    "en": "It spread through replanting schemes in the 1970s and 80s. Commonly reported tasting notes include citrus and honey."
+   }
+  },
+  {
+   "name": "Solomon mixed-genetics (Forastero/Trinitario/Criol",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Parsellerin çoğu birçok kuşağın karışık genetiğinden oluşur. Bu, adalara özgü bir aroma çeşitliliği doğurur.",
+    "en": "Most cocoa blocks combine many generations of mixed genetics, which gives the islands a varied flavour character."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Wood-fire-dried cacao",
+   "desc": {
+    "tr": "Yağışlı iklimde güneşte kurutma zor olduğundan çekirdekler barınak altında odun ateşinde kurutulur. İyi yönetilmezse çekirdekler dumanlı bir not kazanabilir.",
+    "en": "Because sun-drying is hard in the wet climate, beans are dried under shelter over wood fires. If this is not carefully managed, the beans can pick up a smoky note."
+   }
+  },
+  {
+   "name": "Smallholder village cocoa processing",
+   "desc": {
+    "tr": "Kakao küçük çiftçiler tarafından aile parsellerinde yetiştirilir. Çekirdekler köyde fermente edilip kurutulur, ardından alıcılar ve ihracatçılar aracılığıyla ihraç edilir. Çiftçiler bu işleme ve kurutma konusunda eğitim alır.",
+    "en": "Smallholders grow cocoa on family plots and ferment and dry the beans in the village. Buyers and exporters then ship them abroad. Farmers receive training in this processing and drying."
+   }
+  },
+  {
+   "name": "Single-origin craft bars from Solomon cacao",
+   "desc": {
+    "tr": "Yeni Zelanda ve Birleşik Krallık'taki butik çikolata üreticileri Solomon kakaosundan menşe adı taşıyan çikolatalar yapar. Bu çikolatalar genellikle narenciye, bal, malt ve kahve notaları taşır.",
+    "en": "Craft makers in New Zealand and the UK make origin-labelled chocolate from Solomon cacao. These bars often show citrus, honey, malt and coffee notes."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Guadalcanal Cacao Region, Solomon Islands",
+   "url": "https://barandcocoa.com/collections/region-guadalcanal"
+  },
+  {
+   "title": "𝗖𝗼𝗰𝗼𝗮 𝗙𝗮𝗿𝗺𝗲𝗿𝘀 𝗨𝗿𝗴𝗲𝗱 𝘁𝗼 𝗣𝗹𝗮𝗻𝘁 𝗠𝗼𝗿𝗲 𝗖𝗼𝗰𝗼𝗮 𝗧𝗿𝗲𝗲𝘀 - Tavuli News (Solomon Islands)",
+   "url": "https://www.tavulinews.com.sb/adra-cocoa-farmers-increase-tree-planting/"
+  },
+  {
+   "title": "Solomon Islands Cacao Commodity in Strengthening Global Value Chain - Modern Diplomacy",
+   "url": "https://moderndiplomacy.eu/2023/12/07/solomon-islands-cacao-commodity-in-strengthening-global-value-chain/"
+  },
+  {
+   "title": "Cocoa Industry - Party - Solomon Islands Encyclopaedia, 1893-1978",
+   "url": "https://www.solomonencyclopaedia.net/biogs/E000070b.htm"
+  },
+  {
+   "title": "Coconut planting material for the Pacific region: Solomon Islands",
+   "url": "http://replantcoconut.blogspot.com/2017/10/solomon-islands.html"
+  },
+  {
+   "title": "CBSI Names Guadalcanal as Key to Unlocking Solomon Islands’ Cocoa and Copra Productions",
+   "url": "https://sundayisles.islesmedia.net/cbsi-names-guadalcanal-as-key-to-unlocking-solomon-islands-cocoa-and-copra-productions/"
+  },
+  {
+   "title": "Provinces of Solomon Islands",
+   "url": "https://en.wikipedia.org/wiki/Provinces_of_Solomon_Islands"
+  },
+  {
+   "title": "17 Best Solomon Islands Chocolate Bars",
+   "url": "https://chof.nl/origins/solomon-islands"
+  }
+ ]
+}

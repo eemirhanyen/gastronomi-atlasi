@@ -1,0 +1,157 @@
+{
+ "iso3": "GIN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 52353,
+  "out": 3263,
+  "searches": 3
+ },
+ "usd": 0.1673,
+ "summary": {
+  "tr": "Gine'de kakao, Fransız sömürge döneminde Nzérékoré ve Macenta gibi güneydoğudaki ormanlık bölgelerde denenen bir ihraç ürünüydü. Ancak uzun süre küçük çaplı kaldı. Üretim, 2000'lerden sonra Fildişi Sahili sınırındaki Lola çevresinde ve Orman Gine'sinde küçük çiftçilerle hızla arttı, kakao büyük ölçüde Hollanda'ya çekirdek olarak ihraç ediliyor. Çikolata kültürü yeni ve çok küçük: yerel işleme 2020",
+  "en": "In Guinea, cacao began as an export crop tried out by the French in the forested south-east, around Nzérékoré and Macenta, but it stayed small-scale for a long time. Output has grown quickly since the 2000s among smallholders in Forested Guinea, especially around Lola on the Ivorian border. Most of it is exported as beans, mainly to the Netherlands. Chocolate culture is very young and small: local"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Lola (N'Zoo, Tounkarata, Guéasso)",
+   "lat": 7.8,
+   "lng": -8.53,
+   "desc": {
+    "tr": "Fildişi Sahili sınırı boyunca uzanan Lola'daki plantasyonlar Gine'nin en dinamik kakao bölgesidir; N'Zoo ana ticaret merkezidir.",
+    "en": "Plantations in Lola prefecture, mostly along the Ivorian border, form Guinea's most dynamic cacao area, with N'Zoo as the main trading hub."
+   },
+   "grapes": [
+    "Ghana-type forastero hybrids",
+    "High-yield hybrids from Côte d'Ivoire"
+   ]
+  },
+  {
+   "name": "Yomou",
+   "lat": 7.57,
+   "lng": -9.26,
+   "desc": {
+    "tr": "Liberya sınırındaki Yomou, kakao ve kahve ticaret sezonunun başlatıldığı güney ilçelerinden biridir.",
+    "en": "Yomou, on the Liberian border, is a southern prefecture where the cocoa and coffee marketing season has been launched."
+   },
+   "grapes": [
+    "Ghana-type forastero hybrids"
+   ]
+  },
+  {
+   "name": "N'Zérékoré",
+   "lat": 7.76,
+   "lng": -8.82,
+   "desc": {
+    "tr": "Orman Gine'sinin bölgesel merkezi olan N'Zérékoré, Fransızların erken dönemde kakao denemeleri yaptığı ormanlık güneydoğu kuşağındadır.",
+    "en": "N'Zérékoré, the regional capital of Forested Guinea, lies in the south-eastern forest belt where the French made early cocoa trials."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Macenta",
+   "lat": 8.55,
+   "lng": -9.47,
+   "desc": {
+    "tr": "Macenta, kahve ve kakaonun birlikte yetiştirildiği, kooperatiflerin örgütlendiği ormanlık bir ilçedir.",
+    "en": "Macenta is a forested prefecture with cooperatives where cacao is grown alongside coffee, and one of the early colonial cocoa areas."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  },
+  {
+   "name": "Guéckédou–Kissidougou",
+   "lat": 8.9,
+   "lng": -10.1,
+   "desc": {
+    "tr": "Sierra Leone sınırına yakın bu kuzeybatı ormanlık kuşakta, kahve-kakao ağaç dikim programlarından yararlanan daha küçük kakao alanları vardır.",
+    "en": "In this north-western forest belt near the Sierra Leone border, smaller cacao areas have been covered by coffee-cocoa planting programmes."
+   },
+   "grapes": [
+    "Forastero hybrids"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Ghana-type forastero hybrids",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Lola'daki çiftçiler, verimi yüksek olduğu için 'Gana tipi' kırmızı kabuklu melezleri yaygın biçimde kullanıyor.",
+    "en": "Lola farmers widely plant 'Ghanaian-type' hybrids, including a prolific red-podded one, for their high yields."
+   }
+  },
+  {
+   "name": "Imported high-yield hybrids from Côte d'Ivoire",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Bazı çiftçiler 'Fransız' ve 'Mercedes' gibi yerel adlarla anılan melezleri kullanıyor; tohum ve bakım ürünleri Fildişi Sahili'nden getiriliyor.",
+    "en": "Some farmers grow lines they call 'French' and 'Mercedes', and they get seed and treatment products from Côte d'Ivoire."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Fermented and dried bulk beans for export",
+   "desc": {
+    "tr": "Gine kakaosunun büyük bölümü çekirdek olarak ihraç edilir; ihracatın yaklaşık %82'si Hollanda'ya gider.",
+    "en": "Most Guinean cacao leaves as beans. About 82% of exports went to the Netherlands in 2024."
+   }
+  },
+  {
+   "name": "Small-batch bean-to-bar tablets and flavoured bars",
+   "desc": {
+    "tr": "Konakri'deki küçük atölyeler yerel çekirdekten süt, kaju ve fıstıklı ya da şekersiz çikolata tabletleri üretiyor.",
+    "en": "Small Conakry workshops make tablets from local beans, including milk, cashew, peanut and sugar-free versions."
+   }
+  },
+  {
+   "name": "Cocoa butter and cocoa powder",
+   "desc": {
+    "tr": "Yerel işleme, çekirdekleri güneşte kurutup ayıklayarak kakao yağı ve tozu üretir; bunlar gıdada ve ciltte kullanılır.",
+    "en": "Local processors sun-dry and sort the beans to make cocoa butter and powder, which are used in food and skin-care products."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "A Deep Dive into Cocoa Sustainable Production and Market ...",
+   "url": "https://cgspace.cgiar.org/bitstreams/a875c65f-7202-42f8-8ed6-62408e2b39d9/download"
+  },
+  {
+   "title": "Guin%C3%A9e foresti%C3%A8re",
+   "url": "https://en.wikipedia.org/wiki/Guin%C3%A9e_foresti%C3%A8re"
+  },
+  {
+   "title": "Grand retour du café et du cacao en Guinée forestière : Les producteurs aux aguets",
+   "url": "https://www.linfodrome.com/economie/108339-grand-retour-du-cafe-et-du-cacao-en-guinee-forestiere-les-producteurs-aux-aguets"
+  },
+  {
+   "title": "Guinea Cocoa Production: 24.22K t (2024)",
+   "url": "https://africa-api.com/data/guinea/cocoa"
+  },
+  {
+   "title": "Cocoa plantations are associated with deforestation in Côte d’Ivoire and Ghana",
+   "url": "https://www.nature.com/articles/s43016-023-00751-8"
+  },
+  {
+   "title": "Cacao Situation - Embassy - Guinea Ecuatorial",
+   "url": "https://embassyofequatorialguinea.guineainfomarket.com/cacao-situation/"
+  },
+  {
+   "title": "Developing a threat risk register based on the IUCN threat hierarchy for five tropical Important Plant Areas in Guinea",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12269778/"
+  },
+  {
+   "title": "Mapping of Ebola virus spillover: Suitability and seasonal variability at the landscape scale",
+   "url": "https://arxiv.org/pdf/2108.10708"
+  }
+ ]
+}

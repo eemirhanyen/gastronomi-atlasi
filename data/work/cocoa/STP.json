@@ -1,0 +1,150 @@
+{
+ "iso3": "STP",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22842,
+  "out": 3585,
+  "searches": 2
+ },
+ "usd": 0.1015,
+ "summary": {
+  "tr": "Kakao 19. yüzyılın başında Portekizliler tarafından Brezilya'dan (Bahia) São Tomé ve Príncipe'ye getirildi. Adalar 1900'lerin başında dünyanın en büyük kakao üreticisi oldu ve 'Çikolata Adaları' lakabını aldı. Bu başarı, köleliğe ve 1875'ten sonra zorla çalıştırılan sözleşmeli işçilere dayanan roça (plantasyon) sistemi üzerine kurulmuştu. 1975'teki bağımsızlıktan sonra roçalar millileştirildi ve ü",
+  "en": "Cacao was brought to São Tomé and Príncipe from Bahia, Brazil, by the Portuguese in the early 19th century. By the early 1900s the islands were the world's largest cocoa producer and were nicknamed the 'Chocolate Islands'. That success rested on the roça (plantation) system, which used slavery and, after 1875, coerced contract labour. After independence in 1975 the roças were nationalised and outp"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Príncipe (Terreiro Velho)",
+   "lat": 1.62,
+   "lng": 7.4,
+   "desc": {
+    "tr": "Príncipe adasında, eski Terreiro Velho roçasında bulunan eski Amelonado ağaçlarının torunlarından kaliteli kakao yetiştirilir.",
+    "en": "On Príncipe island, the former Terreiro Velho roça grows high-quality cocoa from descendants of old Amelonado trees."
+   },
+   "grapes": [
+    "Amelonado (Forastero)"
+   ]
+  },
+  {
+   "name": "Lobata (Diogo Vaz, Monte Forte)",
+   "lat": 0.37,
+   "lng": 6.58,
+   "desc": {
+    "tr": "São Tomé'nin kuzeyindeki bu bölgede Diogo Vaz ve Monte Forte gibi organik sertifikalı roçalar ile kakao turları bulunur.",
+    "en": "In northern São Tomé, organic roças such as Diogo Vaz and Monte Forte grow cocoa and offer plantation tours and tastings."
+   },
+   "grapes": [
+    "Amelonado (Forastero)",
+    "Trinitario"
+   ]
+  },
+  {
+   "name": "Cantagalo (Água Izé)",
+   "lat": 0.18,
+   "lng": 6.72,
+   "desc": {
+    "tr": "Ticari kakao üretiminin 19. yüzyılın ortalarında başladığı Água Izé'nin ve CECAQ-11 kooperatifinin bulunduğu tarihî bölgedir.",
+    "en": "This historic district holds Água Izé, where commercial cocoa began in the mid-19th century, and is home to the CECAQ-11 cooperative."
+   },
+   "grapes": [
+    "Amelonado (Forastero)",
+    "Regional cacao"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Amelonado",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Brezilya'dan getirilen ve adaların tarihî kakaosunu oluşturan Forastero tipidir. Yoğun kakao notaları, belirgin bir acılığı ve hafif bir asiditesi vardır.",
+    "en": "A Forastero type brought from Brazil that formed the islands' historic cocoa. It has intense cocoa notes, a pronounced bitterness and a touch of acidity."
+   }
+  },
+  {
+   "name": "Príncipe heirloom Amelonado",
+   "type": "forastero",
+   "native": false,
+   "desc": {
+    "tr": "Príncipe'de ormanla kaplanmış bir plantasyonda bulunan, Portekizlilerin getirdiği ilk Amelonado ağaçlarının torunlarıdır.",
+    "en": "Descendants of the original Portuguese-introduced Amelonado trees, found on Príncipe in a plantation overgrown by forest."
+   }
+  },
+  {
+   "name": "Trinitario (São Tomé blend)",
+   "type": "trinitario",
+   "native": false,
+   "desc": {
+    "tr": "Yeni organik dikimlerde Amelonado ile birlikte kullanılan Trinitario melezidir. Taze meyve ve fındıksı notalar verir.",
+    "en": "A Trinitario hybrid planted alongside Amelonado in newer organic plantings. It gives fresh-fruit and nutty notes."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Bean-to-bar single-origin chocolate",
+   "desc": {
+    "tr": "Fermantasyon, kavurma ve işleme tek elden yönetilir ve katkısız, çok yüksek kakao oranlı çikolata üretilir. Bu tarz São Tomé'de Príncipe'deki eski çekirdeklerle öne çıkmıştır.",
+    "en": "Fermenting, roasting and processing are controlled by one maker to produce additive-free, very high-cocoa chocolate. In São Tomé this approach is best known for chocolate made from Príncipe's old beans."
+   }
+  },
+  {
+   "name": "Organic tree-to-bar from the roças",
+   "desc": {
+    "tr": "Diogo Vaz gibi yeniden canlandırılan roçalarda organik kakao yetiştirilir ve aynı yerde çikolataya dönüştürülür.",
+    "en": "On revived roças such as Diogo Vaz, organic cocoa is grown and made into chocolate on the same estate."
+   }
+  },
+  {
+   "name": "Cocoa-covered crystallised ginger",
+   "desc": {
+    "tr": "Şekerlenmiş zencefilin yüzde yüz kakao hamuruyla kaplandığı bu imza ürün, zanaatkâr üreticilerin tanınmış bir çikolata konfiseridir.",
+    "en": "Crystallised ginger coated in 100 percent cacao paste, a signature confection from the islands' artisan makers."
+   }
+  },
+  {
+   "name": "Roça heritage tours and chocolate tastings",
+   "desc": {
+    "tr": "Eski plantasyonlarda kurutma meydanları (plaza), fermantasyon ve işleme gezilir. Bu geziler çikolata tadımlarıyla birleşir.",
+    "en": "Visitors tour former plantations to see drying plazas, fermentation and processing, usually combined with chocolate tastings."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "São Tomé and Príncipe - Africa’s forgotten paradise",
+   "url": "https://reamby.substack.com/p/sao-tome-and-principe-africas-forgotten"
+  },
+  {
+   "title": "A world of roças: historic plantations on São Tomé & Príncipe",
+   "url": "https://www.bradtguides.com/a-world-of-rocas-historic-plantations-on-sao-tome-principe/"
+  },
+  {
+   "title": "Local ingredients",
+   "url": "https://turismo.gov.st/en/pourquoi-sao-tome-et-principe/culture-et-patrimoine/local-ingredients"
+  },
+  {
+   "title": "Organic Cocoa Production and Export Cooperative",
+   "url": "https://en.wikipedia.org/wiki/Organic_Cocoa_Production_and_Export_Cooperative"
+  },
+  {
+   "title": "Chocolate and the Ugly Secret of Cacao Production on São Tomé Island",
+   "url": "http://www.focusongeography.org/publications/articles/toma/index.html"
+  },
+  {
+   "title": "The ancient coffee and cocoa plantations - Kanaga Africa Tours",
+   "url": "https://www.kanaga-at.com/en/trip-info/sao-tome-and-principe/the-ancient-coffee-and-cocoa-plantations/"
+  },
+  {
+   "title": "são tomé",
+   "url": "https://silva-cacao.com/articles/sao-tome-the-chocolate-island-with-untapped-potential/"
+  },
+  {
+   "title": "Cocoa production in S%C3%A3o Tom%C3%A9 and Pr%C3%ADncipe",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_production_in_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"
+  }
+ ]
+}
