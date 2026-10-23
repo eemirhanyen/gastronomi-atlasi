@@ -166,7 +166,7 @@ def stage_judge():
             for pid, v in C.extract_json(text).items():
                 if pid in ids and isinstance(v, dict) and v.get("score") is not None:
                     done[ids[pid]] = {"score": max(0, min(100, int(round(float(v["score"]))))),
-                                      "why": {"tr": str(v.get("tr", ""))[:240], "en": str(v.get("en", ""))[:240]}}
+                                      "why": {"tr": C.clip(v.get("tr"), 320), "en": C.clip(v.get("en"), 320)}}
         except Exception as e:
             C.log(f"  judge çözülemedi: {e}")
     C.jsave(JUDGE, done)

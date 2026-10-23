@@ -233,7 +233,7 @@ def stage_credits():
         for p in (d.get("query") or {}).get("pages", []):
             ii = (p.get("imageinfo") or [{}])[0]
             md = ii.get("extmetadata", {})
-            info[p["title"]] = {"credit": C.strip_html(md.get("Artist", {}).get("value"))[:120],
+            info[p["title"]] = {"credit": C.clip(C.strip_html(md.get("Artist", {}).get("value")), 120),
                                 "license": C.strip_html(md.get("LicenseShortName", {}).get("value"))[:40],
                                 "source": ii.get("descriptionurl")}
         time.sleep(0.3)

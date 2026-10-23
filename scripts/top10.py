@@ -37,7 +37,7 @@ def main():
             continue
         seen.add(k.split("_", 1)[0])
         iso, did = k.split("_", 1)
-        items.append({"rank": len(items) + 1, "iso": iso, "id": did, "why": R.L(it.get("why"), 260)})
+        items.append({"rank": len(items) + 1, "iso": iso, "id": did, "why": R.L(it.get("why"), 400)})
     out = {"date": dt.date.today().isoformat(), "model": os.environ.get("TOP_MODEL", "claude-sonnet-5-5"), "usd": round(usd, 4),
            "items": items[:10], "sources": R.sources_list(cited, found, limit=10)}
     C.jsave(os.path.join(C.DATA, "top10.json"), out, pretty=True)

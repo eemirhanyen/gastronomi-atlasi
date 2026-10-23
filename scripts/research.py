@@ -120,7 +120,7 @@ def sources_list(cited, found, used_urls=(), limit=8):
         if not t or u in seen:
             continue
         seen.add(u)
-        out.append({"title": str(t)[:140], "url": u})
+        out.append({"title": C.clip(t, 140), "url": u})
         if len(out) >= limit:
             break
     return out
@@ -159,10 +159,11 @@ def in_country(iso, lat, lng, pad=0.6):
     return min(xs) - 0.5 <= lng <= max(xs) + 0.5 and min(ys) - 0.5 <= lat <= max(ys) + 0.5
 
 
-def L(v, n=400):
+def L(v, n=700):
+    # Cümle ortasından kesmez (bkz. content.clip); sınır yalnızca aşırı uzun yanıtlara karşı güvenlik
     if isinstance(v, dict):
-        return {"tr": str(v.get("tr", ""))[:n], "en": str(v.get("en", ""))[:n]}
-    return {"tr": "", "en": str(v or "")[:n]}
+        return {"tr": C.clip(v.get("tr"), n), "en": C.clip(v.get("en"), n)}
+    return {"tr": "", "en": C.clip(v, n)}
 
 
 # ------------------------------------------------------------------ şarap
@@ -202,13 +203,13 @@ def do_wine(iso):
             except (KeyError, TypeError, ValueError):
                 continue
             (regs if in_country(iso, lat, lng) else dropped).append(
-                {"name": str(r.get("name", ""))[:80], "lat": round(lat, 3), "lng": round(lng, 3), "desc": L(r.get("desc"), 240),
+                {"name": C.clip(r.get("name"), 120, False), "lat": round(lat, 3), "lng": round(lng, 3), "desc": L(r.get("desc"), 400),
                  "grapes": [str(g)[:40] for g in (r.get("grapes") or [])][:6]})
         out["regions"] = regs[:8]
         out["dropped_regions"] = [x["name"] for x in dropped]
-        out["grapes"] = [{"name": str(g.get("name", ""))[:50], "type": g.get("type") if g.get("type") in ("red", "white", "rose", "other") else "other",
-                          "native": bool(g.get("native")), "desc": L(g.get("desc"), 200)} for g in (d.get("grapes") or []) if g.get("name")][:8]
-        out["styles"] = [{"name": str(s.get("name", ""))[:80], "desc": L(s.get("desc"), 240)} for s in (d.get("styles") or []) if s.get("name")][:5]
+        out["grapes"] = [{"name": C.clip(g.get("name"), 90, False), "type": g.get("type") if g.get("type") in ("red", "white", "rose", "other") else "other",
+                          "native": bool(g.get("native")), "desc": L(g.get("desc"), 320)} for g in (d.get("grapes") or []) if g.get("name")][:8]
+        out["styles"] = [{"name": C.clip(s.get("name"), 120, False), "desc": L(s.get("desc"), 400)} for s in (d.get("styles") or []) if s.get("name")][:5]
     out["sources"] = sources_list(cited, found)
     return out
 
@@ -281,13 +282,13 @@ def do_product(kind):
                 except (KeyError, TypeError, ValueError):
                     continue
                 (regs if in_country(iso, lat, lng) else dropped).append(
-                    {"name": str(r.get("name", ""))[:80], "lat": round(lat, 3), "lng": round(lng, 3), "desc": L(r.get("desc"), 240),
+                    {"name": C.clip(r.get("name"), 120, False), "lat": round(lat, 3), "lng": round(lng, 3), "desc": L(r.get("desc"), 400),
                      "grapes": [str(g)[:40] for g in (r.get("items") or [])][:6]})
             out["regions"] = regs[:8]
             out["dropped_regions"] = [x["name"] for x in dropped]
-            out["varieties"] = [{"name": str(g.get("name", ""))[:50], "type": g.get("type") if g.get("type") in types else "other",
-                                 "native": bool(g.get("native")), "desc": L(g.get("desc"), 200)} for g in (d.get("varieties") or []) if g.get("name")][:6]
-            out["styles"] = [{"name": str(x.get("name", ""))[:80], "desc": L(x.get("desc"), 240)} for x in (d.get("styles") or []) if x.get("name")][:5]
+            out["varieties"] = [{"name": C.clip(g.get("name"), 90, False), "type": g.get("type") if g.get("type") in types else "other",
+                                 "native": bool(g.get("native")), "desc": L(g.get("desc"), 320)} for g in (d.get("varieties") or []) if g.get("name")][:6]
+            out["styles"] = [{"name": C.clip(x.get("name"), 120, False), "desc": L(x.get("desc"), 400)} for x in (d.get("styles") or []) if x.get("name")][:5]
         out["sources"] = sources_list(cited, found)
         return out
     return run_one
@@ -311,7 +312,7 @@ def do_restaurants(iso):
         if not r.get("name") or not url or domain(url) not in known:
             dropped.append(str(r.get("name"))[:80])
             continue
-        items.append({"name": str(r["name"])[:80], "city": str(r.get("city", ""))[:60],
+        items.append({"name": C.clip(r["name"], 120, False), "city": C.clip(r.get("city"), 60, False),
                       "kind": r.get("kind") if r.get("kind") in ("traditional", "fine_dining", "casual", "street_food", "market") else "casual",
                       "known_for": L(r.get("known_for"), 240), "price": max(1, min(4, int(r.get("price") or 2))), "url": url})
     return {"iso3": iso, "model": MODELS["restaurants"], "date": dt.date.today().isoformat(), "usage": usage, "usd": round(usd, 4),
