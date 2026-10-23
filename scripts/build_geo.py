@@ -16,6 +16,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "countries.geojson")
 SRC = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
 FIX = {"KOS": "XKX", "SDS": "SSD", "PSX": "PSE"}
+# Tanınmış ülke sınırları içinde gösterilecek bölgeler: kaynak -> ülke (geometri birleştirilir, iç sınır çizilmez)
+MERGE = {"SOL": "SOM"}
 TOL = float(os.environ.get("GEO_TOL", "0.02"))   # derece; ~2 km
 # GEO_HI=1: yakınlaşınca yüklenen tam ayrıntılı sürüm (data/countries_hi.geojson)
 HI = os.environ.get("GEO_HI") == "1"
@@ -87,6 +89,26 @@ def near(b, boxes, pad=0.3):
     return any(b[0] < q[2] + pad and b[2] > q[0] - pad and b[1] < q[3] + pad and b[3] > q[1] - pad for q in boxes)
 
 
+def merge(feats):
+    from shapely.geometry import mapping, shape
+    from shapely.ops import unary_union
+    by = {f["properties"]["iso"]: f for f in feats}
+    for src, dst in MERGE.items():
+        a, b = by.get(src), by.get(dst)
+        if not a or not b:
+            continue
+        u = unary_union([shape(a["geometry"]).buffer(0), shape(b["geometry"]).buffer(0)])
+        u = u.buffer(0.0005).buffer(-0.0005)        # birleşim çizgisindeki kıl payı boşlukları kapat
+        g = mapping(u)
+
+        def rnd(c):
+            return [rnd(x) for x in c] if isinstance(c[0], (list, tuple)) else [round(c[0], DIGITS), round(c[1], DIGITS)]
+        b["geometry"] = {"type": g["type"], "coordinates": rnd(g["coordinates"])}
+        feats.remove(a)
+        print(f"birleştirildi: {src} -> {dst} ({g['type']})")
+    return feats
+
+
 def main():
     if len(sys.argv) > 1:
         g = json.load(open(sys.argv[1], encoding="utf-8"))
@@ -120,6 +142,7 @@ def main():
                       "properties": {"iso": iso, "name": p["NAME"], "lx": round(p["LABEL_X"], 2), "ly": round(p["LABEL_Y"], 2),
                                      "rank": p.get("LABELRANK") or 9, "iso2": None if iso2 in (None, "-99") else iso2},
                       "geometry": {"type": "MultiPolygon", "coordinates": polys} if len(polys) > 1 else {"type": "Polygon", "coordinates": polys[0]}})
+    feats = merge(feats)
     json.dump({"type": "FeatureCollection", "features": feats}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"{len(feats)} ülke/bölge, nokta {n_in} -> {n_out}, dosya {os.path.getsize(OUT) // 1024} KB")
 

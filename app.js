@@ -32,6 +32,7 @@
       rankScore: "En yüksek mutfak puanları", rankWine: "En çok şarap üreten ülkeler", showAll: "Tümü ({n})", showTop: "İlk 10",
       scoreKicker: "Mutfak puanı", worldRank: "Dünya sıralaması", of: "{n} ülke içinde",
       tier1: "Dünya mutfağının zirvesinde", tier2: "Güçlü ve etkili bir mutfak", tier3: "Bölgesinde tanınan bir mutfak", tier4: "Keşfedilmeyi bekleyen bir mutfak",
+      clickInfo: "Ayrıntı için tıkla", openCountry: "Ülke sayfasını aç",
       relTitle: "Akraba yemekler", relSub: "Başka ülkelerde neredeyse aynı yemek", simTitle: "Benzer yemekler", relMap: "Haritada gör",
       relNote: "Benzerlik oranı yapay zekânın malzeme, teknik ve servis biçimine bakarak verdiği bir değerlendirmedir.", relOf: "{d} yemeğinin akrabaları",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
@@ -66,6 +67,7 @@
       rankScore: "Top cuisine scores", rankWine: "Top wine producers", showAll: "All ({n})", showTop: "Top 10",
       scoreKicker: "Cuisine score", worldRank: "World rank", of: "among {n} countries",
       tier1: "At the top of world cuisine", tier2: "A strong, influential cuisine", tier3: "Well known in its region", tier4: "A cuisine waiting to be discovered",
+      clickInfo: "Click for details", openCountry: "Open country page",
       relTitle: "Related dishes", relSub: "Almost the same dish in other countries", simTitle: "Similar dishes", relMap: "Show on the map",
       relNote: "Similarity is an AI assessment of ingredients, technique and how the dish is served.", relOf: "Relatives of {d}",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
@@ -285,25 +287,65 @@
       upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, 250);
     });
   }
+  // Sınır çatlaklarını önlemek için: görünen ülkeler + komşuları birlikte geçer; ardından kalan ülkeler
+  // arka planda küçük gruplar halinde geçer. Böylece kısa süre sonra tüm sınırlar aynı ayrıntıda olur.
+  var hiBox = null, hiNb = null;
+  var BIG = { RUS: 1, CAN: 1, USA: 1, ATA: 1, GRL: 1, AUS: 1, IDN: 1, CHN: 1, BRA: 1, NOR: 1, CHL: 1, ARG: 1, PHL: 1, JPN: 1, GBR: 1 };
+  function bboxOf(geom) {
+    var b = [180, 90, -180, -90];
+    (geom.type === "Polygon" ? [geom.coordinates] : geom.coordinates).forEach(function (pl) {
+      pl[0].forEach(function (p) { if (p[0] < b[0]) b[0] = p[0]; if (p[1] < b[1]) b[1] = p[1]; if (p[0] > b[2]) b[2] = p[0]; if (p[1] > b[3]) b[3] = p[1]; });
+    });
+    return b;
+  }
+  function neighbours(iso) {
+    if (!hiNb) {
+      hiBox = {}; hiNb = {};
+      Object.keys(hiGeo).forEach(function (k) { hiBox[k] = bboxOf(hiGeo[k].geometry); });
+    }
+    if (!hiNb[iso]) {
+      var a = hiBox[iso], out = [];
+      if (a) Object.keys(hiBox).forEach(function (k) {
+        var b = hiBox[k];
+        if (k !== iso && a[0] <= b[2] + 0.2 && b[0] <= a[2] + 0.2 && a[1] <= b[3] + 0.2 && b[1] <= a[3] + 0.2) out.push(k);
+      });
+      hiNb[iso] = out;
+    }
+    return hiNb[iso];
+  }
   function upgradeStep(pov) {
-    var reach = Math.max(12, pov.altitude * 45), cl = Math.cos(pov.lat * Math.PI / 180), done = 0, more = false;
-    var feats = S.geo.features;
-    for (var i = 0; i < feats.length; i++) {
-      var f = feats[i];
-      if (f.__hi) continue;
-      var h = hiGeo[f.properties.iso];
-      if (!h) { f.__hi = true; continue; }
+    var reach = Math.max(12, pov.altitude * 45), cl = Math.cos(pov.lat * Math.PI / 180);
+    var feats = S.geo.features, want = {}, idx = {};
+    feats.forEach(function (f, i) { idx[f.properties.iso] = i; });
+    feats.forEach(function (f) {
+      if (f.__hi) return;
       var dy = (f.properties.ly || 0) - pov.lat, dx = ((((f.properties.lx || 0) - pov.lng) + 540) % 360 - 180) * Math.max(cl, 0.2);
-      if (Math.sqrt(dx * dx + dy * dy) > reach) continue;
-      if (done >= 8) { more = true; break; }
+      if (Math.sqrt(dx * dx + dy * dy) <= reach) {
+        want[f.properties.iso] = 1;
+        neighbours(f.properties.iso).forEach(function (k) { want[k] = 1; });
+      }
+    });
+    var list = Object.keys(want).filter(function (k) { return idx[k] != null && !feats[idx[k]].__hi; });
+    var background = false;
+    if (!list.length) {                    // görünür bölge bitti: kalanları arka planda geçir
+      // Çok büyük geometriler (Rusya, Kanada…) arka planda geçirilmez: tek başına saniyelerce donma yapar.
+      // Onlar yalnızca ekrana girince (ya da komşusu girince) geçer. Antarktika hiç geçmez.
+      list = feats.filter(function (f) { return !f.__hi && !BIG[f.properties.iso]; }).map(function (f) { return f.properties.iso; });
+      background = true;
+    }
+    var batch = list.slice(0, background ? 6 : 12);
+    batch.forEach(function (iso) {
+      var i = idx[iso], f = feats[i], h = hiGeo[iso];
+      if (!h || iso === "ATA") { f.__hi = true; return; }
       var nf = { type: "Feature", properties: f.properties, geometry: h.geometry, __hi: true, __el: f.__el };
       feats[i] = nf;
       if (S.selected === f) S.selected = nf;
       if (S.hover === f) S.hover = nf;
-      done++;
+    });
+    if (batch.length) globe.polygonsData(feats.slice());
+    if (list.length > batch.length || background && list.length) {
+      upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, background ? 400 : 120);
     }
-    if (done) globe.polygonsData(feats.slice());
-    if (more) upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, 120);
   }
   function htmlData() {
     if (!labelFeats) labelFeats = S.geo.features.filter(function (f) { return S.index[f.properties.iso]; });
@@ -315,7 +357,8 @@
     var d = document.createElement("div");
     d.className = "wmark";
     d.innerHTML = "<i></i><span>" + esc(m[0]) + "</span>";
-    d.title = m[0];
+    d.addEventListener("mouseenter", function (e) { showPtip(m, e.clientX, e.clientY); });
+    d.addEventListener("mouseleave", function () { showPtip(null); });
     d.addEventListener("click", function (e) { e.stopPropagation(); showMcard(m); });
     m.__el = d;
     return d;
@@ -343,9 +386,9 @@
   }
 
   // Michelin noktası: tıklanan konuma en yakın görünür nokta
-  function nearestPoint(lat, lng) {
+  function nearestPoint(lat, lng, k) {
     if (!S.points || !S.points.length) return null;
-    var alt = globe.pointOfView().altitude, thr = Math.max(0.15, alt * 0.9), best = null, bd = thr * thr;
+    var alt = globe.pointOfView().altitude, thr = Math.max(0.08, alt * (k || 0.9)), best = null, bd = thr * thr;
     var cl = Math.cos(lat * Math.PI / 180);
     S.points.forEach(function (m) {
       var dy = m[3] - lat, dx = (((m[4] - lng) + 540) % 360 - 180) * cl, d = dx * dx + dy * dy;
@@ -353,15 +396,48 @@
     });
     return best;
   }
+  // Üzerine gelince küçük bilgi: Michelin noktaları ve şarap bölgeleri
+  function ptipHtml(m) {
+    if (m[5] === "w") return '<span style="color:' + MCOL.w + '">🍷</span> <b>' + esc(m[0]) + "</b> <span>· " + esc(cname(m[2])) + "</span>";
+    return '<span style="color:' + MCOL[m[5]] + '">' + (m[5] === "b" ? "Bib" : stars(m[5])) + "</span> <b>" + esc(m[0]) + "</b> <span>· " +
+      esc([m[1], m[2] ? cname(m[2]) : ""].filter(Boolean).join(", ")) + "</span>";
+  }
+  function showPtip(m, x, y) {
+    var t = document.getElementById("ptip");
+    if (!m) { t.hidden = true; document.body.classList.remove("pt-hover"); return; }
+    t.innerHTML = ptipHtml(m) + '<em>' + esc(t_("clickInfo")) + "</em>";
+    t.style.left = x + 14 + "px"; t.style.top = y + 14 + "px";
+    t.hidden = false;
+    document.body.classList.add("pt-hover");
+  }
+  function t_(k) { return t(k); }
+  var hoverRaf = 0;
+  function bindPointHover() {
+    var el = document.getElementById("globe");
+    el.addEventListener("mousemove", function (e) {
+      if (hoverRaf) return;
+      hoverRaf = requestAnimationFrame(function () {
+        hoverRaf = 0;
+        if (!S.points || !S.points.length) { showPtip(null); return; }
+        var r = el.getBoundingClientRect(), c = globe.toGlobeCoords(e.clientX - r.left, e.clientY - r.top);
+        var m = c && nearestPoint(c.lat, c.lng, 0.35);
+        showPtip(m, e.clientX, e.clientY);
+        if (m) el.style.cursor = "pointer";
+      });
+    });
+    el.addEventListener("mouseleave", function () { showPtip(null); });
+  }
   function stars(a) { return a === "b" ? "Bib" : new Array(a + 1).join("★"); }
   function showMcard(m) {
     var c = document.getElementById("mcard");
     if (m[5] === "w") {
       c.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button>' +
         '<div class="mc-a" style="color:' + MCOL.w + '">🍷 ' + esc(t("wineRegions")) + "</div><b>" + esc(m[0]) + "</b><span>" + esc(cname(m[2])) + "</span>" +
-        (L(m[6]) ? "<span>" + esc(L(m[6])) + "</span>" : "") + (m[7] && m[7].length ? "<span>🍇 " + esc(m[7].join(", ")) + "</span>" : "");
+        (L(m[6]) ? "<span>" + esc(L(m[6])) + "</span>" : "") + (m[7] && m[7].length ? "<span>🍇 " + esc(m[7].join(", ")) + "</span>" : "") +
+        '<button class="mc-c" data-iso="' + m[2] + '">' + esc(t("openCountry")) + " →</button>";
       c.hidden = false;
       c.querySelector(".close").addEventListener("click", hideMcard);
+      bindCardCountry(c);
       if (S.mSel && S.mSel.__el) S.mSel.__el.classList.remove("on");
       S.mSel = m;
       if (m.__el) m.__el.classList.add("on");
@@ -371,11 +447,17 @@
       '<div class="mc-a" style="color:' + MCOL[m[5]] + '">' + (m[5] === "b" ? esc(t("bib")) : stars(m[5]) + " " + esc(t("star" + m[5]))) + "</div>" +
       "<b>" + esc(m[0]) + "</b><span>" + esc([m[1], m[2] ? cname(m[2]) : ""].filter(Boolean).join(", ")) + "</span>" +
       (m[6] ? "<span>" + esc(m[6]) + "</span>" : "") +
-      (m[7] ? '<a href="' + esc(m[7]) + '" target="_blank" rel="noopener">' + esc(t("openGuide")) + " ↗</a>" : "");
+      (m[7] ? '<a href="' + esc(m[7]) + '" target="_blank" rel="noopener">' + esc(t("openGuide")) + " ↗</a>" : "") +
+      (m[2] ? '<button class="mc-c" data-iso="' + m[2] + '">' + esc(t("openCountry")) + " →</button>" : "");
     c.hidden = false;
     c.querySelector(".close").addEventListener("click", hideMcard);
+      bindCardCountry(c);
     S.mSel = m;
     globe.pointsData(S.points);
+  }
+  function bindCardCountry(c) {
+    var b = c.querySelector(".mc-c");
+    if (b) b.addEventListener("click", function () { var iso = b.dataset.iso; hideMcard(); selectCountry(iso, false); });
   }
   function hideMcard() {
     var c = document.getElementById("mcard");
@@ -507,6 +589,9 @@
     mat.shininess = 6;
     globe.pointOfView({ lat: 34, lng: 28, altitude: 2.1 }, 0);
     var ctl = globe.controls();
+    // Kullanıcı küreye dokunduğu an (sürükleme, yakınlaştırma, tıklama) dönme kalıcı olarak durur
+    ctl.addEventListener("start", function () { ctl.autoRotate = false; });
+    el.addEventListener("wheel", function () { ctl.autoRotate = false; }, { passive: true });
     ctl.autoRotate = true; ctl.autoRotateSpeed = 0.3; ctl.minDistance = 130; ctl.maxDistance = 600;
     function size() { globe.width(window.innerWidth).height(window.innerHeight); }
     window.addEventListener("resize", size);
@@ -963,9 +1048,10 @@
       initGlobe();
       setLang(lang);
       applyLayers();
+      bindPointHover();
       fromHash();
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
   }
-  window.GA = { state: S, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };
+  window.GA = { state: S, globe: function () { return globe; }, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };
   start();
 })();

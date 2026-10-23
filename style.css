@@ -83,6 +83,15 @@ button { font: inherit; color: inherit; }
 .wmark span { display: none; font: 600 11px Inter, sans-serif; color: #ffe1ec; text-shadow: 0 1px 3px #000, 0 0 6px #000; }
 #globe.zoomed .wmark span, .wmark:hover span, .wmark.on span { display: inline; }
 
+/* Nokta üzerine gelme bilgisi */
+.ptip { position: fixed; z-index: 9; pointer-events: none; max-width: 300px; background: var(--surface); border: 1px solid var(--line); border-radius: 9px;
+  padding: 6px 10px; font-size: 12.5px; box-shadow: 0 6px 20px rgba(0,0,0,.45); backdrop-filter: blur(8px); }
+.ptip[hidden] { display: none; }
+.ptip span { color: var(--muted); }
+.ptip em { display: block; font-style: normal; font-size: 11px; color: var(--accent); margin-top: 2px; }
+body.pt-hover .float-tooltip-kap, body.pt-hover .scene-tooltip { display: none !important; }
+.mc-c { display: block; margin-top: 8px; border: 0; background: none; padding: 0; color: var(--muted); font-size: 12px; cursor: pointer; text-decoration: underline; }
+
 /* Michelin kartı */
 .mcard { position: fixed; left: 50%; bottom: 70px; transform: translateX(-50%); z-index: 7; width: min(320px, calc(100vw - 32px)); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,.45); font-size: 13px; }
 .mcard[hidden] { display: none; }
