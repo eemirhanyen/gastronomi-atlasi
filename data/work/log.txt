@@ -945,3 +945,83 @@ cands: 4749 öğe
   4500/4749
   adaylı: 4817 / 4907
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== pverify
+verify: 4750 öğe
+  [verify 0] batch msgbatch_011cg7bvLxN6veEVTkMwU2dj: 250 istek
+  [verify 0] tamam: 250 yanıt, başarısız 0
+  AUT_apple-strudel: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  ALB_mish-me-patate: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  [verify 250] batch msgbatch_01UAWraJtWGeYsgfkQRefode: 247 istek
+  [verify 250] tamam: 247 yanıt, başarısız 0
+  BDI_beef-skewers: çözülemedi Extra data: line 3 column 1 (char 35)
+  BHR_khubz: çözülemedi Extra data: line 3 column 1 (char 31)
+  [verify 500] batch msgbatch_01NcU1hDx3euHTitJJSmXb9b: 249 istek
+  [verify 500] tamam: 249 yanıt, başarısız 0
+  BTN~sig~ara: çözülemedi Extra data: line 3 column 1 (char 38)
+  BRN~sig~ambuyat: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  CAF~sig~palm-wine: çözülemedi Extra data: line 3 column 1 (char 37)
+  [verify 750] batch msgbatch_01S2X4kBWWZpgKkuJVMRrnQd: 250 istek
+  [verify 750] tamam: 250 yanıt, başarısız 0
+  COD_chikwangue-cassava-bread: çözülemedi Extra data: line 3 column 1 (char 38)
+  COL_fried-green-plantain-patties: çözülemedi Extra data: line 3 column 1 (char 35)
+  [verify 1000] batch msgbatch_01KmHHBmiqmwWQAVnZr3tNVQ: 250 istek
+  [verify 1000] tamam: 250 yanıt, başarısız 0
+  DNK_mulled-wine: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  [verify 1250] batch msgbatch_01WAXCJ7uunFddsaQTrPVcMy: 250 istek
+  [verify 1250] tamam: 250 yanıt, başarısız 0
+  ERI~sig~buna: çözülemedi Extra data: line 3 column 1 (char 36)
+  [verify 1500] batch msgbatch_01NUhpa5Wxh5RLGAdSVLf7We: 250 istek
+  [verify 1500] tamam: 250 yanıt, başarısız 0
+  GRD_fish-broth: çözülemedi Extra data: line 3 column 1 (char 34)
+  GRC~sig~greek-yogurt: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  GRD_cocoa-tea: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  [verify 1750] batch msgbatch_01SyiBnL4nf6aZtNzwBsQXtt: 250 istek
+    300s {'processing': 250, 'succeeded': 0, 'errored': 0, 'canceled': 0, 'expired': 0}
+  [verify 1750] tamam: 250 yanıt, başarısız 0
+  [verify 2000] batch msgbatch_019WYrNdmEJea89UKM18npzj: 250 istek
+    300s {'processing': 250, 'succeeded': 0, 'errored': 0, 'canceled': 0, 'expired': 0}
+  [verify 2000] tamam: 250 yanıt, başarısız 0
+  ISR_shawarma: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  KEN~sig~ugali: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  [verify 2250] batch msgbatch_01Laq1F31KbTvJ2erkjEwuGB: 250 istek
+  [verify 2250] tamam: 250 yanıt, başarısız 0
+  LSO_papa-with-meat-stew: çözülemedi Extra data: line 3 column 1 (char 31)
+  LCA~sig~cocoa-tea: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  [verify 2500] batch msgbatch_01XsoMvWT1yG8ZCr1dAarw33: 250 istek
+  [verify 2500] tamam: 250 yanıt, başarısız 0
+  MDV~sig~roshi: çözülemedi Extra data: line 3 column 1 (char 36)
+  MAR_sellou: çözülemedi Extra data: line 3 column 1 (char 36)
+  [verify 2750] batch msgbatch_01PRjh8FWjgD4z5veieezKje: 250 istek
+  [verify 2750] tamam: 250 yanıt, başarısız 0
+  MOZ_bolo-polana: çözülemedi Extra data: line 3 column 1 (char 36)
+  [verify 3000] batch msgbatch_01Qp56CSJ8W2XwEXviPQG1qz: 250 istek
+  [verify 3000] tamam: 250 yanıt, başarısız 0
+  NZL_meat-pie: çözülemedi Extra data: line 3 column 1 (char 33)
+  PAK_chicken-karahi: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  PER~sig~inca-kola: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  [verify 3250] batch msgbatch_01WT3eqYKt8TvxdvJRzAmHmJ: 250 istek
+  [verify 3250] tamam: 250 yanıt, başarısız 0
+  POL_milk-soup-with-noodles: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  PRT~sig~ginjinha: çözülemedi Extra data: line 3 column 1 (char 36)
+  [verify 3500] batch msgbatch_01LFahVyLEcdxVvU9gBUYr9K: 250 istek
+  [verify 3500] tamam: 250 yanıt, başarısız 0
+  SDN_kisra-with-stew: çözülemedi Extra data: line 3 column 1 (char 36)
+  SEN~sig~ataya: çözülemedi Extra data: line 3 column 1 (char 36)
+  SDN_asida-with-butter-and-honey: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  SLE~sig~gari: çözülemedi Extra data: line 3 column 1 (char 36)
+  [verify 3750] batch msgbatch_0191ZwZH8CveRZSsJ2sGD1bc: 249 istek
+  [verify 3750] tamam: 249 yanıt, başarısız 0
+  SYC~sig~takamaka-rum: çözülemedi Expecting value: line 1 column 21 (char 20)
+  SYR~sig~muhammara: çözülemedi Extra data: line 3 column 1 (char 35)
+  SWZ_wild-greens-with-peanut-sauce: çözülemedi Extra data: line 3 column 1 (char 33)
+  SRB_pecenica: çözülemedi Extra data: line 3 column 1 (char 36)
+  [verify 4000] batch msgbatch_01RSpGUGwXqKkztyZpm5pYZb: 248 istek
+  [verify 4000] tamam: 248 yanıt, başarısız 0
+  [verify 4250] batch msgbatch_01AiNnkiMwkBztB582YLggAR: 250 istek
+  [verify 4250] tamam: 250 yanıt, başarısız 0
+  UZB_ayran-style-yogurt-drink-qatiq: çözülemedi int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+  [verify 4500] batch msgbatch_01C1TWMykCEERokNbHbqo9zm: 160 istek
+  [verify 4500] tamam: 160 yanıt, başarısız 0
+  ZAF~sig~bunny-chow: çözülemedi Extra data: line 3 column 1 (char 39)
+  fotoğraflı: 3211 / 4871 (eşik 7)
+Token: giriş 6106734, çıkış 1406452 (model claude-haiku-5-5)
