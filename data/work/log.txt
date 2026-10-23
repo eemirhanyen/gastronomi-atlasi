@@ -1137,3 +1137,20 @@ Token: giriş 87094, çıkış 78519 (model claude-haiku-5-5)
 build: 200 ülke, 3565 tarif
 denetim: yarım cümleyle biten metin 0
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== pairing
+pairing: 171 tarif (hazır 0)
+  16 istek
+  [pairing] batch msgbatch_01G7AFrb8AtJXnGPKtepLiYS: 16 istek
+    pr_FRA_0: max_tokens (7000)
+    pr_ARG_0: max_tokens (7000)
+    pr_TUR_0: max_tokens (7000)
+    pr_MEX_0: max_tokens (7000)
+    pr_JPN_0: max_tokens (7000)
+    pr_ITA_0: max_tokens (7000)
+    pr_IND_0: max_tokens (7000)
+  [pairing] tamam: 9 yanıt, başarısız 7
+  [pairing] 7 istek sınıra takıldı, sınır 3 katıyla yeniden deneniyor
+  [pairing (tekrar)] batch msgbatch_01Fr7gD3WPtGnP42A9RWqsR4: 7 istek
+  [pairing (tekrar)] tamam: 7 yanıt, başarısız 0
+  toplam eşleştirme 136, geçersiz yanıt 35
+Token: giriş 135415, çıkış 140445 (model claude-haiku-5-5)
