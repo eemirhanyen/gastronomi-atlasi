@@ -39,7 +39,7 @@
    "Dilimleri çevirin ve diğer yüzünü de 2 dakika pişirin.",
    "Sıcakken üzerine kuru naneyi ve pul biberi serpin.",
    "Maydanozu yıkayıp kurulayın, yapraklarını servis tabağına yerleştirin.",
-   "Hellim dilimlerini maydanozla birlikte tabağa alın ve yanına limon dilimlerini koyun; sıcakken limon sıkarak servis edin."
+   "Hellim dilimlerini maydanozla birlikte tabağa alın ve yanına limon yarımlarını koyun; sıcakken limonu sıkarak servis edin."
   ],
   "en": [
    "Cut the hellim cheese into 8 slices, about 1 cm thick.",
@@ -57,5 +57,13 @@
   "tr": "Hellim zaten tuzlu olduğu için ızgaradan önce tuz eklemeyin; peynir tavada erimeden kızarması için yüzeyi iyice kuru tutun.",
   "en": "Do not add salt before grilling, as hellim is already salty; keep the surface dry so it sears rather than melts."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 says \"limon dilimlerini\" (lemon slices) but the English step says \"lemon halves\" and the ingredient is 1/2 lemon. The two versions disagree on how the lemon is served."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

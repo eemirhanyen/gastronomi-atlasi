@@ -64,8 +64,16 @@
   ]
  },
  "tip": {
-  "tr": "Hellim tuzlu olduğu için iç harçta ekstra tuz kullanmayın; hamur yapışırsa unu çok az ekleyerek çalışın.",
+  "tr": "Hellim tuzlu olduğu için iç harçta ekstra tuz kullanmayın; hamur yapışırsa ellerinizi çok az unla tozlayarak çalışın, hamura fazla un eklemeyin.",
   "en": "Halloumi is already salty, so do not add extra salt to the filling; if the dough sticks, dust your hands with a little flour rather than adding more to the dough."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish and English tips disagree: the English says to dust your hands with flour rather than add more to the dough, but the Turkish tells the cook to add a little flour to the dough."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

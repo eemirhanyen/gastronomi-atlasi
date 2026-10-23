@@ -8,8 +8,8 @@
   "tr": "Nişasta ve şekerle hazırlanan, yumuşak ve jöle kıvamında bir tatlıdır. Kıbrıs'ta ve Türkiye'de bayramlarda, misafirlere Türk kahvesiyle ikram edilir ve hediye olarak da yaygın biçimde verilir.",
   "en": "A soft, gel-like sweet made from sugar and starch, traditionally flavoured with rosewater. In Northern Cyprus and Turkey it is served with Turkish coffee to guests, during holidays, and given as a gift."
  },
- "servings": 4,
- "time_min": 60,
+ "servings": 12,
+ "time_min": 65,
  "difficulty": "medium",
  "ingredients": {
   "tr": [
@@ -63,5 +63,14 @@
   "tr": "Karışımı pişirirken dibe yapışmaması için sürekli karıştırın; ateşi mümkün olduğunca düşük tutmak hem topaklanmayı hem de kıvamın bozulmasını önler.",
   "en": "Keep the heat very low and stir often during cooking; a heavy pan and gentle heat prevent scorching and lumps, which give the lokum a grainy texture."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Servings (4) does not match the quantity: 500 g sugar and 120 g starch yield roughly 1 kg of lokum, which is about 250 g per person for 4 servings. A 20 x 20 cm tin cut into small squares gives about ",
+   "time_min (60) is low for the listed steps: about 15 minutes of preparation plus 45-50 minutes of cooking. The 12-hour setting is also not reflected in the time field, so the value should at least cove"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

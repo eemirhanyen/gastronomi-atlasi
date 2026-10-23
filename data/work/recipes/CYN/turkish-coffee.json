@@ -16,13 +16,15 @@
    "300 ml soğuk su",
    "20 g çok ince öğütülmüş Türk kahvesi (yaklaşık 4 dolu tatlı kaşığı)",
    "20 g toz şeker (kişi başı yaklaşık 5 g, orta şekerli için; sade için atlayın)",
-   "4 adet lokum (servis için, isteğe bağlı)"
+   "4 adet lokum (servis için, isteğe bağlı)",
+   "4 bardak su (servis için)"
   ],
   "en": [
    "300 ml cold water",
    "20 g very finely ground Turkish coffee (about 4 heaped teaspoons)",
    "20 g granulated sugar (about 5 g per cup for medium sweetness; omit for unsweetened)",
-   "4 pieces lokum (for serving, optional)"
+   "4 pieces lokum (for serving, optional)",
+   "4 glasses of water (for serving)"
   ]
  },
  "steps": {
@@ -49,5 +51,13 @@
   "tr": "Kahvenin kaynamasına izin vermeyin; her kaynatmada köpük kaybolur ve tat acılaşır. Cezveyi kısık ateşte tutun ve köpük yükselir yükselmez ocaktan alın.",
   "en": "Never let the coffee boil; each boil breaks the foam and makes it bitter. Keep the heat low and remove the cezve as soon as the foam rises."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Serving water is used in the final step (\"bir bardak suyla\" / \"a glass of water\") but is not listed in the ingredients in either language."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

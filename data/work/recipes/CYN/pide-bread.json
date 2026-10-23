@@ -22,7 +22,7 @@
    "1 yumurta sarısı",
    "15 ml süt",
    "20 g susam",
-   "Unu açmak için biraz ekstra un"
+   "Hamuru açmak için biraz ekstra un"
   ],
   "en": [
    "500 g all-purpose flour",
@@ -67,5 +67,13 @@
   "tr": "Hamurun sıcak bir yerde yükselmesi için fırını 50 °C'de birkaç dakika ısıtıp kapatın ve hamuru içine koyun.",
   "en": "For a faster, lighter rise, switch the oven off after heating it briefly to about 50 °C, then rise the dough inside with the door closed."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient line \"Unu açmak için biraz ekstra un\" is unnatural and wrong. \"Un açmak\" does not mean dusting. It should say the flour is for rolling out the dough (\"Hamuru açmak için\"), matching "
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

@@ -14,7 +14,7 @@
  "ingredients": {
   "tr": [
    "600 g kuzu kıyma",
-   "1 orta boy soğan (about 120 g), rendelenmiş",
+   "1 orta boy soğan (yaklaşık 120 g), rendelenmiş",
    "1 tatlı kaşığı tuz (bölünmüş)",
    "1/2 tatlı kaşığı karabiber",
    "1/2 tatlı kaşığı kimyon",
@@ -49,7 +49,7 @@
    "Her köftenin ortasına bir yarım şeftaliyi kesik yüzü aşağı gelecek şekilde yerleştirin ve etle sarıp kenarlarını iyice kapatın.",
    "Geniş bir tavada zeytinyağını orta-yüksek ateşte ısıtın. Sarılmış kebapları her iki yüzü 2'şer dakika renk alana kadar kızartın, ardından fırın kabına alın.",
    "Rendelenmiş domatesi, domates salçasını, kalan yarım tatlı kaşık tuzu ve suyu bir kapta karıştırın. Sosu kebapların etrafına dökün ve tereyağını üzerlerine parça parça koyun.",
-   "Fırını 190 °C'ye ısıtın ve kebapları yaklaşık 25 dakika pişirin. Ortada pişerken sosu kaşıkla kebapların üzerine bir kez gezdirin.",
+   "Fırını 190 °C'ye ısıtın ve kebapları yaklaşık 25 dakika pişirin. Pişme sırasında sosu kaşıkla kebapların üzerine bir kez gezdirin.",
    "Sıcak sosuyla birlikte servis yapın."
   ],
   "en": [
@@ -67,5 +67,14 @@
   "tr": "Şeftaliler olgun ama sert olmalı; çok yumuşak olursa pişerken dağılır. Kıymayı sararken ellerinizi biraz ıslatırsanız etin yapışmasını önlersiniz.",
   "en": "Choose peaches that are ripe but firm, as very soft fruit will fall apart during baking. Lightly wetting your hands makes the mince easier to wrap without sticking."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish ingredient list contains untranslated English 'about' in '(about 120 g)'",
+   "Turkish step 7 wording is unnatural: 'Ortada pişerken' should read 'Pişme sırasında'"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

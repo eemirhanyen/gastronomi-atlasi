@@ -5,7 +5,7 @@
  },
  "native": "Mercimek çorbası",
  "desc": {
-  "tr": "Kıbrıs Türk mutfağında kırmızı mercimekten yapılan, havuçlu ve nane yağlı bu çorba, özellikle kahvaltı ve akşam yemeğinin başlangıcında sıcak sıcak servis edilir.",
+  "tr": "Kıbrıs Türk mutfağında kırmızı mercimekten yapılan, havuçlu ve nane yağlı bu çorba, özellikle öğle ve akşam yemeğinin başlangıcında sıcak sıcak servis edilir.",
   "en": "A smooth red lentil soup with carrot, finished with mint butter, served hot as a starter at family lunches and dinners across Northern Cyprus."
  },
  "servings": 4,
@@ -69,5 +69,13 @@
   "tr": "Naneyi tereyağına eklemeden önce yağın tam erimesini bekleyin; nane kısık ateşte kavrulunca tadı çok daha yoğun çıkar.",
   "en": "Warm the mint in the butter only until it becomes fragrant; burning it turns the flavour bitter."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish description says the soup is served at breakfast (kahvaltı) and dinner, but the English description says lunches and dinners. The two versions disagree, and lentil soup is not typically a brea"
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

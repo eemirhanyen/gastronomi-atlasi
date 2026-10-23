@@ -43,7 +43,7 @@
    "Sigaraları tabağa dizin ve 10 dakika dinlendirin.",
    "Geniş bir tencerede yağı 170-180°C'ye ısıtın; küçük bir yufka parçası yağa atıldığında hemen kabarıp kızarıyorsa yağ hazırdır.",
    "Sigaraları partiler halinde, her iki yüzü de altın sarısı olana kadar 2-3 dakika kızartın.",
-   "Kızarmış böreklerı süzgeç kaşığıyla alıp kağıt havlu üzerinde yağını akıtın ve sıcak servis yapın."
+   "Kızarmış börekleri süzgeç kaşığıyla alıp kağıt havlu üzerinde yağını akıtın ve sıcak servis yapın."
   ],
   "en": [
    "In a bowl, mix the grated hellim, crumbled white cheese, chopped parsley, black pepper and beaten egg until well combined.",
@@ -61,5 +61,13 @@
   "tr": "Yufkalar kuruyup çatlamasın diye sararken kullanmadığınız yufkaları daima nemli bezle örtün.",
   "en": "Keep unused yufka covered with a damp cloth while you work, otherwise the sheets dry out and crack when rolled."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 9 contains a spelling error: \"böreklerı\" (dotless ı) should be \"börekleri\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

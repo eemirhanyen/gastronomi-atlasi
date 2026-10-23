@@ -50,7 +50,7 @@
  "steps": {
   "tr": [
    "Kolokasları soyun ve bir kez yıkayın. Kolokas cildi ve sütü cilde tahriş yapabileceği için eldiven takın veya ellerinize biraz zeytinyağı sürün. Parçalara ayırıp kenara alın.",
-   "Geniş bir tencerede 2 yemek kaşığı zeytinyağını orta-yüksek ateşte ısıtın. Etleri ekleyip her tarafı renk alana kadar yaklaşık 8 dakika kavurun.",
+   "Geniş bir tencerede 3 yemek kaşığı zeytinyağını orta-yüksek ateşte ısıtın. Etleri ekleyip her tarafı renk alana kadar yaklaşık 8 dakika kavurun.",
    "Soğanları ve ezilmiş sarımsağı ekleyin, soğanlar yumuşayana kadar yaklaşık 5 dakika kavurmaya devam edin.",
    "Domates salçasını ve rendelenmiş domatesleri ekleyin. Salça kokusu çıkana kadar 3 dakika pişirin.",
    "Tuz, karabiber, kuru nane, tatlı kırmızı biber ve defne yaprağını ekleyin. Sıcak suyu dökün, kaynamaya bırakın.",
@@ -61,9 +61,9 @@
   ],
   "en": [
    "Peel the taro and rinse it once. Taro skin and sap can irritate the skin, so wear gloves or rub a little olive oil on your hands. Cut into large pieces and set aside.",
-   "Heat 2 tablespoons of olive oil in a wide pot over medium-high heat. Add the meat and brown it on all sides for about 8 minutes.",
+   "Heat 3 tablespoons of olive oil in a wide pot over medium-high heat. Add the meat and brown it on all sides for about 8 minutes.",
    "Add the chopped onions and crushed garlic and cook for about 5 minutes more, until the onions soften.",
-   "Stir in the tomato paste and grated tomatoes. Cook for 3 minutes, until the paste darkens slightly.",
+   "Stir in the tomato paste and grated tomatoes. Cook for 3 minutes, until the paste smells cooked.",
    "Add the salt, black pepper, dried mint, sweet paprika and bay leaf. Pour in the hot water and bring to a boil.",
    "Cover and simmer gently for about 60 minutes, until the meat is nearly tender.",
    "Add the taro pieces to the pot. If needed, add a cup more hot water, cover and simmer on low for 30 to 40 minutes, until the taro is completely soft.",
@@ -75,5 +75,14 @@
   "tr": "Kolokas sosu kıvam verdiği için servisten önce tencerede birkaç dakika kısık ateşte beklemesine izin verin; sos koyulaşacak ve tatlar birbirine karışacaktır.",
   "en": "Taro thickens the sauce as it sits, so let the stew rest in the pot on low heat for a few minutes before serving for a richer texture and better flavour."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Olive oil amount mismatch: the ingredient list says 3 tablespoons (3 yemek kaşığı), but step 2 says 2 (2 yemek kaşığı) in both Turkish and English.",
+   "English step 4 says the paste 'darkens slightly', while the Turkish step says to cook until the paste smell develops (salça kokusu çıkana kadar). The two versions should describe the same cue."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

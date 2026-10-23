@@ -13,7 +13,7 @@
  "difficulty": "easy",
  "ingredients": {
   "tr": [
-   "800 g kemiksiz kuzu incik veya but eti, 3 cm küp doğranmış",
+   "800 g kemiksiz kuzu but veya omuz eti, 3 cm küp doğranmış",
    "200 g soğan, rendelenmiş",
    "60 ml zeytinyağı",
    "45 ml taze limon suyu",
@@ -32,7 +32,7 @@
    "200 g onion, grated",
    "60 ml olive oil",
    "45 ml fresh lemon juice",
-   "2 g dried oregano",
+   "2 g dried thyme",
    "6 g salt",
    "2 g black pepper",
    "200 g small onions, cut into 3 cm pieces",
@@ -56,7 +56,7 @@
    "Şişleri sıcak pide, domates dilimleri ve maydanozla servis edin."
   ],
   "en": [
-   "In a large bowl, mix the grated onion, olive oil, lemon juice, oregano, salt and black pepper.",
+   "In a large bowl, mix the grated onion, olive oil, lemon juice, thyme, salt and black pepper.",
    "Add the lamb cubes and coat them well. Cover and refrigerate for at least 30 minutes, ideally 2 hours.",
    "Soak the wooden skewers in water for 30 minutes so they resist burning.",
    "Prepare the small onion and green pepper pieces.",
@@ -71,5 +71,14 @@
   "tr": "Soğanı rendelemek, etin lifleri yumuşatır ve lezzeti kuzu etine eşit dağıtır; marinasını uzun bekletmek ise daha yumuşak bir sonuç verir.",
   "en": "Grating the onion breaks down the meat fibres and spreads flavour evenly; a longer marinating time gives a more tender result."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Herb mismatch: Turkish lists 'kurutulmuş kekik' (thyme) but English lists 'dried oregano'.",
+   "Meat mismatch: Turkish lists 'kemiksiz kuzu incik veya but' (shank or leg), but English says 'leg or shoulder'. Shank is also a poor choice for quick grilling."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

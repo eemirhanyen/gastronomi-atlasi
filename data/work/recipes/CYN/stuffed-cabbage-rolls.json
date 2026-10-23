@@ -55,7 +55,7 @@
    "Lahanayı süzün, yaprakları tek tek ayırın. Kalın damarları bıçakla hafifçe inceltin. Yaprakları soğuk suya alıp kenara koyun.",
    "Kıymayı, yıkanmış baldo pirincini, rendelenmiş soğanı, maydanozu, kuru naneyi, yenibaharı, tuzu, karabiberi, 1 yemek kaşığı domates salçasını ve 1 yemek kaşığı zeytinyağını bir kasede iyice yoğurun.",
    "Her lahana yaprağının alt kısmına yaklaşık 2 yemek kaşığı iç harcı yerleştirin. Yanlarını içeri katlayıp sıkıca sarın.",
-   "Geniş bir tencerenin tabanına lahana artıklarını ve ince dilimlenmiş soğanı serin. Sarmaları dibe dikişleri aşağı gelecek şekilde sıralayın, katlar halinde devam edin.",
+   "Geniş bir tencerenin tabanına lahana artıklarını ve ince dilimlenmiş soğanı serpin. Sarmaları dibe dikişleri aşağı gelecek şekilde sıralayın, katlar halinde devam edin.",
    "Kalan domates salçasını, rendelenmiş domatesleri, limon suyunu, kalan zeytinyağını ve sıcak suyu karıştırıp sarmaların üzerine dökün. Sıvı sarmaları hafifçe kaplamalı.",
    "Üzerine ters çevrilmiş küçük bir tabak koyup kapağı kapatın. Orta-kısık ateşte yaklaşık 60 dakika, sarmalar yumuşayıp pirinç pişene kadar kaynatın.",
    "Ocaktan alıp 10 dakika dinlendirin. Sıcak olarak, yanında yoğurtla servis edin."
@@ -75,5 +75,13 @@
   "tr": "Sarmaları pişirirken sıvıyı çok fazla kaynatmayın; kısık ateş pirincin eşit pişmesini sağlar ve yapraklar dağılmaz.",
   "en": "Keep the simmer gentle. A rolling boil can split the leaves and leave the rice unevenly cooked."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 5 uses 'serin' (to cool), which is the wrong verb. The intended meaning is 'serpin' (to spread), matching the English 'Spread the cabbage trimmings...'."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }

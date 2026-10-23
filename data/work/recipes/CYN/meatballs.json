@@ -53,7 +53,7 @@
    "Zeytinyağını köftelerin yüzeyine fırçayla sürün.",
    "Izgarayı veya tavayı orta-yüksek ateşte ısıtın. Köftelere 4-5 dakika ara ara çevirerek her yüzü kızarana kadar pişirin. İç kısmın tam pişmesi için ortalama 10-12 dakika sürer.",
    "Domatesleri dilimleyin, marulu doğrayın ve limonu dilim dilim kesin.",
-   "Köftreleri sıcak servis tabağına alın, yanına domates, marul ve limon dilimleriyle servis yapın."
+   "Köfteleri sıcak servis tabağına alın, yanına domates, marul ve limon dilimleriyle servis yapın."
   ],
   "en": [
    "Trim the crusts off the bread slices, soak the bread in the 60 ml water for 5 minutes, then squeeze it well and tear it into pieces.",
@@ -73,5 +73,13 @@
   "tr": "Ekmeği iyice sıkmak ve soğanın fazla suyunu almak, köftelerin dağılmadan yumuşak kalmasını sağlar.",
   "en": "Squeezing the bread and onion well removes excess liquid, so the köfte stay soft and hold their shape on the grill."
  },
- "reviewed": false
+ "reviewed": true,
+ "review": {
+  "ok": false,
+  "issues": [
+   "Turkish step 10 has a misspelling: \"Köftreleri\" should be \"Köfteleri\"."
+  ],
+  "model": "claude-haiku-5-5",
+  "date": "2026-10-23"
+ }
 }
