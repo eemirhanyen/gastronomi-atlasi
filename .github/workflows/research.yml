@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       stages:
-        description: "Aşamalar: wine restaurants"
+        description: "Aşamalar: wine restaurants top10"
         default: "wine restaurants"
       only:
         description: "Yalnızca bu ülkeler (ör. FRA,TUR; boş = hepsi)"
@@ -32,12 +32,13 @@ jobs:
         run: |
           save() {
             git config user.name "atlas-bot"; git config user.email "atlas-bot@users.noreply.github.com"
-            git add data/work/wine data/work/restaurants data/work/research_cost.json data/work/research_log.txt 2>/dev/null || true
+            for f in data/work/wine data/work/restaurants data/work/research_cost.json data/work/research_log.txt data/top10.json; do [ -e "$f" ] && git add "$f"; done
             git diff --cached --quiet || git commit -q -m "Araştırma: $1"
             for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
           }
           set -o pipefail
           for s in ${{ inputs.stages }}; do
-            python scripts/research.py "$s" 2>&1 | tee -a data/work/research_log.txt || { save "$s (hata)"; exit 1; }
+            if [ "$s" = top10 ]; then cmd="scripts/top10.py"; else cmd="scripts/research.py $s"; fi
+            python $cmd 2>&1 | tee -a data/work/research_log.txt || { save "$s (hata)"; exit 1; }
             save "$s"
           done

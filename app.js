@@ -32,6 +32,9 @@
       rankScore: "En yüksek mutfak puanları", rankWine: "En çok şarap üreten ülkeler", showAll: "Tümü ({n})", showTop: "İlk 10",
       scoreKicker: "Mutfak puanı", worldRank: "Dünya sıralaması", of: "{n} ülke içinde",
       tier1: "Dünya mutfağının zirvesinde", tier2: "Güçlü ve etkili bir mutfak", tier3: "Bölgesinde tanınan bir mutfak", tier4: "Keşfedilmeyi bekleyen bir mutfak",
+      top10: "Ölmeden önce tadılması gereken 10 yemek", top10Short: "Ölmeden Önce 10 Yemek",
+      top10Sub: "Uluslararası listelere ve gastronomi yayınlarına dayanarak atlas tariflerinden seçildi (yapay zekâ, web araştırması).",
+      top10Map: "Hepsini haritada gör",
       clickInfo: "Ayrıntı için tıkla", openCountry: "Ülke sayfasını aç",
       relTitle: "Akraba yemekler", relSub: "Başka ülkelerde neredeyse aynı yemek", simTitle: "Benzer yemekler", relMap: "Haritada gör",
       relNote: "Benzerlik oranı yapay zekânın malzeme, teknik ve servis biçimine bakarak verdiği bir değerlendirmedir.", relOf: "{d} yemeğinin akrabaları",
@@ -67,6 +70,9 @@
       rankScore: "Top cuisine scores", rankWine: "Top wine producers", showAll: "All ({n})", showTop: "Top 10",
       scoreKicker: "Cuisine score", worldRank: "World rank", of: "among {n} countries",
       tier1: "At the top of world cuisine", tier2: "A strong, influential cuisine", tier3: "Well known in its region", tier4: "A cuisine waiting to be discovered",
+      top10: "10 dishes to eat before you die", top10Short: "10 Dishes Before You Die",
+      top10Sub: "Chosen from the atlas recipes based on international rankings and food writing (AI, web research).",
+      top10Map: "Show all on the map",
       clickInfo: "Click for details", openCountry: "Open country page",
       relTitle: "Related dishes", relSub: "Almost the same dish in other countries", simTitle: "Similar dishes", relMap: "Show on the map",
       relNote: "Similarity is an AI assessment of ingredients, technique and how the dish is served.", relOf: "Relatives of {d}",
@@ -352,9 +358,65 @@
   }
   function htmlData() {
     if (!labelFeats) labelFeats = S.geo.features.filter(function (f) { return S.index[f.properties.iso]; });
-    if (!(LY.wr && S.wineRegions)) return labelFeats;
-    if (!wineObjs) wineObjs = S.wineRegions.map(function (m) { return { w: m }; });
-    return labelFeats.concat(wineObjs);
+    var out = labelFeats;
+    if (LY.wr && S.wineRegions) {
+      if (!wineObjs) wineObjs = S.wineRegions.map(function (m) { return { w: m }; });
+      out = out.concat(wineObjs);
+    }
+    if (S.topOn && S.topObjs) out = out.concat(S.topObjs);
+    return out;
+  }
+
+  // ------------------------------------------------------------ Ölmeden önce 10 yemek
+  function loadTop() {
+    if (!S.topLoading) S.topLoading = getJSON("data/top10.json").catch(function () { return null; });
+    return S.topLoading;
+  }
+  function openTop() {
+    loadTop().then(function (d) {
+      if (!d || !d.items || !d.items.length) return;
+      return Promise.all(d.items.map(function (it) { return loadCountry(it.iso); })).then(function (cs) {
+        var h = '<div class="top-h"><div class="top-k">🏆</div><h2>' + esc(t("top10")) + "</h2><p>" + esc(t("top10Sub")) + "</p>" +
+          '<button class="rel-map top-map">🌍 ' + esc(t("top10Map")) + '</button></div><ol class="top-list">';
+        d.items.forEach(function (it, i) {
+          var c = cs[i], r = c && c.recipes.find(function (x) { return x.id === it.id; });
+          if (!r) return;
+          h += '<li><button class="top-i" data-iso="' + it.iso + '" data-id="' + esc(it.id) + '">' + photo(r.image, r.category, "top-ph") +
+            '<span class="top-n">' + it.rank + '</span><span class="top-t"><b>' + esc(L(r.name)) + "</b><em>" + flag(iso2Of(it.iso)) + " " +
+            esc(cname(it.iso)) + "</em><span>" + esc(L(it.why)) + "</span></span></button></li>";
+        });
+        h += "</ol>" + (d.sources && d.sources.length ? srcList(d.sources) : "") +
+          '<div class="src">' + esc(t("researched", { d: d.date })) + "</div>";
+        var body = document.getElementById("top-body");
+        body.innerHTML = h;
+        Array.prototype.forEach.call(body.querySelectorAll(".top-i"), function (b) {
+          b.addEventListener("click", function () { closeTop(); openRecipe(b.dataset.iso, b.dataset.id); });
+        });
+        body.querySelector(".top-map").addEventListener("click", function () { closeTop(); showTopOnMap(d); });
+        document.getElementById("topmodal").hidden = false;
+      });
+    });
+  }
+  function closeTop() { document.getElementById("topmodal").hidden = true; }
+  function showTopOnMap(d) {
+    S.topObjs = d.items.map(function (it) {
+      var a = anchor(it.iso) || { lat: 0, lng: 0 };
+      return { t: it, w: null, lat: a.lat, lng: a.lng };
+    });
+    S.topOn = true;
+    closePanel();
+    globe.htmlElementsData(htmlData());
+    labelEls.forEach(function (x) { applyLabel(x[0]); });
+    globe.controls().autoRotate = false;
+    globe.pointOfView({ lat: 25, lng: 30, altitude: 2.6 }, 1200);
+  }
+  function topMark(o) {
+    var d = document.createElement("div");
+    d.className = "tmark";
+    var n = S.names && S.names[o.t.iso + "/" + o.t.id];
+    d.innerHTML = "<b>" + o.t.rank + "</b><span>" + esc(n ? (lang === "tr" ? n[2] : n[3]) : o.t.id) + "</span>";
+    d.addEventListener("click", function (e) { e.stopPropagation(); openRecipe(o.t.iso, o.t.id); });
+    return d;
   }
   function wineMark(m) {
     var d = document.createElement("div");
@@ -470,6 +532,7 @@
   }
   function clickAt(coords, f) {
     if (S.relBack) hideRelMap();
+    if (S.topOn && !f) { S.topOn = false; globe.htmlElementsData(htmlData()); labelEls.forEach(function (x) { applyLabel(x[0]); }); }
     var m = coords && nearestPoint(coords.lat, coords.lng);
     if (m) { showMcard(m); return; }
     hideMcard();
@@ -527,7 +590,7 @@
     return scoreColor(c.score, lift);
   }
   function applyLabel(el) {
-    el.style.visibility = LY.text !== "off" && el.textContent && el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
+    el.style.visibility = !S.topOn && LY.text !== "off" && el.textContent && el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
   }
   function initGlobe() {
     var el = document.getElementById("globe");
@@ -562,11 +625,12 @@
       .pointsTransitionDuration(0)
       .polygonsTransitionDuration(200)
       .htmlElementsData(htmlData())
-      .htmlLat(function (f) { return f.w ? f.w[3] : f.properties.ly; })
-      .htmlLng(function (f) { return f.w ? f.w[4] : f.properties.lx; })
+      .htmlLat(function (f) { return f.t ? f.lat : f.w ? f.w[3] : f.properties.ly; })
+      .htmlLng(function (f) { return f.t ? f.lng : f.w ? f.w[4] : f.properties.lx; })
       .htmlAltitude(function () { return GROUND + 0.0004; })
       .htmlElement(function (f) {
         if (f.__el) return f.__el;
+        if (f.t) return (f.__el = topMark(f));
         if (f.w) return (f.__el = wineMark(f.w));
         var d = document.createElement("div");
         f.__el = d;
@@ -578,7 +642,7 @@
       })
       .htmlElementVisibilityModifier(function (d, v) {
         d.dataset.front = v ? "1" : "0";
-        if (d.classList.contains("wmark")) d.style.visibility = v ? "visible" : "hidden"; else applyLabel(d);
+        if (d.classList.contains("wmark") || d.classList.contains("tmark")) d.style.visibility = v ? "visible" : "hidden"; else applyLabel(d);
       })
       .onZoom(function (pov) {
         el.classList.toggle("zoomed", pov.altitude < 0.9);
@@ -1009,6 +1073,8 @@
 
   // ------------------------------------------------------------ başlat
   function bind() {
+    document.getElementById("top10btn").addEventListener("click", openTop);
+    Array.prototype.forEach.call(document.querySelectorAll("[data-tclose]"), function (b) { b.addEventListener("click", closeTop); });
     Array.prototype.forEach.call(document.querySelectorAll(".lang button"), function (b) {
       b.addEventListener("click", function () { setLang(b.dataset.lang); });
     });
@@ -1030,7 +1096,8 @@
     document.addEventListener("click", function (e) { if (!e.target.closest(".search")) box.hidden = true; });
     document.addEventListener("keydown", function (e) {
       if (e.key !== "Escape") return;
-      if (!document.getElementById("modal").hidden) closeRecipe(); else closePanel();
+      if (!document.getElementById("topmodal").hidden) closeTop();
+      else if (!document.getElementById("modal").hidden) closeRecipe(); else closePanel();
     });
     window.addEventListener("hashchange", function () { if (!hashLock) fromHash(); });
   }

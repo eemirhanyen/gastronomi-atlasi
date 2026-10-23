@@ -23,6 +23,7 @@
       </div>
       <span class="stats" id="stats"></span>
     </div>
+    <button type="button" class="top10-btn" id="top10btn">🏆 <span data-i18n="top10Short">Ölmeden Önce 10 Yemek</span></button>
   </header>
 
   <div class="search">
@@ -52,6 +53,14 @@
     <article class="recipe" role="dialog" aria-modal="true" aria-labelledby="r-title">
       <button class="close" data-close data-i18n-aria="close" aria-label="Kapat">×</button>
       <div id="recipe-body"></div>
+    </article>
+  </div>
+
+  <div class="modal" id="topmodal" hidden>
+    <div class="modal-back" data-tclose></div>
+    <article class="recipe topbox" role="dialog" aria-modal="true">
+      <button class="close" data-tclose data-i18n-aria="close" aria-label="Kapat">×</button>
+      <div id="top-body"></div>
     </article>
   </div>
 
