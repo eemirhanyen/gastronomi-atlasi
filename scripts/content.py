@@ -210,12 +210,14 @@ def run_batch(requests, label, _retry=False):
     return out
 
 
-def req(cid, system, user, max_tokens, model=None, tool=None):
+def req(cid, system, user, max_tokens, model=None, schema=None):
     r = {"custom_id": cid, "params": {"model": model or MODEL, "max_tokens": max_tokens, "system": system,
                                        "messages": [{"role": "user", "content": user}]}}
-    if tool:   # yanıtı şemaya uyan araç çağrısı olarak zorunlu kıl (geçerli JSON garantisi)
-        r["params"]["tools"] = [tool]
-        r["params"]["tool_choice"] = {"type": "tool", "name": tool["name"]}
+    if schema:
+        # Yapılandırılmış çıktı: API yanıtın bu JSON şemasına uymasını garanti eder (toplu işlemde de geçerli).
+        # Şart: her nesnede additionalProperties false. (Zorunlu tool_choice Sonnet 5.5'te desteklenmiyor.)
+        # Kaynak: https://platform.claude.com/docs/en/build-with-claude/structured-outputs
+        r["params"]["output_config"] = {"format": {"type": "json_schema", "schema": schema}}
     return r
 
 
