@@ -12,6 +12,7 @@ Sonuç: data/work/photos.json  {anahtar: {"url","page","score"} | None}
 Anahtar: tarif "ISO_yemek-id", simge lezzet "ISO~sig~ad".
 Kullanım: ONLY=TUR,ITA python scripts/photos.py cands verify credits
 """
+import base64
 import concurrent.futures as cf
 import json
 import os
@@ -132,29 +133,69 @@ Be strict: e.g. for "Adana kebab" a photo of thin meatball skewers on bamboo sti
 Reply with ONLY JSON: {"scores":[n, ...], "best": index_of_best_photo_or_null}"""
 
 
+def small(url):
+    """Doğrulama için küçük standart küçük resim (Wikimedia önerilen boyut 330px)."""
+    return re.sub(r"/(\d+)px-", "/330px-", url)
+
+
+def fetch_image(url):
+    """Anthropic sunucuları upload.wikimedia.org'dan indiremiyor; resmi burada indirip base64 gönderiyoruz."""
+    for i in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(small(url), headers=C.UA), timeout=40) as r:
+                ct = r.headers.get("Content-Type", "").split(";")[0]
+                data = r.read()
+            if ct not in ("image/jpeg", "image/png", "image/webp", "image/gif") or len(data) > 1_500_000:
+                return None
+            return {"type": "base64", "media_type": ct, "data": base64.b64encode(data).decode()}
+        except Exception:
+            time.sleep(2 * (i + 1))
+    return None
+
+
 def stage_verify():
     cands = C.jload(CANDS, {})
     done = C.jload(OUT, {})
     meta = {it[0]: it for it in items()}
     todo = [k for k, v in cands.items() if k in meta and k not in done]
     C.log(f"verify: {len(todo)} öğe")
-    reqs, ids = [], {}
-    for n, key in enumerate(todo):
+    ids, kept = {}, {}               # kept[key] = indirilebilen adaylar (sıra korunur)
+
+    def build(arg):
+        n, key = arg
         cs = cands[key]
-        if not cs:
-            done[key] = None
-            continue
         _, iso, en, native, desc, ingr, _w = meta[key]
         content = [{"type": "text", "text": f"Dish: {en}" + (f" ({native})" if native else "") + f"\nCountry: {C.REF[iso]['name']}\n"
                                             f"About: {desc[:300]}\nIngredients: {', '.join(ingr)[:400]}"}]
-        for i, c in enumerate(cs):
-            content += [{"type": "text", "text": f"Photo {i}:"}, {"type": "image", "source": {"type": "url", "url": c["url"]}}]
-        cid = f"ph{n}"
-        ids[cid] = key
-        reqs.append({"custom_id": cid, "params": {"model": os.environ.get("PHOTO_MODEL", C.MODEL), "max_tokens": 300,
-                                                  "system": VERIFY_SYSTEM, "messages": [{"role": "user", "content": content}]}})
-    if reqs:
-        for cid, text in C.run_batch(reqs, "verify").items():
+        ok = []
+        for c in cs:
+            src = fetch_image(c["url"])
+            if not src:
+                continue
+            content += [{"type": "text", "text": f"Photo {len(ok)}:"}, {"type": "image", "source": src}]
+            ok.append(c)
+        if not ok:
+            return key, None, None
+        return key, ok, {"custom_id": f"ph{n}", "params": {"model": os.environ.get("PHOTO_MODEL", C.MODEL), "max_tokens": 300,
+                                                            "system": VERIFY_SYSTEM, "messages": [{"role": "user", "content": content}]}}
+    work = [(n, k) for n, k in enumerate(todo) if cands[k]]
+    for k in todo:
+        if not cands[k]:
+            done[k] = None
+    # Resimler istek içinde taşındığı için toplu istekler 250'şerlik parçalarla gönderilir (boyut sınırı)
+    for start in range(0, len(work), 250):
+        reqs = []
+        with cf.ThreadPoolExecutor(int(os.environ.get("WORKERS", "6"))) as ex:
+            for key, ok, rq in ex.map(build, work[start:start + 250]):
+                if not rq:
+                    done[key] = None
+                    continue
+                kept[key] = ok
+                ids[rq["custom_id"]] = key
+                reqs.append(rq)
+        if not reqs:
+            continue
+        for cid, text in C.run_batch(reqs, f"verify {start}").items():
             key = ids[cid]
             try:
                 v = C.extract_json(text)
@@ -163,13 +204,14 @@ def stage_verify():
                 if best is None and scores:
                     best = max(range(len(scores)), key=lambda i: scores[i])
                 best = int(best) if best is not None else None
-                if best is not None and best < len(scores) and scores[best] >= MIN_SCORE and best < len(cands[key]):
-                    c = cands[key][best]
+                if best is not None and best < len(scores) and scores[best] >= MIN_SCORE and best < len(kept[key]):
+                    c = kept[key][best]
                     done[key] = {"url": c["url"], "file": c["file"], "page": c["page"], "score": scores[best]}
                 else:
                     done[key] = None
             except Exception as e:
                 C.log(f"  {key}: çözülemedi {e}")
+        C.jsave(OUT, done)
     C.jsave(OUT, done)
     ok = sum(1 for v in done.values() if v)
     C.log(f"  fotoğraflı: {ok} / {len(done)} (eşik {MIN_SCORE})")
