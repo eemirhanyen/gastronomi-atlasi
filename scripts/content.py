@@ -28,6 +28,9 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+# relatives.py / photos.py "import content" yaptığında aynı modül kullanılsın (yoksa token sayaçları ayrı tutulur)
+sys.modules.setdefault("content", sys.modules[__name__])
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 WORK = os.path.join(DATA, "work")
@@ -108,7 +111,7 @@ def api(method, path, body=None, raw=False):
 USAGE = {"in": 0, "out": 0}
 
 
-def run_batch(requests, label):
+def run_batch(requests, label, _retry=False):
     """{custom_id: metin}. Büyük işleri 5.000'lik parçalara böler."""
     out = {}
     for k in range(0, len(requests), 5000):
@@ -124,7 +127,7 @@ def run_batch(requests, label):
             b = api("GET", f"/messages/batches/{bid}")
             if waited % 300 == 0:
                 log(f"    {waited}s {b.get('request_counts')}")
-        bad = 0
+        bad, cut = 0, set()
         for line in api("GET", f"/messages/batches/{bid}/results", raw=True).decode("utf-8").splitlines():
             if not line.strip():
                 continue
@@ -140,9 +143,19 @@ def run_batch(requests, label):
             if msg.get("stop_reason") == "max_tokens":
                 bad += 1
                 log(f"    {r['custom_id']}: max_tokens ({u.get('output_tokens')})")
+                cut.add(r["custom_id"])
                 continue
             out[r["custom_id"]] = "".join(c.get("text", "") for c in msg["content"] if c.get("type") == "text")
         log(f"  [{label}] tamam: {len(out)} yanıt, başarısız {bad}")
+        # Kalıcı kural: çıktı sınırına takılan istekler bir kez, sınır 3 katına çıkarılarak otomatik yeniden denenir
+        if cut and not _retry:
+            again = []
+            for r0 in part:
+                if r0["custom_id"] in cut:
+                    p0 = dict(r0["params"]); p0["max_tokens"] = min(32000, p0["max_tokens"] * 3)
+                    again.append({"custom_id": r0["custom_id"], "params": p0})
+            log(f"  [{label}] {len(again)} istek sınıra takıldı, sınır 3 katıyla yeniden deneniyor")
+            out.update(run_batch(again, label + " (tekrar)", _retry=True))
     return out
 
 

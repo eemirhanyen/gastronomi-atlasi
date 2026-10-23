@@ -176,7 +176,7 @@ def stage_verify():
             ok.append(c)
         if not ok:
             return key, None, None
-        return key, ok, {"custom_id": f"ph{n}", "params": {"model": os.environ.get("PHOTO_MODEL", C.MODEL), "max_tokens": 300,
+        return key, ok, {"custom_id": f"ph{n}", "params": {"model": os.environ.get("PHOTO_MODEL", C.MODEL), "max_tokens": 1200,
                                                             "system": VERIFY_SYSTEM, "messages": [{"role": "user", "content": content}]}}
     work = [(n, k) for n, k in enumerate(todo) if cands[k]]
     for k in todo:
@@ -220,7 +220,9 @@ def stage_verify():
 # ------------------------------------------------------------------ künye
 def stage_credits():
     done = C.jload(OUT, {})
-    need = sorted({v["file"] for v in done.values() if v and "license" not in v})
+    def ft(f):
+        return f.replace("_", " ")
+    need = sorted({ft(v["file"]) for v in done.values() if v and not v.get("license")})
     C.log(f"credits: {len(need)} dosya")
     info = {}
     for k in range(0, len(need), 40):
@@ -235,8 +237,8 @@ def stage_credits():
         time.sleep(0.3)
     bad = 0
     for key, v in done.items():
-        if v and v["file"] in info:
-            v.update(info[v["file"]])
+        if v and ft(v["file"]) in info:
+            v.update(info[ft(v["file"])])
             lic = (v.get("license") or "").lower()
             # Serbest olmayan / belirsiz lisans: kullanma
             if not lic or "fair use" in lic or "non-free" in lic:
