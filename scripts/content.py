@@ -192,7 +192,11 @@ def run_batch(requests, label, _retry=False):
                 log(f"    {r['custom_id']}: max_tokens ({u.get('output_tokens')})")
                 cut.add(r["custom_id"])
                 continue
-            out[r["custom_id"]] = "".join(c.get("text", "") for c in msg["content"] if c.get("type") == "text")
+            # Şemalı araç çağrısı (req(..., tool=...)) varsa onun girdisi kullanılır: API geçerli JSON garanti eder.
+            # Serbest metin JSON'da model metin içine kaçışsız tırnak yazınca yanıt bozuluyordu.
+            tu = [c for c in msg["content"] if c.get("type") == "tool_use"]
+            out[r["custom_id"]] = json.dumps(tu[0]["input"], ensure_ascii=False) if tu else \
+                "".join(c.get("text", "") for c in msg["content"] if c.get("type") == "text")
         log(f"  [{label}] tamam: {len(out)} yanıt, başarısız {bad}")
         # Kalıcı kural: çıktı sınırına takılan istekler bir kez, sınır 3 katına çıkarılarak otomatik yeniden denenir
         if cut and not _retry:
@@ -206,9 +210,13 @@ def run_batch(requests, label, _retry=False):
     return out
 
 
-def req(cid, system, user, max_tokens, model=None):
-    return {"custom_id": cid, "params": {"model": model or MODEL, "max_tokens": max_tokens, "system": system,
-                                          "messages": [{"role": "user", "content": user}]}}
+def req(cid, system, user, max_tokens, model=None, tool=None):
+    r = {"custom_id": cid, "params": {"model": model or MODEL, "max_tokens": max_tokens, "system": system,
+                                       "messages": [{"role": "user", "content": user}]}}
+    if tool:   # yanıtı şemaya uyan araç çağrısı olarak zorunlu kıl (geçerli JSON garantisi)
+        r["params"]["tools"] = [tool]
+        r["params"]["tool_choice"] = {"type": "tool", "name": tool["name"]}
+    return r
 
 
 # ------------------------------------------------------------------ 1) plan
