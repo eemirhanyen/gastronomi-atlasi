@@ -878,7 +878,7 @@
       return '<button class="wreg" data-k="' + key + '" data-i="' + i + '"><b>' + esc(r.name) + "</b>" + esc(L(r.desc)) + "</button>";
     }).join("") + "</div>";
     if (w.styles && w.styles.length) h += "<h4>" + esc(t(T.st)) + "</h4>" + w.styles.map(function (x) {
-      return '<div class="wsty"><b>' + esc(x.name) + "</b> " + esc(L(x.desc)) + "</div>";
+      return '<div class="wsty"><b>' + esc(typeof x.name === "string" ? x.name : L(x.name)) + "</b> " + esc(L(x.desc)) + "</div>";
     }).join("");
     if (w.date) h += '<div class="src">' + esc(t("researched", { d: w.date })) + "</div>" + srcList(w.sources);
     return h + "</section>";

@@ -514,6 +514,34 @@ def stage_flavors():
     log(f"  tamamlanan: {len(done)}")
 
 
+# ------------------------------------------------------------------ araştırma adlarının Türkçesi (şarap/kahve/kakao tarzları)
+def stage_trnames():
+    path = os.path.join(WORK, "style_names_tr.json")
+    done = jload(path, {})
+    names = set()
+    for folder in ("wine", "coffee", "cocoa"):
+        for f in os.listdir(os.path.join(WORK, folder)) if os.path.isdir(os.path.join(WORK, folder)) else []:
+            for x in (jload(os.path.join(WORK, folder, f), {}) or {}).get("styles") or []:
+                if x.get("name") and x["name"] not in done:
+                    names.add(x["name"])
+    names = sorted(names)
+    log(f"trnames: {len(names)} ad")
+    if not names:
+        return
+    sys_ = ("Translate these names of wines, coffee and chocolate traditions into short, natural Turkish as a Turkish food writer would write them. "
+            "Keep proper names and protected names (appellations, local dish/drink names) in their original form, adding a Turkish word only where it "
+            "helps (e.g. 'Belgian pralines' -> 'Belçika pralinleri', 'Turkish coffee' -> 'Türk kahvesi', 'Tsinandali PDO' -> 'Tsinandali PDO', "
+            "'Türk kahvesi (Turkish coffee)' -> 'Türk kahvesi'). Reply with ONLY a JSON object mapping each input exactly to its Turkish form.")
+    reqs = [req(f"tn{k}", sys_, json.dumps(names[k:k + 80], ensure_ascii=False), 8000) for k in range(0, len(names), 80)]
+    for _, text in run_batch(reqs, "trnames").items():
+        try:
+            done.update({str(a): str(b)[:90] for a, b in extract_json(text).items()})
+        except Exception as e:
+            log(f"  trnames çözülemedi: {e}")
+    jsave(path, done, pretty=True)
+    log(f"  çevrilen: {len(done)}")
+
+
 # ------------------------------------------------------------------ yazım: başlık düzeni
 SMALL = {"tr": {"ve", "ile", "veya", "ya", "da", "de"},
          "en": {"and", "or", "of", "with", "in", "on", "the", "a", "an", "to", "de", "la", "le", "du", "des", "di", "del", "della", "alla", "al", "con", "da", "e", "y", "au", "aux", "et", "en", "à"}}
@@ -559,6 +587,7 @@ def stage_build():
     images = jload(os.path.join(WORK, "images.json"), {})
     scores = jload(os.path.join(WORK, "scores.json"), {})
     flavors = jload(os.path.join(WORK, "flavors.json"), {})
+    style_tr = jload(os.path.join(WORK, "style_names_tr.json"), {})
     import relatives
     rel = relatives.relatives_map()
     def spec(kind, key):
@@ -645,7 +674,9 @@ def stage_build():
             if prod_fao[key].get(iso) or wr:
                 c[key] = {"production": prod_fao[key].get(iso), "exports": prod_exp[key].get(iso), "n": len(prod_fao[key])}
                 if wr:
-                    c[key].update({k: wr.get(k) for k in ("summary", "none", "regions", "styles", "sources", "date")})
+                    c[key].update({k: wr.get(k) for k in ("summary", "none", "regions", "sources", "date")})
+                    c[key]["styles"] = [{"name": {"tr": style_tr.get(x["name"], x["name"]), "en": x["name"]}, "desc": x.get("desc")}
+                                        for x in wr.get("styles") or []]
                     c[key]["varieties"] = wr.get("varieties") or wr.get("grapes") or []
                     for r in wr.get("regions") or []:
                         regions_all[key].append([r["name"], iso, r["lat"], r["lng"], r["desc"], r.get("grapes", [])])
@@ -683,7 +714,7 @@ def _ph(name):
     return run
 
 
-STAGES = {"pcands": _ph("cands"), "pverify": _ph("verify"), "pcredits": _ph("credits"),
+STAGES = {"trnames": stage_trnames, "pcands": _ph("cands"), "pverify": _ph("verify"), "pcredits": _ph("credits"),
           "features": _rel("features"), "pairs": _rel("pairs"), "judge": _rel("judge"), "plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
           "items": stage_items, "images": stage_images, "score": stage_score, "flavors": stage_flavors, "build": stage_build}
 
@@ -692,7 +723,7 @@ def main():
     names = sys.argv[1:] or ["all"]
     if names == ["all"]:
         names = ["score", "flavors", "plan", "recipes", "review", "items", "images", "build"]
-    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items", "features", "judge", "pverify") for n in names)
+    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items", "features", "judge", "pverify", "trnames") for n in names)
     if need_api and not os.environ.get("ANTHROPIC_API_KEY"):
         log("HATA: ANTHROPIC_API_KEY yok"); sys.exit(1)
     for n in names:
