@@ -109,6 +109,27 @@ def api(method, path, body=None, raw=False):
 
 
 USAGE = {"in": 0, "out": 0}
+_last_ckpt = [time.time()]
+
+
+def checkpoint(msg, every=900):
+    """Uzun aşamalarda ara kayıt: GitHub Actions'ta en fazla 15 dakikada bir data/work'ü depoya yazar.
+    İş zaman aşımına uğrasa bile o ana kadarki sonuçlar kaybolmaz."""
+    if not os.environ.get("GITHUB_ACTIONS") or time.time() - _last_ckpt[0] < every:
+        return
+    _last_ckpt[0] = time.time()
+    import subprocess
+    sh = lambda *a: subprocess.run(list(a), cwd=ROOT, capture_output=True, text=True)
+    sh("git", "config", "user.name", "atlas-bot"); sh("git", "config", "user.email", "atlas-bot@users.noreply.github.com")
+    sh("git", "add", "-A", "data/work")
+    if sh("git", "diff", "--cached", "--quiet").returncode == 0:
+        return
+    sh("git", "commit", "-q", "-m", f"Ara kayıt: {msg}")
+    for _ in range(3):
+        if sh("git", "pull", "-q", "--rebase").returncode == 0 and sh("git", "push", "-q").returncode == 0:
+            log(f"  ara kayıt yapıldı ({msg})")
+            return
+        time.sleep(5)
 
 
 def run_batch(requests, label, _retry=False):

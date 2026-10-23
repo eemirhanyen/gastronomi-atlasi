@@ -120,6 +120,7 @@ def stage_cands():
             if n % 300 == 0:
                 C.jsave(CANDS, done)
                 C.log(f"  {n}/{len(todo)}")
+                C.checkpoint(f"fotoğraf adayları {n}/{len(todo)}")
     C.jsave(CANDS, done)
     C.log(f"  adaylı: {sum(1 for v in done.values() if v)} / {len(done)}")
 
@@ -212,6 +213,7 @@ def stage_verify():
             except Exception as e:
                 C.log(f"  {key}: çözülemedi {e}")
         C.jsave(OUT, done)
+        C.checkpoint(f"fotoğraf doğrulama {start + 250}/{len(work)}")
     C.jsave(OUT, done)
     ok = sum(1 for v in done.values() if v)
     C.log(f"  fotoğraflı: {ok} / {len(done)} (eşik {MIN_SCORE})")

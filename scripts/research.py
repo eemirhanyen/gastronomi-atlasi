@@ -270,6 +270,7 @@ def run(stage):
                 extra = (f"{len(res.get('regions') or [])} bölge, {len(res.get('grapes') or [])} üzüm" if stage == "wine"
                          else f"{len(res['restaurants'])} restoran, {len(res['dropped'])} elendi")
                 log(f"  {iso}: {extra}, {res['usage']['searches']} arama, ${res['usd']:.3f}")
+                C.checkpoint(f"araştırma {stage}")
     cost = C.jload(COST, {"runs": []})
     cost["runs"].append({"date": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "stage": stage,
                          "model": MODELS[stage], "ok": ok, "failed": bad, **{k: (round(v, 4) if k == "usd" else v) for k, v in TOTAL.items()}})
