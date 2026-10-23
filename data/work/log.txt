@@ -1115,3 +1115,21 @@ Token: giriş 90581, çıkış 63330 (model claude-haiku-5-5)
 === build
 build: 200 ülke, 3565 tarif
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== trunc
+trunc: 460 yarım metin, 189 dosyada
+  [trunc] batch msgbatch_01RoQuB6HsZHzcUcugwzqJTg: 19 istek
+  [trunc] tamam: 19 yanıt, başarısız 0
+  önce: …ksel kullanımı zayıfladı. Bugün ülke Afrika'nın en büyük kahve ihracatçısıdır, ü
+  sonra: …neksel kullanımı zayıfladı. Bugün ülke Afrika'nın en büyük kahve ihracatçısıdır.
+  önce: …op and weakened its traditional uses. Today Uganda is Africa's largest coffee ex
+  sonra: …weakened its traditional uses. Today Uganda is Africa's largest coffee exporter.
+  önce: … üretim ve ihracat geriledi. Buna rağmen kahve gündelik hayatın merkezinde kaldı
+  sonra: …üretim ve ihracat geriledi. Buna rağmen kahve gündelik hayatın merkezinde kaldı.
+  önce: … and output declined. Coffee stayed central to daily life: offering a cafecito i
+  sonra: …ur and investment away and output declined. Coffee stayed central to daily life.
+  önce: …l süzgeç 'phin', tatlandırılmış yoğunlaştırılmış süt ve yumurtalı kahve ya da tu
+  sonra: …eç 'phin' ve tatlandırılmış yoğunlaştırılmış süt bu kültürün temelini oluşturur.
+  önce: …ed robusta, the small metal drip filter called the phin, sweetened condensed mil
+  sonra: …usta, the small metal drip filter called the phin, and sweetened condensed milk.
+  yeniden yazılan: 459, son tam cümlede kesilen: 1
+Token: giriş 87094, çıkış 78519 (model claude-haiku-5-5)
