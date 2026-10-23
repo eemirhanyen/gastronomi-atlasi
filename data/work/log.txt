@@ -1069,3 +1069,9 @@ Token: giriş 5773, çıkış 4515 (model claude-haiku-5-5)
 === pairs
 pairs: 10055 aday çift; en sık aileler: [('fried dough', 331), ('fried plantain', 127), ('grilled fish', 110), ('shish kebab', 109), ('samosa', 88), ('flatbread', 81), ('fish soup', 80), ('maize porridge', 74), ('hibiscus drink', 73), ('dolma', 72), ('rice pudding', 70), ('pilaf', 63)]
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== judge
+judge: 130 çift
+  [judge] batch msgbatch_01CPXahZkUvc19ZnQh5HggsV: 17 istek
+  [judge] tamam: 17 yanıt, başarısız 0
+  puanlanan çift: 10107; dağılım: {0: 46, 10: 232, 20: 468, 30: 783, 40: 900, 50: 829, 60: 921, 70: 1449, 80: 2015, 90: 2464}
+Token: giriş 127345, çıkış 38128 (model claude-haiku-5-5)
