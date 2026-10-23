@@ -44,6 +44,16 @@
       clickInfo: "Ayrıntı için tıkla", openCountry: "Ülke sayfasını aç",
       relTitle: "Akraba yemekler", relSub: "Başka ülkelerde neredeyse aynı yemek", simTitle: "Benzer yemekler", relMap: "Haritada gör",
       relNote: "Benzerlik oranı yapay zekânın malzeme, teknik ve servis biçimine bakarak verdiği bir değerlendirmedir.", relOf: "{d} yemeğinin akrabaları",
+      lens_cuisine: "Mutfak", lens_spice: "Baharat", lens_sauce: "Sos", lens_wine: "Şarap", lens_coffee: "Kahve", lens_cocoa: "Çikolata", lens_michelin: "Michelin", lens_top10: "En İyi 10",
+      capScore: "Mutfak puanı · yapay zekâ değerlendirmesi", capSpice: "Küredeki yazılar: her ülkenin en sevilen baharatı", capSauce: "Küredeki yazılar: her ülkenin en sevilen sosu",
+      capMichelin: "Michelin Rehberi restoranları · bir noktaya dokun", capTop10: "Ölmeden önce tadılması gereken 10 yemek · birine dokun",
+      wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
+      namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
+      tab_genel: "Genel", tab_tarif: "Tarifler", tab_restoran: "Restoranlar", tab_tarim: "Tarım", goRecipes: "Bu mutfaktan {n} tarifin tamamı",
+      help: "Nasıl kullanılır?", next: "İleri", skip: "Geç", begin: "Başla",
+      intro1T: "Bir ülkeye dokun", intro1: "Mutfak puanını, simge lezzetleri ve fotoğraflı tarifleri gör.",
+      intro2T: "Mercekleri dene", intro2: "Alttaki simgelerle küreyi şarap, kahve, çikolata, baharat ya da Michelin haritasına çevir.",
+      intro3T: "Bir yemek ara", intro3: "Üstteki kutuya bir yemek ya da ülke adı yaz; doğrudan tarife git.",
       cat: { soup: "Çorba", main: "Ana yemek", side: "Yan yemek", salad: "Salata", bread: "Ekmek", pastry: "Hamur işi", dessert: "Tatlı", drink: "İçecek", snack: "Atıştırmalık", breakfast: "Kahvaltı", sauce: "Sos", street_food: "Sokak lezzeti" }
     },
     en: {
@@ -88,6 +98,16 @@
       clickInfo: "Click for details", openCountry: "Open country page",
       relTitle: "Related dishes", relSub: "Almost the same dish in other countries", simTitle: "Similar dishes", relMap: "Show on the map",
       relNote: "Similarity is an AI assessment of ingredients, technique and how the dish is served.", relOf: "Relatives of {d}",
+      lens_cuisine: "Cuisine", lens_spice: "Spices", lens_sauce: "Sauces", lens_wine: "Wine", lens_coffee: "Coffee", lens_cocoa: "Chocolate", lens_michelin: "Michelin", lens_top10: "Top 10",
+      capScore: "Cuisine score · AI assessment", capSpice: "Labels: each country's favourite spice", capSauce: "Labels: each country's favourite sauce",
+      capMichelin: "Michelin Guide restaurants · tap a dot", capTop10: "10 dishes to eat before you die · tap one",
+      wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
+      namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
+      tab_genel: "Overview", tab_tarif: "Recipes", tab_restoran: "Restaurants", tab_tarim: "Farming", goRecipes: "All {n} recipes from this cuisine",
+      help: "How to use", next: "Next", skip: "Skip", begin: "Start",
+      intro1T: "Tap a country", intro1: "See its cuisine score, signature flavours and recipes with photos.",
+      intro2T: "Try the lenses", intro2: "Use the icons at the bottom to turn the globe into a wine, coffee, chocolate, spice or Michelin map.",
+      intro3T: "Search a dish", intro3: "Type a dish or country in the box at the top and jump straight to the recipe.",
       cat: { soup: "Soup", main: "Main", side: "Side", salad: "Salad", bread: "Bread", pastry: "Pastry", dessert: "Dessert", drink: "Drink", snack: "Snack", breakfast: "Breakfast", sauce: "Sauce", street_food: "Street food" }
     }
   };
@@ -113,11 +133,21 @@
   // 0.003 altına inme: büyük ülkelerin düz üçgenleri küre yüzeyine gömülür, siyah titreşimli alanlar oluşur (z-fighting).
   var GROUND = 0.005;
   var lang = "tr", globe, labelEls = [], labelRank = 2;
-  var LY = { color: "score", wr: false, cr: false, kr: false, text: "names", m3: false, m2: false, m1: false, mb: false };
-  try { Object.assign(LY, JSON.parse(localStorage.getItem("ga-layers") || "{}")); } catch (e) { /* yok */ }
-  // Puan renkleriyle (kırmızı-sarı-yeşil) karışmasın diye beyaz-mavi tonlar
-  if (LY.score === false && LY.color === "score") LY.color = "none";
-  delete LY.score;
+  // Mercekler: tek dokunuşla küre rengi, noktalar, yazılar, sıralama ve panelin açılış sekmesi birlikte değişir
+  var LENSES = ["cuisine", "spice", "sauce", "wine", "coffee", "cocoa", "michelin", "top10"];
+  var LENS_ICON = { cuisine: "🍽️", spice: "🌶️", sauce: "🥣", wine: "🍷", coffee: "☕", cocoa: "🍫", michelin: "⭐", top10: "🏆" };
+  var PREF = { lens: "cuisine", names: true, regions: true, m3: true, m2: true, m1: true, mb: false };
+  try { Object.assign(PREF, JSON.parse(localStorage.getItem("ga-prefs") || "{}")); } catch (e) { /* yok */ }
+  if (LENSES.indexOf(PREF.lens) < 0) PREF.lens = "cuisine";
+  function savePrefs() { try { localStorage.setItem("ga-prefs", JSON.stringify(PREF)); } catch (e) { /* yok */ } }
+  var LY = {};
+  function deriveLY() {
+    var l = PREF.lens;
+    LY.color = PRODS[l] ? l : l === "michelin" ? "none" : "score";
+    LY.text = l === "spice" || l === "sauce" ? l : PREF.names ? "names" : "off";
+    Object.keys(PRODS).forEach(function (k) { LY[PRODS[k].ly] = l === k && PREF.regions; });
+    ["m3", "m2", "m1", "mb"].forEach(function (k) { LY[k] = l === "michelin" && PREF[k]; });
+  }
   var MCOL = { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff", w: "#e0457b", c: "#d9a25f", k: "#a0522d" };
   var MKEY = { 3: "m3", 2: "m2", 1: "m1", b: "mb", w: "wr", c: "cr", k: "kr" };
   // Üretim katmanları: şarap, kahve, kakao (FAO üretimiyle renk, araştırmadan bölge noktaları, panel bölümü)
@@ -213,74 +243,109 @@
     Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-aria]"), function (el) { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
     Array.prototype.forEach.call(document.querySelectorAll(".lang button"), function (b) { b.classList.toggle("on", b.dataset.lang === l); });
     updateLabels();
-    updateStats();
+    dock();
     legend();
+    if (!document.getElementById("intro").hidden) intro(true, S.introStep);
     renderRank();
     if (S.country) renderPanel();
     if (S.recipe) openRecipe(S.recipe[0], S.recipe[1], true);
     runSearch();
   }
-  function legend() {
+  function scoreBar() {
     var g = [];
     for (var v = 15; v <= 100; v += 5) g.push(scoreColor(v) + " " + ((v - 15) / 85 * 100).toFixed(0) + "%");
-    function cb(k, label, extra) {
-      return '<label class="ly"><input type="checkbox" data-ly="' + k + '"' + (LY[k] ? " checked" : "") + ">" + (extra || "") + "<span>" + label + "</span></label>";
+    return '<div class="lg-scale"><div class="lg-bar" style="background:linear-gradient(90deg,' + g.join(",") + ')"></div>' +
+      '<div class="lg-ticks"><span>15</span><span>55</span><span>100</span></div></div>';
+  }
+  function prodBar(k) {
+    var P = PRODS[k];
+    return '<div class="lg-scale"><div class="lg-bar" style="background:linear-gradient(90deg,' + prodColor(k, 1000) + "," + prodColor(k, 30000) + "," +
+      prodColor(k, P.max / 5) + "," + prodColor(k, P.max) + ')"></div><div class="lg-ticks"><span>1K</span><span>100K</span><span>' + P.tick + "</span></div></div>";
+  }
+  // Seçili merceğe göre alt şerit: renk ölçeği + açıklama + o merceğe özgü küçük ayarlar
+  function legend() {
+    var l = PREF.lens, h = "", tools = "";
+    function chip(key, on, label, dot, title) {
+      return '<button class="lg-chip' + (on ? " on" : "") + '" data-pref="' + key + '"' + (title ? ' title="' + esc(title) + '"' : "") + ' aria-pressed="' + !!on + '">' +
+        (dot ? '<i style="background:' + dot + '"></i>' : "") + label + "</button>";
     }
-    var cnt = S.michelinCount || {};
-    function mrow(a) {
-      var k = MKEY[a];
-      return cb(k, esc(t(a === "b" ? "bib" : "star" + a)) + (cnt[a] ? ' <em>' + cnt[a].toLocaleString(lang) + "</em>" : ""), '<i class="mdot" style="background:' + MCOL[a] + '"></i>');
+    if (l === "cuisine" || l === "spice" || l === "sauce") {
+      h = scoreBar() + '<span class="lg-cap">' + esc(t(l === "cuisine" ? "capScore" : l === "spice" ? "capSpice" : "capSauce")) + "</span>";
+    } else if (PRODS[l]) {
+      var n = S.regions && S.regions[l];
+      h = prodBar(l) + '<span class="lg-cap">' + esc(t(l + "Cap")) + " · FAOSTAT</span>";
+      tools += chip("regions", PREF.regions, esc(t("regionsChip")) + (n ? " <em>" + n.length + "</em>" : ""), MCOL[PRODS[l].code]);
+    } else if (l === "michelin") {
+      var cnt = S.michelinCount || {};
+      h = '<span class="lg-cap">' + esc(t("capMichelin")) + "</span>";
+      tools += [3, 2, 1, "b"].map(function (a) {
+        var k = MKEY[a];
+        return chip(k, PREF[k], (a === "b" ? "Bib" : stars(a)) + (cnt[a] ? " <em>" + cnt[a].toLocaleString(lang) + "</em>" : ""), MCOL[a], t(a === "b" ? "bib" : "star" + a));
+      }).join("");
+    } else if (l === "top10") {
+      h = '<span class="lg-cap">' + esc(t("capTop10")) + "</span>";
+      tools += '<button class="lg-chip" data-act="toplist">📜 ' + esc(t("top10Open")) + "</button>";
     }
-    document.getElementById("legend").innerHTML =
-      '<details class="lg"' + (S.lgOpen !== false && (S.lgOpen || window.innerWidth > 720) ? " open" : "") + "><summary>" + esc(t("layers")) + "</summary>" +
-      [["score", "colScore"], ["wine", "colWine"], ["coffee", "colCoffee"], ["cocoa", "colCocoa"], ["none", "colNone"]].map(function (o) {
-        return '<label class="ly"><input type="radio" name="lycolor" data-col="' + o[0] + '"' + (LY.color === o[0] ? " checked" : "") + "><span>" +
-          (PRODS[o[0]] ? PRODS[o[0]].icon + " " : "") + esc(t(o[1])) + "</span></label>";
-      }).join("") +
-      (LY.color === "score" ? '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + g.join(",") + ')"></div>' +
-        '<div class="lg-ticks"><span>15</span><span>55</span><span>100</span></div><div class="lg-s">' + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</div></div>" : "") +
-      (PRODS[LY.color] ? (function (k, P) {
-        return '<div class="lg-sub"><div class="lg-bar" style="background:linear-gradient(90deg,' + prodColor(k, 1000) + "," + prodColor(k, 30000) + "," +
-          prodColor(k, P.max / 5) + "," + prodColor(k, P.max) + ')"></div>' +
-          '<div class="lg-ticks"><span>1K</span><span>100K</span><span>' + P.tick + '</span></div><div class="lg-s">' + esc(t(k + "Scale")) +
-          '</div><div class="lg-none"><i></i>' + esc(t("noWine")) + "</div></div>";
-      })(LY.color, PRODS[LY.color]) : "") +
-      '<div class="lg-h">' + esc(t("michelin")) + "</div>" + mrow(3) + mrow(2) + mrow(1) + mrow("b") +
-      '<div class="lg-h">' + esc(t("productLayers")) + "</div>" + Object.keys(PRODS).map(function (k) {
-        var P = PRODS[k], n = S.regions && S.regions[k];
-        return cb(P.ly, P.icon + " " + esc(t(k + "Regions")) + (n ? " <em>" + n.length + "</em>" : ""), '<i class="mdot" style="background:' + MCOL[P.code] + '"></i>');
-      }).join("") +
-      '<div class="lg-h">' + esc(t("lyText")) + "</div>" +
-      [["names", "txNames"], ["spice", "txSpice"], ["sauce", "txSauce"], ["off", "txOff"]].map(function (o) {
-        return '<label class="ly"><input type="radio" name="lytext" data-tx="' + o[0] + '"' + (LY.text === o[0] ? " checked" : "") + "><span>" +
-          (o[0] === "spice" ? "🌶️ " : o[0] === "sauce" ? "🥣 " : "") + esc(t(o[1])) + "</span></label>";
-      }).join("") + "</details>";
-    Array.prototype.forEach.call(document.querySelectorAll("[data-ly]"), function (x) {
-      x.addEventListener("change", function () {
-        LY[x.dataset.ly] = x.checked;
-        try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
-        applyLayers();
+    if (l !== "spice" && l !== "sauce" && l !== "top10") tools += chip("names", PREF.names, "Aa", "", t("namesT"));
+    if (l !== "top10") tools += '<button class="lg-chip lg-rk' + (rankOpen() ? " on" : "") + '" data-act="rank" title="' + esc(t("rankT")) + '" aria-pressed="' + rankOpen() + '">🏆</button>';
+    var box = document.getElementById("legend");
+    box.className = "legend lg-" + l;
+    box.innerHTML = '<div class="lg-main">' + h + "</div>" + (tools ? '<div class="lg-tools">' + tools + "</div>" : "");
+    measureBottom();
+    Array.prototype.forEach.call(box.querySelectorAll("[data-pref]"), function (b) {
+      b.addEventListener("click", function () {
+        var k = b.dataset.pref;
+        PREF[k] = !PREF[k];
+        savePrefs(); deriveLY();
+        if (k === "names") updateLabels();
+        legend(); applyLayers();
       });
     });
-    var det = document.querySelector("#legend details");
-    det.addEventListener("toggle", function () { S.lgOpen = det.open; });
-    Array.prototype.forEach.call(document.querySelectorAll("[data-col]"), function (x) {
-      x.addEventListener("change", function () {
-        LY.color = x.dataset.col;
-        try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
-        S.rankAll = false;
-        legend();
-        renderRank();
-        refresh();
+    Array.prototype.forEach.call(box.querySelectorAll("[data-act]"), function (b) {
+      b.addEventListener("click", function () {
+        if (b.dataset.act === "toplist") openTop();
+        else { S.rkOpen = !rankOpen(); renderRank(); legend(); }
       });
     });
-    Array.prototype.forEach.call(document.querySelectorAll("[data-tx]"), function (x) {
-      x.addEventListener("change", function () {
-        LY.text = x.dataset.tx;
-        try { localStorage.setItem("ga-layers", JSON.stringify(LY)); } catch (e) { /* yok */ }
-        updateLabels();
-      });
+  }
+  // Alt şeridin yüksekliği: sıralama, nokta kartı ve tanıtım kutusu her zaman onun üstünde dursun
+  function measureBottom() {
+    var b = document.getElementById("bottom");
+    if (b) document.documentElement.style.setProperty("--bh", (b.offsetHeight + 18) + "px");
+  }
+  window.addEventListener("resize", function () { measureBottom(); });
+  function rankOpen() { return S.rkOpen !== undefined ? S.rkOpen : window.innerWidth > 720; }
+  function dock() {
+    var d = document.getElementById("dock");
+    d.innerHTML = LENSES.map(function (l) {
+      return '<button class="lens' + (PREF.lens === l ? " on" : "") + '" data-lens="' + l + '" aria-pressed="' + (PREF.lens === l) + '">' +
+        '<span class="li">' + LENS_ICON[l] + '</span><span class="ll">' + esc(t("lens_" + l)) + "</span></button>";
+    }).join("");
+    Array.prototype.forEach.call(d.querySelectorAll(".lens"), function (b) {
+      b.addEventListener("click", function () { setLens(b.dataset.lens); });
     });
+    var on = d.querySelector(".lens.on");
+    if (on && d.scrollWidth > d.clientWidth) d.scrollLeft = on.offsetLeft - (d.clientWidth - on.offsetWidth) / 2;
+  }
+  function lensTab(c) {
+    var l = PREF.lens;
+    if (PRODS[l] && c && c[l]) return "icecek";
+    if (l === "michelin") return "restoran";
+    return "genel";
+  }
+  function setLens(l) {
+    if (l === PREF.lens && l !== "top10") return;
+    PREF.lens = l; savePrefs(); deriveLY();
+    S.rankAll = false;
+    hideMcard();
+    S.topOn = false;
+    updateLabels(); dock(); legend(); renderRank();
+    if (l === "top10") enterTop(); else applyLayers();
+    if (S.country && !S.country.missing) {
+      S.tab = lensTab(S.country);
+      if (PRODS[l] && S.country[l]) S.sub = l;
+      renderPanel();
+    }
   }
   function labelText(f) {
     var c = S.index[f.properties.iso];
@@ -406,6 +471,7 @@
     loadTop().then(function (d) {
       if (!d || !d.items || !d.items.length) return;
       return Promise.all(d.items.map(function (it) { return loadCountry(it.iso); })).then(function (cs) {
+        S.topCs = cs;
         var h = '<div class="top-h"><div class="top-k">🏆</div><h2>' + esc(t("top10")) + "</h2><p>" + esc(t("top10Sub")) + "</p>" +
           '<button class="rel-map top-map">🌍 ' + esc(t("top10Map")) + '</button></div><ol class="top-list">';
         d.items.forEach(function (it, i) {
@@ -422,23 +488,29 @@
         Array.prototype.forEach.call(body.querySelectorAll(".top-i"), function (b) {
           b.addEventListener("click", function () { closeTop(); openRecipe(b.dataset.iso, b.dataset.id); });
         });
-        body.querySelector(".top-map").addEventListener("click", function () { closeTop(); showTopOnMap(d); });
+        body.querySelector(".top-map").addEventListener("click", showTopOnMap);
         document.getElementById("topmodal").hidden = false;
       });
     });
   }
   function closeTop() { document.getElementById("topmodal").hidden = true; }
-  function showTopOnMap(d) {
-    S.topObjs = d.items.map(function (it) {
-      var a = anchor(it.iso) || { lat: 0, lng: 0 };
-      return { t: it, w: null, lat: a.lat, lng: a.lng };
+  function showTopOnMap() { closeTop(); setLens("top10"); }
+  // "En İyi 10" merceği: kürede numaralı işaretler, sıralama kutusunda fotoğraflı liste
+  function enterTop() {
+    loadTop().then(function (d) {
+      if (PREF.lens !== "top10" || !d || !d.items) return;
+      S.top = d;
+      S.topObjs = d.items.map(function (it) {
+        var a = anchor(it.iso) || { lat: 0, lng: 0 };
+        return { t: it, w: null, lat: a.lat, lng: a.lng };
+      });
+      S.topOn = true;
+      applyLayers();
+      labelEls.forEach(function (x) { applyLabel(x[0]); });
+      renderRank();
+      globe.controls().autoRotate = false;
+      if (!S.country) globe.pointOfView({ lat: 22, lng: 25, altitude: window.innerWidth <= 720 ? 3.2 : 2.6 }, 1200);
     });
-    S.topOn = true;
-    closePanel();
-    globe.htmlElementsData(htmlData());
-    labelEls.forEach(function (x) { applyLabel(x[0]); });
-    globe.controls().autoRotate = false;
-    globe.pointOfView({ lat: 25, lng: 30, altitude: 2.6 }, 1200);
   }
   function topMark(o) {
     var d = document.createElement("div");
@@ -478,7 +550,7 @@
       S.michelin = d.items;
       S.michelinCount = {};
       d.items.forEach(function (m) { S.michelinCount[m[5]] = (S.michelinCount[m[5]] || 0) + 1; });
-      legend();
+      legend(); renderRank();
       return d.items;
     }).catch(function () { S.michelin = []; showError(t("loadErr")); return []; });
     return S.mLoading;
@@ -566,52 +638,79 @@
   }
   function clickAt(coords, f) {
     if (S.relBack) hideRelMap();
-    if (S.topOn && !f) { S.topOn = false; globe.htmlElementsData(htmlData()); labelEls.forEach(function (x) { applyLabel(x[0]); }); }
     var m = coords && nearestPoint(coords.lat, coords.lng);
     if (m) { showMcard(m); return; }
     hideMcard();
     if (f) selectCountry(f.properties.iso, true); else closePanel();
   }
-  // Sıralama kutusu: renk moduna göre ilk 10 (puan ya da şarap üretimi), istenirse tümü
+  // Sıralama kutusu: seçili merceğe göre (puan, üretim, Michelin yıldızı ya da 10 yemek)
+  function rankList() {
+    var l = PREF.lens;
+    if (l === "michelin") {
+      if (!S.michelin) return null;
+      var by = {};
+      S.michelin.forEach(function (m) { if (m[5] !== "b" && m[2]) by[m[2]] = (by[m[2]] || 0) + m[5]; });
+      return Object.keys(by).filter(function (k) { return S.index[k]; }).map(function (k) { return { c: S.index[k], v: by[k] }; })
+        .sort(function (a, b) { return b.v - a.v; });
+    }
+    var prod = PRODS[l] ? l : null;
+    return Object.keys(S.index).map(function (k) { return S.index[k]; })
+      .filter(function (c) { return prod ? c[prod] : c.score != null; })
+      .map(function (c) { return { c: c, v: prod ? c[prod] : c.score }; })
+      .sort(function (a, b) { return b.v - a.v || cname(a.c.iso3).localeCompare(cname(b.c.iso3), lang); });
+  }
   function renderRank() {
     var box = document.getElementById("rank");
     if (!box) return;
-    var mode = PRODS[LY.color] ? LY.color : "score", prod = mode !== "score";
-    var list = Object.keys(S.index).map(function (k) { return S.index[k]; })
-      .filter(function (c) { return prod ? c[mode] : c.score != null; })
-      .sort(function (a, b) { return prod ? b[mode] - a[mode] : b.score - a.score || cname(a.iso3).localeCompare(cname(b.iso3), lang); });
-    if (!list.length || LY.color === "none") { box.hidden = true; return; }
+    var l = PREF.lens, open = rankOpen();
+    if (!open) { box.hidden = true; return; }
+    if (l === "top10") return renderTopRank(box);
+    var list = rankList();
+    if (!list || !list.length) { box.hidden = true; return; }
     box.hidden = false;
+    var prod = PRODS[l] ? l : null, mich = l === "michelin";
+    var title = mich ? "rankMichelin" : prod ? "rank" + l.charAt(0).toUpperCase() + l.slice(1) : "rankScore";
     var all = !!S.rankAll, shown = all ? list : list.slice(0, 10), rank = 0, prev = null;
-    var open = S.rkOpen !== undefined ? S.rkOpen : window.innerWidth > 720;
-    var h = '<div class="rk-h"><b class="rk-title" role="button" tabindex="0">🏆 ' + esc(t(prod ? "rank" + mode.charAt(0).toUpperCase() + mode.slice(1) : "rankScore")) + " " + (open ? "▾" : "▸") +
-      "</b>" + (open ? '<button class="rk-toggle">' + esc(all ? t("showTop") : t("showAll", { n: list.length })) + "</button>" : "") + "</div>";
-    if (!open) {
-      box.innerHTML = h;
-      box.querySelector(".rk-title").addEventListener("click", function () { S.rkOpen = true; renderRank(); });
-      return;
-    }
-    h += '<ol class="rk-list">';
-    shown.forEach(function (c, i) {
-      var v = prod ? c[mode] : c.score;
-      if (v !== prev) { rank = i + 1; prev = v; }        // eşit puanlar aynı sırayı paylaşır
-      var col = prod ? prodColor(mode, v) : scoreColor(v);
-      var val = prod ? new Intl.NumberFormat(lang, { notation: "compact", maximumFractionDigits: 1 }).format(v) + " t" : v;
+    var h = '<div class="rk-h"><b>' + LENS_ICON[l] + " " + esc(t(title)) + '</b><button class="rk-x" aria-label="' + esc(t("close")) + '">×</button></div><ol class="rk-list">';
+    shown.forEach(function (o, i) {
+      var c = o.c, v = o.v;
+      if (v !== prev) { rank = i + 1; prev = v; }        // eşit değerler aynı sırayı paylaşır
+      var col = mich ? "#9fd8ff" : prod ? prodColor(l, v) : scoreColor(v);
+      var val = mich ? v + " ★" : prod ? new Intl.NumberFormat(lang, { notation: "compact", maximumFractionDigits: 1 }).format(v) + " t" : v;
       h += '<li><button data-iso="' + c.iso3 + '"' + (S.country && S.country.iso3 === c.iso3 ? ' class="on"' : "") + '><span class="rk-n">' + rank +
         '</span><span class="rk-f">' + flag(c.iso2) + '</span><span class="rk-c">' + esc(cname(c.iso3)) +
         '</span><span class="rk-v" style="--c:' + col + (prod && v > 60000 ? ";color:#fff" : "") + '">' + val + "</span></button></li>";
     });
-    box.innerHTML = h + "</ol>";
-    box.querySelector(".rk-toggle").addEventListener("click", function () { S.rankAll = !S.rankAll; renderRank(); });
-    box.querySelector(".rk-title").addEventListener("click", function () { S.rkOpen = false; renderRank(); });
+    h += "</ol>" + (list.length > 10 ? '<button class="rk-toggle">' + esc(all ? t("showTop") : t("showAll", { n: list.length })) + "</button>" : "");
+    box.innerHTML = h;
+    var tg = box.querySelector(".rk-toggle");
+    if (tg) tg.addEventListener("click", function () { S.rankAll = !S.rankAll; renderRank(); });
+    box.querySelector(".rk-x").addEventListener("click", function () { S.rkOpen = false; renderRank(); legend(); });
     Array.prototype.forEach.call(box.querySelectorAll("[data-iso]"), function (b) {
       b.addEventListener("click", function () { selectCountry(b.dataset.iso, true); });
     });
   }
-  function updateStats() {
+  function renderTopRank(box) {
+    var d = S.top;
+    if (!d) { box.hidden = true; return; }
+    box.hidden = false;
+    var h = '<div class="rk-h"><b>🏆 ' + esc(t("top10")) + '</b><button class="rk-x" aria-label="' + esc(t("close")) + '">×</button></div><ol class="rk-list rk-top">';
+    d.items.forEach(function (it) {
+      var n = S.names && S.names[it.iso + "/" + it.id];
+      h += '<li><button data-iso="' + it.iso + '" data-id="' + esc(it.id) + '"><span class="rk-n tn">' + it.rank + '</span><span class="rk-c"><b>' +
+        esc(n ? (lang === "tr" ? n[2] : n[3]) : it.id) + "</b><em>" + flag(iso2Of(it.iso)) + " " + esc(cname(it.iso)) + "</em></span></button></li>";
+    });
+    box.innerHTML = h + '</ol><button class="rk-toggle" data-act="toplist">📜 ' + esc(t("top10Open")) + "</button>";
+    box.querySelector(".rk-x").addEventListener("click", function () { S.rkOpen = false; renderRank(); legend(); });
+    box.querySelector(".rk-toggle").addEventListener("click", openTop);
+    Array.prototype.forEach.call(box.querySelectorAll("[data-id]"), function (b) {
+      b.addEventListener("click", function () { openRecipe(b.dataset.iso, b.dataset.id); });
+    });
+  }
+  function stats() {
     var c = 0, r = 0;
     Object.keys(S.index).forEach(function (k) { if (S.index[k].recipes) { c++; r += S.index[k].recipes; } });
-    document.getElementById("stats").textContent = r ? t("stats", { c: c, r: r }) : "";
+    return r ? t("stats", { c: c, r: r.toLocaleString(lang) }) : "";
   }
 
   // ------------------------------------------------------------ küre
@@ -716,17 +815,21 @@
     S.filter = ""; S.cat = "";
     globe.controls().autoRotate = false;
     if (f && fly !== false) {
-      var c = centroid(f), mobile = window.innerWidth <= 720;
-      globe.pointOfView({ lat: c.lat - (mobile ? 8 : 0), lng: c.lng + (mobile ? 0 : 10), altitude: Math.max(1.15, Math.min(2.3, c.span / 18)) }, 1000);
+      var c = centroid(f), mobile = isMobile(), alt = Math.max(1.15, Math.min(2.3, c.span / 18));
+      globe.pointOfView({ lat: c.lat - (mobile ? alt * 9 : 0), lng: c.lng + (mobile ? 0 : 10), altitude: alt }, 1000);
     }
-    document.getElementById("hint").classList.add("gone");
+    if (!document.getElementById("intro").hidden) endIntro();
     var p = document.getElementById("panel");
     p.classList.add("open"); p.setAttribute("aria-hidden", "false");
+    if (!S.country || S.country.iso3 !== iso) sheet("half");
     document.body.classList.add("panel-open");
     refresh();
     return loadCountry(iso).then(function (c) {
       S.country = c || { iso3: iso, missing: true };
+      S.tab = lensTab(S.country);
+      S.sub = PRODS[PREF.lens] ? PREF.lens : null;
       renderPanel();
+      document.getElementById("panel-body").scrollTop = 0;
       setHash();
       return S.country;
     });
@@ -741,7 +844,7 @@
     if (!S.country && !S.selected) return;
     S.selected = null; S.country = null;
     var p = document.getElementById("panel");
-    p.classList.remove("open"); p.setAttribute("aria-hidden", "true");
+    p.classList.remove("open", "full"); p.setAttribute("aria-hidden", "true");
     document.body.classList.remove("panel-open");
     refresh();
     renderRank();
@@ -788,45 +891,122 @@
     requestAnimationFrame(function () { requestAnimationFrame(function () { a.style.strokeDashoffset = a.dataset.off; }); });
   }
   function renderPanel() {
-    var c = S.country, body = document.getElementById("panel-body");
+    var c = S.country, head = document.getElementById("panel-head"), body = document.getElementById("panel-body");
     if (!c) return;
-    var h = '<div class="c-head"><div class="c-flag">' + flag(iso2Of(c.iso3)) + '</div><div><h2>' + esc(cname(c.iso3)) + "</h2>" +
-      (c.recipes && c.recipes.length ? "<p>" + esc(t("recipesN", { n: c.recipes.length })) + "</p>" : "") + "</div></div>";
-    if (c.score) h += scoreCard(c);
+    var nrec = (c.recipes || []).length, idx = S.index[c.iso3] || {};
+    var tabs = [["genel", esc(t("tab_genel"))]];
+    var prods = c.missing ? [] : Object.keys(PRODS).filter(function (k) { return c[k]; });
+    if (!c.missing) {
+      if (nrec) tabs.push(["tarif", esc(t("tab_tarif")) + " <em>" + nrec + "</em>"]);
+      // Tek ürün varsa adıyla, birden çoksa simgeleriyle (dock'taki simgelerle aynı)
+      if (prods.length) tabs.push(["icecek", prods.length === 1 ? PRODS[prods[0]].icon + " " + esc(t("lens_" + prods[0])) :
+        '<span title="' + esc(prods.map(function (k) { return t("lens_" + k); }).join(", ")) + '">' + prods.map(function (k) { return PRODS[k].icon; }).join(" ") + "</span>"]);
+      tabs.push(["restoran", esc(t("tab_restoran"))]);
+      if (c.production || c.exports) tabs.push(["tarim", esc(t("tab_tarim"))]);
+    }
+    if (!tabs.some(function (x) { return x[0] === S.tab; })) S.tab = "genel";
+    if (prods.indexOf(S.sub) < 0) S.sub = prods[0];
+    head.innerHTML = '<div class="c-head"><div class="c-flag">' + flag(iso2Of(c.iso3)) + '</div><div class="c-t"><h2>' + esc(cname(c.iso3)) + "</h2><p>" +
+      (idx.score != null ? '<span class="c-sc" style="--c:' + scoreColor(idx.score) + '">' + idx.score + "</span>" : "") +
+      (idx.top ? esc(L(idx.top)) : "") + "</p></div></div>" +
+      (tabs.length > 1 ? '<div class="tabs" role="tablist">' + tabs.map(function (x) {
+        return '<button role="tab" class="tab' + (S.tab === x[0] ? " on" : "") + '" data-tab="' + x[0] + '" aria-selected="' + (S.tab === x[0]) + '">' + x[1] + "</button>";
+      }).join("") + "</div>" : "");
+    Array.prototype.forEach.call(head.querySelectorAll(".tab"), function (b) {
+      b.addEventListener("click", function () { setTab(b.dataset.tab); });
+    });
+    renderBody();
+  }
+  function setTab(k) {
+    S.tab = k;
+    var head = document.getElementById("panel-head");
+    Array.prototype.forEach.call(head.querySelectorAll(".tab"), function (x) {
+      x.classList.toggle("on", x.dataset.tab === k); x.setAttribute("aria-selected", x.dataset.tab === k);
+    });
+    var on = head.querySelector(".tab.on"), tb = head.querySelector(".tabs");
+    if (on && tb && (on.offsetLeft < tb.scrollLeft || on.offsetLeft + on.offsetWidth > tb.scrollLeft + tb.clientWidth)) tb.scrollLeft = on.offsetLeft - 16;
+    renderBody();
+    document.getElementById("panel-body").scrollTop = 0;
+  }
+  function renderBody() {
+    var c = S.country, body = document.getElementById("panel-body"), nrec = (c.recipes || []).length;
+    var prods = c.missing ? [] : Object.keys(PRODS).filter(function (k) { return c[k]; });
+    var h = "";
     if (c.missing) {
-      body.innerHTML = h + '<div class="sec"><div class="nodata">' + esc(t("noData")) + "</div></div>";
+      body.innerHTML = '<div class="sec"><div class="nodata">' + esc(t("noData")) + "</div></div>";
       return;
     }
-    if (c.signature && c.signature.length) {
-      h += '<section class="sec"><h3>' + esc(t("signature")) + '</h3><div class="sig">' + c.signature.slice(0, 6).map(function (s) {
-        return '<div class="sig-card">' + photo(s.image, "", "") + '<div class="t"><b>' + esc(L(s.name)) + "</b>" +
-          (s.native && s.native !== L(s.name) ? "<i>" + esc(s.native) + "</i>" : "") + "<p>" + esc(L(s.desc)) + "</p></div></div>";
-      }).join("") + "</div></section>";
+    if (S.tab === "genel") {
+      if (c.score) h += scoreCard(c);
+      if (c.signature && c.signature.length) {
+        h += '<section class="sec"><h3>' + esc(t("signature")) + '</h3><div class="sig">' + c.signature.slice(0, 6).map(function (s) {
+          return '<div class="sig-card">' + photo(s.image, "", "") + '<div class="t"><b>' + esc(L(s.name)) + "</b>" +
+            (s.native && s.native !== L(s.name) ? "<i>" + esc(s.native) + "</i>" : "") + "<p>" + esc(L(s.desc)) + "</p></div></div>";
+        }).join("") + "</div></section>";
+      }
+      if (nrec) h += '<button class="go-rec" data-go="tarif">📖 ' + esc(t("goRecipes", { n: nrec })) + " →</button>";
+      h += flav(c.spices, "spices", "🌶️") + flav(c.sauces, "sauces", "🥣");
+    } else if (S.tab === "tarif") {
+      h += recSec(c);
+    } else if (S.tab === "icecek") {
+      if (prods.length > 1) h += '<div class="seg">' + prods.map(function (k) {
+        return '<button class="' + (S.sub === k ? "on" : "") + '" data-sub="' + k + '">' + PRODS[k].icon + " " + esc(t("lens_" + k)) + "</button>";
+      }).join("") + "</div>";
+      h += prodSec(c, S.sub);
+    } else if (S.tab === "restoran") {
+      var ms = '<section class="sec" id="msec"></section>', rs = restSec(c);
+      h += PREF.lens === "michelin" ? ms + rs : rs + ms;
+    } else if (S.tab === "tarim") {
+      h += '<section class="sec"><h3>' + esc(t("production")) + "</h3>" + bars(c.production, "prod") + "</section>";
+      h += '<section class="sec"><h3>' + esc(t("exports")) + "</h3>" + bars(c.exports, "exp") + "</section>";
     }
-    function flav(list, key, icon) {
-      if (!list || !list.length) return "";
-      return '<section class="sec"><h3>' + esc(t(key)) + '</h3><div class="flv">' + list.map(function (x) {
-        return '<div class="flv-i"><span>' + icon + "</span><div><b>" + esc(L(x.name)) + "</b>" + (L(x.desc) ? "<p>" + esc(L(x.desc)) + "</p>" : "") + "</div></div>";
-      }).join("") + "</div></section>";
-    }
-    h += flav(c.spices, "spices", "🌶️") + flav(c.sauces, "sauces", "🥣");
-    h += prodSec(c, "wine") + prodSec(c, "coffee") + prodSec(c, "cocoa") + restSec(c);
-    h += '<section class="sec" id="msec"></section>';
-    h += '<section class="sec"><h3>' + esc(t("production")) + "</h3>" + bars(c.production, "prod") + "</section>";
-    h += '<section class="sec"><h3>' + esc(t("exports")) + "</h3>" + bars(c.exports, "exp") + "</section>";
-    h += '<section class="sec" id="rsec"><h3>' + esc(t("recipes")) + "<small>" + esc(t("recipesN", { n: (c.recipes || []).length })) + "</small></h3>";
-    if (!c.recipes || !c.recipes.length) {
-      h += '<div class="nodata">' + esc(t("noRecipes")) + "</div>";
-    } else {
-      var cats = [];
-      c.recipes.forEach(function (r) { if (cats.indexOf(r.category) < 0) cats.push(r.category); });
-      h += '<div class="r-tools"><input id="rfilter" type="search" placeholder="' + esc(t("filter")) + '" value="' + esc(S.filter) + '"></div>';
-      h += '<div class="chips"><button class="chip' + (S.cat ? "" : " on") + '" data-cat="">' + esc(t("all")) + "</button>" +
-        cats.map(function (k) { return '<button class="chip' + (S.cat === k ? " on" : "") + '" data-cat="' + k + '">' + (CAT_ICON[k] || "") + " " + esc(t("cat." + k)) + "</button>"; }).join("") + "</div>";
-      h += '<div id="rlist"></div>';
-    }
-    h += "</section>";
     body.innerHTML = h;
+    Array.prototype.forEach.call(body.querySelectorAll("[data-go]"), function (b) {
+      b.addEventListener("click", function () { setTab(b.dataset.go); });
+    });
+    Array.prototype.forEach.call(body.querySelectorAll("[data-sub]"), function (b) {
+      b.addEventListener("click", function () { S.sub = b.dataset.sub; renderBody(); });
+    });
+    if (S.tab === "tarif") bindRecSec(body);
+    if (S.tab === "restoran") renderMichelin(c.iso3);
+    if (S.tab === "genel") animateScore();
+    Array.prototype.forEach.call(body.querySelectorAll(".wreg"), function (b) {
+      b.addEventListener("click", function () {
+        var key = b.dataset.k || "wine", r = c[key].regions[+b.dataset.i];
+        if (!PREF.regions) { PREF.regions = true; savePrefs(); }
+        if (PREF.lens !== key) setLens(key); else { deriveLY(); legend(); }
+        sheet("half");
+        loadRegions(key).then(function () {
+          applyLayers();
+          var m = (S.regions[key] || []).find(function (x) { return x[2] === c.iso3 && x[0] === r.name; });
+          flyTo(r.lat, r.lng, 0.5);
+          if (m) showMcard(m);
+        });
+      });
+    });
+  }
+  // Seçili noktaya uç: masaüstünde panelin solunda, telefonda yarım sayfanın üstünde kalsın
+  function flyTo(lat, lng, alt) {
+    var mobile = window.innerWidth <= 720;
+    globe.pointOfView({ lat: lat - (mobile ? alt * 3.2 : 0), lng: lng + (mobile ? 0 : alt * 6), altitude: alt }, 1200);
+  }
+  function flav(list, key, icon) {
+    if (!list || !list.length) return "";
+    return '<section class="sec"><h3>' + esc(t(key)) + '</h3><div class="flv">' + list.map(function (x) {
+      return '<div class="flv-i"><span>' + icon + "</span><div><b>" + esc(L(x.name)) + "</b>" + (L(x.desc) ? "<p>" + esc(L(x.desc)) + "</p>" : "") + "</div></div>";
+    }).join("") + "</div></section>";
+  }
+  function recSec(c) {
+    var h = '<section class="sec" id="rsec">';
+    if (!c.recipes || !c.recipes.length) return h + '<div class="nodata">' + esc(t("noRecipes")) + "</div></section>";
+    var cats = [];
+    c.recipes.forEach(function (r) { if (cats.indexOf(r.category) < 0) cats.push(r.category); });
+    h += '<div class="r-tools"><input id="rfilter" type="search" placeholder="' + esc(t("filter")) + '" value="' + esc(S.filter) + '"></div>';
+    h += '<div class="chips"><button class="chip' + (S.cat ? "" : " on") + '" data-cat="">' + esc(t("all")) + "</button>" +
+      cats.map(function (k) { return '<button class="chip' + (S.cat === k ? " on" : "") + '" data-cat="' + k + '">' + (CAT_ICON[k] || "") + " " + esc(t("cat." + k)) + "</button>"; }).join("") + "</div>";
+    return h + '<div id="rlist"></div></section>';
+  }
+  function bindRecSec(body) {
     var inp = document.getElementById("rfilter");
     if (inp) inp.addEventListener("input", function () { S.filter = inp.value; renderList(); });
     Array.prototype.forEach.call(body.querySelectorAll(".chip"), function (b) {
@@ -837,20 +1017,43 @@
       });
     });
     renderList();
-    renderMichelin(c.iso3);
-    animateScore();
-    Array.prototype.forEach.call(body.querySelectorAll(".wreg"), function (b) {
-      b.addEventListener("click", function () {
-        var key = b.dataset.k || "wine", r = c[key].regions[+b.dataset.i], P = PRODS[key];
-        if (!LY[P.ly]) { LY[P.ly] = true; legend(); }
-        loadRegions(key).then(function () {
-          applyLayers();
-          var m = (S.regions[key] || []).find(function (x) { return x[2] === c.iso3 && x[0] === r.name; });
-          globe.pointOfView({ lat: r.lat - (window.innerWidth <= 720 ? 2 : 0), lng: r.lng + (window.innerWidth <= 720 ? 0 : 3), altitude: 0.5 }, 1200);
-          if (m) showMcard(m);
-        });
-      });
+  }
+
+  // Telefonda panel alttan açılan sayfa: yarım ya da tam. Tutamaçtan sürüklenir, içerik kaydırılınca tama geçer.
+  function isMobile() { return window.innerWidth <= 720; }
+  function sheet(state) {
+    var p = document.getElementById("panel");
+    p.classList.toggle("full", state === "full");
+  }
+  function bindSheet() {
+    var p = document.getElementById("panel"), body = document.getElementById("panel-body");
+    var y0 = null, base = 0, dy = 0;
+    p.addEventListener("pointerdown", function (e) {
+      if (!isMobile() || !e.target.closest(".p-grab, .c-head")) return;
+      y0 = e.clientY; dy = 0;
+      base = p.classList.contains("full") ? 0 : p.offsetHeight - window.innerHeight * 0.56;
+      p.style.transition = "none";
+      try { p.setPointerCapture(e.pointerId); } catch (x) { /* yok */ }
     });
+    p.addEventListener("pointermove", function (e) {
+      if (y0 == null) return;
+      dy = e.clientY - y0;
+      p.style.transform = "translateY(" + Math.max(0, base + dy) + "px)";
+    });
+    function end() {
+      if (y0 == null) return;
+      y0 = null;
+      p.style.transition = ""; p.style.transform = "";
+      var full = p.classList.contains("full");
+      if (Math.abs(dy) < 6) sheet(full ? "half" : "full");
+      else if (dy < -50) sheet("full");
+      else if (dy > 60) { if (full) sheet("half"); else closePanel(); }
+    }
+    p.addEventListener("pointerup", end);
+    p.addEventListener("pointercancel", end);
+    body.addEventListener("scroll", function () {
+      if (isMobile() && body.scrollTop > 12 && !p.classList.contains("full")) sheet("full");
+    }, { passive: true });
   }
 
   function srcList(src) {
@@ -916,8 +1119,10 @@
         b.addEventListener("click", function () {
           var m = list[+b.dataset.i];
           var k = MKEY[m[5]];
-          if (!LY[k]) { LY[k] = true; legend(); applyLayers(); }
-          globe.pointOfView({ lat: m[3] - (window.innerWidth <= 720 ? 1.5 : 0), lng: m[4] + (window.innerWidth <= 720 ? 0 : 2.5), altitude: 0.35 }, 1200);
+          if (!PREF[k]) { PREF[k] = true; savePrefs(); }
+          if (PREF.lens !== "michelin") setLens("michelin"); else { deriveLY(); legend(); applyLayers(); }
+          sheet("half");
+          flyTo(m[3], m[4], 0.35);
           showMcard(m);
         });
       });
@@ -1040,6 +1245,7 @@
     card.innerHTML = '<button class="close" aria-label="' + esc(t("close")) + '">×</button><div class="rc-h">' + flag(iso2Of(iso)) + " " +
       esc(t("relOf", { d: L(r.name) })) + "</div>" + rel.map(relRow).join("");
     card.hidden = false;
+    document.body.classList.add("rel-open");
     card.querySelector(".close").addEventListener("click", hideRelMap);
     Array.prototype.forEach.call(card.querySelectorAll(".rel-i"), function (b) {
       b.addEventListener("click", function () { openRecipe(b.dataset.iso, b.dataset.id); });
@@ -1048,6 +1254,7 @@
   }
   function hideRelMap() {
     document.getElementById("relcard").hidden = true;
+    document.body.classList.remove("rel-open");
     if (globe) { globe.arcsData([]); globe.ringsData([]); }
     S.relBack = null;
   }
@@ -1095,6 +1302,34 @@
     else selectCountry(o.iso, true).then(function () { openRecipe(o.iso, o.id); });
   }
 
+  // ------------------------------------------------------------ ilk ziyaret tanıtımı (3 adım, bir kez)
+  var INTRO = [["🌍", "intro1T", "intro1", ""], ["🔭", "intro2T", "intro2", "hl-dock"], ["🔎", "intro3T", "intro3", "hl-search"]];
+  function intro(force, step) {
+    if (!force) {
+      try { if (localStorage.getItem("ga-intro")) return; } catch (e) { return; }
+      if (location.hash || S.country) return;
+    }
+    S.introStep = step || 0;
+    var x = INTRO[S.introStep], box = document.getElementById("intro"), last = S.introStep === INTRO.length - 1;
+    document.body.classList.remove("hl-dock", "hl-search");
+    if (x[3]) document.body.classList.add(x[3]);
+    box.innerHTML = '<div class="in-card" role="dialog" aria-modal="false"><div class="in-ic">' + x[0] + "</div>" +
+      (S.introStep === 0 ? '<div class="in-k">' + esc(stats()) + "</div>" : "") +
+      "<h3>" + esc(t(x[1])) + "</h3><p>" + esc(t(x[2])) + '</p><div class="in-f"><span class="in-dots">' +
+      INTRO.map(function (_, i) { return "<i" + (i === S.introStep ? ' class="on"' : "") + "></i>"; }).join("") + "</span>" +
+      (last ? "" : '<button class="in-skip">' + esc(t("skip")) + "</button>") +
+      '<button class="in-next">' + esc(t(last ? "begin" : "next")) + "</button></div></div>";
+    box.hidden = false;
+    var sk = box.querySelector(".in-skip");
+    if (sk) sk.addEventListener("click", endIntro);
+    box.querySelector(".in-next").addEventListener("click", function () { if (last) endIntro(); else intro(true, S.introStep + 1); });
+  }
+  function endIntro() {
+    document.getElementById("intro").hidden = true;
+    document.body.classList.remove("hl-dock", "hl-search");
+    try { localStorage.setItem("ga-intro", "1"); } catch (e) { /* yok */ }
+  }
+
   // ------------------------------------------------------------ adres çubuğu (#TUR veya #TUR/baklava)
   var hashLock = false;
   function setHash() {
@@ -1113,7 +1348,8 @@
 
   // ------------------------------------------------------------ başlat
   function bind() {
-    document.getElementById("top10btn").addEventListener("click", openTop);
+    document.getElementById("helpbtn").addEventListener("click", function () { intro(true, 0); });
+    bindSheet();
     Array.prototype.forEach.call(document.querySelectorAll("[data-tclose]"), function (b) { b.addEventListener("click", closeTop); });
     Array.prototype.forEach.call(document.querySelectorAll(".lang button"), function (b) {
       b.addEventListener("click", function () { setLang(b.dataset.lang); });
@@ -1136,7 +1372,8 @@
     document.addEventListener("click", function (e) { if (!e.target.closest(".search")) box.hidden = true; });
     document.addEventListener("keydown", function (e) {
       if (e.key !== "Escape") return;
-      if (!document.getElementById("topmodal").hidden) closeTop();
+      if (!document.getElementById("intro").hidden) endIntro();
+      else if (!document.getElementById("topmodal").hidden) closeTop();
       else if (!document.getElementById("modal").hidden) closeRecipe(); else closePanel();
     });
     window.addEventListener("hashchange", function () { if (!hashLock) fromHash(); });
@@ -1154,12 +1391,14 @@
       S.search = r[2];
       S.names = {};
       r[2].forEach(function (x) { S.names[x[0] + "/" + x[1]] = x; });
+      deriveLY();
       bind();
       initGlobe();
       setLang(lang);
-      applyLayers();
+      if (PREF.lens === "top10") enterTop(); else applyLayers();
       bindPointHover();
       fromHash();
+      setTimeout(function () { intro(false, 0); }, 1500);
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
   }
   window.GA = { state: S, globe: function () { return globe; }, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };

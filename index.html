@@ -13,27 +13,31 @@
 <body>
   <div id="globe" aria-label="Dünya küresi"></div>
 
-  <header class="brand">
-    <h1 data-i18n="title">Dünya Gastronomi Atlası</h1>
-    <p data-i18n="subtitle">Ülkelerin mutfağı, tarlası ve sofrası</p>
-    <div class="brand-row">
+  <header class="topbar">
+    <div class="brand">
+      <h1 data-i18n="title">Dünya Gastronomi Atlası</h1>
+      <p data-i18n="subtitle">Ülkelerin mutfağı, tarlası ve sofrası</p>
+    </div>
+    <div class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="m21 21-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"/></svg>
+      <input id="q" type="search" autocomplete="off" data-i18n-ph="searchPh" placeholder="Yemek ya da ülke ara…">
+      <div class="results" id="results" hidden></div>
+    </div>
+    <div class="tb-right">
+      <button type="button" class="help" id="helpbtn" data-i18n-aria="help" aria-label="Nasıl kullanılır?">?</button>
       <div class="lang" role="group" aria-label="Dil / Language">
         <button type="button" data-lang="tr">TR</button>
         <button type="button" data-lang="en">EN</button>
       </div>
-      <span class="stats" id="stats"></span>
     </div>
-    <button type="button" class="top10-btn" id="top10btn">🏆 <span data-i18n="top10Short">Ölmeden Önce 10 Yemek</span></button>
   </header>
 
-  <div class="search">
-    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="m21 21-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"/></svg>
-    <input id="q" type="search" autocomplete="off" data-i18n-ph="searchPh" placeholder="Yemek ya da ülke ara…">
-    <div class="results" id="results" hidden></div>
-  </div>
-
-  <div class="legend" id="legend"></div>
   <nav class="rank" id="rank" hidden aria-label="Sıralama"></nav>
+
+  <div class="bottom" id="bottom">
+    <div class="legend" id="legend"></div>
+    <nav class="dock" id="dock" aria-label="Mercekler"></nav>
+  </div>
 
   <div class="mcard" id="mcard" hidden></div>
   <div class="ptip" id="ptip" hidden></div>
@@ -41,10 +45,12 @@
 
   <footer class="credit"><span data-i18n="credit">Doç. Dr. Emirhan Yenişehirlioğlu tarafından hazırlanmıştır</span></footer>
 
-  <div class="hint" id="hint" data-i18n="hint">Bir ülkeye tıkla</div>
+  <div class="intro" id="intro" hidden></div>
 
   <aside class="panel" id="panel" aria-hidden="true">
+    <div class="p-grab" id="pgrab" aria-hidden="true"><i></i></div>
     <button class="close" id="close" data-i18n-aria="close" aria-label="Kapat">×</button>
+    <div id="panel-head"></div>
     <div id="panel-body"></div>
   </aside>
 
