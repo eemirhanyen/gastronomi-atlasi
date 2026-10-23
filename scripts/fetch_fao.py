@@ -44,7 +44,7 @@ CANDIDATES = {
 }
 ELEMENT = {"QCL": "5510", "TCL": "5922"}
 # Ayrıca saklanan kalemler (tüm ülkeler, en son yıl): şarap ve üzüm
-SPECIAL = {564: "wine", 560: "grapes"}
+SPECIAL = {564: "wine", 560: "grapes", 656: "coffee", 661: "cocoa", 666: "chocolate"}
 
 
 def log(m):
