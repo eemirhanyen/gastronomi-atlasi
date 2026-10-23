@@ -912,3 +912,10 @@ Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
 === build
 build: 199 ülke, 3546 tarif
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== pverify
+verify: 95 öğe
+  [verify 0] batch msgbatch_01HWY351n28o2MGZ4DaH6ywi: 95 istek
+  [verify 0] tamam: 95 yanıt, başarısız 0
+  ITA_panettone: çözülemedi Extra data: line 3 column 1 (char 36)
+  fotoğraflı: 140 / 157 (eşik 7)
+Token: giriş 132905, çıkış 33824 (model claude-haiku-5-5)
