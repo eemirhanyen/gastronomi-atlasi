@@ -771,6 +771,7 @@ def stage_build():
     QA_MAP.update({k: v for k, v in (jload(os.path.join(WORK, "qa_fixes.json"), {}) or {}).items() if not k.endswith("#ok")})
     import relatives
     rel = relatives.relatives_map()
+    pairings = jload(os.path.join(WORK, "pairings.json"), {})
     def spec(kind, key):
         return ((fao.get(kind + "_special") or {}).get(key) or {}).get("countries") or {}
     # Ürün katmanları: (panel anahtarı, FAO üretim kalemi, FAO ihracat kalemi, araştırma klasörü)
@@ -848,7 +849,8 @@ def stage_build():
                                      "name": tname(r["name"]), "desc": r["desc"], "servings": r["servings"], "time_min": r["time_min"],
                                      "difficulty": r["difficulty"], "ingredients": r["ingredients"], "steps": r["steps"],
                                      "tip": r.get("tip"), "reviewed": r.get("reviewed", False),
-                                     "image": dish_img(d, r, iso), "relatives": rel.get(f"{iso}_{d['id']}", [])})
+                                     "image": dish_img(d, r, iso), "relatives": rel.get(f"{iso}_{d['id']}", []),
+                                     "pairing": pairings.get(f"{iso}_{d['id']}")})
                 search.append([iso, d["id"], tcase(r["name"]["tr"], "tr"), tcase(r["name"]["en"], "en"), r.get("native") or ""])
         for key, _f, _e, folder in PRODUCTS:
             wr = jload(os.path.join(WORK, folder, iso + ".json"))
@@ -889,6 +891,11 @@ def _rel(name):
     return run
 
 
+def _pair():
+    import pairing
+    pairing.stage_pairing()
+
+
 def _ph(name):
     def run():
         import photos
@@ -896,7 +903,7 @@ def _ph(name):
     return run
 
 
-STAGES = {"qa": stage_qa, "trunc": stage_trunc, "trnames": stage_trnames, "pcands": _ph("cands"), "pverify": _ph("verify"), "pcredits": _ph("credits"),
+STAGES = {"qa": stage_qa, "trunc": stage_trunc, "pairing": _pair, "trnames": stage_trnames, "pcands": _ph("cands"), "pverify": _ph("verify"), "pcredits": _ph("credits"),
           "features": _rel("features"), "pairs": _rel("pairs"), "judge": _rel("judge"), "plan": stage_plan, "recipes": stage_recipes, "review": stage_review,
           "items": stage_items, "images": stage_images, "score": stage_score, "flavors": stage_flavors, "build": stage_build}
 
@@ -905,7 +912,7 @@ def main():
     names = sys.argv[1:] or ["all"]
     if names == ["all"]:
         names = ["score", "flavors", "plan", "recipes", "review", "items", "images", "build"]
-    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items", "features", "judge", "pverify", "trnames", "qa", "trunc") for n in names)
+    need_api = any(n in ("score", "flavors", "plan", "recipes", "review", "items", "features", "judge", "pverify", "trnames", "qa", "trunc", "pairing") for n in names)
     if need_api and not os.environ.get("ANTHROPIC_API_KEY"):
         log("HATA: ANTHROPIC_API_KEY yok"); sys.exit(1)
     for n in names:
