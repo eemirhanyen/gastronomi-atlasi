@@ -68,6 +68,21 @@ def download(code):
     raise RuntimeError(f"{code} dosyası indirilemedi")
 
 
+# Gastronomi atlasında gösterilmeyecek kalemler: istatistiksel artık kategoriler (n.e.c./nes/"other"),
+# gıda dışı ürünler ve canlı hayvanlar. Şarap/kahve/kakao gibi özel kalemler bu süzgeçten geçmez.
+VAGUE_WORDS = ("total", "n.e.c", " nes", "nes ", "other ", "feed", "food waste", "food preparations", "cake of", "cake,", "bran",
+               "tobacco", "cigar", "cotton", "rubber", "hides", "skins", "wool", "hair", "silk", "jute", "hemp", "fibre", "pyrethrum",
+               "beeswax", "crude organic", "industrial", "dog or cat", "live animals", "gluten", "meat meal", "chemically", "hydrogenated",
+               "lactose", "communion", "citronella", "castor", "essential oil", "undenatured", "husks", "residues", "copra", "palm kernels",
+               "malt extract", "mixes and doughs", "preparations")
+LIVE_ANIMALS = {866, 976, 1016, 1034, 1057, 1096, 1126, 1140, 946, 1068, 1072, 1079}
+
+
+def vague(code, name):
+    n = " " + (name or "").lower() + " "
+    return code in LIVE_ANIMALS or any(w in n for w in VAGUE_WORDS)
+
+
 def m49_to_iso():
     out = {}
     for iso, c in REF.items():
@@ -108,8 +123,8 @@ def collect(code):
             item_code = int(r.get("Item Code") or 0)
         except ValueError:
             continue
-        if item_code >= 1700 or item_code < 15 or "total" in (r.get("Item") or "").lower():
-            continue                      # grup toplamları ve "Total Merchandise Trade" (10)
+        if item_code >= 1700 or item_code < 15 or (item_code not in SPECIAL and vague(item_code, r.get("Item"))):
+            continue                      # toplamlar, belirsiz (n.e.c.) kalemler, gıda dışı ürünler
         m49 = (r.get("Area Code (M49)") or "").lstrip("'")
         if not m49.isdigit() or int(m49) not in m2i:
             continue
