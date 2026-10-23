@@ -8,6 +8,7 @@ Küre için ülke sınırları: Natural Earth 1:50m (kamu malı) -> data/countri
 Kullanım: python scripts/build_geo.py [yerel_ne_50m.geojson]
 """
 import json
+import math
 import os
 import sys
 import urllib.request
@@ -109,6 +110,93 @@ def merge(feats):
     return feats
 
 
+# ---------------------------------------------------------------- dolgu parçaları (yırtılma önlemi)
+# globe.gl (three-conic-polygon-geometry) en kısa kenarı CAP_RES derece ve üzerindeki çokgenleri sınır noktaları + iç ızgara
+# üzerinde kısıtsız Delaunay ile üçgenler ve ağırlık merkezi dışarıda kalan kenar üçgenlerini atar. Fiyortlu kıyılarda bu,
+# ülkenin içine uzanan koyu kamalar (yırtık) bırakır. Çözüm: dolgu ayrı bir geometri ("cap") olarak verilir:
+#  - kıyıya/sınıra değen hücreler TILE derecelik parçalara bölünür (kısa kenar < CAP_RES -> kütüphane kesin earcut kullanır)
+#  - tamamen içeride kalan hücreler büyük dikdörtgenlerde birleştirilir (dışbükey -> Delaunay yolu hatasız)
+#  - tüm parça kenarları ızgara noktalarından geçer, bu yüzden komşu parçalar aynı köşeleri paylaşır (çatlak yok)
+# Sınır çizgisi özgün geometriden çizilir (uygulama dolgu parçalarına çizgi çizmez).
+TILE = 4.0
+CAP_RES = 5.0
+
+
+def tiled(coords):
+    from shapely.geometry import Polygon, box
+    from shapely.geometry.polygon import orient
+    ext = coords[0]
+    xs, ys = [c[0] for c in ext], [c[1] for c in ext]
+    if min(max(xs) - min(xs), max(ys) - min(ys)) < CAP_RES - 0.5:
+        return [coords]
+    sh = Polygon(ext, coords[1:]).buffer(0)
+    x0, y0 = math.floor(min(xs) / TILE) * TILE, math.floor(min(ys) / TILE) * TILE
+    nx, ny = int(math.ceil((max(xs) - x0) / TILE)), int(math.ceil((max(ys) - y0) / TILE))
+    full, pieces = set(), []
+    for i in range(nx):
+        for j in range(ny):
+            cell = box(x0 + i * TILE, y0 + j * TILE, x0 + (i + 1) * TILE, y0 + (j + 1) * TILE)
+            if sh.contains(cell):
+                full.add((i, j)); continue
+            part = sh.intersection(cell)
+            for g in getattr(part, "geoms", [part]):
+                if g.geom_type == "Polygon" and g.area > 1e-7:
+                    pieces.append([list(g.exterior.coords)] + [list(r.coords) for r in g.interiors])
+                elif g.geom_type == "MultiPolygon":
+                    pieces += [[list(q.exterior.coords)] + [list(r.coords) for r in q.interiors] for q in g.geoms if q.area > 1e-7]
+    # tam hücreleri dikdörtgenlerde birleştir: önce satır boyunca, sonra aynı genişlikteki satırları üst üste
+    used = set()
+    for j in range(ny):
+        for i in range(nx):
+            if (i, j) not in full or (i, j) in used:
+                continue
+            w = 1
+            while (i + w, j) in full and (i + w, j) not in used:
+                w += 1
+            h = 1
+            while all((i + k, j + h) in full and (i + k, j + h) not in used for k in range(w)):
+                h += 1
+            # İki kenarı da >= 2 hücre (8°) olmalı: kısa kenarı CAP_RES'in altında kalan uzun şeritleri kütüphane iç noktasız
+            # üçgenler; uzun üçgenler kürenin eğrisini izlemez ve yüzeyin altına gömülür (koyu mercek şekilleri). Öyleyse tek hücre.
+            if w < 2 or h < 2:
+                w = h = 1
+            for a in range(w):
+                for b in range(h):
+                    used.add((i + a, j + b))
+            xa, ya, xb, yb = x0 + i * TILE, y0 + j * TILE, x0 + (i + w) * TILE, y0 + (j + h) * TILE
+            # kenarlar her ızgara noktasından geçer (komşu parçalarla ortak köşe; kütüphane ek ara nokta eklemez)
+            ring = [[xa + k * TILE, ya] for k in range(w)] + [[xb, ya + k * TILE] for k in range(h)] + \
+                   [[xb - k * TILE, yb] for k in range(w)] + [[xa, yb - k * TILE] for k in range(h)] + [[xa, ya]]
+            pieces.append([ring])
+    # d3-geo (globe.gl) halkanın yönüne bakar: dış halka saat yönünde, delikler tersine olmalı (Natural Earth ile aynı).
+    # Ters yöndeki halka "dünyanın geri kalanı" sayılır ve tüm küreyi boyar. shapely saat yönünün tersini üretir.
+    out = []
+    for pc in pieces:
+        g = orient(Polygon(pc[0], pc[1:]), sign=-1.0)
+        out.append([list(g.exterior.coords)] + [list(r.coords) for r in g.interiors])
+    return out
+
+
+def add_caps(feats):
+    n = 0
+    for f in feats:
+        if f["properties"]["iso"] == "ATA":
+            continue
+        gm = f["geometry"]
+        polys = [gm["coordinates"]] if gm["type"] == "Polygon" else gm["coordinates"]
+        out, split = [], False
+        for pl in polys:
+            t = tiled(pl)
+            split = split or t is not None and (len(t) != 1 or t[0] is not pl)
+            out += t
+        if split:
+            out = [[[[round(x, DIGITS), round(y, DIGITS)] for x, y in r] for r in pl] for pl in out]
+            f["cap"] = {"type": "MultiPolygon", "coordinates": out}
+            n += len(out)
+    print(f"dolgu parçaları: {sum(1 for f in feats if 'cap' in f)} ülke, {n} parça")
+    return feats
+
+
 def main():
     if len(sys.argv) > 1:
         g = json.load(open(sys.argv[1], encoding="utf-8"))
@@ -142,7 +230,7 @@ def main():
                       "properties": {"iso": iso, "name": p["NAME"], "lx": round(p["LABEL_X"], 2), "ly": round(p["LABEL_Y"], 2),
                                      "rank": p.get("LABELRANK") or 9, "iso2": None if iso2 in (None, "-99") else iso2},
                       "geometry": {"type": "MultiPolygon", "coordinates": polys} if len(polys) > 1 else {"type": "Polygon", "coordinates": polys[0]}})
-    feats = merge(feats)
+    feats = add_caps(merge(feats))
     json.dump({"type": "FeatureCollection", "features": feats}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"{len(feats)} ülke/bölge, nokta {n_in} -> {n_out}, dosya {os.path.getsize(OUT) // 1024} KB")
 

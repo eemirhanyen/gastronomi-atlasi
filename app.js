@@ -49,7 +49,7 @@
       capMichelin: "Michelin Rehberi restoranları · bir noktaya dokun", capTop10: "Ölmeden önce tadılması gereken 10 yemek · birine dokun",
       wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
       namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
-      tab_genel: "Genel", tab_tarif: "Tarifler", tab_restoran: "Restoranlar", tab_tarim: "Tarım", goRecipes: "Bu mutfaktan {n} tarifin tamamı",
+      sigShort: "Simge lezzet", michStars: "{n} Michelin yıldızı", noMich: "Michelin yıldızı yok", tab_genel: "Genel", tab_tarif: "Tarifler", tab_restoran: "Restoranlar", tab_tarim: "Tarım", goRecipes: "Bu mutfaktan {n} tarifin tamamı",
       help: "Nasıl kullanılır?", next: "İleri", skip: "Geç", begin: "Başla",
       intro1T: "Bir ülkeye dokun", intro1: "Mutfak puanını, simge lezzetleri ve fotoğraflı tarifleri gör.",
       intro2T: "Mercekleri dene", intro2: "Alttaki simgelerle küreyi şarap, kahve, çikolata, baharat ya da Michelin haritasına çevir.",
@@ -103,7 +103,7 @@
       capMichelin: "Michelin Guide restaurants · tap a dot", capTop10: "10 dishes to eat before you die · tap one",
       wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
       namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
-      tab_genel: "Overview", tab_tarif: "Recipes", tab_restoran: "Restaurants", tab_tarim: "Farming", goRecipes: "All {n} recipes from this cuisine",
+      sigShort: "Signature dish", michStars: "{n} Michelin stars", noMich: "No Michelin stars", tab_genel: "Overview", tab_tarif: "Recipes", tab_restoran: "Restaurants", tab_tarim: "Farming", goRecipes: "All {n} recipes from this cuisine",
       help: "How to use", next: "Next", skip: "Skip", begin: "Start",
       intro1T: "Tap a country", intro1: "See its cuisine score, signature flavours and recipes with photos.",
       intro2T: "Try the lenses", intro2: "Use the icons at the bottom to turn the globe into a wine, coffee, chocolate, spice or Michelin map.",
@@ -440,12 +440,12 @@
     batch.forEach(function (iso) {
       var i = idx[iso], f = feats[i], h = hiGeo[iso];
       if (!h || iso === "ATA") { f.__hi = true; return; }
-      var nf = { type: "Feature", properties: f.properties, geometry: h.geometry, __hi: true, __el: f.__el };
+      var nf = { type: "Feature", properties: f.properties, geometry: h.geometry, cap: h.cap, __hi: true, __el: f.__el };
       feats[i] = nf;
       if (S.selected === f) S.selected = nf;
       if (S.hover === f) S.hover = nf;
     });
-    if (batch.length) globe.polygonsData(feats.slice());
+    if (batch.length) globe.polygonsData(polyItems());
     if (list.length > batch.length || background && list.length) {
       upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, background ? 400 : 120);
     }
@@ -636,10 +636,58 @@
     if (S.mSel && S.mSel.__el) S.mSel.__el.classList.remove("on");
     if (S.mSel) { S.mSel = null; if (globe && S.points) globe.pointsData(S.points); }
   }
+  // Tıklanan ekran noktasındaki ülke: konum hesaplanır, ülke sınırlarıyla (nokta-çokgen testi) eşleştirilir
+  function inRing(x, y, r) {
+    var inside = false;
+    for (var i = 0, j = r.length - 1; i < r.length; j = i++) {
+      var xi = r[i][0], yi = r[i][1], xj = r[j][0], yj = r[j][1];
+      if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+    }
+    return inside;
+  }
+  function featureAt(lat, lng) {
+    var feats = S.geo.features;
+    for (var i = 0; i < feats.length; i++) {
+      var f = feats[i], g = f.geometry;
+      var b = f.__bb || (f.__bb = bboxOf(g));
+      if (lng < b[0] || lng > b[2] || lat < b[1] || lat > b[3]) continue;
+      var polys = g.type === "Polygon" ? [g.coordinates] : g.coordinates;
+      for (var k = 0; k < polys.length; k++) {
+        var pl = polys[k], ins = false;
+        for (var q = 0; q < pl.length; q++) if (inRing(lng, lat, pl[q])) ins = !ins;   // delikler çift-tek kuralıyla
+        if (ins) return f;
+      }
+    }
+    return null;
+  }
+  // Michelin noktası yalnızca ekranda gerçekten yakınsa seçilir (piksel cinsinden)
+  function pointNear(lat, lng, x, y, tol) {
+    var m = nearestPoint(lat, lng);
+    if (!m) return null;
+    var c = globe.getScreenCoords(m[3], m[4], GROUND);
+    return c && Math.hypot(c.x - x, c.y - y) <= tol ? m : null;
+  }
+  function bindClick() {
+    var el = document.getElementById("globe"), down = null;
+    el.addEventListener("pointerdown", function (e) {
+      down = e.isPrimary ? { x: e.clientX, y: e.clientY, t: Date.now(), touch: e.pointerType !== "mouse" } : null;
+    });
+    el.addEventListener("pointerup", function (e) {
+      var d = down; down = null;
+      if (!d || e.button > 0 || e.target.closest(".wmark, .tmark")) return;
+      // Küçük kaymaya tolerans: fare 5 px, dokunmatik 10 px (süre sınırı yok: yavaş cihazda olaylar gecikebiliyor)
+      if (Math.hypot(e.clientX - d.x, e.clientY - d.y) > (d.touch ? 10 : 5)) return;
+      var r = el.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+      var c = globe.toGlobeCoords(x, y);
+      if (!c) return;                                   // kürenin dışı (uzay)
+      if (S.relBack) hideRelMap();
+      var m = pointNear(c.lat, c.lng, x, y, d.touch ? 18 : 10);
+      if (m) { showMcard(m); return; }
+      clickAt(c, featureAt(c.lat, c.lng));
+    });
+  }
   function clickAt(coords, f) {
     if (S.relBack) hideRelMap();
-    var m = coords && nearestPoint(coords.lat, coords.lng);
-    if (m) { showMcard(m); return; }
     hideMcard();
     if (f) selectCountry(f.properties.iso, true); else closePanel();
   }
@@ -715,13 +763,42 @@
 
   // ------------------------------------------------------------ küre
   function has(f) { var c = S.index[f.properties.iso]; return !!(c && (c.recipes || c.signature || c.score != null)); }
-  function capColor(f) {
-    var c = S.index[f.properties.iso], lift = f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0;
+  // Küreye verilen çokgen öğeleri. Büyük ülkelerde dolgu ("cap": yırtılmaya karşı parçalanmış geometri) ve sınır çizgisi
+  // (özgün geometri, dolgusuz) iki ayrı öğedir; böylece parça kenarlarına çizgi çizilmez. Bkz. scripts/build_geo.py
+  function polyItems() {
+    var out = [];
+    S.geo.features.forEach(function (f) {
+      if (!f.__items) {
+        f.__items = f.cap
+          ? [{ __f: f, __k: "cap", geometry: f.cap }, { __f: f, __k: "line", geometry: f.geometry }]
+          : [{ __f: f, __k: "both", geometry: f.geometry }];
+      }
+      out.push.apply(out, f.__items);
+    });
+    return out;
+  }
+  function capColor(d) {
+    if (d.__k === "line") return null;
+    var f = d.__f, c = S.index[f.properties.iso], lift = f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0;
     // Ürün modlarında üretimi olmayan ülkeler mavi-gri: kahverengi ölçekle karışmasın
     var blank = f === S.selected ? "#6a5442" : f === S.hover ? "#4a3d33" : LY.color === "none" ? "#3a2e25" : PRODS[LY.color] ? "#2e3743" : "#2b231d";
     if (PRODS[LY.color]) return c && c[LY.color] ? prodColor(LY.color, c[LY.color], lift) : blank;
     if (LY.color !== "score" || !c || c.score == null) return blank;
     return scoreColor(c.score, lift);
+  }
+  // Üzerine gelince ülke etiketinin ikinci kısmı seçili merceğe göre: şarap merceğinde şarap üretimi, Michelin'de yıldız vb.
+  function tipSub(iso, c) {
+    if (!c) return "";
+    var l = PREF.lens, P = PRODS[l];
+    if (P) return " <span>· " + P.icon + " " + (c[l] ? esc(fmtTonnes(c[l])) : esc(t("noWine"))) + "</span>";
+    if (l === "spice") return c.spice ? " <span>· 🌶️ " + esc(L(c.spice)) + "</span>" : "";
+    if (l === "sauce") return c.sauce ? " <span>· 🥣 " + esc(L(c.sauce)) + "</span>" : "";
+    if (l === "michelin") {
+      if (!S.michelin) return "";
+      if (!S.mStars) { S.mStars = {}; S.michelin.forEach(function (m) { if (m[5] !== "b" && m[2]) S.mStars[m[2]] = (S.mStars[m[2]] || 0) + m[5]; }); }
+      return " <span>· " + esc(S.mStars[iso] ? t("michStars", { n: S.mStars[iso] }) : t("noMich")) + "</span>";
+    }
+    return (c.score != null ? " · <b>" + c.score + "</b>" : "") + (c.top ? " <span>· " + esc(t("sigShort")) + ": " + esc(L(c.top)) + "</span>" : "");
   }
   function applyLabel(el) {
     el.style.visibility = !S.topOn && LY.text !== "off" && el.textContent && el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
@@ -731,22 +808,23 @@
     globe = Globe()(el)
       .backgroundColor("#120d0a")
       .showAtmosphere(true).atmosphereColor("#f0a23b").atmosphereAltitude(0.16)
-      .polygonsData(S.geo.features)
+      .polygonsData(polyItems())
       // Düşük kabartma: yakınlaşınca adaların yan duvarları gölge şeridi gibi görünmesin
       // Tüm katmanlar aynı yükseklikte: ülke yüzeyi ile noktalar/işaretler arasında açıyla bakınca kayma (paralaks) olmasın.
       // Seçim ve üzerine gelme yükseklikle değil renkle gösterilir.
       .polygonAltitude(GROUND)
       .polygonCapColor(capColor)
-      .polygonSideColor(function () { return "rgba(20,12,6,0.55)"; })
-      .polygonStrokeColor(function () { return "rgba(18,13,10,0.9)"; })
-      .polygonLabel(function (f) {
+      .polygonSideColor(function (d) { return d.__k === "cap" ? null : "rgba(20,12,6,0.55)"; })
+      .polygonStrokeColor(function (d) { return d.__k === "cap" ? null : "rgba(18,13,10,0.9)"; })
+      .polygonLabel(function (d) {
+        var f = d.__f;
         var c = S.index[f.properties.iso];
-        var sub = (c && c.score != null ? " · <b>" + c.score + "</b>" : "") + (c && c.top ? " <span>· " + esc(L(c.top)) + "</span>" : "");
+        var sub = tipSub(f.properties.iso, c);
         return '<div class="tip">' + flag(iso2Of(f.properties.iso)) + " " + esc(cname(f.properties.iso)) + sub + "</div>";
       })
-      .onPolygonHover(function (f) { S.hover = f; el.style.cursor = f ? "pointer" : "grab"; refresh(); })
-      .onPolygonClick(function (f, ev, coords) { clickAt(coords, f); })
-      .onGlobeClick(function (coords) { clickAt(coords, null); })
+      .onPolygonHover(function (d) { var f = d ? d.__f : null; if (f === S.hover) return; S.hover = f; el.style.cursor = f ? "pointer" : "grab"; refresh(); })
+      // Tıklama globe.gl'e bırakılmaz (bkz. bindClick): kütüphane tıklanan nesneyi 50 ms'de bir güncellenen
+      // "üzerinde durulan" bilgisinden alıyor; dokunmatik ekranda ilk dokunuş boşa gidiyordu.
       .pointsData([])
       .pointLat(function (m) { return m[3]; })
       .pointLng(function (m) { return m[4]; })
@@ -907,8 +985,8 @@
     if (!tabs.some(function (x) { return x[0] === S.tab; })) S.tab = "genel";
     if (prods.indexOf(S.sub) < 0) S.sub = prods[0];
     head.innerHTML = '<div class="c-head"><div class="c-flag">' + flag(iso2Of(c.iso3)) + '</div><div class="c-t"><h2>' + esc(cname(c.iso3)) + "</h2><p>" +
-      (idx.score != null ? '<span class="c-sc" style="--c:' + scoreColor(idx.score) + '">' + idx.score + "</span>" : "") +
-      (idx.top ? esc(L(idx.top)) : "") + "</p></div></div>" +
+      (idx.score != null ? '<span class="c-sc" title="' + esc(t("scoreKicker")) + '" style="--c:' + scoreColor(idx.score) + '">' + esc(t("scoreKicker")) + " " + idx.score + "</span>" : "") +
+      (idx.top ? "<span>" + esc(t("sigShort")) + ": " + esc(L(idx.top)) + "</span>" : "") + "</p></div></div>" +
       (tabs.length > 1 ? '<div class="tabs" role="tablist">' + tabs.map(function (x) {
         return '<button role="tab" class="tab' + (S.tab === x[0] ? " on" : "") + '" data-tab="' + x[0] + '" aria-selected="' + (S.tab === x[0]) + '">' + x[1] + "</button>";
       }).join("") + "</div>" : "");
@@ -1397,6 +1475,7 @@
       setLang(lang);
       if (PREF.lens === "top10") enterTop(); else applyLayers();
       bindPointHover();
+      bindClick();
       fromHash();
       setTimeout(function () { intro(false, 0); }, 1500);
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
