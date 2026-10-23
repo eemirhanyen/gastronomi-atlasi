@@ -1,0 +1,229 @@
+{
+ "iso3": "COD",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 32076,
+  "out": 4841,
+  "searches": 3
+ },
+ "usd": 0.1426,
+ "summary": {
+  "tr": "Kongo Demokratik Cumhuriyeti'nde kahve ekimi 1880'lerde Belçika sömürge yönetimi altında başladı. Orta Kongo Havzası'nın yerli türü Coffea canephora (Robusta) 1890'lardan itibaren, Yangambi ve Lula araştırma istasyonlarının desteğiyle büyük ölçekte yetiştirildi. 1980'lerde kahve, bakırdan sonra ikinci en önemli ihraç ürünlerinden biriydi. Mobutu dönemi ile 1990'lardan sonraki savaşlar ve kahve sol",
+  "en": "Coffee growing in the Democratic Republic of the Congo began in the 1880s under Belgian colonial rule. Robusta (Coffea canephora) is native to the central Congo Basin and was cultivated at scale from the 1890s, supported by the Yangambi and Lula research stations. In the 1980s coffee was among the country's top exports, second only to copper. Mobutu-era decline, the wars from the 1990s and coffee "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "North Kivu (Lubero–Rutshuru–Masisi)",
+   "lat": -0.8,
+   "lng": 29.2,
+   "desc": {
+    "tr": "Volkanik topraklı ve 1.500–2.000 m yüksekliğindeki bu bölge, yıkanmış Arabika'sıyla narenciye, çiçek ve çikolata tonlarıyla tanınır.",
+    "en": "Volcanic soils at 1,500–2,000 m produce washed Arabica known for bright citrus, floral and chocolate notes."
+   },
+   "grapes": [
+    "Bourbon",
+    "Blue Mountain",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "South Kivu (Kalehe–Minova–Idjwi)",
+   "lat": -2.2,
+   "lng": 28.9,
+   "desc": {
+    "tr": "Kivu Gölü kıyısındaki yüksek tepeler, dengeli tatlılık ve asidite ile turunçgil, çekirdekli meyve ve çikolata notaları veren kooperatif Arabika'sının merkezidir.",
+    "en": "The highlands above Lake Kivu are the heart of cooperative-grown Arabica with balanced sweetness and acidity and citrus, stone-fruit and chocolate notes."
+   },
+   "grapes": [
+    "Bourbon",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Ituri (Djugu–Mahagi highlands)",
+   "lat": 1.9,
+   "lng": 30.3,
+   "desc": {
+    "tr": "Ituri'nin yüksek rakımlı kahveleri dolgun gövdeleri, yoğun aromaları ve meyve-baharat karakteriyle öne çıkar.",
+    "en": "High-altitude Ituri coffees stand out for full body, intense aroma and fruit-and-spice character."
+   },
+   "grapes": [
+    "Bourbon",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Haut-Uele / Isiro (Grand Nord)",
+   "lat": 2.8,
+   "lng": 27.6,
+   "desc": {
+    "tr": "Kuzeydoğunun alçak ve orta rakımlı Robusta kuşağı, tarihsel olarak ülkenin en önemli Robusta alanlarından biridir.",
+    "en": "The lowland to mid-altitude Robusta belt of the northeast has long been one of the country's key Robusta areas."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Tshopo (Yangambi)",
+   "lat": 0.77,
+   "lng": 24.45,
+   "desc": {
+    "tr": "Kongo Nehri havzasındaki Yangambi, Robusta ıslahı, genetik koleksiyonu ve yabani canephora çeşitliliğiyle bilinir.",
+    "en": "Yangambi in the Congo River basin is known for Robusta breeding, its genetic collection and wild canephora diversity."
+   },
+   "grapes": [
+    "Robusta",
+    "Lula/Yangambi selections"
+   ]
+  },
+  {
+   "name": "Ubangi (Karawa)",
+   "lat": 3.4,
+   "lng": 20.8,
+   "desc": {
+    "tr": "Kuzeybatıdaki Ubangi, köklü bir Robusta geleneğine sahiptir; Karawa Coffee Project burada üretimi yeniden canlandırıp yerel pazara yönlendiriyor.",
+    "en": "Ubangi in the northwest has a long Robusta tradition, and the Karawa Coffee Project is reviving output there for the local market."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Kongo Central (Mayombe)",
+   "lat": -5.2,
+   "lng": 13.2,
+   "desc": {
+    "tr": "Batıdaki Mayombe, küçük taneli, yumuşak ve dengeli Petit Kwilu Robusta'sının yurdudur.",
+    "en": "Mayombe in the west is the home of the small-beaned, mild and balanced Petit Kwilu Robusta."
+   },
+   "grapes": [
+    "Petit Kwilu",
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora, Congo Basin)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Kongo Havzası'nın yerli türüdür; ülke üretiminin çoğunu oluşturur ve espressoda iyi krema verir.",
+    "en": "Native to the Congo Basin, it makes up most of national output and gives good crema in espresso."
+   }
+  },
+  {
+   "name": "Petit Kwilu",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Mayombe kökenli, küçük taneli ve kuraklığa dayanıklı bu yerel Robusta nötr ve dengeli bir fincan sunar.",
+    "en": "A drought-resistant local Robusta from Mayombe with small beans and a neutral, balanced cup."
+   }
+  },
+  {
+   "name": "Lula / Yangambi Robusta selections",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "INEAC/INERA istasyonlarında seçilen ve dünyaya dağıtılan Robusta soyları ülkenin ıslah mirasını oluşturur.",
+    "en": "Robusta lines selected and distributed from the INEAC/INERA stations form the country's breeding legacy."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Avrupalılarca getirilen Bourbon, Kivu ve Ituri'deki küçük çiftçilerin ana Arabika çeşididir.",
+    "en": "Introduced by Europeans, Bourbon is the main Arabica variety of smallholders in Kivu and Ituri."
+   }
+  },
+  {
+   "name": "Blue Mountain / Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Typica'nın Jamaika kökenli bir mutasyonu olan Blue Mountain, Kivu'daki yüksek arazilerde yetiştirilir.",
+    "en": "Blue Mountain, a Jamaica-origin Typica mutation, is grown on the high ground of Kivu."
+   }
+  },
+  {
+   "name": "Washed (wet-processed) Arabica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kivu'nun ana işleme yöntemi yıkamadır; temiz, parlak asiditeli fincanlar verir, bal ve doğal işleme ise daha az yaygındır.",
+    "en": "Washing is Kivu's main processing method and gives clean, bright cups, while honey and natural processing are less common."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Instant coffee and café au lait",
+   "desc": {
+    "tr": "Gündelik tüketimde ithal hazır kahve ve sütlü kahve yaygındır; yerel kavrulmuş kahve ise payını yavaş yavaş artırıyor.",
+    "en": "Everyday drinking relies heavily on imported instant coffee, often with milk, with locally roasted coffee slowly gaining ground."
+   }
+  },
+  {
+   "name": "Kawa at the baraza and funeral vigils",
+   "desc": {
+    "tr": "Doğu Kongo'da kahve (kawa), barazalarda (toplanma yerleri) misafire ikram edilir ve yas gecelerinde ateş başında bekleyenlere alınır.",
+    "en": "In eastern Congo, coffee (kawa) is offered at barazas (community meeting places) and bought for those keeping vigil through the night at bereavements."
+   }
+  },
+  {
+   "name": "Specialty cafés of Goma, Bukavu and Kinshasa",
+   "desc": {
+    "tr": "Kivu'da başlayan nitelikli kahve hareketi, yerel çekirdekleri filtre ve espresso ile sunan kavurmacıları ve kafeleri çoğalttı.",
+    "en": "A specialty movement that began in Kivu has spread roasters and cafés serving local beans as filter and espresso."
+   }
+  },
+  {
+   "name": "Mobile coffee carts of Kinshasa",
+   "desc": {
+    "tr": "La Kinoise gibi markalar, Kinşasa'da yerel olarak yetiştirilip kavrulan kahveyi gezici arabalarla düşük gelirli müşterilere ulaştırıyor.",
+    "en": "Brands such as La Kinoise sell locally grown and roasted coffee from mobile carts to low-income customers in Kinshasa."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Congolese Coffee: A Real Success Story",
+   "url": "https://www.coffeeness.de/en/congolese-coffee/"
+  },
+  {
+   "title": "Cafe Imports",
+   "url": "https://www.cafeimports.com/europe/dr-congo"
+  },
+  {
+   "title": "Coffee production in Democratic Republic of the Congo",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "DR Congo Green Coffee Beans - Small Batch Roasting",
+   "url": "https://www.smallbatchroasting.co.uk/origin/d-r-congo/"
+  },
+  {
+   "title": "Democratic Republic of the Congo (DRC) Coffee Production & Sourcing Guide",
+   "url": "https://www.omwani.com/post/drc-coffee-production-sourcing-guide"
+  },
+  {
+   "title": "Characterization of the genetic composition and establishment of a core collection for the INERA Robusta coffee (*Coffea canephora*) field g",
+   "url": "https://www.biorxiv.org/content/10.1101/2023.06.15.544964.full.pdf"
+  },
+  {
+   "title": "Dem. Rep. of Congo",
+   "url": "https://charles-liegeois.com/en/rdc_coffee_culture"
+  },
+  {
+   "title": "Deep Dive into Democratic Republic of Congo (DRC) Coffee",
+   "url": "https://au.acuratore.com/blogs/musings/deep-dive-into-democratic-republic-of-congo-drc-coffee"
+  }
+ ]
+}

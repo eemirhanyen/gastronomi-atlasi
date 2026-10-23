@@ -1,0 +1,228 @@
+{
+ "iso3": "VEN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 25235,
+  "out": 3957,
+  "searches": 2
+ },
+ "usd": 0.11,
+ "summary": {
+  "tr": "Kahve Venezuela'ya 1730'lar civarında Cizvit ve Kapuçin misyonerler aracılığıyla geldi. Önce Karakas ve Aragua vadilerine, ardından Trujillo, Mérida ve Táchira üzerinden And Dağları'na yayıldı. 1919 dolaylarında ihracat zirve yaptı ve ülke dünyanın en büyük üç üreticisi arasındaydı. 1950'lerden sonra petrol öne çıkınca üretim ve ihracat geriledi. Buna rağmen kahve gündelik hayatın merkezinde kaldı",
+  "en": "Coffee reached Venezuela around the 1730s through Jesuit and Capuchin missionaries. It spread from the Caracas and Aragua valleys into the Andes via Trujillo, Mérida and Táchira. Exports peaked around 1919, when Venezuela ranked among the world's top three producers. After the 1950s, oil drew labour and investment away and output declined. Coffee stayed central to daily life: offering a cafecito i"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Táchira",
+   "lat": 7.9,
+   "lng": -72.0,
+   "desc": {
+    "tr": "Kolombiya sınırındaki bu eyalet, Venezuela'nın en ünlü kahve bölgesidir; fincanı temiz, orta-yüksek narenciye asiditeli, sarı meyve notalı ve ham şeker tadında tatlı bir finişe sahiptir.",
+    "en": "This Colombian-border state is Venezuela's best-known coffee region, with a clean cup of medium-high citrus acidity, yellow-fruit notes and a raw-cane-sugar sweetness."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Mérida",
+   "lat": 8.5,
+   "lng": -71.3,
+   "desc": {
+    "tr": "Ülkenin en yüksek plantasyonlarına (El Morro, Pueblo Llano, Piñango gibi yerlerde yaklaşık 2.200 m'ye kadar) ev sahipliği yapar; kahveleri genellikle emtia olarak satılsa da yüksek irtifa potansiyeli taşır.",
+    "en": "Home to the country's highest farms (up to about 2,200 m in places like El Morro, Pueblo Llano and Piñango); much of it is sold as commodity coffee despite its high-altitude potential."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Trujillo",
+   "lat": 9.4,
+   "lng": -70.4,
+   "desc": {
+    "tr": "\"Fil çekirdeği\" olarak bilinen iri taneli Maragogipe çeşidiyle yeniden ilgi görür; kahveleri tatlı, çikolatalı ve dolgun gövdelidir.",
+    "en": "Regaining attention for the large-beaned Maragogipe (\"elephant bean\"), with sweet, chocolatey, full-bodied cups."
+   },
+   "grapes": [
+    "Maragogipe",
+    "Caturra",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Lara",
+   "lat": 9.75,
+   "lng": -69.65,
+   "desc": {
+    "tr": "And Dağları'nın kuzeydoğu ucundaki ve Duaca çevresindeki dağlık kesimlerde yetişen, Venezuela'nın tarihî kahve bölgelerinden biridir.",
+    "en": "A historic coffee state, growing coffee in the northeastern Andean foothills and the mountains around Duaca."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Portuguesa",
+   "lat": 9.2,
+   "lng": -69.5,
+   "desc": {
+    "tr": "And eteklerindeki ve Kıyı Sıradağları'ndaki daha orta irtifalı, geniş çaplı üretim alanlarından biridir.",
+    "en": "A mid-altitude producing state on the Andean foothills, one of the wider-scale growing areas listed among Venezuela's producers."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Monagas (Caripe)",
+   "lat": 10.2,
+   "lng": -63.5,
+   "desc": {
+    "tr": "Kuzeydoğudaki Kıyı Sıradağları'nın bulutlu dağlarında, And bölgesi dışında kalan küçük çaplı kahve üretimiyle bilinir.",
+    "en": "Known for small-scale coffee grown in the misty mountains of the north-eastern Coastal Range, outside the Andean heartland."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Venezuela'nın tarihî kahve çeşitlerinden biridir; yerel kavurmacılar bu çeşidi hâlâ değerli harmanlarda kullanır.",
+    "en": "A historic Venezuelan variety that local roasters still prize for their premium blends."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Táchira ve And bölgesinde baskın çeşitlerden biridir; yüksek irtifada tatlı ve dengeli bir fincan verir.",
+    "en": "One of the dominant varieties in Táchira and the Andes, giving a sweet, balanced cup at altitude."
+   }
+  },
+  {
+   "name": "Catuaí",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Caturra ile birlikte Táchira'da yaygın olarak yetiştirilen modern bir arabica çeşididir.",
+    "en": "A modern arabica cultivar grown widely in Táchira alongside Caturra."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Eski çeşitlerden biri olarak yerel harmanlarda kullanılır; bazı üreticiler Pink Bourbon denemeleri de yapıyor.",
+    "en": "An older cultivar used in local blends; some producers are now also trialling Pink Bourbon."
+   }
+  },
+  {
+   "name": "Maragogipe",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Trujillo'da öne çıkan, iri taneli \"fil çekirdeği\" mutasyonudur.",
+    "en": "The large-beaned \"elephant bean\" mutation, a signature of Trujillo."
+   }
+  },
+  {
+   "name": "Robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Daha az yaygındır ve yalnızca sıcak, alçak irtifalı bölgelerde yetiştirilir.",
+    "en": "Less common, grown only in warmer, lower-lying areas."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Guayoyo",
+   "desc": {
+    "tr": "Filtre edilen, hafif gövdeli ve neredeyse tatlımsı bir kahvedir; Venezuelalılar onu ülkenin kahve ruhu sayar ve Americano'dan farklı olduğunu vurgular.",
+    "en": "A lightly brewed, filtered coffee with a smooth, almost sweet body. Venezuelans consider it the soul of their coffee and distinguish it from an Americano."
+   }
+  },
+  {
+   "name": "Negrito / Cerrero",
+   "desc": {
+    "tr": "Negrito küçük fincanda sunulan sert siyah kahvedir; cerrero ise çok yoğun ve şekersiz içilir.",
+    "en": "Negrito is a small, strong black coffee; cerrero is even more concentrated and drunk without sugar."
+   }
+  },
+  {
+   "name": "Marrón, café con leche ve tetero",
+   "desc": {
+    "tr": "Süt oranına göre adlandırılan bir skala vardır: marrón yarı yarıya kahve ve süttür, con leche yaklaşık %70'ten fazla süt içerir, tetero ise neredeyse tamamen süttür ve yalnızca bir damla kahve katılır.",
+    "en": "Names mark the milk ratio: marrón is roughly half coffee and half milk, con leche is over about 70% milk, and tetero is almost all milk with just a splash of coffee."
+   }
+  },
+  {
+   "name": "Aguarapao",
+   "desc": {
+    "tr": "Siyah kahve rafine şeker yerine papelón veya panela ile tatlandırılır; bu gelenek bugün daha az mekânda sürüyor.",
+    "en": "Black coffee sweetened with papelón or panela instead of refined sugar, a tradition that fewer venues keep today."
+   }
+  },
+  {
+   "name": "Cafecito ritüeli",
+   "desc": {
+    "tr": "Fırın tezgâhında, köşe kafesinde veya mutfakta içilen kahve, sohbet etmek, mola vermek ve misafire nezaket göstermek için bir vesiledir.",
+    "en": "Coffee at a bakery counter, corner café or kitchen table is an occasion to chat, pause and show hospitality to guests."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cafe Imports",
+   "url": "https://www.cafeimports.com/europe/venezuela"
+  },
+  {
+   "title": "Coffee production in Venezuela",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Venezuela"
+  },
+  {
+   "title": "Venezuela Coffee on Crema.co",
+   "url": "https://crema.co/countries/venezuela"
+  },
+  {
+   "title": "Coffee-growing Regions of Venezuela: Táchira, Mérida, and Trujillo",
+   "url": "https://www.kaffelito.com/en/blog/venezuelan-coffee-regions"
+  },
+  {
+   "title": "Venezuela - The Coffee Blog",
+   "url": "https://thecoffeeblog.co.za/encyclopedia/south-america/venezuela/"
+  },
+  {
+   "title": "M%C3%A9rida tapaculo",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9rida_tapaculo"
+  },
+  {
+   "title": "Andean Region, Venezuela",
+   "url": "https://en.wikipedia.org/wiki/Andean_Region,_Venezuela"
+  },
+  {
+   "title": "Venezuelan Andes",
+   "url": "https://en.wikipedia.org/wiki/Venezuelan_Andes"
+  }
+ ]
+}

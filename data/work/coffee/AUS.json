@@ -1,0 +1,182 @@
+{
+ "iso3": "AUS",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 21244,
+  "out": 2633,
+  "searches": 2
+ },
+ "usd": 0.0888,
+ "summary": {
+  "tr": "Australya'da kahve ilk kez 1832'de Brisbane'in Kangaroo Point bölgesinde dikildi. Yüksek işgücü maliyeti nedeniyle üretim ancak 1980'lerde mekanik hasatla yeniden canlandı. Bugün yaklaşık 50 üretici, yılda içilen yaklaşık 6 milyar fincanın %1'inden azını karşılıyor. Buna karşın ülke, II. Dünya Savaşı sonrası gelen İtalyan ve Yunan göçmenlerin getirdiği espresso kültürü, Melbourne ve Sydney kafeler",
+  "en": "Coffee was first planted in Australia in 1832 at Kangaroo Point in Brisbane. High labour costs kept growing unprofitable until mechanical harvesting arrived in the 1980s. Today about 50 growers supply less than 1% of the beans for the roughly 6 billion cups Australians drink each year. The country is nonetheless world-famous for a café culture built on espresso brought by post-war Italian and Gree"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Atherton Tablelands / Mareeba (Far North Queensland)",
+   "lat": -17.0,
+   "lng": 145.4,
+   "desc": {
+    "tr": "Volkanik bazalt topraklı, yaklaşık 500 m yükseklikteki bu bölge Avustralya'nın en büyük kahve üretim alanıdır ve yumuşak, gövdeli, fındıksı kahveleriyle tanınır.",
+    "en": "On volcanic basalt soils at roughly 500 m, this is Australia's largest coffee-producing area, known for smooth, full-bodied, nutty cups."
+   },
+   "grapes": [
+    "Catuai (red and yellow)",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Sunshine Coast hinterland / Glass House Mountains (South-East Queensland)",
+   "lat": -26.9,
+   "lng": 152.95,
+   "desc": {
+    "tr": "Subtropikal iklimin uzun olgunlaşma mevsimi tatlı, meyvemsi ve çikolatamsı notalar verir.",
+    "en": "The subtropical climate's long ripening season gives sweet, fruity and chocolatey notes."
+   },
+   "grapes": [
+    "K7",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Mount Tamborine / Gold Coast hinterland (South-East Queensland)",
+   "lat": -27.95,
+   "lng": 153.19,
+   "desc": {
+    "tr": "Güneydoğu Queensland'in subtropikal kahve kuşağında yer alan küçük, butik ölçekli çiftliklerle bilinir.",
+    "en": "Known for small, boutique-scale farms within South-East Queensland's subtropical coffee belt."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Byron Bay hinterland / Northern Rivers (New South Wales)",
+   "lat": -28.65,
+   "lng": 153.5,
+   "desc": {
+    "tr": "Yaklaşık 170 çiftliğiyle ülkenin en kalabalık üretici bölgesidir ve ağaçlar 900 m'nin altında yetişir.",
+    "en": "With around 170 farms, it has the most growers of any region in Australia, with trees grown below 900 m."
+   },
+   "grapes": [
+    "K7",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Dorrigo / Coffs Harbour (New South Wales)",
+   "lat": -30.35,
+   "lng": 152.72,
+   "desc": {
+    "tr": "Subtropikal kahve alanının güney ucudur ve serin kışlar olgunlaşmayı uzatır.",
+    "en": "The southern end of the subtropical coffee area, where cooler winters lengthen cherry maturation."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Arabica (Catuai)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Tropik kuzey Queensland'de kırmızı ve sarı Catuai yetiştirilir.",
+    "en": "Red and yellow Catuai are grown in tropical North Queensland."
+   }
+  },
+  {
+   "name": "Arabica (K7)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Subtropikal bölgelerde yetiştirilen K7, Kenya kökenli bir çeşittir.",
+    "en": "K7, a Kenya-derived cultivar, is grown in the subtropical regions."
+   }
+  },
+  {
+   "name": "Mechanically harvested, selectively picked microlo",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Makineyle hasat yaygındır; küçük üreticiler ise seçici hasat ve deneysel işlemeyle yüksek puanlı mikro lotlar üretir.",
+    "en": "Mechanical harvesting is the norm, while small growers also make high-scoring microlots through selective picking and experimental processing."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Flat white",
+   "desc": {
+    "tr": "Bir espresso ile buharla ısıtılmış süt ve ince bir mikro köpük katmanından oluşur. Kökeni Avustralya ve Yeni Zelanda arasında tartışmalıdır.",
+    "en": "Espresso with steamed milk and a thin layer of microfoam. Its origin is disputed between Australia and New Zealand."
+   }
+  },
+  {
+   "name": "Long black",
+   "desc": {
+    "tr": "Çift shot espresso sıcak suyun üzerine dökülür. Böylece crema korunur ve americano'dan daha yoğun bir içim elde edilir.",
+    "en": "A double-shot espresso poured over hot water, which keeps the crema and gives a stronger cup than an americano."
+   }
+  },
+  {
+   "name": "Magic",
+   "desc": {
+    "tr": "Melbourne'e özgü bir içecektir. Küçük bir fincanda çift ristretto ve ipeksi süt içerir ve çoğu zaman menüde yer almaz.",
+    "en": "A Melbourne original made with a double ristretto and silky milk in a small cup, often ordered off-menu."
+   }
+  },
+  {
+   "name": "Italian-style espresso bar culture",
+   "desc": {
+    "tr": "1945-1975 arasında gelen yaklaşık 300.000 İtalyan göçmen espresso makinelerini ve mahalle espresso barını getirdi. Pellegrini's gibi mekânlar bu dönemden bugüne ulaştı.",
+    "en": "Roughly 300,000 Italian migrants who arrived between 1945 and 1975 brought espresso machines and the neighbourhood espresso bar. Places like Pellegrini's survive from that era."
+   }
+  },
+  {
+   "name": "Regional milk-coffee variants (e.g. long mac)",
+   "desc": {
+    "tr": "Batı Avustralya'daki long mac gibi içecekler, kahve tercihlerinin bölgeden bölgeye değiştiğini gösterir.",
+    "en": "Drinks such as Western Australia's long mac show how coffee preferences vary from region to region."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Coffee growing in Australia",
+   "url": "https://www.coffeehabitat.com/2008/03/coffee-growing/"
+  },
+  {
+   "title": "Can Australia Grow Its Consumption of Locally Produced Coffee? - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2020/06/can-australia-grow-its-consumption-of-locally-produced-coffee/"
+  },
+  {
+   "title": "AUSTRALIAN GROWN COFFEE: 5 THINGS YOU NEED TO KNOW ABOUT AUSTRALIAN CO",
+   "url": "https://www.zestcoffee.com.au/blogs/news/australian-grown-coffee-5-things-you-need-to-know-about-australian-coffee"
+  },
+  {
+   "title": "Growing Coffee In Australia",
+   "url": "https://thecoffeepost.com.au/growing-coffee-in-australia/"
+  },
+  {
+   "title": "Australia is a coffee-drinking nation but hardly any of it comes from here. There is a push to change that - ABC News",
+   "url": "https://www.abc.net.au/news/2024-08-18/bid-to-boost-homegrown-coffee-in-australia/104225938"
+  },
+  {
+   "title": "About",
+   "url": "https://www.agca.au/about"
+  },
+  {
+   "title": "Where is Coffee Grown in Australia?",
+   "url": "https://calmcoffeeroastery.co.uk/blogs/origin/coffee-origin-australia"
+  },
+  {
+   "title": "Australian Coffee Growers",
+   "url": "https://www.glasshouseplantation.com.au/australian-coffee-growers/"
+  }
+ ]
+}

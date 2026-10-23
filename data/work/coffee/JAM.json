@@ -1,0 +1,223 @@
+{
+ "iso3": "JAM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 30855,
+  "out": 4382,
+  "searches": 3
+ },
+ "usd": 0.1355,
+ "summary": {
+  "tr": "Kahve Jamaika'ya 1728'de Vali Sir Nicholas Lawes'ın Martinik'ten getirdiği fidelerle girdi. İhracat 1814'te zirve yaptı, kölelik kaldırıldıktan sonra sert biçimde düştü. Kalite sorunları yüzünden Kanada 1943'te Jamaika kahvesini almayı reddetti. Bunun üzerine 1950'de Kahve Endüstrisi Kurulu kuruldu (düzenleme yetkisini 2018'de JACRA devraldı). Kurul, Jamaica Blue Mountain'i dünyanın en çok aranan ",
+  "en": "Coffee reached Jamaica in 1728, when Governor Sir Nicholas Lawes brought seedlings from Martinique. Exports peaked in 1814 and fell sharply after emancipation. Canadian buyers refused Jamaican coffee in 1943 over poor quality, so the Coffee Industry Board was set up in 1950. JACRA took over regulation in 2018. The Board's work made Jamaica Blue Mountain one of the world's most sought-after coffees"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Blue Mountains (St Andrew)",
+   "lat": 18.05,
+   "lng": -76.65,
+   "desc": {
+    "tr": "Misli, volkanik topraklı yüksek yamaçlarda yetişen, yumuşak içimli, dengeli asiditeli ve acılığı az olan korumalı Jamaica Blue Mountain kahvesiyle tanınır.",
+    "en": "Known for the protected Jamaica Blue Mountain coffee, grown on misty, volcanic high slopes and prized for its mild, balanced, low-bitterness cup."
+   },
+   "grapes": [
+    "Typica",
+    "Blue Mountain"
+   ]
+  },
+  {
+   "name": "Clydesdale / Grand Ridge (St Andrew)",
+   "lat": 18.06,
+   "lng": -76.69,
+   "desc": {
+    "tr": "Blue Mountain'ın kalbi sayılan, Jamaika'nın en eski kahve bölgelerinden biridir. Küçük çiftçilerin yıkanmış Typica'sı fındık ve kakao notalarıyla öne çıkar.",
+    "en": "Regarded as the heart of the Blue Mountains and one of Jamaica's oldest coffee areas, it is known for smallholder washed Typica with hazelnut and cocoa notes."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  },
+  {
+   "name": "Mavis Bank (St Andrew)",
+   "lat": 18.03,
+   "lng": -76.62,
+   "desc": {
+    "tr": "1923'te kurulan Mavis Bank Kahve Fabrikası'na ev sahipliği yapar. Blue Mountain kahvesi burada işlenir ve Japonya'ya ihraç edilir.",
+    "en": "Home to the Mavis Bank Coffee Factory, founded in 1923, which processes Blue Mountain coffee and helped open the Japanese export market."
+   },
+   "grapes": [
+    "Typica",
+    "Blue Mountain"
+   ]
+  },
+  {
+   "name": "Portland & St Thomas Blue Mountain slopes",
+   "lat": 18.05,
+   "lng": -76.45,
+   "desc": {
+    "tr": "Blue Mountain ismini taşımaya hak kazanan, sıradağların kuzey ve doğu yamaçlarındaki diğer yetiştirme alanlarıdır.",
+    "en": "The northern and eastern slopes of the range, which also qualify for the Blue Mountain designation alongside St Andrew and St Mary."
+   },
+   "grapes": [
+    "Typica",
+    "Blue Mountain"
+   ]
+  },
+  {
+   "name": "Manchester & St Elizabeth (High Mountain)",
+   "lat": 18.04,
+   "lng": -77.5,
+   "desc": {
+    "tr": "Blue Mountain dışında, orta rakımlı tepelerde üretilen Jamaica High Mountain kahvesi burada yetişir.",
+    "en": "Hill country outside the Blue Mountains that produces Jamaica High Mountain coffee at mid elevations."
+   },
+   "grapes": [
+    "Typica",
+    "High Mountain"
+   ]
+  },
+  {
+   "name": "St Ann hills (High Mountain)",
+   "lat": 18.27,
+   "lng": -77.1,
+   "desc": {
+    "tr": "Blue Mountain dışında kahve ekimi yapılan, Jamaica High Mountain sınıfına giren bir iç kesim bölgesidir.",
+    "en": "An inland hill area outside the Blue Mountains where coffee is grown and sold as Jamaica High Mountain."
+   },
+   "grapes": [
+    "Typica",
+    "High Mountain"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Jamaika'da en yaygın yetiştirilen arabica çeşididir. Dengeli, düşük acılıklı, kakao ve fındık notalı bir fincan verir.",
+    "en": "The dominant arabica cultivar in Jamaica, giving a balanced, low-bitterness cup with cocoa and hazelnut notes."
+   }
+  },
+  {
+   "name": "Jamaica Blue Mountain",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Yalnızca sertifikalı Blue Mountain bölgesinde yetişen, hem ticari marka hem de Typica türevi olarak anılan korumalı kahvedir.",
+    "en": "A protected designation, also used for a Typica cultivar, limited to certified coffee from the Blue Mountain zone."
+   }
+  },
+  {
+   "name": "Jamaica High Mountain",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Blue Mountain dışında, daha düşük rakımda yetişen kahveler için kullanılan sınıftır.",
+    "en": "The grade for coffee grown outside the Blue Mountains at lower elevations."
+   }
+  },
+  {
+   "name": "Jamaica Supreme / Low Mountain",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "En alçak rakımlarda yetişen kahveler için kullanılan sınıftır.",
+    "en": "The grade for coffee grown at the lowest elevations."
+   }
+  },
+  {
+   "name": "Fully washed processing",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Blue Mountain kahvesi genellikle yıkanmış (yaş) işlemle hazırlanır, güneşte kurutulur ve varillerle gönderilir.",
+    "en": "Blue Mountain coffee is typically fully washed and sun-dried, then shipped in wooden barrels."
+   }
+  },
+  {
+   "name": "Peaberry",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Tek çekirdekli meyveden gelen, ayrı ayıklanan ve özel olarak satılan çekirdek tipidir.",
+    "en": "A single-bean cherry type that is sorted separately and sold as a premium lot."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Coffee sock / pour-over",
+   "desc": {
+    "tr": "Sıcak su, bez süzgeç (\"coffee sock\") içindeki taze çekilmiş kahvenin üzerinden yavaşça süzülür. Filtre makineleri de yaygındır.",
+    "en": "Hot water is poured slowly over fresh grounds in a cloth \"coffee sock\", a method close to pour-over. Drip machines are also common."
+   }
+  },
+  {
+   "name": "Condensed-milk coffee",
+   "desc": {
+    "tr": "Sıcak kahve genellikle 1-2 yemek kaşığı yoğunlaştırılmış sütle tatlandırılır. Bu, yerel damak zevkini yansıtır.",
+    "en": "Hot coffee is often sweetened with one or two tablespoons of sweetened condensed milk, reflecting the local sweet tooth."
+   }
+  },
+  {
+   "name": "Jamaican coffee with rum",
+   "desc": {
+    "tr": "Irish coffee'nin bir çeşididir. Koyu rom ve krema ile hazırlanır, ağır bir yemekten sonra tatlı niyetine servis edilir.",
+    "en": "A take on Irish coffee made with dark rum and whipped cream, served as a dessert after a heavy meal."
+   }
+  },
+  {
+   "name": "Tia Maria coffee liqueur",
+   "desc": {
+    "tr": "Blue Mountain çekirdeklerinin aroma tabanını oluşturduğu kahve likörüdür. Kahveye ya da buzlu içeceklere katılır.",
+    "en": "A coffee liqueur with Blue Mountain beans as its flavour base, added to coffee or served over ice."
+   }
+  },
+  {
+   "name": "Tea and instant coffee at home",
+   "desc": {
+    "tr": "Evlerde geleneksel olarak nane ve zencefil gibi bitki çayları ile ithal hazır kahve tüketilir. Kafe kültürü ise yenidir.",
+    "en": "Home drinking has traditionally centred on herbal teas such as peppermint and ginger, plus imported instant coffee. Café culture is a more recent development."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Jamaican Blue Mountain Coffee",
+   "url": "https://en.wikipedia.org/wiki/Jamaican_Blue_Mountain_Coffee"
+  },
+  {
+   "title": "Jamaica Coffee Overview - Sweet Maria's Coffee Library",
+   "url": "https://library.sweetmarias.com/coffee-producing-countries/caribbean-coffee-overview/jamaica-coffee-overview/"
+  },
+  {
+   "title": "What is Jamaica Blue Mountain Coffee",
+   "url": "https://volcanicacoffee.com/pages/jamaica-blue-mountain-coffee"
+  },
+  {
+   "title": "The Jamaican Coffee History Behind Jamaican Blue Mountain Coffee",
+   "url": "https://www.haymancoffee.com/blogs/coffee-blog/the-jamaican-coffee-history-behind-jamaican-blue-mountain-coffee"
+  },
+  {
+   "title": "Within the Blue Mountain mist, a brief history of jamaican coffee",
+   "url": "https://www.jacoffee.com/blogs/news/within-the-blue-mountain-mist-a-brief-history-of-jamaican-coffee"
+  },
+  {
+   "title": "History — Jamaica Blue Coffee Co.",
+   "url": "https://www.jamaicablue.ca/history"
+  },
+  {
+   "title": "Exploring the History of Jamaican Blue Mountain Coffee",
+   "url": "https://aromaridge.com/blogs/news/exploring-the-history-of-jamaican-blue-mountain-coffee"
+  },
+  {
+   "title": "How Much Do You Know About Jamaican Blue Mountain Coffee?",
+   "url": "https://jamaicans.com/bluemountaincoffee/"
+  }
+ ]
+}

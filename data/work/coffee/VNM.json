@@ -1,0 +1,237 @@
+{
+ "iso3": "VNM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23917,
+  "out": 3807,
+  "searches": 2
+ },
+ "usd": 0.1059,
+ "summary": {
+  "tr": "Kahve Vietnam'a 19. yüzyılda Fransızlar tarafından getirildi. Doi Moi reformlarının (1986) ardından Orta Yaylalar'da, özellikle robusta üretimi hızla büyüdü ve ülke dünyanın ikinci büyük kahve üreticisi oldu. Vietnam kahve kültürü İtalyan espresso geleneğinden çok farklıdır: koyu kavrulmuş robusta, tek kullanımlık metal süzgeç 'phin', tatlandırılmış yoğunlaştırılmış süt ve yumurtalı kahve ya da tu",
+  "en": "Coffee was brought to Vietnam by the French in the 19th century. After the Doi Moi reforms of 1986, production expanded rapidly in the Central Highlands, mainly robusta, and the country became the world's second-largest producer. Its coffee culture bears little resemblance to Italian espresso. It is built on dark-roasted robusta, the small metal drip filter called the phin, sweetened condensed mil"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Dak Lak (Buôn Ma Thuột)",
+   "lat": 12.67,
+   "lng": 108.04,
+   "desc": {
+    "tr": "Ülkenin en büyük üreticisi ve 'kahve başkenti'; kırmızı bazalt topraklarında yetişen dolgun gövdeli, güçlü robusta ile bilinir.",
+    "en": "The country's largest producer and 'coffee capital', known for full-bodied, bold robusta grown on red basalt soils."
+   },
+   "grapes": [
+    "Robusta",
+    "Culi (peaberry robusta)",
+    "Fine Robusta"
+   ]
+  },
+  {
+   "name": "Gia Lai (Pleiku)",
+   "lat": 13.98,
+   "lng": 108.0,
+   "desc": {
+    "tr": "Kuzey yaylasında, ağırlıklı olarak robusta yetiştirilir; kahveleri dolgun gövdeli ve toprağımsı-fındıksı notalarla tanımlanır.",
+    "en": "A northern plateau origin that is mainly robusta, with a full body and earthy, nutty notes."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Dak Nong",
+   "lat": 12.0,
+   "lng": 107.7,
+   "desc": {
+    "tr": "Dak Lak'ın güneyinde, ticari kalitede robustanın önemli bir kaynağıdır.",
+    "en": "South of Dak Lak, an important source of commercial-grade robusta."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Kon Tum",
+   "lat": 14.35,
+   "lng": 108.0,
+   "desc": {
+    "tr": "Orta Yaylalar'ın kuzeyinde daha küçük bir üretim alanıdır; esas olarak robusta, sınırlı miktarda arabica yetişir.",
+    "en": "A smaller northern Central Highlands origin, mainly robusta with limited arabica."
+   },
+   "grapes": [
+    "Robusta",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Lam Dong (Da Lat, Cầu Đất)",
+   "lat": 11.87,
+   "lng": 108.55,
+   "desc": {
+    "tr": "Yaklaşık 1.400–1.600 m yükseklikteki Cầu Đất platosuyla Vietnam'ın arabica merkezidir; kahveleri parlak asidite ve çiçeksi aromayla anılır.",
+    "en": "Vietnam's arabica heartland, with the Cầu Đất plateau at roughly 1,400–1,600 m, known for bright acidity and floral aromas."
+   },
+   "grapes": [
+    "Catimor",
+    "Typica",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Lam Dong (Di Linh, Bảo Lộc, Lâm Hà)",
+   "lat": 11.55,
+   "lng": 107.8,
+   "desc": {
+    "tr": "Lam Dong'un daha alçak ve sıcak kesimlerinde kaliteli robusta ve gelişen 'fine robusta' üretimi yapılır.",
+    "en": "The lower, warmer parts of Lam Dong produce quality robusta and a growing fine-robusta sector."
+   },
+   "grapes": [
+    "Robusta",
+    "Fine Robusta"
+   ]
+  },
+  {
+   "name": "Son La",
+   "lat": 21.3,
+   "lng": 103.9,
+   "desc": {
+    "tr": "Kuzeydeki dağlık bölgede küçük ölçekli arabica üretimiyle bilinir.",
+    "en": "A northern mountain province known for small-scale arabica production."
+   },
+   "grapes": [
+    "Catimor",
+    "Arabica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Vietnam üretiminin büyük çoğunluğunu oluşturur; dolgun gövdeli, acımsı ve yüksek kafeinlidir.",
+    "en": "Makes up the great majority of Vietnamese output; full-bodied, bitter and high in caffeine."
+   }
+  },
+  {
+   "name": "Fine Robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Bal ve doğal gibi özenli işlemelerle üretilen, üst segment ve specialty pazarına yönelen robusta.",
+    "en": "Robusta made with careful processing such as honey and natural, aimed at premium and specialty markets."
+   }
+  },
+  {
+   "name": "Culi (peaberry robusta)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Meyvede tek yuvarlak çekirdek oluşan, yerel olarak 'culi' denen mutasyon lotları.",
+    "en": "Lots of round single-bean fruit (peaberries), known locally as 'culi'."
+   }
+  },
+  {
+   "name": "Catimor",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Yüksek verimli ve hastalığa dayanıklı melez arabica; Da Lat çevresinde yaygındır.",
+    "en": "A high-yielding, disease-resistant hybrid arabica, widely planted around Da Lat."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Fransız döneminden kalma klasik arabica çeşidi; yüksek rakımlı Lam Dong'da yetiştirilir.",
+    "en": "A classic arabica cultivar from the French era, grown at high altitude in Lam Dong."
+   }
+  },
+  {
+   "name": "Honey / natural processed robusta",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Robustaya meyvemsi tatlılık katan, son yıllarda yaygınlaşan işleme yöntemleri.",
+    "en": "Processing styles that add fruity sweetness to robusta and have spread in recent years."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Cà phê sữa đá (iced condensed-milk coffee)",
+   "desc": {
+    "tr": "Phin süzgecinden yoğunlaştırılmış sütün üzerine damlatılan güçlü robusta kahvesi buz üzerinde servis edilir; Vietnam'ın günlük kahvesidir.",
+    "en": "Strong robusta dripped through a phin onto sweetened condensed milk and served over ice, it is Vietnam's everyday coffee."
+   }
+  },
+  {
+   "name": "Cà phê phin (phin filter coffee)",
+   "desc": {
+    "tr": "Fincanın üstüne oturan küçük metal süzgeçten yavaşça damlayan kahve; bir fincan birkaç dakika sürer ve sohbete zaman tanır.",
+    "en": "Coffee dripped slowly through a small metal filter that sits on the cup; a cup takes several minutes, which leaves time for conversation."
+   }
+  },
+  {
+   "name": "Cà phê trứng (egg coffee)",
+   "desc": {
+    "tr": "1946'da Hanoi'de, süt kıtlığı sırasında Nguyễn Văn Giảng'ın icat ettiği, yumurta sarısı ve yoğunlaştırılmış sütle çırpılmış köpüğün koyu kahvenin üzerine konduğu içecek.",
+    "en": "Invented in Hanoi in 1946 by Nguyễn Văn Giảng during a milk shortage: whipped egg yolk and condensed milk foam spooned over strong coffee."
+   }
+  },
+  {
+   "name": "Cà phê muối (salt coffee)",
+   "desc": {
+    "tr": "Huế kökenli, tuzlu krema ile servis edilen kahve; tuz acılığı yumuşatır ve tatlılığı dengeler.",
+    "en": "A Huế-born coffee topped with salted cream, where the salt softens bitterness and balances sweetness."
+   }
+  },
+  {
+   "name": "Bạc xỉu (milk-forward coffee)",
+   "desc": {
+    "tr": "Güney kökenli, yoğunlaştırılmış sütün ağırlıkta olduğu, kahvesi az ve yumuşak içimli bir süt kahvesi.",
+    "en": "A southern-style, milk-heavy coffee with a small amount of coffee, sweet from condensed milk and mild to drink."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "A breakdown of Vietnamese coffee-producing regions - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2021/12/a-breakdown-of-vietnamese-coffee-producing-regions/"
+  },
+  {
+   "title": "Central Highlands Coffee Dak Lak: Inside the Region",
+   "url": "https://www.helenacoffee.vn/central-highlands-coffee-dak-lak/"
+  },
+  {
+   "title": "Vietnam's Coffee Industry in 2026: Projections, Key Players & Growing Regions",
+   "url": "https://the-shiv.com/vietnams-coffee-industry/"
+  },
+  {
+   "title": "Vietnam Coffee: How One Country Changed the Global Market",
+   "url": "https://jayarr.coffee/blog/vietnam-coffee-origin-guide/"
+  },
+  {
+   "title": "A Journey Through Vietnam's Coffee-Producing Regions",
+   "url": "https://maycoffeecrew.co.nz/blogs/news/vietnams-coffee-producing-regions"
+  },
+  {
+   "title": "Vietnamese Robusta Coffee: Characteristics, Growing Regions, and Export Potential - Tám Trình Coffee",
+   "url": "https://export.tamtrinhcoffee.com/vietnamese-robusta-coffee/"
+  },
+  {
+   "title": "Vietnamese Coffee Regions & Farms 2026: Where It's Grown",
+   "url": "https://daytripsvietnam.com/guides/vietnam-coffee-origin-atlas-2026/"
+  },
+  {
+   "title": "Vietnam Coffee Regions: A Complete Origin Guide",
+   "url": "https://vietcoffeesource.com/blog/vietnam-coffee-regions-a-complete-origin-guide"
+  }
+ ]
+}

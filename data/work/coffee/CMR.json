@@ -1,0 +1,207 @@
+{
+ "iso3": "CMR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 51845,
+  "out": 4494,
+  "searches": 3
+ },
+ "usd": 0.1786,
+ "summary": {
+  "tr": "Kahve tarımı Kamerun'a 1884'ten sonra Alman sömürge döneminde girdi. 1920'lerin sonunda Dschang çevresinde, René Coste'nin çalışmalarıyla hızla yayıldı. Ülke 1980'lerin sonunda 2,2 milyon çuvalla zirve yaptı. Bugün üretimin çoğunu robusta oluşturuyor ve arabica batı ve kuzeybatı yaylalarında yetişiyor. İçme kültürü ise yeni gelişiyor. Gündelik kahve çoğunlukla koyu, şekerli ve yoğunlaştırılmış süt",
+  "en": "Coffee farming reached Cameroon after 1884 under German colonial rule. It spread quickly around Dschang in the late 1920s, helped by the agronomist René Coste, and output peaked at 2.2 million bags in the late 1980s. Robusta now makes up most of the crop, while arabica grows in the western and north-western highlands. Drinking culture is still developing. Everyday coffee is often strong, sweet and"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Moungo / Nkongsamba (Littoral)",
+   "lat": 4.95,
+   "lng": 9.93,
+   "desc": {
+    "tr": "Littoral bölgesindeki Moungo havzası, ülkenin robusta üretiminin merkezlerinden biridir ve harmanlara uygun dolgun, fındıksı fincanlarıyla bilinir.",
+    "en": "The Moungo basin in the Littoral region is a heartland of Cameroonian robusta, known for full, nutty cups well suited to blending."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "West Region – Bamileke & Bamoun Highlands (Dschang, Bafoussam)",
+   "lat": 5.45,
+   "lng": 10.07,
+   "desc": {
+    "tr": "Batı yaylaları arabica üretiminin tarihî merkezidir. Üretim UCCAO kooperatifleri aracılığıyla örgütlenir ve yüksek yerlerde arabica, orta rakımlarda robusta yetişir.",
+    "en": "The western high plateaux are the historic arabica heartland, organised through the UCCAO cooperatives, with arabica at higher altitudes and robusta at mid-elevations."
+   },
+   "grapes": [
+    "Typica",
+    "Java",
+    "Bourbon",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "North-West – Bamenda Grassfields / Boyo",
+   "lat": 6.25,
+   "lng": 10.3,
+   "desc": {
+    "tr": "Kamerun Hattı üzerindeki volkanik yaylalarda 1.200–2.200 m'de yetişen arabica ve Boyo küçük üretici kahveleriyle öne çıkar.",
+    "en": "Volcanic highlands along the Cameroon Line, with arabica grown at 1,200–2,200 m and known for smallholder Boyo specialty lots."
+   },
+   "grapes": [
+    "Typica",
+    "Java",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "South-West (Kumba / Mount Cameroon foothills)",
+   "lat": 4.65,
+   "lng": 9.45,
+   "desc": {
+    "tr": "Güneybatı, Littoral ile birlikte robusta üretiminin ana bölgelerinden biridir ve ulusal üretimin yaklaşık yüzde 15'ini sağlar.",
+    "en": "The South-West is a main robusta zone alongside Littoral and the East, supplying roughly 15% of national output."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "East Region (Abong-Mbang, Doumé, Yokadouma)",
+   "lat": 3.98,
+   "lng": 13.18,
+   "desc": {
+    "tr": "Seyrek nüfuslu doğu ormanlarında 1920'lerden beri robusta yetiştirilir ve genişleme potansiyeli taşıyan bir bölgedir.",
+    "en": "Sparsely populated forest country where robusta has been grown since the 1920s, with potential for expansion."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "South Region (Ebolowa / Sangmélima)",
+   "lat": 2.9,
+   "lng": 11.15,
+   "desc": {
+    "tr": "Alman döneminde deneme bahçelerinin kurulduğu Ebolowa çevresinde küçük ölçekli robusta üretimi sürer.",
+    "en": "Around Ebolowa, site of one of the German-era trial gardens, small-scale robusta production continues."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Üretimin yaklaşık yüzde 85-90'ını oluşturur ve genellikle doğal (kuru) işlemle hazırlanır.",
+    "en": "It makes up roughly 85–90% of output and is mostly processed as natural (dry) coffee."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Jamaika'nın Blue Mountain bölgesinden getirildiği söylenen, İngilizce konuşulan bölgelerde ilk yetiştirilen arabica çeşididir.",
+    "en": "An arabica cultivar reportedly brought from Jamaica's Blue Mountain region and first grown in the English-speaking part of the country."
+   }
+  },
+  {
+   "name": "Java",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Typica'dan çok daha sonra kullanıma giren ve yaylalarda yetiştirilen bir arabica çeşididir.",
+    "en": "An arabica cultivar introduced much later than Typica and planted in the highlands."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Fransızlar 20. yüzyılın başında bir miktar Bourbon getirmiştir.",
+    "en": "The French introduced some Bourbon in the early 20th century."
+   }
+  },
+  {
+   "name": "Natural (dry) processing",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Robustaların büyük bölümü kiraz olarak kurutulur, yıkanmış kahve ise çok küçük bir paydır.",
+    "en": "Most robusta is dried as whole cherry, and fully washed coffee is only a tiny share."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Nescafé with condensed milk at breakfast",
+   "desc": {
+    "tr": "Sokak ve mahalle kahvaltı tezgâhlarında en yaygın kahve, tatlandırılmış yoğunlaştırılmış sütle hazırlanan hazır kahvedir. Yanında ekmek, beignet veya spagetti-yumurta servis edilir.",
+    "en": "At street and neighbourhood breakfast stalls the most common coffee is instant, made with sweetened condensed milk. It is served with bread, beignets or spaghetti and eggs."
+   }
+  },
+  {
+   "name": "Strong, sweet home-roasted coffee",
+   "desc": {
+    "tr": "Bazı aileler çekirdekleri evde kavurup öğütür, kahveyi süzme ya da telveyi suda kaynatıp süzme yöntemiyle hazırlar ve bol şekerle içer. Bu bilgi turizm kaynaklarına dayanır, bu yüzden genel bir eğilim olarak okunmalıdır.",
+    "en": "Some families roast and grind beans at home, brew by pour-over or by boiling the grounds and straining, and drink it strong with plenty of sugar. This comes from travel-guide sources, so treat it as a general tendency."
+   }
+  },
+  {
+   "name": "Espresso-based café culture in Douala and Yaoundé",
+   "desc": {
+    "tr": "Büyük şehirlerde cappuccino ve espresso sunan, yerel kavrulmuş Kamerun kahvesini öne çıkaran modern kafeler çoğalmaktadır.",
+    "en": "In the big cities a growing number of modern cafés serve cappuccino and espresso and promote locally roasted Cameroonian coffee."
+   }
+  },
+  {
+   "name": "Promoted domestic roasted-coffee consumption",
+   "desc": {
+    "tr": "ICO'ya göre kahve içmek yaygın bir alışkanlık değildir. Yine de yaklaşık 30 yerel kavrulmuş kahve markası bulunur ve talep ofislerde, şirketlerde ve evlerde artmaktadır.",
+    "en": "According to the ICO, coffee drinking is not yet a widespread habit. Still, around 30 local roasted brands exist, and demand is rising in offices, companies and homes."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "COUNTRY COFFEE PROFILE INTERNATIONAL COFFEE ORGANIZATION CAMEROON",
+   "url": "https://www.ico.org/documents/cy2016-17/icc-120-5e-profile-cameroon.pdf"
+  },
+  {
+   "title": "Coffee production in Cameroon",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Cameroon"
+  },
+  {
+   "title": "AFCA CHAPTER: Cameroon",
+   "url": "https://afca.coffee/chapters/uncategorized/cameroon/"
+  },
+  {
+   "title": "AFRICAN COFFEE SECTOR",
+   "url": "https://archive.globalcoffeeplatform.org/assets/files/Documents/African-Coffee-Investment-Agendas/African-Coffee-Investment-Agendas_Cameroon_Full_Report.pdf"
+  },
+  {
+   "title": "Coffee production in Cameroon - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2021/09/coffee-production-in-cameroon/"
+  },
+  {
+   "title": "Coffee Production Zones in Cameroon",
+   "url": "https://www.oncc.cm/coffee-production-zones"
+  },
+  {
+   "title": "Cameroon Coffee: A Cooperative History",
+   "url": "https://www.omwani.com/post/cameroon-coffee-a-cooperative-history"
+  },
+  {
+   "title": "West Region (Cameroon)",
+   "url": "https://en.wikipedia.org/wiki/West_Region_(Cameroon)"
+  }
+ ]
+}

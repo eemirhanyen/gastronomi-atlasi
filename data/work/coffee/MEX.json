@@ -1,0 +1,219 @@
+{
+ "iso3": "MEX",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23851,
+  "out": 4528,
+  "searches": 2
+ },
+ "usd": 0.113,
+ "summary": {
+  "tr": "Kahve 18. yüzyılın sonlarında Meksika'ya, Veracruz üzerinden girdi ve sonraki yüzyılda güneydeki dağlık bölgelerde önemli bir ihraç ürününe dönüştü. Bugün ülke, gölgede yetiştirilen, organik ve adil ticaret sertifikalı arabica kahveleriyle tanınıyor. İçme kültürü de kırsalda kil çömlekte kaynatılan baharatlı café de olla'dan, Mexico City, Guadalajara ve Oaxaca'daki üçüncü dalga kafelere kadar uzan",
+  "en": "Coffee reached Mexico in the late 18th century, entering through Veracruz, and over the next hundred years became a major export crop in the mountainous south. Today the country is known for shade-grown, organic and Fair Trade arabica, produced mostly by smallholders. Its drinking culture runs from rural café de olla, simmered in clay pots with spices, to the specialty espresso scene of Mexico Cit"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Chiapas (Soconusco / Sierra Madre de Chiapas)",
+   "lat": 15.4,
+   "lng": -92.6,
+   "desc": {
+    "tr": "Ülkenin en büyük üreticisi olan Chiapas, Guatemala sınırında yer alır ve çoğu organik sertifikalı, orta gövdeli, çikolata, fındık ve hafif narenciye notalı kahveler verir.",
+    "en": "Mexico's largest producing state, on the Guatemalan border, known for mostly organic, medium-bodied coffees with chocolate, nut and mild citrus notes."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Caturra",
+    "Mundo Novo"
+   ]
+  },
+  {
+   "name": "Veracruz (Coatepec / Huatusco / Orizaba)",
+   "lat": 19.35,
+   "lng": -96.95,
+   "desc": {
+    "tr": "Meksika'nın en eski kahve bölgesi olan Veracruz'un yüksek rakımlı Coatepec kahveleri, dengeli asidite, tatlılık ve fındıksı çikolata notalarıyla bilinir.",
+    "en": "Mexico's oldest coffee region; its high-grown Altura Coatepec coffees are prized for sweetness, balanced acidity and nutty, chocolatey character."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Caturra",
+    "Mundo Novo"
+   ]
+  },
+  {
+   "name": "Oaxaca (Pluma Hidalgo / Sierra Sur)",
+   "lat": 15.95,
+   "lng": -96.4,
+   "desc": {
+    "tr": "Oaxaca'da yerli küçük üreticiler gölgede kahve yetiştirir; 'Pluma' adıyla bilinen kahve yumuşak asiditesi ve pürüzsüz gövdesiyle öne çıkar, bölgede eski Typica ve Bourbon ağaçları hâlâ yaygındır.",
+    "en": "Indigenous smallholders grow shade coffee here, and the 'Pluma' coffee is known for mild acidity and a smooth body; older Typica and Bourbon trees are still common."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Puebla (Sierra Norte de Puebla / Cuetzalan)",
+   "lat": 20.0,
+   "lng": -97.5,
+   "desc": {
+    "tr": "Sierra Norte de Puebla'nın nemli ve yüksek dağlarında yetişen kahveler, hafif narenciye asiditesi ve çikolata tatlılığıyla bilinir ve Cup of Excellence'ta başarılı sonuçlar almıştır.",
+    "en": "Humid highlands of the Sierra Norte yield coffees with mild citrus acidity and chocolate sweetness, which have placed well in Cup of Excellence competitions."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Caturra",
+    "Mundo Novo"
+   ]
+  },
+  {
+   "name": "Nayarit / Pacific Sierra Madre Occidental",
+   "lat": 21.3,
+   "lng": -104.9,
+   "desc": {
+    "tr": "Nayarit ve komşu Pasifik eyaletlerindeki daha küçük üretim, ülkenin başlıca dört kahve eyaleti dışında kalan yükselen bir kahve alanıdır.",
+    "en": "Smaller-scale production in Nayarit and neighbouring Pacific states, outside the four main coffee states, forms an emerging pocket of Mexican coffee."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Caturra"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle Oaxaca'da hâlâ yaygın olan eski arabica çeşidi; temiz ve yumuşak fincanlar verir.",
+    "en": "A heritage arabica variety still widely found in Oaxaca, giving clean, gentle cups."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Meksika'nın en yaygın çeşitlerinden biri; tatlı, çikolatalı ve dengeli kahveler verir.",
+    "en": "One of Mexico's most widely planted varieties, giving sweet, chocolatey, balanced cups."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bourbon'un bodur bir mutasyonu olan bu çeşit verimlidir ve Meksika'nın dağlık bölgelerinde yaygın olarak yetiştirilir.",
+    "en": "A compact, productive Bourbon mutation grown widely across Mexico's highlands."
+   }
+  },
+  {
+   "name": "Mundo Novo",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Chiapas gibi bölgelerde yetiştirilen, güçlü ve dayanıklı bir arabica melezidir.",
+    "en": "A vigorous, hardy arabica hybrid grown in areas such as Chiapas."
+   }
+  },
+  {
+   "name": "Maragogipe",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "'Fil çekirdeği' olarak bilinen iri taneli bir Typica mutasyonu; Meksika'da az ama özel kahve olarak değer görür.",
+    "en": "The large-beaned 'elephant bean' Typica mutation, grown in small amounts and valued as a specialty lot."
+   }
+  },
+  {
+   "name": "Robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Üretimin küçük bir bölümünü oluşturur; ağırlıklı olarak düşük rakımlı sıcak bölgelerde yetişir ve çoğunlukla soluble kahve ile harmanlarda kullanılır.",
+    "en": "A minor share of output, grown in hot, low-lying areas and used mainly in instant coffee and blends."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café de olla",
+   "desc": {
+    "tr": "Kil çömlekte piloncillo (ham şeker), tarçın ve bazen karanfil, anason veya portakal kabuğuyla kaynatılan geleneksel kahve; Meksika Devrimi dönemine dayandırılır ve kırsal mutfakları ve Ölüler Günü sofralarını çağrıştırır.",
+    "en": "Traditional coffee simmered in a clay pot with piloncillo (raw cane sugar), cinnamon and sometimes cloves, anise or orange peel; tied by legend to the Mexican Revolution and associated with rural kitchens and Day of the Dead."
+   }
+  },
+  {
+   "name": "Café lechero (Veracruz)",
+   "desc": {
+    "tr": "Veracruz'da cam bardakta, güçlü kahve ile sıcak sütün birleştirilmesiyle yapılan kahvedir; garsonu kaşıkla bardağa vurarak çağırma geleneğiyle özdeşleşmiştir.",
+    "en": "A Veracruz café-style drink of strong coffee topped with hot milk in a glass, famously linked to the custom of tapping a spoon on the glass to call the waiter."
+   }
+  },
+  {
+   "name": "Third-wave specialty espresso",
+   "desc": {
+    "tr": "Mexico City'nin Roma ve Condesa semtleri, Guadalajara ve Oaxaca'da, tek kökenli Meksika kahvelerini espresso ve filtre yöntemleriyle sunan bağımsız kavurmacılar ve kafeler yaygındır.",
+    "en": "In Mexico City's Roma and Condesa, Guadalajara and Oaxaca, independent roasters and cafés serve single-origin Mexican coffees as espresso and filter brews."
+   }
+  },
+  {
+   "name": "Café con piquete",
+   "desc": {
+    "tr": "Kahveye bir miktar alkol (genellikle rom, tekila veya brendi) eklenerek hazırlanan sıcak içecek; soğuk havalarda ve toplantılarda tercih edilir.",
+    "en": "Coffee with a 'sting' of liquor, typically rum, tequila or brandy, added to the cup; popular on cold days and at gatherings."
+   }
+  },
+  {
+   "name": "Instant (soluble) coffee at home",
+   "desc": {
+    "tr": "Birçok Meksika evinde günlük kahve hâlâ hazır kahveyle yapılır; bu alışkanlık, ülkenin kendi ürettiği kahvenin büyük bölümünü ihraç etmesine rağmen sürmektedir.",
+    "en": "Many Mexican households still drink instant coffee day to day, even though a large share of the country's own beans is exported."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Mexican Coffee Beans: Regions, Production, Flavors, and Best Brands",
+   "url": "https://colipsecoffee.com/blogs/coffee/mexico"
+  },
+  {
+   "title": "Mexico Coffee Overview - Sweet Maria's Coffee Library",
+   "url": "https://library.sweetmarias.com/coffee-producing-countries/central-america/mexico-coffee-overview/"
+  },
+  {
+   "title": "The best coffee in Mexico: Where it’s grown and how to buy it",
+   "url": "https://mexiconewsdaily.com/food/how-to-find-the-best-mexican-coffee-beans/"
+  },
+  {
+   "title": "Regions on the rise: Mexico - Global Coffee Report",
+   "url": "https://www.gcrmag.com/regions-on-the-rise-mexico/"
+  },
+  {
+   "title": "Mexico Coffee - Flavors, Regions & Roasters",
+   "url": "https://unpacking.coffee/origins/mexico"
+  },
+  {
+   "title": "Sierra Norte de Puebla",
+   "url": "https://en.wikipedia.org/wiki/Sierra_Norte_de_Puebla"
+  },
+  {
+   "title": "What To Know About Coffee From Mexico",
+   "url": "https://phillyfairtrade.com/blogs/learn/what-to-know-about-coffee-from-mexico"
+  },
+  {
+   "title": "Mexico's Coffee Farm Region & Best Mexican Coffee Beans - Nomad Coffee Club",
+   "url": "https://www.nomadcoffeeclub.com/pages/mexico"
+  }
+ ]
+}

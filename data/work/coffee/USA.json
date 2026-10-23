@@ -1,0 +1,243 @@
+{
+ "iso3": "USA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 33875,
+  "out": 3918,
+  "searches": 3
+ },
+ "usd": 0.1369,
+ "summary": {
+  "tr": "ABD'de kahve, Hawaii'de 1825'ten itibaren yetiştirilen küçük bir ürün olarak başladı; Kaliforniya kıyısında ise son yıllarda deneysel olarak yetiştiriliyor. Ülke ağırlıklı olarak ithal kahve içiyor. Boston Çay Partisi'nden (1773) sonra kahve yurtseverlik simgesi haline geldi. Ardından filtre kahve, Starbucks tarzı espresso içecekleri ve 'üçüncü dalga' özel kahve kültürü ortaya çıktı.",
+  "en": "In the US, coffee began as a small crop in Hawaii from 1825, and California's coast has recently added experimental plantings. The country mostly drinks imported coffee. After the Boston Tea Party (1773), coffee became a patriotic drink, and later came drip coffee, Starbucks-style espresso drinks and the 'third wave' specialty movement."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kona (Hawaiʻi Island)",
+   "lat": 19.55,
+   "lng": -155.9,
+   "desc": {
+    "tr": "Hualālai ve Mauna Loa yamaçlarındaki volkanik toprakta yetişen, çiçeksi, fındıksı ve pürüzsüz bitişli ünlü Kona kahvesiyle tanınır.",
+    "en": "Known for the famous Kona coffee, grown in volcanic soil on the slopes of Hualālai and Mauna Loa, with floral, nutty notes and a smooth finish."
+   },
+   "grapes": [
+    "Kona Typica",
+    "Geisha",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Kaʻū (Hawaiʻi Island)",
+   "lat": 19.2,
+   "lng": -155.55,
+   "desc": {
+    "tr": "Eski şeker kamışı topraklarında yetişen, çikolata, kiraz ve narenciye notalarıyla ödüllü kahveleriyle bilinir.",
+    "en": "Known for award-winning coffees from former sugar land, with chocolate, cherry and citrus notes."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Catuai",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Hāmākua (Hawaiʻi Island)",
+   "lat": 20.05,
+   "lng": -155.4,
+   "desc": {
+    "tr": "Serin ve yağışlı kuzeydoğu kıyısında yetişen, dolgun gövdeli, fındık ve sütlü çikolata notalı kahvelerle tanınır.",
+    "en": "Known for full-bodied coffees from the cool, wet northeast coast, with hazelnut and milk chocolate notes."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Maui (Kāʻanapali ve Upcountry)",
+   "lat": 20.8,
+   "lng": -156.4,
+   "desc": {
+    "tr": "Batı Maui ve Haleakalā yamaçlarında çeşitlilik ve nadir Mokka çeşidiyle öne çıkar.",
+    "en": "Stands out for its variety of cultivars, including rare Mokka, grown on West Maui and the slopes of Haleakalā."
+   },
+   "grapes": [
+    "Maui Mokka",
+    "Caturra",
+    "Catuai"
+   ]
+  },
+  {
+   "name": "Kauaʻi",
+   "lat": 21.93,
+   "lng": -159.5,
+   "desc": {
+    "tr": "Büyük bir plantasyonda yıkanmış (washed) Arabica olarak üretilen, yumuşak ve dengeli, çikolata notalı kahvesiyle bilinir.",
+    "en": "Known for smooth, balanced, chocolatey washed Arabica produced mainly on one large plantation."
+   },
+   "grapes": [
+    "Catuai",
+    "Typica",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Molokaʻi",
+   "lat": 21.14,
+   "lng": -157.04,
+   "desc": {
+    "tr": "Kualapuʻu çevresindeki küçük bir çiftlikte yetişen, karamelli, fındıksı ve dolgun gövdeli kahvesiyle tanınır.",
+    "en": "Known for full-bodied, nutty and caramel coffee from a single small estate around Kualapuʻu."
+   },
+   "grapes": [
+    "Catuai",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Santa Barbara kıyısı, Kaliforniya",
+   "lat": 34.45,
+   "lng": -119.9,
+   "desc": {
+    "tr": "Goleta çevresindeki alt-tropikal mikroklimada avokado bahçeleriyle birlikte yetiştirilen, çiçeksi Geisha ve Caturra gibi deneysel butik kahvelerle tanınır.",
+    "en": "Known for experimental boutique coffee, such as floral Geisha and Caturra, grown among avocados in the subtropical microclimate around Goleta."
+   },
+   "grapes": [
+    "Geisha",
+    "Caturra",
+    "Pacamara"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Kona Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "1892'de Guatemala'dan getirilen ve Kona'daki ekimin %90'ından fazlasını oluşturan Typica soyu.",
+    "en": "A Typica lineage brought from Guatemala in 1892 that makes up over 90% of Kona plantings."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Typica'dan daha yüksek verimli ve asiditeli; Kaʻū, Puna ve Maui'de yaygındır.",
+    "en": "Higher yielding and more acidic than Typica; common in Kaʻū, Puna and Maui."
+   }
+  },
+  {
+   "name": "Catuai",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Sıcak bölgelerde Molokaʻi, Maui, Kauaʻi ve Kaʻū'da yetişen, kakao ve baharat notalı çeşit.",
+    "en": "A cultivar grown in warmer areas of Molokaʻi, Maui, Kauaʻi and Kaʻū, with cocoa and spice notes."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Hawaii'de sınırlı miktarda yetişen, tatlı ve orta-yüksek asiditeli çeşit.",
+    "en": "Grown in limited amounts in Hawaii; sweet, with medium to high acidity."
+   }
+  },
+  {
+   "name": "Maui Mokka",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bourbon'un düşük verimli cüce mutasyonu olan, en küçük Arabica çekirdeklerini veren ve çoğunlukla Maui'de yetişen çeşit.",
+    "en": "A low-yielding dwarf Bourbon mutation with the smallest Arabica beans, grown mostly on Maui."
+   }
+  },
+  {
+   "name": "Geisha",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kaliforniya'da (Goleta) ve Kona'da az miktarda yetiştirilen, çiçeksi ve çay benzeri notalara sahip çeşit.",
+    "en": "A floral, tea-like cultivar grown in small amounts in California (Goleta) and Kona."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "American drip (filter) coffee",
+   "desc": {
+    "tr": "Ev, ofis ve lokantalarda orta kavrulmuş Arabica ile otomatik filtre makinesinde demlenen, hız ve kolaylığı öne çıkaran günlük kahve.",
+    "en": "The everyday coffee of homes, offices and diners: medium-roast Arabica brewed in an automatic drip machine, valuing speed and convenience."
+   }
+  },
+  {
+   "name": "Americano",
+   "desc": {
+    "tr": "İkinci Dünya Savaşı'nda İtalya'daki Amerikan askerlerinin espressoyu sıcak suyla sulandırmasından doğduğu söylenen içecek.",
+    "en": "A drink said to have come from US soldiers in Italy in WWII who diluted espresso with hot water."
+   }
+  },
+  {
+   "name": "Espresso-based café drinks (latte culture)",
+   "desc": {
+    "tr": "1960'larda Peet's ile başlayıp Starbucks'la yaygınlaşan, süt ve aromalı şuruplu büyük boy espresso içecekleri.",
+    "en": "Large milk-based and flavored espresso drinks, started by Peet's in the 1960s and popularized by Starbucks."
+   }
+  },
+  {
+   "name": "Third-wave specialty coffee (pour-over)",
+   "desc": {
+    "tr": "Tek menşe çekirdekleri, hafif kavurmayı ve V60 ya da Chemex gibi elle demleme yöntemlerini öne çıkaran butik kahve akımı.",
+    "en": "A specialty movement focused on single-origin beans, lighter roasts and manual brewing such as V60 or Chemex."
+   }
+  },
+  {
+   "name": "Iced coffee and cold brew",
+   "desc": {
+    "tr": "Soğuk demleme konsantresi veya buzlu kahve olarak yıl boyu içilen, 2010'larda butik markalarla yaygınlaşan içecekler.",
+    "en": "Cold-brew concentrate and iced coffee, drunk year-round and popularized by craft brands in the 2010s."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "What Is the Best Hawaiian Coffee? A Guide to Kona, Kaʻū, Maui & More",
+   "url": "https://bigislandcoffeeroasters.com/pages/hawaiian-coffee-buying-guide"
+  },
+  {
+   "title": "Hawaii’s Coffee Growing Regions Explained",
+   "url": "https://buddhascup.com/blogs/faqs/hawaii-s-coffee-growing-regions-explained"
+  },
+  {
+   "title": "CBC Guide: Hawaiian Coffee",
+   "url": "https://coffeebeancorral.com/blogs/coffee-knowledge/hawaiian-coffee-guide#erid91654611"
+  },
+  {
+   "title": "Kona, Maui & Kauai—There’s more to Hawaiian coffee-CoffeeSock",
+   "url": "https://coffeesock.com/the-sock-life-1/2023/4/23/kona-maui-amp-kauaitheres-more-to-hawaiian-coffee"
+  },
+  {
+   "title": "What makes Hawaii coffee growing regions unique?",
+   "url": "https://xliiicoffee.com/en/journal/hawaii-coffee-growing-regions/"
+  },
+  {
+   "title": "Types of Coffee in Hawaii",
+   "url": "https://www.homeyhawaii.com/blog/uncategorized/types-of-coffee-in-hawaii/"
+  },
+  {
+   "title": "Coffees of Hawaii: An Island Guide - Kona Coffee Buzz",
+   "url": "https://konacoffeebeans.org/coffees-of-hawaii"
+  },
+  {
+   "title": "Coffee Varieties",
+   "url": "https://hawaiigrown.coffee/from-harvest-to-cup/coffee-varieties/"
+  }
+ ]
+}

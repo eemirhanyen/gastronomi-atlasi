@@ -1,0 +1,195 @@
+{
+ "iso3": "HTI",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23685,
+  "out": 3104,
+  "searches": 2
+ },
+ "usd": 0.0984,
+ "summary": {
+  "tr": "Kahve, 1715 civarında Martinik'ten getirilen fidelerle Fransız sömürgesi Saint-Domingue'e girdi. 1788'e gelindiğinde dünya kahvesinin yaklaşık yarısı burada üretiliyordu ve bu üretim köle emeğine dayanıyordu. Siyasi kriz, ambargolar ve doğal afetler sektörü çökertti. Bugün kahve çoğunlukla küçük çiftçilerin 'creole garden' bahçelerinde yetişiyor. Haiti kültüründe kahve (kafe) vazgeçilmezdir. Evde ",
+  "en": "Coffee reached French Saint-Domingue around 1715, when seedlings were brought from Martinique. By 1788 the colony supplied roughly half the world's coffee, an output built on enslaved labour. Political crises, embargoes and natural disasters later brought the sector down. Today most coffee comes from smallholders' mixed 'creole gardens'. In Haiti kafe is central to daily life. It is often roasted "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Massif du Nord (Dondon / Nord)",
+   "lat": 19.55,
+   "lng": -72.35,
+   "desc": {
+    "tr": "Haiti'de kahvenin 1700'lerde yayıldığı tarihî bölgedir. Dondon çevresi dağlık, gölgelik arazide yetişen kahvesiyle bilinir.",
+    "en": "A historic heartland where coffee spread in the 1700s; the Dondon area is known for mountain, shade-grown coffee."
+   },
+   "grapes": [
+    "Typica",
+    "Haitian Bleu (washed)"
+   ]
+  },
+  {
+   "name": "Montagnes Noires",
+   "lat": 19.05,
+   "lng": -72.15,
+   "desc": {
+    "tr": "Yüksek rakımlı, küçük çiftçi kooperatiflerinin kahve yetiştirdiği orta bölge dağlarıdır.",
+    "en": "Central high-altitude mountains where smallholder cooperatives grow coffee."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  },
+  {
+   "name": "Chaîne des Matheux",
+   "lat": 18.75,
+   "lng": -72.3,
+   "desc": {
+    "tr": "Port-au-Prince'in kuzeydoğusundaki bu sıradağlarda gölgede yetişen yüksek rakımlı kahve üretilir.",
+    "en": "A mountain range northeast of Port-au-Prince producing high-elevation, shade-grown coffee."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  },
+  {
+   "name": "Massif de la Selle (Jacmel / Sud-Est)",
+   "lat": 18.35,
+   "lng": -72.05,
+   "desc": {
+    "tr": "Haiti'nin en yüksek dağ kütlesidir. Jacmel çevresinde yamaçlarda yetişen, yumuşak ve düşük asitli kahvesiyle tanınır.",
+    "en": "Haiti's highest massif; around Jacmel, mountainside coffee is prized for its soft, low-acid cup."
+   },
+   "grapes": [
+    "Typica",
+    "Washed Haitian Bleu"
+   ]
+  },
+  {
+   "name": "Montagnes du Trou d'Eau",
+   "lat": 18.5,
+   "lng": -72.2,
+   "desc": {
+    "tr": "Güney-doğudaki yüksek kesimlerde kooperatiflerce işlenen küçük ölçekli arabica üretimi yapılır.",
+    "en": "Small-scale arabica grown at elevation in the southeast, often processed by cooperatives."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  },
+  {
+   "name": "Massif de la Hotte (Grand'Anse / Sud)",
+   "lat": 18.4,
+   "lng": -74.0,
+   "desc": {
+    "tr": "Güney yarımadasının nemli, yüksek dağlarında küçük çiftlik kahvesi yetişir.",
+    "en": "Humid, high mountains of the southern peninsula, with small-farm coffee."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Haiti kahvesinin temelini oluşturan, Martinik üzerinden gelen eski arabica çeşididir. Bitkiler uzun boylu olur.",
+    "en": "The old arabica cultivar, introduced via Martinique, that underlies most Haitian coffee; the trees grow tall."
+   }
+  },
+  {
+   "name": "Haitian Bleu (washed)",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "1990'larda Jamaika Blue Mountain'a gönderme yapan, kooperatiflerde yıkanarak işlenen kahvenin ticari markasıdır.",
+    "en": "A 1990s brand for cooperative-washed coffee, named in nod to Jamaican Blue Mountain."
+   }
+  },
+  {
+   "name": "Dry/natural process (café pilé)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Haiti kahvesinin büyük kısmı kurutularak işlenir. Kuru kahve çiftlikte havanda dövülür ve bu iş genellikle kadınlara düşer.",
+    "en": "Most Haitian coffee is sun-dried; the dried coffee is milled in a mortar on the farm, usually by women."
+   }
+  },
+  {
+   "name": "Creole garden (shade-grown) coffee",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Kahve, muz, manyok ve papaya ile birlikte küçük karma bahçelerde yetiştirilir.",
+    "en": "Coffee grown with bananas, cassava and papaya in small mixed plots."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Kafe (sweet black demitasse)",
+   "desc": {
+    "tr": "Koyu kavrulmuş, güçlü ve şekerli kahve, ofiste, evde ve toplantılarda küçük fincanlarda tepsiyle sunulur.",
+    "en": "Dark, strong, sweet coffee served in small cups on trays at homes, offices and meetings."
+   }
+  },
+  {
+   "name": "Cloth-bag drip (kafe pase)",
+   "desc": {
+    "tr": "Kahve ve şeker dolu bir bez torbadan sıcak su defalarca geçirilir. Sonuç yoğun, şurup kıvamında bir demdir.",
+    "en": "Hot water is poured repeatedly through a cloth bag of grounds and sugar, giving a syrupy, full-bodied brew."
+   }
+  },
+  {
+   "name": "Home roasting and pounding (café pilé)",
+   "desc": {
+    "tr": "Kahve evde kömür ateşinde kavrulur, çoğu zaman kavrulurken şeker eklenir, sonra havanda (pilon) ince dövülür.",
+    "en": "Beans are roasted at home over charcoal, often with sugar added during roasting, then pounded fine in a mortar (pilon)."
+   }
+  },
+  {
+   "name": "Café au lait with bread",
+   "desc": {
+    "tr": "Sütlü kahve yaygın değildir. Sütlü kahve (café au lait) çocuklara da verilen bir kahvaltı içeceğidir. Ekmek ve avokadoyla da tüketilir.",
+    "en": "Milk is not the norm, but café au lait is a breakfast drink, even for children; coffee is often taken with bread and avocado."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Discover What Makes Haitian Coffee So Unique",
+   "url": "https://www.mysticmonkcoffee.com/blogs/learn-about-coffee/haitian-coffee"
+  },
+  {
+   "title": "Haitian Coffee Guide: History, Flavor & Culture — Corner Coffee Store",
+   "url": "https://cornercoffeestore.com/all-about-haitian-coffee/"
+  },
+  {
+   "title": "CBC Guide: Haitian Coffee",
+   "url": "https://coffeebeancorral.com/blogs/coffee-knowledge/haiti-coffee-guide#erid91658081"
+  },
+  {
+   "title": "Haiti Coffee Ratings and Reviews - Coffee Review",
+   "url": "https://www.coffeereview.com/coffee-reference/coffee-categories/geographic-origins/coffees-from-the-americas/haiti/"
+  },
+  {
+   "title": "Haitian Blue Mountain Coffee: A Rare Caribbean Coffee",
+   "url": "https://www.coffeeam.com/blogs/blog/haitian-blue-mountain-coffee-a-rare-caribbean-coffee"
+  },
+  {
+   "title": "Coffee production in Haiti",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Haiti"
+  },
+  {
+   "title": "Haitian Blue Coffee Beans - Espresso & Coffee Guide",
+   "url": "https://espressocoffeeguide.com/gourmet-coffee/coffees-of-the-americas/haiti-coffee/haitian-blue-coffee/"
+  },
+  {
+   "title": "Haitian Blue: The Island Nation’s Latest Specialty Coffee Offering",
+   "url": "https://coffeeordie.com/haitian-blue-coffee"
+  }
+ ]
+}

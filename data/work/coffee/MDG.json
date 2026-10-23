@@ -1,0 +1,203 @@
+{
+ "iso3": "MDG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23427,
+  "out": 3644,
+  "searches": 2
+ },
+ "usd": 0.1033,
+ "summary": {
+  "tr": "Kahve, 19. yüzyılın ortası–sonlarında Réunion (eski adıyla Bourbon) Adası'ndan Madagaskar'a getirildi. Fransız sömürge döneminde üretim hızla arttı ve ada bugün büyük oranda (yaklaşık %90) robusta üretiyor. Kahve gündelik hayatın merkezinde: üretimin büyük bölümü yerelde tüketiliyor ve sokak satıcıları ile hotely adı verilen küçük lokantalar, tavada kavrulmuş, çok sert, yoğun şekerli ve yoğunlaştı",
+  "en": "Coffee reached Madagascar from Réunion (then Bourbon Island) in the mid-to-late 19th century, and production grew rapidly under French colonial rule. Today the island is mainly a robusta producer, at around 90% of output. Coffee is central to daily life: much of the crop is consumed locally, and street vendors and small roadside eateries (hotely) serve strong, pan-roasted coffee all day, typically"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Vatovavy-Fitovinany (Mananjary–Farafangana)",
+   "lat": -21.8,
+   "lng": 47.9,
+   "desc": {
+    "tr": "Güneydoğu kıyısındaki tarihî ticari robusta merkezi; Fransız şirketlerinin geniş robusta plantasyonlarının bulunduğu bölge.",
+    "en": "The historic commercial robusta heartland on the southeast coast, once home to large French-owned robusta plantations."
+   },
+   "grapes": [
+    "Robusta (Kouillou)"
+   ]
+  },
+  {
+   "name": "Atsinanana (Toamasina)",
+   "lat": -18.15,
+   "lng": 49.4,
+   "desc": {
+    "tr": "Doğu kıyısının nemli, tropikal alçak rakımlarında yetişen robusta ile bilinir.",
+    "en": "Known for robusta grown in the humid, tropical lowlands of the east coast."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "SAVA (Antalaha)",
+   "lat": -14.9,
+   "lng": 50.28,
+   "desc": {
+    "tr": "Vanilyasıyla ünlü kuzeydoğu bölgesi; hem robusta hem arabica yetişir.",
+    "en": "A northeastern region best known for vanilla, where both robusta and arabica are grown."
+   },
+   "grapes": [
+    "Robusta",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Sambirano (Ambanja & Nosy Be)",
+   "lat": -13.7,
+   "lng": 48.45,
+   "desc": {
+    "tr": "Sambirano Nehri vadisi ve Nosy Be çevresinde yetişen kuzeybatı robustası ile tanınır.",
+    "en": "Known for northwestern robusta grown along the Sambirano River valley and on Nosy Be."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Itasy",
+   "lat": -18.95,
+   "lng": 46.8,
+   "desc": {
+    "tr": "Zengin volkanik toprağı ve elverişli mikroklimasıyla yaylaların başlıca arabica bölgesi; yerelde 'kafendrazana' olarak anılır.",
+    "en": "The main arabica area of the highlands, with rich volcanic soils and a favourable microclimate, locally called 'kafendrazana'."
+   },
+   "grapes": [
+    "Arabica",
+    "Bourbon",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Amoron'i Mania & Haute Matsiatra",
+   "lat": -20.7,
+   "lng": 47.1,
+   "desc": {
+    "tr": "Küçük çiftçilerin 15–50 ağaçlık parsellerinden toplanan yayla arabicalarının geldiği bölge.",
+    "en": "A highland area where arabica comes from smallholders with plots of roughly 15 to 50 trees."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora, Kouillou)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Ülke üretiminin yaklaşık %90'ını oluşturur ve 100–300 m rakımlı doğu kıyı ovalarında yetişir.",
+    "en": "Makes up about 90% of national output and grows in the east-coast lowlands at 100–300 m."
+   }
+  },
+  {
+   "name": "Arabica Bourbon (Bourbon Pointu)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Réunion'dan getirilen, ince aromalarıyla aranan arabica çeşidi; üretimin küçük bir bölümünü oluşturur.",
+    "en": "An arabica cultivar introduced from Réunion and prized for delicate flavours, though only a small share of production."
+   }
+  },
+  {
+   "name": "Arabica Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bourbon ile birlikte yaylalarda yetiştirilen yaygın arabica çeşitlerinden biridir.",
+    "en": "One of the common arabica cultivars grown in the highlands alongside Bourbon."
+   }
+  },
+  {
+   "name": "Yabani Coffea türleri",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Madagaskar'a özgü onlarca yabani tür, çoğu düşük kafeinli veya kafeinsiz; iklime dayanıklı ıslah için değerli bir genetik kaynak.",
+    "en": "Dozens of wild species endemic to Madagascar, mostly low in or free of caffeine and a valuable genetic resource for climate-resilient breeding."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Kafe gasy / Andao hisotro kafe",
+   "desc": {
+    "tr": "Tavada neredeyse yanana kadar kavrulmuş, havanda dövülmüş robusta; çok sıcak, şekerli ve bol konserve yoğunlaştırılmış sütle servis edilen sabah kahvesi.",
+    "en": "Robusta pan-roasted almost to burnt and pounded in a mortar, served piping hot, sweetened and finished with canned condensed milk as the classic morning cup."
+   }
+  },
+  {
+   "name": "Tanty kafé ile demleme",
+   "desc": {
+    "tr": "Öğütülmüş kahve sıcak suyla örülmüş ya da bez bir süzgeçten (tanty kafé) geçirilir; hotely lokantalarında çoğu zaman çekirdekten fincana her aşama yerinde yapılır.",
+    "en": "Ground coffee is brewed through a woven or cloth filter (tanty kafé), and in hotely eateries the whole process from green bean to cup is often done on the spot."
+   }
+  },
+  {
+   "name": "Kafe mainty (sütsüz siyah kahve)",
+   "desc": {
+    "tr": "Yoğunlaştırılmış süt eklenmeyen, yine çok sert ve çoğunlukla önceden şekerlenmiş geleneksel kahve.",
+    "en": "The traditional coffee served without condensed milk, still very strong and often pre-sweetened."
+   }
+  },
+  {
+   "name": "Mofo gasy, mokary ve menakely ile kahve",
+   "desc": {
+    "tr": "Kahve, pirinç unlu mofo gasy ve mokary ile mayalı veya kızarmış hamurlu menakely gibi atıştırmalıklarla sokak kiosklarında kahvaltı olarak içilir.",
+    "en": "Coffee is drunk at street kiosks as breakfast alongside rice-flour cakes such as mofo gasy and mokary, and fried dough like menakely."
+   }
+  },
+  {
+   "name": "TAF hazır kahve",
+   "desc": {
+    "tr": "Poşet olarak satılan yerel hazır kahve, bazı tüketiciler için pratik ve ucuz bir alternatiftir.",
+    "en": "A local instant coffee sold in sachets, a cheap and practical option for some drinkers."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "A guide to coffee production in Madagascar - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2021/09/a-guide-to-coffee-production-in-madagascar/"
+  },
+  {
+   "title": "Madagascar Coffee Beans: Facts, Guide, Flavors",
+   "url": "https://www.homegrounds.co/madagascar-coffee/"
+  },
+  {
+   "title": "Coffee culture in Madagascar",
+   "url": "https://www.bradtguides.com/coffee-culture-in-madagascar/"
+  },
+  {
+   "title": "Madagascar Coffee - Madagascar",
+   "url": "https://www.madacamp.com/Madagascar_Coffee"
+  },
+  {
+   "title": "Madagascar Has The World's Most Diverse Coffee Genetic Population—Now It's Ready To Bloom - Sprudge Special Projects Desk",
+   "url": "https://specialprojects.sprudge.com/?p=696"
+  },
+  {
+   "title": "Madagascar Coffee: An Essential Part Of Life And Culture",
+   "url": "https://www.roastycoffee.com/madagascar-coffee/"
+  },
+  {
+   "title": "The evolutionary history of three Baracoffea species from western Madagascar revealed by chloroplast and nuclear genomes",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10783717/"
+  },
+  {
+   "title": "Madagascar",
+   "url": "https://greencoffeecollective.com/pages/origin/madagascar"
+  }
+ ]
+}

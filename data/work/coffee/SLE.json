@@ -1,0 +1,217 @@
+{
+ "iso3": "SLE",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22544,
+  "out": 3963,
+  "searches": 2
+ },
+ "usd": 0.1047,
+ "summary": {
+  "tr": "Sierra Leone'de kahve, 1800'lerde yerli Coffea stenophylla (yayla kahvesi) ile Freetown'dan ihraç edilmeye başlandı. 1950'lerde İngilizlerin getirdiği robusta bu türün yerini aldı. Kahve bir dönem kakaodan önemliydi ve 1991'e kadar yılda 25.000 tona yakın ihracat yapılıyordu. 1991-2002 iç savaşı üretimi çökertti. Bugün üretimin çoğunu doğuda küçük çiftçiler yapıyor. Tüketim düşük ve kahve çoğu kiş",
+  "en": "Sierra Leone's coffee story began in the 1800s with the native Coffea stenophylla (highland coffee), which was exported from Freetown. British-introduced robusta replaced it from the 1950s. Coffee once outranked cocoa, and exports reached about 25,000 tonnes a year until 1991, when the 1991–2002 civil war collapsed production. Today smallholders in the east grow most of the crop. Domestic consumpt"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kenema District (Eastern Province)",
+   "lat": 7.88,
+   "lng": -11.19,
+   "desc": {
+    "tr": "Ülkenin kahve merkezinin çekirdeği olan Kenema, robusta üretiminin yanı sıra yabani stenophylla ve liberica kalıntılarıyla bilinir; Blama çevresinde yerel kavurmacılar da bu bölgeden çekirdek alır.",
+    "en": "Core of the country's eastern coffee hub, Kenema is known for robusta alongside wild stenophylla and pockets of liberica, and it supplies local Freetown roasters."
+   },
+   "grapes": [
+    "Robusta",
+    "Liberica",
+    "Coffea stenophylla"
+   ]
+  },
+  {
+   "name": "Kailahun District (Eastern Province)",
+   "lat": 8.28,
+   "lng": -10.57,
+   "desc": {
+    "tr": "Guinea ve Liberya sınırındaki yağmur ormanı kuşağında, küçük aile çiftliklerinde yetişen robusta ile tanınır.",
+    "en": "Along the Guinea and Liberia borders, this rainforest district is known for smallholder-grown robusta."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Kono District (Eastern Province)",
+   "lat": 8.64,
+   "lng": -10.97,
+   "desc": {
+    "tr": "Doğu kahve kuşağının bir parçası olan Kono, Yekebema gibi tepe köylerinden Freetown'daki küçük kavurmacılara giden çekirdekle bilinir.",
+    "en": "Part of the eastern coffee belt, Kono is known for hill-village coffee, such as from Yekebema, now roasted in small batches in Freetown."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Moyamba District (Southern Province)",
+   "lat": 8.16,
+   "lng": -12.43,
+   "desc": {
+    "tr": "Güney kahve bölgesi Moyamba, robusta üretiminin yanı sıra Kasewe Tepeleri'nde bulunan yabani stenophylla popülasyonlarıyla öne çıkar.",
+    "en": "A southern coffee district, Moyamba combines robusta farming with wild stenophylla populations found in the Kasewe Hills."
+   },
+   "grapes": [
+    "Robusta",
+    "Coffea stenophylla"
+   ]
+  },
+  {
+   "name": "Bo District (Southern Province)",
+   "lat": 7.96,
+   "lng": -11.74,
+   "desc": {
+    "tr": "Bo, güney ve doğu illerindeki robusta ağırlıklı kahve üretiminin önemli bir ilçesidir.",
+    "en": "Bo is a significant robusta-growing district within the southern and eastern coffee provinces."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Pujehun District (Southern Province)",
+   "lat": 7.35,
+   "lng": -11.72,
+   "desc": {
+    "tr": "Güneydeki nemli ormanlık Pujehun, küçük çaplı robusta üretimiyle tanınır.",
+    "en": "In the humid forested south, Pujehun is known for small-scale robusta production."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Koinadugu and Tonkolili (Northern Province)",
+   "lat": 9.1,
+   "lng": -11.7,
+   "desc": {
+    "tr": "Kuzeyin yüksek kesimlerinde daha az miktarda, çoğunlukla robusta kahvesi yetiştirilir.",
+    "en": "The northern highlands grow smaller quantities of coffee, mostly robusta."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Savaş öncesinde İngilizlerin getirdiği robusta bugün ticari olarak yetiştirilen baskın türdür.",
+    "en": "Introduced by the British in the late colonial period, robusta is the dominant commercially grown species today."
+   }
+  },
+  {
+   "name": "Coffea stenophylla (highland coffee)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "1800'lerde Freetown'dan ihraç edilen yerli yayla kahvesi 1954'ten sonra görülmedi, 2018'de yeniden bulundu ve ticari olarak yetiştirilmiyor.",
+    "en": "The native highland coffee was exported from Freetown in the 1800s, went unseen after 1954, was rediscovered in 2018, and is not yet commercially grown."
+   }
+  },
+  {
+   "name": "Liberica (Coffea liberica)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Batı Afrika kökenli bu iri ağaç, bugün robusta tarlalarında ve terk edilmiş çiftliklerde küçük kümeler hâlinde bulunur.",
+    "en": "A large West African tree species that now survives in small pockets within robusta plantations and abandoned farms."
+   }
+  },
+  {
+   "name": "Arabica (Coffea arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Arabica ülkede yetiştirilen üç ana türden biridir ancak ticari önemi çok küçüktür.",
+    "en": "Arabica is grown in the country alongside robusta and liberica, but its commercial weight is very small."
+   }
+  },
+  {
+   "name": "Natural (sun-dried) robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Kiraz kahveler hasattan sonra patiolarda veya yükseltilmiş platformlarda kurutulur; mart sonu yağmurları nem hedefini tutturmayı zorlaştırır.",
+    "en": "Cherries are dried whole on patios or raised platforms after harvest, and late-March rains make it hard to reach export moisture levels."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Street-vendor boiled coffee",
+   "desc": {
+    "tr": "Kavrulmuş çekirdek veya öğütülmüş kahve büyük bir kapta kaynatılır; büyük kentlerdeki kiosklarda satılır, çoğunlukla bol şekerli içilir ve bazen zencefil ya da tarçın eklenir.",
+    "en": "Roasted beans or grounds are boiled in a large pot and sold from kiosks in larger towns. It is usually drunk very sweet, sometimes with ginger or cinnamon."
+   }
+  },
+  {
+   "name": "Instant coffee (Nescafé-style)",
+   "desc": {
+    "tr": "Fildişi Sahili'nden gelen hazır kahveler 2010'dan beri ucuz ve pratik oldukları için günlük tüketimde öne çıkıyor.",
+    "en": "Instant coffee imported from Ivory Coast has been widely sold since 2010, and its low price and convenience make it a common everyday choice."
+   }
+  },
+  {
+   "name": "Freetown specialty café coffee",
+   "desc": {
+    "tr": "Freetown'daki Hannah's Coffee, Nina's Coffee ve House of Beans gibi küçük kavurmacılar yerel çekirdeği elde veya küçük partilerle kavurup filtre ve espresso olarak sunuyor.",
+    "en": "Small Freetown roasters such as Hannah's Coffee, Nina's Coffee and House of Beans hand-roast or small-batch roast local beans for filter and espresso service."
+   }
+  },
+  {
+   "name": "Espresso in hotels and bakeries",
+   "desc": {
+    "tr": "Freetown'daki bazı modern kafe, otel ve fırınlarda espresso makineleri bulunuyor; bu mekânlar uluslararası müşterilere ve yerel meraklılara hitap ediyor.",
+    "en": "Some modern cafés, hotels and bakeries in Freetown have espresso machines, serving international clients and a growing local specialty audience."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Genetic diversity of coffee germplasm in Sierra Leone",
+   "url": "https://www.maxapress.com/data/article/bpr/preview/pdf/BPR-2023-0026.pdf"
+  },
+  {
+   "title": "20 Best African Coffees to Explore",
+   "url": "https://colipsecoffee.com/blogs/coffee/african"
+  },
+  {
+   "title": "(PDF) Genetic diversity of coffee germplasm in Sierra Leone: implications for conservation and breeding programs",
+   "url": "https://www.researchgate.net/publication/374173346_Genetic_diversity_of_coffee_germplasm_in_Sierra_Leone_implications_for_conservation_and_breeding_programs"
+  },
+  {
+   "title": "Phenotypic diversity of wild Sierra Leonean coffee (<i>Coffea stenophylla</i>) collected from Kenema and Moyamba districts",
+   "url": "https://www.maxapress.com/article/doi/10.48130/BPR-2023-0012"
+  },
+  {
+   "title": "Genetic diversity of coffee germplasm in Sierra Leone: implications for conservation and breeding programs",
+   "url": "https://www.maxapress.com/article/doi/10.48130/BPR-2023-0026"
+  },
+  {
+   "title": "Exploring coffee production in Sierra Leone - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2022/10/exploring-coffee-production-in-sierra-leone/"
+  },
+  {
+   "title": "Sierra Leone",
+   "url": "https://bunaa.de/en/sierra-leone-2/"
+  },
+  {
+   "title": "Sierra Leone Coffee Beans - Espresso & Coffee Guide",
+   "url": "https://espressocoffeeguide.com/gourmet-coffee/arabian-and-african-coffees/sierra-leone-coffee/"
+  }
+ ]
+}

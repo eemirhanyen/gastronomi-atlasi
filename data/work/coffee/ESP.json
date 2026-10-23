@@ -1,0 +1,156 @@
+{
+ "iso3": "ESP",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22626,
+  "out": 2881,
+  "searches": 2
+ },
+ "usd": 0.0941,
+ "summary": {
+  "tr": "İspanya'da kahve tarımı, 19. yüzyıl başında Kanarya Adaları'na getirilen Arabica Typica fidanlarıyla başladı. Bugün Gran Canaria'daki Agaete Vadisi, Avrupa Birliği'nin neredeyse tek ticari kahve bahçesidir. Yıllık üretim yaklaşık 1,5 ton gibi çok küçük bir düzeydedir. İspanya'nın asıl kahve kültürü içme alışkanlıklarında yaşar. Espresso makineleri her barda bulunur. Sütün miktarına göre adlandırıl",
+  "en": "Coffee growing in Spain began in the early 19th century, when Arabica Typica plants reached the Canary Islands. Today the Agaete Valley on Gran Canaria is virtually the only commercial coffee estate in the EU, producing only about 1.5 tonnes a year. Spain's real coffee identity lies in how it drinks coffee. Espresso machines are in every bar, and drinks are named by how much milk they contain: caf"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Agaete Valley, Gran Canaria",
+   "lat": 28.1,
+   "lng": -15.7,
+   "desc": {
+    "tr": "Avrupa'nın tek geleneksel kahve vadisi; meyve ağaçlarının gölgesinde yetişen, yıkanmamış (natural) Typica kahvesi hafif, aromatik, çikolata ve meyan kökü notalıdır.",
+    "en": "Europe's only traditional coffee valley, where Typica grows in the shade of fruit trees and is processed as a natural; it is light and aromatic with chocolate and liquorice notes."
+   },
+   "grapes": [
+    "Typica",
+    "Geisha (experimental)"
+   ]
+  },
+  {
+   "name": "Santa María de Guía and Agüimes, Gran Canaria",
+   "lat": 28.0,
+   "lng": -15.55,
+   "desc": {
+    "tr": "Son yıllarda Agaete dışında yeniden canlanan küçük ölçekli kahve ekimlerinin yapıldığı Gran Canaria belediyeleri.",
+    "en": "Gran Canaria municipalities where small-scale coffee plantings have recently been revived outside Agaete."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  },
+  {
+   "name": "Northern Tenerife",
+   "lat": 28.4,
+   "lng": -16.4,
+   "desc": {
+    "tr": "Kuzey Tenerife'nin nemli yamaçlarında küçük, butik ve deneysel kahve bahçeleri bulunur.",
+    "en": "The humid northern slopes of Tenerife hold a few small boutique and experimental coffee plots."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Arabica Typica (Agaete)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Etiyopya kökenli, dünyanın çoğu yerinde terk edilmiş eski bir çeşit; Agaete'de 19. yüzyıldan beri yetiştirilir.",
+    "en": "An old Ethiopian-origin cultivar abandoned in most producing countries, grown in Agaete since the 19th century."
+   }
+  },
+  {
+   "name": "Geisha",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Agaete'deki Finca Los Castaños'ta Avrupa'da öncü olarak denenen yeni bir parselde yetiştirilen yüksek değerli çeşit.",
+    "en": "A prized cultivar being trialled on a new plot at Finca Los Castaños in Agaete, a first for Europe."
+   }
+  },
+  {
+   "name": "Natural (unwashed) process",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Agaete kahvesi yıkanmadan, doğal yöntemle işlenir; bu da fincanda hafif ve karmaşık bir profil verir.",
+    "en": "Agaete coffee is processed as a natural without washing, giving a light, complex cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café con leche",
+   "desc": {
+    "tr": "Genellikle yarı yarıya espresso ve sıcak sütle hazırlanan, kahvaltıda tostada ile içilen İspanya'nın en yaygın kahvesi.",
+    "en": "Spain's most popular coffee, typically half espresso and half hot milk, drunk at breakfast with tostada."
+   }
+  },
+  {
+   "name": "Café cortado",
+   "desc": {
+    "tr": "Espressonun yoğunluğunu az miktarda sıcak sütle \"kesen\", genellikle küçük bir bardakta servis edilen içecek.",
+    "en": "Espresso \"cut\" with a little warm milk, usually served in a small glass."
+   }
+  },
+  {
+   "name": "Café bombón",
+   "desc": {
+    "tr": "Dibinde şekerli yoğunlaştırılmış süt, üstünde espresso bulunan, bardakta katmanlı sunulan tatlı kahve; Valensiya ve Güney İspanya'da çok yaygındır.",
+    "en": "A sweet layered drink of sweetened condensed milk topped with espresso, served in a glass and popular across southern and eastern Spain."
+   }
+  },
+  {
+   "name": "Carajillo",
+   "desc": {
+    "tr": "Espressonun konyak, rom, viski veya anason likörüyle birleştirildiği, işçilerin sabah içeceği olarak başlayan ve sonra yemek sonrası içkiye dönüşen kahve.",
+    "en": "Espresso with brandy, rum, whisky or anise liqueur, once a workers' morning drink and now often an after-meal digestif."
+   }
+  },
+  {
+   "name": "Barraquito (Canary Islands)",
+   "desc": {
+    "tr": "Kanarya Adaları'na özgü; yoğunlaştırılmış süt, Licor 43, limon kabuğu ve tarçınla katmanlanan içecek.",
+    "en": "A Canary Islands speciality layering condensed milk, Licor 43, espresso, frothed milk, lemon zest and cinnamon."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "▷ Canary Islands Coffee【 GUIDE 2026 】",
+   "url": "https://villagrancanaria.com/experiences/canary-islands-coffee-agaete/"
+  },
+  {
+   "title": "Agaete Coffee - Gran Canaria",
+   "url": "https://www.hotelesdunas.com/en/gran-canaria/coffee-agaete-gran-canaria/"
+  },
+  {
+   "title": "Café de Agaete",
+   "url": "https://es.wikipedia.org/wiki/Caf%C3%A9_de_Agaete"
+  },
+  {
+   "title": "Agaete & Puerto de las Nieves - Maritime Heritage & Coffee Valley",
+   "url": "https://holagrancanaria.com/agaete-puerto-de-las-nieves"
+  },
+  {
+   "title": "The Chestnut Tree Farm",
+   "url": "https://turismo.agaete.es/en/lugares/shopping-and-crafts/chestnut-tree-farm"
+  },
+  {
+   "title": "Experience",
+   "url": "https://fincaloscastanos.com/experience/"
+  },
+  {
+   "title": "Agaete Valley Gran Canaria (2026)",
+   "url": "https://airial.travel/attractions/spain/agaete/agaete-valley-gran-canaria-vSk1iRkX"
+  },
+  {
+   "title": "Café de Canarias: el único café que se cultiva en España",
+   "url": "https://www.coffeesapiens.org/cafe-de-canarias-el-unico-cafe-que-se-cultiva-en-espana/"
+  }
+ ]
+}

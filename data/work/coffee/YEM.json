@@ -1,0 +1,211 @@
+{
+ "iso3": "YEM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24575,
+  "out": 3871,
+  "searches": 2
+ },
+ "usd": 0.1079,
+ "summary": {
+  "tr": "Yemen, kahvenin içecek olarak ilk kez 15. yüzyılda Sufi topluluklarında dhikr gecelerinde uyanık kalmak için içildiği ve ticari olarak ilk yetiştirildiği yerdir. Kahve yüzyıllarca Mokha limanından dünyaya satıldı ve 'mocha' adı bu limandan gelir. Bugün kahve, kuzeybatı dağlarındaki teraslı küçük çiftliklerde yetişiyor. Yemenliler kahveyi baharatlı qahwa ve kahve kabuğundan yapılan qishr olarak içe",
+  "en": "Yemen is where coffee was first drunk as a beverage, in 15th-century Sufi circles that used it to stay awake for night-long dhikr, and where it was first grown as a commercial crop. For centuries the port of Mokha shipped the world's coffee, and it gave 'mocha' its name. Today coffee is still grown by smallholders on terraced western mountainsides. Yemenis drink it as spiced qahwa and as qishr, a "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Bani Matar",
+   "lat": 15.2,
+   "lng": 44.0,
+   "desc": {
+    "tr": "Sana'a'nın güneybatısındaki çok yüksek rakımlı bu bölge, sert ve yoğun çekirdekleri, tatlılığı, narenciye-meyve aromaları ve hafif gül notasıyla bilinir (Matari).",
+    "en": "This very high-altitude district southwest of Sana'a is known for exceptionally hard, dense beans with high sweetness, citrusy and fruity flavours and a hint of rose (Matari)."
+   },
+   "grapes": [
+    "Mattari",
+    "Udaini",
+    "Tuffahi"
+   ]
+  },
+  {
+   "name": "Haraz",
+   "lat": 15.1,
+   "lng": 43.7,
+   "desc": {
+    "tr": "Sana'a'nın batısındaki sarp dağlarda yer alan Haraz, çiçeksi, meyve ağırlıklı ve şarap benzeri fincanlarıyla Yemen'in en ünlü kahve bölgelerinden biridir.",
+    "en": "In the rugged mountains west of Sana'a, Haraz is one of Yemen's best-known origins, with floral, fruit-forward, winey cups."
+   },
+   "grapes": [
+    "Harazi",
+    "Ismaili",
+    "Udaini"
+   ]
+  },
+  {
+   "name": "Hayma",
+   "lat": 15.3,
+   "lng": 43.85,
+   "desc": {
+    "tr": "Bani Matar'ın hemen kuzeyinde, Sana'a'nın batısında yer alan Hayma, ara sıra küçük köy partileri olarak ihraç edilir.",
+    "en": "Lying west of Sana'a and just north of Bani Matar, Hayma coffee occasionally appears on the specialty market as small village lots."
+   },
+   "grapes": [
+    "Haymi",
+    "Udaini"
+   ]
+  },
+  {
+   "name": "Raymah",
+   "lat": 14.65,
+   "lng": 43.7,
+   "desc": {
+    "tr": "Yemen ölçülerine göre daha hafif ve narin, çiçeksi ve çekirdekli meyve notaları taşıyan fincanlarıyla tanınır.",
+    "en": "Known for cups that are lighter and more delicate by Yemeni standards, with floral and stone-fruit notes."
+   },
+   "grapes": [
+    "Raymi",
+    "Udaini"
+   ]
+  },
+  {
+   "name": "Ibb",
+   "lat": 13.97,
+   "lng": 44.18,
+   "desc": {
+    "tr": "Biraz daha düşük rakım ve daha fazla yağış sayesinde daha yumuşak, dengeli fincanlar verir.",
+    "en": "Slightly lower altitudes and more rainfall give smoother, more balanced cups."
+   },
+   "grapes": [
+    "Udaini",
+    "Tuffahi"
+   ]
+  },
+  {
+   "name": "Hajjah and Al-Mahwit",
+   "lat": 15.55,
+   "lng": 43.6,
+   "desc": {
+    "tr": "Kuzey dağlık bölgesinde, Yemen'in büyük kahve üreten alanlarından biridir ve izlenebilir küçük partiler verir.",
+    "en": "Part of the northern highlands, one of Yemen's larger coffee-producing areas, yielding small traceable community lots."
+   },
+   "grapes": [
+    "Hajri",
+    "Mahwati",
+    "Udaini"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Udaini",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Yemen'in en yaygın yerel arabica türlerinden biridir.",
+    "en": "One of the most widespread traditional Yemeni arabica landraces."
+   }
+  },
+  {
+   "name": "Tuffahi",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Yemen'e özgü, küçük çekirdekli, eski bir yerel arabica türüdür.",
+    "en": "An old Yemeni arabica landrace with small beans."
+   }
+  },
+  {
+   "name": "Dawairi",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Yemen'in dağlık bölgelerinde yetişen bir diğer yerel arabica türüdür.",
+    "en": "Another traditional arabica landrace grown in Yemen's highlands."
+   }
+  },
+  {
+   "name": "Ismaili (Bani Ismail)",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Haraz dağlarındaki Bani Ismail adıyla anılır. Hem bölgeyi hem de çeşidi ifade edebilir.",
+    "en": "Named after the Bani Ismail mountains in Haraz. The name can mean either the district or the type."
+   }
+  },
+  {
+   "name": "Natural (sun-dried cherry) processing",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Geleneksel işleme yöntemidir. Kiraz meyveler teraslarda ve damlarda güneşte kurutulur.",
+    "en": "The traditional processing method. Whole cherries are sun-dried on terraces and rooftops."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Qishr",
+   "desc": {
+    "tr": "Kurutulmuş kahve kabuklarının zencefil ve çoğu zaman tarçınla demlenmesiyle yapılan geleneksel içecektir. Kabuk çekirdekten ayrı değerlendirilir.",
+    "en": "A traditional drink brewed from dried coffee husks with ginger and often cinnamon. The husk is used rather than the bean."
+   }
+  },
+  {
+   "name": "Qahwa (spiced coffee)",
+   "desc": {
+    "tr": "Yemen'in geleneksel kahvesi, baharatlarla demlenir ve misafirperverliğin bir parçası olarak ikram edilir.",
+    "en": "Yemen's traditional coffee, brewed with spices and served as part of hospitality."
+   }
+  },
+  {
+   "name": "Sufi dhikr coffee",
+   "desc": {
+    "tr": "Kahvenin kökeni, 15. yüzyılda Sufilerin gece ibadetlerinde uyanık kalmak için içtiği demlemeye dayanır.",
+    "en": "Coffee's origins lie in the brew that 15th-century Sufis drank to stay alert during night-long devotions."
+   }
+  },
+  {
+   "name": "Mokha (single-origin specialty)",
+   "desc": {
+    "tr": "Yemen'in yüksek rakımlı yöresel kahveleri, günümüzde tek menşei olarak filtre veya pour-over ile servis edilir.",
+    "en": "Yemen's high-altitude regional coffees are now also served as single origins, typically as filter or pour-over."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Yemen Coffee Reviews and Ratings - Coffee Review",
+   "url": "https://www.coffeereview.com/coffee-origins/yemen/"
+  },
+  {
+   "title": "Current situation of Yemeni coffee : The agricultural area ...",
+   "url": "https://library.sweetmarias.com/wp-content/uploads/2021/05/Yemeni-Green-Coffee-Sector-Information.pdf"
+  },
+  {
+   "title": "An Introduction to Yemeni Coffee in three parts - Al Mokha",
+   "url": "https://www.almokha.com/pages/learn"
+  },
+  {
+   "title": "Discovering All About Yemeni Coffee: A Rich Heritage Brewed to Perfection",
+   "url": "https://qavashop.com/en/academy/post/discovering-all-about-yemeni-coffee-a-rich-heritage-brewed-to-perfection"
+  },
+  {
+   "title": "Understanding coffee farming practices and prospects in Yemen",
+   "url": "https://nfp-voedselpartn.files.svdcdn.com/production/documents/Understanding-coffee-farming-practices-and-prospects-in-Yemen.pdf?dm=1747390980"
+  },
+  {
+   "title": "4 Unique Yemen Coffee Beans You Need To Try",
+   "url": "https://mymokafe.com/blogs/yemen/4-unique-yemen-coffee-beans-you-need-to-try"
+  },
+  {
+   "title": "Yemen: The Ancient Origins of Coffee Culture",
+   "url": "https://podiumcoffeeclub.com/blogs/blog/yemen-coffee"
+  },
+  {
+   "title": "Yemen Coffee: Mocha, Heirloom Varieties & Cup Profile",
+   "url": "https://inheritancecoffee.com/pages/origins/yemen"
+  }
+ ]
+}

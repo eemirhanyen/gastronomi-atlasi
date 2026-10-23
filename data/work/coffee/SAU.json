@@ -1,0 +1,193 @@
+{
+ "iso3": "SAU",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 21561,
+  "out": 3821,
+  "searches": 2
+ },
+ "usd": 0.1013,
+ "summary": {
+  "tr": "Kahve Arap Yarımadası'nda Yemen'den yayıldı. Suudi Arabistan'da bugün de küçük bir üretim var ve bu üretimin büyük bölümü güneybatı dağlarında, özellikle Cizan'ın teraslı yamaçlarında yapılıyor. Kahve, misafirperverliğin merkezinde yer alır. Hafif kavrulmuş, kardamomlu qahwa dallah denen ibrikten küçük fincanlara dökülür ve hurmayla sunulur. UNESCO Arap kahvesini 2015'te, Suudi Hevlani (Khawlani) ",
+  "en": "Coffee spread across the Arabian Peninsula from Yemen. Saudi Arabia still grows a small crop, mostly on the terraced slopes of the southwestern mountains, above all in Jazan. Coffee is central to hospitality: lightly roasted, cardamom-scented qahwa is poured from a dallah into small cups and served with dates. UNESCO listed Arabic coffee as intangible cultural heritage in 2015 and Saudi Khawlani c"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Al-Dayer (Jazan)",
+   "lat": 17.35,
+   "lng": 43.12,
+   "desc": {
+    "tr": "Ana üretim bölgesi olarak kabul edilir; Hevlani kahvesinin merkezidir ve 2013'ten beri Cizan Kahve Festivali burada yapılır.",
+    "en": "Regarded as the main producing area and the heart of Khawlani coffee; the Jazan Coffee Festival has been held here since 2013."
+   },
+   "grapes": [
+    "Khawlani",
+    "Berri",
+    "Harari"
+   ]
+  },
+  {
+   "name": "Faifa Mountains (Jazan)",
+   "lat": 17.25,
+   "lng": 43.1,
+   "desc": {
+    "tr": "Cizan'ın en yüksek zirvelerinde yetişen kahveleriyle bilinir; bu zirvelerde rakım yaklaşık 2.000 metreye ulaşır.",
+    "en": "Known for coffee grown on the highest peaks of Jazan, where altitude reaches about 2,000 m."
+   },
+   "grapes": [
+    "Khawlani"
+   ]
+  },
+  {
+   "name": "Harub and Al-Edabi (Jazan)",
+   "lat": 17.7,
+   "lng": 42.95,
+   "desc": {
+    "tr": "Cizan'daki altı dağlık üretim bölgesinden ikisidir; yüzlerce yıllık ağaçların bulunduğu küçük teraslı bahçelerle tanınır.",
+    "en": "Two of Jazan's six mountain growing districts, known for small terraced orchards with centuries-old trees."
+   },
+   "grapes": [
+    "Khawlani",
+    "Bahri"
+   ]
+  },
+  {
+   "name": "Al Baha",
+   "lat": 20.0,
+   "lng": 41.47,
+   "desc": {
+    "tr": "Sarawat dağlarında yeni nesil Suudi kafelerin ve kavurucuların kullandığı yerel Hevlani çekirdeği yetişir.",
+    "en": "Grows Khawlani beans in the Sarawat mountains, now sought out by a new generation of Saudi cafés and roasters."
+   },
+   "grapes": [
+    "Khawlani"
+   ]
+  },
+  {
+   "name": "Asir (Abha)",
+   "lat": 18.22,
+   "lng": 42.5,
+   "desc": {
+    "tr": "Ülkenin güneybatı yaylalarında, Cizan ve Bahe ile birlikte Hevlani kahvesinin üçüncü ana yetiştirme bölgesidir.",
+    "en": "Together with Jazan and Al Baha, one of the three main Khawlani growing areas in the southwestern highlands."
+   },
+   "grapes": [
+    "Khawlani"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Khawlani",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Suudi kahvesinin ana çeşididir; küçük taneli, aromatik ve fındık-karamel notalıdır.",
+    "en": "The main Saudi coffee, with small beans, a distinctive aroma and mild caramel and nut notes."
+   }
+  },
+  {
+   "name": "Berri",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Cizan dağlarında yetişen dört yerel çeşitten biridir; bu adlar yerel kullanımdır ve ayrı genetik gruplara karşılık gelmeyebilir.",
+    "en": "One of four local types on the Jazan hillsides; these names are vernacular and may not mark distinct genetic groups."
+   }
+  },
+  {
+   "name": "Harari",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Dağlık bölgede yetişen yerel bir kahve tipidir ve Suudi misafirperverlik mirasının bir parçasıdır.",
+    "en": "A local mountain coffee type, part of the Saudi hospitality heritage."
+   }
+  },
+  {
+   "name": "Bahri",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Hevlani, Berri ve Harari ile birlikte güneybatı yamaçlarında anılan dördüncü yerel tiptir.",
+    "en": "The fourth local type named alongside Khawlani, Berri and Harari on the southwestern slopes."
+   }
+  },
+  {
+   "name": "Natural (sun-dried) process",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Yerel kahveler genellikle kirazıyla güneşte kurutulur; ardından kabuğu soyulur ve hafif ya da orta kavrulur.",
+    "en": "Local coffee is typically dried in the sun in the cherry, then hulled and roasted light to medium."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Qahwa / Gahwa (Saudi Arabic coffee)",
+   "desc": {
+    "tr": "Hafif kavrulmuş arabika kahve ince çekilip kaynatılır, kardamom ve bazen karanfil, safran ya da tarçınla tatlandırılır, süzülür ve şekersiz sunulur.",
+    "en": "Lightly roasted arabica is finely ground and boiled with cardamom and sometimes cloves, saffron or cinnamon, then strained and served unsweetened."
+   }
+  },
+  {
+   "name": "Dallah and finjan serving ritual with dates",
+   "desc": {
+    "tr": "Ev sahibi kahveyi uzun gagalı dallah'tan kulpsuz küçük fincanlara az miktarda doldurur; misafir sağ eliyle alır ve yanında hurma ikram edilir.",
+    "en": "The host pours small measures from the long-spouted dallah into handle-less cups; guests take the cup with the right hand, and dates are served alongside."
+   }
+  },
+  {
+   "name": "Regional qahwa variations (Najd, Hejaz, Riyadh)",
+   "desc": {
+    "tr": "Her bölgenin ve ailenin kendi karışımı vardır. Necid ve Hicaz'da kahve açık altın renkte kavrulur, Riyad'da ise karanfil, safran ve kardamomlu orta bir kavrum tercih edilir.",
+    "en": "Every region and family has its own blend. Najd and Hejaz favour a pale golden roast, while Riyadh leans to a medium roast with cloves, saffron and cardamom."
+   }
+  },
+  {
+   "name": "Specialty and café drinks",
+   "desc": {
+    "tr": "Kafelerde espresso, cappuccino ve çok tatlı İspanyol latte yanında hurma şurubu ve safranlı Suudi latte gibi yerel yorumlar da sunulur.",
+    "en": "Cafés serve espresso, cappuccino and the very sweet Spanish latte, alongside local twists such as a Saudi latte with date syrup and saffron."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Marketing strategies for value chain development: Case of Khawlani coffee-Jazan Region, Saudi Arabia - ScienceDirect",
+   "url": "https://www.sciencedirect.com/science/article/pii/S1658077X23000474"
+  },
+  {
+   "title": "Saudi Khawlani Coffee Beans - Arca del Gusto - Slow Food Foundation",
+   "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/khawlani-coffee/"
+  },
+  {
+   "title": "What is Khawlani coffee?",
+   "url": "https://acquiredcoffee.com/khawlani-coffee/"
+  },
+  {
+   "title": "A guide to Saudi coffee culture - Wanderlust",
+   "url": "https://www.wanderlustmagazine.com/inspiration/saudi-coffee-culture/"
+  },
+  {
+   "title": "Khawlani Coffee Beans",
+   "url": "https://en.wikipedia.org/wiki/Khawlani_Coffee_Beans"
+  },
+  {
+   "title": "Khayalah Mountain - جبل الخيالة",
+   "url": "https://store.jazeancoffee.com/products/KhayalahMountain"
+  },
+  {
+   "title": "Al Areef Mountain - جبل العريف",
+   "url": "https://store.jazeancoffee.com/products/AlAreefMountain"
+  },
+  {
+   "title": "Jazani Khawlani Coffee",
+   "url": "https://jabaliyah.com/en/saudi-khawlani-coffee/p784431748"
+  }
+ ]
+}

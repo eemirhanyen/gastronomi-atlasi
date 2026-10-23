@@ -1,0 +1,249 @@
+{
+ "iso3": "ECU",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24081,
+  "out": 4826,
+  "searches": 2
+ },
+ "usd": 0.1164,
+ "summary": {
+  "tr": "Kahve Ekvador'a 19. yüzyılın başında girdi; Manabí'deki Jipijapa bölgesinde 1860'larda yaygın ekime başlandı ve 1970'lere kadar başlıca ihraç ürünlerinden biri oldu. Ülke hem arabica hem robusta yetiştiren az sayıdaki ülkeden biridir; robusta ağırlıklı olarak Amazon'da, kaliteli arabica ise Loja gibi And yamaçlarında yetişir. Yurt içinde onlarca yıldır hazır (çözünür) kahve, \"con agua o con leche\"",
+  "en": "Coffee reached Ecuador in the early 19th century, and planting took off around Jipijapa in Manabí in the 1860s. It stayed one of the country's leading export crops until the 1970s. Ecuador is one of the few countries that grow both arabica and robusta: robusta is mainly an Amazon crop, while the best arabica comes from Andean slopes such as Loja. At home, instant coffee, coffee essence served \"con"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Loja (Vilcabamba, Catamayo, Malacatos)",
+   "lat": -4.0,
+   "lng": -79.4,
+   "desc": {
+    "tr": "Ekvador'un en ünlü yüksek rakımlı arabica'sının yetiştiği, parlak asiditeli, narenciye ve çiçek notalı, temiz fincanıyla tanınan güney bölgesidir.",
+    "en": "Southern highlands that produce Ecuador's most celebrated high-altitude arabica, known for bright acidity, citrus and floral notes and a clean cup."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Bourbon",
+    "Sidra"
+   ]
+  },
+  {
+   "name": "Manabí (Jipijapa, Paján)",
+   "lat": -1.35,
+   "lng": -80.58,
+   "desc": {
+    "tr": "Ekvador kahveciliğinin tarihi beşiği ve en büyük üretim bölgesidir; alçak kesimlerde robusta, tepelik iç kesimde çikolata ve fındık notalı, gövdeli arabica yetişir.",
+    "en": "The historic cradle and largest producing province, with lowland robusta and hillier inland arabica that is heavier-bodied with chocolate and nutty notes."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Zamora-Chinchipe",
+   "lat": -4.07,
+   "lng": -78.95,
+   "desc": {
+    "tr": "Peru sınırına yakın, And'ların Amazon'a bakan doğu yamaçlarında, küçük çiftçilerce yetiştirilen arabica ile bilinir.",
+    "en": "Southern Andean-Amazon foothills near the Peruvian border, known for smallholder arabica."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "El Oro",
+   "lat": -3.6,
+   "lng": -79.7,
+   "desc": {
+    "tr": "Güney kıyı eyaleti; Batı And eteklerinde gölge altında arabica üretir ve Loja ile aynı güney kahve kuşağını paylaşır.",
+    "en": "A southern coastal province whose western Andean foothills produce shade-grown arabica, part of the same southern coffee belt as Loja."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Pichincha (Nanegalito, Noroccidente)",
+   "lat": 0.07,
+   "lng": -78.67,
+   "desc": {
+    "tr": "Quito'nun kuzeybatısındaki bulut ormanı kuşağında, özel ve nitelikli mikro partilerle tanınan yüksek rakımlı arabica bölgesidir.",
+    "en": "Cloud-forest highlands northwest of Quito, known for high-altitude arabica and specialty microlots."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Sidra"
+   ]
+  },
+  {
+   "name": "Imbabura (Intag Valley)",
+   "lat": 0.35,
+   "lng": -78.5,
+   "desc": {
+    "tr": "Intag Vadisi'nin bulut ormanı çiftliklerinde, kuzey And'larda yetişen nitelikli arabica ile öne çıkar.",
+    "en": "Cloud-forest farms in the Intag Valley in the northern Andes, noted for specialty arabica."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Sucumbíos and Orellana (Amazon)",
+   "lat": -0.3,
+   "lng": -76.9,
+   "desc": {
+    "tr": "Ekvador'un robusta (canephora) kahvesinin ağırlıklı olarak yetiştiği Amazon havzasıdır; ürün çoğunlukla hazır kahve ve ticari harmanlar için kullanılır.",
+    "en": "The Amazon basin where most of Ecuador's robusta (canephora) is grown, largely for instant coffee and commercial blends."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Galápagos (San Cristóbal)",
+   "lat": -0.9,
+   "lng": -89.5,
+   "desc": {
+    "tr": "Adalarda, deniz serinliğinin etkilediği küçük ölçekli ve pahalı bir kahve üretilir; özellikle San Cristóbal'daki Bourbon ve Typica ağaçlarıyla bilinir.",
+    "en": "A tiny, expensive island coffee shaped by the cool maritime climate, known especially for Bourbon and Typica trees on San Cristóbal."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Loja, Pichincha ve Galápagos'ta yetişen, temiz ve çiçeksi fincanlar veren geleneksel arabica çeşididir.",
+    "en": "A traditional arabica cultivar grown in Loja, Pichincha and Galápagos, giving clean, floral cups."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Güney And'larında ve Galápagos'ta yetiştirilen, tatlı ve dengeli bir arabica çeşididir.",
+    "en": "An arabica cultivar grown in the southern Andes and Galápagos, valued for sweetness and balance."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Loja, Zamora ve El Oro'nun yüksek yamaçlarında yaygın, kompakt boylu bir arabica çeşididir.",
+    "en": "A compact arabica cultivar widespread on the high slopes of Loja, Zamora and El Oro."
+   }
+  },
+  {
+   "name": "Sidra",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Ekvador'da öne çıkan ve nitelikli kahve yarışmalarında çiçeksi, meyvemsi profiliyle ilgi gören nadir bir arabica çeşididir.",
+    "en": "A rare arabica cultivar associated with Ecuador, prized in specialty lots for its floral and fruity profile."
+   }
+  },
+  {
+   "name": "Robusta (Canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Esas olarak Amazon bölgesinde yetişir ve yurt içi hazır kahve sanayisinin önemli bir hammaddesidir.",
+    "en": "Grown mainly in the Amazon and a key raw material for the domestic instant coffee industry."
+   }
+  },
+  {
+   "name": "Natural and honey processing",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle Loja'da giderek yaygınlaşan, meyvemsi tatlılık veren doğal ve bal (honey) işleme yöntemleridir.",
+    "en": "Natural and honey processing, increasingly popular especially in Loja, adding fruity sweetness to the cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Instant coffee \"con agua o con leche\"",
+   "desc": {
+    "tr": "Sıradan lokantalarda kahve istediğinizde sıcak su ya da sıcak süt ile hazır kahve gelir ve kahveyi kendiniz karıştırırsınız; bu hâlâ en yaygın içiş biçimidir.",
+    "en": "In ordinary eateries you are asked whether you want it with water or milk and given a cup of hot water or milk plus instant coffee to mix yourself; it is still the most common way to drink coffee."
+   }
+  },
+  {
+   "name": "Esencia de café / tintura (una tinta)",
+   "desc": {
+    "tr": "Sıcak su ya da süte masadaki sürahiden eklenen, yoğun demlenmiş şurup kıvamında kahve özütüdür; suyla yapılanına \"una tinta\" denir.",
+    "en": "A concentrated, syrupy coffee essence kept in a table jug and added to hot water or milk; the water version is called \"una tinta\"."
+   }
+  },
+  {
+   "name": "Café pasado",
+   "desc": {
+    "tr": "Sıcak suyun öğütülmüş kahveden süzülmesiyle yapılan, evlerde ve yerel lokantalarda geleneksel olan filtre kahve ya da yoğun kahve özütüdür.",
+    "en": "Filtered coffee made by passing hot water through ground coffee, traditional in homes and local restaurants and often served as a concentrate alongside hot water or milk."
+   }
+  },
+  {
+   "name": "Specialty cafés (Quito, Cuenca, Loja)",
+   "desc": {
+    "tr": "Yerli nitelikli kavurmacılar ve kafeler, filtre ve espresso bazlı içeceklerle yerli kahveye olan yurt içi ilgiyi artırıyor.",
+    "en": "Local specialty roasters and cafés serve filter and espresso drinks, growing domestic interest in Ecuadorian beans."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Origin Spotlight: Ecuador",
+   "url": "https://driftaway.coffee/origin-spotlight-ecuador/"
+  },
+  {
+   "title": "Origin Spotlight: Exploring Ecuador’s Specialty Coffee - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2018/10/origin-spotlight-exploring-ecuadors-specialty-coffee/"
+  },
+  {
+   "title": "Ecuador Coffee Beans​",
+   "url": "https://royalcoffee.com/region/south-america/ecuador/"
+  },
+  {
+   "title": "Coffee production in Ecuador",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Ecuador"
+  },
+  {
+   "title": "Ecuadorian Coffee: Regions, Varieties and Flavour Profiles",
+   "url": "https://thecoffeeguide.coffee/the-ultimate-guide-to-ecuadorian-coffee-production/"
+  },
+  {
+   "title": "Ecuador: Gaining ground in the world of specialty coffee",
+   "url": "https://latiendadelcafe.co/en/blogs/cafe-colombiano/ecuador-ganando-terreno-en-el-mundo-del-cafe-especial"
+  },
+  {
+   "title": "Ecuador Coffee Guide — From Plantation to Your Cup",
+   "url": "https://www.expatecuador.com/guides/coffee-guide-ecuador"
+  },
+  {
+   "title": "Best Coffee from Ecuador: A 2026 Buyer's Guide",
+   "url": "https://cartographcoffee.com/blogs/news/coffee-from-ecuador"
+  }
+ ]
+}

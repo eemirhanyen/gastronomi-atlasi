@@ -1,0 +1,225 @@
+{
+ "iso3": "ZMB",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 29380,
+  "out": 4173,
+  "searches": 3
+ },
+ "usd": 0.1305,
+ "summary": {
+  "tr": "Kahve Zambiya'ya 1950'lerde Kenya ve Tanzanya kaynaklı tohumlarla girdi. Ticari üretim, bakır madenciliğine bağımlılığı azaltmak isteyen devlet projeleriyle 1970'lerin sonunda Kasama çevresinde (Ngoli çiftliği) başladı, ihracat ise 1985'te açıldı. Üretim bugün neredeyse tamamen yüksek rakımlı arabica; büyük çiftlikler ve küçük üreticiler Kuzey Eyaleti'nde yoğunlaşıyor. İç tüketim kültürü ise genç ",
+  "en": "Coffee reached Zambia in the 1950s as seed stock from Kenya and Tanzania. Commercial planting began around Kasama in the late 1970s (Ngoli estate) in state schemes meant to reduce dependence on copper, and exports started in 1985. Production today is almost entirely high-altitude arabica from large estates and smallholders, concentrated in the Northern Province. Domestic coffee culture is young an"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kasama–Mungwi (Northern Province)",
+   "lat": -10.2,
+   "lng": 31.2,
+   "desc": {
+    "tr": "Zambiya'nın \"kahve merkezi\" sayılır; ihracatın yaklaşık yarısını sağlar ve Kateshi ile Ngoli gibi büyük çiftliklere ev sahipliği yapar.",
+    "en": "Considered Zambia's coffee hub, it supplies roughly half of the country's coffee exports and hosts large estates such as Kateshi and Ngoli."
+   },
+   "grapes": [
+    "Catimor 129",
+    "Castillo",
+    "F6"
+   ]
+  },
+  {
+   "name": "Mbala (Northern Province)",
+   "lat": -8.84,
+   "lng": 31.37,
+   "desc": {
+    "tr": "Kasama ve Mungwi ile birlikte Kuzey Eyaleti'nin başlıca kahve ilçelerinden biridir.",
+    "en": "One of the main coffee-growing districts of the Northern Province, alongside Kasama and Mungwi."
+   },
+   "grapes": [
+    "Catimor 129",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Mafinga Hills–Isoka",
+   "lat": -10.4,
+   "lng": 32.9,
+   "desc": {
+    "tr": "Ülkenin en yüksek noktasını içeren bu bölgede, Olam'ın Issanya çiftliği gibi yüksek rakımlı arabica üretilir.",
+    "en": "This area includes the country's highest point and produces high-altitude arabica on estates such as Olam's Issanya."
+   },
+   "grapes": [
+    "Catimor 129",
+    "Castillo",
+    "Java"
+   ]
+  },
+  {
+   "name": "Nakonde (Tanzanya sınırı)",
+   "lat": -9.33,
+   "lng": 32.76,
+   "desc": {
+    "tr": "Muchinga dağlarının kuzeyinde, Isoka ve Kasama ile birlikte anılan geleneksel kahve bölgesidir.",
+    "en": "A traditional coffee district in the northern Muchinga highlands, usually listed together with Isoka and Kasama."
+   },
+   "grapes": [
+    "Catimor",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Muchinga Escarpment (Mpika çevresi)",
+   "lat": -11.8,
+   "lng": 31.45,
+   "desc": {
+    "tr": "Muchinga yamacındaki yüksek rakımlı araziler arabica yetiştiriciliğine elverişlidir.",
+    "en": "The high-altitude slopes of the Muchinga escarpment are well suited to growing arabica."
+   },
+   "grapes": [
+    "Catimor",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Serenje (Merkez Eyaleti)",
+   "lat": -13.23,
+   "lng": 30.23,
+   "desc": {
+    "tr": "Kuzey dışında kahve yetiştirilen ve yüksek rakım nedeniyle arabica için uygun bulunan bölgelerden biridir.",
+    "en": "A coffee-growing area outside the north whose high elevation suits arabica."
+   },
+   "grapes": [
+    "Catimor",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Lusaka çevresi",
+   "lat": -15.4,
+   "lng": 28.3,
+   "desc": {
+    "tr": "Başkent çevresinde, kuzeye göre daha sıcak koşullarda ve genellikle sulamayla kahve yetiştirilir.",
+    "en": "Coffee is grown around the capital in warmer conditions than in the north, generally with irrigation."
+   },
+   "grapes": [
+    "Catimor",
+    "Arabica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Catimor 129",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Pas ve kahve meyvesi hastalığına dayanıklı, verimli bodur bir melezdir ve Zambiya'da yaygın ekilir.",
+    "en": "A high-yielding dwarf hybrid resistant to leaf rust and coffee berry disease, widely planted in Zambia."
+   }
+  },
+  {
+   "name": "Castillo",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kateshi gibi çiftliklerde Catimor 129 ile birlikte yetiştirilen pasa dayanıklı bir çeşittir.",
+    "en": "A rust-resistant cultivar grown alongside Catimor 129 on estates such as Kateshi."
+   }
+  },
+  {
+   "name": "SL28 / Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kenya ve Tanzanya kökenli klasik çeşitlerdir; Catimor'a kayıştan sonra yeniden teşvik edilmişlerdir.",
+    "en": "Classic East African cultivars from Kenyan and Tanzanian seed stock, promoted again after the shift to Catimor."
+   }
+  },
+  {
+   "name": "F6",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Zambiya'da kayıtlı ana çeşitlerden biridir ve Kateshi lotlarında Castillo ile Catimor'un yanında geçer.",
+    "en": "A main variety on Zambian records, listed with Castillo and Catimor in Kateshi lots."
+   }
+  },
+  {
+   "name": "Yıkanmış (washed) işleme",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Zambiya'nın geleneksel yöntemidir: meyveler ayıklanır, yıkanır ve tel elekler üzerinde güneşte kurutulur.",
+    "en": "Zambia's traditional method: cherries are hulled, washed and sun-dried on wire mesh trays."
+   }
+  },
+  {
+   "name": "Natural ve honey işleme",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Son yıllarda eklenen natural, honey ve anaerobik partiler, Zambiya kahvesine daha meyvemsi seçenekler kazandırdı.",
+    "en": "Natural, honey and anaerobic lots added in recent years have given Zambian coffee more fruit-forward options."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Kafe ve specialty kahve dükkânı kültürü",
+   "desc": {
+    "tr": "Lusaka ve Ndola gibi kentlerde kafeler iş ve sosyalleşme mekânı; yerel kavurmacılar ve specialty dükkânlar yükselen orta sınıfla birlikte büyüyor.",
+    "en": "In cities such as Lusaka and Ndola, cafés serve as places for business and socialising, and local roasters and specialty shops are growing with the urban middle class."
+   }
+  },
+  {
+   "name": "Espresso bazlı içecekler",
+   "desc": {
+    "tr": "Kentli kafelerde latte, cappuccino ve americano gibi uluslararası espresso içecekleri sunulur.",
+    "en": "Urban cafés serve international espresso-based drinks such as lattes, cappuccinos and americanos."
+   }
+  },
+  {
+   "name": "Sade filtre / demleme kahve",
+   "desc": {
+    "tr": "Yerel çiftlik kahveleri çoğunlukla sade, süt ve şekersiz filtre veya pour-over olarak içilir; tadı yumuşak gövdeli ve düşük asitlidir.",
+    "en": "Local estate coffees are often drunk black as filter or pour-over, giving a soft, moderately bodied, lower-acidity cup."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Zambia Coffee: Origin Overview & Tasting Guide — Corner Coffee Store",
+   "url": "https://cornercoffeestore.com/zambia-coffee-guide/"
+  },
+  {
+   "title": "Northern Province Agriculture and Investment Opportunities",
+   "url": "https://www.nor.gov.zm/?page_id=1541"
+  },
+  {
+   "title": "Roastmasters.com: Zambia AA Issanya Estates",
+   "url": "https://www.roastmasters.com/zambia.html"
+  },
+  {
+   "title": "Zambia Coffee: Focused On Potential In Woodlands",
+   "url": "https://www.roastycoffee.com/zambia-coffee/"
+  },
+  {
+   "title": "A Growing Taste for Zambian Coffee - Fresh Cup",
+   "url": "https://freshcup.com/a-growing-taste-for-zambian-coffee/"
+  },
+  {
+   "title": "Kasama, Zambia",
+   "url": "https://en.wikipedia.org/wiki/Kasama,_Zambia"
+  },
+  {
+   "title": "Northern Province, Zambia",
+   "url": "https://en.wikipedia.org/wiki/Northern_Province,_Zambia"
+  },
+  {
+   "title": "Coffee Origins: Zambia - Helena Coffee Vietnam",
+   "url": "https://www.helenacoffee.vn/zambia/"
+  }
+ ]
+}

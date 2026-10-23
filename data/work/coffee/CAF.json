@@ -1,0 +1,160 @@
+{
+ "iso3": "CAF",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 49356,
+  "out": 3143,
+  "searches": 3
+ },
+ "usd": 0.1601,
+ "summary": {
+  "tr": "Orta Afrika Cumhuriyeti'nde kahve 1920'lerde Fransız sömürge döneminde plantasyon ürünü olarak yayıldı. Önce excelsa ekildi, 1927'de Bangui yakınlarında görülen solgunluk hastalığı onu yok edince yerini robusta aldı. Bugün küçük bir üreticidir. ICO verilerine göre yıllık üretim birkaç bin ton ve ihracat neredeyse tamamen robustadır. Bu nedenle FAOSTAT'ın bildirdiği yaklaşık 325.000 tonluk rakam ge",
+  "en": "Coffee spread through the Central African Republic as a French colonial plantation crop in the 1920s. Excelsa was planted first. Coffee wilt disease, found near Bangui in 1927, wiped it out, and robusta replaced it. The country is now a small producer: ICO data show only a few thousand tonnes a year, and exports are almost entirely robusta. The roughly 325,000 t FAOSTAT figure is therefore not cre"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Lobaye / Mbaïki",
+   "lat": 3.87,
+   "lng": 18.0,
+   "desc": {
+    "tr": "Güneybatıdaki ormanlık Lobaye bölgesi, ülkenin geleneksel robusta kahve kuşağının merkezidir.",
+    "en": "The forested Lobaye area in the southwest is the heart of the country's traditional robusta belt."
+   },
+   "grapes": [
+    "Robusta (Coffea canephora)"
+   ]
+  },
+  {
+   "name": "Mambéré-Kadéï / Berbérati",
+   "lat": 4.26,
+   "lng": 15.79,
+   "desc": {
+    "tr": "Batıdaki Berbérati çevresi, küçük çiftçilerin kuru yöntemle işlediği robusta kahvesiyle bilinir.",
+    "en": "The western Berbérati area is known for smallholder robusta processed by the dry method."
+   },
+   "grapes": [
+    "Robusta",
+    "Robusta Nana"
+   ]
+  },
+  {
+   "name": "Ubangi Valley / Basse-Kotto (Mobaye)",
+   "lat": 4.32,
+   "lng": 21.18,
+   "desc": {
+    "tr": "Güney ve güneydoğudaki Ubangi vadisi, bağımsızlık öncesinden beri robusta yetiştirilen ikinci büyük kahve bölgesidir.",
+    "en": "The Ubangi valley in the south and southeast has grown robusta since before independence and is the second major coffee zone."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Ülke kahve alanının yaklaşık %94'ünü kaplayan ve ihracatın neredeyse tamamını oluşturan türdür.",
+    "en": "The species that covered about 94% of the coffee area at independence and makes up nearly all exports."
+   }
+  },
+  {
+   "name": "Robusta Nana",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Nana Nehri çevresinde yabani olarak bulunduğu söylenen yerel robusta tipidir.",
+    "en": "A local robusta type said to have been found wild around the Nana River."
+   }
+  },
+  {
+   "name": "Excelsa (Coffea liberica var. dewevrei)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Başlangıçta tercih edilen tür olsa da 1940'lara gelindiğinde solgunluk hastalığıyla neredeyse tamamen yok oldu.",
+    "en": "Initially the preferred species, it had been almost wiped out by coffee wilt disease by the 1940s."
+   }
+  },
+  {
+   "name": "Arabica Nana",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bağımsızlık döneminde alanın yalnızca yaklaşık %4'ünde yetiştirilen küçük bir arabica kalıntısıdır.",
+    "en": "A minor arabica type grown on only about 4% of the coffee area around independence."
+   }
+  },
+  {
+   "name": "Dry (natural) processed green robusta",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Kahve geleneksel olarak kuru yöntemle işlenir ve yeşil çekirdek olarak ihraç edilir.",
+    "en": "Coffee is traditionally dry-processed and exported as green beans."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café filtre / simple brewed coffee",
+   "desc": {
+    "tr": "Evlerde, küçük lokantalarda ve sokak satıcılarında basit süzme veya bardakta demleme ile hazırlanan güçlü, çoğunlukla şekerli kahvedir.",
+    "en": "Strong, often sweetened coffee made by basic filter-drip or steeping, served at homes, small eateries and from street vendors."
+   }
+  },
+  {
+   "name": "Coffee with beignets",
+   "desc": {
+    "tr": "Bangui'de sabah kahvesi sıklıkla sokakta satılan sıcak beignet (kızarmış hamur) ile içilir.",
+    "en": "In Bangui, morning coffee is often paired with hot beignets (fried dough) sold on the street."
+   }
+  },
+  {
+   "name": "French-style café and viennoiserie",
+   "desc": {
+    "tr": "Bangui'deki kafe ve otellerde Fransız mirasından kalma kruvasan ve espresso tarzı içecekler sunulur; bunlar çoğunlukla yabancılara ve kentli azınlığa hitap eder.",
+    "en": "Cafés and hotels in Bangui serve croissants and espresso-style drinks in the French tradition, mostly for expatriates and an urban minority."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Annex 4: Africa Coffee Producing Countries Profiles",
+   "url": "https://www.fao.org/4/x6939e/X6939e10.htm"
+  },
+  {
+   "title": "Coffee In The Congo: On The Path To Becoming The \"Democratic Republic of Coffee\" - Sprudge Special Projects Desk",
+   "url": "https://specialprojects.sprudge.com/?p=549"
+  },
+  {
+   "title": "Coffee Regions of the World: A Complete Guide - Fathom Coffee",
+   "url": "https://fathomcoffee.com/coffee-regions-guide/"
+  },
+  {
+   "title": "Coffee production in the Dominican Republic",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_the_Dominican_Republic"
+  },
+  {
+   "title": "Central African Republic Coffee Production: A Rich History and Current Challenges",
+   "url": "https://www.omwani.com/post/central-african-republic-coffee-production"
+  },
+  {
+   "title": "Coffee production in Democratic Republic of the Congo",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "Coffee production in Uganda",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Uganda"
+  },
+  {
+   "title": "Coffee production in Cameroon",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Cameroon"
+  }
+ ]
+}

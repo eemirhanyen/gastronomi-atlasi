@@ -1,0 +1,144 @@
+{
+ "iso3": "COG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 106722,
+  "out": 3372,
+  "searches": 5
+ },
+ "usd": 0.2972,
+ "summary": {
+  "tr": "Kongo Cumhuriyeti (Brazzaville) küçük çaplı, ağırlıklı olarak robusta (Coffea canephora) yetiştiren bir ülkedir. Robusta, Kongo Havzası ormanlarına özgü bir türdür ve kahve, ülkenin Fransız sömürge döneminden miras kalan tarım ürünleri arasında yer alır. Sektör 1990'ların iç savaşlarından sonra zayıflamış, bugün yalnızca kısmen toparlanmıştır; petrol ihracatın büyük bölümünü oluşturur. Kahve içme ",
+  "en": "The Republic of the Congo (Brazzaville) is a small coffee grower that produces mostly robusta (Coffea canephora), a species native to the Congo Basin forests. Coffee was a French colonial-era crop, and the sector weakened during the civil wars of the 1990s and has only partly recovered. Petroleum dominates exports. Its drinking culture reflects French influence, with café-and-bread breakfasts, caf"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Niari (Dolisie, Niari Valley)",
+   "lat": -4.2,
+   "lng": 12.67,
+   "desc": {
+    "tr": "Verimli Niari Vadisi, ülkenin başlıca tarım bölgelerinden biridir ve burada küçük çiftçiler tarafından robusta yetiştirilmektedir.",
+    "en": "The fertile Niari Valley is one of the country's main farming zones, and smallholders there grow robusta."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Lékoumou (Sibiti)",
+   "lat": -3.68,
+   "lng": 13.35,
+   "desc": {
+    "tr": "Bir kooperatifin ıslak işlemeyle robusta üretimini canlandırmaya çalıştığı bildirilen güneydeki tepelik bölgedir.",
+    "en": "A hilly southern department where a cooperative is reported to be reviving wet-processed robusta production."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Cuvette (Owando)",
+   "lat": -0.48,
+   "lng": 15.9,
+   "desc": {
+    "tr": "Kongo Nehri havzasındaki alçak ormanlık ve nehir kıyısı bölgede, robusta kahvenin ihracat için yetiştirildiği bölgelerden biri olarak anılır.",
+    "en": "A lowland, river-basin zone that is listed among the areas where robusta is grown for export."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Likouala (Impfondo)",
+   "lat": 1.62,
+   "lng": 18.06,
+   "desc": {
+    "tr": "Kuzeydeki sulak ve ormanlık bölgede kahve, manyok, kakao ve palm yağı ile birlikte geleneksel küçük tarımın parçasıdır; ulaşım nehir ve havayoluyla sınırlıdır.",
+    "en": "In this remote, forested northern department, coffee is a minor smallholder crop alongside cassava, cocoa and palm oil, and access is limited to river and air."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Kongo Havzası'nın ekvatoral ormanlarına özgü olan bu tür, ülkede yetiştirilen kahvenin neredeyse tamamını oluşturur.",
+    "en": "Native to the equatorial forests of the Congo Basin, this species makes up nearly all the coffee grown in the country."
+   }
+  },
+  {
+   "name": "Washed (wet-processed) robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Bazı kooperatifler robustayı ıslak işlemeyle hazırlayarak daha temiz bir fincan ve daha iyi fiyat hedefler.",
+    "en": "Some cooperatives wet-process their robusta, aiming for a cleaner cup and a better price."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café noir / café au lait with bread",
+   "desc": {
+    "tr": "Fransız mutfağından miras kalan, sabahları ekmek veya baget ile içilen koyu kahve ya da sütlü kahve alışkanlığıdır.",
+    "en": "A French-inherited morning habit of black or milk coffee, taken with bread or baguette."
+   }
+  },
+  {
+   "name": "Instant coffee at street stalls",
+   "desc": {
+    "tr": "Sokak tezgâhlarında ve küçük işletmelerde çoğunlukla suda çözünen hazır kahve, süt ve şekerle hızlı ve ucuz biçimde servis edilir.",
+    "en": "At street stalls and small cafés, instant coffee is typically served quickly and cheaply with milk and sugar."
+   }
+  },
+  {
+   "name": "Espresso in city cafés",
+   "desc": {
+    "tr": "Brazzaville ve Pointe-Noire'deki kafe ve pastanelerde, Avrupa tarzı espresso ve türevleri sunulur.",
+    "en": "Cafés and patisseries in Brazzaville and Pointe-Noire serve European-style espresso and related drinks."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Ajol",
+   "url": "https://www.ajol.info/index.php/ajosi/article/download/272310/257108"
+  },
+  {
+   "title": "Congolese Coffee: A Real Success Story",
+   "url": "https://www.coffeeness.de/en/congolese-coffee/"
+  },
+  {
+   "title": "Genetic diversity of wild and cultivated Coffea canephora in ...",
+   "url": "https://www.biorxiv.org/content/10.1101/2021.08.09.455630v1.full.pdf"
+  },
+  {
+   "title": "Less Rumble and More Coffee from DR Congo Covoya Coffee",
+   "url": "https://www.covoyacoffee.com/blog/dr-congo-coffee.html"
+  },
+  {
+   "title": "Scaling Coffee Production In The Democratic Republic Of Congo",
+   "url": "https://perfectdailygrind.com/2020/12/scaling-coffee-production-in-the-drc/"
+  },
+  {
+   "title": "Coffee Production in Congo - Helena Coffee Vietnam",
+   "url": "https://www.helenacoffee.vn/coffee-production-in-congo/"
+  },
+  {
+   "title": "Coffee production in Democratic Republic of the Congo",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Democratic_Republic_of_the_Congo"
+  },
+  {
+   "title": "Exploring Coffee Production in the Democratic Republic of the Congo: Barista Guide to Origins, Regions, and Quality Insights - First Shot Ba",
+   "url": "https://firstshotbaristatraining.com.au/exploring-coffee-production-in-the-democratic-republic-of-the-congo-barista-guide-to-origins-regions-and-quality-insights/"
+  }
+ ]
+}

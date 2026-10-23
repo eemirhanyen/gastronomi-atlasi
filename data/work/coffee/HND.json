@@ -1,0 +1,228 @@
+{
+ "iso3": "HND",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 54916,
+  "out": 4202,
+  "searches": 3
+ },
+ "usd": 0.1819,
+ "summary": {
+  "tr": "Kahve, 1700'lerin sonlarında İspanyol tüccarlar aracılığıyla Honduras'a ulaştı. Uzun süre çoğunlukla yurt içinde tüketildi, muz ise asıl nakit ürün sayıldı. 1970'te kurulan ulusal kahve enstitüsü IHCAFE, üretime yatırım yaptı ve çiftçiyi destekledi. 2012-13 pas (roya) salgınından sonra pasa dayanıklı çeşitlere geçildi. Bugün Honduras Orta Amerika'nın en büyük kahve üreticisidir. Evde kahve; tatlı,",
+  "en": "Coffee reached Honduras in the late 1700s via Spanish traders. For a long time it was mostly drunk at home, and bananas were treated as the main cash crop. IHCAFE, the national coffee institute founded in 1970, invested in production and supported farmers. After the 2012–13 leaf rust epidemic, growers shifted towards rust-resistant varieties. Honduras is now Central America's largest coffee produc"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Copán",
+   "lat": 14.77,
+   "lng": -88.78,
+   "desc": {
+    "tr": "Guatemala sınırına yakın, gölgede yetişen ve Honduran Western Coffees coğrafi işaretiyle korunan; çikolata, karamel ve narenciye notalı tatlı kahveleriyle bilinir.",
+    "en": "Near the Guatemalan border, its shade-grown coffees are protected by the Honduran Western Coffees geographical indication and known for sweet chocolate, caramel and citrus notes."
+   },
+   "grapes": [
+    "Bourbon",
+    "Typica",
+    "Catuaí",
+    "IHCAFE 90"
+   ]
+  },
+  {
+   "name": "Opalaca",
+   "lat": 14.35,
+   "lng": -88.35,
+   "desc": {
+    "tr": "Santa Bárbara, Intibucá ve Lempira dağlarında, üzüm, böğürtlen ve mango gibi meyvemsi, şarap benzeri asiditeli kahveleriyle bilinir.",
+    "en": "Across the Santa Bárbara, Intibucá and Lempira highlands, it is known for fruit-forward coffees with grape, berry and mango notes and wine-like acidity."
+   },
+   "grapes": [
+    "Pacas",
+    "Bourbon",
+    "Catuaí",
+    "Gesha"
+   ]
+  },
+  {
+   "name": "Montecillos (Marcala)",
+   "lat": 14.15,
+   "lng": -88.03,
+   "desc": {
+    "tr": "Honduras'ın ilk menşe adı korumasına sahip 'Café de Marcala' bölgesidir; soğuk geceler sayesinde taş meyvesi, narenciye ve karamel notalı tatlı kahveler verir.",
+    "en": "Home to Honduras's first designation of origin, Café de Marcala, where cold nights give sweet coffees with citrus, stone-fruit and caramel notes."
+   },
+   "grapes": [
+    "Bourbon",
+    "Catuaí",
+    "Caturra",
+    "Parainema"
+   ]
+  },
+  {
+   "name": "Comayagua",
+   "lat": 14.3,
+   "lng": -87.85,
+   "desc": {
+    "tr": "Ülkenin ortasında, tatlılığı, narenciye aroması ve canlı asiditesiyle öne çıkan kahveler yetiştirir.",
+    "en": "In the centre of the country, it grows coffees prized for sweetness, citrus aromas and bright acidity."
+   },
+   "grapes": [
+    "Catuaí",
+    "Caturra",
+    "Pacas",
+    "Lempira"
+   ]
+  },
+  {
+   "name": "El Paraíso",
+   "lat": 13.95,
+   "lng": -86.55,
+   "desc": {
+    "tr": "Nikaragua sınırındaki güneydeki daha yeni bölgedir; tatlı narenciye, çiçeksi ve bal notalı, pürüzsüz kahveleriyle bilinir.",
+    "en": "A newer southern region on the Nicaraguan border, known for smooth coffees with sweet citrus, floral and honey notes."
+   },
+   "grapes": [
+    "Catuaí",
+    "Caturra",
+    "Parainema"
+   ]
+  },
+  {
+   "name": "Agalta",
+   "lat": 14.95,
+   "lng": -85.95,
+   "desc": {
+    "tr": "Olancho'nun nemli, tropikal iklimli doğusunda yer alır; belirgin asiditeli, tropik meyve ve karamel notalı kahveler verir.",
+    "en": "In the humid, tropical east around Olancho, it yields coffees with pronounced acidity and tropical-fruit and caramel notes."
+   },
+   "grapes": [
+    "Pacas",
+    "Lempira",
+    "Bourbon",
+    "Typica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Catuaí",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "IHCAFE'nin 1970'lerde Guatemala'dan getirdiği, verimli ve bodur bir çeşit; pasa karşı hassastır.",
+    "en": "A productive, compact cultivar brought from Guatemala by IHCAFE in the 1970s, but susceptible to leaf rust."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Copán ve Opalaca gibi yüksek rakımlı bölgelerde yetişen, kalitesiyle bilinen geleneksel bir çeşittir.",
+    "en": "A traditional heirloom cultivar valued for cup quality in high-altitude areas such as Copán and Opalaca."
+   }
+  },
+  {
+   "name": "Pacas",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "El Salvador'da keşfedilen bodur Bourbon mutasyonu; IHCAFE 1974'te Honduras'a getirdi.",
+    "en": "A dwarf Bourbon mutation found in El Salvador and introduced to Honduras by IHCAFE in 1974."
+   }
+  },
+  {
+   "name": "Lempira",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "IHCAFE'nin pasa dayanıklı olsun diye geliştirdiği Timor Hibriti–Caturra melezi; adını Lenca savaşçı Lempira'dan alır, direncinin zayıfladığına dair kaygılar var.",
+    "en": "A Timor Hybrid–Caturra cross bred by IHCAFE for rust resistance and named after the Lenca leader Lempira; concerns exist that its resistance is weakening."
+   }
+  },
+  {
+   "name": "IHCAFE 90",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Timor Hibriti ile Caturra'dan türetilen, IHCAFE'nin pasa dayanıklı melezlerinden biridir.",
+    "en": "Another IHCAFE rust-resistant hybrid, derived from the Timor Hybrid and Caturra."
+   }
+  },
+  {
+   "name": "Parainema",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Pasa güçlü direnç gösteren yeni bir Sarchimor melezi; yüksek rakımda şaşırtıcı derecede iyi fincan kalitesi verebilir.",
+    "en": "A newer Sarchimor-type hybrid with strong rust resistance that can deliver very good cup quality at altitude."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café de palo / café de olla",
+   "desc": {
+    "tr": "Kahvenin kil ya da metal bir tencerede kaynatıldığı, genellikle panela ile tatlandırılan güçlü ve sade geleneksel kahvedir.",
+    "en": "A strong, plain traditional coffee boiled in a clay or metal pot and usually sweetened with panela."
+   }
+  },
+  {
+   "name": "Café chorreado (bez filtre)",
+   "desc": {
+    "tr": "Kahve, 'colador' adı verilen bir bez filtreden süzülür; sıcak ve tatlı servis edilir, bazen süt eklenir.",
+    "en": "Coffee poured through a cloth strainer (colador), served hot and sweet, sometimes with milk."
+   }
+  },
+  {
+   "name": "Evde misafirperverlik kahvesi",
+   "desc": {
+    "tr": "Kahve sabahın başlangıcıdır ve misafire ikram edilir. Küçük fincanlarda ya da emaye kupalarda, kahvaltıda ve ziyaretlerde hamur işleri ya da tortilla ile sunulur.",
+    "en": "Coffee starts the morning and is offered to every guest, served in small cups or enamel mugs at breakfast and on visits, often with pastries or tortillas."
+   }
+  },
+  {
+   "name": "Üçüncü dalga / spesiyalite kafeler",
+   "desc": {
+    "tr": "Cup of Excellence ve yerel kavurma yarışmalarıyla büyüyen spesiyalite sahnesi, tek menşe kahveleri filtre ve espresso olarak sunar.",
+    "en": "A growing specialty scene, fed by Cup of Excellence and local roasting competitions, serves single-origin coffees as filter and espresso."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Honduras Coffee: A Full Guide to Honduran Coffee Beans",
+   "url": "https://www.coffeeness.de/en/honduras-coffee/"
+  },
+  {
+   "title": "Deep Dive into Honduras Coffee - Genuine Origin Coffee",
+   "url": "https://blog.genuineorigin.com/2024/05/honduras-coffee-a-deep-dive-into-history-cultivation-and-flavor/"
+  },
+  {
+   "title": "Honduras Coffee Beans: Types, Regions, Taste, and Best Brands",
+   "url": "https://colipsecoffee.com/blogs/coffee/honduras"
+  },
+  {
+   "title": "Honduras - Mercanta",
+   "url": "https://coffeehunter.com/our-origins/honduras/"
+  },
+  {
+   "title": "Exploring Honduras' Resilient Specialty Coffee Regions",
+   "url": "https://xliiicoffee.com/en/journal/honduras-specialty-coffee-regions/"
+  },
+  {
+   "title": "Honduran Coffee Regions - Coffee Geography Magazine",
+   "url": "https://coffeegeography.com/honduran-coffee-beans/"
+  },
+  {
+   "title": "Exploring the Coffee Regions of Honduras",
+   "url": "https://www.friendsofmarlin.com/blogs/coffee-blog/cloud-forests-to-dry-valleys-exploring-the-coffee-regions-of-honduras"
+  },
+  {
+   "title": "Honduras Coffee: Flavor Profile & Tasting Notes",
+   "url": "https://cafy.app/blog/honduras-coffee-flavor-profile"
+  }
+ ]
+}

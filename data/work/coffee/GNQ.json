@@ -1,0 +1,164 @@
+{
+ "iso3": "GNQ",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22936,
+  "out": 2996,
+  "searches": 2
+ },
+ "usd": 0.0958,
+ "summary": {
+  "tr": "Kahve, İspanyol Ginesi döneminde kakao ve kerestenin yanında önemli bir ihracat ürünüydü. Üretim 1967'de yaklaşık 8.959 tondan 1978'de 500 tona düştü. Düşüşün ana nedeni Macías Nguema diktatörlüğünde kahve çiftçilerinin zorla Bioko kakao plantasyonlarına aktarılmasıydı. Bugün üretim neredeyse tamamen robustadır. Kahve, Fang küçük çiftçileri tarafından anakara Río Muni'nin kuzeyinde yetiştirilir. İ",
+  "en": "Coffee was a colonial export crop in Spanish Guinea alongside cocoa and timber. Output fell from about 8,959 tonnes in 1967 to 500 tonnes in 1978, mainly because Macías Nguema's regime forcibly moved coffee farmers to Bioko's cocoa plantations. Production today is almost entirely robusta, grown by Fang smallholders in the north of mainland Río Muni. Its drinking culture is thinly documented. It is"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Mikomeseng / Wele-Nzas (northern Río Muni)",
+   "lat": 2.1,
+   "lng": 10.7,
+   "desc": {
+    "tr": "Bir kaynakta ülke kahve üretiminin kalbi olarak anılır; Fang küçük çiftçilerinin yetiştirdiği robusta ile bilinir.",
+    "en": "One source calls it the heart of national coffee production, known for robusta from Fang smallholder farms."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Kié-Ntem (Ebebiyín area, Cameroon border)",
+   "lat": 2.15,
+   "lng": 11.3,
+   "desc": {
+    "tr": "Kamerun sınırı boyunca uzanan kuzey Río Muni kuşağında yetişen, kalitesi görece düşük sayılan robusta ile bilinir.",
+    "en": "Part of the northern Río Muni belt along the Cameroon border, known for robusta of comparatively modest quality."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Centro Sur (Evinayong area)",
+   "lat": 1.45,
+   "lng": 10.55,
+   "desc": {
+    "tr": "Anakaranın ormanlık iç kesiminde, çoğunlukla küçük ölçekli ve düşük girdili robusta yetiştirilir.",
+    "en": "A forested inland part of the mainland where small-scale, low-input robusta is typically grown."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Litoral (Bata hinterland)",
+   "lat": 1.85,
+   "lng": 9.9,
+   "desc": {
+    "tr": "Bata limanının arka bölgesidir; Río Muni robustası buradan Fransa ve İspanya'daki kavurmacılara gönderilir.",
+    "en": "The hinterland of the port of Bata, through which Río Muni robusta is shipped, mainly to roasters in France and Spain."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Bioko Island (Moka highlands)",
+   "lat": 3.4,
+   "lng": 8.67,
+   "desc": {
+    "tr": "Volkanik topraklarda yetişen küçük miktarda kahve, toprağımsı ve çikolata alt tonlu olarak tanımlanır. Bu tanım zayıf kaynaklara dayanır ve Bioko tarihsel olarak daha çok kakao adasıdır.",
+    "en": "Small volumes grown on volcanic soils are described as earthy with chocolate undertones, though this rests on weak sources and Bioko is historically a cocoa island."
+   },
+   "grapes": [
+    "Robusta",
+    "Typica (arabica, reported)"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Ülke üretiminin neredeyse tamamını oluşturur; tür, Orta ve Batı Afrika'nın yağmur ormanı alt tabakasına özgüdür.",
+    "en": "It makes up almost all national output; the species is native to the rainforest understory of West and Central Africa."
+   }
+  },
+  {
+   "name": "Typica (Coffea arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bioko ve bazı küçük plantasyonlarda yetiştirildiği bildirilir, ancak belgeler çok sınırlıdır.",
+    "en": "Reported on Bioko and in some small plantations, but documentation is very limited."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Strong black coffee (café negro)",
+   "desc": {
+    "tr": "Yerel robusta ile demlenen koyu, sert bir kahvedir; bazen kaynar suyla basitçe demlenir.",
+    "en": "A dark, strong brew from local robusta, sometimes made simply by steeping grounds in boiled water."
+   }
+  },
+  {
+   "name": "Heavily sweetened coffee",
+   "desc": {
+    "tr": "Robustanın acımsı yapısı nedeniyle kahve çoğunlukla bol şekerle içilir.",
+    "en": "Because robusta can taste bitter, coffee is often drunk with a generous amount of sugar."
+   }
+  },
+  {
+   "name": "Instant coffee",
+   "desc": {
+    "tr": "Hazır kahve, birçok Afrika ülkesinde olduğu gibi Ekvator Ginesi'nde de pratik ve yaygın bir seçenektir.",
+    "en": "Instant coffee is a convenient and common choice, as in many African countries."
+   }
+  },
+  {
+   "name": "Spanish-style café (café con leche)",
+   "desc": {
+    "tr": "İspanyol sömürge mirası nedeniyle Malabo ve Bata'daki kafelerde İspanyol tarzı sütlü kahve ve espresso bazlı içeceklere rastlanması beklenir. Bu konuda güvenilir kaynak bulamadım.",
+    "en": "Given the Spanish colonial heritage, Spanish-style milk coffee and espresso drinks are plausible in cafés in Malabo and Bata. I found no reliable source confirming this."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Economic & Geopolitical History of Equatorial Guinea",
+   "url": "https://yawboadu.substack.com/p/the-economic-and-geopolitical-history-b7c"
+  },
+  {
+   "title": "Equatorial Guinea Coffee: A Journey through History, Flavour, and Challenges",
+   "url": "https://www.omwani.com/post/equatorial-guinea-coffee-production-guide"
+  },
+  {
+   "title": "Equatorial Guinea",
+   "url": "https://www.ebsco.com/research-starters/geography-and-cartography/equatorial-guinea/"
+  },
+  {
+   "title": "History of Equatorial Guinea",
+   "url": "https://en.wikipedia.org/wiki/History_of_Equatorial_Guinea"
+  },
+  {
+   "title": "Genetic improvement of robusta coffee (Coffea canephora) in the 20th and 21st centuries: prospects for increasing future breeding effectiven",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12852393/"
+  },
+  {
+   "title": "Top Fresh Produce Exporters in Equatorial Guinea — Bioko Cocoa, Coffee, Palm Oil & Tropical Timber - Export Ready Africa",
+   "url": "https://exportready.africa/african-exporter-directories/top-fresh-produce-exporters-equatorial-guinea/"
+  },
+  {
+   "title": "The Republic of Equatorial Guinea_Baiduwiki",
+   "url": "https://baike.baidu.com/en/item/The%20Republic%20of%20Equatorial%20Guinea/1421858"
+  },
+  {
+   "title": "Equatorial Guinea — Love 2 Drink Coffee",
+   "url": "https://www.love2drinkcoffee.com/coffee-around-the-world/equatorial-guinea"
+  }
+ ]
+}

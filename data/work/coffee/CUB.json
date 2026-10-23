@@ -1,0 +1,192 @@
+{
+ "iso3": "CUB",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24298,
+  "out": 3324,
+  "searches": 2
+ },
+ "usd": 0.1018,
+ "summary": {
+  "tr": "Kahve Küba'ya 1748'de geldi. Sektör, Haiti Devrimi'nden kaçan Fransız plantasyon sahiplerinin 1790'larda doğu dağlarına yerleşmesiyle gelişti ve 19. yüzyıl ortasında ekonomik önemde şekerle yarışır hale geldi. Bugün üretim 20. yüzyıl ortasındaki zirvesinin çok altında. Buna karşın kahve, günlük yaşamın merkezinde: küçük fincanda, demerara şekeriyle köpürtülerek hazırlanan sert ve tatlı café cubano",
+  "en": "Coffee reached Cuba in 1748 and became an industry in the 1790s, when French planters fleeing the Haitian Revolution settled in the eastern mountains. By the mid-19th century it rivalled sugar in economic importance. Production is now far below its mid-20th-century peak, but coffee is still central to daily life: café cubano (cafecito) is a short, strong, sweet shot whipped with demerara sugar, an"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Sierra Maestra (Granma / Santiago de Cuba)",
+   "lat": 20.0,
+   "lng": -76.9,
+   "desc": {
+    "tr": "Cumhuriyetin kahvesinin yaklaşık %92'sinin yetiştiği, ihracat kahvesinin ana kaynağı olan, kırmızı-kahverengi humuslu topraklı ve gölge altı üretimin yaygın olduğu dağlık bölge.",
+    "en": "The mountain heartland that grows about 92% of Cuba's coffee and most of its export crop, on reddish-brown humus-rich soils, often under forest shade."
+   },
+   "grapes": [
+    "Arabica",
+    "Typica",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Guantánamo (Yateras / Jamal)",
+   "lat": 20.3,
+   "lng": -75.1,
+   "desc": {
+    "tr": "Duman, baharat, fındık ve bitter çikolata notalarıyla anılan peaberry (tek çekirdek) kahvelerin yetiştiği doğu bölgesi.",
+    "en": "An eastern area known for peaberry lots with smoky, spicy, hazelnut and dark-chocolate notes."
+   },
+   "grapes": [
+    "Arabica",
+    "Peaberry"
+   ]
+  },
+  {
+   "name": "Santiago de Cuba foothills (La Gran Piedra / El Cobre)",
+   "lat": 20.03,
+   "lng": -75.5,
+   "desc": {
+    "tr": "UNESCO Dünya Mirası ilk kahve plantasyonlarının (ör. La Isabelica) bulunduğu, Küba kahve tarihinin merkezi yamaçlar.",
+    "en": "The foothills with the UNESCO-listed 19th-century coffee plantations (such as La Isabelica), the historic core of Cuban coffee."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Escambray (Topes de Collantes)",
+   "lat": 21.92,
+   "lng": -80.02,
+   "desc": {
+    "tr": "Daha çok iç tüketim için kahve üreten, korunan alanlarında organik üretimin yapıldığı ve 'Crystal Mountain' kahvesiyle bilinen orta Küba dağları.",
+    "en": "Central mountains that mainly supply domestic consumption, with protected areas for organic coffee, and known for 'Crystal Mountain' coffee."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Guaniguanico (Pinar del Río / Artemisa)",
+   "lat": 22.75,
+   "lng": -83.2,
+   "desc": {
+    "tr": "Batı Küba'da küçük ölçekli üretimin sürdüğü dağlık bölge; 19. yüzyılda Artemisa'daki Angerona ülkenin en büyük kahve plantasyonuydu.",
+    "en": "A western mountain range with smaller-scale production; in the 19th century Angerona in Artemisa was the country's largest coffee plantation."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Arabica (Typica, Caturra)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Küba'nın dağlık bölgelerinde yetiştirilen, ihracat ve kaliteli kahvenin temeli olan ana tür.",
+    "en": "The main species, grown in the mountains and the basis of Cuba's export and premium coffee."
+   }
+  },
+  {
+   "name": "Robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Küba'da arabikanın yanında, küçük aile çiftliklerinde de yetiştirilen ikinci tür.",
+    "en": "A second species grown alongside arabica, mostly on small family farms."
+   }
+  },
+  {
+   "name": "Peaberry (caracolillo)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Guantánamo'dan gelen, tek yuvarlak çekirdekli ve dumanlı, baharatlı profille bilinen seçme parti.",
+    "en": "A single-round-bean selection from Guantánamo, noted for a smoky, spicy profile."
+   }
+  },
+  {
+   "name": "Organic shade-grown (Cristal Mountain)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Orman gölgesi altında, yapay gübre kullanılmadan yetiştirilen organik kahve; 2003'ten beri Avrupa ve Japonya'ya ihraç ediliyor.",
+    "en": "Organic coffee grown under forest shade without artificial fertilisers, exported to Europe and Japan since 2003."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café cubano (cafecito)",
+   "desc": {
+    "tr": "Demerara şekeri, demlemenin ilk ve en güçlü damlalarıyla köpürtülüp (espuma) üzerine espresso dökülerek hazırlanan, küçük fincanda sunulan sert ve tatlı kahve.",
+    "en": "A strong, sweet espresso made by whipping demerara sugar with the first drops of the brew into a foam (espuma) and pouring the rest over it, served in a small cup."
+   }
+  },
+  {
+   "name": "Colada",
+   "desc": {
+    "tr": "Dört ila altı shot'lık büyük bir bardakta sunulan ve küçük fincanlarla arkadaşlar arasında paylaşılan cafecito.",
+    "en": "A larger serving of cafecito, several shots in one cup, shared among friends in small demitasse cups."
+   }
+  },
+  {
+   "name": "Cortadito",
+   "desc": {
+    "tr": "Café cubano'nun üzerine birkaç kaşık buharlanmış süt eklenerek yumuşatılan, İspanyol cortado'dan türeyen içecek.",
+    "en": "Café cubano softened with a little steamed milk, adapted from the Spanish cortado."
+   }
+  },
+  {
+   "name": "Café con leche",
+   "desc": {
+    "tr": "Café cubano'nun sıcak buharlanmış sütle birleştirildiği, kahvaltıda tereyağlı Küba ekmeğine batırılarak içilen kahve.",
+    "en": "Café cubano combined with hot steamed milk, typically a breakfast drink served with buttered Cuban toast for dipping."
+   }
+  },
+  {
+   "name": "Kahve ikramı ve ventanita",
+   "desc": {
+    "tr": "Eve gelen misafire kahve ikram etmek yaygın bir gelenek; sokağa açılan 'ventanita' penceresinden kahve almak ise Havana'dan Miami'deki Küba mahallelerine yayılan bir kültür.",
+    "en": "Offering coffee to visitors is a core custom, and buying it from a street-facing 'ventanita' window began in Havana and spread to Cuban-American neighbourhoods like Little Havana."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "A Guide To Cuban Coffee",
+   "url": "https://insightcuba.com/blog/2014/08/22/a-guide-to-cuban-coffee"
+  },
+  {
+   "title": "Exploring Cuba’s Coffee Farms - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2018/09/exploring-cubas-coffee-farms/"
+  },
+  {
+   "title": "What is Cuban Coffee? Culture, Origins & Types",
+   "url": "https://www.nescafe.com/gb/coffee-culture/knowledge/cuban-coffee"
+  },
+  {
+   "title": "Explore Cuba’s Great Coffee - Love Cuba Blog",
+   "url": "https://www.lovecuba.com/blog/explore-cubas-great-coffee/"
+  },
+  {
+   "title": "Coffee production in Cuba",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Cuba"
+  },
+  {
+   "title": "What is Cuban Style Coffee (Cafecito) And How To Make It",
+   "url": "https://meadowridgecoffee.com/a/blog/what-is-cuban-style-coffee-and-espresso"
+  },
+  {
+   "title": "Archaeological Landscape of the First Coffee Plantations in the South-East of Cuba",
+   "url": "https://en.wikipedia.org/wiki/Archaeological_Landscape_of_the_First_Coffee_Plantations_in_the_South-East_of_Cuba"
+  },
+  {
+   "title": "The magic behind Cuban coffee - Havana Traces",
+   "url": "https://www.havanatraces.com/en/the-magic-behind-cuban-coffee/"
+  }
+ ]
+}

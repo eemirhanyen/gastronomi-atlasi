@@ -1,0 +1,161 @@
+{
+ "iso3": "FRA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24206,
+  "out": 3203,
+  "searches": 2
+ },
+ "usd": 0.1004,
+ "summary": {
+  "tr": "Fransa'ya kahve 17. yüzyılda Osmanlı'yla temas yoluyla girdi. Paris'te 1672'de ilk kahve tezgâhı açıldı, 1686'da Café Procope kuruldu ve kafeler Aydınlanma'nın buluşma yerleri oldu. Bugün kahve, zinc bar ve terasta yavaş yavaş içilen bir toplumsal ritüeldir. 18. yüzyılda Martinik'ten Karayipler'e yayılan kahve fidanları Fransız denizaşırı topraklarından gelir. FAOSTAT anakara Fransa için üretim ka",
+  "en": "Coffee reached France in the 17th century through contact with the Ottoman world. Paris had its first coffee stall in 1672, and Café Procope opened in 1686 and became a meeting place of the Enlightenment. Today coffee is a social ritual, taken slowly at the zinc bar or on the terrace. Coffee plants spread from Martinique across the Caribbean in the 18th century, so French overseas lands have a pla"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Réunion (Indian Ocean)",
+   "lat": -21.1,
+   "lng": 55.5,
+   "desc": {
+    "tr": "Bourbon Pointu (Laurina) ile bilinir. Düşük kafeinli, tatlı ve çiçeksi bu kahve çok az üretilir ve çok pahalıdır.",
+    "en": "Known for Bourbon Pointu (Laurina), a low-caffeine, sweet and floral coffee that is made in tiny quantities and sells at very high prices."
+   },
+   "grapes": [
+    "Bourbon Pointu (Laurina)",
+    "Bourbon",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Guadeloupe (Basse-Terre)",
+   "lat": 16.15,
+   "lng": -61.7,
+   "desc": {
+    "tr": "Kahve 1721'de Guadeloupe'a getirildi. Volkanik Basse-Terre yamaçlarında küçük çiftlikler kahve mirasını canlı tutuyor.",
+    "en": "Coffee arrived in Guadeloupe in 1721. Small farms on the volcanic slopes of Basse-Terre keep this coffee heritage alive."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Laurina"
+   ]
+  },
+  {
+   "name": "Martinique",
+   "lat": 14.65,
+   "lng": -61.0,
+   "desc": {
+    "tr": "Gabriel de Clieu'nün 1720'lerde kahveyi yerleştirdiği ada, bugün çok küçük bir üretime sahip.",
+    "en": "This is the island where Gabriel de Clieu established coffee in the 1720s. Today it has only a very small output."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  }
+ ],
+ "dropped_regions": [
+  "New Caledonia"
+ ],
+ "varieties": [
+  {
+   "name": "Bourbon Pointu (Laurina)",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Réunion'da 1771'de keşfedilen doğal bir Bourbon mutasyonudur. Sivri taneli ve kafeini normal arabikanın yaklaşık yarısıdır.",
+    "en": "A natural Bourbon mutation found on Réunion in 1771. It has pointed beans and about half the caffeine of typical arabica."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Paris Botanik Bahçesi'ndeki ağaçtan, Fransızlarca Martinik'e götürülen fidanlarla Karayipler'e yayıldı.",
+    "en": "This variety came from a tree in the Paris botanical garden. French settlers took it to Martinique, and from there it spread across the Caribbean."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Réunion'un eski adı olan Bourbon Adası'ndan adını alan, tarihi önemli bir arabica kültivarıdır.",
+    "en": "A historically important arabica cultivar named after Bourbon Island, the old name of Réunion."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Un café (express)",
+   "desc": {
+    "tr": "Sadece \"un café\" istendiğinde gelen, küçük seramik fincanda tek shot koyu kavrulmuş espressodur.",
+    "en": "This is what you get when you simply ask for \"un café\": a single shot of darker-roasted espresso in a small ceramic cup."
+   }
+  },
+  {
+   "name": "Café allongé",
+   "desc": {
+    "tr": "Aynı telveden daha fazla su geçirilerek uzatılan, yemek sonrası içilen espressodur.",
+    "en": "A lengthened espresso made by running more water through the grounds, often drunk after meals."
+   }
+  },
+  {
+   "name": "Café crème / café au lait",
+   "desc": {
+    "tr": "Espresso ve sıcak sütle yapılır. Kahvaltıda tartine veya kruvasanla içilir. Öğleden sonra pek tercih edilmez.",
+    "en": "Espresso with hot milk, drunk at breakfast with a tartine or croissant. It is rarely ordered later in the day."
+   }
+  },
+  {
+   "name": "Noisette",
+   "desc": {
+    "tr": "Espressonun üzerine bir damla süt eklenir. İtalyan macchiato'nun Fransız karşılığıdır.",
+    "en": "An espresso with a dash of milk, the French counterpart of the Italian macchiato."
+   }
+  },
+  {
+   "name": "Café gourmand",
+   "desc": {
+    "tr": "Bir espresso ile birlikte küçük tatlı porsiyonları sunulur. Yemeğin sonunda servis edilir.",
+    "en": "An espresso served with a few miniature desserts, offered at the end of a meal."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Coffee production in Guadeloupe",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Guadeloupe"
+  },
+  {
+   "title": "Coffee production in Martinique",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Martinique"
+  },
+  {
+   "title": "Bourbon pointu",
+   "url": "https://fr.wikipedia.org/wiki/Bourbon_pointu"
+  },
+  {
+   "title": "Café Bourbon Pointu Grand Cru de La Réunion - Exceptions d'Ailleurs",
+   "url": "https://www.exceptions-dailleurs.com/boutique/cafe-et-cacao/cafe-bourbon-pointu-grand-cru-de-la-reunion/"
+  },
+  {
+   "title": "Un café Made In France, Oui ça existe !! - Frenchytech",
+   "url": "https://www.frenchytech.com/2014/05/un-cafe-made-in-france-guadeloupe/"
+  },
+  {
+   "title": "Le Bourbon Pointu, l’un des meilleurs cafés du monde",
+   "url": "https://www.papillesetpupilles.fr/2020/01/le-bourbon-pointu-lun-des-meilleurs-cafes-du-monde.html/"
+  },
+  {
+   "title": "Bourbon's Botanical Origins And The Evolution Of Laurina",
+   "url": "https://royalcoffee.com/bourbons-botanical-origins-and-the-evolution-of-laurina/"
+  },
+  {
+   "title": "The Coffee Atlas",
+   "url": "https://morningfixcoffee.com/blogs/the-coffee-atlas/the-coffee-atlas-bourbon-pointu"
+  }
+ ]
+}

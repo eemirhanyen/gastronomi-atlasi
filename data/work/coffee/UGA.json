@@ -1,0 +1,221 @@
+{
+ "iso3": "UGA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 51894,
+  "out": 4646,
+  "searches": 3
+ },
+ "usd": 0.1802,
+ "summary": {
+  "tr": "Uganda, Victoria Gölü kıyılarındaki ormanlarda yabani yetişen robusta (Coffea canephora) kahvesinin anavatanlarından biridir. Baganda halkı kahve kirazlarını kan kardeşliğini mühürlemek, topluluğa yeni üye almak ve ikiz doğumunu kutlamak gibi törenlerde kullanıyordu. Kolonyal dönemde kahve nakit ürüne dönüştü ve geleneksel kullanımı zayıfladı. Bugün ülke Afrika'nın en büyük kahve ihracatçısıdır, ü",
+  "en": "Uganda is one of the ancestral homes of robusta (Coffea canephora), which grew wild in the forests around Lake Victoria. The Baganda used coffee cherries in ceremonies such as sealing blood brotherhood, welcoming newcomers into the community and celebrating the birth of twins. Colonial rule turned coffee into a cash crop and weakened its traditional uses. Today Uganda is Africa's largest coffee ex"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Mount Elgon (Bugisu / Sipi)",
+   "lat": 1.15,
+   "lng": 34.4,
+   "desc": {
+    "tr": "Volkanik yamaçlarda yetişen, şarabımsı, meyvemsi ve çikolata tonlu Bugisu arabica kahvesiyle tanınır.",
+    "en": "Known for Bugisu arabica grown on volcanic slopes, with winey, fruity and chocolatey notes."
+   },
+   "grapes": [
+    "Bugisu local",
+    "SL14",
+    "SL28",
+    "KP162",
+    "KP423"
+   ]
+  },
+  {
+   "name": "Rwenzori Mountains (Kasese / Fort Portal)",
+   "lat": 0.3,
+   "lng": 30.1,
+   "desc": {
+    "tr": "Batı sınırındaki dağlık bölge; çiçeksi ve meyvemsi arabicalar ve geleneksel olarak doğal (Drugar) işlenen kahveler üretir.",
+    "en": "A mountainous western border zone producing floral, fruity arabicas, traditionally natural-processed as Drugar."
+   },
+   "grapes": [
+    "SL14",
+    "SL28",
+    "Typica",
+    "Kent"
+   ]
+  },
+  {
+   "name": "West Nile (Zombo / Nebbi / Okoro)",
+   "lat": 2.5,
+   "lng": 30.9,
+   "desc": {
+    "tr": "Kongo sınırındaki yüksek kesimlerde yetişen arabica ve organik Drugar/Wugar partileriyle bilinir.",
+    "en": "Known for arabica from the highlands on the Congo border, including organic Drugar and Wugar lots."
+   },
+   "grapes": [
+    "Arabica (SL14, SL28)",
+    "Drugar",
+    "Wugar"
+   ]
+  },
+  {
+   "name": "Lake Victoria Crescent (Masaka / Mukono / Luwero)",
+   "lat": 0.1,
+   "lng": 32.0,
+   "desc": {
+    "tr": "Robustanın doğal yaşam alanı ve ülkenin ana robusta kuşağıdır; Nganda ve Erecta gibi yerli robustalar burada yetişir.",
+    "en": "The native habitat of robusta and the country's core robusta belt, home to indigenous Nganda and Erecta types."
+   },
+   "grapes": [
+    "Nganda robusta",
+    "Erecta robusta"
+   ]
+  },
+  {
+   "name": "Southwest highlands (Kisoro / Mount Muhabura)",
+   "lat": -1.25,
+   "lng": 29.75,
+   "desc": {
+    "tr": "Güneybatı dağlarında Muhabura çevresinde küçük ölçekli, yüksek rakımlı arabica üretimi yapılır.",
+    "en": "Small-scale, high-altitude arabica is produced in the southwestern mountains around Muhabura."
+   },
+   "grapes": [
+    "Arabica (SL14, SL28)"
+   ]
+  },
+  {
+   "name": "Western and Eastern lowlands (Kibaale / Bunyoro / Busoga)",
+   "lat": 1.0,
+   "lng": 31.2,
+   "desc": {
+    "tr": "Düşük rakımlı bu bölgelerde, çoğu aile bahçelerinde yetişen robusta üretilir.",
+    "en": "Low-altitude areas producing robusta, mostly in family gardens."
+   },
+   "grapes": [
+    "Robusta (Nganda, Erecta)"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Nganda robusta",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Victoria Gölü çevresindeki ormanlarda hâlâ yetişen yerli robusta türü.",
+    "en": "An indigenous robusta type that still grows in the forests around Lake Victoria."
+   }
+  },
+  {
+   "name": "Erecta robusta",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Uganda'ya özgü, dik gelişen yerli robusta çeşidi.",
+    "en": "An upright-growing indigenous robusta variety native to Uganda."
+   }
+  },
+  {
+   "name": "Bugisu (local arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Elgon Dağı'nda 1912'de tanıtılan arabicanın yerelleşmiş formu; meyvemsi ve şarabımsı çay profili sunar.",
+    "en": "The local arabica of Mount Elgon, introduced there in 1912, with a fruity, winey cup."
+   }
+  },
+  {
+   "name": "SL14 / SL28",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Ugandalı arabica üretiminin ana çeşitleri; SL28 uzmanlık kahvesinin amiral gemisi sayılır.",
+    "en": "Key arabica cultivars in Uganda; SL28 is a specialty-grade flagship."
+   }
+  },
+  {
+   "name": "Drugar (dry-processed Uganda arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kirazın meyvesiyle kurutulduğu doğal işleme; özellikle batıda yaygındır ve daha dolgun gövdeli, tatlı bir fincan verir.",
+    "en": "A natural process in which cherries are dried whole, common in the west and giving a heavier, sweeter cup."
+   }
+  },
+  {
+   "name": "Wugar (washed Uganda arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kirazın soyulup yıkandığı işleme; daha temiz ve parlak asiditeli bir fincan verir.",
+    "en": "A washed process in which cherries are pulped and washed, giving a cleaner, brighter cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Ceremonial coffee-berry chewing",
+   "desc": {
+    "tr": "Baganda toplumunda kahve kirazları içilmek yerine çiğnenir ve dostluk, misafirperverlik ve kan kardeşliği törenlerinde paylaşılırdı.",
+    "en": "Among the Baganda, coffee cherries were traditionally chewed rather than brewed, and shared as a sign of friendship, hospitality and blood brotherhood."
+   }
+  },
+  {
+   "name": "Tea-first everyday drinking",
+   "desc": {
+    "tr": "Sömürge döneminden kalan bir alışkanlıkla Uganda'da özellikle kırsalda tatlı sütlü çay kahveden daha yaygındır ve kahvenin çoğu ihraç edilir.",
+    "en": "Because of a colonial-era habit, sweet milky tea is more common than coffee in Uganda, especially in rural areas, and most coffee is exported."
+   }
+  },
+  {
+   "name": "Kampala specialty café culture",
+   "desc": {
+    "tr": "Kampala ve Entebbe'deki kafeler Uganda çekirdeklerini espresso, filtre kahve, pour-over ve soğuk demleme olarak sunar.",
+    "en": "Cafés in Kampala and Entebbe serve Ugandan beans as espresso, filter, pour-over and cold brew."
+   }
+  },
+  {
+   "name": "Home roasting over charcoal / in clay pots",
+   "desc": {
+    "tr": "Kırsal bölgelerde kahve hâlâ ocakta veya kil kapta kavrulur ve el ile ezilerek hazırlanır.",
+    "en": "In rural areas coffee is still roasted over charcoal or in clay pots, then crushed by hand."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Uganda Coﬀee Development Authority THE MINISTRY OF AGRICULTURE,",
+   "url": "https://ugandacoffee.go.ug/sites/default/files/2022-03/Robusta%20Coffee%20Handbook.pdf"
+  },
+  {
+   "title": "Explore Ugandan Coffee: Its History, Production, & Flavor",
+   "url": "https://www.mysticmonkcoffee.com/blogs/learn-about-coffee/ugandan-coffee"
+  },
+  {
+   "title": "Fact Sheet",
+   "url": "https://ugandacoffee.go.ug/resource-center/fact-sheet"
+  },
+  {
+   "title": "Uganda Coffee: Growing Regions, Production, and Best Brands",
+   "url": "https://colipsecoffee.com/blogs/coffee/uganda"
+  },
+  {
+   "title": "Coffee production in Uganda",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Uganda"
+  },
+  {
+   "title": "Uganda Coffee Development Authority",
+   "url": "https://en.wikipedia.org/wiki/Uganda_Coffee_Development_Authority"
+  },
+  {
+   "title": "UGANDA AND THE RISE OF ROBUSTA",
+   "url": "https://efico.com/press-efico/uganda-and-the-rise-of-robusta/"
+  },
+  {
+   "title": "Uganda",
+   "url": "https://www.supremo.be/en/uganda"
+  }
+ ]
+}

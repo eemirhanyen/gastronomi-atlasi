@@ -1,0 +1,245 @@
+{
+ "iso3": "ETH",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 25092,
+  "out": 4586,
+  "searches": 2
+ },
+ "usd": 0.116,
+ "summary": {
+  "tr": "Ethiopia, Coffea arabica'nın anavatanıdır. Bitki hâlâ güneybatıdaki Kaffa ve çevresindeki dağ ormanlarında yabani olarak yetişir. Bu ormanlar Kaldi ve dans eden keçiler efsanesinin de geçtiği yerlerdir. Kahve (buna) günlük sosyal yaşamın merkezindedir. Üretimin büyük bir kısmı ülke içinde tüketilir. Cebene (clay pot) ile yapılan ve üç tur (abol, tona, baraka) servis edilen kahve seremonisi, misafi",
+  "en": "Ethiopia is the birthplace of Coffea arabica, which still grows wild in the highland forests of the southwest around Kaffa. The legend of the goat herder Kaldi is set in these forests. Coffee (buna) is central to daily social life, and a large share of the harvest is drunk at home. The jebena clay-pot ceremony is served in three rounds (abol, tona, baraka) and stands for hospitality and friendship"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Yirgacheffe (Gedeo)",
+   "lat": 6.16,
+   "lng": 38.2,
+   "desc": {
+    "tr": "Yüksek rakımlı, yıkanmış işlenen, yasemin ve bergamot gibi çiçeksi ve narenciye notalarıyla çay gibi hafif gövdeli kahveleriyle ünlüdür.",
+    "en": "Known for high-altitude, mostly washed coffees with jasmine and bergamot aromatics, citrus brightness and a tea-like body."
+   },
+   "grapes": [
+    "Ethiopian Heirloom",
+    "Kurume",
+    "Wolisho"
+   ]
+  },
+  {
+   "name": "Sidama",
+   "lat": 6.7,
+   "lng": 38.5,
+   "desc": {
+    "tr": "Ülkenin hacim olarak en büyük kahve bölgelerinden biridir. Kahveleri yaygın olarak meyvemsi, narenciyeli ve tatlı olup yıkanmış ve doğal işlenir.",
+    "en": "One of Ethiopia's largest coffee zones by volume, known for sweet, berry- and citrus-toned coffees in both washed and natural styles."
+   },
+   "grapes": [
+    "Ethiopian Heirloom",
+    "74110",
+    "74112"
+   ]
+  },
+  {
+   "name": "Guji",
+   "lat": 5.95,
+   "lng": 38.9,
+   "desc": {
+    "tr": "Yoğun kırmızı meyve, kayısı-şeftali ve tropik meyve karakterli doğal işlenmiş kahveleriyle öne çıkar.",
+    "en": "Known for intensely fruity natural-process coffees with red berry, stone-fruit and tropical notes."
+   },
+   "grapes": [
+    "Ethiopian Heirloom",
+    "74110",
+    "74112"
+   ]
+  },
+  {
+   "name": "Harar (Hararghe)",
+   "lat": 9.3,
+   "lng": 42.1,
+   "desc": {
+    "tr": "Doğuda, neredeyse tamamen doğal (kuru) işlenen; yaban mersini ve şarap benzeri notalara sahip, dolgun gövdeli kahveleriyle bilinir.",
+    "en": "Eastern highlands known for almost exclusively natural-process coffees, full-bodied with blueberry and winey notes."
+   },
+   "grapes": [
+    "Harar Longberry",
+    "Harar Shortberry",
+    "Mocha"
+   ]
+  },
+  {
+   "name": "Jimma",
+   "lat": 7.67,
+   "lng": 36.83,
+   "desc": {
+    "tr": "Güneybatıdaki bu geniş bölge Ethiopia kahve üretiminin büyük bölümünü sağlar. Kahveleri toprağımsı ve kakaomsu olup çoğunlukla harman bileşenidir.",
+    "en": "A large southwestern zone that supplies much of Ethiopia's coffee, typically earthy and cocoa-toned, often used in blends."
+   },
+   "grapes": [
+    "Ethiopian Heirloom",
+    "Jimma Research Center selections"
+   ]
+  },
+  {
+   "name": "Limu",
+   "lat": 8.0,
+   "lng": 36.95,
+   "desc": {
+    "tr": "Güneybatıda, çoğunlukla yıkanmış işlenen; dengeli, hafif baharatlı ve şarapsı kahveleriyle bilinir.",
+    "en": "A southwestern area known for mostly washed coffees with a balanced, gently spicy and winey cup."
+   },
+   "grapes": [
+    "Ethiopian Heirloom"
+   ]
+  },
+  {
+   "name": "Kaffa (Bonga)",
+   "lat": 7.27,
+   "lng": 36.24,
+   "desc": {
+    "tr": "Arabica'nın doğal olarak geliştiği orman bölgesidir. Yarı yabani orman kahveleri otsu ve koyu meyve notaları taşır.",
+    "en": "The forest homeland of wild arabica, producing semi-forest coffees with herbal and dark-fruit notes."
+   },
+   "grapes": [
+    "Wild forest arabica",
+    "Ethiopian Heirloom"
+   ]
+  },
+  {
+   "name": "Wollega (Nekemte)",
+   "lat": 9.09,
+   "lng": 36.55,
+   "desc": {
+    "tr": "Batıdaki yaylalarda, dolgun gövdeli ve meyvemsi, çoğunlukla doğal ve yıkanmış işlenen kahveler yetişir.",
+    "en": "Western highlands producing fuller-bodied, fruity coffees processed both washed and natural."
+   },
+   "grapes": [
+    "Ethiopian Heirloom"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Ethiopian Heirloom (landraces)",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Yüzlerce yerel ve yabani arabica popülasyonunun ticari adıdır. Bu çeşitlilik, Ethiopia kahvesinin geniş lezzet yelpazesinin başlıca nedenidir.",
+    "en": "The trade name for a vast pool of indigenous and wild arabica populations, and the main reason for Ethiopia's wide flavor range."
+   }
+  },
+  {
+   "name": "Wild forest arabica (Kaffa)",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Güneybatı dağ ormanlarının gölgesinde, doğal olarak yetişen ve türün genetik kaynağını oluşturan kahve ağaçlarıdır.",
+    "en": "Coffee trees growing naturally under the canopy of southwestern highland forests, the species' genetic reservoir."
+   }
+  },
+  {
+   "name": "Gesha / Geisha",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Adını güneybatıdaki Gesha bölgesinden alan çeşit, Panama'da ünlendi ve çiçeksi, çay benzeri kahveleriyle tanınır.",
+    "en": "A variety named for the Gesha area in the southwest, made famous in Panama and known for floral, tea-like cups."
+   }
+  },
+  {
+   "name": "74110 / 74112 selections",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Jimma Araştırma Merkezi'nin hastalığa dayanıklı olarak seçip yaygınlaştırdığı, günümüzde Sidama, Guji ve Yirgacheffe gibi bölgelerde sık ekilen çeşitlerdir.",
+    "en": "Disease-resistant selections released by the Jimma research centre and now widely planted in areas such as Sidama, Guji and Yirgacheffe."
+   }
+  },
+  {
+   "name": "Natural (dry) process",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Kahve kirazları bütün hâlde güneşte kurutulur. Harar ve Guji'de yaygındır, yoğun meyve ve şarap notaları verir.",
+    "en": "Whole cherries are sun-dried on beds. This is typical of Harar and Guji, giving intense fruit and winey notes."
+   }
+  },
+  {
+   "name": "Washed (wet) process",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Kirazlar soyulur, fermente edilir ve yıkanır. Yirgacheffe ve Limu gibi bölgelerde yaygındır, temiz ve çiçeksi bir fincan verir.",
+    "en": "Cherries are pulped, fermented and washed. Common in Yirgacheffe and Limu, it gives a clean, floral cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Jebena buna (coffee ceremony)",
+   "desc": {
+    "tr": "Ev sahibi, yeşil çekirdekleri misafirlerin önünde kömür üzerinde kavurur, havanda döver, cebenede pişirir ve küçük kulpsuz fincanlarda abol, tona ve baraka olmak üzere üç turda sunar.",
+    "en": "The host roasts green beans over charcoal in front of guests, pounds them by hand, brews them in a jebena and serves small handleless cups in three rounds: abol, tona and baraka."
+   }
+  },
+  {
+   "name": "Buna qalla",
+   "desc": {
+    "tr": "Oromo topluluklarında bilinen, kavrulmuş çekirdeklerin tereyağı ve tuzla pişirilip özellikle törenlerde ikram edildiği geleneksel bir hazırlıktır.",
+    "en": "A traditional preparation among Oromo communities in which roasted beans are cooked with butter and salt, served especially at ceremonies and gatherings."
+   }
+  },
+  {
+   "name": "Macchiato and café culture in Addis Ababa",
+   "desc": {
+    "tr": "İtalyan etkisiyle yerleşen espresso tabanlı içecekler, özellikle macchiato, şehirdeki kafelerde çok yaygındır. Çay ile kahvenin katmanlı karışımı olan spris de bilinir.",
+    "en": "Espresso drinks that took root through Italian influence, above all the macchiato, are everyday fare in city cafés. Spris, a layered mix of tea and coffee, is also popular."
+   }
+  },
+  {
+   "name": "Kuti (coffee-leaf tea)",
+   "desc": {
+    "tr": "Bazı bölgelerde kahve çekirdeği yerine kahve yapraklarından hazırlanan, baharatlı ve hafif bir içecek de tüketilir.",
+    "en": "In some areas a light, often spiced infusion is made from coffee leaves rather than beans."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Ethiopia Coffee Overview - Sweet Maria's Coffee Library",
+   "url": "https://library.sweetmarias.com/coffee-producing-countries/africa/ethiopia-coffee-overview/"
+  },
+  {
+   "title": "Ethiopian Coffee: Taste, Growing Regions, Production, and Brewing",
+   "url": "https://colipsecoffee.com/blogs/coffee/ethiopian"
+  },
+  {
+   "title": "Coffee Regions In Ethiopia",
+   "url": "https://impactroasters.dk/blogs/news/ethiopias-coffee-regions"
+  },
+  {
+   "title": "Coffee production in Ethiopia",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia"
+  },
+  {
+   "title": "Guide to Ethiopian Green Coffee Origins",
+   "url": "https://www.ethiocoffee.co/insights/guide-ethiopian-coffee-origins"
+  },
+  {
+   "title": "Ethiopian Coffee: Regions, Varieties & Flavour Guide",
+   "url": "https://sandboxcoffee.de/blogs/learn/ethiopian-coffee"
+  },
+  {
+   "title": "Ethiopian Coffee Guide: Regions and Grades",
+   "url": "https://bunautopia.com/blogs/news/ethiopian-coffee-guide"
+  },
+  {
+   "title": "Specialty Coffee Producing Regions in Ethiopia",
+   "url": "https://hadero.com/specialty-coffee-producing-areas-in-ethiopia/"
+  }
+ ]
+}

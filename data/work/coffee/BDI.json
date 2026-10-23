@@ -1,0 +1,215 @@
+{
+ "iso3": "BDI",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 32734,
+  "out": 3949,
+  "searches": 3
+ },
+ "usd": 0.135,
+ "summary": {
+  "tr": "Burundi'de kahve, 1920'lerde Belçika sömürge yönetimi döneminde tanıtıldı. 1930'lardan itibaren köylüler kahve yetiştirmeye zorlandı; bu yüzden birçok çiftçi bağımsızlıktan sonra ağaçlarını söktü. Bugün kahve, çoğu küçük çiftçilerin elinde olan, Kırmızı Bourbon ağırlıklı ve yıkanmış işlenen bir Arabica ihraç ürünüdür. Çiftçilerin kendileri genellikle kahve yerine süt ya da çay içer; kahve içme kül",
+  "en": "Coffee reached Burundi in the 1920s under Belgian colonial rule, and from the 1930s farmers were compelled to grow it, so many pulled out their trees after independence. Today it is a smallholder-grown Arabica export crop, dominated by Red Bourbon and mostly fully washed. Farmers themselves tend to drink milk or tea rather than coffee, so a drinking culture exists mainly in modern cafés in cities "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kayanza",
+   "lat": -2.92,
+   "lng": 29.63,
+   "desc": {
+    "tr": "Kuzeydeki bu yüksek rakımlı bölge, parlak asidite, meyvemsi ve çiçeksi notalar ile siyah çay tonlarıyla tanınır ve sık sık Cup of Excellence ödülü kazanır.",
+    "en": "This high-altitude northern province is known for bright acidity, berry, floral and black-tea notes, and it regularly produces Cup of Excellence winners."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Jackson",
+    "Mibirizi"
+   ]
+  },
+  {
+   "name": "Ngozi",
+   "lat": -2.91,
+   "lng": 29.83,
+   "desc": {
+    "tr": "Ülkenin en yoğun kahve üretim bölgelerinden biri olan Ngozi, canlı asidite, dolgun gövde ile kırmızı meyve, narenciye ve çikolata notaları sunar.",
+    "en": "One of the most concentrated coffee-producing provinces, Ngozi gives vibrant acidity, fuller body and notes of red fruit, citrus and chocolate."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Jackson"
+   ]
+  },
+  {
+   "name": "Kirundo",
+   "lat": -2.58,
+   "lng": 30.1,
+   "desc": {
+    "tr": "Ruanda sınırındaki en kuzey il olan Kirundo, dengeli asidite, orta gövde ile karamel ve çikolata notaları veren kahveleriyle bilinir.",
+    "en": "The northernmost province on the Rwandan border, Kirundo is known for balanced, medium-bodied coffees with caramel and chocolate notes."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Jackson",
+    "Mibirizi"
+   ]
+  },
+  {
+   "name": "Muyinga",
+   "lat": -2.85,
+   "lng": 30.34,
+   "desc": {
+    "tr": "Tanzanya sınırındaki kuzeydoğu ilinde yer alan Muyinga, ülkenin altı ana kahve bölgesinden biri sayılır.",
+    "en": "Muyinga lies in the northeast on the Tanzanian border and is counted among the country's six main coffee-growing provinces."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Jackson",
+    "Mibirizi"
+   ]
+  },
+  {
+   "name": "Gitega (Kirimiro)",
+   "lat": -3.43,
+   "lng": 29.93,
+   "desc": {
+    "tr": "Orta Burundi'deki bu bölgede devlete ait iki kuru değirmenden biri bulunur ve burada kahveler ihracat öncesi son hazırlık ile kalite kontrolden geçer.",
+    "en": "In central Burundi, this area hosts one of the two state-owned dry mills where coffee gets final preparation and quality control before export."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Jackson",
+    "Mibirizi"
+   ]
+  },
+  {
+   "name": "Bubanza (Mumirwa)",
+   "lat": -3.08,
+   "lng": 29.39,
+   "desc": {
+    "tr": "Batıdaki bu daha alçak rakımlı kuşak, Tanganyika Gölü'ne yakındır ve hasadı kuzey illerine göre daha geç başlar.",
+    "en": "This lower-altitude western zone lies close to Lake Tanganyika, and its harvest runs later than in the northern provinces."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Jackson",
+    "Mibirizi"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Red Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Ülkede baskın olan bu kırmızı kiraz çeşidi, ince asidite, tatlılık ve meyvemsi karmaşıklık verir.",
+    "en": "The dominant red-cherried variety, it gives refined acidity, sweetness and fruity complexity in the cup."
+   }
+  },
+  {
+   "name": "Jackson",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bourbon kökenli bu seçilmiş çeşit, Burundi'de Bourbon ve Mibirizi ile birlikte yetiştirilir.",
+    "en": "A Bourbon-derived selection grown alongside Bourbon and Mibirizi in Burundi."
+   }
+  },
+  {
+   "name": "Mibirizi",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bölgesel kahve rehberlerinde Bourbon ve Jackson ile birlikte anılan, yerel olarak yetiştirilen bir Arabica çeşididir.",
+    "en": "A locally grown Arabica cultivar listed with Bourbon and Jackson in regional coffee guides."
+   }
+  },
+  {
+   "name": "SL28/SL34 and Typica (minor)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Burundi'de Bourbon'un yanında az miktarda Typica ve SL çeşitlerine de rastlanır.",
+    "en": "Small amounts of Typica and SL cultivars are found alongside the Bourbon base."
+   }
+  },
+  {
+   "name": "Fully washed (communal washing stations)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Küçük üreticiler olgun kirazları ortak yıkama istasyonlarına getirir; en iyi fincan profilleri genellikle tam yıkanmış kahvelerden gelir.",
+    "en": "Smallholders deliver ripe cherry to communal washing stations, and the best cup profiles usually come from fully washed lots."
+   }
+  },
+  {
+   "name": "Natural, honey and anaerobic lots",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Yıkama baskın olsa da doğal, bal ve anaerobik fermantasyonlu deneysel partiler giderek yaygınlaşıyor.",
+    "en": "Washed coffee dominates, but natural, honey and anaerobic-fermentation experimental lots are becoming more common."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Urban café espresso and milk drinks",
+   "desc": {
+    "tr": "Bujumbura'nın modern kafeleri uluslararası espresso bazlı içecekler sunar ve çoğu zaman yerel Arabica kullandığını vurgular.",
+    "en": "Modern cafés in Bujumbura serve international-style espresso-based drinks and often highlight their use of local Arabica."
+   }
+  },
+  {
+   "name": "Specialty filter and pour-over",
+   "desc": {
+    "tr": "Gelişen üçüncü dalga kafeler, yerel çekirdeklerin meyvemsi ve çiçeksi inceliklerini filtre demleme yöntemleriyle öne çıkarır.",
+    "en": "Emerging specialty cafés use filter brewing to show off the fruity, floral nuances of local beans."
+   }
+  },
+  {
+   "name": "Milk and tea over coffee in rural homes",
+   "desc": {
+    "tr": "Kırsalda günlük içecek genellikle taze süt ya da termosta sıcak çaydır. Kahve değerli bir nakit ürün olduğu için çiftçiler onu çoğunlukla satar, kendileri içmez.",
+    "en": "In the countryside the everyday drink is usually fresh milk or hot tea. Coffee is a valuable cash crop, so farmers mostly sell it instead of drinking it."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Burundi Coffee: Exploring Its Unique Flavors",
+   "url": "https://www.coffeeness.de/en/burundi-coffee/"
+  },
+  {
+   "title": "Burundi Coffee - Flavors, Regions & Roasters",
+   "url": "https://unpacking.coffee/origins/burundi"
+  },
+  {
+   "title": "Burundian Origin Coffee: History, Cultivation and Regions ...",
+   "url": "https://ineffablecoffee.com/en/blogs/origin-monographics/cafe-de-burundi"
+  },
+  {
+   "title": "Coffee Origins: Burundi - Helena Coffee Vietnam",
+   "url": "https://www.helenacoffee.vn/burundi/"
+  },
+  {
+   "title": "An Origin, Region, & Varietal Guide: Season 7",
+   "url": "https://leaderboard.coffee/en-us/blogs/education/an-origin-region-varietal-guide-s7"
+  },
+  {
+   "title": "Burundi Coffee Beans - Espresso & Coffee Guide",
+   "url": "https://espressocoffeeguide.com/gourmet-coffee/arabian-and-african-coffees/burundi-coffee/"
+  },
+  {
+   "title": "Burundi Coffee Guide: Barista Training Insights on Origins, Regions, Varieties, and Flavor Profiles - First Shot Barista Training",
+   "url": "https://firstshotbaristatraining.com.au/burundi-coffee-guide-barista-training-insights-on-origins-regions-varieties-and-flavor-profiles/"
+  },
+  {
+   "title": "Burundi Coffee — Origins, Flavor & Regions",
+   "url": "https://coffee-infos.com/en/origins/burundi"
+  }
+ ]
+}

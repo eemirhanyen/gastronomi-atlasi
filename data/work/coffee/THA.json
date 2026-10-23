@@ -1,0 +1,209 @@
+{
+ "iso3": "THA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24395,
+  "out": 3726,
+  "searches": 2
+ },
+ "usd": 0.1061,
+ "summary": {
+  "tr": "Tayland'da kahve tarımı 20. yüzyılda yavaş başladı. Kuzeyde, 1969'da kurulan Kraliyet Projesi Vakfı (Royal Project) ile haşhaş yerine arabica ekimi teşvik edilince hızla gelişti. Güneyde ise robusta yaygınlaştı. Çin kökenli göçmenlerin kahvehane geleneği, kese süzgeçle demlenip yoğunlaştırılmış sütle servis edilen güçlü, tatlı 'oliang' ve 'kafae boran' içeceklerini doğurdu. 1990'lardan sonra ise B",
+  "en": "Coffee farming in Thailand started slowly in the 20th century. It took off in the north after the Royal Project Foundation (1969) promoted arabica as a substitute for opium poppy, while robusta spread across the south. Chinese immigrant coffee-shop traditions produced strong, sweet 'oliang' and 'kafae boran', brewed through a cloth sock filter and served with condensed milk. Since the 1990s a mode"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Chiang Rai (Doi Chaang, Doi Tung, Mae Salong)",
+   "lat": 20.0,
+   "lng": 99.7,
+   "desc": {
+    "tr": "Smooth, tatlı ve dolgun gövdeli arabica'sıyla; çikolata ve fındıksı tonlarıyla bilinir, Doi Chaang ve Doi Tung gibi markalara ev sahipliği yapar.",
+    "en": "Known for smooth, sweet, fuller-bodied arabica with chocolate and nutty notes, home to Doi Chaang and Doi Tung."
+   },
+   "grapes": [
+    "Catimor",
+    "Typica",
+    "Bourbon",
+    "Thai Geisha"
+   ]
+  },
+  {
+   "name": "Chiang Mai (Doi Saket, Mae Wang, highlands)",
+   "lat": 18.8,
+   "lng": 98.9,
+   "desc": {
+    "tr": "Hafif gövdeli, parlak asiditeli, çiçeksi ve zarif arabica'sıyla ve küçük üretici köy kahveleriyle tanınır.",
+    "en": "Known for elegant, floral, light-bodied arabica with bright acidity, grown mostly by smallholder hill-tribe farmers."
+   },
+   "grapes": [
+    "Catimor",
+    "Caturra",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Mae Hong Son",
+   "lat": 18.8,
+   "lng": 97.95,
+   "desc": {
+    "tr": "Yüksek rakımlı batı dağlarında yetişen, çiçeksi, hafif gövdeli ve hafif tatlı arabica kahveleriyle bilinir.",
+    "en": "Known for floral, light-bodied, gently sweet arabica from the high western mountains."
+   },
+   "grapes": [
+    "Typica",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Nan",
+   "lat": 18.8,
+   "lng": 100.8,
+   "desc": {
+    "tr": "Kuzeydeki yüksek rakımlı arabica üretiminin bir parçasıdır; temiz tatlılık ve meyvemsi asidite sunar.",
+    "en": "A northern highland arabica area, part of the north's profile of clean sweetness and fruity acidity."
+   },
+   "grapes": [
+    "Catimor",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Chumphon (Tha Sae, Lang Suan)",
+   "lat": 10.55,
+   "lng": 99.15,
+   "desc": {
+    "tr": "Tayland robusta üretiminin merkezidir; güçlü gövdeli, düşük asiditeli, topraksı kahveler verir.",
+    "en": "The heart of Thai robusta, producing strong-bodied, low-acidity, earthy coffee."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Surat Thani and Ranong",
+   "lat": 9.5,
+   "lng": 99.0,
+   "desc": {
+    "tr": "Güneyin alçak rakımlı kıyı illerinde yetişen robusta; harman, hazır kahve ve geleneksel sokak kahvesi için kullanılır.",
+    "en": "Low-altitude southern robusta used for blends, instant coffee and traditional street coffee."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Catimor",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kuzey Tayland'da en yaygın ekilen, hastalığa dayanıklı arabica melezidir.",
+    "en": "A disease-resistant arabica hybrid and the most widely planted cultivar in northern Thailand."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kuzeyin yüksek rakımlarında yetişen, temiz ve tatlı fincan profili veren klasik arabica çeşididir.",
+    "en": "A classic arabica cultivar grown at northern altitudes, valued for a clean, sweet cup."
+   }
+  },
+  {
+   "name": "Thai Geisha",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kuzeyde yakın zamanda tanıtılan, özel kahve pazarına yönelik çiçeksi bir çeşittir.",
+    "en": "A recently introduced cultivar in the north, grown for the specialty market."
+   }
+  },
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Güney illerinde yetişir; hazır kahve, harmanlar ve oliang için temel hammaddedir.",
+    "en": "Grown in the southern provinces and the base of instant coffee, blends and oliang."
+   }
+  },
+  {
+   "name": "Honey and natural processing",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Kuzeyli üreticiler, Doi Chaang'da olduğu gibi, meyve tatlılığını öne çıkarmak için honey, natural ve anaerobik işlemler dener.",
+    "en": "Northern producers, as at Doi Chaang, use honey, natural and anaerobic processing to highlight fruit sweetness."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Oliang (Thai iced coffee)",
+   "desc": {
+    "tr": "Robusta, mısır, soya, susam ve kakule gibi tahıl ve baharatlarla koyu kavrulup bez süzgeçle demlenen, buz üzerinde servis edilen güçlü bir kahvedir.",
+    "en": "A strong coffee made from dark-roasted robusta with grains and spices such as corn, soybean, sesame and cardamom, brewed through a cloth filter and served over ice."
+   }
+  },
+  {
+   "name": "Kafae boran (traditional or 'ancient' coffee)",
+   "desc": {
+    "tr": "Kıtlık döneminde kahveyi uzatmak için tahıl katılarak doğan, bez 'çorap' süzgeçle demlenip yoğunlaştırılmış sütle tatlandırılan geleneksel kahvedir.",
+    "en": "Traditional coffee born of scarcity, when grains were added to stretch the beans. It is steeped in a cloth 'sock' filter and sweetened with condensed milk."
+   }
+  },
+  {
+   "name": "Raan kafae boran (traditional coffee shops)",
+   "desc": {
+    "tr": "Çin kökenli göçmenlerin kurduğu, Bangkok'un Çin Mahallesi gibi semtlerde bulunan, hızlı ve ucuz servis yapan geleneksel kahvehanelerdir.",
+    "en": "Traditional coffee shops, rooted in Chinese immigrant communities and concentrated in areas like Bangkok's Chinatown, serving quick, cheap glasses of coffee."
+   }
+  },
+  {
+   "name": "Third-wave specialty café culture",
+   "desc": {
+    "tr": "Starbucks'ın 1998'de gelişinden sonra yaygınlaşan kafe kültürü bugün espresso, filtre kahve ve Chiang Mai ile Chiang Rai'dan gelen tek kökenli yerli çekirdekleri öne çıkarır.",
+    "en": "Café culture grew after Starbucks arrived in 1998. Today it features espresso, filter coffee and single-origin Thai beans from Chiang Mai and Chiang Rai, especially in Bangkok, Chiang Mai and Phuket."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Coffee industry of Thailand",
+   "url": "https://coffee.fandom.com/wiki/Coffee_industry_of_Thailand"
+  },
+  {
+   "title": "Thailand Coffee: Everything You Need to Know",
+   "url": "https://www.coffeeness.de/en/thailand-coffee/"
+  },
+  {
+   "title": "Thailand Coffee Overview - Sweet Maria's Coffee Library",
+   "url": "https://library.sweetmarias.com/coffee-producing-countries/indonesia-se-asia/thailand-coffee-overview/"
+  },
+  {
+   "title": "Homegrown coffee is fuelling Thailand’s specialty boom - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2026/04/thailand-specialty-coffee-boom/"
+  },
+  {
+   "title": "Best Thailand Coffee Brands to Try in 2026",
+   "url": "https://nomadmum.com/thailand-coffee-brands/"
+  },
+  {
+   "title": "Which Coffee is Famous in Thailand? - Caffeine Spots",
+   "url": "https://caffeinespots.com/coffee-faq/which-coffee-is-famous-in-thailand/"
+  },
+  {
+   "title": "Thailand Coffee Brands: 8 Best Thai Roasters & Beans to Try (2026) - Drip Roast",
+   "url": "https://www.driproast.com/best-coffee-beans-thailand/"
+  },
+  {
+   "title": "Everything About Coffee In Thailand - Coffee Culture Thailand",
+   "url": "https://coffeeculture.asia/everything-about-coffee-in-thailand/"
+  }
+ ]
+}

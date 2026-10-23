@@ -1,0 +1,263 @@
+{
+ "iso3": "COL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22208,
+  "out": 4870,
+  "searches": 2
+ },
+ "usd": 0.1131,
+ "summary": {
+  "tr": "Kolombiya'da kahve, kayıtlara göre 18. yüzyılda doğudaki Santander bölgelerinde görülür. 19. yüzyılda Antioquia ve Eje Cafetero'ya yayılan kahve, 1927'de kurulan Ulusal Kahve Üreticileri Federasyonu (FNC) sayesinde ülkenin ana ihraç ürünlerinden biri oldu. Kolombiya bugün yalnızca arabica yetiştiren dünyanın en büyük üreticilerinden biridir. Gündelik kahve kültürünün merkezinde, evde, ofiste ve so",
+  "en": "Coffee in Colombia is first reliably recorded in the eastern Santander region in the 18th century. It spread to Antioquia and the Eje Cafetero in the 19th century and became a leading export through the National Federation of Coffee Growers (FNC), founded in 1927. Colombia is now one of the world's largest producers and grows only arabica. Everyday coffee culture centres on 'tinto', a small cup of"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Huila",
+   "lat": 2.5,
+   "lng": -75.8,
+   "desc": {
+    "tr": "Meyvemsi, canlı ve net asiditeli fincanlarıyla ve çok sayıda mikro lot ile tanınır.",
+    "en": "Known for fruit-forward, lively cups with clear acidity and a large number of microlots."
+   },
+   "grapes": [
+    "Castillo",
+    "Caturra",
+    "Tabi",
+    "Bourbon",
+    "Gesha"
+   ]
+  },
+  {
+   "name": "Nariño",
+   "lat": 1.3,
+   "lng": -77.4,
+   "desc": {
+    "tr": "Ekvator'a yakın, 2.300 m'ye varan yüksek rakımlı bahçelerinden tatlı ve narenciye notalı kahveler gelir.",
+    "en": "High-altitude farms near the equator, up to about 2,300 m, produce sweet coffees with citrus notes."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Castillo",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Cauca",
+   "lat": 2.4,
+   "lng": -76.6,
+   "desc": {
+    "tr": "Kırmızı meyve notalı, dengeli ve tatlı kahveleriyle bilinir.",
+    "en": "Known for balanced, sweet coffees with red-fruit notes."
+   },
+   "grapes": [
+    "Caturra",
+    "Castillo",
+    "Typica",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Eje Cafetero (Caldas, Risaralda, Quindío)",
+   "lat": 4.9,
+   "lng": -75.7,
+   "desc": {
+    "tr": "Kolombiya kahvesinin kültürel kalbidir. Dengeli, çikolata ve karamel ağırlıklı klasik fincanlar verir; araştırma merkezi Cenicafé de buradadır.",
+    "en": "The cultural heartland of Colombian coffee, giving balanced, classic chocolate-and-caramel cups; it is also home to the Cenicafé research centre."
+   },
+   "grapes": [
+    "Castillo",
+    "Caturra",
+    "Colombia",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Antioquia",
+   "lat": 6.2,
+   "lng": -75.8,
+   "desc": {
+    "tr": "Paisa dağlık bölgesinin tarihsel kahve üretim merkezlerinden biridir. Kremamsı, tatlı ve yuvarlak gövdeli kahveleriyle bilinir.",
+    "en": "A historic centre of the paisa highlands' coffee production, known for creamy, sweet, round-bodied cups."
+   },
+   "grapes": [
+    "Castillo",
+    "Caturra",
+    "Colombia"
+   ]
+  },
+  {
+   "name": "Tolima",
+   "lat": 4.0,
+   "lng": -75.3,
+   "desc": {
+    "tr": "Orta And Dağları'nda yer alır. Kakao ve karamel notalı dengeli kahveler üretir, mikro lot sayısı da artıyor.",
+    "en": "Located in the central Andes, it produces balanced coffees with cocoa and caramel notes, and its microlot output is growing."
+   },
+   "grapes": [
+    "Castillo",
+    "Caturra",
+    "Colombia"
+   ]
+  },
+  {
+   "name": "Santander",
+   "lat": 6.9,
+   "lng": -73.1,
+   "desc": {
+    "tr": "Ülkede kahvenin ilk kayıtlı olduğu bölgelerden biridir. Bitter çikolata, fındık ve karamel notalı yumuşak kahveler verir.",
+    "en": "One of the first areas with recorded coffee in the country, giving soft cups with dark chocolate, hazelnut and caramel notes."
+   },
+   "grapes": [
+    "Caturra",
+    "Castillo",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Sierra Nevada de Santa Marta",
+   "lat": 10.8,
+   "lng": -73.6,
+   "desc": {
+    "tr": "Karayip kıyısındaki dağlık bölgedir. Yerli topluluklarca da yetiştirilen kahveleri tatlı ve yumuşak bir yapıya sahiptir.",
+    "en": "A mountain range on the Caribbean coast whose coffees, also grown by Indigenous communities, tend to be sweet and mellow."
+   },
+   "grapes": [
+    "Caturra",
+    "Typica",
+    "Castillo"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Castillo",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Cenicafé'nin geliştirdiği, pas hastalığına dayanıklı ve bugün ülkede en yaygın ekilen çeşittir.",
+    "en": "Bred by Cenicafé for leaf-rust resistance, it is now the most widely planted variety in Colombia."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Brezilya'da bulunan bir Bourbon mutasyonudur. 1960'lardan beri Kolombiya'da temel çeşittir ve temiz, tatlı bir fincan verir.",
+    "en": "A Bourbon mutation found in Brazil that has been a Colombian staple since the 1960s, giving a clean, sweet cup."
+   }
+  },
+  {
+   "name": "Variedad Colombia",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "1982'de FNC'nin tescil ettiği, Caturra ile Timor Hibriti melezi, pasa dayanıklı ilk büyük çeşittir.",
+    "en": "The rust-resistant Caturra × Timor Hybrid cross released by the FNC in 1982, predating Castillo."
+   }
+  },
+  {
+   "name": "Tabi",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Typica, Bourbon ve hastalık direncini birleştiren bir melezdir. Parlak asidite ve iyi bir karmaşıklık sunar.",
+    "en": "A hybrid combining Typica, Bourbon and disease resistance, with bright acidity and good complexity."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Dünyanın en eski arabica çeşitlerindendir. Fincan kalitesi çok yüksektir ama pasa duyarlıdır ve verimi düşüktür.",
+    "en": "One of the oldest arabica varieties, with excellent cup potential but low yields and susceptibility to leaf rust."
+   }
+  },
+  {
+   "name": "Pink Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle Huila gibi bölgelerde yetiştirilen, nadir ve pahalı mikro lotlarda görülen bir spesiyalite çeşididir.",
+    "en": "A rare specialty variety grown in regions such as Huila and sold mainly as high-priced microlots."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Tinto",
+   "desc": {
+    "tr": "Küçük fincanda servis edilen, sütsüz, genelde şekerli veya panelalı sade filtre kahvedir. Sokak satıcılarından evlere kadar her yerde ikram edilir.",
+    "en": "A small cup of black filtered coffee without milk, usually sweetened with sugar or panela, served everywhere from street vendors to private homes."
+   }
+  },
+  {
+   "name": "Tinto con panela / tinto campesino",
+   "desc": {
+    "tr": "Öğütülmüş kahvenin sıcak suda demlenip bezle süzüldüğü ve geleneksel olarak panela (ham kamış şekeri) ile tatlandırıldığı çiftlik usulüdür.",
+    "en": "The farm-style version in which ground coffee is steeped in hot water, strained through a cloth filter and traditionally sweetened with panela (raw cane sugar)."
+   }
+  },
+  {
+   "name": "Pintado",
+   "desc": {
+    "tr": "Tintonun üzerine bir miktar süt eklenmesiyle yapılan, küçük fincanlık sütlü kahvedir.",
+    "en": "A small coffee 'stained' with a splash of milk, served in a small cup."
+   }
+  },
+  {
+   "name": "Perico",
+   "desc": {
+    "tr": "Özellikle Bogotá ve çevresinde sabahları içilen, küçük fincanda süt ve kahveyle hazırlanan içecektir.",
+    "en": "A small milky coffee drunk especially in the morning in Bogotá and the surrounding highlands."
+   }
+  },
+  {
+   "name": "Specialty filter and espresso cafés",
+   "desc": {
+    "tr": "Medellín, Bogotá ve Salento gibi yerlerde barista işletmeleri, tek kökenli kahveleri filtre ve espresso olarak sunuyor. Böylece ihracat kalitesindeki kahveler yurt içinde de içilebiliyor.",
+    "en": "In Medellín, Bogotá and Salento, barista-led cafés serve single-origin coffees as filter and espresso, bringing export-grade lots to the domestic market."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cafe Imports",
+   "url": "https://www.cafeimports.com/north-america/colombia"
+  },
+  {
+   "title": "Colombian Specialty Coffee: Regions and Varieties",
+   "url": "https://escape.cafe/en-us/blogs/news/colombian-specialty-coffee"
+  },
+  {
+   "title": "National Federation of Coffee Growers of Colombia",
+   "url": "https://en.wikipedia.org/wiki/National_Federation_of_Coffee_Growers_of_Colombia"
+  },
+  {
+   "title": "Colombia Coffee Beans: Regions, Varieties & Complete Buying Guide",
+   "url": "https://coffee-guide.jp/en/beans/colombia-coffee-beans-guide"
+  },
+  {
+   "title": "Colombian Coffee Guide: Varieties, Processing & Harvest",
+   "url": "https://www.harmonycoffee.co.uk/blogs/coffee-origins/colombia"
+  },
+  {
+   "title": "Colombia",
+   "url": "https://www.coffeerambler.com/country-guide-colombia"
+  },
+  {
+   "title": "Origin Profile: Colombia",
+   "url": "https://www.royalny.com/blogs/origin-profile-colombia/"
+  },
+  {
+   "title": "Specialty Coffee from Colombia, Explained",
+   "url": "https://garzacoffee.de/en/blogs/news/spezialitatenkaffee-der-aufstieg-des-kolumbianischen-kaffees-in-der-welt"
+  }
+ ]
+}

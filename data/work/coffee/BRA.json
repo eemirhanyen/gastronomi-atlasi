@@ -1,0 +1,243 @@
+{
+ "iso3": "BRA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 32976,
+  "out": 4713,
+  "searches": 3
+ },
+ "usd": 0.1431,
+ "summary": {
+  "tr": "Kahve Brezilya'ya 1727'de Francisco de Melo Palheta ile geldi. Palheta, Fransız Guyanası'ndan çekirdek getirip Pará'ya ekti. 1830'a gelindiğinde kahve ülkenin başlıca ihraç ürünüydü ve São Paulo'daki demiryolları ile Santos Limanı bu dönemde kahve ticaretiyle gelişti. Brezilya bugün dünyanın en büyük üreticisidir. Kahve ülkede günlük hayatın parçasıdır: şekerli, küçük fincanlarda sunulan cafezinho",
+  "en": "Coffee reached Brazil in 1727, when Francisco de Melo Palheta obtained seeds in French Guiana and planted them in Pará. By 1830 it was the country's main export, and it drove the growth of São Paulo's railways and the Port of Santos. Brazil is now the world's largest producer. Coffee is part of everyday life: the sweet, small-cup cafezinho is offered to guests as hospitality, and milky coffees suc"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Sul de Minas",
+   "lat": -21.6,
+   "lng": -45.4,
+   "desc": {
+    "tr": "Küçük çiftliklerden, çikolata, karamel ve fındık notalı, dolgun gövdeli dengeli arabica kahveleri gelir; ülke üretiminin yaklaşık %30'unu sağlar.",
+    "en": "Mostly small farms produce balanced, full-bodied arabicas with chocolate, caramel and hazelnut notes, and the region supplies roughly 30% of national output."
+   },
+   "grapes": [
+    "Catuaí",
+    "Mundo Novo",
+    "Bourbon",
+    "Icatu"
+   ]
+  },
+  {
+   "name": "Cerrado Mineiro",
+   "lat": -18.9,
+   "lng": -47.0,
+   "desc": {
+    "tr": "Brezilya'nın menşe adı koruması alan ilk kahve bölgesidir. Belirgin kurak ve yağmurlu mevsimleri sayesinde tatlı, tutarlı, mekanizasyona uygun kahveler yetişir.",
+    "en": "Brazil's first coffee region with a protected designation of origin, known for sweet, consistent, highly mechanised coffees thanks to its sharply defined wet and dry seasons."
+   },
+   "grapes": [
+    "Mundo Novo",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Alta Mogiana (São Paulo)",
+   "lat": -20.5,
+   "lng": -47.4,
+   "desc": {
+    "tr": "Tarihî Mogiana demiryolu hattının adını taşıyan bu yüksek kesimde tatlı, dengeli ve aromatik kahveler yetişir.",
+    "en": "Named after the historic Mogiana railway, this high-altitude area is known for very sweet, balanced and aromatic coffees."
+   },
+   "grapes": [
+    "Mundo Novo",
+    "Catuaí",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Montanhas do Espírito Santo / Caparaó",
+   "lat": -20.4,
+   "lng": -41.6,
+   "desc": {
+    "tr": "Dağlık kesimlerde, yüksek asiditeli ve meyvemsi arabica kahveleri yetişir.",
+    "en": "The highlands of Espírito Santo produce arabicas with bright acidity and fruitiness."
+   },
+   "grapes": [
+    "Arabica",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Conilon Capixaba (Espírito Santo)",
+   "lat": -19.0,
+   "lng": -40.4,
+   "desc": {
+    "tr": "Ülkenin en büyük conilon (robusta) üretim merkezidir. Genellikle alçak rakımlı küçük işletmelerde yetişir ve espresso karışımlarında ile hazır kahvede kullanılır.",
+    "en": "Brazil's main conilon (robusta) heartland, grown on small low-altitude farms and used in espresso blends and instant coffee."
+   },
+   "grapes": [
+    "Conilon (Robusta)"
+   ]
+  },
+  {
+   "name": "Bahia (Planalto and Cerrado)",
+   "lat": -13.5,
+   "lng": -42.5,
+   "desc": {
+    "tr": "Kahve ekimi yalnızca 1970'lerde başlamış, sulama ve mekanizasyonla verimliliği yüksek, tatlı ve dolgun gövdeli arabica kahveleri üretilen yeni bir bölgedir.",
+    "en": "A newcomer that began growing coffee in the 1970s and now uses irrigation and mechanisation to produce high-yielding, sweet, full-bodied arabicas."
+   },
+   "grapes": [
+    "Arabica",
+    "Conilon (Atlântico Baiano)"
+   ]
+  },
+  {
+   "name": "Norte Pioneiro do Paraná",
+   "lat": -23.3,
+   "lng": -50.2,
+   "desc": {
+    "tr": "Yoğun dikimli, yalnızca arabica yetiştirilen, verimli çiftlikleriyle bilinir.",
+    "en": "Known for dense, highly productive plantations growing arabica exclusively."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Rondônia",
+   "lat": -11.0,
+   "lng": -62.0,
+   "desc": {
+    "tr": "Sıcak, tropikal ve alçak rakımlı Amazon kenarı bölgede yalnızca conilon (robusta) yetiştirilir.",
+    "en": "A hot, low-altitude tropical region on the Amazon fringe dedicated exclusively to conilon (robusta)."
+   },
+   "grapes": [
+    "Conilon (Robusta)"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Bourbon (Vermelho / Amarelo)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "19. yüzyılda Bourbon Adası'ndan (bugünkü Réunion) getirilen klasik arabica; kırmızı ve sarı formları vardır, kalitesi yüksek, verimi ortadır.",
+    "en": "A classic arabica brought from Bourbon Island (now Réunion) in the 19th century, grown in red and yellow forms; high quality but moderate yield."
+   }
+  },
+  {
+   "name": "Mundo Novo",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Brezilya'da ortaya çıkan, eşit olgunlaştığı için makineyle hasada uygun, ülkenin en yaygın arabica çeşitlerinden biridir.",
+    "en": "A cultivar that arose in Brazil, one of the country's most widely planted arabicas, and it ripens evenly enough for machine harvesting."
+   }
+  },
+  {
+   "name": "Catuaí",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Brezilya'da geliştirilmiş, Sul de Minas, Cerrado ve Mogiana'da yaygın, bodur bir arabica çeşididir.",
+    "en": "A compact arabica cultivar bred in Brazil and widely grown in Sul de Minas, the Cerrado and Mogiana."
+   }
+  },
+  {
+   "name": "Conilon (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Brezilya'da robusta'ya verilen addır; Espírito Santo ve Rondônia'da yetişir, gövdesi ve kafeini yüksektir.",
+    "en": "Brazil's name for robusta, grown mainly in Espírito Santo and Rondônia and valued for its body and caffeine."
+   }
+  },
+  {
+   "name": "Natural (kuru işleme)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kahve kiraz meyvesi bütün olarak kurutulur; Brezilya'da en baskın işleme yöntemidir ve tatlılık ile gövde kazandırır.",
+    "en": "Whole cherries are dried in the sun; this is by far Brazil's dominant processing method and adds sweetness and body."
+   }
+  },
+  {
+   "name": "Pulped natural (cereja descascado)",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Meyve kabuğu soyulup mukilajlı çekirdek kurutulur; natural ile yıkanmış arasında tatlı, dengeli bir fincan verir.",
+    "en": "The skin is removed and the beans are dried with the mucilage still on, giving a sweet, balanced cup between natural and washed."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Cafezinho",
+   "desc": {
+    "tr": "\"Küçük kahve\" anlamına gelen, güçlü ve çoğunlukla şekerli, küçük fincanlarda sunulan geleneksel kahvedir; ev ve iş yerlerinde misafire ikram edilir.",
+    "en": "The \"little coffee\": strong, usually sweetened, served in small cups and offered to guests at home and at work as a gesture of hospitality."
+   }
+  },
+  {
+   "name": "Pingado, média and café com leite",
+   "desc": {
+    "tr": "Pingado kahveye bir damla süt eklenmiş halidir, média yarı kahve yarı süt, café com leite ise genel addır; hepsi padaria kahvaltısında içilir.",
+    "en": "Pingado is coffee with a splash of milk, média is half coffee and half milk, and café com leite is the general term; all are typical of the bakery breakfast."
+   }
+  },
+  {
+   "name": "Café da manhã at the padaria",
+   "desc": {
+    "tr": "Brezilyalılar sabahları mahalle fırınlarında tezgâh başında kahveyi pão na chapa, pão de queijo ya da misto quente ile içer.",
+    "en": "In the morning Brazilians stand at the neighbourhood bakery counter for coffee with pão na chapa, pão de queijo or a misto quente."
+   }
+  },
+  {
+   "name": "Specialty cafés and espresso",
+   "desc": {
+    "tr": "São Paulo gibi büyük şehirlerde geleneksel cafezinho, İtalyan etkili espresso içecekleri ve üçüncü dalga kafelerle yan yana yaşar.",
+    "en": "In big cities such as São Paulo, traditional cafezinho now sits alongside Italian-style espresso drinks and third-wave specialty cafés."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Brazilian Coffee: Production, Taste, and Buying Guide",
+   "url": "https://colipsecoffee.com/blogs/coffee/brazilian"
+  },
+  {
+   "title": "Brazil’s Coffee",
+   "url": "https://www.aventuradobrasil.com/blog/brazilian-coffee-varieties-from-cultivation-to-cup/"
+  },
+  {
+   "title": "All about Brazilian coffee - Complete guide - Ineffable Coffee",
+   "url": "https://ineffablecoffee.com/en/brazilian-coffee/"
+  },
+  {
+   "title": "Coffee’s Infinite Possibilities: The Terroir Series Begins (Brazil) - Coffee Fanatics",
+   "url": "https://coffeefanatics.jp/en/terroir-brazil-en/"
+  },
+  {
+   "title": "Minas Gerais Brazil Coffee - Coffee Geography Magazine",
+   "url": "https://coffeegeography.com/minas-gerais-brazil-coffee/"
+  },
+  {
+   "title": "Brazilian Coffee Regions - Coffee Geography Magazine",
+   "url": "https://coffeegeography.com/brazilian-coffee-regions/"
+  },
+  {
+   "title": "Coffee Growing Regions in Brazil - Malkins Green Coffe",
+   "url": "https://www.malkinsgreencoffee.com/coffee-growing-regions-in-brazil/"
+  },
+  {
+   "title": "Complete Guide to Brazilian Coffee: Regions, Flavors and Methods (2026)",
+   "url": "https://ourcoffeetime.com/en/complete-guide-to-brazilian-coffee-regions-flavors-and-methods-2026"
+  }
+ ]
+}

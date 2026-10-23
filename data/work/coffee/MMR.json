@@ -1,0 +1,224 @@
+{
+ "iso3": "MMR",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24436,
+  "out": 3752,
+  "searches": 2
+ },
+ "usd": 0.1064,
+ "summary": {
+  "tr": "Kahve Myanmar'a 1885'te İngiliz sömürge döneminde misyonerlerin Myeik (Mergui) ve Dawei (Tavoy) çevresine ekmesiyle girdi. Arabika ise 1930'larda Katolik misyonerlerce Shan Eyaleti ve Pyin Oo Lwin'e getirildi. Kahve bugün Shan yaylalarında ağırlıklı olarak küçük çiftçiler tarafından yetiştiriliyor ve son yıllarda nitelikli (specialty) kahve olarak öne çıkıyor. İçme kültürü ise çay dükkânlarının (l",
+  "en": "Coffee reached Myanmar in 1885 under British rule, when missionaries planted it around Myeik (Mergui) and Dawei (Tavoy). Catholic missionaries brought Arabica to Shan State and Pyin Oo Lwin in the 1930s. Today it is grown mostly by smallholders in the Shan highlands, and the country is gaining a reputation for specialty coffee. Drinking culture grew up in the shadow of the tea shop (laphet yay). C"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Pyin Oo Lwin (Mandalay Region)",
+   "lat": 22.03,
+   "lng": 96.46,
+   "desc": {
+    "tr": "Eski İngiliz yayla kasabası; 1.000 m üzerindeki yüksekliği, büyük yıkama istasyonları ve çikolata, siyah çay, karamel notalarıyla bilinir.",
+    "en": "A former British hill station above 1,000 m, known for large washing stations and cups with chocolate, black tea and toffee notes."
+   },
+   "grapes": [
+    "Catuaí",
+    "Catimor",
+    "SL34",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Ywangan (Southern Shan State)",
+   "lat": 21.17,
+   "lng": 96.67,
+   "desc": {
+    "tr": "1.300–1.600 m yükseklikteki küçük çiftçi kahvelerinin merkezi; nitelikli kahve patlamasının kalbi sayılır.",
+    "en": "The hub of smallholder coffee at roughly 1,300–1,600 m, and the centre of Myanmar's specialty coffee boom."
+   },
+   "grapes": [
+    "SL28",
+    "Catuaí",
+    "Catimor",
+    "Costa Rica 95"
+   ]
+  },
+  {
+   "name": "Hopong (Southern Shan State)",
+   "lat": 20.8,
+   "lng": 97.19,
+   "desc": {
+    "tr": "Shan Platosu kenarında, serin gecelerin ve kırmızı toprakların olgunlaşmayı yavaşlattığı gölgelik arabika bölgesi.",
+    "en": "A shade-grown Arabica area on the edge of the Shan Plateau, where cool nights and red soils slow cherry ripening."
+   },
+   "grapes": [
+    "Catimor",
+    "SL34",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Naung Cho (Northern Shan State)",
+   "lat": 22.3,
+   "lng": 97.03,
+   "desc": {
+    "tr": "1930'larda kurulan ilk büyük arabika çiftliği Chaungwe'nin bulunduğu, Myanmar arabikasının tarihi merkezlerinden biri.",
+    "en": "One of the historic hearts of Myanmar Arabica, home to the Chaungwe estate, the first large Arabica plantation, set up in the 1930s."
+   },
+   "grapes": [
+    "Catimor",
+    "Typica",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Mogok (Mandalay Region)",
+   "lat": 22.92,
+   "lng": 96.51,
+   "desc": {
+    "tr": "Dağ yamaçlarındaki küçük çiftliklerde deneysel işleme ve fermantasyon teknikleriyle üretilen nitelikli kahveler.",
+    "en": "Mountain-slope farms experimenting with processing and fermentation to make specialty lots."
+   },
+   "grapes": [
+    "Catimor",
+    "Bourbon",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Thandaunggyi (Kayin State)",
+   "lat": 19.05,
+   "lng": 97.45,
+   "desc": {
+    "tr": "Robusta çiftliklerinin sürdüğü, daha alçak rakımlı Kayin Eyaleti kahve alanı.",
+    "en": "A lower-altitude coffee area in Kayin State where Robusta farms have been kept going."
+   },
+   "grapes": [
+    "Robusta",
+    "Catimor"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Catimor / SL34 (Arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Shan yaylalarında en yaygın dayanıklı arabika hatlarından biri.",
+    "en": "Among the most widespread hardy Arabica lines in the Shan highlands."
+   }
+  },
+  {
+   "name": "Catuaí & SL28",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "1986'da hükümetin ithal ettiği tohumlarla gelen, Ywangan'da kullanılan çeşitler.",
+    "en": "Cultivars that arrived with seed the government imported in 1986, and are used in Ywangan."
+   }
+  },
+  {
+   "name": "Typica & Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Eski arabika çeşitleri; özellikle kuzey Shan ve Mandalay'da bulunur.",
+    "en": "Older Arabica cultivars, found especially in northern Shan and Mandalay."
+   }
+  },
+  {
+   "name": "Robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Güneydeki alçak bölgelerde yetişir ve yerel tüketimde uzun süre baskın olmuştur.",
+    "en": "Grown in the lower southern regions and long dominant in local consumption."
+   }
+  },
+  {
+   "name": "Washed (yıkanmış) işleme",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Pyin Oo Lwin'deki merkezi istasyonlarda yaygın olan, temiz ve çay benzeri asiditeli kahve veren yöntem.",
+    "en": "The common method at central washing stations in Pyin Oo Lwin, giving clean cups with tea-like acidity."
+   }
+  },
+  {
+   "name": "Honey ve natural işleme",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Nitelikli kahve üreticilerinin son yıllarda denediği meyvemsi ve tatlı profiller.",
+    "en": "Processing styles that specialty producers have recently adopted for fruity, sweeter profiles."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Khafe saing (çay dükkânı kahvesi)",
+   "desc": {
+    "tr": "Koyu kavrulmuş, çoğunlukla Robusta kahve kumaş süzgeçle demlenir ve yol kenarı çay evlerinde şekerle servis edilir; sade siyah olanı khafe oh'tur.",
+    "en": "Dark-roasted, mostly Robusta coffee is brewed through a cloth filter and served with sugar in roadside tea houses; the plain black version is khafe oh."
+   }
+  },
+  {
+   "name": "Şekerli sütlü kahve",
+   "desc": {
+    "tr": "Güçlü kahve yoğun şekerli yoğunlaştırılmış süt ve buharlaştırılmış sütle karıştırılır; laphet yay çayının kahve versiyonu gibidir.",
+    "en": "Strong coffee is mixed with sweetened condensed and evaporated milk, a coffee counterpart to laphet yay milk tea."
+   }
+  },
+  {
+   "name": "3'ü 1 arada paket kahve",
+   "desc": {
+    "tr": "Şeker, hazır kahve ve kremanın karıştığı, günlük hayatta çok ucuza tüketilen paketli kahve.",
+    "en": "Sachets of instant coffee, sugar and creamer, drunk cheaply every day by many people."
+   }
+  },
+  {
+   "name": "Modern espresso kafeleri",
+   "desc": {
+    "tr": "Yangon ve Mandalay'da flat white, latte ve cold brew sunan, çoğu Shan ve Mandalay arabikası kullanan bağımsız kafeler.",
+    "en": "Independent cafés in Yangon and Mandalay serving flat whites, lattes and cold brew, many using Shan and Mandalay Arabica."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Coffee Analysis: Myanmar Shan State Ywangan",
+   "url": "https://www.royalny.com/blogs/coffee-analysis-myanmar-shan-state-ywangan/"
+  },
+  {
+   "title": "ORIGIN SERIES: MYANMAR",
+   "url": "https://atomiccoffee.co.nz/blogs/roasting-sourcing/origin-series-myanmar"
+  },
+  {
+   "title": "Myanmar Pyin Oo Lwin - DRWakefield - DRWakefield",
+   "url": "https://drwakefield.com/coffees/myanmar-pyin-oo-lwin/"
+  },
+  {
+   "title": "Myanmar’s coffee growers bank on specialty niche - Comunicaffe International",
+   "url": "https://www.comunicaffe.com/myanmars-coffee-growers-bank-on-specialty-niche/"
+  },
+  {
+   "title": "Shan Terra Homepage",
+   "url": "https://www.shanterracoffee.com/"
+  },
+  {
+   "title": "The Coffee Atlas",
+   "url": "https://morningfixcoffee.com/blogs/the-coffee-atlas/the-coffee-atlas-myanmar"
+  },
+  {
+   "title": "Shan Canopy",
+   "url": "https://shan-canopy.com/"
+  },
+  {
+   "title": "Profile - Myanmar",
+   "url": "https://www.nilaacoffee.com/origin-myanmar"
+  }
+ ]
+}

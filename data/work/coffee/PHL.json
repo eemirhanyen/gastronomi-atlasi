@@ -1,0 +1,228 @@
+{
+ "iso3": "PHL",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 52134,
+  "out": 4747,
+  "searches": 3
+ },
+ "usd": 0.1817,
+ "summary": {
+  "tr": "Kahve Filipinler'e 1740'ta İspanyol rahipler tarafından Lipa, Batangas'a getirildi. 1880'e gelindiğinde ülke dünyanın dördüncü büyük kahve ihracatçısıydı. 1880'lerin sonundaki kahve pası salgını bitkilerin büyük bölümünü yok etti ve sektör 1960'lardan sonra, hızla büyüyen hazır kahve pazarı ile dayanıklı çeşitler sayesinde toparlandı. Filipinler arabica, robusta, liberica ve excelsa türlerinin dör",
+  "en": "Coffee reached the Philippines in 1740, when Spanish friars planted it in Lipa, Batangas. By 1880 the country was the world's fourth-largest coffee exporter. A leaf-rust epidemic in the late 1880s destroyed most of the trees, and the industry recovered after the 1960s, helped by booming instant-coffee demand and more disease-resistant varieties. The Philippines is one of very few countries growing"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Benguet (Cordillera)",
+   "lat": 16.55,
+   "lng": 120.75,
+   "desc": {
+    "tr": "Yüksek rakımlı Cordillera dağlarında yetişen, meyvemsi ve parlak asiditeli arabica ile tanınır.",
+    "en": "Known for high-altitude Cordillera arabica with fruity notes and bright acidity."
+   },
+   "grapes": [
+    "Arabica",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Sagada (Mountain Province)",
+   "lat": 17.08,
+   "lng": 120.9,
+   "desc": {
+    "tr": "Küçük çiftliklerde yetişen, kakao ve karamel tonlu, aromatik dağ arabica'sıyla ünlüdür.",
+    "en": "Famed for aromatic, small-farm mountain arabica with chocolate and caramel notes."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Kalinga",
+   "lat": 17.45,
+   "lng": 121.35,
+   "desc": {
+    "tr": "Cordillera'nın kuzeyinde, Benguet ve Sagada ile birlikte anılan, çiçeksi ve çekirdek meyveli nitelikli arabica üretir.",
+    "en": "Produces specialty highland arabica in the northern Cordillera, often grouped with Benguet and Sagada, with floral and stone-fruit character."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Batangas and Cavite (CALABARZON)",
+   "lat": 13.94,
+   "lng": 121.16,
+   "desc": {
+    "tr": "Lipa merkezli Batangas, güçlü, anasonu andıran kokusuyla kapeng barako (liberica) için ülkenin kahve başkentidir.",
+    "en": "Lipa-centred Batangas is the country's coffee capital, famous for strong, anise-scented kapeng barako (liberica)."
+   },
+   "grapes": [
+    "Liberica (Barako)",
+    "Excelsa",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Mount Apo (Davao)",
+   "lat": 6.99,
+   "lng": 125.27,
+   "desc": {
+    "tr": "Apo Dağı yamaçlarında dengeli arabica, Davao ovalarında ise robusta, liberica ve excelsa yetişir.",
+    "en": "Mount Apo's slopes give balanced arabica, while the Davao lowlands grow robusta, liberica and excelsa."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta",
+    "Liberica",
+    "Excelsa"
+   ]
+  },
+  {
+   "name": "Bukidnon",
+   "lat": 8.05,
+   "lng": 125.1,
+   "desc": {
+    "tr": "Kitanglad ve Kalatungan eteklerinde hem nitelikli arabica hem de iyi robusta üretilir.",
+    "en": "The foothills of Mount Kitanglad and Mount Kalatungan yield both specialty arabica and fine robusta."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Sultan Kudarat",
+   "lat": 6.5,
+   "lng": 124.4,
+   "desc": {
+    "tr": "Mindanao'nun ülkenin robusta üretiminin büyük bölümünü sağlayan alçak kesimlerinden biridir.",
+    "en": "A lowland Mindanao province that contributes to the robusta that makes up most of the country's output."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Hacim olarak üretimin çoğunu oluşturan, alçak bölgelerin ve hazır kahvenin temel çeşididir.",
+    "en": "The lowland workhorse that makes up most of the volume and feeds the instant-coffee market."
+   }
+  },
+  {
+   "name": "Arabica (Coffea arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Cordillera ve Mindanao yaylalarında yetişir; nitelikli kahve olarak giderek daha çok tanınmaktadır.",
+    "en": "Grown in the Cordillera and Mindanao highlands and increasingly recognised as specialty coffee."
+   }
+  },
+  {
+   "name": "Liberica / Kapeng Barako (Coffea liberica)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Batangas ve Cavite'nin iri taneli, güçlü ve anasonlu kokusuyla ülkenin simge kahvesidir.",
+    "en": "Large-beaned and bold with an aniseed-like aroma, this is the Philippines' signature coffee from Batangas and Cavite."
+   }
+  },
+  {
+   "name": "Excelsa (Coffea liberica var. dewevrei)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Güney bölgelerde az miktarda yetişen, ekşimsi ve meyvemsi, genellikle harmanlarda kullanılan bir çeşittir.",
+    "en": "Grown in small quantities in the south, tart and fruity, and mostly used in blends."
+   }
+  },
+  {
+   "name": "Catimor",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Pasa dayanıklı bu melez, yükseltili bölgelerde robusta ile birlikte yetiştirilen çeşitler arasında yer alır.",
+    "en": "A rust-resistant arabica hybrid that is among the cultivars grown at altitude, alongside robusta."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "3-in-1 instant coffee",
+   "desc": {
+    "tr": "Kahve, şeker ve kremanın tek pakette birleştiği, sıcak su eklenerek hazırlanan ve evde, ofiste ve küçük kahvecilerde içilen en yaygın günlük kahvedir.",
+    "en": "Coffee, sugar and creamer in a single sachet, mixed with hot water, is the everyday cup at home, in offices and in small kapehans."
+   }
+  },
+  {
+   "name": "Kapeng Barako (boiled barako)",
+   "desc": {
+    "tr": "İri öğütülmüş barako, tencerede veya demlikte kaynatılır. Çoğunlukla kahverengi şeker ya da yoğunlaştırılmış sütle içilir.",
+    "en": "Coarsely ground barako is boiled in a pot or kettle, often served with muscovado sugar or condensed milk."
+   }
+  },
+  {
+   "name": "Kape at pandesal (sawsaw) and kapihan",
+   "desc": {
+    "tr": "Kahvaltıda ve meryendada pandesal sıcak kahvede ıslatılır. Kapehan ve kakanin eşliğinde kahve sosyal bir ritüeldir.",
+    "en": "Pandesal is dunked (sawsaw) in hot coffee at breakfast and merienda, and kapehans with rice cakes make coffee a social ritual."
+   }
+  },
+  {
+   "name": "Kapeng bigas (rice coffee)",
+   "desc": {
+    "tr": "Kahverengileşene kadar kavrulan pirinç tanelerinin kaynar suda demlenmesiyle yapılan, kahveye ulaşamayanların içtiği geleneksel bir alternatiftir.",
+    "en": "Rice grains toasted until brown and steeped in boiling water make a traditional substitute for those who could not afford coffee."
+   }
+  },
+  {
+   "name": "Specialty and third-wave coffee",
+   "desc": {
+    "tr": "Şehirli genç kuşaklar arasında yerel arabica ve barako ile demleme kahveler, ube latte gibi yerel lezzetli içecekler yükselmektedir.",
+    "en": "Among urban younger drinkers, brewed local arabica and barako are rising, along with local-flavoured drinks such as the ube latte."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Philippine Coffee: A Fascinating Origin + Top Brands To Try!",
+   "url": "https://www.homegrounds.co/philippine-coffee/"
+  },
+  {
+   "title": "Coffee Country: Exploring Philippine Coffee Regions and Provinces",
+   "url": "https://echostore.ph/blogs/echo-corner/coffee-country-exploring-philippine-coffee-regions-and-provinces"
+  },
+  {
+   "title": "Kapeng barako",
+   "url": "https://en.wikipedia.org/wiki/Kapeng_barako"
+  },
+  {
+   "title": "Philippine Coffee: Kapeng Barako and Liberica — Coffee Studies",
+   "url": "https://coffeestudies.com/beans-roast-origin/philippine-coffee"
+  },
+  {
+   "title": "Sagada coffee",
+   "url": "https://en.wikipedia.org/wiki/Sagada_coffee"
+  },
+  {
+   "title": "History of Philippine Coffee: From Barako to Specialty Brews",
+   "url": "https://dailygrindroastery.com/history-of-philippine-coffee/"
+  },
+  {
+   "title": "Exploring the Best Coffee Beans in the Philippines",
+   "url": "https://dailygrindroastery.com/coffee-beans-philippines/"
+  },
+  {
+   "title": "Kape.Me — The Ultimate Guide to Philippine Coffee",
+   "url": "https://www.kape.me/"
+  }
+ ]
+}

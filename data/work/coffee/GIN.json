@@ -1,0 +1,202 @@
+{
+ "iso3": "GIN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 46950,
+  "out": 3621,
+  "searches": 3
+ },
+ "usd": 0.1601,
+ "summary": {
+  "tr": "Kahve, Fransız sömürge döneminde 20. yüzyılın başında Gine'ye yayıldı. Bugün ülke neredeyse tamamen robusta yetiştiriyor; üretim, özellikle Ziama-Macenta çevresindeki Orman Ginesi'nde (Guinée Forestière) küçük çiftçilerin elinde. Ülkede tarihsel olarak çay ve kahve birlikte içilir. Conakry'de gezgin satıcılar sabah ve akşam termostan sıcak Nescafé (\"café noir\") ve sütlü kahve satar; gençler arasın",
+  "en": "Coffee reached Guinea in the early 20th century under French colonial rule. Today the country grows almost only robusta, mostly on smallholdings in Forest Guinea (Guinée Forestière), around Ziama-Macenta. Tea and coffee have long been drunk side by side. In Conakry, street vendors sell hot instant \"café noir\" and café au lait from thermoses and carts, morning and evening, and coffee drinking is sp"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Macenta / Ziama Massif",
+   "lat": 8.4,
+   "lng": -9.4,
+   "desc": {
+    "tr": "Ziama-Macenta robustası, arabikayı andıran hafif asidik ve az acı tadıyla bilinir ve coğrafi işaretle korunur.",
+    "en": "Ziama-Macenta robusta is known for a mild acidity and low bitterness close to arabica, and it holds a protected geographical indication."
+   },
+   "grapes": [
+    "Ziama-Macenta Robusta",
+    "Coffea canephora"
+   ]
+  },
+  {
+   "name": "N'Zérékoré / Mount Nimba",
+   "lat": 7.75,
+   "lng": -8.6,
+   "desc": {
+    "tr": "Nimba Dağı çevresindeki Orman Ginesi'nde, ağırlıklı olarak küçük çiftçilerin yetiştirdiği robusta üretilir; az miktarda arabika da denenmiştir.",
+    "en": "Around Mount Nimba in Forest Guinea, smallholders mainly grow robusta, and a little arabica has also been tried."
+   },
+   "grapes": [
+    "Robusta",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Lola / Yomou",
+   "lat": 7.7,
+   "lng": -9.0,
+   "desc": {
+    "tr": "Liberya sınırındaki nemli ormanlık yamaçlarda, ağaç gölgesi altında robusta yetiştirilir.",
+    "en": "Humid forested slopes on the Liberian border grow shade-grown robusta."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Guéckédou",
+   "lat": 8.57,
+   "lng": -10.13,
+   "desc": {
+    "tr": "Orman Ginesi'nin batı ucundaki bu yöre, kahvenin kakao ve yağ palmıyla birlikte yetiştirildiği tarım alanlarıyla bilinir.",
+    "en": "On the western edge of Forest Guinea, this area is known for mixed farms where coffee grows alongside cacao and oil palm."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Fouta Djallon (Mamou)",
+   "lat": 10.4,
+   "lng": -12.1,
+   "desc": {
+    "tr": "Fouta Djallon platosu yüksek rakımıyla küçük ölçekli, daha çok deneme niteliğinde arabika ve robusta üretimine ev sahipliği yapar.",
+    "en": "The high Fouta Djallon plateau hosts small-scale, largely experimental production of arabica and robusta."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Gine kahve üretiminin yaklaşık %98-99'unu oluşturur; çoğunlukla kurutma yöntemiyle işlenir ve hazır kahve ile ucuz harmanlarda kullanılır.",
+    "en": "It makes up about 98-99% of Guinean output, is mostly dry-processed and goes largely into instant coffee and cheap blends."
+   }
+  },
+  {
+   "name": "Ziama-Macenta Robusta",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Ziama Dağı çevresinde yetişen, coğrafi işaretli ve ince aromalı bir robusta; verimi düşüktür.",
+    "en": "A robusta from around Mount Ziama with a geographical indication and fine aromas, but low yields."
+   }
+  },
+  {
+   "name": "Coffea stenophylla",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Batı Afrika'ya özgü, sıcağa dayanıklı ve iklim değişikliği için umut vadeden nadir bir yabani tür.",
+    "en": "A rare West African species that tolerates heat and is seen as a hope against climate change."
+   }
+  },
+  {
+   "name": "Liberica (Coffea liberica)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Batı ve Orta Afrika kökenli bir tür; Gine'de çok küçük miktarlarda yetiştirilir.",
+    "en": "A West and Central African species grown in Guinea only in very small quantities."
+   }
+  },
+  {
+   "name": "Arabica (Coffea arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "20. yüzyıl başında getirildi ancak pek tutmadı; bugün çok az miktarda yetiştiriliyor.",
+    "en": "Introduced in the early 20th century, it did not thrive and is grown in very small volumes today."
+   }
+  },
+  {
+   "name": "Kuru (doğal) işleme",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Kirazlar üç geçişte seçilerek toplanır, yaklaşık üç hafta güneşte kurutulur ve sonra mekanik olarak soyulur.",
+    "en": "Cherries are picked selectively in three passes, sun-dried for about three weeks and then hulled mechanically."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café noir / Nescafé",
+   "desc": {
+    "tr": "Conakry'de gezgin satıcılar, sıcak hazır kahveyi termostan şekerle birlikte küçük bardaklarla satar; sabah ve akşam çok tüketilir.",
+    "en": "In Conakry, street vendors sell sweetened hot instant coffee from thermoses in small cups, mostly in the morning and evening."
+   }
+  },
+  {
+   "name": "Café au lait (sütlü kahve)",
+   "desc": {
+    "tr": "Hazır kahve süt ile karıştırılır; sokak tezgâhlarında ve evlerde yaygın bir içecektir.",
+    "en": "Instant coffee is mixed with milk, a common drink at street stalls and at home."
+   }
+  },
+  {
+   "name": "Espresso ve kafe-bar kültürü",
+   "desc": {
+    "tr": "Conakry'deki kafe-barlarda ve bazı evlerde espresso makineleriyle yapılan kahve, özellikle gençler arasında yaygınlaşıyor.",
+    "en": "Espresso made on machines in Conakry's café-bars and some homes is spreading, especially among young people."
+   }
+  },
+  {
+   "name": "Café Touba",
+   "desc": {
+    "tr": "Senegal kökenli, Gine biberi (Xylopia aethiopica) ile kavrulan baharatlı kahve; Batı Afrika'da, komşu Gine-Bissau dahil, çok sevilir.",
+    "en": "A Senegalese coffee roasted with Guinea pepper (Xylopia aethiopica), popular across West Africa, including neighbouring Guinea-Bissau."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "1 EU Market Research - Guinea Coffee",
+   "url": "https://www.cbi.eu/sites/default/files/market_information/researches/EU%20Market%20Research%20-%20Coffee%20Guinea%20for%20Publication%20def%201_0.pdf"
+  },
+  {
+   "title": "Coffee production in Guinea - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2022/11/coffee-production-in-guinea/"
+  },
+  {
+   "title": "Forest Guinea: coffee cultivation and smallholder constraints",
+   "url": "https://agritrop.cirad.fr/484530/1/ID484530.pdf"
+  },
+  {
+   "title": "Guinea Coffee: A Complete Guide to an Unusual Origin",
+   "url": "https://www.homegrounds.co/guinea-coffee/"
+  },
+  {
+   "title": "Annex 4: Africa Coffee Producing Countries Profiles",
+   "url": "https://www.fao.org/4/x6939e/X6939e10.htm"
+  },
+  {
+   "title": "Guinea — A Long Road in the Struggle for Recognition - Coffee Circle",
+   "url": "https://www.coffeecircle.com/en/e/guinea"
+  },
+  {
+   "title": "The Moroccan market potential for green coffee from Guinea",
+   "url": "https://www.cbi.eu/market-information/coffee/morocco"
+  },
+  {
+   "title": "EU Market Research - Guinea Coffee",
+   "url": "https://www.cbi.eu/market-information/coffee/eu-market-research-guinea-coffee-2020"
+  }
+ ]
+}

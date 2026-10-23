@@ -1,0 +1,197 @@
+{
+ "iso3": "MYS",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23129,
+  "out": 4355,
+  "searches": 2
+ },
+ "usd": 0.1098,
+ "summary": {
+  "tr": "Malezya'da kahve 19. yüzyıldan beri yetiştiriliyor. Ülke, dünyada çok az üretilen Liberica türünün başlıca üreticilerinden biri ve bu tür toplam ekili alanın büyük bölümünü kaplıyor. Kahve kültürünün merkezinde, Hainanlı göçmenlerin geliştirdiği kopitiam (kahvehane) geleneği var. Bu geleneğin kahvesi koyu kavrulmuş, margarin ve şekerle kavrulan, yoğun kıvamlı ve tatlı bir Nanyang kahvesi. Ipoh bey",
+  "en": "Coffee has been grown in Malaysia since the 19th century. The country is one of the few significant producers of rare Liberica, which covers most of its planted area. Its drinking culture centres on the kopitiam (coffee shop) tradition shaped by Hainanese immigrants. The classic cup is dark, thick, sweet Nanyang coffee, roasted with margarine and sugar. Ipoh white coffee grew out of the same tradi"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Tenom, Sabah",
+   "lat": 5.12,
+   "lng": 115.95,
+   "desc": {
+    "tr": "Malezya'nın \"kahve başkenti\" sayılan Tenom, Robusta ve Liberica ile ve odun ateşinde geleneksel kavurma yapan Yit Foh gibi eski kavurmacılarla tanınır.",
+    "en": "Tenom, often called Malaysia's coffee capital, is known for Robusta and Liberica and for heritage roasters such as Yit Foh that still roast over wood fire."
+   },
+   "grapes": [
+    "Robusta",
+    "Liberica"
+   ]
+  },
+  {
+   "name": "Kluang & Batu Pahat, Johor",
+   "lat": 2.03,
+   "lng": 103.32,
+   "desc": {
+    "tr": "Johor, Liberica'nın kalbidir. Küçük üreticiler burada Liberica'yı yıkanmış ve bal işleme gibi butik yöntemlerle işleyerek yarışmalara taşıyor.",
+    "en": "Johor is the heartland of Liberica, where small producers use washed and honey processing to take the bean to specialty competitions."
+   },
+   "grapes": [
+    "Liberica",
+    "Elephant bean"
+   ]
+  },
+  {
+   "name": "Kuching & interior, Sarawak",
+   "lat": 1.55,
+   "lng": 110.35,
+   "desc": {
+    "tr": "Sarawak'ta Liberica, yerli topluluklarca 1800'lerin ortasından beri yetiştirilir ve Liberica × Excelsa melezi (Libex) bakımından dünyanın en zengin bölgesi olarak öne çıkar.",
+    "en": "In Sarawak, indigenous communities have grown Liberica since the mid-1800s, and the state is emerging as the world's richest source of the Liberica × Excelsa hybrid (Libex)."
+   },
+   "grapes": [
+    "Liberica",
+    "Libex (Liberica × Excelsa)"
+   ]
+  },
+  {
+   "name": "Sabak Bernam & Bagan Datuk (Selangor–Perak coast)",
+   "lat": 3.85,
+   "lng": 100.95,
+   "desc": {
+    "tr": "Yarımada'nın batı kıyısındaki bu geleneksel kahve kuşağında Liberica melezleri yetiştirilirdi. Ekim alanlarının büyük bölümü yağ palmiyesine dönüştüğü için bugün küçülmüştür.",
+    "en": "A traditional coffee belt on the peninsula's west coast that grew Liberica hybrids. Much of it has since been converted to oil palm and has shrunk."
+   },
+   "grapes": [
+    "Liberica (polyhybrid)"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Liberica (Coffea liberica)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Batı Afrika kökenli, sıcak ve nemli ovalara dayanıklı bu tür Malezya'nın imza kahvesidir. Fincanda dumanlı, odunsu, reçineli ve jackfruit benzeri çiçeksi notalar verir.",
+    "en": "Native to West Africa and hardy in hot, humid lowlands, it is Malaysia's signature coffee. In the cup it gives smoky, woody, resinous and jackfruit-like floral notes."
+   }
+  },
+  {
+   "name": "Libex (Liberica × Excelsa)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Kew Bahçeleri ile yapılan genetik çalışma, Sarawak'ta \"Liberica\" diye bilinen kahvenin çoğunun Excelsa katkısı taşıyan doğal bir melez olduğunu doğruladı.",
+    "en": "Genomic work with Kew confirmed that much of what Sarawak calls \"Liberica\" is a natural hybrid carrying Excelsa genes."
+   }
+  },
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle Sabah'ta ve kuzey yarımadada yetiştirilir. Kopitiam harmanlarının ve margarinle kavrulan beyaz kahvenin temel çekirdeğidir.",
+    "en": "Grown mainly in Sabah and the northern peninsula, it is the backbone of kopitiam blends and margarine-roasted white coffee."
+   }
+  },
+  {
+   "name": "Arabica (Coffea arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Çok az miktarda yetiştirilir. Malezya'nın sıcak iklimi bu tür için pek elverişli değildir.",
+    "en": "Grown only in very small amounts, as Malaysia's hot climate is poorly suited to it."
+   }
+  },
+  {
+   "name": "Elephant bean (specialty Liberica lots)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Johor'da öne çıkan iri taneli butik Liberica partileri, daha iyi işleme yöntemleriyle üretilir.",
+    "en": "Large-bean specialty Liberica lots from Johor, made with improved processing methods."
+   }
+  },
+  {
+   "name": "Nanyang roast (margarine and sugar)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Çekirdekler margarin ve şekerle koyu kavrulur. Bu yöntem, karamelize ve hafif dumanlı kopitiam tadını verir.",
+    "en": "Beans are dark-roasted with margarine and sugar, giving the caramelised, slightly smoky kopitiam flavour."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Kopitiam kopi (Nanyang coffee)",
+   "desc": {
+    "tr": "Koyu kavrulmuş kahve bir bez süzgeçte (\"çorap\") demlenir ve kaplar arasında çekilir. Varsayılan \"kopi\" yoğunlaştırılmış sütle tatlıdır. Kopi O siyah ve şekerli, kopi C buharlaştırılmış sütlü, kopi kosong ise şekersizdir.",
+    "en": "Dark-roasted coffee is steeped in a cloth \"sock\" filter and pulled between jugs. Plain \"kopi\" is sweet with condensed milk. Kopi O is black with sugar, kopi C uses evaporated milk, and kosong means no added sugar."
+   }
+  },
+  {
+   "name": "Ipoh white coffee",
+   "desc": {
+    "tr": "Hainanlı göçmenlerin Perak kalay madenciliği döneminde geliştirdiği bu kahvede çekirdekler margarinle daha hafif kavrulur ve yoğunlaştırılmış sütle servis edilir. Adındaki \"beyaz\" kahvenin rengini değil sütünü anlatır.",
+    "en": "Developed by Hainanese immigrants during Perak's tin-mining boom, it uses beans roasted lighter with margarine and served with condensed milk. \"White\" refers to the milk, not the colour."
+   }
+  },
+  {
+   "name": "Kopi peng / kopi ais (iced kopi)",
+   "desc": {
+    "tr": "Sıcak iklimde çok sevilen buzlu kopitiam kahvesidir. Peng Hokkien'de, ais Malayca'da buz demektir.",
+    "en": "Iced kopitiam coffee, popular in the hot climate. Peng is Hokkien and ais is Malay for ice."
+   }
+  },
+  {
+   "name": "3-in-1 instant white coffee",
+   "desc": {
+    "tr": "Kahve tozu, kreması ve şekeri bir arada olan poşet karışımlar, evde ve ofiste pratik olduğu için Malezyalılar arasında çok yaygındır. OldTown gibi markalar bu ürünle büyüdü.",
+    "en": "Premix sachets of coffee, creamer and sugar are very common at home and in offices. Brands such as OldTown grew on this product."
+   }
+  },
+  {
+   "name": "Third-wave and specialty café coffee",
+   "desc": {
+    "tr": "2010'lardan itibaren espresso bazlı içecekler, filtre kahve ve tek menşei Liberica sunan bağımsız kavurmacılar ve zincir kafeler yaygınlaştı.",
+    "en": "Since the 2010s, espresso drinks, filter brews and single-origin Liberica have spread through independent roasters and café chains."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Top 20 Coffee Producing Countries",
+   "url": "https://colipsecoffee.com/blogs/coffee/countries"
+  },
+  {
+   "title": "A Cup of Kopi - StraitsIndie",
+   "url": "https://straitsindie.substack.com/p/a-cup-of-kopi"
+  },
+  {
+   "title": "Top 5 Regions Producing the World's Best Liberica Coffee",
+   "url": "https://specialtycoffee.id/articles/top-5-regions-producing-the-worlds-best-liberica-coffee/"
+  },
+  {
+   "title": "How The Malaysian State of Sarawak Is Rethinking Liberica Coffee - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2019/05/how-the-malaysian-state-of-sarawak-is-rethinking-liberica-coffee/"
+  },
+  {
+   "title": "Anim Agro Technology: COFFEE INDUSTRY IN MALAYSIA",
+   "url": "http://animhosnan.blogspot.com/2010/10/coffee-in-malaysia.html"
+  },
+  {
+   "title": "5 Coffee Plantations in Malaysia: A Journey Through the Country’s Coffee Heritage ~ The Land of Wanderlust",
+   "url": "https://thelandofwanderlust.com/coffee-plantations-in-malaysia/"
+  },
+  {
+   "title": "Coffea × Libex: Liberica × Excelsa Hybrid Discovery in Sarawak — Earthlings Coffee Workshop",
+   "url": "https://earthlings-coffee.com/blog-of-earthlings/coffea-libex-liberica-excelsa-hybrid-sarawak"
+  },
+  {
+   "title": "The perfect pour: Exploring Malaysia's coffee culture - MY LIBERICA Coffee",
+   "url": "https://myliberica.com.my/the-perfect-pour-exploring-malaysias-coffee-culture/"
+  }
+ ]
+}

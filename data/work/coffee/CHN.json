@@ -1,0 +1,231 @@
+{
+ "iso3": "CHN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22078,
+  "out": 4334,
+  "searches": 2
+ },
+ "usd": 0.1075,
+ "summary": {
+  "tr": "Kahve Çin'e 19. yüzyılın sonlarında Fransız misyonerlerle Yunnan'a girdi. Üretim 1950'lerden sonra ölçeklendi, 1988'den itibaren Nestlé'nin Catimor çeşidini yaymasıyla büyüdü. Bugün ülke üretiminin yaklaşık %98'i Yunnan'dan gelir; Hainan ve Fujian geri kalanı karşılar. Çin geleneksel olarak çay ülkesidir, ancak son on yılda tüketim yaklaşık %150 arttı. Şanghay on binden fazla kafesiyle dünyanın ön",
+  "en": "Coffee reached China's Yunnan province with French missionaries in the late 19th century. Production scaled up after the 1950s, and from 1988 Nestlé spread the Catimor cultivar, which drove growth. About 98% of national output now comes from Yunnan, with Hainan and Fujian making up the rest. China is traditionally a tea country, yet consumption has risen roughly 150% in the last decade. Shanghai, "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Pu'er (Yunnan)",
+   "lat": 22.8,
+   "lng": 101.0,
+   "desc": {
+    "tr": "Çin kahvesinin merkezi olan Pu'er, ülke üretiminin yaklaşık %60'ını verir; fincanda dengeli tatlılık, hafif narenciye asiditesi ve kakao notaları öne çıkar.",
+    "en": "Pu'er is the heart of Chinese coffee, producing about 60% of national output, with balanced sweetness, gentle citrus acidity and cocoa notes."
+   },
+   "grapes": [
+    "Catimor",
+    "Caturra",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Baoshan (Lujiangba, Yunnan)",
+   "lat": 25.0,
+   "lng": 98.9,
+   "desc": {
+    "tr": "Çin Arabica'sının beşiği sayılan Baoshan'da 1950'lerde dikilen Typica ve Bourbon ağaçları hâlâ yaşar; kahveleri parlak asidite ve çiçeksi notalarla bilinir.",
+    "en": "Baoshan is regarded as the cradle of Chinese Arabica, where Typica and Bourbon trees planted in the 1950s survive, and its coffees are known for brighter acidity and floral notes."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Dehong (Yunnan)",
+   "lat": 24.4,
+   "lng": 98.6,
+   "desc": {
+    "tr": "Myanmar sınırındaki Dehong, Yunnan kahveciliğinin erken merkezlerindendir; sıcak ve nemli iklimi düşük asiditeli, kakao tonlu ve dolgun gövdeli kahveler verir.",
+    "en": "Dehong, on the Myanmar border, is one of Yunnan's earliest coffee areas, and its warm, humid climate yields low-acidity, cocoa-toned, full-bodied coffees."
+   },
+   "grapes": [
+    "Catimor",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Lincang (Yunnan)",
+   "lat": 23.9,
+   "lng": 100.1,
+   "desc": {
+    "tr": "Hızla büyüyen Lincang, volkanik toprağı ve meyvemsi fincan profilleriyle tanınır.",
+    "en": "Fast-growing Lincang is known for volcanic soils and fruit-forward cup profiles."
+   },
+   "grapes": [
+    "Catimor",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Xishuangbanna (Yunnan)",
+   "lat": 22.0,
+   "lng": 100.8,
+   "desc": {
+    "tr": "Tropik yağmur ormanlarına yakın Xishuangbanna, Catimor ve Typica'dan dengeli, dolgun kahveler üretir.",
+    "en": "Xishuangbanna, close to tropical rainforest, produces lush, balanced coffees from Catimor and Typica."
+   },
+   "grapes": [
+    "Catimor",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Dali – Zhukula (Yunnan)",
+   "lat": 25.8,
+   "lng": 100.6,
+   "desc": {
+    "tr": "Dali'deki Zhukula köyü, Çin'in en eski Typica/Bourbon kahve köyü olarak bilinir ve 1900'lerin başından beri kahve yetiştirilir.",
+    "en": "Zhukula village in Dali is known as China's oldest Typica/Bourbon coffee village, with coffee grown there since the early 1900s."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Xinglong, Wanning (Hainan)",
+   "lat": 18.75,
+   "lng": 110.2,
+   "desc": {
+    "tr": "Hainan'ın Xinglong bölgesi, yerel olarak tereyağı ve şekerle kavrulan, daha hafif gövdeli Robusta ile bilinir.",
+    "en": "Xinglong in Hainan is known for Robusta that is traditionally roasted locally with butter and sugar."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Catimor (incl. T8667/T5175)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Hastalığa dayanıklı melez olan Catimor, Yunnan'ın ekim alanının büyük bölümünü kaplar ve ticari kahvenin bel kemiğidir.",
+    "en": "The disease-resistant hybrid Catimor covers most of Yunnan's planted area and is the backbone of commercial coffee."
+   }
+  },
+  {
+   "name": "Typica and Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Misyonerlerden kalan eski çeşitler Baoshan ve Dali'de varlığını sürdürür; verimleri düşük ama fincan kaliteleri yüksektir.",
+    "en": "Old missionary-era cultivars survive in Baoshan and Dali, with low yields but elegant cup quality."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Caturra, Yunnan'da hem saf hem de melezlerin ebeveyni olarak yetiştirilir ve yapılı asidite verir.",
+    "en": "Caturra is grown in Yunnan both on its own and as a parent of hybrids, giving structured acidity."
+   }
+  },
+  {
+   "name": "Geisha",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Genç üreticiler Yunnan'da deneysel Geisha partileri yetiştirerek spesiyalite pazarını hedefliyor.",
+    "en": "Young producers in Yunnan are growing experimental Geisha lots aimed at the specialty market."
+   }
+  },
+  {
+   "name": "Robusta (Hainan)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Robusta Hainan'da, özellikle Xinglong ve Fushan çevresinde, yerel kavurma geleneğinin hammaddesidir.",
+    "en": "Robusta is grown in Hainan, especially around Xinglong and Fushan, and is the base of the local roasting tradition."
+   }
+  },
+  {
+   "name": "Anaerobic natural process",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Yeni nesil Yunnan üreticileri, Catimor'un potansiyelini göstermek için uzun anaerobik doğal işleme yöntemini kullanıyor.",
+    "en": "A new generation of Yunnan producers uses long anaerobic natural processing to show what Catimor can do."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Shanghai specialty café culture",
+   "desc": {
+    "tr": "Şanghay'da kafeler hızlı, dijital ve yaratıcıdır: minimalist demleme barlarından naan fincanında latte gibi gösterişli içeceklere kadar çeşitlenir.",
+    "en": "Shanghai cafés are fast, digital and inventive, ranging from minimalist brew bars to showy drinks such as lattes served in naan cups."
+   }
+  },
+  {
+   "name": "Xinglong butter-roasted coffee",
+   "desc": {
+    "tr": "Hainan'ın Xinglong kasabasında çekirdekler kömür ateşinde tereyağı ve şekerle kavrulur, metal bir cezvede demlenir, gazlı bezden süzülüp yoğunlaştırılmış süte dökülür.",
+    "en": "In Xinglong, Hainan, beans are charcoal-roasted with butter and sugar, brewed in a metal kettle, and strained through gauze into condensed milk."
+   }
+  },
+  {
+   "name": "Coffee with youtiao in Hainan",
+   "desc": {
+    "tr": "Xinglong'da kahvaltıda youtiao (Çin usulü tuzlu çıtır hamur) kahveye batırılarak yenir; yerel kahve evleri (laobacha) günlük yaşamın merkezidir.",
+    "en": "At Xinglong breakfasts, youtiao (a salty fried dough stick) is dipped in coffee, and neighbourhood cafés called laobacha are central to daily life."
+   }
+  },
+  {
+   "name": "Grab-and-go and delivery coffee",
+   "desc": {
+    "tr": "Küçük vitrinli espresso markaları ve teslimat platformları, kahveyi oturup içilen bir içecekten hızlı ve uygun fiyatlı bir günlük alışkanlığa dönüştürdü.",
+    "en": "Tiny-storefront espresso brands and delivery platforms have turned coffee from a sit-down drink into a quick, affordable daily habit."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "(PDF) Mapping Chinese Coffee Culture in the Land of Tea. The Case of Yunnan Province",
+   "url": "https://www.researchgate.net/publication/327765721_Mapping_Chinese_Coffee_Culture_in_the_Land_of_Tea_The_Case_of_Yunnan_Province"
+  },
+  {
+   "title": "Testing Grounds: Will Yunnan Coffee Ever Earn International Acclaim?",
+   "url": "https://www.theworldofchinese.com/2022/03/coffee-testing-grounds/"
+  },
+  {
+   "title": "Coffee production in China",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_China"
+  },
+  {
+   "title": "Discover the Wonders of Speciality Coffee in Yunnan",
+   "url": "http://www.coffeeteaimagazine.com/discover-the-wonders-of-speciality-coffee-in-yunnan/"
+  },
+  {
+   "title": "Yunnan Coffee",
+   "url": "https://yunnancoffee.eu/"
+  },
+  {
+   "title": "Pu%27er tea",
+   "url": "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  },
+  {
+   "title": "Yunnan Specialty Coffee",
+   "url": "https://www.yunnanspecialtycoffee.com/"
+  },
+  {
+   "title": "China — coffee origin · World Coffee Index",
+   "url": "https://www.worldcoffeeindex.com/country/china/"
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "iso3": "TZA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 53608,
+  "out": 4697,
+  "searches": 3
+ },
+ "usd": 0.1842,
+ "summary": {
+  "tr": "Tanzanya kahvesi, 16. yüzyılda Habeşistan'dan getirildiği anlatılan ve Haya halkının amwani adını verdiği, içilmeyip çiğnenen ve törenlerde sunulan robusta kirazlarına dayanır. Arabika ise 1890'larda Alman misyonerler ve sömürge yönetimi eliyle Kilimanjaro yamaçlarına yayılmış, bugün üretimin ağırlık merkezi güneydeki Ruvuma ve Songwe'ye kaymıştır. İçme kültürü en çok Svahili kıyısında ve Zanzibar",
+  "en": "Tanzanian coffee begins with the robusta cherries the Haya people call amwani. Oral history says they were brought from Abyssinia in the 16th century, and they were chewed and offered in ceremonies rather than drunk. Arabica spread on Kilimanjaro's slopes in the 1890s through German missionaries and colonial rule. Today the centre of arabica production has shifted south to Ruvuma and Songwe. Drink"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kilimanjaro (Moshi)",
+   "lat": -3.35,
+   "lng": 37.35,
+   "desc": {
+    "tr": "Tanzanya'nın en eski arabika bölgesidir. Volkanik toprakta, Chagga halkının muz ağaçları arasındaki kihamba bahçelerinde yetişir ve 'Kilimanjaro' adı dünya pazarında bu kahveden yayılmıştır.",
+    "en": "Tanzania's oldest arabica area, grown on volcanic soil in the Chagga people's banana-shaded kihamba gardens. Its name became the world-market label for Tanzanian coffee."
+   },
+   "grapes": [
+    "Bourbon",
+    "Kent",
+    "Typica",
+    "Blue Mountain"
+   ]
+  },
+  {
+   "name": "Arusha – Meru & Karatu/Oldeani",
+   "lat": -3.35,
+   "lng": 35.7,
+   "desc": {
+    "tr": "Meru Dağı eteklerinde ve Karatu–Oldeani çevresinde, çoğu büyük çiftliklerde yetişen, parlak asiditeli yıkanmış arabikalarla tanınır.",
+    "en": "Known for washed arabicas with bright acidity from the Mount Meru foothills and the Karatu–Oldeani area, much of it grown on larger estates."
+   },
+   "grapes": [
+    "Bourbon",
+    "Kent",
+    "Arusha (Typica-type)"
+   ]
+  },
+  {
+   "name": "Kagera (Bukoba)",
+   "lat": -1.33,
+   "lng": 31.81,
+   "desc": {
+    "tr": "Victoria Gölü kıyısındaki Haya ülkesidir. Tanzanya robustasının büyük bölümü burada yetişir ve genellikle doğal (kuru) işlenir.",
+    "en": "The Haya homeland on Lake Victoria, which grows most of Tanzania's robusta, typically processed by the natural (dry) method."
+   },
+   "grapes": [
+    "Robusta (Nganda)",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Kigoma",
+   "lat": -4.6,
+   "lng": 30.1,
+   "desc": {
+    "tr": "Tanganyika Gölü yakınındaki batı yaylalarında, Burundi sınırına yakın küçük üreticilerin arabika ve robusta kahvesi yetişir.",
+    "en": "A western highland zone near Lake Tanganyika and the Burundi border, where smallholders grow both arabica and robusta."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Mbeya – Mbozi (Songwe)",
+   "lat": -9.1,
+   "lng": 32.9,
+   "desc": {
+    "tr": "Güney Yaylaları'nda yüksek rakımda yetişen, meyvemsi ve tam gövdeli kahveleriyle öne çıkar. Büyük çiftlikler ve küçük üreticiler birlikte çalışır.",
+    "en": "High-altitude Southern Highlands coffee, noted for fruity, full-bodied cups and grown by both estates and smallholders."
+   },
+   "grapes": [
+    "Bourbon",
+    "Kent",
+    "N39"
+   ]
+  },
+  {
+   "name": "Ruvuma (Mbinga)",
+   "lat": -10.93,
+   "lng": 35.0,
+   "desc": {
+    "tr": "Matengo yaylalarındaki Mbinga merkezli bölge, bugün Tanzanya arabikasının en büyük payını üretir. Burası yükselen bir nitelikli kahve kaynağıdır.",
+    "en": "Centred on Mbinga in the Matengo highlands, this region now produces the largest share of Tanzanian arabica and is a rising specialty source."
+   },
+   "grapes": [
+    "Bourbon",
+    "Kent",
+    "Typica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Tanzanya'ya Réunion'dan (eski adıyla Bourbon) gelen ve ülkenin yaygın arabika çeşitlerinden biridir.",
+    "en": "An arabica cultivar that reached Tanzania from Réunion (formerly Bourbon) and remains one of the country's main varieties."
+   }
+  },
+  {
+   "name": "Kent",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Typica'dan türeyen, Tanzanya'da yaygın olarak yetiştirilen eski bir arabika çeşididir.",
+    "en": "An old Typica-derived arabica cultivar widely planted in Tanzania."
+   }
+  },
+  {
+   "name": "Blue Mountain",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Typica'nın bir mutasyonu olan ve Kilimanjaro bölgesinde yetişen geleneksel çeşittir.",
+    "en": "A traditional Typica mutation grown in the Kilimanjaro area."
+   }
+  },
+  {
+   "name": "Peaberry (Tanzanya bezelye çekirdeği)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kilimanjaro ve Meru'nun ünlü, tek yuvarlak çekirdekli seçilmiş partileridir. Bunlar çoğunlukla yıkanarak işlenir.",
+    "en": "Selected lots of single, rounded beans, famous from Kilimanjaro and Meru and mostly wet-processed."
+   }
+  },
+  {
+   "name": "Robusta (Haya / Kagera)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Haya'nın amwani geleneğine dayanan yerli robusta; genellikle güneşte kurutulur ve harman ile hazır kahvede kullanılır.",
+    "en": "The indigenous robusta behind the Haya amwani tradition, usually sun-dried and used in blends and instant coffee."
+   }
+  },
+  {
+   "name": "Coffea kihansiensis",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Udzungwa Dağları'nda yakın zamanda bulunan yabani bir kahve türüdür. Bu, Tanzanya'nın yabani kahve çeşitliliğini gösterir.",
+    "en": "A wild coffee species recently discovered in the Udzungwa Mountains, showing Tanzania's native coffee diversity."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Kahawa chungu (Svahili acı kahve)",
+   "desc": {
+    "tr": "Kıyı Svahili kültüründe içilen sert, acı kahvedir. Çoğunlukla kakule, karanfil veya zencefille demlenir ve küçük fincanlarda sunulur.",
+    "en": "Strong, bitter coffee of the Swahili coast, often brewed with cardamom, clove or ginger and served in small cups."
+   }
+  },
+  {
+   "name": "Zanzibar sokak kahvesi (baraza)",
+   "desc": {
+    "tr": "Taş Şehir'de sabahları sokak köşelerinde, küçük porselen fincanlarda içilir. Yanında mandazi, visheti veya kashata gibi tatlılar yenir ve ev sahibine karibu (hoş geldin) ruhu eşlik eder.",
+    "en": "In Stone Town people drink it at street corners in the morning from small porcelain cups. It comes with sweets such as mandazi, visheti or kashata, in the spirit of karibu (welcome)."
+   }
+  },
+  {
+   "name": "Amwani (Haya tören kahvesi)",
+   "desc": {
+    "tr": "Haya halkında kahve kirazları baharatla pişirilip konuklara küçük bir ikram olarak sunulur, çiğnenir. Tarihte selamlamalarda, krallara sunulan armağanlarda ve ayinlerde yer almıştır.",
+    "en": "Among the Haya, coffee cherries are cooked with spices and chewed as a small gift for honoured guests. Historically amwani featured in greetings, tributes to royals and rituals."
+   }
+  },
+  {
+   "name": "Espresso ve filtre kahve (yeni kafe kültürü)",
+   "desc": {
+    "tr": "Zanzibar ve büyük şehirlerdeki kafelerde yerel arabikalardan espresso, macchiato ve pour-over hazırlanır. Bu, geleneksel baharatlı kahveyi tamamlayan yeni bir kahve kültürüdür.",
+    "en": "Cafés in Zanzibar and the larger towns serve espresso, macchiato and pour-over made with local arabica. This newer café scene complements the traditional spiced coffee."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tanzania coffee production",
+   "url": "https://sucafina.com/apac/origins/tanzania"
+  },
+  {
+   "title": "Tanzania Export Review — Royal Coffee",
+   "url": "https://royalcoffee.com/blogs/blog/tanzania-export-review"
+  },
+  {
+   "title": "Sucafina: How Much Do You Know About Tanzania's Coffee Industry?",
+   "url": "https://sucafina.com/apac/news/how-much-do-you-know-about-tanzania-s-coffee-industry"
+  },
+  {
+   "title": "Tanzania - Mercanta",
+   "url": "https://coffeehunter.com/our-origins/tanzania/"
+  },
+  {
+   "title": "Tanzania Coffee - Coffee Production In Tanzania",
+   "url": "https://www.helenacoffee.vn/tanzania-coffee-coffee-production-in-tanzania/"
+  },
+  {
+   "title": "Tanzania - Atlas Coffee Importers",
+   "url": "https://www.atlascoffee.com/coffee/tanzania/"
+  },
+  {
+   "title": "Agriculture in Tanzania",
+   "url": "https://en.wikipedia.org/wiki/Agriculture_in_Tanzania"
+  },
+  {
+   "title": "Coffee in Tanzania",
+   "url": "http://www.coffeebehindthescenes.com/es/country/tanzania"
+  }
+ ]
+}

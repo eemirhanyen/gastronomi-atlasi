@@ -1,0 +1,190 @@
+{
+ "iso3": "TLS",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23392,
+  "out": 3285,
+  "searches": 2
+ },
+ "usd": 0.0996,
+ "summary": {
+  "tr": "Kahve, 1800'lerde Portekiz sömürge yönetimi tarafından Timor'a getirildi. Sandal ağacı tükenince kahve ana ihraç ürünü oldu. 1920'lerde ve 1940'larda arabica ile robustanın doğal melezi Hibrido de Timor bulundu. Bu melez, dünyadaki pas hastalığına dayanıklı çeşitlerin çoğunun genetik temelini oluşturur. Kahve bugün petrol ve gazdan sonra ülkenin en önemli ihraç ürünlerinden biridir. Çoğu çiftlik, ",
+  "en": "Coffee was brought to Timor by the Portuguese colonial administration in the 1800s. It became the main export once the sandalwood supply ran out. In the 1920s and 1940s the Hibrido de Timor, a natural arabica–robusta hybrid, was found. It became the genetic foundation of most rust-resistant coffee varieties worldwide. Coffee is now one of the country's top exports after oil and gas, and most farms"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ermera (Gleno / Letefoho)",
+   "lat": -8.8,
+   "lng": 125.4,
+   "desc": {
+    "tr": "Ülkenin kahve merkezidir. Letefoho'nun yüksek rakımlı, gölgede yetişen kahveleri çikolata ve meyve notalarıyla bilinir.",
+    "en": "The country's coffee heartland. Letefoho's high-altitude, shade-grown coffees are known for chocolate and fruit notes."
+   },
+   "grapes": [
+    "Hibrido de Timor",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Atsabe (Ermera)",
+   "lat": -8.93,
+   "lng": 125.31,
+   "desc": {
+    "tr": "Ermera'nın batısında, dağlık ve uzak bir bölgedir. Küçük üretici kahveleri specialty alıcıların ilgisini çekiyor.",
+    "en": "A remote, mountainous area in western Ermera whose smallholder coffees attract specialty buyers."
+   },
+   "grapes": [
+    "Hibrido de Timor",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Aileu",
+   "lat": -8.73,
+   "lng": 125.57,
+   "desc": {
+    "tr": "Dili ile Maubisse arasındaki yaylalarda yetişen, yerel ağaçların gölgesinde üretilen organik arabica ile tanınır.",
+    "en": "Known for organic arabica grown under native shade trees in the highlands between Dili and Maubisse."
+   },
+   "grapes": [
+    "Typica",
+    "Hibrido de Timor"
+   ]
+  },
+  {
+   "name": "Ainaro (Maubisse)",
+   "lat": -8.83,
+   "lng": 125.6,
+   "desc": {
+    "tr": "Serin dağ iklimiyle bilinir. Maubisse çevresinde çiftlik gezileri yapılır ve organik arabica üretilir.",
+    "en": "Known for its cool mountain climate, organic arabica and plantation visits around Maubisse."
+   },
+   "grapes": [
+    "Typica",
+    "Hibrido de Timor"
+   ]
+  },
+  {
+   "name": "Manufahi (Same)",
+   "lat": -9.1,
+   "lng": 125.65,
+   "desc": {
+    "tr": "Güney yamaçlarında, Ermera'dan farklı bir mikro iklimde küçük üretici kahvesi yetişir.",
+    "en": "A southern highland district where smallholders grow coffee in a different microclimate from Ermera."
+   },
+   "grapes": [
+    "Typica",
+    "Hibrido de Timor"
+   ]
+  },
+  {
+   "name": "Liquiçá / Bobonaro",
+   "lat": -8.8,
+   "lng": 125.25,
+   "desc": {
+    "tr": "Batı dağlık kuşağında yer alır. Geleneksel olarak ihracata kahve sağlayan, küçük çiftliklerden oluşan bir alandır.",
+    "en": "A western highland belt that has traditionally supplied smallholder coffee for export."
+   },
+   "grapes": [
+    "Typica",
+    "Hibrido de Timor"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Hibrido de Timor (HdT)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Arabica ile robustanın doğal melezidir. Pas hastalığına dayanıklıdır ve birçok modern çeşidin atasıdır.",
+    "en": "A natural arabica × robusta hybrid, resistant to leaf rust and a parent of many modern cultivars."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Portekizlilerin getirdiği ilk arabica çeşididir. Yüksek yamaçlarda yetişmeye devam eder.",
+    "en": "The original arabica cultivar planted in the Portuguese era and still grown on the high slopes."
+   }
+  },
+  {
+   "name": "Natural (güneşte kurutma)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kiraz meyveler yükseltilmiş kurutma yataklarında güneşte kurutulur. Sonuç tatlı, reçelimsi ve meyveli bir fincandır.",
+    "en": "Cherries are dried whole in the sun on raised beds, giving a sweet, jammy, fruity cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Geleneksel kafe (bez süzgeç)",
+   "desc": {
+    "tr": "Pazar tezgâhlarında kahve güçlü ve tatlı hazırlanır, bez bir süzgeçten geçirilir.",
+    "en": "At market stalls, coffee is brewed strong and sweet and strained through a cloth filter."
+   }
+  },
+  {
+   "name": "Kopi ho susubeen (sütlü kahve)",
+   "desc": {
+    "tr": "Demlenmiş kahve sıcak sütle karıştırılır. Tatlılık ve kremsilik için çoğunlukla yoğunlaştırılmış süt kullanılır.",
+    "en": "Brewed coffee mixed with hot milk, often condensed milk for sweetness and creaminess."
+   }
+  },
+  {
+   "name": "Dili specialty kafe kültürü",
+   "desc": {
+    "tr": "Dili'deki kafeler tek kökenli Timor çekirdeklerini yerinde kavurur. Espresso bazlı içeceklerin yanında farklı demleme yöntemleri de sunar.",
+    "en": "Dili cafés roast single-origin Timorese beans on site and serve espresso drinks alongside other brewing methods."
+   }
+  },
+  {
+   "name": "Çiftlikte kahve ve kahve turizmi",
+   "desc": {
+    "tr": "Ermera, Aileu ve Maubisse çevresindeki yaylalarda ziyaretçiler kahveyi yetiştiği çiftlikte içer. Hasat turlarına ve tadımlara katılabilirler.",
+    "en": "In the highlands around Ermera, Aileu and Maubisse, visitors drink coffee where it was grown and join harvest tours and tastings."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "(PDF) ORIGINAL COFFEE PLANT 'HIBRIDO DE TIMOR'",
+   "url": "https://www.researchgate.net/publication/360559071_ORIGINAL_COFFEE_PLANT_'HIBRIDO_DE_TIMOR'"
+  },
+  {
+   "title": "Everything You Need to Know About Timor Coffee",
+   "url": "https://cornerstorenetwork.org.au/blogs/blog/everything-you-need-to-know-about-timor-coffee"
+  },
+  {
+   "title": "Coffee industry of Timor-Leste",
+   "url": "https://en.wikipedia.org/wiki/Coffee_industry_of_Timor-Leste"
+  },
+  {
+   "title": "Hope in a Cup: Timor-Leste’s Path to a Sustainable Coffee Future",
+   "url": "https://th.boell.org/en/2026/02/09/hope-in-a-cup-timor-leste"
+  },
+  {
+   "title": "Why Timorese Coffee Tastes Different",
+   "url": "https://timorleste.tl/stories/coffee-story"
+  },
+  {
+   "title": "Timor Leste Lutlala– Passport Specialty Coffee Roaster",
+   "url": "https://passportcoffee.com.au/blogs/roastery-ramblings/timor-leste-lutlala"
+  },
+  {
+   "title": "Coffee from Timor-Leste - Barista Magazine Online",
+   "url": "https://www.baristamagazine.com/coffee-from-timor-leste/"
+  },
+  {
+   "title": "Fatubessi, Ermera",
+   "url": "https://en.wikipedia.org/wiki/Fatubessi,_Ermera"
+  }
+ ]
+}

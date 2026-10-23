@@ -1,0 +1,186 @@
+{
+ "iso3": "TGO",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23820,
+  "out": 2868,
+  "searches": 2
+ },
+ "usd": 0.0963,
+ "summary": {
+  "tr": "Togo'da kahve tarımı 1920'lerde sömürge döneminde yaygınlaştı. Kahve, kakaoyla birlikte çoğunlukla Plateaux bölgesindeki küçük çiftçiler tarafından yetiştirilir ve neredeyse tamamı robustadır. Yurt içinde tüketilen kahvenin büyük bölümü hazır kahvedir. Kahve dükkânı kültürü ise henüz yalnızca Lomé gibi kentlerde gelişmektedir.",
+  "en": "Coffee growing in Togo took off in the 1920s under colonial rule. It is grown mostly by smallholders in the Plateaux region, alongside cocoa, and is almost entirely robusta. Most coffee drunk at home is instant, and café culture is only emerging in cities such as Lomé."
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Kloto (Kpalimé)",
+   "lat": 6.9,
+   "lng": 0.63,
+   "desc": {
+    "tr": "Kpalimé çevresindeki dağlık Kloto yöresi, ülkenin başlıca kahve-kakao kuşağının merkezidir ve eski Niaouli robustasıyla bilinir.",
+    "en": "The hilly Kloto area around Kpalimé is the heart of the country's main coffee-and-cocoa belt and is known for old-type Niaouli robusta."
+   },
+   "grapes": [
+    "Niaouli robusta"
+   ]
+  },
+  {
+   "name": "Agou",
+   "lat": 6.85,
+   "lng": 0.73,
+   "desc": {
+    "tr": "Agou Dağı çevresi, Togo'nun başlıca kahve üreten güneybatı yöreleri arasında sayılır.",
+    "en": "The area around Mount Agou is one of the main coffee-producing districts of south-western Togo."
+   },
+   "grapes": [
+    "Niaouli robusta"
+   ]
+  },
+  {
+   "name": "Danyi",
+   "lat": 7.2,
+   "lng": 0.75,
+   "desc": {
+    "tr": "Danyi platosu, küçük çiftliklerde kakaoyla birlikte yetiştirilen robusta kahvesiyle tanınır.",
+    "en": "The Danyi plateau is known for robusta grown on small farms together with cocoa."
+   },
+   "grapes": [
+    "Niaouli robusta"
+   ]
+  },
+  {
+   "name": "Amou (Amou-Okposo plateau)",
+   "lat": 7.45,
+   "lng": 0.95,
+   "desc": {
+    "tr": "Amou-Okposo platosu, Plateaux bölgesinin kahve yetiştirilen yöreleri arasında yer alır.",
+    "en": "The Amou-Okposo plateau is one of the coffee-growing districts of the Plateaux region."
+   },
+   "grapes": [
+    "Niaouli robusta"
+   ]
+  },
+  {
+   "name": "Wawa (Badou)",
+   "lat": 7.58,
+   "lng": 0.6,
+   "desc": {
+    "tr": "Gana sınırına yakın Badou çevresinde başlıca geçim kaynakları kahve ve kakao tarımıdır.",
+    "en": "Around Badou, near the Ghanaian border, coffee and cocoa farming are the main economic activities."
+   },
+   "grapes": [
+    "Niaouli robusta"
+   ]
+  },
+  {
+   "name": "Atakpamé area",
+   "lat": 7.53,
+   "lng": 1.13,
+   "desc": {
+    "tr": "Atakpamé, Kpalimé ve Badou ile birlikte \"kahve ve kakao üçgeni\"ni oluşturur.",
+    "en": "Atakpamé forms the \"coffee and cocoa triangle\" together with Kpalimé and Badou."
+   },
+   "grapes": [
+    "Niaouli robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Niaouli robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "1920'lerde sömürge döneminde getirilen eski robusta çeşidi, bugün Togo kahvesinin büyük bölümünü oluşturur.",
+    "en": "An old robusta variety introduced in the 1920s under colonial rule, it still makes up most of Togo's coffee."
+   }
+  },
+  {
+   "name": "Robusta (general)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Üretimin yaklaşık %99'u robustadır. Fincanda dolgun gövde, düşük asidite, topraksı, fındıksı ve çikolatamsı tonlar verir.",
+    "en": "Robusta makes up roughly 99% of output and gives a full body, low acidity, and earthy, nutty, chocolatey notes."
+   }
+  },
+  {
+   "name": "Arabica (small scale)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Arabika yalnızca birkaç yüksek rakımlı çiftlikte ve bazı manastır bahçelerinde yetiştirilir.",
+    "en": "Arabica is grown only on a few higher-altitude farms and in some monastery plantations."
+   }
+  },
+  {
+   "name": "Natural (dry) processing",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "En yaygın yöntem, kirazların kurutulmasıdır. Washed (yıkanmış) işleme de kullanılır.",
+    "en": "Drying the whole cherry is the most common method, although washed processing is also used."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Instant coffee",
+   "desc": {
+    "tr": "Togo'da tüketilen kahvenin büyük çoğunluğu hazır kahvedir. Taze kavrulmuş yerel kahve içmeyi yaygınlaştırma çabaları ise sürmektedir.",
+    "en": "Most of the coffee consumed in Togo is instant, though some producers are trying to promote freshly roasted local coffee."
+   }
+  },
+  {
+   "name": "Sweet boiled or filtered local brew",
+   "desc": {
+    "tr": "Koyu kavrulmuş robusta çoğunlukla suda kaynatılır veya basit bir filtreyle demlenir. Şekerli, yoğunlaştırılmış veya toz sütle servis edilir, bazen zencefil gibi baharatlar eklenir.",
+    "en": "Dark-roasted robusta is often boiled in water or made with a simple filter. It is served sweet, with condensed or powdered milk, and sometimes with ginger or other spices."
+   }
+  },
+  {
+   "name": "Urban café coffee (Lomé)",
+   "desc": {
+    "tr": "Lomé'de kafeler iş ve sosyalleşme için buluşma noktası olmaya başlamıştır. Menülerde uluslararası ve yerel tarzlar bir arada bulunur.",
+    "en": "In Lomé, cafés are becoming meeting places for business and leisure, with a mix of international and local styles."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "20 Best African Coffees to Explore",
+   "url": "https://colipsecoffee.com/blogs/coffee/african"
+  },
+  {
+   "title": "Can coffee production become more important for Togo? - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2022/12/coffee-production-in-togo/"
+  },
+  {
+   "title": "Togo Coffee: Is There Hope For The Future Of The Industry?",
+   "url": "https://www.homegrounds.co/togo-coffee/"
+  },
+  {
+   "title": "Togo Agriculture Industry",
+   "url": "https://www.ariseiip.com/togo-agriculture-industry/"
+  },
+  {
+   "title": "Badou",
+   "url": "https://en.wikipedia.org/wiki/Badou"
+  },
+  {
+   "title": "Togo - Supremo, Coffee Merchant",
+   "url": "https://www.supremo.be/en/togo"
+  },
+  {
+   "title": "Top Fresh Produce Exporters in Togo — Coffee, Cocoa, Soybeans & Palm Oil",
+   "url": "https://exportready.africa/african-exporter-directories/top-fresh-produce-exporters-togo/"
+  },
+  {
+   "title": "Coffee production in Cameroon",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Cameroon"
+  }
+ ]
+}

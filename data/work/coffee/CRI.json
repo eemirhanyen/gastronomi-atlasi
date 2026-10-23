@@ -1,0 +1,246 @@
+{
+ "iso3": "CRI",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 25167,
+  "out": 4501,
+  "searches": 2
+ },
+ "usd": 0.1153,
+ "summary": {
+  "tr": "Kahve Kosta Rika'ya 1779'da Küba'dan getirildi. 1800'lerin ortasında ülkenin ana ihraç ürünü oldu ve okulların, yolların ve Ulusal Tiyatro'nun yapımını finanse ederek modern devletin ekonomik temelini attı. Bugün ülkede yalnızca yüksek rakımlı volkanik topraklarda yıkanmış Arabica yetiştirilir. Yasa Robusta üretimini yasaklar. Ülke, bal (honey) işleme yönteminin öncüsü olarak bilinir. Evlerde kahv",
+  "en": "Coffee reached Costa Rica from Cuba in 1779. By the mid-1800s it was the country's main export, and its revenue helped pay for schools, roads and the National Theatre, laying the economic base of the modern state. Today only high-altitude, volcanic-soil washed Arabica is grown, and the law bans Robusta. Costa Rica is known as a pioneer of the 'honey' process. At home, coffee is still commonly brew"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Tarrazú (Los Santos)",
+   "lat": 9.66,
+   "lng": -84.03,
+   "desc": {
+    "tr": "Ülkenin en ünlü bölgesi; 1.200-1.900 m rakımda yetişen, parlak asiditeli ve sert çekirdekli (SHB) kahveleriyle bilinir.",
+    "en": "The country's most famous region, known for bright, high-acid strictly hard bean coffees grown at 1,200–1,900 m."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí",
+    "Geisha"
+   ]
+  },
+  {
+   "name": "Tres Ríos",
+   "lat": 9.91,
+   "lng": -83.99,
+   "desc": {
+    "tr": "En küçük bölge; Irazú Yanardağı'nın topraklarında yetişen zarif, dengeli ve ince asiditeli kahveleriyle tanınır.",
+    "en": "The smallest region, known for elegant, balanced, finely acidic coffees grown in the soils of the Irazú volcano."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Central Valley (Valle Central)",
+   "lat": 9.98,
+   "lng": -84.15,
+   "desc": {
+    "tr": "Ülkede kahve tarımının başladığı tarihî bölge; orta gövdeli, yumuşak asiditeli, çikolata ve meyve notalı dengeli fincanlar verir.",
+    "en": "The historic birthplace of Costa Rican coffee, giving balanced, medium-bodied cups with mild acidity and chocolate and fruit notes."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "West Valley (Valle Occidental)",
+   "lat": 10.09,
+   "lng": -84.4,
+   "desc": {
+    "tr": "Birçok mikro iklime sahip, alan olarak en geniş bölge; yüksek kaliteli sert çekirdekli ve mikro lot kahveleriyle öne çıkar.",
+    "en": "The largest region by planted area, with many microclimates, noted for high-quality strictly hard bean coffees and microlots."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí",
+    "Villa Sarchí"
+   ]
+  },
+  {
+   "name": "Brunca (Coto Brus, Pérez Zeledón)",
+   "lat": 9.1,
+   "lng": -83.3,
+   "desc": {
+    "tr": "Güneydeki geniş bölge; çeşitli yükseklikleri sayesinde tatlı, yumuşak ve ulaşılabilir kahveler üretir.",
+    "en": "A large southern region whose varied elevations yield mild, sweet and approachable coffees."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Turrialba",
+   "lat": 9.9,
+   "lng": -83.68,
+   "desc": {
+    "tr": "Atlantik etkisindeki doğu yamaçlarında, daha nemli iklimde yetişen kahveleriyle bilinir.",
+    "en": "Known for coffees from humid, Atlantic-influenced eastern slopes."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Orosi",
+   "lat": 9.8,
+   "lng": -83.85,
+   "desc": {
+    "tr": "Korunaklı, yağışlı ve volkanik topraklı vadi; ICAFE dengeli ve çiçeksi bir fincan profili tanımlar.",
+    "en": "A sheltered, rain-influenced volcanic valley whose cup profile ICAFE describes as balanced and floral."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Guanacaste",
+   "lat": 10.47,
+   "lng": -84.97,
+   "desc": {
+    "tr": "Kuzeydeki Guanacaste Sıradağları'nın yüksek kesimlerinde yetişen, Costa Rica'nın en yeni ve küçük kahve bölgesi.",
+    "en": "The newest and smallest coffee region, grown in the higher parts of the Guanacaste Range in the north."
+   },
+   "grapes": [
+    "Caturra",
+    "Catuaí"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bourbon'un kısa boylu bir mutasyonu olup özellikle Tarrazú'da yaygındır; parlak asidite ve temiz tat verir.",
+    "en": "A short-stature Bourbon mutation, widespread especially in Tarrazú, giving bright acidity and a clean cup."
+   }
+  },
+  {
+   "name": "Catuaí",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Caturra ile Mundo Novo'nun melezi olup ülkenin en yaygın çeşitlerinden biridir.",
+    "en": "A Caturra × Mundo Novo cross and one of the most widely planted varieties in the country."
+   }
+  },
+  {
+   "name": "Villa Sarchí",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Kosta Rika'da Sarchí'de bulunan bir Bourbon mutasyonudur; yüksek rakımlarda yetişir.",
+    "en": "A Bourbon mutation found in Sarchí, Costa Rica, and grown at high elevations."
+   }
+  },
+  {
+   "name": "Venecia",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "1990'larda San Carlos'ta ICAFE tarafından belirlenen bir Caturra mutasyonudur; narenciye ve bal notaları taşır.",
+    "en": "A Caturra mutation identified in San Carlos by ICAFE in the 1990s, with citrus and honey notes."
+   }
+  },
+  {
+   "name": "Geisha",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Tarrazú'daki Finca Palmilera gibi çiftliklerde sınırlı miktarda yetiştirilen, yetiştirmesi zor bir niş çeşittir.",
+    "en": "A demanding niche variety grown in small quantities on farms such as Finca Palmilera in Tarrazú."
+   }
+  },
+  {
+   "name": "Honey process (yellow / red / black)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Kosta Rika'nın öncülük ettiği yöntemde çekirdek, mukilajın bir kısmı üzerindeyken kurutulur; bırakılan miktar arttıkça tatlılık ve gövde artar.",
+    "en": "A method pioneered in Costa Rica in which beans are dried with some mucilage left on; the more left, the sweeter and heavier the cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Chorreador (café chorreado)",
+   "desc": {
+    "tr": "Ahşap bir standa asılan bez süzgeçten (bolsita) sıcak su geçirilerek demlenen, 200 yılı aşkın geleneksel yöntemdir; 'agua de media' (çorap suyu) olarak da anılır.",
+    "en": "The traditional method of pouring hot water through a cloth bag (bolsita) hung on a wooden stand, used for over 200 years and nicknamed 'agua de media' (sock water)."
+   }
+  },
+  {
+   "name": "La hora del café",
+   "desc": {
+    "tr": "İş gününe ara verilen, ziyaretçiye kahve ikramının önemli sayıldığı ve çoğunlukla çörek, ekmek veya hamur işleriyle eşlik edilen kahve saati geleneğidir.",
+    "en": "The coffee-time ritual that pauses the workday, where offering coffee to a visitor matters, often served with bread or pastries."
+   }
+  },
+  {
+   "name": "Café con leche",
+   "desc": {
+    "tr": "Chorreador veya benzeri yöntemle demlenen kahvenin sıcak sütle servis edildiği, günlük hayatta yaygın bir içimdir.",
+    "en": "Brewed coffee, often from a chorreador, served with hot milk as an everyday drink."
+   }
+  },
+  {
+   "name": "Third-wave espresso and pour-over",
+   "desc": {
+    "tr": "San José ve kahve bölgelerindeki üçüncü dalga kafeler ve çiftlik turları, tek kaynaklı mikro lotları espresso ve V60 gibi filtre yöntemleriyle sunar.",
+    "en": "Third-wave cafés in San José and the coffee regions, along with farm tours, serve single-origin microlots as espresso and pour-over such as V60."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Costa Rican Coffee: Types, Regions, Taste, and Where to Buy",
+   "url": "https://colipsecoffee.com/blogs/coffee/costa-rica"
+  },
+  {
+   "title": "Origin Profile: Costa Rica",
+   "url": "https://www.royalny.com/blogs/origin-profile-costa-rica/"
+  },
+  {
+   "title": "Coffee Tourism in Costa Rica: What Tours Teach You",
+   "url": "https://vamosrentacar.com/blog/coffee-tourism-in-costa-rica-2/"
+  },
+  {
+   "title": "Costa Rica's Coffee Growing Regions - 1st in Coffee",
+   "url": "https://blog.1stincoffee.com/costa-ricas-coffee-growing-regions/"
+  },
+  {
+   "title": "Costa Rica - Mercanta",
+   "url": "https://coffeehunter.com/our-origins/costa-rica/"
+  },
+  {
+   "title": "Coffee growing regions in Costa Rica",
+   "url": "https://nordico.coffee/coffee-growing-regions-in-costa-rica/"
+  },
+  {
+   "title": "San Marcos, Costa Rica",
+   "url": "https://en.wikipedia.org/wiki/San_Marcos,_Costa_Rica"
+  },
+  {
+   "title": "Costa Rica's Coffee Farm Region",
+   "url": "https://www.nomadcoffeeclub.com/pages/costa-rica"
+  }
+ ]
+}

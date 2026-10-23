@@ -1,0 +1,187 @@
+{
+ "iso3": "NGA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24515,
+  "out": 3645,
+  "searches": 2
+ },
+ "usd": 0.1055,
+ "summary": {
+  "tr": "Kahve Nijerya'ya 19. yüzyılda, İngiliz sömürge döneminde Lagos çevresinde girdi. Hükümet 1930'larda arabica ve robusta tohumu dağıttı, üretim 2006'da yaklaşık 89.000 çuvalla zirve yaptı, sonra petrol ekonomisine yönelim nedeniyle belirgin biçimde düştü. Bugün tüketimde hazır kahve (Nescafé) baskındır, çay geleneksel olarak daha yaygındır. Kuzeyde gayriresmî 'Mai Sai' kahve tezgâhları ile Lagos, Ab",
+  "en": "Coffee reached Nigeria in the 19th century under British colonial rule, first around Lagos. The government distributed arabica and robusta seed in the 1930s, and output peaked in 2006 at about 89,000 bags before falling sharply as the economy turned to oil. Today instant coffee (Nescafé) dominates consumption and tea is traditionally more popular. Informal 'Mai Sai' coffee stalls in the north sit "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Mambilla Plateau (Taraba)",
+   "lat": 6.75,
+   "lng": 11.25,
+   "desc": {
+    "tr": "Nijerya'nın en yüksek rakımlı (yaklaşık 1.200–1.500 m) arabica bölgesi; çikolata, meyve ve çiçeksi aromalarla anılır ve çok sayıda arabica çeşidi denenmektedir.",
+    "en": "Nigeria's highest-altitude arabica area (about 1,200–1,500 m), known for chocolate, fruit and floral notes, with many arabica cultivars under trial."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Cross River",
+   "lat": 5.9,
+   "lng": 8.6,
+   "desc": {
+    "tr": "Hem nemli ve sıcak ovalarda robusta hem de sınırlı miktarda arabica yetiştirilen, güneydoğudaki önemli kahve eyaleti.",
+    "en": "A key southeastern coffee state growing robusta in the humid lowlands plus a small amount of arabica."
+   },
+   "grapes": [
+    "Robusta",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Ondo",
+   "lat": 7.1,
+   "lng": 5.0,
+   "desc": {
+    "tr": "Kızıl topraklarında yetişen robusta ile bilinen, tarihsel olarak Nijerya kahve üretiminin merkezlerinden biri.",
+    "en": "A historic centre of Nigerian coffee, known for robusta grown on its red soils."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Ogun and Oyo",
+   "lat": 7.5,
+   "lng": 3.7,
+   "desc": {
+    "tr": "Güneybatıdaki bu eyaletlerde, erken 20. yüzyılda üretimin yoğunlaştığı yerlerde, bugün de çoğunlukla robusta yetiştirilir.",
+    "en": "Southwestern states where production expanded in the early 20th century and robusta is still the main crop."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Plateau (Jos)",
+   "lat": 9.9,
+   "lng": 8.9,
+   "desc": {
+    "tr": "Serin yayla iklimiyle küçük ölçekli arabica denemelerine ev sahipliği yapan orta kuşak eyaleti.",
+    "en": "A cool central highland state with small-scale arabica cultivation."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Kogi and Kwara",
+   "lat": 8.0,
+   "lng": 6.2,
+   "desc": {
+    "tr": "Orta-batı kuşağında, Nijerya'nın robusta yetiştirilen 14 eyaleti arasında sayılan küçük çiftçi bölgeleri.",
+    "en": "Smallholder areas in the middle belt, among the roughly 14 Nigerian states that grow robusta."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Nijerya kahve üretiminin ve ihracatının yaklaşık %90'ından fazlasını oluşturur; dolgun gövdeli, topraksı bir fincan verir.",
+    "en": "Makes up over 90% of Nigerian coffee output and exports, giving a full-bodied, earthy cup."
+   }
+  },
+  {
+   "name": "Arabica (Coffea arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Üretimin yalnızca yaklaşık %4'ünü oluşturur; Taraba, Cross River ve Plateau'daki yüksek rakımlarda yetişir.",
+    "en": "Only about 4% of production, grown at altitude in Taraba, Cross River and Plateau."
+   }
+  },
+  {
+   "name": "Liberica (Coffea liberica)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "Batı Afrika'nın tropik kesimlerinde yabani yetişen bir tür olup üretimin küçük bir kısmını (yaklaşık %2) oluşturur.",
+    "en": "A species that grows wild in tropical West Africa and accounts for a small share (about 2%) of output."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Instant coffee / Nescafé and 3-in-1 sachets",
+   "desc": {
+    "tr": "Evlerde, ofislerde ve küçük lokantalarda en yaygın içilen kahvedir; 'Nescafé' çoğu zaman her hazır kahve için genel ad olarak kullanılır ve genellikle tatlı içilir.",
+    "en": "The most widely drunk coffee at home, in offices and in small eateries; 'Nescafé' is often used as a generic name for any instant coffee, and it is usually taken sweet."
+   }
+  },
+  {
+   "name": "Mai Sai street cafés (northern Nigeria)",
+   "desc": {
+    "tr": "Kuzey şehirlerinde her saatte kalabalık olan gayriresmî kahve tezgâhları ve küçük kafelerdir; sosyalleşme ve dinlenme mekânı işlevi görürler.",
+    "en": "Informal coffee stalls and small cafés in northern towns that are busy at all hours and serve as places to socialise and relax."
+   }
+  },
+  {
+   "name": "Espresso-based café drinks",
+   "desc": {
+    "tr": "Lagos, Abuja ve Port Harcourt'taki üçüncü dalga kafelerde espresso, cappuccino ve latte ön plandadır; bazı yerler Taraba ve Cross River çekirdeklerini kullanır.",
+    "en": "Specialty cafés in Lagos, Abuja and Port Harcourt serve espresso, cappuccino and lattes, and some use beans from Taraba and Cross River."
+   }
+  },
+  {
+   "name": "Filter and French press with local beans",
+   "desc": {
+    "tr": "Küçük yerel kavurucular ve girişimciler, yerli çekirdeklerin karakterini göstermek için filtre kahve ve French press kullanımını yaygınlaştırmaya çalışıyor.",
+    "en": "Small local roasters and entrepreneurs are promoting filter coffee and French press to show off the character of Nigerian-grown beans."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Exploring the Nigerian coffee sector - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2021/07/exploring-the-nigerian-coffee-sector/"
+  },
+  {
+   "title": "Nigeria and specialty coffee by Alexey Nagibin",
+   "url": "https://guardian.ng/news/nigeria-and-specialty-coffee-by-alexey-nagibin/"
+  },
+  {
+   "title": "20 Best African Coffees to Explore",
+   "url": "https://colipsecoffee.com/blogs/coffee/african"
+  },
+  {
+   "title": "For roasters looking for differentiation, Nigerian coffee could be the answer - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2025/04/nigeria-specialty-coffee-hidden-gem-origin/"
+  },
+  {
+   "title": "Nigerian Coffee: Arabica Highlands to Robusta Lowlands - Tigray Coffee Co. - Explore 100% Nigerian Coffees",
+   "url": "https://tigraycoffee.com/nigerian-coffee-arabica-highlands-to-robusta-lowlands/"
+  },
+  {
+   "title": "Nigerian Coffee Guide: History, Flavors & Brewing Tips — Corner Coffee Store",
+   "url": "https://cornercoffeestore.com/nigerian-coffee/"
+  },
+  {
+   "title": "Nigerian Coffee 101: A Simple Guide To Locally Grown Coffee Beans - Zuma Coffee Nigeria",
+   "url": "https://zuma-coffee.com/nigerian-coffee-101-a-guide/"
+  },
+  {
+   "title": "Nigeria",
+   "url": "https://greencoffeecollective.com/pages/origin/nigeria"
+  }
+ ]
+}

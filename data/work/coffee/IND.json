@@ -1,0 +1,235 @@
+{
+ "iso3": "IND",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24187,
+  "out": 4915,
+  "searches": 2
+ },
+ "usd": 0.1175,
+ "summary": {
+  "tr": "Hindistan'da kahve, efsaneye göre 17. yüzyılda Sufi Baba Budan'ın Yemen'den getirdiği yedi çekirdekle Karnataka'daki Chikkamagaluru tepelerine ekildi. Plantasyonlar 19. yüzyılda sömürge döneminde Coorg, Chikmagalur ve Nilgiri tepelerine yayıldı. Bugün üretimin yaklaşık %70'i Karnataka'dan gelir, ağırlıklı olarak robusta olmak üzere kahvenin büyük kısmı baharat ve ağaçlarla birlikte gölgede yetişti",
+  "en": "According to legend, coffee came to India in the 17th century when the Sufi saint Baba Budan brought seven seeds from Yemen and planted them in the hills of Chikkamagaluru in Karnataka. Colonial plantations spread across Coorg, Chikmagalur and the Nilgiris in the 19th century. Karnataka now produces about 70% of India's coffee, mostly robusta, and almost all of it is shade-grown among trees and sp"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Chikkamagaluru (Baba Budan Giri), Karnataka",
+   "lat": 13.39,
+   "lng": 75.74,
+   "desc": {
+    "tr": "Hindistan kahvesinin doğum yeri sayılır ve özellikle yüksek rakımlı yıkanmış arabicasıyla bilinir.",
+    "en": "Regarded as the birthplace of Indian coffee, it is known above all for its high-altitude washed arabica."
+   },
+   "grapes": [
+    "S.795",
+    "Cauvery",
+    "Chandragiri",
+    "Robusta S.274"
+   ]
+  },
+  {
+   "name": "Kodagu (Coorg), Karnataka",
+   "lat": 12.42,
+   "lng": 75.74,
+   "desc": {
+    "tr": "Hindistan'ın en büyük kahve ilçesidir ve ağırlıklı olarak gölgede yetişen robustasıyla tanınır.",
+    "en": "India's largest coffee district, known mainly for its shade-grown robusta."
+   },
+   "grapes": [
+    "Robusta S.274",
+    "CxR",
+    "S.795",
+    "Cauvery"
+   ]
+  },
+  {
+   "name": "Hassan (Sakleshpur), Karnataka",
+   "lat": 12.95,
+   "lng": 75.78,
+   "desc": {
+    "tr": "Batı Gatlar'ın eteklerinde arabica ve robustanın birlikte yetiştiği bir bölgedir.",
+    "en": "A Western Ghats foothill district where arabica and robusta are grown side by side."
+   },
+   "grapes": [
+    "S.795",
+    "Cauvery",
+    "Robusta S.274"
+   ]
+  },
+  {
+   "name": "Wayanad, Kerala",
+   "lat": 11.69,
+   "lng": 76.13,
+   "desc": {
+    "tr": "Kerala'nın robusta merkezidir ve Güney Hindistan filtre kahvesi harmanlarına önemli ölçüde hammadde sağlar.",
+    "en": "Kerala's robusta heartland, supplying much of the robusta used in South Indian filter coffee blends."
+   },
+   "grapes": [
+    "Robusta S.274",
+    "CxR"
+   ]
+  },
+  {
+   "name": "Pulneys & Shevaroys (Kodaikanal–Yercaud), Tamil Nadu",
+   "lat": 10.24,
+   "lng": 77.49,
+   "desc": {
+    "tr": "Tamil Nadu'nun serin ve yüksek tepelerinde, çoğunlukla arabica olmak üzere kaliteli kahve yetişir.",
+    "en": "Cool, high Tamil Nadu hills that produce mostly arabica of good quality."
+   },
+   "grapes": [
+    "S.795",
+    "Cauvery",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Nilgiris, Tamil Nadu",
+   "lat": 11.4,
+   "lng": 76.7,
+   "desc": {
+    "tr": "Nilgiri tepelerinde, çay bahçelerinin yakınında arabica ve robusta karışık yetiştirilir.",
+    "en": "Mixed arabica and robusta grown in the Nilgiri hills, close to the tea estates."
+   },
+   "grapes": [
+    "S.795",
+    "Cauvery",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Araku Valley (Eastern Ghats), Andhra Pradesh",
+   "lat": 18.33,
+   "lng": 82.88,
+   "desc": {
+    "tr": "Geleneksel olmayan Doğu Gatlar bölgesinde, yerli topluluk çiftçileri tarafından yetiştirilen arabicasıyla öne çıkar.",
+    "en": "A non-traditional Eastern Ghats region, known for arabica grown by tribal smallholders."
+   },
+   "grapes": [
+    "Arabica (Catimor types)",
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "S.795 (Kent lineage)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kent soyundan gelen, Hindistan'da uzun yıllardır ekilen ve dengeli, yumuşak içimli klasik arabica çeşididir.",
+    "en": "A long-established Indian arabica cultivar from the Kent lineage, valued for its balanced, mellow cup."
+   }
+  },
+  {
+   "name": "Cauvery (Catimor)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Pas hastalığına dayanıklı Catimor soyundan gelen, bugün yaygın ekilen arabica çeşididir.",
+    "en": "A rust-resistant arabica of Catimor descent that is now widely planted."
+   }
+  },
+  {
+   "name": "Robusta S.274",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Hindistan'ın ana robusta çeşididir; filtre kahve harmanlarına gövde ve güç katar.",
+    "en": "India's main robusta cultivar, giving body and strength to filter coffee blends."
+   }
+  },
+  {
+   "name": "Mysore Nuggets Extra Bold",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Yıkanmış arabicanın iri taneli en üst sınıfıdır ve temiz, dengeli bir fincan verir.",
+    "en": "The top large-bean grade of washed arabica, giving a clean, balanced cup."
+   }
+  },
+  {
+   "name": "Monsooned Malabar",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Çekirdekler Malabar kıyısında muson rüzgârına maruz bırakılır; şişer, altın sarısına döner ve düşük asitli, dolgun gövdeli olur.",
+    "en": "Beans are exposed to monsoon winds on the Malabar coast until they swell and turn golden, giving a low-acid, full-bodied cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "South Indian filter coffee (filter kaapi)",
+   "desc": {
+    "tr": "Çift bölmeli metal filtrede demlenen yoğun dekoksiyon sıcak süt ve şekerle karıştırılır; harman çoğu zaman hindiba (chicory) içerir.",
+    "en": "A strong decoction brewed in a two-chamber metal filter is mixed with hot milk and sugar, and blends often include chicory."
+   }
+  },
+  {
+   "name": "Degree coffee (Kumbakonam)",
+   "desc": {
+    "tr": "Kumbakonam ile özdeşleşen, saf inek sütüyle hazırlanan ve güçlü, kalın gövdeli bölgesel filtre kahvesi çeşididir.",
+    "en": "A regional filter-coffee style linked with Kumbakonam, made with undiluted cow's milk for a strong, thick cup."
+   }
+  },
+  {
+   "name": "Meter coffee (davara–tumbler)",
+   "desc": {
+    "tr": "Kahve, davara adı verilen kap ile tumbler arasında yükseklikten aktarılarak soğutulur ve köpürtülür.",
+    "en": "Coffee is poured from a height between a metal tumbler and a davara (a shallow cup or dish) to cool and froth it."
+   }
+  },
+  {
+   "name": "Indian Coffee House tradition",
+   "desc": {
+    "tr": "Kooperatif işletmesi Indian Coffee House zincirleri, filtre kahveyi güney dışındaki kentlere yaymış ve entelektüel buluşma mekânı olmuştur.",
+    "en": "Cooperative-run Indian Coffee House cafés carried filter coffee beyond the south and became social meeting places."
+   }
+  },
+  {
+   "name": "Specialty and third-wave cafés",
+   "desc": {
+    "tr": "Büyük şehirlerde yükselen üçüncü dalga kafeler, tek kökenli Hint kahvelerini espresso ve filtre yöntemleriyle sunar.",
+    "en": "Third-wave cafés in the big cities serve single-origin Indian coffees as espresso and other brews."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Coffee production in India",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_India"
+  },
+  {
+   "title": "Annual Report 2022-2023 i CONTENTS CHAPTER PAGE NO.",
+   "url": "https://coffeeboard.gov.in/RTI/CB%20Eng-AR_2022_23%20Final.pdf"
+  },
+  {
+   "title": "C O N T E N T S chapter Page No. 2013-14",
+   "url": "https://coffeeboard.gov.in/RTI/CB%20-%20Annual%20Report%2013-14%20-%20Eng_ctp.pdf"
+  },
+  {
+   "title": "Coffee Board of India",
+   "url": "https://coffeeboard.gov.in/coffee-statistics.html"
+  },
+  {
+   "title": "Database on coffee January 2023 Market Research & Intelligence Unit",
+   "url": "https://coffeeboard.gov.in/Database/DATABASE3_JAN2023.pdf"
+  },
+  {
+   "title": "Database on coffee July 2023 Dr. D.R. Babu Reddy, Deputy Director (Research),",
+   "url": "https://coffeeboard.gov.in/Database/DATABASE3_JULY2023.pdf"
+  },
+  {
+   "title": "Where Is Coffee Grown In India?",
+   "url": "https://www.thirdwavecoffeeroasters.com/blogs/twc/where-is-coffee-grown-in-india"
+  },
+  {
+   "title": "Coffee Cultivation in India: Karnataka, Kerala & Tamil Nadu",
+   "url": "https://blog.namma.coffee/exploring-coffee-cultivation-in-india-a-focus-on-karnataka-kerala-and-tamil-nadu/"
+  }
+ ]
+}

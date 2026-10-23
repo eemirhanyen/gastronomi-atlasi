@@ -1,0 +1,256 @@
+{
+ "iso3": "GTM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 56752,
+  "out": 4207,
+  "searches": 3
+ },
+ "usd": 0.1856,
+ "summary": {
+  "tr": "Kahve Guatemala'ya 18. yüzyılın sonlarında dinî tarikatlar aracılığıyla geldi. Büyük ölçekli üretim 1850–1860 arasında yayıldı ve 1880'e gelindiğinde kahve ülkenin en büyük tarım ihraç ürünü olmuştu. Bugün kahve, Anacafé'nin tanımladığı sekiz bölgede, çoğunlukla gölgede yetiştirilen arabica olarak üretiliyor. Guatemalalılar kahveyi geleneksel olarak şekerli ve tatlı ekmekle içerir. Guatemala City ",
+  "en": "Coffee reached Guatemala in the late 18th century, brought by religious orders. Large-scale cultivation spread in the 1850s–1860s, and by 1880 coffee was the country's top agricultural export. Today it is grown mostly as shade-grown arabica across eight regions defined by the national association Anacafé. Guatemalans traditionally drink coffee sweetened and with sweet bread. Specialty cafés have r"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Antigua",
+   "lat": 14.56,
+   "lng": -90.73,
+   "desc": {
+    "tr": "Agua, Fuego ve Acatenango volkanlarıyla çevrili vadide yetişen kahvesi dengeli, çikolatamsı ve baharatlı olmasıyla ünlüdür; Café Antigua tescilli bir menşe adıdır.",
+    "en": "Grown in a valley ringed by the Agua, Fuego and Acatenango volcanoes, it is known for balanced, chocolatey, spicy cups and holds a registered Denomination of Origin."
+   },
+   "grapes": [
+    "Bourbon",
+    "Caturra",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Acatenango Valley",
+   "lat": 14.5,
+   "lng": -90.92,
+   "desc": {
+    "tr": "Acatenango Yanardağı yamaçlarında, 1.600–2.000 m yükseklikte yetişen kahvesi çiçeksi aromalarıyla tanınır.",
+    "en": "Grown on the slopes of Acatenango volcano at 1,600–2,000 m, it is known for floral aromas."
+   },
+   "grapes": [
+    "Bourbon",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Traditional Atitlán",
+   "lat": 14.69,
+   "lng": -91.2,
+   "desc": {
+    "tr": "Atitlán Gölü çevresindeki volkanik yamaçlarda yetişen kahvesi, parlak narenciye asitliği ve dolgun gövdesiyle bilinir.",
+    "en": "Grown on the volcanic slopes around Lake Atitlán, its coffee is known for bright citrus acidity and full body."
+   },
+   "grapes": [
+    "Bourbon",
+    "Typica",
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Rainforest Cobán",
+   "lat": 15.47,
+   "lng": -90.38,
+   "desc": {
+    "tr": "Nemli, bulutlu ve yağmurlu bir yağmur ormanı bölgesidir; kahvesi taze meyve notaları, hafif asitlik ve dengeli gövdeyle tanınır.",
+    "en": "A humid, misty rainforest region whose coffees show fresh-fruit notes, mild acidity and a balanced body."
+   },
+   "grapes": [
+    "Bourbon",
+    "Maragogype",
+    "Catuaí",
+    "Caturra",
+    "Pache"
+   ]
+  },
+  {
+   "name": "Fraijanes Plateau",
+   "lat": 14.47,
+   "lng": -90.45,
+   "desc": {
+    "tr": "Pacaya Yanardağı çevresindeki hafif pomza topraklarda yetişen kahvesi, belirgin asitliği ve aromasıyla bilinir.",
+    "en": "Grown on light pumice soils around the Pacaya volcano, it is known for pronounced acidity and aroma."
+   },
+   "grapes": [
+    "Bourbon",
+    "Caturra",
+    "Catuaí",
+    "Pache"
+   ]
+  },
+  {
+   "name": "Highland Huehuetenango",
+   "lat": 15.55,
+   "lng": -91.6,
+   "desc": {
+    "tr": "Ülkenin en yüksek ve en kurak kahve bölgesidir; kahvesi canlı, şarabımsı asitliği ve tatlılığıyla tanınır.",
+    "en": "The highest and driest coffee region in the country, known for lively, winey acidity and sweetness."
+   },
+   "grapes": [
+    "Bourbon",
+    "Caturra",
+    "Catuaí",
+    "Pache"
+   ]
+  },
+  {
+   "name": "Volcanic San Marcos",
+   "lat": 14.95,
+   "lng": -91.8,
+   "desc": {
+    "tr": "Ülkenin en yağışlı bölgesidir; volkanik topraklarda yetişen kahvesi çiçeksi notalar ve belirgin asitlik taşır.",
+    "en": "The country's rainiest region; its volcanic-soil coffee shows floral notes and pronounced acidity."
+   },
+   "grapes": [
+    "Bourbon",
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Nuevo Oriente",
+   "lat": 14.75,
+   "lng": -89.6,
+   "desc": {
+    "tr": "Doğudaki küçük çiftliklerin bölgesidir; kahvesi dengeli, dolgun gövdeli ve çikolatamsıdır.",
+    "en": "A smallholder region in the east, producing balanced, full-bodied, chocolatey coffees."
+   },
+   "grapes": [
+    "Bourbon",
+    "Catuaí",
+    "Caturra",
+    "Pache"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Guatemala'nın geleneksel çeşitlerinden biridir; tatlı, karamel ve meyve notalarıyla bilinir.",
+    "en": "One of Guatemala's traditional cultivars, valued for sweetness and caramel and fruit notes."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Tarihî arabica çeşididir; Antigua ve Atitlán gibi eski bölgelerde yetiştirilir.",
+    "en": "A historic arabica cultivar still grown in older regions such as Antigua and Atitlán."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bourbon'un doğal mutasyonu olan bodur bir bitkidir; ülkede en yaygın çeşitlerdendir.",
+    "en": "A dwarf natural mutation of Bourbon and one of the most widely planted cultivars in the country."
+   }
+  },
+  {
+   "name": "Catuaí",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kırmızı ve sarı formları bulunur; verimli ve yaygın biçimde yetiştirilen bir çeşittir.",
+    "en": "Available in red and yellow forms, it is a productive and widely grown cultivar."
+   }
+  },
+  {
+   "name": "Pache",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Typica'nın Guatemala'da ortaya çıkan bodur mutasyonudur; yönetimi ve hasadı kolaydır.",
+    "en": "A compact mutation of Typica that originated in Guatemala and is easy to manage and harvest."
+   }
+  },
+  {
+   "name": "Washed (yıkanmış) işleme",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kahvelerin çoğu çiftlik değirmenlerinde yıkanarak işlenir; natural ve honey işlemleri ise yeni yeni deneniyor.",
+    "en": "Most coffee is washed at farm wet mills, while natural and honey processing are newer experiments."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café de olla / colador de tela (bez süzgeç)",
+   "desc": {
+    "tr": "Dağlık bölgelerdeki evlerde çekirdekler bazen comal üzerinde kavrulur, elde öğütülür ve çorap biçimli bez süzgeçten süzülerek, çoğunlukla panela ile tatlandırılan yoğun bir kahve hazırlanır.",
+    "en": "In some highland homes beans are roasted on a comal, hand-ground and dripped through a sock-shaped cloth filter, giving a strong brew often sweetened with panela."
+   }
+  },
+  {
+   "name": "Refacción: kahve ve pan dulce",
+   "desc": {
+    "tr": "Saat 10:00 ve 16:00 civarındaki kahve molasında kahve, kahveye batırılmak üzere yapılmış tatlı ekmeklerle (champurrada, pan de manteca gibi) içilir.",
+    "en": "At the mid-morning and mid-afternoon coffee breaks, coffee is served with sweet breads such as champurradas or pan de manteca, made for dunking."
+   }
+  },
+  {
+   "name": "Café con leche",
+   "desc": {
+    "tr": "Sütlü kahve, özellikle evlerde ve kahvaltıda içilir ve tatlı ekmek kahveye batırılarak yenir.",
+    "en": "Coffee with milk is a home and breakfast staple, often with sweet bread dunked into the cup."
+   }
+  },
+  {
+   "name": "Nitelikli kahve dükkânları (pour-over, espresso, cold brew)",
+   "desc": {
+    "tr": "Guatemala City ve Antigua'da, yerel üreticilerden aldığı çekirdekleri filtre, espresso veya cold brew olarak sunan bağımsız kafeler yaygınlaşmaktadır.",
+    "en": "In Guatemala City and Antigua, independent cafés serve beans from local producers as pour-over, espresso or cold brew."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Guatemala",
+   "url": "https://blog.genuineorigin.com/on-location/guatemala-coffee-origin-report/"
+  },
+  {
+   "title": "Conoce las ocho regiones cafetaleras de Guatemala",
+   "url": "https://republica.com/economia/2021-5-19-21-14-29-conoce-las-ocho-regiones-cafetaleras-de-guatemala"
+  },
+  {
+   "title": "Regions and profiles - Guatemalan Coffees",
+   "url": "https://www.guatemalancoffees.com/main/regions-and-profiles/"
+  },
+  {
+   "title": "Guatemalan Coffee Guide",
+   "url": "https://www.moustachecoffeeclub.com/guatemalan-coffee"
+  },
+  {
+   "title": "Guatemala coffee, beyond Antigua - Bean Leaf",
+   "url": "https://beanleaf.co.uk/guatemala-coffee-beyond-antigua/"
+  },
+  {
+   "title": "Guatemalan Coffee: Get To Know Your Coffee Origins",
+   "url": "https://www.drivencoffee.com/blogs/blog/guatemalan-coffee-origins"
+  },
+  {
+   "title": "Guatemala Coffee Beans: the Eight Regions and How to Read the Bag (SHB, Altitude, Antigua)",
+   "url": "https://livinginguatemala.com/guides/guatemalan-coffee-regions-and-buying-beans"
+  },
+  {
+   "title": "Las 8 regiones cafetaleras de Guatemala y a qué sabe cada una · Bajo Sombra",
+   "url": "https://www.bajosombra.com/blog/regiones-cafetaleras-de-guatemala"
+  }
+ ]
+}

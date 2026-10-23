@@ -1,0 +1,220 @@
+{
+ "iso3": "SLV",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24354,
+  "out": 3772,
+  "searches": 2
+ },
+ "usd": 0.1064,
+ "summary": {
+  "tr": "Kahve 1740 civarında El Salvador'a girdi. 19. yüzyılda indigonun yerini alarak ülke ekonomisinin belkemiği oldu. Ülke bugün Pacas ve Pacamara çeşitlerinin doğduğu yer olarak biliniyor ve kaliteli özel kahveyle öne çıkıyor. Yurt içinde kahve, aile kahvaltısı sofrasından arkadaş buluşmalarına kadar günlük hayatın parçası. Ülkede tüketilen kahvenin büyük kısmı eskiden ithal çözünür kahveden geliyordu",
+  "en": "Coffee reached El Salvador around 1740 and overtook indigo in the 19th century to become the backbone of the economy. The country is the birthplace of the Pacas and Pacamara varieties and is known for quality specialty coffee. At home, coffee is part of everyday life, from the family breakfast table to gatherings with friends. Much of the coffee drunk domestically used to be imported soluble coffe"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Apaneca-Ilamatepec",
+   "lat": 13.85,
+   "lng": -89.8,
+   "desc": {
+    "tr": "Ülkenin ilk tescilli menşe adı bölgesidir. Üretimin yaklaşık yarısını verir ve volkanik topraklarında yetişen Bourbon, Pacas ve Pacamara'sıyla tanınır.",
+    "en": "The country's first registered Denomination of Origin, it produces roughly half of national output and is known for Bourbon, Pacas and Pacamara grown on volcanic soils."
+   },
+   "grapes": [
+    "Bourbon",
+    "Pacas",
+    "Pacamara"
+   ]
+  },
+  {
+   "name": "Alotepec-Metapán",
+   "lat": 14.3,
+   "lng": -89.3,
+   "desc": {
+    "tr": "Chalatenango ve Metapán'daki yüksek rakımlı bu bölge, özellikle Pacamara için çok değerlidir.",
+    "en": "This high-altitude area in Chalatenango and Metapán is especially good for Pacamara."
+   },
+   "grapes": [
+    "Pacamara",
+    "Bourbon",
+    "Pacas"
+   ]
+  },
+  {
+   "name": "Bálsamo-Quezaltepec",
+   "lat": 13.75,
+   "lng": -89.35,
+   "desc": {
+    "tr": "La Libertad'daki bu volkanik dağ kuşağı, dengeli ve tatlı Bourbon ve Pacas kahveleri verir.",
+    "en": "This volcanic mountain belt in La Libertad yields balanced, sweet Bourbon and Pacas coffees."
+   },
+   "grapes": [
+    "Bourbon",
+    "Pacas"
+   ]
+  },
+  {
+   "name": "Chinchontepec",
+   "lat": 13.6,
+   "lng": -88.84,
+   "desc": {
+    "tr": "San Vicente yanardağı çevresindeki bu bölge, gövdeli ve dengeli fincanlarıyla bilinir.",
+    "en": "Centred on the San Vicente volcano, this region is known for full-bodied, balanced cups."
+   },
+   "grapes": [
+    "Bourbon",
+    "Pacas"
+   ]
+  },
+  {
+   "name": "Tecapa-Chinameca",
+   "lat": 13.48,
+   "lng": -88.5,
+   "desc": {
+    "tr": "Usulután'daki bu volkanik bölge, Bourbon ve Pacas ağırlıklı, tatlı ve dengeli kahveler üretir.",
+    "en": "This volcanic area in Usulután produces sweet, balanced coffees, mostly Bourbon and Pacas."
+   },
+   "grapes": [
+    "Bourbon",
+    "Pacas",
+    "Pacamara"
+   ]
+  },
+  {
+   "name": "Cacahuatique",
+   "lat": 13.8,
+   "lng": -88.15,
+   "desc": {
+    "tr": "Doğudaki Morazán ve San Miguel dağlarında yer alır. Gölgede yetişen, geleneksel yöntemlerle işlenen kahveleriyle bilinir.",
+    "en": "Located in the eastern mountains of Morazán and San Miguel, it is known for shade-grown coffees processed by traditional methods."
+   },
+   "grapes": [
+    "Bourbon",
+    "Pacas"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Ülkenin en yaygın çeşidi. 19. yüzyılda getirildi ve çikolata ile karamel notalı, tatlı, dengeli bir fincan verir.",
+    "en": "The country's most widely grown variety, introduced in the 19th century, with a sweet, balanced cup of chocolate and caramel."
+   }
+  },
+  {
+   "name": "Pacas",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "1949'da Santa Ana'daki Pacas ailesinin çiftliğinde bulunan, bodur ve verimli bir Bourbon mutasyonudur.",
+    "en": "A compact, productive Bourbon mutation found in 1949 on the Pacas family farm in Santa Ana."
+   }
+  },
+  {
+   "name": "Pacamara",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "ISIC'in 1958'de başlattığı çalışmalarla Pacas ile Maragogipe'nin melezlenmesinden elde edilen iri taneli çeşittir. Çiçeksi, kremamsı ve canlı asiditelidir.",
+    "en": "A large-bean cross of Pacas and Maragogipe, bred by ISIC from 1958, with floral notes, a creamy body and lively acidity."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Eski bir Arabica çeşididir. Artık az bulunur, temiz ve zarif bir fincan verir.",
+    "en": "An old Arabica variety, now rare, with a clean, delicate cup."
+   }
+  },
+  {
+   "name": "Catimor / Sarchimor",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Pas hastalığına dayanıklı melezlerdir ve ülkede yetişen kahveler arasında en gövdeli olanlardır.",
+    "en": "Rust-resistant hybrids that give the fullest body among Salvadoran coffees."
+   }
+  },
+  {
+   "name": "Honey ve natural işleme / Honey and natural proces",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Klasik yıkamalı işlemin yanında, meyvemsi ve kompleks fincanlar için honey ve natural yöntemler giderek yaygınlaşıyor.",
+    "en": "Alongside classic washed processing, honey and natural methods are increasingly used for fruitier, more complex cups."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café con pan dulce (günlük aile kahvesi / everyday family coffee)",
+   "desc": {
+    "tr": "Kahve evlerde sabah kahvaltısında ve akşam, genellikle tatlı ekmek eşliğinde içilir. Süt ve şekerle servis edilmesi de yaygındır.",
+    "en": "Coffee is drunk at home at breakfast and in the evening, often with sweet bread; adding milk and sugar is also common."
+   }
+  },
+  {
+   "name": "Çözünür kahve / Instant coffee",
+   "desc": {
+    "tr": "Yurt içinde tüketilen kahvenin önemli bir kısmı uzun süre ithal kahveyle üretilen çözünür kahve olmuştur. Bu durum son yıllarda kavrulmuş ve öğütülmüş markalara kayıyor.",
+    "en": "For a long time, much of the coffee drunk domestically was soluble coffee made largely from imported beans. Roast-and-ground brands are now gaining ground."
+   }
+  },
+  {
+   "name": "Özel kahve kafeleri / Specialty café culture",
+   "desc": {
+    "tr": "San Salvador ve Ruta de las Flores kasabalarında espresso bazlı içecekler, pour-over ve soğuk demleme sunan özel kahve dükkânları yaygınlaşıyor. Ülke ayrıca 2011 Dünya Barista Şampiyonu Alejandro Méndez'i yetiştirmiştir.",
+    "en": "Specialty coffee shops serving espresso drinks, pour-overs and cold brew are spreading in San Salvador and the Ruta de las Flores towns. The country also produced 2011 World Barista Champion Alejandro Méndez."
+   }
+  },
+  {
+   "name": "Çiftlik ve hasat turizmi / Farm visits and harvest culture",
+   "desc": {
+    "tr": "Apaneca ve Ataco gibi kasabalarda üreticiler ziyaretçilere tanıtım turları, işleme atölyeleri ve çiftlikte tadım sunar. Hasat dönemi yerel şenliklerle kutlanır.",
+    "en": "In towns such as Apaneca and Ataco, producers offer farm tours, processing workshops and tastings. Harvest time is marked by local festivals."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Pacas and Pacamara: El Salvador's heritage lives on » cumpa",
+   "url": "https://www.cumpa.de/en/blog/pacas-und-pacamara-elsalvador/"
+  },
+  {
+   "title": "Interview: What’s So Special About Pacamara? - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2015/11/interview-whats-so-special-about-pacamara/"
+  },
+  {
+   "title": "Explore the Region: El Salvador",
+   "url": "https://georgehowellcoffee.com/pages/country-el-salvador"
+  },
+  {
+   "title": "El Salvador Coffee Beans",
+   "url": "https://achillescoffeeroasters.com/pages/el-salvador-coffee-beans-single-origins"
+  },
+  {
+   "title": "El Salvador Coffee Beans - Espresso & Coffee Guide",
+   "url": "https://espressocoffeeguide.com/gourmet-coffee/coffees-of-the-americas/el-salvador-coffee/"
+  },
+  {
+   "title": "Salvadoran Coffee: History, Regions and Exceptional Varieties",
+   "url": "https://www.visitelsalvador.ai/blog/cafe-salvadorien-guide-complet"
+  },
+  {
+   "title": "El Salvador Coffee: History, Craft & What's in Your Cup",
+   "url": "https://acecoffeeroasters.com/blogs/news/the-land-of-volcanoes-el-salvadors-coffee-story"
+  },
+  {
+   "title": "Pacamara: El Salvador's Distinctive Hybrid",
+   "url": "https://podiumcoffeeclub.com/blogs/blog/pacamara-coffee-varietal"
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "iso3": "RWA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22244,
+  "out": 3558,
+  "searches": 2
+ },
+ "usd": 0.1001,
+ "summary": {
+  "tr": "Kahve Ruanda'ya 1904'te Belçika sömürge yönetimiyle, Réunion (eski adıyla Bourbon) adasından getirilen Bourbon arabica fidanlarıyla girdi. 1994'ten sonra yıkama istasyonları ve küçük çiftçi kooperatifleri etrafında yeniden kurulan sektör, ülkeyi yüksek rakımlı, tatlı ve çiçeksi yıkanmış Bourbon kahveleriyle ünlü bir özel kahve (specialty) kaynağına dönüştürdü. Kahvenin neredeyse tamamı ihraç edili",
+  "en": "Coffee reached Rwanda in 1904, when Belgian colonial authorities distributed Bourbon arabica seedlings brought from Réunion (formerly Île Bourbon). The sector was rebuilt after 1994 around washing stations and smallholder cooperatives, and Rwanda is now known as a specialty origin for high-altitude, sweet, floral washed Bourbon. Almost all of the crop is exported and Rwandans have traditionally dr"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Lake Kivu / Nyamasheke (Western Province)",
+   "lat": -2.35,
+   "lng": 29.1,
+   "desc": {
+    "tr": "Kivu Gölü kıyısındaki bu bölge, yüksek rakımı ve volkanik toprağıyla zarif, çiçeksi ve meyvemsi yıkanmış Bourbon kahveleriyle bilinir.",
+    "en": "The Lake Kivu shore is known for elegant, floral and fruity washed Bourbon grown at altitude on volcanic soils."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Mibirizi"
+   ]
+  },
+  {
+   "name": "Huye / Maraba (Southern Province)",
+   "lat": -2.6,
+   "lng": 29.74,
+   "desc": {
+    "tr": "Maraba ve Huye Mountain gibi tek köken isimleriyle tanınan güney, tatlı ve dengeli Bourbon kahveleriyle öne çıkar.",
+    "en": "The south is home to well-known single-origin names such as Maraba and Huye Mountain, prized for sweet, balanced Bourbon."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Mibirizi"
+   ]
+  },
+  {
+   "name": "Nyamagabe (Southern Province)",
+   "lat": -2.47,
+   "lng": 29.5,
+   "desc": {
+    "tr": "Nyungwe ormanına yakın yüksek tepelerde yetişen bu bölge kahveleri, temiz ve yüksek asiditeli fincan profiliyle bilinir.",
+    "en": "High hills near Nyungwe forest produce coffees with a clean cup and bright acidity."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Mibirizi"
+   ]
+  },
+  {
+   "name": "Musanze / Virunga (Northern Province)",
+   "lat": -1.5,
+   "lng": 29.63,
+   "desc": {
+    "tr": "Virunga volkanlarının eteklerinde yetişen kahveler daha yapılı ve mineral karakterlidir, narenciye canlılığı taşır.",
+    "en": "On the slopes of the Virunga volcanoes, coffees are more structured and mineral-driven, with citrus-like brightness."
+   },
+   "grapes": [
+    "Red Bourbon"
+   ]
+  },
+  {
+   "name": "Gakenke (Northern Province)",
+   "lat": -1.68,
+   "lng": 29.78,
+   "desc": {
+    "tr": "Dukunde Kawa Musasa gibi kooperatiflerin bulunduğu kuzey tepeleri, yıkanmış Bourbon üretimiyle tanınır.",
+    "en": "The northern hills, home to cooperatives such as Dukunde Kawa Musasa, are known for washed Bourbon."
+   },
+   "grapes": [
+    "Red Bourbon"
+   ]
+  },
+  {
+   "name": "Kayonza / Eastern Province",
+   "lat": -1.9,
+   "lng": 30.5,
+   "desc": {
+    "tr": "Doğunun daha alçak ve sıcak yamaçları, Ruanda'nın batısına göre daha dolgun gövdeli ve ulaşılabilir bir Bourbon profili verir.",
+    "en": "The lower, warmer east yields a fuller-bodied, more approachable style of Rwandan Bourbon than the western highlands."
+   },
+   "grapes": [
+    "Red Bourbon",
+    "Mibirizi"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Red Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Ruanda arabica üretiminin yaklaşık %95'ini oluşturan, tatlılığı ve meyvemsi notalarıyla bilinen baskın çeşittir.",
+    "en": "The dominant cultivar, making up about 95% of Rwanda's arabica and valued for its sweetness and fruit character."
+   }
+  },
+  {
+   "name": "Mibirizi",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Cyangugu'daki Mibirizi misyonunda ortaya çıkan yerel Bourbon varyantıdır.",
+    "en": "A local Bourbon variant that took root at the Mibirizi mission in Cyangugu."
+   }
+  },
+  {
+   "name": "RAB C15",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "NAEB'in 2024 ağaç yenileme programında teşvik ettiği fidan çeşididir.",
+    "en": "A seedling variety promoted in NAEB's 2024 tree-replacement programme."
+   }
+  },
+  {
+   "name": "Fully washed processing",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "1994 sonrası teşvik edilen yıkama istasyonu modeli, temiz ve tutarlı fincan kalitesinin temelidir.",
+    "en": "The washing-station model, promoted after 1994, underpins Rwanda's clean and consistent cup quality."
+   }
+  },
+  {
+   "name": "Natural and honey processing",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Yıkanmış kahveler kadar yaygın olmayan bu işlemeler daha zengin ve meyvemsi fincanlar verir.",
+    "en": "Less common than washed, these methods give richer, fruitier cups."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Specialty café espresso and milk drinks",
+   "desc": {
+    "tr": "Kigali'nin Question Coffee, Bourbon Coffee ve Rubia gibi kafelerinde espresso, latte ve cappuccino, yerel kavrulmuş çekirdeklerle servis edilir.",
+    "en": "In Kigali cafés such as Question Coffee, Bourbon Coffee and Rubia, espresso, latte and cappuccino are served with locally roasted beans."
+   }
+  },
+  {
+   "name": "Single-origin pour-over and filter coffee",
+   "desc": {
+    "tr": "Kafeler Maraba, Huye veya Kivu gibi bölgelerin tek köken kahvelerini filtre yöntemleriyle sunar.",
+    "en": "Cafés brew single-origin coffees from areas like Maraba, Huye or Kivu using filter and pour-over methods."
+   }
+  },
+  {
+   "name": "Bean-to-cup visits and tastings",
+   "desc": {
+    "tr": "Kahve turları, tadımlar ve barista eğitimleri çiftçiyle fincan arasındaki yolculuğu tanıtır ve yerel tüketimi teşvik eder.",
+    "en": "Coffee tours, tastings and barista training show the farm-to-cup journey and help encourage local consumption."
+   }
+  },
+  {
+   "name": "Tea alongside coffee",
+   "desc": {
+    "tr": "Ruandalılar geleneksel olarak kahveden çok çay ve gazlı içecek tüketir. Kahve ise şehirlerde, özellikle genç nüfus arasında yaygınlaşıyor.",
+    "en": "Rwandans have traditionally drunk tea and soft drinks more than coffee. Coffee is now spreading in the cities, especially among younger people."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Rwanda Coffee: Production, Taste, and Best Brands",
+   "url": "https://colipsecoffee.com/blogs/coffee/rwanda"
+  },
+  {
+   "title": "Rwanda Coffee Region",
+   "url": "https://www.coaltowncoffee.co.uk/pages/rwanda-coffee-region"
+  },
+  {
+   "title": "Rwandan Coffee: A Crop of Hope - weaverscoffee.com",
+   "url": "https://weaverscoffee.com/blogs/blog/rwandan-coffee-a-crop-of-hope"
+  },
+  {
+   "title": "Rwanda Coffee Origins: Barista Training Guide to History, Flavors, and Key Growing Regions - First Shot Barista Training",
+   "url": "https://firstshotbaristatraining.com.au/rwanda-coffee-origins-barista-training-guide-to-history-flavors-and-key-growing-regions/"
+  },
+  {
+   "title": "A Roaster’s & Coffee Buyer’s Guide to Rwandan Beans - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2017/12/a-roasters-coffee-buyers-guide-to-rwandan-beans/"
+  },
+  {
+   "title": "Rwanda Coffee Guide: Taste, Regions and Beans",
+   "url": "https://www.onlinecoffeeguide.com/origins/rwanda"
+  },
+  {
+   "title": "Rwanda Coffee: How a Country Rebuilt Its Industry and the Cup Result",
+   "url": "https://podiumcoffeeclub.com/blogs/blog/rwanda-coffee"
+  },
+  {
+   "title": "The Rise of Rwandan Coffee Culture: From Crop to Cup & Café Life",
+   "url": "https://rwandablog.com/blog/food/rwandan-coffee-culture-crop-to-cup/"
+  }
+ ]
+}

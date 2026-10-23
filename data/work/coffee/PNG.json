@@ -1,0 +1,219 @@
+{
+ "iso3": "PNG",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 49109,
+  "out": 4009,
+  "searches": 3
+ },
+ "usd": 0.1683,
+ "summary": {
+  "tr": "Kahve Papua Yeni Gine'ye 19. yüzyılın sonlarında, Alman sömürge dönemindeki ilk kayıtlarla (1890 raporu) girdi. 1920'lerin sonunda Jamaika Blue Mountain tohumlarıyla (Typica) kurulan plantasyonlarla ticari üretim başladı. Bugün kahve, yaylalardaki yüz binlerce küçük üreticinin 'kahve bahçelerinde' yetiştirilen yıkanmış arabica'ya dayanıyor. Üretimin büyük bölümü yeşil çekirdek olarak ihraç ediliyo",
+  "en": "Coffee reached Papua New Guinea in the late 19th century, with the first official record in an 1890 German-colonial report. Commercial production began in the late 1920s on plantations planted with Jamaican Blue Mountain (Typica) seed. Today the crop rests on washed arabica grown in 'coffee gardens' by hundreds of thousands of highland smallholders, and most of it is exported as green bean. At hom"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Western Highlands (Wahgi Valley, Mt Hagen)",
+   "lat": -5.86,
+   "lng": 144.22,
+   "desc": {
+    "tr": "Ülkenin en yüksek kahve bölgesidir (yaklaşık 1.400–2.200 m). Volkanik topraklarda yetişen kahveleri, iri plantasyonlar ve küçük üreticiler arasında paylaşılan dolgun gövdeli ve meyvemsi fincanlarıyla tanınır.",
+    "en": "The country's highest coffee zone (about 1,400–2,200 m). Its volcanic-soil coffees, from both large estates and smallholders, are known for a full body and fruity cups."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Arusha",
+    "Caturra",
+    "Mundo Novo"
+   ]
+  },
+  {
+   "name": "Eastern Highlands (Goroka)",
+   "lat": -6.08,
+   "lng": 145.39,
+   "desc": {
+    "tr": "İkinci büyük üretici eyalettir ve kahve ana nakit üründür. Arusha ve Typica'dan oluşan, parlak asiditeli, çiçeksi ve narenciyeli fincanlarıyla bilinir.",
+    "en": "The second-largest producing province, where coffee is the main cash crop. It is known for Arusha and Typica lots with bright acidity and floral, citrus notes."
+   },
+   "grapes": [
+    "Arusha",
+    "Typica",
+    "Blue Mountain",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Simbu (Chimbu)",
+   "lat": -6.0,
+   "lng": 144.97,
+   "desc": {
+    "tr": "1.300–1.900 m yükseklikteki bu dağlık eyalet, küçük üreticilerin yıkanmış kahvelerini işleyen değirmenleriyle ve temiz fincanlarıyla tanınır.",
+    "en": "A mountainous province at roughly 1,300–1,900 m, known for washed smallholder coffee processed at local mills and for clean cups."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Arusha",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Jiwaka (Nebilyer & Baiyer valleys)",
+   "lat": -5.83,
+   "lng": 144.65,
+   "desc": {
+    "tr": "2012'de Western Highlands'ten ayrılan eyalet, aynı yayla koridorunda yer alır. Yüksek yamaçlardan gelen kahveleri daha temiz ve meyve ağırlıklı olabilir.",
+    "en": "Split from Western Highlands in 2012, it lies in the same highland corridor. Lots from its upper slopes can be cleaner and more fruit-forward."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Caturra",
+    "Mundo Novo"
+   ]
+  },
+  {
+   "name": "Morobe (Wau–Bulolo)",
+   "lat": -7.35,
+   "lng": 146.7,
+   "desc": {
+    "tr": "İç kesimlerde arabica yetişir. Wau'daki ilk devlet deneme parseli (1928) bu bölgededir. Üretim payı yaklaşık %5 ile yaylaların gerisinde kalır.",
+    "en": "Arabica is grown inland, and the first government trial plot (1928) was planted at Wau. Its share of national output is only about 5%, well behind the main highland provinces."
+   },
+   "grapes": [
+    "Typica",
+    "Arusha",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "East Sepik (Maprik lowlands)",
+   "lat": -3.63,
+   "lng": 143.05,
+   "desc": {
+    "tr": "Sepik bölgesi, ülkenin küçük robusta üretiminin ağırlık merkezidir. Bu kahveler alçak kıyı ve nehir ovalarında yetişir.",
+    "en": "The Sepik region is the centre of the country's small robusta crop, grown on low-lying coastal and river plains."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica (Jamaica Blue Mountain lineage)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "1920'lerde Jamaika'dan getirilen Typica, yaylaların temel çeşididir ve dolgun gövdeli, yumuşak asiditeli fincan verir.",
+    "en": "Brought from Jamaica in the 1920s, Typica is the backbone of the highlands and gives a full-bodied, mildly acidic cup."
+   }
+  },
+  {
+   "name": "Arusha",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Tanzanya kökenli, Typica veya Bourbon (French Mission) hattından geldiği düşünülen çeşit, özellikle Eastern Highlands'te yetişir.",
+    "en": "A Tanzanian-origin selection thought to descend from Typica or the Bourbon (French Mission) line, grown mainly in the Eastern Highlands."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Plantasyonlarda ve küçük çiftliklerde Typica ile birlikte yetiştirilir. Fincana tatlılık ve denge katar.",
+    "en": "Grown alongside Typica on estates and smallholdings, it adds sweetness and balance to the cup."
+   }
+  },
+  {
+   "name": "Mundo Novo / Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Daha verimli modern çeşitlerdir. Bazı üreticiler bunları geleneksel Typica ile karıştırarak yetiştirir.",
+    "en": "Higher-yielding modern cultivars that some growers plant alongside traditional Typica."
+   }
+  },
+  {
+   "name": "Robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Toplam üretimin küçük bir bölümünü oluşturur (yaklaşık %5). Yalnızca Sepik gibi alçak kıyı bölgelerinde yetişir.",
+    "en": "A small share of output (about 5%), grown only in low coastal areas such as the Sepik."
+   }
+  },
+  {
+   "name": "Washed process (smallholder 'coffee garden' parchm",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Kiraz hasat edilip köy düzeyinde ya da değirmenlerde yıkanır, fermente edilir ve güneşte kurutulur. Bu yöntem temiz ve meyvemsi bir fincan sağlar.",
+    "en": "Cherries are picked, then washed and fermented at village level or in mills and sun-dried, giving a clean, fruity cup."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Instant '3-in-1' coffee",
+   "desc": {
+    "tr": "Yurt içinde uzun süre en yaygın içme biçimi, şekerli ve sütlü hazır paket kahveler olmuştur. Bunlar çoğunlukla düşük kaliteli ürünlerdir.",
+    "en": "For a long time the most common way to drink coffee at home has been instant sachets pre-mixed with sugar and milk, often low-grade products."
+   }
+  },
+  {
+   "name": "Espresso-based café coffee",
+   "desc": {
+    "tr": "Port Moresby, Lae ve Mt Hagen'deki kafelerde yerel çekirdeklerle espresso, cappuccino ve latte servis ediliyor. Bu kültür son on yılda hızla büyüdü.",
+    "en": "Cafés in Port Moresby, Lae and Mt Hagen serve espresso, cappuccino and latte made with local beans, a scene that has grown quickly in the past decade."
+   }
+  },
+  {
+   "name": "Brewed (drip) coffee with sugar and milk",
+   "desc": {
+    "tr": "Otellerde, misafirhanelerde ve yerel lokantalarda filtre kahve servis edilir. Şeker ve süt (taze, evaporé ya da toz) yanında sunulur.",
+    "en": "Hotels, guesthouses and local eateries serve filter-style brewed coffee, with sugar and milk (fresh, evaporated or powdered) on the side."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Papua New Guinea Coffee Overview - Sweet Maria's Coffee Library",
+   "url": "https://library.sweetmarias.com/coffee-producing-countries/oceania/papua-new-guinea-coffee-overview/"
+  },
+  {
+   "title": "Papua New Guinea Arusha, Blue Mountain, Bourbon, Typica Coffee from Chuave District, Chimbu Province Covoya Specialty Coffee",
+   "url": "https://uk.covoyacoffee.com/papua-new-guinea-sirigine-grade-a.html"
+  },
+  {
+   "title": "Papua New Guinea",
+   "url": "https://www.list-beisler.coffee/us/origins/papua_new_guinea.php"
+  },
+  {
+   "title": "Papua New Guinea - Mercanta",
+   "url": "https://coffeehunter.com/our-origins/papua-new-guinea/"
+  },
+  {
+   "title": "Papua New Guinea Coffee Guide: Barista Training on Origins, Flavors, and Highland Growing Regions - First Shot Barista Training",
+   "url": "https://firstshotbaristatraining.com.au/papua-new-guinea-coffee-guide-barista-training-on-origins-flavors-and-highland-growing-regions/"
+  },
+  {
+   "title": "Papua New Guinea Coffee: The Overlooked Highlands Origin",
+   "url": "https://podiumcoffeeclub.com/blogs/blog/papua-new-guinea-coffee"
+  },
+  {
+   "title": "Papua New Guinea Coffee Beans",
+   "url": "https://curiositycoffee.com/pages/papua-new-guinea-coffee"
+  },
+  {
+   "title": "Papua New Guinea",
+   "url": "https://www.coffeesketcher.com/origins/papua-new-guinea"
+  }
+ ]
+}

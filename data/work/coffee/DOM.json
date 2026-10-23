@@ -1,0 +1,231 @@
+{
+ "iso3": "DOM",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 23380,
+  "out": 3970,
+  "searches": 2
+ },
+ "usd": 0.1065,
+ "summary": {
+  "tr": "Kahve, Hispaniola adasına 18. yüzyılın başında (kaynaklara göre 1715 civarında) getirildi. 19. yüzyılın sonlarına doğru önemli bir ihracat ürünü oldu ve bugün de küçük aile çiftliklerinin temel ürünlerinden biridir. Ülke, çoğu Typica olan gölgede yetişen yüksek rakımlı arabika üretir. Üretimin büyük kısmı yurt içinde tüketilir. Kahve her sosyal sınıfın günlük yaşamının parçasıdır ve özellikle öğle",
+  "en": "Coffee reached Hispaniola in the early 18th century (around 1715 by most accounts). It became a major export crop in the late 19th century and is still a mainstay of small family farms. The country grows mostly shade-grown, high-altitude Arabica, and most of it is Typica. Much of the harvest is drunk at home, and coffee cuts across every social class. It is typically a short, strong cup brewed in "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Barahona (Sierra de Bahoruco)",
+   "lat": 18.15,
+   "lng": -71.2,
+   "desc": {
+    "tr": "Güneybatıdaki Bahoruco dağlarından gelen Barahona, ülkenin en prestijli kahvesi sayılır ve zengin gövdesi ile belirgin asiditesi için bilinir.",
+    "en": "Grown in the Bahoruco mountains of the southwest, Barahona is widely regarded as the country's premium coffee, known for rich body and pronounced acidity."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Jarabacoa (Cordillera Central)",
+   "lat": 19.12,
+   "lng": -70.64,
+   "desc": {
+    "tr": "Orta dağlık bölgedeki Jarabacoa, karamelli notalar ve dengeli asidite sunan kahveleriyle ve çiftlik turlarıyla tanınır.",
+    "en": "In the central highlands, Jarabacoa is known for caramel-toned, balanced coffees and for farm tours."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Catuaí"
+   ]
+  },
+  {
+   "name": "Cibao / Cibao Altura",
+   "lat": 19.4,
+   "lng": -70.75,
+   "desc": {
+    "tr": "Kuzey vadisi ve yamaçları; Cibao dolgun gövdeli, tatlı-fındıksı ve düşük asiditeli kahveler verir, daha yüksek rakımlı Cibao Altura ise ülkenin daha iyi özel kahveleri arasındadır.",
+    "en": "The northern valley and its slopes: Cibao gives full-bodied, sweet, nutty, low-acid coffee, while higher-grown Cibao Altura is among the country's better specialty lots."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Juncalito",
+   "lat": 19.03,
+   "lng": -70.8,
+   "desc": {
+    "tr": "Orta dağlardaki serin havası sayesinde kahvesine hafif meyvemsi bir karakter kazandırır.",
+    "en": "Cooler air in the central mountains gives its coffee a touch of fruitiness."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "San José de Ocoa",
+   "lat": 18.55,
+   "lng": -70.5,
+   "desc": {
+    "tr": "Ocoa, yüksek rakımlı, yumuşak ve kolay içimli kahveleriyle bilinir.",
+    "en": "Ocoa produces well-regarded high-altitude coffee with a mellow, softer-bodied cup."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra"
+   ]
+  },
+  {
+   "name": "Baní / Valdesia",
+   "lat": 18.35,
+   "lng": -70.35,
+   "desc": {
+    "tr": "Güney yamaçlarındaki Baní ve Valdesia kahveleri yumuşak içimli ve daha hafif gövdelidir; Valdesia'nın iyi bir ünü vardır.",
+    "en": "Southern-slope coffees from Baní and Valdesia are mellow and softer-bodied, and Valdesia in particular has a strong reputation."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Neyba (Sierra de Neiba)",
+   "lat": 18.5,
+   "lng": -71.4,
+   "desc": {
+    "tr": "Neyba, resmen tanınan yedi kahve bölgesinden biridir ve Sierra de Neiba dağ yamaçlarında yetişir.",
+    "en": "Neyba is one of the seven officially recognised coffee regions, grown on the mountain slopes of the Sierra de Neiba."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Dominik kahvesinin yaklaşık %90'ını oluşturan ana çeşittir ve klasik Karayip tarzı, dolgun gövdeli bir fincan verir.",
+    "en": "The dominant cultivar, making up roughly 90% of Dominican coffee and giving a classic Caribbean cup with full mouthfeel."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Özellikle Barahona'da Typica ile birlikte yetiştirilen kompakt bir arabika çeşididir.",
+    "en": "A compact Arabica cultivar grown alongside Typica, notably in Barahona."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Daha küçük miktarlarda yetiştirilen, tatlı ve dengeli fincanlarıyla bilinen bir arabika çeşididir.",
+    "en": "An Arabica cultivar grown in smaller amounts, known for sweet, balanced cups."
+   }
+  },
+  {
+   "name": "Catuaí",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bazı çiftliklerde gölge ağaçları altında yetiştirilen, Mundo Novo–Caturra melezi bir arabika çeşididir.",
+    "en": "A Mundo Novo–Caturra hybrid Arabica grown under shade on some farms."
+   }
+  },
+  {
+   "name": "Robusta",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Arazinin çok küçük bir bölümünde yetiştirilir ve çoğunlukla yurt içinde tüketilir.",
+    "en": "Grown on only a very small share of the land area and mostly consumed locally."
+   }
+  },
+  {
+   "name": "Shade-grown washed Arabica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Küçük çiftçiler kahveyi guava, makadamya ve çam gibi ağaçların gölgesinde yetiştirir ve çoğunlukla yıkanmış işlemle hazırlar.",
+    "en": "Smallholders grow coffee under guava, macadamia and pine shade and mostly prepare it by the washed process."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café colado (colador / \"café de media\")",
+   "desc": {
+    "tr": "Geleneksel kırsal yöntemde kahve, kelebek ağına benzeyen bez süzgeçte sıcak suyla demlenir; bu yüzden şakayla \"çorap kahvesi\" de denir.",
+    "en": "The traditional rural method brews coffee in hot water through a small cloth strainer shaped like a butterfly net, jokingly called \"sock coffee\"."
+   }
+  },
+  {
+   "name": "Greca",
+   "desc": {
+    "tr": "Ocak üstünde kullanılan alüminyum moka cezvesidir; evlerde güçlü, kısa ve aromatik bir kahve yapmak için kullanılır.",
+    "en": "A stovetop aluminium moka-style pot used in homes to make strong, short, aromatic coffee."
+   }
+  },
+  {
+   "name": "Cafecito after lunch",
+   "desc": {
+    "tr": "Küçük, şekerli bir fincan kahve öğle yemeğinin ardından içilir; misafire kahve ikram etmek yaygın bir sosyal ritüeldir.",
+    "en": "A small sweetened cup of coffee is traditionally taken after lunch, and offering coffee to guests is a common social ritual."
+   }
+  },
+  {
+   "name": "Café con leche",
+   "desc": {
+    "tr": "Güçlü kahvenin sıcak sütle karıştırıldığı, İspanyol kökenli bir içecektir ve kahvaltıda yaygındır.",
+    "en": "A Spanish-heritage drink of strong coffee mixed with hot milk, common at breakfast."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Dominican Republic Coffee Ratings and Reviews - Coffee Review",
+   "url": "https://www.coffeereview.com/coffee-reference/coffee-categories/geographic-origins/coffees-from-the-americas/dominican-republic/"
+  },
+  {
+   "title": "Learn About Dominican Coffee & Its Excellent Qualities",
+   "url": "https://www.mysticmonkcoffee.com/blogs/learn-about-coffee/dominican-coffee"
+  },
+  {
+   "title": "Dominican Coffee: The Regions and Producers Worth Knowing",
+   "url": "https://www.grandbay-puntacana.com/blog/local-businesses/dominican-coffee-producers-guide"
+  },
+  {
+   "title": "Dominican Republic Coffee Beans - Espresso & Coffee Guide",
+   "url": "https://espressocoffeeguide.com/gourmet-coffee/coffees-of-the-americas/dominican-republic-coffee/"
+  },
+  {
+   "title": "The Ultimate Guide to Dominican Republic Coffee: Everything You Need to Know",
+   "url": "https://www.roastycoffee.com/dominican-republic-coffee/"
+  },
+  {
+   "title": "Domincan Coffee Beans: Ultimate Guide + Best Coffees To Try",
+   "url": "https://homecoffeeexpert.com/dominican-coffee/"
+  },
+  {
+   "title": "Coffee production in the Dominican Republic",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_the_Dominican_Republic"
+  },
+  {
+   "title": "From Bean to Cup - Coffee in the Dominican Republic",
+   "url": "https://drsimplified.com/dominican-coffee"
+  }
+ ]
+}

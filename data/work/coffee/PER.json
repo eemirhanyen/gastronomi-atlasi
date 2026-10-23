@@ -1,0 +1,225 @@
+{
+ "iso3": "PER",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 51587,
+  "out": 3937,
+  "searches": 3
+ },
+ "usd": 0.1725,
+ "summary": {
+  "tr": "Kahve Peru'ya 18. yüzyılın ortasında, büyük olasılıkla Ekvador üzerinden girdi. Yaklaşık 200 yıl boyunca yalnızca yerel tüketim için yetiştirildi; ihracat 19. yüzyıl sonunda, Asya'daki kahve pası salgınının ardından başladı. Bugün kahve, And Dağları'nın doğu yamaçlarında çoğunlukla organik ve gölgede yetişen, küçük üretici kooperatiflerine dayalı bir üründür. Peru'da iç tüketim düşüktür: gelenekse",
+  "en": "Coffee reached Peru in the mid-18th century, most likely via Ecuador. It was grown only for local use for nearly 200 years, and exports began in the late 1800s after coffee rust devastated Asian plantations. Today it is a smallholder, cooperative-based crop, often organic and shade-grown, on the eastern Andean slopes. Domestic consumption is low: the traditional drink is a concentrated 'esencia / "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Cajamarca (Jaén & San Ignacio)",
+   "lat": -5.5,
+   "lng": -78.8,
+   "desc": {
+    "tr": "Peru'nun en tanınmış nitelikli kahve bölgesidir; Cup of Excellence kazananlarıyla öne çıkar, parlak asiditeli, tatlı, meyve ve karamel notalı fincanlar verir.",
+    "en": "Peru's best-known specialty region, home to Cup of Excellence winners, with sweet, bright-acidity cups showing fruit and caramel notes."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Bourbon",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Amazonas (Rodríguez de Mendoza)",
+   "lat": -6.0,
+   "lng": -77.6,
+   "desc": {
+    "tr": "Zengin biyolojik çeşitliliğin ortasında yetişen, Cajamarca'ya benzeyen ama daha dolgun gövdeli, çikolata ve karamel notalı kahveleriyle bilinir.",
+    "en": "Grown amid rich biodiversity, its coffees resemble Cajamarca's but with more body and notes of chocolate and caramel."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "San Martín (Moyobamba, Tarapoto)",
+   "lat": -6.5,
+   "lng": -76.8,
+   "desc": {
+    "tr": "Hacim olarak en büyük üretici bölgedir; And'lardan Amazon havzasına geçişte, orta gövdeli, çikolata, fındık ve karamel notalı kahveler verir.",
+    "en": "The largest producing region by volume, on the Andes–Amazon transition, giving medium-bodied coffees with chocolate, nut and caramel notes."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Catimor",
+    "Bourbon"
+   ]
+  },
+  {
+   "name": "Junín (Chanchamayo, Satipo)",
+   "lat": -11.0,
+   "lng": -75.3,
+   "desc": {
+    "tr": "Peru kahvesinin tarihî ticaret merkezidir; 'Chanchamayo' uzun süre Peru kahvesinin kısaltması olarak kullanılmıştır ve dengeli, çikolata-karamel notalı kahveler verir.",
+    "en": "The historic commercial heart of Peruvian coffee, where 'Chanchamayo' long served as shorthand for Peru, known for balanced chocolate-and-caramel cups."
+   },
+   "grapes": [
+    "Caturra",
+    "Catimor",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Cusco (La Convención, Quillabamba)",
+   "lat": -12.8,
+   "lng": -72.7,
+   "desc": {
+    "tr": "Machu Picchu yakınındaki sıcak vadilerde, bazen 'Machu Picchu Coffee' etiketiyle satılan, tatlı, karamelli ve çikolatalı dengeli kahveler yetişir.",
+    "en": "Warm valleys near Machu Picchu yield balanced, sweet, caramel-and-chocolate coffees, sometimes sold under the 'Machu Picchu Coffee' label."
+   },
+   "grapes": [
+    "Caturra",
+    "Bourbon",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Puno (Sandia)",
+   "lat": -14.3,
+   "lng": -69.5,
+   "desc": {
+    "tr": "Titikaka Gölü'nün kuzeyindeki yüksek ve uzak vadilerde yetişen, uluslararası yarışmalarda ödüllendirilmiş küçük hacimli kahveleriyle bilinir.",
+    "en": "Remote high-altitude valleys beyond Lake Titicaca produce small volumes of award-winning coffees at international competitions."
+   },
+   "grapes": [
+    "Typica",
+    "Caturra",
+    "Catimor"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Peru'nun tarihî ve en yaygın arabica çeşididir; fincan kalitesi yüksektir ancak verimi düşük ve pasa karşı hassastır.",
+    "en": "Peru's historic and most widely planted arabica variety, with high cup quality but low yields and high susceptibility to rust."
+   }
+  },
+  {
+   "name": "Caturra",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Bourbon'un kısa boylu mutasyonudur; Peru'nun tüm ana bölgelerinde verimli ve yaygın biçimde yetiştirilir.",
+    "en": "A compact Bourbon mutation, grown across all of Peru's main regions for its higher productivity."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Tatlı ve karmaşık fincanlarıyla Cajamarca, San Martín ve Cusco'da yetiştirilen eski bir arabica çeşididir.",
+    "en": "An old arabica variety grown in Cajamarca, San Martín and Cusco for its sweet, complex cup."
+   }
+  },
+  {
+   "name": "Catimor",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Robusta kökenli genler taşıyan, pasa dayanıklı bir melezdir; 2013 pas salgınından sonra daha çok ekilmiştir.",
+    "en": "A rust-resistant hybrid with Robusta genetics, planted more widely after the 2013 rust epidemic."
+   }
+  },
+  {
+   "name": "Geisha",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Yüksek rakımlı lotlarda sınırlı miktarda yetiştirilen, çiçeksi notalarıyla değerli bir nitelikli kahve çeşididir.",
+    "en": "A prized specialty variety grown in small quantities at high altitude for its floral profile."
+   }
+  },
+  {
+   "name": "Washed (yıkanmış) işleme",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Peru'da baskın işleme yöntemidir; temiz ve dengeli fincanlar verir, bal (honey) işleme ise yeni yaygınlaşmaktadır.",
+    "en": "The dominant processing method in Peru, giving clean, balanced cups, with honey processing now emerging."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café pasado / esencia de café",
+   "desc": {
+    "tr": "Damlama (gota a gota) demliğinde yavaşça süzülen yoğun kahve özüdür; sofraya küçük bir sürahiyle gelir ve kişi sıcak su veya sütle kendi isteğine göre açar.",
+    "en": "A concentrated coffee extract slowly dripped in a 'gota a gota' pot, served in a small pitcher and diluted by the drinker with hot water or milk."
+   }
+  },
+  {
+   "name": "Hazır kahve ile sıcak su (Nescafé)",
+   "desc": {
+    "tr": "Sade kahve istendiğinde çoğu zaman bir fincan sıcak su, hazır kahve kavanozu ve şeker gelir; hazır kahve iç pazarın en büyük kategorisidir.",
+    "en": "Ordering a plain coffee often brings hot water with a jar of instant coffee and sugar, and instant remains the largest category in the domestic market."
+   }
+  },
+  {
+   "name": "Café con leche",
+   "desc": {
+    "tr": "Aynı yoğun özün sıcak sütle karıştırılmasıyla hazırlanan, yerel kahvaltıların olağan içeceğidir; genellikle ekmek veya hamur işiyle yenir.",
+    "en": "The same concentrate mixed with warm milk, a standard breakfast drink at local spots, typically taken with bread or pastry."
+   }
+  },
+  {
+   "name": "Nitelikli kahve kültürü (espresso, filtre, latte art)",
+   "desc": {
+    "tr": "2009'da kurulan Artebar gibi barista dernekleri ve 2016'dan sonraki kafe patlamasıyla Lima ve Cusco'da tek menşei espresso, pour-over ve latte art yaygınlaştı.",
+    "en": "Since baristas' association Artebar (2009) and a café boom after 2016, Lima and Cusco serve single-origin espresso, pour-over and latte art."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Peru Coffee - Flavors, Regions & Roasters",
+   "url": "https://unpacking.coffee/origins/peru"
+  },
+  {
+   "title": "A Guide to Peru’s Coffee-Producing Regional Profiles - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2019/11/a-guide-to-perus-coffee-producing-regional-profiles/"
+  },
+  {
+   "title": "Peruvian Coffee",
+   "url": "https://www.peru.travel/gastronomy/en/peruvian-products/coffee.html"
+  },
+  {
+   "title": "Peru Coffee Beans Guide: Andes Highland Specialty & How to Choose",
+   "url": "https://coffee-guide.jp/en/beans/peru-coffee-beans-guide"
+  },
+  {
+   "title": "Peru Coffee Guide: Varieties, Growing Regions & Harvest",
+   "url": "https://www.harmonycoffee.co.uk/blogs/coffee-origins/peru-coffee"
+  },
+  {
+   "title": "Coffee production in Peru",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Peru"
+  },
+  {
+   "title": "Peru Coffee: The Andean Organic Powerhouse Building Its Specialty Iden",
+   "url": "https://brewfusionshop.com/blogs/news/peru-coffee-the-andean-organic-powerhouse-building-its-specialty-identity"
+  },
+  {
+   "title": "Peruvian Coffee: A Journey from the Andes to Your Cup",
+   "url": "https://octavecoffee.com/blogs/lessons-weve-learned/peruvian-coffee-a-journey-from-the-andes-to-your-cup"
+  }
+ ]
+}

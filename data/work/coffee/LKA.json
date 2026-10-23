@@ -1,0 +1,204 @@
+{
+ "iso3": "LKA",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 26148,
+  "out": 3398,
+  "searches": 2
+ },
+ "usd": 0.1063,
+ "summary": {
+  "tr": "Kahve Sri Lanka'ya Hollanda döneminde (18. yüzyıl) denemelik olarak girdi. 1830'larda İngilizler Kandy çevresindeki dağlarda büyük ölçekli plantasyonlar kurdu ve ada 1870 dolayında yaklaşık 111.400 hektarlık ekim alanıyla dünyanın önde gelen üreticileri arasına girdi. Ardından kahve pası hastalığı bu üretimi çökertti ve ada çaya yöneldi. Kahve 1990'lardan beri küçük ölçekte, giderek artan arabika ",
+  "en": "Coffee reached Sri Lanka through Dutch experiments in the 18th century. In the 1830s the British began large-scale plantations in the hills around Kandy, and by about 1870 the island had roughly 111,400 hectares under coffee and was among the world's leading producers. Coffee leaf rust then wiped out the industry and the island switched to tea. Coffee has made a small-scale comeback since the 1990"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Nuwara Eliya",
+   "lat": 6.97,
+   "lng": 80.77,
+   "desc": {
+    "tr": "Orta dağlıkların yüksek rakımlı arabika bölgesi; küçük partili, özenle işlenen kahveleriyle tanınır.",
+    "en": "A high-elevation arabica area in the central highlands, known for small-lot, carefully processed coffees."
+   },
+   "grapes": [
+    "Arabica",
+    "Lakparakum",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Badulla–Welimada",
+   "lat": 6.9,
+   "lng": 80.95,
+   "desc": {
+    "tr": "Uva tepelerinde, küçük çiftliklerin özel kahve (specialty) üretmeye çalıştığı arabika bölgesi.",
+    "en": "An arabica zone in the Uva hills where small farms are producing specialty-grade lots."
+   },
+   "grapes": [
+    "Arabica",
+    "Lakparakum",
+    "HTD"
+   ]
+  },
+  {
+   "name": "Kandy",
+   "lat": 7.29,
+   "lng": 80.63,
+   "desc": {
+    "tr": "1820'lerde ilk büyük dağ plantasyonlarının kurulduğu tarihî 'Seylan kahvesi' beşiği; bugün hem arabika hem robusta yetişir.",
+    "en": "The historic heart of 'Ceylon coffee', where the first big hill plantations were set up in the 1820s; both arabica and robusta grow here today."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Matale",
+   "lat": 7.47,
+   "lng": 80.62,
+   "desc": {
+    "tr": "Knuckles dağlarının eteklerinde, arabikanın ve robustanın birlikte yetiştiği bölge.",
+    "en": "A foothill district beside the Knuckles range where arabica and robusta are grown together."
+   },
+   "grapes": [
+    "Arabica",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Kegalle",
+   "lat": 7.25,
+   "lng": 80.35,
+   "desc": {
+    "tr": "Daha alçak, nemli kuşakta robusta üretiminin ana bölgelerinden biri.",
+    "en": "One of the main robusta areas, in the lower, wetter zone."
+   },
+   "grapes": [
+    "Robusta",
+    "IMY",
+    "Lanka Chandra"
+   ]
+  },
+  {
+   "name": "Kurunegala",
+   "lat": 7.49,
+   "lng": 80.37,
+   "desc": {
+    "tr": "800 metrenin altındaki ara kuşakta yetişen robusta ile bilinir.",
+    "en": "Known for robusta grown in the intermediate zone below 800 m."
+   },
+   "grapes": [
+    "Robusta",
+    "CCI",
+    "S274"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Arabica – Lakparakum",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "2000'lerde yaygınlaşan; yüksek verim, eşit olgunlaşma ve pas direnci sunan yerel arabika çeşidi.",
+    "en": "A locally released arabica that spread in the 2000s, valued for high yield, even ripening and rust resistance."
+   }
+  },
+  {
+   "name": "Arabica – Catimor / HTD",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "1990'lardan itibaren yayılan, pasa dayanıklı, verimli melez arabika grupları.",
+    "en": "High-yielding, rust-tolerant hybrid arabica lines that spread from the 1990s."
+   }
+  },
+  {
+   "name": "Arabica – San Ramon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "1980'lerde ilgi gören bodur arabika çeşidi.",
+    "en": "A dwarf arabica cultivar that gained ground in the 1980s."
+   }
+  },
+  {
+   "name": "Robusta – IMY / Lanka Chandra",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Alçak ve orta kuşakta ekilen, Tarım Dairesi'nin önerdiği robusta çeşitleri.",
+    "en": "Robusta cultivars recommended by the Department of Export Agriculture for the low and intermediate zones."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Instant coffee with milk (Kiri Kopi)",
+   "desc": {
+    "tr": "Evlerde, ofislerde ve küçük dükkânlarda en yaygın içilen kahve; hazır Nescafé sütle ve bolca şekerle hazırlanır.",
+    "en": "The most widely drunk coffee at home, in offices and small shops: instant Nescafé, usually made with milk and plenty of sugar."
+   }
+  },
+  {
+   "name": "Tea kade coffee",
+   "desc": {
+    "tr": "Geleneksel çay dükkânları (kade) çayın yanında kahve ve atıştırmalıklar da sunan sosyal buluşma noktalarıdır.",
+    "en": "Traditional tea shops (kade) are social hubs that serve coffee and snacks alongside tea."
+   }
+  },
+  {
+   "name": "Sri Lankan 'ice coffee'",
+   "desc": {
+    "tr": "Doğum günü ve düğünlerde ikram edilen, tatlı ve soğuk servis edilen kahve içeceği.",
+    "en": "A sweet, cold coffee drink traditionally served as a treat at birthday parties and weddings."
+   }
+  },
+  {
+   "name": "Third-wave café espresso and filter",
+   "desc": {
+    "tr": "Colombo, Kandy ve Galle'deki üçüncü dalga kafeler espresso bazlı içecekler ve yerli tek menşei arabikaları sunar.",
+    "en": "Third-wave cafés in Colombo, Kandy and Galle serve espresso-based drinks and local single-origin arabica."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Coffee from Sri Lanka",
+   "url": "https://www.srilankabusiness.com/blog/coffee-from-sri-lanka.html"
+  },
+  {
+   "title": "Evolution of coffee in Sri Lanka",
+   "url": "https://www.linkedin.com/pulse/evolution-coffee-sri-lanka-chronicle-despair-triumph-samsudeen"
+  },
+  {
+   "title": "Coffee",
+   "url": "https://dea.gov.lk/coffee/"
+  },
+  {
+   "title": "Sri Lanka Coffee Beans - Espresso & Coffee Guide",
+   "url": "https://espressocoffeeguide.com/gourmet-coffee/asian-indonesian-and-pacific-coffees/sri-lanka-coffee/"
+  },
+  {
+   "title": "Coffee production in Sri Lanka",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Sri_Lanka"
+  },
+  {
+   "title": "Cocoa production in Sri Lanka",
+   "url": "https://en.wikipedia.org/wiki/Cocoa_production_in_Sri_Lanka"
+  },
+  {
+   "title": "Ceylons Coffee Legacy - Picker's Pocket",
+   "url": "https://pickerspocket.com/blogs/news/ceylons-coffee-legacy-1"
+  },
+  {
+   "title": "Evolution of Coffee Culture in Sri Lanka - Coffee News and Stories",
+   "url": "https://www.beantrails.coffee/news/evolution-of-coffee-culture-in-sri-lanka"
+  }
+ ]
+}

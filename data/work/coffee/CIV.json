@@ -1,0 +1,195 @@
+{
+ "iso3": "CIV",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 22119,
+  "out": 4446,
+  "searches": 2
+ },
+ "usd": 0.1087,
+ "summary": {
+  "tr": "Kahve, 1870'lerde Fransız misyonerlerin Tabou civarına Liberica kahvesi getirmesiyle Fildişi Sahili'ne girdi. Robusta 20. yüzyıl başında yayıldı. Ülke 1970'lerde Brezilya ve Kolombiya'dan sonra dünyanın üçüncü büyük üreticisiydi. Üretim 2000'de 380.000 tonla zirve yaptı, sonra 2002-2011 iç savaşları ve düşen yatırımlar nedeniyle azaldı. Ülkede köklü bir kahve içme kültürü yoktur. Günlük tüketim uz",
+  "en": "Coffee reached Côte d'Ivoire in the 1870s, when French missionaries brought Liberica to the Tabou area. Robusta spread in the early 20th century. In the 1970s the country was the world's third-largest producer after Brazil and Colombia. Output peaked at 380,000 tonnes in 2000, then fell because of the 2002–2011 civil wars and weak investment. There is no deep-rooted domestic coffee-drinking herita"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Man & Western Mountains (Montagnes)",
+   "lat": 7.4,
+   "lng": -7.55,
+   "desc": {
+    "tr": "Man çevresindeki dağlık batı, hem robusta hem de arabusta melezi için elverişlidir ve 'Başkanlık Kahvesi' arabustanın yetiştiği yerdir.",
+    "en": "The mountainous west around Man suits both robusta and the arabusta hybrid, and it is where the 'Presidential Coffee' arabusta is grown."
+   },
+   "grapes": [
+    "Robusta",
+    "Arabusta"
+   ]
+  },
+  {
+   "name": "Daloa & Haut-Sassandra (Centre-West)",
+   "lat": 6.88,
+   "lng": -6.45,
+   "desc": {
+    "tr": "Marahoué, Fromager ve Haut-Sassandra'yı kapsayan orta-batı, 2006'da ulusal üretimin yaklaşık %42'sini veren ikinci büyük kahve bölgesiydi.",
+    "en": "The centre-west (Marahoué, Fromager, Haut-Sassandra) was the second-largest coffee zone, with about 42% of national output in 2006."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Bouaflé & Marahoué",
+   "lat": 6.99,
+   "lng": -5.74,
+   "desc": {
+    "tr": "Bouaflé, 1930'larda Daloa ile birlikte kurulan eski plantasyon kuşağının parçasıdır ve geleneksel orman kuşağı robustası üretir.",
+    "en": "Bouaflé belongs to the older plantation belt set up in the 1930s alongside Daloa, and it produces traditional forest-zone robusta."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Divo & Lagunes/South",
+   "lat": 5.84,
+   "lng": -5.36,
+   "desc": {
+    "tr": "Güneyde Divo departmanı, 2006'da bölge üretiminin yaklaşık %56'sını verdi. Burada robusta, kakao ağaçlarının gölgesinde sıkça birlikte yetiştirilir.",
+    "en": "In the south, Divo department supplied about 56% of the zone's 2006 output. Robusta here is often grown alongside shading cocoa trees."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Abengourou & Aboisso (East)",
+   "lat": 6.3,
+   "lng": -3.4,
+   "desc": {
+    "tr": "Doğu, ülkenin en eski kahve üretim bölgesidir. İlk plantasyonlar 1881'de Assinie yöresinde kuruldu.",
+    "en": "The east is the country's oldest coffee-producing area. The first plantations were established near Assinie in 1881."
+   },
+   "grapes": [
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Soubré & Tabou (South-West / Bas-Sassandra)",
+   "lat": 5.2,
+   "lng": -6.7,
+   "desc": {
+    "tr": "Güneybatı, Liberia sınırındaki Tabou yakınında Liberica'nın ilk getirildiği yerdir. Bugün robusta ağırlıklıdır, ancak birçok çiftlik kakaoya dönüşmüştür.",
+    "en": "The south-west, near Tabou on the Liberian border, is where Liberica first arrived. Today it is robusta-dominated, though many farms have converted to cocoa."
+   },
+   "grapes": [
+    "Robusta",
+    "Liberica (historical)"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Ülkenin neredeyse tüm kahvesi robustadır. 20. yüzyıl başında Java ve Kongo kaynaklı materyalle yayıldı ve ağırlıklı olarak ihraç edilir.",
+    "en": "Almost all Ivorian coffee is robusta. It spread in the early 20th century from Java and Congo-derived stock and is mostly exported."
+   }
+  },
+  {
+   "name": "Arabusta (arabica × robusta hybrid)",
+   "type": "other",
+   "native": true,
+   "desc": {
+    "tr": "1960'larda Houphouët-Boigny'nin robustadan daha tatlı ve yumuşak bir kahve istemesiyle geliştirilen, Man çevresinde yetişen melez; 'Başkanlık Kahvesi' olarak pazarlandı.",
+    "en": "A hybrid developed in the 1960s after Houphouët-Boigny wanted a sweeter, milder coffee than robusta. It is grown around Man and was marketed as the 'Presidential Coffee'."
+   }
+  },
+  {
+   "name": "Liberica (Coffea liberica)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "1870'lerde Tabou'ya getirilen, Liberya kökenli nadir tür; ticari ölçekli robusta üretiminden önce küçük miktarlarda yetiştirilirdi.",
+    "en": "A rare species of Liberian origin, brought to Tabou in the 1870s. It was grown in small volumes before commercial robusta."
+   }
+  },
+  {
+   "name": "Natural/unwashed robusta (dry processing)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Ülke, yıkanmamış (kuru işlenmiş) robustanın en büyük üreticilerinden biridir. İnce robusta (fine robusta) girişimleri ise kaliteyi yükseltmeye çalışıyor.",
+    "en": "The country is one of the largest producers of unwashed (dry-processed) robusta. Fine-robusta initiatives are trying to raise quality."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Instant Nescafé (sachets and kiosk stands)",
+   "desc": {
+    "tr": "Günlük kahve tüketiminin çoğu hazır kahve poşetleri ve sokak büfeleriyle yapılır. Abidjan'daki Nescafé fabrikası 65 yıldan uzun süredir yerli çekirdekten hazır kahve üretiyor.",
+    "en": "Most everyday coffee is instant, drunk from sachets and street kiosks. The Nescafé factory in Abidjan has made instant coffee from locally grown beans for over 65 years."
+   }
+  },
+  {
+   "name": "Café noir at roadside kiosks",
+   "desc": {
+    "tr": "Düşük gelirli kesimin içtiği, yol kenarı büfelerinde servis edilen acı, demleme siyah kahvedir.",
+    "en": "A bitter brewed black coffee served from roadside kiosks, mostly drunk by lower-income consumers."
+   }
+  },
+  {
+   "name": "Capsule coffee (Nespresso-type)",
+   "desc": {
+    "tr": "Daha varlıklı Ivoryalılar, ofis ve evlerde ulaşılabilen en kaliteli kahve olarak kapsülleri görür. Tüketim yavaş yavaş hazır kahveden kapsüle kayıyor.",
+    "en": "Wealthier Ivorians see capsules as the best coffee generally available. Consumption is slowly shifting from instant to capsules."
+   }
+  },
+  {
+   "name": "Specialty cafés in Abidjan",
+   "desc": {
+    "tr": "Küçük ama büyüyen kafe ve kavurucu sayısı, yerli ince robusta ve arabustayı izlenebilirlik ve filtre/espresso yöntemleriyle sunuyor.",
+    "en": "A small but growing number of cafés and roasters serve local fine robusta and arabusta, with traceability and modern brewing methods."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "A guide to the coffee sector in Côte d’Ivoire - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2022/07/guide-to-coffee-sector-in-cote-divoire/"
+  },
+  {
+   "title": "Robusta Coffee Value Intensification: The Case for Good Agronomy - Growing Africa",
+   "url": "https://growingafrica.pub/robusta-coffee-value-intensification-the-case-for-good-agronomy/"
+  },
+  {
+   "title": "(PDF) Agro-climatic Update of Favorable Areas to the Cultivation of Robusta and Arabusta Coffee in Côte d'Ivoire",
+   "url": "https://www.researchgate.net/publication/377391982_Agro-climatic_Update_of_Favorable_Areas_to_the_Cultivation_of_Robusta_and_Arabusta_Coffee_in_Cote_d'Ivoire"
+  },
+  {
+   "title": "Ivory Coast Coffee: From Cocoa to Coffee and Back Again",
+   "url": "https://www.omwani.com/post/ivory-coast-coffee"
+  },
+  {
+   "title": "Genetic diversity of wild and cultivated *Coffea* canephora in northeastern DR Congo and the implications for conservation",
+   "url": "https://www.biorxiv.org/content/10.1101/2021.08.09.455630.full.pdf"
+  },
+  {
+   "title": "Ivory Coast Coffee - Cote D'Ivoire Coffee - Espresso & Coffee Guide",
+   "url": "https://espressocoffeeguide.com/gourmet-coffee/arabian-and-african-coffees/ivory-coast-coffee-cote-divoire-coffee/"
+  },
+  {
+   "title": "Coffee production in Cameroon",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Cameroon"
+  },
+  {
+   "title": "Genetic improvement of robusta coffee (Coffea canephora) in the 20th and 21st centuries: prospects for increasing future breeding effectiven",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12852393/"
+  }
+ ]
+}

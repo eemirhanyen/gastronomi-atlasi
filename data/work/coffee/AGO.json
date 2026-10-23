@@ -1,0 +1,215 @@
+{
+ "iso3": "AGO",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 47477,
+  "out": 4279,
+  "searches": 3
+ },
+ "usd": 0.1677,
+ "summary": {
+  "tr": "Kahve, 1830'larda Portekizli yerleşimciler eliyle Angola'ya girdi. İlk kayıtlı çiftlik 1837'de bir Brezilyalı çiftçi tarafından kuruldu. 1970'lerin başında ülke dünyanın en büyük üreticileri arasındaydı ve yıllık üretim yaklaşık 200.000 tonun üzerindeydi; üretimin çoğu robustaydı. İç savaş ve plantasyonların terk edilmesi üretimi on binlerce tondan birkaç bin tona düşürdü ve bugün küçük aile çiftç",
+  "en": "Coffee reached Angola with Portuguese settlers in the 1830s, and the first recorded farm was set up by a Brazilian farmer in 1837. By the early 1970s Angola was one of the world's largest producers, at over 200,000 tonnes a year, mostly robusta. Civil war and abandoned plantations cut output to a few thousand tonnes. Small family farmers now supply about 95% of production. Domestic consumption is "
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Uíge",
+   "lat": -7.61,
+   "lng": 15.06,
+   "desc": {
+    "tr": "Kuzeybatıdaki en büyük üretici illerden biridir ve Portekiz'de çok sevilen yumuşak içimli Ambriz robustasıyla bilinir.",
+    "en": "One of the largest producers in the north, known for Ambriz robusta, a milder robusta that is very popular in Portugal."
+   },
+   "grapes": [
+    "Robusta Ambriz"
+   ]
+  },
+  {
+   "name": "Cuanza Norte (Cazengo)",
+   "lat": -9.3,
+   "lng": 14.91,
+   "desc": {
+    "tr": "Sömürge döneminde ekonomiyi kahve ayakta tutmuştur; bugün nehir yataklarına yakın, organik yetiştirilen Cazengo robustasıyla yeniden canlanıyor.",
+    "en": "Coffee drove its economy in colonial times, and it is now reviving with Cazengo robusta, grown organically near river beds."
+   },
+   "grapes": [
+    "Robusta Cazengo",
+    "Robusta Ambriz"
+   ]
+  },
+  {
+   "name": "Cuanza Sul (Amboim / Gabela)",
+   "lat": -10.85,
+   "lng": 14.35,
+   "desc": {
+    "tr": "Orta Angola'nın en büyük üreticisidir; Amboim robustası fiyat ve lezzet açısından ülkenin en değerli kahvesi sayılır.",
+    "en": "The largest producer in central Angola, home to Amboim robusta, regarded as the country's most valuable coffee in price and taste."
+   },
+   "grapes": [
+    "Robusta Amboim",
+    "Robusta Ambriz",
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Bengo (Ambriz)",
+   "lat": -8.6,
+   "lng": 13.6,
+   "desc": {
+    "tr": "Luanda'nın kuzeyindeki kıyı kuşağında yer alır ve Ambriz tipi robusta kahvenin ana yetiştirme bölgelerinden biridir.",
+    "en": "A coastal area north of Luanda and one of the main growing areas for Ambriz-type robusta."
+   },
+   "grapes": [
+    "Robusta Ambriz"
+   ]
+  },
+  {
+   "name": "Cabinda",
+   "lat": -5.2,
+   "lng": 12.6,
+   "desc": {
+    "tr": "Kuzeydeki kıyı ve orman enklavında yetişen, kendi adını taşıyan Cabinda robustasının kaynağıdır.",
+    "en": "A northern coastal and forest enclave that gives its name to Cabinda robusta."
+   },
+   "grapes": [
+    "Robusta Cabinda"
+   ]
+  },
+  {
+   "name": "Orta Yayla (Huambo, Bié, Huíla, Benguela)",
+   "lat": -12.6,
+   "lng": 15.9,
+   "desc": {
+    "tr": "Yüksek rakımlı yaylalarda yeni kurulan arabika çiftliklerine ev sahipliği yapar ve ülkenin küçük arabika üretimi buradan gelir.",
+    "en": "The high-altitude central plateau, where newly established arabica farms produce Angola's small volume of arabica."
+   },
+   "grapes": [
+    "Arabica (Catuaí)",
+    "Robusta Amboim"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta Amboim",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Cuanza Sul kökenli, fiyat ve lezzet bakımından Angola'nın en değerli robustası olarak görülür.",
+    "en": "From Cuanza Sul, considered Angola's most valuable robusta in price and taste."
+   }
+  },
+  {
+   "name": "Robusta Ambriz",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Uíge, Bengo ve Cuanza Norte'de yetişen, yumuşak içimli ve Portekiz pazarında sevilen robusta.",
+    "en": "A milder robusta grown in Uíge, Bengo and Cuanza Norte, popular in the Portuguese market."
+   }
+  },
+  {
+   "name": "Robusta Cazengo",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Cuanza Norte'de nehir yataklarına yakın yetişen, organik ve ağırlıklı olarak ihraç edilen robusta.",
+    "en": "A Cuanza Norte robusta grown near river beds, organic and largely exported."
+   }
+  },
+  {
+   "name": "Robusta Cabinda",
+   "type": "robusta",
+   "native": true,
+   "desc": {
+    "tr": "Kuzeydeki Cabinda eyaletinden gelen, bölgesel robusta tipidir.",
+    "en": "The regional robusta type from the northern province of Cabinda."
+   }
+  },
+  {
+   "name": "Arabika (Catuaí)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Yalnızca yüksek yayla bölgelerinde, küçük ölçekte yetiştirilir ve ihracatın yaklaşık %5'ini oluşturur.",
+    "en": "Grown only in small volumes on the high plateau, accounting for around 5% of exports."
+   }
+  },
+  {
+   "name": "Doğal (güneşte kurutulmuş) işleme",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Angola robustasının çoğu doğal işlenir ve güneşte kurutulur; yıkama yöntemi ise çoğunlukla deneme düzeyindedir.",
+    "en": "Most Angolan robusta is natural processed and sun dried, while washed processing is still mostly experimental."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Café / bica (Portekiz tarzı kısa kahve)",
+   "desc": {
+    "tr": "Luanda'daki pastelarya ve kafelerde Portekiz mirasını yansıtan güçlü, kısa kahve ve pastel de nata gibi hamur işleriyle servis edilir.",
+    "en": "Strong, short coffee served in Luanda's pastelarias and cafés with pastries such as pastel de nata, reflecting the Portuguese legacy."
+   }
+  },
+  {
+   "name": "Matabicho (kahvaltı kahvesi)",
+   "desc": {
+    "tr": "Matabicho, Angola'da kahvaltı için kullanılan bir deyimdir ve sabah kahvesi genellikle tatlı bir hamur işi ya da ekmekle içilir.",
+    "en": "Matabicho is the Angolan word for breakfast, and morning coffee is typically taken with a sweet pastry or bread."
+   }
+  },
+  {
+   "name": "Sokak termos kahvesi",
+   "desc": {
+    "tr": "Şirketler mahalleleri dolaşan satıcılarla termostan fincan başına yaklaşık 100 kwanzaya kahve satarak tüketimi yaygınlaştırmaya çalışıyor.",
+    "en": "Companies send vendors through neighbourhoods selling coffee from thermoses for around 100 kwanza a cup, to build a coffee-drinking habit."
+   }
+  },
+  {
+   "name": "Kapsül ve kavrulmuş yerel markalar (ör. Ginga)",
+   "desc": {
+    "tr": "Luanda'da üretilen Ginga gibi kapsül ve kavrulmuş kahve markaları, yerli robustayı kentli tüketicilere ulaştırıyor.",
+    "en": "Capsule and roasted brands made in Luanda, such as Ginga, bring local robusta to urban consumers."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Understanding coffee production in Angola - Perfect Daily Grind",
+   "url": "https://perfectdailygrind.com/2021/11/understanding-coffee-production-in-angola/"
+  },
+  {
+   "title": "Report Name:Angola Coffee",
+   "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Angola+Coffee_Luanda_Angola_03-25-2021.pdf"
+  },
+  {
+   "title": "Angola, la produzione del caffè è vero il tesoro nascosto del Paese",
+   "url": "https://www.comunicaffe.it/caffe-produzione-angola/"
+  },
+  {
+   "title": "Coffee production in Angola",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Angola"
+  },
+  {
+   "title": "Cuanza Norte Province",
+   "url": "https://en.wikipedia.org/wiki/Cuanza_Norte_Province"
+  },
+  {
+   "title": "Angola Coffee Production and Sourcing Guide",
+   "url": "https://www.omwani.com/post/angola-coffee-production-and-sourcing-guide"
+  },
+  {
+   "title": "Angola seeks to reclaim global coffee standing, starting with quality",
+   "url": "https://macaonews.org/news/lusofonia/angola-coffee-production/"
+  },
+  {
+   "title": "Origins",
+   "url": "https://www.southerncoffeeangola.com/about/"
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "iso3": "JPN",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24166,
+  "out": 2934,
+  "searches": 2
+ },
+ "usd": 0.0977,
+ "summary": {
+  "tr": "Kahve 17. yüzyılda Hollandalı tüccarlarla Japonya'ya girdi, ancak asıl yayılması Meiji döneminde oldu. İlk kahvehane olan Kahiichakan 1888'de Tokyo'nun Ueno semtinde açıldı. Bugün Japonya dünyanın en büyük kahve tüketicileri arasında yer alıyor. Kahvenin neredeyse tamamı ithal ediliyor. Yerli üretim yalnızca Ogasawara, Okinawa ve Kagoshima gibi sıcak adalarda ve güneyde, yaklaşık 10 tonluk küçük b",
+  "en": "Coffee reached Japan with Dutch traders in the 17th century but only took hold in the Meiji era, when the first coffeehouse, Kahiichakan, opened in Tokyo's Ueno district in 1888. Japan is now one of the world's largest coffee consumers. Almost all of its coffee is imported, and domestic production is tiny, roughly 10 tonnes a year, grown on warm southern and island sites such as Ogasawara, Okinawa"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Ogasawara Islands (Chichijima, Hahajima), Tokyo",
+   "lat": 27.07,
+   "lng": 142.2,
+   "desc": {
+    "tr": "1878'de başlayan, bugün elle toplanan ve çok az miktarda üretilen Typica kahvesiyle tanınır; en büyük tehdit tayfunlardır.",
+    "en": "Known for tiny hand-harvested Typica lots from trees first planted in 1878, with typhoons as the main threat."
+   },
+   "grapes": [
+    "Typica"
+   ]
+  },
+  {
+   "name": "Okinawa (Yanbaru, northern Okinawa Island)",
+   "lat": 26.7,
+   "lng": 128.2,
+   "desc": {
+    "tr": "Yaklaşık 30 çiftlikte küçük partiler halinde, Yellow Bourbon ve Typica gibi yüksek kaliteli Arabica üretilir.",
+    "en": "Around 30 farms produce small-batch, high-quality Arabica such as Yellow Bourbon and Typica."
+   },
+   "grapes": [
+    "Yellow Bourbon",
+    "Typica"
+   ]
+  },
+  {
+   "name": "Kagoshima (southern Kyushu and Amami)",
+   "lat": 31.4,
+   "lng": 130.5,
+   "desc": {
+    "tr": "Japonya'nın ılıman güneyinde deneysel ve küçük ölçekli yerli Arabica yetiştiriciliğiyle bilinir.",
+    "en": "Known for experimental, small-scale domestic Arabica grown in Japan's mild far south."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  },
+  {
+   "name": "Miyazaki (eastern Kyushu)",
+   "lat": 31.9,
+   "lng": 131.4,
+   "desc": {
+    "tr": "Yerli kahve üretiminin geleneksel olarak yoğunlaştığı güney bölgelerinden biridir; üretim çok küçüktür.",
+    "en": "One of the southern areas where domestic coffee growing has traditionally been concentrated, on a very small scale."
+   },
+   "grapes": [
+    "Arabica"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Ogasawara'da 19. yüzyıl sonunda dikilen ağaçların torunlarıdır ve Japon kahve yetiştiriciliğinin tarihî çeşididir.",
+    "en": "The historic Japanese cultivar, descended from trees planted in Ogasawara in the late 19th century."
+   }
+  },
+  {
+   "name": "Yellow Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Okinawa'nın Yanbaru bölgesinde yetiştirilen küçük partilik çeşitlerden biridir.",
+    "en": "One of the small-lot cultivars grown in Okinawa's Yanbaru region."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Kissaten hand-drip and siphon coffee",
+   "desc": {
+    "tr": "Geleneksel kahvehanelerde kahve, nel drip ve sifon gibi yöntemlerle yavaş ve titizlikle elle demlenir.",
+    "en": "In traditional coffee houses, coffee is brewed slowly and meticulously by hand using nel drip or siphon methods."
+   }
+  },
+  {
+   "name": "Canned and vending-machine coffee",
+   "desc": {
+    "tr": "Japonya 1960'larda kutu kahveye öncülük etti; sıcak ve soğuk kahve otomatlardan sokak başlarında satılır.",
+    "en": "Japan pioneered canned coffee in the 1960s, and hot and cold cans are sold from vending machines on street corners."
+   }
+  },
+  {
+   "name": "Nagoya morning service",
+   "desc": {
+    "tr": "Aichi'de sabah 11'e kadar kahve sipariş edene tost, haşlanmış yumurta ve bazen salata ücretsiz verilir.",
+    "en": "In Aichi, ordering coffee before about 11 a.m. brings free toast, a boiled egg and sometimes salad."
+   }
+  },
+  {
+   "name": "Jazz kissa",
+   "desc": {
+    "tr": "Dinleyicilerin sessizce plak caz dinlediği, dünyanın en ayırt edici kafe ortamlarından biri olan kissaten türüdür.",
+    "en": "A kissaten subtype where patrons listen to vinyl jazz in near silence, one of the world's most distinctive café settings."
+   }
+  },
+  {
+   "name": "Japanese iced coffee",
+   "desc": {
+    "tr": "Sıcak demlenen kahvenin doğrudan buzun üzerine süzüldüğü ve Kyoto kissaten'lerine atfedilen hızlı soğutma tekniğidir.",
+    "en": "A flash-chilling technique, linked to Kyoto kissaten, in which hot-brewed coffee is dripped straight over ice."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Japan's Coffee Culture: Kissaten, Canned Coffee, and the Snacks That G",
+   "url": "https://bokksu.com/blogs/news/japanese-coffee-culture-kissaten-canned-coffee"
+  },
+  {
+   "title": "The Creation of Coffee Culture & Modern Japan — Deeper Japan",
+   "url": "https://www.deeperjapan.com/deeper-views/coffee-culture-in-japan"
+  },
+  {
+   "title": "Kissaten - learn what it was historically and what is Kissaten today",
+   "url": "https://japanesecoffeeco.com/blogs/japanese-coffee-blog/kissaten-its-birth-up-to-the-present-day-concept"
+  },
+  {
+   "title": "Japanese Coffee Culture: Kissaten, Pour Over & Kōhī",
+   "url": "https://distefano.com.au/blogs/regions/japan"
+  },
+  {
+   "title": "Japanese Coffee Culture: From Kissaten to Specialty Cafes",
+   "url": "https://bongen-shirafushi-coffee.com/en/blogs/column/japanese-coffee-culture-from-kissaten-to-specialty-cafes"
+  },
+  {
+   "title": "The Complete Guide to Coffee Culture in Japan - omakase",
+   "url": "https://omakase-forest.com/blogs/omakase-insights/the-complete-guide-to-coffee-culture-in-japan-and-japanese-culture"
+  },
+  {
+   "title": "Kissaten: Japan's Historic Coffee Shop Culture — Coffee Studies",
+   "url": "https://coffeestudies.com/beans-roast-origin/kissaten"
+  },
+  {
+   "title": "Kissaten: Inside Japan's Showa-Era Coffee Houses (Culture, Etiquette & How to Spot a Real One)",
+   "url": "https://myhomebarista.com/guides/kissaten/"
+  }
+ ]
+}

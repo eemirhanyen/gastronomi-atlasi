@@ -1,0 +1,227 @@
+{
+ "iso3": "LAO",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 24390,
+  "out": 3523,
+  "searches": 2
+ },
+ "usd": 0.104,
+ "summary": {
+  "tr": "Kahve Laos'a 1915 civarında Fransız sömürge yönetimiyle girdi. Önce kuzeyde denendi, sonra Champasak eyaletindeki Bolaven Platosu'nda yerleşti. Üretim, 1949'daki büyük don ve pas hastalığıyla zarar gördü; ardından savaş ve hastalık yüzünden Arabika'nın yerini büyük oranda Robusta aldı. Bugün kahve ülkenin en önemli tarım ihraç ürünlerinden biri. Laoslular kahveyi çoğunlukla çok güçlü demleyip yoğu",
+  "en": "Coffee reached Laos around 1915 under French colonial rule. It was tried first in the north, then settled on the Bolaven Plateau in Champasak province. The 1949 Great Frost, leaf rust, war and disease cut production, and Robusta largely replaced Arabica. Today it is one of the country's main agricultural exports. Lao people mostly drink it brewed very strong, thick, sweet and milky, while espresso"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Paksong (Bolaven Plateau, Champasak)",
+   "lat": 15.18,
+   "lng": 106.22,
+   "desc": {
+    "tr": "Laos kahvesinin kalbi; volkanik toprak ve serin iklimde yetişen yüksek rakımlı Arabika ve Robusta ile bilinir, Fransız dönemi plantasyonlarının merkezidir.",
+    "en": "The heart of Lao coffee, known for high-altitude Arabica and Robusta grown on volcanic soils and for the original French-era plantations."
+   },
+   "grapes": [
+    "Typica",
+    "Bourbon",
+    "Catimor",
+    "Robusta"
+   ]
+  },
+  {
+   "name": "Salavan (western Bolaven)",
+   "lat": 15.72,
+   "lng": 106.42,
+   "desc": {
+    "tr": "Platonun batı ve kuzey kesiminde, küçük çiftçilerin Robusta ve Catimor yetiştirdiği bir bölgedir.",
+    "en": "A part of the plateau where smallholders grow Robusta and Catimor."
+   },
+   "grapes": [
+    "Robusta",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Sekong",
+   "lat": 15.34,
+   "lng": 106.72,
+   "desc": {
+    "tr": "Bolaven Platosu'nun doğu yamaçlarında, çoğunlukla etnik azınlık köylerinde yetişen Robusta ve Arabika üretir.",
+    "en": "Produces Robusta and Arabica on the eastern slopes of the plateau, largely in ethnic-minority villages."
+   },
+   "grapes": [
+    "Robusta",
+    "Arabica",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Attapeu",
+   "lat": 14.81,
+   "lng": 106.83,
+   "desc": {
+    "tr": "Platonun güneydoğu ucunda, daha küçük ölçekli Robusta ağırlıklı kahve yetişir.",
+    "en": "Smaller-scale, Robusta-leaning coffee grown at the south-eastern edge of the plateau."
+   },
+   "grapes": [
+    "Robusta",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Xiengkhouang (northern highlands)",
+   "lat": 19.45,
+   "lng": 103.2,
+   "desc": {
+    "tr": "Platonun dışında yeni gelişen kuzey üretim alanlarından biridir.",
+    "en": "One of the emerging northern growing areas outside the plateau."
+   },
+   "grapes": [
+    "Arabica",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Luang Prabang (northern highlands)",
+   "lat": 19.89,
+   "lng": 102.13,
+   "desc": {
+    "tr": "Kuzeyde yeni gelişen üretim alanlarından biri; köylerdeki küçük üreticiler butik kafelere kahve sağlıyor.",
+    "en": "An emerging northern area where village smallholders supply specialty cafés."
+   },
+   "grapes": [
+    "Arabica",
+    "Catimor"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Robusta (Coffea canephora)",
+   "type": "robusta",
+   "native": false,
+   "desc": {
+    "tr": "Ürünün büyük bölümünü oluşturur ve nadir görüldüğü şekilde yüksek rakımda yetişir; yerel sütlü kahvenin temelidir.",
+    "en": "Makes up most of the crop and is unusually grown at high altitude; it is the base of the local milky coffee."
+   }
+  },
+  {
+   "name": "Typica",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Fransızların 1920'lerde Bolaven'e getirdiği klasik Arabika çeşitlerinden biri.",
+    "en": "One of the classic Arabica cultivars the French planted on the Bolaven in the 1920s."
+   }
+  },
+  {
+   "name": "Bourbon",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Typica ile birlikte sömürge döneminde dikilen ve Laos'un ilk Arabika ününü kuran çeşit.",
+    "en": "Planted with Typica in the colonial era, it built Laos's first Arabica reputation."
+   }
+  },
+  {
+   "name": "Catimor",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Pasa dayanıklı Arabika–Robusta melezi; hastalık ve donun ardından yaygın biçimde dikildi.",
+    "en": "A rust-resistant Arabica–Robusta hybrid, widely planted after the frost and disease losses."
+   }
+  },
+  {
+   "name": "Liberica (Coffea liberica)",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Fransızlar tarafından getirilen, bugün üretimin yalnızca küçük bir kısmını oluşturan tür.",
+    "en": "A species brought by the French that is now only a small share of production."
+   }
+  },
+  {
+   "name": "Honey and washed processing",
+   "type": "other",
+   "native": false,
+   "desc": {
+    "tr": "Yıkanmış işleme ihracatlık Arabika için yaygındır; bal ve doğal işleme gibi diğer yöntemler de görülür.",
+    "en": "Washed processing is common for export Arabica, and honey and natural methods also appear."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Kafe Lao (cloth-filter coffee)",
+   "desc": {
+    "tr": "Kahve büyük bir bez süzgeçle (çorabı andıran) çok güçlü demlenir ve tatlandırılmış yoğunlaştırılmış süt eklenmiş bir bardağa süzülür.",
+    "en": "Coffee is brewed extra strong through a large sock-like cloth filter into a glass holding sweetened condensed milk."
+   }
+  },
+  {
+   "name": "Kafe nom yen (iced milk coffee)",
+   "desc": {
+    "tr": "Sıcak havada sokak tezgâhlarının vazgeçilmezi olan, bol buzlu ve yoğunlaştırılmış sütlü kahvedir.",
+    "en": "Iced coffee with condensed milk, a staple of street stalls in the heat."
+   }
+  },
+  {
+   "name": "Instant 3-in-1 and teapot-milk coffee",
+   "desc": {
+    "tr": "Evlerde ve sokak tezgâhlarında hazır kahve çok tüketilir; çoğunlukla bol sütle ve tatlı hazırlanır.",
+    "en": "Instant coffee is widely drunk at home and at street stalls, usually made sweet and heavily milked."
+   }
+  },
+  {
+   "name": "Morning coffee after alms-giving",
+   "desc": {
+    "tr": "Birçok Laoslu güne sabah kahvesiyle başlar; bazıları kahveyi Tak Bat (keşişlere sadaka verme) töreninden sonra içer.",
+    "en": "Many Lao start the day with coffee, some after the Tak Bat alms-giving, and it is a time for family and conversation."
+   }
+  },
+  {
+   "name": "Modern specialty café drinks",
+   "desc": {
+    "tr": "Vientiane ve turistik şehirlerde espresso, soğuk demleme ve latte yaygınlaşıyor; bazı kafeler Bolaven çekirdekleri ve hindistancevizi ya da palmiye şekeri kullanıyor.",
+    "en": "Espresso, cold brew and lattes are spreading in Vientiane and tourist towns, some using Bolaven beans and coconut or palm sugar."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Laos Coffee Overview - Sweet Maria's Coffee Library",
+   "url": "https://library.sweetmarias.com/coffee-producing-countries/indonesia-se-asia/laos-coffee-overview/"
+  },
+  {
+   "title": "Laos Coffee: A Detailed Guide",
+   "url": "https://www.homegrounds.co/uk/laos-coffee/"
+  },
+  {
+   "title": "Coffee production in Laos",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Laos"
+  },
+  {
+   "title": "Laos - Atlas Coffee Importers",
+   "url": "https://www.atlascoffee.com/coffee/laos/"
+  },
+  {
+   "title": "History of Lao Coffee",
+   "url": "https://www.laoscoffee.org/historylaocoffee"
+  },
+  {
+   "title": "BOLAVEN PLATEAU, COFFEE, WATERFALLS AND ETHNIC VILLAGES",
+   "url": "https://www.discoverlaos.today/post/bolaven-plateau-coffee-waterfalls-and-ethnic-villages"
+  },
+  {
+   "title": "Bolaven Plateau & Lao Coffee",
+   "url": "https://www.beijing-visitor.com/laos/bolaven-plateau"
+  },
+  {
+   "title": "Laos",
+   "url": "https://inheritancecoffee.com/pages/origins/laos"
+  }
+ ]
+}

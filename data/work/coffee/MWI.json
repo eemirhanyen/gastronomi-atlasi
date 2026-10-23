@@ -1,0 +1,223 @@
+{
+ "iso3": "MWI",
+ "model": "claude-sonnet-5-5",
+ "date": "2026-10-23",
+ "usage": {
+  "in": 49375,
+  "out": 4081,
+  "searches": 3
+ },
+ "usd": 0.1696,
+ "summary": {
+  "tr": "Kahve, 1880'lerde misyonerler aracılığıyla İngiliz yönetimindeki Malavi'ye girdi. Üretim güneydeki Thyolo ve Mulanje'de başladı. Tütün, çay ve makadamya ile rekabet ettiği için kahve hiçbir zaman ana ürün olmadı. Bağımsızlıktan sonra, özellikle 1999'da serbestleşmenin ve Mzuzu Kahve Üreticileri Kooperatif Birliği'nin kurulmasının ardından, kuzeydeki küçük çiftçilerle yıkanmış, kaliteli arabika üre",
+  "en": "Coffee reached British-ruled Malawi through missionaries in the 1880s, with early planting in the south around Thyolo and Mulanje. It never became a mainstay because tobacco, tea and macadamia competed with it. After independence, and especially after the sector was liberalised in 1999 and the Mzuzu Coffee Planters Cooperative Union was formed, the north developed small-farmer, washed, high-qualit"
+ },
+ "none": false,
+ "regions": [
+  {
+   "name": "Misuku Hills (Chitipa)",
+   "lat": -9.75,
+   "lng": 33.6,
+   "desc": {
+    "tr": "Tanzanya sınırındaki 1.700 m üzeri gölgelik tepeler, Malavi'nin başlıca kahve bölgesidir; fincanda tatlı, narin, çiçeksi ve meyan kökü ile baharat notaları verir.",
+    "en": "The shaded hills at 1,700 m and above on the Tanzanian border are Malawi's principal coffee area, known for sweet, delicate, floral cups with liquorice and spice notes."
+   },
+   "grapes": [
+    "Agaro",
+    "Geisha",
+    "Catimor"
+   ]
+  },
+  {
+   "name": "Phoka Hills (Rumphi)",
+   "lat": -10.95,
+   "lng": 33.85,
+   "desc": {
+    "tr": "Nyika Platosu çevresindeki yüksek kooperatif bölgesi, Mzuzu Birliği'nin yıkanmış arabika lotlarına katkı sağlar.",
+    "en": "A high-altitude cooperative area near the Nyika Plateau that supplies washed Arabica lots to the Mzuzu Union."
+   },
+   "grapes": [
+    "Nyika",
+    "Catimor",
+    "Geisha"
+   ]
+  },
+  {
+   "name": "Viphya Highlands (North Viphya / South East Mzimba)",
+   "lat": -11.6,
+   "lng": 33.85,
+   "desc": {
+    "tr": "Viphya Dağları'ndaki küçük çiftçi parselleri, Mzuzu birliğinin ihraç ettiği yıkanmış kahvenin önemli bir kaynağıdır.",
+    "en": "Smallholder plots in the Viphya Mountains are a key source of the washed coffee exported by the Mzuzu union."
+   },
+   "grapes": [
+    "Catimor",
+    "Nyika",
+    "Geisha"
+   ]
+  },
+  {
+   "name": "Nkhata Bay Highlands",
+   "lat": -11.55,
+   "lng": 34.1,
+   "desc": {
+    "tr": "Malavi Gölü'nün yakınındaki yaylalar, gölün ılımanlaştırdığı iklimde yetişen kahveleriyle bilinir.",
+    "en": "Highlands close to Lake Malawi, where the lake moderates the climate for the coffee grown there."
+   },
+   "grapes": [
+    "Catimor",
+    "Geisha",
+    "Agaro"
+   ]
+  },
+  {
+   "name": "Ntchisi East (Central Region)",
+   "lat": -13.35,
+   "lng": 34.05,
+   "desc": {
+    "tr": "Mzuzu Birliği'nin en güneydeki kooperatifi, ülkenin merkez yaylalarında kahve yetiştirir.",
+    "en": "The Mzuzu Union's southernmost cooperative grows coffee in the central highlands."
+   },
+   "grapes": [
+    "Catimor",
+    "Caturra",
+    "Mundo Novo"
+   ]
+  },
+  {
+   "name": "Thyolo–Mulanje (Southern estates)",
+   "lat": -16.05,
+   "lng": 35.3,
+   "desc": {
+    "tr": "Malavi kahvesinin ilk ticari ekim alanı olan güney, bugün tütün ve makadamya ile birlikte büyük çiftlikleri barındırır.",
+    "en": "The south was the first commercial coffee area and now hosts large estates that grow coffee alongside tobacco and macadamia."
+   },
+   "grapes": [
+    "Mundo Novo",
+    "Caturra",
+    "Catimor"
+   ]
+  }
+ ],
+ "dropped_regions": [],
+ "varieties": [
+  {
+   "name": "Arabica (Coffea arabica)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Malavi'de yetiştirilen kahvenin neredeyse tamamı arabikadır; ülkede robusta ticari olarak önemli değildir.",
+    "en": "Almost all coffee grown in Malawi is Arabica, and Robusta is not commercially significant."
+   }
+  },
+  {
+   "name": "Geisha (Gesha)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Kuzey yaylalarında yaygın ekilen yerel bir Geisha soyu, daha küçük taneler ve çiçek, narenciye ile kakao notaları verir.",
+    "en": "A local Geisha strain widely planted in the northern highlands, with smaller beans and flower, citrus and cacao notes."
+   }
+  },
+  {
+   "name": "Agaro",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Misuku Hills'te Geisha ile birlikte yetişen, prim fiyat alan ve yaygın bir Etiyopya kökenli seçilmiş çeşittir.",
+    "en": "A common Ethiopian-origin selection grown with Geisha in the Misuku Hills and sold at premium prices."
+   }
+  },
+  {
+   "name": "Catimor / Nyika",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Verimli ve dayanıklıdır; Nyika bu gruba ait bir seçilmiş çeşittir, ancak fincan kalitesi genellikle daha düşüktür.",
+    "en": "High-yielding and robust, with Nyika as a selection from this group, though cup quality is usually lower."
+   }
+  },
+  {
+   "name": "Bourbon types (Caturra, Mundo Novo)",
+   "type": "arabica",
+   "native": false,
+   "desc": {
+    "tr": "Estate ve kooperatif çiftliklerinde yetiştirilen klasik Bourbon türevi çeşitlerdir.",
+    "en": "Classic Bourbon-derived cultivars grown on estates and in cooperative plots."
+   }
+  },
+  {
+   "name": "Fully washed process",
+   "type": "arabica",
+   "native": true,
+   "desc": {
+    "tr": "Kirazlar elle toplanır, ıslak işlenir ve kaldırılmış yataklarda güneşte kurutulur; bu yöntem Malavi lotlarının temel işleme biçimidir.",
+    "en": "Cherries are handpicked, wet-processed and sun-dried on raised beds, which is the standard method for Malawian lots."
+   }
+  }
+ ],
+ "styles": [
+  {
+   "name": "Tea-first everyday drinking and instant coffee",
+   "desc": {
+    "tr": "Evde çay çok daha yaygındır; kahve tüketilince çoğunlukla Nescafé gibi ithal hazır kahveler tercih edilir ve bunlar yerel kavrulmuş kahveden daha ucuzdur.",
+    "en": "Tea is far more common at home, and when coffee is drunk it is often imported instant such as Nescafé, which is cheaper than locally roasted coffee."
+   }
+  },
+  {
+   "name": "Espresso and milk drinks in urban cafés",
+   "desc": {
+    "tr": "Lilongwe ve Blantyre'deki otel ve kafelerde espresso makineleriyle cappuccino ve latte hazırlanır, yerel arabika giderek daha çok kullanılıyor.",
+    "en": "Hotels and cafés in Lilongwe and Blantyre make espresso, cappuccino and lattes on machines, increasingly using Malawian Arabica."
+   }
+  },
+  {
+   "name": "Filter and single-origin brewing of local lots",
+   "desc": {
+    "tr": "Küçük kavurucular ve kafeler, Mzuzu gibi yerel markaların kahvelerini filtre yöntemleriyle sunar; bu, ülkenin büyüyen iç pazar stratejisinin parçasıdır.",
+    "en": "Small roasters and cafés serve local brands such as Mzuzu coffee as filter brews, part of a growing push to build the domestic market."
+   }
+  },
+  {
+   "name": "Iced coffee and iced latte",
+   "desc": {
+    "tr": "Şehirlerdeki kafelerde soğuk demlenmiş kahve ve buzlu latte de servis edilir.",
+    "en": "Cafés in the cities also serve chilled brewed coffee and iced lattes."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "title": "Sucafina: Mzuzu AB",
+   "url": "https://sucafina.com/apac/offerings/mzuzu-ab"
+  },
+  {
+   "title": "Mzuzu Coffee Planters Cooperative Union Limited",
+   "url": "https://en.wikipedia.org/wiki/Mzuzu_Coffee_Planters_Cooperative_Union_Limited"
+  },
+  {
+   "title": "Malawi coffee production",
+   "url": "https://sucafina.com/na/origins/malawi"
+  },
+  {
+   "title": "Mzuzu",
+   "url": "https://en.wikipedia.org/wiki/Mzuzu"
+  },
+  {
+   "title": "Malawi coffee: The ups, the downs, the future - DRWakefield - DRWakefield",
+   "url": "https://drwakefield.com/news-and-views/malawi-coffee-the-ups-the-downs-the-future/"
+  },
+  {
+   "title": "Malawi Coffee: History, Flavors Challenges & Brewing Tips — Corner Coffee Store",
+   "url": "https://cornercoffeestore.com/malawi-coffee/"
+  },
+  {
+   "title": "Mzuzu Coffee - Membership Matters",
+   "url": "https://www.membershipmatters.coop/mzuzu-coffee/"
+  },
+  {
+   "title": "Kenya and Malawi: A Tale of Two Countries - Atlas Coffee Importers",
+   "url": "https://www.atlascoffee.com/kenya-and-malawi-a-tale-of-two-countries/"
+  }
+ ]
+}
