@@ -1743,34 +1743,37 @@
       var svg = el("svg", { viewBox: "0 0 170 120", "aria-hidden": "true" });
       host.appendChild(svg);
       var defs = el("defs", {}, svg);
-      var bc = el("clipPath", { id: "tcBody" }, defs), bcp = el("path", {}, bc);
-      var hc = el("clipPath", { id: "tcHead" }, defs), hcp = el("ellipse", { cx: 0, cy: 0, rx: 15, ry: 13 }, hc);
+      var uid = "tc" + (++make.n);                 // birden çok kedi olursa kırpma kimlikleri çakışmasın
+      var bc = el("clipPath", { id: uid + "B" }, defs), bcp = el("path", {}, bc), ncp = el("path", {}, bc);   // gövde + boyun birleşik siluet
+      var hc = el("clipPath", { id: uid + "H" }, defs), hcp = el("ellipse", { cx: 0, cy: 0, rx: 15, ry: 13 }, hc);
       var g = {};
       g.shadow = el("ellipse", { fill: "rgba(40,25,10,.18)", rx: 34, ry: 3.2, cy: GY + 1 }, svg);
       g.legFF = el("path", { fill: "none", stroke: COL.wfar, "stroke-width": 7.5, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
+      g.spotFF = el("path", { fill: "none", stroke: COL.far, "stroke-width": 7.6, "stroke-linecap": "round" }, svg);   // uzak bacakta bilek üstü siyah
       g.pawFF = el("ellipse", { fill: "#d9d2c6", rx: 4.6, ry: 2.6 }, svg);
       g.legRF = el("path", { fill: "none", stroke: COL.far, "stroke-width": 8, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
       g.pawRF = el("ellipse", { fill: "#d9d2c6", rx: 4.8, ry: 2.6 }, svg);
       g.tail = []; for (var i = 0; i < 7; i++) g.tail.push(el("line", { "stroke-linecap": "round", stroke: i === 2 || i === 3 ? COL.gold : COL.k }, svg));   // turuncu halka
       g.body = el("path", { fill: COL.k }, svg);
-      var bodyDeco = el("g", { "clip-path": "url(#tcBody)" }, svg);
+      var bodyDeco = el("g", { "clip-path": "url(#" + uid + "B)" }, svg);
       g.bodyFrame = el("g", {}, bodyDeco);
       el("path", { d: "M-12 -15 C -5 -19 5 -17 9 -11 C 12 -4 8 6 1 10 C -5 7 -9 -1 -12 -15 Z", fill: COL.gold }, g.bodyFrame);                          // böğürdeki turuncu bant
       el("path", { d: "M12 -17 C 17 -19 22 -16 21 -12 C 18 -11 14 -12 12 -17 Z", fill: COL.gold, opacity: .85 }, g.bodyFrame);
       el("path", { d: "M-31 -11 C -28 -16 -19 -15 -18 -9 C -17 -4 -23 -2 -26 -5 C -29 -4 -33 -7 -31 -11 Z", fill: COL.gold }, g.bodyFrame);              // kalça lekesi
-      el("ellipse", { cx: 14, cy: 14, rx: 22, ry: 8, fill: COL.w }, g.bodyFrame);                                    // karın
-      el("ellipse", { cx: 26, cy: 6, rx: 12, ry: 12, fill: COL.w }, g.bodyFrame);                                   // göğüs beyazı
+      el("path", { d: "M-4 15 C 6 9 22 8 34 10 L 34 20 L -4 20 Z", fill: COL.w }, g.bodyFrame);                    // karın: öne doğru genişler
       g.haunch = el("g", {}, svg);
       g.haunchE = el("ellipse", { fill: COL.k }, g.haunch);
       g.haunchP = el("ellipse", { fill: COL.gold, opacity: .95 }, g.haunch);
       g.legRN = el("path", { fill: "none", stroke: COL.k, "stroke-width": 8.5, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
       g.sockRN = el("path", { fill: "none", stroke: COL.w, "stroke-width": 8.5, "stroke-linecap": "round" }, svg);
       g.pawRN = el("ellipse", { fill: COL.w, rx: 5.4, ry: 3 }, svg);
-      g.neck = el("path", { fill: "none", stroke: COL.k, "stroke-width": 17, "stroke-linecap": "round" }, svg);
-      g.bib = el("ellipse", { fill: COL.w }, svg);
-      g.throat = el("ellipse", { fill: COL.w }, svg);
+      // boyun gövdeyle tek siluet; beyaz göğüs bu siluete kırpılır (dışarı taşan "top" olmaz)
+      g.neck = el("path", { fill: COL.k }, svg);
+      g.bib = el("path", { fill: COL.w, "clip-path": "url(#" + uid + "B)" }, svg);
       g.legFN = el("path", { fill: "none", stroke: COL.w, "stroke-width": 8, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
       g.sockFN = el("path", { fill: "none", stroke: COL.w, "stroke-width": 8, "stroke-linecap": "round" }, svg);
+      // ön bacak lekeleri (fotoğraftaki gibi): yakın bacakta önkolda karamel leke
+      g.spotFN = el("path", { fill: "none", stroke: COL.gold, "stroke-width": 7.2, "stroke-linecap": "round" }, svg);
       g.pawFN = el("ellipse", { fill: COL.w, rx: 5.2, ry: 3 }, svg);
       // baş (yerel koordinat: merkez 0,0; sağa bakar)
       g.head = el("g", {}, svg);
@@ -1779,7 +1782,7 @@
       el("path", { d: "M2 -10 L10 -23 L14 -6 Z", fill: COL.k }, g.earN);
       el("path", { d: "M5 -10 L9.6 -18 L11.5 -8 Z", fill: COL.pink, opacity: .85 }, g.earN);
       el("ellipse", { cx: 0, cy: 0, rx: 15, ry: 13, fill: COL.k }, g.head);
-      var hd = el("g", { "clip-path": "url(#tcHead)" }, g.head);
+      var hd = el("g", { "clip-path": "url(#" + uid + "H)" }, g.head);
       el("ellipse", { cx: 3, cy: -7.5, rx: 3.2, ry: 2, fill: COL.gold, transform: "rotate(-15 3 -7.5)" }, hd);        // göz üstü benekleri
       el("ellipse", { cx: 11, cy: -8, rx: 2.8, ry: 1.8, fill: COL.gold, transform: "rotate(12 11 -8)" }, hd);
       el("ellipse", { cx: -3, cy: 3, rx: 4.5, ry: 3.5, fill: COL.gold, opacity: .9 }, hd);                            // yanak
@@ -1800,9 +1803,10 @@
       var wh = el("g", { stroke: "#ece6dc", "stroke-width": .55, opacity: .85 }, g.head);
       ["M15 5 L28 2", "M15 6.5 L28 7.5", "M8 6 L-3 3", "M8 7.5 L-3 8.5"].forEach(function (d) { el("path", { d: d }, wh); });
       g.scarf = el("path", { d: "M-6 9 C 0 15 10 15 15 10 L 12 18 L 5 14 L 0 20 Z", fill: "#c8442f" }, g.head);
-      return { svg: svg, g: g, bcp: bcp, cur: JSON.parse(JSON.stringify(POSES.stand)), t: 0, phase: 0,
+      return { svg: svg, g: g, bcp: bcp, ncp: ncp, cur: JSON.parse(JSON.stringify(POSES.stand)), t: 0, phase: 0,
                blinkAt: 2, blinkT: 0, twitchAt: 4, twitchT: 0, look: [0, 0] };
     }
+    make.n = 0;
     // durum -> hedef poz (+ zamanla değişen ayrıntılar)
     function target(r, st, t, info) {
       var base = st === "sit" || st === "groom" || st === "yawn" || st === "pet" || st === "talk" ? "sit" :
@@ -1895,7 +1899,11 @@
         var d = "M" + f(sh) + "L" + f(kn) + "L" + f(paw);
         g["leg" + name].setAttribute("d", d);
         g["paw" + name].setAttribute("cx", (paw[0] + 1.5).toFixed(1)); g["paw" + name].setAttribute("cy", (paw[1] - 1.2).toFixed(1));
-
+        var at = function (A, B, k) { return [lerp(A[0], B[0], k), lerp(A[1], B[1], k)]; };
+        if (far) g.spotFF.setAttribute("d", "M" + f(at(kn, paw, 0.45)) + "L" + f(at(kn, paw, 0.78)));
+        else {
+          g.spotFN.setAttribute("d", "M" + f(at(kn, paw, 0.12)) + "L" + f(at(kn, paw, 0.5)));
+        }
       }
       function rear(name, hip, paw, far) {
         var hock = [paw[0] - 2.5, paw[1] - 10.5];
@@ -1928,13 +1936,16 @@
         tp = nxp;
       }
       // boyun ve göğüs önlüğü
-      var nb = pt(F, 6, 4);
-      g.neck.setAttribute("d", "M" + f(nb) + "L" + f([lerp(nb[0], H[0], 0.75), lerp(nb[1], H[1], 0.75)]));
-      var thr = [lerp(nb[0], H[0], 0.55) + 3, lerp(nb[1], H[1], 0.55) + 6];
-      g.throat.setAttribute("cx", thr[0].toFixed(1)); g.throat.setAttribute("cy", thr[1].toFixed(1)); g.throat.setAttribute("rx", 7.5); g.throat.setAttribute("ry", 9);
-      var bib = pt(F, 10, -th * 0.35);
-      g.bib.setAttribute("cx", bib[0].toFixed(1)); g.bib.setAttribute("cy", bib[1].toFixed(1)); g.bib.setAttribute("rx", 10.5); g.bib.setAttribute("ry", (th * 0.95).toFixed(1));
-      g.bib.setAttribute("transform", "rotate(" + (ang - 15).toFixed(1) + " " + bib[0].toFixed(1) + " " + bib[1].toFixed(1) + ")");
+      // boyun: ense gövde sırtından başın arkasına, gırtlak çeneden göğsün önüne iner
+      var hr = c.ha * Math.PI / 180, hp = function (x, y) { return [H[0] + x * Math.cos(hr) - y * Math.sin(hr), H[1] + x * Math.sin(hr) + y * Math.cos(hr)]; };
+      var nk0 = pt(F, -8, th * 0.92), nk1 = hp(-12, -5), chin = hp(5, 11), chL = hp(-9, 6), cf = pt(F, 13, -th * 0.2), cb = pt(F, 3, -th * 1.0), ci = pt(F, -11, -th * 0.15);
+      var mix = function (A, B, k, dx, dy) { return [lerp(A[0], B[0], k) + (dx || 0), lerp(A[1], B[1], k) + (dy || 0)]; };
+      var nd = "M" + f(nk0) + "Q" + f(mix(nk0, nk1, 0.55, -4, -3)) + " " + f(nk1) + "L" + f(chin) +
+        "Q" + f(mix(chin, cf, 0.5, 5, 0)) + " " + f(cf) + "L" + f(pt(F, -4, 0)) + "Z";
+      g.neck.setAttribute("d", nd); r.ncp.setAttribute("d", nd);
+      // beyaz göğüs: çene altından ön bacakların arasına tek parça; siluete kırpılır
+      g.bib.setAttribute("d", "M" + f(chL) + "L" + f(chin) + "Q" + f(mix(chin, cf, 0.5, 8, 0)) + " " + f(mix(cf, cf, 0, 6, 0)) +
+        "Q" + f(mix(cf, cb, 0.6, 8, 4)) + " " + f(cb) + "Q" + f(mix(cb, ci, 0.5, -2, 2)) + " " + f(ci) + "Q" + f(mix(ci, chL, 0.5, -3, 0)) + " " + f(chL) + "Z");
       // baş
       g.head.setAttribute("transform", "translate(" + H[0].toFixed(1) + "," + H[1].toFixed(1) + ") rotate(" + c.ha.toFixed(1) + ")");
       // göz kırpma, kulak seğirmesi, bakış
