@@ -1998,12 +1998,15 @@
       // zemindeki engeller ayrı ayrı: mercek dizisi (masaüstü) ve sol alt köşedeki gösterge.
       // Mobilde kedi mercek dizisinin üstünde yürür, orada yalnızca gösterge engeldir.
       if (Date.now() - catBlockCache.t > 400) {
-        var v = [];
+        var v = [], ov = [];
         (catMobile() ? ["legend"] : ["dock", "legend"]).forEach(function (id) {
           var e = document.getElementById(id), rc = e && e.getBoundingClientRect();
-          if (rc && rc.width && rc.bottom > window.innerHeight - 120) v.push(id === "legend" ? [rc.left - w, rc.right + 4] : [rc.left - w * 0.6, rc.right - w * 0.4]);
+          if (rc && rc.width && rc.bottom > window.innerHeight - 120) {
+            v.push(id === "legend" ? [rc.left - w, rc.right + 4] : [rc.left - w * 0.6, rc.right - w * 0.4]);
+            ov.push([rc.left, rc.right]);
+          }
         });
-        catBlockCache = { t: Date.now(), v: v.length ? v : null };
+        catBlockCache = { t: Date.now(), v: v.length ? v : null, ov: ov };
       }
       b.block = catBlockCache.v;
     }
@@ -2175,7 +2178,10 @@
         nextCatState();
       }
     }
-    CAT.el.classList.toggle("crossing", !CAT.perch && !CAT.jump && catInBlock(b, CAT.x));
+    // Önde/arkada kararı, durma yasağı bölgesine göre değil kedi kutusunun öğeyle gerçek örtüşmesine göre verilir:
+    // eskiden kenarda önce arkada kalıp bölgeye girince birden öne fırlıyordu.
+    var cw0 = catW(), overlap = !CAT.perch && (catBlockCache.ov || []).some(function (o) { return CAT.x + cw0 * 0.92 > o[0] && CAT.x + cw0 * 0.08 < o[1]; });
+    CAT.el.classList.toggle("crossing", overlap);
     CAT.el.classList.toggle("perched", !!CAT.perch || !!CAT.jump);
     var modalOpen = !document.getElementById("modal").hidden || !document.getElementById("gmodal").hidden || !document.getElementById("intro").hidden ||
       !document.getElementById("topmodal").hidden;
