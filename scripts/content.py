@@ -473,39 +473,78 @@ def stage_images():
 
 
 # ------------------------------------------------------------------ 5b) score (mutfağın dünyadaki etkisi ve tanınırlığı)
-SCORE_SYSTEM = """You rate national cuisines for a fun world food atlas for gastronomy students.
-Give each country a score from 0 to 100 for the global standing of its cuisine, weighing:
-richness and variety of the cuisine; influence on world cuisine and international recognition;
-UNESCO intangible heritage elements related to food; distinctive products, ingredients and techniques.
-Use the whole scale consistently. Calibration (approximate): France 98, Türkiye 98, Italy 97, Japan 97, China 96,
-India 95, Mexico 94, Spain 93, Thailand 92, Peru 90, Lebanon 88, Greece 88, Germany 76, United Kingdom 72, Afghanistan 40.
-For each country also give a one-sentence reason in Turkish ("tr") and English ("en"), naming what stands out.
-Reply with ONLY JSON: {"ISO3": {"score": 0-100, "tr": "...", "en": "..."}, ...} covering every country given."""
+SCORE_DIMS = ["influence", "richness", "heritage", "products"]
+SCORE_SYSTEM = """You assess national cuisines for a world gastronomy atlas used by university gastronomy students.
+Score every country on FOUR separate dimensions, each 0-100, judged independently:
+1) "influence": global influence and international recognition (presence of its dishes and restaurants worldwide, influence on professional
+   cooking and other cuisines, critical recognition such as major guides and awards).
+2) "richness": richness and variety of the cuisine itself (number and diversity of dishes, regional variety, techniques, depth of home cooking).
+3) "heritage": culinary heritage and living tradition (age and continuity of food culture, food rituals and customs, UNESCO-listed food elements).
+4) "products": distinctive products, ingredients and techniques (signature ingredients, protected/origin products, unique methods).
+Bands for every dimension: 90-100 world-defining; 75-89 major; 55-74 notable, well known in its region; 35-54 limited; 0-34 minimal or little documented.
+Use the whole scale and be honest: a cuisine can be very rich (high richness) but less globally influential (lower influence), or the reverse.
+No country is pre-scored; judge each on evidence. Reference countries appear in every batch so scores stay comparable; score them honestly too.
+For each country give one sentence in Turkish ("tr") and English ("en") naming what stands out and, where relevant, the main gap.
+Reply with JSON {"items": [{"iso": "ISO3", "influence": n, "richness": n, "heritage": n, "products": n, "tr": "...", "en": "..."}]} covering every country given."""
+SCORE_SCHEMA = {"type": "object", "required": ["items"], "additionalProperties": False, "properties": {"items": {"type": "array", "items": {
+    "type": "object", "required": ["iso"] + SCORE_DIMS + ["tr", "en"], "additionalProperties": False,
+    "properties": dict({"iso": {"type": "string"}, "tr": {"type": "string"}, "en": {"type": "string"}},
+                       **{d: {"type": "integer"} for d in SCORE_DIMS})}}}}
+SCORE_REFS = ["FRA", "JPN", "MEX", "DEU", "ETH", "AUS"]   # her istekte yer alır; istekler arası ölçek kaymasını düzeltmek için
 
 
 def stage_score():
+    """Dört alt puan + ortalama ana puan. Ülke çapası verilmez (eskiden 'France 98, Türkiye 98' çapası modele dayatılıyordu).
+    Her istekte aynı referans ülkeler bulunur; bir istek referanslara ortalamadan yüksek/düşük puan verdiyse o istekteki
+    tüm ülkeler aynı farkla düzeltilir (ölçek kayması)."""
     path = os.path.join(WORK, "scores.json")
     done = jload(path, {})
-    todo = sorted((t for t in targets() if t not in done),
+    todo = sorted((t for t in targets() if not (done.get(t) or {}).get("subs")),
                   key=lambda k: (REF[k].get("region") or "", REF[k].get("sub") or "", REF[k]["name"]))
-    log(f"score: {len(todo)} ülke")
+    log(f"score: {len(todo)} ülke (4 alt puan)")
     if not todo:
         return
-    reqs = []
-    for k in range(0, len(todo), 20):
-        part = todo[k:k + 20]
+    reqs, groups = [], {}
+    rest = [t for t in todo if t not in SCORE_REFS]
+    for k in range(0, max(len(rest), 1), 20):
+        part = SCORE_REFS + rest[k:k + 20]
         lines = "\n".join(f"{i} {REF[i]['name']} ({REF[i].get('sub') or REF[i].get('region') or ''})" for i in part)
-        reqs.append(req(f"score{k}", SCORE_SYSTEM, lines, 4000))
-    for _, text in run_batch(reqs, "score").items():
+        cid = f"score{k}"
+        reqs.append(req(cid, SCORE_SYSTEM, lines, 9000, os.environ.get("SCORE_MODEL", "claude-sonnet-5-5"), schema=SCORE_SCHEMA))
+        groups[cid] = part
+    raw = {}
+    for cid, text in run_batch(reqs, "score").items():
         try:
-            for iso, v in extract_json(text).items():
-                if iso in REF and isinstance(v, dict) and v.get("score") is not None:
-                    done[iso] = {"score": max(0, min(100, int(round(float(v["score"]))))),
-                                 "why": {"tr": clip(v.get("tr"), 400), "en": clip(v.get("en"), 400)}}
+            items = extract_json(text).get("items", [])
+            raw[cid] = {str(x["iso"]).upper(): x for x in items if all(isinstance(x.get(d), (int, float)) for d in SCORE_DIMS)}
         except Exception as e:
-            log(f"  score çözülemedi: {e}")
+            log(f"  {cid} çözülemedi: {e}")
+    # referans ortalamaları ve istek bazlı kayma
+    ref_mean = {d: {} for d in SCORE_DIMS}
+    for d in SCORE_DIMS:
+        for r in SCORE_REFS:
+            vals = [g[r][d] for g in raw.values() if r in g]
+            if vals:
+                ref_mean[d][r] = sum(vals) / len(vals)
+    for cid, g in raw.items():
+        off = {}
+        for d in SCORE_DIMS:
+            diffs = [g[r][d] - ref_mean[d][r] for r in SCORE_REFS if r in g and r in ref_mean[d]]
+            off[d] = sum(diffs) / len(diffs) if diffs else 0
+        log(f"  {cid}: kayma " + ", ".join(f"{d} {off[d]:+.1f}" for d in SCORE_DIMS))
+        for iso, x in g.items():
+            if iso not in REF or (iso in SCORE_REFS and iso in done and (done[iso] or {}).get("subs")):
+                continue
+            if iso in SCORE_REFS:   # referans ülke: tüm isteklerin ortalaması
+                subs = {d: int(round(ref_mean[d][iso])) for d in SCORE_DIMS}
+            else:
+                subs = {d: max(0, min(100, int(round(x[d] - off[d])))) for d in SCORE_DIMS}
+            done[iso] = {"score": int(round(sum(subs.values()) / len(SCORE_DIMS))), "subs": subs,
+                         "why": {"tr": clip(x.get("tr"), 400), "en": clip(x.get("en"), 400)}}
     jsave(path, done, pretty=True)
-    log(f"  puanlanan: {len(done)}")
+    log(f"  puanlanan: {sum(1 for v in done.values() if v.get('subs'))}")
+    top = sorted(((v["score"], k) for k, v in done.items() if v.get("subs")), reverse=True)[:12]
+    log("  ilk 12: " + ", ".join(f"{k} {s}" for s, k in top))
 
 
 # ------------------------------------------------------------------ 5c) flavors (baharat ve sos haritası)

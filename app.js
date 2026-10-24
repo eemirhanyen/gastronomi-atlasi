@@ -13,7 +13,7 @@
       aiNote: "Bu tarif yapay zekâ tarafından yazıldı ve ikinci bir yapay zekâ geçişinde kontrol edildi. İnsan editörden geçmedi; denerken kendi mutfak bilgine de güven.",
       aiNoteUnrev: "Bu tarif yapay zekâ tarafından yazıldı, henüz kontrol edilmedi.",
       photo: "Fotoğraf", noPhoto: "Bu yemek için serbest lisanslı fotoğraf bulunamadı.", searchEmpty: "Sonuç yok.", country: "Ülke",
-      loadErr: "Veri yüklenemedi.", scoreTitle: "Mutfağın dünyadaki etkisi ve tanınırlığı", scoreAI: "AI değerlendirmesi, 0–100", noScore: "Puan yok",
+      loadErr: "Veri yüklenemedi.", scoreTitle: "Dört alt puanın ortalaması", scoreAI: "yapay zekâ değerlendirmesi, 0–100", sub_influence: "Dünyadaki etki ve tanınırlık", sub_richness: "Zenginlik ve çeşitlilik", sub_heritage: "Kültürel miras", sub_products: "Özgün ürün ve teknikler", noScore: "Puan yok",
       layers: "Katmanlar", lyScore: "Mutfak puanı renkleri", lyLabels: "Ülke adları", michelin: "Michelin Rehberi",
       star3: "3 yıldız", star2: "2 yıldız", star1: "1 yıldız", bib: "Bib Gourmand", bibNote: "uygun fiyatlı, iyi yemek",
       michelinSrc: "Kaynak: Michelin Rehberi verisinden derlenen açık veri seti (resmi değil)", openGuide: "Michelin Rehberi'nde gör",
@@ -69,7 +69,7 @@
       aiNote: "This recipe was written by AI and checked in a second AI pass. No human editor reviewed it; trust your own kitchen sense too.",
       aiNoteUnrev: "This recipe was written by AI and has not been checked yet.",
       photo: "Photo", noPhoto: "No freely licensed photo found for this dish.", searchEmpty: "No results.", country: "Country",
-      loadErr: "Could not load data.", scoreTitle: "Global influence and recognition of the cuisine", scoreAI: "AI assessment, 0–100", noScore: "No score",
+      loadErr: "Could not load data.", scoreTitle: "Average of four sub-scores", scoreAI: "AI assessment, 0–100", sub_influence: "Global influence and recognition", sub_richness: "Richness and variety", sub_heritage: "Culinary heritage", sub_products: "Distinctive products and techniques", noScore: "No score",
       layers: "Layers", lyScore: "Cuisine score colours", lyLabels: "Country names", michelin: "Michelin Guide",
       star3: "3 stars", star2: "2 stars", star1: "1 star", bib: "Bib Gourmand", bibNote: "good food, good value",
       michelinSrc: "Source: open dataset compiled from the Michelin Guide (unofficial)", openGuide: "View in the Michelin Guide",
@@ -1003,7 +1003,11 @@
       '<div class="sc-num"><b>' + v + "</b><span>/100</span></div></div>" +
       '<div class="sc-body"><div class="sc-kick">' + esc(t("scoreKicker")) + '</div><div class="sc-tier">' + esc(t(tier)) + "</div>" +
       '<div class="sc-rank">' + medal + esc(t("worldRank")) + ": <b>" + wr.rank + ".</b> <span>" + esc(t("of", { n: wr.n })) + "</span></div>" +
-      '<p>' + esc(L(c.score.why)) + "</p><small>" + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</small></div></div>";
+      '<p>' + esc(L(c.score.why)) + "</p><small>" + esc(t("scoreTitle")) + " · " + esc(t("scoreAI")) + "</small></div></div>" +
+      (c.score.subs ? '<div class="subs">' + ["influence", "richness", "heritage", "products"].map(function (k) {
+        var x = c.score.subs[k];
+        return '<div class="sub"><span>' + esc(t("sub_" + k)) + "</span><b>" + x + '</b><i><em style="--w:' + x + "%;--c:" + scoreColor(x) + '"></em></i></div>';
+      }).join("") + "</div>" : "");
   }
   function animateScore() {
     var a = document.querySelector("#panel-body .sc-arc");
