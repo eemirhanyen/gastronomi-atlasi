@@ -26,6 +26,7 @@
   --label: rgb(var(--ink) / .78);
   --backdrop: var(--backdrop);
   --ph-bg: linear-gradient(135deg, #3a2a1e, #24190f);
+  --doodle: rgba(240, 214, 180, .055);
   --radius: 16px;
   --serif: Fraunces, Georgia, serif;
 }
@@ -57,6 +58,7 @@
   --label: rgba(58, 42, 30, .85);
   --backdrop: rgba(70, 45, 20, .32);
   --ph-bg: linear-gradient(135deg, #f3e7d5, #e6d5bd);
+  --doodle: rgba(130, 90, 50, .085);
 }
 
 * { box-sizing: border-box; }
@@ -67,6 +69,14 @@ html, body {
 }
 button { font: inherit; color: inherit; }
 #globe { position: fixed; inset: 0; }
+/* Arka plan dokusu: el çizimi mutfak ikonları (assets/doodle.svg, kendi çizimimiz). Renk temadan gelir (maske),
+   hareket yalnızca transform ile (ekran kartında, yeniden boyama yok); hareket azaltma tercihinde durur. */
+.doodle { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.doodle i { position: absolute; top: -480px; left: -480px; right: 0; bottom: 0; background: var(--doodle);
+  -webkit-mask: url(assets/doodle.svg) 0 0 / 480px 480px repeat; mask: url(assets/doodle.svg) 0 0 / 480px 480px repeat;
+  animation: doodleDrift 90s linear infinite; will-change: transform; }
+@keyframes doodleDrift { to { transform: translate(480px, 480px); } }
+@media (prefers-reduced-motion: reduce) { .doodle i { animation: none; } }
 
 /* Arama */
 .search svg { position: absolute; left: 14px; top: 13px; color: var(--muted); z-index: 1; pointer-events: none; }
@@ -689,3 +699,5 @@ body.panel-open .gamebar { display: none; }
 .yarn { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 40; pointer-events: none; overflow: visible; }
 body.yarn-on, body.yarn-on * { cursor: none !important; }
 .gb.on { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(240,162,59,.3), 0 6px 18px rgb(var(--shade) / calc(.4 * var(--sk))); }
+/* Arayüz kromu seçilemez: hızlı ardışık tıklamalar (kediyi sevmek, mercek değiştirmek) sayfayı mavi seçime boyamasın */
+.cat, .brand, .dock, .gamebar, .legend, .credit, .rank, #globe, .toast { -webkit-user-select: none; user-select: none; }

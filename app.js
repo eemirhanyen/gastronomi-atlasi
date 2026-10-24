@@ -1803,7 +1803,7 @@
       var wh = el("g", { stroke: "#ece6dc", "stroke-width": .55, opacity: .85 }, g.head);
       ["M15 5 L28 2", "M15 6.5 L28 7.5", "M8 6 L-3 3", "M8 7.5 L-3 8.5"].forEach(function (d) { el("path", { d: d }, wh); });
       g.scarf = el("path", { d: "M-6 9 C 0 15 10 15 15 10 L 12 18 L 5 14 L 0 20 Z", fill: "#c8442f" }, g.head);
-      return { svg: svg, g: g, bcp: bcp, ncp: ncp, cur: JSON.parse(JSON.stringify(POSES.stand)), t: 0, phase: 0,
+            return { svg: svg, g: g, bcp: bcp, ncp: ncp, low: GY, lowT: 0, cur: JSON.parse(JSON.stringify(POSES.stand)), t: 0, phase: 0,
                blinkAt: 2, blinkT: 0, twitchAt: 4, twitchT: 0, look: [0, 0] };
     }
     make.n = 0;
@@ -1973,8 +1973,16 @@
       var eb = c.earBack + (r.twitchT > 0 ? 0.6 : 0);
       g.earN.setAttribute("transform", "rotate(" + (eb * 28).toFixed(1) + " 8 -8)");
       g.earF.setAttribute("transform", "rotate(" + (c.earBack * 22).toFixed(1) + " -4 -8)");
+      // pozun gerçek alt kenarı (uyurken gövde ve kalça pati çizgisinin altına iner); platformda bu kenar yüzeye oturur
+      r.lowT -= dt;
+      if (r.lowT <= 0) { r.lowT = 0.25; try {
+        // yalnızca görünen dolgu parçaları (kırpılmış göğüs yolu ve boş şekiller ölçümü şişiriyordu)
+        var lo = 0;
+        [g.body, g.haunchE, g.pawFN, g.pawFF, g.pawRN, g.pawRF].forEach(function (n) { var bb = n.getBBox(); if (bb.height) lo = Math.max(lo, bb.y + bb.height); });
+        r.low = lerp(r.low, lo || GY, 0.6);
+      } catch (e) {} }
     }
-    return { make: make, update: update };
+    return { make: make, update: update, GY: GY };
   })();
   function catEnabled() { return PREF.cat !== false; }
   function catMobile() { return window.innerWidth <= 720; }
@@ -2032,11 +2040,12 @@
     else { var e = document.getElementById(id); rc = e && e.getBoundingClientRect(); }
     if (!rc || !rc.width) return null;
     var w = catW(), h = w * 120 / 170, foot = h * CAT_FOOT;
-    var y = window.innerHeight - rc.top - 2 + foot - 2;    // kutunun tabanı, patiler kenara bassın
-    if (name === "home") y += 6;                              // yazının üst kenarına uzanır, satır okunur kalır
+    // .cat kutusu bottom:0'da; patiler kutu tabanından "foot" kadar yukarıda. Patiler platformun üst kenarına bassın:
+    // y + foot = (pencere yüksekliği - üst kenar). Yazı satırının kutusu harflerden ~3px yukarıda başlar, kedi harflere yaslansın.
+    var y = window.innerHeight - rc.top - foot - (name === "home" ? 1 : 1);
     var min = rc.left - w * 0.22, max = rc.right - w * 0.78;
     if (max < min) max = min = (rc.left + rc.right) / 2 - w / 2;
-    return { min: min, max: Math.min(max, window.innerWidth - w - 4), y: y - 2 };
+    return { min: min, max: Math.min(max, window.innerWidth - w - 4), y: y };
   }
   function initCat() {
     if (CAT.el) return;
@@ -2048,6 +2057,14 @@
     CAT.rig = RIG.make(el.querySelector(".cat-flip"));
     CAT.x = catFree(catBounds())[0][0] + 40; CAT.y = 0; CAT.perch = null; CAT.jump = null; CAT.age = 0; CAT.look = [0, 0];
     el.querySelector(".cat-flip").addEventListener("click", petCat);
+    // art arda sevme tıklamaları üçlü tıklama sayılıp tüm sayfayı seçiyordu
+    el.addEventListener("mousedown", function (e) { e.preventDefault(); });
+    if (!initCat.sel) {
+      initCat.sel = true;
+      document.addEventListener("mousedown", function (e) {
+        if (e.detail > 1 && !e.target.closest(".panel, .modal, input, textarea, .cat-bubble")) e.preventDefault();
+      });
+    }
     document.addEventListener("pointermove", function (e) { CAT.px = e.clientX; CAT.py = e.clientY; }, { passive: true });
     getJSON("data/tips.json").then(function (d) {
       CAT.tips = d;
@@ -2137,7 +2154,7 @@
       if (k >= 1) { CAT.y = J.y1; CAT.perch = J.perch; CAT.jump = null; setCatState("stand", 600); (J.then || nextCatState)(); }
     } else {
       // platform kaybolduysa (panel açıldı, pencere küçüldü) zemine in
-      if (CAT.perch) { var pp = catPerch(CAT.perch); if (!pp) { CAT.perch = null; CAT.y = 0; } else CAT.y = pp.y; }
+      if (CAT.perch) { var pp = catPerch(CAT.perch); if (!pp) { CAT.perch = null; CAT.y = 0; } else CAT.y = pp.y + Math.max(0, Math.min(14, (CAT.rig.low - RIG.GY) * catW() / 170)); }
       if (!CAT.perch) {
         if (CAT.x > b.max) { CAT.target = b.max; if (CAT.state !== "walk" && CAT.state !== "run") setCatState("walk", 8000); }
         var moving = CAT.state === "walk" || CAT.state === "run";
