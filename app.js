@@ -49,6 +49,7 @@
       capMichelin: "Michelin Rehberi restoranları · bir noktaya dokun", capTop10: "Ölmeden önce tadılması gereken 10 yemek · birine dokun",
       wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
       namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
+      catWake: "Mrrr? Uyanmıştım zaten…", catMore: "Bir tane daha", catHide: "Tarçın'ı sakla", catHidden: "Tarçın uyumaya gitti. 🐱 düğmesiyle geri çağırabilirsin.", catHello: "Miyav! Ben Tarçın.", catT: "Tarçın'ı çağır",
       favT: "Favorilere ekle", favAdded: "Favorilere eklendi: ", favsT: "Favori tariflerim", shareT: "Tarifi paylaş", linkCopied: "Bağlantı kopyalandı: ",
       passT: "Gastronomi pasaportu", quizT: "Bu yemek hangi ülkenin?", diceT: "Rastgele bir ülkeye uç", stampNew: "Yeni damga: ", badgeNew: "Yeni rozet: ",
       passSub: "{d} tarif açtın · bilgi yarışmasında en iyi serin {q}", badgesT: "Rozetler", stampsT: "Damgalar", noStamps: "Henüz damga yok. Bir ülkeye dokun ya da 🎲 ile rastgele uç.",
@@ -115,6 +116,7 @@
       capMichelin: "Michelin Guide restaurants · tap a dot", capTop10: "10 dishes to eat before you die · tap one",
       wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
       namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
+      catWake: "Mrrr? I was awake anyway…", catMore: "Another one", catHide: "Hide Tarçın", catHidden: "Tarçın went for a nap. Call her back with the 🐱 button.", catHello: "Meow! I'm Tarçın.", catT: "Call Tarçın",
       favT: "Add to favourites", favAdded: "Added to favourites: ", favsT: "My favourite recipes", shareT: "Share recipe", linkCopied: "Link copied: ",
       passT: "Gastronomy passport", quizT: "Which country is this dish from?", diceT: "Fly to a random country", stampNew: "New stamp: ", badgeNew: "New badge: ",
       passSub: "{d} recipes opened · best quiz streak {q}", badgesT: "Badges", stampsT: "Stamps", noStamps: "No stamps yet. Tap a country or fly somewhere random with 🎲.",
@@ -1564,9 +1566,10 @@
     if (!b) return;
     b.innerHTML = '<button class="gb" data-g="pass" title="' + esc(t("passT")) + '"><span>🛂</span>' + (G.visited.length ? "<em>" + G.visited.length + "</em>" : "") + "</button>" +
       '<button class="gb" data-g="quiz" title="' + esc(t("quizT")) + '"><span>🎯</span>' + (G.best ? "<em>" + G.best + "</em>" : "") + "</button>" +
-      '<button class="gb" data-g="dice" title="' + esc(t("diceT")) + '"><span>🎲</span></button>';
+      '<button class="gb" data-g="dice" title="' + esc(t("diceT")) + '"><span>🎲</span></button>' +
+      (catEnabled() ? "" : '<button class="gb" data-g="cat" title="' + esc(t("catT")) + '"><span>🐱</span></button>');
     Array.prototype.forEach.call(b.querySelectorAll(".gb"), function (x) {
-      x.addEventListener("click", function () { ({ pass: openPass, quiz: openQuiz, dice: randomTrip })[x.dataset.g](); });
+      x.addEventListener("click", function () { ({ pass: openPass, quiz: openQuiz, dice: randomTrip, cat: showCat })[x.dataset.g](); });
     });
   }
   function openG(html) {
@@ -1690,6 +1693,148 @@
     pulseAt._t = setTimeout(function () { if (!S.relBack) globe.ringsData([]); }, 2800);
   }
 
+  // ------------------------------------------------------------ Tarçın: ekranda gezinen, ara ara mutfak bilgisi veren kedi
+  // Fakültenin kedisinden: siyah ağırlıklı, sarı-turuncu lekeli, beyaz göğüslü ve patili. Özgün SVG çizim.
+  var CAT = { el: null, x: 120, dir: 1, state: "idle", until: 0, target: null, tips: null, order: [], said: 0, nextTalk: 0, talking: false, raf: 0, last: 0 };
+  var CAT_SVG = '<svg viewBox="0 0 124 92" aria-hidden="true"><defs>' +
+    '<clipPath id="ccBody"><ellipse cx="56" cy="56" rx="33" ry="17"/></clipPath><clipPath id="ccHead"><circle cx="93" cy="37" r="15.5"/></clipPath></defs>' +
+    // kuyruk
+    '<g class="c-tail"><path d="M27 52 C 10 50 4 34 10 20 C 12 15 18 15 17 21 C 12 32 15 43 29 46 Z" fill="#231e1c"/>' +
+    '<path d="M10 22 C 12 16 17 15 17 20 C 15 22 13 23 10 24 Z" fill="#e3a33c"/></g>' +
+    // uzak bacaklar
+    '<g class="c-leg c-l2"><rect x="37" y="58" width="8" height="25" rx="4" fill="#171311"/><ellipse cx="41" cy="83" rx="5" ry="3" fill="#ddd6ca"/></g>' +
+    '<g class="c-leg c-l4"><rect x="74" y="58" width="8" height="25" rx="4" fill="#171311"/><ellipse cx="78" cy="83" rx="5" ry="3" fill="#ddd6ca"/></g>' +
+    // gövde ve lekeler
+    '<g class="c-body"><ellipse cx="56" cy="56" rx="33" ry="17" fill="#231e1c"/><g clip-path="url(#ccBody)">' +
+    '<path d="M38 40 C 50 33 64 35 73 41 C 66 47 50 48 38 45 Z" fill="#e3a33c"/><ellipse cx="31" cy="53" rx="10" ry="9" fill="#e3a33c"/>' +
+    '<ellipse cx="72" cy="67" rx="17" ry="8" fill="#f7f2e9"/></g></g>' +
+    // yakın bacaklar (beyaz patili)
+    '<g class="c-leg c-l1"><rect x="29" y="58" width="9" height="26" rx="4.5" fill="#231e1c"/><rect x="29" y="76" width="9" height="8" rx="4" fill="#f7f2e9"/></g>' +
+    '<g class="c-leg c-l3"><rect x="66" y="58" width="9" height="26" rx="4.5" fill="#231e1c"/><rect x="66" y="74" width="9" height="10" rx="4" fill="#f7f2e9"/></g>' +
+    // baş
+    '<g class="c-head"><path d="M80 29 L81 12 L92 23 Z" fill="#231e1c"/><path d="M83 25 L83.5 16 L89 22 Z" fill="#c98a8f"/>' +
+    '<path d="M95 22 L104 11 L107 29 Z" fill="#e3a33c"/><path d="M99 22 L103.5 15 L105 25 Z" fill="#d79ca0"/>' +
+    '<circle cx="93" cy="37" r="15.5" fill="#231e1c"/><g clip-path="url(#ccHead)"><path d="M93 20 C 104 21 111 29 110 39 L 97 36 Z" fill="#e3a33c"/>' +
+    '<path d="M93 33 C 97 40 106 42 109 47 L 90 54 Z" fill="#f7f2e9"/></g>' +
+    '<g class="c-eyes"><ellipse cx="89" cy="34" rx="3.1" ry="3.4" fill="#d8e36e"/><ellipse cx="89.6" cy="34" rx="1" ry="2.7" fill="#111"/>' +
+    '<ellipse cx="100" cy="34" rx="3.1" ry="3.4" fill="#d8e36e"/><ellipse cx="100.6" cy="34" rx="1" ry="2.7" fill="#111"/></g>' +
+    '<path d="M96.5 40.5 h4 l-2 2.4 z" fill="#e48b98"/><path d="M98.5 43 q-1.5 2 -3.5 1.5 M98.5 43 q1.5 2 3.5 1.5" stroke="#5a4a44" stroke-width=".8" fill="none"/>' +
+    '<g stroke="#ece6dc" stroke-width=".6" opacity=".8"><path d="M103 42 L117 39"/><path d="M103 44 L117 45"/><path d="M93 42 L80 39"/><path d="M93 44 L80 45"/></g>' +
+    // aşçı fuları (başla birlikte hareket eder)
+    '<path class="c-scarf" d="M81 48 C 88 54 99 54 105 48 L 102 56 L 94 52 L 88 58 Z" fill="#c8442f"/></g>' +
+    '</svg>';
+  function catEnabled() { return PREF.cat !== false; }
+  function catMobile() { return window.innerWidth <= 720; }
+  function catBounds() {
+    var w = catMobile() ? 92 : 124, right = window.innerWidth - w - 8;
+    if (S.country && !catMobile()) right = window.innerWidth - Math.min(500, window.innerWidth) - w - 8;
+    return { min: 8, max: Math.max(8, right) };
+  }
+  function initCat() {
+    if (CAT.el) return;
+    var el = document.createElement("div");
+    el.className = "cat";
+    el.innerHTML = '<div class="cat-bubble" hidden></div><div class="cat-z">z<i>z</i><b>z</b></div><div class="cat-flip">' + CAT_SVG + "</div>";
+    document.body.appendChild(el);
+    CAT.el = el;
+    CAT.x = Math.min(160, catBounds().max);
+    el.querySelector(".cat-flip").addEventListener("click", function () {
+      if (CAT.state === "sleep") { setCatState("sit", 1500); sayCat(t("catWake")); setTimeout(function () { catTip(); }, 1400); return; }
+      catTip();
+    });
+    getJSON("data/tips.json").then(function (d) {
+      CAT.tips = d;
+      CAT.order = d.tips.map(function (_, i) { return i; }).sort(function () { return Math.random() - 0.5; });
+    }).catch(function () { CAT.tips = null; });
+    CAT.nextTalk = Date.now() + 25000;
+    CAT.last = performance.now();
+    CAT.raf = requestAnimationFrame(catTick);
+    applyCatVisibility();
+  }
+  function applyCatVisibility() {
+    if (!CAT.el) return;
+    CAT.el.hidden = !catEnabled();
+    gameBar();
+  }
+  function setCatState(s, ms) {
+    CAT.state = s;
+    CAT.until = Date.now() + (ms || 3000);
+    CAT.el.className = "cat cat-" + s + (CAT.talking ? " talking" : "");
+  }
+  // Kedilik: rastgele ama ağırlıklı davranış seçimi
+  function nextCatState() {
+    var b = catBounds(), r = Math.random();
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) { setCatState(r < .5 ? "sit" : "sleep", 8000); return; }
+    if (r < 0.42) { CAT.target = b.min + Math.random() * (b.max - b.min); setCatState("walk", 20000); }
+    else if (r < 0.58) setCatState("sit", 3000 + Math.random() * 4000);
+    else if (r < 0.70) setCatState("groom", 3200);
+    else if (r < 0.78) setCatState("stretch", 1800);
+    else if (r < 0.88) setCatState("sleep", 9000 + Math.random() * 9000);
+    else { CAT.target = b.min + Math.random() * (b.max - b.min); setCatState("run", 8000); }
+  }
+  function catTick(now) {
+    CAT.raf = requestAnimationFrame(catTick);
+    var dt = Math.min(0.05, (now - CAT.last) / 1000);
+    CAT.last = now;
+    if (!CAT.el || CAT.el.hidden) return;
+    var b = catBounds();
+    // Panel açıkken telefonda gizlen, masaüstünde kenara çekil ve uyu
+    var hide = catMobile() && document.body.classList.contains("panel-open");
+    CAT.el.classList.toggle("away", hide);
+    if (CAT.x > b.max) { CAT.target = b.max; if (CAT.state !== "walk" && CAT.state !== "run") setCatState("walk", 8000); }
+    if (CAT.state === "walk" || CAT.state === "run") {
+      var sp = (CAT.state === "run" ? 230 : 70) * (catMobile() ? 0.7 : 1), d = CAT.target - CAT.x;
+      CAT.dir = d >= 0 ? 1 : -1;
+      if (Math.abs(d) < 3) { if (CAT.state === "run") setCatState("pounce", 700); else nextCatState(); }
+      else CAT.x += Math.sign(d) * Math.min(Math.abs(d), sp * dt);
+    } else if (Date.now() > CAT.until && !CAT.talking) {
+      nextCatState();
+    }
+    var modalOpen = !document.getElementById("modal").hidden || !document.getElementById("gmodal").hidden || !document.getElementById("intro").hidden ||
+      !document.getElementById("topmodal").hidden;
+    if (!CAT.talking && !hide && !modalOpen && CAT.tips && Date.now() > CAT.nextTalk && CAT.state !== "sleep") catTip();
+    CAT.el.style.transform = "translateX(" + CAT.x.toFixed(1) + "px)";
+    CAT.el.querySelector(".cat-flip").style.transform = "scaleX(" + CAT.dir + ")";
+  }
+  function sayCat(html, ms) {
+    var bu = CAT.el.querySelector(".cat-bubble");
+    bu.innerHTML = html;
+    bu.hidden = false;
+    // balon her zaman ekranın içinde; ok kediyi göstersin
+    var cw = catMobile() ? 92 : 124, bw = Math.min(290, window.innerWidth - 24);
+    var abs = Math.max(12, Math.min(window.innerWidth - bw - 12, CAT.x + cw / 2 - 50));
+    bu.style.left = (abs - CAT.x) + "px"; bu.style.right = "auto";
+    bu.style.setProperty("--ax", Math.max(16, Math.min(bw - 30, CAT.x + cw / 2 - abs - 7)) + "px");
+    CAT.talking = true;
+    CAT.el.classList.add("talking");
+    clearTimeout(sayCat._t);
+    sayCat._t = setTimeout(hushCat, ms || 2200);
+  }
+  function hushCat() {
+    var bu = CAT.el && CAT.el.querySelector(".cat-bubble");
+    if (bu) bu.hidden = true;
+    CAT.talking = false;
+    if (CAT.el) CAT.el.classList.remove("talking");
+    CAT.nextTalk = Date.now() + (catMobile() ? 120000 : 60000) + Math.random() * 30000;
+  }
+  function catTip() {
+    if (!CAT.tips) return;
+    if (!CAT.order.length) CAT.order = CAT.tips.tips.map(function (_, i) { return i; }).sort(function () { return Math.random() - 0.5; });
+    var tp = CAT.tips.tips[CAT.order.shift()], c = CAT.tips.cats[tp.c] || {};
+    setCatState("sit", 12000);
+    sayCat('<div class="cb-h"><span>' + (c.ic || "🐾") + " " + esc(L(c)) + '</span><button class="cb-x" aria-label="' + esc(t("close")) + '">×</button></div>' +
+      "<p>" + esc(L(tp)) + '</p><div class="cb-f"><button class="cb-more">' + esc(t("catMore")) + '</button><button class="cb-hide">' + esc(t("catHide")) + "</button></div>", 11000);
+    CAT.said++;
+    var bu = CAT.el.querySelector(".cat-bubble");
+    bu.querySelector(".cb-x").addEventListener("click", function (e) { e.stopPropagation(); hushCat(); nextCatState(); });
+    bu.querySelector(".cb-more").addEventListener("click", function (e) { e.stopPropagation(); catTip(); });
+    bu.querySelector(".cb-hide").addEventListener("click", function (e) {
+      e.stopPropagation(); hushCat(); PREF.cat = false; savePrefs(); applyCatVisibility();
+      toast('<span class="t-ic">🐱</span><span>' + esc(t("catHidden")) + "</span>");
+    });
+  }
+  function showCat() { PREF.cat = true; savePrefs(); applyCatVisibility(); if (CAT.el) { setCatState("stretch", 1800); sayCat(t("catHello"), 2500); } }
+
   // ------------------------------------------------------------ adres çubuğu (#TUR veya #TUR/baklava)
   var hashLock = false;
   function setHash() {
@@ -1764,6 +1909,7 @@
       bindClick();
       fromHash();
       setTimeout(function () { intro(false, 0); }, 1500);
+      setTimeout(initCat, 2500);
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
   }
   window.GA = { state: S, globe: function () { return globe; }, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };

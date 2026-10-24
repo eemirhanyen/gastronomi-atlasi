@@ -1,0 +1,546 @@
+{
+"cats": {
+"sauce": {
+"ic": "🥣",
+"tr": "Sos",
+"en": "Sauce"
+},
+"tech": {
+"ic": "🔥",
+"tr": "Teknik",
+"en": "Technique"
+},
+"prep": {
+"ic": "🔪",
+"tr": "Hazırlık",
+"en": "Prep"
+},
+"spice": {
+"ic": "🌶️",
+"tr": "Baharat",
+"en": "Spice"
+},
+"pastry": {
+"ic": "🥐",
+"tr": "Hamur işi",
+"en": "Pastry"
+},
+"safety": {
+"ic": "🧼",
+"tr": "Gıda güvenliği",
+"en": "Food safety"
+},
+"drink": {
+"ic": "🍷",
+"tr": "İçecek",
+"en": "Drinks"
+},
+"culture": {
+"ic": "📚",
+"tr": "Mutfak kültürü",
+"en": "Kitchen culture"
+}
+},
+"tips": [
+{
+"c": "sauce",
+"tr": "Fransız mutfağının beş ana sosu: beşamel, velouté, espanyol, domates ve hollandez. Klasik sosların çoğu bunlardan türer.",
+"en": "The five French mother sauces: béchamel, velouté, espagnole, tomato and hollandaise. Most classic sauces derive from them."
+},
+{
+"c": "sauce",
+"tr": "Roux, eşit ağırlıkta un ve yağın birlikte pişirilmesidir. Rengi koyulaştıkça lezzeti artar ama bağlama gücü azalır.",
+"en": "Roux is equal weights of flour and fat cooked together. The darker it gets, the more flavour and the less thickening power."
+},
+{
+"c": "sauce",
+"tr": "Hollandez bir emülsiyondur: yumurta sarısı ılık tereyağını minik damlalar hâlinde tutar. Fazla ısınırsa kesilir.",
+"en": "Hollandaise is an emulsion: egg yolk holds warm butter in tiny droplets. Too much heat and it splits."
+},
+{
+"c": "sauce",
+"tr": "Kesilen emülsiyonu kurtarmak için temiz bir kaba bir kaşık su ya da yeni bir yumurta sarısı koyun, kesilmiş sosu damla damla çırparak ekleyin.",
+"en": "To rescue a split emulsion, whisk it drop by drop into a spoonful of water or a fresh yolk in a clean bowl."
+},
+{
+"c": "sauce",
+"tr": "Sosu ocaktan aldıktan sonra soğuk tereyağı çırparak bitirin (monter au beurre); sos parlar ve kadifemsi olur.",
+"en": "Finish a sauce off the heat by whisking in cold butter (monter au beurre) for shine and a velvety body."
+},
+{
+"c": "sauce",
+"tr": "'Nappe' kıvamı: sos kaşığın arkasını kaplar ve parmakla çizdiğiniz çizgi kapanmaz.",
+"en": "'Nappe' consistency: the sauce coats the back of a spoon and a line drawn with your finger stays clean."
+},
+{
+"c": "sauce",
+"tr": "Makarna suyundaki nişasta sosu bağlar. Süzmeden önce bir kepçe ayırın.",
+"en": "The starch in pasta water binds sauces. Save a ladle before draining."
+},
+{
+"c": "sauce",
+"tr": "Tavanın dibine yapışan kızarmış parçalar lezzettir. Şarap, et suyu ya da suyla kazıyarak sosa katın; buna 'deglaze' denir.",
+"en": "The browned bits stuck to the pan are flavour. Lift them with wine, stock or water: that is deglazing."
+},
+{
+"c": "sauce",
+"tr": "Redüksiyon sosu koyulaştırır ve tadı yoğunlaştırır. Tuzu en sonda ayarlayın; su azaldıkça tuz da yoğunlaşır.",
+"en": "Reduction thickens and concentrates flavour. Salt at the end, because saltiness concentrates too."
+},
+{
+"c": "sauce",
+"tr": "Mayonez de bir emülsiyondur. Yağı başta damla damla ekleyin, emülsiyon oluşunca ince bir akışla devam edin.",
+"en": "Mayonnaise is an emulsion too. Add the oil drop by drop at first, then in a thin stream once it takes."
+},
+{
+"c": "sauce",
+"tr": "Mısır nişastası sosu parlak ve şeffaf, un ise mat bağlar. Nişastayı önce soğuk suyla açın, yoksa topaklanır.",
+"en": "Cornstarch thickens clear and glossy, flour matte. Slake starch in cold water first or it lumps."
+},
+{
+"c": "sauce",
+"tr": "Klasik vinegret oranı yaklaşık 3 ölçü yağa 1 ölçü sirkedir. Biraz hardal karışımı dengede tutar.",
+"en": "Classic vinaigrette is about 3 parts oil to 1 part vinegar. A little mustard keeps it emulsified."
+},
+{
+"c": "sauce",
+"tr": "Domates salçasını yağda birkaç dakika kavurmak çiğ tadını giderir ve rengini koyulaştırır.",
+"en": "Frying tomato paste in oil for a few minutes removes its raw taste and deepens the colour."
+},
+{
+"c": "sauce",
+"tr": "Yoğurtlu sos kesilmesin diye yoğurdu biraz unla çırpın ve sıcak sıvıyı azar azar ekleyin; buna temperleme denir.",
+"en": "To keep yoghurt sauces from splitting, whisk in a little flour and add the hot liquid gradually: that is tempering."
+},
+{
+"c": "sauce",
+"tr": "Pestodaki fesleğen fazla ezilince kararır. Kısa çekin ya da yaprakları birkaç saniye haşlayıp buzlu suya alın.",
+"en": "Basil in pesto darkens when overworked. Blitz briefly, or blanch the leaves for seconds and ice them."
+},
+{
+"c": "sauce",
+"tr": "Beurre blanc kaynatılmaz: redüksiyona soğuk tereyağını parça parça, ılık ateşte çırparak ekleyin.",
+"en": "Beurre blanc never boils: whisk cold butter piece by piece into the reduction over gentle heat."
+},
+{
+"c": "sauce",
+"tr": "Peyniri sosa ocaktan alınca ekleyin. Yüksek ısıda yağı ayrılır ve sos taneli olur.",
+"en": "Add cheese to sauces off the heat. High heat makes it oily and grainy."
+},
+{
+"c": "tech",
+"tr": "Kızartmadan önce eti kâğıt havluyla kurulayın. Islak yüzey kızarmaz, buharlanır.",
+"en": "Pat meat dry before searing. A wet surface steams instead of browning."
+},
+{
+"c": "tech",
+"tr": "Tavayı kalabalıklaştırmayın. Malzeme tavanın ısısını düşürür ve kızarmak yerine suyunu salar.",
+"en": "Don't crowd the pan. It drops the temperature and food stews instead of browning."
+},
+{
+"c": "tech",
+"tr": "Maillard reaksiyonu, protein ve şekerlerin ısıyla kahverengileşmesidir; yaklaşık 140 °C'nin üzerinde hızlanır. Kızarmış lezzetin kaynağı budur.",
+"en": "The Maillard reaction browns proteins and sugars and speeds up above about 140 °C. It is where roasted flavour comes from."
+},
+{
+"c": "tech",
+"tr": "Karamelizasyon şekerin tek başına kahverengileşmesidir. Altın rengi tatlı soğanda hem bu hem Maillard çalışır.",
+"en": "Caramelisation is sugar browning on its own. Sweet golden onions get both it and Maillard."
+},
+{
+"c": "tech",
+"tr": "Pişen eti kesmeden önce birkaç dakika dinlendirin; tahtaya daha az su akar.",
+"en": "Rest cooked meat for a few minutes before slicing so less juice runs onto the board."
+},
+{
+"c": "tech",
+"tr": "Isı ocaktan alınca da pişirmeye devam eder. Büyük et parçalarını hedef sıcaklığın birkaç derece altında çıkarın.",
+"en": "Carry-over heat keeps cooking off the stove. Pull large roasts a few degrees before the target."
+},
+{
+"c": "tech",
+"tr": "Blanşe: sebzeyi kısa süre kaynar suda tutup hemen buzlu suya almak. Rengi canlı, dokusu diri kalır.",
+"en": "Blanching: a brief boil, then straight into iced water. Vegetables stay bright and crisp."
+},
+{
+"c": "tech",
+"tr": "Braise: önce kızart, sonra az sıvıyla, kapağı kapalı ve kısık ateşte uzun pişir. Sert kesimler yumuşacık olur.",
+"en": "Braising: sear, then cook covered in a little liquid, low and slow. Tough cuts turn tender."
+},
+{
+"c": "tech",
+"tr": "Konfi, yiyeceği yağın içinde düşük ısıda yavaşça pişirmektir. En bilinen örneği ördek konfidir.",
+"en": "Confit means cooking slowly in fat at a low temperature. Duck confit is the classic."
+},
+{
+"c": "tech",
+"tr": "Sote Fransızcada 'zıplatmak' demek: az yağda, yüksek ısıda, tavayı sallayarak hızlı pişirme.",
+"en": "Sauté means 'jump' in French: quick cooking in a little fat over high heat while tossing."
+},
+{
+"c": "tech",
+"tr": "Poşe ederken suyun hafifçe titremesi yeterlidir. Fokur fokur kaynayan su balığı ve yumurtayı dağıtır.",
+"en": "For poaching, a gentle shiver is enough. A rolling boil breaks up fish and eggs."
+},
+{
+"c": "tech",
+"tr": "Sous-vide, vakumlanmış yiyeceği hassas sıcaklıktaki suda pişirmektir. Et baştan uca aynı pişmişlikte olur.",
+"en": "Sous-vide cooks vacuum-sealed food in precisely heated water, giving edge-to-edge doneness."
+},
+{
+"c": "tech",
+"tr": "Biberi ya da patlıcanı doğrudan alevde közleyin, sonra kapalı kapta terletin; kabuğu kolayca soyulur.",
+"en": "Char peppers or aubergine over a flame, then steam them covered; the skins slip off."
+},
+{
+"c": "tech",
+"tr": "Wok hei, 'wokun nefesi': çok yüksek ısıda hızlı sotenin verdiği hafif isli lezzet.",
+"en": "Wok hei, 'the breath of the wok': the smoky aroma of stir-frying over very high heat."
+},
+{
+"c": "tech",
+"tr": "Çoğu kızartma için ideal yağ sıcaklığı 170–180 °C'dir. Daha soğuk yağda yiyecek yağ çeker.",
+"en": "Most deep-frying works best at 170–180 °C. In cooler oil, food soaks up grease."
+},
+{
+"c": "tech",
+"tr": "Patates kızartmasını iki kez kızartın: önce düşük ısıda içini pişirin, sonra yüksek ısıda çıtırlaştırın.",
+"en": "Fry chips twice: first at a lower heat to cook through, then hot to crisp them."
+},
+{
+"c": "tech",
+"tr": "Önce tavayı ısıtın, sonra yağı ekleyin. Yeterince ısınmamış tavaya konan et yapışır.",
+"en": "Heat the pan first, then add the fat. Meat sticks to an underheated pan."
+},
+{
+"c": "tech",
+"tr": "Pilavı demlendirirken kapakla tencere arasına temiz bir bez koyun; buhar geri damlamaz, pilav tane tane olur.",
+"en": "When resting rice, put a clean towel under the lid so steam doesn't drip back; the grains stay separate."
+},
+{
+"c": "tech",
+"tr": "Pirinci yıkamak yüzeydeki nişastayı alır. Tane tane pilav için yıkayın, risotto için yıkamayın.",
+"en": "Rinsing rice removes surface starch. Do it for fluffy pilaf, never for risotto."
+},
+{
+"c": "tech",
+"tr": "Risottoya sıcak et suyunu kepçe kepçe ekleyin ve sık sık karıştırın; nişasta yavaşça salınır, kremamsı olur.",
+"en": "Add hot stock to risotto a ladle at a time and stir often; the starch releases slowly and it turns creamy."
+},
+{
+"c": "tech",
+"tr": "Al dente makarna sosun içinde pişmeye devam eder. Paketteki süreden bir dakika önce süzün.",
+"en": "Al dente pasta keeps cooking in the sauce. Drain it a minute before the packet time."
+},
+{
+"c": "tech",
+"tr": "Makarna suyuna yağ koymak yapışmayı önlemez. Bol su ve ilk dakikalarda karıştırmak önler.",
+"en": "Oil in pasta water doesn't stop sticking. Plenty of water and stirring early on do."
+},
+{
+"c": "tech",
+"tr": "Makarna suyunu tuzlayın ama 'deniz kadar' gerekmez: deniz suyu yaklaşık %3,5 tuzludur, %1–1,5 yeterlidir.",
+"en": "Salt pasta water, but not 'like the sea': seawater is about 3.5% salt, 1–1.5% is plenty."
+},
+{
+"c": "tech",
+"tr": "Yumurtayı kaynar suya koyup piştikten sonra buzlu suya almak soymayı kolaylaştırır.",
+"en": "Starting eggs in boiling water and shocking them in ice makes them easier to peel."
+},
+{
+"c": "tech",
+"tr": "Omleti orta ateşte yapın. Yumurta proteini yüksek ısıda sertleşir ve kurur.",
+"en": "Cook omelettes over moderate heat. Egg proteins toughen and dry out when overheated."
+},
+{
+"c": "tech",
+"tr": "Salamura: eti tuzlu suda bekletmek, pişirince daha sulu kalmasını sağlar.",
+"en": "Brining meat in salted water keeps it juicier when cooked."
+},
+{
+"c": "tech",
+"tr": "Asitli marinatlar (limon, sirke) etin yüzeyini yumuşatır. Fazla uzun bekletirseniz et un ufak olur.",
+"en": "Acidic marinades soften the surface of meat. Leave them too long and it turns mushy."
+},
+{
+"c": "prep",
+"tr": "Mise en place: pişirmeye başlamadan her şeyi doğrayıp tartıp hazırlamak. Profesyonel mutfağın ilk kuralı.",
+"en": "Mise en place: everything chopped, weighed and ready before you cook. The first rule of a professional kitchen."
+},
+{
+"c": "prep",
+"tr": "Kör bıçak keskin bıçaktan daha tehlikelidir: daha çok güç ister ve kayar.",
+"en": "A dull knife is more dangerous than a sharp one: it needs more force and slips."
+},
+{
+"c": "prep",
+"tr": "Jülyen kibrit çöpü gibi ince çubuklardır; brunoise ise bunlardan kesilen yaklaşık 3 mm'lik minik küplerdir.",
+"en": "Julienne is matchstick strips; brunoise is the tiny 3 mm cubes cut from them."
+},
+{
+"c": "prep",
+"tr": "Şifonat: yaprakları üst üste koyup rulo yapın ve ince şeritler hâlinde kesin. Fesleğen ve nane için ideal.",
+"en": "Chiffonade: stack the leaves, roll them up and slice into ribbons. Ideal for basil and mint."
+},
+{
+"c": "prep",
+"tr": "Doğrarken parmak uçlarınızı içeri kıvırın (pençe tutuşu). Bıçak boğumlarınıza yaslanarak ilerler.",
+"en": "Curl your fingertips in (the claw grip) so the blade glides against your knuckles."
+},
+{
+"c": "prep",
+"tr": "Kesme tahtasının altına nemli bir bez koyun; tahta kaymaz.",
+"en": "Put a damp cloth under the chopping board so it doesn't slide."
+},
+{
+"c": "prep",
+"tr": "Soğanı doğrarken kök kısmını kesmeyin. Soğan dağılmaz ve daha az göz yaşartır.",
+"en": "Leave the root on when dicing an onion. It holds together and makes you cry less."
+},
+{
+"c": "prep",
+"tr": "Sarımsağı ne kadar ince ezerseniz tadı o kadar keskinleşir. Bütün diş yumuşak, ezme yakıcıdır.",
+"en": "The finer you crush garlic, the sharper it gets. Whole cloves are mild, paste is pungent."
+},
+{
+"c": "prep",
+"tr": "Mirpuva (mirepoix): 2 ölçü soğan, 1 ölçü havuç, 1 ölçü kereviz. Fransız et sularının aromatik tabanı.",
+"en": "Mirepoix: 2 parts onion, 1 carrot, 1 celery. The aromatic base of French stocks."
+},
+{
+"c": "prep",
+"tr": "Sofrito, mirpuva ve Cajun mutfağının 'kutsal üçlü'sü aynı fikrin akrabalarıdır: yavaş pişen aromatik sebze tabanı.",
+"en": "Sofrito, mirepoix and the Cajun 'holy trinity' share one idea: a slow-cooked aromatic vegetable base."
+},
+{
+"c": "prep",
+"tr": "Avokado ve elmanın kararması oksidasyondur. Limon suyu bunu yavaşlatır.",
+"en": "Browning avocado and apple is oxidation. Lemon juice slows it down."
+},
+{
+"c": "prep",
+"tr": "Domatesi buzdolabına koymayın; soğuk aromasını ve dokusunu bozar.",
+"en": "Don't refrigerate tomatoes; the cold dulls their aroma and texture."
+},
+{
+"c": "spice",
+"tr": "Bütün baharatları kuru tavada hafifçe kavurun; kokusu çıkınca hemen alın. Aromaları uyanır.",
+"en": "Toast whole spices in a dry pan and take them off as soon as they smell fragrant. It wakes their aroma."
+},
+{
+"c": "spice",
+"tr": "Tadka, Hint mutfağının tekniğidir: baharatları kızgın yağda patlatıp yemeğin üzerine dökmek. Aroma yağa geçer.",
+"en": "Tadka is an Indian technique: bloom spices in hot fat and pour it over a dish. The aroma moves into the oil."
+},
+{
+"c": "spice",
+"tr": "Öğütülmüş baharat birkaç ayda aromasını kaybeder. Bütün alıp gerektikçe öğütmek daha kokuludur.",
+"en": "Ground spices fade within months. Buy them whole and grind as needed."
+},
+{
+"c": "spice",
+"tr": "Kuru otları pişirmenin başında, taze otları sonunda ekleyin.",
+"en": "Add dried herbs early in cooking and fresh herbs at the end."
+},
+{
+"c": "spice",
+"tr": "Tuz acılığı bastırır ve diğer tatları öne çıkarır. Tatsız gelen yemek çoğu zaman tuz ya da asit ister.",
+"en": "Salt suppresses bitterness and lifts other flavours. A flat dish usually needs salt or acid."
+},
+{
+"c": "spice",
+"tr": "Bir sıkım limon ya da birkaç damla sirke ağır bir yemeği hafifletir. Asit, tadın ışığını açar.",
+"en": "A squeeze of lemon or a dash of vinegar lightens a heavy dish. Acid switches the flavour on."
+},
+{
+"c": "spice",
+"tr": "Umami beşinci temel tattır. Domates, parmesan, mantar, soya sosu ve et suyu umamiden zengindir.",
+"en": "Umami is the fifth basic taste. Tomato, parmesan, mushrooms, soy sauce and stock are rich in it."
+},
+{
+"c": "spice",
+"tr": "Safranı ılık suda 10–15 dakika bekletin; rengini ve aromasını yemeğe eşit dağıtır.",
+"en": "Steep saffron in warm water for 10–15 minutes so it spreads its colour and aroma evenly."
+},
+{
+"c": "spice",
+"tr": "Pul biber ılık yağda rengini ve aromasını yağa verir. Tereyağında kızdırılıp mantının üzerine dökülür.",
+"en": "Turkish chilli flakes give their colour and aroma to warm fat. Sizzled in butter, they go over mantı."
+},
+{
+"c": "spice",
+"tr": "Sumak ekşi bir baharattır. Soğan salatasına ve kebaba limon yerine ekşilik verir.",
+"en": "Sumac is a sour spice. It gives onion salad and kebabs their tang instead of lemon."
+},
+{
+"c": "spice",
+"tr": "Vanilya çubuğunun tohumlarını kazıyın, boş kabuğu da şekerin içine gömün; şeker vanilya kokar.",
+"en": "Scrape out the vanilla seeds and bury the empty pod in sugar to scent it."
+},
+{
+"c": "pastry",
+"tr": "Hamur işinde gramla tartın. Bir su bardağı unun ağırlığı doldurma şekline göre çok değişir.",
+"en": "Weigh your baking ingredients. A cup of flour varies a lot depending on how it's filled."
+},
+{
+"c": "pastry",
+"tr": "Gluten yoğurdukça gelişir. Ekmek hamurunu iyi yoğurun, kek ve kurabiyeyi az karıştırın.",
+"en": "Kneading develops gluten. Work bread dough well; mix cakes and cookies lightly."
+},
+{
+"c": "pastry",
+"tr": "Tart hamurunda tereyağı soğuk olmalı. Tereyağı parçaları fırında buhar yapar ve katmanlı doku verir.",
+"en": "Keep the butter cold for pastry. Its pieces turn to steam in the oven and create flaky layers."
+},
+{
+"c": "pastry",
+"tr": "Yumurta akı temiz ve yağsız bir kapta daha iyi kabarır. Bir damla sarı bile köpüğü zayıflatır.",
+"en": "Egg whites whip best in a clean, grease-free bowl. Even a trace of yolk weakens the foam."
+},
+{
+"c": "pastry",
+"tr": "Fırını önceden ısıtın. Kabaran hamurlar ilk dakikalardaki güçlü ısıya ihtiyaç duyar.",
+"en": "Preheat the oven. Rising doughs need that strong heat in the first minutes."
+},
+{
+"c": "pastry",
+"tr": "Çok sıcak sıvı mayayı öldürür. Yaklaşık vücut sıcaklığında ılık su kullanın.",
+"en": "Very hot liquid kills yeast. Use water at around body temperature."
+},
+{
+"c": "pastry",
+"tr": "Ekmeğin altına vurun: boş ve tok bir ses geliyorsa pişmiştir.",
+"en": "Tap the bottom of the loaf: a hollow sound means it's baked."
+},
+{
+"c": "pastry",
+"tr": "Ganaş: sıcak kremayı doğranmış çikolatanın üzerine dökün, bir dakika bekleyin, ortadan dışa doğru karıştırın.",
+"en": "Ganache: pour hot cream over chopped chocolate, wait a minute, then stir from the centre outwards."
+},
+{
+"c": "pastry",
+"tr": "Çikolatayı benmaride eritin ve içine su kaçırmayın. Tek damla su çikolatayı topaklaştırır.",
+"en": "Melt chocolate over a bain-marie and keep water out. A single drop makes it seize."
+},
+{
+"c": "pastry",
+"tr": "Şerbetli tatlılarda kural: sıcak tatlıya soğuk şerbet ya da soğuk tatlıya sıcak şerbet. Hamur şerbeti çeker ama hamurlaşmaz.",
+"en": "Syrup desserts rule: cold syrup on hot pastry, or hot syrup on cold. It soaks in without turning soggy."
+},
+{
+"c": "pastry",
+"tr": "Yufkayı kurumasın diye nemli bir bezle örtün. Kuruyan yufka kırılır.",
+"en": "Keep filo covered with a damp cloth. Dried sheets crack."
+},
+{
+"c": "safety",
+"tr": "Tehlikeli sıcaklık aralığı yaklaşık 5–60 °C'dir. Pişmiş yemeği oda sıcaklığında iki saatten fazla bekletmeyin.",
+"en": "The danger zone is about 5–60 °C. Don't leave cooked food out for more than two hours."
+},
+{
+"c": "safety",
+"tr": "Tavuk eti iç sıcaklığı 74 °C'ye ulaşınca güvenlidir. Termometre tahminden iyidir.",
+"en": "Chicken is safe at an internal 74 °C. A thermometer beats guessing."
+},
+{
+"c": "safety",
+"tr": "Çiğ tavuğu yıkamayın. Bakteriler lavaboya ve çevreye sıçrar; pişirme zaten onları öldürür.",
+"en": "Don't wash raw chicken. It splashes bacteria around, and cooking kills them anyway."
+},
+{
+"c": "safety",
+"tr": "Çiğ et ve sebze için ayrı kesme tahtası kullanın.",
+"en": "Use separate chopping boards for raw meat and vegetables."
+},
+{
+"c": "safety",
+"tr": "Dondurulmuş eti buzdolabında çözdürün. Tezgâhta dış yüzey ısınır ve bakteri ürer.",
+"en": "Thaw frozen meat in the fridge. On the counter the surface warms up and bacteria grow."
+},
+{
+"c": "safety",
+"tr": "Pişmiş pirinci uzun süre ılık bekletmeyin; bazı bakteri sporları pişirmeye dayanır. Artanı çabuk soğutup buzdolabına koyun.",
+"en": "Don't keep cooked rice warm for long; some bacterial spores survive cooking. Cool leftovers quickly and refrigerate."
+},
+{
+"c": "drink",
+"tr": "Kırmızı şarabın tanenleri protein ve yağla yumuşar; bu yüzden yağlı etlerle iyi gider.",
+"en": "Red wine tannins soften with protein and fat, which is why they suit rich meats."
+},
+{
+"c": "drink",
+"tr": "Acılı yemekler yüksek alkollü ve tanenli şarapla daha yakıcı olur. Hafif tatlımsı, düşük alkollü bir beyaz seçin.",
+"en": "Chilli heat feels hotter with high-alcohol, tannic wine. Pick an off-dry, low-alcohol white."
+},
+{
+"c": "drink",
+"tr": "Tatlı şarabı tatlıdan daha tatlı olmalı; yoksa şarap ekşi ve sert gelir.",
+"en": "Dessert wine should be sweeter than the dessert, or the wine tastes sour."
+},
+{
+"c": "drink",
+"tr": "Beyaz şarabı fazla soğuk servis etmek aromasını kapatır. Çoğu beyaz 8–12 °C'de en iyisidir.",
+"en": "Serving white wine too cold hides its aroma. Most whites are best at 8–12 °C."
+},
+{
+"c": "drink",
+"tr": "Türk kahvesi cezvede kaynatılmaz; köpük yükselince ocaktan alınır. Köpük kahvenin gururudur.",
+"en": "Turkish coffee is never boiled: take the cezve off as the foam rises. The foam is its pride."
+},
+{
+"c": "drink",
+"tr": "Filtre kahve için su yaklaşık 92–96 °C olmalı. Kaynar su acılık çıkarır.",
+"en": "For filter coffee, use water at about 92–96 °C. Boiling water pulls out bitterness."
+},
+{
+"c": "drink",
+"tr": "Espresso yaklaşık 25–30 saniyede akmalı: çok hızlıysa ekşi, çok yavaşsa acı olur.",
+"en": "An espresso should run in about 25–30 seconds: too fast tastes sour, too slow bitter."
+},
+{
+"c": "drink",
+"tr": "Türk çayı için su tam kaynamalı. Demlikte 10–15 dakika demlenince 'tavşan kanı' rengini alır.",
+"en": "Turkish tea needs fully boiling water. Steeped for 10–15 minutes it turns 'rabbit's blood' red."
+},
+{
+"c": "drink",
+"tr": "Yeşil çayı kaynar suyla demlemeyin; 70–80 °C su acılaşmasını önler.",
+"en": "Don't brew green tea with boiling water; 70–80 °C keeps it from turning bitter."
+},
+{
+"c": "culture",
+"tr": "Mutfak brigad sistemi Auguste Escoffier'e dayanır: chef de cuisine, sous-chef ve her istasyonun şefi chef de partie.",
+"en": "The kitchen brigade system comes from Auguste Escoffier: chef de cuisine, sous-chef and the chefs de partie."
+},
+{
+"c": "culture",
+"tr": "'Fond' Fransızcada temel demektir. Hem et suyu hem de tavadaki kızarmış tortu bu adı taşır.",
+"en": "'Fond' means foundation in French. Both stock and the browned bits in a pan bear the name."
+},
+{
+"c": "culture",
+"tr": "Beyaz et suyu kızartılmamış kemiklerle, esmer et suyu fırında kızartılmış kemik ve sebzelerle yapılır.",
+"en": "White stock uses unroasted bones; brown stock uses bones and vegetables roasted first."
+},
+{
+"c": "culture",
+"tr": "Et suyunu kaynatmayın; hafif ateşte pişirin ve köpüğünü alın. Kaynamak suyu bulandırır.",
+"en": "Simmer stock, don't boil it, and skim the foam. Boiling makes it cloudy."
+},
+{
+"c": "culture",
+"tr": "Dashi, Japon mutfağının temel suyudur: kombu yosunu ve katsuobushi (kurutulmuş palamut) ile dakikalar içinde yapılır.",
+"en": "Dashi is the base stock of Japanese cooking, made in minutes from kombu and katsuobushi."
+},
+{
+"c": "culture",
+"tr": "'Al dente' İtalyanca 'dişe' demektir: makarna ısırınca hafif direnç göstermelidir.",
+"en": "'Al dente' means 'to the tooth': pasta should resist the bite slightly."
+},
+{
+"c": "culture",
+"tr": "Amuse-bouche, şefin sipariş edilmeden gönderdiği tek lokmalık ikramdır.",
+"en": "An amuse-bouche is a single bite the chef sends out without being ordered."
+}
+]
+}
