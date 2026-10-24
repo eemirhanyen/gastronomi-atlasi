@@ -230,7 +230,9 @@ def main():
                       "properties": {"iso": iso, "name": p["NAME"], "lx": round(p["LABEL_X"], 2), "ly": round(p["LABEL_Y"], 2),
                                      "rank": p.get("LABELRANK") or 9, "iso2": None if iso2 in (None, "-99") else iso2},
                       "geometry": {"type": "MultiPolygon", "coordinates": polys} if len(polys) > 1 else {"type": "Polygon", "coordinates": polys[0]}})
-    feats = add_caps(merge(feats))
+    # Dolgu parçaları ("cap") artık üretilmiyor: yüzeyler scripts/build_mesh.py ile önceden üçgenleniyor
+    # (globe.gl çokgen katmanı kullanılmıyor). add_caps yalnızca başvuru için duruyor.
+    feats = merge(feats)
     json.dump({"type": "FeatureCollection", "features": feats}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(f"{len(feats)} ülke/bölge, nokta {n_in} -> {n_out}, dosya {os.path.getsize(OUT) // 1024} KB")
 

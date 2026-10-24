@@ -203,8 +203,8 @@
     if (b) { b.textContent = tn === "light" ? "🌙" : "☀️"; b.setAttribute("aria-label", t(tn === "light" ? "toNight" : "toDay")); b.title = b.getAttribute("aria-label"); }
     if (!globe) return;
     paintGlobe();
-    globe.polygonSideColor(globe.polygonSideColor()).polygonStrokeColor(globe.polygonStrokeColor());
-    refresh();
+    paintLandStyle();
+    paintLand(true);
     if (S.points) globe.pointsData(S.points.slice());
     legend(); renderRank();
     if (S.country) renderPanel();
@@ -454,24 +454,22 @@
   }
   // Küredeki HTML öğeleri: ülke etiketleri + (açıksa) şarap bölgesi işaretleri
   var labelFeats = null, regionObjs = {};
-  // Yakınlaşınca görünen ülkelerin sınırlarını ayrıntılı (1:50m) sürümle değiştir. Uzaktan bakışta hızlı sürüm kalır.
-  var hiGeo = null, hiLoading = null, upTimer = null;
-  function upgradeGeo(pov) {
-    if (!hiLoading) {
-      hiLoading = getJSON("data/countries_hi.geojson").then(function (g) {
-        hiGeo = {};
-        g.features.forEach(function (f) { hiGeo[f.properties.iso] = f; });
-      }).catch(function () { hiGeo = {}; });
-    }
-    hiLoading.then(function () {
-      clearTimeout(upTimer);
-      upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, 250);
-    });
+  // Yakınlaşınca ülke sınırları ve yüzeyleri ayrıntılı (1:50m) sürüme geçer. Uzaktan bakışta hafif sürüm kalır.
+  // Yüzeyler önceden üçgenlenmiş geldiği için (scripts/build_mesh.py) geçiş tek seferde ve bir iki kare sürer.
+  var hiLoading = null;
+  function upgradeGeo() {
+    if (hiLoading) return;
+    hiLoading = Promise.all([getJSON("data/countries_hi.geojson"), loadMesh("data/mesh_hi.bin")]).then(function (r) {
+      var by = {};
+      r[0].features.forEach(function (f) { by[f.properties.iso] = f; });
+      S.geo.features.forEach(function (f) {
+        var h = by[f.properties.iso];
+        if (h) { f.geometry = h.geometry; f.__bb = null; f.__hi = true; }
+      });
+      LAND.mesh = r[1];
+      buildLand();
+    }).catch(function (e) { console.error(e); hiLoading = null; });
   }
-  // Sınır çatlaklarını önlemek için: görünen ülkeler + komşuları birlikte geçer; ardından kalan ülkeler
-  // arka planda küçük gruplar halinde geçer. Böylece kısa süre sonra tüm sınırlar aynı ayrıntıda olur.
-  var hiBox = null, hiNb = null;
-  var BIG = { RUS: 1, CAN: 1, USA: 1, ATA: 1, GRL: 1, AUS: 1, IDN: 1, CHN: 1, BRA: 1, NOR: 1, CHL: 1, ARG: 1, PHL: 1, JPN: 1, GBR: 1 };
   function bboxOf(geom) {
     var b = [180, 90, -180, -90];
     (geom.type === "Polygon" ? [geom.coordinates] : geom.coordinates).forEach(function (pl) {
@@ -479,55 +477,7 @@
     });
     return b;
   }
-  function neighbours(iso) {
-    if (!hiNb) {
-      hiBox = {}; hiNb = {};
-      Object.keys(hiGeo).forEach(function (k) { hiBox[k] = bboxOf(hiGeo[k].geometry); });
-    }
-    if (!hiNb[iso]) {
-      var a = hiBox[iso], out = [];
-      if (a) Object.keys(hiBox).forEach(function (k) {
-        var b = hiBox[k];
-        if (k !== iso && a[0] <= b[2] + 0.2 && b[0] <= a[2] + 0.2 && a[1] <= b[3] + 0.2 && b[1] <= a[3] + 0.2) out.push(k);
-      });
-      hiNb[iso] = out;
-    }
-    return hiNb[iso];
-  }
-  function upgradeStep(pov) {
-    var reach = Math.max(12, pov.altitude * 45), cl = Math.cos(pov.lat * Math.PI / 180);
-    var feats = S.geo.features, want = {}, idx = {};
-    feats.forEach(function (f, i) { idx[f.properties.iso] = i; });
-    feats.forEach(function (f) {
-      if (f.__hi) return;
-      var dy = (f.properties.ly || 0) - pov.lat, dx = ((((f.properties.lx || 0) - pov.lng) + 540) % 360 - 180) * Math.max(cl, 0.2);
-      if (Math.sqrt(dx * dx + dy * dy) <= reach) {
-        want[f.properties.iso] = 1;
-        neighbours(f.properties.iso).forEach(function (k) { want[k] = 1; });
-      }
-    });
-    var list = Object.keys(want).filter(function (k) { return idx[k] != null && !feats[idx[k]].__hi; });
-    var background = false;
-    if (!list.length) {                    // görünür bölge bitti: kalanları arka planda geçir
-      // Çok büyük geometriler (Rusya, Kanada…) arka planda geçirilmez: tek başına saniyelerce donma yapar.
-      // Onlar yalnızca ekrana girince (ya da komşusu girince) geçer. Antarktika hiç geçmez.
-      list = feats.filter(function (f) { return !f.__hi && !BIG[f.properties.iso]; }).map(function (f) { return f.properties.iso; });
-      background = true;
-    }
-    var batch = list.slice(0, background ? 6 : 12);
-    batch.forEach(function (iso) {
-      var i = idx[iso], f = feats[i], h = hiGeo[iso];
-      if (!h || iso === "ATA") { f.__hi = true; return; }
-      var nf = { type: "Feature", properties: f.properties, geometry: h.geometry, cap: h.cap, __hi: true, __el: f.__el };
-      feats[i] = nf;
-      if (S.selected === f) S.selected = nf;
-      if (S.hover === f) S.hover = nf;
-    });
-    if (batch.length) globe.polygonsData(polyItems());
-    if (list.length > batch.length || background && list.length) {
-      upTimer = setTimeout(function () { upgradeStep(globe.pointOfView()); }, background ? 400 : 120);
-    }
-  }
+
   function htmlData() {
     if (!labelFeats) labelFeats = S.geo.features.filter(function (f) { return S.index[f.properties.iso]; });
     var out = labelFeats;
@@ -661,20 +611,48 @@
   }
   function t_(k) { return t(k); }
   var hoverRaf = 0;
+  // Ülke etiketi (fareyle üzerine gelince): eskiden globe.gl veriyordu, ülke yüzeyleri artık tek ağ olduğu için burada
+  function showCtip(f, x, y) {
+    var t = document.getElementById("ctip");
+    if (!f) { t.hidden = true; return; }
+    var iso = f.properties.iso;
+    if (t.dataset.iso !== iso + PREF.lens + lang) {
+      t.innerHTML = '<div class="tip">' + flag(iso2Of(iso)) + " " + esc(cname(iso)) + tipSub(iso, S.index[iso]) + "</div>";
+      t.dataset.iso = iso + PREF.lens + lang;
+    }
+    t.hidden = false;
+    var w = t.offsetWidth, h = t.offsetHeight;
+    t.style.left = Math.min(x + 14, window.innerWidth - w - 8) + "px";
+    t.style.top = (y + 18 + h > window.innerHeight ? y - h - 10 : y + 18) + "px";
+  }
+  function setHover(f) {
+    if (f === S.hover) return;
+    S.hover = f;
+    refresh();
+  }
   function bindPointHover() {
-    var el = document.getElementById("globe");
-    el.addEventListener("mousemove", function (e) {
+    var el = document.getElementById("globe"), drag = false, last = null;
+    el.addEventListener("pointerdown", function () { drag = true; showCtip(null); setHover(null); });
+    window.addEventListener("pointerup", function () { drag = false; });
+    el.addEventListener("mousemove", function (e) { last = e; probe(e); });
+    // Fare durduğu halde küre hareket ederse (uçuş, kendi kendine dönme) imlecin altındaki ülke yeniden bulunur:
+    // aksi halde etiket eski ülkede asılı kalıyordu
+    globe.controls().addEventListener("change", function () { if (last) probe(last); });
+    function probe(e) {
       if (hoverRaf) return;
       hoverRaf = requestAnimationFrame(function () {
         hoverRaf = 0;
-        if (!S.points || !S.points.length) { showPtip(null); return; }
         var r = el.getBoundingClientRect(), c = globe.toGlobeCoords(e.clientX - r.left, e.clientY - r.top);
-        var m = c && nearestPoint(c.lat, c.lng, 0.35);
+        var m = c && S.points && S.points.length ? nearestPoint(c.lat, c.lng, 0.35) : null;
         showPtip(m, e.clientX, e.clientY);
-        if (m) el.style.cursor = "pointer";
+        // sürüklerken ülke vurgusu ve etiketi gösterilmez (küre dönerken etiket titremesin)
+        var f = c && !drag && !m && !e.target.closest(".wmark, .tmark") ? featureAt(c.lat, c.lng) : null;
+        setHover(f);
+        showCtip(f, e.clientX, e.clientY);
+        el.style.cursor = m || f ? "pointer" : drag ? "grabbing" : "grab";
       });
-    });
-    el.addEventListener("mouseleave", function () { showPtip(null); });
+    }
+    el.addEventListener("mouseleave", function () { last = null; showPtip(null); showCtip(null); setHover(null); });
   }
   function stars(a) { return a === "b" ? "Bib" : new Array(a + 1).join("★"); }
   function showMcard(m) {
@@ -841,19 +819,121 @@
 
   // ------------------------------------------------------------ küre
   function has(f) { var c = S.index[f.properties.iso]; return !!(c && (c.recipes || c.signature || c.score != null)); }
-  // Küreye verilen çokgen öğeleri. Büyük ülkelerde dolgu ("cap": yırtılmaya karşı parçalanmış geometri) ve sınır çizgisi
-  // (özgün geometri, dolgusuz) iki ayrı öğedir; böylece parça kenarlarına çizgi çizilmez. Bkz. scripts/build_geo.py
-  function polyItems() {
-    var out = [];
-    S.geo.features.forEach(function (f) {
-      if (!f.__items) {
-        f.__items = f.cap
-          ? [{ __f: f, __k: "cap", geometry: f.cap }, { __f: f, __k: "line", geometry: f.geometry }]
-          : [{ __f: f, __k: "both", geometry: f.geometry }];
+  // ------------------------------------------------------------ ülke yüzeyleri: tek ağ
+  // Eskiden her ülke parçası globe.gl'de ayrı nesneydi: karede ~4.100 çizim komutu, sitenin fps darboğazı.
+  // Şimdi tüm yüzeyler tek ağ (renkler köşelere yazılır), tüm sınırlar tek çizgi nesnesi: 2 çizim komutu.
+  // Üçgenler önceden hesaplanır (scripts/build_mesh.py); seçim/üzerine gelme/mercek değişince yalnızca renk dizisi güncellenir.
+  var LAND = { mesh: null, K: null, group: null };
+  function loadMesh(u) {
+    return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " " + r.status); return r.arrayBuffer(); }).then(function (buf) {
+      var dv = new DataView(buf), n = dv.getUint32(0, true), o = 4, map = {}, tv = 0, ti = 0, i;
+      for (i = 0; i < n; i++) {
+        var iso = String.fromCharCode(dv.getUint8(o), dv.getUint8(o + 1), dv.getUint8(o + 2), dv.getUint8(o + 3)).trim();
+        var nv = dv.getUint32(o + 4, true), ni = dv.getUint32(o + 8, true);
+        map[iso] = { v0: tv, nv: nv, i0: ti, ni: ni };
+        tv += nv; ti += ni; o += 12;
       }
-      out.push.apply(out, f.__items);
+      return { map: map, V: new Float32Array(buf, o, tv * 2), I: new Uint32Array(buf, o + tv * 8, ti) };
     });
-    return out;
+  }
+  // three.js sınıfları globe.gl paketinin içinde, dışarı açılmıyor; sahnedeki nesnelerden alınır (aynı kopya olmalı).
+  // Sahne globe.gl kurulduktan birkaç kare sonra dolar (enlem-boylam ağı LineSegments, okyanus Mesh vb.); hazır değilse null.
+  function threeKit() {
+    if (LAND.K) return LAND.K;
+    var K = {}, sc = globe.scene();
+    sc.traverse(function (o) {
+      if (o.isMesh && !K.Mesh) K.Mesh = o.constructor;
+      if (o.isMesh && o.geometry && o.geometry.type === "BufferGeometry" && !K.BG) K.BG = o.geometry.constructor;
+      if (o.isMesh && o.geometry && o.geometry.attributes.position && !K.Attr) K.Attr = o.geometry.attributes.position.constructor;
+      var m = o.material && (Array.isArray(o.material) ? o.material[0] : o.material);
+      if (m && m.type === "MeshBasicMaterial" && !K.Basic) { K.Basic = m.constructor; K.Color = m.color.constructor; }
+      if (o.isLineSegments && !K.Line) { K.Line = o.constructor; K.LineMat = o.material.constructor; }
+    });
+    if (!K.BG) {   // SphereGeometry'nin üst sınıfı BufferGeometry'dir
+      sc.traverse(function (o) { if (o.isMesh && !K.BG) K.BG = Object.getPrototypeOf(o.geometry.constructor.prototype).constructor; });
+    }
+    if (!(K.Mesh && K.BG && K.Attr && K.Basic && K.Line)) return null;
+    K.BA = Object.getPrototypeOf(K.Attr.prototype).constructor;   // Float32BufferAttribute'un üst sınıfı
+    LAND.K = K;
+    return K;
+  }
+  function rgbaParse(str) {
+    var m = /rgba?\(([^)]+)\)/.exec(str || ""), a = 1;
+    if (m) { var p = m[1].split(","); if (p.length > 3) a = +p[3]; }
+    return a;
+  }
+  function sph(lng, lat, R, out, k) {
+    var phi = (90 - lat) * Math.PI / 180, th = (90 - lng) * Math.PI / 180, sp = Math.sin(phi);
+    out[k] = R * sp * Math.cos(th); out[k + 1] = R * Math.cos(phi); out[k + 2] = R * sp * Math.sin(th);
+  }
+  function buildLand() {
+    if (!globe || !LAND.mesh) return;
+    var K = threeKit();
+    if (!K) { requestAnimationFrame(buildLand); return; }
+    var M = LAND.mesh, feats = S.geo.features, tv = 0, ti = 0;
+    feats.forEach(function (f) { var e = M.map[f.properties.iso]; f.__nv = e ? e.nv : 0; f.__v0 = tv; tv += f.__nv; ti += e ? e.ni : 0; });
+    var pos = new Float32Array(tv * 3), col = new Float32Array(tv * 3), idx = new Uint32Array(ti), R = 100 * (1 + GROUND), w = 0;
+    feats.forEach(function (f) {
+      var e = M.map[f.properties.iso]; if (!e) return;
+      for (var i = 0; i < e.nv; i++) sph(M.V[(e.v0 + i) * 2], M.V[(e.v0 + i) * 2 + 1], R, pos, (f.__v0 + i) * 3);
+      for (var j = 0; j < e.ni; j++) idx[w++] = M.I[e.i0 + j] + f.__v0;
+      f.__col = null;
+    });
+    // sınır çizgileri: ülke halkalarından, uzun kenarlar 1°'lik parçalara bölünür (kiriş küreye gömülmesin)
+    var segs = [], Rl = 100 * (1 + GROUND + 0.0003);
+    feats.forEach(function (f) {
+      var g = f.geometry, polys = g.type === "Polygon" ? [g.coordinates] : g.coordinates;
+      polys.forEach(function (pl) { pl.forEach(function (r) {
+        for (var i = 1; i < r.length; i++) {
+          var a = r[i - 1], b = r[i], n = Math.max(1, Math.ceil(Math.max(Math.abs(b[0] - a[0]), Math.abs(b[1] - a[1]))));
+          if (Math.abs(b[0] - a[0]) > 180) continue;
+          for (var k = 0; k < n; k++) segs.push(a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n, a[0] + (b[0] - a[0]) * (k + 1) / n, a[1] + (b[1] - a[1]) * (k + 1) / n);
+        }
+      }); });
+    });
+    // Kıyı duvarı (yüzeyden okyanusa inen kenar) çizilmez: açıyla bakınca adaların yanında gri gölge kopyası gibi görünüyordu
+    var ns = segs.length / 4, lp = new Float32Array(ns * 6);
+    for (var q = 0; q < ns; q++) { sph(segs[q * 4], segs[q * 4 + 1], Rl, lp, q * 6); sph(segs[q * 4 + 2], segs[q * 4 + 3], Rl, lp, q * 6 + 3); }
+    function geo(p, i, c) {
+      var g = new K.BG();
+      g.setAttribute("position", new K.Attr(p, 3));
+      if (c) g.setAttribute("color", new K.Attr(c, 3));
+      if (i) g.setIndex(new K.BA(i, 1));             // ham BufferAttribute: Uint32 kalsın (Float32'ye çevrilirse hiçbir şey çizilmez)
+      g.computeBoundingSphere();
+      return g;
+    }
+    if (LAND.group) { LAND.group.children.forEach(function (o) { o.geometry.dispose(); }); globe.scene().remove(LAND.group); }
+    var T0 = TH();
+    var capMat = LAND.capMat || (LAND.capMat = new K.Basic({ vertexColors: true, side: 2 }));
+    var lineMat = LAND.lineMat || (LAND.lineMat = new K.LineMat({ transparent: true }));
+    var cap = new K.Mesh(geo(pos, idx, col), capMat), line = new K.Line(geo(lp), lineMat);
+    LAND.colAttr = cap.geometry.attributes.color;
+    var grp = new (Object.getPrototypeOf(K.Mesh.prototype).constructor)();   // Object3D: üç nesnenin kabı
+    [cap, line].forEach(function (o) { o.raycast = function () {}; grp.add(o); });   // globe.gl'in fare taraması bu ağlarda dolaşmasın
+    LAND.group = grp;
+    globe.scene().add(grp);
+    paintLandStyle();
+    paintLand(true);
+  }
+  // tema: sınır çizgisi rengi
+  function paintLandStyle() {
+    if (!LAND.capMat) return;
+    var T0 = TH();
+    LAND.lineMat.color.set(T0.stroke.replace(/rgba\(([^,]+),([^,]+),([^,]+),[^)]+\)/, "rgb($1,$2,$3)")); LAND.lineMat.opacity = rgbaParse(T0.stroke);
+  }
+  // Ülke renkleri köşe dizisine yazılır; yalnızca rengi değişen ülkeler güncellenir
+  function paintLand(all) {
+    if (!LAND.colAttr) return;
+    var K = LAND.K, C = LAND.C || (LAND.C = new K.Color()), arr = LAND.colAttr.array, dirty = false;
+    S.geo.features.forEach(function (f) {
+      if (!f.__nv) return;
+      var cs = capColor({ __f: f, __k: "both" });
+      if (!all && cs === f.__col) return;
+      f.__col = cs; dirty = true;
+      C.set(cs);
+      for (var i = f.__v0, e = f.__v0 + f.__nv; i < e; i++) { arr[i * 3] = C.r; arr[i * 3 + 1] = C.g; arr[i * 3 + 2] = C.b; }
+    });
+    if (dirty) LAND.colAttr.needsUpdate = true;
   }
   function capColor(d) {
     if (d.__k === "line") return null;
@@ -886,21 +966,8 @@
     globe = Globe()(el)
       .backgroundColor("rgba(0,0,0,0)")      // sayfa zemini (CSS --page) görünsün
       .showAtmosphere(true)
-      .polygonsData(polyItems())
-      // Düşük kabartma: yakınlaşınca adaların yan duvarları gölge şeridi gibi görünmesin
-      // Tüm katmanlar aynı yükseklikte: ülke yüzeyi ile noktalar/işaretler arasında açıyla bakınca kayma (paralaks) olmasın.
-      // Seçim ve üzerine gelme yükseklikle değil renkle gösterilir.
-      .polygonAltitude(GROUND)
-      .polygonCapColor(capColor)
-      .polygonSideColor(function (d) { return d.__k === "cap" ? null : TH().side; })
-      .polygonStrokeColor(function (d) { return d.__k === "cap" ? null : TH().stroke; })
-      .polygonLabel(function (d) {
-        var f = d.__f;
-        var c = S.index[f.properties.iso];
-        var sub = tipSub(f.properties.iso, c);
-        return '<div class="tip">' + flag(iso2Of(f.properties.iso)) + " " + esc(cname(f.properties.iso)) + sub + "</div>";
-      })
-      .onPolygonHover(function (d) { var f = d ? d.__f : null; if (f === S.hover) return; S.hover = f; el.style.cursor = f ? "pointer" : "grab"; refresh(); })
+      // Ülke yüzeyleri globe.gl katmanı değil, tek ağ (bkz. LAND / buildLand). Tüm katmanlar aynı yükseklikte (GROUND):
+      // ülke yüzeyi ile noktalar/işaretler arasında açıyla bakınca kayma (paralaks) olmasın. Seçim ve üzerine gelme renkle gösterilir.
       // Tıklama globe.gl'e bırakılmaz (bkz. bindClick): kütüphane tıklanan nesneyi 50 ms'de bir güncellenen
       // "üzerinde durulan" bilgisinden alıyor; dokunmatik ekranda ilk dokunuş boşa gidiyordu.
       .pointsData([])
@@ -913,7 +980,6 @@
       .pointResolution(10)
       .pointsMerge(true)
       .pointsTransitionDuration(0)
-      .polygonsTransitionDuration(200)
       .htmlElementsData(htmlData())
       .htmlLat(function (f) { return f.t ? f.lat : f.w ? f.w[3] : f.properties.ly; })
       .htmlLng(function (f) { return f.t ? f.lng : f.w ? f.w[4] : f.properties.lx; })
@@ -936,11 +1002,14 @@
       })
       .onZoom(function (pov) {
         el.classList.toggle("zoomed", pov.altitude < 0.9);
-        if (pov.altitude < 1.4) upgradeGeo(pov);
+        if (pov.altitude < 1.4) upgradeGeo();
         var r = pov.altitude > 2.2 ? 2 : pov.altitude > 1.5 ? 3 : pov.altitude > 1.0 ? 4 : pov.altitude > 0.6 ? 5 : 9;
         if (r !== labelRank) { labelRank = r; labelEls.forEach(function (x) { applyLabel(x[0]); }); }
       });
     paintGlobe();
+    // Retina ekranlarda 2-3 kat piksel çizilmesin: keskinlik farkı görünmez, piksel yükü 2-4 kat düşer
+    globe.renderer().setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
+    buildLand();
     globe.pointOfView({ lat: 34, lng: 28, altitude: 2.1 }, 0);
     var ctl = globe.controls();
     // Kullanıcı küreye dokunduğu an (sürükleme, yakınlaştırma, tıklama) dönme kalıcı olarak durur
@@ -951,7 +1020,7 @@
     window.addEventListener("resize", size);
     size();
   }
-  function refresh() { globe.polygonAltitude(globe.polygonAltitude()).polygonCapColor(globe.polygonCapColor()); }
+  function refresh() { paintLand(false); }
 
   function centroid(f) {
     var g = f.geometry, rings = g.type === "Polygon" ? [g.coordinates[0]] : g.coordinates.map(function (p) { return p[0]; });
@@ -2417,10 +2486,13 @@
     try { var saved = localStorage.getItem("ga-lang"); if (saved && T[saved]) lang = saved; } catch (e) { /* yok */ }
     Promise.all([
       getJSON("data/countries.geojson"),
+      loadMesh("data/mesh_lo.bin"),
       getJSON("data/index.json").catch(function () { return { countries: [] }; }),
       getJSON("data/search.json").catch(function () { return []; })
     ]).then(function (r) {
       S.geo = r[0];
+      LAND.mesh = r[1];
+      r.splice(1, 1);
       r[1].countries.forEach(function (c) { S.index[c.iso3] = c; });
       S.search = r[2];
       S.names = {};
