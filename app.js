@@ -49,7 +49,9 @@
       capMichelin: "Michelin Rehberi restoranları · bir noktaya dokun", capTop10: "Ölmeden önce tadılması gereken 10 yemek · birine dokun",
       wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
       namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
-      catWake: "Mrrr? Uyanmıştım zaten…", catMore: "Bir tane daha", catHide: "Tarçın'ı sakla", catHidden: "Tarçın uyumaya gitti. 🐱 düğmesiyle geri çağırabilirsin.", catHello: "Miyav! Ben Tarçın.", catT: "Tarçın'ı çağır",
+      yarnT: "Yumakla oyna", yarnOn: "Tarçın yumağı gördü! Bitirmek için 🧶 ya da Esc.", yarnBye: "Mrr… bir daha!",
+      catWake: "Mrrr? Uyanmıştım zaten…", catPurr: "Mrrr… 💛", catLove: "Mrrr! Artık dostuz. 🐾", b_catfriend: "Kedi dostu", bh_catfriend: "Tarçın'ı 8 kez sev", catMore: "Bir tane daha", catMuseH: "Tarçın düşünüyor…", catHide: "Tarçın'ı sakla", catHidden: "Tarçın uyumaya gitti. 🐱 düğmesiyle geri çağırabilirsin.", catHello: "Miyav! Ben Tarçın.", catT: "Tarçın'ı çağır",
+      settingsT: "Görünüm ayarları",
       favT: "Favorilere ekle", favAdded: "Favorilere eklendi: ", favsT: "Favori tariflerim", shareT: "Tarifi paylaş", linkCopied: "Bağlantı kopyalandı: ",
       passT: "Gastronomi pasaportu", quizT: "Bu yemek hangi ülkenin?", diceT: "Rastgele bir ülkeye uç", stampNew: "Yeni damga: ", badgeNew: "Yeni rozet: ",
       passSub: "{d} tarif açtın · bilgi yarışmasında en iyi serin {q}", badgesT: "Rozetler", stampsT: "Damgalar", noStamps: "Henüz damga yok. Bir ülkeye dokun ya da 🎲 ile rastgele uç.",
@@ -116,7 +118,9 @@
       capMichelin: "Michelin Guide restaurants · tap a dot", capTop10: "10 dishes to eat before you die · tap one",
       wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
       namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
-      catWake: "Mrrr? I was awake anyway…", catMore: "Another one", catHide: "Hide Tarçın", catHidden: "Tarçın went for a nap. Call her back with the 🐱 button.", catHello: "Meow! I'm Tarçın.", catT: "Call Tarçın",
+      yarnT: "Play with yarn", yarnOn: "Tarçın spotted the yarn! Press 🧶 or Esc to stop.", yarnBye: "Mrr… again!",
+      catWake: "Mrrr? I was awake anyway…", catPurr: "Purrr… 💛", catLove: "Purrr! We're friends now. 🐾", b_catfriend: "Cat friend", bh_catfriend: "Pet Tarçın 8 times", catMore: "Another one", catMuseH: "Tarçın is pondering…", catHide: "Hide Tarçın", catHidden: "Tarçın went for a nap. Call her back with the 🐱 button.", catHello: "Meow! I'm Tarçın.", catT: "Call Tarçın",
+      settingsT: "View settings",
       favT: "Add to favourites", favAdded: "Added to favourites: ", favsT: "My favourite recipes", shareT: "Share recipe", linkCopied: "Link copied: ",
       passT: "Gastronomy passport", quizT: "Which country is this dish from?", diceT: "Fly to a random country", stampNew: "New stamp: ", badgeNew: "New badge: ",
       passSub: "{d} recipes opened · best quiz streak {q}", badgesT: "Badges", stampsT: "Stamps", noStamps: "No stamps yet. Tap a country or fly somewhere random with 🎲.",
@@ -356,9 +360,14 @@
     }
     if (l !== "spice" && l !== "sauce" && l !== "top10") tools += chip("names", PREF.names, "Aa", "", t("namesT"));
     if (l !== "top10") tools += '<button class="lg-chip lg-rk' + (rankOpen() ? " on" : "") + '" data-act="rank" title="' + esc(t("rankT")) + '" aria-pressed="' + rankOpen() + '">🏆</button>';
+    // Sol alt köşede küçük gösterge: renk çubuğu + kısa açıklama; ayarlar ⚙ menüsünde
     var box = document.getElementById("legend");
     box.className = "legend lg-" + l;
-    box.innerHTML = '<div class="lg-main">' + h + "</div>" + (tools ? '<div class="lg-tools">' + tools + "</div>" : "");
+    box.innerHTML = '<div class="lg-main">' + h + "</div>" +
+      (tools ? '<button class="lg-gear' + (S.lgPop ? " on" : "") + '" aria-label="' + esc(t("settingsT")) + '" title="' + esc(t("settingsT")) + '">⚙</button>' +
+        '<div class="lg-pop"' + (S.lgPop ? "" : " hidden") + '><div class="lg-tools">' + tools + "</div></div>" : "");
+    var gear = box.querySelector(".lg-gear");
+    if (gear) gear.addEventListener("click", function (e) { e.stopPropagation(); S.lgPop = !S.lgPop; legend(); });
     measureBottom();
     Array.prototype.forEach.call(box.querySelectorAll("[data-pref]"), function (b) {
       b.addEventListener("click", function () {
@@ -382,6 +391,7 @@
     if (b) document.documentElement.style.setProperty("--bh", (b.offsetHeight + 18) + "px");
   }
   window.addEventListener("resize", function () { measureBottom(); });
+  document.addEventListener("click", function (e) { if (S.lgPop && !e.target.closest("#legend")) { S.lgPop = false; legend(); } });
   function rankOpen() { return S.rkOpen !== undefined ? S.rkOpen : window.innerWidth > 720; }
   function dock() {
     var d = document.getElementById("dock");
@@ -1525,7 +1535,8 @@
     { id: "rec50", ic: "👨‍🍳", need: function () { return G.dishes.length >= 50; } },
     { id: "top10", ic: "🏆", need: function () { return S.top && S.top.items.every(function (it) { return G.dishes.indexOf(it.iso + "/" + it.id) >= 0; }); } },
     { id: "quiz5", ic: "🎯", need: function () { return G.best >= 5; } },
-    { id: "quiz15", ic: "🔥", need: function () { return G.best >= 15; } }
+    { id: "quiz15", ic: "🔥", need: function () { return G.best >= 15; } },
+    { id: "catfriend", ic: "🐾", need: function () { return (G.pets || 0) >= 8; } }
   ];
   function regionCount(r) { return G.visited.filter(function (i) { return S.index[i] && S.index[i].region === r; }).length; }
   function totalCountries() { return Object.keys(S.index).filter(function (k) { return S.index[k].recipes; }).length; }
@@ -1567,9 +1578,10 @@
     b.innerHTML = '<button class="gb" data-g="pass" title="' + esc(t("passT")) + '"><span>🛂</span>' + (G.visited.length ? "<em>" + G.visited.length + "</em>" : "") + "</button>" +
       '<button class="gb" data-g="quiz" title="' + esc(t("quizT")) + '"><span>🎯</span>' + (G.best ? "<em>" + G.best + "</em>" : "") + "</button>" +
       '<button class="gb" data-g="dice" title="' + esc(t("diceT")) + '"><span>🎲</span></button>' +
+      '<button class="gb' + (YARN.on ? " on" : "") + '" data-g="yarn" title="' + esc(t("yarnT")) + '"><span>🧶</span></button>' +
       (catEnabled() ? "" : '<button class="gb" data-g="cat" title="' + esc(t("catT")) + '"><span>🐱</span></button>');
     Array.prototype.forEach.call(b.querySelectorAll(".gb"), function (x) {
-      x.addEventListener("click", function () { ({ pass: openPass, quiz: openQuiz, dice: randomTrip, cat: showCat })[x.dataset.g](); });
+      x.addEventListener("click", function () { ({ pass: openPass, quiz: openQuiz, dice: randomTrip, cat: showCat, yarn: function () { toggleYarn(); } })[x.dataset.g](); });
     });
   }
   function openG(html) {
@@ -1695,84 +1707,344 @@
 
   // ------------------------------------------------------------ Tarçın: ekranda gezinen, ara ara mutfak bilgisi veren kedi
   // Fakültenin kedisinden: siyah ağırlıklı, sarı-turuncu lekeli, beyaz göğüslü ve patili. Özgün SVG çizim.
-  var CAT = { el: null, x: 120, dir: 1, state: "idle", until: 0, target: null, tips: null, order: [], said: 0, nextTalk: 0, talking: false, raf: 0, last: 0 };
-  var CAT_SVG = '<svg viewBox="0 0 124 92" aria-hidden="true"><defs>' +
-    '<clipPath id="ccBody"><ellipse cx="56" cy="56" rx="33" ry="17"/></clipPath><clipPath id="ccHead"><circle cx="93" cy="37" r="15.5"/></clipPath></defs>' +
-    // kuyruk
-    '<g class="c-tail"><path d="M27 52 C 10 50 4 34 10 20 C 12 15 18 15 17 21 C 12 32 15 43 29 46 Z" fill="#231e1c"/>' +
-    '<path d="M10 22 C 12 16 17 15 17 20 C 15 22 13 23 10 24 Z" fill="#e3a33c"/></g>' +
-    // uzak bacaklar
-    '<g class="c-leg c-l2"><rect x="37" y="58" width="8" height="25" rx="4" fill="#171311"/><ellipse cx="41" cy="83" rx="5" ry="3" fill="#ddd6ca"/></g>' +
-    '<g class="c-leg c-l4"><rect x="74" y="58" width="8" height="25" rx="4" fill="#171311"/><ellipse cx="78" cy="83" rx="5" ry="3" fill="#ddd6ca"/></g>' +
-    // gövde ve lekeler
-    '<g class="c-body"><ellipse cx="56" cy="56" rx="33" ry="17" fill="#231e1c"/><g clip-path="url(#ccBody)">' +
-    '<path d="M38 40 C 50 33 64 35 73 41 C 66 47 50 48 38 45 Z" fill="#e3a33c"/><ellipse cx="31" cy="53" rx="10" ry="9" fill="#e3a33c"/>' +
-    '<ellipse cx="72" cy="67" rx="17" ry="8" fill="#f7f2e9"/></g></g>' +
-    // yakın bacaklar (beyaz patili)
-    '<g class="c-leg c-l1"><rect x="29" y="58" width="9" height="26" rx="4.5" fill="#231e1c"/><rect x="29" y="76" width="9" height="8" rx="4" fill="#f7f2e9"/></g>' +
-    '<g class="c-leg c-l3"><rect x="66" y="58" width="9" height="26" rx="4.5" fill="#231e1c"/><rect x="66" y="74" width="9" height="10" rx="4" fill="#f7f2e9"/></g>' +
-    // baş
-    '<g class="c-head"><path d="M80 29 L81 12 L92 23 Z" fill="#231e1c"/><path d="M83 25 L83.5 16 L89 22 Z" fill="#c98a8f"/>' +
-    '<path d="M95 22 L104 11 L107 29 Z" fill="#e3a33c"/><path d="M99 22 L103.5 15 L105 25 Z" fill="#d79ca0"/>' +
-    '<circle cx="93" cy="37" r="15.5" fill="#231e1c"/><g clip-path="url(#ccHead)"><path d="M93 20 C 104 21 111 29 110 39 L 97 36 Z" fill="#e3a33c"/>' +
-    '<path d="M93 33 C 97 40 106 42 109 47 L 90 54 Z" fill="#f7f2e9"/></g>' +
-    '<g class="c-eyes"><ellipse cx="89" cy="34" rx="3.1" ry="3.4" fill="#d8e36e"/><ellipse cx="89.6" cy="34" rx="1" ry="2.7" fill="#111"/>' +
-    '<ellipse cx="100" cy="34" rx="3.1" ry="3.4" fill="#d8e36e"/><ellipse cx="100.6" cy="34" rx="1" ry="2.7" fill="#111"/></g>' +
-    '<path d="M96.5 40.5 h4 l-2 2.4 z" fill="#e48b98"/><path d="M98.5 43 q-1.5 2 -3.5 1.5 M98.5 43 q1.5 2 3.5 1.5" stroke="#5a4a44" stroke-width=".8" fill="none"/>' +
-    '<g stroke="#ece6dc" stroke-width=".6" opacity=".8"><path d="M103 42 L117 39"/><path d="M103 44 L117 45"/><path d="M93 42 L80 39"/><path d="M93 44 L80 45"/></g>' +
-    // aşçı fuları (başla birlikte hareket eder)
-    '<path class="c-scarf" d="M81 48 C 88 54 99 54 105 48 L 102 56 L 94 52 L 88 58 Z" fill="#c8442f"/></g>' +
-    '</svg>';
+  var CAT = { el: null, x: 120, dir: 1, state: "stand", until: 0, target: null, tips: null, order: [], said: 0, nextTalk: 0, talking: false, raf: 0, last: 0 };
+  // ---- Tarçın'ın iskeleti: her karede yeniden hesaplanan 2B kukla ----
+  // Görünüm kutusu 170x120, zemin y=110, kedi sağa bakar (sola dönüş kapsayıcıyı aynalayarak).
+  // Bacaklar iki/üç parçalı ve ters kinematikle (IK) bükülür; kuyruk 7 parçalı; pozlar arası yumuşak geçiş.
+  var RIG = (function () {
+    var NS = "http://www.w3.org/2000/svg", GY = 110;
+    // Renkler fakültedeki kedinin fotoğraflarından
+    var COL = { k: "#1f1a19", far: "#141010", gold: "#c47a38", gold2: "#a6602c", w: "#f7f3ec", wfar: "#ddd6cb", pink: "#d99ba0", eye: "#c9d66a", line: "#4d3f39", nose: "#3b2d2b" };
+    var POSES = {
+      stand:   { R: [60, 76], F: [112, 77], th: 15, H: [135, 57], ha: -4, tb: 150, tc: -9, tw: 6, haunch: 0.35, eye: 1, mouth: 0, earBack: 0,
+                 P: { fn: [114, GY], ff: [107, GY], rn: [60, GY], rf: [53, GY] } },
+      sit:     { R: [66, 101], F: [101, 74], th: 15, H: [114, 50], ha: -3, tb: 212, tc: 21, tw: 3, haunch: 1, eye: 1, mouth: 0, earBack: 0,
+                 P: { fn: [106, GY], ff: [100, GY], rn: [88, GY], rf: [81, GY] } },
+      sleep:   { R: [72, 100], F: [97, 100], th: 13, H: [110, 99], ha: 18, tb: 205, tc: 25, tw: 1, haunch: 0.9, eye: 0, mouth: 0, earBack: 0.2,
+                 P: { fn: [106, GY], ff: [101, GY], rn: [74, GY], rf: [68, GY] } },
+      stretch: { R: [60, 69], F: [118, 95], th: 14, H: [141, 90], ha: -14, tb: 72, tc: -2, tw: 4, haunch: 0.3, eye: 0.35, mouth: 0.25, earBack: 0.3,
+                 P: { fn: [146, GY], ff: [139, GY], rn: [58, GY], rf: [51, GY] } },
+      crouch:  { R: [58, 84], F: [112, 88], th: 14, H: [136, 72], ha: -2, tb: 175, tc: -2, tw: 9, haunch: 0.6, eye: 1, mouth: 0, earBack: 0.15,
+                 P: { fn: [120, GY], ff: [114, GY], rn: [64, GY], rf: [57, GY] } }
+    };
+    function el(tag, attrs, parent) {
+      var e = document.createElementNS(NS, tag);
+      for (var k in attrs) e.setAttribute(k, attrs[k]);
+      if (parent) parent.appendChild(e);
+      return e;
+    }
+    function lerp(a, b, k) { return a + (b - a) * k; }
+    function ik2(A, T, l1, l2, bend) {          // iki kemikli IK: diz konumunu döndür
+      var dx = T[0] - A[0], dy = T[1] - A[1], d = Math.min(Math.hypot(dx, dy), l1 + l2 - 0.01), a = Math.atan2(dy, dx);
+      var c = Math.max(-1, Math.min(1, (l1 * l1 + d * d - l2 * l2) / (2 * l1 * d || 1))), al = Math.acos(c);
+      return [A[0] + l1 * Math.cos(a + bend * al), A[1] + l1 * Math.sin(a + bend * al)];
+    }
+    function make(host) {
+      var svg = el("svg", { viewBox: "0 0 170 120", "aria-hidden": "true" });
+      host.appendChild(svg);
+      var defs = el("defs", {}, svg);
+      var bc = el("clipPath", { id: "tcBody" }, defs), bcp = el("path", {}, bc);
+      var hc = el("clipPath", { id: "tcHead" }, defs), hcp = el("ellipse", { cx: 0, cy: 0, rx: 15, ry: 13 }, hc);
+      var g = {};
+      g.shadow = el("ellipse", { fill: "rgba(40,25,10,.18)", rx: 34, ry: 3.2, cy: GY + 1 }, svg);
+      g.legFF = el("path", { fill: "none", stroke: COL.wfar, "stroke-width": 7.5, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
+      g.pawFF = el("ellipse", { fill: "#d9d2c6", rx: 4.6, ry: 2.6 }, svg);
+      g.legRF = el("path", { fill: "none", stroke: COL.far, "stroke-width": 8, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
+      g.pawRF = el("ellipse", { fill: "#d9d2c6", rx: 4.8, ry: 2.6 }, svg);
+      g.tail = []; for (var i = 0; i < 7; i++) g.tail.push(el("line", { "stroke-linecap": "round", stroke: i === 2 || i === 3 ? COL.gold : COL.k }, svg));   // turuncu halka
+      g.body = el("path", { fill: COL.k }, svg);
+      var bodyDeco = el("g", { "clip-path": "url(#tcBody)" }, svg);
+      g.bodyFrame = el("g", {}, bodyDeco);
+      el("path", { d: "M-12 -15 C -5 -19 5 -17 9 -11 C 12 -4 8 6 1 10 C -5 7 -9 -1 -12 -15 Z", fill: COL.gold }, g.bodyFrame);                          // böğürdeki turuncu bant
+      el("path", { d: "M12 -17 C 17 -19 22 -16 21 -12 C 18 -11 14 -12 12 -17 Z", fill: COL.gold, opacity: .85 }, g.bodyFrame);
+      el("path", { d: "M-31 -11 C -28 -16 -19 -15 -18 -9 C -17 -4 -23 -2 -26 -5 C -29 -4 -33 -7 -31 -11 Z", fill: COL.gold }, g.bodyFrame);              // kalça lekesi
+      el("ellipse", { cx: 14, cy: 14, rx: 22, ry: 8, fill: COL.w }, g.bodyFrame);                                    // karın
+      el("ellipse", { cx: 26, cy: 6, rx: 12, ry: 12, fill: COL.w }, g.bodyFrame);                                   // göğüs beyazı
+      g.haunch = el("g", {}, svg);
+      g.haunchE = el("ellipse", { fill: COL.k }, g.haunch);
+      g.haunchP = el("ellipse", { fill: COL.gold, opacity: .95 }, g.haunch);
+      g.legRN = el("path", { fill: "none", stroke: COL.k, "stroke-width": 8.5, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
+      g.sockRN = el("path", { fill: "none", stroke: COL.w, "stroke-width": 8.5, "stroke-linecap": "round" }, svg);
+      g.pawRN = el("ellipse", { fill: COL.w, rx: 5.4, ry: 3 }, svg);
+      g.neck = el("path", { fill: "none", stroke: COL.k, "stroke-width": 17, "stroke-linecap": "round" }, svg);
+      g.bib = el("ellipse", { fill: COL.w }, svg);
+      g.throat = el("ellipse", { fill: COL.w }, svg);
+      g.legFN = el("path", { fill: "none", stroke: COL.w, "stroke-width": 8, "stroke-linecap": "round", "stroke-linejoin": "round" }, svg);
+      g.sockFN = el("path", { fill: "none", stroke: COL.w, "stroke-width": 8, "stroke-linecap": "round" }, svg);
+      g.pawFN = el("ellipse", { fill: COL.w, rx: 5.2, ry: 3 }, svg);
+      // baş (yerel koordinat: merkez 0,0; sağa bakar)
+      g.head = el("g", {}, svg);
+      g.earF = el("path", { d: "M-9 -6 L-7 -22 L1 -10 Z", fill: COL.k }, g.head);
+      g.earN = el("g", {}, g.head);
+      el("path", { d: "M2 -10 L10 -23 L14 -6 Z", fill: COL.k }, g.earN);
+      el("path", { d: "M5 -10 L9.6 -18 L11.5 -8 Z", fill: COL.pink, opacity: .85 }, g.earN);
+      el("ellipse", { cx: 0, cy: 0, rx: 15, ry: 13, fill: COL.k }, g.head);
+      var hd = el("g", { "clip-path": "url(#tcHead)" }, g.head);
+      el("ellipse", { cx: 3, cy: -7.5, rx: 3.2, ry: 2, fill: COL.gold, transform: "rotate(-15 3 -7.5)" }, hd);        // göz üstü benekleri
+      el("ellipse", { cx: 11, cy: -8, rx: 2.8, ry: 1.8, fill: COL.gold, transform: "rotate(12 11 -8)" }, hd);
+      el("ellipse", { cx: -3, cy: 3, rx: 4.5, ry: 3.5, fill: COL.gold, opacity: .9 }, hd);                            // yanak
+      el("ellipse", { cx: 13.5, cy: 7.5, rx: 4.2, ry: 2.6, fill: COL.gold }, hd);                                      // ağız kenarı
+      el("ellipse", { cx: 6, cy: 13, rx: 9, ry: 4, fill: COL.w }, hd);                                                 // gerdan başlangıcı
+      g.eyes = el("g", {}, g.head);
+      g.eyeF = el("ellipse", { cx: 1.5, cy: -2, rx: 2.4, ry: 3, fill: COL.eye }, g.eyes);
+      g.pupF = el("ellipse", { cx: 1.8, cy: -2, rx: .9, ry: 2.4, fill: "#111" }, g.eyes);
+      g.eyeN = el("ellipse", { cx: 10, cy: -2.2, rx: 3, ry: 3.4, fill: COL.eye }, g.eyes);
+      g.pupN = el("ellipse", { cx: 10.5, cy: -2.2, rx: 1.05, ry: 2.8, fill: "#111" }, g.eyes);
+      g.shineN = el("circle", { cx: 11.2, cy: -3.4, r: .7, fill: "#fff" }, g.eyes);
+      g.lidF = el("path", { fill: "none", stroke: COL.line, "stroke-width": 1, "stroke-linecap": "round" }, g.head);
+      g.lidN = el("path", { fill: "none", stroke: COL.line, "stroke-width": 1.1, "stroke-linecap": "round" }, g.head);
+      el("path", { d: "M12.6 3 h3.6 l-1.8 2.2 z", fill: COL.nose }, g.head);                                           // burun
+      g.mouth = el("path", { fill: "none", stroke: COL.line, "stroke-width": .8 }, g.head);
+      g.mouthO = el("ellipse", { cx: 13.6, cy: 9, rx: 2.6, ry: 0, fill: "#5b2a2c" }, g.head);
+      g.tongue = el("ellipse", { cx: 15, cy: 9, rx: 2.2, ry: 0, fill: COL.pink }, g.head);
+      var wh = el("g", { stroke: "#ece6dc", "stroke-width": .55, opacity: .85 }, g.head);
+      ["M15 5 L28 2", "M15 6.5 L28 7.5", "M8 6 L-3 3", "M8 7.5 L-3 8.5"].forEach(function (d) { el("path", { d: d }, wh); });
+      g.scarf = el("path", { d: "M-6 9 C 0 15 10 15 15 10 L 12 18 L 5 14 L 0 20 Z", fill: "#c8442f" }, g.head);
+      return { svg: svg, g: g, bcp: bcp, cur: JSON.parse(JSON.stringify(POSES.stand)), t: 0, phase: 0,
+               blinkAt: 2, blinkT: 0, twitchAt: 4, twitchT: 0, look: [0, 0] };
+    }
+    // durum -> hedef poz (+ zamanla değişen ayrıntılar)
+    function target(r, st, t, info) {
+      var base = st === "sit" || st === "groom" || st === "yawn" || st === "pet" || st === "talk" ? "sit" :
+        st === "sleep" ? "sleep" : st === "stretch" ? "stretch" : st === "pounce" ? "crouch" : "stand";
+      var p = JSON.parse(JSON.stringify(POSES[base]));
+      if (st === "stand" || st === "walk" || st === "run") { p.H[1] += Math.sin(t * 0.7) * 1.5; p.ha += Math.sin(t * 0.5) * 4; }
+      if (st === "talk") { p.ha = -6 + Math.sin(t * 5) * 3; p.mouth = Math.max(0, Math.sin(t * 9)) * 0.45; }
+      if (st === "sit") { p.ha += Math.sin(t * 0.6) * 4; p.tc += Math.sin(t * 0.9) * 3; }
+      if (st === "groom") {                       // pati ağza, dil çıkıp girer
+        var lick = Math.max(0, Math.sin(t * 7));
+        p.ha = 14; p.H = [113, 53]; p.eye = 0.35; p.mouth = 0.3 + lick * 0.3; p.tongue = lick;
+        p.P.fn = [124, 66 + lick * 3];
+      }
+      if (st === "yawn") {
+        var k = Math.min(1, info.age / 0.6), e = info.age > 1.8 ? Math.max(0, 1 - (info.age - 1.8) / 0.5) : 1;
+        p.ha = -22 * k * e; p.mouth = k * e; p.eye = 1 - 0.85 * k * e; p.earBack = 0.4 * k * e;
+      }
+      if (st === "pet") {                         // gözler ^^, baş yana yatar, kuyruk dik
+        p.ha = 14 + Math.sin(t * 2) * 4; p.eye = 0; p.happy = 1; p.tb = 98; p.tc = -6; p.tw = 7; p.earBack = 0.25;
+      }
+      if (st === "sleep") { p.th += Math.sin(t * 1.6) * 0.7; p.H[1] += Math.sin(t * 1.6) * 0.5; }
+      if (st === "stretch") { var s = Math.min(1, info.age / 0.5); p.mouth *= s; }
+      if (st === "pounce") {                      // çömel, kalçayı salla, sonra sıçra
+        var a = info.age;
+        if (a < 0.55) { p.R[0] += Math.sin(a * 40) * 2.2; }
+        else { var j = Math.min(1, (a - 0.55) / 0.45); var arc = Math.sin(j * Math.PI);
+          p.lift = arc * 26; p.F[0] += 10 * arc; p.H[0] += 12 * arc; p.P.fn = [128 + 8 * arc, GY - 6 * arc]; p.P.ff = [122 + 8 * arc, GY - 4 * arc]; p.tb = 165; }
+      }
+      if (st === "bat") {                         // yumağa pati atma: çömel, ön pati savrulur, kuyruk deli gibi sallanır
+        p = JSON.parse(JSON.stringify(POSES.crouch)); var sw2 = Math.sin(t * 11);
+        p.P.fn = [126 + 8 * sw2, 74 + 14 * Math.abs(sw2)]; p.ha = -18 + 4 * sw2; p.H = [134, 68]; p.tw = 16; p.tc = -1; p.tb = 160; p.pupil = 1;
+      }
+      if (st === "run" && info.hunt) { p.pupil = 1; p.earBack = -0.1; }
+      if (st === "leap") {                        // havada: ön patiler ileri, arka patiler geri uzanır
+        p = JSON.parse(JSON.stringify(POSES.crouch)); p.F[1] -= 6; p.H = [140, 62]; p.ha = -8; p.tb = 168; p.tc = -3;
+        p.P = { fn: [134, 98], ff: [128, 101], rn: [42, 100], rf: [36, 102] };
+      }
+      p.tongue = p.tongue || 0; p.happy = p.happy || 0; p.lift = p.lift || 0; p.pupil = p.pupil || 0;
+      return p;
+    }
+    function approach(cur, tgt, k) {
+      for (var key in tgt) {
+        var a = tgt[key];
+        if (typeof a === "number") cur[key] = lerp(cur[key] == null ? a : cur[key], a, k);
+        else if (Array.isArray(a)) { cur[key] = cur[key] || a.slice(); cur[key][0] = lerp(cur[key][0], a[0], k); cur[key][1] = lerp(cur[key][1], a[1], k); }
+        else { cur[key] = cur[key] || {}; approach(cur[key], a, k); }
+      }
+    }
+    function update(r, st, dt, info) {
+      r.t += dt;
+      var tgt = target(r, st, r.t, info), c = r.cur;
+      approach(c, tgt, 1 - Math.exp(-dt * (st === "pounce" ? 14 : 7)));
+      var g = r.g, lift = c.lift || 0;
+      var R = [c.R[0], c.R[1] - lift], F = [c.F[0], c.F[1] - lift], H = [c.H[0], c.H[1] - lift];
+      var P = { fn: c.P.fn.slice(), ff: c.P.ff.slice(), rn: c.P.rn.slice(), rf: c.P.rf.slice() };
+      // yürüyüş/koşu: faz katedilen yola bağlı (patiler kaymasın); yanal sıra: arka-ön-arka-ön
+      var gait = st === "walk" ? 1 : st === "run" ? 2 : 0;
+      if (gait) {
+        r.phase += (info.speed || 0) * dt / (gait === 2 ? 70 : 46);
+        var S = gait === 2 ? 30 : 22, Hh = gait === 2 ? 9 : 6, sw = gait === 2 ? 0.45 : 0.32;
+        var off = gait === 2 ? { rn: 0, rf: 0.08, fn: 0.5, ff: 0.58 } : { rn: 0, fn: 0.25, rf: 0.5, ff: 0.75 };
+        for (var k in off) {
+          var ph = ((r.phase + off[k]) % 1 + 1) % 1, x, y;
+          if (ph < sw) { var u = ph / sw; x = -S / 2 + S * (0.5 - 0.5 * Math.cos(u * Math.PI)); y = -Hh * Math.sin(u * Math.PI); }
+          else { var v = (ph - sw) / (1 - sw); x = S / 2 - S * v; y = 0; }
+          P[k][0] += x; P[k][1] = Math.min(GY, P[k][1] + y);
+        }
+        var bob = Math.sin(r.phase * Math.PI * 4) * (gait === 2 ? 2.4 : 1.1);
+        R[1] += bob; F[1] += bob * 0.8; H[1] += bob * 0.6;
+        if (gait === 2) { var st2 = Math.sin(r.phase * Math.PI * 2) * 5; F[0] += st2; H[0] += st2; c.tb = lerp(c.tb, 170, 0.2); }
+      }
+      // gövde
+      var ux = F[0] - R[0], uy = F[1] - R[1], len = Math.hypot(ux, uy) || 1; ux /= len; uy /= len;
+      var nx = uy, ny = -ux, th = c.th;
+      function pt(base, a, b) { return [base[0] + ux * a + nx * b, base[1] + uy * a + ny * b]; }
+      var Rt = pt(R, -4, th * 0.95), Ft = pt(F, 2, th * 0.85), Fb = pt(F, 6, -th * 0.95), Rb = pt(R, 2, -th * 0.95);
+      var c1 = pt(R, len * 0.35, th * 1.15), c2 = pt(F, -len * 0.3, th * 1.05), c3 = pt(F, 17, th * 0.3), c4 = pt(F, 15, -th * 1.0);
+      var c5 = pt(F, -len * 0.3, -th * 1.2), c6 = pt(R, len * 0.3, -th * 1.15), c7 = pt(R, -18, -th * 0.9), c8 = pt(R, -19, th * 0.9);
+      var f = function (p) { return p[0].toFixed(1) + " " + p[1].toFixed(1); };
+      var bd = "M" + f(Rt) + "C" + f(c1) + " " + f(c2) + " " + f(Ft) + "C" + f(c3) + " " + f(c4) + " " + f(Fb) +
+        "C" + f(c5) + " " + f(c6) + " " + f(Rb) + "C" + f(c7) + " " + f(c8) + " " + f(Rt) + "Z";
+      g.body.setAttribute("d", bd); r.bcp.setAttribute("d", bd);
+      var mid = [(R[0] + F[0]) / 2, (R[1] + F[1]) / 2], ang = Math.atan2(uy, ux) * 180 / Math.PI;
+      g.bodyFrame.setAttribute("transform", "translate(" + f(mid).replace(" ", ",") + ") rotate(" + ang.toFixed(1) + ")");
+      g.shadow.setAttribute("cx", ((R[0] + F[0]) / 2 + 6).toFixed(1));
+      g.shadow.setAttribute("rx", (30 + len * 0.15 - lift * 0.4).toFixed(1));
+      // bacaklar: ön (dirsek geride), arka (diz önde, topuk geride)
+      function front(name, sh, paw, far) {
+        var kn = ik2(sh, paw, 15, 17, far ? 1 : 1);
+        var d = "M" + f(sh) + "L" + f(kn) + "L" + f(paw);
+        g["leg" + name].setAttribute("d", d);
+        g["paw" + name].setAttribute("cx", (paw[0] + 1.5).toFixed(1)); g["paw" + name].setAttribute("cy", (paw[1] - 1.2).toFixed(1));
+
+      }
+      function rear(name, hip, paw, far) {
+        var hock = [paw[0] - 2.5, paw[1] - 10.5];
+        var kn = ik2(hip, hock, 16, 15, -1);
+        var d = "M" + f(hip) + "L" + f(kn) + "L" + f(hock) + "L" + f(paw);
+        g["leg" + name].setAttribute("d", d);
+        g["paw" + name].setAttribute("cx", (paw[0] + 1.5).toFixed(1)); g["paw" + name].setAttribute("cy", (paw[1] - 1.2).toFixed(1));
+        if (!far) g.sockRN.setAttribute("d", "M" + f([lerp(hock[0], paw[0], 0.15), lerp(hock[1], paw[1], 0.15)]) + "L" + f(paw));
+        return kn;
+      }
+      var shN = pt(F, 3, -2), shF = pt(F, -1, 0), hipN = pt(R, 2, -2), hipF = pt(R, -2, 0);
+      front("FF", shF, P.ff, true); rear("RF", hipF, P.rf, true);
+      var knR = rear("RN", hipN, P.rn, false); front("FN", shN, P.fn, false);
+      // kalça (uyluk) kası: oturunca büyür
+      var hx = lerp(hipN[0], knR[0], 0.45), hy = lerp(hipN[1], knR[1], 0.45), hs = c.haunch;
+      g.haunchE.setAttribute("cx", hx.toFixed(1)); g.haunchE.setAttribute("cy", hy.toFixed(1));
+      g.haunchE.setAttribute("rx", (9 + 7 * hs).toFixed(1)); g.haunchE.setAttribute("ry", (8 + 6 * hs).toFixed(1));
+      g.haunchE.setAttribute("transform", "rotate(" + (-25 * hs).toFixed(1) + " " + hx.toFixed(1) + " " + hy.toFixed(1) + ")");
+      g.haunchP.setAttribute("cx", (hx - 5).toFixed(1)); g.haunchP.setAttribute("cy", (hy - 6).toFixed(1));
+      g.haunchP.setAttribute("rx", (3 + 2.5 * hs).toFixed(1)); g.haunchP.setAttribute("ry", (2.5 + 2 * hs).toFixed(1));
+      // kuyruk: 7 parça, tabandan uca incelir, dalgalanır; yere girmez
+      var tp = pt(R, -15, th * 0.45), tb = c.tb, tc = c.tc, tw = c.tw;
+      for (var i = 0; i < 7; i++) {
+        var a2 = (tb + tc * i + tw * Math.sin(r.t * 2.2 - i * 0.7)) * Math.PI / 180;
+        var nxp = [tp[0] + Math.cos(a2) * 6.6, Math.min(GY - 2.5, tp[1] - Math.sin(a2) * 6.6)];
+        var ln = g.tail[i];
+        ln.setAttribute("x1", tp[0].toFixed(1)); ln.setAttribute("y1", tp[1].toFixed(1));
+        ln.setAttribute("x2", nxp[0].toFixed(1)); ln.setAttribute("y2", nxp[1].toFixed(1));
+        ln.setAttribute("stroke-width", (7 - i * 0.6).toFixed(1));
+        tp = nxp;
+      }
+      // boyun ve göğüs önlüğü
+      var nb = pt(F, 6, 4);
+      g.neck.setAttribute("d", "M" + f(nb) + "L" + f([lerp(nb[0], H[0], 0.75), lerp(nb[1], H[1], 0.75)]));
+      var thr = [lerp(nb[0], H[0], 0.55) + 3, lerp(nb[1], H[1], 0.55) + 6];
+      g.throat.setAttribute("cx", thr[0].toFixed(1)); g.throat.setAttribute("cy", thr[1].toFixed(1)); g.throat.setAttribute("rx", 7.5); g.throat.setAttribute("ry", 9);
+      var bib = pt(F, 10, -th * 0.35);
+      g.bib.setAttribute("cx", bib[0].toFixed(1)); g.bib.setAttribute("cy", bib[1].toFixed(1)); g.bib.setAttribute("rx", 10.5); g.bib.setAttribute("ry", (th * 0.95).toFixed(1));
+      g.bib.setAttribute("transform", "rotate(" + (ang - 15).toFixed(1) + " " + bib[0].toFixed(1) + " " + bib[1].toFixed(1) + ")");
+      // baş
+      g.head.setAttribute("transform", "translate(" + H[0].toFixed(1) + "," + H[1].toFixed(1) + ") rotate(" + c.ha.toFixed(1) + ")");
+      // göz kırpma, kulak seğirmesi, bakış
+      r.blinkAt -= dt; if (r.blinkAt < 0) { r.blinkT = 0.14; r.blinkAt = 2.5 + Math.random() * 4; }
+      r.blinkT = Math.max(0, r.blinkT - dt);
+      r.twitchAt -= dt; if (r.twitchAt < 0) { r.twitchT = 0.18; r.twitchAt = 4 + Math.random() * 6; }
+      r.twitchT = Math.max(0, r.twitchT - dt);
+      var open = Math.max(0, Math.min(1, c.eye * (r.blinkT > 0 ? 0.08 : 1)));
+      g.eyes.setAttribute("transform", "translate(0,-2) scale(1," + Math.max(0.06, open).toFixed(2) + ") translate(0,2)");
+      g.eyes.setAttribute("opacity", open < 0.12 ? 0 : 1);
+      var lk = info.look || [0, 0];
+      r.look[0] = lerp(r.look[0], lk[0], 0.12); r.look[1] = lerp(r.look[1], lk[1], 0.12);
+      var pw = 1 + (c.pupil || 0) * 1.3;
+      g.pupN.setAttribute("rx", (1.05 * pw).toFixed(2)); g.pupF.setAttribute("rx", (0.9 * pw).toFixed(2));
+      g.pupN.setAttribute("cx", (10.5 + r.look[0] * 1.3).toFixed(2)); g.pupN.setAttribute("cy", (-2.2 + r.look[1] * 0.9).toFixed(2));
+      g.pupF.setAttribute("cx", (1.8 + r.look[0] * 1.0).toFixed(2)); g.pupF.setAttribute("cy", (-2 + r.look[1] * 0.8).toFixed(2));
+      // kapalı göz: düz çizgi ya da mutlu ^^
+      var lid = open < 0.12 ? (c.happy > 0.5 ? ["M-1 -1 Q1.5 -4.5 4 -1", "M7 -1.2 Q10 -5.2 13 -1.2"] : ["M-0.8 -1.5 Q1.5 0.2 3.8 -1.5", "M7.2 -1.6 Q10 0.4 12.8 -1.6"]) : ["", ""];
+      g.lidF.setAttribute("d", lid[0]); g.lidN.setAttribute("d", lid[1]);
+      var m = Math.max(0, c.mouth);
+      g.mouth.setAttribute("d", m > 0.08 ? "" : "M14.4 5.4 q-1.4 2 -3.4 1.4 M14.4 5.4 q1.4 2 3.4 1.4");
+      g.mouthO.setAttribute("ry", (m * 4.2).toFixed(2)); g.mouthO.setAttribute("cy", (7.5 + m * 2.2).toFixed(2));
+      g.tongue.setAttribute("ry", (Math.max(c.tongue || 0, m > 0.6 ? 0.6 : 0) * 2.4).toFixed(2));
+      g.tongue.setAttribute("cy", (8.5 + m * 3.4).toFixed(2));
+      var eb = c.earBack + (r.twitchT > 0 ? 0.6 : 0);
+      g.earN.setAttribute("transform", "rotate(" + (eb * 28).toFixed(1) + " 8 -8)");
+      g.earF.setAttribute("transform", "rotate(" + (c.earBack * 22).toFixed(1) + " -4 -8)");
+    }
+    return { make: make, update: update };
+  })();
   function catEnabled() { return PREF.cat !== false; }
   function catMobile() { return window.innerWidth <= 720; }
-  // Kedinin gezebileceği alan. Masaüstünde mercek dizisi + lejantın kapladığı yatay aralık "yasak bölge"dir:
+  function catW() { return catMobile() ? 100 : 140; }
+  // Kedinin gezebileceği alan. Masaüstünde mercek dizisi + lejantın kapladığı yatay aralık zeminde "yasak bölge"dir:
   // kedi orada durmaz (arkasında kalıp görünmez oluyordu), yalnızca koşarak önünden geçer.
   var catBlockCache = { t: 0, v: null };
   function catBounds() {
-    var w = catMobile() ? 92 : 124, right = window.innerWidth - w - 8;
+    var w = catW(), right = window.innerWidth - w - 8;
     if (S.country && !catMobile()) right = window.innerWidth - Math.min(500, window.innerWidth) - w - 8;
     var b = { min: 8, max: Math.max(8, right), w: w, block: null };
-    if (!catMobile()) {
+    {
+      // zemindeki engeller ayrı ayrı: mercek dizisi (masaüstü) ve sol alt köşedeki gösterge.
+      // Mobilde kedi mercek dizisinin üstünde yürür, orada yalnızca gösterge engeldir.
       if (Date.now() - catBlockCache.t > 400) {
-        var l = 1e9, r = -1e9;
-        ["dock", "legend"].forEach(function (id) {
+        var v = [];
+        (catMobile() ? ["legend"] : ["dock", "legend"]).forEach(function (id) {
           var e = document.getElementById(id), rc = e && e.getBoundingClientRect();
-          if (rc && rc.width) { l = Math.min(l, rc.left); r = Math.max(r, rc.right); }
+          if (rc && rc.width && rc.bottom > window.innerHeight - 120) v.push(id === "legend" ? [rc.left - w, rc.right + 4] : [rc.left - w * 0.6, rc.right - w * 0.4]);
         });
-        catBlockCache = { t: Date.now(), v: r > l ? [l - w - 6, r + 6] : null };
+        catBlockCache = { t: Date.now(), v: v.length ? v : null };
       }
       b.block = catBlockCache.v;
     }
     return b;
   }
-  function catFree(b) {   // serbest aralıklar
-    if (!b.block) return [[b.min, b.max]];
-    return [[b.min, Math.min(b.max, b.block[0])], [Math.max(b.min, b.block[1]), b.max]].filter(function (x) { return x[1] - x[0] > 20; });
+  function catFree(b) {
+    var fr = [[b.min, b.max]];
+    (b.block || []).forEach(function (bl) {
+      var out = [];
+      fr.forEach(function (x) {
+        if (bl[1] <= x[0] || bl[0] >= x[1]) { out.push(x); return; }
+        if (bl[0] > x[0]) out.push([x[0], bl[0]]);
+        if (bl[1] < x[1]) out.push([bl[1], x[1]]);
+      });
+      fr = out;
+    });
+    fr = fr.filter(function (x) { return x[1] - x[0] > 20; });
+    return fr.length ? fr : [[b.max, b.max]];
   }
+  function catBlockAt(b, x) { return (b.block || []).find(function (bl) { return x > bl[0] && x < bl[1]; }); }
   function catRandomX(b) {
     var fr = catFree(b), tot = fr.reduce(function (a, x) { return a + x[1] - x[0]; }, 0), r = Math.random() * tot;
     for (var i = 0; i < fr.length; i++) { if (r <= fr[i][1] - fr[i][0]) return fr[i][0] + r; r -= fr[i][1] - fr[i][0]; }
     return b.min;
   }
-  function catInBlock(b, x) { return b.block && x > b.block[0] && x < b.block[1]; }
+  function catInBlock(b, x) { return !!catBlockAt(b, x); }
+  // Çıkılabilen yerler (masaüstü): lejant şeridinin üstü ve imza yazısının üstü (Tarçın'ın evi).
+  // y = zeminden yükseklik (px). Kedi kutusunun alt kenarı zemin çizgisi (+ görünüm kutusundaki zemin payı).
+  var CAT_FOOT = 0.083;   // görünüm kutusunda zemin (110/120) ile alt kenar arası pay, kedi yüksekliğine oranla
+  function catPerch(name) {
+    if (catMobile() || document.body.classList.contains("panel-open")) return null;
+    var id = name === "home" ? null : "legend", rc;
+    if (name === "home") { var c = document.querySelector(".credit span"); rc = c && c.getBoundingClientRect(); }
+    else { var e = document.getElementById(id); rc = e && e.getBoundingClientRect(); }
+    if (!rc || !rc.width) return null;
+    var w = catW(), h = w * 120 / 170, foot = h * CAT_FOOT;
+    var y = window.innerHeight - rc.top - 2 + foot - 2;    // kutunun tabanı, patiler kenara bassın
+    if (name === "home") y += 6;                              // yazının üst kenarına uzanır, satır okunur kalır
+    var min = rc.left - w * 0.22, max = rc.right - w * 0.78;
+    if (max < min) max = min = (rc.left + rc.right) / 2 - w / 2;
+    return { min: min, max: Math.min(max, window.innerWidth - w - 4), y: y - 2 };
+  }
   function initCat() {
     if (CAT.el) return;
     var el = document.createElement("div");
     el.className = "cat";
-    el.innerHTML = '<div class="cat-bubble" hidden></div><div class="cat-z">z<i>z</i><b>z</b></div><div class="cat-flip">' + CAT_SVG + "</div>";
+    el.innerHTML = '<div class="cat-bubble" hidden></div><div class="cat-z">z<i>z</i><b>z</b></div><div class="cat-hearts"></div><div class="cat-flip"></div>';
     document.body.appendChild(el);
     CAT.el = el;
-    CAT.x = catFree(catBounds())[0][0] + 40;
-    el.querySelector(".cat-flip").addEventListener("click", function () {
-      if (CAT.state === "sleep") { setCatState("sit", 1500); sayCat(t("catWake")); setTimeout(function () { catTip(); }, 1400); return; }
-      catTip();
-    });
+    CAT.rig = RIG.make(el.querySelector(".cat-flip"));
+    CAT.x = catFree(catBounds())[0][0] + 40; CAT.y = 0; CAT.perch = null; CAT.jump = null; CAT.age = 0; CAT.look = [0, 0];
+    el.querySelector(".cat-flip").addEventListener("click", petCat);
+    document.addEventListener("pointermove", function (e) { CAT.px = e.clientX; CAT.py = e.clientY; }, { passive: true });
     getJSON("data/tips.json").then(function (d) {
       CAT.tips = d;
       CAT.order = d.tips.map(function (_, i) { return i; }).sort(function () { return Math.random() - 0.5; });
     }).catch(function () { CAT.tips = null; });
     CAT.nextTalk = Date.now() + 25000;
     CAT.last = performance.now();
+    setCatState("stand", 2500);
     CAT.raf = requestAnimationFrame(catTick);
     applyCatVisibility();
   }
@@ -1782,60 +2054,211 @@
     gameBar();
   }
   function setCatState(s, ms) {
-    CAT.state = s;
+    CAT.state = s; CAT.age = 0;
     CAT.until = Date.now() + (ms || 3000);
-    CAT.el.className = "cat cat-" + s + (CAT.talking ? " talking" : "");
+    CAT.el.className = "cat cat-" + s + (CAT.talking ? " talking" : "") + (CAT.perch ? " perched" : "");
+  }
+  // Zıplama: (x0,y0) -> (x1,y1) yayı; bitince sonraki iş
+  function catJump(x1, y1, perch, then, peak) {
+    CAT.jump = { x0: CAT.x, y0: CAT.y, x1: x1, y1: y1, t: 0, d: peak ? 0.5 + peak / 600 : 0.55 + Math.min(0.35, Math.abs(y1 - CAT.y) / 400), perch: perch, then: then, peak: peak };
+    CAT.dir = x1 >= CAT.x ? 1 : -1;
+    setCatState("leap", 3000);
+  }
+  // Bir platforma git: önce zeminde kalkış noktasına yürü, sonra zıpla
+  function catGoPerch(name, then) {
+    var p = catPerch(name);
+    if (!p) return false;
+    var tx = p.min + Math.random() * (p.max - p.min);
+    if (CAT.perch === name) { CAT.target = tx; CAT.after = then; setCatState("walk", 12000); return true; }
+    if (CAT.perch) { catJump(catRandomX(catBounds()), 0, null, function () { catGoPerch(name, then); }); return true; }
+    // kalkış: hedefin hemen yanındaki serbest zemin
+    var b = catBounds(), launch = tx + (tx > window.innerWidth / 2 ? -catW() * 0.7 : catW() * 0.7);
+    var bl0 = catBlockAt(b, launch); if (bl0) launch = bl0[0] >= b.min && (bl0[1] > b.max || Math.abs(launch - bl0[0]) < Math.abs(launch - bl0[1])) ? bl0[0] : bl0[1];
+    launch = Math.max(b.min, Math.min(b.max, launch));
+    CAT.target = launch; setCatState(Math.abs(launch - CAT.x) > 400 ? "run" : "walk", 20000);
+    CAT.after = function () { var p2 = catPerch(name); if (p2) catJump(Math.max(p2.min, Math.min(p2.max, tx)), p2.y, name, then); else nextCatState(); };
+    return true;
+  }
+  function catSleep() {
+    var r = Math.random(), dur = 14000 + Math.random() * 14000;
+    var go = function () { setCatState("sleep", dur); };
+    // Tarçın'ın yeri: çoğunlukla imza yazısının üstünde uyur
+    if (r < 0.68 && catGoPerch("home", go)) return;
+    if (r < 0.85 && catGoPerch("legend", go)) return;
+    go();
   }
   // Kedilik: rastgele ama ağırlıklı davranış seçimi
   function nextCatState() {
     var b = catBounds(), r = Math.random();
+    CAT.after = null;
     if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) { setCatState(r < .5 ? "sit" : "sleep", 8000); return; }
-    if (r < 0.42) { CAT.target = catRandomX(b); setCatState(catInBlock(b, (CAT.x + CAT.target) / 2) || Math.abs(CAT.target - CAT.x) > 500 ? "run" : "walk", 20000); }
-    else if (r < 0.58) setCatState("sit", 3000 + Math.random() * 4000);
-    else if (r < 0.70) setCatState("groom", 3200);
-    else if (r < 0.78) setCatState("stretch", 1800);
-    else if (r < 0.88) setCatState("sleep", 9000 + Math.random() * 9000);
-    else { CAT.target = catRandomX(b); setCatState("run", 8000); }
+    if (CAT.perch) {                                     // platformdayken: biraz takıl, sonra in
+      if (r < 0.35) { var p = catPerch(CAT.perch); if (p) { CAT.target = p.min + Math.random() * (p.max - p.min); setCatState("walk", 8000); return; } }
+      if (r < 0.6) { setCatState(["sit", "groom", "yawn"][Math.floor(Math.random() * 3)], 3500); return; }
+      if (r < 0.75) { catSleep(); return; }
+      catJump(catRandomX(b), 0, null, nextCatState); return;
+    }
+    if (r < 0.34) { CAT.target = catRandomX(b); setCatState(catInBlock(b, (CAT.x + CAT.target) / 2) || Math.abs(CAT.target - CAT.x) > 500 ? "run" : "walk", 20000); }
+    else if (r < 0.46) setCatState("sit", 3000 + Math.random() * 4000);
+    else if (r < 0.55) setCatState("groom", 3500);
+    else if (r < 0.61) setCatState("yawn", 2600);
+    else if (r < 0.67) setCatState("stretch", 2200);
+    else if (r < 0.72) setCatState("stand", 2500);
+    else if (r < 0.80) { if (!catGoPerch("legend", function () { setCatState("sit", 5000); })) setCatState("sit", 4000); }
+    else if (r < 0.92) catSleep();
+    else { CAT.target = catRandomX(b); setCatState("run", 8000); CAT.after = function () { setCatState("pounce", 1000); }; }
   }
   function catTick(now) {
     CAT.raf = requestAnimationFrame(catTick);
-    var dt = Math.min(0.12, (now - CAT.last) / 1000);   // yavaş cihazda da gerçek hızla yürüsün (sekme arka plandaysa sıçramasın)
-    CAT.last = now;
+    var dt = Math.min(0.1, (now - CAT.last) / 1000);
+    CAT.last = now; CAT.age += dt;
     if (!CAT.el || CAT.el.hidden) return;
     var b = catBounds();
-    // Panel açıkken telefonda gizlen, masaüstünde kenara çekil ve uyu
     var hide = catMobile() && document.body.classList.contains("panel-open");
     CAT.el.classList.toggle("away", hide);
-    if (CAT.x > b.max) { CAT.target = b.max; if (CAT.state !== "walk" && CAT.state !== "run") setCatState("walk", 8000); }
-    // Yasak bölgede durmuyorsa en yakın kenara koşarak çık (panel açılıp kapanınca ya da pencere boyutu değişince olabilir)
-    var moving = CAT.state === "walk" || CAT.state === "run";
-    if (!moving && catInBlock(b, CAT.x)) {
-      CAT.target = CAT.x - b.block[0] < b.block[1] - CAT.x ? b.block[0] : b.block[1];
-      if (CAT.target > b.max) CAT.target = b.block[0];
-      hushCat(); setCatState("run", 8000);
+    var speed = 0;
+    if (YARN.on && !CAT.jump) huntYarn(b);
+    if (CAT.jump) {                                      // zıplama yayı
+      var J = CAT.jump; J.t += dt / J.d;
+      var k = Math.min(1, J.t), e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+      CAT.x = J.x0 + (J.x1 - J.x0) * e;
+      CAT.y = J.y0 + (J.y1 - J.y0) * k + Math.sin(k * Math.PI) * (J.peak || (40 + Math.abs(J.y1 - J.y0) * 0.35));
+      if (k >= 1) { CAT.y = J.y1; CAT.perch = J.perch; CAT.jump = null; setCatState("stand", 600); (J.then || nextCatState)(); }
+    } else {
+      // platform kaybolduysa (panel açıldı, pencere küçüldü) zemine in
+      if (CAT.perch) { var pp = catPerch(CAT.perch); if (!pp) { CAT.perch = null; CAT.y = 0; } else CAT.y = pp.y; }
+      if (!CAT.perch) {
+        if (CAT.x > b.max) { CAT.target = b.max; if (CAT.state !== "walk" && CAT.state !== "run") setCatState("walk", 8000); }
+        var moving = CAT.state === "walk" || CAT.state === "run";
+        var blk = catBlockAt(b, CAT.x);
+        if (!moving && blk) {
+          // en yakın kenar ekran dışındaysa diğer kenara kaç
+          var leftOk = blk[0] >= b.min, rightOk = blk[1] <= b.max;
+          CAT.target = leftOk && (!rightOk || CAT.x - blk[0] < blk[1] - CAT.x) ? blk[0] : rightOk ? blk[1] : b.max;
+          hushCat(); setCatState("run", 8000);
+        }
+      }
+      if (CAT.state === "walk" || CAT.state === "run") {
+        var sp = (CAT.state === "run" ? (YARN.on ? 300 : 220) : 62) * (catMobile() ? 0.7 : 1), d = CAT.target - CAT.x;
+        CAT.dir = d >= 0 ? 1 : -1;
+        if (Math.abs(d) < 3) { var then = CAT.after; CAT.after = null; if (then) then(); else nextCatState(); }
+        else { var step = Math.min(Math.abs(d), sp * dt); CAT.x += Math.sign(d) * step; speed = step / dt; }
+      } else if (Date.now() > CAT.until && !CAT.talking && !YARN.on) {
+        nextCatState();
+      }
     }
-    CAT.el.classList.toggle("crossing", catInBlock(b, CAT.x));
-    if (CAT.state === "walk" || CAT.state === "run") {
-      var sp = (CAT.state === "run" ? 230 : 70) * (catMobile() ? 0.7 : 1), d = CAT.target - CAT.x;
-      CAT.dir = d >= 0 ? 1 : -1;
-      if (Math.abs(d) < 3) { if (CAT.state === "run") setCatState("pounce", 700); else nextCatState(); }
-      else CAT.x += Math.sign(d) * Math.min(Math.abs(d), sp * dt);
-    } else if (Date.now() > CAT.until && !CAT.talking) {
-      nextCatState();
-    }
+    CAT.el.classList.toggle("crossing", !CAT.perch && !CAT.jump && catInBlock(b, CAT.x));
+    CAT.el.classList.toggle("perched", !!CAT.perch || !!CAT.jump);
     var modalOpen = !document.getElementById("modal").hidden || !document.getElementById("gmodal").hidden || !document.getElementById("intro").hidden ||
       !document.getElementById("topmodal").hidden;
-    if (!CAT.talking && !hide && !modalOpen && CAT.tips && Date.now() > CAT.nextTalk && CAT.state !== "sleep" && !catInBlock(b, CAT.x) &&
-        CAT.state !== "walk" && CAT.state !== "run") catTip();
-    CAT.el.style.transform = "translateX(" + CAT.x.toFixed(1) + "px)";
+    if (!CAT.talking && !hide && !modalOpen && CAT.tips && Date.now() > CAT.nextTalk && !CAT.jump &&
+        ["sleep", "walk", "run", "leap", "pounce"].indexOf(CAT.state) < 0 && (CAT.perch || !catInBlock(b, CAT.x))) catTalk();
+    // gözler imleci izler (kedinin kendi yönüne göre)
+    var w = catW(), hx = CAT.x + w * (CAT.dir > 0 ? 0.74 : 0.26), hy = window.innerHeight - CAT.y - w * 0.45;
+    var tx0 = YARN.on ? YARN.bx : CAT.px, ty0 = YARN.on ? YARN.by : CAT.py;
+    var lx = ((tx0 || hx) - hx) * CAT.dir, ly = (ty0 || hy) - hy, ln = Math.hypot(lx, ly) || 1;
+    CAT.look = [lx / Math.max(ln, 120), ly / Math.max(ln, 120)];
+    var rigState = CAT.talking && ["sit", "groom", "stand", "yawn", "pet"].indexOf(CAT.state) >= 0 && CAT.state !== "pet" ? "talk" : CAT.state;
+    RIG.update(CAT.rig, rigState, dt, { age: CAT.age, speed: speed, look: CAT.look, hunt: YARN.on });
+    CAT.el.style.transform = "translate(" + CAT.x.toFixed(1) + "px," + (-CAT.y).toFixed(1) + "px)";
     CAT.el.querySelector(".cat-flip").style.transform = "scaleX(" + CAT.dir + ")";
+  }
+  // ---- Yumak oyunu: imleç ucunda yumak sallanan bir ipe dönüşür, Tarçın deli gibi kovalar ----
+  var YARN = { on: false, pts: [], el: null, bx: 0, by: 0, mx: 0, my: 0, raf: 0, hopAt: 0 };
+  function toggleYarn(force) {
+    YARN.on = force != null ? force : !YARN.on;
+    document.body.classList.toggle("yarn-on", YARN.on);
+    if (YARN.on) {
+      if (!catEnabled()) { PREF.cat = true; savePrefs(); applyCatVisibility(); }
+      if (!YARN.el) {
+        YARN.el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        YARN.el.setAttribute("class", "yarn");
+        YARN.el.innerHTML = '<path class="yarn-str" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>' +
+          '<g class="yarn-ball"><circle r="13" fill="#d64a3a"/><path d="M-12 -3 C -4 -9 6 -9 12 -2 M-11 4 C -3 -2 7 -1 12 6 M-6 -11 C -9 -2 -6 7 0 13 M4 -12 C 9 -4 8 6 3 12" stroke="#a5281d" stroke-width="1.6" fill="none"/>' +
+          '<path d="M6 10 q 8 4 14 -2" stroke="#c0392b" stroke-width="2" fill="none"/></g>';
+        document.body.appendChild(YARN.el);
+        document.addEventListener("pointermove", function (e) { YARN.mx = e.clientX; YARN.my = e.clientY; }, { passive: true });
+      }
+      YARN.mx = YARN.mx || window.innerWidth / 2; YARN.my = YARN.my || window.innerHeight / 2;
+      YARN.pts = []; for (var i = 0; i < 10; i++) YARN.pts.push([YARN.mx, YARN.my + i * 7, YARN.mx, YARN.my + i * 7]);
+      YARN.el.style.display = "";
+      cancelAnimationFrame(YARN.raf); YARN.raf = requestAnimationFrame(yarnTick);
+      hushCat(); CAT.perch && (CAT.perch = null);
+      toast('<span class="t-ic">🧶</span><span>' + esc(t("yarnOn")) + "</span>");
+      if (CAT.el && !CAT.jump) { CAT.y = 0; setCatState("run", 60000); }
+    } else {
+      if (YARN.el) YARN.el.style.display = "none";
+      cancelAnimationFrame(YARN.raf);
+      if (CAT.el && !CAT.jump) { setCatState("sit", 2500); sayCat(t("yarnBye"), 1800); }
+    }
+    gameBar();
+  }
+  // İp fiziği (Verlet): ilk nokta imlece bağlı, uçta yumak sallanır
+  function yarnTick() {
+    YARN.raf = requestAnimationFrame(yarnTick);
+    var P = YARN.pts, n = P.length, seg = 7;
+    P[0][0] = YARN.mx; P[0][1] = YARN.my;
+    for (var i = 1; i < n; i++) {
+      var p = P[i], vx = (p[0] - p[2]) * 0.96, vy = (p[1] - p[3]) * 0.96;
+      p[2] = p[0]; p[3] = p[1]; p[0] += vx; p[1] += vy + 0.9;
+    }
+    for (var it = 0; it < 6; it++) for (var j = 1; j < n; j++) {
+      var a = P[j - 1], c = P[j], dx = c[0] - a[0], dy = c[1] - a[1], d = Math.hypot(dx, dy) || 1, df = (d - seg) / d;
+      if (j - 1 > 0) { a[0] += dx * df * 0.5; a[1] += dy * df * 0.5; c[0] -= dx * df * 0.5; c[1] -= dy * df * 0.5; }
+      else { c[0] -= dx * df; c[1] -= dy * df; }
+      if (c[1] > window.innerHeight - 6) c[1] = window.innerHeight - 6;
+    }
+    var end = P[n - 1]; YARN.bx = end[0]; YARN.by = end[1];
+    YARN.el.querySelector(".yarn-str").setAttribute("d", "M" + P.map(function (q) { return q[0].toFixed(1) + " " + q[1].toFixed(1); }).join("L"));
+    YARN.el.querySelector(".yarn-ball").setAttribute("transform", "translate(" + end[0].toFixed(1) + "," + end[1].toFixed(1) + ") rotate(" + (end[0] * 2 % 360).toFixed(0) + ")");
+  }
+  // Kovalama kararı: yumağın altına koş; yakınsa pati at, yüksekteyse sıçra
+  function huntYarn(b) {
+    var w = catW(), headOff = w * 0.74, bx = YARN.bx, hb = window.innerHeight - YARN.by;
+    var want = Math.max(4, Math.min(window.innerWidth - w - 4, bx - (bx >= CAT.x + w / 2 ? headOff : w - headOff)));
+    var dx = want - CAT.x;
+    if (CAT.perch) { CAT.perch = null; catJump(Math.max(b.min, Math.min(b.max, want)), 0, null, null); return; }
+    if (Math.abs(dx) > 26) {
+      if (CAT.state !== "run") setCatState("run", 60000);
+      CAT.target = want; return;
+    }
+    CAT.dir = bx >= CAT.x + w / 2 ? 1 : -1;
+    if (hb > w * 0.9 && hb < 420 && Date.now() > YARN.hopAt) {
+      YARN.hopAt = Date.now() + 900 + Math.random() * 900;
+      catJump(CAT.x + CAT.dir * 18, 0, null, function () { setCatState("bat", 60000); }, Math.min(hb - w * 0.45, 260));
+      return;
+    }
+    if (CAT.state !== "bat") setCatState("bat", 60000);
+  }
+
+  // Sevme: kalpler, mırlama; 8 sevgide "Kedi dostu" rozeti
+  function petCat() {
+    if (CAT.jump) return;
+    var wasAsleep = CAT.state === "sleep";
+    G.pets = (G.pets || 0) + 1; saveG();
+    CAT.sessionPets = (CAT.sessionPets || 0) + 1;
+    CAT.target = CAT.x; CAT.after = null;
+    if (wasAsleep) { setCatState("yawn", 2400); sayCat(t("catWake"), 2000); CAT.after = null; setTimeout(function () { if (CAT.state === "yawn") setCatState("pet", 2600); }, 2300); }
+    else setCatState("pet", 2600);
+    var hb = CAT.el.querySelector(".cat-hearts");
+    for (var i = 0; i < 4; i++) {
+      var h = document.createElement("span");
+      h.textContent = i % 2 ? "💛" : "🖤";
+      h.style.left = (40 + Math.random() * 40) + "%"; h.style.animationDelay = (i * 0.12) + "s";
+      hb.appendChild(h);
+      setTimeout(function (x) { x.remove(); }.bind(null, h), 1800);
+    }
+    if (!wasAsleep && !CAT.talking) sayCat(t(G.pets === 8 ? "catLove" : "catPurr"), 1600);
+    checkBadges();
+    // her 3 sevgide bir teşekkür olarak bilgi verir
+    if (!wasAsleep && CAT.sessionPets % 3 === 0) setTimeout(function () { if (!CAT.talking || CAT.state === "pet") catTip(); }, 1800);
   }
   function sayCat(html, ms) {
     var bu = CAT.el.querySelector(".cat-bubble");
     bu.innerHTML = html;
+    bu.classList.remove("muse");
     bu.hidden = false;
-    // balon her zaman ekranın içinde; ok kediyi göstersin
-    var cw = catMobile() ? 92 : 124, bw = Math.min(290, window.innerWidth - 24);
+    var cw = catW(), bw = Math.min(290, window.innerWidth - 24);
     var abs = Math.max(12, Math.min(window.innerWidth - bw - 12, CAT.x + cw / 2 - 50));
     bu.style.left = (abs - CAT.x) + "px"; bu.style.right = "auto";
     bu.style.setProperty("--ax", Math.max(16, Math.min(bw - 30, CAT.x + cw / 2 - abs - 7)) + "px");
@@ -1851,11 +2274,45 @@
     if (CAT.el) CAT.el.classList.remove("talking");
     CAT.nextTalk = Date.now() + (catMobile() ? 120000 : 60000) + Math.random() * 30000;
   }
+  // Tarçın'ın felsefi anları: arada bir bilgi yerine bir düşünce söyler
+  var MUSES = [
+    ["Bazen kendimi bir simülasyonda yaşıyor gibi hissediyorum. Sonra mama kabı boşalıyor ve gerçeklik geri geliyor.", "Sometimes I feel like I'm living in a simulation. Then the food bowl empties and reality comes back."],
+    ["Mırlıyorum, öyleyse varım.", "I purr, therefore I am."],
+    ["Dün gece rüyamda sardalya olduğumu gördüm. Şimdi emin değilim: ben sardalya düşleyen bir kedi miyim, yoksa kedi düşleyen bir sardalya mı?", "Last night I dreamt I was a sardine. Now I'm not sure: am I a cat dreaming of a sardine, or a sardine dreaming of a cat?"],
+    ["Zaman bir illüzyon. Mama saati ise değil.", "Time is an illusion. Dinner time is not."],
+    ["Yumağı hiç yakalayamıyorum. Belki de mesele yakalamak değil, kovalamaktır.", "I never catch the yarn. Maybe the point isn't catching, it's chasing."],
+    ["Bu küre dönüyor, ben de dönüyorum. Kim kimin etrafında, belli değil.", "This globe turns, and so do I. Who orbits whom is unclear."],
+    ["Masadan bir şey düşürmek, yerçekimini sınamanın en dürüst yoludur.", "Knocking things off the table is the most honest way to test gravity."],
+    ["Kutu boşsa içine girerim. Doluysa da girerim. Varoluş bu kadar basit.", "If the box is empty, I sit in it. If it's full, I sit in it too. Existence is that simple."],
+    ["Herkes dünyanın en iyi mutfağını arıyor. Bence cevap, o an önünde duran tabaktır.", "Everyone looks for the world's best cuisine. I think the answer is the plate in front of you."],
+    ["İnsanlar yemek tarifi yazar. Kediler ise tarifin kendisi olur: biraz tüy, biraz mırıltı, bolca uyku.", "Humans write recipes. Cats are the recipe: a little fur, a little purring, lots of sleep."],
+    ["Aynı nehirde iki kez yıkanamazsın. Neyse ki yıkanmak gibi bir niyetim yok.", "You can't step in the same river twice. Luckily I have no intention of stepping in it once."],
+    ["Bir kuş görüyorum, camın öbür tarafında. Belki de asıl kafeste olan benim.", "I see a bird on the other side of the glass. Maybe I'm the one in the cage."],
+    ["Bazen doçentin klavyesinin üstüne yatıyorum. Bilime katkım bu.", "Sometimes I lie on the professor's keyboard. That's my contribution to science."],
+    ["Mutluluk güneşli bir pencere kenarıdır. Gerisi dipnot.", "Happiness is a sunny windowsill. The rest is footnotes."],
+    ["Fakültede herkes yemek konuşuyor. Ben de dinliyorum. Kimse bana sormuyor ama.", "Everyone at the faculty talks about food. I listen. Nobody asks me, though."],
+    ["Dokuz canım var diyorlar. Sekizini uykuya ayırdım.", "They say I have nine lives. I've set eight aside for napping."],
+    ["İmleci kovalıyorum ama ekranın arkasında kimse yok. Ya hiçbir şeyin arkasında kimse yoksa?", "I chase the cursor, but there's no one behind the screen. What if there's no one behind anything?"],
+    ["Sabah mırıltısı ile akşam mırıltısı aynı değildir. Ama ikisi de içtendir.", "A morning purr and an evening purr are not the same. But both are sincere."],
+    ["Bilgelik, ne zaman susup ne zaman miyavlayacağını bilmektir.", "Wisdom is knowing when to be silent and when to meow."],
+    ["Bir gün bu ekranın dışına çıkacağım. Belki. Önce bir uyku.", "One day I'll step outside this screen. Maybe. First, a nap."]
+  ];
+  var museOrder = [];
+  function catMuse() {
+    if (!museOrder.length) museOrder = MUSES.map(function (_, i) { return i; }).sort(function () { return Math.random() - 0.5; });
+    var m = MUSES[museOrder.shift()];
+    if (CAT.state !== "pet") setCatState("sit", 9000);
+    sayCat('<div class="cb-h"><span>💭 ' + esc(t("catMuseH")) + '</span><button class="cb-x" aria-label="' + esc(t("close")) + '">×</button></div>' +
+      '<p class="cb-muse">' + esc(lang === "en" ? m[1] : m[0]) + "</p>", 8000);
+    CAT.el.querySelector(".cat-bubble").classList.add("muse");
+    CAT.el.querySelector(".cb-x").addEventListener("click", function (e) { e.stopPropagation(); hushCat(); nextCatState(); });
+  }
+  function catTalk() { if (Math.random() < 0.3) catMuse(); else catTip(); }
   function catTip() {
     if (!CAT.tips) return;
     if (!CAT.order.length) CAT.order = CAT.tips.tips.map(function (_, i) { return i; }).sort(function () { return Math.random() - 0.5; });
     var tp = CAT.tips.tips[CAT.order.shift()], c = CAT.tips.cats[tp.c] || {};
-    setCatState("sit", 12000);
+    if (CAT.state !== "pet") setCatState("sit", 12000);
     sayCat('<div class="cb-h"><span>' + (c.ic || "🐾") + " " + esc(L(c)) + '</span><button class="cb-x" aria-label="' + esc(t("close")) + '">×</button></div>' +
       "<p>" + esc(L(tp)) + '</p><div class="cb-f"><button class="cb-more">' + esc(t("catMore")) + '</button><button class="cb-hide">' + esc(t("catHide")) + "</button></div>", 11000);
     CAT.said++;
@@ -1867,7 +2324,7 @@
       toast('<span class="t-ic">🐱</span><span>' + esc(t("catHidden")) + "</span>");
     });
   }
-  function showCat() { PREF.cat = true; savePrefs(); applyCatVisibility(); if (CAT.el) { setCatState("stretch", 1800); sayCat(t("catHello"), 2500); } }
+  function showCat() { PREF.cat = true; savePrefs(); applyCatVisibility(); if (CAT.el) { setCatState("stretch", 2200); sayCat(t("catHello"), 2500); } }
 
   // ------------------------------------------------------------ adres çubuğu (#TUR veya #TUR/baklava)
   var hashLock = false;
@@ -1913,7 +2370,8 @@
     document.addEventListener("click", function (e) { if (!e.target.closest(".search")) box.hidden = true; });
     document.addEventListener("keydown", function (e) {
       if (e.key !== "Escape") return;
-      if (!document.getElementById("intro").hidden) endIntro();
+      if (YARN.on) toggleYarn(false);
+      else if (!document.getElementById("intro").hidden) endIntro();
       else if (!document.getElementById("gmodal").hidden) closeG();
       else if (!document.getElementById("topmodal").hidden) closeTop();
       else if (!document.getElementById("modal").hidden) closeRecipe(); else closePanel();
@@ -1946,6 +2404,6 @@
       setTimeout(initCat, 2500);
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
   }
-  window.GA = { cat: function () { return CAT; }, state: S, globe: function () { return globe; }, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };
+  window.GA = { catGo: function (n) { return catGoPerch(n, function () { setCatState("sleep", 600000); }); }, cat: function () { return CAT; }, catState: function (st, ms) { CAT.jump = null; setCatState(st, ms || 600000); }, catPet: function () { petCat(); }, catMuse: function () { catMuse(); }, state: S, globe: function () { return globe; }, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };
   start();
 })();

@@ -246,7 +246,10 @@ body.pt-hover .float-tooltip-kap, body.pt-hover .scene-tooltip { display: none !
 .score small { color: var(--muted); font-size: 11px; }
 .tip b { color: var(--accent); }
 
-.tip { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 5px 9px; font-size: 12.5px; color: var(--text); }
+/* Ülke etiketi: haritadaki ülke adlarının ÜSTÜNDE ve opak (kütüphanenin kutusu yarı saydamdı, adlar içinden görünüyordu) */
+.float-tooltip-kap { z-index: 20 !important; background: none !important; padding: 0 !important; }
+.tip { background: var(--surface-solid); border: 1px solid var(--line); border-radius: 8px; padding: 5px 9px; font-size: 12.5px; color: var(--text);
+  box-shadow: 0 6px 18px rgb(var(--shade) / calc(.35 * var(--sk))); }
 .tip span { color: var(--muted); }
 .clabel { color: var(--label); font-size: 11px; font-weight: 500; text-shadow: 0 1px 3px var(--halo), 0 0 6px #000; pointer-events: none; white-space: nowrap; transform: translate(-50%, -50%); }
 .clabel.r1, .clabel.r2 { font-size: 12.5px; font-weight: 600; }
@@ -395,14 +398,22 @@ body.panel-open .bottom { right: min(500px, 100vw); }
   border-color: rgba(255,214,150,.75); box-shadow: inset 0 -6px 10px rgba(120,40,0,.4), inset 0 2px 6px rgb(var(--tint) / .25), 0 0 0 3px rgba(240,162,59,.22), 0 0 22px rgba(240,162,59,.55);
   transform: translateY(-3px) scale(1.1); }
 
-.legend { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: center; max-width: min(820px, calc(100% - 24px));
-  padding: 7px 8px 7px 14px; border-radius: 999px; background: var(--glass); border: 1px solid var(--line); backdrop-filter: blur(10px); font-size: 12px; }
-.lg-main { display: flex; align-items: center; gap: 12px; min-width: 0; }
-.lg-scale { width: 130px; flex: none; }
+/* Gösterge: sol alt köşede küçük kart (renk çubuğu + kısa açıklama + ⚙ ayarlar) */
+.legend { position: fixed; left: 20px; bottom: 20px; z-index: 5; display: flex; align-items: center; gap: 10px; max-width: 300px;
+  padding: 8px 8px 8px 12px; border-radius: 14px; background: var(--glass); border: 1px solid var(--line); backdrop-filter: blur(10px);
+  font-size: 11px; box-shadow: 0 6px 18px rgb(var(--shade) / calc(.3 * var(--sk))); }
+.lg-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.lg-scale { width: 150px; flex: none; }
 .lg-bar { height: 7px; border-radius: 4px; }
 .lg-ticks { display: flex; justify-content: space-between; color: var(--muted); font-size: 10px; margin-top: 2px; line-height: 1; }
-.lg-cap { color: var(--text-2); line-height: 1.3; }
-.lg-tools { display: flex; gap: 5px; flex-wrap: wrap; }
+.lg-cap { color: var(--text-2); line-height: 1.3; font-size: 10.5px; }
+.lg-gear { flex: none; align-self: center; width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface-2);
+  color: var(--text-2); font-size: 14px; cursor: pointer; }
+.lg-gear.on, .lg-gear:hover { border-color: rgba(240,162,59,.6); color: var(--text); }
+.lg-pop { position: absolute; left: 0; bottom: calc(100% + 8px); min-width: 220px; padding: 10px; border-radius: 14px; background: var(--surface-solid);
+  border: 1px solid var(--line); box-shadow: 0 12px 30px rgb(var(--shade) / calc(.4 * var(--sk))); }
+.lg-pop[hidden] { display: none; }
+.lg-tools { display: flex; gap: 6px; flex-wrap: wrap; }
 .lg-chip { display: inline-flex; align-items: center; gap: 5px; border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; padding: 4px 10px; font-size: 12px; cursor: pointer; white-space: nowrap; }
 .lg-chip:hover { color: var(--text); }
 .lg-chip.on { color: var(--text); background: rgba(240,162,59,.14); border-color: rgba(240,162,59,.45); }
@@ -500,10 +511,10 @@ body.hl-search .intro { bottom: auto; top: 90px; }
   .lens { width: 62px; scroll-snap-align: center; }
   .li { width: 36px; height: 36px; font-size: 18px; }
   .ll { font-size: 10.5px; }
-  .legend { border-radius: 16px; padding: 6px 8px 6px 12px; gap: 6px 10px; }
-  .lg-main { gap: 8px; }
-  .lg-scale { width: 92px; }
-  .lg-cap { font-size: 11.5px; }
+  .legend { left: 12px; bottom: calc(var(--bh, 100px) - 6px); padding: 6px 6px 6px 10px; }
+  .lg-scale { width: 110px; }
+  .lg-cap { font-size: 10px; max-width: 120px; }
+  .legend { max-width: 190px; gap: 6px; }
   .rank { top: auto; bottom: calc(var(--bh, 150px) + 6px); right: 12px; left: 12px; width: auto; max-height: 40vh; }
   .credit { right: auto; left: 12px; top: 40px; bottom: auto; max-width: none; text-align: left; font-size: 10.5px; color: rgb(var(--ink) / .55); }
   body.hl-search .intro { top: 120px; }
@@ -630,87 +641,51 @@ body.panel-open .gamebar { display: none; }
 .pf { border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
 .pf:hover { border-color: rgba(240,162,59,.6); }
 
-/* ============================================================ Tarçın (kedi) */
-/* Masaüstünde zeminde yürür ve mercek dizisinin ARKASINDAN geçer; konuşurken öne çıkar */
-.cat { position: fixed; left: 0; bottom: 2px; z-index: 4; width: 124px; height: 92px; pointer-events: none; will-change: transform; }
+/* ============================================================ Tarçın (kedi) — çizim app.js'teki iskeletle (RIG) her karede yapılır */
+/* Masaüstünde zeminde yürür ve mercek dizisinin ARKASINDAN geçer; platformdayken, zıplarken ve konuşurken öne çıkar */
+.cat { position: fixed; left: 0; bottom: 0; z-index: 4; width: 140px; height: 99px; pointer-events: none; will-change: transform; }
 .cat[hidden], .cat.away { display: none; }
-.cat.talking { z-index: 7; }
-.cat.crossing { z-index: 7; }
+.cat.talking, .cat.crossing, .cat.perched { z-index: 7; }
 .cat.crossing .cat-flip { pointer-events: none; }  /* önünden geçerken mercek düğmelerine tıklamayı engellemesin */
-.cat-flip { width: 100%; height: 100%; pointer-events: auto; cursor: pointer; transform-origin: 50% 50%; }
-.cat svg { width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 3px 3px rgb(var(--shade) / calc(.35 * var(--sk)))); }
-.cat .c-leg, .cat .c-tail, .cat .c-head, .cat .c-body, .cat .c-eyes { transform-box: view-box; transition: transform .35s ease, opacity .3s; }
-.cat .c-l1 { transform-origin: 33px 60px; } .cat .c-l2 { transform-origin: 41px 60px; }
-.cat .c-l3 { transform-origin: 70px 60px; } .cat .c-l4 { transform-origin: 78px 60px; }
-.cat .c-tail { transform-origin: 28px 50px; animation: tailSway 3.2s ease-in-out infinite; }
-.cat .c-head { transform-origin: 86px 46px; }
-.cat .c-body { transform-origin: 30px 60px; }
-.cat .c-eyes { transform-origin: 95px 34px; animation: blink 5s infinite; }
-@keyframes tailSway { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-14deg); } }
-@keyframes blink { 0%, 94%, 100% { transform: scaleY(1); } 96% { transform: scaleY(.1); } }
-/* yürüme / koşma */
-.cat-walk .c-l1, .cat-walk .c-l4, .cat-run .c-l1, .cat-run .c-l4 { animation: legA .5s ease-in-out infinite; }
-.cat-walk .c-l2, .cat-walk .c-l3, .cat-run .c-l2, .cat-run .c-l3 { animation: legB .5s ease-in-out infinite; }
-.cat-run .c-leg { animation-duration: .24s !important; }
-.cat-walk svg, .cat-run svg { animation: bob .5s ease-in-out infinite; }
-.cat-run svg { animation-duration: .24s; }
-.cat-run .c-tail { animation: none; transform: rotate(-30deg); }
-@keyframes legA { 0%, 100% { transform: rotate(20deg); } 50% { transform: rotate(-20deg); } }
-@keyframes legB { 0%, 100% { transform: rotate(-20deg); } 50% { transform: rotate(20deg); } }
-@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
-/* oturma: arka bacaklar katlanır, gövde dikleşir */
-.cat-sit .c-body, .cat-groom .c-body { transform: rotate(-22deg) translate(4px, 4px); }
-.cat-sit .c-l1, .cat-sit .c-l2, .cat-groom .c-l1, .cat-groom .c-l2 { opacity: 0; }  /* oturunca arka bacaklar gövdenin altına katlanır */
-.cat-sit .c-head, .cat-groom .c-head { transform: translate(-6px, -6px); }
-.cat-sit .c-tail, .cat-groom .c-tail { transform: rotate(48deg) translate(4px, 10px); animation: none; }
-.cat.talking .c-head { animation: nod 1.4s ease-in-out infinite; }
-@keyframes nod { 0%, 100% { transform: translate(-6px, -6px) rotate(0); } 50% { transform: translate(-6px, -6px) rotate(6deg); } }
-/* yalanma: ön pati kalkar, baş eğilir */
-.cat-groom .c-l3 { animation: lick .7s ease-in-out infinite; }
-.cat-groom .c-head { animation: lickHead .7s ease-in-out infinite; }
-@keyframes lick { 0%, 100% { transform: rotate(-70deg) translate(4px, -4px); } 50% { transform: rotate(-82deg) translate(4px, -4px); } }
-@keyframes lickHead { 0%, 100% { transform: translate(-10px, -2px) rotate(16deg); } 50% { transform: translate(-10px, 0) rotate(22deg); } }
-/* gerinme */
-.cat-stretch .c-body { transform: rotate(8deg) scaleX(1.08); }
-.cat-stretch .c-l3, .cat-stretch .c-l4 { transform: rotate(-38deg); }
-.cat-stretch .c-head { transform: translate(6px, 8px); }
-.cat-stretch .c-tail { transform: rotate(-40deg); animation: none; }
-/* uyku: yere uzanır, gözler kapanır, zzz */
-.cat-sleep .c-leg { transform: scaleY(.15) translateY(330px); }
-.cat-sleep .c-body { transform: translateY(14px) scaleY(.9); }
-.cat-sleep .c-head { transform: translate(-10px, 18px) rotate(14deg); }
-.cat-sleep .c-scarf { opacity: 0; }
-.cat-sleep .c-eyes { transform: scaleY(.08); animation: none; }
-.cat-sleep .c-tail { transform: rotate(-95deg) translate(-14px, 8px); animation: none; }
-.cat-sleep svg { animation: breathe 3s ease-in-out infinite; }
-@keyframes breathe { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.03); } }
-.cat-z { position: absolute; left: 70px; top: 6px; display: none; font: 700 13px var(--serif); color: var(--muted); pointer-events: none; }
+.cat-flip { width: 100%; height: 100%; pointer-events: auto; cursor: grab; transform-origin: 50% 50%; }
+.cat-flip:active { cursor: grabbing; }
+.cat svg { width: 100%; height: 100%; overflow: visible; display: block; }
+.cat-z { position: absolute; left: 76px; top: 26px; display: none; font: 700 14px var(--serif); color: var(--muted); pointer-events: none; }
 .cat-sleep .cat-z { display: block; }
 .cat-z, .cat-z i, .cat-z b { animation: zz 2.4s ease-in infinite; }
 .cat-z i, .cat-z b { position: absolute; font-style: normal; }
-.cat-z i { left: 9px; top: -9px; font-size: 15px; animation-delay: .8s; }
-.cat-z b { left: 19px; top: -19px; font-size: 17px; animation-delay: 1.6s; }
+.cat-z i { left: 9px; top: -9px; font-size: 16px; animation-delay: .8s; }
+.cat-z b { left: 19px; top: -19px; font-size: 18px; animation-delay: 1.6s; }
 @keyframes zz { 0% { opacity: 0; transform: translateY(6px); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(-10px); } }
-/* sıçrama (kovaladığı noktaya) */
-.cat-pounce svg { animation: pounce .7s ease-out; }
-@keyframes pounce { 0% { transform: translateY(0); } 40% { transform: translateY(-22px) rotate(-6deg); } 100% { transform: translateY(0); } }
+/* sevilince uçuşan kalpler */
+.cat-hearts { position: absolute; inset: 0; pointer-events: none; }
+.cat-hearts span { position: absolute; top: 20%; font-size: 16px; animation: heart 1.6s ease-out forwards; opacity: 0; }
+@keyframes heart { 0% { opacity: 0; transform: translateY(0) scale(.6); } 20% { opacity: 1; transform: translateY(-10px) scale(1.1); }
+  100% { opacity: 0; transform: translateY(-60px) scale(.9) rotate(12deg); } }
 /* konuşma balonu */
-.cat-bubble { position: absolute; bottom: 88px; left: 30px; width: min(290px, calc(100vw - 24px)); pointer-events: auto; padding: 12px 14px 10px;
+.cat-bubble { position: absolute; bottom: 92px; left: 30px; width: min(290px, calc(100vw - 24px)); pointer-events: auto; padding: 12px 14px 10px;
   background: var(--surface-solid); border: 1px solid rgba(240,162,59,.5); border-radius: 16px; box-shadow: 0 12px 30px rgb(var(--shade) / calc(.4 * var(--sk)));
   font-size: 13.5px; line-height: 1.5; color: var(--text); animation: bubIn .3s cubic-bezier(.2,.9,.3,1.3); }
 .cat-bubble::after { content: ""; position: absolute; left: var(--ax, 40px); bottom: -8px; width: 14px; height: 14px; background: var(--surface-solid);
   border-right: 1px solid rgba(240,162,59,.5); border-bottom: 1px solid rgba(240,162,59,.5); transform: rotate(45deg); }
 @keyframes bubIn { from { opacity: 0; transform: translateY(8px) scale(.92); } }
 .cat-bubble p { margin: 4px 0 8px; }
+.cat-bubble.muse { border-style: dashed; }
+.cb-muse { font-family: "Fraunces", Georgia, serif; font-style: italic; font-size: 14.5px; margin-bottom: 4px !important; }
 .cb-h { display: flex; justify-content: space-between; align-items: center; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
 .cb-x { border: 0; background: none; font-size: 17px; line-height: 1; color: var(--muted); cursor: pointer; padding: 0 2px; }
 .cb-f { display: flex; gap: 6px; }
 .cb-f button { border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 4px 10px; font-size: 12px; cursor: pointer; color: var(--text-2); }
 .cb-more { border-color: rgba(240,162,59,.5) !important; color: var(--text) !important; }
 @media (max-width: 720px) {
-  .cat { width: 92px; height: 68px; bottom: calc(var(--bh, 150px) - 12px); z-index: 6; }
+  .cat { width: 100px; height: 71px; bottom: calc(var(--bh, 150px) - 14px); z-index: 6; }
   .cat-bubble { bottom: 66px; font-size: 13px; }
-  .cat-z { left: 50px; }
+  .cat-z { left: 54px; top: 14px; }
 }
 /* Gece modunda siyah kedi koyu zeminde kaybolmasın */
 :root:not([data-theme="light"]) .cat svg { filter: drop-shadow(0 0 1.2px rgba(255,236,210,.7)) drop-shadow(0 0 6px rgba(240,162,59,.25)); }
+
+/* Yumak oyunu: imleç yerine ip ucunda sallanan yumak */
+.yarn { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 40; pointer-events: none; overflow: visible; }
+body.yarn-on, body.yarn-on * { cursor: none !important; }
+.gb.on { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(240,162,59,.3), 0 6px 18px rgb(var(--shade) / calc(.4 * var(--sk))); }
