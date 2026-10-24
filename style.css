@@ -635,6 +635,8 @@ body.panel-open .gamebar { display: none; }
 .cat { position: fixed; left: 0; bottom: 2px; z-index: 4; width: 124px; height: 92px; pointer-events: none; will-change: transform; }
 .cat[hidden], .cat.away { display: none; }
 .cat.talking { z-index: 7; }
+.cat.crossing { z-index: 7; }
+.cat.crossing .cat-flip { pointer-events: none; }  /* önünden geçerken mercek düğmelerine tıklamayı engellemesin */
 .cat-flip { width: 100%; height: 100%; pointer-events: auto; cursor: pointer; transform-origin: 50% 50%; }
 .cat svg { width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 3px 3px rgb(var(--shade) / calc(.35 * var(--sk)))); }
 .cat .c-leg, .cat .c-tail, .cat .c-head, .cat .c-body, .cat .c-eyes { transform-box: view-box; transition: transform .35s ease, opacity .3s; }

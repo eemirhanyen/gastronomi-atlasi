@@ -1725,11 +1725,36 @@
     '</svg>';
   function catEnabled() { return PREF.cat !== false; }
   function catMobile() { return window.innerWidth <= 720; }
+  // Kedinin gezebileceği alan. Masaüstünde mercek dizisi + lejantın kapladığı yatay aralık "yasak bölge"dir:
+  // kedi orada durmaz (arkasında kalıp görünmez oluyordu), yalnızca koşarak önünden geçer.
+  var catBlockCache = { t: 0, v: null };
   function catBounds() {
     var w = catMobile() ? 92 : 124, right = window.innerWidth - w - 8;
     if (S.country && !catMobile()) right = window.innerWidth - Math.min(500, window.innerWidth) - w - 8;
-    return { min: 8, max: Math.max(8, right) };
+    var b = { min: 8, max: Math.max(8, right), w: w, block: null };
+    if (!catMobile()) {
+      if (Date.now() - catBlockCache.t > 400) {
+        var l = 1e9, r = -1e9;
+        ["dock", "legend"].forEach(function (id) {
+          var e = document.getElementById(id), rc = e && e.getBoundingClientRect();
+          if (rc && rc.width) { l = Math.min(l, rc.left); r = Math.max(r, rc.right); }
+        });
+        catBlockCache = { t: Date.now(), v: r > l ? [l - w - 6, r + 6] : null };
+      }
+      b.block = catBlockCache.v;
+    }
+    return b;
   }
+  function catFree(b) {   // serbest aralıklar
+    if (!b.block) return [[b.min, b.max]];
+    return [[b.min, Math.min(b.max, b.block[0])], [Math.max(b.min, b.block[1]), b.max]].filter(function (x) { return x[1] - x[0] > 20; });
+  }
+  function catRandomX(b) {
+    var fr = catFree(b), tot = fr.reduce(function (a, x) { return a + x[1] - x[0]; }, 0), r = Math.random() * tot;
+    for (var i = 0; i < fr.length; i++) { if (r <= fr[i][1] - fr[i][0]) return fr[i][0] + r; r -= fr[i][1] - fr[i][0]; }
+    return b.min;
+  }
+  function catInBlock(b, x) { return b.block && x > b.block[0] && x < b.block[1]; }
   function initCat() {
     if (CAT.el) return;
     var el = document.createElement("div");
@@ -1737,7 +1762,7 @@
     el.innerHTML = '<div class="cat-bubble" hidden></div><div class="cat-z">z<i>z</i><b>z</b></div><div class="cat-flip">' + CAT_SVG + "</div>";
     document.body.appendChild(el);
     CAT.el = el;
-    CAT.x = Math.min(160, catBounds().max);
+    CAT.x = catFree(catBounds())[0][0] + 40;
     el.querySelector(".cat-flip").addEventListener("click", function () {
       if (CAT.state === "sleep") { setCatState("sit", 1500); sayCat(t("catWake")); setTimeout(function () { catTip(); }, 1400); return; }
       catTip();
@@ -1765,16 +1790,16 @@
   function nextCatState() {
     var b = catBounds(), r = Math.random();
     if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) { setCatState(r < .5 ? "sit" : "sleep", 8000); return; }
-    if (r < 0.42) { CAT.target = b.min + Math.random() * (b.max - b.min); setCatState("walk", 20000); }
+    if (r < 0.42) { CAT.target = catRandomX(b); setCatState(catInBlock(b, (CAT.x + CAT.target) / 2) || Math.abs(CAT.target - CAT.x) > 500 ? "run" : "walk", 20000); }
     else if (r < 0.58) setCatState("sit", 3000 + Math.random() * 4000);
     else if (r < 0.70) setCatState("groom", 3200);
     else if (r < 0.78) setCatState("stretch", 1800);
     else if (r < 0.88) setCatState("sleep", 9000 + Math.random() * 9000);
-    else { CAT.target = b.min + Math.random() * (b.max - b.min); setCatState("run", 8000); }
+    else { CAT.target = catRandomX(b); setCatState("run", 8000); }
   }
   function catTick(now) {
     CAT.raf = requestAnimationFrame(catTick);
-    var dt = Math.min(0.05, (now - CAT.last) / 1000);
+    var dt = Math.min(0.12, (now - CAT.last) / 1000);   // yavaş cihazda da gerçek hızla yürüsün (sekme arka plandaysa sıçramasın)
     CAT.last = now;
     if (!CAT.el || CAT.el.hidden) return;
     var b = catBounds();
@@ -1782,6 +1807,14 @@
     var hide = catMobile() && document.body.classList.contains("panel-open");
     CAT.el.classList.toggle("away", hide);
     if (CAT.x > b.max) { CAT.target = b.max; if (CAT.state !== "walk" && CAT.state !== "run") setCatState("walk", 8000); }
+    // Yasak bölgede durmuyorsa en yakın kenara koşarak çık (panel açılıp kapanınca ya da pencere boyutu değişince olabilir)
+    var moving = CAT.state === "walk" || CAT.state === "run";
+    if (!moving && catInBlock(b, CAT.x)) {
+      CAT.target = CAT.x - b.block[0] < b.block[1] - CAT.x ? b.block[0] : b.block[1];
+      if (CAT.target > b.max) CAT.target = b.block[0];
+      hushCat(); setCatState("run", 8000);
+    }
+    CAT.el.classList.toggle("crossing", catInBlock(b, CAT.x));
     if (CAT.state === "walk" || CAT.state === "run") {
       var sp = (CAT.state === "run" ? 230 : 70) * (catMobile() ? 0.7 : 1), d = CAT.target - CAT.x;
       CAT.dir = d >= 0 ? 1 : -1;
@@ -1792,7 +1825,8 @@
     }
     var modalOpen = !document.getElementById("modal").hidden || !document.getElementById("gmodal").hidden || !document.getElementById("intro").hidden ||
       !document.getElementById("topmodal").hidden;
-    if (!CAT.talking && !hide && !modalOpen && CAT.tips && Date.now() > CAT.nextTalk && CAT.state !== "sleep") catTip();
+    if (!CAT.talking && !hide && !modalOpen && CAT.tips && Date.now() > CAT.nextTalk && CAT.state !== "sleep" && !catInBlock(b, CAT.x) &&
+        CAT.state !== "walk" && CAT.state !== "run") catTip();
     CAT.el.style.transform = "translateX(" + CAT.x.toFixed(1) + "px)";
     CAT.el.querySelector(".cat-flip").style.transform = "scaleX(" + CAT.dir + ")";
   }
@@ -1912,6 +1946,6 @@
       setTimeout(initCat, 2500);
     }).catch(function (e) { console.error(e); showError(t("loadErr")); });
   }
-  window.GA = { state: S, globe: function () { return globe; }, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };
+  window.GA = { cat: function () { return CAT; }, state: S, globe: function () { return globe; }, selectCountry: selectCountry, openRecipe: openRecipe, pov: function (a, b, c) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a, lng: b, altitude: c }, 0); } };
   start();
 })();
