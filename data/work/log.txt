@@ -1277,3 +1277,20 @@ Token: giriş 19533, çıkış 2678 (model claude-haiku-5-5)
 build: 200 ülke, 3565 tarif
 denetim: yarım cümleyle biten metin 0
 Token: giriş 0, çıkış 0 (model claude-haiku-5-5)
+=== score
+score: 200 ülke (4 alt puan)
+  [score] batch msgbatch_01DyYMVrF9nSf1s7dq1AmYyu: 10 istek
+  [score] tamam: 10 yanıt, başarısız 0
+  score40: kayma influence +0.5, richness +2.1, heritage +2.2, products +1.0
+  score140: kayma influence -1.7, richness -0.4, heritage +1.1, products +0.2
+  score120: kayma influence +0.5, richness +0.6, heritage +0.1, products +0.4
+  score20: kayma influence +2.2, richness +1.6, heritage +0.9, products +1.4
+  score80: kayma influence -0.7, richness -0.5, heritage -0.2, products -0.1
+  score180: kayma influence -0.0, richness -2.5, heritage -1.2, products -1.1
+  score100: kayma influence -1.3, richness -1.2, heritage -0.8, products -0.8
+  score60: kayma influence -0.5, richness +0.5, heritage -0.8, products +0.4
+  score160: kayma influence -0.8, richness -0.0, heritage -0.4, products -0.6
+  score0: kayma influence +2.0, richness -0.2, heritage -0.9, products -0.8
+  puanlanan: 199
+  ilk 12: CHN 97, ITA 96, IND 95, FRA 95, JPN 94, MEX 92, ESP 90, PER 89, TUR 88, THA 85, KOR 84, GRC 84
+Token: giriş 14069, çıkış 40048 (model claude-haiku-5-5)
