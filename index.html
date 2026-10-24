@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("ga-theme")||"light"}catch(e){document.documentElement.dataset.theme="light"}</script>
 </head>
 <body>
   <div id="globe" aria-label="Dünya küresi"></div>
@@ -24,6 +25,7 @@
       <div class="results" id="results" hidden></div>
     </div>
     <div class="tb-right">
+      <button type="button" class="help" id="themebtn" aria-label="Gece moduna geç">🌙</button>
       <button type="button" class="help" id="helpbtn" data-i18n-aria="help" aria-label="Nasıl kullanılır?">?</button>
       <div class="lang" role="group" aria-label="Dil / Language">
         <button type="button" data-lang="tr">TR</button>

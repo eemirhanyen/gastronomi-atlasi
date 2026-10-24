@@ -52,7 +52,7 @@
       customT: "Geleneksel eşlik", pairT: "Şarap eşleştirmesi", pairWhy: "Neden uyumlu?", pairSoft: "Alkolsüz alternatif", pairLocal: "yerel",
       pairNote: "Sommelyer yaklaşımıyla yapay zekâ önerisidir; ülkede şarap üretiliyorsa önce yerel üzümler önerilir.",
       sigShort: "Simge lezzet", michStars: "{n} Michelin yıldızı", noMich: "Michelin yıldızı yok", tab_genel: "Genel", tab_tarif: "Tarifler", tab_restoran: "Restoranlar", tab_tarim: "Tarım", goRecipes: "Bu mutfaktan {n} tarifin tamamı",
-      help: "Nasıl kullanılır?", next: "İleri", skip: "Geç", begin: "Başla",
+      help: "Nasıl kullanılır?", toNight: "Gece moduna geç", toDay: "Gündüz moduna geç", next: "İleri", skip: "Geç", begin: "Başla",
       intro1T: "Bir ülkeye dokun", intro1: "Mutfak puanını, simge lezzetleri ve fotoğraflı tarifleri gör.",
       intro2T: "Mercekleri dene", intro2: "Alttaki simgelerle küreyi şarap, kahve, çikolata, baharat ya da Michelin haritasına çevir.",
       intro3T: "Bir yemek ara", intro3: "Üstteki kutuya bir yemek ya da ülke adı yaz; doğrudan tarife git.",
@@ -108,7 +108,7 @@
       customT: "Traditional companion", pairT: "Wine pairing", pairWhy: "Why it works", pairSoft: "Non-alcoholic option", pairLocal: "local",
       pairNote: "An AI suggestion written with a sommelier's approach; where the country makes wine, local grapes come first.",
       sigShort: "Signature dish", michStars: "{n} Michelin stars", noMich: "No Michelin stars", tab_genel: "Overview", tab_tarif: "Recipes", tab_restoran: "Restaurants", tab_tarim: "Farming", goRecipes: "All {n} recipes from this cuisine",
-      help: "How to use", next: "Next", skip: "Skip", begin: "Start",
+      help: "How to use", toNight: "Switch to night mode", toDay: "Switch to day mode", next: "Next", skip: "Skip", begin: "Start",
       intro1T: "Tap a country", intro1: "See its cuisine score, signature flavours and recipes with photos.",
       intro2T: "Try the lenses", intro2: "Use the icons at the bottom to turn the globe into a wine, coffee, chocolate, spice or Michelin map.",
       intro3T: "Search a dish", intro3: "Type a dish or country in the box at the top and jump straight to the recipe.",
@@ -153,6 +153,44 @@
     ["m3", "m2", "m1", "mb"].forEach(function (k) { LY[k] = l === "michelin" && PREF[k]; });
   }
   var MCOL = { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff", w: "#5a2a12", c: "#5a2a12", k: "#5a2a12" };
+  // Gece / gündüz: arayüz renkleri CSS'te ([data-theme]), küre renkleri burada
+  var THEMES = {
+    dark: { ocean: "#1d3040", glow: "#0c1620", atmo: "#f0a23b", atmoAlt: 0.16, side: "rgba(20,12,6,0.55)", stroke: "rgba(18,13,10,0.9)",
+      sel: "#6a5442", hov: "#4a3d33", none: "#3a2e25", prodNone: "#2e3743", noScore: "#2b231d",
+      mcol: { 3: "#ffffff", 2: "#9fd8ff", 1: "#3fa7ff", b: "#c79bff" } },
+    light: { ocean: "#a8d0dd", glow: "#4a7482", atmo: "#ffcf8a", atmoAlt: 0.2, side: "rgba(120,90,60,0.28)", stroke: "rgba(255,255,255,0.95)",
+      sel: "#c79a6b", hov: "#ddc3a3", none: "#efe6d8", prodNone: "#dcd6cd", noScore: "#e4dbcd",
+      mcol: { 3: "#14213d", 2: "#1f5fa8", 1: "#4a90d9", b: "#8e44ad" } }
+  };
+  var theme = "light";
+  try { theme = localStorage.getItem("ga-theme") || "light"; } catch (e) { /* yok */ }
+  if (!THEMES[theme]) theme = "light";
+  document.documentElement.dataset.theme = theme;
+  function TH() { return THEMES[theme]; }
+  Object.assign(MCOL, THEMES[theme].mcol);
+  function setTheme(tn) {
+    theme = tn;
+    document.documentElement.dataset.theme = tn;
+    try { localStorage.setItem("ga-theme", tn); } catch (e) { /* yok */ }
+    Object.assign(MCOL, TH().mcol);
+    var b = document.getElementById("themebtn");
+    if (b) { b.textContent = tn === "light" ? "🌙" : "☀️"; b.setAttribute("aria-label", t(tn === "light" ? "toNight" : "toDay")); b.title = b.getAttribute("aria-label"); }
+    if (!globe) return;
+    paintGlobe();
+    globe.polygonSideColor(globe.polygonSideColor()).polygonStrokeColor(globe.polygonStrokeColor());
+    refresh();
+    if (S.points) globe.pointsData(S.points.slice());
+    legend(); renderRank();
+    if (S.country) renderPanel();
+    if (S.recipe) openRecipe(S.recipe[0], S.recipe[1], true);
+  }
+  function paintGlobe() {
+    var T0 = TH(), mat = globe.globeMaterial();
+    mat.color.set(T0.ocean);
+    if (mat.emissive) mat.emissive.set(T0.glow);
+    mat.shininess = 6;
+    globe.atmosphereColor(T0.atmo).atmosphereAltitude(T0.atmoAlt);
+  }
   var MKEY = { 3: "m3", 2: "m2", 1: "m1", b: "mb", w: "wr", c: "cr", k: "kr" };
   // Üretim katmanları: şarap, kahve, kakao (FAO üretimiyle renk, araştırmadan bölge noktaları, panel bölümü)
   // Üretim mercekleri ortak "miktar" ölçeği kullanır (açık krem -> koyu turuncu). Kırmızı-yeşil yalnızca mutfak puanı içindir:
@@ -788,7 +826,7 @@
     if (d.__k === "line") return null;
     var f = d.__f, c = S.index[f.properties.iso], lift = f === S.selected ? 0.35 : f === S.hover ? 0.2 : 0;
     // Ürün modlarında üretimi olmayan ülkeler mavi-gri: kahverengi ölçekle karışmasın
-    var blank = f === S.selected ? "#6a5442" : f === S.hover ? "#4a3d33" : LY.color === "none" ? "#3a2e25" : PRODS[LY.color] ? "#2e3743" : "#2b231d";
+    var T0 = TH(), blank = f === S.selected ? T0.sel : f === S.hover ? T0.hov : LY.color === "none" ? T0.none : PRODS[LY.color] ? T0.prodNone : T0.noScore;
     if (PRODS[LY.color]) return c && c[LY.color] ? prodColor(LY.color, c[LY.color], lift) : blank;
     if (LY.color !== "score" || !c || c.score == null) return blank;
     return scoreColor(c.score, lift);
@@ -813,16 +851,16 @@
   function initGlobe() {
     var el = document.getElementById("globe");
     globe = Globe()(el)
-      .backgroundColor("#120d0a")
-      .showAtmosphere(true).atmosphereColor("#f0a23b").atmosphereAltitude(0.16)
+      .backgroundColor("rgba(0,0,0,0)")      // sayfa zemini (CSS --page) görünsün
+      .showAtmosphere(true)
       .polygonsData(polyItems())
       // Düşük kabartma: yakınlaşınca adaların yan duvarları gölge şeridi gibi görünmesin
       // Tüm katmanlar aynı yükseklikte: ülke yüzeyi ile noktalar/işaretler arasında açıyla bakınca kayma (paralaks) olmasın.
       // Seçim ve üzerine gelme yükseklikle değil renkle gösterilir.
       .polygonAltitude(GROUND)
       .polygonCapColor(capColor)
-      .polygonSideColor(function (d) { return d.__k === "cap" ? null : "rgba(20,12,6,0.55)"; })
-      .polygonStrokeColor(function (d) { return d.__k === "cap" ? null : "rgba(18,13,10,0.9)"; })
+      .polygonSideColor(function (d) { return d.__k === "cap" ? null : TH().side; })
+      .polygonStrokeColor(function (d) { return d.__k === "cap" ? null : TH().stroke; })
       .polygonLabel(function (d) {
         var f = d.__f;
         var c = S.index[f.properties.iso];
@@ -869,10 +907,7 @@
         var r = pov.altitude > 2.2 ? 2 : pov.altitude > 1.5 ? 3 : pov.altitude > 1.0 ? 4 : pov.altitude > 0.6 ? 5 : 9;
         if (r !== labelRank) { labelRank = r; labelEls.forEach(function (x) { applyLabel(x[0]); }); }
       });
-    var mat = globe.globeMaterial();
-    mat.color.set("#1d3040");
-    if (mat.emissive) mat.emissive.set("#0c1620");
-    mat.shininess = 6;
+    paintGlobe();
     globe.pointOfView({ lat: 34, lng: 28, altitude: 2.1 }, 0);
     var ctl = globe.controls();
     // Kullanıcı küreye dokunduğu an (sürükleme, yakınlaştırma, tıklama) dönme kalıcı olarak durur
@@ -1450,6 +1485,7 @@
   // ------------------------------------------------------------ başlat
   function bind() {
     document.getElementById("helpbtn").addEventListener("click", function () { intro(true, 0); });
+    document.getElementById("themebtn").addEventListener("click", function () { setTheme(theme === "light" ? "dark" : "light"); });
     bindSheet();
     Array.prototype.forEach.call(document.querySelectorAll("[data-tclose]"), function (b) { b.addEventListener("click", closeTop); });
     Array.prototype.forEach.call(document.querySelectorAll(".lang button"), function (b) {
@@ -1495,6 +1531,7 @@
       deriveLY();
       bind();
       initGlobe();
+      setTheme(theme);
       setLang(lang);
       if (PREF.lens === "top10") enterTop(); else applyLayers();
       bindPointHover();
