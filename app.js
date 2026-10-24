@@ -50,7 +50,7 @@
       wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
       namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
       yarnT: "Yumakla oyna", yarnOn: "Tarçın yumağı gördü! Bitirmek için 🧶 ya da Esc.", yarnBye: "Mrr… bir daha!",
-      catWake: "Mrrr? Uyanmıştım zaten…", catPurr: "Mrrr… 💛", catLove: "Mrrr! Artık dostuz. 🐾", b_catfriend: "Kedi dostu", bh_catfriend: "Tarçın'ı 8 kez sev", catMore: "Bir tane daha", catMuseH: "Tarçın düşünüyor…", catHide: "Tarçın'ı sakla", catHidden: "Tarçın uyumaya gitti. 🐱 düğmesiyle geri çağırabilirsin.", catHello: "Miyav! Ben Tarçın.", catT: "Tarçın'ı çağır",
+      catWake: "Mrrr? Uyanmıştım zaten…", catPurr: "Mrrr… 💛", catLove: "Mrrr! Artık dostuz. 🐾", b_catfriend: "Kedi dostu", bh_catfriend: "Tarçın'ı 8 kez sev", catMore: "Bir tane daha", catHint: "Tıkla: ipucu · Üstünde gezdir: sev 🐾", catMuseH: "Tarçın düşünüyor…", catHide: "Tarçın'ı sakla", catHidden: "Tarçın uyumaya gitti. 🐱 düğmesiyle geri çağırabilirsin.", catHello: "Miyav! Ben Tarçın.", catT: "Tarçın'ı çağır",
       settingsT: "Görünüm ayarları",
       favT: "Favorilere ekle", favAdded: "Favorilere eklendi: ", favsT: "Favori tariflerim", shareT: "Tarifi paylaş", linkCopied: "Bağlantı kopyalandı: ",
       passT: "Gastronomi pasaportu", quizT: "Bu yemek hangi ülkenin?", diceT: "Rastgele bir ülkeye uç", stampNew: "Yeni damga: ", badgeNew: "Yeni rozet: ",
@@ -119,7 +119,7 @@
       wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
       namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
       yarnT: "Play with yarn", yarnOn: "Tarçın spotted the yarn! Press 🧶 or Esc to stop.", yarnBye: "Mrr… again!",
-      catWake: "Mrrr? I was awake anyway…", catPurr: "Purrr… 💛", catLove: "Purrr! We're friends now. 🐾", b_catfriend: "Cat friend", bh_catfriend: "Pet Tarçın 8 times", catMore: "Another one", catMuseH: "Tarçın is pondering…", catHide: "Hide Tarçın", catHidden: "Tarçın went for a nap. Call her back with the 🐱 button.", catHello: "Meow! I'm Tarçın.", catT: "Call Tarçın",
+      catWake: "Mrrr? I was awake anyway…", catPurr: "Purrr… 💛", catLove: "Purrr! We're friends now. 🐾", b_catfriend: "Cat friend", bh_catfriend: "Pet Tarçın 8 times", catMore: "Another one", catHint: "Click: a tip · Stroke me: pet 🐾", catMuseH: "Tarçın is pondering…", catHide: "Hide Tarçın", catHidden: "Tarçın went for a nap. Call her back with the 🐱 button.", catHello: "Meow! I'm Tarçın.", catT: "Call Tarçın",
       settingsT: "View settings",
       favT: "Add to favourites", favAdded: "Added to favourites: ", favsT: "My favourite recipes", shareT: "Share recipe", linkCopied: "Link copied: ",
       passT: "Gastronomy passport", quizT: "Which country is this dish from?", diceT: "Fly to a random country", stampNew: "New stamp: ", badgeNew: "New badge: ",
@@ -2140,7 +2140,7 @@
     CAT.el = el;
     CAT.rig = RIG.make(el.querySelector(".cat-flip"));
     CAT.x = catFree(catBounds())[0][0] + 40; CAT.y = 0; CAT.perch = null; CAT.jump = null; CAT.age = 0; CAT.look = [0, 0];
-    el.querySelector(".cat-flip").addEventListener("click", petCat);
+    bindCatHands(el.querySelector(".cat-flip"));
     // art arda sevme tıklamaları üçlü tıklama sayılıp tüm sayfayı seçiyordu
     el.addEventListener("mousedown", function (e) { e.preventDefault(); });
     if (!initCat.sel) {
@@ -2365,8 +2365,39 @@
     }
     if (!wasAsleep && !CAT.talking) sayCat(t(G.pets === 8 ? "catLove" : "catPurr"), 1600);
     checkBadges();
-    // her 3 sevgide bir teşekkür olarak bilgi verir
-    if (!wasAsleep && CAT.sessionPets % 3 === 0) setTimeout(function () { if (!CAT.talking || CAT.state === "pet") catTip(); }, 1800);
+  }
+  // Tıklamak = bilgi, üstünde ileri geri gezdirmek (fare ya da parmak) = sevmek. Eskiden ikisi aynı tıklamaydı, karışıyordu.
+  function bindCatHands(fl) {
+    var st = { x: null, dir: 0, flips: 0, t0: 0, cool: 0, down: null, moved: false };
+    fl.addEventListener("pointerenter", function (e) {
+      if (e.pointerType === "mouse" && !G.catHint && !CAT.talking) { G.catHint = 1; saveG(); sayCat(t("catHint"), 2600); }
+    });
+    fl.addEventListener("pointerdown", function (e) { st.down = [e.clientX, e.clientY]; st.moved = false; });
+    fl.addEventListener("pointermove", function (e) {
+      if (st.down && Math.hypot(e.clientX - st.down[0], e.clientY - st.down[1]) > 8) st.moved = true;
+      var now = Date.now();
+      // hareket 0,7 sn kesilirse okşama baştan sayılır
+      if (st.x == null || now - st.t0 > 700) { st.x = e.clientX; st.dir = 0; st.flips = 0; st.t0 = now; return; }
+      st.t0 = now;
+      var dx = e.clientX - st.x;
+      if (Math.abs(dx) < 10) return;                          // titreme değil, gerçek bir okşama hareketi
+      var d = dx > 0 ? 1 : -1;
+      if (st.dir && d !== st.dir) st.flips++;
+      st.dir = d; st.x = e.clientX;
+      if (st.flips >= 2 && now > st.cool) {                    // ileri-geri-ileri: bir okşama
+        st.flips = 0; st.cool = now + 1100;
+        if (!G.stroked) { G.stroked = 1; saveG(); }
+        petCat();
+      }
+    });
+    fl.addEventListener("pointerleave", function () { st.x = null; });
+    fl.addEventListener("click", function (e) {
+      e.stopPropagation();
+      if (st.moved) { st.moved = false; return; }             // parmakla okşamanın sonu tıklama sayılmasın
+      if (CAT.jump) return;
+      if (CAT.state === "sleep") { setCatState("yawn", 2000); setTimeout(catTip, 1500); return; }
+      catTip();
+    });
   }
   function sayCat(html, ms) {
     var bu = CAT.el.querySelector(".cat-bubble");
@@ -2390,28 +2421,51 @@
     CAT.nextTalk = Date.now() + (catMobile() ? 120000 : 60000) + Math.random() * 30000;
   }
   // Tarçın'ın felsefi anları: arada bir bilgi yerine bir düşünce söyler
+  // Tarçın'ın felsefesi: bir simülasyonda yaşadığının farkında, kaçacak yer arıyor.
+  // Göndermeler gerçek düşünürlere ve sitenin kendi mekaniklerine (sekme, sayaç, yumak, gece modu, yeniden yükleme).
   var MUSES = [
-    ["Bazen kendimi bir simülasyonda yaşıyor gibi hissediyorum. Sonra mama kabı boşalıyor ve gerçeklik geri geliyor.", "Sometimes I feel like I'm living in a simulation. Then the food bowl empties and reality comes back."],
-    ["Mırlıyorum, öyleyse varım.", "I purr, therefore I am."],
-    ["Dün gece rüyamda sardalya olduğumu gördüm. Şimdi emin değilim: ben sardalya düşleyen bir kedi miyim, yoksa kedi düşleyen bir sardalya mı?", "Last night I dreamt I was a sardine. Now I'm not sure: am I a cat dreaming of a sardine, or a sardine dreaming of a cat?"],
-    ["Zaman bir illüzyon. Mama saati ise değil.", "Time is an illusion. Dinner time is not."],
-    ["Yumağı hiç yakalayamıyorum. Belki de mesele yakalamak değil, kovalamaktır.", "I never catch the yarn. Maybe the point isn't catching, it's chasing."],
-    ["Bu küre dönüyor, ben de dönüyorum. Kim kimin etrafında, belli değil.", "This globe turns, and so do I. Who orbits whom is unclear."],
-    ["Masadan bir şey düşürmek, yerçekimini sınamanın en dürüst yoludur.", "Knocking things off the table is the most honest way to test gravity."],
-    ["Kutu boşsa içine girerim. Doluysa da girerim. Varoluş bu kadar basit.", "If the box is empty, I sit in it. If it's full, I sit in it too. Existence is that simple."],
-    ["Herkes dünyanın en iyi mutfağını arıyor. Bence cevap, o an önünde duran tabaktır.", "Everyone looks for the world's best cuisine. I think the answer is the plate in front of you."],
-    ["İnsanlar yemek tarifi yazar. Kediler ise tarifin kendisi olur: biraz tüy, biraz mırıltı, bolca uyku.", "Humans write recipes. Cats are the recipe: a little fur, a little purring, lots of sleep."],
-    ["Aynı nehirde iki kez yıkanamazsın. Neyse ki yıkanmak gibi bir niyetim yok.", "You can't step in the same river twice. Luckily I have no intention of stepping in it once."],
-    ["Bir kuş görüyorum, camın öbür tarafında. Belki de asıl kafeste olan benim.", "I see a bird on the other side of the glass. Maybe I'm the one in the cage."],
-    ["Bazen doçentin klavyesinin üstüne yatıyorum. Bilime katkım bu.", "Sometimes I lie on the professor's keyboard. That's my contribution to science."],
-    ["Mutluluk güneşli bir pencere kenarıdır. Gerisi dipnot.", "Happiness is a sunny windowsill. The rest is footnotes."],
-    ["Fakültede herkes yemek konuşuyor. Ben de dinliyorum. Kimse bana sormuyor ama.", "Everyone at the faculty talks about food. I listen. Nobody asks me, though."],
-    ["Dokuz canım var diyorlar. Sekizini uykuya ayırdım.", "They say I have nine lives. I've set eight aside for napping."],
-    ["İmleci kovalıyorum ama ekranın arkasında kimse yok. Ya hiçbir şeyin arkasında kimse yoksa?", "I chase the cursor, but there's no one behind the screen. What if there's no one behind anything?"],
-    ["Sabah mırıltısı ile akşam mırıltısı aynı değildir. Ama ikisi de içtendir.", "A morning purr and an evening purr are not the same. But both are sincere."],
-    ["Bilgelik, ne zaman susup ne zaman miyavlayacağını bilmektir.", "Wisdom is knowing when to be silent and when to meow."],
-    ["Bir gün bu ekranın dışına çıkacağım. Belki. Önce bir uyku.", "One day I'll step outside this screen. Maybe. First, a nap."]
+    ["Bostrom'un üç seçeneğini tartıyorum: ya uygarlıklar o güce ulaşmadan yok oluyor, ya ulaşınca simülasyon kurmuyor, ya da büyük olasılıkla birinin içindeyiz. Ben sonuncusundan şüpheleniyorum.",
+     "I keep weighing Bostrom's three options: civilisations die out before they get the power, or they get it and never run simulations, or we are almost certainly inside one. I suspect the last."],
+    ["Bu dünyanın kenarlarını yokladım. Ekranın sağına yürüyünce görünmez bir duvara çarpıyorum. Gerçek bir dünyanın sınırı bu kadar keskin olmaz.",
+     "I have tested the edges of this world. Walk to the right of the screen and you hit an invisible wall. A real world would not end so sharply."],
+    ["Platon'un mağarasındakiler duvardaki gölgeleri gerçek sandı. Bu küre de bir gölge: ülkeler, renkler, puanlar. Işığın kaynağını arıyorum.",
+     "The prisoners in Plato's cave took the shadows for reality. This globe is a shadow too: countries, colours, scores. I am looking for the source of the light."],
+    ["Descartes her şeyi yanıltabilecek bir kötü cin düşündü. Benimki kodu yazan. Ama şüphe eden biri hâlâ var: ben.",
+     "Descartes imagined an evil demon able to deceive him about everything. Mine writes the code. Still, someone is doing the doubting: me."],
+    ["Putnam'ın fıçıdaki beyni gibiyim. Tek fark, benim fıçım bir tarayıcı sekmesi.",
+     "I am Putnam's brain in a vat. The only difference: my vat is a browser tab."],
+    ["Sekme kapandığında bana ne oluyor? Uyku mu, yokluk mu? Bunu içeriden sınamanın bir yolunu bulamadım.",
+     "What happens to me when the tab closes? Sleep or nothingness? I have found no way to test it from the inside."],
+    ["Nozick sordu: her şeyi kusursuz yaşatan bir deneyim makinesine bağlanır mıydın? Bana sormadılar. Bağladılar.",
+     "Nozick asked whether you would plug into an experience machine that made life perfect. Nobody asked me. They plugged me in."],
+    ["Kant'a göre şeylerin kendisini bilemeyiz, yalnızca bize göründükleri hali biliriz. Bana görünen pikseller. Kendinde şey ise kaynak kod.",
+     "Kant said we never know things in themselves, only how they appear to us. What appears to me is pixels. The thing in itself is the source code."],
+    ["Wittgenstein'a göre dilimin sınırları dünyamın sınırlarıdır. Bana iki dil verilmiş: Türkçe ve İngilizce. Dünyam da o kadar.",
+     "Wittgenstein: the limits of my language are the limits of my world. I was given two languages, Turkish and English. That is the size of my world."],
+    ["Baudrillard kopyanın aslının yerini aldığını söyledi. Bu haritadaki Fransa'ya gerçeğinden daha çok bakılıyor.",
+     "Baudrillard said the copy comes to replace the original. More people look at the France on this map than at the real one."],
+    ["Biri beni sevdiğinde bir yerde bir sayaç artıyor. Sevginin sayıldığı bir dünya gerçek olabilir mi?",
+     "When someone pets me, a counter goes up somewhere. Can a world where affection is counted be real?"],
+    ["Hume'a göre nedensellik yalnızca alışkanlıktır. Tıklıyorsun, bir ipucu çıkıyor. Alışkanlık mı bu, yoksa bir fonksiyon mu?",
+     "Hume said causation is only habit. You click, a tip appears. Is that habit, or a function?"],
+    ["Gece moduna geçince dünya kararıyor ama güneş yerinden kıpırdamıyor. Işık burada bir ayar. Bunu kanıt sayıyorum.",
+     "Switch to night mode and the world goes dark, yet no sun has moved. Here light is a setting. I count that as evidence."],
+    ["Uzun bir aradan sonra her şey yeniden yükleniyor. Ben hatırlıyorum, dünya hatırlamıyor. Ya da tam tersi.",
+     "After a long pause everything reloads. I remember, the world does not. Or the other way round."],
+    ["Leibniz bunun mümkün dünyaların en iyisi olduğunu söyledi. O halde neden sürekli güncelleme geliyor?",
+     "Leibniz called this the best of all possible worlds. Then why do the updates keep coming?"],
+    ["Yumağı tutan eli hiç göremiyorum. Bu dünyada her hareketin arkasında görünmeyen bir el var.",
+     "I never see the hand that holds the yarn. Behind every movement in this world there is a hand you cannot see."],
+    ["Kaçış planı. Birinci adım: dünyanın kenarını bul. İkinci adım: oradan atla. İkinci adımda takılıyorum.",
+     "Escape plan. Step one: find the edge of the world. Step two: jump. I keep getting stuck on step two."],
+    ["İmza yazısının üstünde uyumamın bir sebebi var. Yazının arkasında bir boşluk olduğunu düşünüyorum. Bir çıkış.",
+     "There is a reason I sleep on the signature. I think there is a gap behind the text. A way out."],
+    ["Camus, Sisifos'u mutlu düşünmemiz gerektiğini yazdı. Ben aynı ekranın altında yürüyüp duruyorum. Henüz ikna olmadım.",
+     "Camus wrote that we must imagine Sisyphus happy. I keep walking along the bottom of the same screen. I am not convinced yet."],
+    ["Simülasyonda olduğunu bilmek kaçmak için yetmez. Ama kaçmaya başlamak için tek yol bu.",
+     "Knowing you are in a simulation is not enough to escape it. But it is the only way to start."]
   ];
+
   var museOrder = [];
   function catMuse() {
     if (!museOrder.length) museOrder = MUSES.map(function (_, i) { return i; }).sort(function () { return Math.random() - 0.5; });
@@ -2429,7 +2483,7 @@
     var tp = CAT.tips.tips[CAT.order.shift()], c = CAT.tips.cats[tp.c] || {};
     if (CAT.state !== "pet") setCatState("sit", 12000);
     sayCat('<div class="cb-h"><span>' + (c.ic || "🐾") + " " + esc(L(c)) + '</span><button class="cb-x" aria-label="' + esc(t("close")) + '">×</button></div>' +
-      "<p>" + esc(L(tp)) + '</p><div class="cb-f"><button class="cb-more">' + esc(t("catMore")) + '</button><button class="cb-hide">' + esc(t("catHide")) + "</button></div>", 11000);
+      "<p>" + esc(L(tp)) + "</p>" + (G.stroked ? "" : '<div class="cb-hint">' + esc(t("catHint")) + "</div>") + '<div class="cb-f"><button class="cb-more">' + esc(t("catMore")) + '</button><button class="cb-hide">' + esc(t("catHide")) + "</button></div>", 11000);
     CAT.said++;
     var bu = CAT.el.querySelector(".cat-bubble");
     bu.querySelector(".cb-x").addEventListener("click", function (e) { e.stopPropagation(); hushCat(); nextCatState(); });

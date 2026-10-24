@@ -667,8 +667,8 @@ body.panel-open .gamebar { display: none; }
 .cat[hidden], .cat.away { display: none; }
 .cat.talking, .cat.crossing, .cat.perched { z-index: 7; }
 .cat.crossing .cat-flip { pointer-events: none; }  /* önünden geçerken mercek düğmelerine tıklamayı engellemesin */
-.cat-flip { width: 100%; height: 100%; pointer-events: auto; cursor: grab; transform-origin: 50% 50%; }
-.cat-flip:active { cursor: grabbing; }
+.cat-flip { width: 100%; height: 100%; pointer-events: auto; cursor: pointer; transform-origin: 50% 50%; touch-action: none; }
+.cb-hint { font-size: 11.5px; color: var(--muted); margin: -4px 0 8px; }
 .cat svg { width: 100%; height: 100%; overflow: visible; display: block; }
 .cat-z { position: absolute; left: 76px; top: 26px; display: none; font: 700 14px var(--serif); color: var(--muted); pointer-events: none; }
 .cat-sleep .cat-z { display: block; }
