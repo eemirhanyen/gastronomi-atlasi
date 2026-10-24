@@ -618,3 +618,14 @@ body.panel-open .gamebar { display: none; }
   .qz-ph { height: 200px; }
   .qz-o { grid-template-columns: 1fr; }
 }
+
+/* Tarif: favori ve paylaş */
+.r-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.r-act { display: flex; gap: 8px; }
+.r-act button { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); font-size: 17px; cursor: pointer;
+  box-shadow: 0 3px 10px rgb(var(--shade) / calc(.3 * var(--sk))); transition: transform .2s cubic-bezier(.2,.9,.3,1.4); }
+.r-act button:hover { transform: scale(1.1); }
+.r-fav.on { animation: pop .4s; }
+.ps-fav { display: flex; flex-wrap: wrap; gap: 6px; }
+.pf { border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.pf:hover { border-color: rgba(240,162,59,.6); }

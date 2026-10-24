@@ -49,6 +49,7 @@
       capMichelin: "Michelin Rehberi restoranları · bir noktaya dokun", capTop10: "Ölmeden önce tadılması gereken 10 yemek · birine dokun",
       wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
       namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
+      favT: "Favorilere ekle", favAdded: "Favorilere eklendi: ", favsT: "Favori tariflerim", shareT: "Tarifi paylaş", linkCopied: "Bağlantı kopyalandı: ",
       passT: "Gastronomi pasaportu", quizT: "Bu yemek hangi ülkenin?", diceT: "Rastgele bir ülkeye uç", stampNew: "Yeni damga: ", badgeNew: "Yeni rozet: ",
       passSub: "{d} tarif açtın · bilgi yarışmasında en iyi serin {q}", badgesT: "Rozetler", stampsT: "Damgalar", noStamps: "Henüz damga yok. Bir ülkeye dokun ya da 🎲 ile rastgele uç.",
       reg_Africa: "Afrika", reg_Americas: "Amerika", reg_Asia: "Asya", reg_Europe: "Avrupa", reg_Oceania: "Okyanusya",
@@ -114,6 +115,7 @@
       capMichelin: "Michelin Guide restaurants · tap a dot", capTop10: "10 dishes to eat before you die · tap one",
       wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
       namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
+      favT: "Add to favourites", favAdded: "Added to favourites: ", favsT: "My favourite recipes", shareT: "Share recipe", linkCopied: "Link copied: ",
       passT: "Gastronomy passport", quizT: "Which country is this dish from?", diceT: "Fly to a random country", stampNew: "New stamp: ", badgeNew: "New badge: ",
       passSub: "{d} recipes opened · best quiz streak {q}", badgesT: "Badges", stampsT: "Stamps", noStamps: "No stamps yet. Tap a country or fly somewhere random with 🎲.",
       reg_Africa: "Africa", reg_Americas: "Americas", reg_Asia: "Asia", reg_Europe: "Europe", reg_Oceania: "Oceania",
@@ -1304,7 +1306,9 @@
       tasteDish(iso, id);
       var img = r.image;
       var h = photo(img, r.category, "hero") + '<div class="r-main">' +
-        '<button class="r-country" data-country="' + iso + '">' + flag(c.iso2) + " " + esc(cname(iso)) + "</button>" +
+        '<div class="r-top"><button class="r-country" data-country="' + iso + '">' + flag(c.iso2) + " " + esc(cname(iso)) + "</button>" +
+        '<span class="r-act"><button class="r-fav' + (isFav(iso, id) ? " on" : "") + '" aria-label="' + esc(t("favT")) + '" title="' + esc(t("favT")) + '">' + (isFav(iso, id) ? "❤️" : "🤍") + "</button>" +
+        '<button class="r-share" aria-label="' + esc(t("shareT")) + '" title="' + esc(t("shareT")) + '">🔗</button></span></div>' +
         '<h2 id="r-title">' + esc(L(r.name)) + "</h2>" +
         (r.native && r.native !== L(r.name) ? '<div class="r-native">' + esc(r.native) + "</div>" : "") +
         '<p class="r-desc">' + esc(L(r.desc)) + "</p>" +
@@ -1322,6 +1326,13 @@
           '<a href="' + esc(img.source || img.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : esc(t("noPhoto"))) +
         "</div></div>";
       document.getElementById("recipe-body").innerHTML = h;
+      var fb = document.querySelector("#recipe-body .r-fav");
+      fb.addEventListener("click", function () {
+        var on = toggleFav(iso, id);
+        fb.classList.toggle("on", on); fb.textContent = on ? "❤️" : "🤍";
+        if (on) toast('<span class="t-ic">❤️</span><span><b>' + esc(t("favAdded")) + "</b>" + esc(L(r.name)) + "</span>");
+      });
+      document.querySelector("#recipe-body .r-share").addEventListener("click", function () { shareRecipe(iso, id, L(r.name)); });
       document.querySelector("#recipe-body .r-country").addEventListener("click", function () {
         closeRecipe(); selectCountry(iso, true);
       });
@@ -1578,10 +1589,18 @@
       var on = G.badges.indexOf(b.id) >= 0;
       return '<div class="bd' + (on ? " on" : "") + '"><span>' + b.ic + "</span><b>" + esc(t("b_" + b.id)) + "</b><small>" + esc(t("bh_" + b.id)) + "</small></div>";
     }).join("") + "</div>";
+    var fav = (G.fav || []).filter(function (k) { return S.names && S.names[k]; });
+    if (fav.length) h += "<h3>❤️ " + esc(t("favsT")) + '</h3><div class="ps-fav">' + fav.map(function (k) {
+      var x = S.names[k];
+      return '<button class="pf" data-k="' + esc(k) + '">' + flag(iso2Of(x[0])) + " " + esc(lang === "tr" ? x[2] : x[3]) + "</button>";
+    }).join("") + "</div>";
     h += "<h3>" + esc(t("stampsT")) + "</h3>" + (n ? '<div class="ps-stamps">' + G.visited.map(function (i) {
       return '<button class="st" data-iso="' + i + '" title="' + esc(cname(i)) + '">' + flag(iso2Of(i)) + "</button>";
     }).join("") + "</div>" : '<p class="nodata">' + esc(t("noStamps")) + "</p>");
     var body = openG(h);
+    Array.prototype.forEach.call(body.querySelectorAll(".pf"), function (x) {
+      x.addEventListener("click", function () { var p = x.dataset.k.split("/"); closeG(); openRecipe(p[0], p[1]); });
+    });
     Array.prototype.forEach.call(body.querySelectorAll(".st"), function (x) {
       x.addEventListener("click", function () { closeG(); selectCountry(x.dataset.iso, true); });
     });
@@ -1633,6 +1652,22 @@
         });
       });
     });
+  }
+  // Favoriler (tarayıcıda) ve paylaşım
+  function isFav(iso, id) { return (G.fav || []).indexOf(iso + "/" + id) >= 0; }
+  function toggleFav(iso, id) {
+    G.fav = G.fav || [];
+    var k = iso + "/" + id, i = G.fav.indexOf(k);
+    if (i >= 0) G.fav.splice(i, 1); else G.fav.unshift(k);
+    saveG();
+    return i < 0;
+  }
+  function shareRecipe(iso, id, name) {
+    var url = location.origin + location.pathname + "#" + iso + "/" + id, title = name + " · " + t("title");
+    if (navigator.share) { navigator.share({ title: title, url: url }).catch(function () { /* vazgeçildi */ }); return; }
+    var done = function () { toast('<span class="t-ic">🔗</span><span><b>' + esc(t("linkCopied")) + "</b>" + esc(name) + "</span>"); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () { prompt(t("shareT"), url); });
+    else prompt(t("shareT"), url);
   }
   function randomTrip() {
     var pool = Object.keys(S.index).filter(function (k) { return S.index[k].recipes && G.visited.indexOf(k) < 0; });
