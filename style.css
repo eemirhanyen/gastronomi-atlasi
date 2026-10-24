@@ -540,3 +540,81 @@ body.hl-search .intro { bottom: auto; top: 90px; }
   .r-main h2 { font-size: 26px; }
   .cols { grid-template-columns: 1fr; }
 }
+
+/* ============================================================ Oyunlaştırma */
+.gamebar { position: fixed; left: 20px; top: 96px; z-index: 5; display: flex; flex-direction: column; gap: 10px; }
+.gb { position: relative; width: 48px; height: 48px; border-radius: 50%; border: 1px solid var(--line); background: var(--glass); backdrop-filter: blur(10px);
+  font-size: 22px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 6px 18px rgb(var(--shade) / calc(.4 * var(--sk))); transition: transform .2s cubic-bezier(.2,.9,.3,1.4), border-color .2s; }
+.gb:hover { transform: translateY(-2px) scale(1.07); border-color: rgba(240,162,59,.6); }
+.gb em { position: absolute; right: -4px; top: -4px; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 999px; background: var(--accent); color: #24160b;
+  font: 700 11px/20px Inter, sans-serif; font-style: normal; text-align: center; box-shadow: 0 2px 6px rgb(var(--shade) / calc(.4 * var(--sk))); }
+body.panel-open .gamebar { display: none; }
+
+.toast { position: fixed; left: 50%; top: 84px; z-index: 30; transform: translate(-50%, -20px); opacity: 0; pointer-events: none;
+  display: flex; align-items: center; gap: 12px; padding: 10px 18px 10px 12px; border-radius: 999px; background: var(--surface-solid);
+  border: 1px solid rgba(240,162,59,.5); box-shadow: 0 12px 34px rgb(var(--shade) / calc(.45 * var(--sk))); font-size: 13.5px; }
+.toast.show { animation: toastIn 3.6s ease forwards; }
+@keyframes toastIn { 0% { opacity: 0; transform: translate(-50%, -20px) scale(.9); } 8% { opacity: 1; transform: translate(-50%, 0) scale(1.04); }
+  12% { transform: translate(-50%, 0) scale(1); } 85% { opacity: 1; transform: translate(-50%, 0); } 100% { opacity: 0; transform: translate(-50%, -10px); } }
+.toast b { color: var(--accent); margin-right: 2px; }
+.t-ic { font-size: 22px; }
+.t-stamp .flg { width: 34px; height: 25px; border-radius: 4px; transform: rotate(-8deg); box-shadow: 0 0 0 2px var(--accent), 0 3px 8px rgb(var(--shade) / calc(.4 * var(--sk))); }
+
+.gbox { padding: 26px 28px 24px; width: min(640px, 100%); }
+.ps-h { display: flex; gap: 18px; align-items: center; padding-right: 40px; }
+.ps-h h2 { margin: 0; font: 700 24px var(--serif); }
+.ps-h p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+.ps-ring { position: relative; width: 96px; height: 96px; flex: none; }
+.ps-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.ps-arc { fill: none; stroke: var(--accent); stroke-width: 9; stroke-linecap: round; transition: stroke-dashoffset 1s; }
+.ps-ring div { position: absolute; inset: 0; display: flex; align-items: baseline; justify-content: center; padding-top: 32px; }
+.ps-ring b { font: 700 26px var(--serif); }
+.ps-ring span { font-size: 12px; color: var(--muted); }
+.ps-reg { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px 18px; margin-top: 18px; }
+.ps-r { display: grid; grid-template-columns: 1fr auto; gap: 4px; font-size: 12.5px; color: var(--text-2); }
+.ps-r b { color: var(--text); font-size: 12.5px; }
+.ps-r i { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: var(--surface-3); overflow: hidden; }
+.ps-r em { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 3px; }
+.gbox h3 { margin: 22px 0 10px; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.ps-badges { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 8px; }
+.bd { text-align: center; padding: 10px 6px; border-radius: 12px; border: 1px dashed var(--line); opacity: .45; filter: grayscale(1); }
+.bd.on { opacity: 1; filter: none; border: 1px solid rgba(240,162,59,.45); background: linear-gradient(160deg, rgba(240,162,59,.14), transparent); }
+.bd span { display: block; font-size: 26px; }
+.bd b { display: block; font-size: 12.5px; margin-top: 4px; }
+.bd small { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
+.ps-stamps { display: flex; flex-wrap: wrap; gap: 8px; }
+.st { border: 0; background: none; padding: 0; cursor: pointer; }
+.st .flg { width: 34px; height: 25px; border-radius: 4px; transform: rotate(-5deg); box-shadow: 0 0 0 1.5px rgba(240,162,59,.7); transition: transform .2s; }
+.st:nth-child(2n) .flg { transform: rotate(4deg); }
+.st:hover .flg { transform: scale(1.15) rotate(0); }
+
+.qz-h { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; padding-right: 40px; }
+.qz-h h2 { margin: 0; font: 700 22px var(--serif); }
+.qz-sc { display: flex; gap: 12px; font-size: 13px; color: var(--text-2); }
+.qz-ph { height: 260px; border-radius: 14px; margin-top: 16px; font-size: 64px; }
+.qz-q { font: 600 17px/1.35 var(--serif); margin: 14px 0 10px; }
+.qz-o { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.qz-o button { display: flex; align-items: center; gap: 8px; padding: 11px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface-2);
+  font-weight: 600; font-size: 14px; cursor: pointer; text-align: left; transition: transform .15s, border-color .15s; }
+.qz-o:not(.done) button:hover { transform: translateY(-1px); border-color: rgba(240,162,59,.6); }
+.qz-o button.ok { border-color: #3aa35b; background: rgba(58,163,91,.16); animation: pop .4s; }
+.qz-o button.no { border-color: #d0453a; background: rgba(208,69,58,.14); animation: shake .35s; }
+@keyframes pop { 50% { transform: scale(1.05); } }
+@keyframes shake { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+.qz-f { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 12px; }
+.qz-f p { flex: 1 1 100%; margin: 0 0 4px; font-weight: 600; }
+.qz-yes { color: #3aa35b; }
+.qz-n { display: block; font: 700 18px var(--serif); color: var(--text); margin-top: 2px; }
+.qz-no { color: #d0453a; }
+.qz-go, .qz-next { border-radius: 999px; padding: 8px 16px; font-weight: 600; font-size: 13px; cursor: pointer; border: 1px solid rgba(240,162,59,.5); background: rgba(240,162,59,.12); }
+.qz-next { background: var(--accent); color: #24160b; border-color: transparent; }
+
+@media (max-width: 720px) {
+  .gamebar { left: 12px; top: 112px; gap: 8px; }
+  .gb { width: 42px; height: 42px; font-size: 19px; }
+  .toast { top: 118px; max-width: calc(100vw - 24px); }
+  .gbox { padding: 22px 16px; }
+  .qz-ph { height: 200px; }
+  .qz-o { grid-template-columns: 1fr; }
+}

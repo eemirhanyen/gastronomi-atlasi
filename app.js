@@ -49,6 +49,15 @@
       capMichelin: "Michelin Rehberi restoranları · bir noktaya dokun", capTop10: "Ölmeden önce tadılması gereken 10 yemek · birine dokun",
       wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
       namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
+      passT: "Gastronomi pasaportu", quizT: "Bu yemek hangi ülkenin?", diceT: "Rastgele bir ülkeye uç", stampNew: "Yeni damga: ", badgeNew: "Yeni rozet: ",
+      passSub: "{d} tarif açtın · bilgi yarışmasında en iyi serin {q}", badgesT: "Rozetler", stampsT: "Damgalar", noStamps: "Henüz damga yok. Bir ülkeye dokun ya da 🎲 ile rastgele uç.",
+      reg_Africa: "Afrika", reg_Americas: "Amerika", reg_Asia: "Asya", reg_Europe: "Avrupa", reg_Oceania: "Okyanusya",
+      streak: "Seri", best: "En iyi", quizQ: "Bu yemek ({d}) hangi ülkenin mutfağından?", quizYes: "Doğru! Afiyet olsun.", quizNo: "Olmadı; bu yemek {c} mutfağından.", toRecipe: "Tarife git",
+      b_first: "İlk damga", bh_first: "Bir ülkeyi aç", b_trav10: "Gezgin", bh_trav10: "10 ülke", b_trav25: "Kâşif", bh_trav25: "25 ülke", b_trav100: "Dünya gurmesi", bh_trav100: "100 ülke",
+      b_reg_Africa: "Afrika kâşifi", bh_reg_Africa: "Afrika'dan 5 ülke", b_reg_Americas: "Amerika kâşifi", bh_reg_Americas: "Amerika'dan 5 ülke", b_reg_Asia: "Asya kâşifi", bh_reg_Asia: "Asya'dan 5 ülke",
+      b_reg_Europe: "Avrupa kâşifi", bh_reg_Europe: "Avrupa'dan 5 ülke", b_reg_Oceania: "Ada gezgini", bh_reg_Oceania: "Okyanusya'dan 3 ülke",
+      b_rec10: "Tarif avcısı", bh_rec10: "10 tarif aç", b_rec50: "Aşçıbaşı", bh_rec50: "50 tarif aç", b_top10: "Ölmeden önce", bh_top10: "En İyi 10'un hepsini aç",
+      b_quiz5: "Keskin damak", bh_quiz5: "Yarışmada 5'lik seri", b_quiz15: "Gurme dedektif", bh_quiz15: "Yarışmada 15'lik seri",
       customT: "Geleneksel eşlik", pairT: "Şarap eşleştirmesi", pairWhy: "Neden uyumlu?", pairSoft: "Alkolsüz alternatif", pairLocal: "yerel",
       pairNote: "Sommelyer yaklaşımıyla yapay zekâ önerisidir; ülkede şarap üretiliyorsa önce yerel üzümler önerilir.",
       sigShort: "Simge lezzet", michStars: "{n} Michelin yıldızı", noMich: "Michelin yıldızı yok", tab_genel: "Genel", tab_tarif: "Tarifler", tab_restoran: "Restoranlar", tab_tarim: "Tarım", goRecipes: "Bu mutfaktan {n} tarifin tamamı",
@@ -105,6 +114,15 @@
       capMichelin: "Michelin Guide restaurants · tap a dot", capTop10: "10 dishes to eat before you die · tap one",
       wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
       namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
+      passT: "Gastronomy passport", quizT: "Which country is this dish from?", diceT: "Fly to a random country", stampNew: "New stamp: ", badgeNew: "New badge: ",
+      passSub: "{d} recipes opened · best quiz streak {q}", badgesT: "Badges", stampsT: "Stamps", noStamps: "No stamps yet. Tap a country or fly somewhere random with 🎲.",
+      reg_Africa: "Africa", reg_Americas: "Americas", reg_Asia: "Asia", reg_Europe: "Europe", reg_Oceania: "Oceania",
+      streak: "Streak", best: "Best", quizQ: "Which country is this dish ({d}) from?", quizYes: "Correct! Enjoy.", quizNo: "Not quite; this dish is from {c}.", toRecipe: "Open recipe",
+      b_first: "First stamp", bh_first: "Open a country", b_trav10: "Traveller", bh_trav10: "10 countries", b_trav25: "Explorer", bh_trav25: "25 countries", b_trav100: "World gourmet", bh_trav100: "100 countries",
+      b_reg_Africa: "Africa explorer", bh_reg_Africa: "5 countries in Africa", b_reg_Americas: "Americas explorer", bh_reg_Americas: "5 countries in the Americas", b_reg_Asia: "Asia explorer", bh_reg_Asia: "5 countries in Asia",
+      b_reg_Europe: "Europe explorer", bh_reg_Europe: "5 countries in Europe", b_reg_Oceania: "Island hopper", bh_reg_Oceania: "3 countries in Oceania",
+      b_rec10: "Recipe hunter", bh_rec10: "Open 10 recipes", b_rec50: "Head chef", bh_rec50: "Open 50 recipes", b_top10: "Before you die", bh_top10: "Open all of the Top 10",
+      b_quiz5: "Sharp palate", bh_quiz5: "Quiz streak of 5", b_quiz15: "Gourmet detective", bh_quiz15: "Quiz streak of 15",
       customT: "Traditional companion", pairT: "Wine pairing", pairWhy: "Why it works", pairSoft: "Non-alcoholic option", pairLocal: "local",
       pairNote: "An AI suggestion written with a sommelier's approach; where the country makes wine, local grapes come first.",
       sigShort: "Signature dish", michStars: "{n} Michelin stars", noMich: "No Michelin stars", tab_genel: "Overview", tab_tarif: "Recipes", tab_restoran: "Restaurants", tab_tarim: "Farming", goRecipes: "All {n} recipes from this cuisine",
@@ -289,6 +307,7 @@
     Array.prototype.forEach.call(document.querySelectorAll(".lang button"), function (b) { b.classList.toggle("on", b.dataset.lang === l); });
     updateLabels();
     dock();
+    gameBar();
     legend();
     if (!document.getElementById("intro").hidden) intro(true, S.introStep);
     renderRank();
@@ -948,6 +967,8 @@
       S.country = c || { iso3: iso, missing: true };
       S.tab = lensTab(S.country);
       S.sub = PRODS[PREF.lens] ? PREF.lens : null;
+      if (c) stampCountry(iso);
+      var a0 = anchor(iso); if (a0) pulseAt(a0);
       renderPanel();
       document.getElementById("panel-body").scrollTop = 0;
       setHash();
@@ -1280,6 +1301,7 @@
       var r = c && c.recipes.find(function (x) { return x.id === id; });
       if (!r) return;
       S.recipe = [iso, id];
+      tasteDish(iso, id);
       var img = r.image;
       var h = photo(img, r.category, "hero") + '<div class="r-main">' +
         '<button class="r-country" data-country="' + iso + '">' + flag(c.iso2) + " " + esc(cname(iso)) + "</button>" +
@@ -1470,6 +1492,169 @@
     try { localStorage.setItem("ga-intro", "1"); } catch (e) { /* yok */ }
   }
 
+  // ------------------------------------------------------------ oyunlaştırma: pasaport, rozetler, bilgi yarışması, rastgele keşif
+  // İlerleme yalnızca kullanıcının tarayıcısında (localStorage) tutulur; sunucuya hiçbir şey gönderilmez.
+  var G = { visited: [], dishes: [], best: 0, streak: 0, answered: 0, correct: 0, badges: [] };
+  try { Object.assign(G, JSON.parse(localStorage.getItem("ga-pass") || "{}")); } catch (e) { /* yok */ }
+  function saveG() { try { localStorage.setItem("ga-pass", JSON.stringify(G)); } catch (e) { /* yok */ } }
+  var REGIONS = ["Africa", "Americas", "Asia", "Europe", "Oceania"];
+  var BADGES = [
+    { id: "first", ic: "🛂", need: function () { return G.visited.length >= 1; } },
+    { id: "trav10", ic: "🧳", need: function () { return G.visited.length >= 10; } },
+    { id: "trav25", ic: "🧭", need: function () { return G.visited.length >= 25; } },
+    { id: "trav100", ic: "🌍", need: function () { return G.visited.length >= 100; } },
+    { id: "reg_Africa", ic: "🌍", need: function () { return regionCount("Africa") >= 5; } },
+    { id: "reg_Americas", ic: "🌎", need: function () { return regionCount("Americas") >= 5; } },
+    { id: "reg_Asia", ic: "🌏", need: function () { return regionCount("Asia") >= 5; } },
+    { id: "reg_Europe", ic: "🏰", need: function () { return regionCount("Europe") >= 5; } },
+    { id: "reg_Oceania", ic: "🏝️", need: function () { return regionCount("Oceania") >= 3; } },
+    { id: "rec10", ic: "📖", need: function () { return G.dishes.length >= 10; } },
+    { id: "rec50", ic: "👨‍🍳", need: function () { return G.dishes.length >= 50; } },
+    { id: "top10", ic: "🏆", need: function () { return S.top && S.top.items.every(function (it) { return G.dishes.indexOf(it.iso + "/" + it.id) >= 0; }); } },
+    { id: "quiz5", ic: "🎯", need: function () { return G.best >= 5; } },
+    { id: "quiz15", ic: "🔥", need: function () { return G.best >= 15; } }
+  ];
+  function regionCount(r) { return G.visited.filter(function (i) { return S.index[i] && S.index[i].region === r; }).length; }
+  function totalCountries() { return Object.keys(S.index).filter(function (k) { return S.index[k].recipes; }).length; }
+  // Bildirimler sırayla gösterilir (damga ve rozet aynı anda gelince biri diğerini ezmesin)
+  var toastQ = [], toastBusy = false;
+  function toast(html) { toastQ.push(html); if (!toastBusy) nextToast(); }
+  function nextToast() {
+    var el = document.getElementById("toast"), html = toastQ.shift();
+    if (!html) { toastBusy = false; return; }
+    toastBusy = true;
+    el.innerHTML = html;
+    el.classList.remove("show"); void el.offsetWidth; el.classList.add("show");
+    setTimeout(function () { el.classList.remove("show"); nextToast(); }, 3700);
+  }
+  function checkBadges() {
+    BADGES.forEach(function (b) {
+      if (G.badges.indexOf(b.id) < 0 && b.need()) {
+        G.badges.push(b.id); saveG();
+        (function () { toast('<span class="t-ic">' + b.ic + "</span><span><b>" + esc(t("badgeNew")) + "</b>" + esc(t("b_" + b.id)) + "</span>"); })();
+      }
+    });
+    gameBar();
+  }
+  function stampCountry(iso) {
+    if (!S.index[iso] || !S.index[iso].recipes || G.visited.indexOf(iso) >= 0) return;
+    G.visited.push(iso); saveG();
+    toast('<span class="t-stamp">' + flag(iso2Of(iso)) + "</span><span><b>" + esc(t("stampNew")) + "</b>" + esc(cname(iso)) + " · " +
+      G.visited.length + "/" + totalCountries() + "</span>");
+    checkBadges();
+  }
+  function tasteDish(iso, id) {
+    var k = iso + "/" + id;
+    if (G.dishes.indexOf(k) >= 0) return;
+    G.dishes.push(k); saveG(); checkBadges();
+  }
+  function gameBar() {
+    var b = document.getElementById("gamebar");
+    if (!b) return;
+    b.innerHTML = '<button class="gb" data-g="pass" title="' + esc(t("passT")) + '"><span>🛂</span>' + (G.visited.length ? "<em>" + G.visited.length + "</em>" : "") + "</button>" +
+      '<button class="gb" data-g="quiz" title="' + esc(t("quizT")) + '"><span>🎯</span>' + (G.best ? "<em>" + G.best + "</em>" : "") + "</button>" +
+      '<button class="gb" data-g="dice" title="' + esc(t("diceT")) + '"><span>🎲</span></button>';
+    Array.prototype.forEach.call(b.querySelectorAll(".gb"), function (x) {
+      x.addEventListener("click", function () { ({ pass: openPass, quiz: openQuiz, dice: randomTrip })[x.dataset.g](); });
+    });
+  }
+  function openG(html) {
+    var m = document.getElementById("gmodal");
+    document.getElementById("g-body").innerHTML = html;
+    m.hidden = false;
+    return document.getElementById("g-body");
+  }
+  function closeG() { document.getElementById("gmodal").hidden = true; }
+  function openPass() {
+    var n = G.visited.length, tot = totalCountries(), pct = tot ? n / tot : 0, R = 46, C = 2 * Math.PI * R;
+    var h = '<div class="ps-h"><div class="ps-ring"><svg viewBox="0 0 110 110"><circle cx="55" cy="55" r="' + R + '" class="sc-track"/><circle cx="55" cy="55" r="' + R +
+      '" class="ps-arc" stroke-dasharray="' + C.toFixed(1) + '" stroke-dashoffset="' + (C * (1 - pct)).toFixed(1) + '"/></svg><div><b>' + n + "</b><span>/" + tot + "</span></div></div>" +
+      "<div><h2>🛂 " + esc(t("passT")) + "</h2><p>" + esc(t("passSub", { d: G.dishes.length, q: G.best })) + "</p></div></div>";
+    h += '<div class="ps-reg">' + REGIONS.map(function (r) {
+      var all = Object.keys(S.index).filter(function (k) { return S.index[k].region === r && S.index[k].recipes; }).length, v = regionCount(r);
+      return '<div class="ps-r"><span>' + esc(t("reg_" + r)) + "</span><b>" + v + "/" + all + '</b><i><em style="width:' + (all ? v / all * 100 : 0).toFixed(0) + '%"></em></i></div>';
+    }).join("") + "</div>";
+    h += "<h3>" + esc(t("badgesT")) + '</h3><div class="ps-badges">' + BADGES.map(function (b) {
+      var on = G.badges.indexOf(b.id) >= 0;
+      return '<div class="bd' + (on ? " on" : "") + '"><span>' + b.ic + "</span><b>" + esc(t("b_" + b.id)) + "</b><small>" + esc(t("bh_" + b.id)) + "</small></div>";
+    }).join("") + "</div>";
+    h += "<h3>" + esc(t("stampsT")) + "</h3>" + (n ? '<div class="ps-stamps">' + G.visited.map(function (i) {
+      return '<button class="st" data-iso="' + i + '" title="' + esc(cname(i)) + '">' + flag(iso2Of(i)) + "</button>";
+    }).join("") + "</div>" : '<p class="nodata">' + esc(t("noStamps")) + "</p>");
+    var body = openG(h);
+    Array.prototype.forEach.call(body.querySelectorAll(".st"), function (x) {
+      x.addEventListener("click", function () { closeG(); selectCountry(x.dataset.iso, true); });
+    });
+  }
+  // Bilgi yarışması: fotoğraflı bir yemek, 4 ülke seçeneği (biri aynı kıtadan)
+  function pickQuiz() {
+    var pool = Object.keys(S.index).filter(function (k) { return S.index[k].recipes >= 5; });
+    var iso = pool[Math.floor(Math.random() * pool.length)];
+    return loadCountry(iso).then(function (c) {
+      var rs = (c && c.recipes || []).filter(function (r) { return r.image && r.image.url && r.category !== "drink"; });
+      if (!rs.length) return pickQuiz();
+      var r = rs[Math.floor(Math.random() * rs.length)], reg = S.index[iso].region;
+      var same = pool.filter(function (k) { return k !== iso && S.index[k].region === reg; });
+      var other = pool.filter(function (k) { return k !== iso; });
+      var opts = [iso];
+      if (same.length) opts.push(same[Math.floor(Math.random() * same.length)]);
+      while (opts.length < 4) { var o = other[Math.floor(Math.random() * other.length)]; if (opts.indexOf(o) < 0) opts.push(o); }
+      opts.sort(function () { return Math.random() - 0.5; });
+      return { iso: iso, r: r, opts: opts };
+    });
+  }
+  function openQuiz() {
+    pickQuiz().then(function (q) {
+      var h = '<div class="qz-h"><h2>🎯 ' + esc(t("quizT")) + '</h2><div class="qz-sc"><span>🔥 ' + esc(t("streak")) + ": <b>" + G.streak + "</b></span><span>🏅 " +
+        esc(t("best")) + ": <b>" + G.best + "</b></span></div></div>" + photo(q.r.image, q.r.category, "qz-ph") +
+        // Yemeğin adı cevaptan sonra açılır: "Fransız Soğan Çorbası" gibi adlar cevabı ele veriyordu
+        '<p class="qz-q">' + (CAT_ICON[q.r.category] || "🍽️") + " " + esc(t("quizQ", { d: t("cat." + q.r.category) })) + '</p><div class="qz-o">' + q.opts.map(function (o) {
+          return '<button data-iso="' + o + '">' + flag(iso2Of(o)) + " " + esc(cname(o)) + "</button>";
+        }).join("") + '</div><div class="qz-f"></div>';
+      var body = openG(h);
+      Array.prototype.forEach.call(body.querySelectorAll(".qz-o button"), function (b) {
+        b.addEventListener("click", function () {
+          if (body.querySelector(".qz-o.done")) return;
+          var ok = b.dataset.iso === q.iso;
+          body.querySelector(".qz-o").classList.add("done");
+          Array.prototype.forEach.call(body.querySelectorAll(".qz-o button"), function (x) {
+            if (x.dataset.iso === q.iso) x.classList.add("ok"); else if (x === b) x.classList.add("no");
+          });
+          G.answered++; if (ok) { G.correct++; G.streak++; G.best = Math.max(G.best, G.streak); } else G.streak = 0;
+          saveG(); checkBadges();
+          body.querySelector(".qz-sc").innerHTML = "<span>🔥 " + esc(t("streak")) + ": <b>" + G.streak + "</b></span><span>🏅 " + esc(t("best")) + ": <b>" + G.best + "</b></span>";
+          body.querySelector(".qz-f").innerHTML = '<p class="' + (ok ? "qz-yes" : "qz-no") + '">' + esc(ok ? t("quizYes") : t("quizNo", { c: cname(q.iso) })) +
+            ' <span class="qz-n">' + esc(L(q.r.name)) + "</span></p>" +
+            '<button class="qz-go">📖 ' + esc(t("toRecipe")) + '</button><button class="qz-next">' + esc(t("next")) + " →</button>";
+          var a = anchor(q.iso);
+          if (a) { globe.controls().autoRotate = false; globe.pointOfView({ lat: a.lat, lng: a.lng, altitude: 1.8 }, 1400); pulseAt(a); }
+          body.querySelector(".qz-next").addEventListener("click", openQuiz);
+          body.querySelector(".qz-go").addEventListener("click", function () { closeG(); openRecipe(q.iso, q.r.id); });
+        });
+      });
+    });
+  }
+  function randomTrip() {
+    var pool = Object.keys(S.index).filter(function (k) { return S.index[k].recipes && G.visited.indexOf(k) < 0; });
+    if (!pool.length) pool = Object.keys(S.index).filter(function (k) { return S.index[k].recipes; });
+    var iso = pool[Math.floor(Math.random() * pool.length)];
+    closeG();
+    // önce kısa bir dönüş, sonra hedefe iniş
+    var p = globe.pointOfView();
+    globe.controls().autoRotate = false;
+    globe.pointOfView({ lat: p.lat, lng: p.lng + 120, altitude: 2.6 }, 700);
+    setTimeout(function () { selectCountry(iso, true); }, 750);
+  }
+  // Seçilen ülkede yayılan halka
+  function pulseAt(a) {
+    if (!globe || S.relBack) return;
+    globe.ringsData([a]).ringLat(function (d) { return d.lat; }).ringLng(function (d) { return d.lng; })
+      .ringColor(function () { return function (k) { return "rgba(240,162,59," + (1 - k) + ")"; }; })
+      .ringMaxRadius(5).ringPropagationSpeed(3).ringRepeatPeriod(900);
+    clearTimeout(pulseAt._t);
+    pulseAt._t = setTimeout(function () { if (!S.relBack) globe.ringsData([]); }, 2800);
+  }
+
   // ------------------------------------------------------------ adres çubuğu (#TUR veya #TUR/baklava)
   var hashLock = false;
   function setHash() {
@@ -1489,6 +1674,7 @@
   // ------------------------------------------------------------ başlat
   function bind() {
     document.getElementById("helpbtn").addEventListener("click", function () { intro(true, 0); });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-gclose]"), function (b) { b.addEventListener("click", closeG); });
     document.getElementById("themebtn").addEventListener("click", function () { setTheme(theme === "light" ? "dark" : "light"); });
     bindSheet();
     Array.prototype.forEach.call(document.querySelectorAll("[data-tclose]"), function (b) { b.addEventListener("click", closeTop); });
@@ -1514,6 +1700,7 @@
     document.addEventListener("keydown", function (e) {
       if (e.key !== "Escape") return;
       if (!document.getElementById("intro").hidden) endIntro();
+      else if (!document.getElementById("gmodal").hidden) closeG();
       else if (!document.getElementById("topmodal").hidden) closeTop();
       else if (!document.getElementById("modal").hidden) closeRecipe(); else closePanel();
     });

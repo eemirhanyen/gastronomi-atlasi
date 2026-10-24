@@ -35,6 +35,8 @@
   </header>
 
   <nav class="rank" id="rank" hidden aria-label="Sıralama"></nav>
+  <div class="gamebar" id="gamebar"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <div class="bottom" id="bottom">
     <div class="legend" id="legend"></div>
@@ -69,6 +71,14 @@
     <article class="recipe topbox" role="dialog" aria-modal="true">
       <button class="close" data-tclose data-i18n-aria="close" aria-label="Kapat">×</button>
       <div id="top-body"></div>
+    </article>
+  </div>
+
+  <div class="modal" id="gmodal" hidden>
+    <div class="modal-back" data-gclose></div>
+    <article class="recipe gbox" role="dialog" aria-modal="true">
+      <button class="close" data-gclose data-i18n-aria="close" aria-label="Kapat">×</button>
+      <div id="g-body"></div>
     </article>
   </div>
 
