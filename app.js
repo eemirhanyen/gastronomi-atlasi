@@ -959,7 +959,7 @@
     return (c.score != null ? " · <b>" + c.score + "</b>" : "") + (c.top ? " <span>· " + esc(t("sigShort")) + ": " + esc(L(c.top)) + "</span>" : "");
   }
   function applyLabel(el) {
-    el.style.visibility = !S.topOn && LY.text !== "off" && el.textContent && el.dataset.front !== "0" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
+    el.style.visibility = !S.topOn && LY.text !== "off" && el.textContent && el.dataset.front !== "0" && el.dataset.limb !== "1" && +el.dataset.rank <= labelRank ? "visible" : "hidden";
   }
   function initGlobe() {
     var el = document.getElementById("globe");
@@ -990,7 +990,7 @@
         if (f.w) return (f.__el = wineMark(f.w));
         var d = document.createElement("div");
         f.__el = d;
-        d.className = "clabel r" + Math.min(6, f.properties.rank || 6);
+        d.className = "clabel r" + Math.min(6, f.properties.rank || 6) + (LY.text === "spice" || LY.text === "sauce" ? " flav" : "");
         d.textContent = labelText(f);
         d.dataset.rank = f.properties.rank || 9;
         labelEls.push([d, f]);
@@ -1016,6 +1016,18 @@
     ctl.addEventListener("start", function () { ctl.autoRotate = false; });
     el.addEventListener("wheel", function () { ctl.autoRotate = false; }, { passive: true });
     ctl.autoRotate = true; ctl.autoRotateSpeed = 0.3; ctl.minDistance = 130; ctl.maxDistance = 600;
+    // Kürenin kenarına yakın ülke adları gizlenir: orada adlar sıkışıp üst üste biniyor, okunmuyordu.
+    // Ölçü: ülkenin yüzey normali ile kameraya bakış arasındaki açı, görünen ufka göre (yakınlaşınca ufuk daralır).
+    setInterval(function () {
+      if (document.hidden || !labelEls.length) return;
+      var cp = globe.camera().position, d = Math.hypot(cp.x, cp.y, cp.z) || 1, h = 100 / d, lim = h + 0.22 * (1 - h);
+      var cx = cp.x / d, cy = cp.y / d, cz = cp.z / d, u = [0, 0, 0];
+      labelEls.forEach(function (x) {
+        var pr = x[1].properties; sph(pr.lx || 0, pr.ly || 0, 1, u, 0);
+        var limb = u[0] * cx + u[1] * cy + u[2] * cz < lim ? "1" : "0";
+        if (x[0].dataset.limb !== limb) { x[0].dataset.limb = limb; applyLabel(x[0]); }
+      });
+    }, 150);
     function size() { globe.width(window.innerWidth).height(window.innerHeight); }
     window.addEventListener("resize", size);
     size();
@@ -2482,6 +2494,14 @@
     window.addEventListener("hashchange", function () { if (!hashLock) fromHash(); });
   }
 
+  // Eski sürümde kalmasın: sekme geri-ileri önbelleğinden ya da uzun süre arka planda kaldıktan sonra açılırsa sayfa yenilenir.
+  // (Telefonda günlerce açık kalan sekme eski kodu gösteriyordu.) Durum adres çubuğunda (#ülke/tarif) olduğu için kaybolmaz.
+  var hiddenAt = 0;
+  window.addEventListener("pageshow", function (e) { if (e.persisted) location.reload(); });
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden) hiddenAt = Date.now();
+    else if (hiddenAt && Date.now() - hiddenAt > 3600000) location.reload();
+  });
   function start() {
     try { var saved = localStorage.getItem("ga-lang"); if (saved && T[saved]) lang = saved; } catch (e) { /* yok */ }
     Promise.all([

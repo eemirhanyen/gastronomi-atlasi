@@ -3,14 +3,14 @@
   --bg: #120d0a;
   --page: #120d0a;
   --surface: rgba(28, 21, 17, 0.94);
-  --surface-solid: var(--surface-solid);
+  --surface-solid: #1f1813;
   --glass: rgba(28, 21, 17, 0.86);
   --glass-2: rgba(32, 24, 19, 0.97);
   --surface-2: #241b15;
   --surface-3: #2f241c;
   --line: rgb(var(--linec) / 0.13);
   --text: #f4ebe0;
-  --text-2: var(--text-2);
+  --text-2: #d8c7b3;
   --muted: #a99886;
   --accent: #f0a23b;
   --accent-2: #e2643c;
@@ -22,9 +22,10 @@
   --linec: 240 214 180;    /* kenar çizgisi kanalı */
   --bgc: 18 13 10;         /* sayfa rengi kanalı (üst şerit geçişi) */
   --halo: #000;            /* küre üstü yazıların halesi */
-  --flav: var(--flav);
-  --label: rgb(var(--ink) / .78);
-  --backdrop: var(--backdrop);
+  --flav: #f4ebe0;
+  --label: #f6eee4;
+  --lhalo: rgba(14, 10, 7, .9);   /* etiket halesi: harf çevresinde ince, keskin kontur */
+  --backdrop: rgba(0, 0, 0, .55);
   --ph-bg: linear-gradient(135deg, #3a2a1e, #24190f);
   --doodle: rgba(240, 214, 180, .055);
   --radius: 16px;
@@ -54,8 +55,9 @@
   --linec: 120 90 60;
   --bgc: 250 244 235;
   --halo: #fffaf2;
-  --flav: #8a3d0c;
-  --label: rgba(58, 42, 30, .85);
+  --flav: #2b2019;
+  --label: #2b2019;
+  --lhalo: rgba(255, 250, 242, .95);
   --backdrop: rgba(70, 45, 20, .32);
   --ph-bg: linear-gradient(135deg, #f3e7d5, #e6d5bd);
   --doodle: rgba(130, 90, 50, .085);
@@ -97,7 +99,6 @@ button { font: inherit; color: inherit; }
 .results .rn span { font-size: 12px; color: var(--muted); }
 .results .empty { padding: 10px; color: var(--muted); font-size: 13px; }
 
-.clabel.flav { color: var(--flav); font-size: 11.5px; }
 
 /* Şarap bölgesi işaretleri (düz, HTML) */
 .wmark { transform: translate(-7px, -7px); display: flex; align-items: center; gap: 5px; pointer-events: auto; cursor: pointer; white-space: nowrap; }
@@ -262,7 +263,10 @@ body.pt-hover .ctip { display: none !important; }
 .tip { background: var(--surface-solid); border: 1px solid var(--line); border-radius: 8px; padding: 5px 9px; font-size: 12.5px; color: var(--text);
   box-shadow: 0 6px 18px rgb(var(--shade) / calc(.35 * var(--sk))); }
 .tip span { color: var(--muted); }
-.clabel { color: var(--label); font-size: 11px; font-weight: 500; text-shadow: 0 1px 3px var(--halo), 0 0 6px #000; pointer-events: none; white-space: nowrap; transform: translate(-50%, -50%); }
+/* Küre etiketleri: koyu mürekkep + 1 px keskin hale (gündüz krem, gece koyu). Eski siyah 6 px gölge açık zeminde
+   kirli leke gibi duruyordu; kahverengi baharat yazısı da turuncu ülkelerle aynı tondaydı. */
+.clabel { color: var(--label); font-size: 11px; font-weight: 500; pointer-events: none;
+  text-shadow: -1px 0 0 var(--lhalo), 1px 0 0 var(--lhalo), 0 -1px 0 var(--lhalo), 0 1px 0 var(--lhalo), 0 0 3px var(--lhalo); white-space: nowrap; transform: translate(-50%, -50%); }
 .clabel.r1, .clabel.r2 { font-size: 12.5px; font-weight: 600; }
 
 /* Panel */
@@ -431,7 +435,7 @@ body.panel-open .bottom { right: min(500px, 100vw); }
 .lg-chip i { width: 9px; height: 9px; border-radius: 50%; opacity: .45; }
 .lg-chip.on i { opacity: 1; }
 .lg-chip em { font-style: normal; color: var(--muted); font-size: 11px; }
-.clabel.flav { color: var(--flav); font-size: 11.5px; }
+.clabel.flav { color: var(--flav); font: italic 600 12px/1.1 var(--serif); letter-spacing: .01em; }
 
 /* ============================================================ Sıralama */
 .rank { position: fixed; top: 84px; right: 20px; z-index: 5; width: 264px; max-height: calc(100vh - var(--bh, 132px) - 100px); display: flex; flex-direction: column;
@@ -511,7 +515,12 @@ body.hl-search .intro { bottom: auto; top: 90px; }
 @media (max-width: 720px) {
   .topbar { grid-template-columns: 1fr auto; grid-template-areas: "brand right" "search search"; gap: 10px 10px; padding: 12px 12px 26px; }
   .brand { grid-area: brand; }
-  .brand h1 { font-size: 18px; }
+  .brand h1 { font-size: clamp(15px, 4.4vw, 18px); overflow: hidden; text-overflow: ellipsis; }
+  /* Dar ekranda başlık yanındaki yer açılsın: dil seçici tek düğme, yalnızca geçilecek dili gösterir */
+  .tb-right { gap: 6px; }
+  .lang { padding: 0; width: 32px; height: 32px; justify-content: center; }
+  .lang button { padding: 0; width: 100%; height: 100%; }
+  .lang button.on { display: none; }
   .brand p { display: none; }
   .tb-right { grid-area: right; }
   .search { grid-area: search; }
