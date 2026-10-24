@@ -49,7 +49,7 @@
       capMichelin: "Michelin Rehberi restoranları · bir noktaya dokun", capTop10: "Ölmeden önce tadılması gereken 10 yemek · birine dokun",
       wineCap: "Yıllık şarap üretimi (ton)", coffeeCap: "Yıllık kahve üretimi (ton)", cocoaCap: "Yıllık kakao üretimi (ton)",
       namesT: "Ülke adlarını göster", rankT: "Sıralamayı göster", regionsChip: "Bölgeler", top10Open: "Listeyi aç", rankMichelin: "En çok Michelin yıldızı olan ülkeler",
-      pairT: "Şarap eşleştirmesi", pairWhy: "Neden uyumlu?", pairSoft: "Alkolsüz alternatif", pairLocal: "yerel",
+      customT: "Geleneksel eşlik", pairT: "Şarap eşleştirmesi", pairWhy: "Neden uyumlu?", pairSoft: "Alkolsüz alternatif", pairLocal: "yerel",
       pairNote: "Sommelyer yaklaşımıyla yapay zekâ önerisidir; ülkede şarap üretiliyorsa önce yerel üzümler önerilir.",
       sigShort: "Simge lezzet", michStars: "{n} Michelin yıldızı", noMich: "Michelin yıldızı yok", tab_genel: "Genel", tab_tarif: "Tarifler", tab_restoran: "Restoranlar", tab_tarim: "Tarım", goRecipes: "Bu mutfaktan {n} tarifin tamamı",
       help: "Nasıl kullanılır?", next: "İleri", skip: "Geç", begin: "Başla",
@@ -105,7 +105,7 @@
       capMichelin: "Michelin Guide restaurants · tap a dot", capTop10: "10 dishes to eat before you die · tap one",
       wineCap: "Annual wine production (t)", coffeeCap: "Annual coffee production (t)", cocoaCap: "Annual cocoa production (t)",
       namesT: "Show country names", rankT: "Show ranking", regionsChip: "Regions", top10Open: "Open the list", rankMichelin: "Most Michelin stars by country",
-      pairT: "Wine pairing", pairWhy: "Why it works", pairSoft: "Non-alcoholic option", pairLocal: "local",
+      customT: "Traditional companion", pairT: "Wine pairing", pairWhy: "Why it works", pairSoft: "Non-alcoholic option", pairLocal: "local",
       pairNote: "An AI suggestion written with a sommelier's approach; where the country makes wine, local grapes come first.",
       sigShort: "Signature dish", michStars: "{n} Michelin stars", noMich: "No Michelin stars", tab_genel: "Overview", tab_tarif: "Recipes", tab_restoran: "Restaurants", tab_tarim: "Farming", goRecipes: "All {n} recipes from this cuisine",
       help: "How to use", next: "Next", skip: "Skip", begin: "Start",
@@ -1254,7 +1254,7 @@
         "</ul></div><div><h4>" + esc(t("steps")) + '</h4><ol class="steps">' +
         (r.steps[lang] || r.steps.en).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ol>" +
         (L(r.tip) ? '<div class="r-tip"><b>' + esc(t("tip")) + ":</b> " + esc(L(r.tip)) + "</div>" : "") + "</div></div>" +
-        pairBox(r.pairing) +
+        pairBox(r.pairing, r.custom) +
         relBox(r) +
         '<div class="r-foot">' + esc(r.reviewed ? t("aiNote") : t("aiNoteUnrev")) + "<br>" +
         (img && img.url ? esc(t("photo")) + ": " + (img.credit ? esc(img.credit) + ", " : "") + (img.license ? esc(img.license) + ", " : "") +
@@ -1275,14 +1275,20 @@
       setHash();
     });
   }
-  function pairBox(p) {
-    if (!p) return "";
-    return '<section class="pair"><div class="pair-h"><span class="pair-ic">🍷</span><div><h4>' + esc(t("pairT")) + "</h4><b>" + esc(L(p.style)) + "</b></div></div>" +
+  function pairBox(p, cu) {
+    if (!p && !cu) return "";
+    var h = '<section class="pair">';
+    if (cu) h += '<div class="pair-cu"><span class="cu-ic">' + (cu.alcohol ? "🥂" : "🥛") + '</span><div><span class="cu-k">' + esc(t("customT")) +
+      "</span><b>" + esc(L(cu.drink)) + "</b><p>" + esc(L(cu.note)) + "</p></div></div>";
+    if (!p) return h + "</section>";
+    // Gelenek ile alkolsüz alternatif aynı içecekse ikincisini tekrar gösterme
+    var same = cu && norm(L(p.soft)).indexOf(norm(L(cu.drink)).split(" ")[0]) >= 0;
+    return h + '<div class="pair-h"><span class="pair-ic">🍷</span><div><h4>' + esc(t("pairT")) + "</h4><b>" + esc(L(p.style)) + "</b></div></div>" +
       '<div class="pair-w">' + p.wines.map(function (w, i) {
         return '<span class="pw' + (i === 0 && p.local ? " loc" : "") + '">' + esc(w) + (i === 0 && p.local ? " <em>" + esc(t("pairLocal")) + "</em>" : "") + "</span>";
       }).join("") + "</div>" +
       '<p class="pair-why"><b>' + esc(t("pairWhy")) + "</b> " + esc(L(p.why)) + "</p>" +
-      '<div class="pair-soft">🥤 <b>' + esc(t("pairSoft")) + ":</b> " + esc(L(p.soft)) + "</div>" +
+      (same ? "" : '<div class="pair-soft">🥤 <b>' + esc(t("pairSoft")) + ":</b> " + esc(L(p.soft)) + "</div>") +
       '<small>' + esc(t("pairNote")) + "</small></section>";
   }
   function relName(x) {
