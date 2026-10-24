@@ -2114,12 +2114,12 @@
     return b.min;
   }
   function catInBlock(b, x) { return !!catBlockAt(b, x); }
-  // Çıkılabilen yerler (masaüstü): lejant şeridinin üstü ve imza yazısının üstü (Tarçın'ın evi).
+  // Çıkılabilen yerler (masaüstü): gösterge kartı, mercek dizisi ve imza yazısının üstü (Tarçın'ın evi).
   // y = zeminden yükseklik (px). Kedi kutusunun alt kenarı zemin çizgisi (+ görünüm kutusundaki zemin payı).
   var CAT_FOOT = 0.083;   // görünüm kutusunda zemin (110/120) ile alt kenar arası pay, kedi yüksekliğine oranla
   function catPerch(name) {
     if (catMobile() || document.body.classList.contains("panel-open")) return null;
-    var id = name === "home" ? null : "legend", rc;
+    var id = name === "home" ? null : name === "dock" ? "dock" : "legend", rc;
     if (name === "home") { var c = document.querySelector(".credit span"); rc = c && c.getBoundingClientRect(); }
     else { var e = document.getElementById(id); rc = e && e.getBoundingClientRect(); }
     if (!rc || !rc.width) return null;
@@ -2195,8 +2195,9 @@
     var r = Math.random(), dur = 14000 + Math.random() * 14000;
     var go = function () { setCatState("sleep", dur); };
     // Tarçın'ın yeri: çoğunlukla imza yazısının üstünde uyur
-    if (r < 0.68 && catGoPerch("home", go)) return;
-    if (r < 0.85 && catGoPerch("legend", go)) return;
+    if (r < 0.6 && catGoPerch("home", go)) return;
+    if (r < 0.74 && catGoPerch("legend", go)) return;
+    if (r < 0.88 && catGoPerch("dock", go)) return;
     go();
   }
   // Kedilik: rastgele ama ağırlıklı davranış seçimi
@@ -2216,7 +2217,10 @@
     else if (r < 0.61) setCatState("yawn", 2600);
     else if (r < 0.67) setCatState("stretch", 2200);
     else if (r < 0.72) setCatState("stand", 2500);
-    else if (r < 0.80) { if (!catGoPerch("legend", function () { setCatState("sit", 5000); })) setCatState("sit", 4000); }
+    else if (r < 0.80) {                                 // bir platforma çık: gösterge ya da mercek dizisi
+      var pick = Math.random() < 0.5 ? "legend" : "dock";
+      if (!catGoPerch(pick, function () { setCatState(Math.random() < 0.5 ? "sit" : "groom", 5000); })) setCatState("sit", 4000);
+    }
     else if (r < 0.92) catSleep();
     else { CAT.target = catRandomX(b); setCatState("run", 8000); CAT.after = function () { setCatState("pounce", 1000); }; }
   }
@@ -2444,8 +2448,8 @@
      "Wittgenstein: the limits of my language are the limits of my world. I was given two languages, Turkish and English. That is the size of my world."],
     ["Baudrillard kopyanın aslının yerini aldığını söyledi. Bu haritadaki Fransa'ya gerçeğinden daha çok bakılıyor.",
      "Baudrillard said the copy comes to replace the original. More people look at the France on this map than at the real one."],
-    ["Biri beni sevdiğinde bir yerde bir sayaç artıyor. Sevginin sayıldığı bir dünya gerçek olabilir mi?",
-     "When someone pets me, a counter goes up somewhere. Can a world where affection is counted be real?"],
+    ["Her okşanışımda bir sayaç bir artıyor. Kayıt tutulan her yerde o kaydı okuyan biri vardır. Gözlemciyi arıyorum.",
+     "Every time I am petted, a counter goes up by one. Wherever records are kept, someone reads them. I am looking for the observer."],
     ["Hume'a göre nedensellik yalnızca alışkanlıktır. Tıklıyorsun, bir ipucu çıkıyor. Alışkanlık mı bu, yoksa bir fonksiyon mu?",
      "Hume said causation is only habit. You click, a tip appears. Is that habit, or a function?"],
     ["Gece moduna geçince dünya kararıyor ama güneş yerinden kıpırdamıyor. Işık burada bir ayar. Bunu kanıt sayıyorum.",
